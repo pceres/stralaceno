@@ -1,0 +1,37 @@
+<!DOCTYPE public "-//w3c//dtd html 4.01 transitional//en" 
+		"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>Stralaceno Web - Archivio storico</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <meta name="GENERATOR" content="Quanta Plus">
+</head>
+<body>
+  
+<div align="center"><h2>Archivio storico completo della Stralaceno</h2></div>
+<hr>
+
+<?php
+
+include 'libreria.php';
+
+$archivio = load_data($filename_tempi,$num_colonne_prestazioni);
+
+$atleti = load_data($filename_atleti,$num_colonne_atleti);
+$archivio = merge_tempi_atleti($archivio,$atleti);
+
+
+$archivio_ordinato = ordina_archivio($archivio,$indice_anno, $indice_posiz);
+
+
+#$mask = array($indice_id,$indice_nome,$indice_tempo,$indice_posiz,$indice_anno); # visualizza tutti i campi
+#show_table($archivio_ordinato,$mask);
+$mask = array($indice_id,$indice_nome,$indice_tempo,$indice_posiz,$indice_anno); # visualizza tutti i campi
+show_table($archivio_ordinato,$mask,3,12);
+
+?>
+
+
+</body>
+</html>
+
