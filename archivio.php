@@ -49,8 +49,8 @@ Archivio storico annuale (tutti i risultati di un anno):
 <select name="anno">
 
 <?php
-$elenco_anni = array();
-$elenco_i = array();
+$elenco_anni = array();	# elenco degli anni in archivio
+$elenco_i = array();		# elenco delle i in corrispondenza delle quali trovare gli anni
 for ($i = 1; $i < count($archivio); $i++) {
 	$prestazione = $archivio[$i];
 	$anno = $prestazione[$indice_anno];
@@ -63,7 +63,7 @@ for ($i = 1; $i < count($archivio); $i++) {
 array_multisort($elenco_anni,SORT_DESC, SORT_NUMERIC, $elenco_i,SORT_ASC, SORT_NUMERIC);
 	
 for ($i = 0; $i < count($elenco_anni); $i++) {
-	echo "<option value=\"".$elenco_i[$i]."\">".$elenco_anni[$i]."</option>\n";
+	echo "<option value=\"".$elenco_anni[$i]."\">".$elenco_anni[$i]."</option>\n";
 	}
 ?>	
 
