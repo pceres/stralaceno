@@ -128,7 +128,7 @@ selezioni di qualsiasi campo select all'interno del documento.
 			</td></tr>
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
-				<a href="filtro8.php" name="grafico tempi" class="txt_link">Grafico andamento tempi negli anni</a>
+				<a name="grafico tempi" class="txt_link">Grafico andamento tempi negli anni</a>
 			</td></tr>
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
