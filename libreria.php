@@ -56,8 +56,8 @@ $filename_counter 		= "dati/counter.txt";
 
 #varie
 $email_info		= "stralaceno@freepass.it";
-$symbol_1_partecipazione= '<img src="/work/stralaceno2/images/0x2606(star).bmp" height="15" alt="1a partecipazione" vertical-align="center">';
-$symbol_record  		= '<img src="/work/stralaceno2/images/0x263A(smiling_face).bmp" height="15" alt="record personale" vertical-align="center">';
+$symbol_1_partecipazione= '<img src="/work/stralaceno2/images/0x2606(star).bmp" height="15" alt="1a partecipazione" vertical-align="center" border=\"0\" margin=\"0\">';
+$symbol_record  		= '<img src="/work/stralaceno2/images/0x263A(smiling_face).bmp" height="15" alt="record personale" vertical-align="center" border=\"0\" margin=\"0\">';
 
 $indici = array('indice_id' => $indice_id,'indice_nome' => $indice_nome,'indice_posiz' => $indice_posiz,'indice_tempo' => $indice_tempo,'indice_anno' => $indice_anno,'indice_nota' => $indice_nota,'num_colonne_prestazioni' => $num_colonne_prestazioni,'indice_info' => $indice_info);
 $indici2 = array('indice2_id' => $indice2_id,'indice2_nome' => $indice2_nome,'indice2_sesso' => $indice2_sesso,'indice2_titolo' => $indice2_titolo,'indice2_data_nascita' => $indice2_data_nascita,'indice2_peso' => $indice2_peso,'indice2_link' => $indice2_link,'num_colonne_atleti'  => $num_colonne_atleti);
@@ -162,31 +162,21 @@ for ($i = 1; $i < count($archivio); $i++) {
 	
 
 	# stile riga:
-	$style_row = "style=\"";
-	#$style_row = "style=\"height:1.4em;";
-	if ($font_size != -1) {
-		$style_row .= "font-size: $font_size;";
-		}
-	
-	# primo arrivato in grassetto
+	$style_row = " ";
+
+	# primo arrivato
 	if ($prestazione[$indice_posiz] == 1) {
-		$style_row .= "font-weight: bold;";
+		$style_row .= "id=\"primo\" ";
 		}
 
-	# atleti donna con sfondo rosa
 	if ($prestazione[$indice_info][$indice2_sesso] == "F") {
-		$style_row .= "background-color: $style_sfondo_femmine;";
-		#$style .= "class=\"atleta_femmina\"";
-		}
-
-	# atleti maschi con sfondo celeste
-	if ($prestazione[$indice_info][$indice2_sesso] == "M") {
-		$style_row .= "background-color: $style_sfondo_maschi;";
-		#$style .= "class=\"atleta_maschio\"";
-		}
-
-	$style_row .= "\"";
-
+		# atleti donna
+		$style_row .= "class=\"atleta_femmina\" ";
+	}
+	elseif ($prestazione[$indice_info][$indice2_sesso] == "M") {
+		# atleti maschi
+		$style_row .= "class=\"atleta_maschio\" ";
+	}
 
 	echo "<tr ".$style_row.">";
 
@@ -238,7 +228,7 @@ for ($i = 1; $i < count($archivio); $i++) {
 # eventuali righe vuote
 $resto = (ceil((count($archivio)-1)/$num_colonne))*$num_colonne-count($archivio)+1;
 for ($temp = 0; $temp < $resto; $temp++) {
-	echo "<tr style=\"font-size:12;\"><td>&nbsp;<sup>&nbsp;</sup></td></tr>\n";
+	echo "<tr style=\"font-size:12;\" colspan=".count($mask)."><td>&nbsp;<sup>&nbsp;</sup></td></tr>\n";
 }
 
 # chiudi l'ultima colonna

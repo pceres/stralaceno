@@ -80,13 +80,15 @@ table.article_group H3 {
 /*---------------------------  Tabelle  -------------------------------------- */
 
 body.tabella {
-	color:rgb(51,102,153);
+/*	color:rgb(51,102,153);*/
+	color:rgb(34,68,102);
 	background:#FFF6F0;
 	}
 
 .titolo_tabella {
 	text-align:center;
 	font-weight:bold;
+	font-size:1.2em;
 	}
 	
 table.tabella {
@@ -129,10 +131,27 @@ table.tabella table thead th {
 	border:1px solid rgb(170, 170, 170);
 	}
 
+/* sfondo azzurro per i maschi */
+tr.atleta_maschio {
+	/*background:rgb(249,255,255);*/
+	background:rgb(251,255,255);
+	}
+
+/* sfondo rosa per le femmine */
+tr.atleta_femmina {
+	background:rgb(255,234,234);
+	}
+
+/* caratteri in grassetto per il primo arrivato */
+tr#primo {
+	font-weight:bold;
+	}
+
 
 /*---------------------------  Legenda  -------------------------------------- */
 table.tabella_legenda {
-	font-size:12px;	
+	/*font-size:12px;	*/
+	font-size:0.8em;
 	}
 
 table.tabella_legenda td.descrizione {
