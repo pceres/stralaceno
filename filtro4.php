@@ -8,9 +8,6 @@
 </head>
 <body>
   
-<!--div align="center"><h2>Archivio storico annuale della Stralaceno</h2></div>
-<hr-->
-
 <?php
 
 include 'libreria.php';
@@ -20,9 +17,7 @@ $archivio = load_data($filename_tempi,$num_colonne_prestazioni);
 $atleti = load_data($filename_atleti,$num_colonne_atleti);
 $archivio = merge_tempi_atleti($archivio,$atleti);
 
-
-$i_anno = $_REQUEST['anno']; 				# prestazione da cui prendere l'anno
-$anno = $archivio[$i_anno][$indice_anno];
+$anno = $_REQUEST['anno']; 				# anno richiesto
 
 echo "<div align=\"center\"><b>Stralaceno ".$anno." - risultati ufficiali</b> :</div>";
 
@@ -34,8 +29,10 @@ $archivio_filtrato = filtra_archivio($archivio,$lista_regola_campo,$lista_regola
 
 $archivio_ordinato = ordina_archivio($archivio_filtrato,$indice_posiz, $indice_nome);
 
-$mask = array($indice_id,$indice_nome,$indice_tempo,$indice_posiz,'simb'); # escludo l'anno
-show_table($archivio_ordinato,$mask,3,12);
+$archivio_rielaborato = fondi_nome_id($archivio_ordinato, $indice_nome, $indice_id);
+
+$mask = array($indice_posiz,$indice_nome,$indice_tempo,'simb'); # escludo l'anno
+show_table($archivio_rielaborato,$mask,3,12);
 ?>
 
 <br>

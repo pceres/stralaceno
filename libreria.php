@@ -321,6 +321,31 @@ return $archivio_ordinato;
 }
 
 
+
+function fondi_nome_id($archivio,$indice_nome,$indice_id) {
+
+# dichiara variabili
+extract(indici());
+
+$titolo=$archivio[0];
+$titolo[$indice_nome]="$titolo[$indice_nome] ($titolo[$indice_id])";
+$archivio_out = array($titolo);
+
+for ($i = 1; $i < count($archivio); $i++) {
+	$record = $archivio[$i];
+	
+	$nome = $record[$indice_nome];
+	$id = $record[$indice_id];
+	$record[$indice_nome] = "$nome ($id)";
+
+	array_push($archivio_out,$record);
+	}
+
+return $archivio_out;
+}
+
+
+
 function mostro_link($atleta) {
 
 # dichiara variabili
