@@ -258,6 +258,7 @@ if (count($note) > 0) {
 
 
 function filtra_archivio($archivio,$lista_campi,$lista_valori) {
+# per filtrare su un sottocampo di $archivio,  basta passare un array, ad esempio per filtrare sulle femmine $lista_campi=array($indice_info,$indice2_sesso);$lista_valori='F'
 
 $archivio_filtrato = array($archivio[0]); # aggiungi l'header
 for ($i = 1; $i < count($archivio); $i++) {
@@ -266,8 +267,16 @@ for ($i = 1; $i < count($archivio); $i++) {
 	$ok = TRUE;
 	
 	for ($ii = 0; $ii < count($lista_campi); $ii++) {
-		if (trim($prestazione[$lista_campi[$ii]]) != trim($lista_valori[$ii])) {
-			$ok = FALSE;
+		$campo = $lista_campi[$ii];
+		if (count($campo) == 1) {
+			if (trim($prestazione[$campo]) != trim($lista_valori[$ii])) {
+				$ok = FALSE;
+				}
+			}
+		elseif (count($campo) == 2) {
+			if (trim($prestazione[$campo[0]][$campo[1]]) != trim($lista_valori[$ii])) {
+				$ok = FALSE;
+				}
 			}
 		}
 	
