@@ -2,6 +2,12 @@
 inizio footer
 -->
 	<hr>
+
+	<!--table width="100%">
+	  <tr>
+	     <td>
+	<table align="left"-->
+
 	<table align="center">
 	  <tbody>
 	  
@@ -30,6 +36,25 @@ inizio footer
 		
 	  </tbody>
 	</table>
+
+	     <!--/td>
+	     <td align="right">
+	
+	<table><tr><td>
+	<div align="right"><i>
+	L'archivio e' stato consultato 
+	<php $counter = action_counter($filename_counter); 		echo $counter; ?>
+	 volte.
+	</i>
+	</div>
+	</td></tr></table>
+
+	     <td>
+
+	     </td>
+	  </tr>
+	</table-->
+
 <!-- 
 fine footer
 -->
