@@ -14,8 +14,8 @@ inizio colonna centrale
    <table width="100%" border="0" cellspacing="" cellpadding="5" bgcolor="#ffffff"><tbody>
 	
 <?php echo $open_border;?>
-		<h3>L'altopiano del Laceno</h3>
-		<div align="justify" class="txt_articolo"> <!-- style="font-family:Comic sans ms, Arial, Verdana, Helvetica, sans-serif"-->
+		<h3 class="titolo_articolo">L'altopiano del Laceno</h3>
+		<div align="justify" class="txt_articolo">
 			<p>Laceno è ritenuto uno degli altopiani più ameni dell'appennino meridionale. 
 Chi arriva da Caposele, per la strada interna montana, affacciandosi sull'altopiano subisce
 un piacevole impatto con la bellezza del luogo.
@@ -45,8 +45,8 @@ precisamente la parte nord, come Foce di Caposele.
 <?php echo $close_border;?>
 	
 <?php echo $open_border;?>
-		<h3>Presentazione</h3>
-		<div align="justify" class="txt_articolo"> <!--style="font-family:Comic sans ms, Arial, Verdana, Helvetica, sans-serif"-->
+		<h3 class="titolo_articolo">Presentazione</h3>
+		<div align="justify" class="txt_articolo">
 			<p>Dal 1987, nel suggestivo paesaggio dell'altopiano di Laceno, ogni anno gli sportivi di Caposele si sfidano 
 tradizionalmente in una corsa di mezzofondo.<p>La manifestazione &egrave; di carattere amatoriale, ma non per questo &egrave; meno vivo il sano senso di competizione tra i 
 partecipanti, i quali, sebbene animati da differenti motivazioni individuali, acquisiscono tutti pari dignit&agrave; nel momento in cui accettano, per Sport, di vivere un momento di intenso impegno fisico. Il che per alcuni si traduce nel 
@@ -57,8 +57,8 @@ prestabilito<a href="/work/stralaceno2/presentazione.htm" title="presentazione">
 <?php echo $close_border;?>
 
 <?php echo $open_border;?>
-		<h3>Edizione 2004</h3>
-		<div align="justify" class="txt_articolo"> <!--style="font-family:Comic sans ms, Arial, Verdana, Helvetica, sans-serif"-->
+		<h3 class="titolo_articolo">Edizione 2004</h3>
+		<div align="justify" class="txt_articolo">
 			<p>L'ultima competizione, svoltasi il 3 settembre 2004, ha visto una notevole partecipazione di corridori amatoriali, 
 oltre cinquanta.
 			<p>Primo classificato, col tempo di 20' 10'', &egrave; risultato <b>Gelsomino Merola</b>, vincitore per l'undicesima volta. Secondo 

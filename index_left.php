@@ -9,10 +9,8 @@ for ($ii = 1; $ii < count($archivio); $ii++) {
 $elenco_anni = array_unique($elenco_anni); # elimina gli anni duplicati
 $elenco_anni = array_reverse($elenco_anni); # inverti l'ordine
 
-$colore_bordo_left = '#FFFFFF';#$colore_bordo;#'#FFFFFF';
-
-$open_border = "\t<tr><td><table width=\"95%\" border=\"0\" cellspacing=\"0\" align=\"center\" bgcolor=\"$colore_bordo_left\"><tbody><tr><td>\n\t   <table width=\"100%\" border=\"0\" cellspacing=\"\" cellpadding=\"5\" bgcolor=\"$colore_sfondo\"><tbody><tr><td>\n";
-$close_border = "\t   </td></tr></tbody></table>\n\t</td></tr></tbody></table></td></tr>\n\n";
+$open_border = "\t<tr><td>\n\t   <table width=\"100%\" border=\"0\" cellspacing=\"\" cellpadding=\"5\" bgcolor=\"$colore_sfondo\"><tbody><tr><td>\n";
+$close_border = "\t   \n\t</td></tr></tbody></table></td></tr>\n\n";
 
 ?>
 <!-- 
@@ -23,7 +21,7 @@ inizio colonna sinistra
 	
 	
 <?php echo $open_border?>
-		<strong>La corsa:</strong>
+		<span class="titolo_colonna">La corsa:</span>
 		 <table cellpadding="0" cellspacing="0">
 		  <tbody>
 			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td nowrap>
@@ -40,7 +38,7 @@ inizio colonna sinistra
 <?php echo $close_border?>
 
 <?php echo $open_border?>
-		<strong>Cronaca corrente:</strong>
+		<span class="titolo_colonna">Cronaca corrente:</span>
 		 <table cellpadding="0" cellspacing="0">
 		  <tbody>
 
@@ -65,7 +63,7 @@ inizio colonna sinistra
 <?php echo $close_border?>
 
 <?php echo $open_border?>
-		<strong>Link</strong>
+		<span class="titolo_colonna">Link</span>
 		 <table cellpadding="0" cellspacing="0">
 		  <tbody>
 			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
