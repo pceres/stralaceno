@@ -57,7 +57,7 @@ $archivio_rielaborato = fondi_nome_id($archivio_record, $indice_nome, $indice_id
 #$mask = array($indice_id,$indice_nome,$indice_tempo,$indice_posiz,$indice_anno); # visualizza tutti i campi
 #show_table($archivio_record,$mask);
 $mask = array($indice_posiz,$indice_nome,$indice_tempo,$indice_anno); # visualizza tutti i campi
-show_table($archivio_rielaborato,$mask,3,12);
+show_table($archivio_rielaborato,$mask,3,12,0); # tabella in tre colonne, font 12, senza note
 
 ?>
 
