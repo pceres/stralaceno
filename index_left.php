@@ -51,10 +51,10 @@ inizio colonna sinistra
 		}
 ?>
 			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
-				<a href="filtro9.php" name="migliori prestazioni">Classifica personali</a></li>
+				<a href="filtro9.php" name="migliori prestazioni">Classifica personali</a>
 			</td></tr>
 			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
-				<a href="filtro10.php" name="migliori prestazioni femminili">Classifica personali femminili</a></li>
+				<a href="filtro10.php" name="migliori prestazioni femminili">Classifica personali femminili</a>
 			</td></tr>
 		  </tbody>
 		 </table>
@@ -77,7 +77,7 @@ inizio colonna sinistra
 		 </table>
 <?php echo $close_border?>
 	
-   </td></tr></tbody></table>
+   </tbody></table>
 </td></tr></tbody></table>
 <!-- 
 fine colonna sinistra

@@ -39,10 +39,20 @@ function valida(pform,tipo,check_null)
 }
 
 
-function azzera(pselect)
+function azzera_input()
 {
-	/*alert(pselect.value);*/
-	pselect.value = 0;
+/*
+Questa funzione, da richiamare in seguito all'evento onLoad del tag <body>, azzera tutte le eventuali precedenti
+selezioni di qualsiasi campo select all'interno del documento.
+*/
+	for (i = 0; i < document.forms.length; i++) {
+		for (ii = 0; ii < document.forms[i].elements.length; i++) {
+		   //alert(document.forms[i].name+' '+document.forms[i].elements[ii].name+' '+document.forms[i].elements[ii].type);
+		   if (document.forms[i].elements[ii].type == 'select-one') {
+			   document.forms[i].elements[ii].value = 0;
+		   }
+		}
+	}
 }
 
 //-->
@@ -59,9 +69,9 @@ function azzera(pselect)
 		 <table cellpadding="0" cellspacing="0">
 		  <tbody>
 			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
-				<table><form action="filtro4.php" method="POST" name="form_anno">
+				<div style="display: inline;"><form action="filtro4.php" method="POST" name="form_anno" style="display: inline; margin: 0;">
 				Archivio storico annuale (tutti i risultati di un anno):
-				<select name="anno" onchange="valida(this.form,'anno')" onclick="azzera(this)">
+				<select name="anno" onChange="valida(this.form,'anno')">
 					<option value="0"></option>
 <?php
 			$elenco_anni = array();		# elenco degli anni in archivio
@@ -82,15 +92,14 @@ function azzera(pselect)
 				}
 ?>	
 				</select>
-				<!--br><a href="javascript:valida(document.form_anno,'anno',1)" onclick="valida(this.form,'anno')">vai</a-->
-				</form></table>
+				</form></div>
 			</td></tr>
 
 
 			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
-				<table><form action="filtro2.php" method="POST" name="form_atleta">
-				Archivio storico personale:
-				<select name="nome" onchange="valida(this.form,'nome')" onclick="azzera(this)">
+				<div style="display: inline;"><form action="filtro2.php" method="POST" name="form_atleta" style="display: inline; margin: 0;">
+				Archivio storico personale:<br>
+				<select name="nome" onChange="valida(this.form,'nome')">
 					<option value="0"></option>
 <?php
 			$elenco_nomi = array();
@@ -121,8 +130,7 @@ function azzera(pselect)
 				}
 ?>	
 				</select>
-				<!--br><a href="javascript:valida(document.form_atleta,'nome',1)">vai</a-->
-				</form></table>
+				</form></div>
 			</td></tr>
 
 			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
@@ -149,7 +157,7 @@ function azzera(pselect)
 		 </table>
 <?php echo $close_border?>
 
-   </td></tr></tbody></table>
+   </tbody></table>
 </td></tr></tbody></table>
 
 	<div align="right"><i>
