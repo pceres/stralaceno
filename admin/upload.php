@@ -29,6 +29,11 @@ if ($password_ok == $password) {
 if ($ok == TRUE) {
 	if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploaddir . $new_name)) { 
 		print "Il file $new_name è stato inviato con successo.\n"; 
+
+		$file = fopen($uploaddir . 'something_changed.txt', "a");
+		fputs($file, $uploaddir . $new_name . ", " . date("l dS of F Y h:i:s A") . ' \n');
+		fclose($file);
+
 		#print_r($_FILES);
 	} else {
 		print "Possibile attacco tramite file upload! Alcune informazioni:\n"; 

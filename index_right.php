@@ -65,7 +65,7 @@ selezioni di qualsiasi campo select all'interno del documento.
 <?php echo $open_border?>
 
 
-		<strong>Approfondimenti:</strong>
+		<span class="titolo_colonna">Approfondimenti:</span>
 		 <table cellpadding="0" cellspacing="0">
 		  <tbody>
 			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>

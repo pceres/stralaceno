@@ -1,35 +1,18 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-<?php include 'libreria.php'; ?>
 <head>
   <title>Stralaceno Web</title>
   <meta http-equiv="Content-Type"
  content="text/html; charset=ISO-8859-1">
-  <meta name="GENERATOR" content="Quanta Plus">
-  
-  <style type="text/css">
-	/*body {font-family:Arial,Tahoma,Verdana;
-		  font-size:0.75em;
-		  color:<?php echo $colore_blu_stralaceno; ?>
-		 }*/
-	.txt_link {font-family:Arial,Tahoma,Verdana;
-		    font-size:0.75em;
-			color:<?php echo $colore_blu_stralaceno; ?>
-		   }
-	.txt_articolo {font-family:Arial,Tahoma,Verdana;
-		    font-size:0.75em;
-			color:<?php echo $colore_blu_stralaceno; ?>
-		   }
-	.txt_normal {font-family:Arial,Tahoma,Verdana;
-		    font-size:0.75em;
-			color:<?php echo $colore_blu_stralaceno; ?>
-		   }
-  </style>
-  
+  <meta name="generator" content="Quanta Plus">
+  <meta name="description" content="Sito ufficiale della Stralaceno">
+  <meta name="keywords" content="Stralaceno, Caposele, Caposelesi, Corsa podistica, Atletica, Lago Laceno, Laceno">
+  <style type="text/css">@import "/work/stralaceno2/css/stralaceno.css";</style>
 </head>
 <body onLoad="azzera_input()">
 
 <?php
+include 'libreria.php';
 $archivio = load_data($filename_tempi,$num_colonne_prestazioni); # carica i dati relativi a tutti gli anni
 
 $colore_bordo = '#336699'; # colore blu ufficiale del sito
