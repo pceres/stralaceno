@@ -7,7 +7,7 @@
   <meta name="generator" content="Quanta Plus">
   <meta name="description" content="Sito ufficiale della Stralaceno">
   <meta name="keywords" content="Stralaceno, Caposele, Caposelesi, Corsa podistica, Atletica, Lago Laceno, Laceno">
-  <style type="text/css">@import "/work/stralaceno2/css/stralaceno.css";</style>
+  <style type="text/css">@import "css/stralaceno.css";</style>
 </head>
 <body onLoad="azzera_input()">
 
