@@ -1,8 +1,10 @@
 grafico_tempi:5
 classifica_generale_F:3
 classifica_generale_tempi:2
-classifica_generale_MF:5
-albo_d_oro:5
-tempi_atleta:6
-homepage:492
-classifica_anno:8
+classifica_generale_F:5
+grafico_tempi:8
+tempi_atleta:11
+albo_d_oro:9
+classifica_generale_MF:11
+classifica_anno:54
+homepage:556
