@@ -5,7 +5,7 @@
   <title>Stralaceno Web - Classifica record personali</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
-  <style type="text/css">@import "css/stralaceno.css";</style>
+  <style type="text/css">@import "/work/stralaceno2/css/stralaceno.css";</style>
 </head>
 <body class="tabella">
   

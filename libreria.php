@@ -176,11 +176,13 @@ for ($i = 1; $i < count($archivio); $i++) {
 	# atleti donna con sfondo rosa
 	if ($prestazione[$indice_info][$indice2_sesso] == "F") {
 		$style_row .= "background-color: $style_sfondo_femmine;";
+		#$style .= "class=\"atleta_femmina\"";
 		}
 
 	# atleti maschi con sfondo celeste
 	if ($prestazione[$indice_info][$indice2_sesso] == "M") {
 		$style_row .= "background-color: $style_sfondo_maschi;";
+		#$style .= "class=\"atleta_maschio\"";
 		}
 
 	$style_row .= "\"";
