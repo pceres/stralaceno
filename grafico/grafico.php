@@ -193,6 +193,7 @@ else {
 			$arr=split("\t",$newline);
 			$x=$arr[0];
 			$y=$arr[1];
+
 			if ($x<$min_x) $min_x=$x;
 			if ($x>$max_x) $max_x=$x;
 			if ($y<$min_y) $min_y=$y;

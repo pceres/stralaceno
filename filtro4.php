@@ -1,4 +1,3 @@
-#!/usr/local/bin/php
 <!DOCTYPE public "-//w3c//dtd html 4.01 transitional//en" 
 		"http://www.w3.org/TR/html4/loose.dtd">
 <html>

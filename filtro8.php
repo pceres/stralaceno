@@ -1,4 +1,3 @@
-#!/usr/local/bin/php
 <!DOCTYPE public "-//w3c//dtd html 4.01 transitional//en" 
 		"http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -63,8 +62,8 @@ array_multisort($elenco_cognomi,SORT_ASC, SORT_STRING,$elenco_nomi,SORT_ASC, SOR
 ?>
 
 
-<!--form action="http://members.lycos.co.uk/pceres/stralaceno/grafico/crea_grafico.php" method="POST"-->
-<form action="grafico/crea_grafico.php" method="POST">
+<form action="http://members.lycos.co.uk/pceres/stralaceno/grafico/crea_grafico.php" method="POST">
+<!--form action="grafico/crea_grafico.php" method="POST"-->
 
 <table>
 	<tr>
