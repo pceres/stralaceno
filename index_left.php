@@ -27,7 +27,7 @@ inizio colonna sinistra
 		 <table cellpadding="0" cellspacing="0">
 		  <tbody>
 			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
-				<a href="/work/stralaceno2/presentazione.htm" name="presentazione">Cos'&egrave; la Stralaceno?</a>
+				<a href="presentazione.htm" name="presentazione">Cos'&egrave; la Stralaceno?</a>
 			</td></tr>
 			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
 				<a href="filtro7.php" name="Albo d'oro">Albo d'oro</a>
@@ -51,10 +51,10 @@ inizio colonna sinistra
 		}
 ?>
 			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
-				<a href="/my_cgi-bin/stralaceno2/filtro9.php" name="migliori prestazioni">Classifica personali</a></li>
+				<a href="filtro9.php" name="migliori prestazioni">Classifica personali</a></li>
 			</td></tr>
 			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
-				<a href="/my_cgi-bin/stralaceno2/filtro10.php" name="migliori prestazioni femminili">Classifica personali femminili</a></li>
+				<a href="filtro10.php" name="migliori prestazioni femminili">Classifica personali femminili</a></li>
 			</td></tr>
 		  </tbody>
 		 </table>
