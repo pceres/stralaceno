@@ -3,13 +3,13 @@
 		"http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-  <title>Stralaceno Web - Classifica record personali</title>
+  <title>Stralaceno Web - Classifica record personali femminili</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
 </head>
 <body>
   
-<div align="center"><h2>Classifica record personali</h2></div>
+<div align="center"><h2>Classifica record personali femminili</h2></div>
 <hr>
 
 <?php

@@ -20,9 +20,8 @@ inizio colonna centrale
 		<h3>Presentazione</h3>
 		<div align="justify">
 			<p>Dal 1987, nel suggestivo paesaggio dell'altopiano di Laceno, ogni anno gli sportivi di Caposele si sfidano 
-tradizionalmente in una corsa di mezzofondo.</p>La manifestazione è di carattere amatoriale, ma non per questo è meno vivo il sano senso di competizione tra i 
-partecipanti, i quali, sebbene animati da differenti motivazioni individuali, acquisiscono tutti pari dignità nel 
-momento in cui accettano, per Sport, di vivere un momento di intenso impegno fisico. Il che per alcuni si traduce nel 
+tradizionalmente in una corsa di mezzofondo.</p>La manifestazione &egrave; di carattere amatoriale, ma non per questo &egrave; meno vivo il sano senso di competizione tra i 
+partecipanti, i quali, sebbene animati da differenti motivazioni individuali, acquisiscono tutti pari dignit&agrave; nel momento in cui accettano, per Sport, di vivere un momento di intenso impegno fisico. Il che per alcuni si traduce nel 
 correre per una migliore posizione in classifica, per altri in una semplice verifica del proprio stato di forma fisica, 
 per altri ancora, non meno rispettabili, nel tentativo di raggiungimento del traguardo entro il tempo massimo 
 prestabilito<a href="presentazione.htm" title="presentazione">...</a></p>
@@ -37,7 +36,7 @@ oltre cinquanta.</p><p>Primo classificato, col tempo di 20' 10'', &egrave; risul
 classificato &egrave; <b>Gianfranco Di Vincenzo</b>, che, ottenendo l'ottimo tempo di 21' 20'', ha conquistato il terzo posto nella 
 <a href="filtro9.php">classifica generale dei partecipanti alla Stralaceno</a>. Al terzo posto si &egrave; classificato <b>Paolo 
 Viscardi</b> con 22' 56''. 
-			<a href="filtro4.php?anno=395">L'ordine d'arrivo completo dell'edizione 2004 della Stralaceno &egrave; consultabile qui</a>.</p>
+			<a href="filtro4.php?anno=2004">L'ordine d'arrivo completo dell'edizione 2004 della Stralaceno &egrave; consultabile qui</a>.</p>
 			<p>Il prossimo appuntamento &egrave; fissato per fine estate dell'anno prossimo.</p>
 		</div>
 <?php echo $close_border;?>
