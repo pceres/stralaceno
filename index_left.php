@@ -48,7 +48,7 @@ inizio colonna sinistra
 				<span class="txt_link">Ultime edizioni:</span>
 <?php
 		for ($i = 0; $i < $numero_anni; $i++) {
-			echo "\t\t\t\t<br><span class=\"txt_link\">&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"filtro4.php?anno=$elenco_anni[$i]\">Edizione $elenco_anni[$i]</a></span>\n";
+			echo "\t\t\t\t<br>&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"filtro4.php?anno=$elenco_anni[$i]\" class=\"txt_link\">Edizione $elenco_anni[$i]</a>\n";
 		}
 ?>
 			</td></tr>
