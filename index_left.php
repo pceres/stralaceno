@@ -33,7 +33,7 @@ inizio colonna sinistra
 		<strong>Cronaca corrente:</strong>
 <?php
 		for ($i = 0; $i < $numero_anni; $i++) {
-			echo "\t\t<br>&#8250&nbsp;<a href=\"filtro4.php?anno=$elenco_anni[$i]\">Edizione $elenco_anni[$i]</a>\n";
+			echo "\t\t<br>&#8250&nbsp;&nbsp&nbsp&nbsp&nbsp<a href=\"filtro4.php?anno=$elenco_anni[$i]\">Edizione $elenco_anni[$i]</a>\n";
 		}
 ?>
 		<br>&#8250&nbsp;<a href="filtro9.php" name="migliori prestazioni">Classifica personali</a></li>
@@ -44,6 +44,7 @@ inizio colonna sinistra
 		<strong>Link</strong>
 		<br>&#8250&nbsp;<a href="http://www.caposeleonline.it" name="Caposeleonline">Caposeleonline</a>
 		<br>&#8250&nbsp;<a href="http://www.lagolaceno.it/" name="Lago Laceno">Lago Laceno</a>
+		<br>&#8250&nbsp;<a href="http://www.skilaceno.com/" name="skilaceno">Sciare a Laceno</a>
 <?php echo $close_border?>
 	
    </td></tr></tbody></table>
