@@ -12,24 +12,24 @@
 
 include 'libreria.php';
 
-#phpinfo();
+# visualizza header http
+print_r($_SERVER);
 
-
-#$counter = action_counter('counter.txt');
-#echo "#$counter";
-
-
+# prova a leggere da remoto un file tramite ftp
+echo "<p>Provo a leggere counter.txt:<br>\n";
 $filename = 'ftp://pceres:avellino@pceres.altervista.org/stralaceno/dati/counter.txt';
+#$filename = 'dati/counter.txt';
 $fp = fopen($filename,'r');
 
 $count = 0;
 while (!feof($fp) & ($count++ < 20)) {
+	echo "linea $count:";
 	$line = fgets($fp,1024);
-        print($line);
+    echo "$line<br>\n";
 	}
 fclose($fp);
+echo "Ho finito.\n";
 
-echo "Ho finito.";
 ?>
 
 
