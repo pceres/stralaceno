@@ -55,10 +55,13 @@ if ($puntatore != -1) {
 	$tabella[$puntatore][$indice_tempo] = "<h><div  style=\"text-decoration: underline;\">$tempo</div></h>";
 	}
 
-#$mask = array($indice_id,$indice_nome,$indice_posiz,$indice_tempo,$indice_anno);
-$mask = array($indice_id,$indice_nome,$indice_tempo,$indice_anno);
+$tabella_rielaborata = fondi_nome_id($tabella, $indice_nome, $indice_id);
 
-show_table($tabella,$mask);
+
+#$mask = array($indice_id,$indice_nome,$indice_posiz,$indice_tempo,$indice_anno);
+$mask = array($indice_nome,$indice_tempo,$indice_anno);
+
+show_table($tabella_rielaborata,$mask);
 
 
 ?>

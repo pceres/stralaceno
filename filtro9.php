@@ -21,7 +21,6 @@ $archivio = load_data($filename_tempi,$num_colonne_prestazioni);
 $atleti = load_data($filename_atleti,$num_colonne_atleti);
 $archivio = merge_tempi_atleti($archivio,$atleti);
 
-
 $archivio_ordinato = ordina_archivio($archivio,$indice_tempo, $indice_anno);
 
 
@@ -46,10 +45,14 @@ for ($i = 1; $i < count($archivio_ordinato); $i++) {
 		}
 	}
 
+
+$archivio_rielaborato = fondi_nome_id($archivio_record, $indice_nome, $indice_id);
+
+
 #$mask = array($indice_id,$indice_nome,$indice_tempo,$indice_posiz,$indice_anno); # visualizza tutti i campi
 #show_table($archivio_record,$mask);
-$mask = array($indice_posiz,$indice_id,$indice_nome,$indice_tempo,$indice_anno); # visualizza tutti i campi
-show_table($archivio_record,$mask,3,12);
+$mask = array($indice_posiz,$indice_nome,$indice_tempo,$indice_anno); # visualizza tutti i campi
+show_table($archivio_rielaborato,$mask,3,12);
 
 ?>
 

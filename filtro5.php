@@ -21,6 +21,8 @@ $archivio = load_data($filename_tempi,$num_colonne_prestazioni);
 $atleti = load_data($filename_atleti,$num_colonne_atleti);
 #$archivio = merge_tempi_atleti($archivio,$atleti);
 
+$atleti = fondi_nome_id($atleti, $indice_nome, $indice_id);
+
 $tabella = array();
 $elenco_anni = array();
 for ($i = 1; $i < count($archivio); $i++) {
@@ -44,7 +46,7 @@ for ($i = 1; $i < count($archivio); $i++) {
 	}
 
 
-$head = array_merge("Atleta",$elenco_anni);
+$head = array_merge("Atleta (ID)",$elenco_anni);
 
 # disegna tabella
 echo "<table border=\"2\">\n";
