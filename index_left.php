@@ -24,27 +24,57 @@ inizio colonna sinistra
 	
 <?php echo $open_border?>
 		<strong>La corsa:</strong>
-		<br>&#8250&nbsp;<a href="presentazione.htm" name="presentazione">Cos'&egrave; la Stralaceno?</a>
-		<br>&#8250&nbsp;<a href="filtro7.php" name="Albo d'oro">Albo d'oro</a>
-		<br>&#8250&nbsp;<a name="regolamento">Stralcio regolamento</a>
+		 <table cellpadding="0" cellspacing="0">
+		  <tbody>
+			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
+				<a href="/work/stralaceno2/presentazione.htm" name="presentazione">Cos'&egrave; la Stralaceno?</a>
+			</td></tr>
+			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
+				<a href="filtro7.php" name="Albo d'oro">Albo d'oro</a>
+			</td></tr>
+			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
+				<a name="regolamento">Stralcio regolamento</a>
+			</td></tr>
+		  </tbody>
+		 </table>
 <?php echo $close_border?>
 
 <?php echo $open_border?>
 		<strong>Cronaca corrente:</strong>
+		 <table cellpadding="0" cellspacing="0">
+		  <tbody>
 <?php
 		for ($i = 0; $i < $numero_anni; $i++) {
-			echo "\t\t<br>&#8250&nbsp;&nbsp&nbsp&nbsp&nbsp<a href=\"filtro4.php?anno=$elenco_anni[$i]\">Edizione $elenco_anni[$i]</a>\n";
+			echo "\t\t\t<tr><td style=\"vertical-align: top;\">&#8250;&nbsp;</td><td>\n";
+			echo "\t\t\t\t&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"filtro4.php?anno=$elenco_anni[$i]\">Edizione $elenco_anni[$i]</a>\n";
+			echo "\t\t\t</td></tr>\n";
 		}
 ?>
-		<br>&#8250&nbsp;<a href="filtro9.php" name="migliori prestazioni">Classifica personali</a></li>
-		<br>&#8250&nbsp;<a href="filtro10.php" name="migliori prestazioni femminili">Classifica personali femminili</a></li>
+			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
+				<a href="/my_cgi-bin/stralaceno2/filtro9.php" name="migliori prestazioni">Classifica personali</a></li>
+			</td></tr>
+			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
+				<a href="/my_cgi-bin/stralaceno2/filtro10.php" name="migliori prestazioni femminili">Classifica personali femminili</a></li>
+			</td></tr>
+		  </tbody>
+		 </table>
 <?php echo $close_border?>
 
 <?php echo $open_border?>
 		<strong>Link</strong>
-		<br>&#8250&nbsp;<a href="http://www.caposeleonline.it" name="Caposeleonline">Caposeleonline</a>
-		<br>&#8250&nbsp;<a href="http://www.lagolaceno.it/" name="Lago Laceno">Lago Laceno</a>
-		<br>&#8250&nbsp;<a href="http://www.skilaceno.com/" name="skilaceno">Sciare a Laceno</a>
+		 <table cellpadding="0" cellspacing="0">
+		  <tbody>
+			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
+				<a href="http://www.caposeleonline.it" name="Caposeleonline">Caposeleonline</a>
+			</td></tr>
+			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
+				<a href="http://www.lagolaceno.it/" name="Lago Laceno">Lago Laceno</a>
+			</td></tr>
+			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
+				<a href="http://www.skilaceno.com/" name="skilaceno">Sciare a Laceno</a>
+			</td></tr>
+		  </tbody>
+		 </table>
 <?php echo $close_border?>
 	
    </td></tr></tbody></table>
