@@ -1,17 +1,11 @@
 <!-- 
 inizio header
 -->
-	<table>
+	<table align="center">
 	  <tbody>
 	  
-		<tr width="20%">
-		  <td width="20%"> <img src="http://localhost/work/stralaceno2/images/sweb.gif" alt="logo_stralacenoweb"> </td>
-		  <!--td>
-			  <embed
-				 src="http://localhost/work/stralaceno2/images/filmatoflash300x70.swf" quality="high" alt="logo_stralacenoweb_flash"
-				 pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=3DShockwaveFlash"
-				 type="application/x-shockwave-flash">
-		    </td-->
+		<tr>
+		  <td> <img src="http://localhost/work/stralaceno2/images/sweb.gif" alt="logo_stralacenoweb"> </td>
 		</tr>
 		
 	  </tbody>
