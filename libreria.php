@@ -117,7 +117,7 @@ return $archivio;
 }
 
 
-function show_table($archivio,$mask,$num_colonne = 1,$font_size = -1) {
+function show_table($archivio,$mask,$num_colonne = 1,$font_size = -1,$show_note = 1) {
 
 # dichiara variabili
 extract(indici());
@@ -201,7 +201,7 @@ for ($i = 1; $i < count($archivio); $i++) {
 		# campo tempo
 		if (array_key_exists("info",$prestazione) & ($mask[$temp] == $indice_tempo) ) {
 			$nota = trim($prestazione[$indice_nota]);
-			if (strlen($nota) > 0) {
+			if (($show_note) & (strlen($nota) > 0)) {
 				$id_nota = count($note)+1;
 				$ks = "<a href=\"#nota_".$id_nota."\">&sect;".$id_nota."</a>";
 				$campo .= " <small>".$ks."</small>";
