@@ -69,7 +69,7 @@ selezioni di qualsiasi campo select all'interno del documento.
 		 <table cellpadding="0" cellspacing="0">
 		  <tbody>
 			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
-				<div style="display: inline;"><form action="filtro4.php" method="SEND" name="form_anno" style="display: inline; margin: 0;">
+				<div style="display: inline;"><form action="filtro4.php" method="GET" name="form_anno" style="display: inline; margin: 0;">
 				<span class="txt_link">Archivio storico annuale (tutti i risultati di un anno):</span>
 				<select name="anno" onChange="valida(this.form,'anno')">
 					<option value="0"></option>
@@ -97,7 +97,7 @@ selezioni di qualsiasi campo select all'interno del documento.
 
 
 			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td style="max-width: 100px">
-				<div style="display: inline;"><form action="filtro2.php" method="SEND" name="form_atleta" style="display: inline; margin: 0;">
+				<div style="display: inline;"><form action="filtro2.php" method="GET" name="form_atleta" style="display: inline; margin: 0;">
 				<span class="txt_link">Archivio storico personale:</span><br>
 				<select name="nome" onChange="valida(this.form,'nome')">
 					<option value="0"></option>
