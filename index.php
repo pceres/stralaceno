@@ -1,5 +1,5 @@
 #!/usr/local/bin/php
-<!DOCTYPE HTML PUBLIC "-//w3c//dtd html 4.01 transitional//en" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
   <title>Stralaceno Web</title>
@@ -7,7 +7,7 @@
  content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
 </head>
-<body>
+<body onLoad="azzera_input()">
 
 <?php
 include 'libreria.php';
@@ -79,6 +79,9 @@ include("footer.php")
   </tbody>
 </table>
 
-
+<!-- la riga che segue e' il logo del validatore HTML W3C -->
+<!--p><a href="http://validator.w3.org/check?uri=referer"><img border="0" src="http://www.w3.org/Icons/valid-html401"
+	alt="Valid HTML 4.01!" height="31" width="88"></a-->
+	
 </body>
 </html>
