@@ -328,7 +328,8 @@ function fondi_nome_id($archivio,$indice_nome,$indice_id) {
 extract(indici());
 
 $titolo=$archivio[0];
-$titolo[$indice_nome]="$titolo[$indice_nome] ($titolo[$indice_id])";
+#$titolo[$indice_nome]="$titolo[$indice_nome] ($titolo[$indice_id])";
+$titolo[$indice_nome]="$titolo[$indice_nome] (num.)";
 $archivio_out = array($titolo);
 
 for ($i = 1; $i < count($archivio); $i++) {
