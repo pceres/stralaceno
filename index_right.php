@@ -69,8 +69,8 @@ selezioni di qualsiasi campo select all'interno del documento.
 		 <table cellpadding="0" cellspacing="0">
 		  <tbody>
 			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
-				<div style="display: inline;"><form action="filtro4.php" method="POST" name="form_anno" style="display: inline; margin: 0;">
-				Archivio storico annuale (tutti i risultati di un anno):
+				<div style="display: inline;"><form action="filtro4.php" method="SEND" name="form_anno" style="display: inline; margin: 0;">
+				<span class="txt_link">Archivio storico annuale (tutti i risultati di un anno):</span>
 				<select name="anno" onChange="valida(this.form,'anno')">
 					<option value="0"></option>
 <?php
@@ -96,9 +96,9 @@ selezioni di qualsiasi campo select all'interno del documento.
 			</td></tr>
 
 
-			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
-				<div style="display: inline;"><form action="filtro2.php" method="POST" name="form_atleta" style="display: inline; margin: 0;">
-				Archivio storico personale:<br>
+			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td style="max-width: 100px">
+				<div style="display: inline;"><form action="filtro2.php" method="SEND" name="form_atleta" style="display: inline; margin: 0;">
+				<span class="txt_link">Archivio storico personale:</span><br>
 				<select name="nome" onChange="valida(this.form,'nome')">
 					<option value="0"></option>
 <?php
@@ -134,23 +134,23 @@ selezioni di qualsiasi campo select all'interno del documento.
 			</td></tr>
 
 			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
-				<a href="filtro6.php" name="Archivio storico per tempi">Archivio storico (tutti i risultati ordinati per tempi)</a>
+				<a href="filtro6.php" name="Archivio storico per tempi" class="txt_link">Archivio storico (tutti i risultati ordinati per tempi)</a>
 			</td></tr>
 			
 			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
-				<a href="filtro8.php" name="grafico tempi">Grafico andamento tempi negli anni</a>
+				<a href="filtro8.php" name="grafico tempi" class="txt_link">Grafico andamento tempi negli anni</a>
 			</td></tr>
 			
 			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
-				<a name="classifica partecipazioni">Classifica partecipazioni</a>
+				<a name="classifica partecipazioni" class="txt_link">Classifica partecipazioni</a>
 			</td></tr>
 			
 			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
-				<a name="personaggi">I personaggi</a>
+				<a name="personaggi" class="txt_link">I personaggi</a>
 			</td></tr>
 			
 			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
-				<a name="organizzatori">Gli organizzatori</a>
+				<a name="organizzatori" class="txt_link">Gli organizzatori</a>
 			</td></tr>
 
 		  </tbody>
@@ -160,9 +160,14 @@ selezioni di qualsiasi campo select all'interno del documento.
    </tbody></table>
 </td></tr></tbody></table>
 
-	<div align="right"><i>
+	<div align="right" class="txt_normal"><i>
 	Sei il visitatore n.
-	<?php $counter = action_counter($filename_counter); 		echo $counter; ?>
+	<?php 
+		//include("libreria.php"); // e' gia' implicitamente inclusa da index.php
+		$counter = count_page("homepage",array("COUNT"=>1,"LOG"=>1)); # abilita il contatore, senza visualizzare le cifre, e fai il log
+		#$counter = action_counter($filename_counter); 		
+		echo $counter; 
+	?>
 	</i>
 	</div>
 

@@ -54,6 +54,9 @@ $archivio_rielaborato = fondi_nome_id($archivio_record, $indice_nome, $indice_id
 $mask = array($indice_posiz,$indice_nome,$indice_tempo,$indice_anno); # visualizza tutti i campi
 show_table($archivio_rielaborato,$mask,3,12,0); # tabella in tre colonne, font 12, senza note
 
+# logga il contatto
+$counter = count_page("classifica_generale_MF",array("COUNT"=>1,"LOG"=>1)); # abilita il contatore, senza visualizzare le cifre, e fai il log
+
 ?>
 
 <br>

@@ -63,6 +63,8 @@ $mask = array($indice_nome,$indice_tempo,$indice_anno);
 
 show_table($tabella_rielaborata,$mask);
 
+# logga il contatto
+$counter = count_page("albo_d_oro",array("COUNT"=>1,"LOG"=>1)); # abilita il contatore, senza visualizzare le cifre, e fai il log
 
 ?>
 

@@ -46,6 +46,8 @@ $num_colonne_organizzatori = 7;
 $style_titoli_tabella = 'style="border-style: solid; border-color: rgb(170, 170, 170); border-width: 1px; padding: 0.15em 0.3em; background-color: rgb(255, 255, 200);"';
 $style_sfondo_maschi = "rgb(249, 255, 255)";
 $style_sfondo_femmine = "rgb(255, 234, 234)";
+$colore_blu_cielo_di_Laceno = "rgb(51,102,153)";
+$colore_arancio_fondo_vomitatoio = "rgb(255,102,0)";
 
 #nomi di file
 $filename_tempi 		= "dati/tempi_laceno.csv";
@@ -64,7 +66,7 @@ $indici = array('indice_id' => $indice_id,'indice_nome' => $indice_nome,'indice_
 $indici2 = array('indice2_id' => $indice2_id,'indice2_nome' => $indice2_nome,'indice2_sesso' => $indice2_sesso,'indice2_titolo' => $indice2_titolo,'indice2_data_nascita' => $indice2_data_nascita,'indice2_peso' => $indice2_peso,'indice2_link' => $indice2_link,'num_colonne_atleti'  => $num_colonne_atleti);
 $indici3 = array('indice3_id' => $indice3_id,'indice3_nome' => $indice3_nome,'indice3_sesso' => $indice3_sesso,'indice3_incarico' => $indice3_incarico,'indice3_anno' => $indice3_anno,'indice3_link' => $indice3_link,'indice3_nota' => $indice3_nota,'num_colonne_organizzatori' => $num_colonne_organizzatori);
 
-$formattazione = array('style_sfondo_maschi' => $style_sfondo_maschi,'style_sfondo_femmine' => $style_sfondo_femmine,'style_titoli_tabella' => $style_titoli_tabella);
+$formattazione = array('style_sfondo_maschi' => $style_sfondo_maschi,'style_sfondo_femmine' => $style_sfondo_femmine,'style_titoli_tabella' => $style_titoli_tabella,'colore_blu_stralaceno' => $colore_blu_cielo_di_Laceno,'colore_arancio_stralaceno' => $colore_arancio_fondo_vomitatoio);
 $filenames = array('filename_tempi' => $filename_tempi,'filename_atleti' => $filename_atleti,'filename_organizzatori' => $filename_organizzatori,'filename_counter' => $filename_counter);
 $varie = array('email_info' => $email_info,'symbol_1_partecipazione' => $symbol_1_partecipazione,'symbol_record' => $symbol_record);
 
@@ -461,4 +463,230 @@ for ($i = 1; $i < count($archivio); $i++) {
 return $archivio2;
 }
 
+?>
+
+<?php
+
+//Page properties definitions
+
+error_reporting(0); // otherwise "StripDoubleColon($HTTP_REFERER);" gives error
+//error_reporting(2039); // otherwise "StripDoubleColon($HTTP_REFERER);" gives error. Show all errors but notices
+
+/************ log.inc **********
+implement logging and counting features.
+Include this file and call page_count().
+
+Actual counting and/or logging action depend on 3 CONSTANT (use define)
+- COUNT : if defined, visit will be counted.
+          If defined value is > 0 counter will be shown, otherwise, visit will be
+          counted but no counter will be shown.
+- LOG   : if defined, hit will be logged. The actual value of LOG doesn't
+          matter (later it may be used).
+
+3 files are managed by this script :
+
+- $logfile      : will log every hits. Each line is a hit.
+                  format : "$PHP_SELF::$QUERY_STRING::$REMOTE_ADDR::$HTTP_REFERER::$HTTP_USER_AGENT::$date\r\n"
+- $counterfile  : will hold visit counters for every pages.
+                  format : $PHP_SELF.":".$counter."\r\n"
+- $lasthitfile  : will temporarily hold every hit to a 'counted' page. This will prevent
+                  counting a 'reload' or a 'back' as an actual visit. It works as follow :
+                  When a page is hit, we check in thelasthit file if the same page was hitted from
+                  the same IP in the last ($trigger) minutes. If yes, the hit is not counted as a visit.
+                  All temporary hits that are out of time are removed on the fly. This keep the lasthitfile
+                  very small (only the hits for the last ($trigger) minutes are kept.
+                  format : "$PHP_SELF:$REMOTE_ADDR:$now\r\n"
+
+History :
+- Improved by dq to prevent '::' to appears inside stored fields (StripDoubleColon())
+- Improved by Laurent to automagically back up log file when it becomes too large + email report.
+
+*/
+
+define('MAXLOGFILESIZE', 50*1024);    //maximum log file size = 50Kb !!!
+#define('MAXLOGFILESIZE', 800);    //maximum log file size = 50Kb
+define('MAILTO','pasquale_ceres@yahoo.it'); //who to send email reports
+
+function StripDoubleColon($chunk='')
+{
+  $chunk=ereg_replace(':+',':',$chunk);
+  $chunk=ereg_replace('^:','.:',$chunk);
+  $chunk=ereg_replace(':$',':.',$chunk);
+  return($chunk);
+}
+
+function count_page($myself,$flags)
+{
+/* $myself e' un id che identifica il contatore. Possono essere gestiti piu' contatori, semplicemente dando $myself diversi
+   $flags e' un array i cui campi sono:
+	$flags['COUNT'] = [0,1,2]	abilita l'incremento del contatore ( 0 --> non contare, 1 -> conta soltanto, 2 --> conta e visualizza le cifre)
+	$flags['LOG'] = [0,1]		scrivi o meno nel file di log
+*/
+
+
+  $HTTP_USER_AGENT = $_SERVER['HTTP_USER_AGENT'];
+  $REMOTE_ADDR = $_SERVER['REMOTE_ADDR'];
+  $HTTP_REFERER = $_SERVER['HTTP_REFERER'];
+  $QUERY_STRING = $_SERVER['QUERY_STRING'];
+
+  $logfile = 'dati/logfile.txt'; //every hit log file
+  $backupfile = 'dati/backupfile%03d.txt';   //log backup file naming. E' importante lasciare alla fine del nome %3d (formato per sprintf)
+  $counterfile = 'dati/counterfile.txt'; //miscellaneous pages visit counter
+  $lasthitfile = 'dati/lasthitfile.txt'; //last hits ... used with trigger, allow to prevent counting 'reload' as visit
+  $imagepath = 'images/';           //path to digit gif image location
+  $minlength = 3;                   //min length of the counter (will be padded with 0)
+  $trigger = 0; //30;                    //number of minutes while a second hit from the same ip to the same page in not counted
+
+//Read counter from file or reset counter to 0 if counter file doesn't exist
+$output='';
+
+if (file_exists($counterfile))
+{
+  $cf = fopen($counterfile, 'r');
+  $counter=0;
+  while (!feof($cf))    //Loop for each line in the file
+  {
+    $line=fgets($cf, 4096);            //get a line;
+    if (ereg("^$myself:(.*)\r\n", $line, $reg_array)) //is this the line corresponding to the actual page
+    {
+      $counter = $reg_array[1];          //Yes, We save the current counter value
+    } else $output.=$line;              //No, just keep it for later rewrite
+  } // end while
+  fclose($cf);
+
+} else $counter = 0; // first time ... counter = 0.
+
+$contatore_out = $counter;
+
+
+//  if (!defined('COUNT') && !defined('LOG')) return $contatore_out; //nothing to do, so just return
+  if (empty($flags['COUNT']) && empty($flags['LOG'])) return $contatore_out; //nothing to do, so just return
+
+
+  // ************* COUNT section ****************
+  if ($flags['COUNT'] > 0)
+  {
+
+    //now we should check if this visitor already went visiting not so long ago
+    //no need to count every hit...
+    $count_it = 1;  // by default count the visit
+    $now = time();                //get current time in second since Unix Epoch
+    $hits='';
+    if(file_exists($lasthitfile))
+    {
+      $cf = fopen($lasthitfile, 'r');
+      while (!feof($cf))
+      {
+        $line=fgets($cf, 4096);            //get a line;
+		
+		//Check if we got a valid formatted line
+		$batch = explode(":", $line);
+        if (count($batch) <> 3) // three elements for each line
+		{
+		  continue;       
+		}
+        $where = $batch[0];
+		$who = $batch[1];
+		$when = $batch[2];
+		
+        if ($when > $now-($trigger*60))    //'hit log' still 'in time'
+        {
+          if (($where==$myself) && ($who==$REMOTE_ADDR))
+          {
+            $count_it=0;
+          }
+          else $hits.="$where:$who:$when\n";
+        }
+
+      }
+      fclose($cf);
+    }
+
+    $hits.="$myself:$REMOTE_ADDR:$now\r\n";    //Add this hit to the last hits
+
+    //rewrite updated last hit file
+    $cf = fopen($lasthitfile, 'w');
+    fwrite($cf, $hits);
+    fclose($cf);
+
+    if ($count_it == 1)           // We need to count this hit as a 'visit'?
+    {
+      //increment counter
+      $counter=intval($counter);
+      $counter++;
+
+      $output.=$myself.':'.$counter."\r\n";
+
+      //write new counter file
+      $cf = fopen($counterfile, 'w');
+      fwrite($cf, $output);
+      fclose($cf);
+    }
+
+   $contatore_out = $counter;
+
+    if ($flags['COUNT'] == 2) //should we actually show the counter
+    {
+      //format counter
+      $counter = sprintf('%0'.$minlength.'d', $counter);
+      //print each digit
+      for ($i=0; $i < strlen($counter); $i++) {
+        print("<IMG SRC=\"$imagepath$counter[$i].gif\" ALT=\"$counter[$i]\">\r\n");
+      }
+    }
+  }
+
+
+  // ************* LOG section ****************
+  if ($flags['LOG'] == 1)
+  {
+    $date=time();
+    $log=      StripDoubleColon($myself);
+    $log.='::'.StripDoubleColon($QUERY_STRING);
+    $log.='::'.StripDoubleColon($REMOTE_ADDR);
+    $log.='::'.StripDoubleColon($HTTP_REFERER);
+    $log.='::'.StripDoubleColon($HTTP_USER_AGENT);
+    $log.="::$date\r\n";
+
+    //append current visit to log file
+    $cf = fopen($logfile, 'a');
+    fwrite($cf, $log);
+    fclose($cf);
+
+    //while we are playing with log file, why not checking if the log file isn't too big?
+    if (filesize($logfile)>MAXLOGFILESIZE)
+    {
+     $report='';                                        //we will email a report
+     $report.="log file size too large (".filesize($logfile).").\n";
+     $id = 0;                                           //file counter
+     do                                                 //let's find out the next logxxx.txt name
+     {
+      $backupfilename = sprintf($backupfile, $id);      //build the file name
+      $id++;
+     } while (file_exists($backupfilename) && ($id<999));            //and loop till we reach a free one
+     if ($id<999)                                                    //Just in case all the back log file names are used
+     {
+      $report.="A backup has been done to $backupfilename.\r\n";
+      $logs = file($logfile);                            //read all long entries in a array
+      $nb_entry = count($logs);                          //how many entries do we have ?
+      reset($logs);
+      $bf=fopen($backupfilename,'w');                    //open backup file to write
+      $lf=fopen($logfile,'w');                           //open original log file for rewriting
+      for ($i=0;$i<$nb_entry*9/10; $i++) fwrite($bf, $logs[$i]); //Store 90% of the logs in the back up
+      $report.="$i entries have been backed up. ".($nb_entry-$i)." are left in the logfile.\n";
+      while ($i<$nb_entry) {fwrite($lf, $logs[$i++]);}   //and leave what's left in the original file
+      fclose($bf);                                       //close all
+      fclose($lf);
+     }
+     else $report.="warning !!!! Cannot find an unique backup file name !!!";
+     if (defined('MAILTO')) 
+	 {
+	  #echo $report;
+	  #mail(MAILTO,"phplab admin report", $report);
+	 }
+    }
+  }
+  
+  return $contatore_out;
+}
 ?>

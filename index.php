@@ -1,16 +1,36 @@
 #!/usr/local/bin/php
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
+<?php include 'libreria.php'; ?>
 <head>
   <title>Stralaceno Web</title>
   <meta http-equiv="Content-Type"
  content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
+  
+  <style type="text/css">
+	/*body {font-family:Arial,Tahoma,Verdana;
+		  font-size:0.75em;
+		  color:<?php echo $colore_blu_stralaceno; ?>
+		 }*/
+	.txt_link {font-family:Arial,Tahoma,Verdana;
+		    font-size:0.75em;
+			color:<?php echo $colore_blu_stralaceno; ?>
+		   }
+	.txt_articolo {font-family:Arial,Tahoma,Verdana;
+		    font-size:0.75em;
+			color:<?php echo $colore_blu_stralaceno; ?>
+		   }
+	.txt_normal {font-family:Arial,Tahoma,Verdana;
+		    font-size:0.75em;
+			color:<?php echo $colore_blu_stralaceno; ?>
+		   }
+  </style>
+  
 </head>
 <body onLoad="azzera_input()">
 
 <?php
-include 'libreria.php';
 $archivio = load_data($filename_tempi,$num_colonne_prestazioni); # carica i dati relativi a tutti gli anni
 
 $colore_bordo = '#336699'; # colore blu ufficiale del sito
@@ -35,7 +55,7 @@ include("header.php")
       <table cellpadding="2" cellspacing="2" border="0" style="text-align: left; width: 100%;">
         <tbody>
           <tr>
-            <td width = "24%" style="vertical-align: top;">
+            <td style="vertical-align: top;">
 			
 <?php
 # includi la barra a sinistra
@@ -43,7 +63,7 @@ include("index_left.php")
 ?>
 
             </td>
-            <td width = "56%" style="vertical-align: top;">
+            <td style="vertical-align: top;">
 			
 <?php
 # includi il corpo centrale
@@ -51,7 +71,7 @@ include("index_middle.php")
 ?>
 
             </td>
-            <td width="20%" style="vertical-align: top;">
+            <td style="vertical-align: top;">
 			
 <?php
 # includi la barra a destra
