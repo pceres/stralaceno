@@ -57,9 +57,7 @@ $filename_counter 		= "dati/counter.txt";
 
 #varie
 $email_info		= "stralaceno@freepass.it";
-#$symbol_1_partecipazione= '<img src="images/0x2606(star).bmp" width="17">';
 $symbol_1_partecipazione= '<img src="/work/stralaceno2/images/0x2606(star).bmp" width="17">';
-#$symbol_record  		= '<img src="images/0x263A(smiling_face).bmp" width="17">';
 $symbol_record  		= '<img src="/work/stralaceno2/images/0x263A(smiling_face).bmp" width="17">';
 
 $indici = array('indice_id' => $indice_id,'indice_nome' => $indice_nome,'indice_posiz' => $indice_posiz,'indice_tempo' => $indice_tempo,'indice_anno' => $indice_anno,'indice_nota' => $indice_nota,'num_colonne_prestazioni' => $num_colonne_prestazioni,'indice_info' => $indice_info);
