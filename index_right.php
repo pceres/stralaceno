@@ -58,7 +58,7 @@ selezioni di qualsiasi campo select all'interno del documento.
 //-->
 </script>
 
-<table width="95%" border="0" cellspacing="0" align="center" bgcolor="#336699"><tbody><tr><td>
+<table width="100%" border="0" cellspacing="0" align="center" bgcolor="#336699"><tbody><tr><td>
    <table width="100%" border="0" cellspacing="" cellpadding="5" bgcolor="#ffffff"><tbody>
 
 
