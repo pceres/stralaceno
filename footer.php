@@ -9,7 +9,7 @@ inizio footer
 		<tr>
 		  <td align="right"><small>informazioni sulla Stralaceno</small></td>
 		  <td><small>:</small></td>
-		  <td align="left" style="font-style: italic;"><small> <a
+		  <td align="left" style="font-style: italic;"><small><a
 			 href="mailto:stralaceno@freepass.it?subject=Info%20sulla%20Stralaceno"
 			 title="Info sulla Stralaceno">stralaceno@freepass.it</a> </small></td>
 		</tr>
@@ -17,16 +17,19 @@ inizio footer
 		<tr>
 		  <td align="right"><small>webmaster</small></td>
 		  <td><small>:</small></td>
-		  <td align="left" style="font-style: italic;"><small> <a
+		  <td align="left" style="font-style: italic;"><small><a
 			 href="mailto:pasquale_c@hotmail.com?subject=Info%20o%20suggerimenti%20sul%20sito" 
-			 title="Info o suggerimenti sul sito">pasquale_c@hotmail.com</a>
+			 title="Info o suggerimenti sul sito">Pasquale Ceres</a>
 		  </small></td>
 		</tr>
 		
 		<tr>
-		  <td align="right"><small>grafica</small></td>
+		  <td align="right"><small>Supporto grafico</small></td>
 		  <td><small>:</small></td>
-		  <td align="left" style="font-style: italic;"><small> Peter Redmann </small></td>
+		  <td align="left" style="font-style: italic;"><small><a
+			 href="mailto:pietrorussomanno@libero.it?subject=Info%20o%20suggerimenti%20sulla%20grafica" 
+			 title="Info o suggerimenti sulla grafica">Pietro Russomanno</a>
+		  </small></td>
 		</tr>
 
 		<!-- la riga che segue e' il logo del validatore HTML W3C -->
