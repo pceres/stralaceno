@@ -37,7 +37,7 @@ inizio colonna sinistra
 		}
 ?>
 		<br>&#8250&nbsp;<a href="filtro9.php" name="migliori prestazioni">Classifica personali</a></li>
-		<br>&#8250&nbsp;<a name="migliori prestazioni femminili">Classifica personali femminili</a></li>
+		<br>&#8250&nbsp;<a href="filtro10.php" name="migliori prestazioni femminili">Classifica personali femminili</a></li>
 <?php echo $close_border?>
 
 <?php echo $open_border?>
