@@ -3,11 +3,6 @@ inizio footer
 -->
 	<hr>
 
-	<!--table width="100%">
-	  <tr>
-	     <td>
-	<table align="left"-->
-
 	<table align="center">
 	  <tbody>
 	  

@@ -43,13 +43,16 @@ inizio colonna sinistra
 		<strong>Cronaca corrente:</strong>
 		 <table cellpadding="0" cellspacing="0">
 		  <tbody>
+
+			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
+				Ultime edizioni:
 <?php
 		for ($i = 0; $i < $numero_anni; $i++) {
-			echo "\t\t\t<tr><td style=\"vertical-align: top;\">&#8250;&nbsp;</td><td>\n";
-			echo "\t\t\t\t&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"filtro4.php?anno=$elenco_anni[$i]\">Edizione $elenco_anni[$i]</a>\n";
-			echo "\t\t\t</td></tr>\n";
+			echo "\t\t\t\t<br>&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"filtro4.php?anno=$elenco_anni[$i]\">Edizione $elenco_anni[$i]</a>\n";
 		}
 ?>
+			</td></tr>
+
 			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
 				<a href="filtro9.php" name="migliori prestazioni">Classifica personali</a>
 			</td></tr>
