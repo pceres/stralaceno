@@ -127,9 +127,9 @@ selezioni di qualsiasi campo select all'interno del documento.
 				<a href="filtro6.php" name="Archivio storico per tempi" class="txt_link">Archivio storico (tutti i risultati ordinati per tempi)</a>
 			</td></tr>
 			
-			<!--tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
-				<a href="filtro8.php" name="grafico tempi" class="txt_link">Grafico andamento tempi negli anni</a>
-			</td></tr-->
+			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
+				<a name="grafico tempi" class="txt_link">Grafico andamento tempi negli anni</a>
+			</td></tr>
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
 				<a name="classifica partecipazioni" class="txt_link">Classifica partecipazioni</a>
