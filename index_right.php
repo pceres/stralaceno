@@ -37,6 +37,14 @@ function valida(pform,tipo,check_null)
 	  alert("Devi scegliere prima!")
 	}
 }
+
+
+function azzera(pselect)
+{
+	/*alert(pselect.value);*/
+	pselect.value = 0;
+}
+
 //-->
 </script>
 
@@ -48,11 +56,13 @@ function valida(pform,tipo,check_null)
 
 
 		<strong>Approfondimenti:</strong>
-
-		<form action="filtro4.php" method="POST" name="form_anno">
-		&#8250&nbsp;Archivio storico annuale (tutti i risultati di un anno):
-		<select name="anno" onchange="valida(this.form,'anno')">
-			<option value="0"></option>
+		 <table cellpadding="0" cellspacing="0">
+		  <tbody>
+			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
+				<table><form action="filtro4.php" method="POST" name="form_anno">
+				Archivio storico annuale (tutti i risultati di un anno):
+				<select name="anno" onchange="valida(this.form,'anno')" onclick="azzera(this)">
+					<option value="0"></option>
 <?php
 			$elenco_anni = array();		# elenco degli anni in archivio
 			$elenco_i = array();		# elenco delle i in corrispondenza delle quali trovare gli anni
@@ -68,19 +78,20 @@ function valida(pform,tipo,check_null)
 			array_multisort($elenco_anni,SORT_DESC, SORT_NUMERIC, $elenco_i,SORT_ASC, SORT_NUMERIC);
 	
 			for ($i = 0; $i < count($elenco_anni); $i++) {
-				echo "\t\t\t<option value=\"".$elenco_anni[$i]."\">".$elenco_anni[$i]."</option>\n";
+				echo "\t\t\t\t\t<option value=\"".$elenco_anni[$i]."\">".$elenco_anni[$i]."</option>\n";
 				}
 ?>	
-		</select>
-		<br><a href="javascript:valida(document.form_anno,'anno',1)" onclick="valida(this.form,'anno')">vai</a>
-		<!--input type="submit" value="Mostra prestazioni dell'anno"-->
-		</form>
+				</select>
+				<!--br><a href="javascript:valida(document.form_anno,'anno',1)" onclick="valida(this.form,'anno')">vai</a-->
+				</form></table>
+			</td></tr>
 
 
-		<form action="filtro2.php" method="POST" name="form_atleta">
-		&#8250&nbsp;Archivio storico personale:
-		<select name="nome" onchange="valida(this.form,'nome')">
-			<option value="0"></option>
+			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
+				<table><form action="filtro2.php" method="POST" name="form_atleta">
+				Archivio storico personale:
+				<select name="nome" onchange="valida(this.form,'nome')" onclick="azzera(this)">
+					<option value="0"></option>
 <?php
 			$elenco_nomi = array();
 			$elenco_cognomi = array();
@@ -106,21 +117,36 @@ function valida(pform,tipo,check_null)
 			array_multisort($elenco_cognomi,SORT_ASC, SORT_STRING,$elenco_nomi,SORT_ASC, SORT_STRING, $elenco_i,SORT_ASC, SORT_NUMERIC);
 	
 			for ($i = 0; $i < count($elenco_nomi); $i++) {
-				echo "\t\t\t<option value=\"".$elenco_i[$i]."\">".$elenco_nomi[$i]."</option>\n";
+				echo "\t\t\t\t\t<option value=\"".$elenco_i[$i]."\">".$elenco_nomi[$i]."</option>\n";
 				}
 ?>	
-		</select>
-		<a href="javascript:valida(document.form_atleta,'nome',1)">vai</a>
-		<!--input type="submit" value="Mostra prestazioni personali"-->
-		</form>
+				</select>
+				<!--br><a href="javascript:valida(document.form_atleta,'nome',1)">vai</a-->
+				</form></table>
+			</td></tr>
 
-		    &#8250&nbsp;<a href="filtro6.php" name="Archivio storico per tempi">Archivio storico (tutti i risultati ordinati per tempi)</a>
-		<br>&#8250&nbsp;<a href="filtro8.php" name="grafico tempi">Grafico andamento tempi negli anni</a>
-		<br>&#8250&nbsp;<a name="classifica partecipazioni">Classifica partecipazioni</a>
-		<br>&#8250&nbsp;<a name="personaggi">I personaggi</a>
-		<br>&#8250&nbsp;<a name="organizzatori">Gli organizzatori</a>
+			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
+				<a href="filtro6.php" name="Archivio storico per tempi">Archivio storico (tutti i risultati ordinati per tempi)</a>
+			</td></tr>
+			
+			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
+				<a href="filtro8.php" name="grafico tempi">Grafico andamento tempi negli anni</a>
+			</td></tr>
+			
+			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
+				<a name="classifica partecipazioni">Classifica partecipazioni</a>
+			</td></tr>
+			
+			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
+				<a name="personaggi">I personaggi</a>
+			</td></tr>
+			
+			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
+				<a name="organizzatori">Gli organizzatori</a>
+			</td></tr>
 
-
+		  </tbody>
+		 </table>
 <?php echo $close_border?>
 
    </td></tr></tbody></table>
