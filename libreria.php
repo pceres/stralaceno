@@ -56,8 +56,9 @@ $filename_counter 		= "dati/counter.txt";
 
 #varie
 $email_info		= "stralaceno@freepass.it";
-$symbol_1_partecipazione= '<img src="/work/stralaceno2/images/0x2606(star).bmp" height="15" alt="1a partecipazione" vertical-align="center" border=\"0\" margin=\"0\">';
-$symbol_record  		= '<img src="/work/stralaceno2/images/0x263A(smiling_face).bmp" height="15" alt="record personale" vertical-align="center" border=\"0\" margin=\"0\">';
+$symbol_empty= '<img style="display:inline;" align="middle" height="13" width="13" alt="empty" border="0">';
+$symbol_1_partecipazione= '<img src="/work/stralaceno2/images/0x2606(star).bmp" style="display:inline;" align="middle" height="13" alt="1a partecipazione" border="0">';
+$symbol_record  		= '<img src="/work/stralaceno2/images/0x263A(smiling_face).bmp" style="display:inline;" align="middle" height="13" alt="record personale" border="0">';
 
 $indici = array('indice_id' => $indice_id,'indice_nome' => $indice_nome,'indice_posiz' => $indice_posiz,'indice_tempo' => $indice_tempo,'indice_anno' => $indice_anno,'indice_nota' => $indice_nota,'num_colonne_prestazioni' => $num_colonne_prestazioni,'indice_info' => $indice_info);
 $indici2 = array('indice2_id' => $indice2_id,'indice2_nome' => $indice2_nome,'indice2_sesso' => $indice2_sesso,'indice2_titolo' => $indice2_titolo,'indice2_data_nascita' => $indice2_data_nascita,'indice2_peso' => $indice2_peso,'indice2_link' => $indice2_link,'num_colonne_atleti'  => $num_colonne_atleti);
@@ -131,7 +132,7 @@ else {
 	$cell_padding = 2;
 }
 	
-echo "<div align = \"center\" >"; # tieni la tabella al centro
+echo "<div align = \"center\">"; # tieni la tabella al centro
 
 echo "<table class=\"$class\">\n";
 echo "  <tbody>\n";
@@ -208,7 +209,8 @@ for ($i = 1; $i < count($archivio); $i++) {
 		# campo posizione
 		if (array_key_exists("info",$prestazione) & ($mask[$temp] == $indice_posiz) ) {
 			if ($campo != '-') {
-				$campo = $campo."<sup>o</sup>";
+				#$campo = $campo."<sup>o</sup>";
+				$campo = $campo."&deg;";
 			}
 		}
 		echo "<td nowrap><div align=\"$allineamento\">$campo</div></td>";
@@ -228,7 +230,8 @@ for ($i = 1; $i < count($archivio); $i++) {
 # eventuali righe vuote
 $resto = (ceil((count($archivio)-1)/$num_colonne))*$num_colonne-count($archivio)+1;
 for ($temp = 0; $temp < $resto; $temp++) {
-	echo "<tr style=\"font-size:12;\" colspan=".count($mask)."><td>&nbsp;<sup>&nbsp;</sup></td></tr>\n";
+	#echo "<tr style=\"font-size:12;\" colspan=".count($mask)."><td>&nbsp;<sup>&nbsp;</sup></td></tr>\n";
+	echo "<tr style=\"\"><td colspan=".count($mask).">&nbsp;</td></tr>\n";
 }
 
 # chiudi l'ultima colonna
@@ -246,12 +249,12 @@ echo "</div>";
 # mostra note
 if (count($note) > 0) {
 	echo "<br>\n";
-	echo "<small>\n";
+	echo "<div class=\"nota\">\n";
 	echo "Note:<br>\n";
 	for ($i = 0; $i < count($note); $i++) {
 		echo "<a name=\"nota_".($i+1)."\"><span style=\"color: rgb(255, 0, 0);\">&sect;".($i+1)."</span></a>: ".$note[$i]."<br>\n";
 		}
-	echo "</small>\n";
+	echo "</div>\n";
 	}
 
 
@@ -454,7 +457,8 @@ for ($i = 1; $i < count($archivio); $i++) {
 		$lista_record[$id] = $tempo;
 		}
 	else {
-		$simb = '<br>';
+		#$simb = '<br>';
+		$simb = $symbol_empty;
 		}
 		
 	$prestazione['simb'] = $simb;

@@ -83,6 +83,8 @@ body.tabella {
 /*	color:rgb(51,102,153);*/
 	color:rgb(34,68,102);
 	background:#FFF6F0;
+	font-family:Arial,Tahoma,Verdana,Serif;	
+	font-size:1.2em;
 	}
 
 .titolo_tabella {
@@ -95,7 +97,6 @@ table.tabella {
 	border:2px solid rgb(51,102,153);
 	margin:0px;
 	padding:0px;
-	font-size:0.8em;
 	}
 
 table.tabella a {
@@ -104,7 +105,7 @@ table.tabella a {
 
 table.tabella tr {
 	vertical-align:top;
-	height:100%;
+	font-size:0.82em;
 	}
 	
 table.tabella table {
@@ -116,8 +117,11 @@ table.tabella table {
 
 table.tabella table tr {
 	vertical-align:baseline;
-	height:1.4em;
-	/*height:1.2em;*/
+	font-size:0.8em;
+	}
+
+table.tabella table td {
+	min-height:1.0em;
 	}
 
 table.tabella table thead {
@@ -148,10 +152,14 @@ tr#primo {
 	}
 
 
+/*---------------------------  Note     -------------------------------------- */
+.nota {
+	font-size:0.7em;
+	}
+
 /*---------------------------  Legenda  -------------------------------------- */
-table.tabella_legenda {
-	/*font-size:12px;	*/
-	font-size:0.8em;
+table.tabella_legenda tr {
+	font-size:0.7em;
 	}
 
 table.tabella_legenda td.descrizione {
@@ -161,6 +169,6 @@ table.tabella_legenda td.descrizione {
 
 /*---------------------------  Organizzatori  -------------------------------------- */
 div.tabella_organizzatori {
-	font-size:11px;
+	font-size:0.75em;
 	font-family:comic sans ms,serif;
 	}
