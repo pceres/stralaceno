@@ -1,21 +1,14 @@
-<?php
-	#  $colore_bordo e $colore_sfondo devono essere definiti esternamente!!!
-	$colore_bordo_middle = '#ffffff';#$colore_bordo;
-	$colore_sfondo_middle = '#FFF6F0';#$colore_sfondo;
-	
-	$open_border = "\t<tr><td><table width=\"99%\" border=\"0\" cellspacing=\"0\" align=\"center\" bgcolor=\"$colore_bordo_middle\"><tbody><tr><td>\n\t   <table width=\"100%\" border=\"0\" cellspacing=\"\" cellpadding=\"5\" bgcolor=\"$colore_sfondo_middle\"><tbody><tr><td>\n";
-	$close_border = "\t   </td></tr></tbody></table>\n\t</td></tr></tbody></table></td></tr>\n\n";
-
-?>
 <!-- 
 inizio colonna centrale
 -->
-<table width="100%" border="0" cellspacing="0" align="center" bgcolor="#336699"><tbody><tr><td>
-   <table width="100%" border="0" cellspacing="" cellpadding="5" bgcolor="#ffffff"><tbody>
-	
-<?php echo $open_border;?>
-		<h3 class="titolo_articolo">L'altopiano del Laceno</h3>
-		<div align="justify" class="txt_articolo">
+<table class="frame_delimiter"><tbody>	
+
+
+	<tr><td>
+	  <table class="article_group"><tbody><tr><td>
+
+		<h3>L'altopiano del Laceno</h3>
+		<div class="txt_articolo">
 			<p>Laceno è ritenuto uno degli altopiani più ameni dell'appennino meridionale. 
 Chi arriva da Caposele, per la strada interna montana, affacciandosi sull'altopiano subisce
 un piacevole impatto con la bellezza del luogo.
@@ -39,14 +32,18 @@ precipitazioni, con una media annua di 2000 mm., inizia il lungo viaggio delle a
 le sorgenti di piazza Sanità che fanno di Caposele il paese d'Italia più ricco d'acqua;
 a sottolineare questo connubio è anche il nome che prende una parte dell'altopiano,
 precisamente la parte nord, come Foce di Caposele.
-			<div align="right" style="padding-right:2em;"><i>Angelo Ceres</i></div>
+			<div class="txt_firma_articolo">Angelo Ceres</div>
 		</div>
 		
-<?php echo $close_border;?>
-	
-<?php echo $open_border;?>
-		<h3 class="titolo_articolo">Presentazione</h3>
-		<div align="justify" class="txt_articolo">
+	  </td></tr></tbody></table>
+	</td></tr>
+
+
+	<tr><td>
+	  <table class="article_group"><tbody><tr><td>
+
+		<h3>Presentazione</h3>
+		<div class="txt_articolo">
 			<p>Dal 1987, nel suggestivo paesaggio dell'altopiano di Laceno, ogni anno gli sportivi di Caposele si sfidano 
 tradizionalmente in una corsa di mezzofondo.<p>La manifestazione &egrave; di carattere amatoriale, ma non per questo &egrave; meno vivo il sano senso di competizione tra i 
 partecipanti, i quali, sebbene animati da differenti motivazioni individuali, acquisiscono tutti pari dignit&agrave; nel momento in cui accettano, per Sport, di vivere un momento di intenso impegno fisico. Il che per alcuni si traduce nel 
@@ -54,11 +51,15 @@ correre per una migliore posizione in classifica, per altri in una semplice veri
 per altri ancora, non meno rispettabili, nel tentativo di raggiungimento del traguardo entro il tempo massimo 
 prestabilito<a href="/work/stralaceno2/presentazione.htm" title="presentazione">...</a>
 		</div>
-<?php echo $close_border;?>
 
-<?php echo $open_border;?>
-		<h3 class="titolo_articolo">Edizione 2004</h3>
-		<div align="justify" class="txt_articolo">
+		</td></tr></tbody></table>
+	</td></tr>
+
+
+	<tr><td>
+	  <table class="article_group"><tbody><tr><td>
+		<h3>Edizione 2004</h3>
+		<div class="txt_articolo">
 			<p>L'ultima competizione, svoltasi il 3 settembre 2004, ha visto una notevole partecipazione di corridori amatoriali, 
 oltre cinquanta.
 			<p>Primo classificato, col tempo di 20' 10'', &egrave; risultato <b>Gelsomino Merola</b>, vincitore per l'undicesima volta. Secondo 
@@ -68,10 +69,12 @@ Viscardi</b> con 22' 56''.
 			<a href="filtro4.php?anno=2004">L'ordine d'arrivo completo dell'edizione 2004 della Stralaceno &egrave; consultabile qui</a>.
 			<p>Il prossimo appuntamento &egrave; fissato per fine estate dell'anno prossimo.
 		</div>
-<?php echo $close_border;?>
 
-   </tbody></table>
-</td></tr></tbody></table>
+	  </td></tr></tbody></table>
+	</td></tr>
+
+
+</tbody></table>
 <!-- 
 fine colonna centrale
 -->

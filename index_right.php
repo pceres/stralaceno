@@ -1,11 +1,3 @@
-<?php
-
-$colore_bordo_right = '#FFFFFF';
-
-$open_border = "\t<tr><td><table width=\"95%\" border=\"0\" cellspacing=\"0\" align=\"center\" bgcolor=\"$colore_bordo_right\"><tbody><tr><td>\n\t   <table width=\"100%\" border=\"0\" cellspacing=\"\" cellpadding=\"5\" bgcolor=\"$colore_sfondo\"><tbody><tr><td>\n";
-$close_border = "\t   </td></tr></tbody></table>\n\t</td></tr></tbody></table></td></tr>\n\n";
-
-?>
 <!-- 
 inizio colonna destra
 -->
@@ -58,12 +50,10 @@ selezioni di qualsiasi campo select all'interno del documento.
 //-->
 </script>
 
-<table width="100%" border="0" cellspacing="0" align="center" bgcolor="#336699"><tbody><tr><td>
-   <table width="100%" border="0" cellspacing="" cellpadding="5" bgcolor="#ffffff"><tbody>
+<table class="frame_delimiter"><tbody>	
 
-
-<?php echo $open_border?>
-
+	<tr><td>
+	   <table class="column_group"><tbody><tr><td>
 
 		<span class="titolo_colonna">Approfondimenti:</span>
 		 <table cellpadding="0" cellspacing="0">
@@ -155,10 +145,10 @@ selezioni di qualsiasi campo select all'interno del documento.
 
 		  </tbody>
 		 </table>
-<?php echo $close_border?>
+	   
+	</td></tr></tbody></table></td></tr>
 
-   </tbody></table>
-</td></tr></tbody></table>
+</tbody></table>
 
 	<div align="right" class="txt_normal"><i>
 	Sei il visitatore n.
