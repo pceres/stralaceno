@@ -52,15 +52,13 @@ $colore_arancio_fondo_vomitatoio = "rgb(255,102,0)";
 #nomi di file
 $filename_tempi 		= "dati/tempi_laceno.csv";
 $filename_atleti 		= "dati/atleti_laceno.csv";
-$filename_organizzatori = "dati/organizzatori_laceno.csv";
+$filename_organizzatori	= "dati/organizzatori_laceno.csv";
 $filename_counter 		= "dati/counter.txt";
 
 #varie
 $email_info		= "stralaceno@freepass.it";
-$symbol_1_partecipazione= '<img src="images/0x2606(star).bmp" width="17">';
-#$symbol_1_partecipazione= '<img src="/work/stralaceno/images/0x2606(star).bmp" width="17">';
+$symbol_1_partecipazione	= '<img src="images/0x2606(star).bmp" width="17">';
 $symbol_record  		= '<img src="images/0x263A(smiling_face).bmp" width="17">';
-#$symbol_record  		= '<img src="/work/stralaceno/images/0x263A(smiling_face).bmp" width="17">';
 
 $indici = array('indice_id' => $indice_id,'indice_nome' => $indice_nome,'indice_posiz' => $indice_posiz,'indice_tempo' => $indice_tempo,'indice_anno' => $indice_anno,'indice_nota' => $indice_nota,'num_colonne_prestazioni' => $num_colonne_prestazioni,'indice_info' => $indice_info);
 $indici2 = array('indice2_id' => $indice2_id,'indice2_nome' => $indice2_nome,'indice2_sesso' => $indice2_sesso,'indice2_titolo' => $indice2_titolo,'indice2_data_nascita' => $indice2_data_nascita,'indice2_peso' => $indice2_peso,'indice2_link' => $indice2_link,'num_colonne_atleti'  => $num_colonne_atleti);
