@@ -35,7 +35,7 @@ include("header.php")
       <table cellpadding="2" cellspacing="2" border="0" style="text-align: left; width: 100%;">
         <tbody>
           <tr>
-            <td width = "27%" style="vertical-align: top;">
+            <td width = "23%" style="vertical-align: top;">
 			
 <?php
 # includi la barra a sinistra
@@ -43,7 +43,7 @@ include("index_left.php")
 ?>
 
             </td>
-            <td width = "53%" style="vertical-align: top;">
+            <td width = "57%" style="vertical-align: top;">
 			
 <?php
 # includi il corpo centrale

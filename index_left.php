@@ -18,7 +18,7 @@ $close_border = "\t   </td></tr></tbody></table>\n\t</td></tr></tbody></table></
 <!-- 
 inizio colonna sinistra
 -->
-<table width="95%" border="0" cellspacing="0" align="center" bgcolor="#336699"><tbody><tr><td>
+<table width="100%" border="0" cellspacing="0" align="center" bgcolor="#336699"><tbody><tr><td>
    <table width="100%" border="0" cellspacing="" cellpadding="3" bgcolor="#ffffff"><tbody>
 	
 	
@@ -54,10 +54,10 @@ inizio colonna sinistra
 			</td></tr>
 
 			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
-				<a href="/my_cgi-bin/stralaceno2/filtro9.php" name="migliori prestazioni">Classifica personali</a>
+				<a href="/my_cgi-bin/stralaceno2/filtro9.php" name="migliori prestazioni">Classifica personali M+F</a>
 			</td></tr>
 			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
-				<a href="/my_cgi-bin/stralaceno2/filtro10.php" name="migliori prestazioni femminili">Classifica personali femminili</a>
+				<a href="/my_cgi-bin/stralaceno2/filtro10.php" name="migliori prestazioni femminili">Classifica personali F</a>
 			</td></tr>
 		  </tbody>
 		 </table>
