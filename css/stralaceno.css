@@ -3,6 +3,9 @@
 	/*color:rgb(51,102,153);	blu ufficiale */
 	/*color:rgb(255,102,0);		arancione ufficiale */
 
+
+/*---------------------------  Homepage  -------------------------------------- */
+
 /* tabella dei frame colonna sinistra, centrale e destra*/
 table.frame_delimiter {
 	margin:0px;
@@ -26,23 +29,23 @@ table.column_group {
 	font-family:Arial,Verdana,Tahoma,Serif;
 	font-weight: bold;
 	color:rgb(51,102,153);
-}
+	}
 
 /* appartengono alla classe txt_link tutti i link ed il testo nelle colonne laterali */
 a.txt_link {
 	text-decoration: none;
-}
+	}
 
 a.txt_link:hover {
 	text-decoration: underline;
-}
+	}
 
 /* link e testo nelle colonne laterali */
 .txt_link, .txt_normal {
 	font-family:Arial,Tahoma,Verdana,Serif;
     font-size:0.75em;
 	color:rgb(51,102,153);
-}
+	}
 
 /* tabella dei singoli articoli nella colonna centrale*/
 table.article_group {
@@ -58,7 +61,7 @@ table.article_group H3 {
 	font-family:Arial,Verdana,Tahoma,Serif;
 	font-weight: bold;
 	color:rgb(51,102,153);
-	margin: 0em;
+	margin:0em;
 	}
 
 .txt_articolo { 
@@ -73,3 +76,72 @@ table.article_group H3 {
 	font-style:italic;
 	}
 
+
+/*---------------------------  Tabelle  -------------------------------------- */
+
+body.tabella {
+	color:rgb(51,102,153);
+	background:#FFF6F0;
+	}
+
+.titolo_tabella {
+	text-align:center;
+	font-weight:bold;
+	}
+	
+table.tabella {
+	border:2px solid rgb(51,102,153);
+	margin:0px;
+	padding:0px;
+	font-size:0.8em;
+	}
+
+table.tabella a {
+	color:rgb(51,102,153);
+	}
+
+table.tabella tr {
+	vertical-align:top;
+	height:100%;
+	}
+	
+table.tabella table {
+	border-collapse:collapse;
+	border:1px solid rgb(51,102,153);
+	margin:0px;
+	padding:0px;
+	}
+
+table.tabella table tr {
+	vertical-align:baseline;
+	height:1.4em;
+	/*height:1.2em;*/
+	}
+
+table.tabella table thead {
+	border-collapse:separate;
+	background-color:rgb(255, 255, 200);
+	height:1.2em;
+	}
+
+table.tabella table thead th {
+	padding:0.2em 0.35em; 
+	border:1px solid rgb(170, 170, 170);
+	}
+
+
+/*---------------------------  Legenda  -------------------------------------- */
+table.tabella_legenda {
+	font-size:12px;	
+	}
+
+table.tabella_legenda td.descrizione {
+	font-style:italic;
+	}
+
+
+/*---------------------------  Organizzatori  -------------------------------------- */
+div.tabella_organizzatori {
+	font-size:11px;
+	font-family:comic sans ms,serif;
+	}

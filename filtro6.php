@@ -1,14 +1,14 @@
-<!DOCTYPE public "-//w3c//dtd html 4.01 transitional//en" 
-		"http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
   <title>Stralaceno Web - Archivio storico</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
+  <style type="text/css">@import "/work/stralaceno2/css/stralaceno.css";</style>
 </head>
-<body>
+<body class="tabella">
   
-<div align="center"><h2>Archivio storico completo della Stralaceno</h2></div>
+<div class="titolo_tabella">Archivio storico completo della Stralaceno</div>
 <hr>
 
 <?php
@@ -26,7 +26,7 @@ $archivio_ordinato = ordina_archivio($archivio,$indice_tempo, $indice_nome);
 $archivio_rielaborato = fondi_nome_id($archivio_ordinato, $indice_nome, $indice_id);
 
 $mask = array($indice_posiz,$indice_nome,$indice_tempo,$indice_anno); # visualizza tutti i campi
-show_table($archivio_rielaborato,$mask,3,12);
+show_table($archivio_rielaborato,$mask,'tabella',3,12);
 
 # logga il contatto
 $counter = count_page("classifica_generale_tempi",array("COUNT"=>1,"LOG"=>1)); # abilita il contatore, senza visualizzare le cifre, e fai il log

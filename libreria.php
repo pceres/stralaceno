@@ -43,7 +43,6 @@ $num_colonne_organizzatori = 7;
 
 
 #variabili di formattazione
-$style_titoli_tabella = 'style="border-style: solid; border-color: rgb(170, 170, 170); border-width: 1px; padding: 0.15em 0.3em; background-color: rgb(255, 255, 200);"';
 $style_sfondo_maschi = "rgb(249, 255, 255)";
 $style_sfondo_femmine = "rgb(255, 234, 234)";
 $colore_blu_cielo_di_Laceno = "rgb(51,102,153)";
@@ -57,14 +56,14 @@ $filename_counter 		= "dati/counter.txt";
 
 #varie
 $email_info		= "stralaceno@freepass.it";
-$symbol_1_partecipazione	= '<img src="images/0x2606(star).bmp" width="17">';
-$symbol_record  		= '<img src="images/0x263A(smiling_face).bmp" width="17">';
+$symbol_1_partecipazione= '<img src="images/0x2606(star).bmp" height="15" alt="1a partecipazione" vertical-align="center">';
+$symbol_record  		= '<img src="images/0x263A(smiling_face).bmp" height="15" alt="record personale" vertical-align="center">';
 
 $indici = array('indice_id' => $indice_id,'indice_nome' => $indice_nome,'indice_posiz' => $indice_posiz,'indice_tempo' => $indice_tempo,'indice_anno' => $indice_anno,'indice_nota' => $indice_nota,'num_colonne_prestazioni' => $num_colonne_prestazioni,'indice_info' => $indice_info);
 $indici2 = array('indice2_id' => $indice2_id,'indice2_nome' => $indice2_nome,'indice2_sesso' => $indice2_sesso,'indice2_titolo' => $indice2_titolo,'indice2_data_nascita' => $indice2_data_nascita,'indice2_peso' => $indice2_peso,'indice2_link' => $indice2_link,'num_colonne_atleti'  => $num_colonne_atleti);
 $indici3 = array('indice3_id' => $indice3_id,'indice3_nome' => $indice3_nome,'indice3_sesso' => $indice3_sesso,'indice3_incarico' => $indice3_incarico,'indice3_anno' => $indice3_anno,'indice3_link' => $indice3_link,'indice3_nota' => $indice3_nota,'num_colonne_organizzatori' => $num_colonne_organizzatori);
 
-$formattazione = array('style_sfondo_maschi' => $style_sfondo_maschi,'style_sfondo_femmine' => $style_sfondo_femmine,'style_titoli_tabella' => $style_titoli_tabella,'colore_blu_stralaceno' => $colore_blu_cielo_di_Laceno,'colore_arancio_stralaceno' => $colore_arancio_fondo_vomitatoio);
+$formattazione = array('style_sfondo_maschi' => $style_sfondo_maschi,'style_sfondo_femmine' => $style_sfondo_femmine,'colore_blu_stralaceno' => $colore_blu_cielo_di_Laceno,'colore_arancio_stralaceno' => $colore_arancio_fondo_vomitatoio);
 $filenames = array('filename_tempi' => $filename_tempi,'filename_atleti' => $filename_atleti,'filename_organizzatori' => $filename_organizzatori,'filename_counter' => $filename_counter);
 $varie = array('email_info' => $email_info,'symbol_1_partecipazione' => $symbol_1_partecipazione,'symbol_record' => $symbol_record);
 
@@ -116,7 +115,7 @@ return $archivio;
 }
 
 
-function show_table($archivio,$mask,$num_colonne = 1,$font_size = -1,$show_note = 1) {
+function show_table($archivio,$mask,$class,$num_colonne = 1,$font_size = -1,$show_note = 1) {
 
 # dichiara variabili
 extract(indici());
@@ -125,41 +124,46 @@ if ($font_size != -1) {
 	$main_border = 2;
 	$border = 0;
 	$cell_padding = 0;
-	}
-	else {
+}
+else {
 	$main_border = 0;
 	$border = 2;
 	$cell_padding = 2;
-	}
-
+}
+	
 echo "<div align = \"center\" >"; # tieni la tabella al centro
 
-echo "<table border=\"$main_border\">\n";
+echo "<table class=\"$class\">\n";
 echo "  <tbody>\n";
-echo "  <tr align\"center\" style=\"vertical-align: top;\">\n";
+echo "  <tr>\n";
 echo "  <td>\n";
 
-$table_setting = " border=\"$border\" cellpadding=\"$cell_padding\" cellspacing=\"1\"";
+#$table_setting = " border=\"$border\" cellpadding=\"$cell_padding\" cellspacing=\"1\"";
+#$table_setting = "";
 
 $head = $archivio[0];
 $head_string = " <thead><tr>\n";
 for ($temp = 0; $temp < count($mask); $temp++) {
-	$head_string .= "<th scope=col $style_titoli_tabella align=\"center\">".$head[$mask[$temp]]."</th>";
+#	$head_string .= "<th scope=col $style_titoli_tabella align=\"center\">".$head[$mask[$temp]]."</th>";
+	$head_string .= "<th>".$head[$mask[$temp]]."</th>\n";
 	#echo "<th scope=col $style_titoli_tabella align=\"center\">".$head[$mask[$temp]]."</th>";
 	}
 $head_string .= "  </tr></thead>\n";
 
 
-echo "<table $table_setting>\n";
+#echo "<table $table_setting>\n";
+echo "<table>\n";
 echo $head_string;
 echo "  <tbody>\n";
 
 $note = array();
 for ($i = 1; $i < count($archivio); $i++) {
 	$prestazione = $archivio[$i];
+	
 
 	# stile riga:
 	$style_row = "style=\"";
+	#$style_row = "style=\"height:1.4em;";
 	if ($font_size != -1) {
 		$style_row .= "font-size: $font_size;";
 		}
@@ -194,8 +198,8 @@ for ($i = 1; $i < count($archivio); $i++) {
 			$allineamento = "left";
 			if (mostro_link($prestazione['info'])) {
 				$campo = "<a href=\"info.php?id=".$prestazione['info'][$indice2_id]."\">".$campo."</a>";
-				}
 			}
+		}
 			
 		# campo tempo
 		if (array_key_exists("info",$prestazione) & ($mask[$temp] == $indice_tempo) ) {
@@ -206,36 +210,44 @@ for ($i = 1; $i < count($archivio); $i++) {
 				$campo .= " <small>".$ks."</small>";
 				
 				array_push($note,$nota);
-				}
 			}
+		}
 			
 		# campo posizione
 		if (array_key_exists("info",$prestazione) & ($mask[$temp] == $indice_posiz) ) {
 			if ($campo != '-') {
 				$campo = $campo."<sup>o</sup>";
-				}
 			}
-		echo "<td nowrap><div align=\"$allineamento\">$campo</div></td>";
 		}
+		echo "<td nowrap><div align=\"$allineamento\">$campo</div></td>";
+	}
 
 	echo "</tr>\n";
 	
-	if (fmod($i,ceil((count($archivio)-1)/$num_colonne))==0) {
-	        echo "</tbody></table></td>";
-			if ($i < (count($archivio)-1)) {
-				echo "<td><table $table_setting>$head_string<tbody>";
-				}
+	# chiudi la colonna ed inizia la successiva
+	if ((fmod($i,ceil((count($archivio)-1)/$num_colonne))==0) && ($i < count($archivio)-1)) { 
+		echo "</tbody></table></td>";
+		if ($i < (count($archivio)-1)) {
+			echo "<td><table>$head_string<tbody>";
 		}
 	}
+}
 
+# eventuali righe vuote
+$resto = (ceil((count($archivio)-1)/$num_colonne))*$num_colonne-count($archivio)+1;
+for ($temp = 0; $temp < $resto; $temp++) {
+	echo "<tr style=\"font-size:12;\"><td>&nbsp;<sup>&nbsp;</sup></td></tr>\n";
+}
+
+# chiudi l'ultima colonna
 echo "  </tbody>\n";
 echo "</table>\n";
 
+# chiudi la tabella principale
 echo "  </td>\n";
 echo "  </tr>\n";
 echo "  </tbody>\n";
 echo "</table>\n";
-
 
 echo "</div>";
 

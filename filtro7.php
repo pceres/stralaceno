@@ -1,14 +1,14 @@
-<!DOCTYPE public "-//w3c//dtd html 4.01 transitional//en" 
-		"http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
   <title>Stralaceno Web - Albo d'oro</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
+  <style type="text/css">@import "/work/stralaceno2/css/stralaceno.css";</style>
 </head>
-<body>
+<body class="tabella">
   
-<div align="center"><h2>Albo d'oro della Stralaceno</h2></div>
+<div class="titolo_tabella">Albo d'oro della Stralaceno</div>
 <hr>
 
 <?php
@@ -60,7 +60,7 @@ $tabella_rielaborata = fondi_nome_id($tabella, $indice_nome, $indice_id);
 #$mask = array($indice_id,$indice_nome,$indice_posiz,$indice_tempo,$indice_anno);
 $mask = array($indice_nome,$indice_tempo,$indice_anno);
 
-show_table($tabella_rielaborata,$mask);
+show_table($tabella_rielaborata,$mask,'tabella');
 
 # logga il contatto
 $counter = count_page("albo_d_oro",array("COUNT"=>1,"LOG"=>1)); # abilita il contatore, senza visualizzare le cifre, e fai il log

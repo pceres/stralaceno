@@ -5,10 +5,11 @@
   <title>Archivio storico annuale</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
+  <style type="text/css">@import "/work/stralaceno2/css/stralaceno.css";</style>  
 </head>
-<body>
+<body class="tabella">
   
-<div align="center"><h2>Grafici tempi Stralaceno</h2></div>
+<div class="titolo_tabella">Grafici tempi Stralaceno</div>
 <hr>
 <p>Elenco di tutti gli atleti che hanno partecipato ad almeno una edizione della Stralaceno:</p>
 

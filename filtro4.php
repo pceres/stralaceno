@@ -1,12 +1,12 @@
-<!DOCTYPE public "-//w3c//dtd html 4.01 transitional//en" 
-		"http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
   <title>Stralaceno Web - Archivio storico annuale</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
+  <style type="text/css">@import "/work/stralaceno2/css/stralaceno.css";</style>
 </head>
-<body>
+<body class="tabella">
   
 <?php
 
@@ -19,7 +19,7 @@ $archivio = merge_tempi_atleti($archivio,$atleti);
 
 $anno = $_REQUEST['anno']; 				# anno richiesto
 
-echo "<div align=\"center\"><b>Stralaceno ".$anno." - risultati ufficiali</b> :</div>";
+echo "<div class=\"titolo_tabella\">Stralaceno ".$anno." - risultati ufficiali :</div>";
 
 $archivio = aggiungi_simboli($archivio);
 
@@ -32,7 +32,7 @@ $archivio_ordinato = ordina_archivio($archivio_filtrato,$indice_posiz, $indice_n
 $archivio_rielaborato = fondi_nome_id($archivio_ordinato, $indice_nome, $indice_id);
 
 $mask = array($indice_posiz,$indice_nome,$indice_tempo,'simb'); # escludo l'anno
-show_table($archivio_rielaborato,$mask,3,12);
+show_table($archivio_rielaborato,$mask,'tabella',3,12);
 
 # logga il contatto
 $counter = count_page("classifica_anno",array("COUNT"=>1,"LOG"=>1)); # abilita il contatore, senza visualizzare le cifre, e fai il log
@@ -40,35 +40,35 @@ $counter = count_page("classifica_anno",array("COUNT"=>1,"LOG"=>1)); # abilita i
 ?>
 
 <br>
-<table style="font-size: 12;">
+<table class="tabella_legenda">
 	<tr>
 		<td>F.T.M.</td>
 		<td>:</td>
-		<td style="font-style: italic;">fuori tempo massimo (40 minuti uomini, 45 minuti donne)</td>
+		<td class="descrizione">fuori tempo massimo (40 minuti uomini, 45 minuti donne)</td>
 	</tr>
 	<tr>
 		<td>Rit.</td>
 		<td>:</td>
-		<td style="font-style: italic;">ritirato</td>
+		<td class="descrizione">ritirato</td>
 	</tr>
 	<tr>
 		<td>Squ..</td>
 		<td>:</td>
-		<td style="font-style: italic;">squalificato</td>
+		<td class="descrizione">squalificato</td>
 	</tr>
 	<tr>
 		<td>
 		<?php echo $symbol_1_partecipazione; ?>
 		</td>
 		<td>:</td>
-		<td style="font-style: italic;">1<sup>a</sup> partecipazione</td>
+		<td class="descrizione">1<sup>a</sup> partecipazione</td>
 	</tr>
 	<tr>
 		<td>
 		<?php echo $symbol_record; ?>
 		</td>
 		<td>:</td>
-		<td style="font-style: italic;">miglioramento record personale</td>
+		<td class="descrizione">miglioramento record personale</td>
 	</tr>
 </table>
 
@@ -84,7 +84,8 @@ $archivio_filtrato = filtra_archivio($organizzatori,$lista_regola_campo,$lista_r
 $archivio_ordinato = $archivio_filtrato; # non ordino i nomi, vengono presentati nell'ordine con cui sono stati inseriti nel file Excel 'organizzatori_laceno.csv'
 
 	{
-	echo "<div style=\"font-size: 11; font-family: comic sans ms;\">";
+#	echo "<div style=\"font-size: 11; font-family: comic sans ms;\">";
+	echo "<div class=\"tabella_organizzatori\" >";
 	
 	echo "<hr>Organizzatori e collaboratori per l'edizione $anno:&nbsp;&nbsp;";
 	

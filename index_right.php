@@ -58,7 +58,7 @@ selezioni di qualsiasi campo select all'interno del documento.
 		<span class="titolo_colonna">Approfondimenti:</span>
 		 <table cellpadding="0" cellspacing="0">
 		  <tbody>
-			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
+			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
 				<div style="display: inline;"><form action="filtro4.php" method="GET" name="form_anno" style="display: inline; margin: 0;">
 				<span class="txt_link">Archivio storico annuale (tutti i risultati di un anno):</span>
 				<select name="anno" onChange="valida(this.form,'anno')">
@@ -86,7 +86,7 @@ selezioni di qualsiasi campo select all'interno del documento.
 			</td></tr>
 
 
-			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td style="max-width: 100px">
+			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td style="max-width: 100px;">
 				<div style="display: inline;"><form action="filtro2.php" method="GET" name="form_atleta" style="display: inline; margin: 0;">
 				<span class="txt_link">Archivio storico personale:</span><br>
 				<select name="nome" onChange="valida(this.form,'nome')">
@@ -123,23 +123,23 @@ selezioni di qualsiasi campo select all'interno del documento.
 				</form></div>
 			</td></tr>
 
-			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
+			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
 				<a href="filtro6.php" name="Archivio storico per tempi" class="txt_link">Archivio storico (tutti i risultati ordinati per tempi)</a>
 			</td></tr>
 			
-			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
+			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
 				<a href="filtro8.php" name="grafico tempi" class="txt_link">Grafico andamento tempi negli anni</a>
 			</td></tr>
 			
-			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
+			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
 				<a name="classifica partecipazioni" class="txt_link">Classifica partecipazioni</a>
 			</td></tr>
 			
-			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
+			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
 				<a name="personaggi" class="txt_link">I personaggi</a>
 			</td></tr>
 			
-			<tr><td style="vertical-align: top;">&#8250;&nbsp;</td><td>
+			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
 				<a name="organizzatori" class="txt_link">Gli organizzatori</a>
 			</td></tr>
 
