@@ -1,6 +1,5 @@
 #!/usr/local/bin/php
-<!DOCTYPE public "-//w3c//dtd html 4.01 transitional//en" 
-		"http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
   <title>Stralaceno Web - Archivio storico</title>

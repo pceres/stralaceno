@@ -1,15 +1,15 @@
 #!/usr/local/bin/php
-<!DOCTYPE public "-//w3c//dtd html 4.01 transitional//en" 
-		"http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
   <title>Stralaceno Web - Classifica record personali</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
+  <style type="text/css">@import "/work/stralaceno2/css/stralaceno.css";</style>
 </head>
-<body>
+<body class="tabella">
   
-<div align="center"><h2>Classifica record personali</h2></div>
+<div class="titolo_tabella">Classifica record personali</div>
 <hr>
 
 <?php
@@ -52,7 +52,7 @@ $archivio_rielaborato = fondi_nome_id($archivio_record, $indice_nome, $indice_id
 #$mask = array($indice_id,$indice_nome,$indice_tempo,$indice_posiz,$indice_anno); # visualizza tutti i campi
 #show_table($archivio_record,$mask);
 $mask = array($indice_posiz,$indice_nome,$indice_tempo,$indice_anno); # visualizza tutti i campi
-show_table($archivio_rielaborato,$mask,3,12,0); # tabella in tre colonne, font 12, senza note
+show_table($archivio_rielaborato,$mask,'tabella',3,12,0); # tabella in tre colonne, font 12, senza note
 
 # logga il contatto
 $counter = count_page("classifica_generale_MF",array("COUNT"=>1,"LOG"=>1)); # abilita il contatore, senza visualizzare le cifre, e fai il log
@@ -60,21 +60,21 @@ $counter = count_page("classifica_generale_MF",array("COUNT"=>1,"LOG"=>1)); # ab
 ?>
 
 <br>
-<table style="font-size: 12;">
+<table class="tabella_legenda">
 	<tr>
 		<td>F.T.M.</td>
 		<td>:</td>
-		<td style="font-style: italic;">fuori tempo massimo (40 minuti uomini, 45 minuti donne)</td>
+		<td class="descrizione">fuori tempo massimo (40 minuti uomini, 45 minuti donne)</td>
 	</tr>
 	<tr>
 		<td>Rit.</td>
 		<td>:</td>
-		<td style="font-style: italic;">ritirato</td>
+		<td class="descrizione">ritirato</td>
 	</tr>
 	<tr>
 		<td>Squ..</td>
 		<td>:</td>
-		<td style="font-style: italic;">squalificato</td>
+		<td class="descrizione">squalificato</td>
 	</tr>
 </table>
 

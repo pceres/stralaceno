@@ -1,15 +1,15 @@
 #!/usr/local/bin/php
-<!DOCTYPE public "-//w3c//dtd html 4.01 transitional//en" 
-		"http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
   <title>Stralaceno Web - Archivio storico</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
+  <style type="text/css">@import "/work/stralaceno2/css/stralaceno.css";</style>
 </head>
-<body>
+<body class="tabella">
   
-<div align="center"><h2>Archivio storico personale della Stralaceno</h2></div>
+<div class="titolo_tabella">Archivio storico personale della Stralaceno</div>
 <hr>
 
 <?php
@@ -32,7 +32,7 @@ $lista_regola_valore = array($nome);
 $archivio_filtrato = filtra_archivio($archivio,$lista_regola_campo,$lista_regola_valore);
 
 $mask = array($indice_posiz,$indice_tempo,$indice_anno); # escludo ID e nome
-show_table($archivio_filtrato,$mask);
+show_table($archivio_filtrato,$mask,'tabella');
 
 # logga il contatto
 $counter = count_page("tempi_atleta",array("COUNT"=>1,"LOG"=>1)); # abilita il contatore, senza visualizzare le cifre, e fai il log
