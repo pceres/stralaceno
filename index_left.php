@@ -1,6 +1,6 @@
 <?php
 
-$numero_anni = 4; # numero delle ultime edizioni da visualizzare
+$numero_anni = 3; # numero delle ultime edizioni da visualizzare
 
 $elenco_anni = array();
 for ($ii = 1; $ii < count($archivio); $ii++) {
@@ -11,50 +11,43 @@ $elenco_anni = array_reverse($elenco_anni); # inverti l'ordine
 
 $colore_bordo_left = '#FFFFFF';#$colore_bordo;#'#FFFFFF';
 
-$open_border = "\n<tr><td><table width=\"95%\" border=\"0\" cellspacing=\"0\" align=\"center\" bgcolor=\"$colore_bordo_left\"><tbody><tr><td>\n<table width=\"100%\" border=\"0\" cellspacing=\"\" cellpadding=\"5\" bgcolor=\"$colore_sfondo\"><tbody><tr><td>\n";
-$close_border = "</td></tr></tbody></table>\n</td></tr></tbody></table></td></tr>\n\n";
+$open_border = "\t<tr><td><table width=\"95%\" border=\"0\" cellspacing=\"0\" align=\"center\" bgcolor=\"$colore_bordo_left\"><tbody><tr><td>\n\t   <table width=\"100%\" border=\"0\" cellspacing=\"\" cellpadding=\"5\" bgcolor=\"$colore_sfondo\"><tbody><tr><td>\n";
+$close_border = "\t   </td></tr></tbody></table>\n\t</td></tr></tbody></table></td></tr>\n\n";
 
 ?>
-
-
+<!-- 
+inizio colonna sinistra
+-->
 <table width="95%" border="0" cellspacing="0" align="center" bgcolor="#336699"><tbody><tr><td>
-	<table width="100%" border="0" cellspacing="" cellpadding="3" bgcolor="#ffffff"><tbody>
+   <table width="100%" border="0" cellspacing="" cellpadding="3" bgcolor="#ffffff"><tbody>
 	
-		<?php echo $open_border?>
+	
+<?php echo $open_border?>
 		<strong>La corsa:</strong>
-			<br>›&nbsp;<a href="/work/stralaceno2/presentazione.htm" name="presentazione">Cos'&egrave; la Stralaceno?</a>
-			<br>›&nbsp;<a href="filtro7.php" name="Albo d'oro">Albo d'oro</a>
-			<br>›&nbsp;<a name="regolamento">Stralcio regolamento</a>
-		<?php echo $close_border?>
+		<br>&#8250&nbsp;<a href="/work/stralaceno2/presentazione.htm" name="presentazione">Cos'&egrave; la Stralaceno?</a>
+		<br>&#8250&nbsp;<a href="filtro7.php" name="Albo d'oro">Albo d'oro</a>
+		<br>&#8250&nbsp;<a name="regolamento">Stralcio regolamento</a>
+<?php echo $close_border?>
 
-
-
-		<?php echo $open_border?>
+<?php echo $open_border?>
 		<strong>Cronaca corrente:</strong>
-
-			<?php
-			for ($i = 0; $i < $numero_anni; $i++) {
-				echo "<br>›&nbsp;<a href=\"filtro4.php?anno=$elenco_anni[$i]\">Edizione $elenco_anni[$i]</a>\n";
-			}
-			?>
-		
-			<br>›&nbsp;<a href="/my_cgi-bin/stralaceno2/filtro9.php" name="migliori prestazioni">Classifica personali</a></li>
-			<br>›&nbsp;<a name="migliori prestazioni femminili">Classifica personali femminili</a></li>
-		<?php echo $close_border?>
-
-
-		<?php echo $open_border?>
-
-		<strong>Link</strong>
-			<br>›&nbsp;<a href="http://www.caposeleonline.it" name="Caposeleonline">Caposeleonline</a>
-			<br>›&nbsp;<a href="http://www.lagolaceno.it/" name="Lago Laceno">Lago Laceno</a>
-		<?php echo $close_border?>
-	
-
-
-	</td></tr></tbody></table>
-</td></tr></tbody></table>
-
 <?php
-#present., albo d'oro, Stralcio regolam. Cronaca corrente: 2004, 2003,..,migl.iori prestaz.(gen. e femminili). Approf: partec. per tempi, Grafici, Per nomi, i personaggi, Organizzatori, classifica num. partecipaz.
+		for ($i = 0; $i < $numero_anni; $i++) {
+			echo "\t\t<br>&#8250&nbsp;<a href=\"filtro4.php?anno=$elenco_anni[$i]\">Edizione $elenco_anni[$i]</a>\n";
+		}
 ?>
+		<br>&#8250&nbsp;<a href="/my_cgi-bin/stralaceno2/filtro9.php" name="migliori prestazioni">Classifica personali</a></li>
+		<br>&#8250&nbsp;<a name="migliori prestazioni femminili">Classifica personali femminili</a></li>
+<?php echo $close_border?>
+
+<?php echo $open_border?>
+		<strong>Link</strong>
+		<br>&#8250&nbsp;<a href="http://www.caposeleonline.it" name="Caposeleonline">Caposeleonline</a>
+		<br>&#8250&nbsp;<a href="http://www.lagolaceno.it/" name="Lago Laceno">Lago Laceno</a>
+<?php echo $close_border?>
+	
+   </td></tr></tbody></table>
+</td></tr></tbody></table>
+<!-- 
+fine colonna sinistra
+-->
