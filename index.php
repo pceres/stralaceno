@@ -16,9 +16,6 @@
 include 'libreria.php';
 $archivio = load_data($filename_tempi,$num_colonne_prestazioni); # carica i dati relativi a tutti gli anni
 
-$colore_bordo = '#336699'; # colore blu ufficiale del sito
-$colore_sfondo = '#FFEFE5'; #'#FFDBC4';  #   l'arancione ufficiale e' #FF6803, qui' e' eschiarito
-
 ?>
 
 <table cellpadding="2" cellspacing="2" border="0" style="text-align: left; width: 100%;">
