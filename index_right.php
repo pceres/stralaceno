@@ -125,6 +125,13 @@ function valida(pform,tipo,check_null)
 
    </td></tr></tbody></table>
 </td></tr></tbody></table>
+
+	<div align="right"><i>
+	Sei il visitatore n.
+	<?php $counter = action_counter($filename_counter); 		echo $counter; ?>
+	</i>
+	</div>
+
 <!-- 
 fine colonna destra
 -->
