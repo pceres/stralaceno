@@ -34,9 +34,9 @@ inizio footer
 		  <td align="left" style="font-style: italic;"><small> Peter Redmann </small></td>
 		</tr>
 
-		<!-- la riga che segue e' il logo del validatore HTML W3C >
-		<tr>
-		  <td colspan="3" align="center">
+		<!-- la riga che segue e' il logo del validatore HTML W3C -->
+		<!--tr>
+		  <td colspan="3" style="width: 500px; vertical-align: bottom; height: 50px; text-align: center;">
 			  <a href="http://validator.w3.org/check?uri=referer"><img border="0"	src="http://www.w3.org/Icons/valid-html401" 
 				alt="Valid HTML 4.01!" height="31" width="88"></a>
 		  </td>
