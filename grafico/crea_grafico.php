@@ -1,3 +1,4 @@
+#!/usr/local/bin/php
 <!DOCTYPE public "-//w3c//dtd html 4.01 transitional//en" 
 		"http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -121,8 +122,8 @@ fclose($handle);
 
 
 grafico(950,480,30,$datafile,$pngfile);
-echo "<img src=\"".$pngfile."\" title=\"grafico tempi Stralaceno\" alt=\"grafico tempi Stralaceno\">"; #!!!
-#echo "<img src=\"/work/stralaceno/grafico/".$pngfile."\" title=\"grafico tempi Stralaceno\" alt=\"grafico tempi Stralaceno\">";
+#echo "<img src=\"".$pngfile."\" title=\"grafico tempi Stralaceno\" alt=\"grafico tempi Stralaceno\">"; #!!!
+echo "<img src=\"/work/stralaceno2/grafico/".$pngfile."\" title=\"grafico tempi Stralaceno\" alt=\"grafico tempi Stralaceno\">";
 exit();
 
 

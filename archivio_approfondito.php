@@ -1,3 +1,4 @@
+#!/usr/local/bin/php
 <!DOCTYPE public "-//w3c//dtd html 4.01 transitional//en" 
 		"http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -12,17 +13,17 @@
   <tbody>
     <tr>
       <td width="100%">
-	  <!--img src="/work/stralaceno/images/sweb.gif" alt="logo_stralacenoweb"-->
-	  <img src="images/sweb.gif" alt="logo_stralacenoweb">
+	  <img src="/work/stralaceno2/images/sweb.gif" alt="logo_stralacenoweb">
+	  <!--img src="images/sweb.gif" alt="logo_stralacenoweb"-->
 	  </td>
       <td>
-      <!--embed src="/work/stralaceno/images/filmatoflash300x70.swf"
+      <embed src="/work/stralaceno2/images/filmatoflash300x70.swf"
  quality="high" alt="logo_stralacenoweb_flash"
  pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=3DShockwaveFlash"
- type="application/x-shockwave-flash"-->
-      <embed src="images/filmatoflash300x70.swf" quality="high" alt="logo_stralacenoweb_flash"
- pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=3DShockwaveFlash"
  type="application/x-shockwave-flash">
+      <!--embed src="images/filmatoflash300x70.swf" quality="high" alt="logo_stralacenoweb_flash"
+ pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=3DShockwaveFlash"
+ type="application/x-shockwave-flash"-->
     </tr>
   </tbody>
 </table>
