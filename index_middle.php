@@ -1,0 +1,45 @@
+<?php
+	#  $colore_bordo e $colore_sfondo devono essere definiti esternamente!!!
+	$colore_bordo_middle = '#ffffff';#$colore_bordo;
+	$colore_sfondo_middle = '#FFF6F0';#"#e4eeff";#$colore_sfondo;
+	
+	$open_border = "\n<tr><td><table width=\"95%\" border=\"0\" cellspacing=\"0\" align=\"center\" bgcolor=\"$colore_bordo_middle\"><tbody><tr><td>\n<table width=\"100%\" border=\"0\" cellspacing=\"\" cellpadding=\"5\" bgcolor=\"$colore_sfondo_middle\"><tbody><tr><td>\n";
+	$close_border = "</td></tr></tbody></table>\n</td></tr></tbody></table></td></tr>\n\n";
+
+?>
+
+<table width="95%" border="0" cellspacing="0" align="center" bgcolor="#336699"><tbody><tr><td>
+	<table width="100%" border="0" cellspacing="" cellpadding="5" bgcolor="#ffffff"><tbody>
+	
+<?php echo $open_border;?>
+<h3>Presentazione</h3>
+
+<div align="justify">
+<p>Dal 1987, nel suggestivo paesaggio dell'altopiano di Laceno, ogni anno gli sportivi di Caposele si sfidano 
+tradizionalmente in una corsa di mezzofondo.</p>
+La manifestazione è di carattere amatoriale, ma non per questo è meno vivo il sano senso di competizione tra i 
+partecipanti, i quali, sebbene animati da differenti motivazioni individuali, acquisiscono tutti pari dignità nel 
+momento in cui accettano, per Sport, di vivere un momento di intenso impegno fisico. Il che per alcuni si traduce nel 
+correre per una migliore posizione in classifica, per altri in una semplice verifica del proprio stato di forma fisica, 
+per altri ancora, non meno rispettabili, nel tentativo di raggiungimento del traguardo entro il tempo massimo 
+prestabilito<a href="presentazione.htm" title="presentazione">...</a></p>
+</div>
+<?php echo $close_border;?>
+
+
+<?php echo $open_border;?>
+<h3>Edizione 2004</h3>
+<p>L'ultima competizione, svoltasi il 3 settembre 2004, ha visto una notevole partecipazione di corridori amatoriali, 
+oltre cinquanta.</p>
+<p>Primo classificato, col tempo di 20' 10'', &egrave; risultato <b>Gelsomino Merola</b>, vincitore per l'undicesima volta. Secondo 
+classificato &egrave; <b>Gianfranco Di Vincenzo</b>, che, ottenendo l'ottimo tempo di 21' 20'', ha conquistato il terzo posto nella 
+<a href="filtro9.php">classifica generale dei partecipanti alla Stralaceno</a>. Al terzo posto si &egrave; classificato <b>Paolo 
+Viscardi</b> con 22' 56''. 
+<a href="filtro4.php?anno=395">L'ordine d'arrivo completo dell'edizione 2004 della Stralaceno &egrave; consultabile qui</a>.</p>
+<p>Il prossimo appuntamento &egrave; fissato per fine estate dell'anno prossimo.
+</p>
+<?php echo $close_border;?>
+
+
+	</td></tr></tbody></table>
+</td></tr></tbody></table>
