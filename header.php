@@ -12,7 +12,7 @@ inizio header
 	</table>
 
 	<hr>
-	<span style="font-size: 13px; color: rgb(30, 60, 90);">La Stralaceno &egrave; una manifestazione podistica 
+	<span style="font-size: 0.8em; color: rgb(30, 60, 90);">La Stralaceno &egrave; una manifestazione podistica 
 amatoriale su strada, riservata ai caposelesi, che si tiene ogni anno a fine agosto/inizio settembre sul circuito
 di Laceno.</span>
 	<hr>

@@ -43,8 +43,7 @@ $num_colonne_organizzatori = 7;
 
 
 #variabili di formattazione
-#$style_titoli_tabella = "style=\"background-color: rgb(255, 255, 200); border: double rgb(170,170,170)\"";
-$style_titoli_tabella = 'style="border-style: solid; border-color: rgb(170, 170, 170); border-width: thin 1px; padding: 2px 4px; background-color: rgb(255, 255, 200);"';
+$style_titoli_tabella = 'style="border-style: solid; border-color: rgb(170, 170, 170); border-width: 1px; padding: 0.15em 0.3em; background-color: rgb(255, 255, 200);"';
 $style_sfondo_maschi = "rgb(249, 255, 255)";
 $style_sfondo_femmine = "rgb(255, 234, 234)";
 
