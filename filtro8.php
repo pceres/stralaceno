@@ -24,6 +24,8 @@ $archivio = merge_tempi_atleti($archivio,$atleti);
 
 $archivio = ordina_archivio($archivio,$indice_nome, $indice_posiz);
 
+$archivio = fondi_nome_id($archivio,$indice_nome, $indice_id);
+
 
 $elenco_atleti = array();
 $archivio2 = array($archivio[0]);
@@ -70,7 +72,7 @@ array_multisort($elenco_cognomi,SORT_ASC, SORT_STRING,$elenco_nomi,SORT_ASC, SOR
 	<tr>
 <?php
 
-$num_col = 5;
+$num_col = 4;
 $colonne = ceil(count($archivio2)/$num_col);
 
 for ($i = 1; $i <= $num_col*$colonne; $i++) {
