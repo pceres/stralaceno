@@ -7,6 +7,23 @@ inizio colonna centrale
 	<tr><td>
 	  <table class="article_group"><tbody><tr><td>
 
+		<h3>Presentazione</h3>
+		<div class="txt_articolo">
+			<p>Dal 1987, nel suggestivo paesaggio dell'altopiano di Laceno, ogni anno gli sportivi di Caposele si sfidano 
+tradizionalmente in una corsa di mezzofondo.<p>La manifestazione &egrave; di carattere amatoriale, ma non per questo &egrave; meno vivo il sano senso di competizione tra i 
+partecipanti, i quali, sebbene animati da differenti motivazioni individuali, acquisiscono tutti pari dignit&agrave; nel momento in cui accettano, per Sport, di vivere un momento di intenso impegno fisico. Il che per alcuni si traduce nel 
+correre per una migliore posizione in classifica, per altri in una semplice verifica del proprio stato di forma fisica, 
+per altri ancora, non meno rispettabili, nel tentativo di raggiungimento del traguardo entro il tempo massimo 
+prestabilito<a href="presentazione.htm" title="presentazione">...</a>
+		</div>
+
+		</td></tr></tbody></table>
+	</td></tr>
+
+
+	<tr><td>
+	  <table class="article_group"><tbody><tr><td>
+
 		<h3>L'altopiano del Laceno</h3>
 		<div class="txt_articolo">
 			<p>Laceno è ritenuto uno degli altopiani più ameni dell'appennino meridionale. 
@@ -36,23 +53,6 @@ precisamente la parte nord, come Foce di Caposele.
 		</div>
 		
 	  </td></tr></tbody></table>
-	</td></tr>
-
-
-	<tr><td>
-	  <table class="article_group"><tbody><tr><td>
-
-		<h3>Presentazione</h3>
-		<div class="txt_articolo">
-			<p>Dal 1987, nel suggestivo paesaggio dell'altopiano di Laceno, ogni anno gli sportivi di Caposele si sfidano 
-tradizionalmente in una corsa di mezzofondo.<p>La manifestazione &egrave; di carattere amatoriale, ma non per questo &egrave; meno vivo il sano senso di competizione tra i 
-partecipanti, i quali, sebbene animati da differenti motivazioni individuali, acquisiscono tutti pari dignit&agrave; nel momento in cui accettano, per Sport, di vivere un momento di intenso impegno fisico. Il che per alcuni si traduce nel 
-correre per una migliore posizione in classifica, per altri in una semplice verifica del proprio stato di forma fisica, 
-per altri ancora, non meno rispettabili, nel tentativo di raggiungimento del traguardo entro il tempo massimo 
-prestabilito<a href="presentazione.htm" title="presentazione">...</a>
-		</div>
-
-		</td></tr></tbody></table>
 	</td></tr>
 
 
