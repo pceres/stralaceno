@@ -54,6 +54,7 @@ table.article_group {
 	margin:0px;
 	padding:0.4em;
 	background:#FFF6F0;
+	width:100%; /* l'articolo occupa tutta la larghezza consentita*/
 	}
 
 /* appartengono alla classe titolo_articolo tutti i titoli degli articoli */
