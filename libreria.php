@@ -54,6 +54,8 @@ $filename_atleti 		= "dati/atleti_laceno.csv";
 $filename_organizzatori = "dati/organizzatori_laceno.csv";
 $filename_counter 		= "dati/counter.txt";
 $articles_dir 			= "articoli/";
+$article_online_file 	= "articoli/online.txt";
+
 
 #varie
 $email_info		= "stralaceno@freepass.it";
@@ -66,7 +68,7 @@ $indici2 = array('indice2_id' => $indice2_id,'indice2_nome' => $indice2_nome,'in
 $indici3 = array('indice3_id' => $indice3_id,'indice3_nome' => $indice3_nome,'indice3_sesso' => $indice3_sesso,'indice3_incarico' => $indice3_incarico,'indice3_anno' => $indice3_anno,'indice3_link' => $indice3_link,'indice3_nota' => $indice3_nota,'num_colonne_organizzatori' => $num_colonne_organizzatori);
 
 $formattazione = array('style_sfondo_maschi' => $style_sfondo_maschi,'style_sfondo_femmine' => $style_sfondo_femmine,'colore_blu_stralaceno' => $colore_blu_cielo_di_Laceno,'colore_arancio_stralaceno' => $colore_arancio_fondo_vomitatoio);
-$filenames = array('filename_tempi' => $filename_tempi,'filename_atleti' => $filename_atleti,'filename_organizzatori' => $filename_organizzatori,'filename_counter' => $filename_counter,'articles_dir' => $articles_dir);
+$filenames = array('filename_tempi' => $filename_tempi,'filename_atleti' => $filename_atleti,'filename_organizzatori' => $filename_organizzatori,'filename_counter' => $filename_counter,'articles_dir' => $articles_dir,'article_online_file' => $article_online_file);
 $varie = array('email_info' => $email_info,'symbol_1_partecipazione' => $symbol_1_partecipazione,'symbol_record' => $symbol_record);
 
 return array_merge($indici,$indici2,$indici3,$formattazione,$filenames,$varie);
@@ -480,7 +482,7 @@ function get_article_list($articles_dir)
 	if (is_dir($articles_dir)) {
 		if ($dh = opendir($articles_dir)) {
 			while (($file = readdir($dh)) !== false) {
-			   if (filetype($articles_dir . $file) == "file")
+			   if ( (filetype($articles_dir . $file) == "file") and (substr($file,0,4) === "art_") )
 				{
 				   $art_id[++$art_count] = substr($file,4,strlen($file)-8)+0;
 				}
@@ -493,81 +495,80 @@ function get_article_list($articles_dir)
 }
 
 
+function get_online_articles($article_online_file)
+{
+	$bulk = file($article_online_file);
+	
+	$art_id = array();
+	for ($i = 0; $i < count($bulk); $i++)
+	{
+		array_push($art_id,$bulk[$i]+0);
+	}
+	
+	return $art_id;
+}
+
+
+function set_online_articles($article_online_file,$article_list)
+{
+	// scrivi il file degli articoli online
+	$handle=fopen($article_online_file,'w');
+	for ($i = 0; $i < count($article_list); $i++)
+	{
+		fwrite($handle, $article_list[$i]);
+		fwrite($handle,"\r\n");
+	}
+	fclose($handle);
+}
+
+
 function load_article($art_id)
 {
 	# dichiara variabili
 	extract(indici());
 	
-	$art_file = $articles_dir."art_".$art_id.".txt";
+	$art_file = $articles_dir."art_".($art_id+0).".txt";
 	
-	$bulk = file($art_file);           //read all long entries in a array
+	if (file_exists($art_file))
+	{
+		$bulk = file($art_file);           //read all long entries in a array
+		
+		$art_data = array();
+		
+		$art_autore = split("::",$bulk[0]);
+		$art_titolo = split("::",$bulk[1]);
+		
+		$art_data["autore"] = $art_autore[1];
+		$art_data["titolo"] = $art_titolo[1];
+		$art_data["testo"] = array_slice($bulk,3,count($bulk)-4);
+	}
+	else
+	{
+		$art_data = array();
+	}
 	
-	$art_data = array();
-	
-	$art_autore = split("::",$bulk[0]);
-	$art_titolo = split("::",$bulk[1]);
-
-	$art_data["autore"] = $art_autore[1];
-	$art_data["titolo"] = $art_titolo[1];
-	$art_data["testo"] = array_slice($bulk,3,count($bulk)-4);
 	return $art_data;
 }
 	
 	
 function publish_article($art_data) 
 {
-	//$art_file = $articles_dir."art_".$art_id.".txt";
-	
-	
 	echo "	<tr><td>";
 	echo "  <table class=\"article_group\"><tbody><tr><td>";
 
-//	print_r($art_data);
-
-	echo "	<h3>".$art_data["titolo"]."</h3>";
-	echo "	<div class=\"txt_articolo\">";
+	echo "		<h3>".$art_data["titolo"]."</h3>";
+	echo "		<div class=\"txt_articolo\">";
 
 	foreach ($art_data["testo"] as $line)
 	{
 		echo $line;
 	}
 	
-	echo "<div class=\"txt_firma_articolo\">".$art_data["autore"]."</div>";
-	echo "	</div>";
+	echo "		<div class=\"txt_firma_articolo\">".$art_data["autore"]."</div>";
+	echo "		</div>";
 
-/*
-		<h3>L'altopiano del Laceno</h3>
-		<div class="txt_articolo">
-			<p>Laceno è ritenuto uno degli altopiani più ameni dell'appennino meridionale. 
-Chi arriva da Caposele, per la strada interna montana, affacciandosi sull'altopiano subisce
-un piacevole impatto con la bellezza del luogo.
-Laceno è posto a 1050 metri di altitudine con una superfice di circa  10 chilometri quadrati;
-la prateria è dominata dal maestoso Cervialto che con i suoi 1809 m. è la seconda vetta più alta 
-della Campania (la prima dei monti Picentini), in passato era frequentato dai cervi, da cui
-il suo nome, ed era anche rifugio dei briganti.
-Più ad ovest si erge il monte Rajamagra solcato da piste da sci e da impianti di risalita che 
-arrivano fino a quota 1667 metri.
-Dalla cima il panorama è stupendo: da una parte si spazia dalla penisola sorrentina con Capri,
-fino a Paestum e Punta Licosa; dall'altra colline e paesi d'Irpinia fin verso il tavoliere 
-delle Puglie ad intravedere il mar Adriatico.
-			<p>E' coperto da alberi di alto fusto di faggio e di pino; normalmente da novembre a marzo è
-ammantato di neve. In pieno inverno si possono toccare temperature minime intorno ai meno
-venti gradi centigradi e d'estate difficilmente e raramente si superano i 28 gradi.
-Fino ad un paio di secoli fa vi abbondava il cervo, oggi è ancora presente il lupo, la volpe,
-la faina, la martora, la lepre, il cinghiale. Fra i volatili l'aquila reale, i falchi, corvi,
-starne, il tordo, il colombaccio.
-			<p>Particolare è il rapporto che lega Laceno a Caposele, infatti, grazie alle abbondanti 
-precipitazioni, con una media annua di 2000 mm., inizia il lungo viaggio delle acque verso
-le sorgenti di piazza Sanità che fanno di Caposele il paese d'Italia più ricco d'acqua;
-a sottolineare questo connubio è anche il nome che prende una parte dell'altopiano,
-precisamente la parte nord, come Foce di Caposele.
-			<div class="txt_firma_articolo">Angelo Ceres</div>
-		</div>
-*/
-	
 	echo "	</td></tr></tbody></table>";
 	echo "</td></tr>";	
-
 }
 
 
@@ -749,7 +750,7 @@ $contatore_out = $counter;
   // ************* LOG section ****************
   if ($flags['LOG'] == 1)
   {
-    $date=time();
+    $date=date("l dS of F Y h:i:s A");
     $log=      StripDoubleColon($myself);
     $log.='::'.StripDoubleColon($QUERY_STRING);
     $log.='::'.StripDoubleColon($REMOTE_ADDR);
