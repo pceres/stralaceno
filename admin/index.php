@@ -35,5 +35,8 @@ Password: <input name="password" type="password">
 
 <hr>
 
+<a href='articoli.php'>Gestione articoli</a>
+
+
 </body>
 </html>
