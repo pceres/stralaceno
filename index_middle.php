@@ -3,22 +3,19 @@ inizio colonna centrale
 -->
 <table class="frame_delimiter"><tbody>	
 
-
 	<?php
-	//include 'libreria.php';
 
-	$art_id=get_article_list($articles_dir);
-	$art_list = array(2,3,1);
+	$art_list = get_online_articles($article_online_file); // carica l'elenco degli articoli da pubblicare
 	
-	for ($i = 0; $i <= count($art_list); $i++)
+	for ($i = 0; $i < count($art_list); $i++)
 	{
-		if (in_array($art_list[$i],$art_id))
+		$art_data = load_article($art_list[$i]); // carica l'articolo
+		
+		if (!empty($art_data)) // se l'articolo esiste...
 		{
-			$art_data = load_article($art_list[$i]); // carica l'articolo
 			publish_article($art_data);	// visualizza l'articolo
 		}
-	}
-	
+	}	
 	?>
 
 </tbody></table>
