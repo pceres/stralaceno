@@ -20,13 +20,13 @@ $num_colonne_prestazioni = 6;
 $indice_info = 'info'; #$num_colonne_prestazioni; # viene aggiunta una colonna di informazioni relative all'atleta
 
 # formato file di archivio 'atleti_laceno.csv'
-$indice2_id 			= 0;
-$indice2_nome 			= 1;
-$indice2_sesso	 		= 2;
-$indice2_titolo 		= 3;
+$indice2_id 		= 0;
+$indice2_nome 		= 1;
+$indice2_sesso	 	= 2;
+$indice2_titolo 	= 3;
 $indice2_data_nascita 	= 4;
-$indice2_peso 			= 5;
-$indice2_link			= 6;
+$indice2_peso 		= 5;
+$indice2_link		= 6;
 
 $num_colonne_atleti = 7;
 
@@ -48,13 +48,18 @@ $style_sfondo_femmine = "rgb(255, 234, 234)";
 $colore_blu_cielo_di_Laceno = "rgb(51,102,153)";
 $colore_arancio_fondo_vomitatoio = "rgb(255,102,0)";
 
+$path = $_SERVER['SCRIPT_FILENAME'];
+$root_prefix = "stralaceno";
+$start = strpos($path,$root_prefix)+strlen($root_prefix)+1;
+$root_path = substr($path,0,$start);
+
 #nomi di file
-$filename_tempi 		= "dati/tempi_laceno.csv";
-$filename_atleti 		= "dati/atleti_laceno.csv";
-$filename_organizzatori	= "dati/organizzatori_laceno.csv";
-$filename_counter 		= "dati/counter.txt";
-$articles_dir 			= "articoli/";
-$article_online_file 	= "articoli/online.txt";
+$filename_tempi 		= $root_path."dati/tempi_laceno.csv";
+$filename_atleti 		= $root_path."dati/atleti_laceno.csv";
+$filename_organizzatori		= $root_path."dati/organizzatori_laceno.csv";
+$filedir_counter 		= $root_path."dati/";
+$articles_dir 			= $root_path."articoli/";
+$article_online_file 		= $articles_dir."online.txt";
 
 
 #varie
@@ -63,15 +68,23 @@ $symbol_empty= '<img style="display:inline;" align="middle" height="13" width="1
 $symbol_1_partecipazione= '<img src="images/0x2606(star).bmp" style="display:inline;" align="middle" height="13" alt="1a partecipazione" border="0">';
 $symbol_record  		= '<img src="images/0x263A(smiling_face).bmp" style="display:inline;" align="middle" height="13" alt="1a partecipazione" border="0">';
 
+#admin
+$max_last_editions	= 3;	// numero di ultime edizioni in colonna laterale
+$max_online_articles	= 3;	// numero di articoli pubblicati online
+
+
+
+#campi files csv
 $indici = array('indice_id' => $indice_id,'indice_nome' => $indice_nome,'indice_posiz' => $indice_posiz,'indice_tempo' => $indice_tempo,'indice_anno' => $indice_anno,'indice_nota' => $indice_nota,'num_colonne_prestazioni' => $num_colonne_prestazioni,'indice_info' => $indice_info);
 $indici2 = array('indice2_id' => $indice2_id,'indice2_nome' => $indice2_nome,'indice2_sesso' => $indice2_sesso,'indice2_titolo' => $indice2_titolo,'indice2_data_nascita' => $indice2_data_nascita,'indice2_peso' => $indice2_peso,'indice2_link' => $indice2_link,'num_colonne_atleti'  => $num_colonne_atleti);
 $indici3 = array('indice3_id' => $indice3_id,'indice3_nome' => $indice3_nome,'indice3_sesso' => $indice3_sesso,'indice3_incarico' => $indice3_incarico,'indice3_anno' => $indice3_anno,'indice3_link' => $indice3_link,'indice3_nota' => $indice3_nota,'num_colonne_organizzatori' => $num_colonne_organizzatori);
 
 $formattazione = array('style_sfondo_maschi' => $style_sfondo_maschi,'style_sfondo_femmine' => $style_sfondo_femmine,'colore_blu_stralaceno' => $colore_blu_cielo_di_Laceno,'colore_arancio_stralaceno' => $colore_arancio_fondo_vomitatoio);
-$filenames = array('filename_tempi' => $filename_tempi,'filename_atleti' => $filename_atleti,'filename_organizzatori' => $filename_organizzatori,'filename_counter' => $filename_counter,'articles_dir' => $articles_dir,'article_online_file' => $article_online_file);
+$filenames = array('filename_tempi' => $filename_tempi,'filename_atleti' => $filename_atleti,'filename_organizzatori' => $filename_organizzatori,'filedir_counter' => $filedir_counter,'articles_dir' => $articles_dir,'article_online_file' => $article_online_file);
 $varie = array('email_info' => $email_info,'symbol_1_partecipazione' => $symbol_1_partecipazione,'symbol_record' => $symbol_record);
+$admin = array('max_last_editions' => $max_last_editions,'max_online_articles' => $max_online_articles);
 
-return array_merge($indici,$indici2,$indici3,$formattazione,$filenames,$varie);
+return array_merge($indici,$indici2,$indici3,$formattazione,$filenames,$varie,$admin);
 }
 
 function load_data($filename,$num_colonne) {
@@ -80,7 +93,7 @@ $result=array();
 
 $file = fopen($filename, "r");
 if (!$file) {
-    echo "<p>Impossibile aprire il file remoto.\n";
+    echo "<p>Impossibile aprire il file remoto $filename.\n";
     exit;
 }
 while (!feof ($file)) {
@@ -142,20 +155,14 @@ echo "  <tbody>\n";
 echo "  <tr>\n";
 echo "  <td>\n";
 
-#$table_setting = " border=\"$border\" cellpadding=\"$cell_padding\" cellspacing=\"1\"";
-#$table_setting = "";
-
 $head = $archivio[0];
 $head_string = " <thead><tr>\n";
 for ($temp = 0; $temp < count($mask); $temp++) {
-#	$head_string .= "<th scope=col $style_titoli_tabella align=\"center\">".$head[$mask[$temp]]."</th>";
 	$head_string .= "<th>".$head[$mask[$temp]]."</th>\n";
-	#echo "<th scope=col $style_titoli_tabella align=\"center\">".$head[$mask[$temp]]."</th>";
 	}
 $head_string .= "  </tr></thead>\n";
 
 
-#echo "<table $table_setting>\n";
 echo "<table>\n";
 echo $head_string;
 echo "  <tbody>\n";
@@ -491,6 +498,7 @@ function get_article_list($articles_dir)
 	   }
 	}
 	sort($art_id);
+
 	return $art_id;
 }
 
@@ -551,7 +559,7 @@ function load_article($art_id)
 }
 	
 	
-function publish_article($art_data) 
+function show_article($art_data) 
 {
 	echo "	<tr><td>";
 	echo "  <table class=\"article_group\"><tbody><tr><td>";
@@ -571,6 +579,40 @@ function publish_article($art_data)
 	echo "</td></tr>";	
 }
 
+
+
+function publish_article($id_articolo,$author,$title,$bulk,$bulkfile,$max_articoli) {
+
+# dichiara variabili
+extract(indici());
+
+$str_author = "Autore::$author\r\n";
+$str_title = "Titolo::$title\r\n";
+$str_begin_text = "--- Begin body ---\r\n";
+$str_end_text = "--- End body ---\r\n";
+
+$bulk = array_merge($str_author,$str_title,$str_begin_text,$bulk,$str_end_text);
+
+// scrivi il file art_x.txt
+$handle=fopen($bulkfile,'w');
+for ($i=0;$i<count($bulk); $i++) fwrite($handle, $bulk[$i]);
+fclose($handle);
+
+// leggi l'elenco degli articoli gia' online
+$art_list = get_online_articles($article_online_file); // carica l'elenco degli articoli da pubblicare
+
+// aggiungi il nuovo articolo in cima
+$art_list = array_merge($id_articolo,$art_list);
+
+// lascia, eventualmente, solo gli ultimi 10 articoli della lista
+if (count($art_list) > $max_articoli)
+{
+	$art_list = array_slice($art_list,0,$max_articoli);
+}
+
+// salva l'elenco degli articoli online
+set_online_articles($article_online_file,$art_list);
+}
 
 
 ?>
@@ -614,7 +656,6 @@ History :
 */
 
 define('MAXLOGFILESIZE', 50*1024);    //maximum log file size = 50Kb !!!
-#define('MAXLOGFILESIZE', 800);    //maximum log file size = 50Kb
 define('MAILTO','pasquale_ceres@yahoo.it'); //who to send email reports
 
 function StripDoubleColon($chunk='')
@@ -625,7 +666,7 @@ function StripDoubleColon($chunk='')
   return($chunk);
 }
 
-function count_page($myself,$flags)
+function count_page($myself,$flags,$path_prefix = "")
 {
 /* $myself e' un id che identifica il contatore. Possono essere gestiti piu' contatori, semplicemente dando $myself diversi
    $flags e' un array i cui campi sono:
@@ -633,19 +674,18 @@ function count_page($myself,$flags)
 	$flags['LOG'] = [0,1]		scrivi o meno nel file di log
 */
 
-
   $HTTP_USER_AGENT = $_SERVER['HTTP_USER_AGENT'];
   $REMOTE_ADDR = $_SERVER['REMOTE_ADDR'];
   $HTTP_REFERER = $_SERVER['HTTP_REFERER'];
   $QUERY_STRING = $_SERVER['QUERY_STRING'];
 
-  $logfile = 'dati/logfile.txt'; //every hit log file
-  $backupfile = 'dati/backupfile%03d.txt';   //log backup file naming. E' importante lasciare alla fine del nome %3d (formato per sprintf)
-  $counterfile = 'dati/counterfile.txt'; //miscellaneous pages visit counter
-  $lasthitfile = 'dati/lasthitfile.txt'; //last hits ... used with trigger, allow to prevent counting 'reload' as visit
-  $imagepath = 'images/';           //path to digit gif image location
-  $minlength = 3;                   //min length of the counter (will be padded with 0)
-  $trigger = 0; //30;                    //number of minutes while a second hit from the same ip to the same page in not counted
+  $logfile 	= $path_prefix.'logfile.txt'; 		//every hit log file
+  $backupfile 	= $path_prefix.'backupfile%03d.txt';   	//log backup file naming. E' importante lasciare alla fine del nome %3d (formato per sprintf)
+  $counterfile 	= $path_prefix.'counterfile.txt';	//miscellaneous pages visit counter
+  $lasthitfile 	= $path_prefix.'lasthitfile.txt'; 	//last hits ... used with trigger, allow to prevent counting 'reload' as visit
+  $imagepath 	= $path_prefix.'images/';           	//path to digit gif image location
+  $minlength 	= 3;       	//min length of the counter (will be padded with 0)
+  $trigger 	= 30;  // 0     //number of minutes while a second hit from the same ip to the same page in not counted
 
 //Read counter from file or reset counter to 0 if counter file doesn't exist
 $output='';
@@ -669,7 +709,6 @@ if (file_exists($counterfile))
 $contatore_out = $counter;
 
 
-//  if (!defined('COUNT') && !defined('LOG')) return $contatore_out; //nothing to do, so just return
   if (empty($flags['COUNT']) && empty($flags['LOG'])) return $contatore_out; //nothing to do, so just return
 
 
