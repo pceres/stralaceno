@@ -2,8 +2,7 @@
 <html>
 <head>
   <title>Stralaceno Web</title>
-  <meta http-equiv="Content-Type"
- content="text/html; charset=ISO-8859-1">
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="generator" content="Quanta Plus">
   <meta name="description" content="Sito ufficiale della Stralaceno">
   <meta name="keywords" content="Stralaceno, Caposele, Caposelesi, Corsa podistica, Atletica, Lago Laceno, Laceno">
@@ -12,7 +11,9 @@
 <body onLoad="azzera_input()">
 
 <?php
+
 include 'libreria.php';
+
 $archivio = load_data($filename_tempi,$num_colonne_prestazioni); # carica i dati relativi a tutti gli anni
 
 ?>
