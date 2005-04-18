@@ -1,4 +1,3 @@
-#!/usr/local/bin/php 
 <!DOCTYPE public "-//w3c//dtd html 4.01 transitional//en" 
 		"http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -36,13 +35,13 @@ if ($password_ok == $password) {
 
 if (file_exists($uploaddir . $new_name))
 {
-	echo "L'articolo $id_articolo e' gia' stato pubblicato ($uploaddir."."$new_name gia' esiste!)";
+	echo "L'articolo $id_articolo &egrave; gi&agrave; stato pubblicato ($uploaddir."."$new_name gia' esiste!)";
 	break;
 }
 
 if ($ok == TRUE) {
 	if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploaddir . $new_name)) { 
-		print "Il file $new_name è stato inviato con successo.\n"; 
+		print "Il file $new_name &egrave; stato inviato con successo.\n"; 
 
 		$file = fopen($uploaddir . 'something_changed.txt', "a");
 		fputs($file, $uploaddir . $new_name . ", " . date("l dS of F Y h:i:s A") . ' \n');
@@ -63,7 +62,7 @@ if ($ok == TRUE) {
 		print "Upload eseguito parzialmente!\n"; 
 		break;
 	  case UPLOAD_ERR_NO_FILE :
-		print "Nessun file e' stato inviato!\n"; 
+		print "Nessun file &egrave; stato inviato!\n"; 
 		break;
 		default:
 		echo "Unkown error type: [$errno]<br>\n";
@@ -72,7 +71,7 @@ if ($ok == TRUE) {
 	 }
 	}
 else {
-	echo "Password errata!";
+	die("Password errata!");
 	}
 
 // Modifica il file di testo per aggiungere i campi titolo ed autore ed i delimitatori di testo
@@ -110,6 +109,8 @@ if (count($art_list) > $max_articoli)
 // salva l'elenco degli articoli online
 set_online_articles("../$article_online_file",$art_list);
 
+# logga il contatto
+# $counter = count_page("admin_upload_articoli",array("COUNT"=>1,"LOG"=>1)); # abilita il contatore, senza visualizzare le cifre, e fai il log
 ?>
 
 
