@@ -63,7 +63,7 @@ for ($i = 1; $i < count($archivio2); $i++) {
 array_multisort($elenco_cognomi,SORT_ASC, SORT_STRING,$elenco_nomi,SORT_ASC, SORT_STRING, $elenco_i,SORT_ASC, SORT_NUMERIC);
 
 # logga il contatto
-$counter = count_page("grafico_tempi",array("COUNT"=>1,"LOG"=>1)); # abilita il contatore, senza visualizzare le cifre, e fai il log
+$counter = count_page("grafico_tempi",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
 
 ?>
 

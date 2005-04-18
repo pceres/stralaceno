@@ -36,7 +36,7 @@ $mask = array($indice_posiz,$indice_nome,$indice_tempo,'simb'); # escludo l'anno
 show_table($archivio_rielaborato,$mask,'tabella',3,12);
 
 # logga il contatto
-$counter = count_page("classifica_anno",array("COUNT"=>1,"LOG"=>1)); # abilita il contatore, senza visualizzare le cifre, e fai il log
+$counter = count_page("classifica_anno",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
 
 ?>
 
@@ -85,7 +85,6 @@ $archivio_filtrato = filtra_archivio($organizzatori,$lista_regola_campo,$lista_r
 $archivio_ordinato = $archivio_filtrato; # non ordino i nomi, vengono presentati nell'ordine con cui sono stati inseriti nel file Excel 'organizzatori_laceno.csv'
 
 	{
-#	echo "<div style=\"font-size: 11; font-family: comic sans ms;\">";
 	echo "<div class=\"tabella_organizzatori\" >";
 	
 	echo "<hr>Organizzatori e collaboratori per l'edizione $anno:&nbsp;&nbsp;";
@@ -101,7 +100,6 @@ $archivio_ordinato = $archivio_filtrato; # non ordino i nomi, vengono presentati
 			{
 			$incarico .= " ($nota)";
 			}
-		#echo "$nome:<span style=\"font-style: italic;\">$incarico</span>;&nbsp;&nbsp;&nbsp;\n";
 		echo "$incarico:<span style=\"font-style: italic;\">$nome</span>;&nbsp;&nbsp;&nbsp;\n";
 		}
 echo "</div>";
