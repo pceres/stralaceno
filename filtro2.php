@@ -34,7 +34,7 @@ $mask = array($indice_posiz,$indice_tempo,$indice_anno); # escludo ID e nome
 show_table($archivio_filtrato,$mask,'tabella');
 
 # logga il contatto
-$counter = count_page("tempi_atleta",array("COUNT"=>1,"LOG"=>1)); # abilita il contatore, senza visualizzare le cifre, e fai il log
+$counter = count_page("tempi_atleta",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
 
 ?>
 

@@ -29,7 +29,7 @@ $mask = array($indice_posiz,$indice_nome,$indice_tempo,$indice_anno); # visualiz
 show_table($archivio_rielaborato,$mask,'tabella',3,12);
 
 # logga il contatto
-$counter = count_page("classifica_generale_tempi",array("COUNT"=>1,"LOG"=>1)); # abilita il contatore, senza visualizzare le cifre, e fai il log
+$counter = count_page("classifica_generale_tempi",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
 
 ?>
 
