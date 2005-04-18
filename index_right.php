@@ -127,9 +127,9 @@ selezioni di qualsiasi campo select all'interno del documento.
 				<a href="filtro6.php" name="Archivio storico per tempi" class="txt_link">Archivio storico (tutti i risultati ordinati per tempi)</a>
 			</td></tr>
 			
-			<!--tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
-				<a href="filtro8.php" name="grafico tempi" class="txt_link">Grafico andamento tempi negli anni</a>
-			</td></tr-->
+			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
+				<a name="grafico tempi" class="txt_link">Grafico andamento tempi negli anni</a>
+			</td></tr>
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
 				<a name="classifica partecipazioni" class="txt_link">Classifica partecipazioni</a>
@@ -153,9 +153,7 @@ selezioni di qualsiasi campo select all'interno del documento.
 	<div align="right" class="txt_normal"><i>
 	Sei il visitatore n.
 	<?php 
-		//include("libreria.php"); // e' gia' implicitamente inclusa da index.php
-		$counter = count_page("homepage",array("COUNT"=>1,"LOG"=>1)); # abilita il contatore, senza visualizzare le cifre, e fai il log
-		#$counter = action_counter($filename_counter); 		
+		$counter = count_page("homepage",array("COUNT"=>0,"LOG"=>0),$filedir_counter); # disabilita tutto, leggi solo il contatore
 		echo $counter; 
 	?>
 	</i>
