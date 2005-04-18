@@ -17,7 +17,7 @@ print_r($_SERVER);
 
 # prova a leggere da remoto un file tramite ftp
 echo "<p>Provo a leggere counter.txt:<br>\n";
-$filename = 'ftp://pceres:avellino@pceres.altervista.org/stralaceno/dati/counter.txt';
+$filename = 'ftp://pceres:avellino@pceres.altervista.org/stralaceno/dati/counterfile.txt';
 #$filename = 'dati/counter.txt';
 $fp = fopen($filename,'r');
 
