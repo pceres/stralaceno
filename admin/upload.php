@@ -12,7 +12,9 @@
 
 <?php
 
-$uploaddir = '../dati/';
+require_once('../libreria.php');
+
+$uploaddir = substr($filename_tempi,0,strlen($filename_tempi)-16);
 $password_ok = "stralacenoadmin"; 
 
 print "<pre>";
@@ -22,47 +24,52 @@ $new_name = $_REQUEST['filename'];
 $password = $_REQUEST['password'];
 
 $ok = FALSE;
-if ($password_ok == $password) {
+if ($password_ok == $password) 
+{
 	$ok = TRUE;
-	}
+}
 
-if ($ok == TRUE) {
-	if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploaddir . $new_name)) { 
-		print "Il file $new_name è stato inviato con successo.\n"; 
-
+if ($ok == TRUE) 
+{
+	if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploaddir . $new_name)) 
+	{ 
 		$file = fopen($uploaddir . 'something_changed.txt', "a");
-		fputs($file, $uploaddir . $new_name . ", " . date("l dS of F Y h:i:s A") . ' \n');
+		fputs($file, $uploaddir . $new_name . ", " . date("l dS of F Y h:i:s A") . " \n");
 		fclose($file);
 
-		#print_r($_FILES);
-	} else {
+		print "Il file $new_name &egrave; stato inviato con successo.\n"; 
+	} 
+	else
+	{
 		print "Possibile attacco tramite file upload! Alcune informazioni:\n"; 
 		print_r($_FILES);
 		
-	  $errno = $_FILES['userfile']['error'];
-	  switch ($errno) {
-	  case UPLOAD_ERR_INI_SIZE :
-	  case UPLOAD_ERR_FORM_SIZE :
-		print "File troppo grande!\n"; 
-		break;
-	  case UPLOAD_ERR_PARTIAL :
-		print "Upload eseguito parzialmente!\n"; 
-		break;
-	  case UPLOAD_ERR_NO_FILE :
-		print "Nessun file e' stato inviato!\n"; 
-		break;
-		default:
-		echo "Unkown error type: [$errno]<br>\n";
-		break;
-	  }
+		$errno = $_FILES['userfile']['error'];
+		switch ($errno) 
+		{
+			case UPLOAD_ERR_INI_SIZE :
+			case UPLOAD_ERR_FORM_SIZE :
+				print "File troppo grande!\n"; 
+				break;
+	 		case UPLOAD_ERR_PARTIAL :
+				print "Upload eseguito parzialmente!\n"; 
+				break;
+			case UPLOAD_ERR_NO_FILE :
+				print "Nessun file &egrave; stato inviato!\n"; 
+				break;
+			default:
+				echo "Unknown error type: [$errno]<br>\n";
+				break;
+		}
 	 }
-	}
-else {
+}
+else 
+{
 	echo "Password errata!";
-	}
+}
 
 # logga il contatto
-# $counter = count_page("admin_upload",array("COUNT"=>1,"LOG"=>1)); # abilita il contatore, senza visualizzare le cifre, e fai il log
+$counter = count_page("admin_upload",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
 ?>
 
 </body>
