@@ -28,7 +28,7 @@ if ($password_ok == $password) {
 
 if ($ok == TRUE) {
 	if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploaddir . $new_name)) { 
-		print "Il file $new_name è stato inviato con successo.\n"; 
+		print "Il file $new_name Ã¨ stato inviato con successo.\n"; 
 
 		$file = fopen($uploaddir . 'something_changed.txt', "a");
 		fputs($file, $uploaddir . $new_name . ", " . date("l dS of F Y h:i:s A") . ' \n');
@@ -61,7 +61,8 @@ else {
 	echo "Password errata!";
 	}
 
-
+# logga il contatto
+# $counter = count_page("admin_upload",array("COUNT"=>1,"LOG"=>1)); # abilita il contatore, senza visualizzare le cifre, e fai il log
 ?>
 
 </body>

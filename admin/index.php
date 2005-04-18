@@ -37,6 +37,10 @@ Password: <input name="password" type="password">
 
 <a href='articoli.php'>Gestione articoli</a>
 
+<?php
+# logga il contatto
+#$counter = count_page("admin_index",array("COUNT"=>1,"LOG"=>1)); # abilita il contatore, senza visualizzare le cifre, e fai il log
+?>
 
 </body>
 </html>

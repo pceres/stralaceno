@@ -1,4 +1,3 @@
-#!/usr/local/bin/php 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -85,6 +84,10 @@ Password: <input name="password" type="password">
 <input type="submit" value="Invia File">
 </form>
 
+<?php
+# logga il contatto
+# $counter = count_page("admin_articoli",array("COUNT"=>1,"LOG"=>1)); # abilita il contatore, senza visualizzare le cifre, e fai il log
+?>
 
 </body>
 </html>
