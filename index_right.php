@@ -153,9 +153,7 @@ selezioni di qualsiasi campo select all'interno del documento.
 	<div align="right" class="txt_normal"><i>
 	Sei il visitatore n.
 	<?php 
-		//include("libreria.php"); // e' gia' implicitamente inclusa da index.php
-		$counter = count_page("homepage",array("COUNT"=>1,"LOG"=>1)); # abilita il contatore, senza visualizzare le cifre, e fai il log
-		#$counter = action_counter($filename_counter); 		
+		$counter = count_page("homepage",array("COUNT"=>0,"LOG"=>0),$filedir_counter); # disabilita tutto, leggi solo il contatore
 		echo $counter; 
 	?>
 	</i>
