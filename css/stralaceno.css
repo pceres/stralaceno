@@ -78,7 +78,7 @@ table.article_group H3 {
 	}
 
 
-/*---------------------------  Tabelle  -------------------------------------- */
+/*---------------------------  Tabelle dati -------------------------------------- */
 
 body.tabella {
 /*	color:rgb(51,102,153);*/
@@ -173,3 +173,42 @@ div.tabella_organizzatori {
 	font-size:0.75em;
 	font-family:comic sans ms,serif;
 	}
+
+
+/*---------------------------  Amministrazione -------------------------------------- */
+
+body.admin {
+	color:rgb(34,68,102);
+	background:#FFF6F0;
+	font-family:Arial,Tahoma,Verdana,Serif;	
+	font-size:1.2em;
+	}
+
+table.admin {
+	border-collapse:collapse;
+	border:2px solid rgb(51,102,153);
+	spacing:0px;
+	}
+
+table.admin tr {
+	vertical-align:baseline;
+	text-align:center;
+	}
+
+table.admin td {
+	padding:0.3em;
+	border:1px solid;
+	}
+
+table.admin thead {
+	border-collapse:separate;
+	background-color:rgb(255, 255, 200);
+	height:1.2em;
+	}
+
+table.admin thead th {
+	padding:0.2em 0.35em; 
+	spacing:0px;
+	border:1px solid rgb(170, 170, 170);
+	}
+
