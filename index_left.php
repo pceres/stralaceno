@@ -1,13 +1,13 @@
 <?php
 
-$numero_anni = 3; # numero delle ultime edizioni da visualizzare
-
 $elenco_anni = array();
 for ($ii = 1; $ii < count($archivio); $ii++) {
 	array_push($elenco_anni,$archivio[$ii][$indice_anno]);
 }
 $elenco_anni = array_unique($elenco_anni); # elimina gli anni duplicati
 $elenco_anni = array_reverse($elenco_anni); # inverti l'ordine
+
+$numero_anni = min(count($elenco_anni),$max_last_editions); # numero delle ultime edizioni da visualizzare
 
 ?>
 <!-- 
@@ -44,6 +44,7 @@ inizio colonna sinistra
 		 <table cellpadding="0" cellspacing="0">
 		  <tbody>
 
+<?php if ($numero_anni > 0) { ?>
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
 				<span class="txt_link">Ultime edizioni:</span>
 <?php
@@ -52,6 +53,7 @@ inizio colonna sinistra
 		}
 ?>
 			</td></tr>
+<?php } ?>
 
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td nowrap>
 				<a href="/my_cgi-bin/stralaceno2/filtro9.php" name="migliori prestazioni" class="txt_link">Classifica personali M+F</a>
