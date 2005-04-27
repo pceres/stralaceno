@@ -33,9 +33,7 @@ if ($ok == TRUE)
 {
 	if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploaddir . $new_name)) 
 	{ 
-		$file = fopen($uploaddir . 'something_changed.txt', "a");
-		fputs($file, $uploaddir . $new_name . ", " . date("l dS of F Y h:i:s A") . " \n");
-		fclose($file);
+		log_action($uploaddir,$uploaddir . $new_name . ", " . date("l dS of F Y h:i:s A"));
 
 		print "Il file $new_name &egrave; stato inviato con successo.\n"; 
 	} 
@@ -49,28 +47,31 @@ if ($ok == TRUE)
 		{
 			case UPLOAD_ERR_INI_SIZE :
 			case UPLOAD_ERR_FORM_SIZE :
-				print "File troppo grande!\n"; 
+				die("File troppo grande!\n"); 
 				break;
 	 		case UPLOAD_ERR_PARTIAL :
-				print "Upload eseguito parzialmente!\n"; 
+				die("Upload eseguito parzialmente!\n"); 
 				break;
 			case UPLOAD_ERR_NO_FILE :
-				print "Nessun file &egrave; stato inviato!\n"; 
+				die("Nessun file &egrave; stato inviato!\n"); 
 				break;
 			default:
-				echo "Unknown error type: [$errno]<br>\n";
+				die("Unknown error type: [$errno]<br>\n");
 				break;
 		}
 	 }
 }
 else 
 {
-	echo "Password errata!";
+	die("Password errata!");
 }
 
 # logga il contatto
 $counter = count_page("admin_upload",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
 ?>
+
+<hr>
+<a href="articoli.php">Torna indietro</a>
 
 </body>
 </html>

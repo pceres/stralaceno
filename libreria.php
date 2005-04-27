@@ -486,18 +486,29 @@ function get_article_list($articles_dir)
 {
 	// Leggi l'elenco degli articoli disponibili
 	$art_count = 0;
-	if (is_dir($articles_dir)) {
-		if ($dh = opendir($articles_dir)) {
-			while (($file = readdir($dh)) !== false) {
+	if (is_dir($articles_dir)) 
+	{
+		if ($dh = opendir($articles_dir)) 
+		{
+			while (($file = readdir($dh)) !== false) 
+			{
 			   if ( (filetype($articles_dir . $file) == "file") and (substr($file,0,4) === "art_") )
 				{
 				   $art_id[++$art_count] = substr($file,4,strlen($file)-8)+0;
 				}
-		   }
-		   closedir($dh);
-	   }
+			}
+			closedir($dh);
+		}
 	}
-	sort($art_id);
+	
+	if ($art_count > 0)
+	{
+		sort($art_id);
+	}
+	else
+	{
+		$art_id = array();
+	}
 
 	return $art_id;
 }
@@ -510,7 +521,11 @@ function get_online_articles($article_online_file)
 	$art_id = array();
 	for ($i = 0; $i < count($bulk); $i++)
 	{
-		array_push($art_id,$bulk[$i]+0);
+		$ks = trim($bulk[$i]); // elimina i caratteri di fine linea
+		if (!empty($ks))
+		{
+			array_push($art_id,$ks+0);
+		}
 	}
 	
 	return $art_id;
@@ -581,10 +596,20 @@ function show_article($art_data)
 
 
 
-function publish_article($id_articolo,$author,$title,$bulk,$bulkfile,$max_articoli) {
+function upload_article($author,$title,$bulk,$uploaddir) {
 
 # dichiara variabili
 extract(indici());
+
+# determina l'id del nuovo articolo
+$art_id = get_article_list($articles_dir); // carica l'elenco degli articoli disponibili ($articles_dir e' relativo alla radice)
+
+$id_articolo = max($art_id)+1;
+
+echo "il nuovo articolo ha id $id_articolo";
+
+# nome del file che contiene l'articolo
+$art_filename = $uploaddir."art_$id_articolo.txt";
 
 $str_author = "Autore::$author\r\n";
 $str_title = "Titolo::$title\r\n";
@@ -594,20 +619,32 @@ $str_end_text = "--- End body ---\r\n";
 $bulk = array_merge($str_author,$str_title,$str_begin_text,$bulk,$str_end_text);
 
 // scrivi il file art_x.txt
-$handle=fopen($bulkfile,'w');
+$handle=fopen($art_filename,'w');
 for ($i=0;$i<count($bulk); $i++) fwrite($handle, $bulk[$i]);
 fclose($handle);
 
-// leggi l'elenco degli articoli gia' online
-$art_list = get_online_articles($article_online_file); // carica l'elenco degli articoli da pubblicare
+# restituisci l'id del nuovo articolo
+return $id_articolo;
+}
 
-// aggiungi il nuovo articolo in cima
-$art_list = array_merge($id_articolo,$art_list);
 
-// lascia, eventualmente, solo gli ultimi 10 articoli della lista
-if (count($art_list) > $max_articoli)
+function log_action($workdir,$string)
 {
-	$art_list = array_slice($art_list,0,$max_articoli);
+$file = fopen($workdir . 'something_changed.txt', "a");
+fputs($file, $string."\r\n");
+fclose($file);
+}
+
+
+function publish_online_articles($art_list) {
+
+# dichiara variabili
+extract(indici());
+
+// lascia, eventualmente, solo gli ultimi max_online_articles della lista
+if (count($art_list) > $max_online_articles)
+{
+	$art_list = array_slice($art_list,0,$max_online_articles);
 }
 
 // salva l'elenco degli articoli online
