@@ -492,9 +492,9 @@ function get_article_list($articles_dir)
 		{
 			while (($file = readdir($dh)) !== false) 
 			{
-			   if ( (filetype($articles_dir . $file) == "file") and (substr($file,0,4) === "art_") )
+			   if ( (filetype($articles_dir . $file) == "file") and (substr($file,0,4) === "art_") and (substr($file,-1,1)=='t') )
 				{
-				   $art_id[++$art_count] = substr($file,4,strlen($file)-8)+0;
+				   	$art_id[++$art_count] = substr($file,4,strlen($file)-8)+0;
 				}
 			}
 			closedir($dh);
@@ -509,7 +509,7 @@ function get_article_list($articles_dir)
 	{
 		$art_id = array();
 	}
-
+	
 	return $art_id;
 }
 
@@ -649,6 +649,8 @@ if (count($art_list) > $max_online_articles)
 
 // salva l'elenco degli articoli online
 set_online_articles($article_online_file,$art_list);
+
+return $art_list;
 }
 
 
