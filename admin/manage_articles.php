@@ -1,4 +1,4 @@
-#!/usr/local/bin/php 
+#!/usr/local/bin/php
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -21,17 +21,17 @@ switch ($mode)
 case 'set_online_articles':
 	$article_list = split('::',$data); // elenco dei titoli da pubblicare
 	
-	set_online_articles($article_online_file,$article_list);
+	$published_list = publish_online_articles($article_list);
 	
 	echo "Fatto!<br>\n";
 	echo "<br>\n";
 	echo "Gli articoli online sono:<br>\n";
 	echo "<ul>\n";
-	for ($i = 0; $i < count($article_list); $i++) 
+	for ($i = 0; $i < count($published_list); $i++) 
 	{
-		$art_data = load_article($article_list[$i]);
+		$art_data = load_article($published_list[$i]);
 		
-		echo "<li>id ".$article_list[$i].") ". $art_data['titolo'] ."</li>\n";
+		echo "<li>id ".$published_list[$i].") ". $art_data['titolo'] ."</li>\n";
 	} 
 	echo "</ul><br>\n";
 	
@@ -46,7 +46,7 @@ default:
 }
 
 
-log_action($articles_dir,"Action: $mode, data<$data>");
+log_action($articles_dir,"Action: $mode, data<$data>, ".date("l dS of F Y h:i:s A"));
 
 ?>
 
