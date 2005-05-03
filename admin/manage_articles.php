@@ -111,9 +111,11 @@ case 'edit':
 
 case 'edited':
 	$id_articolo = $_REQUEST['data']; // articolo da modificare
-	$art_data['titolo'] = str_replace("\'","'",$_REQUEST['titolo']);
-	$art_data['autore'] = str_replace("\'","'",$_REQUEST['autore']);
-	$testo = str_replace("\'","'",$_REQUEST['testo']);
+	$ks1 = array("\'",'\"',"\\\\");
+	$ks2 = array("'","\"","\\");
+	$art_data['titolo'] = str_replace($ks1,$ks2,$_REQUEST['titolo']);
+	$art_data['autore'] = str_replace($ks1,$ks2,$_REQUEST['autore']);
+	$testo = str_replace($ks1,$ks2,$_REQUEST['testo']);
 	
 	$zz = split("\n",$testo);
 	
