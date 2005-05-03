@@ -71,7 +71,7 @@ $counter = count_page("admin_upload",array("COUNT"=>1,"LOG"=>1),$filedir_counter
 ?>
 
 <hr>
-<a href="articoli.php">Torna indietro</a>
+<a href="index.php">Torna indietro</a>
 
 </body>
 </html>
