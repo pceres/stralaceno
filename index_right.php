@@ -128,19 +128,19 @@ selezioni di qualsiasi campo select all'interno del documento.
 			</td></tr>
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
-				<a name="grafico tempi" class="txt_link">Grafico andamento tempi negli anni</a>
+				<a onClick="alert('Pagina in allestimento!')" name="grafico tempi" class="txt_link">Grafico andamento tempi negli anni</a>
 			</td></tr>
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
-				<a name="classifica partecipazioni" class="txt_link">Classifica partecipazioni</a>
+				<a onClick="alert('Pagina in allestimento!')" name="classifica partecipazioni" class="txt_link">Classifica partecipazioni</a>
 			</td></tr>
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
-				<a name="personaggi" class="txt_link">I personaggi</a>
+				<a onClick="alert('Pagina in allestimento!')" name="personaggi" class="txt_link">I personaggi</a>
 			</td></tr>
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
-				<a name="organizzatori" class="txt_link">Gli organizzatori</a>
+				<a onClick="alert('Pagina in allestimento!')" name="organizzatori" class="txt_link">Gli organizzatori</a>
 			</td></tr>
 
 		  </tbody>
