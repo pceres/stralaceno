@@ -10,25 +10,17 @@
 <script type="text/javascript">
 <!-- 
 
-/*function init()
-{
-	optionTest = true;
-	lgth = document.forms[0].second.options.length - 1;
-	document.forms[0].second.options[lgth] = null;
-	if (document.forms[0].second.options[lgth]) optionTest = false;
-}*/
-
 function get_list(target)
 {
 	var box;
 	
 	if (target == 'second')
 	{
-		box = document.forms[0].second;
+		box = document.forms["form_elenco_online"].second;
 	}
 	else
 	{
-		box = document.forms[0].first;
+		box = document.forms["form_elenco_online"].first;
 	}
 	
 	
@@ -59,13 +51,13 @@ function populate(target)
 	
 	if (target == 'second')
 	{
-		box1 = document.forms[0].first;
-		box2 = document.forms[0].second;
+		box1 = document.forms["form_elenco_online"].first;
+		box2 = document.forms["form_elenco_online"].second;
 	}
 	else
 	{
-		box2 = document.forms[0].first;
-		box1 = document.forms[0].second;
+		box2 = document.forms["form_elenco_online"].first;
+		box1 = document.forms["form_elenco_online"].second;
 	}
 	
 	var number = box1.options[box1.selectedIndex].value;
@@ -84,14 +76,76 @@ function populate(target)
 	box1.selectedIndex = -1;
 }
 
-/*
-function go()
+
+function do_action(action,data)
 {
-	if (!optionTest) return;
-	box = document.forms[0].second;
-	destination = box.options[box.selectedIndex].value;
-	if (destination && confirm('Do you really want to go to this site?')) top.location.href = destination;
-}*/
+
+	switch (action)
+	{
+	case "elenco_online":
+		document.forms["form_elenco_online"].task.value='set_online_articles';
+		document.forms["form_elenco_online"].data.value=get_list('second');
+		
+		top.location.href = 'manage_articles.php';
+		break;
+	case "cancel":
+		var msg="Vuoi davvero cancellare l'articolo con ID "+data+" ?";
+		if (!confirm(msg))
+		{
+			return false;
+		}
+		document.forms["form_data"].task.value='cancel';
+		document.forms["form_data"].data.value=data;
+		document.forms["form_data"].submit();
+		
+		break;
+	case "edit":
+		document.forms["form_data"].task.value='edit';
+		document.forms["form_data"].data.value=data;
+		document.forms["form_data"].submit();
+		
+		break;
+	}
+}
+
+function move_up_down(direction)
+{
+	var box = document.forms["form_elenco_online"].second;
+	var pos = box.selectedIndex;
+	var ok;
+	
+	if (pos >= 0)
+	{
+		if (direction == 'up')
+		{
+			ok = (pos > 0);
+			step = -1;
+		}
+		else
+		{
+			ok = (pos < box.options.length);
+			step = 1;
+		}
+		
+		if (ok)
+		{
+			box_new = new Option(box.options[pos+step].text,box.options[pos+step].value);
+			
+			box.options[pos+step].text = box.options[pos].text;
+			box.options[pos+step].value = box.options[pos].value;
+			
+			box.options[pos].text = box_new.text;
+			box.options[pos].value = box_new.value;
+			
+			box.selectedIndex = pos+step;
+		}
+	}
+	else
+	{
+		alert("Devi prima selezionare un articolo nella colonna destra!");
+	}
+
+}
 
 //-->
 </script>
@@ -125,6 +179,14 @@ for ($i = 0; $i < count($art_id); $i++)
 if (count($art_id) > 0)
 {
 ?>
+
+<form name="form_data" action="manage_articles.php" method="post">
+	<input name="task" type="hidden">
+	<input name="data" type="hidden">
+</form>
+
+<center>
+
 <table class="admin" align="center">
 	<caption>Situazione attuale articoli</caption>
 	<thead><tr>
@@ -132,21 +194,14 @@ if (count($art_id) > 0)
 		<th>Posizione in prima pagina</th>
 		<th>Titolo</th>
 		<th>Autore</th>
+		<th>Cancella</th>
+		<th>Modifica</th>
 	</tr></thead>		
 	<tbody>
-<?php
-}
-else
-{
-?>
-Non ci sono attualmente articoli sul sito!
-<?php
-}
-?>
 
 
 <!-- 
-gestione articoli online
+gestione articoli disponibili
 -->
 <?php
 $art_online_pos = array_flip($art_online_id);
@@ -189,17 +244,23 @@ for ($i = 0; $i < count($art_id); $i++)
 
 	echo "<td>".$art_bulk[$art_id[$i]-1]['autore']."</td>";
 
+	echo "<td><input type=\"checkbox\" onClick=\"return do_action('cancel',$art_id[$i])\"></td>";
+
+	echo "<td><input type=\"checkbox\" onClick=\"return do_action('edit',$art_id[$i])\"></td>";
+	
 	echo "\t\t</tr>\n";
 }
 ?>
 	</tbody>
 </table>
 
+
 <hr>
 
-<center>
-
-<form action="manage_articles.php">
+<!-- 
+gestione articoli online
+-->
+<form name="form_elenco_online" action="manage_articles.php" method="post">
 
 <table class="admin" style="border-collapse: collapse;" align="center">
 <caption>Gestione articoli in prima pagina</caption>
@@ -210,7 +271,6 @@ for ($i = 0; $i < count($art_id); $i++)
 	<tbody>
 	<tr>
 		<td> 
-			<!--select SIZE=<?php echo count($art_id); ?> NAME="first" onDblClick="populate('second')"-->
 			<select SIZE=<?php echo count($art_id)+1; ?> NAME="first" onDblClick="populate('second')">
 			<?php 
 			for ($i = 0; $i < count($art_id); $i++) 
@@ -226,7 +286,6 @@ for ($i = 0; $i < count($art_id); $i++)
 		</td>
 		
 		<td>
-			<!--select SIZE=<?php echo count($art_id); ?> NAME="second" onDblClick="populate('first')"-->
 			<select SIZE=<?php echo count($art_id)+1; ?> NAME="second" onDblClick="populate('first')">
 				<?php 
 				for ($i = 0; $i < count($art_id); $i++) 
@@ -242,10 +301,10 @@ for ($i = 0; $i < count($art_id); $i++)
 		</td>
 		
 		<td align="center">
-			<input name="Sposta su" value="Sposta su" onClick="forms[0].task.value='move_up'" type="submit"> <br>
-			<input name="Sposta giu'" value="Sposta giu'" onClick="forms[0].task.value='move_down'" type="submit"><br>
+			<input name="Sposta su" value="Sposta su" onClick="move_up_down('up')" type="button"> <br>
+			<input name="Sposta giu'" value="Sposta giu'" onClick="move_up_down('down')" type="button"><br>
 			<br>
-			<input name="Applica" value="Applica" onClick="forms[0].data.value=get_list('second'); forms[0].task.value='set_online_articles' " type="submit">
+			<input name="Applica" value="Applica" onClick="return do_action('elenco_online',1)" type="submit">
 			
 			<input name="task" type="hidden">
 			<input name="data" type="hidden">
@@ -255,6 +314,16 @@ for ($i = 0; $i < count($art_id); $i++)
 </table>
 
 </form>
+
+<?php
+}
+else
+{
+?>
+Non ci sono attualmente articoli sul sito!
+<?php
+}
+?>
 
 </center>
 
@@ -269,7 +338,7 @@ $art_filename = "art_$id.txt";
 <input type="hidden" name="MAX_FILE_SIZE" value="30000">
 <input type="hidden" name="id_articolo" value="<?php echo $id; ?>">
 <?php echo "<input type=\"hidden\" name=\"filename\" value=\"$art_filename\">"; ?>
-Nuovo file (id <?php echo $id; ?>) da caricare: <input name="userfile" type="file">
+Nuovo articolo (id <?php echo $id; ?>) da caricare: <input name="userfile" type="file">
 <br>
 Titolo: <input name="title" type="edit">
 <br>
