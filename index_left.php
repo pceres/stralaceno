@@ -28,7 +28,7 @@ inizio colonna sinistra
 				<a href="filtro7.php" name="Albo d'oro" class="txt_link">Albo d'oro</a>
 			</td></tr>
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td nowrap>
-				<a name="regolamento" class="txt_link">Stralcio regolamento</a>
+				<a onClick="alert('Pagina in allestimento!')" name="regolamento" class="txt_link">Stralcio regolamento</a>
 			</td></tr>
 		  </tbody>
 		 </table>
@@ -81,8 +81,11 @@ inizio colonna sinistra
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
 				<a href="http://www.lagolaceno.it/" name="Lago Laceno" class="txt_link">Lago Laceno</a>
 			</td></tr>
-			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
+			<!--tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
 				<a href="http://www.skilaceno.com/" name="skilaceno" class="txt_link">Sciare a Laceno</a>
+			</td></tr-->
+			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
+				<a href="http://liceonline.altervista.org/" name="liceocaposele" class="txt_link">Liceo di Caposele</a>
 			</td></tr>
 		  </tbody>
 		 </table>
