@@ -595,18 +595,7 @@ function show_article($art_data)
 }
 
 
-
-function upload_article($author,$title,$bulk,$uploaddir) {
-
-# dichiara variabili
-extract(indici());
-
-# determina l'id del nuovo articolo
-$art_id = get_article_list($articles_dir); // carica l'elenco degli articoli disponibili ($articles_dir e' relativo alla radice)
-
-$id_articolo = max($art_id)+1;
-
-echo "il nuovo articolo ha id $id_articolo";
+function save_article($id_articolo,$author,$title,$bulk,$uploaddir) {
 
 # nome del file che contiene l'articolo
 $art_filename = $uploaddir."art_$id_articolo.txt";
@@ -620,8 +609,32 @@ $bulk = array_merge($str_author,$str_title,$str_begin_text,$bulk,$str_end_text);
 
 // scrivi il file art_x.txt
 $handle=fopen($art_filename,'w');
-for ($i=0;$i<count($bulk); $i++) fwrite($handle, $bulk[$i]);
+for ($i=0;$i<count($bulk); $i++)
+{
+	$line = $bulk[$i];
+	fwrite($handle, rtrim($line,"\r\n"));
+	if ( ($i < count($bulk)) & (strlen(rtrim($line,"\r\n")) > 0) )
+	{
+		fwrite($handle,"\r\n");
+	}
+}
 fclose($handle);
+}
+
+
+function upload_article($author,$title,$bulk,$uploaddir) {
+
+# dichiara variabili
+extract(indici());
+
+# determina l'id del nuovo articolo
+$art_id = get_article_list($articles_dir); // carica l'elenco degli articoli disponibili ($articles_dir e' relativo alla radice)
+
+$id_articolo = max($art_id)+1;
+
+echo "il nuovo articolo ha id $id_articolo";
+
+save_article($id_articolo,$author,$title,$bulk,$uploaddir);
 
 # restituisci l'id del nuovo articolo
 return $id_articolo;
@@ -652,6 +665,27 @@ set_online_articles($article_online_file,$art_list);
 
 return $art_list;
 }
+
+
+function delete_article($art_id)
+{
+
+# dichiara variabili
+extract(indici());
+
+$art_file = $articles_dir."art_".($art_id+0).".txt";
+
+if (file_exists($art_file))
+{
+	unlink($art_file);
+	return TRUE;
+}
+else
+{
+	return FALSE;
+}
+
+} // end delete_article
 
 
 ?>
