@@ -18,6 +18,7 @@ $data = $_REQUEST['data'];
 
 switch ($mode)
 {
+
 case 'set_online_articles':
 	$article_list = split('::',$data); // elenco dei titoli da pubblicare
 	
@@ -35,18 +36,110 @@ case 'set_online_articles':
 	} 
 	echo "</ul><br>\n";
 	
+	break;
 	
+case 'cancel':
+	echo("Cancellazione dell'articolo con ID ".$data.":<br>\n");
+	
+	$art_data = load_article($data); // carica l'articolo
+	if (!empty($art_data)) // se l'articolo esiste...
+	{
+		echo "<table class=\"frame_delimiter\"><tbody>";
+		show_article($art_data);	// visualizza l'articolo
+		echo "</tbody></table>";
+	}
+	
+	// leggi l'elenco degli articoli gia' online
+	$art_list = get_online_articles($article_online_file); // carica l'elenco degli articoli da pubblicare
+	
+	if (in_array($data,$art_list))
+	{
+		echo "<a href=\"articoli.php\">Torna indietro</a><br><br>\n";
+		die("L'articolo e' ancora online, non puo' essere cancellato! Provvedi prima a metterlo offline.");
+	}
+	
+	// a questo punto sono sicuro che l'id dell'articolo da cancellare non e' nell'elenco di quelli online
+	
+	if (delete_article($data)) // cancello fisicamente il file
+	{
+		echo "L'articolo con id $data e' stato cancellato!<br>\n";
+	}
+	else
+	{
+		echo "L'articolo con id $data e' gia' stato cancellato!<br>\n";
+	}
 
 	break;
-case 'delete':
-	echo "delete";
+	
+case 'edit':
+	echo("Modifica dell'articolo con ID ".$data.":<br>\n");
+	
+	$art_data = load_article($data); // carica l'articolo
+	
+	if (!empty($art_data)) // se l'articolo esiste...
+	{
+		echo "<table class=\"frame_delimiter\"><tbody>";
+		show_article($art_data);	// visualizza l'articolo
+		echo "</tbody></table>";
+	}
+
+	?>
+
+	<br>
+	
+	<form name="form_edit_article" action="manage_articles.php" method="get">
+	Titolo: <input type="edit" name="titolo" value="<?php echo htmlentities($art_data['titolo'],ENT_QUOTES); ?>">
+
+	<?php
+	echo "<textarea name=\"testo\" rows=15 cols=120>";
+	for ($i = 0; $i < count($art_data['testo']); $i++)
+	{
+		echo trim(htmlentities($art_data['testo'][$i],ENT_QUOTES),"\r\n")."\n";
+	}
+	echo "</textarea>";
+	?>
+	Autore: <input type="edit" name="autore" value="<?php echo htmlentities($art_data['autore'],ENT_QUOTES); ?>"><br>
+
+	<input value="Applica modifiche" onClick="form_edit_article.task.value='edited'" type="submit">
+	<input name="task" type="hidden">
+	<input name="data" type="hidden" value="<?php echo $data; ?>">
+	
+	</form>
+	
+	<?php
+	break;
+
+case 'edited':
+	$id_articolo = $_REQUEST['data']; // articolo da modificare
+	$art_data['titolo'] = str_replace("\'","'",$_REQUEST['titolo']);
+	$art_data['autore'] = str_replace("\'","'",$_REQUEST['autore']);
+	$testo = str_replace("\'","'",$_REQUEST['testo']);
+	
+	$zz = split("\n",$testo);
+	
+	for ($i = 0; $i<count($zz); $i++)
+	{
+		$line = trim($zz[$i],"\r\n");
+
+		if ($i<(count($zz)-1))
+		{
+			$line .= "\r\n";
+		}
+		$art_data['testo'][$i] = $line;
+		
+	}
+	
+	save_article($id_articolo,$art_data['autore'],$art_data['titolo'],$art_data['testo'],$articles_dir);
+	
+	echo "Articolo $id_articolo modificato.<br>\n";
 	break;
 default:
-	die("Compito non specificato!");
+	echo "<a href=\"articoli.php\">Torna indietro</a><br><br>\n";
+	die("mode: \"".$mode."\", data: \"".$data."\"\n");
 }
 
 
-log_action($articles_dir,"Action: $mode, data<$data>, ".date("l dS of F Y h:i:s A"));
+log_action($articles_dir,"Action: <$mode>, data: <$data>, ".date("l dS of F Y h:i:s A"));
 
 ?>
 
