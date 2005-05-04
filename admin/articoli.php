@@ -227,13 +227,15 @@ array_multisort($list1,$list2,$art_online_id);
 
 for ($i = 0; $i < count($art_id); $i++)
 {
+	$id = $art_id[$i]; // id dell'articolo visualizzato sulla riga
+	
 	echo "\t\t<tr>\n";
 	
-	echo "\t\t\t<td>$art_id[$i]</td>\n";
+	echo "\t\t\t<td>$id</td>\n";
 		
-	if (in_array($art_id[$i],$art_online_id))
+	if (in_array($id,$art_online_id))
 	{
-		$posiz = ($art_online_pos[$art_id[$i]]+1)."&ordf;";
+		$posiz = ($art_online_pos[$id]+1)."&ordf;";
 	}
 	else
 	{
@@ -241,13 +243,13 @@ for ($i = 0; $i < count($art_id); $i++)
 	}
 	echo "\t\t\t<td>$posiz</td>\n";
 
-	echo "<td>".$art_bulk[$art_id[$i]-1]['titolo']."</td>";
+	echo "<td>".$art_bulk[$i]['titolo']."</td>";
 
-	echo "<td>".$art_bulk[$art_id[$i]-1]['autore']."</td>";
+	echo "<td>".$art_bulk[$i]['autore']."</td>";
 
-	echo "<td><input type=\"checkbox\" onClick=\"return do_action('cancel',$art_id[$i])\"></td>";
+	echo "<td><input type=\"checkbox\" onClick=\"return do_action('cancel',$id)\"></td>";
 
-	echo "<td><input type=\"checkbox\" onClick=\"return do_action('edit',$art_id[$i])\"></td>";
+	echo "<td><input type=\"checkbox\" onClick=\"return do_action('edit',$id)\"></td>";
 	
 	echo "\t\t</tr>\n";
 }
@@ -276,8 +278,9 @@ gestione articoli online
 			<?php 
 			for ($i = 0; $i < count($art_id); $i++) 
 			{
-				if (!in_array($art_id[$i],$art_online_id))
-					echo "\t<option value=\"".$art_id[$i]."\"> (id ".$art_id[$i].") ".$art_bulk[$art_id[$i]-1]['titolo']."</option>\n";
+				$id = $art_id[$i]; // id dell'articolo visualizzato sulla riga
+				if (!in_array($id,$art_online_id))
+					echo "\t<option value=\"".$id."\"> (id ".$id.") ".$art_bulk[$i]['titolo']."</option>\n";
 			} 
 			?>
 			</select>
@@ -291,8 +294,9 @@ gestione articoli online
 				<?php 
 				for ($i = 0; $i < count($art_id); $i++) 
 				{
-					if (in_array($art_id[$i],$art_online_id))
-						echo "\t<option value=\"".$art_id[$i]."\"> (id ".$art_id[$i].") ".$art_bulk[$art_id[$i]-1]['titolo']."</option>\n";
+					$id = $art_id[$i]; // id dell'articolo visualizzato sulla riga
+					if (in_array($id,$art_online_id))
+						echo "\t<option value=\"".$id."\"> (id ".$id.") ".$art_bulk[$i]['titolo']."</option>\n";
 				} 
 				?>
 				
