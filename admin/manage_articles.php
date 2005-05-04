@@ -4,7 +4,7 @@
   <title>Gestione articoli in prima pagina</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Programmers Notepad">
-  <style type="text/css">@import "/work/stralaceno2/css/stralaceno.css";</style>
+  <style type="text/css">@import "../css/stralaceno.css";</style>
 </head>
 <body>
 
@@ -86,7 +86,7 @@ case 'edit':
 
 	<br>
 	
-	<form name="form_edit_article" action="manage_articles.php" method="get">
+	<form name="form_edit_article" action="manage_articles.php" method="post">
 	Titolo: <input type="edit" name="titolo" value="<?php echo htmlentities($art_data['titolo'],ENT_QUOTES); ?>">
 
 	<?php
