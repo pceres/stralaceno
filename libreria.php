@@ -561,9 +561,10 @@ function load_article($art_id)
 		$art_autore = split("::",$bulk[0]);
 		$art_titolo = split("::",$bulk[1]);
 		
-		$art_data["autore"] = $art_autore[1];
-		$art_data["titolo"] = $art_titolo[1];
+		$art_data["autore"] = trim($art_autore[1],"\r\n");
+		$art_data["titolo"] = trim($art_titolo[1],"\r\n");
 		$art_data["testo"] = array_slice($bulk,3,count($bulk)-4);
+		$art_data['id'] = $art_id;	
 	}
 	else
 	{
