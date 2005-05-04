@@ -87,7 +87,7 @@ case 'edit':
 
 	<br>
 	
-	<form name="form_edit_article" action="manage_articles.php" method="get">
+	<form name="form_edit_article" action="manage_articles.php" method="post">
 	Titolo: <input type="edit" name="titolo" value="<?php echo htmlentities($art_data['titolo'],ENT_QUOTES); ?>">
 
 	<?php
