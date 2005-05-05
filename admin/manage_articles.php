@@ -15,6 +15,13 @@ require_once('../libreria.php');
 
 $mode = $_REQUEST['task'];
 $data = $_REQUEST['data'];
+$password = $_REQUEST['password'];
+
+if ($password != 'stralacenoadmin')
+{
+	echo "<a href=\"articoli.php\">Torna indietro</a><br><br>\n";
+	die("La password inserita non &egrave; corretta!<br>\n");
+}
 
 switch ($mode)
 {
@@ -101,6 +108,7 @@ case 'edit':
 	Autore: <input type="edit" name="autore" value="<?php echo htmlentities($art_data['autore'],ENT_QUOTES); ?>"><br>
 
 	<input value="Applica modifiche" onClick="form_edit_article.task.value='edited'" type="submit">
+	<input name="password" value="<?php echo $password; ?>" type="hidden">
 	<input name="task" type="hidden">
 	<input name="data" type="hidden" value="<?php echo $data; ?>">
 	

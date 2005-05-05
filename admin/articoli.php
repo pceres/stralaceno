@@ -80,10 +80,10 @@ function populate(target)
 
 function do_action(action,data)
 {
-
 	switch (action)
 	{
 	case "elenco_online":
+		document.forms["form_elenco_online"].password.value=document.forms["form_upload"].password.value;
 		document.forms["form_elenco_online"].task.value='set_online_articles';
 		document.forms["form_elenco_online"].data.value=get_list('second');
 		
@@ -95,12 +95,14 @@ function do_action(action,data)
 		{
 			return false;
 		}
+		document.forms["form_data"].password.value=document.forms["form_upload"].password.value;
 		document.forms["form_data"].task.value='cancel';
 		document.forms["form_data"].data.value=data;
 		document.forms["form_data"].submit();
 		
 		break;
 	case "edit":
+		document.forms["form_data"].password.value=document.forms["form_upload"].password.value;
 		document.forms["form_data"].task.value='edit';
 		document.forms["form_data"].data.value=data;
 		document.forms["form_data"].submit();
@@ -182,6 +184,7 @@ if (count($art_id) > 0)
 ?>
 
 <form name="form_data" action="manage_articles.php" method="post">
+	<input name="password" type="hidden">
 	<input name="task" type="hidden">
 	<input name="data" type="hidden">
 </form>
@@ -311,6 +314,7 @@ gestione articoli online
 			<br>
 			<input name="Applica" value="Applica" onClick="return do_action('elenco_online',1)" type="submit">
 			
+			<input name="password" type="hidden">
 			<input name="task" type="hidden">
 			<input name="data" type="hidden">
 		</td>
@@ -339,7 +343,7 @@ Non ci sono attualmente articoli sul sito!
 $id = max($art_id)+1; // determina il primo id disponibile
 $art_filename = "art_$id.txt";
 ?>
-<form enctype="multipart/form-data" action="upload_article.php" method="post">
+<form name="form_upload" enctype="multipart/form-data" action="upload_article.php" method="post">
 <input type="hidden" name="MAX_FILE_SIZE" value="30000">
 <input type="hidden" name="id_articolo" value="<?php echo $id; ?>">
 <?php echo "<input type=\"hidden\" name=\"filename\" value=\"$art_filename\">"; ?>
