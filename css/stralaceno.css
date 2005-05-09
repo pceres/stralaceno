@@ -4,7 +4,23 @@
 	/*color:rgb(255,102,0);		arancione ufficiale */
 
 
+
+/*-------------------  impostazioni di default  ------------------------------- */
+
+body {
+/*	color:rgb(51,102,153);*/
+	color:rgb(34,68,102);
+	background:#FFF6F0;
+	font-family:Arial,Tahoma,Verdana,Serif;	
+	/*font-size:1.2em;*/
+	}
+
+
 /*---------------------------  Homepage  -------------------------------------- */
+
+body.homepage {
+	background-color:rgb(255, 255, 255);
+}
 
 /* tabella dei frame colonna sinistra, centrale e destra*/
 table.frame_delimiter {

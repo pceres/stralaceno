@@ -1,10 +1,10 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-  <title>Stralaceno Web - Archivio Stralaceno</title>
+  <title>Stralaceno Web - Presentazione della Stralaceno</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
-  <style type="text/css">@import "css/stralaceno.css";</style>  
+  <style type="text/css">@import "/stralaceno/css/stralaceno.css";</style>  
 </head>
 <body>
 
@@ -12,26 +12,18 @@
   <tbody>
     <tr>
       <td width="100%">
-	  <!--img src="images/stralacenoweblogo.gif" alt="logo_stralacenoweb" width="700"--> 
-	  <img src="images/sweb.gif" alt="logo_stralacenoweb"> 
+	  <img src="/stralaceno/custom/images/logo.gif" alt="logo_stralacenoweb"> 
 	  </td>
       <td>
-      <!--embed src="/work/stralaceno/images/filmatoflash300x70.swf"
- quality="high" alt="logo_stralacenoweb_flash"
- pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=3DShockwaveFlash"
- type="application/x-shockwave-flash"--> 
-      <embed src="images/filmatoflash300x70.swf" quality="high" alt="logo_stralacenoweb_flash"
+      <embed src="/stralaceno/custom/images/logoflash300x70.swf" quality="high" alt="logo_stralacenoweb_flash"
  pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=3DShockwaveFlash"
  type="application/x-shockwave-flash"> 
-      <!--embed src="images/present%20redux.swf" quality="high" alt="logo_stralacenoweb_flash"
- pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=3DShockwaveFlash"
- type="application/x-shockwave-flash"--> 
     </tr>
   </tbody>
 </table>
 
-<div style="text-align: center;">
-<a class="txt_link" href="images/present.swf">Visualizza presentazione FLASH (250 kbytes)</a>
+<div style="text-align: center;"><a class="txt_link" 
+ href="present.swf">Visualizza presentazione FLASH (250 kbytes)</a>
 </div>
 
 <hr>

@@ -22,10 +22,10 @@ inizio colonna sinistra
 		 <table cellpadding="0" cellspacing="0">
 		  <tbody>
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td nowrap>
-				<a href="presentazione.htm" name="presentazione" class="txt_link">Cos'&egrave; la Stralaceno?</a>
+				<a href="custom/moduli/presentazione/presentazione.php" name="presentazione" class="txt_link">Cos'&egrave; la Stralaceno?</a>
 			</td></tr>
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td nowrap>
-				<a href="filtro7.php" name="Albo d'oro" class="txt_link">Albo d'oro</a>
+				<a href="filtro7.php" name="Albo_d_oro" class="txt_link">Albo d'oro</a>
 			</td></tr>
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td nowrap>
 				<a onClick="alert('Pagina in allestimento!')" name="regolamento" class="txt_link">Stralcio regolamento</a>
@@ -56,10 +56,10 @@ inizio colonna sinistra
 <?php } ?>
 
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td nowrap>
-				<a href="filtro9.php" name="migliori prestazioni" class="txt_link">Classifica personali M+F</a>
+				<a href="filtro9.php" name="migliori_prestazioni" class="txt_link">Classifica personali M+F</a>
 			</td></tr>
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td nowrap>
-				<a href="filtro10.php" name="migliori prestazioni femminili" class="txt_link">Classifica personali F</a>
+				<a href="filtro10.php" name="migliori_prestazioni_femminili" class="txt_link">Classifica personali F</a>
 			</td></tr>
 			
 			</tbody>
@@ -79,7 +79,7 @@ inizio colonna sinistra
 				<a href="http://www.caposeleonline.it" name="Caposeleonline" class="txt_link">Caposeleonline</a>
 			</td></tr>
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
-				<a href="http://www.lagolaceno.it/" name="Lago Laceno" class="txt_link">Lago Laceno</a>
+				<a href="http://www.lagolaceno.it/" name="Lago_Laceno" class="txt_link">Lago Laceno</a>
 			</td></tr>
 			<!--tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
 				<a href="http://www.skilaceno.com/" name="skilaceno" class="txt_link">Sciare a Laceno</a>

@@ -1,0 +1,19 @@
+Autore::Comunicato ARS
+Titolo::Allenarsi alla Palmenta
+--- Begin body ---
+<p>
+   L'edizione 2005 della Stralaceno, che si terra' come ogni anno a fine estate, si sta avvicinando! Per chi si volesse cimentare nella gara &egrave; necessario iniziare a prepararsi sin d'ora, sfruttando i 3 o 4 mesi rimanenti.
+<p>
+   Da pochissimo si e' aperta la possibilita' di allenarsi sul bordo del campo della Palmenta, rispettando regole di buona condotta ed i seguenti orari:
+<ul>
+    <li>martedi': dalle 18 alle 20;</li>
+    <li>venerdi': dalle 18 alle 20;</li>
+    <li>domenica: dalle 10 alle 12.</li>
+</ul>
+<p>
+    Il permesso &egrave; stato rilasciato all'<a href="/stralaceno/custom/moduli/organizzatori/organizzatori.php">ARS</a>, che concede a tutti gli interessati (anche, quindi, ai non soci) la possibilit&agrave; di poterne usufruire, rivolgendosi a Donatello Cirillo quale consigliere/socio delegato ARS.
+<p>
+    I non soci che desiderano utilizzare il campo per allenarsi dovranno fornire il proprio nominativo, 
+impegnarsi ad utilizzare correttamente l'impianto sportivo, e sollevare l'associazione da qualsiasi 
+responsabilit&agrave; derivante da incidenti che dovessero occorrere.
+--- End body ---
