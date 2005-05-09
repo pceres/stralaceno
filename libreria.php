@@ -54,11 +54,11 @@ $start = strpos($path,$root_prefix)+strlen($root_prefix)+1;
 $root_path = substr($path,0,$start);
 
 #nomi di file
-$filename_tempi 		= $root_path."dati/tempi_laceno.csv";
-$filename_atleti 		= $root_path."dati/atleti_laceno.csv";
-$filename_organizzatori		= $root_path."dati/organizzatori_laceno.csv";
-$filedir_counter 		= $root_path."dati/";
-$articles_dir 			= $root_path."articoli/";
+$filename_tempi 		= $root_path."custom/dati/tempi_laceno.csv";
+$filename_atleti 		= $root_path."custom/dati/atleti_laceno.csv";
+$filename_organizzatori		= $root_path."custom/dati/organizzatori_laceno.csv";
+$filedir_counter 		= $root_path."custom/dati/";
+$articles_dir 			= $root_path."custom/articoli/";
 $article_online_file 		= $articles_dir."online.txt";
 
 
@@ -80,7 +80,7 @@ $indici2 = array('indice2_id' => $indice2_id,'indice2_nome' => $indice2_nome,'in
 $indici3 = array('indice3_id' => $indice3_id,'indice3_nome' => $indice3_nome,'indice3_sesso' => $indice3_sesso,'indice3_incarico' => $indice3_incarico,'indice3_anno' => $indice3_anno,'indice3_link' => $indice3_link,'indice3_nota' => $indice3_nota,'num_colonne_organizzatori' => $num_colonne_organizzatori);
 
 $formattazione = array('style_sfondo_maschi' => $style_sfondo_maschi,'style_sfondo_femmine' => $style_sfondo_femmine,'colore_blu_stralaceno' => $colore_blu_cielo_di_Laceno,'colore_arancio_stralaceno' => $colore_arancio_fondo_vomitatoio);
-$filenames = array('filename_tempi' => $filename_tempi,'filename_atleti' => $filename_atleti,'filename_organizzatori' => $filename_organizzatori,'filedir_counter' => $filedir_counter,'articles_dir' => $articles_dir,'article_online_file' => $article_online_file);
+$filenames = array('filename_tempi' => $filename_tempi,'filename_atleti' => $filename_atleti,'filename_organizzatori' => $filename_organizzatori,'filedir_counter' => $filedir_counter,'articles_dir' => $articles_dir,'article_online_file' => $article_online_file,'root_path' => $root_path);
 $varie = array('email_info' => $email_info,'symbol_1_partecipazione' => $symbol_1_partecipazione,'symbol_record' => $symbol_record);
 $admin = array('max_last_editions' => $max_last_editions,'max_online_articles' => $max_online_articles);
 
@@ -551,7 +551,7 @@ function load_article($art_id)
 	extract(indici());
 	
 	$art_file = $articles_dir."art_".($art_id+0).".txt";
-	
+
 	if (file_exists($art_file))
 	{
 		$bulk = file($art_file);           //read all long entries in a array
