@@ -1,0 +1,9 @@
+Autore::autori vari
+Titolo::FORUM: date delle corse
+--- Begin body ---
+In questo testo possiamo scrivere tutto quello che vogliamo: sara' visibile soltanto a noi che sappiamo l'indirizzo
+pceres.altervista.org/admin/index.php, finche' decideremo di mantenerlo offline.
+Se poi decidessimo di metterlo online, basterebbero pochi click.
+Un saluto
+Pasquale
+--- End body ---
