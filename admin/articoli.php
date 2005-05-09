@@ -4,11 +4,14 @@
 <head>
   <title>Gestione articoli</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <META http-equiv="Content-Script-Type" content="text/javascript">
   <meta name="GENERATOR" content="Quanta Plus">
   <style type="text/css">@import "/work/stralaceno2/css/stralaceno.css";</style>
 </head>
 
-<script type="text/javascript">
+<body class="admin">
+
+<SCRIPT type="text/javascript">
 <!-- 
 
 function get_list(target)
@@ -151,17 +154,9 @@ function move_up_down(direction)
 }
 
 //-->
-</script>
+</SCRIPT>
 
 
-
-
-<body class="admin">
-
-
-<!-- 
-gestione articoli
--->
 <?php
 
 require_once('../libreria.php');
@@ -183,6 +178,7 @@ if (count($art_id) > 0)
 {
 ?>
 
+<!-- Form fittizio per il passaggio dei dati -->
 <form name="form_data" action="manage_articles.php" method="post">
 	<input name="password" type="hidden">
 	<input name="task" type="hidden">
@@ -191,8 +187,12 @@ if (count($art_id) > 0)
 
 <center>
 
+<!-- 
+gestione articoli disponibili
+-->
 <table class="admin" align="center">
 	<caption>Situazione attuale articoli</caption>
+
 	<thead><tr>
 		<th>Id</th>
 		<th>Posizione in prima pagina</th>
@@ -201,12 +201,8 @@ if (count($art_id) > 0)
 		<th>Cancella</th>
 		<th>Modifica</th>
 	</tr></thead>		
+
 	<tbody>
-
-
-<!-- 
-gestione articoli disponibili
--->
 <?php
 $art_online_pos = array_flip($art_online_id);
 
@@ -246,13 +242,13 @@ for ($i = 0; $i < count($art_id); $i++)
 	}
 	echo "\t\t\t<td>$posiz</td>\n";
 
-	echo "<td>".$art_bulk[$i]['titolo']."</td>";
+	echo "\t\t\t<td>".$art_bulk[$i]['titolo']."</td>\n";
 
-	echo "<td>".$art_bulk[$i]['autore']."</td>";
+	echo "\t\t\t<td>".$art_bulk[$i]['autore']."</td>\n";
 
-	echo "<td><input type=\"checkbox\" onClick=\"return do_action('cancel',$id)\"></td>";
+	echo "\t\t\t<td><input type=\"checkbox\" onClick=\"return do_action('cancel',$id)\"></td>\n";
 
-	echo "<td><input type=\"checkbox\" onClick=\"return do_action('edit',$id)\"></td>";
+	echo "\t\t\t<td><input type=\"checkbox\" onClick=\"return do_action('edit',$id)\"></td>\n";
 	
 	echo "\t\t</tr>\n";
 }
@@ -269,41 +265,40 @@ gestione articoli online
 <form name="form_elenco_online" action="manage_articles.php" method="post">
 
 <table class="admin" style="border-collapse: collapse;" align="center">
-<caption>Gestione articoli in prima pagina</caption>
+	<caption>Gestione articoli in prima pagina</caption>
+	
 	<thead><tr>
 		<th>Articoli ancora disponibili</th>
 		<th colspan="2">Ordine articoli in prima pagina</th>
 	</tr></thead> 
+	
 	<tbody>
 	<tr>
 		<td> 
-			<select SIZE=<?php echo count($art_id)+1; ?> NAME="first" onDblClick="populate('second')">
-			<?php 
+			<select SIZE=<?php echo count($art_id)+1; ?> NAME="first" onDblClick="populate('second')" style="width:20em;">
+<?php 
 			for ($i = 0; $i < count($art_id); $i++) 
 			{
 				$id = $art_id[$i]; // id dell'articolo visualizzato sulla riga
 				if (!in_array($id,$art_online_id))
-					echo "\t<option value=\"".$id."\"> (id ".$id.") ".$art_bulk[$i]['titolo']."</option>\n";
-			} 
+					echo "\t\t\t\t<option value=\"".$id."\"> (id ".$id.") ".$art_bulk[$i]['titolo']."</option>\n";
+			}
 			?>
 			</select>
 			<br>
 			Clicca su un articolo per pubblicarlo 
-			
 		</td>
 		
 		<td>
-			<select SIZE=<?php echo count($art_id)+1; ?> NAME="second" onDblClick="populate('first')">
-				<?php 
+			<select SIZE=<?php echo count($art_id)+1; ?> NAME="second" onDblClick="populate('first')" style="width:20em;">
+<?php 
 				for ($i = 0; $i < count($art_id); $i++) 
 				{
 					$id = $art_id[$i]; // id dell'articolo visualizzato sulla riga
 					if (in_array($id,$art_online_id))
-						echo "\t<option value=\"".$id."\"> (id ".$id.") ".$art_bulk[$i]['titolo']."</option>\n";
+						echo "\t\t\t\t<option value=\"".$id."\"> (id ".$id.") ".$art_bulk[$i]['titolo']."</option>\n";
 				} 
-				?>
-				
-			</select>
+?>			</select>
 			<br>
 			Clicca su un articolo per toglierlo dalla prima pagina
 		</td>
@@ -344,18 +339,14 @@ $id = max($art_id)+1; // determina il primo id disponibile
 $art_filename = "art_$id.txt";
 ?>
 <form name="form_upload" enctype="multipart/form-data" action="upload_article.php" method="post">
-<input type="hidden" name="MAX_FILE_SIZE" value="30000">
-<input type="hidden" name="id_articolo" value="<?php echo $id; ?>">
-<?php echo "<input type=\"hidden\" name=\"filename\" value=\"$art_filename\">"; ?>
-Nuovo articolo (id <?php echo $id; ?>) da caricare: <input name="userfile" type="file">
-<br>
-Titolo: <input name="title" type="edit">
-<br>
-Autore: <input name="author" type="edit">
-<br>
-Password: <input name="password" type="password">
-<br>
-<input type="Submit" value="Invia File" onClick="return confirm('Confermi la pubblicazione dell\'articolo?')">
+	<input type="hidden" name="MAX_FILE_SIZE" value="30000">
+	<input type="hidden" name="id_articolo" value="<?php echo $id; ?>">
+<?php echo "\t<input type=\"hidden\" name=\"filename\" value=\"$art_filename\">\n"; ?>
+	Nuovo articolo (id <?php echo $id; ?>) da caricare: <input name="userfile" type="file"><br>
+	Titolo: <input name="title" type="edit"><br>
+	Autore: <input name="author" type="edit"><br>
+	Password: <input name="password" type="password"><br>
+	<input type="Submit" value="Invia File" onClick="return confirm('Confermi la pubblicazione dell\'articolo?')">
 </form>
 
 <?php
