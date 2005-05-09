@@ -9,11 +9,14 @@
   <meta name="keywords" content="Stralaceno, Caposele, Caposelesi, Corsa podistica, Atletica, Lago Laceno, Laceno">
   <style type="text/css">@import "/work/stralaceno2/css/stralaceno.css";</style>
 </head>
-<body onLoad="azzera_input()">
+<body class="homepage" onLoad="azzera_input()">
 
 <?php
 
 include 'libreria.php';
+
+# dichiara variabili
+extract(indici());
 
 $archivio = load_data($filename_tempi,$num_colonne_prestazioni); # carica i dati relativi a tutti gli anni
 
@@ -26,7 +29,7 @@ $archivio = load_data($filename_tempi,$num_colonne_prestazioni); # carica i dati
 	  
 <?php
 # includi l'intestazione
-include("header.php")	  
+include("custom/templates/header.php")	  
 ?>
 
       </td>
@@ -71,7 +74,7 @@ include("index_right.php")
 	  
 <?php
 # includi il footer
-include("footer.php")	  
+include("custom/templates/footer.php")	  
 ?>
 	  
 	  <br>
