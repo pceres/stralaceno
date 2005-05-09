@@ -18,6 +18,10 @@ body {
 
 /*---------------------------  Homepage  -------------------------------------- */
 
+body.homepage {
+	background-color:rgb(255, 255, 255);
+}
+
 /* tabella dei frame colonna sinistra, centrale e destra*/
 table.frame_delimiter {
 	margin:0px;
