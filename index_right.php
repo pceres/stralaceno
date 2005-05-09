@@ -62,7 +62,7 @@ selezioni di qualsiasi campo select all'interno del documento.
 				<div style="display: inline;"><form action="filtro4.php" method="GET" name="form_anno" style="display: inline; margin: 0;">
 				<span class="txt_link">Archivio storico annuale (tutti i risultati di un anno):</span>
 				<select name="anno" onChange="valida(this.form,'anno')">
-					<option value="0"></option>
+					<option value="0">&nbsp;</option>
 <?php
 			$elenco_anni = array();		# elenco degli anni in archivio
 			$elenco_i = array();		# elenco delle i in corrispondenza delle quali trovare gli anni
@@ -90,7 +90,7 @@ selezioni di qualsiasi campo select all'interno del documento.
 				<div style="display: inline;"><form action="filtro2.php" method="GET" name="form_atleta" style="display: inline; margin: 0;">
 				<span class="txt_link">Archivio storico personale:</span><br>
 				<select name="nome" onChange="valida(this.form,'nome')">
-					<option value="0"></option>
+					<option value="0">&nbsp;</option>
 <?php
 			$elenco_nomi = array();
 			$elenco_cognomi = array();
@@ -124,15 +124,15 @@ selezioni di qualsiasi campo select all'interno del documento.
 			</td></tr>
 
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
-				<a href="filtro6.php" name="Archivio storico per tempi" class="txt_link">Archivio storico (tutti i risultati ordinati per tempi)</a>
+				<a href="filtro6.php" name="Archivio_storico_per_tempi" class="txt_link">Archivio storico (tutti i risultati ordinati per tempi)</a>
 			</td></tr>
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
-				<a onClick="alert('Pagina in allestimento!')" name="grafico tempi" class="txt_link">Grafico andamento tempi negli anni</a>
+				<a onClick="alert('Pagina in allestimento!')" name="grafico_tempi" class="txt_link">Grafico andamento tempi negli anni</a>
 			</td></tr>
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
-				<a onClick="alert('Pagina in allestimento!')" name="classifica partecipazioni" class="txt_link">Classifica partecipazioni</a>
+				<a onClick="alert('Pagina in allestimento!')" name="classifica_partecipazioni" class="txt_link">Classifica partecipazioni</a>
 			</td></tr>
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
@@ -140,6 +140,7 @@ selezioni di qualsiasi campo select all'interno del documento.
 			</td></tr>
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
+				<!--a href="custom/moduli/organizzatori/organizzatori.php" name="organizzatori" class="txt_link">Gli organizzatori</a-->
 				<a onClick="alert('Pagina in allestimento!')" name="organizzatori" class="txt_link">Gli organizzatori</a>
 			</td></tr>
 
