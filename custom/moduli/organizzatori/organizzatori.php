@@ -1,0 +1,72 @@
+#!/usr/local/bin/php
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>Stralaceno Web - Gli organizzatori della Stralaceno</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <meta name="GENERATOR" content="Quanta Plus">
+  <style type="text/css">@import "/work/stralaceno2/css/stralaceno.css";</style>  
+</head>
+<body>
+
+<table align="center">
+	<tbody>
+		<tr>
+		  <td> <img src="/work/stralaceno2/custom/images/logo.gif" alt="logo_stralacenoweb"> </td>
+		</tr>
+	</tbody>
+</table>
+
+<hr>
+
+<div align="justify" class="txt_normal">
+
+<p>
+L'organizzazione della Stralaceno &egrave; a cura 
+dell'associazione sportiva e culturale <b>ARS (Amatori Running Sele)</b>
+e di tutti coloro che desiderano prestare la propria collaborazione.
+
+<hr>
+
+<h3 style="clear:right;text-align:center;">Statuto dell'Associazione sportiva e culturale  “ARS  Amatori Running Sele”:</h3>
+
+<img src="/work/stralaceno2/custom/moduli/organizzatori/ars_logo.jpg" style="float:right;margin:1em;" alt="scarica lo stemma dell'ARS" border="0" height="200" width="400">
+
+<h3>Art. 1 - Scopo</h3>
+
+<p>L'Associazione &egrave; apolitica e non ha scopo di lucro.
+
+<p>Durante la vita dell'Associazione non potranno essere distribuiti, anche in modo indiretto, avanzi di gestione 
+nonch&eacute; fondi, riserve o capitale, salvo che la destinazione o la distribuzione non siano imposte dalla legge.
+
+<p>Essa si propone di:
+
+<ul>
+    <li>promuovere e diffondere una corretta pratica dello sport. Per il raggiungimento di tale scopo l'Associazione 
+	potr&agrave; organizzare momenti di attività sportiva e manifestazioni di vario tipo, con particolare riguardo al 
+	risvolto sociale ed educativo;</li>
+    <li>intraprendere iniziative di natura culturale al fine di approfondire il significato dell'attivit&agrave; 
+	sportiva nelle sue diverse interpretazioni;</li>
+    <li>attuare servizi e strutture per lo svolgimento delle attivit&agrave; fisiche ed intellettuali;</li>
+    <li>favorire contatti fra soci aventi specifici interessi culturali e sportivi, costituendo sezioni per le 
+	attivit&agrave; di maggior rilievo;</li>
+    <li>aderire a qualsiasi attivit&agrave; che direttamente, tramite delibera del Consiglio Direttivo, sia giudicata 
+	idonea al raggiungimento degli scopi  sociali.</li>
+</ul>
+<br>
+
+<a href="/work/stralaceno2/custom/moduli/organizzatori/atto.htm">Visualizza l'atto costitutivo ed il regolamento completo dell'ARS</a><br>
+<br>
+
+
+Scarica l'atto costitutivo ed il regolamento completo dell'ARS in formato pdf:<br>
+<a target="_blank" href="/work/stralaceno2/custom/moduli/organizzatori/atto.pdf">
+	<img src="/work/stralaceno2/images/pdf.gif" alt="scarica il documento in formato pdf" border="0" height="36" width="36">
+</a>
+<br>
+
+
+</div>
+
+</body>
+</html>
