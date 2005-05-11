@@ -22,7 +22,7 @@ di tornare a casa per una piacevole doccia, evitando di raffreddarsi;</li>
 	per chi inizia potrebbe consistere in 12 giri, ovvero meno di 4 km.
 <p>
     Il permesso &egrave; stato rilasciato, grazie all'attivo interessamento di alcuni suoi membri, all'
-	<a href="/stralaceno/custom/moduli/organizzatori/organizzatori.php">ARS Amatori Running Sele</a>, che concede a 
+	<a href="/my_cgi-bin/stralaceno2/custom/moduli/organizzatori/organizzatori.php">ARS Amatori Running Sele</a>, che concede a 
 	tutti gli interessati (anche, quindi, ai non soci) la possibilit&agrave; di poterne usufruire, rivolgendosi a 
 	Donatello Cirillo quale consigliere/socio delegato ARS.
 <p>
