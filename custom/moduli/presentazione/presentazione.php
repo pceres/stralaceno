@@ -4,18 +4,18 @@
   <title>Stralaceno Web - Presentazione della Stralaceno</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
-  <style type="text/css">@import "/stralaceno/css/stralaceno.css";</style>  
+  <style type="text/css">@import "../../../css/stralaceno.css";</style>  
 </head>
 <body>
 
-<table>
+<table style="background-color:rgb(255, 255, 255);">
   <tbody>
     <tr>
       <td width="100%">
-	  <img src="/stralaceno/custom/images/logo.gif" alt="logo_stralacenoweb"> 
+	  <img src="../../../custom/images/logo.gif" alt="logo_stralacenoweb"> 
 	  </td>
       <td>
-      <embed src="/stralaceno/custom/images/logoflash300x70.swf" quality="high" alt="logo_stralacenoweb_flash"
+      <embed src="../../../custom/images/logoflash300x70.swf" quality="high" alt="logo_stralacenoweb_flash"
  pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=3DShockwaveFlash"
  type="application/x-shockwave-flash"> 
     </tr>
