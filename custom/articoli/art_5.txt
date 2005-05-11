@@ -2,18 +2,39 @@ Autore::Comunicato ARS
 Titolo::Allenarsi alla Palmenta
 --- Begin body ---
 <p>
-   L'edizione 2005 della Stralaceno, che si terra' come ogni anno a fine estate, si sta avvicinando! Per chi si volesse cimentare nella gara &egrave; necessario iniziare a prepararsi sin d'ora, sfruttando i 3 o 4 mesi rimanenti.
+   L'edizione 2005 della Stralaceno, che si terr&agrave; come ogni anno a fine estate, si sta avvicinando! 
+   Per chi si volesse cimentare nella gara &egrave; necessario iniziare a prepararsi sin d'ora, sfruttando i 3 o 4 
+   mesi rimanenti. Anche chi non volesse partecipare alla Stralaceno trarrebbe comunque vantaggio da un minimo di
+   pratica sportiva, secondo il motto latino 'Mens sana in corpore sano'!
 <p>
-   Da pochissimo si e' aperta la possibilita' di allenarsi sul bordo del campo della Palmenta, rispettando regole di buona condotta ed i seguenti orari:
+	A Caposele sono diversi i percorsi disponibili per la pratica podistica, quali ad es. il circuito a Ponte 
+Sele, quello di Laceno, ecc. Da pochissimo si &egrave; aperta una ulteriore possibilit&agrave;: quella di allenarsi 
+sul bordo del campo della Palmenta. Tale percorso presenta, rispetto agli altri citati, diversi aspetti favorevoli:
 <ul>
-    <li>martedi': dalle 18 alle 20;</li>
-    <li>venerdi': dalle 18 alle 20;</li>
+    <li>l'allenamento avviene su un tappeto erboso che attutisce i colpi e rende confortevole la corsa; 
+		(caratteristica questa difficilmente riscontrabile in altri percorsi)</li>
+    <li>la localit&agrave; Palmenta &egrave; facilmente accessibile, ed in cinque minuti si pu&ograve; prevedere 
+di tornare a casa per una piacevole doccia, evitando di raffreddarsi;</li>
+</ul>
+<p>
+	Per queste sue caratteristiche favorevoli il campo alla Palmenta &egrave; il luogo ideale per cominciare ad 
+	allenarsi, anche se in seguito andrebbe abbinato agli altri. Il primo allenamento standard di corsa lenta 
+	per chi inizia potrebbe consistere in 12 giri, ovvero meno di 4 km.
+<p>
+    Il permesso &egrave; stato rilasciato, grazie all'attivo interessamento di alcuni suoi membri, all'
+	<a href="/stralaceno/custom/moduli/organizzatori/organizzatori.php">ARS Amatori Running Sele</a>, che concede a 
+	tutti gli interessati (anche, quindi, ai non soci) la possibilit&agrave; di poterne usufruire, rivolgendosi a 
+	Donatello Cirillo quale consigliere/socio delegato ARS.
+<p>
+	Gli orari per i quali &egrave; disponibile l'autorizzazione, validi nel periodo estivo, sono i seguenti:
+<ul>
+    <li>marted&igrave;: dalle 18 alle 20;</li>
+    <li>venerd&igrave;: dalle 18 alle 20;</li>
     <li>domenica: dalle 10 alle 12.</li>
 </ul>
 <p>
-    Il permesso &egrave; stato rilasciato all'<a href="../custom/moduli/organizzatori/organizzatori.php">ARS</a>, che concede a tutti gli interessati (anche, quindi, ai non soci) la possibilit&agrave; di poterne usufruire, rivolgendosi a Donatello Cirillo quale consigliere/socio delegato ARS.
-<p>
-    I non soci che desiderano utilizzare il campo per allenarsi dovranno fornire il proprio nominativo, 
-impegnarsi ad utilizzare correttamente l'impianto sportivo, e sollevare l'associazione da qualsiasi 
-responsabilit&agrave; derivante da incidenti che dovessero occorrere.
+    Al fine di non pregiudicarne l'utilizzo, tutti dovranno impegnarsi ad un uso 
+diligente della struttura. Inoltre i non soci che desiderano utilizzare il campo per allenarsi dovranno fornire 
+il proprio nominativo, impegnarsi ad utilizzare correttamente l'impianto sportivo, e sollevare l'associazione 
+da qualsiasi responsabilit&agrave; derivante da incidenti che dovessero occorrere.
 --- End body ---
