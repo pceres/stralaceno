@@ -9,15 +9,14 @@
 </head>
 <body>
 
-<table>
+<table style="background-color:rgb(255, 255, 255);">
   <tbody>
     <tr>
       <td width="100%">
 	  <img src="/work/stralaceno2/custom/images/logo.gif" alt="logo_stralacenoweb"> 
 	  </td>
       <td>
-      <embed src="/work/stralaceno2/custom/images/logoflash300x70.swf" quality="high" alt="logo_stralacenoweb_flash"
- pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=3DShockwaveFlash"
+      <embed src="/work/stralaceno2/custom/images/logoflash300x70.swf" quality="high" alt="logo_stralacenoweb_flash" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=3DShockwaveFlash"
  type="application/x-shockwave-flash"> 
     </tr>
   </tbody>
