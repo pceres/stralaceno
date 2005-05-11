@@ -15,6 +15,18 @@ body {
 	/*font-size:1.2em;*/
 	}
 
+/* tutti i link vengono sottolineati quando ci passa il mouse sopra */
+a {
+	/*text-decoration: none;*/
+	font-family:Arial,Tahoma,Verdana,Serif;
+	font-size:0.75em;
+	color:rgb(51,102,153);
+}
+
+a:hover {
+	text-decoration: underline;
+	}
+
 
 /*---------------------------  Homepage  -------------------------------------- */
 
