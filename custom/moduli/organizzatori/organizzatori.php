@@ -9,10 +9,10 @@
 </head>
 <body>
 
-<table align="center">
+<table align="center" width="100%" style="background-color:rgb(255, 255, 255);">
 	<tbody>
 		<tr>
-		  <td> <img src="/work/stralaceno2/custom/images/logo.gif" alt="logo_stralacenoweb"> </td>
+		  <td align="center"> <img src="/work/stralaceno2/custom/images/logo.gif" alt="logo_stralacenoweb"> </td>
 		</tr>
 	</tbody>
 </table>
@@ -28,7 +28,7 @@ e di tutti coloro che desiderano prestare la propria collaborazione.
 
 <hr>
 
-<h3 style="clear:right;text-align:center;">Statuto dell'Associazione sportiva e culturale  “ARS  Amatori Running Sele”:</h3>
+<h3 style="clear:right;text-align:center;">Statuto dell'Associazione sportiva e culturale "ARS  Amatori Running Sele":</h3>
 
 <img src="/work/stralaceno2/custom/moduli/organizzatori/ars_logo.jpg" style="float:right;margin:1em;" alt="scarica lo stemma dell'ARS" border="0" height="200" width="400">
 
@@ -43,7 +43,7 @@ nonch&eacute; fondi, riserve o capitale, salvo che la destinazione o la distribu
 
 <ul>
     <li>promuovere e diffondere una corretta pratica dello sport. Per il raggiungimento di tale scopo l'Associazione 
-	potr&agrave; organizzare momenti di attività sportiva e manifestazioni di vario tipo, con particolare riguardo al 
+	potr&agrave; organizzare momenti di attivit&agrave; sportiva e manifestazioni di vario tipo, con particolare riguardo al 
 	risvolto sociale ed educativo;</li>
     <li>intraprendere iniziative di natura culturale al fine di approfondire il significato dell'attivit&agrave; 
 	sportiva nelle sue diverse interpretazioni;</li>
@@ -55,11 +55,11 @@ nonch&eacute; fondi, riserve o capitale, salvo che la destinazione o la distribu
 </ul>
 <br>
 
-<a href="/work/stralaceno2/custom/moduli/organizzatori/atto.htm">Visualizza l'atto costitutivo ed il regolamento completo dell'ARS</a><br>
+<a href="/work/stralaceno2/custom/moduli/organizzatori/atto.htm">Visualizza l'atto costitutivo e lo statuto completo dell'ARS</a><br>
 <br>
 
 
-Scarica l'atto costitutivo ed il regolamento completo dell'ARS in formato pdf:<br>
+Scarica l'atto costitutivo e lo statuto completo dell'ARS in formato pdf:<br>
 <a target="_blank" href="/work/stralaceno2/custom/moduli/organizzatori/atto.pdf">
 	<img src="/work/stralaceno2/images/pdf.gif" alt="scarica il documento in formato pdf" border="0" height="36" width="36">
 </a>
