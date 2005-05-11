@@ -203,8 +203,10 @@ gestione articoli disponibili
 
 	<tbody>
 <?php
-$art_online_pos = array_flip($art_online_id);
+// scambia le chiavi: entro con l'id ed esco con la posizione online
+$art_online_pos = array_flip($art_online_id); 
 
+// lista primaria: ordine online
 $list1 = array();
 for ($i = 0; $i<count($art_id); $i++)
 {
@@ -217,11 +219,10 @@ for ($i = 0; $i<count($art_id); $i++)
 	array_push($list1,$item1);
 }
 
+// lista secondaria: ordine per id
 $list2 = $art_id;
 
 array_multisort($list1,$list2,$art_id);
-array_multisort($list1,$list2,$art_bulk);
-array_multisort($list1,$list2,$art_online_id);
 
 for ($i = 0; $i < count($art_id); $i++)
 {
@@ -241,9 +242,9 @@ for ($i = 0; $i < count($art_id); $i++)
 	}
 	echo "\t\t\t<td>$posiz</td>\n";
 
-	echo "\t\t\t<td>".$art_bulk[$i]['titolo']."</td>\n";
+	echo "\t\t\t<td>".$art_bulk[$id-1]['titolo']."</td>\n";
 
-	echo "\t\t\t<td>".$art_bulk[$i]['autore']."</td>\n";
+	echo "\t\t\t<td>".$art_bulk[$id-1]['autore']."</td>\n";
 
 	echo "\t\t\t<td><input type=\"checkbox\" onClick=\"return do_action('cancel',$id)\"></td>\n";
 
@@ -280,7 +281,7 @@ gestione articoli online
 			{
 				$id = $art_id[$i]; // id dell'articolo visualizzato sulla riga
 				if (!in_array($id,$art_online_id))
-					echo "\t\t\t\t<option value=\"".$id."\"> (id ".$id.") ".$art_bulk[$i]['titolo']."</option>\n";
+					echo "\t\t\t\t<option value=\"".$id."\"> (id ".$id.") ".$art_bulk[$id-1]['titolo']."</option>\n";
 			}
 			?>
 			</select>
@@ -295,7 +296,7 @@ gestione articoli online
 				{
 					$id = $art_id[$i]; // id dell'articolo visualizzato sulla riga
 					if (in_array($id,$art_online_id))
-						echo "\t\t\t\t<option value=\"".$id."\"> (id ".$id.") ".$art_bulk[$i]['titolo']."</option>\n";
+						echo "\t\t\t\t<option value=\"".$id."\"> (id ".$id.") ".$art_bulk[$id-1]['titolo']."</option>\n";
 				} 
 ?>			</select>
 			<br>
