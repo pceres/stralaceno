@@ -58,6 +58,8 @@ selezioni di qualsiasi campo select all'interno del documento.
 		<span class="titolo_colonna">Approfondimenti:</span>
 		 <table cellpadding="0" cellspacing="0">
 		  <tbody>
+			
+<?php if (count($archivio) > 0) { ?>
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
 				<div style="display: inline;"><form action="filtro4.php" method="GET" name="form_anno" style="display: inline; margin: 0;">
 				<span class="txt_link">Archivio storico annuale (tutti i risultati di un anno):</span>
@@ -84,8 +86,11 @@ selezioni di qualsiasi campo select all'interno del documento.
 				</select>
 				</form></div>
 			</td></tr>
+<?php } // if (count($archivio) > 0) ?>
 
 
+
+<?php if (count($archivio) > 0) { ?>
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td style="max-width: 100px;">
 				<div style="display: inline;"><form action="filtro2.php" method="GET" name="form_atleta" style="display: inline; margin: 0;">
 				<span class="txt_link">Archivio storico personale:</span><br>
@@ -122,6 +127,7 @@ selezioni di qualsiasi campo select all'interno del documento.
 				</select>
 				</form></div>
 			</td></tr>
+<?php } // if (count($archivio) > 0) ?>
 
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
 				<a href="filtro6.php" name="Archivio_storico_per_tempi" class="txt_link">Archivio storico (tutti i risultati ordinati per tempi)</a>
@@ -140,8 +146,7 @@ selezioni di qualsiasi campo select all'interno del documento.
 			</td></tr>
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
-				<!--a href="custom/moduli/organizzatori/organizzatori.php" name="organizzatori" class="txt_link">Gli organizzatori</a-->
-				<a onClick="alert('Pagina in allestimento!')" name="organizzatori" class="txt_link">Gli organizzatori</a>
+				<a href="<?php echo $modules_site_path ?>organizzatori/organizzatori.php" name="organizzatori" class="txt_link">Gli organizzatori</a>
 			</td></tr>
 
 		  </tbody>
