@@ -3,7 +3,7 @@
 # dichiara variabili
 extract(indici());
 
-
+//print_r($_COOKIE); //
 
 function indici() {
 
@@ -48,10 +48,34 @@ $style_sfondo_femmine = "rgb(255, 234, 234)";
 $colore_blu_cielo_di_Laceno = "rgb(51,102,153)";
 $colore_arancio_fondo_vomitatoio = "rgb(255,102,0)";
 
+
+// determina la directory (l'ultimo livello) contenente il sito (deve iniziare con "stralaceno", ad es. "stralaceno2" e' ok)
 $path = $_SERVER['SCRIPT_FILENAME'];
-$root_prefix = "stralaceno2";
+$root_prefix = "stralaceno";
+$path = substr($path,strpos($path,$root_prefix));
+$root_prefix = substr($path,0,strpos($path,"/"));
+
+// determina il path assoluto nel filesystem del server (serve quando si accede direttamente ai file per leggere o scrivere)
+$path = $_SERVER['SCRIPT_FILENAME'];
 $start = strpos($path,$root_prefix)+strlen($root_prefix)+1;
 $root_path = substr($path,0,$start);
+
+// path assoluto da usare per gli script php
+$path = $_SERVER['SCRIPT_NAME'];
+$start = strpos($path,$root_prefix)+strlen($root_prefix)+1;
+$script_abs_path = substr($path,0,$start);
+
+// path assoluto da usare per l'html e le immagini
+$path = $_SERVER['SCRIPT_FILENAME'];
+$start = strlen($_SERVER['DOCUMENT_ROOT']);
+$path = substr($path,$start);
+$start = strpos($path,$root_prefix)+strlen($root_prefix)+1;
+$site_abs_path = substr($path,0,$start);
+
+#path assoluti
+$css_site_path			= $site_abs_path."css";
+$modules_site_path		= $script_abs_path."custom/moduli/";
+
 
 #nomi di file
 $filename_tempi 		= $root_path."custom/dati/tempi_laceno.csv";
@@ -80,11 +104,12 @@ $indici2 = array('indice2_id' => $indice2_id,'indice2_nome' => $indice2_nome,'in
 $indici3 = array('indice3_id' => $indice3_id,'indice3_nome' => $indice3_nome,'indice3_sesso' => $indice3_sesso,'indice3_incarico' => $indice3_incarico,'indice3_anno' => $indice3_anno,'indice3_link' => $indice3_link,'indice3_nota' => $indice3_nota,'num_colonne_organizzatori' => $num_colonne_organizzatori);
 
 $formattazione = array('style_sfondo_maschi' => $style_sfondo_maschi,'style_sfondo_femmine' => $style_sfondo_femmine,'colore_blu_stralaceno' => $colore_blu_cielo_di_Laceno,'colore_arancio_stralaceno' => $colore_arancio_fondo_vomitatoio);
-$filenames = array('filename_tempi' => $filename_tempi,'filename_atleti' => $filename_atleti,'filename_organizzatori' => $filename_organizzatori,'filedir_counter' => $filedir_counter,'articles_dir' => $articles_dir,'article_online_file' => $article_online_file,'root_path' => $root_path);
+$filenames = array('filename_tempi' => $filename_tempi,'filename_atleti' => $filename_atleti,'filename_organizzatori' => $filename_organizzatori,'filedir_counter' => $filedir_counter,'articles_dir' => $articles_dir,'article_online_file' => $article_online_file);
+$pathnames = array('root_path' => $root_path,'site_abs_path' => $site_abs_path,'script_abs_path' => $site_abs_path,'css_site_path' => $css_site_path,'modules_site_path' => $modules_site_path);
 $varie = array('email_info' => $email_info,'symbol_1_partecipazione' => $symbol_1_partecipazione,'symbol_record' => $symbol_record);
 $admin = array('max_last_editions' => $max_last_editions,'max_online_articles' => $max_online_articles);
 
-return array_merge($indici,$indici2,$indici3,$formattazione,$filenames,$varie,$admin);
+return array_merge($indici,$indici2,$indici3,$formattazione,$filenames,$pathnames,$varie,$admin);
 }
 
 function load_data($filename,$num_colonne) {
@@ -577,22 +602,22 @@ function load_article($art_id)
 	
 function show_article($art_data) 
 {
-	echo "	<tr><td>";
-	echo "  <table class=\"article_group\"><tbody><tr><td>";
+	echo "<tr><td>\n";
+	echo "\t<table class=\"article_group\"><tbody><tr><td>\n";
 
-	echo "		<h3>".$art_data["titolo"]."</h3>";
-	echo "		<div class=\"txt_articolo\">";
+	echo "		<h3>".$art_data["titolo"]."</h3>\n";
+	echo "		<div class=\"txt_articolo\">\n";
 
 	foreach ($art_data["testo"] as $line)
 	{
 		echo $line;
 	}
 	
-	echo "		<div class=\"txt_firma_articolo\">".$art_data["autore"]."</div>";
-	echo "		</div>";
+	echo "		<div class=\"txt_firma_articolo\">".$art_data["autore"]."</div>\n";
+	echo "		</div>\n";
 
-	echo "	</td></tr></tbody></table>";
-	echo "</td></tr>";	
+	echo "\t</td></tr></tbody></table>\n";
+	echo "</td></tr>\n\n";	
 }
 
 
