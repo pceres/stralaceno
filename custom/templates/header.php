@@ -5,10 +5,9 @@ inizio header
 	  <tbody>
 	  
 		<tr>
-		  <td> <img src="custom/images/logo.gif" alt="logo_stralacenoweb"> </td>
-		  <!--td> <img src="<?php echo $root_path?>custom/images/logo.gif" alt="logo_stralacenoweb"> </td-->
+		  <td> <img src="<?php echo $site_abs_path?>custom/images/logo.gif" alt="logo_stralacenoweb"> </td>
 		</tr>
-
+		
 	  </tbody>
 	</table>
 
