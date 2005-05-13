@@ -54,14 +54,26 @@ nonch&eacute; fondi, riserve o capitale, salvo che la destinazione o la distribu
 </ul>
 <br>
 
-<a href="atto.htm">Visualizza l'atto costitutivo e lo statuto completo dell'ARS</a><br>
+<a style="font-weight: bold;" href="atto.htm">
+	<big>Visualizza l'atto costitutivo e lo statuto completo dell'ARS</big></a><br>
 <br>
 
 
-Scarica l'atto costitutivo e lo statuto completo dell'ARS in formato pdf:<br>
-<a target="_blank" href="atto.pdf">
-	<img src="../../../images/pdf.gif" alt="scarica il documento in formato pdf" border="0" height="36" width="36">
-</a>
+<div style="font-weight: bold;"><big>Scarica l'atto costitutivo e lo statuto completo dell'ARS in formato pdf:</big>
+	<a target="_blank" href="atto.pdf">
+		<img src="../../../images/pdf.gif" alt="scarica lo statuto in formato pdf" 
+			border="0" height="36" width="36">
+	</a>
+</div>
+<br>
+
+
+<div style="font-weight: bold;"><big>Scarica il modulo di richiesta di adesione all'ARS in formato pdf:</big>
+	<a target="_blank" href="richiesta_adesione_ARS.pdf">
+		<img src="../../../images/pdf.gif" alt="scarica la richiesta di adesione in formato pdf" 
+			border="0" height="36" width="36">
+	</a>
+</div>
 <br>
 
 
