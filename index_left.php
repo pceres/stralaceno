@@ -22,7 +22,7 @@ inizio colonna sinistra
 		 <table cellpadding="0" cellspacing="0">
 		  <tbody>
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td nowrap>
-				<a href="custom/moduli/presentazione/presentazione.php" name="presentazione" class="txt_link">Cos'&egrave; la Stralaceno?</a>
+				<a href="<?php echo $modules_site_path ?>presentazione/presentazione.php" name="presentazione" class="txt_link">Cos'&egrave; la Stralaceno?</a>
 			</td></tr>
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td nowrap>
 				<a href="filtro7.php" name="Albo_d_oro" class="txt_link">Albo d'oro</a>
