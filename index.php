@@ -1,23 +1,25 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-<head>
-  <title>Stralaceno Web</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-  <meta name="generator" content="Quanta Plus">
-  <meta name="description" content="Sito ufficiale della Stralaceno">
-  <meta name="keywords" content="Stralaceno, Caposele, Caposelesi, Corsa podistica, Atletica, Lago Laceno, Laceno">
-  <style type="text/css">@import "css/stralaceno.css";</style>
-</head>
-<body class="homepage" onLoad="azzera_input()">
-
 <?php
 
 include 'libreria.php';
 
 # dichiara variabili
 extract(indici());
+?>
+<head>
+  <title>Stralaceno Web</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <meta name="generator" content="Quanta Plus">
+  <meta name="description" content="Sito ufficiale della Stralaceno">
+  <meta name="keywords" content="Stralaceno, Caposele, Caposelesi, Corsa podistica, Atletica, Lago Laceno, Laceno">
+  <style type="text/css">@import "<?php echo $css_site_path ?>/stralaceno.css";</style>
+</head>
+<body class="homepage" onLoad="azzera_input()">
+<?php
 
-$archivio = load_data($filename_tempi,$num_colonne_prestazioni); # carica i dati relativi a tutti gli anni
+# carica i dati relativi a tutti gli anni, che devono essere disponibili per i moduli nelle colonne sinistra e destra
+$archivio = load_data($filename_tempi,$num_colonne_prestazioni);
 
 ?>
 
