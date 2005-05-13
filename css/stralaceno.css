@@ -8,18 +8,14 @@
 /*-------------------  impostazioni di default  ------------------------------- */
 
 body {
-/*	color:rgb(51,102,153);*/
 	color:rgb(34,68,102);
 	background:#FFF6F0;
 	font-family:Arial,Tahoma,Verdana,Serif;	
-	/*font-size:1.2em;*/
 	}
 
 /* tutti i link vengono sottolineati quando ci passa il mouse sopra */
 a {
-	/*text-decoration: none;*/
 	font-family:Arial,Tahoma,Verdana,Serif;
-	font-size:0.75em;
 	color:rgb(51,102,153);
 }
 
