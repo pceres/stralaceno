@@ -3,7 +3,7 @@ inizio colonna centrale
 -->
 <table class="frame_delimiter"><tbody>	
 
-	<?php
+<?php
 
 	$art_list = get_online_articles($article_online_file); // carica l'elenco degli articoli da pubblicare
 
@@ -29,7 +29,7 @@ inizio colonna centrale
 
 	// incrementa il contatore per la homepage
 	$counter = count_page("homepage",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
-	?>
+?>
 
 </tbody></table>
 <!-- 
