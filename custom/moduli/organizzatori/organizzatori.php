@@ -60,7 +60,7 @@ nonch&eacute; fondi, riserve o capitale, salvo che la destinazione o la distribu
 
 
 <div style="font-weight: bold;"><big>Scarica l'atto costitutivo e lo statuto completo dell'ARS in formato pdf:</big>
-	<a target="_blank" href="atto.pdf">
+	<a target="_blank" href="Atto.pdf">
 		<img src="../../../images/pdf.gif" alt="scarica lo statuto in formato pdf" 
 			border="0" height="36" width="36">
 	</a>
@@ -74,6 +74,8 @@ nonch&eacute; fondi, riserve o capitale, salvo che la destinazione o la distribu
 			border="0" height="36" width="36">
 	</a>
 </div>
+(da consegnare al segretario amministrativo Donatello Cirillo)
+
 <br>
 
 
