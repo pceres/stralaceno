@@ -30,6 +30,11 @@ inizio colonna sinistra
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td nowrap>
 				<a onClick="alert('Pagina in allestimento!')" name="regolamento" class="txt_link">Stralcio regolamento</a>
 			</td></tr>
+
+			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
+				<a href="<?php echo $modules_site_path ?>organizzatori/organizzatori.php" name="organizzatori" class="txt_link">Gli organizzatori</a>
+			</td></tr>
+
 		  </tbody>
 		 </table>
 

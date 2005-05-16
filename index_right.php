@@ -145,9 +145,9 @@ selezioni di qualsiasi campo select all'interno del documento.
 				<a onClick="alert('Pagina in allestimento!')" name="personaggi" class="txt_link">I personaggi</a>
 			</td></tr>
 			
-			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
+			<!--tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
 				<a href="<?php echo $modules_site_path ?>organizzatori/organizzatori.php" name="organizzatori" class="txt_link">Gli organizzatori</a>
-			</td></tr>
+			</td></tr-->
 
 		  </tbody>
 		 </table>
