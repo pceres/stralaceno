@@ -16,6 +16,21 @@ include 'libreria.php';
 # visualizza header http
 print_r($_SERVER);
 
+// path assoluto da usare per l'html e le immagini
+echo "<br><br>";
+$path = $_SERVER['SCRIPT_FILENAME'];
+echo "$path<br>";
+$start = strlen($_SERVER['DOCUMENT_ROOT'])+1;
+echo $_SERVER['DOCUMENT_ROOT']." -> $start<br>";
+$path = substr($path,$start);
+echo "$path<br>";
+$start = strpos($path,$root_prefix)+strlen($root_prefix)+1;
+echo "$start<br>";
+$site_abs_path = substr($path,0,$start);
+echo "$site_abs_path<br><br>";
+echo "<br><br>";
+
+
 # prova a leggere da remoto un file tramite ftp
 echo "<p>Provo a leggere counter.txt:<br>\n";
 $filename = 'ftp://pceres:avellino@pceres.altervista.org/stralaceno/dati/counterfile.txt';
