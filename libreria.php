@@ -67,7 +67,7 @@ $script_abs_path = substr($path,0,$start);
 
 // path assoluto da usare per l'html e le immagini
 $path = $_SERVER['SCRIPT_FILENAME'];
-$start = strlen($_SERVER['DOCUMENT_ROOT']);
+$start = strlen($_SERVER['DOCUMENT_ROOT']); // e' necessario, per funzionare, che SCRIPT_FILENAME inizi con DOCUMENT_ROOT
 $path = substr($path,$start);
 $start = strpos($path,$root_prefix)+strlen($root_prefix)+1;
 $site_abs_path = substr($path,0,$start);
