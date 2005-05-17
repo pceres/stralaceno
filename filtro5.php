@@ -13,7 +13,7 @@
 
 <?php
 
-include 'libreria.php';
+require_once('libreria.php');
 
 $archivio = load_data($filename_tempi,$num_colonne_prestazioni);
 
