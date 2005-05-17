@@ -3,7 +3,7 @@
 <html>
 <?php
 
-include 'libreria.php';
+require_once('libreria.php');
 
 # dichiara variabili
 extract(indici());
