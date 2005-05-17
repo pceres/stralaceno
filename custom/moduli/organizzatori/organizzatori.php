@@ -1,18 +1,25 @@
 #!/usr/local/bin/php
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
+<?php
+
+require_once('../../../libreria.php');
+
+# dichiara variabili
+extract(indici());
+?>
 <head>
   <title>Stralaceno Web - Gli organizzatori della Stralaceno</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
-  <style type="text/css">@import "/work/stralaceno2/css/stralaceno.css";</style>  
+  <style type="text/css">@import "<?php echo $css_site_path ?>/stralaceno.css";</style>  
 </head>
 <body>
 
 <table align="center" width="100%" style="background-color:rgb(255, 255, 255);">
 	<tbody>
 		<tr>
-		  <td align="center"> <img src="/work/stralaceno2/custom/images/logo.gif" alt="logo_stralacenoweb"> </td>
+		  <td align="center"> <img src="<?php echo $site_abs_path ?>custom/images/logo.gif" alt="logo_stralacenoweb"> </td>
 		</tr>
 	</tbody>
 </table>
@@ -30,7 +37,7 @@ e di tutti coloro che desiderano prestare la propria collaborazione.
 
 <h3 style="clear:right;text-align:center;">Statuto dell'Associazione sportiva e culturale "ARS  Amatori Running Sele":</h3>
 
-<img src="/work/stralaceno2/custom/moduli/organizzatori/ars_logo.jpg" style="float:right;margin:1em;" alt="scarica lo stemma dell'ARS" border="0" height="200" width="400">
+<img src="<?php echo $site_abs_path ?>custom/moduli/organizzatori/ars_logo.jpg" style="float:right;margin:1em;" alt="scarica lo stemma dell'ARS" border="0" height="200" width="400">
 
 <h3>Art. 1 - Scopo</h3>
 
@@ -55,14 +62,14 @@ nonch&eacute; fondi, riserve o capitale, salvo che la destinazione o la distribu
 </ul>
 <br>
 
-<a style="font-weight: bold;" href="/work/stralaceno2/custom/moduli/organizzatori/atto.htm">
+<a style="font-weight: bold;" href="<?php echo $site_abs_path ?>custom/moduli/organizzatori/atto.htm">
 	<big>Visualizza l'atto costitutivo e lo statuto completo dell'ARS</big></a><br>
 <br>
 
 
 <div style="font-weight: bold;"><big>Scarica l'atto costitutivo e lo statuto completo dell'ARS in formato pdf:</big>
-	<a target="_blank" href="/work/stralaceno2/custom/moduli/organizzatori/Atto.pdf">
-		<img src="/work/stralaceno2/images/pdf.gif" alt="scarica lo statuto in formato pdf" 
+	<a target="_blank" href="<?php echo $site_abs_path ?>custom/moduli/organizzatori/Atto.pdf">
+		<img src="<?php echo $site_abs_path ?>images/pdf.gif" alt="scarica lo statuto in formato pdf" 
 			border="0" height="36" width="36">
 	</a>
 </div>
@@ -70,8 +77,8 @@ nonch&eacute; fondi, riserve o capitale, salvo che la destinazione o la distribu
 
 
 <div style="font-weight: bold;"><big>Scarica il modulo di richiesta di adesione all'ARS in formato pdf:</big>
-	<a target="_blank" href="/work/stralaceno2/custom/moduli/organizzatori/richiesta_adesione_ARS.pdf">
-		<img src="/work/stralaceno2/images/pdf.gif" alt="scarica la richiesta di adesione in formato pdf" 
+	<a target="_blank" href="<?php echo $site_abs_path ?>custom/moduli/organizzatori/richiesta_adesione_ARS.pdf">
+		<img src="<?php echo $site_abs_path ?>images/pdf.gif" alt="scarica la richiesta di adesione in formato pdf" 
 			border="0" height="36" width="36">
 	</a>
 </div>
