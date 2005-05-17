@@ -1,23 +1,30 @@
 #!/usr/local/bin/php
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
+<?php
+
+require_once('../libreria.php');
+
+# dichiara variabili
+extract(indici());
+?>
 <head>
   <title>Gestione articoli in prima pagina</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Programmers Notepad">
-  <style type="text/css">@import "/work/stralaceno2/css/stralaceno.css";</style>
+  <style type="text/css">@import "<?php echo $css_site_path ?>/stralaceno.css";</style>
 </head>
 <body>
 
 <?php
 
-require_once('../libreria.php');
-
 $mode = $_REQUEST['task'];
 $data = $_REQUEST['data'];
 $password = $_REQUEST['password'];
 
-if ($password != 'stralacenoadmin')
+$password_ok = "stralacenoadmin"; 
+
+if ($password != $password_ok)
 {
 	echo "<a href=\"articoli.php\">Torna indietro</a><br><br>\n";
 	die("La password inserita non &egrave; corretta!<br>\n");
