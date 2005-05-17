@@ -1,10 +1,17 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
+<?php
+
+require_once('libreria.php');
+
+# dichiara variabili
+extract(indici());
+?>
 <head>
   <title>Archivio storico annuale</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
-  <style type="text/css">@import "css/stralaceno.css";</style>  
+  <style type="text/css">@import "<?php echo $css_site_path ?>/stralaceno.css";</style>  
 </head>
 <body class="tabella">
   
@@ -13,8 +20,6 @@
 <p>Elenco di tutti gli atleti che hanno partecipato ad almeno una edizione della Stralaceno:</p>
 
 <?php
-
-include 'libreria.php';
 
 $archivio = load_data($filename_tempi,$num_colonne_prestazioni);
 

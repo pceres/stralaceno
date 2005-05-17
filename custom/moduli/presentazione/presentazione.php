@@ -1,10 +1,17 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
+<?php
+
+require_once('../../../libreria.php');
+
+# dichiara variabili
+extract(indici());
+?>
 <head>
   <title>Stralaceno Web - Presentazione della Stralaceno</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
-  <style type="text/css">@import "../../../css/stralaceno.css";</style>  
+  <style type="text/css">@import "<?php echo $css_site_path ?>/stralaceno.css";</style>  
 </head>
 <body>
 
@@ -12,18 +19,17 @@
   <tbody>
     <tr>
       <td width="100%">
-	  <img src="../../../custom/images/logo.gif" alt="logo_stralacenoweb"> 
+	  <img src="<?php echo $site_abs_path ?>/custom/images/logo.gif" alt="logo_stralacenoweb"> 
 	  </td>
       <td>
-      <embed src="../../../custom/images/logoflash300x70.swf" quality="high" alt="logo_stralacenoweb_flash"
- pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=3DShockwaveFlash"
+      <embed src="<?php echo $site_abs_path ?>/custom/images/logoflash300x70.swf" quality="high" alt="logo_stralacenoweb_flash" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=3DShockwaveFlash"
  type="application/x-shockwave-flash"> 
     </tr>
   </tbody>
 </table>
 
 <div style="text-align: center;"><a class="txt_link" 
- href="present.swf">Visualizza presentazione FLASH (250 kbytes)</a>
+ href="<?php echo $site_abs_path ?>custom/moduli/presentazione/present.swf">Visualizza presentazione FLASH (250 kbytes)</a>
 </div>
 
 <hr>

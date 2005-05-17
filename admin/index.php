@@ -1,10 +1,17 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
+<?php
+
+require_once('../libreria.php');
+
+# dichiara variabili
+extract(indici());
+?>
 <head>
   <title>Amministrazione</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
-  <style type="text/css">@import "../css/stralaceno.css";</style>
+  <style type="text/css">@import "<?php echo $css_site_path ?>/stralaceno.css";</style>
 </head>
 
 <body class="admin">
@@ -38,8 +45,6 @@ Password: <input name="password" type="password">
 <a href='articoli.php'>Gestione articoli</a>
 
 <?php
-include('../libreria.php');
-
 # logga il contatto
 $counter = count_page("admin_index",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
 ?>

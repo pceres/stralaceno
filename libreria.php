@@ -67,11 +67,19 @@ $start = strpos($path,$root_prefix)+strlen($root_prefix)+1;
 $script_abs_path = substr($path,0,$start);
 
 // path assoluto da usare per l'html e le immagini
-$path = $_SERVER['SCRIPT_FILENAME'];
-$start = strlen($_SERVER['DOCUMENT_ROOT'])+1;
-$path = substr($path,$start);
-$start = strpos($path,$root_prefix)+strlen($root_prefix)+1;
-$site_abs_path = substr($path,0,$start);
+$start = strpos($_SERVER['SCRIPT_FILENAME'],$_SERVER['DOCUMENT_ROOT']);
+if (strlen($start)>0)
+{
+	$path = $_SERVER['SCRIPT_FILENAME'];
+	$start = strlen($_SERVER['DOCUMENT_ROOT']);
+	$path = substr($path,$start);
+	$start = strpos($path,$root_prefix)+strlen($root_prefix)+1;
+	$site_abs_path = substr($path,0,$start);
+}
+else
+{
+	$site_abs_path = $script_abs_path;	// Directory esterna a Document Root!: provo con $site_abs_path = $script_abs_path
+}
 
 #path assoluti
 $css_site_path			= $site_abs_path."css";
@@ -106,7 +114,7 @@ $indici3 = array('indice3_id' => $indice3_id,'indice3_nome' => $indice3_nome,'in
 
 $formattazione = array('style_sfondo_maschi' => $style_sfondo_maschi,'style_sfondo_femmine' => $style_sfondo_femmine,'colore_blu_stralaceno' => $colore_blu_cielo_di_Laceno,'colore_arancio_stralaceno' => $colore_arancio_fondo_vomitatoio);
 $filenames = array('filename_tempi' => $filename_tempi,'filename_atleti' => $filename_atleti,'filename_organizzatori' => $filename_organizzatori,'filedir_counter' => $filedir_counter,'articles_dir' => $articles_dir,'article_online_file' => $article_online_file);
-$pathnames = array('root_path' => $root_path,'site_abs_path' => $site_abs_path,'script_abs_path' => $site_abs_path,'css_site_path' => $css_site_path,'modules_site_path' => $modules_site_path);
+$pathnames = array('root_path' => $root_path,'site_abs_path' => $site_abs_path,'script_abs_path' => $script_abs_path,'css_site_path' => $css_site_path,'modules_site_path' => $modules_site_path);
 $varie = array('email_info' => $email_info,'symbol_1_partecipazione' => $symbol_1_partecipazione,'symbol_record' => $symbol_record);
 $admin = array('max_last_editions' => $max_last_editions,'max_online_articles' => $max_online_articles);
 
@@ -603,6 +611,9 @@ function load_article($art_id)
 	
 function show_article($art_data) 
 {
+	# dichiara variabili
+	extract(indici());
+
 	echo "<tr><td>\n";
 	echo "\t<table class=\"article_group\"><tbody><tr><td>\n";
 
@@ -611,7 +622,9 @@ function show_article($art_data)
 
 	foreach ($art_data["testo"] as $line)
 	{
-		echo $line;
+		$template = array("%script_root%","%file_root%");
+		$effective = array($script_abs_path,$site_abs_path);
+		echo str_replace($template, $effective, $line);
 	}
 	
 	echo "		<div class=\"txt_firma_articolo\">".$art_data["autore"]."</div>\n";

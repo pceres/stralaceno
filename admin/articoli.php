@@ -1,11 +1,18 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
+<?php
+
+require_once('../libreria.php');
+
+# dichiara variabili
+extract(indici());
+?>
 <head>
   <title>Gestione articoli</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <META http-equiv="Content-Script-Type" content="text/javascript">
   <meta name="GENERATOR" content="Quanta Plus">
-  <style type="text/css">@import "../css/stralaceno.css";</style>  
+  <style type="text/css">@import "<?php echo $css_site_path ?>/stralaceno.css";</style>
 </head>
 
 <body class="admin">
@@ -157,8 +164,6 @@ function move_up_down(direction)
 
 
 <?php
-
-require_once('../libreria.php');
 
 $art_id=get_article_list($articles_dir); // carica l'elenco degli articoli disponibili ($articles_dir e' relativo alla radice)
 $art_online_id=get_online_articles($article_online_file); // carica l'elenco degli articoli online ($article_online_file e' relativo alla radice)

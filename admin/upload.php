@@ -1,18 +1,23 @@
 <!DOCTYPE public "-//w3c//dtd html 4.01 transitional//en" 
 		"http://www.w3.org/TR/html4/loose.dtd">
 <html>
+<?php
+
+require_once('../libreria.php');
+
+# dichiara variabili
+extract(indici());
+?>
 <head>
   <title>Archivio Stralaceno</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
-
+  <style type="text/css">@import "<?php echo $css_site_path ?>/stralaceno.css";</style>
 </head>
 <body>
  
 
 <?php
-
-require_once('../libreria.php');
 
 $uploaddir = substr($filename_tempi,0,strlen($filename_tempi)-16);
 $password_ok = "stralacenoadmin"; 
