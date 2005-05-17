@@ -24,7 +24,7 @@ Titolo::Allenarsi alla Palmenta
 	Successivamente si intensificher&agrave; tale allenamento, abbinandolo a prove su altre tipologie di percorso.
 <p>
 	Il permesso &egrave; stato rilasciato, dopo una lunga battaglia condita di promesse e clamorose retromarce, all'
-	<a href="/my_cgi-bin/stralaceno2/custom/moduli/organizzatori/organizzatori.php">ARS Amatori Running Sele</a>,
+	<a href="%script_root%custom/moduli/organizzatori/organizzatori.php">ARS Amatori Running Sele</a>,
 	che concede a tutti gli interessati (anche, quindi, ai non soci) la possibilit&agrave; di poterne usufruire, 
 	rivolgendosi a 	Donatello Cirillo quale consigliere/socio delegato ARS.
 <p>

@@ -6,5 +6,5 @@ tradizionalmente in una corsa di mezzofondo.<p>La manifestazione &egrave; di car
 partecipanti, i quali, sebbene animati da differenti motivazioni individuali, acquisiscono tutti pari dignit&agrave; nel momento in cui accettano, per Sport, di vivere un momento di intenso impegno fisico. Il che per alcuni si traduce nel 
 correre per una migliore posizione in classifica, per altri in una semplice verifica del proprio stato di forma fisica, 
 per altri ancora, non meno rispettabili, nel tentativo di raggiungimento del traguardo entro il tempo massimo 
-prestabilito<a href="/my_cgi-bin/stralaceno2/custom/moduli/presentazione/presentazione.php" title="presentazione">...</a>
+prestabilito<a href="%script_root%custom/moduli/presentazione/presentazione.php" title="presentazione">...</a>
 --- End body ---
