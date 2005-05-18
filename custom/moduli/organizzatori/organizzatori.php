@@ -89,5 +89,12 @@ nonch&eacute; fondi, riserve o capitale, salvo che la destinazione o la distribu
 
 </div>
 
+
+<?php
+# logga il contatto
+$counter = count_page("modulo_organizzatori",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
+?>
+
+
 </body>
 </html>
