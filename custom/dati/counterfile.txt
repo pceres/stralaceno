@@ -1,11 +1,11 @@
 grafico_tempi:8
 admin_upload_articoli:3
-classifica_generale_F:13
 classifica_generale_tempi:5
-albo_d_oro:21
 tempi_atleta:24
 admin_index:20
 admin_articoli:23
-classifica_generale_MF:26
-homepage:727
-classifica_anno:96
+homepage:739
+albo_d_oro:22
+classifica_anno:97
+classifica_generale_F:14
+classifica_generale_MF:27
