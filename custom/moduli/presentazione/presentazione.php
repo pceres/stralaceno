@@ -62,5 +62,12 @@ contributo ad una manifestazione che forse oggi rappresenta anche un momento di 
 identit&agrave; comunale non sempre facili da ritrovare in altri contesti.</p>
 </div>
 
+
+<?php
+# logga il contatto
+$counter = count_page("modulo_presentazione",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
+?>
+
+
 </body>
 </html>
