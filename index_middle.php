@@ -1,11 +1,27 @@
 <!-- 
 inizio colonna centrale
 -->
+<?php
+	$pagina = $_REQUEST['page']; // contenuto da visualizzare in colonna centrale
+?>
 <table class="frame_delimiter"><tbody>	
 
 <?php
 
-	$art_list = get_online_articles($article_online_file); // carica l'elenco degli articoli da pubblicare
+	if (empty($pagina))
+	{
+		$art_list = get_online_articles($article_online_file); // carica l'elenco degli articoli da pubblicare
+	}
+	elseif ($pagina==='articolo')
+	{
+		$id = $_REQUEST['art_id']; // id dell'articolo da visualizzare
+		$art_list = array($id); 
+	}
+	else
+	{
+		echo "Contenuto $pagina non disponibile!\n";
+		return;
+	}
 
 	if (count($art_list) > 0)
 	{
@@ -15,7 +31,19 @@ inizio colonna centrale
 			
 			if (!empty($art_data)) // se l'articolo esiste...
 			{
-				show_article($art_data);	// visualizza l'articolo
+				// il primo articolo completo, gli altri riassunti
+				if ($i > 0)
+				{
+					$mode = 'abstract';
+					$link = $script_abs_path."index.php?page=articolo&amp;art_id=".$art_list[$i];
+				}
+				else
+				{
+					$mode = 'full';
+					$link = ''; // inutile in modalita' full
+				}
+				
+				show_article($art_data,$mode,$link);	// visualizza l'articolo
 			}
 		}	
 	}
