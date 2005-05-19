@@ -102,7 +102,7 @@ $symbol_record  		= '<img src="/work/stralaceno2/images/0x263A(smiling_face).bmp
 
 #admin
 $max_last_editions	= 3;	// numero di ultime edizioni in colonna laterale
-$max_online_articles	= 3;	// numero di articoli pubblicati online
+$max_online_articles	= 5;	// numero di articoli pubblicati online
 
 
 
@@ -606,12 +606,44 @@ function load_article($art_id)
 	
 	return $art_data;
 }
-	
-	
-function show_article($art_data) 
+
+
+function get_abstract($testo_in) 
 {
+	$n_max_stop = 2; // numero massimo di righe contenenti un carattere ".","?","!"
+		
+	$bulk = array();
+	$n_stop = 0;
+	foreach ($testo_in as $line)
+	{
+		if (  ($vpos[0] = strpos($line,".")) | ($vpos[1] = strpos($line,"?")) | ($vpos[2] = strpos($line,"!"))  )
+		{
+			$pos = max($vpos);
+			$n_stop++;
+		}
+		
+		array_push($bulk,$line);
+		
+		if ($n_stop >= $n_max_stop)
+		{
+			$bulk[count($bulk)-1] = substr($bulk[count($bulk)-1],0,$pos+1); // taglia l'ultima riga
+			break;
+		}
+	}
+	
+	return $bulk;
+}
+
+	
+function show_article($art_data,$mode,$link) 
+{
+	// $mode=('full','abstract')
+	// $link : usato in modo 'abstract', e' il link cui devono puntare i puntini alla fine dell'articolo
+
 	# dichiara variabili
 	extract(indici());
+	
+	$abstract_lines = 3; // numero di linee da pubblicare nella modalita' abstract
 
 	echo "<tr><td>\n";
 	echo "\t<table class=\"article_group\"><tbody><tr><td>\n";
@@ -619,13 +651,31 @@ function show_article($art_data)
 	echo "		<h3>".$art_data["titolo"]."</h3>\n";
 	echo "		<div class=\"txt_articolo\">\n";
 
-	foreach ($art_data["testo"] as $line)
+	if ($mode === 'abstract')
+	{
+		// abstract dell'articolo
+		$testo_articolo = get_abstract($art_data["testo"]);
+	}
+	else
+	{
+		// testo completo
+		$testo_articolo = $art_data["testo"];
+	}
+	
+	foreach ($testo_articolo as $line)
 	{
 		$template = array("%script_root%","%file_root%");
 		$effective = array($script_abs_path,$site_abs_path);
 		echo str_replace($template, $effective, $line);
 	}
 	
+	if ($mode === 'abstract')
+	{
+		// puntini di fine articolo
+		$puntini = " <a href=$link>...</a>";
+		echo $puntini;
+	}
+
 	echo "		<div class=\"txt_firma_articolo\">".$art_data["autore"]."</div>\n";
 	echo "		</div>\n";
 
