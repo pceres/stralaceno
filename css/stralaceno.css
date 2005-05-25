@@ -13,6 +13,18 @@ body {
 	font-family:Arial,Tahoma,Verdana,Serif;	
 	}
 
+/* link disabilitati */
+a.disabled {
+    font-size:0.75em;
+	font-family:Arial,Tahoma,Verdana,Serif;
+	color:rgb(153,153,153);
+}
+
+a.disabled:hover {
+	text-decoration: none;
+	}
+
+
 /* tutti i link vengono sottolineati quando ci passa il mouse sopra */
 a {
 	font-family:Arial,Tahoma,Verdana,Serif;
