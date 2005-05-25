@@ -134,21 +134,20 @@ selezioni di qualsiasi campo select all'interno del documento.
 			</td></tr>
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
-				<a onClick="alert('Pagina in allestimento!')" name="grafico_tempi" class="txt_link">Grafico andamento tempi negli anni</a>
+				<a class="disabled" onClick="alert('Pagina in allestimento!')" name="grafico_tempi" class="txt_link">Grafico andamento tempi negli anni</a>
+				<!--img src="< ?php echo $site_abs_path?>images/work-in-progress.gif" alt="work in progress" width="25"-->
 			</td></tr>
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
-				<a onClick="alert('Pagina in allestimento!')" name="classifica_partecipazioni" class="txt_link">Classifica partecipazioni</a>
+				<a class="disabled" onClick="alert('Pagina in allestimento!')" name="classifica_partecipazioni" class="txt_link">Classifica partecipazioni</a>
+				<!--img src="< ?php echo $site_abs_path?>images/work-in-progress.gif" alt="work in progress" width="25"-->
 			</td></tr>
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
-				<a onClick="alert('Pagina in allestimento!')" name="personaggi" class="txt_link">I personaggi</a>
+				<a class="disabled" onClick="alert('Pagina in allestimento!')" name="personaggi" class="txt_link">I personaggi</a>
+				<!--img src="< ?php echo $site_abs_path?>images/work-in-progress.gif" alt="work in progress" width="25"-->
 			</td></tr>
 			
-			<!--tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
-				<a href="<?php echo $modules_site_path ?>organizzatori/organizzatori.php" name="organizzatori" class="txt_link">Gli organizzatori</a>
-			</td></tr-->
-
 		  </tbody>
 		 </table>
 	   
