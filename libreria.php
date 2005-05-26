@@ -672,7 +672,7 @@ function show_article($art_data,$mode,$link)
 	if ($mode === 'abstract')
 	{
 		// puntini di fine articolo
-		$puntini = " <a href=$link>...</a>";
+		$puntini = ' <a href="'.$link.'">...</a>';
 		echo $puntini;
 	}
 
