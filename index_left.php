@@ -37,7 +37,7 @@ inizio colonna sinistra
 				$art_data = load_article($id); // carica l'articolo
 ?>
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td nowrap>
-				<a href="<?php echo $script_site_path ?>index.php?page=articolo&art_id=<?php echo $id ?>" 
+				<a href="<?php echo $script_site_path ?>index.php?page=articolo&amp;art_id=<?php echo $id ?>" 
 					name="articolo_<?php echo $id ?>" class="txt_link">&nbsp;-&nbsp;<?php echo $art_data['titolo'] ?></a>
 			</td></tr>
 <?php
@@ -68,8 +68,8 @@ inizio colonna sinistra
 			</td></tr>
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td nowrap>
-				<a class="disabled" onClick="alert('Pagina in allestimento!')" name="regolamento" class="txt_link">Stralcio regolamento</a>
-				<!--img src="< ?php echo $site_abs_path?>images/work-in-progress.gif" alt="work in progress" width="25"-->
+				<a class="disabled" onClick="alert('Pagina in allestimento!')" name="regolamento">Stralcio regolamento</a>
+				<img src="<?php echo $site_abs_path?>images/work-in-progress.png" width="25" alt="work in progress">
 			</td></tr>
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
@@ -137,6 +137,14 @@ inizio colonna sinistra
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
 				<a href="http://liceonline.altervista.org/" name="liceocaposele" class="txt_link">Liceo di Caposele</a>
+			</td></tr>
+
+			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
+				<a href="http://www.servizinews.it/servizi/podismo/podismo01.htm" name="gare_podismo" class="txt_link">Calendario gare di podismo</a>
+			</td></tr>
+
+			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
+				<a href="http://web.tiscali.it/nusco58enrico/riquadro2.html" name="gara_Nusco" class="txt_link">Maratona 10km di Nusco</a>
 			</td></tr>
 			
 		  </tbody>
