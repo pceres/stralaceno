@@ -92,6 +92,7 @@ $filename_organizzatori		= $root_path."custom/dati/organizzatori_laceno.csv";
 $filedir_counter 		= $root_path."custom/dati/";
 $articles_dir 			= $root_path."custom/articoli/";
 $article_online_file 		= $articles_dir."online.txt";
+$filename_links			= $root_path."custom/vari/links.txt";
 
 
 #varie
@@ -112,7 +113,7 @@ $indici2 = array('indice2_id' => $indice2_id,'indice2_nome' => $indice2_nome,'in
 $indici3 = array('indice3_id' => $indice3_id,'indice3_nome' => $indice3_nome,'indice3_sesso' => $indice3_sesso,'indice3_incarico' => $indice3_incarico,'indice3_anno' => $indice3_anno,'indice3_link' => $indice3_link,'indice3_nota' => $indice3_nota,'num_colonne_organizzatori' => $num_colonne_organizzatori);
 
 $formattazione = array('style_sfondo_maschi' => $style_sfondo_maschi,'style_sfondo_femmine' => $style_sfondo_femmine,'colore_blu_stralaceno' => $colore_blu_cielo_di_Laceno,'colore_arancio_stralaceno' => $colore_arancio_fondo_vomitatoio);
-$filenames = array('filename_tempi' => $filename_tempi,'filename_atleti' => $filename_atleti,'filename_organizzatori' => $filename_organizzatori,'filedir_counter' => $filedir_counter,'articles_dir' => $articles_dir,'article_online_file' => $article_online_file);
+$filenames = array('filename_tempi' => $filename_tempi,'filename_atleti' => $filename_atleti,'filename_organizzatori' => $filename_organizzatori,'filedir_counter' => $filedir_counter,'articles_dir' => $articles_dir,'article_online_file' => $article_online_file,'filename_links' => $filename_links);
 $pathnames = array('root_path' => $root_path,'site_abs_path' => $site_abs_path,'script_abs_path' => $script_abs_path,'css_site_path' => $css_site_path,'modules_site_path' => $modules_site_path);
 $varie = array('email_info' => $email_info,'symbol_1_partecipazione' => $symbol_1_partecipazione,'symbol_record' => $symbol_record);
 $admin = array('max_last_editions' => $max_last_editions,'max_online_articles' => $max_online_articles);
@@ -775,6 +776,29 @@ else
 }
 
 } // end delete_article
+
+
+function get_link_list($link_file)
+{
+	$bulk = file($link_file);
+	
+	$link_list = array();
+	for ($i = 0; $i < count($bulk); $i++)
+	{
+		$ks = trim($bulk[$i]); // elimina i caratteri di fine linea
+		if (!empty($ks) & (substr($ks,0,1) != "#") )
+		{
+			$item = split("::",$ks);
+			
+			array_push($link_list,$item);
+		}
+	}
+	
+	return $link_list;
+}
+
+
+
 
 
 ?>
