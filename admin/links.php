@@ -21,7 +21,6 @@ Links attuali:<br>
 <small>formato:  link::name</small>
 
 <form action="upload_text.php" method="post">
-	<input type="hidden" name="MAX_FILE_SIZE" value="30000">
 	<input type="hidden" name="filename" value="<?php echo $filename_links ?>">
 	<?php
 	$bulk = file($filename_links);
