@@ -69,7 +69,7 @@ inizio colonna sinistra
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td nowrap>
 				<a class="disabled" onClick="alert('Pagina in allestimento!')" name="regolamento">Stralcio regolamento</a>
-				<img src="<?php echo $site_abs_path?>images/work-in-progress.png" width="25" alt="work in progress">
+				<!--img src="<?php echo $site_abs_path?>images/work-in-progress.png" width="25" alt="work in progress"-->
 			</td></tr>
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
@@ -116,42 +116,31 @@ inizio colonna sinistra
 	</td></tr>
 
 
+<?php 
+	$link_list = get_link_list($filename_links); 
+	if (count($link_list) > 0) { ?>
 	<tr><td>
 	  <table class="column_group"><tbody><tr><td>
 		
 		<span class="titolo_colonna">Link:</span>
 		 <table cellpadding="0" cellspacing="0">
 		  <tbody>
-		  
-			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
-				<a href="http://www.caposeleonline.it" name="Caposeleonline" class="txt_link">Caposeleonline</a>
-			</td></tr>
 			
+<?php 
+			for ($i = 0; $i < count($link_list); $i++)
+			{ ?>
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
-				<a href="http://www.lagolaceno.it/" name="Lago_Laceno" class="txt_link">Lago Laceno</a>
+				<a href="<?php echo $link_list[$i][0] ?>" name="link_<?php echo $i ?>" class="txt_link"><?php echo $link_list[$i][1] ?></a>
 			</td></tr>
-			
-			<!--tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
-				<a href="http://www.skilaceno.com/" name="skilaceno" class="txt_link">Sciare a Laceno</a>
-			</td></tr-->
-			
-			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
-				<a href="http://liceonline.altervista.org/" name="liceocaposele" class="txt_link">Liceo di Caposele</a>
-			</td></tr>
-
-			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
-				<a href="http://www.servizinews.it/servizi/podismo/podismo01.htm" name="gare_podismo" class="txt_link">Calendario gare di podismo</a>
-			</td></tr>
-
-			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
-				<a href="http://web.tiscali.it/nusco58enrico/riquadro2.html" name="gara_Nusco" class="txt_link">Maratona 10km di Nusco</a>
-			</td></tr>
-			
+<?php			
+			} // for  
+?>
 		  </tbody>
 		 </table>
 		
 	  </td></tr></tbody></table>
 	</td></tr>
+<?php	} // if (count($link_list) > 0)  ?>
 
 	
 </tbody></table>
