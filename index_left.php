@@ -69,7 +69,7 @@ inizio colonna sinistra
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td nowrap>
 				<a class="disabled" onClick="alert('Pagina in allestimento!')" name="regolamento">Stralcio regolamento</a>
-				<img src="<?php echo $site_abs_path?>images/work-in-progress.png" width="25" alt="work in progress">
+				<!--img src="<?php echo $site_abs_path?>images/work-in-progress.png" width="25" alt="work in progress"-->
 			</td></tr>
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
