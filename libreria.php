@@ -83,16 +83,17 @@ else
 #path assoluti
 $css_site_path			= $site_abs_path."css";
 $modules_site_path		= $script_abs_path."custom/moduli/";
+$filedir_counter 		= $root_path."custom/dati/";
+$articles_dir 			= $root_path."custom/articoli/";
+$config_dir 			= $root_path."custom/config/";
 
 
 #nomi di file
 $filename_tempi 		= $root_path."custom/dati/tempi_laceno.csv";
 $filename_atleti 		= $root_path."custom/dati/atleti_laceno.csv";
 $filename_organizzatori		= $root_path."custom/dati/organizzatori_laceno.csv";
-$filedir_counter 		= $root_path."custom/dati/";
-$articles_dir 			= $root_path."custom/articoli/";
 $article_online_file 		= $articles_dir."online.txt";
-$filename_links			= $root_path."custom/vari/links.txt";
+$filename_links			= $config_dir."links.txt";
 
 
 #varie
@@ -114,7 +115,7 @@ $indici3 = array('indice3_id' => $indice3_id,'indice3_nome' => $indice3_nome,'in
 
 $formattazione = array('style_sfondo_maschi' => $style_sfondo_maschi,'style_sfondo_femmine' => $style_sfondo_femmine,'colore_blu_stralaceno' => $colore_blu_cielo_di_Laceno,'colore_arancio_stralaceno' => $colore_arancio_fondo_vomitatoio);
 $filenames = array('filename_tempi' => $filename_tempi,'filename_atleti' => $filename_atleti,'filename_organizzatori' => $filename_organizzatori,'filedir_counter' => $filedir_counter,'articles_dir' => $articles_dir,'article_online_file' => $article_online_file,'filename_links' => $filename_links);
-$pathnames = array('root_path' => $root_path,'site_abs_path' => $site_abs_path,'script_abs_path' => $script_abs_path,'css_site_path' => $css_site_path,'modules_site_path' => $modules_site_path);
+$pathnames = array('root_path' => $root_path,'site_abs_path' => $site_abs_path,'script_abs_path' => $script_abs_path,'css_site_path' => $css_site_path,'modules_site_path' => $modules_site_path,'config_dir' => $config_dir);
 $varie = array('email_info' => $email_info,'symbol_1_partecipazione' => $symbol_1_partecipazione,'symbol_record' => $symbol_record);
 $admin = array('max_last_editions' => $max_last_editions,'max_online_articles' => $max_online_articles);
 
@@ -790,7 +791,10 @@ function get_link_list($link_file)
 		{
 			$item = split("::",$ks);
 			
-			array_push($link_list,$item);
+			if (count($item) == 2)
+			{
+				array_push($link_list,$item);
+			}
 		}
 	}
 	
