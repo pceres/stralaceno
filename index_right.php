@@ -14,9 +14,9 @@ function valida(pform,tipo,check_null)
 	}
 	else
 	{
-		if (tipo == 'nome')
+		if (tipo == 'id_nome')
 		{
-			valore = pform.nome.value;
+			valore = pform.id_nome.value;
 		}
 	}
 
@@ -94,34 +94,34 @@ selezioni di qualsiasi campo select all'interno del documento.
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td style="max-width: 100px;">
 				<div style="display: inline;"><form action="filtro2.php" method="GET" name="form_atleta" style="display: inline; margin: 0;">
 				<span class="txt_link">Archivio storico personale:</span><br>
-				<select name="nome" onChange="valida(this.form,'nome')">
+				<select name="id_nome" onChange="valida(this.form,'id_nome')">
 					<option value="0">&nbsp;</option>
 <?php
 			$elenco_nomi = array();
 			$elenco_cognomi = array();
-			$elenco_i = array();
+			$elenco_id = array();
 			for ($i = 1; $i < count($archivio); $i++) {
 				$prestazione = $archivio[$i];
 				$nome = $prestazione[$indice_nome];
 				if (!in_array($nome,$elenco_nomi)) {
-		
+					
 					# estrai il cognome (escludi il nome all'inizio)
 					$lista = split(" ",$nome);
 					$cognome = "";
 					for ($ii = 1; $ii < count($lista); $ii++) {
 						$cognome .= " ".$lista[$ii];
 						}
-			
+						
 					array_push($elenco_nomi,$nome);
 					array_push($elenco_cognomi,$cognome);
-					array_push($elenco_i,$i);
+					array_push($elenco_id,$prestazione[$indice_id]);
 					}
 				}
 
-			array_multisort($elenco_cognomi,SORT_ASC, SORT_STRING,$elenco_nomi,SORT_ASC, SORT_STRING, $elenco_i,SORT_ASC, SORT_NUMERIC);
+			array_multisort($elenco_cognomi,SORT_ASC, SORT_STRING,$elenco_nomi,SORT_ASC, SORT_STRING, $elenco_id,SORT_ASC, SORT_NUMERIC);
 	
 			for ($i = 0; $i < count($elenco_nomi); $i++) {
-				echo "\t\t\t\t\t<option value=\"".$elenco_i[$i]."\">".$elenco_nomi[$i]."</option>\n";
+				echo "\t\t\t\t\t<option value=\"".$elenco_id[$i]."\">".$elenco_nomi[$i]."</option>\n";
 				}
 ?>	
 				</select>
@@ -135,17 +135,17 @@ selezioni di qualsiasi campo select all'interno del documento.
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
 				<a class="disabled" onClick="alert('Pagina in allestimento!')" name="grafico_tempi">Grafico andamento tempi negli anni</a>
-				<img src="<?php echo $site_abs_path?>images/work-in-progress.png" width="25" alt="work in progress">
+				<!--img src="<?php echo $site_abs_path?>images/work-in-progress.png" width="25" alt="work in progress"-->
 			</td></tr>
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
 				<a class="disabled" onClick="alert('Pagina in allestimento!')" name="classifica_partecipazioni">Classifica partecipazioni</a>
-				<img src="<?php echo $site_abs_path?>images/work-in-progress.png" width="25" alt="work in progress">
+				<!--img src="<?php echo $site_abs_path?>images/work-in-progress.png" width="25" alt="work in progress"-->
 			</td></tr>
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
 				<a class="disabled" onClick="alert('Pagina in allestimento!')" name="personaggi">I personaggi</a>
-				<img src="<?php echo $site_abs_path?>images/work-in-progress.png" width="25" alt="work in progress">
+				<!--img src="<?php echo $site_abs_path?>images/work-in-progress.png" width="25" alt="work in progress"-->
 			</td></tr>
 			
 		  </tbody>
