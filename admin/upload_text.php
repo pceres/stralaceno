@@ -54,6 +54,9 @@ else
 
 # logga il contatto
 $counter = count_page("admin_upload_text",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
+
+log_action($config_dir,"Links:\r\n<\r\n$testo\r\n>\r\n, ".date("l dS of F Y h:i:s A")."\r\n\r\n");
+
 ?>
 
 <hr>
