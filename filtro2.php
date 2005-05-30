@@ -26,10 +26,10 @@ $atleti = load_data($filename_atleti,$num_colonne_atleti);
 $archivio = merge_tempi_atleti($archivio,$atleti);
 
 
-$i_nome = $_REQUEST['nome']; 				# prestazione da cui prendere il nome
-$nome = $archivio[$i_nome][$indice_nome];
+$id = $_REQUEST['id_nome']; 				# prestazione da cui prendere il nome
+$nome = $atleti[$id][$indice_nome];
 
-echo "Personale di <b>".$nome."</b> (id: ".$archivio[$i_nome][$indice_id].") :";
+echo "Personale di <b>".$nome."</b> (id: ".$id.") :";
 
 $lista_regola_campo = array($indice_nome);
 $lista_regola_valore = array($nome);
