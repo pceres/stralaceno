@@ -1,8 +1,7 @@
-<!DOCTYPE public "-//w3c//dtd html 4.01 transitional//en" 
-		"http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-  <title>Archivio storico</title>
+  <title>Grafico tempi</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
 </head>
@@ -13,16 +12,21 @@
 
 <?php
 
+require_once('../libreria.php');
+
+# dichiara variabili
+extract(indici());
+
 include 'grafico.php';
-include '../libreria.php';
 
 $datafile = "grafico.txt";
 $pngfile = "grafico.png";
 
 $tempo_max_uomini = 45.0; 
 
-$archivio = load_data("../dati/tempi_laceno.csv",$num_colonne_prestazioni);
-$atleti = load_data("../dati/atleti_laceno.csv",$num_colonne_atleti);
+$archivio = load_data($filename_tempi,$num_colonne_prestazioni);
+$atleti = load_data($filename_atleti,$num_colonne_atleti);
+
 
 $elenco_id = array(); # id degli atleti da visualizzare
 for ($i = 1; $i < count($atleti); $i++) {
