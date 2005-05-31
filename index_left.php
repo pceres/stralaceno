@@ -1,5 +1,6 @@
 <?php
 
+// carica elenco delle edizioni disponibili
 $elenco_anni = array();
 for ($ii = 1; $ii < count($archivio); $ii++) {
 	array_push($elenco_anni,$archivio[$ii][$indice_anno]);
@@ -9,6 +10,9 @@ $elenco_anni = array_reverse($elenco_anni); # inverti l'ordine
 
 $numero_anni = min(count($elenco_anni),$max_last_editions); # numero delle ultime edizioni da visualizzare
 
+
+// carica elenco delle foto disponibili
+$elenco_foto = get_config_file($config_dir."albums.txt",2);
 
 $pagina = $_REQUEST['page']; // contenuto da visualizzare in colonna centrale
 ?>
@@ -96,6 +100,11 @@ inizio colonna sinistra
 <?php
 		for ($i = 0; $i < $numero_anni; $i++) {
 			echo "\t\t\t\t<br>&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"filtro4.php?anno=$elenco_anni[$i]\" class=\"txt_link\">Edizione $elenco_anni[$i]</a>\n";
+			
+			if (count($elenco_foto[$elenco_anni[$i]]) > 0)
+			{
+				echo "<a href=\"aa\"><img src=\"".$site_abs_path."images/camera.jpg\" width=\"15\" border=\"0\" alt=\"foto_".$elenco_anni[$i]."\"></a>";
+			}
 		}
 ?>
 			</td></tr>
