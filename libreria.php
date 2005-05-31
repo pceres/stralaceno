@@ -783,7 +783,7 @@ function get_link_list($link_file)
 {
 	$bulk = file($link_file);
 	
-	$link_list = array();
+	$list = array();
 	for ($i = 0; $i < count($bulk); $i++)
 	{
 		$ks = trim($bulk[$i]); // elimina i caratteri di fine linea
@@ -793,16 +793,44 @@ function get_link_list($link_file)
 			
 			if (count($item) == 2)
 			{
-				array_push($link_list,$item);
+				array_push($list,$item);
 			}
 		}
 	}
 	
-	return $link_list;
+	return $list;
 }
 
 
-
+function get_config_file($conf_file,$expected_items)
+{
+	$bulk = file($conf_file);
+	
+	$title = 'default';
+	$settings = array();
+	for ($i = 0; $i < count($bulk); $i++)
+	{
+		$ks = trim($bulk[$i]); // elimina i caratteri di fine linea
+		if (!empty($ks) & (substr($ks,0,1) != "#") ) // se la linea non e' vuota e non e' un commento...
+		{
+			if (  (substr($ks,0,1) == "[") and (substr($ks,-1) == "]")  )
+			{
+				$title = substr($ks,1,-1);
+				$settings[$title] = array();
+			}
+			else
+			{
+				$item = split("::",$ks);
+				if (count($item) == $expected_items)
+				{
+					array_push($settings[$title],$item);
+				}
+			}
+		}
+	}
+	
+	return $settings;
+}
 
 
 ?>
