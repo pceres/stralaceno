@@ -1,0 +1,10 @@
+[2004]
+http://www.caposeleonline.it::Caposeleonline
+http://www.lagolaceno.it/::Lago Laceno
+#http://www.skilaceno.com/::Sciare a Laceno
+http://liceonline.altervista.org/::Liceo di Caposele
+http://www.podisti.it::Portale sul podismo
+http://www.servizinews.it/servizi/podismo/podismo01.htm::Calendario podistico
+http://web.tiscali.it/nusco58enrico/riquadro2.html::La 10 km di Nusco
+
+[2005]
