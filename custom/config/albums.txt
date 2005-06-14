@@ -1,10 +1,8 @@
 [2004]
-http://www.caposeleonline.it::Caposeleonline
-http://www.lagolaceno.it/::Lago Laceno
-#http://www.skilaceno.com/::Sciare a Laceno
-http://liceonline.altervista.org/::Liceo di Caposele
-http://www.podisti.it::Portale sul podismo
-http://www.servizinews.it/servizi/podismo/podismo01.htm::Calendario podistico
-http://web.tiscali.it/nusco58enrico/riquadro2.html::La 10 km di Nusco
+stralaceno2004-1.JPG::Foto di gruppo alla partenza::Descrizione della foto n. 1
+stralaceno2004-3.JPG::Si intravede la linea di partenza (e di arrivo)::Descrizione della foto n. 2
+stralaceno2004-4.JPG::Foto di gruppo delle corridrici::Descrizione della foto n. 3
+stralaceno2004-5.JPG::Manca poco alla partenza::Descrizione della foto n. 4
+stralaceno2004-6.JPG::Concitazione alla partenza::Descrizione della foto n. 5
 
 [2005]
