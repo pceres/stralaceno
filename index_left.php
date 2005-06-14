@@ -12,7 +12,7 @@ $numero_anni = min(count($elenco_anni),$max_last_editions); # numero delle ultim
 
 
 // carica elenco delle foto disponibili
-$elenco_foto = get_config_file($config_dir."albums.txt",2);
+$elenco_foto = get_config_file($config_dir."albums.txt",3); // tre colonne
 
 $pagina = $_REQUEST['page']; // contenuto da visualizzare in colonna centrale
 ?>
@@ -103,7 +103,7 @@ inizio colonna sinistra
 			
 			if (count($elenco_foto[$elenco_anni[$i]]) > 0)
 			{
-				//echo "<a href=\"aa\"><img src=\"".$site_abs_path."images/camera.jpg\" width=\"15\" border=\"0\" alt=\"foto_".$elenco_anni[$i]."\"></a>";
+				echo "<a href=\"album.php?anno=".$elenco_anni[$i]."\"><img src=\"".$site_abs_path."images/camera.jpg\" width=\"15\" border=\"0\" alt=\"foto_".$elenco_anni[$i]."\"></a>";
 			}
 		}
 ?>
