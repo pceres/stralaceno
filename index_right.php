@@ -134,7 +134,8 @@ selezioni di qualsiasi campo select all'interno del documento.
 			</td></tr>
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
-				<a class="disabled" onClick="alert('Pagina in allestimento!')" name="grafico_tempi">Grafico andamento tempi negli anni</a>
+				<a href="filtro8.php" name="grafico_tempi" class="txt_link">Grafico andamento tempi negli anni</a>
+				<!--a class="disabled" onClick="alert('Pagina in allestimento!')" name="grafico_tempi">Grafico andamento tempi negli anni</a-->
 				<!--img src="<?php echo $site_abs_path?>images/work-in-progress.png" width="25" alt="work in progress"-->
 			</td></tr>
 			
