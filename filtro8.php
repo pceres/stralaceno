@@ -72,7 +72,8 @@ $counter = count_page("grafico_tempi",array("COUNT"=>1,"LOG"=>1),$filedir_counte
 ?>
 
 
-<form action="http://members.lycos.co.uk/pceres/stralaceno/grafico/crea_grafico.php" method="POST">
+<form action="http://members.lycos.co.uk/stralaceno/stralaceno2/grafico/crea_grafico.php" method="POST">
+<!--form action="grafico/crea_grafico.php" method="POST"-->
 
 <table>
 	<tr>
