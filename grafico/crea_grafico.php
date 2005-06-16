@@ -1,4 +1,3 @@
-#!/usr/local/bin/php
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -21,8 +20,8 @@ extract(indici());
 include 'grafico.php';
 
 $datafile = "grafico.txt";
-#$pngfile = "grafico.png"; #!!!
 $pngfile = "grafico.png";
+
 $spessore_linea = 3; # spessore della linea relativa ai tempi di ogni atleta
 
 $tempo_max_uomini = 45.0; 
@@ -69,7 +68,6 @@ for ($i = 1; $i < count($archivio); $i++) {
 		}
 	
 	}
-
 
 $anni = array_merge(array_keys($elenco_tempo_min),array_keys($elenco_tempo_max));
 $primo_anno = min($anni);
@@ -126,8 +124,7 @@ fclose($handle);
 
 
 grafico(950,480,30,$datafile,$pngfile);
-#echo "<img src=\"".$pngfile."\" title=\"grafico tempi Stralaceno\" alt=\"grafico tempi Stralaceno\">"; #!!!
-echo "<img src=\"/work/stralaceno2/grafico/".$pngfile."\" title=\"grafico tempi Stralaceno\" alt=\"grafico tempi Stralaceno\">";
+echo "<img src=\"".$pngfile."\" title=\"grafico tempi Stralaceno\" alt=\"grafico tempi Stralaceno\">";
 exit();
 
 
