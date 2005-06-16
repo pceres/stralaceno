@@ -1,3 +1,4 @@
+#!/usr/local/bin/php
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -20,7 +21,9 @@ extract(indici());
 include 'grafico.php';
 
 $datafile = "grafico.txt";
+#$pngfile = "grafico.png"; #!!!
 $pngfile = "grafico.png";
+$spessore_linea = 3; # spessore della linea relativa ai tempi di ogni atleta
 
 $tempo_max_uomini = 45.0; 
 
@@ -67,6 +70,7 @@ for ($i = 1; $i < count($archivio); $i++) {
 	
 	}
 
+
 $anni = array_merge(array_keys($elenco_tempo_min),array_keys($elenco_tempo_max));
 $primo_anno = min($anni);
 $ultimo_anno = max($anni);
@@ -105,16 +109,16 @@ fwrite($handle,"\r\n");
 
 
 # linea tempi minimi
-write_tempi($handle,"primi posti","red",$elenco_tempo_min);
+write_tempi($handle,"primi posti","red",1,$elenco_tempo_min);
 
 # linee atleti
 $count = 0;
 foreach ($elenco_tempi_atleta as $id => $elenco_tempi) {
-	write_tempi($handle,$atleti[$id][$indice2_nome],$elenco_colori[$count++],$elenco_tempi);
+	write_tempi($handle,$atleti[$id][$indice2_nome],$elenco_colori[$count++],$spessore_linea,$elenco_tempi);
 	}
 
 # linea tempi massimi
-write_tempi($handle,"ultimi posti","green",$elenco_tempo_max);
+write_tempi($handle,"ultimi posti","green",1,$elenco_tempo_max);
 
 
 fclose($handle);
@@ -122,17 +126,20 @@ fclose($handle);
 
 
 grafico(950,480,30,$datafile,$pngfile);
-echo "<img src=\"".$pngfile."\" title=\"grafico tempi Stralaceno\" alt=\"grafico tempi Stralaceno\">";
+#echo "<img src=\"".$pngfile."\" title=\"grafico tempi Stralaceno\" alt=\"grafico tempi Stralaceno\">"; #!!!
+echo "<img src=\"/work/stralaceno2/grafico/".$pngfile."\" title=\"grafico tempi Stralaceno\" alt=\"grafico tempi Stralaceno\">";
 exit();
 
 
 #####################
-function write_tempi($handle,$label,$color,$elenco_tempi) {
+function write_tempi($handle,$label,$color,$thickness,$elenco_tempi) {
 
 fwrite($handle,"[label]\r\n");
 fwrite($handle,"$label\r\n");
 fwrite($handle,"[line_color]\r\n");
 fwrite($handle,"$color\r\n");
+fwrite($handle,"[line_thickness]\r\n");
+fwrite($handle,"$thickness\r\n");
 fwrite($handle,"[line_style]\r\n");
 fwrite($handle,"continuous\r\n");
 fwrite($handle,"[(x,y)]\r\n");
@@ -141,6 +148,11 @@ $anni = array_keys($elenco_tempi);
 for ($i = 0; $i < count($anni); $i++) {
 	$ks = $anni[$i]."\t".$elenco_tempi[$anni[$i]]."\r\n";
 	fwrite($handle,$ks);
+
+	if (count($anni) == 1) {  # se partecipa per un solo anno, fa comparire un punto
+		$ks = ($anni[$i]+0.05)."\t".$elenco_tempi[$anni[$i]]."\r\n";
+		fwrite($handle,$ks);
+		}
 	}
 fwrite($handle,"\r\n");
 }
