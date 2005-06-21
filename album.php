@@ -38,9 +38,9 @@ $photo_per_row = 3; // numero di foto per riga
 			<tbody>
 			
 			<!-- riga vuota -->
-			<tr>
+			<!--tr>
 				<td colspan="<?php echo $photo_per_row ?>" height="10"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Null.gif" border="0" height="10" width="11"></td>
-			</tr>
+			</tr-->
 			
 			
 			<!-- riga descrizione album -->
