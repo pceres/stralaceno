@@ -8,7 +8,8 @@ Titolo::Allenarsi alla Palmenta
    pratica sportiva, secondo il motto latino 'Mens sana in corpore sano'!
 <p>
 	A Caposele sono diversi i percorsi disponibili per la pratica podistica, quali ad es. il circuito a Ponte 
-	Sele, quello di Laceno, ecc. Da pochissimo si &egrave; aperta una ulteriore possibilit&agrave;: quella di 			allenarsi sul bordo del campo della Palmenta. Tale percorso presenta, rispetto agli altri citati, diversi 
+	Sele, quello di Laceno, ecc. Da pochissimo si &egrave; aperta una ulteriore possibilit&agrave;: quella di
+	allenarsi sul bordo del campo della Palmenta. Tale percorso presenta, rispetto agli altri citati, diversi 
 	aspetti favorevoli:
 <ul>
     <li>l'allenamento avviene su un tappeto erboso che allevia le sollecitazioni alle articolazioni e rende piu' 
@@ -19,9 +20,11 @@ Titolo::Allenarsi alla Palmenta
 	di tornare a casa per una piacevole doccia, evitando di raffreddarsi;</li>
 </ul>
 <p>
-	Queste caratteristiche rendono il campo alla Palmenta luogo ideale per cominciare ad 
-	allenarsi. Per chi inizia sono consigliabili sedute standard di corsa lenta di 12 giri, ovvero meno di 4 km.
+	Queste caratteristiche rendono il campo alla Palmenta luogo ideale per cominciare ad allenarsi. 
+	Per chi inizia sono consigliabili sedute standard di corsa lenta di 12 giri, ovvero di circa 4 km 
+	(il perimetro del campo misura 343 m, ed &egrave; ad un'altitudine di 518 m s.l.m.).
 	Successivamente si intensificher&agrave; tale allenamento, abbinandolo a prove su altre tipologie di percorso.
+	Il tracciato della Stralaceno misura 5,650 km, e corrisponde all'incirca a 17 giri di campo.
 <p>
 	Il permesso &egrave; stato rilasciato, dopo una lunga battaglia condita di promesse e clamorose retromarce, all'
 	<a href="%script_root%custom/moduli/organizzatori/organizzatori.php">ARS Amatori Running Sele</a>,
