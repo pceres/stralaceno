@@ -52,18 +52,33 @@ $colore_arancio_fondo_vomitatoio = "rgb(255,102,0)";
 // determina la directory (l'ultimo livello) contenente il sito (deve iniziare con "stralaceno", ad es. "stralaceno2" e' ok)
 $path = $_SERVER['SCRIPT_FILENAME'];
 $root_prefix = "stralaceno";
+
+// determina l'ultima occorrenza di root_prefix
+$temp=strpos($path,$root_prefix);
+if (strlen($temp."a")==1) // verifica che root_prefix sia presente nel path
+{
+	die("Errore: il path della radice del sito ($path) sul server non contiene '$root_prefix' ");
+}
+do {
+	$path = substr($path,$temp);
+	$temp=strpos($path,$root_prefix,1)."a";
+} while (strlen($temp)>1);
+// taglia la parte restante del path fino al simbolo '/'
 $path = substr($path,strpos($path,$root_prefix));
 $root_prefix = substr($path,0,strpos($path,"/"));
+//echo("root_prefix:$root_prefix<br>");
 
 // determina il path assoluto nel filesystem del server (serve quando si accede direttamente ai file per leggere o scrivere)
 $path = $_SERVER['SCRIPT_FILENAME'];
 $start = strpos($path,$root_prefix)+strlen($root_prefix)+1;
 $root_path = substr($path,0,$start);
+//echo("root_path:$root_path<br>");
 
 // path assoluto da usare per gli script php
 $path = $_SERVER['SCRIPT_NAME'];
 $start = strpos($path,$root_prefix)+strlen($root_prefix)+1;
 $script_abs_path = substr($path,0,$start);
+//echo("script_abs_path:$script_abs_path<br>");
 
 // path assoluto da usare per l'html e le immagini
 $start = strpos($_SERVER['SCRIPT_FILENAME'],$_SERVER['DOCUMENT_ROOT']);
@@ -79,6 +94,8 @@ else
 {
 	$site_abs_path = $script_abs_path;	// Directory esterna a Document Root!: provo con $site_abs_path = $script_abs_path
 }
+//echo("site_abs_path:$site_abs_path<br>");
+
 
 #path assoluti
 $css_site_path			= $site_abs_path."css";
@@ -94,7 +111,6 @@ $filename_atleti 		= $root_path."custom/dati/atleti_laceno.csv";
 $filename_organizzatori		= $root_path."custom/dati/organizzatori_laceno.csv";
 $article_online_file 		= $articles_dir."online.txt";
 $filename_links			= $config_dir."links.txt";
-
 
 #varie
 $email_info		= "stralaceno@freepass.it";
