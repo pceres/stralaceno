@@ -28,16 +28,52 @@ $id_descrizione_foto = 2;
 
 $album = $elenco_foto[$nome_album];
 
-//$photo_per_row = 3; // numero di foto per riga
-
 ?>
 
-<body>
+
+<script type="text/javascript">
+//<![CDATA[
+<!--
+
+function FixPhoto(obj) {
+
+var table;
+var cell_L,cell_R,image;
+var	x;
+
+if (document.all)
+{ // IE
+	table = document.all.photo_table;
+	cell_L=table.cells[4];
+	cell_R=table.cells[5];
+	image=document.all.foto;
+}
+else if (document.getElementById)
+{ // NS
+	table = document.getElementById('photo_table'); 
+	cell_L=table.tBodies[0].rows[2].cells[0];
+	cell_R=table.tBodies[0].rows[2].cells[1];
+	image=document.getElementById('foto');
+}
+
+x = image.height; // altezza della foto
+	
+cell_L.height=x-13*2;
+cell_R.height=x-13*2;
+
+} // end FixPhoto
+
+//-->
+//]]>
+</script>
+
+
+
+<body onLoad="FixPhoto('photo')">
 		<img src="<?php echo $site_abs_path ?>custom/images/cornice/Null.gif" border="0" height="10" width="1">
 		
+		<!-- tabella riga header -->
 		<table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody>
-			
-			<!-- riga descrizione foto -->
 			<tr>
 				<td colspan="<?php echo $photo_per_row-1; ?>">
 					<font color="#000000" face="Times New Roman,Georgia,Times" size="4">
@@ -52,16 +88,14 @@ $album = $elenco_foto[$nome_album];
 					</div>
 				</td>
 			</tr>
-			
 		</tbody></table>
-		
 		
 		<br>
 		
-		<table border="0" cellpadding="0" cellspacing="0" width="100%">
-			<tbody><tr valign="top">
+		<!-- tabella riga link alla foto precedente e successiva -->
+		<table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody>
+			<tr valign="top">
 				<td width="25%">
-
 					<div align="left">
 					<font face="Times New Roman,Georgia,Times">
 					<?php 
@@ -74,9 +108,8 @@ $album = $elenco_foto[$nome_album];
 					?>
 					</font>
 					</div>
-
 				</td>
-
+				
 <?php 
 $path = $site_abs_path."custom/album/$nome_album/".$album[$id_photo][$id_nomefile_foto];
 ?>
@@ -84,15 +117,14 @@ $path = $site_abs_path."custom/album/$nome_album/".$album[$id_photo][$id_nomefil
 					<div align="center">
 						<font color="#000000" face="Times New Roman,Georgia,Times" size="4">
 						<a href="<?php echo $path?>"><?php echo $album[$id_photo][$id_titolo_foto]; ?></a></font>
-
+						
 						<br>
 						<font face="Times New Roman,Georgia,Times">
 						<?php echo $album[$id_photo][$id_descrizione_foto]; ?></font>
 					</div>
 				</td>
-
+				
 				<td width="25%">
-
 					<div align="right">
 					<font face="Times New Roman,Georgia,Times">
 					<?php 
@@ -105,52 +137,58 @@ $path = $site_abs_path."custom/album/$nome_album/".$album[$id_photo][$id_nomefil
 					?>
 					</font>
 					</div>
-
 				</td>
+				
 			</tr>
 		</tbody></table>
-
-		<table border="0" cellpadding="0" cellspacing="0" width="100%">
-
-			<tbody><tr>
-				<td colspan="3" valign="top" width="100%">
-					<div align="center"><br>
-										<table border="0" cellpadding="0" cellspacing="0">
-						<tbody><tr>
-							<td colspan="3"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_TL.gif" border="0" height="16" width="30"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_T.gif" border="0" height="16" width="392"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_TR.gif" border="0" height="16" width="30"></td>
-						</tr> <tr>
-							<td><img src="62.jpg.Binder_files/Bord_LT.gif" border="0" height="13" width="16"></td>
-							<td rowspan="3" valign="middle"><a href="<?php echo $path ?>"><img src="<?php echo $path ?>" alt="" border="0" height="280" width="420"></a></td>
-							<td><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_RT.gif" border="0" height="13" width="16"></td>
-						</tr> <tr>
-							<td><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_L.gif" border="0" height="254" width="16"></td>
-							<td><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_R.gif" border="0" height="254" width="16"></td>
-						</tr> <tr>
-							<td><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_LB.gif" border="0" height="13" width="16"></td>
-							<td><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_RB.gif" border="0" height="13" width="16"></td>
-						</tr> <tr>
-							<td colspan="3"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_BL.gif" border="0" height="16" width="30"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_B.gif" border="0" height="16" width="392"><img src="62.jpg.Binder_files/Bord_BR.gif" border="0" height="16" width="30"></td>
+		
+		
+		<table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody>
+					<tr><td align="center">
+					
+						<!-- foto incorniciata -->
+						<table id="photo_table" border="0" cellpadding="0" cellspacing="0" class="photo"><tbody>
+						<tr>
+							<td colspan="3"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_TL.gif" border="0" height="16" width="30" alt="TL"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_T.gif" border="0" height="16" width="392" alt="T"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_TR.gif" border="0" height="16" width="30" alt="TR"></td>
 						</tr>
-					</tbody></table>
-
-					</div>
-				</td>
-			</tr>
-
-			<tr>
-				<td height="20"><img src="62.jpg.Binder_files/Null.gif" border="0" height="20" width="20"></td>
-			</tr>
-
-
-
+						
+						<tr>
+							<td valign="top"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_LT.gif" border="0" height="13" width="16" alt="LT"></td>
+							<!--td rowspan="3" valign="middle"><a href="<?php echo $path ?>"><img src="<?php echo $path ?>" alt="" border="0" height="280" width="420"></a></td-->
+							<td rowspan="3" valign="middle"><a href="<?php echo $path ?>"><img id="foto" src="<?php echo $path ?>" alt="" border="0" width="420"></a></td>
+							<td><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_RT.gif" border="0" height="13" width="16" alt="RT"></td>
+						</tr>
+						
+						<tr>
+							<!--td><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_L.gif" border="0" height="254" width="16" alt="L"></td-->
+							<td><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_L.gif" border="0" height="254" width="16" alt="L"></td>
+							<td background="<?php echo $site_abs_path ?>custom/images/cornice/Bord_R.gif"><!--img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_R.gif" border="0" height="254" width="16" alt="R"--></td>
+						</tr>
+						
+						<tr>
+							<td valign="bottom"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_LB.gif" border="0" height="13" width="16" alt="LB"></td>
+							<td valign="bottom"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_RB.gif" border="0" height="13" width="16" alt="RB"></td>
+						</tr>
+						
+						<tr>
+							<td colspan="3"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_BL.gif" border="0" height="16" width="30" alt="BL"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_B.gif" border="0" height="16" width="392" alt="B"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_BR.gif" border="0" height="16" width="30" alt="BR"></td>
+						</tr>
+						</tbody></table>
+					</td></tr>
+			
+			<!-- riga vuota per distanziare la riga successiva -->
+			<!--tr>
+				<td height="20"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Null.gif" border="0" height="20" width="20"></td>
+			</tr-->
+			
+			
+			<!-- riga footer -->
 			<tr>
 				<td>
 					<div align="center">
-						<font color="#000000" face="Verdana">Album rendered on <?php echo date("F j, Y, g:i a") ?></font></div>
+					<font color="#000000" face="Verdana">Album rendered on <?php echo date("F j, Y, g:i a") ?></font></div>
 				</td>
 			</tr>
-			<tr>
-				<td></td>
-			</tr>
+			
 		</tbody></table>
 	</body></html>
