@@ -1,8 +1,8 @@
 [2004]
-stralaceno2004-4.JPG::Foto di gruppo delle corridrici::Descrizione della foto n. 3
+stralaceno2004-4.JPG::Foto di gruppo delle corridrici::Descrizione della foto n. 1
 stralaceno2004-3.JPG::Si intravede la linea di partenza (e di arrivo)::Descrizione della foto n. 2
-stralaceno2004-1.JPG::Foto di gruppo 1 minuto dopo partenza::Descrizione della foto n. 1
-stralaceno2004-5.JPG::La gara &egrave; si &egrave; da poco conclusa::Descrizione della foto n. 4
+stralaceno2004-1.JPG::Foto di gruppo 1 minuto dopo partenza::Descrizione della foto n. 3
+stralaceno2004-5.JPG::La gara si &egrave; da poco conclusa::Descrizione della foto n. 4
 stralaceno2004-6.JPG::In attesa della proclamazione dei risultati::Descrizione della foto n. 5
 
 [2005]
