@@ -3,7 +3,6 @@ Titolo::I numeri della Stralaceno
 --- Begin body ---
 <p>
 Cresce l'attesa per la  XVII edizione della Stralaceno. Diamo un'occhiata ai numeri delle 16 edizioni finora disputate.
-</p><p>
 <ul>
    <li>Numero totale di partecipanti:  181, di cui 16 donne;</li>
    <li>Edizione con maggior numero di concorrenti:  anno 2001 (58  iscritti);</li>
@@ -18,5 +17,4 @@ Cresce l'attesa per la  XVII edizione della Stralaceno. Diamo un'occhiata ai num
    <li>Ritirati: 16;</li>
    <li>Squalificati: 3.</li>
 </ul>
-</p>
 --- End body ---
