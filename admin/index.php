@@ -48,6 +48,10 @@ Password: <input name="password" type="password">
 
 <a href='links.php'>Gestione links</a>
 
+<hr>
+
+<a href='manage_albums.php'>Gestione album</a>
+
 <?php
 # logga il contatto
 $counter = count_page("admin_index",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
