@@ -12,7 +12,7 @@ $numero_anni = min(count($elenco_anni),$max_last_editions); # numero delle ultim
 
 
 // carica elenco delle foto disponibili
-$elenco_foto = get_config_file($config_dir."albums.txt",3); // tre colonne
+$elenco_foto = get_config_file($filename_albums,3); // tre colonne
 
 $pagina = $_REQUEST['page']; // contenuto da visualizzare in colonna centrale
 ?>
