@@ -25,8 +25,26 @@ $archivio = merge_tempi_atleti($archivio,$atleti);
 
 $anno = $_REQUEST['anno']; 				# anno richiesto
 
-echo "<div class=\"titolo_tabella\">Stralaceno ".$anno." - risultati ufficiali :</div>";
+#verifica disponibilita' album fotografico
+// carica elenco delle foto disponibili
+$elenco_foto = get_config_file($config_dir."albums.txt",3);
+$id_nomefile_foto = 0;
+$id_titolo_foto = 1;
+$id_descrizione_foto = 2;
 
+if (array_key_exists($anno,$elenco_foto))
+{
+	$nota_album = "<a class=\"txt_link\" href=album.php?anno=$anno><img src=\"".$site_abs_path."images/camera.jpg\" border='0' width=\"50.0em\"></a>";
+}
+else
+{
+	$nota_album = "";
+}
+
+#prepara il titolo
+echo "<div class=\"titolo_tabella\">Stralaceno ".$anno." - risultati ufficiali : $nota_album</div>";
+
+#prepara la tabella
 $archivio = aggiungi_simboli($archivio);
 
 $lista_regola_campo = array($indice_anno);
@@ -39,6 +57,8 @@ $archivio_rielaborato = fondi_nome_id($archivio_ordinato, $indice_nome, $indice_
 
 $mask = array($indice_posiz,$indice_nome,$indice_tempo,'simb'); # escludo l'anno
 show_table($archivio_rielaborato,$mask,'tabella',3,12);
+
+
 
 # logga il contatto
 $counter = count_page("classifica_anno",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
