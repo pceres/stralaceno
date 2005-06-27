@@ -20,7 +20,7 @@ extract(indici());
 $anno = $_REQUEST['anno'];
 
 // carica elenco delle foto disponibili
-$elenco_foto = get_config_file($config_dir."albums.txt",3);
+$elenco_foto = get_config_file($filename_albums,3);
 $id_nomefile_foto = 0;
 $id_titolo_foto = 1;
 $id_descrizione_foto = 2;
@@ -38,9 +38,9 @@ $photo_per_row = 3; // numero di foto per riga
 			<tbody>
 			
 			<!-- riga vuota -->
-			<!--tr>
+			<tr>
 				<td colspan="<?php echo $photo_per_row ?>" height="10"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Null.gif" border="0" height="10" width="11"></td>
-			</tr-->
+			</tr>
 			
 			
 			<!-- riga descrizione album -->
@@ -53,7 +53,7 @@ $photo_per_row = 3; // numero di foto per riga
 					
 				<td valign="top" width="<?php echo round(100/$photo_per_row) ?>%">
 					<div align="right">
-						<a href="index.php"><h2>Homepage</h2></a>
+						<h2><a href="index.php">Homepage</a></h2>
 					</div>
 				</td>
 			</tr>
@@ -69,29 +69,42 @@ for ($riga=0; $photo_count<count($album); $riga++)
 			<!-- riga di $photo_per_row foto -->
 			<tr>
 <?php
-//print_r($album);
 for ($i = 0; $i<$photo_per_row; $i++)
 {
 	if ($photo_count < count($album))
 	{
-		$nome_foto = $site_abs_path."custom/album/$anno/".$album[$photo_count][$id_nomefile_foto];
+		
+		#determina il nome dell'immagine thumbnail. Se la foto e' foto.jpg, il thumbnail si deve chiamare foto-thumb.jpg
+		$nome_foto = $album[$photo_count][$id_nomefile_foto];
+		$pos = strrpos($nome_foto,'.');
+		$nome_thumb = substr($nome_foto,0,$pos)."-thumb".substr($nome_foto,$pos);
+		//$nome_thumb = str_replace(' ', '%20', $nome_thumb);
+		if (file_exists($root_path."custom/album/$anno/".$nome_thumb))
+		{	// esiste il thumbnail, usalo
+			$nome_foto = $site_abs_path."custom/album/$anno/".$nome_thumb;
+		}
+		else
+		{	// usa direttamente la foto
+			$nome_foto = $site_abs_path."custom/album/$anno/".$nome_foto;
+		}
+		
 ?>
 <td align='center' width='<?php echo round(100/$photo_per_row); ?>%' valign='middle'>
 		<table border='0' cellpadding='0' cellspacing='0'>
 			<tr>
-				<td colspan='3'><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_TL.gif" width="30" height="16" border="0" /><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_T.gif' width='105' height='16' border='0' /><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_TR.gif' width='30' height='16' border='0' /></td>
+				<td colspan='3'><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_TL.gif" alt="TL" width="30" height="16" border="0" /><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_T.gif' alt="T" width='105' height='16' border='0' /><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_TR.gif' alt="TR" width='30' height='16' border='0' /></td>
 			</tr> <tr>
-				<td><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_LT.gif' width='16' height='13' border='0' /></td>
-				<td rowspan='3' valign=middle><a href='show_photo.php?id_photo=<?php echo $photo_count ?>&album=<?php echo $anno ?>'><img src='<?php echo $nome_foto ?>' border='0' width='133' height='100' /></a></td>
-				<td><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_RT.gif' width='16' height='13' border='0' /></td>
+				<td><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_LT.gif' alt="LT" width='16' height='13' border='0' /></td>
+				<td rowspan='3' valign=middle><a href='show_photo.php?id_photo=<?php echo $photo_count ?>&amp;album=<?php echo $anno ?>'><img src='<?php echo $nome_foto ?>' border='0' width='133' height='100' /></a></td>
+				<td><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_RT.gif' alt="RT" width='16' height='13' border='0' /></td>
 			</tr> <tr>
-				<td><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_L.gif' width='16' height='74' border='0' /></td>
-				<td><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_R.gif' width='16' height='74' border='0' /></td>
+				<td><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_L.gif' alt="L" width='16' height='74' border='0' /></td>
+				<td><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_R.gif' alt="R" width='16' height='74' border='0' /></td>
 			</tr> <tr>
-				<td><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_LB.gif' width='16' height='13' border='0' /></td>
-				<td><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_RB.gif' width='16' height='13' border='0' /></td>
+				<td><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_LB.gif' alt="LB" width='16' height='13' border='0' /></td>
+				<td><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_RB.gif' alt="RB" width='16' height='13' border='0' /></td>
 			</tr> <tr>
-				<td colspan='3'><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_BL.gif' width='30' height='16' border='0' /><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_B.gif' width='105' height='16' border='0' /><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_BR.gif' width='30' height='16' border='0' /></td>
+				<td colspan='3'><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_BL.gif' alt="BL" width='30' height='16' border='0' /><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_B.gif' alt="B" width='105' height='16' border='0' /><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_BR.gif' alt="BR" width='30' height='16' border='0' /></td>
 			</tr>
 		</table>
 </td>
@@ -110,10 +123,10 @@ for ($i = 0; $i<$photo_per_row; $i++)
 {
 	if ($rem_count < count($album))
 	{
-		$nome_foto = $site_abs_path."custom/album/$anno/".$album[$rem_count][$id_nomefile_foto];
+
 ?>
 			<td align="center" valign="top" width="<?php echo round(100/$photo_per_row); ?>%">
-					<a href='show_photo.php?id_photo=<?php echo $rem_count ?>&album=<?php echo $anno ?>'>
+					<a href='show_photo.php?id_photo=<?php echo $rem_count ?>&amp;album=<?php echo $anno ?>'>
 					<?php echo $album[$rem_count][$id_titolo_foto]?></a>
 					
 						<br>
