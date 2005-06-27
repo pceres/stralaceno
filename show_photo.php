@@ -21,15 +21,19 @@ $nome_album = $_REQUEST['album'];
 $id_photo = $_REQUEST['id_photo'];
 
 // carica elenco delle foto disponibili
-$elenco_foto = get_config_file($config_dir."albums.txt",3);
+$elenco_foto = get_config_file($filename_albums,3);
 $id_nomefile_foto = 0;
 $id_titolo_foto = 1;
 $id_descrizione_foto = 2;
 
 $album = $elenco_foto[$nome_album];
 
+$photo_per_row = 3; // numero di foto per riga
+
 ?>
 
+
+<body onLoad="FixPhoto('photo')">
 
 <script type="text/javascript">
 //<![CDATA[
@@ -68,8 +72,6 @@ cell_R.height=x-13*2;
 </script>
 
 
-
-<body onLoad="FixPhoto('photo')">
 		<img src="<?php echo $site_abs_path ?>custom/images/cornice/Null.gif" border="0" height="10" width="1">
 		
 		<!-- tabella riga header -->
@@ -80,11 +82,12 @@ cell_R.height=x-13*2;
 						&nbsp;&nbsp;&nbsp;&nbsp;
 						<a href='album.php?anno=<?php echo $nome_album ?>'><?php echo $nome_album ?></a>
 						/Foto #<?php echo $id_photo+1 ?>:
-					</font></td>
+					</font>
+				</td>
 					
 				<td valign="top" width="<?php echo round(100/$photo_per_row) ?>%">
 					<div align="right">
-						<a href="index.php"><h2>Homepage</h2></a>
+						<h2><a href="index.php">Homepage</a></h2>
 					</div>
 				</td>
 			</tr>
@@ -97,16 +100,16 @@ cell_R.height=x-13*2;
 			<tr valign="top">
 				<td width="25%">
 					<div align="left">
-					<font face="Times New Roman,Georgia,Times">
 					<?php 
 					if ($id_photo > 0)
 					{
 					?>
-						<a href="show_photo.php?id_photo=<?php echo $id_photo-1 ?>&album=<?php echo $nome_album ?>">(prev) <?php echo $album[$id_photo-1][$id_titolo_foto] ?></a>
+					<font face="Times New Roman,Georgia,Times">
+						<a href="show_photo.php?id_photo=<?php echo $id_photo-1 ?>&amp;album=<?php echo $nome_album ?>">(prev) <?php echo $album[$id_photo-1][$id_titolo_foto] ?></a>
+					</font>
 					<?php
 					} // if $id_photo > 0
 					?>
-					</font>
 					</div>
 				</td>
 				
@@ -131,7 +134,7 @@ $path = $site_abs_path."custom/album/$nome_album/".$album[$id_photo][$id_nomefil
 					if ($id_photo < count($album)-1)
 					{
 					?>
-						<a href="show_photo.php?id_photo=<?php echo $id_photo+1 ?>&album=<?php echo $nome_album ?>">(next) <?php echo $album[$id_photo+1][$id_titolo_foto] ?></a>
+						<a href="show_photo.php?id_photo=<?php echo $id_photo+1 ?>&amp;album=<?php echo $nome_album ?>">(next) <?php echo $album[$id_photo+1][$id_titolo_foto] ?></a>
 					<?php
 					} // if $id_photo > 0
 					?>
@@ -154,14 +157,13 @@ $path = $site_abs_path."custom/album/$nome_album/".$album[$id_photo][$id_nomefil
 						
 						<tr>
 							<td valign="top"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_LT.gif" border="0" height="13" width="16" alt="LT"></td>
-							<!--td rowspan="3" valign="middle"><a href="<?php echo $path ?>"><img src="<?php echo $path ?>" alt="" border="0" height="280" width="420"></a></td-->
 							<td rowspan="3" valign="middle"><a href="<?php echo $path ?>"><img id="foto" src="<?php echo $path ?>" alt="" border="0" width="420"></a></td>
 							<td><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_RT.gif" border="0" height="13" width="16" alt="RT"></td>
 						</tr>
 						
 						<tr>
 							<!--td><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_L.gif" border="0" height="254" width="16" alt="L"></td-->
-							<td><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_L.gif" border="0" height="254" width="16" alt="L"></td>
+							<td background="<?php echo $site_abs_path ?>custom/images/cornice/Bord_L.gif"></td>
 							<td background="<?php echo $site_abs_path ?>custom/images/cornice/Bord_R.gif"><!--img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_R.gif" border="0" height="254" width="16" alt="R"--></td>
 						</tr>
 						
@@ -177,16 +179,17 @@ $path = $site_abs_path."custom/album/$nome_album/".$album[$id_photo][$id_nomefil
 					</td></tr>
 			
 			<!-- riga vuota per distanziare la riga successiva -->
-			<!--tr>
+			<tr>
 				<td height="20"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Null.gif" border="0" height="20" width="20"></td>
-			</tr-->
+			</tr>
 			
 			
 			<!-- riga footer -->
 			<tr>
 				<td>
-					<div align="center">
-					<font color="#000000" face="Verdana">Album rendered on <?php echo date("F j, Y, g:i a") ?></font></div>
+					<div align="center"><font color="#000000" face="Verdana">
+						Album rendered on <?php echo date("F j, Y, g:i a") ?>
+					</font></div>
 				</td>
 			</tr>
 			
