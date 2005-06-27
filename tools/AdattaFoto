@@ -1,0 +1,238 @@
+# prende tutti i file nella directory indicata e li ridimensiona, creandone il thumbnail
+
+
+
+###########################################################################################
+# salva il file originale nella directory di backup
+backup()
+{
+	in=$1			# file d'origine
+	root_dir=$2 	# directory che contiene il file
+	backup_subdir=$3	# sottodirectory in cui vengono copiati gli originali
+
+	nomebase=`basename "${in}"`
+	backup_dir=$root_dir/$backup_subdir
+
+	# crea la directory se non esiste
+	if [ ! -e "$backup_dir" ]
+	then
+		mkdir $backup_dir
+	fi
+	
+	cmd=`cp "${in}" $backup_dir/"${nomebase}"`
+}
+
+
+###########################################################################################
+# ridimensiona l'immagine jpeg nella directory di destinazione
+resize_jpg()
+{
+	in=$1				# immagine da ridimensionare
+	root_dir=$2 		# directory che contiene il file
+	resize_subdir=$3	# sottodirectory in cui vengono copiati gli originali
+	width2=$4			# ampiezza foto da ridimensionare (-1 lascia dimensioni invariate)
+	quality=$5			# qualita' della foto jpeg in output
+
+
+	tempbasename=abc
+	
+	nomebase=`basename "${in}"`
+	tempfile_jpg=$root_dir/$tempbasename.jpg
+	resize_dir=$root_dir/$resize_subdir
+
+	#crea il file ridimensionato di nome $tempfile_jpg
+	geometria=`identify -verbose "${in}" | grep Geometry | gawk '{print $2}'`
+	width=${geometria%x*}	# larghezza originaria
+	height=${geometria#*x}	# altezza originaria
+	#echo Old geometry:$width x $height
+	
+	if [ $width2 -gt 0 ]
+	then
+		height2=`echo "scale=0; $height*$width2/$width" | bc`
+	else
+		width2=$width
+		height2=$height
+	fi
+	#echo New geometry:$width2 x $height2
+
+	convert -size ${width}x${height} "${in}" -resize ${width2}x${height2} +profile "*" -quality $quality $tempfile_jpg
+	# crea la directory se non esiste
+	if [ ! -e "$resize_dir" ]
+	then
+		mkdir $resize_dir
+	fi
+	
+	cp $tempfile_jpg "$resize_dir/${nomebase}"
+	rm $tempfile_jpg
+}
+
+
+
+
+
+
+###########################################################################################
+
+if [ $# -ne 2 ]
+then
+
+# testo di help da visualizzare	
+cat <<END
+Uso:
+`basename $0` directory maxsize
+
+directory	: directory contenente i file jpeg da elaborare
+maxsize		: massima dimensione oltre la quale l'immagine viene ridimensionata
+
+END
+
+	exit 1
+fi
+
+
+basedir=$1
+maxsize=$2
+
+
+backup_subdir='backup'
+resized_subdir='resized'
+thumbnail_subdir='thumbs'
+output_subdir='output'
+nome_lista='lista.txt'
+resized_width=420  # -1 #le dimensioni non cambiano, provo solo a ridurre la qualita'
+thumbnail_width=133
+
+
+a=`ls $basedir/*.JP* $basedir/*.jp* -1 2>/dev/null | sed '{s/ /%20/g}' -`
+
+clear
+echo "I file presenti nella directory $basedir sono:"
+
+# ciclo su tutti i file jpeg trovati
+lista_resize=''
+lista_thumb=''
+for file in $a   # Verifica tutti i file jpeg presenti in $basedir
+do
+
+	#file_real=${file//\\%20/ }
+	file_real=`echo $file | sed '{s/%20/ /g}' -`
+
+	nomebase=`basename "${file_real}"`
+
+	size=`ls "${file_real}" -Al | gawk '{print $5}'`
+
+	#verifica la dimensione del file
+	if [ "$size" -gt $maxsize ]
+	then
+        	stato='dimensione>'$maxsize
+		lista_resize="$lista_resize $file"
+	else
+		stato='ok'
+		# backup $file_real $basedir $resized_subdir
+	fi
+
+	lista_thumb="$lista_thumb $file"
+
+	echo "$nomebase	 $size	 $stato"
+done
+
+
+if [ -n "$lista_resize" ]
+then
+
+	echo
+	echo "lista dei file da ridimensionare:"
+	for file in $lista_resize   # Verifica tutti i file jpeg presenti in $basedir
+		do
+		#file_real=${file//\\%20/ }
+		file_real=`echo $file | sed '{s/%20/ /g}' -`
+		
+		# fai una copia di backup
+		backup "${file_real}" $basedir $backup_subdir
+		
+		# ridimensiona il file
+		top=100
+		bottom=0
+		prova=50
+		
+		target=$maxsize
+		ancora=1
+		while [ $ancora -eq 1 ]
+		do
+			
+			# y = f(prova)
+			resize_jpg "${file_real}" $basedir $resized_subdir $resized_width $prova
+			temp=$basedir/$resized_subdir/`basename "${file_real}"`
+			y=`ls "${temp}" -Al | gawk '{print $5}'`
+			
+			if [ $y -lt $target ]
+			then
+				bottom=$prova
+			else
+				top=$prova
+			fi
+			
+			prova=`echo "($bottom+$top)/2" | bc`	# nuovo valore di prova
+			
+			if [ $prova -eq $bottom ]
+			then
+				ancora=0
+			fi
+			
+		done
+		
+		nomebase=`basename "${file_real}"`
+		size=`ls "${file_real}" -Al | gawk '{print $5}'`
+		
+		echo "$nomebase	$size --> $y"
+
+	done
+
+fi
+
+
+if [ -n "$lista_thumb" ]
+then
+
+	echo
+	echo "lista dei file di cui creare i thumbnails:"
+	for file in $lista_thumb   # Verifica tutti i file jpeg presenti in $basedir
+	do
+		#file_real=${file//\\%20/ }
+		file_real=`echo $file | sed '{s/%20/ /g}' -`
+		
+		nomebase=`basename "${file_real}"`
+		size=`ls "${file_real}" -Al | gawk '{print $5}'`
+		
+		resize_jpg "${file_real}" $basedir $thumbnail_subdir $thumbnail_width 70
+		temp=$basedir/$thumbnail_subdir/`basename "${file_real}"`
+		ext=${file##*.}
+		mv "${temp}" "${temp%.*}-thumb.$ext"
+		
+		nome2=`basename "${temp%.*}-thumb.$ext"`
+		size2=`ls "${temp%.*}-thumb.$ext" -Al | gawk '{print $5}'`
+		echo "$nome2	$size --> $size2"
+	done
+	
+fi
+
+
+rm -rf $basedir/$output_subdir
+mkdir $basedir/$output_subdir
+cp $a $basedir/$output_subdir/ 2>/dev/null
+cp $basedir/$resized_subdir/* $basedir/$output_subdir/ 2>/dev/null
+cp $basedir/$thumbnail_subdir/* $basedir/$output_subdir/ 2>/dev/null
+
+lista=`ls $basedir/$output_subdir/*.j* $basedir/$output_subdir/*.J* 2>/dev/null | grep -v thumb | sed '{s/ /%20/g}' -`
+rm $basedir/$output_subdir/$nome_lista 2>/dev/null && touch $basedir/$output_subdir/$nome_lista
+for file in $lista
+do
+	#file_real=${file//\\%20/ }
+	file_real=`echo $file | sed '{s/%20/ /g}' -`
+	
+	echo `basename "${file_real}"` >> $basedir/$output_subdir/$nome_lista
+done
+
+echo
+echo "I risultati sono in $basedir/$output_subdir"
+
