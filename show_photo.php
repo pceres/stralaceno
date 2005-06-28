@@ -189,9 +189,22 @@ $path = $site_abs_path."custom/album/$nome_album/".$album[$id_photo][$id_nomefil
 				<td>
 					<div align="center"><font color="#000000" face="Verdana">
 						Album rendered on <?php echo date("F j, Y, g:i a") ?>
-					</font></div>
+					</font></div>					
 				</td>
 			</tr>
+
+			<!-- riga vuota per distanziare la riga successiva -->
+			<tr>
+				<td height="20"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Null.gif" border="0" height="20" width="20"></td>
+			</tr>
+
+			<tr><td>
+				<div align="center">
+					Chi desiderasse, per motivi di privacy, non apparire in fotografia, lo comunichi a 
+					<a href="mailto:stralaceno@freepass.it?subject=Cancellazione%20foto%20per%20privacy" 
+					title="Cancellazione foto per privacy">questo indirizzo</a>
+				</div>
+			</td></tr>
 			
 		</tbody></table>
 	</body></html>
