@@ -14,6 +14,7 @@ extract(indici());
   <meta name="description" content="Sito ufficiale della Stralaceno">
   <meta name="keywords" content="Stralaceno, Caposele, Caposelesi, Corsa podistica, Atletica, Lago Laceno, Laceno">
   <style type="text/css">@import "<?php echo $css_site_path ?>/stralaceno.css";</style>
+  <!--link href="<?php echo $site_abs_path ?>custom/images/logo_small.gif" rel="SHORTCUT ICON"-->
 </head>
 <body class="homepage" onLoad="azzera_input()">
 <?php
