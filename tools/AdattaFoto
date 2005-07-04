@@ -216,10 +216,20 @@ then
 	
 fi
 
-
 rm -rf $basedir/$output_subdir
 mkdir $basedir/$output_subdir
-cp $a $basedir/$output_subdir/ 2>/dev/null
+
+
+for file in $a   # Verifica tutti i file jpeg presenti in $basedir
+do
+	file_real=`echo $file | sed '{s/%20/ /g}' -`
+	cp "${file_real}" $basedir/$output_subdir/ 2>/dev/null
+done
+
+#lista=\"`echo $a | sed '{s/ /" "/g;s/%20/ /g}' -`\"
+#cp ${lista} $basedir/$output_subdir/ 2>/dev/null
+
+
 cp $basedir/$resized_subdir/* $basedir/$output_subdir/ 2>/dev/null
 cp $basedir/$thumbnail_subdir/* $basedir/$output_subdir/ 2>/dev/null
 
