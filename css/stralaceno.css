@@ -35,6 +35,20 @@ a.disabled:hover {
 	}
 
 
+/*---------------------------  Header  -------------------------------------- */
+
+/* link nell'header */
+.header_link {
+	font-family:Arial,Tahoma,Verdana,Serif;
+	color:rgb(51,102,153);
+	text-decoration: none;
+	}
+
+.header_link:hover {
+	text-decoration: underline;
+	}
+	
+
 /*---------------------------  Homepage  -------------------------------------- */
 
 body.homepage {
