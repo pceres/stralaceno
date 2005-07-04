@@ -1,6 +1,11 @@
 [1987]
 I edizione.jpg::Foto di gruppo prima della partenza::Descrizione della foto n. 1
 
+[2002]
+5 km.jpg::Pierlorenzo::Un saluto rilassato di Pierlorenzo Pallante
+cino.jpg::Raffaele Merola::Il secondo classificato durante la gara
+donatom.jpg::Donato Merola::Il veterano Donato Merola
+
 [2003]
 112_1231.JPG::titolo 1::descrizione
 112_1232.JPG::titolo 2::descrizione
