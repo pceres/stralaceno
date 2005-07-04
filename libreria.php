@@ -66,36 +66,71 @@ do {
 // taglia la parte restante del path fino al simbolo '/'
 $path = substr($path,strpos($path,$root_prefix));
 $root_prefix = substr($path,0,strpos($path,"/"));
-//echo("root_prefix:$root_prefix<br>");
 
 // determina il path assoluto nel filesystem del server (serve quando si accede direttamente ai file per leggere o scrivere)
 $path = $_SERVER['SCRIPT_FILENAME'];
-
-$start = strpos($path,$root_prefix)+strlen($root_prefix)+1;
-$root_path = substr($path,0,$start);
-//echo("root_path:$root_path<br>");
+$end = 0;
+do {
+	$test = strpos($path,$root_prefix,$end);
+	if ($test)
+	{
+		$end = $test+strlen($root_prefix)+1;
+	}
+} while ($test);
+$root_path = substr($path,0,$end);
 
 // path assoluto da usare per gli script php
-$path = $_SERVER['SCRIPT_NAME'];
-$start = strpos($path,$root_prefix)+strlen($root_prefix)+1;
-$script_abs_path = substr($path,0,$start);
-//echo("script_abs_path:$script_abs_path<br>");
-
-// path assoluto da usare per l'html e le immagini
-$start = strpos($_SERVER['SCRIPT_FILENAME'],$_SERVER['DOCUMENT_ROOT']);
+$start = strpos($_SERVER['SCRIPT_NAME'],$root_prefix);
 if (strlen($start)>0)
 {
-	$path = $_SERVER['SCRIPT_FILENAME'];
-	$start = strlen($_SERVER['DOCUMENT_ROOT']);
-	$path = substr($path,$start);
-	$start = strpos($path,$root_prefix)+strlen($root_prefix)+1;
-	$site_abs_path = substr($path,0,$start);
+	$path = $_SERVER['SCRIPT_NAME'];
 }
 else
 {
-	$site_abs_path = $script_abs_path;	// Directory esterna a Document Root!: provo con $site_abs_path = $script_abs_path
+	$path = $_SERVER['SCRIPT_URL'];
 }
-//echo("site_abs_path:$site_abs_path<br>");
+$end = 0;
+do {
+	$test = strpos($path,$root_prefix,$end);
+	if ($test)
+	{
+		$end = $test+strlen($root_prefix)+1;
+	}
+} while ($test);
+$script_abs_path = substr($path,0,$end);
+
+// path assoluto da usare per l'html e le immagini
+if (array_key_exists('HTTP_HOST',$_SERVER) and array_key_exists('SCRIPT_URI',$_SERVER))
+{
+	$path = substr($_SERVER['SCRIPT_URI'],strpos($_SERVER['SCRIPT_URI'],$_SERVER['HTTP_HOST'])+strlen($_SERVER['HTTP_HOST']));
+}
+else
+{
+	if (substr($_SERVER['DOCUMENT_ROOT'],-1) == '/') // document_root non deve finire per '/'
+	{
+		$_SERVER['DOCUMENT_ROOT'] = substr($_SERVER['DOCUMENT_ROOT'],0,-1);
+	}
+	$start = strpos($_SERVER['SCRIPT_FILENAME'],$_SERVER['DOCUMENT_ROOT']);
+	if (strlen($start)>0)
+	{
+		$path = $_SERVER['SCRIPT_FILENAME'];
+		$start = strlen($_SERVER['DOCUMENT_ROOT']);
+		$path = substr($path,$start);
+	}
+	else
+	{
+		die("Errore: non riesco ad individuare il site_abs_path!");
+	}
+}	
+$end = 0;
+do {
+	$test = strpos($path,$root_prefix,$end);
+	if ($test)
+	{
+		$end = $test+strlen($root_prefix)+1;
+	}
+} while ($test);
+$site_abs_path = substr($path,0,$end);
 
 
 #path assoluti
@@ -104,7 +139,6 @@ $modules_site_path		= $script_abs_path."custom/moduli/";
 $filedir_counter 		= $root_path."custom/dati/";
 $articles_dir 			= $root_path."custom/articoli/";
 $config_dir 			= $root_path."custom/config/";
-
 
 #nomi di file
 $filename_tempi 		= $root_path."custom/dati/tempi_laceno.csv";
@@ -630,25 +664,72 @@ function load_article($art_id)
 
 function get_abstract($testo_in) 
 {
+
+$no_close_tags = array("p","br","?php"); // array di tags che non richiedono il tag di chiusura
+	
 	$n_max_stop = 2; // numero massimo di righe contenenti un carattere ".","?","!"
 		
 	$bulk = array();
+	$bulk_tag = array();
+	$bulk_tag_trim = array();
 	$n_stop = 0;
 	foreach ($testo_in as $line)
 	{
 		if (  ($vpos[0] = strpos($line,".")) | ($vpos[1] = strpos($line,"?")) | ($vpos[2] = strpos($line,"!"))  )
 		{
 			$pos = max($vpos);
-			$n_stop++;
+			$n_stop++;			// hai trovato un carattere di punteggiatura, aggiorna il contatore
+		}
+		
+		if ($n_stop >= $n_max_stop)
+		{
+			$line = substr($line,0,$pos+1); // taglia l'ultima riga fino al segno di punteggiatura
 		}
 		
 		array_push($bulk,$line);
 		
+		// individua i tag html nella linea aggiunta
+		$templine = $bulk[count($bulk)-1];
+		$p1 = strpos($templine,"<");
+		while (strlen($p1."0")>1)
+		{
+			$p2 = strpos($templine,">",$p1);
+			$tag = substr($templine,$p1+1,$p2-$p1-1); // estrai il tag
+			
+			$p3 = strpos($tag,' ');
+			if ($p3)
+			{
+				$tag_trim = substr($tag,0,$p3);
+			}
+			else
+			{
+				$tag_trim = $tag;
+			}
+			
+			// il tag e' di chiusura?
+			if (substr($tag_trim,0,1) === '/') // se si', elimina il tag precedente
+			{
+				array_pop($bulk_tag_trim);
+				array_pop($bulk_tag);
+			}
+			elseif (!in_array($tag_trim,$no_close_tags)) // altrimenti, se il tag richiede chiusura, mettilo in coda
+			{
+				array_push($bulk_tag_trim,$tag);
+				array_push($bulk_tag,$tag);
+			}
+			$p1 = strpos($templine,"<",$p2);
+		}
+		
 		if ($n_stop >= $n_max_stop)
 		{
-			$bulk[count($bulk)-1] = substr($bulk[count($bulk)-1],0,$pos+1); // taglia l'ultima riga
 			break;
 		}
+		
+	}
+	
+	for ($i = count($bulk_tag)-1; $i>=0; $i--)
+	{
+		array_push($bulk,"</".$bulk_tag[$i].">");
 	}
 	
 	return $bulk;
@@ -1057,7 +1138,7 @@ $contatore_out = $counter;
       reset($logs);
       $bf=fopen($backupfilename,'w');                    //open backup file to write
       $lf=fopen($logfile,'w');                           //open original log file for rewriting
-      for ($i=0;$i<$nb_entry*9/10; $i++) fwrite($bf, $logs[$i]); //Store 90% of the logs in the back up
+      for ($i=0;$i<$nb_entry*10/10; $i++) fwrite($bf, $logs[$i]); //Store 100% of the logs in the back up
       $report.="$i entries have been backed up. ".($nb_entry-$i)." are left in the logfile.\n";
       while ($i<$nb_entry) {fwrite($lf, $logs[$i++]);}   //and leave what's left in the original file
       fclose($bf);                                       //close all
