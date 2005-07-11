@@ -16,7 +16,7 @@ backup()
 	# crea la directory se non esiste
 	if [ ! -e "$backup_dir" ]
 	then
-		mkdir $backup_dir
+		mkdir "$backup_dir"
 	fi
 	
 	cmd=`cp "${in}" $backup_dir/"${nomebase}"`
@@ -59,7 +59,7 @@ resize_jpg()
 	# crea la directory se non esiste
 	if [ ! -e "$resize_dir" ]
 	then
-		mkdir $resize_dir
+		mkdir "$resize_dir"
 	fi
 	
 	cp $tempfile_jpg "$resize_dir/${nomebase}"
@@ -94,13 +94,13 @@ basedir=$1
 maxsize=$2
 
 
-backup_subdir='backup'
-resized_subdir='resized'
-thumbnail_subdir='thumbs'
-output_subdir='output'
-nome_lista='lista.txt'
-resized_width=420  # -1 #le dimensioni non cambiano, provo solo a ridurre la qualita'
-thumbnail_width=133
+backup_subdir='backup'		# directory di backup
+resized_subdir='resized'	# directory con le immagini ridimensionate
+thumbnail_subdir='thumbs'	# directory con i thumbnails
+output_subdir='output'		# directory con tutti gli output (immagini ridimensionate e non, thumbnails)
+nome_lista='lista.txt'		# file di testo che conterra' l'elenco delle immagini
+resized_width=420  			# se ridimensiono le immagini, imposta a questo valore l'ampiezza (-1 non modifica la geometria)
+thumbnail_width=133			# ampiezza delle thumbnails
 
 
 a=`ls $basedir/*.JP* $basedir/*.jp* -1 2>/dev/null | sed '{s/ /%20/g}' -`
@@ -114,7 +114,6 @@ lista_thumb=''
 for file in $a   # Verifica tutti i file jpeg presenti in $basedir
 do
 
-	#file_real=${file//\\%20/ }
 	file_real=`echo $file | sed '{s/%20/ /g}' -`
 
 	nomebase=`basename "${file_real}"`
@@ -144,7 +143,6 @@ then
 	echo "lista dei file da ridimensionare:"
 	for file in $lista_resize   # Verifica tutti i file jpeg presenti in $basedir
 		do
-		#file_real=${file//\\%20/ }
 		file_real=`echo $file | sed '{s/%20/ /g}' -`
 		
 		# fai una copia di backup
@@ -198,7 +196,6 @@ then
 	echo "lista dei file di cui creare i thumbnails:"
 	for file in $lista_thumb   # Verifica tutti i file jpeg presenti in $basedir
 	do
-		#file_real=${file//\\%20/ }
 		file_real=`echo $file | sed '{s/%20/ /g}' -`
 		
 		nomebase=`basename "${file_real}"`
@@ -225,10 +222,6 @@ do
 	file_real=`echo $file | sed '{s/%20/ /g}' -`
 	cp "${file_real}" $basedir/$output_subdir/ 2>/dev/null
 done
-
-#lista=\"`echo $a | sed '{s/ /" "/g;s/%20/ /g}' -`\"
-#cp ${lista} $basedir/$output_subdir/ 2>/dev/null
-
 
 cp $basedir/$resized_subdir/* $basedir/$output_subdir/ 2>/dev/null
 cp $basedir/$thumbnail_subdir/* $basedir/$output_subdir/ 2>/dev/null
