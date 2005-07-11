@@ -22,8 +22,6 @@ extract(indici());
 $uploaddir = substr($filename_tempi,0,strlen($filename_tempi)-16);
 $password_ok = "stralacenoadmin"; 
 
-print "<pre>";
-
 $old_name = $_FILES['userfile']['name'];
 $new_name = $_REQUEST['filename'];
 $password = $_REQUEST['password'];
@@ -40,7 +38,7 @@ if ($ok == TRUE)
 	{ 
 		log_action($uploaddir,$uploaddir . $new_name . ", " . date("l dS of F Y h:i:s A"));
 
-		print "Il file $new_name &egrave; stato inviato con successo.\n"; 
+		print "<pre>Il file $new_name &egrave; stato inviato con successo.</pre>\n"; 
 	} 
 	else
 	{
