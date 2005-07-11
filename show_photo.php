@@ -33,28 +33,43 @@ $photo_per_row = 3; // numero di foto per riga
 ?>
 
 
-<body onLoad="FixPhoto('photo')">
+<body onLoad="FixPhoto()">
 
 <script type="text/javascript">
 //<![CDATA[
 <!--
 
-function FixPhoto(obj) {
+function FixPhoto() {
 
 var table;
+
+if (document.all)
+{ // IE
+	table = document.all.photo_table;
+}
+else if (document.getElementById)
+{ // NS
+	table = document.getElementById('photo_table'); 
+}
+
+FixSinglePhoto(table);
+
+} // end FixPhoto
+
+
+function FixSinglePhoto(table) {
+
 var cell_L,cell_R,image;
 var	x;
 
 if (document.all)
 { // IE
-	table = document.all.photo_table;
 	cell_L=table.cells[4];
 	cell_R=table.cells[5];
 	image=document.all.foto;
 }
 else if (document.getElementById)
 { // NS
-	table = document.getElementById('photo_table'); 
 	cell_L=table.tBodies[0].rows[2].cells[0];
 	cell_R=table.tBodies[0].rows[2].cells[1];
 	image=document.getElementById('foto');
@@ -65,7 +80,7 @@ x = image.height; // altezza della foto
 cell_L.height=x-13*2;
 cell_R.height=x-13*2;
 
-} // end FixPhoto
+} // end FixSinglePhoto
 
 //-->
 //]]>
@@ -99,22 +114,23 @@ cell_R.height=x-13*2;
 		<table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody>
 			<tr valign="top">
 				<td width="25%">
-					<div align="left">
 					<?php 
 					if ($id_photo > 0)
 					{
 					?>
+					<div align="left">
 					<font face="Times New Roman,Georgia,Times">
 						<a href="show_photo.php?id_photo=<?php echo $id_photo-1 ?>&amp;album=<?php echo $nome_album ?>">(prev) <?php echo $album[$id_photo-1][$id_titolo_foto] ?></a>
 					</font>
+					</div>
 					<?php
 					} // if $id_photo > 0
 					?>
-					</div>
 				</td>
 				
 <?php 
 $path = $site_abs_path."custom/album/$nome_album/".$album[$id_photo][$id_nomefile_foto];
+$path = str_replace(' ','%20',$path);
 ?>
 				<td width="50%">
 					<div align="center">
@@ -128,18 +144,18 @@ $path = $site_abs_path."custom/album/$nome_album/".$album[$id_photo][$id_nomefil
 				</td>
 				
 				<td width="25%">
-					<div align="right">
-					<font face="Times New Roman,Georgia,Times">
 					<?php 
 					if ($id_photo < count($album)-1)
 					{
 					?>
+					<div align="right">
+					<font face="Times New Roman,Georgia,Times">
 						<a href="show_photo.php?id_photo=<?php echo $id_photo+1 ?>&amp;album=<?php echo $nome_album ?>">(next) <?php echo $album[$id_photo+1][$id_titolo_foto] ?></a>
+					</font>
+					</div>
 					<?php
 					} // if $id_photo > 0
 					?>
-					</font>
-					</div>
 				</td>
 				
 			</tr>
@@ -162,9 +178,8 @@ $path = $site_abs_path."custom/album/$nome_album/".$album[$id_photo][$id_nomefil
 						</tr>
 						
 						<tr>
-							<!--td><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_L.gif" border="0" height="254" width="16" alt="L"></td-->
-							<td background="<?php echo $site_abs_path ?>custom/images/cornice/Bord_L.gif"></td>
-							<td background="<?php echo $site_abs_path ?>custom/images/cornice/Bord_R.gif"><!--img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_R.gif" border="0" height="254" width="16" alt="R"--></td>
+							<td style="background-image:url(<?php echo $site_abs_path ?>custom/images/cornice/Bord_L.gif);">&nbsp;</td>
+							<td style="background-image:url(<?php echo $site_abs_path ?>custom/images/cornice/Bord_R.gif);">&nbsp;</td>
 						</tr>
 						
 						<tr>
