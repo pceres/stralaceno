@@ -235,7 +235,7 @@ else {
 	$cell_padding = 2;
 }
 	
-echo "<div align = \"center\">"; # tieni la tabella al centro
+echo '<div align="center">'; # tieni la tabella al centro
 
 echo "<table class=\"$class\">\n";
 echo "  <tbody>\n";
@@ -262,19 +262,25 @@ for ($i = 1; $i < count($archivio); $i++) {
 	# stile riga:
 	$style_row = " ";
 
+	$classe = "";
 	# primo arrivato
 	if ($prestazione[$indice_posiz] == 1) {
-		$style_row .= "id=\"primo\" ";
+		//$style_row .= "id=\"primo\" ";
+		$classe = "primo ";
 		}
 
 	if ($prestazione[$indice_info][$indice2_sesso] == "F") {
 		# atleti donna
-		$style_row .= "class=\"atleta_femmina\" ";
+		//$style_row .= "class=\"atleta_femmina\" ";
+		$classe .= "atleta_femmina";
 	}
 	elseif ($prestazione[$indice_info][$indice2_sesso] == "M") {
 		# atleti maschi
-		$style_row .= "class=\"atleta_maschio\" ";
+		//$style_row .= "class=\"atleta_maschio\" ";
+		$classe .= "atleta_maschio";
 	}
+	
+	$style_row = "class=\"$classe\"";
 
 	echo "<tr ".$style_row.">";
 
@@ -385,7 +391,7 @@ for ($i = 1; $i < count($archivio); $i++) {
 	
 	if ($ok) {
 		array_push($archivio_filtrato,$prestazione);
-		echo "<p>".$prestazione[$indice_nome]."</p>";
+//		echo "<p>".$prestazione[$indice_nome]."</p>";
 		}
 	
 	}
@@ -662,8 +668,9 @@ function load_article($art_id)
 }
 
 
-function get_abstract($testo_in) 
+function get_abstract($testo_in,$puntini) 
 {
+// $puntini e' il link che viene aggiunto in coda, subito prima di chiudere eventuali tag html rimasti aperti
 
 $no_close_tags = array("p","br","?php"); // array di tags che non richiedono il tag di chiusura
 	
@@ -727,6 +734,13 @@ $no_close_tags = array("p","br","?php"); // array di tags che non richiedono il 
 		
 	}
 	
+	// aggiungi il link all'articolo completo
+	if (count($puntini) > 0)
+	{
+		array_push($bulk,$puntini);
+	}
+	
+	// chiudi eventuali tag rimasti aperti
 	for ($i = count($bulk_tag)-1; $i>=0; $i--)
 	{
 		array_push($bulk,"</".$bulk_tag[$i].">");
@@ -755,7 +769,8 @@ function show_article($art_data,$mode,$link)
 	if ($mode === 'abstract')
 	{
 		// abstract dell'articolo
-		$testo_articolo = get_abstract($art_data["testo"]);
+		$puntini = ' <a href="'.$link.'">...</a>';
+		$testo_articolo = get_abstract($art_data["testo"],$puntini);
 	}
 	else
 	{
@@ -770,13 +785,6 @@ function show_article($art_data,$mode,$link)
 		echo str_replace($template, $effective, $line);
 	}
 	
-	if ($mode === 'abstract')
-	{
-		// puntini di fine articolo
-		$puntini = ' <a href="'.$link.'">...</a>';
-		echo $puntini;
-	}
-
 	echo "		<div class=\"txt_firma_articolo\">".$art_data["autore"]."</div>\n";
 	echo "		</div>\n";
 
