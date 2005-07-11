@@ -33,7 +33,7 @@ $id_descrizione_foto = 2;
 
 if (array_key_exists($anno,$elenco_foto))
 {
-	$nota_album = "<a class=\"txt_link\" href=album.php?anno=$anno><img src=\"".$site_abs_path."images/camera.jpg\" border='0' width=\"50.0em\"></a>";
+	$nota_album = "<a class=\"txt_link\" href=album.php?anno=$anno><img src=\"".$site_abs_path."images/camera.jpg\" border='0' width=\"50\"></a>";
 }
 else
 {
