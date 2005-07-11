@@ -57,7 +57,7 @@ for ($i = 1; $i < count($archivio_ordinato); $i++) {
 # evidenzia il record assoluto
 if ($puntatore != -1) {
 	$tempo = $tabella[$puntatore][$indice_tempo];
-	$tabella[$puntatore][$indice_tempo] = "<h><div  style=\"text-decoration: underline;\">$tempo</div></h>";
+	$tabella[$puntatore][$indice_tempo] = "<div  style=\"text-decoration: underline;\">$tempo</div>";
 	}
 
 $tabella_rielaborata = fondi_nome_id($tabella, $indice_nome, $indice_id);
