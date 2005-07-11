@@ -18,16 +18,23 @@ extract(indici());
 
 <table style="background-color:rgb(255, 255, 255);">
   <tbody>
-    <tr>
-      <td width="100%">
-	  <img src="<?php echo $site_abs_path ?>/custom/images/logo.gif" alt="logo_stralacenoweb"> 
-	  </td>
-      <td>
-      <embed src="<?php echo $site_abs_path ?>/custom/images/logoflash300x70.swf" quality="high" alt="logo_stralacenoweb_flash" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=3DShockwaveFlash"
- type="application/x-shockwave-flash"> 
-    </tr>
+	<tr>
+		<td width="100%">
+		<img src="<?php echo $site_abs_path ?>/custom/images/logo.gif" alt="logo_stralacenoweb"> 
+		</td>
+		
+		<td>
+		<object	type="application/x-shockwave-flash" data="<?php echo $site_abs_path ?>/custom/images/logoflash300x70.swf" width="300" height="70">
+			<param name="movie" value="<?php echo $site_abs_path ?>/custom/images/logoflash300x70.swf" />
+		</object>
+		</td>
+	</tr>
   </tbody>
 </table>
+
+
+
+
 
 <div style="text-align: center;"><a class="txt_link" 
  href="<?php echo $site_abs_path ?>custom/moduli/presentazione/present.swf">Visualizza presentazione FLASH (250 kbytes)</a>
@@ -38,7 +45,7 @@ extract(indici());
 <div align="justify" class="txt_normal">
 <p>Dal 1987, nel suggestivo paesaggio dell'altopiano di Laceno, ogni anno gli sportivi di Caposele si sfidano 
 tradizionalmente in una corsa di mezzofondo.</p>
-La manifestazione &egrave; di carattere amatoriale, ma non per questo &egrave; meno vivo il sano senso di competizione tra i 
+<p>La manifestazione &egrave; di carattere amatoriale, ma non per questo &egrave; meno vivo il sano senso di competizione tra i 
 partecipanti, i quali, sebbene animati da differenti motivazioni individuali, acquisiscono tutti pari dignit&agrave; nel 
 momento in cui accettano, per Sport, di vivere un momento di intenso impegno fisico. Il che per alcuni si traduce nel 
 correre per una migliore posizione in classifica, per altri in una semplice verifica del proprio stato di forma fisica, 
@@ -62,12 +69,10 @@ contributo ad una manifestazione che forse oggi rappresenta anche un momento di 
 identit&agrave; comunale non sempre facili da ritrovare in altri contesti.</p>
 </div>
 
-
 <?php
 # logga il contatto
 $counter = count_page("modulo_presentazione",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
 ?>
-
 
 </body>
 </html>
