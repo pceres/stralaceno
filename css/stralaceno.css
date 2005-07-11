@@ -197,7 +197,7 @@ tr.atleta_femmina {
 	}
 
 /* caratteri in grassetto per il primo arrivato */
-tr#primo {
+tr.primo {
 	font-weight:bold;
 	}
 
@@ -221,6 +221,16 @@ table.tabella_legenda td.descrizione {
 div.tabella_organizzatori {
 	font-size:0.75em;
 	font-family:comic sans ms,serif;
+	}
+
+
+/*---------------------------  Tabelle dati -------------------------------------- */
+
+/* elementi nell'elenco dei nominativi */
+.txt_elenco {
+	font-family:Arial,Tahoma,Verdana,Serif;
+    font-size:0.75em;
+	color:rgb(34,68,102);
 	}
 
 
