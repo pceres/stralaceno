@@ -72,10 +72,9 @@ $counter = count_page("grafico_tempi",array("COUNT"=>1,"LOG"=>1),$filedir_counte
 
 ?>
 
-
 <form action="grafico/crea_grafico.php" method="POST">
 
-<table>
+<table class="txt_elenco">
 	<tr>
 <?php
 
@@ -101,7 +100,7 @@ for ($i = 1; $i <= $num_col*$colonne; $i++) {
 	}
 
 ?>
-	</tr>
+	<td></td></tr>
 </table>
 <hr>
 <div align="center">
