@@ -219,7 +219,7 @@ return $archivio;
 }
 
 
-function show_table($archivio,$mask,$class,$num_colonne = 1,$font_size = -1,$show_note = 1) {
+function show_table($archivio,$mask,$class,$num_colonne = 1,$font_size = -1,$show_note = 1,$tooltip_data) {
 
 # dichiara variabili
 extract(indici());
@@ -234,7 +234,16 @@ else {
 	$border = 2;
 	$cell_padding = 2;
 }
-	
+
+// verifica il numero delle colonne
+$minimo_righe = 10;
+if (count($archivio)/$num_colonne < $minimo_righe) // almeno dieci righe per colonne!
+{
+	//Troppe colonne per i dati da visualizzare, riducili
+	$num_colonne=ceil(count($archivio)/$minimo_righe);
+}
+
+
 echo '<div align="center">'; # tieni la tabella al centro
 
 echo "<table class=\"$class\">\n";
@@ -250,6 +259,8 @@ for ($temp = 0; $temp < count($mask); $temp++) {
 $head_string .= "  </tr></thead>\n";
 
 
+
+
 echo "<table>\n";
 echo $head_string;
 echo "  <tbody>\n";
@@ -258,25 +269,21 @@ $note = array();
 for ($i = 1; $i < count($archivio); $i++) {
 	$prestazione = $archivio[$i];
 	
-
 	# stile riga:
 	$style_row = " ";
 
 	$classe = "";
 	# primo arrivato
 	if ($prestazione[$indice_posiz] == 1) {
-		//$style_row .= "id=\"primo\" ";
 		$classe = "primo ";
 		}
 
 	if ($prestazione[$indice_info][$indice2_sesso] == "F") {
 		# atleti donna
-		//$style_row .= "class=\"atleta_femmina\" ";
 		$classe .= "atleta_femmina";
 	}
 	elseif ($prestazione[$indice_info][$indice2_sesso] == "M") {
 		# atleti maschi
-		//$style_row .= "class=\"atleta_maschio\" ";
 		$classe .= "atleta_maschio";
 	}
 	
@@ -312,11 +319,21 @@ for ($i = 1; $i < count($archivio); $i++) {
 		# campo posizione
 		if (array_key_exists("info",$prestazione) & ($mask[$temp] == $indice_posiz) ) {
 			if ($campo != '-') {
-				#$campo = $campo."<sup>o</sup>";
 				$campo = $campo."&deg;";
 			}
 		}
-		echo "<td nowrap><div align=\"$allineamento\">$campo</div></td>";
+		
+		// tooltip
+		if (array_key_exists($mask[$temp],$tooltip_data)) // se per la cella attuale e' previsto il tooltip...
+		{
+			$tip = 'title="'.$prestazione[$tooltip_data[$mask[$temp]]].'"';
+		}
+		else
+		{
+			$tip = '';
+		}
+		
+		echo "<td nowrap $tip><div align=\"$allineamento\">$campo</div></td>";
 	}
 
 	echo "</tr>\n";
@@ -333,7 +350,6 @@ for ($i = 1; $i < count($archivio); $i++) {
 # eventuali righe vuote
 $resto = (ceil((count($archivio)-1)/$num_colonne))*$num_colonne-count($archivio)+1;
 for ($temp = 0; $temp < $resto; $temp++) {
-	#echo "<tr style=\"font-size:12;\" colspan=".count($mask)."><td>&nbsp;<sup>&nbsp;</sup></td></tr>\n";
 	echo "<tr style=\"\"><td colspan=".count($mask).">&nbsp;</td></tr>\n";
 }
 
