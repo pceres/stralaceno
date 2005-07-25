@@ -28,6 +28,7 @@ extract(indici());
 //  0 : primo anno di partecipazione;
 //  1 : media degli anni;
 //  2 : deviazione standard (migliore distribuzione)
+//  3 : prodotto cumulativo delle differenze tra i vari anni di partecipazione
 //
 function punteggio_presenze($dati,$mode)
 {
@@ -48,7 +49,6 @@ function punteggio_presenze($dati,$mode)
 		if ($mode == 1)
 		{
 			return $media;
-			break;
 		}	
 		$dev = 0;
 		//print_r($anni);
@@ -56,17 +56,30 @@ function punteggio_presenze($dati,$mode)
 		{
 			$dev += pow($anno-$media,2);
 		}
-		$dev = sqrt($dev);
+		$dev = sqrt($dev/(count($anni)-1));
 		//echo "$dev,$media";
 		//die();
 		return $dev;
 		break;
 	case 3: // prodotto incrementale
+	case 4: // radice del prodotto incrementale
+	case 5: // radice del prodotto incrementale per numero partecipazioni
 		$area = 1;
 		for ($i = 1; $i<count($anni);$i++)
 		{
 			$area *= $anni[$i]-$anni[$i-1];
 		}
+		if ($mode == 3)
+		{
+			return $area;
+		}
+		$area = pow($area,1.0/(count($anni)-1));
+		if ($mode == 4)
+		{
+			//$area = pow($area,1.0/(count($anni)-1));
+			return $area;
+		}
+		$area = pow($area,1.0/(count($anni)-1))*(count($anni)-1);
 		return $area;
 		break;
 	default:
@@ -82,6 +95,7 @@ function punteggio_presenze($dati,$mode)
 //  0 : primo anno di partecipazione;
 //  1 : media degli anni;
 //  2 : deviazione standard (migliore distribuzione)
+//  3 : prodotto cumulativo delle differenzetra i vari anni di partecipazione
 //
 $mode = $_REQUEST['mode'];
 
@@ -95,9 +109,14 @@ $indice_str_anni = $indice_nome+4;
 $archivio2 = array();
 $list_atleti = array();
 for ($i = 1; $i < count($archivio); $i++) 
-//for ($i = 1; $i <= 440; $i++) 
 {
 	$id = $archivio[$i][$indice_id];
+	
+	// non considerare la prestazione se non e' stata portata a termine regolarmente, con un tempo ufficiale minore del tempo massimo
+	if (tempo_numerico($archivio[$i][$indice_tempo]) >= 500) 
+	{
+		continue;
+	}
 	
 	$indice = array_search($id,$list_atleti);
 	#echo "|$indice|";
@@ -114,7 +133,6 @@ for ($i = 1; $i < count($archivio); $i++)
 		$old_item[$indice_str_anni].= ", ".$archivio[$i][$indice_anno];
 		
 		$new_item = $old_item;
-#		$archivio2[$indice] = $old_item;		
 	}
 	else
 	{
@@ -123,13 +141,10 @@ for ($i = 1; $i < count($archivio); $i++)
 		$new_item = array_merge($item1,array(array($item2)),1,$punteggio.'',$archivio[$i][$indice_anno]);
 		array_push($list_atleti,$id);
 		$indice = count($archivio2);//-1;
-		#array_push($archivio2,$new_item);
-		
 	}
 	$archivio2[$indice] = $new_item;	
 
 	$archivio[$i][$indice_presenze] = $new_item[count($new_item)-1];
-	//echo $archivio[$i][$indice_posiz];
 }
 
 $head = array_merge(array_slice($archivio[0],0,$indice_nome+1),'Dati','Presenze','Punteggio','Tooltip');
@@ -140,11 +155,11 @@ $atleti = load_data($filename_atleti,$num_colonne_atleti);
 $archivio = merge_tempi_atleti($archivio2,$atleti);
 
 
-$archivio_ordinato = ordina_archivio($archivio,$indice_presenze,$indice_punteggio);
-//$archivio_ordinato = ordina_archivio($archivio,$indice_tempo, $indice_anno);
+$archivio_ordinato = ordina_archivio($archivio,$indice_presenze,$indice_punteggio,SORT_DESC);
 
-$archivio_ordinato2=array_reverse($archivio_ordinato);
-$archivio_ordinato = array_merge(array($archivio_ordinato[0]),array_slice($archivio_ordinato2,0,count($archivio_ordinato2)-1));
+//$archivio_ordinato2=array_reverse($archivio_ordinato);
+$archivio_ordinato2=($archivio_ordinato);
+$archivio_ordinato = array_merge(array($archivio_ordinato[0]),array_slice($archivio_ordinato2,1,count($archivio_ordinato2)-1));
 
 $archivio_rielaborato = fondi_nome_id($archivio_ordinato, $indice_nome, $indice_id);
 
