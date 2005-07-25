@@ -7,52 +7,52 @@ cino.jpg::Raffaele Merola::Il secondo classificato durante la gara
 donatom.jpg::Donato Merola::Il veterano Donato Merola
 
 [2003]
-112_1231.JPG::titolo 1::descrizione
-112_1232.JPG::titolo 2::descrizione
-112_1234.JPG::titolo 3::descrizione
-112_1235.JPG::titolo 4::descrizione
-112_1236.JPG::titolo 5::descrizione
-112_1237.JPG::titolo 6::descrizione
-112_1238.JPG::titolo 7::descrizione
-112_1239.JPG::titolo 8::descrizione
-112_1240.JPG::titolo 9::descrizione
-112_1241.JPG::titolo 10::descrizione
-112_1244.JPG::titolo 11::descrizione
-112_1245.JPG::titolo 12::descrizione
-112_1246.JPG::titolo 13::descrizione
-112_1247.JPG::titolo 14::descrizione
-112_1248.JPG::titolo 15::descrizione
-112_1249.JPG::titolo 16::descrizione
-112_1250.JPG::titolo 17::descrizione
-112_1251.JPG::titolo 18::descrizione
-112_1252.JPG::titolo 19::descrizione
-112_1253.JPG::titolo 20::descrizione
-112_1254.JPG::titolo 21::descrizione
-112_1255.JPG::titolo 22::descrizione
-112_1258.JPG::titolo 23::descrizione
-112_1259.JPG::titolo 24::descrizione
-112_1260.JPG::titolo 25::descrizione
-112_1261.JPG::titolo 26::descrizione
-112_1262.JPG::titolo 27::descrizione
-112_1263.JPG::titolo 28::descrizione
-112_1265.JPG::titolo 29::descrizione
-112_1266.JPG::titolo 30::descrizione
-112_1267.JPG::titolo 31::descrizione
-112_1268.JPG::titolo 32::descrizione
-112_1269.JPG::titolo 33::descrizione
-112_1270.JPG::titolo 34::descrizione
-112_1271.JPG::titolo 35::descrizione
-112_1272.JPG::titolo 36::descrizione
-112_1273.JPG::titolo 37::descrizione
-112_1274.JPG::titolo 38::descrizione
-Img2003-08-29_1.JPG::titolo 39::descrizione
-Img2003-08-29_2.JPG::titolo 40::descrizione
-Img2003-08-29_3.JPG::titolo 41::descrizione
-Img2003-08-29_4.JPG::titolo 42::descrizione
-Img2003-08-29_5.JPG::titolo 43::descrizione
-laceno03.JPG::titolo 44::descrizione
-laceno03_2.JPG::titolo 45::descrizione
-laceno03_3.JPG::titolo 46::descrizione
+112_1231.JPG::Alfredo e Sandro::Nemmeno il tempo di arrivare ed ecco la prima foto
+112_1232.JPG::L'attesa per la gara::Pasquale, Donato e Angelo in compagnia dei nuovi arrivati
+#112_1234.JPG::titolo::descrizione
+112_1235.JPG::Il pubblico delle grandi occasioni::Spettatori interessati (???)
+laceno03_2.JPG::Lo staff organizzativo::Fra poco iniziera' il "duro" lavoro (per gli atleti!)
+112_1236.JPG::Armando Grasso::Un'icona della Stralaceno
+112_1241.JPG::Armando Grasso::Un particolare 
+112_1237.JPG::Pasquale Russomanno::Anche in tenuta atletica e' un "golden boy"
+112_1238.JPG::Prima della partenza::La tensione (mascherata da timidi sorrisi) cresce...
+Img2003-08-29_2.JPG::Gli organizzatori::Si provano i cronometri
+112_1239.JPG::Lello Viscardi::Il cronometrista ufficiale
+112_1240.JPG::Il direttore di gara::Ultime istruzioni impartite agli atleti da Gerardo Ceres
+112_1244.JPG::Gabriella Aiello::"Ma chi m' l'ha fattu fa!"
+112_1245.JPG::I Russomanno Brothers::Sandro e Pasquale
+112_1246.JPG::La partenza::Tutti sorridenti... Ancora per poco!
+laceno03_3.JPG::La gara e' iniziata::10 secondi dopo lo start dato da Gerardo Ceres
+Img2003-08-29_3.JPG::Il gruppo si sgrana::E' stato percorso circa mezzo km
+Img2003-08-29_4.JPG::57 partecipanti::Il gruppone avanza 
+112_1247.JPG::Gabriella::Donne e buoi dei paesi tuoi
+112_1248.JPG::Margherita Spatola::Lo stile c'e'!
+112_1249.JPG::Antonio, Prezioso e Rocco::Le prime sofferenze
+112_1250.JPG::Gruppo di atleti al 1° km::E' passato solo 1 km...
+112_1251.JPG::Massimo Cetrulo::Sempre sorridente!
+112_1252.JPG::Benito e Angelo::Ancora freschi e sorridenti
+112_1253.JPG::Vitale Cetrulo::Ha ancora la forza per abbozzare un sorriso!
+112_1254.JPG::Due affezionati::La grinta di Nicola e lo stile di Pasquale
+112_1255.JPG::Sandro::Potenza e grinta
+112_1258.JPG::Gerardo Notaro::Non siamo mica a Bollywood!
+112_1259.JPG::Occhi puntati su Nicola::Ancora pochi metri al gran premio della montagna
+112_1260.JPG::Armando e Nicola::Anche il vento e' contro di loro
+#112_1261.JPG::Pasquale::
+112_1262.JPG::Scatto di Pasquale al 4° km::Rompe gli indugi e se ne va...
+112_1263.JPG::Gruppetto D'Auria::...a Nicola e agli altri non rimane che guardare
+112_1265.JPG::Raffaele Merola::Vince con 22' 42''
+Img2003-08-29_5.JPG::Gianfranco Di Vincenzo::Secondo con 22' 59''
+112_1266.JPG::Pasquale::5° posto per lui
+112_1267.JPG::Anche se non sembra, arriveranno appaiati sul traguardo::9° posto per Alessandro e Nicola
+112_1268.JPG::Sandro e Michele Notaro::13° e 14° classificati
+112_1269.JPG::Nicola e Angelino Cetrulo::L'arrivo del gladiatore (23°) scortato da Angelino (24°)
+112_1270.JPG::I cugini Grasso::Stesso nome, stesso cognome, stessa posizione (34°)
+112_1271.JPG::Margherita all'arrivo::Applausi ed ammirazione
+112_1272.JPG::Gabriella::L'agognato traguardo
+112_1273.JPG::F.T.M. per Michele Cuozzo::Fuori tempo massimo
+#112_1274.JPG::titolo::descrizione
+#Img2003-08-29_1.JPG::titolo::descrizione 
+laceno03.JPG::La proclamazione dei risultati::A Gerardo Ceres il compito di ufficializzare i tempi
 
 [2004]
 stralaceno2004-4.JPG::Foto di gruppo delle corridrici::Descrizione della foto n. 1
