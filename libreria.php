@@ -417,7 +417,7 @@ return $archivio_filtrato;
 
 
 
-function ordina_archivio($archivio,$indice1,$indice2) {
+function ordina_archivio($archivio,$indice1,$indice2,$flag = SORT_ASC) {
 
 # dichiara variabili
 extract(indici());
@@ -448,7 +448,7 @@ for ($i = 1; $i < count($archivio); $i++) {
 	}
 
 $subarchivio = array_slice($archivio,1);
-array_multisort($lista1,$lista2,$subarchivio);
+array_multisort($lista1,$flag,$lista2,$flag,$subarchivio);
 $archivio_ordinato = array_merge(array($archivio[0]),$subarchivio); # aggiungi l'header
 
 return $archivio_ordinato;
@@ -531,7 +531,7 @@ return $counter;
 
 
 function tempo_numerico($tempo) {
-
+// restituisce il tempo in minuti
 if ($tempo[2] == "'") {
 	$tempo_numerico = $tempo[0]*10+$tempo[1]+($tempo[3]*10+$tempo[4])/60;
 	}
