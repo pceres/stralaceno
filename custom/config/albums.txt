@@ -1,7 +1,7 @@
 [1987]
 I edizione.jpg::Foto di gruppo prima della partenza::Descrizione della foto n. 1
 
-[1997_]
+[1997]
 10A_0293.jpg::titolo 1::descrizione
 11A_0292.jpg::titolo 2::descrizione
 12A_0291.jpg::titolo 3::descrizione
@@ -22,7 +22,7 @@ I edizione.jpg::Foto di gruppo prima della partenza::Descrizione della foto n. 1
 _25_0309.jpg::titolo 18::descrizione
 _9A_0294.jpg::titolo 19::descrizione
 
-[2000_]
+[2000]
 ---_0270.jpg::titolo 1::descrizione
 ---_0271.jpg::titolo 2::descrizione
 ---_0272.jpg::titolo 3::descrizione
