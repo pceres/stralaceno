@@ -254,7 +254,7 @@ echo "  <td>\n";
 $head = $archivio[0];
 $head_string = " <thead><tr>\n";
 for ($temp = 0; $temp < count($mask); $temp++) {
-	$head_string .= "<th>".$head[$mask[$temp]]."</th>\n";
+	$head_string .= "<th valign=\"middle\">".$head[$mask[$temp]]."</th>\n";
 	}
 $head_string .= "  </tr></thead>\n";
 
