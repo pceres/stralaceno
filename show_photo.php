@@ -138,8 +138,10 @@ $path = str_replace(' ','%20',$path);
 						<a href="<?php echo $path?>"><?php echo $album[$id_photo][$id_titolo_foto]; ?></a></font>
 						
 						<br>
-						<font face="Times New Roman,Georgia,Times">
-						<?php echo $album[$id_photo][$id_descrizione_foto]; ?></font>
+						<?php if (strlen($album[$id_photo][$id_descrizione_foto])>0) { ?>
+							<font face="Times New Roman,Georgia,Times">
+							<?php echo $album[$id_photo][$id_descrizione_foto]; ?></font>
+						<?php } // end if ?>
 					</div>
 				</td>
 				
