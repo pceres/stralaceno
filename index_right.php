@@ -140,8 +140,7 @@ selezioni di qualsiasi campo select all'interno del documento.
 			</td></tr>
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
-				<a class="disabled" onClick="alert('Pagina in allestimento!')" name="classifica_partecipazioni">Classifica partecipazioni</a>
-				<!--img src="<?php echo $site_abs_path?>images/work-in-progress.png" width="25" alt="work in progress"-->
+				<a href="filtro11.php" name="classifica_partecipazioni" class="txt_link">Classifica partecipazioni</a>
 			</td></tr>
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
