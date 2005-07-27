@@ -28,6 +28,8 @@ extract(indici());
 //  1 : media degli anni;
 //  2 : deviazione standard (migliore distribuzione)
 //  3 : prodotto cumulativo delle differenze tra i vari anni di partecipazione
+//  4 : radice del prodotto cumulativo delle differenze tra i vari anni di partecipazione
+//  5 : radice del prodotto cumulativo delle differenze tra i vari anni di partecipazionemoltiplicato per il numero di intervalli
 //
 function punteggio_presenze($dati,$mode)
 {
@@ -94,9 +96,15 @@ function punteggio_presenze($dati,$mode)
 //  0 : primo anno di partecipazione;
 //  1 : media degli anni;
 //  2 : deviazione standard (migliore distribuzione)
-//  3 : prodotto cumulativo delle differenzetra i vari anni di partecipazione
+//  3 : prodotto cumulativo delle differenze tra i vari anni di partecipazione
+//  4 : radice del prodotto cumulativo delle differenze tra i vari anni di partecipazione
+//  5 : radice del prodotto cumulativo delle differenze tra i vari anni di partecipazionemoltiplicato per il numero di intervalli
 //
 $mode = $_REQUEST['mode'];
+if (empty($mode)) // per default usa il prodotto incrementale (mode = 3)
+{
+	$mode = 3;
+}
 
 $archivio = load_data($filename_tempi,$num_colonne_prestazioni);
 
@@ -104,6 +112,7 @@ $indice_dati = $indice_nome+1;
 $indice_presenze = $indice_nome+2;
 $indice_punteggio = $indice_nome+3;
 $indice_str_anni = $indice_nome+4;
+$indice_posizione = $indice_nome+5;
 
 $archivio2 = array();
 $list_atleti = array();
@@ -137,7 +146,7 @@ for ($i = 1; $i < count($archivio); $i++)
 	{
 		$item1 = array_slice($archivio[$i],0,$indice_nome+1);
 		$punteggio = punteggio_presenze(array($item2),$mode).'';
-		$new_item = array_merge($item1,array(array($item2)),1,$punteggio.'',$archivio[$i][$indice_anno]);
+		$new_item = array_merge($item1,array(array($item2)),1,$punteggio.'',$archivio[$i][$indice_anno],1);
 		array_push($list_atleti,$id);
 		$indice = count($archivio2);//-1;
 	}
@@ -146,21 +155,54 @@ for ($i = 1; $i < count($archivio); $i++)
 	$archivio[$i][$indice_presenze] = $new_item[count($new_item)-1];
 }
 
-$head = array_merge(array_slice($archivio[0],0,$indice_nome+1),'Dati','Presenze','Punteggio','Tooltip');
+$head = array_merge(array_slice($archivio[0],0,$indice_nome+1),'Pos.','Numero<br>presenze<br>regolari','Punteggio<br>regolarit&agrave;','Tooltip','Pos.');
 $archivio2 = array_merge(array($head),$archivio2);
 
-//echo "$indice_posiz,$indice_nome<br>";
 $atleti = load_data($filename_atleti,$num_colonne_atleti);
 $archivio = merge_tempi_atleti($archivio2,$atleti);
 
 
 $archivio_ordinato = ordina_archivio($archivio,$indice_presenze,$indice_punteggio,SORT_DESC);
 
-$archivio_ordinato = array_merge(array($archivio_ordinato[0]),array_slice($archivio_ordinato,1,count($archivio_ordinato)-1));
+for ($i=1; $i<count($archivio_ordinato);$i++)
+{
+	if (($i == 1) || ($archivio_ordinato[$i][$indice_presenze]!=$archivio_ordinato[$i-1][$indice_presenze]) || ($archivio_ordinato[$i][$indice_punteggio]!=$archivio_ordinato[$i-1][$indice_punteggio]))
+	{
+		//$archivio_ordinato[$i][$indice_posizione] = $i;	
+		$archivio_ordinato[$i][$indice_posiz] = $i;	
+	}
+	else
+	{
+		//$archivio_ordinato[$i][$indice_posizione] = $archivio_ordinato[$i-1][$indice_posizione];	
+		$archivio_ordinato[$i][$indice_posiz] = $archivio_ordinato[$i-1][$indice_posiz];	
+	}
+}
+
 
 $archivio_rielaborato = fondi_nome_id($archivio_ordinato, $indice_nome, $indice_id);
-$mask = array($indice_presenze,$indice_punteggio,$indice_nome); #scegli i campi da visualizzare
-show_table($archivio_rielaborato,$mask,'tabella',3,12,0,array($indice_punteggio=>$indice_str_anni)); # tabella in tre colonne, font 12, senza note
+
+
+$mask = array($indice_posiz,$indice_presenze,$indice_punteggio,$indice_nome); #scegli i campi da visualizzare
+show_table($archivio_rielaborato,$mask,'tabella',2,12,0,array($indice_punteggio=>$indice_str_anni)); # tabella in tre colonne, font 12, senza note
+
+?>
+
+<br>
+
+<div align="justify" style="font-size: 0.75em;font-style:italic;">
+La classifica &egrave; realizzata considerando prima di tutto il numero di percorsi regolarmente ultimati 
+entro il tempo massimo, poi la cadenza regolare delle partecipazioni, indipendentemente dalle performance. 
+
+<?php if ($mode==3) { ?>
+Il punteggio regolarit&agrave;
+&egrave; calcolato moltiplicando via via la differenza tra l'anno di partecipazione ed il successivo. Ad es.
+un atleta che abbia partecipato nel 1999, 2002 e 2004 avr&agrave; un punteggio regolarit&agrave; pari a 
+(2004-2002)x(2002-1999) = 2x3 = 6.
+<?php } // end if ?>
+
+</div>
+
+<?php
 
 # logga il contatto
 $counter = count_page("classifica_partecipazioni",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
