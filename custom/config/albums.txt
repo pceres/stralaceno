@@ -3,30 +3,30 @@ I edizione.jpg::Foto di gruppo prima della partenza::Descrizione della foto n. 1
 
 [1997]
 10A_0293.jpg::titolo 1::descrizione
-11A_0292.jpg::titolo 2::descrizione
-12A_0291.jpg::titolo 3::descrizione
-13A_0290.jpg::titolo 4::descrizione
-14A_0300.jpg::titolo 5::descrizione
-15A_0299.jpg::titolo 6::descrizione
-16A_0298.jpg::titolo 7::descrizione
-17A_0297.jpg::titolo 8::descrizione
-18A_0296.jpg::titolo 9::descrizione
-19A_0305.jpg::titolo 10::descrizione
-20A_0304.jpg::titolo 11::descrizione
-21A_0303.jpg::titolo 12::descrizione
-22A_0302.jpg::titolo 13::descrizione
-23A_0301.jpg::titolo 14::descrizione
-25A_0308.jpg::titolo 15::descrizione
-26A_0307.jpg::titolo 16::descrizione
-27A_0306.jpg::titolo 17::descrizione
-_25_0309.jpg::titolo 18::descrizione
-_9A_0294.jpg::titolo 19::descrizione
+_9A_0294.jpg::titolo 2::descrizione
+11A_0292.jpg::titolo 3::descrizione
+12A_0291.jpg::titolo 4::descrizione
+13A_0290.jpg::titolo 5::descrizione
+14A_0300.jpg::titolo 6::descrizione
+15A_0299.jpg::titolo 7::descrizione
+16A_0298.jpg::titolo 8::descrizione
+17A_0297.jpg::titolo 9::descrizione
+18A_0296.jpg::titolo 10::descrizione
+19A_0305.jpg::titolo 11::descrizione
+20A_0304.jpg::titolo 12::descrizione
+21A_0303.jpg::titolo 13::descrizione
+22A_0302.jpg::titolo 14::descrizione
+23A_0301.jpg::titolo 15::descrizione
+25A_0308.jpg::titolo 16::descrizione
+26A_0307.jpg::titolo 17::descrizione
+27A_0306.jpg::titolo 18::descrizione
+_25_0309.jpg::titolo 19::descrizione
 
 [2000]
----_0270.jpg::titolo 1::descrizione
----_0271.jpg::titolo 2::descrizione
----_0272.jpg::titolo 3::descrizione
 00A_0260.jpg::titolo 4::descrizione
+_0270.jpg::titolo 1::descrizione
+_0271.jpg::titolo 2::descrizione
+_0272.jpg::titolo 3::descrizione
 _0A_0259.jpg::titolo 5::descrizione
 _1A_0258.jpg::titolo 6::descrizione
 _2A_0257.jpg::titolo 7::descrizione
