@@ -24,9 +24,9 @@ _25_0309.jpg::titolo 19::descrizione
 
 [2000]
 00A_0260.jpg::titolo 4::descrizione
----_0270.jpg::titolo 1::descrizione
----_0271.jpg::titolo 2::descrizione
----_0272.jpg::titolo 3::descrizione
+_0270.jpg::titolo 1::descrizione
+_0271.jpg::titolo 2::descrizione
+_0272.jpg::titolo 3::descrizione
 _0A_0259.jpg::titolo 5::descrizione
 _1A_0258.jpg::titolo 6::descrizione
 _2A_0257.jpg::titolo 7::descrizione
