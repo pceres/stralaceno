@@ -99,7 +99,7 @@ resized_subdir='resized'	# directory con le immagini ridimensionate
 thumbnail_subdir='thumbs'	# directory con i thumbnails
 output_subdir='output'		# directory con tutti gli output (immagini ridimensionate e non, thumbnails)
 nome_lista='lista.txt'		# file di testo che conterra' l'elenco delle immagini
-resized_width=420  			# se ridimensiono le immagini, imposta a questo valore l'ampiezza (-1 non modifica la geometria)
+resized_width=600  			# se ridimensiono le immagini, imposta a questo valore l'ampiezza (-1 non modifica la geometria)
 thumbnail_width=133			# ampiezza delle thumbnails
 
 
