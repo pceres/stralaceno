@@ -186,9 +186,11 @@ for ($i = 0; $i<$photo_per_row; $i++)
 					<?php echo $album[$rem_count][$id_titolo_foto]?></a>
 					
 						<br>
+						<?php if (strlen($album[$rem_count][$id_descrizione_foto])>0) { ?>
 						<font size="-2">
 						<?php echo $album[$rem_count][$id_descrizione_foto] ?>
 						</font>
+						<?php } // end if ?>
 					
 					
 				</td>
