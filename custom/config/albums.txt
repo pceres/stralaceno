@@ -6,24 +6,24 @@ lac6.jpg::Foto di gruppo edizione 1995::Come spesso accade in questi casi, i pro
 
 [1997]
 #10A_0293.jpg::titolo 0::descrizione
-_9A_0294.jpg::titolo 1::descrizione
-11A_0292.jpg::titolo 2::descrizione
-12A_0291.jpg::titolo 3::descrizione
-13A_0290.jpg::titolo 4::descrizione
-14A_0300.jpg::titolo 5::descrizione
-15A_0299.jpg::titolo 6::descrizione
-16A_0298.jpg::titolo 7::descrizione
-17A_0297.jpg::titolo 8::descrizione
-18A_0296.jpg::titolo 9::descrizione
-19A_0305.jpg::titolo 10::descrizione
-20A_0304.jpg::titolo 11::descrizione
-21A_0303.jpg::titolo 12::descrizione
-22A_0302.jpg::titolo 13::descrizione
-23A_0301.jpg::titolo 14::descrizione
-25A_0308.jpg::titolo 15::descrizione
-26A_0307.jpg::titolo 16::descrizione
-27A_0306.jpg::titolo 17::descrizione
-_25_0309.jpg::titolo 18::descrizione
+_9A_0294.jpg::Alla partenza::Al via numerosi caposelesi di varia et&agrave;, taglia e ceppo etnico
+11A_0292.jpg::1&deg;Km::Il primo chilometro &egrave;, come spesso accade, concitato e ricco di sorpassi reciproci
+12A_0291.jpg::Alfonso Nesta::Un mito d'altri tempi, Alfonso Nesta: tanta la strada ancora da percorrere...
+13A_0290.jpg::::Il dottor Massimo Russomanno nell'attacco decisivo. Evidente la differenza tra scapoli e ammogliati...
+14A_0300.jpg::::Un raggio di sole preannuncia a Massimo Russomanno la sua prima storica vittoria nella sfida personale con Donato Merola: una pepatissima "gara nella gara" vissuta per tutto l'anno a suon di battute salaci e provocazioni d'ogni sorta
+15A_0299.jpg::::Sul rettilineo prima del curvone la mancanza di preparazione specifica comincia a farsi sentire
+16A_0298.jpg::Rocco Grasso::Il coraggioso Rocco Grasso &egrave; il primo a tentare il colpo gobbo per dimostrare che un vero atleta si cimenta in tutti gli sport
+17A_0297.jpg::Pietro D'Alessio::"Zanetti" tenta di sorprendere i boss approfittando del flash della macchina fotografica....verr&agrave; inesorabilmente riagguantato...!
+18A_0296.jpg::D'Auria e Armando Grasso::
+19A_0305.jpg::Troika::La "troika" dei migliori annulla lo svantaggio iniziale e supera due coraggiosi outsider
+20A_0304.jpg::Mario Nesta e Massimo Cetrulo::Tra i partecipanti anche due podoturisti
+21A_0303.jpg::Massimo Russomanno::Il prezzo della gloria...
+22A_0302.jpg::Alessandro Russomanno::Record personale per Alessandro Russomanno che qui vediamo insistere con il 53x15
+23A_0301.jpg::Armando Grasso::Determinato come al solito, Armando Grasso non guarda in faccia a nessuno
+25A_0308.jpg::Davide Liloia::Per il re degli altopiani, incappato in una giornata storta, un pur sempre prestigioso terzo posto
+26A_0307.jpg::Nicola D'Auria::...sebbene non pi&ugrave; in verde et&agrave;, stabilisce il record personale...
+27A_0306.jpg::::Impeccabili come sempre il giudice di corsa e il suo staff
+_25_0309.jpg::Il momento decisivo della corsa::Donato Ceres &egrave; l'ultimo a cedere al prepotente allungo di Pasquale Ceres, gi&agrave; vincitore della scorsa edizione
 
 [2000]
 00A_0260.jpg::titolo 4::descrizione
