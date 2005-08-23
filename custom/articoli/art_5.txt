@@ -2,9 +2,8 @@ Autore::Comunicato ARS
 Titolo::Allenarsi alla Palmenta
 --- Begin body ---
 <p>
-   L'edizione 2005 della Stralaceno, che si terr&agrave; come ogni anno a fine estate, si sta avvicinando! 
-   Per chi si volesse cimentare nella gara &egrave; necessario iniziare a prepararsi sin d'ora, sfruttando i pochi 
-   mesi rimanenti. Anche chi non volesse partecipare alla Stralaceno trarrebbe comunque vantaggio da un minimo di
+   La XVII edizione della Stralaceno si sta avvicinando! 
+   Per chi si volesse cimentare nella gara &egrave; necessario prepararsi fisicamente. Anche chi non volesse partecipare alla Stralaceno trarrebbe comunque vantaggio da un minimo di
    pratica sportiva, secondo il motto latino 'Mens sana in corpore sano'!
 <p>
 	A Caposele sono diversi i percorsi disponibili per la pratica podistica, quali ad es. il circuito a Ponte 
@@ -13,11 +12,11 @@ Titolo::Allenarsi alla Palmenta
 	aspetti favorevoli:
 <ul>
     <li>l'allenamento avviene su un tappeto erboso che allevia le sollecitazioni alle articolazioni e rende piu' 
-	confortevole la corsa; (caratteristica questa difficilmente riscontrabile in altri percorsi)</li>
+	confortevole la corsa; (caratteristica questa difficilmente riscontrabile in altri percorsi);</li>
     <li>il luogo appartato dove sorge l'impianto garantisce un allenamento rilassante, sicuro (senza il pericolo
 	di passaggio degli autoveicoli) e una certa privacy (cosa desiderata soprattutto dalle ragazze);</li>
     <li>la localit&agrave; Palmenta &egrave; facilmente accessibile, ed in cinque minuti si pu&ograve; prevedere 
-	di tornare a casa per una piacevole doccia, evitando di raffreddarsi;</li>
+	di tornare a casa per una piacevole doccia, evitando di raffreddarsi.</li>
 </ul>
 <p>
 	Queste caratteristiche rendono il campo alla Palmenta luogo ideale per cominciare ad allenarsi. 
