@@ -7,6 +7,9 @@ extract(indici());
 
 function indici() {
 
+# carica le variabili custom (quelle che sono specifiche di ogni sito web, es. titolo, e-mail, ecc)
+require("custom/config/custom.txt");
+
 # formato file di archivio 'tempi_laceno.csv'
 $indice_id    = 0;
 $indice_nome  = 1;
@@ -17,7 +20,8 @@ $indice_nota  = 5;
 
 $num_colonne_prestazioni = 6;
 
-$indice_info = 'info'; #$num_colonne_prestazioni; # viene aggiunta una colonna di informazioni relative all'atleta
+$indice_info = 'info'; # viene aggiunta una colonna di informazioni relative all'atleta
+
 
 # formato file di archivio 'atleti_laceno.csv'
 $indice2_id 		= 0;
@@ -29,6 +33,7 @@ $indice2_peso 		= 5;
 $indice2_link		= 6;
 
 $num_colonne_atleti = 7;
+
 
 # formato file di archivio 'organizzatori_laceno.csv'
 $indice3_id    		= 0;
@@ -45,13 +50,10 @@ $num_colonne_organizzatori = 7;
 #variabili di formattazione
 $style_sfondo_maschi = "rgb(249, 255, 255)";
 $style_sfondo_femmine = "rgb(255, 234, 234)";
-$colore_blu_cielo_di_Laceno = "rgb(51,102,153)";
-$colore_arancio_fondo_vomitatoio = "rgb(255,102,0)";
 
 
-// determina la directory (l'ultimo livello) contenente il sito (deve iniziare con "stralaceno", ad es. "stralaceno2" e' ok)
+// determina la directory (l'ultimo livello) contenente il sito (deve iniziare con $root_prefix, ad es., se $root_prefix=="sito", "sito2" e' ok)
 $path = $_SERVER['SCRIPT_FILENAME'];
-$root_prefix = "stralaceno";
 
 // determina l'ultima occorrenza di root_prefix
 $temp=strpos($path,$root_prefix);
@@ -134,30 +136,30 @@ $site_abs_path = substr($path,0,$end);
 
 
 #path assoluti
-$css_site_path			= $site_abs_path."css";
+//$css_site_path			= $site_abs_path."css";
 $modules_site_path		= $script_abs_path."custom/moduli/";
 $filedir_counter 		= $root_path."custom/dati/";
 $articles_dir 			= $root_path."custom/articoli/";
 $config_dir 			= $root_path."custom/config/";
 
 #nomi di file
-$filename_tempi 		= $root_path."custom/dati/tempi_laceno.csv";
-$filename_atleti 		= $root_path."custom/dati/atleti_laceno.csv";
-$filename_organizzatori		= $root_path."custom/dati/organizzatori_laceno.csv";
+$filename_css			= $site_abs_path."custom/config/style.css";
+$filename_tempi 		= $root_path."custom/dati/".$nome_file_tempi;
+$filename_atleti 		= $root_path."custom/dati/".$nome_file_atleti;
+$filename_organizzatori		= $root_path."custom/dati/".$nome_file_organizzatori;
 $article_online_file 		= $articles_dir."online.txt";
 $filename_links			= $config_dir."links.txt";
 $filename_albums		= $config_dir."albums.txt";
 
 #varie
-$email_info		= "stralaceno@freepass.it";
+$tempo_max_grafico = max(array($tempo_max_F,$tempo_max_M));
 $symbol_empty= '<img style="display:inline;" align="middle" height="13" width="13" alt="empty" border="0">';
-$symbol_1_partecipazione= '<img src="/work/stralaceno2/images/0x2606(star).bmp" style="display:inline;" align="middle" height="13" alt="1a partecipazione" border="0">';
-$symbol_record  		= '<img src="/work/stralaceno2/images/0x263A(smiling_face).bmp" style="display:inline;" align="middle" height="13" alt="record personale" border="0">';
+$symbol_1_partecipazione= '<img src="'.$site_abs_path.'images/0x2606(star).bmp" style="display:inline;" align="middle" height="13" alt="1a partecipazione" border="0">';
+$symbol_record  		= '<img src="'.$site_abs_path.'images/0x263A(smiling_face).bmp" style="display:inline;" align="middle" height="13" alt="record personale" border="0">';
 
 #admin
 $max_last_editions	= 3;	// numero di ultime edizioni in colonna laterale
 $max_online_articles	= 5;	// numero di articoli pubblicati online
-
 
 
 #campi files csv
@@ -165,13 +167,14 @@ $indici = array('indice_id' => $indice_id,'indice_nome' => $indice_nome,'indice_
 $indici2 = array('indice2_id' => $indice2_id,'indice2_nome' => $indice2_nome,'indice2_sesso' => $indice2_sesso,'indice2_titolo' => $indice2_titolo,'indice2_data_nascita' => $indice2_data_nascita,'indice2_peso' => $indice2_peso,'indice2_link' => $indice2_link,'num_colonne_atleti'  => $num_colonne_atleti);
 $indici3 = array('indice3_id' => $indice3_id,'indice3_nome' => $indice3_nome,'indice3_sesso' => $indice3_sesso,'indice3_incarico' => $indice3_incarico,'indice3_anno' => $indice3_anno,'indice3_link' => $indice3_link,'indice3_nota' => $indice3_nota,'num_colonne_organizzatori' => $num_colonne_organizzatori);
 
-$formattazione = array('style_sfondo_maschi' => $style_sfondo_maschi,'style_sfondo_femmine' => $style_sfondo_femmine,'colore_blu_stralaceno' => $colore_blu_cielo_di_Laceno,'colore_arancio_stralaceno' => $colore_arancio_fondo_vomitatoio);
-$filenames = array('filename_tempi' => $filename_tempi,'filename_atleti' => $filename_atleti,'filename_organizzatori' => $filename_organizzatori,'filedir_counter' => $filedir_counter,'articles_dir' => $articles_dir,'article_online_file' => $article_online_file,'filename_links' => $filename_links,'filename_albums' => $filename_albums);
-$pathnames = array('root_path' => $root_path,'site_abs_path' => $site_abs_path,'script_abs_path' => $script_abs_path,'css_site_path' => $css_site_path,'modules_site_path' => $modules_site_path,'config_dir' => $config_dir);
-$varie = array('email_info' => $email_info,'symbol_1_partecipazione' => $symbol_1_partecipazione,'symbol_record' => $symbol_record);
-$admin = array('max_last_editions' => $max_last_editions,'max_online_articles' => $max_online_articles);
+$formattazione = array('style_sfondo_maschi' => $style_sfondo_maschi,'style_sfondo_femmine' => $style_sfondo_femmine);
+$filenames = array('filename_css' => $filename_css,'filename_tempi' => $filename_tempi,'filename_atleti' => $filename_atleti,'filename_organizzatori' => $filename_organizzatori,'filedir_counter' => $filedir_counter,'articles_dir' => $articles_dir,'article_online_file' => $article_online_file,'filename_links' => $filename_links,'filename_albums' => $filename_albums);
+$pathnames = array('root_path' => $root_path,'site_abs_path' => $site_abs_path,'script_abs_path' => $script_abs_path,'modules_site_path' => $modules_site_path,'config_dir' => $config_dir);
+$varie = array('symbol_1_partecipazione' => $symbol_1_partecipazione,'symbol_record' => $symbol_record);
+$custom = array('tempo_max_M' => $tempo_max_M,'tempo_max_F' => $tempo_max_F,'tempo_max_grafico' => $tempo_max_grafico,'race_name' => $race_name,'web_title' => $web_title,'web_description' => $web_description,'web_keywords' => $web_keywords,'email_info' => $email_info);
+$admin = array('password_config' => $password_config,'password_articoli' => $password_articoli,'password_upload_file' => $password_upload_file,'max_last_editions' => $max_last_editions,'max_online_articles' => $max_online_articles);
 
-return array_merge($indici,$indici2,$indici3,$formattazione,$filenames,$pathnames,$varie,$admin);
+return array_merge($indici,$indici2,$indici3,$formattazione,$filenames,$pathnames,$varie,$admin,$custom);
 }
 
 function load_data($filename,$num_colonne) {
@@ -567,19 +570,21 @@ for ($i = 1; $i < count($archivio); $i++) {
 	$id = $prestazione[$indice_id];
 	$tempo = tempo_numerico($prestazione[$indice_tempo]);
 	
-	if (!array_key_exists($id,$lista_record)) {
-		$simb = $symbol_1_partecipazione; #'<img src="/work/stralaceno/images/0x2606(star).bmp">';
+	if (!array_key_exists($id,$lista_record)) 
+	{
+		$simb = $symbol_1_partecipazione;
 		$lista_record[$id] = $tempo;
-		}
-	elseif ($lista_record[$id] > $tempo) {
-		$simb = $symbol_record; #'<img src="/work/stralaceno/images/0x263A(smiling_face).bmp">';
+	}
+	elseif ($lista_record[$id] > $tempo) 
+	{
+		$simb = $symbol_record;
 		$lista_record[$id] = $tempo;
-		}
-	else {
-		#$simb = '<br>';
+	}
+	else 
+	{
 		$simb = $symbol_empty;
-		}
-		
+	}
+	
 	$prestazione['simb'] = $simb;
 	
 	array_push($archivio2,$prestazione);
@@ -698,7 +703,8 @@ $no_close_tags = array("p","br","?php"); // array di tags che non richiedono il 
 	$n_stop = 0;
 	foreach ($testo_in as $line)
 	{
-		if (  ($vpos[0] = strpos($line,".")) | ($vpos[1] = strpos($line,"?")) | ($vpos[2] = strpos($line,"!"))  )
+		$vpos = array( strpos($line,"."), strpos($line,"?"), strpos($line,"!") );
+		if ( ($vpos[0] || $vpos[1] || $vpos[2]) & (strlen(strpos($line,"\"")."0")==1) ) // non considerare le linee con stringhe delimitate da "
 		{
 			$pos = max($vpos);
 			$n_stop++;			// hai trovato un carattere di punteggiatura, aggiorna il contatore
