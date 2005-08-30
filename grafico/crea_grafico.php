@@ -7,13 +7,15 @@
   <meta name="GENERATOR" content="Quanta Plus">
 </head>
 <body>
-  
-<div align="center"><h2>Archivio storico della Stralaceno - Grafico dei tempi</h2></div>
+
+<?php
+require_once('../libreria.php');
+?>  
+
+<div align="center"><h2>Archivio storico della <?php echo $race_name ?> - Grafico dei tempi</h2></div>
 <hr>
 
 <?php
-
-require_once('../libreria.php');
 
 # dichiara variabili
 extract(indici());
@@ -21,11 +23,10 @@ extract(indici());
 include 'grafico.php';
 
 $datafile = "grafico.txt";
-#$pngfile = "grafico.png"; #!!!
 $pngfile = "grafico.png";
 $spessore_linea = 3; # spessore della linea relativa ai tempi di ogni atleta
 
-$tempo_max_uomini = 45.0; 
+//$tempo_max_grafico = 90.0; 
 
 $archivio = load_data($filename_tempi,$num_colonne_prestazioni);
 $atleti = load_data($filename_atleti,$num_colonne_atleti);
@@ -58,9 +59,9 @@ for ($i = 1; $i < count($archivio); $i++) {
 		if ( (!array_key_exists($anno,$elenco_tempo_min)) | ($elenco_tempo_min[$anno] > $tempo_numerico) ) {
 			$elenco_tempo_min[$anno] = $tempo_numerico;
 			}
-		#individua tempo massimo per ogni anno (massimo 45 minuti!)
+		#individua tempo massimo per ogni anno (massimo $tempo_max_grafico minuti!)
 		if ( (!array_key_exists($anno,$elenco_tempo_max)) | ($elenco_tempo_max[$anno] < $tempo_numerico) ) {
-			$elenco_tempo_max[$anno] = ($tempo_numerico > $tempo_max_uomini) ? $tempo_max_uomini : $tempo_numerico;
+			$elenco_tempo_max[$anno] = ($tempo_numerico > $tempo_max_grafico) ? $tempo_max_grafico : $tempo_numerico;
 			}
 		#individua tempo atleta id
 		if ( in_array($id,$elenco_id) ) {
@@ -76,13 +77,13 @@ $primo_anno = min($anni);
 $ultimo_anno = max($anni);
 
 $tempo_min = floor(min($elenco_tempo_min)*0.9);
-$tempo_max = $tempo_max_uomini; #45; #ceil(max($elenco_tempo_max)*1.1);
+$tempo_max = $tempo_max_grafico; #45; #ceil(max($elenco_tempo_max)*1.1);
 
 $handle = fopen($datafile, "w");
 
 # dati grafico
 fwrite($handle,"[title]\r\n");
-fwrite($handle,"Grafico tempi Stralaceno\r\n");
+fwrite($handle,"Grafico tempi $race_name\r\n");
 fwrite($handle,"[x_label]\r\n");
 fwrite($handle,"anno\r\n");
 fwrite($handle,"[y_label]\r\n");
@@ -126,8 +127,7 @@ fclose($handle);
 
 
 grafico(950,480,30,$datafile,$pngfile);
-#echo "<img src=\"".$pngfile."\" title=\"grafico tempi Stralaceno\" alt=\"grafico tempi Stralaceno\">"; #!!!
-echo "<img src=\"/work/stralaceno2/grafico/".$pngfile."\" title=\"grafico tempi Stralaceno\" alt=\"grafico tempi Stralaceno\">";
+echo "<img src=\"".$site_abs_path."grafico/".$pngfile."\" title=\"grafico tempi $race_name\" alt=\"grafico tempi $race_name\">";
 exit();
 
 
