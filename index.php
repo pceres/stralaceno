@@ -8,12 +8,12 @@ require_once('libreria.php');
 extract(indici());
 ?>
 <head>
-  <title>Stralaceno Web</title>
+  <title><?php echo $web_title ?></title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="generator" content="Quanta Plus">
-  <meta name="description" content="Sito ufficiale della Stralaceno">
-  <meta name="keywords" content="Stralaceno, Caposele, Caposelesi, Corsa podistica, Atletica, Lago Laceno, Laceno">
-  <style type="text/css">@import "<?php echo $css_site_path ?>/stralaceno.css";</style>
+  <meta name="description" content="<?php echo $web_description ?>">
+  <meta name="keywords" content="<?php echo $web_keywords ?>">
+  <style type="text/css">@import "<?php echo $filename_css ?>";</style>
   <!--link href="<?php echo $site_abs_path ?>custom/images/logo_small.gif" rel="SHORTCUT ICON"-->
 </head>
 <body class="homepage" onLoad="azzera_input()">

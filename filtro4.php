@@ -8,10 +8,10 @@ require_once('libreria.php');
 extract(indici());
 ?>
 <head>
-  <title>Stralaceno Web - Archivio storico annuale</title>
+  <title><?php echo $web_title ?> - Archivio storico annuale</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
-  <style type="text/css">@import "<?php echo $css_site_path ?>/stralaceno.css";</style>
+  <style type="text/css">@import "<?php echo $filename_css ?>";</style>
 </head>
 <body class="tabella">
   
@@ -42,7 +42,7 @@ else
 }
 
 #prepara il titolo
-echo "<div class=\"titolo_tabella\">Stralaceno ".$anno." - risultati ufficiali : $nota_album</div>";
+echo "<div class=\"titolo_tabella\">$race_name $anno - risultati ufficiali : $nota_album</div>";
 
 #prepara la tabella
 $archivio = aggiungi_simboli($archivio);
@@ -50,6 +50,12 @@ $archivio = aggiungi_simboli($archivio);
 $lista_regola_campo = array($indice_anno);
 $lista_regola_valore = array($anno);
 $archivio_filtrato = filtra_archivio($archivio,$lista_regola_campo,$lista_regola_valore);
+
+if (count($archivio_filtrato) == 1)
+{
+	echo "<br><br>Non ci sono dati disponibili per l'edizione: $anno!";
+	die();
+}
 
 $archivio_ordinato = ordina_archivio($archivio_filtrato,$indice_posiz, $indice_nome);
 
@@ -70,7 +76,7 @@ $counter = count_page("classifica_anno",array("COUNT"=>1,"LOG"=>1),$filedir_coun
 	<tr>
 		<td>F.T.M.</td>
 		<td>:</td>
-		<td class="descrizione">fuori tempo massimo (40 minuti uomini, 45 minuti donne)</td>
+		<td class="descrizione">fuori tempo massimo (<?php echo $tempo_max_M ?> minuti uomini, <?php echo $tempo_max_F ?> minuti donne)</td>
 	</tr>
 	<tr>
 		<td>Rit.</td>
@@ -109,41 +115,40 @@ $archivio_filtrato = filtra_archivio($organizzatori,$lista_regola_campo,$lista_r
 #$archivio_ordinato = ordina_archivio($archivio_filtrato,$indice_nome, $indice_id); # se volessi ordinare gli organizzatori
 $archivio_ordinato = $archivio_filtrato; # non ordino i nomi, vengono presentati nell'ordine con cui sono stati inseriti nel file Excel 'organizzatori_laceno.csv'
 
-	{
+if (count($archivio_ordinato) > 1) // la prima riga contiene l'header
+{
 	echo "<div class=\"tabella_organizzatori\" >";
-	
-	echo "<hr>Organizzatori e collaboratori per l'edizione $anno:&nbsp;&nbsp;";
-	
+	echo "<hr>Organizzatori e collaboratori per l'edizione $anno:\n";
 	for ($i = 1; $i < count($archivio_ordinato); $i++) 
-		{
+	{
 		$organizzatore = $archivio_ordinato[$i];
 		
 		$nome = $organizzatore[$indice3_nome];
 		$incarico = $organizzatore[$indice3_incarico];
 		$nota = trim($organizzatore[$indice3_nota]);
 		if ( (strlen($nota) > 0) & ($nota != '-')) 
-			{
+		{
 			$incarico .= " ($nota)";
-			}
-		echo "$incarico:<span style=\"font-style: italic;\">$nome</span>;&nbsp;&nbsp;&nbsp;\n";
 		}
-echo "</div>";
+		echo "$incarico:<span style=\"font-style: italic;\">$nome</span>;&nbsp;&nbsp;&nbsp;\n";
 	}
+	echo "</div>";
+}
 	
-if (count($archivio_ordinato) <= 2) 
-	{
+// se ci sono pochi collaboratori in organizzatori.csv, ed e' disponibile un contatto e-mail
+if ( (count($archivio_ordinato) <= 1+1) & (strlen($email_info) > 0) )
+{
 ?>
 
 <br>
 <div align="justify" style="font-size: 12;">
 L'elenco degli organizzatori e collaboratori per questa edizione e' in fase di realizzazione.
 Gli interessati, o chi sia in grado di fornire indicazioni al riguardo, sono pregati di mettersi in contatto tramite 
-l'indirizzo e-mail: <a href="mailto:<?php echo $email_info?>?subject=Info%20sui%20collaboratori%20della%20Stralaceno"><?php echo $email_info?></a>.  <br>
+l'indirizzo e-mail: <a href="mailto:<?php echo $email_info?>?subject=Info%20sui%20collaboratori%20della%20<?php echo rawurlencode($race_name) ?>"><?php echo $email_info?></a>.  <br>
 </div>
 
 <?php
-	}
-
+}
 ?>
 
 
