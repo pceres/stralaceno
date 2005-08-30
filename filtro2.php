@@ -9,14 +9,14 @@ require_once('libreria.php');
 extract(indici());
 ?>
 <head>
-  <title>Stralaceno Web - Archivio storico</title>
+  <title><?php echo $web_title ?> - Archivio storico</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
-  <style type="text/css">@import "<?php echo $css_site_path ?>/stralaceno.css";</style>
+  <style type="text/css">@import "<?php echo $filename_css ?>";</style>
 </head>
 <body class="tabella">
   
-<div class="titolo_tabella">Archivio storico personale della Stralaceno</div>
+<div class="titolo_tabella">Archivio storico personale della <?php echo $race_name ?></div>
 <hr>
 
 <?php

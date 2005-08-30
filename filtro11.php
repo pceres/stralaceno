@@ -9,10 +9,10 @@ require_once('libreria.php');
 extract(indici());
 ?>
 <head>
-  <title>Stralaceno Web - Classifica partecipazioni</title>
+  <title><?php echo $web_title ?> - Classifica partecipazioni</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
-  <style type="text/css">@import "<?php echo $css_site_path ?>/stralaceno.css";</style>
+  <style type="text/css">@import "<?php echo $filename_css ?>";</style>
 </head>
 <body class="tabella">
   
