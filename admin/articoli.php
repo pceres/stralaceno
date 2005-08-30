@@ -12,7 +12,7 @@ extract(indici());
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <META http-equiv="Content-Script-Type" content="text/javascript">
   <meta name="GENERATOR" content="Quanta Plus">
-  <style type="text/css">@import "<?php echo $css_site_path ?>/stralaceno.css";</style>
+  <style type="text/css">@import "<?php echo $filename_css ?>";</style>
 </head>
 
 <body class="admin">
