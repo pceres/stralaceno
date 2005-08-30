@@ -9,10 +9,10 @@ require_once('libreria.php');
 extract(indici());
 ?>
 <head>
-  <title>Stralaceno Web - Album fotografico</title>
+  <title><?php echo $web_title ?> - Album fotografico</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
-  <style type="text/css">@import "<?php echo $css_site_path ?>/stralaceno.css";</style>
+  <style type="text/css">@import "<?php echo $filename_css ?>";</style>
 </head>
 
 <?php 
@@ -215,13 +215,19 @@ $path = str_replace(' ','%20',$path);
 				<td height="20"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Null.gif" border="0" height="20" width="20"></td>
 			</tr>
 
+<?php
+if (strlen($email_info)>0) { // se e' disponibile una email per i contatti
+?>
 			<tr><td>
 				<div align="center">
 					Chi desiderasse, per motivi di privacy, non apparire in fotografia, lo comunichi a 
-					<a href="mailto:stralaceno@freepass.it?subject=Cancellazione%20foto%20per%20privacy" 
+					<a href="mailto:<?php echo $email_info?>?subject=Cancellazione%20foto%20per%20privacy" 
 					title="Cancellazione foto per privacy">questo indirizzo</a>
 				</div>
 			</td></tr>
+<?php
+} // end if (strlen($email_info)>0) { // se e' disponibile una email per i contatti
+?>
 			
 		</tbody></table>
 	</body></html>
