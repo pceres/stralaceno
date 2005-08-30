@@ -2,13 +2,13 @@
 		"http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-  <title>Stralaceno Web - Scheda personale</title>
+  <title><?php echo $web_title ?> - Scheda personale</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
 </head>
 <body>
   
-<div align="center"><h2>Dati personali dei partecipanti alla Stralaceno</h2></div>
+<div align="center"><h2>Dati personali dei partecipanti alla <?php echo $race_name ?></h2></div>
 <hr>
 
 <?php
