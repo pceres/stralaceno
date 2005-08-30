@@ -1,19 +1,24 @@
 #!/usr/local/bin/php
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
+<?php
+
+require_once('libreria.php');
+
+# dichiara variabili
+extract(indici());
+?>
 <head>
-  <title>Stralaceno Web - Archivio storico</title>
+  <title><?php echo $web_title ?> - Archivio storico</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
 </head>
 <body>
   
-<div align="center"><h2>Archivio storico completo della Stralaceno - Tabella sinottica</h2></div>
+<div align="center"><h2>Archivio storico completo della <?php echo $race_name ?> - Tabella sinottica</h2></div>
 <hr>
 
 <?php
-
-require_once('libreria.php');
 
 $archivio = load_data($filename_tempi,$num_colonne_prestazioni);
 
