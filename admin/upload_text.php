@@ -12,18 +12,18 @@ extract(indici());
   <title>Salvataggio testo</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
-  <style type="text/css">@import "<?php echo $css_site_path ?>/stralaceno.css";</style>
+  <style type="text/css">@import "<?php echo $filename_css ?>";</style>
 </head>
 <body>
  
 
 <?php
 
-$password_ok = "stralacenoadmin"; 
+$password_ok = $password_config; 
 
 
-$ks1 = array("\'",'\"',"\\\\","à"       ,"è"       ,"é"       ,"ì"       ,"ò"       ,"ù"       );
-$ks2 = array("'" ,"\"","\\"  ,"&agrave;","&egrave;","&eacute;","&igrave;","&ograve;","&ugrave;");
+$ks1 = array("\'",'\"',"\\\\","à"       ,"è"       ,"é"       ,"ì"       ,"ò"       ,"ù"       ,"°"    );
+$ks2 = array("'" ,"\"","\\"  ,"&agrave;","&egrave;","&eacute;","&igrave;","&ograve;","&ugrave;","&deg;");
 $testo = str_replace($ks1,$ks2,$_REQUEST['testo']);
 
 $new_name = $_REQUEST['filename']; // path assoluto nel filename del server
@@ -37,13 +37,60 @@ if ($password_ok == $password)
 
 if ($ok == TRUE) 
 {
-	$handle = fopen($new_name, "w");
-	for ($i = 0; $i < count($testo); $i++)
+	// leggi vecchio file
+	if (file_exists($new_name))
 	{
-		fwrite($handle, $testo);	
+		$testo_old = file($new_name);
+		$confronta = 1;
 	}
-	fclose($file);
+	else
+	{
+		$confronta = 0;
+	}
 	
+	// scrivi i dati inviati su file
+	$handle = fopen($new_name, "w");
+	//for ($i = 0; $i < count($testo); $i++)
+	//{
+		fwrite($handle, $testo);	
+	//}
+	fclose($handle);
+	
+	// se il file non esisteva, logga solo le modifiche
+	if ($confronta == 1)
+	{
+		// rileggi il file
+		$testo = file($new_name);
+		
+		// trova linee cancellate
+		$del = array_diff($testo_old,$testo);
+		if (!empty($del))
+		{
+			$out1 = str_replace("\n","\r\n",print_r($del,TRUE));
+		}
+		
+		// trova linee aggiunte
+		$add = array_diff($testo,$testo_old);
+		if (!empty($add))
+		{
+			$out2 = str_replace("\n","\r\n",print_r($add,TRUE));
+		}
+		
+		if (empty($del) && empty($add))
+		{
+			$testo="<Nessuna modifica>";
+		}
+		else
+		{
+			$testo="\r\n<\r\n";
+			if (!empty($del))
+				$testo .= "eliminato:\r\n".$out1."\r\n";
+			if (!empty($add))
+				$testo .= "aggiunto:\r\n".$out2."\r\n";
+			$testo .= ">\r\n";
+		}
+	}
+
 	print "<pre>Operazione eseguita correttamente.</pre>";
 }
 else 
@@ -55,7 +102,7 @@ else
 $counter = count_page("admin_upload_text",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
 
 $simple_name = substr($new_name,strrpos($new_name,'/')+1); // nome del file senza il path
-log_action($config_dir,"$simple_name:\r\n<\r\n$testo\r\n>\r\n, ".date("l dS of F Y h:i:s A")."\r\n\r\n");
+log_action($config_dir,"$simple_name:$testo, ".date("l dS of F Y h:i:s A")."\r\n\r\n");
 
 ?>
 
