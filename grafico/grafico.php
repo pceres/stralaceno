@@ -18,13 +18,10 @@ if ($output_file == NULL) {
 	}
 else {
 	$output_to_file = 1;
-	#$filename_output='/var/www/htdocs/work/stralaceno/grafico.png';
-	#$filename_output='grafico.png';
 	$filename_output = $output_file;
 	}
 
 if ($input_file == NULL) {
-	#$filename_input='/var/www/htdocs/work/stralaceno/grafico.txt';
 	$filename_input='grafico.txt';
 	}
 else {
