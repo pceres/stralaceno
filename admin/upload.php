@@ -9,10 +9,10 @@ require_once('../libreria.php');
 extract(indici());
 ?>
 <head>
-  <title>Archivio Stralaceno</title>
+  <title>Archivio <?php echo $race_name ?></title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
-  <style type="text/css">@import "<?php echo $css_site_path ?>/stralaceno.css";</style>
+  <style type="text/css">@import "<?php echo $filename_css ?>";</style>
 </head>
 <body>
  
@@ -20,7 +20,7 @@ extract(indici());
 <?php
 
 $uploaddir = substr($filename_tempi,0,strlen($filename_tempi)-16);
-$password_ok = "stralacenoadmin"; 
+$password_ok = $password_upload_file; 
 
 $old_name = $_FILES['userfile']['name'];
 $new_name = $_REQUEST['filename'];

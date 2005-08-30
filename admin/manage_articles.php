@@ -11,7 +11,7 @@ extract(indici());
   <title>Gestione articoli in prima pagina</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Programmers Notepad">
-  <style type="text/css">@import "<?php echo $css_site_path ?>/stralaceno.css";</style>
+  <style type="text/css">@import "<?php echo $filename_css ?>";</style>
 </head>
 <body>
 
@@ -21,7 +21,7 @@ $mode = $_REQUEST['task'];
 $data = $_REQUEST['data'];
 $password = $_REQUEST['password'];
 
-$password_ok = "stralacenoadmin"; 
+$password_ok = $password_articoli;
 
 if ($password != $password_ok)
 {
