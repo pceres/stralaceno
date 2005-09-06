@@ -12,6 +12,8 @@ extract(indici());
   <title>Stralaceno Web - Presentazione della Stralaceno</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
+  <meta name="description" content="Presentazione della Stralaceno">
+  <meta name="keywords" content="Stralaceno, Laceno, Caposele, Atletica, Sport">  
   <style type="text/css">@import "<?php echo $filename_css ?>";</style>  
 </head>
 <body>
@@ -68,6 +70,8 @@ Sollecitiamo invece vivamente i visitatori del sito a non lesinare suggerimenti 
 contributo ad una manifestazione che forse oggi rappresenta anche un momento di aggregazione e di celebrazione di una 
 identit&agrave; comunale non sempre facili da ritrovare in altri contesti.</p>
 </div>
+
+<?php echo $homepage_link ?>
 
 <?php
 # logga il contatto
