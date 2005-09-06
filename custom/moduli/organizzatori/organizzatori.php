@@ -11,6 +11,8 @@ extract(indici());
   <title>Stralaceno Web - Gli organizzatori della Stralaceno</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
+  <meta name="description" content="Organizzatori della Stralaceno: Associazione ARS (Amatori Running Sele)">
+  <meta name="keywords" content="Stralaceno, ARS, Laceno, Caposele, Atletica, Sport">
   <style type="text/css">@import "<?php echo $filename_css ?>";</style>  
 </head>
 <body>
@@ -88,6 +90,8 @@ nonch&eacute; fondi, riserve o capitale, salvo che la destinazione o la distribu
 
 </div>
 
+
+<?php echo $homepage_link ?>
 
 <?php
 # logga il contatto

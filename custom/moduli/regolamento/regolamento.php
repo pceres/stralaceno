@@ -11,6 +11,8 @@ extract(indici());
   <title>Stralaceno Web - Stralcio regolamento della Stralaceno</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
+  <meta name="description" content="Stralcio del regolamento della Stralaceno">
+  <meta name="keywords" content="Regolamento, Stralaceno, ARS, Laceno, Caposele, Atletica, Sport">  
   <style type="text/css">@import "<?php echo $filename_css ?>";</style>
 </head>
 <body>
@@ -109,12 +111,13 @@ cristallizzando nel corso delle passate edizioni.
 
 </div>
 
-<hr>
 
-<!--?php
+<?php echo $homepage_link ?>
+
+<?php
 # logga il contatto
 $counter = count_page("modulo_regolamento",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
-?-->
+?>
 
 </body>
 </html>
