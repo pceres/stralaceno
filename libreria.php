@@ -136,7 +136,6 @@ $site_abs_path = substr($path,0,$end);
 
 
 #path assoluti
-//$css_site_path			= $site_abs_path."css";
 $modules_site_path		= $script_abs_path."custom/moduli/";
 $filedir_counter 		= $root_path."custom/dati/";
 $articles_dir 			= $root_path."custom/articoli/";
@@ -156,6 +155,7 @@ $tempo_max_grafico = max(array($tempo_max_F,$tempo_max_M));
 $symbol_empty= '<img style="display:inline;" align="middle" height="13" width="13" alt="empty" border="0">';
 $symbol_1_partecipazione= '<img src="'.$site_abs_path.'images/0x2606(star).bmp" style="display:inline;" align="middle" height="13" alt="1a partecipazione" border="0">';
 $symbol_record  		= '<img src="'.$site_abs_path.'images/0x263A(smiling_face).bmp" style="display:inline;" align="middle" height="13" alt="record personale" border="0">';
+$homepage_link 			= '<hr><div align="right"><a class="txt_link" href="'.$script_abs_path.'index.php">Torna alla homepage</a></div>';
 
 #admin
 $max_last_editions	= 3;	// numero di ultime edizioni in colonna laterale
@@ -171,7 +171,7 @@ $formattazione = array('style_sfondo_maschi' => $style_sfondo_maschi,'style_sfon
 $filenames = array('filename_css' => $filename_css,'filename_tempi' => $filename_tempi,'filename_atleti' => $filename_atleti,'filename_organizzatori' => $filename_organizzatori,'filedir_counter' => $filedir_counter,'articles_dir' => $articles_dir,'article_online_file' => $article_online_file,'filename_links' => $filename_links,'filename_albums' => $filename_albums);
 $pathnames = array('root_path' => $root_path,'site_abs_path' => $site_abs_path,'script_abs_path' => $script_abs_path,'modules_site_path' => $modules_site_path,'config_dir' => $config_dir);
 $varie = array('symbol_1_partecipazione' => $symbol_1_partecipazione,'symbol_record' => $symbol_record);
-$custom = array('tempo_max_M' => $tempo_max_M,'tempo_max_F' => $tempo_max_F,'tempo_max_grafico' => $tempo_max_grafico,'race_name' => $race_name,'web_title' => $web_title,'web_description' => $web_description,'web_keywords' => $web_keywords,'email_info' => $email_info);
+$custom = array('homepage_link' => $homepage_link,'tempo_max_M' => $tempo_max_M,'tempo_max_F' => $tempo_max_F,'tempo_max_grafico' => $tempo_max_grafico,'race_name' => $race_name,'web_title' => $web_title,'web_description' => $web_description,'web_keywords' => $web_keywords,'email_info' => $email_info);
 $admin = array('password_config' => $password_config,'password_articoli' => $password_articoli,'password_upload_file' => $password_upload_file,'max_last_editions' => $max_last_editions,'max_online_articles' => $max_online_articles);
 
 return array_merge($indici,$indici2,$indici3,$formattazione,$filenames,$pathnames,$varie,$admin,$custom);
@@ -222,6 +222,60 @@ return $archivio;
 }
 
 
+function show_legenda($legenda) {
+# mostra note
+
+# dichiara variabili
+extract(indici());
+
+#elimina i doppioni;
+$legenda=array_unique($legenda);
+
+if (count($legenda) > 0)
+{
+	echo '<br>';
+	echo '<table class="tabella_legenda">';
+	
+	foreach ($legenda as $voce)
+	{
+		switch ($voce) 
+		{
+		case 'F.T.M.':
+			$info = "fuori tempo massimo ($tempo_max_M minuti uomini, $tempo_max_F  minuti donne)";
+			break;
+		case 'Rit.':
+			$info = "ritirato";
+			break;
+		case 'Squ.':
+			$info = "squalificato";
+			break;
+		case $symbol_1_partecipazione:
+			$info = "1<sup>a</sup> partecipazione";
+			break;
+		case $symbol_record:
+			$info = "miglioramento record personale";
+			break;
+		default:
+			$info = "";
+			//echo "Voce di legenda sconosciuta!";
+		break;
+		}
+		
+		if (strlen($info) > 0)
+		{
+			echo '<tr><td>';
+			echo $voce;
+			echo '</td><td>:</td><td class="descrizione">';
+			echo $info;
+			echo '</td></tr>';
+		}
+	}
+	echo '</table>';
+}
+
+}
+
+
 function show_table($archivio,$mask,$class,$num_colonne = 1,$font_size = -1,$show_note = 1,$tooltip_data) {
 
 # dichiara variabili
@@ -268,7 +322,8 @@ echo "<table>\n";
 echo $head_string;
 echo "  <tbody>\n";
 
-$note = array();
+$note = array(); # insieme delle note visualizzate
+$legenda = array(); # insieme delle voci in legenda
 for ($i = 1; $i < count($archivio); $i++) {
 	$prestazione = $archivio[$i];
 	
@@ -307,15 +362,22 @@ for ($i = 1; $i < count($archivio); $i++) {
 			}
 		}
 			
-		# campo tempo
+		# gestisci le note (se viene visualizzato il tempo)
 		if (array_key_exists("info",$prestazione) & ($mask[$temp] == $indice_tempo) ) {
 			$nota = trim($prestazione[$indice_nota]);
 			if (($show_note) & (strlen($nota) > 0)) {
-				$id_nota = count($note)+1;
+				if (in_array($nota,$note))
+				{
+					$id_nota = array_search($nota,$note); // la nota e' ripetuta, recuperane l'indice
+				}
+				else
+				{
+					$id_nota = count($note)+1;
+				}
 				$ks = "<a href=\"#nota_".$id_nota."\">&sect;".$id_nota."</a>";
 				$campo .= " <small>".$ks."</small>";
 				
-				array_push($note,$nota);
+				$note[$id_nota] = $nota;
 			}
 		}
 			
@@ -323,6 +385,22 @@ for ($i = 1; $i < count($archivio); $i++) {
 		if (array_key_exists("info",$prestazione) & ($mask[$temp] == $indice_posiz) ) {
 			if ($campo != '-') {
 				$campo = $campo."&deg;";
+			}
+		}
+		
+		# gestisci le note (se viene visualizzato il tempo)
+		if ($mask[$temp] == $indice_tempo) // note di gara (F.T.M.,Rit.,Squ.)
+		{
+			if ((tempo_numerico($campo)) > 500)
+			{
+				array_push($legenda,$campo);
+			}
+		}
+		if ($mask[$temp] == 'simb') // note con simboli grafici (record personale, prima partecipazione)
+		{
+			if (in_array($campo,array($symbol_record,$symbol_1_partecipazione)))
+			{
+				array_push($legenda,$campo);
 			}
 		}
 		
@@ -369,17 +447,20 @@ echo "</table>\n";
 echo "</div>";
 
 # mostra note
-if (count($note) > 0) {
+if (count($note) > 0)
+{
 	echo "<br>\n";
 	echo "<div class=\"nota\">\n";
 	echo "Note:<br>\n";
-	for ($i = 0; $i < count($note); $i++) {
-		echo "<a name=\"nota_".($i+1)."\"><span style=\"color: rgb(255, 0, 0);\">&sect;".($i+1)."</span></a>: ".$note[$i]."<br>\n";
-		}
-	echo "</div>\n";
+	for ($i = 1; $i <= count($note); $i++)
+	{
+		echo "<a name=\"nota_".$i."\"><span style=\"color: rgb(255, 0, 0);\">&sect;".$i."</span></a>: ".$note[$i]."<br>\n";
 	}
+	echo "</div>\n";
+}
 
-
+# mostra legenda
+show_legenda($legenda);
 
 }
 
@@ -561,7 +642,7 @@ function aggiungi_simboli($archivio) {
 extract(indici());
 
 $archivio2 = array($archivio[0]);
-$archivio2[0]['simb'] = "<br>";#"Simboli";
+$archivio2[0]['simb'] = "<br>";
 
 $lista_record = array();
 for ($i = 1; $i < count($archivio); $i++) {
