@@ -12,6 +12,8 @@ extract(indici());
   <title><?php echo $web_title ?> - Classifica record personali</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
+  <meta name="description" content="Classifica dei record personali di ciascun atleta">
+  <meta name="keywords" content="record, personale, miglior tempo">
   <style type="text/css">@import "<?php echo $filename_css ?>";</style>
 </head>
 <body class="tabella">
@@ -59,30 +61,12 @@ $archivio_rielaborato = fondi_nome_id($archivio_record, $indice_nome, $indice_id
 $mask = array($indice_posiz,$indice_nome,$indice_tempo,$indice_anno); # visualizza tutti i campi
 show_table($archivio_rielaborato,$mask,'tabella',3,12,0); # tabella in tre colonne, font 12, senza note
 
+echo $homepage_link;
+
 # logga il contatto
 $counter = count_page("classifica_generale_MF",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
 
 ?>
-
-<br>
-<table class="tabella_legenda">
-	<tr>
-		<td>F.T.M.</td>
-		<td>:</td>
-		<td class="descrizione">fuori tempo massimo (<?php echo $tempo_max_M ?> minuti uomini, <?php echo $tempo_max_F ?> minuti donne)</td>
-	</tr>
-	<tr>
-		<td>Rit.</td>
-		<td>:</td>
-		<td class="descrizione">ritirato</td>
-	</tr>
-	<tr>
-		<td>Squ..</td>
-		<td>:</td>
-		<td class="descrizione">squalificato</td>
-	</tr>
-</table>
-
 
 </body>
 </html>
