@@ -6,17 +6,20 @@ require_once('libreria.php');
 
 # dichiara variabili
 extract(indici());
+
+$anno = $_REQUEST['anno'];
+
 ?>
 <head>
   <title><?php echo $web_title ?> - Album fotografico</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
+  <meta name="description" content="Album fotografico dell'edizione <?php echo $anno; ?> della <?php echo $race_name; ?>">
+  <meta name="keywords" content="album fotografico, edizione <?php echo $anno; ?>">
   <style type="text/css">@import "<?php echo $filename_css ?>";</style>
 </head>
 
 <?php 
-
-$anno = $_REQUEST['anno'];
 
 // carica elenco delle foto disponibili
 $elenco_foto = get_config_file($filename_albums,3);
@@ -109,7 +112,8 @@ cell_R.height=x-13*2;
 					
 				<td valign="top" width="<?php echo round(100/$photo_per_row) ?>%">
 					<div align="right">
-						<h2><a href="index.php">Homepage</a></h2>
+						<!--h2><a href="index.php">Homepage</a></h2-->
+						<h2>&nbsp;</h2>
 					</div>
 				</td>
 			</tr>
@@ -206,10 +210,18 @@ for ($i = 0; $i<$photo_per_row; $i++)
 } // for ($riga=0; $riga<2; $riga++)
 ?>
 
-
-
-
 </tbody></table>
+
+<br>
+
+<?php
+
+echo $homepage_link;
+
+# logga il contatto
+$counter = count_page("album",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
+
+?>
 
 </body>
 </html>
