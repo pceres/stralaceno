@@ -6,11 +6,16 @@ require_once('libreria.php');
 
 # dichiara variabili
 extract(indici());
+
+$anno = $_REQUEST['anno']; 				# anno richiesto
+
 ?>
 <head>
-  <title><?php echo $web_title ?> - Archivio storico annuale</title>
+  <title><?php echo $web_title ?> - Archivio storico annuale - Edizione <?php echo $anno; ?></title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
+  <meta name="description" content="Tempi ufficiali dell'edizione <?php echo $anno; ?>">
+  <meta name="keywords" content="Tempi ufficiali, classifica, edizione <?php echo $anno; ?>">
   <style type="text/css">@import "<?php echo $filename_css ?>";</style>
 </head>
 <body class="tabella">
@@ -21,8 +26,6 @@ $archivio = load_data($filename_tempi,$num_colonne_prestazioni);
 
 $atleti = load_data($filename_atleti,$num_colonne_atleti);
 $archivio = merge_tempi_atleti($archivio,$atleti);
-
-$anno = $_REQUEST['anno']; 				# anno richiesto
 
 #verifica disponibilita' album fotografico
 // carica elenco delle foto disponibili
@@ -62,49 +65,11 @@ $archivio_ordinato = ordina_archivio($archivio_filtrato,$indice_posiz, $indice_n
 $archivio_rielaborato = fondi_nome_id($archivio_ordinato, $indice_nome, $indice_id);
 
 $mask = array($indice_posiz,$indice_nome,$indice_tempo,'simb'); # escludo l'anno
-show_table($archivio_rielaborato,$mask,'tabella',3,12);
-
-
+show_table($archivio_rielaborato,$mask,'tabella',3,12,1); # tabella in tre colonne, font 12, con note
 
 # logga il contatto
 $counter = count_page("classifica_anno",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
 
-?>
-
-<br>
-<table class="tabella_legenda">
-	<tr>
-		<td>F.T.M.</td>
-		<td>:</td>
-		<td class="descrizione">fuori tempo massimo (<?php echo $tempo_max_M ?> minuti uomini, <?php echo $tempo_max_F ?> minuti donne)</td>
-	</tr>
-	<tr>
-		<td>Rit.</td>
-		<td>:</td>
-		<td class="descrizione">ritirato</td>
-	</tr>
-	<tr>
-		<td>Squ..</td>
-		<td>:</td>
-		<td class="descrizione">squalificato</td>
-	</tr>
-	<tr>
-		<td>
-		<?php echo $symbol_1_partecipazione; ?>
-		</td>
-		<td>:</td>
-		<td class="descrizione">1<sup>a</sup> partecipazione</td>
-	</tr>
-	<tr>
-		<td>
-		<?php echo $symbol_record; ?>
-		</td>
-		<td>:</td>
-		<td class="descrizione">miglioramento record personale</td>
-	</tr>
-</table>
-
-<?php
 # visualizzazione organizzatori
 $organizzatori = load_data($filename_organizzatori,$num_colonne_organizzatori);
 
@@ -149,6 +114,9 @@ l'indirizzo e-mail: <a href="mailto:<?php echo $email_info?>?subject=Info%20sui%
 
 <?php
 }
+
+echo $homepage_link;
+
 ?>
 
 

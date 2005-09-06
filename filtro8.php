@@ -8,9 +8,11 @@ require_once('libreria.php');
 extract(indici());
 ?>
 <head>
-  <title><?php echo $web_title ?> - Archivio storico annuale</title>
+  <title><?php echo $web_title ?> - Archivio storico annuale - Grafico tempi</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
+  <meta name="description" content="Confronto grafico tempi">
+  <meta name="keywords" content="Grafico tempi">    
   <style type="text/css">@import "<?php echo $filename_css ?>";</style>  
 </head>
 <body class="tabella">
@@ -106,6 +108,7 @@ for ($i = 1; $i <= $num_col*$colonne; $i++) {
 </div>
 </form>
 
+<?php echo $homepage_link; ?>
 
 </body>
 </html>

@@ -11,6 +11,8 @@ extract(indici());
   <title><?php echo $web_title ?> - Classifica partecipazioni</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
+  <meta name="description" content="Classifica partecipazioni">
+  <meta name="keywords" content="classifica, numero di partecipazioni">
   <style type="text/css">@import "<?php echo $filename_css ?>";</style>
 </head>
 <body class="tabella">
@@ -204,6 +206,8 @@ un atleta che abbia partecipato nel 1999, 2002 e 2004 avr&agrave; un punteggio r
 
 <?php
 
+echo $homepage_link;
+  
 # logga il contatto
 $counter = count_page("classifica_partecipazioni",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
 

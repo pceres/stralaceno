@@ -11,6 +11,8 @@ extract(indici());
   <title><?php echo $web_title ?> - Albo d'oro</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
+  <meta name="description" content="Albo d'oro della gara podistica: i vincitori di ciascuna edizione">
+  <meta name="keywords" content="Vincitori, tempi record">
   <style type="text/css">@import "<?php echo $filename_css ?>";</style>
 </head>
 <body class="tabella">
@@ -66,6 +68,8 @@ $tabella_rielaborata = fondi_nome_id($tabella, $indice_nome, $indice_id);
 $mask = array($indice_nome,$indice_tempo,$indice_anno);
 
 show_table($tabella_rielaborata,$mask,'tabella');
+
+echo $homepage_link;
 
 # logga il contatto
 $counter = count_page("albo_d_oro",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
