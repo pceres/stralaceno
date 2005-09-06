@@ -7,18 +7,21 @@ require_once('libreria.php');
 
 # dichiara variabili
 extract(indici());
+
+$nome_album = $_REQUEST['album'];
+$id_photo = $_REQUEST['id_photo'];
+
 ?>
 <head>
   <title><?php echo $web_title ?> - Album fotografico</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
+  <meta name="description" content="Foto <?php echo $id_photo; ?> dell'album <?php echo $nome_album; ?> della <?php echo $race_name; ?>">
+  <meta name="keywords" content="album fotografico, foto">
   <style type="text/css">@import "<?php echo $filename_css ?>";</style>
 </head>
 
 <?php 
-
-$nome_album = $_REQUEST['album'];
-$id_photo = $_REQUEST['id_photo'];
 
 // carica elenco delle foto disponibili
 $elenco_foto = get_config_file($filename_albums,3);
@@ -102,7 +105,8 @@ cell_R.height=x-13*2;
 					
 				<td valign="top" width="<?php echo round(100/$photo_per_row) ?>%">
 					<div align="right">
-						<h2><a href="index.php">Homepage</a></h2>
+						<!--h2><a href="index.php">Homepage</a></h2-->
+						<h2>&nbsp;</h2>
 					</div>
 				</td>
 			</tr>
@@ -230,4 +234,12 @@ if (strlen($email_info)>0) { // se e' disponibile una email per i contatti
 ?>
 			
 		</tbody></table>
+<?php
+
+echo $homepage_link;
+
+# logga il contatto
+$counter = count_page("foto",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
+
+?>
 	</body></html>
