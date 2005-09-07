@@ -206,8 +206,8 @@ dscn5408.jpg::Foto 102::
 dscn5411.jpg::Foto 103::
 dscn5412.jpg::Foto 104::
 dscn5413.jpg::Foto 105::
-dscn5414.jpg::Foto 106::
-dscn5416.jpg::Foto 107::
+dscn5416.jpg::Foto 106::
+dscn5414.jpg::Foto 107::
 dscn5417.jpg::Foto 108::
 dscn5418.jpg::Foto 109::
 dscn5419.jpg::Foto 110::
