@@ -155,6 +155,8 @@ $tempo_max_grafico = max(array($tempo_max_F,$tempo_max_M));
 $symbol_empty= '<img style="display:inline;" align="middle" height="13" width="13" alt="empty" border="0">';
 $symbol_1_partecipazione= '<img src="'.$site_abs_path.'images/0x2606(star).bmp" style="display:inline;" align="middle" height="13" alt="1a partecipazione" border="0">';
 $symbol_record  		= '<img src="'.$site_abs_path.'images/0x263A(smiling_face).bmp" style="display:inline;" align="middle" height="13" alt="record personale" border="0">';
+//$symbol_record_best		= $symbol_record.$symbol_record;
+$symbol_record_best		='<img src="'.$site_abs_path.'images/0x2606(star2).bmp" style="display:inline;" align="middle" height="13" alt="1a partecipazione" border="0">';
 $homepage_link 			= '<hr><div align="right"><a class="txt_link" href="'.$script_abs_path.'index.php">Torna alla homepage</a></div>';
 
 #admin
@@ -170,7 +172,7 @@ $indici3 = array('indice3_id' => $indice3_id,'indice3_nome' => $indice3_nome,'in
 $formattazione = array('style_sfondo_maschi' => $style_sfondo_maschi,'style_sfondo_femmine' => $style_sfondo_femmine);
 $filenames = array('filename_css' => $filename_css,'filename_tempi' => $filename_tempi,'filename_atleti' => $filename_atleti,'filename_organizzatori' => $filename_organizzatori,'filedir_counter' => $filedir_counter,'articles_dir' => $articles_dir,'article_online_file' => $article_online_file,'filename_links' => $filename_links,'filename_albums' => $filename_albums);
 $pathnames = array('root_path' => $root_path,'site_abs_path' => $site_abs_path,'script_abs_path' => $script_abs_path,'modules_site_path' => $modules_site_path,'config_dir' => $config_dir);
-$varie = array('symbol_1_partecipazione' => $symbol_1_partecipazione,'symbol_record' => $symbol_record);
+$varie = array('symbol_1_partecipazione' => $symbol_1_partecipazione,'symbol_record' => $symbol_record,'symbol_record_best' => $symbol_record_best);
 $custom = array('homepage_link' => $homepage_link,'tempo_max_M' => $tempo_max_M,'tempo_max_F' => $tempo_max_F,'tempo_max_grafico' => $tempo_max_grafico,'race_name' => $race_name,'web_title' => $web_title,'web_description' => $web_description,'web_keywords' => $web_keywords,'email_info' => $email_info);
 $admin = array('password_config' => $password_config,'password_articoli' => $password_articoli,'password_upload_file' => $password_upload_file,'max_last_editions' => $max_last_editions,'max_online_articles' => $max_online_articles);
 
@@ -200,7 +202,7 @@ return $result;
 }
 
 
-function merge_tempi_atleti($archivio,$atleti) {
+function merge_tempi_atleti($archivio,$atleti,&$edizioni) {
 
 # dichiara variabili
 extract(indici());
@@ -210,14 +212,23 @@ for ($i = 0; $i < count($archivio); $i++) {
 	
 	
 	#  gestisci l'header
-	if (count($info)==0) {
+	if (count($info)==0) 
+	{
 		$info = $atleti[0];
+	}
+	else
+	{
+		$edizione = $archivio[$i][$indice_anno];
+		if (!in_array($edizione,$edizioni))
+		{
+			array_push($edizioni,$edizione);
 		}
-	
-	#array_push($archivio[$i],$info);
-	$archivio[$i][$indice_info] = $info;
 	}
 	
+	$archivio[$i][$indice_info] = $info;
+	
+}
+
 return $archivio;
 }
 
@@ -254,6 +265,9 @@ if (count($legenda) > 0)
 			break;
 		case $symbol_record:
 			$info = "miglioramento record personale";
+			break;
+		case $symbol_record_best:
+			$info = "attuale record personale";
 			break;
 		default:
 			$info = "";
@@ -398,7 +412,7 @@ for ($i = 1; $i < count($archivio); $i++) {
 		}
 		if ($mask[$temp] == 'simb') // note con simboli grafici (record personale, prima partecipazione)
 		{
-			if (in_array($campo,array($symbol_record,$symbol_1_partecipazione)))
+			if (in_array($campo,array($symbol_record_best,$symbol_record,$symbol_1_partecipazione)))
 			{
 				array_push($legenda,$campo);
 			}
@@ -644,22 +658,33 @@ extract(indici());
 $archivio2 = array($archivio[0]);
 $archivio2[0]['simb'] = "<br>";
 
+$prima_edizione = $archivio[1][$indice_anno];
 $lista_record = array();
+$lista_prestazioni_best = array();
 for ($i = 1; $i < count($archivio); $i++) {
 	$prestazione = $archivio[$i];
 	
 	$id = $prestazione[$indice_id];
 	$tempo = tempo_numerico($prestazione[$indice_tempo]);
+	$edizione = $prestazione[$indice_anno];
 	
-	if (!array_key_exists($id,$lista_record)) 
+	if (!array_key_exists($id,$lista_record))  // se e' la prima volta che compare in archivio
 	{
-		$simb = $symbol_1_partecipazione;
+		if ($edizione != $prima_edizione) // usa il simbolo di prima partecipazione...
+		{
+			$simb = $symbol_1_partecipazione;
+		}
+		else // ...tranne che per la prima edizione della gara
+		{
+			$simb = $symbol_empty;
+		}
 		$lista_record[$id] = $tempo;
 	}
-	elseif ($lista_record[$id] > $tempo) 
+	elseif ($lista_record[$id] > $tempo) // se la prestazione in esame presenta un tempo migliore rispetto a quelli precedenti, si tratta di un record personale
 	{
 		$simb = $symbol_record;
 		$lista_record[$id] = $tempo;
+		$lista_prestazioni_best[$id] = $i; // id della prestazione con record
 	}
 	else 
 	{
@@ -670,6 +695,13 @@ for ($i = 1; $i < count($archivio); $i++) {
 	
 	array_push($archivio2,$prestazione);
 	}
+
+// 
+foreach ($lista_prestazioni_best as $id => $id_prestazione) 
+{
+	if ($archivio2[$id_prestazione]['simb']==$symbol_record)
+		$archivio2[$id_prestazione]['simb'] = $symbol_record_best;
+}
 
 return $archivio2;
 }
