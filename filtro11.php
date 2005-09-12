@@ -161,7 +161,7 @@ $head = array_merge(array_slice($archivio[0],0,$indice_nome+1),'Pos.','Numero<br
 $archivio2 = array_merge(array($head),$archivio2);
 
 $atleti = load_data($filename_atleti,$num_colonne_atleti);
-$archivio = merge_tempi_atleti($archivio2,$atleti);
+$archivio = merge_tempi_atleti($archivio2,$atleti); // non uso il terzo parametro opzionale, in quanto non verrebbe calcolato correttamente
 
 
 $archivio_ordinato = ordina_archivio($archivio,$indice_presenze,$indice_punteggio,SORT_DESC);
