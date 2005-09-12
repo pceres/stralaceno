@@ -35,7 +35,17 @@ Albums attuali:<br>
 	<input type="submit" value="Invia File">
 </form>
 
-
+<hr>
+Visualiza tutte le foto disponibili per ciascun album:<br>
+<form name="debug_album" action="<?php echo $script_abs_path; ?>album.php" method="post">
+<?php
+$elenco_foto = get_config_file($filename_albums,3);
+foreach ($elenco_foto as $anno => $album)
+{
+	echo "<a href=\"$script_abs_path"."album.php?anno=$anno&amp;password=show_all_photos\">$anno</a> ";
+}
+?>
+</form>
 
 
 <?php
