@@ -89,7 +89,7 @@ cell_R.height=x-13*2;
 </script>
 
 
-		<img src="<?php echo $site_abs_path ?>custom/images/cornice/Null.gif" border="0" height="10" width="1">
+		<img src="<?php echo $site_abs_path ?>custom/images/cornice/Null.jpg" border="0" height="10" width="1">
 		
 		<!-- tabella riga header -->
 		<table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody>
@@ -200,7 +200,7 @@ $path = str_replace(' ','%20',$path);
 			
 			<!-- riga vuota per distanziare la riga successiva -->
 			<tr>
-				<td height="20"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Null.gif" border="0" height="20" width="20"></td>
+				<td height="20"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Null.jpg" border="0" height="20" width="20"></td>
 			</tr>
 			
 			
@@ -215,7 +215,7 @@ $path = str_replace(' ','%20',$path);
 
 			<!-- riga vuota per distanziare la riga successiva -->
 			<tr>
-				<td height="20"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Null.gif" border="0" height="20" width="20"></td>
+				<td height="20"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Null.jpg" border="0" height="20" width="20"></td>
 			</tr>
 
 <?php
