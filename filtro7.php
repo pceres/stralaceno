@@ -26,7 +26,9 @@ extract(indici());
 $archivio = load_data($filename_tempi,$num_colonne_prestazioni);
 
 $atleti = load_data($filename_atleti,$num_colonne_atleti);
-$archivio = merge_tempi_atleti($archivio,$atleti);
+$lista_edizioni=array();
+$archivio = merge_tempi_atleti($archivio,$atleti,$lista_edizioni);
+
 $archivio_ordinato = ordina_archivio($archivio,$indice_anno, $indice_posiz);
 
 $tabella = array($archivio[0]);

@@ -23,7 +23,8 @@ extract(indici());
 $archivio = load_data($filename_tempi,$num_colonne_prestazioni);
 
 $atleti = load_data($filename_atleti,$num_colonne_atleti);
-#$archivio = merge_tempi_atleti($archivio,$atleti);
+#$lista_edizioni=array();
+#$archivio = merge_tempi_atleti($archivio,$atleti,$lista_edizioni);
 
 $atleti = fondi_nome_id($atleti, $indice_nome, $indice_id);
 
