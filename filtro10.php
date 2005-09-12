@@ -26,7 +26,8 @@ extract(indici());
 $archivio = load_data($filename_tempi,$num_colonne_prestazioni);
 
 $atleti = load_data($filename_atleti,$num_colonne_atleti);
-$archivio = merge_tempi_atleti($archivio,$atleti);
+$lista_edizioni=array();
+$archivio = merge_tempi_atleti($archivio,$atleti,$lista_edizioni);
 
 $lista_regola_campo = array(array($indice_info,$indice2_sesso));
 $lista_regola_valore = array('F');
