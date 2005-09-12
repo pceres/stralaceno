@@ -9,7 +9,6 @@ require_once('libreria.php');
 extract(indici());
 
 $anno = $_REQUEST['anno'];
-
 ?>
 <head>
   <title><?php echo $web_title ?> - Album fotografico</title>
@@ -29,6 +28,41 @@ $id_titolo_foto = 1;
 $id_descrizione_foto = 2;
 
 $album = $elenco_foto[$anno];
+
+# aggiungi foto invisibili (quelle presenti nella relativa directory, ma nonnel file di configurazione album.txt
+$password = $_REQUEST['password'];
+//print_r($_REQUEST);
+//die();
+if ($password=="show_all_photos")
+{
+	$dir = $root_path."custom/album/$anno/";
+	$lista_online = array();
+	foreach ($album as $foto)
+	{
+		array_push($lista_online,$foto[0]);
+	}
+	$album2 = array();
+	if (is_dir($dir)) {
+	if ($dh = opendir($dir)) {
+			while (($file = readdir($dh)) !== false) {
+				if ((filetype($dir . $file) == "file") & (strpos($dir.$file,"thumb",0) == 0))
+				{
+					if (in_array($file,$lista_online))
+					{
+						$item_data = $album[array_search($file,$lista_online)];
+					}
+					else
+					{
+						$item_data = array($file,"Foto ".(count($album2)+1)." (invisibile)",$file);
+					}
+					$album2[count($album2)] = $item_data;
+				}
+			}
+		closedir($dh);
+		}
+	}
+	$album=$album2;
+}
 
 $photo_per_row = 3; // numero di foto per riga
 
@@ -99,7 +133,8 @@ cell_R.height=x-13*2;
 			
 			<!-- riga vuota -->
 			<tr>
-				<td colspan="<?php echo $photo_per_row ?>" height="10"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Null.gif" border="0" height="10" width="11"></td>
+				<!--td colspan="<?php echo $photo_per_row ?>" height="10"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Null.gif" border="0" height="10" width="11"></td-->
+				<td colspan="<?php echo $photo_per_row ?>" height="10"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Null.jpg" border="0" height="10" width="11"></td>
 			</tr>
 			
 			
@@ -149,6 +184,14 @@ for ($i = 0; $i<$photo_per_row; $i++)
 		}
 		$nome_foto = str_replace(' ', '%20', $nome_foto); // formatta correttamente gli spazi in html
 		
+		if (strpos($album[$photo_count][$id_titolo_foto],"invisibile") == 0) // se non sei in modalita' debug, punta a show_photo con l'id adeguato
+		{
+			$link_foto = "show_photo.php?id_photo=$photo_count&amp;album=$anno";
+		}
+		else // altrimenti punta direttamente alla foto
+		{
+			$link_foto = $site_abs_path."custom/album/$anno/".$album[$photo_count][$id_nomefile_foto];
+		}
 ?>
 <td align='center' width='<?php echo round(100/$photo_per_row); ?>%' valign='middle'>
 		<table id="thumb_table_<?php echo $photo_count ?>" border='0' cellpadding='0' cellspacing='0'>
@@ -156,7 +199,7 @@ for ($i = 0; $i<$photo_per_row; $i++)
 				<td colspan='3'><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_TL.gif" alt="TL" width="30" height="16" border="0" /><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_T.gif' alt="T" width='105' height='16' border='0' /><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_TR.gif' alt="TR" width='30' height='16' border='0' /></td>
 			</tr> <tr>
 				<td><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_LT.gif' alt="LT" width='16' height='13' border='0' /></td>
-				<td rowspan='3' valign=middle><a href='show_photo.php?id_photo=<?php echo $photo_count ?>&amp;album=<?php echo $anno ?>'><img id="img_<?php echo $photo_count ?>" src='<?php echo $nome_foto ?>' border='0' width='133' /></a></td>
+				<td rowspan='3' valign=middle><a href='<?php echo $link_foto?>'><img id="img_<?php echo $photo_count ?>" src='<?php echo $nome_foto ?>' border='0' width='133' /></a></td>
 				<td><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_RT.gif' alt="RT" width='16' height='13' border='0' /></td>
 			</tr> <tr>
 				<td style="background-image:url(<?php echo $site_abs_path ?>custom/images/cornice/Bord_L.gif);">&nbsp;</td>
