@@ -22,11 +22,25 @@ $anno = $_REQUEST['anno']; 				# anno richiesto
 <body class="tabella">
   
 <?php
-
 $archivio = load_data($filename_tempi,$num_colonne_prestazioni);
 
 $atleti = load_data($filename_atleti,$num_colonne_atleti);
-$archivio = merge_tempi_atleti($archivio,$atleti);
+
+$lista_edizioni=array();
+$archivio = merge_tempi_atleti($archivio,$atleti,$lista_edizioni);
+
+# individua edizioni precedente e successiva
+$prec='';
+$succ='';
+for ($i=0;$i<count($lista_edizioni);$i++)
+{
+
+	if ($lista_edizioni[$i] == $anno)
+	{
+		if ($i>0) $prec = $lista_edizioni[$i-1];
+		if ($i<count($lista_edizioni)) $succ = $lista_edizioni[$i+1];
+	}
+}
 
 #verifica disponibilita' album fotografico
 // carica elenco delle foto disponibili
@@ -42,14 +56,30 @@ if (array_key_exists($anno,$elenco_foto))
 }
 else
 {
-	$nota_album = "";
+	//$nota_album = "";
+	$nota_album = "<img src=\"".$site_abs_path."custom/images/cornice/null.jpg\" border='0' height=\"31\" width=\"1\">";
 }
 
 #prepara il titolo
-echo "<div class=\"titolo_tabella\">$race_name $anno - risultati ufficiali : $nota_album</div>";
+echo "<table width=\"100%\"><tr>";
+echo "<td width=\"25%\">";
+if (!empty($prec))
+{
+	echo "<a class=\"txt_link\" href=\"filtro4.php?anno=$prec\">edizione $prec</a>";
+}
+echo "</td><td width=\"50%\">";
+echo "<span class=\"titolo_tabella\">$race_name $anno - risultati ufficiali : $nota_album</span>";
+echo "</td><td width=\"25%\" align=\"right\">";
+if (!empty($succ))
+{
+	echo "<a class=\"txt_link\" href=\"filtro4.php?anno=$succ\">edizione $succ</a>";
+}
+echo "</td>";
+echo "</tr></table>";
+//echo "<div class=\"titolo_tabella\">$race_name $anno - risultati ufficiali : $nota_album</div>";
 
 #prepara la tabella
-$archivio = aggiungi_simboli($archivio);
+$archivio = aggiungi_simboli($archivio); // aggiunge il campo 'simb' con il tag html che mostra il simbolo
 
 $lista_regola_campo = array($indice_anno);
 $lista_regola_valore = array($anno);
@@ -113,10 +143,23 @@ Gli interessati, o chi sia in grado di fornire indicazioni al riguardo, sono pre
 l'indirizzo e-mail: <a href="mailto:<?php echo $email_info?>?subject=Info%20sui%20collaboratori%20della%20<?php echo rawurlencode($race_name) ?>"><?php echo $email_info?></a>.  <br>
 </div>
 
+<br>
 <?php
 }
 
 echo $homepage_link;
+/*echo "<div align=\"right\">";
+if (!empty($prec))
+{
+	echo "<a class=\"txt_link\" href=\"filtro4.php?anno=$prec\">edizione $prec</a>";
+	echo " - ";
+}
+if (!empty($succ))
+{
+	echo "<a class=\"txt_link\" href=\"filtro4.php?anno=$succ\">edizione $succ</a>";
+	echo " - ";
+}
+echo "</div>";*/
 
 ?>
 
