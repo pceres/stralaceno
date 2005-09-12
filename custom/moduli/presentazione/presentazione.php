@@ -39,7 +39,7 @@ extract(indici());
 
 
 <div style="text-align: center;"><a class="txt_link" 
- href="<?php echo $site_abs_path ?>custom/moduli/presentazione/present.swf">Visualizza presentazione FLASH (250 kbytes)</a>
+ href="<?php echo $site_abs_path ?>custom/moduli/presentazione/present.swf">Visualizza presentazione FLASH (<?php echo ceil(filesize($root_path."custom/moduli/presentazione/present.swf")/1024); ?> kbytes)</a>
 </div>
 
 <hr>
