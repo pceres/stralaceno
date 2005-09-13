@@ -7,8 +7,7 @@ Prima della donne Angela Aiello, che ha completato il percorso in 36'06''.
 <a href="filtro4.php?anno=2005">L'ordine d'arrivo completo dell'edizione 2005 &egrave; consultabile qui</a>.
 <p>L'album fotografico della Stralaceno 2005 &egrave; disponibile <a href="album.php?anno=2005">qui</a>. 
 Aspettiamo anche il vostro contributo...
-<p>Ecco la foto del vincitore Francesco Ceres:<br>
 <div align="center">
-<img id="foto" src="%file_root%custom/album/2005/dscn5444.jpg" alt="Foto del vincitore Francesco Ceres" border="0" width="420">
+<img id="foto" src="%file_root%custom/album/2005/dscn5374.jpg" alt="Foto del gruppo di testa" border="0" width="420">
 </div>
 --- End body ---
