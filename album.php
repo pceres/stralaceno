@@ -33,7 +33,33 @@ $album = $elenco_foto[$anno];
 $password = $_REQUEST['password'];
 //print_r($_REQUEST);
 //die();
+
+# eventuale password temporanea (stringa vuota "" per disabilitarla)
+$temp_password = "caposeleonline";
+$temp_timeout = mktime(24,00,00,9,30,2005); // scade il 24:00:00 del 30 settembre 2005
+$temp_album = "2005"; // album abilitati per la password temporanea
+
+// password per pagina amministrativa
+$debug_mode = FALSE;
 if ($password=="show_all_photos")
+{
+	$debug_mode = TRUE;
+}
+
+// eventuale password temporanea
+if ( ($anno === $temp_album) && (!empty($temp_password)) && ($password==$temp_password) )
+{
+	if (time() <= $temp_timeout)
+	{
+		$debug_mode = TRUE;
+	}
+	else
+	{
+		die("La password e' scaduta!");
+	}
+}
+
+if ($debug_mode)
 {
 	$dir = $root_path."custom/album/$anno/";
 	$lista_online = array();
@@ -43,7 +69,7 @@ if ($password=="show_all_photos")
 	}
 	$album2 = array();
 	if (is_dir($dir)) {
-	if ($dh = opendir($dir)) {
+		if ($dh = opendir($dir)) {
 			while (($file = readdir($dh)) !== false) {
 				if ((filetype($dir . $file) == "file") & (strpos($dir.$file,"thumb",0) == 0))
 				{
@@ -60,6 +86,10 @@ if ($password=="show_all_photos")
 			}
 		closedir($dh);
 		}
+	}
+	else
+	{
+		die("L'album $anno non esiste!");
 	}
 	$album=$album2;
 }
@@ -139,11 +169,23 @@ cell_R.height=x-13*2;
 			
 			
 			<!-- riga descrizione album -->
+<?php
+# se il titolo dell'album $anno e' presente nell'archivio tempi, allora metti il link ai tempi di quell'edizione
+$archivio = load_data($filename_tempi,$num_colonne_prestazioni);
+$descrizione_album = "album <b>$anno</b>";
+foreach ($archivio as $prestazione)
+{
+	if ($prestazione[$indice_anno] == $anno)
+	{
+		$descrizione_album = "<a href=\"filtro4.php?anno=$anno\">edizione $anno</a>";
+	}
+}
+?>
 			<tr>
 				<td colspan="<?php echo $photo_per_row-1; ?>">
 					<font color="#000000" face="Times New Roman,Georgia,Times" size="4">
 						&nbsp;&nbsp;&nbsp;&nbsp;
-						Foto disponibili per l'<a href="filtro4.php?anno=<?php echo $anno ?>">edizione <?php echo $anno ?></a>:
+						Foto disponibili per l'<?php echo $descrizione_album ?>:
 					</font></td>
 					
 				<td valign="top" width="<?php echo round(100/$photo_per_row) ?>%">
@@ -184,7 +226,7 @@ for ($i = 0; $i<$photo_per_row; $i++)
 		}
 		$nome_foto = str_replace(' ', '%20', $nome_foto); // formatta correttamente gli spazi in html
 		
-		if (strpos($album[$photo_count][$id_titolo_foto],"invisibile") == 0) // se non sei in modalita' debug, punta a show_photo con l'id adeguato
+		if (!$debug_mode) // se non sei in modalita' debug, punta a show_photo con l'id adeguato
 		{
 			$link_foto = "show_photo.php?id_photo=$photo_count&amp;album=$anno";
 		}
