@@ -160,7 +160,12 @@ selezioni di qualsiasi campo select all'interno del documento.
 	<?php 
 		$counter = count_page("homepage",array("COUNT"=>0,"LOG"=>0),$filedir_counter); # disabilita tutto, leggi solo il contatore
 		echo $counter; 
-	?>
+		echo "<br>";
+	?> 
+	<!--br-->
+	<!--script language="JavaScript"  type="text/javascript" src="<?php echo $script_abs_path; ?>fkounter5/counter.js.php?id=stralaceno&amp;mode=graphic"></script-->
+	<script language="JavaScript"  type="text/javascript" src="<?php echo $script_abs_path; ?>fkounter5/counter.js.php?id=stralaceno&amp;mode=hidden"></script>
+
 	</i>
 	</div>
 
