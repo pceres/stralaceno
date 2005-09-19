@@ -1,0 +1,64 @@
+
+                                        __                      PHP Script    _    vs 5.0
+                                       / _| __ _ _ __   /\ /\___  _   _ _ __ | |_ ___ _ __
+                                      | |_ / _` | '_ \ / //_/ _ \| | | | '_ \| __/ _ \ '__|
+                                      |  _| (_| | | | / __ \ (_) | |_| | | | | ||  __/ |
+                                      |_|  \__,_|_| |_\/  \/\___/ \__,_|_| |_|\__\___|_|
+
+ ******************************************************************************************
+ db4to5.txt                                   fanatiko <fankounter@libero.it>, ITALY
+ ******************************************************************************************
+
+ Il fanKounter 5 non è direttamente compatibile con le versioni precedenti, per cui i dati
+ dei contatori precedentemente creati non possono essere ereditati dalla nuova versione.
+
+ Con questo tool si possono convertire i file di archivio del fanKounter 4 a file di dati
+ validi per il fanKounter versione 5. Questo tool non lavora con file di dati creati da
+ versioni del fanKounter 3 e precedenti.
+
+ Per effettuare la conversione dei dati, attenersi ai punti successivi.
+
+ * Operazione preliminare: archiviare tutti i dati di ogni contatore versione 4.
+
+   NOTA - Questa procedura richiede che siano disponibili tutti i file del fanKounter
+   versione 4.x. Solo dopo di essa sarà possibile eliminare i vecchi file dello script.
+
+   Per facilitare questa operazione, aprire tutti i file di configurazione dei vecchi
+   contatori ed impostare la variabile '$cnf__ksize_limit_db' al valore 0. Accedere,
+   quindi, alle statistiche (versione 4.x) di ognuno di essi.
+
+   Come conseguenza di queste operazioni, i file '_ID_reports.dat' verranno eliminati e
+   tutti i dati statistici saranno sintetizzati negli archivi '_ID_archive.php'.
+
+ * Cancellare, opzionalmente, tutti i file del fanKounter 4.x ad eccezione dei file di
+   archivio '_ID_archive.php' di ogni contatore.
+
+ * Copiare il tool 'db4to5.php' nella cartella contenente i file '_ID_archive.php' ed
+   eseguirlo per auto-generare i nuovi file di database 'data_ID.php' compatibili con la
+   versione 5 del fanKounter, che verranno creati in una sottocartella di nome 'data5'.
+
+ * Spostare i file 'data_ID.php' generati, dalla cartella 'data5' ad una sottocartella
+   del fanKounter versione 5 denominata 'data'.
+
+ * Creare i rispettivi file di configurazione per ognuno di essi e riporli nella cartella
+   'conf' del fanKounter versione 5.
+
+ I contatori sono stati convertiti, e la situazione sarà questa:
+
+ ------------------------------------------------------------------------------------------
+
+ [fkounter5]                   (cartella radice del fanKounter versione 5)
+
+ + [conf]                      (cartella contenente i file di configurazione)
+   - conf_id1.php              (configurazione per il contatore id1)
+   - conf_id2.php              (configurazione per il contatore id2)
+     ...
+
+ + [data]                      (cartella contenente i database)
+   - data_id1.php              (file di dati del contatore id1)
+   - data_id2.php              (file di dati del contatore id2)
+     ...
+
+ ...                           (tutti i file dello script)
+
+ ------------------------------------------------------------------------------------------

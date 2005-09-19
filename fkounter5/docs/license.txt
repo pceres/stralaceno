@@ -1,0 +1,76 @@
+
+                                        __                      PHP Script    _    vs 5.0
+                                       / _| __ _ _ __   /\ /\___  _   _ _ __ | |_ ___ _ __
+                                      | |_ / _` | '_ \ / //_/ _ \| | | | '_ \| __/ _ \ '__|
+                                      |  _| (_| | | | / __ \ (_) | |_| | | | | ||  __/ |
+                                      |_|  \__,_|_| |_\/  \/\___/ \__,_|_| |_|\__\___|_|
+
+ ******************************************************************************************
+ license.txt                                  fanatiko <fankounter@libero.it>, ITALY
+ ******************************************************************************************
+
+ Il fanKounter è da ritenersi proprietà intellettuale dell'AUTORE.
+
+ L'AUTORE concede il fanKounter * gratuitamente *, alla condizione che:
+
+ - venga accettato il DISCLAIMER;
+
+ - vengano rispettate contemporaneamente le
+
+   * CONDIZIONI DI UTILIZZO,
+   * CONDIZIONI DI MODIFICA,
+   * CONDIZIONI DI REDISTRIBUZIONE.
+
+ ******************************************************************************************
+ DISCLAIMER
+ ******************************************************************************************
+
+ L'autore non si assume nessuna responsabilità morale, civile e penale sull'uso di questo
+ software e da problemi o danni che esso può causare. Le sopracitate responsabilità
+ ricadono sull'utente dal momento stesso in cui si procura una copia di questo software e
+ di suo libero arbitrio ne fa l'uso che ritiene più opportuno.
+
+ ******************************************************************************************
+ CONDIZIONI DI UTILIZZO
+ ******************************************************************************************
+
+ Puoi usare questo software liberamente, sia per scopi personali che in ambito lavorativo,
+ ma non a scopo di lucro (ossia non puoi trarre vantaggi economici direttamente dall'uso,
+ dalla vendita o dalla cessione del software in questione).
+
+ L'assistenza diretta da parte dell'autore di fronte a problemi e richieste di ogni genere
+ non è garantita e non può essere pretesa, soprattutto a fronte di versioni modificate da
+ terzi.
+
+ ******************************************************************************************
+ CONDIZIONI DI MODIFICA
+ ******************************************************************************************
+
+ Si applicano sia a scopo del semplice utilizzo che a scopo di redistribuzione.
+
+ Puoi modificare questo software liberamente, in ogni sua parte, purché non vengano
+ eliminati i riferimenti all'autore (nickname ed email) e allo script (nome e sito) dove
+ questi appaiono nella distribuzione originale (quella acquisita direttamente dal sito
+ dell'autore), sia nel codice sorgente che nell'output dentro il browser.
+
+ Puoi prelevare singoli file o parte di codice da riutilizzare, eventualmente modificati,
+ in altri script, ma devi menzionare i riferimenti all'autore (nickname ed email) e/o i
+ riferimenti allo script (nome e sito).
+
+ ******************************************************************************************
+ CONDIZIONI DI REDISTRIBUZIONE
+ ******************************************************************************************
+
+ Puoi redistribuire dal tuo sito
+
+ - copie originali (acquisite direttamente dal sito dell'autore) di questo software sempre
+   e solo * gratuitamente *;
+
+ - copie modificate di questo software solamente rispettando contemporaneamente queste
+   ulteriori condizioni:
+
+   * le copie devono essere concesse sempre e solo * gratuitamente *;
+   * deve comparire da qualche parte ben visibile nella distribuzione, meglio in un file a
+     sé o direttamente nei file interessati, un elenco delle modifiche apportate;
+   * la licenza non può essere modificata e nella distribuzione deve sempre essere inclusa
+     una copia originale di questo file.
