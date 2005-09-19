@@ -234,8 +234,8 @@ lac1.jpg::titolo 1::1991
 lac10.jpg::titolo 2::descrizione
 lac2.jpg::titolo 3::descrizione
 lac3.jpg::titolo 4::descrizione
-lac4.jpg::titolo 5::descrizione
-lac5.jpg::titolo 6::descrizione
+lac4.jpg::titolo 5::1994
+lac5.jpg::titolo 6::1997
 lac7.jpg::titolo 7::descrizione
-lac8.jpg::titolo 8::descrizione
-lac9.jpg::titolo 9::descrizione
+lac8.jpg::titolo 8::2003
+lac9.jpg::titolo 9::2003
