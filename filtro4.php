@@ -51,12 +51,10 @@ $id_descrizione_foto = 2;
 
 if (array_key_exists($anno,$elenco_foto))
 {
-	//$nota_album = "<a class=\"txt_link\" href=album.php?anno=$anno><img src=\"".$site_abs_path."images/camera.jpg\" border='0' width=\"50\"></a>";
 	$nota_album = "<a class=\"txt_link\" href=album.php?anno=$anno>&nbsp;<img src=\"".$site_abs_path."images/fotocamera.gif\" border='0' width=\"50\"></a>";
 }
 else
 {
-	//$nota_album = "";
 	$nota_album = "<img src=\"".$site_abs_path."custom/images/cornice/null.jpg\" border='0' height=\"31\" width=\"1\">";
 }
 
@@ -67,7 +65,7 @@ if (!empty($prec))
 {
 	echo "<a class=\"txt_link\" href=\"filtro4.php?anno=$prec\">edizione $prec</a>";
 }
-echo "</td><td width=\"50%\">";
+echo "</td><td align=\"center\" width=\"50%\" nowrap>";
 echo "<span class=\"titolo_tabella\">$race_name $anno - risultati ufficiali : $nota_album</span>";
 echo "</td><td width=\"25%\" align=\"right\">";
 if (!empty($succ))
