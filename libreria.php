@@ -155,13 +155,12 @@ $tempo_max_grafico = max(array($tempo_max_F,$tempo_max_M));
 $symbol_empty= '<img style="display:inline;" align="middle" height="13" width="13" alt="empty" border="0">';
 $symbol_1_partecipazione= '<img src="'.$site_abs_path.'images/0x2606(star).bmp" style="display:inline;" align="middle" height="13" alt="1a partecipazione" border="0">';
 $symbol_record  		= '<img src="'.$site_abs_path.'images/0x263A(smiling_face).bmp" style="display:inline;" align="middle" height="13" alt="record personale" border="0">';
-//$symbol_record_best		= $symbol_record.$symbol_record;
-$symbol_record_best		='<img src="'.$site_abs_path.'images/0x263A(smiling_face_best).bmp" style="display:inline;" align="middle" height="13" alt="1a partecipazione" border="0">';
+$symbol_record_best		='<img src="'.$site_abs_path.'images/0x263A(smiling_face_best).bmp" style="display:inline;" align="middle" height="13" alt="record personale assoluto" border="0">';
 $homepage_link 			= '<hr><div align="right"><a class="txt_link" href="'.$script_abs_path.'index.php">Torna alla homepage</a></div>';
 
 #admin
 $max_last_editions	= 3;	// numero di ultime edizioni in colonna laterale
-$max_online_articles	= 5;	// numero di articoli pubblicati online
+$max_online_articles	= 10;	// numero di articoli pubblicati online
 
 
 #campi files csv
@@ -242,12 +241,23 @@ extract(indici());
 #elimina i doppioni;
 $legenda=array_unique($legenda);
 
-if (count($legenda) > 0)
+# ordina la legenda, e lascia solo i simboli noti
+$simboli_noti = array('F.T.M.','Rit.','Squ.',$symbol_1_partecipazione,$symbol_record,$symbol_record_best);
+$legenda_ordinata=array();
+foreach ($simboli_noti as $simbolo)
+{
+	if (in_array($simbolo,$legenda))
+	{
+		array_push($legenda_ordinata,$simbolo);
+	}
+}
+
+if (count($legenda_ordinata) > 0)
 {
 	echo '<br>';
 	echo '<table class="tabella_legenda">';
 	
-	foreach ($legenda as $voce)
+	foreach ($legenda_ordinata as $voce)
 	{
 		switch ($voce) 
 		{
@@ -264,10 +274,10 @@ if (count($legenda) > 0)
 			$info = "1<sup>a</sup> partecipazione";
 			break;
 		case $symbol_record:
-			$info = "miglioramento record personale";
+			$info = "record personale";
 			break;
 		case $symbol_record_best:
-			$info = "attuale record personale";
+			$info = "record personale assoluto";
 			break;
 		default:
 			$info = "";
