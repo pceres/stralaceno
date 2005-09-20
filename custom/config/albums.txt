@@ -1,6 +1,12 @@
 [1987]
 I edizione.jpg::Foto di gruppo prima della partenza::
 
+[1991]
+lac1.jpg::Sandro Russomanno::Giunger&agrave; 3&deg; in 24' 10''
+
+[1994]
+lac4.jpg::Foto di gruppo edizione 1994::
+
 [1995]
 lac6.jpg::Foto di gruppo edizione 1995::Come spesso accade in questi casi, i protagonisti della foto non sono i protagonisti della corsa
 
@@ -25,6 +31,9 @@ _9A_0294.jpg::Alla partenza::Al via numerosi caposelesi di varia et&agrave;, tag
 27A_0306.jpg::::Impeccabili come sempre il giudice di corsa e il suo staff
 _25_0309.jpg::Il momento decisivo della corsa::Donato Ceres &egrave; l'ultimo a cedere al prepotente allungo di Pasquale Ceres, gi&agrave; vincitore della scorsa edizione
 
+[1999]
+lac10.jpg::Nicola Melillo e Luciano Rosania::
+
 [2000]
 00A_0260.jpg::titolo ::descrizione
 #_0270.jpg::titolo ::descrizione
@@ -44,6 +53,10 @@ _8A_0261.jpg::titolo ::descrizione
 5 km.jpg::Pierlorenzo::Un saluto rilassato di Pierlorenzo Pallante
 cino.jpg::Raffaele Merola::Il secondo classificato durante la gara
 donatom.jpg::Donato Merola::Il veterano Donato Merola
+#russomanni 2002.jpg::I fratelli Russomanno::!!!
+#nicolino 2002.jpg::Nicola Melillo::!!!
+#alfsturchio 2002.jpg::Alfonso Sturchio::!!!
+#roccoang 2002.jpg::Rocco Cibellis e Angelino Cetrulo::!!!
 
 [2003]
 112_1231.JPG::Alfredo e Sandro::Nemmeno il tempo di arrivare ed ecco la prima foto
@@ -95,13 +108,17 @@ laceno03.JPG::La proclamazione dei risultati::A Gerardo Ceres il compito di uffi
 
 [2004]
 stralaceno2004-4.JPG::Foto di gruppo per alcune corridrici::
+lac9.jpg::Gianfranco Di Vincenzo::
+lac8.jpg::Nicola Melillo::
 stralaceno2004-3.JPG::Si intravede la linea di partenza (e di arrivo)::
+Laceno.jpg::La partenza della XVI edizione::
 stralaceno2004-1.JPG::1 minuto dopo la partenza::
 stralaceno2004-5.JPG::La gara si &egrave; da poco conclusa::
 stralaceno2004-6.JPG::In attesa della proclamazione dei risultati::
 
 [2005]
-dscn5299.jpg::::Il punto di non ritorno...
+dscn3875.jpg::XVII edizione::
+dscn5299.jpg::Il punto di non ritorno...::
 #dscn5300.jpg::Foto 2::
 #dscn5301.jpg::Foto 3::
 #dscn5302.jpg::Foto 4::
@@ -115,14 +132,14 @@ dscn5299.jpg::::Il punto di non ritorno...
 #dscn5313.jpg::Foto 13::
 #dscn5314.jpg::Foto 14::
 #dscn5315.jpg::Foto 15::..............
-dscn5316.jpg::::Tensione pre-gara
+dscn5316.jpg::Tensione pre-gara::
 #dscn5317.jpg::Foto 17::
 #dscn5318.jpg::Foto 18::
 #dscn5320.jpg::Foto 19::
 #dscn5321.jpg::Foto 20::
 #dscn5322.jpg::Foto 21::
 #dscn5323.jpg::Foto 22::
-dscn5324.jpg::::Il secondo cronometrista : un ruolo delicato, ma indispensabile se si vuole certificare l'assoluta attendibilit&agrave; delle rilevazioni effettuate.
+dscn5324.jpg::Il secondo cronometrista::Un ruolo delicato, ma indispensabile se si vuole certificare l'assoluta attendibilit&agrave; delle rilevazioni effettuate.
 #dscn5325.jpg::Foto 24::
 #dscn5326.jpg::Foto 25::
 #dscn5327.jpg::Foto 26::
@@ -130,56 +147,59 @@ dscn5324.jpg::::Il secondo cronometrista : un ruolo delicato, ma indispensabile 
 #dscn5329.jpg::Foto 28::
 #dscn5330.jpg::Foto 29::
 #dscn5331.jpg::Foto 30::
-dscn5307.jpg::::Soft stretching
-dscn5332.jpg::::Si attende l'appello
-dscn5333.jpg::::Pronti alla partenza
+dscn5307.jpg::Soft stretching::
+dscn5332.jpg::Si attende l'appello::
+dscn5333.jpg::L'appello::
+dscn3876.jpg::Pronti alla partenza::Il direttore di gara, Gerardo Ceres, attendo il via libera dall'ispettore di percorso
+dscn3877.jpg::Partenza a testa bassa::
+dscn3878.jpg::Visti da dietro::Un temporale, un'ora prima della partenza, ha reso viscido l'asfalto
 #dscn5334.jpg::Foto 33::
-dscn5336.jpg::::Dopo 500 m il gruppo inizia a sgranarsi
-dscn5337.jpg::::Malgrado la respirazione poco ortodossa Rocco Feniello, che in questa fase &egrave; ancora alle spalle di Claudio Donatiello, riuscir&agrave; comunque a conseguire un ottimo 7&deg; posto con record personale
-dscn5338.jpg::::La gara &egrave; appena iniziata e l'esordiente Francesco Ceres non sa ancora che oggi la vittoria ha scelto lui
-dscn5339.jpg::::Al primo chilometro sono ancora in molti appena alle spalle dei fuggitivi
-dscn5340.jpg::::Il veterano Nicola D'Auria, alla sua sedicesima partecipazione.
-dscn5341.jpg::::Il coraggio di questo bambino &egrave; fuori dal comune: &egrave; gi&agrave; alla seconda ostinata partecipazione fuori concorso (per limiti di et&agrave;)
-dscn5342.jpg::::Il d.n.a. ha avuto un ruolo importante nel sospingere mister Y verso il suo nuovo, prestigioso, record personale
-dscn5343.jpg::::Con passo ed esperienza da decano, Gino sa gi&agrave; che il n.50 non potr&agrave; opporgli resistenza. 
-dscn5344.jpg::::La gara nelle retrovie non &egrave; meno combattuta. Ne uscir&agrave; bene Antonio Ceres con il nuovo record personale.
-dscn5345.jpg::::La graziosa vincitrice della competizione femminile precede altre meritevoli concorrenti, promesse e vecchie glorie dello sport caposelese.	     
-dscn5346.jpg::::Monica Galdi, alla sua terza partecipazione consecutiva, affiancata da una esordiente.
-dscn5347.jpg::::I quattro che hanno fatto la gara. In questa fase stanno, per&ograve;, buttando via secondi preziosi nel non procedere in fila indiana. Un errore non privo di conseguenze...
-dscn5348.jpg::::Paolo Viscardi, autore di una bella gara nonostante i problemi al ginocchio.
+dscn5336.jpg::Dopo 500 m::Il gruppo inizia a sgranarsi
+dscn5337.jpg::Rocco Feniello e Claudio Donatiello::Malgrado la respirazione poco ortodossa Rocco Feniello, che in questa fase &egrave; ancora alle spalle di Claudio Donatiello, riuscir&agrave; comunque a conseguire un ottimo 7&deg; posto con record personale
+dscn5338.jpg::Francesco Ceres::La gara &egrave; appena iniziata e l'esordiente Francesco Ceres non sa ancora che oggi la vittoria ha scelto lui
+dscn5339.jpg::1&deg; km::Al primo chilometro sono ancora in molti appena alle spalle dei fuggitivi
+dscn5340.jpg::Nicola D'Auria::Il veterano Nicola D'Auria, alla sua sedicesima partecipazione.
+dscn5341.jpg::Gerardo Aiello::Il coraggio di questo bambino &egrave; fuori dal comune: &egrave; gi&agrave; alla seconda ostinata partecipazione fuori concorso (per limiti di et&agrave;)
+dscn5342.jpg::Gelsomino Merola di Donato::Il d.n.a. ha avuto un ruolo importante nel sospingere mister Y verso il suo nuovo, prestigioso, record personale
+dscn5343.jpg::Gino Amendola e Gianni Cetrulo::Con passo ed esperienza da decano, Gino sa gi&agrave; che il n.50 non potr&agrave; opporgli resistenza. 
+dscn5344.jpg::4 inseguitori::La gara nelle retrovie non &egrave; meno combattuta. Ne uscir&agrave; bene Antonio Ceres con il nuovo record personale.
+dscn5345.jpg::Angela Aiello::La graziosa vincitrice della competizione femminile precede altre meritevoli concorrenti, promesse e vecchie glorie dello sport caposelese.	     
+dscn5346.jpg::Antonella D'Elia e Monica Galdi::Monica Galdi, alla sua terza partecipazione consecutiva, affiancata da una esordiente.
+dscn5347.jpg::Gruppo di testa al 2&deg; km::I quattro che hanno fatto la gara. In questa fase stanno, per&ograve;, buttando via secondi preziosi nel non procedere in fila indiana. Un errore non privo di conseguenze...
+dscn5348.jpg::Paolo Viscardi::Autore di una bella gara nonostante i problemi al ginocchio.
 #dscn5349.jpg::Foto 47::
 #dscn5350.jpg::Foto 48::
 #dscn5351.jpg::Foto 49::
-dscn5352.jpg::::Valentino stringe la curva per mantenere la buona posizione conquistata.
+dscn5352.jpg::Valentino Di Masi::Valentino stringe la curva per mantenere la buona posizione conquistata.
 #dscn5353.jpg::Foto 51::
-dscn5354.jpg::::Un brillante protagonista di numerose corse che, grazie alle sue qualit&agrave; psicofisiche, pu&ograve; permettersi il lusso di precedere due iscritti nell'albo d'oro.
+dscn5354.jpg::Roberto Notaro::Un brillante protagonista di numerose corse che, grazie alle sue qualit&agrave; psicofisiche, pu&ograve; permettersi il lusso di precedere due iscritti nell'albo d'oro.
 #dscn5355.jpg::Foto 53::
-dscn5356.jpg::::Forse Francesco Ceres sta ora incominciando ad intuire qualcosa...
+dscn5356.jpg::Francesco Ceres e Paolo Viscardi::Forse Francesco sta ora incominciando ad intuire qualcosa...
 #dscn5357.jpg::Foto 55::
-dscn5358.jpg::::E' gi&agrave; imprendibile Alessandro per i suoi compagni di allenamento.
+dscn5358.jpg::Alessandro Russomanno::E' gi&agrave; imprendibile Alessandro per i suoi compagni di allenamento.
 #dscn5359.jpg::Foto 57::
 #dscn5361.jpg::Foto 58::
-dscn5362.jpg::::Un lieve rallentamento di Nicola D'Auria provoca un tamponamento multiplo.
-dscn5363.jpg::::Gianfranco Rosania segue per ora ossequioso il plurivincitore Pasquale Ceres.
-dscn5365.jpg::::Valentino &egrave; duro a cedere.
+dscn5362.jpg::Nicola, Angelo e Donato Ceres::Un lieve rallentamento di Nicola D'Auria provoca un tamponamento multiplo.
+dscn5363.jpg::Pasquale Ceres e Gianfranco Rosania::Gianfranco segue per ora ossequioso il plurivincitore Pasquale.
+dscn5365.jpg::Valentino &egrave; duro a cedere::
 #dscn5366.jpg::Foto 62::.............
-dscn5367.jpg::::Chi si lascia avvicinare da questi due esemplari di orsi della Raia Magra non ha scampo.
+dscn5367.jpg::Donato Ceres e Nicola Melillo::Chi si lascia avvicinare da questi due esemplari di orsi della Raia Magra non ha scampo.
 #dscn5368.jpg::Foto 64::
-dscn5369.jpg::::Nuove leve (accomunate dalla I)
+dscn5369.jpg::Nuove leve::La I li accomuna
 #dscn5370.jpg::Foto 66::
-dscn5371.jpg::::Alfredo vola a conquistare il 19&deg; posto
+dscn5371.jpg::Alfredo Grasso::Alfredo vola a conquistare il 19&deg; posto
 #dscn5372.jpg::Foto 68::.............
 #dscn5373.jpg::Foto 69::
-dscn5374.jpg::::Manca circa un Km...Siamo alla resa dei conti.
+dscn5374.jpg::Manca circa un Km...::Siamo alla resa dei conti.
 #dscn5375.jpg::Foto 71::
-dscn5376.jpg::::Il gruppetto degli immediati inseguitori
+dscn5376.jpg::Il gruppetto degli immediati inseguitori::
 #dscn5377.jpg::Foto 73::
 #dscn5378.jpg::Foto 74::
 #dscn5379.jpg::Foto 75::
 #dscn5380.jpg::Foto 76::...............
 #dscn5382.jpg::Foto 77::...............
 #dscn5384.jpg::Foto 78::
-dscn5385.jpg::::Sar&agrave; per l'anno prossimo...
+dscn5385.jpg::Dario Nisivoccia::Sar&agrave; per l'anno prossimo...
 #dscn5386.jpg::Foto 80::
 #dscn5387.jpg::Foto 81::
 #dscn5388.jpg::Foto 82::
@@ -188,45 +208,48 @@ dscn5385.jpg::::Sar&agrave; per l'anno prossimo...
 #dscn5391.jpg::Foto 85::
 #dscn5392.jpg::Foto 86::
 #dscn5393.jpg::Foto 87::..............
-dscn5394.jpg::::Un giovane affezionato: Luca Cibellis (26&deg;), seguito da Gerardo Russomanno
+dscn5394.jpg::Luca Cibellis e Gerardo Russomanno::Un giovane affezionato: Luca (26&deg;), seguito da Gerardo
 #dscn5395.jpg::Foto 89::...............
-dscn5396.jpg::::Donatello giunge soddisfatto al traguardo: un netto miglioramento del personale
+dscn5396.jpg::Donatello Cirillo::Donatello giunge soddisfatto al traguardo: un netto miglioramento del personale
 #dscn5397.jpg::Foto 91::.................
-dscn5398.jpg::::Kn&agrave; all'arrivo ha perso l'orientamento. L'importante per lui &egrave; non averlo perso nell'edizione '87
+dscn5398.jpg::Donato Merola::Kn&agrave; all'arrivo ha perso l'orientamento. L'importante per lui &egrave; non averlo perso nell'edizione '87
 #dscn5399.jpg::Foto 93::
 #dscn5400.jpg::Foto 94::
-dscn5401.jpg::::Cosa non si fa per stimolare gli atleti fino al traguardo!
+dscn5401.jpg::Antonio Ceres::Cosa non si fa per stimolare gli atleti fino al traguardo!
 #dscn5402.jpg::Foto 96::
 #dscn5403.jpg::Foto 97::
-dscn5404.jpg::::L'arrivo compassato di Gianni Cetrulo alla sua quinta partecipazione.
+dscn5404.jpg::Gianni Cetrulo::L'arrivo compassato di Gianni Cetrulo alla sua quinta partecipazione.
 #dscn5405.jpg::Foto 99::
 #dscn5406.jpg::Foto 100::
 #dscn5407.jpg::Foto 101::
 #dscn5408.jpg::Foto 102::
+dscn3897.jpg::Giuseppe Rosania::L'arrivo in grande stile del maestro Rosania sotto lo sguardo attento e compiaciuto dei cronometristi
 #dscn5411.jpg::Foto 103::
 #dscn5412.jpg::Foto 104::
-#dscn5413.jpg::Foto 105::
+dscn3901.jpg::Antonella D'Elia e Anita Ilaria::Alla prima partecipazione concludono 45&deg; con 38' 15''
+dscn3902.jpg::Il ritorno di Angelo Viscardi::
 #dscn5416.jpg::Foto 106::
 #dscn5417.jpg::Foto 108::
 #dscn5418.jpg::Foto 109::
 #dscn5419.jpg::Foto 110::
-dscn5420.jpg::::Lo staff della XVII edizione si &egrave; arricchito di esperienza e competenza.
+dscn5420.jpg::Si stila la classifica finale::Lo staff della XVII edizione si &egrave; arricchito di esperienza e competenza.
 #dscn5421.jpg::Foto 112::
 #dscn5423.jpg::Foto 113::
 #dscn5424.jpg::Foto 114::
 #dscn5425.jpg::Foto 115::
-dscn5426.jpg::::Il direttore di gara legge i risultati ufficiali
+dscn5426.jpg::Il direttore di gara legge i risultati ufficiali::
 #dscn5431.jpg::Foto 117::
 #dscn5434.jpg::Foto 118::
 #dscn5436.jpg::Foto 119::
 #dscn5439.jpg::Foto 120::
 #dscn5441.jpg::Foto 121::
 #dscn5442.jpg::Foto 122::
-dscn5444.jpg::::Il giovanissimo vincitore Francesco Ceres
+dscn5444.jpg::Il giovanissimo vincitore Francesco Ceres::
+podio.jpg::I primi 3::1&deg; Francesco Ceres, 2&deg; Gerardo Martino, 3&deg; Rocco Proietto
 #dscn5445.jpg::Foto 124::
-dscn5448.jpg::::Scongiurata l'invasione di pecore e cavalli, constatato il regolare svolgimento della competizione, l'ispettore di percorso si gode meritati momenti di serenit&agrave; e soddisfazione.
+dscn5448.jpg::Tutto ok::Scongiurata l'invasione di pecore e cavalli, constatato il regolare svolgimento della competizione, l'ispettore di percorso si gode meritati momenti di serenit&agrave; e soddisfazione.
 #dscn5450.jpg::Foto 126::
-dscn5414.jpg::::Chiudiamo con chi ha avuto il merito di catturare queste immagini: il fotografo ufficiale e le sue preziose collaboratrici.
+dscn5414.jpg::Foto al fotografo::Chiudiamo con chi ha avuto il merito di catturare queste immagini: il fotografo ufficiale e le sue preziose collaboratrici.
 
 
 [generico1]
@@ -234,8 +257,8 @@ lac1.jpg::titolo 1::1991
 lac10.jpg::titolo 2::descrizione
 lac2.jpg::titolo 3::descrizione
 lac3.jpg::titolo 4::descrizione
-lac4.jpg::titolo 5::1994
-lac5.jpg::titolo 6::1997
+lac4.jpg::titolo 5::descrizione
+lac5.jpg::titolo 6::descrizione
 lac7.jpg::titolo 7::descrizione
-lac8.jpg::titolo 8::2003
-lac9.jpg::titolo 9::2003
+lac8.jpg::titolo 8::descrizione
+lac9.jpg::titolo 9::descrizione
