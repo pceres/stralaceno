@@ -39,6 +39,8 @@ import_request_variables("gpc","par__");
 # COSTANTI GLOBALI
 ############################################################################################
 
+//require_once('../libreria.php')
+
 // Memorizza il timestamp del server
 define("NOW",time());
 
@@ -79,8 +81,8 @@ define("DATA_FILES","data_*.php");
 define("ACCESS_FILES","accs_*.dat");
 define("FLOCK_FILES","lock_*.tmp");
 
-define("SCRIPT_PATH","http://localhost/my_cgi-bin/stralaceno2/fkounter5/");
-define("FILE_PATH","http://localhost/work/stralaceno2/fkounter5/");
+define("SCRIPT_PATH","/work/stralaceno/fkounter5/");
+define("FILE_PATH","/work/stralaceno/fkounter5/");
 
 ############################################################################################
 # CREDITS
