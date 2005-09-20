@@ -36,9 +36,9 @@ lac10.jpg::Nicola Melillo e Luciano Rosania::
 
 [2000]
 00A_0260.jpg::titolo ::descrizione
-#_0270.jpg::titolo ::descrizione
-#_0271.jpg::titolo ::descrizione
-#_0272.jpg::titolo ::descrizione
+0270.jpg::titolo ::descrizione
+0271.jpg::titolo ::descrizione
+0272.jpg::titolo ::descrizione
 _0A_0259.jpg::titolo ::descrizione
 _1A_0258.jpg::titolo ::descrizione
 _2A_0257.jpg::titolo ::descrizione
