@@ -38,8 +38,8 @@
 # IMPOSTAZIONI DEL CONTATORE
 ############################################################################################
 
-$cnf__start_count         = 2;
-$cnf__mtime_unique_accs   = 30;//30;
+$cnf__start_count         = 1256;
+$cnf__mtime_unique_accs   = 30;
 $cnf__expire_on_midnight  = FALSE;
 $cnf__count_per_pages     = FALSE;
 $cnf__licit_domains_list  = array();
