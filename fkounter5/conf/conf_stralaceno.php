@@ -39,9 +39,9 @@
 ############################################################################################
 
 $cnf__start_count         = 2;
-$cnf__mtime_unique_accs   = 30;//30;
+$cnf__mtime_unique_accs   = 30;
 $cnf__expire_on_midnight  = FALSE;
-$cnf__count_per_pages     = FALSE;
+$cnf__count_per_pages     = TRUE;
 $cnf__licit_domains_list  = array();
 $cnf__IPmasks_ignore_list = array();
 $cnf__htime_sync_server   = 0;
