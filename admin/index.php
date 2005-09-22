@@ -64,6 +64,10 @@ Password: <input name="password" type="password">
 
 <a href='manage_albums.php'>Gestione album</a>
 
+<hr>
+
+<a href='manage_config_file.php?config_file=pregfas.txt'>Gestione registro dei fanfaroni</a>
+
 <?php
 # logga il contatto
 $counter = count_page("admin_index",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
