@@ -2,7 +2,11 @@
 <html>
 <head>
   <title>Grafico tempi</title>
+  <meta http-equiv="Expires" content="-1">
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate">
+  <meta http-equiv="Cache-Control" content="post-check=0, pre-check=0">
+  <meta http-equiv="Pragma" content="no-cache">
   <meta name="GENERATOR" content="Quanta Plus">
 </head>
 <body>
