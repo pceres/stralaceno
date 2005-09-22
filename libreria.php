@@ -894,6 +894,17 @@ $no_close_tags = array("p","br","?php"); // array di tags che non richiedono il 
 	return $bulk;
 }
 
+
+function template_to_effective($line_in)
+{
+	# dichiara variabili
+	extract(indici());
+	
+	$template = array("%script_root%","%file_root%");
+	$effective = array($script_abs_path,$site_abs_path);
+	return str_replace($template, $effective, $line_in);
+}
+	
 	
 function show_article($art_data,$mode,$link) 
 {
@@ -901,7 +912,7 @@ function show_article($art_data,$mode,$link)
 	// $link : usato in modo 'abstract', e' il link cui devono puntare i puntini alla fine dell'articolo
 
 	# dichiara variabili
-	extract(indici());
+#	extract(indici());
 	
 	$abstract_lines = 3; // numero di linee da pubblicare nella modalita' abstract
 
@@ -925,9 +936,10 @@ function show_article($art_data,$mode,$link)
 	
 	foreach ($testo_articolo as $line)
 	{
-		$template = array("%script_root%","%file_root%");
-		$effective = array($script_abs_path,$site_abs_path);
-		echo str_replace($template, $effective, $line);
+		#$template = array("%script_root%","%file_root%");
+		#$effective = array($script_abs_path,$site_abs_path);
+		#echo str_replace($template, $effective, $line);
+		echo template_to_effective($line);
 	}
 	
 	echo "		<div class=\"txt_firma_articolo\">".$art_data["autore"]."</div>\n";
@@ -1085,7 +1097,71 @@ function get_config_file($conf_file,$expected_items)
 }
 
 
+function show_template($template_file)
+{
+	# dichiara variabili
+	extract(indici());
+	
+	$lines = file($root_path."custom/templates/".$template_file);
+	
+	$stato=0;
+	foreach($lines as $line)
+	{
+		switch ($stato)
+		{
+		case 0:
+			// cambiamento stato
+			if (substr($line,0,10)=="%%%% begin") # la linea deve essere "%%%% begin <nome_file_configurazione> <voce_nel_file>"
+			{
+				$stato = 1;
+				
+				# on exit
+				$template = '';
+				$ks = substr($line,11,-1);
+				$info = explode(" ",$ks);
+				$config_file = $info[0];
+				$array_name = $info[1];
+				$num_fields = $info[2];
+				continue;
+			}
+			
+			// output
+			echo template_to_effective($line);
+			
+			break;
+		case 1:
+			// cambiamento stato
+			if (substr($line,0,8)=="%%%% end")
+			{
+				$stato = 0;
+				
+				#on exit
+				$conf = get_config_file($config_dir.$config_file,$num_fields);
+				foreach ($conf[$array_name] as $item)
+				{
+					$arr_template = array();
+					for ($i=0; $i<count($item); $i++)
+					{
+						array_push($arr_template,"%field$i%");
+					}
+					echo str_replace($arr_template, $item, $template);
+				}
+				
+				continue;
+			}
+			
+			// output
+			$template .= template_to_effective($line);
+			break;
+		}
+		
+	}
+}
+
+
 ?>
+
+
 
 <?php
 
@@ -1277,14 +1353,27 @@ $contatore_out = $counter;
     {
      $report='';                                        //we will email a report
      $report.="log file size too large (".filesize($logfile).").\n";
-     $id = 0;                                           //file counter
-     do                                                 //let's find out the next logxxx.txt name
-     {
-      $backupfilename = sprintf($backupfile, $id);      //build the file name
-      $id++;
-     } while (file_exists($backupfilename) && ($id<999));            //and loop till we reach a free one
-     if ($id<999)                                                    //Just in case all the back log file names are used
-     {
+		
+	// individua il numero del file di backup (se esiste solo backupfile006.txt, il prossimo sara' backupfile007.txt, altrimenti parti da backupfile000.txt)
+	$id = -1;
+	if ($dh = opendir($path_prefix)) 
+	{
+		while (($file = readdir($dh)) !== false) 
+		{
+		   if (substr($file,0,10)=="backupfile")
+			{
+				if ($id < substr($file,10,3))
+				{
+					$id = substr($file,10,3)+0;
+				}
+			}
+		}
+		closedir($dh);
+	}
+	$backupfilename = sprintf($backupfile, $id+1);      //build the file name
+	 
+	if ($id<999)                                                    //Just in case all the back log file names are used
+    {
       $report.="A backup has been done to $backupfilename.\r\n";
       $logs = file($logfile);                            //read all long entries in a array
       $nb_entry = count($logs);                          //how many entries do we have ?
@@ -1296,13 +1385,14 @@ $contatore_out = $counter;
       while ($i<$nb_entry) {fwrite($lf, $logs[$i++]);}   //and leave what's left in the original file
       fclose($bf);                                       //close all
       fclose($lf);
-     }
-     else $report.="warning !!!! Cannot find an unique backup file name !!!";
-     if (defined('MAILTO')) 
-	 {
+    }
+    else $report.="warning !!!! Cannot find an unique backup file name !!!";
+	
+    #if (defined('MAILTO')) 
+	#{
 	  #echo $report;
 	  #mail(MAILTO,"phplab admin report", $report);
-	 }
+	#}
     }
   }
   
