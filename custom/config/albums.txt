@@ -35,19 +35,19 @@ _25_0309.jpg::Il momento decisivo della corsa::Donato Ceres &egrave; l'ultimo a 
 lac10.jpg::Nicola Melillo e Luciano Rosania::
 
 [2000]
-00A_0260.jpg::titolo ::descrizione
-0270.jpg::titolo ::descrizione
-0271.jpg::titolo ::descrizione
-0272.jpg::titolo ::descrizione
-_0A_0259.jpg::titolo ::descrizione
-_1A_0258.jpg::titolo ::descrizione
-_2A_0257.jpg::titolo ::descrizione
-0266.jpg::titolo ::descrizione
-_4A_0265.jpg::titolo ::descrizione
-_5A_0264.jpg::titolo ::descrizione
-_6A_0263.jpg::titolo ::descrizione
-_7A_0262.jpg::titolo ::descrizione
-_8A_0261.jpg::titolo ::descrizione
+00A_0260.jpg::XII edizione::Una bella giornata accoglie i partecipanti
+_0A_0259.jpg::Primi minuti di gara::
+_1A_0258.jpg::Dopo il 1&deg; km::All'incrocio per Bagnoli, inizia il tratto in leggera salita
+_2A_0257.jpg::Siamo al G.P.M.::Gran Premio della Montagna: la corsa si fa ancora pi&ugrave; dura
+0266.jpg::Gruppo inseguitore::In prossimit&agrave; del 3&deg; km D'Auria allunga
+_4A_0265.jpg::Gelsomino Merola::Primo in 20' 11''
+_5A_0264.jpg::Nicola D'Auria::Ottiene il personale con 22' 42''
+_6A_0263.jpg::Lello Viscardi::
+_7A_0262.jpg::Angelo Ceres::
+_8A_0261.jpg::Benedetto Montanari::
+0272.jpg::Michele Ceres::Un graditissimo ritorno
+0271.jpg::Giuseppe Ceres::Conclude il percorso in 39' 47'' 
+0270.jpg::Relax finale:: 
 
 [2002]
 5 km.jpg::Pierlorenzo::Un saluto rilassato di Pierlorenzo Pallante
