@@ -238,7 +238,11 @@ if (strlen($email_info)>0) { // se e' disponibile una email per i contatti
 
 echo $homepage_link;
 
-# logga il contatto
+# logga il contatto (modifico la query string per aggiungere nei log una informazione diretta alla foto visualizzata)
+$ks = $_SERVER['QUERY_STRING'];
+//$ks = ereg_replace('^id_photo=[0-9]+&','',$ks); # elimina 'id_photo=xxx'
+$ks = $ks."(".$album[$id_photo][$id_nomefile_foto].")";
+$_SERVER['QUERY_STRING'] = $ks;
 $counter = count_page("foto",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
 
 ?>
