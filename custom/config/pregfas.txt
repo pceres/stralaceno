@@ -1,0 +1,11 @@
+# Pubblico registro dei fanfaroni:
+#
+# formato:  nome e cognome::anno::promesa solenne::eventuali note</small>
+#
+# modifica al di sotto di [elenco_fanfaroni], rispettando il formato;
+#
+
+[elenco_fanfaroni]
+<a href="../../../show_photo.php?id_photo=9&album=2000">Gualfardo Montanari</a>::2000::Promette di partecipare e di arrivare entro 30 minuti::Non riuscir&agrave; a completare il percorso nel tempo millantato
+Angelo Ceres::2000::Promette di partecipare e di arrivare entro 30 minuti::Non riuscir&agrave; a completare il percorso nel tempo millantato
+Lello Viscardi::2000::Promette di partecipare e di arrivare entro 30 minuti::Non riuscir&agrave; a completare il percorso nel tempo millantato, ma si riscatter&agrave; nelle edizioni successive aiutando nell'organizzazione
