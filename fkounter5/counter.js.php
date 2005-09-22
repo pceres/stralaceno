@@ -23,7 +23,7 @@
 # CONFIGURAZIONE
 ############################################################################################
 
-define("SCRIPT_PATH","http://localhost/work/stralaceno/fkounter5/");
+require("cnf.inc.php");
 
 ############################################################################################
 # IMPOSTAZIONI DI ESECUZIONE

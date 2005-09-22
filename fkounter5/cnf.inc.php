@@ -29,6 +29,9 @@
 # IMPOSTAZIONI DI ESECUZIONE
 ############################################################################################
 
+// carica le variabili globali del sito
+require_once('..\libreria.php'); // !!!
+
 // Nasconde qualsiasi messaggio di errore o di avviso run-time
 error_reporting(0);
 
@@ -81,8 +84,8 @@ define("DATA_FILES","data_*.php");
 define("ACCESS_FILES","accs_*.dat");
 define("FLOCK_FILES","lock_*.tmp");
 
-define("SCRIPT_PATH","/work/stralaceno/fkounter5/");
-define("FILE_PATH","/work/stralaceno/fkounter5/");
+define("SCRIPT_PATH",$SCRIPT_abs_path."fkounter5/");
+define("FILE_PATH",$site_abs_path."fkounter5/");
 
 ############################################################################################
 # CREDITS
