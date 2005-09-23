@@ -10,23 +10,23 @@
 ############################################################################################
  license.txt - le condizioni di utilizzo, modifica e redistribuzione per l'utente finale
   manual.txt - la guida alla configurazione, all'installazione e all'uso dello script
-    faqs.txt - le risposte alle domande pi˘ comuni, sui problemi e sulle funzionalit‡
+    faqs.txt - le risposte alle domande pi√π comuni, sui problemi e sulle funzionalit√†
  history.txt - la progressione delle versioni, i miglioramenti apportati e i bugs eliminati
 
  Descrizione del file
 ############################################################################################
  Esempio di configurazione per un contatore.
 
- A partire da questo file Ë possibile creare una nuova istanza di contatore.
+ A partire da questo file √® possibile creare una nuova istanza di contatore.
 
  * Modificare in base alle proprie preferenze le seguenti variabili. Queste, tuttavia, sono
-   gi‡ configurate correttamente per un utilizzo standard.
+   gi√† configurate correttamente per un utilizzo standard.
 
- * Salvare questo file con un nome della forma 'config_ID.php', dove ID sar‡ il suo
+ * Salvare questo file con un nome della forma 'config_ID.php', dove ID sar√† il suo
    identificatore, e porlo sul server in una sottocartella del fanKounter di nome 'conf'.
 
-   Un ID puÚ essere costituito solamente da caratteri alfanumerici, puÚ avere qualsiasi
-   lunghezza, ed Ë case-sensitive, ossia "test" e "TesT" identificheranno normalmente due
+   Un ID pu√≤ essere costituito solamente da caratteri alfanumerici, pu√≤ avere qualsiasi
+   lunghezza, ed √® case-sensitive, ossia "test" e "TesT" identificheranno normalmente due
    diverse istanze di contatore, ma questo dipende dal sistema operativo in uso.
 
    Se, ad esempio, si decide di identificare questo contatore con "test1", allora salvare
@@ -38,7 +38,7 @@
 # IMPOSTAZIONI DEL CONTATORE
 ############################################################################################
 
-$cnf__start_count         = 1256;
+$cnf__start_count         = 1284;
 $cnf__mtime_unique_accs   = 30;
 $cnf__expire_on_midnight  = FALSE;
 $cnf__count_per_pages     = TRUE;
