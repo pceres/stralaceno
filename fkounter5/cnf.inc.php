@@ -30,7 +30,7 @@
 ############################################################################################
 
 // carica le variabili globali del sito
-require_once('..\libreria.php'); // !!!
+require_once('../libreria.php'); // !!!
 
 // Nasconde qualsiasi messaggio di errore o di avviso run-time
 error_reporting(0);
