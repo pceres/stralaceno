@@ -2,7 +2,10 @@
 I edizione.jpg::Foto di gruppo prima della partenza::
 
 [1991]
-lac1.jpg::Sandro Russomanno::Giunger&agrave; 3&deg; in 24' 10''
+lac1.jpg::::Alla partenza dell'edizione '91 anche Sandro Russomanno. In secondo piano Pasquale Cozzarelli, giudice di corsa e cronometrista.
+lac2.jpg::Start della III edizione::
+lac3.jpg::Nicola D'Auria::Chiuder&agrave; 4&deg; in 24' 56''
+
 
 [1994]
 lac4.jpg::Foto di gruppo edizione 1994::
@@ -36,10 +39,10 @@ lac10.jpg::Nicola Melillo e Luciano Rosania::
 
 [2000]
 00A_0260.jpg::XII edizione::Una bella giornata accoglie i partecipanti
-_0A_0259.jpg::Primi minuti di gara::
-_1A_0258.jpg::Dopo il 1&deg; km::All'incrocio per Bagnoli, inizia il tratto in leggera salita
-_2A_0257.jpg::Siamo al G.P.M.::Gran Premio della Montagna: la corsa si fa ancora pi&ugrave; dura
-0266.jpg::Gruppo inseguitore::In prossimit&agrave; del 3&deg; km D'Auria allunga
+#_0A_0259.jpg::Primi minuti di gara::
+#_1A_0258.jpg::Dopo il 1&deg; km::All'incrocio per Bagnoli, inizia il tratto in leggera salita
+_2A_0257.jpg::G.P.M.::Gran Premio della Montagna: la corsa si fa pi&ugrave; dura
+0266.jpg::Leggera discesa prima del 3&deg; km::Il cambio di ritmo &egrave; repentino
 _4A_0265.jpg::Gelsomino Merola::Primo in 20' 11''
 _5A_0264.jpg::Nicola D'Auria::Ottiene il personale con 22' 42''
 _6A_0263.jpg::Lello Viscardi::
@@ -255,8 +258,6 @@ dscn5414.jpg::Foto al fotografo::Chiudiamo con chi ha avuto il merito di cattura
 [generico1]
 lac1.jpg::titolo 1::1991
 lac10.jpg::titolo 2::descrizione
-lac2.jpg::titolo 3::descrizione
-lac3.jpg::titolo 4::descrizione
 lac4.jpg::titolo 5::descrizione
 lac5.jpg::titolo 6::descrizione
 lac7.jpg::titolo 7::descrizione
