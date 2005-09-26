@@ -36,6 +36,15 @@ if ($password_ok == $password)
 
 if ($ok == TRUE) 
 {
+
+	// verifica che il file non sia protetto in scrittura
+	$perm = substr(sprintf('%o', fileperms($new_name)), -4); // attributi in forma ottale
+	$write_enable = '0200'; // bit di attributi in forma ottaleche consentono la scrittura
+	if (file_exists($new_name) && ((octdec($perm) & octdec($write_enable)) == 0) )
+	{
+		die("Il file e' protetto in scrittura (".$perm.")! Contatta il webmaster.");
+	}	
+	
 	// leggi vecchio file
 	if (file_exists($new_name))
 	{
@@ -49,10 +58,7 @@ if ($ok == TRUE)
 	
 	// scrivi i dati inviati su file
 	$handle = fopen($new_name, "w");
-	//for ($i = 0; $i < count($testo); $i++)
-	//{
-		fwrite($handle, $testo);	
-	//}
+	fwrite($handle, $testo);	
 	fclose($handle);
 	
 	// se il file non esisteva, logga solo le modifiche
