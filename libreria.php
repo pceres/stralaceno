@@ -963,17 +963,23 @@ $str_end_text = "--- End body ---\r\n";
 $bulk = array_merge($str_author,$str_title,$str_begin_text,$bulk,$str_end_text);
 
 // scrivi il file art_x.txt
-$handle=fopen($art_filename,'w');
-for ($i=0;$i<count($bulk); $i++)
+if ($handle=fopen($art_filename,'w'))
 {
-	$line = $bulk[$i];
-	fwrite($handle, rtrim($line,"\r\n"));
-	if ( ($i < count($bulk)) & (strlen(rtrim($line,"\r\n")) > 0) )
+	for ($i=0;$i<count($bulk); $i++)
 	{
-		fwrite($handle,"\r\n");
+		$line = $bulk[$i];
+		fwrite($handle, rtrim($line,"\r\n"));
+		if ( ($i < count($bulk)) & (strlen(rtrim($line,"\r\n")) > 0) )
+		{
+			fwrite($handle,"\r\n");
+		}
 	}
+	fclose($handle);
 }
-fclose($handle);
+else
+{
+	die("Articolo $id_articolo probabilmente protetto in scrittura! Contattare il webmaster.");
+}
 }
 
 
