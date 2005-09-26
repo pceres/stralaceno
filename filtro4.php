@@ -146,18 +146,6 @@ l'indirizzo e-mail: <a href="mailto:<?php echo $email_info?>?subject=Info%20sui%
 }
 
 echo $homepage_link;
-/*echo "<div align=\"right\">";
-if (!empty($prec))
-{
-	echo "<a class=\"txt_link\" href=\"filtro4.php?anno=$prec\">edizione $prec</a>";
-	echo " - ";
-}
-if (!empty($succ))
-{
-	echo "<a class=\"txt_link\" href=\"filtro4.php?anno=$succ\">edizione $succ</a>";
-	echo " - ";
-}
-echo "</div>";*/
 
 ?>
 
