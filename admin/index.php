@@ -74,5 +74,9 @@ Password: <input name="password" type="password">
 $counter = count_page("admin_index",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
 ?>
 
+<?php
+echo $homepage_link;
+?>
+
 </body>
 </html>
