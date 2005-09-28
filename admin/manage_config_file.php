@@ -10,14 +10,20 @@ extract(indici());
 
 $filename = $_REQUEST['config_file'];
 
-if (empty($filename) | (!in_array($filename,array('pregfas.txt'))))
+if (empty($filename))
 {
 	die("File inesistente!");
+}
+
+$enabled_config_files = array("pregfas.txt","links.txt"); // elenco dei file di configurazione che e' possibile modificare 
+if (!in_array($filename,$enabled_config_files))
+{
+	die("Non e' possibile modificare il file $filename! Contattare il webmaster.");
 }
 	
 ?>
 <head>
-  <title>Gestione PREGFAS</title>
+  <title>Modifica file di configurazione <?php echo $filename; ?></title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
   <style type="text/css">@import "<?php echo $filename_css ?>";</style>
@@ -25,13 +31,14 @@ if (empty($filename) | (!in_array($filename,array('pregfas.txt'))))
 
 <body class="admin">
 
+<script type="text/javaScript" src="<?php echo $site_abs_path ?>admin/md5.js"></script>
+
 Modifica del file di configurazione <?php echo $filename; ?>:<br>
-<!--small>formato:  nome e cognome::promesa solenne::eventuali note</small-->
 
 <?php
 $filename = $config_dir.$filename;
 ?>
-<form action="upload_text.php" method="post">
+<form action="upload_text.php" method="post" onSubmit="cripta_campo_del_form(this,'password')">
 	<input type="hidden" name="filename" value="<?php echo $filename ?>">
 	<?php
 	$bulk = file($filename);
@@ -51,8 +58,11 @@ $filename = $config_dir.$filename;
 
 <?php
 # logga il contatto
-$counter = count_page("admin_links",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
+$counter = count_page("admin_edit_config",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
 ?>
+
+<hr>
+<div align="right"><a href="index.php" class="txt_link">Torna alla pagina amministrativa principale</a></div>
 
 </body>
 </html>
