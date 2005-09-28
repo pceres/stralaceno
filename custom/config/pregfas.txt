@@ -6,7 +6,7 @@
 #
 
 [elenco_fanfaroni]
-<a href="../../../show_photo.php?id_photo=7&album=2000">Benedetto Montanari</a>::2000::Promette di partecipare e di arrivare entro 30 minuti::Non riuscir&agrave; a completare il percorso nel tempo millantato
+<a href="../../../show_photo.php?id_photo=7&amp;album=2000">Benedetto Montanari</a>::2000::Promette di partecipare e di arrivare entro 30 minuti::Non riuscir&agrave; a completare il percorso nel tempo millantato
 Angelo Ceres::2000::Promette di partecipare e di arrivare entro 30 minuti::Non riuscir&agrave; a completare il percorso nel tempo millantato
 Lello Viscardi::2000::Promette di partecipare e di arrivare entro 30 minuti::Non riuscir&agrave; a completare il percorso nel tempo millantato, ma si riscatter&agrave; nelle edizioni successive aiutando nell'organizzazione
 Benito Sista::2005::Si impegna per iscritto a partecipare alla manifestazione::Non sar&agrave; presente al 'via'
