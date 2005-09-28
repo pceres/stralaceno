@@ -16,11 +16,13 @@ extract(indici());
 
 <body class="admin">
 
+<script type="text/javaScript" src="<?php echo $site_abs_path ?>admin/md5.js"></script>
+
 <?php 
 $name = $filename_tempi;
 $name = substr($name,strrpos($name,'/')+1) 
 ?>
-<form enctype="multipart/form-data" action="upload.php" method="post">
+<form enctype="multipart/form-data" action="upload.php" method="post" onSubmit="cripta_campo_del_form(this,'password')">
 <input type="hidden" name="MAX_FILE_SIZE" value="30000">
 <input type="hidden" name="filename" value="<?php echo $name ?>">
 Nuovo file "<?php echo $name ?>" da caricare: <input name="userfile" type="file">
@@ -32,7 +34,7 @@ Password: <input name="password" type="password">
 $name = $filename_atleti;
 $name = substr($name,strrpos($name,'/')+1) 
 ?>
-<form enctype="multipart/form-data" action="upload.php" method="post">
+<form enctype="multipart/form-data" action="upload.php" method="post" onSubmit="cripta_campo_del_form(this,'password')">
 <input type="hidden" name="MAX_FILE_SIZE" value="30000">
 <input type="hidden" name="filename" value="<?php echo $name ?>">
 Nuovo file "<?php echo $name ?>" da caricare: <input name="userfile" type="file">
@@ -44,7 +46,7 @@ Password: <input name="password" type="password">
 $name = $filename_organizzatori;
 $name = substr($name,strrpos($name,'/')+1) 
 ?>
-<form enctype="multipart/form-data" action="upload.php" method="post">
+<form enctype="multipart/form-data" action="upload.php" method="post" onSubmit="cripta_campo_del_form(this,'password')">
 <input type="hidden" name="MAX_FILE_SIZE" value="30000">
 <input type="hidden" name="filename" value="<?php echo $name ?>">
 Nuovo file "<?php echo $name ?>" da caricare: <input name="userfile" type="file">
@@ -58,7 +60,7 @@ Password: <input name="password" type="password">
 
 <hr>
 
-<a href='links.php'>Gestione links</a>
+<a href='manage_config_file.php?config_file=links.txt'>Gestione links</a>
 
 <hr>
 
