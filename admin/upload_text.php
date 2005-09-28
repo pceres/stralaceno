@@ -19,7 +19,7 @@ extract(indici());
 
 <?php
 
-$password_ok = $password_config; 
+$password_ok = $password_config;
 
 
 $ks1 = array("\'",'\"',"\\\\","à"       ,"è"       ,"é"       ,"ì"       ,"ò"       ,"ù"       ,"°"    );
@@ -37,15 +37,6 @@ if ($password_ok == $password)
 
 if ($ok == TRUE) 
 {
-
-	// verifica che il file non sia protetto in scrittura
-	$perm = substr(sprintf('%o', fileperms($new_name)), -4); // attributi in forma ottale
-	$write_enable = '0002'; // bit di attributi in forma ottaleche consentono la scrittura
-	if (file_exists($new_name) && ((octdec($perm) & octdec($write_enable)) == 0) )
-	{
-		die("Il file e' protetto in scrittura (".$perm.")! Contatta il webmaster.");
-	}	
-	
 	// leggi vecchio file
 	if (file_exists($new_name))
 	{
@@ -58,46 +49,52 @@ if ($ok == TRUE)
 	}
 	
 	// scrivi i dati inviati su file
-	$handle = fopen($new_name, "w");
-	fwrite($handle, $testo);	
-	fclose($handle);
-	
-	// se il file non esisteva, logga solo le modifiche
-	if ($confronta == 1)
+	if ($handle = fopen($new_name, "w"))
 	{
-		// rileggi il file
-		$testo = file($new_name);
+		fwrite($handle, $testo);	
+		fclose($handle);
 		
-		// trova linee cancellate
-		$del = array_diff($testo_old,$testo);
-		if (!empty($del))
+		// se il file non esisteva, logga solo le modifiche
+		if ($confronta == 1)
 		{
-			$out1 = str_replace("\n","\r\n",print_r($del,TRUE));
-		}
-		
-		// trova linee aggiunte
-		$add = array_diff($testo,$testo_old);
-		if (!empty($add))
-		{
-			$out2 = str_replace("\n","\r\n",print_r($add,TRUE));
-		}
-		
-		if (empty($del) && empty($add))
-		{
-			$testo="<Nessuna modifica>";
-		}
-		else
-		{
-			$testo="\r\n<\r\n";
+			// rileggi il file
+			$testo = file($new_name);
+			
+			// trova linee cancellate
+			$del = array_diff($testo_old,$testo);
 			if (!empty($del))
-				$testo .= "eliminato:\r\n".$out1."\r\n";
+			{
+				$out1 = str_replace("\n","\r\n",print_r($del,TRUE));
+			}
+			
+			// trova linee aggiunte
+			$add = array_diff($testo,$testo_old);
 			if (!empty($add))
-				$testo .= "aggiunto:\r\n".$out2."\r\n";
-			$testo .= ">\r\n";
+			{
+				$out2 = str_replace("\n","\r\n",print_r($add,TRUE));
+			}
+			
+			if (empty($del) && empty($add))
+			{
+				$testo="<Nessuna modifica>";
+			}
+			else
+			{
+				$testo="\r\n<\r\n";
+				if (!empty($del))
+					$testo .= "eliminato:\r\n".$out1."\r\n";
+				if (!empty($add))
+					$testo .= "aggiunto:\r\n".$out2."\r\n";
+				$testo .= ">\r\n";
+			}
 		}
+		
+		print "<pre>Operazione eseguita correttamente.</pre>";
 	}
-
-	print "<pre>Operazione eseguita correttamente.</pre>";
+	else
+	{
+		die("Il file $new_name probabilmente e' protetto in scrittura! Contattare il webmaster.");
+	}
 }
 else 
 {
