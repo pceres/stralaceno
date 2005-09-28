@@ -16,10 +16,12 @@ extract(indici());
 
 <body class="admin">
 
+<script type="text/javaScript" src="<?php echo $site_abs_path ?>admin/md5.js"></script>
+
 Albums attuali:<br>
 <small>formato:  file::titolo::descrizione</small>
 
-<form action="upload_text.php" method="post">
+<form action="upload_text.php" method="post" onSubmit="cripta_campo_del_form(this,'password')">
 	<input type="hidden" name="filename" value="<?php echo $filename_albums ?>">
 	<?php
 	$bulk = file($filename_albums);
@@ -46,11 +48,13 @@ foreach ($elenco_foto as $anno => $album)
 ?>
 </form>
 
-
 <?php
 # logga il contatto
 $counter = count_page("admin_albums",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
 ?>
+
+<hr>
+<div align="right"><a href="index.php" class="txt_link">Torna alla pagina amministrativa principale</a></div>
 
 </body>
 </html>
