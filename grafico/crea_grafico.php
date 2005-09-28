@@ -3,7 +3,8 @@
 <html>
 <head>
   <title>Grafico tempi</title>
-  <meta http-equiv="Expires" content="-1">
+  <meta http-equiv="Expires" content="Mon, 26 Jul 1997 05:00:00 GMT">
+  <meta http-equiv="Last-Modified" content="<?php echo gmdate("D, d M Y H:i:s"); ?> GMT">
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate">
   <meta http-equiv="Cache-Control" content="post-check=0, pre-check=0">
