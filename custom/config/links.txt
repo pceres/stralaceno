@@ -1,3 +1,11 @@
+# Elenco dei links in homepage:
+#
+# formato:  link::descrizione
+#
+# modifica le righe qui sotto, rispettando il formato;
+# una linea che inizia con # viene ignorata
+#
+
 http://www.caposeleonline.it::Caposeleonline
 http://www.lagolaceno.it/::Lago Laceno
 #http://www.skilaceno.com/::Sciare a Laceno
