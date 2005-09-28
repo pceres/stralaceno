@@ -33,14 +33,6 @@ if ($password_ok == $password)
 
 if ($ok == TRUE) 
 {
-	// verifica che il file non sia protetto in scrittura
-	$perm = substr(sprintf('%o', fileperms($uploaddir . $new_name)), -4); // attributi in forma ottale
-	$write_enable = '0002'; // bit di attributi in forma ottaleche consentono la scrittura
-	if (file_exists($uploaddir . $new_name) && ((octdec($perm) & octdec($write_enable)) == 0) )
-	{
-		die("Il file e' protetto in scrittura (".$perm.")! Contatta il webmaster.");
-	}
-	
 	if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploaddir . $new_name)) 
 	{ 
 		log_action($uploaddir,$uploaddir . $new_name . ", " . date("l dS of F Y h:i:s A"));
