@@ -18,7 +18,9 @@ extract(indici());
 
 <body class="admin">
 
-<SCRIPT type="text/javascript">
+<script type="text/javaScript" src="<?php echo $site_abs_path ?>admin/md5.js"></script>
+
+<script type="text/javascript">
 <!-- 
 
 function get_list(target)
@@ -90,6 +92,7 @@ function populate(target)
 
 function do_action(action,data)
 {
+	
 	switch (action)
 	{
 	case "elenco_online":
@@ -105,14 +108,14 @@ function do_action(action,data)
 		{
 			return false;
 		}
-		document.forms["form_data"].password.value=document.forms["form_upload"].password.value;
+		document.forms["form_data"].password.value=hex_md5(document.forms["form_upload"].password.value);
 		document.forms["form_data"].task.value='cancel';
 		document.forms["form_data"].data.value=data;
 		document.forms["form_data"].submit();
 		
 		break;
 	case "edit":
-		document.forms["form_data"].password.value=document.forms["form_upload"].password.value;
+		document.forms["form_data"].password.value=hex_md5(document.forms["form_upload"].password.value);
 		document.forms["form_data"].task.value='edit';
 		document.forms["form_data"].data.value=data;
 		document.forms["form_data"].submit();
@@ -161,7 +164,7 @@ function move_up_down(direction)
 }
 
 //-->
-</SCRIPT>
+</script>
 
 
 <?php
@@ -268,7 +271,7 @@ for ($i = 0; $i < count($art_id); $i++)
 <!-- 
 gestione articoli online
 -->
-<form name="form_elenco_online" action="manage_articles.php" method="post">
+<form name="form_elenco_online" action="manage_articles.php" method="post" onSubmit="cripta_campo_del_form(this,'password')">
 
 <table class="admin" style="border-collapse: collapse;" align="center">
 	<caption>Gestione articoli in prima pagina</caption>
@@ -344,7 +347,7 @@ Non ci sono attualmente articoli sul sito!
 $id = max($art_id)+1; // determina il primo id disponibile
 $art_filename = "art_$id.txt";
 ?>
-<form name="form_upload" enctype="multipart/form-data" action="upload_article.php" method="post">
+<form name="form_upload" enctype="multipart/form-data" action="upload_article.php" method="post" onSubmit="cripta_campo_del_form(this,'password')">
 	<input type="hidden" name="MAX_FILE_SIZE" value="30000">
 	<input type="hidden" name="id_articolo" value="<?php echo $id; ?>">
 <?php echo "\t<input type=\"hidden\" name=\"filename\" value=\"$art_filename\">\n"; ?>
@@ -359,6 +362,9 @@ $art_filename = "art_$id.txt";
 # logga il contatto
 $counter = count_page("admin_articoli",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
 ?>
+
+<hr>
+<div align="right"><a href="index.php" class="txt_link">Torna alla pagina amministrativa principale</a></div>
 
 </body>
 </html>
