@@ -163,9 +163,10 @@ selezioni di qualsiasi campo select all'interno del documento.
 		echo "<br>";
 	?> 
 	<!--br-->
-	<!--script language="JavaScript"  type="text/javascript" src="<?php echo $script_abs_path; ?>fkounter5/counter.js.php?id=stralaceno&amp;mode=graphic"></script-->
 	<script language="JavaScript"  type="text/javascript" src="<?php echo $script_abs_path; ?>fkounter5/counter.js.php?id=stralaceno&amp;mode=hidden"></script>
-
+	<!--script language="JavaScript"  type="text/javascript" src="<?php echo $script_abs_path; ?>fkounter5/counter.js.php?id=stralaceno&amp;mode=graphic"></script-->
+	<!--a href='<?php echo $script_abs_path?>fkounter5/stats.php?id=stralaceno'><img src='<?php echo $script_abs_path?>fkounter5/counter.php?id=stralaceno&mode=graphic&referrer='<?php echo $_SERVER['HTTP_REFERER'];?>' width='98' height='38' alt='fanKounter' style='border:0px;' /></a-->
+	
 	</i>
 	</div>
 
