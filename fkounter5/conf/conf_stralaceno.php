@@ -39,13 +39,13 @@
 ############################################################################################
 
 $cnf__start_count         = 1284;
-$cnf__mtime_unique_accs   = 30;
+$cnf__mtime_unique_accs   = 120;
 $cnf__expire_on_midnight  = FALSE;
 $cnf__count_per_pages     = TRUE;
 $cnf__licit_domains_list  = array();
 $cnf__IPmasks_ignore_list = array();
 $cnf__htime_sync_server   = 0;
-$cnf__last_entries        = 15;
+$cnf__last_entries        = 150;
 
 ############################################################################################
 # IMPOSTAZIONI DEL VISUALIZZATORE
@@ -53,7 +53,7 @@ $cnf__last_entries        = 15;
 
 $cnf__userpass       = md5("stralacenoadmin");
 $cnf__passwd_protect = FALSE;
-$cnf__limit_view     = 15;
+$cnf__limit_view     = 150;
 
 ############################################################################################
 
