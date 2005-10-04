@@ -21,23 +21,13 @@
 
 <p align=center>
 <b>
-P<span style='color:red'>.</span>RE<span style='color:red'>.</span>G<span style='color:red'>.</span>FA<span style='color:red'>.</span>S 
--
-Pubblico REgistro dei Grandi FAnfaroni della Stralaceno
+P.RE.G.FA.S. - Pubblico REgistro dei Grandi FAnfaroni della Stralaceno
 </b>
 
 
 <p>
 Il 
-P<span style='color:red'>.</span>RE<span style='color:red'>.</span>G<span style='color:red'>.</span>FA<span style='color:red'>.</span>S
-(o &quot;
-<span style='color:red'>P</span>ubblico 
-<span style='color:red'>RE</span>gistro dei 
-<span style='color:red'>G</span>randi 
-<span style='color:red'>FA</span>nfaroni
-della 
-<span style='color:red'>S</span>tralaceno
-&quot;)
+P.RE.G.FA.S. (o "Pubblico REgistro dei Grandi FAnfaroni della Stralaceno")
 raccoglie tutti i casi accertati (e documentati) di millanterie o spacconerie
 non seguite poi dalla performance atletica promessa.
  
