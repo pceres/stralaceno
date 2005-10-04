@@ -29,11 +29,8 @@
 # IMPOSTAZIONI DI ESECUZIONE
 ############################################################################################
 
-// carica le variabili globali del sito
-require_once('../libreria.php'); // !!!
-
 // Nasconde qualsiasi messaggio di errore o di avviso run-time
-error_reporting(0);
+//error_reporting(0); //!!!
 
 // Prefisso per gli input ottenuti mediante get, post, cookie
 import_request_variables("gpc","par__");
@@ -74,17 +71,20 @@ define("CUTSIZE",150);
 # CARTELLE E FILE
 ############################################################################################
 
+// carica le variabili globali del sito per permettere di recuperare il path assoluto delle directory
+require_once('../libreria.php'); // !!!
+
+define("DATA_FOLDER",$filedir_counter."data/");
+define("TEMP_FOLDER",$filedir_counter."temp/");
 define("CONFIG_FOLDER","conf/");
-define("DATA_FOLDER","data/");
 define("BACKUP_FOLDER","back/");
-define("TEMP_FOLDER","temp/");
 
 define("CONFIG_FILES","conf_*.php");
 define("DATA_FILES","data_*.php");
 define("ACCESS_FILES","accs_*.dat");
 define("FLOCK_FILES","lock_*.tmp");
 
-define("SCRIPT_PATH",$SCRIPT_abs_path."fkounter5/");
+define("SCRIPT_PATH",$script_abs_path."fkounter5/");
 define("FILE_PATH",$site_abs_path."fkounter5/");
 
 ############################################################################################
