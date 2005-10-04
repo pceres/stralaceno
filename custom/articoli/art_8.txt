@@ -7,7 +7,7 @@ Prima della donne Angela Aiello, che ha completato il percorso in 36'06''.
 <a href="filtro4.php?anno=2005">L'ordine d'arrivo completo dell'edizione 2005 &egrave; consultabile qui</a>.
 L'album fotografico della Stralaceno 2005 &egrave; disponibile <a href="album.php?anno=2005">qui</a> 
 <p>
-<b>Inserite nuove foto il 18.09.2005 per le edizioni 2005, 2004, 2002, 2000, 1999, 1994, 1991</b>. 
+<b>Inserite nuove foto il 18.09.2005 per le edizioni 2005, 2004, 2002, 2001, 2000, 1999, 1994, 1991</b>. 
 Aspettiamo anche il vostro contributo...
 <div align="center">
 <img id="foto" src="%file_root%custom/album/2005/dscn3877.jpg" alt="Partenza della XVII edizione" border="0" width="420">
