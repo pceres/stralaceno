@@ -157,13 +157,11 @@ cell_R.height=x-13*2;
 </script>
 
 
-	<!--body alink="#603913" background="Binder_files/bkgrnd.gif" link="#603913" text="#000000" vlink="#603913"-->
 		<table border="0" cellpadding="0" cellspacing="0" width="100%">
 			<tbody>
 			
 			<!-- riga vuota -->
 			<tr>
-				<!--td colspan="<?php echo $photo_per_row ?>" height="10"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Null.gif" border="0" height="10" width="11"></td-->
 				<td colspan="<?php echo $photo_per_row ?>" height="10"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Null.jpg" border="0" height="10" width="11"></td>
 			</tr>
 			
@@ -190,7 +188,6 @@ foreach ($archivio as $prestazione)
 					
 				<td valign="top" width="<?php echo round(100/$photo_per_row) ?>%">
 					<div align="right">
-						<!--h2><a href="index.php">Homepage</a></h2-->
 						<h2>&nbsp;</h2>
 					</div>
 				</td>
@@ -235,7 +232,12 @@ for ($i = 0; $i<$photo_per_row; $i++)
 			$link_foto = $site_abs_path."custom/album/$anno/".$album[$photo_count][$id_nomefile_foto];
 		}
 ?>
-<td align='center' width='<?php echo round(100/$photo_per_row); ?>%' valign='middle'>
+
+<td width="<?php echo round(100/$photo_per_row); ?>%"><table><tbody>
+
+<!--  foto incorniciata  -->
+<tr>
+<td align='center' width="<?php echo round(100/$photo_per_row); ?>%" valign='middle'>
 		<table id="thumb_table_<?php echo $photo_count ?>" border='0' cellpadding='0' cellspacing='0'>
 			<tr>
 				<td colspan='3'><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_TL.gif" alt="TL" width="30" height="16" border="0" /><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_T.gif' alt="T" width='105' height='16' border='0' /><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_TR.gif' alt="TR" width='30' height='16' border='0' /></td>
@@ -253,25 +255,13 @@ for ($i = 0; $i<$photo_per_row; $i++)
 				<td colspan='3'><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_BL.gif' alt="BL" width='30' height='16' border='0' /><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_B.gif' alt="B" width='105' height='16' border='0' /><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_BR.gif' alt="BR" width='30' height='16' border='0' /></td>
 			</tr>
 		</table>
-</td>
-<?php
-	} // if ($photo_count <= count($elenco_foto))
-	$photo_count++;
-} // for
-?>
-			</tr>
-			
-			
-			<!-- riga di $photo_per_row commenti -->
-			<tr>
-<?php
-for ($i = 0; $i<$photo_per_row; $i++)
-{
-	if ($rem_count < count($album))
-	{
+	</td>
+</tr>
 
-?>
-			<td align="center" valign="top" width="<?php echo round(100/$photo_per_row); ?>%">
+<!--  didascalia (titolo e descrizione)  -->
+<tr>
+
+			<td align="center" width="<?php echo round(100/$photo_per_row); ?>%" valign="top" >
 					<a href='show_photo.php?id_photo=<?php echo $rem_count ?>&amp;album=<?php echo $anno ?>'>
 					<?php echo $album[$rem_count][$id_titolo_foto]?></a>
 					
@@ -284,12 +274,35 @@ for ($i = 0; $i<$photo_per_row; $i++)
 					
 					
 				</td>
+
+</tr>
+
+<!--  riga vuota sotto la foto e la didascalia -->
+<tr><td><br></td></tr> 
+
+</tbody></table></td>
+
 <?php
-	} // if ($rem_count <= count($elenco_foto))
+	} // if ($photo_count <= count($elenco_foto))
+	else
+	{
+	?>
+	
+<!-- foto fittizia -->
+<td width="<?php echo round(100/$photo_per_row); ?>%" align="center" valign="middle"><table><tbody>
+<tr><td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td></tr> 
+</tbody></table></td>
+
+	<?php
+	}// else  ($photo_count <= count($elenco_foto))
+	$photo_count++;
 	$rem_count++;
 } // for
 ?>				
-				
+
+	
 </tr>
 
 <?php 
