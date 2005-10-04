@@ -30,7 +30,7 @@ require("cnf.inc.php");
 # IMPOSTAZIONI DI ESECUZIONE
 ############################################################################################
 
-//error_reporting(0);
+//error_reporting(0); //!!!
 import_request_variables("gpc","par__");
 
 ############################################################################################
@@ -62,6 +62,7 @@ $aux__jscode=($par__mode==="graphic")?("<a href=\'".$aux__stats_href."\'><img sr
 
 $__jsfile=<<<JSFILE
 /* This file was created by fanKounter */
+
 try
 {
  var _referrer=top.document.referrer;
@@ -79,6 +80,12 @@ JSFILE;
 ############################################################################################
 
 header("Content-type: text/javascript");
+header("Cache-Control: no-store, no-cache, must-revalidate");
+header("Pragma: no-cache");
+header("Expires: Mon, 26 Jul 1997 05:00:00 GMT");
+header("Last-Modified: ".gmdate("D, d M Y H:i:s")." GMT");
+header("Cache-Control: post-check=0, pre-check=0");
+
 echo $__jsfile;
 exit();
 
