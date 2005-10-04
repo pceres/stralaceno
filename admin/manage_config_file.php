@@ -1,12 +1,17 @@
 #!/usr/local/bin/php 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
 <?php
 
 require_once('../libreria.php');
 
 # dichiara variabili
 extract(indici());
+
+// verifica che si stia arrivando a questa pagina da quella amministrativa principale
+if ( !isset($_SERVER['HTTP_REFERER']) | ("http://".$_SERVER['HTTP_HOST'].$script_abs_path."admin/" != substr($_SERVER['HTTP_REFERER'],0,strrpos($_SERVER['HTTP_REFERER'],'/')+1) ) )
+{
+	header("Location: ".$script_abs_path."admin/index.php");
+	exit();
+}
 
 $filename = $_REQUEST['config_file'];
 
@@ -22,6 +27,8 @@ if (!in_array($filename,$enabled_config_files))
 }
 	
 ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
 <head>
   <title>Modifica file di configurazione <?php echo $filename; ?></title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
