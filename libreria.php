@@ -137,16 +137,16 @@ $site_abs_path = substr($path,0,$end);
 
 #path assoluti
 $modules_site_path		= $script_abs_path."custom/moduli/";
-$filedir_counter 		= $root_path."custom/dati/";
+$filedir_counter 		= $root_path."custom/contatori/";
 $articles_dir 			= $root_path."custom/articoli/";
 $config_dir 			= $root_path."custom/config/";
 
 #nomi di file
 $filename_css			= $site_abs_path."custom/config/style.css";
-$filename_tempi 		= $root_path."custom/dati/".$nome_file_tempi;
-$filename_atleti 		= $root_path."custom/dati/".$nome_file_atleti;
-$filename_organizzatori		= $root_path."custom/dati/".$nome_file_organizzatori;
-$article_online_file 		= $articles_dir."online.txt";
+$filename_tempi			= $root_path."custom/dati/".$nome_file_tempi;
+$filename_atleti		= $root_path."custom/dati/".$nome_file_atleti;
+$filename_organizzatori	= $root_path."custom/dati/".$nome_file_organizzatori;
+$article_online_file	= $articles_dir."online.txt";
 $filename_links			= $config_dir."links.txt";
 $filename_albums		= $config_dir."albums.txt";
 
@@ -772,13 +772,19 @@ function get_online_articles($article_online_file)
 function set_online_articles($article_online_file,$article_list)
 {
 	// scrivi il file degli articoli online
-	$handle=fopen($article_online_file,'w');
-	for ($i = 0; $i < count($article_list); $i++)
+	if ($handle=fopen($article_online_file,'w'))
 	{
-		fwrite($handle, $article_list[$i]);
-		fwrite($handle,"\r\n");
+		for ($i = 0; $i < count($article_list); $i++)
+		{
+			fwrite($handle, $article_list[$i]);
+			fwrite($handle,"\r\n");
+		}
+		fclose($handle);
 	}
-	fclose($handle);
+	else
+	{
+		die("$article_online_file e' probabilmente protetto in scrittura! Contattare il webmaster.");
+	}
 }
 
 
@@ -1165,14 +1171,7 @@ function show_template($template_file)
 }
 
 
-?>
-
-
-
-<?php
-
 //Page properties definitions
-
 error_reporting(0); // otherwise "StripDoubleColon($HTTP_REFERER);" gives error
 //error_reporting(2039); // otherwise "StripDoubleColon($HTTP_REFERER);" gives error. Show all errors but notices
 
@@ -1231,13 +1230,13 @@ function count_page($myself,$flags,$path_prefix = "")
   $HTTP_REFERER = $_SERVER['HTTP_REFERER'];
   $QUERY_STRING = $_SERVER['QUERY_STRING'];
 
-  $logfile 	= $path_prefix.'logfile.txt'; 		//every hit log file
+  $logfile 	= $path_prefix.'logfile.txt'; 				//every hit log file
   $backupfile 	= $path_prefix.'backupfile%03d.txt';   	//log backup file naming. E' importante lasciare alla fine del nome %3d (formato per sprintf)
-  $counterfile 	= $path_prefix.'counterfile.txt';	//miscellaneous pages visit counter
-  $lasthitfile 	= $path_prefix.'lasthitfile.txt'; 	//last hits ... used with trigger, allow to prevent counting 'reload' as visit
+  $counterfile 	= $path_prefix.'counterfile.txt';		//miscellaneous pages visit counter
+  $lasthitfile 	= $path_prefix.'lasthitfile.txt'; 		//last hits ... used with trigger, allow to prevent counting 'reload' as visit
   $imagepath 	= $path_prefix.'images/';           	//path to digit gif image location
   $minlength 	= 3;       	//min length of the counter (will be padded with 0)
-  $trigger 	= 30;  // 0     //number of minutes while a second hit from the same ip to the same page in not counted
+  $trigger 	= 120;          //number of minutes while a second hit from the same ip to the same page in not counted
 
 //Read counter from file or reset counter to 0 if counter file doesn't exist
 $output='';
@@ -1404,4 +1403,5 @@ $contatore_out = $counter;
   
   return $contatore_out;
 }
+
 ?>
