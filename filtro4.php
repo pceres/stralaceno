@@ -96,9 +96,6 @@ $archivio_rielaborato = fondi_nome_id($archivio_ordinato, $indice_nome, $indice_
 $mask = array($indice_posiz,$indice_nome,$indice_tempo,'simb'); # escludo l'anno
 show_table($archivio_rielaborato,$mask,'tabella',3,12,1); # tabella in tre colonne, font 12, con note
 
-# logga il contatto
-$counter = count_page("classifica_anno",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
-
 # visualizzazione organizzatori
 $organizzatori = load_data($filename_organizzatori,$num_colonne_organizzatori);
 
@@ -144,6 +141,9 @@ l'indirizzo e-mail: <a href="mailto:<?php echo $email_info?>?subject=Info%20sui%
 <br>
 <?php
 }
+
+# logga il contatto
+$counter = count_page("classifica_anno",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
 
 echo $homepage_link;
 
