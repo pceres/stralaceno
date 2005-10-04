@@ -7,7 +7,7 @@ inizio footer
 	  <tbody>
 	  
 		<tr>
-		  <td align="right"><small>informazioni sulla Stralaceno</small></td>
+		  <td align="right"><small>Informazioni sulla Stralaceno</small></td>
 		  <td><small>:</small></td>
 		  <td align="left" style="font-style: italic;"><small><a
 			 href="mailto:stralaceno@freepass.it?subject=Info%20sulla%20Stralaceno"
@@ -15,7 +15,7 @@ inizio footer
 		</tr>
 		
 		<tr>
-		  <td align="right"><small>webmaster</small></td>
+		  <td align="right"><small>Webmaster</small></td>
 		  <td><small>:</small></td>
 		  <td align="left" style="font-style: italic;"><small><a
 			 href="mailto:pasquale_c@hotmail.com?subject=Info%20o%20suggerimenti%20sul%20sito" 
