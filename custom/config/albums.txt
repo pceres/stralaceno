@@ -45,8 +45,14 @@ lac10.jpg::Nicola Melillo e Luciano Rosania::
 
 [2000]
 00A_0260.jpg::XII edizione::Una bella giornata di sole accoglie i partecipanti
+stra-2000.jpg::Ultimi minuti di attesa::
+stralacen-2000.jpg::Si cerca di stemperare la tensione::
+2000.jpg::Tutti pronti a far scattare i cronometri::
+str-2000.jpg::Il 'via' dell'edizione 2000::
 _2A_0257.jpg::G.P.M.::Gran Premio della Montagna: la corsa si fa pi&ugrave; dura
 0266.jpg::Leggera discesa prima del 3&deg; km::Il cambio di ritmo &egrave; repentino
+stralac-2000.jpg::Nicola Melillo::
+stral-2000.jpg::Gianni Cetrulo seguito da Gino Amendola::
 _4A_0265.jpg::Gelsomino Merola::Primo in 20' 11''
 _5A_0264.jpg::Nicola D'Auria::Ottiene il personale con 22' 42''
 _6A_0263.jpg::Lello Viscardi::
@@ -55,18 +61,12 @@ _8A_0261.jpg::Benedetto Montanari::
 0272.jpg::Michele Ceres::Un graditissimo ritorno
 0271.jpg::Giuseppe Ceres::Conclude il percorso in 39' 47'' 
 0270.jpg::Relax finale:: 
-#2000.jpg::2000.jpg::
-#str-2000.jpg::str-2000.jpg::
-#stra-2000.jpg::stra-2000.jpg::
-#stral-2000.jpg::stral-2000.jpg::
-#stralac-2000.jpg::stralac-2000.jpg::
-#stralacen-2000.jpg::stralacen-2000.jpg::
 
 [2001]
-2001.jpg::2001.jpg::
-#str-2001.jpg::str-2001.jpg::
-#stral-2001.jpg::stral-2001.jpg::
-#stralacen-2001.jpg::stralacen-2001.jpg::
+stralacen-2001.jpg::Inizia ad animarsi la zona partenza::
+2001.jpg::Si avvicina il 'via'::
+str-2001.jpg::::
+stral-2001.jpg::::
 
 [2002]
 5 km.jpg::Pierlorenzo::Un saluto rilassato di Pierlorenzo Pallante
