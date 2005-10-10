@@ -1,12 +1,15 @@
 # Pubblico REgistro dei Grandi FAnfaroni della Stralaceno (P.RE.G.FA.S.):
 #
-# formato:  nome e cognome::anno::promesa solenne::eventuali note</small>
+# formato:  nominativo::data_iscrizione::causa_iscrizione::data_cancellazione::causa_cancellazione
 #
 # modifica al di sotto di [elenco_fanfaroni], rispettando il formato;
 #
 
 [elenco_fanfaroni]
-Benedetto Montanari::2000::Promette di partecipare e di arrivare entro 30 minuti::Non riuscir&agrave; a completare il percorso nel tempo millantato
-Angelo Ceres::2000::Promette di partecipare e di arrivare entro 30 minuti::Non riuscir&agrave; a completare il percorso nel tempo millantato
-Lello Viscardi::2000::Promette di partecipare e di arrivare entro 30 minuti::Non riuscir&agrave; a completare il percorso nel tempo millantato, ma si riscatter&agrave; nelle edizioni successive aiutando nell'organizzazione
-Benito Sista::2005::Si impegna per iscritto a partecipare alla manifestazione::Non sar&agrave; presente al 'via'
+#xx::??::Millantata performance::::
+#xx::??::Vilipendio alla manifestazione::::
+#xx::??::Incauto affidamento???::::
+Benedetto Montanari::01/09/2001::Ingiustificato inadempimento::::
+Angelo Ceres::01/09/2001::Ingiustificato inadempimento::::
+Lello Viscardi::01/09/2001::Ingiustificato inadempimento::??::Collaborazione con l'organizzazione
+Benito Sista::02/09/2005::Ingiustificato inadempimento::::
