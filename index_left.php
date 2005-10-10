@@ -80,6 +80,10 @@ inizio colonna sinistra
 				<a href="<?php echo $modules_site_path ?>organizzatori/organizzatori.php" name="organizzatori" class="txt_link">Gli organizzatori</a>
 			</td></tr>
 			
+			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
+				<a href="<?php echo $modules_site_path ?>lettere_stralaceno/lettere_stralaceno.php" name="lettere_stralaceno" class="txt_link">Lettere alla Stralaceno</a>
+			</td></tr>
+			
 		  </tbody>
 		 </table>
 		
