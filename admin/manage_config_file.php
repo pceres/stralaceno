@@ -20,7 +20,7 @@ if (empty($filename))
 	die("File inesistente!");
 }
 
-$enabled_config_files = array("pregfas.txt","links.txt"); // elenco dei file di configurazione che e' possibile modificare 
+$enabled_config_files = array("pregfas.txt","links.txt","lettere_stralaceno.txt"); // elenco dei file di configurazione che e' possibile modificare 
 if (!in_array($filename,$enabled_config_files))
 {
 	die("Non e' possibile modificare il file $filename! Contattare il webmaster.");
