@@ -52,23 +52,23 @@ $style_sfondo_maschi = "rgb(249, 255, 255)";
 $style_sfondo_femmine = "rgb(255, 234, 234)";
 
 
-// determina la directory (l'ultimo livello) contenente il sito (deve INIZIARE con $root_prefix, ad es., se $root_prefix=="sito", "sito2" e' ok)
+// determina la directory (l'ultimo livello) contenente il sito (deve iniziare con $root_prefix, ad es., se $root_prefix=="sito", "sito2" e' ok)
 $path = $_SERVER['SCRIPT_FILENAME'];
+$root_prefix = "/".$root_prefix;
 
-// determina l'ultima occorrenza di root_prefix preceduta da '/'
-$temp=strpos($path,"/".$root_prefix);
+// determina l'ultima occorrenza di root_prefix
+$temp=strpos($path,$root_prefix);
 if (strlen($temp."a")==1) // verifica che root_prefix sia presente nel path
 {
 	die("Errore: il path della radice del sito ($path) sul server non contiene '$root_prefix' ");
 }
 do {
-	$path = substr($path,$temp+1);
-	$temp=strpos($path,"/".$root_prefix,1)."a";
+	$path = substr($path,$temp);
+	$temp=strpos($path,$root_prefix,1)."a";
 } while (strlen($temp)>1);
 // taglia la parte restante del path fino al simbolo '/'
 $path = substr($path,strpos($path,$root_prefix));
-$root_prefix = substr($path,0,strpos($path,"/"));
-
+$root_prefix = substr($path,0,strpos($path,"/",1));
 
 // determina il path assoluto nel filesystem del server (serve quando si accede direttamente ai file per leggere o scrivere)
 $path = $_SERVER['SCRIPT_FILENAME'];
@@ -95,11 +95,11 @@ else
 $end = 0;
 do {
 	$test = strpos($path,$root_prefix,$end);
-	if ($test)
+	if (strlen($test."a")>1)
 	{
 		$end = $test+strlen($root_prefix)+1;
 	}
-} while ($test);
+} while (strlen($test."a")>1);
 $script_abs_path = substr($path,0,$end);
 
 // path assoluto da usare per l'html e le immagini
@@ -128,11 +128,11 @@ else
 $end = 0;
 do {
 	$test = strpos($path,$root_prefix,$end);
-	if ($test)
+	if (strlen($test."a")>1)
 	{
 		$end = $test+strlen($root_prefix)+1;
 	}
-} while ($test);
+} while (strlen($test."a")>1);
 $site_abs_path = substr($path,0,$end);
 
 
