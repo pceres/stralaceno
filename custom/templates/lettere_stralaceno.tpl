@@ -26,15 +26,14 @@ Lettere alla Stralaceno
 
 <p>
 Questa sezione contiene le lettere ed i suggerimenti inviati dai visitatori del sito. 
-Chi volesse scriverci puo' inviare una email all'indirizzo 
+Chi volesse scriverci pu&ograve; inviare una email all'indirizzo 
 <a href="mailto:stralaceno@freepass.it?subject=Lettera%20alla%20Stralaceno"
 	title="Lettera alla Stralaceno">stralaceno@freepass.it</a>.
 
 <br>
 <br>
 
-
-<div align="justify">
+<div align="justify" style="text-indent: 2em;">
 
 %%%% begin lettere_stralaceno.txt lettere_stralaceno 4
 
@@ -49,7 +48,7 @@ Chi volesse scriverci puo' inviare una email all'indirizzo
 	<i>Lettera ricevuta il %field1%</i><br>
 	
 	<br>
-	<b><i><span style="font-size:0.85em;">%field3%</span></i></b><br>
+	<b><i><span style="font-size:0.85em;">%field3%</span></i></b>
 	<br>
 
 %%%% end
