@@ -1098,7 +1098,7 @@ function get_config_file($conf_file,$expected_items)
 			else
 			{
 				$item = split("::",$ks);
-				if (count($item) == $expected_items)
+				if (count($item) <= $expected_items)
 				{
 					array_push($settings[$title],$item);
 				}
