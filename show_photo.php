@@ -23,10 +23,11 @@ $id_photo = $_REQUEST['id_photo'];
 <?php 
 
 // carica elenco delle foto disponibili
-$elenco_foto = get_config_file($filename_albums,3);
+$elenco_foto = get_config_file($filename_albums,4);
 $id_nomefile_foto = 0;
 $id_titolo_foto = 1;
 $id_descrizione_foto = 2;
+$id_descrizione_persone = 3;
 
 $album = $elenco_foto[$nome_album];
 
@@ -83,6 +84,34 @@ cell_L.height=x-13*2;
 cell_R.height=x-13*2;
 
 } // end FixSinglePhoto
+
+
+function VisualizzaNomi(mode) {
+
+	if (document.all)
+	{ // IE
+		msg = document.all.msg_descrizione_nomi;
+		nomi = document.all.descrizione_nomi;
+	}
+	else if (document.getElementById)
+	{ // NS
+		msg = document.getElementById('msg_descrizione_nomi'); 
+		nomi = document.getElementById('descrizione_nomi'); 
+	}
+
+//	alert(nomi);
+	if (mode==1)
+	{
+	msg.style.display="none";
+	nomi.style.display="block";
+	}
+	else
+	{
+	msg.style.display="block";
+	nomi.style.display="none";
+	}
+	
+} // end VisualizzaNomi
 
 //-->
 //]]>
@@ -195,14 +224,32 @@ $path = str_replace(' ','%20',$path);
 						<tr>
 							<td colspan="3"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_BL.gif" border="0" height="16" width="30" alt="BL"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_B.gif" border="0" height="16" width="392" alt="B"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_BR.gif" border="0" height="16" width="30" alt="BR"></td>
 						</tr>
+						
 						</tbody></table>
 					</td></tr>
+<?php
+if (count($album[$id_photo][$id_descrizione_persone])>0)
+{
+?>
+			<!-- riga con i nomi dei corridori -->
+			<tr>
+				<td colspan="3" align="center">
+					<span id="msg_descrizione_nomi"><a onclick="VisualizzaNomi(1)">Clicca qui per visualizzare i nomi...</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" align="center">
+					<span style="display: none;" id="descrizione_nomi" onclick="VisualizzaNomi(0)"><?php echo $album[$id_photo][$id_descrizione_persone] ?></span>
+				</td>
+			</tr>
+<?php
+} // end if
+?>
 			
 			<!-- riga vuota per distanziare la riga successiva -->
 			<tr>
 				<td height="20"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Null.jpg" border="0" height="20" width="20"></td>
 			</tr>
-			
 			
 			<!-- riga footer -->
 			<tr>
