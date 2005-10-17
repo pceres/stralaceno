@@ -1,9 +1,12 @@
 # Pubblico REgistro dei Grandi FAnfaroni della Stralaceno (P.RE.G.FA.S.):
 #
-# formato:  nominativo::data_iscrizione::causa_iscrizione::data_cancellazione::causa_cancellazione
+# formato elenco_fanfaroni:  nominativo::data_iscrizione::causa_iscrizione::data_cancellazione::causa_cancellazione
 #
-# modifica al di sotto di [elenco_fanfaroni], rispettando il formato;
+# modifica la data sotto [data_aggiornamento], ed al di sotto di [elenco_fanfaroni], rispettando il formato;
 #
+
+[data_aggiornamento]
+02/09/2005
 
 [elenco_fanfaroni]
 #xx::??::Millantata performance::::
