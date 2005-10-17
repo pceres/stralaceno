@@ -7,7 +7,7 @@ ID;Atleta;Pos.;Tempo;Anno;Note
 6;Tonuccio Corona;6;26'51'';1987;
 7;Gualfardo Montanari di Pasqu.;7;29'15'';1987;
 8;Armando Sturchio;8;30'29'';1987;
-9;Nicola Majorana;9;31'16'';1987;è tuttora pendente un ricorso per comportamento non regolamentare
+9;Nicola Majorana;9;31'16'';1987;e' tuttora pendente un ricorso per comportamento non regolamentare
 10;Gerardo Ceres;10;Rit.;1987;
 1;Donato Merola;9;25'55'';1990;
 2;Nicola D'Auria;6;24'28'';1990;
@@ -32,10 +32,10 @@ ID;Atleta;Pos.;Tempo;Anno;Note
 4;Massimo Russomanno;-;-;1991;tale assenza fu da taluni ritenuta atto di diserzione
 11;Gelsomino Merola;1;20'28'';1991;
 17;Franco Malanga;5;27'02'';1991;
-19;Salvatore Russomanno;9;30'10'';1991;
-20;Franco Maroso;8;30'09'';1991;
-21;Gualfardo Montanari di Agost.;10;31'11'';1991;
-22;Salvatore Casillo;11;34'13'';1991;
+19;Salvatore Russomanno;8;30'10'';1991;
+20;Franco Maroso;7;30'09'';1991;
+21;Gualfardo Montanari di Agost.;9;31'11'';1991;
+22;Salvatore Casillo;10;34'13'';1991;
 23;Angelino Cetrulo;2;23'30'';1991;
 24;Sandro Russomanno;3;24'10'';1991;
 1;Donato Merola;7;25'43'';1992;
@@ -317,7 +317,7 @@ ID;Atleta;Pos.;Tempo;Anno;Note
 123;Rocco Feniello;35;28'06'';2002;
 124;Luca Cibellis;52;34'15'';2002;
 128;Raffaele Merola ;2;21'45'';2002;
-129;Rocco Nesta ;4;23'27'';2002;
+129;Rocco Nesta;4;23'27'';2002;
 130;Enrico Porreca ;5;23'43'';2002;
 131;Alfredo Grasso ;11;24'26'';2002;
 132;Giuseppe Cifrodelli ;13;24'37'';2002;
@@ -421,7 +421,7 @@ ID;Atleta;Pos.;Tempo;Anno;Note
 140;Salvatore Colatrella;26;26'38'';2004;
 167;Gianfranco Rosania;27;26'59'';2004;
 168;Juli Pucillo;28;27'17'';2004;
-109;Armando Grasso di P.;29;27'20'';2004;
+109;Armando Grasso di Pasqu.;29;27'20'';2004;
 32;Gino Amendola;30;27'24'';2004;
 145;Gelsomino Merola di Don.;31;27'39'';2004;
 91;Antonio D'Elia;32;28'06'';2004;
@@ -447,3 +447,52 @@ ID;Atleta;Pos.;Tempo;Anno;Note
 179;Micaela Bucci;52;41'23'';2004;
 180;Rocchina Cibellis;53;Rit.;2004;
 181;Salvatore Russomanno di G.;53;Rit.;2004;
+182;Francesco Ceres di Gius.;1;21'45'';2005;
+165;Gerardo Martino;2;21'52'';2005;
+136;Rocco Proietto;3;22'04'';2005;
+148;Gianfranco Di Vincenzo;4;22'18'';2005;
+29;Alessandro Russomanno;5;22'51'';2005;
+83;Paolo Viscardi;6;23'03'';2005;
+123;Rocco Feniello;7;23'04'';2005;
+183;Salvatore Malanga di Alf.;8;23'05'';2005;
+150;Salvatore Merola;9;23'10'';2005;
+135;Claudio Donatiello;10;23'28'';2005;
+2;Nicola D'Auria;11;23'31'';2005;
+102;Angelo Ceres di Vinc.;12;23'51'';2005;
+112;Valentino di Masi;13;23'55'';2005;
+70;Nicola Melillo;14;24'02'';2005;
+40;Roberto Notaro;15;24'26'';2005;
+97;Dario Nisivoccia;16;24'27'';2005;All'arrivo esprime platealmente il suo disappunto per la mancata possibile vittoria
+51;Donato Ceres;17;24'45'';2005;
+145;Gelsomino Merola di Don.;18;24'46'';2005;
+131;Alfredo Grasso;19;24'51'';2005;
+184;Alessio Zarra;20;25'01'';2005;
+93;Gaetano Rosania;21;25'08'';2005;
+26;Pasquale Ceres;22;25'18'';2005;
+167;Gianfranco Rosania;23;25'35'';2005;
+185;Alfonso Malanga;23;25'35'';2005;
+140;Salvatore Colatrella;25;26'25'';2005;
+124;Luca Cibellis;26;26'40'';2005;
+186;Gerardo Russomanno;26;26'40'';2005;
+91;Antonio D'Elia;28;26'58'';2005;
+86;Donatello Cirillo;29;27'09'';2005;
+54;Maurizio Sturchio;30;27'31'';2005;
+1;Donato Merola;31;27'49'';2005;
+187;Maurizio Liloia;32;27'52'';2005;
+45;Gerardo Notaro;33;27'53'';2005;
+32;Gino Amendola;34;28'01'';2005;
+188;Niccolo' Luongo;35;28'14'';2005;
+30;Antonio Ceres;36;28'26'';2005;
+107;Tommaso Cibellis;37;29'38'';2005;
+66;Rocco Rosania;38;30'08'';2005;
+50;Gianni Cetrulo;39;30'41'';2005;
+189;Giuseppe Curcio;40;31'15'';2005;
+190;Simone Galdi;41;31'24'';2005;
+42;Giuseppe Rosania;42;31'38'';2005;
+146;Giovanni Cifrodelli;43;32'45'';2005;
+173;Angela Aiello;44;36'06'';2005;
+191;Antonella D'Elia;45;38'15'';2005;
+192;Anita Ilaria;45;38'15'';2005;
+77;Angelo Viscardi;47;39'24'';2005;
+161;Monica Galdi;48;42'21'';2005;
+177;Rosalba Palumbo;49;43'58'';2005;
