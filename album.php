@@ -22,10 +22,11 @@ $anno = $_REQUEST['anno'];
 <?php 
 
 // carica elenco delle foto disponibili
-$elenco_foto = get_config_file($filename_albums,3);
+$elenco_foto = get_config_file($filename_albums,4);
 $id_nomefile_foto = 0;
 $id_titolo_foto = 1;
 $id_descrizione_foto = 2;
+$id_descrizione_persone = 3;
 
 $album = $elenco_foto[$anno];
 
