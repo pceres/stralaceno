@@ -44,12 +44,12 @@ extract(indici());
 
 <hr>
 
-<div align="center"><b>Stralcio dal regolamento della Stralaceno</b></div>
+<div align="center"><b>Caratteristiche della Stralaceno</b></div>
 
 <div align="justify" class="txt_normal">
 
 <p>
-Segue uno stralcio del regolamento della Stralaceno, come si &egrave; via via andato
+Seguono le caratteristiche principali della Stralaceno, come si sono andate via via
 cristallizzando nel corso delle passate edizioni.
 
 <p>
@@ -76,9 +76,13 @@ cristallizzando nel corso delle passate edizioni.
 
 <b>Chi partecipa:</b>
 <ul>
-	<li>
+	<!--li>
 	tutte le persone dotate di <i>"cittadinanza sportiva"</i> caposelese, in caso di 
 	contrasti si ricorre ad una commissione di saggi;
+	</li-->
+
+	<li>
+	tutte le persone dotate di <i>"cittadinanza sportiva"</i> caposelese;
 	</li>
 
 	<li>
@@ -92,11 +96,7 @@ cristallizzando nel corso delle passate edizioni.
 <b>Quando si svolge:</b>
 <ul>
 	<li>
-	per la definizione della data, Nicola D'Auria, Donato Merola e Massimo Russomanno
-	(storici pionieri della Stralaceno) indicano tre date ciascuno, comprese nel periodo 
-	25 agosto-3 settembre. 
-	L'organizzazione cerca di soddisfare le richieste, compatibilmente con i vincoli 
-	organizzativi;
+	nel periodo 25 agosto-3 settembre, nel fine settimana;
 	</li>
 
 	<li>
