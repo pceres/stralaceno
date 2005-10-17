@@ -75,7 +75,10 @@ non seguite poi dalla performance atletica promessa.</p-->
 
 </div>
 <br>
-<i>Registro aggiornato al 01/09/2001</i>
+%%%% begin pregfas.txt data_aggiornamento 1
+	<i>Registro aggiornato al %field0%</i>
+%%%% end
+
 <hr>
 
 <br>
@@ -86,8 +89,13 @@ che, se in campo podistico , per nostra fortuna, sono pur sempre un'eccezione, i
 invece piuttosto frequenti. Statisticamente, d'altronde, aumentando il numero dei partecipanti, &egrave; sempre pi&ugrave;
 difficile garantire la buona condotta di tutti. Probabilmente anche la crescente popolarit&agrave; della corsa ha inoltre, 
 malauguratamente, suscitato l'interesse di appartenenti al quel folto gruppo di caposelesi che hanno l'abitudine di 
-surrogare gli scarsi fatti con le molte parole: i fanfaroni (<span style="color: red;">qui dobbiamo inserire perlomeno 
-10-12 sinonimi in lingue moderne e antiche per evidenziare l'ampiezza storico-geografica del fenomeno...</span>). 
+surrogare gli scarsi fatti con le molte parole: i fanfaroni 
+(<i>iactator</i> (latino),
+<i>braggart</i> (UK),
+<i>vantard</i> (FR),
+<i>jactancioso</i> (SP),
+<i>opschepperig</i> (NL),
+<i>prahlerisch</i> (DE)).
 E' risaputo che molti degli affetti da tale singolare inclinazione, vivono con particolare disagio e apprensione il 
 momento dell'"outing" e cio&egrave; il momento in cui finalmente essi si decidono ad esternare in pubblico la loro 
 natura, talvolta sapientemente occultata o comunque rimasta latente per molto tempo. E scelgono la Stralaceno per 
@@ -104,9 +112,9 @@ frattempo intervenuta ci lascia del tutto indifesi.
 
 <p style="text-indent: 2em;">
 Occorre allora istituire uno strumento che serva alla collettivit&agrave; per orientarsi, evidenziando perlomeno i casi 
-pi&ugrave; eclatanti di mitomania incipiente E ci&ograve; allo scopo di rendere un pubblico servizio, dato che la presenza 
-non segnalata di  unit&agrave; similari in ambito sportivo (e non...)  &egrave; suscettibile di far fallire qualsiasi 
-iniziativa futura (<i>semel fanfaron, semper fanfaron</i>).
+pi&ugrave; eclatanti di mitomania incipiente E ci&ograve; allo scopo di rendere un <b>pubblico servizio</b>, dato che 
+la presenza non segnalata di  unit&agrave; similari in ambito sportivo (e non...)  &egrave; suscettibile di far fallire 
+qualsiasi iniziativa futura (<i>semel fanfaron, semper fanfaron</i>).
 
 <p style="text-indent: 2em;">
 Ci&ograve; premesso l' A.R.S. istituisce ufficialmente il P.Re.G.Fa.S. ovvero il Pubblico Registro di Grandi Fanfaroni 
