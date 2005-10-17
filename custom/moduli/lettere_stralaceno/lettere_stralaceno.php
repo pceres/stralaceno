@@ -15,11 +15,8 @@ extract(indici());
   <meta name="description" content="Lettere alla Stralaceno">
   <meta name="keywords" content="Lettere, Guestbook, Stralaceno, ARS, Caposele, Atletica">  
   <style type="text/css">@import "<?php echo $filename_css ?>";</style>
-  <style>
-	p {text-indent: 2em;}
-  </style>
 </head>
-<body class="tabella">
+<body>
 
 <?php
 show_template("lettere_stralaceno.tpl")
