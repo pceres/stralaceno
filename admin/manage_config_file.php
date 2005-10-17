@@ -53,7 +53,7 @@ $filename = $config_dir.$filename;
 	{
 		echo $bulk[$i];
 	}
-	echo "</textarea>";
+	echo "</textarea>\n";
 	?>
 	Password: <input name="password" type="password">
 	<input type="submit" value="Invia File">
