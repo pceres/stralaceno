@@ -74,8 +74,8 @@ require_once('../libreria.php'); // !!!
 
 define("DATA_FOLDER",$filedir_counter."data/");
 define("TEMP_FOLDER",$filedir_counter."temp/");
-define("CONFIG_FOLDER","conf/");
-define("BACKUP_FOLDER","back/");
+define("CONFIG_FOLDER",$filedir_counter."conf/");
+define("BACKUP_FOLDER",$filedir_counter."back/");
 
 define("CONFIG_FILES","conf_*.php");
 define("DATA_FILES","data_*.php");
