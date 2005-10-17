@@ -7,7 +7,7 @@
 #
 
 [1987]
-I edizione.jpg::Foto di gruppo prima della partenza::
+I edizione.jpg::Foto di gruppo prima della partenza::::Nicola D'Auria, Gerardo Ceres, Armando Sturchio, Massimo Russomanno, Tonuccio Corona, Donato Merola,<br> Felicino Caruso, Balduino Farina, Nicola Majorana, Gualfardo Montanari di Pasqu.
 
 [1991]
 lac1.jpg::::Alla partenza dell'edizione '91 anche Sandro Russomanno. In secondo piano Pasquale Cozzarelli, giudice di corsa e cronometrista.
@@ -135,6 +135,7 @@ dscn5316.jpg::Tensione pre-gara::
 dscn5324.jpg::Il secondo cronometrista::Un ruolo delicato, ma indispensabile se si vuole certificare l'assoluta attendibilit&agrave; delle rilevazioni effettuate.
 dscn5307.jpg::Soft stretching::
 dscn5332.jpg::Si attende l'appello::
+
 dscn5333.jpg::L'appello::
 dscn3876.jpg::Pronti alla partenza::Il direttore di gara, Gerardo Ceres, attendo il via libera dall'ispettore di percorso
 dscn3877.jpg::Partenza a testa bassa::
