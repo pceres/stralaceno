@@ -10,7 +10,7 @@
 ############################################################################################
  license.txt - le condizioni di utilizzo, modifica e redistribuzione per l'utente finale
   manual.txt - la guida alla configurazione, all'installazione e all'uso dello script
-    faqs.txt - le risposte alle domande più comuni, sui problemi e sulle funzionalità
+    faqs.txt - le risposte alle domande piÃ¹ comuni, sui problemi e sulle funzionalitÃ 
  history.txt - la progressione delle versioni, i miglioramenti apportati e i bugs eliminati
 
  Descrizione del file
@@ -59,7 +59,7 @@ define("FLOCK",TRUE);
 ############################################################################################
 
 // Esegue o meno la traduzione di un IP al rispettivo hostname
-define("HOSTNAME",TRUE);
+define("HOSTNA:wME",TRUE);
 
 // Ricorrenza di tempo (secondi) in cui effettuare lo sfoltimento delle strutture dati
 define("CUTTIME",60*60*24*180);
@@ -76,8 +76,8 @@ require_once('../libreria.php'); // !!!
 
 define("DATA_FOLDER",$filedir_counter."data/");
 define("TEMP_FOLDER",$filedir_counter."temp/");
-define("CONFIG_FOLDER","conf/");
-define("BACKUP_FOLDER","back/");
+define("CONFIG_FOLDER",$filedir_counter."conf/");
+define("BACKUP_FOLDER",$filedir_counter."back/");
 
 define("CONFIG_FILES","conf_*.php");
 define("DATA_FILES","data_*.php");
