@@ -105,13 +105,53 @@ $archivio_filtrato = filtra_archivio($organizzatori,$lista_regola_campo,$lista_r
 #$archivio_ordinato = ordina_archivio($archivio_filtrato,$indice_nome, $indice_id); # se volessi ordinare gli organizzatori
 $archivio_ordinato = $archivio_filtrato; # non ordino i nomi, vengono presentati nell'ordine con cui sono stati inseriti nel file Excel 'organizzatori_laceno.csv'
 
-if (count($archivio_ordinato) > 1) // la prima riga contiene l'header
+# accorpamento collaboratori semplici
+$altri_collaboratori = "";
+$numero_collaboratori_semplici = 0;
+$indice_collaboratore = 0;
+$archivio_rielaborato = array($archivio_ordinato[0]);
+for ($i = 1; $i < count($archivio_ordinato); $i++) 
+{
+	$organizzatore = $archivio_ordinato[$i];
+	if (in_array(strtoupper($organizzatore[$indice3_incarico]),array("COLLABORATORE","COLLABORATRICE")))
+	{
+		$altri_collaboratori .= $organizzatore[$indice3_nome].", ";
+		$numero_collaboratori_semplici++;
+		$indice_collaboratore = $i;
+	}
+	else
+	{
+		array_push($archivio_rielaborato,$organizzatore);
+	}
+}
+if ($numero_collaboratori_semplici > 1)
+{
+	$altri_collaboratori = substr($altri_collaboratori,0,-2);
+	$new_collaboratore = array();
+	
+	$new_collaboratore[$indice3_id] = '';
+	$new_collaboratore[$indice3_nome] = $altri_collaboratori;
+	$new_collaboratore[$indice3_sesso] = '';
+	$new_collaboratore[$indice3_incarico] = 'Altri collaboratori';
+	$new_collaboratore[$indice3_anno] = '';
+	$new_collaboratore[$indice3_link] = '';
+	$new_collaboratore[$indice3_nota] = '';
+
+	array_push($archivio_rielaborato,$new_collaboratore);
+}
+else
+{
+	array_push($archivio_rielaborato,$archivio_ordinato[$indice_collaboratore]);
+}
+
+
+if (count($archivio_rielaborato) > 1) // la prima riga contiene l'header
 {
 	echo "<div class=\"tabella_organizzatori\" >";
 	echo "<hr>Organizzatori e collaboratori per l'edizione $anno:\n";
-	for ($i = 1; $i < count($archivio_ordinato); $i++) 
+	for ($i = 1; $i < count($archivio_rielaborato); $i++) 
 	{
-		$organizzatore = $archivio_ordinato[$i];
+		$organizzatore = $archivio_rielaborato[$i];
 		
 		$nome = $organizzatore[$indice3_nome];
 		$incarico = $organizzatore[$indice3_incarico];
