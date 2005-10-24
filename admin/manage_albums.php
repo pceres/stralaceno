@@ -27,7 +27,7 @@ if ( !isset($_SERVER['HTTP_REFERER']) | ("http://".$_SERVER['HTTP_HOST'].$script
 <script type="text/javaScript" src="<?php echo $site_abs_path ?>admin/md5.js"></script>
 
 Albums attuali:<br>
-<small>formato:  file::titolo::descrizione</small>
+<small>formato:  file::titolo::descrizione::nomi_persone</small>
 
 <form action="upload_text.php" method="post" onSubmit="cripta_campo_del_form(this,'password')">
 	<input type="hidden" name="filename" value="<?php echo $filename_albums ?>">
@@ -38,14 +38,14 @@ Albums attuali:<br>
 	{
 		echo $bulk[$i];
 	}
-	echo "</textarea>";
+	echo "</textarea>\n";
 	?>
 	Password: <input name="password" type="password">
 	<input type="submit" value="Invia File">
 </form>
 
 <hr>
-Visualiza tutte le foto disponibili per ciascun album:<br>
+Visualizza tutte le foto disponibili per ciascun album:<br>
 <form name="debug_album" action="<?php echo $script_abs_path; ?>album.php" method="post">
 <?php
 $elenco_foto = get_config_file($filename_albums,3);
