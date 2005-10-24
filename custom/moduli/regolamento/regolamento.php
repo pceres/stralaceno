@@ -18,10 +18,10 @@ extract(indici());
 </head>
 <body>
 
-<table align="center" style="background-color:rgb(255, 255, 255);">
+<table width="100%" align="center" style="background-color:rgb(255, 255, 255);">
   <tbody>
 	<tr>
-		<td width="100%">
+		<td align="center">
 		<img src="<?php echo $site_abs_path ?>/custom/images/logo.gif" alt="logo_stralacenoweb">
 		</td>
 		
@@ -34,14 +34,6 @@ extract(indici());
   </tbody>
 </table>
 
-
-
-
-
-<!--div style="text-align: center;"><a class="txt_link" 
- href="<?php echo $site_abs_path ?>custom/moduli/presentazione/present.swf">Visualizza presentazione FLASH (250 kbytes)</a>
-</div-->
-
 <hr>
 
 <div align="center"><b>Caratteristiche della Stralaceno</b></div>
@@ -51,60 +43,61 @@ extract(indici());
 <p>
 Seguono le caratteristiche principali della Stralaceno, come si sono andate via via
 cristallizzando nel corso delle passate edizioni.
+<br><br>
 
 <p>
-<b>Modalit&agrave; di svolgimento:</b>
+<b>Modalit&agrave; di svolgimento</b>
 <ul>
 	<li>
-	il percorso consiste nel circuito di Laceno, con partenza in corrispondenza 
-	dell'incrocio per Caposele, di fronte all'albergo "4 camini";
+	Il percorso consiste nel circuito di Laceno, con partenza in corrispondenza 
+	dell'incrocio per Caposele, di fronte all'albergo "4 camini".
 	</li>
 
 	<li>
-	il tempo massimo per concludere il percorso &egrave; fissato a 40 minuti per i 
-	maschi, 45 minuti per le femmine;
+	Il tempo massimo per concludere il percorso &egrave; fissato a 40 minuti per i 
+	maschi, 45 minuti per le femmine.
 	</li>
 
 	<li>
-	la gara non &egrave; competitiva, non &egrave; previsto nessun premio per i 
-	vincitori;
+	La gara non &egrave; competitiva, non &egrave; previsto nessun premio per i 
+	vincitori.
 	</li>
 </ul>
 
 <br>
 
 
-<b>Chi partecipa:</b>
+<b>Chi partecipa</b>
 <ul>
 	<!--li>
-	tutte le persone dotate di <i>"cittadinanza sportiva"</i> caposelese, in caso di 
-	contrasti si ricorre ad una commissione di saggi;
+	Tutte le persone dotate di <i>"cittadinanza sportiva"</i> caposelese, in caso di 
+	contrasti si ricorre ad una commissione di saggi.
 	</li-->
 
 	<li>
-	tutte le persone dotate di <i>"cittadinanza sportiva"</i> caposelese;
+	Tutte le persone dotate di <i>"cittadinanza sportiva"</i> caposelese.
 	</li>
 
 	<li>
-	i maggiorenni, o i minorenni dai 15 anni in su, previa autorizzazione 
-	dei genitori;
+	I maggiorenni, o i minorenni dai 15 anni in su, previa autorizzazione 
+	dei genitori.
 	</li>
 </ul>
 
 <br>
 
-<b>Quando si svolge:</b>
+<b>Quando si svolge</b>
 <ul>
 	<li>
-	nel periodo 25 agosto-3 settembre, nel fine settimana;
+	Solitamente nel periodo 25 agosto-3 settembre.
 	</li>
 
 	<li>
-	la partenza &egrave; prevista nel tardo pomeriggio;
+	La partenza &egrave; prevista nel tardo pomeriggio.
 	</li>
 
 	<li>
-	la gara si corre anche in caso di pioggia;
+	La gara si corre anche in caso di pioggia.
 	</li>
 
 </ul>
