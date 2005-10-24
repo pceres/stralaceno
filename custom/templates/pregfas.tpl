@@ -24,15 +24,6 @@
 P.RE.G.FA.S. - Pubblico REgistro dei Grandi FAnfaroni della Stralaceno
 </b>
 
-<!--p>
-Il  Registro &egrave; stato istituito allo scopo di stigmatizzare il comportamento antisportivo di taluni cittadini di 
-Caposele e di fornire in tal modo un servizio alla collettivit&agrave; segnalandone la pericolosit&agrave; sociale.</p-->
-
-<!--p>
-Il 
-P.RE.G.FA.S. (o "Pubblico REgistro dei Grandi FAnfaroni della Stralaceno")
-raccoglie tutti i casi accertati (e documentati) di millanterie o spacconerie
-non seguite poi dalla performance atletica promessa.</p--> 
 
 <br>
 
@@ -45,11 +36,11 @@ non seguite poi dalla performance atletica promessa.</p-->
 		<th>Nominativo</th>
 		<th>Data di iscrizione</th>
 		<th>Causa di iscrizione</th>
-		<th>Data di cancellazione</th>
-		<th>Causa di cancellazione</th>
+		<!--th>Data di cancellazione</th>
+		<th>Causa di cancellazione</th-->
 	</tr></thead>
 	<tbody>
-%%%% begin pregfas.txt elenco_fanfaroni 5
+%%%% begin pregfas.txt elenco_fanfaroni 3
 	<tr>
 		<td nowrap style='padding:0.5em;'>
 			%field0% 
@@ -60,12 +51,12 @@ non seguite poi dalla performance atletica promessa.</p-->
 		<td>
 			%field2% 
 		</td>
-		<td align=center>
+		<!--td align=center>
 			%field3% 
 		</td>
 		<td align=center>
 			%field3% 
-		</td>
+		</td-->
 	</tr>
 %%%% end
 	</tbody>
@@ -81,7 +72,6 @@ non seguite poi dalla performance atletica promessa.</p-->
 
 <hr>
 
-<br>
 <p style="text-indent: 2em;">
 Purtroppo anche in una manifestazione come la Stralaceno &egrave; possibile talvolta individuare comportamenti anomali 
 di certi nostri concittadini. Si tratta di ben noti atteggiamenti e, in qualche caso, di vere e proprie provocazioni, 
@@ -90,12 +80,14 @@ invece piuttosto frequenti. Statisticamente, d'altronde, aumentando il numero de
 difficile garantire la buona condotta di tutti. Probabilmente anche la crescente popolarit&agrave; della corsa ha inoltre, 
 malauguratamente, suscitato l'interesse di appartenenti al quel folto gruppo di caposelesi che hanno l'abitudine di 
 surrogare gli scarsi fatti con le molte parole: i fanfaroni 
-(<i>iactator</i> (latino),
-<i>braggart</i> (UK),
-<i>vantard</i> (FR),
-<i>jactancioso</i> (SP),
-<i>opschepperig</i> (NL),
-<i>prahlerisch</i> (DE)).
+(<i>blaterones</i> (latino),
+<i>braggarts</i> (UK),
+<i>vantards</i> (FR),
+<i>jactanciosos</i> (SP),
+<i>opschepperige</i> (NL),
+<i>prahlerischen</i> (DE),
+<i>trombonist</i> (RO), 
+).
 E' risaputo che molti degli affetti da tale singolare inclinazione, vivono con particolare disagio e apprensione il 
 momento dell'"outing" e cio&egrave; il momento in cui finalmente essi si decidono ad esternare in pubblico la loro 
 natura, talvolta sapientemente occultata o comunque rimasta latente per molto tempo. E scelgono la Stralaceno per 
@@ -119,7 +111,10 @@ qualsiasi iniziativa futura (<i>semel fanfaron, semper fanfaron</i>).
 <p style="text-indent: 2em;">
 Ci&ograve; premesso l' A.R.S. istituisce ufficialmente il P.Re.G.Fa.S. ovvero il Pubblico Registro di Grandi Fanfaroni 
 della Stralaceno. Esso viene tenuto a cura di un'apposita commissione composta da 
-(<span style="color: red;">TODO</span>). Logicamente prima di procedere 
+<span style="color: red;">
+tre esponenti dell'ARS, i decani della corsa (??? da definire meglio) e il più anziano, con minimo tre partecipazioni,
+più un "membro non togato" scelto dall'ARS</span>. 
+Logicamente prima di procedere 
 all'iscrizione &egrave; necessaria una fase istruttoria nella quale si verifica l'esistenza di giustificazioni o di 
 attenuanti, valutando anche caso per caso e con opportuna  indulgenza. La conseguenza &egrave; quindi che i casi ove si 
 decide di procedere ad iscrizione sono solo i casi conclamati, la cui gravit&agrave; &egrave; evidente e documentabile.
