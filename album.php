@@ -29,29 +29,30 @@ $id_descrizione_persone = 3;
 
 $album = $elenco_foto[$anno];
 
-# aggiungi foto invisibili (quelle presenti nella relativa directory, ma nonnel file di configurazione album.txt
+# aggiungi foto invisibili (quelle presenti nella relativa directory, ma non nel file di configurazione album.txt
 $password = $_REQUEST['password'];
-//print_r($_REQUEST);
-//die();
 
 # eventuale password temporanea (stringa vuota "" per disabilitarla)
 $temp_password = "caposeleonline";
 $temp_timeout = mktime(24,00,00,9,30,2005); // scade il 24:00:00 del 30 settembre 2005
-$temp_album = "2005"; // album abilitati per la password temporanea
+$temp_albums = array("2005"); // album abilitati per la password temporanea
+
+$admin_mode = FALSE;	// default: non visualizzare i controlli per modificare l'album
+$browse_mode = FALSE;	// default: visualizza solo le foto in albums.txt
 
 // password per pagina amministrativa
-$debug_mode = FALSE;
 if ($password=="show_all_photos")
 {
-	$debug_mode = TRUE;
+	$admin_mode = TRUE;
+	$browse_mode = TRUE;
 }
 
 // eventuale password temporanea
-if ( ($anno === $temp_album) && (!empty($temp_password)) && ($password==$temp_password) )
+if ( in_array($anno,$temp_albums) && (!empty($temp_password)) && ($password==$temp_password) )
 {
 	if (time() <= $temp_timeout)
 	{
-		$debug_mode = TRUE;
+		$browse_mode = TRUE;
 	}
 	else
 	{
@@ -59,8 +60,10 @@ if ( ($anno === $temp_album) && (!empty($temp_password)) && ($password==$temp_pa
 	}
 }
 
-if ($debug_mode)
+// integra i dati letti da albums.txt con i file effettivamentepresenti nella directory;
+if ($browse_mode)
 {
+	$image_extensions = array('JPG','GIF','PNG'); // estensioni dei file che saranno considerati immagini
 	$dir = $root_path."custom/album/$anno/";
 	$lista_online = array();
 	foreach ($album as $foto)
@@ -71,13 +74,14 @@ if ($debug_mode)
 	if (is_dir($dir)) {
 		if ($dh = opendir($dir)) {
 			while (($file = readdir($dh)) !== false) {
-				if ((filetype($dir . $file) == "file") & (strpos($dir.$file,"thumb",0) == 0))
+				if ((filetype($dir . $file) == "file") & (strpos($dir.$file,"thumb",0) == 0) & in_array(strtoupper(substr($dir.$file,-3)),$image_extensions))
 				{
-					if (in_array($file,$lista_online))
+					if (in_array($file,$lista_online)) // la foto e' gia' visibile
 					{
 						$item_data = $album[array_search($file,$lista_online)];
+						$item_data[$id_descrizione_foto] = $file."<br>".$item_data[$id_descrizione_foto]; // siamo in browser mode, visualizza il nome del file
 					}
-					else
+					else // la foto e' invisibile
 					{
 						$item_data = array($file,"Foto ".(count($album2)+1)." (invisibile)",$file);
 					}
@@ -156,6 +160,53 @@ cell_R.height=x-13*2;
 //]]>
 </script>
 
+<?php 
+if ($admin_mode) 
+{
+?>
+<!-- script amministrativi -->
+<script type="text/javaScript" src="<?php echo $site_abs_path ?>admin/md5.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+<!--
+
+function do_action(action,data)
+{
+	
+	switch (action)
+	{
+	case "cancel":
+		var msg="Vuoi davvero cancellare la foto "+data+" ?";
+		if (!confirm(msg))
+		{
+			return false;
+		}
+		document.forms["form_data"].password.value=hex_md5(document.forms["form_data"].password.value);
+		document.forms["form_data"].task.value='cancel';
+		document.forms["form_data"].data.value=data;
+		document.forms["form_data"].submit();
+		
+		break;
+	case "upload":
+		var msg="Confermi la pubblicazione della/e foto?";
+		if (!confirm(msg))
+		{
+			return false;
+		}
+		document.forms["form_upload"].password.value=hex_md5(document.forms["form_data"].password.value);
+		document.forms["form_upload"].submit();
+		
+		break;
+	}
+}
+
+//-->
+//]]>
+</script>
+<?php
+} // end if $admin_mode
+?>
+
 
 		<table border="0" cellpadding="0" cellspacing="0" width="100%">
 			<tbody>
@@ -223,13 +274,14 @@ for ($i = 0; $i<$photo_per_row; $i++)
 		}
 		$nome_foto = str_replace(' ', '%20', $nome_foto); // formatta correttamente gli spazi in html
 		
-		if (!$debug_mode) // se non sei in modalita' debug, punta a show_photo con l'id adeguato
+		if (!$browse_mode) // se non sei in modalita' debug, punta a show_photo con l'id adeguato
 		{
 			$link_foto = "show_photo.php?id_photo=$photo_count&amp;album=$anno";
 		}
 		else // altrimenti punta direttamente alla foto
 		{
 			$link_foto = $site_abs_path."custom/album/$anno/".$album[$photo_count][$id_nomefile_foto];
+			$path_completo_foto = $root_path."custom/album/$anno/".$album[$photo_count][$id_nomefile_foto];
 		}
 ?>
 
@@ -262,16 +314,28 @@ for ($i = 0; $i<$photo_per_row; $i++)
 <tr>
 
 			<td align="center" width="<?php echo round(100/$photo_per_row); ?>%" valign="top" >
+					<!--  titolo -->
 					<a href='show_photo.php?id_photo=<?php echo $rem_count ?>&amp;album=<?php echo $anno ?>'>
 					<?php echo $album[$rem_count][$id_titolo_foto]?></a>
 					
-						<br>
-						<?php if (strlen($album[$rem_count][$id_descrizione_foto])>0) { ?>
-						<font size="-2">
-						<?php echo $album[$rem_count][$id_descrizione_foto] ?>
-						</font>
-						<?php } // end if ?>
+					<br>
 					
+					<!--  descrizione -->
+					<?php if (strlen($album[$rem_count][$id_descrizione_foto])>0) { ?>
+						<font size="-2">
+							<?php echo $album[$rem_count][$id_descrizione_foto] ?>
+						</font>
+					<?php } // end if ?>
+					
+					<?php if ($admin_mode) // siamo in modalita' amministrativa, visualizza i controlli per cancellare o caricare una foto
+					{ ?>
+						<!--  controlli amministrativi -->
+						<br><br>
+						<font size="-2">
+							<a OnClick="return do_action('cancel','<?php echo $path_completo_foto; ?>')">Cancella</a>
+						</font>
+					<?php
+					} ?>
 					
 				</td>
 
@@ -314,11 +378,61 @@ for ($i = 0; $i<$photo_per_row; $i++)
 <br>
 
 <?php
+if ($admin_mode) 
+{
+?>
 
-echo $homepage_link;
+<hr>
+<p>Carica nuove foto nell'album <b><?php echo $anno ?></b>
+ (max 100 kB per le foto, 10 kB per i thumbnail (non necessari, ma raccomandati) ):</p>
 
-# logga il contatto
-$counter = count_page("album",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
+<form name="form_upload" enctype="multipart/form-data" action="admin/upload_photo.php" method="post" onSubmit="cripta_campo_del_form(,'password')">
+	<input type="hidden" name="MAX_FILE_SIZE" value="110000">
+	<input type="hidden" name="nome_album" value="<?php echo $anno; ?>">
+<!--?php echo "\t<input type=\"hidden\" name=\"filename\" value=\"$anno\">\n"; ?-->
+	Nuova foto da caricare (n. 1): <input name="userfoto01" type="file">
+		Thumbnail: <input name="userthumb01" type="file"><br>
+	Nuova foto da caricare (n. 2): <input name="userfoto02" type="file">
+		Thumbnail: <input name="userthumb02" type="file"><br>
+	Nuova foto da caricare (n. 3): <input name="userfoto03" type="file">
+		Thumbnail: <input name="userthumb03" type="file"><br>
+	Nuova foto da caricare (n. 4): <input name="userfoto04" type="file">
+		Thumbnail: <input name="userthumb04" type="file"><br>
+	<input name="password" type="hidden">
+	<input type="Submit" value="Invia Foto" onClick="return do_action('upload','')">
+</form>
+
+<?php
+}
+?>
+
+
+<?php
+if (!$admin_mode) 
+{
+	echo $homepage_link;
+
+	# logga il contatto
+	$counter = count_page("album",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
+}
+else
+{
+	# logga il contatto
+	$counter = count_page("admin_album",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
+?>
+	<!-- Form fittizio per il passaggio dei dati -->
+	<form name="form_data" action="admin/manage_album.php" method="post">
+		Password: 
+		<input name="password" type="password">
+		<input name="task" type="hidden">
+		<input name="data" type="hidden">
+	</form>
+	
+	<hr>
+	<div align="right"><a href="admin/index.php" class="txt_link">Torna alla pagina amministrativa principale</a></div>
+	
+<?php 
+} // end if (!$admin_mode)
 
 ?>
 
