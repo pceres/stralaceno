@@ -184,3 +184,5 @@ dscn5414.jpg::Foto al fotografo::Chiudiamo con chi ha avuto il merito di cattura
 [generico1]
 retro.gif::logo trasparente::
 STRA2005GIF.gif::Grafica maglietta 2005::
+
+[varie]
