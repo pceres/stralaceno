@@ -193,9 +193,10 @@ function do_action(action,data)
 		{
 			return false;
 		}
+
 		document.forms["form_upload"].password.value=hex_md5(document.forms["form_data"].password.value);
 		document.forms["form_upload"].submit();
-		
+
 		break;
 	}
 }
@@ -386,7 +387,7 @@ if ($admin_mode)
 <p>Carica nuove foto nell'album <b><?php echo $anno ?></b>
  (max 100 kB per le foto, 10 kB per i thumbnail (non necessari, ma raccomandati) ):</p>
 
-<form name="form_upload" enctype="multipart/form-data" action="admin/upload_photo.php" method="post" onSubmit="cripta_campo_del_form(,'password')">
+<form name="form_upload" enctype="multipart/form-data" action="admin/upload_photo.php" method="post">
 	<input type="hidden" name="MAX_FILE_SIZE" value="110000">
 	<input type="hidden" name="nome_album" value="<?php echo $anno; ?>">
 <!--?php echo "\t<input type=\"hidden\" name=\"filename\" value=\"$anno\">\n"; ?-->
