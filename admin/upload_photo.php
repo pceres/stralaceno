@@ -17,7 +17,7 @@ if ( !isset($_SERVER['HTTP_REFERER']) | (strpos($referer,"http://".$_SERVER['HTT
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-  <title>Caricamento articoli sul sito</title>
+  <title>Caricamento foto sul sito</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
   <style type="text/css">@import "<?php echo $filename_css ?>";</style>
