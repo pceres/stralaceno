@@ -1,20 +1,20 @@
 <?php
 
 # The database file for 'stralaceno' counter.
-# This file was created by fanKounter on 17.10.2005, 21:41.
+# This file was created by fanKounter on 24.10.2005, 23:03.
 
-$dat__counter=1395;
+$dat__counter=1421;
 $dat__started=array("timestamp"=>1127412023,"counter"=>1284);
 $dat__cuttime=1142964023;
-$dat__calendar["2005"]=array(array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0),array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0),array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0),array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0),array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0),array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0),array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0),array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0),array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,4,2,3,4,4,3,7,4),array(7,7,8,4,5,4,2,3,5,3,6,3,5,5,1,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0),array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0),array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0));
-$dat__day=array(19,14,11,18,15,13,18);
-$dat__time=array(7,0,1,1,0,0,0,0,3,4,13,7,6,8,6,1,1,5,8,10,9,10,5,3);
-$dat__country=array("it"=>73,"#?"=>32,"ch"=>1,"be"=>1,"uk"=>1);
-$dat__browser=array("Internet Explorer 6.x"=>66,"#?"=>21,"Internet Explorer 5.x"=>15,"Mozilla Firefox 1.x"=>5,"Opera 7.x"=>1);
-$dat__os=array("Windows XP"=>55,"Windows 98"=>22,"Linux"=>19,"Windows ME"=>7,"Windows 2000"=>4,"MacOS PPC"=>1,"#?"=>0);
-$dat__provider=array("tele2.it"=>22,"tiscali.it"=>21,"interbusiness.it"=>17,"fastres.net"=>16,"#?"=>14,"libero.it"=>7,"eutelia.it"=>4,"inwind.it"=>1,"ac.be"=>1,"bluewin.ch"=>1,"optonline.net"=>1,"t-dialin.net"=>1,"co.uk"=>1,"its.it"=>1,"#!"=>0);
-$dat__location=array("http%3A%2F%2Fpceres.altervista.org%2Fstralaceno"=>106,"#?"=>1,"http%3A%2F%2Fwww.3bmeteo.com%2Fhome%2Fmeteo_pro.php"=>1,"#!"=>0);
-$dat__referrer=array("http%3A%2F%2Fwww.stralaceno.cjb.net"=>46,"http%3A%2F%2Fstralaceno.cjb.net"=>41,"#?"=>18,"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno%2Fadmin"=>2,"http%3A%2F%2Fwww.3bmeteo.com%2Fmappedin%2Fvisualizza%2Fvisualizza_macrosettore.php"=>1,"#!"=>0);
+$dat__calendar["2005"]=array(array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0),array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0),array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0),array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0),array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0),array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0),array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0),array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0),array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,4,2,3,4,4,3,7,4),array(7,7,8,4,5,4,2,3,5,3,6,3,5,5,1,3,6,6,4,3,4,1,1,5,0,0,0,0,0,0,0),array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0),array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0));
+$dat__day=array(26,20,15,21,19,14,19);
+$dat__time=array(7,1,1,1,0,0,0,1,3,4,18,8,7,12,6,1,1,5,10,16,10,10,6,6);
+$dat__country=array("it"=>85,"#?"=>46,"be"=>1,"uk"=>1,"ch"=>1);
+$dat__browser=array("Internet Explorer 6.x"=>82,"#?"=>23,"Internet Explorer 5.x"=>22,"Mozilla Firefox 1.x"=>6,"Opera 7.x"=>1);
+$dat__os=array("Windows XP"=>68,"Windows 98"=>28,"Linux"=>20,"Windows ME"=>11,"Windows 2000"=>5,"Windows NT"=>1,"MacOS PPC"=>1,"#?"=>0);
+$dat__provider=array("tele2.it"=>24,"fastres.net"=>22,"#?"=>22,"tiscali.it"=>21,"interbusiness.it"=>21,"libero.it"=>8,"eutelia.it"=>7,"inwind.it"=>1,"net24.it"=>1,"co.uk"=>1,"unina.it"=>1,"optonline.net"=>1,"bluewin.ch"=>1,"its.it"=>1,"ac.be"=>1,"t-dialin.net"=>1,"#!"=>0);
+$dat__location=array("http%3A%2F%2Fpceres.altervista.org%2Fstralaceno"=>132,"#?"=>1,"http%3A%2F%2Fwww.3bmeteo.com%2Fhome%2Fmeteo_pro.php"=>1,"#!"=>0);
+$dat__referrer=array("http%3A%2F%2Fwww.stralaceno.cjb.net"=>56,"http%3A%2F%2Fstralaceno.cjb.net"=>54,"#?"=>20,"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno%2Fadmin"=>2,"http%3A%2F%2Fwww.3bmeteo.com%2Fmappedin%2Fvisualizza%2Fvisualizza_macrosettore.php"=>1,"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno%2Ffiltro9.php"=>1,"#!"=>0);
 $dat__engine=array();
 $dat__enkey=array("#!"=>0);
 $dat__entry[1328]=array("ts"=>"1128212648","ip"=>"82.35.141.193","host"=>"82-35-141-193.cable.ubr03.enfi.blueyonder.co.uk","age"=>"Internet Explorer 6.x","os"=>"Windows XP","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"http%3A%2F%2Fwww.stralaceno.cjb.net","eng"=>"","enk"=>"");
@@ -85,5 +85,31 @@ $dat__entry[1392]=array("ts"=>"1129540805","ip"=>"193.206.192.181","host"=>"","a
 $dat__entry[1393]=array("ts"=>"1129543306","ip"=>"151.30.64.38","host"=>"ppp-38-64.30-151.libero.it","age"=>"Internet Explorer 6.x","os"=>"Windows XP","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"http%3A%2F%2Fwww.stralaceno.cjb.net","eng"=>"","enk"=>"");
 $dat__entry[1394]=array("ts"=>"1129577112","ip"=>"85.18.136.86","host"=>"85-18-136-86.fastres.net","age"=>"Internet Explorer 6.x","os"=>"Windows XP","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"http%3A%2F%2Fwww.stralaceno.cjb.net","eng"=>"","enk"=>"");
 $dat__entry[1395]=array("ts"=>"1129578084","ip"=>"81.211.170.188","host"=>"d81-211-170-188.cust.tele2.it","age"=>"","os"=>"Linux","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"","eng"=>"","enk"=>"");
+$dat__entry[1396]=array("ts"=>"1129580573","ip"=>"151.37.124.68","host"=>"adsl-68-124.37-151.net24.it","age"=>"Internet Explorer 6.x","os"=>"Windows XP","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"http%3A%2F%2Fwww.stralaceno.cjb.net","eng"=>"","enk"=>"");
+$dat__entry[1397]=array("ts"=>"1129584344","ip"=>"85.18.136.86","host"=>"85-18-136-86.fastres.net","age"=>"Internet Explorer 6.x","os"=>"Windows XP","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"http%3A%2F%2Fwww.stralaceno.cjb.net","eng"=>"","enk"=>"");
+$dat__entry[1398]=array("ts"=>"1129625402","ip"=>"193.206.192.181","host"=>"","age"=>"Internet Explorer 5.x","os"=>"Windows 98","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"http%3A%2F%2Fstralaceno.cjb.net","eng"=>"","enk"=>"");
+$dat__entry[1399]=array("ts"=>"1129628114","ip"=>"62.94.204.53","host"=>"ip-204-53.sn1.eutelia.it","age"=>"Internet Explorer 6.x","os"=>"Windows ME","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"http%3A%2F%2Fstralaceno.cjb.net","eng"=>"","enk"=>"");
+$dat__entry[1400]=array("ts"=>"1129633749","ip"=>"193.206.192.181","host"=>"","age"=>"Internet Explorer 5.x","os"=>"Windows 98","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"http%3A%2F%2Fstralaceno.cjb.net","eng"=>"","enk"=>"");
+$dat__entry[1401]=array("ts"=>"1129655518","ip"=>"85.18.136.86","host"=>"85-18-136-86.fastres.net","age"=>"Internet Explorer 6.x","os"=>"Windows XP","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"http%3A%2F%2Fwww.stralaceno.cjb.net","eng"=>"","enk"=>"");
+$dat__entry[1402]=array("ts"=>"1129655621","ip"=>"81.208.83.253","host"=>"81-208-83-253.fastres.net","age"=>"Internet Explorer 6.x","os"=>"Windows XP","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"http%3A%2F%2Fwww.stralaceno.cjb.net","eng"=>"","enk"=>"");
+$dat__entry[1403]=array("ts"=>"1129671831","ip"=>"85.18.136.86","host"=>"85-18-136-86.fastres.net","age"=>"Internet Explorer 6.x","os"=>"Windows XP","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"http%3A%2F%2Fwww.stralaceno.cjb.net","eng"=>"","enk"=>"");
+$dat__entry[1404]=array("ts"=>"1129679952","ip"=>"85.18.14.13","host"=>"85-18-14-13.fastres.net","age"=>"Internet Explorer 6.x","os"=>"Windows XP","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"http%3A%2F%2Fwww.stralaceno.cjb.net","eng"=>"","enk"=>"");
+$dat__entry[1405]=array("ts"=>"1129700238","ip"=>"213.45.208.131","host"=>"host131-208.pool21345.interbusiness.it","age"=>"Internet Explorer 6.x","os"=>"Windows XP","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"http%3A%2F%2Fstralaceno.cjb.net","eng"=>"","enk"=>"");
+$dat__entry[1406]=array("ts"=>"1129710286","ip"=>"193.206.192.181","host"=>"","age"=>"Internet Explorer 5.x","os"=>"Windows 98","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"http%3A%2F%2Fstralaceno.cjb.net","eng"=>"","enk"=>"");
+$dat__entry[1407]=array("ts"=>"1129744707","ip"=>"80.183.241.192","host"=>"host192-241.pool80183.interbusiness.it","age"=>"Internet Explorer 6.x","os"=>"Windows XP","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"http%3A%2F%2Fstralaceno.cjb.net","eng"=>"","enk"=>"");
+$dat__entry[1408]=array("ts"=>"1129798738","ip"=>"193.206.192.181","host"=>"","age"=>"Internet Explorer 5.x","os"=>"Windows 98","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"http%3A%2F%2Fstralaceno.cjb.net","eng"=>"","enk"=>"");
+$dat__entry[1409]=array("ts"=>"1129809048","ip"=>"81.75.120.165","host"=>"host165-120.pool8175.interbusiness.it","age"=>"Internet Explorer 6.x","os"=>"Windows XP","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"http%3A%2F%2Fstralaceno.cjb.net","eng"=>"","enk"=>"");
+$dat__entry[1410]=array("ts"=>"1129826579","ip"=>"62.94.40.28","host"=>"ip-40-28.sn1.eutelia.it","age"=>"Internet Explorer 6.x","os"=>"Windows ME","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"http%3A%2F%2Fstralaceno.cjb.net","eng"=>"","enk"=>"");
+$dat__entry[1411]=array("ts"=>"1129884868","ip"=>"193.206.192.181","host"=>"","age"=>"Internet Explorer 5.x","os"=>"Windows 98","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"http%3A%2F%2Fstralaceno.cjb.net","eng"=>"","enk"=>"");
+$dat__entry[1412]=array("ts"=>"1129889056","ip"=>"62.211.68.203","host"=>"","age"=>"Internet Explorer 6.x","os"=>"Windows XP","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno%2Ffiltro9.php","eng"=>"","enk"=>"");
+$dat__entry[1413]=array("ts"=>"1129895584","ip"=>"192.132.34.113","host"=>"proxy.cds.unina.it","age"=>"Internet Explorer 5.x","os"=>"Windows NT","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"http%3A%2F%2Fwww.stralaceno.cjb.net","eng"=>"","enk"=>"");
+$dat__entry[1414]=array("ts"=>"1129913721","ip"=>"62.94.205.140","host"=>"ip-205-140.sn1.eutelia.it","age"=>"Internet Explorer 6.x","os"=>"Windows ME","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"http%3A%2F%2Fstralaceno.cjb.net","eng"=>"","enk"=>"");
+$dat__entry[1415]=array("ts"=>"1130000407","ip"=>"81.211.165.38","host"=>"d81-211-165-38.cust.tele2.it","age"=>"","os"=>"Windows ME","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"http%3A%2F%2Fwww.stralaceno.cjb.net","eng"=>"","enk"=>"");
+$dat__entry[1416]=array("ts"=>"1130087784","ip"=>"151.25.175.214","host"=>"ppp-214-175.25-151.libero.it","age"=>"Internet Explorer 6.x","os"=>"Windows XP","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"http%3A%2F%2Fwww.stralaceno.cjb.net","eng"=>"","enk"=>"");
+$dat__entry[1417]=array("ts"=>"1130141614","ip"=>"193.206.192.181","host"=>"","age"=>"Internet Explorer 5.x","os"=>"Windows 98","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"http%3A%2F%2Fstralaceno.cjb.net","eng"=>"","enk"=>"");
+$dat__entry[1418]=array("ts"=>"1130152120","ip"=>"151.92.176.5","host"=>"","age"=>"Mozilla Firefox 1.x","os"=>"Windows 2000","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"","eng"=>"","enk"=>"");
+$dat__entry[1419]=array("ts"=>"1130176511","ip"=>"85.18.136.86","host"=>"85-18-136-86.fastres.net","age"=>"Internet Explorer 6.x","os"=>"Windows XP","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"http%3A%2F%2Fwww.stralaceno.cjb.net","eng"=>"","enk"=>"");
+$dat__entry[1420]=array("ts"=>"1130177243","ip"=>"80.183.241.192","host"=>"host192-241.pool80183.interbusiness.it","age"=>"Internet Explorer 6.x","os"=>"Windows XP","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"http%3A%2F%2Fstralaceno.cjb.net","eng"=>"","enk"=>"");
+$dat__entry[1421]=array("ts"=>"1130187823","ip"=>"81.211.166.106","host"=>"d81-211-166-106.cust.tele2.it","age"=>"","os"=>"Linux","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"","eng"=>"","enk"=>"");
 
 ?>
