@@ -28,9 +28,11 @@ if ( !isset($_SERVER['HTTP_REFERER']) | ("http://".$_SERVER['HTTP_HOST'].$script
 
 $password_ok = $password_config;
 
-
-$ks1 = array("\'",'\"',"\\\\","à"       ,"è"       ,"é"       ,"ì"       ,"ò"       ,"ù"       ,"°"    );
-$ks2 = array("'" ,"\"","\\"  ,"&agrave;","&egrave;","&eacute;","&igrave;","&ograve;","&ugrave;","&deg;");
+      
+$ks1 = array("\'",'\"',"\\\\","à"       ,"è"       ,"é"       ,"ì"       ,"ò"       ,"ó"       ,"ù"       ,"°"    ,
+	"À"       ,"È"       ,"É"       ,"Ì"       ,"Ò"       ,"Ó"       ,"Ù"       );
+$ks2 = array("'" ,"\"","\\"  ,"&agrave;","&egrave;","&eacute;","&igrave;","&ograve;","&oacute;","&ugrave;","&deg;",
+	"&Agrave;","&Egrave;","&Eacute;","&Igrave;","&Ograve;","&Oacute;","&ugrave;");
 $testo = str_replace($ks1,$ks2,$_REQUEST['testo']);
 
 $new_name = $_REQUEST['filename']; // path assoluto nel filename del server
