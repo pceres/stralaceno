@@ -15,7 +15,7 @@ extract(indici());
   <meta name="keywords" content="PREGFAS, Pubblico registro dei fanfaroni, Stralaceno, ARS, Caposele, Atletica">  
   <style type="text/css">@import "<?php echo $filename_css ?>";</style>
 </head>
-<body class="tabella">
+<body>
 
 <?php
 show_template("pregfas.tpl")
