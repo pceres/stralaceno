@@ -79,13 +79,13 @@ invece piuttosto frequenti. Statisticamente, d'altronde, aumentando il numero de
 difficile garantire la buona condotta di tutti. Probabilmente anche la crescente popolarit&agrave; della corsa ha inoltre, 
 malauguratamente, suscitato l'interesse di appartenenti al quel folto gruppo di caposelesi che hanno l'abitudine di 
 surrogare gli scarsi fatti con le molte parole: i fanfaroni 
-(<i>blaterones</i> <img src="%file_root%custom/images/bandiere/SPQR-Bandiera-small.jpg" width="60" style="vertical-align: middle;">,
-<i>braggarts</i> <img src="%file_root%custom/images/bandiere/Regno_Unito-Bandiera-small.jpg" width="20" style="vertical-align: middle;">,
-<i>vantards</i> <img src="%file_root%custom/images/bandiere/Francia-Bandiera-small.jpg" width="20" style="vertical-align: middle;">,
-<i>jactanciosos</i> <img src="%file_root%custom/images/bandiere/Spagna-Bandiera-small.jpg" width="20" style="vertical-align: middle;">,
-<i>opschepperige</i> <img src="%file_root%custom/images/bandiere/Olanda-Bandiera-small.jpg" width="20" style="vertical-align: middle;">,
-<i>prahlerischen</i> <img src="%file_root%custom/images/bandiere/Germania-Bandiera-small.jpg" width="20" style="vertical-align: middle;">,
-<i>trombonist</i> <img src="%file_root%custom/images/bandiere/Romania-Bandiera-small.jpg" width="20" style="vertical-align: middle;"> 
+(<i>blaterones</i> (latino <img src="%file_root%custom/images/bandiere/SPQR-Bandiera-small.jpg" width="60" style="vertical-align: middle;">),
+<i>braggarts</i> (UK <img src="%file_root%custom/images/bandiere/Regno_Unito-Bandiera-small.jpg" width="20" style="vertical-align: middle;">),
+<i>vantards</i> (FR <img src="%file_root%custom/images/bandiere/Francia-Bandiera-small.jpg" width="20" style="vertical-align: middle;">),
+<i>jactanciosos</i> (ES <img src="%file_root%custom/images/bandiere/Spagna-Bandiera-small.jpg" width="20" style="vertical-align: middle;">),
+<i>opschepperige</i> (NL <img src="%file_root%custom/images/bandiere/Olanda-Bandiera-small.jpg" width="20" style="vertical-align: middle;">),
+<i>prahlerischen</i> (DE <img src="%file_root%custom/images/bandiere/Germania-Bandiera-small.jpg" width="20" style="vertical-align: middle;">),
+<i>trombonist</i> (RO <img src="%file_root%custom/images/bandiere/Romania-Bandiera-small.jpg" width="20" style="vertical-align: middle;">) 
 ).
 E' risaputo che molti degli affetti da tale singolare inclinazione, vivono con particolare disagio e apprensione il 
 momento dell'"outing" e cio&egrave; il momento in cui finalmente essi si decidono ad esternare in pubblico la loro 
