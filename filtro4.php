@@ -140,11 +140,10 @@ if ($numero_collaboratori_semplici > 1)
 
 	array_push($archivio_rielaborato,$new_collaboratore);
 }
-else
+elseif ($numero_collaboratori_semplici == 1)
 {
 	array_push($archivio_rielaborato,$archivio_ordinato[$indice_collaboratore]);
 }
-
 
 if (count($archivio_rielaborato) > 1) // la prima riga contiene l'header
 {
