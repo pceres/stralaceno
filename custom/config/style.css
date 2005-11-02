@@ -129,13 +129,6 @@ table.article_group H3 {
 
 /*---------------------------  Tabelle dati -------------------------------------- */
 
-body.tabella {
-/*	color:rgb(51,102,153);*/
-	color:rgb(34,68,102);
-	background:#FFF6F0;
-	font-family:Arial,Tahoma,Verdana,Serif;	
-	font-size:1.2em;
-	}
 
 .titolo_tabella {
 	text-align:center;
@@ -143,10 +136,15 @@ body.tabella {
 	font-size:1.2em;
 	}
 	
+	
 table.tabella {
 	border:2px solid rgb(51,102,153);
 	margin:0px;
 	padding:0px;
+	color:rgb(51,102,153);
+	background:#FFF6F0;
+	font-family:Arial,Tahoma,Verdana,Serif;	
+	font-size:1.2em;
 	}
 
 table.tabella a {
@@ -187,7 +185,6 @@ table.tabella table thead th {
 
 /* sfondo azzurro per i maschi */
 tr.atleta_maschio {
-	/*background:rgb(249,255,255);*/
 	background:rgb(251,255,255);
 	}
 
@@ -220,7 +217,7 @@ table.tabella_legenda td.descrizione {
 /*---------------------------  Organizzatori  -------------------------------------- */
 div.tabella_organizzatori {
 	font-size:0.75em;
-	font-family:comic sans ms,serif;
+	font-family:"comic sans ms",serif;
 	}
 
 
@@ -229,7 +226,7 @@ div.tabella_organizzatori {
 /* elementi nell'elenco dei nominativi */
 .txt_elenco {
 	font-family:Arial,Tahoma,Verdana,Serif;
-    font-size:0.75em;
+	font-size:0.75em;
 	color:rgb(34,68,102);
 	}
 
@@ -246,7 +243,6 @@ body.admin {
 table.admin {
 	border-collapse:collapse;
 	border:2px solid rgb(51,102,153);
-	spacing:0px;
 	}
 
 table.admin tr {
@@ -267,7 +263,6 @@ table.admin thead {
 
 table.admin thead th {
 	padding:0.2em 0.35em; 
-	spacing:0px;
 	border:1px solid rgb(170, 170, 170);
 	}
 
