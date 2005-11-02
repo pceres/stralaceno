@@ -1,14 +1,13 @@
 
-<table align="center" style="background-color:rgb(255, 255, 255);">
+<table width="100%" align="center" style="background-color:rgb(255, 255, 255);">
   <tbody>
 	<tr>
-		<td width="100%">
-		<img src="%file_root%custom/images/logo.gif" alt="logo_stralacenoweb">
+		<td align="center">
+			<img src="%file_root%custom/images/logo.gif" alt="logo_stralacenoweb">
 		</td>
 	</tr>
   </tbody>
 </table>
-
 
 
 
@@ -28,7 +27,7 @@ P.RE.G.FA.S. - Pubblico REgistro dei Grandi FAnfaroni della Stralaceno
 <br>
 
 <div align="center">
-<table class="tabella" style="font-size:1.5em;"><tbody><tr><td>
+<table class="tabella" style="font-size:1.7em;"><tbody><tr><td>
 
 <table>
 	<caption>Elenco dei fanfaroni:</caption>
@@ -80,13 +79,13 @@ invece piuttosto frequenti. Statisticamente, d'altronde, aumentando il numero de
 difficile garantire la buona condotta di tutti. Probabilmente anche la crescente popolarit&agrave; della corsa ha inoltre, 
 malauguratamente, suscitato l'interesse di appartenenti al quel folto gruppo di caposelesi che hanno l'abitudine di 
 surrogare gli scarsi fatti con le molte parole: i fanfaroni 
-(<i>blaterones</i> (latino),
-<i>braggarts</i> (UK),
-<i>vantards</i> (FR),
-<i>jactanciosos</i> (SP),
-<i>opschepperige</i> (NL),
-<i>prahlerischen</i> (DE),
-<i>trombonist</i> (RO), 
+(<i>blaterones</i> (latino <img src="%file_root%custom/images/bandiere/SPQR-Bandiera-small.jpg" width="60" style="vertical-align: middle;">),
+<i>braggarts</i> (UK <img src="%file_root%custom/images/bandiere/Regno_Unito-Bandiera-small.jpg" width="20" style="vertical-align: middle;">),
+<i>vantards</i> (FR <img src="%file_root%custom/images/bandiere/Francia-Bandiera-small.jpg" width="20" style="vertical-align: middle;">),
+<i>jactanciosos</i> (ES <img src="%file_root%custom/images/bandiere/Spagna-Bandiera-small.jpg" width="20" style="vertical-align: middle;">),
+<i>opschepperige</i> (NL <img src="%file_root%custom/images/bandiere/Olanda-Bandiera-small.jpg" width="20" style="vertical-align: middle;">),
+<i>prahlerischen</i> (DE <img src="%file_root%custom/images/bandiere/Germania-Bandiera-small.jpg" width="20" style="vertical-align: middle;">),
+<i>trombonist</i> (RO <img src="%file_root%custom/images/bandiere/Romania-Bandiera-small.jpg" width="20" style="vertical-align: middle;">) 
 ).
 E' risaputo che molti degli affetti da tale singolare inclinazione, vivono con particolare disagio e apprensione il 
 momento dell'"outing" e cio&egrave; il momento in cui finalmente essi si decidono ad esternare in pubblico la loro 
@@ -111,9 +110,9 @@ qualsiasi iniziativa futura (<i>semel fanfaron, semper fanfaron</i>).
 <p style="text-indent: 2em;">
 Ci&ograve; premesso l' A.R.S. istituisce ufficialmente il P.Re.G.Fa.S. ovvero il Pubblico Registro di Grandi Fanfaroni 
 della Stralaceno. Esso viene tenuto a cura di un'apposita commissione composta da 
-<span style="color: red;">
-tre esponenti dell'ARS, i decani della corsa (??? da definire meglio) e il più anziano, con minimo tre partecipazioni,
-più un "membro non togato" scelto dall'ARS</span>. 
+<!--span style="color: red;"-->
+tre esponenti dell'ARS, i decani della corsa (atleti che hanno partecipato minimo 10 volte) e il più anziano, con minimo 
+tre partecipazioni, più un "membro non togato" scelto dall'ARS. 
 Logicamente prima di procedere 
 all'iscrizione &egrave; necessaria una fase istruttoria nella quale si verifica l'esistenza di giustificazioni o di 
 attenuanti, valutando anche caso per caso e con opportuna  indulgenza. La conseguenza &egrave; quindi che i casi ove si 
