@@ -32,11 +32,18 @@ inizio footer
 		  </small></td>
 		</tr>
 
-		<!-- la riga che segue e' il logo del validatore HTML W3C -->
+		<!-- la riga che segue e' il logo del validatore HTML W3C e CSS -->
 		<tr>
 		  <td colspan="3" style="width: 500px; vertical-align: bottom; height: 50px; text-align: center;">
-			  <a href="http://validator.w3.org/check?uri=referer"><img border="0"	src="http://www.w3.org/Icons/valid-html401" 
-				alt="Valid HTML 4.01!" height="31" width="88"></a>
+			<!-- Validazione HTML -->
+			<a href="http://validator.w3.org/check?uri=referer">
+				<img border="0"	src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01!" height="31" width="88">
+			</a>
+			  
+			<!-- Validazione CSS -->
+			<a href="http://jigsaw.w3.org/css-validator">
+				<img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
+			</a>
 		  </td>
 		</tr>
 
