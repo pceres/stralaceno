@@ -1,16 +1,4 @@
-# Elenco dei links in homepage:
-#
-# formato:  link::descrizione
-#
-# modifica le righe qui sotto, rispettando il formato;
-# una linea che inizia con # viene ignorata
-#
-
-http://www.caposeleonline.it::Caposeleonline
-http://www.lagolaceno.it/::Lago Laceno
-#http://www.skilaceno.com/::Sciare a Laceno
-http://liceonline.altervista.org/::Liceo di Caposele
-http://www.siamonoi.it::Siamonoi.it
+http://web.tiscali.it/nusco58enrico/riquadro2.html::La 10 km di Nusco
+http://stralaceno.cjb.net::Stralaceno Web
 http://www.podisti.net::Podisti.net
 http://www.servizinews.it/servizi/podismo/podismo01.htm::Calendario podistico
-http://web.tiscali.it/nusco58enrico/riquadro2.html::La 10 km di Nusco
