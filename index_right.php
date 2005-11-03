@@ -134,8 +134,8 @@ selezioni di qualsiasi campo select all'interno del documento.
 			</td></tr>
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
-				<a href="filtro8.php" name="grafico_tempi" class="txt_link">Grafico andamento tempi negli anni</a>
-				<!--a class="disabled" onClick="alert('Pagina in allestimento!')" name="grafico_tempi">Grafico andamento tempi negli anni</a-->
+				<!--a href="filtro8.php" name="grafico_tempi" class="txt_link">Grafico andamento tempi negli anni</a-->
+				<a class="disabled" onClick="alert('Pagina in allestimento!')" name="grafico_tempi">Grafico andamento tempi negli anni</a>
 				<!--img src="<?php echo $site_abs_path?>images/work-in-progress.png" width="25" alt="work in progress"-->
 			</td></tr>
 			
@@ -163,9 +163,9 @@ selezioni di qualsiasi campo select all'interno del documento.
 		echo "<br>";
 	?--> 
 	<br>
-	<!--script language="JavaScript"  type="text/javascript" src="<?php echo $script_abs_path; ?>fkounter5/counter.js.php?id=stralaceno&amp;mode=hidden"></script-->
-	<script language="JavaScript"  type="text/javascript" src="<?php echo $script_abs_path; ?>fkounter5/counter.js.php?id=stralaceno&amp;mode=graphic"></script>
-	<!--a href='<?php echo $script_abs_path?>fkounter5/stats.php?id=stralaceno'><img src='<?php echo $script_abs_path?>fkounter5/counter.php?id=stralaceno&mode=graphic&referrer='<?php echo $_SERVER['HTTP_REFERER'];?>' width='98' height='38' alt='fanKounter' style='border:0px;' /></a-->
+	<!--script language="JavaScript"  type="text/javascript" src="<?php echo $script_abs_path; ?>fkounter5/counter.js.php?id=nusco&amp;mode=hidden"></script-->
+	<script language="JavaScript"  type="text/javascript" src="<?php echo $script_abs_path; ?>fkounter5/counter.js.php?id=nusco&amp;mode=graphic"></script>
+	<!--a href='<?php echo $script_abs_path?>fkounter5/stats.php?id=stralaceno'><img src='<?php echo $script_abs_path?>fkounter5/counter.php?id=nusco&mode=graphic&referrer='<?php echo $_SERVER['HTTP_REFERER'];?>' width='98' height='38' alt='fanKounter' style='border:0px;' /></a-->
 	
 	</i>
 	</div>

@@ -64,7 +64,9 @@ inizio colonna sinistra
 		  <tbody>
 		  
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td nowrap>
-				<a href="<?php echo $modules_site_path ?>presentazione/presentazione.php" name="presentazione" class="txt_link">Cos'&egrave; la <?php echo $race_name ?>?</a>
+				<!--a href="<?php echo $modules_site_path ?>presentazione/presentazione.php" name="presentazione" class="txt_link">Cos'&egrave; la <?php echo $race_name ?>?</a-->
+				<a onclick="alert('Pagina in allestimento!')" name="presentazione" class="disabled">Cos'&egrave; la <?php echo $race_name ?>?</a>
+
 			</td></tr>
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td nowrap>
@@ -72,17 +74,18 @@ inizio colonna sinistra
 			</td></tr>
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td nowrap>
-				<a href="<?php echo $modules_site_path ?>regolamento/regolamento.php" name="regolamento" class="txt_link">Stralcio regolamento</a>
-				<!--img src="<?php echo $site_abs_path?>images/work-in-progress.png" width="25" alt="work in progress"-->
+				<!--a href="<?php echo $modules_site_path ?>regolamento/regolamento.php" name="regolamento" class="txt_link">Stralcio regolamento</a-->
+				<a onclick="alert('Pagina in allestimento!')" name="regolamento" class="disabled">Stralcio regolamento</a>
 			</td></tr>
 			
 			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
-				<a href="<?php echo $modules_site_path ?>organizzatori/organizzatori.php" name="organizzatori" class="txt_link">Gli organizzatori</a>
+				<!--a href="<?php echo $modules_site_path ?>organizzatori/organizzatori.php" name="organizzatori" class="txt_link">Gli organizzatori</a-->
+				<a onclick="alert('Pagina in allestimento!')" name="organizzatori" class="disabled">Gli organizzatori</a>
 			</td></tr>
 			
-			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
+			<!--tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
 				<a href="<?php echo $modules_site_path ?>lettere_stralaceno/lettere_stralaceno.php" name="lettere_stralaceno" class="txt_link">Lettere alla Stralaceno</a>
-			</td></tr>
+			</td></tr-->
 			
 		  </tbody>
 		 </table>
