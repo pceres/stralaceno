@@ -1,12 +1,8 @@
 Autore::
-Titolo::Edizione 2004
+Titolo::Maratonina di Nusco (10 km)
 --- Begin body ---
-			<p>L'ultima competizione, svoltasi il 3 settembre 2004, ha visto una notevole partecipazione di corridori amatoriali, 
-oltre cinquanta.
-			<p>Primo classificato, col tempo di 20' 10'', &egrave; risultato <b>Gelsomino Merola</b>, vincitore per l'undicesima volta. Secondo 
-classificato &egrave; <b>Gianfranco Di Vincenzo</b>, che, ottenendo l'ottimo tempo di 21' 20'', ha conquistato il terzo posto nella 
-<a href="filtro9.php">classifica generale dei partecipanti alla Stralaceno</a>. Al terzo posto si &egrave; classificato <b>Paolo 
-Viscardi</b> con 22' 56''. 
-			<a href="filtro4.php?anno=2004">L'ordine d'arrivo completo dell'edizione 2004 della Stralaceno &egrave; consultabile qui</a>.
-			<p>Il prossimo appuntamento &egrave; fissato per fine estate dell'anno prossimo.
+			<p>Questo sito rielabora i tempi della Maratonina di Nusco (tracciato di 10 km), permettendo 
+di estrarre informazioni utili sui singoli atleti, o di effettuare confronti tra le prestazioni.
+			<p>I tempi sono presi
+dal <a href="http://web.tiscali.it/nusco58enrico/riquadro2.html">sito ufficiale</a>.
 --- End body ---
