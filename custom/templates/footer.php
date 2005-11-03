@@ -7,31 +7,31 @@ inizio footer
 	  <tbody>
 	  
 		<tr>
-		  <td align="right"><small>Informazioni sulla Stralaceno</small></td>
+		  <td align="right"><small>informazioni sulla 10 km di Nusco</small></td>
 		  <td><small>:</small></td>
 		  <td align="left" style="font-style: italic;"><small><a
-			 href="mailto:stralaceno@freepass.it?subject=Info%20sulla%20Stralaceno"
-			 title="Info sulla Stralaceno">stralaceno@freepass.it</a> </small></td>
+			 href="mailto:xxx@freepass.it?subject=Info%20sulla%2010kmNusco"
+			 title="Info sulla 10 Km Nusco">xxx@freepass.it</a> </small></td>
 		</tr>
 		
-		<tr>
-		  <td align="right"><small>Webmaster</small></td>
+		<!--tr>
+		  <td align="right"><small>webmaster</small></td>
 		  <td><small>:</small></td>
 		  <td align="left" style="font-style: italic;"><small><a
 			 href="mailto:pasquale_c@hotmail.com?subject=Info%20o%20suggerimenti%20sul%20sito" 
 			 title="Info o suggerimenti sul sito">Pasquale Ceres</a>
 		  </small></td>
-		</tr>
+		</tr-->
 		
-		<tr>
+		<!--tr>
 		  <td align="right"><small>Supporto grafico</small></td>
 		  <td><small>:</small></td>
 		  <td align="left" style="font-style: italic;"><small><a
 			 href="mailto:pietrorussomanno@libero.it?subject=Info%20o%20suggerimenti%20sulla%20grafica" 
 			 title="Info o suggerimenti sulla grafica">Pietro Russomanno</a>
 		  </small></td>
-		</tr>
-
+		</tr-->
+		
 		<!-- la riga che segue e' il logo del validatore HTML W3C e CSS -->
 		<tr>
 		  <td colspan="3" style="width: 500px; vertical-align: bottom; height: 50px; text-align: center;">
@@ -46,7 +46,7 @@ inizio footer
 			</a>
 		  </td>
 		</tr>
-
+		
 	  </tbody>
 	</table>
 
