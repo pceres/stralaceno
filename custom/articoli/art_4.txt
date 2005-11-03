@@ -1,27 +1,49 @@
 Autore::autori vari
-Titolo::FORUM: date delle corse
+Titolo::FORUM
 --- Begin body ---
 In questo testo possiamo scrivere tutto quello che vogliamo: sara' visibile soltanto a noi che sappiamo l'indirizzo
 pceres.altervista.org/admin/index.php, finche' decideremo di mantenerlo offline.
 Se poi decidessimo di metterlo online, basterebbero pochi click.
 Un saluto
 Pasquale<p>
-Commento alla foto di Benedetto -edizione 2000- da inserire quando sarà online il PReGFaS:<br>
-"Emulo di Dorando Pietri alle olimpiadi di Londra 1904, anche Benedetto 
+<b>Commento alla foto di Benedetto -edizione 2000- da inserire quando sarà online il PReGFaS:</b>
+<br>"Emulo di Dorando Pietri alle olimpiadi di Londra 1904, anche Benedetto 
 Montanari sembra accasciarsi a pochi metri dal traguardo. Sorge allora 
 spontanea una domanda: come mai nessuno dei giudici si fa avanti per 
 sorreggerlo e incoraggiarlo? La prosaica risposta è in una specifica 
 rubrica..."
 <p>
-Eventuale postilla da aggiungere al manifesto della Stralceno 2006:<br>
-Ricordiamo che la Stralaceno è un evento di sport ATTIVO e non di spettacolo. In particolare chi è interessato a seguire gli sviluppi della corsa lungo il percorso (fatta eccezione per anziani ed invalidi), è pregato farlo in modo da non mettere a rischio o danneggiare con i gas di scarico chi sta correndo.<br>
+<b>Eventuale postilla da aggiungere al manifesto della Stralaceno 2006:</b>
+<br>Ricordiamo che la Stralaceno è un evento di sport ATTIVO e non di spettacolo. In particolare chi è interessato a seguire gli sviluppi della corsa lungo il percorso (fatta eccezione per anziani ed invalidi), è pregato farlo in modo da non mettere a rischio o danneggiare con i gas di scarico chi sta correndo.<br>
 All'uopo si suggeriscono i seguenti mezzi:<br> - a piedi (anche solo per qualche tratto, in prospettiva di una futura partecipazione); <br> - in bicicletta (si possono anche affittare sul posto...); <br> - a cavallo.
 <p>
-Per inserire link all'album fotografico (esempio):<br>
-<b>Inserite nuove foto il 18.09.2005 per le edizioni 
+<b>Per inserire link all'album fotografico (esempio):</b>
+<br>Inserite nuove foto il 18.09.2005 per le edizioni 
 <a href="album.php?anno=2005">2005</a>, <a href="album.php?anno=2004">2004</a>, 
 <a href="album.php?anno=2002">2002</a>, <a href="album.php?anno=2001">2001</a>, 
 <a href="album.php?anno=2000">2000</a>, <a href="album.php?anno=1999">1999</a>, 
-<a href="album.php?anno=1994">1994</a>, <a href="album.php?anno=1991">1991</a>
-</b>. 
+<a href="album.php?anno=1994">1994</a>, <a href="album.php?anno=1991">1991</a>. 
+<p>
+<b>Regole per caricare una foto ed il thumbnail:</b> 
+<br> la foto, preferibilmente in formato .jpg (e non .jpeg!), non deve superare 
+tassativamente i 110 kB, e per una visione ottimale conviene, prima di 
+salvarla in jpg, riducendone la qualita' fino a rientrare in circa 100 
+kByte, scalarla ad un'ampiezza di 600x450 (o comunque un'ampiezza di 
+600). Se la foto si chiama pippo.jpg, il thumbnail associato DEVE 
+chiamarsi pippo-thumb.jpg, cioe' il nome della foto con l'aggiunta, 
+subito prima dell'estensione, di "-thumb". Un thumbnail conviene venga 
+ridotto a 133x100, ed in ogni caso non deve superare i 10 kB. L'uso del 
+thumbnail e' raccomandato in quanto se si visualizza un album (ad es. 
+il 2005) con foto senza thumbnails, saranno usate le foto intere al loro 
+posto. Anche se queste verranno visualizzate piccole, l'occupazione di 
+memoria sara', nel suo complesso, insostenibile per un normale pc, 
+oltre che assolutamente ingiustificata. Potete fare delle prove con l'album 
+varie: prima caricate una qualsiasi foto (che potrete scaricare da 
+Internet, o reperire come vi pare), dopo aver avuto cura di ridurne le 
+dimensioni a 100 kB, e di averne creato il thumbnail. Se tutto va bene, 
+un messaggio confermera' l'avvenuto caricamento, e la foto sara' 
+disponibile nell'album, anche se ancora invisibile. Per pubblicarla 
+effettivamente bisognera' andare a modificare il file di 
+configurazione, ed aggiungere la solita linea foto::titolo::descrizione::nomi_persone 
+sotto l'album in questione.
 --- End body ---
