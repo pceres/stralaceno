@@ -55,7 +55,7 @@ case 'cancel':
 	}
 	
 	// verifica che la foto non sia visibile
-	$elenco_foto = get_config_file($filename_albums,3); // carica il file di configurazione degli album
+	$elenco_foto = get_config_file($filename_albums,4); // carica il file di configurazione degli album
 	preg_match_all('/[^\/]+$/',dirname($data),$album);
 	$album = $album[0][0];
 	$foto = basename($data);
@@ -107,7 +107,7 @@ case 'cancel_album':
 	}
 	
 	// carica il file di configurazione degli album
-	$elenco_foto = get_config_file($filename_albums,3);
+	$elenco_foto = get_config_file($filename_albums,4);
 	
 	if (count($elenco_foto[$album]) > 0)
 	{
