@@ -1,0 +1,13 @@
+# File di configurazione della colonna destra della homepage
+# 
+# titolo::tipo_elemento::link
+# Ogni riga che inizia con # viene ignorata.
+#
+
+[Approfondimenti:]
+Archivio storico annuale (tutti i risultati di un anno): ::modulo::droplist_edizioni
+Archivio storico personale: ::modulo::droplist_atleti
+Archivio storico (tutti i risultati ordinati per tempi)::tempi::archivio_storico
+Grafico andamento tempi negli anni::tempi::grafico_tempi
+Classifica partecipazioni::tempi::classifica_partecipazioni
+I personaggi::modulo::personaggi
