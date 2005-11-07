@@ -1,0 +1,22 @@
+# File di configurazione della colonna sinistra della homepage
+# 
+# nome_modulo::caption::tipo_elemento::dati
+# Ogni riga che inizia con # viene ignorata.
+#
+
+[La corsa]
+presentazione::Cos'è la Stralaceno?::modulo_custom::
+albo_d_oro::Albo d'oro::tempi::
+regolamento::Stralcio regolamento::modulo_custom::
+organizzatori::Gli organizzatori::modulo_custom::
+lettere_stralaceno::Lettere alla Stralaceno::modulo_custom::
+#pregfas::Pregfas::modulo_custom::
+
+[Cronaca corrente]
+# il campo dati del modulo "ultime_edizioni" contiene il numero di ultime edizioni da visualizzare
+ultime_edizioni::Ultime edizioni: ::modulo::3
+classifica_MF::Classifica personali M+F::tempi::
+classifica_F::Classifica personali F::tempi::
+
+[Link]
+link::link::modulo::
