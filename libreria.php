@@ -46,6 +46,12 @@ $indice3_nota  		= 6;
 
 $num_colonne_organizzatori = 7;
 
+# formato file di configurazione 'layout_left.txt'
+$indice_layout_name = 0;
+$indice_layout_caption = 1;
+$indice_layout_type = 2;
+$indice_layout_data = 3;
+
 
 #variabili di formattazione
 $style_sfondo_maschi = "rgb(249, 255, 255)";
@@ -169,6 +175,7 @@ $max_online_articles	= 10;	// numero di articoli pubblicati online
 $indici = array('indice_id' => $indice_id,'indice_nome' => $indice_nome,'indice_posiz' => $indice_posiz,'indice_tempo' => $indice_tempo,'indice_anno' => $indice_anno,'indice_nota' => $indice_nota,'num_colonne_prestazioni' => $num_colonne_prestazioni,'indice_info' => $indice_info);
 $indici2 = array('indice2_id' => $indice2_id,'indice2_nome' => $indice2_nome,'indice2_sesso' => $indice2_sesso,'indice2_titolo' => $indice2_titolo,'indice2_data_nascita' => $indice2_data_nascita,'indice2_peso' => $indice2_peso,'indice2_link' => $indice2_link,'num_colonne_atleti'  => $num_colonne_atleti);
 $indici3 = array('indice3_id' => $indice3_id,'indice3_nome' => $indice3_nome,'indice3_sesso' => $indice3_sesso,'indice3_incarico' => $indice3_incarico,'indice3_anno' => $indice3_anno,'indice3_link' => $indice3_link,'indice3_nota' => $indice3_nota,'num_colonne_organizzatori' => $num_colonne_organizzatori);
+$indici_layout = array('indice_layout_name' => $indice_layout_name, 'indice_layout_caption' => $indice_layout_caption,'indice_layout_type' => $indice_layout_type,'indice_layout_data' => $indice_layout_data);
 
 $formattazione = array('style_sfondo_maschi' => $style_sfondo_maschi,'style_sfondo_femmine' => $style_sfondo_femmine);
 $filenames = array('filename_css' => $filename_css,'filename_tempi' => $filename_tempi,'filename_atleti' => $filename_atleti,'filename_organizzatori' => $filename_organizzatori,'filedir_counter' => $filedir_counter,'articles_dir' => $articles_dir,'article_online_file' => $article_online_file,'filename_links' => $filename_links,'filename_albums' => $filename_albums);
@@ -177,7 +184,7 @@ $varie = array('symbol_1_partecipazione' => $symbol_1_partecipazione,'symbol_rec
 $custom = array('homepage_link' => $homepage_link,'tempo_max_M' => $tempo_max_M,'tempo_max_F' => $tempo_max_F,'tempo_max_grafico' => $tempo_max_grafico,'race_name' => $race_name,'web_title' => $web_title,'web_description' => $web_description,'web_keywords' => $web_keywords,'email_info' => $email_info);
 $admin = array('password_album' => $password_album,'password_config' => $password_config,'password_articoli' => $password_articoli,'password_upload_file' => $password_upload_file,'max_last_editions' => $max_last_editions,'max_online_articles' => $max_online_articles);
 
-return array_merge($indici,$indici2,$indici3,$formattazione,$filenames,$pathnames,$varie,$admin,$custom);
+return array_merge($indici,$indici2,$indici3,$indici_layout,$formattazione,$filenames,$pathnames,$varie,$admin,$custom);
 }
 
 function load_data($filename,$num_colonne) {
@@ -919,9 +926,6 @@ function show_article($art_data,$mode,$link)
 	// $mode=('full','abstract')
 	// $link : usato in modo 'abstract', e' il link cui devono puntare i puntini alla fine dell'articolo
 
-	# dichiara variabili
-#	extract(indici());
-	
 	$abstract_lines = 3; // numero di linee da pubblicare nella modalita' abstract
 
 	echo "<tr><td>\n";
@@ -944,9 +948,6 @@ function show_article($art_data,$mode,$link)
 	
 	foreach ($testo_articolo as $line)
 	{
-		#$template = array("%script_root%","%file_root%");
-		#$effective = array($script_abs_path,$site_abs_path);
-		#echo str_replace($template, $effective, $line);
 		echo template_to_effective($line);
 	}
 	
@@ -1171,6 +1172,179 @@ function show_template($template_file)
 		
 	}
 }
+
+
+
+function is_visible_layout_block($layout_block,&$layout_data) 
+{
+	switch ($layout_block)
+	{
+	case 'link':
+		if (count($layout_data['Link:'])==0) // se non ci sono link da mostrare, e' inutile il riquadro dei link
+		{
+			return false;
+		}
+		break;
+	default:
+		return true;
+	}
+	return true;
+}
+
+
+
+function show_layout_block_item(&$layout_block,&$layout_item,&$layout_data)
+{
+
+# dichiara variabili
+extract(indici());
+
+$list_tempi_page = array('albo_d_oro' => 'filtro7.php','classifica_MF' => 'filtro9.php','classifica_F' => 'filtro10.php');
+
+$list_moduli = array('link','ultime_edizioni');
+
+$item_name = $layout_item[$indice_layout_name];
+$item_caption = $layout_item[$indice_layout_caption];
+$item_type = $layout_item[$indice_layout_type];
+$item_data = $layout_item[$indice_layout_data];
+
+// determina l'eventuale link
+if ($item_type != 'modulo')
+{
+	switch ($item_type)
+	{
+	case 'raw':
+		$item_link = $layout_item[$indice_layout_data][0];
+		$item_name = $layout_item[$indice_layout_data][1];
+		$item_caption = $layout_item[$indice_layout_data][2];
+		break;
+	case 'tempi':
+		$item_link = $list_tempi_page[$item_name];
+		$item_name = $layout_item[$indice_layout_name];
+		$item_caption = $layout_item[$indice_layout_caption];
+		break;
+	case 'modulo':
+		// il modulo di tipo 'modulo' e' costituito da piu' layout_item, generati dinamicamente
+		break;
+	case 'modulo_custom':
+		$item_link = "custom/moduli/$item_name/$item_name.php";
+		$item_name = $layout_item[$indice_layout_name];
+		$item_caption = $layout_item[$indice_layout_caption];
+		break;
+	default:
+		die("Modulo nel layout non riconosciuto: $item_type.");
+	}
+
+?>
+			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td nowrap>
+				<a href="<?php echo $item_link ?>" name="<?php echo $item_name ?>" class="txt_link"><?php echo $item_caption ?></a>
+			</td></tr>
+
+<?php 
+}
+else
+{
+	switch ($item_name)
+	{
+	case "ultime_edizioni":
+		// dati esterni:
+		$block_item_data = $layout_data[$item_name];
+		$elenco_anni = $block_item_data['elenco_anni']; // elenco edizioni disponibili
+		$elenco_foto = $block_item_data['elenco_foto']; // elenco album disponibili
+		$max_last_editions = $item_data; // numero massimo di edizioni da visualizzare
+		
+		$numero_anni = min(count($elenco_anni),$max_last_editions); # numero delle ultime edizioni da visualizzare
+		
+?>
+			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
+				<span class="txt_link">Ultime edizioni:</span><br>
+<?php
+		for ($i = 0; $i < $numero_anni; $i++) {
+			echo "\t\t\t\t&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"filtro4.php?anno=$elenco_anni[$i]\" class=\"txt_link\">Edizione $elenco_anni[$i]</a>\n";
+			
+			if (count($elenco_foto[$elenco_anni[$i]]) > 0)
+			{
+				echo "\t\t\t\t<a class=\"txt_link\" href=\"album.php?anno=".$elenco_anni[$i]."\">&nbsp;\n";
+				echo "\t\t\t\t   <img src=\"".$site_abs_path."images/fotocamera-small.gif\" width=\"15\" border=\"0\" alt=\"foto_".$elenco_anni[$i]."\">\n";
+				echo "\t\t\t\t</a>\n\n";
+			}
+		}
+?>
+			</td></tr>
+			
+<?php
+		break;
+	default:
+		die("Modulo non riconosciuto: $item_name.");
+	}
+}
+
+
+} // end function show_layout_block_item
+
+
+
+function show_layout_block(&$layout_block,&$layout_items, &$layout_data) 
+{ 
+
+# dichiara variabili
+extract(indici());
+
+switch ($layout_block)
+{
+default:
+	
+?>
+
+	<!-- inizio blocco -->
+	<tr><td>
+	  <table class="column_group"><tbody><tr><td>
+	  
+		<span class="titolo_colonna"><?php echo $layout_block; ?>:</span>
+		 <table cellpadding="0" cellspacing="0">
+		  <tbody>
+		  
+<?php 
+			foreach($layout_items as $layout_item)
+			{
+				//echo $layout_block.",".$layout_item[$indice_layout_name].",".$layout_item[$indice_layout_type].":<br>";
+				
+				switch ($layout_block)
+				{
+				case 'Link':
+					$link_list = $layout_data[$layout_block];
+					for ($i = 0; $i < count($link_list); $i++)
+					{ 
+						$layout_item_link = $link_list[$i][0];
+						$layout_item_name = "link_$i";
+						$layout_item_caption = $link_list[$i][1];
+						
+						$layout_item_array = array($layout_item_link,$layout_item_name,$layout_item_caption);
+						
+						$virtual_item = $layout_item;
+						$virtual_item[$indice_layout_type] = 'raw';
+						$virtual_item[$indice_layout_data] = $layout_item_array;
+						show_layout_block_item($layout_block,$virtual_item,$layout_data);
+					} // for  
+					break;
+					
+				default:
+					show_layout_block_item($layout_block,$layout_item,$layout_data);
+				} // end switch
+				
+			} // end foreach $list_items
+?>
+			
+		  </tbody>
+		 </table>
+		
+	  </td></tr></tbody></table>
+	</td></tr>
+<?php
+} // end switch $ layout_block
+
+} // end function show_layout_block
+
 
 
 //Page properties definitions

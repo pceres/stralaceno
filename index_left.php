@@ -1,5 +1,5 @@
 <?php
-
+/*
 // carica elenco delle edizioni disponibili
 $elenco_anni = array();
 for ($ii = 1; $ii < count($archivio); $ii++) {
@@ -12,16 +12,43 @@ $numero_anni = min(count($elenco_anni),$max_last_editions); # numero delle ultim
 
 
 // carica elenco delle foto disponibili
-$elenco_foto = get_config_file($filename_albums,3); // tre colonne
-
+$elenco_foto = get_config_file($filename_albums,4); // quattro colonne
+*/
 $pagina = $_REQUEST['page']; // contenuto da visualizzare in colonna centrale
+
+// carica layout colonna sinistra
+$filename_layout_left = $config_dir.'layout_left.txt';
+$elenco_layout = get_config_file($filename_layout_left,4);
+
 ?>
 <!-- 
 inizio colonna sinistra
 -->
 <table class="frame_delimiter"><tbody>	
 
-<?php if (!empty($pagina)) { // se non si e' nella homepage ($pagina vuoto), visualizza il link alla homepage ?>
+<?php 
+
+$layout_data = array(); // dati da passare ai moduli;
+
+// carica i dati necessari ai vari moduli:
+// link::
+$link_list = get_link_list($filename_links); 
+$layout_data['Link'] = $link_list;
+
+// ultime_edizioni::
+// edizioni disponibili
+$elenco_anni = array();
+for ($ii = 1; $ii < count($archivio); $ii++) {
+	array_push($elenco_anni,$archivio[$ii][$indice_anno]);
+}
+$elenco_anni = array_unique($elenco_anni); # elimina gli anni duplicati
+$elenco_anni = array_reverse($elenco_anni); # inverti l'ordine
+// carica elenco delle foto disponibili
+$elenco_foto = get_config_file($filename_albums,4); // quattro colonne
+$layout_data['ultime_edizioni'] = array('elenco_anni'=>$elenco_anni,'elenco_foto'=>$elenco_foto);
+
+
+if (!empty($pagina)) { // se non si e' nella homepage ($pagina vuoto), visualizza il link alla homepage ?>
 	<tr><td>
 	  <table class="column_group"><tbody><tr><td>
 	  
@@ -44,118 +71,24 @@ inizio colonna sinistra
 				<a href="<?php echo $script_site_path ?>index.php?page=articolo&amp;art_id=<?php echo $id ?>" 
 					name="articolo_<?php echo $id ?>" class="txt_link">&nbsp;-&nbsp;<?php echo $art_data['titolo'] ?></a>
 			</td></tr>
-<?php
-			}
-?>
+<?php		} // end for  ?>
 			
 		  </tbody>
 		 </table>
 		
 	  </td></tr></tbody></table>
 	</td></tr>
-<?php } // if !empty($pagina)  ?>
+<?php } // if !empty($pagina)  
 
 
-	<tr><td>
-	  <table class="column_group"><tbody><tr><td>
-	  
-		<span class="titolo_colonna">La corsa:</span>
-		 <table cellpadding="0" cellspacing="0">
-		  <tbody>
-		  
-			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td nowrap>
-				<a href="<?php echo $modules_site_path ?>presentazione/presentazione.php" name="presentazione" class="txt_link">Cos'&egrave; la <?php echo $race_name ?>?</a>
-			</td></tr>
-			
-			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td nowrap>
-				<a href="filtro7.php" name="Albo_d_oro" class="txt_link">Albo d'oro</a>
-			</td></tr>
-			
-			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td nowrap>
-				<a href="<?php echo $modules_site_path ?>regolamento/regolamento.php" name="regolamento" class="txt_link">Stralcio regolamento</a>
-				<!--img src="<?php echo $site_abs_path?>images/work-in-progress.png" width="25" alt="work in progress"-->
-			</td></tr>
-			
-			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
-				<a href="<?php echo $modules_site_path ?>organizzatori/organizzatori.php" name="organizzatori" class="txt_link">Gli organizzatori</a>
-			</td></tr>
-			
-			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
-				<a href="<?php echo $modules_site_path ?>lettere_stralaceno/lettere_stralaceno.php" name="lettere_stralaceno" class="txt_link">Lettere alla Stralaceno</a>
-			</td></tr>
-			
-		  </tbody>
-		 </table>
-		
-	  </td></tr></tbody></table>
-	</td></tr>
+foreach($elenco_layout as $riquadro => $list_items)
+{
+	if (is_visible_layout_block($riquadro,$layout_data)) {
+		show_layout_block($riquadro,$list_items,$layout_data);
+	}
+} // foreach $elenco_layout
 
-
-	<tr><td>
-	  <table class="column_group"><tbody><tr><td>
-		
-		<span class="titolo_colonna">Cronaca corrente:</span>
-		 <table cellpadding="0" cellspacing="0">
-		  <tbody>
-			
-<?php if ($numero_anni > 0) { ?>
-			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
-				<span class="txt_link">Ultime edizioni:</span>
-<?php
-		for ($i = 0; $i < $numero_anni; $i++) {
-			echo "\t\t\t\t<br>&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"filtro4.php?anno=$elenco_anni[$i]\" class=\"txt_link\">Edizione $elenco_anni[$i]</a>\n";
-			
-			if (count($elenco_foto[$elenco_anni[$i]]) > 0)
-			{
-				//echo "<a href=\"album.php?anno=".$elenco_anni[$i]."\"><img src=\"".$site_abs_path."images/camera.jpg\" width=\"15\" border=\"0\" alt=\"foto_".$elenco_anni[$i]."\"></a>";
-				echo "<a class=\"txt_link\" href=\"album.php?anno=".$elenco_anni[$i]."\">&nbsp;<img src=\"".$site_abs_path."images/fotocamera-small.gif\" width=\"15\" border=\"0\" alt=\"foto_".$elenco_anni[$i]."\"></a>";
-			}
-		}
 ?>
-			</td></tr>
-<?php } ?>
-			
-			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td nowrap>
-				<a href="filtro9.php" name="migliori_prestazioni" class="txt_link">Classifica personali M+F</a>
-			</td></tr>
-			
-			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td nowrap>
-				<a href="filtro10.php" name="migliori_prestazioni_femminili" class="txt_link">Classifica personali F</a>
-			</td></tr>
-			
-			</tbody>
-		 </table>
-		
-	  </td></tr></tbody></table>
-	</td></tr>
-
-
-<?php 
-	$link_list = get_link_list($filename_links); 
-	if (count($link_list) > 0) { ?>
-	<tr><td>
-	  <table class="column_group"><tbody><tr><td>
-		
-		<span class="titolo_colonna">Link:</span>
-		 <table cellpadding="0" cellspacing="0">
-		  <tbody>
-			
-<?php 
-			for ($i = 0; $i < count($link_list); $i++)
-			{ ?>
-			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
-				<a href="<?php echo $link_list[$i][0] ?>" name="link_<?php echo $i ?>" class="txt_link"><?php echo $link_list[$i][1] ?></a>
-			</td></tr>
-<?php			
-			} // for  
-?>
-		  </tbody>
-		 </table>
-		
-	  </td></tr></tbody></table>
-	</td></tr>
-<?php	} // if (count($link_list) > 0)  ?>
-
 	
 </tbody></table>
 <!-- 
