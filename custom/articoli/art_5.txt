@@ -26,10 +26,10 @@ Titolo::Allenarsi alla Palmenta
 	che concede a tutti gli interessati (anche, quindi, ai non soci) la possibilit&agrave; di poterne usufruire, 
 	rivolgendosi a 	Donatello Cirillo quale consigliere/socio delegato ARS.
 <p>
-	Gli orari per i quali &egrave; disponibile l'autorizzazione, validi nel periodo estivo, sono i seguenti:
+	Gli orari per i quali &egrave; disponibile l'autorizzazione, sono i seguenti:
 <ul>
-    <li>marted&igrave;: dalle 18 alle 20;</li>
-    <li>venerd&igrave;: dalle 18 alle 20;</li>
+    <li>marted&igrave;: dalle 18 alle 20 (periodo estivo), dalle 16 alle 18 (periodo invernale);</li>
+    <li>venerd&igrave;: dalle 18 alle 20 (periodo estivo), dalle 16 alle 18 (periodo invernale);</li>
     <li>domenica: dalle 10 alle 12.</li>
 </ul>
 <p>
