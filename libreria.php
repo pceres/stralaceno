@@ -22,6 +22,8 @@ $num_colonne_prestazioni = 6;
 
 $indice_info = 'info'; # viene aggiunta una colonna di informazioni relative all'atleta
 
+$indici = array('indice_id' => $indice_id,'indice_nome' => $indice_nome,'indice_posiz' => $indice_posiz,'indice_tempo' => $indice_tempo,'indice_anno' => $indice_anno,'indice_nota' => $indice_nota,'num_colonne_prestazioni' => $num_colonne_prestazioni,'indice_info' => $indice_info);
+
 
 # formato file di archivio 'atleti_laceno.csv'
 $indice2_id 		= 0;
@@ -33,6 +35,8 @@ $indice2_peso 		= 5;
 $indice2_link		= 6;
 
 $num_colonne_atleti = 7;
+
+$indici2 = array('indice2_id' => $indice2_id,'indice2_nome' => $indice2_nome,'indice2_sesso' => $indice2_sesso,'indice2_titolo' => $indice2_titolo,'indice2_data_nascita' => $indice2_data_nascita,'indice2_peso' => $indice2_peso,'indice2_link' => $indice2_link,'num_colonne_atleti'  => $num_colonne_atleti);
 
 
 # formato file di archivio 'organizzatori_laceno.csv'
@@ -46,11 +50,26 @@ $indice3_nota  		= 6;
 
 $num_colonne_organizzatori = 7;
 
+$indici3 = array('indice3_id' => $indice3_id,'indice3_nome' => $indice3_nome,'indice3_sesso' => $indice3_sesso,'indice3_incarico' => $indice3_incarico,'indice3_anno' => $indice3_anno,'indice3_link' => $indice3_link,'indice3_nota' => $indice3_nota,'num_colonne_organizzatori' => $num_colonne_organizzatori);
+
+
 # formato file di configurazione 'layout_left.txt'
 $indice_layout_name = 0;
 $indice_layout_caption = 1;
 $indice_layout_type = 2;
 $indice_layout_data = 3;
+$indice_layout_msg_disabled = 4;
+$indice_layout_enabled_groups = 5;
+
+$indici_layout = array('indice_layout_name' => $indice_layout_name, 'indice_layout_caption' => $indice_layout_caption,'indice_layout_type' => $indice_layout_type,'indice_layout_data' => $indice_layout_data,'indice_layout_msg_disabled'=>$indice_layout_msg_disabled,'indice_layout_enabled_groups'=>$indice_layout_enabled_groups);
+
+
+# formato file di configurazione $filename_users
+$indice_user_name = 0;
+$indice_user_passwd = 1;
+$indice_user_groups = 2;
+
+$indici_user = array('indice_user_name'=>$indice_user_name,'indice_user_passwd'=>$indice_user_passwd,'indice_user_groups'=>$indice_user_groups);
 
 
 #variabili di formattazione
@@ -157,13 +176,14 @@ $filename_organizzatori	= $root_path."custom/dati/".$nome_file_organizzatori;
 $article_online_file	= $articles_dir."online.txt";
 $filename_links			= $config_dir."links.txt";
 $filename_albums		= $config_dir."albums.txt";
+$filename_users			= $config_dir."users.php";	// l'estensione e' php in modo che la richiesta della pagina non permetta comunque di visualizzare i dati
 
 #varie
 $tempo_max_grafico = max(array($tempo_max_F,$tempo_max_M));
 $symbol_empty= '<img style="display:inline;" align="middle" height="13" width="13" alt="empty" border="0">';
 $symbol_1_partecipazione= '<img src="'.$site_abs_path.'images/0x2606(star).bmp" style="display:inline;" align="middle" height="13" alt="1a partecipazione" border="0">';
 $symbol_record  		= '<img src="'.$site_abs_path.'images/0x263A(smiling_face).bmp" style="display:inline;" align="middle" height="13" alt="record personale" border="0">';
-$symbol_record_best		='<img src="'.$site_abs_path.'images/0x263A(smiling_face_best).bmp" style="display:inline;" align="middle" height="13" alt="record personale assoluto" border="0">';
+$symbol_record_best		= '<img src="'.$site_abs_path.'images/0x263A(smiling_face_best).bmp" style="display:inline;" align="middle" height="13" alt="record personale assoluto" border="0">';
 $homepage_link 			= '<hr><div align="right"><a class="txt_link" href="'.$script_abs_path.'index.php">Torna alla homepage</a></div>';
 
 #admin
@@ -171,20 +191,14 @@ $max_last_editions	= 3;	// numero di ultime edizioni in colonna laterale
 $max_online_articles	= 10;	// numero di articoli pubblicati online
 
 
-#campi files csv
-$indici = array('indice_id' => $indice_id,'indice_nome' => $indice_nome,'indice_posiz' => $indice_posiz,'indice_tempo' => $indice_tempo,'indice_anno' => $indice_anno,'indice_nota' => $indice_nota,'num_colonne_prestazioni' => $num_colonne_prestazioni,'indice_info' => $indice_info);
-$indici2 = array('indice2_id' => $indice2_id,'indice2_nome' => $indice2_nome,'indice2_sesso' => $indice2_sesso,'indice2_titolo' => $indice2_titolo,'indice2_data_nascita' => $indice2_data_nascita,'indice2_peso' => $indice2_peso,'indice2_link' => $indice2_link,'num_colonne_atleti'  => $num_colonne_atleti);
-$indici3 = array('indice3_id' => $indice3_id,'indice3_nome' => $indice3_nome,'indice3_sesso' => $indice3_sesso,'indice3_incarico' => $indice3_incarico,'indice3_anno' => $indice3_anno,'indice3_link' => $indice3_link,'indice3_nota' => $indice3_nota,'num_colonne_organizzatori' => $num_colonne_organizzatori);
-$indici_layout = array('indice_layout_name' => $indice_layout_name, 'indice_layout_caption' => $indice_layout_caption,'indice_layout_type' => $indice_layout_type,'indice_layout_data' => $indice_layout_data);
-
 $formattazione = array('style_sfondo_maschi' => $style_sfondo_maschi,'style_sfondo_femmine' => $style_sfondo_femmine);
-$filenames = array('filename_css' => $filename_css,'filename_tempi' => $filename_tempi,'filename_atleti' => $filename_atleti,'filename_organizzatori' => $filename_organizzatori,'filedir_counter' => $filedir_counter,'articles_dir' => $articles_dir,'article_online_file' => $article_online_file,'filename_links' => $filename_links,'filename_albums' => $filename_albums);
+$filenames = array('filename_css' => $filename_css,'filename_tempi' => $filename_tempi,'filename_atleti' => $filename_atleti,'filename_organizzatori' => $filename_organizzatori,'filedir_counter' => $filedir_counter,'articles_dir' => $articles_dir,'article_online_file' => $article_online_file,'filename_links' => $filename_links,'filename_albums' => $filename_albums,'filename_users'=>$filename_users);
 $pathnames = array('root_path' => $root_path,'site_abs_path' => $site_abs_path,'script_abs_path' => $script_abs_path,'modules_site_path' => $modules_site_path,'config_dir' => $config_dir,'album_dir' => $album_dir);
 $varie = array('symbol_1_partecipazione' => $symbol_1_partecipazione,'symbol_record' => $symbol_record,'symbol_record_best' => $symbol_record_best);
 $custom = array('homepage_link' => $homepage_link,'tempo_max_M' => $tempo_max_M,'tempo_max_F' => $tempo_max_F,'tempo_max_grafico' => $tempo_max_grafico,'race_name' => $race_name,'web_title' => $web_title,'web_description' => $web_description,'web_keywords' => $web_keywords,'email_info' => $email_info);
 $admin = array('password_album' => $password_album,'password_config' => $password_config,'password_articoli' => $password_articoli,'password_upload_file' => $password_upload_file,'max_last_editions' => $max_last_editions,'max_online_articles' => $max_online_articles);
 
-return array_merge($indici,$indici2,$indici3,$indici_layout,$formattazione,$filenames,$pathnames,$varie,$admin,$custom);
+return array_merge($indici,$indici2,$indici3,$indici_layout,$indici_user,$formattazione,$filenames,$pathnames,$varie,$admin,$custom);
 }
 
 function load_data($filename,$num_colonne) {
@@ -1081,8 +1095,10 @@ function get_link_list($link_file)
 }
 
 
-function get_config_file($conf_file,$expected_items)
+function get_config_file($conf_file,$expected_items = 1000)
 {
+// se non si specifica $expected_items, si assume qualsiasi lunghezza
+
 	$bulk = file($conf_file);
 	
 	$title = 'default';
@@ -1175,175 +1191,24 @@ function show_template($template_file)
 
 
 
-function is_visible_layout_block($layout_block,&$layout_data) 
+function group_match($usergroups,$enabled_groups)
 {
-	switch ($layout_block)
-	{
-	case 'link':
-		if (count($layout_data['Link:'])==0) // se non ci sono link da mostrare, e' inutile il riquadro dei link
-		{
-			return false;
-		}
-		break;
-	default:
-		return true;
-	}
+// enabled_group vuoto -> abilitato
+if (empty($enabled_groups[0]))
+{
 	return true;
 }
 
-
-
-function show_layout_block_item(&$layout_block,&$layout_item,&$layout_data)
+foreach($enabled_groups as $enabled_group)
 {
-
-# dichiara variabili
-extract(indici());
-
-$list_tempi_page = array('albo_d_oro' => 'filtro7.php','classifica_MF' => 'filtro9.php','classifica_F' => 'filtro10.php');
-
-$list_moduli = array('link','ultime_edizioni');
-
-$item_name = $layout_item[$indice_layout_name];
-$item_caption = $layout_item[$indice_layout_caption];
-$item_type = $layout_item[$indice_layout_type];
-$item_data = $layout_item[$indice_layout_data];
-
-// determina l'eventuale link
-if ($item_type != 'modulo')
-{
-	switch ($item_type)
+	if (in_array($enabled_group,$usergroups))
 	{
-	case 'raw':
-		$item_link = $layout_item[$indice_layout_data][0];
-		$item_name = $layout_item[$indice_layout_data][1];
-		$item_caption = $layout_item[$indice_layout_data][2];
-		break;
-	case 'tempi':
-		$item_link = $list_tempi_page[$item_name];
-		$item_name = $layout_item[$indice_layout_name];
-		$item_caption = $layout_item[$indice_layout_caption];
-		break;
-	case 'modulo':
-		// il modulo di tipo 'modulo' e' costituito da piu' layout_item, generati dinamicamente
-		break;
-	case 'modulo_custom':
-		$item_link = "custom/moduli/$item_name/$item_name.php";
-		$item_name = $layout_item[$indice_layout_name];
-		$item_caption = $layout_item[$indice_layout_caption];
-		break;
-	default:
-		die("Modulo nel layout non riconosciuto: $item_type.");
-	}
-
-?>
-			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td nowrap>
-				<a href="<?php echo $item_link ?>" name="<?php echo $item_name ?>" class="txt_link"><?php echo $item_caption ?></a>
-			</td></tr>
-
-<?php 
-}
-else
-{
-	switch ($item_name)
-	{
-	case "ultime_edizioni":
-		// dati esterni:
-		$block_item_data = $layout_data[$item_name];
-		$elenco_anni = $block_item_data['elenco_anni']; // elenco edizioni disponibili
-		$elenco_foto = $block_item_data['elenco_foto']; // elenco album disponibili
-		$max_last_editions = $item_data; // numero massimo di edizioni da visualizzare
-		
-		$numero_anni = min(count($elenco_anni),$max_last_editions); # numero delle ultime edizioni da visualizzare
-		
-?>
-			<tr style="vertical-align: baseline"><td>&#8250;&nbsp;</td><td>
-				<span class="txt_link">Ultime edizioni:</span><br>
-<?php
-		for ($i = 0; $i < $numero_anni; $i++) {
-			echo "\t\t\t\t&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"filtro4.php?anno=$elenco_anni[$i]\" class=\"txt_link\">Edizione $elenco_anni[$i]</a>\n";
-			
-			if (count($elenco_foto[$elenco_anni[$i]]) > 0)
-			{
-				echo "\t\t\t\t<a class=\"txt_link\" href=\"album.php?anno=".$elenco_anni[$i]."\">&nbsp;\n";
-				echo "\t\t\t\t   <img src=\"".$site_abs_path."images/fotocamera-small.gif\" width=\"15\" border=\"0\" alt=\"foto_".$elenco_anni[$i]."\">\n";
-				echo "\t\t\t\t</a>\n\n";
-			}
-		}
-?>
-			</td></tr>
-			
-<?php
-		break;
-	default:
-		die("Modulo non riconosciuto: $item_name.");
+		return true;
 	}
 }
+return false;
 
-
-} // end function show_layout_block_item
-
-
-
-function show_layout_block(&$layout_block,&$layout_items, &$layout_data) 
-{ 
-
-# dichiara variabili
-extract(indici());
-
-switch ($layout_block)
-{
-default:
-	
-?>
-
-	<!-- inizio blocco -->
-	<tr><td>
-	  <table class="column_group"><tbody><tr><td>
-	  
-		<span class="titolo_colonna"><?php echo $layout_block; ?>:</span>
-		 <table cellpadding="0" cellspacing="0">
-		  <tbody>
-		  
-<?php 
-			foreach($layout_items as $layout_item)
-			{
-				//echo $layout_block.",".$layout_item[$indice_layout_name].",".$layout_item[$indice_layout_type].":<br>";
-				
-				switch ($layout_block)
-				{
-				case 'Link':
-					$link_list = $layout_data[$layout_block];
-					for ($i = 0; $i < count($link_list); $i++)
-					{ 
-						$layout_item_link = $link_list[$i][0];
-						$layout_item_name = "link_$i";
-						$layout_item_caption = $link_list[$i][1];
-						
-						$layout_item_array = array($layout_item_link,$layout_item_name,$layout_item_caption);
-						
-						$virtual_item = $layout_item;
-						$virtual_item[$indice_layout_type] = 'raw';
-						$virtual_item[$indice_layout_data] = $layout_item_array;
-						show_layout_block_item($layout_block,$virtual_item,$layout_data);
-					} // for  
-					break;
-					
-				default:
-					show_layout_block_item($layout_block,$layout_item,$layout_data);
-				} // end switch
-				
-			} // end foreach $list_items
-?>
-			
-		  </tbody>
-		 </table>
-		
-	  </td></tr></tbody></table>
-	</td></tr>
-<?php
-} // end switch $ layout_block
-
-} // end function show_layout_block
+} // end function group_match($usergroups,$enabled_groups)
 
 
 
