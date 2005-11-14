@@ -6,6 +6,7 @@ require_once('libreria.php');
 
 # dichiara variabili
 extract(indici());
+
 ?>
 <head>
   <title><?php echo $web_title ?></title>
@@ -19,10 +20,119 @@ extract(indici());
 <body class="homepage" onLoad="azzera_input()">
 <?php
 
-# carica i dati relativi a tutti gli anni, che devono essere disponibili per i moduli nelle colonne sinistra e destra
+#
+# analisi dei parametri passati alla pagina
+#
+
+# pagina da visualizzare; per ora puo' valere:
+# 	'' 		: pagina di default, con tutti gli articoli in colonna centrale
+#	'articolo'	: viene visualizzato un solo articolo, indicato dal suo id attraverso la variabile aggiuntiva 'art_id'
+$pagina = $_REQUEST['page']; // contenuto da visualizzare in colonna centrale
+
+# utente:
+$user = $_REQUEST['user']; // utente che si collega
+
+# password dell'utente:
+$userpass = $_REQUEST['userpass']; // password dell'utente
+
+
+#
+# gestisci l'utente
+#
+$elenco_users = get_config_file($filename_users,3);
+$elenco_users = $elenco_users['users'];
+
+if (!empty($user))
+{
+	$user_found = 0;
+	foreach($elenco_users as $userdata)
+	{
+		if ($user == $userdata[$indice_user_name])
+		{
+			$user_found = 1;
+			if (md5($userpass) == $userdata[$indice_user_passwd])
+			{
+				$usergroups = split(',',$userdata[$indice_user_groups]);
+			}
+			else
+			{
+				sleep(1);
+				die('Password errata!');
+			}
+		}
+		
+		if (!$user_found)
+		{
+			die('Utente inesistente!');
+		}
+	}
+}
+else
+{
+	$user = 'guest';	// utente di default
+	$usergroups = array('guests'); // gruppo dell'utente di default
+}
+
+
+# carica i dati relativi a tutte le edizioni, che devono essere disponibili per i moduli nelle colonne sinistra e destra
 $archivio = load_data($filename_tempi,$num_colonne_prestazioni);
 
+
+require_once('layout.php');	// funzioni necessarie a stampare i layout
+
 ?>
+
+
+<script type="text/javascript">
+<!-- 
+
+function azzera_input()
+{
+/*
+Questa funzione, da richiamare in seguito all'evento onLoad del tag <body>, azzera tutte le eventuali precedenti
+selezioni di qualsiasi campo select all'interno del documento.
+*/
+	for (i = 0; i < document.forms.length; i++) {
+		for (ii = 0; ii < document.forms[i].elements.length; i++) {
+		   //alert(document.forms[i].name+' '+document.forms[i].elements[ii].name+' '+document.forms[i].elements[ii].type);
+		   if (document.forms[i].elements[ii].type == 'select-one') {
+			   document.forms[i].elements[ii].value = 0;
+		   }
+		}
+	}
+}
+
+function valida(pform,tipo,check_null)
+{
+// serve a prendere il valore selezionato nella droplist, e ad inviarlo tramite il form alla relativa pagina
+
+	var valore = "";
+
+	if (tipo == 'anno') // tipo='anno'
+	{
+	  valore = pform.anno.value;
+	}
+	else // tipo='nome'
+	{
+		if (tipo == 'id_nome')
+		{
+			valore = pform.id_nome.value;
+		}
+	}
+
+	if (valore  != "0")
+	{
+	  pform.submit();
+	}
+	else if (check_null == 1)
+	{
+	  alert("Devi scegliere prima!")
+	}
+}
+
+//-->
+</script>
+
 
 <table cellpadding="2" cellspacing="2" border="0" style="text-align: left; width: 100%;">
   <tbody>
@@ -31,7 +141,7 @@ $archivio = load_data($filename_tempi,$num_colonne_prestazioni);
 	  
 <?php
 # includi l'intestazione
-include("custom/templates/header.php")	  
+include("custom/templates/header.php");
 ?>
 
       </td>
@@ -45,7 +155,7 @@ include("custom/templates/header.php")
 			
 <?php
 # includi la barra a sinistra
-include("index_left.php")	  
+include("index_left.php");
 ?>
 
             </td>
