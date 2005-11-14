@@ -24,7 +24,7 @@ precipitazioni, con una media annua di 2000 mm., inizia il lungo viaggio delle a
 le sorgenti di piazza Sanità che fanno di Caposele il paese d'Italia più ricco d'acqua;
 a sottolineare questo connubio è anche il nome che prende una parte dell'altopiano,
 precisamente la parte nord, come Foce di Caposele.
-<p>
+<br>
 <div align="center">
 <img id="foto" src="%file_root%custom/album/varie/laceno.jpg" alt="Panorama di Laceno" border="0" width="420">
 </div>
