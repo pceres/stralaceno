@@ -197,7 +197,8 @@ foreach(array(_strlan_(LAN_MENU1,TRUE)=>0,_strlan_(LAN_MENU2,TRUE)=>1,_strlan_(L
 }
 
 echo"<td valign=\"bottom\">";
-echo"<form method=\"post\" action=\"".$_SERVER["PHP_SELF"]."\">";
+$esci_link = "../index.php"; // link seguito quando si clicca sul tab "ESCI" (era $_SERVER["PHP_SELF"])
+echo"<form method=\"post\" action=\"$esci_link\">";	
 echo"<input type=\"submit\" value=\""._strlan_(LAN_MENU7,TRUE)."\" onmouseover=\"javascript:this.className=&quot;menuq_up&quot;;\" onmouseout=\"javascript:this.className=&quot;menuq&quot;;\" class=\"menuq\" />";
 echo"</form>";
 echo"</td>";
