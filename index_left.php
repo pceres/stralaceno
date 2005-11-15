@@ -35,7 +35,7 @@ if (empty($elenco_layout_right)) // se la colonna destra e' vuota, visualizza qu
 ?>
 
 	<div align="left" class="txt_normal"><i>
-		<script language="JavaScript"  type="text/javascript" src="<?php echo $script_abs_path; ?>fkounter5/counter.js.php?id=stralaceno&amp;mode=graphic"></script>
+		<script language="JavaScript"  type="text/javascript" src="<?php echo $script_abs_path; ?>fkounter5/counter.js.php?id=<?php echo $root_prefix; ?>&amp;mode=graphic"></script>
 	</i></div>
 
 <?php
