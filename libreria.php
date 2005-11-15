@@ -162,6 +162,7 @@ $site_abs_path = substr($path,0,$end);
 
 
 #path assoluti
+$root_prefix			= substr($root_prefix,1); // il primo carattere e' "/", scartalo
 $modules_site_path		= $script_abs_path."custom/moduli/";
 $filedir_counter 		= $root_path."custom/contatori/";
 $articles_dir 			= $root_path."custom/articoli/";
@@ -182,6 +183,7 @@ $filename_users			= $config_dir."users.php";	// l'estensione e' php in modo che 
 $tempo_max_grafico = max(array($tempo_max_F,$tempo_max_M));
 $symbol_empty= '<img style="display:inline;" align="middle" height="13" width="13" alt="empty" border="0">';
 $symbol_1_partecipazione= '<img src="'.$site_abs_path.'images/0x2606(star).bmp" style="display:inline;" align="middle" height="13" alt="1a partecipazione" border="0">';
+$symbol_1_partecipazione_best	= '<img src="'.$site_abs_path.'images/0x2606(star_best).bmp" style="display:inline;" align="middle" height="13" alt="1a partecipazione" border="0">';
 $symbol_record  		= '<img src="'.$site_abs_path.'images/0x263A(smiling_face).bmp" style="display:inline;" align="middle" height="13" alt="record personale" border="0">';
 $symbol_record_best		= '<img src="'.$site_abs_path.'images/0x263A(smiling_face_best).bmp" style="display:inline;" align="middle" height="13" alt="record personale assoluto" border="0">';
 $homepage_link 			= '<hr><div align="right"><a class="txt_link" href="'.$script_abs_path.'index.php">Torna alla homepage</a></div>';
@@ -193,8 +195,8 @@ $max_online_articles	= 10;	// numero di articoli pubblicati online
 
 $formattazione = array('style_sfondo_maschi' => $style_sfondo_maschi,'style_sfondo_femmine' => $style_sfondo_femmine);
 $filenames = array('filename_css' => $filename_css,'filename_tempi' => $filename_tempi,'filename_atleti' => $filename_atleti,'filename_organizzatori' => $filename_organizzatori,'filedir_counter' => $filedir_counter,'articles_dir' => $articles_dir,'article_online_file' => $article_online_file,'filename_links' => $filename_links,'filename_albums' => $filename_albums,'filename_users'=>$filename_users);
-$pathnames = array('root_path' => $root_path,'site_abs_path' => $site_abs_path,'script_abs_path' => $script_abs_path,'modules_site_path' => $modules_site_path,'config_dir' => $config_dir,'album_dir' => $album_dir);
-$varie = array('symbol_1_partecipazione' => $symbol_1_partecipazione,'symbol_record' => $symbol_record,'symbol_record_best' => $symbol_record_best);
+$pathnames = array('root_prefix' => $root_prefix,'root_path' => $root_path,'site_abs_path' => $site_abs_path,'script_abs_path' => $script_abs_path,'modules_site_path' => $modules_site_path,'config_dir' => $config_dir,'album_dir' => $album_dir);
+$varie = array('symbol_1_partecipazione' => $symbol_1_partecipazione,'symbol_1_partecipazione_best' => $symbol_1_partecipazione_best,'symbol_record' => $symbol_record,'symbol_record_best' => $symbol_record_best);
 $custom = array('homepage_link' => $homepage_link,'tempo_max_M' => $tempo_max_M,'tempo_max_F' => $tempo_max_F,'tempo_max_grafico' => $tempo_max_grafico,'race_name' => $race_name,'web_title' => $web_title,'web_description' => $web_description,'web_keywords' => $web_keywords,'email_info' => $email_info);
 $admin = array('password_album' => $password_album,'password_config' => $password_config,'password_articoli' => $password_articoli,'password_upload_file' => $password_upload_file,'max_last_editions' => $max_last_editions,'max_online_articles' => $max_online_articles);
 
@@ -265,7 +267,7 @@ extract(indici());
 $legenda=array_unique($legenda);
 
 # ordina la legenda, e lascia solo i simboli noti
-$simboli_noti = array('F.T.M.','Rit.','Squ.',$symbol_1_partecipazione,$symbol_record,$symbol_record_best);
+$simboli_noti = array('F.T.M.','Rit.','Squ.',$symbol_1_partecipazione,$symbol_1_partecipazione_best,$symbol_record,$symbol_record_best);
 $legenda_ordinata=array();
 foreach ($simboli_noti as $simbolo)
 {
@@ -295,6 +297,9 @@ if (count($legenda_ordinata) > 0)
 			break;
 		case $symbol_1_partecipazione:
 			$info = "1<sup>a</sup> partecipazione";
+			break;
+		case $symbol_1_partecipazione_best:
+			$info = "1<sup>a</sup> partecipazione e record personale assoluto";
 			break;
 		case $symbol_record:
 			$info = "record personale";
@@ -443,9 +448,9 @@ for ($i = 1; $i < count($archivio); $i++) {
 				array_push($legenda,$campo);
 			}
 		}
-		if ($mask[$temp] == 'simb') // note con simboli grafici (record personale, prima partecipazione)
+		if ($mask[$temp] == 'simb') // note con simboli grafici (record personale, prima partecipazione,ecc)
 		{
-			if (in_array($campo,array($symbol_record_best,$symbol_record,$symbol_1_partecipazione)))
+			if (in_array($campo,array($symbol_record_best,$symbol_record,$symbol_1_partecipazione,$symbol_1_partecipazione_best)))
 			{
 				array_push($legenda,$campo);
 			}
@@ -694,6 +699,7 @@ $archivio2[0]['simb'] = "<br>";
 $prima_edizione = $archivio[1][$indice_anno];
 $lista_record = array();
 $lista_prestazioni_best = array();
+$lista_prima_prestazione = array();
 for ($i = 1; $i < count($archivio); $i++) {
 	$prestazione = $archivio[$i];
 	
@@ -712,16 +718,21 @@ for ($i = 1; $i < count($archivio); $i++) {
 			$simb = $symbol_empty;
 		}
 		$lista_record[$id] = $tempo;
+		$lista_prima_prestazione[$id] = array($i,$tempo,'unica');
 	}
-	elseif ($lista_record[$id] > $tempo) // se la prestazione in esame presenta un tempo migliore rispetto a quelli precedenti, si tratta di un record personale
+	else
 	{
-		$simb = $symbol_record;
-		$lista_record[$id] = $tempo;
-		$lista_prestazioni_best[$id] = $i; // id della prestazione con record
-	}
-	else 
-	{
-		$simb = $symbol_empty;
+		$lista_prima_prestazione[$id][2]=''; // la persona non ha piu' una unica partecipazione
+		if ($lista_record[$id] > $tempo) // se la prestazione in esame presenta un tempo migliore rispetto a quelli precedenti, si tratta di un record personale
+		{
+			$simb = $symbol_record;
+			$lista_record[$id] = $tempo;
+			$lista_prestazioni_best[$id] = $i; // id della prestazione con record
+		}
+		else 
+		{
+			$simb = $symbol_empty;
+		}
 	}
 	
 	$prestazione['simb'] = $simb;
@@ -729,11 +740,23 @@ for ($i = 1; $i < count($archivio); $i++) {
 	array_push($archivio2,$prestazione);
 	}
 
-// 
+
+// aggiungi simbolo migliore prestazione in assoluto
 foreach ($lista_prestazioni_best as $id => $id_prestazione) 
 {
 	if ($archivio2[$id_prestazione]['simb']==$symbol_record)
+	{
 		$archivio2[$id_prestazione]['simb'] = $symbol_record_best;
+	}
+}
+
+// aggiungi simbolo prima prestazione e contemporaneamente migliore prestazione in assoluto (ci devono essere state almeno 2 partecipazioni, ed un arrivo regolare))
+foreach ($lista_prima_prestazione as $id => $item) 
+{
+	if (($item[2]!=='unica') & ($item[1]==$lista_record[$id]) & ($item[1] < 500))
+	{
+		$archivio2[$item[0]]['simb'] = $symbol_1_partecipazione_best;
+	}
 }
 
 return $archivio2;
