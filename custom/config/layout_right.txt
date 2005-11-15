@@ -51,7 +51,7 @@
 Approfondimenti::
 Amministrazione::admin
 Utente::users
-Login::nobody
+Login::guests
 
 
 #
