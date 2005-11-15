@@ -62,10 +62,10 @@ if (!empty($user))
 			}
 		}
 		
-		if (!$user_found)
-		{
-			die('Utente inesistente!');
-		}
+	}
+	if (!$user_found)
+	{
+		die('Utente inesistente!');
 	}
 }
 else
