@@ -93,7 +93,7 @@ Albums attuali:<br>
 Visualizza tutte le foto disponibili per ciascun album:<br>
 <form name="debug_album" action="<?php echo $script_abs_path; ?>album.php" method="post">
 <?php
-$elenco_foto = get_config_file($filename_albums,3);
+$elenco_foto = get_config_file($filename_albums,4);
 
 // verifica se ci sono directory nascoste (cioe' esistono in $album_dir, e non c'e' la rispettina riga [nome_album] nel file di configurazione)
 if ($dh = opendir($album_dir)) 
