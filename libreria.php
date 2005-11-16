@@ -22,6 +22,8 @@ $num_colonne_prestazioni = 6;
 
 $indice_info = 'info'; # viene aggiunta una colonna di informazioni relative all'atleta
 
+$indici = array('indice_id' => $indice_id,'indice_nome' => $indice_nome,'indice_posiz' => $indice_posiz,'indice_tempo' => $indice_tempo,'indice_anno' => $indice_anno,'indice_nota' => $indice_nota,'num_colonne_prestazioni' => $num_colonne_prestazioni,'indice_info' => $indice_info);
+
 
 # formato file di archivio 'atleti_laceno.csv'
 $indice2_id 		= 0;
@@ -33,6 +35,8 @@ $indice2_peso 		= 5;
 $indice2_link		= 6;
 
 $num_colonne_atleti = 7;
+
+$indici2 = array('indice2_id' => $indice2_id,'indice2_nome' => $indice2_nome,'indice2_sesso' => $indice2_sesso,'indice2_titolo' => $indice2_titolo,'indice2_data_nascita' => $indice2_data_nascita,'indice2_peso' => $indice2_peso,'indice2_link' => $indice2_link,'num_colonne_atleti'  => $num_colonne_atleti);
 
 
 # formato file di archivio 'organizzatori_laceno.csv'
@@ -46,6 +50,27 @@ $indice3_nota  		= 6;
 
 $num_colonne_organizzatori = 7;
 
+$indici3 = array('indice3_id' => $indice3_id,'indice3_nome' => $indice3_nome,'indice3_sesso' => $indice3_sesso,'indice3_incarico' => $indice3_incarico,'indice3_anno' => $indice3_anno,'indice3_link' => $indice3_link,'indice3_nota' => $indice3_nota,'num_colonne_organizzatori' => $num_colonne_organizzatori);
+
+
+# formato file di configurazione 'layout_left.txt'
+$indice_layout_name = 0;
+$indice_layout_caption = 1;
+$indice_layout_type = 2;
+$indice_layout_data = 3;
+$indice_layout_msg_disabled = 4;
+$indice_layout_enabled_groups = 5;
+
+$indici_layout = array('indice_layout_name' => $indice_layout_name, 'indice_layout_caption' => $indice_layout_caption,'indice_layout_type' => $indice_layout_type,'indice_layout_data' => $indice_layout_data,'indice_layout_msg_disabled'=>$indice_layout_msg_disabled,'indice_layout_enabled_groups'=>$indice_layout_enabled_groups);
+
+
+# formato file di configurazione $filename_users
+$indice_user_name = 0;
+$indice_user_passwd = 1;
+$indice_user_groups = 2;
+
+$indici_user = array('indice_user_name'=>$indice_user_name,'indice_user_passwd'=>$indice_user_passwd,'indice_user_groups'=>$indice_user_groups);
+
 
 #variabili di formattazione
 $style_sfondo_maschi = "rgb(249, 255, 255)";
@@ -54,36 +79,36 @@ $style_sfondo_femmine = "rgb(255, 234, 234)";
 
 // determina la directory (l'ultimo livello) contenente il sito (deve iniziare con $root_prefix, ad es., se $root_prefix=="sito", "sito2" e' ok)
 $path = $_SERVER['SCRIPT_FILENAME'];
-$root_prefix = "/".$root_prefix;
+$root_prefix_work = "/".$root_prefix;
 
 // determina l'ultima occorrenza di root_prefix
-$temp=strpos($path,$root_prefix);
+$temp=strpos($path,$root_prefix_work);
 if (strlen($temp."a")==1) // verifica che root_prefix sia presente nel path
 {
 	die("Errore: il path della radice del sito ($path) sul server non contiene '$root_prefix' ");
 }
 do {
 	$path = substr($path,$temp);
-	$temp=strpos($path,$root_prefix,1)."a";
+	$temp=strpos($path,$root_prefix_work,1)."a";
 } while (strlen($temp)>1);
 // taglia la parte restante del path fino al simbolo '/'
-$path = substr($path,strpos($path,$root_prefix));
-$root_prefix = substr($path,0,strpos($path,"/",1));
+$path = substr($path,strpos($path,$root_prefix_work));
+$root_prefix_work = substr($path,0,strpos($path,"/",1));
 
 // determina il path assoluto nel filesystem del server (serve quando si accede direttamente ai file per leggere o scrivere)
 $path = $_SERVER['SCRIPT_FILENAME'];
 $end = 0;
 do {
-	$test = strpos($path,$root_prefix,$end);
+	$test = strpos($path,$root_prefix_work,$end);
 	if ($test)
 	{
-		$end = $test+strlen($root_prefix)+1;
+		$end = $test+strlen($root_prefix_work)+1;
 	}
 } while ($test);
 $root_path = substr($path,0,$end);
 
 // path assoluto da usare per gli script php
-$start = strpos($_SERVER['SCRIPT_NAME'],$root_prefix);
+$start = strpos($_SERVER['SCRIPT_NAME'],$root_prefix_work);
 if (strlen($start)>0)
 {
 	$path = $_SERVER['SCRIPT_NAME'];
@@ -94,10 +119,10 @@ else
 }
 $end = 0;
 do {
-	$test = strpos($path,$root_prefix,$end);
+	$test = strpos($path,$root_prefix_work,$end);
 	if (strlen($test."a")>1)
 	{
-		$end = $test+strlen($root_prefix)+1;
+		$end = $test+strlen($root_prefix_work)+1;
 	}
 } while (strlen($test."a")>1);
 $script_abs_path = substr($path,0,$end);
@@ -127,10 +152,10 @@ else
 }	
 $end = 0;
 do {
-	$test = strpos($path,$root_prefix,$end);
+	$test = strpos($path,$root_prefix_work,$end);
 	if (strlen($test."a")>1)
 	{
-		$end = $test+strlen($root_prefix)+1;
+		$end = $test+strlen($root_prefix_work)+1;
 	}
 } while (strlen($test."a")>1);
 $site_abs_path = substr($path,0,$end);
@@ -151,13 +176,15 @@ $filename_organizzatori	= $root_path."custom/dati/".$nome_file_organizzatori;
 $article_online_file	= $articles_dir."online.txt";
 $filename_links			= $config_dir."links.txt";
 $filename_albums		= $config_dir."albums.txt";
+$filename_users			= $config_dir."users.php";	// l'estensione e' php in modo che la richiesta della pagina non permetta comunque di visualizzare i dati
 
 #varie
 $tempo_max_grafico = max(array($tempo_max_F,$tempo_max_M));
 $symbol_empty= '<img style="display:inline;" align="middle" height="13" width="13" alt="empty" border="0">';
 $symbol_1_partecipazione= '<img src="'.$site_abs_path.'images/0x2606(star).bmp" style="display:inline;" align="middle" height="13" alt="1a partecipazione" border="0">';
+$symbol_1_partecipazione_best	= '<img src="'.$site_abs_path.'images/0x2606(star_best).bmp" style="display:inline;" align="middle" height="13" alt="1a partecipazione" border="0">';
 $symbol_record  		= '<img src="'.$site_abs_path.'images/0x263A(smiling_face).bmp" style="display:inline;" align="middle" height="13" alt="record personale" border="0">';
-$symbol_record_best		='<img src="'.$site_abs_path.'images/0x263A(smiling_face_best).bmp" style="display:inline;" align="middle" height="13" alt="record personale assoluto" border="0">';
+$symbol_record_best		= '<img src="'.$site_abs_path.'images/0x263A(smiling_face_best).bmp" style="display:inline;" align="middle" height="13" alt="record personale assoluto" border="0">';
 $homepage_link 			= '<hr><div align="right"><a class="txt_link" href="'.$script_abs_path.'index.php">Torna alla homepage</a></div>';
 
 #admin
@@ -165,19 +192,14 @@ $max_last_editions	= 3;	// numero di ultime edizioni in colonna laterale
 $max_online_articles	= 10;	// numero di articoli pubblicati online
 
 
-#campi files csv
-$indici = array('indice_id' => $indice_id,'indice_nome' => $indice_nome,'indice_posiz' => $indice_posiz,'indice_tempo' => $indice_tempo,'indice_anno' => $indice_anno,'indice_nota' => $indice_nota,'num_colonne_prestazioni' => $num_colonne_prestazioni,'indice_info' => $indice_info);
-$indici2 = array('indice2_id' => $indice2_id,'indice2_nome' => $indice2_nome,'indice2_sesso' => $indice2_sesso,'indice2_titolo' => $indice2_titolo,'indice2_data_nascita' => $indice2_data_nascita,'indice2_peso' => $indice2_peso,'indice2_link' => $indice2_link,'num_colonne_atleti'  => $num_colonne_atleti);
-$indici3 = array('indice3_id' => $indice3_id,'indice3_nome' => $indice3_nome,'indice3_sesso' => $indice3_sesso,'indice3_incarico' => $indice3_incarico,'indice3_anno' => $indice3_anno,'indice3_link' => $indice3_link,'indice3_nota' => $indice3_nota,'num_colonne_organizzatori' => $num_colonne_organizzatori);
-
 $formattazione = array('style_sfondo_maschi' => $style_sfondo_maschi,'style_sfondo_femmine' => $style_sfondo_femmine);
-$filenames = array('filename_css' => $filename_css,'filename_tempi' => $filename_tempi,'filename_atleti' => $filename_atleti,'filename_organizzatori' => $filename_organizzatori,'filedir_counter' => $filedir_counter,'articles_dir' => $articles_dir,'article_online_file' => $article_online_file,'filename_links' => $filename_links,'filename_albums' => $filename_albums);
-$pathnames = array('root_path' => $root_path,'site_abs_path' => $site_abs_path,'script_abs_path' => $script_abs_path,'modules_site_path' => $modules_site_path,'config_dir' => $config_dir,'album_dir' => $album_dir);
-$varie = array('symbol_1_partecipazione' => $symbol_1_partecipazione,'symbol_record' => $symbol_record,'symbol_record_best' => $symbol_record_best);
+$filenames = array('filename_css' => $filename_css,'filename_tempi' => $filename_tempi,'filename_atleti' => $filename_atleti,'filename_organizzatori' => $filename_organizzatori,'filedir_counter' => $filedir_counter,'articles_dir' => $articles_dir,'article_online_file' => $article_online_file,'filename_links' => $filename_links,'filename_albums' => $filename_albums,'filename_users'=>$filename_users);
+$pathnames = array('root_prefix' => $root_prefix,'root_path' => $root_path,'site_abs_path' => $site_abs_path,'script_abs_path' => $script_abs_path,'modules_site_path' => $modules_site_path,'config_dir' => $config_dir,'album_dir' => $album_dir);
+$varie = array('symbol_1_partecipazione' => $symbol_1_partecipazione,'symbol_1_partecipazione_best' => $symbol_1_partecipazione_best,'symbol_record' => $symbol_record,'symbol_record_best' => $symbol_record_best);
 $custom = array('homepage_link' => $homepage_link,'tempo_max_M' => $tempo_max_M,'tempo_max_F' => $tempo_max_F,'tempo_max_grafico' => $tempo_max_grafico,'race_name' => $race_name,'web_title' => $web_title,'web_description' => $web_description,'web_keywords' => $web_keywords,'email_info' => $email_info);
 $admin = array('password_album' => $password_album,'password_config' => $password_config,'password_articoli' => $password_articoli,'password_upload_file' => $password_upload_file,'max_last_editions' => $max_last_editions,'max_online_articles' => $max_online_articles);
 
-return array_merge($indici,$indici2,$indici3,$formattazione,$filenames,$pathnames,$varie,$admin,$custom);
+return array_merge($indici,$indici2,$indici3,$indici_layout,$indici_user,$formattazione,$filenames,$pathnames,$varie,$admin,$custom);
 }
 
 function load_data($filename,$num_colonne) {
@@ -244,7 +266,7 @@ extract(indici());
 $legenda=array_unique($legenda);
 
 # ordina la legenda, e lascia solo i simboli noti
-$simboli_noti = array('F.T.M.','Rit.','Squ.',$symbol_1_partecipazione,$symbol_record,$symbol_record_best);
+$simboli_noti = array('F.T.M.','Rit.','Squ.',$symbol_1_partecipazione,$symbol_1_partecipazione_best,$symbol_record,$symbol_record_best);
 $legenda_ordinata=array();
 foreach ($simboli_noti as $simbolo)
 {
@@ -274,6 +296,9 @@ if (count($legenda_ordinata) > 0)
 			break;
 		case $symbol_1_partecipazione:
 			$info = "1<sup>a</sup> partecipazione";
+			break;
+		case $symbol_1_partecipazione_best:
+			$info = "1<sup>a</sup> partecipazione e record personale assoluto";
 			break;
 		case $symbol_record:
 			$info = "record personale";
@@ -422,9 +447,9 @@ for ($i = 1; $i < count($archivio); $i++) {
 				array_push($legenda,$campo);
 			}
 		}
-		if ($mask[$temp] == 'simb') // note con simboli grafici (record personale, prima partecipazione)
+		if ($mask[$temp] == 'simb') // note con simboli grafici (record personale, prima partecipazione,ecc)
 		{
-			if (in_array($campo,array($symbol_record_best,$symbol_record,$symbol_1_partecipazione)))
+			if (in_array($campo,array($symbol_record_best,$symbol_record,$symbol_1_partecipazione,$symbol_1_partecipazione_best)))
 			{
 				array_push($legenda,$campo);
 			}
@@ -673,6 +698,7 @@ $archivio2[0]['simb'] = "<br>";
 $prima_edizione = $archivio[1][$indice_anno];
 $lista_record = array();
 $lista_prestazioni_best = array();
+$lista_prima_prestazione = array();
 for ($i = 1; $i < count($archivio); $i++) {
 	$prestazione = $archivio[$i];
 	
@@ -691,16 +717,21 @@ for ($i = 1; $i < count($archivio); $i++) {
 			$simb = $symbol_empty;
 		}
 		$lista_record[$id] = $tempo;
+		$lista_prima_prestazione[$id] = array($i,$tempo,'unica');
 	}
-	elseif ($lista_record[$id] > $tempo) // se la prestazione in esame presenta un tempo migliore rispetto a quelli precedenti, si tratta di un record personale
+	else
 	{
-		$simb = $symbol_record;
-		$lista_record[$id] = $tempo;
-		$lista_prestazioni_best[$id] = $i; // id della prestazione con record
-	}
-	else 
-	{
-		$simb = $symbol_empty;
+		$lista_prima_prestazione[$id][2]=''; // la persona non ha piu' una unica partecipazione
+		if ($lista_record[$id] > $tempo) // se la prestazione in esame presenta un tempo migliore rispetto a quelli precedenti, si tratta di un record personale
+		{
+			$simb = $symbol_record;
+			$lista_record[$id] = $tempo;
+			$lista_prestazioni_best[$id] = $i; // id della prestazione con record
+		}
+		else 
+		{
+			$simb = $symbol_empty;
+		}
 	}
 	
 	$prestazione['simb'] = $simb;
@@ -708,11 +739,23 @@ for ($i = 1; $i < count($archivio); $i++) {
 	array_push($archivio2,$prestazione);
 	}
 
-// 
+
+// aggiungi simbolo migliore prestazione in assoluto
 foreach ($lista_prestazioni_best as $id => $id_prestazione) 
 {
 	if ($archivio2[$id_prestazione]['simb']==$symbol_record)
+	{
 		$archivio2[$id_prestazione]['simb'] = $symbol_record_best;
+	}
+}
+
+// aggiungi simbolo prima prestazione e contemporaneamente migliore prestazione in assoluto (ci devono essere state almeno 2 partecipazioni, ed un arrivo regolare))
+foreach ($lista_prima_prestazione as $id => $item) 
+{
+	if (($item[2]!=='unica') & ($item[1]==$lista_record[$id]) & ($item[1] < 500))
+	{
+		$archivio2[$item[0]]['simb'] = $symbol_1_partecipazione_best;
+	}
 }
 
 return $archivio2;
@@ -919,9 +962,6 @@ function show_article($art_data,$mode,$link)
 	// $mode=('full','abstract')
 	// $link : usato in modo 'abstract', e' il link cui devono puntare i puntini alla fine dell'articolo
 
-	# dichiara variabili
-#	extract(indici());
-	
 	$abstract_lines = 3; // numero di linee da pubblicare nella modalita' abstract
 
 	echo "<tr><td>\n";
@@ -944,9 +984,6 @@ function show_article($art_data,$mode,$link)
 	
 	foreach ($testo_articolo as $line)
 	{
-		#$template = array("%script_root%","%file_root%");
-		#$effective = array($script_abs_path,$site_abs_path);
-		#echo str_replace($template, $effective, $line);
 		echo template_to_effective($line);
 	}
 	
@@ -1080,8 +1117,10 @@ function get_link_list($link_file)
 }
 
 
-function get_config_file($conf_file,$expected_items)
+function get_config_file($conf_file,$expected_items = 1000)
 {
+// se non si specifica $expected_items, si assume qualsiasi lunghezza
+
 	$bulk = file($conf_file);
 	
 	$title = 'default';
@@ -1171,6 +1210,28 @@ function show_template($template_file)
 		
 	}
 }
+
+
+
+function group_match($usergroups,$enabled_groups)
+{
+// enabled_group vuoto -> abilitato
+if (empty($enabled_groups[0]))
+{
+	return true;
+}
+
+foreach($enabled_groups as $enabled_group)
+{
+	if (in_array($enabled_group,$usergroups))
+	{
+		return true;
+	}
+}
+return false;
+
+} // end function group_match($usergroups,$enabled_groups)
+
 
 
 //Page properties definitions
