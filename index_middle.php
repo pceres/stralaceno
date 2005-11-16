@@ -4,7 +4,7 @@ inizio colonna centrale
 <?php
 	$pagina = $_REQUEST['page']; // contenuto da visualizzare in colonna centrale
 ?>
-<table class="frame_delimiter"><tbody>	
+<table class="frame_delimiter" width="100%"><tbody>	
 
 <?php
 
