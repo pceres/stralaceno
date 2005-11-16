@@ -19,7 +19,13 @@ if (empty($filename))
 	die("File inesistente!");
 }
 
-$enabled_config_files = array("pregfas.txt","links.txt","lettere_stralaceno.txt"); // elenco dei file di configurazione che e' possibile modificare 
+$enabled_config_files = array(
+	"links.txt",				// link visualizzati nel modulo "Link"
+	"pregfas.txt",				// pubblico registro dei fanfaroni della stralaceno (modulo_custom)
+	"lettere_stralaceno.txt",	// lettere alla Stralaceno (modulo_custom)
+	"layout_left.txt",			// layout della colonna sinistra in homepage
+	"layout_right.txt"			// layout della colonna destra in homepage
+	); // elenco dei file di configurazione che e' possibile modificare 
 if (!in_array($filename,$enabled_config_files))
 {
 	die("Non e' possibile modificare il file $filename! Contattare il webmaster.");
