@@ -1,4 +1,6 @@
-albo_d_oro:1
-homepage:4
 admin_index:1
 admin_articoli:1
+homepage:5
+classifica_anno:1
+classifica_partecipazioni:1
+albo_d_oro:2
