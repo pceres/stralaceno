@@ -266,8 +266,9 @@ else
 			{
 				echo "\t\t\t\t<span style=\"white-space: nowrap;\"><a class=\"txt_link\" href=\"album.php?anno=".$elenco_anni[$i]."\"> \n";
 				echo "\t\t\t\t   <img src=\"".$site_abs_path."images/fotocamera-small.gif\" width=\"15\" border=\"0\" alt=\"foto_".$elenco_anni[$i]."\">\n";
-				echo "\t\t\t\t</a></span><br>\n\n";
+				echo "\t\t\t\t</a></span>";
 			}
+			echo "\t\t\t\t<br>\n\n";
 		}
 ?>
 			</td></tr>
