@@ -4,7 +4,7 @@
 // variabili in input:
 //
 // $archivio 			: archivio tempi (generato da load_data())
-// $user, $usergroups		: utente connesso e relativi gruppi di appartenenza
+// $login				: dati utente connesso e relativi gruppi di appartenenza
 // $pagina				: argomento di index che specifica il tipo di pagina da visualizzare
 
 
@@ -15,7 +15,6 @@ $elenco_layout_left = get_config_file($filename_layout_left,6);
 // carica layout colonna destra
 $filename_layout_right = $config_dir.'layout_right.txt';
 $elenco_layout_right = get_config_file($filename_layout_right,6);
-
 
 //
 // carica i dati necessari ai vari moduli:
@@ -37,9 +36,90 @@ foreach ($elenco_layout_right['elenco_moduli'] as $proprieta_modulo)
 }
 unset($elenco_layout_right['elenco_moduli']);
 
+// aggiungi eventuali script
+$flag_script_Login = 0;
+$flag_script_droplist_XXX = 0;
+foreach (array_merge($elenco_layout_left,$elenco_layout_right) as $nome_modulo => $dati_modulo)
+{
+	// gestisci blocchi
+	switch ($nome_modulo)
+	{
+	case 'Login':
+		if (!$flag_script_Login)
+		{
+			echo "<script type=\"text/javaScript\" src=\"".$site_abs_path."admin/md5.js\"></script>\n";
+			$flag_script_Login = 1;
+		}
+		break; // Login
+		
+	default:
+		//
+	}
+	
+	// gestisci sottoblocchi
+	foreach ($dati_modulo as $item_data)
+	{
+		//echo $item_data[$indice_layout_name]."<br>\n";
+		switch ($item_data[$indice_layout_name])
+		{
+		case 'droplist_atleti':
+		case 'droplist_edizioni':
+			if (!$flag_script_droplist_XXX)
+			{
+?>
+
+<script type="text/javascript">
+<!-- 
+
+function valida(pform,tipo,check_null)
+{
+// serve a prendere il valore selezionato nella droplist, e ad inviarlo tramite il form alla relativa pagina
+
+	var valore = "";
+
+	if (tipo == 'anno') // tipo='anno'
+	{
+	  valore = pform.anno.value;
+	}
+	else // tipo='nome'
+	{
+		if (tipo == 'id_nome')
+		{
+			valore = pform.id_nome.value;
+		}
+	}
+
+	if (valore  != "0")
+	{
+	  pform.submit();
+	}
+	else if (check_null == 1)
+	{
+	  alert("Devi scegliere prima!")
+	}
+}
+
+//-->
+</script>
+
+<?php
+				$flag_script_droplist_XXX = 1;
+			} // if !$flag_script_droplist_XXX
+			break; // droplist_XXX
+			
+		default:
+			//
+		}
+		
+	}
+}
+
+
+
 $layout_data['archivio'] = $archivio; // archivio tempi;
 
-$layout_data['user'] = array('user'=>$user,'usergroups'=>$usergroups); // utente;
+//$layout_data['user'] = array('user'=>$username,'usergroups'=>$usergroups,'status'=>$login['status']); // utente;
+$layout_data['user'] = $login; // utente;
 
 // Link::
 $link_list = get_link_list($filename_links); 
@@ -266,8 +346,9 @@ else
 			{
 				echo "\t\t\t\t<span style=\"white-space: nowrap;\"><a class=\"txt_link\" href=\"album.php?anno=".$elenco_anni[$i]."\"> \n";
 				echo "\t\t\t\t   <img src=\"".$site_abs_path."images/fotocamera-small.gif\" width=\"15\" border=\"0\" alt=\"foto_".$elenco_anni[$i]."\">\n";
-				echo "\t\t\t\t</a></span><br>\n\n";
+				echo "\t\t\t\t</a></span>";
 			}
+			echo "\t\t\t\t<br>\n\n";
 		}
 ?>
 			</td></tr>
@@ -371,9 +452,8 @@ case 'Amministrazione':
 
 case 'Utente':
 	// dati esterni
-	$user = $layout_data['user']['user'];
+	$user = $layout_data['user']['username'];
 	$usergroups = $layout_data['user']['usergroups'];
-
 ?>
 	<tr><td><table class="column_group"><tbody>
 			<tr><td colspan="2">
@@ -408,7 +488,7 @@ echo $user_msg;
 			</tr>
 			
 <?php
-		$layout_item_array = array("index.php","logout","Logout");
+		$layout_item_array = array("index.php?action=logout","logout","Logout");
 		$virtual_item = array($indice_layout_type => "raw",$indice_layout_data => $layout_item_array);
 		show_layout_block_item($layout_block,$virtual_item,$layout_data);
 ?>
@@ -419,29 +499,93 @@ echo $user_msg;
 
 case 'Login':
 	// dati esterni
-	$user = $layout_data['user']['user'];
+	$username = $layout_data['user']['username'];
 	$usergroups = $layout_data['user']['usergroups'];
+	$login_status = $layout_data['user']['status'];
 
+	$challenge = '';
+	$challenge_id = '';
+	get_challenge($challenge_id,$challenge);
 ?>
+
+	</tbody></table>
+	<br>
+	<table class="frame_delimiter" width="100%"><tbody>	
+
 	<tr><td><table class="column_group"><tbody>
 			<tr><td colspan="2">
-				<span class="titolo_colonna">Registrati:</span>
+				<span class="txt_link">Registrati:</span>
 			</td></tr>
 			<tr style="vertical-align: baseline">
 				<td>&nbsp;</td>
 				<td width="100%">
 					<div class="txt_link">
-					<form action="index.php" method="get">
-						User:<input name="user" type="edit"><br>
-						Password:<input name="userpass" type="passwd">
-						<button type="submit">Vai</button>
-					</form>
+						
+<?php
+if (($username === 'guest') | (!in_array($login_status,array('none','ok_form','ok_cookie'))))
+{
+
+	if (!in_array($login_status,array('none','ok_form','ok_cookie')))
+	{
+		switch ($login_status)
+		{
+		case 'none':
+		case 'ok_form':
+		case 'ok_cookie':
+			// non visualizza niente
+			break;
+			
+		case 'error_wrong_username':
+			echo "Username errato<br>";
+			break;
+			
+		case 'error_wrong_userpass':
+			echo "Password errata<br>";
+			break;
+			
+		case 'error_wrong_challenge':
+		case 'error_wrong_IP':
+			die("Problemi! Contattare l'amministratore!");
+			break;
+			
+		default:
+			die('Todo: messaggio sconosciuto!');
+		}
+	}
+?>
+						<form action="index.php" method="post" onSubmit="cripta_campo_del_form_con_challenge(this,'userpass','<?php echo $challenge ?>')">
+							
+							user:<input name="username" type="text" />
+							<br>
+							password:<input name="userpass" type="password" />
+							<br>
+							<input name="action" type="hidden" value="login" />
+							<input name="challenge" type="hidden" value="<?php echo $challenge ?>" />
+							<input name="challenge_id" type="hidden" value="<?php echo $challenge_id ?>" />
+							<input type="submit" value="Login" />
+						</form>
+						
+						<!--form action="index.php" method="post">
+							<input name="action" type="hidden" value="logout" />
+							<input type="submit" value="Logout" />
+						</form-->
+						
 					</div>
 				</td>
 			</tr>	
 	</tbody></table></td></tr>
 <?php
-	
+	} // end visualizzazione form login
+	else
+	{
+?>
+						<form action="index.php" method="post">
+							<input name="action" type="hidden" value="logout" />
+							<input type="submit" value="Logout" />
+						</form>
+
+<?php
+	}
 	break;
 
 default:
