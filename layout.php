@@ -4,7 +4,7 @@
 // variabili in input:
 //
 // $archivio 			: archivio tempi (generato da load_data())
-// $user, $usergroups		: utente connesso e relativi gruppi di appartenenza
+// $login				: dati utente connesso e relativi gruppi di appartenenza
 // $pagina				: argomento di index che specifica il tipo di pagina da visualizzare
 
 
@@ -118,7 +118,8 @@ function valida(pform,tipo,check_null)
 
 $layout_data['archivio'] = $archivio; // archivio tempi;
 
-$layout_data['user'] = array('user'=>$user,'usergroups'=>$usergroups); // utente;
+//$layout_data['user'] = array('user'=>$username,'usergroups'=>$usergroups,'status'=>$login['status']); // utente;
+$layout_data['user'] = $login; // utente;
 
 // Link::
 $link_list = get_link_list($filename_links); 
@@ -451,9 +452,8 @@ case 'Amministrazione':
 
 case 'Utente':
 	// dati esterni
-	$user = $layout_data['user']['user'];
+	$user = $layout_data['user']['username'];
 	$usergroups = $layout_data['user']['usergroups'];
-
 ?>
 	<tr><td><table class="column_group"><tbody>
 			<tr><td colspan="2">
@@ -488,7 +488,7 @@ echo $user_msg;
 			</tr>
 			
 <?php
-		$layout_item_array = array("index.php","logout","Logout");
+		$layout_item_array = array("index.php?action=logout","logout","Logout");
 		$virtual_item = array($indice_layout_type => "raw",$indice_layout_data => $layout_item_array);
 		show_layout_block_item($layout_block,$virtual_item,$layout_data);
 ?>
@@ -499,14 +499,18 @@ echo $user_msg;
 
 case 'Login':
 	// dati esterni
-	$user = $layout_data['user']['user'];
+	$username = $layout_data['user']['username'];
 	$usergroups = $layout_data['user']['usergroups'];
+	$login_status = $layout_data['user']['status'];
 
+	$challenge = '';
+	$challenge_id = '';
+	get_challenge($challenge_id,$challenge);
 ?>
 
 	</tbody></table>
 	<br>
-	<table class="frame_delimiter"><tbody>	
+	<table class="frame_delimiter" width="100%"><tbody>	
 
 	<tr><td><table class="column_group"><tbody>
 			<tr><td colspan="2">
@@ -516,17 +520,72 @@ case 'Login':
 				<td>&nbsp;</td>
 				<td width="100%">
 					<div class="txt_link">
-					<form action="index.php" method="post" onSubmit="cripta_campo_del_form(this,'userpass')">
-						User:<input name="user" type="text"><br>
-						Password:<input name="userpass" type="password">
-						<button type="submit">Vai</button>
-					</form>
+						
+<?php
+if (($username === 'guest') | (!in_array($login_status,array('none','ok_form','ok_cookie'))))
+{
+
+	if (!in_array($login_status,array('none','ok_form','ok_cookie')))
+	{
+		switch ($login_status)
+		{
+		case 'none':
+		case 'ok_form':
+		case 'ok_cookie':
+			// non visualizza niente
+			break;
+			
+		case 'error_wrong_username':
+			echo "Username errato<br>";
+			break;
+			
+		case 'error_wrong_userpass':
+			echo "Password errata<br>";
+			break;
+			
+		case 'error_wrong_challenge':
+		case 'error_wrong_IP':
+			die("Problemi! Contattare l'amministratore!");
+			break;
+			
+		default:
+			die('Todo: messaggio sconosciuto!');
+		}
+	}
+?>
+						<form action="index.php" method="post" onSubmit="cripta_campo_del_form_con_challenge(this,'userpass','<?php echo $challenge ?>')">
+							
+							user:<input name="username" type="text" />
+							<br>
+							password:<input name="userpass" type="password" />
+							<br>
+							<input name="action" type="hidden" value="login" />
+							<input name="challenge" type="hidden" value="<?php echo $challenge ?>" />
+							<input name="challenge_id" type="hidden" value="<?php echo $challenge_id ?>" />
+							<input type="submit" value="Login" />
+						</form>
+						
+						<!--form action="index.php" method="post">
+							<input name="action" type="hidden" value="logout" />
+							<input type="submit" value="Logout" />
+						</form-->
+						
 					</div>
 				</td>
 			</tr>	
 	</tbody></table></td></tr>
 <?php
-	
+	} // end visualizzazione form login
+	else
+	{
+?>
+						<form action="index.php" method="post">
+							<input name="action" type="hidden" value="logout" />
+							<input type="submit" value="Logout" />
+						</form>
+
+<?php
+	}
 	break;
 
 default:
