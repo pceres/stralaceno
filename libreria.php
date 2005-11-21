@@ -8,7 +8,7 @@ extract(indici());
 function indici() {
 
 # carica le variabili custom (quelle che sono specifiche di ogni sito web, es. titolo, e-mail, ecc)
-require("custom/config/custom.txt");
+require("custom/config/custom.php");
 
 # formato file di archivio 'tempi_laceno.csv'
 $indice_id    = 0;
@@ -79,36 +79,36 @@ $style_sfondo_femmine = "rgb(255, 234, 234)";
 
 // determina la directory (l'ultimo livello) contenente il sito (deve iniziare con $root_prefix, ad es., se $root_prefix=="sito", "sito2" e' ok)
 $path = $_SERVER['SCRIPT_FILENAME'];
-$root_prefix = "/".$root_prefix;
+$root_prefix_work = "/".$root_prefix;
 
 // determina l'ultima occorrenza di root_prefix
-$temp=strpos($path,$root_prefix);
+$temp=strpos($path,$root_prefix_work);
 if (strlen($temp."a")==1) // verifica che root_prefix sia presente nel path
 {
 	die("Errore: il path della radice del sito ($path) sul server non contiene '$root_prefix' ");
 }
 do {
 	$path = substr($path,$temp);
-	$temp=strpos($path,$root_prefix,1)."a";
+	$temp=strpos($path,$root_prefix_work,1)."a";
 } while (strlen($temp)>1);
 // taglia la parte restante del path fino al simbolo '/'
-$path = substr($path,strpos($path,$root_prefix));
-$root_prefix = substr($path,0,strpos($path,"/",1));
+$path = substr($path,strpos($path,$root_prefix_work));
+$root_prefix_work = substr($path,0,strpos($path,"/",1));
 
 // determina il path assoluto nel filesystem del server (serve quando si accede direttamente ai file per leggere o scrivere)
 $path = $_SERVER['SCRIPT_FILENAME'];
 $end = 0;
 do {
-	$test = strpos($path,$root_prefix,$end);
+	$test = strpos($path,$root_prefix_work,$end);
 	if ($test)
 	{
-		$end = $test+strlen($root_prefix)+1;
+		$end = $test+strlen($root_prefix_work)+1;
 	}
 } while ($test);
 $root_path = substr($path,0,$end);
 
 // path assoluto da usare per gli script php
-$start = strpos($_SERVER['SCRIPT_NAME'],$root_prefix);
+$start = strpos($_SERVER['SCRIPT_NAME'],$root_prefix_work);
 if (strlen($start)>0)
 {
 	$path = $_SERVER['SCRIPT_NAME'];
@@ -119,10 +119,10 @@ else
 }
 $end = 0;
 do {
-	$test = strpos($path,$root_prefix,$end);
+	$test = strpos($path,$root_prefix_work,$end);
 	if (strlen($test."a")>1)
 	{
-		$end = $test+strlen($root_prefix)+1;
+		$end = $test+strlen($root_prefix_work)+1;
 	}
 } while (strlen($test."a")>1);
 $script_abs_path = substr($path,0,$end);
@@ -152,17 +152,16 @@ else
 }	
 $end = 0;
 do {
-	$test = strpos($path,$root_prefix,$end);
+	$test = strpos($path,$root_prefix_work,$end);
 	if (strlen($test."a")>1)
 	{
-		$end = $test+strlen($root_prefix)+1;
+		$end = $test+strlen($root_prefix_work)+1;
 	}
 } while (strlen($test."a")>1);
 $site_abs_path = substr($path,0,$end);
 
 
 #path assoluti
-$root_prefix			= substr($root_prefix,1); // il primo carattere e' "/", scartalo
 $modules_site_path		= $script_abs_path."custom/moduli/";
 $filedir_counter 		= $root_path."custom/contatori/";
 $articles_dir 			= $root_path."custom/articoli/";
