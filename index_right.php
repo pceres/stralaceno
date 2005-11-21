@@ -28,7 +28,7 @@ foreach($elenco_layout_right as $riquadro => $list_items)
 
 	<div align="right" class="txt_normal"><i>
 		<br>
-		<script language="JavaScript"  type="text/javascript" src="<?php echo $script_abs_path; ?>fkounter5/counter.js.php?id=stralaceno&amp;mode=graphic"></script>
+		<script language="JavaScript"  type="text/javascript" src="<?php echo $script_abs_path; ?>fkounter5/counter.js.php?id=<?php echo $root_prefix; ?>&amp;mode=graphic"></script>
 	</i></div>
 
 <!-- 
