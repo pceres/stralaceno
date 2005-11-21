@@ -506,7 +506,6 @@ case 'Login':
 
 	</tbody></table>
 	<br>
-	<?php print_r($layout_data['moduli_right']); ?>
 	<table class="frame_delimiter"><tbody>	
 
 	<tr><td><table class="column_group"><tbody>
