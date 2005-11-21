@@ -8,6 +8,14 @@ require_once('libreria.php');
 # dichiara variabili
 extract(indici());
 
+/*
+questa libreria esamina i cookies o i parametri http (eventualmente) inviati, e genera l'array $login con i campi
+'username',	: login
+'usergroups',	: lista dei gruppi di appartenenza (separati da virgola)
+'status',		: stato del login: 'none','ok_form','ok_cookie','error_wrong_username','error_wrong_userpass','error_wrong_challenge','error_wrong_IP'
+*/
+require_once('login.php');
+
 ?>
 <head>
   <title><?php echo $web_title ?></title>
@@ -53,15 +61,18 @@ selezioni di qualsiasi campo select all'interno del documento.
 $pagina = $_REQUEST['page']; // contenuto da visualizzare in colonna centrale
 
 # utente:
-$user = $_REQUEST['user']; // utente che si collega
+//$login
+//$user = $_REQUEST['user']; // utente che si collega
 
 # password dell'utente:
-$userpass = $_REQUEST['userpass']; // password dell'utente
+//$userpass = $_REQUEST['userpass']; // password dell'utente
+//$login['username'];
 
 
 #
 # gestisci l'utente
 #
+/*
 $elenco_users = get_config_file($filename_users,3);
 $elenco_users = $elenco_users['users'];
 
@@ -94,7 +105,7 @@ else
 {
 	$user = 'guest';	// utente di default
 	$usergroups = array('guests'); // gruppo dell'utente di default
-}
+}*/
 
 
 # carica i dati relativi a tutte le edizioni, che devono essere disponibili per i moduli nelle colonne sinistra e destra
