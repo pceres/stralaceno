@@ -19,6 +19,28 @@ extract(indici());
   <!--link href="<?php echo $site_abs_path ?>custom/images/logo_small.gif" rel="SHORTCUT ICON"-->
 </head>
 <body class="homepage" onLoad="azzera_input()">
+
+<script type="text/javascript">
+<!-- 
+
+function azzera_input()
+{
+/*
+Questa funzione, da richiamare in seguito all'evento onLoad del tag <body>, azzera tutte le eventuali precedenti
+selezioni di qualsiasi campo select all'interno del documento.
+*/
+	for (i = 0; i < document.forms.length; i++) {
+		for (ii = 0; ii < document.forms[i].elements.length; i++) {
+		   //alert(document.forms[i].name+' '+document.forms[i].elements[ii].name+' '+document.forms[i].elements[ii].type);
+		   if (document.forms[i].elements[ii].type == 'select-one') {
+			   document.forms[i].elements[ii].value = 0;
+		   }
+		}
+	}
+}
+//-->
+</script>
+
 <?php
 
 #
@@ -51,7 +73,7 @@ if (!empty($user))
 		if ($user == $userdata[$indice_user_name])
 		{
 			$user_found = 1;
-			if (md5($userpass) == $userdata[$indice_user_passwd])
+			if ($userpass == $userdata[$indice_user_passwd])
 			{
 				$usergroups = split(',',$userdata[$indice_user_groups]);
 			}
@@ -82,58 +104,6 @@ $archivio = load_data($filename_tempi,$num_colonne_prestazioni);
 require_once('layout.php');	// funzioni necessarie a stampare i layout
 
 ?>
-
-
-<script type="text/javascript">
-<!-- 
-
-function azzera_input()
-{
-/*
-Questa funzione, da richiamare in seguito all'evento onLoad del tag <body>, azzera tutte le eventuali precedenti
-selezioni di qualsiasi campo select all'interno del documento.
-*/
-	for (i = 0; i < document.forms.length; i++) {
-		for (ii = 0; ii < document.forms[i].elements.length; i++) {
-		   //alert(document.forms[i].name+' '+document.forms[i].elements[ii].name+' '+document.forms[i].elements[ii].type);
-		   if (document.forms[i].elements[ii].type == 'select-one') {
-			   document.forms[i].elements[ii].value = 0;
-		   }
-		}
-	}
-}
-
-function valida(pform,tipo,check_null)
-{
-// serve a prendere il valore selezionato nella droplist, e ad inviarlo tramite il form alla relativa pagina
-
-	var valore = "";
-
-	if (tipo == 'anno') // tipo='anno'
-	{
-	  valore = pform.anno.value;
-	}
-	else // tipo='nome'
-	{
-		if (tipo == 'id_nome')
-		{
-			valore = pform.id_nome.value;
-		}
-	}
-
-	if (valore  != "0")
-	{
-	  pform.submit();
-	}
-	else if (check_null == 1)
-	{
-	  alert("Devi scegliere prima!")
-	}
-}
-
-//-->
-</script>
-
 
 <table cellpadding="2" cellspacing="2" border="0" style="text-align: left; width: 100%;">
   <tbody>

@@ -16,7 +16,6 @@ $elenco_layout_left = get_config_file($filename_layout_left,6);
 $filename_layout_right = $config_dir.'layout_right.txt';
 $elenco_layout_right = get_config_file($filename_layout_right,6);
 
-
 //
 // carica i dati necessari ai vari moduli:
 //
@@ -36,6 +35,86 @@ foreach ($elenco_layout_right['elenco_moduli'] as $proprieta_modulo)
 	$layout_data['moduli_right'][$proprieta_modulo[0]] = array_slice($proprieta_modulo,1);
 }
 unset($elenco_layout_right['elenco_moduli']);
+
+// aggiungi eventuali script
+$flag_script_Login = 0;
+$flag_script_droplist_XXX = 0;
+foreach (array_merge($elenco_layout_left,$elenco_layout_right) as $nome_modulo => $dati_modulo)
+{
+	// gestisci blocchi
+	switch ($nome_modulo)
+	{
+	case 'Login':
+		if (!$flag_script_Login)
+		{
+			echo "<script type=\"text/javaScript\" src=\"".$site_abs_path."admin/md5.js\"></script>\n";
+			$flag_script_Login = 1;
+		}
+		break; // Login
+		
+	default:
+		//
+	}
+	
+	// gestisci sottoblocchi
+	foreach ($dati_modulo as $item_data)
+	{
+		//echo $item_data[$indice_layout_name]."<br>\n";
+		switch ($item_data[$indice_layout_name])
+		{
+		case 'droplist_atleti':
+		case 'droplist_edizioni':
+			if (!$flag_script_droplist_XXX)
+			{
+?>
+
+<script type="text/javascript">
+<!-- 
+
+function valida(pform,tipo,check_null)
+{
+// serve a prendere il valore selezionato nella droplist, e ad inviarlo tramite il form alla relativa pagina
+
+	var valore = "";
+
+	if (tipo == 'anno') // tipo='anno'
+	{
+	  valore = pform.anno.value;
+	}
+	else // tipo='nome'
+	{
+		if (tipo == 'id_nome')
+		{
+			valore = pform.id_nome.value;
+		}
+	}
+
+	if (valore  != "0")
+	{
+	  pform.submit();
+	}
+	else if (check_null == 1)
+	{
+	  alert("Devi scegliere prima!")
+	}
+}
+
+//-->
+</script>
+
+<?php
+				$flag_script_droplist_XXX = 1;
+			} // if !$flag_script_droplist_XXX
+			break; // droplist_XXX
+			
+		default:
+			//
+		}
+		
+	}
+}
+
+
 
 $layout_data['archivio'] = $archivio; // archivio tempi;
 
@@ -424,17 +503,23 @@ case 'Login':
 	$usergroups = $layout_data['user']['usergroups'];
 
 ?>
+
+	</tbody></table>
+	<br>
+	<?php print_r($layout_data['moduli_right']); ?>
+	<table class="frame_delimiter"><tbody>	
+
 	<tr><td><table class="column_group"><tbody>
 			<tr><td colspan="2">
-				<span class="titolo_colonna">Registrati:</span>
+				<span class="txt_link">Registrati:</span>
 			</td></tr>
 			<tr style="vertical-align: baseline">
 				<td>&nbsp;</td>
 				<td width="100%">
 					<div class="txt_link">
-					<form action="index.php" method="get">
-						User:<input name="user" type="edit"><br>
-						Password:<input name="userpass" type="passwd">
+					<form action="index.php" method="post" onSubmit="cripta_campo_del_form(this,'userpass')">
+						User:<input name="user" type="text"><br>
+						Password:<input name="userpass" type="password">
 						<button type="submit">Vai</button>
 					</form>
 					</div>
