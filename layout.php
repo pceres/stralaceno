@@ -567,9 +567,9 @@ if (($username === 'guest') | (!in_array($login_status,array('none','ok_form','o
 ?>
 						<form action="index.php" method="post" onSubmit="cripta_campo_del_form_con_challenge(this,'userpass','<?php echo $challenge ?>')">
 							
-							user:<input name="username" type="text" />
+							user:<br><input name="username" type="text" />
 							<br>
-							password:<input name="userpass" type="password" />
+							password:<br><input name="userpass" type="password" />
 							<br>
 							<input name="action" type="hidden" value="login" />
 							<input name="challenge" type="hidden" value="<?php echo $challenge ?>" />
