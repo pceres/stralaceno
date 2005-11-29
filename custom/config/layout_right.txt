@@ -8,6 +8,7 @@
 #	[Articoli] 		: visualizza tutto l'elenco degli articoli, 
 #				  se si sta visualizzando un solo articolo in colonna centrale
 #	[Link] 			: visualizza i link impostati in links.txt dall'interfaccia amministrativa
+#	[Delimitazione_x]	: separa i blocchi chiudendo e riaprendo il riquadro (x e' un numero progressivo)
 #
 # I valori consentiti per tipo_elemento sono:
 #	tempi			: pagina che si appoggia al database dei tempi. I valori consentiti per 
@@ -49,8 +50,9 @@
 
 [elenco_moduli]
 Approfondimenti::
-Amministrazione::admin
+Delimitazione::
 Utente::users
+Amministrazione::admin
 Login::guests
 
 
@@ -66,11 +68,13 @@ grafico_tempi::Grafico andamento tempi negli anni::tempi::::
 classifica_partecipazioni::Classifica partecipazioni::tempi::::::
 personaggi::I personaggi::modulo_custom::::
 
-[Amministrazione]
-# qualsiasi voce aggiunga qui e' inutile: il blocco [Amministrazione] non prevede sottoelementi
+[Delimitazione]
 
 [Utente]
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Utente] non prevede sottoelementi
+
+[Amministrazione]
+# qualsiasi voce aggiunga qui e' inutile: il blocco [Amministrazione] non prevede sottoelementi
 
 [Login]
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Login] non prevede sottoelementi
