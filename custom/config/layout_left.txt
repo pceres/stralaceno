@@ -61,7 +61,7 @@ Link::
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Articoli] non prevede sottoelementi
 
 [La corsa]
-presentazione::Cos'&egrave; la Stralaceno?::modulo_custom::::
+presentazione::Cos'&egrave; la Stralaceno::modulo_custom::::
 # :: ::separatore::::
 albo_d_oro::Albo d'oro::tempi::::
 regolamento::Stralcio regolamento::modulo_custom::::
