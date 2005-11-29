@@ -75,6 +75,7 @@ case 'login':
 						setcookie("login[username]", $username,time()+$EXPIRE_COOKIE);
 						setcookie("login[usergroups]", $usergroups,time()+$EXPIRE_COOKIE);
 						setcookie("login[challenge_id]",$challenge_id,time()+$EXPIRE_COOKIE);
+						
 					}
 					else
 					{
@@ -99,18 +100,6 @@ case 'login':
 	}
 	else
 	{
-		// non c'e' un login in corso, dovresti verificare l'esistenza dei cookies
-		/*if (isset($_COOKIE['login'])) 
-		{
-			$username = $_COOKIE['login']['username'];
-			$usergroups = $_COOKIE['login']['usergroups'];
-			
-			if ( (!empty($username)) & (!empty($usergroups)) )
-			{
-				$login_status = 'ok_cookie';
-			}
-		}*/
-		
 		if (empty($login_status))
 		{
 			$username = 'guest';	// utente di default
@@ -156,11 +145,12 @@ $login = array('username'=>$username,'usergroups'=>explode(',',$usergroups),'sta
 // *******************************************************************************************************************************************************
 function get_challenge(&$challenge_id,&$challenge)
 {
-	$challenge_file = "challenge.php";
-	
-	if (file_exists($challenge_file))
+	# dichiara variabili
+	extract(indici());
+
+	if (file_exists($filename_challenge))
 	{
-		$bulk = file($challenge_file);
+		$bulk = file($filename_challenge);
 	}
 	$challenge_id = md5(time());	
 	$challenge = md5($challenge_id.time());
@@ -178,7 +168,7 @@ function get_challenge(&$challenge_id,&$challenge)
 	}
 	
 	// scrivi il file dei challenge
-	if ($handle=fopen($challenge_file,'w'))
+	if ($handle=fopen($filename_challenge,'w'))
 	{
 		for ($i = $offset; $i < count($bulk); $i++)
 		{
@@ -188,7 +178,7 @@ function get_challenge(&$challenge_id,&$challenge)
 	}
 	else
 	{
-		die("$challenge_file e' probabilmente protetto in scrittura! Contattare il webmaster.");
+		die("$filename_challenge e' probabilmente protetto in scrittura! Contattare il webmaster.");
 	}
 
 } // end function get_challenge
@@ -203,11 +193,12 @@ function get_IP()
 
 function check_challenge($challenge_id,$challenge,$IP)
 {
-	$challenge_file = "challenge.php";
+	# dichiara variabili
+	extract(indici());
 
-	if (file_exists($challenge_file))
+	if (file_exists($filename_challenge))
 	{
-		$bulk = file($challenge_file);
+		$bulk = file($filename_challenge);
 	}
 	
 	$result = false;
@@ -231,7 +222,7 @@ function check_challenge($challenge_id,$challenge,$IP)
 			$indice = $key;
 			
 			// scrivi il file dei challenge
-			if ($handle=fopen($challenge_file,'w'))
+			if ($handle=fopen($filename_challenge,'w'))
 			{
 				foreach ($bulk as $key => $linea)
 				{
@@ -248,7 +239,7 @@ function check_challenge($challenge_id,$challenge,$IP)
 			}
 			else
 			{
-				die("$challenge_file e' probabilmente protetto in scrittura! Contattare il webmaster.");
+				die("$filename_challenge e' probabilmente protetto in scrittura! Contattare il webmaster.");
 			}
 			
 			break;
@@ -262,11 +253,12 @@ function check_challenge($challenge_id,$challenge,$IP)
 
 function check_IP_challenge_id($challenge_id,$IP)
 {
-	$challenge_file = "challenge.php";
+	# dichiara variabili
+	extract(indici());
 
-	if (file_exists($challenge_file))
+	if (file_exists($filename_challenge))
 	{
-		$bulk = file($challenge_file);
+		$bulk = file($filename_challenge);
 	}
 	
 	$result = false;
