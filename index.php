@@ -1,6 +1,4 @@
 #!/usr/local/bin/php
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
 <?php
 
 require_once('libreria.php');
@@ -17,6 +15,8 @@ questa libreria esamina i cookies o i parametri http (eventualmente) inviati, e 
 require_once('login.php');
 
 ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
 <head>
   <title><?php echo $web_title ?></title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -60,57 +60,8 @@ selezioni di qualsiasi campo select all'interno del documento.
 #	'articolo'	: viene visualizzato un solo articolo, indicato dal suo id attraverso la variabile aggiuntiva 'art_id'
 $pagina = $_REQUEST['page']; // contenuto da visualizzare in colonna centrale
 
-# utente:
-//$login
-//$user = $_REQUEST['user']; // utente che si collega
-
-# password dell'utente:
-//$userpass = $_REQUEST['userpass']; // password dell'utente
-//$login['username'];
-
-
-#
-# gestisci l'utente
-#
-/*
-$elenco_users = get_config_file($filename_users,3);
-$elenco_users = $elenco_users['users'];
-
-if (!empty($user))
-{
-	$user_found = 0;
-	foreach($elenco_users as $userdata)
-	{
-		if ($user == $userdata[$indice_user_name])
-		{
-			$user_found = 1;
-			if ($userpass == $userdata[$indice_user_passwd])
-			{
-				$usergroups = split(',',$userdata[$indice_user_groups]);
-			}
-			else
-			{
-				sleep(1);
-				die('Password errata!');
-			}
-		}
-		
-	}
-	if (!$user_found)
-	{
-		die('Utente inesistente!');
-	}
-}
-else
-{
-	$user = 'guest';	// utente di default
-	$usergroups = array('guests'); // gruppo dell'utente di default
-}*/
-
-
 # carica i dati relativi a tutte le edizioni, che devono essere disponibili per i moduli nelle colonne sinistra e destra
 $archivio = load_data($filename_tempi,$num_colonne_prestazioni);
-
 
 require_once('layout.php');	// funzioni necessarie a stampare i layout
 
