@@ -296,7 +296,7 @@ if ($item_type != 'modulo')
 ?>
 			<tr style="vertical-align: baseline">
 				<td>&#8250;&nbsp;</td>
-				<td<?php echo $wrap_mode; ?>>
+				<td align="left" width="100%" <?php echo $wrap_mode; ?>>
 					<a href="<?php echo $item_link ?>" name="<?php echo $item_name ?>" class="txt_link"><?php echo $item_caption ?></a>
 				</td>
 			</tr>
@@ -438,8 +438,22 @@ extract(indici());
 
 echo "\t<!-- inizio blocco $layout_block -->\n";
 
-switch ($layout_block)
+$layout_type = $layout_block;
+if (strpos($layout_type,"Delimitazione")===0)
 {
+	$layout_type = "Delimitazione";
+}
+
+switch ($layout_type)
+{
+case 'Delimitazione':
+?>
+	</tbody></table>
+	<br style="line-height: 5px;">
+	<table class="frame_delimiter" width="100%"><tbody>
+<?php
+	break;
+	
 case 'Amministrazione':
 	echo "\t<tr><td><table class=\"column_group\"><tbody>\n\n";
 	
@@ -508,10 +522,6 @@ case 'Login':
 	get_challenge($challenge_id,$challenge);
 ?>
 
-	</tbody></table>
-	<br>
-	<table class="frame_delimiter" width="100%"><tbody>	
-
 	<tr><td><table class="column_group"><tbody>
 			<tr><td colspan="2">
 				<span class="txt_link">Registrati:</span>
@@ -527,6 +537,7 @@ if (($username === 'guest') | (!in_array($login_status,array('none','ok_form','o
 
 	if (!in_array($login_status,array('none','ok_form','ok_cookie')))
 	{
+		$login_msg = "";
 		switch ($login_status)
 		{
 		case 'none':
@@ -536,11 +547,11 @@ if (($username === 'guest') | (!in_array($login_status,array('none','ok_form','o
 			break;
 			
 		case 'error_wrong_username':
-			echo "Username errato<br>";
+			$login_msg = "Username errato!";
 			break;
 			
 		case 'error_wrong_userpass':
-			echo "Password errata<br>";
+			$login_msg = "Password errata!";
 			break;
 			
 		case 'error_wrong_challenge':
@@ -551,6 +562,7 @@ if (($username === 'guest') | (!in_array($login_status,array('none','ok_form','o
 		default:
 			die('Todo: messaggio sconosciuto!');
 		}
+		echo "<div align=\"center\"><i>$login_msg</i></div><br>";
 	}
 ?>
 						<form action="index.php" method="post" onSubmit="cripta_campo_del_form_con_challenge(this,'userpass','<?php echo $challenge ?>')">
