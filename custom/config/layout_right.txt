@@ -54,6 +54,7 @@ Delimitazione::
 Utente::users
 Amministrazione::admin
 Login::guests
+Pagine in preparazione::admin
 
 
 #
@@ -68,7 +69,7 @@ grafico_tempi::Grafico andamento tempi negli anni::tempi::::
 classifica_partecipazioni::Classifica partecipazioni::tempi::::::
 #personaggi::I personaggi::modulo_custom::::
 
-[Delimitazione]
+[Delimitazione_1]
 
 [Utente]
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Utente] non prevede sottoelementi
@@ -78,3 +79,6 @@ classifica_partecipazioni::Classifica partecipazioni::tempi::::::
 
 [Login]
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Login] non prevede sottoelementi
+
+[Pagine in preparazione]
+pregfas::Pregfas::modulo_custom::::
