@@ -203,7 +203,7 @@ function check_challenge($challenge_id,$challenge,$IP)
 	
 	$result = false;
 	$indice = '';
-	for ($key = count($bulk)-1; $key > 0; $key--)
+	for ($key = count($bulk)-1; $key >= 0; $key--)
 	{
 		$line_data = substr($bulk[$key],0,-2); // elimina "/r/n" dalla fine della stringa
 		$line_data = explode('::',$line_data);
@@ -263,7 +263,7 @@ function check_IP_challenge_id($challenge_id,$IP)
 	
 	$result = false;
 	$indice = '';
-	for ($key = count($bulk)-1; $key > 0; $key--)
+	for ($key = count($bulk)-1; $key >= 0; $key--)
 	{
 		$line_data = substr($bulk[$key],0,-2); // elimina "/r/n" dalla fine della stringa
 		$line_data = explode('::',$line_data);
