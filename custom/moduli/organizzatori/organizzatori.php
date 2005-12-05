@@ -84,7 +84,7 @@ nonch&eacute; fondi, riserve o capitale, salvo che la destinazione o la distribu
 			border="0" height="36" width="36">
 	</a>
 </div>
-(da consegnare al segretario amministrativo Donatello Cirillo)
+(da consegnare al segretario amministrativo)
 
 <br>
 
