@@ -43,7 +43,7 @@ if must_read
     fid = fopen(nomefile);
 
     bulk = {};
-    vmax=[];
+    vmax=zeros(1,7); % sette campi per linea
     while 1
         tline = fgetl(fid);
         if ~ischar(tline),
@@ -72,9 +72,6 @@ if must_read
         if (p <=length(tline))
             vks{i+1} = tline(p:end);
             
-            if (length(vmax)<=i)
-                vmax(i+1)=0;
-            end
             if (vmax(i+1) < length(vks{i+1}))
                 vmax(i+1) = length(vks{i+1});
             end
@@ -204,14 +201,19 @@ for data_i = 1:length(data_list)
                 v_(temp_i)=strcmp(data(temp_i,:),data(1,:));
             end
         else
-            v_=sum((data==repmat(data(1,:),size(data,1),1))')==size(data,2);
+%             zz = ((data==repmat(data(1,:),size(data,1),1))')
+            zz=((data==repmat(data(1,:),size(data,1),1))');
+            if (size(zz,1) == 1)
+                zz=[zz;zeros(1,size(zz,2))];
+            end
+            v_ = sum(zz)==size(data,2);
         end
         v(end+1)=sum(v_);
         list_data=strvcat(list_data,data(1,:));
         data=data(find(~v_),:);
     end
     [temp j]=sort(-v);
-
+    
     disp(' ')
     disp(' ')
     disp([data_list{data_i} ' :'])
