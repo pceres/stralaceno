@@ -30,7 +30,7 @@ P.RE.G.FA.S. - Pubblico REgistro dei Grandi FAnfaroni della Stralaceno
 <table class="tabella" style="font-size:1.7em;"><tbody><tr><td>
 
 <table>
-	<caption>Elenco dei fanfaroni:</caption>
+	<!--caption>Elenco dei fanfaroni:</caption-->
 	<thead><tr>
 		<th>Nominativo</th>
 		<th>Data di iscrizione</th>
