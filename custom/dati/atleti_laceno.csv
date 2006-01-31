@@ -24,9 +24,9 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto
 23;Angelino Cetrulo;M;-;?;?;-;-
 24;Sandro Russomanno;M;-;?;?;-;-
 25;Lorenzo Castagno;M;-;?;?;-;-
-26;Pasquale Ceres;M;-;?;?;-;-
+26;Pasquale Ceres;M;-;1974;?;http://irlug.altervista.org;varie/dscn5313.jpg
 27;Luciano Rosania;M;-;?;?;-;-
-28;Michele Ceres;M;-;?;?;-;-
+28;Michele Ceres;M;-;1976;?;-;-
 29;Alessandro Russomanno;M;-;?;?;-;-
 30;Antonio Ceres;M;-;?;?;-;-
 31;Benedetto Alifano;M;-;?;?;-;-
@@ -43,7 +43,7 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto
 42;Giuseppe Rosania;M;-;?;?;-;-
 43;Gerardo Gervasio;M;-;?;?;-;-
 44;Armando Grasso di Gels.;M;-;?;?;-;-
-45;Gerardo Notaro;M;-;?;?;-;-
+45;Gerardo Notaro;M;-;?;?;http://www.caposeleonline.it;-
 46;Pasquale Ciccone;M;-;?;?;-;-
 47;Mario Nesta;M;-;?;?;-;-
 48;Gerardo Ceres di Lor.;M;-;?;?;-;-
@@ -81,7 +81,7 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto
 80;Lorenzo Merola;M;-;?;?;-;-
 81;Francesco Spatola;M;-;?;?;-;-
 82;Gerardo Viscardi;M;-;?;?;-;-
-83;Paolo Viscardi;M;-;?;?;http://www.siamonoi.it;2005/dscn5336.jpg
+83;Paolo Viscardi;M;-;?;?;http://www.siamonoi.it;2005/dscn5348.jpg
 84;Antonio Megaro;M;-;?;?;-;-
 85;Marco Ceres;M;-;?;?;-;-
 86;Donatello Cirillo;M;-;?;?;-;-
