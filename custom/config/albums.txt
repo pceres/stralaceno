@@ -180,6 +180,7 @@ dscn5448.jpg::Tutto ok::Scongiurata l'invasione di pecore e cavalli, constatato 
 dscn5414.jpg::Foto al fotografo::Chiudiamo con chi ha avuto il merito di catturare queste immagini: il fotografo ufficiale e le sue preziose collaboratrici::Nicoletta Ceres, Michele Ceres, Pina Nigro
 
 [generico1]
+ars.jpg:: 
 retro.gif::logo trasparente::
 STRA2005GIF.gif::Grafica maglietta 2005::
 
@@ -189,7 +190,28 @@ dscn5353.jpg::Nicola Melillo
 dscn5350.jpg::Gelsomino Merola::
 dscn5325.jpg::Nicola d'Auria::
 dscn5313.jpg::Pasquale Ceres::
+dscn5727.jpg::Piazza Sanit&agrave;::
+dscn5731.jpg::Campo sportivo Liloia::
+dscn5730.jpg::Ponte::
+dscn5733.jpg::Villaggio S.Caterina::
+dscn5735.jpg::Cimitero comunale::
+dscn5747.jpg::Hotel Testa::
+dscn5749.jpg::Basilica San Gerardo::
+dscn5752.jpg::Piani (piscina comunale)::
+dscn5752.jpg::Piazza Sanit&agrave; 2::
 
-[prova]
+[All.Coll.05]
+ManifestoAll.Coll.05.jpg::
+IMG_1594.jpg:: 
+IMG_1595.jpg:: 
+DSCN5780.jpg::
+DSCN5782.jpg::
+IMG_1596.jpg:: 
+IMG_1597.jpg:: 
+IMG_1600.jpg::
+IMG_1608.jpg:: 
+DSCN5809.jpg::
+IMG_1611.jpg::  
+IMG_1615.jpg:: 
+IMG_1620.jpg:: 
 
-[2006]
