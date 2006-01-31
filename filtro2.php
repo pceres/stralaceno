@@ -1,3 +1,5 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
 <?php
 
 require_once('libreria.php');
@@ -16,8 +18,6 @@ $id = $_REQUEST['id_nome']; 				# prestazione da cui prendere il nome
 $nome = $atleti[$id][$indice_nome];
 
 ?>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
 <head>
   <title><?php echo $web_title ?> - Archivio storico personale di <?php echo $nome; ?></title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
