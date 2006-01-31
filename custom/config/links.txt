@@ -10,6 +10,7 @@ http://www.caposeleonline.it::Caposeleonline
 http://www.lagolaceno.it/::Lago Laceno
 #http://www.skilaceno.com/::Sciare a Laceno
 http://liceonline.altervista.org/::Liceo di Caposele
+http://www.prolococaposele.it::Pro Loco Caposele
 http://www.siamonoi.it::Siamonoi.it
 http://www.podisti.net::Podisti.net
 http://www.servizinews.it/servizi/podismo/podismo01.htm::Calendario podistico
