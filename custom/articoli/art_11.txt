@@ -1,0 +1,123 @@
+Autore::ARS
+Titolo::Allenamento Collettivo 2005
+--- Begin body ---
+<br>Il 30 dicembre si &egrave svolta una seduta di allenamento di gruppo, lungo il tratto stradale Caposele/Materdomini (strada vecchia ss165) e ritorno.
+<p>Una temperatura rigida, nell'ambito di uno scenario tipicamente invernale, ha accompagnato gli atleti lungo gli 8,350 km previsti.
+<br>
+La distanza &egrave stata percorsa dagli otto partecipanti con passo lento e regolare cercando di rispettare i passaggi orari previsti.
+<p>
+Le foto dell' Allenamento sono disponibili <a href="album.php?anno=All.Coll.05">qui</a> 
+<p>
+Il 4 gennaio 2006 si &egrave tenuto un secondo allenamento, che ha visto impegnati 7 atleti lungo un percorso di circa 17 km, nell'ambito del quale si sono toccati alcuni punti molto suggestivi del comune di Caposele (come le grotte e il bosco difesa).
+<br>
+<p>&nbsp;
+<div align="center">
+<img id="foto" src="%file_root%custom/album/All.Coll.05/IMG_1611.jpg" alt="" border="0" width="420">
+</div>
+<!--
+<br>L'ARS Amatori Running Sele organizza per il giorno <b>30 dicembre, ore 15.15</b> una seduta di 
+allenamento di gruppo lungo il tratto stradale Caposele/Materdomini (strada 
+vecchia ss 165) e ritorno.<br><br> La distanza sarà percorsa rigorosamente ad andatura 
+lenta avendo cura di rispettare soprattutto la regolarità di corsa e i 
+passaggi orari previsti a tavolino.<br> &Egrave un'ottima occasione per riprendere 
+l'attività per chi si è lasciato andare nel periodo autunnale e per 
+cercare di ritrovare gli stimoli giusti affrontando con vigore il lungo 
+inverno che ancora ci attende.<p>
+Chiunque sia interessato può liberamente aggregarsi alla partenza o anche durante il percorso.
+<br><br>
+   Tabella dei passaggi orari previsti del gruppo nei punti principali del percorso:
+<table style="border:1px solid rgb(51,102,153)">
+  <tr style="margin:2px;border:1px">
+	<td style="padding:0.2em 1.4em 0.4em 0.1em;">
+	   <a href="%file_root%custom/album/varie/dscn5727.jpg">
+		<img src="%file_root%custom/album/varie/dscn5727-thumb.jpg" width="100" border="0" alt="Piazza Sanità">
+	   </a>
+	</td>
+	<td style="padding:1.0em;">Km 0.000</td>
+	<td style="padding:1.0em;">Piazza Sanita'</td>
+	<td style="padding:0.2em;">h <b>15:15</b>:00</td>
+  </tr>
+  <tr style="margin:2px;border:1px">
+	<td style="padding:0.2em 1.4em 0.4em 0.1em;">
+           <a href="%file_root%custom/album/varie/dscn5731.jpg">
+               <img src="%file_root%custom/album/varie/dscn5731-thumb.jpg" width="100" border="0" alt="Campo sportivo Liloia"></td>
+             </a>
+	<td style="padding:1.0em;">Km 0.500</td>
+	<td style="padding:1.0em;">Campo sportivo Liloia</td>
+	<td style="padding:0.2em;">h <b>15:18</b>:07</td>
+  </tr>
+<tr style="margin:2px;border:1px">
+	<td style="padding:0.2em 1.4em 0.4em 0.1em;">
+            <a href="%file_root%custom/album/varie/dscn5730.jpg">
+                 <img src="%file_root%custom/album/varie/dscn5730-thumb.jpg" width="100" border="0" alt="Ponte"></td>
+              </a>
+	<td style="padding:1.0em;">Km 0.900</td>
+	<td style="padding:1.0em;">Ponte</td>
+	<td style="padding:0.2em;">h <b>15:20:</b>37</td>
+  </tr>
+<tr style="margin:2px;border:1px">
+	<td style="padding:0.2em 1.4em 0.4em 0.1em;">
+             <a href="%file_root%custom/album/varie/dscn5733.jpg">
+               <img src="%file_root%custom/album/varie/dscn5733-thumb.jpg" width="100" border="0" alt="Villaggio S. Caterina"></td>
+                   </a>
+	<td style="padding:1.0em;">Km 1.650</td>
+	<td style="padding:1.0em;">Villaggio S. Caterina</td>
+	<td style="padding:0.2em;">h <b>15:25:</b>19</td>
+  </tr>
+<tr style="margin:2px;border:1px">
+	<td style="padding:0.2em 1.4em 0.4em 0.1em;">
+           <a href="%file_root%custom/album/varie/dscn5735.jpg">
+              <img src="%file_root%custom/album/varie/dscn5735-thumb.jpg" width="100" border="0" alt="Cimitero comunale"></td>
+                  </a>
+	<td style="padding:1.0em;">Km 2.300</td>
+	<td style="padding:1.0em;">Cimitero comunale</td>
+	<td style="padding:0.2em;">h <b>15:29:</b>22</td>
+  </tr>
+<tr style="margin:2px;border:1px">
+	<td style="padding:0.2em 1.4em 0.4em 0.1em;">
+          <a href="%file_root%custom/album/varie/dscn5747.jpg">
+              <img src="%file_root%custom/album/varie/dscn5747-thumb.jpg" width="100" border="0" alt="Materdomini (hotel Testa)"></td>
+               </a>
+	<td style="padding:1.0em;">Km 6.150</td>
+	<td style="padding:1.0em;">Materdomini (hotel Testa)</td>
+	<td style="padding:0.2em;">h <b>15:54:</b>24</td>
+  </tr>
+<tr style="margin:2px;border:1px">
+	<td style="padding:0.2em 1.4em 0.4em 0.1em;">
+            <a href="%file_root%custom/album/varie/dscn5749.jpg">
+               <img src="%file_root%custom/album/varie/dscn5749-thumb.jpg" width="100" border="0" alt="Piazzale basilica San Gerardo"></td>
+                </a>
+	<td style="padding:1.0em;">Km 6.500</td>
+	<td style="padding:1.0em;">Piazzale basilica San Gerardo</td>
+	<td style="padding:0.2em;">h <b>15:56:</b>35</td>
+  </tr>
+<tr style="margin:2px;border:1px">
+	<td style="padding:0.2em 1.4em 0.4em 0.1em;">
+           <a href="%file_root%custom/album/varie/dscn5752.jpg">
+               <img src="%file_root%custom/album/varie/dscn5752-thumb.jpg" width="100" border="0" alt="Piani (piscina comunale)"></td>
+                    </a>
+	<td style="padding:1.0em;">Km 7.400</td>
+	<td style="padding:1.0em;">Piani (piscina comunale)</td>
+	<td style="padding:0.2em;">h <b>16:01:</b>59</td>
+  </tr>
+<tr style="margin:2px;border:1px">
+	<td style="padding:0.2em 1.4em 0.4em 0.1em;">
+          <a href="%file_root%custom/album/varie/dscn5756.jpg">
+              <img src="%file_root%custom/album/varie/dscn5756-thumb.jpg" width="100" border="0" alt="Piazza Sanità"></td>
+              </a>
+	<td style="padding:1.0em;">Km 8.350</td>
+	<td style="padding:1.0em;">Piazza Sanità</td>
+	<td style="padding:0.2em;">h <b>16:07:</b>45</td>
+  </tr>
+</table>
+<br>
+ARS Amatori Running Sele invita i runner e gli sportivi tutti ad aggregarsi  all&#8217;allenamento podistico collettivo, previsto per uno degli ultimi giorni del 2005, che seguirà il percorso: <br>Caposele piazza Sanit&agrave,  LungoSele,  tratto S.S. 165 dal  cimitero comunale a Materdomini,  discesa basilica di San Gerardo,  Piani (piscina comunale),  piazza Sanità.<p>
+La partenza avverrà nel primo pomeriggio, indipendentemente dalle condizioni meteorologiche.<br>
+&Egrave data facolt&agrave di aggregarsi al gruppo anche durante il tragitto.<br><br>
+Il giorno, l&#8217;orario di partenza e la tabella dei passaggi orari previsti del gruppo nei punti principali del percorso, saranno successivamente comunicati.
+<br><br>
+<div align="center">
+<img id="foto" src="%file_root%custom/album/generico1/ars.jpg" alt="" border="0" width="170">
+</div>
+-->
+--- End body ---
