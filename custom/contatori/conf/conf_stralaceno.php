@@ -38,7 +38,7 @@
 # IMPOSTAZIONI DEL CONTATORE
 ############################################################################################
 
-$cnf__start_count         = 2;
+$cnf__start_count         = 1284;
 $cnf__mtime_unique_accs   = 120;
 $cnf__expire_on_midnight  = FALSE;
 $cnf__count_per_pages     = TRUE;
