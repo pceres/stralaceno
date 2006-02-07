@@ -1,4 +1,3 @@
-#!/usr/local/bin/php
 <?php /* counter.php
                                         __                      PHP Script    _    vs 5.0
                                        / _| __ _ _ __   /\ /\___  _   _ _ __ | |_ ___ _ __
