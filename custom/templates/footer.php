@@ -31,22 +31,22 @@ inizio footer
 			 title="Info o suggerimenti sulla grafica">Pietro Russomanno</a>
 		  </small></td>
 		</tr>
-		
-		<!-- la riga che segue e' il logo del validatore HTML W3C -->
-		<!--tr>
-		  <td colspan="3" style="width: 500px; vertical-align: bottom; height: 50px; text-align: center;"-->
+
+		<!-- la riga che segue e' il logo del validatore HTML W3C e CSS -->
+		<tr>
+		  <td colspan="3" style="width: 500px; vertical-align: bottom; height: 50px; text-align: center;">
 			<!-- Validazione HTML -->
-			<!--a href="http://validator.w3.org/check?uri=referer">
+			<a href="http://validator.w3.org/check?uri=referer">
 				<img border="0"	src="<?php echo $site_abs_path ?>images/valid-html401.png" alt="Valid HTML 4.01!" height="31" width="88">
-			</a-->
+			</a>
 			  
 			<!-- Validazione CSS -->
-			<!--a href="http://jigsaw.w3.org/css-validator/check/referer">
+			<a href="http://jigsaw.w3.org/css-validator/check/referer">
 				<img style="border:0;width:88px;height:31px" src="<?php echo $site_abs_path ?>images/valid-css.png" alt="Valid CSS!">
 			</a>
 		  </td>
-		</tr-->
-		
+		</tr>
+
 	  </tbody>
 	</table>
 
