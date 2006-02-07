@@ -1,4 +1,3 @@
-#!/usr/local/bin/php 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <?php
@@ -75,7 +74,8 @@ $counter = count_page("grafico_tempi",array("COUNT"=>1,"LOG"=>1),$filedir_counte
 
 ?>
 
-<form action="grafico/crea_grafico.php" method="POST">
+<form action="http://members.lycos.co.uk/stralaceno/stralaceno2/grafico/crea_grafico.php" method="POST">
+<!--form action="grafico/crea_grafico.php" method="POST"-->
 
 <table class="txt_elenco">
 	<tr>
