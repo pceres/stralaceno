@@ -202,16 +202,21 @@ dscn5752.jpg::Piazza Sanit&agrave; 2::
 
 [All.Coll.05]
 ManifestoAll.Coll.05.jpg::
-IMG_1594.jpg:: 
-IMG_1595.jpg:: 
+IMG_1594.jpg::
+IMG_1595.jpg::
 DSCN5780.jpg::
 DSCN5782.jpg::
-IMG_1596.jpg:: 
-IMG_1597.jpg:: 
+IMG_1596.jpg::
+IMG_1597.jpg::
 IMG_1600.jpg::
-IMG_1608.jpg:: 
+img_1605.jpg::
+img_1607.jpg::
+IMG_1608.jpg::
 DSCN5809.jpg::
-IMG_1611.jpg::  
-IMG_1615.jpg:: 
-IMG_1620.jpg:: 
+IMG_1611.jpg::
+IMG_1615.jpg::
+IMG_1620.jpg::
+
+
+
 
