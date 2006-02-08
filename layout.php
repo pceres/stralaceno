@@ -121,9 +121,9 @@ $layout_data['archivio'] = $archivio; // archivio tempi;
 //$layout_data['user'] = array('user'=>$username,'usergroups'=>$usergroups,'status'=>$login['status']); // utente;
 $layout_data['user'] = $login; // utente;
 
-// Link::
+// Links::
 $link_list = get_link_list($filename_links); 
-$layout_data['Link'] = $link_list;
+$layout_data['Links'] = $link_list;
 
 // ultime_edizioni::
 // edizioni disponibili
@@ -185,7 +185,7 @@ function is_visible_layout_block($layout_block,&$layout_data,$nome_layout)
 	
 	switch ($layout_block)
 	{
-	case 'Link':
+	case 'Links':
 		if (count($layout_data[$layout_block])==0) // se non ci sono link da mostrare, e' inutile il riquadro dei link
 		{
 			return false;
@@ -471,7 +471,7 @@ case 'Utente':
 ?>
 	<tr><td><table class="column_group"><tbody>
 			<tr><td colspan="2">
-				<span class="titolo_colonna">Spazio utente:</span>
+				<span class="titolo_colonna">Spazio utente</span>
 			</td></tr>
 			<tr style="vertical-align: baseline">
 				<td>&nbsp;</td>
@@ -524,7 +524,7 @@ case 'Login':
 
 	<tr><td><table class="column_group"><tbody>
 			<tr><td colspan="2">
-				<span class="txt_link">Registrati:</span>
+				<span class="titolo_colonna">Login</span>
 			</td></tr>
 			<tr style="vertical-align: baseline">
 				<td>&nbsp;</td>
@@ -606,7 +606,7 @@ default:
 	<tr><td>
 	  <table class="column_group"><tbody><tr><td>
 	  
-		<span class="titolo_colonna"><?php echo $layout_block; ?>:</span>
+		<span class="titolo_colonna"><?php echo $layout_block; ?></span>
 		 <table cellpadding="0" cellspacing="0">
 		  <tbody>
 		  
@@ -632,7 +632,7 @@ default:
 			} // end for  
 			break;
 			
-		case 'Link':
+		case 'Links':
 			$link_list = $layout_data[$layout_block];
 			for ($i = 0; $i < count($link_list); $i++)
 			{ 
