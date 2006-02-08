@@ -51,7 +51,7 @@
 Articoli::
 La corsa::
 Cronaca corrente::
-Link::
+Links::
 
 
 #
@@ -75,5 +75,5 @@ ultime_edizioni::Ultime edizioni: ::modulo::3::
 classifica_MF::Classifica personali M+F::tempi::::
 classifica_F::Classifica personali F::tempi::::
 
-[Link]
-# qualsiasi voce aggiunga qui e' inutile: il blocco [Link] non prevede sottoelementi
+[Links]
+# qualsiasi voce aggiunga qui e' inutile: il blocco [Links] non prevede sottoelementi
