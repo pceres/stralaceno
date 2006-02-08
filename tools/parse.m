@@ -2,9 +2,13 @@
 
 clear
 
+abilita_stima_foto_mancante = 0; % [0,1] a partire da album, id_photo e data prova ad individuare il nome del file della foto
+
 nomefile = 'logfile.txt';
 backupfile = 'backupfile*.txt';
-root_path='d:\programmi\cygwin\var\www\htdocs\work\stralaceno2\'; % path della radice del sito
+% root_path='d:/stralaceno/online_2006_01_17/'; % path della radice del sito
+root_path='/mnt/win_d/stralaceno/online_2006_01_17/'; % path della radice del sito
+
 
 % informazioni sul file di log generale
 z=dir(nomefile);
@@ -18,7 +22,7 @@ if length(backupfile)
     end
     
     if (somma ~= z.bytes)
-%         error(['Il file di log ' nomefile ' non e'' aggiornato!'])!!!
+         error(['Il file di log ' nomefile ' non e'' aggiornato!'])
     end
 end
 
@@ -76,10 +80,40 @@ if must_read
                 vmax(i+1) = length(vks{i+1});
             end
         end
-        
+
+        %
         % correzioni per riempire eventuali campi assenti
+        %
+        
+        % username mancante
         if (length(vks)==6) % la linea e' stata scritta quando non veniva ancora loggato lo username
             vks{7} = '-';
+        end
+        
+        % nome foto mancante
+        if (abilita_stima_foto_mancante & strcmp(vks{1},'foto') & all(vks{2}~='(')) % manca il nome della foto, prova ad aggiungerlo
+            ks = vks{2};
+
+            ind1=find(ks == '&');
+            ind2=find(ks == '=');
+            id_photo_x=str2num(ks(ind2(1)+1:ind1-1));
+            album_x=ks(ind2(2)+1:end);
+            
+            % individua il tempo numerico
+            if isempty(str2num(vks{6}))
+                a2 = vks{6};ind=find(a2==' ');a2 = a2(ind(1)+1:end);a2 = strrep(a2,'st','');a2 = strrep(a2,'nd','');a2 = strrep(a2,'rd','');a2 = strrep(a2,'th','');a2=strrep(a2,' of','');
+                tempo=datenum(a2)+(upper(a2(end-1))=='P')*0.5;
+            else
+                tempo = str2num(vks{6})/(60*60*24)+datenum('1 January 1970 12:00:00 AM');
+            end
+
+            
+            [nome dati]=get_photo_name(tempo,album_x,id_photo_x);
+
+            if ~isempty(nome) % se e' riuscito ad individuare la foto, aggiungila in vks{2}
+                vks{2} = [vks{2} '(' nome ')'];
+            end
+
         end
 
         bulk{end+1} = vks;
@@ -105,8 +139,10 @@ if must_read
 
         vks = bulk{i};
         if length(vks) == 7 % il formato gestito contiene 7 campi
+            
+            % label
             label(i,1:length(vks{1})) = vks{1};
-
+            
             % argomenti
             if (~isempty(vks{2}))
                 arguments(i,1:length(vks{2})) = vks{2};
@@ -225,7 +261,7 @@ for data_i = 1:length(data_list)
     %
     
     % classifica sulle sole foto (di cui si sa il file)
-    if (strcmp(data_list{data_i},'label_arguments'))%(data_i==2)
+    if (strcmp(data_list{data_i},'label_arguments'))
         disp(' ')
         disp('Classifica foto piu'' viste: ')
         classifica_foto={};
@@ -305,6 +341,6 @@ disp(['Giorni in cui ci sono state piu'' di ' num2str(max_pages) ' pagine visita
 
 % ripartizione per giorni della settimana
 tag='homepage'
-w=zeros(7,1);zz=datestr(vseconds,'dddd');zzu=unique(zz,'rows');zzu=zzu([2 6 7 5 1 3 4],:);for i=1:size(zzu,1),for ii = 1:size(zz,1);if (strcmp(zz(ii,:),zzu(i,:)) & strfind(label(ii,:),tag)),w(i)=w(i)+1;end,end,end
+w=zeros(7,1);zz=datestr(vseconds,'ddd');zzu=unique(zz,'rows');zzu=zzu([2 6 7 5 1 3 4],:);for i=1:size(zzu,1),for ii = 1:size(zz,1);if (strcmp(zz(ii,:),zzu(i,:)) & strfind(label(ii,:),tag)),w(i)=w(i)+1;end,end,end
 [zzu repmat(' ',length(w),1) num2str(w)]
 figure,bar(w);set(gca,'XTickLabel',zzu);title(tag)
