@@ -8,7 +8,7 @@ extract(indici());
 function indici() {
 
 # carica le variabili custom (quelle che sono specifiche di ogni sito web, es. titolo, e-mail, ecc)
-require("custom/config/custom.php");
+require("custom/config/custom.txt");
 
 # formato file di archivio 'tempi_laceno.csv'
 $indice_id    = 0;
@@ -33,11 +33,10 @@ $indice2_titolo 	= 3;
 $indice2_data_nascita 	= 4;
 $indice2_peso 		= 5;
 $indice2_link		= 6;
-$indice2_foto		= 7;
 
-$num_colonne_atleti = 8;
+$num_colonne_atleti = 7;
 
-$indici2 = array('indice2_id' => $indice2_id,'indice2_nome' => $indice2_nome,'indice2_sesso' => $indice2_sesso,'indice2_titolo' => $indice2_titolo,'indice2_data_nascita' => $indice2_data_nascita,'indice2_peso' => $indice2_peso,'indice2_link' => $indice2_link,'indice2_foto' => $indice2_foto,'num_colonne_atleti'  => $num_colonne_atleti);
+$indici2 = array('indice2_id' => $indice2_id,'indice2_nome' => $indice2_nome,'indice2_sesso' => $indice2_sesso,'indice2_titolo' => $indice2_titolo,'indice2_data_nascita' => $indice2_data_nascita,'indice2_peso' => $indice2_peso,'indice2_link' => $indice2_link,'num_colonne_atleti'  => $num_colonne_atleti);
 
 
 # formato file di archivio 'organizzatori_laceno.csv'
@@ -178,7 +177,6 @@ $article_online_file	= $articles_dir."online.txt";
 $filename_links			= $config_dir."links.txt";
 $filename_albums		= $config_dir."albums.txt";
 $filename_users			= $config_dir."users.php";	// l'estensione e' php in modo che la richiesta della pagina non permetta comunque di visualizzare i dati
-$filename_challenge		= $config_dir."challenge.php";	// l'estensione e' php in modo che la richiesta della pagina non permetta comunque di visualizzare i dati
 
 #varie
 $tempo_max_grafico = max(array($tempo_max_F,$tempo_max_M));
@@ -187,7 +185,6 @@ $symbol_1_partecipazione= '<img src="'.$site_abs_path.'images/0x2606(star).bmp" 
 $symbol_1_partecipazione_best	= '<img src="'.$site_abs_path.'images/0x2606(star_best).bmp" style="display:inline;" align="middle" height="13" alt="1a partecipazione" border="0">';
 $symbol_record  		= '<img src="'.$site_abs_path.'images/0x263A(smiling_face).bmp" style="display:inline;" align="middle" height="13" alt="record personale" border="0">';
 $symbol_record_best		= '<img src="'.$site_abs_path.'images/0x263A(smiling_face_best).bmp" style="display:inline;" align="middle" height="13" alt="record personale assoluto" border="0">';
-$symbol_info			= '<img src="'.$site_abs_path.'images/info.jpg" border="0" width="12">';
 $homepage_link 			= '<hr><div align="right"><a class="txt_link" href="'.$script_abs_path.'index.php">Torna alla homepage</a></div>';
 
 #admin
@@ -196,12 +193,9 @@ $max_online_articles	= 10;	// numero di articoli pubblicati online
 
 
 $formattazione = array('style_sfondo_maschi' => $style_sfondo_maschi,'style_sfondo_femmine' => $style_sfondo_femmine);
-$filenames = array('filename_css' => $filename_css,'filename_tempi' => $filename_tempi,'filename_atleti' => $filename_atleti,
-	'filename_organizzatori' => $filename_organizzatori,'filedir_counter' => $filedir_counter,
-	'articles_dir' => $articles_dir,'article_online_file' => $article_online_file,'filename_links' => $filename_links,
-	'filename_albums' => $filename_albums,'filename_users'=>$filename_users,'filename_challenge'=>$filename_challenge);
+$filenames = array('filename_css' => $filename_css,'filename_tempi' => $filename_tempi,'filename_atleti' => $filename_atleti,'filename_organizzatori' => $filename_organizzatori,'filedir_counter' => $filedir_counter,'articles_dir' => $articles_dir,'article_online_file' => $article_online_file,'filename_links' => $filename_links,'filename_albums' => $filename_albums,'filename_users'=>$filename_users);
 $pathnames = array('root_prefix' => $root_prefix,'root_path' => $root_path,'site_abs_path' => $site_abs_path,'script_abs_path' => $script_abs_path,'modules_site_path' => $modules_site_path,'config_dir' => $config_dir,'album_dir' => $album_dir);
-$varie = array('symbol_1_partecipazione' => $symbol_1_partecipazione,'symbol_1_partecipazione_best' => $symbol_1_partecipazione_best,'symbol_record' => $symbol_record,'symbol_record_best' => $symbol_record_best,'symbol_info'=>$symbol_info);
+$varie = array('symbol_1_partecipazione' => $symbol_1_partecipazione,'symbol_1_partecipazione_best' => $symbol_1_partecipazione_best,'symbol_record' => $symbol_record,'symbol_record_best' => $symbol_record_best);
 $custom = array('homepage_link' => $homepage_link,'tempo_max_M' => $tempo_max_M,'tempo_max_F' => $tempo_max_F,'tempo_max_grafico' => $tempo_max_grafico,'race_name' => $race_name,'web_title' => $web_title,'web_description' => $web_description,'web_keywords' => $web_keywords,'email_info' => $email_info);
 $admin = array('password_album' => $password_album,'password_config' => $password_config,'password_articoli' => $password_articoli,'password_upload_file' => $password_upload_file,'max_last_editions' => $max_last_editions,'max_online_articles' => $max_online_articles);
 
@@ -218,7 +212,7 @@ if (!$file) {
     exit;
 }
 while (!feof ($file)) {
-    $linea = rtrim(fgets ($file, 1024));
+    $linea = fgets ($file, 1024);
 	$lista = explode(";", $linea,$num_colonne);
 	
 	if (count($lista)>=$num_colonne) {
@@ -272,8 +266,7 @@ extract(indici());
 $legenda=array_unique($legenda);
 
 # ordina la legenda, e lascia solo i simboli noti
-$simboli_noti = array('F.T.M.','Rit.','Squ.',$symbol_1_partecipazione,$symbol_1_partecipazione_best,
-					$symbol_record,$symbol_record_best,'info');
+$simboli_noti = array('F.T.M.','Rit.','Squ.',$symbol_1_partecipazione,$symbol_1_partecipazione_best,$symbol_record,$symbol_record_best);
 $legenda_ordinata=array();
 foreach ($simboli_noti as $simbolo)
 {
@@ -288,7 +281,6 @@ if (count($legenda_ordinata) > 0)
 	echo '<br>';
 	echo '<table class="tabella_legenda">';
 	
-	echo "<tr><td colspan='2'>Legenda:</td></tr>\n";
 	foreach ($legenda_ordinata as $voce)
 	{
 		switch ($voce) 
@@ -313,10 +305,6 @@ if (count($legenda_ordinata) > 0)
 			break;
 		case $symbol_record_best:
 			$info = "record personale assoluto";
-			break;
-		case 'info':
-			$voce = $symbol_info;
-			$info = "Ulteriori informazioni disponibili";
 			break;
 		default:
 			$info = "";
@@ -387,7 +375,6 @@ echo "  <tbody>\n";
 
 $note = array(); # insieme delle note visualizzate
 $legenda = array(); # insieme delle voci in legenda
-$flag_has_info = 0; # vale 1 se viene visualizzata almeno una informazione, e quindi il simbolo va spiegato in legenda
 for ($i = 1; $i < count($archivio); $i++) {
 	$prestazione = $archivio[$i];
 	
@@ -418,6 +405,14 @@ for ($i = 1; $i < count($archivio); $i++) {
 		
 		$allineamento = "center";
 		
+		# campo nome
+		if (array_key_exists("info",$prestazione) & ($mask[$temp] == $indice_nome) ) {
+			$allineamento = "left";
+			if (mostro_link($prestazione['info'])) {
+				$campo = "<a href=\"info.php?id=".$prestazione['info'][$indice2_id]."\">".$campo."</a>";
+			}
+		}
+			
 		# gestisci le note (se viene visualizzato il tempo)
 		if (array_key_exists("info",$prestazione) & ($mask[$temp] == $indice_tempo) ) {
 			$nota = trim($prestazione[$indice_nota]);
@@ -436,16 +431,6 @@ for ($i = 1; $i < count($archivio); $i++) {
 				$note[$id_nota] = $nota;
 			}
 		}
-		
-		# campo nome (ed eventuale link a pagina info)
-		if (array_key_exists("info",$prestazione) & ($mask[$temp] == $indice_nome) ) {
-			$allineamento = "left";
-			if (mostro_link($prestazione['info']))
-			{
-				$campo = "<a href=\"info.php?id=".$prestazione['info'][$indice2_id]."\">$campo&nbsp;&nbsp;$symbol_info</a>";
-				$flag_has_info = 1;
-			}
-		}
 			
 		# campo posizione
 		if (array_key_exists("info",$prestazione) & ($mask[$temp] == $indice_posiz) ) {
@@ -455,10 +440,6 @@ for ($i = 1; $i < count($archivio); $i++) {
 		}
 		
 		# gestisci le note (se viene visualizzato il tempo)
-		if ($flag_has_info)
-		{
-			array_push($legenda,'info');
-		}
 		if ($mask[$temp] == $indice_tempo) // note di gara (F.T.M.,Rit.,Squ.)
 		{
 			if ((tempo_numerico($campo)) > 500)
@@ -1311,7 +1292,6 @@ function count_page($myself,$flags,$path_prefix = "")
   $REMOTE_ADDR = $_SERVER['REMOTE_ADDR'];
   $HTTP_REFERER = $_SERVER['HTTP_REFERER'];
   $QUERY_STRING = $_SERVER['QUERY_STRING'];
-  $username = $_COOKIE['login']['username'];
 
   $logfile 	= $path_prefix.'logfile.txt'; 				//every hit log file
   $backupfile 	= $path_prefix.'backupfile%03d.txt';   	//log backup file naming. E' importante lasciare alla fine del nome %3d (formato per sprintf)
@@ -1429,8 +1409,7 @@ $contatore_out = $counter;
     $log.='::'.StripDoubleColon($REMOTE_ADDR);
     $log.='::'.StripDoubleColon($HTTP_REFERER);
     $log.='::'.StripDoubleColon($HTTP_USER_AGENT);
-    $log.='::'.StripDoubleColon($date);
-	$log.="::$username\r\n";
+    $log.="::$date\r\n";
 
     //append current visit to log file
     $cf = fopen($logfile, 'a');

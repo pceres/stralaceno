@@ -29,31 +29,7 @@ $id_titolo_foto = 1;
 $id_descrizione_foto = 2;
 $id_descrizione_persone = 3;
 
-// verifica che $id_photo sia un id, altrimenti si tratta del nome della foto: verifica l'esistenza della foto
-$flag_id_is_number = (strpos($id_photo,".")=='');
-if (!$flag_id_is_number)
-{
-	$nome_foto = $root_path."custom/album/$nome_album/$id_photo";
-	if (!file_exists($nome_foto))
-	{
-		die($site_abs_path."custom/album/$nome_album/$id_photo non esiste!");
-	}
-}
-
 $album = $elenco_foto[$nome_album];
-
-// se $id_foto e' il nome della foto, trovane il relativo id
-if (!$flag_id_is_number)
-{
-	for ($i = 0; $i<count($album); $i++)
-	{
-		$dati_foto = $album[$i];
-		if ($dati_foto[$id_nomefile_foto] === $id_photo)
-		{
-			$id_photo = $i; // imposta l'id corretto
-		}
-	}
-}
 
 $photo_per_row = 3; // numero di foto per riga
 

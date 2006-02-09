@@ -6,9 +6,6 @@
 # Ogni riga che inizia con # viene ignorata.
 #
 
-[1987]
-I edizione.jpg::::I dieci partecipanti della prima edizione decisero di fare una foto di gruppo subito dopo la gara. L'intima convinzione dei pi&ugrave; era, infatti, che la bella iniziativa non si sarebbe potuta ripetere facilmente. La foto conferma inoltre una regola ferrea:  fotogenia e iconocentrismo non sempre sono sostenuti da performance adeguate... (commento del 2005)::Nicola D'Auria, Gerardo Ceres, Armando Sturchio, Massimo Russomanno, Tonuccio Corona, Donato Merola,<br> Felicino Caruso, Balduino Farina, Nicola Majorana, Gualfardo Montanari di Pasqu.
-
 [1991]
 lac1.jpg::::Alla partenza dell'edizione '91 anche Sandro Russomanno. In secondo piano Pasquale Cozzarelli, giudice di corsa e cronometrista.
 lac2.jpg::Start della III edizione::::Gelsomino Merola, Gualfardo Montanari di Agost., Angelino Cetrulo, Salvatore Russomanno, Franco Maroso, Salvatore Casillo, Sandro Russomanno, Donato Merola, Nicola D'Auria
@@ -180,7 +177,6 @@ dscn5448.jpg::Tutto ok::Scongiurata l'invasione di pecore e cavalli, constatato 
 dscn5414.jpg::Foto al fotografo::Chiudiamo con chi ha avuto il merito di catturare queste immagini: il fotografo ufficiale e le sue preziose collaboratrici::Nicoletta Ceres, Michele Ceres, Pina Nigro
 
 [generico1]
-ars.jpg:: 
 retro.gif::logo trasparente::
 STRA2005GIF.gif::Grafica maglietta 2005::
 
@@ -190,33 +186,8 @@ dscn5353.jpg::Nicola Melillo
 dscn5350.jpg::Gelsomino Merola::
 dscn5325.jpg::Nicola d'Auria::
 dscn5313.jpg::Pasquale Ceres::
-dscn5727.jpg::Piazza Sanit&agrave;::
-dscn5731.jpg::Campo sportivo Liloia::
-dscn5730.jpg::Ponte::
-dscn5733.jpg::Villaggio S.Caterina::
-dscn5735.jpg::Cimitero comunale::
-dscn5747.jpg::Hotel Testa::
-dscn5749.jpg::Basilica San Gerardo::
-dscn5752.jpg::Piani (piscina comunale)::
-dscn5752.jpg::Piazza Sanit&agrave; 2::
 
-[All.Coll.05]
-ManifestoAll.Coll.05.jpg::
-IMG_1594.jpg::
-IMG_1595.jpg::
-DSCN5780.jpg::
-DSCN5782.jpg::
-IMG_1596.jpg::
-IMG_1597.jpg::
-IMG_1600.jpg::
-img_1605.jpg::
-img_1607.jpg::
-IMG_1608.jpg::
-DSCN5809.jpg::
-IMG_1611.jpg::
-IMG_1615.jpg::
-IMG_1620.jpg::
-
-
-
+[ars]
+retro.gif
+stemma_caposele.jpg
 

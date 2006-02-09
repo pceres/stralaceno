@@ -1,4 +1,4 @@
-Autore::
+Autore::ARS
 Titolo::La I edizione del 1987
 --- Begin body ---
 <br>

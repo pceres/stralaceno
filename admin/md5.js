@@ -273,20 +273,3 @@ f[nome_campo].value = pass_crypt; // reimposta la password criptata nel form da 
 
 } // end cripta_campo_del_form
 
-
-/*
- * Crypt a field in a form
- */
-function cripta_campo_del_form_con_challenge(f,nome_campo,challenge) {
-
-var pass_clear, pass_crypt;
-
-pass_clear = f[nome_campo].value; // leggi dal form la password in chiaro
-pass_crypt = hex_md5(hex_md5(pass_clear)+challenge); // hash md5 della password
-f[nome_campo].value = pass_crypt; // reimposta la password criptata nel form da inviare
-
-//alert('md5(\''+pass_clear+'\'+\''+challenge+'\')='+pass_crypt);
-//alert(pass_clear);
-
-} // end cripta_campo_del_form_con_challenge(f,nome_campo,challenge) 
-

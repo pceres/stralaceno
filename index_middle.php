@@ -56,7 +56,6 @@ inizio colonna centrale
 	}
 
 	// incrementa il contatore per la homepage
-	$_COOKIE['login']['username'] = $login['username'];
 	$counter = count_page("homepage",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
 ?>
 

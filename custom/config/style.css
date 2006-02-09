@@ -149,11 +149,6 @@ table.tabella {
 
 table.tabella a {
 	color:rgb(51,102,153);
-	text-decoration: none;
-	}
-
-table.tabella a:hover {
-	text-decoration: underline;
 	}
 
 table.tabella tr {
