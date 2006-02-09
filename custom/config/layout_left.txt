@@ -8,7 +8,6 @@
 #	[Articoli] 		: visualizza tutto l'elenco degli articoli, 
 #				  se si sta visualizzando un solo articolo in colonna centrale
 #	[Link] 			: visualizza i link impostati in links.txt dall'interfaccia amministrativa
-#	[Delimitazione_x]	: separa i blocchi chiudendo e riaprendo il riquadro (x e' un numero progressivo)
 #
 # I valori consentiti per tipo_elemento sono:
 #	tempi			: pagina che si appoggia al database dei tempi. I valori consentiti per 
@@ -34,8 +33,8 @@
 #
 #
 #
-# il blocco [elenco_moduli] e' speciale, e contiene una serie di proprieta' relative ai blocchi (non e' necessario 
-# ci siano tutti) che costituiscono il layout. Il formato delle righe di [elenco_moduli] e' il seguente:
+# il blocco [elenco_moduli] e' speciale, e contiene una serie di proprieta' relative ai blocchi che costituiscono 
+# il layout. Il formato delle righe di [elenco_moduli] e' il seguente:
 #
 # nome_blocco::gruppo_abilitato1,gruppo_abilitato2,...,gruppo_abilitaton
 #
@@ -51,7 +50,7 @@
 Articoli::
 La corsa::
 Cronaca corrente::
-Links::
+Link::
 
 
 #
@@ -61,19 +60,18 @@ Links::
 [Articoli]
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Articoli] non prevede sottoelementi
 
-[La corsa]
-presentazione::Cos'&egrave; la Stralaceno::modulo_custom::::
+[Il progetto]
+presentazione::Chi siamo::modulo_custom::::
 # :: ::separatore::::
-albo_d_oro::Albo d'oro::tempi::::
-regolamento::Stralcio regolamento::modulo_custom::::
-organizzatori::Gli organizzatori::modulo_custom::::
-lettere_stralaceno::Lettere alla Stralaceno::modulo_custom::::
+caposele::Caposele::modulo_custom::::
+organizzatori::Atto Costitutivo-Statuto ARS::modulo_custom::::
+lettere::Le vostre lettere::modulo_custom::::
 #pregfas::Pregfas::modulo_custom::::Pagina in allestimento!
 
-[Cronaca corrente]
-ultime_edizioni::Ultime edizioni: ::modulo::3::
-classifica_MF::Classifica personali M+F::tempi::::
-classifica_F::Classifica personali F::tempi::::
+[Archivio articoli]
+ottobre_2005::Ottobre 2005::modulo_custom::::
+settembre_2005::Settembre 2005::modulo_custom::::
+agosto_2005::Agosto 2005::modulo_custom::::
 
-[Links]
-# qualsiasi voce aggiunga qui e' inutile: il blocco [Links] non prevede sottoelementi
+[Link]
+# qualsiasi voce aggiunga qui e' inutile: il blocco [Link] non prevede sottoelementi

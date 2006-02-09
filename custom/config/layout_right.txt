@@ -7,8 +7,7 @@
 # I nomi speciali di blocco sono:
 #	[Articoli] 		: visualizza tutto l'elenco degli articoli, 
 #				  se si sta visualizzando un solo articolo in colonna centrale
-#	[Links] 			: visualizza i link impostati in links.txt dall'interfaccia amministrativa
-#	[Delimitazione_x]	: separa i blocchi chiudendo e riaprendo il riquadro (x e' un numero progressivo)
+#	[Link] 			: visualizza i link impostati in links.txt dall'interfaccia amministrativa
 #
 # I valori consentiti per tipo_elemento sono:
 #	tempi			: pagina che si appoggia al database dei tempi. I valori consentiti per 
@@ -50,35 +49,22 @@
 
 [elenco_moduli]
 Approfondimenti::
-Delimitazione::
-Utente::users
 Amministrazione::admin
+Utente::users
 Login::guests
-Pagine in preparazione::admin
 
 
 #
 # da qui sotto inizia il layout vero e proprio
 #
 
-[Approfondimenti]
-droplist_edizioni::Archivio storico annuale (tutti i risultati di un anno): ::modulo::::
-droplist_atleti::Archivio storico personale: ::modulo::::
-archivio_storico::Archivio storico (tutti i risultati ordinati per tempi)::tempi::::
-grafico_tempi::Grafico andamento tempi negli anni::tempi::::
-classifica_partecipazioni::Classifica partecipazioni::tempi::::::
-#personaggi::I personaggi::modulo_custom::::
 
-[Delimitazione_1]
-
-[Utente]
-# qualsiasi voce aggiunga qui e' inutile: il blocco [Utente] non prevede sottoelementi
 
 [Amministrazione]
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Amministrazione] non prevede sottoelementi
 
+[Utente]
+# qualsiasi voce aggiunga qui e' inutile: il blocco [Utente] non prevede sottoelementi
+
 [Login]
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Login] non prevede sottoelementi
-
-[Pagine in preparazione]
-pregfas::Pregfas::modulo_custom::::
