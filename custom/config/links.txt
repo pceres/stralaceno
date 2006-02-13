@@ -6,7 +6,8 @@
 # una linea che inizia con # viene ignorata
 #
 
-http://www.stralaceno.cjb.net/::Stralaceno
+http://stralaceno.cjb.net/::Stralaceno
 http://www.caposeleonline.it::Caposeleonline
 http://liceonline.altervista.org/::Liceo di Caposele
 http://www.siamonoi.it::Siamonoi.it
+http://www.prolococaposele.it::Pro Loco Caposele
