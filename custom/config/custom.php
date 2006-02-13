@@ -10,15 +10,15 @@ $race_name = "Stralaceno";
 
 
 # parte iniziale (senza spazi ne' simboli) della cartella sul server in cui e' contenuto il sito
-$root_prefix = "stralaceno";
+$root_prefix = "ars";
 
 
 # titolo delle pagine web
-$web_title = "Stralaceno Web";
+$web_title = "Caposele Web";
 
 
 # campo meta-description
-$web_description = "Sito ufficiale della Stralaceno";
+$web_description = "Sito su Caposele";
 
 
 # campo meta-keywords (per i motori di ricerca)
