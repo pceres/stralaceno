@@ -7,7 +7,7 @@
 # I nomi speciali di blocco sono:
 #	[Articoli] 		: visualizza tutto l'elenco degli articoli, 
 #				  se si sta visualizzando un solo articolo in colonna centrale
-#	[Link] 			: visualizza i link impostati in links.txt dall'interfaccia amministrativa
+#	[Links] 		: visualizza i link impostati in links.txt dall'interfaccia amministrativa
 #
 # I valori consentiti per tipo_elemento sono:
 #	tempi			: pagina che si appoggia al database dei tempi. I valori consentiti per 
@@ -50,7 +50,7 @@
 Articoli::
 La corsa::
 Cronaca corrente::
-Link::
+Links::
 
 
 #
@@ -73,5 +73,5 @@ ottobre_2005::Ottobre 2005::modulo_custom::::
 settembre_2005::Settembre 2005::modulo_custom::::
 agosto_2005::Agosto 2005::modulo_custom::::
 
-[Link]
-# qualsiasi voce aggiunga qui e' inutile: il blocco [Link] non prevede sottoelementi
+[Links]
+# qualsiasi voce aggiunga qui e' inutile: il blocco [Links] non prevede sottoelementi
