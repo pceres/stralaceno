@@ -6,188 +6,27 @@
 # Ogni riga che inizia con # viene ignorata.
 #
 
-[1991]
-lac1.jpg::::Alla partenza dell'edizione '91 anche Sandro Russomanno. In secondo piano Pasquale Cozzarelli, giudice di corsa e cronometrista.
-lac2.jpg::Start della III edizione::::Gelsomino Merola, Gualfardo Montanari di Agost., Angelino Cetrulo, Salvatore Russomanno, Franco Maroso, Salvatore Casillo, Sandro Russomanno, Donato Merola, Nicola D'Auria
-lac3.jpg::::Nicola D'Auria chiuder&agrave; 4&deg; in 24' 56''
-maroso1.jpg::::::Franco Maroso, Salvatore Russomanno
-maroso2.jpg::::::Franco Maroso, Sandro Russomanno 
-
-[1994]
-lac4.jpg::Foto di gruppo edizione 1994::::Felice Di Trolio, Gualfardo Montanari di Agost., Franco Russomanno, Gerardo Gervasio, Nicola D'Auria, Pasquale Farina Hz, Michele Ceres, Gelsomino Merola, Angelino Cetrulo, Massimo Russomanno,<br> Balduino Farina, Giuseppe Rosania, Massimo Cetrulo, Roberto Notaro, Toni Biondi, Gerardo Notaro, Felicino Caruso, Armando Grasso di Gels.
-
-[1995]
-lac6.jpg::Foto di gruppo edizione 1995::Come spesso accade in questi casi, i protagonisti della foto non sono i protagonisti della corsa::Massimo Russomanno, Pasquale Cozzarelli, Gerardo Ceres di Lor., Nicola D'Auria, Gianni Cetrulo, Luciano Viscido, Felice Di Trolio, Pasquale Ceres, Alessandro Russomanno, Luciano Rosania, Franco Malanga, Gelsomino Merola,<br> Pasquale Ciccone, Donato Merola, Alfonso Sturchio, Mario Nesta 
-
-[1997]
-_9A_0294.jpg::::Al via numerosi caposelesi di varia et&agrave;, taglia e ceppo etnico::Donato Merola, Angelo Ciccone, Rocco Rosania, Mario Nesta, Massimo Cetrulo, Benedetto Montanari, Davide Liloia, Damian Mino, Gerardo Nisivoccia, Lello Viscardi, Massimo Russomanno, Pietro D'Alessio, Donato Ceres, Alessandro Russomanno, Rocco Grasso, Pasquale Ceres, Angelo Ceres, Nicola D'Auria
-11A_0292.jpg::::Il primo chilometro &egrave;, come spesso accade, concitato e ricco di sorpassi reciproci::Alessandro russomanno, Alfonso Nesta Pzpz, Mario Nesta, Donato Ceres, Alfonso Nesta, Davide Liloia, Pasquale Ceres, Rocco Grasso, Armando Grasso 
-12A_0291.jpg::::Un mito d'altri tempi, Alfonso Nesta: tanta la strada ancora da percorrere...
-13A_0290.jpg::::Il dottor Massimo Russomanno nell'attacco decisivo. Evidente la differenza tra scapoli e ammogliati...::Angelo Ciccone, Donato Merola, Massimo Russomanno
-14A_0300.jpg::::Un raggio di sole preannuncia a Massimo Russomanno la sua prima storica vittoria nella sfida personale con Donato Merola: una pepatissima "gara nella gara" vissuta per tutto l'anno a suon di battute salaci e provocazioni d'ogni sorta::Angelo Ciccone, Donato Merola, Massimo Russomanno
-15A_0299.jpg::::Sul rettilineo prima del curvone la mancanza di preparazione specifica comincia a farsi sentire::Mario Nesta, Massimo Cetrulo, Gerardo Nisivoccia, Alessandro Russomanno, Nicola D'Auria, Armando Grasso, Alfonso Nesta, Alfonso Nesta Pzpz, Donato Ceres, Pasquale Ceres, Davide Liloia, Pietro D'Alessio
-16A_0298.jpg::::Il coraggioso Rocco Grasso &egrave; il primo a tentare il colpo gobbo per dimostrare che un vero atleta si cimenta in tutti gli sport
-17A_0297.jpg::::"Zanetti" tenta di sorprendere i boss approfittando del flash della macchina fotografica....verr&agrave; inesorabilmente riagguantato...!::Donato Ceres, Pasquale Ceres, Davide Liloia, Pietro D'Alessio
-18A_0296.jpg::::::Nicola D'Auria, Armando Grasso
-19A_0305.jpg::::La "troika" dei migliori annulla lo svantaggio iniziale e supera due coraggiosi outsider::Alfonso Nesta Pzpz, Rocco Grasso, Donato Ceres, Davide Liloia, Pasquale Ceres
-20A_0304.jpg::::Tra i partecipanti anche due podoturisti::Mario Nesta, Massimo Cetrulo
-21A_0303.jpg::::Il prezzo della gloria...::Massimo Russomanno
-22A_0302.jpg::::Record personale per Alessandro Russomanno che qui vediamo insistere con il 53x15
-23A_0301.jpg::::Determinato come al solito, Armando Grasso non guarda in faccia a nessuno
-25A_0308.jpg::::Per il re degli altopiani, incappato in una giornata storta, un pur sempre prestigioso terzo posto::Davide Liloia
-26A_0307.jpg::::...sebbene non pi&ugrave; in verde et&agrave;, stabilisce il record personale...::Nicola D'Auria
-27A_0306.jpg::::Impeccabili come sempre il giudice di corsa e il suo staff::Pasquale Cozzarelli, Angelo Ceres di Vinc.
-_25_0309.jpg::::Donato Ceres &egrave; l'ultimo a cedere al prepotente allungo di Pasquale Ceres, gi&agrave; vincitore della scorsa edizione::Alfonso Nesta Pzpz, Donato Ceres, Pasquale Ceres
-
-[1999]
-lac10.jpg::::::Nicola Melillo, Luciano Rosania
-
-[2000]
-00A_0260.jpg::XII edizione::Una bella giornata di sole accoglie i partecipanti
-stra-2000.jpg::Ultimi minuti di attesa::
-stralacen-2000.jpg::Si cerca di stemperare la tensione::::Marco Ceres, Alessandro Russomanno, Angelo Ceres di Vinc., Nicola D'Auria, Raffaele Colatrella, Michele Ceres, Nicola Melillo, Angelo Ceres, Cesare Nisivoccia, Donato Ceres, Gualfardo montanari, Giuseppe Ceres
-2000.jpg::Tutti pronti a far scattare i cronometri::::Marco Ceres, Francesco Ceres, Gelsomino Merola, Angelo Ceres, Alessandro Russomanno, Sandro Russomanno di Ger., Nicola D'Auria, Gaetano Rosania, Nicola Melillo, Cesare Nisivoccia, Gelsomino Merola di Vito, Giuseppe Cetrulo, Donato Ceres
-str-2000.jpg::Il 'via' dell'edizione 2000::::Gianni Cetrulo, Marco Ceres, Francesco Ceres, Antonio D'Elia, Alessandro Russomanno, Nicola D'Auria, Cesare Nisivoccia, Nicola Melillo, Gelsomino Merola di Vito, Donato Ceres, Luciano Rosania
-_2A_0257.jpg::G.P.M.::Gran Premio della Montagna: la corsa si fa pi&ugrave; dura::Sandro Russomanno di Ger., Alessandro Russomanno, Nicola D'Auria
-0266.jpg::Leggera discesa prima del 3&deg; km::Il cambio di ritmo &egrave; repentino::Alessandro Russomanno, Sandro Russomanno di Ger., Nicola D'Auria
-stralac-2000.jpg::::::Nicola Melillo
-stral-2000.jpg::::::Gino Amendola, Gianni Cetrulo 
-_4A_0265.jpg::::Gelsomino Merola primo in 20' 11''
-_5A_0264.jpg::::Nicola D'Auria ottiene il personale con 22' 42''
-_6A_0263.jpg::::Lello Viscardi chiude in 29' 58''
-_7A_0262.jpg::::Angelo Ceres 25&deg; in 30' 51''
-_8A_0261.jpg::::Per Benedetto Montanari 28&deg; posto in 32' 35''
-0272.jpg::::Il graditissimo ritorno di Michele Ceres
-0271.jpg::::Giuseppe Ceres conclude il percorso in 39' 47'' 
-0270.jpg::Relax finale::::Donato Ceres, Cesare Nisivoccia, Gerardo Notaro, Nicola D'Auria, Angelo Ceres, Paolo Viscardi  
-
-[2001]
-stralacen-2001.jpg::Inizia ad animarsi la zona partenza::::Brasiello Gerardo, Nicola Melillo, Damian Mino, Cesare Nisivoccia, Nicola D'Auria
-2001.jpg::Si avvicina il 'via'::::Alessandro Russomanno, Paolo Viscardi, Antonio Ruglio di Ang., Daniele Castagno, Nicola Melillo, Gerardo Grasso di Raff., Donato Merola, Luca Cibellis, Cesare Nisivoccia, Gerardo Grasso di Ton., Giovanni Paolercia, Rocco Grasso
-str-2001.jpg::::::Donato Ceres, Sandro Russomanno di Ger., Alessandro Russomanno, Nicola Melillo, Nicola D'Auria, 
-stral-2001.jpg::::::Nicola Melillo, Alessandro Russomanno
-
-[2002]
-5 km.jpg::::Un saluto rilassato di Pierlorenzo Pallante
-cino.jpg::::Raffaele Merola concluder&agrave; al secondo posto
-donatom.jpg::::Il veterano Donato Merola
-russomanni-2002.jpg::::::Pasquale Russomanno, Sandro Russomanno di Ger.
-nicolino-2002.jpg::::::Nicola Melillo
-alfsturchio-2002.jpg::::::Alfonso Sturchio
-roccoang-2002.jpg::::::Rocco Cibellis, Angelino Cetrulo
-
-[2003]
-112_1231.JPG::::Nemmeno il tempo di arrivare ed ecco la prima foto::Alfredo Grasso, Sandro Russomanno
-112_1232.JPG::::Ne arrivano altri::Pasquale Russomannno, Donato Ceres, Angelo Ceres di Vinc., Alfredo Grasso, Sandro Russomanno di Ger.
-laceno03_2.JPG::Lo staff organizzativo::Fra poco iniziera' il "duro" lavoro (per gli atleti!)::Donato Gervasio, Donatello Cirillo, Lello Viscardi, Pietro Russomanno, Michele Ceres
-112_1236.JPG::::Un'icona della Stralaceno::Armando Grasso, Pasquale Russomanno, Giuseppe Cetrulo
-112_1241.JPG::::Un particolare::Armando Grasso
-112_1237.JPG::::Anche in tenuta atletica e' un "golden boy"::Pasquale Russomanno, Massimo Cetrulo, Michele Cuozzo, Nicola Melillo di Gius.
-112_1238.JPG::Prima della partenza::La tensione (mascherata da timidi sorrisi) cresce...::Alessandro Russomanno, Pasquale Russomanno, Nicola D'Auria, Angelo Ceres di Vinc.
-Img2003-08-29_2.JPG::::Una fase delicata: si provano i cronometri::Alessandro Russomanno, Nicola D'Auria, Pasquale Russomanno, Donato Malanga
-112_1239.JPG::::Il cronometrista ufficiale::Lello Viscardi
-112_1240.JPG::::Ultime istruzioni impartite agli atleti dal direttore di gara Gerardo Ceres::Claudio Donatiello, Antonio Ceres, Nicola Melillo, Gelsomino Merola di Don., Paolo Viscardi, Luigi Guarino, Prezioso Galdi,Amato Merola, Giuseppe Cetrulo, Di Vincenzo Gianfranco, Michele Notaro, Gerardo Grasso di Ton., Felicino Caruso, Donato Ceres, Donato Merola  
-112_1246.JPG::La partenza::Tutti sorridenti... Ancora per poco!::Pasquale Russomanno, Gianni Cetrulo, Angelo Di Masi, Raffaele Merola, Gianfranco Di Vincenzo, Angelo Ceres di Vinc., Giuseppe Cetrulo, Donato Ceres, Felicino Caruso, Cesare Nisivoccia 
-laceno03_3.JPG::La gara e' iniziata::10 secondi dopo lo start dato da Gerardo Ceres
-Img2003-08-29_4.JPG::57 partecipanti::Il gruppone avanza 
-112_1248.JPG::::::Margherita Spatola
-112_1249.JPG::::Le prime sofferenze::Antonio Cers, Prezioso Galdi, Rocco Grasso
-112_1250.JPG::::E' passato solo un km...::Luigi Guarino, Salvatore Colatrella, Felicino Caruso, Rocco Feniello, Armando Grasso di Raff.
-112_1251.JPG::::::Massimo Cetrulo
-112_1252.JPG::::Ancora freschi e sorridenti::Benito Sista, Angelo Ceres di Vinc.
-112_1253.JPG::::Vitale Cetrulo abbozza un sorriso
-112_1254.JPG::::La grinta di Nicola Melillo e lo stile di Pasquale Russomanno
-112_1255.JPG::::La potenza di Sandro Russomanno di Ger.
-112_1258.JPG::::Il "webmastro" cattura preziose immagini::Gerardo Notaro
-112_1260.JPG::::L'edizione 2003 e' stata pesantemente condizionata per tutta la corsa da un polveroso vento caldo::Armando Grasso di Raff., Nicola Melillo di Gius.
-112_1262.JPG::::Al 4&deg; km Pasquale Russomanno rompe gli indugi e se ne va...
-112_1263.JPG::La reazione non c'e'!::...agli altri non rimane che guardare::Alfredo Grasso, Amato Merola, Alessandro Russomanno, Nicola D'Auria, Sandro Russomanno di Ger., Paolo Viscardi 
-112_1265.JPG::::Vince con 22' 42'' Raffaele Merola
-Img2003-08-29_5.JPG::::Secondo con 22' 59'' Gianfranco Di Vincenzo
-112_1266.JPG::::5&deg; posto per Pasquale Russomanno
-112_1267.JPG::::Anche se non sembra, arriveranno appaiati sul traguardo in 9&deg; posizione::Alessandro Russomanno, Nicola D'Auria
-112_1268.JPG::::13&deg; e 14&deg; posto per Sandro Russomanno di Ger. e Michele Notaro
-112_1269.JPG::::L'arrivo del gladiatore (23&deg;) scortato da Angelino (24&deg;)::Nicola Melillo, Angelino Cetrulo
-112_1270.JPG::::Stesso nome, stesso cognome, stessa posizione (34&deg;)::Armando Grasso di Pasqu., Armando Grasso di Raff.
-112_1271.JPG::::::Margherita Spatola
-112_1272.JPG::::L'agognato traguardo::Gabriella Aiello
-112_1273.JPG::::Fuori Tempo Massimo::Michele Cuozzo
-laceno03.JPG::::A Gerardo Ceres il compito di ufficializzare i tempi
-
-[2004]
-stralaceno2004-4.JPG::Foto di gruppo per alcune corridrici::::Gelsomina Aiello, Gerarda Russomanno, Angela Aiello, Annalisa Casale
-lac9.jpg::::::Gianfranco Di Vincenzo
-lac8.jpg::::::Nicola Melillo
-stralaceno2004-3.JPG::Si intravede la linea di partenza (e di arrivo)::::Gerardo Notaro, Thomas Cibellis, Rocco Nesta
-Laceno.jpg::La partenza della XVI edizione::::Pasquale Colatrella, Cibellis Thomas, Proietto Rocco, Donato Malanga, Gerardo Martino, Salvatore Malanga, Roberto Notaro, Angelino Cetrulo, Gelsomino Merola, Salvatore Colatrella, Pasquale Russomanno, Alfredo Grasso, Gianfranco Di Vincenzo, Gerardo Sozio, Paolo Viscardi, Salvatore Merola, Nicola D'Auria, Donato Ceres, Donato Merola, Rocco Grasso, Rocco Nesta 
-stralaceno2004-1.JPG::1 minuto dopo la partenza::::Luca Cibellis, Juli Pucillo, Donato Malanga, Gianfranco Rosania, Gelsomino Merola di Vito, Gerardo Notaro, Armando Grasso di Pasqu., Gianni Malanga 
-stralaceno2004-5.JPG::La gara si &egrave; da poco conclusa::::Paolo Viscardi, Gerardo Notaro, Gerado Sozio 
-stralaceno2004-6.JPG::In attesa della proclamazione dei risultati::::Rocco Nesta, Gianfranco Di Vincenzo,  Paolo Viscardi, Gerardo Martino, Salvatore Merola
-
-[2005]
-dscn3875.jpg::XVII edizione::
-dscn5299.jpg::Il punto di non ritorno...::::Valentino Di Masi
-dscn5316.jpg::Tensione pre-gara::::Simone Galdi, Maurizio Liloia, Gelsomino Merola di Don., Gerardo Russomanno, Tommaso Cibellis, Rocco Proietto, Salvatore Malanga di Alf., Giovanni Cifrodelli 
-dscn5324.jpg::Il secondo cronometrista::Un ruolo delicato, ma indispensabile se si vuole certificare l'assoluta attendibilit&agrave; delle rilevazioni effettuate::Alfonso Curcio
-dscn5307.jpg::Soft stretching::::Antonio Ceres
-dscn5332.jpg::Si attende l'appello::::Monica Galdi, Claudio Donatiello, Rocco Feniello, Nicola Melillo, Donato Merola, Roberto Notaro
-dscn5333.jpg::::Durante l'appello i cronometristi sono attenti a verificare la corrispondenza tra nomi e persone::Gerardo Martino, Rocco Proietto, Gianfranco Di Vincenzo, Nicola D'Auria, Lello Viscardi, Alfonso Curcio
-dscn3876.jpg::Pronti alla partenza::Il direttore di gara, Gerardo Ceres, attende il via libera dall'ispettore di percorso::Alessio Zarra, Donato Merola, Giuseppe Rosania, Giuseppe Curcio, Rocco Feniello, Donatello Cirillo, Roberto Notaro, Nicola Melillo, Paolo Viscardi, Alfredo Grasso, Gerardo Martino, Pasquale Ceres, Salvatore Merola, Rocco Proietto, Gianfranco Di Vincenzo
-dscn3877.jpg::Partenza a testa bassa::::Niccol&ograve; Luongo, Tommaso Cibellis, Gianni Cetrulo, Claudio Donatiello, Antonio D'Elia, Maurizio Liloia, Gerardo Notaro, Donatello Cirillo, Gianfranco Rosania, Gaetano Rosania, Angelo Ceres di Vinc., Roberto Notaro, Valentino Di Masi, Pasquale Ceres, Gerardo Martino, Paolo Viscardi, Giovanni Cifrodelli, Alessandro Russomanno, Salvatore Merola, Rocco Proietto, Dario Nisivoccia
-dscn3878.jpg::Visti da dietro::Un temporale, un'ora prima della partenza, ha reso viscido l'asfalto
-dscn5336.jpg::Dopo 500 m::Il gruppo inizia a sgranarsi::Gerardo Martino, Gianfranco Di Vincenzo, Paolo Viscardi, Nicola Melillo, Rocco Feniello, Dario Nisivoccia, Salvatore Merola, Claudio Donatiello, Francesco Ceres di Gius.
-dscn5337.jpg::::Malgrado la respirazione poco ortodossa Rocco Feniello, che in questa fase &egrave; ancora alle spalle di Claudio Donatiello, riuscir&agrave; comunque a conseguire un ottimo 7&deg; posto con record personale
-dscn5338.jpg::::La gara &egrave; appena iniziata e l'esordiente Francesco Ceres non sa ancora che oggi la vittoria ha scelto proprio lui::Francesco Cers di Gius., Nicola Melillo, Salvatore Malanga di Alf., Donato Merola
-dscn5339.jpg::::Al primo chilometro sono ancora in molti appena alle spalle dei fuggitivi::Melillo Nicola, Salvatore Malanga di Alf., Donato Merola, Roberto Notaro, Gianfranco Rosania, Alessandro Russomanno, Giovanni Cifrodelli
-dscn5340.jpg::::Il veterano Nicola D'Auria, alla sua sedicesima partecipazione.
-dscn5341.jpg::::Il coraggio di questo bambino &egrave; fuori dal comune: &egrave; gi&agrave; alla seconda ostinata partecipazione fuori concorso (per limiti di et&agrave;)::Salvatore Colatrella, Gaetano Rosania, Gerardo Aiello, Alessio Zarra
-dscn5342.jpg::::Il d.n.a. ha avuto un ruolo importante nel sospingere mister Y verso il suo nuovo, prestigioso, record personale::Niccol&ograve; Luongo, Gelsomino Merola di Don., Simone Galdi
-dscn5343.jpg::::Con passo ed esperienza da decano, Gino sa gi&agrave; che alla lunga il n.50 non potr&agrave; opporgli resistenza::Gino Amendola, Gianni Cetrulo, Gerardo Notaro 
-dscn5344.jpg::::La gara nelle retrovie non &egrave; meno combattuta. Ne uscir&agrave; bene Antonio Ceres con il nuovo record personale::Maurizio Liloia, Rocco Rosania, Alfonso Curcio, Antonio Ceres, Angela Aiello
-dscn5345.jpg::::La graziosa vincitrice della competizione femminile precede altre meritevoli concorrenti, promesse e vecchie glorie dello sport caposelese::Angela Aiello, Giuseppe Rosania, Anita Ilaria, Angelo Viscardi, Monica Galdi   
-dscn5346.jpg::::Monica Galdi, alla sua terza partecipazione consecutiva, affiancata da una esordiente::Antonella D'Elia, Monica Galdi
-dscn5347.jpg::::I quattro che hanno fatto la gara, al 2&deg; km. In questa fase stanno, per&ograve;, buttando via secondi preziosi nel non procedere in fila indiana. Un errore non privo di conseguenze...::Rocco Proietto, Dario Nisivoccia, Gianfranco Di Vincenzo, Gerardo Martino
-dscn5348.jpg::::Paolo Viscardi autore di una bella gara nonostante i problemi al ginocchio::Paolo Viscardi, Alessandro Russomanno, Salvatore Merola, Francesco Ceres di Gius., Roberto Notaro, Valentino Di Masi
-dscn5352.jpg::::Valentino stringe la curva per mantenere la buona posizione conquistata::Valentino Di Masi, Salvatore Malanga di Alf., Gianfranco Rosania, Pasquale Ceres, Nicola D'Auria, Nicola Melillo, Gelsomino Merola di Don., Donato Ceres, Roberto Notaro, Alessio Zarra, Alfonso Malanga, Gerardo Russomanno, Gaetano Rosania, Alfredo Grasso
-dscn5354.jpg::::Un brillante protagonista di numerose corse che, grazie alle sue qualit&agrave; psicofisiche, pu&ograve; permettersi il lusso di precedere due iscritti nell'albo d'oro::Roberto Notaro, Ceres Angelo di Vinc., Pasquale Ceres, Donato Ceres
-dscn5356.jpg::::Forse Francesco Ceres sta ora incominciando ad intuire qualcosa...::Francesco Ceres di Gius., Paolo Viscardi, Salvatore Malanga di Alf., Valentino di Masi, Salvatore Merola, Claudio Donatiello, Rocco Feniello
-dscn5358.jpg::::E' gi&agrave; imprendibile Alessandro per i suoi compagni di allenamento::Alessandro Russomanno, Roberto Notaro, Donato Ceres, Angelo Ceres di Vinc., Nicola D'Auria, Nicola Melillo, Salvatore Malanga di Alf.
-dscn5362.jpg::::Un lieve rallentamento di Nicola D'Auria provoca un tamponamento multiplo::Pasquale Ceres, Donato Ceres, Angelo Ceres di Vinc., Nicola D'Auria
-dscn5363.jpg::::Gianfranco segue per ora ossequioso il plurivincitore Pasquale::Gaetano Rosania, Gianfranco Rosania, Pasquale Ceres
-dscn5365.jpg::::Valentino &egrave; duro a cedere::Valentino Di Masi, Nicola D'Auria
-dscn5367.jpg::::Chi si lascia avvicinare da questi due esemplari di orsi della Raia Magra non ha scampo::Donato Ceres, Nicola Melillo
-dscn5369.jpg::::Nuove leve: la I li accomuna::Gaetano Rosania, Gelsomino Merola di Don., Alessio Zarra, Alfonso Malanga, Gianfranco Rosania, Pasquale Ceres, Alfredo Grasso
-dscn5371.jpg::::Alfredo Grasso vola a conquistare il 19&deg; posto
-dscn5374.jpg::::Manca circa un Km... Siamo alla resa dei conti::Gerado Martino, Francesco Ceres di Gius., Rocco Proietto, Gianfranco Di Vincenzo, Dario Nisivoccia
-dscn5376.jpg::::Il gruppetto degli immediati inseguitori::Salvatore Merola, Rocco Feniello, Paolo Viscardi, Salvatore Malanga di Alf.
-dscn5385.jpg::::Sar&agrave; per l'anno prossimo...::Dario Nisivoccia
-dscn5394.jpg::::Un giovane affezionato: Luca Cibellis(26&deg;), seguito da Gerardo Russomanno
-dscn5396.jpg::::Donatello Cirillo giunge soddisfatto al traguardo: un netto miglioramento del personale
-dscn5398.jpg::::Kn&agrave; all'arrivo ha perso l'orientamento. L'importante per lui &egrave; non averlo perso nell'edizione '87::Gerardo Notaro, Maurizio Liloia, Donato Merola
-dscn5401.jpg::::Cosa non si fa per stimolare gli atleti fino al traguardo!::Antonio Ceres
-dscn5404.jpg::::L'arrivo compassato di Gianni Cetrulo alla sua quinta partecipazione.
-dscn3897.jpg::::L'arrivo in grande stile del maestro Giuseppe Rosania sotto lo sguardo attento e compiaciuto dei cronometristi
-dscn3901.jpg::::Due esordienti concludono al 45&deg; posto con un decoroso 38' 15''::Antonella D'Elia, Anita Ilaria
-dscn3902.jpg::::Il ritorno di Angelo Viscardi
-dscn5420.jpg::Si stila la classifica finale::Lo staff della XVII edizione si &egrave; arricchito di esperienza e competenza::Rosetta Bottiglieri, Lello Viscardi
-dscn5426.jpg::::Il direttore di gara legge i risultati ufficiali::Gerardo Ceres
-dscn5444.jpg::::Il giovanissimo vincitore Francesco Ceres
-podio.jpg::I primi 3::1&deg; Francesco Ceres, 2&deg; Gerardo Martino, 3&deg; Rocco Proietto
-dscn5448.jpg::Tutto ok::Scongiurata l'invasione di pecore e cavalli, constatato il regolare svolgimento della competizione, l'ispettore di percorso si gode meritati momenti di serenit&agrave; e soddisfazione::Pietro Russomanno
-dscn5414.jpg::Foto al fotografo::Chiudiamo con chi ha avuto il merito di catturare queste immagini: il fotografo ufficiale e le sue preziose collaboratrici::Nicoletta Ceres, Michele Ceres, Pina Nigro
-
-[generico1]
-retro.gif::logo trasparente::
-STRA2005GIF.gif::Grafica maglietta 2005::
-
-[varie]
-laceno.jpg::Laceno::
-dscn5353.jpg::Nicola Melillo
-dscn5350.jpg::Gelsomino Merola::
-dscn5325.jpg::Nicola d'Auria::
-dscn5313.jpg::Pasquale Ceres::
-
 [ars]
 retro.gif
 stemma_caposele.jpg
 
+[All.Coll.05]
+ManifestoAll.Coll.05.jpg::
+IMG_1594.jpg::
+IMG_1595.jpg::
+DSCN5780.jpg::
+DSCN5782.jpg::
+IMG_1596.jpg::
+IMG_1597.jpg::
+IMG_1600.jpg::
+img_1605.jpg::
+img_1607.jpg::
+IMG_1608.jpg::
+DSCN5809.jpg::
+IMG_1611.jpg::
+IMG_1615.jpg::
+IMG_1620.jpg::
+
+[varie]
+laceno.jpg::Altopiano del Laceno::::
+dscn5348::Edizione 2005::::Paolo Viscardi, Alessandro Russomanno, Salvatore Merola, Francesco Ceres di Gius., Roberto Notaro, Valentino Di Masi
