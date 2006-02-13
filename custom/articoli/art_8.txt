@@ -16,7 +16,7 @@ STRADE DI ACCESSO AL COMUNE S.P. 130 <br>
 STAZIONE FERROVIARIA Lioni 
 <p>
 <div align="center">
-<img id="foto" src="%file_root%custom/album/ars/stemma_caposele.jpg" alt="" border="0" width="420">
+<img id="foto" src="%file_root%custom/album/ars/stemma_caposele.jpg" alt="" border="0" width="200">
 </div>
 		
 --- End body ---
