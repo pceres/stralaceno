@@ -1,0 +1,158 @@
+#
+# Formato riga [Attributi]:
+# nome::stato::autenticazione::data_inizio_giocate::data_fine_giocate::data_presentazione_risultati
+#	nome
+#	stato				: attiva
+#					: sospesa
+#					: invisibile
+#
+#	autenticazione			: no_auth
+#					: user
+#					: chiave
+#
+#	data_inizio_giocate		: hh:mm gg/mm/aaaa
+#	data_fine_giocate		: hh:mm gg/mm/aaaa
+#	data_presentazione_risultati	: hh:mm gg/mm/aaaa
+#
+[Attributi]
+Lotteria Mondiali di Calcio 2006::attiva::no_auth::00:00 16/02/2006::18:00 09/06/2006::00:00 10/07/2006
+
+#
+# Formato riga [Domande]:
+# testo_domanda::tipo::gruppo_risposte::ripetibile
+#	testo_domanda
+#	tipo				: fixed
+#					: free_number
+#					: free_string
+#
+#	gruppo_risposte			: ci deve essere una proprieta' del tipo [gruppo_risposte]
+#	ripetibile			: ripetibile
+#					: non_ripetibile
+#
+[Domande]
+1° classificato::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::non_ripetibile
+2° classificato::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::non_ripetibile
+3° classificato::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::non_ripetibile
+4° classificato::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::non_ripetibile
+Perdente quarto di finale (Berlino)::fixed::Gruppo gironi ABCD::non_ripetibile
+Perdente quarto di finale (Amburgo)::fixed::Gruppo gironi EFGH::non_ripetibile
+Perdente quarto di finale (Gelsenkirchen)::fixed::Gruppo gironi ABCD::non_ripetibile
+Perdente quarto di finale (Francoforte)::fixed::Gruppo gironi EFGH::non_ripetibile
+
+[Gruppo partecipanti]
+Angola
+Arabia Saudita
+Argentina
+Australia
+Brasile
+Corea del sud
+Costa d'Avorio
+Costa Rica
+Croazia
+Ecuador
+Francia
+Germania
+Ghana
+Giappone
+Inghilterra
+Italia
+Iran
+Messico
+Olanda
+Paraguay
+Polonia
+Portogallo
+Rep. Ceca
+Serbia Montenegro
+Spagna
+Stati Uniti
+Svezia
+Svizzera
+Togo
+Trinidad e Tobago
+Tunisia
+Ucraina
+
+[Gruppo Girone A]
+Germania
+Costa Rica
+Polonia
+Ecuador
+
+[Gruppo Girone B]
+Inghilterra
+Paraguay
+Trinidad E Tobago
+Svezia
+
+[Gruppo Girone C]
+Argentina
+Costa D'Avorio
+Serbia Montenegro
+Olanda
+
+[Gruppo Girone D]
+Messico
+Iran
+Angola
+Portogallo
+
+[Gruppo Girone E]
+Stati Uniti
+Repubblica Ceca
+Italia
+Ghana
+
+[Gruppo Girone F]
+Australia
+Giappone
+Brasile
+Croazia
+
+[Gruppo Girone G]
+Corea Del Sud
+Togo
+Francia
+Svizzera
+
+[Gruppo Girone H]
+Spagna
+Ucraina
+Tunisia
+Arabia Saudita
+
+[Gruppo gironi ABCD]
+Germania
+Costa Rica
+Polonia
+Ecuador
+Inghilterra
+Paraguay
+Trinidad E Tobago
+Svezia
+Argentina
+Costa D'Avorio
+Serbia Montenegro
+Olanda
+Messico
+Iran
+Angola
+Portogallo
+
+[Gruppo gironi EFGH]
+Stati Uniti
+Repubblica Ceca
+Italia
+Ghana
+Australia
+Giappone
+Brasile
+Croazia
+Corea Del Sud
+Togo
+Francia
+Svizzera
+Spagna
+Ucraina
+Tunisia
+Arabia Saudita
