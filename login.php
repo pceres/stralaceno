@@ -12,7 +12,7 @@ $cookie_username = $_COOKIE['login']['username'];
 $cookie_usergroups = $_COOKIE['login']['usergroups'];
 $cookie_challenge_id = $_COOKIE['login']['challenge_id'];
 
-$action = $_REQUEST['action'];
+$login_action = $_REQUEST['login_action'];
 $username = $_REQUEST['username'];
 $userpass = $_REQUEST['userpass'];
 $challenge = $_REQUEST['challenge'];
@@ -25,8 +25,7 @@ $strict = false; // true -> qualsiasi errore blocca l'esecuzione; false -> viene
 $elenco_users = get_config_file($filename_users);
 $elenco_users = $elenco_users['users'];
 
-
-switch ($action)
+switch ($login_action)
 {
 case '':
 case 'login':
@@ -119,7 +118,7 @@ case 'logout':
 	setcookie("login[usergroups]","",time()-3600);
 	setcookie("login[challenge_id]","",time()-3600);
 	break;
-} // end switch $action
+} // end switch $login_action
 
 
 // gestisci errori:
