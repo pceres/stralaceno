@@ -242,6 +242,11 @@ if ($item_type != 'modulo')
 		$item_name = $layout_item[$indice_layout_data][1];
 		$item_caption = $layout_item[$indice_layout_data][2];
 		break;
+	case 'external_link':
+		$item_link = $layout_item[$indice_layout_data];
+		$item_name = $layout_item[$indice_layout_name];
+		$item_caption = $layout_item[$indice_layout_caption];
+		break;
 	case 'separatore':
 		echo "<tr><td colspan=\"2\"><hr></td></tr>";
 		return;
@@ -502,7 +507,7 @@ echo $user_msg;
 			</tr>
 			
 <?php
-		$layout_item_array = array("index.php?action=logout","logout","Logout");
+		$layout_item_array = array("index.php?login_action=logout","logout","Logout");
 		$virtual_item = array($indice_layout_type => "raw",$indice_layout_data => $layout_item_array);
 		show_layout_block_item($layout_block,$virtual_item,$layout_data);
 ?>
