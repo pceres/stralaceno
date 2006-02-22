@@ -141,9 +141,13 @@ echo "<div class=\"titolo_tabella\">$lotteria_nome</div>";
 switch ($action)
 {
 case "auth":
-	if ($lotteria_auth == "key")
+	if ($lotteria_auth == "no_auth")
 	{
-		echo "<form action=\"questions.php\" method=\"post\">\n";
+		$auth_token = $login['username'];
+	}
+	elseif ($lotteria_auth == "key")
+	{
+		echo "<form method=\"post\">\n";
 		echo 'Inserisci la chiave segreta per giocare:<input type="edit" name="secret_key"/><br>';
 		echo '<input type="submit" value="vai avanti"/>';
 		
@@ -199,17 +203,19 @@ case "check_auth":
 		echo "Benvenuto, puoi giocare.<br><br>\n";
 	}
 case "fill":
-	echo "<form action=\"questions.php\">";
+	echo "<form method=\"post\">";
 	$question_count = 0;
 	foreach ($lotteria["Domande"] as $domanda)
 	{
+		$question_tag = sprintf($question_tag_format,$question_count);
+		
 		echo "$domanda[$id_caption]\n";
 		
 		switch ($domanda[$id_tipo])
 		{
 		case "free_number":
 		case "free_string":
-			echo(sprintf("<input name=\"$question_tag_format\" type=\"edit\">\n",$question_count));
+			echo "<input name=\"$question_tag\" type=\"edit\">\n";
 			break;
 		case "fixed":
 			// determina le varie risposte possibili
@@ -220,11 +226,19 @@ case "fill":
 				$voci = array_merge($lotteria[$gruppo_domande],$voci);
 			}
 			
-			echo(sprintf("<select name=\"$question_tag_format\">\n",$question_count));
+			echo "<select name=\"$question_tag\" >\n";
 			echo $domanda[$id_gruppo]."\n";
 			foreach($voci as $voce)
 			{
-				echo "<option>$voce[0]</option>\n";
+				if ($_REQUEST[$question_tag] === $voce[0])
+				{
+					$default_tag = " selected";
+				}
+				else
+				{
+					$default_tag = "";
+				}
+				echo "<option$default_tag>$voce[0]</option>\n";
 			}
 			echo "</select>\n";
 			break;
@@ -249,15 +263,14 @@ case "last_check":
 	$answers=array();
 	foreach ($lotteria["Domande"] as $domanda)
 	{
+		$question_tag = sprintf($question_tag_format,$question_count);
 		switch ($domanda[$id_tipo])
 		{
 		case "free_number":
 		case "free_string":
-			$question_tag = sprintf($question_tag_format,$question_count);
 			$answer = $_REQUEST[$question_tag];
 			break;
 		case "fixed":
-			$question_tag = sprintf($question_tag_format,$question_count);
 			$answer = $_REQUEST[$question_tag];
 		}
 		array_push($answers,$answer);
@@ -270,13 +283,17 @@ case "last_check":
 	if ($result)
 	{
 		echo "Confermi le tue scelte?<br><br>\n";
+		$conferma_disabled = "";
+		$modifica_disabled = "";
 	}
 	else
 	{
 		echo "Ci sono errori nelle risposte!<br><br>\n";
+		$conferma_disabled = "disabled";
+		$modifica_disabled = "";
 	}
 
-	echo "<form>\n";
+	echo "<form method=\"post\">\n";
 	$question_count = 0;
 	foreach ($lotteria["Domande"] as $domanda)
 	{
@@ -286,7 +303,7 @@ case "last_check":
 		{
 		case "free_number":
 		case "free_string":
-			$question_tag = sprintf($question_tag_format,$question_count);
+			$question_tag = sprintf($question_tag_format,$question_count); // question_xx
 			$answer = $_REQUEST[$question_tag];
 			if ($results[$question_tag] == 0)
 			{
@@ -330,7 +347,8 @@ case "last_check":
 	echo "<input type=\"hidden\" name=\"id_questions\" value=\"$id_questions\">\n";
 	echo "<input type=\"hidden\" name=\"action\" value=\"save\">\n";
 	echo "<input type=\"hidden\" name=\"auth_token\" value=\"$auth_token\">\n";
-	echo '<input type="submit" value="conferma"/>';
+	echo "<input type=\"submit\" value=\"modifica\" $modifica_disabled OnClick='form[\"action\"].value=\"fill\";' />";
+	echo "<input type=\"submit\" value=\"conferma\" $conferma_disabled />";
 	
 	echo "</form>\n";
 	break;
@@ -361,12 +379,6 @@ case "save":
 		$question_count++;
 	}
 	
-/*	echo $string_answers."<br>\n";
-	echo time()."<br>\n";
-	echo date("l dS of F Y h:i:s A")."<br>\n";
-	$auth_token = $_REQUEST["auth_token"];
-	echo $auth_token."<br>\n";
-*/	
 	$log = $string_answers."::".time()."::".date("l dS of F Y h:i:s A")."::".$auth_token."\n";
 	
 	$bulk = get_config_file($file_log_questions);
@@ -380,9 +392,10 @@ case "save":
 	
 	if ($giocata_ripetuta)
 	{
-		echo("La giocata &egrave; gi&agrave; stata registrata:");
+		echo("La giocata &egrave; gi&agrave; stata registrata:<br><br>\n");
 		show_giocate($giocate);
-		die();
+		//die();
+		break;
 	}
 	
 	//registra la giocata
@@ -390,7 +403,8 @@ case "save":
 	fwrite($cf, $log);
 	fclose($cf);
 
-	echo "La giocata &egrave; stata registrata!";
+	echo "La giocata &egrave; stata registrata:<br><br>\n";
+	show_giocate(array($giocata_da_salvare));
 
 	break;
 default:
