@@ -15,7 +15,7 @@
 #	data_presentazione_risultati	: hh:mm gg/mm/aaaa
 #
 [Attributi]
-Lotteria Mondiali di Calcio 2006::attiva::no_auth::00:00 16/02/2006::18:00 09/06/2006::00:00 10/07/2006
+Lotteria Mondiali di Calcio 2006::attiva::key::00:00 16/02/2006::18:00 09/06/2006::00:00 10/07/2006
 
 #
 # Formato riga [Domande]:
