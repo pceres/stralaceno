@@ -54,7 +54,7 @@ $num_colonne_organizzatori = 7;
 $indici3 = array('indice3_id' => $indice3_id,'indice3_nome' => $indice3_nome,'indice3_sesso' => $indice3_sesso,'indice3_incarico' => $indice3_incarico,'indice3_anno' => $indice3_anno,'indice3_link' => $indice3_link,'indice3_nota' => $indice3_nota,'num_colonne_organizzatori' => $num_colonne_organizzatori);
 
 
-# formato file di configurazione 'layout_left.txt'
+# formato file di configurazione 'layout_left.txt' e 'layout_right.txt'
 $indice_layout_name = 0;
 $indice_layout_caption = 1;
 $indice_layout_type = 2;
@@ -167,7 +167,7 @@ $modules_site_path		= $script_abs_path."custom/moduli/";
 $filedir_counter 		= $root_path."custom/contatori/";
 $articles_dir 			= $root_path."custom/articoli/";
 $config_dir 			= $root_path."custom/config/";
-$album_dir				= $root_path."custom/album/";
+$album_dir			= $root_path."custom/album/";
 
 #nomi di file
 $filename_css			= $site_abs_path."custom/config/style.css";
@@ -1143,7 +1143,7 @@ function get_config_file($conf_file,$expected_items = 1000)
 	$bulk = file($conf_file);
 	
 	$title = 'default';
-	$settings = array();
+	$settings = array($title => array());
 	for ($i = 0; $i < count($bulk); $i++)
 	{
 		$ks = trim($bulk[$i]); // elimina i caratteri di fine linea
