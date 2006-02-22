@@ -1,1 +1,5 @@
-homepage:2
+album:1
+questions:4
+modulo_presentazione:2
+modulo_organizzatori:2
+homepage:11
