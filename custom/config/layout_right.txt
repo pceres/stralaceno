@@ -26,6 +26,8 @@
 #								  costituire il sottoblocco;
 #	modulo_custom	: link a modulo personalizzato (nella directory custom/moduli)
 #	separatore		: separatore dei sottoblocchi costituito da una linea orizzontale
+#	external_link		: link esterno. nome_modulo indica il nome del link (campo "name" del tag href), 
+#					caption il testo visibile del link, dati il link effettivo (relativo o assoluto)
 #
 # il campo disabled_message puo' valere
 #	<campo vuoto> 	: il sottoblocco e' abilitato ed attivo
@@ -52,7 +54,7 @@ Approfondimenti::
 Amministrazione::admin
 Utente::users
 Login::guests
-
+Pagine in preparazione::users
 
 #
 # da qui sotto inizia il layout vero e proprio
@@ -68,3 +70,6 @@ Login::guests
 
 [Login]
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Login] non prevede sottoelementi
+
+[Pagine in preparazione]
+link_lotteria_mondiali_2006::Lotteria Mondiali 2006::external_link::questions.php?id_questions=1::::
