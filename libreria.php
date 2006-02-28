@@ -168,6 +168,7 @@ $filedir_counter 		= $root_path."custom/contatori/";
 $articles_dir 			= $root_path."custom/articoli/";
 $config_dir 			= $root_path."custom/config/";
 $album_dir			= $root_path."custom/album/";
+$questions_dir			= $root_path."custom/lotterie/";
 
 #nomi di file
 $filename_css			= $site_abs_path."custom/config/style.css";
@@ -200,7 +201,7 @@ $filenames = array('filename_css' => $filename_css,'filename_tempi' => $filename
 	'filename_organizzatori' => $filename_organizzatori,'filedir_counter' => $filedir_counter,
 	'articles_dir' => $articles_dir,'article_online_file' => $article_online_file,'filename_links' => $filename_links,
 	'filename_albums' => $filename_albums,'filename_users'=>$filename_users,'filename_challenge'=>$filename_challenge);
-$pathnames = array('root_prefix' => $root_prefix,'root_path' => $root_path,'site_abs_path' => $site_abs_path,'script_abs_path' => $script_abs_path,'modules_site_path' => $modules_site_path,'config_dir' => $config_dir,'album_dir' => $album_dir);
+$pathnames = array('root_prefix' => $root_prefix,'root_path' => $root_path,'site_abs_path' => $site_abs_path,'script_abs_path' => $script_abs_path,'modules_site_path' => $modules_site_path,'config_dir' => $config_dir,'album_dir' => $album_dir,'questions_dir' => $questions_dir);
 $varie = array('symbol_1_partecipazione' => $symbol_1_partecipazione,'symbol_1_partecipazione_best' => $symbol_1_partecipazione_best,'symbol_record' => $symbol_record,'symbol_record_best' => $symbol_record_best,'symbol_info'=>$symbol_info);
 $custom = array('homepage_link' => $homepage_link,'tempo_max_M' => $tempo_max_M,'tempo_max_F' => $tempo_max_F,'tempo_max_grafico' => $tempo_max_grafico,'race_name' => $race_name,'web_title' => $web_title,'web_description' => $web_description,'web_keywords' => $web_keywords,'email_info' => $email_info);
 $admin = array('password_album' => $password_album,'password_config' => $password_config,'password_articoli' => $password_articoli,'password_upload_file' => $password_upload_file,'max_last_editions' => $max_last_editions,'max_online_articles' => $max_online_articles);
@@ -1254,6 +1255,94 @@ return false;
 
 } // end function group_match($usergroups,$enabled_groups)
 
+
+function create_key_files($id_questions,$num_files,$num_keys) {
+
+# dichiara variabili
+extract(indici());
+
+$key_filename_format = sprintf($questions_dir."lotteria_%03d",$id_questions)."_keys_%03d.txt";	// formato dei file di chiavi
+$count = 0;
+while ($count < $num_files)
+{
+	$numero_chiavi = $num_keys[$count];
+	$key_filename = sprintf($key_filename_format,$count);
+	echo "Gestione file di chiavi ".($count+1)." ($key_filename): $numero_chiavi chiavi da generare.<br>\n";
+	
+	// scrivi il file $count-esimo
+	$cf = fopen($key_filename, 'w');
+	for ($i = 0; $i < $numero_chiavi; $i++)
+	{
+		$line = md5($count.$i.time())."\r\n";
+		//echo $line."<br>";
+		fwrite($cf, $line);
+	}
+	fclose($cf);
+	
+	$count++;
+}
+
+echo "Fatto.<br>\n";
+
+} // end function create_key_files
+
+
+function get_question_keys($id_questions) {
+
+# dichiara variabili
+extract(indici());
+
+$key_filename_format = sprintf($questions_dir."lotteria_%03d",$id_questions)."_keys_%03d.txt";	// formato dei file di chiavi
+
+$ancora = 1;
+$count = 0;
+$result = '';
+while ($ancora)
+{
+	$key_filename = sprintf($key_filename_format,$count);
+	if (file_exists($key_filename))
+	{
+		$bulk = get_config_file($key_filename);
+		$result[$count] = $bulk['default'];
+	}
+	else
+	{
+		$ancora = 0;
+	}
+	$count++;
+}
+return $result;
+
+} // end function get_question_keys
+
+
+function check_question_keys($id_questions,$auth_token) {
+
+$allowed_keys = get_question_keys($id_questions);
+
+$found_key = array();
+foreach ($allowed_keys as $bunch_id => $key_bunch)
+{
+	$count = 0;
+	foreach ($key_bunch as $key_line)
+	{
+		$key = $key_line[0];
+		if ($key == $auth_token)
+		{
+			if (empty($found_key))
+			{
+				$found_key = array($bunch_id,$count);
+			}
+			else
+			{
+				die("Chiave duplicata! ($key)"); // non si dovrebbe mai verificare!
+			}
+		}
+		$count++;
+	}
+}
+return $found_key;
+} // end function check_question_keys
 
 
 //Page properties definitions
