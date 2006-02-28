@@ -135,12 +135,44 @@ function show_giocate($giocate)
 }
 
 
+function parse_date($data) {
+
+$ore = substr($data,0,2);
+$minuti = substr($data,3,2);
+$giorno = substr($data,6,2);
+$mese = substr($data,9,2);
+$anno = substr($data,12,4);
+
+$mins = (((($anno*12+$mese)*31+$giorno)*24+$ore)*60+$minuti)*60;
+
+return array($mins,$anno,$mese,$giorno,$ore,$minuti);
+} // end function parse_date
+
 
 echo "<div class=\"titolo_tabella\">$lotteria_nome</div>";
 
 switch ($action)
 {
 case "auth":
+	// verifica che le giocate siano aperte
+	$v_start = parse_date($lotteria_inizio_giocate);
+	$v_end = parse_date($lotteria_fine_giocate);
+	$v_now = parse_date(date("h:i d/m/Y"));
+	if ($v_now[0] < $v_start[0])
+	{
+		die($lotteria['msg_date'][0][0]);
+	}
+	elseif ($v_now[0] > $v_end[0])
+	{
+		die($lotteria['msg_date'][0][2]);
+	}
+	else
+	{
+		echo($lotteria['msg_date'][0][1]);
+	}
+	echo "<br><hr>\n";
+	
+	// visualizza form di autenticazione
 	if ($lotteria_auth == "no_auth")
 	{
 		$auth_token = $login['username'];
@@ -200,10 +232,18 @@ case "check_auth":
 			show_giocate($giocate);
 			die();
 		}
+		
+		// verifica che la chiave inserita sia corretta, ed individuane il gruppo
+		$found_key = check_question_keys($id_questions,$auth_token);
+		if (empty($found_key))
+		{
+			die($lotteria['msg_auth_failed'][0][0]);
+		}
+		
 		echo "Benvenuto, puoi giocare.<br><br>\n";
 	}
 case "fill":
-	echo "<form method=\"post\">";
+	echo "<form action=\"questions.php\" method=\"post\">";
 	$question_count = 0;
 	foreach ($lotteria["Domande"] as $domanda)
 	{
@@ -394,7 +434,6 @@ case "save":
 	{
 		echo("La giocata &egrave; gi&agrave; stata registrata:<br><br>\n");
 		show_giocate($giocate);
-		//die();
 		break;
 	}
 	
@@ -402,10 +441,10 @@ case "save":
 	$cf = fopen($file_log_questions, 'a');
 	fwrite($cf, $log);
 	fclose($cf);
-
+	
 	echo "La giocata &egrave; stata registrata:<br><br>\n";
 	show_giocate(array($giocata_da_salvare));
-
+	
 	break;
 default:
 	die("Azione \"$action\" sconosciuta!");
