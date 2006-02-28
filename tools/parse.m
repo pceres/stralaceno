@@ -4,7 +4,9 @@ clear
 
 nomefile = 'logfile.txt';
 backupfile = 'backupfile*.txt';
-root_path='d:\programmi\cygwin\var\www\htdocs\work\stralaceno2\'; % path della radice del sito
+% root_path='d:/stralaceno/online_2006_01_17/'; % path della radice del sito
+root_path='/var/www/htdocs/work/stralaceno2/'; % path della radice del sito
+
 
 % informazioni sul file di log generale
 z=dir(nomefile);
