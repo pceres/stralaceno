@@ -18,6 +18,21 @@
 Lotteria Mondiali di Calcio 2006::attiva::key::00:00 16/02/2006::18:00 09/06/2006::00:00 10/07/2006
 
 #
+# Messaggio visualizzato quando fallisce l'autenticazione (valida tranne che per l'autenticazione no_auth)
+#
+[msg_auth_failed]
+La chiave inserita non &egrave; corretta.
+
+#
+# msg1::msg2::msg3
+#	msg1: visualizzato prima dell'apertura delle giocate
+#	msg2: visualizzato durante la fase di giocata
+#	msg3: visualizzato dopo la chiusura delle giocate
+#
+[msg_date]
+La lotteria non &egrave; ancora aperta. Potrai giocare dal 16/02::Si pu&ograve; giocare dal 16/02 al 09/06::Le giocate sono chiuse, l'estrazione avverr&agrave; il 10/07
+
+#
 # Formato riga [Domande]:
 # testo_domanda::tipo::gruppo_risposte::ripetibile
 #	testo_domanda
