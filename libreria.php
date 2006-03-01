@@ -1143,8 +1143,6 @@ function get_config_file($conf_file,$expected_items = 1000)
 
 	$bulk = file($conf_file);
 	
-	$title = 'default';
-	$settings = array($title => array());
 	for ($i = 0; $i < count($bulk); $i++)
 	{
 		$ks = trim($bulk[$i]); // elimina i caratteri di fine linea
@@ -1160,6 +1158,11 @@ function get_config_file($conf_file,$expected_items = 1000)
 				$item = split("::",$ks);
 				if (count($item) <= $expected_items)
 				{
+					if (empty($settings))
+					{
+						$title = 'default';
+						$settings[$title] = array();
+					}
 					array_push($settings[$title],$item);
 				}
 			}
