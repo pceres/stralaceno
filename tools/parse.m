@@ -7,7 +7,7 @@ abilita_stima_foto_mancante = 0; % [0,1] a partire da album, id_photo e data pro
 nomefile = 'logfile.txt';
 backupfile = 'backupfile*.txt';
 % root_path='d:/stralaceno/online_2006_01_17/'; % path della radice del sito
-root_path='/mnt/win_d/stralaceno/online_2006_01_17/'; % path della radice del sito
+root_path='/var/www/htdocs/work/stralaceno2/'; % path della radice del sito
 
 
 % informazioni sul file di log generale
