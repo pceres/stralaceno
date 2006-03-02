@@ -198,7 +198,7 @@ dscn5735.jpg::Cimitero comunale::
 dscn5747.jpg::Hotel Testa::
 dscn5749.jpg::Basilica San Gerardo::
 dscn5752.jpg::Piani (piscina comunale)::
-dscn5752.jpg::Piazza Sanit&agrave; 2::
+dscn5756.jpg::Piazza Sanit&agrave; 2::
 
 [All.Coll.05]
 ManifestoAll.Coll.05.jpg::
