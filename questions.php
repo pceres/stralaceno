@@ -94,25 +94,6 @@ function check_answers($lotteria,$answers,&$results,&$msg)
 	return $result;
 }
 
-function get_giocata($id_questions,$auth_token)
-{
-	$file_log_questions = $root_path."custom/lotterie/lotteria_".sprintf("%03d",$id_questions)."_log.txt";	// nome del file di registrazione
-	$bulk = get_config_file($file_log_questions);
-	
-	$result = array();
-	$count_giocata = 0;
-	foreach($bulk['default'] as $giocata)
-	{
-		if ($giocata[3] === $auth_token)
-		{
-			array_push($result,$giocata);
-		}
-		$count_giocata++;
-	}
-
-	return $result;
-}
-
 
 function parse_date($data) {
 
@@ -287,11 +268,9 @@ case "last_check":
 		{
 		case "free_number":
 		case "free_string":
-			$question_tag = sprintf($question_tag_format,$question_count);
 			$answer = $_REQUEST[$question_tag];
 			break;
 		case "fixed":
-			$question_tag = sprintf($question_tag_format,$question_count);
 			$answer = $_REQUEST[$question_tag];
 		}
 		array_push($answers,$answer);
