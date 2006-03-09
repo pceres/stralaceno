@@ -33,7 +33,7 @@ if (!file_exists($file_questions))
 	die("La lotteria $id_questions non esiste!");
 }
 
-// carica elenco delle foto disponibili
+// carica file di configurazione della lotteria
 $lotteria = get_config_file($file_questions);
 
 $lotteria_nome = $lotteria["Attributi"][0][0];
@@ -111,27 +111,6 @@ function get_giocata($id_questions,$auth_token)
 	}
 
 	return $result;
-}
-
-
-function show_giocate($giocate)
-{
-	echo '<table border=1><tbody>';
-
-	$count_giocata = 0;
-	foreach($giocate as $giocata)
-	{
-		echo "<tr>";
-		echo "<td>".($count_giocata+1)."</td>\n";
-		echo "<td>".$giocata[0]."</td>\n";
-		//echo "<td>".$giocata[1]."</td>\n";
-		echo "<td>".$giocata[2]."</td>\n";
-		echo "<td>".$giocata[3]."</td>\n";
-		echo "</tr>";
-		$count_giocata++;
-	}
-	
-	echo "</tbody></table>";
 }
 
 
