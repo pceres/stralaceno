@@ -5,7 +5,7 @@ require_once('../libreria.php');
 # dichiara variabili
 extract(indici());
 
-// verifica che si stia arrivando a questa pagina da .../album.php
+// verifica che si stia arrivando a questa pagina da ../album.php
 $referer = $_SERVER['HTTP_REFERER'];
 if ( !isset($_SERVER['HTTP_REFERER']) | (strpos($referer,"http://".$_SERVER['HTTP_HOST'].$script_abs_path."album.php")!='0') )
 {
