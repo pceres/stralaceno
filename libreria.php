@@ -1345,6 +1345,26 @@ return $found_key;
 } // end function check_question_keys
 
 
+function get_giocata($id_questions,$auth_token)
+{
+	$file_log_questions = $root_path."custom/lotterie/lotteria_".sprintf("%03d",$id_questions)."_log.txt";	// nome del file di registrazione
+	$bulk = get_config_file($file_log_questions);
+	
+	$result = array();
+	$count_giocata = 0;
+	foreach($bulk['default'] as $giocata)
+	{
+		if ($giocata[3] === $auth_token)
+		{
+			array_push($result,$giocata);
+		}
+		$count_giocata++;
+	}
+
+	return $result;
+}
+
+
 function show_giocate($giocate)
 {
 	echo '<table border=1><tbody>';
