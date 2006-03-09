@@ -1345,6 +1345,27 @@ return $found_key;
 } // end function check_question_keys
 
 
+function show_giocate($giocate)
+{
+	echo '<table border=1><tbody>';
+
+	$count_giocata = 0;
+	foreach($giocate as $giocata)
+	{
+		echo "<tr>";
+		echo "<td>".($count_giocata+1)."</td>\n";
+		echo "<td>".$giocata[0]."</td>\n";
+		//echo "<td>".$giocata[1]."</td>\n";
+		echo "<td>".$giocata[2]."</td>\n";
+		echo "<td>".$giocata[3]."</td>\n";
+		echo "</tr>";
+		$count_giocata++;
+	}
+	
+	echo "</tbody></table>";
+}
+
+
 //Page properties definitions
 error_reporting(0); // otherwise "StripDoubleColon($HTTP_REFERER);" gives error
 //error_reporting(2039); // otherwise "StripDoubleColon($HTTP_REFERER);" gives error. Show all errors but notices
