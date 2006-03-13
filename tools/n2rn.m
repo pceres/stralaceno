@@ -3,10 +3,12 @@ function n2rn(path)
 %addpath('/var/www/htdocs/work/stralaceno2/tools/')
 
 
-if exist(path,'file')
+if ~exist(path,'dir')
     dofile(path)
     disp('Fatto!')
     return
+else
+    path
 end
 
 oldpath=cd(path);
@@ -36,7 +38,7 @@ function dofile(name)
 
 name2 = [name '.bak'];
 
-disp(name)
+disp(['  ' name])
 
 fid=fopen(name);
 fid2=fopen(name2,'w');
