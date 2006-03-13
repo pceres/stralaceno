@@ -1345,6 +1345,47 @@ return $found_key;
 } // end function check_question_keys
 
 
+function get_giocata($id_questions,$auth_token)
+{
+	$file_log_questions = $root_path."custom/lotterie/lotteria_".sprintf("%03d",$id_questions)."_log.txt";	// nome del file di registrazione
+	$bulk = get_config_file($file_log_questions);
+	
+	$result = array();
+	$count_giocata = 0;
+	foreach($bulk['default'] as $giocata)
+	{
+		if ($giocata[3] === $auth_token)
+		{
+			array_push($result,$giocata);
+		}
+		$count_giocata++;
+	}
+
+	return $result;
+}
+
+
+function show_giocate($giocate)
+{
+	echo '<table border=1><tbody>';
+
+	$count_giocata = 0;
+	foreach($giocate as $giocata)
+	{
+		echo "<tr>";
+		echo "<td>".($count_giocata+1)."</td>\n";
+		echo "<td>".$giocata[0]."</td>\n";
+		//echo "<td>".$giocata[1]."</td>\n";
+		echo "<td>".$giocata[2]."</td>\n";
+		echo "<td>".$giocata[3]."</td>\n";
+		echo "</tr>";
+		$count_giocata++;
+	}
+	
+	echo "</tbody></table>";
+}
+
+
 //Page properties definitions
 error_reporting(0); // otherwise "StripDoubleColon($HTTP_REFERER);" gives error
 //error_reporting(2039); // otherwise "StripDoubleColon($HTTP_REFERER);" gives error. Show all errors but notices
