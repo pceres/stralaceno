@@ -33,7 +33,7 @@ if (!file_exists($file_questions))
 	die("La lotteria $id_questions non esiste!");
 }
 
-// carica elenco delle foto disponibili
+// carica file di configurazione della lotteria
 $lotteria = get_config_file($file_questions);
 
 $lotteria_nome = $lotteria["Attributi"][0][0];
@@ -94,46 +94,6 @@ function check_answers($lotteria,$answers,&$results,&$msg)
 	return $result;
 }
 
-function get_giocata($id_questions,$auth_token)
-{
-	$file_log_questions = $root_path."custom/lotterie/lotteria_".sprintf("%03d",$id_questions)."_log.txt";	// nome del file di registrazione
-	$bulk = get_config_file($file_log_questions);
-	
-	$result = array();
-	$count_giocata = 0;
-	foreach($bulk['default'] as $giocata)
-	{
-		if ($giocata[3] === $auth_token)
-		{
-			array_push($result,$giocata);
-		}
-		$count_giocata++;
-	}
-
-	return $result;
-}
-
-
-function show_giocate($giocate)
-{
-	echo '<table border=1><tbody>';
-
-	$count_giocata = 0;
-	foreach($giocate as $giocata)
-	{
-		echo "<tr>";
-		echo "<td>".($count_giocata+1)."</td>\n";
-		echo "<td>".$giocata[0]."</td>\n";
-		//echo "<td>".$giocata[1]."</td>\n";
-		echo "<td>".$giocata[2]."</td>\n";
-		echo "<td>".$giocata[3]."</td>\n";
-		echo "</tr>";
-		$count_giocata++;
-	}
-	
-	echo "</tbody></table>";
-}
-
 
 function parse_date($data) {
 
@@ -179,7 +139,7 @@ case "auth":
 	}
 	elseif ($lotteria_auth == "key")
 	{
-		echo "<form method=\"post\">\n";
+		echo "<form action=\"questions.php\" method=\"post\">\n";
 		echo 'Inserisci la chiave segreta per giocare:<input type="edit" name="secret_key"/><br>';
 		echo '<input type="submit" value="vai avanti"/>';
 		
