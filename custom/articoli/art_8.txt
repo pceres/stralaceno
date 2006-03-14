@@ -1,22 +1,11 @@
 Autore::
-Titolo::CAPOSELE
+Titolo::Caposele
 --- Begin body ---
 <p>
-ABITANTI 3979 caposelesi<br> 
-SUPERFICIE kmq 41.50<br> 
-ALTITUDINE 400 m.  s.l.m.<br> 
-DISTANZA DAL <br>  
-- capoluogo di provincia km
- 70 <br>
-- capoluogo di regione km
- 124 <br>
-- casello autostradale CONTURSI (SA-RC)
- km 31 <br>
-STRADE DI ACCESSO AL COMUNE S.P. 130 <br>
-STAZIONE FERROVIARIA Lioni 
+Caposele conta 3.797 abitanti (Caposelesi) e ha una superficie di 41,5 chilometri quadrati per una densità abitativa di 91,49 abitanti per chilometro quadrato. <br>Sorge a 405 metri sopra il livello del mare.<p> Cenni anagrafici: Il comune di Caposele ha fatto registrare nel censimento del 1991 una popolazione pari a 4.026 abitanti.<br> Nel censimento del 2001 ha fatto registrare una popolazione pari a 3.797 abitanti, mostrando quindi nel decennio 1991 - 2001 una variazione percentuale di abitanti pari al -5,69%.<p>
+Gli abitanti sono distribuiti in 1.312 nuclei familiari con una media per nucleo familiare di 2,89 componenti. 
 <p>
 <div align="center">
-<img id="foto" src="%file_root%custom/album/ars/stemma_caposele.jpg" alt="" border="0" width="200">
+<img id="foto" src="%file_root%custom/album/ars/stemma_caposele.jpg" alt="" border="0" width="100">
 </div>
-		
 --- End body ---
