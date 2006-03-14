@@ -95,7 +95,7 @@ case 'index':
 					$id = substr($file,9,3)+0;
 				}
 				
-				echo "$id) <a href=\"manage_questions?task=edit&amp;data=$id\">$lotteria_nome</a> <br>\n";
+				echo "$id) <a href=\"manage_questions.php?task=edit&amp;data=$id\">$lotteria_nome</a> <br>\n";
 			}
 		}
 		closedir($dh);
@@ -121,7 +121,7 @@ case 'edit':
 		if (count($keys) !== $num_key_files)
 		{
 			echo "&Egrave; necessario inizializzare i file di chiavi!<br><br>";
-			echo "<a href=\"manage_questions?task=init&amp;data=$id_questions\">Inizializza i $num_key_files file di chiavi (";
+			echo "<a href=\"manage_questions.php?task=init&amp;data=$id_questions\">Inizializza i $num_key_files file di chiavi (";
 			foreach ($num_keys as $id => $numero)
 			{
 				echo $numero;
