@@ -90,7 +90,7 @@ e della <a href='manage_config_file.php?config_file=layout_right.txt'>colonna de
 
 <hr>
 
-<a href='manage_questions?task=index'>Gestione lotterie e questionari</a>
+<a href='manage_questions.php?task=index'>Gestione lotterie e questionari</a>
 
 <?php
 # logga il contatto
