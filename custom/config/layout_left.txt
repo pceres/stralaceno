@@ -50,8 +50,7 @@
 
 [elenco_moduli]
 Articoli::
-La corsa::
-Cronaca corrente::
+#Archivio articoli
 Links::
 
 
@@ -63,17 +62,17 @@ Links::
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Articoli] non prevede sottoelementi
 
 [Il progetto]
-presentazione::Chi siamo::modulo_custom::::
-# :: ::separatore::::
-caposele::Caposele::modulo_custom::::
 organizzatori::Atto Costitutivo-Statuto ARS::modulo_custom::::
+# :: ::separatore::::
+presentazione::La Stralaceno::modulo_custom::::
+caposele::Caposele::modulo_custom::::
 lettere::Le vostre lettere::modulo_custom::::
 #pregfas::Pregfas::modulo_custom::::Pagina in allestimento!
 
-[Archivio articoli]
-ottobre_2005::Ottobre 2005::modulo_custom::::
-settembre_2005::Settembre 2005::modulo_custom::::
-agosto_2005::Agosto 2005::modulo_custom::::
+#[Archivio articoli]
+#febbraio_2006::Febbraio 2006::modulo_custom::::
+#gennaio_2006::Gennaio 2006::modulo_custom::::
+#dicembre_2005::Dicembre 2005::modulo_custom::::
 
 [Links]
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Links] non prevede sottoelementi
