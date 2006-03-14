@@ -23,8 +23,13 @@ for i=1:length(z)
             n2rn([path '/' name]);
         end
     else
-        if strcmp(name((end-3):end),'.php')
-            dofile(name)
+       switch (lower(name((end-1):end)))
+            case {'.m'}
+                dofile(name)
+       end
+       switch (lower(name((end-3):end)))
+            case {'.php','.txt','.cfg','.tpl'}
+                dofile(name)
         end
     end
 
