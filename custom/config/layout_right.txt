@@ -61,6 +61,8 @@ Pagine in preparazione::users
 #
 
 
+[Approfondimenti]
+link_lotteria_mondiali_2006::Lotteria Mondiali 2006::external_link::questions.php?id_questions=1::Pagina in allestimento!::
 
 [Amministrazione]
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Amministrazione] non prevede sottoelementi
