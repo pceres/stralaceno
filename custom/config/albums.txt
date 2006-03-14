@@ -9,6 +9,7 @@
 [ars]
 retro.gif
 stemma_caposele.jpg
+ars_semplificato.jpg 
 
 [All.Coll.05]
 ManifestoAll.Coll.05.jpg::
