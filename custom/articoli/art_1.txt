@@ -1,9 +1,15 @@
 Autore::
 Titolo::ARS Amatori Running Sele
 --- Begin body ---
-<p> L'ARS Amatori Running Sele viene costituita ufficialmente il 31-03-2005 da Nicola D'Auria, Alessandro Russomanno, Donatello Cirillo.<br> Il primo Consiglio d'Amministrazione è composto dai tre fondatori ai quali si aggiunge Pasquale Ceres.<p>
-<div align="center">
-<img id="foto" src="%file_root%custom/album/ars/retro.gif" alt="" border="0" width="420">
-</div>
+<p> L'ARS Amatori Running Sele &egrave un'associazione sportiva e culturale senza finalit&agrave di lucro.<br>
+&Egrave stata costituita il 30.03.2005 da Nicola D'Auria, Alessandro Russomanno, Donatello Cirillo.<br>
+La sede è in Corso Garibaldi n.30 in Caposele.<br>
+Il Consiglio direttivo, che ha un mandato di tre anni,  &egrave composto dai tre soci fondatori e da Pasquale Ceres.
+Attualmente l'associazione vanta nove soci.<p>
+Scopo principale dell'ARS &egrave promuovere e diffondere una corretta pratica dello sport. 
+<p>
+<!--div align="center">
+<img id="foto" src="%file_root%custom/album/ars/ars_semplificato.jpg" alt="" border="0" width="250">
+</div-->
 			
 --- End body ---
