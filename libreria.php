@@ -1173,6 +1173,46 @@ function get_config_file($conf_file,$expected_items = 1000)
 }
 
 
+function save_config_file($conf_file,$keys)
+{
+	$cf = fopen($conf_file, 'w');
+	if (!$cf)
+	{
+		echo "<p>Impossibile aprire il file $conf_file.\n";
+		exit;
+	}
+	
+	$acapo = "\r\n";
+	foreach ($keys as $block_name => $block_item)
+	{
+		if ($block_name !== 'default')
+		{
+			$line = "[$block_name]$acapo";
+			fwrite($cf, $line);
+		}
+		
+		foreach($block_item as $riga)
+		{
+			foreach ($riga as $id => $riga_item)
+			{
+				if ($id > 0)
+				{
+					fwrite($cf, "::");
+				}
+				fwrite($cf, $riga_item);
+			}
+			
+			fwrite($cf, $acapo);
+		}
+		
+		fwrite($cf, $acapo);
+	}
+	
+	fclose($cf);
+	return 1;
+}
+
+
 function show_template($template_file)
 {
 	# dichiara variabili
@@ -1331,7 +1371,7 @@ foreach ($allowed_keys as $bunch_id => $key_bunch)
 		{
 			if (empty($found_key))
 			{
-				$found_key = array($bunch_id,$count);
+				$found_key = array($bunch_id,$count,$key_line);
 			}
 			else
 			{
