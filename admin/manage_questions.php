@@ -41,7 +41,9 @@ if ($password != $password_ok)
 
 $id_questions = $data;
 $basefile_questions = "lotteria_".sprintf("%03d",$id_questions).".txt";
+$basefile_question_keys = "lotteria_".sprintf("%03d",$id_questions)."_keys_%03d.txt";
 $file_questions = $root_path."custom/lotterie/".$basefile_questions;	// nome del file di configurazione relativo a id_questions
+$file_question_keys = $root_path."custom/lotterie/".$basefile_question_keys;	// nome del generico file di chiavi
 $file_log_questions = $root_path."custom/lotterie/lotteria_".sprintf("%03d",$id_questions)."_log.txt";	// nome del file di registrazione
 
 if (file_exists($file_questions))
@@ -142,27 +144,49 @@ case 'edit':
 	echo "<hr>";
 	echo "<a href=\"manage_questions.php?task=show_giocate&amp;data=$id_questions\">Visualizza giocate</a>";
 	
-	// stampa dei biglietti
-	$keys = get_question_keys($id_questions);
-	echo "<hr>";
-	echo "Stampa biglietti:<br>\n";
-	foreach (array_keys($keys) as $keyfile_id)
+	// gestione supplementare files di chiavi
+	if ($lotteria_auth == 'key')
 	{
-		echo "<form action=\"manage_questions.php?task=ticket_page&amp;data=$id_questions\" method=\"post\">\n";
-		echo "&nbsp;&nbsp;&nbsp;Biglietti di tipo $keyfile_id (".$lotteria['keyfiles'][$keyfile_id][1]."): \n";
-		$tag_string = sprintf("keyfile_%03d",$keyfile_id);
-		echo "<select name=\"keyfile_select\">";
-		echo "<option value=\"-1\" selected>&nbsp;</option>\n";
-		for ($key_id = 0; $key_id < (count($keys[$keyfile_id])-1)/4; $key_id++)
+		
+		// stampa dei biglietti
+		$keys = get_question_keys($id_questions);
+		echo "<hr>";
+		echo "Stampa biglietti:<br>\n";
+		foreach (array_keys($keys) as $keyfile_id)
 		{
-			$start = $key_id*$tickets_per_page+1;
-			echo "<option value=\"$start\">".$start."-".($start+$tickets_per_page-1)."</option>\n";
-			//for ($i=0;$i<$tickets_per_page;$i++) {echo $keys[$keyfile_id][$key_id*$tickets_per_page+$i][0]."<br>;";}
+			echo "&nbsp;&nbsp;&nbsp;Biglietti di tipo $keyfile_id (".$lotteria['keyfiles'][$keyfile_id][1]."):<br><br>\n";
+
+			// per stampa della pagina con un sottoinsieme dei biglietti
+			echo "<form action=\"manage_questions.php?task=ticket_page&amp;data=$id_questions\" method=\"post\">\n";
+//			$tag_string = sprintf("keyfile_%03d",$keyfile_id);
+			echo "<select name=\"keyfile_select\">";
+			echo "<option value=\"-1\" selected>&nbsp;</option>\n";
+			for ($key_id = 0; $key_id < (count($keys[$keyfile_id])-1)/4; $key_id++)
+			{
+				$start = $key_id*$tickets_per_page+1;
+				echo "<option value=\"$start\">".$start."-".($start+$tickets_per_page-1)."</option>\n";
+			}
+			echo "</select>";
+			echo '<input type="submit" value="Visualizza la pagina da stampare" />';
+			echo "<input type=\"hidden\" name=\"keyfile_id\" value=\"$keyfile_id\" />";
+			echo "</form>";
+			
+			// esporta il file di chiavi (per "stampa unione")
+			echo "<form action=\"manage_questions.php?task=matrice_ticket&amp;data=$id_questions\" method=\"post\">\n";
+			echo '<input type="submit" value="Visualizza la matrice" />';
+			echo "<input type=\"hidden\" name=\"keyfile_id\" value=\"$keyfile_id\" />";
+			echo "</form>";
+			
+			// associazione nominativi alle chiavi
+			echo "<form action=\"manage_questions.php?task=set_nominativi&amp;data=$id_questions\" method=\"post\">\n";
+			echo '<input type="submit" value="Associazione nominativi ai biglietti" />';
+			echo "<input type=\"hidden\" name=\"keyfile_id\" value=\"$keyfile_id\" />";
+			echo "</form>";
+			
+			echo "<br>";
 		}
-		echo "</select>";
-		echo '<input type="submit" value="Visualizza la pagina da stampare" />';
-		echo "<input type=\"hidden\" name=\"keyfile_id\" value=\"$keyfile_id\" />";
-		echo "</form>";
+		
+		
 	}
 	
 	break;
@@ -225,6 +249,20 @@ case 'ticket_page':
 	
 	die();
 	break;
+case 'matrice_ticket':
+	$keyfile_id = $_REQUEST["keyfile_id"];
+	$keys = get_question_keys($id_questions);
+	
+	echo "#Matrice biglietti ".$lotteria['keyfiles'][$keyfile_id][1].":<br>\n";
+	foreach ($keys[$keyfile_id] as $id => $chiave)
+	{
+		echo ($id+1).";";
+		echo $chiave[0].";";
+		echo "<br>\n";
+	}
+	
+	die();
+	break;
 case 'show_giocate':
 	echo "<div class=\"titolo_tabella\">Giocate &quot;$lotteria_nome&quot;</div><br>";
 	
@@ -240,6 +278,100 @@ case 'init':
 	
 	echo "Creo i file di chiavi...<br>\n";
 	create_key_files($id_questions,$num_key_files,$num_keys);
+	break;
+case 'set_nominativi':
+	
+	$keyfile_id = $_REQUEST["keyfile_id"];	// id del file di chiavi in oggetto
+	$key_offset = $_REQUEST["key_offset"];	// id del primo biglietto da visualizzare
+	if (empty($key_offset))
+	{
+		$key_offset = 0;
+	}
+	$key_offset_old = $_REQUEST["key_offset_old"];	// id del primo biglietto della pagina salvata (stiamo arrivando qui da un submit)
+	
+	$key_max_num = 20;				// numero di chiavi gestite per pagina
+	$keys = get_question_keys($id_questions);	// carica i file di chiavi associati alla lotteria
+
+	// verifica se bisogna salvare dei dati precedenti
+	if (strlen($key_offset_old.' ')>1)
+	{
+		for ($id=$key_offset_old;$id<$key_offset_old+$key_max_num;$id++)
+		{
+			$chiave_name=$_REQUEST["chiave_name_$id"];
+			$chiave_responsabile=$_REQUEST["chiave_responsabile_$id"];
+			$chiave_data=$_REQUEST["chiave_data_$id"];
+			
+			// aggiorna la struttura $keys con i nuovi dati
+			if (!empty($chiave_responsabile))
+			{
+				$keys[$keyfile_id][$id][1] = $chiave_responsabile;
+			}
+			if (!empty($chiave_name))
+			{
+				$keys[$keyfile_id][$id][2] = $chiave_name;
+			}
+			if (!empty($chiave_data))
+			{
+				// verifica formato data
+				if (!ereg('^[0-9]{2}:[0-9]{2} [0-9]{2}/[0-9]{2}/[0-9]{4}$',$chiave_data))
+				{
+					echo("Formato data errata: $chiave_data!<br>\n");
+					die("Il formato giusto e': &quot;12:34 12/10/2006&quot; per indicare le 12:34 del 12 ottobre 2006.");
+				}
+				
+				$keys[$keyfile_id][$id][3] = $chiave_data;
+			}
+		}
+		
+		$filename = sprintf($file_question_keys,$keyfile_id);
+		$result_save = save_config_file($filename,array('default' => $keys[$keyfile_id]));
+	}
+	
+	
+	
+	echo "<div class=\"titolo_tabella\">Giocate &quot;$lotteria_nome&quot;";
+	echo " - ";
+	echo "Matrice biglietti &quot;".$lotteria['keyfiles'][$keyfile_id][1]."&quot;:</div>\n";
+	
+	if (($prev_offset = $key_offset-$key_max_num) >= 0)
+	{
+		echo "<a href=manage_questions.php?task=set_nominativi&amp;data=$id_questions&amp;keyfile_id=$keyfile_id&amp;key_offset=$prev_offset>";
+		echo "Indietro</a>\n";
+	}	
+	if (($next_offset = $key_offset+$key_max_num) < $num_keys[$keyfile_id])
+	{
+		echo "<a href=manage_questions.php?task=set_nominativi&amp;data=$id_questions&amp;keyfile_id=$keyfile_id&amp;key_offset=$next_offset>";
+		echo "Avanti</a><br><br>\n";
+	}
+	
+	if ($result_save)
+	{
+		echo "Dati salvati : biglietti ".($key_offset_old+1)." - ".($key_offset_old+$key_max_num)."<br><br>\n";
+	}
+	
+	echo "<form action=\"manage_questions.php?task=set_nominativi&amp;data=$id_questions\" method=\"post\">\n";
+	for ($id = $key_offset;$id < $key_offset+$key_max_num; $id++)
+	{
+		$chiave_record = $keys[$keyfile_id][$id];
+		$chiave_key = $chiave_record[0];
+		$chiave_responsabile = $chiave_record[1];
+		$chiave_name = $chiave_record[2];
+		$chiave_data = $chiave_record[3];
+		
+		
+		echo "Biglietto ".($id+1);
+		echo " (".$chiave_key.") : ";
+		echo " consegnato a <input name=\"chiave_name_$id\" value=\"$chiave_name\"/>";
+		echo " da <input name=\"chiave_responsabile_$id\" value=\"$chiave_responsabile\"/>";
+		echo " in data <input name=\"chiave_data_$id\" value=\"$chiave_data\"</input>";
+		echo "<br>\n";
+	}
+	echo "<input type=\"hidden\" name=\"keyfile_id\" value=\"$keyfile_id\" />\n";
+	echo "<input type=\"hidden\" name=\"key_offset\" value=\"$key_offset\" />\n";
+	echo "<input type=\"hidden\" name=\"key_offset_old\" value=\"$key_offset\" />\n";
+	echo '<input type="submit" value="Salva modifiche" />';
+	echo "\n</form>\n";
+		
 	break;
 default:
 	echo "<a href=\"articoli.php\">Torna indietro</a><br><br>\n";
