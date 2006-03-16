@@ -195,12 +195,19 @@ case "check_auth":
 		
 		// verifica che la chiave inserita sia corretta, ed individuane il gruppo
 		$found_key = check_question_keys($id_questions,$auth_token);
+		$nominativo = $found_key[2][2];	// nome di chi ha ricevuto il biglietto, registrato a cura dell'amministratore
+		
 		if (empty($found_key))
 		{
 			die($lotteria['msg_auth_failed'][0][0]);
 		}
 		
-		echo "Benvenuto, puoi giocare.<br><br>\n";
+		echo "Benvenuto";
+		if (!empty($nominativo))
+		{
+			echo " $nominativo";
+		}
+		echo ", puoi giocare.<br><br>\n";
 	}
 case "fill":
 	echo "<form action=\"questions.php\" method=\"post\">";
