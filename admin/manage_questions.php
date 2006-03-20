@@ -42,9 +42,9 @@ if ($password != $password_ok)
 $id_questions = $data;
 $basefile_questions = "lotteria_".sprintf("%03d",$id_questions).".txt";
 $basefile_question_keys = "lotteria_".sprintf("%03d",$id_questions)."_keys_%03d.txt";
-$file_questions = $root_path."custom/lotterie/".$basefile_questions;	// nome del file di configurazione relativo a id_questions
-$file_question_keys = $root_path."custom/lotterie/".$basefile_question_keys;	// nome del generico file di chiavi
-$file_log_questions = $root_path."custom/lotterie/lotteria_".sprintf("%03d",$id_questions)."_log.txt";	// nome del file di registrazione
+$file_questions = $questions_dir.$basefile_questions;	// nome del file di configurazione relativo a id_questions
+$file_question_keys = $questions_dir.$basefile_question_keys;	// nome del generico file di chiavi
+$file_log_questions = $questions_dir."lotteria_".sprintf("%03d",$id_questions)."_log.txt";	// nome del file di registrazione
 
 if (file_exists($file_questions))
 {
@@ -379,7 +379,7 @@ default:
 }
 
 
-log_action($articles_dir,"Action: <$mode>, data: <$data>, ".date("l dS of F Y h:i:s A"));
+log_action($questions_dir,"Action: <$mode>, data: <$data>, ".date("l dS of F Y h:i:s A"));
 
 ?>
 
