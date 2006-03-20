@@ -7,6 +7,7 @@ abilita_stima_foto_mancante = 0; % [0,1] a partire da album, id_photo e data pro
 nomefile = 'logfile.txt';
 backupfile = 'backupfile*.txt';
 % root_path='d:/stralaceno/online_2006_01_17/'; % path della radice del sito
+% root_path='/var/www/htdocs/work/ars/'; % path della radice del sito
 root_path='/var/www/htdocs/work/stralaceno2/'; % path della radice del sito
 
 
@@ -281,7 +282,7 @@ for data_i = 1:length(data_list)
         end
         
         % crea la figura con tutte le foto (se root_path punta alla radice del sito)
-        if ~isempty(root_path)
+        if (~isempty(root_path) & ~isempty(classifica_foto))
             h=figure;
             set(h,'numbertitle','off','name',['Classifica foto piu'' viste aggiornata al ' datestr(max(vseconds))]);
             m=3;n=3;
