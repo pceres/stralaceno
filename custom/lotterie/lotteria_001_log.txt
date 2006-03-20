@@ -1,0 +1,5 @@
+Stati Uniti,Repubblica Ceca,Ghana,Togo,Serbia Montenegro,Giappone,Ecuador,Australia::1140649759::Thursday 23rd of February 2006 12:09:19 AM::af3a1ce3e0b5efc55d8c86578dfe0628
+Inghilterra,Svizzera,Stati Uniti,Olanda,Argentina,Italia,Portogallo,Repubblica Ceca::1140776619::Friday 24th of February 2006 11:23:39 AM::e3a3845cf3292b05cdcaeb5555ed5f86
+Svizzera,Ucraina,Inghilterra,Italia,Svezia,Croazia,Angola,Ghana::1141733552::Tuesday 07th of March 2006 01:12:32 PM::901aee2712959f1d47b2d532b0d7ab07
+Argentina,Spagna,Italia,Olanda,Inghilterra,Australia,Costa D\\\'Avorio,Tunisia::1141904749::Thursday 09th of March 2006 12:45:49 PM::563acaf696d81496825a91f27d61172d
+Francia,Repubblica Ceca,Inghilterra,Arabia Saudita,Trinidad E Tobago,Ucraina,Polonia,Corea Del Sud::1142016504::Friday 10th of March 2006 07:48:24 PM::f4c737b9f4f390b7b439100c47159aa5
