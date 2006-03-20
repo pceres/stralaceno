@@ -1,0 +1,19 @@
+Autore::
+Titolo::La corsa campestre
+--- Begin body ---
+<p>
+La stagione di corsa campestre si sviluppa normalmente nei mesi invernali dopo la chiusura della stagione su pista.<p>
+Il percorso &egrave; tracciato su di un'area aperta e boschiva, coperta il 
+pi&ugrave possibile da prato, con ostacoli naturali che possono essere usati dal tracciatore del percorso
+per ottenere una  gara competitiva e interessante.<p>
+La gara dunque si svolge su un circuito che deve misurare da 1750 m a 2000 m. a giro.
+Il pendio totale, sempre per singolo giro, deve essere pari ad almeno 10 metri.<p>
+Di regola sono usati ostacoli naturali preesistenti. Ad eccezione dell'arrivo e della partenza, il percorso non presenta altre lunghe zone rettilinee ed &egrave; caratterizzato da curve dolci e brevi rettilinei<p>
+Le distanze di corsa campestre sono:<br>
+Cross lungo uomini 12 Km,<br> Cross lungo donne 8 Km,<br> Cross corto uomini 4 Km,<br> Cross corto donne 4 Km,<br>
+Cross Junior uomini 8 Km,<br> Cross Junior donne 6 Km.
+<p>
+A causa delle circostanze estremamente variabili in cui la corsa campestre &egrave; praticata nel mondo e delle difficolt&agrave; per una normativa
+internazionale standardizzata di questo sport, deve essere accettato che le differenze tra manifestazioni disputatesi con successo
+o meno, spesso dipendono dalle caratteristiche naturali del luogo di svolgimento e dall'abilit&agrave; del tracciatore del percorso.
+--- End body ---
