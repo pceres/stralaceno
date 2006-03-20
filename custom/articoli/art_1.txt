@@ -6,7 +6,9 @@ Titolo::ARS Amatori Running Sele
 La sede è in Corso Garibaldi n.30 in Caposele.<br>
 Il Consiglio direttivo, che ha un mandato di tre anni,  &egrave composto dai tre soci fondatori e da Pasquale Ceres.
 Attualmente l'associazione vanta nove soci.<p>
-Scopo principale dell'ARS &egrave promuovere e diffondere una corretta pratica dello sport. 
+Scopo principale dell'ARS &egrave promuovere e diffondere una corretta pratica dello sport.
+<p>
+Il 15.04.2006 alle ore 15.00 si terrà l'ASSEMBLEA SOCIALE ORDINARIA per l'approvazione del RENDICONTO ECONOMICO FINANZIARIO 2005 e la PROGRAMMAZIONE DELL'ATTIVITA' 2006.
 <p>
 <!--div align="center">
 <img id="foto" src="%file_root%custom/album/ars/ars_semplificato.jpg" alt="" border="0" width="250">
