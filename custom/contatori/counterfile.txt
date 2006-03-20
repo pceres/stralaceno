@@ -6,7 +6,8 @@ admin_upload_foto:1
 admin_upload_text:4
 admin_albums:2
 admin_album:2
-homepage:33
-admin_index:8
-admin_articoli:6
-questions:15
+admin_upload_articoli:1
+admin_articoli:8
+homepage:47
+questions:21
+admin_index:17
