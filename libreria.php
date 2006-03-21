@@ -103,10 +103,10 @@ do {
 	$test = strpos($path,$root_prefix_work,$end);
 	if ($test)
 	{
-		$end = $test+strlen($root_prefix_work)+1;
+		$end = $test+strlen($root_prefix_work);
 	}
 } while ($test);
-$root_path = substr($path,0,$end);
+$root_path = substr($path,0,$end+1);
 
 // path assoluto da usare per gli script php
 $start = strpos($_SERVER['SCRIPT_NAME'],$root_prefix_work);
@@ -123,10 +123,10 @@ do {
 	$test = strpos($path,$root_prefix_work,$end);
 	if (strlen($test."a")>1)
 	{
-		$end = $test+strlen($root_prefix_work)+1;
+		$end = $test+strlen($root_prefix_work);
 	}
 } while (strlen($test."a")>1);
-$script_abs_path = substr($path,0,$end);
+$script_abs_path = substr($path,0,$end+1);
 
 // path assoluto da usare per l'html e le immagini
 if (array_key_exists('HTTP_HOST',$_SERVER) and array_key_exists('SCRIPT_URI',$_SERVER))
@@ -156,10 +156,10 @@ do {
 	$test = strpos($path,$root_prefix_work,$end);
 	if (strlen($test."a")>1)
 	{
-		$end = $test+strlen($root_prefix_work)+1;
+		$end = $test+strlen($root_prefix_work);
 	}
 } while (strlen($test."a")>1);
-$site_abs_path = substr($path,0,$end);
+$site_abs_path = substr($path,0,$end+1);
 
 
 #path assoluti
