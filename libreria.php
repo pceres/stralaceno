@@ -73,6 +73,17 @@ $indice_user_groups = 2;
 $indici_user = array('indice_user_name'=>$indice_user_name,'indice_user_passwd'=>$indice_user_passwd,'indice_user_groups'=>$indice_user_groups);
 
 
+# formato file di configurazione $lotteria_xxx.txt
+$indice_question_caption = 0;
+$indice_question_tipo = 1;
+$indice_question_gruppo = 2;
+$indice_question_ripetibile = 3;
+
+$indici_question = array(
+'indice_question_caption'=>$indice_question_caption,'indice_question_tipo'=>$indice_question_tipo,'indice_question_gruppo'=>$indice_question_gruppo,
+'indice_question_ripetibile'=>$indice_question_ripetibile);
+
+
 #variabili di formattazione
 $style_sfondo_maschi = "rgb(249, 255, 255)";
 $style_sfondo_femmine = "rgb(255, 234, 234)";
@@ -206,7 +217,7 @@ $varie = array('symbol_1_partecipazione' => $symbol_1_partecipazione,'symbol_1_p
 $custom = array('homepage_link' => $homepage_link,'tempo_max_M' => $tempo_max_M,'tempo_max_F' => $tempo_max_F,'tempo_max_grafico' => $tempo_max_grafico,'race_name' => $race_name,'web_title' => $web_title,'web_description' => $web_description,'web_keywords' => $web_keywords,'email_info' => $email_info);
 $admin = array('password_album' => $password_album,'password_config' => $password_config,'password_articoli' => $password_articoli,'password_upload_file' => $password_upload_file,'max_last_editions' => $max_last_editions,'max_online_articles' => $max_online_articles);
 
-return array_merge($indici,$indici2,$indici3,$indici_layout,$indici_user,$formattazione,$filenames,$pathnames,$varie,$admin,$custom);
+return array_merge($indici,$indici2,$indici3,$indici_layout,$indici_user,$indici_question,$formattazione,$filenames,$pathnames,$varie,$admin,$custom);
 }
 
 function load_data($filename,$num_colonne) {
@@ -1275,7 +1286,6 @@ function show_template($template_file)
 }
 
 
-
 function group_match($usergroups,$enabled_groups)
 {
 // enabled_group vuoto -> abilitato
@@ -1294,6 +1304,87 @@ foreach($enabled_groups as $enabled_group)
 return false;
 
 } // end function group_match($usergroups,$enabled_groups)
+
+
+function show_question_form($lotteria,$action,$question_action,$id_questions,$auth_token,$caption_button){
+
+# dichiara variabili
+extract(indici());
+
+if (empty($auth_token))
+{
+	$admin_mode = true;
+}
+else
+{
+	$admin_mode = false;
+}
+
+$question_tag_format = "question_%02d";
+
+echo "<form action=\"$action\" method=\"post\">";
+$question_count = 0;
+foreach ($lotteria["Domande"] as $domanda)
+{
+	$question_tag = sprintf($question_tag_format,$question_count);
+	
+	echo "$domanda[$indice_question_caption]\n";
+	
+	switch ($domanda[$indice_question_tipo])
+	{
+	case "free_number":
+	case "free_string":
+		echo "<input name=\"$question_tag\" type=\"edit\">\n";
+		break;
+	case "fixed":
+		// determina le varie risposte possibili
+		$gruppi_domande = split(",",$domanda[$indice_question_gruppo]);
+		$voci = array();
+		foreach($gruppi_domande as $gruppo_domande)
+		{
+			$voci = array_merge($lotteria[$gruppo_domande],$voci);
+		}
+		
+		echo "<select name=\"$question_tag\" >\n";
+		echo $domanda[$indice_question_gruppo]."\n";
+		foreach($voci as $voce)
+		{
+		if ($_REQUEST[$question_tag] === $voce[0])
+			{
+				$default_tag = " selected";
+			}
+			else
+			{
+				$default_tag = "";
+			}
+			echo "<option$default_tag>$voce[0]</option>\n";
+		}
+		echo "</select>\n";
+		break;
+	}
+	echo "<br>\n\n";
+	
+	$question_count++;
+}
+
+echo "<input type=\"hidden\" name=\"id_questions\" value=\"$id_questions\">\n";
+echo "<input type=\"hidden\" name=\"action\" value=\"$question_action\">\n";
+if ($admin_mode)
+{
+	echo "<br>\n";
+	echo "Data di ricezione giocata (hh:mm gg/mm/aaaa):<input type=\"edit\" name=\"data_giocata\"><br>\n";
+	echo "<br>\n";
+	echo "Chiave segreta:<input type=\"edit\" name=\"auth_token\" value=\"\"><br>\n";
+}
+else
+{
+	echo "<input type=\"hidden\" name=\"auth_token\" value=\"$auth_token\"><br>\n";
+}
+echo "<br>";
+echo "<input type=\"submit\" value=\"$caption_button\"/>";
+
+echo "</form>\n";
+} // end function show_question_form()
 
 
 function create_key_files($id_questions,$num_files,$num_keys) {
