@@ -15,15 +15,18 @@ questa libreria esamina i cookies o i parametri http (eventualmente) inviati, e 
 */
 require_once('login.php');
 
-$action = $_REQUEST['action'];
+$action = $_REQUEST['action'];			// azione da eseguire
 if (empty($action))
 {
 	$action = "auth"; // azione di default
 }
 
-$auth_token = $_REQUEST['auth_token'];
+$auth_token = $_REQUEST['auth_token'];		// chiave o nome da associare alla giocata
 
-$id_questions = $_REQUEST['id_questions'];
+$id_questions = $_REQUEST['id_questions'];	// id della lotteria in oggetto
+
+$data_giocata = $_REQUEST['data_giocata'];	// data che fa fede per la giocata
+
 $file_questions = $root_path."custom/lotterie/lotteria_".sprintf("%03d",$id_questions).".txt";	// nome del file di configurazione relativo a id_questions
 $file_log_questions = $root_path."custom/lotterie/lotteria_".sprintf("%03d",$id_questions)."_log.txt";	// nome del file di registrazione
 
@@ -43,11 +46,6 @@ $lotteria_inizio_giocate = $lotteria["Attributi"][0][3];
 $lotteria_fine_giocate = $lotteria["Attributi"][0][4];
 $lotteria_risultati = $lotteria["Attributi"][0][5];
 
-$id_caption = 0;
-$id_tipo = 1;
-$id_gruppo = 2;
-$id_ripetibile = 3;
-
 $question_tag_format = "question_%02d";
 
 ?>
@@ -66,10 +64,8 @@ $question_tag_format = "question_%02d";
 
 function check_answers($lotteria,$answers,&$results,&$msg)
 {
-	$id_caption = 0;
-	$id_tipo = 1;
-	$id_gruppo = 2;
-	$id_ripetibile = 3;
+	# dichiara variabili
+	extract(indici());
 	
 	$domande = $lotteria["Domande"];
 	$result = 1;
@@ -78,7 +74,7 @@ function check_answers($lotteria,$answers,&$results,&$msg)
 		$results[$id] = 1;
 		$msg[$id] = '';
 		$domanda =  $domande[$id];
-		if ($domanda[$id_ripetibile] === "non_ripetibile")
+		if ($domanda[$indice_question_ripetibile] === "non_ripetibile")
 		{
 			foreach($answers as $id2 => $answer2)
 			{
@@ -93,6 +89,21 @@ function check_answers($lotteria,$answers,&$results,&$msg)
 	}
 	return $result;
 }
+
+
+function check_key($id_questions,$auth_token,$msg_auth_failed)
+{
+	// verifica che la chiave inserita sia corretta, ed individuane il gruppo
+	$found_key = check_question_keys($id_questions,$auth_token);
+	
+	if (empty($found_key))
+	{
+		die($msg_auth_failed);
+	}
+	
+	return $found_key;
+	
+} // end function check_key
 
 
 function parse_date($data) {
@@ -194,84 +205,55 @@ case "check_auth":
 		}
 		
 		// verifica che la chiave inserita sia corretta, ed individuane il gruppo
-		$found_key = check_question_keys($id_questions,$auth_token);
+		$found_key = check_key($id_questions,$auth_token,$lotteria['msg_auth_failed'][0][0]);
+		$nominativo = $found_key[2][2];	// nome di chi ha ricevuto il biglietto, registrato a cura dell'amministratore
+/*		$found_key = check_question_keys($id_questions,$auth_token);
 		$nominativo = $found_key[2][2];	// nome di chi ha ricevuto il biglietto, registrato a cura dell'amministratore
 		
 		if (empty($found_key))
 		{
 			die($lotteria['msg_auth_failed'][0][0]);
 		}
-		
+*/		
 		echo "Benvenuto";
 		if (!empty($nominativo))
 		{
 			echo " $nominativo";
 		}
 		echo ", puoi giocare.<br><br>\n";
-	}
+	} // if ($action == "check_auth")
 case "fill":
-	echo "<form action=\"questions.php\" method=\"post\">";
-	$question_count = 0;
-	foreach ($lotteria["Domande"] as $domanda)
-	{
-		$question_tag = sprintf($question_tag_format,$question_count);
-		
-		echo "$domanda[$id_caption]\n";
-		
-		switch ($domanda[$id_tipo])
-		{
-		case "free_number":
-		case "free_string":
-			echo "<input name=\"$question_tag\" type=\"edit\">\n";
-			break;
-		case "fixed":
-			// determina le varie risposte possibili
-			$gruppi_domande = split(",",$domanda[$id_gruppo]);
-			$voci = array();
-			foreach($gruppi_domande as $gruppo_domande)
-			{
-				$voci = array_merge($lotteria[$gruppo_domande],$voci);
-			}
-			
-			echo "<select name=\"$question_tag\" >\n";
-			echo $domanda[$id_gruppo]."\n";
-			foreach($voci as $voce)
-			{
-				if ($_REQUEST[$question_tag] === $voce[0])
-				{
-					$default_tag = " selected";
-				}
-				else
-				{
-					$default_tag = "";
-				}
-				echo "<option$default_tag>$voce[0]</option>\n";
-			}
-			echo "</select>\n";
-			break;
-		}
-		echo "<br>\n\n";
-		
-		$question_count++;
-	}
-	
-	echo "<input type=\"hidden\" name=\"id_questions\" value=\"$id_questions\">\n";
-	echo "<input type=\"hidden\" name=\"action\" value=\"last_check\">\n";
-	echo "<input type=\"hidden\" name=\"auth_token\" value=\"$auth_token\">\n";
-	echo '<input type="submit" value="gioca"/>';
-	
-	echo "</form>\n";
+	// visualizza le domande	
+	show_question_form($lotteria,"questions.php","last_check",$id_questions,$auth_token,"Gioca");
 	
 	break;
 case "last_check":
-
+	
+	if (!empty($data_giocata))
+	{
+		$admin_mode = true;
+	}
+	else
+	{
+		$admin_mode = false;
+	}
+	
+	// verifica che la chiave inserita sia corretta, ed individuane il gruppo
+	$found_key = check_question_keys($id_questions,$auth_token);
+	$nominativo = $found_key[2][2];	// nome di chi ha ricevuto il biglietto, registrato a cura dell'amministratore
+	
+	if (empty($found_key))
+	{
+		die($lotteria['msg_auth_failed'][0][0]);
+	}
+	
 	// ricava elenco delle risposte	
 	$question_count = 0;
 	$answers=array();
 	foreach ($lotteria["Domande"] as $domanda)
 	{
 		$question_tag = sprintf($question_tag_format,$question_count);
-		switch ($domanda[$id_tipo])
+		switch ($domanda[$indice_question_tipo])
 		{
 		case "free_number":
 		case "free_string":
@@ -304,9 +286,9 @@ case "last_check":
 	$question_count = 0;
 	foreach ($lotteria["Domande"] as $domanda)
 	{
-		echo ($question_count+1).") $domanda[$id_caption]: \n";
+		echo ($question_count+1).") $domanda[$indice_question_caption]: \n";
 		
-		switch ($domanda[$id_tipo])
+		switch ($domanda[$indice_question_tipo])
 		{
 		case "free_number":
 		case "free_string":
@@ -337,7 +319,7 @@ case "last_check":
 			echo(" $answer $messaggio\n");
 			
 			// determina le varie risposte possibili
-			$gruppi_domande = split(",",$domanda[$id_gruppo]);
+			$gruppi_domande = split(",",$domanda[$indice_question_gruppo]);
 			$voci = array();
 			foreach($gruppi_domande as $gruppo_domande)
 			{
@@ -354,12 +336,20 @@ case "last_check":
 	echo "<input type=\"hidden\" name=\"id_questions\" value=\"$id_questions\">\n";
 	echo "<input type=\"hidden\" name=\"action\" value=\"save\">\n";
 	echo "<input type=\"hidden\" name=\"auth_token\" value=\"$auth_token\">\n";
+	if ($admin_mode)
+	{
+		echo "<input type=\"hidden\" name=\"data_giocata\" value=\"$data_giocata\">\n";
+	}
 	echo "<input type=\"submit\" value=\"modifica\" $modifica_disabled OnClick='form[\"action\"].value=\"fill\";' />";
 	echo "<input type=\"submit\" value=\"conferma\" $conferma_disabled />";
 	
 	echo "</form>\n";
 	break;
 case "save":
+	// verifica che la chiave sia corretta
+	$found_key = check_key($id_questions,$auth_token,$lotteria['msg_auth_failed'][0][0]);
+	$nominativo = $found_key[2][2];	// nome di chi ha ricevuto il biglietto, registrato a cura dell'amministratore
+	
 	// verifica che non si giochi piu' volte la stessa giocata	
 	$giocata_ripetuta = 0;
 	$giocate = get_giocata($id_questions,$auth_token);
@@ -368,6 +358,14 @@ case "save":
 		$giocata_ripetuta = 1;
 	}
 	
+	if (!empty($data_giocata))
+	{
+		$admin_mode = true;
+	}
+	else
+	{
+		$admin_mode = false;
+	}
 	
 	$domande = $lotteria["Domande"];
 	$string_answers = '';
@@ -386,7 +384,14 @@ case "save":
 		$question_count++;
 	}
 	
-	$log = $string_answers."::".time()."::".date("l dS of F Y h:i:s A")."::".$auth_token."\n";
+	// gestione data della giocata: per la giocata online si usa l'istante della giocata, per la giocata cartacea inserita dall'amministratore
+	// si usa $_REQUEST["data_giocata"] passata dall'interfaccia amministrativa
+	if (!$admin_mode)
+	{
+		$data_giocata = date("H:i d/m/Y ");
+	}
+	
+	$log = $string_answers."::".time()."::".$data_giocata."::".$auth_token."\n";
 	
 	$bulk = get_config_file($file_log_questions);
 	$ultima_giocata = $bulk['default'][count($bulk['default'])-1];
@@ -399,26 +404,34 @@ case "save":
 	
 	if ($giocata_ripetuta)
 	{
-		echo("La giocata &egrave; gi&agrave; stata registrata:<br><br>\n");
+		echo("ATTENZIONE! La giocata &egrave; gi&agrave; stata registrata:<br><br>\n");
 		show_giocate($giocate);
-		break;
 	}
-	
-	//registra la giocata
-	$cf = fopen($file_log_questions, 'a');
-	fwrite($cf, $log);
-	fclose($cf);
-	
-	echo "La giocata &egrave; stata registrata:<br><br>\n";
-	show_giocate(array($giocata_da_salvare));
+	else
+	{
+		//registra la giocata
+		$cf = fopen($file_log_questions, 'a');
+		fwrite($cf, $log);
+		fclose($cf);
+		
+		echo "La giocata ";
+		if ($admin_mode)
+		{
+			echo "cartacea";
+		}
+		else
+		{
+			echo "online";
+		}
+		echo " &egrave; stata registrata:<br><br>\n";
+		show_giocate(array($giocata_da_salvare));
+	}
 	
 	break;
 default:
 	die("Azione \"$action\" sconosciuta!");
 	
 } // end switch($action)
-
-
 
 
 echo $homepage_link;
