@@ -6,12 +6,11 @@ require_once('../libreria.php');
 extract(indici());
 
 // verifica che si stia arrivando a questa pagina da quella amministrativa principale
-/*if ( !isset($_SERVER['HTTP_REFERER']) | ("http://".$_SERVER['HTTP_HOST'].$script_abs_path."admin/" != substr($_SERVER['HTTP_REFERER'],0,strrpos($_SERVER['HTTP_REFERER'],'/')+1) ) )
+if ( !isset($_SERVER['HTTP_REFERER']) | ("http://".$_SERVER['HTTP_HOST'].$script_abs_path."admin/" != substr($_SERVER['HTTP_REFERER'],0,strrpos($_SERVER['HTTP_REFERER'],'/')+1) ) )
 {
 	header("Location: ".$script_abs_path."admin/index.php");
 	exit();
 }
-*/
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -29,15 +28,6 @@ extract(indici());
 $mode = $_REQUEST['task'];
 $data = $_REQUEST['data'];
 $password = $_REQUEST['password'];
-
-/*$password_ok = $password_articoli;
-
-if ($password != $password_ok)
-{
-	echo "<a href=\"articoli.php\">Torna indietro</a><br><br>\n";
-	die("La password inserita non &egrave; corretta!<br>\n");
-}
-*/
 
 $id_questions = $data;
 $basefile_questions = "lotteria_".sprintf("%03d",$id_questions).".txt";
@@ -148,6 +138,10 @@ case 'edit':
 	if ($lotteria_auth == 'key')
 	{
 		
+		// gestione giocate cartacee
+		echo "<hr>";
+		echo "<a href=\"manage_questions.php?task=manage_giocate_cartacee&amp;data=$id_questions\">Gestione giocate cartacee</a>";
+		
 		// stampa dei biglietti
 		$keys = get_question_keys($id_questions);
 		echo "<hr>";
@@ -158,7 +152,6 @@ case 'edit':
 
 			// per stampa della pagina con un sottoinsieme dei biglietti
 			echo "<form action=\"manage_questions.php?task=ticket_page&amp;data=$id_questions\" method=\"post\">\n";
-//			$tag_string = sprintf("keyfile_%03d",$keyfile_id);
 			echo "<select name=\"keyfile_select\">";
 			echo "<option value=\"-1\" selected>&nbsp;</option>\n";
 			for ($key_id = 0; $key_id < (count($keys[$keyfile_id])-1)/4; $key_id++)
@@ -185,7 +178,6 @@ case 'edit':
 			
 			echo "<br>";
 		}
-		
 		
 	}
 	
@@ -373,6 +365,11 @@ case 'set_nominativi':
 	echo "\n</form>\n";
 		
 	break;
+case 'manage_giocate_cartacee':
+	// visualizza le domande	
+	show_question_form($lotteria,"../questions.php","last_check",$id_questions,"","Conferma la giocata");
+	
+	break;
 default:
 	echo "<a href=\"articoli.php\">Torna indietro</a><br><br>\n";
 	die("mode: \"".$mode."\", data: \"".$data."\"\n");
@@ -383,8 +380,13 @@ log_action($questions_dir,"Action: <$mode>, data: <$data>, ".date("l dS of F Y h
 
 ?>
 
-<hr>
-<div align="right"><a href="index.php" class="txt_link">Torna alla pagina amministrativa principale</a></div>
+<?php
+if (!empty($id_questions) & ($mode!=='edit'))
+{
+	echo "<hr><a href=\"manage_questions.php?task=edit&data=$id_questions\" class=\"txt_link\">Torna alla pagina amministrativa della lotteria &quot;$lotteria_nome&quot;</a>";
+}
+echo $homepage_link;
+?>
 
 </body>
 </html>
