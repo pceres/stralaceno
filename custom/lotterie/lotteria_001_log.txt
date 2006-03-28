@@ -6,3 +6,4 @@ Francia,Repubblica Ceca,Inghilterra,Arabia Saudita,Trinidad E Tobago,Ucraina,Pol
 Italia,Germania,Brasile,Croazia,Inghilterra,Corea Del Sud,Argentina,Spagna::1142338323::13:12 14/03/2006::1c6ebbaba7175e086ead7f480396618c
 Tunisia,Croazia,Germania,Giappone,Iran,Repubblica Ceca,Trinidad E Tobago,Corea Del Sud::1142607188::15:53 17/03/2006::fe5bfe629b3438ddf88c9448fbcdf168
 Germania,Svizzera,Ghana,Iran,Paraguay,Corea Del Sud,Polonia,Repubblica Ceca::1142847123::10:32 20/03/2006::c205a19a8ea297767c5388a7a79336de
+Giappone,Corea Del Sud,Arabia Saudita,Inghilterra,Angola,Australia,Trinidad E Tobago,Svizzera::1143107678::10:21 23/03/2006::0fe56d795cd89d93deebe7e005190db5
