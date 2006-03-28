@@ -4,7 +4,7 @@ Titolo::La corsa campestre
 <p>
 La stagione di corsa campestre si sviluppa normalmente nei mesi invernali dopo la chiusura della stagione su pista.<p>
 Il percorso &egrave; tracciato su di un'area aperta e boschiva, coperta il 
-pi&ugrave possibile da prato, con ostacoli naturali che possono essere usati dal tracciatore del percorso
+pi&ugrave; possibile da prato, con ostacoli naturali che possono essere usati dal tracciatore del percorso
 per ottenere una  gara competitiva e interessante.<p>
 La gara dunque si svolge su un circuito che deve misurare da 1750 m a 2000 m. a giro.
 Il pendio totale, sempre per singolo giro, deve essere pari ad almeno 10 metri.<p>
