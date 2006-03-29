@@ -11,6 +11,13 @@ if ( !isset($_SERVER['HTTP_REFERER']) | ("http://".$_SERVER['HTTP_HOST'].$script
 	header("Location: ".$script_abs_path."admin/index.php");
 	exit();
 }
+
+
+$mode = $_REQUEST['task'];
+$data = $_REQUEST['data'];
+$password = $_REQUEST['password'];
+
+
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -21,13 +28,20 @@ if ( !isset($_SERVER['HTTP_REFERER']) | ("http://".$_SERVER['HTTP_HOST'].$script
   <meta name="GENERATOR" content="Kate">
   <style type="text/css">@import "<?php echo $filename_css ?>";</style>
 </head>
-<body>
+<?php
+switch ($mode)
+{
+case 'set_nominativi':
+case 'ticket_page':
+	$classe = "";
+	break;
+default:
+	$classe = "class=\"admin\"";
+}
+echo "<body $classe>";
+?>
 
 <?php
-
-$mode = $_REQUEST['task'];
-$data = $_REQUEST['data'];
-$password = $_REQUEST['password'];
 
 $id_questions = $data;
 $basefile_questions = "lotteria_".sprintf("%03d",$id_questions).".txt";
