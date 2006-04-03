@@ -16,10 +16,6 @@ questa libreria esamina i cookies o i parametri http (eventualmente) inviati, e 
 require_once('login.php');
 
 $action = $_REQUEST['action'];			// azione da eseguire
-if (empty($action))
-{
-	$action = "auth"; // azione di default
-}
 
 $auth_token = $_REQUEST['auth_token'];		// chiave o nome da associare alla giocata
 
@@ -45,6 +41,26 @@ $lotteria_auth = $lotteria["Attributi"][0][2];
 $lotteria_inizio_giocate = $lotteria["Attributi"][0][3];
 $lotteria_fine_giocate = $lotteria["Attributi"][0][4];
 $lotteria_risultati = $lotteria["Attributi"][0][5];
+
+// decodifica date
+$v_start = parse_date($lotteria_inizio_giocate);
+$v_end = parse_date($lotteria_fine_giocate);
+$v_results = parse_date($lotteria_risultati);
+$v_now = parse_date(date("h:i d/m/Y"));
+
+// smista l'azione di default a seconda della data attuale
+if (empty($action))
+{
+	if (($v_now[0] > $v_results[0]) | (!empty($_REQUEST['debug'])) | (!empty($_REQUEST['filtro'])))
+	{
+		$action = "results"; 			// azione di default dopo la data di presentazione risultati (v_results)
+	}
+	else
+	{
+		$action = "auth"; 			// azione di default nel periodo di giocate aperte
+	}
+}
+
 
 $question_tag_format = "question_%02d";
 
@@ -126,9 +142,6 @@ switch ($action)
 {
 case "auth":
 	// verifica che le giocate siano aperte
-	$v_start = parse_date($lotteria_inizio_giocate);
-	$v_end = parse_date($lotteria_fine_giocate);
-	$v_now = parse_date(date("h:i d/m/Y"));
 	if ($v_now[0] < $v_start[0])
 	{
 		die($lotteria['msg_date'][0][0]);
@@ -207,14 +220,7 @@ case "check_auth":
 		// verifica che la chiave inserita sia corretta, ed individuane il gruppo
 		$found_key = check_key($id_questions,$auth_token,$lotteria['msg_auth_failed'][0][0]);
 		$nominativo = $found_key[2][2];	// nome di chi ha ricevuto il biglietto, registrato a cura dell'amministratore
-/*		$found_key = check_question_keys($id_questions,$auth_token);
-		$nominativo = $found_key[2][2];	// nome di chi ha ricevuto il biglietto, registrato a cura dell'amministratore
 		
-		if (empty($found_key))
-		{
-			die($lotteria['msg_auth_failed'][0][0]);
-		}
-*/		
 		echo "Benvenuto";
 		if (!empty($nominativo))
 		{
@@ -427,6 +433,71 @@ case "save":
 		show_giocate(array($giocata_da_salvare));
 	}
 	
+	break;
+case "results":
+	echo "<div class=\"titolo_tabella\">Classifica</div><br>";
+	
+	$giocate = get_config_file($file_log_questions);
+	$giocate = $giocate['default'];
+	//show_giocate($giocate);
+
+$header = array("id","giocata","time","data giocata","auth_token","cedente","giocatore","data cessione","id tipo giocata","tipo giocata", 
+		"punteggio1","punteggio2");
+
+$count = 0;
+$elenco_giocate = array($header);
+foreach ($giocate as $giocata)
+{
+	$count++;	// incrementale della giocata
+	
+	// dati relativi alla chiave usata per la giocata
+	$auth_token_i = $giocata[3];	// chiave usata per effettuare la giocata
+	$found_key = check_question_keys($id_questions,$auth_token_i);
+
+	$cedente_biglietto = $found_key[2][1];		// nome di chi ha ceduto il biglietto, registrato a cura dell'amministratore
+	if (empty($cedente_biglietto)) $cedente_biglietto="-";
+	
+	$nominativo_biglietto = $found_key[2][2];	// nome di chi ha ricevuto il biglietto, registrato a cura dell'amministratore
+	if (empty($nominativo_biglietto)) $nominativo_biglietto="-";
+	
+	$data_biglietto = $found_key[2][3];		// data di cessione del biglietto, registrato a cura dell'amministratore
+	if (empty($data_biglietto)) $data_biglietto="-";
+	
+	// dati relativi al tipo di biglietto
+	$id_tipo_biglietto = $found_key[0];		// id del tipo del biglietto, registrato a cura dell'amministratore
+	$tipo_biglietto = $lotteria['keyfiles'][$found_key[0]][1]; // descrizione del tipo del biglietto
+	
+	// todo: creazione punteggi per la classifica
+	$punteggio1 = $auth_token_i[0];
+	$punteggio2 = $auth_token_i[1];
+
+	$dati_giocata = array_merge($count, $giocata, $cedente_biglietto, $nominativo_biglietto, $data_biglietto, $id_tipo_biglietto, $tipo_biglietto, $punteggio1, $punteggio2);
+	array_push($elenco_giocate,$dati_giocata);
+}
+
+if (!empty($_REQUEST['filtro']))
+{
+	$lista_regola_campo = array(8); // id_tipo_giocata
+	//$lista_regola_valore = array(0);// a pagamento
+	$lista_regola_valore = array($_REQUEST['filtro']-1);
+	$elenco_giocate = filtra_archivio($elenco_giocate,$lista_regola_campo,$lista_regola_valore);
+}
+
+//$elenco_giocate = ordina_archivio($elenco_giocate, 2, -1);
+$elenco_giocate = ordina_archivio($elenco_giocate, 10, 11);
+
+if ($_REQUEST['debug'] === "full")
+{
+	$mask = array(0,1,2,3,4,5,6,7,8,9,10,11);
+}
+else
+{
+	$mask = array(0,1,3,4,6,9);
+}
+show_table($elenco_giocate,$mask,'tabella',3,12,1); # tabella in tre colonne, font 12, con note
+
+
+
 	break;
 default:
 	die("Azione \"$action\" sconosciuta!");
