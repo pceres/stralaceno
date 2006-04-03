@@ -62,7 +62,7 @@ Pagine in preparazione::users
 
 
 [Approfondimenti]
-link2_lotteria_mondiali_2006::Lotteria Mondiali 2006::external_link::questions.php?id_questions=1::Pagina in allestimento!::
+link2_lotteria_mondiali_2006::Sondaggio Mondiali 2006::external_link::questions.php?id_questions=1::Pagina in allestimento!::
 
 [Amministrazione]
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Amministrazione] non prevede sottoelementi
@@ -74,4 +74,4 @@ link2_lotteria_mondiali_2006::Lotteria Mondiali 2006::external_link::questions.p
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Login] non prevede sottoelementi
 
 [Pagine in preparazione]
-link_lotteria_mondiali_2006::Lotteria Mondiali 2006::external_link::questions.php?id_questions=1::::
+link_lotteria_mondiali_2006::Sondaggio Mondiali 2006::external_link::questions.php?id_questions=1::::
