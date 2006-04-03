@@ -1,31 +1,19 @@
-Autore::Angelo Ceres
-Titolo::L'altopiano del Laceno
+Autore::
+Titolo::Cos'&egrave; la corsa campestre
 --- Begin body ---
-			<p>Laceno è ritenuto uno degli altopiani più ameni dell'appennino meridionale. 
-Chi arriva da Caposele, per la strada interna montana, affacciandosi sull'altopiano subisce
-un piacevole impatto con la bellezza del luogo.
-Laceno è posto a 1050 metri di altitudine con una superfice di circa  10 chilometri quadrati;
-la prateria è dominata dal maestoso Cervialto che con i suoi 1809 m. è la seconda vetta più alta 
-della Campania (la prima dei monti Picentini), in passato era frequentato dai cervi, da cui
-il suo nome, ed era anche rifugio dei briganti.
-Più ad ovest si erge il monte Rajamagra solcato da piste da sci e da impianti di risalita che 
-arrivano fino a quota 1667 metri.
-Dalla cima il panorama è stupendo: da una parte si spazia dalla penisola sorrentina con Capri,
-fino a Paestum e Punta Licosa; dall'altra colline e paesi d'Irpinia fin verso il tavoliere 
-delle Puglie ad intravedere il mar Adriatico.
-			<p>E' coperto da alberi di alto fusto di faggio e di pino; normalmente da novembre a marzo è
-ammantato di neve. In pieno inverno si possono toccare temperature minime intorno ai meno
-venti gradi centigradi e d'estate difficilmente e raramente si superano i 28 gradi.
-Fino ad un paio di secoli fa vi abbondava il cervo, oggi è ancora presente il lupo, la volpe,
-la faina, la martora, la lepre, il cinghiale. Fra i volatili l'aquila reale, i falchi, corvi,
-starne, il tordo, il colombaccio.
-			<p>Particolare è il rapporto che lega Laceno a Caposele, infatti, grazie alle abbondanti 
-precipitazioni, con una media annua di 2000 mm., inizia il lungo viaggio delle acque verso
-le sorgenti di piazza Sanità che fanno di Caposele il paese d'Italia più ricco d'acqua;
-a sottolineare questo connubio è anche il nome che prende una parte dell'altopiano,
-precisamente la parte nord, come Foce di Caposele.
-<p>&nbsp;
-<div align="center">
-<img id="foto" src="%file_root%custom/album/varie/laceno.jpg" alt="Panorama di Laceno" border="0" width="420">
-</div>
+<p>
+La stagione di corsa campestre si sviluppa normalmente nei mesi invernali dopo la chiusura della stagione su pista.<p>
+Il percorso &egrave; tracciato su di un'area aperta e boschiva, coperta il 
+pi&ugrave; possibile da prato, con ostacoli naturali che possono essere usati dal tracciatore del percorso
+per ottenere una  gara competitiva e interessante.<p>
+La gara dunque si svolge su un circuito che deve misurare da 1750 m a 2000 m. a giro.
+Il pendio totale, sempre per singolo giro, deve essere pari ad almeno 10 metri.<p>
+Di regola sono usati ostacoli naturali preesistenti. Ad eccezione dell'arrivo e della partenza, il percorso non presenta altre lunghe zone rettilinee ed &egrave; caratterizzato da curve dolci e brevi rettilinei<p>
+Le distanze di corsa campestre sono:<br>
+Cross lungo uomini 12 Km,<br> Cross lungo donne 8 Km,<br> Cross corto uomini 4 Km,<br> Cross corto donne 4 Km,<br>
+Cross Junior uomini 8 Km,<br> Cross Junior donne 6 Km.
+<p>
+A causa delle circostanze estremamente variabili in cui la corsa campestre &egrave; praticata nel mondo e delle difficolt&agrave; per una normativa
+internazionale standardizzata di questo sport, deve essere accettato che le differenze tra manifestazioni disputatesi con successo
+o meno, spesso dipendono dalle caratteristiche naturali del luogo di svolgimento e dall'abilit&agrave; del tracciatore del percorso.
 --- End body ---
