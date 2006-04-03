@@ -22,11 +22,43 @@ if (empty($filename))
 $enabled_config_files = array(
 	"links.txt",				// link visualizzati nel modulo "Link"
 	"pregfas.txt",				// pubblico registro dei fanfaroni della stralaceno (modulo_custom)
-	"lettere_stralaceno.txt",	// lettere alla Stralaceno (modulo_custom)
+	"lettere_stralaceno.txt",		// lettere alla Stralaceno (modulo_custom)
 	"layout_left.txt",			// layout della colonna sinistra in homepage
-	"layout_right.txt"			// layout della colonna destra in homepage
+	"layout_right.txt",			// layout della colonna destra in homepage
+	"lotteria_???.txt"			// file di configurazione lotteria xxx
 	); // elenco dei file di configurazione che e' possibile modificare 
-if (!in_array($filename,$enabled_config_files))
+
+$enabled_config_dirs = array(
+	$config_dir,				// link visualizzati nel modulo "Link"
+	$config_dir,				// pubblico registro dei fanfaroni della stralaceno (modulo_custom)
+	$config_dir,				// lettere alla Stralaceno (modulo_custom)
+	$config_dir,				// layout della colonna sinistra in homepage
+	$config_dir,				// layout della colonna destra in homepage
+	$questions_dir				// file di configurazione lotteria xxx
+	); // elenco delle directory dei file di configurazione che e' possibile modificare 
+
+$file_ok = false;
+foreach ($enabled_config_files as $id => $config_name)
+{
+	$name = $config_name;
+	$dir = $enabled_config_dirs[$id];	/* directory contenente il file in esame */
+
+	// verifica la presenza di carattere jolly "?"
+	while ($pos=strpos($name,'?'))
+	{
+		$name[$pos]=$filename[$pos];
+	}
+	
+	if ($name === $filename)
+	{
+		$file_ok = true;
+		break;
+	}
+	
+}
+
+//if (!in_array($filename,$enabled_config_files))
+if (!$file_ok)
 {
 	die("Non e' possibile modificare il file $filename! Contattare il webmaster.");
 }
@@ -48,7 +80,7 @@ if (!in_array($filename,$enabled_config_files))
 Modifica del file di configurazione <?php echo $filename; ?>:<br>
 
 <?php
-$filename = $config_dir.$filename;
+$filename = $dir.$filename;
 ?>
 <form action="upload_text.php" method="post" onSubmit="cripta_campo_del_form(this,'password')">
 	<input type="hidden" name="filename" value="<?php echo $filename ?>">
