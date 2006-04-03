@@ -15,7 +15,7 @@ L'ARS si propone di:
 <li>favorire contatti fra soci aventi specifici interessi culturali e sportivi, costituendo sezioni per le attivit&agrave; di maggior rilievo;</li>
 <li>aderire a qualsiasi attivit&agrave; che direttamente, tramite delibera del Consiglio Direttivo, sia giudicata idonea al raggiungimento degli scopi sociali.</li> 
 </ul>
-Il 15.04.2006 alle ore 15.00 si terr&agrave; l'ASSEMBLEA SOCIALE ORDINARIA per l'approvazione del RENDICONTO ECONOMICO FINANZIARIO 2005 e la PROGRAMMAZIONE DELL'ATTIVIT&Agrave; 2006.
+<b>Il 15.04.2006 alle ore 15.00 si terr&agrave; l'ASSEMBLEA SOCIALE ORDINARIA per l'approvazione del RENDICONTO ECONOMICO FINANZIARIO 2005 e la PROGRAMMAZIONE DELL'ATTIVIT&Agrave; 2006.</b>
 <p>
 <!--div align="center">
 <img id="foto" src="%file_root%custom/album/ars/ars_semplificato.jpg" alt="" border="0" width="250">
