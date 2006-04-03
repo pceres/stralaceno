@@ -898,7 +898,7 @@ function get_abstract($testo_in,$puntini)
 {
 // $puntini e' il link che viene aggiunto in coda, subito prima di chiudere eventuali tag html rimasti aperti
 
-$no_close_tags = array("p","br","?php"); // array di tags che non richiedono il tag di chiusura
+$no_close_tags = array("p","br","?php","img"); // array di tags che non richiedono il tag di chiusura
 	
 	$n_max_stop = 2; // numero massimo di righe contenenti un carattere ".","?","!"
 		
@@ -1015,7 +1015,7 @@ function show_article($art_data,$mode,$link)
 	
 	foreach ($testo_articolo as $line)
 	{
-		echo template_to_effective($line);
+		echo template_to_effective($line)."\n";
 	}
 	
 	echo "		<div class=\"txt_firma_articolo\">".$art_data["autore"]."</div>\n";
