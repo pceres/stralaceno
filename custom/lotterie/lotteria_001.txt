@@ -18,6 +18,15 @@
 Lotteria Mondiali di Calcio 2006::attiva::key::00:00 16/02/2006::18:00 09/06/2006::00:00 10/07/2006
 
 #
+# msg1::msg2::msg3
+#	msg1: visualizzato prima dell'apertura delle giocate
+#	msg2: visualizzato durante la fase di giocata
+#	msg3: visualizzato dopo la chiusura delle giocate
+#
+[msg_date]
+La lotteria non &egrave; ancora aperta. Potrai giocare dal 16/02::Si pu&ograve; giocare dal 16/02 al 09/06::Le giocate sono chiuse, l'estrazione avverr&agrave; il 10/07
+
+#
 # Formato riga [keyfiles]:
 # nome::caption::num_keys
 #	nome		: nome del gruppo di appartenenza
@@ -33,15 +42,6 @@ gratuito::per la gloria::300
 #
 [msg_auth_failed]
 La chiave inserita non &egrave; corretta.
-
-#
-# msg1::msg2::msg3
-#	msg1: visualizzato prima dell'apertura delle giocate
-#	msg2: visualizzato durante la fase di giocata
-#	msg3: visualizzato dopo la chiusura delle giocate
-#
-[msg_date]
-La lotteria non &egrave; ancora aperta. Potrai giocare dal 16/02::Si pu&ograve; giocare dal 16/02 al 09/06::Le giocate sono chiuse, l'estrazione avverr&agrave; il 10/07
 
 #
 # Messaggio visualizzato sui biglietti stampati
@@ -62,10 +62,10 @@ Gioca sul sito: http://ars.cjb.net
 #					: non_ripetibile
 #
 [Domande]
-1° classificato::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::non_ripetibile
-2° classificato::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::non_ripetibile
-3° classificato::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::non_ripetibile
-4° classificato::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::non_ripetibile
+1&deg; classificato::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::non_ripetibile
+2&deg; classificato::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::non_ripetibile
+3&deg; classificato::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::non_ripetibile
+4&deg; classificato::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::non_ripetibile
 Perdente quarto di finale (Berlino)::fixed::Gruppo gironi ABCD::non_ripetibile
 Perdente quarto di finale (Amburgo)::fixed::Gruppo gironi EFGH::non_ripetibile
 Perdente quarto di finale (Gelsenkirchen)::fixed::Gruppo gironi ABCD::non_ripetibile
