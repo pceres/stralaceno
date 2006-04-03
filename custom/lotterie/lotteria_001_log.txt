@@ -7,3 +7,5 @@ Italia,Germania,Brasile,Croazia,Inghilterra,Corea Del Sud,Argentina,Spagna::1142
 Tunisia,Croazia,Germania,Giappone,Iran,Repubblica Ceca,Trinidad E Tobago,Corea Del Sud::1142607188::15:53 17/03/2006::fe5bfe629b3438ddf88c9448fbcdf168
 Germania,Svizzera,Ghana,Iran,Paraguay,Corea Del Sud,Polonia,Repubblica Ceca::1142847123::10:32 20/03/2006::c205a19a8ea297767c5388a7a79336de
 Giappone,Corea Del Sud,Arabia Saudita,Inghilterra,Angola,Australia,Trinidad E Tobago,Svizzera::1143107678::10:21 23/03/2006::0fe56d795cd89d93deebe7e005190db5
+Stati Uniti,Italia,Giappone,Francia,Germania,Svizzera,Paraguay,Spagna::1143651210::18:53 29/03/2006 ::9b835650276f0dd760decd01e4169db2
+Australia,Paraguay,Brasile,Repubblica Ceca,Trinidad E Tobago,Ucraina,Messico,Giappone::1143881149::12:38 30/03/2006::0bc370137c7a49dcb7312e81dff4eba8
