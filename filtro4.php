@@ -50,7 +50,7 @@ $id_descrizione_foto = 2;
 
 if (array_key_exists($anno,$elenco_foto))
 {
-	$nota_album = "<a class=\"txt_link\" href=album.php?anno=$anno>&nbsp;<img src=\"".$site_abs_path."images/fotocamera.gif\" border='0' width=\"50\"></a>";
+	$nota_album = "<a class=\"txt_link\" href=album.php?anno=$anno>&nbsp;<img src=\"".$site_abs_path."images/fotocamera.gif\" border='0' width=\"50\" alt=\"vedi_album_$anno\"></a>";
 }
 else
 {
@@ -73,7 +73,6 @@ if (!empty($succ))
 }
 echo "</td>";
 echo "</tr></table>";
-//echo "<div class=\"titolo_tabella\">$race_name $anno - risultati ufficiali : $nota_album</div>";
 
 #prepara la tabella
 $archivio = aggiungi_simboli($archivio); // aggiunge il campo 'simb' con il tag html che mostra il simbolo
