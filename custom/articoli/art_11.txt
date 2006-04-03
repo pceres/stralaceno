@@ -1,16 +1,14 @@
 Autore::ARS
-Titolo::Allenamento Collettivo
+Titolo::Allenamento Collettivo 2005
 --- Begin body ---
-<br>Il 30 dicembre si &egrave svolta una seduta di allenamento di gruppo, lungo il tratto stradale Caposele/Materdomini (strada vecchia ss165) e ritorno.
+<br>Il 30 dicembre si &egrave; svolta una seduta di allenamento di gruppo, lungo il tratto stradale Caposele/Materdomini (strada vecchia ss165) e ritorno.
 <p>Una temperatura rigida, nell'ambito di uno scenario tipicamente invernale, ha accompagnato gli atleti lungo gli 8,350 km previsti.
 <br>
-La distanza &egrave stata percorsa dagli otto partecipanti con passo lento e regolare cercando di rispettare i passaggi orari previsti.
+La distanza &egrave; stata percorsa dagli otto partecipanti con passo lento e regolare cercando di rispettare i passaggi orari previsti.
 <p>
 Le foto dell' Allenamento sono disponibili <a href="album.php?anno=All.Coll.05">qui</a> 
 <p>
-Il 4 gennaio 2006 si &egrave tenuto un secondo allenamento, che ha visto impegnati 7 atleti lungo un percorso di circa 17 km, nell'ambito del quale si sono toccati alcuni punti molto suggestivi del comune di Caposele (come le grotte e il bosco difesa).
-<!--br>
-Su questo evento ci ha scritto una lettera uno dei partecipanti, N.Melillo, che trovate nella sezione<br>-Lettere alla Stralaceno-.<-->
+Il 4 gennaio 2006 si &egrave; tenuto un secondo allenamento, che ha visto impegnati 7 atleti lungo un percorso di circa 17 km, nell'ambito del quale si sono toccati alcuni punti molto suggestivi del comune di Caposele (come le grotte e il bosco difesa).<br>Su questo evento ci ha scritto una lettera uno dei partecipanti, N.Melillo, che trovate nella sezione<br>-Lettere alla Stralaceno-.
 <br>
 <p>&nbsp;
 <div align="center">
