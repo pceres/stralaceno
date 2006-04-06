@@ -90,7 +90,12 @@ e della <a href='manage_config_file.php?config_file=layout_right.txt'>colonna de
 
 <hr>
 
-<a href='manage_questions.php?task=index'>Gestione lotterie e questionari</a>
+<form action="manage_questions.php?task=index" method="post" onSubmit="cripta_campo_del_form(this,'password')">
+Gestione lotterie e questionari: Password: <input name="password" type="password">
+<input type="submit" value="Vai">
+</form>
+
+<hr>
 
 <?php
 # logga il contatto
