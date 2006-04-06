@@ -29,7 +29,8 @@ $lista_edizioni=array();
 $archivio = merge_tempi_atleti($archivio,$atleti,$lista_edizioni);
 
 
-$archivio_ordinato = ordina_archivio($archivio,$indice_tempo, $indice_nome);
+$lista_indici = array($indice_tempo, $indice_nome);
+$archivio_ordinato = ordina_archivio($archivio,$lista_indici);
 
 $archivio_rielaborato = fondi_nome_id($archivio_ordinato, $indice_nome, $indice_id);
 

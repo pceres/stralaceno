@@ -87,7 +87,8 @@ if (count($archivio_filtrato) == 1)
 	die();
 }
 
-$archivio_ordinato = ordina_archivio($archivio_filtrato,$indice_posiz, $indice_nome);
+$lista_indici = array($indice_posiz, $indice_nome);
+$archivio_ordinato = ordina_archivio($archivio_filtrato,$lista_indici);
 
 $archivio_rielaborato = fondi_nome_id($archivio_ordinato, $indice_nome, $indice_id);
 
