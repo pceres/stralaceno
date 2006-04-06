@@ -16,7 +16,13 @@ if ( !isset($_SERVER['HTTP_REFERER']) | ("http://".$_SERVER['HTTP_HOST'].$script
 $mode = $_REQUEST['task'];
 $data = $_REQUEST['data'];
 $password = $_REQUEST['password'];
+$password_ok = $password_lotterie;
 
+if (($mode === "index") && ($password !== $password_ok))
+{
+	echo "<a href=\"index.php\">Torna indietro</a><br><br>\n";
+	die("La password inserita non &egrave; corretta!<br>\n");
+}
 
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -33,6 +39,7 @@ switch ($mode)
 {
 case 'set_nominativi':
 case 'ticket_page':
+case 'matrice_ticket':
 	$classe = "";
 	break;
 default:
@@ -45,7 +52,8 @@ echo "<body $classe>";
 
 $id_questions = $data;
 $basefile_questions = "lotteria_".sprintf("%03d",$id_questions).".txt";
-$basefile_question_keys = "lotteria_".sprintf("%03d",$id_questions)."_keys_%03d.txt";
+$basefile_question_keys = "lotteria_".sprintf("%03d",$id_questions)."_keys_%03d.php";
+$basefile_questions_ans = "lotteria_".sprintf("%03d",$id_questions)."_ans.php";	// nome del file con le risposte esatte
 $file_questions = $questions_dir.$basefile_questions;	// nome del file di configurazione relativo a id_questions
 $file_question_keys = $questions_dir.$basefile_question_keys;	// nome del generico file di chiavi
 $file_log_questions = $questions_dir."lotteria_".sprintf("%03d",$id_questions)."_log.txt";	// nome del file di registrazione
@@ -63,9 +71,11 @@ if (file_exists($file_questions))
 	// numero di files di chiavi (eventuali)
 	$num_key_files = count($lotteria['keyfiles']);	// numero di files di chiavi da creare (per gestire diverse categorie
 	$num_keys = array();				// numero di chiavi per ciascun file
+	$num_key_chars = array();				// numero di chiavi per ciascun file
 	foreach($lotteria['keyfiles'] as $keyfile_id => $keyfile_data)
 	{
-		$num_keys[$keyfile_id] = $keyfile_data[2];
+		$num_keys[$keyfile_id] = $keyfile_data[2];	// numero di chiavi per il file i-esimo
+		$num_key_chars[$keyfile_id] = $keyfile_data[3];	// numero di caratteri per ciascuna chiave
 	}
 }
 
@@ -195,6 +205,10 @@ case 'edit':
 		
 	}
 	
+	// inserimento risposte esatte
+	echo "<hr>";
+	echo "<a href=\"manage_config_file.php?config_file=$basefile_questions_ans\">Inserimento risposte esatte</a>";
+	
 	break;
 case 'ticket_page':
 	$selection = $_REQUEST["keyfile_select"];
@@ -217,7 +231,7 @@ case 'ticket_page':
 			echo '<td style="width:530px; vertical-align: top;">'."\n";
 			
 			// disegna il singolo biglietto
-			echo "<b><div style=\"text-align: center;\">$lotteria_nome</div></b>\n";
+			echo "<div style=\"text-align: center;\"><b>$lotteria_nome</b></div>\n";
 			echo "<table><tr><td>";
 			echo "Modo: ".$lotteria['keyfiles'][$keyfile_id][1]."\n";	// caption relativo al file di chiavi
 			echo ", Numero Seriale: ".($ticket_id+1)."<br>\n";		// numero del biglietto (da 1 a ...)
@@ -283,7 +297,10 @@ case 'init':
 	}
 	
 	echo "Creo i file di chiavi...<br>\n";
-	create_key_files($id_questions,$num_key_files,$num_keys);
+	if (!create_key_files($id_questions,$num_key_files,$num_keys,$num_key_chars))
+	{
+		die("<br><br>Attenzione, i file di chiavi gia' esistono!");
+	}
 	break;
 case 'set_nominativi':
 	
@@ -369,7 +386,7 @@ case 'set_nominativi':
 		echo " (".$chiave_key.") : ";
 		echo " consegnato a <input name=\"chiave_name_$id\" value=\"$chiave_name\"/>";
 		echo " da <input name=\"chiave_responsabile_$id\" value=\"$chiave_responsabile\"/>";
-		echo " in data <input name=\"chiave_data_$id\" value=\"$chiave_data\"</input>";
+		echo " in data <input name=\"chiave_data_$id\" value=\"$chiave_data\"/>";
 		echo "<br>\n";
 	}
 	echo "<input type=\"hidden\" name=\"keyfile_id\" value=\"$keyfile_id\" />\n";
@@ -397,11 +414,10 @@ log_action($questions_dir,"Action: <$mode>, data: <$data>, ".date("l dS of F Y h
 <?php
 if (!empty($id_questions) & ($mode!=='edit'))
 {
-	echo "<hr><a href=\"manage_questions.php?task=edit&data=$id_questions\" class=\"txt_link\">Torna alla pagina amministrativa della lotteria &quot;$lotteria_nome&quot;</a>";
+	echo "<hr><a href=\"manage_questions.php?task=edit&amp;data=$id_questions\" class=\"txt_link\">Torna alla pagina amministrativa della lotteria &quot;$lotteria_nome&quot;</a>";
 }
 echo $homepage_link;
 ?>
 
 </body>
 </html>
- 
