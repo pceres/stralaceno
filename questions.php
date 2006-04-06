@@ -26,6 +26,9 @@ $data_giocata = $_REQUEST['data_giocata'];	// data che fa fede per la giocata
 $file_questions = $root_path."custom/lotterie/lotteria_".sprintf("%03d",$id_questions).".txt";	// nome del file di configurazione relativo a id_questions
 $file_log_questions = $root_path."custom/lotterie/lotteria_".sprintf("%03d",$id_questions)."_log.txt";	// nome del file di registrazione
 
+$file_questions_ans = $root_path."custom/lotterie/lotteria_".sprintf("%03d",$id_questions)."_ans.php";	// nome del file con le risposte esatte
+
+
 // verifica che $id_questions sia un id relativo ad una lotteria o questionario valida
 if (!file_exists($file_questions))
 {
@@ -435,69 +438,162 @@ case "save":
 	
 	break;
 case "results":
-	echo "<div class=\"titolo_tabella\">Classifica</div><br>";
+	$temp_debug = 0;
 	
+	$id_regola_gruppo = 0;	// gruppo cui contribuisce la regola a determinare il punteggio
+	$id_regola_tipo = 1;	// tipo di regola
+	$id_regola_caption = 2;	// testo che compare nella colonna corrispondente
+	$id_regola_data = 3;	// primo campo di dati della regola
+	
+	// criteri per la classifica
+	$criteri = $lotteria["classifica"];
+	
+	// carica giocate
 	$giocate = get_config_file($file_log_questions);
 	$giocate = $giocate['default'];
-	//show_giocate($giocate);
-
-$header = array("id","giocata","time","data giocata","auth_token","cedente","giocatore","data cessione","id tipo giocata","tipo giocata", 
-		"punteggio1","punteggio2");
-
-$count = 0;
-$elenco_giocate = array($header);
-foreach ($giocate as $giocata)
-{
-	$count++;	// incrementale della giocata
 	
-	// dati relativi alla chiave usata per la giocata
-	$auth_token_i = $giocata[3];	// chiave usata per effettuare la giocata
-	$found_key = check_question_keys($id_questions,$auth_token_i);
-
-	$cedente_biglietto = $found_key[2][1];		// nome di chi ha ceduto il biglietto, registrato a cura dell'amministratore
-	if (empty($cedente_biglietto)) $cedente_biglietto="-";
+	// carica risposte corrette
+	$soluz_array = get_config_file($file_questions_ans);
+	$soluz_array = $soluz_array['default'];
+	if (empty($soluz_array))
+	{
+		die("Non &egrave; ancora possibile visualizzare la classifica! Contattare l'amministratore.");
+	}
+	else
+	{
+		$soluz = array();
+		foreach ($soluz_array as $id => $soluz_item)
+		{
+			$soluz[$id] = $soluz_item[0];
+		}
+	}
 	
-	$nominativo_biglietto = $found_key[2][2];	// nome di chi ha ricevuto il biglietto, registrato a cura dell'amministratore
-	if (empty($nominativo_biglietto)) $nominativo_biglietto="-";
+	// effettua i calcoli preliminari per velocizzare la classifica
+	calcoli_preliminari_criteri($bulk_punteggi, $gruppi_regole, $header_punteggi, $header_punteggi_output, $init_punteggi, $init_punteggi_output, $criteri, $soluz);
 	
-	$data_biglietto = $found_key[2][3];		// data di cessione del biglietto, registrato a cura dell'amministratore
-	if (empty($data_biglietto)) $data_biglietto="-";
+	echo "<div class=\"titolo_tabella\">Classifica</div><br>";
 	
-	// dati relativi al tipo di biglietto
-	$id_tipo_biglietto = $found_key[0];		// id del tipo del biglietto, registrato a cura dell'amministratore
-	$tipo_biglietto = $lotteria['keyfiles'][$found_key[0]][1]; // descrizione del tipo del biglietto
 	
-	// todo: creazione punteggi per la classifica
-	$punteggio1 = $auth_token_i[0];
-	$punteggio2 = $auth_token_i[1];
+	// titolo delle colonne in $elenco_giocate
+	$header = array("id","giocata","time","data giocata","auth_token","cedente","giocatore","data cessione","id tipo giocata","tipo giocata");
+	$header = array_merge($header,$header_punteggi,$header_punteggi_output);
+	
+	// crea $elenco_giocate
+	$count = 0;
+	$elenco_giocate = array($header);
+	foreach ($giocate as $giocata)
+	{
+		$count++;	// incrementale della giocata
+		
+		// dati relativi alla chiave usata per la giocata
+		$auth_token_i = $giocata[3];	// chiave usata per effettuare la giocata
+		$found_key = check_question_keys($id_questions,$auth_token_i);
+		
+		$cedente_biglietto = $found_key[2][1];		// nome di chi ha ceduto il biglietto, registrato a cura dell'amministratore
+		if (empty($cedente_biglietto)) $cedente_biglietto="-";
+		
+		$nominativo_biglietto = $found_key[2][2];	// nome di chi ha ricevuto il biglietto, registrato a cura dell'amministratore
+		if (empty($nominativo_biglietto)) $nominativo_biglietto="-";
+		
+		$data_biglietto = $found_key[2][3];		// data di cessione del biglietto, registrato a cura dell'amministratore
+		if (empty($data_biglietto)) $data_biglietto="-";
+		
+		// dati relativi al tipo di biglietto
+		$id_tipo_biglietto = $found_key[0];		// id del tipo del biglietto, registrato a cura dell'amministratore
+		$tipo_biglietto = $lotteria['keyfiles'][$found_key[0]][1]; // descrizione del tipo del biglietto
+		
+		// giocata
+		$giocata_risposte = $giocata[0];
+		$giocata_array = split(',',$giocata_risposte);
+		
+		if ($temp_debug) { // !!!
+		echo "<hr>Giocata:<br>";
+		print_r($giocata_array);
+		echo "<br><br>\n";
+		echo "Risposta esatta:<br>";
+		print_r($soluz);
+		echo "<br>\n";}
+		
+		$dati_esterni_per_giocata = array($cedente_biglietto, $nominativo_biglietto, $data_biglietto, $id_tipo_biglietto, $tipo_biglietto);
 
-	$dati_giocata = array_merge($count, $giocata, $cedente_biglietto, $nominativo_biglietto, $data_biglietto, $id_tipo_biglietto, $tipo_biglietto, $punteggio1, $punteggio2);
-	array_push($elenco_giocate,$dati_giocata);
-}
-
-if (!empty($_REQUEST['filtro']))
-{
-	$lista_regola_campo = array(8); // id_tipo_giocata
-	//$lista_regola_valore = array(0);// a pagamento
-	$lista_regola_valore = array($_REQUEST['filtro']-1);
-	$elenco_giocate = filtra_archivio($elenco_giocate,$lista_regola_campo,$lista_regola_valore);
-}
-
-//$elenco_giocate = ordina_archivio($elenco_giocate, 2, -1);
-$elenco_giocate = ordina_archivio($elenco_giocate, 10, 11);
-
-if ($_REQUEST['debug'] === "full")
-{
-	$mask = array(0,1,2,3,4,5,6,7,8,9,10,11);
-}
-else
-{
-	$mask = array(0,1,3,4,6,9);
-}
-show_table($elenco_giocate,$mask,'tabella',3,12,1); # tabella in tre colonne, font 12, con note
-
-
-
+		// calcola i campi dei punteggi per la singola giocata
+		$punteggi = $init_punteggi;			// valori di default
+		$punteggi_output = $init_punteggi_output;	// valori di default
+		foreach($criteri as $id => $criterio)
+		{
+			$bulk = $bulk_punteggi[$id];	// dati relativi alla regola $id
+			if ($temp_debug) echo "<br>Criterio $id:<br>"; // !!!
+			
+			// calcola il punteggio per la regola $id-esima
+			$punteggio = 0;
+			$punteggio_output = '';
+			calcola_punteggio($temp_debug,$punteggio,$punteggio_output,$gruppo_regole,$giocata,$dati_esterni_per_giocata,$giocata_array,$soluz,$criterio,$bulk);
+			
+			$punteggi[$gruppo_regole] += $punteggio;
+			
+			$punteggi_output[$gruppo_regole] .= $punteggio_output;
+			if ($punteggi_output[$gruppo_regole][0] == ',')
+			{
+				$punteggi_output[$gruppo_regole] = substr($punteggi_output[$gruppo_regole],1);
+			}
+			
+			if ($temp_debug) // !!!
+			{echo "Punteggio $gruppo_regole : $punteggio<br>\n";
+			echo "Punteggio_output $gruppo_regole : $punteggio_output<br>\n";}
+		}
+		
+		if ($temp_debug) {echo "<br><br>";} // !!!
+		
+		// crea il record per $elenco_giocate
+		//$dati_giocata = array_merge($count, $giocata, $cedente_biglietto, $nominativo_biglietto, $data_biglietto, $id_tipo_biglietto, $tipo_biglietto, $punteggi, $punteggi_output);
+		$dati_giocata = array_merge($count, $giocata, $dati_esterni_per_giocata , $punteggi, $punteggi_output);
+		array_push($elenco_giocate,$dati_giocata);
+	}
+	
+	if (!empty($_REQUEST['filtro']))
+	{
+		$lista_regola_campo = array(8); // id_tipo_giocata
+		//$lista_regola_valore = array(0);// a pagamento
+		$lista_regola_valore = array($_REQUEST['filtro']-1);
+		$elenco_giocate = filtra_archivio($elenco_giocate,$lista_regola_campo,$lista_regola_valore);
+	}
+	
+	// indici dei punteggi
+	$lista_indici_punteggi = array();
+	foreach ($header_punteggi as $header_punteggio)
+	{
+		array_push($lista_indici_punteggi,array_search($header_punteggio,$header));
+	}
+	
+	if ($temp_debug) {print_r($header);echo "<br>"; // !!!
+	print_r($lista_indici_punteggi);echo "<br>";}
+	
+	// indici dei punteggi
+	$lista_indici_punteggi_output = array();
+	foreach ($header_punteggi_output as $header_punteggio_output)
+	{
+		if (($_REQUEST['debug'] === "full") || (!empty($header_punteggio_output)))
+		{
+			array_push($lista_indici_punteggi_output,array_search($header_punteggio_output,$header));
+		}
+	}
+	if ($temp_debug) {print_r($lista_indici_punteggi_output);echo "<br>";} // !!!
+	
+	// ordina su tutte le regole di classificazione
+	$elenco_giocate = ordina_archivio($elenco_giocate,$lista_indici_punteggi);
+	
+	if ($_REQUEST['debug'] === "full")
+	{
+		$mask = array_keys($header);	// tutte le colonne
+	}
+	else
+	{
+		$mask = array(0,6,1,9);
+		$mask = array_merge($mask,$lista_indici_punteggi_output);
+//$mask = array(0);
+	}
+	show_table($elenco_giocate,$mask,'tabella',1,12,1); # tabella in una colonna, font 12, con note
+	
 	break;
 default:
 	die("Azione \"$action\" sconosciuta!");
@@ -514,3 +610,312 @@ $counter = count_page("questions",array("COUNT"=>1,"LOG"=>1),$filedir_counter); 
 
 ?>
 </body></html>
+<?php
+
+function calcoli_preliminari_criteri(&$bulk_punteggi, &$gruppi_regole, &$header_punteggi, &$header_punteggi_output, &$init_punteggi, &$init_punteggi_output, $criteri, $soluz) {
+
+// indici campi al'interno di $criterio
+$id_regola_gruppo = 0;	// gruppo cui contribuisce la regola a determinare il punteggio
+$id_regola_tipo = 1;	// tipo di regola
+$id_regola_caption = 2;	// testo che compare nella colonna corrispondente
+$id_regola_data = 3;	// primo campo di dati della regola
+
+// esegui calcoli preliminari sulle regole
+$bulk_punteggi = array();
+$gruppi_regole = array();
+$header_punteggi_output = array();
+foreach($criteri as $id => $criterio)
+{
+	// individua i gruppi di regole
+	$gruppo_regola = $criterio[$id_regola_gruppo];
+	array_push($gruppi_regole,$gruppo_regola);
+	
+	
+	$ks = $criterio[$id_regola_caption];
+	$header_punteggi_output[$gruppo_regola] = $ks;
+	//array_push($header_punteggi_output,$ks);
+	
+	// esegui qui i calcoli che si possono fare una sola volta
+	switch ($criterio[$id_regola_tipo])
+	{
+	case "distanza":
+		$sort_mask = split(',',$criterio[$id_regola_data+0]);
+		$dist_bkp = split(',',$criterio[$id_regola_data+1]);
+		$dist_weight = split(',',$criterio[$id_regola_data+2]);
+		$question_weight = split(',',$criterio[$id_regola_data+3]);
+		
+		$sort_needed = (strlen(array_search(1,$sort_mask).'a') > 1);
+		
+		$bulk_punteggi[$id] = array($sort_mask,$dist_bkp,$dist_weight,$question_weight,$sort_needed);
+		break;
+	case "data_giocata":
+		$bulk_punteggi[$id] = array();
+		break;
+	case "posizione_esatte":
+		$sort_mask = split(',',$criterio[$id_regola_data+0]);
+		$pos_weight = split(',',$criterio[$id_regola_data+1]);
+		
+		$sort_needed = (strlen(array_search(1,$sort_mask).'a') > 1);
+		
+		$bulk_punteggi[$id] = array($sort_mask,$pos_weight,$sort_needed);
+		break;
+	case "esatte_per_gruppi":
+		$pos_groups = split(',',$criterio[$id_regola_data+0]);
+		$modalita = $criterio[$id_regola_data+1];
+		$question_weight = split(',',$criterio[$id_regola_data+2]);
+		
+		$gruppi_risposte_esatte = array();
+		foreach ($soluz as $id_soluz => $soluz_item)
+		{
+			$gruppo_risposta = $pos_groups[$id_soluz];
+			if (array_key_exists($gruppo_risposta,$gruppi_risposte_esatte))
+			{
+				array_push($gruppi_risposte_esatte[$gruppo_risposta],$soluz_item);
+			}
+			else
+			{
+				$gruppi_risposte_esatte[$gruppo_risposta] = array($soluz_item);
+			}
+		}
+		
+		$bulk_punteggi[$id] = array($pos_groups,$question_weight,$modalita,$gruppi_risposte_esatte);
+		break;
+	default:
+		$bulk_punteggi[$id] = array();
+	}
+}
+$gruppi_regole = array_unique($gruppi_regole); // elenco (senza ripetizione) dei gruppi di regole
+
+// crea gli header di $elenco_giocate
+$header_punteggi = array();
+$init_punteggi = array();
+$init_punteggi_output = array();
+foreach($gruppi_regole as $id => $gruppo_regole)
+{
+	// crea gli header per le colonne dei punteggi in $elenco_giocate
+	$ks = "punteggio".$gruppo_regole;
+	array_push($header_punteggi,$ks);
+	
+	$init_punteggi[$gruppo_regole] = 0;
+	$init_punteggi_output[$gruppo_regole] = '';
+}
+
+} // end function calcoli_preliminari_criteri
+
+
+function calcola_punteggio($temp_debug,&$punteggio,&$punteggio_output,&$gruppo_regole,&$giocata,$dati_esterni_per_giocata,$giocata_array,$soluz,$criterio,$bulk) {
+
+// indici campi al'interno di $criterio
+$id_regola_gruppo = 0;	// gruppo cui contribuisce la regola a determinare il punteggio
+$id_regola_tipo = 1;	// tipo di regola
+$id_regola_caption = 2;	// testo che compare nella colonna corrispondente
+$id_regola_data = 3;	// primo campo di dati della regola
+
+
+$punteggio = 0;
+$punteggio_output = '';
+
+$gruppo_regole = $criterio[$id_regola_gruppo];
+$tipo_regola = $criterio[$id_regola_tipo];
+
+switch ($tipo_regola)
+{
+case "distanza":
+	$sort_mask = $bulk[0];		// bitmask delle risposte da ordinare
+	$dist_bkp = $bulk[1];		// breakpoint
+	$dist_weight = $bulk[2];	// peso in corrispondenza del breakpoint
+	$question_weight = $bulk[3];	// peso per ciascuna domanda
+	$sort_needed = $bulk[4];	// flag che indica la necessita' di ordinare le risposte
+	
+	// preordinamento se necessario
+	if ($sort_needed)
+	{
+		sort_masked($giocata_array,$sort_mask,SORT_ASC);
+		sort_masked($soluz,$sort_mask,SORT_ASC);
+	}
+	
+	// calcola vettore punti $punti_array
+	$punti_array = array();
+	foreach ($giocata_array as $id_question => $giocata_item)
+	{
+		$posiz = array_search($giocata_item,$soluz);
+		if (strlen($posiz.' ')>1) // se la giocata e' una delle risposte esatte...
+		{
+			$err = $id_question-$posiz;  // calcola la distanza dalla posizione in cui sarebbe stata esatta
+		}
+		else
+		{
+			$err = '-';
+		}
+		
+		if (is_numeric($err))
+		{
+			if ($err < min($dist_bkp))
+			{
+				if ($temp_debug) echo("Saturo inferiormente ($err:$giocata_item,$posiz)<br>"); // !!!
+				$err=min($dist_bkp);
+			}
+			if ($err > max($dist_bkp))
+			{
+				if ($temp_debug) echo("Saturo superiormente ($err:$giocata_item,$posiz)<br>"); // !!!
+				$err=max($dist_bkp);
+			}
+		}
+		
+		// crea voto corrispondente al punteggio
+		$indice=array_search($err,$dist_bkp);
+		if (array_key_exists($indice,$dist_weight))
+		{
+			$voto = $dist_weight[$indice];
+		}
+		else
+		{
+			$voto = 0;
+		}
+		$voto_pesato = $voto*$question_weight[$id_question];
+		
+		if ($temp_debug) // !!!
+		{
+			print_r($dist_bkp);
+			print_r(($dist_weight));
+			echo "$err,$voto,$voto_pesato (".$dist_weight[$voto].",".$question_weight[$id_question].")<br>";
+		}
+		
+		$punti_array[$id_question] = $voto_pesato;
+		
+		if ($voto_pesato != 0)
+		{
+			$punteggio_output .= ','.($id_question+1);
+		}
+	}
+	
+	if ($temp_debug) // !!!
+	{
+		echo "punti_array :<br>";print_r($punti_array);echo "<br>\n";
+	}
+	
+	$punteggio = -array_sum($punti_array)+0;
+	
+	break;
+case "data_giocata":
+	$time_giocata = $giocata[1];
+	
+	$punteggio = $time_giocata+0;
+	$punteggio_output = $giocata[2].'';
+	
+	break;
+case "posizione_esatte":
+	$sort_mask = $bulk[0];		// bitmask delle risposte da ordinare
+	$pos_weight = $bulk[1];		// gerarchia delle risposte
+	$sort_needed = $bulk[2];	// flag che indica la necessita' di ordinare le risposte
+	
+	// preordinamento se necessario
+	if ($sort_needed)
+	{
+		sort_masked($giocata_array,$sort_mask,SORT_ASC);
+		sort_masked($soluz,$sort_mask,SORT_ASC);
+	}
+if ($temp_debug){			print_r($giocata_array);echo "<br>\n";}
+	
+	// crea vettore corrispondente alle risposte indovinate
+	$risposte_esatte = array();
+	foreach ($giocata_array as $id_question => $giocata_item)
+	{
+		if ($giocata_item == $soluz[$id_question])
+		{
+			$peso = $pos_weight[$id_question];
+			$punteggio_output .= ','.($id_question+1);//$peso;
+		}
+		else
+		{
+			$peso = max($pos_weight)+1;
+		}
+		$risposte_esatte[$id_question] = $peso;
+	}
+if ($temp_debug) {				print_r($risposte_esatte);echo "<br>\n";}
+	
+	// determina punteggio
+	$punteggio = 0;
+	$n_questions = count($pos_weight);
+	for ($id_risposta = 0; $id_risposta < $n_questions; $id_risposta++)
+	{
+		$voto = array_shift($risposte_esatte);
+		$punteggio = $punteggio*$n_questions+$voto;
+	}
+	
+	break;
+case "esatte_per_gruppi":
+
+	$pos_groups = $bulk[0];			// gruppo cui appartiene ciascuna risposta
+	$question_weight = $bulk[1];		// peso per ciascuna risposta esatta
+	$modalita = $bulk[2];			// modalita' da applicare alle risposte esatte
+	$gruppi_risposte_esatte = $bulk[3];	// risposte esatte per ciascun gruppo
+	
+	// crea vettore corrispondente alle risposte indovinate
+	$risposte_esatte = array();
+	foreach ($giocata_array as $id_question => $giocata_item)
+	{
+		$gruppo_risposta = $pos_groups[$id_question];
+		
+		if ($temp_debug) { // !!!
+		echo "$gruppo_risposta<br>";
+		print_r($gruppi_risposte_esatte[$gruppo_risposta]);
+		echo "<br><br>";}
+		
+		if (in_array($giocata_item,$gruppi_risposte_esatte[$gruppo_risposta]))
+		{
+			$peso = 1;//$question_weight[$id_question];
+			$punteggio_output .= ','.($id_question+1);
+		}
+		else
+		{
+			$peso = 0;//max($question_weight)+1;
+		}
+		$risposte_esatte[$id_question] = $peso;
+	}
+	if ($temp_debug) {		print_r($risposte_esatte);echo "<br>\n";} // !!!
+	
+	// determina punteggio
+	$punteggio = 0;
+	$n_questions = count($question_weight);
+	for ($id_risposta = 0; $id_risposta < $n_questions; $id_risposta++)
+	{
+		switch ($modalita)
+		{
+		case 'numero':
+		case 'numero_pesato':
+			if ($risposte_esatte[$id_risposta] == 0)
+			{
+				$voto = 0;
+			}
+			else
+			{
+				if ($modalita == 'numero_pesato')
+				{
+					$voto = $question_weight[$id_risposta];
+				}
+				else
+				{
+					$voto = 1;
+				}
+			}
+			
+			$punteggio -= $voto;
+			
+			break;
+		case 'posizione':
+			$voto = -$risposte_esatte[$id_risposta];
+			$punteggio = $punteggio*$n_questions+$voto;
+			break;
+		default:
+			die("Modo $modalita non riconosciuto!");
+		}
+	}
+	
+	break;
+default:
+	die("Regola non riconosciuta: ".$tipo_regola);
+}
+
+} // end function calcola_punteggio
+?>
