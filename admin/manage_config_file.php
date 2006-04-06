@@ -25,7 +25,8 @@ $enabled_config_files = array(
 	"lettere_stralaceno.txt",		// lettere alla Stralaceno (modulo_custom)
 	"layout_left.txt",			// layout della colonna sinistra in homepage
 	"layout_right.txt",			// layout della colonna destra in homepage
-	"lotteria_???.txt"			// file di configurazione lotteria xxx
+	"lotteria_???.txt",			// file di configurazione lotteria xxx
+	"lotteria_???_ans.php"			// file risposte esatte lotteria xxx
 	); // elenco dei file di configurazione che e' possibile modificare 
 
 $enabled_config_dirs = array(
@@ -34,7 +35,8 @@ $enabled_config_dirs = array(
 	$config_dir,				// lettere alla Stralaceno (modulo_custom)
 	$config_dir,				// layout della colonna sinistra in homepage
 	$config_dir,				// layout della colonna destra in homepage
-	$questions_dir				// file di configurazione lotteria xxx
+	$questions_dir,				// file di configurazione lotteria xxx
+	$questions_dir				// file risposte esatte lotteria xxx
 	); // elenco delle directory dei file di configurazione che e' possibile modificare 
 
 $file_ok = false;
