@@ -164,7 +164,8 @@ $atleti = load_data($filename_atleti,$num_colonne_atleti);
 $archivio = merge_tempi_atleti($archivio2,$atleti); // non uso il terzo parametro opzionale, in quanto non verrebbe calcolato correttamente
 
 
-$archivio_ordinato = ordina_archivio($archivio,$indice_presenze,$indice_punteggio,SORT_DESC);
+$lista_indici = array($indice_presenze,$indice_punteggio);
+$archivio_ordinato = ordina_archivio($archivio,$lista_indici,SORT_DESC);
 
 for ($i=1; $i<count($archivio_ordinato);$i++)
 {

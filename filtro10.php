@@ -33,7 +33,8 @@ $lista_regola_valore = array('F');
 $archivio_filtrato = filtra_archivio($archivio,$lista_regola_campo,$lista_regola_valore);
 
 
-$archivio_ordinato = ordina_archivio($archivio_filtrato,$indice_tempo, $indice_anno);
+$lista_indici = array($indice_tempo, $indice_anno);
+$archivio_ordinato = ordina_archivio($archivio_filtrato,$lista_indici);
 
 
 

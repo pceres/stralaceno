@@ -28,7 +28,8 @@ $atleti = load_data($filename_atleti,$num_colonne_atleti);
 $lista_edizioni=array();
 $archivio = merge_tempi_atleti($archivio,$atleti,$lista_edizioni);
 
-$archivio_ordinato = ordina_archivio($archivio,$indice_anno, $indice_posiz);
+$lista_indici = array($indice_anno, $indice_posiz);
+$archivio_ordinato = ordina_archivio($archivio,$lista_indici);
 
 $tabella = array($archivio[0]);
 
