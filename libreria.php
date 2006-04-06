@@ -215,7 +215,7 @@ $filenames = array('filename_css' => $filename_css,'filename_tempi' => $filename
 $pathnames = array('root_prefix' => $root_prefix,'root_path' => $root_path,'site_abs_path' => $site_abs_path,'script_abs_path' => $script_abs_path,'modules_site_path' => $modules_site_path,'config_dir' => $config_dir,'album_dir' => $album_dir,'questions_dir' => $questions_dir);
 $varie = array('symbol_1_partecipazione' => $symbol_1_partecipazione,'symbol_1_partecipazione_best' => $symbol_1_partecipazione_best,'symbol_record' => $symbol_record,'symbol_record_best' => $symbol_record_best,'symbol_info'=>$symbol_info);
 $custom = array('homepage_link' => $homepage_link,'tempo_max_M' => $tempo_max_M,'tempo_max_F' => $tempo_max_F,'tempo_max_grafico' => $tempo_max_grafico,'race_name' => $race_name,'web_title' => $web_title,'web_description' => $web_description,'web_keywords' => $web_keywords,'email_info' => $email_info);
-$admin = array('password_album' => $password_album,'password_config' => $password_config,'password_articoli' => $password_articoli,'password_upload_file' => $password_upload_file,'max_last_editions' => $max_last_editions,'max_online_articles' => $max_online_articles);
+$admin = array('password_album' => $password_album,'password_config' => $password_config,'password_articoli' => $password_articoli,'password_upload_file' => $password_upload_file,'max_last_editions' => $max_last_editions,'max_online_articles' => $max_online_articles,'password_lotterie' => $password_lotterie);
 
 return array_merge($indici,$indici2,$indici3,$indici_layout,$indici_user,$indici_question,$formattazione,$filenames,$pathnames,$varie,$admin,$custom);
 }
@@ -583,38 +583,57 @@ return $archivio_filtrato;
 
 
 
-function ordina_archivio($archivio,$indice1,$indice2,$flag = SORT_ASC) {
+function ordina_archivio($archivio,$lista_indici,$flag = SORT_ASC) {
+# per ordinare su piu' campi di $archivio,  basta passare un array, ad esempio per ordinare sui campi 
+# $indice_anno, $indice_posiz, si passi $lista_indici=array($indice_anno, $indice_posiz);
 
 # dichiara variabili
 extract(indici());
 
-$lista1 = array();
-$lista2 = array();
-for ($i = 1; $i < count($archivio); $i++) {
+// inizializza le liste
+foreach($lista_indici as $id => $indice)
+{
+	$lista[$id] = array();
+}
+// popola le liste (una per ogni indice) in base ai record dell'archivio
+for ($i = 1; $i < count($archivio); $i++)
+{
 	$record = $archivio[$i];
-	$item1 = $record[$indice1];
-	$item2 = $record[$indice2];
 	
-	if ($item1 == "-") $item1 = "999";
-	if ($item2 == "-") $item2 = "999";
-	
-	if (array_key_exists('info',$record)) {
-		if ($indice1 == $indice_nome) {
-			$temp_list = explode(' ',$item1);
-			$item1 = implode(' ',array_slice($temp_list,1));
-			}
-		if ($indice2 == $indice_nome) {
-			$temp_list = explode(' ',$item2);
-			$item2 = implode(' ',array_slice($temp_list,1));
+	foreach($lista_indici as $id => $indice)
+	{
+		$item = $record[$indice];
+		
+		if ($item == "-") $item = "999";
+		
+		if (array_key_exists('info',$record))
+		{
+			if ($indice == $indice_nome)
+			{
+				$temp_list = explode(' ',$item);
+				$item = implode(' ',array_slice($temp_list,1));
 			}
 		}
-
-	array_push($lista1,$item1);
-	array_push($lista2,$item2);
+			
+		array_push($lista[$id],$item);
 	}
+}
 
+//crea il comando array_multisort($lista[0],$flag,$lista[1],$flag,...,$subarchivio);
+$ks = 'array_multisort(';
+foreach($lista_indici as $id => $indice)
+{
+	if ($id > 0)
+	{
+		$ks .= ",";
+	}
+	$ks .= '$lista['.$id.'],$flag';
+}
+$ks .= ',$subarchivio);';
+
+// ordina l'archivio usando le liste create in precedenza
 $subarchivio = array_slice($archivio,1);
-array_multisort($lista1,$flag,$lista2,$flag,$subarchivio);
+eval($ks);
 $archivio_ordinato = array_merge(array($archivio[0]),$subarchivio); # aggiungi l'header
 
 return $archivio_ordinato;
@@ -1346,7 +1365,6 @@ foreach ($lotteria["Domande"] as $domanda)
 		}
 		
 		echo "<select name=\"$question_tag\" >\n";
-		echo $domanda[$indice_question_gruppo]."\n";
 		foreach($voci as $voce)
 		{
 		if ($_REQUEST[$question_tag] === $voce[0])
@@ -1387,33 +1405,44 @@ echo "</form>\n";
 } // end function show_question_form()
 
 
-function create_key_files($id_questions,$num_files,$num_keys) {
+function create_key_files($id_questions,$num_files,$num_keys,$num_key_chars) {
 
 # dichiara variabili
 extract(indici());
 
-$key_filename_format = sprintf($questions_dir."lotteria_%03d",$id_questions)."_keys_%03d.txt";	// formato dei file di chiavi
+$key_filename_format = sprintf($questions_dir."lotteria_%03d",$id_questions)."_keys_%03d.php";	// formato dei file di chiavi
 $count = 0;
 while ($count < $num_files)
 {
-	$numero_chiavi = $num_keys[$count];
+	$numero_chiavi = $num_keys[$count];		// numero di chiavi file count-esimo
+	$numero_caratteri = $num_key_chars[$count];	// numero di caratteri per ciascuna chiave (max 30)
+	
 	$key_filename = sprintf($key_filename_format,$count);
-	echo "Gestione file di chiavi ".($count+1)." ($key_filename): $numero_chiavi chiavi da generare.<br>\n";
+	echo "Gestione file di chiavi ".($count+1)." ($key_filename): $numero_chiavi chiavi (di $numero_caratteri caratteri) da generare...<br>\n";
 	
 	// scrivi il file $count-esimo
-	$cf = fopen($key_filename, 'w');
-	for ($i = 0; $i < $numero_chiavi; $i++)
+	$cf = fopen($key_filename, 'x');
+	if ($cf)
 	{
-		$line = md5($count.$i.time())."\r\n";
-		//echo $line."<br>";
-		fwrite($cf, $line);
+		for ($i = 0; $i < $numero_chiavi; $i++)
+		{
+			$chiave = substr(md5($count.$i.time()),0,$numero_caratteri);
+			$line = $chiave."\r\n";
+			fwrite($cf, $line);
+		}
+		fclose($cf);
 	}
-	fclose($cf);
+	else
+	{
+		return 0;
+	}
 	
 	$count++;
 }
 
 echo "Fatto.<br>\n";
+
+return 1;
 
 } // end function create_key_files
 
@@ -1423,7 +1452,7 @@ function get_question_keys($id_questions) {
 # dichiara variabili
 extract(indici());
 
-$key_filename_format = sprintf($questions_dir."lotteria_%03d",$id_questions)."_keys_%03d.txt";	// formato dei file di chiavi
+$key_filename_format = sprintf($questions_dir."lotteria_%03d",$id_questions)."_keys_%03d.php";	// formato dei file di chiavi
 
 $ancora = 1;
 $count = 0;
@@ -1515,6 +1544,45 @@ function show_giocate($giocate)
 	
 	echo "</tbody></table>";
 }
+
+
+function sort_masked(&$giocata_array,$sort_mask,$sort_flag = SORT_ASC)
+{
+	$list = array_keys($sort_mask,1);
+	
+	$arr = array();
+	foreach ($list as $indice)
+	{
+		array_push($arr,$giocata_array[$indice]);
+	}
+	
+	$arr_sort = $arr;
+	
+	switch ($sort_flag)
+	{
+	case SORT_ASC:
+		rsort($arr_sort);
+		break;
+	case SORT_DESC:
+		asort($arr_sort);
+		break;
+	default:
+		die("sort_masked(): unrecognized sort_flag = $sort_flag!");
+	}
+	
+	foreach ($sort_mask as $id => $sort_flag)
+	{
+		if ($sort_flag == 1)
+		{
+			$valore_giocata = array_pop($arr_sort);
+		}
+		else
+		{
+			$valore_giocata = $giocata_array[$id];
+		}
+		$giocata_array[$id] = $valore_giocata;
+	}
+} // end function sort_masked()
 
 
 //Page properties definitions
