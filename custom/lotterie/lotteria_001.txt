@@ -67,10 +67,14 @@ Gioca sul sito: http://ars.altervista.org
 2&deg; classificato::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::non_ripetibile
 3&deg; classificato::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::non_ripetibile
 4&deg; classificato::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::non_ripetibile
-Perdente quarto di finale (Berlino)::fixed::Gruppo gironi ABCD::non_ripetibile
-Perdente quarto di finale (Amburgo)::fixed::Gruppo gironi EFGH::non_ripetibile
-Perdente quarto di finale (Gelsenkirchen)::fixed::Gruppo gironi ABCD::non_ripetibile
-Perdente quarto di finale (Francoforte)::fixed::Gruppo gironi EFGH::non_ripetibile
+Perdente quarto di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::non_ripetibile
+Perdente quarto di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::non_ripetibile
+Perdente quarto di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::non_ripetibile
+Perdente quarto di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::non_ripetibile
+#Perdente quarto di finale (Berlino)::fixed::Gruppo gironi ABCD::non_ripetibile
+#Perdente quarto di finale (Amburgo)::fixed::Gruppo gironi EFGH::non_ripetibile
+#Perdente quarto di finale (Gelsenkirchen)::fixed::Gruppo gironi ABCD::non_ripetibile
+#Perdente quarto di finale (Francoforte)::fixed::Gruppo gironi EFGH::non_ripetibile
 
 #
 # Formato riga [classifica]:
