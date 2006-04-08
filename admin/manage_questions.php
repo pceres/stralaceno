@@ -57,6 +57,10 @@ $basefile_questions_ans = "lotteria_".sprintf("%03d",$id_questions)."_ans.php";	
 $file_questions = $questions_dir.$basefile_questions;	// nome del file di configurazione relativo a id_questions
 $file_question_keys = $questions_dir.$basefile_question_keys;	// nome del generico file di chiavi
 $file_log_questions = $questions_dir."lotteria_".sprintf("%03d",$id_questions)."_log.txt";	// nome del file di registrazione
+$file_questions_ans = $root_path."custom/lotterie/lotteria_".sprintf("%03d",$id_questions)."_ans.php";	// nome del file con le risposte esatte
+$file_template_ans = $root_path."custom/lotterie/lotteria_".sprintf("%03d",$id_questions)."_tpl_results.php";	// nome del template per i risultati
+$file_template_form = $root_path."custom/lotterie/lotteria_".sprintf("%03d",$id_questions)."_tpl_form.php";	// nome del template per il form
+
 
 if (file_exists($file_questions))
 {
@@ -397,8 +401,16 @@ case 'set_nominativi':
 		
 	break;
 case 'manage_giocate_cartacee':
-	// visualizza le domande	
-	show_question_form($lotteria,"../questions.php","last_check",$id_questions,"","Conferma la giocata");
+		if (!file_exists($file_template_form)) 
+		{
+			// visualizza le domande (default)
+			show_question_form($lotteria,"../questions.php","last_check",$id_questions,"","Conferma la giocata");
+		}
+		else
+		{
+			$admin_mode = true;
+			include($file_template_form);
+		}
 	
 	break;
 default:
