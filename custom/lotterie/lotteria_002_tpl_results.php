@@ -196,7 +196,7 @@ echo "<hr>";
 echo "<a href=\"custom/lotterie/lotteria_004_tpl_form.php?info_mode=1\">Visualizza tabellone</a>\n";
 
 
+# logga il contatto
+$counter = count_page("questions",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
 
 ?>
-
-
