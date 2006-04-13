@@ -340,11 +340,11 @@ case 'set_nominativi':
 			if (!empty($chiave_data))
 			{
 				// verifica formato data
-				if (!ereg('^[0-9]{2}:[0-9]{2} [0-9]{2}/[0-9]{2}/[0-9]{4}$',$chiave_data))
+				/*if (!ereg('^[0-9]{2}:[0-9]{2} [0-9]{2}/[0-9]{2}/[0-9]{4}$',$chiave_data))
 				{
 					echo("Formato data errata: $chiave_data!<br>\n");
 					die("Il formato giusto e': &quot;12:34 12/10/2006&quot; per indicare le 12:34 del 12 ottobre 2006.");
-				}
+				}*/
 				
 				$keys[$keyfile_id][$id][3] = $chiave_data;
 			}
@@ -390,7 +390,8 @@ case 'set_nominativi':
 		echo " (".$chiave_key.") : ";
 		echo " consegnato a <input name=\"chiave_name_$id\" value=\"$chiave_name\"/>";
 		echo " da <input name=\"chiave_responsabile_$id\" value=\"$chiave_responsabile\"/>";
-		echo " in data <input name=\"chiave_data_$id\" value=\"$chiave_data\"/>";
+		//echo " in data (formato: \"hh:mm gg/mm/aaaa\")<input name=\"chiave_data_$id\" value=\"$chiave_data\"/>";
+		echo " in data (formato: \"gg/mm/aaaa\")<input name=\"chiave_data_$id\" value=\"$chiave_data\"/>";
 		echo "<br>\n";
 	}
 	echo "<input type=\"hidden\" name=\"keyfile_id\" value=\"$keyfile_id\" />\n";
