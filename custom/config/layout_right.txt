@@ -52,7 +52,9 @@
 
 [elenco_moduli]
 Approfondimenti::
-Delimitazione::
+Delimitazione_1::
+Sondaggi::
+Delimitazione_2::
 Utente::users
 Amministrazione::admin
 Login::guests
@@ -73,6 +75,11 @@ classifica_partecipazioni::Classifica partecipazioni::tempi::::::
 
 [Delimitazione_1]
 
+[Sondaggi]
+link_lotteria_mondiali_2006::Sondaggio Mondiali 2006::external_link::questions.php?id_questions=2::::
+
+[Delimitazione_2]
+
 [Utente]
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Utente] non prevede sottoelementi
 
@@ -84,4 +91,3 @@ classifica_partecipazioni::Classifica partecipazioni::tempi::::::
 
 [Pagine in preparazione]
 pregfas::Pregfas::modulo_custom::::
-link_lotteria_mondiali_2006::Sondaggio Mondiali 2006::external_link::questions.php?id_questions=1::::
