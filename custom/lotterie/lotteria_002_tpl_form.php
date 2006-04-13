@@ -16,10 +16,22 @@ else
 	$action = "questions.php";	// da non modificare
 }
 
+$info_mode = $_REQUEST['info_mode'];
+
+
+if ($info_mode)
+{
+	require_once('../../libreria.php');
+}
+else
+{
+	require_once('libreria.php');
+}
+
+
 // nome dei campi
 $question_tag_format = "question_%02d";	// da non modificare
 
-$info_mode = $_REQUEST['info_mode'];
 
 ?>
 
@@ -1917,3 +1929,10 @@ if (!$info_mode)
 }
 ?>
 </form>
+
+<?php
+
+# logga il contatto
+$counter = count_page("questions",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
+
+?>
