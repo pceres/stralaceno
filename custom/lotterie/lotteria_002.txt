@@ -1,0 +1,257 @@
+#
+# Formato riga [Attributi]:
+# nome::stato::autenticazione::data_inizio_giocate::data_fine_giocate::data_presentazione_risultati
+#	nome
+#	stato				: attiva
+#					: sospesa
+#					: invisibile
+#
+#	autenticazione			: no_auth
+#					: user
+#					: chiave
+#
+#	data_inizio_giocate		: hh:mm gg/mm/aaaa
+#	data_fine_giocate		: hh:mm gg/mm/aaaa
+#	data_presentazione_risultati	: hh:mm gg/mm/aaaa
+#
+[Attributi]
+Sondaggio Mondiali di Calcio 2006::attiva::key::00:00 20/02/2006::18:00 08/06/2006::00:00 10/07/2006
+
+#
+# msg1::msg2::msg3
+#	msg1: visualizzato prima dell'apertura delle giocate
+#	msg2: visualizzato durante la fase di giocata
+#	msg3: visualizzato dopo la chiusura delle giocate
+#
+[msg_date]
+La lotteria non &egrave; ancora aperta. Potrai giocare dalle 00:00 del 20/04::Si pu&ograve; giocare dalle 00:00 del 20/04 alle 18:00 del 08/06::Le giocate sono chiuse, la classifica con il nome del vincitore sar&agrave; visibile  il 10/07
+
+#
+# Formato riga [keyfiles]:
+# nome::caption::num_keys
+#	nome		: nome del gruppo di appartenenza
+#	caption		: testo visualizzato sui biglietti
+#	num_keys	: numero di chiavi costituenti il file
+#	num_chars	: numero di caratteri per ogni chiave
+#
+[keyfiles]
+a pagamento::a pagamento::500::12
+gratuito::per la gloria::300::12
+
+#
+# Messaggio visualizzato quando fallisce l'autenticazione (valida tranne che per l'autenticazione no_auth)
+#
+[msg_auth_failed]
+La chiave inserita non &egrave; corretta. Per ottenerne una valida rivolgersi ai soci ARS.
+
+#
+# Messaggio visualizzato sui biglietti stampati
+#
+[msg_ticked_info]
+Gioca sul sito: http://ars.altervista.org
+
+#
+# Formato riga [Domande]:
+# testo_domanda::tipo::gruppo_risposte::ripetibile
+#	testo_domanda
+#	tipo				: fixed
+#					: free_number
+#					: free_string
+#
+#	gruppo_risposte			: ci deve essere una proprieta' del tipo [gruppo_risposte]
+#	ripetibile			: ripetibile
+#					: non_ripetibile
+#
+[Domande]
+Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+Qualificato quarti di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+Qualificato quarti di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+Qualificato quarti di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+Qualificato quarti di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+Qualificato quarti di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+Qualificato quarti di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+Qualificato quarti di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+Qualificato quarti di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+Qualificato in semifinale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+Qualificato in semifinale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+Qualificato in semifinale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+Qualificato in semifinale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+Qualificato in finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+Qualificato in finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+Campione del mondo::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+
+
+#
+# Formato riga [classifica]:
+# gruppo_regola::tipo_regola::caption::dati1::dati2::...::datin
+#	gruppo_regola: 			: gruppo cui fa capo la regola (piu' regole possono concorrere allo stesso gruppo)
+#	tipo_regola			: distanza (pesa il punteggio in base alla distanza dalla posizione in cui la risposta sarebbe stata esatta)
+#					: posizione_esatta (pesa la posizione delle risposte esatte)
+#					: data_giocata (premia chi ha giocato per primo)
+#					: esatte_per_gruppi (la risposta e' corretta se e' corretta in un gruppo di risposte)
+#					: eliminatorie (girone eliminatorio, partendo dalle 8 dei quarti, poi le 4 delle semifinali, ecc.)
+#	caption				: testo visualizzato nella colonna corrispondente
+#
+#	significato di dati1::dati2::...::datin
+#		distanza:
+#			<preordinamento>::<distanza dalla risposta esatta>::<punteggio per distanza>::<peso per la risposta>
+#			preordinamento::[0,1]{n_domande} vengono ordinate le risposte in corrispondenza delle quali c'e' 1
+#			distanza::[0,1,2,..]+ distanza della risposta dalla posizione in cui essa risultava esatta
+#			punteggio per distanza::[a,b,c,..]+ punteggio in corrispondenza della distanza
+#			peso per la risposta::[0,1]{n_domande} peso assegnato alla singola risposta
+#
+#		posizione_esatte:
+#			<preordinamento>::<gerarchia dalle risposte>
+#			preordinamento::[0,1]{n_domande} vengono ordinate le risposte in corrispondenza delle quali c'e' 1
+#			gerarchia risposte::[0,1,2,..]{n_domande} importanza delle risposte (numero minore -> risposta piu' importante)
+#
+#		data_giocata:
+#			vuoto
+#
+#		esatte_per_gruppi:
+#			<gruppo della risposta>::<modalita'>::<peso per la risposta>
+#			gruppo della risposta::[1,2,..]{n_domande} gruppo cui appartiene ciascuna domanda
+#			modalita:
+#				numero: una risposta esatta -> un punto
+#				posizione: prevale chi indovina la squadra 1, poi la 2, ecc.
+#				numero_pesato: una risposta esatta -> peso della relativa risposta
+#			peso per la risposta::[0,1]{n_domande} peso assegnato alla singola risposta
+#
+[classifica]
+1::esatte_per_gruppi::1&deg;) Risposte esatte::1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,17,17,17,17,17,17,17,17,25,25,25,25,29,29,31::numero_pesato::1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2::esatte_per_gruppi::2&deg;) Posizione risposte esatte::1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,17,17,17,17,17,17,17,17,25,25,25,25,29,29,31::posizione::5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,4,4,4,4,4,4,4,3,3,3,3,2,2,1
+3::data_giocata::3&deg;) Data giocata
+
+
+[Gruppo partecipanti]
+Angola
+Arabia Saudita
+Argentina
+Australia
+Brasile
+Corea del sud
+Costa d'Avorio
+Costa Rica
+Croazia
+Ecuador
+Francia
+Germania
+Ghana
+Giappone
+Inghilterra
+Italia
+Iran
+Messico
+Olanda
+Paraguay
+Polonia
+Portogallo
+Rep. Ceca
+Serbia Montenegro
+Spagna
+Stati Uniti
+Svezia
+Svizzera
+Togo
+Trinidad e Tobago
+Tunisia
+Ucraina
+
+[Gruppo Girone A]
+Germania
+Costa Rica
+Polonia
+Ecuador
+
+[Gruppo Girone B]
+Inghilterra
+Paraguay
+Trinidad E Tobago
+Svezia
+
+[Gruppo Girone C]
+Argentina
+Costa D'Avorio
+Serbia Montenegro
+Olanda
+
+[Gruppo Girone D]
+Messico
+Iran
+Angola
+Portogallo
+
+[Gruppo Girone E]
+Stati Uniti
+Repubblica Ceca
+Italia
+Ghana
+
+[Gruppo Girone F]
+Australia
+Giappone
+Brasile
+Croazia
+
+[Gruppo Girone G]
+Corea Del Sud
+Togo
+Francia
+Svizzera
+
+[Gruppo Girone H]
+Spagna
+Ucraina
+Tunisia
+Arabia Saudita
+
+[Gruppo gironi ABCD]
+Germania
+Costa Rica
+Polonia
+Ecuador
+Inghilterra
+Paraguay
+Trinidad E Tobago
+Svezia
+Argentina
+Costa D'Avorio
+Serbia Montenegro
+Olanda
+Messico
+Iran
+Angola
+Portogallo
+
+[Gruppo gironi EFGH]
+Stati Uniti
+Repubblica Ceca
+Italia
+Ghana
+Australia
+Giappone
+Brasile
+Croazia
+Corea Del Sud
+Togo
+Francia
+Svizzera
+Spagna
+Ucraina
+Tunisia
+Arabia Saudita
