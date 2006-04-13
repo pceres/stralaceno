@@ -153,8 +153,8 @@ extract(indici());
 } // end function print_header
 
 
-
-if (!in_array($action,array('check_auth','results')))
+//echo "$action<br>";
+if (!in_array($action,array('check_auth','results','fill')))
 {
 	print_header();
 }
@@ -168,17 +168,17 @@ case "auth":
 	// verifica che le giocate siano aperte e stampa il relativo messaggio
 	if ($v_now[0] < $v_start[0])
 	{
-		die($lotteria['msg_date'][0][0]);
+		echo($lotteria['msg_date'][0][0]);
 	}
 	elseif ($v_now[0] > $v_end[0])
 	{
-		die($lotteria['msg_date'][0][2]);
+		echo($lotteria['msg_date'][0][2]);
 	}
 	else
 	{
 		echo($lotteria['msg_date'][0][1]);
 	}
-	echo "<br><hr>\n";
+	echo "<br>\n";
 	
 	// visualizza form di autenticazione
 	if ($lotteria_auth == "no_auth")
@@ -187,17 +187,30 @@ case "auth":
 	}
 	elseif ($lotteria_auth == "key")
 	{
-		echo "<form action=\"questions.php\" method=\"post\">\n";
-		echo 'Inserisci la chiave segreta per giocare:<input type="edit" name="secret_key"/><br>';
-		echo '<input type="submit" value="vai avanti"/>';
+		if (($v_now[0] >= $v_start[0]) & ($v_now[0] <= $v_end[0]))
+		{
+			echo "<hr>";
+			echo "<form action=\"questions.php\" method=\"post\">\n";
+			echo 'Inserisci il codice del biglietto per giocare:<input type="edit" name="secret_key"/><br>';
+			echo '<input type="submit" value="vai avanti"/>';
+			
+			echo "<input type=\"hidden\" name=\"id_questions\" value=\"$id_questions\">\n";
+			echo '<input type="hidden" name="action" value="check_auth"/>';
+			
+			echo "</form>\n";
+		}
 		
-		echo "<input type=\"hidden\" name=\"id_questions\" value=\"$id_questions\">\n";
-		echo '<input type="hidden" name="action" value="check_auth"/>';
+		if ($v_now[0] > $v_start[0])
+		{
+			echo "<hr>\n";
+			echo "<a href=\"questions.php?action=results&amp;id_questions=$id_questions\">Visualizza le giocate</a>\n";
+		}
 		
-		echo "</form>\n";
-
-		echo "<hr>\n";
-		echo "<a href=\"questions.php?action=results&amp;id_questions=$id_questions\">Visualizza le giocate</a>\n";
+		if (file_exists($file_template_form))
+		{
+			echo "<hr>\n";
+			echo "<a href=\"custom/lotterie/lotteria_".sprintf("%03d",$id_questions)."_tpl_form.php?info_mode=1\">Fac-simile scheda per la giocata</a>";
+		}
 		break;
 	}
 	elseif ($lotteria_auth == "user")
@@ -249,16 +262,9 @@ case "check_auth":
 		$found_key = check_key($id_questions,$auth_token,$lotteria['msg_auth_failed'][0][0]);
 		$nominativo = $found_key[2][2];	// nome di chi ha ricevuto il biglietto, registrato a cura dell'amministratore
 		
-		/*echo "$titolo_pagina<br>\n";
-		echo "Benvenuto";
-		if (!empty($nominativo))
-		{
-			echo " $nominativo";
-		}
-		echo ", puoi giocare.<br><br>\n";*/
+		
 	} // if ($action == "check_auth")
 case "fill":
-	
 	if (!file_exists($file_template_form)) 
 	{
 		echo "$titolo_pagina<br>\n";
@@ -466,6 +472,9 @@ case "save":
 		echo "$titolo_pagina<br>\n";
 		echo("ATTENZIONE! La giocata &egrave; gi&agrave; stata registrata:<br><br>\n");
 		show_giocate($giocate);
+		
+		echo "<hr>\n";
+		echo "<a href=\"questions.php?action=results&amp;id_questions=$id_questions\">Visualizza le giocate</a>\n";
 	}
 	else
 	{
@@ -486,6 +495,9 @@ case "save":
 		}
 		echo " &egrave; stata registrata:<br><br>\n";
 		show_giocate(array($giocata_da_salvare));
+		
+		echo "<hr>\n";
+		echo "<a href=\"questions.php?action=results&amp;id_questions=$id_questions\">Visualizza le giocate</a>\n";
 	}
 	
 	break;
@@ -646,6 +658,7 @@ case "results":
 	if (!file_exists($file_template_ans))
 	{
 		// visualizzazione di default dei risultati
+		print_header();
 		echo "$titolo_pagina<br>\n";
 		show_table($elenco_giocate,$mask,'tabella',1,12,1); # tabella in una colonna, font 12, con note
 	}
@@ -1023,7 +1036,6 @@ if ($temp_debug) {echo "gruppi_risposte_esatte:"; print_r($gruppi_risposte_esatt
 			{
 				$peso = 0;
 			}
-			$punteggio_output .= ','.($id_question+1);
 		}
 		$risposte_esatte[$id_question] = $peso;
 	}
@@ -1088,11 +1100,6 @@ case "eliminatorie":
 	}
 	else
 	{
-		
-		/*print_r($vettore_squadre);echo "<br>";
-		print_r($vettore_risposte_esatte);
-		echo "<br>";
-		*/
 		array_multisort($vettore_risposte_esatte,SORT_DESC,$risposte_possibili);
 		
 		$voti = array();
@@ -1107,14 +1114,8 @@ case "eliminatorie":
 			$voto_finale = min($voto_presunto,$voto_giusto)+0;
 			$voti[$squadra] = $voto_finale;
 			
-			//if ($voto_finale)
-			{
-				$punteggio_output .= ",$voto_finale";
-			}
-			//echo "$squadra: hai detto $voto_presunto, era giusto $voto_giusto -> $voto_finale<br>";
+			$punteggio_output .= ",$voto_finale";
 		}
-		
-		//	echo "<br><br>";
 		
 		$punteggio = -array_sum($voti);
 	}
