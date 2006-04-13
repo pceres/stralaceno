@@ -677,9 +677,7 @@ default:
 
 echo $homepage_link;
 
-# logga il contatto (modifico la query string per aggiungere nei log una informazione diretta alla foto visualizzata)
-$ks = $_SERVER['QUERY_STRING'];
-$_SERVER['QUERY_STRING'] = $ks;
+# logga il contatto
 $counter = count_page("questions",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
 
 ?>
