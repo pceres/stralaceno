@@ -1918,7 +1918,7 @@ else
 	echo "<input type=\"hidden\" name=\"auth_token\" value=\"$auth_token\"><br>";
 }
 ?>
-<input type="hidden" name="id_questions" value="4">
+<input type="hidden" name="id_questions" value="1">
 <!--input type="hidden" name="action" value="last_check"-->
 <input type="hidden" name="action" value="save">
 <br>
