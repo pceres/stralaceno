@@ -62,7 +62,7 @@ Pagine in preparazione::users
 
 
 [Approfondimenti]
-link2_lotteria_mondiali_2006::Sondaggio Mondiali 2006::external_link::questions.php?id_questions=1::Il sondaggio partir&agrave; il 20/04/2006 alle ore 00:00. Per ulteriori informazioni rivolgersi ai soci ARS.::
+link2_lotteria_mondiali_2006::Sondaggio Mondiali 2006::external_link::questions.php?id_questions=1::Il sondaggio partir&agrave; il 20/04/2006 alle ore 00.00. Per ulteriori informazioni rivolgersi ai soci ARS::
 
 [Amministrazione]
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Amministrazione] non prevede sottoelementi
