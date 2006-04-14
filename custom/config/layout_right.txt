@@ -76,7 +76,7 @@ classifica_partecipazioni::Classifica partecipazioni::tempi::::::
 [Delimitazione_1]
 
 [Sondaggi]
-link_lotteria_mondiali_2006::Sondaggio Mondiali 2006::external_link::questions.php?id_questions=2::::
+link_lotteria_mondiali_2006::Sondaggio Mondiali 2006::external_link::questions.php?id_questions=1::::
 
 [Delimitazione_2]
 

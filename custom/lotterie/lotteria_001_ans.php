@@ -3,35 +3,37 @@
 # Il numero di righe non commentate deve coincidere con le domande della lotteria. 
 # Se una partita non e' stata ancora disputata, inserire la risposta convenzionale "dummy".
 #
-Brasile
-Francia
 Germania
-Spagna
+Polonia
 Inghilterra
-Italia
+Svezia
+Argentina
 Olanda
-Croazia
-Stati Uniti
-Costa D'Avorio
-Ghana
-Repubblica Ceca
+Portogallo
+Messico
 Italia
-Australia
-Giappone
+Repubblica Ceca
 Brasile
-Stati Uniti
-Costa D'Avorio
-Ghana
-Giappone
-Stati Uniti
-Ghana
-Stati Uniti
-dummy
-dummy
-dummy
-dummy
-dummy
-dummy
-dummy
-dummy
-
+Australia
+Francia
+Svizzera
+Spagna
+Ucraina
+Germania
+Argentina
+Italia
+Francia
+Inghilterra
+Olanda
+Brasile
+Spagna
+Germania
+Italia
+Inghilterra
+Brasile
+Germania
+#dummy
+Brasile
+#dummy
+Brasile
+#dummy
