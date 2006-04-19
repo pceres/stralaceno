@@ -51,7 +51,7 @@
 
 [elenco_moduli]
 Approfondimenti::
-Amministrazione::admin
+Amministrazione::admin,soci_ars
 Utente::users
 Login::guests
 Pagine in preparazione::users
