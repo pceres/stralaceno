@@ -291,17 +291,20 @@ for data_i = 1:length(data_list)
                     somma=(i-1)*n+j;
                     subplot(m,n,somma);
 
-                    conteggiofoto=classifica_foto{somma}{1};
-                    albumfoto=classifica_foto{somma}{2};
-                    nomefoto=classifica_foto{somma}{3};
+                    if (somma <= length(classifica_foto))
 
-                    fotoname=[root_path 'custom/album/' albumfoto '/' nomefoto];
-                    matr=imread(fotoname);
-                    image(matr);
-                    title([albumfoto ' - ' nomefoto ' : ' num2str(conteggiofoto)],'interpreter','none')
-                    axis off;
-                    axis image;
-                    axis tight;
+                        conteggiofoto=classifica_foto{somma}{1};
+                        albumfoto=classifica_foto{somma}{2};
+                        nomefoto=classifica_foto{somma}{3};
+
+                        fotoname=[root_path 'custom/album/' albumfoto '/' nomefoto];
+                        matr=imread(fotoname);
+                        image(matr);
+                        title([albumfoto ' - ' nomefoto ' : ' num2str(conteggiofoto)],'interpreter','none')
+                        axis off;
+                        axis image;
+                        axis tight;
+                    end
                 end
             end
         end
