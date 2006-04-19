@@ -23,6 +23,10 @@ if ($info_mode)
 {
 	require_once('../../libreria.php');
 }
+elseif ($admin_mode)
+{
+	require_once('../libreria.php');
+}
 else
 {
 	require_once('libreria.php');
