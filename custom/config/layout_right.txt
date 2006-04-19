@@ -56,7 +56,7 @@ Delimitazione_1::
 Sondaggi::
 Delimitazione_2::
 Utente::users
-Amministrazione::admin
+Amministrazione::admin,soci_ars
 Login::guests
 Pagine in preparazione::admin
 
@@ -90,4 +90,4 @@ link_lotteria_mondiali_2006::Sondaggio Mondiali 2006::external_link::questions.p
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Login] non prevede sottoelementi
 
 [Pagine in preparazione]
-pregfas::Pregfas::modulo_custom::::
+pregfas::Registro Fanfaroni (Pregfas)::modulo_custom::::
