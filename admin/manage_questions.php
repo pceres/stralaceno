@@ -391,7 +391,7 @@ case 'set_nominativi':
 		echo " consegnato a <input name=\"chiave_name_$id\" value=\"$chiave_name\"/>";
 		echo " da <input name=\"chiave_responsabile_$id\" value=\"$chiave_responsabile\"/>";
 		//echo " in data (formato: \"hh:mm gg/mm/aaaa\")<input name=\"chiave_data_$id\" value=\"$chiave_data\"/>";
-		echo " in data (formato: \"gg/mm/aaaa\")<input name=\"chiave_data_$id\" value=\"$chiave_data\"/>";
+		echo " in data (gg/mm/aaaa)<input name=\"chiave_data_$id\" value=\"$chiave_data\"/>";
 		echo "<br>\n";
 	}
 	echo "<input type=\"hidden\" name=\"keyfile_id\" value=\"$keyfile_id\" />\n";
