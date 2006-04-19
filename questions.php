@@ -455,6 +455,16 @@ case "save":
 	{
 		$data_giocata = date("H:i d/m/Y");
 	}
+	else
+	{
+		// verifica formato data
+		if (!ereg('^[0-9]{2}:[0-9]{2} [0-9]{2}/[0-9]{2}/[0-9]{4}$',$data_giocata))
+		{
+			echo("Formato data errata: $data_giocata!<br>\n");
+			die("Il formato giusto e': &quot;12:34 12/10/2006&quot; per indicare le 12:34 del 12 ottobre 2006.");
+		}
+	}
+
 	
 	$log = $string_answers."::".time()."::".$data_giocata."::".$auth_token."\n";
 	
