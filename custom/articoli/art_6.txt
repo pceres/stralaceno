@@ -1,0 +1,28 @@
+Autore::
+Titolo::Sondaggio Mondiali di Calcio 2006
+--- Begin body ---
+<p>Le <b>Caratteristiche Principali</b> del sondaggio-studio proposto dall'ARS sul mondiale di calcio in Germania:
+<p>
+<b>Criteri di determinazione della classifica finale</b>
+<ul>
+<li>maggior numero di squadre indovinate.<br>
+In caso di parit&agrave;:<br></li>
+<li>posizione in classifica delle squadre indovinate (es. Prima classificata, Semifinalista, perdente Quarti vince su Seconda classificata, Semifinalista, perdente Quarti, perché Prima classificata prevale su Seconda classificata).
+ Ai fini di questa regola le squadre perdenti nei quarti di finale sono da considerarsi tutte quinte classificate,
+ così come quelle perdenti negli Ottavi tutte none classificate<br>
+In caso di ulteriore parit&agrave;:<br></li>
+<li>data della giocate (si considerano anche l’ora e i minuti): vince chi ha giocato prima.</li></ul>
+<p>
+<b>Periodo delle giocate</b>
+<br>
+inizio giocate: 00:00 del 20/04/2006<br>
+fine giocate: 18:00 del 08/06/2006<br>
+<br>
+<b>Modalit&agrave; della giocata</b><br>
+Il giocatore pu&ograve; giocare qui sul sito oppure compilare la scheda cartacea e restituire al cedente il biglietto, che annoter&agrave; giorno, ora e minuto della restituzione. Il responsabile abilitato inserir&agrave; poi sul sito la giocata (sar&agrave; cura del giocatore annotarsi il codice del biglietto per andare a controllare sul sito il successivo inserimento della giocata e la posizione in classifica).
+<p>  
+Durante il periodo delle giocate, sul sito, nella pagina apposita, si visualizzeranno le giocate con i relativi codici matrice; dopo la chiusura della giocate, compariranno anche i nomi dei giocatori.
+<p>
+Ogni persona può giocare una sola volta.<br>
+Le schede per il sondaggio sono disponibili presso i soci ARS.</p>
+--- End body ---
