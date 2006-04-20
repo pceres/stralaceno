@@ -72,25 +72,13 @@ $id_questions = 1;	// numero della lotteria corrente (usato in lotteria_XXX.txt)
 // Script per il check dei campi 
 //
 -->
-<script type="text/javascript">
+<SCRIPT type=text/javascript>
 <!-- 
 
-/*function in_array(ago,pagliaio)
-{
-	for (ks in pagliaio)
-	{
-		if (ks == ago)
-		{
-			alert(ago+' è nell''array');
-			return true;
-		}
-	}
-	return false;
-}
-*/
 
 function occurrencies(ago,pagliaio)
 {
+// conta quante volte e' stata data la stessa risposta
 	count = 0;
 	for (id in pagliaio)
 	{
@@ -103,29 +91,34 @@ function occurrencies(ago,pagliaio)
 }
 
 
-function check_input()
+function check_input(f)
 {
-/*
-Questa funzione, da richiamare in seguito all'evento onLoad del tag <body>, azzera tutte le eventuali precedenti
-selezioni di qualsiasi campo select all'interno del documento.
-*/
+// Questa funzione verifica la correttezza della giocata prima di inviare i dati per il salvataggio
+
 	list = new Array;
-	//alert(document.forms[0].elements.length+' elementi');
-	for (i = 0; i < document.forms.length; i++)
+	for (ii = 0; ii < f.elements.length; ii++)
 	{
-		for (ii = 0; ii < document.forms[i].elements.length; ii++)
+		if (ii<10)
 		{
-			if (document.forms[i].elements[ii].type == 'select-one')
+			tag = 'question_0'+ii;
+		}
+		else
+		{
+			tag = 'question_'+ii;
+		}
+		
+		if (f[tag])
+		{
+			squadra = f[tag].options[f[tag].selectedIndex].text;
+			//alert(ii+') '+tag+' ('+squadra+')');
+			
+			list[ii] = squadra;
+			
+			// verifica che non ci siano campi vuoti
+			if (squadra.length == 1)
 			{
-				squadra = document.forms[i].elements[ii].value;
-				list[ii] = squadra;
-				
-				// verifica che non ci siano campi vuoti
-				if (squadra.length == 1)
-				{
-					alert("Attenzione: la giocata non e' regolare perche' c'e' almeno un campo vuoto! Correggere prima il problema");
-					return false;
-				}
+				alert("Attenzione: la giocata non e' regolare perche' c'e' almeno un campo vuoto! Correggere prima il problema");
+				return false;
 			}
 		}
 	}
@@ -134,7 +127,7 @@ selezioni di qualsiasi campo select all'interno del documento.
 	risposte_ok = true;
 	messaggio_errore = 'Messaggio di errore!';
 	
-	
+
 	
 	// ripartizione nelle diverse classi
 	list_Q = new Array;
@@ -265,10 +258,6 @@ selezioni di qualsiasi campo select all'interno del documento.
 	
 	
 	
-	
-	
-	
-	
 	if (!risposte_ok)
 	{
 		alert(messaggio_errore);
@@ -277,19 +266,18 @@ selezioni di qualsiasi campo select all'interno del documento.
 	{
 		return confirm("Sei sicuro? Una volta confermato la giocata sara' definitiva.");
 	}
-	
-	//return risposte_ok;
+	return risposte_ok;
 	
 }
 
 
 //-->
-</script>
+</SCRIPT>
 
 
 <!--div align="center" style="font-size:20px;">Sondaggio Mondiali di Calcio 2006 (32 domande)</div><br-->
 
-<form name="question_form" action="<?php echo $action; ?>" method="post" OnSubmit="return check_input()">
+<form name="question_form" action="<?php echo $action; ?>" method="post" OnSubmit="return check_input(this)">
 
 
 <TABLE FRAME=VOID CELLSPACING=0 RULES=GROUPS BORDER=1>
