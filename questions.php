@@ -955,10 +955,15 @@ case "distanza":
 	
 	break;
 case "data_giocata":
-	$time_giocata = $giocata[1];
+	//$time_giocata = $giocata[1];	// valore numerico corrispondente all'istante dell'effettivo salvataggio della giocata
+	$time_giocata = parse_date($giocata[2]);// stringa corrispondente alla data che fa fede per la giocata
+	$time_giocata = $time_giocata[0];	// valore numerico corrispondente
+	
+	$time_0 = parse_date('02:00 30/08/1970');
+	$delta = ($giocata[1]-($time_giocata-$time_0[0]));	// differenza tra l'istante di giocata e la data che fa fede per la classifica
 	
 	$punteggio = $time_giocata+0;
-	$punteggio_output = $giocata[2].'';
+	$punteggio_output = $giocata[2]." ($delta)";
 	
 	break;
 case "posizione_esatte":
