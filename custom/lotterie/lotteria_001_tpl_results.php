@@ -2,8 +2,6 @@
 
 print_header();
 
-
-
 $visualizza_giocate_anonime = true;	// true -> vengono visualizzate anche le giocate che non hanno una chiave corretta (giocate anonime)
 
 
@@ -160,6 +158,13 @@ foreach ($elenco_giocate2 as $giocata)
 echo "<!-- Visualizzazione personalizzata per $lotteria_nome -->\n";
 echo "$titolo_pagina<br>\n";
 
+if ($_REQUEST['debug']=='full')
+{
+	show_table($elenco_giocate,$mask,'tabella',1,12,1); # tabella in una colonna, font 12, con note
+}
+
+
+
 // verifica che le giocate siano aperte e stampa il relativo messaggio
 if ($v_now[0] > $v_results[0])
 {
@@ -185,8 +190,8 @@ Legenda:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>C</b>: Campione del mondo<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>F</b>: Squadra finalista<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>S</b>: Squadra semifinalista<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Q</b>: Squadra ammessa ai quarti di finale<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>W</b>: Squadra ammessa agli ottavi di finale<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>W</b>: Squadra ammessa ai quarti di finale<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Q</b>: Squadra ammessa agli ottavi di finale<br>
 </div>
 
 
