@@ -1,4 +1,3 @@
-
 albo_d_oro:1
 classifica_anno:1
 tempi_atleta:1
