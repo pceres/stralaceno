@@ -52,7 +52,9 @@
 
 [elenco_moduli]
 Approfondimenti::
-Delimitazione::
+Delimitazione_1::users
+Sezione utenti registrati::users
+Delimitazione_2::
 Utente::users
 Amministrazione::admin
 Login::guests
@@ -73,6 +75,11 @@ classifica_partecipazioni::Classifica partecipazioni::tempi::::::
 
 [Delimitazione_1]
 
+[Sezione utenti registrati]
+pregfas::Registro Fanfaroni (Pregfas)::modulo_custom::::
+
+[Delimitazione_2]
+
 [Utente]
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Utente] non prevede sottoelementi
 
@@ -83,4 +90,4 @@ classifica_partecipazioni::Classifica partecipazioni::tempi::::::
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Login] non prevede sottoelementi
 
 [Pagine in preparazione]
-pregfas::Pregfas::modulo_custom::::
+sondaggio::Sondaggio Stralaceno 2006::external_link::http://localhost/work/stralaceno/questions.php?id_questions=2::
