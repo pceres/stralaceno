@@ -142,7 +142,7 @@ function VisualizzaNomi(mode) {
 </script>
 
 
-		<img src="<?php echo $site_abs_path ?>custom/images/cornice/Null.jpg" border="0" height="10" width="1">
+		<img alt="" src="<?php echo $site_abs_path ?>custom/images/cornice/Null.jpg" border="0" height="10" width="1">
 		
 		<!-- tabella riga header -->
 		<table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody>
@@ -272,7 +272,7 @@ if (count($album[$id_photo][$id_descrizione_persone])>0)
 			
 			<!-- riga vuota per distanziare la riga successiva -->
 			<tr>
-				<td height="20"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Null.jpg" border="0" height="20" width="20"></td>
+				<td height="20"><img alt="" src="<?php echo $site_abs_path ?>custom/images/cornice/Null.jpg" border="0" height="20" width="20"></td>
 			</tr>
 			
 			<!-- riga footer -->
@@ -286,7 +286,7 @@ if (count($album[$id_photo][$id_descrizione_persone])>0)
 
 			<!-- riga vuota per distanziare la riga successiva -->
 			<tr>
-				<td height="20"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Null.jpg" border="0" height="20" width="20"></td>
+				<td height="20"><img alt="" src="<?php echo $site_abs_path ?>custom/images/cornice/Null.jpg" border="0" height="20" width="20"></td>
 			</tr>
 
 <?php
