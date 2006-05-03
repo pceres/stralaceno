@@ -85,7 +85,7 @@ surrogare gli scarsi fatti con le molte parole: i fanfaroni
 <i>jactanciosos</i> (ES <img src="%file_root%custom/images/bandiere/Spagna-Bandiera-small.jpg" width="20" style="vertical-align: middle;">),
 <i>opschepperige</i> (NL <img src="%file_root%custom/images/bandiere/Olanda-Bandiera-small.jpg" width="20" style="vertical-align: middle;">),
 <i>prahlerischen</i> (DE <img src="%file_root%custom/images/bandiere/Germania-Bandiera-small.jpg" width="20" style="vertical-align: middle;">),
-<i>trombonist</i> (RO <img src="%file_root%custom/images/bandiere/Romania-Bandiera-small.jpg" width="20" style="vertical-align: middle;">) 
+<i>tromboni&#x015F;t</i> (RO <img src="%file_root%custom/images/bandiere/Romania-Bandiera-small.jpg" width="20" style="vertical-align: middle;">) 
 ).
 E' risaputo che molti degli affetti da tale singolare inclinazione, vivono con particolare disagio e apprensione il 
 momento dell'"outing" e cio&egrave; il momento in cui finalmente essi si decidono ad esternare in pubblico la loro 
@@ -119,3 +119,4 @@ attenuanti, valutando anche caso per caso e con opportuna  indulgenza. La conseg
 decide di procedere ad iscrizione sono solo i casi conclamati, la cui gravit&agrave; &egrave; evidente e documentabile.
 
 </div>
+
