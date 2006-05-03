@@ -1,0 +1,14 @@
+Stati Uniti,Inghilterra,Ghana,Togo,Serbia Montenegro,Olanda,Ecuador,Australia::1140649759::12:09 23/02/2006::af3a1ce3e0b5efc55d8c86578dfe0628
+Inghilterra,Svizzera,Stati Uniti,Olanda,Argentina,Italia,Portogallo,Repubblica Ceca::1140776619::11:23 24/02/2006::e3a3845cf3292b05cdcaeb5555ed5f86
+Svizzera,Ucraina,Inghilterra,Italia,Svezia,Croazia,Angola,Ghana::1141733552::13:12 07/03/2006::901aee2712959f1d47b2d532b0d7ab07
+Argentina,Spagna,Italia,Olanda,Inghilterra,Australia,Costa D\\\'Avorio,Croazia::1141904749::12:45 09/03/2006::563acaf696d81496825a91f27d61172d
+Francia,Repubblica Ceca,Inghilterra,Arabia Saudita,Trinidad E Tobago,Ucraina,Polonia,Corea Del Sud::1142016504::19:48 10/03/2006::f4c737b9f4f390b7b439100c47159aa5
+Italia,Germania,Brasile,Croazia,Inghilterra,Corea Del Sud,Argentina,Spagna::1142338323::13:12 14/03/2006::1c6ebbaba7175e086ead7f480396618c
+Brasile,Croazia,Germania,Giappone,Iran,Repubblica Ceca,Trinidad E Tobago,Corea Del Sud::1142607188::15:53 17/03/2006::fe5bfe629b3438ddf88c9448fbcdf168
+Germania,Svizzera,Ghana,Iran,Paraguay,Corea Del Sud,Polonia,Repubblica Ceca::1142847123::10:32 20/03/2006::c205a19a8ea297767c5388a7a79336de
+Giappone,Corea Del Sud,Arabia Saudita,Inghilterra,Angola,Australia,Trinidad E Tobago,Svizzera::1143107678::10:21 23/03/2006::0fe56d795cd89d93deebe7e005190db5
+Stati Uniti,Italia,Giappone,Francia,Germania,Angola,Paraguay,Olanda::1143651210::18:53 29/03/2006 ::9b835650276f0dd760decd01e4169db2
+Brasile,Francia,Germania,Spagna,Inghilterra,Italia,Olanda,Croazia::1143881149::12:38 30/03/2006::0bc370137c7a49dcb7312e81dff4eba8
+#Italia,Costa D'Avorio,Togo,Giappone,Stati Uniti,Repubblica Ceca,Ucraina,Arabia Saudita,Italia,Costa D'Avorio,Stati Uniti,Giappone,Costa D'Avorio,Italia,Italia::1144440354::20:05 07/04/2006::37b4c1825a831649a6eb79dc5f01ddae
+#Stati Uniti,Spagna,Italia,Ghana,Australia,Giappone,Brasile,Costa D'Avorio,Stati Uniti,Spagna,Italia,Ghana,Spagna,Stati Uniti,Stati Uniti::1144440472::20:07 07/04/2006::8301130b60b7cfb1785a148341d0260f
+#Stati Uniti,Costa D'Avorio,Ghana,Repubblica Ceca,Italia,Australia,Giappone,Brasile,Stati Uniti,Costa D'Avorio,Ghana,Giappone,Stati Uniti,Ghana,Stati Uniti::1144440614::20:10 07/04/2006::f9f258fca49fe20ba3caf14109a509f0
