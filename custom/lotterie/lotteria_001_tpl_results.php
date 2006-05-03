@@ -187,11 +187,11 @@ show_table($elenco_new,$mask_new,'tabella',1,12,1); # tabella in una colonna, fo
 Legenda:
 
 <div class="txt_link">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>C</b>: Campione del mondo<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>F</b>: Squadra finalista<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>S</b>: Squadra semifinalista<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>W</b>: Squadra ammessa ai quarti di finale<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Q</b>: Squadra ammessa agli ottavi di finale<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>W</b>: Squadra ammessa ai quarti di finale<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>S</b>: Squadra semifinalista<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>F</b>: Squadra finalista<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>C</b>: Campione del mondo<br>
 </div>
 
 
