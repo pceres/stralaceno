@@ -1,14 +1,14 @@
 Autore::ARS
 Titolo::Allenamento Collettivo 2005
 --- Begin body ---
-<br>Il 30 dicembre si &egrave svolta una seduta di allenamento di gruppo, lungo il tratto stradale Caposele/Materdomini (strada vecchia ss165) e ritorno.
+<br>Il 30 dicembre si &egrave; svolta una seduta di allenamento di gruppo, lungo il tratto stradale Caposele/Materdomini (strada vecchia ss165) e ritorno.
 <p>Una temperatura rigida, nell'ambito di uno scenario tipicamente invernale, ha accompagnato gli atleti lungo gli 8,350 km previsti.
 <br>
-La distanza &egrave stata percorsa dagli otto partecipanti con passo lento e regolare cercando di rispettare i passaggi orari previsti.
+La distanza &egrave; stata percorsa dagli otto partecipanti con passo lento e regolare cercando di rispettare i passaggi orari previsti.
 <p>
 Le foto dell' Allenamento sono disponibili <a href="album.php?anno=All.Coll.05">qui</a> 
 <p>
-Il 4 gennaio 2006 si &egrave tenuto un secondo allenamento, che ha visto impegnati 7 atleti lungo un percorso di circa 17 km, nell'ambito del quale si sono toccati alcuni punti molto suggestivi del comune di Caposele (come le grotte e il bosco difesa).<br>Su questo evento ci ha scritto una lettera uno dei partecipanti, N.Melillo, che trovate nella sezione<br>-Lettere alla Stralaceno-.
+Il 4 gennaio 2006 si &egrave; tenuto un secondo allenamento, che ha visto impegnati 7 atleti lungo un percorso di circa 17 km, nell'ambito del quale si sono toccati alcuni punti molto suggestivi del comune di Caposele (come le grotte e il bosco difesa).<br>Su questo evento ci ha scritto una lettera uno dei partecipanti, N.Melillo, che trovate nella sezione<br>-Lettere alla Stralaceno-.
 <br>
 <p>&nbsp;
 <div align="center">
@@ -19,7 +19,7 @@ Il 4 gennaio 2006 si &egrave tenuto un secondo allenamento, che ha visto impegna
 allenamento di gruppo lungo il tratto stradale Caposele/Materdomini (strada 
 vecchia ss 165) e ritorno.<br><br> La distanza sarà percorsa rigorosamente ad andatura 
 lenta avendo cura di rispettare soprattutto la regolarità di corsa e i 
-passaggi orari previsti a tavolino.<br> &Egrave un'ottima occasione per riprendere 
+passaggi orari previsti a tavolino.<br> &Egrave; un'ottima occasione per riprendere 
 l'attività per chi si è lasciato andare nel periodo autunnale e per 
 cercare di ritrovare gli stimoli giusti affrontando con vigore il lungo 
 inverno che ancora ci attende.<p>
@@ -30,11 +30,11 @@ Chiunque sia interessato può liberamente aggregarsi alla partenza o anche durant
   <tr style="margin:2px;border:1px">
 	<td style="padding:0.2em 1.4em 0.4em 0.1em;">
 	   <a href="%file_root%custom/album/varie/dscn5727.jpg">
-		<img src="%file_root%custom/album/varie/dscn5727-thumb.jpg" width="100" border="0" alt="Piazza Sanità">
+		<img src="%file_root%custom/album/varie/dscn5727-thumb.jpg" width="100" border="0" alt="Piazza Sanita'">
 	   </a>
 	</td>
 	<td style="padding:1.0em;">Km 0.000</td>
-	<td style="padding:1.0em;">Piazza Sanita'</td>
+	<td style="padding:1.0em;">Piazza Sanit&agrave;</td>
 	<td style="padding:0.2em;">h <b>15:15</b>:00</td>
   </tr>
   <tr style="margin:2px;border:1px">
@@ -103,18 +103,18 @@ Chiunque sia interessato può liberamente aggregarsi alla partenza o anche durant
 <tr style="margin:2px;border:1px">
 	<td style="padding:0.2em 1.4em 0.4em 0.1em;">
           <a href="%file_root%custom/album/varie/dscn5756.jpg">
-              <img src="%file_root%custom/album/varie/dscn5756-thumb.jpg" width="100" border="0" alt="Piazza Sanità"></td>
+              <img src="%file_root%custom/album/varie/dscn5756-thumb.jpg" width="100" border="0" alt="Piazza Sanita'"></td>
               </a>
 	<td style="padding:1.0em;">Km 8.350</td>
-	<td style="padding:1.0em;">Piazza Sanità</td>
+	<td style="padding:1.0em;">Piazza Sanit&agrave;</td>
 	<td style="padding:0.2em;">h <b>16:07:</b>45</td>
   </tr>
 </table>
 <br>
-ARS Amatori Running Sele invita i runner e gli sportivi tutti ad aggregarsi  all&#8217;allenamento podistico collettivo, previsto per uno degli ultimi giorni del 2005, che seguirà il percorso: <br>Caposele piazza Sanit&agrave,  LungoSele,  tratto S.S. 165 dal  cimitero comunale a Materdomini,  discesa basilica di San Gerardo,  Piani (piscina comunale),  piazza Sanità.<p>
-La partenza avverrà nel primo pomeriggio, indipendentemente dalle condizioni meteorologiche.<br>
-&Egrave data facolt&agrave di aggregarsi al gruppo anche durante il tragitto.<br><br>
-Il giorno, l&#8217;orario di partenza e la tabella dei passaggi orari previsti del gruppo nei punti principali del percorso, saranno successivamente comunicati.
+ARS Amatori Running Sele invita i runner e gli sportivi tutti ad aggregarsi  all'allenamento podistico collettivo, previsto per uno degli ultimi giorni del 2005, che seguir&agrave; il percorso: <br>Caposele piazza Sanit&agrave;,  LungoSele,  tratto S.S. 165 dal  cimitero comunale a Materdomini,  discesa basilica di San Gerardo,  Piani (piscina comunale),  piazza Sanit&agrave;.<p>
+La partenza avverr&agrave; nel primo pomeriggio, indipendentemente dalle condizioni meteorologiche.<br>
+&Egrave; data facolt&agrave; di aggregarsi al gruppo anche durante il tragitto.<br><br>
+Il giorno, l'orario di partenza e la tabella dei passaggi orari previsti del gruppo nei punti principali del percorso, saranno successivamente comunicati.
 <br><br>
 <div align="center">
 <img id="foto" src="%file_root%custom/album/generico1/ars.jpg" alt="" border="0" width="170">
