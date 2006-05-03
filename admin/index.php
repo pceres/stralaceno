@@ -6,6 +6,15 @@ require_once('../libreria.php');
 
 # dichiara variabili
 extract(indici());
+
+// verifica che si stia arrivando a questa pagina da ../index.php
+$referer = $_SERVER['HTTP_REFERER'];
+if ( !isset($_SERVER['HTTP_REFERER']) | (strpos($referer,"http://".$_SERVER['HTTP_HOST'].$script_abs_path."index.php")!='0') )
+{
+	header("Location: ".$script_abs_path."index.php");
+	exit();
+}
+
 ?>
 <head>
   <title>Amministrazione</title>
@@ -78,6 +87,15 @@ e della <a href='manage_config_file.php?config_file=layout_right.txt'>colonna de
 <hr>
 
 <a href='manage_config_file.php?config_file=lettere_stralaceno.txt'>Gestione lettere alla Stralaceno</a>
+
+<hr>
+
+<form action="manage_questions.php?task=index" method="post" onSubmit="cripta_campo_del_form(this,'password')">
+Gestione lotterie e questionari: Password: <input name="password" type="password">
+<input type="submit" value="Vai">
+</form>
+
+<hr>
 
 <?php
 # logga il contatto
