@@ -1,7 +1,8 @@
 /* Css per http://stralaceno.cjb.net - Media Screen -  Pasquale Ceres */
 
-	/*color:rgb(51,102,153);	blu ufficiale */
-	/*color:rgb(255,102,0);		arancione ufficiale */
+	/*color:rgb(51,102,153);	blu ufficiale 		*/
+	/*color:rgb(255,102,0);		arancione ufficiale 	*/
+	/*color:#FFF6F0;		sfondo di default	*/
 
 
 
@@ -9,7 +10,7 @@
 
 body {
 	color:rgb(34,68,102);
-	background:#FFF6F0;
+	background:#FFF6F0;	/* sfondo di default per le pagine generiche	*/
 	font-family:Arial,Tahoma,Verdana,Serif;	
 	}
 
@@ -70,7 +71,7 @@ table.column_group {
 	border:0px;
 	margin:0px;
 	padding:0.4em;
-	background:#FFEFE5;
+	background:#FFEFE5;	/* sfondo colonne sinistra e destra */
 	}
 
 /* appartengono alla classe titolo_colonna tutti i titoli nelle colonne laterali */
@@ -92,7 +93,7 @@ a.txt_link:hover {
 /* link e testo nelle colonne laterali */
 .txt_link, .txt_normal {
 	font-family:Arial,Tahoma,Verdana,Serif;
-    font-size:0.75em;
+	font-size:0.75em;
 	color:rgb(51,102,153);
 	}
 
@@ -102,8 +103,8 @@ table.article_group {
 	border:0px;
 	margin:0px;
 	padding:0.4em;
-	background:#FFF6F0;
-	width:100%; /* l'articolo occupa tutta la larghezza consentita*/
+	background:#FFF6F0;	/* sfondo articoli colonna centrale */
+	width:100%;		/* l'articolo occupa tutta la larghezza consentita*/
 	}
 
 /* appartengono alla classe titolo_articolo tutti i titoli degli articoli */
@@ -116,7 +117,7 @@ table.article_group H3 {
 
 .txt_articolo { 
 	font-family:Arial,Tahoma,Verdana,Serif;
-    font-size:0.75em;
+	font-size:0.75em;
 	color:rgb(51,102,153);
 	}
 
@@ -240,7 +241,7 @@ div.tabella_organizzatori {
 
 body.admin {
 	color:rgb(34,68,102);
-	background:#FFF6F0;
+	background:#FFF6F0;	/* sfondo pagine amministrative */
 	font-family:Arial,Tahoma,Verdana,Serif;	
 	font-size:1.2em;
 	}
