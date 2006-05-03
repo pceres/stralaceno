@@ -63,8 +63,8 @@ $question_tag_format = "question_%02d";	// da non modificare
 	
 </HEAD>
 
-<!--BODY TEXT="#000000" OnLoad="check_input()"-->
-<BODY TEXT="#000000">
+<BODY TEXT="#000000" OnLoad="alert(itoa(12));">
+<!--BODY TEXT="#000000"-->
 
 <!--
 //
@@ -73,6 +73,38 @@ $question_tag_format = "question_%02d";	// da non modificare
 -->
 <SCRIPT type=text/javascript>
 <!-- 
+
+function get_girone(squadra)
+{
+// restituisci il girone [0..7] di appartenenza della squadra (oppure -1)
+	
+	gironeA = new Array("Germania","Costa Rica","Polonia","Ecuador");
+	gironeB = new Array("Inghilterra","Paraguay","Trinidad E Tobago","Svezia");
+	gironeC = new Array("Argentina","Costa D'Avorio","Serbia Montenegro","Olanda");
+	gironeD = new Array("Messico","Iran","Angola","Portogallo");
+	gironeE = new Array("Stati Uniti","Repubblica Ceca","Italia","Ghana");
+	gironeF = new Array("Australia","Giappone","Brasile","Croazia");
+	gironeG = new Array("Corea Del Sud","Togo","Francia","Svizzera");
+	gironeH = new Array("Spagna","Ucraina","Tunisia","Arabia Saudita");
+	
+	gironi = new Array(gironeA,gironeB,gironeC,gironeD,gironeE,gironeF,gironeG,gironeH);
+	
+	for (id_girone in gironi)
+	{
+		girone = gironi[id_girone];
+		for (id_squadra in girone)
+		{
+			squadra_item = girone[id_squadra];
+			if (squadra_item == squadra)
+			{
+				//alert(id_girone);
+				return id_girone*1;
+			}
+		}
+	}
+	
+	return -1;
+}
 
 
 function occurrencies(ago,pagliaio)
@@ -160,10 +192,18 @@ function check_input(f)
 	}
 	
 	// verifica correttezza 16 squadre ammesse ottavi di finale
+	vettore_gironi = new Array(0,0,0,0,0,0,0,0);
+	gironi_errati = false;
 	for (i = 0; i < list_Q.length; i++)
 	{
 		squadra = list_Q[i];
 		//alert('Qualificati ('+(i+1)+'): '+squadra);
+		
+		girone = get_girone(squadra);
+		if ((++vettore_gironi[girone]) > 2)
+		{
+			gironi_errati = true;
+		}
 		
 		// verifica ripetizioni all'interno dello stesso gruppo
 		ripetizioni = occurrencies(squadra,list_Q);
@@ -172,7 +212,30 @@ function check_input(f)
 			alert('Nei qualificati agli ottavi di finale la squadra '+squadra+' compare '+ripetizioni+' volte!');
 			return false;
 		}
+		
 	}
+	// visualizza messaggio d'errore nel caso non siano indicate 2 squadre per girone
+	if (gironi_errati)
+	{
+		msg = "Nei qualificati agli ottavi di finale non sono indicate 2 squadre per ciascun girone:";
+		for (i=0; i<=7; i++)
+		{
+			msg += "\n    Girone "+String.fromCharCode(i+65)+': '+vettore_gironi[i]; 
+			
+			errore = vettore_gironi[i]-2;
+			if (errore > 0)
+			{
+				msg += " (eliminare "+errore+" squadra/e)";
+			}
+			if (errore < 0)
+			{
+				msg += " (aggiungere "+(-errore)+" squadra/e)";
+			}
+		}
+		alert(msg);
+		return false;
+	}
+	
 	
 	// verifica correttezza 8 squadre ammesse quarti di finale
 	for (i = 0; i < list_W.length; i++)
