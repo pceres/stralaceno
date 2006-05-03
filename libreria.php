@@ -73,6 +73,17 @@ $indice_user_groups = 2;
 $indici_user = array('indice_user_name'=>$indice_user_name,'indice_user_passwd'=>$indice_user_passwd,'indice_user_groups'=>$indice_user_groups);
 
 
+# formato file di configurazione $lotteria_xxx.txt
+$indice_question_caption = 0;
+$indice_question_tipo = 1;
+$indice_question_gruppo = 2;
+$indice_question_ripetibile = 3;
+
+$indici_question = array(
+'indice_question_caption'=>$indice_question_caption,'indice_question_tipo'=>$indice_question_tipo,'indice_question_gruppo'=>$indice_question_gruppo,
+'indice_question_ripetibile'=>$indice_question_ripetibile);
+
+
 #variabili di formattazione
 $style_sfondo_maschi = "rgb(249, 255, 255)";
 $style_sfondo_femmine = "rgb(255, 234, 234)";
@@ -103,10 +114,10 @@ do {
 	$test = strpos($path,$root_prefix_work,$end);
 	if ($test)
 	{
-		$end = $test+strlen($root_prefix_work)+1;
+		$end = $test+strlen($root_prefix_work);
 	}
 } while ($test);
-$root_path = substr($path,0,$end);
+$root_path = substr($path,0,$end+1);
 
 // path assoluto da usare per gli script php
 $start = strpos($_SERVER['SCRIPT_NAME'],$root_prefix_work);
@@ -123,10 +134,10 @@ do {
 	$test = strpos($path,$root_prefix_work,$end);
 	if (strlen($test."a")>1)
 	{
-		$end = $test+strlen($root_prefix_work)+1;
+		$end = $test+strlen($root_prefix_work);
 	}
 } while (strlen($test."a")>1);
-$script_abs_path = substr($path,0,$end);
+$script_abs_path = substr($path,0,$end+1);
 
 // path assoluto da usare per l'html e le immagini
 if (array_key_exists('HTTP_HOST',$_SERVER) and array_key_exists('SCRIPT_URI',$_SERVER))
@@ -156,10 +167,10 @@ do {
 	$test = strpos($path,$root_prefix_work,$end);
 	if (strlen($test."a")>1)
 	{
-		$end = $test+strlen($root_prefix_work)+1;
+		$end = $test+strlen($root_prefix_work);
 	}
 } while (strlen($test."a")>1);
-$site_abs_path = substr($path,0,$end);
+$site_abs_path = substr($path,0,$end+1);
 
 
 #path assoluti
@@ -204,9 +215,9 @@ $filenames = array('filename_css' => $filename_css,'filename_tempi' => $filename
 $pathnames = array('root_prefix' => $root_prefix,'root_path' => $root_path,'site_abs_path' => $site_abs_path,'script_abs_path' => $script_abs_path,'modules_site_path' => $modules_site_path,'config_dir' => $config_dir,'album_dir' => $album_dir,'questions_dir' => $questions_dir);
 $varie = array('symbol_1_partecipazione' => $symbol_1_partecipazione,'symbol_1_partecipazione_best' => $symbol_1_partecipazione_best,'symbol_record' => $symbol_record,'symbol_record_best' => $symbol_record_best,'symbol_info'=>$symbol_info);
 $custom = array('homepage_link' => $homepage_link,'tempo_max_M' => $tempo_max_M,'tempo_max_F' => $tempo_max_F,'tempo_max_grafico' => $tempo_max_grafico,'race_name' => $race_name,'web_title' => $web_title,'web_description' => $web_description,'web_keywords' => $web_keywords,'email_info' => $email_info);
-$admin = array('password_album' => $password_album,'password_config' => $password_config,'password_articoli' => $password_articoli,'password_upload_file' => $password_upload_file,'max_last_editions' => $max_last_editions,'max_online_articles' => $max_online_articles);
+$admin = array('password_album' => $password_album,'password_config' => $password_config,'password_articoli' => $password_articoli,'password_upload_file' => $password_upload_file,'max_last_editions' => $max_last_editions,'max_online_articles' => $max_online_articles,'password_lotterie' => $password_lotterie);
 
-return array_merge($indici,$indici2,$indici3,$indici_layout,$indici_user,$formattazione,$filenames,$pathnames,$varie,$admin,$custom);
+return array_merge($indici,$indici2,$indici3,$indici_layout,$indici_user,$indici_question,$formattazione,$filenames,$pathnames,$varie,$admin,$custom);
 }
 
 function load_data($filename,$num_colonne) {
@@ -572,38 +583,57 @@ return $archivio_filtrato;
 
 
 
-function ordina_archivio($archivio,$indice1,$indice2,$flag = SORT_ASC) {
+function ordina_archivio($archivio,$lista_indici,$flag = SORT_ASC) {
+# per ordinare su piu' campi di $archivio,  basta passare un array, ad esempio per ordinare sui campi 
+# $indice_anno, $indice_posiz, si passi $lista_indici=array($indice_anno, $indice_posiz);
 
 # dichiara variabili
 extract(indici());
 
-$lista1 = array();
-$lista2 = array();
-for ($i = 1; $i < count($archivio); $i++) {
+// inizializza le liste
+foreach($lista_indici as $id => $indice)
+{
+	$lista[$id] = array();
+}
+// popola le liste (una per ogni indice) in base ai record dell'archivio
+for ($i = 1; $i < count($archivio); $i++)
+{
 	$record = $archivio[$i];
-	$item1 = $record[$indice1];
-	$item2 = $record[$indice2];
 	
-	if ($item1 == "-") $item1 = "999";
-	if ($item2 == "-") $item2 = "999";
-	
-	if (array_key_exists('info',$record)) {
-		if ($indice1 == $indice_nome) {
-			$temp_list = explode(' ',$item1);
-			$item1 = implode(' ',array_slice($temp_list,1));
-			}
-		if ($indice2 == $indice_nome) {
-			$temp_list = explode(' ',$item2);
-			$item2 = implode(' ',array_slice($temp_list,1));
+	foreach($lista_indici as $id => $indice)
+	{
+		$item = $record[$indice];
+		
+		if ($item == "-") $item = "999";
+		
+		if (array_key_exists('info',$record))
+		{
+			if ($indice == $indice_nome)
+			{
+				$temp_list = explode(' ',$item);
+				$item = implode(' ',array_slice($temp_list,1));
 			}
 		}
-
-	array_push($lista1,$item1);
-	array_push($lista2,$item2);
+			
+		array_push($lista[$id],$item);
 	}
+}
 
+//crea il comando array_multisort($lista[0],$flag,$lista[1],$flag,...,$subarchivio);
+$ks = 'array_multisort(';
+foreach($lista_indici as $id => $indice)
+{
+	if ($id > 0)
+	{
+		$ks .= ",";
+	}
+	$ks .= '$lista['.$id.'],$flag';
+}
+$ks .= ',$subarchivio);';
+
+// ordina l'archivio usando le liste create in precedenza
 $subarchivio = array_slice($archivio,1);
-array_multisort($lista1,$flag,$lista2,$flag,$subarchivio);
+eval($ks);
 $archivio_ordinato = array_merge(array($archivio[0]),$subarchivio); # aggiungi l'header
 
 return $archivio_ordinato;
@@ -887,7 +917,7 @@ function get_abstract($testo_in,$puntini)
 {
 // $puntini e' il link che viene aggiunto in coda, subito prima di chiudere eventuali tag html rimasti aperti
 
-$no_close_tags = array("p","br","?php"); // array di tags che non richiedono il tag di chiusura
+$no_close_tags = array("p","br","?php","img"); // array di tags che non richiedono il tag di chiusura
 	
 	$n_max_stop = 2; // numero massimo di righe contenenti un carattere ".","?","!"
 		
@@ -1004,7 +1034,7 @@ function show_article($art_data,$mode,$link)
 	
 	foreach ($testo_articolo as $line)
 	{
-		echo template_to_effective($line);
+		echo template_to_effective($line)."\n";
 	}
 	
 	echo "		<div class=\"txt_firma_articolo\">".$art_data["autore"]."</div>\n";
@@ -1173,6 +1203,46 @@ function get_config_file($conf_file,$expected_items = 1000)
 }
 
 
+function save_config_file($conf_file,$keys)
+{
+	$cf = fopen($conf_file, 'w');
+	if (!$cf)
+	{
+		echo "<p>Impossibile aprire il file $conf_file.\n";
+		exit;
+	}
+	
+	$acapo = "\r\n";
+	foreach ($keys as $block_name => $block_item)
+	{
+		if ($block_name !== 'default')
+		{
+			$line = "[$block_name]$acapo";
+			fwrite($cf, $line);
+		}
+		
+		foreach($block_item as $riga)
+		{
+			foreach ($riga as $id => $riga_item)
+			{
+				if ($id > 0)
+				{
+					fwrite($cf, "::");
+				}
+				fwrite($cf, $riga_item);
+			}
+			
+			fwrite($cf, $acapo);
+		}
+		
+		fwrite($cf, $acapo);
+	}
+	
+	fclose($cf);
+	return 1;
+}
+
+
 function show_template($template_file)
 {
 	# dichiara variabili
@@ -1235,7 +1305,6 @@ function show_template($template_file)
 }
 
 
-
 function group_match($usergroups,$enabled_groups)
 {
 // enabled_group vuoto -> abilitato
@@ -1256,33 +1325,124 @@ return false;
 } // end function group_match($usergroups,$enabled_groups)
 
 
-function create_key_files($id_questions,$num_files,$num_keys) {
+function show_question_form($lotteria,$action,$question_action,$id_questions,$auth_token,$caption_button){
 
 # dichiara variabili
 extract(indici());
 
-$key_filename_format = sprintf($questions_dir."lotteria_%03d",$id_questions)."_keys_%03d.txt";	// formato dei file di chiavi
+if (empty($auth_token))
+{
+	$admin_mode = true;
+}
+else
+{
+	$admin_mode = false;
+}
+
+$question_tag_format = "question_%02d";
+
+echo "<form action=\"$action\" method=\"post\">";
+$question_count = 0;
+foreach ($lotteria["Domande"] as $domanda)
+{
+	$question_tag = sprintf($question_tag_format,$question_count);
+	
+	echo "$domanda[$indice_question_caption]\n";
+	
+	switch ($domanda[$indice_question_tipo])
+	{
+	case "free_number":
+	case "free_string":
+		echo "<input name=\"$question_tag\" type=\"edit\">\n";
+		break;
+	case "fixed":
+		// determina le varie risposte possibili
+		$gruppi_domande = split(",",$domanda[$indice_question_gruppo]);
+		$voci = array();
+		foreach($gruppi_domande as $gruppo_domande)
+		{
+			$voci = array_merge($lotteria[$gruppo_domande],$voci);
+		}
+		
+		echo "<select name=\"$question_tag\" >\n";
+		foreach($voci as $voce)
+		{
+		if ($_REQUEST[$question_tag] === $voce[0])
+			{
+				$default_tag = " selected";
+			}
+			else
+			{
+				$default_tag = "";
+			}
+			echo "<option$default_tag>$voce[0]</option>\n";
+		}
+		echo "</select>\n";
+		break;
+	}
+	echo "<br>\n\n";
+	
+	$question_count++;
+}
+
+echo "<input type=\"hidden\" name=\"id_questions\" value=\"$id_questions\">\n";
+echo "<input type=\"hidden\" name=\"action\" value=\"$question_action\">\n";
+if ($admin_mode)
+{
+	echo "<br>\n";
+	echo "Data di ricezione giocata (hh:mm gg/mm/aaaa):<input type=\"edit\" name=\"data_giocata\"><br>\n";
+	echo "<br>\n";
+	echo "Chiave segreta:<input type=\"edit\" name=\"auth_token\" value=\"\"><br>\n";
+}
+else
+{
+	echo "<input type=\"hidden\" name=\"auth_token\" value=\"$auth_token\"><br>\n";
+}
+echo "<br>";
+echo "<input type=\"submit\" value=\"$caption_button\"/>";
+
+echo "</form>\n";
+} // end function show_question_form()
+
+
+function create_key_files($id_questions,$num_files,$num_keys,$num_key_chars) {
+
+# dichiara variabili
+extract(indici());
+
+$key_filename_format = sprintf($questions_dir."lotteria_%03d",$id_questions)."_keys_%03d.php";	// formato dei file di chiavi
 $count = 0;
 while ($count < $num_files)
 {
-	$numero_chiavi = $num_keys[$count];
+	$numero_chiavi = $num_keys[$count];		// numero di chiavi file count-esimo
+	$numero_caratteri = $num_key_chars[$count];	// numero di caratteri per ciascuna chiave (max 30)
+	
 	$key_filename = sprintf($key_filename_format,$count);
-	echo "Gestione file di chiavi ".($count+1)." ($key_filename): $numero_chiavi chiavi da generare.<br>\n";
+	echo "Gestione file di chiavi ".($count+1)." ($key_filename): $numero_chiavi chiavi (di $numero_caratteri caratteri) da generare...<br>\n";
 	
 	// scrivi il file $count-esimo
-	$cf = fopen($key_filename, 'w');
-	for ($i = 0; $i < $numero_chiavi; $i++)
+	$cf = fopen($key_filename, 'x');
+	if ($cf)
 	{
-		$line = md5($count.$i.time())."\r\n";
-		//echo $line."<br>";
-		fwrite($cf, $line);
+		for ($i = 0; $i < $numero_chiavi; $i++)
+		{
+			$chiave = substr(md5($count.$i.time()),0,$numero_caratteri);
+			$line = $chiave."\r\n";
+			fwrite($cf, $line);
+		}
+		fclose($cf);
 	}
-	fclose($cf);
+	else
+	{
+		return 0;
+	}
 	
 	$count++;
 }
 
 echo "Fatto.<br>\n";
+
+return 1;
 
 } // end function create_key_files
 
@@ -1292,7 +1452,7 @@ function get_question_keys($id_questions) {
 # dichiara variabili
 extract(indici());
 
-$key_filename_format = sprintf($questions_dir."lotteria_%03d",$id_questions)."_keys_%03d.txt";	// formato dei file di chiavi
+$key_filename_format = sprintf($questions_dir."lotteria_%03d",$id_questions)."_keys_%03d.php";	// formato dei file di chiavi
 
 $ancora = 1;
 $count = 0;
@@ -1331,7 +1491,7 @@ foreach ($allowed_keys as $bunch_id => $key_bunch)
 		{
 			if (empty($found_key))
 			{
-				$found_key = array($bunch_id,$count);
+				$found_key = array($bunch_id,$count,$key_line);
 			}
 			else
 			{
@@ -1343,6 +1503,86 @@ foreach ($allowed_keys as $bunch_id => $key_bunch)
 }
 return $found_key;
 } // end function check_question_keys
+
+
+function get_giocata($id_questions,$auth_token)
+{
+	$file_log_questions = $root_path."custom/lotterie/lotteria_".sprintf("%03d",$id_questions)."_log.txt";	// nome del file di registrazione
+	$bulk = get_config_file($file_log_questions);
+	
+	$result = array();
+	$count_giocata = 0;
+	foreach($bulk['default'] as $giocata)
+	{
+		if ($giocata[3] === $auth_token)
+		{
+			array_push($result,$giocata);
+		}
+		$count_giocata++;
+	}
+
+	return $result;
+}
+
+
+function show_giocate($giocate)
+{
+	echo '<table border=1><tbody>';
+
+	$count_giocata = 0;
+	foreach($giocate as $giocata)
+	{
+		echo "<tr>";
+		echo "<td>".($count_giocata+1)."</td>\n";
+		echo "<td>".$giocata[0]."</td>\n";
+		//echo "<td>".$giocata[1]."</td>\n";
+		echo "<td>".$giocata[2]."</td>\n";
+		echo "<td>".$giocata[3]."</td>\n";
+		echo "</tr>";
+		$count_giocata++;
+	}
+	
+	echo "</tbody></table>";
+}
+
+
+function sort_masked(&$giocata_array,$sort_mask,$sort_flag = SORT_ASC)
+{
+	$list = array_keys($sort_mask,1);
+	
+	$arr = array();
+	foreach ($list as $indice)
+	{
+		array_push($arr,$giocata_array[$indice]);
+	}
+	
+	$arr_sort = $arr;
+	
+	switch ($sort_flag)
+	{
+	case SORT_ASC:
+		rsort($arr_sort);
+		break;
+	case SORT_DESC:
+		asort($arr_sort);
+		break;
+	default:
+		die("sort_masked(): unrecognized sort_flag = $sort_flag!");
+	}
+	
+	foreach ($sort_mask as $id => $sort_flag)
+	{
+		if ($sort_flag == 1)
+		{
+			$valore_giocata = array_pop($arr_sort);
+		}
+		else
+		{
+			$valore_giocata = $giocata_array[$id];
+		}
+		$giocata_array[$id] = $valore_giocata;
+	}
+} // end function sort_masked()
 
 
 //Page properties definitions
