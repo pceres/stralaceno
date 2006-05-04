@@ -68,7 +68,8 @@ presentazione::Cos'&egrave; la Stralaceno::modulo_custom::::
 # :: ::separatore::::
 albo_d_oro::Albo d'oro::tempi::::
 regolamento::Stralcio regolamento::modulo_custom::::
-organizzatori::Gli organizzatori::modulo_custom::::
+#organizzatori::Gli organizzatori::modulo_custom::::
+link_sito_ARS::Gli organizzatori::external_link::http://ars.altervista.org/::::
 lettere_stralaceno::Lettere alla Stralaceno::modulo_custom::::
 #pregfas::Pregfas::modulo_custom::::Pagina in allestimento!
 
