@@ -1,20 +1,12 @@
-Autore::ARS
-Titolo::I numeri della Stralaceno
+Autore::
+Titolo::XVII  edizione
 --- Begin body ---
 <p>
-  Diamo un'occhiata ai numeri delle 17 edizioni della Stralaceno finora disputate.
-<ul>
-   <li>Numero totale di partecipanti:  192, di cui 18 donne;</li>
-   <li>Edizione con maggior numero di concorrenti:  anno 2001 (58  iscritti);</li>
-   <li>Edizione con minor numero di concorrenti:  anno 1987 e anno 1991 (10 iscritti);</li>
-   <li>Edizione con maggior numero di donne:  anno 2004 (8 iscritte);</li>
-   <li>Maggior numero di vittorie:  11 (Gelsomino Merola n.11);</li>
-   <li>Record cronometrico della manifestazione:  18' 47'' (Gelsomino Merola n.11);</li>
-   <li>Record cronometrico femminile della manifestazione: 30' 34'' (Federica Ceres n.156);</li>
-   <li>Atleti con record personale inferiore a 25' 00'':  63;</li>
-   <li>Maggior numero di partecipazioni: 16 (Nicola D'Auria n.2);</li>
-   <li>Atleti giunti fuori tempo massimo: 1 (edizione 2003);</li>
-   <li>Ritirati: 16;</li>
-   <li>Squalificati: 3.</li>
-</ul>
+L'edizione 2005 della STRALACENO si terr&agrave; venerd&igrave; 2 SETTEMBRE.
+<p>
+Il raduno e la conferma dell'iscrizione sono previsti a partire dalle ore 17.00 nell'area antistante l'hotel 4 camini; il "via" per le 18.15, indipendentemente dalle condizioni meteorologiche. Tutti coloro che vorranno partecipare alla manifestazione saranno ben accetti, a prescindere dal loro livello tecnico, purch&egrave; animati da autentico spirito sportivo.
+<p>
+I corridori percorreranno l'itinerario previsto assumendosene personalmente la responsabilit&agrave; in caso di malori, infortuni ed altri contrattempi. Per i minorenni si richiede il consenso scritto dei genitori; saranno ammessi tutti i nati entro il 31/12/1990.
+<p>
+Per ulteriori informazioni &egrave; possibile rivolgersi a Donatello Cirillo, Nicola D'Auria, Alessandro Russomanno, Lello Viscardi.
 --- End body ---

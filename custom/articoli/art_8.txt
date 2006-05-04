@@ -1,13 +1,20 @@
-Autore::ARS
-Titolo::Risultati XVII edizione
+Autore::
+Titolo::I numeri della Stralaceno
 --- Begin body ---
 <p>
-La XVII edizione della Stralaceno, con 49 partecipanti al via, si &egrave; conclusa con la vittoria di Francesco Ceres (di Giuseppe) con il tempo di 21'45''. Il vincitore, classe 1988 (non ancora nato all'epoca della I edizione della Stralaceno), alla sua prima partecipazione, ha preceduto di 7'' Gerardo Martino, altra sorpresa positiva della manifestazione. Terzo Rocco Proietto con il tempo di 22'04''.
-Prima della donne Angela Aiello, che ha completato il percorso in 36'06''.
-<a href="filtro4.php?anno=2005">L'ordine d'arrivo completo dell'edizione 2005 &egrave; consultabile qui</a>.
-L'album fotografico della Stralaceno 2005 &egrave; disponibile <a href="album.php?anno=2005">qui</a> 
-<p>&nbsp;
-<div align="center">
-<img id="foto" src="%file_root%custom/album/2005/dscn3877.jpg" alt="Partenza della XVII edizione" border="0" width="420">
-</div>
+  Diamo un'occhiata ai numeri delle 17 edizioni della Stralaceno finora disputate.
+<ul>
+   <li>Numero totale di partecipanti:  192, di cui 18 donne;</li>
+   <li>Edizione con maggior numero di concorrenti:  anno 2001 (58  iscritti);</li>
+   <li>Edizione con minor numero di concorrenti:  anno 1987 e anno 1991 (10 iscritti);</li>
+   <li>Edizione con maggior numero di donne:  anno 2004 (8 iscritte);</li>
+   <li>Maggior numero di vittorie:  11 (Gelsomino Merola n.11);</li>
+   <li>Record cronometrico della manifestazione:  18' 47'' (Gelsomino Merola n.11);</li>
+   <li>Record cronometrico femminile della manifestazione: 30' 34'' (Federica Ceres n.156);</li>
+   <li>Atleti con record personale inferiore a 25' 00'':  63;</li>
+   <li>Maggior numero di partecipazioni: 16 (Nicola D'Auria n.2);</li>
+   <li>Atleti giunti fuori tempo massimo: 1 (edizione 2003);</li>
+   <li>Ritirati: 16;</li>
+   <li>Squalificati: 3.</li>
+</ul>
 --- End body ---

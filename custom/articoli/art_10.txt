@@ -1,10 +1,13 @@
 Autore::
-Titolo::La I edizione del 1987
+Titolo::Sito ARS
 --- Begin body ---
-<br>
-<div align="center">
-<img id="foto_edizione_1987" src="%file_root%custom/album/1987/I%20edizione.jpg" alt="I partecipanti alla I edizione" border="0" width="420">
-</div>
 <p>
-I dieci partecipanti della prima edizione decisero di fare una foto di gruppo subito dopo la gara. L'intima convinzione dei più era, infatti, che la bella iniziativa non si sarebbe potuta ripetere facilmente. La foto conferma inoltre una regola ferrea:  fotogenia e iconocentrismo non sempre sono sostenuti da performance adeguate...
+&Egrave; on line il sito dell'ARS Amatori Running Sele:
+<a href="http://ars.altervista.org"><b>http://ars.altervista.org</b></a>
+<br>
+dove troverete il Sondaggio sui Mondiali di Calcio 2006.
+<p>&nbsp;
+<div align="center">
+<img id="foto" src="%file_root%custom/album/generico1/retro.gif" alt="" border="0" width="200">
+</div>
 --- End body ---
