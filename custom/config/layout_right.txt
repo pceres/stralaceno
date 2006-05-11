@@ -73,5 +73,5 @@ link2_lotteria_mondiali_2006::Sondaggio Mondiali 2006::external_link::questions.
 [Login]
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Login] non prevede sottoelementi
 
-#[Pagine in preparazione]
-#link_lotteria_mondiali_2006::Sondaggio Mondiali 2006::external_link::questions.php?id_questions=1::::
+[Pagine in preparazione]
+statistiche_mondiali_2006::Statistiche Sondaggio Mondiali 2006::external_link::statistiche.php?action=show&amp;id_questions=1::
