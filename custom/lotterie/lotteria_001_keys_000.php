@@ -27,7 +27,7 @@ a9c634a2d4b1::Paolo Viscardi::Rocco Del Malandrino::30/04/2006
 cd5e94724071::Paolo Viscardi::Ernesto Donatiello::30/04/2006
 99169d562310::Paolo Viscardi::Nicola Ciccone::30/04/2006
 4c190ba0be83::Paolo Viscardi::Gerardo Russomanno di Raffaele::30/04/2006
-3869d97e20a6::Paolo Viscardi::Gerado Donatiello::30/04/2006
+3869d97e20a6::Paolo Viscardi::Gerardo Donatiello::30/04/2006
 a29f26aa468b
 444f85d955b0
 04fd9802afbb
@@ -151,9 +151,9 @@ fe35f3e39b4a
 eb13bc715192::Alessandro Russomanno::Gerardo Grasso::27/04/2006
 7d0d7a52c32e::Alessandro Russomanno::Rocco Feniello::28/04/2006
 8e7ae51e4ff5::Alessandro Russomanno::Rocco Proietto::28/04/2006
-522b3edc2c8f::Alessandro Russomanno::Lello Viscardi::29/04/06
-393771f9bca0::Alessandro Russomanno::Salvatore Fuschetto::29/04/06
-00ce09f7e08e::Alessandro Russomanno::Salvatore Conforti::29/04/06
+522b3edc2c8f::Alessandro Russomanno::Lello Viscardi::29/04/2006
+393771f9bca0::Alessandro Russomanno::Salvatore Fuschetto::29/04/2006
+00ce09f7e08e::Alessandro Russomanno::Salvatore Conforti::29/04/2006
 66edc19bbc99::Alessandro Russomanno::Benedetto Montanari::01/05/2006
 0e645e8b2032
 57b67583d861
