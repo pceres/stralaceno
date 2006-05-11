@@ -126,7 +126,12 @@ function occurrencies(ago,pagliaio)
 function check_input(f)
 {
 // Questa funzione verifica la correttezza della giocata prima di inviare i dati per il salvataggio
-
+	
+	index_check_gironi_ok = 0;
+	allow_errors = new Array; // 0 -> l'errore non permette il salvataggio; 1 -> viene visualizzato soltanto un warning
+	
+	allow_errors[index_check_gironi_ok] = 0; // mettere a 0 per impedire di giocare con un errore alla regola "due squadre per ciascun girone"
+	
 	list = new Array;
 	for (ii = 0; ii < f.elements.length; ii++)
 	{
@@ -215,6 +220,7 @@ function check_input(f)
 		}
 		
 	}
+	
 	// visualizza messaggio d'errore nel caso non siano indicate 2 squadre per girone
 	if (gironi_errati)
 	{
@@ -234,7 +240,10 @@ function check_input(f)
 			}
 		}
 		alert(msg);
-		return false;
+		if ((!0<?php echo $admin_mode; ?>) | (!allow_errors[index_check_gironi_ok]))
+		{
+			return false;
+		}
 	}
 	
 	
