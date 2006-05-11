@@ -161,6 +161,7 @@ echo "$titolo_pagina<br>\n";
 if ($_REQUEST['debug']=='full')
 {
 	show_table($elenco_giocate,$mask,'tabella',1,12,1); # tabella in una colonna, font 12, con note
+	echo "<br><hr><br>";
 }
 
 
