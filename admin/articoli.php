@@ -186,7 +186,7 @@ for ($i = 0; $i < count($art_id); $i++)
 	$art_data = load_article($art_id[$i]);
 	chdir('admin');
 	
-	$art_bulk[$i] = $art_data;
+	$art_bulk[$art_id[$i]] = $art_data;
 }
 
 if (count($art_id) > 0)
@@ -257,13 +257,13 @@ for ($i = 0; $i < count($art_id); $i++)
 		$posiz = "-";
 	}
 	echo "\t\t\t<td>$posiz</td>\n";
-
-	echo "\t\t\t<td>".$art_bulk[$id-1]['titolo']."</td>\n";
-
-	echo "\t\t\t<td>".$art_bulk[$id-1]['autore']."</td>\n";
-
+	
+	echo "\t\t\t<td>".$art_bulk[$id]['titolo']."</td>\n";
+	
+	echo "\t\t\t<td>".$art_bulk[$id]['autore']."</td>\n";
+	
 	echo "\t\t\t<td><input type=\"checkbox\" onClick=\"return do_action('cancel',$id)\"></td>\n";
-
+	
 	echo "\t\t\t<td><input type=\"checkbox\" onClick=\"return do_action('edit',$id)\"></td>\n";
 	
 	echo "\t\t</tr>\n";
@@ -297,7 +297,7 @@ gestione articoli online
 			{
 				$id = $art_id[$i]; // id dell'articolo visualizzato sulla riga
 				if (!in_array($id,$art_online_id))
-					echo "\t\t\t\t<option value=\"".$id."\"> (id ".$id.") ".$art_bulk[$id-1]['titolo']."</option>\n";
+					echo "\t\t\t\t<option value=\"".$id."\"> (id ".$id.") ".$art_bulk[$id]['titolo']."</option>\n";
 			}
 			?>
 			</select>
@@ -312,7 +312,7 @@ gestione articoli online
 				{
 					$id = $art_id[$i]; // id dell'articolo visualizzato sulla riga
 					if (in_array($id,$art_online_id))
-						echo "\t\t\t\t<option value=\"".$id."\"> (id ".$id.") ".$art_bulk[$id-1]['titolo']."</option>\n";
+						echo "\t\t\t\t<option value=\"".$id."\"> (id ".$id.") ".$art_bulk[$id]['titolo']."</option>\n";
 				} 
 ?>			</select>
 			<br>
