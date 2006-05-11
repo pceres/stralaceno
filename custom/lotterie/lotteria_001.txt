@@ -172,6 +172,34 @@ Trinidad e Tobago
 Tunisia
 Ucraina
 
+#
+# Formato riga [statistiche_list]:
+# tag_statistica::tipo_statistica::caption::dati1::dati2::...::datin
+#	tag_statistica: 		: identificativo unico per la singola statistica
+#	tipo_statistica			: stat_domanda (analizza la ripartizione delle risposte ad una o piu' domande)
+#					: stat_risposta ()
+#	caption				: testo visualizzato relativamente alla statistica
+#
+#	significato di dati1::dati2::...::datin
+#		stat_domanda:
+#			<elenco_domande_equiv>
+#			elenco_domande_equiv:[1,2,3,..,num_domande]+ domande da considerare equivalenti, e da analizzare congiuntamente
+#
+#		stat_risposta:
+#			<elenco_squadre_equiv>
+#			elenco_squadre_equiv:[rispostaA,rispostaB,...]+ risposte da considerare equivalenti, e da analizzare congiuntamente
+#
+[statistiche_list]
+question_tag_C::stat_domanda::Squadra <span class="hi">campione del mondo</span>::squadra::numero preferenze::31
+question_tag_F::stat_domanda::Squadra qualificata in <span class="hi">finale</span>::squadra::numero preferenze::29,30
+question_tag_S::stat_domanda::Squadra qualificata in <span class="hi">semifinale</span>::squadra::numero preferenze::25,26,27,28
+question_tag_W::stat_domanda::Squadra qualificata ai <span class="hi">quarti di finale</span>::squadra::numero preferenze::17,18,19,20,21,22,23,24
+question_tag_Q::stat_domanda::Squadra qualificata agli <span class="hi">ottavi di finale</span>::squadra::numero preferenze::1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+Italia::stat_risposta::Posizionamento <span class="hi">Italia</span>::posizione in classifica::numero preferenze::Italia::31;29,30;25,26,27,28;17,18,19,20,21,22,23,24;1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16::Campione del mondo;Qualificato in finale;Qualificato in semifinale;Qualificato ai quarti di finale;Qualificato agli ottavi di finale
+Brasile::stat_risposta::Posizionamento <span class="hi">Brasile</span>::posizione in classifica::numero preferenze::Brasile::31;29,30;25,26,27,28;17,18,19,20,21,22,23,24;1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16::Campione del mondo;Qualificato in finale;Qualificato in semifinale;Qualificato ai quarti di finale;Qualificato agli ottavi di finale
+Germania::stat_risposta::Posizionamento <span class="hi">Germania</span>::posizione in classifica::numero preferenze::Germania::31;29,30;25,26,27,28;17,18,19,20,21,22,23,24;1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16::Campione del mondo;Qualificato in finale;Qualificato in semifinale;Qualificato ai quarti di finale;Qualificato agli ottavi di finale
+
+
 [Gruppo Girone A]
 Germania
 Costa Rica
