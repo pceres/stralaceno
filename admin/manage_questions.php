@@ -160,7 +160,8 @@ case 'edit':
 	
 	// visualizzazione di tutte le giocate
 	echo "<hr>";
-	echo "<a href=\"manage_questions.php?task=show_giocate&amp;data=$id_questions\">Visualizza giocate</a>";
+	echo "<a href=\"manage_questions.php?task=show_giocate&amp;data=$id_questions\">Visualizza giocate grezze</a><br>\n";
+	echo "<a href=\"../questions.php?action=results&id_questions=$id_questions&debug=full\">Visualizza giocate ordinate</a>";
 	
 	// gestione supplementare files di chiavi
 	if ($lotteria_auth == 'key')
