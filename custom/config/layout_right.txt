@@ -91,3 +91,4 @@ link_lotteria_mondiali_2006::Sondaggio Mondiali 2006::external_link::questions.p
 
 [Pagine in preparazione]
 pregfas::Registro Fanfaroni (Pregfas)::modulo_custom::::
+statistiche_mondiali_2006::Statistiche Sondaggio Mondiali 2006::external_link::statistiche.php?action=show&amp;id_questions=1::
