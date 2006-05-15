@@ -1,8 +1,8 @@
 Autore::Paolo Viscardi
 Titolo::La prima svolta
 --- Begin body ---
-<p>Il 23 aprile, a Napoli, si &egrave; svolta la settima edizione di NapoliMarathon, divisa in tre categorie: maratona, maratonina e stracittadina.<br>
-Gli iscritti alla maratona erano 497, alla maratonina 1002, alla stracittadina di 5 Km circa 3.000 (per iscritti si intende quelli che hanno raggiunto il traguardo entro il tempo massimo).<br>
+<p>Il 23 aprile 2006, a Napoli, si &egrave; svolta la settima edizione di NapoliMarathon, divisa in tre categorie: maratona, maratonina e stracittadina.<br>
+Gli iscritti alla maratona erano 497, alla maratonina 1002, alla stracittadina di 5 Km circa 3000 (per iscritti si intende quelli che hanno raggiunto il traguardo entro il tempo massimo).<br>
 Come ben sapete, la maratona si svolge su un percorso di 42,195 Km; mentre la mezza maratona viene svolta su un percorso di 21,097 Km, vale a dire 42,195/2.<p>
  
 Se volete sapere in che modo si &egrave; conclusa la gara, basta seguire i giornali in edicola, oppure visitare qualche sito, tra cui quello ufficiale www.napolimarathon.it.<br>
