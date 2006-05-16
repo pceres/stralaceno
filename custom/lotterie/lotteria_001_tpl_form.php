@@ -239,7 +239,8 @@ function check_input(f)
 			}
 		}
 		alert(msg);
-		if ((!0<?php echo $admin_mode; ?>) | (!allow_errors[index_check_gironi_ok]))
+		// se non sei in admin_mode, e non e' consentito violare la regola "2 squadre per girone", esci senza salvare
+		if ((!0<?php echo $admin_mode; ?>) & (!allow_errors[index_check_gironi_ok]))
 		{
 			return false;
 		}
