@@ -240,7 +240,8 @@ function check_input(f)
 			}
 		}
 		alert(msg);
-		if ((!0<?php echo $admin_mode; ?>) | (!allow_errors[index_check_gironi_ok]))
+		// se non sei in admin_mode, e non e' consentito violare la regola "2 squadre per girone", esci senza salvare
+		if ((!0<?php echo $admin_mode; ?>) & (!allow_errors[index_check_gironi_ok]))
 		{
 			return false;
 		}
@@ -1400,7 +1401,7 @@ if (!empty($nominativo)) { ?>
 
 </TD>
 			<TD ALIGN=LEFT><BR></TD>
-			<TD ALIGN=LEFT BGCOLOR="#FFFF99">30/06 h. 17</TD>
+			<TD ALIGN=LEFT BGCOLOR="#FFFF99">04/07 h. 21</TD>
 			<TD ALIGN=LEFT BGCOLOR="#FFFF99">Dortmund</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFFF99">S1-S2 (F1)</TD>
 		</TR>
@@ -1575,7 +1576,7 @@ if (!empty($nominativo)) { ?>
 
 </TD>
 			<TD ALIGN=LEFT><BR></TD>
-			<TD ALIGN=LEFT BGCOLOR="#FFFF99">30/06 h. 21</TD>
+			<TD ALIGN=LEFT BGCOLOR="#FFFF99">05/07 h. 21</TD>
 			<TD ALIGN=LEFT BGCOLOR="#FFFF99">Munich</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFFF99">S3-S4 (F2)</TD>
 		</TR>
