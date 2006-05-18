@@ -63,6 +63,7 @@ Pagine in preparazione::users
 
 [Approfondimenti]
 link2_lotteria_mondiali_2006::Sondaggio Mondiali 2006::external_link::questions.php?id_questions=1::::
+#rendiconto_2005_ARS::Rendiconto e relazione ARS 2005::external_link::custom/moduli/organizzatori/Rendiconto_e_Relazione_anno_2005_ARS.pdf
 
 [Amministrazione]
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Amministrazione] non prevede sottoelementi
@@ -74,4 +75,4 @@ link2_lotteria_mondiali_2006::Sondaggio Mondiali 2006::external_link::questions.
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Login] non prevede sottoelementi
 
 [Pagine in preparazione]
-statistiche_mondiali_2006::Statistiche Sondaggio Mondiali 2006::external_link::statistiche.php?action=show&amp;id_questions=1::
+statistiche_mondiali_2006::Statistiche Sondaggio Mondiali 2006::external_link::statistiche.php?action=show&id_questions=1::
