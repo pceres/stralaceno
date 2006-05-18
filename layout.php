@@ -246,7 +246,7 @@ if ($item_type != 'modulo')
 		$item_link = $layout_item[$indice_layout_data];
 		
 		// nel file di configurazione &amp; viene sostituito da "&", ma nella pagina html ci vuole "&amp;" per validare come W3C
-		$item_link = str_replace("&","&amp;",$item_link).",";
+		$item_link = str_replace("&","&amp;",$item_link);
 		
 		$item_name = $layout_item[$indice_layout_name];
 		$item_caption = $layout_item[$indice_layout_caption];
