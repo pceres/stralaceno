@@ -17,3 +17,5 @@ giuseppe::a04093449efb3aaa937c0d881e74edb5::users,soci_ars
 lello::5c03e87c4e938e3de673ecba916ec7a6::users,soci_ars
 paolo::491c7df7124c75d09dbd906d1cc74aaf::users,soci_ars
 martino::5a682d4fe8da9adc95a383742ea30c59::users,soci_ars
+nicola.cirillo::0d4f9d4cb7e6ed8ecbaad6fd16117581::users,soci_ars
+rocco.proietto::7e3217beee39079a345d9b600ebd3b84::users,soci_ars
