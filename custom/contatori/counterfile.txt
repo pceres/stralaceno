@@ -7,7 +7,8 @@ admin_edit_config:18
 admin_upload_articoli:6
 modulo_organizzatori:9
 admin_articoli:25
-modulo_presentazione:10
-admin_index:81
-homepage:207
-questions:113
+modulo_presentazione:11
+statistiche:7
+admin_index:89
+homepage:230
+questions:130
