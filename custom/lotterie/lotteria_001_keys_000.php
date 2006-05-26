@@ -26,8 +26,8 @@ ace7c3dfa9c5::Paolo Viscardi::Massimo Ruglio::30/04/2006
 a9c634a2d4b1::Paolo Viscardi::Rocco Del Malandrino::30/04/2006
 cd5e94724071::Paolo Viscardi::Ernesto Donatiello::30/04/2006
 99169d562310::Paolo Viscardi::Nicola Ciccone::30/04/2006
-4c190ba0be83::Paolo Viscardi::Gerardo Russomanno di Raffaele::30/04/2006
-3869d97e20a6::Paolo Viscardi::Gerardo Donatiello::30/04/2006
+4c190ba0be83::Paolo Viscardi::Gerardo Russomanno di Raff.::30/04/2006
+3869d97e20a6::Paolo Viscardi::Claudio Donatiello::30/04/2006
 a29f26aa468b
 444f85d955b0
 04fd9802afbb
@@ -59,7 +59,7 @@ a634a26a8762::Nicola DAuria::Michele Cuozzo::18/04/2006
 2a3a56597aa3::Nicola DAuria::Raffaele Sista::19/04/2006
 1b731c1bec7b::Nicola DAuria::Eugenio Russomanno::19/04/2006
 bf2efc7eb94a::Pasquale Ceres::Raffaele Nigro::16/04/2006
-a7b6a55bdc09
+a7b6a55bdc09::Pasquale Ceres::Giuseppina Nigro::12/05/2006
 a5de8e3a0932
 8baa0f87459c
 b348e1a33fcf
