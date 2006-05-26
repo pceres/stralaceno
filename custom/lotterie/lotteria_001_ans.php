@@ -4,65 +4,65 @@
 # Se una partita non e' stata ancora disputata, inserire la risposta convenzionale "nd".
 #
 
-#dummyQ1
+# Qualificato ottavi 1 :
 nd
-#dummyQ2
+# Qualificato ottavi 2:
 nd
-#dummyQ3
+# Qualificato ottavi 3:
 nd
-#dummyQ4
+# Qualificato ottavi 4:
 nd
-#dummyQ5
+# Qualificato ottavi 5:
 nd
-#dummyQ6
+# Qualificato ottavi 6:
 nd
-#dummyQ7
+# Qualificato ottavi 7:
 nd
-#dummyQ8
+# Qualificato ottavi 8:
 nd
-#dummyQ9
+# Qualificato ottavi 9:
 nd
-#dummyQ10
+# Qualificato ottavi 10:
 nd
-#dummyQ11
+# Qualificato ottavi 11:
 nd
-#dummyQ12
+# Qualificato ottavi 12:
 nd
-#dummyQ13
+# Qualificato ottavi 13:
 nd
-#dummyQ14
+# Qualificato ottavi 14:
 nd
-#dummyQ15
+# Qualificato ottavi 15:
 nd
-#dummyQ16
+# Qualificato ottavi 16:
 nd
-#dummyW1
+# Qualificato quarti 1:
 nd
-#dummyW2
+# Qualificato quarti 2:
 nd
-#dummyW3
+# Qualificato quarti 3:
 nd
-#dummyW4
+# Qualificato quarti 4:
 nd
-#dummyW5
+# Qualificato quarti 5:
 nd
-#dummyW6
+# Qualificato quarti 6:
 nd
-#dummyW7
+# Qualificato quarti 7:
 nd
-#dummyW8
+# Qualificato quarti 8:
 nd
-#dummyS1
+# Qualificato semifinale 1:
 nd
-#dummyS2
+# Qualificato semifinale 2:
 nd
-#dummyS3
+# Qualificato semifinale 3:
 nd
-#dummyS4
+# Qualificato semifinale 4:
 nd
-#dummyF1
+# Qualificato finale 1:
 nd
-#dummyF2
+# Qualificato finale 2:
 nd
-#dummyC
+# Campione del mondo:
 nd
