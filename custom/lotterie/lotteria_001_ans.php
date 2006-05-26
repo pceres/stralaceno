@@ -3,65 +3,65 @@
 # Il numero di righe non commentate deve coincidere con le domande della lotteria. 
 # Se una partita non e' stata ancora disputata, inserire la risposta convenzionale "nd".
 #
-#Germania
+# Qualificato ottavi 1 :
 nd
-#Polonia
+# Qualificato ottavi 2:
 nd
-#Inghilterra
+# Qualificato ottavi 3:
 nd
-#Svezia
+# Qualificato ottavi 4:
 nd
-#Argentina
+# Qualificato ottavi 5:
 nd
-#Olanda
+# Qualificato ottavi 6:
 nd
-#Portogallo
+# Qualificato ottavi 7:
 nd
-#Messico
+# Qualificato ottavi 8:
 nd
-#Italia
+# Qualificato ottavi 9:
 nd
-#Repubblica Ceca
+# Qualificato ottavi 10:
 nd
-#Brasile
+# Qualificato ottavi 11:
 nd
-#Australia
+# Qualificato ottavi 12:
 nd
-#Francia
+# Qualificato ottavi 13:
 nd
-#Svizzera
+# Qualificato ottavi 14:
 nd
-#Spagna
+# Qualificato ottavi 15:
 nd
-#Ucraina
+# Qualificato ottavi 16:
 nd
-#Germania
+# Qualificato quarti 1:
 nd
-#Argentina
+# Qualificato quarti 2:
 nd
-#Italia
+# Qualificato quarti 3:
 nd
-#Francia
+# Qualificato quarti 4:
 nd
-#Inghilterra
+# Qualificato quarti 5:
 nd
-#Olanda
+# Qualificato quarti 6:
 nd
-#Brasile
+# Qualificato quarti 7:
 nd
-#Spagna
+# Qualificato quarti 8:
 nd
-#Germania
+# Qualificato semifinale 1:
 nd
-#Italia
+# Qualificato semifinale 2:
 nd
-#Inghilterra
+# Qualificato semifinale 3:
 nd
-#Brasile
+# Qualificato semifinale 4:
 nd
-#Germania
+# Qualificato finale 1:
 nd
-#Brasile
+# Qualificato finale 2:
 nd
-#Brasile
+# Campione del mondo:
 nd
