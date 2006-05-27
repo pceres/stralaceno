@@ -15,7 +15,7 @@
 #	data_presentazione_risultati	: hh:mm gg/mm/aaaa
 #
 [Attributi]
-Sondaggio Mondiali di Calcio 2006::attiva::key::00:00 20/02/2006::18:00 08/06/2006::00:00 10/07/2006
+Sondaggio Mondiali di Calcio 2006::attiva::key::00:00 20/04/2005::18:00 08/06/2005::18:00 08/06/2005
 
 #
 # msg1::msg2::msg3
@@ -24,7 +24,7 @@ Sondaggio Mondiali di Calcio 2006::attiva::key::00:00 20/02/2006::18:00 08/06/20
 #	msg3: visualizzato dopo la chiusura delle giocate
 #
 [msg_date]
-La lotteria non &egrave; ancora aperta. Potrai giocare dalle 00:00 del 20/04::Si pu&ograve; giocare dalle 00:00 del 20/04 alle 18:00 del 08/06::Le giocate sono chiuse, la classifica con il nome del vincitore sar&agrave; visibile  il 10/07
+La lotteria non &egrave; ancora aperta. Potrai giocare dalle 00:00 del 20/04::Si pu&ograve; giocare dalle 00:00 del 20/04 alle 18:00 del 08/06::Le giocate sono chiuse, la classifica &egrave; disponibile qui sotto
 
 #
 # Formato riga [keyfiles]:
