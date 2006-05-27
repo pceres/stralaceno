@@ -15,7 +15,7 @@
 #	data_presentazione_risultati	: hh:mm gg/mm/aaaa
 #
 [Attributi]
-Sondaggio Mondiali di Calcio 2006::attiva::key::00:00 20/04/2005::18:00 08/06/2005::18:00 08/06/2005
+Sondaggio Mondiali di Calcio 2006::attiva::key::00:00 20/04/2006::18:00 08/06/2006::18:00 08/06/2006
 
 #
 # msg1::msg2::msg3
