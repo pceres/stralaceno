@@ -1288,7 +1288,10 @@ function show_template($template_file)
 					$arr_template = array();
 					for ($i=0; $i<count($item); $i++)
 					{
-						array_push($arr_template,"%field$i%");
+						array_push($arr_template,"%field$i%");		// vettore dei nomi simbolici %field0%,%field1%,ecc
+						
+						// sostituisci i nomi %file_root%,ecc con l'effettivo testo
+						$item[$i] = template_to_effective($item[$i]);
 					}
 					echo str_replace($arr_template, $item, $template);
 				}
@@ -1795,17 +1798,19 @@ $contatore_out = $counter;
 	 
 	if ($id<999)                                                    //Just in case all the back log file names are used
     {
-      $report.="A backup has been done to $backupfilename.\r\n";
+      $report.="A backup has been done to $backupfilename on ".date("l dS of F Y h:i:s A").".\r\n";
       $logs = file($logfile);                            //read all long entries in a array
       $nb_entry = count($logs);                          //how many entries do we have ?
       reset($logs);
       $bf=fopen($backupfilename,'w');                    //open backup file to write
       $lf=fopen($logfile,'w');                           //open original log file for rewriting
-      for ($i=0;$i<$nb_entry*10/10; $i++) fwrite($bf, $logs[$i]); //Store 100% of the logs in the back up
-      $report.="$i entries have been backed up. ".($nb_entry-$i)." are left in the logfile.\n";
+      for ($i=0;$i<$nb_entry; $i++) fwrite($bf, $logs[$i]); //Store 100% of the logs in the back up
+      $report.="$i entries have been backed up. ".($nb_entry-$i)." are left in the logfile $logfile.\n";
       while ($i<$nb_entry) {fwrite($lf, $logs[$i++]);}   //and leave what's left in the original file
       fclose($bf);                                       //close all
       fclose($lf);
+
+      log_action($path_prefix,$report);
     }
     else $report.="warning !!!! Cannot find an unique backup file name !!!";
 	
