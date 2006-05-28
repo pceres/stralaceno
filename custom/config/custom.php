@@ -22,7 +22,7 @@ $web_description = "Sito su Caposele";
 
 
 # campo meta-keywords (per i motori di ricerca)
-$web_keywords = "Stralaceno, Caposele, Caposelesi, Corsa podistica, Atletica, Lago Laceno, Laceno";
+$web_keywords = "Ars, Amatori Running Sele, Stralaceno, Caposele, Caposelesi, Corsa podistica, Atletica, Lago Laceno, Laceno";
 
 
 # indirizzo e-mail per contatti (stringa vuota se non e' disponibile)
