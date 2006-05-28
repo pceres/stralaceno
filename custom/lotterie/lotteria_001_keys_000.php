@@ -107,7 +107,7 @@ d6086b0fbe01::Alessandro Russomanno::Pasquale Grasso::20/04/2006
 e1aa8b67c7aa::Alessandro Russomanno::Thomas Cibellis::20/04/2006
 a08eb65807ec::Alessandro Russomanno::Gelsomino Merola di Vito::20/04/2006
 7e15283a884f::Alessandro Russomanno::Gerardo Mancino::20/04/2006
-dd81546726ec::Alessandro Russomanno::Gerardo Russomanno ::20/04/2006
+dd81546726ec::Alessandro Russomanno::Gerardo Russomanno::20/04/2006
 2ea4dad9aad5::Alessandro Russomanno::Gerardo Nisivoccia::21/04/2006
 d446bfd62480::Alessandro Russomanno::Salvatore Corona::21/04/2006
 72fa958d8c77::Alessandro Russomanno::Angelo Ceres di Mich.::21/04/2006
