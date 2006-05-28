@@ -50,7 +50,8 @@
 
 [elenco_moduli]
 Articoli::
-#Archivio articoli
+Il Progetto::
+#Archivio articoli::
 Links::
 
 
@@ -66,7 +67,7 @@ organizzatori::Atto Costitutivo-Statuto ARS::modulo_custom::::
 # :: ::separatore::::
 presentazione::La Stralaceno::modulo_custom::::
 caposele::Caposele::modulo_custom::::
-lettere::Le vostre lettere::modulo_custom::::
+lettere_sito::Le vostre lettere::modulo_custom::::
 #pregfas::Pregfas::modulo_custom::::Pagina in allestimento!
 
 #[Archivio articoli]
