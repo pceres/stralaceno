@@ -22,7 +22,7 @@ if (empty($filename))
 $enabled_config_files = array(
 	"links.txt",				// link visualizzati nel modulo "Link"
 	"pregfas.txt",				// pubblico registro dei fanfaroni della stralaceno (modulo_custom)
-	"lettere_stralaceno.txt",		// lettere alla Stralaceno (modulo_custom)
+	"lettere_sito.txt",			// le vostre lettere (modulo_custom)
 	"layout_left.txt",			// layout della colonna sinistra in homepage
 	"layout_right.txt",			// layout della colonna destra in homepage
 	"lotteria_???.txt",			// file di configurazione lotteria xxx
