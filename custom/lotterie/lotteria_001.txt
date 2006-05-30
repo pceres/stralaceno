@@ -8,7 +8,7 @@
 #
 #	autenticazione			: no_auth
 #					: user
-#					: chiave
+#					: key
 #
 #	data_inizio_giocate		: hh:mm gg/mm/aaaa
 #	data_fine_giocate		: hh:mm gg/mm/aaaa
@@ -95,7 +95,6 @@ Qualificato in finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
 Qualificato in finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
 Campione del mondo::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
 
-
 #
 # Formato riga [classifica]:
 # gruppo_regola::tipo_regola::caption::dati1::dati2::...::datin
@@ -131,6 +130,9 @@ Campione del mondo::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
 #				posizione: prevale chi indovina la squadra 1, poi la 2, ecc.
 #				numero_pesato: una risposta esatta -> peso della relativa risposta
 #			peso per la risposta::[0,1]{n_domande} peso assegnato alla singola risposta
+#			
+#		eliminatorie:
+#			<profondita'>: 4 -> si parte dalle squadre dei quarti, 3 -> si parte dalle semifinali, ecc.
 #
 [classifica]
 1::esatte_per_gruppi::1&deg;) Risposte esatte::1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,17,17,17,17,17,17,17,17,25,25,25,25,29,29,31::numero_pesato::1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
@@ -197,7 +199,9 @@ question_tag_W::stat_domanda::Squadra qualificata ai <span class="hi">quarti di 
 question_tag_Q::stat_domanda::Squadra qualificata agli <span class="hi">ottavi di finale</span>::squadra::numero preferenze::1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
 Italia::stat_risposta::Posizionamento <span class="hi">Italia</span>::posizione in classifica::numero preferenze::Italia::31;29,30;25,26,27,28;17,18,19,20,21,22,23,24;1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16::Campione del mondo;Qualificato in finale;Qualificato in semifinale;Qualificato ai quarti di finale;Qualificato agli ottavi di finale
 Brasile::stat_risposta::Posizionamento <span class="hi">Brasile</span>::posizione in classifica::numero preferenze::Brasile::31;29,30;25,26,27,28;17,18,19,20,21,22,23,24;1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16::Campione del mondo;Qualificato in finale;Qualificato in semifinale;Qualificato ai quarti di finale;Qualificato agli ottavi di finale
+Argentina::stat_risposta::Posizionamento <span class="hi">Argentina</span>::posizione in classifica::numero preferenze::Argentina::31;29,30;25,26,27,28;17,18,19,20,21,22,23,24;1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16::Campione del mondo;Qualificato in finale;Qualificato in semifinale;Qualificato ai quarti di finale;Qualificato agli ottavi di finale
 Germania::stat_risposta::Posizionamento <span class="hi">Germania</span>::posizione in classifica::numero preferenze::Germania::31;29,30;25,26,27,28;17,18,19,20,21,22,23,24;1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16::Campione del mondo;Qualificato in finale;Qualificato in semifinale;Qualificato ai quarti di finale;Qualificato agli ottavi di finale
+Francia::stat_risposta::Posizionamento <span class="hi">Francia</span>::posizione in classifica::numero preferenze::Francia::31;29,30;25,26,27,28;17,18,19,20,21,22,23,24;1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16::Campione del mondo;Qualificato in finale;Qualificato in semifinale;Qualificato ai quarti di finale;Qualificato agli ottavi di finale
 
 
 [Gruppo Girone A]
