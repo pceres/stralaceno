@@ -86,7 +86,7 @@ e della <a href='manage_config_file.php?config_file=layout_right.txt'>colonna de
 
 <hr>
 
-<a href='manage_config_file.php?config_file=lettere_stralaceno.txt'>Gestione lettere alla Stralaceno</a>
+<a href='manage_config_file.php?config_file=lettere_sito.txt'>Gestione lettere alla Stralaceno</a>
 
 <hr>
 
