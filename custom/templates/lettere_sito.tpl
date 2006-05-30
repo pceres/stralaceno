@@ -3,7 +3,7 @@
   <tbody>
 	<tr>
 		<td width="100%">
-		<img src="%file_root%custom/images/logo.gif" alt="logo_stralacenoweb">
+		<img src="%file_root%custom/images/logo.gif" alt="logo_del_sito">
 		</td>
 	</tr>
   </tbody>
@@ -21,21 +21,24 @@
 
 <p align=center>
 <b><big>
-Lettere alla Stralaceno
+Le vostre lettere
 </big></b>
 
 <p>
-Questa sezione contiene le lettere ed i suggerimenti inviati dai visitatori del sito. 
-Chi volesse scriverci pu&ograve; inviare una email all'indirizzo 
-<a href="mailto:stralaceno@freepass.it?subject=Lettera%20alla%20Stralaceno"
-	title="Lettera alla Stralaceno">stralaceno@freepass.it</a>.
+Questa sezione contiene le lettere ed i suggerimenti inviati dai visitatori del sito.
+Chi volesse scriverci pu&ograve; inviare una email all'indirizzo
+
+%%%% begin lettere_sito.txt info_email 3
+<a href="mailto:%field0%?subject=%field1%"
+	title="%field2%">%field0%</a>.
+%%%% end
 
 <br>
 <br>
 
 <div align="justify" style="text-indent: 2em;">
 
-%%%% begin lettere_stralaceno.txt lettere_stralaceno 4
+%%%% begin lettere_sito.txt lettere_sito 4
 
 	<hr>
 
