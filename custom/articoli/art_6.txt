@@ -11,7 +11,7 @@ In caso di parit&agrave;:<br></li>
  Ai fini di questa regola le squadre perdenti nei quarti di finale sono da considerarsi tutte quinte classificate,
  così come quelle perdenti negli Ottavi tutte none classificate<br>
 In caso di ulteriore parit&agrave;:<br></li>
-<li>data della giocate (si considerano anche l’ora e i minuti): vince chi ha giocato prima.</li></ul>
+<li>data della giocate (si considerano anche l'ora e i minuti): vince chi ha giocato prima.</li></ul>
 <p>
 <b>Periodo delle giocate</b>
 <br>
