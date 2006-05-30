@@ -3,6 +3,7 @@
 # Il numero di righe non commentate deve coincidere con le domande della lotteria. 
 # Se una partita non e' stata ancora disputata, inserire la risposta convenzionale "nd".
 #
+
 # Qualificato ottavi 1 :
 nd
 # Qualificato ottavi 2:
