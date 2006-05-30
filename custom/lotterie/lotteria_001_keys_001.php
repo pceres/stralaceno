@@ -1,6 +1,6 @@
 b4dd9c835c42
-eebe79c3b0b0::Pasquale Ceres::Alessandro Russomanno::18:20 11/04/2006
-fffc48fc0047::ryan Giggs::Omar el bedù::12:24 18/04/2006
+eebe79c3b0b0
+fffc48fc0047
 397fef7d5b6f
 84670f4ff1e7
 d8497b715489
@@ -298,4 +298,3 @@ b323be5a5741
 2d1e8df10d46
 50229c427926
 1d72030d2aee
-
