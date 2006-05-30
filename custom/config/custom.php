@@ -26,7 +26,7 @@ $web_keywords = "Ars, Amatori Running Sele, Stralaceno, Caposele, Caposelesi, Co
 
 
 # indirizzo e-mail per contatti (stringa vuota se non e' disponibile)
-$email_info	= "stralaceno@freepass.it";
+$email_info	= "caposeleweb@yahoo.it";
 
 
 # durata massimo della gara [min]
