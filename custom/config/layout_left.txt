@@ -69,7 +69,7 @@ presentazione::Cos'&egrave; la Stralaceno::modulo_custom::::
 albo_d_oro::Albo d'oro::tempi::::
 regolamento::Stralcio regolamento::modulo_custom::::
 organizzatori::Gli organizzatori::modulo_custom::::
-lettere_stralaceno::Lettere alla Stralaceno::modulo_custom::::
+lettere_sito::Lettere alla Stralaceno::modulo_custom::::
 #pregfas::Pregfas::modulo_custom::::Pagina in allestimento!
 
 [Cronaca corrente]
