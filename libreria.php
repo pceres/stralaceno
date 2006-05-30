@@ -1288,7 +1288,10 @@ function show_template($template_file)
 					$arr_template = array();
 					for ($i=0; $i<count($item); $i++)
 					{
-						array_push($arr_template,"%field$i%");
+						array_push($arr_template,"%field$i%");		// vettore dei nomi simbolici %field0%,%field1%,ecc
+						
+						// sostituisci i nomi %file_root%,ecc con l'effettivo testo
+						$item[$i] = template_to_effective($item[$i]);
 					}
 					echo str_replace($arr_template, $item, $template);
 				}
