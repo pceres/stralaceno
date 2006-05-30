@@ -8,17 +8,17 @@ require_once('../../../libreria.php');
 extract(indici());
 ?>
 <head>
-  <title>Stralaceno Web - Lettere alla stralaceno</title>
+  <title><?php echo $web_title ?> - Lettere a <?php echo $web_title ?></title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
-  <meta name="description" content="Lettere alla Stralaceno">
-  <meta name="keywords" content="Lettere, Guestbook, Stralaceno, ARS, Caposele, Atletica">  
+  <meta name="description" content="Le vostre lettere a <?php echo $web_title ?>">
+  <meta name="keywords" content="<?php echo $web_keywords ?>">
   <style type="text/css">@import "<?php echo $filename_css ?>";</style>
 </head>
 <body>
 
 <?php
-show_template("lettere_stralaceno.tpl")
+show_template("lettere_sito.tpl")
 ?>
 
 
@@ -26,7 +26,7 @@ show_template("lettere_stralaceno.tpl")
 
 <?php
 # logga il contatto
-$counter = count_page("modulo_lettere_stralaceno",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
+$counter = count_page("modulo_lettere_sito",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
 ?>
 
 </body>
