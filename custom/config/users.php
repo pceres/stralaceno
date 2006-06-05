@@ -6,7 +6,7 @@
 #
 
 [users]
-ceres::f505a4f2dfe4f6071f265d170c34d2f7::admin,users,soci_ars
+ceres::f505a4f2dfe4f6071f265d170c34d2f7::admin,users,soci_ars,root_admin
 alex::534b44a19bf18d20b71ecc4eb77c572f::admin,users,soci_ars
 nick::e2e42a07550863f8b67f5eb252581f6d::admin,users,soci_ars
 michele::8a94bdfc825df46f880854f41fee346b::users,soci_ars
