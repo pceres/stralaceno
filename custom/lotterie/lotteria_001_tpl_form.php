@@ -36,15 +36,12 @@ else
 // nome dei campi
 $question_tag_format = "question_%02d";	// da non modificare
 
+$id_questions = 1;	// numero della lotteria corrente (usato in lotteria_XXX.txt)
 
+$alert_msg = $lotteria["msg_custom"][0][0];
+$helper_msg = $lotteria["msg_custom"][0][1];
+$data_msg = $lotteria["msg_custom"][0][2];
 ?>
-
-
-<!--
-//
-// inizio visualizzazione della form
-//
--->
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
 
 <HTML>
@@ -63,7 +60,12 @@ $question_tag_format = "question_%02d";	// da non modificare
 	
 </HEAD>
 
-<BODY TEXT="#000000" OnLoad="alert(itoa(12));">
+<BODY TEXT="#000000" <?php
+if (!empty($alert_msg))
+{
+	echo "OnLoad=\"alert('".str_replace("'","\\'",$alert_msg)."');\""; 
+}
+?>>
 <!--BODY TEXT="#000000"-->
 
 <!--
@@ -347,6 +349,14 @@ function check_input(f)
 </SCRIPT>
 
 
+
+
+<!--
+//
+// inizio visualizzazione della form
+//
+-->
+
 <!--div align="center" style="font-size:20px;">Sondaggio Mondiali di Calcio 2006 (32 domande)</div><br-->
 
 <form name="question_form" action="<?php echo $action; ?>" method="post" OnSubmit="return check_input(this)">
@@ -476,10 +486,24 @@ if (!empty($nominativo)) { ?>
 			<TD ALIGN=CENTER BGCOLOR="#CCFFFF">1gr.H-2gr.G (W8)</TD>
 		</TR>
 		<TR>
-			<TD HEIGHT=16 ALIGN=LEFT><BR></TD>
-			<TD ALIGN=LEFT><BR></TD>
-			<TD ALIGN=LEFT><BR></TD>
-			<TD ALIGN=LEFT><BR></TD>
+			<TD HEIGHT=16 ALIGN=CENTER COLSPAN="4">
+<?php 
+if (!empty($helper_msg))
+{
+	echo "<a href=\"$data_msg\"><b>\n";
+	echo "$helper_msg\n";
+	echo "</b></a>\n";
+}
+else
+{
+	echo "<br>";
+}
+?>
+			</TD>
+			<!--TD HEIGHT=16 ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR>2</TD>
+			<TD ALIGN=LEFT><BR>3</TD>
+			<TD ALIGN=LEFT><BR>4</TD-->
 			<TD ALIGN=LEFT><BR></TD>
 			<TD ALIGN=LEFT><BR></TD>
 			<TD ALIGN=LEFT><BR></TD>
@@ -1983,7 +2007,7 @@ else
 	echo "<input type=\"hidden\" name=\"auth_token\" value=\"$auth_token\"><br>";
 }
 ?>
-<input type="hidden" name="id_questions" value="1">
+<input type="hidden" name="id_questions" value="<?php echo $id_questions ?>">
 <!--input type="hidden" name="action" value="last_check"-->
 <input type="hidden" name="action" value="save">
 <br>
