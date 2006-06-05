@@ -45,6 +45,9 @@ $nome_file_organizzatori = "organizzatori_laceno.csv";
 # password per la sezione amministrativa:
 #
 
+# gestione riservata al gruppo root_admin
+$password_root_admin = 'eef358de0c01694206eafe104006f44b';
+
 # gestione degli articoli in prima pagina
 $password_articoli = 'd36923926ed59333afab0bba1a4ad5e5';
 
