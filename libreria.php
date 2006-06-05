@@ -3,7 +3,6 @@
 # dichiara variabili
 extract(indici());
 
-//print_r($_COOKIE); //
 
 function indici() {
 
@@ -82,6 +81,19 @@ $indice_question_ripetibile = 3;
 $indici_question = array(
 'indice_question_caption'=>$indice_question_caption,'indice_question_tipo'=>$indice_question_tipo,'indice_question_gruppo'=>$indice_question_gruppo,
 'indice_question_ripetibile'=>$indice_question_ripetibile);
+
+
+# formato file di configurazione config_files.php
+$indice_cfgfile_name = 0;	// filename (senza path) del file di configurazione
+$indice_cfgfile_folder = 1;	// cartella contenente il file
+$indice_cfgfile_caption = 2;	// descrizione del file
+$indice_cfgfile_groups = 3;	// gruppi che hanno accesso al file
+$indice_cfgfile_password = 4;	// password per la modifica (md5)
+
+$indici_cfgfile = array(
+'indice_cfgfile_name' => $indice_cfgfile_name,'indice_cfgfile_caption' => $indice_cfgfile_caption,'indice_cfgfile_folder' => $indice_cfgfile_folder,
+'indice_cfgfile_groups' => $indice_cfgfile_groups,'indice_cfgfile_password' => $indice_cfgfile_password);
+
 
 
 #variabili di formattazione
@@ -175,6 +187,7 @@ $site_abs_path = substr($path,0,$end+1);
 
 #path assoluti
 $modules_site_path		= $script_abs_path."custom/moduli/";
+$modules_dir			= $root_path."custom/moduli/";
 $filedir_counter 		= $root_path."custom/contatori/";
 $articles_dir 			= $root_path."custom/articoli/";
 $config_dir 			= $root_path."custom/config/";
@@ -183,10 +196,11 @@ $questions_dir			= $root_path."custom/lotterie/";
 
 #nomi di file
 $filename_css			= $site_abs_path."custom/config/style.css";
+$filename_cfgfile		= $config_dir."config_files.php";
 $filename_tempi			= $root_path."custom/dati/".$nome_file_tempi;
 $filename_atleti		= $root_path."custom/dati/".$nome_file_atleti;
-$filename_organizzatori	= $root_path."custom/dati/".$nome_file_organizzatori;
-$article_online_file	= $articles_dir."online.txt";
+$filename_organizzatori		= $root_path."custom/dati/".$nome_file_organizzatori;
+$article_online_file		= $articles_dir."online.txt";
 $filename_links			= $config_dir."links.txt";
 $filename_albums		= $config_dir."albums.txt";
 $filename_users			= $config_dir."users.php";	// l'estensione e' php in modo che la richiesta della pagina non permetta comunque di visualizzare i dati
@@ -208,16 +222,24 @@ $max_online_articles	= 10;	// numero di articoli pubblicati online
 
 
 $formattazione = array('style_sfondo_maschi' => $style_sfondo_maschi,'style_sfondo_femmine' => $style_sfondo_femmine);
-$filenames = array('filename_css' => $filename_css,'filename_tempi' => $filename_tempi,'filename_atleti' => $filename_atleti,
-	'filename_organizzatori' => $filename_organizzatori,'filedir_counter' => $filedir_counter,
+$filenames = array('filename_css' => $filename_css,'filename_cfgfile' => $filename_cfgfile,'filename_tempi' => $filename_tempi,
+	'filename_atleti' => $filename_atleti,'filename_organizzatori' => $filename_organizzatori,'filedir_counter' => $filedir_counter,
 	'articles_dir' => $articles_dir,'article_online_file' => $article_online_file,'filename_links' => $filename_links,
 	'filename_albums' => $filename_albums,'filename_users'=>$filename_users,'filename_challenge'=>$filename_challenge);
-$pathnames = array('root_prefix' => $root_prefix,'root_path' => $root_path,'site_abs_path' => $site_abs_path,'script_abs_path' => $script_abs_path,'modules_site_path' => $modules_site_path,'config_dir' => $config_dir,'album_dir' => $album_dir,'questions_dir' => $questions_dir);
-$varie = array('symbol_1_partecipazione' => $symbol_1_partecipazione,'symbol_1_partecipazione_best' => $symbol_1_partecipazione_best,'symbol_record' => $symbol_record,'symbol_record_best' => $symbol_record_best,'symbol_info'=>$symbol_info);
-$custom = array('homepage_link' => $homepage_link,'tempo_max_M' => $tempo_max_M,'tempo_max_F' => $tempo_max_F,'tempo_max_grafico' => $tempo_max_grafico,'race_name' => $race_name,'web_title' => $web_title,'web_description' => $web_description,'web_keywords' => $web_keywords,'email_info' => $email_info);
-$admin = array('password_album' => $password_album,'password_config' => $password_config,'password_articoli' => $password_articoli,'password_upload_file' => $password_upload_file,'max_last_editions' => $max_last_editions,'max_online_articles' => $max_online_articles,'password_lotterie' => $password_lotterie);
+$pathnames = array('root_prefix' => $root_prefix,'root_path' => $root_path,'site_abs_path' => $site_abs_path,
+	'script_abs_path' => $script_abs_path,'modules_site_path' => $modules_site_path,'modules_dir' => $modules_dir,
+	'config_dir' => $config_dir,'album_dir' => $album_dir,'questions_dir' => $questions_dir);
+$varie = array('symbol_1_partecipazione' => $symbol_1_partecipazione,'symbol_1_partecipazione_best' => $symbol_1_partecipazione_best,
+	'symbol_record' => $symbol_record,'symbol_record_best' => $symbol_record_best,'symbol_info'=>$symbol_info);
+$custom = array('homepage_link' => $homepage_link,'tempo_max_M' => $tempo_max_M,'tempo_max_F' => $tempo_max_F,
+	'tempo_max_grafico' => $tempo_max_grafico,'race_name' => $race_name,'web_title' => $web_title,
+	'web_description' => $web_description,'web_keywords' => $web_keywords,'email_info' => $email_info);
+$admin = array('password_root_admin' => $password_root_admin,'password_album' => $password_album,'password_config' => $password_config,
+	'password_articoli' => $password_articoli,'password_upload_file' => $password_upload_file,
+	'max_last_editions' => $max_last_editions,'max_online_articles' => $max_online_articles,'password_lotterie' => $password_lotterie);
 
-return array_merge($indici,$indici2,$indici3,$indici_layout,$indici_user,$indici_question,$formattazione,$filenames,$pathnames,$varie,$admin,$custom);
+return array_merge($indici,$indici2,$indici3,$indici_layout,$indici_user,$indici_question,$indici_cfgfile,$formattazione,
+	$filenames,$pathnames,$varie,$admin,$custom);
 }
 
 function load_data($filename,$num_colonne) {
@@ -1001,8 +1023,10 @@ function template_to_effective($line_in)
 	# dichiara variabili
 	extract(indici());
 	
-	$template = array("%script_root%","%file_root%");
-	$effective = array($script_abs_path,$site_abs_path);
+	$template = array("%script_root%","%file_root%","%web_title%","%web_keywords%","%filename_css%","%homepage_link%",
+		"%config_dir%","%modules_dir%","%questions_dir%");
+	$effective = array($script_abs_path,$site_abs_path,$web_title,$web_keywords,$filename_css,$homepage_link,
+		$config_dir,$modules_dir,$questions_dir);
 	return str_replace($template, $effective, $line_in);
 }
 	
@@ -1243,12 +1267,12 @@ function save_config_file($conf_file,$keys)
 }
 
 
-function show_template($template_file)
+function show_template($template_path,$template_file)
 {
 	# dichiara variabili
 	extract(indici());
 	
-	$lines = file($root_path."custom/templates/".$template_file);
+	$lines = file($template_path.$template_file);
 	
 	$stato=0;
 	foreach($lines as $line)
@@ -1282,7 +1306,7 @@ function show_template($template_file)
 				$stato = 0;
 				
 				#on exit
-				$conf = get_config_file($config_dir.$config_file,$num_fields);
+				$conf = get_config_file($template_path.$config_file,$num_fields);
 				foreach ($conf[$array_name] as $item)
 				{
 					$arr_template = array();
@@ -1551,6 +1575,8 @@ function show_giocate($giocate)
 
 function sort_masked(&$giocata_array,$sort_mask,$sort_flag = SORT_ASC)
 {
+# ordina $giocata_array sui campi $sort_mask, usando il criterio $sort_flag
+	
 	$list = array_keys($sort_mask,1);
 	
 	$arr = array();
@@ -1586,6 +1612,39 @@ function sort_masked(&$giocata_array,$sort_mask,$sort_flag = SORT_ASC)
 		$giocata_array[$id] = $valore_giocata;
 	}
 } // end function sort_masked()
+
+
+function get_cfgfile_data($cfgfilename) {
+# carica un file di configurazione, nella struttura
+#
+# [gruppo1]
+# a::b::c
+#
+# [gruppo2]
+# A::B::C::D
+# 1::2::3::4
+#
+# come
+# array('a'=>array('gruppo1','b','c'), 'A'=>array('gruppo2','B','C'), '1'=>array('gruppo2','2','3'))
+#
+
+# dichiara variabili
+extract(indici());
+
+$modules_cfg_data = get_config_file($cfgfilename); // carica il file di configurazione
+
+$cfgbulk = array();
+foreach ($modules_cfg_data as $module_id => $module_cfg_data)
+{
+	foreach ($module_cfg_data as $id => $cfgfile_data)
+	{
+		$cfg_filename = $cfgfile_data[0]; // primo elemento della riga: diventera' una chiave di $cfgbulk
+		
+		$cfgbulk[$cfg_filename] = array_merge($module_id,array_slice($cfgfile_data,1));
+	}
+}
+return $cfgbulk;
+} // end function get_cfg_file_data($module_cfg_data,$module,$filename) {
 
 
 //Page properties definitions
