@@ -1,3 +1,17 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+  <title>%web_title% - PREGFAS - Pubblico registro dei fanfaroni</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <meta name="GENERATOR" content="Quanta Plus">
+  <meta name="description" content="Pubblico registro dei fanfaroni della Stralaceno">
+  <meta name="keywords" content="PREGFAS, Pubblico registro dei fanfaroni, Stralaceno, ARS, Caposele, Atletica">  
+  <style type="text/css">@import "%filename_css%";</style>
+</head>
+<body>
+
+
 
 <table width="100%" align="center" style="background-color:rgb(255, 255, 255);">
   <tbody>
@@ -39,7 +53,7 @@ P.RE.G.FA.S. - Pubblico REgistro dei Grandi FAnfaroni della Stralaceno
 		<th>Causa di cancellazione</th-->
 	</tr></thead>
 	<tbody>
-%%%% begin pregfas.txt elenco_fanfaroni 3
+%%%% begin pregfas_cfg.txt elenco_fanfaroni 3
 	<tr>
 		<td nowrap style='padding:0.5em;'>
 			%field0% 
@@ -65,7 +79,7 @@ P.RE.G.FA.S. - Pubblico REgistro dei Grandi FAnfaroni della Stralaceno
 
 </div>
 <br>
-%%%% begin pregfas.txt data_aggiornamento 1
+%%%% begin pregfas_cfg.txt data_aggiornamento 1
 	<i>Registro aggiornato al %field0%</i>
 %%%% end
 
@@ -79,13 +93,13 @@ invece piuttosto frequenti. Statisticamente, d'altronde, aumentando il numero de
 difficile garantire la buona condotta di tutti. Probabilmente anche la crescente popolarit&agrave; della corsa ha inoltre, 
 malauguratamente, suscitato l'interesse di appartenenti al quel folto gruppo di caposelesi che hanno l'abitudine di 
 surrogare gli scarsi fatti con le molte parole: i fanfaroni 
-(<i>blaterones</i> (latino <img src="%file_root%custom/images/bandiere/SPQR-Bandiera-small.jpg" width="60" style="vertical-align: middle;">),
-<i>braggarts</i> (UK <img src="%file_root%custom/images/bandiere/Regno_Unito-Bandiera-small.jpg" width="20" style="vertical-align: middle;">),
-<i>vantards</i> (FR <img src="%file_root%custom/images/bandiere/Francia-Bandiera-small.jpg" width="20" style="vertical-align: middle;">),
-<i>jactanciosos</i> (ES <img src="%file_root%custom/images/bandiere/Spagna-Bandiera-small.jpg" width="20" style="vertical-align: middle;">),
-<i>opschepperige</i> (NL <img src="%file_root%custom/images/bandiere/Olanda-Bandiera-small.jpg" width="20" style="vertical-align: middle;">),
-<i>prahlerischen</i> (DE <img src="%file_root%custom/images/bandiere/Germania-Bandiera-small.jpg" width="20" style="vertical-align: middle;">),
-<i>tromboni&#x015F;t</i> (RO <img src="%file_root%custom/images/bandiere/Romania-Bandiera-small.jpg" width="20" style="vertical-align: middle;">) 
+(<i>blaterones</i> (latino <img src="%file_root%custom/images/bandiere/SPQR-Bandiera-small.jpg" width="60" style="vertical-align: middle;" alt="SPQR">),
+<i>braggarts</i> (UK <img src="%file_root%custom/images/bandiere/Regno_Unito-Bandiera-small.jpg" width="20" style="vertical-align: middle;" alt="UK">),
+<i>vantards</i> (FR <img src="%file_root%custom/images/bandiere/Francia-Bandiera-small.jpg" width="20" style="vertical-align: middle;" alt="FR">),
+<i>jactanciosos</i> (ES <img src="%file_root%custom/images/bandiere/Spagna-Bandiera-small.jpg" width="20" style="vertical-align: middle;" alt="ES">),
+<i>opschepperige</i> (NL <img src="%file_root%custom/images/bandiere/Olanda-Bandiera-small.jpg" width="20" style="vertical-align: middle;" alt="NL">),
+<i>prahlerischen</i> (DE <img src="%file_root%custom/images/bandiere/Germania-Bandiera-small.jpg" width="20" style="vertical-align: middle;" alt="DE">),
+<i>tromboni&#x015F;t</i> (RO <img src="%file_root%custom/images/bandiere/Romania-Bandiera-small.jpg" width="20" style="vertical-align: middle;" alt="RO">) 
 ).
 E' risaputo che molti degli affetti da tale singolare inclinazione, vivono con particolare disagio e apprensione il 
 momento dell'"outing" e cio&egrave; il momento in cui finalmente essi si decidono ad esternare in pubblico la loro 
@@ -110,7 +124,6 @@ qualsiasi iniziativa futura (<i>semel fanfaron, semper fanfaron</i>).
 <p style="text-indent: 2em;">
 Ci&ograve; premesso l' A.R.S. istituisce ufficialmente il P.Re.G.Fa.S. ovvero il Pubblico Registro di Grandi Fanfaroni 
 della Stralaceno. Esso viene tenuto a cura di un'apposita commissione composta da 
-<!--span style="color: red;"-->
 tre esponenti dell'ARS, i decani della corsa (atleti che hanno partecipato minimo 10 volte) e il più anziano, con minimo 
 tre partecipazioni, più un "membro non togato" scelto dall'ARS. 
 Logicamente prima di procedere 
@@ -120,3 +133,10 @@ decide di procedere ad iscrizione sono solo i casi conclamati, la cui gravit&agr
 
 </div>
 
+
+
+%homepage_link%
+
+
+</body>
+</html>
