@@ -5,10 +5,20 @@ require_once('../libreria.php');
 # dichiara variabili
 extract(indici());
 
+/*
+questa libreria esamina i cookies o i parametri http (eventualmente) inviati, e genera l'array $login con i campi
+'username',	: login
+'usergroups',	: lista dei gruppi di appartenenza (separati da virgola)
+'status',		: stato del login: 'none','ok_form','ok_cookie','error_wrong_username','error_wrong_userpass','error_wrong_challenge','error_wrong_IP'
+*/
+require_once('../login.php');
+
+
 // verifica che si stia arrivando a questa pagina da quella amministrativa principale
-if ( !isset($_SERVER['HTTP_REFERER']) | ("http://".$_SERVER['HTTP_HOST'].$script_abs_path."admin/" != substr($_SERVER['HTTP_REFERER'],0,strrpos($_SERVER['HTTP_REFERER'],'/')+1) ) )
+if ( !isset($_SERVER['HTTP_REFERER']) | ("http://".$_SERVER['HTTP_HOST'].$script_abs_path."admin/" != substr($_SERVER['HTTP_REFERER'],0,strrpos($_SERVER['HTTP_REFERER'],'/')+1) ) |
+(!in_array($login['status'],array('ok_form','ok_cookie'))) )
 {
-	header("Location: ".$script_abs_path."admin/index.php");
+	header("Location: ".$script_abs_path."index.php");
 	exit();
 }
 
@@ -19,32 +29,19 @@ if (empty($filename))
 	die("File inesistente!");
 }
 
-$enabled_config_files = array(
-	"links.txt",				// link visualizzati nel modulo "Link"
-	"pregfas.txt",				// pubblico registro dei fanfaroni della stralaceno (modulo_custom)
-	"lettere_sito.txt",			// le vostre lettere (modulo_custom)
-	"layout_left.txt",			// layout della colonna sinistra in homepage
-	"layout_right.txt",			// layout della colonna destra in homepage
-	"lotteria_???.txt",			// file di configurazione lotteria xxx
-	"lotteria_???_ans.php"			// file risposte esatte lotteria xxx
-	); // elenco dei file di configurazione che e' possibile modificare 
 
-$enabled_config_dirs = array(
-	$config_dir,				// link visualizzati nel modulo "Link"
-	$config_dir,				// pubblico registro dei fanfaroni della stralaceno (modulo_custom)
-	$config_dir,				// lettere alla Stralaceno (modulo_custom)
-	$config_dir,				// layout della colonna sinistra in homepage
-	$config_dir,				// layout della colonna destra in homepage
-	$questions_dir,				// file di configurazione lotteria xxx
-	$questions_dir				// file risposte esatte lotteria xxx
-	); // elenco delle directory dei file di configurazione che e' possibile modificare 
+// carica le infomazioni relative a ciascun file di configurazione
+$elenco_cfgfile = get_cfgfile_data($filename_cfgfile); // carica il file di configurazione dei moduli
 
+// verifica se il file indicato e' nell'elenco, e restituisci i relativi dati
 $file_ok = false;
-foreach ($enabled_config_files as $id => $config_name)
+foreach ($elenco_cfgfile as $name => $config_data)
 {
-	$name = $config_name;
-	$dir = $enabled_config_dirs[$id];	/* directory contenente il file in esame */
-
+	$dir = template_to_effective($config_data[$indice_cfgfile_folder]);
+	$caption = $config_data[$indice_cfgfile_caption];
+	$groups_ok = $config_data[$indice_cfgfile_groups];
+	$password_ok = $config_data[$indice_cfgfile_password];
+	
 	// verifica la presenza di carattere jolly "?"
 	while ($pos=strpos($name,'?'))
 	{
@@ -56,14 +53,20 @@ foreach ($enabled_config_files as $id => $config_name)
 		$file_ok = true;
 		break;
 	}
-	
 }
 
-//if (!in_array($filename,$enabled_config_files))
 if (!$file_ok)
 {
 	die("Non e' possibile modificare il file $filename! Contattare il webmaster.");
 }
+
+// verifica che il gruppo di appartenenza sia abilitato qui
+if (!group_match(split(',',$usergroups),split(',',$groups_ok)))
+{
+	die("Spiacente, non sei abilitato ad accedere a questa pagina! Contatta l'amministratore.<br>\n");
+}
+
+
 	
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -79,7 +82,7 @@ if (!$file_ok)
 
 <script type="text/javaScript" src="<?php echo $site_abs_path ?>admin/md5.js"></script>
 
-Modifica del file di configurazione <?php echo $filename; ?>:<br>
+Modifica del file di configurazione <?php echo "$filename ($caption)"; ?>:<br>
 
 <?php
 $filename = $dir.$filename;
@@ -105,9 +108,11 @@ $filename = $dir.$filename;
 <?php
 # logga il contatto
 $counter = count_page("admin_edit_config",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
+
 ?>
 
 <hr>
+
 <div align="right"><a href="index.php" class="txt_link">Torna alla pagina amministrativa principale</a></div>
 
 </body>
