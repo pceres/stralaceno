@@ -1,5 +1,3 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
 <?php
 
 require_once('../../../libreria.php');
@@ -7,27 +5,17 @@ require_once('../../../libreria.php');
 # dichiara variabili
 extract(indici());
 ?>
-<head>
-  <title><?php echo $web_title ?> - Lettere a <?php echo $web_title ?></title>
-  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-  <meta name="GENERATOR" content="Quanta Plus">
-  <meta name="description" content="Le vostre lettere a <?php echo $web_title ?>">
-  <meta name="keywords" content="<?php echo $web_keywords ?>">
-  <style type="text/css">@import "<?php echo $filename_css ?>";</style>
-</head>
-<body>
 
 <?php
-show_template("lettere_sito.tpl")
-?>
+// determina il nome del modulo, ed il path assoluto
+$filename = $_SERVER[SCRIPT_FILENAME];						// path assoluto e nome dello script in esecuzione
+$module_endpath = substr($filename,strpos($filename,'custom/moduli/')+14);	// path della cartella contenente i moduli (custom/moduli/)
+$module_name = substr($module_endpath,0,strrpos($module_endpath,'/'));		// nome del modulo in esecuzione
+$module_abs_path = $modules_dir."$module_name/";				// path completo allo script in esecuzione
 
+show_template($module_abs_path,$module_name.".tpl");
 
-<?php echo $homepage_link ?>
-
-<?php
 # logga il contatto
-$counter = count_page("modulo_lettere_sito",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
+$counter = count_page("modulo_$module_name",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
 ?>
 
-</body>
-</html>
