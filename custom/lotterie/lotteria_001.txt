@@ -204,6 +204,13 @@ Germania::stat_risposta::Posizionamento <span class="hi">Germania</span>::posizi
 Francia::stat_risposta::Posizionamento <span class="hi">Francia</span>::posizione in classifica::numero preferenze::Francia::31;29,30;25,26,27,28;17,18,19,20,21,22,23,24;1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16::Campione del mondo;Qualificato in finale;Qualificato in semifinale;Qualificato ai quarti di finale;Qualificato agli ottavi di finale
 
 
+#
+# Messaggi custom: possono essere in qualsiasi forma, vi si accede come $lotteria['msg_custom'][<numero_riga>][<numero_colonna>]
+#
+[msg_custom]
+Consulta l'utile strumento disponibile su Caposeleonline:file:///home/ceres/Desktop/tab-mond-06.htm::Consulta l'utile strumento disponibile su Caposeleonline:file:///home/ceres/Desktop/tab-mond-06.htm::http://caposeleonline/lotteria/lotteria.htm
+
+
 [Gruppo Girone A]
 Germania
 Costa Rica
