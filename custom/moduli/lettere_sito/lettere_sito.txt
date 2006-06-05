@@ -1,0 +1,17 @@
+# Le vostre lettere:
+#
+# formato:  nome::data_lettera::testo_lettera::testo_risposta
+#
+# modifica al di sotto di [elenco_fanfaroni], rispettando il formato; E' importante che tutte le informazioni relative
+# ad una lettere (nome,data,testo_lettera,testo_risposta) siano su un'UNICA riga; non dare mai a capo, se non per
+# aprire una nuova lettera.
+#
+
+[lettere_sito]
+Nicola Melillo::16/01/2006::<p>4 gennaio  2006: data memorabile.<br>Mentre scrivo queste righe sono ancora emozionato per lo storico allenamento di ieri quando con tanta voglia, grinta, passione, sacrificio, dedizione, amore per lo sport, siamo riusciti a  completare un percorso di 17-18km che si &egrave; snodato per le strade di Caposele e Materdomini.<br> Si &egrave; partiti dalla piazza sanit&agrave;, poi abbiamo proseguito per un suggestivo percorso: saure - strada delle grotte - zona S.Giovanni - S.Caterina - cimitero comunale - hotel Testa - zona san Vito - bosco difesa e ritorno in piazza sanit&agrave;. Siamo stati eccezionali!! Complimenti a tutti!<br>L'allenamento di ieri &egrave; un segnale forte che a Caposele non esiste solo il calcio, inteso in maniera errata ma esiste un gruppo di amici che con la corsa riesce a creare un clima di aggregazione, competenza, crescita culturale, soddisfazione, miglioramenti notevoli delle capacit&agrave; psico-fisiche di ciascuno di noi. Forza ragazzi, dobbiamo continuare in questa direzione. Un plauso di tutto cuore ad Alessandro Russomanno '75 e Nicola D'Auria per lo spirito di inziativa intrapreso.<br>Nel nostro piccolo siamo riusciti a formare un piccolo gruppo che intende lo sport in maniera diversa da chi ha inculcato una concezione sbagliata delle attivit&agrave; sportive.<br>Io credo che quello che stiamo facendo rester&agrave; per sempre nelle menti delle generazioni successive e speriamo che serva per spronare altri ragazzi di Caposele ad avvicinarsi a questa grande disciplina sportiva: l'atletica e lo jogging.::Visita l'<a href="%file_root%index.php?page=articolo&amp;art_id=5">articolo</a> o l'<a href="%file_root%album.php?anno=All.Coll.05">album</a> dell'allenamento collettivo 30.12.2005
+
+
+# formato delle informazioni sulle email:
+# <indirizzo_email>::<subject_della_email>::<testo nella finestra tooltip>
+[info_email]
+caposeleweb@yahoo.it::Lettera%20alla%20Stralaceno::Scrivici, se vuoi pubblicheremo la tua mail in questa sezione!
