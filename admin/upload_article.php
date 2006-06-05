@@ -5,10 +5,20 @@ require_once('../libreria.php');
 # dichiara variabili
 extract(indici());
 
+/*
+questa libreria esamina i cookies o i parametri http (eventualmente) inviati, e genera l'array $login con i campi
+'username',	: login
+'usergroups',	: lista dei gruppi di appartenenza (separati da virgola)
+'status',		: stato del login: 'none','ok_form','ok_cookie','error_wrong_username','error_wrong_userpass','error_wrong_challenge','error_wrong_IP'
+*/
+require_once('../login.php');
+
+
 // verifica che si stia arrivando a questa pagina da quella amministrativa principale
-if ( !isset($_SERVER['HTTP_REFERER']) | ("http://".$_SERVER['HTTP_HOST'].$script_abs_path."admin/" != substr($_SERVER['HTTP_REFERER'],0,strrpos($_SERVER['HTTP_REFERER'],'/')+1) ) )
+if ( !isset($_SERVER['HTTP_REFERER']) | ("http://".$_SERVER['HTTP_HOST'].$script_abs_path."admin/" != substr($_SERVER['HTTP_REFERER'],0,strrpos($_SERVER['HTTP_REFERER'],'/')+1) ) !
+(!in_array($login['status'],array('ok_form','ok_cookie'))) )
 {
-	header("Location: ".$script_abs_path."admin/index.php");
+	header("Location: ".$script_abs_path."index.php");
 	exit();
 }
 
