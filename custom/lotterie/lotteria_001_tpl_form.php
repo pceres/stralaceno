@@ -38,6 +38,13 @@ $question_tag_format = "question_%02d";	// da non modificare
 
 $id_questions = 1;	// numero della lotteria corrente (usato in lotteria_XXX.txt)
 
+// $helper_msg = 'Per aiutarti nella giocata, usa l\'utile strumento disponibile su Caposeleonline:file:///home/ceres/Desktop/tab-mond-06.htm';
+// $data_msg = 'file:///home/ceres/Desktop/tab-mond-06.htm';
+
+// print_r($lotteria["msg_custom"]);
+$alert_msg = $lotteria["msg_custom"][0][0];
+$helper_msg = $lotteria["msg_custom"][0][1];
+$data_msg = $lotteria["msg_custom"][0][2];
 ?>
 
 
@@ -64,7 +71,12 @@ $id_questions = 1;	// numero della lotteria corrente (usato in lotteria_XXX.txt)
 	
 </HEAD>
 
-<BODY TEXT="#000000" OnLoad="alert(itoa(12));">
+<BODY TEXT="#000000" <?php
+if (!empty($alert_msg))
+{
+	echo "OnLoad=\"alert('".str_replace("'","\\'",$alert_msg)."');\""; 
+}
+?>>
 <!--BODY TEXT="#000000"-->
 
 <!--
@@ -477,10 +489,24 @@ if (!empty($nominativo)) { ?>
 			<TD ALIGN=CENTER BGCOLOR="#CCFFFF">1gr.H-2gr.G (W8)</TD>
 		</TR>
 		<TR>
-			<TD HEIGHT=16 ALIGN=LEFT><BR></TD>
-			<TD ALIGN=LEFT><BR></TD>
-			<TD ALIGN=LEFT><BR></TD>
-			<TD ALIGN=LEFT><BR></TD>
+			<TD HEIGHT=16 ALIGN=CENTER COLSPAN="4">
+<?php 
+if (!empty($helper_msg))
+{
+	echo "<a href=\"$data_msg\"><b>\n";
+	echo "$helper_msg\n";
+	echo "</b></a>\n";
+}
+else
+{
+	echo "<br>";
+}
+?>
+			</TD>
+			<!--TD HEIGHT=16 ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR>2</TD>
+			<TD ALIGN=LEFT><BR>3</TD>
+			<TD ALIGN=LEFT><BR>4</TD-->
 			<TD ALIGN=LEFT><BR></TD>
 			<TD ALIGN=LEFT><BR></TD>
 			<TD ALIGN=LEFT><BR></TD>
