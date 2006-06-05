@@ -1,5 +1,3 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
 <?php
 
 require_once('../libreria.php');
@@ -7,15 +5,29 @@ require_once('../libreria.php');
 # dichiara variabili
 extract(indici());
 
-// verifica che si stia arrivando a questa pagina da ../index.php
+/*
+questa libreria esamina i cookies o i parametri http (eventualmente) inviati, e genera l'array $login con i campi
+'username',	: login
+'usergroups',	: lista dei gruppi di appartenenza (separati da virgola)
+'status',		: stato del login: 'none','ok_form','ok_cookie','error_wrong_username','error_wrong_userpass','error_wrong_challenge','error_wrong_IP'
+*/
+require_once('../login.php');
+
+
+// verifica che si stia arrivando a questa pagina da ../index.php (unico punto di accesso al sottodominio admin/), oppure da altre pagine in admin/
 $referer = $_SERVER['HTTP_REFERER'];
-if ( !isset($_SERVER['HTTP_REFERER']) | (strpos($referer,"http://".$_SERVER['HTTP_HOST'].$script_abs_path."index.php")!='0') )
+if ( !isset($_SERVER['HTTP_REFERER']) |
+( (strlen(strpos($referer,"http://".$_SERVER['HTTP_HOST'].$script_abs_path."index.php").' ') == 1) &
+("http://".$_SERVER['HTTP_HOST'].$script_abs_path."admin/" != substr($referer ,0,strrpos($referer ,'/')+1) ) ) |
+(!in_array($login['status'],array('ok_form','ok_cookie'))) )
 {
 	header("Location: ".$script_abs_path."index.php");
 	exit();
 }
 
 ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
 <head>
   <title>Amministrazione</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -26,6 +38,22 @@ if ( !isset($_SERVER['HTTP_REFERER']) | (strpos($referer,"http://".$_SERVER['HTT
 <body class="admin">
 
 <script type="text/javaScript" src="<?php echo $site_abs_path ?>admin/md5.js"></script>
+
+<?php 
+// solo il root admin ha accesso qui
+if (group_match(split(',',$usergroups),array("root_admin")))
+{
+?>
+<form action="manage_root_admin.php" method="post" onSubmit="cripta_campo_del_form(this,'password')">
+Gestione amministrativa di root: Password: <input name="password" type="password">
+<input type="submit" value="Vai">
+</form>
+
+<hr>
+<?php 
+}
+?>
+
 
 <?php 
 $name = $filename_tempi;
@@ -82,11 +110,7 @@ e della <a href='manage_config_file.php?config_file=layout_right.txt'>colonna de
 
 <hr>
 
-<a href='manage_config_file.php?config_file=pregfas.txt'>Gestione registro dei fanfaroni</a>
-
-<hr>
-
-<a href='manage_config_file.php?config_file=lettere_sito.txt'>Gestione "Le vostre lettere"</a>
+<a href='manage_modules.php'>Gestione moduli</a>
 
 <hr>
 
@@ -94,8 +118,6 @@ e della <a href='manage_config_file.php?config_file=layout_right.txt'>colonna de
 Gestione lotterie e questionari: Password: <input name="password" type="password">
 <input type="submit" value="Vai">
 </form>
-
-<hr>
 
 <?php
 # logga il contatto
