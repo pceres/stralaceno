@@ -123,6 +123,7 @@ $mese = substr($data,9,2);
 $anno = substr($data,12,4);
 
 $mins = (((($anno*12+$mese)*31+$giorno)*24+$ore)*60+$minuti)*60;
+//$mins = mktime($ore,$minuti,00,$mese,$giorno,$anno); !!! finita la lotteria sondaggio 2006, questa linea andra' decommentata, perche' piu' corretta
 
 return array($mins,$anno,$mese,$giorno,$ore,$minuti);
 } // end function parse_date
@@ -490,6 +491,10 @@ case "save":
 	{
 		//registra la giocata
 		$cf = fopen($file_log_questions, 'a');
+		if (!$cf)
+		{
+			die("Il file $file_log_questions e' probabilmente protetto in scrittura. Contattare l'amministratore.");
+		}
 		fwrite($cf, $log);
 		fclose($cf);
 		
@@ -956,10 +961,23 @@ case "distanza":
 	break;
 case "data_giocata":
 	//$time_giocata = $giocata[1];	// valore numerico corrispondente all'istante dell'effettivo salvataggio della giocata
-	$time_giocata = parse_date($giocata[2]);// stringa corrispondente alla data che fa fede per la giocata
-	$time_giocata = $time_giocata[0];	// valore numerico corrispondente
+	$tempi_giocata = parse_date($giocata[2]);// stringa corrispondente alla data che fa fede per la giocata
+	$time_giocata = $tempi_giocata[0];	// valore numerico corrispondente
 	
-	$time_0 = parse_date('02:00 30/08/1970');
+	switch ($tempi_giocata[2])
+	{
+		case 4:
+			$time_0 = parse_date('02:00 30/08/1970');
+			break;
+		case 5:
+			$time_0 = parse_date('02:00 31/08/1970');
+			break;
+		case 6:
+			$time_0 = parse_date('02:00 31/08/1970');
+			break;
+	}
+	//$delta = mktime(02,00,00,08,30,1970);
+//int mktime ( int hour, int minute, int second, int month, int day, int year [, int is_dst] )
 	$delta = ($giocata[1]-($time_giocata-$time_0[0]));	// differenza tra l'istante di giocata e la data che fa fede per la classifica
 	
 	$punteggio = $time_giocata+0;
