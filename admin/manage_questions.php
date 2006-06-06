@@ -5,10 +5,20 @@ require_once('../libreria.php');
 # dichiara variabili
 extract(indici());
 
+/*
+questa libreria esamina i cookies o i parametri http (eventualmente) inviati, e genera l'array $login con i campi
+'username',	: login
+'usergroups',	: lista dei gruppi di appartenenza (separati da virgola)
+'status',		: stato del login: 'none','ok_form','ok_cookie','error_wrong_username','error_wrong_userpass','error_wrong_challenge','error_wrong_IP'
+*/
+require_once('../login.php');
+
+
 // verifica che si stia arrivando a questa pagina da quella amministrativa principale
-if ( !isset($_SERVER['HTTP_REFERER']) | ("http://".$_SERVER['HTTP_HOST'].$script_abs_path."admin/" != substr($_SERVER['HTTP_REFERER'],0,strrpos($_SERVER['HTTP_REFERER'],'/')+1) ) )
+if ( !isset($_SERVER['HTTP_REFERER']) | ("http://".$_SERVER['HTTP_HOST'].$script_abs_path."admin/" != substr($_SERVER['HTTP_REFERER'],0,strrpos($_SERVER['HTTP_REFERER'],'/')+1) ) |
+(!in_array($login['status'],array('ok_form','ok_cookie')))  )
 {
-	header("Location: ".$script_abs_path."admin/index.php");
+	header("Location: ".$script_abs_path."index.php");
 	exit();
 }
 
@@ -60,7 +70,6 @@ $file_log_questions = $questions_dir."lotteria_".sprintf("%03d",$id_questions)."
 $file_questions_ans = $root_path."custom/lotterie/lotteria_".sprintf("%03d",$id_questions)."_ans.php";	// nome del file con le risposte esatte
 $file_template_ans = $root_path."custom/lotterie/lotteria_".sprintf("%03d",$id_questions)."_tpl_results.php";	// nome del template per i risultati
 $file_template_form = $root_path."custom/lotterie/lotteria_".sprintf("%03d",$id_questions)."_tpl_form.php";	// nome del template per il form
-
 
 if (file_exists($file_questions))
 {
@@ -160,7 +169,8 @@ case 'edit':
 	
 	// visualizzazione di tutte le giocate
 	echo "<hr>";
-	echo "<a href=\"manage_questions.php?task=show_giocate&amp;data=$id_questions\">Visualizza giocate</a>";
+	echo "<a href=\"manage_questions.php?task=show_giocate&amp;data=$id_questions\">Visualizza giocate grezze</a><br>\n";
+	echo "<a href=\"../questions.php?action=results&amp;id_questions=$id_questions&amp;debug=full\">Visualizza giocate ordinate</a>";
 	
 	// gestione supplementare files di chiavi
 	if ($lotteria_auth == 'key')
