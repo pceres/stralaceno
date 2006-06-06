@@ -71,6 +71,7 @@ droplist_atleti::Archivio storico personale: ::modulo::::
 archivio_storico::Archivio storico (tutti i risultati ordinati per tempi)::tempi::::
 grafico_tempi::Grafico andamento tempi negli anni::tempi::::
 classifica_partecipazioni::Classifica partecipazioni::tempi::::::
+#rendiconto_2005_ARS::Rendiconto e relazione ARS 2005::external_link::custom/moduli/organizzatori/Rendiconto_e_Relazione_anno_2005_ARS.pdf
 #personaggi::I personaggi::modulo_custom::::
 
 [Delimitazione_1]
@@ -90,4 +91,4 @@ pregfas::Registro Fanfaroni (Pregfas)::modulo_custom::::
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Login] non prevede sottoelementi
 
 [Pagine in preparazione]
-sondaggio::Sondaggio Stralaceno 2006::external_link::http://localhost/work/stralaceno/questions.php?id_questions=2::
+sondaggio::Sondaggio StralacenoWeb 2006::external_link::http://localhost/work/stralaceno/questions.php?id_questions=2::
