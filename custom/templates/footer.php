@@ -10,8 +10,8 @@ inizio footer
 		  <td align="right"><small>Informazioni sulla Stralaceno</small></td>
 		  <td><small>:</small></td>
 		  <td align="left" style="font-style: italic;"><small><a
-			 href="mailto:stralaceno@freepass.it?subject=Info%20sulla%20Stralaceno"
-			 title="Info sulla Stralaceno">stralaceno@freepass.it</a> </small></td>
+			 href="mailto:<?php echo $email_info ?>?subject=Contattaci"
+			 title="Contattaci"><?php echo $email_info ?></a> </small></td>
 		</tr>
 		
 		<tr>
