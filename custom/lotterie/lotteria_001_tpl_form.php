@@ -38,6 +38,13 @@ $question_tag_format = "question_%02d";	// da non modificare
 
 $id_questions = 1;	// numero della lotteria corrente (usato in lotteria_XXX.txt)
 
+// $helper_msg = 'Per aiutarti nella giocata, usa l\'utile strumento disponibile su Caposeleonline:file:///home/ceres/Desktop/tab-mond-06.htm';
+// $data_msg = 'file:///home/ceres/Desktop/tab-mond-06.htm';
+
+// print_r($lotteria["msg_custom"]);
+$alert_msg = $lotteria["msg_custom"][0][0];
+$helper_msg = $lotteria["msg_custom"][0][1];
+$data_msg = $lotteria["msg_custom"][0][2];
 ?>
 
 
@@ -64,7 +71,12 @@ $id_questions = 1;	// numero della lotteria corrente (usato in lotteria_XXX.txt)
 	
 </HEAD>
 
-<BODY TEXT="#000000" OnLoad="alert(itoa(12));">
+<BODY TEXT="#000000" <?php
+if (!empty($alert_msg))
+{
+	echo "OnLoad=\"alert('".str_replace("'","\\'",$alert_msg)."');\""; 
+}
+?>>
 <!--BODY TEXT="#000000"-->
 
 <!--
@@ -126,7 +138,12 @@ function occurrencies(ago,pagliaio)
 function check_input(f)
 {
 // Questa funzione verifica la correttezza della giocata prima di inviare i dati per il salvataggio
-
+	
+	index_check_gironi_ok = 0;
+	allow_errors = new Array; // 0 -> l'errore non permette il salvataggio; 1 -> viene visualizzato soltanto un warning
+	
+	allow_errors[index_check_gironi_ok] = 0; // mettere a 0 per impedire di giocare con un errore alla regola "due squadre per ciascun girone"
+	
 	list = new Array;
 	for (ii = 0; ii < f.elements.length; ii++)
 	{
@@ -215,6 +232,7 @@ function check_input(f)
 		}
 		
 	}
+	
 	// visualizza messaggio d'errore nel caso non siano indicate 2 squadre per girone
 	if (gironi_errati)
 	{
@@ -234,7 +252,11 @@ function check_input(f)
 			}
 		}
 		alert(msg);
-		return false;
+		// se non sei in admin_mode, e non e' consentito violare la regola "2 squadre per girone", esci senza salvare
+		if ((!0<?php echo $admin_mode; ?>) & (!allow_errors[index_check_gironi_ok]))
+		{
+			return false;
+		}
 	}
 	
 	
@@ -467,10 +489,24 @@ if (!empty($nominativo)) { ?>
 			<TD ALIGN=CENTER BGCOLOR="#CCFFFF">1gr.H-2gr.G (W8)</TD>
 		</TR>
 		<TR>
-			<TD HEIGHT=16 ALIGN=LEFT><BR></TD>
-			<TD ALIGN=LEFT><BR></TD>
-			<TD ALIGN=LEFT><BR></TD>
-			<TD ALIGN=LEFT><BR></TD>
+			<TD HEIGHT=16 ALIGN=CENTER COLSPAN="4">
+<?php 
+if (!empty($helper_msg))
+{
+	echo "<a href=\"$data_msg\"><b>\n";
+	echo "$helper_msg\n";
+	echo "</b></a>\n";
+}
+else
+{
+	echo "<br>";
+}
+?>
+			</TD>
+			<!--TD HEIGHT=16 ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR>2</TD>
+			<TD ALIGN=LEFT><BR>3</TD>
+			<TD ALIGN=LEFT><BR>4</TD-->
 			<TD ALIGN=LEFT><BR></TD>
 			<TD ALIGN=LEFT><BR></TD>
 			<TD ALIGN=LEFT><BR></TD>
@@ -1391,7 +1427,7 @@ if (!empty($nominativo)) { ?>
 
 </TD>
 			<TD ALIGN=LEFT><BR></TD>
-			<TD ALIGN=LEFT BGCOLOR="#FFFF99">30/06 h. 17</TD>
+			<TD ALIGN=LEFT BGCOLOR="#FFFF99">04/07 h. 21</TD>
 			<TD ALIGN=LEFT BGCOLOR="#FFFF99">Dortmund</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFFF99">S1-S2 (F1)</TD>
 		</TR>
@@ -1566,7 +1602,7 @@ if (!empty($nominativo)) { ?>
 
 </TD>
 			<TD ALIGN=LEFT><BR></TD>
-			<TD ALIGN=LEFT BGCOLOR="#FFFF99">30/06 h. 21</TD>
+			<TD ALIGN=LEFT BGCOLOR="#FFFF99">05/07 h. 21</TD>
 			<TD ALIGN=LEFT BGCOLOR="#FFFF99">Munich</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFFF99">S3-S4 (F2)</TD>
 		</TR>
