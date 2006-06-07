@@ -198,5 +198,12 @@ dscn5735.jpg::Cimitero comunale::
 dscn5747.jpg::Hotel Testa::
 dscn5749.jpg::Basilica San Gerardo::
 dscn5752.jpg::Piani (piscina comunale)::
-dscn5756.jpg::Piazza Sanit&agrave; 2::
+dscn5756.jpg::Piazza Sanit&agrave;2::
+
+[2006]
+stra06.jpg::logo Stralaceno 2006
+
+[prova]
+stra06.jpg::
+stra06_2.jpg::
 
