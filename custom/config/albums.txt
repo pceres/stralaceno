@@ -180,7 +180,7 @@ dscn5448.jpg::Tutto ok::Scongiurata l'invasione di pecore e cavalli, constatato 
 dscn5414.jpg::Foto al fotografo::Chiudiamo con chi ha avuto il merito di catturare queste immagini: il fotografo ufficiale e le sue preziose collaboratrici::Nicoletta Ceres, Michele Ceres, Pina Nigro
 
 [generico1]
-ars.jpg:: 
+#ars.jpg:: 
 retro.gif::logo trasparente::
 STRA2005GIF.gif::Grafica maglietta 2005::
 
@@ -198,7 +198,14 @@ dscn5735.jpg::Cimitero comunale::
 dscn5747.jpg::Hotel Testa::
 dscn5749.jpg::Basilica San Gerardo::
 dscn5752.jpg::Piani (piscina comunale)::
-dscn5756.jpg::Piazza Sanit&agrave; 2::
+dscn5756.jpg::Piazza Sanit&agrave;2::
+
+[2006]
+stra06.jpg::logo Stralaceno 2006
+
+#[prova]
+#stra06.jpg::
+#stra06_2.jpg::
 
 [All.Coll.05]
 ManifestoAll.Coll.05.jpg::
