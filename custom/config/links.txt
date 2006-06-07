@@ -6,7 +6,7 @@
 # una linea che inizia con # viene ignorata
 #
 
-http://ars.altervista.org/::<b>ArsWeb</b>
+http://ars.altervista.org/::<b>ARS Web</b>
 http://www.caposeleonline.it::Caposeleonline
 http://www.lagolaceno.it/::Lago Laceno
 #http://www.skilaceno.com/::Sciare a Laceno
