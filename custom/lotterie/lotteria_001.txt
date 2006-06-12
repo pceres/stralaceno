@@ -210,7 +210,7 @@ Inghilterra::stat_risposta::Posizionamento <span class="hi">Inghilterra</span>::
 # Messaggi custom: possono essere in qualsiasi forma, vi si accede come $lotteria['msg_custom'][<numero_riga>][<numero_colonna>]
 #
 [msg_custom]
-Consulta l'utile strumento disponibile su Caposeleonline:http://www.caposeleonline.it/tab-mond-06.htm::Consulta l'utile strumento disponibile su Caposeleonline:http://www.caposeleonline.it/tab-mond-06.htm::http://www.caposeleonline.it/tab-mond-06.htm
+Consulta il tabellone di aiuto alla compilazione su Caposeleonline:http://www.caposeleonline.it/tab-mond-06.htm::Consulta il tabellone di aiuto alla compilazione su Caposeleonline:http://www.caposeleonline.it/tab-mond-06.htm::http://www.caposeleonline.it/tab-mond-06.htm
 
 
 [Gruppo Girone A]
