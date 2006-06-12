@@ -8,5 +8,5 @@
 #
 
 [elenco_moduli]
-lettere_sito::Lettere alla Stralaceno
+lettere_sito::Le vostre lettere
 pregfas::Pubblico REgistro dei Grandi FAnfaroni della Stralaceno
