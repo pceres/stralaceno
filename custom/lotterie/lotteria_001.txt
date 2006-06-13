@@ -212,6 +212,20 @@ Inghilterra::stat_risposta::Posizionamento <span class="hi">Inghilterra</span>::
 [msg_custom]
 Consulta il tabellone di aiuto alla compilazione su Caposeleonline:http://www.caposeleonline.it/tab-mond-06.htm::Consulta il tabellone di aiuto alla compilazione su Caposeleonline:http://www.caposeleonline.it/tab-mond-06.htm::http://www.caposeleonline.it/tab-mond-06.htm
 
+#
+# stile riga
+# <tag>::<caption>::<stile_CSS>
+#
+#	<tag> 		: testo usato nell'interfaccia amm., associato a ciascun biglietto giocato
+#	<caption>	: descrizione usata in legenda
+#	<stile_CSS>	: stile CSS usato per la riga rispettiva
+#
+[stili_riga]
+gens_silarensis:: Gens Silarensis::
+gens_compsae:: Gens Compsae::background:#FFFFAA;
+gens_hirpina:: Gens Hirpina::background:#AAFFAA;
+gens_ambrosiana:: Gens Ambrosiana::background:#EECCFF;
+
 
 [Gruppo Girone A]
 Germania
