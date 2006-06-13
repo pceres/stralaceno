@@ -213,7 +213,7 @@ $symbol_1_partecipazione= '<img src="'.$site_abs_path.'images/0x2606(star).bmp" 
 $symbol_1_partecipazione_best	= '<img src="'.$site_abs_path.'images/0x2606(star_best).bmp" style="display:inline;" align="middle" height="13" alt="1a partecipazione" border="0">';
 $symbol_record  		= '<img src="'.$site_abs_path.'images/0x263A(smiling_face).bmp" style="display:inline;" align="middle" height="13" alt="record personale" border="0">';
 $symbol_record_best		= '<img src="'.$site_abs_path.'images/0x263A(smiling_face_best).bmp" style="display:inline;" align="middle" height="13" alt="record personale assoluto" border="0">';
-$symbol_info			= '<img src="'.$site_abs_path.'images/info.jpg" border="0" width="12">';
+$symbol_info			= '<img src="'.$site_abs_path.'images/info.jpg" border="0" width="12" alt="more info">';
 $homepage_link 			= '<hr><div align="right"><a class="txt_link" href="'.$script_abs_path.'index.php">Torna alla homepage</a></div>';
 
 #admin
@@ -374,6 +374,9 @@ if (count($legenda_ordinata) > 0)
 
 
 function show_table($archivio,$mask,$class,$num_colonne = 1,$font_size = -1,$show_note = 1,$tooltip_data) {
+// $prestazione = $archivio[1];
+// $prestazione['info'] -> legenda
+// $prestazione['stile_riga'] -> <tr style="$prestazione['stile_riga']">
 
 # dichiara variabili
 extract(indici());
@@ -426,7 +429,14 @@ for ($i = 1; $i < count($archivio); $i++) {
 	$prestazione = $archivio[$i];
 	
 	# stile riga:
-	$style_row = " ";
+	if (empty($prestazione['stile_riga']))
+	{
+		$style_row = " ";
+	}
+	else
+	{
+		$style_row = " style=\"".$prestazione['stile_riga']."\"";
+	}
 
 	$classe = "";
 	# primo arrivato
@@ -443,7 +453,7 @@ for ($i = 1; $i < count($archivio); $i++) {
 		$classe .= "atleta_maschio";
 	}
 	
-	$style_row = "class=\"$classe\"";
+	$style_row .= " class=\"$classe\"";
 
 	echo "<tr ".$style_row.">";
 
