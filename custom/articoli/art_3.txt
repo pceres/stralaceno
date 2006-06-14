@@ -1,7 +1,7 @@
 Autore::
 Titolo::Cos'&egrave; la corsa campestre
 --- Begin body ---
-<p>
+<br>
 La stagione di corsa campestre si sviluppa normalmente nei mesi invernali dopo la chiusura della stagione su pista.<p>
 Il percorso &egrave; tracciato su di un'area aperta e boschiva, coperta il 
 pi&ugrave; possibile da prato, con ostacoli naturali che possono essere usati dal tracciatore del percorso
