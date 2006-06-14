@@ -1,7 +1,7 @@
 Autore::
 Titolo::Sondaggio Mondiali di Calcio 2006
 --- Begin body ---
-<p>Le <b>Caratteristiche Principali</b> del sondaggio-studio proposto dall'ARS sul mondiale di calcio in Germania:
+<br>Le <b>Caratteristiche Principali</b> del sondaggio-studio proposto dall'ARS sul mondiale di calcio in Germania:
 <p>
 <b>Criteri di determinazione della classifica finale</b>
 <ul>

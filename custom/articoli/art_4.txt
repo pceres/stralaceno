@@ -1,7 +1,7 @@
 Autore::
 Titolo::Allenarsi alla Palmenta
 --- Begin body ---
-<p>
+<br>
 	A Caposele sono diversi i percorsi disponibili per la pratica podistica, quali ad es. il circuito a Ponte 
 	Sele, quello di Laceno, ecc. Da pochissimo si &egrave; aperta una ulteriore possibilit&agrave;: quella di
 	allenarsi sul bordo del campo della Palmenta. Tale percorso presenta, rispetto agli altri citati, diversi 
