@@ -1,0 +1,244 @@
+Autore::Ars
+Titolo::Statistiche Sondaggio Mondiali 2006
+--- Begin body ---
+<br>Le giocate si sono chiuse come previsto alle ore 18 del giorno 8 giugno 2006. Da quel momento &egrave; disponibile la <a href="questions.php?id_questions=1">classifica</a> di tutte le giocate regolari, con il nome dei giocatori visibile. Per rendere pi&ugrave; avvincente la sfida, abbiamo indicato anche la provenienza dei giocatori.
+<br>
+<br>Man mano che gli incontri dei Mondiali si diputeranno, la classifica sar&agrave; aggiornata con i nuovi risultati, per cui potrete seguire costantemente le sorti della vostra giocata (e della vostra gens!). Buon divertimento!
+<br>
+<br>
+<p>Una elaborazione statistica delle giocate la trovate seguendo <a href="statistiche.php?action=show&amp;id_questions=1">il link nella colonna destra</a>. Se avete proposte o suggerimenti riguardo a qualche tipo di statistica sulle giocate effettuate, scriveteci!
+<p>A titolo di esempio, riportiamo, in basso, quella relativa alla squadra indicata come campione del mondo.<br>
+<br>
+Ci piacerebbe ricevere i vostri commenti (che, se vorrete, pubblicheremo su questo sito) riguardo alle giocate effettuate: come mai cos&igrave; pochi hanno indicato la Germania come squadra vincente, nonostante sia favorita dal fatto di organizzare i Mondiali?<br>
+<style type="text/css">
+/* questo tag style serve per visualizzare correttamente la tabella, non cancellare! */
+/*********
+ GENERICI
+**********/
+p,
+form {
+ margin: 0px;
+}
+/*******
+ TITOLI
+********/
+p.title {
+ margin: 20px auto 0px auto;
+ border-bottom: 2px rgb(255,128,0) solid;
+ border-left: 10px rgb(255,128,0) solid;
+ padding: 1px 10px;
+ background-color: rgb(245,245,245);
+ font-family: Verdana;
+ font-size: 17px;
+ color: rgb(60,60,80);
+}
+p.title span.hi {
+ padding: 0px 2px;
+ color: rgb(50,100,140);
+}
+/********
+ GRAFICI 
+*********/
+table.graph {
+ width: 100%;
+ height: auto;
+ margin: 20px auto;
+ table-layout: fixed;
+}
+table.graph td.item,
+table.graph td.chart,
+table.graph td.percentage {
+ border-bottom: 1px rgb(245,245,245) solid;
+ padding: 1px 3px;
+ background-color: trasparent;
+ font-family: "Courier New";
+ font-size: 12px;
+ color: rgb(0,0,20);
+}
+table.graph * td.bar {
+ width: auto;
+ height: auto;
+ border-top: 5px rgb(255,255,255) solid;
+ border-bottom: 3px rgb(255,255,255) solid;
+ background-color: rgb(200,0,0);
+}
+/******
+ ALTRO
+*******/
+</style>
+<p class="title">Squadra <span class="hi">campione del mondo</span></p>
+<div style="background-color:rgb(255, 255, 255);">
+<table cellspacing="0" cellpadding="0" class="graph">
+<tr>
+	<td colspan="5" class="header"><p>squadra</p></td>	<td colspan="4" class="header"><p>numero preferenze</p></td>	<td colspan="1" class="header"><p>%</p></td></tr>
+<tr>
+	<td colspan="5" class="item"><p>Italia</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:41.88%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">49</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>41.88</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Brasile</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:36.75%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">43</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>36.75</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Argentina</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:5.98%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">7</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>5.98</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Inghilterra</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:4.27%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">5</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>4.27</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Olanda</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:3.41%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">4</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>3.41</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Germania</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:2.56%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">3</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>2.56</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Togo</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:0.85%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">1</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>0.85</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Tunisia</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:0.85%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">1</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>0.85</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Francia</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:0.85%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">1</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>0.85</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Svezia</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:0.85%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">1</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>0.85</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Repubblica Ceca</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:0.85%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">1</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>0.85</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Spagna</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:0.85%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">1</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>0.85</p>
+	</td>
+</tr>
+</table>
+</div>
+--- End body ---
