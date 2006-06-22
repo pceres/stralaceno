@@ -30,3 +30,9 @@ IMG_1620.jpg::
 
 [varie]
 laceno.jpg::Altopiano del Laceno::::
+
+[Soci_ars]
+dscn5313.jpg::Pasquale Ceres::
+dscn5325.jpg::Nicola D'Auria::
+dscn5358.jpg::Alessandro Russomanno::
+dscn5414.jpg::Michele Ceres::
