@@ -53,6 +53,7 @@
 Approfondimenti::
 Amministrazione::admin,soci_ars
 Utente::users
+Bacheca ARS::soci_ars
 Login::guests
 Pagine in preparazione::users
 
@@ -60,6 +61,9 @@ Pagine in preparazione::users
 # da qui sotto inizia il layout vero e proprio
 #
 
+
+[Bacheca ARS]
+soci::I soci ARS::modulo_custom::::
 
 [Approfondimenti]
 link2_lotteria_mondiali_2006::Sondaggio Mondiali 2006::external_link::questions.php?id_questions=1::::
