@@ -1356,10 +1356,10 @@ function show_template($template_path,$template_file)
 							switch ($line_operator)
 							{
 							case '==':
-								$bool_result = ($left_member == $right_member);
+								$bool_result = ($left_member.' ' == $right_member.' ');
 								break;
 							case '!=':
-								$bool_result = ($left_member != $right_member);
+								$bool_result = ($left_member.' ' != $right_member.' ');
 								break;
 							}
 							
