@@ -9,3 +9,4 @@
 
 [elenco_moduli]
 lettere_sito::Le vostre lettere
+soci::Elenco dei soci e news ARS Amatori Running Sele
