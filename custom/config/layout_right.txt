@@ -57,6 +57,7 @@ Sondaggi::
 Delimitazione_2::
 Utente::users
 Amministrazione::admin,soci_ars
+Bacheca ARS::soci_ars
 Login::guests
 Pagine in preparazione::admin
 
@@ -85,6 +86,9 @@ link_lotteria_mondiali_2006::Sondaggio Mondiali 2006::external_link::questions.p
 
 [Amministrazione]
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Amministrazione] non prevede sottoelementi
+
+[Bacheca ARS]
+soci::I soci ARS::modulo_custom::::
 
 [Login]
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Login] non prevede sottoelementi
