@@ -1037,7 +1037,10 @@ function template_to_effective($line_in)
 		"%config_dir%","%modules_dir%","%questions_dir%");
 	$effective = array($script_abs_path,$site_abs_path,$web_title,$web_keywords,$filename_css,$homepage_link,
 		$config_dir,$modules_dir,$questions_dir);
-	return str_replace($template, $effective, $line_in);
+	
+	$line_out = str_replace($template, $effective, $line_in);
+	
+	return $line_out;
 }
 	
 	
@@ -1296,7 +1299,7 @@ function show_template($template_path,$template_file)
 				$stato = 1;
 				
 				# on exit
-				$template = '';
+				$template = array();
 				$ks = substr($line,11,-1);
 				$info = explode(" ",$ks);
 				$config_file = $info[0];
@@ -1327,14 +1330,58 @@ function show_template($template_path,$template_file)
 						// sostituisci i nomi %file_root%,ecc con l'effettivo testo
 						$item[$i] = template_to_effective($item[$i]);
 					}
-					echo str_replace($arr_template, $item, $template);
+					
+					// sostituisci le & con &amp;
+					// array_push($arr_template,"&");
+					// $item[count($item)] = "&amp;";
+					
+					# gestione sintassi su linea singola, tipo:
+					# %%%% if %field5%!=''			<a href="%field5%">
+					# %%%% if %field5%=='pippo'		<a href="%field5%">
+					$template_record = '';
+					foreach ($template as $line)
+					{
+						if (strlen(strstr($line,"%%%% if"))>0)
+						{
+							ereg('if (%field([0-9]+)%)(.{2})\'([^\']*)\'(.*)$',$line,$output);
+							$field_alias=$output[1];
+							$right_member = $output[4];
+							$line_output = $output[5];
+							$line_operator = $output[3];
+							
+							$field_id = array_search($field_alias,$arr_template);
+							$left_member = $item[$field_id];
+							
+							$bool_result = false;
+							switch ($line_operator)
+							{
+							case '==':
+								$bool_result = ($left_member == $right_member);
+								break;
+							case '!=':
+								$bool_result = ($left_member != $right_member);
+								break;
+							}
+							
+							if ($bool_result)
+							{
+								$template_record .= $line_output;
+							}
+						}
+						else
+						{
+							$template_record .= $line;
+						}
+					}
+
+					echo str_replace($arr_template, $item, $template_record);
 				}
 				
 				continue;
 			}
 			
 			// output
-			$template .= template_to_effective($line);
+			array_push($template,template_to_effective($line));
 			break;
 		}
 		
