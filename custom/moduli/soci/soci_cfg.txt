@@ -1,0 +1,35 @@
+#
+# ARS Amatori Running Sele
+#
+
+#
+# formato elenco_soci:  nominativo::email::data_iscrizione::tipo_socio::carica::id_foto::album::note
+#
+# tipo_socio         : "socio fondatore" oppure "socio ordinario"
+# carica             : "Presidente ARS", "Vice Presidente ARS" oppure "Segretario Amministrativo"
+# id_photo e album   : sono nell'ultima parte dell'indirizzo mostrato nel browser quando si visualizza una foto. La foto deve appartenere ad un album.
+# note               : formato libero, si puo' mettere qualsiasi cosa
+#
+[elenco_soci]
+Alessandro Russomanno::alexruss75@yahoo.it::30/03/2005::socio fondatore::Vice Presidente ARS::26::2005::
+Nicola D'Auria::nicolad_auria@libero.it::30/03/2005::socio fondatore::Presidente ARS::3::varie::
+Donatello Cirillo::donateci.77@tiscali.it::30/03/2005::socio fondatore::Segretario Amministrativo ARS::::::
+Pasquale Ceres::pasquale_ceres@yahoo.it::30/03/2005::socio ordinario::Consigliere ARS::4::varie::Webmaster ArsWeb
+Michele Ceres::ceresmichele@yahoo.it::::socio ordinario::::49::2005::
+Valentino  DiMasi::valentinodimasi@tiscali.it::::socio ordinario::::::::
+Salvatore Merola::alfonso.merola@cheapnet.it::::socio ordinario::::::::
+Giuseppe Rosania::profrosania@libero.it::::socio ordinario::::::::
+Lello Viscardi::lello.viscardi@libero.it::::socio ordinario::::::::
+Paolo Viscardi::angeloviscardi@tiscali.it::::socio ordinario::::::::
+Gerardo Martino::gerrymarty@msn.com::::socio ordinario::::::::
+Nicola Cirillo::cirillon@tiscalinet.it::::socio ordinario::::::::
+Rocco Proietto::::::socio ordinario::::::::
+
+#
+# formato elenco_news:  data::news
+#
+[elenco_news]
+08/06/2006::Alle 18 si sono chiuse le giocate per il sondaggio Mondiali di Calcio 2006. Sono state ceduti 152 biglietti, il totale delle offerte raccolte &egrave; di 130 euro, ed infine sono state regolarmente registrate 117 giocate.
+15/04/2006::Il 15 aprile si &egrave; tenuta la relazione annuale, in cui &egrave; stato approvato il rendiconto economico 2005.
+
+
