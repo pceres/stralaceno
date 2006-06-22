@@ -10,3 +10,4 @@
 [elenco_moduli]
 lettere_sito::Lettere alla Stralaceno
 pregfas::Pubblico REgistro dei Grandi FAnfaroni della Stralaceno
+soci::Elenco dei soci e news ARS Amatori Running Sele
