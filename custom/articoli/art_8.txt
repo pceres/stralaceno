@@ -6,12 +6,10 @@ Titolo::Statistiche Sondaggio Mondiali 2006
 <br>Man mano che gli incontri dei Mondiali si diputeranno, la classifica sar&agrave; aggiornata con i nuovi risultati, per cui potrete seguire costantemente le sorti della vostra giocata (e della vostra gens!). Buon divertimento!
 <br>
 <br>
-<p>Una elaborazione statistica delle giocate la trovate seguendo <a href="statistiche.php?action=show&amp;id_questions=1">il link nella colonna destra</a>. Se avete proposte o suggerimenti riguardo a qualche tipo di statistica sulle giocate effettuate, scriveteci!
+<p>Una analisi statistica di tutte le giocate valide, &egrave; disponibile seguendo <a href="http://ars.altervista.org/index.php?page=articolo&amp;art_id=9">questo link</a>. Se avete proposte o suggerimenti riguardo a qualche tipo di statistica sulle giocate effettuate, scriveteci!
 <p>A titolo di esempio, riportiamo, in basso, quella relativa alla squadra indicata come campione del mondo.<br>
 <br>
-Ci piacerebbe ricevere i vostri commenti (che, se vorrete, pubblicheremo su questo sito) riguardo alle giocate effettuate: come mai cos&igrave; pochi hanno indicato la Germania come squadra vincente, nonostante sia favorita dal fatto di organizzare i Mondiali?
-<br>
-
+Ci piacerebbe ricevere i vostri commenti (che, se vorrete, pubblicheremo su questo sito) riguardo alle giocate effettuate: come mai cos&igrave; pochi hanno indicato la Germania come squadra vincente, nonostante sia favorita dal fatto di organizzare i Mondiali?<br>
 <p class="title">Squadra <span class="hi">campione del mondo</span></p>
 <div style="background-color:rgb(255, 255, 255);">
 <table cellspacing="0" cellpadding="0" class="graph">
