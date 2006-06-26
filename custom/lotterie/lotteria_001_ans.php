@@ -5,29 +5,29 @@
 #
 
 # Qualificato ottavi 1 :
-nd
+Germania
 # Qualificato ottavi 2:
-nd
+Ecuador
 # Qualificato ottavi 3:
-nd
+Inghilterra
 # Qualificato ottavi 4:
-nd
+Argentina
 # Qualificato ottavi 5:
-nd
+Olanda
 # Qualificato ottavi 6:
-nd
+Portogallo
 # Qualificato ottavi 7:
-nd
+Brasile
 # Qualificato ottavi 8:
-nd
+Spagna
 # Qualificato ottavi 9:
-nd
+Svezia
 # Qualificato ottavi 10:
-nd
+Messico
 # Qualificato ottavi 11:
-nd
+Italia
 # Qualificato ottavi 12:
-nd
+Ghana
 # Qualificato ottavi 13:
 nd
 # Qualificato ottavi 14:
