@@ -225,6 +225,7 @@ gens_silarensis:: Gens Silarensis::
 gens_compsae:: Gens Compsae::background:#FFFFAA;
 gens_hirpina:: Gens Hirpina::background:#AAFFAA;
 gens_ambrosiana:: Gens Ambrosiana::background:#EECCFF;
+gens_montis_pulvirentis:: Gens Montis Pulvirentis::background:#CCFFFF;
 
 
 [Gruppo Girone A]
