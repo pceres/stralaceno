@@ -1,0 +1,790 @@
+Autore::Ars
+Titolo::Analisi Statistiche Mondiali Germania 2006
+--- Begin body ---
+<br>
+La maggior parte dei partecipanti al sondaggio sui mondiali di calcio 2006 organizzato dall'Ars, ha previsto la vittoria dell'Italia, come si pu&ograve; vedere dal grafico seguente, basato sul campione definitivo di tutte le giocate (117):
+<p class="title">Squadra <span class="hi">campione del mondo</span></p>
+<div style="background-color:rgb(255, 255, 255);">
+<table cellspacing="0" cellpadding="0" class="graph">
+<tr>
+	<td colspan="5" class="header"><p>squadra</p></td>	<td colspan="4" class="header"><p>numero preferenze</p></td>	<td colspan="1" class="header"><p>%</p></td></tr>
+<tr>
+	<td colspan="5" class="item"><p>Italia</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:41.88%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">49</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>41.88</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Brasile</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:36.75%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">43</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>36.75</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Argentina</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:5.98%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">7</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>5.98</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Inghilterra</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:4.27%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">5</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>4.27</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Olanda</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:3.41%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">4</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>3.41</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Germania</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:2.56%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">3</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>2.56</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Togo</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:0.85%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">1</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>0.85</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Tunisia</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:0.85%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">1</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>0.85</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Francia</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:0.85%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">1</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>0.85</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Svezia</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:0.85%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">1</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>0.85</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Repubblica Ceca</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:0.85%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">1</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>0.85</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Spagna</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:0.85%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">1</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>0.85</p>
+	</td>
+</tr>
+</table>
+</div>
+<br>
+Italia e Brasile, insieme, costituiscono quasi l'80% di tutti i pronostici, ma i profili di giocata per le due squadre sono abbastanza differenti:
+<p class="title">Posizionamento <span class="hi">Brasile</span></p>
+<div style="background-color:rgb(255, 255, 255);">
+<table cellspacing="0" cellpadding="0" class="graph">
+<tr>
+	<td colspan="5" class="header"><p>posizione in classifica</p></td>	<td colspan="4" class="header"><p>numero preferenze</p></td>	<td colspan="1" class="header"><p>%</p></td></tr>
+<tr>
+	<td colspan="5" class="item"><p>Qualificato agli ottavi di finale</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:26%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">117</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>26</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Qualificato ai quarti di finale</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:24.22%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">109</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>24.22</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Qualificato in semifinale</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:22.44%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">101</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>22.44</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Qualificato in finale</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:17.77%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">80</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>17.77</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Campione del mondo</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:9.55%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">43</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>9.55</p>
+	</td>
+</tr>
+</table>
+</div>
+<br>
+Tutti i partecipanti al sondaggio (117) hanno stimato che il Brasile si qualificher&agrave; agli ottavi di finale, poi il numero di preferenze va riducendosi sempre pi&ugrave; fino a portare il Brasile al secondo posto nella classifica dei favoriti alla vittoria del campionato.
+<br>
+<br>
+<p class="title">Posizionamento <span class="hi">Italia</span></p>
+<div style="background-color:rgb(255, 255, 255);">
+<table cellspacing="0" cellpadding="0" class="graph">
+<tr>
+	<td colspan="5" class="header"><p>posizione in classifica</p></td>	<td colspan="4" class="header"><p>numero preferenze</p></td>	<td colspan="1" class="header"><p>%</p></td></tr>
+<tr>
+	<td colspan="5" class="item"><p>Qualificato agli ottavi di finale</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:26.55%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">115</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>26.55</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Qualificato ai quarti di finale</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:26.55%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">115</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>26.55</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Qualificato in semifinale</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:21.24%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">92</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>21.24</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Qualificato in finale</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:14.31%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">62</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>14.31</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Campione del mondo</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:11.31%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">49</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>11.31</p>
+	</td>
+</tr>
+</table>
+</div>
+Per quanto riguarda l'Italia, invece, alcuni giocatori non hanno previsto nemmeno la qualificazione agli ottavi, mentre si sono avute un numero addirittura maggiore rispetto al caso del Brasile di preferenze come campione del Mondo. Questo potrebbe indicare che un certo numero di giocatori abbia deciso a priori che la squadra meritava la vittoria, oppure che non si sarebbe nemmeno qualificata alla prima fase eliminatoria.
+<br>
+<br>
+Stranamente la Germania, che col Brasile &egrave; l'unica squadra ad essere stata indicata in tutte le giocate come probabile qualificata agli ottavi, man mano che si sale nelle fasi eliminatorie crolla nelle preferenze fino a raggiungere, come probabile campione del mondo, un'irrisorio 2.56% delle preferenze! Probabilmente si &egrave; ritenuto che l'innegabile vantaggio di giocare in casa, con un pubblico amico, peser&agrave; soltanto nelle primissime fasi del torneo mondiale.
+<br>
+<br>
+Analizzando la statistica relativa alle squadre qualificate agli ottavi di finale:
+<p class="title">Squadra qualificata agli <span class="hi">ottavi di finale</span></p>
+<div style="background-color:rgb(255, 255, 255);">
+<table cellspacing="0" cellpadding="0" class="graph">
+<tr>
+	<td colspan="5" class="header"><p>squadra</p></td>	<td colspan="4" class="header"><p>numero preferenze</p></td>	<td colspan="1" class="header"><p>%</p></td></tr>
+<tr>
+	<td colspan="5" class="item"><p>Brasile</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:6.25%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">117</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>6.25</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Germania</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:6.25%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">117</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>6.25</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Argentina</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:6.19%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">116</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>6.19</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Spagna</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:6.19%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">116</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>6.19</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Francia</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:6.14%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">115</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>6.14</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Italia</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:6.14%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">115</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>6.14</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Inghilterra</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:6.08%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">114</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>6.08</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Portogallo</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:6.08%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">114</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>6.08</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Messico</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:5.82%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">109</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>5.82</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Svezia</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:5.28%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">99</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>5.28</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Ucraina</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:5.23%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">98</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>5.23</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Olanda</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:5.07%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">95</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>5.07</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Repubblica Ceca</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:4.64%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">87</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>4.64</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Croazia</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:3.73%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">70</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>3.73</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Svizzera</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:3.41%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">64</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>3.41</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Polonia</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:2.99%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">56</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>2.99</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Corea Del Sud</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:2.72%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">51</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>2.72</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Ecuador</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:2.08%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">39</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>2.08</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Giappone</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:1.33%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">25</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>1.33</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Australia</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:1.22%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">23</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>1.22</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Costa Rica</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:1.17%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">22</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>1.17</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Paraguay</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:1.06%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">20</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>1.06</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Stati Uniti</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:1.01%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">19</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>1.01</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Tunisia</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:0.96%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">18</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>0.96</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Costa D\'Avorio</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:0.74%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">14</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>0.74</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Ghana</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:0.69%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">13</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>0.69</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Serbia Montenegro</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:0.48%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">9</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>0.48</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Iran</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:0.42%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">8</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>0.42</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Togo</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:0.21%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">4</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>0.21</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Arabia Saudita</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:0.16%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">3</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>0.16</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="item"><p>Angola</p></td>
+	<td colspan="4" class="chart">
+		<table cellspacing="0" cellpadding="0" style="width:100%;height:auto;">
+		<tr>
+			<td class="bar" style="width:0.10%;"><span style="font-size:1px;">&nbsp;</span></td>
+			<td class="hits">2</td>
+		</tr>
+		</table>
+	</td>
+	<td colspan="1" class="percentage">
+		<p>0.10</p>
+	</td>
+</tr>
+</table>
+</div>
+si nota come soltanto una squadra, Trinidad e Tobago, non sia stata mai indicata nemmeno una volta come probabile qualificata alla primissima fase eliminatoria: le auguriamo un simpatico in bocca al lupo!
+--- End body ---
