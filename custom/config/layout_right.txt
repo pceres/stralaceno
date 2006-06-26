@@ -55,7 +55,7 @@ Amministrazione::admin,soci_ars
 Utente::users
 Bacheca ARS::soci_ars
 Login::guests
-Pagine in preparazione::users
+#Pagine in preparazione::users
 
 #
 # da qui sotto inizia il layout vero e proprio
@@ -79,5 +79,5 @@ statistiche_mondiali_2006::Statistiche Sondaggio Mondiali 2006::external_link::s
 [Login]
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Login] non prevede sottoelementi
 
-[Pagine in preparazione]
-statistiche_mondiali_2006_bis::Statistiche Sondaggio Mondiali 2006::external_link::statistiche.php?action=show&id_questions=1::
+#[Pagine in preparazione]
+#statistiche_mondiali_2006_bis::Statistiche Sondaggio Mondiali 2006::external_link::statistiche.php?action=show&id_questions=1::
