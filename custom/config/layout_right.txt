@@ -78,6 +78,7 @@ classifica_partecipazioni::Classifica partecipazioni::tempi::::::
 
 [Sondaggi]
 link_lotteria_mondiali_2006::Sondaggio Mondiali 2006::external_link::questions.php?id_questions=1::::
+statistiche_mondiali_2006::Statistiche Sondaggio Mondiali 2006::external_link::statistiche.php?action=show&id_questions=1::
 
 [Delimitazione_2]
 
@@ -95,5 +96,5 @@ soci::I soci ARS::modulo_custom::::
 
 [Pagine in preparazione]
 pregfas::Registro Fanfaroni (Pregfas)::modulo_custom::::
-statistiche_mondiali_2006::Statistiche Sondaggio Mondiali 2006::external_link::statistiche.php?action=show&id_questions=1::
 sondaggio::Sondaggio StralacenoWeb 2006::external_link::questions.php?id_questions=2::
+forum::Forum::external_link::forum.php::
