@@ -11,25 +11,27 @@
 # note               : formato libero, si puo' mettere qualsiasi cosa
 #
 [elenco_soci]
-Alessandro Russomanno::alexruss75@yahoo.it::30/03/2005::socio fondatore::Vice Presidente ARS::2::Soci_ars::
-Nicola D'Auria::nicolad_auria@libero.it::30/03/2005::socio fondatore::Presidente ARS::1::Soci_ars::
-Donatello Cirillo::donateci.77@tiscali.it::30/03/2005::socio fondatore::Segretario Amministrativo ARS::::::
-Pasquale Ceres::pasquale_ceres@yahoo.it::30/03/2005::socio ordinario::Consigliere ARS::0::Soci_ars::Webmaster ArsWeb
-Michele Ceres::ceresmichele@yahoo.it::::socio ordinario::::3::Soci_ars::
-Valentino  DiMasi::valentinodimasi@tiscali.it::::socio ordinario::::::::
-Salvatore Merola::alfonso.merola@cheapnet.it::::socio ordinario::::::::
-Giuseppe Rosania::profrosania@libero.it::::socio ordinario::::::::
-Lello Viscardi::lello.viscardi@libero.it::::socio ordinario::::::::
-Paolo Viscardi::angeloviscardi@tiscali.it::::socio ordinario::::::::
-Gerardo Martino::gerrymarty@msn.com::::socio ordinario::::::::
-Nicola Cirillo::cirillon@tiscalinet.it::::socio ordinario::::::::
-Rocco Proietto::::::socio ordinario::::::::
+Nicola D'Auria::nicolad_auria@libero.it::30/03/2005::socio fondatore::Presidente::1::Soci_ars::
+Alessandro Russomanno::alexruss75@yahoo.it::30/03/2005::socio fondatore::Vice Presidente::2::Soci_ars::
+Donatello Cirillo::donateci.77@tiscali.it::30/03/2005::socio fondatore::Segretario Amministrativo::5::Soci_ars::
+Pasquale Ceres::pasquale_ceres@yahoo.it::30/03/2005::socio ordinario::Consigliere::0::Soci_ars::Webmaster ArsWeb
+Paolo Viscardi::angeloviscardi@tiscali.it::02/05/2005::socio ordinario::::6::Soci_ars::
+Michele Ceres::ceresmichele@yahoo.it::02/05/2005::socio ordinario::::3::Soci_ars::
+Lello Viscardi::lello.viscardi@libero.it::24/07/2005::socio ordinario::::4::Soci_ars::
+Valentino Di Masi::valentinodimasi@tiscali.it::03/11/2005::socio ordinario::::::::
+Giuseppe Rosania::profrosania@libero.it::03/11/2005::socio ordinario::::::::
+Salvatore Merola::alfonso.merola@cheapnet.it::18/04/2006::socio ordinario::::::::
+Gerardo Martino::gerrymarty@msn.com::18/04/2006::socio ordinario::::::::
+Nicola Cirillo::cirillon@tiscalinet.it::02/05/2006::socio ordinario::::7::Soci_ars::
+Rocco Proietto::::02/05/2006::socio ordinario::::::::
 
 #
 # formato elenco_news:  data::news
 #
 [elenco_news]
-08/06/2006::Alle 18 si sono chiuse le giocate per il sondaggio Mondiali di Calcio 2006. Sono state ceduti 152 biglietti, il totale delle offerte raccolte &egrave; di 130 euro, ed infine sono state regolarmente registrate 117 giocate.
-15/04/2006::Il 15 aprile si &egrave; tenuta la relazione annuale, in cui &egrave; stato approvato il rendiconto economico 2005.
+05/07/2006::Presentata alla Regione Campania domanda di finanziamento per la Stralaceno.
+29/06/2006::In Luglio l'Ars parteciper&agrave;, con una propria rappresentativa podistica, il giorno 15 alla XIII edizione della Corri Roccadaspide (SA) e il giorno 22 alla III edizione della 10 km di Acerno (SA).
+08/06/2006::Alle 18.00 si sono chiuse le giocate per il sondaggio Mondiali di Calcio 2006. Sono state ceduti 152 biglietti, il totale delle offerte raccolte &egrave; di 130 euro, ed infine sono state regolarmente registrate 117 giocate.
+15/04/2006::Il 15 aprile si &egrave; tenuta l'Assemblea annuale dell'Associazione, in cui &egrave; stato approvato il rendiconto economico 2005.
 
 
