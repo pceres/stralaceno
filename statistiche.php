@@ -119,7 +119,6 @@ case "show":
 			}
 		}
 	}
-	//print_r($matr);
 	
 	// crea elenco per ciascuna risposta di $matr
 	$conteggio = array();
@@ -136,8 +135,6 @@ case "show":
 		
 		$conteggio[$id_col] = $temp_stat;
 	}
-	//print_r($conteggio);
-
 	
 	// crea struttura dati per la visualizzazione con show_statistics()
 	$statistiche_results = array();
@@ -190,14 +187,12 @@ case "show":
 				array_push($filtro_domande,$gruppo_domande);
 				$lista_domande_utili = array_merge($lista_domande_utili,$gruppo_domande);
 			}
-			//print_r($filtro_domande);
-
+			
 			// crea elenco per ciascuna colonna di $matr
 			$conteggio_risp = array();
 			$num_campioni = count($matr);
 			$num_stats = count($matr[0]);
 			foreach ($lista_domande_utili as $id_col)
-			//for ($id_col = 0; $id_col < $num_stats;$id_col++)
 			{
 				$lista_gruppi_dest = array();
 				foreach ($filtro_domande as $id_gruppo => $gruppo_domande)
@@ -207,34 +202,24 @@ case "show":
 						array_push($lista_gruppi_dest,$id_gruppo);
 					}
 				}
-/*echo ($id_col).":<br>";
-print_r($lista_gruppi_dest);echo "<br>";
-echo $stat_filtro_caption[$lista_gruppi_dest[0]];
-echo "<br><br>";*/
 				
 				for ($id_campioni = 0; $id_campioni < $num_campioni; $id_campioni++)
 				{
 					$item = $matr[$id_campioni][$id_col-1];
-//echo "$item<br>";
 					foreach ($lista_gruppi_dest as $id_domanda)
 					{
 						$conteggio_risp[$item][$id_domanda] += 1;
 					}
 				}
-				
-//				$conteggio_risp[$id_col] = $temp_stat;
 			}
-//			print_r($conteggio_risp);
 			
 			$result = $conteggio_risp[$risposte_equiv[0]]; // !!!
 
 			$result2=array();
 			foreach ($result as $id_gruppo => $conteggio)
 			{
-//echo "$id_gruppo,$conteggio <br>";
 				$result2[$stat_filtro_caption[$id_gruppo]] = $conteggio;
 			}
-//print_r($result2);
 			$vett_dati = $result2;
 			
 			arsort($vett_dati,SORT_DESC); // ordina (in ordine decrescente) le risposte in base al numero di occorrenze
