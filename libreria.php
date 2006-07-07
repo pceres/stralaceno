@@ -440,7 +440,7 @@ for ($i = 1; $i < count($archivio); $i++) {
 
 	$classe = "";
 	# primo arrivato
-	if ($prestazione[$indice_posiz] == 1) {
+	if ($prestazione[$indice_posiz] === 1) {
 		$classe = "primo ";
 		}
 
@@ -1212,7 +1212,8 @@ function get_config_file($conf_file,$expected_items = 1000)
 	
 	for ($i = 0; $i < count($bulk); $i++)
 	{
-		$ks = trim($bulk[$i]); // elimina i caratteri di fine linea
+// 		$ks = trim($bulk[$i]); // elimina i caratteri di fine linea
+		$ks = rtrim($bulk[$i]); // elimina i caratteri di fine linea
 		if (!empty($ks) & (substr($ks,0,1) != "#") ) // se la linea non e' vuota e non e' un commento...
 		{
 			if (  (substr($ks,0,1) == "[") and (substr($ks,-1) == "]")  )
@@ -1391,6 +1392,7 @@ function show_template($template_path,$template_file)
 
 function group_match($usergroups,$enabled_groups)
 {
+// $enabled_groups: array di gruppi abilitati
 // enabled_group vuoto -> abilitato
 if (empty($enabled_groups[0]))
 {
