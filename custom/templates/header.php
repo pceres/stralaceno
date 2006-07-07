@@ -5,7 +5,7 @@ inizio header
 	  <tbody>
 	  
 		<tr>
-		  <td> <img src="<?php echo $site_abs_path?>custom/images/logo.gif" alt="logo_ars" width="350"> </td>
+		  <td> <img src="<?php echo $site_abs_path?>custom/images/logo.gif" alt="logo_ars"> </td>
 		  <td>
 			<!--object	type="application/x-shockwave-flash" data="<?php echo $site_abs_path ?>/custom/images/barrasuperiore.swf" width="456" height="105">
 				<param name="movie" value="<?php echo $site_abs_path ?>/custom/images/barrasuperiore.swf" />
