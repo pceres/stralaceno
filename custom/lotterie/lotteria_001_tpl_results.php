@@ -177,6 +177,10 @@ foreach ($elenco_giocate2 as $giocata)
 		break;
 	}
 	
+	// inverti data e ora nella data di giocata
+	$data_giocata = substr($data_giocata,strpos($data_giocata,' ')+1).' '.substr($data_giocata,0,strpos($data_giocata,' '));
+
+	
 	// crea giocata
 	$record_new = array();
 	array_push($record_new,$id_della_giocata);
