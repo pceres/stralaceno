@@ -36,3 +36,15 @@ dscn5313.jpg::Pasquale Ceres::
 dscn5325.jpg::Nicola D'Auria::
 dscn5358.jpg::Alessandro Russomanno::
 dscn5414.jpg::Michele Ceres::
+LV.jpg::Lello Viscardi::
+DC.jpg::Donatello Cirillo::
+PV.jpg::Paolo Viscardi::
+NC.JPG::Nicola Cirillo::
+#AR.jpg
+#GM.jpg
+#GR.jpg
+#MC.jpg
+#NDA.jpg
+#PC.jpg
+#RP.jpg
+#VDM.jpg
