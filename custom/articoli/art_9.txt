@@ -6,6 +6,9 @@ Complimenti a <b>Claudio Donatiello</b>, l'unico ad aver indicato tutte e sedici
 <br> Le congratulazioni si estendono anche a <b>Rocco Del Malandrino</b> ed <b>Antonio Acone</b> che hanno centrato entrambe le finaliste. 
 <br>
 <br>
+<b>&Egrave; stato attivato il <a href=forum.php?action=list_topics&amp;data=0>forum</a>: dite anche voi la vostra sull'esito del sondaggio!</b>
+<br>
+<br>
 La maggior parte dei partecipanti al sondaggio sui mondiali di calcio 2006 organizzato dall'Ars, ha previsto la vittoria dell'Italia, come si pu&ograve; vedere dal grafico seguente, basato sul campione definitivo di tutte le giocate (117):
 <p class="title">Squadra <span class="hi">campione del mondo</span></p>
 <div style="background-color:rgb(255, 255, 255);">
