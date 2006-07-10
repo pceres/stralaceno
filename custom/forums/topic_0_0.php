@@ -12,16 +12,16 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 
 [elenco_posts]
 0::ceres::27/06/2006 22.01.00::visible
-1::ceres::29/06/2006 22.01.00::visible
+1::ceres::07/07/2006 23.30.08::visible
 
 [post_text_0]
 Questo e' il primo post di prova.
 Auguro un benvenuto a tutti i visitatori del sito.
 Ho inaugurato questo spazio libero di discussione con la speranza che si instauri un dialogo bidirezionale con i cibernauti caposelesi: troppo spesso
 le nuove tecnologie (informatiche, multimediali, ecc.) sono usate a senso unico, da un fornitore centrale ai tanti utenti che non comunicano tra loro.
-In questo spazio sara' possibile per tutti (gratuitamente e senza nessun vincolo) partecipare alle discussioni e dire la loro.
+In questo spazio sara' possibile per tutti partecipare alle discussioni e dire la loro (gratuitamente e senza nessun vincolo, se non quello di mantenere la discussione nell'ambito della correttezza e del rispetto altrui).
 
 [post_text_1]
-Le prove vanno avanti.
+Da questo momento il forum &egrave; ufficialmente aperto.
 &nbsp;
 Forza, scrivete anche voi!
