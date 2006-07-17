@@ -63,6 +63,8 @@ $forums = get_config_file($file_forums);
 
 $footer_message = 'Servizio forum realizzato da : <a href="http://ars.altervista.org/" target="_blank">ArsWeb</a>';
 
+$default_post_testo = 'Qui il tuo messaggio';
+
 while ($action)
 {
 	switch ($action)
@@ -145,7 +147,7 @@ while ($action)
 		<?php 
 		if (!empty($forum_last_post_author))
 		{
-			echo "$forum_last_post_date<br><br>di $forum_last_post_author";
+			echo "<a href=\"forum.php?action=list_posts&amp;data=$forum_id,$topic_id\">$forum_last_post_date<br><br>di $forum_last_post_author</a>";
 		}
 		else
 		{
@@ -177,6 +179,9 @@ while ($action)
 		
 		$action = '';
 		break;
+		
+		
+		
 		
 	case "list_topics":
 		$id_forum = $data;	// i dati rappresentano il forum
@@ -348,6 +353,10 @@ while ($action)
 		
 		$action = '';
 		break;
+		
+		
+		
+		
 	case "list_posts":
 		$coord_topic = split(',',$data);	// I,Y -> forum I, topic Y -> topic_I_Y.php
 		
@@ -367,7 +376,7 @@ while ($action)
 		$forum_auth_mode = $forum_item[$indice_forums_auth_mode];
 		$forum_topics = $forum_item[$indice_forums_topics];
 		$forum_last_post = split(',',$forum_item[$indice_forums_last_post]);
-
+		
 		// read topic info
 		$file_forum = sprintf($file_forum_format,$forum_id);
 		$topics = get_config_file($file_forum);
@@ -525,17 +534,42 @@ elseif ($post_status == 'censored')
 		}
 		
 		echo '</center>'."\n";
-
-
-
-
-// 		print_r($posts);
-
+		
+		
 		print_footer();
 		
 		$action = '';
 		break;
+		
+		
+		
+		
 	case "new_post":
+/*	
+	Input:	
+		$action_data["new_topic_flag"] = true; --> si tratta di un nuovo topic, $post_type = 'new_topic_post', chiedi anche il titolo
+		$action_data["reply_post"] = true; --> si tratta di un reply ad un altrp post, $post_type = 'reply_post'
+		altrimenti $post_type = 'new_post'
+		
+		$reply_data = array(0=>forum_id,1=>topic_id,2=>post_id)
+*/
+		
+		if ($action_data["new_topic_flag"])
+		{
+			$post_type = 'new_topic_post';
+			$new_post_msg = 'nuova discussione';
+		}
+		elseif ($action_data["reply_post_flag"])
+		{
+			$post_type = 'reply_post';
+			$new_post_msg = 'rispondi al messaggio';
+		}
+		else
+		{
+			$post_type = 'new_post';
+			$new_post_msg = 'nuovo messaggio';
+		}
+		
 		
 		$coord_topic = split(',',$data);	// I,Y -> forum I, topic Y -> topic_I_Y.php
 		
@@ -614,7 +648,7 @@ elseif ($post_status == 'censored')
 	
 	<input name="post_forum_id" value="<?php echo $forum_id; ?>" type="hidden">
 	<input name="post_topic_id" value="<?php echo $topic_id; ?>" type="hidden">
-<!--	<input name="post_id" value="<?php echo $new_post_id; ?>" type="hidden">-->
+	<input name="post_type" value="<?php echo $post_type; ?>" type="hidden">
 	
 	<table class="tabella_forum" align="center" cellpadding="5" cellspacing="1" width="728">
 	<tbody>
@@ -624,8 +658,8 @@ elseif ($post_status == 'censored')
 					<?php echo $web_title; ?></a> »
 				<a href="forum.php?action=list_topics&amp;data=<?php echo $forum_id; ?>" class="sfondoscuro">
 					<?php echo $forum_caption; ?></a> »
-					<?php echo $topic_caption; ?> »
-				nuovo messaggio
+					<?php if (!empty($topic_caption)) {echo "$topic_caption »"; } ?>
+				<?php echo $new_post_msg; ?>
 			</td>
 		</tr>
 		
@@ -657,21 +691,81 @@ elseif ($post_status == 'censored')
 			</td>
 		</tr>
 		
-<!--		<tr class="TSfondoChiaro">
+<?php
+if ($post_type === "new_topic_post")
+{
+?>
+		<tr class="TSfondoChiaro">
 			<td class="Small" align="left" valign="middle">
 				<b>Titolo</b>
 			</td>
 			<td valign="top">
 				<input name="post_titolo" size="40" value="" type="text">
 			</td>
-		</tr>-->
+		</tr>
+<?php
+} // end if ($post_type === "new_topic_post")
+?>
+
+
+
+<?php
+if ($post_type === "reply_post")
+{
+	$post_id = $reply_data[2];
+// 	$post = get_forum_post($reply_data[0],$reply_data[1],$reply_data[2]);
+// 	
+// 	$post_id = $post[$indice_post_id];
+// 	$post_author = $post[$indice_post_author];
+// 	$post_date = $post[$indice_post_date];
+// 	$post_status = $post[$indice_post_status];
+
+	$post_text = $posts['post_text_'.$post_id];
+
+	$bulk_post_text = '';
+	$count_post_text = 0;
+	foreach ($post_text as $line)
+	{
+		$linea = $line[0];
+		
+		$count_post_text += strlen($linea);
+		$bulk_post_text .= $linea."\n";
+	}
+	if ($count_post_text > 800)
+	{
+		$count_post_text = "<font color=\"red\">$count_post_text</font>";
+	}
+
+?>
+		<tr class="TSfondoChiaro">
+			<td class="small" align="left" valign="top"><b>Citazione<br></b>
+				<br>
+				<center>(max 800 caratteri)
+					<br><br>Attuali 
+					<div id="cit"><?php echo $count_post_text; ?></div>
+					caratteri.
+				</center>
+			</td>
+			<td valign="top">
+				<textarea cols="90" rows="10" name="post_citazione" onkeyup="contacar(this);" onchange="contacar(this);"><?php 
+					foreach ($post_text as $line)
+					{
+						echo $line[0]."\n";
+					}
+				?></textarea>
+			</td>
+<?php
+} // end if ($post_type === "reply_post")
+?>
+
+
 		
 		<tr class="TSfondoChiaro">
 			<td class="Small" align="left" valign="top">
 				<b>Messaggio</b>
 			</td>
 			<td valign="top">
-				<textarea cols="90" rows="13" name="post_testo">Qui il tuo messaggio</textarea>
+				<textarea cols="90" rows="13" name="post_testo"><?php echo $default_post_testo; ?></textarea>
 			</td>
 		</tr>
 		
@@ -806,14 +900,19 @@ elseif ($post_status == 'censored')
 		}
 		
 		echo '</center>'."\n";
-
-
+		
+		
 		print_footer();
 		
 		$action = '';
 		break;
 		
+		
+		
+		
 	case "write_post":
+		
+		$post_type = $_REQUEST['post_type'];	// 'new_post','reply_post','new_topic_post'
 		
 		$post_forum_id = $_REQUEST['post_forum_id'];
 		$post_topic_id = $_REQUEST['post_topic_id'];
@@ -821,10 +920,22 @@ elseif ($post_status == 'censored')
 		$post_email = $_REQUEST['post_email'];
 		$post_web = $_REQUEST['post_web'];
 		$post_titolo = $_REQUEST['post_titolo'];
+		$post_citazione = $_REQUEST['post_citazione'];
 		$post_testo = $_REQUEST['post_testo'];
 		$post_azione1 = $_REQUEST['post_azione1'];
 		$post_azione2 = $_REQUEST['post_azione2'];
 		
+		// integra la citazione nel messaggio del testo:
+		if ($post_type === 'reply_post')
+		{
+			$list_post_citazione = split("\n",$post_citazione);
+			$ks_citazione = '';
+			foreach ($list_post_citazione as $linea_citazione)
+			{
+				$ks_citazione .= "&gt;$linea_citazione<br>";
+			}
+			$post_testo = "$ks_citazione<br>$post_testo";
+		}
 		
 		$forum_id = $post_forum_id;
 		$topic_id = $post_topic_id;
@@ -861,18 +972,112 @@ elseif ($post_status == 'censored')
 		$file_topic = sprintf($file_topic_format,$forum_id,$topic_id);
 		$posts = get_config_file($file_topic);
 		
-		$new_post_id = count($posts['elenco_posts']);
-		
-		
-		// verifica autorizzazioni in lettura
-		$usergroups = $login['usergroups'];
-		if (!group_match($usergroups,split(',',$topic_write_groups)))
+		// individua gruppi abilitati in scrittura
+		switch ($post_type)
 		{
-			error_message("Mi dispiace, non sei abilitato a scrivere messaggi in questa discussione.");
+		case 'new_topic_post':
+			$write_groups = $forum_write_groups;
+			$write_error_msg = "aprire nuove discussioni in questo forum";
+			break;
+ 		case 'reply_post':
+		case 'new_post':
+			$write_groups = $topic_write_groups;
+			$write_error_msg = "scrivere messaggi in questa discussione";
+			break;
+		}
+		
+		// verifica autorizzazioni in scrittura
+		$usergroups = $login['usergroups'];
+		if (!group_match($usergroups,split(',',$write_groups)))
+		{
+			$write_post_error = "Mi dispiace, non sei abilitato a $write_error_msg.";
+		}
+		
+		// validazione dei campi
+		if ( (strlen($post_forum_id.' ')==1) | ((strlen($post_topic_id.' ')==1) & ($post_type !== 'new_topic_post')) )
+		{
+			// per un nuovo post o una reply, ci vuole sia forum che topic id (solo forum id per new_topic_post)
+			$write_post_error = "Errore. ($post_forum_id,$post_topic_id)";
+		}
+		if (strlen($post_nick.' ')==1)
+		{
+			// il campo nick non puo' essere vuoto
+			$write_post_error = "Il campo Nome/Nick non pu&ograve; essere lasciato vuoto!";
+		}
+		if ( (strlen($post_titolo.' ')==1) & ($post_type == 'new_topic_post') )
+		{
+			// per un new_topic_post il titolo non puo' essere vuoto
+			$write_post_error = "Il campo Titolo non pu&ograve; essere lasciato vuoto!";
+		}
+		if ($post_testo===$default_post_testo)
+		{
+			// il campo testo non puo' essere vuoto
+			$write_post_error = "Non hai scritto il messaggio!";
+		}
+		$titolo_ultimo_topic = $topics['elenco_topics'][count($topics['elenco_topics'])-1][$indice_topic_caption];
+		if ( ($post_type == 'new_topic_post') & ($titolo_ultimo_topic === $post_titolo) )
+		{
+			// una discussione con quel titolo esiste gia'
+			$write_post_error = "Gi&agrave esiste una discussione con quel titolo!";
+		}
+		
+		// se c'e' un errore, visualizza il messaggio ed esci
+		if (!empty($write_post_error))
+		{
+			// il campo testo non puo' essere vuoto
+			error_message($write_post_error);
 			
 			$action = '';
 			continue;
 		}
+		
+		switch ($post_type)
+		{
+		case 'new_topic_post':
+			// il topic non esiste, crealo
+// 			echo "$file_topic<br>";
+			$topic_id = count($topics['elenco_topics']);
+			$file_topic = sprintf($file_topic_format,$forum_id,$topic_id);
+// 			echo "$file_topic<br>";
+			
+			// crea riga relativa al topic
+			$topics['elenco_topics'][$topic_id] = array(
+				$indice_topic_id => $topic_id,
+				$indice_topic_caption => $post_titolo,
+				$indice_topic_status => 'open',
+				$indice_topic_read_groups => $forum_read_groups,
+				$indice_topic_write_groups => $forum_write_groups,
+				$indice_topic_author => $post_nick,
+				$indice_topic_posts => 0,
+				$indice_topic_last_post => ''
+				);
+			
+			$new_post_id = 0; // il post da scrivere e' il primo
+			$post_id = $new_post_id;
+			
+			// item di help 
+			$posts = array();
+			$posts['help_config'] = array(
+			array('Formato [elenco_posts]:'),
+			array("	<post_id>","<post_author>","<post_date>","<post_status>"),
+			array(" 	<post_id>	: numero incrementale che identifica il post all'interno del topic"),
+			array("	<post_caption>	: titolo del post"),
+			array("	<post_status>	: stato del post:"),
+			array("			  visible	: il post e' visibile"),
+			array("			  censored	: il topic e' censurato"),
+			array("			  hidden	: il topic e' invisibile"),
+			array("Formato [post_text_X]:"),
+			array("E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote")
+			);
+			
+			break;
+ 		case 'reply_post':
+		case 'new_post':
+			// il topic gia' esiste, basta contare quanti post contiene gia'
+			$new_post_id = count($posts['elenco_posts']);
+			break;
+		}
+		
 		
 		// aggiorna le strutture in forums.php
 		$forum_topics += 1;
@@ -884,10 +1089,14 @@ elseif ($post_status == 'censored')
 		
 		// aggiorna le strutture in forum_X.php
 		$topic_posts += 1;
-		$topic_last_post = $post_id;
+// 		$topic_last_post = $post_id;
+		$topic_last_post = $new_post_id;
 		
 		$topics['elenco_topics'][$topic_id][$indice_topic_posts] = $topic_posts;
-		$topics['elenco_topics'][$topic_id][$indice_topic_las_post] = $topic_last_post;
+		$topics['elenco_topics'][$topic_id][$indice_topic_last_post] = $topic_last_post;
+		
+/*print_r($topics);
+die($post_type.','.$topic_id.','.$topic_last_post.','.$indice_topic_last_post);*/
 		
 		
 		// aggiorna le strutture in topic_X_Y.php
@@ -905,11 +1114,16 @@ elseif ($post_status == 'censored')
 		foreach (split("\n",$post_testo) as $id_riga => $riga)
 		{
 			$ks = rtrim($riga);
+			echo "|$ks|";
+			if ($ks == "\r")
+			{
+				die("got it!");
+			}
 			if (empty($ks))
 			{
-				$riga = "&nbsp;";
+				$ks = "&nbsp;";
 			}
-			$posts['post_text_'.$post_id][$id_riga][0] = $riga;
+			$posts['post_text_'.$post_id][$id_riga][0] = $ks;
 		}
 		
 		
@@ -955,6 +1169,31 @@ elseif ($post_status == 'censored')
 		
 		$action = '';
 		break;
+		
+		
+		
+		
+	case "new_topic":
+		
+		$action_data["new_topic_flag"] = true;
+		
+		$action = 'new_post';
+		continue;
+		
+		
+		
+		
+	case "reply_post":
+		
+		$reply_data = split(',',$data);
+		$action_data["reply_post_flag"] = true;
+		
+		$action = 'new_post';
+		continue;
+		
+		
+		
+		
 	case "zzz_topics":
 		
 		print_header($forums_caption);
@@ -1010,6 +1249,21 @@ extract(indici());
 </head>
 
 <body>
+
+<script type="text/javascript">
+<!--
+function contacar(ptext)
+{
+cit = document.getElementById('cit'); // handle al div con id 'cit'
+
+quanti=ptext.value.length;
+if (quanti>800)
+	cit.innerHTML='<font color=red>' + quanti+ '</'+'font>';
+else
+	cit.innerHTML=quanti;
+}
+//-->
+</script>
 
 <?php
 } // end function print_header
