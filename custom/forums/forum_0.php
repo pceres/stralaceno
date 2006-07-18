@@ -14,7 +14,7 @@ Formato [elenco_topics]:
 	<topic_last_post>	: id dell'ultimo post
 
 [elenco_topics]
-0::Benvenuti nel forum::open::::::ceres::2::1
+0::Benvenuti nel forum::open::::::ceres::3::1
 1::Come funziona il forum::open::::::ceres::1::
-2::Sondaggio sui mondiali di calcio 2006::open::::::ceres::1::0
+2::Sondaggio sui mondiali di calcio 2006::open::::::ceres::3::2
 
