@@ -148,7 +148,7 @@ foreach ($elenco_giocate2 as $giocata)
 	$vettore_giocata = split(',',$giocata[1]);
 	$data_giocata = $giocata[3];
 	$auth_token_ks = $giocata[4];
-	$giocatore_ks = $giocata[6];
+	$giocatore_ks = "<div align=\"left\" style=\"margin-left:10pt;\">".$giocata[6]."</div>";
 	$tipo_giocata_ks = $giocata[8];
 	$punteggio = $giocata[count($giocata)-1];
 	$count++;
