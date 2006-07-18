@@ -32,19 +32,17 @@ IMG_1620.jpg::
 laceno.jpg::Altopiano del Laceno::::
 
 [Soci_ars]
-dscn5313.jpg::Pasquale Ceres::
-dscn5325.jpg::Nicola D'Auria::
-dscn5358.jpg::Alessandro Russomanno::
-dscn5414.jpg::Michele Ceres::
 LV.jpg::Lello Viscardi::
 DC.jpg::Donatello Cirillo::
 PV.jpg::Paolo Viscardi::
 NC.JPG::Nicola Cirillo::
-#AR.jpg
-#GM.jpg
-#GR.jpg
-#MC.jpg
-#NDA.jpg
-#PC.jpg
-#RP.jpg
-#VDM.jpg
+AR.jpg::Alessandro Russomanno::
+GM.jpg::Gerardo Martino::
+GR.jpg::Giuseppe Rosania::
+MC.jpg::Michele Ceres::
+NDA.jpg::Nicola D'Auria::
+PC2.jpg::Pasquale Ceres::
+RP.jpg::Rocco Proietto::
+VDM.jpg::Valentino Di Masi::
+SM.jpg::Salvatore Merola::
+PC.jpg::Pasquale Ceres::
