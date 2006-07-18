@@ -2,8 +2,7 @@ Autore::Ars
 Titolo::Analisi Statistiche Mondiali Germania 2006
 --- Begin body ---
 <br>
-Complimenti a <b>Claudio Donatiello</b>, l'unico ad aver indicato tutte e sedici le squadre qualificate agli ottavi di finale, a <b>Donatello Cirillo</b>, unico ad aver indovinato tutte ed otto quelle qualificate ai quarti, e a <b>Maurizio Cupo</b>, che &egrave; stato il solo in grado di indicare tutte e quattro le squadre semifinaliste.
-<br> Le congratulazioni si estendono anche a <b>Rocco Del Malandrino</b> ed <b>Antonio Acone</b> che hanno centrato entrambe le finaliste. 
+Vincitore del sondaggio &egrave; <b>Rocco Del Malandrino</b> di Caposele, che ha totalizzato 26 punti, centrando la squadra vincitrice, le 2 finaliste, 3 delle 4 semifinaliste, 7 delle 8 squadre ammesse ai quarti e 13 delle 16 squadre promosse agli ottavi di finale. Complimenti!
 <br>
 <br>
 <b>&Egrave; stato attivato il <a href=forum.php?action=list_topics&amp;data=0>forum</a>: dite anche voi la vostra sull'esito del sondaggio!</b>
