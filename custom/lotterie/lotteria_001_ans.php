@@ -65,4 +65,4 @@ Italia
 # Qualificato finale 2:
 Francia
 # Campione del mondo:
-nd
+Italia
