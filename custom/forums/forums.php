@@ -17,6 +17,6 @@ Formato [elenco_forums]:
 	<forum_last_post>	: <id_topic>,<id_post> dell'ultimo messaggio postato
 
 [elenco_forums]
-0::Il forum di ArsWeb::Uno spazio di discussione libera, aperta a tutti::open::::users::anonimous::7::2,2
+0::Il forum di ArsWeb::Uno spazio di discussione libera, aperta a tutti::open::::::anonimous::7::2,2
 1::Il forum privato dell'ARS Amatori Running Sele::Spazio di discussione libera riservato ai soci ARS::open::soci_ars::soci_ars::anonimous::8::0,7
 
