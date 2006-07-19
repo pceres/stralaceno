@@ -213,7 +213,7 @@ $symbol_1_partecipazione= '<img src="'.$site_abs_path.'images/0x2606(star).bmp" 
 $symbol_1_partecipazione_best	= '<img src="'.$site_abs_path.'images/0x2606(star_best).bmp" style="display:inline;" align="middle" height="13" alt="1a partecipazione" border="0">';
 $symbol_record  		= '<img src="'.$site_abs_path.'images/0x263A(smiling_face).bmp" style="display:inline;" align="middle" height="13" alt="record personale" border="0">';
 $symbol_record_best		= '<img src="'.$site_abs_path.'images/0x263A(smiling_face_best).bmp" style="display:inline;" align="middle" height="13" alt="record personale assoluto" border="0">';
-$symbol_info			= '<img src="'.$site_abs_path.'images/info.jpg" border="0" width="12">';
+$symbol_info			= '<img src="'.$site_abs_path.'images/info.jpg" border="0" width="12" alt="more info">';
 $homepage_link 			= '<hr><div align="right"><a class="txt_link" href="'.$script_abs_path.'index.php">Torna alla homepage</a></div>';
 
 #admin
@@ -374,6 +374,9 @@ if (count($legenda_ordinata) > 0)
 
 
 function show_table($archivio,$mask,$class,$num_colonne = 1,$font_size = -1,$show_note = 1,$tooltip_data) {
+// $prestazione = $archivio[1];
+// $prestazione['info'] -> legenda
+// $prestazione['stile_riga'] -> <tr style="$prestazione['stile_riga']">
 
 # dichiara variabili
 extract(indici());
@@ -426,11 +429,18 @@ for ($i = 1; $i < count($archivio); $i++) {
 	$prestazione = $archivio[$i];
 	
 	# stile riga:
-	$style_row = " ";
+	if (empty($prestazione['stile_riga']))
+	{
+		$style_row = " ";
+	}
+	else
+	{
+		$style_row = " style=\"".$prestazione['stile_riga']."\"";
+	}
 
 	$classe = "";
 	# primo arrivato
-	if ($prestazione[$indice_posiz] == 1) {
+	if ($prestazione[$indice_posiz] === 1) {
 		$classe = "primo ";
 		}
 
@@ -443,7 +453,7 @@ for ($i = 1; $i < count($archivio); $i++) {
 		$classe .= "atleta_maschio";
 	}
 	
-	$style_row = "class=\"$classe\"";
+	$style_row .= " class=\"$classe\"";
 
 	echo "<tr ".$style_row.">";
 
@@ -1027,7 +1037,10 @@ function template_to_effective($line_in)
 		"%config_dir%","%modules_dir%","%questions_dir%");
 	$effective = array($script_abs_path,$site_abs_path,$web_title,$web_keywords,$filename_css,$homepage_link,
 		$config_dir,$modules_dir,$questions_dir);
-	return str_replace($template, $effective, $line_in);
+	
+	$line_out = str_replace($template, $effective, $line_in);
+	
+	return $line_out;
 }
 	
 	
@@ -1199,7 +1212,8 @@ function get_config_file($conf_file,$expected_items = 1000)
 	
 	for ($i = 0; $i < count($bulk); $i++)
 	{
-		$ks = trim($bulk[$i]); // elimina i caratteri di fine linea
+// 		$ks = trim($bulk[$i]); // elimina i caratteri di fine linea
+		$ks = rtrim($bulk[$i]); // elimina i caratteri di fine linea
 		if (!empty($ks) & (substr($ks,0,1) != "#") ) // se la linea non e' vuota e non e' un commento...
 		{
 			if (  (substr($ks,0,1) == "[") and (substr($ks,-1) == "]")  )
@@ -1286,7 +1300,7 @@ function show_template($template_path,$template_file)
 				$stato = 1;
 				
 				# on exit
-				$template = '';
+				$template = array();
 				$ks = substr($line,11,-1);
 				$info = explode(" ",$ks);
 				$config_file = $info[0];
@@ -1317,14 +1331,58 @@ function show_template($template_path,$template_file)
 						// sostituisci i nomi %file_root%,ecc con l'effettivo testo
 						$item[$i] = template_to_effective($item[$i]);
 					}
-					echo str_replace($arr_template, $item, $template);
+					
+					// sostituisci le & con &amp;
+					// array_push($arr_template,"&");
+					// $item[count($item)] = "&amp;";
+					
+					# gestione sintassi su linea singola, tipo:
+					# %%%% if %field5%!=''			<a href="%field5%">
+					# %%%% if %field5%=='pippo'		<a href="%field5%">
+					$template_record = '';
+					foreach ($template as $line)
+					{
+						if (strlen(strstr($line,"%%%% if"))>0)
+						{
+							ereg('if (%field([0-9]+)%)(.{2})\'([^\']*)\'(.*)$',$line,$output);
+							$field_alias=$output[1];
+							$right_member = $output[4];
+							$line_output = $output[5];
+							$line_operator = $output[3];
+							
+							$field_id = array_search($field_alias,$arr_template);
+							$left_member = $item[$field_id];
+							
+							$bool_result = false;
+							switch ($line_operator)
+							{
+							case '==':
+								$bool_result = ($left_member.' ' == $right_member.' ');
+								break;
+							case '!=':
+								$bool_result = ($left_member.' ' != $right_member.' ');
+								break;
+							}
+							
+							if ($bool_result)
+							{
+								$template_record .= $line_output;
+							}
+						}
+						else
+						{
+							$template_record .= $line;
+						}
+					}
+
+					echo str_replace($arr_template, $item, $template_record);
 				}
 				
 				continue;
 			}
 			
 			// output
-			$template .= template_to_effective($line);
+			array_push($template,template_to_effective($line));
 			break;
 		}
 		
@@ -1334,6 +1392,7 @@ function show_template($template_path,$template_file)
 
 function group_match($usergroups,$enabled_groups)
 {
+// $enabled_groups: array di gruppi abilitati
 // enabled_group vuoto -> abilitato
 if (empty($enabled_groups[0]))
 {
