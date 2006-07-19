@@ -48,7 +48,7 @@ $lotteria_risultati = $lotteria["Attributi"][0][5];
 $v_start = parse_date($lotteria_inizio_giocate);
 $v_end = parse_date($lotteria_fine_giocate);
 $v_results = parse_date($lotteria_risultati);
-$v_now = parse_date(date("h:i d/m/Y"));
+$v_now = parse_date(date("H:i d/m/Y"));
 
 // smista l'azione di default a seconda della data attuale
 if (empty($action))
