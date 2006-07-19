@@ -21,12 +21,12 @@ extract(indici());
   <tbody>
 	<tr>
 		<td width="100%">
-		<img src="<?php echo $site_abs_path ?>/custom/images/logo.gif" alt="logo_stralacenoweb"> 
+		<img src="<?php echo $site_abs_path ?>custom/images/logo.gif" alt="logo_stralacenoweb"> 
 		</td>
 		
 		<td>
-		<object	type="application/x-shockwave-flash" data="<?php echo $site_abs_path ?>/custom/images/logoflash300x70.swf" width="300" height="70">
-			<param name="movie" value="<?php echo $site_abs_path ?>/custom/images/logoflash300x70.swf" />
+		<object	type="application/x-shockwave-flash" data="<?php echo $site_abs_path ?>custom/images/logoflash300x70.swf" width="300" height="70">
+			<param name="movie" value="<?php echo $site_abs_path ?>custom/images/logoflash300x70.swf" />
 		</object>
 		</td>
 	</tr>
