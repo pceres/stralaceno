@@ -91,3 +91,4 @@ pregfas::Registro Fanfaroni (Pregfas)::modulo_custom::::
 
 [Pagine in preparazione]
 sondaggio::Sondaggio StralacenoWeb 2006::external_link::questions.php?id_questions=2::
+forum::Forum::external_link::forum.php::
