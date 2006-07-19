@@ -38,21 +38,10 @@ $question_tag_format = "question_%02d";	// da non modificare
 
 $id_questions = 1;	// numero della lotteria corrente (usato in lotteria_XXX.txt)
 
-// $helper_msg = 'Per aiutarti nella giocata, usa l\'utile strumento disponibile su Caposeleonline:file:///home/ceres/Desktop/tab-mond-06.htm';
-// $data_msg = 'file:///home/ceres/Desktop/tab-mond-06.htm';
-
-// print_r($lotteria["msg_custom"]);
 $alert_msg = $lotteria["msg_custom"][0][0];
 $helper_msg = $lotteria["msg_custom"][0][1];
 $data_msg = $lotteria["msg_custom"][0][2];
 ?>
-
-
-<!--
-//
-// inizio visualizzazione della form
-//
--->
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
 
 <HTML>
@@ -359,6 +348,14 @@ function check_input(f)
 //-->
 </SCRIPT>
 
+
+
+
+<!--
+//
+// inizio visualizzazione della form
+//
+-->
 
 <!--div align="center" style="font-size:20px;">Sondaggio Mondiali di Calcio 2006 (32 domande)</div><br-->
 

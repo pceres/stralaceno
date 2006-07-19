@@ -29,40 +29,40 @@ Italia
 # Qualificato ottavi 12:
 Ghana
 # Qualificato ottavi 13:
-nd
+Australia
 # Qualificato ottavi 14:
-nd
+Ucraina
 # Qualificato ottavi 15:
-nd
+Svizzera
 # Qualificato ottavi 16:
-nd
+Francia
 # Qualificato quarti 1:
-nd
+Germania
 # Qualificato quarti 2:
-nd
+Argentina
 # Qualificato quarti 3:
-nd
+Inghilterra
 # Qualificato quarti 4:
-nd
+Portogallo
 # Qualificato quarti 5:
-nd
+Italia
 # Qualificato quarti 6:
-nd
+Ucraina
 # Qualificato quarti 7:
-nd
+Brasile
 # Qualificato quarti 8:
-nd
+Francia
 # Qualificato semifinale 1:
-nd
+Germania
 # Qualificato semifinale 2:
-nd
+Italia
 # Qualificato semifinale 3:
-nd
+Portogallo
 # Qualificato semifinale 4:
-nd
+Francia
 # Qualificato finale 1:
-nd
+Italia
 # Qualificato finale 2:
-nd
+Francia
 # Campione del mondo:
-nd
+Italia
