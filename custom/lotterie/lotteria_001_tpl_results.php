@@ -126,6 +126,17 @@ foreach ($list0 as $id)
 }
 
 
+// prepara elenco di stili
+foreach ($lotteria['stili_riga'] as $id_stile => $stile_data)
+{
+	$stile_tag = $stile_data[0];
+	$stile_caption = $stile_data[1];
+	$stile_style = $stile_data[2];
+	
+	$elenco_stili[$stile_tag] = array($stile_caption,$stile_style);
+}
+
+
 // crea nuova tabella
 $elenco_new = array($header_new);
 $elenco_giocate2 = array_slice($elenco_giocate,1);
@@ -137,7 +148,7 @@ foreach ($elenco_giocate2 as $giocata)
 	$vettore_giocata = split(',',$giocata[1]);
 	$data_giocata = $giocata[3];
 	$auth_token_ks = $giocata[4];
-	$giocatore_ks = $giocata[6];
+	$giocatore_ks = "<div align=\"left\" style=\"margin-left:10pt;\">".$giocata[6]."</div>";
 	$tipo_giocata_ks = $giocata[8];
 	$punteggio = $giocata[count($giocata)-1];
 	$count++;
@@ -166,6 +177,10 @@ foreach ($elenco_giocate2 as $giocata)
 		break;
 	}
 	
+	// inverti data e ora nella data di giocata
+	$data_giocata = substr($data_giocata,strpos($data_giocata,' ')+1).' '.substr($data_giocata,0,strpos($data_giocata,' '));
+
+	
 	// crea giocata
 	$record_new = array();
 	array_push($record_new,$id_della_giocata);
@@ -175,6 +190,15 @@ foreach ($elenco_giocate2 as $giocata)
 	array_push($record_new,$auth_token_ks);
 	array_push($record_new,$tipo_giocata_ks);
 	array_push($record_new,$count);
+	
+	// stile riga
+	$found_key = check_question_keys($id_questions,$auth_token_ks);
+	$stile_riga = $found_key[2][4];
+
+	if (!empty($stile_riga))
+	{
+		$record_new['stile_riga'] = $elenco_stili[$stile_riga][1];
+	}
 	
 	foreach ($list0 as $id)
 	{
@@ -226,18 +250,47 @@ if ($_REQUEST['debug'] == 'full')
 show_table($elenco_new,$mask_new,'tabella',1,12,1); # tabella in una colonna, font 12, con note
 ?>
 
+
 <br>
+<table width=100%><tr valign="top">
+
+<td width=30%>
 &nbsp;&nbsp;
 Legenda:
 
 <div class="txt_link">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Q</b>: Squadra ammessa agli ottavi di finale<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>W</b>: Squadra ammessa ai quarti di finale<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>S</b>: Squadra semifinalista<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>F</b>: Squadra finalista<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>C</b>: Campione del mondo<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Q</b> : Squadra ammessa agli ottavi di finale<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>W</b> : Squadra ammessa ai quarti di finale<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>S</b> : Squadra semifinalista<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>F</b> : Squadra finalista<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>C</b> : Campione del mondo<br>
 </div>
 
+</td>
+<td>
+
+&nbsp;&nbsp;
+Legenda colori:
+<div class="txt_link">
+<?php
+foreach ($lotteria['stili_riga'] as $id_stile => $stile_data)
+{
+	$stile_tag = $stile_data[0];
+	$stile_caption = $stile_data[1];
+	$stile_style = $stile_data[2];
+	
+	$elenco_stili[$stile_tag] = array($stile_caption,$stile_style);
+
+	echo "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"$stile_style;border:1px solid;\">&nbsp;&nbsp;&nbsp;&nbsp;</span> : $stile_caption<br>";
+	echo "<div style=\"height:2.5pt;\">&nbsp;</div>";
+
+}
+?>
+</div>
+
+</td>
+
+</tr></table>
 
 <?php
 
