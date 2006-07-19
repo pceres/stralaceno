@@ -59,7 +59,7 @@ define("FLOCK",TRUE);
 ############################################################################################
 
 // Esegue o meno la traduzione di un IP al rispettivo hostname
-define("HOSTNA:wME",TRUE);
+define("HOSTNAME",TRUE);
 
 // Ricorrenza di tempo (secondi) in cui effettuare lo sfoltimento delle strutture dati
 define("CUTTIME",60*60*24*180);
@@ -72,7 +72,7 @@ define("CUTSIZE",150);
 ############################################################################################
 
 // carica le variabili globali del sito per permettere di recuperare il path assoluto delle directory
-require_once('../libreria.php'); // !!!
+require_once('../libreria.php');
 
 define("DATA_FOLDER",$filedir_counter."data/");
 define("TEMP_FOLDER",$filedir_counter."temp/");
@@ -120,6 +120,8 @@ $cnf__last_entries=15;
 // Impostazioni del visualizzatore
 $cnf__passwd_protect=FALSE;
 $cnf__limit_view=15;
+
+$fankounter_image_default = "iVBORw0KGgoAAAANSUhEUgAAAGIAAAAmCAIAAACwDtkjAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABOklEQVR4nO2Xyw2DMBBEOVAapaQSGkgJlBApx5SRdnJwDkSO490143j5CM3THjAfL3mMEen6YWQtVtcP4+3xZBXqqykQA0VTIXUu/eZCTn5NUyw53BJdk5W69mZzFzy5mRRHQVWrx9R0ud7Tms9rTBmeo0iqyTdEK2pqSVl6SRCrL5szXpWuOGtCOZRdrF7gnVRrakmZ9TOso8F+H+EzgDuto56awJRlSVEfo6opiJeUrybrTtJ2PprU/QVNVWmS2+5pKjzO3TTVLro4QxyuoekQacqyra7T7FD5uylbKbKLNW1hW96nqcnq9EeFs5Br2v3v5QFL0eQYpdOUoomoUBMENUFQEwQ1QVATBDVBUBMENUFQEwQ1QVATBDVBUBMENUFQEwQ1QVATBDVBUBMENUH8aGIV6qOJtVhvitqQTVHOp7kAAAAASUVORK5CYII="; // FanKounter
 
 ############################################################################################
 
