@@ -337,6 +337,7 @@ case 'set_nominativi':
 			$chiave_name=$_REQUEST["chiave_name_$id"];
 			$chiave_responsabile=$_REQUEST["chiave_responsabile_$id"];
 			$chiave_data=$_REQUEST["chiave_data_$id"];
+			$chiave_nota=$_REQUEST["chiave_nota_$id"];
 			
 			// aggiorna la struttura $keys con i nuovi dati
 			if (!empty($chiave_responsabile))
@@ -357,6 +358,10 @@ case 'set_nominativi':
 				}*/
 				
 				$keys[$keyfile_id][$id][3] = $chiave_data;
+			}
+			if (!empty($chiave_nota))
+			{
+				$keys[$keyfile_id][$id][4] = $chiave_nota;
 			}
 		}
 		
@@ -394,20 +399,22 @@ case 'set_nominativi':
 		$chiave_responsabile = $chiave_record[1];
 		$chiave_name = $chiave_record[2];
 		$chiave_data = $chiave_record[3];
+		$chiave_nota = $chiave_record[4];
 		
 		
 		echo "Biglietto ".($id+1);
 		echo " (".$chiave_key.") : ";
-		echo " consegnato a <input name=\"chiave_name_$id\" value=\"$chiave_name\"/>";
-		echo " da <input name=\"chiave_responsabile_$id\" value=\"$chiave_responsabile\"/>";
-		//echo " in data (formato: \"hh:mm gg/mm/aaaa\")<input name=\"chiave_data_$id\" value=\"$chiave_data\"/>";
-		echo " in data (gg/mm/aaaa)<input name=\"chiave_data_$id\" value=\"$chiave_data\"/>";
+		echo " consegnato a <input name=\"chiave_name_$id\" value=\"$chiave_name\">";
+		echo " da <input name=\"chiave_responsabile_$id\" value=\"$chiave_responsabile\">";
+		//echo " in data (formato: \"hh:mm gg/mm/aaaa\")<input name=\"chiave_data_$id\" value=\"$chiave_data\">";
+		echo " in data (gg/mm/aaaa)<input name=\"chiave_data_$id\" value=\"$chiave_data\">";
+		echo " (<input name=\"chiave_nota_$id\" value=\"$chiave_nota\" size=\"10\">)";
 		echo "<br>\n";
 	}
-	echo "<input type=\"hidden\" name=\"keyfile_id\" value=\"$keyfile_id\" />\n";
-	echo "<input type=\"hidden\" name=\"key_offset\" value=\"$key_offset\" />\n";
-	echo "<input type=\"hidden\" name=\"key_offset_old\" value=\"$key_offset\" />\n";
-	echo '<input type="submit" value="Salva modifiche" />';
+	echo "<input type=\"hidden\" name=\"keyfile_id\" value=\"$keyfile_id\">\n";
+	echo "<input type=\"hidden\" name=\"key_offset\" value=\"$key_offset\">\n";
+	echo "<input type=\"hidden\" name=\"key_offset_old\" value=\"$key_offset\">\n";
+	echo '<input type="submit" value="Salva modifiche">';
 	echo "\n</form>\n";
 		
 	break;
