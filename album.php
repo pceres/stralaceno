@@ -214,7 +214,7 @@ function do_action(action,data)
 			
 			<!-- riga vuota -->
 			<tr>
-				<td colspan="<?php echo $photo_per_row ?>" height="10"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Null.jpg" border="0" height="10" width="11"></td>
+				<td colspan="<?php echo $photo_per_row ?>" height="10"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Null.jpg" border="0" height="10" width="11" alt="null"></td>
 			</tr>
 			
 			
@@ -296,7 +296,7 @@ for ($i = 0; $i<$photo_per_row; $i++)
 				<td colspan='3'><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_TL.gif" alt="TL" width="30" height="16" border="0" /><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_T.gif' alt="T" width='105' height='16' border='0' /><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_TR.gif' alt="TR" width='30' height='16' border='0' /></td>
 			</tr> <tr>
 				<td><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_LT.gif' alt="LT" width='16' height='13' border='0' /></td>
-				<td rowspan='3' valign=middle><a href='<?php echo $link_foto?>'><img id="img_<?php echo $photo_count ?>" src='<?php echo $nome_foto ?>' border='0' width='133' /></a></td>
+				<td rowspan='3' valign=middle><a href='<?php echo $link_foto?>'><img id="img_<?php echo $photo_count ?>" src='<?php echo $nome_foto ?>' border='0' width='133' alt="<?php echo "(".substr($nome_foto,strrpos($nome_foto,'/')+1).") ".$album[$photo_count][$id_titolo_foto] ?>"/></a></td>
 				<td><img src='<?php echo $site_abs_path ?>custom/images/cornice/Bord_RT.gif' alt="RT" width='16' height='13' border='0' /></td>
 			</tr> <tr>
 				<td style="background-image:url(<?php echo $site_abs_path ?>custom/images/cornice/Bord_L.gif);">&nbsp;</td>
