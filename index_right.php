@@ -38,4 +38,3 @@ fine colonna destra
 <?php
 } // end if !empty($elenco_layout)
 ?>
-

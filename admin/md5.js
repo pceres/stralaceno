@@ -289,4 +289,3 @@ f[nome_campo].value = pass_crypt; // reimposta la password criptata nel form da 
 //alert(pass_clear);
 
 } // end cripta_campo_del_form_con_challenge(f,nome_campo,challenge) 
-

@@ -122,4 +122,3 @@ echo $homepage_link;
 
 </body>
 </html>
-
