@@ -16,7 +16,8 @@ require_once('../login.php');
 
 // verifica che si stia arrivando a questa pagina da ../album.php
 $referer = $_SERVER['HTTP_REFERER'];
-if ( !isset($_SERVER['HTTP_REFERER']) | (strlen(strpos($referer,"http://".$_SERVER['HTTP_HOST'].$script_abs_path."album.php").' ') == 1) |
+if ( !isset($_SERVER['HTTP_REFERER']) | 
+((strlen(strpos($referer,"http://".$_SERVER['HTTP_HOST'].$script_abs_path."admin/").' ') == 1) & (strlen(strpos($referer,"http://".$_SERVER['HTTP_HOST'].$script_abs_path."album.php").' ') == 1)) |
 (!in_array($login['status'],array('ok_form','ok_cookie')))  )
 {
 	header("Location: ".$script_abs_path."index.php");
