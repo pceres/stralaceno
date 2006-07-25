@@ -122,8 +122,8 @@ $giorno = substr($data,6,2);
 $mese = substr($data,9,2);
 $anno = substr($data,12,4);
 
-$mins = (((($anno*12+$mese)*31+$giorno)*24+$ore)*60+$minuti)*60;
-//$mins = mktime($ore,$minuti,00,$mese,$giorno,$anno); !!! finita la lotteria sondaggio 2006, questa linea andra' decommentata, perche' piu' corretta
+//$mins = (((($anno*12+$mese)*31+$giorno)*24+$ore)*60+$minuti)*60;
+$mins = mktime($ore,$minuti,00,$mese,$giorno,$anno); //!!! finita la lotteria sondaggio 2006, questa linea andra' decommentata, perche' piu' corretta
 
 return array($mins,$anno,$mese,$giorno,$ore,$minuti);
 } // end function parse_date
@@ -300,14 +300,17 @@ case "last_check":
 		$admin_mode = false;
 	}
 	
-	// verifica che la chiave inserita sia corretta, ed individuane il gruppo
-	$found_key = check_question_keys($id_questions,$auth_token);
-	$nominativo = $found_key[2][2];	// nome di chi ha ricevuto il biglietto, registrato a cura dell'amministratore
-	
-	if (empty($found_key))
+	if ($lotteria_auth === 'key')
 	{
-		echo "$titolo_pagina<br>\n";
-		die($lotteria['msg_auth_failed'][0][0]);
+		// verifica che la chiave inserita sia corretta, ed individuane il gruppo
+		$found_key = check_question_keys($id_questions,$auth_token);
+		$nominativo = $found_key[2][2];	// nome di chi ha ricevuto il biglietto, registrato a cura dell'amministratore
+		
+		if (empty($found_key))
+		{
+			echo "$titolo_pagina<br>\n";
+			die($lotteria['msg_auth_failed'][0][0]);
+		}
 	}
 	
 	// ricava elenco delle risposte	
@@ -412,9 +415,12 @@ case "last_check":
 	echo "</form>\n";
 	break;
 case "save":
-	// verifica che la chiave sia corretta
-	$found_key = check_key($id_questions,$auth_token,$lotteria['msg_auth_failed'][0][0]);
-	$nominativo = $found_key[2][2];	// nome di chi ha ricevuto il biglietto, registrato a cura dell'amministratore
+	if ($lotteria_auth === 'key')
+	{
+		// verifica che la chiave sia corretta
+		$found_key = check_key($id_questions,$auth_token,$lotteria['msg_auth_failed'][0][0]);
+		$nominativo = $found_key[2][2];	// nome di chi ha ricevuto il biglietto, registrato a cura dell'amministratore
+	}
 	
 	// verifica che non si giochi piu' volte la stessa giocata	
 	$giocata_ripetuta = 0;
