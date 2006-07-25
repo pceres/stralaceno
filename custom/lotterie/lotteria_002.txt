@@ -8,14 +8,14 @@
 #
 #	autenticazione			: no_auth
 #					: user
-#					: chiave
+#					: key
 #
 #	data_inizio_giocate		: hh:mm gg/mm/aaaa
 #	data_fine_giocate		: hh:mm gg/mm/aaaa
 #	data_presentazione_risultati	: hh:mm gg/mm/aaaa
 #
 [Attributi]
-Sondaggio::attiva::key::00:00 20/02/2006::18:00 08/06/2006::00:00 10/07/2006
+Sondaggio::attiva::no_auth::00:00 20/06/2006::18:00 28/08/2006::00:00 29/08/2006
 
 #
 # msg1::msg2::msg3
@@ -24,7 +24,7 @@ Sondaggio::attiva::key::00:00 20/02/2006::18:00 08/06/2006::00:00 10/07/2006
 #	msg3: visualizzato dopo la chiusura delle giocate
 #
 [msg_date]
-La lotteria non &egrave; ancora aperta. Potrai giocare dalle 00:00 del 20/04::Si pu&ograve; giocare dalle 00:00 del 20/04 alle 18:00 del 08/06::Le giocate sono chiuse, la classifica con il nome del vincitore sar&agrave; visibile  il 10/07
+La lotteria non &egrave; ancora aperta. Potrai giocare dalle 00:00 del 20/07::Si pu&ograve; giocare dalle 00:00 del 20/07 alle 18:00 del 28/08::Le giocate sono chiuse, la classifica con il nome del vincitore sar&agrave; visibile  il 29/08
 
 #
 # Formato riga [keyfiles]:
@@ -63,37 +63,17 @@ Gioca sul sito: http://ars.altervista.org
 #					: non_ripetibile
 #
 [Domande]
-Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
-Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
-Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
-Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
-Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
-Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
-Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
-Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
-Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
-Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
-Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
-Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
-Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
-Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
-Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
-Qualificato ottavi di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
-Qualificato quarti di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
-Qualificato quarti di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
-Qualificato quarti di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
-Qualificato quarti di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
-Qualificato quarti di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
-Qualificato quarti di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
-Qualificato quarti di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
-Qualificato quarti di finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
-Qualificato in semifinale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
-Qualificato in semifinale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
-Qualificato in semifinale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
-Qualificato in semifinale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
-Qualificato in finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
-Qualificato in finale::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
-Campione del mondo::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
+Nome giocatore::free_string::DUMMY::non_ripetibile
+1&deg; classificato::fixed::Gruppo Atleti Stralaceno 2006::non_ripetibile
+2&deg; classificato::fixed::Gruppo Atleti Stralaceno 2006::non_ripetibile
+3&deg; classificato::fixed::Gruppo Atleti Stralaceno 2006::non_ripetibile
+4&deg; classificato::fixed::Gruppo Atleti Stralaceno 2006::non_ripetibile
+5&deg; classificato::fixed::Gruppo Atleti Stralaceno 2006::non_ripetibile
+6&deg; classificato::fixed::Gruppo Atleti Stralaceno 2006::non_ripetibile
+7&deg; classificato::fixed::Gruppo Atleti Stralaceno 2006::non_ripetibile
+8&deg; classificato::fixed::Gruppo Atleti Stralaceno 2006::non_ripetibile
+9&deg; classificato::fixed::Gruppo Atleti Stralaceno 2006::non_ripetibile
+10&deg; classificato::fixed::Gruppo Atleti Stralaceno 2006::non_ripetibile
 
 #
 # Formato riga [classifica]:
@@ -155,120 +135,196 @@ Campione del mondo::fixed::Gruppo gironi ABCD,Gruppo gironi EFGH::ripetibile
 #2::tipo_biglietto::2&deg;) Tipo giocata
 #
 
-[Gruppo partecipanti]
-Angola
-Arabia Saudita
-Argentina
-Australia
-Brasile
-Corea del sud
-Costa d'Avorio
-Costa Rica
-Croazia
-Ecuador
-Francia
-Germania
-Ghana
-Giappone
-Inghilterra
-Italia
-Iran
-Messico
-Olanda
-Paraguay
-Polonia
-Portogallo
-Rep. Ceca
-Serbia Montenegro
-Spagna
-Stati Uniti
-Svezia
-Svizzera
-Togo
-Trinidad e Tobago
-Tunisia
-Ucraina
-
-[Gruppo Girone A]
-Germania
-Costa Rica
-Polonia
-Ecuador
-
-[Gruppo Girone B]
-Inghilterra
-Paraguay
-Trinidad E Tobago
-Svezia
-
-[Gruppo Girone C]
-Argentina
-Costa D'Avorio
-Serbia Montenegro
-Olanda
-
-[Gruppo Girone D]
-Messico
-Iran
-Angola
-Portogallo
-
-[Gruppo Girone E]
-Stati Uniti
-Repubblica Ceca
-Italia
-Ghana
-
-[Gruppo Girone F]
-Australia
-Giappone
-Brasile
-Croazia
-
-[Gruppo Girone G]
-Corea Del Sud
-Togo
-Francia
-Svizzera
-
-[Gruppo Girone H]
-Spagna
-Ucraina
-Tunisia
-Arabia Saudita
-
-[Gruppo gironi ABCD]
-Germania
-Costa Rica
-Polonia
-Ecuador
-Inghilterra
-Paraguay
-Trinidad E Tobago
-Svezia
-Argentina
-Costa D'Avorio
-Serbia Montenegro
-Olanda
-Messico
-Iran
-Angola
-Portogallo
-
-[Gruppo gironi EFGH]
-Stati Uniti
-Repubblica Ceca
-Italia
-Ghana
-Australia
-Giappone
-Brasile
-Croazia
-Corea Del Sud
-Togo
-Francia
-Svizzera
-Spagna
-Ucraina
-Tunisia
-Arabia Saudita
+[Gruppo Atleti Stralaceno 2006]
+Donato Merola
+Nicola D'Auria
+Balduino Farina
+Massimo Russomanno
+Felicino Caruso
+Tonuccio Corona
+Gualfardo Montanari di Pasqu.
+Armando Sturchio
+Nicola Majorana
+Gerardo Ceres
+Gelsomino Merola
+Alfonso Nesta
+Lorenzo Sozio
+Rocco Caruso
+Antonio Viscido
+Vito D'Alessio
+Franco Malanga
+Alfonso Sturchio
+Salvatore Russomanno
+Franco Maroso
+Gualfardo Montanari di Agost.
+Salvatore Casillo
+Angelino Cetrulo
+Sandro Russomanno
+Lorenzo Castagno
+Pasquale Ceres
+Luciano Rosania
+Michele Ceres
+Alessandro Russomanno
+Antonio Ceres
+Benedetto Alifano
+Gino Amendola
+Giovanni Curcio
+Antonello Malanga
+Nicola Vetromile
+Toni Biondi
+Franco Russomanno
+Felice Di Trolio
+Massimo Cetrulo
+Roberto Notaro
+Pasquale Farina Hz
+Giuseppe Rosania
+Gerardo Gervasio
+Armando Grasso di Gels.
+Gerardo Notaro
+Pasquale Ciccone
+Mario Nesta
+Gerardo Ceres di Lor.
+Luciano Viscido
+Gianni Cetrulo
+Donato Ceres
+Alfonso Guarino
+Armando Grasso di Raff.
+Maurizio Sturchio
+Gerardo Sista
+Lorenzo Corona
+Vincenzo D'Elia
+Adriano Caruso
+Damian Mino
+Davide Liloia
+Gerardo Nisivoccia
+Pietro D'Alessio
+Alfonso Nesta Pzpz
+Rocco Grasso
+Benedetto Montanari
+Rocco Rosania
+Angelo Ciccone
+Angelo Ceres
+Lello Viscardi
+Nicola Melillo
+Balduino Del Guercio
+Antonio Ruglio
+Dario Cifrodelli
+Cesare Nisivoccia
+Pasquale Russomanno
+Sandro Russomanno di Ger.
+Angelo Viscardi
+Angelo Russomanno
+Gerardo Brasiello
+Lorenzo Merola
+Francesco Spatola
+Gerardo Viscardi
+Paolo Viscardi
+Antonio Megaro
+Marco Ceres
+Donatello Cirillo
+Giuseppe Sessa
+Francesco Ceres
+Giuseppe Cetrulo
+Gelsomino Merola di Vito
+Antonio D'Elia
+Toni Auriemma
+Gaetano Rosania
+Raffaele Colatrella
+Giuseppe Viscardi
+Giuseppe Ceres
+Dario Nisivoccia
+Gerardo Grasso di Ton.
+Pierlorenzo Pallante
+Giovanni Paolercia
+Michele Notaro
+Angelo Ceres di Vinc.
+Angelo Di Masi
+Mario Cibellis
+Gerardo Grasso di Raff.
+Gelsomino Rosania
+Tommaso Cibellis
+Giuseppe Ceres di Pasqu.
+Armando Grasso di Pasqu.
+Antonio Ruglio di Ang.
+Pasquale Colatrella
+Valentino Di Masi
+Ettore Spatola
+Francesco Ciccone
+Carmelo Ruglio
+Lorenzo Russomanno
+Alfonso Pallante
+Vincenzo Ficetola
+Daniele Castagno
+Gelsomina D'Alessio
+Katia Corona
+Angela Melillo
+Rocco Feniello
+Luca Cibellis
+Annibale Castagno
+Maria Di Masi
+Maria Monteverde
+Raffaele Merola
+Rocco Nesta
+Enrico Porreca
+Alfredo Grasso
+Giuseppe Cifrodelli
+Giovanni Cuozzo
+Amato Merola
+Claudio Donatiello
+Rocco Proietto
+Donato Gervasio
+Rocco Cibellis
+Benito Sista
+Salvatore Colatrella
+Vincenzo Lenza
+Vitale Cetrulo
+Pietro Malanga
+Vincenzo Iannuzzi
+Gelsomino Merola di Don.
+Giovanni Cifrodelli
+Prezioso Galdi
+Gianfranco Di Vincenzo
+Giuseppe Merola
+Salvatore Merola
+Luigi Guarino
+Marco Melillo
+Nicola Melillo di Gius.
+Donato Malanga
+Marco D'Elia
+Federica Ceres
+Gerardo Merola
+Gaetano Vitale
+Lorenzo Iannuzzi
+Margherita Spatola
+Monica Galdi
+Gabriella Aiello
+Michele Cuozzo
+Thomas Cibellis
+Gerardo Martino
+Salvatore Malanga
+Gianfranco Rosania
+Juli Pucillo
+Gerardo Sozio
+Alessandro Ruglio
+Gianni Malanga
+Annalisa Casale
+Angela Aiello
+Gerarda Russomanno
+Franco Cibellis
+Rocco Merola
+Rosalba Palumbo
+Gelsomina Aiello
+Micaela Bucci
+Rocchina Cibellis
+Salvatore Russomanno di G.
+Francesco Ceres di Gius.
+Salvatore Malanga di Alf.
+Alessio Zarra
+Alfonso Malanga
+Gerardo Russomanno
+Maurizio Liloia
+Niccolo' Luongo
+Giuseppe Curcio
+Simone Galdi
+Antonella D'Elia
+Anita Ilaria
