@@ -4,8 +4,6 @@ Titolo::Sito ARS
 <p>
 &Egrave; on line il sito dell'ARS Amatori Running Sele:
 <a href="http://ars.altervista.org"><b>http://ars.altervista.org</b></a>
-<br>
-dove troverete il Sondaggio sui Mondiali di Calcio 2006.
 <p>&nbsp;
 <div align="center">
 <img id="foto" src="%file_root%custom/album/generico1/retro.gif" alt="" border="0" width="200">
