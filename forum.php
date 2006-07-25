@@ -1035,10 +1035,8 @@ if ($post_type === "reply_post")
 		{
 		case 'new_topic_post':
 			// il topic non esiste, crealo
-// 			echo "$file_topic<br>";
 			$topic_id = count($topics['elenco_topics']);
 			$file_topic = sprintf($file_topic_format,$forum_id,$topic_id);
-// 			echo "$file_topic<br>";
 			
 			// crea riga relativa al topic
 			$topics['elenco_topics'][$topic_id] = array(
@@ -1089,14 +1087,10 @@ if ($post_type === "reply_post")
 		
 		// aggiorna le strutture in forum_X.php
 		$topic_posts += 1;
-// 		$topic_last_post = $post_id;
 		$topic_last_post = $new_post_id;
 		
 		$topics['elenco_topics'][$topic_id][$indice_topic_posts] = $topic_posts;
 		$topics['elenco_topics'][$topic_id][$indice_topic_last_post] = $topic_last_post;
-		
-/*print_r($topics);
-die($post_type.','.$topic_id.','.$topic_last_post.','.$indice_topic_last_post);*/
 		
 		
 		// aggiorna le strutture in topic_X_Y.php
@@ -1114,7 +1108,6 @@ die($post_type.','.$topic_id.','.$topic_last_post.','.$indice_topic_last_post);*
 		foreach (split("\n",$post_testo) as $id_riga => $riga)
 		{
 			$ks = rtrim($riga);
-			echo "|$ks|";
 			if ($ks == "\r")
 			{
 				die("got it!");
