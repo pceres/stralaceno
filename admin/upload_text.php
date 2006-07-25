@@ -58,7 +58,7 @@ foreach ($elenco_cfgfile as $name => $config_data)
 
 if (!$file_ok)
 {
-	die("Non e' possibile modificare il file $filename! Contattare il webmaster.");
+	die("Non e' consentito modificare il file $filename! Contattare il webmaster.");
 }
 
 // verifica che il gruppo di appartenenza sia abilitato qui
