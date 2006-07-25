@@ -15,7 +15,7 @@
 #	data_presentazione_risultati	: hh:mm gg/mm/aaaa
 #
 [Attributi]
-Sondaggio::attiva::no_auth::00:00 20/06/2006::18:00 28/08/2006::00:00 29/08/2006
+Sondaggio StralacenoWeb 2006::attiva::no_auth::00:00 20/06/2006::18:00 28/08/2006::00:00 29/08/2006
 
 #
 # msg1::msg2::msg3
