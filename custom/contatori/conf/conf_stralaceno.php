@@ -53,7 +53,7 @@ $cnf__last_entries        = 150;
 
 $cnf__userpass       = md5("stralacenoadmin");
 $cnf__passwd_protect = FALSE;
-$cnf__limit_view     = 150;
+$cnf__limit_view     = 15;
 
 // La riga sottostante definisce l'immagine di sfondo del contatore fankounter. Per definirne una nuova, usare image_encode.php. 
 // Stringa vuota per usare lo sfondo di default.
