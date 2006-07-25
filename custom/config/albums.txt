@@ -180,7 +180,6 @@ dscn5448.jpg::Tutto ok::Scongiurata l'invasione di pecore e cavalli, constatato 
 dscn5414.jpg::Foto al fotografo::Chiudiamo con chi ha avuto il merito di catturare queste immagini: il fotografo ufficiale e le sue preziose collaboratrici::Nicoletta Ceres, Michele Ceres, Pina Nigro
 
 [generico1]
-#ars.jpg:: 
 retro.gif::logo trasparente::
 STRA2005GIF.gif::Grafica maglietta 2005::
 
@@ -225,5 +224,6 @@ IMG_1615.jpg::
 IMG_1620.jpg::
 
 
+[1996]
 
-
+[1998]
