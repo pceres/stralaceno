@@ -12,6 +12,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 
 [elenco_posts]
 0::Pasquale Ceres::19/07/2006 20.43.00::visible
+1::foxy::20/07/2006 10.47.38::visible
 
 [post_text_0]
 Auguro un benvenuto a tutti i visitatori del sito!
@@ -19,3 +20,7 @@ Auguro un benvenuto a tutti i visitatori del sito!
 Da questo momento il forum &egrave; ufficialmente aperto.
 &nbsp;
 Forza, scrivete anche voi!
+
+[post_text_1]
+la stralaceno 2006 si avvicina...
+

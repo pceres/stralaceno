@@ -14,6 +14,6 @@ Formato [elenco_topics]:
 	<topic_last_post>	: id dell'ultimo post
 
 [elenco_topics]
-0::Benvenuti nel forum::open::::::ceres::1::
+0::Benvenuti nel forum::open::::::ceres::2::1
 1::Come funziona il forum::open::::::ceres::1::
 
