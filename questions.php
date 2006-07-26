@@ -268,10 +268,19 @@ case "check_auth":
 case "fill":
 	if (!file_exists($file_template_form)) 
 	{
-		echo "$titolo_pagina<br>\n";
+		
+		if ($lotteria_auth !== 'no_auth')
+		{
+			echo "$titolo_pagina<br>\n";
+		}
+		else
+		{
+			echo "<br>\n";
+		}
+		
 		
 		// visualizza le domande (default)
-		if ($action !== "fill")
+		if ( ($action !== "fill") & ($lotteria_auth !== 'no_auth') )
 		{
 			echo "Benvenuto";
 			if (!empty($nominativo))
@@ -954,6 +963,13 @@ case "distanza":
 		if ($voto_pesato != 0)
 		{
 			$punteggio_output .= ','.($id_question+1);
+			
+			//if ($temp_debug) // !!!
+			if ($voto_pesato <> 1)
+			{
+				$punteggio_output .= '('.$voto_pesato.')';
+			}
+			
 		}
 	}
 	
