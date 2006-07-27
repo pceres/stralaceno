@@ -17,12 +17,18 @@ maroso1.jpg::::::Franco Maroso, Salvatore Russomanno
 maroso2.jpg::::::Franco Maroso, Sandro Russomanno 
 
 [1994]
+art_1994_1.jpg::
 lac4.jpg::Foto di gruppo edizione 1994::::Felice Di Trolio, Gualfardo Montanari di Agost., Franco Russomanno, Gerardo Gervasio, Nicola D'Auria, Pasquale Farina Hz, Michele Ceres, Gelsomino Merola, Angelino Cetrulo, Massimo Russomanno,<br> Balduino Farina, Giuseppe Rosania, Massimo Cetrulo, Roberto Notaro, Toni Biondi, Gerardo Notaro, Felicino Caruso, Armando Grasso di Gels.
 
 [1995]
+art_1995_1.jpg::
 lac6.jpg::Foto di gruppo edizione 1995::Come spesso accade in questi casi, i protagonisti della foto non sono i protagonisti della corsa::Massimo Russomanno, Pasquale Cozzarelli, Gerardo Ceres di Lor., Nicola D'Auria, Gianni Cetrulo, Luciano Viscido, Felice Di Trolio, Pasquale Ceres, Alessandro Russomanno, Luciano Rosania, Franco Malanga, Gelsomino Merola,<br> Pasquale Ciccone, Donato Merola, Alfonso Sturchio, Mario Nesta 
 
+[1996]
+art_1996_1.jpg::
+
 [1997]
+art_1997_1.jpg::
 _9A_0294.jpg::::Al via numerosi caposelesi di varia et&agrave;, taglia e ceppo etnico::Donato Merola, Angelo Ciccone, Rocco Rosania, Mario Nesta, Massimo Cetrulo, Benedetto Montanari, Davide Liloia, Damian Mino, Gerardo Nisivoccia, Lello Viscardi, Massimo Russomanno, Pietro D'Alessio, Donato Ceres, Alessandro Russomanno, Rocco Grasso, Pasquale Ceres, Angelo Ceres, Nicola D'Auria
 11A_0292.jpg::::Il primo chilometro &egrave;, come spesso accade, concitato e ricco di sorpassi reciproci::Alessandro russomanno, Alfonso Nesta Pzpz, Mario Nesta, Donato Ceres, Alfonso Nesta, Davide Liloia, Pasquale Ceres, Rocco Grasso, Armando Grasso 
 12A_0291.jpg::::Un mito d'altri tempi, Alfonso Nesta: tanta la strada ancora da percorrere...
@@ -41,6 +47,11 @@ _9A_0294.jpg::::Al via numerosi caposelesi di varia et&agrave;, taglia e ceppo e
 26A_0307.jpg::::...sebbene non pi&ugrave; in verde et&agrave;, stabilisce il record personale...::Nicola D'Auria
 27A_0306.jpg::::Impeccabili come sempre il giudice di corsa e il suo staff::Pasquale Cozzarelli, Angelo Ceres di Vinc.
 _25_0309.jpg::::Donato Ceres &egrave; l'ultimo a cedere al prepotente allungo di Pasquale Ceres, gi&agrave; vincitore della scorsa edizione::Alfonso Nesta Pzpz, Donato Ceres, Pasquale Ceres
+
+[1998]
+art_1998_1.jpg::
+lac_1998.1.jpg::
+lac_1998.2.jpg::
 
 [1999]
 lac10.jpg::::::Nicola Melillo, Luciano Rosania
@@ -179,6 +190,9 @@ podio.jpg::I primi 3::1&deg; Francesco Ceres, 2&deg; Gerardo Martino, 3&deg; Roc
 dscn5448.jpg::Tutto ok::Scongiurata l'invasione di pecore e cavalli, constatato il regolare svolgimento della competizione, l'ispettore di percorso si gode meritati momenti di serenit&agrave; e soddisfazione::Pietro Russomanno
 dscn5414.jpg::Foto al fotografo::Chiudiamo con chi ha avuto il merito di catturare queste immagini: il fotografo ufficiale e le sue preziose collaboratrici::Nicoletta Ceres, Michele Ceres, Pina Nigro
 
+[2006]
+stra06.jpg::logo Stralaceno 2006
+
 [generico1]
 retro.gif::logo trasparente::
 STRA2005GIF.gif::Grafica maglietta 2005::
@@ -199,14 +213,6 @@ dscn5749.jpg::Basilica San Gerardo::
 dscn5752.jpg::Piani (piscina comunale)::
 dscn5756.jpg::Piazza Sanit&agrave;2::
 
-[2006]
-stra06.jpg::logo Stralaceno 2006
-
 [prova]
 stra06.jpg::
 stra06_2.jpg::
-
-
-[1996]
-
-[1998]
