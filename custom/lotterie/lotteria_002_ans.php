@@ -4,14 +4,13 @@
 # Se una partita non e' stata ancora disputata, inserire la risposta convenzionale "dummy".
 #
 dummy nominativo
-dummy 1
-dummy 2
-dummy 3
-dummy 4
-dummy 5
-dummy 6
-dummy 7
-dummy 8
-dummy 9
-dummy 10
-
+Francesco Ceres di Gius.
+Gerardo Martino
+Rocco Proietto
+Gianfranco Di Vincenzo
+Alessandro Russomanno
+Paolo Viscardi
+Rocco Feniello
+Salvatore Malanga di Alf.
+Salvatore Merola
+Claudio Donatiello
