@@ -15,7 +15,7 @@
 #	data_presentazione_risultati	: hh:mm gg/mm/aaaa
 #
 [Attributi]
-Sondaggio StralacenoWeb 2006::attiva::no_auth::00:00 20/06/2006::18:00 28/08/2006::00:00 29/08/2006
+Lotteria StralacenoWeb 2006::attiva::no_auth::00:00 20/06/2006::18:00 28/08/2006::00:00 29/08/2006
 
 #
 # msg1::msg2::msg3
@@ -48,7 +48,7 @@ La chiave inserita non &egrave; corretta.
 # Messaggio visualizzato sui biglietti stampati
 #
 [msg_ticked_info]
-Gioca sul sito: http://ars.altervista.org
+Gioca sul sito: http://pceres.altervista.org/stralaceno/index.php
 
 #
 # Formato riga [Domande]:
@@ -115,9 +115,12 @@ Nome giocatore::free_string::DUMMY::non_ripetibile
 #			<profondita'>: 4 -> si parte dalle squadre dei quarti, 3 -> si parte dalle semifinali, ecc.
 #
 [classifica]
-1::esatte_per_gruppi::1&deg;) Risposte esatte::1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,17,17,17,17,17,17,17,17,25,25,25,25,29,29,31::numero_pesato::1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-2::esatte_per_gruppi::2&deg;) Posizione risposte esatte::1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,17,17,17,17,17,17,17,17,25,25,25,25,29,29,31::posizione::5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,4,4,4,4,4,4,4,3,3,3,3,2,2,1
-3::data_giocata::3&deg;) Data giocata
+1::distanza::1&deg;) Risposte esatte::0,0,0,0,0,0,0,0,0,0,0::-10,-9,-8,-7,-6,-5,-4,-3,-2,-1,0,1,2,3,4,5,6,7,8,9,10::0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1,0.9,0.8,0.7,0.6,0.5,0.4,0.3,0.2,0.1,0::0,1,0.9,0.8,0.7,0.6,0.5,0.4,0.3,0.2,0.1
+2::data_giocata::2&deg;) Data giocata
+
+#1::esatte_per_gruppi::1&deg;) Risposte esatte::1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,17,17,17,17,17,17,17,17,25,25,25,25,29,29,31::numero_pesato::1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+#2::esatte_per_gruppi::2&deg;) Posizione risposte esatte::1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,17,17,17,17,17,17,17,17,25,25,25,25,29,29,31::posizione::5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,4,4,4,4,4,4,4,3,3,3,3,2,2,1
+#3::data_giocata::3&deg;) Data giocata
 #
 # regole 2: bisogna indovinare anche la citta' dei quarti
 #1::distanza::1&deg;) Risposte esatte::0,0,0,0,0,0,0,0::-1,0,1,2::0,1,0,0::1,1,1,1,1,1,1,1
@@ -136,195 +139,195 @@ Nome giocatore::free_string::DUMMY::non_ripetibile
 #
 
 [Gruppo Atleti Stralaceno 2006]
-Donato Merola
-Nicola D'Auria
-Balduino Farina
-Massimo Russomanno
-Felicino Caruso
-Tonuccio Corona
-Gualfardo Montanari di Pasqu.
-Armando Sturchio
-Nicola Majorana
-Gerardo Ceres
-Gelsomino Merola
-Alfonso Nesta
-Lorenzo Sozio
-Rocco Caruso
-Antonio Viscido
-Vito D'Alessio
-Franco Malanga
-Alfonso Sturchio
-Salvatore Russomanno
-Franco Maroso
-Gualfardo Montanari di Agost.
-Salvatore Casillo
-Angelino Cetrulo
-Sandro Russomanno
-Lorenzo Castagno
-Pasquale Ceres
-Luciano Rosania
-Michele Ceres
-Alessandro Russomanno
-Antonio Ceres
+Angela Aiello
+Gabriella Aiello
+Gelsomina Aiello
 Benedetto Alifano
 Gino Amendola
-Giovanni Curcio
-Antonello Malanga
-Nicola Vetromile
-Toni Biondi
-Franco Russomanno
-Felice Di Trolio
-Massimo Cetrulo
-Roberto Notaro
-Pasquale Farina Hz
-Giuseppe Rosania
-Gerardo Gervasio
-Armando Grasso di Gels.
-Gerardo Notaro
-Pasquale Ciccone
-Mario Nesta
-Gerardo Ceres di Lor.
-Luciano Viscido
-Gianni Cetrulo
-Donato Ceres
-Alfonso Guarino
-Armando Grasso di Raff.
-Maurizio Sturchio
-Gerardo Sista
-Lorenzo Corona
-Vincenzo D'Elia
-Adriano Caruso
-Damian Mino
-Davide Liloia
-Gerardo Nisivoccia
-Pietro D'Alessio
-Alfonso Nesta Pzpz
-Rocco Grasso
-Benedetto Montanari
-Rocco Rosania
-Angelo Ciccone
-Angelo Ceres
-Lello Viscardi
-Nicola Melillo
-Balduino Del Guercio
-Antonio Ruglio
-Dario Cifrodelli
-Cesare Nisivoccia
-Pasquale Russomanno
-Sandro Russomanno di Ger.
-Angelo Viscardi
-Angelo Russomanno
-Gerardo Brasiello
-Lorenzo Merola
-Francesco Spatola
-Gerardo Viscardi
-Paolo Viscardi
-Antonio Megaro
-Marco Ceres
-Donatello Cirillo
-Giuseppe Sessa
-Francesco Ceres
-Giuseppe Cetrulo
-Gelsomino Merola di Vito
-Antonio D'Elia
 Toni Auriemma
-Gaetano Rosania
-Raffaele Colatrella
-Giuseppe Viscardi
-Giuseppe Ceres
-Dario Nisivoccia
-Gerardo Grasso di Ton.
-Pierlorenzo Pallante
-Giovanni Paolercia
-Michele Notaro
-Angelo Ceres di Vinc.
-Angelo Di Masi
-Mario Cibellis
-Gerardo Grasso di Raff.
-Gelsomino Rosania
-Tommaso Cibellis
-Giuseppe Ceres di Pasqu.
-Armando Grasso di Pasqu.
-Antonio Ruglio di Ang.
-Pasquale Colatrella
-Valentino Di Masi
-Ettore Spatola
-Francesco Ciccone
-Carmelo Ruglio
-Lorenzo Russomanno
-Alfonso Pallante
-Vincenzo Ficetola
-Daniele Castagno
-Gelsomina D'Alessio
-Katia Corona
-Angela Melillo
-Rocco Feniello
-Luca Cibellis
-Annibale Castagno
-Maria Di Masi
-Maria Monteverde
-Raffaele Merola
-Rocco Nesta
-Enrico Porreca
-Alfredo Grasso
-Giuseppe Cifrodelli
-Giovanni Cuozzo
-Amato Merola
-Claudio Donatiello
-Rocco Proietto
-Donato Gervasio
-Rocco Cibellis
-Benito Sista
-Salvatore Colatrella
-Vincenzo Lenza
-Vitale Cetrulo
-Pietro Malanga
-Vincenzo Iannuzzi
-Gelsomino Merola di Don.
-Giovanni Cifrodelli
-Prezioso Galdi
-Gianfranco Di Vincenzo
-Giuseppe Merola
-Salvatore Merola
-Luigi Guarino
-Marco Melillo
-Nicola Melillo di Gius.
-Donato Malanga
-Marco D'Elia
-Federica Ceres
-Gerardo Merola
-Gaetano Vitale
-Lorenzo Iannuzzi
-Margherita Spatola
-Monica Galdi
-Gabriella Aiello
-Michele Cuozzo
-Thomas Cibellis
-Gerardo Martino
-Salvatore Malanga
-Gianfranco Rosania
-Juli Pucillo
-Gerardo Sozio
-Alessandro Ruglio
-Gianni Malanga
-Annalisa Casale
-Angela Aiello
-Gerarda Russomanno
-Franco Cibellis
-Rocco Merola
-Rosalba Palumbo
-Gelsomina Aiello
+Toni Biondi
+Gerardo Brasiello
 Micaela Bucci
-Rocchina Cibellis
-Salvatore Russomanno di G.
+Adriano Caruso
+Felicino Caruso
+Rocco Caruso
+Annalisa Casale
+Salvatore Casillo
+Annibale Castagno
+Daniele Castagno
+Lorenzo Castagno
+Angelo Ceres
+Antonio Ceres
+Donato Ceres
+Federica Ceres
+Francesco Ceres
+Gerardo Ceres
+Giuseppe Ceres
+Marco Ceres
+Michele Ceres
+Pasquale Ceres
 Francesco Ceres di Gius.
-Salvatore Malanga di Alf.
-Alessio Zarra
-Alfonso Malanga
-Gerardo Russomanno
+Gerardo Ceres di Lor.
+Giuseppe Ceres di Pasqu.
+Angelo Ceres di Vinc.
+Angelino Cetrulo
+Gianni Cetrulo
+Giuseppe Cetrulo
+Massimo Cetrulo
+Vitale Cetrulo
+Franco Cibellis
+Luca Cibellis
+Mario Cibellis
+Rocchina Cibellis
+Rocco Cibellis
+Thomas Cibellis
+Tommaso Cibellis
+Angelo Ciccone
+Francesco Ciccone
+Pasquale Ciccone
+Dario Cifrodelli
+Giovanni Cifrodelli
+Giuseppe Cifrodelli
+Donatello Cirillo
+Pasquale Colatrella
+Raffaele Colatrella
+Salvatore Colatrella
+Katia Corona
+Lorenzo Corona
+Tonuccio Corona
+Giovanni Cuozzo
+Michele Cuozzo
+Giovanni Curcio
+Giuseppe Curcio
+Gelsomina D'Alessio
+Pietro D'Alessio
+Vito D'Alessio
+Nicola D'Auria
+Antonella D'Elia
+Antonio D'Elia
+Marco D'Elia
+Vincenzo D'Elia
+Balduino Del Guercio
+Angelo Di Masi
+Maria Di Masi
+Valentino Di Masi
+Felice Di Trolio
+Gianfranco Di Vincenzo
+Claudio Donatiello
+Balduino Farina
+Pasquale Farina Hz
+Rocco Feniello
+Vincenzo Ficetola
+Monica Galdi
+Prezioso Galdi
+Simone Galdi
+Donato Gervasio
+Gerardo Gervasio
+Alfredo Grasso
+Rocco Grasso
+Armando Grasso di Gels.
+Armando Grasso di Pasqu.
+Armando Grasso di Raff.
+Gerardo Grasso di Raff.
+Gerardo Grasso di Ton.
+Alfonso Guarino
+Luigi Guarino
+Lorenzo Iannuzzi
+Vincenzo Iannuzzi
+Anita Ilaria
+Vincenzo Lenza
+Davide Liloia
 Maurizio Liloia
 Niccolo' Luongo
-Giuseppe Curcio
-Simone Galdi
-Antonella D'Elia
-Anita Ilaria
+Nicola Majorana
+Alfonso Malanga
+Antonello Malanga
+Donato Malanga
+Franco Malanga
+Gianni Malanga</option
+Pietro Malanga
+Salvatore Malanga
+Salvatore Malanga di Alf.
+Franco Maroso
+Gerardo Martino
+Antonio Megaro
+Angela Melillo
+Marco Melillo
+Nicola Melillo
+Nicola Melillo di Gius.
+Amato Merola
+Donato Merola
+Gelsomino Merola
+Gerardo Merola
+Giuseppe Merola
+Lorenzo Merola
+Raffaele Merola
+Rocco Merola
+Salvatore Merola
+Gelsomino Merola di Don.
+Gelsomino Merola di Vito
+Damian Mino
+Benedetto Montanari
+Gualfardo Montanari di Agost.
+Gualfardo Montanari di Pasqu.
+Maria Monteverde
+Alfonso Nesta
+Mario Nesta
+Rocco Nesta
+Alfonso Nesta Pzpz
+Cesare Nisivoccia
+Dario Nisivoccia
+Gerardo Nisivoccia
+Gerardo Notaro
+Michele Notaro
+Roberto Notaro
+Alfonso Pallante
+Pierlorenzo Pallante
+Rosalba Palumbo
+Giovanni Paolercia
+Enrico Porreca
+Rocco Proietto
+Juli Pucillo
+Gaetano Rosania
+Gelsomino Rosania
+Gianfranco Rosania
+Giuseppe Rosania
+Luciano Rosania
+Rocco Rosania
+Alessandro Ruglio
+Antonio Ruglio
+Carmelo Ruglio
+Antonio Ruglio di Ang.
+Alessandro Russomanno
+Angelo Russomanno
+Franco Russomanno
+Gerarda Russomanno
+Gerardo Russomanno
+Lorenzo Russomanno
+Massimo Russomanno
+Pasquale Russomanno
+Salvatore Russomanno
+Sandro Russomanno
+Salvatore Russomanno di G.
+Sandro Russomanno di Ger.
+Giuseppe Sessa
+Benito Sista
+Gerardo Sista
+Gerardo Sozio
+Lorenzo Sozio
+Ettore Spatola
+Francesco Spatola
+Margherita Spatola
+Alfonso Sturchio
+Armando Sturchio
+Maurizio Sturchio
+Nicola Vetromile
+Angelo Viscardi
+Gerardo Viscardi
+Giuseppe Viscardi
+Lello Viscardi
+Paolo Viscardi
+Antonio Viscido
+Luciano Viscido
+Gaetano Vitale
+Alessio Zarra
