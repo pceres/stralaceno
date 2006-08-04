@@ -1,11 +1,11 @@
 Autore::Ars
-Titolo::Analisi Statistiche Mondiali Germania 2006
+Titolo::Analisi Sondaggio Mondiali 2006
 --- Begin body ---
 <br>
 Vincitore del sondaggio &egrave; <b>Rocco Del Malandrino</b> di Caposele, che ha totalizzato 26 punti, centrando la squadra vincitrice, le 2 finaliste, 3 delle 4 semifinaliste, 7 delle 8 squadre ammesse ai quarti e 13 delle 16 squadre promosse agli ottavi di finale. Complimenti!
 <br>
 <br>
-<b>&Egrave; stato attivato il <a href=forum.php?action=list_topics&amp;data=0>forum</a>: dite anche voi la vostra sull'esito del sondaggio!</b>
+<b>&Egrave; stato attivato il <a href='forum.php?action=list_topics&amp;data=0'>forum</a>: dite anche voi la vostra sull'esito del sondaggio!</b>
 <br>
 <br>
 La maggior parte dei partecipanti al sondaggio sui mondiali di calcio 2006 organizzato dall'Ars, ha previsto la vittoria dell'Italia, come si pu&ograve; vedere dal grafico seguente, basato sul campione definitivo di tutte le giocate (117):
