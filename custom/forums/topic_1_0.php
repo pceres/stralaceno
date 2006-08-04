@@ -7,6 +7,9 @@
 5::Alessandro R.::13/07/2006 10.41.04::visible
 6::P. Ceres::13/07/2006 17.38.28::visible
 7::Pasquale Ceres::15/07/2006 18.37.05::visible
+8::Alessandro R.::19/07/2006 09.24.58::visible
+9::Alessandro R.::20/07/2006 09.54.06::visible
+10::Pasquale Ceres::21/07/2006 18.11.30::visible
 
 [post_text_0]
 Il 15 luglio tutti a Roccadaspide.
@@ -56,3 +59,34 @@ Se l'ARS si presenta a Roccadaspide con una sua squadra, potremmo mettere l'annu
 &nbsp;
 Ragazzi, in bocca al lupo!!!
 &nbsp;
+
+[post_text_8]
+Per la gara di Acerno di sabato 22, si parte da piazza Sanità alle ore 18.00
+
+[post_text_9]
+Segue mail all\'organizzazione della 10 km di Acerno e relativa risposta.
+----
+Tue, 18 Jul 2006 09:53:29 +0200
+Da Stralaceno <Stralaceno@freepass.it>
+A \"hassia@tiscali.it\" <hassia@tiscali.it>
+&nbsp;
+Salve,
+La ringraziamo per le informazioni e le chiediamo conferma della data (22
+luglio) e l\'orario (ore 21.00) della gara podistica di 10 km di Acerno.
+Grazie.
+----
+&nbsp;
+Tue, 18 Jul 2006 19:08:16 +0200 (CEST)
+Da \"hassia@tiscali.it\" <hassia@tiscali.it>
+A Stralaceno@freepass.it
+&nbsp;
+Confermo tutto, ci vediamo ad Acerno, salutoni.
+----
+
+[post_text_10]
+&gt;Per la gara di Acerno di sabato 22, si parte da piazza Sanità alle ore 18.00<br>&gt;<br><br>
+Quanti sarete domani sera?
+&nbsp;
+In bocca al lupo ai partecipanti!
+&nbsp;
+

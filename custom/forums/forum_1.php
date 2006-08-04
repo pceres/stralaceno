@@ -14,5 +14,5 @@ Formato [elenco_topics]:
 	<topic_last_post>	: id dell'ultimo post
 
 [elenco_topics]
-0::Programma corse estate 2006::open::::users::ceres::8::7
+0::Programma corse estate 2006::open::::users::ceres::11::10
 
