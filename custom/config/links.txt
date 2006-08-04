@@ -8,6 +8,7 @@
 
 http://pceres.altervista.org/stralaceno/index.php::<b>StralacenoWeb</b>
 http://www.caposeleonline.it::Caposeleonline
-http://liceonline.altervista.org/::Liceo di Caposele
 http://www.siamonoi.it::Siamonoi.it
+http://liceonline.altervista.org/::Liceo di Caposele
 http://www.prolococaposele.it::Pro Loco Caposele
+http://www.podistidoc.it/::Podistidoc
