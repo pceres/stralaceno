@@ -46,3 +46,14 @@ RP.jpg::Rocco Proietto::
 VDM.jpg::Valentino Di Masi::
 SM.jpg::Salvatore Merola::
 PC.jpg::Pasquale Ceres::
+DC2.jpg::Donatello Cirillo::
+
+[Roccadaspide_06]
+Roccadasp_040_1.jpg::
+Roccadasp_041_1.jpg::
+Roccadasp_043.1.jpg::
+Roccadasp_044.1.jpg::
+Roccadasp_045_01.jpg::
+Roccadasp_047.1.jpg::
+Roccadasp_049_1.jpg::
+Roccadasp.051.1.jpg::
