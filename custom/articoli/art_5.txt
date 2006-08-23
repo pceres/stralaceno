@@ -116,7 +116,7 @@ La partenza avverrà nel primo pomeriggio, indipendentemente dalle condizioni met
 Il giorno, l&#8217;orario di partenza e la tabella dei passaggi orari previsti del gruppo nei punti principali del percorso, saranno successivamente comunicati.
 <br><br>
 <div align="center">
-<img id="foto" src="%file_root%custom/album/generico1/ars.jpg" alt="" border="0" width="170">
+<img id="fotoLogoArs" src="%file_root%custom/album/generico1/ars.jpg" alt="" border="0" width="170">
 </div>
 -->
 --- End body ---
