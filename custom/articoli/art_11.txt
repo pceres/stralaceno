@@ -1,0 +1,11 @@
+Autore::
+Titolo::Stralaceno 2006
+--- Begin body ---
+<br>
+La XVIII edizione della STRALACENO si disputerà mercoled&igrave; 30 AGOSTO.
+<p>&nbsp;
+<div align="center">
+<img id="foto" src="%file_root%custom/album/varie/lagoLaceno.jpg" alt="Laceno" border="0" width="450">
+</div>
+<br><br>
+--- End body ---
