@@ -6,6 +6,6 @@ Caposele conta 3.797 abitanti (Caposelesi) e ha una superficie di 41,5 chilometr
 Gli abitanti sono distribuiti in 1.312 nuclei familiari con una media per nucleo familiare di 2,89 componenti. 
 <p>&nbsp;
 <div align="center">
-<img id="foto" src="%file_root%custom/album/ars/stemma_caposele.jpg" alt="" border="0" width="100">
+<img id="fotoStemmaCaposele" src="%file_root%custom/album/ars/stemma_caposele.jpg" alt="" border="0" width="100">
 </div>
 --- End body ---

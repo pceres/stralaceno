@@ -8,7 +8,7 @@ Alla squadra si sono aggregati inoltre Francesco Ceres, Salvatore Colatrella e N
 Presente alla partenza anche Gelsomino Merola.
 <p>&nbsp;
 <div align="center">
-<img id="foto" src="%file_root%custom/album/Nusco_06/DSCF0719.jpg" alt="Corsa_Nusco_2006" border="0" width="280">
+<img id="fotoCorsaNusco2006" src="%file_root%custom/album/Nusco_06/DSCF0719.jpg" alt="Corsa_Nusco_2006" border="0" width="280">
 </div>
 <p><br>
 <i>Le foto della gara, scattate da Luciano Viscido, sono disponibili <a href="album.php?anno=Nusco_06">qui</a></i>

@@ -17,6 +17,6 @@ L'ARS si propone di:
 </ul>
 <p>
 <!--div align="center">
-<img id="foto" src="%file_root%custom/album/ars/ars_semplificato.jpg" alt="" border="0" width="250">
+<img id="fotoLogoArs" src="%file_root%custom/album/ars/ars_semplificato.jpg" alt="" border="0" width="250">
 </div-->
 --- End body ---

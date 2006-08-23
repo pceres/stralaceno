@@ -11,7 +11,7 @@ Le foto dell' Allenamento sono disponibili <a href="album.php?anno=All.Coll.05">
 Il 4 gennaio 2006 si &egrave tenuto un secondo allenamento, che ha visto impegnati 7 atleti lungo un percorso di circa 17 km, nell'ambito del quale si sono toccati alcuni punti molto suggestivi del comune di Caposele (come le grotte e il bosco difesa
 <p>&nbsp;
 <div align="center">
-<img id="foto" src="%file_root%custom/album/All.Coll.05/IMG_1608.jpg" alt="" border="0" width="400">
+<img id="fotoAllenamentoCollettivo" src="%file_root%custom/album/All.Coll.05/IMG_1608.jpg" alt="" border="0" width="400">
 </div>
 <!--
 <br>L'ARS Amatori Running Sele organizza per il giorno <b>30 dicembre, ore 15.15</b> una seduta di 
