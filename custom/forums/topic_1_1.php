@@ -11,14 +11,12 @@ Formato [post_text_X]:
 E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 
 [elenco_posts]
-0::Pasquale Ceres::21/07/2006 18.14.21::visible
-1::Foxy::14/08/2006 15.46.02::visible
+0::Green::14/08/2006 15.50.36::visible
+1::Pasquale Ceres::16/08/2006 16.15.53::visible
 
 [post_text_0]
-&nbsp;
-Qualcuno sa dove trovare il programma dell\'estate caposelese 2006?
-&nbsp;
+Le vostre previsioni...
 
 [post_text_1]
-non vi sono notizie
+Spero di riuscire a preparare un sondaggio online...
 

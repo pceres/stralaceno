@@ -10,6 +10,11 @@
 8::Alessandro R.::19/07/2006 09.24.58::visible
 9::Alessandro R.::20/07/2006 09.54.06::visible
 10::Pasquale Ceres::21/07/2006 18.11.30::visible
+11::Pasquale Ceres::27/07/2006 22.50.17::visible
+12::Alessandro R.::01/08/2006 09.47.23::visible
+13::Alessandro R.::03/08/2006 09.33.56::visible
+14::Russomanno A.::11/08/2006 09.12.38::visible
+15::naom::16/08/2006 16.20.00::visible
 
 [post_text_0]
 Il 15 luglio tutti a Roccadaspide.
@@ -88,5 +93,21 @@ Confermo tutto, ci vediamo ad Acerno, salutoni.
 Quanti sarete domani sera?
 &nbsp;
 In bocca al lupo ai partecipanti!
+&nbsp;
+
+[post_text_11]
+Abbiamo qualche foto della corsa ad Acerno?
+
+[post_text_12]
+&gt;Abbiamo qualche foto della corsa ad Acerno?<br>&gt;<br><br>No. La gara era in notturna, Gelsomino ha tentato di scattarne qualcuna ma la qualità delle foto è risultata scadente.
+
+[post_text_13]
+Per la gara di NUSCO del 6 agosto, si parte da Piazza Sanità alle ore 17.00
+
+[post_text_14]
+Per la gara di Fontanarosa, si parte da piazza Sanità sabato 12 alle ore 16.00
+
+[post_text_15]
+Prima della Stralaceno (30 agosto) e\' prevista qualche altra gara nei paesi vicini?
 &nbsp;
 
