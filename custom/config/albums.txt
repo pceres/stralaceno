@@ -30,6 +30,7 @@ IMG_1620.jpg::
 
 [varie]
 laceno.jpg::Altopiano del Laceno::::
+lagoLaceno.jpg::Laceno::::
 
 [Soci_ars]
 LV.jpg::Lello Viscardi::
@@ -57,3 +58,11 @@ Roccadasp_045_01.jpg::
 Roccadasp_047.1.jpg::
 Roccadasp_049_1.jpg::
 Roccadasp.051.1.jpg::
+
+[Nusco_06]
+DSCF0692.1.jpg::
+DSCF0703.jpg::
+DSCF0704.jpg::
+DSCF0718.jpg::
+DSCF0719.jpg::
+DSCF0722.jpg::
