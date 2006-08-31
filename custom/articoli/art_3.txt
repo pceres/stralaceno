@@ -1,7 +1,7 @@
 Autore::Angelo Ceres
 Titolo::L'altopiano del Laceno
 --- Begin body ---
-			<p>Laceno è ritenuto uno degli altopiani più ameni dell'appennino meridionale. 
+			<br>Laceno è ritenuto uno degli altopiani più ameni dell'appennino meridionale. 
 Chi arriva da Caposele, per la strada interna montana, affacciandosi sull'altopiano subisce
 un piacevole impatto con la bellezza del luogo.
 Laceno è posto a 1050 metri di altitudine con una superfice di circa  10 chilometri quadrati;
