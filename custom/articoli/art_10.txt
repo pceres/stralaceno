@@ -1,7 +1,7 @@
 Autore::
 Titolo::Sito ARS
 --- Begin body ---
-<p>
+<br>
 &Egrave; on line il sito dell'ARS Amatori Running Sele:
 <a href="http://ars.altervista.org"><b>http://ars.altervista.org</b></a>
 <p>&nbsp;
