@@ -15,7 +15,7 @@
 #	data_presentazione_risultati	: hh:mm gg/mm/aaaa
 #
 [Attributi]
-Lotteria StralacenoWeb 2006::attiva::no_auth::00:00 20/06/2006::18:00 28/08/2006::00:00 29/08/2006
+Lotteria StralacenoWeb 2006::attiva::no_auth::00:00 20/06/2006::18:00 30/08/2006::18:00 30/08/2006
 
 #
 # msg1::msg2::msg3
@@ -24,7 +24,7 @@ Lotteria StralacenoWeb 2006::attiva::no_auth::00:00 20/06/2006::18:00 28/08/2006
 #	msg3: visualizzato dopo la chiusura delle giocate
 #
 [msg_date]
-La lotteria non &egrave; ancora aperta. Potrai giocare dalle 00:00 del 20/07::Si pu&ograve; giocare dalle 00:00 del 20/07 alle 18:00 del 28/08::Le giocate sono chiuse, la classifica con il nome del vincitore sar&agrave; visibile  il 29/08
+La lotteria non &egrave; ancora aperta. Potrai giocare dalle 00:00 del 20/06/2006::<a href="statistiche.php?action=show&amp;id_questions=2"> Risultati parziali del sondaggio</a> <br><br><br> Inserisci il tuo pronostico! Si pu&ograve; partecipare al sondaggio fino alle 18:00 30/08/2006<br>::Vedi le <a href="statistiche.php?action=show&amp;id_questions=2">statistiche definitive:</a><br><a href="questions.php?action=results&amp;id_questions=2&amp;debug=full"> Classifica pronostici</a> 
 
 #
 # Formato riga [keyfiles]:
@@ -63,8 +63,8 @@ Gioca sul sito: http://pceres.altervista.org/stralaceno/index.php
 #					: non_ripetibile
 #
 [Domande]
-Nome giocatore::free_string::DUMMY::non_ripetibile
-1&deg; classificato::fixed::Gruppo Atleti Stralaceno 2006::non_ripetibile
+Il tuo nome (o nickmane): ::free_string::DUMMY::non_ripetibile
+<br>1&deg; classificato::fixed::Gruppo Atleti Stralaceno 2006::non_ripetibile
 2&deg; classificato::fixed::Gruppo Atleti Stralaceno 2006::non_ripetibile
 3&deg; classificato::fixed::Gruppo Atleti Stralaceno 2006::non_ripetibile
 4&deg; classificato::fixed::Gruppo Atleti Stralaceno 2006::non_ripetibile
@@ -139,6 +139,7 @@ Nome giocatore::free_string::DUMMY::non_ripetibile
 #
 
 [Gruppo Atleti Stralaceno 2006]
+&nbsp;
 Angela Aiello
 Gabriella Aiello
 Gelsomina Aiello
@@ -244,7 +245,7 @@ Alfonso Malanga
 Antonello Malanga
 Donato Malanga
 Franco Malanga
-Gianni Malanga</option
+Gianni Malanga
 Pietro Malanga
 Salvatore Malanga
 Salvatore Malanga di Alf.
@@ -331,3 +332,35 @@ Antonio Viscido
 Luciano Viscido
 Gaetano Vitale
 Alessio Zarra
+
+
+#
+# Formato riga [statistiche_list]:
+# tag_statistica::tipo_statistica::caption::dati1::dati2::...::datin
+#	tag_statistica: 		: identificativo unico per la singola statistica
+#	tipo_statistica			: stat_domanda (analizza la ripartizione delle risposte ad una o piu' domande)
+#					: stat_risposta ()
+#	caption				: testo visualizzato relativamente alla statistica
+#
+#	significato di dati1::dati2::...::datin
+#		stat_domanda:
+#			<elenco_domande_equiv>
+#			elenco_domande_equiv:[1,2,3,..,num_domande]+ domande da considerare equivalenti, e da analizzare congiuntamente
+#
+#		stat_risposta:
+#			<elenco_squadre_equiv>
+#			elenco_squadre_equiv:[rispostaA,rispostaB,...]+ risposte da considerare equivalenti, e da analizzare congiuntamente
+#
+[statistiche_list]
+classificato_1::stat_domanda::<span class="hi">1 &deg; classificato</span>::squadra::numero preferenze::2
+classificato_2::stat_domanda::<span class="hi">2 &deg; classificato</span>::squadra::numero preferenze::3
+classificato_3::stat_domanda::<span class="hi">3 &deg; classificato</span>::squadra::numero preferenze::4
+classificato_4::stat_domanda::<span class="hi">4 &deg; classificato</span>::squadra::numero preferenze::5
+classificato_5::stat_domanda::<span class="hi">5 &deg; classificato</span>::squadra::numero preferenze::6
+classificato_6::stat_domanda::<span class="hi">6 &deg; classificato</span>::squadra::numero preferenze::7
+classificato_7::stat_domanda::<span class="hi">7 &deg; classificato</span>::squadra::numero preferenze::8
+classificato_8::stat_domanda::<span class="hi">8 &deg; classificato</span>::squadra::numero preferenze::9
+classificato_9::stat_domanda::<span class="hi">9 &deg; classificato</span>::squadra::numero preferenze::10
+classificato_10::stat_domanda::<span class="hi">10 &deg; classificato</span>::squadra::numero preferenze::11
+Francesco_Ceres::stat_risposta::Posizionamento di <span class="hi">Francesco Ceres</span>::posizione in classifica::numero preferenze::Francesco Ceres::2;3;4;5;6;7;8;9;10;11::1° posto;2° posto;3° posto;4° posto;5° posto;6° posto;7° posto;8° posto;9° posto;10° posto
+Gerardo_Martino::stat_risposta::Posizionamento di <span class="hi">Gerardo Martino</span>::posizione in classifica::numero preferenze::Gerardo Martino::2;3;4;5;6;7;8;9;10;11::1° posto;2° posto;3° posto;4° posto;5° posto;6° posto;7° posto;8° posto;9° posto;10° posto
