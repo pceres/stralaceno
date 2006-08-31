@@ -58,7 +58,7 @@ Delimitazione_2::
 Utente::users
 Amministrazione::admin
 Login::guests
-Pagine in preparazione::admin
+#Pagine in preparazione::admin
 
 
 #
@@ -71,6 +71,7 @@ droplist_atleti::Archivio storico personale: ::modulo::::
 archivio_storico::Archivio storico (tutti i risultati ordinati per tempi)::tempi::::
 grafico_tempi::Grafico andamento tempi negli anni::tempi::::
 classifica_partecipazioni::Classifica partecipazioni::tempi::::::
+sondaggio::<b>Sondaggio StralacenoWeb 2006</b>::external_link::questions.php?id_questions=2::
 #personaggi::I personaggi::modulo_custom::::
 
 [Delimitazione_1]
@@ -89,5 +90,5 @@ pregfas::Registro Fanfaroni (Pregfas)::modulo_custom::::
 [Login]
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Login] non prevede sottoelementi
 
-[Pagine in preparazione]
-sondaggio::Sondaggio StralacenoWeb 2006::external_link::questions.php?id_questions=2::
+#[Pagine in preparazione]
+#sondaggio::Sondaggio StralacenoWeb 2006::external_link::questions.php?id_questions=2::
