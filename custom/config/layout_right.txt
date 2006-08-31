@@ -79,6 +79,7 @@ sondaggio::<b>Sondaggio StralacenoWeb 2006</b>::external_link::statistiche.php?a
 
 [Sezione utenti registrati]
 pregfas::Registro Fanfaroni (Pregfas)::modulo_custom::::
+classifica_sondaggio_StralacenoWeb_2006::<b>Classifica sondaggio Stralaceno 2006</b>::external_link::questions.php?action=results&id_questions=2&debug=full::
 
 [Delimitazione_2]
 
