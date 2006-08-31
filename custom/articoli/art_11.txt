@@ -2,6 +2,15 @@ Autore::
 Titolo::XVIII edizione
 --- Begin body ---
 <br>
+La XVIII edizione della Stralaceno, con 68 partecipanti al via, si &egrave; conclusa con la vittoria di 
+<b>Gelsomino Merola</b> con il tempo di <b>20'27''</b>. Il vincitore, ha preceduto di 1'03'' <b>Francesco Ceres di Gius.</b>, 
+che si era aggiudicato l'edizione 2005. Terzo <b>Paolo Viscardi</b> con il tempo di 22'05''.
+Prima della donne <b>Federica Ceres</b>, che ha completato il percorso in 28'54'' (nuovo record femminile)
+<br>
+<br><a href="filtro4.php?anno=2006">L'ordine d'arrivo completo dell'edizione 2006 &egrave; consultabile qui</a>.
+<br>
+<br>L'album fotografico della Stralaceno 2006 sar&agrave; disponibile tra qualche giorno.<br>
+<!--
 <div align="center">
 <font size="2">Altopiano di Laceno</font><br>
 <font size="3"><b>mercoled&igrave; &nbsp;30 AGOSTO</b></font>
@@ -18,8 +27,9 @@ I corridori percorreranno l'itinerario previsto assumendosene personalmente la r
 <br><br>
 Ricordiamo che la Stralaceno &egrave; un evento di sport attivo e non di spettacolo. In particolare chi &egrave; interessato a seguire gli sviluppi della corsa lungo il percorso, essendo vietato l'uso dell'auto (fatta eccezione per anziani ed invalidi), &egrave; pregato farlo con uno dei seguenti mezzi: a piedi (anche solo per qualche tratto, in prospettiva di una futura partecipazione); in bicicletta; a cavallo etc.
 <br><br>
-&Egrave; disponibile la maglietta dell'edizione 2006, ritirabile, dopo aver sottoscritto l'impegno di partecipazione, presso Donatello Cirillo, Nicola D'Auria, Alessandro Russomanno.
+&Egrave; disponibile la maglietta dell'edizione 2006, ritirabile, dopo aver sottoscritto l'impegno di partecipazione, presso Donatello Cirillo, Nicola D’Auria, Alessandro Russomanno.
 <br><br>
 Dato l'evolversi della manifestazione, l'organizzazione necessita di persone disposte ad offrire la propria collaborazione (servizio d'ordine, addetto alla logistica, cronometristi, giudice di gara etc.).
 <br><br>
+-->
 --- End body ---
