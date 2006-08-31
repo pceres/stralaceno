@@ -1,7 +1,7 @@
 Autore::
 Titolo::I numeri della Stralaceno
 --- Begin body ---
-<p>
+<br>
   Diamo un'occhiata ai numeri delle 17 edizioni della Stralaceno finora disputate.
 <ul>
    <li>Numero totale di partecipanti:  192, di cui 18 donne;</li>
@@ -9,8 +9,8 @@ Titolo::I numeri della Stralaceno
    <li>Edizione con minor numero di concorrenti:  anno 1987 e anno 1991 (10 iscritti);</li>
    <li>Edizione con maggior numero di donne:  anno 2004 (8 iscritte);</li>
    <li>Maggior numero di vittorie:  11 (Gelsomino Merola n.11);</li>
-   <li>Record cronometrico della manifestazione:  18' 47'' (Gelsomino Merola n.11);</li>
-   <li>Record cronometrico femminile della manifestazione: 30' 34'' (Federica Ceres n.156);</li>
+   <li>Record cronometrico della manifestazione:  18' 47'' (Gelsomino Merola n.11, anno 1995);</li>
+   <li>Record cronometrico femminile della manifestazione: 30' 34'' (Federica Ceres n.156, anno 2003);</li>
    <li>Atleti con record personale inferiore a 25' 00'':  63;</li>
    <li>Maggior numero di partecipazioni: 16 (Nicola D'Auria n.2);</li>
    <li>Atleti giunti fuori tempo massimo: 1 (edizione 2003);</li>
