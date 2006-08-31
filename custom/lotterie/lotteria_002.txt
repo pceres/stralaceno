@@ -15,7 +15,7 @@
 #	data_presentazione_risultati	: hh:mm gg/mm/aaaa
 #
 [Attributi]
-Lotteria StralacenoWeb 2006::attiva::no_auth::00:00 20/06/2006::18:00 30/08/2006::18:00 30/08/2006
+Sondaggio StralacenoWeb 2006::attiva::no_auth::00:00 20/06/2006::18:00 30/08/2006::18:00 30/09/2006
 
 #
 # msg1::msg2::msg3
@@ -24,7 +24,10 @@ Lotteria StralacenoWeb 2006::attiva::no_auth::00:00 20/06/2006::18:00 30/08/2006
 #	msg3: visualizzato dopo la chiusura delle giocate
 #
 [msg_date]
-La lotteria non &egrave; ancora aperta. Potrai giocare dalle 00:00 del 20/06/2006::<a href="statistiche.php?action=show&amp;id_questions=2"> Risultati parziali del sondaggio</a> <br><br><br> Inserisci il tuo pronostico! Si pu&ograve; partecipare al sondaggio fino alle 18:00 30/08/2006<br>::Vedi le <a href="statistiche.php?action=show&amp;id_questions=2">statistiche definitive:</a><br><a href="questions.php?action=results&amp;id_questions=2&amp;debug=full"> Classifica pronostici</a> 
+La lotteria non &egrave; ancora aperta. Potrai giocare dalle 00:00 del 20/06/2006::<a href="statistiche.php?action=show&amp;id_questions=2"> Risultati parziali del sondaggio</a> <br><br><br> Inserisci il tuo pronostico, e occhio alle omonimie! Si pu&ograve; partecipare al sondaggio fino alle 18:00 30/08/2006<br>::Vedi le <a href="statistiche.php?action=show&amp;id_questions=2">statistiche definitive:</a> 
+
+#La lotteria non &egrave; ancora aperta. Potrai giocare dalle 00:00 del 20/06/2006::<a href="statistiche.php?action=show&amp;id_questions=2"> Risultati parziali del sondaggio</a> <br><br><br> Inserisci il tuo pronostico, e occhio alle omonimie! Si pu&ograve; partecipare al sondaggio fino alle 18:00 30/08/2006<br>::Vedi le <a href="statistiche.php?action=show&amp;id_questions=2">statistiche definitive:</a><br><a href="questions.php?action=results&amp;id_questions=2&amp;debug=full"> Classifica pronostici</a> 
+
 
 #
 # Formato riga [keyfiles]:
@@ -362,5 +365,6 @@ classificato_7::stat_domanda::<span class="hi">7 &deg; classificato</span>::squa
 classificato_8::stat_domanda::<span class="hi">8 &deg; classificato</span>::squadra::numero preferenze::9
 classificato_9::stat_domanda::<span class="hi">9 &deg; classificato</span>::squadra::numero preferenze::10
 classificato_10::stat_domanda::<span class="hi">10 &deg; classificato</span>::squadra::numero preferenze::11
-Francesco_Ceres::stat_risposta::Posizionamento di <span class="hi">Francesco Ceres</span>::posizione in classifica::numero preferenze::Francesco Ceres::2;3;4;5;6;7;8;9;10;11::1° posto;2° posto;3° posto;4° posto;5° posto;6° posto;7° posto;8° posto;9° posto;10° posto
-Gerardo_Martino::stat_risposta::Posizionamento di <span class="hi">Gerardo Martino</span>::posizione in classifica::numero preferenze::Gerardo Martino::2;3;4;5;6;7;8;9;10;11::1° posto;2° posto;3° posto;4° posto;5° posto;6° posto;7° posto;8° posto;9° posto;10° posto
+Gelsomino_Merola::stat_risposta::Posizionamento di <span class="hi">Gelsomino Merola</span>::posizione in classifica::numero preferenze::Gelsomino Merola::2;3;4;5;6;7;8;9;10;11::1&deg; posto;2&deg; posto;3&deg; posto;4&deg; posto;5&deg; posto;6&deg; posto;7&deg; posto;8&deg; posto;9&deg; posto;10&deg; posto
+Francesco_Ceres_di_Gius::stat_risposta::Posizionamento di <span class="hi">Francesco Ceres di Gius.</span>::posizione in classifica::numero preferenze::Francesco Ceres di Gius.::2;3;4;5;6;7;8;9;10;11::1&deg; posto;2&deg; posto;3&deg; posto;4&deg; posto;5&deg; posto;6&deg; posto;7&deg; posto;8&deg; posto;9&deg; posto;10&deg; posto
+Gerardo_Martino::stat_risposta::Posizionamento di <span class="hi">Gerardo Martino</span>::posizione in classifica::numero preferenze::Gerardo Martino::2;3;4;5;6;7;8;9;10;11::1&deg; posto;2&deg; posto;3&deg; posto;4&deg; posto;5&deg; posto;6&deg; posto;7&deg; posto;8&deg; posto;9&deg; posto;10&deg; posto
