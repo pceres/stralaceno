@@ -16,5 +16,5 @@ Formato [elenco_topics]:
 [elenco_topics]
 0::Benvenuti nel forum::open::::::ceres::4::3
 1::Come funziona il forum::open::::::ceres::1::
-2::le sfide della Stralaceno::open::::::foxy::1::0
+2::le sfide della Stralaceno::open::::::foxy::4::3
 
