@@ -1,7 +1,7 @@
 Autore::
 Titolo::Risultati XVII edizione
 --- Begin body ---
-<p>
+<br>
 La XVII edizione della Stralaceno, con 49 partecipanti al via, si &egrave; conclusa con la vittoria di Francesco Ceres (di Giuseppe) con il tempo di 21'45''. Il vincitore, classe 1988 (non ancora nato all'epoca della I edizione della Stralaceno), alla sua prima partecipazione, ha preceduto di 7'' Gerardo Martino, altra sorpresa positiva della manifestazione. Terzo Rocco Proietto con il tempo di 22'04''.
 Prima della donne Angela Aiello, che ha completato il percorso in 36'06''.
 <a href="filtro4.php?anno=2005">L'ordine d'arrivo completo dell'edizione 2005 &egrave; consultabile qui</a>.
