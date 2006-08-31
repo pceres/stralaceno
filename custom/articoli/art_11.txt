@@ -3,6 +3,21 @@ Titolo::XVIII edizione
 --- Begin body ---
 <br>
 <div align="center">
-<img id="logo_edizione_2006" src="%file_root%custom/album/2006/stra06.jpg" alt="" border="0" width="300">
+<font size="2">Altopiano di Laceno</font><br>
+<font size="3"><b>mercoled&igrave; &nbsp;30 AGOSTO</b></font>
+<br>
+<br>
+<img id="logo_edizione_2006" src="%file_root%custom/album/2006/stra06.jpg" alt="logo_edizione_2006" border="0" width="300">
 </div>
+<br>
+Il raduno e la conferma dell'iscrizione sono previsti a partire dalle ore 17.00 nell'area antistante l'hotel 4 camini; il "via" per le 18.15, indipendentemente dalle condizioni meteorologiche. Tutti i caposelesi che vorranno partecipare alla manifestazione saranno ben accetti, a prescindere dal loro livello tecnico, purch&egrave; animati da autentico spirito sportivo.
+<br><br>
+I corridori percorreranno l'itinerario previsto assumendosene personalmente la responsabilit&agrave; in caso di malori, infortuni ed altri contrattempi. Per i minorenni si richiede il consenso scritto dei genitori; saranno ammessi tutti i nati entro il 31/12/1991.
+<br><br>
+Ricordiamo che la Stralaceno &egrave; un evento di sport attivo e non di spettacolo. In particolare chi &egrave; interessato a seguire gli sviluppi della corsa lungo il percorso, essendo vietato l'uso dell'auto (fatta eccezione per anziani ed invalidi), &egrave; pregato farlo con uno dei seguenti mezzi: a piedi (anche solo per qualche tratto, in prospettiva di una futura partecipazione); in bicicletta; a cavallo etc.
+<br><br>
+&Egrave; disponibile la maglietta dell'edizione 2006, ritirabile, dopo aver sottoscritto l'impegno di partecipazione, presso Donatello Cirillo, Nicola D’Auria, Alessandro Russomanno.
+<br><br>
+Dato l'evolversi della manifestazione, l'organizzazione necessita di persone disposte ad offrire la propria collaborazione (servizio d'ordine, addetto alla logistica, cronometristi, giudice di gara etc.).
+<br><br>
 --- End body ---
