@@ -2,14 +2,20 @@ Autore::
 Titolo::XVIII edizione
 --- Begin body ---
 <br>
-La XVIII edizione della Stralaceno, con 68 partecipanti al via, si &egrave; conclusa con la vittoria di 
+La XVIII edizione della Stralaceno, con 68 partecipanti al via (nonostante le avverse condizioni atmosferiche), si &egrave; conclusa con la vittoria di 
 <b>Gelsomino Merola</b> con il tempo di <b>20'27''</b>. Il vincitore, ha preceduto di 1'03'' <b>Francesco Ceres di Gius.</b>, 
-che si era aggiudicato l'edizione 2005. Terzo <b>Paolo Viscardi</b> con il tempo di 22'05''.
-Prima della donne <b>Federica Ceres</b>, che ha completato il percorso in 28'54'' (nuovo record femminile)
+che si era aggiudicato l'edizione 2005. Terzo <b>Paolo Viscardi</b> con il tempo di 22'05''.<br>
+Prima della donne <b>Federica Ceres</b>, che ha completato il percorso in 28'54'' (nuovo record femminile).
 <br>
 <br><a href="filtro4.php?anno=2006">L'ordine d'arrivo completo dell'edizione 2006 &egrave; consultabile qui</a>.
 <br>
-<br>L'album fotografico della Stralaceno 2006 sar&agrave; disponibile tra qualche giorno.<br>
+<br>Inserite nuove foto il 18/09 che trovate <a href="album.php?anno=2006">qui</a> 
+<br><br>
+<p>&nbsp;
+<div align="center">
+<img id="foto_edizione_2006" src="%file_root%custom/album/2006/f4.jpg" alt="L'attesa per il 'via'" border="0" width="480">
+<br><br>
+</div>
 <!--
 <div align="center">
 <font size="2">Altopiano di Laceno</font><br>
