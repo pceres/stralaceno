@@ -1,0 +1,465 @@
+Autore::Pasquale Ceres
+Titolo::Risultati sondaggio StralacenoWeb 2006
+--- Begin body ---
+<br>
+Ecco i risultati del sondaggio sperimentale <a href="statistiche.php?action=show&amp;id_questions=2">StralacenoWeb 2006</a>: complimenti a <b>Cabo86</b>, che con il suo pronostico ha indovinato 
+correttamente ben quattro classificati tra i primi 10, e la loro posizione, e di altri 4 ha pronosticato l'arrivo tra i primi 10, 
+non centrandone per&ograve; la posizione in classifica:
+<br>
+<br>
+<!--TABLE COLS=13 WIDTH=100% BORDER=1 BORDERCOLOR="#000000" CELLPADDING=2 CELLSPACING=0 FRAME=ABOVE RULES=GROUPS STYLE="page-break-before: always"-->
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=2 CELLSPACING=0 FRAME=ABOVE RULES=GROUPS STYLE="page-break-before: always">
+	<TBODY>
+		<TR>
+			<TD WIDTH=88 HEIGHT=32>
+				<P ALIGN=CENTER><FONT FACE="Bitstream Vera Serif"><i><b>Nickname</b></i></FONT></P>
+			</TD>
+			<TD WIDTH=155>
+				<P ALIGN=CENTER><FONT FACE="Bitstream Vera Serif"><B>1&deg; posto</B></FONT></P>
+			</TD>
+			<TD WIDTH=166>
+				<P ALIGN=CENTER><FONT FACE="Bitstream Vera Serif"><B>2&deg; posto</B></FONT></P>
+			</TD>
+			<TD WIDTH=127>
+				<P ALIGN=CENTER><FONT FACE="Bitstream Vera Serif"><B>3&deg; posto</B></FONT></P>
+			</TD>
+			<TD WIDTH=133>
+				<P ALIGN=CENTER><FONT FACE="Bitstream Vera Serif"><B>4&deg; posto</B></FONT></P>
+			</TD>
+			<TD WIDTH=125>
+				<P ALIGN=CENTER><FONT FACE="Bitstream Vera Serif"><B>5&deg; posto</B></FONT></P>
+			</TD>
+			<TD WIDTH=128>
+				<P ALIGN=CENTER><FONT FACE="Bitstream Vera Serif"><B>6&deg; posto</B></FONT></P>
+			</TD>
+			<TD WIDTH=150>
+				<P ALIGN=CENTER><FONT FACE="Bitstream Vera Serif"><B>7&deg; posto</B></FONT></P>
+			</TD>
+			<TD WIDTH=207>
+				<P ALIGN=CENTER><FONT FACE="Bitstream Vera Serif"><B>8&deg; posto</B></FONT></P>
+			</TD>
+			<TD WIDTH=110>
+				<P ALIGN=CENTER><FONT FACE="Bitstream Vera Serif"><B>9&deg; posto</B></FONT></P>
+			</TD>
+			<TD WIDTH=123>
+				<P ALIGN=CENTER><FONT FACE="Bitstream Vera Serif"><B>10&deg;
+				posto</B></FONT></P>
+			</TD>
+			<TD WIDTH=86>
+				<P ALIGN=CENTER><FONT FACE="Bitstream Vera Serif"><B>data giocata</B></FONT></P>
+			</TD>
+			<TD WIDTH=94>
+				<P ALIGN=CENTER><FONT FACE="Bitstream Vera Serif"><B>Punteggio</B></FONT></P>
+			</TD>
+		</TR>
+	</TBODY>
+	<TBODY>
+		<TR>
+			<TD HEIGHT=47>
+				<P ALIGN=LEFT><FONT FACE="Bitstream Vera Serif"><i><b>Cabo86</b></i></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif"><B>Gelsomino
+				Merola (1.0 x 1.0)</B></FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif"><B>Francesco
+				Ceres di Gius. (1.0 x 0.9)</B></FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif"><B>Paolo
+				Viscardi (1.0 x 0.8)</B></FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif">Salvatore
+				Merola (0.9 x 0.7)</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif">Alessandro
+				Russomanno (0.7 x 0.6)</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif">Gerardo
+				Martino (0.8 x 0.5)</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#333333"><FONT FACE="Bitstream Vera Serif">Rocco
+				Grasso</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#333333"><FONT FACE="Bitstream Vera Serif">Nicola
+				D'Auria</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif">Rocco
+				Feniello (0.7 x 0.2)</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif"><B>Claudio
+				Donatiello (1.0 x 0.1)</B></FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="Bitstream Vera Serif">22:05 25/08/2006</FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=CENTER><FONT FACE="Bitstream Vera Serif"><B>4.39</B></FONT></P>
+			</TD>
+		</TR>
+	</TBODY>
+	<TBODY>
+		<TR>
+			<TD HEIGHT=47>
+				<P ALIGN=LEFT><FONT FACE="Bitstream Vera Serif"><i><b>Alex</b></i></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif"><B>Gelsomino
+				Merola (1.0 x 1.0)</B></FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif"><B>Francesco
+				Ceres di Gius. (1.0 x 0.9)</B></FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif">Salvatore
+				Merola (0.8 x 0.8)</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif">Alessandro
+				Russomanno (0.6 x 0.7)</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif">Paolo
+				Viscardi (0.8 x 0.6)</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif"><B>Rocco
+				Feniello (1 x 0.5)</B></FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif">Gerardo
+				Martino (0.7 x 0.4)</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#333333"><FONT FACE="Bitstream Vera Serif">Gelsomino
+				Merola di Don.</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#333333"><FONT FACE="Bitstream Vera Serif">Nicola
+				D'Auria</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif">Alessio
+				Zarra (0.9 x 0.1)</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="Bitstream Vera Serif">16:55 28/08/2006</FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=CENTER><FONT FACE="Bitstream Vera Serif"><B>4.31</B></FONT></P>
+			</TD>
+		</TR>
+	</TBODY>
+	<TBODY>
+		<TR>
+			<TD HEIGHT=47>
+				<P ALIGN=LEFT><FONT FACE="Bitstream Vera Serif"><i><b>Garmin</b></i></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif"><B>Gelsomino
+				Merola (1.0 x 1.0)</B></FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif"><B>Francesco
+				Ceres di Gius. (1.0 x 0.9)</B></FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif">Salvatore
+				Merola (0.8 x 0.8)</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif">Paolo
+				Viscardi (0.9 x 0.7)</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif">Alessandro
+				Russomanno (0.7 x 0.6)</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="Bitstream Vera Serif">Nicola D'Auria</FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif">Gerardo
+				Martino (0.7 x 0.4)</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif">Rocco
+				Feniello (0.8 x 0.3)</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif">Claudio
+				Donatiello (0.9 x 0.2)</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#333333"><FONT FACE="Bitstream Vera Serif">Giuseppe
+				Merola</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="Bitstream Vera Serif">23:40 26/08/2006</FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=CENTER><FONT FACE="Bitstream Vera Serif"><B>4.29</B></FONT></P>
+			</TD>
+		</TR>
+	</TBODY>
+	<TBODY>
+		<TR>
+			<TD HEIGHT=47>
+				<P ALIGN=LEFT><FONT FACE="Bitstream Vera Serif"><i><b>Mushroom</b></i></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif"><B>Gelsomino
+				Merola (1.0 x 1.0)</B></FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif"><B>Francesco
+				Ceres di Gius. (1.0 x 0.9)</B></FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif">Salvatore
+				Merola (0.8 x 0.8)</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif">Alessandro
+				Russomanno (0.6 x 0.7)</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif">Gerardo
+				Martino (0.9 x 0.6)</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif">Paolo
+				Viscardi (0.7 x 0.5)</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif">Rocco
+				Feniello (0.9 x 0.4)</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#333333"><FONT FACE="Bitstream Vera Serif">Nicola
+				D'Auria</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#333333"><FONT FACE="Bitstream Vera Serif">Salvatore
+				Colatrella</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#333333"><FONT FACE="Bitstream Vera Serif">Nicola
+				Melillo</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="Bitstream Vera Serif">19:36 27/08/2006</FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=CENTER><FONT FACE="Bitstream Vera Serif"><B>4.21</B></FONT></P>
+			</TD>
+		</TR>
+	</TBODY>
+	<TBODY>
+		<TR>
+			<TD HEIGHT=47>
+				<P ALIGN=LEFT><I>LUPI 79</I></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#333333">Francesco Ceres</FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff">Gelsomino Merola (0.9 x 0.9)</FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff">Salvatore Merola (0.8 x 0.8)</FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff">Alessandro Russomanno (0.6 x
+				0.7)</FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#333333">Nicola D'Auria</FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff">Paolo Viscardi (0.7 x 0.5)</FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff">Rocco Feniello (0.9 x 0.4)</FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#333333">Gelsomino Merola di Don.</FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#333333">Michele Notaro</FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#333333"><FONT FACE="Bitstream Vera Serif">Salvatore
+				Colatrella</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="Bitstream Vera Serif">12:36 25/08/2006</FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=CENTER><FONT FACE="Bitstream Vera Serif"><B>2.58</B></FONT></P>
+			</TD>
+		</TR>
+	</TBODY>
+	<TBODY>
+		<TR>
+			<TD HEIGHT=47>
+				<P ALIGN=LEFT><FONT FACE="Bitstream Vera Serif"><i><b>Pasquale Ceres</b></i></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#333333"><FONT FACE="Bitstream Vera Serif">Francesco
+				Ceres</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif">Gerardo
+				Martino (0.8 x 0.9)</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#333333"><FONT FACE="Bitstream Vera Serif">Gerardo
+				Nisivoccia</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#333333"><FONT FACE="Bitstream Vera Serif">Rocco
+				Proietto</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif">Alessandro
+				Russomanno (0.7 x 0.6)</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#0000ff"><FONT FACE="Bitstream Vera Serif">Paolo
+				Viscardi (0.7 x 0.5)</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#333333"><FONT FACE="Bitstream Vera Serif">Angelo
+				Ceres</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#333333"><FONT FACE="Bitstream Vera Serif">Nicola
+				D'Auria</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#333333"><FONT FACE="Bitstream Vera Serif">Nicola
+				Melillo</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#333333"><FONT FACE="Bitstream Vera Serif">Roberto
+				Notaro</FONT></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="Bitstream Vera Serif">23:31 24/08/2006</FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=CENTER><FONT FACE="Bitstream Vera Serif"><B>1.49</B></FONT></P>
+			</TD>
+		</TR>
+	</TBODY>
+	<TBODY>
+		<TR>
+			<TD HEIGHT=16>
+				<P><BR>
+				</P>
+			</TD>
+			<TD>
+				<P><BR>
+				</P>
+			</TD>
+			<TD>
+				<P><BR>
+				</P>
+			</TD>
+			<TD>
+				<P><BR>
+				</P>
+			</TD>
+			<TD>
+				<P><BR>
+				</P>
+			</TD>
+			<TD>
+				<P><BR>
+				</P>
+			</TD>
+			<TD>
+				<P><BR>
+				</P>
+			</TD>
+			<TD>
+				<P><BR>
+				</P>
+			</TD>
+			<TD>
+				<P><BR>
+				</P>
+			</TD>
+			<TD>
+				<P><BR>
+				</P>
+			</TD>
+			<TD>
+				<P><BR>
+				</P>
+			</TD>
+			<TD>
+				<P><BR>
+				</P>
+			</TD>
+			<TD>
+				<P><BR>
+				</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=33>
+				<P ALIGN=LEFT><FONT COLOR="#800000"><I>Classifica finale:</I></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#800000"><B>Gelsomino Merola</B></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#800000"><B>Francesco Ceres di Gius.</B></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#800000"><B>Paolo Viscardi</B></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#800000"><B>Gerardo Martino</B></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#800000"><B>Salvatore Merola</B></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#800000"><B>Rocco Feniello</B></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#800000"><B>Francesco Ciccone</B></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#800000"><B>Alessandro Russomanno</B></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#800000"><B>Alessio Zarra</B></FONT></P>
+			</TD>
+			<TD>
+				<P ALIGN=LEFT><FONT COLOR="#800000"><B>Claudio Donatiello</B></FONT></P>
+			</TD>
+			<TD>
+				<P><BR>
+				</P>
+			</TD>
+			<TD>
+				<P><BR>
+				</P>
+			</TD>
+		</TR>
+	</TBODY>
+</TABLE>
+--- End body ---
