@@ -192,6 +192,25 @@ dscn5414.jpg::Foto al fotografo::Chiudiamo con chi ha avuto il merito di cattura
 
 [2006]
 stra06.jpg::logo Stralaceno 2006
+f1.jpg::::La carriera di Valentino Di Masi si &egrave; purtroppo precocemente evoluta nell'ambito degli impiegati di concetto!
+f4.jpg::
+f5.jpg::
+f8.jpg::
+f7.jpg::
+f37.jpg::
+f14.jpg::
+f11.jpg::::Il re &egrave; sempre lui.
+f12.jpg::
+f38.jpg::
+f39.jpg::
+f50.jpg::
+f10.jpg::
+f51.jpg::
+f30.jpg::
+f32.jpg::
+f31.jpg::
+f42.jpg::
+
 
 [generico1]
 retro.gif::logo trasparente::
@@ -212,6 +231,10 @@ dscn5747.jpg::Hotel Testa::
 dscn5749.jpg::Basilica San Gerardo::
 dscn5752.jpg::Piani (piscina comunale)::
 dscn5756.jpg::Piazza Sanit&agrave;2::
+stats_nuovi.jpg::
+logo_stralaceno.jpg:: 
+stats_ritorni.jpg:: 
+stats_partecipanti.jpg:: 
 
 [prova]
 stra06.jpg::
