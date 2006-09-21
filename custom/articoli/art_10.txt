@@ -6,6 +6,6 @@ Titolo::Sito ARS
 <a href="http://ars.altervista.org"><b>http://ars.altervista.org</b></a>
 <p>&nbsp;
 <div align="center">
-<img id="foto" src="%file_root%custom/album/generico1/retro.gif" alt="" border="0" width="200">
+<img id="foto_logo_ARS" src="%file_root%custom/album/generico1/retro.gif" alt="" border="0" width="200">
 </div>
 --- End body ---
