@@ -13,8 +13,11 @@ questa libreria esamina i cookies o i parametri http (eventualmente) inviati, e 
 */
 require_once('login.php');
 
-$action = $_REQUEST['action'];			// azione da eseguire
-$data = $_REQUEST['data'];			// dati associati all'azione
+$action	= $_REQUEST['action'];	// azione da eseguire
+$action	= sanitize_user_input($action,'plain_text',array());	// verifica di sicurezza
+
+$data 	= $_REQUEST['data'];		// dati associati all'azione
+$data 	= sanitize_user_input($data,'plain_text',array());	// verifica di sicurezza
 
 // azione di default
 if (empty($action))
@@ -63,7 +66,7 @@ $forums = get_config_file($file_forums);
 
 $footer_message = 'Servizio forum realizzato da : <a href="http://ars.altervista.org/" target="_blank">ArsWeb</a>';
 
-$default_post_testo = 'Qui il tuo messaggio';
+$default_post_testo = ''; //'Qui il tuo messaggio';
 
 while ($action)
 {
@@ -99,6 +102,11 @@ while ($action)
 				
 				$forum_last_post_author = $last_post[$indice_post_author];
 				$forum_last_post_date = $last_post[$indice_post_date];
+			}
+			else
+			{
+				$forum_last_post_author = '';
+				$forum_last_post_date = '';
 			}
 			
 			if ($forum_status !== 'hidden')
@@ -249,8 +257,47 @@ while ($action)
 		echo '<td>Discussione</td><td><center>Aperta da</center></td><td><center>Messaggi</center></td><td><center>Ultimo Messaggio</center></td>';
 		echo '</tr>'."\n";
 		
-		$showed = 0;
+		
+		// sort topics by last published post
+		$v_data = array();
 		foreach ($topics['elenco_topics'] as $topic_item)
+		{
+			$topic_id = $topic_item[$indice_topic_id];
+			$topic_last_post = $topic_item[$indice_topic_last_post];
+			
+			if (strlen($topic_last_post.' ') > 1)
+			{
+				$last_post = get_forum_post($forum_id,$topic_id,$topic_last_post);
+				
+// 				$topic_last_post_author = $last_post[$indice_post_author];
+				$topic_last_post_date = $last_post[$indice_post_date];
+			}
+			else
+			{
+// 				unset($topic_last_post_author);
+				unset($topic_last_post_date);
+			}
+			
+			// passa dal formato '21/09/2006 22.03.22' ad un singolo numero
+// 			$data = $topic_last_post_date;
+			
+			$giorno = substr($topic_last_post_date,0,2);
+			$mese = substr($topic_last_post_date,3,2);
+			$anno = substr($topic_last_post_date,6,4);
+			$ore = substr($topic_last_post_date,11,2);
+			$minuti = substr($topic_last_post_date,14,2);
+			$secondi = substr($topic_last_post_date,17,2);
+			
+			$datenum = mktime($ore,$minuti,$secondi,$mese,$giorno,$anno);
+			
+			array_push($v_data,$datenum);
+		}
+		
+		$topics_ordinati = $topics['elenco_topics'];
+		array_multisort($v_data,SORT_DESC,$topics_ordinati);
+		
+		$showed = 0;
+		foreach ($topics_ordinati as $topic_item)
 		{
 			$topic_id = $topic_item[$indice_topic_id];
 			$topic_caption = $topic_item[$indice_topic_caption];
@@ -912,18 +959,18 @@ if ($post_type === "reply_post")
 		
 	case "write_post":
 		
-		$post_type = $_REQUEST['post_type'];	// 'new_post','reply_post','new_topic_post'
+		$post_type = $_POST['post_type'];	// 'new_post','reply_post','new_topic_post'
 		
-		$post_forum_id = $_REQUEST['post_forum_id'];
-		$post_topic_id = $_REQUEST['post_topic_id'];
-		$post_nick = $_REQUEST['post_nick'];
-		$post_email = $_REQUEST['post_email'];
-		$post_web = $_REQUEST['post_web'];
-		$post_titolo = $_REQUEST['post_titolo'];
-		$post_citazione = $_REQUEST['post_citazione'];
-		$post_testo = $_REQUEST['post_testo'];
-		$post_azione1 = $_REQUEST['post_azione1'];
-		$post_azione2 = $_REQUEST['post_azione2'];
+		$post_forum_id = $_POST['post_forum_id'];
+		$post_topic_id = $_POST['post_topic_id'];
+		$post_nick = sanitize_user_input($_POST['post_nick'],'plain_text',array());
+		$post_email = $_POST['post_email'];
+		$post_web = $_POST['post_web'];
+		$post_titolo = sanitize_user_input($_POST['post_titolo'],'plain_text',array());
+		$post_citazione = sanitize_user_input($_POST['post_citazione'],'plain_text',array());
+		$post_testo = sanitize_user_input($_POST['post_testo'],'simple_formatted_html',array());
+		$post_azione1 = $_POST['post_azione1'];
+		$post_azione2 = $_POST['post_azione2'];
 		
 		// integra la citazione nel messaggio del testo:
 		if ($post_type === 'reply_post')
@@ -1134,12 +1181,29 @@ if ($post_type === "reply_post")
 			}
 		}
 		
+$file_templog = $root_path."custom/forums/templog.php";
+		$templog = get_config_file($file_templog);
+$temp = $templog["logdata"];
+if (empty($temp))
+{
+	$temp = array();
+	$temp[0] = array("email","web");
+}
+array_push($temp,array(0=>$post_email,1=>$post_web));
+$templog["logdata"] = $temp;
+save_config_file($file_templog,$templog);
+			
+// print_r($templog);
+// die('a');
+
 		// se il messaggio e' nuovo, salvalo
 		if (!$stesso_messaggio)
 		{
 			save_config_file($file_forums,$forums);
 			save_config_file($file_forum,$topics);
 			save_config_file($file_topic,$posts);
+
+
 		}
 		
 		
