@@ -18,7 +18,6 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 
 [post_text_0]
 Auguro un benvenuto a tutti i visitatori del sito!
-&nbsp;
 Da questo momento il forum &egrave; ufficialmente aperto.
 &nbsp;
 Forza, scrivete anche voi!
@@ -27,7 +26,8 @@ Forza, scrivete anche voi!
 la stralaceno 2006 si avvicina...
 
 [post_text_2]
-&gt;la stralaceno 2006 si avvicina...<br>&gt;<br><br>Tra pochi giorni comunicheremo la data della manifestazione.
+&gt;la stralaceno 2006 si avvicina...
+<br>&gt;<br><br>Tra pochi giorni comunicheremo la data della manifestazione.
 
 [post_text_3]
 stralaceno 2006: 30 agosto
