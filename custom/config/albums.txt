@@ -193,13 +193,15 @@ dscn5414.jpg::Foto al fotografo::Chiudiamo con chi ha avuto il merito di cattura
 [2006]
 stra06.jpg::logo Stralaceno 2006
 f1.jpg::::La carriera di Valentino Di Masi si &egrave; purtroppo precocemente evoluta nell'ambito degli impiegati di concetto!
-f4.jpg::
-f5.jpg::
-f8.jpg::
 f7.jpg::
+f5.jpg::
+f4.jpg::
+f8.jpg::
 f37.jpg::
 f14.jpg::
 f11.jpg::::Il re &egrave; sempre lui.
+d2.jpg::
+d3.jpg::
 f12.jpg::
 f38.jpg::
 f39.jpg::
@@ -210,7 +212,10 @@ f30.jpg::
 f32.jpg::
 f31.jpg::
 f42.jpg::
-
+f33.jpg::
+f46.jpg::
+f34.jpg::
+d6.jpg::
 
 [generico1]
 retro.gif::logo trasparente::
