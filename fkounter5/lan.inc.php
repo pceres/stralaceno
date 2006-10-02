@@ -152,11 +152,11 @@ define("LAN415","Grafico (hits)");
 define("LAN416","%%");
 
 // Pannello del calendario
-define("LAN501","Resoconto degli [hi]Ultimi 31 Giorni[/hi]");
+define("LAN501","Resoconto degli [hi]Ultimi ## Giorni[/hi]");
 define("LAN502","Giorno");
 define("LAN503","Grafico (hits)");
 define("LAN504","%%");
-define("LAN505","Resoconto degli [hi]Ultimi 12 Mesi[/hi]");
+define("LAN505","Resoconto degli [hi]Ultimi ## Mesi[/hi]");
 define("LAN506","Mese");
 define("LAN507","Grafico (hits)");
 define("LAN508","%%");
