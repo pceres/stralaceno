@@ -9,11 +9,11 @@ Prima della donne <b>Federica Ceres</b>, che ha completato il percorso in 28'54'
 <br>
 <br><a href="filtro4.php?anno=2006">L'ordine d'arrivo completo dell'edizione 2006 &egrave; consultabile qui</a>.
 <br>
-<br>Inserite nuove foto il 25/09 che trovate <a href="album.php?anno=2006">qui</a> 
+<br>Inserite nuove foto il 02/10 che trovate <a href="album.php?anno=2006">qui</a> 
 <br><br>
 <p>&nbsp;
 <div align="center">
-<img id="foto_edizione_2006" src="%file_root%custom/album/2006/d2.jpg" alt="..." border="0" width="450">
+<img id="foto_edizione_2006" src="%file_root%custom/album/2006/f5.jpg" alt="..." border="0" width="450">
 <br><br>
 </div>
 <!--
