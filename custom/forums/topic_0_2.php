@@ -39,6 +39,13 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 25::Salvatore::25/09/2006 17.56.53::visible
 26::NICOLA M.::26/09/2006 11.37.51::visible
 27::Ale::26/09/2006 11.56.16::visible
+28::PIL::29/09/2006 00.17.32::visible
+29::cabo::29/09/2006 11.05.26::visible
+30::Salvatore merola::29/09/2006 14.53.48::visible
+31::PIL::01/10/2006 10.19.24::visible
+32::Donatello Cirillo::01/10/2006 20.44.41::visible
+33::PIL::02/10/2006 11.12.53::visible
+34::Angelo Ceres::02/10/2006 12.13.54::visible
 
 [post_text_0]
 Aspettiamo le vostre dichiarazioni di sfida...
@@ -189,4 +196,42 @@ LA STRALACENO E' GIA' UN LONTANO RICORDO COME MAI SUL FORUM SIAMO SEMPRE GLI STE
 x Salvatore
 &nbsp;
 Per me si può andare. Vedi che dice Paolo. Ritroveremo sicuramente anche lì il presidente della Camaldolese...
+
+[post_text_28]
+L' ARS E' SOLO PROTAGONISMO IN QUASI 2 ANNI DI ATTIVITA' NON SI E' FATTO QUASI NIENTE PER CREARE ENTUSIASMO E NUOVI ISCRITTI IN QUANTO NELLO STATUTO CI SONO TROPPE INCONGRUENZE E ASPETTATIVE MESTAMENTE DISILLUSE.E' UN CERCHIO RISTRETTO CHE RIESCE AD ORGANIZZARE SOLO LA STRALACENO UNA VOLTA ALL' ANNO!!TROPPO POCO.
+
+[post_text_29]
+                            xPIL
+non è affatto vero!!!
+
+[post_text_30]
+X Pil (prodotto interno lordo)
+&nbsp;
+Ciao pil tanto per iniziare una bella parola te la posso dire : DEFICIENTE…
+Poi, perchè una persona così brava nel criticare si deve nascondere sotto un falso nome, che è sto Pil, metti il tuo nome se hai il coraggio...che è hai paura di fare brutta figura, tanto lo so che sei uno di quelli che prima si mostra amico e poi non fa altro che criticare...
+Cmq la risposta a quello che hai scritto non la meriti, ti posso solo dire che abbiamo creato un gruppo affiatato, nel quale ognuno può entrare a far parte...dipende dalla eccezioni naturalmente,uno scemo come te non penso possa farne parte.. Quando mai a Caposele c'è stata una squadra di atletica che è andata a fare le gare fuori paese...guarda l'elenco delle gare a cui abbiamo preso parte,aggiungi quella di domenica scorsa e quella di domani e poi vedi se quello che hai detto è giusto...le gare fuori paese può venirle a fare chiunque... E poi riguardo il fatto che si organizza una sola cosa all'anno,beh ti posso dire che ogni paese organizza 1 o al massimo 2 corse all'anno, non è certo colpa nostra se la corsa di Caposele è quella dei Campanili...già è tanto che si è riuscita a organizzare la stralaceno...quindi zitto per favore...va a fare 20km di corsa e lascia stare le critiche, che a volte sono anche costruttive,ma quando sono fatte da un deficiente come te...a che servono?!
+&nbsp;
+X Paolo e Alessandro
+&nbsp;
+Stamane ho visto Gelsomino,gli ho detto che domani andiamo a Montecorvino... Ha detto che ieri ci ha visti mentre facevamo allenameto e ci fa i complimenti...speriamo di continuare così...a domani
+&nbsp;
+&nbsp;
+
+[post_text_31]
+IL FATTO CHE ANDATE IN GIRO PER I PAESI A CORRERE NON SIGNIFICA AVERE IDEE CORRETTE SULLA PRATICA SPORTIVA, LO SPORT SI PRATICA PER AMORE E POI IO VOLEVO CRITICARE L' OPERATO DELL' ARS CHE PER I RAGAZZI DI CAPOSELE NON SI E' PROPOSTO NULLA. L' ANDARE IN GIRO IN 3/4 NON SI SPOSA CON IL PROGETTO CHE SI ERA PREFISSATO L' ARS E  DECISO DI REALIZZARE NEL CORSO DEGLI ANNI.E' INCONCEPIBILE VOTARE UN PRESIDENTE CHE A CAPOSELE NON VIVE, CREDO CHE HO DETTO TUTTO.
+
+[post_text_32]
+x PIL
+&nbsp;
+Voglio ricordarti che l'ARS è UNA ASSOCIAZIONE PRIVATA che già fa tantissimo rispetto alle risorse da cui attinge (l'amore e l'impegno per lo sport dei suoi componenti), e rispetto al tempo che hanno a disposizione gli organizzatori (che lavorano!). Voglio ancora dirti che grazie alle gare (sottolineo - con risorse e automobili proprie -) disputate fuori paese, alle quali abbiamo sempre invitato anche i non iscritti,  abbiamo consentito di gareggiare e far conoscere le doti atletiche di alcuni componenti.
+Probabilmente chi critica questo modo di fare (ripeto, senza alcun titolo) non conosce l'impegno necessario ad organizzare anche una sola gara.
+A me sembra che negli altri paesi si organizzi una sola gara all'anno... Forse PIL hai bisogno di continue gare per essere competitivo (se lo è mai stato) quindi TI  INVITO ad aggregarti a quei pochi che, con una certa continuità, cercano sempre nuovi stimoli nello sport.
+
+[post_text_33]
+E' INUTILE GIRARE INTORNO  AL PROBLEMA PER MASCHERARE LA VERITA', NON DEVI GUARDARE GLI ALTRI PAESI DEVE CREDERE IN CAPOSELE.NEI BAR DEL PAESE NON SI E' MAI VISTO UN VOLANTINO DI PROPOSTA,DI IDEE NUOVE , DI RIUNIONI,ECT. TU PENSI CHE ORGANIZZARSI IN 3/4 PERSONE E ANDARE IN GIRO NEI VARI PAESI A GAREGGIARE SI BACIA CON GLI SCOPI DELL' ARS CHE NEL SUO STATUTO SI PREFIGGE OBIETTIVI IMPORTANTI( MA MI SA SOLO SULLA CARTA!!).COMUNQUE SARA' IL TEMPO A DIRE COSA AVETE RAGGIUNTO!!BUONA FORTUNA.LA CRITICA E' POSITIVA NEL VOSTRO CASO
+PERCHE' TRA DI VOI CI SONO TROPPE INCONGRUENZE ED E' STRANO COME UNA NEONATA ASSOCIAZIONE
+( A DETTA VOSTRA CON ENORMI SACRIFICI) RIESCE AD ORGANIZZARE SOLO LA STRALACENO!.
+
+[post_text_34]
+La colpa è di Alessandro Russomanno, il vicepresidente, per cui ne chiedo le DIMISSIONI.
 

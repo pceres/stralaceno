@@ -15,8 +15,8 @@ Formato [elenco_topics]:
 
 [elenco_topics]
 0::Benvenuti nel forum::open::::::ceres::4::3
-1::Come funziona il forum::open::::::ceres::1::
-2::le sfide della Stralaceno::open::::::foxy::28::27
+1::Come funziona il forum::open::::::ceres::2::1
+2::le sfide della Stralaceno::open::::::foxy::35::34
 3::soddisfatti della stralaceno edizione 2006???::open::::::cabo86::3::2
 4::Discussione::open::::::Antonio::3::2
 
