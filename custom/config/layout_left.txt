@@ -71,6 +71,8 @@ regolamento::Stralcio regolamento::modulo_custom::::
 organizzatori::Gli organizzatori::modulo_custom::::
 lettere_sito::Lettere alla Stralaceno::modulo_custom::::
 #pregfas::Pregfas::modulo_custom::::Pagina in allestimento!
+forum::Forum::external_link::forum.php?action=list_topics&data=0::
+
 
 [Cronaca corrente]
 ultime_edizioni::Ultime edizioni: ::modulo::3::
