@@ -1,3 +1,4 @@
 #!/bin/bash
-find /var/www/htdocs/work/stralaceno2/ -name '*.php' | xargs sed -e '/^[ \t]*$/ d' -e '/^[ /t]*\(#\|\/\/\).*$/ d' | wc -l
+cartella=/var/www/htdocs/work/stralaceno2/
+find $cartella -name '*.php' | xargs sed -e '/^[ \t]*$/ d' -e '/^[ /t]*\(#\|\/\/\).*$/ d' | wc -l
 
