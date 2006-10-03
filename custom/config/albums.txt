@@ -50,8 +50,8 @@ _25_0309.jpg::::Donato Ceres &egrave; l'ultimo a cedere al prepotente allungo di
 
 [1998]
 art_1998_1.jpg::
-lac_1998.1.jpg::
-lac_1998.2.jpg::
+lac_1998.1.jpg::::::Roberto Notaro, Gelsomino Merola, Donato Ceres, Angelo Viscardi, Pasquale Cozzarelli, Massimo Russomanno, Cesare Nisivoccia, Angelo Russomanno, Gerardo Brasiello, Dario Cifrodelli, Lello Viscardi, Alessandro Russomanno, Maurizio Sturchio, Pietro D'Alessio, Angelo Ceres, Gerardo Nisivoccia, Nicola D'Auria, Donatello Cirillo,<br> Gerardo Viscardi, Gino Amendola
+lac_1998.2.jpg::::::Gelsomino Merola
 
 [1999]
 lac10.jpg::::::Nicola Melillo, Luciano Rosania
@@ -192,6 +192,36 @@ dscn5414.jpg::Foto al fotografo::Chiudiamo con chi ha avuto il merito di cattura
 
 [2006]
 stra06.jpg::logo Stralaceno 2006
+f1.jpg::::La carriera di Valentino Di Masi si &egrave; purtroppo precocemente evoluta nell'ambito degli impiegati di concetto!
+f7.jpg::
+f5.jpg::
+f4.jpg::
+f8.jpg::
+f37.jpg::
+f14.jpg::
+f11.jpg::::Il re &egrave; sempre lui.
+d2.jpg::::Forte della sua partecipazione al duro allenamento dello scorso inverno, Gaetano Vitale attende il momento propizio per lasciarsi alle spalle i tre che lo precedono.
+d3.jpg::
+f12.jpg::::L'outsider della XVIII edizione, Francesco Ciccone, sembra in questa fase in grado di attaccare addirittura il podio.
+f38.jpg::::Rocco Feniello vola verso il 6&deg; posto entrando tra i primi 18 caposelesi di sempre. E pensare che nel 2001 per poco non arriv&ograve; fuori tempo massimo...
+f39.jpg::
+f50.jpg::
+f10.jpg::::Anche un arrivo fuori tempo massimo pu&ograve; essere degno della massima considerazione.
+f51.jpg::::Lo sportello aperto sembra un  invito a proseguire in macchina, ma le due coraggiose concorrenti proseguiranno testardamente fino al traguardo.
+f30.jpg::::Anche se arrivato all'ultimo momento (e per questo corre senza numero) Alfredo non avr&agrave; problemi a regolare questo simpatico gruppetto.
+f41.jpg::
+f48.jpg::
+c3.jpg::
+f31.jpg::
+f42.jpg::
+f43.jpg::
+f32.jpg::
+f33.jpg::::Il gradito ritorno di un protagonista della Stralaceno
+f46.jpg::
+f34.jpg::::Ancora pochi metri per Federica e poi verr&agrave; certificata la migliore performance femminile di sempre.
+d6.jpg::
+f47.jpg::
+f44.jpg::
 
 [generico1]
 retro.gif::logo trasparente::
@@ -212,6 +242,10 @@ dscn5747.jpg::Hotel Testa::
 dscn5749.jpg::Basilica San Gerardo::
 dscn5752.jpg::Piani (piscina comunale)::
 dscn5756.jpg::Piazza Sanit&agrave;2::
+stats_nuovi.jpg::
+logo_stralaceno.jpg:: 
+stats_ritorni.jpg:: 
+stats_partecipanti.jpg:: 
 
 [All.Coll.05]
 ManifestoAll.Coll.05.jpg::
