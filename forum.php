@@ -269,17 +269,14 @@ while ($action)
 			{
 				$last_post = get_forum_post($forum_id,$topic_id,$topic_last_post);
 				
-// 				$topic_last_post_author = $last_post[$indice_post_author];
 				$topic_last_post_date = $last_post[$indice_post_date];
 			}
 			else
 			{
-// 				unset($topic_last_post_author);
 				unset($topic_last_post_date);
 			}
 			
 			// passa dal formato '21/09/2006 22.03.22' ad un singolo numero
-// 			$data = $topic_last_post_date;
 			
 			$giorno = substr($topic_last_post_date,0,2);
 			$mese = substr($topic_last_post_date,3,2);
@@ -1193,17 +1190,12 @@ array_push($temp,array(0=>$post_email,1=>$post_web));
 $templog["logdata"] = $temp;
 save_config_file($file_templog,$templog);
 			
-// print_r($templog);
-// die('a');
-
 		// se il messaggio e' nuovo, salvalo
 		if (!$stesso_messaggio)
 		{
 			save_config_file($file_forums,$forums);
 			save_config_file($file_forum,$topics);
 			save_config_file($file_topic,$posts);
-
-
 		}
 		
 		
