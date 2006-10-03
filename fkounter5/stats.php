@@ -404,14 +404,20 @@ function _panel5_(){
  global $dat__day,$dat__time;
  global $aux__calendar;
 
- for($__days=array(),$__count=-30;$__count<=0;$__count++)
+ for($__days=array(),$__count=-(PREVIOUS_DAYS-1);$__count<=0;$__count++)
   $__days[$__ts=_tsoffset_($__count,"d")]=$aux__calendar->_get_hits_($__ts,"d");
 
- for($__months=array(),$__count=-11;$__count<=0;$__count++)
+ for($__months=array(),$__count=-(PREVIOUS_MONTHS-1);$__count<=0;$__count++)
   $__months[$__ts=_tsoffset_($__count,"m")]=$aux__calendar->_get_hits_($__ts,"m");
 
- _graph_($__days,"day",LAN501,LAN502,LAN503,LAN504,4,5,1,FALSE,30,FALSE);
- _graph_($__months,"mounth",LAN505,LAN506,LAN507,LAN508,4,5,1,FALSE,30,FALSE);
+ // titolo del grafico personalizzato col numero di giorni configurabile
+ $titolo_day = str_replace('##', PREVIOUS_DAYS, LAN501);
+ _graph_($__days,"day",$titolo_day,LAN502,LAN503,LAN504,4,5,1,FALSE,30,FALSE);
+
+ // titolo del grafico personalizzato col numero di mesi configurabile
+ $titolo_month = str_replace('##', PREVIOUS_MONTHS, LAN505);
+ _graph_($__months,"mounth",$titolo_month,LAN506,LAN507,LAN508,4,5,1,FALSE,30,FALSE);
+
  _graph_($aux__calendar->_get_years_(),"other",LAN509,LAN510,LAN511,LAN512,4,5,1,FALSE,30,FALSE);
  _graph_($dat__day,"week",LAN513,LAN514,LAN515,LAN516,4,5,1,FALSE,30,FALSE);
  _graph_($dat__time,"hour",LAN517,LAN518,LAN519,LAN520,4,5,1,FALSE,30,FALSE);
