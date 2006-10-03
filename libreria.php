@@ -1706,6 +1706,67 @@ return $cfgbulk;
 } // end function get_cfg_file_data($module_cfg_data,$module,$filename) {
 
 
+function sanitize_user_input($usertext,$type,$flags) {
+# verifica che l'input dall'utente $usertext sia sicuro e del tipo specificato
+# $type = 'plain_text'			: no tags allowed, except for text chunks inside $flags['allowed_tags']
+# $type = 'simple_formatted_html'	: no tags allowed, except for simple formatting html tags (<b>,<i>)
+#
+
+if (get_magic_quotes_gpc())
+{
+	// magic_quotes_gpc abilitato
+	$testo = stripslashes($usertext);
+}
+else
+{
+	// magic_quotes_gpc disabilitato
+	$testo = $usertext;
+}
+
+
+// determina i tag (o blocchi di testo) consentiti
+switch ($type)
+{
+case "plain_text":
+	$allowed_tags = array();
+	break;
+case "simple_formatted_html":
+	$allowed_tags = array("<b>","</b>","<i>","</i>");
+	break;
+default:
+	die("Tipo di check non riconosciuto: $type");
+}
+
+
+// sostituisci i tag con un alias innocuo
+$alias = array();
+$count = 0;
+foreach ($allowed_tags as $tag)
+{
+	$alias[$count] = "$%$%".sprintf("%03d",$count);
+	$count++;
+}
+$testo = str_replace($allowed_tags,$alias,$testo);
+
+
+// ulteriori azioni specifiche della modalita'
+switch ($type)
+{
+case "plain_text":
+case "simple_formatted_html":
+	$clean = strip_tags($testo);
+	break;
+default:
+	die("Tipo di check non riconosciuto: $type");
+}
+
+
+$clean = str_replace($alias,$allowed_tags,$clean);
+
+return $clean;
+}
+
+
 //Page properties definitions
 error_reporting(0); // otherwise "StripDoubleColon($HTTP_REFERER);" gives error
 //error_reporting(2039); // otherwise "StripDoubleColon($HTTP_REFERER);" gives error. Show all errors but notices
