@@ -122,8 +122,7 @@ $giorno = substr($data,6,2);
 $mese = substr($data,9,2);
 $anno = substr($data,12,4);
 
-//$mins = (((($anno*12+$mese)*31+$giorno)*24+$ore)*60+$minuti)*60;
-$mins = mktime($ore,$minuti,00,$mese,$giorno,$anno); //!!! finita la lotteria sondaggio 2006, questa linea andra' decommentata, perche' piu' corretta
+$mins = mktime($ore,$minuti,00,$mese,$giorno,$anno);
 
 return array($mins,$anno,$mese,$giorno,$ore,$minuti);
 } // end function parse_date
