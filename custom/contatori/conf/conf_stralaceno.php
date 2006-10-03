@@ -45,7 +45,7 @@ $cnf__count_per_pages     = TRUE;
 $cnf__licit_domains_list  = array();
 $cnf__IPmasks_ignore_list = array();
 $cnf__htime_sync_server   = 0;
-$cnf__last_entries        = 150;
+$cnf__last_entries        = 15;
 
 ############################################################################################
 # IMPOSTAZIONI DEL VISUALIZZATORE
@@ -54,6 +54,12 @@ $cnf__last_entries        = 150;
 $cnf__userpass       = md5("stralacenoadmin");
 $cnf__passwd_protect = FALSE;
 $cnf__limit_view     = 15;
+
+// numero di giorni (corrente e precedenti) di cui visualizzare il totale dei contatti
+define("PREVIOUS_DAYS",31);
+
+// numero di mesi (corrente e precedenti) di cui visualizzare il totale dei contatti
+define("PREVIOUS_MONTHS",13);
 
 // La riga sottostante definisce l'immagine di sfondo del contatore fankounter. Per definirne una nuova, usare image_encode.php. 
 // Stringa vuota per usare lo sfondo di default.
