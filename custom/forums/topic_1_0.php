@@ -15,6 +15,8 @@
 13::Alessandro R.::03/08/2006 09.33.56::visible
 14::Russomanno A.::11/08/2006 09.12.38::visible
 15::naom::16/08/2006 16.20.00::visible
+16::curioso::23/08/2006 22.25.33::visible
+17::Alessandro R.::18/09/2006 13.07.18::visible
 
 [post_text_0]
 Il 15 luglio tutti a Roccadaspide.
@@ -69,27 +71,28 @@ Ragazzi, in bocca al lupo!!!
 Per la gara di Acerno di sabato 22, si parte da piazza Sanità alle ore 18.00
 
 [post_text_9]
-Segue mail all\'organizzazione della 10 km di Acerno e relativa risposta.
+Segue mail all'organizzazione della 10 km di Acerno e relativa risposta.
 ----
 Tue, 18 Jul 2006 09:53:29 +0200
 Da Stralaceno <Stralaceno@freepass.it>
-A \"hassia@tiscali.it\" <hassia@tiscali.it>
+A "hassia@tiscali.it" <hassia@tiscali.it>
 &nbsp;
 Salve,
 La ringraziamo per le informazioni e le chiediamo conferma della data (22
-luglio) e l\'orario (ore 21.00) della gara podistica di 10 km di Acerno.
+luglio) e l'orario (ore 21.00) della gara podistica di 10 km di Acerno.
 Grazie.
 ----
 &nbsp;
 Tue, 18 Jul 2006 19:08:16 +0200 (CEST)
-Da \"hassia@tiscali.it\" <hassia@tiscali.it>
+Da "hassia@tiscali.it" <hassia@tiscali.it>
 A Stralaceno@freepass.it
 &nbsp;
 Confermo tutto, ci vediamo ad Acerno, salutoni.
 ----
 
 [post_text_10]
-&gt;Per la gara di Acerno di sabato 22, si parte da piazza Sanità alle ore 18.00<br>&gt;<br><br>
+&gt;Per la gara di Acerno di sabato 22, si parte da piazza Sanità alle ore 18.00
+<br>&gt;<br><br>
 Quanti sarete domani sera?
 &nbsp;
 In bocca al lupo ai partecipanti!
@@ -99,7 +102,8 @@ In bocca al lupo ai partecipanti!
 Abbiamo qualche foto della corsa ad Acerno?
 
 [post_text_12]
-&gt;Abbiamo qualche foto della corsa ad Acerno?<br>&gt;<br><br>No. La gara era in notturna, Gelsomino ha tentato di scattarne qualcuna ma la qualità delle foto è risultata scadente.
+&gt;Abbiamo qualche foto della corsa ad Acerno?
+<br>&gt;<br><br>No. La gara era in notturna, Gelsomino ha tentato di scattarne qualcuna ma la qualità delle foto è risultata scadente.
 
 [post_text_13]
 Per la gara di NUSCO del 6 agosto, si parte da Piazza Sanità alle ore 17.00
@@ -108,6 +112,13 @@ Per la gara di NUSCO del 6 agosto, si parte da Piazza Sanità alle ore 17.00
 Per la gara di Fontanarosa, si parte da piazza Sanità sabato 12 alle ore 16.00
 
 [post_text_15]
-Prima della Stralaceno (30 agosto) e\' prevista qualche altra gara nei paesi vicini?
+Prima della Stralaceno (30 agosto) e' prevista qualche altra gara nei paesi vicini?
 &nbsp;
+
+[post_text_16]
+com'e' andata la gara a Sicignano?
+&nbsp;
+
+[post_text_17]
+Il 24 settembre gara di 8 km a Sala Consilina.
 

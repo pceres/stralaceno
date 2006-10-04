@@ -16,7 +16,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 
 [post_text_0]
 &nbsp;
-Qualcuno sa dove trovare il programma dell\'estate caposelese 2006?
+Qualcuno sa dove trovare il programma dell'estate caposelese 2006?
 &nbsp;
 
 [post_text_1]

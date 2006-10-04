@@ -18,5 +18,5 @@ Formato [elenco_forums]:
 
 [elenco_forums]
 0::Il forum di ArsWeb::Uno spazio di discussione libera, aperta a tutti::open::::::anonimous::9::3,1
-1::Il forum privato dell'ARS Amatori Running Sele::Spazio di discussione libera riservato ai soci ARS::open::soci_ars::soci_ars::anonimous::18::0,15
+1::Il forum privato dell'ARS Amatori Running Sele::Spazio di discussione libera riservato ai soci ARS::open::soci_ars::soci_ars::anonimous::20::0,17
 
