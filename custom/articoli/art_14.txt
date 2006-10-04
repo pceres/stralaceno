@@ -1,0 +1,13 @@
+Autore::
+Titolo::Attività podistica 2006
+--- Begin body ---
+<br>
+Gli Amatori Running Sele, nel corso del 2006, hanno partecipato alle seguenti gare podistiche:<br><br>
+- XVI edizione della CorriRoccadaspide di km 8,4 a Roccadaspide (SA) il 15 luglio;<br><br>
+- III edizione della 10 km di Acerno (SA) il 22 luglio;<br><br>
+- 10 km di Nusco (AV) il 6 agosto;<br><br>
+- XXXI Marcialoggia di km 10 a Fontanarosa (AV) il 12 agosto;<br><br>
+- I edizione trofeo C.Pezzuto di km 7,6 a Puglietta di Campagna (SA) il 10 settembre;<br><br>
+- IV podistica San Michele di km 7,3 a Sala Consilina (SA) il 24 settembre;<br><br>
+- Colline Verdi di km 8,5 a Montecorvino Pugliano (SA) il 30 settembre.<br><br>
+--- End body ---
