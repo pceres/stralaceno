@@ -4,7 +4,7 @@ Titolo::Inizia l'avventura
 <br>Ore 18.30 circa, ci ritroviamo tutti l&igrave;, a realizzare sogni che fino a qualche tempo prima erano solo illusioni. <br>Manca poco ormai alla partenza di una competizione naturalmente amichevole, e noi pronti a combattere, come da nostro stile, contro ognuno dei circa 150 partecipanti a questa importante gara, tenutasi sabato 15 luglio 2006 a Roccadaspide, in provincia di Salerno. <br>Questo evento &egrave; stato il primo di una stagione senza fine, piena di passione e di volont&agrave;, dove ognuno dar&agrave; il meglio di se stesso, ricorrendo ad infiniti sacrifici.
 <p>&nbsp;
 <div align="center">
-<img id="fotoCorsaRoccadaspide2006" src="%file_root%custom/album/Roccadaspide_06/Roccadasp_040_1.jpg" alt="Corsa_Roccadaspide_2006" border="0" width="385">
+<img id="fotoCorsaRoccadaspide2006" src="%file_root%custom/album/Roccadaspide_06/Roccadasp_040_1.jpg" alt="Corsa_Roccadaspide_2006" border="0" width="360">
 </div>
 <p><br>
 <i>Le foto della gara sono disponibili <a href="album.php?anno=Roccadaspide_06">qui</a></i>
