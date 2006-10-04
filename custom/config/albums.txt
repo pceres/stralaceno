@@ -1,5 +1,5 @@
 # File di configurazione degli album fotografici
-# 
+#
 # ogni album inizia con una riga vuota, ed un'altra del tipo [nome_album]. Seguono poi una o piu' righe, una per
 # ciascuna foto, nel formato:
 # foto::titolo::descrizione::nome e cognome
@@ -13,20 +13,20 @@ ars_semplificato.jpg
 
 [All.Coll.05]
 ManifestoAll.Coll.05.jpg::
-IMG_1594.jpg::
-IMG_1595.jpg::
-DSCN5780.jpg::
-DSCN5782.jpg::
-IMG_1596.jpg::
-IMG_1597.jpg::
-IMG_1600.jpg::
-img_1605.jpg::
-img_1607.jpg::
-IMG_1608.jpg::
-DSCN5809.jpg::
-IMG_1611.jpg::
-IMG_1615.jpg::
-IMG_1620.jpg::
+IMG_1594.jpg::All.collettivo::pochi istanti prima della partenza di piazza sanit&agrave;::
+IMG_1595.jpg::All.collettivo::partiti verso la scalata::
+DSCN5780.jpg::All.collettivo::
+DSCN5782.jpg::All.collettivo::
+IMG_1596.jpg::All.collettivo::
+IMG_1597.jpg::All.collettivo::il gruppo ha appena percorso il ponte di Caposele::
+IMG_1600.jpg::All.collettivo::
+img_1605.jpg::All.collettivo::
+img_1607.jpg::All.collettivo::
+IMG_1608.jpg::All.colletivo::
+DSCN5809.jpg::All.collettivo::
+IMG_1611.jpg::All.collettivo::poche centinaia di metri per approdare nell'abitato di Materdomini::
+IMG_1615.jpg::All.collettivo::
+IMG_1620.jpg::All.collettivo::
 
 [varie]
 laceno.jpg::Altopiano del Laceno::::
@@ -50,19 +50,25 @@ PC.jpg::Pasquale Ceres::
 DC2.jpg::Donatello Cirillo::
 
 [Roccadaspide_06]
-Roccadasp_040_1.jpg::
-Roccadasp_041_1.jpg::
-Roccadasp_043.1.jpg::
-Roccadasp_044.1.jpg::
-Roccadasp_045_01.jpg::
-Roccadasp_047.1.jpg::
-Roccadasp_049_1.jpg::
-Roccadasp.051.1.jpg::
+Roccadasp_040_1.jpg::evento::Foto di gruppo ARS, Gerardo, Paolo, Alessandro e Salvatore C.::
+Roccadasp_041_1.jpg::evento::Vediamo il gruppo ARS concedersi un attimo di distrazione quando alla partenza ormai manca poco::
+Roccadasp_043.1.jpg::evento::Pochissimi secondi al via::
+Roccadasp_044.1.jpg::evento::Partiti, tutti a rincorrere il proprio obiettivo::
+Roccadasp_045_01.jpg::evento::Paolo,Gerardo e poco dietro Salvatore M. non mollano::
+Roccadasp_047.1.jpg::evento::Arriva Alessandro mentre verifica il suo ritmo di gara consultando il cronometro::
+Roccadasp_049_1.jpg::evento::Nicola D'A. mostra, come al solito, il suo autentico spirito sportivo::
+Roccadasp.051.1.jpg::evento::Vediamo Salvatore, tagliato il traguardo, tra la folla, guardare il cronometro::
 
 [Nusco_06]
-DSCF0692.1.jpg::
-DSCF0703.jpg::
-DSCF0704.jpg::
-DSCF0718.jpg::
-DSCF0719.jpg::
-DSCF0722.jpg::
+DSCF0692.1.jpg::nusco2006::la partenza
+DSCF0703.jpg::nusco2006::Salvatore C. porta a termine una buona prestazione::
+DSCF0704.jpg::nusco2006::Donatello e Nicola non mollano::
+DSCF0718.jpg::nusco2006::Francesco mette in luce il proprio talento ottenendo un ottimo tempo::
+DSCF0719.jpg::nusco2006::Salvatore M. e Paolo passano tra i bei vicoli del paese::
+DSCF0722.jpg::nusco2006::Gelsomino al traguardo ferma il cronometro su un ottimo tempo come suo solito::
+
+[Fontanarosa_06]
+font1.jpg::Partenza XXXI Marcialoggia::
+FONTANAROSA_2840.jpg::la salita::notiamo il passaggio di Salvatore::
+FONTANAROSA_2849.jpg::la salita::Alessandro col pettorale num 72 e, poco dietro, Nicola col pettorale 69::
+FONTANAROSA_2851.jpg::la salita::ancora Nicola ed Alessandro::
