@@ -33,31 +33,6 @@ if (get_magic_quotes_gpc())
 }
 else
 {
-	if (substr($_SERVER['DOCUMENT_ROOT'],-1) == '/') // document_root non deve finire per '/'
-	{
-		$_SERVER['DOCUMENT_ROOT'] = substr($_SERVER['DOCUMENT_ROOT'],0,-1);
-	}
-	$start = strpos($_SERVER['SCRIPT_FILENAME'],$_SERVER['DOCUMENT_ROOT']);
-	if (strlen($start)>0)
-	{
-		$path = $_SERVER['SCRIPT_FILENAME'];
-		$start = strlen($_SERVER['DOCUMENT_ROOT']);
-		$path = substr($path,$start);
-	}
-}	
-$end = 0;
-do {
-	$test = strpos($path,$root_prefix,$end);
-	if ($test)
-	{
-		$end = $test+strlen($root_prefix)+1;
-	}
-} while ($test);
-$site_abs_path = substr($path,0,$end);
-
-/*}
-else
-{
 	echo("magic_quotes_gpc disabilitato");
 }
 
