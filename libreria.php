@@ -845,6 +845,35 @@ return $archivio2;
 
 
 
+function get_articles_path($sezione = "homepage")
+{
+/*
+restituisce un array con i campi
+path_articles 	: path degli articoli
+online_file 	: nome del file contenente l'elenco dei file online
+*/
+
+	# dichiara variabili
+	extract(indici());
+	
+	switch ($sezione)
+	{
+	case "homepage":
+		$path_articles = $articles_dir;		// path degli articoli
+		$online_file = $article_online_file;	// nome del file contenente l'elenco dei file online
+		break;
+	default:
+		$path_articles = $articles_dir.$sezione."/";
+		$online_file = $path_articles."online.txt";
+		break;
+	}
+	
+	$result = array('path_articles' => $path_articles,'online_file' => $online_file);
+	
+	return $result;
+}
+
+
 
 function get_article_list($articles_dir)
 {
@@ -915,13 +944,14 @@ function set_online_articles($article_online_file,$article_list)
 }
 
 
-function load_article($art_id)
+function load_article($art_id, $sezione)
 {
-	# dichiara variabili
-	extract(indici());
+	$art_file_data = get_articles_path($sezione);
+	$path_articles 	= $art_file_data["path_articles"];	// cartella contenente gli articoli
+	$online_file 	= $art_file_data["online_file"];	// file contenente l'elenco degli articoli online
 	
-	$art_file = $articles_dir."art_".($art_id+0).".txt";
-
+	$art_file = $path_articles."art_".($art_id+0).".txt";
+	
 	if (file_exists($art_file))
 	{
 		$bulk = file($art_file);           //read all long entries in a array
@@ -1082,10 +1112,15 @@ function show_article($art_data,$mode,$link)
 }
 
 
-function save_article($id_articolo,$author,$title,$bulk,$uploaddir) {
+function save_article($id_articolo,$author,$title,$bulk,$sezione) {
+
+// individua cartella relativa alla sezione indicata
+$art_file_data = get_articles_path($sezione);
+$path_articles 	= $art_file_data["path_articles"];	// cartella contenente gli articoli
+$article_online_file = $art_file_data["online_file"];	// file contenente l'elenco degli articoli online
 
 # nome del file che contiene l'articolo
-$art_filename = $uploaddir."art_$id_articolo.txt";
+$art_filename = $path_articles."art_$id_articolo.txt";
 
 $str_author = "Autore::$author\r\n";
 $str_title = "Titolo::$title\r\n";
@@ -1115,19 +1150,21 @@ else
 }
 
 
-function upload_article($author,$title,$bulk,$uploaddir) {
+function upload_article($author,$title,$bulk,$sezione) {
 
-# dichiara variabili
-extract(indici());
+// individua cartella relativa alla sezione indicata
+$art_file_data = get_articles_path($sezione);
+$path_articles 	= $art_file_data["path_articles"];	// cartella contenente gli articoli
+$article_online_file = $art_file_data["online_file"];	// file contenente l'elenco degli articoli online
 
 # determina l'id del nuovo articolo
-$art_id = get_article_list($articles_dir); // carica l'elenco degli articoli disponibili ($articles_dir e' relativo alla radice)
+$art_id = get_article_list($path_articles); // carica l'elenco degli articoli disponibili
 
 $id_articolo = max($art_id)+1;
 
 echo "il nuovo articolo ha id $id_articolo";
 
-save_article($id_articolo,$author,$title,$bulk,$uploaddir);
+save_article($id_articolo,$author,$title,$bulk,$sezione);
 
 # restituisci l'id del nuovo articolo
 return $id_articolo;
@@ -1142,10 +1179,15 @@ fclose($file);
 }
 
 
-function publish_online_articles($art_list) {
+function publish_online_articles($art_list, $sezione) {
 
-# dichiara variabili
+// dichiara variabili
 extract(indici());
+
+// individua cartella relativa alla sezione indicata
+$art_file_data = get_articles_path($sezione);
+$path_articles 	= $art_file_data["path_articles"];	// cartella contenente gli articoli
+$article_online_file = $art_file_data["online_file"];	// file contenente l'elenco degli articoli online
 
 // lascia, eventualmente, solo gli ultimi max_online_articles della lista
 if (count($art_list) > $max_online_articles)
@@ -1160,13 +1202,15 @@ return $art_list;
 }
 
 
-function delete_article($art_id)
+function delete_article($art_id,$sezione)
 {
 
-# dichiara variabili
-extract(indici());
+// individua cartella relativa alla sezione indicata
+$art_file_data = get_articles_path($sezione);
+$path_articles 	= $art_file_data["path_articles"];	// cartella contenente gli articoli
+$article_online_file = $art_file_data["online_file"];	// file contenente l'elenco degli articoli online
 
-$art_file = $articles_dir."art_".($art_id+0).".txt";
+$art_file = $path_articles."art_".($art_id+0).".txt";
 
 if (file_exists($art_file))
 {
@@ -1710,6 +1754,7 @@ function sanitize_user_input($usertext,$type,$flags) {
 # verifica che l'input dall'utente $usertext sia sicuro e del tipo specificato
 # $type = 'plain_text'			: no tags allowed, except for text chunks inside $flags['allowed_tags']
 # $type = 'simple_formatted_html'	: no tags allowed, except for simple formatting html tags (<b>,<i>)
+# $type = 'number'			: simple number (allowed number types in $flags['number_type'] are 'int' and 'float')
 #
 
 if (get_magic_quotes_gpc())
@@ -1733,6 +1778,9 @@ case "plain_text":
 case "simple_formatted_html":
 	$allowed_tags = array("<b>","</b>","<i>","</i>");
 	break;
+case "number":
+	$allowed_tags = array();
+	break;
 default:
 	die("Tipo di check non riconosciuto: $type");
 }
@@ -1755,6 +1803,26 @@ switch ($type)
 case "plain_text":
 case "simple_formatted_html":
 	$clean = strip_tags($testo);
+	break;
+case "number":
+	$number_type = $flags['number_type'];
+	switch ($number_type)
+	{
+	case 'int':
+		$clean = (int)$testo;
+		break;
+	case 'float':
+		$clean = (float)$testo;
+		break;
+	default:
+		die("Tipo di numero non riconosciuto: $number_type");
+	}
+	
+	// verifica che il testo in input sia effettivamente un numero
+	if ($testo != $clean)
+	{
+		die("E' richiesto un numero! ($testo,$clean)");
+	}
 	break;
 default:
 	die("Tipo di check non riconosciuto: $type");
