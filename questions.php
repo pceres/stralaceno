@@ -13,13 +13,17 @@ questa libreria esamina i cookies o i parametri http (eventualmente) inviati, e 
 */
 require_once('login.php');
 
-$action = $_REQUEST['action'];			// azione da eseguire
+$action = $_REQUEST['action'];					// azione da eseguire
+$action	= sanitize_user_input($action,'plain_text',array());	// verifica di sicurezza
 
-$auth_token = $_REQUEST['auth_token'];		// chiave o nome da associare alla giocata
+$auth_token = $_REQUEST['auth_token'];					// chiave o nome da associare alla giocata
+$auth_token = sanitize_user_input($auth_token,'plain_text',array());	// verifica di sicurezza
 
-$id_questions = $_REQUEST['id_questions'];	// id della lotteria in oggetto
+$id_questions = $_REQUEST['id_questions'];					// id della lotteria in oggetto
+$id_questions = sanitize_user_input($id_questions,'plain_text',array());	// verifica di sicurezza
 
-$data_giocata = $_REQUEST['data_giocata'];	// data che fa fede per la giocata
+$data_giocata = $_REQUEST['data_giocata'];					// data che fa fede per la giocata
+$data_giocata = sanitize_user_input($data_giocata,'plain_text',array());	// verifica di sicurezza
 
 $file_questions = $root_path."custom/lotterie/lotteria_".sprintf("%03d",$id_questions).".txt";	// nome del file di configurazione relativo a id_questions
 $file_log_questions = $root_path."custom/lotterie/lotteria_".sprintf("%03d",$id_questions)."_log.txt";	// nome del file di registrazione
@@ -630,8 +634,10 @@ case "results":
 			}
 			
 			if ($temp_debug) // !!!
-			{echo "Punteggio $gruppo_regole : $punteggio<br>\n";
-			echo "Punteggio_output $gruppo_regole : $punteggio_output<br>\n";}
+			{
+				echo "Punteggio $gruppo_regole : $punteggio<br>\n";
+				echo "Punteggio_output $gruppo_regole : $punteggio_output<br>\n";
+			}
 		}
 		
 		if ($temp_debug) {echo "<br><br>";} // !!!
@@ -719,7 +725,7 @@ function get_vettore_squadre_vincenti(&$vettore_risposte_esatte,$soluz,$livello_
 
 $counter_squadre=0;
 $vettore_risposte_esatte = array();
-//print_r($soluz);echo "(soluz)<br>";
+// print_r($soluz);echo "(soluz)<br>";
 foreach ($soluz as $id_soluz => $soluz_item)
 {
 //	echo "$soluz_item<br>";
@@ -733,8 +739,9 @@ foreach ($soluz as $id_soluz => $soluz_item)
 		$vettore_risposte_esatte[$soluz_item]++;
 	}
 }
-//print_r($vettore_risposte_esatte);echo "<br>";
+// print_r($vettore_risposte_esatte);echo "<br>";
 $counter_ok = pow(2,$livello_eliminatorie-1);	// numero di squadre presenti nella giocata
+// echo $counter_squadre.",".$counter_ok;
 /*if ($counter_squadre != $counter_ok)
 {
 	echo("Le risposte esatte non sono congruenti con lo schema ad eliminatoria ($counter_squadre individuate invece di $counter_ok)!");
@@ -985,7 +992,7 @@ case "data_giocata":
 	$tempi_giocata = parse_date($giocata[2]);// stringa corrispondente alla data che fa fede per la giocata
 	$time_giocata = $tempi_giocata[0];	// valore numerico corrispondente
 	
-	switch ($tempi_giocata[2])
+/*	switch ($tempi_giocata[2])
 	{
 		case 4:
 			$time_0 = parse_date('02:00 30/08/1970');
@@ -996,9 +1003,10 @@ case "data_giocata":
 		case 6:
 			$time_0 = parse_date('02:00 31/08/1970');
 			break;
-	}
+	}*/
 	//$delta = mktime(02,00,00,08,30,1970);
 //int mktime ( int hour, int minute, int second, int month, int day, int year [, int is_dst] )
+	$time_0 = 0;//parse_date('00:00 31/08/1970');
 	$delta = ($giocata[1]-($time_giocata-$time_0[0]));	// differenza tra l'istante di giocata e la data che fa fede per la classifica
 	
 	$punteggio = $time_giocata+0;
@@ -1142,6 +1150,21 @@ case "eliminatorie":
 	$vettore_risposte_esatte = $bulk[1];	// vettore delle squadre premiate ($livello_eliminatorie per il primo, e via via a scendere)
 	$risposte_possibili = $bulk[2];		// tutte le possibili risposte
 	
+	if ($temp_debug & 0)
+	{
+		echo "<br><br>livello_eliminatorie:<br>";
+		print_r($livello_eliminatorie);
+		
+		echo "<br><br>vettore_risposte_esatte:<br>";
+		print_r($vettore_risposte_esatte);
+		
+		echo "<br><br>risposte_possibili:<br>";
+		print_r($risposte_possibili);
+		
+		echo "<br><br>giocata_array:<br>";
+		print_r($giocata_array);
+	}
+
 	$vettore_squadre = array(); // viene passato per indirizzo, bisogna inizializzarlo qui
 	$giocata_ok = get_vettore_squadre_vincenti($vettore_squadre,$giocata_array,$livello_eliminatorie);
 	if (!$giocata_ok)
@@ -1154,7 +1177,7 @@ case "eliminatorie":
 	{
 		array_multisort($vettore_risposte_esatte,SORT_DESC,$risposte_possibili);
 		
-		$voti = array();
+/*		$voti = array();
 		$punteggio_output = '';
 		foreach ($risposte_possibili as $squadra)
 		{
@@ -1167,8 +1190,23 @@ case "eliminatorie":
 			$voti[$squadra] = $voto_finale;
 			
 			$punteggio_output .= ",$voto_finale";
-		}
+		}*/
 		
+		$voti = array();
+		$punteggio_output = '';
+		foreach ($giocata_array as $squadra)
+		{
+			$voto_presunto = $vettore_squadre[$squadra];
+			
+			$voto_giusto = $vettore_risposte_esatte[$squadra]+0;
+			
+			
+			$voto_finale = min($voto_presunto,$voto_giusto)+0;
+			$voti[$squadra] = $voto_finale;
+			
+			$punteggio_output .= ",$voto_finale";
+		}
+
 		$punteggio = -array_sum($voti);
 	}
 	
