@@ -6,6 +6,7 @@
 #
 
 [users]
+# soci ARS:
 ceres::f505a4f2dfe4f6071f265d170c34d2f7::admin,users,soci_ars,root_admin
 alex::534b44a19bf18d20b71ecc4eb77c572f::admin,users,soci_ars
 nick::e2e42a07550863f8b67f5eb252581f6d::admin,users,soci_ars
@@ -19,3 +20,5 @@ paolo::491c7df7124c75d09dbd906d1cc74aaf::users,soci_ars
 martino::5a682d4fe8da9adc95a383742ea30c59::users,soci_ars
 nicola.cirillo::0d4f9d4cb7e6ed8ecbaad6fd16117581::users,soci_ars
 rocco.proietto::7e3217beee39079a345d9b600ebd3b84::users,soci_ars
+# non soci ARS:
+don.ger::1e8c22feeac792722fb8738f702b9ef5::admin,users
