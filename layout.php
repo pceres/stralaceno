@@ -4,8 +4,9 @@
 // variabili in input:
 //
 // $archivio 			: archivio tempi (generato da load_data())
-// $login				: dati utente connesso e relativi gruppi di appartenenza
-// $sezione				: argomento di index che specifica il tipo di pagina da visualizzare
+// $login			: dati utente connesso e relativi gruppi di appartenenza
+// $sezione			: argomento di index che specifica il tipo di pagina da visualizzare
+// $art_id			: argomento di index che specifica l'id dell'articolo da visualizzare
 
 // carica layout colonna sinistra
 $filename_layout_left = $config_dir.'layout_left.txt';
