@@ -22,31 +22,63 @@ if ( !isset($_SERVER['HTTP_REFERER']) | ("http://".$_SERVER['HTTP_HOST'].$script
 	exit();
 }
 
+
+// input alla pagina
+$mode 		= sanitize_user_input($_REQUEST['task'],'plain_text',Array());
+$sezione 	= sanitize_user_input($_REQUEST['section'],'plain_text',Array());
+$data 		= sanitize_user_input($_REQUEST['data'],'plain_text',Array());
+$password 	= sanitize_user_input($_REQUEST['password'],'plain_text',Array());
+
+// titolo relativo alla sezione in esame
+switch ($sezione)
+{
+case '':
+case 'homepage':
+	$tag_sezione = "in prima pagina";
+	break;
+default:
+	$tag_sezione = "nella sezione &quot;$sezione&quot;";
+	break;
+}
+
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 
 <head>
-  <title>Gestione articoli in prima pagina</title>
+  <title>Gestione articoli <?php echo $tag_sezione; ?></title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-  <meta name="GENERATOR" content="Programmers Notepad">
+  <meta name="GENERATOR" content="Kate">
   <style type="text/css">@import "<?php echo $filename_css ?>";</style>
 </head>
 <body>
 
 <?php
 
-$mode = $_REQUEST['task'];
-$data = $_REQUEST['data'];
-$password = $_REQUEST['password'];
-
-$password_ok = $password_articoli;
+// scelta password
+switch ($sezione)
+{
+case '':
+case 'homepage':
+	$password_ok = $password_articoli;
+	break;
+case 'ciclismo':
+	$password_ok = 'f055d8b5317237d7e3e50b3c3c38667c'; // "Bartali"
+	break;
+}
 
 if ($password != $password_ok)
 {
-	echo "<a href=\"articoli.php\">Torna indietro</a><br><br>\n";
+	echo "<a href=\"articoli.php?section=$sezione\">Torna indietro</a><br><br>\n";
 	die("La password inserita non &egrave; corretta!<br>\n");
 }
+
+
+// individua cartella relativa alla sezione indicata
+$art_file_data = get_articles_path($sezione);
+$path_articles 	= $art_file_data["path_articles"];	// cartella contenente gli articoli
+$article_online_file = $art_file_data["online_file"];	// file contenente l'elenco degli articoli online
+
 
 switch ($mode)
 {
@@ -54,7 +86,7 @@ switch ($mode)
 case 'set_online_articles':
 	$article_list = split('::',$data); // elenco dei titoli da pubblicare
 	
-	$published_list = publish_online_articles($article_list);
+	$published_list = publish_online_articles($article_list,$sezione);
 	
 	echo "Fatto!<br>\n";
 	echo "<br>\n";
@@ -62,7 +94,7 @@ case 'set_online_articles':
 	echo "<ul>\n";
 	for ($i = 0; $i < count($published_list); $i++) 
 	{
-		$art_data = load_article($published_list[$i]);
+		$art_data = load_article($published_list[$i],$sezione);
 		
 		echo "<li>id ".$published_list[$i].") ". $art_data['titolo'] ."</li>\n";
 	} 
@@ -73,7 +105,7 @@ case 'set_online_articles':
 case 'cancel':
 	echo("Cancellazione dell'articolo con ID ".$data.":<br>\n");
 	
-	$art_data = load_article($data); // carica l'articolo
+	$art_data = load_article($data,$sezione); // carica l'articolo
 	if (!empty($art_data)) // se l'articolo esiste...
 	{
 		echo "<table class=\"frame_delimiter\"><tbody>";
@@ -86,13 +118,13 @@ case 'cancel':
 	
 	if (in_array($data,$art_list))
 	{
-		echo "<a href=\"articoli.php\">Torna indietro</a><br><br>\n";
+		echo "<a href=\"articoli.php?section=$sezione\">Torna indietro</a><br><br>\n";
 		die("L'articolo e' ancora online, non puo' essere cancellato! Provvedi prima a metterlo offline.");
 	}
 	
 	// a questo punto sono sicuro che l'id dell'articolo da cancellare non e' nell'elenco di quelli online
 	
-	if (delete_article($data)) // cancello fisicamente il file
+	if (delete_article($data,$sezione)) // cancello fisicamente il file
 	{
 		echo "L'articolo con id $data e' stato cancellato!<br>\n";
 	}
@@ -106,7 +138,7 @@ case 'cancel':
 case 'edit':
 	echo("Modifica dell'articolo con ID ".$data.":<br>\n");
 	
-	$art_data = load_article($data); // carica l'articolo
+	$art_data = load_article($data,$sezione); // carica l'articolo
 	
 	if (!empty($art_data)) // se l'articolo esiste...
 	{
@@ -114,13 +146,13 @@ case 'edit':
 		show_article($art_data);	// visualizza l'articolo
 		echo "</tbody></table>";
 	}
-
+	
 	?>
 
 	<br>
 	
 	<form name="form_edit_article" action="manage_articles.php" method="post">
-	Titolo: <input type="edit" name="titolo" value="<?php echo htmlentities($art_data['titolo'],ENT_QUOTES); ?>">
+	Titolo: <input type="edit" name="titolo" value="<?php echo htmlentities($art_data['titolo'],ENT_QUOTES); ?>"><br>
 
 	<?php
 	echo "<textarea name=\"testo\" rows=15 cols=120>";
@@ -129,11 +161,12 @@ case 'edit':
 		echo trim(htmlentities($art_data['testo'][$i],ENT_QUOTES),"\r\n")."\n";
 	}
 	echo "</textarea>";
-	?>
+	?><br>
 	Autore: <input type="edit" name="autore" value="<?php echo htmlentities($art_data['autore'],ENT_QUOTES); ?>"><br>
 
 	<input value="Applica modifiche" onClick="form_edit_article.task.value='edited'" type="submit">
 	<input name="password" value="<?php echo $password; ?>" type="hidden">
+	<input name="section" value="<?php echo $sezione; ?>" type="hidden">
 	<input name="task" type="hidden">
 	<input name="data" type="hidden" value="<?php echo $data; ?>">
 	
@@ -143,12 +176,11 @@ case 'edit':
 	break;
 
 case 'edited':
-	$id_articolo = $_REQUEST['data']; // articolo da modificare
-	$ks1 = array("\'",'\"',"\\\\");
-	$ks2 = array("'","\"","\\");
-	$art_data['titolo'] = str_replace($ks1,$ks2,$_REQUEST['titolo']);
-	$art_data['autore'] = str_replace($ks1,$ks2,$_REQUEST['autore']);
-	$testo = str_replace($ks1,$ks2,$_REQUEST['testo']);
+	$id_articolo = $data; // articolo da modificare
+
+	$art_data['titolo'] 	= stripslashes($_REQUEST['titolo']);
+	$art_data['autore'] 	= stripslashes($_REQUEST['autore']);
+	$testo 			= stripslashes($_REQUEST['testo']);
 	
 	$zz = split("\n",$testo);
 	
@@ -164,22 +196,22 @@ case 'edited':
 		
 	}
 	
-	save_article($id_articolo,$art_data['autore'],$art_data['titolo'],$art_data['testo'],$articles_dir);
+	save_article($id_articolo,$art_data['autore'],$art_data['titolo'],$art_data['testo'],$sezione);
 	
 	echo "Articolo $id_articolo modificato.<br>\n";
 	break;
 default:
-	echo "<a href=\"articoli.php\">Torna indietro</a><br><br>\n";
+	echo "<a href=\"articoli.php?section=$sezione\">Torna indietro</a><br><br>\n";
 	die("mode: \"".$mode."\", data: \"".$data."\"\n");
 }
 
 
-log_action($articles_dir,"Action: <$mode>, data: <$data>, ".date("l dS of F Y h:i:s A"));
+log_action($articles_dir,"Action: <$mode>, data: <$data>, ".date("l dS of F Y h:i:s A").",".$login['username']);
 
 ?>
 
 <hr>
-<a href="articoli.php">Torna indietro</a>
+<a href="articoli.php?section=<?php echo $sezione; ?>">Torna indietro</a>
 
 </body>
 </html>
