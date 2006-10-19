@@ -56,8 +56,12 @@ selezioni di qualsiasi campo select all'interno del documento.
 
 # pagina da visualizzare; per ora puo' valere:
 # 	'' 		: pagina di default, con tutti gli articoli in colonna centrale
-#	'articolo'	: viene visualizzato un solo articolo, indicato dal suo id attraverso la variabile aggiuntiva 'art_id'
-$pagina = $_REQUEST['page']; // contenuto da visualizzare in colonna centrale
+#	'<sezione>'	: viene visualizzato un solo articolo, indicato dal suo id attraverso la variabile aggiuntiva 'art_id'
+$sezione = $_REQUEST['page']; // contenuto da visualizzare in colonna centrale
+$sezione = sanitize_user_input($sezione,'plain_text',Array());
+
+$art_id = $_REQUEST['art_id']; // id dell'articolo da visualizzare
+$art_id = sanitize_user_input($art_id,'number',Array("number_type"=>"int"));
 
 # carica i dati relativi a tutte le edizioni, che devono essere disponibili per i moduli nelle colonne sinistra e destra
 $archivio = load_data($filename_tempi,$num_colonne_prestazioni);
