@@ -1,0 +1,4 @@
+Angola,Arabia Saudita,Argentina,Germania,Ghana,Giappone,Inghilterra,Italia,Iran,Messico,Tunisia,Trinidad e Tobago,Polonia,Olanda,Paraguay::1160085253::21:54 05/10/2006::ceres
+Angola,Olanda,Argentina,Germania,Ghana,Giappone,Inghilterra,Italia,Angola,Olanda,Argentina,Germania,Olanda,Argentina,Argentina::1160087363::22:29 05/10/2006::ceres
+Angola,Arabia Saudita,Argentina,Germania,Ghana,Giappone,Inghilterra,Italia,Angola,Arabia Saudita,Argentina,Germania,Arabia Saudita,Argentina,Argentina::1160087364::22:30 05/10/2006::ceres
+Olanda,Angola,Argentina,Germania,Ghana,Giappone,Inghilterra,Italia,Angola,Olanda,Argentina,Germania,Olanda,Argentina,Argentina::1160087365::22:31 05/10/2006::ceres
