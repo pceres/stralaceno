@@ -18,4 +18,5 @@ Formato [elenco_topics]:
 1::Come funziona il forum::open::::::ceres::1::
 2::Sondaggio sui mondiali di calcio 2006::open::::::ceres::3::2
 3::Estate caposelese::open::::users::Pasquale Ceres::2::1
+4::Sondaggio Champions League 2006/2007::open::::::Pasquale C.::1::0
 

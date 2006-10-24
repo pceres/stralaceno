@@ -15,7 +15,7 @@
 #	data_presentazione_risultati	: hh:mm gg/mm/aaaa
 #
 [Attributi]
-Sondaggio Champions League 2007::attiva::no_auth::00:00 01/10/2006::08:00 10/12/2006::18:00 08/06/2007
+Sondaggio Champions League 2006/2007::attiva::no_auth::00:00 20/12/2005::00:00 31/01/2007::08:00 26/05/2007
 
 #
 # msg1::msg2::msg3
@@ -24,7 +24,7 @@ Sondaggio Champions League 2007::attiva::no_auth::00:00 01/10/2006::08:00 10/12/
 #	msg3: visualizzato dopo la chiusura delle giocate
 #
 [msg_date]
-Il sondaggio non &egrave; ancora aperto. Potrai giocare dalle 00:00 del 01/10::Si pu&ograve; giocare dalle 00:00 del 01/10 alle 08:00 del 10/12::Le giocate sono chiuse, la classifica sar&agrave; disponibile dalle 18:00 dell'08/06
+Il sondaggio non &egrave; ancora aperto. Potrai giocare dalle 00:00 del 20/12::Si pu&ograve; giocare dalle 00:00 del 20/12 alle 00:00 del 31/01::Le giocate sono chiuse, la classifica sar&agrave; disponibile dalle 08:00 del 26/05
 
 #
 # Formato riga [keyfiles]:
@@ -125,38 +125,38 @@ Campione del mondo::fixed::Gruppo qualificati quarti::ripetibile
 
 
 [Gruppo qualificati quarti]
-Angola
-Arabia Saudita
-Argentina
-Australia
-Brasile
-Corea del sud
-Costa d'Avorio
-Costa Rica
-Croazia
-Ecuador
-Francia
-Germania
-Ghana
-Giappone
-Inghilterra
-Italia
-Iran
-Messico
-Olanda
-Paraguay
-Polonia
-Portogallo
-Rep. Ceca
-Serbia Montenegro
-Spagna
-Stati Uniti
-Svezia
-Svizzera
-Togo
-Trinidad e Tobago
-Tunisia
-Ucraina
+Barcellona
+Levski Sofia
+Chelsea
+Werder Brema
+Bayern Monaco
+Spartak Mosca
+Sporting Lisbona
+Inter
+Galatasaray
+Bordeaux
+Psv Eindhoven
+Liverpool
+Olympiakos Pireo
+Valencia
+Roma
+Shakhtar Donetsk
+Dynamo Kiev
+Steaua Bucarest
+Lione
+Real Madrid
+Fc Copenhagen
+Benfica
+Manchester United
+Celtic Glasgow
+Amburgo
+Arsenal
+Porto
+Cska Mosca
+Anderlecht
+Lille
+Milan
+Aek Atene
 
 #
 # Formato riga [statistiche_list]:
