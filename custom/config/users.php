@@ -20,5 +20,8 @@ paolo::491c7df7124c75d09dbd906d1cc74aaf::users,soci_ars
 martino::5a682d4fe8da9adc95a383742ea30c59::users,soci_ars
 nicola.cirillo::0d4f9d4cb7e6ed8ecbaad6fd16117581::users,soci_ars
 rocco.proietto::7e3217beee39079a345d9b600ebd3b84::users,soci_ars
+francesco.ceres::23c47776c97d717cbb5809ccf1d34fab::users,soci_ars
+gianni.sozio::7e4d797ce474328ed691f97415ad81f9::users,soci_ars
+salvatore.colatrella::4c64ba31dd74feaa56986f08e09b1768::users,soci_ars
 # non soci ARS:
 don.ger::1e8c22feeac792722fb8738f702b9ef5::admin,users
