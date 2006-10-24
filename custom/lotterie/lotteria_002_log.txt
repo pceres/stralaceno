@@ -2,3 +2,7 @@ Angola,Arabia Saudita,Argentina,Germania,Ghana,Giappone,Inghilterra,Italia,Iran,
 Angola,Olanda,Argentina,Germania,Ghana,Giappone,Inghilterra,Italia,Angola,Olanda,Argentina,Germania,Olanda,Argentina,Argentina::1160087363::22:29 05/10/2006::ceres
 Angola,Arabia Saudita,Argentina,Germania,Ghana,Giappone,Inghilterra,Italia,Angola,Arabia Saudita,Argentina,Germania,Arabia Saudita,Argentina,Argentina::1160087364::22:30 05/10/2006::ceres
 Olanda,Angola,Argentina,Germania,Ghana,Giappone,Inghilterra,Italia,Angola,Olanda,Argentina,Germania,Olanda,Argentina,Argentina::1160087365::22:31 05/10/2006::ceres
+Angola,Argentina,Costa d\\\'Avorio,Francia,Giappone,Portogallo,Svezia,Costa Rica,Angola,Argentina,Svezia,Portogallo,Angola,Argentina,Angola::1160214228::11:43 07/10/2006::guest
+Barcellona,Levski Sofia,Chelsea,Werder Brema,Bayern Monaco,Spartak Mosca,Sporting Lisbona,Inter,Galatasaray,Bordeaux,Psv Eindhoven,Liverpool,Olympiakos Pireo,Valencia,Roma::1160514032::23:00 10/10/2006::ceres
+Barcellona,Levski Sofia,Chelsea,Werder Brema,Bayern Monaco,Spartak Mosca,Sporting Lisbona,Inter,Barcellona,Levski Sofia,Chelsea,Bayern Monaco,Barcellona,Levski Sofia,Barcellona::1160514285::23:04 10/10/2006::ceres
+Barcellona,Werder Brema,Bayern Monaco,Galatasaray,Psv Eindhoven,Anderlecht,Levski Sofia,Olympiakos Pireo,Barcellona,Werder Brema,Psv Eindhoven,Anderlecht,Werder Brema,Psv Eindhoven,Psv Eindhoven::1161163017::11:16 18/10/2006::alex
