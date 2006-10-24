@@ -5,32 +5,32 @@
 #
 
 # Qualificato quarti 1:
-Angola
+Barcellona
 # Qualificato quarti 2:
-Arabia Saudita
+Levski Sofia
 # Qualificato quarti 3:
-Argentina
+Chelsea
 # Qualificato quarti 4:
-Germania
+Werder Brema
 # Qualificato quarti 5:
-Ghana
+Bayern Monaco
 # Qualificato quarti 6:
-Giappone
+Spartak Mosca
 # Qualificato quarti 7:
-Inghilterra
+Sporting Lisbona
 # Qualificato quarti 8:
-Italia
+Inter
 # Qualificato semifinale 1:
-Angola
+Barcellona
 # Qualificato semifinale 2:
-Arabia Saudita
+Levski Sofia
 # Qualificato semifinale 3:
-Argentina
+Chelsea
 # Qualificato semifinale 4:
-Germania
+Werder Brema
 # Qualificato finale 1:
-Arabia Saudita
+Barcellona
 # Qualificato finale 2:
-Argentina
+Levski Sofia
 # Vincitore:
-Argentina
+Barcellona
