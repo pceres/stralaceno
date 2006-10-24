@@ -63,7 +63,7 @@ Pagine in preparazione::users
 
 [Pagine in preparazione]
 #forum::Forum::external_link::forum.php::
-sondaggio_champions_2007::Sondaggio Champions 2006/2007::external_link::http://localhost/work/ars/questions.php?id_questions=2
+sondaggio_champions_2007::Sondaggio Champions 2006/2007::external_link::http:questions.php?id_questions=2
 
 [Bacheca ARS]
 soci::I soci ARS::modulo_custom::::
