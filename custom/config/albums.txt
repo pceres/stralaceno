@@ -33,21 +33,22 @@ laceno.jpg::Altopiano del Laceno::::
 lagoLaceno.jpg::Laceno::::
 
 [Soci_ars]
-LV.jpg::Lello Viscardi::
-DC.jpg::Donatello Cirillo::
-PV.jpg::Paolo Viscardi::
+LV2.jpg::Lello Viscardi::
+PV2.jpg::Paolo Viscardi::
 NC.JPG::Nicola Cirillo::
 AR.jpg::Alessandro Russomanno::
-GM.jpg::Gerardo Martino::
-GR.jpg::Giuseppe Rosania::
+GM2.jpg::Gerardo Martino::
+GR2.jpg::Giuseppe Rosania::
 MC.jpg::Michele Ceres::
 NDA.jpg::Nicola D'Auria::
 PC2.jpg::Pasquale Ceres::
 RP.jpg::Rocco Proietto::
-VDM.jpg::Valentino Di Masi::
+VDM2.jpg::Valentino Di Masi::
 SM.jpg::Salvatore Merola::
-PC.jpg::Pasquale Ceres::
-DC2.jpg::Donatello Cirillo::
+DC.jpg::Donatello Cirillo::
+FC.jpg::Francesco Ceres::
+GS.jpg::Gianni Sozio::
+SC.jpg::Salvatore Colatrella::
 
 [Roccadaspide_06]
 Roccadasp_040_1.jpg::evento::Foto di gruppo ARS, Gerardo, Paolo, Alessandro e Salvatore C.::
