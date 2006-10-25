@@ -62,9 +62,9 @@ Pagine in preparazione::users
 #
 
 [Pagine in preparazione]
-#forum::Forum::external_link::forum.php::
 sondaggio_champions_2007::Sondaggio Champions 2006/2007::external_link::http:questions.php?id_questions=2
 siti_amici::Caposele sul Web::modulo_custom::::
+link_sezione_ciclismo::Ciclismo::external_link::index.php?sezione=ciclismo
 
 [Bacheca ARS]
 soci::I soci ARS::modulo_custom::::
