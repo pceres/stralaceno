@@ -10,7 +10,7 @@
 ceres::f505a4f2dfe4f6071f265d170c34d2f7::admin,users,soci_ars,root_admin
 alex::534b44a19bf18d20b71ecc4eb77c572f::admin,users,soci_ars
 nick::e2e42a07550863f8b67f5eb252581f6d::admin,users,soci_ars
-michele::8a94bdfc825df46f880854f41fee346b::users,soci_ars
+michele::8a94bdfc825df46f880854f41fee346b::admin,users,soci_ars
 donatello::a264026f6696433bcdc817e6ac00444b::users,soci_ars
 valentino::3b1b7b5b068e4b863ef29b536c9c2e03::users,soci_ars
 salvatore::7466b376a24aa3d2a44bd303047f7d9e::users,soci_ars
