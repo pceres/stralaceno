@@ -1,0 +1,17 @@
+#
+# ARS Amatori Running Sele
+#
+
+#
+# formato elenco_news:  data::news
+#
+[elenco_siti]
+1::arsweb::CaposeleWeb::ars.altervista.org/index.php::http://localhost/work/ars/custom/images/logo.gif::ARS Amatori Running Sele::Pasquale Ceres
+2::stralacenoweb::StralacenoWeb::pceres.altervista.org/stralaceno/index.php::http://localhost/work/stralaceno/custom/images/logo.gif::ARS Amatori Running Sele::Pasquale Ceres
+3::caposeleonline::Caposele Online::www.caposeleonline.it::::::Gerardo Notaro
+
+#
+# formato testo_footer:  testo
+#
+[testo_footer]
+Ultimo aggiornamento effettuato il 24/10/2006
