@@ -26,6 +26,8 @@ layout_right.txt::%config_dir%::disposizione colonna destra::admin::d36923926ed5
 pregfas_cfg.txt::%modules_dir%pregfas/::gestione pregfas::admin::d36923926ed59333afab0bba1a4ad5e5
 lettere_sito_cfg.txt::%modules_dir%lettere_sito/::gestione archivio lettere::admin::d36923926ed59333afab0bba1a4ad5e5
 soci_cfg.txt::%modules_dir%soci/::gestione elenco soci e news ARS::admin::d36923926ed59333afab0bba1a4ad5e5
+flash_news_cfg.txt::%modules_dir%flash_news/::gestione News Flash::admin::d36923926ed59333afab0bba1a4ad5e5
+siti_amici_cfg.txt::%modules_dir%siti_amici/::gestione elenco siti Caposele sul Web::admin::f2a24930901df6192297dcfddfc096ef
 
 # sondaggi/lotterie
 lotteria_001.txt::%questions_dir%::configurazione "Sondaggio Mondiali di Calcio 2006"::admin::d36923926ed59333afab0bba1a4ad5e5
