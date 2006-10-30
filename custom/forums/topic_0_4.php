@@ -12,6 +12,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 
 [elenco_posts]
 0::Pasquale C.::10/10/2006 22.43.58::visible
+1::Pasquale C.::23/10/2006 23.03.53::visible
 
 [post_text_0]
 E' in preparazione un sondaggio sulle squadre prime classificate nella Champions League 2006/2007.
@@ -20,5 +21,10 @@ Una bozza della scheda per il sondaggio e' presente all'indirizzo:
 http://ars.altervista.org/custom/download/Tabellone%20Champions.xls
 &nbsp;
 Se avete suggerimenti sulle modalita' del sondaggio, scriveteci su questo forum, oppure, se volete migliorare l'aspetto grafico della scheda, scaricate il foglio e inviatecelo con i vostri suggerimenti all'indirizzo caposeleweb@yahoo.it.
+&nbsp;
+
+[post_text_1]
+E' stata aggiornata la bozza di sondaggio, l'indirizzo e' rimasto lo stesso:
+http://ars.altervista.org/custom/download/Tabellone%20Champions.xls
 &nbsp;
 
