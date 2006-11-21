@@ -78,6 +78,12 @@ Qualificato in semifinale::fixed::Gruppo qualificati quarti::ripetibile
 Qualificato in finale::fixed::Gruppo qualificati quarti::ripetibile
 Qualificato in finale::fixed::Gruppo qualificati quarti::ripetibile
 Campione del mondo::fixed::Gruppo qualificati quarti::ripetibile
+#
+Nome::free_string::::ripetibile
+Cognome::free_string::::ripetibile
+Nato_a::free_string::::ripetibile
+Provenienza::free_string::::ripetibile
+caposelese_doc::free_string::::ripetibile
 
 #
 # Formato riga [classifica]:
@@ -111,17 +117,21 @@ Campione del mondo::fixed::Gruppo qualificati quarti::ripetibile
 #			gruppo della risposta::[1,2,..]{n_domande} gruppo cui appartiene ciascuna domanda
 #			modalita:
 #				numero: una risposta esatta -> un punto
-#				posizione: prevale chi indovina la squadra 1, poi la 2, ecc.
+#				posizione: prevale chi indovina la squadra 1, poi la 2, ecc. (peso per la risposta=1 ==> peso maggiore)
 #				numero_pesato: una risposta esatta -> peso della relativa risposta
 #			peso per la risposta::[0,1]{n_domande} peso assegnato alla singola risposta
 #			
 #		eliminatorie:
-#			<profondita'>: 4 -> si parte dalle squadre dei quarti, 3 -> si parte dalle semifinali, ecc.
+#			<profondita'>::<maschera_risposte>
+#			profondita'		: 4 -> si parte dalle squadre dei quarti, 3 -> si parte dalle semifinali, ecc.
+#			maschera_risposte	: [0,1,2,..]{2^(profondita')-1} risposte interessate dalla regola, vincitore per ultimo
 #
 [classifica]
-1::eliminatorie::1&deg;) Risposte esatte::4
-#2::esatte_per_gruppi::2&deg;) Posizione risposte esatte::1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,17,17,17,17,17,17,17,17,25,25,25,25,29,29,31::posizione::5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,4,4,4,4,4,4,4,3,3,3,3,2,2,1
-3::data_giocata::3&deg;) Data giocata
+1::punteggi_specifici::1&deg;) Punteggi
+2::eliminatorie::2&deg;) Risposte esatte per eliminatorie::4::0,1,2,3,4,5,6,7,8,9,10,11,12,13,14
+#2::esatte_per_gruppi::2&deg;) Numero risposte esatte::4,4,4,4,4,4,4,4,3,3,3,3,2,2,1 ::numero::1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+3::esatte_per_gruppi::3&deg;) Risposte esatte per gruppi::4,4,4,4,4,4,4,4,3,3,3,3,2,2,1::posizione::4,4,4,4,4,4,4,4,3,3,3,3,2,2,1
+4::data_giocata::4&deg;) Data giocata
 
 
 [Gruppo qualificati quarti]
