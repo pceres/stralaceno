@@ -1,9 +1,17 @@
 #
-# ARS Amatori Running Sele
+# Caposele sul Web
 #
-
 #
-# formato elenco_news:  data::news
+# formato elenco_siti:  <posizione>::<nome_breve>::<nome_visibile>::<link_homepage>::<link_logo>::<associazione>::<webmaster>
+#
+#	<posizione>	: numero a partire da 1 (deve essere congruente con la posizione della riga relativa, in questo file)
+#	<nome_breve>	: nome senza spazi
+#	<nome_visibile>	: nome completo, come viene visualizzato
+#	<link_homepage>	: link (verificare che, copiato come indirizzo nel browser, porti effettivamente alla pagina desiderata)
+#	<link_logo>	: link del logo (o si prende quello gia' presente sui siti (tasto destro sull'immagine, poi copia link), oppure
+#			 	si carica da qualche parte sul web l'immagine, e poi si copia qui il link)
+#	<associazione>	: associazione che cura il sito
+#	<webmaster>	: persona che cura il sito (o, cio' che e' lo stesso, webmaster!)
 #
 [elenco_siti]
 1::arsweb::CaposeleWeb::ars.altervista.org/index.php::http://localhost/work/ars/custom/images/logo.gif::ARS Amatori Running Sele::Pasquale Ceres
@@ -14,4 +22,7 @@
 # formato testo_footer:  testo
 #
 [testo_footer]
-Ultimo aggiornamento effettuato il 24/10/2006
+Ultimo aggiornamento effettuato il 24/10/2006. Rubrica a cura di <a href="mailto:ceresmichele@yahoo.it?subject=Caposele%20sul%20Web">Michele Ceres</a>
+<br>
+<br>
+Se il tuo sito &egrave; attinente a Caposele, o se noti imprecisioni, <a href="mailto:ceresmichele@yahoo.it?subject=Caposele%20sul%20Web">segnalacelo</a>, saremo felici di recepire i tuoi suggerimenti
