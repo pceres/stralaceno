@@ -1,80 +1,128 @@
 <?php
 
+// 
+// input impliciti:
+// 	$giocate	: archivio delle giocate registrate (da lotteria_XXX_log.php)
+// 	$soluz_array	: dati strutturati (da lotteria_XXX_ans.php)
+// 	$soluz		: risposte esatte (usate per l'ordinamento)
+// 	$numero_risposte_per_giocata : numero di risposte salvate per ciascuna giocata (primo campo)
+//	$criteri	: parte fissa (primi 3 campi delle configurazioni di ordinamento)
+//	$bulk_punteggi	: dati di configurazione necessari per l'ordinamento (campi successivi al terzo)
+//	$lista_criteri	: elenco dei nomi dei criteri di ordinamento
+// 
+
+$debug_mode = ($_REQUEST['debug']=='full');
+
+
+
 print_header();
+
+//
+// configurazioni
+//
 
 $visualizza_giocate_anonime = true;	// true -> vengono visualizzate anche le giocate che non hanno una chiave corretta (giocate anonime)
 
+$indice_regola_eliminatorie = $lista_criteri['eliminatorie']; // [0..] posizione (tra le altre regole di ordinamento) regola 'eliminatorie'
+$indice_regola_punteggi_specifici = $lista_criteri['punteggi_specifici']; // [0..] indice del criterio "punteggi_specifici"
+$indice_regola_esatte_per_gruppi = $lista_criteri['esatte_per_gruppi']; // [0..] indice del criterio "esatte_per_gruppi"
 
-$risposte_equivalenti=$bulk_punteggi[1][3];
-$vettore_risposte_esatte=$bulk_punteggi[1][0];
 
-// ricalcola il punteggio
-$gruppo_old = -1; // valore fuori range in modo da capire che il ciclo non e' ancora iniziato
-$elenco_giocate2 = array_slice($elenco_giocate,1);
-$elenco_giocate3 = array_slice($elenco_giocate,0,1);
-array_push($elenco_giocate3[0],'Numero risposte esatte');
-foreach ($elenco_giocate2 as $giocata)
+//
+// calcoli
+//
+$vettore_risposte_esatte=$bulk_punteggi[$indice_regola_eliminatorie][1];	// punteggio per ciascuna delle squadre qualificate
+$risposte_equivalenti=$bulk_punteggi[$indice_regola_eliminatorie][4];		// squadre associate a ciascun gruppo
+//$gruppo_risposta = $bulk_punteggi[$indice_regola_esatte_per_gruppi][0]; // equivalente alla riga sottostante
+$gruppo_risposta = $bulk_punteggi[$indice_regola_punteggi_specifici][2];
+$punteggio_specifico = $bulk_punteggi[$indice_regola_punteggi_specifici][0];
+
+// print_r($punteggio_specifico);
+
+
+
+//
+// ricalcola il punteggio (e aggiungilo in una colonna in fondo)
+//
+
+// scomponi l'archivio delle giocate:
+$elenco_giocate2 = array_slice($elenco_giocate,1);	// giocate effettive (dal secondo elemento in poi)
+
+$elenco_giocate3 = array_slice($elenco_giocate,0,1);	// inizia con gli headers soltanto, poi aggiungi tutte le giocate rielaborate
+array_push($elenco_giocate3[0],'Numero risposte esatte');	// aggiungi il titolo per l'ultima colonna da aggiungere (punteggio visibile)
+foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 {
 	$giocata_new = $giocata;
 	$vettore_giocata = split(',',$giocata[1]);	// crea un array con le singole giocate
-	
-	$mazzo_vecchio = $vettore_giocata;		// vechia giocata, nell'ordine in cui e' stata inserita
-	$mazzo_nuovo = array();				// diventera' la nuova giocata, riordinata per avere le risposte giuste all'inizio
-	$punteggio=0;
-	foreach ($soluz as $id => $squadra)
+	$vettore_giocata_new = $vettore_giocata;	// andra' riordinato per avvicinare le x
+
+	$punteggio = 0;
+	$bulk_gruppi = Array();
+	$lista_indici = Array(); // elenco degli indici delle risposte appartenenti allo stesso gruppo
+	$lista_risposte = Array(); // elenco delle risposte appartenenti allo stesso gruppo
+	$lista_punti = Array(); // elenco dei punti associati alle risposte appartenenti allo stesso gruppo
+	$gruppo_old = -1; // valore fuori range in modo da capire che il ciclo non e' ancora iniziato
+	foreach($gruppo_risposta as $indice_risposta => $gruppo)
 	{
-		$gruppo=$vettore_risposte_esatte[$id];	// gruppo equiv. cui appartiene la risposta esatta $id-esima ($vettore_risposte_esatte[$id])
+		$risposta = $vettore_giocata[$indice_risposta];
+		$punti = (integer)($punteggio_specifico[$indice_risposta][$risposta]);
 		
-		// se e' cambiata la clase di equivalenza, e si passa da $gruppo_old a $gruppo (es. da ottavi di finale a quarti di finale)
-		// finisci di copiare le risposte rimaste (non corrette) da $mazzo_vecchio a $mazzo_vuoto
-		if (($gruppo_old >= 0) & ($gruppo_old != $gruppo))
+		if ( (($gruppo_old >= 0) & ($gruppo_old != $gruppo)) | (count($gruppo_risposta) == $count) )
 		{
-			for ($i = $gruppo_old;$i<$gruppo;$i++)
-			{
-				if (array_key_exists($i-1,$mazzo_vecchio))
-				{
-					// inseriscila in $mazzo_nuovo, in fondo
-					array_push($mazzo_nuovo,$mazzo_vecchio[$i-1]);
-					// e togli la squadra trovata da $mazzo_vecchio
-					unset($mazzo_vecchio[$i-1]);
-				}
-			}
-		}
-		
-		// conteggio delle x (giocate corrette)
-		if (in_array($vettore_giocata[$id],$risposte_equivalenti[$gruppo]))
-		{
-			$punteggio++;
+			$bulk_gruppi[$gruppo_old] = Array($lista_indici,$lista_risposte,$lista_punti);
 			
-			// togli la squadra trovata da $mazzo_vecchio (ma non modificare le chiavi)
-			unset($mazzo_vecchio[array_search($vettore_giocata[$id],$mazzo_vecchio)]);
-			// ed inseriscila in $mazzo_nuovo, in fondo
-			array_push($mazzo_nuovo,$vettore_giocata[$id]);
+			$lista_indici = Array($indice_risposta);
+			$lista_risposte = Array($risposta);
+			$lista_punti = Array($punti);
+		}
+		else
+		{
+			array_push($lista_indici,$indice_risposta);
+			array_push($lista_risposte,$risposta);
+			array_push($lista_punti,$punti);
 		}
 		
-		// aggiorna il puntatore al precedente gruppo di equivalenza delle risposte
-		$gruppo_old = $gruppo;
+		$punteggio += $punti;
 		
+		$gruppo_old = $gruppo;
 	}
+	$bulk_gruppi[$gruppo_old] = Array($lista_indici,$lista_risposte,$lista_punti);
 	
-	// in $mazzo_vecchio sono rimaste solo le (eventuali) risposte non esatte dell'ultima classe di equivalenza, mentre in $mazzo_nuovo
-	// sono state portate tutte quelle esatte. 
-	// Adesso trasferisco tutte le giocate rimaste in $mazzo_nuovo, cosi' quest'ultimo presenta le giocate ordinate: 
-	// prima le corrette, poi le errate
-	foreach ($mazzo_vecchio as $squadra_restante)
+	foreach ($bulk_gruppi as $gruppo => $dati_gruppo)
 	{
-		array_push($mazzo_nuovo,$squadra_restante);
+		$lista_indici = $dati_gruppo[0];
+		$lista_risposte = $dati_gruppo[1];
+		$lista_punti = $dati_gruppo[2];
+		
+		array_multisort($lista_punti,SORT_DESC,$lista_risposte); // riordina le risposte (ed i relativi punteggi)
+		
+		foreach($lista_indici as $indice_temp => $indice_risposta)
+		{
+			$vettore_giocata_new[$indice_risposta] = $lista_risposte[$indice_temp];
+		}
 	}
 	
-	// aggiorno la giocata vecchia, non ordinata (sarebbe stata visualizzata con x sparse), con quella ordinata
-	$giocata_riordinata = implode(',',$mazzo_nuovo);
-	$giocata_new[1]=$giocata_riordinata;
+	$giocata_riordinata = implode(',',$vettore_giocata_new);
 	
-	$giocata_new[count($giocata)] = $punteggio; // nell'ultima colonna aggiungo il punteggio esatto
+	// aggiorna giocata new
+	$giocata_new[1]=$giocata_riordinata; 		// 1) sostituisci la vecchia giocata con quella riordinata
+	$giocata_new[count($giocata)] = $punteggio; 	// 2) nell'ultima colonna aggiungo il punteggio esatto da visualizzare nella classifica
 	
+	// ed inseriscila in archivio
 	array_push($elenco_giocate3,$giocata_new);
 }
 $elenco_giocate = $elenco_giocate3;
+
+// 	echo "elenco_giocate[0]:<br>";
+// 	print_r($elenco_giocate[0]);
+// 	echo "<br><br>";
+// 	echo "elenco_giocate[1]:<br>";
+// 	print_r($elenco_giocate[1]);
+// 	echo "<br><br>";
+
+
+
+// aggiungi a mask l'indice dell'ultima colonna
 $mask=array_merge($mask,count($giocata));
 
 
@@ -107,6 +155,9 @@ $list = $vettore_alias_id;
 $list0=array_keys($list);
 array_multisort($list,SORT_DESC,$list0);
 
+/*print_r($list);echo "<br>";
+print_r($list0);echo "<br>";*/
+// die();
 
 // crea i titoli della nuova matrice
 $header_new = array();
@@ -124,7 +175,9 @@ foreach ($list0 as $id)
 	
 	$titolo = $vettore_alias2_domanda[$id].":";
 	
-	foreach ($risposte_equivalenti[$vettore_risposte_esatte[$id]] as $sq_ok)
+	$gruppo = $list[$id];
+	
+	foreach ($risposte_equivalenti[$gruppo] as $sq_ok)
 	{
 		$titolo .= $sq_ok.',';
 	}
@@ -211,9 +264,8 @@ foreach ($elenco_giocate2 as $giocata)
 	
 	foreach ($list0 as $id)
 	{
-		$squadra = $soluz[$id];
-		
-		$gruppo=$vettore_risposte_esatte[$id];
+		$squadra = $soluz[$id];	// valore esatto per la risposta in esame
+		$gruppo=$list[$id];	// gruppo (4,3,2,1) della risposta
 		
 		if (in_array($vettore_giocata[$id],$risposte_equivalenti[$gruppo]))
 		{
@@ -234,7 +286,7 @@ foreach ($elenco_giocate2 as $giocata)
 echo "<!-- Visualizzazione personalizzata per $lotteria_nome -->\n";
 echo "$titolo_pagina<br>\n";
 
-if ($_REQUEST['debug']=='full')
+if ($debug_mode)
 {
 	show_table($elenco_giocate,$mask,'tabella',1,12,1); # tabella in una colonna, font 12, con note
 	echo "<br><hr><br>";
@@ -251,7 +303,7 @@ else
 {
 	$mask_new = array_merge(6,0,4,  1,range(7,7+count($soluz)-1),2); // codice, tipo giocata, punteggio, x, data
 }
-if ($_REQUEST['debug'] == 'full')
+if ($debug_mode)
 {
 	$mask_new = array_merge(6,0,1,2,3,4,5,range(7,7+count($soluz)-1)); // tutti i campi
 }
