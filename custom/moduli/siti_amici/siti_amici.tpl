@@ -59,16 +59,5 @@
 </div>
 
 
-<br>
-<div class="txt_link" style="text-align: center;">
-<br>
-
-<br>
-<big>Se il tuo sito &egrave; attinente a Caposele, o se noti imprecisioni, 
-<a href="mailto:caposeleweb@yahoo.it?subject=Caposele%20sul%20Web">segnalacelo</a>
-, saremo felici di recepire i tuoi suggerimenti</big>
-</div>
-
-
 %homepage_link%
 
