@@ -34,17 +34,27 @@ if (($mode === "index") && ($password !== $password_ok))
 	die("La password inserita non &egrave; corretta!<br>\n");
 }
 
+
+function show_header($titolo,$classe_body)
+{
+# dichiara variabili
+extract(indici());
+
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 
 <head>
-  <title>Gestione lotterie/questionari</title>
+  <title><?php echo $titolo; ?></title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Kate">
   <style type="text/css">@import "<?php echo $filename_css ?>";</style>
 </head>
+<body <?php echo $classe_body; ?> >
 <?php
+}
+
+// scegli la classe del body html
 switch ($mode)
 {
 case 'set_nominativi':
@@ -55,11 +65,8 @@ case 'matrice_ticket':
 default:
 	$classe = "class=\"admin\"";
 }
-echo "<body $classe>";
-?>
 
-<?php
-
+// nomi dei file
 $id_questions = $data;
 $basefile_questions = "lotteria_".sprintf("%03d",$id_questions).".txt";
 $basefile_question_keys = "lotteria_".sprintf("%03d",$id_questions)."_keys_%03d.php";
@@ -100,6 +107,7 @@ $tickets_per_page = $tickets_per_row*$tickets_per_column;		// numero di bigliett
 switch ($mode)
 {
 case 'index':
+	show_header("Gestione lotterie/questionari",$classe);
 	echo "<div class=\"titolo_tabella\">Lotterie disponibili:</div>";
 	
 	// individua i file di lotteria (se esiste solo lotteria_006.txt, $id vale 6
@@ -136,6 +144,8 @@ case 'index':
 	
 	break;
 case 'edit':
+	show_header("Gestione lotterie/questionari",$classe);
+	
 	// verifica che $id_questions sia un id relativo ad una lotteria o questionario valida
 	if (!file_exists($file_questions))
 	{
@@ -172,13 +182,13 @@ case 'edit':
 	echo "<a href=\"manage_questions.php?task=show_giocate&amp;data=$id_questions\">Visualizza giocate grezze</a><br>\n";
 	echo "<a href=\"../questions.php?action=results&amp;id_questions=$id_questions&amp;debug=full\">Visualizza giocate ordinate</a>";
 	
+	// gestione giocate cartacee
+	echo "<hr>";
+	echo "<a href=\"manage_questions.php?task=manage_giocate_cartacee&amp;data=$id_questions\">Gestione giocate cartacee</a>";
+	
 	// gestione supplementare files di chiavi
 	if ($lotteria_auth == 'key')
 	{
-		
-		// gestione giocate cartacee
-		echo "<hr>";
-		echo "<a href=\"manage_questions.php?task=manage_giocate_cartacee&amp;data=$id_questions\">Gestione giocate cartacee</a>";
 		
 		// stampa dei biglietti
 		$keys = get_question_keys($id_questions);
@@ -225,6 +235,8 @@ case 'edit':
 	
 	break;
 case 'ticket_page':
+	show_header("Gestione lotterie/questionari",$classe);
+	
 	$selection = $_REQUEST["keyfile_select"];
 	$keyfile_id = $_REQUEST["keyfile_id"];
 	
@@ -284,6 +296,8 @@ case 'ticket_page':
 	die();
 	break;
 case 'matrice_ticket':
+	show_header("Gestione lotterie/questionari",$classe);
+	
 	$keyfile_id = $_REQUEST["keyfile_id"];
 	$keys = get_question_keys($id_questions);
 	
@@ -298,12 +312,16 @@ case 'matrice_ticket':
 	die();
 	break;
 case 'show_giocate':
+	show_header("Gestione lotterie/questionari",$classe);
+	
 	echo "<div class=\"titolo_tabella\">Giocate &quot;$lotteria_nome&quot;</div><br>";
 	
 	$giocate = get_config_file($file_log_questions);
 	show_giocate($giocate['default']);
 	break;
 case 'init':
+	show_header("Gestione lotterie/questionari",$classe);
+	
 	// verifica che $id_questions sia un id relativo ad una lotteria o questionario valida
 	if (!file_exists($file_questions))
 	{
@@ -317,6 +335,7 @@ case 'init':
 	}
 	break;
 case 'set_nominativi':
+	show_header("Gestione lotterie/questionari",$classe);
 	
 	$keyfile_id = $_REQUEST["keyfile_id"];	// id del file di chiavi in oggetto
 	$key_offset = $_REQUEST["key_offset"];	// id del primo biglietto da visualizzare
@@ -419,19 +438,23 @@ case 'set_nominativi':
 		
 	break;
 case 'manage_giocate_cartacee':
-		if (!file_exists($file_template_form)) 
-		{
-			// visualizza le domande (default)
-			show_question_form($lotteria,"../questions.php","last_check",$id_questions,"","Conferma la giocata");
-		}
-		else
-		{
-			$admin_mode = true;
-			include($file_template_form);
-		}
+	if (!file_exists($file_template_form)) 
+	{
+		show_header("Gestione lotterie/questionari",$classe);
+	
+		// visualizza le domande (default)
+		show_question_form($lotteria,"../questions.php","last_check",$id_questions,"","Conferma la giocata");
+	}
+	else
+	{
+		$admin_mode = true;
+		include($file_template_form);
+	}
 	
 	break;
 default:
+	show_header("Gestione lotterie/questionari",$classe);
+	
 	echo "<a href=\"articoli.php\">Torna indietro</a><br><br>\n";
 	die("mode: \"".$mode."\", data: \"".$data."\"\n");
 }
