@@ -31,15 +31,22 @@
 
 <br>
 <b>Brevi news:</b>
-<ul>
+
+
+<table><tbody>
 %%%% begin flash_news_cfg.txt elenco_news 2
-	<li><i>%field0%</i>: %field1%<br>
+    <tr>
+	<td valign="top" nowrap>- <i>%field0%</i>: </td>
+	<td>%field1%<br></td>
+    </tr>
+	
 %%%% end
-</ul>
+</tbody></table>
+
 
 <br>
 %%%% begin flash_news_cfg.txt testo_footer 2
-	<b>%field0%</b>
+<b>%field0%</b>
 %%%% end
 
 </div>

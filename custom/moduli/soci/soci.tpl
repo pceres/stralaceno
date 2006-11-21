@@ -129,12 +129,17 @@ ARS Amatori Running Sele - Elenco dei soci
 
 <br>
 <b>Brevi news:</b>
-<ul>
-%%%% begin soci_cfg.txt elenco_news 2
-	<li><i>%field0%</i>: %field1%<br>
-%%%% end
-</ul>
 
+
+<table><tbody>
+%%%% begin soci_cfg.txt elenco_news 2
+    <tr>
+	<td valign="top" nowrap>- <i>%field0%</i>: </td>
+	<td>%field1%<br></td>
+    </tr>
+	
+%%%% end
+</tbody></table>
 
 
 <hr>
