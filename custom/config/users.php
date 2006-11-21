@@ -8,7 +8,7 @@
 [users]
 # soci ARS:
 ceres::f505a4f2dfe4f6071f265d170c34d2f7::admin,users,soci_ars,root_admin
-alex::534b44a19bf18d20b71ecc4eb77c572f::admin,users,soci_ars
+alex::0024f84a5f3de0025c45b906a522e943::admin,users,soci_ars
 nick::e2e42a07550863f8b67f5eb252581f6d::admin,users,soci_ars
 michele::8a94bdfc825df46f880854f41fee346b::admin,users,soci_ars
 donatello::a264026f6696433bcdc817e6ac00444b::users,soci_ars
