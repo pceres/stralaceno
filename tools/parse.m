@@ -7,8 +7,10 @@ abilita_stima_foto_mancante = 0; % [0,1] a partire da album, id_photo e data pro
 nomefile = 'logfile.txt';
 backupfile = 'backupfile*.txt';
 % root_path='d:/stralaceno/online_2006_01_17/'; % path della radice del sito
-%root_path='/var/www/htdocs/work/stralaceno2/'; % path della radice del sito
 root_path='/var/www/htdocs/work/ars/'; % path della radice del sito
+
+% archivio foto cancellate
+deleted_photos_path = '/mnt/win_d/stralaceno/statistiche_ars/archivio_foto_cancellate/';
 
 
 % informazioni sul file di log generale
@@ -19,11 +21,12 @@ if length(backupfile)
     z0 = dir(backupfile);
     somma=0;
     for i=1:length(z0)
+	disp(sprintf('%15s) %d',z0(i).name,z0(i).bytes));
         somma=somma+z0(i).bytes;
     end
-    
+
     if (somma ~= z.bytes)
-         error(['Il file di log ' nomefile ' non e'' aggiornato!'])
+         error(sprintf('Il file di log %s non e'' aggiornato (%d bytes invece di %d)!',nomefile,z.bytes,somma))
     end
 end
 
@@ -44,7 +47,7 @@ end
 if must_read
 
     disp(['Rileggo il file ' nomefile])
-    
+
     fid = fopen(nomefile);
 
     bulk = {};
@@ -297,9 +300,22 @@ for data_i = 1:length(data_list)
                         albumfoto=classifica_foto{somma}{2};
                         nomefoto=classifica_foto{somma}{3};
 
+			matr = [];
                         fotoname=[root_path 'custom/album/' albumfoto '/' nomefoto];
-                        matr=imread(fotoname);
-                        image(matr);
+			if exist(fotoname,'file')
+                        	matr=imread(fotoname);
+			else
+	                        fotoname2=[deleted_photos_path albumfoto '/' nomefoto];
+				if exist(fotoname2,'file')
+        	                	matr=imread(fotoname2);
+					disp(['La foto non esiste piu'', la prendo da ' fotoname2])
+				else
+					disp([fotoname])
+				end
+			end
+			if (~isempty(matr))
+				image(matr);
+			end
                         title([albumfoto ' - ' nomefoto ' : ' num2str(conteggiofoto)],'interpreter','none')
                         axis off;
                         axis image;
