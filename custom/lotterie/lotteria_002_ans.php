@@ -7,30 +7,47 @@
 # Qualificato quarti 1:
 Barcellona
 # Qualificato quarti 2:
-Levski Sofia
-# Qualificato quarti 3:
-Chelsea
-# Qualificato quarti 4:
-Werder Brema
-# Qualificato quarti 5:
 Bayern Monaco
+# Qualificato quarti 3:
+Galatasaray
+# Qualificato quarti 4:
+Olympiakos Pireo
+# Qualificato quarti 5:
+Dynamo Kiev
 # Qualificato quarti 6:
-Spartak Mosca
+Fc Copenhagen
 # Qualificato quarti 7:
-Sporting Lisbona
+Amburgo
 # Qualificato quarti 8:
-Inter
+Anderlecht
 # Qualificato semifinale 1:
 Barcellona
 # Qualificato semifinale 2:
-Levski Sofia
+Bayern Monaco
 # Qualificato semifinale 3:
-Chelsea
+Galatasaray
 # Qualificato semifinale 4:
-Werder Brema
+Olympiakos Pireo
 # Qualificato finale 1:
 Barcellona
 # Qualificato finale 2:
-Levski Sofia
+Bayern Monaco
 # Vincitore:
 Barcellona
+
+
+[equivalenza_risposte]
+4::qualif. quarti	::0,1,2,3,4,5,6,7
+3::qualif. semifinali	::8,9,10,11
+2::qualif. finali	::12,13
+1::vincitore		::14
+
+[punteggio_risposte]
+Barcellona::4,4;3,4;2,4;1,2
+Bayern Monaco::4,4;3,4;2,4;1,2
+Galatasaray::4,4;3,4
+Olympiakos Pireo::4,4;3,4
+Dynamo Kiev::4,4
+Fc Copenhagen::4,4
+Amburgo::4,4
+Anderlecht::4,4
