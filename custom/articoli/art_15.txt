@@ -1,0 +1,60 @@
+Autore::Pasquale Ceres
+Titolo::Classifica foto ArsWeb
+--- Begin body ---
+<br>
+Ecco l'analisi, aggiornata al 16 novembre 2006, delle foto piu' cliccate su ArsWeb:
+<br><br>
+<div align="center">
+<TABLE>
+<CAPTION>Classifica foto ArsWeb aggiornata al 16 Novembre 2006</CAPTION>
+<TR id="row1">
+   <TD>
+	<a href="album.php?anno=Nusco_06">Nusco_06</a> - 20 volte<br>
+	<a href="album.php?anno=Nusco_06">
+		<img id="img_1" src='custom/album/Nusco_06/DSCF0692.1-thumb.jpg' border='0' width='133' alt="(DSCF0692.1-thumb.jpg) nusco2006"/>
+	</a>
+   <TD>
+	<a href="album.php?anno=Roccadaspide_06">Roccadaspide_06</a> - 18 volte<br>
+	<a href="album.php?anno=Roccadaspide_06">
+		<img id="img_2" src='custom/album/Roccadaspide_06/Roccadasp_041_1-thumb.jpg' border='0' width='133' alt="(Roccadasp_041_1-thumb.jpg) Roccadaspide_06"/>
+   	</a>
+    <TD>
+	<a href="album.php?anno=Nusco_06">Nusco_06</a> - 14 volte<br>
+	<a href="album.php?anno=Nusco_06">
+		<img id="img_3" src='custom/album/Nusco_06/DSCF0704-thumb.jpg' border='0' width='133' alt="(DSCF0704-thumb.jpg) nusco2006"/>
+	</a>
+<TR id="row2">
+   <TD>
+	<a href="album.php?anno=Nusco_06">Nusco_06</a> - 14 volte<br>
+	<a href="album.php?anno=Nusco_06">
+		<img id="img_4" src='custom/album/Nusco_06/DSCF0703-thumb.jpg' border='0' width='133' alt="(DSCF0703-thumb.jpg) nusco2006"/>
+	</a>
+   <TD>
+	<a href="album.php?anno=Roccadaspide_06">Roccadaspide_06</a> - 13 volte<br>
+	<a href="album.php?anno=Roccadaspide_06">
+		<img id="img_5" src='custom/album/Roccadaspide_06/Roccadasp_049_1-thumb.jpg' border='0' height='100' alt="(Roccadasp_049_1-thumb.jpg) Roccadaspide_06"/>
+	</a>
+   <TD>
+	<a href="album.php?anno=Nusco_06">Nusco_06</a> - 13 volte<br>
+	<a href="album.php?anno=Nusco_06">
+		<img id="img_6" src='custom/album/Nusco_06/DSCF0718-thumb.jpg' border='0' height='133' alt="(DSCF0718-thumb.jpg) nusco2006"/>
+	</a>
+<TR id="row3">
+   <TD>
+	<a href="album.php?anno=Roccadaspide_06">Roccadaspide_06</a> - 12 volte<br>
+	<a href="album.php?anno=Roccadaspide_06">
+		<img id="img_7" src='custom/album/Roccadaspide_06/Roccadasp_043.1-thumb.jpg' border='0' height='100' alt="(Roccadasp_043.1-thumb.jpg) Roccadaspide_06"/>
+	</a>
+   <TD>
+	<a href="album.php?anno=Roccadaspide_06">Roccadaspide_06</a> - 11 volte<br>
+	<a href="album.php?anno=Roccadaspide_06">
+		<img id="img_8" src='custom/album/Roccadaspide_06/Roccadasp.051.1-thumb.jpg' border='0' height='100' alt="(Roccadasp_051.1-thumb.jpg) Roccadaspide_06"/>
+	</a>
+   <TD>
+	<a href="album.php?anno=Nusco_06">Nusco_06</a> - 11 volte<br>
+	<a href="album.php?anno=Nusco_06">
+		<img id="img_9" src='custom/album/Nusco_06/DSCF0722-thumb.jpg' border='0' width='133' alt="(DSCF0722-thumb.jpg) nusco2006"/>
+	</a>
+</TABLE>
+</div>
+--- End body ---
