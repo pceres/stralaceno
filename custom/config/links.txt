@@ -12,3 +12,6 @@ http://www.siamonoi.it::Siamonoi.it
 http://liceonline.altervista.org/::Liceo di Caposele
 http://www.prolococaposele.it::Pro Loco Caposele
 http://www.podistidoc.it/::Podistidoc
+http://www.fidal.it/::Fidal
+http://www.federciclismo.it/::Federciclismo
+http://www.uci.ch/::Unione Ciclistica Internaz.
