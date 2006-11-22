@@ -32,24 +32,8 @@ Salvatore Colatrella::::07/10/2006::socio ordinario::::15::Soci_ars::
 # formato elenco_news:  data::news
 #
 [elenco_news]
-07/10/2006::Tre nuovi soci per l'ARS: Francesco Ceres, Salvatore Colatrella, Gianni Sozio. Il numero degli associati sale cos&igrave; a 16.
-02/10/2006::Partecipanti alla gara podistica Colline Verdi di km. 8,5 a Montecorvino Pugliano (SA): Paolo Viscardi, Salvatore Merola, Alessandro Russomanno.
-25/09/2006::Partecipanti alla IV podistica San Michele di km 7,3 a Sala Consilina (SA): Salvatore Merola, Alessandro Russomanno, Paolo Viscardi, Donatello Cirillo.
-11/09/2006::Partecipanti al I trofeo regionale C. Pizzuto di km 7,6 a Puglietta di Campagna (SA): Paolo Viscardi, Salvatore Merola, Alessandro Russomanno.
-01/09/2006::Grande soddisfazione per l'organizzazione della XVIII edizione della Stralaceno: nonostante le avverse condizioni atmosferiche, si &egrave; registrato il record di partecipanti: 68 (pi&ugrave; altri 4 ragazzi fuori gara per et&agrave; inferiore a 15 anni).
-13/08/2006::Partecipanti alla XXXI Marcialoggia di Fontanarosa di km 10: Salvatore Merola, Alessandro Russomanno, Nicola D'Auria
-08/08/2006::Partecipanti alla gara podistica 10 km di Nusco: Paolo Viscardi, Alessandro Russomanno, Salvatore Merola, Nicola D'Auria, Donatello Cirillo, Francesco Ceres (aggregato-non socio), Salvatore Colatrella (aggregato-non socio), Nicola Melillo (aggregato-non socio). Accompagnatore: Luciano Viscido.
-07/08/2006::L'edizione 2006 della Stralaceno si disputer&agrave; il 30 agosto.
-05/08/2006::Sono disponibili le magliette Stralaceno 2006.
-03/08/2006::In Agosto l'Ars parteciper&agrave;, con una propria rappresentativa podistica, il giorno 6 alla 10 km di Nusco, il giorno 12 alla XXXI edizione della Marcialoggia a Fontanarosa di km 10, il giorno 19 alla maratona alburnina di km 13 a Sicignano degli Alburni (SA).
-24/07/2006::Partecipanti alla gara podistica 10 km di Acerno: Salvatore Merola, Alessandro Russomanno, Paolo Viscardi, Salvatore Colatrella (aggregato-non socio). Accompagnatore: Gelsomino Merola.
-19/07/2006::Il Comune di Caposele ha concesso all'ARS l'uso a pagamento dello stadio Palmenta per l'attivit&agrave; podistica fino al termine del mese di Agosto: 3 giorni a settimana (luned&igrave;, gioved&igrave; e sabato) dalle ore 19.00 alle 20.00 . L'importo che l'ARS ha versato al Comune &egrave; di 60 euro. 
-18/07/2006::Hanno partecipato alla gara podistica XIII CorriRoccadaspide: Salvatore Merola, Alessandro Russomanno, Paolo Viscardi, Gerardo Martino, Nicola D'Auria, Salvatore Colatrella (aggregato-non socio). Accompagnatori: Donatello Cirillo, Gelsomino Merola.
-14/07/2006::Presentata, al comune di Caposele, richiesta rinnovo autorizzazione uso stadio Palmenta per attivit&agrave; podistica.
-11/07/2006::Si &egrave; concluso il Sondaggio sui Mondiali di Calcio 2006: vincitore Rocco Del Malandrino, al quale l'ARS offrir&agrave; un buono consumazione di 25 euro presso bar/pub/pizzeria.
 05/07/2006::Presentata alla Regione Campania domanda di finanziamento per la Stralaceno.
-29/06/2006::In Luglio l'Ars parteciper&agrave;, con una propria rappresentativa podistica, il giorno 15 alla XIII edizione della CorriRoccadaspide (SA) e il giorno 22 alla III edizione della 10 km di Acerno (SA).
-08/06/2006::Alle 18.00 si sono chiuse le giocate per il sondaggio Mondiali di Calcio 2006. Sono state ceduti 152 biglietti, il totale delle offerte raccolte &egrave; di 130 euro, ed infine sono state regolarmente registrate 117 giocate.
-15/04/2006::Il 15 aprile si &egrave; tenuta l'Assemblea annuale dell'Associazione, in cui &egrave; stato approvato il rendiconto economico 2005.
+08/06/2006::Sondaggio Mondiali di Calcio 2006: ceduti 152 biglietti; offerte raccolte 130 euro; regolarmente registrate 117 giocate.
+
 
 

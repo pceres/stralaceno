@@ -1,5 +1,0 @@
-Autore::Donato Gervasio
-Titolo::Benvenuti nella sezione "ciclismo"
---- Begin body ---
-<br>Con questo articolo inizia una rubrica dedicata al mondo del ciclismo...
---- End body ---
