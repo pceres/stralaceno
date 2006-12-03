@@ -12,6 +12,8 @@
 //
 // $admin_mode		: 1 -> si e' in modalita' amministrativa, richiedi la data di giocata
 //
+// $messaggio_stato_sondaggio	: messaggio di stato della lotteria, basato sulle date di apertura e chiusura ([msg_date] nel file di conf.)
+//
 //
 // input da metodi POST o GET:
 //
@@ -25,10 +27,12 @@
 
 if ($admin_mode)
 {
+	$admin_mode = 1;
 	$admin_path_correction = "../";
 }
 else
 {
+	$admin_mode = 0;
 	$admin_path_correction = "";
 }
 
@@ -51,8 +55,11 @@ if (strlen(strpos($_SERVER['SCRIPT_FILENAME'],"questions.php")) == 0)
 	}
 }
 
-$info_mode = $_REQUEST['info_mode'];					// azione da eseguire
-$info_mode = sanitize_user_input($info_mode,'plain_text',array());	// verifica di sicurezza
+if (empty($info_mode))
+{
+	$info_mode = $_REQUEST['info_mode'];					// azione da eseguire
+	$info_mode = sanitize_user_input($info_mode,'plain_text',array());	// verifica di sicurezza
+}
 
 ?><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -332,7 +339,8 @@ td
 archivio_domande = Array(
 <?php
 
-$num_domande = 2;
+$num_domande = 5;		// numero domande da porre
+$num_allowed_errors = 1;	// numero massimo di errori accettabili per superare comunque la verifica
 
 $archivio_domande = Array(
 	Array(1,"Dov'e' la Mauta?"	,Array("In riva al fiume","In montagna","Alle sorgenti del Sele")			        ,"010"	),
@@ -343,7 +351,7 @@ $archivio_domande = Array(
 	Array(6,"Qual'è il Santo patrono di Caposele?"      ,Array("Lorenzo","Gerardo","Pasquale","Rocco")    ,"1000" ),
 	Array(7,"Cosa significa la parola 'nbieri?"         ,Array("Carabinieri","Ieri","Bicchieri","Sotto")  ,"0001" ),
 	Array(8,"Che sport praticava Manliuccio?"           ,Array("Tennis","Corsa","Calcio","Ciclismo")      ,"0010" ),
-	Array(9,"Vagava per le strade di Caposele"         ,Array("Peppe il francese","Ciccio l'americano","Antonio l'africano","Gerardo l'austriaco"),"0001")
+	Array(9,"Vagava per le strade di Caposele"          ,Array("Peppe il francese","Ciccio l'americano","Antonio l'africano","Gerardo l'austriaco"),"0001")
 );
 
 
@@ -399,29 +407,59 @@ var myWind; // handle alla (eventuale) popup window per breve questionario
 
 function ask_question(tag_feedback,question_id,question,answers,right_ans,question_pos,num_domande)
 {
-	if (!myWind || myWind.closed)
+//alert('5: '+myWind);
+//	if (!myWind || myWind.closed)
+	if (1)
 	{
 		title_bg 	= "#ffffc0";	// sfondo titolo (giallino)
 		odd_row_bg 	= "#e0ffe0";	// sfondo righe dispari (celestino)
 		even_row_bg 	= "#e0e0ff";	// sfondo righe pari (verdino)
 		
-		titolo	= "ArsWeb";
+		titolo	= "Dom. " + question_pos + "\\" + num_domande;
 		
 		var win_width = 400;				// larghezza finestra
 		var win_height = (100+50*answers.length);	// altezza finestra
 		var win_left = Math.floor((screen.width-win_width)/2);
 		var win_top = Math.floor((screen.height-win_height)/2);
 		
-		myWind = window.open("_blank","popup","width=" + win_width + ",height=" + win_height + ",top=" + win_top + ",left=" + win_left+", status=off, menubar=off, toolbar=off, scrollbar=off, resizable=off");
+//alert('5_2: '+win_top);
+		myWind = window.open("","finestra_"+question_id,"width=" + win_width + ",height=" + win_height + ",top=" + win_top + ",left=" + win_left+", status=off, menubar=off, toolbar=off, scrollbar=off, resizable=off");
+//alert('6: '+myWind.closed);
 		
 		myWind.document.write("<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 TRANSITIONAL//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n");
 		myWind.document.write("<html>\n");
 		myWind.document.write("<head>\n");
 		myWind.document.write("<title>"+titolo+"<"+"/title>\n");
 		myWind.document.write("<style type=\"text/css\">@import \"<?php echo $admin_path_correction; ?>custom/config/style.css\";<"+"/style>\n");
-		myWind.document.write("<"+"/head>\n");
-		myWind.document.write("<body onLoad=\"self.focus();\">\n");
-		myWind.document.write("<scr"+"ipt type=\"text/javascript\" src=\"<?php echo $javascript_library; ?>\"><"+"/script>");
+		
+		myWind.document.write("<"+"/head>\n\n");
+		myWind.document.write("<body onLoad=\"self.focus(); \">\n");
+//		myWind.document.write("<scr"+"ipt type=\"text/javascript\" src=\"<?php echo $javascript_library; ?>\"><"+"/script>\n\n");
+		
+		myWind.document.write("<scr"+"ipt type=\"text/javascript\">\n\n");
+
+		// script per leggere la scelta dell'utente (o stringa vuota in sua mancanza)
+		myWind.document.write("function read_radio(radio_button_handle){\n");
+		myWind.document.write("	for (var i = 0; i < radio_button_handle.length; i++)\n");
+		myWind.document.write("	{\n");
+		myWind.document.write("		if (radio_button_handle[i].checked) {return radio_button_handle[i].value; }\n");
+		myWind.document.write("	}\n");
+		myWind.document.write("	return \"\";\n");
+		myWind.document.write("} // end function read_radio\n\n");
+		
+		// script per formattare un numero in modo da avere sempre 2 caratteri)
+		myWind.document.write("function formatta(numero)\n");
+		myWind.document.write("{\n");
+		myWind.document.write("	if (numero<=9) { ks = '0'+numero; }\n");
+		myWind.document.write("	else { ks = numero; }\n");
+		myWind.document.write("	return ks;\n");
+		myWind.document.write("} // end function formatta\n\n");
+		
+		myWind.document.write("<"+"/script>\n\n");
+
+
+
+		
 		myWind.document.write("<FORM NAME=\"input\" action=\"post\"><br>\n");
 		
 		myWind.document.write("<div style=\"background-color:"+title_bg+";\">\n");
@@ -445,8 +483,8 @@ function ask_question(tag_feedback,question_id,question,answers,right_ans,questi
 			myWind.document.write("<"+"/div>\n");
 		}
 		myWind.document.write("<br><hr>\n");
-		myWind.document.write("<INPUT TYPE=\"button\" NAME=\"storage\" VALUE=\"Rispondi\" ");
-		myWind.document.write(" onClick=\"right_ans='"+right_ans+"';res = read_radio(self.document.forms['input']['radio']);if (!res) {alert('Rispondi prima!');return false;} ;res2=right_ans[res-1];if (res2<0) {res2=-res2;}; self.opener.document.forms['question_form']['"+tag_feedback+"'].value = self.opener.document.forms['question_form']['"+tag_feedback+"'].value+sprintf('%02d%02d%02d',"+question_id+",res,res2); self.window.close();self.opener.check_input(self.opener.document.forms['question_form']);\">\n");
+		myWind.document.write("<INPUT TYPE=\"button\" NAME=\"storage\" VALUE=\"Rispondi\" \n");
+		myWind.document.write(" onClick=\"right_ans='"+right_ans+"'; res = read_radio(self.document.forms['input']['radio']);\nif (!res)  {alert('Rispondi prima!');return false;} \nres2=right_ans.substring(res-1,res); \nif (res2<0) {res2=-res2;} \nnew_value=formatta("+question_id+")+formatta(res)+formatta(res2);\nself.opener.document.forms['question_form']['"+tag_feedback+"'].value = self.opener.document.forms['question_form']['"+tag_feedback+"'].value+new_value;  \nself.window.close(); \n \nself.opener.check_input(self.opener.document.forms['question_form']);\" \n>\n");
 		myWind.document.write("<"+"/FORM>\n");
 		myWind.document.write("<"+"/body><"+"/html>\n");
 		myWind.document.close();
@@ -463,10 +501,14 @@ function ask_question(tag_feedback,question_id,question,answers,right_ans,questi
 } // end function ask_question
 
 
-
+// function check_input(f)
+// {
+// 	return false;
+// }
 
 function check_input(f)
 {
+// alert('1: '+f['question_19'].value);
 // Questa funzione verifica la correttezza della giocata prima di inviare i dati per il salvataggio
 	
 	// configurazione errori ammissibili
@@ -482,6 +524,7 @@ function check_input(f)
 		return false;
 	}
 	
+// alert('2: '+list.length);
 	// verifica congruenza delle risposte
 	risposte_ok = true;
 	messaggio_errore = 'Messaggio di errore!';
@@ -536,6 +579,7 @@ function check_input(f)
 	for (i = 0; i < list_Q.length; i++)
 	{
 		squadra = list_Q[i];
+// continue; // !!!
 		//alert('Qualificati ('+(i+1)+'): '+squadra);
 		
 		girone = get_girone(squadra,gironi);
@@ -585,6 +629,7 @@ function check_input(f)
 	for (i = 0; i < list_S.length; i++)
 	{
 		squadra = list_S[i];
+// continue; // !!!
 		//alert('Qualificati ('+(i+1)+'): '+squadra);
 		
 		// verifica ripetizioni all'interno dello stesso gruppo
@@ -608,6 +653,7 @@ function check_input(f)
 	for (i = 0; i < list_F.length; i++)
 	{
 		squadra = list_F[i];
+// continue; // !!!
 		//alert('Qualificati ('+(i+1)+'): '+squadra);
 		
 		// verifica ripetizioni all'interno dello stesso gruppo
@@ -629,11 +675,18 @@ function check_input(f)
 	
 	// verifica correttezza squadra vincitrice
 	squadra = list_C[0];
-	//alert('Qualificati ('+(i+1)+'): '+squadra);
+	ripetizioni = occurrencies(squadra,list_S);
+	if (ripetizioni != 1)
+	{
+		alert('La squadra '+squadra+" e' indicata come vincitrice, ma non e' presente tra quelle qualificate in finale!");
+		return false;
+	}
+// 	alert('Qualificati ('+(ripetizioni)+'): '+squadra);
 	
 	// verifica la presenza all'interno del gruppo precedente
 	ripetizioni = occurrencies(squadra,list_F);
 	if (ripetizioni != 1)
+if (0) // !!!
 	{
 		alert('La squadra '+squadra+" compare come vincitrice, ma non e' presente tra quelle qualificate in finale!");
 		return false;
@@ -646,10 +699,34 @@ function check_input(f)
 	auth_nato 	= list_o[2];
 	auth_provenienza= list_o[3];
 	auth_caposelese = list_o[4];
-	
+
+    if ( (!auth_nome) || (auth_nome.length < 1) )
+	{
+		alert('Devi inserire il tuo nome!');
+		return false;
+	}
+
+    if ( (!auth_cognome) || (auth_cognome.length < 1) )
+	{
+		alert('Devi inserire il tuo cognome!');
+		return false;
+	}
+
+    if ( (!auth_nato) || (auth_nato.length < 1) )
+	{
+		alert('Devi inserire la tua data di nascita!');
+		return false;
+	}
+
+    if ( (!auth_provenienza) || (auth_provenienza.length < 1) )
+	{
+		alert('Devi specificare la tua provenienza!');
+		return false;
+	}
+
 	tag_feedback = 'question_19'; // nome del campo nascosto, con cui interagisce la popup window
-	
-	
+
+
 	// verifica formato data (auth_nato)
 	formato_data = /^[0-9]{2}\/[0-9]{2}\/[0-9]{4}$/;
 	if (!auth_nato.match(formato_data))
@@ -658,54 +735,89 @@ function check_input(f)
 		return false;
 	}
 	
+// alert('3: '+auth_provenienza.toUpperCase(auth_provenienza));
+
 	// gestione Caposelesi
-	switch (auth_provenienza.toUpperCase(auth_provenienza))
+	if (!<?php echo $admin_mode; ?>)
 	{
-	case 'CAPOSELE':
-	case 'MATERDOMINI':
-		num_domande = <?php echo $num_domande; ?>; // numero di domande da porre
-		len_risposta = 6;// numero di caratteri per ciascuna risposta (2 per la domanda, 2 per la risposta, 2 per esito)
-		if ( auth_caposelese.length < 1+num_domande*len_risposta )
+		switch (auth_provenienza.toUpperCase(auth_provenienza))
 		{
-			// la prima volta, visualizza un messaggio
-			if ( auth_caposelese.length == 1 )
-			{
-				alert('Ti faccio qualche domanda aggiuntiva per verificare che tu sia di '+auth_provenienza+'!\nPremi OK per cominciare...');
-			}
+		case 'CAPOSELE':
+		case 'MATERDOMINI':
+		case 'PORTELLA':
+		case 'BUONINVENTRE':
+		case 'PASANO':
+			num_domande = <?php echo $num_domande; ?>; // numero di domande da porre
+			num_allowed_errors = <?php echo $num_allowed_errors; ?>; // numero di errori consentiti per superare comunque la verifica
+			len_risposta = 6;// numero di caratteri per ciascuna risposta (2 per la domanda, 2 per la risposta, 2 per esito)
 			
-			pos_domanda = (auth_caposelese.length-1)/len_risposta+1;
-			dati_domanda = archivio_domande[pos_domanda-1];
-			caposelese_doc = ask_question(tag_feedback,dati_domanda[0],dati_domanda[1],dati_domanda[2],dati_domanda[3],pos_domanda,num_domande);
-			
-			// esci, ci pensera' l'utente, dalla finestra pop-up, a richiamare questa funzione
-			return false;
-		}
-		else
-		{
-			// hai gia' risposto alle num_domande domande
-			right_answers = 0;
-			for (i = 0; i < num_domande; i++)
+			if ( auth_caposelese.length < 1+num_domande*len_risposta )
 			{
-				if (auth_caposelese[i*len_risposta+6] == '1')
+				// la prima volta, visualizza un messaggio
+				if ( auth_caposelese.length == 1 )
 				{
-					right_answers++;
+					// ks_provenienza = auth_provenienza;
+					ks_provenienza = 'Caposele';
+					
+					// messaggio sul numero max. di errori consentiti
+					if (num_allowed_errors == 0)
+					{
+						msg_allowed_errors = '';
+					}
+					else
+					{
+						msg_allowed_errors = 'Il numero max. di errori consentito è: '+num_allowed_errors+'\r\n';
+					}
+					
+					msg = 'Ti faccio qualche domanda aggiuntiva per verificare che tu sia di '+ks_provenienza+'!\r\n'+msg_allowed_errors+'Premi OK per cominciare...';
+					
+					alert(msg);
 				}
-			}
-			
-			if (right_answers == num_domande)
-			{
-				// ha risposto bene a tutte le domande
-				auth_caposelese += ';Checked';
+				
+				pos_domanda = (auth_caposelese.length-1)/len_risposta+1;
+				dati_domanda = archivio_domande[pos_domanda-1];
+	//alert('4: '+pos_domanda);
+				caposelese_doc = ask_question(tag_feedback,dati_domanda[0],dati_domanda[1],dati_domanda[2],dati_domanda[3],pos_domanda,num_domande);
+				
+				// esci, ci pensera' l'utente, dalla finestra pop-up, a richiamare questa funzione
+				return false;
 			}
 			else
 			{
-				// ha risposto male almeno ad una domanda
-				auth_caposelese += ';Unchecked';
+				// hai gia' risposto alle num_domande domande
+				right_answers = 0;
+				for (i = 0; i < num_domande; i++)
+				{
+					// se nell'ultima posizione di ciascun esito c'e' 1, la risposta e' corretta
+					if (auth_caposelese.substring(i*len_risposta+6,i*len_risposta+6+1) == '1') 
+	//				if (auth_caposelese[i*len_risposta+6] == '1') 
+					{
+						right_answers++;
+					}
+				}
+				
+	//alert(right_answers + '>=' + num_domande + '-' + num_allowed_errors);
+				if (right_answers >= num_domande-num_allowed_errors)
+				{
+					// ha risposto bene a tutte le domande
+					auth_caposelese += ';Checked';
+	//alert('Checked');
+				}
+				else
+				{
+					// ha risposto male almeno ad una domanda
+					auth_caposelese += ';Unchecked';
+	//alert('Unchecked');
+				}
 			}
 		}
 	}
 	
-	auth_hidden = auth_nome+';'+auth_cognome+';'+auth_nato+';'+auth_provenienza
+	// prima lettera maiuscola, rimanenti minuscole
+	provenienza = auth_provenienza.substring(1,auth_provenienza.length);
+	provenienza = auth_provenienza.substring(0,1)+provenienza.toLowerCase(provenienza);
+	
+	auth_hidden = auth_nome+';'+auth_cognome+';'+auth_nato+';'+provenienza
 	
 	// imposta campo auth_token
 	tag = 'auth_token'; // nome del campo nascosto
@@ -731,8 +843,8 @@ function check_input(f)
 			return false;
 		}
 	}
-	
-	
+
+
 	if (!risposte_ok)
 	{
 		alert(messaggio_errore);
@@ -756,6 +868,26 @@ function check_input(f)
 }
 
 
+
+function toggle_caposelese(f,question_caposelese)
+{
+caption = f['temp_silaritudine'].value;
+if (caption=='Si')
+{
+	f['temp_silaritudine'].value = 'No';
+	
+	ks = f[question_caposelese].value;
+	f[question_caposelese].value = '0';
+}
+else
+{
+	f['temp_silaritudine'].value = 'Si';
+	f[question_caposelese].value = '0;Checked';
+}
+//alert(f[question_caposelese].value);
+}
+
+
 //-->
 </SCRIPT>
 
@@ -763,7 +895,7 @@ function check_input(f)
 
 
 
-<form name="question_form" action="<?php echo $action; ?>" method="post" OnSubmit="return check_input(this)">
+<form name="question_form" action="<?php echo $action; ?>" method="get" OnSubmit="return check_input(this)">
 <!--
 //
 // 1) inizio visualizzazione della pagina customizzata: qui giu' incolla il codice html customizzato (senza header ne' tag body)
@@ -801,6 +933,25 @@ Andranno anche gestiti, con codice php, le variabili:
   <td style='height:3.75pt'></td>
   <td colspan=12 class=xl25></td>
  </tr>
+<?php
+//
+// 5) visualizzazione del messaggio di stato della lotteria
+//
+if (!empty($messaggio_stato_sondaggio)) {
+?>
+ <tr style='height:18.0pt'>
+  <td width=12 style='height:18.0pt;width:9pt'></td>
+  <td colspan=10 class=xl27 width=666 style='width:500pt' align='center'><?php echo $messaggio_stato_sondaggio; ?></td>
+  <td class=xl25 width=64 style='width:48pt'></td>
+  <td class=xl25 width=64 style='width:48pt'></td>
+ </tr>
+ <tr style='height:3.75pt'>
+  <td style='height:3.75pt'></td>
+  <td colspan=12 class=xl25></td>
+ </tr>
+<?php
+}
+?>
  <tr style='height:14.25pt'>
   <td style='height:14.25pt'></td>
   <td class=xl34>nome</td>
@@ -1746,9 +1897,13 @@ if ($admin_mode) {
 	<td colspan=10 align=left>
 		<b>
 		Data di ricezione giocata (hh:mm gg/mm/aaaa):
-		<input type="edit" name="data_giocata" value="12:00 13/10/1974" class='x137'>
+		<input type="edit" name="data_giocata" value="24:00 01/01/2006" class='x137'>
 		</b>
 	<br>
+		<b>
+		Caposelese?
+		<input type="edit" name="temp_silaritudine" value="No" class='x137' disabled><input type="button" value="cambia" onClick="toggle_caposelese(document.forms['question_form'],'question_19');">
+		</b>
 	<br>
 	</td>
 </tr>
@@ -1790,26 +1945,26 @@ if (!$info_mode)
 
  <tr style='height:12.0pt'>
   <td style='height:12.0pt'></td>
-  <td class=xl26 colspan=7>Il
-  presente studio/sondaggio è proposto dall'ARS Amatori Running Sele a puro
-  scopo ricreativo e di approfondimento. </td>
-  <td colspan=2></td>
-  <td></td>
-  <td colspan=2></td>
+  <td class=xl26 colspan=12>
+	Il presente studio/sondaggio è proposto dall'ARS Amatori Running Sele a puro
+  scopo ricreativo e di approfondimento. 
+  </td>
  </tr>
  <tr style='height:12.0pt'>
   <td style='height:12.0pt'></td>
-  <td class=xl26 colspan=10>Lo spirito è quello di
+  <td class=xl26 colspan=12>
+	Lo spirito è quello di
   individuare il pronosticatore più bravo in base a criteri basati sul merito,
-  ma non bisogna dimenticare che esiste una accentuata</td>
-  <td colspan=2></td>
+  ma non bisogna dimenticare che esiste una accentuata
+  </td>
  </tr>
  <tr style='height:12.0pt'>
   <td style='height:12.0pt'></td>
-  <td class=xl26 colspan=10>componente aleatoria
+  <td class=xl26 colspan=12>
+	componente aleatoria
   insita nella stessa formula della Champions, che prevede il sorteggio
-  integrale degli abbinamenti delle squadre nei quarti di finale.</td>
-  <td colspan=2></td>
+  integrale degli abbinamenti delle squadre nei quarti di finale.
+  </td>
  </tr>
  <tr style='height:6.0pt'>
   <td style='height:6.0pt'></td>
@@ -1833,10 +1988,10 @@ if (!$info_mode)
  </tr>
  <tr style='height:12.75pt'>
   <td style='height:12.75pt'></td>
-  <td class=xl26 colspan=10>Tutte
-  le giocate regolarmente effettuate, verranno ordinate in forma di classifica
-  (disponibile sul sito www.ars.altervista.org), seguendo, nell'ordine, </td>
-  <td colspan=2></td>
+  <td class=xl26 colspan=12>
+	Tutte le giocate regolarmente effettuate, verranno ordinate in forma di classifica
+  (disponibile sul sito www.ars.altervista.org), seguendo, nell'ordine,
+  </td>
  </tr>
  <tr style='height:12.75pt'>
   <td style='height:12.75pt'></td>
@@ -1847,70 +2002,62 @@ if (!$info_mode)
  </tr>
  <tr style='height:12.75pt'>
   <td style='height:12.75pt'></td>
-  <td class=xl47 colspan=10>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Il punteggio complessivo sarà
+  <td class=xl26 colspan=12>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Il punteggio complessivo sarà
   calcolato attribuendo <font class=font14>4</font><font class=font7> punti per
   ognuno dei 15 pronostici formulati che si rivelino esatti </font><font
-  class=font20>(punteggio massimo 60 punti);</font></td>
-  <td colspan=2></td>
+  class=font20>(punteggio massimo 60 punti);</font>
+  </td>
  </tr>
  <tr style='height:12.75pt'>
   <td style='height:12.75pt'></td>
-  <td class=xl26 colspan=7>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Nel caso di passaggio del turno
+  <td class=xl26 colspan=12>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Nel caso di passaggio del turno
   ottenuto avvalendosi della regola del goal in trasferta, i punti attribuiti
-  saranno <font class=font14>3</font><font class=font7>;</font></td>
-  <td colspan=2></td>
-  <td></td>
-  <td colspan=2></td>
+  saranno <font class=font14>3</font><font class=font7>;</font>
+  </td>
  </tr>
  <tr style='height:12.75pt'>
   <td style='height:12.75pt'></td>
-  <td class=xl26 colspan=7>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Nell'eventualità di passaggio del
+  <td class=xl26 colspan=12>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Nell'eventualità di passaggio del
   turno ai rigori, i punti saranno <font class=font14>2</font><font
-  class=font7> sia per la vincente che per l'eliminata;</font></td>
-  <td colspan=2></td>
-  <td></td>
-  <td colspan=2></td>
+  class=font7> sia per la vincente che per l'eliminata;</font>
+  </td>
  </tr>
  <tr style='height:12.75pt'>
   <td style='height:12.75pt'></td>
-  <td class=xl26 colspan=7>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Verrà infine riconosciuto <font
+  <td class=xl26 colspan=12>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Verrà infine riconosciuto <font
   class=font14>1</font><font class=font7> punto anche alla squadra indicata che
-  viene eliminata per effetto della regola del goal in trasferta.</font></td>
-  <td colspan=2></td>
-  <td></td>
-  <td colspan=2></td>
+  viene eliminata per effetto della regola del goal in trasferta.</font>
+  </td>
  </tr>
  <tr style='height:12.75pt'>
   <td style='height:12.75pt'></td>
-  <td class=xl26 colspan=3>A parità di punteggio
-  verranno considerati nell'ordine:</td>
-  <td colspan=6></td>
-  <td></td>
-  <td colspan=2></td>
+  <td class=xl26 colspan=12>
+	A parità di punteggio verranno considerati nell'ordine:</td>
  </tr>
  <tr style='height:12.75pt'>
   <td style='height:12.75pt'></td>
-  <td class=xl26 colspan=5>1. Il maggior numero di
-  squadre indovinate a partire dalla squadra vincitrice;</td>
-  <td colspan=4></td>
-  <td></td>
-  <td colspan=2></td>
+  <td class=xl26 colspan=12>
+	1. Il maggior numero di squadre indovinate a partire dalla squadra vincitrice;
+  </td>
  </tr>
  <tr style='height:12.75pt'>
   <td style='height:12.75pt'></td>
-  <td class=xl26 colspan=10>2.
-  La schedina che reca la data di giocata più antica. Per non danneggiare chi
-  dovesse venire a conoscenza del sondaggio solo in un secondo momento, </td>
-  <td colspan=2></td>
+  <td class=xl26 colspan=12>
+	2. La schedina che reca la data di giocata più antica. Per non danneggiare chi
+  dovesse venire a conoscenza del sondaggio solo in un secondo momento,
+  </td>
  </tr>
  <tr style='height:12.75pt'>
   <td style='height:12.75pt'></td>
-  <td class=xl26 colspan=7>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tutte le giocate effettuate entro le
+  <td class=xl26 colspan=12>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tutte le giocate effettuate entro le
   ore 24 del 01/01/2007, recheranno comunque la data di presentazione 1 gennaio
-  2007</td>
-  <td colspan=2></td>
-  <td></td>
-  <td colspan=2></td>
+  2007
+  </td>
  </tr>
  <tr style='height:12.75pt'>
   <td style='height:12.75pt'></td>
@@ -1951,7 +2098,7 @@ if (!$info_mode)
   <td></td>
   <td colspan=2></td>
  </tr>
- <tr style='height:12.75pt'>
+<!-- <tr style='height:12.75pt'>
   <td style='height:12.75pt'></td>
   <td class=xl61 colspan=10>*Ricordiamo cortesemente
   a chi si avvale delle nostre iniziative che, anche per questo sondaggio, è
@@ -1973,22 +2120,20 @@ if (!$info_mode)
   alla prima occasione utile.</td>
   <td></td>
   <td colspan=2></td>
- </tr>
- <tr style='height:12.75pt'>
+ </tr>-->
+<!-- <tr style='height:12.75pt'>
   <td style='height:12.75pt'></td>
   <td></td>
   <td colspan=8></td>
   <td></td>
   <td colspan=2></td>
- </tr>
+ </tr>-->
  <tr style='height:12.75pt'>
   <td style='height:12.75pt'></td>
-  <td class=xl61 colspan=7>**
-  Saranno gradite osservazioni, suggerimenti e collaborazioni (anche minime e
-  saltuarie) per iniziative analoghe o di altro tipo.</td>
-  <td colspan=2></td>
-  <td></td>
-  <td colspan=2></td>
+  <td class=xl61 colspan=12>
+  * Saranno gradite osservazioni, suggerimenti e collaborazioni (anche minime e
+  saltuarie) per iniziative analoghe o di altro tipo.
+  </td>
  </tr>
  <tr style='height:12.75pt'>
   <td colspan=10 style='height:12.75pt;'></td>

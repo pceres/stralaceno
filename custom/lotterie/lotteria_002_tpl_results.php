@@ -2,6 +2,7 @@
 
 // 
 // input impliciti:
+//	$lotteria_nome	: nome del sondaggio/lotteria
 // 	$giocate	: archivio delle giocate registrate (da lotteria_XXX_log.php)
 // 	$soluz_array	: dati strutturati (da lotteria_XXX_ans.php)
 // 	$soluz		: risposte esatte (usate per l'ordinamento)
@@ -15,7 +16,7 @@ $debug_mode = ($_REQUEST['debug']=='full');
 
 
 
-print_header();
+print_header($lotteria_nome);
 
 //
 // configurazioni
@@ -31,12 +32,21 @@ $indice_regola_esatte_per_gruppi = $lista_criteri['esatte_per_gruppi']; // [0..]
 //
 // calcoli
 //
-$vettore_risposte_esatte=$bulk_punteggi[$indice_regola_eliminatorie][1];	// punteggio per ciascuna delle squadre qualificate
+// punteggio per ciascuna delle squadre qualificate (es. Array ( [Barcellona] => 4 [Bayern Monaco] => 3 [Galatasaray] => 2 [Olympiakos Pireo] => 2 [Dynamo Kiev] => 1 [Fc Copenhagen] => 1 [Amburgo] => 1 [Anderlecht] => 1 ) )
+$vettore_risposte_esatte=$bulk_punteggi[$indice_regola_eliminatorie][1];
+
+// squadre associate a ciascun gruppo (es. Array ( [4] => Array ( [0] => Barcellona [1] => Bayern Monaco [2] => Galatasaray [3] => Olympiakos Pireo [4] => Dynamo Kiev [5] => Fc Copenhagen [6] => Amburgo [7] => Anderlecht ) [3] => Array ( [0] => Barcellona [1] => Bayern Monaco [2] => Galatasaray [3] => Olympiakos Pireo ) [2] => Array ( [0] => Barcellona [1] => Bayern Monaco ) [1] => Array ( [0] => Barcellona ) ) )
 $risposte_equivalenti=$bulk_punteggi[$indice_regola_eliminatorie][4];		// squadre associate a ciascun gruppo
+
+// gruppi cui appartengono le varie domande (es. Array ( [0] => 4 [1] => 4 [2] => 4 [3] => 4 [4] => 4 [5] => 4 [6] => 4 [7] => 4 [8] => 3 [9] => 3 [10] => 3 [11] => 3 [12] => 2 [13] => 2 [14] => 1 ) )
 //$gruppo_risposta = $bulk_punteggi[$indice_regola_esatte_per_gruppi][0]; // equivalente alla riga sottostante
 $gruppo_risposta = $bulk_punteggi[$indice_regola_punteggi_specifici][2];
+
+// punteggio da assegnate a ciascuna risposta per ciascun gruppo (es. Array ( [0] => Array ( [Barcellona] => 4 [Bayern Monaco] => 4 [Galatasaray] => 4 [Olympiakos Pireo] => 4 [Dynamo Kiev] => 4 [Fc Copenhagen] => 4 [Amburgo] => 4 [Anderlecht] => 4 ) [1] => Array ( [Barcellona] => 4 [Bayern Monaco] => 4 [Galatasaray] => 4 [Olympiakos Pireo] => 4 [Dynamo Kiev] => 4 [Fc Copenhagen] => 4 [Amburgo] => 4 [Anderlecht] => 4 ) ... ) )
 $punteggio_specifico = $bulk_punteggi[$indice_regola_punteggi_specifici][0];
 
+
+// echo('$punteggio_specifico<br>');
 // print_r($punteggio_specifico);
 
 
@@ -50,6 +60,7 @@ $elenco_giocate2 = array_slice($elenco_giocate,1);	// giocate effettive (dal sec
 
 $elenco_giocate3 = array_slice($elenco_giocate,0,1);	// inizia con gli headers soltanto, poi aggiungi tutte le giocate rielaborate
 array_push($elenco_giocate3[0],'Numero risposte esatte');	// aggiungi il titolo per l'ultima colonna da aggiungere (punteggio visibile)
+$archivio_punti = Array();	// archivio dei punteggi ordinati (uno per ogni 'x' o '-'
 foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 {
 	$giocata_new = $giocata;
@@ -61,11 +72,14 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 	$lista_indici = Array(); // elenco degli indici delle risposte appartenenti allo stesso gruppo
 	$lista_risposte = Array(); // elenco delle risposte appartenenti allo stesso gruppo
 	$lista_punti = Array(); // elenco dei punti associati alle risposte appartenenti allo stesso gruppo
+	$vettore_punti = Array(); // elenco dei punti associati a tutte le giocate per cui ci sono putneggi specifici
 	$gruppo_old = -1; // valore fuori range in modo da capire che il ciclo non e' ancora iniziato
 	foreach($gruppo_risposta as $indice_risposta => $gruppo)
 	{
 		$risposta = $vettore_giocata[$indice_risposta];
 		$punti = (integer)($punteggio_specifico[$indice_risposta][$risposta]);
+		
+		$vettore_punti[$indice_risposta] = $punti;
 		
 		if ( (($gruppo_old >= 0) & ($gruppo_old != $gruppo)) | (count($gruppo_risposta) == $count) )
 		{
@@ -98,7 +112,8 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 		
 		foreach($lista_indici as $indice_temp => $indice_risposta)
 		{
-			$vettore_giocata_new[$indice_risposta] = $lista_risposte[$indice_temp];
+			$vettore_giocata_new[$indice_risposta] = $lista_risposte[$indice_temp];	// ordina le giocate ...
+			$vettore_punti[$indice_risposta] = $lista_punti[$indice_temp];		// ...ed i relativi punti
 		}
 	}
 	
@@ -110,16 +125,11 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 	
 	// ed inseriscila in archivio
 	array_push($elenco_giocate3,$giocata_new);
+
+	array_push($archivio_punti,$vettore_punti);	// aggiungi il vettore dei punti per questa giocata
+
 }
 $elenco_giocate = $elenco_giocate3;
-
-// 	echo "elenco_giocate[0]:<br>";
-// 	print_r($elenco_giocate[0]);
-// 	echo "<br><br>";
-// 	echo "elenco_giocate[1]:<br>";
-// 	print_r($elenco_giocate[1]);
-// 	echo "<br><br>";
-
 
 
 // aggiungi a mask l'indice dell'ultima colonna
@@ -127,39 +137,24 @@ $mask=array_merge($mask,count($giocata));
 
 
 // alias delle varie risposte
-/*$vettore_alias_domanda = array('Q','Q','Q','Q','Q','Q','Q','Q','Q','Q','Q','Q','Q','Q','Q','Q',
-	'W','W','W','W','W','W','W','W',
-	'S','S','S','S',
-	'F','F','C');*/
 $vettore_alias_domanda = array(
-	'W','W','W','W','W','W','W','W',
+	'Q','Q','Q','Q','Q','Q','Q','Q',
 	'S','S','S','S',
 	'F','F','C');
-/*$vettore_alias2_domanda = array('Amm. ottavi', 'Amm. ottavi', 'Amm. ottavi', 'Amm. ottavi',
-	'Amm. ottavi', 'Amm. ottavi', 'Amm. ottavi', 'Amm. ottavi',
-	'Amm. ottavi', 'Amm. ottavi', 'Amm. ottavi', 'Amm. ottavi',
-	'Amm. ottavi', 'Amm. ottavi', 'Amm. ottavi', 'Amm. ottavi',
-	'Amm. quarti', 'Amm. quarti', 'Amm. quarti', 'Amm. quarti', 'Amm. quarti', 'Amm. quarti', 'Amm. quarti', 'Amm. quarti',
-	'Ammesse alle semifinali', 'Ammesse alle semifinali', 'Ammesse alle semifinali', 'Ammesse alle semifinali',
-	'Ammesse in finale', 'Ammesse in finale', 'Campione del mondo');*/
 $vettore_alias2_domanda = array(
 	'Amm. quarti', 'Amm. quarti', 'Amm. quarti', 'Amm. quarti', 'Amm. quarti', 'Amm. quarti', 'Amm. quarti', 'Amm. quarti',
 	'Ammesse alle semifinali', 'Ammesse alle semifinali', 'Ammesse alle semifinali', 'Ammesse alle semifinali',
-	'Ammesse in finale', 'Ammesse in finale', 'Campione del mondo');
+	'Ammesse in finale', 'Ammesse in finale', 'Squadra vincitrice');
 // e peso corrispondente per la visualizzazione
-// $vettore_alias_id = array(5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,4,4,4,4,4,4,4,3,3,3,3,2,2,1);
-$vettore_alias_id = array(4,4,4,4,4,4,4,4,3,3,3,3,2,2,1);
+$vettore_alias_id = $gruppo_risposta; // prendi i raggruppamenti dalla regola punteggi_specifici (es. array(4,4,4,4,4,4,4,4,3,3,3,3,2,2,1); )
 
 // indice delle risposte ordinate per importanza (secondo $vettore_alias_id)
 $list = $vettore_alias_id;
 $list0=array_keys($list);
 array_multisort($list,SORT_DESC,$list0);
 
-/*print_r($list);echo "<br>";
-print_r($list0);echo "<br>";*/
-// die();
 
-// crea i titoli della nuova matrice
+// crea i titoli della nuova matrice (in accorco con $record_new creato sotto)
 $header_new = array();
 array_push($header_new,'Id');
 array_push($header_new,'Punti');
@@ -168,6 +163,7 @@ array_push($header_new,'Giocatore');
 array_push($header_new,'Codice');
 array_push($header_new,'Tipo giocata');
 array_push($header_new,'Pos.');
+array_push($header_new,'Provenienza');
 
 foreach ($list0 as $id)
 {
@@ -198,19 +194,36 @@ foreach ($lotteria['stili_riga'] as $id_stile => $stile_data)
 	$elenco_stili[$stile_tag] = array($stile_caption,$stile_style);
 }
 
+// indica il campo della giocata su cui effettuare colorazioni personalizzate (uno dei campi di elenco_giocate[0], partendo da 0)
+$id_campo_per_stile = 1;
+
+
+// print_r($elenco_stili);
 
 // crea nuova tabella
 $elenco_new = array($header_new);
 $elenco_giocate2 = array_slice($elenco_giocate,1);
+$elenco_simboli_usati = Array(); // serve per la legenda finale
 $count = 0;
-foreach ($elenco_giocate2 as $giocata)
+foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 {
+$trans = get_html_translation_table(HTML_ENTITIES);
+// print_r($trans);die('');
 	// i campi qui devono essere gli stessi e nello stesso ordine di quelli indicati sopra per $header_new
 	$id_della_giocata = $giocata[0];
 	$vettore_giocata = split(',',$giocata[1]);
 	$data_giocata = $giocata[3];
 	$auth_token_ks = $giocata[4];
-	$giocatore_ks = "<div align=\"left\" style=\"margin-left:10pt;\">".$giocata[6]."</div>";
+
+// 	$giocatore_ks = "<div align=\"left\" style=\"margin-left:10pt;\">".$giocata[6]."</div>";
+	$cognome 	= $vettore_giocata[15];$cognome 	= strtoupper($cognome[0]).substr($cognome,1);
+	$nome 		= $vettore_giocata[16];	$nome 		= strtoupper($nome[0]).substr($nome,1);
+	$data_nascita = $vettore_giocata[17]; $anno_nascita 	= substr($data_nascita,-2);
+	$provenienza0 = $vettore_giocata[18];$provenienza = "<div align=\"left\" style=\"margin-left:10pt;\">$provenienza0</div>";
+	$tooltip = addslashes("$nome $cognome, di $provenienza0, nato il $data_nascita");
+	$giocatore_ks = "<span title=\"$tooltip\">$cognome $nome &acute;$anno_nascita</span>";
+	$giocatore_ks = "<div align=\"left\" style=\"margin-left:10pt;\">".$giocatore_ks."</div>";
+
 	$tipo_giocata_ks = $giocata[8];
 	$punteggio = $giocata[count($giocata)-1];
 	$count++;
@@ -241,47 +254,129 @@ foreach ($elenco_giocate2 as $giocata)
 	
 	// inverti data e ora nella data di giocata
 	$data_giocata = substr($data_giocata,strpos($data_giocata,' ')+1).' '.substr($data_giocata,0,strpos($data_giocata,' '));
-
 	
 	// crea giocata
 	$record_new = array();
-	array_push($record_new,$id_della_giocata);
-	array_push($record_new,$punteggio);
-	array_push($record_new,$data_giocata);
-	array_push($record_new,$giocatore_ks);
-	array_push($record_new,$auth_token_ks);
-	array_push($record_new,$tipo_giocata_ks);
-	array_push($record_new,$count);
+	array_push($record_new,$id_della_giocata);	// field 0
+	array_push($record_new,$punteggio);		// field 1
+	array_push($record_new,$data_giocata);		// field 2
+	array_push($record_new,$giocatore_ks);		// field 3
+	array_push($record_new,$auth_token_ks);		// field 4
+	array_push($record_new,$tipo_giocata_ks);	// field 5
+	array_push($record_new,$count);			// field 6
+	array_push($record_new,$provenienza);		// field 7
+	$last_fixed_field = 7;	// pari all'ultimo indice qui sopra (numero elementi meno 1), bisogna aggiornare anche $header_new
 	
 	// stile riga
-	$found_key = check_question_keys($id_questions,$auth_token_ks);
-	$stile_riga = $found_key[2][4];
-
+	unset($stile_riga);
+	if ($lotteria_auth == 'key')
+	{
+		// se il sondaggio e' basato su codice segreto, vedi la nota associata alla singala chiave
+		$found_key = check_question_keys($id_questions,$auth_token_ks);
+		$stile_riga = $found_key[2][4];
+	}
+	else
+	{
+		// altrimenti basa lo stile sulla colonna configurabile
+		$stile_testo = $giocata[$id_campo_per_stile];
+		
+		foreach ($elenco_stili as $stile_tag => $stile_data)
+		{
+			$stile_caption 	= $stile_data[0];
+			$stile_style 	= $stile_data[1];
+			
+			if (empty($stile_tag) || ereg($stile_tag, $stile_testo))
+			{
+				$stile_riga = $stile_style;
+				$stile_riga = $stile_tag;
+				break;
+			}
+		}
+	}
 	if (!empty($stile_riga))
 	{
 		$record_new['stile_riga'] = $elenco_stili[$stile_riga][1];
 	}
 	
+	
+	// simboli quando si azzecca una risposta
+	$simbolo_ok 	= Array(
+		'4' 		=> Array('<b>V</b>'	,'','Vittoria diretta'),
+		'3' 		=> Array('G'		,'','Vittoria con regola goal fuori casa'),
+		'2' 		=> Array('R'		,'','Vittoria ai rigori'),
+		'1' 		=> Array('+'		,'','???'),
+		'default'	=> Array('.'		,'','')
+		);
+
+	$simbolo_not_ok	= Array(
+		'4' 		=> Array('<b>O</b>'	,'','??'),
+		'3' 		=> Array('O'		,'','??'),
+		'2' 		=> Array('g'		,'','Sconfitta con regola goal fuori casa'),
+		'1' 		=> Array('r'		,'','Sconfitta ai rigori'),
+		'default'	=> Array('.'		,'','')
+		);
+
+
 	foreach ($list0 as $id)
 	{
 		$squadra = $soluz[$id];	// valore esatto per la risposta in esame
 		$gruppo=$list[$id];	// gruppo (4,3,2,1) della risposta
 		
+		$punti = $archivio_punti[$indice_giocata][$id];	// punteggio associato alla 'x' o '-'
+		
 		if (in_array($vettore_giocata[$id],$risposte_equivalenti[$gruppo]))
 		{
-			$simb = "<span title=\"".$vettore_giocata[$id]."\">x</span>\n";
+			// se la risposta e' corretta...
+			
+			$tipo_simbolo = 'ok';
+			$simbolo_item = $simbolo_ok;
+			if ($punti > 0)
+			{
+				$item_simbolo = $simbolo_item[$punti];
+			}
+			else
+			{
+				$item_simbolo = $simbolo_item['default'];
+			}
+			
+			$simbolo = $item_simbolo[0];
+			$stile_simbolo = $item_simbolo[1];
+			
+			$simb = "<span title=\"".$vettore_giocata[$id]." ($punti punti)\" $stile_simbolo>$simbolo</span>\n";
 		}
 		else
 		{
-			$simb = "<span title=\"".$vettore_giocata[$id]."\">-</span>\n";
+			// ... altrimenti differenzia simboli per i punti
+			
+			$tipo_simbolo = 'not_ok';
+			$simbolo_item = $simbolo_not_ok;
+			if ($punti > 0)
+			{
+				$item_simbolo = $simbolo_item[$punti];
+			}
+			else
+			{
+				$item_simbolo = $simbolo_item['default'];
+			}
+			
+			$simbolo = $item_simbolo[0];
+			$stile_simbolo = $item_simbolo[1];
+			
+			$simb = "<span title=\"".$vettore_giocata[$id]." ($punti punti)\" $stile_simbolo>$simbolo</span>\n";
 		}
+		
+		$indice_simbolo = $tipo_simbolo.'_'.$punti;
+		if (!in_array($indice_simbolo,$elenco_simboli_usati))
+		{
+			array_push($elenco_simboli_usati,$indice_simbolo);
+		}
+		
 		array_push($record_new,$simb);
 	}
 	
 	// aggiungi il record con i nuovi campi
 	array_push($elenco_new,$record_new);
 }
-
 
 echo "<!-- Visualizzazione personalizzata per $lotteria_nome -->\n";
 echo "$titolo_pagina<br>\n";
@@ -293,19 +388,30 @@ if ($debug_mode)
 }
 
 
+// $header_new:
+// Id		0
+// Punti	1
+// Data		2
+// Giocatore	3
+// Codice	4
+// Tipo giocata	5
+// Pos.		6
+// Provenienza	7
+// X		8,...
 
 // verifica che le giocate siano aperte e stampa il relativo messaggio
 if ($v_now[0] > $v_results[0])
 {
-	$mask_new = array_merge(6,0,4,3,1,range(7,7+count($soluz)-1),2); // codice, giocatore, tipo giocata, punteggio, x, data
+	$mask_new = array_merge(6,0,3,7,1,range($last_fixed_field+1,$last_fixed_field+1+count($soluz)-1),2); // posiz., id, giocatore, provenienza, punti, x, data
 }
 else
 {
-	$mask_new = array_merge(6,0,4,  1,range(7,7+count($soluz)-1),2); // codice, tipo giocata, punteggio, x, data
+	$mask_new = array_merge(6,0,3,7,1,range($last_fixed_field+1,$last_fixed_field+1+count($soluz)-1),2); // posiz., id, giocatore, provenienza, punti, x, data
+// 	$mask_new = array_merge(6,0,1,range($last_fixed_field+1,$last_fixed_field+1+count($soluz)-1),2); // posiz., id, punti, x, data
 }
 if ($debug_mode)
 {
-	$mask_new = array_merge(6,0,1,2,3,4,5,range(7,7+count($soluz)-1)); // tutti i campi
+	$mask_new = array_merge(6,0,1,2,3,4,5,7,range($last_fixed_field+1,$last_fixed_field+1+count($soluz)-1)); // tutti i campi
 }
 
 show_table($elenco_new,$mask_new,'tabella',1,12,1); # tabella in una colonna, font 12, con note
@@ -315,20 +421,30 @@ show_table($elenco_new,$mask_new,'tabella',1,12,1); # tabella in una colonna, fo
 <br>
 <table width=100%><tr valign="top">
 
+<!-- Legenda gruppi -->
 <td width=30%>
 &nbsp;&nbsp;
 Legenda:
 
 <div class="txt_link">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Q</b> : Squadra ammessa agli ottavi di finale<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>W</b> : Squadra ammessa ai quarti di finale<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>S</b> : Squadra semifinalista<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>F</b> : Squadra finalista<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>C</b> : Campione del mondo<br>
+<?php
+foreach($vettore_alias_domanda as $id => $alias_domanda)
+{
+	if (($id == 0) || ($vettore_alias_domanda[$id] != $vettore_alias_domanda[$id-1]))
+	{
+?>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><?php echo $vettore_alias_domanda[$id]; ?></b> : <?php echo $vettore_alias2_domanda[$id]; ?><br>
+<?php
+	}
+}
+?>
 </div>
 
 </td>
-<!--td>
+
+
+<!-- Legenda colori -->
+<td>
 
 &nbsp;&nbsp;
 Legenda colori:
@@ -349,7 +465,49 @@ foreach ($lotteria['stili_riga'] as $id_stile => $stile_data)
 ?>
 </div>
 
-</td-->
+</td>
+
+
+<!-- Legenda simboli -->
+<td>
+
+&nbsp;&nbsp;
+Legenda simboli:
+<div class="txt_link">
+<?php
+
+// print_r($elenco_simboli_usati);
+
+// $tipo_simbolo = 'ok';
+
+$elenco_simboli_item = Array('ok'=>$simbolo_ok,'not_ok'=>$simbolo_not_ok);
+
+echo "<table><tbody>\n";
+foreach($elenco_simboli_item as $tipo_simbolo => $simboli_item)
+{
+	foreach ($simboli_item as $punti => $item_simbolo)
+	{
+		$simbolo_value = $item_simbolo[0];
+		$simbolo_style = $item_simbolo[1];
+		$simbolo_testo = $item_simbolo[2];
+		
+		$chiave_simbolo = $tipo_simbolo.'_'.$punti;
+		if (in_array($chiave_simbolo,$elenco_simboli_usati))
+		{
+			echo "<tr>\n";
+			echo "<td align=\"right\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"$simbolo_style\">$simbolo_value</span></td>";
+			echo "<td> : $simbolo_testo</td>\n";
+// 			echo "<div style=\"height:2.5pt;\">&nbsp;</div>\n";
+			echo "</tr>\n";
+		}
+	}
+}
+echo "</tbody></table>\n";
+?>
+</div>
+
+</td>
+
 
 </tr></table>
 
@@ -360,6 +518,6 @@ echo "<a href=\"custom/lotterie/lotteria_".sprintf("%03d",$id_questions)."_tpl_f
 
 
 # logga il contatto
-$counter = count_page("questions",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
+// $counter = count_page("questions",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
 
 ?>
