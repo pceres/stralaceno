@@ -1,0 +1,39 @@
+Autore::Ars
+Titolo::Sondaggio Champions League 2006/07
+--- Begin body ---
+<p>&nbsp;
+<div align="center">
+<img id="logo_Champions" src="%file_root%custom/album/varie/logo_Champions.jpg" alt="..." border="0" width="500">
+</div>
+<br>Le <b>Caratteristiche Principali</b> del sondaggio-studio proposto dall'ARS sulla Champions League 2006/07:
+<p>
+<br>
+<b>Criteri di determinazione della classifica finale</b>
+<br>
+Tutte le giocate regolarmente effettuate, verranno ordinate in forma di classifica (disponibile sul sito http://ars.altervista.org), seguendo, nell'ordine, i seguenti criteri:
+<br>
+Il punteggio complessivo sar&agrave; calcolato attribuendo 4 punti per ognuno dei 15 pronostici formulati che si     rivelino esatti (punteggio massimo 60 punti);<br>
+Nel caso di passaggio del turno ottenuto avvalendosi della regola del goal in trasferta, i punti attribuiti saranno 3;<br>
+Nell'eventualit&agrave; di passaggio del turno ai rigori, i punti saranno 2 sia per la vincente che per l'eliminata;<br>
+Verr&agrave; infine riconosciuto 1 punto anche alla squadra indicata che viene eliminata per effetto della regola del goal in trasferta.<br>
+<br>
+A parit&agrave; di punteggio verranno considerati nell'ordine:
+<br>
+1. Il maggior numero di squadre indovinate a partire dalla squadra vincitrice;<br>
+2. La schedina che reca la data di giocata pi&ugrave; antica. Per non danneggiare chi dovesse venire a conoscenza del sondaggio solo in un secondo momento, tutte le giocate effettuate entro le ore 24 del 01/01/2007, recheranno comunque la data di presentazione 1 gennaio 2007.
+ <br>
+<p><br>
+<b>Periodo delle giocate</b>
+<br>
+Inizio giocate: 20/12/2006<br>
+Fine giocate: 31/01/2007<br>
+<br>
+<b>Modalit&agrave; delle giocate</b><br>
+Modalit&agrave; on line: il giocatore effettua la giocata nell'apposita pagina di questo sito, dopo aver inserito il proprio nome, cognome, data di nascita e provenienza. 
+<br>
+Modalit&agrave; cartacea: il giocatore compila la scheda inserendo le proprie generalit&agrave; e la restituisce a uno degli addetti alla raccolta (Nicola D’Auria, Donatello Cirillo, Alessandro Russomanno, Pasquale Ceres, Michele Ceres, Paolo Viscardi, Lello Viscardi, Salvatore Merola), che provveder&agrave; ad annotare il giorno della restituzione. 
+Il responsabile abilitato inserirà poi su questo sito la giocata. 
+<p><br>
+Ogni persona pu&ograve; partecipare al sondaggio una sola volta.<br>
+</p>
+--- End body ---
