@@ -140,7 +140,7 @@ return array($mins,$anno,$mese,$giorno,$ore,$minuti);
 
 
 
-function print_header() {
+function print_header($lotteria_nome) {
 
 # dichiara variabili
 extract(indici());
@@ -167,7 +167,7 @@ extract(indici());
 //echo "$action<br>";
 if (!in_array($action,array('check_auth','results','fill')))
 {
-	print_header();
+	print_header($lotteria_nome);
 }
 
 
@@ -276,6 +276,24 @@ case "check_auth":
 		
 	} // if ($action == "check_auth")
 case "fill":
+	
+	// verifica che le giocate siano aperte e stampa il relativo messaggio
+	if ($v_now[0] < $v_start[0])
+	{
+		$messaggio_stato_sondaggio = $lotteria['msg_date'][0][0];
+		$info_mode = 1;		// il sondaggio non e' ancora aperto: inibisci la possibilita' di giocare
+	}
+	elseif ($v_now[0] > $v_end[0])
+	{
+		$messaggio_stato_sondaggio = $lotteria['msg_date'][0][2];
+		$info_mode = 1;		// il sondaggio e' stato chiuso: inibisci la possibilita' di giocare
+	}
+	else
+	{
+		$messaggio_stato_sondaggio = $lotteria['msg_date'][0][1];
+	}
+	
+	
 	if (!file_exists($file_template_form)) 
 	{
 		
@@ -710,7 +728,7 @@ case "results":
 	if (!file_exists($file_template_ans))
 	{
 		// visualizzazione di default dei risultati
-		print_header();
+		print_header($lotteria_nome);
 		echo "$titolo_pagina<br>\n";
 		show_table($elenco_giocate,$mask,'tabella',1,12,1); # tabella in una colonna, font 12, con note
 	}
@@ -762,7 +780,10 @@ $counter_ok = pow(2,$livello_eliminatorie-1);	// numero di squadre presenti nell
 // echo $counter_squadre.",".$counter_ok;
 if ($counter_squadre != $counter_ok)
 {
-	echo("Le risposte esatte non sono congruenti con lo schema ad eliminatoria ($counter_squadre individuate invece di $counter_ok)!");
+	if ($temp_debug)
+	{
+		echo("Le risposte esatte non sono congruenti con lo schema ad eliminatoria ($counter_squadre individuate invece di $counter_ok)!");
+	}
 }
 
 return ($counter_squadre == $counter_ok);
@@ -850,7 +871,10 @@ foreach($criteri as $id => $criterio)
 		$soluz_ok = get_vettore_squadre_vincenti($vettore_risposte_esatte,$soluz,$livello_eliminatorie);
 		if (!$soluz_ok)
 		{
-			die("Le risposte esatte non sono congruenti con lo schema ad eliminatoria)!");
+			if ($temp_debug)
+			{
+				die("Le risposte esatte non sono congruenti con lo schema ad eliminatoria)!");
+			}
 		}
 		
 		$gruppi_risposte_possibili = array();
@@ -1271,7 +1295,10 @@ case "eliminatorie":
 	$giocata_ok = get_vettore_squadre_vincenti($vettore_squadre,$giocata_utile_array,$livello_eliminatorie);
 	if (!$giocata_ok)
 	{
-		// die("Le risposte esatte non sono congruenti con lo schema ad eliminatoria!");
+		if ($temp_debug)
+		{
+			die("Le risposte esatte non sono congruenti con lo schema ad eliminatoria!");
+		}
 		$punteggio = 10000;
 		$punteggio_output = 'giocata errata';
 	}
