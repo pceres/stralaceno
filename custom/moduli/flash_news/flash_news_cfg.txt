@@ -31,4 +31,4 @@
 # formato testo_footer:  testo
 #
 [testo_footer]
-Ultimo aggiornamento effettuato il 9/10/2006
+Ultimo aggiornamento effettuato il 14/11/2006

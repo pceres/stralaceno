@@ -30,7 +30,7 @@
 # formato testo_footer:  testo
 #
 [testo_footer]
-Ultimo aggiornamento effettuato il 24/10/2006. Rubrica a cura di <a href="mailto:ceresmichele@yahoo.it?subject=Caposele%20sul%20Web">Michele Ceres</a>
+Ultimo aggiornamento effettuato il 24/10/2006. Rubrica a cura di <a href="mailto:ceresmichele@yahoo.it?subject=Caposele%20sul%20Web"><b>Michele Ceres</b></a>
 <br>
 <br>
 Se il tuo sito &egrave; attinente a Caposele, o se noti imprecisioni, <a href="mailto:ceresmichele@yahoo.it?subject=Caposele%20sul%20Web">segnalacelo</a>, saremo felici di recepire i tuoi suggerimenti
