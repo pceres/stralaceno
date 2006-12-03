@@ -1753,7 +1753,7 @@ return $cfgbulk;
 function sanitize_user_input($usertext,$type,$flags) {
 # verifica che l'input dall'utente $usertext sia sicuro e del tipo specificato
 # $type = 'plain_text'			: no tags allowed, except for text chunks inside $flags['allowed_tags']
-# $type = 'simple_formatted_html'	: no tags allowed, except for simple formatting html tags (<b>,<i>)
+# $type = 'simple_formatted_html'	: no tags allowed, except for simple formatting html tags (<b>,<i>,<a>)
 # $type = 'number'			: simple number (allowed number types in $flags['number_type'] are 'int' and 'float')
 #
 
@@ -1776,7 +1776,7 @@ case "plain_text":
 	$allowed_tags = array();
 	break;
 case "simple_formatted_html":
-	$allowed_tags = array("<b>","</b>","<i>","</i>");
+	$allowed_tags = "<b><i><a>";
 	break;
 case "number":
 	$allowed_tags = array();
@@ -1786,23 +1786,12 @@ default:
 }
 
 
-// sostituisci i tag con un alias innocuo
-$alias = array();
-$count = 0;
-foreach ($allowed_tags as $tag)
-{
-	$alias[$count] = "$%$%".sprintf("%03d",$count);
-	$count++;
-}
-$testo = str_replace($allowed_tags,$alias,$testo);
-
-
 // ulteriori azioni specifiche della modalita'
 switch ($type)
 {
 case "plain_text":
 case "simple_formatted_html":
-	$clean = strip_tags($testo);
+	$clean = strip_tags($testo,$allowed_tags);
 	break;
 case "number":
 	$number_type = $flags['number_type'];
@@ -1827,9 +1816,6 @@ case "number":
 default:
 	die("Tipo di check non riconosciuto: $type");
 }
-
-
-$clean = str_replace($alias,$allowed_tags,$clean);
 
 return $clean;
 }
