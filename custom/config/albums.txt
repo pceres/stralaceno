@@ -31,6 +31,7 @@ IMG_1620.jpg::All.collettivo::
 [varie]
 laceno.jpg::Altopiano del Laceno::::
 lagoLaceno.jpg::Laceno::::
+logo_Champions.jpg::::
 
 [Soci_ars]
 LV2.jpg::Lello Viscardi::
