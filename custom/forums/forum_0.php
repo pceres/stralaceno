@@ -15,8 +15,15 @@ Formato [elenco_topics]:
 
 [elenco_topics]
 0::Benvenuti nel forum::open::::::ceres::3::1
-1::Come funziona il forum::open::::::ceres::1::
+1::Come funziona il forum::hidden::::::ceres::1::
 2::Sondaggio sui mondiali di calcio 2006::open::::::ceres::3::2
-3::Estate caposelese::open::::users::Pasquale Ceres::2::1
-4::Sondaggio Champions League 2006/2007::open::::::Pasquale C.::2::1
+3::Estate caposelese::hidden::::users::Pasquale Ceres::2::1
+4::Sondaggio Champions League 2006/2007::open::::::Pasquale C.::4::3
+5::Benvenuti nel forum::hidden::::::ceres::4::3
+6::Come funziona il forum::open::::::ceres::3::2
+7::le sfide della Stralaceno::open::::::foxy::76::75
+8::soddisfatti della stralaceno edizione 2006???::open::::::cabo86::4::3
+9::Discussione::open::::::Antonio::21::20
+10::ci siete?????::open::::::cabo::8::7
+11::La nuova sezione ciclismo::open::::::Donato Gervasio::1::0
 
