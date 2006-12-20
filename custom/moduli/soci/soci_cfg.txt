@@ -24,7 +24,7 @@ Salvatore Merola::alfonso.merola@cheapnet.it::18/04/2006::socio ordinario::::11:
 Gerardo Martino::gerrymarty@msn.com::18/04/2006::socio ordinario::::4::Soci_ars::
 Nicola Cirillo::cirillon@tiscalinet.it::02/05/2006::socio ordinario::::2::Soci_ars::
 Rocco Proietto::::02/05/2006::socio ordinario::::9::Soci_ars::
-Francesco Ceres::::07/10/2006::socio ordinario::::13::Soci_ars::
+Francesco Ceres::ceresdo@tiscali.it::07/10/2006::socio ordinario::::13::Soci_ars::
 Gianni Sozio::giannisozio@yahoo.it::07/10/2006::socio ordinario::::14::Soci_ars::
 Salvatore Colatrella::::07/10/2006::socio ordinario::::15::Soci_ars::
 
