@@ -282,15 +282,18 @@ case "fill":
 	{
 		$messaggio_stato_sondaggio = $lotteria['msg_date'][0][0];
 		$info_mode = 1;		// il sondaggio non e' ancora aperto: inibisci la possibilita' di giocare
+		$flag_show_results = 0;	// non mostrare il link alle giocate
 	}
 	elseif ($v_now[0] > $v_end[0])
 	{
 		$messaggio_stato_sondaggio = $lotteria['msg_date'][0][2];
 		$info_mode = 1;		// il sondaggio e' stato chiuso: inibisci la possibilita' di giocare
+		$flag_show_results = 1;	// mostra il link alle giocate
 	}
 	else
 	{
 		$messaggio_stato_sondaggio = $lotteria['msg_date'][0][1];
+		$flag_show_results = 1;	// mostra il link alle giocate
 	}
 	
 	
@@ -832,7 +835,11 @@ foreach($criteri as $id => $criterio)
 		$bulk_punteggi[$id] = array($sort_mask,$dist_bkp,$dist_weight,$question_weight,$sort_needed);
 		break;
 	case "data_giocata":
-		$bulk_punteggi[$id] = array();
+		$date_mask 	= $criterio[$id_regola_data+0];	// filtro su ora e minuti ai fini dell'ordinamento
+		$date_min 	= $criterio[$id_regola_data+1];	// data (hh:mm gg/mm/aaaa) minima ai fini dell'ordinamento
+		$date_max 	= $criterio[$id_regola_data+2];	// data (hh:mm gg/mm/aaaa) massima ai fini dell'ordinamento
+		
+		$bulk_punteggi[$id] = array($date_mask,$date_min,$date_max);
 		break;
 	case "posizione_esatte":
 		$sort_mask = split(',',$criterio[$id_regola_data+0]);
@@ -1110,11 +1117,41 @@ case "distanza":
 	
 	break;
 case "data_giocata":
-	//$time_giocata = $giocata[1];	// valore numerico corrispondente all'istante dell'effettivo salvataggio della giocata
-	$tempi_giocata = parse_date($giocata[2]);// stringa corrispondente alla data che fa fede per la giocata
+	$date_mask = $bulk[0]; 	// maschera su minuti e ora, per indicare se ignorare o meno minuti ed ora (es. 00:00 ??/??/????)
+	$date_min = $bulk[1]; 	// data (hh:mm gg/mm/aaaa) minima di giocata
+	$date_max = $bulk[2]; 	// data (hh:mm gg/mm/aaaa) massima di giocata
+	
+	// applica maschera all'istante di giocata:
+	$str_data_giocata_in = $giocata[2];
+	$str_data_giocata = $giocata[2];
+	for ($i = 0; $i < strlen($str_data_giocata_in); $i++)
+	{
+		if (($i < strlen($date_mask)) && ($date_mask[$i] !== '?'))
+		{
+			$str_data_giocata[$i] = $date_mask[$i];
+		}
+		else
+		{
+			$str_data_giocata[$i] = $str_data_giocata_in[$i];
+		}
+	}
+	
+	$tempi_giocata = parse_date($str_data_giocata);// stringa corrispondente alla data che fa fede per la giocata
 	$time_giocata = $tempi_giocata[0];	// valore numerico corrispondente
 	
-	$time_0 = 0;//parse_date('00:00 31/08/1970');
+	
+	// saturazione data minima e massima di giocata
+	$tempi_giocata_min = parse_date($date_min);
+	$time_giocata_min = $tempi_giocata_min[0];	// valore numerico corrispondente
+	if ($time_giocata_min > $time_giocata) {$time_giocata = $time_giocata_min;}
+	
+	$tempi_giocata_max = parse_date($date_max);
+	$time_giocata_max = $tempi_giocata_max[0];	// valore numerico corrispondente
+	if ($time_giocata_max < $time_giocata) {$time_giocata = $time_giocata_max;}
+	
+	
+	// calcolo punteggio
+	$time_0 = 0;
 	$delta = ($giocata[1]-($time_giocata-$time_0[0]));	// differenza tra l'istante di giocata e la data che fa fede per la classifica
 	
 	$punteggio = $time_giocata+0;
