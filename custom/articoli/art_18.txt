@@ -1,0 +1,31 @@
+Autore::Ars
+Titolo::Allenamento Collettivo 30.12.2006
+--- Begin body ---
+<br>L'ARS Amatori Running Sele organizza per il giorno <b>30 dicembre, ore 15.00</b> una seduta di 
+allenamento di gruppo lungo il tratto stradale Caposele - Materdomini (strada 
+statale 165) - San Vito - Bosco Difesa e ritorno.<br><br> La distanza sarà percorsa rigorosamente ad andatura 
+lenta avendo cura di rispettare soprattutto la regolarità di corsa e i 
+passaggi orari previsti a tavolino.<br> &Egrave; un'ottima occasione per riprendere 
+l'attività per chi si è lasciato andare nel periodo autunnale e per 
+cercare di ritrovare gli stimoli giusti affrontando con vigore il lungo 
+inverno che ancora ci attende.<p>
+Chiunque sia interessato può liberamente aggregarsi alla partenza o anche durante il percorso.
+<br><br>
+<p>&nbsp;
+<div align="center">
+<img id="fotoAllenamentoCollettivo" src="%file_root%custom/album/All.Coll.06/Man_all_coll_06.jpg" alt="" border="0" width="150">
+<br>
+</div>
+<br><br>
+   Tabella dei passaggi orari previsti del gruppo nei punti principali del percorso:<br><br>
+- km   0.000  Piazza Sanità         h <b>15.00</b>.00 <br>
+- km   0.900  Ponte                    h <b>15.05</b>.37<br>
+- km   1.650  Villaggio S. Caterina        h    <b>15.10</b>.19<br>
+- km   2.300  Cimitero comunale          h  <b>15.14</b>.22<br>
+- km   6.150  Materdomini (hotel Testa)     h  <b>15.40</b>.22<br>
+- km   6.700  Materdomini (incrocio per Caposele)   h   <b>15.44</b>.00<br>
+- km   7.500  Svincolo fondovalle Sele     h          <b>15.49</b>.12<br>
+- km   9.300  Incrocio per San Vito      h          <b>16.01</b>.14<br>
+- km 12.200  Incrocio per Bosco Difesa    h     <b>16.20</b>.15<br>
+- km 16.750  Piazza Sanità         h            <b>16.48</b>.41<br><br>
+--- End body ---
