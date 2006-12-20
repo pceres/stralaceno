@@ -66,7 +66,7 @@ Links::
 organizzatori::Atto Costitutivo-Statuto ARS::modulo_custom::::
 # :: ::separatore::::
 presentazione::La Stralaceno::modulo_custom::::
-sezione_caposele::Caposele::external_link::index.php?page=caposele::Pagina in allestimento!
+#sezione_caposele::Caposele::external_link::index.php?page=caposele::Pagina in allestimento!
 lettere_sito::Le vostre lettere::modulo_custom::::
 #pregfas::Pregfas::modulo_custom::::Pagina in allestimento!
 
