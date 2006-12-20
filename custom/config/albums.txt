@@ -74,3 +74,8 @@ font1.jpg::Partenza XXXI Marcialoggia::
 FONTANAROSA_2840.jpg::la salita::notiamo il passaggio di Salvatore::
 FONTANAROSA_2849.jpg::la salita::Alessandro col pettorale num 72 e, poco dietro, Nicola col pettorale 69::
 FONTANAROSA_2851.jpg::la salita::ancora Nicola ed Alessandro::
+
+[All.Coll.06]
+Man_all_coll_06.jpg::
+
+
