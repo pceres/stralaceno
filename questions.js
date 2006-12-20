@@ -4,6 +4,43 @@
 
 
 
+function prima_lettera_maiuscola(stringa)
+{
+// restituisce una stringa con la prima maiuscola e le successive minuscole
+	
+	result = '';
+	stato = 1;
+	for (i=0; i<stringa.length; i++)
+	{
+		car = stringa.substring(i,i+1);
+		
+		switch (stato)
+		{
+		case 0: // minuscole
+			car_out = car.toLowerCase(car);
+			result += car_out;
+			
+			if ( (car == ' ') || (car == "\t") || (car == "'") )
+			{
+				stato = 1;
+			}
+			break;
+		case 1: // maiuscole
+			car_out = car.toUpperCase(car);
+			
+			if ( ((car_out >= 'A') && (car_out <= 'Z')) || ((car_out >= '0') && (car_out <= '9')) )
+			{
+				result += car_out;
+				stato = 0;
+			}
+			break;
+		}
+// 		alert(car+':'+result);
+	}
+	return result;
+}
+
+
 //
 // funzione printf da http://www.jsdir.com/staffscripts/script078.asp
 //
