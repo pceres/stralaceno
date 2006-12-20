@@ -24,10 +24,10 @@ print_header($lotteria_nome);
 
 $visualizza_giocate_anonime = true;	// true -> vengono visualizzate anche le giocate che non hanno una chiave corretta (giocate anonime)
 
-$indice_regola_eliminatorie = $lista_criteri['eliminatorie']; // [0..] posizione (tra le altre regole di ordinamento) regola 'eliminatorie'
+$indice_regola_eliminatorie 	= $lista_criteri['eliminatorie']; 	// [0..] posizione (tra le altre regole di ordinamento) regola 'eliminatorie'
 $indice_regola_punteggi_specifici = $lista_criteri['punteggi_specifici']; // [0..] indice del criterio "punteggi_specifici"
-$indice_regola_esatte_per_gruppi = $lista_criteri['esatte_per_gruppi']; // [0..] indice del criterio "esatte_per_gruppi"
-
+$indice_regola_esatte_per_gruppi= $lista_criteri['esatte_per_gruppi']; 	// [0..] indice del criterio "esatte_per_gruppi"
+$indice_regola_data_giocata 	= $lista_criteri['data_giocata']; 	// [0..] posizione (tra le altre regole di ordinamento) regola 'data_giocata'
 
 //
 // calcoli
@@ -45,10 +45,16 @@ $gruppo_risposta = $bulk_punteggi[$indice_regola_punteggi_specifici][2];
 // punteggio da assegnate a ciascuna risposta per ciascun gruppo (es. Array ( [0] => Array ( [Barcellona] => 4 [Bayern Monaco] => 4 [Galatasaray] => 4 [Olympiakos Pireo] => 4 [Dynamo Kiev] => 4 [Fc Copenhagen] => 4 [Amburgo] => 4 [Anderlecht] => 4 ) [1] => Array ( [Barcellona] => 4 [Bayern Monaco] => 4 [Galatasaray] => 4 [Olympiakos Pireo] => 4 [Dynamo Kiev] => 4 [Fc Copenhagen] => 4 [Amburgo] => 4 [Anderlecht] => 4 ) ... ) )
 $punteggio_specifico = $bulk_punteggi[$indice_regola_punteggi_specifici][0];
 
+// estremi data di giocata minima e massima ai fini dell'ordinamento (prima 2 stringhe hh:mm gg/mm/aaaa, poi 2 corrispondenti val. numerici,
+// es. Array ( [0] => 24:00 01/01/2007 [1] => 24:00 31/01/2007 [2] => 1167696000 [3] => 1170288000 )  )
+$estremi_date = Array($bulk_punteggi[$indice_regola_data_giocata][1],$bulk_punteggi[$indice_regola_data_giocata][2]);
+$temp_min = parse_date($estremi_date[0]);
+$temp_max = parse_date($estremi_date[1]);
+$estremi_date = Array($estremi_date[0],$estremi_date[1],$temp_min[0],$temp_max[0]);
 
-// echo('$punteggio_specifico<br>');
-// print_r($punteggio_specifico);
-
+// echo('$estremi_date<br>');
+// print_r($estremi_date);
+// die();
 
 
 //
@@ -252,8 +258,19 @@ $trans = get_html_translation_table(HTML_ENTITIES);
 		break;
 	}
 	
+
+	// rielaborazione data giocata da visualizzare
+	
+	// saturazione data minima e massima di giocata
+	$temp = parse_date($data_giocata);
+// 	echo "$data_giocata -> {$temp[0]},{$estremi_date[2]},{$estremi_date[3]}<br>\n";
+	if ($temp[0] < $estremi_date[2]) {$data_giocata = $estremi_date[0];}
+	if ($temp[0] > $estremi_date[3]) {$data_giocata = $estremi_date[1];}	
+	
 	// inverti data e ora nella data di giocata
 	$data_giocata = substr($data_giocata,strpos($data_giocata,' ')+1).' '.substr($data_giocata,0,strpos($data_giocata,' '));
+	$data_giocata = substr($data_giocata,0,-6);	// non visualizzare ora e minuti della giocata
+
 	
 	// crea giocata
 	$record_new = array();
@@ -301,9 +318,9 @@ $trans = get_html_translation_table(HTML_ENTITIES);
 	
 	// simboli quando si azzecca una risposta
 	$simbolo_ok 	= Array(
-		'4' 		=> Array('<b>V</b>'	,'','Vittoria diretta'),
-		'3' 		=> Array('G'		,'','Vittoria con regola goal fuori casa'),
-		'2' 		=> Array('R'		,'','Vittoria ai rigori'),
+		'4' 		=> Array('V'		,'','Vittoria diretta (4 punti)'),
+		'3' 		=> Array('G'		,'','Vittoria con regola goal fuori casa (3 punti)'),
+		'2' 		=> Array('R'		,'','Vittoria ai rigori (2 punti)'),
 		'1' 		=> Array('+'		,'','???'),
 		'default'	=> Array('.'		,'','')
 		);
@@ -311,8 +328,8 @@ $trans = get_html_translation_table(HTML_ENTITIES);
 	$simbolo_not_ok	= Array(
 		'4' 		=> Array('<b>O</b>'	,'','??'),
 		'3' 		=> Array('O'		,'','??'),
-		'2' 		=> Array('g'		,'','Sconfitta con regola goal fuori casa'),
-		'1' 		=> Array('r'		,'','Sconfitta ai rigori'),
+		'2' 		=> Array('r'		,'','Sconfitta ai rigori (2 punti)'),
+		'1' 		=> Array('g'		,'','Sconfitta con regola goal fuori casa (1 punto)'),
 		'default'	=> Array('.'		,'','')
 		);
 
@@ -342,7 +359,10 @@ $trans = get_html_translation_table(HTML_ENTITIES);
 			$simbolo = $item_simbolo[0];
 			$stile_simbolo = $item_simbolo[1];
 			
-			$simb = "<span title=\"".$vettore_giocata[$id]." ($punti punti)\" $stile_simbolo>$simbolo</span>\n";
+			if ($punti != 1) {$punti_msg = "$punti punti";}
+			else {$punti_msg = "$punti punto";}
+			
+			$simb = "<span title=\"".$vettore_giocata[$id]." ($punti_msg)\" $stile_simbolo>$simbolo</span>\n";
 		}
 		else
 		{
@@ -362,7 +382,10 @@ $trans = get_html_translation_table(HTML_ENTITIES);
 			$simbolo = $item_simbolo[0];
 			$stile_simbolo = $item_simbolo[1];
 			
-			$simb = "<span title=\"".$vettore_giocata[$id]." ($punti punti)\" $stile_simbolo>$simbolo</span>\n";
+			if ($punti != 1) {$punti_msg = "$punti punti";}
+			else {$punti_msg = "$punti punto";}
+			
+			$simb = "<span title=\"".$vettore_giocata[$id]." ($punti_msg)\" $stile_simbolo>$simbolo</span>\n";
 		}
 		
 		$indice_simbolo = $tipo_simbolo.'_'.$punti;
@@ -476,33 +499,31 @@ Legenda simboli:
 <div class="txt_link">
 <?php
 
-// print_r($elenco_simboli_usati);
-
-// $tipo_simbolo = 'ok';
-
 $elenco_simboli_item = Array('ok'=>$simbolo_ok,'not_ok'=>$simbolo_not_ok);
 
-echo "<table><tbody>\n";
-foreach($elenco_simboli_item as $tipo_simbolo => $simboli_item)
+if (count($elenco_simboli_usati)>1)
 {
-	foreach ($simboli_item as $punti => $item_simbolo)
+	echo "<table><tbody>\n";
+	foreach($elenco_simboli_item as $tipo_simbolo => $simboli_item)
 	{
-		$simbolo_value = $item_simbolo[0];
-		$simbolo_style = $item_simbolo[1];
-		$simbolo_testo = $item_simbolo[2];
-		
-		$chiave_simbolo = $tipo_simbolo.'_'.$punti;
-		if (in_array($chiave_simbolo,$elenco_simboli_usati))
+		foreach ($simboli_item as $punti => $item_simbolo)
 		{
-			echo "<tr>\n";
-			echo "<td align=\"right\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"$simbolo_style\">$simbolo_value</span></td>";
-			echo "<td> : $simbolo_testo</td>\n";
-// 			echo "<div style=\"height:2.5pt;\">&nbsp;</div>\n";
-			echo "</tr>\n";
+			$simbolo_value = $item_simbolo[0];
+			$simbolo_style = $item_simbolo[1];
+			$simbolo_testo = $item_simbolo[2];
+			
+			$chiave_simbolo = $tipo_simbolo.'_'.$punti;
+			if (in_array($chiave_simbolo,$elenco_simboli_usati))
+			{
+				echo "<tr>\n";
+				echo "<td align=\"right\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"$simbolo_style\">$simbolo_value</span></td>";
+				echo "<td> : $simbolo_testo</td>\n";
+				echo "</tr>\n";
+			}
 		}
 	}
+	echo "</tbody></table>\n";
 }
-echo "</tbody></table>\n";
 ?>
 </div>
 
