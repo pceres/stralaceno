@@ -5,29 +5,29 @@
 #
 
 # Qualificato quarti 1:
-#nd
-Barcellona
+nd
+#Barcellona
 # Qualificato quarti 2:
-#nd
-Bayern Monaco
+nd
+#Bayern Monaco
 # Qualificato quarti 3:
-#nd
-Galatasaray
+nd
+#Galatasaray
 # Qualificato quarti 4:
-#nd
-Olympiakos Pireo
+nd
+#Olympiakos Pireo
 # Qualificato quarti 5:
-#nd
-Dynamo Kiev
+nd
+#Dynamo Kiev
 # Qualificato quarti 6:
-#nd
-Fc Copenhagen
+nd
+#Fc Copenhagen
 # Qualificato quarti 7:
-#nd
-Amburgo
+nd
+#Amburgo
 # Qualificato quarti 8:
-#nd
-Anderlecht
+nd
+#Anderlecht
 # Qualificato semifinale 1:
 nd
 #Barcellona
@@ -63,22 +63,12 @@ nd
 # Qui viene indicato il punteggio da associare ad ogni risposta a seconda del gruppo in cui essa viene fornita
 #
 [punteggio_risposte]
-Barcellona::4,4
-Bayern Monaco::4,4
-Galatasaray::4,4
-Olympiakos Pireo::4,4
-Dynamo Kiev::4,3
-Milan::4,1
-Fc Copenhagen::4,2
-Inter::4,2
-Amburgo::4,4
-Anderlecht::4,4
 #
 #Barcellona::4,4;3,4;2,4;1,2
 #Bayern Monaco::4,4;3,4;2,4;1,2
 #Galatasaray::4,4;3,4
 #Olympiakos Pireo::4,4;3,3
 #Dynamo Kiev::4,4;3,1
-#Fc Copenhagen::4,4
+#FC Copenhagen::4,4
 #Amburgo::4,4
 #Anderlecht::4,4
