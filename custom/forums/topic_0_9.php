@@ -32,6 +32,9 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 18::ars::15/11/2006 10.16.43::visible
 19::ars -Alessandro R.-::15/11/2006 10.19.49::visible
 20::Salvatore::17/11/2006 21.53.27::visible
+21::NICOLA M.::13/12/2006 11.24.52::visible
+22::Antonio::14/12/2006 09.56.57::visible
+23::NICOLA M.::14/12/2006 22.10.35::visible
 
 [post_text_0]
 Fermate Nicola Melillo con questa stralaceno: anche i muri di materdomini e caposele non ne possono più.
@@ -121,4 +124,13 @@ saluti. Alessandro R.
 
 [post_text_20]
 Alessandro santo subito!!
+
+[post_text_21]
+MA CI SIETE O NO? COME AL SOLITO DOPO UN PERIODO DI FERVORE POST-STRALACENO ADESSO NESSUNO SCRIVE E PROPONE PIU' NIENTE SE NON SEMPRE I SOLITI NOTI.
+
+[post_text_22]
+ciao Nicola, ti volevo chiedere cosa si prospetta a Caposele, dal punto di vista sportivo, durante le vacanze natalizie?
+
+[post_text_23]
+NIENTE DI PARTICOLARE SE NON L' ALLENAMENTO PODISTICO DI 16 KM ORGANIZZATO DALL' ARS PER IL GIORNO 30 DICEMBRE ALLE 15 IN PIAZZA SANITA'.
 

@@ -87,6 +87,17 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 73::Salvatore::27/11/2006 14.12.56::visible
 74::Alessandro R.::29/11/2006 09.50.08::visible
 75::Jerry Notaro::29/11/2006 10.41.42::visible
+76::Salvatore M.::04/12/2006 18.12.10::visible
+77::Pasquale C.::04/12/2006 23.05.28::visible
+78::Alessandro R.::05/12/2006 09.52.49::visible
+79::Alessandro ::05/12/2006 09.56.12::visible
+80::Salvatore::05/12/2006 18.01.15::visible
+81::paolo::06/12/2006 18.48.14::visible
+82::Salvatore M.::11/12/2006 15.15.48::visible
+83::Alessandro::11/12/2006 16.34.38::visible
+84::Salvatore M.::17/12/2006 17.21.06::visible
+85::Riccardo::17/12/2006 18.52.32::visible
+86::Alessandro::18/12/2006 09.57.56::visible
 
 [post_text_0]
 Aspettiamo le vostre dichiarazioni di sfida...
@@ -496,4 +507,58 @@ Carissimi saluti a Salvatore e Paolo.
 Scrivo per complimentarmi con l'ottimo Nicola Melillo che ha avuto l'ardire di organizzare una gara podistica su un percorso nuovo e sdoganando un periodo dell'anno che, solitamente, il caposelese medio trascorre a poltrire vicino al caminetto.
 Forse non tutti hanno colto la portata dell'evento, la sua valenza storica oltrechè sportiva ma non me ne sorprendo perchè uno dei difetti del nostro tempo è che non abbiamo memoria nemmeno per gli avvenimenti accaduti di recente. Forse in molti dimenticano che la Stralaceno è iniziata come una scommessa tra amici, che la seconda edizione si è svolta a tre anni di distanza dalla prima e che fino al 94 partecipavano una decina di persone. Quindi Nicola non scoraggiarti, cerca un nome per quel tragitto che abbiamo stoicamente percorso in quello splendido pomeriggio di sabato e riproponi la manifestazione in primavera, in estate, in autunno, facciamola diventare la quattro stagioni del podismo caposelese!
 Un saluto a tutti
+
+[post_text_76]
+buona sera, innanzitutto saluti ad alessandro e paolo..Beh finalmente sono ritornato quasi a disposizione,l'unico sport che posso fare senza problemi è la corsa,per i prossimi giorni niente calcetto,pallavolo o altri sport...quindi ne devo approfittare.. Spero che alex e paolo rientrino per il ponte dell'immacolata,in modo da poter organizzare un grande allenamento... Cmq per mercoledì ho intenzione di svolgere un allenamento di 8km,giusto per cominciare..chiunque si voglia unire io sono all'incrocio del cimitero alle 15.30,spero che qualcuno venga...la conferma la darò domani su questo forum..
+Saluti a tutti i soci...e vi raccomando quando avete tempo fate sport,a me in questo mese è mancato tantissimo,soprattutto xkè avevo iniziato la preparazione da ottobre e sono stato costretto ad interromperla...
+ciao...e forza Juve
+
+[post_text_77]
+Un saluto a tutti! Vi propongo un obiettivo per gli allenamenti invernali: se arrivate in forma per agosto 2007, si potrebbe partecipare alla 10 km di Nusco come squadra Ars.
+In attesa delle vostre opinioni, vi segnalo <a href="http://pceres.altervista.org/nusco/index.php">queste pagine</a> che ho preparato, dove troverete una analisi di tutti i tempi della 10 km di Nusco (o almeno quelli che sono riuscito a reperire dal sito ufficiale).
+&nbsp;
+x Alex: che tu sappia, per iscrivere una squadra alla gara di Nusco bisogna che quest'ultima sia tesserata Fidal?
+
+[post_text_78]
+&gt;x Alex: che tu sappia, per iscrivere una squadra alla gara di Nusco bisogna che quest'ultima sia tesserata Fidal?<br>&gt;<br><br>No, lo si può fare liberamente.
+Già nell'edizione di quest'anno della 10 km di Nusco, si può parlare di partecipazione di squadra degli amatori running sele: hanno corso ben 5 soci + 3 aggregati (2 dei quali attualmente anche loro soci.)
+
+[post_text_79]
+&gt;Spero che alex e paolo rientrino per il ponte dell'immacolata,in modo da poter organizzare un grande allenamento... <br><br>Si, io ci sarò, torno giovedì sera. Poi ci sentiamo per telefono, così ci accordiamo. Cerchiamo di fare un bel gruppo per venerdì o sabato.
+&nbsp;
+Paolo ci sarà?
+
+[post_text_80]
+Ciao ale,poco fa ho telefonato Paolo,ha detto che anche lui sarà di ritorno per giovedì sera...ci organizzeremo venerdì mattina per l'allenamento da svolgere..
+Per quanto riguarda l'allenamento di domani volevo dirvi che partirò da Materdomini visto che ancora non posso usare la mano per guidare e l'orario previsto sarà per le 15.30 davanti al bar gianna...se qualcuno verrà sarà un piacere...ciao
+
+[post_text_81]
+                ciao, innanzitutto un saluto grande ad alessandro e salvatore
+allora come è andato l'allenamento di mercoledi? spero non ti sia precato troppo per l'allenamento di venerdi o sabato, sono contento che tu abbia ricominciato con questo grinta, così che anche la mia passione nell'allenarmi possa crescere!
+allora ci vediamo tutti questo fine settimana in una bella giornata di sport
+Ah grazie alex per l'articolo che ho appena letto su questo sito!
+ok è tutto un saluto a tutti i soci ARS ed a Nicola Melillo!!!
+
+[post_text_82]
+Buon pomeriggio a tutti...Vorrei rassicurare alessandro che dopo la bruttissima performance di venerdì mi è parso un pò preoccupato per me..non preoccuparti alessà che anche ieri sono andato e le cose già vanno un tantino meglio..x domani inoltre ho in programma 10 km...quindi come vedi sto per rimettermi dopo questo periodo di stop,sono sicuro che per l'allenamento collettivo mi troverai prontissimo....ciao
+Sal
+
+[post_text_83]
+Salvatò, non ho mai avuto dubbi su un tuo pronto recupero...
+Inizia a programmare varie sedute di allenamento da svolgere insieme durante le vacanze natalizie.
+ciao. ale
+
+[post_text_84]
+Buona sera a tutti,Alessà come ti avevo promesso mi sto rimettendo in forma,l'ultimo allenamento l'ho svolto ieri ed è stato più che soddisfacente,penso che per quando tornerai,cioè per la settimana prossima ,sarò in buona forma e potremo fare già qualche allenamento più lungo...a presto
+vorrei salutare anche paolo,mi hanno detto che mercoledì scorso la squadra "Sedan" ha conquistato la seconda vittoria consecutiva,complimenti...però preparati che mo che torni sarà dura...non penserai mica che ti faccio arrivare al traguardo ogni volta con due minuti di vantaggio...scordatelo,quando torni sarà guerra....stammi bene...
+Ciao a tutti
+
+[post_text_85]
+Questo accanimento terapeutico sportivo mi sembra un poco esagerato.
+Durante le vacanze natalizie oltre a programmare solo allenamenti pensate anche a qualche bella, dolce e soave uscita. Iati a femmn.
+
+[post_text_86]
+x Salvatore
+&nbsp;
+puoi già iniziare a fissare un allenamento per venerdì pomeriggio... ciao.
 

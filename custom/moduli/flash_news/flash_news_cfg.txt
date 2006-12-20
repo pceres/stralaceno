@@ -6,6 +6,7 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+05/12/2006::Fissato per il 30 dicembre alle ore 15.00 un allenamento podistico collettivo di km 16.750 (partenza e arrivo piazza Sanit&agrave;).
 14/11/2006::Durante il periodo natalizio partir&agrave; il sondaggio Ars sulla Champions League 2006/07.
 07/11/2006::Attivate due nuove sezioni del sito Ars: Caposele sul web e Ciclismo.
 07/10/2006::Tre nuovi soci per l'ARS: il numero degli associati sale cos&igrave; a 16.
@@ -31,4 +32,4 @@
 # formato testo_footer:  testo
 #
 [testo_footer]
-Ultimo aggiornamento effettuato il 14/11/2006
+Ultimo aggiornamento effettuato il 05/12/2006
