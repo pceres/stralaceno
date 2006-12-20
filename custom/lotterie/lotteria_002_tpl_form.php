@@ -13,13 +13,13 @@
 // $admin_mode		: 1 -> si e' in modalita' amministrativa, richiedi la data di giocata
 //
 // $messaggio_stato_sondaggio	: messaggio di stato della lotteria, basato sulle date di apertura e chiusura ([msg_date] nel file di conf.)
+// $flag_show_results	: 1 -> si vuole far visualizzare il link alle giocate gia' effettuate
 //
 //
 // input da metodi POST o GET:
 //
 // $info_mode		: 1 -> si e' in modalita' visualizzazione, non viene visualizzato il tasto 'Gioca'
 //
-
 
 //
 // parte generica
@@ -314,7 +314,9 @@ td
 // 3) eventuali customizzazioni sulla proprieta' onLoad
 // 
 ?>
-<body link=blue vlink=purple onLoad="document.forms['question_form']['question_19'].value='0';">
+<body link=blue vlink=purple onLoad="document.forms['question_form']['question_19'].value='0';
+if (document.forms['question_form']['data_giocata']) {document.forms['question_form']['data_giocata'].value='';}
+if (document.forms['question_form']['temp_silaritudine']) {document.forms['question_form']['temp_silaritudine'].value='No';}">
 
 <!--
 //
@@ -339,20 +341,59 @@ td
 archivio_domande = Array(
 <?php
 
-$num_domande = 5;		// numero domande da porre
+$num_domande = 3;		// numero domande da porre
 $num_allowed_errors = 1;	// numero massimo di errori accettabili per superare comunque la verifica
 
 $archivio_domande = Array(
-	Array(1,"Dov'e' la Mauta?"	,Array("In riva al fiume","In montagna","Alle sorgenti del Sele")			        ,"010"	),
-	Array(2,"Dov'e' Tredogge?"	,Array("Alla foce del fiume","Vicino a Materdomini","In montagna","Alle sorgenti del Sele")	,"0001"	),
-	Array(3,"Quando e' pscrai?"	,Array("Ieri","Oggi","Domani","Dopodomani")							,"0001"	),
-	Array(4,"Chi era il sindaco di Caposele nel 2005?"  ,Array("Alfonso Merola","Giuseppe Melillo","Antonio Corona","Agostino Montanari")  ,"0100" ),
-	Array(5,"Cosa significa la parola 'ngimma?"         ,Array("ginnastica","giorno","sopra","gomma")     ,"0010" ),
-	Array(6,"Qual'è il Santo patrono di Caposele?"      ,Array("Lorenzo","Gerardo","Pasquale","Rocco")    ,"1000" ),
-	Array(7,"Cosa significa la parola 'nbieri?"         ,Array("Carabinieri","Ieri","Bicchieri","Sotto")  ,"0001" ),
-	Array(8,"Che sport praticava Manliuccio?"           ,Array("Tennis","Corsa","Calcio","Ciclismo")      ,"0010" ),
-	Array(9,"Vagava per le strade di Caposele"          ,Array("Peppe il francese","Ciccio l'americano","Antonio l'africano","Gerardo l'austriaco"),"0001")
+	Array(1,"Per chi si reca in gita alla Mauta è consigliabile:",
+			Array("Portare il costume per un bagno nelle acque del Sele","Prolungare la gita fino alle rovine romane di Valle di Porco","Programmare un'escursione in cima al Calvello")					        ,"001"	),
+
+	Array(2,"Quando e' pscrai?"	,
+			Array("Ieri","Dopodomani","Oggi","Domani")							,"0100"	),
+
+	Array(3,"Cosa significa la parola 'ngimma?"         ,
+			Array("ginnastica","giorno","sopra","gomma")     						,"0010" ),
+
+	Array(4,"Qual'è il Santo patrono di Caposele?"      ,
+			Array("Lorenzo","Gerardo","Pasquale","Rocco")    						,"1000" ),
+
+	Array(5,"Cosa significa la parola 'nbieri?"         ,
+			Array("Carabinieri","Ieri","Bicchieri","Sotto")  						,"0001" ),
+
+	Array(6,"Vagava per le strade di Caposele"          ,
+			Array("Peppe il francese","Ciccio l'americano","Antonio l'africano","Gerardo l'austriaco")	,"0001"),
+
+	Array(7,"Quale dei seguenti non è un quartiere di Caposele?"          ,
+			Array("Portella","Pianello","Campo Piano","Castello","Sanita'")					,"00100"),
+
+	Array(8,"In che mese si festeggia la Madonna della Sanità?" ,
+			Array("Luglio","Agosto","Settembre","Ottobre")  						,"0100"),
+
+ 	Array(9,"Da dove posso vedere la preta r' li cuorvi?"  ,
+ 			Array("dalla Castagneta","da Pasano","da Persano","da San Giovanni")  				,"1000"),
+
+	Array(10,"Dove vennero ubicate le scuole elementari e medie di Caposele dopo il terremoto del 1980?"  ,
+			Array("ai Piani","a li fuossi","alla Sanità","al ponte") 					, "0010"),
+
+	Array(11,"In che mese si festeggia la Madonna della Sanità?" ,
+			Array("Luglio","Agosto","Settembre","Ottobre")  						,"0100"),
+
+// 	Array(12,"Nel rispetto della tradizione, nell'anno 1974 a Caposele non e' nato nessun bambino con il nome di:"          ,
+// 			Array("Giuseppe","Rocco","Antonio","Aniello")							,"0001"),
+
+// 	Array(13,"Dov'e' Tredogge?"	,
+// 			Array("Alla foce del fiume","Vicino a Materdomini","In montagna","Alle sorgenti del Sele")	,"0001"	),
+
+// 	Array(14,"Chi era il sindaco di Caposele nel 2005?"  ,
+// 			Array("Alfonso Merola","Giuseppe Melillo","Antonio Corona","Agostino Montanari")  		,"0100" ),
+
+// 	Array(15,"Che sport praticava Manliuccio?"           ,
+// 			Array("Tennis","Corsa","Calcio","Ciclismo")      						,"0010" ),
+
 );
+
+
+
 
 
 // scegli num_domande indici tra quelli disponibili
@@ -417,7 +458,7 @@ function ask_question(tag_feedback,question_id,question,answers,right_ans,questi
 		
 		titolo	= "Dom. " + question_pos + "\\" + num_domande;
 		
-		var win_width = 400;				// larghezza finestra
+		var win_width = 500;				// larghezza finestra
 		var win_height = (100+50*answers.length);	// altezza finestra
 		var win_left = Math.floor((screen.width-win_width)/2);
 		var win_top = Math.floor((screen.height-win_height)/2);
@@ -501,11 +542,6 @@ function ask_question(tag_feedback,question_id,question,answers,right_ans,questi
 } // end function ask_question
 
 
-// function check_input(f)
-// {
-// 	return false;
-// }
-
 function check_input(f)
 {
 // alert('1: '+f['question_19'].value);
@@ -561,14 +597,22 @@ function check_input(f)
 	}
 	
 	// verifica correttezza 8 squadre ammesse quarti di finale
-	gironeA = new Array("Barcellona","Levski Sofia","Chelsea","Werder Brema");
-	gironeB = new Array("Bayern Monaco","Spartak Mosca","Sporting Lisbona","Inter");
-	gironeC = new Array("Galatasaray","Bordeaux","Psv Eindhoven","Liverpool");
-	gironeD = new Array("Olympiakos Pireo","Valencia","Roma","Shakhtar Donetsk");
-	gironeE = new Array("Dynamo Kiev","Steaua Bucarest","Lione","Real Madrid");
-	gironeF = new Array("Fc Copenhagen","Benfica","Manchester United","Celtic Glasgow");
-	gironeG = new Array("Amburgo","Arsenal","Porto","Cska Mosca");
-	gironeH = new Array("Anderlecht","Lille","Milan","Aek Atene");
+/*	gironeA = new Array("Chelsea","Barcellona");
+	gironeB = new Array("Bayern Monaco","Inter");
+	gironeC = new Array("Liverpool","Psv Eindhoven");
+	gironeD = new Array("Valencia","Roma");
+	gironeE = new Array("Lione","Real Madrid");
+	gironeF = new Array("Manchester United","Celtic Glasgow");
+	gironeG = new Array("Arsenal","Porto");
+	gironeH = new Array("Milan","Lille");*/
+	gironeA = new Array("Chelsea","Porto");
+	gironeB = new Array("Arsenal","Psv Eindhoven");
+	gironeC = new Array("Lione","Roma");
+	gironeD = new Array("Bayern Monaco","Real Madrid");
+	gironeE = new Array("Milan","Celtic Glasgow");
+	gironeF = new Array("Manchester United","Lille");
+	gironeG = new Array("Liverpool","Barcellona");
+	gironeH = new Array("Valencia","Inter");
 	
 	gironi = new Array(gironeA,gironeB,gironeC,gironeD,gironeE,gironeF,gironeG,gironeH);
 	
@@ -601,10 +645,10 @@ function check_input(f)
 	// visualizza messaggio d'errore nel caso non siano indicate 2 squadre per girone
 	if (gironi_errati)
 	{
-		msg = "Nei qualificati agli ottavi di finale non sono indicate "+num_per_girone+" squadre per ciascun girone:";
+		msg = "Nei qualificati agli ottavi di finale non viene indicata "+num_per_girone+" squadra/e per ciascuno scontro:";
 		for (i=0; i<=7; i++)
 		{
-			msg += "\n    Girone "+String.fromCharCode(i+65)+': '+vettore_gironi[i]; 
+			msg += "\n    Scontro "+String.fromCharCode(i+65)+': '+vettore_gironi[i]; 
 			
 			errore = vettore_gironi[i]-num_per_girone;
 			if (errore > 0)
@@ -675,22 +719,14 @@ function check_input(f)
 	
 	// verifica correttezza squadra vincitrice
 	squadra = list_C[0];
-	ripetizioni = occurrencies(squadra,list_S);
+	ripetizioni = occurrencies(squadra,list_F);
 	if (ripetizioni != 1)
+// 	if (0) // !!!
 	{
 		alert('La squadra '+squadra+" e' indicata come vincitrice, ma non e' presente tra quelle qualificate in finale!");
 		return false;
 	}
 // 	alert('Qualificati ('+(ripetizioni)+'): '+squadra);
-	
-	// verifica la presenza all'interno del gruppo precedente
-	ripetizioni = occurrencies(squadra,list_F);
-	if (ripetizioni != 1)
-if (0) // !!!
-	{
-		alert('La squadra '+squadra+" compare come vincitrice, ma non e' presente tra quelle qualificate in finale!");
-		return false;
-	}
 	
 	
 	// gestisci dati anagrafici
@@ -743,10 +779,10 @@ if (0) // !!!
 		switch (auth_provenienza.toUpperCase(auth_provenienza))
 		{
 		case 'CAPOSELE':
-		case 'MATERDOMINI':
+/*		case 'MATERDOMINI':
 		case 'PORTELLA':
 		case 'BUONINVENTRE':
-		case 'PASANO':
+		case 'PASANO':*/
 			num_domande = <?php echo $num_domande; ?>; // numero di domande da porre
 			num_allowed_errors = <?php echo $num_allowed_errors; ?>; // numero di errori consentiti per superare comunque la verifica
 			len_risposta = 6;// numero di caratteri per ciascuna risposta (2 per la domanda, 2 per la risposta, 2 per esito)
@@ -790,7 +826,6 @@ if (0) // !!!
 				{
 					// se nell'ultima posizione di ciascun esito c'e' 1, la risposta e' corretta
 					if (auth_caposelese.substring(i*len_risposta+6,i*len_risposta+6+1) == '1') 
-	//				if (auth_caposelese[i*len_risposta+6] == '1') 
 					{
 						right_answers++;
 					}
@@ -814,10 +849,12 @@ if (0) // !!!
 	}
 	
 	// prima lettera maiuscola, rimanenti minuscole
-	provenienza = auth_provenienza.substring(1,auth_provenienza.length);
-	provenienza = auth_provenienza.substring(0,1)+provenienza.toLowerCase(provenienza);
+	auth_nome 	= prima_lettera_maiuscola(auth_nome);
+	auth_cognome 	= prima_lettera_maiuscola(auth_cognome);
+	auth_provenienza= prima_lettera_maiuscola(auth_provenienza);
 	
-	auth_hidden = auth_nome+';'+auth_cognome+';'+auth_nato+';'+provenienza
+	// campo univoco (non puo' ripetersi tra due giocate)
+	auth_hidden = auth_nome+';'+auth_cognome+';'+auth_nato+';'+auth_provenienza;
 	
 	// imposta campo auth_token
 	tag = 'auth_token'; // nome del campo nascosto
@@ -830,17 +867,21 @@ if (0) // !!!
 	
 	// gestione campi amministrativi
 	tag = 'data_giocata';
-	
-	if (f[tag])
+	if (f[tag]) // se il campo esiste (e quindi si e' in modalita' amministrativa...
 	{
 		data_giocata = f[tag].value;
 		
 		// verifica formato data (auth_nato)
-		formato_data = /^[0-9]{2}:[0-9]{2} [0-9]{2}\/[0-9]{2}\/[0-9]{4}$/;
+		formato_data = /^[0-9]{2}\/[0-9]{2}\/[0-9]{4}$/;
 		if (!data_giocata.match(formato_data))
 		{
-			alert("Il formato della data della giocata deve essere hh:mm gg/mm/aaaa (es. 12:00 31/12/1974)!");
+			alert("Il formato della data della giocata deve essere gg/mm/aaaa (es. 31/12/2006)!");
 			return false;
+		}
+		else
+		{
+			data_giocata = "12:00 "+data_giocata; // aggiungi ora e minuti fittizi
+			f[tag].value = data_giocata;
 		}
 	}
 
@@ -960,7 +1001,7 @@ if (!empty($messaggio_stato_sondaggio)) {
   <td></td>
   <td class=xl34>nato/a il</td>
   <td></td>
-  <td class=xl34>provenienza</td>
+  <td class=xl34>comune di origine</td>
   <td colspan=5></td>
  </tr>
  <tr style='height:14.25pt' align='left'>
@@ -1036,26 +1077,26 @@ if (!empty($messaggio_stato_sondaggio)) {
  </tr>
  <tr style='height:10.95pt'>
   <td style='height:10.95pt'></td>
-  <td class=xl50>squadra #A1</td>
+  <td class=xl50>Porto G2</td>
   <td></td>
-  <td class=xl50>squadra #B1</td>
+  <td class=xl50>Psv Eindhoven C2</td>
   <td></td>
-  <td class=xl50>squadra #C1</td>
+  <td class=xl50>Roma D2</td>
   <td></td>
-  <td class=xl50>squadra #D1</td>
+  <td class=xl50>Real Madrid E2</td>
   <td colspan=2></td>
   <td class=xl57 style="background:#ffffc0;">Ottavi di finale</td>
   <td colspan=2></td>
  </tr>
  <tr style='height:10.95pt'>
   <td style='height:10.95pt'></td>
-  <td class=xl51>squadra #A2</td>
+  <td class=xl51>Chelsea A1</td>
   <td></td>
-  <td class=xl51>squadra #B2</td>
+  <td class=xl51>Arsenal G1</td>
   <td></td>
-  <td class=xl51>squadra #C2</td>
+  <td class=xl51>Lione E1</td>
   <td></td>
-  <td class=xl51>squadra #D2</td>
+  <td class=xl51>Bayern Monaco B1</td>
   <td></td>
   <td></td>
   <td rowspan=2 class=xl59  style="background:#ffffc0;">andata 20-21/02/2007</td>
@@ -1070,13 +1111,13 @@ if (!empty($messaggio_stato_sondaggio)) {
  </tr>
  <tr style='height:10.95pt'>
   <td style='height:10.95pt'></td>
-  <td class=xl50>squadra #E1</td>
+  <td class=xl50>Celtic F2</td>
   <td></td>
-  <td class=xl50>squadra #F1</td>
+  <td class=xl50>Lilla H2</td>
   <td></td>
-  <td class=xl50>squadra #G1</td>
+  <td class=xl50>Barcellona A2</td>
   <td></td>
-  <td class=xl50>squadra #H1</td>
+  <td class=xl50>Inter B2</td>
   <td></td>
   <td></td>
   <td class=xl58  style="background:#ffffc0;">ritorno 06-07/03/2007</td>
@@ -1084,13 +1125,13 @@ if (!empty($messaggio_stato_sondaggio)) {
  </tr>
  <tr style='height:10.75pt'>
   <td style='height:10.75pt'></td>
-  <td class=xl51>squadra #E2</td>
+  <td class=xl51>Milan H1</td>
   <td></td>
-  <td class=xl51>squadra #F2</td>
+  <td class=xl51>Manch. United F1</td>
   <td></td>
-  <td class=xl51>squadra #G2</td>
+  <td class=xl51>Liverpool C1</td>
   <td></td>
-  <td class=xl51>squadra #H2</td>
+  <td class=xl51>Valencia D1</td>
   <td></td>
   <td></td>
   <td></td>
@@ -1124,41 +1165,25 @@ if (!empty($messaggio_stato_sondaggio)) {
 <!-- #1 -->
 <select name='question_00' style="width:100pt;">
 <option>&nbsp;</option>
-<option>Barcellona</option>
-<option>Levski Sofia</option>
-<option>Chelsea</option>
-<option>Werder Brema</option>
-<option>Bayern Monaco</option>
-<option>Spartak Mosca</option>
-<option>Sporting Lisbona</option>
+<option value="Porto">Porto</option>
+<option value="Chelsea">Chelsea</option>
+<option value="Psv Eindhoven">Psv Eindhoven</option>
+<option value="Arsenal">Arsenal</option>
 
-<option>Inter</option>
-<option>Galatasaray</option>
-<option>Bordeaux</option>
-<option>Psv Eindhoven</option>
-<option>Liverpool</option>
-<option>Olympiakos Pireo</option>
-<option>Valencia</option>
-<option>Roma</option>
-<option>Shakhtar Donetsk</option>
+<option value="Roma">Roma</option>
+<option value="Lione">Lione</option>
+<option value="Real Madrid">Real Madrid</option>
+<option value="Bayern Monaco">Bayern Monaco</option>
 
-<option>Dynamo Kiev</option>
-<option>Steaua Bucarest</option>
-<option>Lione</option>
-<option>Real Madrid</option>
-<option>Fc Copenhagen</option>
-<option>Benfica</option>
-<option>Manchester United</option>
-<option>Celtic Glasgow</option>
-<option>Amburgo</option>
+<option value="Celtic Glasgow">Celtic Glasgow</option>
+<option value="Milan">Milan</option>
+<option value="Lille">Lille</option>
+<option value="Manchester United">Manchester United</option>
 
-<option>Arsenal</option>
-<option>Porto</option>
-<option>Cska Mosca</option>
-<option>Anderlecht</option>
-<option>Lille</option>
-<option>Milan</option>
-<option>Aek Atene</option>
+<option value="Barcellona">Barcellona</option>
+<option value="Liverpool">Liverpool</option>
+<option value="Valencia">Valencia</option>
+<option value="Inter">Inter</option>
 </select>
 
 
@@ -1169,41 +1194,25 @@ if (!empty($messaggio_stato_sondaggio)) {
 <!-- #2 -->
 <select name='question_01' style="width:100pt;">
 <option>&nbsp;</option>
-<option>Barcellona</option>
-<option>Levski Sofia</option>
-<option>Chelsea</option>
-<option>Werder Brema</option>
-<option>Bayern Monaco</option>
-<option>Spartak Mosca</option>
-<option>Sporting Lisbona</option>
+<option value="Porto">Porto</option>
+<option value="Chelsea">Chelsea</option>
+<option value="Psv Eindhoven">Psv Eindhoven</option>
+<option value="Arsenal">Arsenal</option>
 
-<option>Inter</option>
-<option>Galatasaray</option>
-<option>Bordeaux</option>
-<option>Psv Eindhoven</option>
-<option>Liverpool</option>
-<option>Olympiakos Pireo</option>
-<option>Valencia</option>
-<option>Roma</option>
-<option>Shakhtar Donetsk</option>
+<option value="Roma">Roma</option>
+<option value="Lione">Lione</option>
+<option value="Real Madrid">Real Madrid</option>
+<option value="Bayern Monaco">Bayern Monaco</option>
 
-<option>Dynamo Kiev</option>
-<option>Steaua Bucarest</option>
-<option>Lione</option>
-<option>Real Madrid</option>
-<option>Fc Copenhagen</option>
-<option>Benfica</option>
-<option>Manchester United</option>
-<option>Celtic Glasgow</option>
-<option>Amburgo</option>
+<option value="Celtic Glasgow">Celtic Glasgow</option>
+<option value="Milan">Milan</option>
+<option value="Lille">Lille</option>
+<option value="Manchester United">Manchester United</option>
 
-<option>Arsenal</option>
-<option>Porto</option>
-<option>Cska Mosca</option>
-<option>Anderlecht</option>
-<option>Lille</option>
-<option>Milan</option>
-<option>Aek Atene</option>
+<option value="Barcellona">Barcellona</option>
+<option value="Liverpool">Liverpool</option>
+<option value="Valencia">Valencia</option>
+<option value="Inter">Inter</option>
 </select>
 
 
@@ -1214,41 +1223,25 @@ if (!empty($messaggio_stato_sondaggio)) {
 <!-- #3 -->
 <select name='question_02' style="width:100pt;">
 <option>&nbsp;</option>
-<option>Barcellona</option>
-<option>Levski Sofia</option>
-<option>Chelsea</option>
-<option>Werder Brema</option>
-<option>Bayern Monaco</option>
-<option>Spartak Mosca</option>
-<option>Sporting Lisbona</option>
+<option value="Porto">Porto</option>
+<option value="Chelsea">Chelsea</option>
+<option value="Psv Eindhoven">Psv Eindhoven</option>
+<option value="Arsenal">Arsenal</option>
 
-<option>Inter</option>
-<option>Galatasaray</option>
-<option>Bordeaux</option>
-<option>Psv Eindhoven</option>
-<option>Liverpool</option>
-<option>Olympiakos Pireo</option>
-<option>Valencia</option>
-<option>Roma</option>
-<option>Shakhtar Donetsk</option>
+<option value="Roma">Roma</option>
+<option value="Lione">Lione</option>
+<option value="Real Madrid">Real Madrid</option>
+<option value="Bayern Monaco">Bayern Monaco</option>
 
-<option>Dynamo Kiev</option>
-<option>Steaua Bucarest</option>
-<option>Lione</option>
-<option>Real Madrid</option>
-<option>Fc Copenhagen</option>
-<option>Benfica</option>
-<option>Manchester United</option>
-<option>Celtic Glasgow</option>
-<option>Amburgo</option>
+<option value="Celtic Glasgow">Celtic Glasgow</option>
+<option value="Milan">Milan</option>
+<option value="Lille">Lille</option>
+<option value="Manchester United">Manchester United</option>
 
-<option>Arsenal</option>
-<option>Porto</option>
-<option>Cska Mosca</option>
-<option>Anderlecht</option>
-<option>Lille</option>
-<option>Milan</option>
-<option>Aek Atene</option>
+<option value="Barcellona">Barcellona</option>
+<option value="Liverpool">Liverpool</option>
+<option value="Valencia">Valencia</option>
+<option value="Inter">Inter</option>
 </select>
 
 
@@ -1261,41 +1254,25 @@ if (!empty($messaggio_stato_sondaggio)) {
 <!-- #4 -->
 <select name='question_03' style="width:100pt;">
 <option>&nbsp;</option>
-<option>Barcellona</option>
-<option>Levski Sofia</option>
-<option>Chelsea</option>
-<option>Werder Brema</option>
-<option>Bayern Monaco</option>
-<option>Spartak Mosca</option>
-<option>Sporting Lisbona</option>
+<option value="Porto">Porto</option>
+<option value="Chelsea">Chelsea</option>
+<option value="Psv Eindhoven">Psv Eindhoven</option>
+<option value="Arsenal">Arsenal</option>
 
-<option>Inter</option>
-<option>Galatasaray</option>
-<option>Bordeaux</option>
-<option>Psv Eindhoven</option>
-<option>Liverpool</option>
-<option>Olympiakos Pireo</option>
-<option>Valencia</option>
-<option>Roma</option>
-<option>Shakhtar Donetsk</option>
+<option value="Roma">Roma</option>
+<option value="Lione">Lione</option>
+<option value="Real Madrid">Real Madrid</option>
+<option value="Bayern Monaco">Bayern Monaco</option>
 
-<option>Dynamo Kiev</option>
-<option>Steaua Bucarest</option>
-<option>Lione</option>
-<option>Real Madrid</option>
-<option>Fc Copenhagen</option>
-<option>Benfica</option>
-<option>Manchester United</option>
-<option>Celtic Glasgow</option>
-<option>Amburgo</option>
+<option value="Celtic Glasgow">Celtic Glasgow</option>
+<option value="Milan">Milan</option>
+<option value="Lille">Lille</option>
+<option value="Manchester United">Manchester United</option>
 
-<option>Arsenal</option>
-<option>Porto</option>
-<option>Cska Mosca</option>
-<option>Anderlecht</option>
-<option>Lille</option>
-<option>Milan</option>
-<option>Aek Atene</option>
+<option value="Barcellona">Barcellona</option>
+<option value="Liverpool">Liverpool</option>
+<option value="Valencia">Valencia</option>
+<option value="Inter">Inter</option>
 </select>
 
 
@@ -1314,41 +1291,25 @@ if (!empty($messaggio_stato_sondaggio)) {
 <!-- #5 -->
 <select name='question_04' style="width:100pt;">
 <option>&nbsp;</option>
-<option>Barcellona</option>
-<option>Levski Sofia</option>
-<option>Chelsea</option>
-<option>Werder Brema</option>
-<option>Bayern Monaco</option>
-<option>Spartak Mosca</option>
-<option>Sporting Lisbona</option>
+<option value="Porto">Porto</option>
+<option value="Chelsea">Chelsea</option>
+<option value="Psv Eindhoven">Psv Eindhoven</option>
+<option value="Arsenal">Arsenal</option>
 
-<option>Inter</option>
-<option>Galatasaray</option>
-<option>Bordeaux</option>
-<option>Psv Eindhoven</option>
-<option>Liverpool</option>
-<option>Olympiakos Pireo</option>
-<option>Valencia</option>
-<option>Roma</option>
-<option>Shakhtar Donetsk</option>
+<option value="Roma">Roma</option>
+<option value="Lione">Lione</option>
+<option value="Real Madrid">Real Madrid</option>
+<option value="Bayern Monaco">Bayern Monaco</option>
 
-<option>Dynamo Kiev</option>
-<option>Steaua Bucarest</option>
-<option>Lione</option>
-<option>Real Madrid</option>
-<option>Fc Copenhagen</option>
-<option>Benfica</option>
-<option>Manchester United</option>
-<option>Celtic Glasgow</option>
-<option>Amburgo</option>
+<option value="Celtic Glasgow">Celtic Glasgow</option>
+<option value="Milan">Milan</option>
+<option value="Lille">Lille</option>
+<option value="Manchester United">Manchester United</option>
 
-<option>Arsenal</option>
-<option>Porto</option>
-<option>Cska Mosca</option>
-<option>Anderlecht</option>
-<option>Lille</option>
-<option>Milan</option>
-<option>Aek Atene</option>
+<option value="Barcellona">Barcellona</option>
+<option value="Liverpool">Liverpool</option>
+<option value="Valencia">Valencia</option>
+<option value="Inter">Inter</option>
 </select>
 
 
@@ -1361,41 +1322,25 @@ if (!empty($messaggio_stato_sondaggio)) {
 <!-- #6 -->
 <select name='question_05' style="width:100pt;">
 <option>&nbsp;</option>
-<option>Barcellona</option>
-<option>Levski Sofia</option>
-<option>Chelsea</option>
-<option>Werder Brema</option>
-<option>Bayern Monaco</option>
-<option>Spartak Mosca</option>
-<option>Sporting Lisbona</option>
+<option value="Porto">Porto</option>
+<option value="Chelsea">Chelsea</option>
+<option value="Psv Eindhoven">Psv Eindhoven</option>
+<option value="Arsenal">Arsenal</option>
 
-<option>Inter</option>
-<option>Galatasaray</option>
-<option>Bordeaux</option>
-<option>Psv Eindhoven</option>
-<option>Liverpool</option>
-<option>Olympiakos Pireo</option>
-<option>Valencia</option>
-<option>Roma</option>
-<option>Shakhtar Donetsk</option>
+<option value="Roma">Roma</option>
+<option value="Lione">Lione</option>
+<option value="Real Madrid">Real Madrid</option>
+<option value="Bayern Monaco">Bayern Monaco</option>
 
-<option>Dynamo Kiev</option>
-<option>Steaua Bucarest</option>
-<option>Lione</option>
-<option>Real Madrid</option>
-<option>Fc Copenhagen</option>
-<option>Benfica</option>
-<option>Manchester United</option>
-<option>Celtic Glasgow</option>
-<option>Amburgo</option>
+<option value="Celtic Glasgow">Celtic Glasgow</option>
+<option value="Milan">Milan</option>
+<option value="Lille">Lille</option>
+<option value="Manchester United">Manchester United</option>
 
-<option>Arsenal</option>
-<option>Porto</option>
-<option>Cska Mosca</option>
-<option>Anderlecht</option>
-<option>Lille</option>
-<option>Milan</option>
-<option>Aek Atene</option>
+<option value="Barcellona">Barcellona</option>
+<option value="Liverpool">Liverpool</option>
+<option value="Valencia">Valencia</option>
+<option value="Inter">Inter</option>
 </select>
 
 
@@ -1408,41 +1353,25 @@ if (!empty($messaggio_stato_sondaggio)) {
 <!-- #7 -->
 <select name='question_06' style="width:100pt;">
 <option>&nbsp;</option>
-<option>Barcellona</option>
-<option>Levski Sofia</option>
-<option>Chelsea</option>
-<option>Werder Brema</option>
-<option>Bayern Monaco</option>
-<option>Spartak Mosca</option>
-<option>Sporting Lisbona</option>
+<option value="Porto">Porto</option>
+<option value="Chelsea">Chelsea</option>
+<option value="Psv Eindhoven">Psv Eindhoven</option>
+<option value="Arsenal">Arsenal</option>
 
-<option>Inter</option>
-<option>Galatasaray</option>
-<option>Bordeaux</option>
-<option>Psv Eindhoven</option>
-<option>Liverpool</option>
-<option>Olympiakos Pireo</option>
-<option>Valencia</option>
-<option>Roma</option>
-<option>Shakhtar Donetsk</option>
+<option value="Roma">Roma</option>
+<option value="Lione">Lione</option>
+<option value="Real Madrid">Real Madrid</option>
+<option value="Bayern Monaco">Bayern Monaco</option>
 
-<option>Dynamo Kiev</option>
-<option>Steaua Bucarest</option>
-<option>Lione</option>
-<option>Real Madrid</option>
-<option>Fc Copenhagen</option>
-<option>Benfica</option>
-<option>Manchester United</option>
-<option>Celtic Glasgow</option>
-<option>Amburgo</option>
+<option value="Celtic Glasgow">Celtic Glasgow</option>
+<option value="Milan">Milan</option>
+<option value="Lille">Lille</option>
+<option value="Manchester United">Manchester United</option>
 
-<option>Arsenal</option>
-<option>Porto</option>
-<option>Cska Mosca</option>
-<option>Anderlecht</option>
-<option>Lille</option>
-<option>Milan</option>
-<option>Aek Atene</option>
+<option value="Barcellona">Barcellona</option>
+<option value="Liverpool">Liverpool</option>
+<option value="Valencia">Valencia</option>
+<option value="Inter">Inter</option>
 </select>
 
 
@@ -1455,41 +1384,25 @@ if (!empty($messaggio_stato_sondaggio)) {
 <!-- #8 -->
 <select name='question_07' style="width:100pt;">
 <option>&nbsp;</option>
-<option>Barcellona</option>
-<option>Levski Sofia</option>
-<option>Chelsea</option>
-<option>Werder Brema</option>
-<option>Bayern Monaco</option>
-<option>Spartak Mosca</option>
-<option>Sporting Lisbona</option>
+<option value="Porto">Porto</option>
+<option value="Chelsea">Chelsea</option>
+<option value="Psv Eindhoven">Psv Eindhoven</option>
+<option value="Arsenal">Arsenal</option>
 
-<option>Inter</option>
-<option>Galatasaray</option>
-<option>Bordeaux</option>
-<option>Psv Eindhoven</option>
-<option>Liverpool</option>
-<option>Olympiakos Pireo</option>
-<option>Valencia</option>
-<option>Roma</option>
-<option>Shakhtar Donetsk</option>
+<option value="Roma">Roma</option>
+<option value="Lione">Lione</option>
+<option value="Real Madrid">Real Madrid</option>
+<option value="Bayern Monaco">Bayern Monaco</option>
 
-<option>Dynamo Kiev</option>
-<option>Steaua Bucarest</option>
-<option>Lione</option>
-<option>Real Madrid</option>
-<option>Fc Copenhagen</option>
-<option>Benfica</option>
-<option>Manchester United</option>
-<option>Celtic Glasgow</option>
-<option>Amburgo</option>
+<option value="Celtic Glasgow">Celtic Glasgow</option>
+<option value="Milan">Milan</option>
+<option value="Lille">Lille</option>
+<option value="Manchester United">Manchester United</option>
 
-<option>Arsenal</option>
-<option>Porto</option>
-<option>Cska Mosca</option>
-<option>Anderlecht</option>
-<option>Lille</option>
-<option>Milan</option>
-<option>Aek Atene</option>
+<option value="Barcellona">Barcellona</option>
+<option value="Liverpool">Liverpool</option>
+<option value="Valencia">Valencia</option>
+<option value="Inter">Inter</option>
 </select>
 
 
@@ -1522,41 +1435,25 @@ if (!empty($messaggio_stato_sondaggio)) {
 <!-- #9 -->
 <select name='question_08' style="width:100pt;">
 <option>&nbsp;</option>
-<option>Barcellona</option>
-<option>Levski Sofia</option>
-<option>Chelsea</option>
-<option>Werder Brema</option>
-<option>Bayern Monaco</option>
-<option>Spartak Mosca</option>
-<option>Sporting Lisbona</option>
+<option value="Porto">Porto</option>
+<option value="Chelsea">Chelsea</option>
+<option value="Psv Eindhoven">Psv Eindhoven</option>
+<option value="Arsenal">Arsenal</option>
 
-<option>Inter</option>
-<option>Galatasaray</option>
-<option>Bordeaux</option>
-<option>Psv Eindhoven</option>
-<option>Liverpool</option>
-<option>Olympiakos Pireo</option>
-<option>Valencia</option>
-<option>Roma</option>
-<option>Shakhtar Donetsk</option>
+<option value="Roma">Roma</option>
+<option value="Lione">Lione</option>
+<option value="Real Madrid">Real Madrid</option>
+<option value="Bayern Monaco">Bayern Monaco</option>
 
-<option>Dynamo Kiev</option>
-<option>Steaua Bucarest</option>
-<option>Lione</option>
-<option>Real Madrid</option>
-<option>Fc Copenhagen</option>
-<option>Benfica</option>
-<option>Manchester United</option>
-<option>Celtic Glasgow</option>
-<option>Amburgo</option>
+<option value="Celtic Glasgow">Celtic Glasgow</option>
+<option value="Milan">Milan</option>
+<option value="Lille">Lille</option>
+<option value="Manchester United">Manchester United</option>
 
-<option>Arsenal</option>
-<option>Porto</option>
-<option>Cska Mosca</option>
-<option>Anderlecht</option>
-<option>Lille</option>
-<option>Milan</option>
-<option>Aek Atene</option>
+<option value="Barcellona">Barcellona</option>
+<option value="Liverpool">Liverpool</option>
+<option value="Valencia">Valencia</option>
+<option value="Inter">Inter</option>
 </select>
 
 
@@ -1569,41 +1466,25 @@ if (!empty($messaggio_stato_sondaggio)) {
 <!-- #10 -->
 <select name='question_09' style="width:100pt;">
 <option>&nbsp;</option>
-<option>Barcellona</option>
-<option>Levski Sofia</option>
-<option>Chelsea</option>
-<option>Werder Brema</option>
-<option>Bayern Monaco</option>
-<option>Spartak Mosca</option>
-<option>Sporting Lisbona</option>
+<option value="Porto">Porto</option>
+<option value="Chelsea">Chelsea</option>
+<option value="Psv Eindhoven">Psv Eindhoven</option>
+<option value="Arsenal">Arsenal</option>
 
-<option>Inter</option>
-<option>Galatasaray</option>
-<option>Bordeaux</option>
-<option>Psv Eindhoven</option>
-<option>Liverpool</option>
-<option>Olympiakos Pireo</option>
-<option>Valencia</option>
-<option>Roma</option>
-<option>Shakhtar Donetsk</option>
+<option value="Roma">Roma</option>
+<option value="Lione">Lione</option>
+<option value="Real Madrid">Real Madrid</option>
+<option value="Bayern Monaco">Bayern Monaco</option>
 
-<option>Dynamo Kiev</option>
-<option>Steaua Bucarest</option>
-<option>Lione</option>
-<option>Real Madrid</option>
-<option>Fc Copenhagen</option>
-<option>Benfica</option>
-<option>Manchester United</option>
-<option>Celtic Glasgow</option>
-<option>Amburgo</option>
+<option value="Celtic Glasgow">Celtic Glasgow</option>
+<option value="Milan">Milan</option>
+<option value="Lille">Lille</option>
+<option value="Manchester United">Manchester United</option>
 
-<option>Arsenal</option>
-<option>Porto</option>
-<option>Cska Mosca</option>
-<option>Anderlecht</option>
-<option>Lille</option>
-<option>Milan</option>
-<option>Aek Atene</option>
+<option value="Barcellona">Barcellona</option>
+<option value="Liverpool">Liverpool</option>
+<option value="Valencia">Valencia</option>
+<option value="Inter">Inter</option>
 </select>
 
 
@@ -1616,41 +1497,25 @@ if (!empty($messaggio_stato_sondaggio)) {
 <!-- #11 -->
 <select name='question_10' style="width:100pt;">
 <option>&nbsp;</option>
-<option>Barcellona</option>
-<option>Levski Sofia</option>
-<option>Chelsea</option>
-<option>Werder Brema</option>
-<option>Bayern Monaco</option>
-<option>Spartak Mosca</option>
-<option>Sporting Lisbona</option>
+<option value="Porto">Porto</option>
+<option value="Chelsea">Chelsea</option>
+<option value="Psv Eindhoven">Psv Eindhoven</option>
+<option value="Arsenal">Arsenal</option>
 
-<option>Inter</option>
-<option>Galatasaray</option>
-<option>Bordeaux</option>
-<option>Psv Eindhoven</option>
-<option>Liverpool</option>
-<option>Olympiakos Pireo</option>
-<option>Valencia</option>
-<option>Roma</option>
-<option>Shakhtar Donetsk</option>
+<option value="Roma">Roma</option>
+<option value="Lione">Lione</option>
+<option value="Real Madrid">Real Madrid</option>
+<option value="Bayern Monaco">Bayern Monaco</option>
 
-<option>Dynamo Kiev</option>
-<option>Steaua Bucarest</option>
-<option>Lione</option>
-<option>Real Madrid</option>
-<option>Fc Copenhagen</option>
-<option>Benfica</option>
-<option>Manchester United</option>
-<option>Celtic Glasgow</option>
-<option>Amburgo</option>
+<option value="Celtic Glasgow">Celtic Glasgow</option>
+<option value="Milan">Milan</option>
+<option value="Lille">Lille</option>
+<option value="Manchester United">Manchester United</option>
 
-<option>Arsenal</option>
-<option>Porto</option>
-<option>Cska Mosca</option>
-<option>Anderlecht</option>
-<option>Lille</option>
-<option>Milan</option>
-<option>Aek Atene</option>
+<option value="Barcellona">Barcellona</option>
+<option value="Liverpool">Liverpool</option>
+<option value="Valencia">Valencia</option>
+<option value="Inter">Inter</option>
 </select>
 
 
@@ -1663,41 +1528,25 @@ if (!empty($messaggio_stato_sondaggio)) {
 <!-- #12 -->
 <select name='question_11' style="width:100pt;">
 <option>&nbsp;</option>
-<option>Barcellona</option>
-<option>Levski Sofia</option>
-<option>Chelsea</option>
-<option>Werder Brema</option>
-<option>Bayern Monaco</option>
-<option>Spartak Mosca</option>
-<option>Sporting Lisbona</option>
+<option value="Porto">Porto</option>
+<option value="Chelsea">Chelsea</option>
+<option value="Psv Eindhoven">Psv Eindhoven</option>
+<option value="Arsenal">Arsenal</option>
 
-<option>Inter</option>
-<option>Galatasaray</option>
-<option>Bordeaux</option>
-<option>Psv Eindhoven</option>
-<option>Liverpool</option>
-<option>Olympiakos Pireo</option>
-<option>Valencia</option>
-<option>Roma</option>
-<option>Shakhtar Donetsk</option>
+<option value="Roma">Roma</option>
+<option value="Lione">Lione</option>
+<option value="Real Madrid">Real Madrid</option>
+<option value="Bayern Monaco">Bayern Monaco</option>
 
-<option>Dynamo Kiev</option>
-<option>Steaua Bucarest</option>
-<option>Lione</option>
-<option>Real Madrid</option>
-<option>Fc Copenhagen</option>
-<option>Benfica</option>
-<option>Manchester United</option>
-<option>Celtic Glasgow</option>
-<option>Amburgo</option>
+<option value="Celtic Glasgow">Celtic Glasgow</option>
+<option value="Milan">Milan</option>
+<option value="Lille">Lille</option>
+<option value="Manchester United">Manchester United</option>
 
-<option>Arsenal</option>
-<option>Porto</option>
-<option>Cska Mosca</option>
-<option>Anderlecht</option>
-<option>Lille</option>
-<option>Milan</option>
-<option>Aek Atene</option>
+<option value="Barcellona">Barcellona</option>
+<option value="Liverpool">Liverpool</option>
+<option value="Valencia">Valencia</option>
+<option value="Inter">Inter</option>
 </select>
 
 
@@ -1736,41 +1585,25 @@ if (!empty($messaggio_stato_sondaggio)) {
 <!-- #13 -->
 <select name='question_12' style="width:100pt;">
 <option>&nbsp;</option>
-<option>Barcellona</option>
-<option>Levski Sofia</option>
-<option>Chelsea</option>
-<option>Werder Brema</option>
-<option>Bayern Monaco</option>
-<option>Spartak Mosca</option>
-<option>Sporting Lisbona</option>
+<option value="Porto">Porto</option>
+<option value="Chelsea">Chelsea</option>
+<option value="Psv Eindhoven">Psv Eindhoven</option>
+<option value="Arsenal">Arsenal</option>
 
-<option>Inter</option>
-<option>Galatasaray</option>
-<option>Bordeaux</option>
-<option>Psv Eindhoven</option>
-<option>Liverpool</option>
-<option>Olympiakos Pireo</option>
-<option>Valencia</option>
-<option>Roma</option>
-<option>Shakhtar Donetsk</option>
+<option value="Roma">Roma</option>
+<option value="Lione">Lione</option>
+<option value="Real Madrid">Real Madrid</option>
+<option value="Bayern Monaco">Bayern Monaco</option>
 
-<option>Dynamo Kiev</option>
-<option>Steaua Bucarest</option>
-<option>Lione</option>
-<option>Real Madrid</option>
-<option>Fc Copenhagen</option>
-<option>Benfica</option>
-<option>Manchester United</option>
-<option>Celtic Glasgow</option>
-<option>Amburgo</option>
+<option value="Celtic Glasgow">Celtic Glasgow</option>
+<option value="Milan">Milan</option>
+<option value="Lille">Lille</option>
+<option value="Manchester United">Manchester United</option>
 
-<option>Arsenal</option>
-<option>Porto</option>
-<option>Cska Mosca</option>
-<option>Anderlecht</option>
-<option>Lille</option>
-<option>Milan</option>
-<option>Aek Atene</option>
+<option value="Barcellona">Barcellona</option>
+<option value="Liverpool">Liverpool</option>
+<option value="Valencia">Valencia</option>
+<option value="Inter">Inter</option>
 </select>
 
 
@@ -1783,41 +1616,25 @@ if (!empty($messaggio_stato_sondaggio)) {
 <!-- #14 -->
 <select name='question_13' style="width:100pt;">
 <option>&nbsp;</option>
-<option>Barcellona</option>
-<option>Levski Sofia</option>
-<option>Chelsea</option>
-<option>Werder Brema</option>
-<option>Bayern Monaco</option>
-<option>Spartak Mosca</option>
-<option>Sporting Lisbona</option>
+<option value="Porto">Porto</option>
+<option value="Chelsea">Chelsea</option>
+<option value="Psv Eindhoven">Psv Eindhoven</option>
+<option value="Arsenal">Arsenal</option>
 
-<option>Inter</option>
-<option>Galatasaray</option>
-<option>Bordeaux</option>
-<option>Psv Eindhoven</option>
-<option>Liverpool</option>
-<option>Olympiakos Pireo</option>
-<option>Valencia</option>
-<option>Roma</option>
-<option>Shakhtar Donetsk</option>
+<option value="Roma">Roma</option>
+<option value="Lione">Lione</option>
+<option value="Real Madrid">Real Madrid</option>
+<option value="Bayern Monaco">Bayern Monaco</option>
 
-<option>Dynamo Kiev</option>
-<option>Steaua Bucarest</option>
-<option>Lione</option>
-<option>Real Madrid</option>
-<option>Fc Copenhagen</option>
-<option>Benfica</option>
-<option>Manchester United</option>
-<option>Celtic Glasgow</option>
-<option>Amburgo</option>
+<option value="Celtic Glasgow">Celtic Glasgow</option>
+<option value="Milan">Milan</option>
+<option value="Lille">Lille</option>
+<option value="Manchester United">Manchester United</option>
 
-<option>Arsenal</option>
-<option>Porto</option>
-<option>Cska Mosca</option>
-<option>Anderlecht</option>
-<option>Lille</option>
-<option>Milan</option>
-<option>Aek Atene</option>
+<option value="Barcellona">Barcellona</option>
+<option value="Liverpool">Liverpool</option>
+<option value="Valencia">Valencia</option>
+<option value="Inter">Inter</option>
 </select>
 
 
@@ -1831,41 +1648,25 @@ if (!empty($messaggio_stato_sondaggio)) {
 <!-- #15 -->
 <select name='question_14' style="width:100pt;">
 <option>&nbsp;</option>
-<option>Barcellona</option>
-<option>Levski Sofia</option>
-<option>Chelsea</option>
-<option>Werder Brema</option>
-<option>Bayern Monaco</option>
-<option>Spartak Mosca</option>
-<option>Sporting Lisbona</option>
+<option value="Porto">Porto</option>
+<option value="Chelsea">Chelsea</option>
+<option value="Psv Eindhoven">Psv Eindhoven</option>
+<option value="Arsenal">Arsenal</option>
 
-<option>Inter</option>
-<option>Galatasaray</option>
-<option>Bordeaux</option>
-<option>Psv Eindhoven</option>
-<option>Liverpool</option>
-<option>Olympiakos Pireo</option>
-<option>Valencia</option>
-<option>Roma</option>
-<option>Shakhtar Donetsk</option>
+<option value="Roma">Roma</option>
+<option value="Lione">Lione</option>
+<option value="Real Madrid">Real Madrid</option>
+<option value="Bayern Monaco">Bayern Monaco</option>
 
-<option>Dynamo Kiev</option>
-<option>Steaua Bucarest</option>
-<option>Lione</option>
-<option>Real Madrid</option>
-<option>Fc Copenhagen</option>
-<option>Benfica</option>
-<option>Manchester United</option>
-<option>Celtic Glasgow</option>
-<option>Amburgo</option>
+<option value="Celtic Glasgow">Celtic Glasgow</option>
+<option value="Milan">Milan</option>
+<option value="Lille">Lille</option>
+<option value="Manchester United">Manchester United</option>
 
-<option>Arsenal</option>
-<option>Porto</option>
-<option>Cska Mosca</option>
-<option>Anderlecht</option>
-<option>Lille</option>
-<option>Milan</option>
-<option>Aek Atene</option>
+<option value="Barcellona">Barcellona</option>
+<option value="Liverpool">Liverpool</option>
+<option value="Valencia">Valencia</option>
+<option value="Inter">Inter</option>
 </select>
 
 
@@ -1896,8 +1697,10 @@ if ($admin_mode) {
 	<td>&nbsp;</td>
 	<td colspan=10 align=left>
 		<b>
-		Data di ricezione giocata (hh:mm gg/mm/aaaa):
-		<input type="edit" name="data_giocata" value="24:00 01/01/2006" class='x137'>
+<!--		Data di ricezione giocata (hh:mm gg/mm/aaaa):
+		<input type="edit" name="data_giocata" value="24:00 01/01/2006" class='x137'>-->
+		Data di ricezione giocata (gg/mm/aaaa):
+		<input type="edit" name="data_giocata" value="20/12/2006" class='x137'>
 		</b>
 	<br>
 		<b>
@@ -1973,7 +1776,28 @@ if (!$info_mode)
   <td></td>
   <td colspan=2></td>
  </tr>
- 
+
+<?php
+$file_log = $root_path."custom/lotterie/".sprintf('lotteria_%03d_log.txt',$id_questions);
+if ($flag_show_results && file_exists($file_log))
+{
+?>
+ <tr style='height:12.0pt'>
+  <td colspan=10 style='height:12.0pt;'></td>
+  <td></td>
+  <td colspan=2></td>
+ </tr>
+ <tr style='height:12.0pt'>
+  <td style='height:12.0pt'></td>
+  <td class=xl49><a href="questions.php?id_questions=<?php echo $id_questions; ?>&amp;action=results">Visualizza i pronostici gi&agrave; salvati</a></td>
+  <td colspan=8></td>
+  <td></td>
+  <td colspan=2></td>
+ </tr>
+<?php
+}
+?>
+
  <tr style='height:12.0pt'>
   <td colspan=10 style='height:12.0pt;'></td>
   <td></td>
