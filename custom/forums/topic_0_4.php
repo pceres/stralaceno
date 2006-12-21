@@ -15,6 +15,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 1::Pasquale C.::23/10/2006 23.03.53::visible
 2::Ars::01/12/2006 12.30.55::visible
 3::Pasquale C.::02/12/2006 21.16.33::visible
+4::Ars::20/12/2006 12.34.00::visible
 
 [post_text_0]
 E' in preparazione un sondaggio sulle squadre prime classificate nella Champions League 2006/2007.
@@ -38,4 +39,7 @@ Se volete dare uno sguardo alla pagina di inserimento della giocata, attualmente
 &nbsp;
 I vostri suggerimenti saranno i benvenuti.
 &nbsp;
+
+[post_text_4]
+E' attivo il sondaggio Champions League: formulate pure le vostre previsioni.
 

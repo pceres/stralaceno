@@ -18,14 +18,14 @@ Formato [elenco_topics]:
 1::Come funziona il forum::hidden::::::ceres::1::
 2::Sondaggio sui mondiali di calcio 2006::open::::::ceres::3::2
 3::Estate caposelese::hidden::::users::Pasquale Ceres::2::1
-4::Sondaggio Champions League 2006/2007::open::::::Pasquale C.::4::3
+4::Sondaggio Champions League 2006/2007::open::::::Pasquale C.::5::4
 5::Benvenuti nel forum::hidden::::::ceres::4::3
 6::Come funziona il forum::open::::::ceres::3::2
-7::le sfide della Stralaceno::open::::::foxy::87::86
+7::le sfide della Stralaceno::open::::::foxy::97::96
 8::soddisfatti della stralaceno edizione 2006???::open::::::cabo86::4::3
 9::Discussione::open::::::Antonio::24::23
 10::ci siete?????::open::::::cabo::8::7
 11::La nuova sezione ciclismo::open::::::Donato Gervasio::4::3
 12::Allenamento Collettivo 30-12-2006::open::::::Ars::1::0
-13::per nazòn::open::::::antonio::3::2
+13::per nazòn::open::::::antonio::4::3
 

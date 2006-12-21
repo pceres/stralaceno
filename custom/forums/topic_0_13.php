@@ -14,6 +14,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 0::antonio::15/12/2006 18.18.17::visible
 1::paolo::17/12/2006 13.43.51::visible
 2::Riccardo::18/12/2006 16.48.44::visible
+3::NICOLA M.::19/12/2006 10.13.45::visible
 
 [post_text_0]
 è inutile che critichi perchè l'unico che fà il vero sport tra la gente a caposele è nicola melillo. Nicola vai avanti con la tua battaglia
@@ -28,4 +29,7 @@ x antonio
 Sei il solito che sa solo criticare e inserire messaggi per alimentare polimiche...
 &nbsp;
 &nbsp;
+
+[post_text_3]
+MA CHI E' QUESTO RICCARDO NON PREOCCUPARTI SALVATORE TIENI DURO CHE IO SONO CON TE LA SUA E' SOLO INVIDIA FORZA ABBIAMO FORMATO UN BEL GRUPPO IO ALEX PAOLO SALV. NON CI FACCIAMO INTIMORIRE DA QUESTE POLEMICHE INSIGNIFICANTI E BISOGNA CONTINUARE AD ALLENARCI PER NOI STESSI.CIAO
 

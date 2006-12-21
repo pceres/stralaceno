@@ -98,6 +98,16 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 84::Salvatore M.::17/12/2006 17.21.06::visible
 85::Riccardo::17/12/2006 18.52.32::visible
 86::Alessandro::18/12/2006 09.57.56::visible
+87::paolo::19/12/2006 01.36.12::visible
+88::Salvatore::19/12/2006 14.22.20::visible
+89::Alessandro::19/12/2006 15.37.48::visible
+90::Riccardo::20/12/2006 10.40.55::visible
+91::Riccardo::20/12/2006 12.03.37::visible
+92::paolo::20/12/2006 19.54.19::visible
+93::paolo::20/12/2006 20.02.58::visible
+94::Riccardo::20/12/2006 21.01.35::visible
+95::Gerry Marty::21/12/2006 00.00.13::visible
+96::Frangh e Cicc ::21/12/2006 00.07.13::visible
 
 [post_text_0]
 Aspettiamo le vostre dichiarazioni di sfida...
@@ -561,4 +571,56 @@ Durante le vacanze natalizie oltre a programmare solo allenamenti pensate anche 
 x Salvatore
 &nbsp;
 puoi già iniziare a fissare un allenamento per venerdì pomeriggio... ciao.
+
+[post_text_87]
+        x riccardo
+sicuramente, noi ci divertiamo correndo, per noi è una passione, una grande passione e la svolgiamo nel modo più felice possibile, senza privarci di altre cose come l'uscire ecc ecc...
+ok? buonanotte
+
+[post_text_88]
+Buon pomeriggio a tutti,innanzitutto vorrei dire a Paolo che l'altro giorno stavo scherzando...eh,non crederai mica che voglio dichiararti guerra...ho voluto precisare perchè potresti avermi frainteso..cmq,venerdì pomeriggio pensi di essere a Caposele?
+Ad alessandro vorrei dire che già ho programmato l'allenamento di venerdì,partiremo dal cimitero verso le 15.15 e cercheremo di fare un percorso di 9-10 km..poi ci metteremo d'accordo venerdì per il prossimo allenamento..secondo te va bene??
+Ovviamente spero che ci sarà anche qualcun altro oltre a me paolo alex e donatello,cercate di venire..
+Un saluto anche a Nicola Melillo, sabato saremo tutti al Partenio per festeggiare l'Avellino campione d'inverno,venerdì cerca di venire anche tu all'allenamento..
+&nbsp;
+Ciao
+
+[post_text_89]
+OK, l'allenamento è fissato per le 15.15 (cimitero comunale) di venerdì prossimo. L'invito è aperto a tutti. ciao.
+
+[post_text_90]
+Ma c'è un'altro Riccardo a cui ha risposto Nicola Melillo. Si prega, a questo mio omonimo, di specificarsi meglio per evitare incomprensioni.
+Per Paolo: mentre vi vedo continuamente alle prese con gli allenamenti, anche con continue discussioni, altrettanto non posso constatare p' l' femmn.
+Fate allenamento anche con loro!!!!!
+
+[post_text_91]
+per Riccardo
+&nbsp;
+Perchè non specifichi meglio tu chi sei, visto che vuoi fare sempre il furbo... dici apertamente chi sei e non scrivere per generare solo polemiche.
+
+[post_text_92]
+                               x riccardo
+ciao, hai perfettamente ragione, ma le ragazze non ne troviamo con quelle intenzioni; vedi sono tutte per una vita comoda,almeno nel nostro paese, quindi ci accontentiamo delle poche che troviamo anche se difficilmente; ma su questo fatto ci adattiamo molto volentieri!
+Il fatto che non ci senti parlare di ragazze, è che siamo tipi riservati, quindi non ne parliamo davanti a tutti ecco.
+Ah e poi uscendo nelle gare agonistiche nei paesi dintorni, abbiamo conosciuto un sacco di ragazze che corrono, perfino una professoressa universitaria...
+ciao e alla prossima!
+
+[post_text_93]
+x salvatore
+ciao, ho letto il tuo messaggio e vorrei assicurarti che è tutto a posto, non ho notato niente di negativo nei miei confronti! quindi va tutto bene!
+ci vediamo venerdi se faccio in tempo altrimenti sarà per il prossimo allenamento!
+
+[post_text_94]
+Per l'omonimo: credo che chi vuol generare polemiche sei solo tu. Guarda la risposta che ha dato Paolo, è stata diplomatica ed ha colto perfettamente il mio spirito.
+Poi se non vuoi aggiungere qualche altra iniziale, lo farò io sperando che, decidendo di inserirla anche tu, per puro caso non sia la stessa.....
+
+[post_text_95]
+io ho tanto accanimento per la corsa!!! ma ne ho altrettanto per le donne....fortunatamente ogni volta che faccio una gare incontro sempre una donna più forte di me, ecco perchè ce la metto sempre tutta!!! un saluto a tutti i soci ars
+ciao alex!!!
+
+[post_text_96]
+        ANNUNCIO
+salve siamo Frangh e Cicc                           STOP
+cerchiamo due pollastrelli che vogliono sfidarci    STOP
+ciao                                                STOP
 
