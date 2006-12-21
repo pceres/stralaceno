@@ -15,7 +15,7 @@
 #	data_presentazione_risultati	: hh:mm gg/mm/aaaa
 #
 [Attributi]
-Sondaggio Champions League 2006/2007::attiva::no_auth::00:00 20/12/2006::24:00 31/01/2007::08:00 26/05/2007
+Sondaggio Champions League 2006/2007::attiva::no_auth::00:00 20/12/2006::24:00 18/02/2007::08:00 26/05/2007
 #Sondaggio Champions League 2006/2007::attiva::no_auth::00:00 20/12/2006::00:00 31/01/2007::08:00 26/05/2007
 
 #
@@ -25,7 +25,7 @@ Sondaggio Champions League 2006/2007::attiva::no_auth::00:00 20/12/2006::24:00 3
 #	msg3: visualizzato dopo la chiusura delle giocate
 #
 [msg_date]
-Il sondaggio non &egrave; ancora aperto. Potrai giocare dalle 00:00 del 20/12::Si pu&ograve; giocare dalle 00:00 del 20/12 alle 24:00 del 31/01::Le giocate sono chiuse, la classifica sar&agrave; disponibile dalle 08:00 del 26/05
+Il sondaggio non &egrave; ancora aperto. Potrai giocare dalle 00:00 del 20/12::Si pu&ograve; giocare dalle 00:00 del 20/12 alle 24:00 del 18/02::Le giocate sono chiuse, la classifica sar&agrave; disponibile dalle 08:00 del 26/05
 
 #
 # Formato riga [keyfiles]:
@@ -136,7 +136,7 @@ caposelese_doc::free_string::::ripetibile
 2::eliminatorie::2&deg;) Risposte esatte per eliminatorie::4::0,1,2,3,4,5,6,7,8,9,10,11,12,13,14
 #2::esatte_per_gruppi::2&deg;) Numero risposte esatte::4,4,4,4,4,4,4,4,3,3,3,3,2,2,1 ::numero::1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 3::esatte_per_gruppi::3&deg;) Risposte esatte per gruppi::4,4,4,4,4,4,4,4,3,3,3,3,2,2,1::posizione::4,4,4,4,4,4,4,4,3,3,3,3,2,2,1
-4::data_giocata::4&deg;) Data giocata::12:00 ??/??/????::24:00 01/01/2007::24:00 31/01/2007
+4::data_giocata::4&deg;) Data giocata::12:00 ??/??/????::24:00 01/01/2007::24:00 18/02/2007
 
 
 [Gruppo qualificati quarti]
@@ -148,7 +148,7 @@ Roma
 Lione
 Real Madrid
 Bayern Monaco
-Celtic
+Celtic Glasgow
 Milan
 Lilla
 Manchester United
