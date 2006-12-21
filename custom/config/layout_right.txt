@@ -72,7 +72,7 @@ link_forum_riservato_ARS::Forum riservato ai soci ARS::external_link::forum.php?
 rendiconto_2005_ARS::Rendiconto e relazione ARS 2005::external_link::custom/moduli/organizzatori/Rendiconto_e_Relazione_anno_2005_ARS.pdf
 
 [Approfondimenti]
-sondaggio_champions_2007::<b>Sondaggio Champions 2006/2007</b>::external_link::http:questions.php?id_questions=2
+sondaggio_champions_2007::<b>Sondaggio Champions 2006/07</b>::external_link::http:questions.php?id_questions=2
 sezione_ciclismo::Ciclismo::external_link::index.php?page=ciclismo::
 siti_amici::Caposele sul Web::modulo_custom::::
 flash_news::News ARS::modulo_custom::::
