@@ -26,7 +26,7 @@ A parit&agrave; di punteggio verranno considerati nell'ordine:
 <b>Periodo delle giocate</b>
 <br>
 Inizio giocate: 20/12/2006<br>
-Fine giocate: 31/01/2007<br>
+Fine giocate: 18/02/2007<br>
 <br>
 <b>Modalit&agrave; delle giocate</b><br>
 Modalit&agrave; on line: il giocatore effettua la giocata nell'apposita pagina di questo sito, dopo aver inserito il proprio nome, cognome, data di nascita e provenienza. 
