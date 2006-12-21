@@ -1821,6 +1821,32 @@ return $clean;
 }
 
 
+function prime_lettere_maiuscole($stringa) {
+# imposta le prima lettera maiuscola
+#
+
+$lista_separatore = Array(' ','	',"\(","\'");
+$lista_sostituto  = Array(' ','	',"(","'");
+
+foreach ($lista_separatore as $id => $separatore)
+{
+	$parole = split($separatore,$stringa);
+	if (count($parole)>0)
+	{
+		$tmp_array = Array();
+		foreach ($parole as $parola)
+		{
+			$tmp_result = strtoupper($parola[0]).substr($parola,1);
+			array_push($tmp_array,$tmp_result);
+		}
+		$stringa = implode($tmp_array,$lista_sostituto[$id]);
+	}
+}
+
+return $stringa;
+} // end function prime_lettere_maiuscole($stringa)
+
+
 //Page properties definitions
 error_reporting(0); // otherwise "StripDoubleColon($HTTP_REFERER);" gives error
 //error_reporting(2039); // otherwise "StripDoubleColon($HTTP_REFERER);" gives error. Show all errors but notices
