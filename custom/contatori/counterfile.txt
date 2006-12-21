@@ -4,8 +4,6 @@ admin_upload_articoli:21
 admin_modules_config:73
 modulo_soci:70
 modulo_lettere_sito:89
-album:138
-modulo_siti_amici:60
 statistiche:105
 admin_articoli:97
 admin_edit_config:129
@@ -16,7 +14,9 @@ modulo_flash_news:45
 admin_index:291
 admin_albums:57
 admin_album:53
-foto:187
-questions:674
-homepage:1795
-forum:593
+modulo_siti_amici:61
+foto:190
+album:140
+homepage:1814
+forum:606
+questions:678

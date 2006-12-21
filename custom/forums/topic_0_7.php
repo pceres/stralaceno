@@ -108,6 +108,12 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 94::Riccardo::20/12/2006 21.01.35::visible
 95::Gerry Marty::21/12/2006 00.00.13::visible
 96::Frangh e Cicc ::21/12/2006 00.07.13::visible
+97::Riccardo ::21/12/2006 09.51.27::visible
+98::Riccardo D.::21/12/2006 10.52.17::visible
+99::Riccardo D.::21/12/2006 11.32.28::visible
+100::Riccardo D.::21/12/2006 11.33.00::visible
+101::Alessandro::21/12/2006 13.25.57::visible
+102::Salvatore::21/12/2006 14.36.45::visible
 
 [post_text_0]
 Aspettiamo le vostre dichiarazioni di sfida...
@@ -623,4 +629,27 @@ ciao alex!!!
 salve siamo Frangh e Cicc                           STOP
 cerchiamo due pollastrelli che vogliono sfidarci    STOP
 ciao                                                STOP
+
+[post_text_97]
+bravo Riccardo, il rodolfo valentino che sprona i suoi allievi a darsi da fare con le ragazze...
+invece di aggiungere lettere al tuo pseudonimo, firmati con il tuo vero nome, così sappiamo chi è il provocatore di turno...
+
+[post_text_98]
+Caro Riccardo cuor di leoncino io non uso stani nomi ma solo quello  vero.
+Credo che chi provoca sei proprio tu; non attribuirmi cose non vere, fai qualche osservazione intelligente e non leggere troppe riviste di gossip.
+Se vuoi continuare a provocare fallo pure tanto da ora in avanti ti ignorerò.
+
+[post_text_99]
+Sappiamo bene che Riccardo D. on è il tuo vero nome... Addio
+
+[post_text_100]
+&gt;Sappiamo bene che Riccardo D. on è il tuo vero nome... Addio<br>&gt;<br><br>Sappiamo bene che Riccardo D. non è il tuo vero nome... Addio
+&nbsp;
+
+[post_text_101]
+Ciao Gerry Marty, ti aspettiamo domani alle 15.15 per l'allenamento. Ci sarai?
+
+[post_text_102]
+We ultimamente questo forum sta prendendo le sembianze del programma "uomini e donne"...chi litiga perchè l'altro si firma col suo stesso nome,chi critica,chi va trovando pollastrelli...oh ma la volgliamo finire o no!!
+un saluto a gerry marty,a alex e a paolo,ci vediamo domani tempo permettendo..ciao
 
