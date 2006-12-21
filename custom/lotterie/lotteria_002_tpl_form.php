@@ -604,13 +604,13 @@ function check_input(f)
 	gironeE = new Array("Lione","Real Madrid");
 	gironeF = new Array("Manchester United","Celtic Glasgow");
 	gironeG = new Array("Arsenal","Porto");
-	gironeH = new Array("Milan","Lille");*/
+	gironeH = new Array("Milan","Lilla");*/
 	gironeA = new Array("Chelsea","Porto");
 	gironeB = new Array("Arsenal","Psv Eindhoven");
 	gironeC = new Array("Lione","Roma");
 	gironeD = new Array("Bayern Monaco","Real Madrid");
 	gironeE = new Array("Milan","Celtic Glasgow");
-	gironeF = new Array("Manchester United","Lille");
+	gironeF = new Array("Manchester United","Lilla");
 	gironeG = new Array("Liverpool","Barcellona");
 	gironeH = new Array("Valencia","Inter");
 	
@@ -1111,7 +1111,7 @@ if (!empty($messaggio_stato_sondaggio)) {
  </tr>
  <tr style='height:10.95pt'>
   <td style='height:10.95pt'></td>
-  <td class=xl50>Celtic F2</td>
+  <td class=xl50>Celtic Glasgow F2</td>
   <td></td>
   <td class=xl50>Lilla H2</td>
   <td></td>
@@ -1177,7 +1177,7 @@ if (!empty($messaggio_stato_sondaggio)) {
 
 <option value="Celtic Glasgow">Celtic Glasgow</option>
 <option value="Milan">Milan</option>
-<option value="Lille">Lille</option>
+<option value="Lilla">Lilla</option>
 <option value="Manchester United">Manchester United</option>
 
 <option value="Barcellona">Barcellona</option>
@@ -1206,7 +1206,7 @@ if (!empty($messaggio_stato_sondaggio)) {
 
 <option value="Celtic Glasgow">Celtic Glasgow</option>
 <option value="Milan">Milan</option>
-<option value="Lille">Lille</option>
+<option value="Lilla">Lilla</option>
 <option value="Manchester United">Manchester United</option>
 
 <option value="Barcellona">Barcellona</option>
@@ -1235,7 +1235,7 @@ if (!empty($messaggio_stato_sondaggio)) {
 
 <option value="Celtic Glasgow">Celtic Glasgow</option>
 <option value="Milan">Milan</option>
-<option value="Lille">Lille</option>
+<option value="Lilla">Lilla</option>
 <option value="Manchester United">Manchester United</option>
 
 <option value="Barcellona">Barcellona</option>
@@ -1266,7 +1266,7 @@ if (!empty($messaggio_stato_sondaggio)) {
 
 <option value="Celtic Glasgow">Celtic Glasgow</option>
 <option value="Milan">Milan</option>
-<option value="Lille">Lille</option>
+<option value="Lilla">Lilla</option>
 <option value="Manchester United">Manchester United</option>
 
 <option value="Barcellona">Barcellona</option>
@@ -1303,7 +1303,7 @@ if (!empty($messaggio_stato_sondaggio)) {
 
 <option value="Celtic Glasgow">Celtic Glasgow</option>
 <option value="Milan">Milan</option>
-<option value="Lille">Lille</option>
+<option value="Lilla">Lilla</option>
 <option value="Manchester United">Manchester United</option>
 
 <option value="Barcellona">Barcellona</option>
@@ -1334,7 +1334,7 @@ if (!empty($messaggio_stato_sondaggio)) {
 
 <option value="Celtic Glasgow">Celtic Glasgow</option>
 <option value="Milan">Milan</option>
-<option value="Lille">Lille</option>
+<option value="Lilla">Lilla</option>
 <option value="Manchester United">Manchester United</option>
 
 <option value="Barcellona">Barcellona</option>
@@ -1365,7 +1365,7 @@ if (!empty($messaggio_stato_sondaggio)) {
 
 <option value="Celtic Glasgow">Celtic Glasgow</option>
 <option value="Milan">Milan</option>
-<option value="Lille">Lille</option>
+<option value="Lilla">Lilla</option>
 <option value="Manchester United">Manchester United</option>
 
 <option value="Barcellona">Barcellona</option>
@@ -1396,7 +1396,7 @@ if (!empty($messaggio_stato_sondaggio)) {
 
 <option value="Celtic Glasgow">Celtic Glasgow</option>
 <option value="Milan">Milan</option>
-<option value="Lille">Lille</option>
+<option value="Lilla">Lilla</option>
 <option value="Manchester United">Manchester United</option>
 
 <option value="Barcellona">Barcellona</option>
@@ -1447,7 +1447,7 @@ if (!empty($messaggio_stato_sondaggio)) {
 
 <option value="Celtic Glasgow">Celtic Glasgow</option>
 <option value="Milan">Milan</option>
-<option value="Lille">Lille</option>
+<option value="Lilla">Lilla</option>
 <option value="Manchester United">Manchester United</option>
 
 <option value="Barcellona">Barcellona</option>
@@ -1478,7 +1478,7 @@ if (!empty($messaggio_stato_sondaggio)) {
 
 <option value="Celtic Glasgow">Celtic Glasgow</option>
 <option value="Milan">Milan</option>
-<option value="Lille">Lille</option>
+<option value="Lilla">Lilla</option>
 <option value="Manchester United">Manchester United</option>
 
 <option value="Barcellona">Barcellona</option>
@@ -1509,7 +1509,7 @@ if (!empty($messaggio_stato_sondaggio)) {
 
 <option value="Celtic Glasgow">Celtic Glasgow</option>
 <option value="Milan">Milan</option>
-<option value="Lille">Lille</option>
+<option value="Lilla">Lilla</option>
 <option value="Manchester United">Manchester United</option>
 
 <option value="Barcellona">Barcellona</option>
@@ -1540,7 +1540,7 @@ if (!empty($messaggio_stato_sondaggio)) {
 
 <option value="Celtic Glasgow">Celtic Glasgow</option>
 <option value="Milan">Milan</option>
-<option value="Lille">Lille</option>
+<option value="Lilla">Lilla</option>
 <option value="Manchester United">Manchester United</option>
 
 <option value="Barcellona">Barcellona</option>
@@ -1597,7 +1597,7 @@ if (!empty($messaggio_stato_sondaggio)) {
 
 <option value="Celtic Glasgow">Celtic Glasgow</option>
 <option value="Milan">Milan</option>
-<option value="Lille">Lille</option>
+<option value="Lilla">Lilla</option>
 <option value="Manchester United">Manchester United</option>
 
 <option value="Barcellona">Barcellona</option>
@@ -1628,7 +1628,7 @@ if (!empty($messaggio_stato_sondaggio)) {
 
 <option value="Celtic Glasgow">Celtic Glasgow</option>
 <option value="Milan">Milan</option>
-<option value="Lille">Lille</option>
+<option value="Lilla">Lilla</option>
 <option value="Manchester United">Manchester United</option>
 
 <option value="Barcellona">Barcellona</option>
@@ -1660,7 +1660,7 @@ if (!empty($messaggio_stato_sondaggio)) {
 
 <option value="Celtic Glasgow">Celtic Glasgow</option>
 <option value="Milan">Milan</option>
-<option value="Lille">Lille</option>
+<option value="Lilla">Lilla</option>
 <option value="Manchester United">Manchester United</option>
 
 <option value="Barcellona">Barcellona</option>
@@ -1905,7 +1905,7 @@ if ($flag_show_results && file_exists($file_log))
  </tr>
  <tr style='height:12.75pt'>
   <td style='height:12.75pt'></td>
-  <td class=xl48 colspan=3>Fine giocate: 31.01.2007</td>
+  <td class=xl48 colspan=3>Fine giocate: 18.02.2007</td>
   <td colspan=6></td>
   <td></td>
   <td colspan=2></td>
