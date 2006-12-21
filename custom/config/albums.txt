@@ -9,7 +9,8 @@
 [ars]
 retro.gif
 stemma_caposele.jpg
-ars_semplificato.jpg 
+ars_semplificato.jpg
+Stemma_Caposele_Malanga_V.jpg  
 
 [All.Coll.05]
 ManifestoAll.Coll.05.jpg::
