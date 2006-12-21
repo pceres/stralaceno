@@ -8,7 +8,7 @@ La distanza &egrave stata percorsa dagli otto partecipanti con passo lento e reg
 <p>
 Le foto dell' Allenamento sono disponibili <a href="album.php?anno=All.Coll.05">qui</a> 
 <p>
-Il 4 gennaio 2006 si &egrave tenuto un secondo allenamento, che ha visto impegnati 7 atleti lungo un percorso di circa 17 km, nell'ambito del quale si sono toccati alcuni punti molto suggestivi del comune di Caposele (come le grotte e il bosco difesa
+Il 4 gennaio 2006 si &egrave tenuto un secondo allenamento, che ha visto impegnati 7 atleti lungo un percorso di circa 18 km, nell'ambito del quale si sono toccati alcuni punti molto suggestivi del comune di Caposele (come le grotte e il bosco difesa
 <p>&nbsp;
 <div align="center">
 <img id="fotoAllenamentoCollettivo" src="%file_root%custom/album/All.Coll.05/IMG_1608.jpg" alt="" border="0" width="400">
