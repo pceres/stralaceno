@@ -222,10 +222,10 @@ $trans = get_html_translation_table(HTML_ENTITIES);
 	$auth_token_ks = $giocata[4];
 
 // 	$giocatore_ks = "<div align=\"left\" style=\"margin-left:10pt;\">".$giocata[6]."</div>";
-	$cognome 	= $vettore_giocata[15];$cognome 	= strtoupper($cognome[0]).substr($cognome,1);
-	$nome 		= $vettore_giocata[16];	$nome 		= strtoupper($nome[0]).substr($nome,1);
+	$cognome 	= $vettore_giocata[15];$cognome 	= prime_lettere_maiuscole(strtoupper($cognome[0]).substr($cognome,1));
+	$nome 		= $vettore_giocata[16];	$nome 		= prime_lettere_maiuscole(strtoupper($nome[0]).substr($nome,1));
 	$data_nascita = $vettore_giocata[17]; $anno_nascita 	= substr($data_nascita,-2);
-	$provenienza0 = $vettore_giocata[18];$provenienza = "<div align=\"left\" style=\"margin-left:10pt;\">$provenienza0</div>";
+	$provenienza0 = prime_lettere_maiuscole($vettore_giocata[18]);$provenienza = "<div align=\"left\" style=\"margin-left:10pt;\">$provenienza0</div>";
 	$tooltip = addslashes("$nome $cognome, di $provenienza0, nato il $data_nascita");
 	$giocatore_ks = "<span title=\"$tooltip\">$cognome $nome &acute;$anno_nascita</span>";
 	$giocatore_ks = "<div align=\"left\" style=\"margin-left:10pt;\">".$giocatore_ks."</div>";
@@ -472,6 +472,7 @@ foreach($vettore_alias_domanda as $id => $alias_domanda)
 &nbsp;&nbsp;
 Legenda colori:
 <div class="txt_link">
+<table><tbody>
 <?php
 foreach ($lotteria['stili_riga'] as $id_stile => $stile_data)
 {
@@ -480,12 +481,15 @@ foreach ($lotteria['stili_riga'] as $id_stile => $stile_data)
 	$stile_style = $stile_data[2];
 	
 	$elenco_stili[$stile_tag] = array($stile_caption,$stile_style);
-
-	echo "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"$stile_style;border:1px solid;\">&nbsp;&nbsp;&nbsp;&nbsp;</span> : $stile_caption<br>";
-	echo "<div style=\"height:2.5pt;\">&nbsp;</div>";
-
+	
+	echo "<tr>";
+	echo "<td valign=\"top\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"$stile_style;border:1px solid;\">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>";
+	echo "<td valign=\"top\">:</td>";
+	echo "<td>$stile_caption</td>";
+	echo "</tr>";
 }
 ?>
+</tbody></table>
 </div>
 
 </td>
@@ -497,13 +501,13 @@ foreach ($lotteria['stili_riga'] as $id_stile => $stile_data)
 &nbsp;&nbsp;
 Legenda simboli:
 <div class="txt_link">
+<table><tbody>
 <?php
 
 $elenco_simboli_item = Array('ok'=>$simbolo_ok,'not_ok'=>$simbolo_not_ok);
 
 if (count($elenco_simboli_usati)>1)
 {
-	echo "<table><tbody>\n";
 	foreach($elenco_simboli_item as $tipo_simbolo => $simboli_item)
 	{
 		foreach ($simboli_item as $punti => $item_simbolo)
@@ -522,15 +526,24 @@ if (count($elenco_simboli_usati)>1)
 			}
 		}
 	}
-	echo "</tbody></table>\n";
 }
 ?>
+<tr>
+<td align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.</td>
+<td> : match non ancora disputato</td>
+</tr>
+</tbody></table>
 </div>
 
 </td>
 
-
 </tr></table>
+
+
+<br>
+<div class="txt_link">
+&nbsp;&nbsp;Portando il cursore del mouse sopra i simboli nella tabella viene visualizzato il nome della squadra pronosticata e i punti corrispondenti
+</div>
 
 <?php
 
