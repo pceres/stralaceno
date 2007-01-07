@@ -1,0 +1,291 @@
+Autore::Ars
+Titolo::Inaugurata sezione FC Caposele
+--- Begin body ---
+Il sito dell'Ars allarga ulteriormente i contenuti, ospitando, in questa apposita sezione, notizie, curiosit&agrave;
+e statistiche relative all'attivit&agrave; dell'FC Caposele, la squadra di calcio di 3<sup>a</sup> categoria che rappresenta Caposele nel panorama calcistico irpino.<br>
+<br>
+Qui altre considerazioni sull'utilit&agrave; di una sezione sul calcio (pur comunque uno sport, tra le principali finalit&agrave; dell'ARS).<br>
+<br>
+Ecco la situazione in classifica, alla 7a giornata:<br>
+<br>
+<div align="center">
+<table><tbody><tr><td>
+<!-- 
+	inizio tabella risultati giornata x 
+-->
+<table class="tabella" style="font-size:13.0pt;">
+<tbody><tr><td><table>
+<caption>7<sup>a</sup> giornata</caption>
+<tbody>
+<!-- match # 1 -->
+<tr>
+	<td>Castel Baronia</td>
+	<td>Casabianchi Trevico</td>
+	<td>2 - 1</td>
+</tr>
+<!-- match # 2 -->
+<tr>
+	<td>Conza</td>
+	<td>Aquilonia</td>
+	<td>1 - 2</td>
+</tr>
+<!-- match # 3 -->
+<tr>
+	<td>La Longobarda</td>
+	<td>Trevico</td>
+	<td>2 - 0</td>
+</tr>
+<!-- match # 4 -->
+<tr>
+	<td>Morra De Sanctis</td>
+	<td>Virtus Conza</td>
+	<td>n.p.</td>
+</tr>
+<!-- match # 5 -->
+<tr>
+	<td>Sporting Club Nusco</td>
+	<td>Caposele</td>
+	<td>0 - 3</td>
+</tr>
+<!-- match # 6 -->
+<tr>
+	<td>Sporting Ever Green</td>
+	<td>Vallesaccarda</td>
+	<td>3 - 4</td>
+</tr>
+<!-- squadra a riposo -->
+<tr><td colspan=3>&nbsp;</td></tr>
+<tr>
+	<td colspan=3>Riposa: Real S. Andrea di Conza</td>
+</tr>
+</tbody>
+</table></td></tr></tbody></table>
+<!-- 
+	fine tabella risultati giornata x 
+-->
+</td><td>&nbsp;</td><td>
+<!-- 
+	inizio tabella classifica
+-->
+<table class="tabella" style="font-size:13.0pt;">
+<tbody><tr><td><table>
+<thead><tr>
+	<th>&nbsp;</th>
+	<th>&nbsp;</th>
+	<th>punti</th>
+	<th title="partite giocate">g</th>
+	<th title="partite vinte">v</th>
+	<th title="partite pareggiate">n</th>
+	<th title="partite perse">p</th>
+	<th title="reti fatte">rf</th>
+	<th title="reti subite">rs</th>
+	<th title="differenza reti">dr</th>
+	<th title="media inglese">mi</th>
+</tr></thead>
+<tbody>
+<!-- # 1 in classifica -->
+<tr>
+	<td>1</td>
+	<td>Aquilonia</td>
+	<td>15</td>
+	<td>6</td>
+	<td>5</td>
+	<td>0</td>
+	<td>1</td>
+	<td>20</td>
+	<td>10</td>
+	<td>10</td>
+	<td>3</td>
+</tr>
+<!-- # 2 in classifica -->
+<tr>
+	<td>2</td>
+	<td>Caposele</td>
+	<td>14</td>
+	<td>6</td>
+	<td>4</td>
+	<td>2</td>
+	<td>0</td>
+	<td>14</td>
+	<td>3</td>
+	<td>11</td>
+	<td>2</td>
+</tr>
+<!-- # 3 in classifica -->
+<tr>
+	<td>3</td>
+	<td>Real S. Andrea Conza</td>
+	<td>14</td>
+	<td>6</td>
+	<td>4</td>
+	<td>2</td>
+	<td>0</td>
+	<td>8</td>
+	<td>3</td>
+	<td>5</td>
+	<td>2</td>
+</tr>
+<!-- # 4 in classifica -->
+<tr>
+	<td>4</td>
+	<td>Conza</td>
+	<td>11</td>
+	<td>7</td>
+	<td>3</td>
+	<td>2</td>
+	<td>2</td>
+	<td>10</td>
+	<td>6</td>
+	<td>4</td>
+	<td>-4</td>
+</tr>
+<!-- # 5 in classifica -->
+<tr>
+	<td>5</td>
+	<td>Castel Baronia</td>
+	<td>11</td>
+	<td>6</td>
+	<td>3</td>
+	<td>2</td>
+	<td>1</td>
+	<td>6</td>
+	<td>3</td>
+	<td>3</td>
+	<td>-1</td>
+</tr>
+<!-- # 6 in classifica -->
+<tr>
+	<td>6</td>
+	<td>La Longobarda</td>
+	<td>10</td>
+	<td>7</td>
+	<td>3</td>
+	<td>1</td>
+	<td>3</td>
+	<td>12</td>
+	<td>10</td>
+	<td>2</td>
+	<td>-5</td>
+</tr>
+<!-- # 7 in classifica -->
+<tr>
+	<td>7</td>
+	<td>Sporting Club Nusco</td>
+	<td>8</td>
+	<td>7</td>
+	<td>2</td>
+	<td>2</td>
+	<td>3</td>
+	<td>6</td>
+	<td>11</td>
+	<td>-5</td>
+	<td>-7</td>
+</tr>
+<!-- # 8 in classifica -->
+<tr>
+	<td>8</td>
+	<td>Virtus Conza</td>
+	<td>7</td>
+	<td>6</td>
+	<td>2</td>
+	<td>1</td>
+	<td>3</td>
+	<td>6</td>
+	<td>10</td>
+	<td>-4</td>
+	<td>-5</td>
+</tr>
+<!-- # 9 in classifica -->
+<tr>
+	<td>9</td>
+	<td>Morra De Sanctis</td>
+	<td>6</td>
+	<td>5</td>
+	<td>2</td>
+	<td>0</td>
+	<td>3</td>
+	<td>8</td>
+	<td>11</td>
+	<td>-3</td>
+	<td>-3</td>
+</tr>
+<!-- # 10 in classifica -->
+<tr>
+	<td>10</td>
+	<td>Vallesaccarda</td>
+	<td>6</td>
+	<td>7</td>
+	<td>1</td>
+	<td>3</td>
+	<td>3</td>
+	<td>10</td>
+	<td>15</td>
+	<td>-5</td>
+	<td>-7</td>
+</tr>
+<!-- # 11 in classifica -->
+<tr>
+	<td>11</td>
+	<td>Sporting Ever Green</td>
+	<td>5</td>
+	<td>6</td>
+	<td>1</td>
+	<td>2</td>
+	<td>3</td>
+	<td>9</td>
+	<td>12</td>
+	<td>-3</td>
+	<td>-7</td>
+</tr>
+<!-- # 12 in classifica -->
+<tr>
+	<td>12</td>
+	<td>Trevico</td>
+	<td>5</td>
+	<td>6</td>
+	<td>1</td>
+	<td>2</td>
+	<td>3</td>
+	<td>5</td>
+	<td>11</td>
+	<td>-6</td>
+	<td>-7</td>
+</tr>
+<!-- # 13 in classifica -->
+<tr>
+	<td>13</td>
+	<td>Casabianchi Trevico</td>
+	<td>1</td>
+	<td>7</td>
+	<td>0</td>
+	<td>1</td>
+	<td>6</td>
+	<td>4</td>
+	<td>13</td>
+	<td>-9</td>
+	<td>-12</td>
+</tr>
+</tbody>
+</table></td></tr></tbody></table>
+<!-- 
+	fine tabella classifica
+-->
+<!--
+rs	dr	mi
+10	10	3
+3	11	2
+3	5	2
+6	4	-4
+3	3	-1
+10	2	-5
+11	-5	-7
+10	-4	-5
+11	-3	-3
+15	-5	-7
+12	-3	-7
+11	-6	-7
+13	-9	-12
+-->
+</td></tr></tbody></table>
+</div>
+--- End body ---
