@@ -213,20 +213,26 @@ $elenco_simboli_usati = Array(); // serve per la legenda finale
 $count = 0;
 foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 {
-$trans = get_html_translation_table(HTML_ENTITIES);
-// print_r($trans);die('');
 	// i campi qui devono essere gli stessi e nello stesso ordine di quelli indicati sopra per $header_new
 	$id_della_giocata = $giocata[0];
 	$vettore_giocata = split(',',$giocata[1]);
 	$data_giocata = $giocata[3];
 	$auth_token_ks = $giocata[4];
 
-// 	$giocatore_ks = "<div align=\"left\" style=\"margin-left:10pt;\">".$giocata[6]."</div>";
-	$cognome 	= $vettore_giocata[15];$cognome 	= prime_lettere_maiuscole(strtoupper($cognome[0]).substr($cognome,1));
-	$nome 		= $vettore_giocata[16];	$nome 		= prime_lettere_maiuscole(strtoupper($nome[0]).substr($nome,1));
-	$data_nascita = $vettore_giocata[17]; $anno_nascita 	= substr($data_nascita,-2);
-	$provenienza0 = prime_lettere_maiuscole($vettore_giocata[18]);$provenienza = "<div align=\"left\" style=\"margin-left:10pt;\">$provenienza0</div>";
+	$cognome 	= $vettore_giocata[15];
+	$cognome 	= prime_lettere_maiuscole(strtolower($cognome));
+	
+	$nome 		= $vettore_giocata[16];
+	$nome 		= prime_lettere_maiuscole(strtolower($nome));
+	
+	$data_nascita = $vettore_giocata[17];
+	$anno_nascita 	= substr($data_nascita,-2);
+	
+	$provenienza0 = prime_lettere_maiuscole(strtolower($vettore_giocata[18]));
+	$provenienza = "<div align=\"left\" style=\"margin-left:10pt;\">$provenienza0</div>";
+	
 	$tooltip = addslashes("$nome $cognome, di $provenienza0, nato il $data_nascita");
+	
 	$giocatore_ks = "<span title=\"$tooltip\">$cognome $nome &acute;$anno_nascita</span>";
 	$giocatore_ks = "<div align=\"left\" style=\"margin-left:10pt;\">".$giocatore_ks."</div>";
 
