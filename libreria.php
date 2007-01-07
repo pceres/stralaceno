@@ -844,6 +844,36 @@ return $archivio2;
 }
 
 
+function get_section_list()
+{
+/*
+Restituisce un elenco delle sezioni presenti sul sito ("homepage" esiste sempre di default)
+*/
+
+# dichiara variabili
+extract(indici());
+
+$lista_sezioni = Array("homepage");
+
+$path_prefix = $articles_dir;
+if ($dh = opendir($path_prefix)) 
+{
+	while (($file = readdir($dh)) !== false) 
+	{
+		$filename = $path_prefix.$file;
+		$is_section = (filetype($filename) == "dir") && ($file !== ".") && ($file !== "..") && ($file !== "CVS");
+		if ($is_section)
+		{
+			array_push($lista_sezioni,$file);
+		}
+	}
+	closedir($dh);
+}
+
+return $lista_sezioni;
+
+} // end function get_section_list()
+
 
 function get_articles_path($sezione = "homepage")
 {
