@@ -363,10 +363,10 @@ case "last_check":
 		{
 		case "free_number":
 		case "free_string":
-			$answer = $_REQUEST[$question_tag];
+			$answer = sanitize_user_input($_REQUEST[$question_tag],'plain_text',array());	// verifica di sicurezza
 			break;
 		case "fixed":
-			$answer = $_REQUEST[$question_tag];
+			$answer = sanitize_user_input($_REQUEST[$question_tag],'plain_text',array());	// verifica di sicurezza
 		}
 		array_push($answers,$answer);
 		$question_count++;
@@ -401,7 +401,7 @@ case "last_check":
 		case "free_number":
 		case "free_string":
 			$question_tag = sprintf($question_tag_format,$question_count); // question_xx
-			$answer = $_REQUEST[$question_tag];
+			$answer = sanitize_user_input($_REQUEST[$question_tag],'plain_text',array());	// verifica di sicurezza
 			if ($results[$question_tag] == 0)
 			{
 				$messaggio = "&quot;<span style=\"color: red;\">".$msg[$question_count]."</span>&quot;";
@@ -415,7 +415,7 @@ case "last_check":
 			break;
 		case "fixed":
 			$question_tag = sprintf($question_tag_format,$question_count);
-			$answer = $_REQUEST[$question_tag];
+			$answer = sanitize_user_input($_REQUEST[$question_tag],'plain_text',array());	// verifica di sicurezza
 			
 			if ($results[$question_count] == 0)
 			{
@@ -487,7 +487,7 @@ case "save":
 	{
 		$question_tag = sprintf($question_tag_format,$question_count);
 		
-		$answer = $_REQUEST[$question_tag];
+		$answer = sanitize_user_input($_REQUEST[$question_tag],'plain_text',array());	// verifica di sicurezza
 		$string_answers .= $answer;
 		if ($id+1 < count($domande))
 		{
