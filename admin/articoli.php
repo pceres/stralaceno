@@ -235,11 +235,21 @@ if (count($art_id) > 0)
 <center>
 
 <!-- 
-gestione articoli disponibili
+gestione sezioni
 -->
-<a href="articoli.php?section=homepage">Homepage</a>
-<a href="articoli.php?section=ciclismo">Ciclismo</a>
-<hr>
+<?php
+$lista_sezioni = get_section_list(); // individua le sezioni disponibili
+
+// se c'e' almeno una sezione oltre "homepage", visualizza i link alle pagine amministrative per le diverse sezioni
+if (count($lista_sezioni) > 1)
+{
+	foreach($lista_sezioni as $nome_sezione)
+	{
+		echo "<a href=\"articoli.php?section=$nome_sezione\">".prime_lettere_maiuscole($nome_sezione)."</a>\n";
+	}
+	echo "<hr>\n";
+}
+?>
 
 <!-- 
 gestione articoli disponibili
