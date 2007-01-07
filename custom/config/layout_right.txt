@@ -55,16 +55,17 @@ Amministrazione::admin,soci_ars
 Utente::users
 Bacheca ARS::soci_ars
 Login::guests
-#Pagine in preparazione::users
+Pagine in preparazione::users
 
 #
 # da qui sotto inizia il layout vero e proprio
 #
 
-#[Pagine in preparazione]
+[Pagine in preparazione]
 #sondaggio_champions_2007::Sondaggio Champions 2006/2007::external_link::http:questions.php?id_questions=2
 #siti_amici::Caposele sul Web::modulo_custom::::
 #link_sezione_ciclismo::Ciclismo::external_link::index.php?page=ciclismo
+sezione_FC_caposele::FC Caposele::external_link::index.php?page=FC_caposele::
 
 [Bacheca ARS]
 soci::I soci ARS::modulo_custom::::
