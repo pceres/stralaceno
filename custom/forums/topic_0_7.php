@@ -114,6 +114,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 100::Riccardo D.::21/12/2006 11.33.00::visible
 101::Alessandro::21/12/2006 13.25.57::visible
 102::Salvatore::21/12/2006 14.36.45::visible
+103::paolo::21/12/2006 22.03.20::visible
 
 [post_text_0]
 Aspettiamo le vostre dichiarazioni di sfida...
@@ -652,4 +653,9 @@ Ciao Gerry Marty, ti aspettiamo domani alle 15.15 per l'allenamento. Ci sarai?
 [post_text_102]
 We ultimamente questo forum sta prendendo le sembianze del programma "uomini e donne"...chi litiga perchè l'altro si firma col suo stesso nome,chi critica,chi va trovando pollastrelli...oh ma la volgliamo finire o no!!
 un saluto a gerry marty,a alex e a paolo,ci vediamo domani tempo permettendo..ciao
+
+[post_text_103]
+mi dispiace, ma per l'allenamento di domani proprio non posso, ho da fare un servizio ad avellino verso le 17.30, quindi approdo in caposele solo in serata!
+vabbè comunque in questi 15 giorni di sicuro organizzeremo 4-5 allenamenti e sono sicuro che ci divertiremo tanto.
+Ok ragazzi ci vediamo!
 
