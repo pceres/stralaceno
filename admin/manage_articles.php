@@ -209,7 +209,7 @@ default:
 }
 
 
-log_action($articles_dir,"Action: <$mode>, data: <$data>, ".date("l dS of F Y h:i:s A").",".$login['username']);
+log_action($articles_dir,"Action: <$mode>, section: <$sezione>, article id: <$data>, ".date("l dS of F Y h:i:s A").",".$login['username']);
 
 ?>
 
