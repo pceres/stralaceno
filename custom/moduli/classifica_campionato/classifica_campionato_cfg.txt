@@ -1,0 +1,108 @@
+#
+# ARS Amatori Running Sele
+#
+
+
+######################  inizio giornata 07  ######################
+
+#
+# formato dati_giornata_NN:  titolo_tabella
+#
+[dati_giornata_07]
+Risultati 7<sup>a</sup> giornata (gg/mm/aaaa)
+
+#
+# formato giornata_NN:  posizione_partita::squadra_in_casa::squadra_fuori_casa::risultato (una riga per ciascun match)
+#
+[giornata_07]
+1::CASTEL BARONIA::CASABIANCHI TREVICO::2-1
+2::CONZA::AQUILONIA::1-2
+3::LA LONGOBARDA::TREVICO::2-0
+4::MORRA DE SANCTIS::VIRTUS CONZA::np
+5::SPORTING CLUB NUSCO::CAPOSELE::0-3
+6::SPORTING EVER GREEN::VALLESACCARDA::3-4
+
+#
+# formato note_giornata_NN:  posizione_nota::testo_nota (ci possono essere piu' righe, una per ciascuna nota)
+#
+[note_giornata_07]
+1::Riposa: Real S. Andrea di Conza
+#2::eventuale ulteriore nota
+
+
+#
+# formato titolo_classifica_NN:  titolo_classifica
+#
+[dati_classifica_07]
+Classifica aggiornata al gg/mm/aaaa
+
+#
+# formato classifica_NN:  posizione::sezione::titolo::autore
+#
+[classifica_07]
+1::AQUILONIA::15::6::5::0::1::20::10::10::3
+2::CAPOSELE::14::6::4::2::0::14::3::11::2
+3::REAL S. ANDREA CONZA::14::6::4::2::0::8::3::5::2
+4::CONZA::11::7::3::2::2::10::6::4::-4
+5::CASTEL BARONIA::11::6::3::2::1::6::3::3::-1
+6::LA LONGOBARDA::10::7::3::1::3::12::10::2::-5
+7::SPORTING CLUB NUSCO::8::7::2::2::3::6::11::-5::-7
+8::VIRTUS CONZA::7::6::2::1::3::6::10::-4::-5
+9::MORRA DE SANCTIS::6::5::2::0::3::8::11::-3::-3
+10::VALLESACCARDA::6::7::1::3::3::10::15::-5::-7
+11::SPORTING EVER GREEN::5::6::1::2::3::9::12::-3::-7
+12::TREVICO::5::6::1::2::3::5::11::-6::-7
+13::CASABIANCHI TREVICO::1::7::0::1::6::4::13::-9::-12
+
+
+######################  inizio giornata visibile  ######################
+
+#
+# formato dati_giornata_NN:  titolo_tabella
+#
+[dati_giornata_visibile]
+Risultati 7<sup>a</sup> giornata (gg/mm/aaaa)
+
+#
+# formato giornata_NN:  posizione_partita::squadra_in_casa::squadra_fuori_casa::risultato (una riga per ciascun match)
+#
+[giornata_visibile]
+1::CASTEL BARONIA::CASABIANCHI TREVICO::2-1
+2::CONZA::AQUILONIA::1-2
+3::LA LONGOBARDA::TREVICO::2-0
+4::MORRA DE SANCTIS::VIRTUS CONZA::np
+5::SPORTING CLUB NUSCO::CAPOSELE::0-3
+6::SPORTING EVER GREEN::VALLESACCARDA::3-4
+
+#
+# formato note_giornata_NN:  posizione_nota::testo_nota (ci possono essere piu' righe, una per ciascuna nota)
+#
+[note_giornata_visibile]
+1::Riposa: Real S. Andrea di Conza
+#2::eventuale ulteriore nota
+
+
+#
+# formato titolo_classifica_NN:  titolo_classifica
+#
+[dati_classifica_visibile]
+Classifica aggiornata al gg/mm/aaaa
+
+#
+# formato classifica_NN:  posizione::sezione::titolo::autore
+#
+[classifica_visibile]
+1::AQUILONIA::15::6::5::0::1::20::10::10::3
+2::CAPOSELE::14::6::4::2::0::14::3::11::2
+3::REAL S. ANDREA CONZA::14::6::4::2::0::8::3::5::2
+4::CONZA::11::7::3::2::2::10::6::4::-4
+5::CASTEL BARONIA::11::6::3::2::1::6::3::3::-1
+6::LA LONGOBARDA::10::7::3::1::3::12::10::2::-5
+7::SPORTING CLUB NUSCO::8::7::2::2::3::6::11::-5::-7
+8::VIRTUS CONZA::7::6::2::1::3::6::10::-4::-5
+9::MORRA DE SANCTIS::6::5::2::0::3::8::11::-3::-3
+10::VALLESACCARDA::6::7::1::3::3::10::15::-5::-7
+11::SPORTING EVER GREEN::5::6::1::2::3::9::12::-3::-7
+12::TREVICO::5::6::1::2::3::5::11::-6::-7
+13::CASABIANCHI TREVICO::1::7::0::1::6::4::13::-9::-12
+
