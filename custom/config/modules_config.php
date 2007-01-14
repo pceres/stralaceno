@@ -12,3 +12,5 @@ lettere_sito::Le vostre lettere
 soci::Elenco dei soci e news ARS Amatori Running Sele
 flash_news::News flash
 siti_amici::Elenco siti caposelesi (Caposele sul Web)
+archivio::Archivio album ed articoli
+classifica_campionato::Classifica e risultati FC Caposele

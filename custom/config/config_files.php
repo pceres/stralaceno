@@ -28,6 +28,8 @@ lettere_sito_cfg.txt::%modules_dir%lettere_sito/::gestione archivio lettere::adm
 soci_cfg.txt::%modules_dir%soci/::gestione elenco soci e news ARS::admin::d36923926ed59333afab0bba1a4ad5e5
 flash_news_cfg.txt::%modules_dir%flash_news/::gestione News Flash::admin::d36923926ed59333afab0bba1a4ad5e5
 siti_amici_cfg.txt::%modules_dir%siti_amici/::gestione elenco siti Caposele sul Web::admin::f2a24930901df6192297dcfddfc096ef
+archivio_cfg.txt::%modules_dir%archivio/::gestione archivio album e articoli::admin::d36923926ed59333afab0bba1a4ad5e5
+classifica_campionato_cfg.txt::%modules_dir%classifica_campionato/::gestione classifica e risultati ultima giornata::admin::d36923926ed59333afab0bba1a4ad5e5
 
 # sondaggi/lotterie
 lotteria_001.txt::%questions_dir%::configurazione "Sondaggio Mondiali di Calcio 2006"::admin::d36923926ed59333afab0bba1a4ad5e5
