@@ -1,5 +1,5 @@
 Autore::Pasquale Ceres
-Titolo::Foto ArsWeb 
+Titolo::Foto ArsWeb nov.06
 --- Begin body ---
 <br>
 Ecco l'analisi, aggiornata al 16 novembre 2006, delle foto piu' cliccate su ArsWeb:
@@ -7,7 +7,6 @@ Ecco l'analisi, aggiornata al 16 novembre 2006, delle foto piu' cliccate su ArsW
 <div align="center">
 <TABLE>
 <CAPTION>Classifica foto ArsWeb aggiornata al 16 Novembre 2006</CAPTION>
-
 <TR id="row1">
    <TD>
 	<a href="album.php?anno=Nusco_06">Nusco_06</a> - 20 volte<br>
@@ -28,7 +27,6 @@ Ecco l'analisi, aggiornata al 16 novembre 2006, delle foto piu' cliccate su ArsW
 	</a>
    </TD>
 </TR>
-
 <TR id="row2">
    <TD>
 	<a href="album.php?anno=Nusco_06">Nusco_06</a> - 14 volte<br>
@@ -49,7 +47,6 @@ Ecco l'analisi, aggiornata al 16 novembre 2006, delle foto piu' cliccate su ArsW
 	</a>
    </TD>
 </TR>
-
 <TR id="row3">
    <TD>
 	<a href="album.php?anno=Roccadaspide_06">Roccadaspide_06</a> - 12 volte<br>
