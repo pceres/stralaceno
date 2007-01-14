@@ -1,5 +1,3 @@
-% parse logfile.txt
-
 clear
 
 abilita_stima_foto_mancante = 0; % [0,1] a partire da album, id_photo e data prova ad individuare il nome del file della foto
@@ -11,6 +9,14 @@ root_path='/var/www/htdocs/work/ars/'; % path della radice del sito
 
 % archivio foto cancellate
 deleted_photos_path = '/mnt/win_d/stralaceno/statistiche_ars/archivio_foto_cancellate/';
+
+% elenco date notevoli
+date_notevoli = {...
+'fine giocate sondaggio mondiali 2006'		,'8 june 2006'		;...
+'fine sondaggio mondiali 2006'			,'11 july 2006'		;...
+'apertura giocate sondaggio champions 06/07'	,'20 december 2006'	;...
+};
+
 
 
 % informazioni sul file di log generale
@@ -226,15 +232,7 @@ if must_read
             % vseconds (vettore numerico)
             if isempty(str2num(vks{6}))
                 a2 = vks{6};
-                ind=find(a2==' ');
-                a2 = a2(ind(1)+1:end);
-                a2 = strrep(a2,'st','');
-                a2 = strrep(a2,'nd','');
-                a2 = strrep(a2,'rd','');
-                a2 = strrep(a2,'th','');
-                a2=strrep(a2,' of','');
-
-                tempo=datenum(a2)+(upper(a2(end-1))=='P')*0.5;
+                tempo = datenum(regexprep(a2,'[A-Za-z]+ ([0-9]{2})[a-z]{2} of ([A-Za-z]+) ([0-9]{4})','$1 $2 $3'));
             else
                 tempo = str2num(vks{6})/(60*60*24)+datenum('1 January 1970 12:00:00 AM');
             end
@@ -334,7 +332,6 @@ for data_i = 1:length(data_list)
         filtro_album = '';	% nome dell'album di cui si vuole avere la classifica
 
         % classifica sulle sole foto (di cui si sa il file)
-%       if (strcmp(data_list{data_i},'label_arguments'))
         disp(' ')
         disp('Classifica foto piu'' viste: ')
         classifica_foto={};
@@ -422,12 +419,24 @@ end
 
 % grafico accessi pagine
 figure,subplot(1,1,1),hold off
-hist(fix(vseconds),round(vseconds(end)-vseconds(1)));
-vett_num = hist(fix(vseconds),round(vseconds(end)-vseconds(1)));zz=datestr(unique(fix(vseconds)));ind=round(1:((size(zz,1)-1)/6):size(zz,1));set(gca,'xticklabel',zz(ind,:),'xtick',datenum(zz(ind,:)),'xgrid','on')
-vett_x = unique(fix(vseconds))-1;
+vett_x=floor(vseconds(1)):ceil(vseconds(end));vett_num=histc(vseconds,vett_x);
+
+hold on;
+zz=datevec(vett_x);
+
+ind=find(rem(zz(:,2),2)==0);bar(vett_x(ind),vett_num(ind),1,'g'); % mesi pari
+ind=find(rem(zz(:,2),2)==1);bar(vett_x(ind),vett_num(ind),1,'b'); % mesi dispari
+ind=strmatch('Sun',datestr(vett_x,'ddd'));bar(vett_x(ind),max(0,vett_num(ind)-0.1),0.8/7,'r'); % domeniche
+
+zz=datestr(unique(fix(vseconds)));
+ind=round(1:((size(zz,1)-1)/8):size(zz,1));
+set(gca,'xticklabel',zz(ind,:),'xtick',datenum(zz(ind,:)),'xgrid','on')
 % righe segnadata verticali:
-hold on;plot([1 1]*datenum('2 september 2005'),get(gca,'Ylim'),'r') % edizione 2005
-hold on;plot([1 1]*datenum('30 august 2006'),get(gca,'Ylim'),'r')   % edizione 2006
+for i_data = 1:size(date_notevoli,1)
+        x_data = datenum(date_notevoli{i_data,2});
+        estremi_y = get(gca,'Ylim');
+        hold on;plot([1 1]*x_data,estremi_y,'r'),text(x_data,min(estremi_y)+diff(estremi_y)*(1-0.05*i_data),date_notevoli{i_data,1});
+end
 
 [y,m] = datevec(min(vseconds));
 [y2,m2] = datevec(max(vseconds));
@@ -436,11 +445,17 @@ hold on,for i=m:m2,plot([1 1]*datenum(y,i,1),get(gca,'Ylim'),'g'),end
 % record di accessi alle pagine
 max_pages = 200;
 ind=find(vett_num>max_pages);
-% ind=ind(1:end);
-[temp, ind2]=sort(-vett_num(ind));ind=ind(ind2);
-disp(' ')
-disp(['Giorni in cui ci sono state piu'' di ' num2str(max_pages) ' pagine visitate:'])
-[datestr(vett_x(ind)) repmat(' (',length(ind),1) num2str(vett_num(ind)') repmat(' accessi)',length(ind),1) ]
+if ~isempty(ind)
+        [temp, ind2]=sort(-vett_num(ind));ind=ind(ind2);
+        disp(' ')
+        disp(['Giorni in cui ci sono state piu'' di ' num2str(max_pages) ' pagine visitate:'])
+        disp(' ')
+        disp([datestr(vett_x(ind),'dd-mmm-yyyy') repmat(' (',length(ind),1) num2str(vett_num(ind)') repmat(' accessi)',length(ind),1) ])
+        disp(' ')
+else
+        disp(' ')
+        disp(['Non c''e'' nemmeno un giorno in cui ci sono state piu'' di ' num2str(max_pages) ' pagine visitate:'])
+end
 
 
 % ripartizione per giorni della settimana
@@ -461,8 +476,8 @@ figure,bar(w);set(gca,'XTickLabel',zzu);title(tag)
 % vseconds=vseconds(1:10);
 
 if (0)
-	disp('individua le pagine in uscita...')
-	pause
-	
-	parse3
+        disp('individua le pagine in uscita...')
+        pause
+
+        parse3
 end
