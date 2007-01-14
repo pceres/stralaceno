@@ -143,7 +143,7 @@ table.tabella {
 	margin:0px;
 	padding:0px;
 	color:rgb(51,102,153);
-	background:#FFF6F0;
+	background:#FFF6F0;	/* sfondo tabelle dati */
 	font-family:Arial,Tahoma,Verdana,Serif;	
 	font-size:1.2em;
 	}
@@ -180,7 +180,7 @@ table.tabella table td {
 
 table.tabella table thead {
 	border-collapse:separate;
-	background-color:rgb(255, 255, 200);
+	background-color:rgb(255, 255, 200);	/* sfondo header tabelle dati */
 	height:1.2em;
 	}
 
