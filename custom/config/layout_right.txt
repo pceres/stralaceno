@@ -66,6 +66,9 @@ Pagine in preparazione::users
 #siti_amici::Caposele sul Web::modulo_custom::::
 #link_sezione_ciclismo::Ciclismo::external_link::index.php?page=ciclismo
 sezione_FC_caposele::FC Caposele::external_link::index.php?page=FC_caposele::
+classifica_campionato::Classifica III<sup>a</sup> categoria::modulo_custom::::
+statistiche_champions_06_07::Statistiche sondaggio Champions 06/07::external_link::statistiche.php?action=show&id_questions=2::
+archivio::Archivio album e articoli::modulo_custom::::
 
 [Bacheca ARS]
 soci::I soci ARS::modulo_custom::::
