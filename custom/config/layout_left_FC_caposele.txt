@@ -1,0 +1,69 @@
+# File di configurazione della colonna sinistra della homepage
+# 
+# nome_modulo::caption::tipo_elemento::dati::disabled_message
+#
+# Ogni riga che inizia con # viene ignorata.
+#
+# I nomi speciali di blocco sono:
+#	[Articoli] 		: visualizza tutto l'elenco degli articoli, 
+#				  se si sta visualizzando un solo articolo in colonna centrale
+#	[Links] 		: visualizza i link impostati in links.txt dall'interfaccia amministrativa
+#
+# I valori consentiti per tipo_elemento sono:
+#	tempi			: pagina che si appoggia al database dei tempi. I valori consentiti per 
+#				  nome_modulo sono:
+#						albo_d_oro	: visualizza l'albo d'oro della corsa;
+#						classifica_MF	: classifica dei personali (maschi e femmine);
+#						classifica_F	: classifica dei personali (solo femmine);
+#						ultime_edizioni : elenco delle ultime edizioni, con eventuale link 
+#								  al relativo album fotografico
+#				  il campo dati e' il numero di voci che devono costituire il sottoblocco;
+#	modulo			: sottoblocco, sempre basato sui tempi, costituito da piu' righe. 
+#					  I valori consentiti per nome_modulo sono:
+#					  	ultime_edizioni : elenco delle ultime edizioni, con eventuale link al
+#								  relativo album fotografico
+#								  il campo dati e' il numero di voci che devono 
+#								  costituire il sottoblocco;
+#	modulo_custom	: link a modulo personalizzato (nella directory custom/moduli)
+#	separatore		: separatore dei sottoblocchi costituito da una linea orizzontale
+#	external_link		: link esterno. nome_modulo indica il nome del link (campo "name" del tag href), 
+#					caption il testo visibile del link, dati il link effettivo (relativo o assoluto)
+#
+# il campo disabled_message puo' valere
+#	<campo vuoto> 	: il sottoblocco e' abilitato ed attivo
+#	qualsiasi testo	: il sottoblocco e' visibile ma disabilitato, e cliccandoci sopra compare il messaggio indicato
+#
+#
+#
+# il blocco [elenco_moduli] e' speciale, e contiene una serie di proprieta' relative ai blocchi che costituiscono 
+# il layout. Il formato delle righe di [elenco_moduli] e' il seguente:
+#
+# nome_blocco::gruppo_abilitato1,gruppo_abilitato2,...,gruppo_abilitaton
+#
+# gruppo_abilitato e' il gruppo abilitato a vedere il blocco in questione. Un campo vuoto indica che il blocco e' 
+# visibile a tutti. I valori ammessi per gruppo_abilitatox sono:
+#	guests : utente generico non registrato
+#	users  : utente generico registrato
+#	admin  : gruppo degli amministratori del sito
+#
+#
+
+[elenco_moduli]
+Articoli::
+#Il Progetto::
+Link::
+
+
+#
+# da qui sotto inizia il layout vero e proprio
+#
+
+[Articoli]
+# qualsiasi voce aggiunga qui e' inutile: il blocco [Articoli] non prevede sottoelementi
+
+#[Il progetto]
+#organizzatori::Atto Costitutivo-Statuto ARS::modulo_custom::::
+
+[Link]
+StralacenoWeb::<b>StralacenoWeb</b>::external_link::http://pceres.altervista.org/stralaceno/index.php::
+federazione_calcio::Federazione Calcio::external_link::http://todo::
