@@ -9,11 +9,9 @@
 // $art_id			: argomento di index che specifica l'id dell'articolo da visualizzare
 
 // carica layout colonna sinistra
-$filename_layout_left = $config_dir.'layout_left.txt';
 $elenco_layout_left = get_config_file($filename_layout_left,6);
 
 // carica layout colonna destra
-$filename_layout_right = $config_dir.'layout_right.txt';
 $elenco_layout_right = get_config_file($filename_layout_right,6);
 
 //
@@ -115,6 +113,7 @@ function valida(pform,tipo,check_null)
 }
 
 
+$layout_data['sezione'] = $sezione; // sezione;
 
 $layout_data['archivio'] = $archivio; // archivio tempi;
 
@@ -229,7 +228,8 @@ $item_data = $layout_item[$indice_layout_data];
 $item_disabled = $layout_item[$indice_layout_msg_disabled];
 $item_enabled_groups = split(',',$layout_item[$indice_layout_enabled_groups]);
 
-$usergroups = $layout_data['user']['usergroups'];
+$usergroups 	= $layout_data['user']['usergroups'];
+$sezione 	= $layout_data['sezione'];
 
 if (!group_match($usergroups,$item_enabled_groups))
 {
@@ -276,6 +276,10 @@ if ($item_type != 'modulo')
 		break;
 	case 'modulo_custom':
 		$item_link = "custom/moduli/$item_name/$item_name.php";
+		if (!empty($sezione) & ($sezione !== 'homepage') )
+		{
+			$item_link .= "?page=$sezione";
+		}
 		$item_name = $layout_item[$indice_layout_name];
 		$item_caption = $layout_item[$indice_layout_caption];
 		
