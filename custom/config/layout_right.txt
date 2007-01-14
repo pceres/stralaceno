@@ -62,13 +62,9 @@ Pagine in preparazione::users
 #
 
 [Pagine in preparazione]
-#sondaggio_champions_2007::Sondaggio Champions 2006/2007::external_link::http:questions.php?id_questions=2
-#siti_amici::Caposele sul Web::modulo_custom::::
-#link_sezione_ciclismo::Ciclismo::external_link::index.php?page=ciclismo
 sezione_FC_caposele::FC Caposele::external_link::index.php?page=FC_caposele::
 classifica_campionato::Classifica III<sup>a</sup> categoria::modulo_custom::::
 statistiche_champions_06_07::Statistiche sondaggio Champions 06/07::external_link::statistiche.php?action=show&id_questions=2::
-archivio::Archivio album e articoli::modulo_custom::::
 
 [Bacheca ARS]
 soci::I soci ARS::modulo_custom::::
@@ -84,6 +80,7 @@ flash_news::News ARS::modulo_custom::::
 link_forum_ArsWeb::Forum::external_link::forum.php?action=list_topics&data=0::::
 link2_lotteria_mondiali_2006::Sondaggio Mondiali 2006::external_link::questions.php?id_questions=1::::
 statistiche_mondiali_2006::Statistiche Sondaggio Mondiali 2006::external_link::statistiche.php?action=show&id_questions=1::
+archivio::<b>Archivio album e articoli</b>::modulo_custom::::
 
 [Amministrazione]
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Amministrazione] non prevede sottoelementi
