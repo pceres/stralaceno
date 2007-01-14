@@ -4,7 +4,7 @@
 extract(indici());
 
 
-function indici() {
+function indici($sezione = "homepage") {
 
 # carica le variabili custom (quelle che sono specifiche di ogni sito web, es. titolo, e-mail, ecc)
 require("custom/config/custom.php");
@@ -194,7 +194,7 @@ $config_dir 			= $root_path."custom/config/";
 $album_dir			= $root_path."custom/album/";
 $questions_dir			= $root_path."custom/lotterie/";
 
-#nomi di file
+#nomi di file di default
 $filename_css			= $site_abs_path."custom/config/style.css";
 $filename_cfgfile		= $config_dir."config_files.php";
 $filename_tempi			= $root_path."custom/dati/".$nome_file_tempi;
@@ -205,6 +205,45 @@ $filename_links			= $config_dir."links.txt";
 $filename_albums		= $config_dir."albums.txt";
 $filename_users			= $config_dir."users.php";	// l'estensione e' php in modo che la richiesta della pagina non permetta comunque di visualizzare i dati
 $filename_challenge		= $config_dir."challenge.php";	// l'estensione e' php in modo che la richiesta della pagina non permetta comunque di visualizzare i dati
+$filename_layout_left		= $config_dir.'layout_left.txt';
+$filename_layout_right		= $config_dir.'layout_right.txt';
+$filename_header		= $root_path.'custom/templates/header.php';
+
+
+# personalizzazione nomi di file in base alla sezione
+
+// se si e' in una sezione particolare...
+if (!empty($sezione) && ($sezione!=="homepage") )
+{
+	// $filename_css:
+	$temp_path = "custom/config/style_$sezione.css"; // stile CSS personalizzato
+	if (file_exists($root_path.$temp_path))
+	{
+		$filename_css = $script_abs_path.$temp_path;
+	}
+
+	// $filename_layout_left:
+	$temp_path = "custom/config/layout_left_$sezione.txt"; // layout sinistro personalizzato
+	if (file_exists($root_path.$temp_path))
+	{
+		$filename_layout_left = $root_path.$temp_path;
+	}
+
+	// $filename_layout_right:
+	$temp_path = "custom/config/layout_right_$sezione.txt"; // layout destro personalizzato
+	if (file_exists($root_path.$temp_path))
+	{
+		$filename_layout_right = $root_path.$temp_path;
+	}
+
+	// $filename_header:
+	$temp_path = "custom/templates/header_$sezione.php"; // header personalizzato
+	if (file_exists($root_path.$temp_path))
+	{
+		$filename_header = $root_path.$temp_path;
+	}
+}
+
 
 #varie
 $tempo_max_grafico = max(array($tempo_max_F,$tempo_max_M));
@@ -225,7 +264,8 @@ $formattazione = array('style_sfondo_maschi' => $style_sfondo_maschi,'style_sfon
 $filenames = array('filename_css' => $filename_css,'filename_cfgfile' => $filename_cfgfile,'filename_tempi' => $filename_tempi,
 	'filename_atleti' => $filename_atleti,'filename_organizzatori' => $filename_organizzatori,'filedir_counter' => $filedir_counter,
 	'articles_dir' => $articles_dir,'article_online_file' => $article_online_file,'filename_links' => $filename_links,
-	'filename_albums' => $filename_albums,'filename_users'=>$filename_users,'filename_challenge'=>$filename_challenge);
+	'filename_albums' => $filename_albums,'filename_users'=>$filename_users,'filename_challenge'=>$filename_challenge,
+	'filename_layout_left' => $filename_layout_left, 'filename_layout_right' => $filename_layout_right, 'filename_header' => $filename_header);
 $pathnames = array('root_prefix' => $root_prefix,'root_path' => $root_path,'site_abs_path' => $site_abs_path,
 	'script_abs_path' => $script_abs_path,'modules_site_path' => $modules_site_path,'modules_dir' => $modules_dir,
 	'config_dir' => $config_dir,'album_dir' => $album_dir,'questions_dir' => $questions_dir);
@@ -1017,8 +1057,25 @@ $no_close_tags = array("p","br","?php","img"); // array di tags che non richiedo
 	$bulk_tag = array();
 	$bulk_tag_trim = array();
 	$n_stop = 0;
-	foreach ($testo_in as $line)
+	$inside_comment = 0;
+	foreach ($testo_in as $id_line => $line)
 	{
+		
+		// gestione commenti su piu' righe: devono iniziare con una riga con "<!..", e devono finire con una riga con "-->"
+		if (ereg("^<!--",$line) )
+		{
+			$inside_comment = 1;	// da questa riga inizia un commento HTML: scarta le righe finche' una inizia con "-->"
+			continue;
+		}
+		if ($inside_comment)
+		{
+			if (ereg("^-->",$line))
+			{
+				$inside_comment = 0;
+			}
+			continue;
+		}
+		
 		$vpos = array( strpos($line,"."), strpos($line,"?"), strpos($line,"!") );
 		if ( ($vpos[0] || $vpos[1] || $vpos[2]) & (strlen(strpos($line,"\"")."0")==1) ) // non considerare le linee con stringhe delimitate da "
 		{
@@ -1069,7 +1126,6 @@ $no_close_tags = array("p","br","?php","img"); // array di tags che non richiedo
 		{
 			break;
 		}
-		
 	}
 	
 	// aggiungi il link all'articolo completo
@@ -1088,10 +1144,10 @@ $no_close_tags = array("p","br","?php","img"); // array di tags che non richiedo
 }
 
 
-function template_to_effective($line_in)
+function template_to_effective($line_in,$sezione)
 {
 	# dichiara variabili
-	extract(indici());
+	extract(indici($sezione));
 	
 	$template = array("%script_root%","%file_root%","%web_title%","%web_keywords%","%filename_css%","%homepage_link%",
 		"%config_dir%","%modules_dir%","%questions_dir%");
@@ -1355,10 +1411,10 @@ function save_config_file($conf_file,$keys)
 }
 
 
-function show_template($template_path,$template_file)
+function show_template($template_path,$template_file,$sezione)
 {
 	# dichiara variabili
-	extract(indici());
+	extract(indici($sezione));
 	
 	$lines = file($template_path.$template_file);
 	
@@ -1384,7 +1440,7 @@ function show_template($template_path,$template_file)
 			}
 			
 			// output
-			echo template_to_effective($line);
+			echo template_to_effective($line,$sezione);
 			
 			break;
 		case 1:
