@@ -17,7 +17,8 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
-14::homepage::Attività podistica 2006::
+16::homepage::Foto ArsWeb nov.06::Pasquale Ceres
+14::homepage::Attivit&agrave; podistica 2006::
 13::homepage::Fontanarosa 2006::
 12::homepage::10 Km di Nusco 2006::
 11::homepage::Stralaceno 2006::Salvatore Merola
@@ -28,6 +29,6 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 6::homepage::Sondaggio Mondiali di Calcio 2006::
 5::homepage::Allenamento collettivo 30.12.2005::
 4::homepage::Allenarsi alla Palmenta::
-3::homepage::Cos'è la corsa campestre::
+3::homepage::Cos'&egrave; la corsa campestre::
 2::homepage::Caposele::
 1::homepage::ARS Amatori Running Sele::

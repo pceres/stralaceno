@@ -26,6 +26,6 @@ Formato [elenco_topics]:
 9::Discussione::open::::::Antonio::24::23
 10::ci siete?????::open::::::cabo::8::7
 11::La nuova sezione ciclismo::open::::::Donato Gervasio::5::4
-12::Allenamento Collettivo 30-12-2006::open::::::Ars::6::5
+12::Allenamento Collettivo 30-12-2006::open::::::Ars::18::17
 13::per nazòn::open::::::antonio::4::3
 

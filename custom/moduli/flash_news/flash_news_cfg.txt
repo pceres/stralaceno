@@ -6,6 +6,7 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+10/01/2007::Il nostro socio Salvatore Merola entra a far parte dell'Atletica Camaldolese, associazione podistica iscritta alla FIDAL. In bocca al lupo!
 30/12/2006::Partecipanti all'allenamento podistico collettivo di km 16,750: Nicola D'Auria, Johnny Carrione, Donatello Cirillo, Paolo Viscardi, Gerardo Martino, Giuseppe Martino, Salvatore Merola, Alessandro Russomanno, Nicola Melillo, Gaetano Rosania (per alcuni tratti), Gelsomino Merola (dal km 0,9), Valentino Di Masi (dal km 4,3 per alcuni tratti), Pasquale Ceres (dal km 6,7), Angelo Ceres (dal km 7,5), Gerardo Aiello (dal km 7,5).
 28/12/2006::Divisa podistica ufficiale per gli Amatori Running Sele
 05/12/2006::Fissato per il 30 dicembre alle ore 15.00 un allenamento podistico collettivo di km 16.750 (partenza e arrivo piazza Sanit&agrave;).
