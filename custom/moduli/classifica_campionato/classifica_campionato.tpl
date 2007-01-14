@@ -6,7 +6,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
   <meta name="description" content="elenco dei soci Associazione ARS Amatori Running Sele">
-  <meta name="keywords" content="soci,Associazione,ARS,Amatori Running Sele, notizie, flash, bacheca">
+  <meta name="keywords" content="soci,Associazione,ARS,Amatori Running Sele, FC Caposele, 3 categoria, calcio">
   <style type="text/css">@import "%filename_css%";</style>
 </head>
 <body>
