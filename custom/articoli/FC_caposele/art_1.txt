@@ -9,68 +9,64 @@ Qui altre considerazioni sull'utilit&agrave; di una sezione sul calcio (pur comu
 Ecco la situazione in classifica, alla 7<sup>a</sup> giornata:<br>
 <br>
 <div align="center">
-
 <!-- 
 	inizio tabella risultati giornata x 
 -->
+Risultati 8<sup>a</sup> giornata (07/01/2007)
 <table class="tabella" style="font-size:13.0pt;">
 <tbody><tr><td><table>
-<caption>7<sup>a</sup> giornata</caption>
+<!--%%%% begin classifica_campionato_cfg.txt dati_giornata_visibile 1
+<caption>
+	%field0%
+</caption>
+%%%% end-->
 <tbody>
 <!-- match # 1 -->
 <tr>
-	<td>Castel Baronia</td>
-	<td>Casabianchi Trevico</td>
-	<td>2 - 1</td>
+	<td align="right">CASTEL BARONIA</td>
+	<td> &nbsp;-&nbsp; </td>
+	<td>AQUILONIA</td>
+	<td>1-2</td>
 </tr>
 <!-- match # 2 -->
 <tr>
-	<td>Conza</td>
-	<td>Aquilonia</td>
-	<td>1 - 2</td>
-</tr>
-<!-- match # 3 -->
-<tr>
-	<td>La Longobarda</td>
-	<td>Trevico</td>
-	<td>2 - 0</td>
+	<td align="right">CONZA</td>
+	<td> &nbsp;-&nbsp; </td>
+	<td>SPORTING CLUB NUSCO</td>
+	<td>1-1</td>
 </tr>
 <!-- match # 4 -->
 <tr>
-	<td>Morra De Sanctis</td>
-	<td>Virtus Conza</td>
-	<td>n.p.</td>
+	<td align="right">MORRA DE SANCTIS</td>
+	<td> &nbsp;-&nbsp; </td>
+	<td>CASABIANCHI TREVICO</td>
+	<td>1-2</td>
 </tr>
 <!-- match # 5 -->
 <tr>
-	<td>Sporting Club Nusco</td>
-	<td>Caposele</td>
-	<td>0 - 3</td>
+	<td align="right">REAL S. ANDREA CONZA</td>
+	<td> &nbsp;-&nbsp; </td>
+	<td>VALLESACCARDA</td>
+	<td>1-0</td>
 </tr>
 <!-- match # 6 -->
 <tr>
-	<td>Sporting Ever Green</td>
-	<td>Vallesaccarda</td>
-	<td>3 - 4</td>
+	<td align="right">SPORTING EVER GREEN</td>
+	<td> &nbsp;-&nbsp; </td>
+	<td>TREVICO</td>
+	<td>0-4</td>
 </tr>
-<!-- squadra a riposo -->
-<tr><td colspan=3>&nbsp;</td></tr>
+	<tr><td colspan=3>&nbsp;</td></tr>
+<!-- nota # 1 -->
 <tr>
-	<td colspan=3>Riposa: Real S. Andrea di Conza</td>
+	<td colspan=3>Riposa: Virtus Conza</td>
 </tr>
 </tbody>
 </table></td></tr></tbody></table>
 <!-- 
-	fine tabella risultati giornata x 
--->
-
-
-<br>
-
-
-<!-- 
 	inizio tabella classifica
 -->
+Classifica aggiornata al 07/01/2006
 <table class="tabella" style="font-size:13.0pt;">
 <tbody><tr><td><table>
 <thead><tr>
@@ -86,194 +82,192 @@ Ecco la situazione in classifica, alla 7<sup>a</sup> giornata:<br>
 	<th title="differenza reti">dr</th>
 	<th title="media inglese">mi</th>
 </tr></thead>
-<tbody>
-<!-- # 1 in classifica -->
+<tbody align="center">
+<!-- # pos. 1 in classifica -->
 <tr>
 	<td>1</td>
-	<td>Aquilonia</td>
-	<td>15</td>
-	<td>6</td>
-	<td>5</td>
+	<td align="right">AQUILONIA</td>
+	<td>21</td>
+	<td>8</td>
+	<td>7</td>
 	<td>0</td>
 	<td>1</td>
+	<td>26</td>
+	<td>11</td>
+	<td>15</td>
+	<td>5</td>
+</tr>
+<!-- # pos. 2 in classifica -->
+<tr>
+	<td>2</td>
+	<td align="right">CAPOSELE</td>
 	<td>20</td>
-	<td>10</td>
-	<td>10</td>
-	<td>3</td>
-</tr>
-<!-- # 2 in classifica -->
-<tr>
-	<td>2</td>
-	<td>Caposele</td>
-	<td>14</td>
+	<td>8</td>
 	<td>6</td>
-	<td>4</td>
 	<td>2</td>
 	<td>0</td>
-	<td>14</td>
+	<td>19</td>
+	<td>4</td>
+	<td>15</td>
+	<td>4</td>
+</tr>
+<!-- # pos. 3 in classifica -->
+<tr>
 	<td>3</td>
+	<td align="right">REAL S. ANDREA CONZA</td>
+	<td>20</td>
+	<td>8</td>
+	<td>6</td>
+	<td>2</td>
+	<td>0</td>
 	<td>11</td>
-	<td>2</td>
-</tr>
-<!-- # 3 in classifica -->
-<tr>
-	<td>3</td>
-	<td>Real S. Andrea Conza</td>
-	<td>14</td>
-	<td>6</td>
 	<td>4</td>
-	<td>2</td>
-	<td>0</td>
+	<td>7</td>
+	<td>4</td>
+</tr>
+<!-- # pos. 4 in classifica -->
+<tr>
+	<td>4</td>
+	<td align="right">CASTEL BARONIA</td>
+	<td>12</td>
 	<td>8</td>
 	<td>3</td>
-	<td>5</td>
-	<td>2</td>
-</tr>
-<!-- # 4 in classifica -->
-<tr>
-	<td>4</td>
-	<td>Conza</td>
-	<td>11</td>
-	<td>7</td>
 	<td>3</td>
 	<td>2</td>
+	<td>9</td>
+	<td>7</td>
 	<td>2</td>
-	<td>10</td>
-	<td>6</td>
-	<td>4</td>
 	<td>-4</td>
 </tr>
-<!-- # 5 in classifica -->
+<!-- # pos. 5 in classifica -->
 <tr>
 	<td>5</td>
-	<td>Castel Baronia</td>
-	<td>11</td>
-	<td>6</td>
-	<td>3</td>
-	<td>2</td>
-	<td>1</td>
-	<td>6</td>
+	<td align="right">CONZA</td>
+	<td>12</td>
+	<td>9</td>
 	<td>3</td>
 	<td>3</td>
-	<td>-1</td>
-</tr>
-<!-- # 6 in classifica -->
-<tr>
-	<td>6</td>
-	<td>La Longobarda</td>
-	<td>10</td>
-	<td>7</td>
-	<td>3</td>
-	<td>1</td>
 	<td>3</td>
 	<td>12</td>
 	<td>10</td>
 	<td>2</td>
-	<td>-5</td>
+	<td>-7</td>
 </tr>
-<!-- # 7 in classifica -->
+<!-- # pos. 6 in classifica -->
+<tr>
+	<td>6</td>
+	<td align="right">LA LONGOBARDA</td>
+	<td>10</td>
+	<td>9</td>
+	<td>3</td>
+	<td>1</td>
+	<td>5</td>
+	<td>12</td>
+	<td>16</td>
+	<td>-4</td>
+	<td>-9</td>
+</tr>
+<!-- # pos. 7 in classifica -->
 <tr>
 	<td>7</td>
-	<td>Sporting Club Nusco</td>
+	<td align="right">TREVICO</td>
+	<td>9</td>
 	<td>8</td>
-	<td>7</td>
-	<td>2</td>
 	<td>2</td>
 	<td>3</td>
-	<td>6</td>
+	<td>3</td>
 	<td>11</td>
+	<td>13</td>
+	<td>-2</td>
+	<td>-7</td>
+</tr>
+<!-- # pos. 8 in classifica -->
+<tr>
+	<td>8</td>
+	<td align="right">SPORTING CLUB NUSCO</td>
+	<td>9</td>
+	<td>8</td>
+	<td>2</td>
+	<td>3</td>
+	<td>3</td>
+	<td>7</td>
+	<td>12</td>
 	<td>-5</td>
 	<td>-7</td>
 </tr>
-<!-- # 8 in classifica -->
-<tr>
-	<td>8</td>
-	<td>Virtus Conza</td>
-	<td>7</td>
-	<td>6</td>
-	<td>2</td>
-	<td>1</td>
-	<td>3</td>
-	<td>6</td>
-	<td>10</td>
-	<td>-4</td>
-	<td>-5</td>
-</tr>
-<!-- # 9 in classifica -->
+<!-- # pos. 9 in classifica -->
 <tr>
 	<td>9</td>
-	<td>Morra De Sanctis</td>
-	<td>6</td>
-	<td>5</td>
+	<td align="right">VALLESACCARDA</td>
+	<td>9</td>
+	<td>9</td>
 	<td>2</td>
-	<td>0</td>
 	<td>3</td>
-	<td>8</td>
+	<td>4</td>
 	<td>11</td>
-	<td>-3</td>
-	<td>-3</td>
+	<td>16</td>
+	<td>-5</td>
+	<td>-8</td>
 </tr>
-<!-- # 10 in classifica -->
+<!-- # pos. 10 in classifica -->
 <tr>
 	<td>10</td>
-	<td>Vallesaccarda</td>
-	<td>6</td>
+	<td align="right">VIRTUS CONZA</td>
+	<td>8</td>
+	<td>8</td>
+	<td>2</td>
+	<td>2</td>
+	<td>4</td>
+	<td>8</td>
+	<td>13</td>
+	<td>-5</td>
+	<td>-8</td>
+</tr>
+<!-- # pos. 11 in classifica -->
+<tr>
+	<td>11</td>
+	<td align="right">MORRA DE SANCTIS</td>
 	<td>7</td>
+	<td>8</td>
+	<td>2</td>
 	<td>1</td>
-	<td>3</td>
-	<td>3</td>
+	<td>5</td>
 	<td>10</td>
 	<td>15</td>
 	<td>-5</td>
-	<td>-7</td>
-</tr>
-<!-- # 11 in classifica -->
-<tr>
-	<td>11</td>
-	<td>Sporting Ever Green</td>
-	<td>5</td>
-	<td>6</td>
-	<td>1</td>
-	<td>2</td>
-	<td>3</td>
-	<td>9</td>
-	<td>12</td>
-	<td>-3</td>
-	<td>-7</td>
-</tr>
-<!-- # 12 in classifica -->
-<tr>
-	<td>12</td>
-	<td>Trevico</td>
-	<td>5</td>
-	<td>6</td>
-	<td>1</td>
-	<td>2</td>
-	<td>3</td>
-	<td>5</td>
-	<td>11</td>
-	<td>-6</td>
-	<td>-7</td>
-</tr>
-<!-- # 13 in classifica -->
-<tr>
-	<td>13</td>
-	<td>Casabianchi Trevico</td>
-	<td>1</td>
-	<td>7</td>
-	<td>0</td>
-	<td>1</td>
-	<td>6</td>
-	<td>4</td>
-	<td>13</td>
 	<td>-9</td>
+</tr>
+<!-- # pos. 12 in classifica -->
+<tr>
+	<td>12</td>
+	<td align="right">SPORTING EVER GREEN</td>
+	<td>6</td>
+	<td>8</td>
+	<td>1</td>
+	<td>3</td>
+	<td>4</td>
+	<td>11</td>
+	<td>18</td>
+	<td>-7</td>
+	<td>-10</td>
+</tr>
+<!-- # pos. 13 in classifica -->
+<tr>
+	<td>13</td>
+	<td align="right">CASABIANCHI TREVICO</td>
+	<td>5</td>
+	<td>9</td>
+	<td>1</td>
+	<td>2</td>
+	<td>6</td>
+	<td>8</td>
+	<td>16</td>
+	<td>-8</td>
 	<td>-12</td>
 </tr>
 </tbody>
-</table></td></tr></tbody></table>
-<!-- 
+</table></td></tr></tbody></table><!-- 
 	fine tabella classifica
 -->
-
 </div>
 --- End body ---
