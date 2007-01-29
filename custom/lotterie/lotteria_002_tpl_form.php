@@ -70,7 +70,7 @@ if (empty($info_mode))
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <meta name="GENERATOR" content="Kate">
 <meta name="description" content="<?php echo $lotteria_nome; ?>">
-<meta name="keywords" content="lotteria, questionario">
+<meta name="keywords" content="lotteria, questionario, Champions League 06 07, sondaggio, classifica">
 <style type="text/css">@import "<?php echo $filename_css ?>";</style>
 
 
