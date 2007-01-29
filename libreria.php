@@ -1176,7 +1176,7 @@ function show_article($art_data,$mode,$link)
 	if ($mode === 'abstract')
 	{
 		// abstract dell'articolo
-		$puntini = ' <a href="'.$link.'">...</a>';
+		$puntini = ' ...<a href="'.$link.'">(leggi tutto)</a>';
 		$testo_articolo = get_abstract($art_data["testo"],$puntini);
 	}
 	else
