@@ -21,6 +21,8 @@ albums.txt::%config_dir%::configurazione album::admin,soci_ars::4d419c10c5adc73a
 links.txt::%config_dir%::links::admin::d36923926ed59333afab0bba1a4ad5e5
 layout_left.txt::%config_dir%::disposizione colonna sinistra::admin::d36923926ed59333afab0bba1a4ad5e5
 layout_right.txt::%config_dir%::disposizione colonna destra::admin::d36923926ed59333afab0bba1a4ad5e5
+layout_left_FC_caposele.txt::%config_dir%::colonna sin. FC Caposele::admin::d36923926ed59333afab0bba1a4ad5e5
+layout_right_FC_caposele.txt::%config_dir%::colonna dx. FC Caposele::admin::d36923926ed59333afab0bba1a4ad5e5
 
 # moduli
 pregfas_cfg.txt::%modules_dir%pregfas/::gestione pregfas::admin::d36923926ed59333afab0bba1a4ad5e5
