@@ -21,7 +21,7 @@
   <tbody>
 	<tr>
 		<td width="100%">
-		<img src="%file_root%custom/images/logo.gif" alt="logo_del_sito">
+		<img src="%file_root%custom/album/varie/logo.jpg" alt="logo %web_title%">
 		</td>
 	</tr>
   </tbody>
@@ -69,8 +69,7 @@ Chi volesse scriverci pu&ograve; inviare una email all'indirizzo
 	<i>Lettera ricevuta il %field1%</i><br>
 	
 	<br>
-	<b><i><span style="font-size:0.85em;">%field3%</span></i></b>
-	<br>
+%%%% if %field3%!=''	<b><i><span style="font-size:0.85em;">%field3%</span></i></b>	<br>
 
 %%%% end
 
