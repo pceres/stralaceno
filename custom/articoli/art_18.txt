@@ -3,7 +3,7 @@ Titolo::Allenamento Collettivo 30.12.2006
 --- Begin body ---
 <br>Sotto un cielo terso e una temperatura pi&ugrave; che gradevole per la stagione invernale, quindici  atleti hanno partecipato all’allenamento collettivo di km 16,750 di fine anno 2006:<br>Nicola D’Auria, Johnny Carrione, Donatello Cirillo, Paolo Viscardi, Gerardo Martino, Giuseppe Martino, Salvatore Merola, Alessandro Russomanno, Nicola Melillo, Gaetano Rosania (per alcuni tratti), Gelsomino Merola (dal km 0,9), Valentino Di Masi (dal km 4,3 per alcuni tratti), Pasquale Ceres (dal km 6,7), Angelo Ceres (dal km 7,5), Gerardo Aiello (dal km 7,5).<br>
 <br>
-L'album fotografico è disponibile <a href="album.php?anno=All.Coll.06">qui</a><br>
+L'album fotografico, commentato da Paolo Viscardi, è disponibile <a href="album.php?anno=All.Coll.06">qui</a>. <br>
 <br>
 <div align="center">
 <img id="fotoAllenamentoCollettivo" src="%file_root%custom/album/All.Coll.06/dscn7057.jpg" alt="" border="0" width="350">
