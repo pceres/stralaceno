@@ -16,7 +16,7 @@
   <tbody>
 	<tr>
 		<td align="center">
-			<img src="%file_root%custom/images/logo.gif" alt="logo_ArsWeb">
+			<img src="%file_root%custom/album/varie/logo.jpg" alt="logo %web_title%">
 		</td>
 	</tr>
   </tbody>
@@ -46,19 +46,13 @@
 <table class="tabella" style="font-size:13.0pt;">
 <tbody><tr><td><table>
 
-<!--%%%% begin classifica_campionato_cfg.txt dati_giornata_visibile 1
-<caption>
-	%field0%
-</caption>
-%%%% end-->
-
 <tbody>
 
 
 %%%% begin classifica_campionato_cfg.txt giornata_visibile 4
 <!-- match # %field0% -->
 <tr>
-	<td align="right">%field1%</td>
+	<td> &nbsp;%field1%</td>
 	<td> &nbsp;-&nbsp; </td>
 	<td>%field2%</td>
 	<td>%field3%</td>
@@ -116,7 +110,7 @@
 <!-- # pos. %field0% in classifica -->
 <tr>
 	<td>%field0%</td>
-	<td align="right">%field1%</td>
+	<td align="left">&nbsp;%field1%</td>
 	<td>%field2%</td>
 	<td>%field3%</td>
 	<td>%field4%</td>
