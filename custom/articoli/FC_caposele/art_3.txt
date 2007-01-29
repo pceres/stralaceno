@@ -1,0 +1,10 @@
+Autore::
+Titolo::I dirigenti
+--- Begin body ---
+<br>
+PRESIDENTE: Cibellis Rocco Tommaso<br><br>
+VICE PRESIDENTE: Melillo Gerardo Ernesto<br><br>
+SEGRETARIO: Cirillo Donatello<br><br>
+CASSIERE: Cetrulo Massimo<br><br>
+CONSIGLIERI: Corona Salvatore, Proietto Giuseppe, Russomanno Alessandro<br><br>
+--- End body ---
