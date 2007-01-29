@@ -20,7 +20,7 @@ extract(indici());
 <table align="center" width="100%" style="background-color:rgb(255, 255, 255);">
 	<tbody>
 		<tr>
-		  <td align="center"> <img src="<?php echo $site_abs_path ?>custom/images/logo.gif" alt="logo_stralacenoweb"> </td>
+		  <td align="center"> <img src="<?php echo $site_abs_path?>custom/album/varie/logo.jpg" alt="logo <?php echo $web_title; ?>"> </td>
 		</tr>
 	</tbody>
 </table>
@@ -29,12 +29,9 @@ extract(indici());
 
 <div align="justify" class="txt_normal">
 
-<p>
-L'organizzazione della Stralaceno &egrave; a cura 
-dell'associazione sportiva e culturale <b>ARS (Amatori Running Sele)</b>
-e di tutti coloro che desiderano prestare la propria collaborazione.
-
-<hr>
+<!--p>
+TODO: breve testo di descrizione
+<hr-->
 
 <h3 style="clear:right;text-align:center;">Statuto dell'Associazione sportiva e culturale "ARS  Amatori Running Sele":</h3>
 
