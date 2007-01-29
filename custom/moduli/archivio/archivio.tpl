@@ -16,7 +16,7 @@
   <tbody>
 	<tr>
 		<td align="center">
-			<img src="%file_root%custom/images/logo.gif" alt="logo_ArsWeb">
+			<img src="%file_root%custom/album/varie/logo.jpg" alt="logo %web_title%">
 		</td>
 	</tr>
   </tbody>
@@ -54,6 +54,19 @@
 
 	<td valign="top" nowrap>- <a href="../../../index.php?page=%field1%&amp;art_id=%field0%">%field2%</a></td>
 %%%% if %field3%!=''	<td>: </td>	<td>%field3%<br></td>
+    </tr>
+	
+%%%% end
+</tbody></table>
+
+
+<br>
+<b>Archivio altre pagine:</b>
+
+<table><tbody>
+%%%% begin archivio_cfg.txt elenco_pagine 2
+    <tr>
+	<td valign="top" nowrap>- <a href="%field0%">%field1%</a></td>
     </tr>
 	
 %%%% end
