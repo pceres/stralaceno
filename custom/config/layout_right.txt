@@ -63,7 +63,7 @@ Pagine in preparazione::users
 
 [Pagine in preparazione]
 sezione_FC_caposele::FC Caposele::external_link::index.php?page=FC_caposele::
-classifica_campionato::Classifica III<sup>a</sup> categoria::modulo_custom::::
+classifica_campionato::Classifica III categoria::modulo_custom::::
 statistiche_champions_06_07::Statistiche sondaggio Champions 06/07::external_link::statistiche.php?action=show&id_questions=2::
 
 [Bacheca ARS]
