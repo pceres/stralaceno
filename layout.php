@@ -221,11 +221,11 @@ $list_tempi_page = array('albo_d_oro' => 'filtro7.php','classifica_MF' => 'filtr
 	'classifica_F' => 'filtro10.php','classifica_partecipazioni' => 'filtro11.php',
 	'grafico_tempi'=>'filtro8.php','archivio_storico'=>'filtro6.php');
 
-$item_name = $layout_item[$indice_layout_name];
-$item_caption = $layout_item[$indice_layout_caption];
-$item_type = $layout_item[$indice_layout_type];
-$item_data = $layout_item[$indice_layout_data];
-$item_disabled = $layout_item[$indice_layout_msg_disabled];
+$item_name 	= $layout_item[$indice_layout_name];
+$item_caption 	= $layout_item[$indice_layout_caption];
+$item_type 	= $layout_item[$indice_layout_type];
+$item_data 	= $layout_item[$indice_layout_data];
+$item_disabled 	= $layout_item[$indice_layout_msg_disabled];
 $item_enabled_groups = split(',',$layout_item[$indice_layout_enabled_groups]);
 
 $usergroups 	= $layout_data['user']['usergroups'];
@@ -295,6 +295,7 @@ if ($item_type != 'modulo')
 		die("Modulo nel layout non riconosciuto: $item_type.");
 	}
 	
+	// se il testo e' troppo lungo, permetti di andare a capo
 	if (strlen($item_caption)>40)
 	{
 		$wrap_mode = '';
@@ -303,17 +304,28 @@ if ($item_type != 'modulo')
 	{
 		$wrap_mode = ' nowrap';
 	}
-
+	
+	// esamina i primi caratteri del testo: se inizia con il trattino, ...
+	if (substr($item_caption,0,3) === ' - ')
+	{
+		// ...se si va a capo, allinea indentando a destra
+		$stile_cella = "style=\"padding-left: 7pt; text-indent: -7pt;\"";
+	}
+	else
+	{
+		$stile_cella = "";
+	}
+	
 	// inizio codice html:
 	echo "\t\t\t<!-- inizio sottoblocco $item_name -->\n";
-
+	
 	if ($item_disabled == '')
 	{
 		// sottoblocco abilitato
 ?>
 			<tr style="vertical-align: baseline">
 				<td>&#8250;&nbsp;</td>
-				<td align="left" width="100%" <?php echo $wrap_mode; ?>>
+				<td align="left" width="100%" <?php echo $wrap_mode; ?> <?php echo $stile_cella; ?>>
 					<a href="<?php echo $item_link ?>" name="<?php echo $item_name ?>" class="txt_link"><?php echo $item_caption ?></a>
 				</td>
 			</tr>
@@ -652,7 +664,12 @@ default:
 				$id = $elenco_articoli[$i];
 				$art_data = load_article($id,$sezione); // carica l'articolo
 				
-				$layout_item_array = array("index.php?page=$sezione&amp;art_id=$id","articolo_$id","&nbsp;-&nbsp;".$art_data['titolo']);
+$stile_riga = "padding-left: 10pt; text-indent: -10pt;";
+// $link_riga = "&nbsp;-&nbsp;".$art_data['titolo'];
+$link_riga = " - ".$art_data['titolo'];
+// die('layout.php: todo!');
+
+				$layout_item_array = array("index.php?page=$sezione&amp;art_id=$id","articolo_$id",$link_riga,$stile_riga);
 				$virtual_item = array($indice_layout_type => "raw",$indice_layout_data => $layout_item_array);
 				show_layout_block_item($layout_block,$virtual_item,$layout_data);
 			} // end for  
