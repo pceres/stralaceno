@@ -68,6 +68,8 @@ case 'ciclismo':
 case 'FC_caposele':
 	$password_ok = 'd5aa82c231314da451812262871076bf'; // "palumenta"
 	break;
+default:
+	die("La sezione $sezione non e' ancora gestita! Contattare l'amministratore.");
 }
 
 if ($password != $password_ok)
