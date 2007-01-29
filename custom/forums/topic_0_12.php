@@ -29,6 +29,26 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 15::paolo::12/01/2007 02.46.47::visible
 16::paolo::13/01/2007 13.25.40::visible
 17::Salvatore::13/01/2007 14.15.37::visible
+18::Alessandro::22/01/2007 14.57.41::visible
+19::Salvatore::22/01/2007 18.40.34::visible
+20::paolo::22/01/2007 19.28.25::visible
+21::Alessandro::23/01/2007 10.43.28::visible
+22::Talentscout::25/01/2007 14.20.30::visible
+23::Angelo::25/01/2007 16.34.55::visible
+24::Alessandro::25/01/2007 16.59.49::visible
+25::Salvatore::25/01/2007 21.45.54::visible
+26::paolo::26/01/2007 12.19.07::visible
+27::Angelo::26/01/2007 17.34.31::visible
+28::paolo::27/01/2007 17.35.05::visible
+29::Salvatore::28/01/2007 12.21.55::visible
+30::paolo::28/01/2007 12.32.21::visible
+31::Salvatore::28/01/2007 16.40.57::visible
+32::paolo::28/01/2007 17.53.38::visible
+33::paolo::28/01/2007 18.03.01::visible
+34::Salvatore::28/01/2007 19.21.32::visible
+35::Alessandro::29/01/2007 10.04.44::visible
+36::Angelo::29/01/2007 12.21.04::visible
+37::Alessandro::29/01/2007 15.56.38::visible
 
 [post_text_0]
 Aspettiamo qui le vostre osservazioni e le vostre intenzioni di partecipazione all'allenamento podistico del 30 dicembre 2006. Ciao.
@@ -138,4 +158,123 @@ ciao.
 
 [post_text_17]
 Ciao Paolo,alle 3 e un quarto svolgeremo un allenamento presumibilmente di 10-12 km,sono letteralmente distrutto da quasta prima settimana,eppure tra oggi e domani dovrò raggiungere i 25-27 km...poi lunedì unico giorno di riposo per ricominciare....ci sentiamo quando torni allora...ciao
+
+[post_text_18]
+x Salvatore e Paolo
+&nbsp;
+sono saltati gli allenamenti questo fine settimana... Mi raccomando, non rilassatevi troppo!
+&nbsp;
+ciao
+
+[post_text_19]
+X alessandro
+&nbsp;
+Alessà magari mi potessi rilassare,già te l'ho detto che la tabella che mi ha fatto Gelsomino è mostruosa...ieri mattina presto allenamento,14 km a 4'35''...x non parlarti di quello che ho fatto oggi..10 km a 5' dopo l'allenamento di ieri...domani riposo...mercoledì un'altra batosta...quindi come avrai capito qui c'è tutt'altro che un rilassamento...cerca di non rilassarti tu invece eh...mi raccomando...nel fine settimana organizzaremo un allenamento,se le gambe mi reggono...ciao
+
+[post_text_20]
+x alex,
+mi dispiace ma ti sbagli, anch'io ieri ho sostenuto un allenamento di quasi 8 KM con la compagnia di Donatello!
+quindi come dice Salvatore, stai attento tu a non rilassarti troppo ok?
+Mi dispiace di non averti potuto salutare, ora penso che ci rivediamo tra 15 giorni.
+OK, in bocca al lupo lì a roma...ci vediamo
+ciao.
+
+[post_text_21]
+Purtroppo qui a Roma avrò pochissimo tempo per fare sport ed allenarmi... Vi voglio in forma in primavera per iniziare a partecipare a qualche gara (alle quali io potrò solo accompagnarvi...).
+&nbsp;
+A proposito, tenete d'occhio il calendario podistico e iniziate a segnalare qualche gara alla quale volete partecipare.
+&nbsp;
+ciao
+
+[post_text_22]
+&gt;X alessandro<br>&gt; <br>&gt;Alessà magari mi potessi rilassare,già te l'ho detto che la tabella che mi ha fatto Gelsomino è mostruosa...ieri mattina presto allenamento,14 km a 4'35''...x non parlarti di quello che ho fatto oggi..10 km a 5' dopo l'allenamento di ieri...domani riposo...mercoledì un'altra batosta...quindi come avrai capito qui c'è tutt'altro che un rilassamento...cerca di non rilassarti tu invece eh...mi raccomando...nel fine settimana organizzaremo un allenamento,se le gambe mi reggono...ciao<br>&gt;<br><br>Salvatò, ma quà Gelsomino! Trovati qualche bella tabella su internet (che Gelsomino non è capace nemmeno di usare!) e fatti un bell'allenamento sistemato!!!! In bocca al lupo
+
+[post_text_23]
+Finalmente è giunta la neve; domani 26 apriranno le piste da sci a Laceno.
+Invito tutti a trascorrere una giornata di sport invernale.
+Alessandro già ha dato la sua disponibilità insieme a Valentino.
+Aspetto notizie da Paolo, Salvatore, Nicola Melillo e chiunque altro si voglia aggregare.
+
+[post_text_24]
+Confermo la mia disponibilità appena tornerò a Caposele. Ciao
+
+[post_text_25]
+X talentscout
+&nbsp;
+Vorresti dire che dovrei fidarmi più delle tabelle prese x internet che di quella fatta apposta per me da Gelsomino,grazie x l'interessamento ma non ci penso proprio...è una questione di stima che ho per lui per quello che ha fatto e per quello che potrà aiutarmi a fare quindi...ho piena fiducia in gelsomino e mi sto impegnando tantissimo x rispettare il suo programma...ciao
+&nbsp;
+Un saluto ad alessandro,paolo e angelo...mi dispiace ma io a sciare penso di essere negato,anche se mi piacerebbe un sacco...grazie x l'interessamento comunque...ciao
+
+[post_text_26]
+ciao Angelo, devo dire che il tuo è un bell'invito; io non ho mai sciato, quindi non so fare praticamente niente...ma come si dice c'è sempre una prima volta, quindi se organizzate ed io sono a Caposele ci verrei volentieri.
+Ok un saluto anche ad Alex, Salvatore e Nicola Melillo.
+
+[post_text_27]
+Per Paolo
+non preoccuparti saprai stare sugli sci nel giro di 30 minuti, è molto divertente; poi Alessandro ti insegnerà la sua posizione preferita: "la posizione di massima velocità" chiaramente in piena sicurezza.
+
+[post_text_28]
+Ragazzi colgo l'occasione di farvi notare una novità!
+é stato aggiunto un forum sul sito WWW.SIAMONI.IT, dove poter parlare di tante cose, dall'attualità allo sport e tutto ciò che riguarda l'amicizia!!!
+Spero in una vostra collaborazione.
+Grazie a tutti...
+Colgo l'occasione per far un saluto a tutti i soci ARS.
+
+[post_text_29]
+Ciao Paolo come va?è parecchio che non ci sentiamo...come stanno andando gli allenamenti...?
+un saluto anche ad ale che a quest'ora sarà così scontento nella sua roma per non poter praticare sport...non preoccuparti che mi sto dando da fare io per te..ok?
+un ultimo saluto a tutti i soci...ciao
+
+[post_text_30]
+ciao salvatore, vedo che tis tai dando da fare! io purtroppo non riesco a seguirti, il miop ultimo allenamento risale a domenica scorsa, in mezzo solo una partita di calcetto giocata da portiere, quindi non ho fatto un grandi cose, tutto questo colpa del poco tempo a disposizione e visto il periodo di esami che non mi danno tregua; questa è la ragione che non mi hanno dato la possibilità di andare a salerno.
+Ma oggi ho già programmato tutto, tra qualche ora farò un  mega allenamento a lancusi di un'ora un'ora e dieci, per non perdere tutto... Poi ti farò sapere com' è andata OK!
+Vabbè allora ci vediamo la settimana prossima, Ah ricorda a giuseppe che si gioca martedi alle ore 15.00 digli di farmi sapere se può venire (giochiamo contro la prima in classifica)
+ok ciao...
+
+[post_text_31]
+X Paolo
+&nbsp;
+Non ti preoccupare informerò giuseppe della partita...buon allenamento allora..anch'io ho avuto molte difficoltà x allenarmi perchè ultimamente sono stato molto impegnato a scuola,però lo stesso son riuscito a trovare un piccolo spazio x la corsa ..da questa settimana avrò sicuramente più tempo a disposizione...ci vediamo il prossimi week end allora....ciao
+
+[post_text_32]
+Grazie Salvatò, sono tornato da poco dall'allenamento e devo dire davvero duro, non so oggi non mi sentivo per niente bene,quindi ho programmato un'altro allenamento per domani sera proprio per verificare se oggi è stata solo una casualità o vuol dire che ho perso tanto!!
+Cmq penso ci vedremo questo fine settimana .
+ciao.
+&nbsp;
+Alex allora come scorrono i giorni lì a Roma?
+
+[post_text_33]
+X Nicola M.
+ciao come va è da tanto che non ti sento più, allora come vanno le cose?
+ultimamente non ho visto tuoi messaggi all'interno di questo forum, mi mancano i tuoi pensieri. Ti mando un saluto..alla prossima. ciao ciao!!!
+
+[post_text_34]
+COMUNICAZIONE IMPORTANTE
+&nbsp;
+Comunico a tutti i soci dell'ars e a chiunque voglia parteciparvi che è uscito il programma delle gare primaverili che si svolgeranno in provincia di avellino e salerno:
+-25 marzo 2007,10 km,l'evento si terrà a Cava dei Tirenni(SA)
+-15 aprile 2007,mezza maratona ad Atripalda (AV)
+-25 aprile 2007,10 km,l'evento si terrà a Montemiletto (AV)
+-29 aprile 2007,10 km, l'evento si terrà a Baiano (AV)
+ovviamente col passare dei giorni potrebbero essere aggiunte nuove gare,vi terrò aggiornati...
+saluti...sal
+
+[post_text_35]
+Ciao Paolo,
+qui a Roma solita vita con pochissimo sport...
+&nbsp;
+Ci vediamo questo fine settimana per fare un bel allenamento insieme a Salvatore.
+&nbsp;
+saluti a tutti
+&nbsp;
+
+[post_text_36]
+X Alex
+fissiamo la data per la giornata sportiva invernale visto che sei di ritorno
+Ciao.
+&nbsp;
+&nbsp;
+
+[post_text_37]
+Al momento non sono in grado di indicarti nè il giorno nè la mia disponibilità... ciao. ale
 

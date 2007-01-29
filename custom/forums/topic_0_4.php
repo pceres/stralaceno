@@ -16,6 +16,8 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 2::Ars::01/12/2006 12.30.55::visible
 3::Pasquale C.::02/12/2006 21.16.33::visible
 4::Ars::20/12/2006 12.34.00::visible
+5::Alessandro::15/01/2007 20.13.09::visible
+6::paolo::16/01/2007 00.44.59::visible
 
 [post_text_0]
 E' in preparazione un sondaggio sulle squadre prime classificate nella Champions League 2006/2007.
@@ -42,4 +44,16 @@ I vostri suggerimenti saranno i benvenuti.
 
 [post_text_4]
 E' attivo il sondaggio Champions League: formulate pure le vostre previsioni.
+
+[post_text_5]
+ai soci ars
+&nbsp;
+Come procede la distribuzione delle schede sondaggio champions?
+
+[post_text_6]
+ciao Alex
+diciamo che va abbastanza bene anche se non mi sono applicato a pieno, per ora ne ho consegate 5 o 6 con la speranza che alla restituzione possano mettere una piccola offerta, altrimenti non fa niente!
+mo vedo domani , ne rimango qualcuna ai compagni del corso, vedo che ne pensano e se sono disposti a compilarla!
+OK , poi aggiornerò la situazione in caso di successo!
+ciao, alla prossima!!!
 
