@@ -16,7 +16,7 @@
   <tbody>
 	<tr>
 		<td align="center">
-			<img src="%file_root%custom/images/logo.gif" alt="logo_ArsWeb">
+			<img src="%file_root%custom/album/varie/logo.jpg" alt="logo %web_title%">
 		</td>
 	</tr>
   </tbody>
