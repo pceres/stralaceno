@@ -14,7 +14,7 @@
 #	<webmaster>	: persona che cura il sito (o, cio' che e' lo stesso, webmaster!)
 #
 [elenco_siti]
-1::arsweb::CaposeleWeb::http://ars.altervista.org/index.php::http://pceres.altervista.org/ars/custom/images/logo.gif::ARS Amatori Running Sele::Pasquale Ceres
+1::arsweb::CaposeleWeb::http://ars.altervista.org/index.php::http://ars.altervista.org/custom/album/varie/logo.gif::ARS Amatori Running Sele::Pasquale Ceres
 2::stralacenoweb::StralacenoWeb::http://pceres.altervista.org/stralaceno/index.php::http://pceres.altervista.org/stralaceno/custom/images/logo.gif::ARS Amatori Running Sele::Pasquale Ceres
 3::caposeleonline::Caposele Online::http://www.caposeleonline.it::http://www.caposeleonline.it/Photo_0526.jpg::Gerardo Notaro::Gerardo Notaro
 4::Informagiovani::Informagiovani::http://www.informagiovani.caposele.net::http://www.informagiovani.caposele.net/55/foto2pic.jpg::Caposele.net::Caposele.net
