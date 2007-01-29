@@ -5,8 +5,8 @@ inizio header
 	  <tbody>
 	  
 		<tr>
-		  <td> <img src="<?php echo $site_abs_path?>custom/images/logo.gif" alt="logo_ars"> </td>
-		  <td> sezione <big><b>F.C. Caposele</b></big> </td>
+		  <td> <img src="<?php echo $site_abs_path?>custom/album/varie/logo.jpg" alt="logo %web_title%"> </td>
+		  <td> sezione <big><big><b>F.C. Caposele</b></big></big> </td>
 		</tr>
 		
 	  </tbody>
