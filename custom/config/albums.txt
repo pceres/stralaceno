@@ -1,5 +1,5 @@
 # File di configurazione degli album fotografici
-# 
+#
 # ogni album inizia con una riga vuota, ed un'altra del tipo [nome_album]. Seguono poi una o piu' righe, una per
 # ciascuna foto, nel formato:
 # foto::titolo::descrizione::nome e cognome
@@ -249,38 +249,39 @@ stats_partecipanti.jpg::
 
 [All.Coll.05]
 ManifestoAll.Coll.05.jpg::
-IMG_1594.jpg::
-IMG_1595.jpg::
-DSCN5780.jpg::
-DSCN5782.jpg::
-IMG_1596.jpg::
-IMG_1597.jpg::
-IMG_1600.jpg::
-img_1605.jpg::
-img_1607.jpg::
-IMG_1608.jpg::
-DSCN5809.jpg::
-IMG_1611.jpg::
-IMG_1615.jpg::
-IMG_1620.jpg::
+IMG_1594.jpg::All.collettivo::pochi istanti prima della partenza di piazza sanit&agrave;::
+IMG_1595.jpg::All.collettivo::partiti verso la scalata::
+DSCN5780.jpg::All.collettivo::
+DSCN5782.jpg::All.collettivo::
+IMG_1596.jpg::All.collettivo::
+IMG_1597.jpg::All.collettivo::il gruppo ha appena percorso il ponte di Caposele::
+IMG_1600.jpg::All.collettivo::
+img_1605.jpg::All.collettivo::
+img_1607.jpg::All.collettivo::
+IMG_1608.jpg::All.colletivo::
+DSCN5809.jpg::All.collettivo::
+IMG_1611.jpg::All.collettivo::poche centinaia di metri per approdare nell'abitato di Materdomini::
+IMG_1615.jpg::All.collettivo::
+IMG_1620.jpg::All.collettivo::
 
 [prova]
 stra06.jpg::
 stra06_2.jpg::
 
 [Soci_ars]
-LV.jpg::Lello Viscardi::
-DC.jpg::Donatello Cirillo::
-PV.jpg::Paolo Viscardi::
+LV2.jpg::Lello Viscardi::
+PV2.jpg::Paolo Viscardi::
 NC.JPG::Nicola Cirillo::
 AR.jpg::Alessandro Russomanno::
-GM.jpg::Gerardo Martino::
-GR.jpg::Giuseppe Rosania::
+GM2.jpg::Gerardo Martino::
+GR2.jpg::Giuseppe Rosania::
 MC.jpg::Michele Ceres::
 NDA.jpg::Nicola D'Auria::
 PC2.jpg::Pasquale Ceres::
 RP.jpg::Rocco Proietto::
-VDM.jpg::Valentino Di Masi::
+VDM2.jpg::Valentino Di Masi::
 SM.jpg::Salvatore Merola::
-PC.jpg::Pasquale Ceres::
-DC2.jpg::Donatello Cirillo::
+DC.jpg::Donatello Cirillo::
+FC.jpg::Francesco Ceres::
+GS.jpg::Gianni Sozio::
+SC.jpg::Salvatore Colatrella::
