@@ -1,0 +1,31 @@
+Autore::
+Titolo::La squadra
+--- Begin body ---
+<br>I giocatori della F.C. Caposele:<br><br>
+Ceres Donato<br>
+Cetrulo Giuseppe<br>
+Ciccone Francesco<br>
+Cibellis Luca<br>
+Cibellis Mario<br>
+Cibellis Thomas<br>
+Cibellis Tommaso<br>
+Cuozzo Giovanni<br>
+D'Elia Antonio<br>
+Di Vincenzo Gianfranco<br>
+Donatiello Claudio<br>
+Feniello Rocco<br>
+Galdi Prezioso<br>
+Grasso Armando<br>
+Grasso Ermanno<br>
+Lardieri Angelo<br>
+Lenza Vincenzo<br>
+Liloia Giuseppe<br>
+Malanga Nicola<br>
+Merola Lorenzo<br>
+Panariello Raffaele<br>
+Proietto Rocco<br>
+Sista Benito<br>
+Zarra Alessio<br><br>
+Responsabile Tecnico: Corona Salvatore<br><br>
+Preparatore Atletico: Sista Raffaele<br><br>
+--- End body ---
