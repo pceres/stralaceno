@@ -4,16 +4,14 @@
 // variabili in input:
 //
 // $archivio 			: archivio tempi (generato da load_data())
-// $login				: dati utente connesso e relativi gruppi di appartenenza
-// $pagina				: argomento di index che specifica il tipo di pagina da visualizzare
-
+// $login			: dati utente connesso e relativi gruppi di appartenenza
+// $sezione			: argomento di index che specifica il tipo di pagina da visualizzare
+// $art_id			: argomento di index che specifica l'id dell'articolo da visualizzare
 
 // carica layout colonna sinistra
-$filename_layout_left = $config_dir.'layout_left.txt';
 $elenco_layout_left = get_config_file($filename_layout_left,6);
 
 // carica layout colonna destra
-$filename_layout_right = $config_dir.'layout_right.txt';
 $elenco_layout_right = get_config_file($filename_layout_right,6);
 
 //
@@ -115,6 +113,7 @@ function valida(pform,tipo,check_null)
 }
 
 
+$layout_data['sezione'] = $sezione; // sezione;
 
 $layout_data['archivio'] = $archivio; // archivio tempi;
 
@@ -138,8 +137,12 @@ $elenco_foto = get_config_file($filename_albums,4);
 $layout_data['ultime_edizioni'] = array('elenco_anni'=>$elenco_anni,'elenco_foto'=>$elenco_foto);
 
 // Articoli::
-$elenco_articoli = get_online_articles($article_online_file); // carica l'elenco degli articoli da pubblicare
-$layout_data['Articoli'] = array('elenco_articoli'=>$elenco_articoli,'tipo_pagina'=>$pagina);
+$art_file_data 	= get_articles_path($sezione);
+$path_articles 	= $art_file_data["path_articles"];	// cartella contenente gli articoli
+$online_file 	= $art_file_data["online_file"];	// file contenente l'elenco degli articoli online
+$elenco_articoli 	= get_online_articles($online_file); 	// carica l'elenco degli articoli da pubblicare
+$articolo_corrente 	= $art_id;				// (eventuale) id dell'articolo visualizzato da solo
+$layout_data['Articoli']= array('elenco_articoli'=>$elenco_articoli,'tipo_pagina'=>$sezione,'articolo_corrente'=>$articolo_corrente);
 
 // droplist_edizioni::
 $layout_data['droplist_edizioni'] = $elenco_anni; // edizioni disponibili (gia' caricate per il modulo ultime_edizioni)
@@ -218,14 +221,15 @@ $list_tempi_page = array('albo_d_oro' => 'filtro7.php','classifica_MF' => 'filtr
 	'classifica_F' => 'filtro10.php','classifica_partecipazioni' => 'filtro11.php',
 	'grafico_tempi'=>'filtro8.php','archivio_storico'=>'filtro6.php');
 
-$item_name = $layout_item[$indice_layout_name];
-$item_caption = $layout_item[$indice_layout_caption];
-$item_type = $layout_item[$indice_layout_type];
-$item_data = $layout_item[$indice_layout_data];
-$item_disabled = $layout_item[$indice_layout_msg_disabled];
+$item_name 	= $layout_item[$indice_layout_name];
+$item_caption 	= $layout_item[$indice_layout_caption];
+$item_type 	= $layout_item[$indice_layout_type];
+$item_data 	= $layout_item[$indice_layout_data];
+$item_disabled 	= $layout_item[$indice_layout_msg_disabled];
 $item_enabled_groups = split(',',$layout_item[$indice_layout_enabled_groups]);
 
-$usergroups = $layout_data['user']['usergroups'];
+$usergroups 	= $layout_data['user']['usergroups'];
+$sezione 	= $layout_data['sezione'];
 
 if (!group_match($usergroups,$item_enabled_groups))
 {
@@ -272,6 +276,10 @@ if ($item_type != 'modulo')
 		break;
 	case 'modulo_custom':
 		$item_link = "custom/moduli/$item_name/$item_name.php";
+		if (!empty($sezione) & ($sezione !== 'homepage') )
+		{
+			$item_link .= "?page=$sezione";
+		}
 		$item_name = $layout_item[$indice_layout_name];
 		$item_caption = $layout_item[$indice_layout_caption];
 		
@@ -287,6 +295,7 @@ if ($item_type != 'modulo')
 		die("Modulo nel layout non riconosciuto: $item_type.");
 	}
 	
+	// se il testo e' troppo lungo, permetti di andare a capo
 	if (strlen($item_caption)>40)
 	{
 		$wrap_mode = '';
@@ -295,17 +304,28 @@ if ($item_type != 'modulo')
 	{
 		$wrap_mode = ' nowrap';
 	}
-
+	
+	// esamina i primi caratteri del testo: se inizia con il trattino, ...
+	if (substr($item_caption,0,3) === ' - ')
+	{
+		// ...se si va a capo, allinea indentando a destra
+		$stile_cella = "style=\"padding-left: 7pt; text-indent: -7pt;\"";
+	}
+	else
+	{
+		$stile_cella = "";
+	}
+	
 	// inizio codice html:
 	echo "\t\t\t<!-- inizio sottoblocco $item_name -->\n";
-
+	
 	if ($item_disabled == '')
 	{
 		// sottoblocco abilitato
 ?>
 			<tr style="vertical-align: baseline">
 				<td>&#8250;&nbsp;</td>
-				<td align="left" width="100%" <?php echo $wrap_mode; ?>>
+				<td align="left" width="100%" <?php echo $wrap_mode; ?> <?php echo $stile_cella; ?>>
 					<a href="<?php echo $item_link ?>" name="<?php echo $item_name ?>" class="txt_link"><?php echo $item_caption ?></a>
 				</td>
 			</tr>
@@ -624,18 +644,32 @@ default:
 		{
 		case "Articoli":
 			// dati esterni:
-			$elenco_articoli = $layout_data[$layout_block]['elenco_articoli']; // elenco articoli disponibili
+			$elenco_articoli 	= $layout_data[$layout_block]['elenco_articoli']; // elenco articoli disponibili
+			$sezione 		= $layout_data[$layout_block]['tipo_pagina']; // sezione degli articoli
+			$articolo_corrente	= $layout_data[$layout_block]['articolo_corrente']; // (eventuale) articolo visualizzato da solo
 			
 			$layout_item_array = array("index.php","homepage","Torna alla homepage");
 			$virtual_item = array($indice_layout_type => "raw",$indice_layout_data => $layout_item_array);
 			show_layout_block_item($layout_block,$virtual_item,$layout_data);
 			
+			if ( ($sezione !== 'homepage') & (!empty($articolo_corrente)) )
+			{
+				$layout_item_array = array("index.php?page=$sezione","sez_$sezione","Torna alla sezione &quot;$sezione&quot;");
+				$virtual_item = array($indice_layout_type => "raw",$indice_layout_data => $layout_item_array);
+				show_layout_block_item($layout_block,$virtual_item,$layout_data);
+			}
+			
 			for ($i = 0; $i < count($elenco_articoli); $i++)
 			{
 				$id = $elenco_articoli[$i];
-				$art_data = load_article($id); // carica l'articolo
+				$art_data = load_article($id,$sezione); // carica l'articolo
 				
-				$layout_item_array = array("index.php?page=articolo&amp;art_id=$id","articolo_$id","&nbsp;-&nbsp;".$art_data['titolo']);
+$stile_riga = "padding-left: 10pt; text-indent: -10pt;";
+// $link_riga = "&nbsp;-&nbsp;".$art_data['titolo'];
+$link_riga = " - ".$art_data['titolo'];
+// die('layout.php: todo!');
+
+				$layout_item_array = array("index.php?page=$sezione&amp;art_id=$id","articolo_$id",$link_riga,$stile_riga);
 				$virtual_item = array($indice_layout_type => "raw",$indice_layout_data => $layout_item_array);
 				show_layout_block_item($layout_block,$virtual_item,$layout_data);
 			} // end for  
