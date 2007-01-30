@@ -23,14 +23,14 @@ inizio footer
 		  </small></td>
 		</tr>
 		
-		<tr>
+		<!--<tr>
 		  <td align="right"><small>Supporto grafico</small></td>
 		  <td><small>:</small></td>
 		  <td align="left" style="font-style: italic;"><small><a
 			 href="mailto:pietrorussomanno@libero.it?subject=Info%20o%20suggerimenti%20sulla%20grafica" 
 			 title="Info o suggerimenti sulla grafica">Pietro Russomanno</a>
 		  </small></td>
-		</tr>
+		</tr>-->
 
 		<!-- la riga che segue e' il logo del validatore HTML W3C e CSS -->
 		<tr>
