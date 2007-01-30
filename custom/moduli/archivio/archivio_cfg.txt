@@ -1,0 +1,34 @@
+#
+# ARS Amatori Running Sele
+#
+
+#
+# formato elenco_album:  tag_album::nome_album::descrizione
+#
+[elenco_album]
+All.Coll.05::Allenamento collettivo 2005::La prima edizione dell'allenamento collettivo
+Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
+
+#
+# formato elenco_articoli:  id_articolo::sezione::titolo::autore
+#
+[elenco_articoli]
+13::homepage::Risultati sondaggio StralacenoWeb 2006::Pasquale Ceres
+12::homepage::Statistiche Mondiali di calcio Germania 2006::Ars
+11::homepage::Allenamento Collettivo 2005::Ars
+10::homepage::La I edizione del 1987::
+9::homepage::Il racconto della gara di Paolo Viscardi::Paolo Viscardi
+8::homepage::Risultati XVII edizione::Ars
+7::homepage::XVII Edizione::Ars
+6::homepage::I numeri della Stralaceno::Ars
+5::homepage::Allenarsi alla Palmenta::Ars
+3::homepage::L'altopiano del Laceno::Angelo Ceres
+2::homepage::Presentazione::
+1::homepage::Edizione 2004::
+
+#
+# formato elenco_pagine:  tag_pagina::titolo_pagina::titolo::autore
+#
+[elenco_pagine]
+%script_root%questions.php?id_questions=1::Sondaggio Mondiali 2006
+%script_root%statistiche.php?action=show&amp;id_questions=1::Statistiche Sondaggio Mondiali 2006
