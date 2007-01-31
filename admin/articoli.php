@@ -22,11 +22,27 @@ if ( !isset($_SERVER['HTTP_REFERER']) | ("http://".$_SERVER['HTTP_HOST'].$script
 	exit();
 }
 
+// input alla pagina
+$sezione = sanitize_user_input($_REQUEST['section'],'plain_text',Array());
+
+// titolo relativo alla sezione in esame
+switch ($sezione)
+{
+case '':
+case 'homepage':
+	$tag_sezione = "in prima pagina";
+	break;
+default:
+	$tag_sezione = "nella sezione &quot;$sezione&quot;";
+	break;
+}
+
+
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-  <title>Gestione articoli</title>
+  <title>Gestione articoli <?php echo $tag_sezione; ?></title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <META http-equiv="Content-Script-Type" content="text/javascript">
   <meta name="GENERATOR" content="Quanta Plus">
@@ -186,14 +202,19 @@ function move_up_down(direction)
 
 <?php
 
-$art_id=get_article_list($articles_dir); // carica l'elenco degli articoli disponibili ($articles_dir e' relativo alla radice)
-$art_online_id=get_online_articles($article_online_file); // carica l'elenco degli articoli online ($article_online_file e' relativo alla radice)
+// individua la cartella relativa alla sezione
+$art_file_data = get_articles_path($sezione);
+$path_articles 	= $art_file_data["path_articles"];	// cartella contenente gli articoli
+$online_file 	= $art_file_data["online_file"];	// file contenente l'elenco degli articoli online
+
+$art_id=get_article_list($path_articles); 		// carica l'elenco degli articoli disponibili
+$art_online_id=get_online_articles($online_file); 	// carica l'elenco degli articoli online
 
 $art_bulk = array();
 for ($i = 0; $i < count($art_id); $i++)
 {
 	chdir('..');
-	$art_data = load_article($art_id[$i]);
+	$art_data = load_article($art_id[$i],$sezione);
 	chdir('admin');
 	
 	$art_bulk[$art_id[$i]] = $art_data;
@@ -207,20 +228,38 @@ if (count($art_id) > 0)
 <form name="form_data" action="manage_articles.php" method="post">
 	<input name="password" type="hidden">
 	<input name="task" type="hidden">
+	<input name="section" value="<?php echo $sezione; ?>" type="hidden">
 	<input name="data" type="hidden">
 </form>
 
 <center>
 
 <!-- 
+gestione sezioni
+-->
+<?php
+$lista_sezioni = get_section_list(); // individua le sezioni disponibili
+
+// se c'e' almeno una sezione oltre "homepage", visualizza i link alle pagine amministrative per le diverse sezioni
+if (count($lista_sezioni) > 1)
+{
+	foreach($lista_sezioni as $nome_sezione)
+	{
+		echo "<a href=\"articoli.php?section=$nome_sezione\">".prime_lettere_maiuscole($nome_sezione)."</a>\n";
+	}
+	echo "<hr>\n";
+}
+?>
+
+<!-- 
 gestione articoli disponibili
 -->
 <table class="admin" align="center">
-	<caption>Situazione attuale articoli</caption>
+	<caption>Situazione attuale articoli <?php echo $tag_sezione; ?></caption>
 
 	<thead><tr>
 		<th>Id</th>
-		<th>Posizione in prima pagina</th>
+		<th>Posizione online</th>
 		<th>Titolo</th>
 		<th>Autore</th>
 		<th>Cancella</th>
@@ -291,11 +330,11 @@ gestione articoli online
 <form name="form_elenco_online" action="manage_articles.php" method="post" onSubmit="cripta_campo_del_form(this,'password')">
 
 <table class="admin" style="border-collapse: collapse;" align="center">
-	<caption>Gestione articoli in prima pagina</caption>
+	<caption>Gestione articoli <?php echo $tag_sezione; ?></caption>
 	
 	<thead><tr>
 		<th>Articoli ancora disponibili</th>
-		<th colspan="2">Ordine articoli in prima pagina</th>
+		<th colspan="2">Ordine articoli online</th>
 	</tr></thead> 
 	
 	<tbody>
@@ -326,7 +365,7 @@ gestione articoli online
 				} 
 ?>			</select>
 			<br>
-			Clicca su un articolo per toglierlo dalla prima pagina
+			Clicca su un articolo per renderlo invisibile
 		</td>
 		
 		<td align="center">
@@ -336,6 +375,7 @@ gestione articoli online
 			<input name="Applica" value="Applica" onClick="return do_action('elenco_online',1)" type="submit">
 			
 			<input name="password" type="hidden">
+			<input name="section" value="<?php echo $sezione; ?>" type="hidden">
 			<input name="task" type="hidden">
 			<input name="data" type="hidden">
 		</td>
@@ -366,6 +406,7 @@ $art_filename = "art_$id.txt";
 ?>
 <form name="form_upload" enctype="multipart/form-data" action="upload_article.php" method="post" onSubmit="cripta_campo_del_form(this,'password')">
 	<input type="hidden" name="MAX_FILE_SIZE" value="30000">
+	<input name="section" value="<?php echo $sezione; ?>" type="hidden">
 	<input type="hidden" name="id_articolo" value="<?php echo $id; ?>">
 <?php echo "\t<input type=\"hidden\" name=\"filename\" value=\"$art_filename\">\n"; ?>
 	Nuovo articolo (id <?php echo $id; ?>) da caricare: <input name="userfile" type="file"><br>
