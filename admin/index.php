@@ -93,8 +93,7 @@ Password: <input name="password" type="password">
 
 <hr>
 
-Gestione layout della <a href='manage_config_file.php?config_file=layout_left.txt'>colonna sinistra</a> 
-e della <a href='manage_config_file.php?config_file=layout_right.txt'>colonna destra</a>
+Gestione <a href='manage_layouts.php'>layout (colonna destra e sinistra)</a> 
 
 <hr>
 
