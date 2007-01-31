@@ -21,7 +21,7 @@ extract(indici());
   <tbody>
 	<tr>
 		<td width="100%">
-		<img src="<?php echo $site_abs_path ?>custom/images/logo.gif" alt="logo_stralacenoweb"> 
+		<img src="<?php echo $site_abs_path?>custom/album/varie/logo.jpg" alt="logo <?php echo $web_title; ?>">
 		</td>
 		
 		<td>
