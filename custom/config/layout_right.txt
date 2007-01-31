@@ -59,7 +59,8 @@ Utente::users
 Amministrazione::admin,soci_ars
 Bacheca ARS::soci_ars
 Login::guests
-Pagine in preparazione::admin
+Pagine in preparazione::users
+Moduli::
 
 
 #
@@ -99,4 +100,19 @@ soci::I soci ARS::modulo_custom::::
 
 [Pagine in preparazione]
 pregfas::Registro Fanfaroni (Pregfas)::modulo_custom::::
-#forum::Forum::external_link::forum.php::
+sezione_FC_caposele::FC Caposele::external_link::index.php?page=FC_caposele::
+sezione_ciclismo::Ciclismo::external_link::index.php?page=ciclismo::
+classifica_campionato::Classifica III categoria::modulo_custom::::
+statistiche_champions_06_07::Statistiche sondaggio Champions 06/07::external_link::statistiche.php?action=show&id_questions=2::
+
+[Moduli]
+classifica_campionato_::Classifica III categoria::modulo_custom::::
+lettere_sito_::Modulo "lettere_sito"::modulo_custom::::
+presentazione_::Modulo "presentazione"::modulo_custom::::
+siti_amici::Modulo "siti amici"::modulo_custom::::
+archivio::Modulo "archivio"::modulo_custom::::
+flash_news::Modulo "flash news"::modulo_custom::::
+organizzatori_::Modulo "organizzatori"::modulo_custom::::
+regolamento_::Modulo "regolamento"::modulo_custom::::
+soci_::Modulo "soci"::modulo_custom::::
+
