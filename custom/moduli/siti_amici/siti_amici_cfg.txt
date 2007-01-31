@@ -1,0 +1,36 @@
+#
+# Caposele sul Web
+#
+#
+# formato elenco_siti:  <posizione>::<nome_breve>::<nome_visibile>::<link_homepage>::<link_logo>::<associazione>::<webmaster>
+#
+#	<posizione>	: numero a partire da 1 (deve essere congruente con la posizione della riga relativa, in questo file)
+#	<nome_breve>	: nome senza spazi
+#	<nome_visibile>	: nome completo, come viene visualizzato
+#	<link_homepage>	: link (verificare che, copiato come indirizzo nel browser, porti effettivamente alla pagina desiderata)
+#	<link_logo>	: link del logo (o si prende quello gia' presente sui siti (tasto destro sull'immagine, poi copia link), oppure
+#			 	si carica da qualche parte sul web l'immagine, e poi si copia qui il link)
+#	<associazione>	: associazione che cura il sito
+#	<webmaster>	: persona che cura il sito (o, cio' che e' lo stesso, webmaster!)
+#
+[elenco_siti]
+1::arsweb::CaposeleWeb::http://ars.altervista.org/index.php::http://ars.altervista.org/custom/album/varie/logo.gif::ARS Amatori Running Sele::Pasquale Ceres
+2::stralacenoweb::StralacenoWeb::http://pceres.altervista.org/stralaceno/index.php::http://pceres.altervista.org/stralaceno/custom/images/logo.gif::ARS Amatori Running Sele::Pasquale Ceres
+3::caposeleonline::Caposele Online::http://www.caposeleonline.it::http://www.caposeleonline.it/Photo_0526.jpg::Gerardo Notaro::Gerardo Notaro
+4::Informagiovani::Informagiovani::http://www.informagiovani.caposele.net::http://www.informagiovani.caposele.net/55/foto2pic.jpg::Caposele.net::Caposele.net
+5::Liceo di Caposele::LiceOnline::http://liceonline.altervista.org::http://liceonline.altervista.org/lucadorme.jpg::Redazione del liceo::Redazione del liceo
+6::jobindex::JobIndex::http://www.jobindex.it::http://mikpolpetta.altervista.org/JobIndexTitolo3.gif::Michele Ceres::Michele Ceres
+7::lulusland::Lulusland.Blogspot::http://lulusland.blogspot.com/::http://www.blogger.com/img/navbar/1/logobar.gif::Lulo::Lulo
+8::SiamoNoi::SiamoNoi::http://www.siamonoi.it::http://www.siamonoi.it/index/corsa%20dei%20tre%20campanili.jpg::Paolo Viscardi::Paolo Viscardi
+9::Wikipedia::Caposele su Wikipedia::http://it.wikipedia.org/wiki/Caposele::http://it.wikipedia.org/images/wikimedia-button.png::Wikipedia::Wikipedia
+10::Comune di Caposele::Comune di Caposele::http://caposele.asmenet.it::http://www3.asmenet.it/opencms/opencms/system/galleries/pics/asmenet_caposele/logocomune_template1.gif::Asmenet::Asmenet
+11::EPT di Avellino::EPT di Avellino::http://www.eptavellino.it/itinerari_id.php?itinerario=37::http://www.eptavellino.it/files/itinerari_37.JPG::Ente Provinciale per il Turismo::MY ADMIN
+
+#
+# formato testo_footer:  testo
+#
+[testo_footer]
+Ultimo aggiornamento effettuato il 24/10/2006. Rubrica a cura di <a href="mailto:ceresmichele@yahoo.it?subject=Caposele%20sul%20Web"><b>Michele Ceres</b></a>
+<br>
+<br>
+Se il tuo sito &egrave; attinente a Caposele, o se noti imprecisioni, <a href="mailto:ceresmichele@yahoo.it?subject=Caposele%20sul%20Web">segnalacelo</a>, saremo felici di recepire i tuoi suggerimenti
