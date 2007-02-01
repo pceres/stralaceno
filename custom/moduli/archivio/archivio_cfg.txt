@@ -1,0 +1,43 @@
+#
+# ARS Amatori Running Sele
+#
+
+#
+# formato elenco_album:  tag_album::nome_album::descrizione
+#
+[elenco_album]
+1987::Edizione Stralaceno 1987::
+1991::Edizione Stralaceno 1991::
+1994::Edizione Stralaceno 1994::
+1995::Edizione Stralaceno 1995::
+1996::Edizione Stralaceno 1996::
+1997::Edizione Stralaceno 1997::
+1998::Edizione Stralaceno 1998::
+1999::Edizione Stralaceno 1999::
+2000::Edizione Stralaceno 2000::
+2001::Edizione Stralaceno 2001::
+2002::Edizione Stralaceno 2002::
+2003::Edizione Stralaceno 2003::
+2004::Edizione Stralaceno 2004::
+2005::Edizione Stralaceno 2005::
+2006::Edizione Stralaceno 2006::
+
+
+
+#
+# formato elenco_articoli:  id_articolo::sezione::titolo::autore
+#
+[elenco_articoli]
+9::homepage::Risultati XVII edizione::
+7::homepage::Il racconto della gara di P. Viscardi::Paolo Viscardi
+6::homepage::XVII edizione::
+2::homepage::Presentazione::
+1::homepage::Edizione 2004::
+
+
+
+#
+# formato elenco_pagine:  tag_pagina::titolo_pagina::titolo::autore
+#
+[elenco_pagine]
+%script_root%statistiche.php?action=show&amp;id_questions=2::Statistiche Sondaggio StralacenoWeb 2006

@@ -1,0 +1,19 @@
+#
+# ARS Amatori Running Sele
+#
+
+#
+# formato elenco_news:  data::news
+#
+[elenco_news]
+01/09/2006::Grande soddisfazione per l'organizzazione della XVIII edizione della Stralaceno: nonostante le avverse condizioni atmosferiche, si &egrave; registrato il record di partecipanti: 68 (pi&ugrave; altri 4 ragazzi fuori gara per et&agrave; inferiore a 15 anni).
+07/08/2006::L'edizione 2006 della Stralaceno si disputer&agrave; il 30 agosto.
+05/08/2006::Sono disponibili le magliette Stralaceno 2006.
+02/09/2005::XVII edizione della Stralaceno.
+03/09/2005::XVI edizione della Stralaceno.
+
+#
+# formato testo_footer:  testo
+#
+[testo_footer]
+Ultimo aggiornamento effettuato il 01/09/2006
