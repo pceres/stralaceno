@@ -20,7 +20,7 @@ extract(indici());
 <table align="center" width="100%" style="background-color:rgb(255, 255, 255);">
 	<tbody>
 		<tr>
-		  <td align="center"> <img src="<?php echo $site_abs_path ?>custom/images/logo.gif" alt="logo_stralacenoweb"> </td>
+		  <td align="center"> <img src="<?php echo $site_abs_path?>custom/album/varie/logo.jpg" alt="logo <?php echo $web_title; ?>"> </td>
 		</tr>
 	</tbody>
 </table>
