@@ -10,3 +10,5 @@
 [elenco_moduli]
 lettere_sito::Lettere alla Stralaceno
 pregfas::Pubblico REgistro dei Grandi FAnfaroni della Stralaceno
+flash_news::News flash
+archivio::Archivio album ed articoli
