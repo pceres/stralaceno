@@ -27,6 +27,8 @@ $nome_lotteria = $lotteria["Attributi"][0][0];
   
 <?php
 
+echo htmlspecialchars("ciao l'amore");
+
 if (get_magic_quotes_gpc())
 {
 	echo("magic_quotes_gpc abilitato");
