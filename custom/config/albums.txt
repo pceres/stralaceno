@@ -1,5 +1,5 @@
 # File di configurazione degli album fotografici
-# 
+#
 # ogni album inizia con una riga vuota, ed un'altra del tipo [nome_album]. Seguono poi una o piu' righe, una per
 # ciascuna foto, nel formato:
 # foto::titolo::descrizione::nome e cognome
@@ -246,6 +246,7 @@ stats_nuovi.jpg::
 logo_stralaceno.jpg:: 
 stats_ritorni.jpg:: 
 stats_partecipanti.jpg:: 
+logo.jpg::Logo StralacenoWeb::
 
 [prova]
 stra06.jpg::
