@@ -4,7 +4,7 @@
 extract(indici());
 
 
-function indici() {
+function indici($sezione = "homepage") {
 
 # carica le variabili custom (quelle che sono specifiche di ogni sito web, es. titolo, e-mail, ecc)
 require("custom/config/custom.php");
@@ -194,7 +194,7 @@ $config_dir 			= $root_path."custom/config/";
 $album_dir			= $root_path."custom/album/";
 $questions_dir			= $root_path."custom/lotterie/";
 
-#nomi di file
+#nomi di file di default
 $filename_css			= $site_abs_path."custom/config/style.css";
 $filename_cfgfile		= $config_dir."config_files.php";
 $filename_tempi			= $root_path."custom/dati/".$nome_file_tempi;
@@ -205,6 +205,45 @@ $filename_links			= $config_dir."links.txt";
 $filename_albums		= $config_dir."albums.txt";
 $filename_users			= $config_dir."users.php";	// l'estensione e' php in modo che la richiesta della pagina non permetta comunque di visualizzare i dati
 $filename_challenge		= $config_dir."challenge.php";	// l'estensione e' php in modo che la richiesta della pagina non permetta comunque di visualizzare i dati
+$filename_layout_left		= $config_dir.'layout_left.txt';
+$filename_layout_right		= $config_dir.'layout_right.txt';
+$filename_header		= $root_path.'custom/templates/header.php';
+
+
+# personalizzazione nomi di file in base alla sezione
+
+// se si e' in una sezione particolare...
+if (!empty($sezione) && ($sezione!=="homepage") )
+{
+	// $filename_css:
+	$temp_path = "custom/config/style_$sezione.css"; // stile CSS personalizzato
+	if (file_exists($root_path.$temp_path))
+	{
+		$filename_css = $script_abs_path.$temp_path;
+	}
+
+	// $filename_layout_left:
+	$temp_path = "custom/config/layout_left_$sezione.txt"; // layout sinistro personalizzato
+	if (file_exists($root_path.$temp_path))
+	{
+		$filename_layout_left = $root_path.$temp_path;
+	}
+
+	// $filename_layout_right:
+	$temp_path = "custom/config/layout_right_$sezione.txt"; // layout destro personalizzato
+	if (file_exists($root_path.$temp_path))
+	{
+		$filename_layout_right = $root_path.$temp_path;
+	}
+
+	// $filename_header:
+	$temp_path = "custom/templates/header_$sezione.php"; // header personalizzato
+	if (file_exists($root_path.$temp_path))
+	{
+		$filename_header = $root_path.$temp_path;
+	}
+}
+
 
 #varie
 $tempo_max_grafico = max(array($tempo_max_F,$tempo_max_M));
@@ -225,7 +264,8 @@ $formattazione = array('style_sfondo_maschi' => $style_sfondo_maschi,'style_sfon
 $filenames = array('filename_css' => $filename_css,'filename_cfgfile' => $filename_cfgfile,'filename_tempi' => $filename_tempi,
 	'filename_atleti' => $filename_atleti,'filename_organizzatori' => $filename_organizzatori,'filedir_counter' => $filedir_counter,
 	'articles_dir' => $articles_dir,'article_online_file' => $article_online_file,'filename_links' => $filename_links,
-	'filename_albums' => $filename_albums,'filename_users'=>$filename_users,'filename_challenge'=>$filename_challenge);
+	'filename_albums' => $filename_albums,'filename_users'=>$filename_users,'filename_challenge'=>$filename_challenge,
+	'filename_layout_left' => $filename_layout_left, 'filename_layout_right' => $filename_layout_right, 'filename_header' => $filename_header);
 $pathnames = array('root_prefix' => $root_prefix,'root_path' => $root_path,'site_abs_path' => $site_abs_path,
 	'script_abs_path' => $script_abs_path,'modules_site_path' => $modules_site_path,'modules_dir' => $modules_dir,
 	'config_dir' => $config_dir,'album_dir' => $album_dir,'questions_dir' => $questions_dir);
@@ -844,6 +884,65 @@ return $archivio2;
 }
 
 
+function get_section_list()
+{
+/*
+Restituisce un elenco delle sezioni presenti sul sito ("homepage" esiste sempre di default)
+*/
+
+# dichiara variabili
+extract(indici());
+
+$lista_sezioni = Array("homepage");
+
+$path_prefix = $articles_dir;
+if ($dh = opendir($path_prefix)) 
+{
+	while (($file = readdir($dh)) !== false) 
+	{
+		$filename = $path_prefix.$file;
+		$is_section = (filetype($filename) == "dir") && ($file !== ".") && ($file !== "..") && ($file !== "CVS");
+		if ($is_section)
+		{
+			array_push($lista_sezioni,$file);
+		}
+	}
+	closedir($dh);
+}
+
+return $lista_sezioni;
+
+} // end function get_section_list()
+
+
+function get_articles_path($sezione = "homepage")
+{
+/*
+restituisce un array con i campi
+path_articles 	: path degli articoli
+online_file 	: nome del file contenente l'elenco dei file online
+*/
+
+	# dichiara variabili
+	extract(indici());
+	
+	switch ($sezione)
+	{
+	case "homepage":
+		$path_articles = $articles_dir;		// path degli articoli
+		$online_file = $article_online_file;	// nome del file contenente l'elenco dei file online
+		break;
+	default:
+		$path_articles = $articles_dir.$sezione."/";
+		$online_file = $path_articles."online.txt";
+		break;
+	}
+	
+	$result = array('path_articles' => $path_articles,'online_file' => $online_file);
+	
+	return $result;
+}
+
 
 
 function get_article_list($articles_dir)
@@ -915,13 +1014,14 @@ function set_online_articles($article_online_file,$article_list)
 }
 
 
-function load_article($art_id)
+function load_article($art_id, $sezione)
 {
-	# dichiara variabili
-	extract(indici());
+	$art_file_data = get_articles_path($sezione);
+	$path_articles 	= $art_file_data["path_articles"];	// cartella contenente gli articoli
+	$online_file 	= $art_file_data["online_file"];	// file contenente l'elenco degli articoli online
 	
-	$art_file = $articles_dir."art_".($art_id+0).".txt";
-
+	$art_file = $path_articles."art_".($art_id+0).".txt";
+	
 	if (file_exists($art_file))
 	{
 		$bulk = file($art_file);           //read all long entries in a array
@@ -957,8 +1057,25 @@ $no_close_tags = array("p","br","?php","img"); // array di tags che non richiedo
 	$bulk_tag = array();
 	$bulk_tag_trim = array();
 	$n_stop = 0;
-	foreach ($testo_in as $line)
+	$inside_comment = 0;
+	foreach ($testo_in as $id_line => $line)
 	{
+		
+		// gestione commenti su piu' righe: devono iniziare con una riga con "<!..", e devono finire con una riga con "-->"
+		if (ereg("^<!--",$line) )
+		{
+			$inside_comment = 1;	// da questa riga inizia un commento HTML: scarta le righe finche' una inizia con "-->"
+			continue;
+		}
+		if ($inside_comment)
+		{
+			if (ereg("^-->",$line))
+			{
+				$inside_comment = 0;
+			}
+			continue;
+		}
+		
 		$vpos = array( strpos($line,"."), strpos($line,"?"), strpos($line,"!") );
 		if ( ($vpos[0] || $vpos[1] || $vpos[2]) & (strlen(strpos($line,"\"")."0")==1) ) // non considerare le linee con stringhe delimitate da "
 		{
@@ -1009,7 +1126,6 @@ $no_close_tags = array("p","br","?php","img"); // array di tags che non richiedo
 		{
 			break;
 		}
-		
 	}
 	
 	// aggiungi il link all'articolo completo
@@ -1028,10 +1144,10 @@ $no_close_tags = array("p","br","?php","img"); // array di tags che non richiedo
 }
 
 
-function template_to_effective($line_in)
+function template_to_effective($line_in,$sezione)
 {
 	# dichiara variabili
-	extract(indici());
+	extract(indici($sezione));
 	
 	$template = array("%script_root%","%file_root%","%web_title%","%web_keywords%","%filename_css%","%homepage_link%",
 		"%config_dir%","%modules_dir%","%questions_dir%");
@@ -1060,7 +1176,7 @@ function show_article($art_data,$mode,$link)
 	if ($mode === 'abstract')
 	{
 		// abstract dell'articolo
-		$puntini = ' <a href="'.$link.'">...</a>';
+		$puntini = ' ...<a href="'.$link.'">(leggi tutto)</a>';
 		$testo_articolo = get_abstract($art_data["testo"],$puntini);
 	}
 	else
@@ -1082,10 +1198,15 @@ function show_article($art_data,$mode,$link)
 }
 
 
-function save_article($id_articolo,$author,$title,$bulk,$uploaddir) {
+function save_article($id_articolo,$author,$title,$bulk,$sezione) {
+
+// individua cartella relativa alla sezione indicata
+$art_file_data = get_articles_path($sezione);
+$path_articles 	= $art_file_data["path_articles"];	// cartella contenente gli articoli
+$article_online_file = $art_file_data["online_file"];	// file contenente l'elenco degli articoli online
 
 # nome del file che contiene l'articolo
-$art_filename = $uploaddir."art_$id_articolo.txt";
+$art_filename = $path_articles."art_$id_articolo.txt";
 
 $str_author = "Autore::$author\r\n";
 $str_title = "Titolo::$title\r\n";
@@ -1115,19 +1236,21 @@ else
 }
 
 
-function upload_article($author,$title,$bulk,$uploaddir) {
+function upload_article($author,$title,$bulk,$sezione) {
 
-# dichiara variabili
-extract(indici());
+// individua cartella relativa alla sezione indicata
+$art_file_data = get_articles_path($sezione);
+$path_articles 	= $art_file_data["path_articles"];	// cartella contenente gli articoli
+$article_online_file = $art_file_data["online_file"];	// file contenente l'elenco degli articoli online
 
 # determina l'id del nuovo articolo
-$art_id = get_article_list($articles_dir); // carica l'elenco degli articoli disponibili ($articles_dir e' relativo alla radice)
+$art_id = get_article_list($path_articles); // carica l'elenco degli articoli disponibili
 
 $id_articolo = max($art_id)+1;
 
 echo "il nuovo articolo ha id $id_articolo";
 
-save_article($id_articolo,$author,$title,$bulk,$uploaddir);
+save_article($id_articolo,$author,$title,$bulk,$sezione);
 
 # restituisci l'id del nuovo articolo
 return $id_articolo;
@@ -1142,10 +1265,15 @@ fclose($file);
 }
 
 
-function publish_online_articles($art_list) {
+function publish_online_articles($art_list, $sezione) {
 
-# dichiara variabili
+// dichiara variabili
 extract(indici());
+
+// individua cartella relativa alla sezione indicata
+$art_file_data = get_articles_path($sezione);
+$path_articles 	= $art_file_data["path_articles"];	// cartella contenente gli articoli
+$article_online_file = $art_file_data["online_file"];	// file contenente l'elenco degli articoli online
 
 // lascia, eventualmente, solo gli ultimi max_online_articles della lista
 if (count($art_list) > $max_online_articles)
@@ -1160,13 +1288,15 @@ return $art_list;
 }
 
 
-function delete_article($art_id)
+function delete_article($art_id,$sezione)
 {
 
-# dichiara variabili
-extract(indici());
+// individua cartella relativa alla sezione indicata
+$art_file_data = get_articles_path($sezione);
+$path_articles 	= $art_file_data["path_articles"];	// cartella contenente gli articoli
+$article_online_file = $art_file_data["online_file"];	// file contenente l'elenco degli articoli online
 
-$art_file = $articles_dir."art_".($art_id+0).".txt";
+$art_file = $path_articles."art_".($art_id+0).".txt";
 
 if (file_exists($art_file))
 {
@@ -1281,10 +1411,10 @@ function save_config_file($conf_file,$keys)
 }
 
 
-function show_template($template_path,$template_file)
+function show_template($template_path,$template_file,$sezione)
 {
 	# dichiara variabili
-	extract(indici());
+	extract(indici($sezione));
 	
 	$lines = file($template_path.$template_file);
 	
@@ -1310,7 +1440,7 @@ function show_template($template_path,$template_file)
 			}
 			
 			// output
-			echo template_to_effective($line);
+			echo template_to_effective($line,$sezione);
 			
 			break;
 		case 1:
@@ -1709,7 +1839,8 @@ return $cfgbulk;
 function sanitize_user_input($usertext,$type,$flags) {
 # verifica che l'input dall'utente $usertext sia sicuro e del tipo specificato
 # $type = 'plain_text'			: no tags allowed, except for text chunks inside $flags['allowed_tags']
-# $type = 'simple_formatted_html'	: no tags allowed, except for simple formatting html tags (<b>,<i>)
+# $type = 'simple_formatted_html'	: no tags allowed, except for simple formatting html tags (<b>,<i>,<a>)
+# $type = 'number'			: simple number (allowed number types in $flags['number_type'] are 'int' and 'float')
 #
 
 if (get_magic_quotes_gpc())
@@ -1731,22 +1862,14 @@ case "plain_text":
 	$allowed_tags = array();
 	break;
 case "simple_formatted_html":
-	$allowed_tags = array("<b>","</b>","<i>","</i>");
+	$allowed_tags = "<b><i><a>";
+	break;
+case "number":
+	$allowed_tags = array();
 	break;
 default:
 	die("Tipo di check non riconosciuto: $type");
 }
-
-
-// sostituisci i tag con un alias innocuo
-$alias = array();
-$count = 0;
-foreach ($allowed_tags as $tag)
-{
-	$alias[$count] = "$%$%".sprintf("%03d",$count);
-	$count++;
-}
-$testo = str_replace($allowed_tags,$alias,$testo);
 
 
 // ulteriori azioni specifiche della modalita'
@@ -1754,17 +1877,60 @@ switch ($type)
 {
 case "plain_text":
 case "simple_formatted_html":
-	$clean = strip_tags($testo);
+	$clean = strip_tags($testo,$allowed_tags);
+	break;
+case "number":
+	$number_type = $flags['number_type'];
+	switch ($number_type)
+	{
+	case 'int':
+		$clean = (int)$testo;
+		break;
+	case 'float':
+		$clean = (float)$testo;
+		break;
+	default:
+		die("Tipo di numero non riconosciuto: $number_type");
+	}
+	
+	// verifica che il testo in input sia effettivamente un numero
+	if ($testo != $clean)
+	{
+		die("E' richiesto un numero! ($testo,$clean)");
+	}
 	break;
 default:
 	die("Tipo di check non riconosciuto: $type");
 }
 
-
-$clean = str_replace($alias,$allowed_tags,$clean);
-
 return $clean;
 }
+
+
+function prime_lettere_maiuscole($stringa) {
+# imposta le prima lettera maiuscola
+#
+
+$lista_separatore = Array(' ','	',"\(","\'");
+$lista_sostituto  = Array(' ','	',"(","'");
+
+foreach ($lista_separatore as $id => $separatore)
+{
+	$parole = split($separatore,$stringa);
+	if (count($parole)>0)
+	{
+		$tmp_array = Array();
+		foreach ($parole as $parola)
+		{
+			$tmp_result = strtoupper($parola[0]).substr($parola,1);
+			array_push($tmp_array,$tmp_result);
+		}
+		$stringa = implode($tmp_array,$lista_sostituto[$id]);
+	}
+}
+
+return $stringa;
+} // end function prime_lettere_maiuscole($stringa)
 
 
 //Page properties definitions
