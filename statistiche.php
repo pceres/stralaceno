@@ -243,9 +243,7 @@ case "show":
 	$titolo_statistica.="<span title=\"martedì\" class=\"hi\" style=\"cursor: help;\">".date("d")." ".$mesi[date("m")+0]." ".date("Y")."</span>";
 	$titolo_statistica.=" ore <span class=\"hi\">".date("H:i")."</span>";
 	
-	$stat_footer = "Blame on Bill!";
-//	$stat_caption_tag = "squadra";
-//	$stat_count_tag = "numero di preferenze";
+	$stat_footer = "Servizio statistiche realizzato in PHP";
 	
 	
 	// visualizza la pagina
