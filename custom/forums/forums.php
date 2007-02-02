@@ -17,6 +17,6 @@ Formato [elenco_forums]:
 	<forum_last_post>	: <id_topic>,<id_post> dell'ultimo messaggio postato
 
 [elenco_forums]
-0::Il forum di StralacenoWeb::Uno spazio di discussione libera, aperta a tutti::open::::::anonimous::47::2,34
+0::Il forum di StralacenoWeb::Uno spazio di discussione libera, aperta a tutti::open::::::anonimous::109::2,69
 1::Il forum privato di StralacenoWeb::Spazio di discussione riservato ai soci ARS e agli organizzatori della Stralaceno::open::users::users::anonimous::1::
 

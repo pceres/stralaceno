@@ -46,6 +46,41 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 32::Donatello Cirillo::01/10/2006 20.44.41::visible
 33::PIL::02/10/2006 11.12.53::visible
 34::Angelo Ceres::02/10/2006 12.13.54::visible
+35::Salvatore merola::03/10/2006 20.04.49::visible
+36::PIL::04/10/2006 10.39.15::visible
+37::LODI 74::04/10/2006 10.48.47::visible
+38::coscienza::04/10/2006 13.15.07::visible
+39::Salvatore Merola::04/10/2006 14.36.04::visible
+40::Angelo Ceres::04/10/2006 20.17.52::visible
+41::Pasquale C.::04/10/2006 23.37.42::visible
+42::Angelo::05/10/2006 16.37.39::visible
+43::NICOLA M.::05/10/2006 23.51.15::visible
+44::Alessandro Russomanno::06/10/2006 10.01.14::visible
+45::Salvatore Merola::06/10/2006 15.58.45::visible
+46::Angelo::06/10/2006 16.13.39::visible
+47::NICOLA M.::24/10/2006 11.05.45::visible
+48::Antonio::26/10/2006 09.57.21::visible
+49::NICOLA M.::26/10/2006 10.30.26::visible
+50::NICOLA M.::26/10/2006 10.35.52::visible
+51::Gerardo D.::28/10/2006 16.28.50::visible
+52::NICOLA M.::30/10/2006 09.49.47::visible
+53::NICOLA M.::02/11/2006 18.44.42::visible
+54::salvatore merola::03/11/2006 17.28.34::visible
+55::paolo::06/11/2006 15.14.51::visible
+56::Alessandro R. ::07/11/2006 13.16.46::visible
+57::Salvatore merola::09/11/2006 18.46.22::visible
+58::Alessandro R.::11/11/2006 15.42.30::visible
+59::Consigli di un amico::18/11/2006 18.25.31::visible
+60::Gerardo D.::20/11/2006 09.40.57::visible
+61::NICOLA M. ::20/11/2006 18.50.20::visible
+62::NICOLA M.::20/11/2006 18.51.34::visible
+63::NICOLA M.::21/11/2006 10.21.20::visible
+64::Alessandro R.::22/11/2006 10.00.28::visible
+65::Salvatore::22/11/2006 14.01.12::visible
+66::Pasquale C.::22/11/2006 20.04.40::visible
+67::Salvatore::23/11/2006 14.13.00::visible
+68::Alessandro R.::24/11/2006 11.17.29::visible
+69::Salvatore::24/11/2006 17.50.44::visible
 
 [post_text_0]
 Aspettiamo le vostre dichiarazioni di sfida...
@@ -234,4 +269,193 @@ PERCHE' TRA DI VOI CI SONO TROPPE INCONGRUENZE ED E' STRANO COME UNA NEONATA ASS
 
 [post_text_34]
 La colpa è di Alessandro Russomanno, il vicepresidente, per cui ne chiedo le DIMISSIONI.
+
+[post_text_35]
+Caro Pil solo ora sono riuscito ad aggiustare il computer,l'ho rotto dalla rabbia il giorno del tuo primo messaggio.. Ormai l'abbiamo capito tutti chi sei, senza che continui a firmarti col nome di Pil (abbreviativo di Pillon)..Innanzitutto ti volevo ricordare che Caposele non è una città...dove si organizzano gare ogni mese...lo so che tu per raggiungere grandi risultati( tipo correre 5 minuti al km) hai bisogno di tante gare...ma che ci vuoi fare,per colpa nostra non potrai raggiungere il livello di Stefano Baldini,ma non ti rammaricare... TU SEI SOLO GELOSO DI NON POTER FAR PARTE DELL'ARS E IO SPERO CON TUTTO IL CUORE CHE NON TI FACCIANO ENTRARE....Perchè proprio non lo meriti....Tu dici che lo sport non è anche competizione,tu che quando in allenamento arrivi prima di un tuo amico ti metti a festeggiare.....VERGOGNA.....Il presidente D'Auria sarà anche lontano,ma fa sentire la sua presenza diecimila volte più di te...che pensi solo a criticare....
+Un'altra cosa,tutti noi con le gare fuori paese,dove trovi persone di un certo livello,abbiamo imparato tante cose...parlando con loro ti accorgi dei sacrifici che fanno per essere così competitivi,e ti sembrerà strano ma questo non fa che aumentare la voglia di fare sport...e quale obiettivo più di questo poteva prefissarsi l'ARS??
+D'ora in poi ai tuoi messaggi non rispondero neanche più,sai com'è...io con i deficienti non è che ho un gran filing...
+&nbsp;
+
+[post_text_36]
+INNANZITUTTO NON TI PERMETTERE PIU' DI CHIAMARMI DEFICIENTE PERCHE' NON SEI ANCORA NATO (NE MANGIA' ANCORA PANE) CUMPA'.COSA VUOI DIMOSTRARE CON QUESTA TUA RISPOSTA COSI' PRESUNTUOSA E FUORI LUOGO AH NON C' E' DA MERAVIGLIARSI IN QUANTO VIENI ANCHE TU DALLA SCUOLA ARS!CONTINUATE A CORRERE E QUALCHE VOLTA TENTATE DI ARRIVARE NEI PRIMI 20 NELLE VARIE CORSE DI PRESTIGIO CHE VOI ANDATE A FARE.CARI MARATONETI BUONA FORTUNA MA LO SCOPO DELLO SPORT E' UN ALTRO:BENESSERE FISICO E PSICOLOGICO!!
+
+[post_text_37]
+D' AURIA NICOLA DIMETTITI NON E' COSA TUA!!VIENI A CAPOSELE PER INTERESSI PERSONALI!!
+
+[post_text_38]
+Cosa ha mai fatto e cosa sta facendo di concreto PIL per lo sport caposelese?
+
+[post_text_39]
+Come che sta facendo Pil per lo sport caposelese?Non lo sai che lui è uno dei massimi esponenti dello sport nazionale?! Impara la gente a criticare le persone che cercano di fare qualcosa anche dove è difficile farlo..impara a festeggiare quando batti un compagno in allenamento, mentre poco prima predica che lo sport non è anche competizione...questo sa fare Pil,parlare, parlare, parlare....ma alla fine quando deve fare qualcosa di concreto si tira indietro... e non voglio dire il motivo per cui non entra(per fortuna) a far parte dell'ars,altrimenti tutto il paese riderebbe di lui...già è deficiente per conto suo,poi si peggiorerebbe la situazione...
+Ah,caro Pil, hai detto che io dovrò mangiare ancora tanto pane per diventare come te...beh innanzitutto se devo diventare come te spero di rimanere digiuno,e poi se ti posso dare un consiglio,secondo me ne stai mangiando un pò troppo di pane...guardare la panza per credere.....Adiòs
+&nbsp;
+
+[post_text_40]
+Ragazzi non vi aadiiratee, la colpa è sempre di Alessandro.
+
+[post_text_41]
+&nbsp;
+Mi sembra sia esplosa una "flame war" (vedi  http://it.wikipedia.org/wiki/Troll_(Internet)  ), pertanto vi richiamo alla moderazione ed al rispetto della netiquette... (vedi  http://it.wikipedia.org/wiki/Netiquette  )
+&nbsp;
+Questo spazio permette a tutti di partecipare alle discussioni con la propria opinione (gratuitamente, senza pubblicita' e senza nessun vincolo). Questa liberta', pero', va gestita con maturita', mantenendo la discussione nell'ambito della correttezza e del rispetto altrui.
+&nbsp;
+In caso contrario, per evitare spiacevoli episodi, saro' costretto a moderare i forum, o a subordinare la pubblicazione di messaggi ai soli autenticati con login e password (che provvederemo a fornire di persona o via email). In questo modo conosceremo perfettamente l'identita' di chi scrive, anche se si nasconde dietro un nickname fittizio, e potremo metterli di fronte alle loro eventuali responsabilita'.
+&nbsp;
+Personalmente preferirei lasciare l'attuale liberta' di pubblicazione, lascio alla vostra responsabilita' la decisione finale.
+&nbsp;
+-----------------------
+&nbsp;
+Cerchiamo di riportare la discussione su toni piu' appropriati:
+&nbsp;
+x Angelo: potresti argomentare meglio le colpe del vicepresidente Alessandro?
+&nbsp;
+x PIL: pur con toni volutamente eccessivi, sollevi una serie di questioni, che esemplifico di seguito:
+&nbsp;
+	- l'ARS organizza solo la Stralaceno: in effetti mancano le risorse, gia' quell'evento risulta oneroso. Tu, ad esempio, saresti disponibile a dedicare il pomeriggio in cui si corre la Stralaceno alla relativa organizzazione? E comunque non sottovaluterei le varie attivita' podistiche organizzate nel 2006, e l'entusiasmo che hanno suscitato.
+&nbsp;
+	- incongruenze statuto: puoi esplicitarle?
+&nbsp;
+	- lontananza membri consiglio direttivo ARS: nonostante la lontananza, che inevitabilmente fa ricadere sui (fortunati) membri ars che risiedono a Caposele la totalita' delle attivita' sul posto, riusciamo a coordinarci abbastanza bene anche via mail. Io nel mio piccolo dedico parecchio tempo alla gestione e manutenzione del sito.
+&nbsp;
+In ogni caso questi temi relativi all'ARS sono fuori topic in questa discussione (dedicata alle sfide della Stralaceno), sarebbe piu' appropriato discuterne sul forum su ArsWeb.
+&nbsp;
+Ciao
+&nbsp;
+
+[post_text_42]
+Pasquale il vicepresidente è al corrente di tutto, lui mi capisce, a lui è da attribuire questo lieve movimento tellurico.
+
+[post_text_43]
+MA VI RENDETE CONTO CHE PER LE STRADE DEL PAESE NON C'E' NESSUNO!!E' UN PAESE ALLA DERIVA!!SFORZIAMOCI DI CREARE NUOVE SENSAZIONI E IDEE , ALTRIMENTI E' MOLTO DURA.USIAMO LA FANTASIA E LA TESTA PER FARE IN MODO CHE LE GIORNATE TRASCORRANO PIU' PIACEVOLMENTE!ANCHE VOI RAGAZZI DELL' ARS SIETE ESORTATI A ORGANIZZARE QUALCOSA.DIAMOCI DA FARE PRIMA CHE NON SI COMPROMETTE DEFINITIVAMENTE LA SITUAZIONE CHE E' GIA' DI PER SE' DRAMMATICA.
+
+[post_text_44]
+Cerchiamo di usare questo spazio libero per lanciare nuove idee e non facciamolo diventare luogo di raccolta di inutili offese!
+Invito chi scrive a firmarsi con il proprio nome e cognome, assumendo in pieno la responsabilità/merito della critica/proposta avanzata.
+&nbsp;
+Mi auguro che Angelo Ceres, sempre attento alle problematiche caposelesi, sciolga al più presto la sua riserva, in modo da mettere a disposizione la sua esperienza per la crescita dell'Associazione, avvicinandola anche a nuove tematiche a lui care.
+&nbsp;
+&nbsp;
+
+[post_text_45]
+Ora si che si può discutere..mi rivolgo a Nicola Melillo,secondo te cosa si potrebbe fare per far passare le giornate più piacevolmente,come dici tu?Organizzare un'altra gara(a parte che non ci sono le possibilità) che cambierebbe? Il mio parere è che si potrebbero prestabilire due giorni a settimana di allenamento,in modo da fare tipo un "allenamento collettivo"...che ne dite?
+Ancora per Nicola Melillo,in che senso la situazione di caposele è drammatica?Io in realtà vedo tanta gente a Caposele che o gioca a calcio,o corre, o va in palestra,o va in bici…non mi sembra così tanto grave la situazione se è a questo che ti riferisci…
+&nbsp;
+Chi sa quando torna il Presidente N.D’Auria?
+Ah, lasciatemi stare Alessandro, che insieme agli altri ha fatto e sta facendo tanto per questa associazione…se non si conoscono i fatti è meglio non giudicare….Forza Ale(anche se sei interista)…
+&nbsp;
+
+[post_text_46]
+La mia intenzione era quella di far pronunciare Alex su tali questioni.
+&nbsp;
+Per Salvatore: per quanto riguarda il fatto che il vicepresidente è interista ricorda che è il male minore perchè se non lo fosse stato avrebbe tifato per qualche squadra inglese o SCOZZESE.
+
+[post_text_47]
+IO CONTINUO AD ALLENARMI IERI HO FATTO 10 KM.TRA POCO ORGANIZZO UNA CORSA NEL TERRITORIO DI CAPOSELE SUI 7-8 KM.IO PRATICO SPORT TUTTO L' ANNO E QUINDI CREDO PROPRIO CHE E' ARRIVATO IL MOMENTO DI ORGANIZZARE UNA SECONDA CORSA IN QUANTO NON E' POSSIBILE CHE CI SI DEVE ALLENARE SOLO IL PERIODO ESTIVO PER ANDARE A CORRERE LA STRALACENO.FORZA ASPETTO VOSTRI SUGGERIMENTI E COMMENTI IN MERITO.
+
+[post_text_48]
+x Nicola Melillo
+&nbsp;
+Quale percorso dovrebbe seguire la gara che ti appresti ad organizzare?
+
+[post_text_49]
+SI PARTE AL CIMITERO, SI PROSEGUE PER MATERDOMINI POI SI VA PER HOTEL SALE E PEPE SI PASSA DAVANTI AL BAR ZARRA SI SCENDE VERSO CAPOSELE PER VIA SANTUARIO-PISCINA,ARRIVATI AL PONTE SI PERCORRE IL LUNGO SELE POI PER LA PORTELLA-VIA BOVIO ED ARRIVO NELLA PIAZZA SANITA' QUESTO E' QUELLO CHE HO PENSATO IO SIAMO SUI 7-8 KM, DITE QUALCOSA ANCHE VOI.
+
+[post_text_50]
+AH DIMENTICAVO LA CORSA SI DOVREBBE FARE SABATO 11 NOV.  PARTENZA ORE 15.30/16.
+
+[post_text_51]
+il passaggio finale in Caposele (ad esempio attraverso via BOVIO) MI SEMBRA UN Pò PROBLEMATICO.
+
+[post_text_52]
+SUGGERITE VOI UN ALTRO TRATTO PERCORRIBILE IO HO PENSATO COSI'.
+
+[post_text_53]
+NESSUNO SCRIVE NIENTE COMUNQUE I COMPONENTI DELL' ARS SONO INVITATI A PARTECIPARE ALLA GARA DELL' 11 NOV.SPERIAMO IN UNA PARTECIPAZIONE NUMEROSA.
+
+[post_text_54]
+Ciao Nico'..mi stavo preparando bene ma purtroppo due giorni fa mi sono fratturato la mano,ne avrò per un mese..ci tenevo a partecipare..sarà per l'anno prossimo.
+Un saluto particolare a Alessandro e Paolo...non vi preoccupate che tra un mese ritorno in "corsa"..
+ciao
+
+[post_text_55]
+                       x salvatore
+ciao, come ora a distanza di qualche giorno? e pensare che è proprio anche per causa mia il tuo malaugurato infortunio, vedi il contrasto nell'attimo della tua caduta. Mi dispiace davvero che ora dovrai stare a riposo per un pò di tempo, perdendo un pò di allenamento. Ci sarebbe potuta essere una bella sfida tra di noi l'11 novembre (quasi sicuramente parteciperò). Venerdi abbiamo fatto un piccolo allenamento dal cimitero a pontesele, faceva un freddo tremendo, ma abbiamo fermato comunque il cronometro ad un tempo soddisfacente. Ok allora alla prossima!!!
+&nbsp;
+                             x nicola
+ciao, per la gara, cercherò a tutti i costi di partecipare, lo sai che per una passione si dà sempre spazio,e quindi la mia mancanza sarà dovuta solamente a qualche causa di forza maggiore!
+a presto.
+&nbsp;
+Un saluto a tutti i soci ARS , ma soprattutto al presidente Nicola D'Auria, il quale non vedo dal giorno della stralaceno(auguri).
+&nbsp;
+ALLA PROSSIMA!!!!
+
+[post_text_56]
+Forza Salvatore, non demordere... Passerà in fretta.... Saluti a tutti.
+
+[post_text_57]
+X ale
+&nbsp;
+Ale non pensarci minimamente...rientrerò con più motivazioni di prima,tra 20 giorni già sarò sulla strada..già ho stilato un programma di recupero per il mese di dicembre,è da brividi(70km a settimana)...tu e gli altri sarete sicuramente in mia compagnia..la gara organizzata da nicola è stata spostata al 18,se fosse stata spostata al 25 forse avrei potuto partecipare anch'io..un pochino mi dispiace..Come va lì a Roma ad ammirar fanciulle?...beato te..Saluti
+&nbsp;
+X paolo
+&nbsp;
+non farti problemi,quando comincia a girare la sfortuna son guai,non è certo colpa tua..continua ad allenarti che quando rientro ti spiombo..scherzo... mi è giunta voce che ieri hai organizzato una partita a calcetto lì a fisciano,ricorda di chiamare anche me quando guarisco...ok?
+Ciao,e correte eh....
+
+[post_text_58]
+Qui a Roma tutto ok, tranne le difficoltà per trovare un pò di tempo per allenarsi...
+Ci rifaremo prossimamente...
+&nbsp;
+ciao
+
+[post_text_59]
+X nicola melillo
+&nbsp;
+Mi rivolgo a Nicola Melillo,ho letto sul forum che vuoi organizzare una gara podistica a caposele sabato prossimo,secondo me sarebbe meglio spostarla nel periodo natalizio o poco prima. Dico questo perchè molti sportivi di caposele il sabato e la domenica avranno gli impegni con la terza categoria e anche perchè nel periodo natalizio non si è mai organizzata una gara;quindi ti prego di prendere in considerazione questa proposta, sicuramente ci sarà molta più gente alla partenza.Nel frattempo si potrebbe organizzare un allenamento tutti insieme.In attesa di una tua risposta...ciao
+
+[post_text_60]
+Allora si fa questa gara e quando?
+
+[post_text_61]
+SCUSA MA PERCHE' NON DICI CHI SEI ADESSO VEDIAMO IO CREDO CHE E' INUTILE CONTINUARE A SPOSTARE QUESTA BENEDETTA GARA TANTO O SI FA ADESSO O NEL PERIODO NATALIZIO PIU' O MENO GIA' SI SA CHI VUOLE VENIRE E CHI NON E' PER NIENTE INTERESSATO.IO VOGLIO FARLA ADESSO PERCHE' PIU' SI VA AVANTI  E PIU' AUMENTA IL RISCHIO DI PEGGIORAMENTI DELLE COND. METER.
+
+[post_text_62]
+SCUSA MA CHI SEI? TI FIRMI CON GERARDO D.PENSO PROPRIO CHE LA GARA SI FARA'
+
+[post_text_63]
+SE IL TEMPO E' BELLO LA GARA LA FAREMO IN POCHI GIA' LO SO MA MI RIVOLGO AI COMPONENTI ARS PRESENTI IN CAPOSELE FINO AD ADESSO AVETE MANIFESTATO POCO ENTUSIASMO PER QUESTA NUOVA E LODEVOLE INIZIATIVA ADESSO BASTA SE VOLETE PARTECIPARE VENITE IL 25 E' INUTILE CONTINUARE A SCRIVERE MESSAGGI CHE MIRANO A CHE LA CORSA NON SI FACCIA TANTO QUI NESSUNO E' FESSO POI SE PENSATE DI BOICOTTARE PER PROBLEMI VOSTRI FATELO PURE CHE VE LO DICO SINCERAMENTE SE NON CORRETE IO SONO PIU' CONTENTO PERCHE' A ME INTERESSA AVVICINARE ALTRI RAGAZZI ED INSTAURARE UN CLIMA DI GIOIA,TRANQUILLITA',DIVERTIMENTO. PER ORGANIZZARE QUALCOSA NON E' NECESSARIO SEMPRE ASPETTARE L' ARRIVO DI D' AURIA NICOLA DA MILANO SI DEVE PROPORRE PER QUELLI COME ME CHE VIVONO TUTTO L' ANNO IN QUESTO NOIOSO PAESE.SPERO DI ESSERE STATO UNA VOLTA PER TUTTO CHIARO DA OGGI NON SCRIVERO' PIU' NIENTE SU QUESTO FORUM PERCHE' A ME INTERESSANO LE COSE PRATICHE NON LE CHIACCHIERE!!
+
+[post_text_64]
+x Salvatore Merola
+&nbsp;
+Attendo le risposte alle 2 mail che ti ho inviato. Ciao.
+&nbsp;
+P.s. Come va il braccio?
+
+[post_text_65]
+Ciao Ale, sì se per piacere puoi inviarmi la password perchè non la trovo più da parecchio tempo...grazie
+per quanto riguarda il braccio tutto ok,comincia a pensare ad un percorso da fare visto che tra dieci giorni sarò nuovo come prima...o almeno spero.Paolo sabato mi ha parlato di una gara che farà in settimana a fisciano,beato lui... In bocca al lupo per la partita di stasera...
+Ma tu alla gara di sabato parteciperai?
+ciao
+Un saluto a nicola melillo,nicò appena mi tolgo il gesso mi vengo a prendere l'orologio xchè mi servirà..vedi di trattarmelo bene..ciao
+
+[post_text_66]
+&gt;sì se per piacere puoi inviarmi la password perchè non la trovo più da parecchio tempo...<br><br>Ciao Salvatore, ti ho inviato la password, fammi sapere se hai problemi con il login
+
+[post_text_67]
+X Pasquale
+&nbsp;
+Grazie per avermi inviato la password,già ho provato e va tutto bene..ciao
+
+[post_text_68]
+x Salvatore
+&nbsp;
+Aspetto sempre la risposta per la prima mail sul sondaggio champions...
+&nbsp;
+Ci vediamo presto per riprendere gli allenamenti.
+&nbsp;
+ciao
+
+[post_text_69]
+Ciao, purtroppo non posso inviare e-mail quindi ti rispondo sul forum...cmq sì sono disponibile,non c'è problema.ciao
 

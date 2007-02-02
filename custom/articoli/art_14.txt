@@ -1,0 +1,18 @@
+Autore::
+Titolo::L'edizione del 1994
+--- Begin body ---
+<br>
+La foto di gruppo e l'articolo di commento di Pasquale Cozzarelli alla sesta edizione della Stralaceno.
+<br><br>
+<p>&nbsp;
+<div align="center">
+<img id="foto_edizione_1994" src="%file_root%custom/album/1994/lac4.jpg" alt="..." border="0" width="460">
+<br>
+</div>
+<br><br>
+<p>&nbsp;
+<div align="center">
+<img id="art_edizione_1994" src="%file_root%custom/album/1994/art_1994_1.jpg" alt="..." border="0" width="590">
+<br><br>
+</div>
+--- End body ---
