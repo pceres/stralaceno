@@ -15,5 +15,5 @@ http://www.prolococaposele.it::Pro Loco Caposele
 http://www.siamonoi.it::Siamonoi.it
 http://www.podisti.net::Podisti.net
 http://www.podistidoc.it::Podistidoc.it
-http://www.aie-spa.it/aie/podismo/podismo00.htm::Calendario podistico
+http://www.servizinews.it/servizi/podismo/podismo00.htm::Calendario podistico
 http://web.tiscali.it/nusco58enrico/riquadro2.html::La 10 km di Nusco
