@@ -1,0 +1,22 @@
+#
+# ARS Amatori Running Sele
+#
+
+#
+# formato elenco_album:  tag_album::nome_album::descrizione
+#
+[elenco_album]
+varie::Album immagini varie::Un po' di tutto
+
+#
+# formato elenco_articoli:  id_articolo::sezione::titolo::autore
+#
+[elenco_articoli]
+2::homepage::Edizione 2005::
+1::homepage::Maratonina di Nusco (10 km)::Pasquale Ceres
+
+#
+# formato elenco_pagine:  tag_pagina::titolo_pagina::titolo::autore
+#
+[elenco_pagine]
+#%script_root%questions.php?id_questions=1::Sondaggio Mondiali 2006

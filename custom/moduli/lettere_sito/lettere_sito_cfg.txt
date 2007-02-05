@@ -1,0 +1,16 @@
+# Lettere alla Stralaceno:
+#
+# formato:  nome::data_lettera::testo_lettera::testo_risposta
+#
+# modifica al di sotto di [elenco_fanfaroni], rispettando il formato; E' importante che tutte le informazioni relative
+# ad una lettere (nome,data,testo_lettera,testo_risposta) siano su un'UNICA riga; non dare mai a capo, se non per 
+# aprire una nuova lettera.
+#
+
+[lettere_sito]
+autore::05/02/2007::testo della lettera::risposta alla lettera
+
+# formato delle informazioni sulle email:
+# <indirizzo_email>::<subject_della_email>::<testo nella finestra tooltip>
+[info_email]
+caposeleweb@yahoo.it::Lettera%20al%20webmaster::Scrivici, se vuoi pubblicheremo la tua mail in questa sezione!

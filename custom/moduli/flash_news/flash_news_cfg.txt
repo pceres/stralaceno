@@ -1,0 +1,15 @@
+#
+# ARS Amatori Running Sele
+#
+
+#
+# formato elenco_news:  data::news
+#
+[elenco_news]
+05/02/2007::Inaugurato il forum su questo sito
+
+#
+# formato testo_footer:  testo
+#
+[testo_footer]
+Ultimo aggiornamento effettuato il 05/02/2007

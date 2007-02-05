@@ -1,1 +1,10 @@
+# File di configurazione degli album fotografici
+#
+# ogni album inizia con una riga vuota, ed un'altra del tipo [nome_album]. Seguono poi una o piu' righe, una per
+# ciascuna foto, nel formato:
+# foto::titolo::descrizione::nome e cognome
+# Ogni riga che inizia con # viene ignorata.
+#
 
+[varie]
+logo.jpg::Logo ufficiale::::

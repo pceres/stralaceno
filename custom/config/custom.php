@@ -26,7 +26,7 @@ $web_keywords = "10 km Nusco, Nusco, Maratonina, Corsa podistica, Atletica";
 
 
 # indirizzo e-mail per contatti (stringa vuota se non e' disponibile)
-$email_info	= "";
+$email_info	= "caposeleweb@yahoo.it";
 
 
 # durata massimo della gara [min]
@@ -45,17 +45,22 @@ $nome_file_organizzatori = "organizzatori.csv";
 # password per la sezione amministrativa:
 #
 
+# gestione riservata al gruppo root_admin
+$password_root_admin = md5('nuscoadmin');
+
 # gestione degli articoli in prima pagina
-$password_articoli = md5('password');
+$password_articoli = md5('nuscoadmin');
 
 # gestione degli album
-$password_album = md5('password');
-
+$password_album = md5('nuscoadmin');
 
 # caricamento dei database della gara (tempi, atleti, organizzatori)
-$password_upload_file = md5('password');
+$password_upload_file = md5('nuscoadmin');
 
 # caricamento e gestione dei file di configurazione
-$password_config = md5('password');
+$password_config = md5('nuscoadmin');
+
+# caricamento e gestione delle lotterie/questionari
+$password_lotterie = md5('nuscoadmin');
 
 ?>

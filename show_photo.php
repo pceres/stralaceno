@@ -29,7 +29,31 @@ $id_titolo_foto = 1;
 $id_descrizione_foto = 2;
 $id_descrizione_persone = 3;
 
+// verifica che $id_photo sia un id, altrimenti si tratta del nome della foto: verifica l'esistenza della foto
+$flag_id_is_number = (strpos($id_photo,".")=='');
+if (!$flag_id_is_number)
+{
+	$nome_foto = $root_path."custom/album/$nome_album/$id_photo";
+	if (!file_exists($nome_foto))
+	{
+		die($site_abs_path."custom/album/$nome_album/$id_photo non esiste!");
+	}
+}
+
 $album = $elenco_foto[$nome_album];
+
+// se $id_foto e' il nome della foto, trovane il relativo id
+if (!$flag_id_is_number)
+{
+	for ($i = 0; $i<count($album); $i++)
+	{
+		$dati_foto = $album[$i];
+		if ($dati_foto[$id_nomefile_foto] === $id_photo)
+		{
+			$id_photo = $i; // imposta l'id corretto
+		}
+	}
+}
 
 $photo_per_row = 3; // numero di foto per riga
 
@@ -118,7 +142,7 @@ function VisualizzaNomi(mode) {
 </script>
 
 
-		<img src="<?php echo $site_abs_path ?>custom/images/cornice/Null.jpg" border="0" height="10" width="1">
+		<img alt="" src="<?php echo $site_abs_path ?>custom/images/cornice/Null.jpg" border="0" height="10" width="1">
 		
 		<!-- tabella riga header -->
 		<table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody>
@@ -248,7 +272,7 @@ if (count($album[$id_photo][$id_descrizione_persone])>0)
 			
 			<!-- riga vuota per distanziare la riga successiva -->
 			<tr>
-				<td height="20"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Null.jpg" border="0" height="20" width="20"></td>
+				<td height="20"><img alt="" src="<?php echo $site_abs_path ?>custom/images/cornice/Null.jpg" border="0" height="20" width="20"></td>
 			</tr>
 			
 			<!-- riga footer -->
@@ -262,7 +286,7 @@ if (count($album[$id_photo][$id_descrizione_persone])>0)
 
 			<!-- riga vuota per distanziare la riga successiva -->
 			<tr>
-				<td height="20"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Null.jpg" border="0" height="20" width="20"></td>
+				<td height="20"><img alt="" src="<?php echo $site_abs_path ?>custom/images/cornice/Null.jpg" border="0" height="20" width="20"></td>
 			</tr>
 
 <?php

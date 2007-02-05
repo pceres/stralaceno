@@ -5,11 +5,22 @@ require_once('../libreria.php');
 # dichiara variabili
 extract(indici());
 
-// verifica che si stia arrivando a questa pagina da .../album.php
+/*
+questa libreria esamina i cookies o i parametri http (eventualmente) inviati, e genera l'array $login con i campi
+'username',	: login
+'usergroups',	: lista dei gruppi di appartenenza (separati da virgola)
+'status',		: stato del login: 'none','ok_form','ok_cookie','error_wrong_username','error_wrong_userpass','error_wrong_challenge','error_wrong_IP'
+*/
+require_once('../login.php');
+
+
+// verifica che si stia arrivando a questa pagina da quella amministrativa principale (o da album.php, in modalita' admin)
 $referer = $_SERVER['HTTP_REFERER'];
-if ( !isset($_SERVER['HTTP_REFERER']) | (strpos($referer,"http://".$_SERVER['HTTP_HOST'].$script_abs_path."album.php")!='0') )
+if ( !isset($_SERVER['HTTP_REFERER']) | 
+((strlen(strpos($referer,"http://".$_SERVER['HTTP_HOST'].$script_abs_path."admin/").' ') == 1) & (strlen(strpos($referer,"http://".$_SERVER['HTTP_HOST'].$script_abs_path."album.php").' ') == 1)) |
+(!in_array($login['status'],array('ok_form','ok_cookie'))) )
 {
-	header("Location: ".$script_abs_path."admin/index.php");
+	header("Location: ".$script_abs_path."index.php");
 	exit();
 }
 
@@ -134,7 +145,7 @@ $counter = count_page("admin_upload_foto",array("COUNT"=>1,"LOG"=>1),$filedir_co
 ?>
 
 <hr>
-<a href="<?php echo $referer; ?>">Torna indietro</a>
+<a href="<?php echo $_SERVER['HTTP_REFERER']; ?>">Torna indietro</a>
 
 </body>
 </html>

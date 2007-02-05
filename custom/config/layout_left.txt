@@ -7,7 +7,7 @@
 # I nomi speciali di blocco sono:
 #	[Articoli] 		: visualizza tutto l'elenco degli articoli, 
 #				  se si sta visualizzando un solo articolo in colonna centrale
-#	[Link] 			: visualizza i link impostati in links.txt dall'interfaccia amministrativa
+#	[Links] 		: visualizza i link impostati in links.txt dall'interfaccia amministrativa
 #
 # I valori consentiti per tipo_elemento sono:
 #	tempi			: pagina che si appoggia al database dei tempi. I valori consentiti per 
@@ -26,6 +26,8 @@
 #								  costituire il sottoblocco;
 #	modulo_custom	: link a modulo personalizzato (nella directory custom/moduli)
 #	separatore		: separatore dei sottoblocchi costituito da una linea orizzontale
+#	external_link		: link esterno. nome_modulo indica il nome del link (campo "name" del tag href), 
+#					caption il testo visibile del link, dati il link effettivo (relativo o assoluto)
 #
 # il campo disabled_message puo' valere
 #	<campo vuoto> 	: il sottoblocco e' abilitato ed attivo
@@ -50,7 +52,7 @@
 Articoli::
 La corsa::
 Cronaca corrente::
-Link::
+Links::
 
 
 #
@@ -74,5 +76,5 @@ ultime_edizioni::Ultime edizioni: ::modulo::3::
 classifica_MF::Classifica personali M+F::tempi::::
 classifica_F::Classifica personali F::tempi::::
 
-[Link]
+[Links]
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Link] non prevede sottoelementi

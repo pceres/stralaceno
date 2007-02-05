@@ -1,190 +1,190 @@
-id;Atleta;Sesso;Titoli;Data di nascita;Peso;Link
-1;Giovanni Moretto;M;-;?;?;-
-2;Luigi De Vito;M;-;?;?;-
-3;Canio Di Napoli;M;-;?;?;-
-4;Jerome Traglia;M;-;?;?;-
-5;Alfredo Lanzetta;M;-;?;?;-
-6;Maurizio Massascusa;M;-;?;?;-
-7;Daniel Baur;M;-;?;?;-
-8;Celestiano Cavaliere;M;-;?;?;-
-9;Michele Dell'Angelo;M;-;?;?;-
-10;Francesco Napolillo;M;-;?;?;-
-11;Angelo Salerno;M;-;?;?;-
-12;Vincenzo Maffucci;M;-;?;?;-
-13;Antonio Traglia;M;-;?;?;-
-14;Antonio Del Sordo;M;-;?;?;-
-15;Amato Prudente;M;-;?;?;-
-16;Vincenzo Pepe;M;-;?;?;-
-17;Generoso Della Polla;M;-;?;?;-
-18;Giuseppe Mongelluzzo;M;-;?;?;-
-19;Stefano Quaresimale;M;-;?;?;-
-20;Andrea Marano;M;-;?;?;-
-21;Giuseppe Molinario;M;-;?;?;-
-22;Luigi Grosso;M;-;?;?;-
-23;Giovanni Rullo;M;-;?;?;-
-24;Michele Bicchetti;M;-;?;?;-
-25;Raffaele Faia;M;-;?;?;-
-26;Antonio Carbonara;M;-;?;?;-
-27;Fioravante Del Giudice;M;-;?;?;-
-28;Giovanni Palmieri;M;-;?;?;-
-29;Luigi Cavaliere;M;-;?;?;-
-30;Salvatore Esposito;M;-;?;?;-
-31;Amato Natale;M;-;?;?;-
-32;Rossella Della Vecchia;F;-;?;?;-
-33;Raffaella Gaudioso;F;-;?;?;-
-34;Francesca Berardesca;F;-;?;?;-
-35;Antonio Del Giudice;M;-;?;?;-
-36;Vincenzo Mongelli;M;-;?;?;-
-37;Vincenzo Roberto;M;-;?;?;-
-38;Benedetta Russo;F;-;?;?;-
-39;Alessandra Lanzetta;F;-;?;?;-
-40;Anna Conte;F;-;?;?;-
-41;Gelsomino Merola;M;-;?;?;-
-42;Danilo Merola;M;-;?;?;-
-43;Francesco Biancaniello;M;-;?;?;-
-44;Mario Capaldo;M;-;?;?;-
-45;Luigi D'Avanzo;M;-;?;?;-
-46;Giuseppe Vivolo;M;-;?;?;-
-47;Amato Della Vecchia;M;-;?;?;-
-48;Filomena Pepe;F;-;?;?;-
-49;Marco Natale;M;-;?;?;-
-50;Giuliano Del Sordo;M;-;?;?;-
-51;Michela Meluzio;F;-;?;?;-
-52;Fabio Pieributi;M;-;?;?;-
-53;Franco Fasano;M;-;?;?;-
-54;Davide Contino;M;-;?;?;-
-55;Maria Rosaria Intoccia;F;-;?;?;-
-56;Gianfranco Pepe;M;-;?;?;-
-57;Maria Luisa De Riu;F;-;?;?;-
-58;Palmina Avossa;F;-;?;?;-
-59;Claudio Del Sordo;M;-;?;?;-
-60;Concetta Conte;F;-;?;?;-
-61;Generoso Della Fortuna;M;-;?;?;-
-62;Patrizia Gaudiello;F;-;?;?;-
-63;Patrizia Vigilante;F;-;?;?;-
-64;Ludovico Palmieri;M;-;?;?;-
-65;Annibale Petoia;M;-;?;?;-
-66;Vincenzo Farina;M;-;?;?;-
-67;Pasquale Ceres;M;-;?;?;-
-68;Carmelo Cantillo;M;-;?;?;-
-69;Antonio Schiavone;M;-;?;?;-
-70;Donato Ceres;M;-;?;?;-
-71;Armando Quaresimale;M;-;?;?;-
-72;Osvaldo Fraschetti;M;-;?;?;-
-73;Raffaele Palmieri;M;-;?;?;-
-74;Vittorio Lombardi;M;-;?;?;-
-75;Mahmood Argemandy;M;-;?;?;-
-76;Giuseppe Rosania;M;-;?;?;-
-77;Antonio Salvi;M;-;?;?;-
-78;Luciano Gentile;M;-;?;?;-
-79;Raffaella Tuozzolo;F;-;?;?;-
-80;Alice Gentile;M;-;?;?;-
-81;Mirzia Palmieri;F;-;?;?;-
-82;Fiorentino Prudente;M;-;?;?;-
-83;Soccorso Cresta;M;-;?;?;-
-84;Enzo Raffaele;M;-;?;?;-
-85;Italo Ricciardi;M;-;?;?;-
-86;Daniele Baur;M;-;?;?;-
-87;Angelo Del Sordo;M;-;?;?;-
-88;Giuseppe Del Sordo;M;-;?;?;-
-89;Antonio Pasquale;M;-;?;?;-
-90;Marco Capobianco;M;-;?;?;-
-91;Antonio Grosso;M;-;?;?;-
-92;Edoardo Mario Marino;M;-;?;?;-
-93;Rocco Di Paolo;M;-;?;?;-
-94;Gianfranco Bruno;M;-;?;?;-
-95;Anna Della Polla;F;-;?;?;-
-96;Carmine Rullo;M;-;?;?;-
-97;Emma Centini;F;-;?;?;-
-98;Fabiana Capone;F;-;?;?;-
-99;Gennaro Del Sordo;M;-;?;?;-
-100;Giancarlo Pepe;M;-;?;?;-
-101;Michele Iorlano;M;-;?;?;-
-102;Soccorso Schiavone;M;-;?;?;-
-103;Enrico Marino;M;-;?;?;-
-104;Michele Maio;M;-;?;?;-
-105;Simone Palmieri;M;-;?;?;-
-106;Nicola Melillo;M;-;?;?;-
-107;Salvatore Dello Buono;M;-;?;?;-
-108;Liberato Meluzio;M;-;?;?;-
-109;Enrico Grauli;M;-;?;?;-
-110;Salvatore Angri;M;-;?;?;-
-111;Gerardo Romano;M;-;?;?;-
-112;Pasquale D'Ambrosio;M;-;?;?;-
-113;Massimo Santamaria;M;-;?;?;-
-114;Claudio De Vita;M;-;?;?;-
-115;Mario Fusco;M;-;?;?;-
-116;Marco Garofalo;M;-;?;?;-
-117;Carmine Cuozzo;M;-;?;?;-
-118;Gabriella Zuber;F;-;?;?;-
-119;Massimo De Stefano;M;-;?;?;-
-120;Gilio Iannone;M;-;?;?;-
-121;Antonio Alfano;M;-;?;?;-
-122;Luigi Credentino;M;-;?;?;-
-123;Loredana Vento;F;-;?;?;-
-124;Pierlorenzo Pallante;M;-;?;?;-
-125;Pierluigi Della Vecchia;M;-;?;?;-
-126;Luciano Martinello;M;-;?;?;-
-127;Andressa Della Vecchia;F;-;?;?;-
-128;Pietro Carpenito;M;-;?;?;-
-129;Pasquale Pizzano;M;-;?;?;-
-130;Genny D'Argenio;M;-;?;?;-
-131;Michele Lanza;M;-;?;?;-
-132;Vincent Bonsignore;M;-;?;?;-
-133;Angela Prudente;F;-;?;?;-
-134;Giorgio Diana;M;-;?;?;-
-135;Carmelo Carbonara;M;-;?;?;-
-136;Fernando Rinaldi;M;-;?;?;-
-137;Sergio Pallini;M;-;?;?;-
-138;Angelo Lungo;M;-;?;?;-
-139;Giuseppe Castaldo;M;-;?;?;-
-140;Vincenzo Bonsignore;M;-;?;?;-
-141;Giancarlo Cavaliere;M;-;?;?;-
-142;Gabriella Schiavone;F;-;?;?;-
-143;Francesco Angri;M;-;?;?;-
-144;Alessandro Argemandy;M;-;?;?;-
-145;Ilenia Di Paolo;F;-;?;?;-
-146;Giuseppe Bonsignore;M;-;?;?;-
-147;Clarice Cavaliere;F;-;?;?;-
-148;Concetta Della Fortuna;F;-;?;?;-
-149;Maria Rosaria Marino;F;-;?;?;-
-150;Gianfranco Bianco;M;-;?;?;-
-151;Angelo Giuliano;M;-;?;?;-
-152;Vincenzo Zarrilli;M;-;?;?;-
-153;Vincenzo Zabatta;M;-;?;?;-
-154;Nicola D'Auria;M;-;?;?;-
-155;Emilio Picariello;M;-;?;?;-
-156;Francesco Didato;M;-;?;?;-
-157;Salvatore Colatrella;M;-;?;?;-
-158;Antonio Ceres;M;-;?;?;-
-159;Angelo Grosso;M;-;?;?;-
-160;Fabiola Dell'Angelo;F;-;?;?;-
-161;Martina Del Sordo;F;-;?;?;-
-162;Alessandro Russo;M;-;?;?;-
-163;Angelo Della Rocca;M;-;?;?;-
-164;Armando Muto;M;-;?;?;-
-165;Mario Landi;M;-;?;?;-
-166;Gennaro Pappalardo;M;-;?;?;-
-167;Ferdinando Di Giacomo;M;-;?;?;-
-168;Antonio Galasso;M;-;?;?;-
-169;Luigi Viola;M;-;?;?;-
-170;Alessandro Schiavone;M;-;?;?;-
-171;Bruno Crucito;M;-;?;?;-
-172;Antonio Vicinanza;M;-;?;?;-
-173;Mario De Gregorio;M;-;?;?;-
-174;Umberto Fortunato;M;-;?;?;-
-175;Anna Senatore;F;-;?;?;-
-176;Luigi D'Aniello;M;-;?;?;-
-177;Alessandro Russomanno;M;-;?;?;-
-178;Nicola D'Auria;M;-;?;?;-
-179;Anna Grasso;F;-;?;?;-
-180;Cinzia Oliva;F;-;?;?;-
-181;Paolo Viscardi;M;-;?;?;-
-182;Vincent Marino;M;-;?;?;-
-183;Paolo Picariello;M;-;?;?;-
-184;Vincenzo Rocchino;M;-;?;?;-
-185;Gaetano Palomba;M;-;?;?;-
-186;Fabio Cucciniello;M;-;?;?;-
-187;Michele Fortunato;M;-;?;?;-
-188;Luca Marrone;M;-;?;?;-
-189;Filomena Palomba;F;-;?;?;-
+ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto
+1;Giovanni Moretto;M;-;?;?;-;-
+2;Luigi De Vito;M;-;?;?;-;-
+3;Canio Di Napoli;M;-;?;?;-;-
+4;Jerome Traglia;M;-;?;?;-;-
+5;Alfredo Lanzetta;M;-;?;?;-;-
+6;Maurizio Massascusa;M;-;?;?;-;-
+7;Daniel Baur;M;-;?;?;-;-
+8;Celestiano Cavaliere;M;-;?;?;-;-
+9;Michele Dell'Angelo;M;-;?;?;-;-
+10;Francesco Napolillo;M;-;?;?;-;-
+11;Angelo Salerno;M;-;?;?;-;-
+12;Vincenzo Maffucci;M;-;?;?;-;-
+13;Antonio Traglia;M;-;?;?;-;-
+14;Antonio Del Sordo;M;-;?;?;-;-
+15;Amato Prudente;M;-;?;?;-;-
+16;Vincenzo Pepe;M;-;?;?;-;-
+17;Generoso Della Polla;M;-;?;?;-;-
+18;Giuseppe Mongelluzzo;M;-;?;?;-;-
+19;Stefano Quaresimale;M;-;?;?;-;-
+20;Andrea Marano;M;-;?;?;-;-
+21;Giuseppe Molinario;M;-;?;?;-;-
+22;Luigi Grosso;M;-;?;?;-;-
+23;Giovanni Rullo;M;-;?;?;-;-
+24;Michele Bicchetti;M;-;?;?;-;-
+25;Raffaele Faia;M;-;?;?;-;-
+26;Antonio Carbonara;M;-;?;?;-;-
+27;Fioravante Del Giudice;M;-;?;?;-;-
+28;Giovanni Palmieri;M;-;?;?;-;-
+29;Luigi Cavaliere;M;-;?;?;-;-
+30;Salvatore Esposito;M;-;?;?;-;-
+31;Amato Natale;M;-;?;?;-;-
+32;Rossella Della Vecchia;F;-;?;?;-;-
+33;Raffaella Gaudioso;F;-;?;?;-;-
+34;Francesca Berardesca;F;-;?;?;-;-
+35;Antonio Del Giudice;M;-;?;?;-;-
+36;Vincenzo Mongelli;M;-;?;?;-;-
+37;Vincenzo Roberto;M;-;?;?;-;-
+38;Benedetta Russo;F;-;?;?;-;-
+39;Alessandra Lanzetta;F;-;?;?;-;-
+40;Anna Conte;F;-;?;?;-;-
+41;Gelsomino Merola;M;-;?;?;-;-
+42;Danilo Merola;M;-;?;?;-;-
+43;Francesco Biancaniello;M;-;?;?;-;-
+44;Mario Capaldo;M;-;?;?;-;-
+45;Luigi D'Avanzo;M;-;?;?;-;-
+46;Giuseppe Vivolo;M;-;?;?;-;-
+47;Amato Della Vecchia;M;-;?;?;-;-
+48;Filomena Pepe;F;-;?;?;-;-
+49;Marco Natale;M;-;?;?;-;-
+50;Giuliano Del Sordo;M;-;?;?;-;-
+51;Michela Meluzio;F;-;?;?;-;-
+52;Fabio Pieributi;M;-;?;?;-;-
+53;Franco Fasano;M;-;?;?;-;-
+54;Davide Contino;M;-;?;?;-;-
+55;Maria Rosaria Intoccia;F;-;?;?;-;-
+56;Gianfranco Pepe;M;-;?;?;-;-
+57;Maria Luisa De Riu;F;-;?;?;-;-
+58;Palmina Avossa;F;-;?;?;-;-
+59;Claudio Del Sordo;M;-;?;?;-;-
+60;Concetta Conte;F;-;?;?;-;-
+61;Generoso Della Fortuna;M;-;?;?;-;-
+62;Patrizia Gaudiello;F;-;?;?;-;-
+63;Patrizia Vigilante;F;-;?;?;-;-
+64;Ludovico Palmieri;M;-;?;?;-;-
+65;Annibale Petoia;M;-;?;?;-;-
+66;Vincenzo Farina;M;-;?;?;-;-
+67;Pasquale Ceres;M;-;1974;?;http://ars.altervista.org;-
+68;Carmelo Cantillo;M;-;?;?;-;-
+69;Antonio Schiavone;M;-;?;?;-;-
+70;Donato Ceres;M;-;?;?;-;-
+71;Armando Quaresimale;M;-;?;?;-;-
+72;Osvaldo Fraschetti;M;-;?;?;-;-
+73;Raffaele Palmieri;M;-;?;?;-;-
+74;Vittorio Lombardi;M;-;?;?;-;-
+75;Mahmood Argemandy;M;-;?;?;-;-
+76;Giuseppe Rosania;M;-;?;?;-;-
+77;Antonio Salvi;M;-;?;?;-;-
+78;Luciano Gentile;M;-;?;?;-;-
+79;Raffaella Tuozzolo;F;-;?;?;-;-
+80;Alice Gentile;M;-;?;?;-;-
+81;Mirzia Palmieri;F;-;?;?;-;-
+82;Fiorentino Prudente;M;-;?;?;-;-
+83;Soccorso Cresta;M;-;?;?;-;-
+84;Enzo Raffaele;M;-;?;?;-;-
+85;Italo Ricciardi;M;-;?;?;-;-
+86;Daniele Baur;M;-;?;?;-;-
+87;Angelo Del Sordo;M;-;?;?;-;-
+88;Giuseppe Del Sordo;M;-;?;?;-;-
+89;Antonio Pasquale;M;-;?;?;-;-
+90;Marco Capobianco;M;-;?;?;-;-
+91;Antonio Grosso;M;-;?;?;-;-
+92;Edoardo Mario Marino;M;-;?;?;-;-
+93;Rocco Di Paolo;M;-;?;?;-;-
+94;Gianfranco Bruno;M;-;?;?;-;-
+95;Anna Della Polla;F;-;?;?;-;-
+96;Carmine Rullo;M;-;?;?;-;-
+97;Emma Centini;F;-;?;?;-;-
+98;Fabiana Capone;F;-;?;?;-;-
+99;Gennaro Del Sordo;M;-;?;?;-;-
+100;Giancarlo Pepe;M;-;?;?;-;-
+101;Michele Iorlano;M;-;?;?;-;-
+102;Soccorso Schiavone;M;-;?;?;-;-
+103;Enrico Marino;M;-;?;?;-;-
+104;Michele Maio;M;-;?;?;-;-
+105;Simone Palmieri;M;-;?;?;-;-
+106;Nicola Melillo;M;-;?;?;-;-
+107;Salvatore Dello Buono;M;-;?;?;-;-
+108;Liberato Meluzio;M;-;?;?;-;-
+109;Enrico Grauli;M;-;?;?;-;-
+110;Salvatore Angri;M;-;?;?;-;-
+111;Gerardo Romano;M;-;?;?;-;-
+112;Pasquale D'Ambrosio;M;-;?;?;-;-
+113;Massimo Santamaria;M;-;?;?;-;-
+114;Claudio De Vita;M;-;?;?;-;-
+115;Mario Fusco;M;-;?;?;-;-
+116;Marco Garofalo;M;-;?;?;-;-
+117;Carmine Cuozzo;M;-;?;?;-;-
+118;Gabriella Zuber;F;-;?;?;-;-
+119;Massimo De Stefano;M;-;?;?;-;-
+120;Gilio Iannone;M;-;?;?;-;-
+121;Antonio Alfano;M;-;?;?;-;-
+122;Luigi Credentino;M;-;?;?;-;-
+123;Loredana Vento;F;-;?;?;-;-
+124;Pierlorenzo Pallante;M;-;?;?;-;-
+125;Pierluigi Della Vecchia;M;-;?;?;-;-
+126;Luciano Martinello;M;-;?;?;-;-
+127;Andressa Della Vecchia;F;-;?;?;-;-
+128;Pietro Carpenito;M;-;?;?;-;-
+129;Pasquale Pizzano;M;-;?;?;-;-
+130;Genny D'Argenio;M;-;?;?;-;-
+131;Michele Lanza;M;-;?;?;-;-
+132;Vincent Bonsignore;M;-;?;?;-;-
+133;Angela Prudente;F;-;?;?;-;-
+134;Giorgio Diana;M;-;?;?;-;-
+135;Carmelo Carbonara;M;-;?;?;-;-
+136;Fernando Rinaldi;M;-;?;?;-;-
+137;Sergio Pallini;M;-;?;?;-;-
+138;Angelo Lungo;M;-;?;?;-;-
+139;Giuseppe Castaldo;M;-;?;?;-;-
+140;Vincenzo Bonsignore;M;-;?;?;-;-
+141;Giancarlo Cavaliere;M;-;?;?;-;-
+142;Gabriella Schiavone;F;-;?;?;-;-
+143;Francesco Angri;M;-;?;?;-;-
+144;Alessandro Argemandy;M;-;?;?;-;-
+145;Ilenia Di Paolo;F;-;?;?;-;-
+146;Giuseppe Bonsignore;M;-;?;?;-;-
+147;Clarice Cavaliere;F;-;?;?;-;-
+148;Concetta Della Fortuna;F;-;?;?;-;-
+149;Maria Rosaria Marino;F;-;?;?;-;-
+150;Gianfranco Bianco;M;-;?;?;-;-
+151;Angelo Giuliano;M;-;?;?;-;-
+152;Vincenzo Zarrilli;M;-;?;?;-;-
+153;Vincenzo Zabatta;M;-;?;?;-;-
+154;Nicola D'Auria;M;-;?;?;-;-
+155;Emilio Picariello;M;-;?;?;-;-
+156;Francesco Didato;M;-;?;?;-;-
+157;Salvatore Colatrella;M;-;?;?;-;-
+158;Antonio Ceres;M;-;?;?;-;-
+159;Angelo Grosso;M;-;?;?;-;-
+160;Fabiola Dell'Angelo;F;-;?;?;-;-
+161;Martina Del Sordo;F;-;?;?;-;-
+162;Alessandro Russo;M;-;?;?;-;-
+163;Angelo Della Rocca;M;-;?;?;-;-
+164;Armando Muto;M;-;?;?;-;-
+165;Mario Landi;M;-;?;?;-;-
+166;Gennaro Pappalardo;M;-;?;?;-;-
+167;Ferdinando Di Giacomo;M;-;?;?;-;-
+168;Antonio Galasso;M;-;?;?;-;-
+169;Luigi Viola;M;-;?;?;-;-
+170;Alessandro Schiavone;M;-;?;?;-;-
+171;Bruno Crucito;M;-;?;?;-;-
+172;Antonio Vicinanza;M;-;?;?;-;-
+173;Mario De Gregorio;M;-;?;?;-;-
+174;Umberto Fortunato;M;-;?;?;-;-
+175;Anna Senatore;F;-;?;?;-;-
+176;Luigi D'Aniello;M;-;?;?;-;-
+177;Alessandro Russomanno;M;-;?;?;-;-
+178;Nicola D'Auria;M;-;?;?;-;-
+179;Anna Grasso;F;-;?;?;-;-
+180;Cinzia Oliva;F;-;?;?;-;-
+181;Paolo Viscardi;M;-;?;?;http://www.siamonoi.it;-
+182;Vincent Marino;M;-;?;?;-;-
+183;Paolo Picariello;M;-;?;?;-;-
+184;Vincenzo Rocchino;M;-;?;?;-;-
+185;Gaetano Palomba;M;-;?;?;-;-
+186;Fabio Cucciniello;M;-;?;?;-;-
+187;Michele Fortunato;M;-;?;?;-;-
+188;Luca Marrone;M;-;?;?;-;-
+189;Filomena Palomba;F;-;?;?;-;-

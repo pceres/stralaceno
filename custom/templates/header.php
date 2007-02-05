@@ -5,7 +5,7 @@ inizio header
 	  <tbody>
 	  
 		<tr>
-		  <td> <img src="<?php echo $site_abs_path?>custom/images/logo.gif" alt="logo_maratonina_nusco"> </td>
+ 		  <td> <img src="<?php echo $site_abs_path?>custom/album/varie/logo.jpg" alt="logo %web_title%"> </td>
 		</tr>
 		
 	  </tbody>

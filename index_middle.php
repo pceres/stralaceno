@@ -1,33 +1,51 @@
 <!-- 
 inizio colonna centrale
+
+variabili in input:
+$sezione	: argomento di index che specifica il tipo di pagina da visualizzare
+$art_id		: argomento di index che specifica l'id dell'articolo da visualizzare
+
 -->
 <?php
-	$pagina = $_REQUEST['page']; // contenuto da visualizzare in colonna centrale
+	
+	// se non specificato diversamente, la pagina richiesta e' la homepage
+	if (empty($sezione))
+	{
+		$sezione = 'homepage';
+	}
+	
 ?>
 <table class="frame_delimiter" width="100%"><tbody>	
 
 <?php
-
-	if (empty($pagina))
+	// individua la cartella relativa alla sezione scelta
+	$art_file_data = get_articles_path($sezione);
+	$path_articles 	= $art_file_data["path_articles"];	// cartella contenente gli articoli
+	$online_file 	= $art_file_data["online_file"];	// file contenente l'elenco degli articoli online
+	
+	// verifica che la sezione esista
+	if (!file_exists($online_file))
 	{
-		$art_list = get_online_articles($article_online_file); // carica l'elenco degli articoli da pubblicare
+		die("Sezione &quot;$sezione&quot; non disponibile!\n");
+		return;
 	}
-	elseif ($pagina==='articolo')
+	
+	// la sezione esiste, gestiscila
+	if (empty($art_id))
 	{
-		$id = $_REQUEST['art_id']; // id dell'articolo da visualizzare
-		$art_list = array($id); 
+		$art_list = get_online_articles($online_file); // carica l'elenco degli articoli da pubblicare
 	}
 	else
 	{
-		echo "Contenuto $pagina non disponibile!\n";
-		return;
+		$art_list = array($art_id); 
 	}
-
+	
+	// se c'e' almeno un articolo online...
 	if (count($art_list) > 0)
 	{
 		for ($i = 0; $i < count($art_list); $i++)
 		{
-			$art_data = load_article($art_list[$i]); // carica l'articolo
+			$art_data = load_article($art_list[$i],$sezione); // carica l'articolo
 			
 			if (!empty($art_data)) // se l'articolo esiste...
 			{
@@ -35,7 +53,7 @@ inizio colonna centrale
 				if ($i > 0)
 				{
 					$mode = 'abstract';
-					$link = $script_abs_path."index.php?page=articolo&amp;art_id=".$art_list[$i];
+					$link = "index.php?page=$sezione&amp;art_id=".$art_list[$i];
 				}
 				else
 				{
@@ -56,6 +74,7 @@ inizio colonna centrale
 	}
 
 	// incrementa il contatore per la homepage
+	$_COOKIE['login']['username'] = $login['username'];
 	$counter = count_page("homepage",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
 ?>
 

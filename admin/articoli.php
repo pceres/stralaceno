@@ -5,18 +5,44 @@ require_once('../libreria.php');
 # dichiara variabili
 extract(indici());
 
+/*
+questa libreria esamina i cookies o i parametri http (eventualmente) inviati, e genera l'array $login con i campi
+'username',	: login
+'usergroups',	: lista dei gruppi di appartenenza (separati da virgola)
+'status',		: stato del login: 'none','ok_form','ok_cookie','error_wrong_username','error_wrong_userpass','error_wrong_challenge','error_wrong_IP'
+*/
+require_once('../login.php');
+
+
 // verifica che si stia arrivando a questa pagina da quella amministrativa principale
-if ( !isset($_SERVER['HTTP_REFERER']) | ("http://".$_SERVER['HTTP_HOST'].$script_abs_path."admin/" != substr($_SERVER['HTTP_REFERER'],0,strrpos($_SERVER['HTTP_REFERER'],'/')+1) ) )
+if ( !isset($_SERVER['HTTP_REFERER']) | ("http://".$_SERVER['HTTP_HOST'].$script_abs_path."admin/" !== substr($_SERVER['HTTP_REFERER'],0,strrpos($_SERVER['HTTP_REFERER'],'/')+1) ) |
+(!in_array($login['status'],array('ok_form','ok_cookie'))) )
 {
-	header("Location: ".$script_abs_path."admin/index.php");
+	header("Location: ".$script_abs_path."index.php");
 	exit();
 }
+
+// input alla pagina
+$sezione = sanitize_user_input($_REQUEST['section'],'plain_text',Array());
+
+// titolo relativo alla sezione in esame
+switch ($sezione)
+{
+case '':
+case 'homepage':
+	$tag_sezione = "in prima pagina";
+	break;
+default:
+	$tag_sezione = "nella sezione &quot;$sezione&quot;";
+	break;
+}
+
 
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-  <title>Gestione articoli</title>
+  <title>Gestione articoli <?php echo $tag_sezione; ?></title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <META http-equiv="Content-Script-Type" content="text/javascript">
   <meta name="GENERATOR" content="Quanta Plus">
@@ -176,17 +202,22 @@ function move_up_down(direction)
 
 <?php
 
-$art_id=get_article_list($articles_dir); // carica l'elenco degli articoli disponibili ($articles_dir e' relativo alla radice)
-$art_online_id=get_online_articles($article_online_file); // carica l'elenco degli articoli online ($article_online_file e' relativo alla radice)
+// individua la cartella relativa alla sezione
+$art_file_data = get_articles_path($sezione);
+$path_articles 	= $art_file_data["path_articles"];	// cartella contenente gli articoli
+$online_file 	= $art_file_data["online_file"];	// file contenente l'elenco degli articoli online
+
+$art_id=get_article_list($path_articles); 		// carica l'elenco degli articoli disponibili
+$art_online_id=get_online_articles($online_file); 	// carica l'elenco degli articoli online
 
 $art_bulk = array();
 for ($i = 0; $i < count($art_id); $i++)
 {
 	chdir('..');
-	$art_data = load_article($art_id[$i]);
+	$art_data = load_article($art_id[$i],$sezione);
 	chdir('admin');
 	
-	$art_bulk[$i] = $art_data;
+	$art_bulk[$art_id[$i]] = $art_data;
 }
 
 if (count($art_id) > 0)
@@ -197,20 +228,38 @@ if (count($art_id) > 0)
 <form name="form_data" action="manage_articles.php" method="post">
 	<input name="password" type="hidden">
 	<input name="task" type="hidden">
+	<input name="section" value="<?php echo $sezione; ?>" type="hidden">
 	<input name="data" type="hidden">
 </form>
 
 <center>
 
 <!-- 
+gestione sezioni
+-->
+<?php
+$lista_sezioni = get_section_list(); // individua le sezioni disponibili
+
+// se c'e' almeno una sezione oltre "homepage", visualizza i link alle pagine amministrative per le diverse sezioni
+if (count($lista_sezioni) > 1)
+{
+	foreach($lista_sezioni as $nome_sezione)
+	{
+		echo "<a href=\"articoli.php?section=$nome_sezione\">".prime_lettere_maiuscole($nome_sezione)."</a>\n";
+	}
+	echo "<hr>\n";
+}
+?>
+
+<!-- 
 gestione articoli disponibili
 -->
 <table class="admin" align="center">
-	<caption>Situazione attuale articoli</caption>
+	<caption>Situazione attuale articoli <?php echo $tag_sezione; ?></caption>
 
 	<thead><tr>
 		<th>Id</th>
-		<th>Posizione in prima pagina</th>
+		<th>Posizione online</th>
 		<th>Titolo</th>
 		<th>Autore</th>
 		<th>Cancella</th>
@@ -257,13 +306,13 @@ for ($i = 0; $i < count($art_id); $i++)
 		$posiz = "-";
 	}
 	echo "\t\t\t<td>$posiz</td>\n";
-
-	echo "\t\t\t<td>".$art_bulk[$id-1]['titolo']."</td>\n";
-
-	echo "\t\t\t<td>".$art_bulk[$id-1]['autore']."</td>\n";
-
+	
+	echo "\t\t\t<td>".$art_bulk[$id]['titolo']."</td>\n";
+	
+	echo "\t\t\t<td>".$art_bulk[$id]['autore']."</td>\n";
+	
 	echo "\t\t\t<td><input type=\"checkbox\" onClick=\"return do_action('cancel',$id)\"></td>\n";
-
+	
 	echo "\t\t\t<td><input type=\"checkbox\" onClick=\"return do_action('edit',$id)\"></td>\n";
 	
 	echo "\t\t</tr>\n";
@@ -281,11 +330,11 @@ gestione articoli online
 <form name="form_elenco_online" action="manage_articles.php" method="post" onSubmit="cripta_campo_del_form(this,'password')">
 
 <table class="admin" style="border-collapse: collapse;" align="center">
-	<caption>Gestione articoli in prima pagina</caption>
+	<caption>Gestione articoli <?php echo $tag_sezione; ?></caption>
 	
 	<thead><tr>
 		<th>Articoli ancora disponibili</th>
-		<th colspan="2">Ordine articoli in prima pagina</th>
+		<th colspan="2">Ordine articoli online</th>
 	</tr></thead> 
 	
 	<tbody>
@@ -297,7 +346,7 @@ gestione articoli online
 			{
 				$id = $art_id[$i]; // id dell'articolo visualizzato sulla riga
 				if (!in_array($id,$art_online_id))
-					echo "\t\t\t\t<option value=\"".$id."\"> (id ".$id.") ".$art_bulk[$id-1]['titolo']."</option>\n";
+					echo "\t\t\t\t<option value=\"".$id."\"> (id ".$id.") ".$art_bulk[$id]['titolo']."</option>\n";
 			}
 			?>
 			</select>
@@ -312,11 +361,11 @@ gestione articoli online
 				{
 					$id = $art_id[$i]; // id dell'articolo visualizzato sulla riga
 					if (in_array($id,$art_online_id))
-						echo "\t\t\t\t<option value=\"".$id."\"> (id ".$id.") ".$art_bulk[$id-1]['titolo']."</option>\n";
+						echo "\t\t\t\t<option value=\"".$id."\"> (id ".$id.") ".$art_bulk[$id]['titolo']."</option>\n";
 				} 
 ?>			</select>
 			<br>
-			Clicca su un articolo per toglierlo dalla prima pagina
+			Clicca su un articolo per renderlo invisibile
 		</td>
 		
 		<td align="center">
@@ -326,6 +375,7 @@ gestione articoli online
 			<input name="Applica" value="Applica" onClick="return do_action('elenco_online',1)" type="submit">
 			
 			<input name="password" type="hidden">
+			<input name="section" value="<?php echo $sezione; ?>" type="hidden">
 			<input name="task" type="hidden">
 			<input name="data" type="hidden">
 		</td>
@@ -356,6 +406,7 @@ $art_filename = "art_$id.txt";
 ?>
 <form name="form_upload" enctype="multipart/form-data" action="upload_article.php" method="post" onSubmit="cripta_campo_del_form(this,'password')">
 	<input type="hidden" name="MAX_FILE_SIZE" value="30000">
+	<input name="section" value="<?php echo $sezione; ?>" type="hidden">
 	<input type="hidden" name="id_articolo" value="<?php echo $id; ?>">
 <?php echo "\t<input type=\"hidden\" name=\"filename\" value=\"$art_filename\">\n"; ?>
 	Nuovo articolo (id <?php echo $id; ?>) da caricare: <input name="userfile" type="file"><br>

@@ -1,13 +1,43 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
 <?php
 
 require_once('libreria.php');
 
+/*
+questa libreria esamina i cookies o i parametri http (eventualmente) inviati, e genera l'array $login con i campi
+'username',	: login
+'usergroups',	: lista dei gruppi di appartenenza (separati da virgola)
+'status',		: stato del login: 'none','ok_form','ok_cookie','error_wrong_username','error_wrong_userpass','error_wrong_challenge','error_wrong_IP'
+*/
+require_once('login.php');
+
+
+#
+# analisi dei parametri passati alla pagina
+#
+
+# pagina da visualizzare; per ora puo' valere:
+# 	'' 		: pagina di default, con tutti gli articoli in colonna centrale
+#	'<sezione>'	: viene visualizzato un solo articolo, indicato dal suo id attraverso la variabile aggiuntiva 'art_id'
+$sezione = $_REQUEST['page']; // contenuto da visualizzare in colonna centrale
+$sezione = sanitize_user_input($sezione,'plain_text',Array());
+
+$art_id = $_REQUEST['art_id']; // id dell'articolo da visualizzare
+$art_id = sanitize_user_input($art_id,'number',Array("number_type"=>"int"));
+
+
 # dichiara variabili
-extract(indici());
+extract(indici($sezione));
+
+
+# carica i dati relativi a tutte le edizioni, che devono essere disponibili per i moduli nelle colonne sinistra e destra
+if (file_exists($filename_tempi))
+{
+	$archivio = load_data($filename_tempi,$num_colonne_prestazioni);
+}
 
 ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
 <head>
   <title><?php echo $web_title ?></title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -18,70 +48,6 @@ extract(indici());
   <!--link href="<?php echo $site_abs_path ?>custom/images/logo_small.gif" rel="SHORTCUT ICON"-->
 </head>
 <body class="homepage" onLoad="azzera_input()">
-<?php
-
-#
-# analisi dei parametri passati alla pagina
-#
-
-# pagina da visualizzare; per ora puo' valere:
-# 	'' 		: pagina di default, con tutti gli articoli in colonna centrale
-#	'articolo'	: viene visualizzato un solo articolo, indicato dal suo id attraverso la variabile aggiuntiva 'art_id'
-$pagina = $_REQUEST['page']; // contenuto da visualizzare in colonna centrale
-
-# utente:
-$user = $_REQUEST['user']; // utente che si collega
-
-# password dell'utente:
-$userpass = $_REQUEST['userpass']; // password dell'utente
-
-
-#
-# gestisci l'utente
-#
-$elenco_users = get_config_file($filename_users,3);
-$elenco_users = $elenco_users['users'];
-
-if (!empty($user))
-{
-	$user_found = 0;
-	foreach($elenco_users as $userdata)
-	{
-		if ($user == $userdata[$indice_user_name])
-		{
-			$user_found = 1;
-			if (md5($userpass) == $userdata[$indice_user_passwd])
-			{
-				$usergroups = split(',',$userdata[$indice_user_groups]);
-			}
-			else
-			{
-				sleep(1);
-				die('Password errata!');
-			}
-		}
-		
-	}
-	if (!$user_found)
-	{
-		die('Utente inesistente!');
-	}
-}
-else
-{
-	$user = 'guest';	// utente di default
-	$usergroups = array('guests'); // gruppo dell'utente di default
-}
-
-
-# carica i dati relativi a tutte le edizioni, che devono essere disponibili per i moduli nelle colonne sinistra e destra
-$archivio = load_data($filename_tempi,$num_colonne_prestazioni);
-
-
-require_once('layout.php');	// funzioni necessarie a stampare i layout
-
-?>
-
 
 <script type="text/javascript">
 <!-- 
@@ -101,38 +67,15 @@ selezioni di qualsiasi campo select all'interno del documento.
 		}
 	}
 }
-
-function valida(pform,tipo,check_null)
-{
-// serve a prendere il valore selezionato nella droplist, e ad inviarlo tramite il form alla relativa pagina
-
-	var valore = "";
-
-	if (tipo == 'anno') // tipo='anno'
-	{
-	  valore = pform.anno.value;
-	}
-	else // tipo='nome'
-	{
-		if (tipo == 'id_nome')
-		{
-			valore = pform.id_nome.value;
-		}
-	}
-
-	if (valore  != "0")
-	{
-	  pform.submit();
-	}
-	else if (check_null == 1)
-	{
-	  alert("Devi scegliere prima!")
-	}
-}
-
 //-->
 </script>
 
+
+<?php
+
+require_once('layout.php');	// funzioni necessarie a stampare i layout
+
+?>
 
 <table cellpadding="2" cellspacing="2" border="0" style="text-align: left; width: 100%;">
   <tbody>
@@ -141,7 +84,7 @@ function valida(pform,tipo,check_null)
 	  
 <?php
 # includi l'intestazione
-include("custom/templates/header.php");
+include($filename_header);
 ?>
 
       </td>

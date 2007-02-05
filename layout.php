@@ -4,18 +4,15 @@
 // variabili in input:
 //
 // $archivio 			: archivio tempi (generato da load_data())
-// $user, $usergroups		: utente connesso e relativi gruppi di appartenenza
-// $pagina				: argomento di index che specifica il tipo di pagina da visualizzare
-
+// $login			: dati utente connesso e relativi gruppi di appartenenza
+// $sezione			: argomento di index che specifica il tipo di pagina da visualizzare
+// $art_id			: argomento di index che specifica l'id dell'articolo da visualizzare
 
 // carica layout colonna sinistra
-$filename_layout_left = $config_dir.'layout_left.txt';
 $elenco_layout_left = get_config_file($filename_layout_left,6);
 
 // carica layout colonna destra
-$filename_layout_right = $config_dir.'layout_right.txt';
 $elenco_layout_right = get_config_file($filename_layout_right,6);
-
 
 //
 // carica i dati necessari ai vari moduli:
@@ -37,13 +34,95 @@ foreach ($elenco_layout_right['elenco_moduli'] as $proprieta_modulo)
 }
 unset($elenco_layout_right['elenco_moduli']);
 
+// aggiungi eventuali script
+$flag_script_Login = 0;
+$flag_script_droplist_XXX = 0;
+foreach (array_merge($elenco_layout_left,$elenco_layout_right) as $nome_modulo => $dati_modulo)
+{
+	// gestisci blocchi
+	switch ($nome_modulo)
+	{
+	case 'Login':
+		if (!$flag_script_Login)
+		{
+			echo "<script type=\"text/javaScript\" src=\"".$site_abs_path."admin/md5.js\"></script>\n";
+			$flag_script_Login = 1;
+		}
+		break; // Login
+		
+	default:
+		//
+	}
+	
+	// gestisci sottoblocchi
+	foreach ($dati_modulo as $item_data)
+	{
+		//echo $item_data[$indice_layout_name]."<br>\n";
+		switch ($item_data[$indice_layout_name])
+		{
+		case 'droplist_atleti':
+		case 'droplist_edizioni':
+			if (!$flag_script_droplist_XXX)
+			{
+?>
+
+<script type="text/javascript">
+<!-- 
+
+function valida(pform,tipo,check_null)
+{
+// serve a prendere il valore selezionato nella droplist, e ad inviarlo tramite il form alla relativa pagina
+
+	var valore = "";
+
+	if (tipo == 'anno') // tipo='anno'
+	{
+	  valore = pform.anno.value;
+	}
+	else // tipo='nome'
+	{
+		if (tipo == 'id_nome')
+		{
+			valore = pform.id_nome.value;
+		}
+	}
+
+	if (valore  != "0")
+	{
+	  pform.submit();
+	}
+	else if (check_null == 1)
+	{
+	  alert("Devi scegliere prima!")
+	}
+}
+
+//-->
+</script>
+
+<?php
+				$flag_script_droplist_XXX = 1;
+			} // if !$flag_script_droplist_XXX
+			break; // droplist_XXX
+			
+		default:
+			//
+		}
+		
+	}
+}
+
+
+$layout_data['sezione'] = $sezione; // sezione;
+
 $layout_data['archivio'] = $archivio; // archivio tempi;
 
-$layout_data['user'] = array('user'=>$user,'usergroups'=>$usergroups); // utente;
+//$layout_data['user'] = array('user'=>$username,'usergroups'=>$usergroups,'status'=>$login['status']); // utente;
+$layout_data['user'] = $login; // utente;
 
-// Link::
+// Links::
 $link_list = get_link_list($filename_links); 
-$layout_data['Link'] = $link_list;
+$layout_data['Links'] = $link_list;
 
 // ultime_edizioni::
 // edizioni disponibili
@@ -58,8 +137,12 @@ $elenco_foto = get_config_file($filename_albums,4);
 $layout_data['ultime_edizioni'] = array('elenco_anni'=>$elenco_anni,'elenco_foto'=>$elenco_foto);
 
 // Articoli::
-$elenco_articoli = get_online_articles($article_online_file); // carica l'elenco degli articoli da pubblicare
-$layout_data['Articoli'] = array('elenco_articoli'=>$elenco_articoli,'tipo_pagina'=>$pagina);
+$art_file_data 	= get_articles_path($sezione);
+$path_articles 	= $art_file_data["path_articles"];	// cartella contenente gli articoli
+$online_file 	= $art_file_data["online_file"];	// file contenente l'elenco degli articoli online
+$elenco_articoli 	= get_online_articles($online_file); 	// carica l'elenco degli articoli da pubblicare
+$articolo_corrente 	= $art_id;				// (eventuale) id dell'articolo visualizzato da solo
+$layout_data['Articoli']= array('elenco_articoli'=>$elenco_articoli,'tipo_pagina'=>$sezione,'articolo_corrente'=>$articolo_corrente);
 
 // droplist_edizioni::
 $layout_data['droplist_edizioni'] = $elenco_anni; // edizioni disponibili (gia' caricate per il modulo ultime_edizioni)
@@ -105,7 +188,7 @@ function is_visible_layout_block($layout_block,&$layout_data,$nome_layout)
 	
 	switch ($layout_block)
 	{
-	case 'Link':
+	case 'Links':
 		if (count($layout_data[$layout_block])==0) // se non ci sono link da mostrare, e' inutile il riquadro dei link
 		{
 			return false;
@@ -138,14 +221,15 @@ $list_tempi_page = array('albo_d_oro' => 'filtro7.php','classifica_MF' => 'filtr
 	'classifica_F' => 'filtro10.php','classifica_partecipazioni' => 'filtro11.php',
 	'grafico_tempi'=>'filtro8.php','archivio_storico'=>'filtro6.php');
 
-$item_name = $layout_item[$indice_layout_name];
-$item_caption = $layout_item[$indice_layout_caption];
-$item_type = $layout_item[$indice_layout_type];
-$item_data = $layout_item[$indice_layout_data];
-$item_disabled = $layout_item[$indice_layout_msg_disabled];
+$item_name 	= $layout_item[$indice_layout_name];
+$item_caption 	= $layout_item[$indice_layout_caption];
+$item_type 	= $layout_item[$indice_layout_type];
+$item_data 	= $layout_item[$indice_layout_data];
+$item_disabled 	= $layout_item[$indice_layout_msg_disabled];
 $item_enabled_groups = split(',',$layout_item[$indice_layout_enabled_groups]);
 
-$usergroups = $layout_data['user']['usergroups'];
+$usergroups 	= $layout_data['user']['usergroups'];
+$sezione 	= $layout_data['sezione'];
 
 if (!group_match($usergroups,$item_enabled_groups))
 {
@@ -161,6 +245,15 @@ if ($item_type != 'modulo')
 		$item_link = $layout_item[$indice_layout_data][0];
 		$item_name = $layout_item[$indice_layout_data][1];
 		$item_caption = $layout_item[$indice_layout_data][2];
+		break;
+	case 'external_link':
+		$item_link = $layout_item[$indice_layout_data];
+		
+		// nel file di configurazione &amp; viene sostituito da "&", ma nella pagina html ci vuole "&amp;" per validare come W3C
+		$item_link = str_replace("&","&amp;",$item_link);
+		
+		$item_name = $layout_item[$indice_layout_name];
+		$item_caption = $layout_item[$indice_layout_caption];
 		break;
 	case 'separatore':
 		echo "<tr><td colspan=\"2\"><hr></td></tr>";
@@ -183,6 +276,10 @@ if ($item_type != 'modulo')
 		break;
 	case 'modulo_custom':
 		$item_link = "custom/moduli/$item_name/$item_name.php";
+		if (!empty($sezione) & ($sezione !== 'homepage') )
+		{
+			$item_link .= "?page=$sezione";
+		}
 		$item_name = $layout_item[$indice_layout_name];
 		$item_caption = $layout_item[$indice_layout_caption];
 		
@@ -198,6 +295,7 @@ if ($item_type != 'modulo')
 		die("Modulo nel layout non riconosciuto: $item_type.");
 	}
 	
+	// se il testo e' troppo lungo, permetti di andare a capo
 	if (strlen($item_caption)>40)
 	{
 		$wrap_mode = '';
@@ -206,17 +304,28 @@ if ($item_type != 'modulo')
 	{
 		$wrap_mode = ' nowrap';
 	}
-
+	
+	// esamina i primi caratteri del testo: se inizia con il trattino, ...
+	if (substr($item_caption,0,3) === ' - ')
+	{
+		// ...se si va a capo, allinea indentando a destra
+		$stile_cella = "style=\"padding-left: 7pt; text-indent: -7pt;\"";
+	}
+	else
+	{
+		$stile_cella = "";
+	}
+	
 	// inizio codice html:
 	echo "\t\t\t<!-- inizio sottoblocco $item_name -->\n";
-
+	
 	if ($item_disabled == '')
 	{
 		// sottoblocco abilitato
 ?>
 			<tr style="vertical-align: baseline">
 				<td>&#8250;&nbsp;</td>
-				<td<?php echo $wrap_mode; ?>>
+				<td align="left" width="100%" <?php echo $wrap_mode; ?> <?php echo $stile_cella; ?>>
 					<a href="<?php echo $item_link ?>" name="<?php echo $item_name ?>" class="txt_link"><?php echo $item_caption ?></a>
 				</td>
 			</tr>
@@ -358,8 +467,22 @@ extract(indici());
 
 echo "\t<!-- inizio blocco $layout_block -->\n";
 
-switch ($layout_block)
+$layout_type = $layout_block;
+if (strpos($layout_type,"Delimitazione")===0)
 {
+	$layout_type = "Delimitazione";
+}
+
+switch ($layout_type)
+{
+case 'Delimitazione':
+?>
+	</tbody></table>
+	<br style="line-height: 5px;">
+	<table class="frame_delimiter" width="100%"><tbody>
+<?php
+	break;
+	
 case 'Amministrazione':
 	echo "\t<tr><td><table class=\"column_group\"><tbody>\n\n";
 	
@@ -372,13 +495,12 @@ case 'Amministrazione':
 
 case 'Utente':
 	// dati esterni
-	$user = $layout_data['user']['user'];
+	$user = $layout_data['user']['username'];
 	$usergroups = $layout_data['user']['usergroups'];
-
 ?>
 	<tr><td><table class="column_group"><tbody>
 			<tr><td colspan="2">
-				<span class="titolo_colonna">Spazio utente:</span>
+				<span class="titolo_colonna">Spazio utente</span>
 			</td></tr>
 			<tr style="vertical-align: baseline">
 				<td>&nbsp;</td>
@@ -409,7 +531,7 @@ echo $user_msg;
 			</tr>
 			
 <?php
-		$layout_item_array = array("index.php","logout","Logout");
+		$layout_item_array = array("index.php?login_action=logout","logout","Logout");
 		$virtual_item = array($indice_layout_type => "raw",$indice_layout_data => $layout_item_array);
 		show_layout_block_item($layout_block,$virtual_item,$layout_data);
 ?>
@@ -420,29 +542,91 @@ echo $user_msg;
 
 case 'Login':
 	// dati esterni
-	$user = $layout_data['user']['user'];
+	$username = $layout_data['user']['username'];
 	$usergroups = $layout_data['user']['usergroups'];
+	$login_status = $layout_data['user']['status'];
 
+	$challenge = '';
+	$challenge_id = '';
+	get_challenge($challenge_id,$challenge);
 ?>
+
 	<tr><td><table class="column_group"><tbody>
 			<tr><td colspan="2">
-				<span class="titolo_colonna">Registrati:</span>
+				<span class="titolo_colonna">Login</span>
 			</td></tr>
 			<tr style="vertical-align: baseline">
 				<td>&nbsp;</td>
 				<td width="100%">
 					<div class="txt_link">
-					<form action="index.php" method="get">
-						User:<input name="user" type="edit"><br>
-						Password:<input name="userpass" type="passwd">
-						<button type="submit">Vai</button>
-					</form>
+						
+<?php
+if (($username === 'guest') | (!in_array($login_status,array('none','ok_form','ok_cookie'))))
+{
+
+	if (!in_array($login_status,array('none','ok_form','ok_cookie')))
+	{
+		$login_msg = "";
+		switch ($login_status)
+		{
+		case 'none':
+		case 'ok_form':
+		case 'ok_cookie':
+			// non visualizza niente
+			break;
+			
+		case 'error_wrong_username':
+			$login_msg = "Username errato!";
+			break;
+			
+		case 'error_wrong_userpass':
+			$login_msg = "Password errata!";
+			break;
+			
+		case 'error_wrong_challenge':
+		case 'error_wrong_IP':
+			die("Problemi! Contattare l'amministratore!");
+			break;
+			
+		default:
+			die('Todo: messaggio sconosciuto!');
+		}
+		echo "<div align=\"center\"><i>$login_msg</i></div><br>";
+	}
+?>
+						<form action="index.php" method="post" onSubmit="cripta_campo_del_form_con_challenge(this,'userpass','<?php echo $challenge ?>')">
+							
+							user:<br><input name="username" type="text" />
+							<br>
+							password:<br><input name="userpass" type="password" />
+							<br>
+							<input name="action" type="hidden" value="login" />
+							<input name="challenge" type="hidden" value="<?php echo $challenge ?>" />
+							<input name="challenge_id" type="hidden" value="<?php echo $challenge_id ?>" />
+							<input type="submit" value="Login" />
+						</form>
+						
+						<!--form action="index.php" method="post">
+							<input name="action" type="hidden" value="logout" />
+							<input type="submit" value="Logout" />
+						</form-->
+						
 					</div>
 				</td>
 			</tr>	
 	</tbody></table></td></tr>
 <?php
-	
+	} // end visualizzazione form login
+	else
+	{
+?>
+						<form action="index.php" method="post">
+							<input name="action" type="hidden" value="logout" />
+							<input type="submit" value="Logout" />
+						</form>
+
+<?php
+	}
 	break;
 
 default:
@@ -451,7 +635,7 @@ default:
 	<tr><td>
 	  <table class="column_group"><tbody><tr><td>
 	  
-		<span class="titolo_colonna"><?php echo $layout_block; ?>:</span>
+		<span class="titolo_colonna"><?php echo $layout_block; ?></span>
 		 <table cellpadding="0" cellspacing="0">
 		  <tbody>
 		  
@@ -460,24 +644,38 @@ default:
 		{
 		case "Articoli":
 			// dati esterni:
-			$elenco_articoli = $layout_data[$layout_block]['elenco_articoli']; // elenco articoli disponibili
+			$elenco_articoli 	= $layout_data[$layout_block]['elenco_articoli']; // elenco articoli disponibili
+			$sezione 		= $layout_data[$layout_block]['tipo_pagina']; // sezione degli articoli
+			$articolo_corrente	= $layout_data[$layout_block]['articolo_corrente']; // (eventuale) articolo visualizzato da solo
 			
 			$layout_item_array = array("index.php","homepage","Torna alla homepage");
 			$virtual_item = array($indice_layout_type => "raw",$indice_layout_data => $layout_item_array);
 			show_layout_block_item($layout_block,$virtual_item,$layout_data);
 			
+			if ( ($sezione !== 'homepage') & (!empty($articolo_corrente)) )
+			{
+				$layout_item_array = array("index.php?page=$sezione","sez_$sezione","Torna alla sezione &quot;$sezione&quot;");
+				$virtual_item = array($indice_layout_type => "raw",$indice_layout_data => $layout_item_array);
+				show_layout_block_item($layout_block,$virtual_item,$layout_data);
+			}
+			
 			for ($i = 0; $i < count($elenco_articoli); $i++)
 			{
 				$id = $elenco_articoli[$i];
-				$art_data = load_article($id); // carica l'articolo
+				$art_data = load_article($id,$sezione); // carica l'articolo
 				
-				$layout_item_array = array("index.php?page=articolo&amp;art_id=$id","articolo_$id","&nbsp;-&nbsp;".$art_data['titolo']);
+$stile_riga = "padding-left: 10pt; text-indent: -10pt;";
+// $link_riga = "&nbsp;-&nbsp;".$art_data['titolo'];
+$link_riga = " - ".$art_data['titolo'];
+// die('layout.php: todo!');
+
+				$layout_item_array = array("index.php?page=$sezione&amp;art_id=$id","articolo_$id",$link_riga,$stile_riga);
 				$virtual_item = array($indice_layout_type => "raw",$indice_layout_data => $layout_item_array);
 				show_layout_block_item($layout_block,$virtual_item,$layout_data);
 			} // end for  
 			break;
 			
-		case 'Link':
+		case 'Links':
 			$link_list = $layout_data[$layout_block];
 			for ($i = 0; $i < count($link_list); $i++)
 			{ 

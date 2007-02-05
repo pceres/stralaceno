@@ -1,7 +1,8 @@
 /* Css per http://stralaceno.cjb.net - Media Screen -  Pasquale Ceres */
 
-	/*color:rgb(51,102,153);	blu ufficiale */
-	/*color:rgb(255,102,0);		arancione ufficiale */
+	/*color:rgb(51,102,153);	blu ufficiale 		*/
+	/*color:rgb(255,102,0);		arancione ufficiale 	*/
+	/*color:#FFF6F0;		sfondo di default	*/
 
 
 
@@ -9,7 +10,7 @@
 
 body {
 	color:rgb(34,68,102);
-	background:#FFF6F0;
+	background:#FFF6F0;	/* sfondo di default per le pagine generiche	*/
 	font-family:Arial,Tahoma,Verdana,Serif;	
 	}
 
@@ -70,7 +71,7 @@ table.column_group {
 	border:0px;
 	margin:0px;
 	padding:0.4em;
-	background:#FFEFE5;
+	background:#FFEFE5;	/* sfondo colonne sinistra e destra */
 	}
 
 /* appartengono alla classe titolo_colonna tutti i titoli nelle colonne laterali */
@@ -92,7 +93,7 @@ a.txt_link:hover {
 /* link e testo nelle colonne laterali */
 .txt_link, .txt_normal {
 	font-family:Arial,Tahoma,Verdana,Serif;
-    font-size:0.75em;
+	font-size:0.75em;
 	color:rgb(51,102,153);
 	}
 
@@ -102,8 +103,8 @@ table.article_group {
 	border:0px;
 	margin:0px;
 	padding:0.4em;
-	background:#FFF6F0;
-	width:100%; /* l'articolo occupa tutta la larghezza consentita*/
+	background:#FFF6F0;	/* sfondo articoli colonna centrale */
+	width:100%;		/* l'articolo occupa tutta la larghezza consentita*/
 	}
 
 /* appartengono alla classe titolo_articolo tutti i titoli degli articoli */
@@ -116,7 +117,7 @@ table.article_group H3 {
 
 .txt_articolo { 
 	font-family:Arial,Tahoma,Verdana,Serif;
-    font-size:0.75em;
+	font-size:0.75em;
 	color:rgb(51,102,153);
 	}
 
@@ -142,13 +143,18 @@ table.tabella {
 	margin:0px;
 	padding:0px;
 	color:rgb(51,102,153);
-	background:#FFF6F0;
+	background:#FFF6F0;	/* sfondo tabelle dati */
 	font-family:Arial,Tahoma,Verdana,Serif;	
 	font-size:1.2em;
 	}
 
 table.tabella a {
 	color:rgb(51,102,153);
+	text-decoration: none;
+	}
+
+table.tabella a:hover {
+	text-decoration: underline;
 	}
 
 table.tabella tr {
@@ -174,7 +180,7 @@ table.tabella table td {
 
 table.tabella table thead {
 	border-collapse:separate;
-	background-color:rgb(255, 255, 200);
+	background-color:rgb(255, 255, 200);	/* sfondo header tabelle dati */
 	height:1.2em;
 	}
 
@@ -235,7 +241,7 @@ div.tabella_organizzatori {
 
 body.admin {
 	color:rgb(34,68,102);
-	background:#FFF6F0;
+	background:#FFF6F0;	/* sfondo pagine amministrative */
 	font-family:Arial,Tahoma,Verdana,Serif;	
 	font-size:1.2em;
 	}
@@ -266,3 +272,122 @@ table.admin thead th {
 	border:1px solid rgb(170, 170, 170);
 	}
 
+
+/*---------------------------  Tabelle statistiche -------------------------------------- */
+/* generici */
+p,
+form {
+	margin: 0px;
+}
+
+/* titoli */
+p.title {
+	margin: 20px auto 0px auto;
+	border-bottom: 2px rgb(255,128,0) solid;
+	border-left: 10px rgb(255,128,0) solid;
+	padding: 1px 10px;
+	background-color: rgb(245,245,245);
+	font-family: Verdana;
+	font-size: 17px;
+	color: rgb(60,60,80);
+}
+
+/* titoli evidenziati */
+p.title span.hi {
+	padding: 0px 2px;
+	color: rgb(50,100,140);
+}
+
+/* grafici */
+table.graph {
+	width: 100%;
+	height: auto;
+	margin: 20px auto;
+	table-layout: fixed;
+}
+
+table.graph td.item,
+table.graph td.chart,
+table.graph td.percentage {
+	border-bottom: 1px rgb(245,245,245) solid;
+	padding: 1px 3px;
+	background-color: transparent;
+	font-family: "Courier New";
+	font-size: 12px;
+	color: rgb(0,0,20);
+}
+
+table.graph * td.bar {
+	width: auto;
+	height: auto;
+	border-top: 5px rgb(255,255,255) solid;
+	border-bottom: 3px rgb(255,255,255) solid;
+	background-color: rgb(200,0,0);
+}
+
+
+/*---------------------------  Forums -------------------------------------- */
+
+/*.TSfondoScuro {
+	background-color: #96bcdf;
+}*/
+
+.TSfondoMedio {
+	background-color: #B0CDE7;
+}
+
+.TSfondoChiaro {
+	background-color: #D0E4F6;
+}
+
+.Small {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #6D6D95;
+	font-weight: normal;
+}
+
+/* link nella lista dei forum e dei topic */
+.s_link {
+	color: #5F5F82;
+	text-decoration: underline;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.0em;
+	font-weight: bold;
+}
+
+.s_link:active,
+.s_link:hover {
+	color: #FF6600;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.0em;
+	font-weight: bold;
+}
+
+table.tabella_forum {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.7em;
+}
+
+.titoloBlu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #FFFFFF;
+	font-weight: bold;
+	background-color: #96BCDF;
+	text-align: left;
+}
+
+/* link chiaro su sfondo scuro: header tabella forum */
+.sfondoscuro {
+	font-size: 0.8em;
+	color: #FFFFFF
+}
+
+a.sfondoscuro:link,
+a.sfondoscuro:hover,
+a.sfondoscuro:active,
+a.sfondoscuro:visited {
+	color: #FFFFFF;
+	text-decoration: underline;
+}

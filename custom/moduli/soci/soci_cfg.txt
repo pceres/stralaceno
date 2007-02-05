@@ -1,0 +1,23 @@
+#
+# ARS Amatori Running Sele
+#
+
+#
+# formato elenco_soci:  nominativo::email::data_iscrizione::tipo_socio::carica::id_foto::album::note
+#
+# tipo_socio         : "socio fondatore" oppure "socio ordinario"
+# carica             : "Presidente ARS", "Vice Presidente ARS" oppure "Segretario Amministrativo"
+# id_photo e album   : sono nell'ultima parte dell'indirizzo mostrato nel browser quando si visualizza una foto. La foto deve appartenere ad un album.
+# note               : formato libero, si puo' mettere qualsiasi cosa
+#
+[elenco_soci]
+socio::email::data_iscrizione::tipo_socio::carica::::::note
+
+#
+# formato elenco_news:  data::news
+#
+[elenco_news]
+05/02/2007::notizia
+
+
+
