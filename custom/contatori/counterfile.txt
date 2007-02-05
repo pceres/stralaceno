@@ -1,7 +1,7 @@
 admin_index:1
 admin_articoli:1
 classifica_partecipazioni:3
-classifica_anno:2
 albo_d_oro:4
-classifica_generale_MF:1
 homepage:17
+classifica_anno:3
+classifica_generale_MF:2
