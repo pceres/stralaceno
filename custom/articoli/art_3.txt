@@ -1,0 +1,10 @@
+Autore::Pasquale Ceres
+Titolo::Edizione 2006
+--- Begin body ---
+  <p>Ho finalmente inserito i dati dell'edizione 2006 della &quot;10 km di Nusco&quot;, che si &egrave; tenuta il 6 agosto sotto la pioggia.<br>
+<br>
+Come di consueto, anche quest'anno una discreta pattuglia di atleti Caposelesi ha partecipato alla gara, primo tra loro si &egrave; piazzato Gelsomino Merola, che ha percorso i 10 km del percorso in 40'05''.<br>
+Per una cronaca della gara, e per consultare un album fotografico dell'evento, vi rimando al 
+<a href="http://web.tiscali.it/nusco58enrico/riquadro2.html">sito ufficiale della gara</a>.<br>
+Da questa pagina potete invece consultare una serie di classifiche ed analisi statistiche: buon divertimento!
+--- End body ---
