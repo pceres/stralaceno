@@ -1,4 +1,4 @@
-# File di configurazione della colonna sinistra della homepage
+# File di configurazione della colonna destra della homepage
 # 
 # nome_modulo::caption::tipo_elemento::dati::disabled_message::gruppo_abilitato1,...,gruppo_abilitaton
 #
