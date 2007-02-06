@@ -1,6 +1,6 @@
 # File di configurazione della colonna sinistra della homepage
 # 
-# nome_modulo::caption::tipo_elemento::dati::disabled_message
+# nome_modulo::caption::tipo_elemento::dati::disabled_message::gruppo_abilitato1,...,gruppo_abilitaton
 #
 # Ogni riga che inizia con # viene ignorata.
 #
@@ -41,11 +41,12 @@
 #
 # nome_blocco::gruppo_abilitato1,gruppo_abilitato2,...,gruppo_abilitaton
 #
-# gruppo_abilitato e' il gruppo abilitato a vedere il blocco in questione. Un campo vuoto indica che il blocco e' 
-# visibile a tutti. I valori ammessi per gruppo_abilitatox sono:
+# gruppo_abilitato e' il gruppo abilitato a vedere il blocco o sottoblocco in questione. Un campo vuoto indica che 
+# il blocco e' visibile a tutti. I valori ammessi per gruppo_abilitatox sono:
 #	guests : utente generico non registrato
 #	users  : utente generico registrato
 #	admin  : gruppo degli amministratori del sito
+#	nobody : gruppo inesistente, il modulo non sara' visualizzato
 #
 #
 
