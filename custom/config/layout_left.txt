@@ -36,8 +36,8 @@
 #
 #
 #
-# il blocco [elenco_moduli] e' speciale, e contiene una serie di proprieta' relative ai blocchi che costituiscono 
-# il layout. Il formato delle righe di [elenco_moduli] e' il seguente:
+# il blocco [elenco_moduli] e' speciale, e contiene una serie di proprieta' relative ai blocchi (non e' necessario 
+# ci siano tutti) che costituiscono il layout. Il formato delle righe di [elenco_moduli] e' il seguente:
 #
 # nome_blocco::gruppo_abilitato1,gruppo_abilitato2,...,gruppo_abilitaton
 #
