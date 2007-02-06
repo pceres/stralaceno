@@ -4,13 +4,20 @@ abilita_stima_foto_mancante = 0; % [0,1] a partire da album, id_photo e data pro
 
 nomefile = 'logfile.txt';
 backupfile = 'backupfile*.txt';
-% root_path='d:/stralaceno/online_2006_01_17/'; % path della radice del sito
-root_path='/var/www/htdocs/work/ars/'; % path della radice del sito
+
+% path della radice del sito
+% root_path='/var/www/htdocs/work/stralaceno2/';
+root_path='/var/www/htdocs/work/ars/';
 
 % archivio foto cancellate
+% deleted_photos_path = '/mnt/win_d/stralaceno/statistiche/archivio_foto_cancellate/';
 deleted_photos_path = '/mnt/win_d/stralaceno/statistiche_ars/archivio_foto_cancellate/';
 
 % elenco date notevoli
+% date_notevoli = {...
+% 'Stralaceno 2005',	'2 september 2005'	;...
+% 'Stralaceno 2006',	'30 august 2006'	;...
+% };
 date_notevoli = {...
 'fine giocate sondaggio mondiali 2006'		,'8 june 2006'		;...
 'fine sondaggio mondiali 2006'			,'11 july 2006'		;...
