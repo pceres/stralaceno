@@ -1,4 +1,4 @@
-# File di configurazione della colonna destra della homepage
+# File di configurazione della colonna sinistra della homepage
 # 
 # nome_modulo::caption::tipo_elemento::dati::disabled_message::gruppo_abilitato1,...,gruppo_abilitaton
 #
@@ -7,7 +7,8 @@
 # I nomi speciali di blocco sono:
 #	[Articoli] 		: visualizza tutto l'elenco degli articoli, 
 #				  se si sta visualizzando un solo articolo in colonna centrale
-#	[Link] 			: visualizza i link impostati in links.txt dall'interfaccia amministrativa
+#	[Links] 		: visualizza i link impostati in links.txt dall'interfaccia amministrativa
+#	[Delimitazione_x]	: separa i blocchi chiudendo e riaprendo il riquadro (x e' un numero progressivo)
 #
 # I valori consentiti per tipo_elemento sono:
 #	tempi			: pagina che si appoggia al database dei tempi. I valori consentiti per 
@@ -35,8 +36,8 @@
 #
 #
 #
-# il blocco [elenco_moduli] e' speciale, e contiene una serie di proprieta' relative ai blocchi che costituiscono 
-# il layout. Il formato delle righe di [elenco_moduli] e' il seguente:
+# il blocco [elenco_moduli] e' speciale, e contiene una serie di proprieta' relative ai blocchi (non e' necessario 
+# ci siano tutti) che costituiscono il layout. Il formato delle righe di [elenco_moduli] e' il seguente:
 #
 # nome_blocco::gruppo_abilitato1,gruppo_abilitato2,...,gruppo_abilitaton
 #
