@@ -7,7 +7,8 @@
 # I nomi speciali di blocco sono:
 #	[Articoli] 		: visualizza tutto l'elenco degli articoli, 
 #				  se si sta visualizzando un solo articolo in colonna centrale
-#	[Link] 			: visualizza i link impostati in links.txt dall'interfaccia amministrativa
+#	[Links] 		: visualizza i link impostati in links.txt dall'interfaccia amministrativa
+#	[Delimitazione_x]	: separa i blocchi chiudendo e riaprendo il riquadro (x e' un numero progressivo)
 #
 # I valori consentiti per tipo_elemento sono:
 #	tempi			: pagina che si appoggia al database dei tempi. I valori consentiti per 
