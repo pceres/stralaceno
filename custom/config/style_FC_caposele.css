@@ -48,7 +48,23 @@ a.disabled:hover {
 .header_link:hover {
 	text-decoration: underline;
 	}
-	
+
+
+/*---------------------------   Layout   -------------------------------------- */
+td.left_column {
+	width:15%;
+	vertical-align:top;
+}
+
+td.middle_column {
+	width:70%;
+	vertical-align:top;
+}
+
+td.right_column {
+	width:15%;
+	vertical-align:top;
+}
 
 /*---------------------------  Homepage  -------------------------------------- */
 
@@ -62,8 +78,9 @@ table.frame_delimiter {
 	padding:0px;
 	border:1px solid #336699;
 	text-align:center;
+	width:100%;
 	}
-	
+
 /* tabella dei gruppi all'interno delle colonne sinistra e destra*/
 table.column_group {
 	text-align: left;
@@ -71,7 +88,7 @@ table.column_group {
 	border:0px;
 	margin:0px;
 	padding:0.4em;
-	background:#EEFFFF;	/* sfondo articoli colonna centrale */
+	background:#EEFFFF;	/* sfondo colonne sinistra e destra */
 	}
 
 /* appartengono alla classe titolo_colonna tutti i titoli nelle colonne laterali */
