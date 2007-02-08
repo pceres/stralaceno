@@ -1,21 +1,20 @@
 <!-- 
 inizio colonna centrale
-
-variabili in input:
-$sezione	: argomento di index che specifica il tipo di pagina da visualizzare
-$art_id		: argomento di index che specifica l'id dell'articolo da visualizzare
-
 -->
 <?php
+// variabili in input:
+// $sezione	: argomento di index che specifica il tipo di pagina da visualizzare
+// $art_id		: argomento di index che specifica l'id dell'articolo da visualizzare
+	
 	
 	// se non specificato diversamente, la pagina richiesta e' la homepage
 	if (empty($sezione))
 	{
 		$sezione = 'homepage';
 	}
-	
+
 ?>
-<table class="frame_delimiter" width="100%"><tbody>	
+<table class="frame_delimiter"><tbody>
 
 <?php
 	// individua la cartella relativa alla sezione scelta

@@ -7,7 +7,7 @@ if (!empty($elenco_layout_left))
 inizio colonna sinistra
 -->
 
-<table class="frame_delimiter"><tbody>	
+<table class="frame_delimiter"><tbody>
 
 <?php 
 

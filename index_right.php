@@ -3,12 +3,12 @@
 if (!empty($elenco_layout_right))
 {
 ?>
-<!-- 
+<!--
 inizio colonna destra
 -->
 
-<table class="frame_delimiter"><tbody>	
-	   
+<table class="frame_delimiter"><tbody>
+
 <?php
 
 //
@@ -23,7 +23,7 @@ foreach($elenco_layout_right as $riquadro => $list_items)
 } // foreach $elenco_layout
 
 ?>
-	   
+
 </tbody></table>
 
 	<div align="right" class="txt_normal"><i>
