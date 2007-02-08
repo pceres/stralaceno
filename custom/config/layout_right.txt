@@ -51,19 +51,24 @@
 #
 
 [elenco_moduli]
+Sezioni::
+Pagine in preparazione::users
+Bacheca ARS::soci_ars
 Approfondimenti::
 Amministrazione::admin,soci_ars
 Utente::users
-Bacheca ARS::soci_ars
 Login::guests
-Pagine in preparazione::users
 
 #
 # da qui sotto inizia il layout vero e proprio
 #
 
+[Sezioni]
+sezione_homepage::Homepage::external_link::index.php?page=homepage::
+sezione_FC_caposele::<b>F.C. Caposele</b>::external_link::index.php?page=FC_caposele::
+sezione_ciclismo::Ciclismo::external_link::index.php?page=ciclismo::
+
 [Pagine in preparazione]
-sezione_FC_caposele::FC Caposele::external_link::index.php?page=FC_caposele::
 classifica_campionato::Classifica III categoria::modulo_custom::::
 statistiche_champions_06_07::Statistiche sondaggio Champions 06/07::external_link::statistiche.php?action=show&id_questions=2::
 
@@ -73,13 +78,14 @@ link_forum_riservato_ARS::Forum riservato ai soci ARS::external_link::forum.php?
 rendiconto_2005_ARS::Rendiconto e relazione ARS 2005::external_link::custom/moduli/organizzatori/Rendiconto_e_Relazione_anno_2005_ARS.pdf
 
 [Approfondimenti]
-sondaggio_champions_2007::<b>Sondaggio Champions 06/07</b>::external_link::http:questions.php?id_questions=2
-sondaggio_champions_2007_giocate::<b>Giocate Sondaggio Champions 06/07</b>::external_link::http:questions.php?id_questions=2&action=results
-sezione_ciclismo::Ciclismo::external_link::index.php?page=ciclismo::
+sondaggio_champions_2007::Sondaggio Champions 06/07::external_link::http:questions.php?id_questions=2
+sondaggio_champions_2007_giocate::Giocate Sondaggio Champions 06/07::external_link::http:questions.php?id_questions=2&action=results
+#sezione_FC_caposele::<b>F.C. Caposele</b>::external_link::index.php?page=FC_caposele::
+#sezione_ciclismo::Ciclismo::external_link::index.php?page=ciclismo::
 siti_amici::Caposele sul Web::modulo_custom::::
 flash_news::News ARS::modulo_custom::::
 link_forum_ArsWeb::Forum::external_link::forum.php?action=list_topics&data=0::::
-archivio::<b>Archivio album e articoli</b>::modulo_custom::::
+archivio::Archivio album e articoli::modulo_custom::::
 
 [Amministrazione]
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Amministrazione] non prevede sottoelementi
