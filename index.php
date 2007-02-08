@@ -93,8 +93,9 @@ include($filename_header);
       <td style="vertical-align: top;">
       <table cellpadding="2" cellspacing="2" border="0" style="text-align: left; width: 100%;">
         <tbody>
+
           <tr>
-            <td style="vertical-align: top;">
+            <td class="left_column">
 			
 <?php
 # includi la barra a sinistra
@@ -102,23 +103,24 @@ include("index_left.php");
 ?>
 
             </td>
-            <td style="vertical-align: top;">
+            <td class="middle_column">
 			
 <?php
 # includi il corpo centrale
-include("index_middle.php")	  
+include("index_middle.php")
 ?>
 
             </td>
-            <td style="vertical-align: top;">
+            <td class="right_column">
 			
 <?php
 # includi la barra a destra
-include("index_right.php")	  
+include("index_right.php")
 ?>
 
             </td>
           </tr>
+
         </tbody>
       </table>
       </td>
