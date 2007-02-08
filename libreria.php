@@ -1060,9 +1060,14 @@ $no_close_tags = array("p","br","?php","img"); // array di tags che non richiedo
 	$inside_comment = 0;
 	foreach ($testo_in as $id_line => $line)
 	{
+		// commenti su una sola riga: li elimino
+		if (ereg("<!--[^-]*-->",$line))
+		{
+			$line = ereg_replace("<!--.*-->","",$line);
+		}
 		
 		// gestione commenti su piu' righe: devono iniziare con una riga con "<!..", e devono finire con una riga con "-->"
-		if (ereg("^<!--",$line) )
+		if (ereg("^<!--",$line))
 		{
 			$inside_comment = 1;	// da questa riga inizia un commento HTML: scarta le righe finche' una inizia con "-->"
 			continue;
@@ -1164,15 +1169,14 @@ function show_article($art_data,$mode,$link)
 {
 	// $mode=('full','abstract')
 	// $link : usato in modo 'abstract', e' il link cui devono puntare i puntini alla fine dell'articolo
-
-	$abstract_lines = 3; // numero di linee da pubblicare nella modalita' abstract
-
+	
+	echo "\n<!-- articolo $mode -->\n";
 	echo "<tr><td>\n";
 	echo "\t<table class=\"article_group\"><tbody><tr><td>\n";
-
+	
 	echo "		<h3>".$art_data["titolo"]."</h3>\n";
 	echo "		<div class=\"txt_articolo\">\n";
-
+	
 	if ($mode === 'abstract')
 	{
 		// abstract dell'articolo
@@ -1187,12 +1191,12 @@ function show_article($art_data,$mode,$link)
 	
 	foreach ($testo_articolo as $line)
 	{
-		echo template_to_effective($line)."\n";
+		echo template_to_effective($line);
 	}
 	
 	echo "		<div class=\"txt_firma_articolo\">".$art_data["autore"]."</div>\n";
 	echo "		</div>\n";
-
+	
 	echo "\t</td></tr></tbody></table>\n";
 	echo "</td></tr>\n\n";	
 }
