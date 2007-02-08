@@ -138,7 +138,7 @@ Risultati 10<sup>a</sup> giornata (20-21/01/2007)
 # formato titolo_classifica_NN:  titolo_classifica
 #
 [dati_classifica_visibile]
-Classifica aggiornata al 21/01/2006
+Classifica aggiornata al 21/01/2007
 
 #
 # formato classifica_NN:  posizione::squadra::punti::giocate::vinte::nulle::perse::reti_fatte::reti_subite::diff_reti::media_inglese
