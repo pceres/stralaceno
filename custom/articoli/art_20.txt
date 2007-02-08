@@ -1,0 +1,10 @@
+Autore::
+Titolo::Sezione F.C. Caposele
+--- Begin body ---
+<br>Il sito dell'Ars allarga ulteriormente i contenuti, ospitando, 
+in una apposita sezione, notizie, curiosità e statistiche relative all'attività della F.C. Caposele, 
+la squadra di calcio locale che rappresenta Caposele nel panorama calcistico irpino.
+<br><br>
+<a href="index.php?page=FC_caposele">vai alla sezione F.C. CAPOSELE</a>
+<br><br>
+--- End body ---
