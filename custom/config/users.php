@@ -25,3 +25,4 @@ gianni.sozio::7e4d797ce474328ed691f97415ad81f9::users,soci_ars
 salvatore.colatrella::4c64ba31dd74feaa56986f08e09b1768::users,soci_ars
 # non soci ARS:
 don.ger::1e8c22feeac792722fb8738f702b9ef5::admin,users
+angelo.ceres::a6e11feeaacb81c6b9843e5ce91b66de::admin,users
