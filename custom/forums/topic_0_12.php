@@ -49,6 +49,8 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 35::Alessandro::29/01/2007 10.04.44::visible
 36::Angelo::29/01/2007 12.21.04::visible
 37::Alessandro::29/01/2007 15.56.38::visible
+38::Alessandro::06/02/2007 14.21.44::visible
+39::Salvatore::06/02/2007 17.50.39::visible
 
 [post_text_0]
 Aspettiamo qui le vostre osservazioni e le vostre intenzioni di partecipazione all'allenamento podistico del 30 dicembre 2006. Ciao.
@@ -277,4 +279,14 @@ Ciao.
 
 [post_text_37]
 Al momento non sono in grado di indicarti nè il giorno nè la mia disponibilità... ciao. ale
+
+[post_text_38]
+Le cattive condizioni di salute mie e di Salvatore non ci hanno consentito di organizzare un bel allenamento lo scorso week end. Ci rifaremo alla prox occasione!
+&nbsp;
+A proposito, come vanno gli allenamenti giornalieri?
+
+[post_text_39]
+Ciao ale,proprio oggi ho ripreso ad allenarmi dopo 5 giorni di stop...sta andando tutto bene....vedremo in questo weekend se vieni cosa possiamo fare....ciao
+un saluto anche a paolo,che stranamente non si fa sentire più...sarà lo studio?saranno gli allenamenti?chi lo sa....
+&nbsp;
 

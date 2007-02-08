@@ -26,6 +26,7 @@ Formato [elenco_topics]:
 9::Discussione::open::::::Antonio::24::23
 10::ci siete?????::open::::::cabo::8::7
 11::La nuova sezione ciclismo::open::::::Donato Gervasio::5::4
-12::Allenamento Collettivo 30-12-2006::open::::::Ars::38::37
+12::Allenamento Collettivo 30-12-2006::open::::::Ars::40::39
 13::per nazòn::open::::::antonio::4::3
+14::F.C. Caposele::open::::::Ars::1::0
 
