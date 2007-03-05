@@ -180,9 +180,10 @@ question_tag_C::stat_domanda::Squadra <span class="hi">vincitrice</span>::squadr
 question_tag_F::stat_domanda::Squadra qualificata in <span class="hi">finale</span>::squadra::numero preferenze::13,14
 question_tag_S::stat_domanda::Squadra qualificata in <span class="hi">semifinale</span>::squadra::numero preferenze::9,10,11,12
 question_tag_W::stat_domanda::Squadra qualificata ai <span class="hi">quarti di finale</span>::squadra::numero preferenze::1,2,3,4,5,6,7,8
-Chelsea::stat_risposta::Posizionamento <span class="hi">Chelsea</span>::posizione in classifica::numero preferenze::Chelsea::15;13,14;9,10,11,12;1,2,3,4,5,6,7,8::Squadra vincitrice;Qualificata in finale;Qualificata in semifinale;Qualificata ai quarti di finale
-Lione::stat_risposta::Posizionamento <span class="hi">Lione</span>::posizione in classifica::numero preferenze::Lione::15;13,14;9,10,11,12;1,2,3,4,5,6,7,8::Squadra vincitrice;Qualificata in finale;Qualificata in semifinale;Qualificata ai quarti di finale
+Barcellona::stat_risposta::Posizionamento <span class="hi">Barcellona</span>::posizione in classifica::numero preferenze::Barcellona::15;13,14;9,10,11,12;1,2,3,4,5,6,7,8::Squadra vincitrice;Qualificata in finale;Qualificata in semifinale;Qualificata ai quarti di finale
 Inter::stat_risposta::Posizionamento <span class="hi">Inter</span>::posizione in classifica::numero preferenze::Inter::15;13,14;9,10,11,12;1,2,3,4,5,6,7,8::Squadra vincitrice;Qualificata in finale;Qualificata in semifinale;Qualificata ai quarti di finale
+Lione::stat_risposta::Posizionamento <span class="hi">Lione</span>::posizione in classifica::numero preferenze::Lione::15;13,14;9,10,11,12;1,2,3,4,5,6,7,8::Squadra vincitrice;Qualificata in finale;Qualificata in semifinale;Qualificata ai quarti di finale
+Chelsea::stat_risposta::Posizionamento <span class="hi">Chelsea</span>::posizione in classifica::numero preferenze::Chelsea::15;13,14;9,10,11,12;1,2,3,4,5,6,7,8::Squadra vincitrice;Qualificata in finale;Qualificata in semifinale;Qualificata ai quarti di finale
 Milan::stat_risposta::Posizionamento <span class="hi">Milan</span>::posizione in classifica::numero preferenze::Milan::15;13,14;9,10,11,12;1,2,3,4,5,6,7,8::Squadra vincitrice;Qualificata in finale;Qualificata in semifinale;Qualificata ai quarti di finale
 Roma::stat_risposta::Posizionamento <span class="hi">Roma</span>::posizione in classifica::numero preferenze::Roma::15;13,14;9,10,11,12;1,2,3,4,5,6,7,8::Squadra vincitrice;Qualificata in finale;Qualificata in semifinale;Qualificata ai quarti di finale
 
