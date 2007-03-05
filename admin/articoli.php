@@ -412,7 +412,7 @@ $art_filename = "art_$id.txt";
 	Nuovo articolo (id <?php echo $id; ?>) da caricare: <input name="userfile" type="file"><br>
 	Titolo: <input name="title" type="edit"><br>
 	Autore: <input name="author" type="edit"><br>
-	Password: <input name="password" type="password"><br>
+	<div style="display: none;">Password: <input name="password" type="password"><br></div>
 	<input type="Submit" value="Invia File" onClick="return confirm('Confermi la pubblicazione dell\'articolo?')">
 </form>
 
