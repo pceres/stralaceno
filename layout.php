@@ -117,7 +117,6 @@ $layout_data['sezione'] = $sezione; // sezione;
 
 $layout_data['archivio'] = $archivio; // archivio tempi;
 
-//$layout_data['user'] = array('user'=>$username,'usergroups'=>$usergroups,'status'=>$login['status']); // utente;
 $layout_data['user'] = $login; // utente;
 
 // Links::
@@ -179,9 +178,10 @@ function is_visible_layout_block($layout_block,&$layout_data,$nome_layout)
 	$block_property = $layout_data[$nome_layout][$layout_block];
 	
 	$enabled_groups = split(',',$block_property[0]);
+	$username = $layout_data['user']['username'];
 	$usergroups = $layout_data['user']['usergroups'];
 	
-	if (!group_match($usergroups,$enabled_groups))
+	if (!group_match($username,$usergroups,$enabled_groups))
 	{
 		return false;
 	}
@@ -228,10 +228,11 @@ $item_data 	= $layout_item[$indice_layout_data];
 $item_disabled 	= $layout_item[$indice_layout_msg_disabled];
 $item_enabled_groups = split(',',$layout_item[$indice_layout_enabled_groups]);
 
+$username 	= $layout_data['user']['username'];
 $usergroups 	= $layout_data['user']['usergroups'];
 $sezione 	= $layout_data['sezione'];
 
-if (!group_match($usergroups,$item_enabled_groups))
+if (!group_match($username,$usergroups,$item_enabled_groups))
 {
 	return false;
 }
