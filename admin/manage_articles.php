@@ -27,12 +27,13 @@ if ( !isset($_SERVER['HTTP_REFERER']) | ("http://".$_SERVER['HTTP_HOST'].$script
 $mode 		= sanitize_user_input($_REQUEST['task'],'plain_text',Array());
 $sezione 	= sanitize_user_input($_REQUEST['section'],'plain_text',Array());
 $data 		= sanitize_user_input($_REQUEST['data'],'plain_text',Array());
-$password 	= sanitize_user_input($_REQUEST['password'],'plain_text',Array());
+// $password 	= sanitize_user_input($_REQUEST['password'],'plain_text',Array());
 
 // titolo relativo alla sezione in esame
 switch ($sezione)
 {
 case '':
+	$sezione = 'homepage'; // se non specificato, la sezione di default e' 'homepage'
 case 'homepage':
 	$tag_sezione = "in prima pagina";
 	break;
@@ -55,29 +56,35 @@ default:
 
 <?php
 
-// scelta password
-switch ($sezione)
-{
-case '':
-case 'homepage':
-	$password_ok = $password_articoli;
-	break;
-case 'ciclismo':
-	$password_ok = 'f055d8b5317237d7e3e50b3c3c38667c'; // "Bartali"
-	break;
-case 'FC_caposele':
-	$password_ok = 'd5aa82c231314da451812262871076bf'; // "palumenta"
-	break;
-default:
-	die("La sezione $sezione non e' ancora gestita! Contattare l'amministratore.");
-}
+// // scelta password
+// switch ($sezione)
+// {
+// case '':
+// case 'homepage':
+// 	$password_ok = $password_articoli;
+// 	break;
+// case 'ciclismo':
+// 	$password_ok = 'f055d8b5317237d7e3e50b3c3c38667c'; // "Bartali"
+// 	break;
+// case 'FC_caposele':
+// 	$password_ok = 'd5aa82c231314da451812262871076bf'; // "palumenta"
+// 	break;
+// default:
+// 	die("La sezione $sezione non e' ancora gestita! Contattare l'amministratore.");
+// }
+// 
+// if ($password != $password_ok)
+// {
+// 	echo "<a href=\"articoli.php?section=$sezione\">Torna indietro</a><br><br>\n";
+// 	die("La password inserita non &egrave; corretta!<br>\n");
+// }
 
-if ($password != $password_ok)
+// verifica che l'utente sia autorizzato per l'operazione richiesta
+$res = check_auth('gestione_articoli',"$mode;$data;$sezione",$login['username'],$login['usergroups'],false);
+if (!$res)
 {
-	echo "<a href=\"articoli.php?section=$sezione\">Torna indietro</a><br><br>\n";
-	die("La password inserita non &egrave; corretta!<br>\n");
+	die("Mi dispiace, non sei autorizzato!");
 }
-
 
 // individua cartella relativa alla sezione indicata
 $art_file_data = get_articles_path($sezione);
