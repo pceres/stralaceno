@@ -1,4 +1,4 @@
-# File di configurazione della colonna destra della homepage
+# File di configurazione della colonna destra della sezione FC_caposele
 # 
 # nome_modulo::caption::tipo_elemento::dati::disabled_message::gruppo_abilitato1,...,gruppo_abilitaton
 #
@@ -66,6 +66,7 @@ Login::guests
 sezione_homepage::Homepage::external_link::index.php?page=homepage::
 sezione_FC_caposele::<b>F.C. Caposele</b>::external_link::index.php?page=FC_caposele::
 sezione_ciclismo::Ciclismo::external_link::index.php?page=ciclismo::
+sezione_ambiente::Ambiente e natura::external_link::index.php?page=ambiente::
 
 [Approfondimenti]
 #flash_news::News ARS::modulo_custom::::
