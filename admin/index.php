@@ -13,7 +13,6 @@ questa libreria esamina i cookies o i parametri http (eventualmente) inviati, e 
 */
 require_once('../login.php');
 
-
 // verifica che si stia arrivando a questa pagina da ../index.php (unico punto di accesso al sottodominio admin/), oppure da altre pagine in admin/
 $referer = $_SERVER['HTTP_REFERER'];
 if ( !isset($_SERVER['HTTP_REFERER']) |
@@ -37,11 +36,22 @@ if ( !isset($_SERVER['HTTP_REFERER']) |
 
 <body class="admin">
 
+<?php
+
+// verifica che l'utente sia autorizzato per l'operazione richiesta
+$res = check_auth('admin_index','',$login['username'],$login['usergroups']);
+if (!$res)
+{
+	die("Mi dispiace, non sei autorizzato!");
+}
+
+?>
+
 <script type="text/javaScript" src="<?php echo $site_abs_path ?>admin/md5.js"></script>
 
 <?php 
 // solo il root admin ha accesso qui
-if (group_match(split(',',$usergroups),array("root_admin")))
+if (group_match($username,split(',',$usergroups),array("root_admin")))
 {
 ?>
 <form action="manage_root_admin.php" method="post" onSubmit="cripta_campo_del_form(this,'password')">
