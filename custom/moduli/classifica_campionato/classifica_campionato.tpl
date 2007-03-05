@@ -44,7 +44,7 @@
 %%%% end
 
 <table class="tabella" style="font-size:13.0pt;">
-<tbody><tr><td><table>
+<tbody><tr><td align="left"><table>
 
 <tbody>
 
