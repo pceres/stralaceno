@@ -50,31 +50,48 @@ $art_file_data = get_articles_path($sezione);
 $path_articles 	= $art_file_data["path_articles"];	// cartella contenente gli articoli
 $article_online_file = $art_file_data["online_file"];	// file contenente l'elenco degli articoli online
 
-// scelta password
-switch ($sezione)
-{
-case '':
-case 'homepage':
-	$password_ok = $password_articoli;
-	break;
-case 'ciclismo':
-	$password_ok = 'f055d8b5317237d7e3e50b3c3c38667c'; // "Bartali"
-	break;
-case 'FC_caposele':
-	$password_ok = 'd5aa82c231314da451812262871076bf'; // "palumenta"
-	break;
-default:
-	die("La sezione $sezione non e' ancora gestita! Contattare l'amministratore.");
-}
+// // scelta password
+// switch ($sezione)
+// {
+// case '':
+// case 'homepage':
+// 	$password_ok = $password_articoli;
+// 	break;
+// case 'ciclismo':
+// 	$password_ok = 'f055d8b5317237d7e3e50b3c3c38667c'; // "Bartali"
+// 	break;
+// case 'FC_caposele':
+// 	$password_ok = 'd5aa82c231314da451812262871076bf'; // "palumenta"
+// 	break;
+// default:
+// 	die("La sezione $sezione non e' ancora gestita! Contattare l'amministratore.");
+// }
+// 
 
-if ($password_ok == $password) 
+
+// verifica che l'utente sia autorizzato per l'operazione richiesta
+$res = check_auth('carica_articolo',"$sezione;$id_articolo",$login['username'],$login['usergroups'],false);
+if (!$res)
 {
-	$ok = TRUE;
+	die("Mi dispiace, non sei autorizzato!");
 }
 else
 {
-	$ok = FALSE;
+	$ok = TRUE;
 }
+
+
+// if ($password_ok == $password) 
+// {
+// 	$ok = TRUE;
+// }
+// else
+// {
+// 	$ok = FALSE;
+// }
+
+
+
 
 print "<pre>";
 
