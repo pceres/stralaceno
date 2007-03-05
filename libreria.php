@@ -1524,25 +1524,27 @@ function show_template($template_path,$template_file,$sezione)
 }
 
 
-function group_match($usergroups,$enabled_groups)
+function group_match($username,$usergroups,$enabled_groups)
 {
-// $enabled_groups: array di gruppi abilitati
+// $enabled_groups: array di gruppi (o di username, precedui da @) abilitati
 // enabled_group vuoto -> abilitato
 if (empty($enabled_groups[0]))
 {
 	return true;
 }
 
+$personal_tags = array_merge("@$username",$usergroups);
+
 foreach($enabled_groups as $enabled_group)
 {
-	if (in_array($enabled_group,$usergroups))
+	if (in_array($enabled_group,$personal_tags))
 	{
 		return true;
 	}
 }
 return false;
 
-} // end function group_match($usergroups,$enabled_groups)
+} // end function group_match($username,$usergroups,$enabled_groups)
 
 
 function show_question_form($lotteria,$action,$question_action,$id_questions,$auth_token,$caption_button){
@@ -2114,7 +2116,7 @@ $contatore_out = $counter;
     $log.='::'.StripDoubleColon($HTTP_REFERER);
     $log.='::'.StripDoubleColon($HTTP_USER_AGENT);
     $log.='::'.StripDoubleColon($date);
-	$log.="::$username\r\n";
+    $log.="::$username\r\n";
 
     //append current visit to log file
     $cf = fopen($logfile, 'a');
