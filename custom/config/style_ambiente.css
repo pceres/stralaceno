@@ -1,0 +1,410 @@
+/* Css per http://ars.altervista.org - Sezione ambiente - Pasquale Ceres */
+
+	/*color:rgb(51,102,153);	blu ufficiale 		*/
+	/*color:rgb(255,102,0);		arancione ufficiale 	*/
+	/*color:#F7FFE9;		sfondo di default	*/
+
+
+
+/*-------------------  impostazioni di default  ------------------------------- */
+
+body {
+	color:rgb(34,68,102);
+	background:#F7FFE9;	/* sfondo di default per le pagine generiche	*/
+	font-family:Arial,Tahoma,Verdana,Serif;	
+	}
+
+/* tutti i link vengono sottolineati quando ci passa il mouse sopra */
+a {
+	font-family:Arial,Tahoma,Verdana,Serif;
+	color:rgb(51,102,153);
+}
+
+a:hover {
+	text-decoration: underline;
+	}
+
+/* link disabilitati */
+a.disabled {
+    font-size:0.75em;
+	font-family:Arial,Tahoma,Verdana,Serif;
+	color:rgb(153,153,153);
+}
+
+a.disabled:hover {
+	text-decoration: none;
+	}
+
+
+/*---------------------------  Header  -------------------------------------- */
+
+/* link nell'header */
+.header_link {
+	font-family:Arial,Tahoma,Verdana,Serif;
+	color:rgb(51,102,153);
+	text-decoration: none;
+	}
+
+.header_link:hover {
+	text-decoration: underline;
+	}
+
+
+/*---------------------------   Layout   -------------------------------------- */
+td.left_column {
+	width:15%;
+	vertical-align:top;
+}
+
+td.middle_column {
+	width:70%;
+	vertical-align:top;
+}
+
+td.right_column {
+	width:15%;
+	vertical-align:top;
+}
+
+/*---------------------------  Homepage  -------------------------------------- */
+
+body.homepage {
+	background-color:rgb(255, 255, 255);
+}
+
+/* tabella dei frame colonna sinistra, centrale e destra*/
+table.frame_delimiter {
+	margin:0px;
+	padding:0px;
+	border:1px solid #336699;
+	text-align:center;
+	width:100%;
+	}
+
+/* tabella dei gruppi all'interno delle colonne sinistra e destra*/
+table.column_group {
+	text-align: left;
+	width:100%;
+	border:0px;
+	margin:0px;
+	padding:0.4em;
+	background:#DCFFC0;	/* sfondo colonne sinistra e destra */
+	}
+
+/* appartengono alla classe titolo_colonna tutti i titoli nelle colonne laterali */
+.titolo_colonna {
+	font-family:Arial,Verdana,Tahoma,Serif;
+	font-weight: bold;
+	color:rgb(51,102,153);
+	}
+
+/* appartengono alla classe txt_link tutti i link ed il testo nelle colonne laterali */
+a.txt_link {
+	text-decoration: none;
+	}
+
+a.txt_link:hover {
+	text-decoration: underline;
+	}
+
+/* link e testo nelle colonne laterali */
+.txt_link, .txt_normal {
+	font-family:Arial,Tahoma,Verdana,Serif;
+	font-size:0.75em;
+	color:rgb(51,102,153);
+	}
+
+/* tabella dei singoli articoli nella colonna centrale*/
+table.article_group {
+	text-align: justify;
+	border:0px;
+	margin:0px;
+	padding:0.4em;
+	background: #F0FFD8;	/* sfondo articoli colonna centrale */
+	width:100%;		/* l'articolo occupa tutta la larghezza consentita*/
+	}
+
+/* appartengono alla classe titolo_articolo tutti i titoli degli articoli */
+table.article_group H3 {
+	font-family:Arial,Verdana,Tahoma,Serif;
+	font-weight: bold;
+	color:rgb(51,102,153);
+	margin:0em;
+	}
+
+.txt_articolo { 
+	font-family:Arial,Tahoma,Verdana,Serif;
+    	font-size:0.75em;
+	color:rgb(51,102,153);
+	}
+
+.txt_firma_articolo { 
+	text-align:right;
+	padding-right:2em;
+	font-style:italic;
+	}
+
+
+/*---------------------------  Tabelle dati -------------------------------------- */
+
+
+.titolo_tabella {
+	text-align:center;
+	font-weight:bold;
+	font-size:1.2em;
+	}
+	
+	
+table.tabella {
+	border:2px solid rgb(51,102,153);
+	margin:0px;
+	padding:0px;
+	color:rgb(51,102,153);
+	background:#FFF6F0;	/* sfondo tabelle dati */
+	font-family:Arial,Tahoma,Verdana,Serif;	
+	font-size:1.2em;
+	}
+
+table.tabella a {
+	color:rgb(51,102,153);
+	text-decoration: none;
+	}
+
+table.tabella a:hover {
+	text-decoration: underline;
+	}
+
+table.tabella tr {
+	vertical-align:top;
+	font-size:0.82em;
+	}
+	
+table.tabella table {
+	border-collapse:collapse;
+	border:1px solid rgb(51,102,153);
+	margin:0px;
+	padding:0px;
+	}
+
+table.tabella table tr {
+	vertical-align:baseline;
+	font-size:0.8em;
+	}
+
+table.tabella table td {
+	min-height:1.0em;
+	}
+
+table.tabella table thead {
+	border-collapse:separate;
+	background-color:rgb(255, 255, 200);	/* sfondo header tabelle dati */
+	height:1.2em;
+	}
+
+table.tabella table thead th {
+	padding:0.2em 0.35em; 
+	border:1px solid rgb(170, 170, 170);
+	}
+
+/* sfondo azzurro per i maschi */
+tr.atleta_maschio {
+	background:rgb(251,255,255);
+	}
+
+/* sfondo rosa per le femmine */
+tr.atleta_femmina {
+	background:rgb(255,234,234);
+	}
+
+/* caratteri in grassetto per il primo arrivato */
+tr.primo {
+	font-weight:bold;
+	}
+
+
+/*---------------------------  Note     -------------------------------------- */
+.nota {
+	font-size:0.7em;
+	}
+
+/*---------------------------  Legenda  -------------------------------------- */
+table.tabella_legenda tr {
+	font-size:0.7em;
+	}
+
+table.tabella_legenda td.descrizione {
+	font-style:italic;
+	}
+
+
+/*---------------------------  Organizzatori  -------------------------------------- */
+div.tabella_organizzatori {
+	font-size:0.75em;
+	font-family:"comic sans ms",serif;
+	}
+
+
+/*---------------------------  Tabelle dati -------------------------------------- */
+
+/* elementi nell'elenco dei nominativi */
+.txt_elenco {
+	font-family:Arial,Tahoma,Verdana,Serif;
+	font-size:0.75em;
+	color:rgb(34,68,102);
+	}
+
+
+/*---------------------------  Amministrazione -------------------------------------- */
+
+body.admin {
+	color:rgb(34,68,102);
+	background:#F3FFDD;	/* sfondo pagine amministrative */
+	font-family:Arial,Tahoma,Verdana,Serif;	
+	font-size:1.2em;
+	}
+
+table.admin {
+	border-collapse:collapse;
+	border:2px solid rgb(51,102,153);
+	}
+
+table.admin tr {
+	vertical-align:baseline;
+	text-align:center;
+	}
+
+table.admin td {
+	padding:0.3em;
+	border:1px solid;
+	}
+
+table.admin thead {
+	border-collapse:separate;
+	background-color:rgb(255, 255, 200);
+	height:1.2em;
+	}
+
+table.admin thead th {
+	padding:0.2em 0.35em; 
+	border:1px solid rgb(170, 170, 170);
+	}
+
+
+/*---------------------------  Tabelle statistiche -------------------------------------- */
+/* generici */
+p,
+form {
+	margin: 0px;
+}
+
+/* titoli */
+p.title {
+	margin: 20px auto 0px auto;
+	border-bottom: 2px rgb(255,128,0) solid;
+	border-left: 10px rgb(255,128,0) solid;
+	padding: 1px 10px;
+	background-color: rgb(245,245,245);
+	font-family: Verdana;
+	font-size: 17px;
+	color: rgb(60,60,80);
+}
+
+/* titoli evidenziati */
+p.title span.hi {
+	padding: 0px 2px;
+	color: rgb(50,100,140);
+}
+
+/* grafici */
+table.graph {
+	width: 100%;
+	height: auto;
+	margin: 20px auto;
+	table-layout: fixed;
+}
+
+table.graph td.item,
+table.graph td.chart,
+table.graph td.percentage {
+	border-bottom: 1px rgb(245,245,245) solid;
+	padding: 1px 3px;
+	background-color: transparent;
+	font-family: "Courier New";
+	font-size: 12px;
+	color: rgb(0,0,20);
+}
+
+table.graph * td.bar {
+	width: auto;
+	height: auto;
+	border-top: 5px rgb(255,255,255) solid;
+	border-bottom: 3px rgb(255,255,255) solid;
+	background-color: rgb(200,0,0);
+}
+
+
+/*---------------------------  Forums -------------------------------------- */
+
+/*.TSfondoScuro {
+	background-color: #96bcdf;
+}*/
+
+.TSfondoMedio {
+	background-color: #B0CDE7;
+}
+
+.TSfondoChiaro {
+	background-color: #D0E4F6;
+}
+
+.Small {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #6D6D95;
+	font-weight: normal;
+}
+
+/* link nella lista dei forum e dei topic */
+.s_link {
+	color: #5F5F82;
+	text-decoration: underline;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.0em;
+	font-weight: bold;
+}
+
+.s_link:active,
+.s_link:hover {
+	color: #FF6600;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.0em;
+	font-weight: bold;
+}
+
+table.tabella_forum {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.7em;
+}
+
+.titoloBlu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #FFFFFF;
+	font-weight: bold;
+	background-color: #96BCDF;
+	text-align: left;
+}
+
+/* link chiaro su sfondo scuro: header tabella forum */
+.sfondoscuro {
+	font-size: 0.8em;
+	color: #FFFFFF
+}
+
+a.sfondoscuro:link,
+a.sfondoscuro:hover,
+a.sfondoscuro:active,
+a.sfondoscuro:visited {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
