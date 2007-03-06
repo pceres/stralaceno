@@ -33,6 +33,7 @@ IMG_1620.jpg::All.collettivo::
 laceno.jpg::Altopiano del Laceno::::
 lagoLaceno.jpg::Laceno::::
 logo_Champions.jpg::::
+logo_ambiente.jpg::::
 
 [Soci_ars]
 LV2.jpg::Lello Viscardi::
@@ -51,6 +52,7 @@ DC.jpg::Donatello Cirillo::
 FC.jpg::Francesco Ceres::
 GS.jpg::Gianni Sozio::
 SC.jpg::Salvatore Colatrella::
+GiM.jpg::Giuseppe Martino::
 
 [Roccadaspide_06]
 Roccadasp_040_1.jpg::evento::Foto di gruppo ARS, Gerardo, Paolo, Alessandro e Salvatore C.::
@@ -111,3 +113,17 @@ dscn7064.jpg::All.collettivo::il Bosco Difesa &egrave; alle porte, il peggio &eg
 dscn7069.jpg::All.collettivo::la parte pi&ugrave; impegnativa del tracciato &egrave; stata superata;l'obiettivo &egrave; ormai vicino::
 dscn7074.jpg::All.collettivo::attimo storico,il gruppo giunge nel punto di arrivo con grande gioia e con qualche minuto di anticipo su quanto previsto dalla tabella dei tempi::
 dscn7075.jpg::All.collettivo::FINE, si giunge cosi al punto di arrivo con la consapevolezza di aver raggiunto un obiettivo molto importante::
+
+[FC_Caposele]
+fc1.jpg::::FC Caposele - Vallesaccarda (18/02/07)
+fc3.jpg::::FC Caposele - Vallesaccarda (18/02/07)
+fc7.jpg::::FC Caposele - Vallesaccarda (18/02/07)
+fc6.jpg::::FC Caposele - Vallesaccarda (18/02/07)
+fc9.jpg::::FC Caposele - Vallesaccarda (18/02/07)
+fc8.jpg::::FC Caposele - Vallesaccarda (18/02/07)
+fc5.jpg::::FC Caposele - Vallesaccarda (18/02/07)
+fc10.jpg::::FC Caposele - Vallesaccarda (18/02/07)
+fc4.jpg::::FC Caposele - Vallesaccarda (18/02/07): Nell'intervallo, Raffaele Sista impartisce nuove disposizioni tattiche sotto lo sguardo attento di  Massimo Cetrulo e Salvatore Corona.
+fc2.jpg::::Casabianchi Trevico - FC Caposele (25/02/07)
+fc11.jpg::::Casabianchi Trevico - FC Caposele (25/02/07)
+fc12.jpg::::Casabianchi Trevico - FC Caposele (25/02/07)
