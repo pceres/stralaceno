@@ -68,6 +68,7 @@ Link::
 
 [Link]
 StralacenoWeb::<b>StralacenoWeb</b>::external_link::http://pceres.altervista.org/stralaceno/index.php::
-federazione_calcio::FIGC::external_link::http://www.figc.it::
-federazione_Campania::Figc Campania::external_link::http://www.figc-campania.it::
-federazione_Avellino::Figc Avellino::external_link::http://www.figcavellino.it::
+Federciclismo::Federciclismo::external_link::http://www.federciclismo.it::
+UCI::Unione Ciclistica Internaz.::external_link::http://www.uci.ch/::
+Foto professionali ciclicmo::Foto professionali ciclismo::external_link::http://www.grahamwatson.com/::
+
