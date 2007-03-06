@@ -18,6 +18,8 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 4::Ars::20/12/2006 12.34.00::visible
 5::Alessandro::15/01/2007 20.13.09::visible
 6::paolo::16/01/2007 00.44.59::visible
+7::NICOLA M.::12/02/2007 21.32.54::visible
+8::Ale::13/02/2007 10.05.28::visible
 
 [post_text_0]
 E' in preparazione un sondaggio sulle squadre prime classificate nella Champions League 2006/2007.
@@ -56,4 +58,10 @@ diciamo che va abbastanza bene anche se non mi sono applicato a pieno, per ora n
 mo vedo domani , ne rimango qualcuna ai compagni del corso, vedo che ne pensano e se sono disposti a compilarla!
 OK , poi aggiornerò la situazione in caso di successo!
 ciao, alla prossima!!!
+
+[post_text_7]
+CIAO ALEX PER LE OFFERTE A QUANDO SI E' ARRIVATI.STASERA HO VISTO SALVATORE, TUO PADRE CI VEDIAMO GIOVEDI'
+
+[post_text_8]
+Ciao Nick, le offerte sono sempre ferme purtroppo. ciao.
 

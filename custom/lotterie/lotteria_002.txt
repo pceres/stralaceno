@@ -25,8 +25,7 @@ Sondaggio Champions League 2006/2007::attiva::no_auth::00:00 20/12/2006::24:00 1
 #	msg3: visualizzato dopo la chiusura delle giocate
 #
 [msg_date]
-Il sondaggio non &egrave; ancora aperto. Potrai giocare dalle 00:00 del 20/12::Si pu&ograve; giocare dalle 00:00 del 20/12 alle 24:00 del 18/02::Le giocate sono chiuse, la classifica sar&agrave; disponibile dalle 08:00 del 26/05
-
+Il sondaggio non &egrave; ancora aperto. Potrai giocare dalle 00:00 del 20/12::Si pu&ograve; giocare dalle 00:00 del 20/12 alle 24:00 del 18/02::Le giocate sono chiuse, la classifica sar&agrave; aggiornata dopo la disputa di ogni turno (ottavi, quarti, semifinali e finale).
 #
 # Formato riga [keyfiles]:
 # nome::caption::num_keys
@@ -204,5 +203,5 @@ Consulta il tabellone di aiuto alla compilazione su Caposeleonline:http://www.ca
 #
 [stili_riga]
 ;Checked$:: Gens Silarensis::background:#FFFFAA;
-;Unchecked$:: Gens quasi Silarensis (Pi&ugrave; di 1 errore alla verifica di silaritudine)::background:#FFDDBB;
+#;Unchecked$:: Gens quasi Silarensis (Pi&ugrave; di 1 errore alla verifica di silaritudine)::background:#FFDDBB;
 .*:: Gens Mundi::

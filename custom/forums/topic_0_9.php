@@ -35,6 +35,13 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 21::NICOLA M.::13/12/2006 11.24.52::visible
 22::Antonio::14/12/2006 09.56.57::visible
 23::NICOLA M.::14/12/2006 22.10.35::visible
+24::NICOLA M.::13/02/2007 19.52.28::visible
+25::Salvatore::14/02/2007 14.19.51::visible
+26::paolo::14/02/2007 23.14.09::visible
+27::Alessandro::15/02/2007 15.03.22::visible
+28::Salvatore::23/02/2007 13.59.25::visible
+29::Ale::26/02/2007 12.42.54::visible
+30::Salvatore::26/02/2007 13.48.57::visible
 
 [post_text_0]
 Fermate Nicola Melillo con questa stralaceno: anche i muri di materdomini e caposele non ne possono più.
@@ -133,4 +140,51 @@ ciao Nicola, ti volevo chiedere cosa si prospetta a Caposele, dal punto di vista
 
 [post_text_23]
 NIENTE DI PARTICOLARE SE NON L' ALLENAMENTO PODISTICO DI 16 KM ORGANIZZATO DALL' ARS PER IL GIORNO 30 DICEMBRE ALLE 15 IN PIAZZA SANITA'.
+
+[post_text_24]
+PER META-FINE MARZO ORGANIZZERO' UNA SECONDA CORSA SUI 8-9 KM. SU UN PERCORSO PIANEGGIANTE NUOVO RISPETTO ALLA CORSA DEL MESE DI NOV. 2006,ASPETTO SUGGERIMENTI IDEE E MOLTO MA MOLTO ENTUSIASMO SPERO CHE GRAZIE A QUESTO FORUM SI POSSA COINVOLGERE NUOVI RAGAZZI ALMENO A PARTECIPARE PER TRASCORRERE UNA BELLA GIORNATA DI SPORT.CHIARAMENTE SALVATORE E PAOLO SONO GIA' ISCRITTI,ALEX QUESTA VOLTA NON PUOI MANCARE.
+
+[post_text_25]
+Bravo Nicò...ovviamente se ti serve qualche aiuto sappi che io sono a disposizione...cmq un percorso pianeggiante di 8-9 km è difficile trovarlo qui a Caposele...in questi giorni mi farò venire qualche idea..e andremo a provare il percorso...bella idea cmq...ciao
+un saluto a Paolo e Alessandro,che questa settimana dovrebbe ritornare....ale x venerdì possiamo organizzare un bel allenamento...mi sono stufato di allenarmi sempre da solo...ciao
+
+[post_text_26]
+we ciao Salvatore, allora come va? ad alex l'ho sentito ultimamente per telefono, ma a te è un pezzo che non ti sento.
+Cmq questo fine settimana sono anch'io di ritorno al paese, quindi sarei felicissimo di associarmi a voi visto che da quanto ho letto c'è pure Alex!
+&nbsp;
+Alex ho una mezza sorpresa per te, poi ti riferirò tutto ciao!!
+&nbsp;
+X Nicola,
+era da tanto che non ti facevi sentire sul forum, e vedo che sei partito subito in contropiede, è sempre bello vedere che la gente, o almeno qualcuno ama questo sport e mette in pratica tutto quello che buono possa esserci!
+&nbsp;
+Ok un saluto a tutti, rinviando tutto a questo fine settimana...ciao a tutti ragazzi.
+
+[post_text_27]
+x Salvatore
+Venerdì pomeriggio sono impegnato. Organizziamo per sabato pomeriggio un bel allenamento anche con Paolo, Giuseppe Martino e tutti quelli che vogliono venire.
+&nbsp;
+x Paolo
+Ti aspetto sabato all'allenamento così mi dirai...
+&nbsp;
+x Nicola
+Bravo,  ad maiora!
+
+[post_text_28]
+X Nicola Melillo
+Quando vogliamo cominciare a vedere il da farsi per la gara programmata a marzo?Per quanto riguarda il percorso hai qualche idea?
+&nbsp;
+X Alessandro
+Io oggi riprendo ad allenarmi...quando 6 disponibile x un allenamento tutti insieme?
+&nbsp;
+un saluto a Paolo e a tutti i soci...ciao
+
+[post_text_29]
+Caro Salvatore sabato alle 16.30 con Paolo e Nicola abbiamo fatto un bel allenamento... Ma tu dov'eri???
+&nbsp;
+Aspetto ancora la risposta alla mia mail
+&nbsp;
+Ciao
+
+[post_text_30]
+Ciao Ale purtroppo pioveva e non ho voluto rischiare di ammalarmi di nuovo..io cmq sono andato domenica mattina....x quanto riguarda le schede purtroppo la scuola è chiusa da giorni quindi nn ho potuto ritirare le schede visto che queste persone non sono di caposele...vabbè ci sentiamo questo fine settimana..ciao
 
