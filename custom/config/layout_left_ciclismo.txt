@@ -70,5 +70,5 @@ Link::
 StralacenoWeb::<b>StralacenoWeb</b>::external_link::http://pceres.altervista.org/stralaceno/index.php::
 Federciclismo::Federciclismo::external_link::http://www.federciclismo.it::
 UCI::Unione Ciclistica Internaz.::external_link::http://www.uci.ch/::
-Foto professionali ciclicmo::Foto professionali ciclismo::external_link::http://www.grahamwatson.com/::
+Foto_professionali_ciclicmo::Foto professionali ciclismo::external_link::http://www.grahamwatson.com/::
 
