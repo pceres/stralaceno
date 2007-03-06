@@ -25,7 +25,7 @@ Formato [elenco_topics]:
 8::soddisfatti della stralaceno edizione 2006???::open::::::cabo86::4::3
 9::Discussione::open::::::Antonio::31::30
 10::ci siete?????::open::::::cabo::8::7
-11::La nuova sezione ciclismo::open::::::Donato Gervasio::5::4
+11::La nuova sezione ciclismo::open::::::Donato Gervasio::6::5
 12::Allenamento Collettivo 30-12-2006::open::::::Ars::40::39
 13::per nazòn::open::::::antonio::4::3
 14::F.C. Caposele::open::::::Ars::10::9

@@ -16,6 +16,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 2::Donato Gervasio::10/12/2006 13.47.22::visible
 3::fonzo::15/12/2006 17.58.22::visible
 4::paolo::22/12/2006 00.59.01::visible
+5::ciclismo::06/03/2007 12.05.10::visible
 
 [post_text_0]
 Cari amici di ArsWeb,
@@ -36,4 +37,7 @@ credo sia possibile una crescita del ciclismo a Caposele. L'importante è che la 
                       x fonzo
 scusami, non capisco per quale ragione hai detto quella frase strana a donato,in fin dei conti la sua idea è una buona cosa; è importante avere ideali di questo genere per cercare di migliorare il nostro paese! quindi spero che la tua fosse solo una battuta!
 ciao...
+
+[post_text_5]
+Nuovo articolo: La preparazione fisica
 
