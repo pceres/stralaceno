@@ -23,6 +23,7 @@ layout_left.txt::%config_dir%::disposizione colonna sinistra::admin::d36923926ed
 layout_right.txt::%config_dir%::disposizione colonna destra::admin::d36923926ed59333afab0bba1a4ad5e5
 layout_left_FC_caposele.txt::%config_dir%::colonna sin. FC Caposele::admin::d36923926ed59333afab0bba1a4ad5e5
 layout_right_FC_caposele.txt::%config_dir%::colonna dx. FC Caposele::admin::d36923926ed59333afab0bba1a4ad5e5
+layout_right_ambiente.txt::%config_dir%::colonna dx. ambiente::admin::0cdaa4d3a5cfbe7cda4facf4d7501021
 layout_left_ciclismo.txt::%config_dir%::colonna sin. ciclismo::admin::d36923926ed59333afab0bba1a4ad5e5
 
 # moduli
@@ -30,6 +31,8 @@ pregfas_cfg.txt::%modules_dir%pregfas/::gestione pregfas::admin::d36923926ed5933
 lettere_sito_cfg.txt::%modules_dir%lettere_sito/::gestione archivio lettere::admin::d36923926ed59333afab0bba1a4ad5e5
 soci_cfg.txt::%modules_dir%soci/::gestione elenco soci e news ARS::admin::d36923926ed59333afab0bba1a4ad5e5
 flash_news_cfg.txt::%modules_dir%flash_news/::gestione News Flash::admin::d36923926ed59333afab0bba1a4ad5e5
+flash_news_FC_caposele_cfg.txt::%modules_dir%flash_news/::gestione News Flash sezione F.C. Caposele::admin::d36923926ed59333afab0bba1a4ad5e5
+flash_news_ambiente_cfg.txt::%modules_dir%flash_news/::gestione News Flash sezione ambiente::admin::0cdaa4d3a5cfbe7cda4facf4d7501021
 siti_amici_cfg.txt::%modules_dir%siti_amici/::gestione elenco siti Caposele sul Web::admin::f2a24930901df6192297dcfddfc096ef
 archivio_cfg.txt::%modules_dir%archivio/::gestione archivio album e articoli::admin::d36923926ed59333afab0bba1a4ad5e5
 classifica_campionato_cfg.txt::%modules_dir%classifica_campionato/::gestione classifica e risultati ultima giornata::admin::d36923926ed59333afab0bba1a4ad5e5
