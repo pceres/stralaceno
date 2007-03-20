@@ -28,12 +28,18 @@ Formato [elenco_task_atomici]:
 
 [abilitazioni]
 task::admin_index::::Pagina principale dell'interfaccia amministrativa::admin
+task::admin_modules::::Pagina dell'interfaccia amministrativa per la gestione dei moduli::@alex,@ceres
+task::modifica_file_config::filename=.*::Visualizza e modifica generico file di configurazione::@alex,@ceres
+task::scrivi_file_config::filename=.*::Scrivi generico file di configurazione::@alex,@ceres
 
-#mansione::mansione_gestione_sezione::sezione=ciclismo::Gestione sezione "ciclismo"::@alex,@ceres,@don.ger
-mansione::mansione_gestione_sezione::sezione=ciclismo::Gestione sezione "ciclismo"::@ceres,@don.ger
+mansione::mansione_gestione_sezione::sezione=ciclismo::Gestione sezione "ciclismo"::@alex,@ceres,@don.ger
 mansione::mansione_gestione_sezione::sezione=FC_caposele::Gestione sezione "FC Caposele"::@alex,@ceres
 mansione::mansione_gestione_sezione::sezione=ambiente::Gestione sezione "Ambiente e natura"::@alex,@ceres,@angelo.ceres
 mansione::mansione_gestione_sezione::sezione=.*::Gestione sezione generica::@alex,@ceres
+
+mansione::mansione_modifica_file_configurazione::filename=siti_amici_cfg.txt::gestione file di configurazione del modulo Caposele sul Web::@michele,@ceres,@alex
+mansione::mansione_modifica_file_configurazione::filename=albums.txt::gestione file di configurazione album::@paolo,@ceres,@alex
+
 
 [mansione_gestione_sezione]
 task::carica_articolo::sezione=sezione;id_art=.*::Caricare un articolo::
@@ -42,8 +48,23 @@ task::gestione_articoli::mode=edited;data=.*;sezione=sezione::modifica effettiva
 task::gestione_articoli::mode=edit;data=.*;sezione=sezione::pagina di modifica dell'articolo::
 task::gestione_articoli::mode=cancel;data=.*;sezione=sezione::cancellazione effettiva dell'articolo::
 task::gestione_articoli::mode=set_online_articles;data=.*;sezione=sezione::pubblicazione dell'articolo::
+mansione::mansione_modifica_file_configurazione::filename=flash_news_sezione::Gestione flash news della sezione::
+mansione::mansione_modifica_file_configurazione::filename=layout_left_sezione::Gestione layout sinistro della sezione::
+mansione::mansione_modifica_file_configurazione::filename=layout_right_sezione::Gestione layout destro della sezione::
+
+[mansione_gestione_modulo]
+mansione::mansione_modifica_file_configurazione::filename=filename::gestione file di configurazione del modulo::
+
+[mansione_modifica_file_configurazione]
+task::admin_index::::pagina principale dell'interfaccia amministrativa::
+task::admin_modules::::pagina principale dell'interfaccia amministrativa::
+task::modifica_file_config::filename=filename::Visualizzazione e modifica file di configurazione::
+task::scrivi_file_config::filename=filename::Scrittura del file di configurazione::
 
 [elenco_task_atomici]
 carica_articolo::sezione;id_art::carica articolo
 admin_index::::pagina principale dell'interfaccia amministrativa
 gestione_articoli::mode;data;sezione::gestione degli articoli
+admin_modules::::pagina dell'interfaccia amministrativa per la gestione dei moduli::
+modifica_file_config::filename::visualizza e modifica file di configurazione
+scrivi_file_config::filename::scrivi file di configurazione
