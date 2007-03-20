@@ -1,6 +1,6 @@
 <?php
 /*
-questa libreria esamina i cookies o i parametri http (eventualmente) inviati, e genera l'array $login con i campi
+questa libreria esamina i cookies o i parametri http (eventualmente) inviati, e genera l'array $login con i camp
 'username',	: login
 'usergroups',	: lista dei gruppi di appartenenza (separati da virgola)
 'status',		: stato del login: 'none','ok_form','ok_cookie','error_wrong_username','error_wrong_userpass','error_wrong_challenge','error_wrong_IP'
@@ -8,15 +8,32 @@ questa libreria esamina i cookies o i parametri http (eventualmente) inviati, e 
 
 $IP = get_IP(); // informazioni sulla connessione remota
 
+// analisi dei cookie (eventuali)
 $cookie_username = $_COOKIE['login']['username'];
-$cookie_usergroups = $_COOKIE['login']['usergroups'];
-$cookie_challenge_id = $_COOKIE['login']['challenge_id'];
+$cookie_username = sanitize_user_input($cookie_username,'plain_text',array());		// (eventuale) username (cookie)
 
+$cookie_usergroups = $_COOKIE['login']['usergroups'];
+$cookie_usergroups = sanitize_user_input($cookie_usergroups,'plain_text',array()); 	// (eventuale) usergroups (cookie)
+
+$cookie_challenge_id = $_COOKIE['login']['challenge_id'];
+$cookie_challenge_id = sanitize_user_input($cookie_challenge_id,'plain_text',array()); 	// (eventuale) challenge id (cookie)
+
+// analisi dell'input inserito dall'utente
 $login_action = $_REQUEST['login_action'];
+$login_action = sanitize_user_input($login_action,'plain_text',array()); // azione da effettuare
+
 $username = $_REQUEST['username'];
+$username = sanitize_user_input($username,'plain_text',array()); // username inserito dall'utente
+
 $userpass = $_REQUEST['userpass'];
+$userpass = sanitize_user_input($userpass,'plain_text',array()); // password inserita dall'utente
+
 $challenge = $_REQUEST['challenge'];
+$challenge = sanitize_user_input($challenge,'plain_text',array()); // challenge del login
+
 $challenge_id = $_REQUEST['challenge_id'];
+$challenge_id = sanitize_user_input($challenge_id,'plain_text',array()); // challenge_id del login
+
 
 $EXPIRE_COOKIE = 60*60; // [s] durata dei cookies (un'ora)
 $strict = false; // true -> qualsiasi errore blocca l'esecuzione; false -> viene restituito il msg di errore
@@ -361,7 +378,7 @@ if ($debug) {				echo("I parametri non corrispondono ($ks_par,$params)!<br>\n");
 		}
 		else
 		{
-			die("Non dovevo arrivare qui!");
+			die("Non dovevo arrivare qui (codice 1)!");
 		}
 		break;
 		
@@ -369,7 +386,8 @@ if ($debug) {				echo("I parametri non corrispondono ($ks_par,$params)!<br>\n");
 		$submansioni = $mansioni_filtrate[$abilitazione_tag];
 		if (empty($submansioni))
 		{
-			die("Non dovevo arrivare qui!");
+echo "$abilitazione_tag<br>";
+			die("Non dovevo arrivare qui (codice 2)!");
 		}
 if ($debug) {		print_r($submansioni);echo "<br><br>\n";}
 		
@@ -381,13 +399,9 @@ if ($debug) {		print_r($submansioni);echo "<br><br>\n";}
 			$subabilitazione_caption = $submansione[index_abilitazione_caption];
 			$subabilitazione_allowed = $submansione[index_abilitazione_allowed];
 			
-/*			if (empty($abilitazione_params))
-			{
-				die("I parametri non sono specificati per una mansione di tipo $abilitazione_tag!");
-			}*/
-			
 			// trasforma la stringa dei parametri in array
 			$params_assignment = split(';',$abilitazione_params);
+			
 			$params_rep = Array();
 			foreach ($params_assignment as $param_assignment)
 			{
@@ -396,16 +410,21 @@ if ($debug) {		print_r($submansioni);echo "<br><br>\n";}
 			}
 			
 			// applica le trasformazioni ai parametri
-			$ks_par = $subabilitazione_params;
-			foreach($params_rep as $key => $value)
+			$lista_params = split(';',$subabilitazione_params);
+			foreach($lista_params as $id_par => $ks_par)
 			{
-				$ks_par = ereg_replace("=".$key,"=".$value,$ks_par);
+				foreach($params_rep as $key => $value)
+				{
+					// sostituisci a destra dell'uguale la stringa $key con $value
+					$left_right = explode('=',$ks_par);
+					$ks_par = $left_right[0].'='.ereg_replace($key,$value,$left_right[1]);
+				}
+				$lista_params[$id_par] = $ks_par;
 			}
-			$submansione[index_abilitazione_params] = $ks_par;
+			$submansione[index_abilitazione_params] = implode(';',$lista_params);
 			
 if ($debug) 			echo "Con la modifica: $abilitazione_params => $subabilitazione_params => $ks_par<br><br>\n";
 			
-// 					      &$mansioni_filtrate,$found_task,$abilitazione,$tag,$params,$username,$usergroups,$level = 1,$debug
 			if (check_single_auth(&$mansioni_filtrate,$found_task,$submansione,$tag,$params,$username,$usergroups, $level+1,$debug))
 			{
 if ($debug) 				echo("Anche i parametri corrispondono!<br>\n");
@@ -414,29 +433,22 @@ if ($debug) 				echo("Anche i parametri corrispondono!<br>\n");
 			else
 			{
 if ($debug) 				echo("i parametri non corrispondono!<br>\n");
-// 				return false;
 			}
 		}
 		
 		// ho provato tutte le mansioni, nessuna va bene!
 		return false;
 		
-// 		die("TODO: gestione mansione!");
 		break;
 	}
-// 	die($abilitazione_tag);
-
 } // end function check_single_auth(&$mansioni_filtrate,$found_task,$abilitazione,$tag,$params,$level = 1)
 
 
 function check_auth($tag,$params,$username,$usergroups,$debug)
 {
 	// verifica se l'utente $username, appartenente al gruppo $usergroups (array), e' abilitato alla pagina con tag $tag e parametri $params
-	
+
 	$time0=explode(' ',microtime());$time0 = $time0[1]+$time0[0]; // timestamp per misurare il tempo di calcolo
-	
-// 	$debug = false;
-// 	$debug = true;
 	
 	# dichiara variabili
 	extract(indici());
@@ -480,6 +492,13 @@ if ($debug) echo "Il task e' $tag, con parametri $params<br><br>\n";
 	{
 		$nome_mansione = $lista_nomi_mansione[$id_nome_mansione];
 		$lista_mansioni = $mansioni[$nome_mansione];
+
+if ($debug)
+{
+echo("<br>$nome_mansione<br><br><br>");
+print_r($lista_mansioni);
+echo('<br><br><br><br>');
+}
 		
 		if ($debug) echo "<br>".($id_nome_mansione+1).") $nome_mansione<br>\n";
 		
@@ -490,14 +509,12 @@ if ($debug) echo "Il task e' $tag, con parametri $params<br><br>\n";
 			$mansione_params = $mansione[index_mansione_params];
 			$mansione_caption= $mansione[index_mansione_caption];
 			
-// 			echo "&nbsp;&nbsp;&nbsp;&nbsp;$mansione_tipo,$mansione_tag<br>\n";
-			
 			switch ($mansione_tipo)
 			{
 			case 'task':
 				if ($mansione_tag == $tag)
 				{
-if ($debug) echo "Trovato ($tag) !!!<br>\n";
+if ($debug) echo "Trovato task ($tag) !!!<br>\n";
 					if (!array_key_exists($nome_mansione,$abilitazioni_filtrate))
 					{
 						$abilitazioni_filtrate[$nome_mansione] = Array();
@@ -508,12 +525,15 @@ if ($debug) echo "Trovato ($tag) !!!<br>\n";
 			case 'mansione':
 				if (array_key_exists($mansione_tag,$mansioni))
 				{
-if ($debug) 					echo "Trovato ($mansione_tag) !!!<br>\n";
-					if (!array_key_exists($nome_mansione,$abilitazioni_filtrate))
+if ($debug) 					echo "Trovata mansione ($mansione_tag) !!!<br>\n";
+					if (array_key_exists($mansione_tag,$abilitazioni_filtrate))
 					{
-						$abilitazioni_filtrate[$nome_mansione] = Array();
+						if (!array_key_exists($nome_mansione,$abilitazioni_filtrate))
+						{
+							$abilitazioni_filtrate[$nome_mansione] = Array();
+						}
+						array_push($abilitazioni_filtrate[$nome_mansione],$mansione);
 					}
-					array_push($abilitazioni_filtrate[$nome_mansione],$mansione);
 				}
 				else
 				{
@@ -524,6 +544,7 @@ if ($debug) 					echo "Trovato ($mansione_tag) !!!<br>\n";
 				die("Tipo di mansione \"$mansione_tipo\" non prevista! Contattare l'amministratore.");
 			}
 		}
+	if ($debug) {echo "Le abilitazioni filtrate fino ad ora sono:";print_r($abilitazioni_filtrate);echo "<br><hr><br>";}
 	}
 	
 if ($debug) {
@@ -590,13 +611,5 @@ if ($debug) 			echo("L'utente $username NON e' abilitato ($abilitazione_allowed)
 	
 	return false;
 } // end function check_auth($tag,$params)
-
-
-function filtra_abilitazioni($abilitazioni,$tag)
-{
-	// elimina dai dati di abilitazione quelli sicuramente non validi in quanto il tag non corrisponde
-	$abilitazioni_filtrate = Array();
-}
-
 
 ?>
