@@ -1,0 +1,15 @@
+#
+# ARS Amatori Running Sele
+#
+
+#
+# formato elenco_news:  data::news
+#
+[elenco_news]
+12/03/2007::Inaugurata la sezione "ambiente" sul sito ArsWeb
+
+#
+# formato testo_footer:  testo
+#
+[testo_footer]
+Ultimo aggiornamento effettuato il 15/03/2007
