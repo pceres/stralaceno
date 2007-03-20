@@ -5,29 +5,21 @@
 #
 
 # Qualificato quarti 1:
-nd
-#Barcellona
+Roma
 # Qualificato quarti 2:
-nd
-#Bayern Monaco
+Liverpool
 # Qualificato quarti 3:
-nd
-#Galatasaray
+Chelsea
 # Qualificato quarti 4:
-nd
-#Olympiakos Pireo
+Valencia
 # Qualificato quarti 5:
-nd
-#Dynamo Kiev
+Psv Eindhoven
 # Qualificato quarti 6:
-nd
-#Fc Copenhagen
+Bayern Monaco
 # Qualificato quarti 7:
-nd
-#Amburgo
+Milan
 # Qualificato quarti 8:
-nd
-#Anderlecht
+Manchester United
 # Qualificato semifinale 1:
 nd
 #Barcellona
@@ -64,11 +56,19 @@ nd
 #
 [punteggio_risposte]
 #
-#Barcellona::4,4;3,4;2,4;1,2
-#Bayern Monaco::4,4;3,4;2,4;1,2
-#Galatasaray::4,4;3,4
-#Olympiakos Pireo::4,4;3,3
-#Dynamo Kiev::4,4;3,1
-#FC Copenhagen::4,4
-#Amburgo::4,4
-#Anderlecht::4,4
+Porto::4,0
+Chelsea::4,4
+Psv Eindhoven::4,4
+Arsenal::4,0
+Roma::4,4
+Lione::4,0
+Real Madrid::4,1
+Bayern Monaco::4,3
+Celtic Glasgow::4,0
+Milan::4,4
+Lilla::4,0
+Manchester United::4,4
+Barcellona::4,1
+Liverpool::4,3
+Inter::4,1
+Valencia::4,3
