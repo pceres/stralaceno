@@ -24,10 +24,16 @@ if ( !isset($_SERVER['HTTP_REFERER']) | ("http://".$_SERVER['HTTP_HOST'].$script
 
 
 // carica i dati inviati dal form
-$new_name = $_REQUEST['filename']; // path assoluto nel filename del server
-$password = $_REQUEST['password'];
+$new_name = sanitize_user_input($_REQUEST['filename'],'plain_text',Array()); // path assoluto nel filename del server
+$password = sanitize_user_input($_REQUEST['password'],'plain_text',Array());
 $testo0 = $_REQUEST['testo'];
 
+// verifica che l'utente sia autorizzato per l'operazione richiesta
+$res = check_auth('scrivi_file_config',"$new_name",$login['username'],$login['usergroups'],false);
+if (!$res)
+{
+	die("Mi dispiace, non sei autorizzato!");
+}
 
 // carica le infomazioni relative a ciascun file di configurazione
 $elenco_cfgfile = get_cfgfile_data($filename_cfgfile); // carica il file di configurazione dei moduli

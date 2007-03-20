@@ -22,7 +22,8 @@ if ( !isset($_SERVER['HTTP_REFERER']) | ("http://".$_SERVER['HTTP_HOST'].$script
 	exit();
 }
 
-$filename = $_REQUEST['config_file'];
+// file da modificare
+$filename = sanitize_user_input($_REQUEST['config_file'],'plain_text',Array());
 
 if (empty($filename))
 {
@@ -81,6 +82,17 @@ if (!group_match($username,split(',',$usergroups),split(',',$groups_ok)))
 <body class="admin">
 
 <script type="text/javaScript" src="<?php echo $site_abs_path ?>admin/md5.js"></script>
+
+<?php
+
+// verifica che l'utente sia autorizzato per l'operazione richiesta
+$res = check_auth('modifica_file_config',"$filename",$login['username'],$login['usergroups'],false);
+if (!$res)
+{
+	die("Mi dispiace, non sei autorizzato!");
+}
+
+?>
 
 Modifica del file di configurazione <?php echo "$filename ($caption)"; ?>:<br>
 

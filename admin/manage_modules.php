@@ -22,6 +22,13 @@ if ( !isset($_SERVER['HTTP_REFERER']) | ("http://".$_SERVER['HTTP_HOST'].$script
 	exit();
 }
 
+// verifica che l'utente sia autorizzato per l'operazione richiesta
+$res = check_auth('admin_modules',"",$login['username'],$login['usergroups'],false);
+if (!$res)
+{
+	die("Mi dispiace, non sei autorizzato!");
+}
+
 // indici nel file di config. modules_config.php, relativi ad [elenco_moduli]
 $indice_module_name = 0;	// nome del modulo (e della cartella in $modules_dir
 $indice_module_caption = 1;	// descrizione del modulo
