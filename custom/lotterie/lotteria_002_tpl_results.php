@@ -52,10 +52,6 @@ $temp_min = parse_date($estremi_date[0]);
 $temp_max = parse_date($estremi_date[1]);
 $estremi_date = Array($estremi_date[0],$estremi_date[1],$temp_min[0],$temp_max[0]);
 
-// echo('$estremi_date<br>');
-// print_r($estremi_date);
-// die();
-
 
 //
 // ricalcola il punteggio (e aggiungilo in una colonna in fondo)
@@ -78,43 +74,56 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 	$lista_indici = Array(); // elenco degli indici delle risposte appartenenti allo stesso gruppo
 	$lista_risposte = Array(); // elenco delle risposte appartenenti allo stesso gruppo
 	$lista_punti = Array(); // elenco dei punti associati alle risposte appartenenti allo stesso gruppo
+	$lista_punti_per_ordinamento = Array(); // elenco dei punti ai fini dell'ordinamento delle colonne
 	$vettore_punti = Array(); // elenco dei punti associati a tutte le giocate per cui ci sono putneggi specifici
 	$gruppo_old = -1; // valore fuori range in modo da capire che il ciclo non e' ancora iniziato
 	foreach($gruppo_risposta as $indice_risposta => $gruppo)
 	{
 		$risposta = $vettore_giocata[$indice_risposta];
-		$punti = (integer)($punteggio_specifico[$indice_risposta][$risposta]);
+		if (strlen((string)$punteggio_specifico[$indice_risposta][$risposta])==0) // non e' indicato il punteggio...
+		{
+			$punti = '-';
+			$punti_per_ordinamento = -1e6; // ...le partite non ancora disputate vanno a destra
+		}
+		else
+		{
+			$punti = (integer)($punteggio_specifico[$indice_risposta][$risposta]);
+			$punti_per_ordinamento = $punti;
+		}
 		
 		$vettore_punti[$indice_risposta] = $punti;
 		
 		if ( (($gruppo_old >= 0) & ($gruppo_old != $gruppo)) | (count($gruppo_risposta) == $count) )
 		{
-			$bulk_gruppi[$gruppo_old] = Array($lista_indici,$lista_risposte,$lista_punti);
+			$bulk_gruppi[$gruppo_old] = Array($lista_indici,$lista_risposte,$lista_punti,$lista_punti_per_ordinamento);
 			
 			$lista_indici = Array($indice_risposta);
 			$lista_risposte = Array($risposta);
 			$lista_punti = Array($punti);
+			$lista_punti_per_ordinamento = Array($punti_per_ordinamento);
 		}
 		else
 		{
 			array_push($lista_indici,$indice_risposta);
 			array_push($lista_risposte,$risposta);
 			array_push($lista_punti,$punti);
+			array_push($lista_punti_per_ordinamento,$punti_per_ordinamento);
 		}
 		
 		$punteggio += $punti;
 		
 		$gruppo_old = $gruppo;
 	}
-	$bulk_gruppi[$gruppo_old] = Array($lista_indici,$lista_risposte,$lista_punti);
+	$bulk_gruppi[$gruppo_old] = Array($lista_indici,$lista_risposte,$lista_punti,$lista_punti_per_ordinamento);
 	
 	foreach ($bulk_gruppi as $gruppo => $dati_gruppo)
 	{
 		$lista_indici = $dati_gruppo[0];
 		$lista_risposte = $dati_gruppo[1];
 		$lista_punti = $dati_gruppo[2];
+		$lista_punti_per_ordinamento = $dati_gruppo[3];
 		
-		array_multisort($lista_punti,SORT_DESC,$lista_risposte); // riordina le risposte (ed i relativi punteggi)
+		array_multisort($lista_punti_per_ordinamento,SORT_DESC,$lista_punti,$lista_risposte); // riordina le risposte (ed i relativi punteggi)
 		
 		foreach($lista_indici as $indice_temp => $indice_risposta)
 		{
@@ -336,10 +345,10 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 		'3' 		=> Array('O'		,'','??'),
 		'2' 		=> Array('r'		,'','Sconfitta ai rigori (2 punti)'),
 		'1' 		=> Array('g'		,'','Sconfitta con regola goal fuori casa (1 punto)'),
+		'0'		=> Array('<small>o</small>'		,'','Sconfitta diretta (0 punti)'),
 		'default'	=> Array('.'		,'','')
 		);
-
-
+	
 	foreach ($list0 as $id)
 	{
 		$squadra = $soluz[$id];	// valore esatto per la risposta in esame
@@ -376,20 +385,23 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 			
 			$tipo_simbolo = 'not_ok';
 			$simbolo_item = $simbolo_not_ok;
-			if ($punti > 0)
+			if ($punti !== '-') // se e' stato definito un punteggio (anche nullo)...
 			{
 				$item_simbolo = $simbolo_item[$punti];
+				
+				if ($punti != 1) {$punti_msg = "$punti punti";}
+				else {$punti_msg = "$punti punto";}
 			}
-			else
+			else // altrimenti il match non ha dato ancora un punteggio: visualizza il puntino
 			{
 				$item_simbolo = $simbolo_item['default'];
+				
+				$punti_msg = 'il match relativo non è stato ancora disputato';
 			}
 			
 			$simbolo = $item_simbolo[0];
 			$stile_simbolo = $item_simbolo[1];
 			
-			if ($punti != 1) {$punti_msg = "$punti punti";}
-			else {$punti_msg = "$punti punto";}
 			
 			$simb = "<span title=\"".$vettore_giocata[$id]." ($punti_msg)\" $stile_simbolo>$simbolo</span>\n";
 		}
@@ -536,7 +548,7 @@ if (count($elenco_simboli_usati)>1)
 ?>
 <tr>
 <td align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.</td>
-<td> : match non ancora disputato</td>
+<td> : Match non ancora disputato</td>
 </tr>
 </tbody></table>
 </div>
