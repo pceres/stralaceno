@@ -1415,12 +1415,22 @@ function save_config_file($conf_file,$keys)
 }
 
 
-function show_template($template_path,$template_file,$sezione)
+function show_template($template_path,$template_file,$sezione,$module_data)
 {
 	# dichiara variabili
 	extract(indici($sezione));
 	
 	$lines = file($template_path.$template_file);
+	
+	// eventuale suffisso (basato su $module_data) per differenziare i file di configurazione
+	if (empty($module_data))
+	{
+		$module_data_suffix = '';
+	}
+	else
+	{
+		$module_data_suffix = '_'.$module_data;
+	}
 	
 	$stato=0;
 	foreach($lines as $line)
@@ -1437,9 +1447,17 @@ function show_template($template_path,$template_file,$sezione)
 				$template = array();
 				$ks = substr($line,11,-1);
 				$info = explode(" ",$ks);
-				$config_file = $info[0];
+				$temp_config_file = $info[0];
 				$array_name = $info[1];
 				$num_fields = $info[2];
+				
+				// aggiungi suffisso al file di configurazione
+				$lista_subfile = (explode('_cfg.',$temp_config_file));
+				if (count($lista_subfile) != 2)
+				{
+					die("Errore nel nome del file di configurazione del modulo ($temp_config_file)!");
+				}
+				$config_file = $lista_subfile[0].$module_data_suffix.'_cfg.'.$lista_subfile[1];
 				continue;
 			}
 			
@@ -1848,6 +1866,11 @@ function sanitize_user_input($usertext,$type,$flags) {
 # $type = 'simple_formatted_html'	: no tags allowed, except for simple formatting html tags (<b>,<i>,<a>)
 # $type = 'number'			: simple number (allowed number types in $flags['number_type'] are 'int' and 'float')
 #
+
+if (empty($usertext))
+{
+	return $usertext;
+}
 
 if (get_magic_quotes_gpc())
 {
