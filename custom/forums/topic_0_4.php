@@ -20,6 +20,10 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 6::paolo::16/01/2007 00.44.59::visible
 7::NICOLA M.::12/02/2007 21.32.54::visible
 8::Ale::13/02/2007 10.05.28::visible
+9::ars::06/03/2007 23.12.52::visible
+10::ars::08/03/2007 12.55.22::visible
+11::Donato Gervasio::09/03/2007 12.22.57::visible
+12::Christian Meyer::14/03/2007 10.08.00::visible
 
 [post_text_0]
 E' in preparazione un sondaggio sulle squadre prime classificate nella Champions League 2006/2007.
@@ -64,4 +68,20 @@ CIAO ALEX PER LE OFFERTE A QUANDO SI E' ARRIVATI.STASERA HO VISTO SALVATORE, TUO
 
 [post_text_8]
 Ciao Nick, le offerte sono sempre ferme purtroppo. ciao.
+
+[post_text_9]
+E'  disponibile la prima classifica dopo la disputa dei primi 4 ottavi di finale
+
+[post_text_10]
+Dopo la disputa degli ottavi di finale, in testa alla classifica Christian Meyer di Milano, seguito dal nostro Michele Ceres, quindi Raffaele Fiorentino di Castellammare di Stabia e il webmaster Pasquale Ceres, tutti con 25 punti.
+
+[post_text_11]
+&gt;Dopo la disputa degli ottavi di finale, in testa alla classifica Christian Meyer di Milano, seguito dal nostro Michele Ceres, quindi Raffaele Fiorentino di Castellammare di Stabia e il webmaster Pasquale Ceres, tutti con 25 punti.<br>&gt;<br><br>Cari amici,
+devo confessarvi (come ho già fatto con Alessandro) che Christian Meyer sono io. Ho usato un falso nome (che è quello del grandissimo batterista di Elio e le storie tese) per giocare una seconda schedina dopo quella che porta il mio vero nome. Non me ne vogliate.
+
+[post_text_12]
+Eh no, non si fa così! Quel pronostico mi spetta!
+&nbsp;
+Christian Meyer
+&nbsp;
 

@@ -1,0 +1,14 @@
+Autore::
+Titolo::21° Trofeo Brianzolo
+--- Begin body ---
+<br>
+<div align="center">
+<img id="fotoAllenamentoCollettivo" src="%file_root%custom/album/ars/NDA1.jpg" alt="" border="0" width="430">
+<br>
+</div>
+<br>
+Il volenteroso corridore della prestigiosa Marathon Club di Seveso 
+cede il passo ad un esponente di 
+un gruppo sportivo matricola del Brianzolo 2007
+<br><br>
+--- End body ---

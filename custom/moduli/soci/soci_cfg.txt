@@ -32,6 +32,7 @@ Giuseppe Martino::gerrymarty@msn.com::19/02/2007::socio ordinario::::16::Soci_ar
 # formato elenco_news:  data::news
 #
 [elenco_news]
+16/03/2007::Sondaggio Champions League 2006/07: offerte raccolte 3 euro.
 05/07/2006::Presentata alla Regione Campania domanda di finanziamento per la Stralaceno.
 08/06/2006::Sondaggio Mondiali di Calcio 2006: ceduti 152 biglietti; offerte raccolte 130 euro; regolarmente registrate 117 giocate.
 

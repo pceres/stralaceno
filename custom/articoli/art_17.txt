@@ -5,7 +5,11 @@ Titolo::Sondaggio Champions League 2006/07
 <div align="center">
 <img id="logo_Champions" src="%file_root%custom/album/varie/logo_Champions.jpg" alt="..." border="0" width="500">
 </div>
-<br>Le <b>Caratteristiche Principali</b> del sondaggio-studio proposto dall'ARS sulla Champions League 2006/07:
+<br>
+<b>Con la disputa delle gare di qualificazione ai quarti di finale, ha preso vita la <a href="questions.php?id_questions=2&amp;action=results">classifica</a>!</b>
+<br>
+<br>
+Le <b>Caratteristiche Principali</b> del sondaggio-studio proposto dall'ARS sulla Champions League 2006/07:
 <p>
 <br>
 <b>Criteri di determinazione della classifica finale</b>

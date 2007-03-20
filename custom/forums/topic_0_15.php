@@ -15,6 +15,18 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 1::Antonio::13/02/2007 16.37.05::visible
 2::Com. D'Auria Sindaco::02/03/2007 18.44.00::visible
 3::Pasquale C.::06/03/2007 01.00.59::visible
+4::Lista unitaria::10/03/2007 11.22.59::visible
+5::Jerry Notaro::12/03/2007 14.02.18::visible
+6::Runner::12/03/2007 15.17.24::visible
+7::Leo::12/03/2007 16.41.09::visible
+8::Voltaire::13/03/2007 19.21.46::visible
+9::Voltaire::13/03/2007 19.27.56::visible
+10::Pro-Gervasio::13/03/2007 20.40.26::visible
+11::Pasquale C. e Alessandro R.::13/03/2007 21.54.43::visible
+12::Politik::16/03/2007 19.10.58::visible
+13::Angelo::19/03/2007 10.48.10::visible
+14::Ale::19/03/2007 11.48.37::visible
+15::Angelo::19/03/2007 13.05.23::visible
 
 [post_text_0]
 Riceviamo da CLEON.REN e pubblichiamo:
@@ -130,4 +142,73 @@ Antonio
 [post_text_3]
 &gt;...è ormai chiaro che caposele vuole, quale nuovo sindaco, il presidente dell'ars... (www.irpinianews.it)
 &gt;<br>Seguite il link, c'e' stato un clamoroso sorpasso da parte di Gerardo Notaro!
+
+[post_text_4]
+Come era facilmente preventivabile la lista unitaria ha avuto il suo epilogo.
+Poche sono state le reazioni al mio articolo, con rammarico ho visto che sul sito caposele online è stato (sono stato)censurato chissà perchè ci si sente presi in giro.
+Comunque a distanza di pochi giorni dalla tornata elettorale le proiezioni e sensazioni (personali) danno in vantaggio la lista arcobaleno.
+Troppo tempo sta perdendo l'opposizione....
+Perche su tale sito non si organizza un serio sondaggio? A differenza della pagliacciata  comparsa su irpinianews.
+
+[post_text_5]
+&gt;Come era facilmente preventivabile la lista unitaria ha avuto il suo epilogo.
+<br>&gt;Poche sono state le reazioni al mio articolo, con rammarico ho visto che sul sito caposele online è stato (sono stato)censurato chissà perchè ci si sente presi in giro.
+<br>&gt;Comunque a distanza di pochi giorni dalla tornata elettorale le proiezioni e sensazioni (personali) danno in vantaggio la lista arcobaleno.
+<br>&gt;Troppo tempo sta perdendo l'opposizione....
+<br>&gt;Perche su tale sito non si organizza un serio sondaggio? A differenza della pagliacciata  comparsa su irpinianews.
+<br>&gt;<br><br>Mi sono sentito preso in giro perchè hai acconsetito ai tagli che ho proposto al tuo articolo ma poi lo hai riproposto in versione intergrale da un altra parte senza avvertire. Mi sembra sciocco lasciare su CaposeleOnline uno scritto che per scelta "editoriale" è stato modificato con il pieno consenso dell'autore se poi lo si può leggre in versione integrale da qualche altra parte. La mia battaglia contro gli sparasentenze anonimi continua e ritengo che debba essere condivisa dagli altri siti web di questo paese, bisognerebbe darsi tutti una bella "netiquette alla Caposelese".
+Saluti a tutti
+
+[post_text_6]
+&gt;...è ormai chiaro che caposele vuole, quale nuovo sindaco, il presidente dell'ars... (www.irpinianews.it)
+<br>&gt;<br><br>La lotta, serrata, ora è fra tre potenziali ottimi sindaci: Donato Gervasio-Nicola D'Auria-Gerardo Notaro!
+
+[post_text_7]
+Non credo prorio di prendere in giro qualcuno.
+E' vero i tagli sono stati decisi insieme, ma anzicchè non veder pubblicare l'articolo ho accettato le censure.
+L'articolo è stato inviato contemporaneamente a tutti i siti di Caposele ma solo dopo parecchio tempo è apparso su quello dell'ars; il non dire niente (a Caposeleonline) non significa prendere in giro o essere sciocchi, ma solo rispettare gli accordi presi. Poi la libertà di pensiero, senza offendere nessuno rimanendo anche anonimi, è solo da incentivare.
+Non mi considero affatto sparasentenze, ho solo osservato i fatti e pronosticato la loro conseguenziale e logica evoluzione.
+A presto.
+
+[post_text_8]
+Non condivido la tua idea, ma darei la vita affinchè tu la possa esprimere.
+
+[post_text_9]
+&gt;Non condivido la tua idea, ma darei la vita affinchè tu la possa esprimere.
+<br>&gt;<br><br>ecco a cosa deve ispirarsi la "netiquette alla Caposelese"
+
+[post_text_10]
+&gt;>...è ormai chiaro che caposele vuole, quale nuovo sindaco, il presidente dell'ars... (www.irpinianews.it)
+<br>&gt;>Seguite il link, c'e' stato un clamoroso sorpasso da parte di Gerardo Notaro!
+<br>&gt;<br><br>C'è un candidato sindaco quasi certo: Donato Gervasio! Sindaco subito!
+
+[post_text_11]
+&gt; La mia battaglia contro gli sparasentenze anonimi continua e ritengo
+&gt; che debba essere condivisa dagli altri siti web di  questo paese,
+&gt; bisognerebbe darsi tutti una bella "netiquette alla Caposelese".
+<br>Condividiamo i tuoi sforzi per portare le discussioni sul forum fuori dell'anonimato, anche noi in diverse occasioni abbiamo caldeggiato la necessita' di non abusarne, per evitare di dover "blindare" il forum, costringendo all'autenticazione preventiva (che renderebbe l'anonimato impossibile).
+Comunque cerchiamo di vigilare sul rispetto di tali norme, e rimaniamo disponibili ad eventuali censure nel caso qualcuno ritenga di essere offeso esplicitamente!
+&nbsp;
+D'altra parte, pero', riteniamo che, fermo restando il rispetto di norme di comportamento adeguate (non offendere, ad es.: la "netiquette", appunto), sia preferibile un post anonimo (di un utente per altri utenti, con una comunicazione bidirezionale) piuttosto che un post o un articolo, anche firmato, sempre delle stesse persone, che gli utenti "consumatori" devono subire senza poter rispondere con le loro idee.
+&nbsp;
+
+[post_text_12]
+si vota il 27 e il 28 maggio: le danze sono ufficialmente aperte.
+
+[post_text_13]
+Per Alex
+Martedì sarà ufficializzato il nome...
+&nbsp;
+
+[post_text_14]
+x Angelo
+&nbsp;
+Bene, sono previste sorprese dell'ultim'ora?
+&nbsp;
+&nbsp;
+
+[post_text_15]
+X Alex
+Quando torni ti illustrerò alcune cose.
+Ciao
 

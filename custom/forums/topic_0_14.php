@@ -21,6 +21,13 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 7::info::27/02/2007 13.02.46::visible
 8::Info::01/03/2007 10.48.12::visible
 9::info::05/03/2007 10.29.29::visible
+10::info::08/03/2007 13.07.51::visible
+11::Info::13/03/2007 10.22.53::visible
+12::Calciofilo::13/03/2007 12.27.03::visible
+13::Pasquale C.::13/03/2007 23.39.24::visible
+14::info::14/03/2007 11.07.08::visible
+15::Calciofilo::14/03/2007 15.44.22::hidden
+16::info::19/03/2007 10.41.39::visible
 
 [post_text_0]
 Qui aspettiamo i vostri commenti alle vicende calcistiche della F.C. Caposele.
@@ -51,4 +58,31 @@ Prossima partita: FC Caposele - Trevico il 04/03/2007 ore 15.00 a Caposele.
 
 [post_text_9]
 Risultato: FC Caposele - Trevico 10-2
+
+[post_text_10]
+Prossima gara Domenica 11 marzo ore 15.00 Aquilonia - FC Caposele ad Aquilonia.
+
+[post_text_11]
+Risultato Aquilonia - FC Caposele 2-1
+
+[post_text_12]
+&gt;Risultato Aquilonia - FC Caposele 2-1
+<br>&gt;<br><br>Nun n'g n fottu nu *****!!!!!!!!!
+
+[post_text_13]
+x Calciofilo:
+&nbsp;
+Il tuo e' il classico post anonimo offensivo che non rispetta la "netiquette": censurato!
+Se non sei interessato ai risultati (peraltro entusiasmanti!) della FC Caposele, puoi evitare di leggere il forum. Almeno non insultare chi dedica parte del suo tempo libero a curare questa sezione!
+&nbsp;
+
+[post_text_14]
+E' on line, nell'apposita sezione,  l'articolo sulla partita Aquilonia - FC Caposele
+
+[post_text_15]
+&gt;E' on line, nell'apposita sezione,  l'articolo sulla partita Aquilonia - FC Caposele
+<br>&gt;<br><br>Nun n'g n fott na mazza!!!!!!!!
+
+[post_text_16]
+Prossima partita: Real Sant'Andrea di Conza - FC Caposele il 21 marzo ore 15.00 a Sant'Andrea di Conza.
 

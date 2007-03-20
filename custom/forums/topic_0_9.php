@@ -42,6 +42,8 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 28::Salvatore::23/02/2007 13.59.25::visible
 29::Ale::26/02/2007 12.42.54::visible
 30::Salvatore::26/02/2007 13.48.57::visible
+31::Ale::20/03/2007 11.53.07::visible
+32::Salvatore::20/03/2007 14.20.00::visible
 
 [post_text_0]
 Fermate Nicola Melillo con questa stralaceno: anche i muri di materdomini e caposele non ne possono più.
@@ -187,4 +189,13 @@ Ciao
 
 [post_text_30]
 Ciao Ale purtroppo pioveva e non ho voluto rischiare di ammalarmi di nuovo..io cmq sono andato domenica mattina....x quanto riguarda le schede purtroppo la scuola è chiusa da giorni quindi nn ho potuto ritirare le schede visto che queste persone non sono di caposele...vabbè ci sentiamo questo fine settimana..ciao
+
+[post_text_31]
+x Salvatore
+&nbsp;
+Com'è andata la gara domenica?
+Io e Paolo qui a Roma abbiamo fatto 42 km e 195 metri...
+
+[post_text_32]
+E' andata bene....una gara di 13km,quindi anche piuttosto lunga....Sabato se torni facciamo un bel allenamento,tempo permettendo...ciao ale
 

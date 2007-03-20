@@ -6,6 +6,9 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+18/03/2007::Paolo Viscardi e Alessandro Russomanno hanno partecipato alla Maratona di Roma, portandola regolarmente a termine 
+16/03/2007::Nicola D'Auria ha partecipato alle varie prove podistiche del 21&deg; Campionato Brianzolo nel periodo gennaio-marzo.
+13/03/2007::Apre sul sito Ars la sezione Ambiente e Natura.
 19/02/2007::Giuseppe Martino &egrave; il 17&deg; socio degli Amatori Running Sele.
 01/02/2007::Una sezione del sito Ars Web ospita l'associazione F.C. Caposele.
 10/01/2007::Il nostro socio Salvatore Merola entra a far parte dell'Atletica Camaldolese, associazione podistica iscritta alla FIDAL. In bocca al lupo!
@@ -37,4 +40,4 @@
 # formato testo_footer:  testo
 #
 [testo_footer]
-Ultimo aggiornamento effettuato il 19/02/2007
+Ultimo aggiornamento effettuato il 18/03/2007

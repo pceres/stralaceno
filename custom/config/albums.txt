@@ -11,6 +11,7 @@ retro.gif
 stemma_caposele.jpg
 ars_semplificato.jpg
 Stemma_Caposele_Malanga_V.jpg  
+NDA1.jpg
 
 [All.Coll.05]
 ManifestoAll.Coll.05.jpg::
@@ -120,10 +121,15 @@ fc3.jpg::::FC Caposele - Vallesaccarda (18/02/07)
 fc7.jpg::::FC Caposele - Vallesaccarda (18/02/07)
 fc6.jpg::::FC Caposele - Vallesaccarda (18/02/07)
 fc9.jpg::::FC Caposele - Vallesaccarda (18/02/07)
+fc13.jpg::::FC Caposele - Vallesaccarda (18/02/07)
+fc15.jpg::::FC Caposele - Vallesaccarda (18/02/07)
 fc8.jpg::::FC Caposele - Vallesaccarda (18/02/07)
 fc5.jpg::::FC Caposele - Vallesaccarda (18/02/07)
 fc10.jpg::::FC Caposele - Vallesaccarda (18/02/07)
 fc4.jpg::::FC Caposele - Vallesaccarda (18/02/07): Nell'intervallo, Raffaele Sista impartisce nuove disposizioni tattiche sotto lo sguardo attento di  Massimo Cetrulo e Salvatore Corona.
+fc14.jpg::::Casabianchi Trevico - FC Caposele (25/02/07)
 fc2.jpg::::Casabianchi Trevico - FC Caposele (25/02/07)
 fc11.jpg::::Casabianchi Trevico - FC Caposele (25/02/07)
 fc12.jpg::::Casabianchi Trevico - FC Caposele (25/02/07)
+fc16.jpg::::Casabianchi Trevico - FC Caposele (25/02/07)
+

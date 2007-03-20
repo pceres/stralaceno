@@ -3,17 +3,17 @@ Titolo::Allievi provinciali
 --- Begin body ---
 <br>
 Girone B<br>
-<b>Classifica dopo 9 giornate</b><br>
+<b>Classifica dopo 11 giornate</b><br>
 <br>
 <u>Squadra, punti, (partite giocate)</u> <br><br>  
-1.F.C. Caposele <b>19</b> (8)<br><br>
-2.G.Siconolfi Sant'Angelo dei Lomb. <b>15</b> (7)<br><br>  
-3.Polisportiva Calitri <b>15</b> (8)<br><br>  
-4.Sporting Club Lioni <b>15</b> (8)<br><br>
-5.Volturara Terminio <b>14</b> (8)  <i>1 punto di penalizzazione</i><br><br>    
-6.V.Nigro Bagnoli Irp. <b>10</b> (8)<br><br> 
-7.Real Sant'Andrea di Conza <b>6</b> (7) <i>1 punto di penalizzazione</i><br><br>  
-8.Paternopoli <b>2</b> (8) <i>2 punti di penalizzazione</i><br><br>  
-9.Atletico San Potito Ultra <b>2</b> (8)<br><br>  
+1.F.C. Caposele <b>22</b> (9)<br><br>
+2.Sporting Club Lioni <b>21</b> (10)<br><br>
+3.Volturara Terminio <b>17</b> (10)  <i>1 punto di penalizzazione</i><br><br>    
+4.Polisportiva Calitri <b>15</b> (9)<br><br>  
+5.G.Siconolfi Sant'Angelo dei Lomb. <b>15</b> (9)<br><br>  
+6.V.Nigro Bagnoli Irp. <b>13</b> (10)<br><br> 
+7.Real Sant'Andrea di Conza <b>12</b> (9) <i>1 punto di penalizzazione</i><br><br>  
+8.Atletico San Potito Ultra <b>5</b> (10)<br><br>
+9.Paternopoli <b>1</b> (10) <i>3 punti di penalizzazione</i><br><br>  
 <br>
 --- End body ---

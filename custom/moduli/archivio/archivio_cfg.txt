@@ -17,6 +17,7 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
+18::homepage::Allenamento Collettivo 30.12.2006::
 19::homepage::Prima Strauniversit&agrave; a Fisciano (Sa)::
 16::homepage::Foto ArsWeb nov.06::Pasquale Ceres
 14::homepage::Attivit&agrave; podistica 2006::
@@ -39,4 +40,4 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 #
 [elenco_pagine]
 %script_root%questions.php?id_questions=1::Sondaggio Mondiali 2006
-%script_root%statistiche.php?action=show&amp;id_questions=1::Statistiche Sondaggio Mondiali 2006
+%script_root%statistiche.php?action=show&id_questions=1::Statistiche Sondaggio Mondiali 2006
