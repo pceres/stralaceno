@@ -69,5 +69,6 @@ Link::
 [Link]
 StralacenoWeb::<b>StralacenoWeb</b>::external_link::http://pceres.altervista.org/stralaceno/index.php::
 federazione_calcio::FIGC::external_link::http://www.figc.it::
+lega_nazionale_dilettanti::Lega Nazionale Dilettanti::external_link::http://www.lnd.it::
 federazione_Campania::Figc Campania::external_link::http://www.figc-campania.it::
 federazione_Avellino::Figc Avellino::external_link::http://www.figcavellino.it::
