@@ -56,29 +56,6 @@ default:
 
 <?php
 
-// // scelta password
-// switch ($sezione)
-// {
-// case '':
-// case 'homepage':
-// 	$password_ok = $password_articoli;
-// 	break;
-// case 'ciclismo':
-// 	$password_ok = 'f055d8b5317237d7e3e50b3c3c38667c'; // "Bartali"
-// 	break;
-// case 'FC_caposele':
-// 	$password_ok = 'd5aa82c231314da451812262871076bf'; // "palumenta"
-// 	break;
-// default:
-// 	die("La sezione $sezione non e' ancora gestita! Contattare l'amministratore.");
-// }
-// 
-// if ($password != $password_ok)
-// {
-// 	echo "<a href=\"articoli.php?section=$sezione\">Torna indietro</a><br><br>\n";
-// 	die("La password inserita non &egrave; corretta!<br>\n");
-// }
-
 // verifica che l'utente sia autorizzato per l'operazione richiesta
 $res = check_auth('gestione_articoli',"$mode;$data;$sezione",$login['username'],$login['usergroups'],false);
 if (!$res)
