@@ -36,10 +36,9 @@ if ( !isset($_SERVER['HTTP_REFERER']) | ("http://".$_SERVER['HTTP_HOST'].$script
 
 <?php
 
-
 $old_name = $_FILES['userfile']['name'];
 $new_name = $_REQUEST['filename'];
-$password = $_REQUEST['password'];
+// $password = $_REQUEST['password'];
 $author = $_REQUEST['author'];
 $title = $_REQUEST['title'];
 $sezione = $_REQUEST['section'];
@@ -49,24 +48,6 @@ $id_articolo = $_REQUEST['id_articolo'];
 $art_file_data = get_articles_path($sezione);
 $path_articles 	= $art_file_data["path_articles"];	// cartella contenente gli articoli
 $article_online_file = $art_file_data["online_file"];	// file contenente l'elenco degli articoli online
-
-// // scelta password
-// switch ($sezione)
-// {
-// case '':
-// case 'homepage':
-// 	$password_ok = $password_articoli;
-// 	break;
-// case 'ciclismo':
-// 	$password_ok = 'f055d8b5317237d7e3e50b3c3c38667c'; // "Bartali"
-// 	break;
-// case 'FC_caposele':
-// 	$password_ok = 'd5aa82c231314da451812262871076bf'; // "palumenta"
-// 	break;
-// default:
-// 	die("La sezione $sezione non e' ancora gestita! Contattare l'amministratore.");
-// }
-// 
 
 
 // verifica che l'utente sia autorizzato per l'operazione richiesta
@@ -79,17 +60,6 @@ else
 {
 	$ok = TRUE;
 }
-
-
-// if ($password_ok == $password) 
-// {
-// 	$ok = TRUE;
-// }
-// else
-// {
-// 	$ok = FALSE;
-// }
-
 
 
 
@@ -161,6 +131,41 @@ if ($articolo_subito_online)
 	// salva il nuovo elenco degli articoli online
 	publish_online_articles($art_list,$sezione);
 }
+
+// prepara i dati per il feed RSS
+// error_reporting(2039); // otherwise "StripDoubleColon($HTTP_REFERER);" gives error. Show all errors but notices
+$art_data = load_article($id_articolo,$sezione); // carica l'articolo
+
+$azione 	= 'pubblicato';
+$content_time 	= strtotime(date('D, j M Y G:i:s'));
+$art_link 	= "index.php?page=$sezione&amp;art_id=$id_articolo;time=$content_time";
+$guid 		= "$sezione,$id_articolo,{$art_data['autore']}";
+
+$bulk= get_abstract($art_data['testo'],'...');
+
+$riassunto = '';
+foreach ($bulk as $id => $linea)
+{
+	$linea = ereg_replace(Array("\n","\r"),Array("<br>",""),rtrim($linea));
+	$riassunto .= $linea;
+}
+
+$titolo = $art_data['titolo'];
+if (!empty($art_data['autore']))
+{
+	$titolo .= " ($azione da {$art_data['autore']})";
+}
+
+$item['title'] 		= $titolo;
+$item['description'] 	= $riassunto;
+$item['link'] 		= $art_link;
+$item['guid'] 		= "$sezione,$id_articolo,{$art_data['autore']},".date('D, j M Y G:i:s');
+$item['category'] 	= "Sezione $sezione";
+$item['pubDate'] 	= gmdate('D, j M Y G:i:s +0000',$content_time);
+$item['author'] 	= $art_data['autore'];
+$item['username']	= $username;
+
+log_new_content('articolo_new',$item);
 
 # logga il contatto
 $counter = count_page("admin_upload_articoli",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
