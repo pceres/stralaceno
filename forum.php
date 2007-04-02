@@ -520,6 +520,7 @@ while ($action)
 <tr class="TSfondoMedio">
 	<td class="Small"><center><b><?php echo $post_author; ?></b></center></td>
 	<td class="Small">
+		<a name="post_id_<?php echo $post_id; ?>"></a>
 		<b>
 <!--		<img src="caposele_data/icon_smile.gif" align="middle" hspace="5" alt="emoticon">-->
 		
@@ -1200,6 +1201,20 @@ save_config_file($file_templog,$templog);
 			save_config_file($file_forums,$forums);
 			save_config_file($file_forum,$topics);
 			save_config_file($file_topic,$posts);
+			
+			// prepara i dati per il log dei nuovi contenuti
+			$item['title'] 		= 'Nuovo messaggio sul forum: '.$topics['elenco_topics'][$topic_id][$indice_topic_caption]." (msg. $post_id)";
+			$item['description'] 	= ereg_replace("\r\n","<br>",$post_testo);
+			$item['link'] 		= "forum.php?action=list_posts&amp;data=$forum_id,$topic_id&amp;post_id=$post_id";
+			$item['guid'] 		= "$forum_id,$topic_id,$post_id";
+			$item['category'] 	= "forum";
+			
+			$date_unix = substr($post_date,3,2)."/".substr($post_date,0,2)."/".substr($post_date,6,4)." ".substr($post_date,11,2).":".substr($post_date,14,2).":".substr($post_date,17,2);
+			$item['pubDate'] 	= gmdate('D, j M Y G:i:s +0000',strtotime($date_unix));
+			$item['author'] 	= $post_author;
+			$item['username']	= $username;
+			
+			log_new_content('forum',$item);
 		}
 		
 		
