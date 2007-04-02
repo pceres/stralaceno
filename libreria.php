@@ -208,6 +208,7 @@ $filename_challenge		= $config_dir."challenge.php";	// l'estensione e' php in mo
 $filename_layout_left		= $config_dir.'layout_left.txt';
 $filename_layout_right		= $config_dir.'layout_right.txt';
 $filename_header		= $root_path.'custom/templates/header.php';
+$filename_logfile_content	= $filedir_counter."log_contents.php";
 
 
 # personalizzazione nomi di file in base alla sezione
@@ -265,7 +266,7 @@ $filenames = array('filename_css' => $filename_css,'filename_cfgfile' => $filena
 	'filename_atleti' => $filename_atleti,'filename_organizzatori' => $filename_organizzatori,'filedir_counter' => $filedir_counter,
 	'articles_dir' => $articles_dir,'article_online_file' => $article_online_file,'filename_links' => $filename_links,
 	'filename_albums' => $filename_albums,'filename_users'=>$filename_users,'filename_challenge'=>$filename_challenge,
-	'filename_layout_left' => $filename_layout_left, 'filename_layout_right' => $filename_layout_right, 'filename_header' => $filename_header);
+	'filename_layout_left' => $filename_layout_left, 'filename_layout_right' => $filename_layout_right, 'filename_header' => $filename_header,'filename_logfile_content' => $filename_logfile_content);
 $pathnames = array('root_prefix' => $root_prefix,'root_path' => $root_path,'site_abs_path' => $site_abs_path,
 	'script_abs_path' => $script_abs_path,'modules_site_path' => $modules_site_path,'modules_dir' => $modules_dir,
 	'config_dir' => $config_dir,'album_dir' => $album_dir,'questions_dir' => $questions_dir);
@@ -1045,7 +1046,7 @@ function load_article($art_id, $sezione)
 }
 
 
-function get_abstract($testo_in,$puntini) 
+function get_abstract($testo_in,$puntini)
 {
 // $puntini e' il link che viene aggiunto in coda, subito prima di chiudere eventuali tag html rimasti aperti
 
@@ -1960,6 +1961,32 @@ foreach ($lista_separatore as $id => $separatore)
 
 return $stringa;
 } // end function prime_lettere_maiuscole($stringa)
+
+
+function log_new_content($content_type,$item) {
+
+# dichiara variabili
+extract(indici());
+
+$logfile = $filename_logfile_content;	// file di log dei nuovi contenuti
+
+$log=      $content_type;
+$log.='::'.$item['title'];
+$log.='::'.$item['description'];
+$log.='::'.$item['link'];
+$log.='::'.$item['guid'];
+$log.='::'.$item['category'];
+$log.='::'.$item['pubDate'];
+$log.='::'.$item['author'];
+$log.='::'.$item['username']."\r\n";
+
+//append current visit to log file
+$cf = fopen($logfile, 'a');
+fwrite($cf, $log);
+fclose($cf);
+
+} // end function log_new_content($content_type,$item)
+
 
 
 //Page properties definitions
