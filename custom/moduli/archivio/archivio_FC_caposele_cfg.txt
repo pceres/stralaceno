@@ -1,0 +1,22 @@
+#
+# ARS Amatori Running Sele
+#
+
+#
+# formato elenco_album:  tag_album::nome_album::descrizione
+#
+[elenco_album]
+FC_caposele::F.C. Caposele::L'album di famiglia della F.C. Caposele
+
+#
+# formato elenco_articoli:  id_articolo::sezione::titolo::autore
+#
+[elenco_articoli]
+2::FC_caposele::La squadra dell'F.C. Caposele::
+
+#
+# formato elenco_pagine:  tag_pagina::titolo_pagina::titolo::autore
+#
+[elenco_pagine]
+#%script_root%questions.php?id_questions=1::Sondaggio Mondiali 2006
+#%script_root%statistiche.php?action=show&id_questions=1::Statistiche Sondaggio Mondiali 2006
