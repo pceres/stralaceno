@@ -44,6 +44,12 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 30::Salvatore::26/02/2007 13.48.57::visible
 31::Ale::20/03/2007 11.53.07::visible
 32::Salvatore::20/03/2007 14.20.00::visible
+33::Ale::26/03/2007 10.43.15::visible
+34::Salvatore::26/03/2007 14.38.35::visible
+35::Ale::26/03/2007 15.11.45::visible
+36::Salvatore::26/03/2007 18.34.43::visible
+37::Ale::27/03/2007 10.20.03::visible
+38::Salvatore::27/03/2007 14.06.54::visible
 
 [post_text_0]
 Fermate Nicola Melillo con questa stralaceno: anche i muri di materdomini e caposele non ne possono più.
@@ -198,4 +204,39 @@ Io e Paolo qui a Roma abbiamo fatto 42 km e 195 metri...
 
 [post_text_32]
 E' andata bene....una gara di 13km,quindi anche piuttosto lunga....Sabato se torni facciamo un bel allenamento,tempo permettendo...ciao ale
+
+[post_text_33]
+Ancora un'altra assenza di Salvatore Merola all'allenamento del sabato. La cosa inizia a preoccuparmi...
+&nbsp;
+ciao
+
+[post_text_34]
+X Alessandro
+&nbsp;
+&nbsp;
+Alessà nessuna preoccupazione...è succeso che giovedì sono caduto e sabato avevo ancora il ginocchio un pò gonfio e faceva male...adesso è tutto ok,infatti tra circa un'ora nuova seduta di allenamento,nonostante la pioggia...
+mi dispiace per sabato ma proprio non potevo correre..com'è andato l'allenamento?
+ciao
+
+[post_text_35]
+Abbiamo fatto 10 km: io, Donatello, Nic Melillo, Francesco Ceres e Paolo.
+Ci riproviamo allora il prossimo fine settimana. ciao
+
+[post_text_36]
+We alessà da poco sono tornato dall'allenamento.,ho fatto 10 km a 4' 30''..poi ci mettiamo  d'accordo x questo fine settimana,anche se x me è sempre meglio la domenica mattina che il sabato pomeriggio,perchè il sabato nn ci sono sempre...cmq vedremo...ciao
+un saluto a Paolo,Donatello e il resto dei soci...ciaooo
+
+[post_text_37]
+x salvatore
+&nbsp;
+Bene, il prossimo fine settimana l'allenamento è previsto per domenica mattina, in quanto io e Donatello sabato pomeriggio siamo impegnati. Poi ci accordiamo.
+&nbsp;
+Complimenti per i tuoi tempi di allenamento. Continua così!
+&nbsp;
+Hai individuato gare podistiche fattibili nel mese di aprile?
+&nbsp;
+ciao.
+
+[post_text_38]
+Domenica mattina di sicuro ci sarò...x quanto riguarda le gare il 25 aprile c'è a Montemiletto una gara di 10 km...solo che io sarò in gita a Genova quindi nn ci sarò di sicuro..mentre il 15 aprile c'è una mezza maratona ad Atripalda e parlando con Paolo penso che siamo intenzionata a farla...domenica parliamo....ciao
 

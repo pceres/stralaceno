@@ -28,6 +28,8 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 14::info::14/03/2007 11.07.08::visible
 15::Calciofilo::14/03/2007 15.44.22::hidden
 16::info::19/03/2007 10.41.39::visible
+17::info::21/03/2007 11.25.44::visible
+18::cibellis::30/03/2007 00.54.01::visible
 
 [post_text_0]
 Qui aspettiamo i vostri commenti alle vicende calcistiche della F.C. Caposele.
@@ -85,4 +87,10 @@ E' on line, nell'apposita sezione,  l'articolo sulla partita Aquilonia - FC Capo
 
 [post_text_16]
 Prossima partita: Real Sant'Andrea di Conza - FC Caposele il 21 marzo ore 15.00 a Sant'Andrea di Conza.
+
+[post_text_17]
+Da oggi tutti gli aggiornamenti sull'attività della FC Caposele (date partite, risultati ecc.), li trovate nell'apposita sezione cliccando su --News sez. F.C. Caposele--
+
+[post_text_18]
+ma è una squadra di cibellis?
 

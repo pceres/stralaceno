@@ -6,6 +6,11 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+02/04/2007::Prossima partita: Real S.Andrea Conza - FC Caposele a Sant'Andrea di Conza il 04/04/2007 ore 16.00
+01/04/2007::Conza - FC Caposele 2-7
+29/03/2007::Prossima partita: Conza - FC Caposele a Teora il 01/04/2007 ore 16.00
+25/03/2007::FC Caposele - Sporting Club Nusco 3-1
+22/03/2007::La partita Real S.Andrea di Conza - FC Caposele &egrave; stata rinviata a data da destinarsi per impraticabilit&agrave; del campo di gioco
 01/02/2007::Inaugurata la sezione "F.C. Caposele" sul sito ArsWeb
 
 #

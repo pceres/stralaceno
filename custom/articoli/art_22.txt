@@ -1,0 +1,16 @@
+Autore::
+Titolo::Maratona di Roma 2007
+--- Begin body ---
+<br>
+Il 16 marzo 2007 si è svolta la 13<sup>a</sup> edizione della Maratona di Roma; oltre 15.ooo gli atleti al via, tra loro anche due rappresentanti degli Amatori Running Sele, Paolo Viscardi e 
+Alessandro Russomanno, che hanno portato a termine la gara, percorrendo i tradizionali 42 km e 195 metri. 
+<br><br>
+<div align="center">
+<img id="fotoAllenamentoCollettivo" src="%file_root%custom/album/Roma_07/MR3.jpg" alt="" border="0" width="380">
+<br>
+</div>
+<br>
+<br>
+<i>Le foto sono disponibili <a href="album.php?anno=Roma_07">qui</a></i>
+<br><br>
+--- End body ---

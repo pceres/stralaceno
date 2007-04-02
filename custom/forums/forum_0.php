@@ -23,13 +23,12 @@ Formato [elenco_topics]:
 6::Come funziona il forum::open::::::ceres::3::2
 7::le sfide della Stralaceno::open::::::foxy::104::103
 8::soddisfatti della stralaceno edizione 2006???::open::::::cabo86::4::3
-9::Discussione::open::::::Antonio::33::32
+9::Discussione::open::::::Antonio::39::38
 10::ci siete?????::open::::::cabo::8::7
 11::La nuova sezione ciclismo::open::::::Donato Gervasio::6::5
 12::Allenamento Collettivo 30-12-2006::open::::::Ars::40::39
 13::per nazòn::open::::::antonio::4::3
-14::F.C. Caposele::open::::::Ars::16::16
-15::Elezioni comunali a Caposele::open::::::Cleon.ren::16::15
-16::La nuova sezione Ambiente e Natura::open::::::Ambiente::5::4
-17::pre l'inviato::open::::::Christian Meyer::1::0
+14::F.C. Caposele::open::::::Ars::18::18
+15::Elezioni comunali a Caposele::open::::::Cleon.ren::19::18
+16::La nuova sezione Ambiente e Natura::open::::::Ambiente::11::10
 

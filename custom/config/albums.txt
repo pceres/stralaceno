@@ -12,6 +12,7 @@ stemma_caposele.jpg
 ars_semplificato.jpg
 Stemma_Caposele_Malanga_V.jpg  
 NDA1.jpg
+ars.jpg::
 
 [All.Coll.05]
 ManifestoAll.Coll.05.jpg::
@@ -133,3 +134,14 @@ fc11.jpg::::Casabianchi Trevico - FC Caposele (25/02/07)
 fc12.jpg::::Casabianchi Trevico - FC Caposele (25/02/07)
 fc16.jpg::::Casabianchi Trevico - FC Caposele (25/02/07)
 
+
+[Roma_07]
+MR1.jpg::
+MR9.jpg::
+MR2.jpg::
+MR3.jpg::
+MR4.jpg::
+MR8.jpg::
+MR5.jpg::
+MR6.jpg::
+MR7.jpg::

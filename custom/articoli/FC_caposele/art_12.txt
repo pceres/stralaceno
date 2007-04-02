@@ -1,0 +1,162 @@
+Autore::
+Titolo::Campionato Provinciale Allievi
+--- Begin body ---
+<br>
+<div align="center">
+<!-- 
+	inizio tabella classifica
+-->
+	Classifica dopo 13 giornate
+<table class="tabella" style="font-size:13.0pt;">
+<tbody><tr><td><table>
+<thead><tr>
+	<th>&nbsp;</th>
+	<th>&nbsp;</th>
+	<th>punti</th>
+	<th title="partite giocate">g</th>
+	<th title="partite vinte">v</th>
+	<th title="partite pareggiate">n</th>
+	<th title="partite perse">p</th>
+	<th title="reti fatte">rf</th>
+	<th title="reti subite">rs</th>
+	<th title="differenza reti">dr</th>
+	
+</tr></thead>
+<tbody align="center">
+<!-- 
+	inizio tabella classifica
+-->
+	
+<!-- # pos. 1 in classifica -->
+<tr>
+	<td>1</td>
+	<td align="left">&nbsp;F.C. Caposele</td>
+	<td>25</td>
+	<td>10</td>
+	<td>8</td>
+	<td>1</td>
+	<td>1</td>
+	<td>34</td>
+	<td>9</td>
+	<td>25</td>
+	
+</tr>
+<!-- # pos. 2 in classifica -->
+<tr>
+	<td>2</td>
+	<td align="left">&nbsp;Sporting Club Lioni</td>
+	<td>21</td>
+	<td>10</td>
+	<td>7</td>
+	<td>0</td>
+	<td>3</td>
+	<td>31</td>
+	<td>21</td>
+	<td>10</td>
+	
+</tr>
+<!-- # pos. 3 in classifica -->
+<tr>
+	<td>3</td>
+	<td align="left">&nbsp;Volturara Terminio (penalit&agrave; 1 punto)</td>
+	<td>21</td>
+	<td>12</td>
+	<td>7</td>
+	<td>1</td>
+	<td>4</td>
+	<td>32</td>
+	<td>23</td>
+	<td>9</td>
+	
+</tr>
+<!-- # pos. 4 in classifica -->
+<tr>
+	<td>4</td>
+	<td align="left">&nbsp;V.Nigro Bagnoli Irp.</td>
+	<td>19</td>
+	<td>12</td>
+	<td>6</td>
+	<td>1</td>
+	<td>5</td>
+	<td>26</td>
+	<td>21</td>
+	<td>5</td>
+	
+</tr>
+<!-- # pos. 5 in classifica -->
+<tr>
+	<td>5</td>
+	<td align="left">&nbsp;G.Siconolfi Sant'Angelo dei Lomb.</td>
+	<td>18</td>
+	<td>10</td>
+	<td>6</td>
+	<td>0</td>
+	<td>4</td>
+	<td>31</td>
+	<td>31</td>
+	<td>0</td>
+	
+</tr>
+<!-- # pos. 6 in classifica -->
+<tr>
+	<td>6</td>
+	<td align="left">&nbsp;Polisportiva Calitri</td>
+	<td>16</td>
+	<td>11</td>
+	<td>5</td>
+	<td>1</td>
+	<td>5</td>
+	<td>32</td>
+	<td>26</td>
+	<td>6</td>
+	
+</tr>
+<!-- # pos. 7 in classifica -->
+<tr>
+	<td>7</td>
+	<td align="left">&nbsp;Real Sant'Andrea di Conza (penalit&agrave; 3 punti)</td>
+	<td>10</td>
+	<td>11</td>
+	<td>4</td>
+	<td>1</td>
+	<td>6</td>
+	<td>18</td>
+	<td>29</td>
+	<td>-11</td>
+	
+</tr>
+<!-- # pos. 8 in classifica -->
+<tr>
+	<td>8</td>
+	<td align="left">&nbsp;Atletico San Potito Ultra</td>
+	<td>8</td>
+	<td>12</td>
+	<td>2</td>
+	<td>2</td>
+	<td>8</td>
+	<td>15</td>
+	<td>34</td>
+	<td>-19</td>
+	
+</tr>
+<!-- # pos. 9 in classifica -->
+<tr>
+	<td>9</td>
+	<td align="left">&nbsp;Paternopoli (esclusa)</td>
+	<td>1</td>
+	<td>11</td>
+	<td>1</td>
+	<td>1</td>
+	<td>9</td>
+	<td>15</td>
+	<td>39</td>
+	<td>-24</td>
+	
+</tr>
+</tbody>
+</table></td></tr></tbody></table>
+<!-- 
+	fine tabella classifica
+-->
+</div>
+--- End body ---

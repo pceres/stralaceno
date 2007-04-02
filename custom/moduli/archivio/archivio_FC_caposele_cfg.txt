@@ -12,7 +12,7 @@ FC_caposele::F.C. Caposele::L'album di famiglia della F.C. Caposele
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
-2::FC_caposele::La squadra dell'F.C. Caposele::
+5::FC_caposele::F.C. Caposele - Morra De Sanctis 4-0::Massimo Cetrulo
 
 #
 # formato elenco_pagine:  tag_pagina::titolo_pagina::titolo::autore

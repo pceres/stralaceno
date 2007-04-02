@@ -27,6 +27,9 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 13::Angelo::19/03/2007 10.48.10::visible
 14::Ale::19/03/2007 11.48.37::visible
 15::Angelo::19/03/2007 13.05.23::visible
+16::Politik::28/03/2007 10.01.58::visible
+17::Gerardo::01/04/2007 17.19.16::visible
+18::Curioso::02/04/2007 16.28.46::visible
 
 [post_text_0]
 Riceviamo da CLEON.REN e pubblichiamo:
@@ -211,4 +214,16 @@ Bene, sono previste sorprese dell'ultim'ora?
 X Alex
 Quando torni ti illustrerò alcune cose.
 Ciao
+
+[post_text_16]
+Ci siamo con le liste? Due o più?
+
+[post_text_17]
+Situazione ingarbugliata, circolano nomi e liste inesistenti.
+Speriamo ci sia un rinnovamento e soprattutto competenza.
+Attenzione: ai giovani che si troveranno in lista non assumete una posizione
+di subalternità (come è avvenuto) ma portate avanti le idee nuove che avete e che sono state la ragione fondamentale per il vostro inserimento in lista.
+
+[post_text_18]
+Si parla ancora di una terza lista? Chi ne sarebbe a capo e con quale prospettiva politica?
 

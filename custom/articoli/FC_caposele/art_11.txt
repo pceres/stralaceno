@@ -1,0 +1,13 @@
+Autore::
+Titolo::La rosa degli Allievi
+--- Begin body ---
+<br>
+Gli Allievi della F.C. Caposele:<br><br>
+Ceres Francesco, Ceres Rocco, Chiaravallo Raffaele, Galdi Simone, <br>Grasso Gelsomino, Grasso Gerardo,  
+Lardieri Felice, Malanga Donato, <br>Malanga Roberto, Mazziotta Mauro, Melillo Nicola, Monteverde Gerardo, <br>
+Proietto Marco, Rosania Vito, Russomanno Luigi, Russomanno Rocco, <br> Sista Benito.
+<br><br>
+Responsabile tecnico: Melillo Gerardo Ernesto<br>
+Preparatore atletico: Ceres Donato
+<br>
+--- End body ---

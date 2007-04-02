@@ -9,7 +9,7 @@ si porta in solitaria al comando della classifica del girone G.
 <br>
 <br>
 <div align="center">
-<img id="fotoFC_Caposele" src="%file_root%custom/album/FC_Caposele/fc5.jpg" alt="" border="0" width="450">
+<img id="fotoFC_caposele" src="%file_root%custom/album/FC_caposele/fc5.jpg" alt="" border="0" width="450">
 </div>
 <br><br>
 La prima occasione della partita capita al 5', quando dalla sinistra Proietto mette al centro per Ermanno Grasso che prova il tiro
@@ -31,7 +31,7 @@ Sugli sviluppi dello stesso Donatiello colpisce il palo con un bel tiro.<br>
 L'ultima azione della prima frazione di gioco capita sui piedi di Proietto che, da buona posizione, calcia alto.<br><br>
 <br>
 <div align="center">
-<img id="fotoFC_Caposele" src="%file_root%custom/album/FC_Caposele/fc4.jpg" alt="" border="0" width="450">
+<img id="fotoFC_caposele" src="%file_root%custom/album/FC_caposele/fc4.jpg" alt="" border="0" width="450">
 </div>
 <br><br>
 La ripresa comincia con l'ingresso in campo di Ciccone al posto di Donatiello.<br>
