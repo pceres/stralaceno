@@ -35,6 +35,7 @@ flash_news_FC_caposele_cfg.txt::%modules_dir%flash_news/::gestione News Flash se
 flash_news_ambiente_cfg.txt::%modules_dir%flash_news/::gestione News Flash sezione ambiente::admin::0cdaa4d3a5cfbe7cda4facf4d7501021
 siti_amici_cfg.txt::%modules_dir%siti_amici/::gestione elenco siti Caposele sul Web::admin::f2a24930901df6192297dcfddfc096ef
 archivio_cfg.txt::%modules_dir%archivio/::gestione archivio album e articoli::admin::d36923926ed59333afab0bba1a4ad5e5
+archivio_FC_caposele_cfg.txt::%modules_dir%archivio/::gestione archivio sezione FC Caposele::admin::d36923926ed59333afab0bba1a4ad5e5
 classifica_campionato_cfg.txt::%modules_dir%classifica_campionato/::gestione classifica e risultati ultima giornata::admin::d36923926ed59333afab0bba1a4ad5e5
 
 # sondaggi/lotterie
