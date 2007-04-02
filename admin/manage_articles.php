@@ -6,7 +6,7 @@ require_once('../libreria.php');
 extract(indici());
 
 /*
-questa libreria esamina i cookies o i parametri http (eventualmente) inviati, e genera l'array $login con i campi
+questa libreria esamina i cookies o i parametri http (eventualmente) inviati, e genera l'array $login con i camp
 'username',	: login
 'usergroups',	: lista dei gruppi di appartenenza (separati da virgola)
 'status',		: stato del login: 'none','ok_form','ok_cookie','error_wrong_username','error_wrong_userpass','error_wrong_challenge','error_wrong_IP'
@@ -92,9 +92,11 @@ case 'set_online_articles':
 	break;
 	
 case 'cancel':
-	echo("Cancellazione dell'articolo con ID ".$data.":<br>\n");
+	$id_articolo = $data; // articolo da cancellare
 	
-	$art_data = load_article($data,$sezione); // carica l'articolo
+	echo("Cancellazione dell'articolo con ID ".$id_articolo.":<br>\n");
+	
+	$art_data = load_article($id_articolo,$sezione); // carica l'articolo
 	if (!empty($art_data)) // se l'articolo esiste...
 	{
 		echo "<table class=\"frame_delimiter\"><tbody>";
@@ -105,21 +107,20 @@ case 'cancel':
 	// leggi l'elenco degli articoli gia' online
 	$art_list = get_online_articles($article_online_file); // carica l'elenco degli articoli da pubblicare
 	
-	if (in_array($data,$art_list))
+	if (in_array($id_articolo,$art_list))
 	{
 		echo "<a href=\"articoli.php?section=$sezione\">Torna indietro</a><br><br>\n";
 		die("L'articolo e' ancora online, non puo' essere cancellato! Provvedi prima a metterlo offline.");
 	}
 	
 	// a questo punto sono sicuro che l'id dell'articolo da cancellare non e' nell'elenco di quelli online
-	
-	if (delete_article($data,$sezione)) // cancello fisicamente il file
+	if (delete_article($id_articolo,$sezione)) // cancello fisicamente il file
 	{
-		echo "L'articolo con id $data e' stato cancellato!<br>\n";
+		echo "L'articolo con id $id_articolo e' stato cancellato!<br>\n";
 	}
 	else
 	{
-		echo "L'articolo con id $data e' gia' stato cancellato!<br>\n";
+		echo "L'articolo con id $id_articolo e' gia' stato cancellato!<br>\n";
 	}
 
 	break;
@@ -173,6 +174,7 @@ case 'edited':
 	
 	$zz = split("\n",$testo);
 	
+	$art_data['testo'] = Array();
 	for ($i = 0; $i<count($zz); $i++)
 	{
 		$line = trim($zz[$i],"\r\n");
@@ -186,6 +188,41 @@ case 'edited':
 	}
 	
 	save_article($id_articolo,$art_data['autore'],$art_data['titolo'],$art_data['testo'],$sezione);
+	
+	
+	// prepara i dati per il feed RSS
+	$azione 	= 'modificato';
+	$content_time = strtotime(date('D, j M Y G:i:s'));
+	$art_link 	= "index.php?page=$sezione&amp;art_id=$id_articolo;time=$content_time";
+	$guid 		= "$sezione,$id_articolo,{$art_data['autore']}";
+	
+	$bulk= get_abstract($art_data['testo'],'...');
+	
+	$riassunto = '';
+	foreach ($bulk as $id => $linea)
+	{
+		$linea = ereg_replace(Array("\n","\r"),Array("",""),rtrim($linea));
+		$riassunto .= $linea;
+	}
+	
+	$titolo = $art_data['titolo'];
+	if (!empty($art_data['autore']))
+	{
+		$titolo .= " ($azione da {$art_data['autore']})";
+	}
+	
+	
+	$item['title'] 		= $titolo;
+	$item['description'] 	= $riassunto;
+	$item['link'] 		= $art_link;
+	$item['guid'] 		= "$sezione,$id_articolo,{$art_data['autore']},".date('D, j M Y G:i:s');
+	$item['category'] 	= "Sezione $sezione";
+	$item['pubDate'] 	= gmdate('D, j M Y G:i:s +0000',$content_time);
+	$item['author'] 	= $art_data['autore'];
+	$item['username']	= $username;
+	
+	log_new_content('articolo_'.$mode,$item);
+	
 	
 	echo "Articolo $id_articolo modificato.<br>\n";
 	break;
