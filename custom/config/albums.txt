@@ -115,7 +115,7 @@ dscn7069.jpg::All.collettivo::la parte pi&ugrave; impegnativa del tracciato &egr
 dscn7074.jpg::All.collettivo::attimo storico,il gruppo giunge nel punto di arrivo con grande gioia e con qualche minuto di anticipo su quanto previsto dalla tabella dei tempi::
 dscn7075.jpg::All.collettivo::FINE, si giunge cosi al punto di arrivo con la consapevolezza di aver raggiunto un obiettivo molto importante::
 
-[FC_Caposele]
+[FC_caposele]
 fc1.jpg::::FC Caposele - Vallesaccarda (18/02/07)
 fc3.jpg::::FC Caposele - Vallesaccarda (18/02/07)
 fc7.jpg::::FC Caposele - Vallesaccarda (18/02/07)
