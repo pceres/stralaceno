@@ -2,10 +2,10 @@ Autore::
 Titolo::Assemblea Annuale Ars
 --- Begin body ---
 <br>
-Il giorno 7 aprile alle ore 15.00 al Corso Garibaldi n.53 in Caposele, si terrà 
+Il giorno 7 aprile alle ore 15.00 al Corso Garibaldi n.53 in Caposele, si terr&agrave;
 l'assemblea ordinaria annuale dell'associazione ARS Amatori Running
 Sele.<br><br>
-L’ordine del giorno prevede:<br>
+L'ordine del giorno prevede:<br>
 1. Approvazione rendiconto economico finanziario  2006;<br>
 2. Programmazione attività anno 2007.<br>
 <br>
@@ -13,8 +13,7 @@ Tutti i soci sono invitati a partecipare.
 <br>
 <p>&nbsp;
 <div align="center">
-<img id="logo" src="%file_root%custom/album/ars/ars.jpg" alt="logo" border="0" width="200">
+<img id="logo_ars" src="%file_root%custom/album/ars/ars.jpg" alt="logo_ars" border="0" width="200">
 </div>
 <br>
-</p>
 --- End body ---
