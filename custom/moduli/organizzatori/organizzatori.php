@@ -83,6 +83,15 @@ nonch&eacute; fondi, riserve o capitale, salvo che la destinazione o la distribu
 <br>
 
 
+<div style="font-weight: bold;"><big>Scarica Rendiconto e Relazione anno 2006 ARS in formato pdf:</big>
+	<a target="_blank" href="Rendiconto_e_Relazione_anno_2006_ARS.pdf">
+		<img src="<?php echo $site_abs_path ?>images/pdf.gif" alt="scarica Rendiconto e Relazione 2006 in formato pdf" 
+			border="0" height="36" width="36">
+	</a>
+</div>
+<br>
+
+
 <div style="font-weight: bold;"><big>Scarica il modulo di richiesta di adesione all'ARS in formato pdf:</big>
 	<a target="_blank" href="richiesta_adesione_ARS.pdf">
 		<img src="<?php echo $site_abs_path ?>images/pdf.gif" alt="scarica la richiesta di adesione in formato pdf" 
