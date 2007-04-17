@@ -88,7 +88,7 @@ table.column_group {
 	border:0px;
 	margin:0px;
 	padding:0.4em;
-	background:#EDFFCD;	/* sfondo colonne sinistra e destra */
+ 	background:#FEE5B0;	/* sfondo colonne sinistra e destra */
 	}
 
 /* appartengono alla classe titolo_colonna tutti i titoli nelle colonne laterali */
@@ -120,7 +120,7 @@ table.article_group {
 	border:0px;
 	margin:0px;
 	padding:0.4em;
-	background:#FFFFCD;	/* sfondo articoli colonna centrale */
+ 	background:#FEE5B0;	/* sfondo articoli colonna centrale */
 	width:100%;		/* l'articolo occupa tutta la larghezza consentita*/
 	}
 
@@ -135,7 +135,7 @@ table.article_group H3 {
 .txt_articolo { 
 	font-family:Arial,Tahoma,Verdana,Serif;
     	font-size:0.75em;
-	color:rgb(51,102,153);
+	color:rgb(41,82,133);
 	}
 
 .txt_firma_articolo { 
