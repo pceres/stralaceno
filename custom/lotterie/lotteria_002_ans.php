@@ -21,26 +21,19 @@ Milan
 # Qualificato quarti 8:
 Manchester United
 # Qualificato semifinale 1:
-nd
-#Barcellona
+Manchester United
 # Qualificato semifinale 2:
-nd
-#Bayern Monaco
+Chelsea
 # Qualificato semifinale 3:
-nd
-#Galatasaray
+Milan
 # Qualificato semifinale 4:
-nd
-#Olympiakos Pireo
+Liverpool
 # Qualificato finale 1:
 nd
-#Barcellona
 # Qualificato finale 2:
 nd
-#Bayern Monaco
 # Vincitore:
 nd
-#Barcellona
 
 #
 # Le risposte sono suddivise in gruppi. Per ciascun gruppo esiste un set di risposte piu' o meno corrette
@@ -49,7 +42,7 @@ nd
 4::qualif. quarti	::0,1,2,3,4,5,6,7
 3::qualif. semifinali	::8,9,10,11
 2::qualif. finali	::12,13
-1::vincitore		::14
+1::vincitore    	::14
 
 #
 # Qui viene indicato il punteggio da associare ad ogni risposta a seconda del gruppo in cui essa viene fornita
@@ -57,18 +50,18 @@ nd
 [punteggio_risposte]
 #
 Porto::4,0
-Chelsea::4,4
-Psv Eindhoven::4,4
+Chelsea::4,4;3,4
+Psv Eindhoven::4,4;3,0
 Arsenal::4,0
-Roma::4,4
+Roma::4,4;3,0
 Lione::4,0
 Real Madrid::4,1
-Bayern Monaco::4,3
+Bayern Monaco::4,3;3,0
 Celtic Glasgow::4,0
-Milan::4,4
+Milan::4,4;3,4
 Lilla::4,0
-Manchester United::4,4
+Manchester United::4,4;3,4
 Barcellona::4,1
-Liverpool::4,3
+Liverpool::4,3;3,4
 Inter::4,1
-Valencia::4,3
+Valencia::4,3;3,0
