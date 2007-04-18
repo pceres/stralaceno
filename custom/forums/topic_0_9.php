@@ -50,6 +50,12 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 36::Salvatore::26/03/2007 18.34.43::visible
 37::Ale::27/03/2007 10.20.03::visible
 38::Salvatore::27/03/2007 14.06.54::visible
+39::Ale::03/04/2007 13.02.31::visible
+40::NICOLA::05/04/2007 19.31.11::visible
+41::ars::12/04/2007 10.40.28::visible
+42::nicola m.::14/04/2007 01.49.03::visible
+43::Michele::16/04/2007 16.37.55::visible
+44::Salvatore::16/04/2007 20.53.56::visible
 
 [post_text_0]
 Fermate Nicola Melillo con questa stralaceno: anche i muri di materdomini e caposele non ne possono più.
@@ -239,4 +245,27 @@ ciao.
 
 [post_text_38]
 Domenica mattina di sicuro ci sarò...x quanto riguarda le gare il 25 aprile c'è a Montemiletto una gara di 10 km...solo che io sarò in gita a Genova quindi nn ci sarò di sicuro..mentre il 15 aprile c'è una mezza maratona ad Atripalda e parlando con Paolo penso che siamo intenzionata a farla...domenica parliamo....ciao
+
+[post_text_39]
+x Salvatore e Paolo
+Avete programmato qualche allenamento con il presidente D'Auria? Ciao
+
+[post_text_40]
+CERCATE DI PROGRAMMARE QUALCHE BUONA E PIACEVOLE INZIATIVA I GIOVANI DI CAPOSELE NE HANNO BISOGNO FARE NON APPARIRE.
+
+[post_text_41]
+Oggi 12 aprile allenamento podistico a Laceno. Partenza da piazza Sanità ore 16.00
+
+[post_text_42]
+ottima iniziativa ma sempre i soliti il successo si misura con il coinvolgimento di nuove persone a questo sport.
+
+[post_text_43]
+x nicola m.
+ma tu dov'eri?
+
+[post_text_44]
+X Nicola M.
+&nbsp;
+Io non voglio fare polemiche però mi sembra che Michele abbia ragione..non puoi dire che quelli che partecipano sono sempre i soliti se tu non fai mai parte di questi allenamenti che organizziamo..se non si avvicinano alla corsa le persone a cui veramente piace,tipo te,come possono avvicinarsi gli altri che sono un pò più titubanti..?!
+Un saluto a tutto i soci,Alessandro e Paolo spero di potervi rivedere il prossimo fine settimana,così organizziamo un bel allenamento...ciao
 

@@ -14,6 +14,8 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 0::ceres::27/06/2006 22.01.00::visible
 1::ceres::07/07/2006 23.30.08::visible
 2::Yaroslav '88::10/07/2006 21.17.48::visible
+3::nicola m.::14/04/2007 01.42.46::visible
+4::Michele::16/04/2007 16.39.26::visible
 
 [post_text_0]
 Questo e' il primo post di prova.
@@ -29,8 +31,12 @@ Forza, scrivete anche voi!
 
 [post_text_2]
 Campioni del mondo...campioni del mondo..campioni del mondo...campioni del mondo...
-
 Un saluto a tutti i soci dell'Ars e in particolare a coloro che sabato disputeranno la gara a Roccadaspide...Dai ragà che siamo forti, sono sicuro che faremo una bella figura...
-
 Buona sera a tutti e.....FORZA ITALIA
+
+[post_text_3]
+e' meglio che lo chiudete questo forum tanto scrivono sempre gli stessi, il consiglio direttivo lo volete capire che va cambiato se proprio avete a cuore questa associazione non si puo' eleggere un presidente che viene molto di rado a caposele!!!meditate!
+
+[post_text_4]
+ma chi deve scrivere? Quante persone si collegano ad internet a Caposele? Ma che vai farneticando?
 

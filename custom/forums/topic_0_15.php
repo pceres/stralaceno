@@ -30,6 +30,20 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 16::Politik::28/03/2007 10.01.58::visible
 17::Gerardo::01/04/2007 17.19.16::visible
 18::Curioso::02/04/2007 16.28.46::visible
+19::Gerardo::03/04/2007 13.21.04::visible
+20::Salvatore::04/04/2007 10.29.19::visible
+21::Osservatore::05/04/2007 11.46.09::visible
+22::Michele::05/04/2007 16.07.41::visible
+23::NICOLA MELILLO::05/04/2007 19.23.25::visible
+24::Michele::06/04/2007 10.15.13::visible
+25::nicola m.::14/04/2007 01.39.26::visible
+26::Michele::14/04/2007 10.00.11::visible
+27::NICOLA M.::17/04/2007 00.37.43::visible
+28::Michele::17/04/2007 10.09.51::visible
+29::Michele::17/04/2007 10.11.42::visible
+30::da Irpinianews.it::17/04/2007 11.17.37::visible
+31::Michele::17/04/2007 12.32.30::visible
+32::Gerardo D.::17/04/2007 12.47.54::visible
 
 [post_text_0]
 Riceviamo da CLEON.REN e pubblichiamo:
@@ -226,4 +240,73 @@ di subalternità (come è avvenuto) ma portate avanti le idee nuove che avete e ch
 
 [post_text_18]
 Si parla ancora di una terza lista? Chi ne sarebbe a capo e con quale prospettiva politica?
+
+[post_text_19]
+Ho sentito parlare di terza lista anche io.
+Questa volta però riguarda circostanze inerenti il centro destra; dopo l'apparentamento di AN con Monteverde il suo leader Pietro Cetrulo già dissente e minaccia la terza lista.
+Chi ben incomincia è già a metà dell'opera!!!!!!!
+
+[post_text_20]
+Attenzione, clamoroso, il Presidente dell'Ars è stato contattato per l'inserimento in una lista.
+Fonte via Roma.
+
+[post_text_21]
+Lo partita va ad incominciare...
+&nbsp;
+Come ha scritto l'ottimo sig. Gervasio
+&nbsp;
+--in questo spicchio di terra di provincia, l’aria umida di fiume inizia ad impregnarsi dell’odore della campagna elettorale. Nei bar, nelle piazze e durante le lunghe passeggiate dei caposelesi, le elezioni sono già entrate di diritto negli argomenti più chiacchierati--
+&nbsp;
+
+[post_text_22]
+Dal 1995 sempre lo stesso colore amministrativo. Sempre le stesse facce a fare i loro interessi. Mi verrebbe da gridare, e lo grido, un vecchio slogan degli anni 80 ma molto, molto attuale...Basta è l'ora di cambiare!!!
+
+[post_text_23]
+MONTEVERDE VINCE SPERIAMO IN UN PROGETTO SERIO E CONCRETO PER IL FUTURO,CAPOSELE HA BISOGNO DI CERTEZZE E PROSPETTIVE INCORAGGIANTI SI DEVE FARE E CREARE MOLTO DI PIU'.
+
+[post_text_24]
+&gt;MONTEVERDE VINCE SPERIAMO IN UN PROGETTO SERIO E CONCRETO PER IL FUTURO,CAPOSELE HA BISOGNO DI CERTEZZE E PROSPETTIVE INCORAGGIANTI SI DEVE FARE E CREARE MOLTO DI PIU'.<br>&gt;<br>&gt;Dal 1995 progetti seri e concreti non se ne sono visti anzi si è assistito ad un progressivo e costante abbandono (es. vedi il modo come sono state gestite le strutture sportive, il traffico automobilistico, le strutture, che non esistono, a Materdomini!!!Ed altro ancora)<br>&gt;Per avere certezze e prospettive incoraggianti sicuramente NON bisogna votare Monteverde!!!<br>&gt;E' L'ORA DI CAMBIARE!!!!(non finirò mai di dirlo).<br>&gt;<br><br>
+
+[post_text_25]
+caro mike e tutti coloro che la pensano come lui ti ricordo che prima del 1995 a caposele c' era il buio totale: vi meritate alfonso merola!!!!!!!!
+
+[post_text_26]
+Caro Nicola prima del 1995 Alfonso Merola è stato votato democraticamente dai cittadini di Caposele e credo che sia stato tra i Grandi politici che abbiano portato all'appiattimento e alla lenta agonia di Caposele. Lo stesso è successo dal '95 ad oggi. Le persone sono sempre le stesse, gli interessi gli stessi, gli incarichi alle stesse persone, sempre gli stessi giovani a fare le valige, sempre le stesse strutture sportive gestite in maniera catastrofica e ad utilizzo privato!!!!!
+L'unico modo per uscire da questo stato, caro Nicola, è cambiare gli uomini ed avere nuove idee; questo non può avvenire con chi ha disastrosamente amministrato dal 1995.
+E'giunta l'ora di cambiare. Come tu critichi l'attuale consiglio direttivo dell'ars che secondo te va cambiato, abbi almeno la decenza di essere costante nei tuoi ragionamenti, applicalo anche all'attuale amministrazione e tieni ben in mente una differenza e cioè: mentre l'ars, credo che sia nata da un paio di anni, ha organizzato varie  "manifestazioni" podistiche e ha cercato di promuovere lo sport aggregando alcuni giovani (l'unica critica che puoi muovere e che possono farlo meglio), il nostro assessorato allo sport che cosa ha fatto? Ti lascio con questo interrogativo, spero che mi darai una risposta esaustiva (sull'amministrazione e non sull'ars). Mi fermo quì anche se le critiche potrei estenderle a tutti i campi (assessorati) dell'amministrazione.
+BISOGNA CAMBIARE!!!!!!
+
+[post_text_27]
+IO NON HO DETTO CHE QUESTA AMMINISTRAZIONE HA REALIZZATO TUTTO E BENE MA LA VOSTRA COALIZIONE E' PIENA DI MILLE INTERROGATIVI COMUNQUE COME SEMPRE SARA' IL POPOLO DI CAPOSELE A SCEGLIERE MA UN DATO E' CERTO : CON I NOMI CHE SI FANNO IN QUESTI ULTIMI GIORNI DELLA VOSTRA LISTA NON LO SO DOVE ANDREMO STAREMO A VEDERE E POI IO SAREI ANCHE CONTENTO SE VINCETE, COSA ALQUANTO PROIBITIVA COSI' VEDREMO COME SARETE CAPACI DI CAMBIARE LE SORTI DI QUESTO PAESE.NON SI PUO' DIVENTARE SINDACI SVEGLIANDOSI UNA MATTINA BISOGNA SUDARE PER RAGGIUNGERE DETERMINATI TRAGUARDI.
+
+[post_text_28]
+Vedo che sul punto di domanda hai glissato nel pieno stile "amministrazione arcobaleno". Risposte zero, contenuti zero. Non iniziate a fare processi su nomi che ancora non si sanno; una lista di rinnovamento si basa su nomi nuovi che non possono essere criticati per il semplice motivo che non si conoscono le loro qualità.
+E' meglio avere un sindaco che "si sveglia una mattina" (come tu dici) che avere un'amministrazione assente; anzi meglio che qualcuno si è svegliato perchè con il vostro dolce far niente Caposele è in uno stato di torpore totale, ecco ho trovato una cosa che ha fatto l'amministrazione!!!
+Alla fine come tu dici sarà il popolo a decidere; speriamo che dopo averci dato Alfonso Merola (tua riflessione) non continuiamo sulla stessa strada con l'amministrazione arcobaleno.
+A presto.
+
+[post_text_29]
+Sarà difficile amministrare facendo peggio dell'ultima amministrazione...
+Il paese è allo sfascio (non esiste una politica per i giovani, per il rilancio turistico, per l'ambiente e il territorio): VERGOGNA!
+Con quale coraggio fate ancora proclami?
+&nbsp;
+Nessuno qui si sveglia e vuol fare il sindaco... Farina già è stato politicamente impegnato nel passato ed ha avuto l'investitura da due partiti di rilevanza nel contesto politico caposelese. Mi sembra che la tua accusa sia più consona se rivolta all'altro candidato...
+&nbsp;
+&nbsp;
+
+[post_text_30]
+Amministrative: Farina prosegue verso il voto
+&nbsp;
+Caposele - Nelle scorse settimane l’attuale capogruppo e consigliere dell’opposizione, Giuseppe Palmieri, aveva ufficializzato la sua intenzione di rinunciare alla candidatura a sindaco ed aveva anticipato il nome del nuovo candidato: Pasquale Farina. “In questo momento ho scelto di prendermi un periodo sabbatico e di stare per un po’ lontano dalla politica per dedicarmi alla mia professione di avvocato ed al lavoro all’università. La mia rinuncia alla candidatura è stata sofferta, ma sapere che il mio successore sarà Farina mi rende tranquillo”, ha dichiarato Palmieri, che più volte ha ribadito la sua amicizia con il candidato sindaco e la stima nei suo confronti.
+Dal suo canto, anche Farina ha detto di essere orgoglioso per aver preso il testimone passatogli dall’amico Palmieri e, riferendosi alla sua lista ed al suo programma, ha dichiarato: “Il mio compito sarà quello di guidare una lista civica orientata verso il centrosinistra. La lista è oramai quasi al completo, ma è ancora presto per ufficializzare i nomi dei componenti, dal momento che stiamo ancora valutando alcune candidature.
+In questi giorni, inoltre, siamo impegnati anche sul fronte della stesura del programma, che verterà su tre punti principali. Il primo riguarderà una politica delle acque, visto che nel territorio del nostro Paese, alle pendici del Monte Plafagone, nasce l’importante Acquedotto Pugliese del Sele-Calore.
+Il secondo riguarderà una politica del turismo ed il terzo riguarderà uno sviluppo del Paese incentrato su delle politiche rivolte ai giovani ed alla loro occupazione, per evitare che i nostri ragazzi siano costretti ad emigrare”.
+(domenica 15 aprile 2007)
+&nbsp;
+
+[post_text_31]
+Per Michele che ha scritto alle 10,11 specificati con un'iniziale altrimenti pensano che siamo la stessa persona.
+
+[post_text_32]
+Vi invito ad indicare -secondo voi- quali sono le problematiche principali da affrontare da parte della prossima giunta comunale
 

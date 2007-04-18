@@ -14,7 +14,7 @@ Formato [elenco_topics]:
 	<topic_last_post>	: id dell'ultimo post
 
 [elenco_topics]
-0::Benvenuti nel forum::open::::::ceres::3::1
+0::Benvenuti nel forum::open::::::ceres::5::4
 1::Come funziona il forum::hidden::::::ceres::1::
 2::Sondaggio sui mondiali di calcio 2006::open::::::ceres::3::2
 3::Estate caposelese::hidden::::users::Pasquale Ceres::2::1
@@ -23,12 +23,13 @@ Formato [elenco_topics]:
 6::Come funziona il forum::open::::::ceres::3::2
 7::le sfide della Stralaceno::open::::::foxy::104::103
 8::soddisfatti della stralaceno edizione 2006???::open::::::cabo86::4::3
-9::Discussione::open::::::Antonio::39::38
+9::Discussione::open::::::Antonio::45::44
 10::ci siete?????::open::::::cabo::8::7
 11::La nuova sezione ciclismo::open::::::Donato Gervasio::6::5
 12::Allenamento Collettivo 30-12-2006::open::::::Ars::40::39
 13::per nazòn::open::::::antonio::4::3
-14::F.C. Caposele::open::::::Ars::18::18
-15::Elezioni comunali a Caposele::open::::::Cleon.ren::19::18
-16::La nuova sezione Ambiente e Natura::open::::::Ambiente::11::10
+14::F.C. Caposele::open::::::Ars::25::24
+15::Elezioni comunali a Caposele::open::::::Cleon.ren::33::32
+16::La nuova sezione Ambiente e Natura::open::::::Ambiente::13::12
+17::per l'inviato::hidden::::::christian meyer::6::5
 

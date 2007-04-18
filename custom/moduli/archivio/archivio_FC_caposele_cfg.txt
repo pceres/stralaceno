@@ -12,6 +12,10 @@ FC_caposele::F.C. Caposele::L'album di famiglia della F.C. Caposele
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
+10::FC_caposele::F.C. Caposele - Trevico 10-2::Massimo Cetrulo
+8::FC_caposele::Casabianchi Trevico - F.C. Caposele 1-6::Massimo Cetrulo
+7::FC_caposele::F.C. Caposele - Vallesaccarda 5-0::Massimo Cetrulo
+6::FC_caposele::Virtus Conza - F.C. Caposele 0-4::Massimo Cetrulo
 5::FC_caposele::F.C. Caposele - Morra De Sanctis 4-0::Massimo Cetrulo
 
 #

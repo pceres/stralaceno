@@ -22,6 +22,8 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 8::Angelo::27/03/2007 18.16.28::visible
 9::Pasquale C.::28/03/2007 14.07.06::visible
 10::NewsAmbiente::01/04/2007 18.00.47::visible
+11::Ambiente news::07/04/2007 13.20.06::visible
+12::News Ambiente::13/04/2007 16.38.28::visible
 
 [post_text_0]
 Qui proposte, osservazioni, critiche e tutto ciò che concerne l'ambiente e la natura dalle grosse tematiche di interesse mondiali ai piccoli accadimenti del paese.
@@ -66,4 +68,11 @@ Perché non ci scrivi un bell'articolo sull'argomento?
 
 [post_text_10]
 Importante news sulla situazione delle nostre sorgenti. Vai alle News della sezione Ambiente
+
+[post_text_11]
+E' online un nuovo articolo nella sezione Ambiente.
+&nbsp;
+
+[post_text_12]
+Notizie sulla sezione ambiente vedi News
 
