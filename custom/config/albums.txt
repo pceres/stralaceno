@@ -136,12 +136,12 @@ fc16.jpg::::Casabianchi Trevico - FC Caposele (25/02/07)
 
 
 [Roma_07]
-MR1.jpg::
-MR9.jpg::
-MR2.jpg::
-MR3.jpg::
-MR4.jpg::
-MR8.jpg::
-MR5.jpg::
-MR6.jpg::
-MR7.jpg::
+MR1.jpg:::: Alessandro, Paolo ed alle loro spalle il colosseo::Alessandro, Paolo
+MR9.jpg:::: Una marea di gente alla maratona,oltre 15mila::Roma 2007
+MR2.jpg:::: Paolo, anche lui sembra felice::Paolo
+MR3.jpg:::: Il Km 9 &egrave; stato appena raggiunto, ma la strada &egrave; ancora molto lunga::Paolo
+MR4.jpg:::: Si intravede la piramide da lontano, siamo ancora al 9&deg; Km::Alessandro
+MR8.jpg:::: Alcuni atleti ormai con risorse allo stremo (Si intravede Alessandro sullo sfondo)::Alessandro
+MR5.jpg:::: Notiamo il volto pieno di soddisfazione::Paolo
+MR6.jpg:::: Appena giunto al traguardo, non vede l'ora di regalarsi un meritato riposo::Alessandro
+MR7.jpg:::: Eccoli, con le residue energie rimaste si concedono un ultimo scatto prima di tornare a casa::Alessandro, Paolo
