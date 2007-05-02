@@ -1,0 +1,5 @@
+Autore::Pasquale Ceres
+Titolo::Nuovo album per la sezione "ambiente"
+--- Begin body ---
+&Egrave; disponibile un <a href="%script_root%album.php?anno=ambiente">nuovo album</a>, relativo alla sezione "ambiente": per ora sono presenti particolari della mappa del Parco dei Monti Picentini, relativi al territorio di Caposele
+--- End body ---
