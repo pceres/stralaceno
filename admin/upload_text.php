@@ -46,6 +46,8 @@ foreach ($elenco_cfgfile as $name => $config_data)
 	$caption = $config_data[$indice_cfgfile_caption];
 	$groups_ok = $config_data[$indice_cfgfile_groups];
 	$password_ok = $config_data[$indice_cfgfile_password];
+	$page_link = template_to_effective($config_data[$indice_cfgfile_link]);  // link al modulo
+	$logdir = template_to_effective($config_data[$indice_cfgfile_logdir]); // folder del logfile something_changed.txt
 	
 	$name_test = $dir.$name;
 	
@@ -155,7 +157,28 @@ if ($ok == TRUE)
 			}
 		}
 		
+		
+		// prepara i dati per il log dei nuovi contenuti
+		$date_unix = date('D, j M Y G:i:s');
+		
+		if (strlen((string)strpos($page_link,'?')) === 0) $separatore = '?'; else $separatore = '&amp;';
+		$page_link 	.= $separatore."time=".strtotime($date_unix);
+		$page_guid 	= "$new_name;time=".strtotime($date_unix);
+		
+		$item['title'] 		= "Modifica al file di configurazione ($name)";
+		$item['description'] 	= "Il file di configurazione $new_name &egrave; stato modificato.";
+		$item['link'] 		= $page_link;
+		$item['guid'] 		= $page_guid;
+		$item['category'] 	= $caption;
+		$item['pubDate'] 	= gmdate('D, j M Y G:i:s +0000',strtotime($date_unix));
+		$item['author'] 	= $username;
+		$item['username']	= $username;
+		
+		log_new_content('config_file',$item);
+		
+		
 		print "<pre>Operazione eseguita correttamente.</pre>";
+		
 	}
 	else
 	{
@@ -172,7 +195,15 @@ $counter = count_page("admin_upload_text",array("COUNT"=>1,"LOG"=>1),$filedir_co
 
 $last_backslash = strrpos($new_name,'/')+1;
 $simple_name = substr($new_name,$last_backslash); // nome del file senza il path
-$output_dir = substr($new_name,0,$last_backslash); // path della cartella in cui e' stato scritto il file
+
+if (empty($logdir))
+{
+	$output_dir = substr($new_name,0,$last_backslash); // path della cartella in cui e' stato scritto il file
+}
+else
+{
+	$output_dir = $logdir;
+}
 
 log_action($output_dir,"$simple_name:$testo, ".date("l dS of F Y h:i:s A")."\r\n\r\n");
 
