@@ -29,7 +29,7 @@ $log_contents = $log_contents['default'];
 $abs_url = 'http://'.$_SERVER['HTTP_HOST'].$site_abs_path;
 
 // filtro sui contenuti da inserire nel feed
-$allowed_content_types = Array('forum','articolo_edited','articolo_new');
+$allowed_content_types = Array('forum','articolo_edited','articolo_new','config_file');
 
 $feed = Array();
 
