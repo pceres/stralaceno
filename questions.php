@@ -25,18 +25,41 @@ $id_questions = sanitize_user_input($id_questions,'plain_text',array());	// veri
 $data_giocata = $_REQUEST['data_giocata'];					// data che fa fede per la giocata
 $data_giocata = sanitize_user_input($data_giocata,'plain_text',array());	// verifica di sicurezza
 
+
+// verifica che $id_questions sia un id relativo ad una lotteria o questionario valida, altrimenti prendi l'ultimo
+// sondaggio disponibile (quello con l'id piu' alto)
+$file_questions = $root_path."custom/lotterie/lotteria_".sprintf("%03d",$id_questions).".txt";	// nome del file di configurazione relativo a id_questions
+if (!file_exists($file_questions))
+{
+	// cerca i sondaggi/lotterie disponibili
+	$file_questions_list = array();
+	if (is_dir($questions_dir))
+	{
+		if ($dh = opendir($questions_dir)) 
+		{
+			while (($available_question_id = readdir($dh)) !== false) 
+			{
+				if ( (filetype($questions_dir . $available_question_id) == "file") and (ereg('lotteria_([0-9])+.txt',$available_question_id)) )
+				{
+					// lotteria trovato:
+					$available_question_id = ereg_replace('lotteria_([0-9])+.txt',"\\1",$available_question_id);
+					array_push($file_questions_list,$available_question_id+0);
+				}
+			}
+			closedir($dh);
+		}
+	}
+	
+	$id_questions = max($file_questions_list);
+}
+
+
 $file_questions = $root_path."custom/lotterie/lotteria_".sprintf("%03d",$id_questions).".txt";	// nome del file di configurazione relativo a id_questions
 $file_log_questions = $root_path."custom/lotterie/lotteria_".sprintf("%03d",$id_questions)."_log.txt";	// nome del file di registrazione
 $file_questions_ans = $root_path."custom/lotterie/lotteria_".sprintf("%03d",$id_questions)."_ans.php";	// nome del file con le risposte esatte
 $file_template_ans = $root_path."custom/lotterie/lotteria_".sprintf("%03d",$id_questions)."_tpl_results.php";	// nome del template per i risultati
 $file_template_form = $root_path."custom/lotterie/lotteria_".sprintf("%03d",$id_questions)."_tpl_form.php";	// nome del template per il form
 
-
-// verifica che $id_questions sia un id relativo ad una lotteria o questionario valida
-if (!file_exists($file_questions))
-{
-	die("La lotteria $id_questions non esiste!");
-}
 
 // carica file di configurazione della lotteria
 $lotteria = get_config_file($file_questions);
