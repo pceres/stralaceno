@@ -42,6 +42,8 @@ foreach ($elenco_cfgfile as $name => $config_data)
 	$caption = $config_data[$indice_cfgfile_caption];
 	$groups_ok = $config_data[$indice_cfgfile_groups];
 	$password_ok = $config_data[$indice_cfgfile_password];
+	$page_link = template_to_effective($config_data[$indice_cfgfile_link]);  // link al modulo
+	$logdir = template_to_effective($config_data[$indice_cfgfile_logdir]); // folder del logfile something_changed.txt
 	
 	// verifica la presenza di carattere jolly "?"
 	while ($pos=strpos($name,'?'))
