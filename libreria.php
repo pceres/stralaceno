@@ -89,10 +89,13 @@ $indice_cfgfile_folder = 1;	// cartella contenente il file
 $indice_cfgfile_caption = 2;	// descrizione del file
 $indice_cfgfile_groups = 3;	// gruppi che hanno accesso al file
 $indice_cfgfile_password = 4;	// password per la modifica (md5)
+$indice_cfgfile_link = 5;	// link al modulo o alla pagina di presentazione dei dati
+$indice_cfgfile_logdir = 6;	// folder del logfile something_changed.txt
+
 
 $indici_cfgfile = array(
 'indice_cfgfile_name' => $indice_cfgfile_name,'indice_cfgfile_caption' => $indice_cfgfile_caption,'indice_cfgfile_folder' => $indice_cfgfile_folder,
-'indice_cfgfile_groups' => $indice_cfgfile_groups,'indice_cfgfile_password' => $indice_cfgfile_password);
+'indice_cfgfile_groups' => $indice_cfgfile_groups,'indice_cfgfile_password' => $indice_cfgfile_password,'indice_cfgfile_link' => $indice_cfgfile_link,'indice_cfgfile_logdir' => $indice_cfgfile_logdir);
 
 
 
