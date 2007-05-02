@@ -396,7 +396,8 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 			{
 				$item_simbolo = $simbolo_item['default'];
 				
-				$punti_msg = 'il match relativo non è stato ancora disputato';
+// 				$punti_msg = 'il match relativo non è stato ancora disputato';
+				$punti_msg = '0 punti';
 			}
 			
 			$simbolo = $item_simbolo[0];
