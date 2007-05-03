@@ -6,7 +6,7 @@ Il giorno 7 aprile alle ore 15.00 al Corso Garibaldi n.53 in Caposele, si &egrav
 l'assemblea ordinaria annuale dell'associazione ARS Amatori Running
 Sele.<br><br>
 L'ordine del giorno discusso &egrave; stato il seguente:<br>
-1. Approvazione rendiconto economico finanziario 2006; (sar&agrave; pubblicato online al pi&ugrave; presto)<br>
+1. Approvazione <a href="%file_root%custom/moduli/organizzatori/Rendiconto_e_Relazione_anno_2006_ARS.pdf">rendiconto economico finanziario 2006</a>;<br>
 2. Programmazione attività anno 2007.<br>
 <br>
 <!--Tutti i soci sono invitati a partecipare.

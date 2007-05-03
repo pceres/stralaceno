@@ -17,6 +17,7 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
+22::homepage::Maratona di Roma 2007::
 21::homepage::21&deg; Trofeo Brianzolo::
 18::homepage::Allenamento Collettivo 30.12.2006::
 19::homepage::Prima Strauniversit&agrave; a Fisciano (Sa)::

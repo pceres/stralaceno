@@ -12,6 +12,7 @@ FC_caposele::F.C. Caposele::L'album di famiglia della F.C. Caposele
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
+9::FC_caposele::Aquilonia - F.C. Caposele 2-1::
 10::FC_caposele::F.C. Caposele - Trevico 10-2::Massimo Cetrulo
 8::FC_caposele::Casabianchi Trevico - F.C. Caposele 1-6::Massimo Cetrulo
 7::FC_caposele::F.C. Caposele - Vallesaccarda 5-0::Massimo Cetrulo

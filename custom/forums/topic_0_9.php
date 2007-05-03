@@ -56,6 +56,9 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 42::nicola m.::14/04/2007 01.49.03::visible
 43::Michele::16/04/2007 16.37.55::visible
 44::Salvatore::16/04/2007 20.53.56::visible
+45::Ale::02/05/2007 17.01.33::visible
+46::Salvatore::02/05/2007 20.43.32::visible
+47::Salvatore::02/05/2007 21.01.16::visible
 
 [post_text_0]
 Fermate Nicola Melillo con questa stralaceno: anche i muri di materdomini e caposele non ne possono più.
@@ -268,4 +271,20 @@ X Nicola M.
 &nbsp;
 Io non voglio fare polemiche però mi sembra che Michele abbia ragione..non puoi dire che quelli che partecipano sono sempre i soliti se tu non fai mai parte di questi allenamenti che organizziamo..se non si avvicinano alla corsa le persone a cui veramente piace,tipo te,come possono avvicinarsi gli altri che sono un pò più titubanti..?!
 Un saluto a tutto i soci,Alessandro e Paolo spero di potervi rivedere il prossimo fine settimana,così organizziamo un bel allenamento...ciao
+
+[post_text_45]
+x Salvatore M.
+&nbsp;
+Ho saputo della nuova tabella di allenamento...
+Come vanno le cose? Gare in programma? Hai iniziato la ricostruzione su foglio excel dei tempi delle gare dello scorso anno?
+&nbsp;
+Ciao
+
+[post_text_46]
+Ciao Ale oggi ho fatto il secondo allenamento con la nuova tabella...è molto molto dura ma è alla mia portata fino ad ora..mi dispiace che sabato scorso non ho potuto allenarmi con voi,ma penso che Paolo te l'avrà detto che ero a Roma in gita...per quanto riguarda le gare sto aspettando notizie da Trotta,perchè poco tempo fa mi disse che in questo mese c'è qualche gara..
+Per l'inserimento delle gare purtroppo non avevo il programma excel..adesso ce l'ho ma mi sa k ho bisogno di un supporto tecnico,mi farò aiutare da Paolo,appena viene glielo dico e mi faccio aiutare da lui...
+Vabbè allora ci vediamo questo fine settimana...ciao
+
+[post_text_47]
+Alessà neanche a farlo apposta mi è stata consigliata una gara molto bella da un atleta della Montemiletto Team Runners, sabato 5 maggio ore 18,30 a Paestum ci sarà una gara di 10 km,hanno detto k è molto bella..se tu sei disponibile ad andare fammelo sapere così cerco di avvisare Paolo e qualcun altro...in attesa di notizie..ciao
 

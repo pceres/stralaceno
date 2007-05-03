@@ -36,6 +36,10 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 22::Ale::16/04/2007 12.24.05::visible
 23::dal sito del Real S.Andrea di C.::17/04/2007 15.33.09::visible
 24::dal sito del Real S.Andrea di C.::17/04/2007 15.36.13::visible
+25::info::19/04/2007 10.24.27::visible
+26::info::27/04/2007 11.50.12::visible
+27::info::02/05/2007 11.36.45::visible
+28::info2::02/05/2007 14.56.48::visible
 
 [post_text_0]
 Qui aspettiamo i vostri commenti alle vicende calcistiche della F.C. Caposele.
@@ -137,4 +141,16 @@ Dopo altri infortuni e relative sostituzioni dei nostri, la partita si avvia mes
 
 [post_text_24]
 Rettifica: il pareggio del Caposele è avvenuto al 33' del SECONDO tempo
+
+[post_text_25]
+Aggiornata la classifica dopo la disputa della 22a giornata il 15.04.2007
+
+[post_text_26]
+Aggiunte nuove foto e aggiornata la classifica dopo la disputa della 23a giornata.
+
+[post_text_27]
+Inserito nell sez. FC Caposele l'articolo relativo al recupero dell 13a giornata del 04/04/2007 Real S.Andrea di Conza - FC Caposele.
+
+[post_text_28]
+Aggiunte nuove foto il 2 maggio
 

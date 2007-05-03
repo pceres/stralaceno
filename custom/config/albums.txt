@@ -34,8 +34,9 @@ IMG_1620.jpg::All.collettivo::
 [varie]
 laceno.jpg::Altopiano del Laceno::::
 lagoLaceno.jpg::Laceno::::
-logo_Champions.jpg::::
-logo_ambiente.jpg::::
+logo_Champions.jpg::Logo Champions League::
+logo_ambiente.jpg::Logo della sezione "ambiente"::
+Caposele_su_televideo.jpg::Liceo allagato a Caposele::
 
 [Soci_ars]
 LV2.jpg::Lello Viscardi::
@@ -133,6 +134,23 @@ fc2.jpg::::Casabianchi Trevico - FC Caposele (25/02/07)
 fc11.jpg::::Casabianchi Trevico - FC Caposele (25/02/07)
 fc12.jpg::::Casabianchi Trevico - FC Caposele (25/02/07)
 fc16.jpg::::Casabianchi Trevico - FC Caposele (25/02/07)
+fc20.jpg::::
+fc21.jpg::::::Raffaele Sista
+fc22.jpg::::::Tommaso Cibellis
+fc23.jpg::::::Angelo Lardieri
+fc24.jpg::::::Gerardo Monteverde
+fc26.jpg::::Real S.Andrea Conza - FC Caposele (04/04/2007)
+fc27.jpg::::Real S.Andrea Conza - FC Caposele (04/04/2007)
+fc28.jpg::::Real S.Andrea Conza - FC Caposele (04/04/2007)::Rocco Feniello
+fc30.jpg::::::Luigi Russomanno
+fc31.jpg::::::Luca Cibellis
+fc32.jpg::::::Francesco Ceres
+fc33.jpg::::::Gerardo Grasso
+fc34.jpg::::::Giuseppe Liloia
+fc35.jpg::::::Simone Galdi
+fc36.jpg::::::Benito Sista
+fc37.jpg::::::Alessio Zarra
+
 
 [Roma_07]
 MR1.jpg:::: Alessandro, Paolo ed alle loro spalle il colosseo::Alessandro, Paolo

@@ -115,6 +115,8 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 101::Alessandro::21/12/2006 13.25.57::visible
 102::Salvatore::21/12/2006 14.36.45::visible
 103::paolo::21/12/2006 22.03.20::visible
+104::NICOLA M.::19/04/2007 10.54.53::visible
+105::Giuseppe S.::20/04/2007 19.35.37::visible
 
 [post_text_0]
 Aspettiamo le vostre dichiarazioni di sfida...
@@ -658,4 +660,10 @@ un saluto a gerry marty,a alex e a paolo,ci vediamo domani tempo permettendo..ci
 mi dispiace, ma per l'allenamento di domani proprio non posso, ho da fare un servizio ad avellino verso le 17.30, quindi approdo in caposele solo in serata!
 vabbè comunque in questi 15 giorni di sicuro organizzeremo 4-5 allenamenti e sono sicuro che ci divertiremo tanto.
 Ok ragazzi ci vediamo!
+
+[post_text_104]
+TRA 4 MESI SARA' DI NUOVO STRALACENO 2007 INIZIAMO A PROVARE IL PERCORSO VORREI TANTO VEDERE NUOVI RAGAZZI SCRIVERE E LASCIARE MESSAGGI SU QUESTO FORUM.
+
+[post_text_105]
+Bene, organizziamoci e iniziiamo a sudare...
 

@@ -10,4 +10,9 @@ Proietto Marco, Rosania Vito, Russomanno Luigi, Russomanno Rocco, <br> Sista Ben
 Responsabile tecnico: Melillo Gerardo Ernesto<br>
 Preparatore atletico: Ceres Donato
 <br>
+<br><br>
+<div align="center">
+<img id="fotoFC_Caposele" src="%file_root%custom/album/FC_caposele/fc24.jpg" alt="" border="0" width="280">
+</div>
+<br><br>
 --- End body ---

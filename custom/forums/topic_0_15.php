@@ -44,6 +44,15 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 30::da Irpinianews.it::17/04/2007 11.17.37::visible
 31::Michele::17/04/2007 12.32.30::visible
 32::Gerardo D.::17/04/2007 12.47.54::visible
+33::NIC M.::21/04/2007 10.40.23::visible
+34::Michele::21/04/2007 16.02.08::visible
+35::NICOLA M.::22/04/2007 10.25.43::visible
+36::Michele::22/04/2007 10.55.57::visible
+37::Raffaele C.::23/04/2007 10.03.39::visible
+38::selacapo staff::26/04/2007 18.38.06::visible
+39::Politica::02/05/2007 10.17.05::visible
+40::dal Il Mattino del 01/05/2007::02/05/2007 10.23.32::visible
+41::ANTEPRIMA ars.altervista.org::02/05/2007 15.06.50::visible
 
 [post_text_0]
 Riceviamo da CLEON.REN e pubblichiamo:
@@ -265,7 +274,12 @@ Dal 1995 sempre lo stesso colore amministrativo. Sempre le stesse facce a fare i
 MONTEVERDE VINCE SPERIAMO IN UN PROGETTO SERIO E CONCRETO PER IL FUTURO,CAPOSELE HA BISOGNO DI CERTEZZE E PROSPETTIVE INCORAGGIANTI SI DEVE FARE E CREARE MOLTO DI PIU'.
 
 [post_text_24]
-&gt;MONTEVERDE VINCE SPERIAMO IN UN PROGETTO SERIO E CONCRETO PER IL FUTURO,CAPOSELE HA BISOGNO DI CERTEZZE E PROSPETTIVE INCORAGGIANTI SI DEVE FARE E CREARE MOLTO DI PIU'.<br>&gt;<br>&gt;Dal 1995 progetti seri e concreti non se ne sono visti anzi si è assistito ad un progressivo e costante abbandono (es. vedi il modo come sono state gestite le strutture sportive, il traffico automobilistico, le strutture, che non esistono, a Materdomini!!!Ed altro ancora)<br>&gt;Per avere certezze e prospettive incoraggianti sicuramente NON bisogna votare Monteverde!!!<br>&gt;E' L'ORA DI CAMBIARE!!!!(non finirò mai di dirlo).<br>&gt;<br><br>
+&gt;MONTEVERDE VINCE SPERIAMO IN UN PROGETTO SERIO E CONCRETO PER IL FUTURO,CAPOSELE HA BISOGNO DI CERTEZZE E PROSPETTIVE INCORAGGIANTI SI DEVE FARE E CREARE MOLTO DI PIU'.
+<br>&gt;
+<br>&gt;Dal 1995 progetti seri e concreti non se ne sono visti anzi si è assistito ad un progressivo e costante abbandono (es. vedi il modo come sono state gestite le strutture sportive, il traffico automobilistico, le strutture, che non esistono, a Materdomini!!!Ed altro ancora)
+<br>&gt;Per avere certezze e prospettive incoraggianti sicuramente NON bisogna votare Monteverde!!!
+<br>&gt;E' L'ORA DI CAMBIARE!!!!(non finirò mai di dirlo).
+<br>&gt;<br><br>
 
 [post_text_25]
 caro mike e tutti coloro che la pensano come lui ti ricordo che prima del 1995 a caposele c' era il buio totale: vi meritate alfonso merola!!!!!!!!
@@ -309,4 +323,72 @@ Per Michele che ha scritto alle 10,11 specificati con un'iniziale altrimenti pen
 
 [post_text_32]
 Vi invito ad indicare -secondo voi- quali sono le problematiche principali da affrontare da parte della prossima giunta comunale
+
+[post_text_33]
+&nbsp;
+                                    X MIKE
+&nbsp;
+NON CI SONO NENCHE PAROLE PER RISPONDERTI TANTO PERDERETE DI NUOVO NENCHE LA LISTA SIETE RIUSCITI A FARE IN MANIERA COMPETITIVA FIGURIAMOCI SE ANDRETE A GOVERNARE CON UN SINDACO FANTASMA VERGOGNATEVI VOI!!!!NOI QUALCOSA DI IMPORTANTE PER CAPOSELE LO ABBIAMO REALIZZATO VOI IN DIECI ANNI AVETE CREATO SOLO CONFUSIONE!!
+&nbsp;
+
+[post_text_34]
+Da Michele che non ha scritto vergogna.
+Vedo che iniziate a fare una campagna elettorale basata su veleni e attacchi verso persone che ancora non conoscete!!Mi sto sforzando a capire che cosa di buono l'arcobaleno abbia fatto per Caposele. Per favore spiegamelo, forse mi sono addormentato e ancora non mi sono svegliato. Non glissare sui contenuti, è troppo facile ed addirittura puerile scaricare la colpe sull'opposizione; ma chi ha amministrato fino ad oggi? Addirittura parli di sindaco fantasma!! Ma con quale coraggio dici queste cose; l'unico fantasma è l'amministrazione Arcobaleno. Mi sembra che l'amore che tu provi verso l'amministrazione fantasma ti abbia fatto perdere il contatto con la realtà.
+Te lo ripeto DIMMI UNA COSA CHE HA FATTO L'AMMINISTRAZIONE FANTASMA.
+A presto.
+
+[post_text_35]
+EVIDENTEMENTE FORSE HAI PROBLEMI DI VISTA IL POLO SCOLASTICO LO AVETE REALIZZATO VOI O COMUNQUE SE ERA PER QUELLA SCELLERATA MINORANZA FORSE ERA PRONTO FRA 20 ANNI!! IL CENTRO FIERISTICO E' UN ALTRO MERITO VOSTRO IL COMPLETAMENTO DELLA PISCINA COMUNALE IL RIFACIMENTO DELLA CHIESA COMUNALE SONO TUTTI MERITI VOSTRI??RIFLETTI PRIMA DI PARLARE.
+
+[post_text_36]
+Il polo scolastico? Iniziato con l'amministrazione Merola. Il centro fieristico? Opera della Comunità Montana.Il rifacimento della Chiesa? Opera della Diocesi.
+Problemi di vista non ne ho, sono opere realizzate ma non per merito dell'amministrazione.
+Ma che cosa ne dici del bellissimo PIP?  O del piano commerciale? Del grandioso parcheggio realizzato a Materdomini e dei servizi igienici? Della realizzazione dell'anfiteatro a Caposele? Della rivalutazione delle cantine? Del favoloso piano di recupero e della realizzazione del nuovo piano regolatore? Ecc...
+Se ho problemi di vista voi sieti ciechi.
+Come vedi sto ancora aspettando.
+La minoranza sicuramente avrà avuto le sue pecche, ma il potere dal 1995 è stato gestito sempre dagli stessi con risultati molto ma molto deludenti.
+Prova a girare negli altri paesi confinanti oramai siamo l'ultimo in ordine a progetti ed iniziative; perfino Calabritto ci ha surclassati (stanno realizzando anche loro il PIP).
+Se vogliamo continuare su qesta strada continuiamo a votere l'arcobaleno.
+Attento io sono uno di quelli che ha votato per la tua lista, ma dopo le prese in giro che ho subito sullo sviluppo di Caposele non posso più votarvi.
+A presto.
+
+[post_text_37]
+x nicola m.
+&nbsp;
+tu parli di lista non competitiva (come fai a dirlo, si tratta di persone nuove che ancora non hanno avuto modo di mettersi alla prova); ma hai visto chi avete voi in lista??? Gente che ha dimostrato tutta la sua completa incapacità e i pochi nuovi non mi sembrano offrire alcuna garanzia di serietà...
+
+[post_text_38]
+segnalo il nuovo portale x la community di caposele..
+l'indirizzo è http://selacapo.net
+si può accedere a forum tematici, news, sondaggi e foto e anche inviare materiale dopo essersi registrati.
+in particolare è presente una forum dedicato alle elezioni comunali 2007 in cui confrontarsi e postare opinioni..
+&nbsp;
+http://selacapo.net
+
+[post_text_39]
+lista L'ARCOBALENO
+Candidato a sindaco: GERARDO MONTEVERDE
+&nbsp;
+Candidati al consiglio comunale:
+Antonietta Colatrella, Donato Merola, Ettore Spatola, Franco Cibellis, Gaetano Grasso, Gerardina D'Alessio, Gianni Cetrulo, Lorenzo Melillo, Maria Rosaria Ceres, Michele Notaro, Pietro Cetrulo, Raffaele Grasso, Rocco Merola, Rocco Russomanno 1947, Rocco Russomanno 1953, Vincenzo Zanca.
+&nbsp;
+lista CAPOSELE NEL CUORE
+Candidato a sindaco: PASQUALE FARINA
+&nbsp;
+Candidati al consiglio comunale:
+Alfonsina Rosania, Alfonso Pallante, Angelo Ceres, Donatello Cirillo, Gerardo Freda, Gerardo Sista, Giannino Ciccone, Nunzia Mattia, Raffaele Corona, Raffaele Spatola, Raffaella Gonnella, Rocco Guarino, Salvatore Casillo, Salvatore Russomanno, Tommaso Cibellis, Vito Malanga.
+&nbsp;
+
+[post_text_40]
+Esclusa la lista ma Farina ricorre al Tar
+&nbsp;
+Troppe firme di presentazione, esclusa la lista «Caposele nel cuore». Colpo di scena nel centro irpino, che ha visto estromessa dalla tornata elettorale la formazione guidata da Pasquale Farina. Dopo la sorpresa la reazione, con l’inoltro di un ricorso al tribunale amministrativo per chiedere la riammissione al voto. Intanto, se l’esclusione sarà confermata, le elezioni saranno valide solo in caso di superamento del quorum.
+&nbsp;
+Colpo di scena per le elezioni amministrative. La Commissione elettorale circondariale ha deciso di ricusare la lista «Caposele nel cuore» capeggiata da Pasquale Farina. Il motivo? Eccesso di firme di presentatori. Settantatre invece che un massimo di sessanta così come prescritto dalla legge. La notizia dell’esclusione ha destato sconcerto nella cittadina dell'Alto Sele, dove la lotta politica per succedere al compianto primo cittadino Giuseppe Melillo ha assunto toni aspri. Sabato scorso, alla scadenza dei termini, per il rinnovo del consiglio comunale erano state presentate due liste, entrambe civiche: una capeggiata da Farina e l'altra, «L'arcobaleno», guidata da Gerardo Monteverde, l'ex vice sindaco che dopo la morte di Melillo ha diretto l'amministrazione. La decisione assunta dalla Commissione elettorale circondariale presieduta dal vice prefetto di Avellino, Vincenzo Troise, ha fatto catapultare a Sant'Angelo dei Lombardi, sede dell'organismo di controllo, i rappresentanti della lista ricusata nel tentativo d’indurre il funzionario prefettizio e gli altri componenti ad un ripensamento che fin da subito è apparso molto improbabile. Le speranze degli esclusi finiscono sui tavoli del Tar, al quale Pasquale Farina e gli altri candidati della lista «Caposele nel cuore» hanno presentato ricorso d'urgenza. Ove il Tar dovesse confermare il provvedimento si aprirà una corsa per assicurare all'unica lista in gioco il quorum necessario per validare le elezioni e per scongiurare l’ arrivo del commissario straordinario. Tentativo questo che molti rappresentanti locali dei partiti giudicano assai difficile per la forte differenza che si registra tra il numero dei cittadini residenti e quello decisamente più alto degli aventi diritto al voto.
+&nbsp;
+
+[post_text_41]
+Anteprima http://ars.altervista.org:
+&nbsp;
+Il ricorso sulla riammissione della lista CAPOSELE NEL CUORE (richiesta concessione della sospensiva) sarà esaminato il giorno 10 maggio.
 

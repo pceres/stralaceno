@@ -9,56 +9,56 @@ Risultati e classifica <b>III Categoria Avellino Girone G</b>:<br>
 <!-- 
 	inizio tabella risultati giornata x 
 -->
-	Risultati recupero 13<sup>a</sup> giornata (04/04/2007)
+	Risultati 23<sup>a</sup> giornata (22/04/2007)
 <table class="tabella" style="font-size:13.0pt;">
 <tbody><tr><td align="left"><table>
 <tbody>
 <!-- match # 1 -->
 <tr>
-	<td> &nbsp;CASTEL BARONIA</td>
+	<td> &nbsp;SPORTING EVER GREEN</td>
 	<td> &nbsp;-&nbsp; </td>
-	<td>LA LONGOBARDA</td>
-	<td>3-0</td>
+	<td>AQUILONIA</td>
+	<td>1-4</td>
 </tr>
 <!-- match # 2 -->
 <tr>
-	<td> &nbsp;MORRA DE SANCTIS</td>
+	<td> &nbsp;CASTEL BARONIA</td>
 	<td> &nbsp;-&nbsp; </td>
-	<td>SPORTING CLUB NUSCO</td>
-	<td>1-2</td>
+	<td>CAPOSELE</td>
+	<td>1-4</td>
 </tr>
 <!-- match # 3 -->
 <tr>
 	<td> &nbsp;REAL S. ANDREA CONZA</td>
 	<td> &nbsp;-&nbsp; </td>
-	<td>CAPOSELE</td>
-	<td>1-1</td>
+	<td>CASABIANCHI TREVICO</td>
+	<td>2-1</td>
 </tr>
 <!-- match # 4 -->
 <tr>
-	<td> &nbsp;SPORTING EVER GREEN</td>
+	<td> &nbsp;LA LONGOBARDA</td>
 	<td> &nbsp;-&nbsp; </td>
-	<td>CONZA</td>
+	<td>SPORTING CLUB NUSCO</td>
 	<td>1-1</td>
 </tr>
 <!-- match # 5 -->
 <tr>
-	<td> &nbsp;VALLESACCARDA</td>
+	<td> &nbsp;MORRA DE SANCTIS</td>
 	<td> &nbsp;-&nbsp; </td>
 	<td>TREVICO</td>
-	<td>1-0</td>
+	<td>np</td>
 </tr>
 <!-- match # 6 -->
 <tr>
 	<td> &nbsp;VIRTUS CONZA</td>
 	<td> &nbsp;-&nbsp; </td>
-	<td>AQUILONIA</td>
-	<td>0-3</td>
+	<td>VALLESACCARDA</td>
+	<td>0-0</td>
 </tr>
 	<tr><td colspan=3>&nbsp;</td></tr>
 <!-- nota # 1 -->
 <tr>
-	<td colspan=3>Riposa: CASABIANCHI TREVICO</td>
+	<td colspan=3>Riposa: CONZA</td>
 </tr>
 </tbody>
 </table></td></tr></tbody></table>
@@ -71,7 +71,7 @@ Risultati e classifica <b>III Categoria Avellino Girone G</b>:<br>
 <!-- 
 	inizio tabella classifica
 -->
-	Classifica aggiornata al 04/04/2007
+	Classifica aggiornata al 22/04/2007
 <table class="tabella" style="font-size:13.0pt;">
 <tbody><tr><td><table>
 <thead><tr>
@@ -92,131 +92,145 @@ Risultati e classifica <b>III Categoria Avellino Girone G</b>:<br>
 <tr>
 	<td>1</td>
 	<td align="left">&nbsp;AQUILONIA</td>
-	<td>51</td>
-	<td>19</td>
-	<td>17</td>
-	<td>0</td>
-	<td>2</td>
 	<td>57</td>
 	<td>21</td>
-	<td>36</td>
-	<td>14</td>
+	<td>19</td>
+	<td>0</td>
+	<td>2</td>
+	<td>64</td>
+	<td>22</td>
+	<td>42</td>
+	<td>16</td>
 </tr>
 <!-- # pos. 2 in classifica -->
 <tr>
 	<td>2</td>
-	<td align="left">&nbsp;REAL S. ANDREA CONZA</td>
-	<td>49</td>
-	<td>19</td>
-	<td>15</td>
-	<td>4</td>
-	<td>0</td>
-	<td>39</td>
-	<td>10</td>
-	<td>29</td>
-	<td>10</td>
+	<td align="left">&nbsp;CAPOSELE</td>
+	<td>54</td>
+	<td>21</td>
+	<td>17</td>
+	<td>3</td>
+	<td>1</td>
+	<td>73</td>
+	<td>16</td>
+	<td>57</td>
+	<td>13</td>
 </tr>
 <!-- # pos. 3 in classifica -->
 <tr>
 	<td>3</td>
-	<td align="left">&nbsp;CAPOSELE</td>
-	<td>48</td>
-	<td>19</td>
-	<td>15</td>
-	<td>3</td>
-	<td>1</td>
-	<td>66</td>
-	<td>14</td>
-	<td>52</td>
-	<td>11</td>
+	<td align="left">&nbsp;REAL S. ANDREA CONZA</td>
+	<td>53</td>
+	<td>21</td>
+	<td>16</td>
+	<td>5</td>
+	<td>0</td>
+	<td>42</td>
+	<td>12</td>
+	<td>30</td>
+	<td>10</td>
 </tr>
 <!-- # pos. 4 in classifica -->
 <tr>
 	<td>4</td>
-	<td align="left">&nbsp;CASTEL BARONIA</td>
+	<td align="left">&nbsp;SPORTING CLUB NUSCO</td>
+	<td>27</td>
+	<td>21</td>
+	<td>7</td>
+	<td>6</td>
+	<td>8</td>
 	<td>26</td>
-	<td>19</td>
-	<td>7</td>
-	<td>5</td>
-	<td>7</td>
-	<td>24</td>
-	<td>29</td>
-	<td>-5</td>
-	<td>-13</td>
+	<td>32</td>
+	<td>-6</td>
+	<td>-14</td>
 </tr>
 <!-- # pos. 5 in classifica -->
 <tr>
 	<td>5</td>
-	<td align="left">&nbsp;CONZA</td>
-	<td>25</td>
-	<td>20</td>
+	<td align="left">&nbsp;VALLESACCARDA</td>
+	<td>27</td>
+	<td>22</td>
+	<td>7</td>
 	<td>6</td>
-	<td>7</td>
-	<td>7</td>
+	<td>9</td>
 	<td>30</td>
-	<td>31</td>
-	<td>-1</td>
-	<td>-15</td>
+	<td>39</td>
+	<td>-9</td>
+	<td>-17</td>
 </tr>
 <!-- # pos. 6 in classifica -->
 <tr>
 	<td>6</td>
-	<td align="left">&nbsp;VALLESACCARDA</td>
-	<td>25</td>
-	<td>20</td>
+	<td align="left">&nbsp;CASTEL BARONIA</td>
+	<td>26</td>
+	<td>21</td>
 	<td>7</td>
-	<td>4</td>
+	<td>5</td>
 	<td>9</td>
-	<td>29</td>
-	<td>38</td>
-	<td>-9</td>
-	<td>-15</td>
+	<td>25</td>
+	<td>36</td>
+	<td>-11</td>
+	<td>-17</td>
 </tr>
 <!-- # pos. 7 in classifica -->
 <tr>
 	<td>7</td>
-	<td align="left">&nbsp;SPORTING CLUB NUSCO</td>
-	<td>23</td>
-	<td>19</td>
+	<td align="left">&nbsp;CONZA</td>
+	<td>25</td>
+	<td>21</td>
 	<td>6</td>
-	<td>5</td>
+	<td>7</td>
 	<td>8</td>
-	<td>23</td>
-	<td>30</td>
-	<td>-7</td>
-	<td>-14</td>
+	<td>31</td>
+	<td>33</td>
+	<td>-2</td>
+	<td>-16</td>
 </tr>
 <!-- # pos. 8 in classifica -->
 <tr>
 	<td>8</td>
 	<td align="left">&nbsp;MORRA DE SANCTIS</td>
 	<td>21</td>
-	<td>19</td>
-	<td>6</td>
-	<td>3</td>
-	<td>10</td>
-	<td>22</td>
-	<td>32</td>
-	<td>-10</td>
-	<td>-18</td>
-</tr>
-<!-- # pos. 9 in classifica -->
-<tr>
-	<td>9</td>
-	<td align="left">&nbsp;LA LONGOBARDA (pen. 1 pt.)</td>
-	<td>20</td>
 	<td>20</td>
 	<td>6</td>
 	<td>3</td>
 	<td>11</td>
-	<td>29</td>
-	<td>37</td>
-	<td>-8</td>
+	<td>23</td>
+	<td>34</td>
+	<td>-11</td>
 	<td>-19</td>
+</tr>
+<!-- # pos. 9 in classifica -->
+<tr>
+	<td>9</td>
+	<td align="left">&nbsp;LA LONGOBARDA (pen. 1 pt)</td>
+	<td>21</td>
+	<td>22</td>
+	<td>6</td>
+	<td>4</td>
+	<td>12</td>
+	<td>31</td>
+	<td>41</td>
+	<td>-10</td>
+	<td>-22</td>
 </tr>
 <!-- # pos. 10 in classifica -->
 <tr>
 	<td>10</td>
+	<td align="left">&nbsp;VIRTUS CONZA</td>
+	<td>19</td>
+	<td>21</td>
+	<td>5</td>
+	<td>4</td>
+	<td>12</td>
+	<td>17</td>
+	<td>37</td>
+	<td>-20</td>
+	<td>-24</td>
+</tr>
+<!-- # pos. 11 in classifica -->
+<tr>
+	<td>11</td>
 	<td align="left">&nbsp;TREVICO</td>
 	<td>18</td>
 	<td>19</td>
@@ -228,47 +242,33 @@ Risultati e classifica <b>III Categoria Avellino Girone G</b>:<br>
 	<td>-10</td>
 	<td>-19</td>
 </tr>
-<!-- # pos. 11 in classifica -->
-<tr>
-	<td>11</td>
-	<td align="left">&nbsp;VIRTUS CONZA</td>
-	<td>18</td>
-	<td>20</td>
-	<td>5</td>
-	<td>3</td>
-	<td>12</td>
-	<td>17</td>
-	<td>37</td>
-	<td>-20</td>
-	<td>-22</td>
-</tr>
 <!-- # pos. 12 in classifica -->
 <tr>
 	<td>12</td>
 	<td align="left">&nbsp;CASABIANCHI TREVICO</td>
-	<td>13</td>
-	<td>19</td>
-	<td>3</td>
-	<td>4</td>
-	<td>12</td>
 	<td>17</td>
-	<td>37</td>
+	<td>22</td>
+	<td>4</td>
+	<td>5</td>
+	<td>13</td>
+	<td>20</td>
+	<td>40</td>
 	<td>-20</td>
-	<td>-26</td>
+	<td>-27</td>
 </tr>
 <!-- # pos. 13 in classifica -->
 <tr>
 	<td>13</td>
 	<td align="left">&nbsp;SPORTING EVER GREEN</td>
-	<td>11</td>
-	<td>18</td>
+	<td>12</td>
+	<td>20</td>
 	<td>2</td>
-	<td>5</td>
-	<td>11</td>
-	<td>22</td>
-	<td>44</td>
-	<td>-22</td>
+	<td>6</td>
+	<td>12</td>
+	<td>23</td>
+	<td>48</td>
 	<td>-25</td>
+	<td>-30</td>
 </tr>
 </tbody>
 </table></td></tr></tbody></table>

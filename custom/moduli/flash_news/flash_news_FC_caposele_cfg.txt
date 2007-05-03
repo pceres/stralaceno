@@ -6,6 +6,10 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+02/05/2007::FC Caposele - Sporting Ever Green 9-0
+27/04/2007::Prossima partita: FC Caposele - Sporting Ever Green a Caposele il 29/04/2007 ore 16.00
+23/04/2007::Castel Baronia - FC Caposele 1-4
+19/04/2007::Prossima partita: Castel Baronia - FC Caposele a San Nicola Baronia il 21/04/2007 ore 16.00
 16/04/2007::FC Caposele - La Longobarda 3-1
 12/04/2007::Prossima partita: FC Caposele - La Longobarda a Caposele il 15 aprile ore 16.00
 05/04/2007::Real S.Andrea Conza - FC Caposele 1-1
@@ -20,4 +24,4 @@
 # formato testo_footer:  testo
 #
 [testo_footer]
-Ultimo aggiornamento effettuato il 15/03/2007
+

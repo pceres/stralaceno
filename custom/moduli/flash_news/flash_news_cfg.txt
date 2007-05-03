@@ -6,6 +6,7 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+17/04/2007::Il 7 aprile si &egrave; tenuta l'Assemblea annuale dell'Associazione, in cui &egrave; stato approvato il rendiconto economico 2006.
 18/03/2007::Paolo Viscardi e Alessandro Russomanno hanno partecipato alla Maratona di Roma, portandola regolarmente a termine 
 16/03/2007::Nicola D'Auria ha partecipato alle varie prove podistiche del 21&deg; Campionato Brianzolo nel periodo gennaio-marzo.
 13/03/2007::Apre sul sito Ars la sezione Ambiente e Natura.

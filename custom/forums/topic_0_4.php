@@ -24,6 +24,10 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 10::ars::08/03/2007 12.55.22::visible
 11::Donato Gervasio::09/03/2007 12.22.57::visible
 12::Christian Meyer::14/03/2007 10.08.00::visible
+13::antonio::24/04/2007 10.52.33::visible
+14::Renato::24/04/2007 13.06.57::visible
+15::Pasquale C.::25/04/2007 13.28.01::visible
+16::Jerry Notaro::28/04/2007 13.31.09::visible
 
 [post_text_0]
 E' in preparazione un sondaggio sulle squadre prime classificate nella Champions League 2006/2007.
@@ -84,4 +88,24 @@ Eh no, non si fa così! Quel pronostico mi spetta!
 &nbsp;
 Christian Meyer
 &nbsp;
+
+[post_text_13]
+vergogna, questo gioco si è dimostrato inutile e stupido secondo me. Come fà a vincere proprio uno che ha giocato con 2 nomi e forse anche più?? Si è dimostrato che queste cose è meglio non farle. E poi se fossi in te caro Donato mi vergognerei ma evidentemente tu hai una faccia tosta impressionante. Mi sento preso in giro e non giocherò mai più una schedina delle vostre. Ciao
+
+[post_text_14]
+Antonio non te la prendere con chi ha avuto l'idea e il fastidio di organizzare questo gioco. I responsabili sono chi non ha onestà intellettuale, chi agisce in mala fede ed in questo caso, come anche in altri, ti assicuro il loro numero è esagerato.
+
+[post_text_15]
+&gt;vergogna, questo gioco si è dimostrato inutile e stupido secondo me. Come fà a vincere proprio uno che ha giocato con 2 nomi e forse anche più?? Si è dimostrato che queste cose è meglio non farle. <br>&gt;E poi se fossi in te caro Donato mi vergognerei ma evidentemente tu hai una faccia tosta impressionante. Mi sento preso in giro e non giocherò mai più una schedina delle vostre. Ciao<br>&gt;<br><br>Caro Antonio, questo gioco non e' niente piu' di quello che dici: un gioco! Per di piu' mi sembra anche ben fatto: non ho trovato sul web qualcosa di simile che fosse ad accesso libero!
+&nbsp;
+Perche' dovremmo  addirittura vergognarci??? Hai idea di quanto tempo (e soldi per la connessione ad Internet!) ci sono voluti per scrivere il codice PHP sottostante? Il sondaggio non e' basato su script scopiazzati da qualche parte su Internet, e' scritto completamente da zero! E poi abbiamo dovuto impostare la pagina dell'inserimento delle giocate, e quella della classifica. E per tenere aggiornata quest'ultima? Dopo ogni match bisogna collegarsi ad Internet, ed inserire i risultati, in modo da consentire ai visitatori di leggere la classifica aggiornata. Come vedi c'e' voluta (e ci vuole) molta buona volonta' per portare avanti il gioco (da parte mia e degli altri soci ARS). Per di piu', questa volta, il gioco ha avuto accesso completamente libero e gratuito: mi sembra una iniziativa veramente altruistica, portata avanti per creare una occasione di divertimento e di dibattito.
+&nbsp;
+Sul discorso delle giocate anonime, Donato ci ha chiesto di eliminare le sue giocate: di piu' non poteva fare, perche' continui a prendertela con lui? La questione, spinosa, delle giocate anonime e' strettamente legata alla possibilita' che abbiamo lasciato stavolta di partecipare in forma anonima e completamente libera. E' stato un esperimento, su questo argomento ci piacerebbe avere un feedback dai giocatori. In sostanza, ti invito ad ignorare le giocate chiaramente anonime e non riconducibili ad una persona fisica: quella di Christian Meyer e' una di queste! Se la classifica non subisse modifiche nelle fasi successive, per me il vincitore sara' Michele; occhio pero' a Gerardo Notaro, che incombe dalle retrovie, e potrebbe vincere nel rush finale!
+&nbsp;
+Ciao, e goditi il gioco
+&nbsp;
+
+[post_text_16]
+Pasquale hai ragione al 107 percento, i caposelesi si riescono a lamentare pure dei regali! In riferimento al sondaggio ho realizzato sul mio sito www.caposeleonline.it un piccolo tabellone per prevedere gli esiti del concorso in base alle diverse ipotesi di vittoria finale.
+Ciao
 
