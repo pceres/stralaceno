@@ -29,7 +29,7 @@ Milan
 # Qualificato semifinale 4:
 Liverpool
 # Qualificato finale 1:
-nd
+Liverpool
 # Qualificato finale 2:
 nd
 # Vincitore:
@@ -50,7 +50,7 @@ nd
 [punteggio_risposte]
 #
 Porto::4,0
-Chelsea::4,4;3,4
+Chelsea::4,4;3,4;2,2
 Psv Eindhoven::4,4;3,0
 Arsenal::4,0
 Roma::4,4;3,0
@@ -62,6 +62,6 @@ Milan::4,4;3,4
 Lilla::4,0
 Manchester United::4,4;3,4
 Barcellona::4,1
-Liverpool::4,3;3,4
+Liverpool::4,3;3,4;2,2
 Inter::4,1
 Valencia::4,3;3,0
