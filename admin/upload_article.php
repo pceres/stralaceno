@@ -143,11 +143,35 @@ $guid 		= "$sezione,$id_articolo,{$art_data['autore']}";
 
 $bulk= get_abstract($art_data['testo'],'...');
 
+// estrai le righe che ostituiscono il corpo del testo
 $riassunto = '';
+$stato = 0;
 foreach ($bulk as $id => $linea)
 {
-	$linea = ereg_replace(Array("\n","\r"),Array("<br>",""),rtrim($linea));
-	$riassunto .= $linea;
+	$linea = rtrim($linea);
+	
+	switch ($stato)
+	{
+	case 0: // in attesa di Begin body
+		if ($linea === "--- Begin body ---")
+		{
+			$stato = 1;
+		}
+		break;
+	case 1: // in attesa di End body
+		if ($linea === "--- End body ---")
+		{
+			$stato = 2;
+		}
+		else
+		{
+			$linea = str_replace(array("\n","\r","::"),array("<br>","",":"),$linea);
+			$riassunto .= $linea;
+		}
+		break;
+	case 2: // finito
+		break;
+	}
 }
 
 $titolo = $art_data['titolo'];
