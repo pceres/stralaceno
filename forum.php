@@ -1203,8 +1203,9 @@ save_config_file($file_templog,$templog);
 			save_config_file($file_topic,$posts);
 			
 			// prepara i dati per il log dei nuovi contenuti
+			$post_testo_feed = str_replace(array("\r\n", "\n"  , "\r"),array("<br>", "<br>", ""  ),$post_testo);
 			$item['title'] 		= 'Nuovo messaggio sul forum: '.$topics['elenco_topics'][$topic_id][$indice_topic_caption]." (msg. $post_id)";
-			$item['description'] 	= ereg_replace("\r\n","<br>",$post_testo);
+			$item['description'] 	= $post_testo_feed;
 			$item['link'] 		= "forum.php?action=list_posts&amp;data=$forum_id,$topic_id&amp;post_id=$post_id";
 			$item['guid'] 		= "$forum_id,$topic_id,$post_id";
 			$item['category'] 	= "forum";
