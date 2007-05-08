@@ -1985,8 +1985,15 @@ $log.='::'.$item['username']."\r\n";
 
 //append current visit to log file
 $cf = fopen($logfile, 'a');
-fwrite($cf, $log);
-fclose($cf);
+if ($cf)
+{
+	fwrite($cf, $log);
+	fclose($cf);
+}
+else
+{
+	echo "<br>Problema di scrittura al file di log. Contattare l'amministratore.<br>";
+}
 
 } // end function log_new_content($content_type,$item)
 
