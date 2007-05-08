@@ -35,6 +35,7 @@ $feed = Array();
 
 $last_date = -1e9;	// last publish date
 $items = Array();
+$old_item = Array();
 foreach ($log_contents as $id => $item_data)
 {
 	$content_type 		= $item_data[index_logcontent_type];
@@ -60,22 +61,23 @@ foreach ($log_contents as $id => $item_data)
 	}
 	
 	
-	// articolo 1
-	$items[count($items)] = Array();
-	// title
-	$items[count($items)-1]['title'] 		= $content_title;
-	// description
-	$items[count($items)-1]['description'] 		= "<![CDATA[".$content_description."]]>";
-	// link
-	$items[count($items)-1]['link'] 		= $abs_url.$content_link;
-	// guid
-	$items[count($items)-1]['guid'] 		= $content_guid;
-	// category
-	$items[count($items)-1]['category'] 		= $content_category;
-	// pubDate
-	$items[count($items)-1]['pubDate'] 		= $content_pubDate;
-	// author
-	$items[count($items)-1]['author'] 		= $content_author;
+	$item = Array();
+	$item['type'] 		= $content_type; 		// titolo
+	$item['title'] 		= $content_title; 		// titolo
+	$item['description'] 	= $content_description; 	// description
+	$item['link'] 		= $abs_url.$content_link;	// link
+	$item['guid'] 		= $content_guid;		// guid
+	$item['category'] 	= $content_category;		// category
+	$item['pubDate'] 	= $content_pubDate;		// pubDate
+	$item['author'] 	= $content_author;		// author
+	$item['username'] 	= $content_username;		// username
+	
+	// pubblica l'item soltanto se ha un campo description diverso dal precedente
+	if (!array_key_exists('description',$old_item) | ($old_item['description'] !== $item['description']))
+	{
+		$items[count($items)] = $item;
+		$old_item = $item;
+	}
 }
 
 // dati del feed
@@ -106,7 +108,6 @@ $feed['ttl'] 		= '60';
 
 // items
 $feed['items'] 		= $items;
-
 
 publish_rss20($feed);
 
@@ -141,7 +142,6 @@ $feed['items']		: array costituito da elementi con i campi:
 
 
 // inizia a creare la pagina
-// header("Content-type: application/rss+xml");
 header("Content-type: application/xml");
 
 print '<?xml version="1.0" encoding="ISO-8859-1"?>';
@@ -150,7 +150,11 @@ print '<?xml version="1.0" encoding="ISO-8859-1"?>';
 <channel>
 <title><?php echo $feed['title']; ?></title>
 <link><?php echo $feed['link']; ?></link>
-<description><?php echo $feed['description']; ?></description>
+<description>
+<![CDATA[
+<?php echo $feed['description']; ?>
+]]>
+</description>
 <language><?php echo $feed['language']; ?></language>
 <copyright><?php echo $feed['copyright']; ?></copyright>
 <pubDate><?php echo $feed['pubDate']; ?></pubDate>
@@ -168,7 +172,9 @@ foreach ($feed['items'] as $item)
 <item>
 <title><?php echo $item['title']; ?></title>
 <description>
+<![CDATA[
 <?php echo $item['description']; ?>
+]]>
 </description>
 <link><?php echo $item['link']; ?></link>
 <guid><?php echo $item['guid']; ?></guid>
