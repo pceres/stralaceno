@@ -13,6 +13,7 @@ ars_semplificato.jpg
 Stemma_Caposele_Malanga_V.jpg  
 NDA1.jpg
 ars.jpg::
+lac_12.04.07.jpg 
 
 [All.Coll.05]
 ManifestoAll.Coll.05.jpg::
