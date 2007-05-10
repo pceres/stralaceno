@@ -17,6 +17,9 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 3::fonzo::15/12/2006 17.58.22::visible
 4::paolo::22/12/2006 00.59.01::visible
 5::ciclismo::06/03/2007 12.05.10::visible
+6::Do. Ger.::07/05/2007 17.48.07::visible
+7::ciclismo::08/05/2007 16.22.06::visible
+8::Salvatore::08/05/2007 19.16.10::visible
 
 [post_text_0]
 Cari amici di ArsWeb,
@@ -40,4 +43,13 @@ ciao...
 
 [post_text_5]
 Nuovo articolo: La preparazione fisica
+
+[post_text_6]
+Inserito nuovo articolo nella sezione ciclismo
+
+[post_text_7]
+Nuovo articolo: i rischi di Basso dopo la confessione
+
+[post_text_8]
+Vorrei sottolineare che Basso non si è dopato, ma aveva intenzione di doparsi in occasione del tour scorso...non cambia molto ma almeno possiamo dire che i risultati raggiunti negli anni scorsi sono frutto di tanto impegno e non del doping...
 

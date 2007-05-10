@@ -6,6 +6,7 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+08/05/2007::La partita Morra De Sanctis - FC Caposele, prevista per il 5 maggio, &egrave; stata rinviata per assenza dell'arbitro.
 02/05/2007::FC Caposele - Sporting Ever Green 9-0
 27/04/2007::Prossima partita: FC Caposele - Sporting Ever Green a Caposele il 29/04/2007 ore 16.00
 23/04/2007::Castel Baronia - FC Caposele 1-4

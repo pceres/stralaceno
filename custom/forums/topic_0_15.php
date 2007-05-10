@@ -53,6 +53,9 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 39::Politica::02/05/2007 10.17.05::visible
 40::dal Il Mattino del 01/05/2007::02/05/2007 10.23.32::visible
 41::ANTEPRIMA ars.altervista.org::02/05/2007 15.06.50::visible
+42::da Irpinianews.it ::03/05/2007 10.31.15::visible
+43::da Il Mattino::04/05/2007 10.15.28::visible
+44::da Il Mattino del 5 maggio::08/05/2007 10.59.32::visible
 
 [post_text_0]
 Riceviamo da CLEON.REN e pubblichiamo:
@@ -391,4 +394,28 @@ Colpo di scena per le elezioni amministrative. La Commissione elettorale circond
 Anteprima http://ars.altervista.org:
 &nbsp;
 Il ricorso sulla riammissione della lista CAPOSELE NEL CUORE (richiesta concessione della sospensiva) sarà esaminato il giorno 10 maggio.
+
+[post_text_42]
+Caposele - Irregolarità nella lista ‘Cuore’: Farina attende il Tar
+&nbsp;
+Sarà il Tar a decidere il destino della lista ‘Caposele nel Cuore’ dopo la registrazione di irregolarità effettuata dalla Commissione elettorale di Sant’Angelo dei Lombardi. Settantatrè, infatti, sono stati i sottoscrittori della lista a dispetto del massimo di sessanta stabilito dalla legge. La lista capeggiata da Pasquale Farina rischia dunque di non poter scendere in campo nella tornata elettorale del 27 e 28 maggio lasciando spazio aperto a ‘L’Arcobaleno’ che potrebbe non avere alcuno sfidante nell’imminente battaglia elettorale. "Siamo increduli e, sinceramente, esprimiamo perplessità in ordine alle cose contestate - commenta Farina - tenuto conto del fatto che anche l'altra lista in competizione ha comunicato la solidarietà nei nostri confronti. Siamo fiduciosi nel ricorso al Tar, diversamente verrebbe meno un principio fondamentale di democrazia". La notizia fa registrare tuttavia qualche incongruenza: sembra infatti che nel fascicolo giunto alla commissione elettorale ci sarebbero due fogli di firmatari contenenti 13 firme in più (73 invece che 60) mentre i responsabili della lista sarebbero in possesso di un certificato in grado di attestare l’esistenza di un solo foglio cumulativo contenente 41 sottoscrizioni. Un giallo la cui soluzione i rappresentati del ‘Cuore’ affidano alla segretaria comunale che ha a sua difesa la testimonianza dei colleghi presenti all’atto di autenticazione che la scagionano completamente. Fatto sta che, qualora il Tar rigettasse il ricorso, allora i ‘numeri’ porterebbero senza via di scampo ad una situazione estremamente difficile. L’Arcobaleno, in questo caso, entrerebbe in competizione con il quorum: in paese gli aventi diritto al voto sono 4200 mentre gli elettori sono circa 2800 molti dei quali residenti all’estero. Il candidato a sindaco Gerardo Monteverde dovrebbe dunque raggiungere la ragguardevole cifra di 2100 voti.
+02/05/2007
+
+[post_text_43]
+Caposele. Presentato ieri il ricorso al Tar di Salerno contro l'esclusione della lista Caposele nel cuore.
+I componenti dello schieramento credono fortemente nella possibilità di poter essere riammessi alla competizione e, per questo, si sono affidati ad un pool di legali formato dagli avvocati Palmieri, Cirillo, Forte e Rizzo. Siamo fiduciosi - dichiara il candidato alla carica di sindaco Pasquale Farina - dell'operato della giustizia. In passato, il Tar si è espresso favorevolmente su ricorsi analoghi al nostro.
+Caposele nel cuore è stata esclusa perché presentata da ben 73 firme rispetto al massimo di 60 previste dalla legge. Un eccesso di zelo che è costato caro allo schieramento, escluso dalla consultazione.  La legge - continua Farina - prevede la possibilità di presentare alcune firme aggiuntive nel modello integrativo. Per questo siamo molto possibilisti sul ricorso. Il Giudice del Tar di Salerno dovrebbe esprimersi il prossimo 10 Maggio.
+Dovesse andar male, Gerardo Monteverde sarebbe costretto a fare corsa solitaria, con la sua L'arcobaleno contro l'ostacolo quorum. Per il mio avversario - dichiara ancora il capolista di - sarebbe una battaglia ardua. Nelle liste sono iscritti oltre 4300 cittadini, di cui circa 1300 residenti all'estero. Monteverde dovrebbe convincere oltre 2mila e 100persone a recarsi alle urne, rispetto ai 2mila e 700 votanti di media delle ultime consultazioni amministrative.
+Ciò che preoccupa maggiormente sia me che Monteverde - conclude Farina - sarebbe l'impossibilità di preservare il segreto dell'urna. La competizione verrebbe falsata.
+Fino al prossimo 10 maggio, dunque, clima di attesa con le liste che, con ogni probabilità, rinvieranno ogni manifestazione pubblica.
+03/05/07 li. sa.
+&nbsp;
+
+[post_text_44]
+Caposele, il Tar si pronuncia
+&nbsp;
+Caposele. È attesa per il prossimo 10 maggio la decisione del Tar di Salerno sul ricorso presentato dalla lista «Caposele nel cuore» contro l’esclusione dalla competizione elettorale. C’è un velato ottimismo nel candidato sindaco Pasquale Farina e fra i candidati, che si fonda sull’esito favorevole registrato, in passato, in altri comuni, rispetto a circostanze analoghe a quelle che hanno determinato l’esclusione della lista locale. La contestazione mossa dalla Commissione elettorale, com’è noto, si riferisce al numero eccedente di firme presentate a sostegno della formazione civica (73 rispetto al limite di 60 previsto dalla norma). 05/05/2007
+&nbsp;
+&nbsp;
+&nbsp;
 

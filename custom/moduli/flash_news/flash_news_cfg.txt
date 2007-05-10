@@ -6,6 +6,7 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+08/05/2007::Partecipanti alla III edizione della gara podistica "Sulle orme di Filippide" di km.10 a Paestum: Alessandro Russomanno, Salvatore Merola, Francesco Ceres, Paolo Viscardi. Accompagnatore: Gelsomino Merola.
 17/04/2007::Il 7 aprile si &egrave; tenuta l'Assemblea annuale dell'Associazione, in cui &egrave; stato approvato il rendiconto economico 2006.
 18/03/2007::Paolo Viscardi e Alessandro Russomanno hanno partecipato alla Maratona di Roma, portandola regolarmente a termine 
 16/03/2007::Nicola D'Auria ha partecipato alle varie prove podistiche del 21&deg; Campionato Brianzolo nel periodo gennaio-marzo.
@@ -41,4 +42,4 @@
 # formato testo_footer:  testo
 #
 [testo_footer]
-Ultimo aggiornamento effettuato il 18/03/2007
+Ultimo aggiornamento effettuato il 08/05/2007

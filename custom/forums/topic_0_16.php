@@ -24,6 +24,8 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 10::NewsAmbiente::01/04/2007 18.00.47::visible
 11::Ambiente news::07/04/2007 13.20.06::visible
 12::News Ambiente::13/04/2007 16.38.28::visible
+13::Ambiente News::04/05/2007 15.58.16::visible
+14::articolo su Il Mattino::08/05/2007 14.55.22::visible
 
 [post_text_0]
 Qui proposte, osservazioni, critiche e tutto ciò che concerne l'ambiente e la natura dalle grosse tematiche di interesse mondiali ai piccoli accadimenti del paese.
@@ -75,4 +77,14 @@ E' online un nuovo articolo nella sezione Ambiente.
 
 [post_text_12]
 Notizie sulla sezione ambiente vedi News
+
+[post_text_13]
+Vedi News Ambiente
+
+[post_text_14]
+SUMMIT IN PREFETTURA
+Pavoncelli bis, nuove verifiche
+&nbsp;
+AMEDEO PICARIELLO Duro scontro nel vertice di ieri mattina in Prefettura tra i rappresentanti istituzionali irpini e il commissario ad acta Roberto Sabbatucci per la vicenda della Galleria Pavoncelli bis, la mega opera pensata per aumentare la portata d'acqua verso la Puglia. Su richiesta del rappresentante di governo, Paolo Orrei, intorno allo stesso tavolo c'erano il presidente dell'Ato Calore-Irpino, Pasquale Giuditta, il presidente del Parco dei Monti Picentini, Sabino Aquino, l'assessore provinciale all'Ambiente Bruno Fierro, i rappresentanti dell'assessorato regionale all'Ambiente e quelli di alcuni comuni interessati all'intervento come Caposele e Conza della Campania. L'Irpinia da tempo si oppone all'opera: l'ente d'ambito ha impugnato il progetto davanti al tribunale delle acque ed ha chiesto un intervento della presidenza del Consiglio, ma ciononostante il ministro delle Infrastrutture, Antonio Di Pietro, è andato avanti con l'iter e l'appalto. A mediare ci ha pensato il prefetto Parolo Orrei che al termine di una burrascosa riunione è riuscito ad ottenere l'impegno per un ulteriore vertice nel quale «saranno valutate - ha fatto sapere - le condizioni dell'opera e il suo impatto ambientale». Da parte sua, il commissario Sabbatucci ha ribadito che il raddoppio della galleria non avrà ripercussioni negative dal punto di vista ambientale. «Senza garanzie sulla tutela delle sorgenti - ha replicato l'onorevole Giuditta - e sull'accordo quadro con la Puglia per un adeguato ristoro l'opera non va fatta. La nostra continuerà ad essere una ferma opposizione a tutela del territorio». E intanto è atteso a giorni il parere sull'opera da parte della Comunità europea. A richiederlo è stato il presidente del Parco dei Picentini, Sabino Aquino che ha aggiunto: «È un intervento - sostiene - che potrebbe generare ripercussioni negative sul bacino sorgivo di Caposele". 08/05/2007
+&nbsp;
 

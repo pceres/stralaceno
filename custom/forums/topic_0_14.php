@@ -40,6 +40,8 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 26::info::27/04/2007 11.50.12::visible
 27::info::02/05/2007 11.36.45::visible
 28::info2::02/05/2007 14.56.48::visible
+29::info::03/05/2007 10.24.00::visible
+30::info::04/05/2007 10.06.46::visible
 
 [post_text_0]
 Qui aspettiamo i vostri commenti alle vicende calcistiche della F.C. Caposele.
@@ -153,4 +155,10 @@ Inserito nell sez. FC Caposele l'articolo relativo al recupero dell 13a giornata
 
 [post_text_28]
 Aggiunte nuove foto il 2 maggio
+
+[post_text_29]
+Pubblicate le brevi sintesi sulle partite del Caposele della 20a, 21a, 22a e 23a giornata.
+
+[post_text_30]
+Aggiornata la classifica con le gare del 29 aprile.
 

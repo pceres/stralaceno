@@ -6,7 +6,7 @@ Titolo::Sondaggio Champions League 2006/07
 <img id="logo_Champions" src="%file_root%custom/album/varie/logo_Champions.jpg" alt="..." border="0" width="500">
 </div>
 <br>
-<b>Aggiornata la <a href="questions.php?id_questions=2&amp;action=results">classifica</a> dopo la disputa della prima semifinale.</b>
+<b>Aggiornata la <a href="questions.php?id_questions=2&amp;action=results">classifica</a> dopo la disputa delle semifinali.</b>
 <br>
 <br>
 Le <b>Caratteristiche Principali</b> del sondaggio-studio proposto dall'ARS sulla Champions League 2006/07:

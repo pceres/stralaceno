@@ -59,6 +59,14 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 45::Ale::02/05/2007 17.01.33::visible
 46::Salvatore::02/05/2007 20.43.32::visible
 47::Salvatore::02/05/2007 21.01.16::visible
+48::Ale::03/05/2007 10.11.03::visible
+49::Ale::03/05/2007 11.19.07::visible
+50::Salvatore::03/05/2007 14.09.45::visible
+51::NICOLA M.::08/05/2007 00.29.14::visible
+52::Jerry Notaro::08/05/2007 08.29.50::visible
+53::Salvatore::08/05/2007 15.08.04::visible
+54::Ale::08/05/2007 15.57.05::visible
+55::Salvatore::08/05/2007 19.20.45::visible
 
 [post_text_0]
 Fermate Nicola Melillo con questa stralaceno: anche i muri di materdomini e caposele non ne possono più.
@@ -287,4 +295,38 @@ Vabbè allora ci vediamo questo fine settimana...ciao
 
 [post_text_47]
 Alessà neanche a farlo apposta mi è stata consigliata una gara molto bella da un atleta della Montemiletto Team Runners, sabato 5 maggio ore 18,30 a Paestum ci sarà una gara di 10 km,hanno detto k è molto bella..se tu sei disponibile ad andare fammelo sapere così cerco di avvisare Paolo e qualcun altro...in attesa di notizie..ciao
+
+[post_text_48]
+Ciao Salvatore, cerca di raccogliere ulteriori informzioni riguardo la gara di Paestum; io ancora non ti posso garantire la mia presenza, cmq mi faccio sentire e vediamo se la cosa si può fare; iniziamo a mettere in preallarme Paolo, Francesco ecc.
+
+[post_text_49]
+ciao Salvatore, ti ho inviato una mail con il regolamento della gara di Paestum.
+
+[post_text_50]
+X ale
+&nbsp;
+ho appena mandato un e-mail alla società che organizza la corsa...speriamo che fanno sapere qualcosa entro domani altrimenti mi sa che non possiamo andare...ti faccio sapere se ci sono novità..ciao
+
+[post_text_51]
+CIAO HO INENZIONE DI ORGANIZZARE UNA PARTITA ALLO STADIO PALMENTA TRA 2 COMPAGINI AMATORIALI CHIUNQUE SIA INTERESSATO LASCI UN MESSAGGIO SUL FORUM O ME LO DICE A VOCE
+
+[post_text_52]
+Presente!
+Caro Nicola non vedo l'ora di calpestare la mitica erba dello stadio Palmenta dopo mesi e mesi del rude cemento del calcetto. Conosco almeno un'altra decina di disgraziati come me che farebbero carte false pur di giocare su quel campone...ci aggiorniamo al bar.
+Ciao
+
+[post_text_53]
+X Alessandro
+&nbsp;
+Purtroppo ho problemi ad inviare e-mail,mi sa che le foto te le darò di persona in questo fine settimana..cmq volevo mandarti pure il programma di una gara che sabato 12 si svolgerà a Venticano...ciao
+
+[post_text_54]
+x Salvatore
+&nbsp;
+Si può trovare in rete il programma della corsa di Venticano? Dove?
+
+[post_text_55]
+X Alessandro
+&nbsp;
+Ho chiesto maggiori informazioni riguardo la gara e ho saputo che è organizzata in collaborazione con una squadra di venticano però la gara si svolge in Puglia..quindi niente da fare...ti farò sapere se ci sono novità...ciao
 

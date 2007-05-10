@@ -31,7 +31,7 @@ Liverpool
 # Qualificato finale 1:
 Liverpool
 # Qualificato finale 2:
-nd
+Milan
 # Vincitore:
 nd
 
@@ -58,9 +58,9 @@ Lione::4,0
 Real Madrid::4,1
 Bayern Monaco::4,3;3,0
 Celtic Glasgow::4,0
-Milan::4,4;3,4
+Milan::4,4;3,4;2,4
 Lilla::4,0
-Manchester United::4,4;3,4
+Manchester United::4,4;3,4;2,0
 Barcellona::4,1
 Liverpool::4,3;3,4;2,2
 Inter::4,1
