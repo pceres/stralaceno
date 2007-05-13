@@ -121,7 +121,7 @@ X nicola
 &nbsp;
 Ciao Nicò pensavo che però le polemiche fossero finite...la gara di novembre l'ho detto io a te che è una novità importante però non puoi criticare l'ars ogni volta che lasci un messaggio sul forum...abbiamo cercato in tutti i modi di farti capire che quello che dici è sbagliato,però tu continui a sbagliare...Secondo me invece l'ars è molto importante per tutti noi caposelesi e se tu scrivi davvero quello che pensi,sinceramente credo che non sei poi così tanto amante dello sport...Ciao
 &nbsp;
-un saluto ancora a ale & paul...ciao ragà
+un saluto ancora a ale &amp; paul...ciao ragà
 
 [post_text_11]
 LE VARIE CORSE SIETE ANDATI A CORRERLE IN 4-5 QUINDI QUALI NUOVI RAGAZZI SIETE RIUSCITI A COINVOLGERE!!LA STRALACENO E' UNA BELLA GIORNATA DI SPORT PERCIO' CI SONO SEMPRE VENUTO MA LE COSE DA MIGLIORARE SONO MOLTEPLICI!QUESTA ESTATE SCORSA IL CAMPO PALMENTA L' HO UTILIZZATO POCHE VOLTE MA DI VOI COMPONENTI ARS NEMMENO L' OMBRA TRANNE I SOLITI NOTI!AGLI ALLENAMENTI COLLETTIVI HO PARTECIPATO PERCHE' IN QUEI GIORNI NE AVEVO VOGLIA E VOLEVO TRASCORRERE DELLE ORE PIACEVOLI MA RITENGO CHE I PERCORSI PROPOSTI SIANO STATI MOLTO ANOMALI E FATICOSI!PER QUANTO RIGUARDA IL FATTO CHE UTILIZZO IL FORUM DEL SITO DA VOI CREATO SE PER VOI E' UN PROBLEMA POSSO ANCHE FARNE BENISSIMO A MENO IN QUANTO HO ALTRI MEZZI PER SUSCITARE E RICEVERE CONSENSI DA PARTE DEI RAGAZZI DI CAPOSELE AMANTI DELLE ATTIVITA' SPORTIVE
@@ -142,14 +142,16 @@ DIMENTICAVO SULLA 3 CAMPANILI SIETE COMUNQUE ANDATI A RICOSTRUIRE LA CLASSIFICA 
 &gt;AGLI ALLENAMENTI COLLETTIVI HO PARTECIPATO PERCHE' IN QUEI GIORNI NE AVEVO VOGLIA E VOLEVO TRASCORRERE DELLE ORE PIACEVOLI MA RITENGO CHE I PERCORSI PROPOSTI SIANO STATI MOLTO ANOMALI E FATICOSI!<br><br>i percorsi degli allenamenti collettivi già erano noti prima della partenza...
 
 [post_text_17]
-&gt;PER QUANTO RIGUARDA IL FATTO CHE UTILIZZO IL FORUM DEL SITO DA VOI CREATO SE PER VOI E' UN PROBLEMA POSSO ANCHE FARNE BENISSIMO A MENO IN QUANTO HO ALTRI MEZZI PER SUSCITARE E RICEVERE CONSENSI DA PARTE DEI RAGAZZI DI CAPOSELE AMANTI DELLE ATTIVITA' SPORTIVE<br>&gt;<br><br>non c'è alcun problema, puoi tranquillamente continuare ad utilizzarlo, ma non ti pare poco elegante utilizzare uno spazio per criticare lo spazio stesso e chi te lo mette a disposizione...
+&gt;PER QUANTO RIGUARDA IL FATTO CHE UTILIZZO IL FORUM DEL SITO DA VOI CREATO SE PER VOI E' UN PROBLEMA POSSO ANCHE FARNE BENISSIMO A MENO IN QUANTO HO ALTRI MEZZI PER SUSCITARE E RICEVERE CONSENSI DA PARTE DEI RAGAZZI DI CAPOSELE AMANTI DELLE ATTIVITA' SPORTIVE
+<br>&gt;<br><br>non c'è alcun problema, puoi tranquillamente continuare ad utilizzarlo, ma non ti pare poco elegante utilizzare uno spazio per criticare lo spazio stesso e chi te lo mette a disposizione...
 &nbsp;
 
 [post_text_18]
 &gt;DIMENTICAVO SULLA 3 CAMPANILI SIETE COMUNQUE ANDATI A RICOSTRUIRE LA CLASSIFICA E LE PRESTAZIONI CRONOMETRICHE DEGLI ATLETI MA NON AVEVATE PIU' VOLTE DETTO CHE SE IL PERCORSO DELLA CORSA NON SAREBBE STATO MODIFICATO NON SOLO NESSUNO DI VOI NON AVREBBE PIU' PARTECIPATO MA CHE NON DAVATE IL VOSTRO APPOGGIO<br><br>infatti quest'anno (edizione 2006) non abbiamo collaborato al cronometraggio e abbiamo lasciato libertà ai nostri soci di scegliere se partecipare o meno alla gara liberamente a livello individuale.
 
 [post_text_19]
-&gt;IN ULTIMO SUL SITO HO LASCIATO MOLTI MESSAGGI MA MI SA CHE NON SONO RIUSCITO A CREARE ALCUN TIPO DI DIBATTITO IN QUANTO CI SONO SEMPRE LE STESSE PERSONE CHE HANNO SCRITTO QUALCOSA QUINDI CREDO PROPRIO CHE HO SPRECATO SOLO ENERGIE E PAROLE SENZA RAGGIUNGERE NESSUNO SCOPO.<br>&gt;<br><br>come vedi gli interessati al podismo non sono così numerosi... L'inizio di una nuova esperienza è sempre difficile... Le idee però hanno sempre un'importanza fondamentale, anche se i loro frutti non sono sempre immediati.
+&gt;IN ULTIMO SUL SITO HO LASCIATO MOLTI MESSAGGI MA MI SA CHE NON SONO RIUSCITO A CREARE ALCUN TIPO DI DIBATTITO IN QUANTO CI SONO SEMPRE LE STESSE PERSONE CHE HANNO SCRITTO QUALCOSA QUINDI CREDO PROPRIO CHE HO SPRECATO SOLO ENERGIE E PAROLE SENZA RAGGIUNGERE NESSUNO SCOPO.
+<br>&gt;<br><br>come vedi gli interessati al podismo non sono così numerosi... L'inizio di una nuova esperienza è sempre difficile... Le idee però hanno sempre un'importanza fondamentale, anche se i loro frutti non sono sempre immediati.
 Continua pure a scrivere e a lanciare IDEE e non critiche inutili e superficiali.
 &nbsp;
 saluti. Alessandro R.
