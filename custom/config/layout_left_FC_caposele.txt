@@ -8,6 +8,8 @@
 #	[Articoli] 		: visualizza tutto l'elenco degli articoli, 
 #				  se si sta visualizzando un solo articolo in colonna centrale
 #	[Links] 		: visualizza i link impostati in links.txt dall'interfaccia amministrativa
+#	[Last_contents]		: visualizza gli ultimi contenuti aggiunti al sito
+#					La prima riga e' costituita da un numero che indica quanti elementi visualizzare
 #	[Delimitazione_x]	: separa i blocchi chiudendo e riaprendo il riquadro (x e' un numero progressivo)
 #
 # I valori consentiti per tipo_elemento sono:
