@@ -7,6 +7,7 @@
 // $login			: dati utente connesso e relativi gruppi di appartenenza
 // $sezione			: argomento di index che specifica il tipo di pagina da visualizzare
 // $art_id			: argomento di index che specifica l'id dell'articolo da visualizzare
+// $quiet_layout		: non generare nessun output (serve per rendere disponibili le funzioni)
 
 // carica layout colonna sinistra
 $elenco_layout_left = get_config_file($filename_layout_left,6);
@@ -34,83 +35,87 @@ foreach ($elenco_layout_right['elenco_moduli'] as $proprieta_modulo)
 }
 unset($elenco_layout_right['elenco_moduli']);
 
-// aggiungi eventuali script
-$flag_script_Login = 0;
-$flag_script_droplist_XXX = 0;
-foreach (array_merge($elenco_layout_left,$elenco_layout_right) as $nome_modulo => $dati_modulo)
+// print scripts only if not in quiet mode
+if (!$quiet_layout)
 {
-	// gestisci blocchi
-	switch ($nome_modulo)
+	// aggiungi eventuali script
+	$flag_script_Login = 0;
+	$flag_script_droplist_XXX = 0;
+	foreach (array_merge($elenco_layout_left,$elenco_layout_right) as $nome_modulo => $dati_modulo)
 	{
-	case 'Login':
-		if (!$flag_script_Login)
+		// gestisci blocchi
+		switch ($nome_modulo)
 		{
-			echo "<script type=\"text/javaScript\" src=\"".$site_abs_path."admin/md5.js\"></script>\n";
-			$flag_script_Login = 1;
-		}
-		break; // Login
-		
-	default:
-		//
-	}
-	
-	// gestisci sottoblocchi
-	foreach ($dati_modulo as $item_data)
-	{
-		//echo $item_data[$indice_layout_name]."<br>\n";
-		switch ($item_data[$indice_layout_name])
-		{
-		case 'droplist_atleti':
-		case 'droplist_edizioni':
-			if (!$flag_script_droplist_XXX)
+		case 'Login':
+			if (!$flag_script_Login)
 			{
-?>
-
-<script type="text/javascript">
-<!-- 
-
-function valida(pform,tipo,check_null)
-{
-// serve a prendere il valore selezionato nella droplist, e ad inviarlo tramite il form alla relativa pagina
-
-	var valore = "";
-
-	if (tipo == 'anno') // tipo='anno'
-	{
-	  valore = pform.anno.value;
-	}
-	else // tipo='nome'
-	{
-		if (tipo == 'id_nome')
-		{
-			valore = pform.id_nome.value;
-		}
-	}
-
-	if (valore  != "0")
-	{
-	  pform.submit();
-	}
-	else if (check_null == 1)
-	{
-	  alert("Devi scegliere prima!")
-	}
-}
-
-//-->
-</script>
-
-<?php
-				$flag_script_droplist_XXX = 1;
-			} // if !$flag_script_droplist_XXX
-			break; // droplist_XXX
+				echo "<script type=\"text/javaScript\" src=\"".$site_abs_path."admin/md5.js\"></script>\n";
+				$flag_script_Login = 1;
+			}
+			break; // Login
 			
 		default:
 			//
 		}
 		
+		// gestisci sottoblocchi
+		foreach ($dati_modulo as $item_data)
+		{
+			//echo $item_data[$indice_layout_name]."<br>\n";
+			switch ($item_data[$indice_layout_name])
+			{
+			case 'droplist_atleti':
+			case 'droplist_edizioni':
+				if (!$flag_script_droplist_XXX)
+				{
+	?>
+	
+	<script type="text/javascript">
+	<!-- 
+	
+	function valida(pform,tipo,check_null)
+	{
+	// serve a prendere il valore selezionato nella droplist, e ad inviarlo tramite il form alla relativa pagina
+	
+		var valore = "";
+	
+		if (tipo == 'anno') // tipo='anno'
+		{
+		valore = pform.anno.value;
+		}
+		else // tipo='nome'
+		{
+			if (tipo == 'id_nome')
+			{
+				valore = pform.id_nome.value;
+			}
+		}
+	
+		if (valore  != "0")
+		{
+		pform.submit();
+		}
+		else if (check_null == 1)
+		{
+		alert("Devi scegliere prima!")
+		}
 	}
-}
+	
+	//-->
+	</script>
+	
+	<?php
+					$flag_script_droplist_XXX = 1;
+				} // if !$flag_script_droplist_XXX
+				break; // droplist_XXX
+				
+			default:
+				//
+			}
+			
+		}
+	}
+} // end if (!$quiet_layout)
 
 
 $layout_data['sezione'] = $sezione; // sezione;
@@ -246,6 +251,7 @@ if ($item_type != 'modulo')
 		$item_link = $layout_item[$indice_layout_data][0];
 		$item_name = $layout_item[$indice_layout_data][1];
 		$item_caption = $layout_item[$indice_layout_data][2];
+		$item_tooltip = $layout_item[$indice_layout_data][3];
 		break;
 	case 'external_link':
 		$item_link = $layout_item[$indice_layout_data];
@@ -255,6 +261,7 @@ if ($item_type != 'modulo')
 		
 		$item_name = $layout_item[$indice_layout_name];
 		$item_caption = $layout_item[$indice_layout_caption];
+		$item_tooltip = '';
 		break;
 	case 'separatore':
 		echo "<tr><td colspan=\"2\"><hr></td></tr>";
@@ -268,6 +275,7 @@ if ($item_type != 'modulo')
 		$item_link = $list_tempi_page[$item_name];
 		$item_name = $layout_item[$indice_layout_name];
 		$item_caption = $layout_item[$indice_layout_caption];
+		$item_tooltip = '';
 		
 		if (count($layout_data['archivio']) <= 1)
 		{
@@ -283,6 +291,7 @@ if ($item_type != 'modulo')
 		}
 		$item_name = $layout_item[$indice_layout_name];
 		$item_caption = $layout_item[$indice_layout_caption];
+		$item_tooltip = '';
 		
 		// verifica che la pagina esista
 		$filename = $root_path."custom/moduli/$item_name/$item_name.php";
@@ -317,6 +326,15 @@ if ($item_type != 'modulo')
 		$stile_cella = "";
 	}
 	
+	if (!empty($item_tooltip))
+	{
+		$tooltip = " title=\"$item_tooltip\"";
+	}
+	else
+	{
+		$tooltip = '';
+	}
+	
 	// inizio codice html:
 	echo "\t\t\t<!-- inizio sottoblocco $item_name -->\n";
 	
@@ -327,7 +345,9 @@ if ($item_type != 'modulo')
 			<tr style="vertical-align: baseline">
 				<td>&#8250;&nbsp;</td>
 				<td align="left" width="100%" <?php echo $wrap_mode; ?> <?php echo $stile_cella; ?>>
-					<a href="<?php echo $item_link ?>" name="<?php echo $item_name ?>" class="txt_link"><?php echo $item_caption ?></a>
+					<a href="<?php echo $item_link ?>" name="<?php echo ereg_replace("[^a-zA-Z0-9]","_",$item_name); ?>"
+						class="txt_link" <?php echo $tooltip; ?>><?php echo $item_caption ?>
+					</a>
 				</td>
 			</tr>
 			
@@ -630,6 +650,14 @@ if (($username === 'guest') | (!in_array($login_status,array('none','ok_form','o
 	}
 	break;
 
+case 'Last_contents':
+	// dati dal file di configurazione
+	$layout_block_data = $layout_items[0]; // prima riga sottostante [Last_contents]
+	$last_contents_num_items = $layout_block_data[0];	// primo elemento della riga
+	
+	require_once($root_path."custom/moduli/last_contents/last_contents_layout_item.php");
+	break;
+	
 default:
 	
 ?>
