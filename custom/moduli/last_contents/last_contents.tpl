@@ -2,44 +2,32 @@
 <html>
 
 <head>
-  <title>%web_title% - Associazione ARS Amatori Running Sele - Caposele sul Web</title>
+  <title>%web_title% - Ultimi aggiornamenti</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
   <meta name="description" content="elenco dei siti caposelesi, a cura dell'Associazione ARS Amatori Running Sele">
-  <meta name="keywords" content="soci,Associazione,ARS,Amatori Running Sele, notizie, flash, bacheca">
+  <meta name="keywords" content="Associazione,ARS,Amatori Running Sele, notizie, flash, bacheca, news, ultimi aggiornamenti">
   <style type="text/css">@import "%filename_css%";</style>
 </head>
 <body>
 
 
+<div align="justify" class="txt_normal">
 
-<div class="titolo_tabella">Ultimi aggiornamenti a %web_title%</div><br>
-<!-- <div align="center"> -->
+<br>
 
-<!--<th valign="middle">Titolo</th>
-<th valign="middle">Descrizione</th>
-<th valign="middle">link</th>
-<th valign="middle">guid</th>
-<th valign="middle">category</th>
-<th valign="middle">pubDate</th>
-<th valign="middle">autore</th>-->
+%%%% begin last_contents_cfg.txt last_contents_data 1
+<div align="left"><big><b>Ultimo aggiornamento a %web_title%: %field0%</b></big></div>
+%%%% end
+<br>
 
 <table> 
-<!--<thead><tr>
-	<th valign="middle">link</th>
-	<th valign="middle">&nbsp;</th>
-	<th valign="middle">Descrizione</th>
-</tr></thead>-->
 <tbody>
 
 %%%% begin last_contents_cfg.txt items 7
     <tr>
-	<td>%field5%</td><td>:</td><td><a href="%field2%">%field0%</a></td>
-<!--	<div align="center">%field2%</div>
-	<div align="center">%field3%</div>
-	<div align="center">%field4%</div>
-	<div align="center">%field5%</div>
-	<div align="center">%field6%</div></li>-->
+	<td valign="top" nowrap>- <i>%field5%</i>: </td>
+	<td><a href="%field2%">%field0%</a><br></td>
     </tr>
 %%%% end
 
@@ -47,12 +35,6 @@
  </tbody>
  </table>
 
-<!--%%%% begin last_contents_cfg.txt testo_footer 2
-	<small>%field0%</small>
-%%%% end-->
-
-<!-- </div>  -->
-
+</div>
 
 %homepage_link%
-
