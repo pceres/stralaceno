@@ -5,7 +5,6 @@ require_once('../../../libreria.php');
 # dichiara variabili
 extract(indici());
 
-
 ?>
 
 <?php
@@ -15,7 +14,11 @@ $module_endpath = substr($filename,strpos($filename,'custom/moduli/')+14);	// pa
 $module_name = substr($module_endpath,0,strrpos($module_endpath,'/'));		// nome del modulo in esecuzione
 $module_abs_path = $modules_dir."$module_name/";				// path completo allo script in esecuzione
 
-include($module_name."_engine.php");
+// esegui, se presente, lo script php
+if (file_exists($module_name."_engine.php"))
+{
+	include($module_name."_engine.php");
+}
 
 show_template($module_abs_path,$module_name.".tpl");
 
