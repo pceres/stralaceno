@@ -140,9 +140,5 @@ include("custom/templates/footer.php")
   </tbody>
 </table>
 
-<!-- la riga che segue e' il logo del validatore HTML W3C -->
-<!--p><a href="http://validator.w3.org/check?uri=referer"><img border="0" src="http://www.w3.org/Icons/valid-html401"
-	alt="Valid HTML 4.01!" height="31" width="88"></a-->
-	
 </body>
 </html>
