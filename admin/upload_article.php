@@ -95,7 +95,7 @@ if ($ok == TRUE)
 				die("Upload eseguito parzialmente!\n"); 
 				break;
 			case UPLOAD_ERR_NO_FILE :
-				die("Nessun file &egrave; stato inviato!\n"); 
+				die("Nessun file &egrave; stato selezionato dal browser!\n"); 
 				break;
 			default:
 				die("Unknown error type: [$errno]<br>\n");
