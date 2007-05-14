@@ -67,6 +67,8 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 53::Salvatore::08/05/2007 15.08.04::visible
 54::Ale::08/05/2007 15.57.05::visible
 55::Salvatore::08/05/2007 19.20.45::visible
+56::Angelo::10/05/2007 10.34.45::visible
+57::Ale::10/05/2007 11.49.26::visible
 
 [post_text_0]
 Fermate Nicola Melillo con questa stralaceno: anche i muri di materdomini e caposele non ne possono più.
@@ -331,4 +333,11 @@ Si può trovare in rete il programma della corsa di Venticano? Dove?
 X Alessandro
 &nbsp;
 Ho chiesto maggiori informazioni riguardo la gara e ho saputo che è organizzata in collaborazione con una squadra di venticano però la gara si svolge in Puglia..quindi niente da fare...ti farò sapere se ci sono novità...ciao
+
+[post_text_56]
+X Alessandro
+Questo fine settimana sei di ritorno?
+
+[post_text_57]
+si, torno stasera alla solita ora. ciao
 

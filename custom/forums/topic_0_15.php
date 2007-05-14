@@ -56,6 +56,8 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 42::da Irpinianews.it ::03/05/2007 10.31.15::visible
 43::da Il Mattino::04/05/2007 10.15.28::visible
 44::da Il Mattino del 5 maggio::08/05/2007 10.59.32::visible
+45::da Irpinianews.it del 11 maggio::11/05/2007 13.10.43::visible
+46::Antonio::12/05/2007 15.32.16::visible
 
 [post_text_0]
 Riceviamo da CLEON.REN e pubblichiamo:
@@ -417,5 +419,17 @@ Caposele, il Tar si pronuncia
 Caposele. È attesa per il prossimo 10 maggio la decisione del Tar di Salerno sul ricorso presentato dalla lista «Caposele nel cuore» contro l’esclusione dalla competizione elettorale. C’è un velato ottimismo nel candidato sindaco Pasquale Farina e fra i candidati, che si fonda sull’esito favorevole registrato, in passato, in altri comuni, rispetto a circostanze analoghe a quelle che hanno determinato l’esclusione della lista locale. La contestazione mossa dalla Commissione elettorale, com’è noto, si riferisce al numero eccedente di firme presentate a sostegno della formazione civica (73 rispetto al limite di 60 previsto dalla norma). 05/05/2007
 &nbsp;
 &nbsp;
+&nbsp;
+
+[post_text_45]
+Esclusa la lista del "Cuore", Farina: 'Dura lex, sed lex'
+&nbsp;
+Caposele - Il Tribunale amministrativo di Salerno, prima sezione, ha respinto la richiesta avanzata dalla lista "Caposele nel cuore", capeggiata dal dottore Pasquale Farina perché ritenuta responsabile di aver presentato la lista dei candidati in modo difforme dalla legge. Questo significa che Farina potrà partecipare da spettatore alla prossima consultazione elettorale. Via libera all'unica lista, quella dell'Arcobaleno, che dovrà raggiungere il 50% più uno dei votanti in rapporto agli elettori per ritenere valida la votazione. In caso contrario verrebbe nominato il commissario, con la funzione di traghettare Caposele a nuove elezioni. Il dottore Farina si dice sereno:"Se la magistratura ritiene che aver fatto sottoscrivere la lista di presentazione a tredici persone in più rispetto al numero fissato dalla legge è motivo di esclusione - commenta - noi ne prendiamo atto, anche se dispiace di non poter partecipare alla competizione. Non ho ancora letto gli atti, non conosco esattamente cosa il Tar abbia deciso, ma è chiaro che qualsiasi decisione sarà assunta nell'esclusivo interesse della popolazione e in difesa della democrazia". L'anomalia era stata registrata dalla commissione elettorale, che in sede di controllo delle liste aveva subito escluso la lista di Farina; di qui il ricorso al Tar e la conferma.
+(venerdì 11 maggio 2007 alle 12.23)
+
+[post_text_46]
+Sul Commissario oramai se ne dicono di tutti i colori,tutta una serie di affermazioni, teorie, e catastrofi che egli può provocare (ovviamente tutte menzogne).
+Ormai è l'unica soluzione per poter riportare tra un anno la democrazia e nel contempo estirpare un cattivo gioco di potere.
+Chi ha paura del Commissario? Chi non ha la coscienza a posto.
 &nbsp;
 

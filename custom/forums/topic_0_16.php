@@ -26,6 +26,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 12::News Ambiente::13/04/2007 16.38.28::visible
 13::Ambiente News::04/05/2007 15.58.16::visible
 14::articolo su Il Mattino::08/05/2007 14.55.22::visible
+15::dal sito CorriereIrpinia.it::09/05/2007 10.15.21::visible
 
 [post_text_0]
 Qui proposte, osservazioni, critiche e tutto ciò che concerne l'ambiente e la natura dalle grosse tematiche di interesse mondiali ai piccoli accadimenti del paese.
@@ -86,5 +87,25 @@ SUMMIT IN PREFETTURA
 Pavoncelli bis, nuove verifiche
 &nbsp;
 AMEDEO PICARIELLO Duro scontro nel vertice di ieri mattina in Prefettura tra i rappresentanti istituzionali irpini e il commissario ad acta Roberto Sabbatucci per la vicenda della Galleria Pavoncelli bis, la mega opera pensata per aumentare la portata d'acqua verso la Puglia. Su richiesta del rappresentante di governo, Paolo Orrei, intorno allo stesso tavolo c'erano il presidente dell'Ato Calore-Irpino, Pasquale Giuditta, il presidente del Parco dei Monti Picentini, Sabino Aquino, l'assessore provinciale all'Ambiente Bruno Fierro, i rappresentanti dell'assessorato regionale all'Ambiente e quelli di alcuni comuni interessati all'intervento come Caposele e Conza della Campania. L'Irpinia da tempo si oppone all'opera: l'ente d'ambito ha impugnato il progetto davanti al tribunale delle acque ed ha chiesto un intervento della presidenza del Consiglio, ma ciononostante il ministro delle Infrastrutture, Antonio Di Pietro, è andato avanti con l'iter e l'appalto. A mediare ci ha pensato il prefetto Parolo Orrei che al termine di una burrascosa riunione è riuscito ad ottenere l'impegno per un ulteriore vertice nel quale «saranno valutate - ha fatto sapere - le condizioni dell'opera e il suo impatto ambientale». Da parte sua, il commissario Sabbatucci ha ribadito che il raddoppio della galleria non avrà ripercussioni negative dal punto di vista ambientale. «Senza garanzie sulla tutela delle sorgenti - ha replicato l'onorevole Giuditta - e sull'accordo quadro con la Puglia per un adeguato ristoro l'opera non va fatta. La nostra continuerà ad essere una ferma opposizione a tutela del territorio». E intanto è atteso a giorni il parere sull'opera da parte della Comunità europea. A richiederlo è stato il presidente del Parco dei Picentini, Sabino Aquino che ha aggiunto: «È un intervento - sostiene - che potrebbe generare ripercussioni negative sul bacino sorgivo di Caposele". 08/05/2007
+&nbsp;
+
+[post_text_15]
+«I Picentini rischiano il disastro»
+&nbsp;
+«Non è una contestazione strumentale e che riguarda i trasferimenti maggiorati di acqua in Puglia, come dice l’ingegner Sabatelli. Il problema che pone l’Ente Parco dei Monti Picentini è di tutt’altra natura, noi già contestiamo gli attuali trasferimenti idrici e l’attuale sistema di emungimento dalle sorgenti».
+Dopo la riunione in Prefettura, con la quale si è sancito lo slittamento dei lavori alla galleria Pavoncelli Bis, il presidente dell’Ente Parco Monti Picentini Sabino Aquino, placa gli entusiasmi e avverte: non si sfugge dinanzia alla cosiddetta “Valutazione d’Impatto Ambientale, c’è un ecosistema a rischio e bisognerà approfondire necessariamente la questione”. «La mancanza d’acqua nei nostri fiumi - spiega Aquino - sta già causando grossi danni, tra le conseguenze, la moria di pesci che si è registrata in passato e che inevitabilmente si registrerà nel Calore e nel Sabato».
+Presidente, lei, dunque, dsostiene che la Valutazione d’Impatto Ambientale bloccherà definitivamente la Pavoncelli bis?
+«E’ un documento indspensabile e l’ho fatto notare bene al Prefetto. Da un’analisi del genere che verrà fuori? Glielo dico subito. Questo studio porta a far risaltare le consguenze che si traggono dal l’ambiguità dei dati sull’attuale portata della Pavoncelli bis, che può arrivare in media fino a 5500 litri al secondo tra i due gruppi sorgivi di Cassano e Caposele. Mentre l’Acquedotto Pugliese è titolare dell’intera portata delle sorgenti di Cassano, 4000 litri al secondo; per le sorgenti del Sele ha solo una derivazione di 300 litri al secondo, ma ne preleva 4000».
+Perchè?
+«L’Acquedotto Pugliese ha richiesto attraverso il decreto 152/99, oggi Codice dell’Ambiente, l’applicazione della sanatoria ad hoc per gli acquedotti, con la quale “legalizza” il prelievo degli altri 3700 litri al secondo dalle sorgenti del Sele. Ma, scusi, chi si aggrappa a una sanatori non è un abusivo».
+Quindi?
+«Quindi per consentire trasferimenti idrici di tale portata, senza che sia mai stato stilato un bilancio idrico, si sta rischiando seriamente di prosciugare anche la cavità più profonda. Ormai, per consentire il perpetuarsi di tali portate dai gruppi sorgentizi, si emunge acqua da pozzi profondi. Queste montagne si stanno spremendo fino all’osso, e il discorso di realizzare un’opera del genere mi pare sia compeltamente fuori luogo. Inoltre...».
+Dica pure.
+«L’articolo 164 del Codice di Discplina Ambientale, recentemente approvato, evidenzia che le aree protette regionali e nazionali, tra cui anche il Parco Picentini, se accertano che gli assi fluviali che ricadono nell’area protetta hanno un ecosistema in crisi per mancanza di deflusso, possono richiedere la revisione delle sorgenti captate».
+E’ il caso dei Monti Picentini.
+«Certo. L’ecosistema con questi prelievi è seriamente a rischio, l’organo di programmazione, lo Stato, dovrebbe rivedere le captazioni. E poi tornando alla Valutazione d’Impatto Ambientale, c’è un’altra normativa secondo cui l’area protetta è sotto la gestione delle norme ambientali europee e la Comunità Europea richiede obbligatoriamente tale Valutazione d’Impatto Ambientale. Davvero non capisco come il Ministero delle Infrastrutture ritiene che la Valutazione non serva, mentre quello dell’Ambiente ha dato ragione alle nostre istanze. Io sono fiducioso».
+09/05/2007
+gedegue
+&nbsp;
 &nbsp;
 

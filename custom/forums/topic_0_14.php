@@ -42,6 +42,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 28::info2::02/05/2007 14.56.48::visible
 29::info::03/05/2007 10.24.00::visible
 30::info::04/05/2007 10.06.46::visible
+31::info::10/05/2007 10.36.17::visible
 
 [post_text_0]
 Qui aspettiamo i vostri commenti alle vicende calcistiche della F.C. Caposele.
@@ -161,4 +162,7 @@ Pubblicate le brevi sintesi sulle partite del Caposele della 20a, 21a, 22a e 23a
 
 [post_text_30]
 Aggiornata la classifica con le gare del 29 aprile.
+
+[post_text_31]
+Aggiornata la classifica con le gare del 6 maggio.
 

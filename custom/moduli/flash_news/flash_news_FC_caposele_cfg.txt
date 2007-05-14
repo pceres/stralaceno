@@ -6,6 +6,8 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+10/05/2007::Prossima partita: FC Caposele - Real S.Andrea di Conza a Caposele il 13 maggio alle ore 16.30.
+10/05/2007::Morra De Sanctis - FC Caposele verr&agrave; recuperata il 16 maggio alle 16.30 a Morra.
 08/05/2007::La partita Morra De Sanctis - FC Caposele, prevista per il 5 maggio, &egrave; stata rinviata per assenza dell'arbitro.
 02/05/2007::FC Caposele - Sporting Ever Green 9-0
 27/04/2007::Prossima partita: FC Caposele - Sporting Ever Green a Caposele il 29/04/2007 ore 16.00

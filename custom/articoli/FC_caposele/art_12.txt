@@ -3,15 +3,11 @@ Titolo::Campionato Provinciale Allievi
 --- Begin body ---
 <br>
 <div align="center">
-<!-- 
-	inizio tabella classifica
--->
-	Classifica dopo 16 giornate
 <table class="tabella" style="font-size:13.0pt;">
 <tbody><tr><td><table>
 <thead><tr>
-	<th>&nbsp;</th>
-	<th>&nbsp;</th>
+	<th></th>
+	<th>Classifica dopo 18 gior.</th>
 	<th>punti</th>
 	<th title="partite giocate">g</th>
 	<th title="partite vinte">v</th>
@@ -23,120 +19,116 @@ Titolo::Campionato Provinciale Allievi
 	
 </tr></thead>
 <tbody align="center">
-<!-- 
-	inizio tabella classifica
--->
-	
 <!-- # pos. 1 in classifica -->
 <tr>
 	<td>1</td>
 	<td align="left">&nbsp;F.C. Caposele</td>
-	<td>31</td>
-	<td>12</td>
-	<td>10</td>
+	<td>40</td>
+	<td>15</td>
+	<td>13</td>
 	<td>1</td>
 	<td>1</td>
-	<td>39</td>
-	<td>10</td>
-	<td>29</td>
+	<td>51</td>
+	<td>11</td>
+	<td>40</td>
 	<td></td>
 </tr>
 <!-- # pos. 2 in classifica -->
 <tr>
 	<td>2</td>
 	<td align="left">&nbsp;Sporting Club Lioni</td>
-	<td>30</td>
-	<td>13</td>
-	<td>10</td>
+	<td>36</td>
+	<td>16</td>
+	<td>12</td>
 	<td>0</td>
-	<td>3</td>
-	<td>47</td>
+	<td>4</td>
+	<td>60</td>
+	<td>35</td>
 	<td>25</td>
-	<td>22</td>
 	<td></td>
 </tr>
 <!-- # pos. 3 in classifica -->
 <tr>
 	<td>3</td>
-	<td align="left">&nbsp;Volturara Terminio (penalit&agrave; 1 punto)</td>
-	<td>24</td>
-	<td>14</td>
+	<td align="left">&nbsp;Polisportiva Calitri</td>
+	<td>25</td>
+	<td>15</td>
 	<td>8</td>
 	<td>1</td>
-	<td>5</td>
-	<td>37</td>
-	<td>27</td>
-	<td>10</td>
+	<td>6</td>
+	<td>43</td>
+	<td>31</td>
+	<td>12</td>
 	<td></td>
 </tr>
 <!-- # pos. 4 in classifica -->
 <tr>
 	<td>4</td>
 	<td align="left">&nbsp;G.Siconolfi Sant'Angelo dei Lomb.</td>
-	<td>21</td>
-	<td>12</td>
+	<td>24</td>
+	<td>15</td>
+	<td>8</td>
+	<td>0</td>
 	<td>7</td>
-	<td>0</td>
-	<td>5</td>
-	<td>35</td>
-	<td>35</td>
-	<td>0</td>
+	<td>48</td>
+	<td>44</td>
+	<td>4</td>
 	<td></td>
 </tr>
 <!-- # pos. 5 in classifica -->
 <tr>
 	<td>5</td>
-	<td align="left">&nbsp;V.Nigro Bagnoli Irp.</td>
-	<td>20</td>
-	<td>14</td>
-	<td>6</td>
-	<td>2</td>
-	<td>6</td>
-	<td>28</td>
-	<td>26</td>
-	<td>2</td>
+	<td align="left">&nbsp;Volturara Terminio (penalit&agrave; 1 punto)</td>
+	<td>24</td>
+	<td>16</td>
+	<td>8</td>
+	<td>1</td>
+	<td>7</td>
+	<td>38</td>
+	<td>41</td>
+	<td>-3</td>
 	<td></td>
 </tr>
 <!-- # pos. 6 in classifica -->
 <tr>
 	<td>6</td>
-	<td align="left">&nbsp;Polisportiva Calitri</td>
-	<td>19</td>
-	<td>13</td>
+	<td align="left">&nbsp;V.Nigro Bagnoli Irp.</td>
+	<td>23</td>
+	<td>15</td>
+	<td>7</td>
+	<td>2</td>
 	<td>6</td>
-	<td>1</td>
-	<td>6</td>
-	<td>37</td>
-	<td>31</td>
-	<td>6</td>
+	<td>34</td>
+	<td>27</td>
+	<td>7</td>
 	<td></td>
 </tr>
 <!-- # pos. 7 in classifica -->
 <tr>
 	<td>7</td>
-	<td align="left">&nbsp;Real Sant'Andrea di Conza (penalit&agrave; 3 punti)</td>
-	<td>13</td>
-	<td>14</td>
-	<td>5</td>
-	<td>1</td>
-	<td>8</td>
-	<td>24</td>
-	<td>41</td>
-	<td>-17</td>
+	<td align="left">&nbsp;Atletico San Potito Ultra</td>
+	<td>15</td>
+	<td>16</td>
+	<td>4</td>
+	<td>3</td>
+	<td>9</td>
+	<td>25</td>
+	<td>47</td>
+	<td>-22</td>
 	<td></td>
 </tr>
 <!-- # pos. 8 in classifica -->
 <tr>
 	<td>8</td>
-	<td align="left">&nbsp;Atletico San Potito Ultra</td>
-	<td>9</td>
-	<td>14</td>
-	<td>2</td>
-	<td>3</td>
-	<td>9</td>
-	<td>19</td>
-	<td>40</td>
-	<td>-21</td>
+	<td align="left">&nbsp;Real Sant'Andrea di Conza (penalit&agrave; 3 punti)</td>
+	<td>10</td>
+	<td>16</td>
+	<td>4</td>
+	<td>1</td>
+	<td>11</td>
+	<td>22</td>
+	<td>49</td>
+	<td>-27</td>
 	<td></td>
 </tr>
 <!-- # pos. 9 in classifica -->
@@ -144,13 +136,13 @@ Titolo::Campionato Provinciale Allievi
 	<td>9</td>
 	<td align="left">&nbsp;Paternopoli (esclusa)</td>
 	<td>1</td>
-	<td>13</td>
-	<td>1</td>
-	<td>1</td>
-	<td>11</td>
 	<td>15</td>
-	<td>45</td>
-	<td>-30</td>
+	<td>1</td>
+	<td>1</td>
+	<td>13</td>
+	<td>15</td>
+	<td>51</td>
+	<td>-36</td>
 	<td></td>
 </tr>
 </tbody>
