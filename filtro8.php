@@ -16,7 +16,7 @@ extract(indici());
   <style type="text/css">@import "<?php echo $filename_css ?>";</style>  
 </head>
 <body class="tabella">
-  
+
 <div class="titolo_tabella">Grafici tempi <?php echo $race_name ?></div>
 <hr>
 <p>Elenco di tutti gli atleti che hanno partecipato ad almeno una edizione della <?php echo $race_name ?>:</p>
@@ -75,8 +75,7 @@ $counter = count_page("grafico_tempi",array("COUNT"=>1,"LOG"=>1),$filedir_counte
 
 ?>
 
-<form action="http://members.lycos.co.uk/stralaceno/stralaceno2/grafico/crea_grafico.php" method="POST">
-<!--form action="grafico/crea_grafico.php" method="POST"-->
+<form action="grafico/crea_grafico.php" method="POST">
 
 <table class="txt_elenco">
 	<tr>
