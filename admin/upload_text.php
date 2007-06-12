@@ -44,7 +44,8 @@ foreach ($elenco_cfgfile as $name => $config_data)
 {
 	$dir = template_to_effective($config_data[$indice_cfgfile_folder]);
 	$caption = $config_data[$indice_cfgfile_caption];
-	$groups_ok = $config_data[$indice_cfgfile_groups];
+	$groups_ok = $config_data[$indice_cfgfile_write_groups];
+	$groups_read_allowed = $config_data[$indice_cfgfile_read_groups];
 	$password_ok = $config_data[$indice_cfgfile_password];
 	$page_link = template_to_effective($config_data[$indice_cfgfile_link]);  // link al modulo
 	$logdir = template_to_effective($config_data[$indice_cfgfile_logdir]); // folder del logfile something_changed.txt
@@ -173,6 +174,7 @@ if ($ok == TRUE)
 		$item['pubDate'] 	= gmdate('D, j M Y G:i:s +0000',strtotime($date_unix));
 		$item['author'] 	= $username;
 		$item['username']	= $username;
+		$item['read_allowed']	= $groups_read_allowed;	// groups allowed to see the feed
 		
 		log_new_content('config_file',$item);
 		
