@@ -14,9 +14,10 @@ DEFINE("index_logcontent_category"	,5);
 DEFINE("index_logcontent_pubDate"	,6);
 DEFINE("index_logcontent_author"	,7);
 DEFINE("index_logcontent_username"	,8);
+DEFINE("index_logcontent_read_allowed"	,9);
 
 
-function read_last_contents()
+function read_last_contents($login)
 {
 /*
 restituisce i dati di un feed nel formato:
@@ -24,6 +25,7 @@ restituisce i dati di un feed nel formato:
 $feed['title']		: titolo del feed
 $feed['link']		: link del sito associato al feed
 $feed['description']	: descrizione del feed (come appare nell'aggregatore RSS)
+$feed['category']	: categoria del feed
 $feed['language']	: lingua del feed
 $feed['copyright']	: testo relativo al copyright
 $feed['pubDate']	: data di pubblicazione del feed
@@ -33,6 +35,12 @@ $feed['generator']	: software che genera il feed
 $feed['managingEditor']	: editor usato per modificare il feed
 $feed['webMaster']	: email del webmaster
 $feed['ttl']		: time to live: durata della cache del feed nell'aggregatore
+$feed['image-title']	: titolo dell'immagine
+$feed['image-url']	: url dell'immagine
+$feed['image-link']	: link puntato dall'immagine
+$feed['image-description']: descrizione dell'immagine
+$feed['image-width']	: ampiezza in pixel dell'immagine
+$feed['image-height']	: larghezza in pixel dell'immagine
 
 $feed['items']		: array costituito da elementi con i campi:
 				$item['title']		: titolo della notizia
@@ -77,8 +85,26 @@ foreach ($log_contents as $id => $item_data)
 	$content_pubDate	= $item_data[index_logcontent_pubDate];
 	$content_author		= $item_data[index_logcontent_author];
 	$content_username	= $item_data[index_logcontent_username];
+	$content_read_allowed	= $item_data[index_logcontent_read_allowed];
 	
+	//
+	// decidi se visualizzare il feed o meno
+	//
+	$visualizza_feed = '';
+	
+	// tipo di contenuti consentiti?
 	if (!in_array($content_type,$allowed_content_types))
+	{
+		$visualizza_feed = "content not allowed";
+	}
+	// il gruppo dell'utente autenticato puo' vedere il contenuto?
+	if (!group_match($login['username'],$login['usergroups'],split(',',$content_read_allowed)))
+	{
+		$visualizza_feed = "usergroup not allowed ($content_read_allowed)";
+	}
+	
+	// se nessun filtro l'impedisce, visualizza il feed
+	if (!empty($visualizza_feed))
 	{
 		// if content type is not allowed in feed (hidden), go on
 		continue;
@@ -95,7 +121,7 @@ foreach ($log_contents as $id => $item_data)
 	$item['type'] 		= $content_type; 		// titolo
 	$item['title'] 		= $content_title; 		// titolo
 	$item['description'] 	= $content_description; 	// description
-	$item['link'] 		= $abs_url.$content_link;	// link
+	$item['link'] 		= str_replace('&','&amp;',$abs_url.$content_link);	// link
 	$item['guid'] 		= $content_guid;		// guid
 	$item['category'] 	= $content_category;		// category
 	$item['pubDate'] 	= $content_pubDate;		// pubDate
@@ -106,10 +132,12 @@ foreach ($log_contents as $id => $item_data)
 	$unchanged_field = 'title';
 	if (!array_key_exists($unchanged_field,$old_item) | ($old_item[$unchanged_field] !== $item[$unchanged_field]))
 	{
+		// punta alla prima locazione vuota
 		$target_index = count($items);
 	}
 	else
 	{
+		// sovrascrivi il precedente
 		$target_index = count($items)-1;
 	}
 	$items[$target_index] = $item;
@@ -122,9 +150,11 @@ $feed['title'] 	= $web_title;
 // link della homepage del sito:
 $feed['link'] 	= $abs_url.'index.php';
 // descrizione del sito:
-$feed['description'] 	= $web_description;
+$feed['description'] 	= "Ultimi aggiornamenti su $web_title";
+// categoria del feed:
+$feed['category'] 	= 'News'; 	// category
 // linguaggio del feed:
-$feed['language'] 	= 'it-it';
+$feed['language'] 	= 'it-IT';
 // copyright:
 $feed['copyright'] 	= 'Copyright Pasquale Ceres 2007';
 // pubDate, data di pubblicazione del feed:
@@ -142,12 +172,19 @@ $feed['webMaster'] 	= 'pasquale_c@hotmail.com';
 // time to live [s]
 $feed['ttl'] 		= '60';
 
+$feed['image-title']	= $web_title;
+$feed['image-url']	= $abs_url.'custom/album/varie/logo.jpg';
+$feed['image-link']	= $abs_url.'index.php';
+$feed['image-description'] = $web_description;
+$feed['image-width']	= '132';
+$feed['image-height']	= '57';
+
 // items
 $feed['items'] 		= $items;
 
 return $feed;
 
-} // end function $feed = read_last_contents()
+} // end function $feed = read_last_contents($login)
 
 
 function publish_rss20($feed)
@@ -158,6 +195,7 @@ Pubblica un feed nel formato RSS 2.0
 $feed['title']		: titolo del feed
 $feed['link']		: link del sito associato al feed
 $feed['description']	: descrizione del feed (come appare nell'aggregatore RSS)
+$feed['category']	: categoria del feed
 $feed['language']	: lingua del feed
 $feed['copyright']	: testo relativo al copyright
 $feed['pubDate']	: data di pubblicazione del feed
@@ -167,6 +205,12 @@ $feed['generator']	: software che genera il feed
 $feed['managingEditor']	: editor usato per modificare il feed
 $feed['webMaster']	: email del webmaster
 $feed['ttl']		: time to live: durata della cache del feed nell'aggregatore
+$feed['image-title']	: titolo dell'immagine
+$feed['image-url']	: url dell'immagine
+$feed['image-link']	: link puntato dall'immagine
+$feed['image-description']: descrizione dell'immagine
+$feed['image-width']	: ampiezza in pixel dell'immagine
+$feed['image-height']	: larghezza in pixel dell'immagine
 
 $feed['items']		: array costituito da elementi con i campi:
 				$item['title']		: titolo della notizia
@@ -188,11 +232,8 @@ print '<?xml version="1.0" encoding="ISO-8859-1"?>';
 <channel>
 <title><?php echo $feed['title']; ?></title>
 <link><?php echo $feed['link']; ?></link>
-<description>
-<![CDATA[
-<?php echo $feed['description']; ?>
-]]>
-</description>
+<description><?php echo $feed['description']; ?></description>
+<category><?php echo $feed['category']; ?></category>
 <language><?php echo $feed['language']; ?></language>
 <copyright><?php echo $feed['copyright']; ?></copyright>
 <pubDate><?php echo $feed['pubDate']; ?></pubDate>
@@ -202,20 +243,23 @@ print '<?xml version="1.0" encoding="ISO-8859-1"?>';
 <managingEditor><?php echo $feed['managingEditor']; ?></managingEditor>
 <webMaster><?php echo $feed['webMaster']; ?></webMaster>
 <ttl><?php echo $feed['ttl']; ?></ttl>
-
+<image>
+	<title><?php echo $feed['image-title']; ?></title>
+	<url><?php echo $feed['image-url']; ?></url>
+	<link><?php echo $feed['image-link']; ?></link>
+	<description><?php echo $feed['image-description']; ?></description>
+	<width><?php echo $feed['image-width']; ?></width>
+	<height><?php echo $feed['image-height']; ?></height>
+</image>
 <?php
 foreach ($feed['items'] as $item)
 {
 ?>
 <item>
 <title><?php echo $item['title']; ?></title>
-<description>
-<![CDATA[
-<?php echo $item['description']; ?>
-]]>
-</description>
+<description><![CDATA[<?php echo $item['description']; ?>]]></description>
 <link><?php echo $item['link']; ?></link>
-<guid><?php echo $item['guid']; ?></guid>
+<guid><?php echo $item['link']; ?></guid>
 <category><?php echo $item['category']; ?></category>
 <pubDate><?php echo $item['pubDate']; ?></pubDate>
 <author><?php echo $item['author']; ?></author>
