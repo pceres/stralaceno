@@ -14,11 +14,11 @@ $root_prefix = "ars";
 
 
 # titolo delle pagine web
-$web_title = "Caposele Web";
+$web_title = "Ars Web";
 
 
 # campo meta-description
-$web_description = "Sito su Caposele";
+$web_description = "Sito su Caposele curato dall'associazione ARS Amatori Running Sele";
 
 
 # campo meta-keywords (per i motori di ricerca)
