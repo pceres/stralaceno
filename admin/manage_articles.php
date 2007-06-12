@@ -220,6 +220,7 @@ case 'edited':
 	$item['pubDate'] 	= gmdate('D, j M Y G:i:s +0000',$content_time);
 	$item['author'] 	= $art_data['autore'];
 	$item['username']	= $username;
+	$item['read_allowed']	= "";	// everyone allowed to see the feed
 	
 	log_new_content('articolo_'.$mode,$item);
 	
