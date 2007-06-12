@@ -1,0 +1,817 @@
+Autore::Ars
+Titolo::Classifica "caposelese" sondaggio Champions L. 2007
+--- Begin body ---
+<br>
+<div align="center">
+<img id="logo_Champions" src="%file_root%custom/album/varie/logo_Champions.jpg" alt="..." border="0" width="500">
+</div>
+<br>
+Il sondaggio Champions League 2007 si &egrave; concluso, e la classifica integrale, contenente cio&egrave; tutte le giocate,
+&egrave; reperibile <a href="questions.php?id_questions=2&amp;action=results">qui</a>.
+<p><br>
+In aggiunta, promulghiamo ufficialmente la classifica relativa ai giocatori caposelesi ("Gens Silarensis" della classifica generale).
+<br>
+La presenza di due classifiche evidenzia la possibile presenza di teste di legno, che hanno potuto inquinare il sondaggio
+con giocate non regolamentari. Era un rischio connesso alla modalit&agrave; di svolgimento del sondaggio, che ha previsto
+la giocata anonima. Tale modalit&agrave; ci ha consentito, tuttavia, di far partecipare al sondaggio i nostri amici non caposelesi.
+<br>
+L'alterazione, comunque, &egrave; minima, dato che chiunque, una volta che accetta di comparire con il proprio nome senza denunciarne un utilizzo abusivo, &egrave; facilmente individuabile ed entra di diritto nella classifica sottostante.
+<br><br>
+Complimenti quindi a:
+<ul>
+<li>
+Michele Ceres, primo caposelese in classifica (e comunque a pari punti col vincitore della classifica
+generale, risulta secondo solo in base al terzo criterio del regolamento, consultabile in fondo al 
+<a href="%file_root%custom/lotterie/lotteria_002_tpl_form.php?info_mode=1">tabellone</a>).
+In quanto tale, Michele succede a <a href="questions.php?id_questions=1">Rocco Del Malandrino</a> nell'albo d'oro dei sondaggi ARS;
+</li>
+<li>
+a Gerardo Notaro, che ha messo in atto una bella rimonta terminando secondo,
+</li>
+<li>
+ e a Mario Meo, terzo.
+</li>
+</ul>
+Infine una menzione va a Carmela Caruso, 4<sup>a</sup> classificata e prima delle ragazze.
+<br><br>
+<!-- Visualizzazione personalizzata per Sondaggio Champions League 2006/2007 -->
+<div align="center" style="font-size:1.333em;">
+<table class="tabella">
+  <tbody>
+  <tr>
+  <td>
+<table>
+ <thead><tr>
+<th valign="middle">Pos.</th>
+<th valign="middle">Id</th>
+<th valign="middle">Giocatore</th>
+<th valign="middle">Punti</th>
+<th valign="middle"><span title="Amm. quarti:Roma,Liverpool,Chelsea,Valencia,Psv Eindhoven,Bayern Monaco,Milan,Manchester United">Q</span></th>
+<th valign="middle"><span title="Amm. quarti:Roma,Liverpool,Chelsea,Valencia,Psv Eindhoven,Bayern Monaco,Milan,Manchester United">Q</span></th>
+<th valign="middle"><span title="Amm. quarti:Roma,Liverpool,Chelsea,Valencia,Psv Eindhoven,Bayern Monaco,Milan,Manchester United">Q</span></th>
+<th valign="middle"><span title="Amm. quarti:Roma,Liverpool,Chelsea,Valencia,Psv Eindhoven,Bayern Monaco,Milan,Manchester United">Q</span></th>
+<th valign="middle"><span title="Amm. quarti:Roma,Liverpool,Chelsea,Valencia,Psv Eindhoven,Bayern Monaco,Milan,Manchester United">Q</span></th>
+<th valign="middle"><span title="Amm. quarti:Roma,Liverpool,Chelsea,Valencia,Psv Eindhoven,Bayern Monaco,Milan,Manchester United">Q</span></th>
+<th valign="middle"><span title="Amm. quarti:Roma,Liverpool,Chelsea,Valencia,Psv Eindhoven,Bayern Monaco,Milan,Manchester United">Q</span></th>
+<th valign="middle"><span title="Amm. quarti:Roma,Liverpool,Chelsea,Valencia,Psv Eindhoven,Bayern Monaco,Milan,Manchester United">Q</span></th>
+<th valign="middle"><span title="Ammesse alle semifinali:Manchester United,Chelsea,Milan,Liverpool">S</span></th>
+<th valign="middle"><span title="Ammesse alle semifinali:Manchester United,Chelsea,Milan,Liverpool">S</span></th>
+<th valign="middle"><span title="Ammesse alle semifinali:Manchester United,Chelsea,Milan,Liverpool">S</span></th>
+<th valign="middle"><span title="Ammesse alle semifinali:Manchester United,Chelsea,Milan,Liverpool">S</span></th>
+<th valign="middle"><span title="Ammesse in finale:Liverpool,Milan">F</span></th>
+<th valign="middle"><span title="Ammesse in finale:Liverpool,Milan">F</span></th>
+<th valign="middle"><span title="Squadra vincitrice:Milan">C</span></th>
+<th valign="middle">Data</th>
+  </tr></thead>
+  <tbody>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">1</div></td><td nowrap="nowrap"><div align="center">66</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Ceres Michele, di Oliveto Citra, nato il 15/11/1976">Michele Ceres ´76</span></div></div></td><td nowrap="nowrap"><div align="center">41</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Psv Eindhoven (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Liverpool (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Valencia (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center">17/02/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">2</div></td><td nowrap="nowrap"><div align="center">15</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Notaro Gerardo, di Caposele, nato il 27/05/1974">Gerardo Notaro ´74</span></div></div></td><td nowrap="nowrap"><div align="center">39</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Roma (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Liverpool (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Roma (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center">03/01/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">3</div></td><td nowrap="nowrap"><div align="center">72</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Meo Mario, di Caposele, nato il 06/06/1958">Mario Meo ´58</span></div></div></td><td nowrap="nowrap"><div align="center">35</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Valencia (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center">17/02/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">4</div></td><td nowrap="nowrap"><div align="center">43</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Caruso Carmela, di Caposele, nato il 29/09/1982">Carmela Caruso ´82</span></div></div></td><td nowrap="nowrap"><div align="center">35</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Psv Eindhoven (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Liverpool (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Liverpool (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Psv Eindhoven (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Liverpool (2 punti)">R</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Liverpool (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center">19/01/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">5</div></td><td nowrap="nowrap"><div align="center">63</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="D'Auria Nicola, di Caposele, nato il 14/06/1958">Nicola D'Auria ´58</span></div></div></td><td nowrap="nowrap"><div align="center">33</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Roma (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lilla (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center">16/02/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">6</div></td><td nowrap="nowrap"><div align="center">20</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Nesta Donato, di Caposele, nato il 17/04/1991">Donato Nesta ´91</span></div></div></td><td nowrap="nowrap"><div align="center">33</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Roma (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Roma (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">11/01/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">7</div></td><td nowrap="nowrap"><div align="center">61</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Ceres Pasquale, di Caposele, nato il 13/10/1974">Pasquale Ceres ´74</span></div></div></td><td nowrap="nowrap"><div align="center">33</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Psv Eindhoven (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Roma (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">13/02/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">8</div></td><td nowrap="nowrap"><div align="center">69</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Russomanno Gerardo, di Caposele, nato il 30/07/1988">Gerardo Russomanno ´88</span></div></div></td><td nowrap="nowrap"><div align="center">31</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center">16/02/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">9</div></td><td nowrap="nowrap"><div align="center">47</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Merola Alfonso, di Caposele, nato il 13/08/1963">Alfonso Merola ´63</span></div></div></td><td nowrap="nowrap"><div align="center">31</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Roma (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">24/01/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">10</div></td><td nowrap="nowrap"><div align="center">33</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Malanga Gelsomina, di Caposele, nato il 09/02/1988">Gelsomina Malanga ´88</span></div></div></td><td nowrap="nowrap"><div align="center">29</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Psv Eindhoven (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lilla (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Psv Eindhoven (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center">18/01/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">11
+</div></td><td nowrap="nowrap"><div align="center">32</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Viscardi Paolo, di Caposele, nato il 14/06/1986">Paolo Viscardi ´86</span></div></div></td><td nowrap="nowrap"><div align="center">29</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Roma (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lilla (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">18/01/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">12</div></td><td nowrap="nowrap"><div align="center">36</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Ceres Gerardo, di Oliveto Citra, nato il 13/12/1988">Gerardo Ceres ´88</span></div></div></td><td nowrap="nowrap"><div align="center">27</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center">16/01/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">13</div></td><td nowrap="nowrap"><div align="center">19</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Donatiello Claudio, di Caposele, nato il 26/11/1986">Claudio Donatiello ´86</span></div></div></td><td nowrap="nowrap"><div align="center">27</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (2 punti)">r</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">11/01/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">14</div></td><td nowrap="nowrap"><div align="center">45</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Donatiello Gerardo, di Caposele, nato il 21/05/1989">Gerardo Donatiello ´89</span></div></div></td><td nowrap="nowrap"><div align="center">27</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Roma (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">19/01/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">15</div></td><td nowrap="nowrap"><div align="center">34</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Pallante Elisa , di Caposele, nato il 10/02/1964">Elisa  Pallante ´64</span></div></div></td><td nowrap="nowrap"><div align="center">27</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Roma (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (2 punti)">r</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">15/01/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">16</div></td><td nowrap="nowrap"><div align="center">51</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Galdi Prezioso, di Caposele, nato il 26/07/1988">Prezioso Galdi ´88</span></div></div></td><td nowrap="nowrap"><div align="center">25</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">02/02/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">17</div></td><td nowrap="nowrap"><div align="center">18</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="D'Alessio Gelsomina , di Caposele, nato il 18/10/1976">Gelsomina  D'Alessio ´76</span></div></div></td><td nowrap="nowrap"><div align="center">25</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Psv Eindhoven (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">11/01/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">18</div></td><td nowrap="nowrap"><div align="center">77</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Sista Raffaele, di Caposele, nato il 01/06/1975">Raffaele Sista ´75</span></div></div></td><td nowrap="nowrap"><div align="center">25</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Roma (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">18/02/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">19</div></td><td nowrap="nowrap"><div align="center">3</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Merola Salvatore, di Caposele, nato il 19/05/1988">Salvatore Merola ´88</span></div></div></td><td nowrap="nowrap"><div align="center">25</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Psv Eindhoven (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (2 punti)">r</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">01/01/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">20</div></td><td nowrap="nowrap"><div align="center">31</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Melillo Ivan, di Caposele, nato il 18/05/1982">Ivan Melillo ´82</span></div></div></td><td nowrap="nowrap"><div align="center">23</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Liverpool (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">18/01/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">21</div></td><td nowrap="nowrap"><div align="center">46</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Merola Giuseppe, di Caposele, nato il 12/03/1986">Giuseppe Merola ´86</span></div></div></td><td nowrap="nowrap"><div align="center">23</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Psv Eindhoven (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Celtic Glasgow (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">24/01/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">22</div></td><td nowrap="nowrap"><div align="center">75</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Meo Giuseppe, di Caposele, nato il 17/03/1985">Giuseppe Meo ´85</span></div></div></td><td nowrap="nowrap"><div align="center">23</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">17/02/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">23</div></td><td nowrap="nowrap"><div align="center">76</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Russomanno Alessandro, di Caposele, nato il 27/05/1975">Alessandro Russomanno ´75</span></div></div></td><td nowrap="nowrap"><div align="center">23</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Liverpool (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Celtic Glasgow (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (2 punti)">r</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">18/02/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">24</div></td><td nowrap="nowrap"><div align="center">12</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Peccatiello Donato, di Caposele, nato il 08/05/1970">Donato Peccatiello ´70</span></div></div></td><td nowrap="nowrap"><div align="center">23</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Valencia (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (2 punti)">r</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">01/01/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">25</div></td><td nowrap="nowrap"><div align="center">37</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Cibellis Luca, di Oliveto Citra, nato il 11/01/1988">Luca Cibellis ´88</span></div></div></td><td nowrap="nowrap"><div align="center">23</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Roma (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">15/01/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">26</div></td><td nowrap="nowrap"><div align="center">42</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Caruso Danilo, di Caposele, nato il 07/08/1989">Danilo Caruso ´89</span></div></div></td><td nowrap="nowrap"><div align="center">23</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Roma (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">19/01/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">27</div></td><td nowrap="nowrap"><div align="center">44</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Ceres Alessandro, di Caposele, nato il 20/06/1989">Alessandro Ceres ´89</span></div></div></td><td nowrap="nowrap"><div align="center">23</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (2 punti)">r</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">19/01/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">28</div></td><td nowrap="nowrap"><div align="center">68</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Merola Gelsomino, di Caposele, nato il 01/06/1989">Gelsomino Merola ´89</span></div></div></td><td nowrap="nowrap"><div align="center">23</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Roma (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Roma (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Roma (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Roma (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">16/02/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">29</div></td><td nowrap="nowrap"><div align="center">65</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Ceres Pietro, di Caposele, nato il 04/06/1939">Pietro Ceres ´39</span></div></div></td><td nowrap="nowrap"><div align="center">23</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Roma (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Roma (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">17/02/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">30</div></td><td nowrap="nowrap"><div align="center">9</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Melillo Nicola, di Caposele, nato il 07/04/1979">Nicola Melillo ´79</span></div></div></td><td nowrap="nowrap"><div align="center">21</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Liverpool (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Valencia (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Celtic Glasgow (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Celtic Glasgow (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">01/01/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">31</div></td><td nowrap="nowrap"><div align="center">17</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Notaro Michele, di Caposele, nato il 05/11/1971">Michele Notaro ´71</span></div></div></td><td nowrap="nowrap"><div align="center">21</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Valencia (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">11/01/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">32</div></td><td nowrap="nowrap"><div align="center">39</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Liloia Concetta, di Battipaglia, nato il 06/09/1988">Concetta Liloia ´88</span></div></div></td><td nowrap="nowrap"><div align="center">21</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">18/01/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">33</div></td><td nowrap="nowrap"><div align="center">67</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Ceres Nicoletta, di Benevento, nato il 13/09/1982">Nicoletta Ceres ´82</span></div></div></td><td nowrap="nowrap"><div align="center">21</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">17/02/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">34</div></td><td nowrap="nowrap"><div align="center">74</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Casale Giuseppe, di Caposele, nato il 20/02/1974">Giuseppe Casale ´74</span></div></div></td><td nowrap="nowrap"><div align="center">21</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Roma (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Porto (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">17/02/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">35</div></td><td nowrap="nowrap"><div align="center">10</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Viscardi Lello , di Caposele, nato il 20/01/1979">Lello  Viscardi ´79</span></div></div></td><td nowrap="nowrap"><div align="center">21</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (2 punti)">r</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">01/01/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">36</div></td><td nowrap="nowrap"><div align="center">11</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Russomanno Rocco, di Caposele, nato il 01/03/1947">Rocco Russomanno ´47</span></div></div></td><td nowrap="nowrap"><div align="center">21</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (2 punti)">r</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">01/01/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">37</div></td><td nowrap="nowrap"><div align="center">5</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Gervasio Donato, di Caposele, nato il 22/10/1985">Donato Gervasio ´85</span></div></div></td><td nowrap="nowrap"><div align="center">19</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">01/01/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">38</div></td><td nowrap="nowrap"><div align="center">38</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Vitale Angelo, di Oliveto Citra, nato il 10/01/1989">Angelo Vitale ´89</span></div></div></td><td nowrap="nowrap"><div align="center">19</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">15/01/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">39</div></td><td nowrap="nowrap"><div align="center">73</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Cuozzo Giovanni, di Caposele, nato il 04/02/1988">Giovanni Cuozzo ´88</span></div></div></td><td nowrap="nowrap"><div align="center">19</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">17/02/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">40</div></td><td nowrap="nowrap"><div align="center">29</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Melillo Gerardo, di Caposele, nato il 19/05/1949">Gerardo Melillo ´49</span></div></div></td><td nowrap="nowrap"><div align="center">17</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Liverpool (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Valencia (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Celtic Glasgow (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Porto (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">18/01/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">41</div></td><td nowrap="nowrap"><div align="center">13</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Ceres Angelo, di Caposele, nato il 06/06/1980">Angelo Ceres ´80</span></div></div></td><td nowrap="nowrap"><div align="center">17</div></td><td nowrap="nowrap"><div align="center"><span title="Chelsea (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (3 punti)">G</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Bayern Monaco (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">01/01/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">42</div></td><td nowrap="nowrap"><div align="center">22</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Russomanno Maria, di Caposele, nato il 08/12/1988">Maria Russomanno ´88</span></div></div></td><td nowrap="nowrap"><div align="center">15</div></td><td nowrap="nowrap"><div align="center"><span title="Manchester United (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Psv Eindhoven (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Porto (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Porto (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Porto (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Porto (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">13/01/2007</div></td></tr>
+<tr style="background: rgb(255, 255, 170) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" class=""><td nowrap="nowrap"><div align="center">43</div></td><td nowrap="nowrap"><div align="center">64</div></td><td nowrap="nowrap"><div align="center"><div style="margin-left: 10pt;" align="left"><span title="Cozza Antonia, di Caposele, nato il 19/10/1943">Antonia Cozza ´43</span></div></div></td><td nowrap="nowrap"><div align="center">11</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Barcellona (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Real Madrid (1 punto)">g</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lilla (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Porto (0 punti)"><small>o</small></span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Milan (4 punti)">V</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Lione (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Arsenal (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center"><span title="Inter (0 punti)">.</span>
+</div></td><td nowrap="nowrap"><div align="center">17/02/2007</div></td></tr>
+  </tbody>
+</table>
+  </td>
+  </tr>
+  </tbody>
+</table>
+<br>
+<div class="txt_link" align="left">
+Portando il cursore del mouse sopra i simboli nella tabella
+viene visualizzato il nome della squadra pronosticata e i punti
+corrispondenti
+</div>
+<br>
+<table width="100%"><tbody><tr valign="top">
+<!-- Legenda gruppi -->
+<td width="30%">
+&nbsp;&nbsp;
+Legenda:
+<div class="txt_link">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Q</b> : Amm. quarti<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>S</b> : Ammesse alle semifinali<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>F</b> : Ammesse in finale<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>C</b> : Squadra vincitrice<br>
+</div>
+</td>
+</tr></tbody></table>
+<br>
+<table width="100%"><tbody><tr valign="top">
+<!-- Legenda simboli -->
+<td>
+&nbsp;&nbsp;
+Legenda simboli:
+<div class="txt_link">
+<table><tbody>
+<tr>
+<td align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="">V</span></td><td> : Vittoria diretta (4 punti)</td>
+</tr>
+<tr>
+<td align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="">G</span></td><td> : Vittoria con regola goal fuori casa (3 punti)</td>
+</tr>
+<tr>
+<td align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="">R</span></td><td> : Vittoria ai rigori (2 punti)</td>
+</tr>
+<tr>
+<td align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="">r</span></td><td> : Sconfitta ai rigori (2 punti)</td>
+</tr>
+<tr>
+<td align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="">g</span></td><td> : Sconfitta con regola goal fuori casa (1 punto)</td>
+</tr>
+<tr>
+<td align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=""><small>o</small></span></td><td> : Sconfitta diretta (0 punti)</td>
+</tr>
+<tr>
+<td align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.</td>
+<td> : Pronostico errato</td>
+</tr>
+</tbody></table>
+</div>
+</td>
+</tr></tbody></table>
+</div>
+--- End body ---

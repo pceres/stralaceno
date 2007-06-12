@@ -7,7 +7,7 @@ Responsabile Tecnico: Corona Salvatore<br>
 Preparatore Atletico: Sista Raffaele<br>
 <br><br>
 <div align="center">
-<img id="fotoFC_Caposele" src="%file_root%custom/album/FC_caposele/fc20.jpg" alt="" border="0" width="400">
+<img id="fotoFC_Caposele" src="%file_root%custom/album/FC_caposele/fc1.jpg" alt="" border="0" width="430">
 </div>
-<br><br>L'album fotografico &egrave; disponibile <a href="album.php?anno=FC_caposele">qui</a>. (Aggiunte nuove foto il 2 maggio)<br><br>
+<br><br>L'album fotografico &egrave; disponibile <a href="album.php?anno=FC_caposele">qui</a>. (Aggiunte nuove foto il 5 giugno)<br><br>
 --- End body ---

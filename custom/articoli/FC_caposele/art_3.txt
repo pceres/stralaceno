@@ -7,5 +7,5 @@ VICE PRESIDENTE: Melillo Gerardo Ernesto<br><br>
 SEGRETARIO: Cirillo Donatello<br><br>
 CASSIERE: Cetrulo Massimo<br><br>
 CONSIGLIERI:<br>
-Corona Salvatore, Proietto Giuseppe, Russomanno Alessandro, Sista Raffaele, D'Alessio Carlo<br><br>
+Corona Salvatore, Proietto Giuseppe, Russomanno Alessandro, Sista Raffaele <br><br>
 --- End body ---

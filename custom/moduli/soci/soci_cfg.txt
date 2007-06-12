@@ -13,7 +13,7 @@
 [elenco_soci]
 Nicola D'Auria::nicolad_auria@libero.it::30/03/2005::socio fondatore::Presidente::7::Soci_ars::
 Alessandro Russomanno::alexruss75@yahoo.it::30/03/2005::socio fondatore::Vice Presidente::3::Soci_ars::
-Donatello Cirillo::donateci.77@tiscali.it::30/03/2005::socio fondatore::Segretario Amministrativo::12::Soci_ars::
+Donatello Cirillo::donatellocirillo@libero.it::30/03/2005::socio fondatore::Segretario Amministrativo::12::Soci_ars::
 Pasquale Ceres::pasquale_ceres@yahoo.it::30/03/2005::socio ordinario::Consigliere::8::Soci_ars::Webmaster ArsWeb
 Paolo Viscardi::paolovisca86@hotmail.it::02/05/2005::socio ordinario::::1::Soci_ars::
 Michele Ceres::ceresmichele@yahoo.it::02/05/2005::socio ordinario::::6::Soci_ars::

@@ -1,77 +1,11 @@
-Autore::Ars
-Titolo::Risultati e Classifica  III Categoria 2006/07
+Autore::
+Titolo::Classifica finale III categoria 2006/07
 --- Begin body ---
 <br>
-Risultati e classifica <b>III Categoria Avellino Girone G</b>:<br>
+<b>Avellino, Girone G</b><br>
 <br>
 <br>
 <div align="center">
-<!-- 
-	inizio tabella risultati giornata x 
--->
-	Risultati 26<sup>a</sup> giornata (13/05/2007)
-<table class="tabella" style="font-size:13.0pt;">
-<tbody><tr><td align="left"><table>
-<tbody>
-<!-- match # 1 -->
-<tr>
-	<td> &nbsp;LA LONGOBARDA</td>
-	<td> &nbsp;-&nbsp; </td>
-	<td>CASTEL BARONIA</td>
-	<td>1-2</td>
-</tr>
-<!-- match # 2 -->
-<tr>
-	<td> &nbsp;SPORTING CLUB NUSCO</td>
-	<td> &nbsp;-&nbsp; </td>
-	<td>MORRA DE SANCTIS</td>
-	<td>2-2</td>
-</tr>
-<!-- match # 3 -->
-<tr>
-	<td> &nbsp;CAPOSELE</td>
-	<td> &nbsp;-&nbsp; </td>
-	<td>REAL S. ANDREA CONZA</td>
-	<td>10-1</td>
-</tr>
-<!-- match # 4 -->
-<tr>
-	<td> &nbsp;CONZA</td>
-	<td> &nbsp;-&nbsp; </td>
-	<td>SPORTING EVER GREEN</td>
-	<td>4-0</td>
-</tr>
-<!-- match # 5 -->
-<tr>
-	<td> &nbsp;TREVICO</td>
-	<td> &nbsp;-&nbsp; </td>
-	<td>VALLESACCARDA</td>
-	<td>2-3</td>
-</tr>
-<!-- match # 6 -->
-<tr>
-	<td> &nbsp;AQUILONIA</td>
-	<td> &nbsp;-&nbsp; </td>
-	<td>VIRTUS CONZA</td>
-	<td>2-1</td>
-</tr>
-	<tr><td colspan=3>&nbsp;</td></tr>
-<!-- nota # 1 -->
-<tr>
-	<td colspan=3>Riposa: CASABIANCHI TREVICO</td>
-</tr>
-</tbody>
-</table></td></tr></tbody></table>
-<!-- 
-	fine tabella risultati giornata x 
--->
-</div>
-<br>
-<div align="center">
-<!-- 
-	inizio tabella classifica
--->
-	Classifica finale
 <table class="tabella" style="font-size:13.0pt;">
 <tbody><tr><td><table>
 <thead><tr>

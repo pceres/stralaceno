@@ -6,6 +6,14 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+08/06/2007::Quarti di finale campionato provinciale Allievi ritorno: FC Caposele - Eclanese 1-1
+05/06/2007::Quarti di finale campionato provinciale Allievi andata: Eclanese - FC Caposele 5-0
+04/06/2007::Quarti di finale campionato provinciale Allievi: Eclanese - FC Caposele, andata 4 giugno ore 18.00 a Mirabella Eclano, ritorno 7 giugno ore 17.00 a Teora.
+01/06/2007::Ottavi di finale campionato provinciale Allievi ritorno: FC Caposele - Aquilonia 5-1
+30/05/2007::Ottavi di finale campionato provinciale Allievi andata: Aquilonia - FC Caposele 1-1
+24/05/2007::Ottavi di finale campionato provinciale Allievi: Aquilonia - FC Caposele, andata il 28 maggio ore 17.00 ad Aquilonia, ritorno il 30 maggio ore 17.00 a Teora.
+17/05/2007::Morra De Sanctis - FC Caposele 0-3
+15/05/2007::FC Caposele - Real S.Andrea di Conza 10-1
 10/05/2007::Prossima partita: FC Caposele - Real S.Andrea di Conza a Caposele il 13 maggio alle ore 16.30.
 10/05/2007::Morra De Sanctis - FC Caposele verr&agrave; recuperata il 16 maggio alle 16.30 a Morra.
 08/05/2007::La partita Morra De Sanctis - FC Caposele, prevista per il 5 maggio, &egrave; stata rinviata per assenza dell'arbitro.

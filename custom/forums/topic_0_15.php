@@ -58,6 +58,27 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 44::da Il Mattino del 5 maggio::08/05/2007 10.59.32::visible
 45::da Irpinianews.it del 11 maggio::11/05/2007 13.10.43::visible
 46::Antonio::12/05/2007 15.32.16::visible
+47::Politik::14/05/2007 22.24.48::visible
+48::da Il Mattino del 12.05.07::15/05/2007 11.15.35::visible
+49::diabolicusss, lo conosci?::15/05/2007 12.02.53::visible
+50::Antonio::15/05/2007 12.44.46::visible
+51::Il sindaco del mercoldì::15/05/2007 14.30.16::visible
+52::diabolicusss lo conosci?::15/05/2007 16.22.35::visible
+53::Cocles::17/05/2007 10.29.58::visible
+54::da Il Mattino del 16/05/07::17/05/2007 11.22.05::visible
+55::da Irpinianews.it::18/05/2007 17.00.36::visible
+56::da Corriereirpinia.it::22/05/2007 10.38.03::visible
+57::Politica::23/05/2007 11.29.09::visible
+58::da Il Mattino del 23/05/2007::23/05/2007 14.52.39::visible
+59::da Corriereirpinia.it::24/05/2007 11.11.35::visible
+60::da irpinianews.it::28/05/2007 17.33.11::visible
+61::vecchio gabbiano::29/05/2007 16.30.37::visible
+62::Politica::30/05/2007 14.53.12::visible
+63::da Il Mattino del 29/05/07::30/05/2007 16.10.03::visible
+64::Pasquale C.::31/05/2007 00.29.44::visible
+65::Politica::31/05/2007 10.26.26::visible
+66::Pasquale C.::31/05/2007 18.28.56::visible
+67::da irpinianews.it::04/06/2007 11.05.48::visible
 
 [post_text_0]
 Riceviamo da CLEON.REN e pubblichiamo:
@@ -431,5 +452,138 @@ Caposele - Il Tribunale amministrativo di Salerno, prima sezione, ha respinto la
 Sul Commissario oramai se ne dicono di tutti i colori,tutta una serie di affermazioni, teorie, e catastrofi che egli può provocare (ovviamente tutte menzogne).
 Ormai è l'unica soluzione per poter riportare tra un anno la democrazia e nel contempo estirpare un cattivo gioco di potere.
 Chi ha paura del Commissario? Chi non ha la coscienza a posto.
+&nbsp;
+
+[post_text_47]
+Concordo con Antonio: qualche mese di commissariamento, e quindi di governo neutrale della cosa pubblica, sara' poi una tale sventura per Caposele? E' la prima volta nella storia del nostro comune?
+   E un'altra cosa: si parlava qualche tempo fa (questa discussione si e' aperta proprio con la lettera di Cleon.Ren sull'argomento) di una lista unica: non avrebbe avuto lo stesso problema di quorum che avra' ora l'unica lista rimasta?
+&nbsp;
+
+[post_text_48]
+CAPOSELE. SENTENZA TAR
+Una sola lista, questione di quorum
+&nbsp;
+MICHELE VESPASIANO Caposele. Occorrerà superare il quorum della metà più uno degli aventi diritto al voto se si vorrà rendere valide le elezioni amministrative, dove in campo è restata solo la lista dell'Arcobaleno, capeggiata da Gerardo Monteverde. È questo l'esito diretto della pronuncia del Tar di Salerno, che ha rigettato l'istanza di riammissione alla competizione elettorale presentata da Pasquale Farina, leader della compagine «Caposele nel cuore», esclusa dalla Commissione elettorale circondariale per eccesso di firme di presentatori. Nel dettaglio, 73 sottoscrizioni invece del tetto massimo di 60, come prescritto per i comuni inferiori a 5000 abitanti. La prima sezione del Tar salernitato, relatore Ferdinando Menicihini, respingendo la domanda incidentale di sospensione, ha sentenziato «che il ricorso non presenta elementi di fondatezza, atteso che la normativa in materia è di stretta applicazione». La competizione elettorale, e quindi la dialettica tra i due schieramenti, diventa ancora più incandescente, anche se Farina prova a gettare acqua sul fuco delle aspettative dei suoi supporters, accettando con molto fair play la pronuncia del tribunale amministrativo. L'ex candidato sindaco e gli altri candidati della lista ricusata inviteranno i loro amici all'astensionismo? Al momento non è dato saperlo. Una presa di posizione si avrà nei prossimi giorni, dopo che gli strateghi della compagine civica avranno fatto delle proiezioni sulla scorta del numero degli aventi diritto al voto, che sono 4200 - molti dei quali residenti all'estero - e degli elettori, che sono poco meno di 2800. Gli osservatori politici locali si dicono sicuri che difficilmente potranno essere imbucate nell'urna 2100 schede; il traguardo, infatti, non è stato mai superato. Se così dovesse essere anche questa volta, il futuro amministrativo di Caposele rischia di essere consegnato per i prossimi mesi al commissario straordinario.
+&nbsp;
+
+[post_text_49]
+difficilmente si raggiungerà il quorum, allora penso che gli arcobaleni dimostrerebbero fair play nel non insistere in questa tornata elettorale, non inasprendola, per concentrarsi in quella che ci sarà tra sei mesi o al massimo un anno, dimostrando anche di non essere attaccati al potere e ai soliti interessi personali, ed evitando, inoltre, di mettere in difficoltà tanti elettori che vedrebbero violata la segretezza del loro voto.
+
+[post_text_50]
+Il buon gioco dell'Arcobaleno è solo un sogno, basta leggere il Corriere dell'irpinia per capirlo: "non cederemo di un millimetro" queste le parole del candidato a sindaco...e ho detto tutto!!!!
+
+[post_text_51]
+L'arcobaleno non può cadere!
+
+[post_text_52]
+persone serie, loro.
+
+[post_text_53]
+Qui non si tratta di scegliere tra 5 anni di commissario e 5 di Monteverde, ma tra pochi mesi di commissariamento (che avranno una loro utilità...) e poi avere la possibilità di svolgere elezioni dove il principio di democrazia sia rispettato in pieno.
+
+[post_text_54]
+CAPOSELE
+Rischio quorum, Monteverde medita l’accordo con Farina
+&nbsp;
+MICHELE DE LEO Caposele. Contro l'ostacolo quorum. Gerardo Monteverde non se l'aspettava di dover portare avanti una campagna elettorale contro un avversario tanto scomodo quanto inusuale. L'esclusione della lista "Caposele nel cuore" guidata da Pasquale Farina gli ha fornito su un piatto d'argento una vittoria facile facile. Ma la battaglia per raggiungere il quorum è più ardua del previsto. Anche per questo, Monteverde prova a cercare un'alleanza con i suoi avversari. «Ho tentato - spiega il candidato Sindaco de ”L'arcobaleno” - di avviare un dialogo con la lista esclusa ma i segnali ricevuti sono tutt'altro che incoraggianti». Su che base si potrebbe trovare un accordo? «La mia - continua Monteverde - è stata un'apertura di carattere generale. In ogni caso, si potrebbe trovare un'intesa per una compartecipazione in giunta, oppure per una consiliatura a termine» Non vede basi solide, Pasquale Farina, per una possibile intesa tra le due liste. «Sarebbe un accordo troppo labile - spiega - che offre poche garanzie e che la gente di Caposele non riuscirebbe a comprendere. Viviamo una situazione strana, in cui la democrazia ed il segreto dell'urna vengono messi a dura prova. Il voto sarebbe palese e non segreto». Farina, però, non ci pensa nemmeno a invitare la gente a non votare. «Noi - continua - siamo esclusi dalla competizione elettorale e vogliamo comportarci con la massima correttezza». Ma, dovesse venire meno il quorum, la lista ”Caposele nel cuore” potrebbe dirsi vittoriosa? «Sarebbe la vittoria della democrazia e della libertà del poter scegliere. Io posso solo dire di essere amareggiato per la gente che si trova a vivere questa campagna elettorale davvero particolare».
+
+[post_text_55]
+Ds: “L’Arcobaleno rinvii l’appuntamento alle urne”
+&nbsp;
+Caposele - “Quando il prossimo lunedì 28 maggio si chiuderanno i seggi elettorali, verosimilmente, a Caposele non sarà raggiunto il quorum della metà dei votanti e, pertanto, come previsto dalla legge, le elezioni amministrative saranno nulle”. È il quadro tracciato dai Ds di Caposele ed illustrato in una nota dal coordinatore Agostino Montanari. “La competizione elettorale subirà, in tal caso, un rinvio di alcuni mesi, durante i quali le due compagini, una reale, l’Arcobaleno e, l’altra (ora) virtuale, perché ricusata, Caposele nel Cuore, potranno impegnarsi a riempire di contenuti politici una competizione che allo stato, per ovvi ed evidenti motivi, ne è priva. Creare le condizioni per un dibattito politico vero, serrato, anche forte, basato su idee alternative per il futuro della nostra comunità, sui nostri giovani e sulle priorità per il rilancio economico del territorio è una sfida che deve coinvolgere tutte le forze politiche e sociali di Caposele. In tale prospettiva sarebbe ragionevole e apprezzabile che l’Arcobaleno, di sua iniziativa, annunciasse e invitasse i propri elettori a rinviare l’appuntamento alle urne. Sarebbe questa una scelta di grande coraggio, un gesto che, da parte dei candidati dell’unica lista ufficialmente in campo, contribuirebbe a far prevalere la ragione e il dialogo sull’animosità e l’irragionevolezza che in questo momento rischiano di prendere il sopravvento. Rinviare l’appuntamento alle urne sarebbe un’iniziativa di grande responsabilità e di distensione verso una larga parte dell’elettorato che in questi giorni mostra segni di incredulità e di smarrimento per una norma elettorale ai più incomprensibile; sarebbe, inoltre, un gesto di rispetto nei confronti di tanti altri elettori che, non schierandosi aprioristicamente per l’una o per l’altra parte, vorrebbero partecipare alla competizione mantenendo la segretezza della propria scelta. È del tutto evidente, invece, che, in questo clima, scegliere di andare o non andare a votare significherebbe rendere pubblico un proprio personale orientamento. Le elezioni amministrative non possono essere trasformate in un referendum abrogativo in cui gli elettori sono messi nella condizione di non poter scegliere tra due reali alternative. Rimandare il voto ad una situazione di normalità, di effettivo confronto tra due schieramenti, farà in modo che ogni elettore possa sentirsi più libero e più tutelato nel segreto dell’urna, che in tal caso diventerebbe per tutti autentica scelta di partecipazione, di libertà e di democrazia. Si raggiungerebbero così due fondamentali obiettivi: il primo politico, perché finalmente si parlerebbe di programmi e di cosa fare per Caposele nei prossimi cinque anni, offrendo concretamente agli elettori due opzioni alternative; il secondo, non di poco conto, di ritrovata coesione e rispetto verso l’elettorato, che manterrebbe l’effettiva privacy ed efficacia del voto”.
+(venerdì 18 maggio 2007 alle 15.48)
+
+[post_text_56]
+Fuochi incrociati a Caposele toni forti e velenosi ai comizi
+&nbsp;
+CAPOSELE - Fuochi incrociati in piazza Dante tra l'Arcobaleno di Gerardo Monteverde e l'ormai ex "Caposele nel Cuore" di Pasquale Farina.
+Nel corso del fine settimana si sono tenuti in sequenza due comizi dai toni forti e velenosi. Con i leader delle compagini a scagliarsi accuse pesantissime.
+Si accende a sette giorni dal voto l'anomala campagna elettorale di Caposele. Dove una lista, quella degli amministratori uscenti combatte da sola e corre contro il quorum per invalidare l'elezione, mentre l'altra, ricusata dal Tar, promette battaglia e sprona gli elettori a rimandare l'appuntamento tra qualche mese, favorendo in questa fase, l'arrivo del Commissario prefettizio in paese. Mercoledì sera , sul palco di piazza Dante è stato il sindaco uscente Gerardo Monteverde ad invitare i cittadini caposelesi a raggiungere le urne il prossimo 27 e 28 maggio per evitare che Caposele si trovi ad essere commissariata già dal mese di giugno. Il quorum è alto: dovrebbero votare oltre 2100 persone, e l'Arcobaleno dovrà incassare la metà più uno dei voti validi. Doppio scoglio, insomma. Il candidato sindaco ha anche ricordato di aver teso la mano alla ex lista avversaria per lavorare ad un accordo, in modo da spronare i propri elettori a votare.
+&nbsp;
+Sabato sera è giunta la replica al vetriolo di Pasquale Farina. La piazza è stata prenotata dai partiti che sostengono la compagine anti-Monteverde, Margherita e Ds. Sul palco i leader della ex "Caposele nel Cuore" a sottolineare le ragioni di un dissenso rispetto alla linea tracciata dal sindaco in pectore. Primo punto di rottura: proprio l'accordo che non si può tessere perchè a giudizio di Farina, è stato lo stesso Monteverde a non voler lavorare su un fronte unitario nel corso delle trattative delle scorso settimane, quando si ventilava la lista unica a Caposele.
+Respinta una ad una le accuse che si riferiscono a boicottaggi e "blocchi" dell'elettorato per indurlo a non recarsi alle urne. Così come è stata "morbida" la linea commissariale che secondo "Caposele nel Cuore" non rappresenta una tragedia per il paese, tutt'altro.
+Dopo il botta e risposta, il prossimo appuntamento in piazza si dovrebbe tenere direttamente venerdì prossimo, in occasione della chiusura formale della campagna elettorale.
+22/05/2007
+&nbsp;
+
+[post_text_57]
+Quando sono previsti i prossimi comizi a Caposele?
+
+[post_text_58]
+CAPOSELE. Monteverde lotta con il quorum Farina, nuovo invito al non-voto
+&nbsp;
+Caposele. Non è mutato lo scenario dopo la ricusazione della lista «Caposele nel cuore». Quello che doveva essere un normale confronto per la successione del compianto sindaco Melillo, si è trasformato in una battaglia tra chi invita a recarsi alle urne e chi, invece, a disertarle. La sfida di Gerardo Monteverde, capolista de «L'arcobaleno», è contro il quorum. I candidati dell'unico schieramento rimasto in gara stanno lavorando per convincere oltre 2mila e cento persone di Caposele a recarsi alle urne domenica e lunedì prossimi.
+L'altro schieramento, costituitisi in un circolo culturale e politico, invece, prova a mettergli i bastoni tra le ruote. Il gruppo guidato da Pasquale Farina ha ufficialmente aperto una campagna del ”non voto”, le cui ragioni sono state ribadite in un comizio ed attraverso un manifesto affisso sulle cantonate cittadine. «Abbiamo chiesto ai nostri avversari - spiega il candidato Vito Malanga - di ritirare la loro lista per rinviare l'appuntamento elettorale e favorire un confronto democratico».
+Monteverde, dal canto suo, ha provato a cercare un accordo con i suoi ex avversari, al fine di riuscire a superare l’ostacolo quorum. «Lo schieramento di Farina - spiega - si è trincerato dietro la politica del non voto. Abbiamo dovuto riscontrare una chiusura netta che certo non aiuta il paese. Con questo atteggiamento si stanno assumendo la responsabilità politica grossa di un periodo di gestione commissariale».
+Ieri sera Monteverde ha tenuto un comizio in località Boninventre. Stasera nuova uscita pubblica a Materdomini. Venerdì chiusura con una manifestazione che proverà a coinvolgere l'intera cittadinanza locale. Anche Farina terrà un nuovo comizio nei prossimi giorni. In quell'occasione ribadirà che «l'attuale competizione cancella il confronto democratico ed il segreto dell'urna».
+li.sa.
+
+[post_text_59]
+Appello di Farina: chiudere la campagna in tranquillità
+&nbsp;
+CAPOSELE - «Da parte nostra ci sarà tutto l’impegno a tenere bassi i toni delle polemiche, vogliamo che questo finale di campagna elettorale non si inasprisca». Appello alla distensione di Pasquale Farina, leader della lista ricusata dal Tar “Caposele nel Cuore”. «Vogliamo che il dibattito sia corretto sino alla fine».
+Farina e gli esponenti della sua compagine, anche se fuori dai giochi, scenderanno in piazza domani sera per un ultimo comizio elettorale. Piazza XXIII Novembre (quella principale, Piazza Dante è occupata dalle 20 alle 24 dall’Arcobaleno di Gerardo Monteverde) ospiterà l’intervento di “Caposele nel Cuore”. «Ma non nutro nessun rancore nei confronti dei miei avversari seppure non ci hanno concesso, nemmeno per un’ora la piazza. In quest’ultima occasione abbiamo deciso, inoltre, di dar voce ai nostri ex candidati, che purtroppo non hanno potuto sino ad oggi nemmeno salutare l’elettorato». Ancora un passaggio volto ad ammordibire i toni. «Anche se la gente è in difficoltà, i caposelesi devono sapere che non siamo rigidi sulle posizioni e naturalmente continueremo civilmente a fare la nostra campagna per il “non voto”.
+Pensiamo, infatti, che ci siano ottime probabilità che non venga raggiunto il quorum».
+24/05/2007
+
+[post_text_60]
+Caposele- Non raggiunto il quorum, elezioni da rifare. Esulta Farina
+&nbsp;
+Il dato non è ancora ufficiale, ma sembra proprio che <b>Gerardo Monteverde</b> non abbia ottenuto i consensi necessari per ritenere valida la consultazione elettorale. Secondo le prime indiscrezioni, la lista da lui capeggiata avrebbe ottenuto poco più di 1300 voti, contro i 4289 elettori. Elezioni da rifare e nelle more, nomina del commissario prefettizio. La lista capeggiata da <b>Pasquale Farina</b> era stata esclusa dal Tar, che era intervenuto per valutare il ricorso presentato dagli interessati contro la decisione assunta dalla commissione elettorale, che aveva rilevato una irregolarità molto formale nella lista di Farina. Era accaduto che quella lista aveva presentato 13 firme in più del previsto in calce alla presentazione dei candidati. Pasquale Farina esprime soddisfazione per il dato elettorale, che suona come una vittoria:"Non hanno raggiunto nemmeno i voti che ottenni io nella passata competizione, fatta a più voci - afferma - pertanto si tratta di una doppia vittoria". (da <a href="http://www.irpinianews.it/Politica/news/?news=19330">www.irpinianews.it</a>,lunedì 28 maggio 2007 alle 15.13)
+
+[post_text_61]
+ho visto qualche arcobaleno sorridere
+
+[post_text_62]
+Quorum: 2152, Votanti: 1313, L'Arcobaleno: 1252, Bianche: 38, Nulle: 23
+
+[post_text_63]
+Non c’è quorum, si rivota
+&nbsp;
+Caposele. Un'elezione da "13". Pare quasi un gioco del destino il ripetersi di un numero che ha caratterizzato l'appuntamento elettorale nel comune di San Gerardo. Tante sono state le firme di presentazione in più, 73 rispetto ad un massimo di 60, costate l'esclusione della lista «Caposele nel cuore». Sono stati 1313, invece, gli elettori a recarsi alle urne, poco più del 30% del corpo elettorale, che non hanno consentito il raggiungimento del quorum. Non è riuscito, dunque, a realizzare il «13» più importante Gerardo Monteverde, candidato sindaco de "L'arcobaleno", unica lista rimasta in campo dopo la ricusazione di «Caposele nel cuore». Invalidate, dunque, le elezioni nel piccolo comune della Valle del Sele che, dai prossimi giorni, sarà commissariato per un anno. Opposti, ovviamente, i commenti tra i candidati della lista ufficiale e quella ricusata. «Non sono deluso - evidenzia Monteverde -. Sapevamo che il quorum era difficile da raggiungere. Oltre mille e 300 votanti in un contesto difficile, in cui l'elettorato è stato sottoposto a pressioni di ogni genere, però, rappresentano un risultato positivo. Nel caso di normali elezioni avremmo vinto senza problemi». L'ex vice sindaco di Caposele denuncia un atteggiamento ostruzionistico dei suoi avversari che «hanno stazionato nei pressi dei seggi intimorendo l'elettorato». Si dice «rammaricato ed amareggiato». «È un'accusa - ribatte Farina - che rigettiamo nel modo più assoluto e categorico. La nostra presenza nei pressi dei seggi era solo un modo per far vedere alla gente che c'eravamo».
+
+[post_text_64]
+&gt;Quorum: 2152, Votanti: 1313, L'Arcobaleno: 1252, Bianche: 38, Nulle: 23
+<br>&gt;<br><br>&Egrave; online il <a href="index.php?page=homepage&amp;art_id=27">dettaglio dei voti</a> del 27-28 maggio 2007 a Caposele
+
+[post_text_65]
+Storico elezioni comunali Caposele:
+&nbsp;
+1995
+Il Sole (A. Corona): 1278 voti
+Uniti per Caposele (T. Castello): 844 voti
+Insieme per Caposele (G. Grasso): 589 voti
+Bianche: 53
+Nulle: 44
+Totale votanti: 2808
+&nbsp;
+1999
+L'Arcobaleno (G. Melillo): 1369 voti
+Alleanza Democratica (A. Montanari): 1290 voti
+Bianche: 34
+Nulle: 29
+Totale votanti: 2722
+&nbsp;
+2004
+L'Arcobaleno (G. Melillo): 1413 voti
+Uniti per Caposele (A. Montanari): 1302 voti
+Bianche: 32
+Nulle: 36
+Totale votanti: 2783
+&nbsp;
+
+[post_text_66]
+I risultati ufficiali per Caposele sono sul sito del Ministero dell'Interno:
+<a href="http://amministrative.interno.it/amminis/amm070527/G0080170.htm">
+http://amministrative.interno.it/amminis/amm070527/G0080170.htm
+</a>
+
+[post_text_67]
+E' Armando Amabile il commissario prefettizio
+&nbsp;
+Caposele - Il prefetto di Avellino, Paolo Orrei ha nominato il vice-prefetto Armando Amabile per svolgere le funzioni di commissario prefettizio per la gestione del comune di Caposele, dopo la dichiarazione di nullità delle elezioni amministrative, tenutesi nei giorni 27 e 28 maggio scorsi.
+Ricordiamo che la lista "Cuore" capeggiata dal Pasquale Farina era stata esclusa dalla competizione per essere incorsa in un vizio procedurale all'atto della presentazione della lista elettorale. Alla esclusione proclamata dall'ufficio elettorale era seguita la conferma da parte del Tar di Salerno, invocato da Pasquale Farina.
+Alle elezioni è giunta, così, soltanto una lista "L'Arcobaleno", capeggiata da Gerardo Monteverde che avrebbe vinto le elezioni se nel comune fosse stato raggiunto il quorum del 50% più uno nel rapporto tra elettori e votanti. Ma il dato non è andato oltre il 31,5%, obbligando la prefettura a nominare il commissario in attesa che siano indette nuove consultazioni.
+(venerdì 1 giugno 2007 alle 17.05)
 &nbsp;
 

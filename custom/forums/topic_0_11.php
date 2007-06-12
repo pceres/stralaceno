@@ -21,6 +21,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 7::ciclismo::08/05/2007 16.22.06::visible
 8::Salvatore::08/05/2007 19.16.10::visible
 9::Donato Gervasio::09/05/2007 12.22.45::visible
+10::ciclismo::15/05/2007 14.57.30::visible
 
 [post_text_0]
 Cari amici di ArsWeb,
@@ -57,4 +58,7 @@ Vorrei sottolineare che Basso non si è dopato, ma aveva intenzione di doparsi in
 [post_text_9]
 E' difficile dire se Basso si sia dopato o meno. Le sue sono pur sempre parole, chiacchiere, che non devono necessariamente essere credute e non costituiscono nulla di provato e credibile. Infondo lui ha deciso di confessare e collaborare perchè si è ritrovato con le spalle al muro; c'erano prove troppo schiaccianti contro di lui ed ha capito che non avrebbe più potuto continuare a mentire. Va apprezzato il coraggio, ma c'è tanta furbizia in questa sua scelta.
 C'è da ricordare che il Giro 2006 Basso l'ha vinto con oltre 9 minuti di vantaggio sul secondo; l'ha vinto andando a riprendere gli avversari che scattavano senza (quasi) mai alzarsi sui pedali. Cosa ci trovate di normale in tutto questo? Le sue belle parole sono facili da raccontare, perchè l'autoemotrasfusione non è rintracciabile in nessun test antidoping. E' per questo, forse, che ha deciso di fare l'eroe. Ed è per questo che, forse, agli occhi di qualcuno, c'è anche riuscito. Ma è impossibile non pensare che, se Giro e Tour distano solo poche settimane l'uno dall'altro, lui abbia programmato delle autoemotrasfusioni solo per il Tour.
+
+[post_text_10]
+Inserito nuovo articolo
 

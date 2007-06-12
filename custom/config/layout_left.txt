@@ -55,7 +55,7 @@
 [elenco_moduli]
 Articoli::
 Il Progetto::
-#Archivio articoli::
+Last_contents::
 Links::
 
 
@@ -70,14 +70,11 @@ Links::
 organizzatori::Atto Costitutivo-Statuto ARS::modulo_custom::::
 # :: ::separatore::::
 presentazione::La Stralaceno::modulo_custom::::
-#sezione_caposele::Caposele::external_link::index.php?page=caposele::Pagina in allestimento!
 lettere_sito::Le vostre lettere::modulo_custom::::
-#pregfas::Pregfas::modulo_custom::::Pagina in allestimento!
 
-#[Archivio articoli]
-#febbraio_2006::Febbraio 2006::modulo_custom::::
-#gennaio_2006::Gennaio 2006::modulo_custom::::
-#dicembre_2005::Dicembre 2005::modulo_custom::::
+[Last_contents]
+4
+# qualsiasi voce aggiunga qui e' inutile: il blocco [Last_contents] non prevede sottoelementi
 
 [Links]
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Links] non prevede sottoelementi

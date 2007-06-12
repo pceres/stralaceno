@@ -6,6 +6,8 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+04/06/2007::L'edizione 2007 della Stralaceno si disputer&agrave; il 31 agosto.
+01/06/2007::Il nostro socio Paolo Viscardi entra a far parte del Cus Salerno. In bocca al lupo!
 08/05/2007::Partecipanti alla III edizione della gara podistica "Sulle orme di Filippide" di km.10 a Paestum: Alessandro Russomanno, Salvatore Merola, Francesco Ceres, Paolo Viscardi. Accompagnatore: Gelsomino Merola.
 17/04/2007::Il 7 aprile si &egrave; tenuta l'Assemblea annuale dell'Associazione, in cui &egrave; stato approvato il rendiconto economico 2006.
 18/03/2007::Paolo Viscardi e Alessandro Russomanno hanno partecipato alla Maratona di Roma, portandola regolarmente a termine 

@@ -69,6 +69,28 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 55::Salvatore::08/05/2007 19.20.45::visible
 56::Angelo::10/05/2007 10.34.45::visible
 57::Ale::10/05/2007 11.49.26::visible
+58::Salvatore::15/05/2007 19.02.38::visible
+59::antonio::16/05/2007 10.33.30::visible
+60::Salvatore::17/05/2007 17.33.12::visible
+61::Salvatore::22/05/2007 19.24.40::visible
+62::Ale::23/05/2007 10.23.06::visible
+63::paolo::23/05/2007 15.28.33::visible
+64::paolo::23/05/2007 15.35.12::visible
+65::Ale::23/05/2007 16.04.12::visible
+66::paolo::23/05/2007 16.21.32::visible
+67::Salvatore::23/05/2007 22.57.04::visible
+68::Ale::31/05/2007 16.21.41::visible
+69::paolo::31/05/2007 18.47.52::visible
+70::Salvatore::31/05/2007 19.05.18::visible
+71::paolo::01/06/2007 10.10.12::visible
+72::Ale::01/06/2007 11.00.19::visible
+73::Salvatore::01/06/2007 14.08.32::visible
+74::Salvatore::03/06/2007 21.16.08::visible
+75::Ale::04/06/2007 14.22.29::visible
+76::Salvatore::04/06/2007 18.22.23::visible
+77::Ale::07/06/2007 11.48.27::visible
+78::Salvatore::08/06/2007 21.35.51::visible
+79::Ars::11/06/2007 12.37.31::visible
 
 [post_text_0]
 Fermate Nicola Melillo con questa stralaceno: anche i muri di materdomini e caposele non ne possono più.
@@ -340,4 +362,117 @@ Questo fine settimana sei di ritorno?
 
 [post_text_57]
 si, torno stasera alla solita ora. ciao
+
+[post_text_58]
+Bravo Ale che hai messo le foto,così facciamo vedere al nostro presidente che siamo attivi più che mai...io forse domani vado a fare due giri a Laceno,noi comunque ci vediamo questo fine settimana per un altro allenamento tutti insieme...ciao
+
+[post_text_59]
+x nicola melillo. Ma gli altri vanno a fare le gare e tu non ci sei mai?? ma allora è vero che vivi solo per la stralaceno, mi hai deluso
+
+[post_text_60]
+X Ale
+Ho visto l'e-mail che mi hai mandato...la gara mi sembra abbastanza a livello..tu sai che per me non ci sono problemi ad andare..ci metteremo d'accordo in questi giorni durante l'allenamento...io cmq provo a chiamare anche Trotta per vedere se la gara è organizzata da lui oppure no..ci sentiamo..ciao
+
+[post_text_61]
+X Ale
+Ho chiesto informazioni riguardo la gara di sabato e  ti posso dire che mi è stata sconsigliata da molti,perchè dicono che il terreno su cui si corre è pieno di insidie e molti atleti l'anno scorso si sono infortunati...e cmq la gara è abbastanza distante da qua...quindi sarà per la prossima...ciao
+
+[post_text_62]
+Non ci resta che fissare un allenamento podistico locale per sabato: fatemi sapere!
+Ciao
+
+[post_text_63]
+Ragazzi non è detta l'ultima parola, leggete qua sotto, questa dovrebbe essere una bellissima gara in notturno; e poi Castellammare è più vicino di palinuro.
+Fatemi sapere come la pensate; potrebbe essere una valida alternativa.
+&nbsp;
+26 maggio 2007 in Campania, XXI° NOTTURNA CITTA’ DI STABIA (I dettagli sono nascosti)
+10 Km organizzata da (). L'evento si terrà a Castellammare di stabia (Napoli).
+&nbsp;
+http://www.podistidoc.it/cal.php?regione=Campania&provincia=&citta=&percorso=&vai=Vai%21&sent=true
+
+[post_text_64]
+&nbsp;
+Ragazzi ecco l'indirizzo in cui troverete tutti i dettagli!
+Risp al più presto!!
+&nbsp;
+http://www.podistidoc.com/stabia.htm
+
+[post_text_65]
+La gara è interessante. Ci vuole cmq 1h e 30 min. per arrivare. Per me si può fare, gli altri che ne pensano?
+
+[post_text_66]
+Caro Alex,
+sono precisamente 107 Km da Caposele, ho visto su una mappa stradale da internet
+e poi castellammare di stabia si trova subito all'uscita dell'autostrada!
+
+[post_text_67]
+X Ale e Paolo
+&nbsp;
+Sapete già la mia risposta a questa interessante proposta,io per sicurezza anche se sono andato anche oggi andrò a fare un altro allenamento domani in modo da riposarmi venerdì x sabato...io cmq ci sto...mo che tornate decidiamo...ciao
+
+[post_text_68]
+x i podisti Ars
+&nbsp;
+La corsa PEDIBUS CALCANTIBUS di Montella, prevista inizialmente in giugno, è stata spostata ad ottobre:
+&nbsp;
+il sito del comune di Montella infatti riporta:
+--
+La novità di quest'anno sarà la Settima Edizione della Pedibus Calcantibus, gara Fidal Regionale che si diputerà la domenica prima della Mostra Mercato e cioè la mattina del 14 ottobre 2007
+--
+
+[post_text_69]
+Per i soci ARS
+e che cavolo, la rimandavano direttamente all'anno prossimo e tutto andava bene! vabbè non fa nulla, vuol dire che ci andremo ad ottobre se possibile.
+&nbsp;
+Ragazzi stamane sono andato a ritirare il cartellino al cus, quindi ora sono ufficialmente iscritto al cus salerno; abbiamo anche messo su un bel programma di allenamento.
+&nbsp;
+un saluto a tutti voi.
+
+[post_text_70]
+X Paolo
+Prepara le gambe x domani...è una minaccia...
+
+[post_text_71]
+x Alex
+aiuto, qui ci sta salvatore che mi minaccia.
+
+[post_text_72]
+x Salv. e Paolo
+&nbsp;
+Mi raccomando, non vi allenate troppo in mia assenza! :-)
+&nbsp;
+Qualche gara a breve scadenza?
+
+[post_text_73]
+Gare a breve scadenza niente,secondo me se ne parla a luglio...x quanto riguarda gli allenamenti da oggi fino a domenica saranno tre giorni di fuoco..ci vediamo la prox settimana..ciao
+
+[post_text_74]
+X Alessandro
+&nbsp;
+Ciao ale mi dispiace che questo week-end non sei sceso perchè io e Paolo venerdì e stasera abbiamo fatto due grandi allenamenti..mo siamo proprio stanchissimi...speriamo che ti unirai a noi nuovamente la prossima settimana..ciao
+
+[post_text_75]
+Molto bene; anch'io ieri ho fatto un piccolo allenamento qui a Roma in solitaria.
+&nbsp;
+Ma è possibile che a giugno non ci sono gare nelle vicinanze? Trotta che dice?
+&nbsp;
+ciao
+
+[post_text_76]
+X Alessandro
+&nbsp;
+Purtroppo gare nelle vicinanze per giugno non se ne vedono...a luglio invece siamo pieni..cmq appena so qualche novità te lo faccio sapere...ciao
+
+[post_text_77]
+x Salvatore, Paolo, Gerardo
+&nbsp;
+Ci sarebbe la gara in notturna di Siano (Sa) il 16 giugno. Vi ho mandato una mail a riguardo...
+
+[post_text_78]
+X Alessandro
+&nbsp;
+Oggi pomeriggio mi ha chiamato Trotta per dirmi che domani c'è una gara vicino Potenza..molto probabilmente io e Paolo andiamo, ci viene a prendere un ragazzo di sant'andrea..cmq per la gara di sabato 16 penso che si potrebbe andare, poi ci metteremo d'accordo quando torni...ciao
+
+[post_text_79]
+Il 16 giugno si va a Siano (Sa) per la III notturna sianese, corsa podistica di 10 km. Chi è interesato si rivolga ai componenti dell'Amatori Running Sele.
 

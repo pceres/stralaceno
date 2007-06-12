@@ -1,0 +1,29 @@
+Autore::
+Titolo::24<sup>a</sup>, 25<sup>a</sup> e 26<sup>a</sup> Gior.: sintesi
+--- Begin body ---
+<br>
+<b>24<sup>a</sup> Giornata: FC Caposele - Sporting Ever Green 9-0</b><br><br>
+Contro l'ultima in classifica, Caposele passeggia, chiudendo la partita con tre goal nel primo quarto d'ora.<br>
+Nei primi minuti del secondo tempo lo Sporting rimane in dieci (doppio giallo per un difensore), la strada per una goleada 
+&egrave; definitivamente spianata.<br>
+Mister Sista fa esordire alcuni ragazzi della squadra allievi, che non demeritano e contribuiscono a fissare sul nove a zero il risultato finale.
+<br>
+<br><br>
+<b>25<sup>a</sup> Giornata: Morra De Sanctis - FC Caposele 0-3</b><br><br>
+Dopo un primo tempo abbastanza equilibrato concluso sullo zero a zero,<br> 
+nel secondo tempo alcuni correttivi tattici
+e l'ingresso di nuove forze permettono al Caposele di sbloccare con allievo Francesco Ceres il punteggio<br> e arrotondarlo nel finale di gara.
+<br>
+<br><br>
+<b>26<sup>a</sup> Giornata: FC Caposele - Real S.Andrea di Conza 10-1</b><br><br>
+Partita di fine stagione, un'amichevole in sostanza, vista ormai la vittoria del campionato ottenuta da Aquilonia.<br>
+Caposele fa giocare parecchi ragazzi degli allievi, il Real schiera vecchie glorie.<br>
+La partita &egrave; a senso unico, la goleada del Caposele viene arricchita da tre goal nel finale del secondo tempo 
+dell'esordiente Alfonso Rosania.
+<br>
+<br><br>
+<div align="center">
+<img id="fotoFC_Caposele" src="%file_root%custom/album/FC_caposele/FC9.jpg" alt="" border="0" width="400">
+</div>
+<br><br>
+--- End body ---

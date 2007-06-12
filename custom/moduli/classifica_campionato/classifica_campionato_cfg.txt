@@ -112,25 +112,25 @@ Classifica aggiornata al 07/01/2006
 # formato dati_giornata_NN:  titolo_tabella
 #
 [dati_giornata_visibile]
-Risultati 25<sup>a</sup> giornata (06/05/2007)
+Risultati 26<sup>a</sup> giornata (13/05/2007)
 
 #
 
 # formato giornata_NN:  posizione_partita::squadra_in_casa::squadra_fuori_casa::risultato (una riga per ciascun match)
 #
 [giornata_visibile]
-1::REAL S. ANDREA CONZA::AQUILONIA::2-3
-2::MORRA DE SANCTIS::CAPOSELE::rinv.
-3::VALLESACCARDA::CASABIANCHI TREVICO::1-1
-4::CASTEL BARONIA::CONZA::2-0
-5::SPORTING EVER GREEN::SPORTING CLUB NUSCO::1-2
-6::VIRTUS CONZA::TREVICO::np
+1::LA LONGOBARDA::CASTEL BARONIA::1-2
+2::SPORTING CLUB NUSCO::MORRA DE SANCTIS::2-2
+3::CAPOSELE::REAL S. ANDREA CONZA::10-1
+4::CONZA::SPORTING EVER GREEN::4-0
+5::TREVICO::VALLESACCARDA::2-3
+6::AQUILONIA::VIRTUS CONZA::2-1
 
 #
 # formato note_giornata_NN:  posizione_nota::testo_nota (ci possono essere piu' righe, una per ciascuna nota)
 #
 [note_giornata_visibile]
-1::Riposa: LA LONGOBARDA
+1::Riposa: CASABIANCHI TREVICO
 #2::eventuale ulteriore nota
 
 
@@ -138,24 +138,24 @@ Risultati 25<sup>a</sup> giornata (06/05/2007)
 # formato titolo_classifica_NN:  titolo_classifica
 #
 [dati_classifica_visibile]
-Classifica aggiornata al 06/05/2007
+Classifica FINALE
 
 #
 # formato classifica_NN:  posizione::squadra::punti::giocate::vinte::nulle::perse::reti_fatte::reti_subite::diff_reti::media_inglese
 #
 [classifica_visibile]
-1::AQUILONIA::63::23::21::0::2::69::24::45::18
-2::CAPOSELE::57::22::18::3::1::82::16::66::13
-3::REAL S. ANDREA CONZA::53::23::16::5::2::44::18::26::6
-4::SPORTING CLUB NUSCO::30::22::8::6::8::28::33::-5::-12
-5::CASTEL BARONIA::29::22::8::5::9::27::36::-9::-17
-6::CONZA::28::23::7::7::9::35::37::-2::-17
-7::VALLESACCARDA::28::23::7::7::9::31::40::-9::-19
-8::MORRA DE SANCTIS::24::22::7::3::12::29::37::-8::-20
-9::TREVICO::22::22::5::7::10::38::50::-12::-22
-10::LA LONGOBARDA (pen. 1pt)::21::23::6::4::13::33::45::-12::-23
-11::VIRTUS CONZA::20::22::5::5::12::18::38::-20::-24
+1::AQUILONIA::66::24::22::0::2::71::25::46::18
+2::CAPOSELE::63::24::20::3::1::95::17::78::15
+3::REAL S. ANDREA CONZA::53::24::16::5::3::45::28::17::5
+4::SPORTING CLUB NUSCO::34::24::9::7::8::33::37::-4::-14
+5::CASTEL BARONIA::32::24::9::5::10::31::40::-9::-16
+6::CONZA::31::24::8::7::9::39::37::2::-17
+7::VALLESACCARDA::31::24::8::7::9::34::42::-8::-17
+8::MORRA DE SANCTIS::25::24::7::4::13::31::42::-11::-23
+9::VIRTUS CONZA::23::24::6::5::13::22::40::-18::-25
+10::TREVICO::22::24::5::7::12::40::56::-16::-26
+11::LA LONGOBARDA (pen. 1 pt)::21::24::6::4::14::34::47::-13::-26
 12::CASABIANCHI TREVICO::19::24::4::7::13::22::42::-20::-27
-13::SPORTING EVER GREEN::13::23::2::7::14::24::59::-35::-34
+13::SPORTING EVER GREEN::13::24::2::7::15::24::63::-39::-35
 
 

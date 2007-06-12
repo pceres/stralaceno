@@ -12,6 +12,9 @@ FC_caposele::F.C. Caposele::L'album di famiglia della F.C. Caposele
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
+15::FC_caposele::24a,25a e 26a Gior.: sintesi::
+14::FC_caposele::20a,21a,22a e 23a Gior.: sintesi::
+13::FC_caposele::Real S.Andrea di Conza - F.C. Caposele 1-1::Massimo Cetrulo
 9::FC_caposele::Aquilonia - F.C. Caposele 2-1::
 10::FC_caposele::F.C. Caposele - Trevico 10-2::Massimo Cetrulo
 8::FC_caposele::Casabianchi Trevico - F.C. Caposele 1-6::Massimo Cetrulo

@@ -6,6 +6,7 @@
 # formato elenco_album:  tag_album::nome_album::descrizione
 #
 [elenco_album]
+Paestum_07::Paestum 2007::Corsa podistica "Sulle orme di Filippide" di 10 km del 05/05/2007
 All.Coll.06::Allenamento collettivo 2006::Il 30 dicembre 2006 si &egrave; tenuto l'allenamento collettivo, con 15 partecipanti
 Fontanarosa_06::Fontanarosa 2006::Corsa estiva di Fontanarosa 2006
 Nusco_06::Nusco 2006::10 km di Nusco 2006
@@ -17,6 +18,9 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
+27::homepage::Risultati elezioni comunali Caposele 27-28/05/07::
+25::homepage::III edizione "Sulle orme di Filippide"::
+24::homepage::Tre giri a Laceno::
 22::homepage::Maratona di Roma 2007::
 21::homepage::21&deg; Trofeo Brianzolo::
 18::homepage::Allenamento Collettivo 30.12.2006::

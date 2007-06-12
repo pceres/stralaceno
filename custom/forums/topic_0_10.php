@@ -19,6 +19,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 5::NICOLA M.::09/11/2006 11.14.20::visible
 6::Salvatore ::09/11/2006 18.34.26::visible
 7::NICOLA M.::10/11/2006 10.32.08::visible
+8::da Corriereirpinia.it::31/05/2007 13.04.00::visible
 
 [post_text_0]
 we allora, le polemiche sullo sport caposelese per ora sembra siano terminate. Abbiamo assistito ad uno bel dibattittio, coinvolgendo molte persone. Ma quello che sto cercando di dirvi e che se io posso cambiare e voi potete cambiare, tutto il mondo può cambiare. Questa era una frase tratta dal film di ROCKY, comununque con questo voglio dire che tutte le polemiche non sono mai servita a nulla, piuttosto bisogna cecare di essere quanto più uniti mettendo sul tavolo le proprie idee, ed allora a questo punto le cose potranno cambiare in modo positivo. tutto questo penso che sia la chiave di tutto.
@@ -46,4 +47,14 @@ Nicò a questo punto spostala al 25...
 
 [post_text_7]
 VA BENE LA GARA SARA' IL 25 SPERIAMO IN UNA PARTECIPAZIONE BUONA.
+
+[post_text_8]
+Maraini conquista Caposele: «possiamo cambiare la realtà»
+&nbsp;
+E’ un invito forte ai giovani quello lanciato dalla scrittrice Dacia Maraini nella sua tappa irpina di Caposele. Un invito ad avere il coraggio di «cambiare le realtà. Non rinchiudetevi nelle vostre solitudini. Apritevi al mondo». E’ al tempo stesso un monito forte rivolto agli adulti perchè anche loro pongano le basi di un rinnovamento radicale «Impegnamoci seriamente a cambiare questo mondo. Diamo ai giovani dei modelli, degli esempi che sono di vero impegno civile». Inevitabile il riferimento al proprio padre «Mio padre ha sempre rappresentato per me un grande esempio di libertà. Educava alla responsabilità».
+Ma è stata anche l’occasione per confrontarsi sul momento delicato che sta vivendo la scuola: «Sempre meno risorse a favore di insegnanti e progetti. Sempre più scuole che cadono a pezzi. Ma non dovrebbe essere questo settore uno dei prioritari perché si occupa della crescita dei giovani?». Non accetta i bavagli la Maraini e lo dimostra a ogni passaggio, raccontando innanzitutto quel mistero chiamato letteratura «I romanzi illuminano l’inconscio – ha affermato Maraini che proseguendo ha aggiunto – mentre i libri di attualità illuminano il conscio». Con la convinzione che non si può scrivere senza «passione. Ci può essere anche il talento ma se non c’è la passione nulla si realizza». Quindi, il richiamo al mancato sviluppo del Sud, a quelle tante promesse e illusioni mai divenute realtà e l’appello a ripartire dalla cultura
+«Perché la cultura – ha replicato la Maraini – significa creare occasioni per pensare il nostro futuro, vivendo meglio il nostro presente. Per questo motivo dobbiamo rigettare l’omologazione a cui questa realtà ci costringe. Si è persa la voglia di sperimentare e usare la scrittura come atto di coraggio».
+Quindi il ringraziamento a Caposele e insieme all’Irpinia per il calore ricevuto «Ho accettato di venire qui perché amo i piccoli paesi, amo i luoghi che non conosco, amo confrontarmi. Incontrare le persone faccia e faccia è sempre una cosa utile. Viaggiare, parlare. Dai qualcosa e ricevi qualcosa».
+(31.05.2007)
+&nbsp;
 

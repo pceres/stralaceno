@@ -43,6 +43,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 29::info::03/05/2007 10.24.00::visible
 30::info::04/05/2007 10.06.46::visible
 31::info::10/05/2007 10.36.17::visible
+32::info::04/06/2007 10.15.16::visible
 
 [post_text_0]
 Qui aspettiamo i vostri commenti alle vicende calcistiche della F.C. Caposele.
@@ -165,4 +166,7 @@ Aggiornata la classifica con le gare del 29 aprile.
 
 [post_text_31]
 Aggiornata la classifica con le gare del 6 maggio.
+
+[post_text_32]
+Inserite -nell'apposita sezione- nuove foto e la sintesi delle ultime tre giornte di campionato.
 

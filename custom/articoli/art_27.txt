@@ -1,0 +1,137 @@
+Autore::
+Titolo::Risultati elezioni comunali Caposele 27-28/05/07
+--- Begin body ---
+<br>
+Pubblichiamo in formato digitale i dati in oggetto, pervenutici in forma cartacea:<br>
+<br>
+<div align="center" style="font-size:1.33em;">
+<table align="center" class="tabella">
+<tbody><tr><td><table>
+<thead>
+<tr>
+<th>Risultati</th>
+<th>Votanti</th>
+<th>Arcobaleno</th>
+<th>Bianche</th>
+<th>Nulle</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&nbsp;1<sup>a</sup> sezione&nbsp;&nbsp;&nbsp;</td>
+<td>346</td><td>333</td><td>11</td><td>2</td>
+</tr>
+<tr>
+<td>&nbsp;2<sup>a</sup> sezione&nbsp;&nbsp;&nbsp;</td>
+<td>485</td><td>460</td><td>16</td><td>9</td>
+</tr>
+<tr>
+<td>&nbsp;3<sup>a</sup> sezione&nbsp;&nbsp;&nbsp;</td>
+<td>385</td><td>368</td><td>7</td><td>10</td>
+</tr>
+<tr>
+<td>&nbsp;4<sup>a</sup> sezione&nbsp;&nbsp;&nbsp;</td>
+<td>97</td><td>91</td><td>4</td><td>2</td>
+</tr>
+<tr>
+<td>&nbsp;Totale</td>
+<td>1313</td><td>1252</td><td>38</td><td>23</td>
+</tr>
+</tbody>
+</table></td></tr></tbody>
+</table>
+</div>
+<br>
+<br>
+<div align="center" style="font-size:1.33em;">
+<table align="center" class="tabella">
+<tbody><tr><td><table>
+<caption>Preferenze dei candidati dell'Arcobaleno:</caption>
+<thead>
+<tr>
+<th>Sezioni</th>
+<th>&nbsp;1<sup>a</sup>&nbsp;</th>
+<th>&nbsp;2<sup>a</sup>&nbsp;</th>
+<th>&nbsp;3<sup>a</sup>&nbsp;</th>
+<th>&nbsp;4<sup>a</sup>&nbsp;</th>
+<th>Totale</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Voti in testa</td>
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>301</td>
+</tr>
+<tr>
+<td>Lorenzo Melillo</td>
+<td>32</td><td>73</td><td>43</td><td>2</td><td>150</td>
+</tr>
+<tr>
+<td>Pietro Cetrulo</td>
+<td>41</td><td>35</td><td>24</td><td>5</td><td>105</td>
+</tr>
+<tr>
+<td>Vincenzo Zanca</td>
+<td>20</td><td>24</td><td>45</td><td>0</td><td>89</td>
+</tr>
+<tr>
+<td>Giovanni Cetrulo</td>
+<td>5</td><td>33</td><td>25</td><td>6</td><td>69</td>
+</tr>
+<tr>
+<td>Rocco Merola</td>
+<td>27</td><td>25</td><td>17</td><td>0</td><td>69</td>
+</tr>
+<tr>
+<td>Raffaele Grasso</td>
+<td>7</td><td>4</td><td>9</td><td>48</td><td>68</td>
+</tr>
+<tr>
+<td>Ettore G. Spatola</td>
+<td>27</td><td>8</td><td>23</td><td>3</td><td>61</td>
+</tr>
+<tr>
+<td>Michele Notaro</td>
+<td>12</td><td>20</td><td>25</td><td>1</td><td>58</td>
+</tr>
+<tr>
+<td>Donato Merola</td>
+<td>15</td><td>28</td><td>7</td><td>0</td><td>50</td>
+</tr>
+<tr>
+<td>Gerardina D'Alessio</td>
+<td>11</td><td>32</td><td>6</td><td>0</td><td>49</td>
+</tr>
+<tr>
+<td>Franco Cibellis</td>
+<td>9</td><td>17</td><td>20</td><td>0</td><td>46</td>
+</tr>
+<tr>
+<td>Rocco Russomanno 1947&nbsp;</td>
+<td>19</td><td>12</td><td>6</td><td>1</td><td>38</td>
+</tr>
+<tr>
+<td>Maria Rosaria Ceres</td>
+<td>2</td><td>21</td><td>9</td><td>0</td><td>32</td>
+</tr>
+<tr>
+<td>Antonietta Colatrella</td>
+<td>10</td><td>10</td><td>11</td><td>0</td><td>31</td>
+</tr>
+<tr>
+<td>Gaetano Grasso</td>
+<td>0</td><td>5</td><td>9</td><td>5</td><td>19</td>
+</tr>
+<tr>
+<td>Rocco Russomanno 1953</td>
+<td>7</td><td>6</td><td>3</td><td>1</td><td>17</td>
+</tr>
+<tr>
+<td>Totale voti</td>
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>1252</td>
+</tr>
+</tbody>
+</table></td></tr></tbody>
+</table>
+</div>
+--- End body ---

@@ -1,0 +1,21 @@
+Autore::
+Titolo::III edizione "Sulle orme di Filippide"
+--- Begin body ---
+<br>Nell'incantevole scenario degli scavi di Paestum il 5 maggio 2007 si &egrave; tenuta
+la terza edizione della gara podistica "Sulle orme di Filippide".<br><br>
+Poco meno di 500 gli atleti che hanno portato a termine i 10 km previsti, tra questi anche 4 rappresentanti dell'ARS: Francesco Ceres, Alessandro Russomanno, Salvatore Merola
+e Paolo Viscardi.<br>
+Il circuito di 5 km (da ripetere
+per due volte) quasi interamente pianeggiante, con partenza all'ingresso degli scavi, si &egrave; sviluppato intorno alle mura della citt&agrave; antica.<br>
+Uno spettacolo suggestivo per gli atleti che al tramonto si sono 
+trovati a correre e ad ammirare i templi e le antiche rovine,
+applauditi dai turisti che affollavano la zona.<br>
+<br>
+<div align="center">
+<img id="fotoAllenamentoCollettivo" src="%file_root%custom/album/Paestum_07/pae4.jpg" alt="" border="0" width="430">
+<br>
+</div>
+<br>
+Le foto della gara sono disponibili <a href="%file_root%album.php?anno=Paestum_07">qui</a>
+<br><br>
+--- End body ---
