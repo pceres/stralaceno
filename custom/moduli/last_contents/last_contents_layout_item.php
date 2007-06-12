@@ -4,6 +4,7 @@
 input impliciti:
 
 $last_contents_num_items 	: numero di elementi da visualizzare
+$layout_data			: dati per i blocchi di layout
 
 */
 
@@ -47,13 +48,14 @@ if ($standalone)
 <?php
 // inizio blocco core del modulo
 
-require_once($relative_path.'last_contents_lib.php');
+require_once($relative_path.'last_contents_lib.php');	// gestione ultimi contenuti
 
-$feed = read_last_contents();
+$login = $layout_data['user'];	// dati di autenticazione
+$feed = read_last_contents($login);
 publish_layout_item($feed,$module_name,$relative_path,$last_contents_num_items);
 
 ?>
-			
+
 
 <?php
 if ($standalone)
