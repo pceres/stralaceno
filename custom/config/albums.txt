@@ -151,7 +151,18 @@ fc34.jpg::::::Giuseppe Liloia
 fc35.jpg::::::Simone Galdi
 fc36.jpg::::::Benito Sista
 fc37.jpg::::::Alessio Zarra
-
+FC_1.jpg::::aprile 2007
+FC_2.jpg::::aprile 2007
+FC_3.jpg::::aprile 2007
+FC_4.jpg::::aprile 2007
+FC_5.jpg::::aprile 2007
+FC_6.jpg::::aprile 2007
+FC_7.jpg::::FC Caposele - Real S.Andrea Conza (13/05/2007)
+FC_8.jpg::::FC Caposele - Real S.Andrea Conza (13/05/2007)
+FC_9.jpg::::FC Caposele - Real S.Andrea Conza (13/05/2007)
+FC_10.jpg::::FC Caposele - Real S.Andrea Conza (13/05/2007)
+FC_11.jpg::::FC Caposele - Real S.Andrea Conza (13/05/2007)
+FC_12.jpg::::FC Caposele - Real S.Andrea Conza (13/05/2007)
 
 [Roma_07]
 MR1.jpg:::: Alessandro, Paolo ed alle loro spalle il colosseo::Alessandro, Paolo
@@ -168,3 +179,22 @@ MR7.jpg:::: Eccoli, con le residue energie rimaste si concedono un ultimo scatto
 Parco_Picentini.jpg::Parco dei Monti Picentini::Vista d'insieme::
 Parco_Picentini_zoom_Caposele.jpg::Parco dei Monti Picentini::zoom comune di Caposele (centro abitato in zona C, zona adiacente in zona B)
 Parco_Picentini_zoom_Caposele_2.jpg::Parco dei Monti Picentini::zoom centro abitato Caposele
+tk2007_1.jpg::
+tk2007_2.jpg::
+tk2007_3.jpg:: 
+tk2007_4.jpg:: 
+tk2007_5.jpg:: 
+tk2007_6.jpg:: 
+tk2007_7.jpg:: 
+tk2007_8.jpg:: 
+
+[Paestum_07]
+pae0.jpg::
+pae9.jpg::
+pae1.jpg:: 
+pae2.jpg::
+pae3.jpg::
+pae5.jpg::
+pae6.jpg::
+pae7.jpg::
+pae4.jpg::::::Francesco Ceres, Alessandro Russomanno, Salvatore Merola e Paolo Viscardi
