@@ -87,15 +87,18 @@ $indici_question = array(
 $indice_cfgfile_name = 0;	// filename (senza path) del file di configurazione
 $indice_cfgfile_folder = 1;	// cartella contenente il file
 $indice_cfgfile_caption = 2;	// descrizione del file
-$indice_cfgfile_groups = 3;	// gruppi che hanno accesso al file
-$indice_cfgfile_password = 4;	// password per la modifica (md5)
-$indice_cfgfile_link = 5;	// link al modulo o alla pagina di presentazione dei dati
-$indice_cfgfile_logdir = 6;	// folder del logfile something_changed.txt
+$indice_cfgfile_write_groups = 3;// gruppi che hanno accesso in scrittura al file
+$indice_cfgfile_read_groups = 4;// gruppi che hanno accesso in scrittura al file
+$indice_cfgfile_password = 5;	// password per la modifica (md5)
+$indice_cfgfile_link = 6;	// link al modulo o alla pagina di presentazione dei dati
+$indice_cfgfile_logdir = 7;	// folder del logfile something_changed.txt
 
 
 $indici_cfgfile = array(
-'indice_cfgfile_name' => $indice_cfgfile_name,'indice_cfgfile_caption' => $indice_cfgfile_caption,'indice_cfgfile_folder' => $indice_cfgfile_folder,
-'indice_cfgfile_groups' => $indice_cfgfile_groups,'indice_cfgfile_password' => $indice_cfgfile_password,'indice_cfgfile_link' => $indice_cfgfile_link,'indice_cfgfile_logdir' => $indice_cfgfile_logdir);
+'indice_cfgfile_name' => $indice_cfgfile_name,'indice_cfgfile_folder' => $indice_cfgfile_folder,
+'indice_cfgfile_caption' => $indice_cfgfile_caption,'indice_cfgfile_write_groups' => $indice_cfgfile_write_groups,
+'indice_cfgfile_read_groups' => $indice_cfgfile_read_groups,'indice_cfgfile_password' => $indice_cfgfile_password,
+'indice_cfgfile_link' => $indice_cfgfile_link,'indice_cfgfile_logdir' => $indice_cfgfile_logdir);
 
 
 
@@ -208,10 +211,11 @@ $filename_links			= $config_dir."links.txt";
 $filename_albums		= $config_dir."albums.txt";
 $filename_users			= $config_dir."users.php";	// l'estensione e' php in modo che la richiesta della pagina non permetta comunque di visualizzare i dati
 $filename_challenge		= $config_dir."challenge.php";	// l'estensione e' php in modo che la richiesta della pagina non permetta comunque di visualizzare i dati
-$filename_layout_left		= $config_dir.'layout_left.txt';
-$filename_layout_right		= $config_dir.'layout_right.txt';
-$filename_header		= $root_path.'custom/templates/header.php';
+$filename_layout_left		= $config_dir."layout_left.txt";
+$filename_layout_right		= $config_dir."layout_right.txt";
+$filename_header		= $root_path."custom/templates/header.php";
 $filename_logfile_content	= $filedir_counter."log_contents.php";
+$filename_download		= $config_dir."download_cfg.php";
 
 
 # personalizzazione nomi di file in base alla sezione
@@ -269,7 +273,8 @@ $filenames = array('filename_css' => $filename_css,'filename_cfgfile' => $filena
 	'filename_atleti' => $filename_atleti,'filename_organizzatori' => $filename_organizzatori,'filedir_counter' => $filedir_counter,
 	'articles_dir' => $articles_dir,'article_online_file' => $article_online_file,'filename_links' => $filename_links,
 	'filename_albums' => $filename_albums,'filename_users'=>$filename_users,'filename_challenge'=>$filename_challenge,
-	'filename_layout_left' => $filename_layout_left, 'filename_layout_right' => $filename_layout_right, 'filename_header' => $filename_header,'filename_logfile_content' => $filename_logfile_content);
+	'filename_layout_left' => $filename_layout_left, 'filename_layout_right' => $filename_layout_right, 'filename_header' => $filename_header,'filename_logfile_content' => $filename_logfile_content,
+	'filename_download' => $filename_download);
 $pathnames = array('root_prefix' => $root_prefix,'root_path' => $root_path,'site_abs_path' => $site_abs_path,
 	'script_abs_path' => $script_abs_path,'modules_site_path' => $modules_site_path,'modules_dir' => $modules_dir,
 	'config_dir' => $config_dir,'album_dir' => $album_dir,'questions_dir' => $questions_dir);
@@ -1389,14 +1394,22 @@ function save_config_file($conf_file,$keys)
 	}
 	
 	$acapo = "\r\n";
+	$first_block = 1;
 	foreach ($keys as $block_name => $block_item)
 	{
+		// se e' gia' stato scritto un blocco, inserisci una riga vuota per distanziarlo dal successivo
+		if (!$first_block)
+		{
+			fwrite($cf, $acapo);
+		}
+		
 		if ($block_name !== 'default')
 		{
 			$line = "[$block_name]$acapo";
 			fwrite($cf, $line);
 		}
 		
+		$first_block = 0;
 		foreach($block_item as $riga)
 		{
 			foreach ($riga as $id => $riga_item)
@@ -1410,8 +1423,6 @@ function save_config_file($conf_file,$keys)
 			
 			fwrite($cf, $acapo);
 		}
-		
-		fwrite($cf, $acapo);
 	}
 	
 	fclose($cf);
@@ -1973,22 +1984,74 @@ extract(indici());
 
 $logfile = $filename_logfile_content;	// file di log dei nuovi contenuti
 
-$log=      $content_type;
-$log.='::'.$item['title'];
-$log.='::'.$item['description'];
-$log.='::'.$item['link'];
-$log.='::'.$item['guid'];
-$log.='::'.$item['category'];
-$log.='::'.$item['pubDate'];
-$log.='::'.$item['author'];
-$log.='::'.$item['username']."\r\n";
+$max_deltaTime = (60*60*24)*30;	// numero di giorni (in secondi) per i quali si conserva il log, oppure...
+$hyst_deltaTime = (60*60*24)*5;	// isteresi sull'anzianita dei log
+$max_num_contents = 250;	// ...numero minimo di contenuti singoli
+$hyst_num_contents = 50;	// isteresi sul numero di righe
 
-//append current visit to log file
-$cf = fopen($logfile, 'a');
-if ($cf)
+//append current visit to log file, if it exists
+if (file_exists($logfile))
 {
-	fwrite($cf, $log);
-	fclose($cf);
+	// carica il file di log dei nuovi contenuti
+	$log_contents = get_config_file($logfile);
+	$log_contents = $log_contents['default'];
+	
+	// nuovo log
+	$new_log = Array(
+		$content_type,
+		strip_tags($item['title']),
+		$item['description'],
+		$item['link'],
+		strip_tags($item['guid']),
+		$item['category'],
+		$item['pubDate'],
+		$item['author'],
+		$item['username'],
+		$item['read_allowed']
+	);
+	$index_item_pubDate = 6; // indice di pubDate in $item;
+	
+	// aggiungi ultimo contenuto
+	array_push($log_contents,$new_log);
+	
+	// analizza i dati del logfile
+	$last_pubDate = strtotime($item['pubDate']);	// data ultimo contenuto pubblicato
+	$ks_last_pubDate = date('D, j M Y G:i:s',$last_pubDate);
+	
+	$latest_pubDate = strtotime($log_contents[0][$index_item_pubDate]); 	// data contenuto piu' vecchio nel log
+	$ks_latest_pubDate = date('D, j M Y G:i:s',$latest_pubDate);
+	
+	$oldest_deltaTime = $last_pubDate-$latest_pubDate;			// anzianita' del contenuto piu' vecchio
+	 
+	$num_contents = count($log_contents);		// numero di contenuti nel log
+	
+	if ( ($oldest_deltaTime > $max_deltaTime+$hyst_deltaTime) | ($num_contents > $max_num_contents+$hyst_num_contents) )
+	{
+		// E' necessario filtrare!
+		
+		// individua i contenuti da eliminare
+		$log_contents_filtered = Array();
+		foreach($log_contents as $id => $content)
+		{
+			$pubDate = strtotime($content[$index_item_pubDate]); // pubDate
+			$ks_pubDate = date('D, j M Y G:i:s',$pubDate);
+			$deltaTime = $last_pubDate-$pubDate;
+			
+			if ( ($deltaTime < $max_deltaTime) & ($num_contents-$id-1 < $max_num_contents) )
+			{
+				array_push($log_contents_filtered,$content);
+			}
+		}
+	}
+	else
+	{
+		// Non e' necessario filtrare.
+		$log_contents_filtered = $log_contents;
+	}
+	
+	// scrivi il file di log
+	$log_contents0 = Array('default' => $log_contents_filtered);
+	save_config_file($logfile,$log_contents0);
 }
 else
 {
