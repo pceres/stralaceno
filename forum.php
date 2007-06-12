@@ -1214,6 +1214,7 @@ save_config_file($file_templog,$templog);
 			$item['pubDate'] 	= gmdate('D, j M Y G:i:s +0000',strtotime($date_unix));
 			$item['author'] 	= $post_author;
 			$item['username']	= $username;
+			$item['read_allowed']	= $topics['elenco_topics'][$topic_id][$indice_topic_read_groups];	// everyone allowed to see the feed
 			
 			log_new_content('forum',$item);
 		}
