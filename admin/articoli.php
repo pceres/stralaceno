@@ -405,7 +405,7 @@ $id = max($art_id)+1; // determina il primo id disponibile
 $art_filename = "art_$id.txt";
 ?>
 <form name="form_upload" enctype="multipart/form-data" action="upload_article.php" method="post" onSubmit="cripta_campo_del_form(this,'password')">
-	<input type="hidden" name="MAX_FILE_SIZE" value="30000">
+	<input type="hidden" name="MAX_FILE_SIZE" value="100000">
 	<input name="section" value="<?php echo $sezione; ?>" type="hidden">
 	<input type="hidden" name="id_articolo" value="<?php echo $id; ?>">
 <?php echo "\t<input type=\"hidden\" name=\"filename\" value=\"$art_filename\">\n"; ?>
