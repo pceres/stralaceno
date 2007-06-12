@@ -33,7 +33,7 @@ Liverpool
 # Qualificato finale 2:
 Milan
 # Vincitore:
-nd
+Milan
 
 #
 # Le risposte sono suddivise in gruppi. Per ciascun gruppo esiste un set di risposte piu' o meno corrette
@@ -58,10 +58,10 @@ Lione::4,0
 Real Madrid::4,1
 Bayern Monaco::4,3;3,0
 Celtic Glasgow::4,0
-Milan::4,4;3,4;2,4
+Milan::4,4;3,4;2,4;1,4
 Lilla::4,0
 Manchester United::4,4;3,4;2,0
 Barcellona::4,1
-Liverpool::4,3;3,4;2,2
+Liverpool::4,3;3,4;2,2;1,0
 Inter::4,1
 Valencia::4,3;3,0
