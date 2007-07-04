@@ -6,6 +6,8 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+02/07/2007::Partecipanti alla X edizione della gara podistica "marcialonga in salita Mercogliano - Montevergine" di km.16,5 a Mercogliano (Av): Francesco Ceres, Salvatore Merola, Paolo Viscardi, Alessandro Russomanno.
+18/06/2007::Partecipanti alla III edizione della gara podistica "notturna sianese" di km.10 a Siano (Sa): Francesco Ceres, Salvatore Merola, Alessandro Russomanno, Paolo Viscardi, Donatello Cirillo. Accompagnatore: Luciano Viscido.
 04/06/2007::L'edizione 2007 della Stralaceno si disputer&agrave; il 31 agosto.
 01/06/2007::Il nostro socio Paolo Viscardi entra a far parte del Cus Salerno. In bocca al lupo!
 08/05/2007::Partecipanti alla III edizione della gara podistica "Sulle orme di Filippide" di km.10 a Paestum: Alessandro Russomanno, Salvatore Merola, Francesco Ceres, Paolo Viscardi. Accompagnatore: Gelsomino Merola.
@@ -44,4 +46,4 @@
 # formato testo_footer:  testo
 #
 [testo_footer]
-Ultimo aggiornamento effettuato il 08/05/2007
+#Ultimo aggiornamento effettuato il ../../....

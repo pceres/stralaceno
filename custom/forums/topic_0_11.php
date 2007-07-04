@@ -22,6 +22,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 8::Salvatore::08/05/2007 19.16.10::visible
 9::Donato Gervasio::09/05/2007 12.22.45::visible
 10::ciclismo::15/05/2007 14.57.30::visible
+11::ciclismo::15/06/2007 20.21.16::visible
 
 [post_text_0]
 Cari amici di ArsWeb,
@@ -62,3 +63,5 @@ C'è da ricordare che il Giro 2006 Basso l'ha vinto con oltre 9 minuti di vantagg
 [post_text_10]
 Inserito nuovo articolo
 
+[post_text_11]
+Inserito nuovo articolo nella sezione ciclismo

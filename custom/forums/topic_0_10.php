@@ -20,6 +20,8 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 6::Salvatore ::09/11/2006 18.34.26::visible
 7::NICOLA M.::10/11/2006 10.32.08::visible
 8::da Corriereirpinia.it::31/05/2007 13.04.00::visible
+9::da Irpinianews.it::25/06/2007 10.17.42::visible
+10::da Il Mattino::25/06/2007 14.11.47::visible
 
 [post_text_0]
 we allora, le polemiche sullo sport caposelese per ora sembra siano terminate. Abbiamo assistito ad uno bel dibattittio, coinvolgendo molte persone. Ma quello che sto cercando di dirvi e che se io posso cambiare e voi potete cambiare, tutto il mondo può cambiare. Questa era una frase tratta dal film di ROCKY, comununque con questo voglio dire che tutte le polemiche non sono mai servita a nulla, piuttosto bisogna cecare di essere quanto più uniti mettendo sul tavolo le proprie idee, ed allora a questo punto le cose potranno cambiare in modo positivo. tutto questo penso che sia la chiave di tutto.
@@ -58,3 +60,15 @@ Quindi il ringraziamento a Caposele e insieme all’Irpinia per il calore ricevuto
 (31.05.2007)
 &nbsp;
 
+[post_text_9]
+Cronaca- Tragedia a Caposele muore giovane centauro di 31 anni
+&nbsp;
+Tragedia a Caposele, un giovane operaio C.R. di 31 anni, mentre era a bordo del proprio motociclo Cagiva 125 ne perdeva il controllo impattando contro un muro perimetrale adiacente la strada. I carabinieri della stazione di Calabritto sono prontamente intervenuti sul posto e, verificate le gravi condizioni dell’uomo, hanno attivato immediatamente i soccorsi facendo intervenire personale del 118 che, a mezzo di un’autoambulanza,  trasportava il ferito presso l’Ospedale di Oliveto Citra  dove decedeva dopo esservi giunto a causa dei numerosi traumi riportati. Sono in corso indagini tese a chiarire la dinamica dell’evento. Purtroppo nemmeno il casco indossato dal centauro ha potuto salvarlo dalla tragica fatalità.
+(domenica 24 giugno 2007 alle 22.51)
+
+[post_text_10]
+Si schianta in moto, muore operaio
+&nbsp;
+Un malore o una distrazione alla base dell’incidente. Il centauro è finito con violenza contro un muro perimetrale
+&nbsp;
+Caposele. Tragedia mortale nel tardo pomeriggio di ieri, nei pressi dello svincolo di Materdomini, la frazione di Caposele, sulla vecchia strada che porta a Teora. Ha perso la vita Rocco Colatrella, un carpentiere di 31 anni, di Caposele, sposato, con due figli in tenera età. Pur indossando il casco, è stato fatale al giovane lo schianto contro un muro che delimitava la strada, dopo aver perso il controllo del proprio motociclo Cagiva 125, a bordo del quale stava viaggiando. I carabinieri della stazione di Calabritto e della compagnia di Montella, al comando del capitano Luigi Saccone, sono prontamente intervenuti sul posto e, verificate le gravi condizioni dell’uomo, hanno attivato immediatamente i soccorsi facendo intervenire personale del 118. Il ragazzo è stato caricato a bordo di un’autoambulanza e trasportato presso l’ospedale di Oliveto Citra, dove decedeva poco dopo. Gli sono stati fatali i numerosi traumi e lesioni interne riportati nell’impatto. Sulla dinamica dell’incidente sono in corso le indagini dei carabinieri, soprattutto per appurare se ci siano state altre responsabilità. Rocco era un giovane di una famiglia numerosa della località Pasano di Caposele. Un lavoratore, ben voluto da parenti ed amici, ma ha pagato con la vita la sua passione per le due ruote. E dolore e cordoglio a Caposele: alla mente di tutti è tornata la drammatica circostanza dell’incidente avvenuto sulla Fondovalle Sele, a circa 500 metri in linea d’aria da dove è morto Colatrella, nel quale persero la vita quattro giovani del paese. 25/06/2007

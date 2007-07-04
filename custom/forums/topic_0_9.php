@@ -91,6 +91,21 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 77::Ale::07/06/2007 11.48.27::visible
 78::Salvatore::08/06/2007 21.35.51::visible
 79::Ars::11/06/2007 12.37.31::visible
+80::fonzo::13/06/2007 14.07.19::visible
+81::Salvatore::14/06/2007 13.56.12::visible
+82::Angelo::20/06/2007 13.01.32::visible
+83::Ale::20/06/2007 14.59.10::visible
+84::Angelo::20/06/2007 16.40.08::visible
+85::paolo::20/06/2007 21.27.34::visible
+86::Salvatore::20/06/2007 22.14.54::visible
+87::Ale::21/06/2007 10.10.40::visible
+88::paolo::21/06/2007 23.45.28::visible
+89::paolo::23/06/2007 22.12.12::visible
+90::paolo::23/06/2007 22.15.22::visible
+91::paolo::25/06/2007 12.55.56::visible
+92::Salvatore::25/06/2007 20.46.56::visible
+93::Ale::26/06/2007 10.26.34::visible
+94::Salvatore::26/06/2007 11.36.00::visible
 
 [post_text_0]
 Fermate Nicola Melillo con questa stralaceno: anche i muri di materdomini e caposele non ne possono più.
@@ -476,3 +491,80 @@ Oggi pomeriggio mi ha chiamato Trotta per dirmi che domani c'è una gara vicino P
 [post_text_79]
 Il 16 giugno si va a Siano (Sa) per la III notturna sianese, corsa podistica di 10 km. Chi è interesato si rivolga ai componenti dell'Amatori Running Sele.
 
+[post_text_80]
+mi stò allenando alla grande e alla prossima stralaceno e corsa dei tre campanili batterò tutti i caposelesi. Siete dei bacucchi
+
+[post_text_81]
+Tanti auguri di buon compleanno al nostro Presidente Nicola D'Auria e al nostro socio Paolo Viscardi che oggi compiono gli anni....ciao
+
+[post_text_82]
+Per Alex
+Come va a Roma? La temperatura è sopportabile? Il ritorno a Caposele quando è previsto?
+
+[post_text_83]
+x Angelo
+Temperatura alta ma non altissima...
+Sarei orientato per rimanere qui questo fine settimana...
+Hai partecipato alla sfilata dei lupi?
+&nbsp;
+ciao
+
+[post_text_84]
+Per Alex
+Non ho partecipato alla sfilata. Dai le condoglianze al tuo amico foggiano.
+
+[post_text_85]
+x Alex e Salvatore
+ciao ragazzi come va?
+oggi ho finalmente ripreso gli allenamenti dopo quasi 20 giorni.Ho fatto una quarantina di minuti a ritmo non molto alto; cmq avevo quasi dimenticato quanto di bello ha la corsa, pur essendo da solo mi sono divertito un sacco, scaricando tutta la tensione accumulata in questi giorni!!!
+&nbsp;
+Salvatò in bocca al lupo per gli esami
+Un saluto a presto!
+&nbsp;
+
+[post_text_86]
+Ciao Paolo hai visto come è bella la corsa...io sono andato a laceno con nicola melillo...abbiamo fatto due giri...l'ultimo nonostante stavo molto stanco l'ho fatto molto veloce...tra sabato e oggi ho fatto qualcosa come 30 km; ora mi sa che mi riposo due giorni per riprendere sabato. Un saluto anche ad Alessandro...ciao ragà
+
+[post_text_87]
+x Salv. e Paolo
+&nbsp;
+Bene, continuate ad allenarvi, il momento cruciale della stagione podistica sta per arrivare...
+ciao
+&nbsp;
+&nbsp;
+x Angelo
+&nbsp;
+il foggiano non si rassegna... Spera nelle disgrazie economico finanziarie altrui...
+
+[post_text_88]
+x Salvatore
+caro, io torno domani sera, quindi potremmo fare qualcosa assieme sabato o domenica. Tanto ormai sto riprendendo la forma!
+ok allora a presto. ciao ciao
+
+[post_text_89]
+x salvatore
+ciao,allora com'è andata? scusami tanto se non sono potuto venire oggi pomeriggio, ma ti ho spiegato le ragioni.
+We allora ci vediamo alla prox, tanto io forse la settimana prox starò un pò qua!!
+ciao.
+un saluto anche ad Alex!!!
+
+[post_text_90]
+scusamiho sbagliato il verbo hihihi
+non ho potuto venire.
+
+[post_text_91]
+ricorreggo: "sono potuto"
+
+[post_text_92]
+X Alessandro e Paolo
+&nbsp;
+che ne dite per la gara di sabato a mercogliano...? ieri ho parlato con Gelsomino e mi ha detto che non ci sono assolutamente conseguenze negative se la facciamo...decidiamo...ciao
+&nbsp;
+
+[post_text_93]
+Aspettiamo la risposta di Paolo... Sono indeciso...
+
+[post_text_94]
+X Alessandro
+&nbsp;
+Paolo sembra essere d'accordo...lui comunque stasera torna così possiamo tranquillamente decidere...io intantmo mi informo un pò sull'orario della gara etc...ciao

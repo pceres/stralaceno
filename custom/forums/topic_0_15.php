@@ -79,6 +79,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 65::Politica::31/05/2007 10.26.26::visible
 66::Pasquale C.::31/05/2007 18.28.56::visible
 67::da irpinianews.it::04/06/2007 11.05.48::visible
+68::da CorriereIrpinia.it::22/06/2007 10.32.01::visible
 
 [post_text_0]
 Riceviamo da CLEON.REN e pubblichiamo:
@@ -587,3 +588,14 @@ Alle elezioni è giunta, così, soltanto una lista "L'Arcobaleno", capeggiata da G
 (venerdì 1 giugno 2007 alle 17.05)
 &nbsp;
 
+[post_text_68]
+I primi venti giorni del Commissario. Monteverde: ecco quali sono le priorità
+&nbsp;
+CAPOSELE - «Penso che sia ancora troppo presto per dare un giudizio, ma il commissario mi ha assicurato che le cose iniziate dalla nostra amministrazione saranno portate a termine. Amabile lavorerà in questa direzione, ha preso un impegno preciso». Le rassicurazioni sono del sindaco uscente Gerardo Monteverde che nei giorni scorsi si è confrontato con il Commissario Prefettizio sulle pratiche che il Comune ha portato avanti negli ultimi mesi.
+Tra le maggiori opere pubbliche in itinere ci sono i lavori del Parco Fluviale del Sele che dovrebbe partire a breve.
+Poi c’è la questione relativa al ponte Tredogge: dopo una serie di rallentamenti dovuti alla rottura con la ditta appaltatrice, si è proceduto a rifare la gara d’appalto. Anche in questo caso, l’iter è avanzato e presto si darà il via libera all’infrastruttura che collega il centro urbano con la salita per Materdomini.
+Altra priorità è l’edilizia residenziale. Si tratta dello sbaraccamento dei container di contrada “Piani” e “San Giovanni”. Nelle due zone, una situata in periferia del centro abitato di Caposele, l’altra a metà strada tra il comune capoluogo e Materdomini è prevista la realizzazione di alloggi popolari previsti dal Piano per l’Edilizia Popolare avanzato con l’amministrazione Melillo.
+Infine, altri due progetti riguardano la costruzione del secondo lotto per il centro fieristico di contrada “Caselle” a Materdomini per cui manca ancora la copertura finanziaria; e la realizzazione dei parcheggi in zona Lavanghe (35-40 posti), e l’altro di fronte alla banca (4 posti).
+Intanto Amabile ha provveduto alla nomina dei dirigenti di settore che in questa fase avranno un ruolo determinante poichè il Commissario raggiunge Caposele solo due volte alla settimana.
+Le nomine sono le seguenti: Frannicola alla 219, urbanistica e patrimonio, Luongo ai lavori pubblici, Aiello alla vigilanza, Melillo al settore amministrativo, Malanga alla ragioneria e i tributi.
+22/06/2007
