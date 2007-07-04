@@ -1,0 +1,25 @@
+Autore::
+Titolo::X edizione Mercogliano - Montevergine
+--- Begin body ---
+<br>
+Il 30 giugno 2007 si &egrave; disputata la X edizione della Marcialonga in salita Mercogliano - Montevergine.<br>
+La partenza ai 518 metri s.l.m. di Mercogliano, l'arrivo, dopo 16,5 km, al santuario di Montevergine 
+a quota 1270 metri s.l.m.
+<br><br>
+<div align="center">
+<img id="fotoAllenamentoCollettivo" src="%file_root%custom/album/Mercogliano_07/mon3.jpg" alt="" border="0" width="410">
+<br>
+<br>
+</div>
+Gli atleti che hanno portato regolarmente a termine la gara sono stati 294, tra questi anche 4 componenti dell'Amatori Running Sele: Francesco Ceres,
+Salvatore Merola, Paolo Viscardi e Alessandro Russomanno.<br>
+<br>
+<div align="center">
+<img id="fotoAllenamentoCollettivo" src="%file_root%custom/album/Mercogliano_07/mon7.jpg" alt="" border="0" width="410">
+<br>
+<br>
+</div>
+<br>
+Le foto della gara sono disponibili <a href="%file_root%album.php?anno=Mercogliano_07">qui</a>
+<br><br>
+--- End body ---
