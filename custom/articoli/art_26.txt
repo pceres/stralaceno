@@ -1,5 +1,5 @@
 Autore::Ars
-Titolo::Classifica "caposelese" sondaggio Champions L. 2007
+Titolo::Classifica "caposelese" sond. Champions L. '07
 --- Begin body ---
 <br>
 <div align="center">
