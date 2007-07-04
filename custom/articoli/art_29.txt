@@ -1,0 +1,18 @@
+Autore::
+Titolo::III notturna sianese
+--- Begin body ---
+<br>
+Il 16 giugno 2007 a Siano, in provincia di Salerno, si &egrave; tenuta la III edizione della 
+notturna sianese, gara podistica regionale di 10 km.<br><br>
+Hanno affrontato il percorso, ricco di saliscendi, 417 atleti; tra loro anche 5 componenti 
+dell'Amatori Running Sele: Francesco Ceres, Salvatore Merola, Alessandro Russomanno, 
+Paolo Viscardi e Donatello Cirillo.<br>
+<br>
+<div align="center">
+<img id="fotoAllenamentoCollettivo" src="%file_root%custom/album/Siano_07/si6.jpg" alt="" border="0" width="410">
+<br>
+<br>
+</div>
+Le foto della gara sono disponibili <a href="%file_root%album.php?anno=Siano_07">qui</a>
+<br><br>
+--- End body ---
