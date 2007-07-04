@@ -116,12 +116,15 @@ foreach ($log_contents as $id => $item_data)
 		$last_date = $unix_time;
 	}
 	
+	$content_abs_link = $abs_url.$content_link;
+	$content_abs_link = str_replace('&','&amp;',$content_abs_link);
+	$content_abs_link = str_replace('&amp;','&',$content_abs_link);
 	
 	$item = Array();
 	$item['type'] 		= $content_type; 		// titolo
 	$item['title'] 		= $content_title; 		// titolo
 	$item['description'] 	= $content_description; 	// description
-	$item['link'] 		= str_replace('&','&amp;',$abs_url.$content_link);	// link
+	$item['link'] 		= $content_abs_link;		// link
 	$item['guid'] 		= $content_guid;		// guid
 	$item['category'] 	= $content_category;		// category
 	$item['pubDate'] 	= $content_pubDate;		// pubDate
