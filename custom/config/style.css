@@ -39,6 +39,14 @@ a.disabled:hover {
 	text-decoration: none;
 	}
 
+a.no_underline {
+	text-decoration: none;
+}
+
+a.no_underline:hover {
+	text-decoration: underline;
+}
+
 
 /*---------------------------  Header  -------------------------------------- */
 
@@ -114,7 +122,8 @@ a.txt_link:hover {
 /* link e testo nelle colonne laterali */
 .txt_link, .txt_normal {
 	font-family:Arial,Tahoma,Verdana,Serif;
-	font-size:0.75em;
+/* 	font-size:0.75em; */
+	font-size:9pt;
 	color:rgb(51,102,153);
 	}
 
