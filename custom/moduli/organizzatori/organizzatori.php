@@ -67,7 +67,7 @@ nonch&eacute; fondi, riserve o capitale, salvo che la destinazione o la distribu
 
 <div style="font-weight: bold;"><big>Scarica l'atto costitutivo e lo statuto completo dell'ARS in formato pdf:</big>
 	<a target="_blank" href="Atto.pdf">
-		<img src="<?php echo $site_abs_path ?>images/pdf.gif" alt="scarica lo statuto in formato pdf" 
+		<img src="<?php echo $site_abs_path ?>images/filetype_icons/pdf.png" alt="scarica lo statuto in formato pdf" 
 			border="0" height="36" width="36">
 	</a>
 </div>
@@ -76,7 +76,7 @@ nonch&eacute; fondi, riserve o capitale, salvo che la destinazione o la distribu
 
 <div style="font-weight: bold;"><big>Scarica Rendiconto e Relazione anno 2005 ARS in formato pdf:</big>
 	<a target="_blank" href="Rendiconto_e_Relazione_anno_2005_ARS.pdf">
-		<img src="<?php echo $site_abs_path ?>images/pdf.gif" alt="scarica Rendiconto e Relazione 2005 in formato pdf" 
+		<img src="<?php echo $site_abs_path ?>images/filetype_icons/pdf.png" alt="scarica Rendiconto e Relazione 2005 in formato pdf" 
 			border="0" height="36" width="36">
 	</a>
 </div>
@@ -85,7 +85,7 @@ nonch&eacute; fondi, riserve o capitale, salvo che la destinazione o la distribu
 
 <div style="font-weight: bold;"><big>Scarica Rendiconto e Relazione anno 2006 ARS in formato pdf:</big>
 	<a target="_blank" href="Rendiconto_e_Relazione_anno_2006_ARS.pdf">
-		<img src="<?php echo $site_abs_path ?>images/pdf.gif" alt="scarica Rendiconto e Relazione 2006 in formato pdf" 
+		<img src="<?php echo $site_abs_path ?>images/filetype_icons/pdf.png" alt="scarica Rendiconto e Relazione 2006 in formato pdf" 
 			border="0" height="36" width="36">
 	</a>
 </div>
@@ -94,7 +94,7 @@ nonch&eacute; fondi, riserve o capitale, salvo che la destinazione o la distribu
 
 <div style="font-weight: bold;"><big>Scarica il modulo di richiesta di adesione all'ARS in formato pdf:</big>
 	<a target="_blank" href="richiesta_adesione_ARS.pdf">
-		<img src="<?php echo $site_abs_path ?>images/pdf.gif" alt="scarica la richiesta di adesione in formato pdf" 
+		<img src="<?php echo $site_abs_path ?>images/filetype_icons/pdf.png" alt="scarica la richiesta di adesione in formato pdf" 
 			border="0" height="36" width="36">
 	</a>
 </div>
