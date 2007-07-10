@@ -1,54 +1,61 @@
 <?php
 
-DEFINE("indice_download_type"	, 0);
-DEFINE("indice_download_name"	, 1);
-DEFINE("indice_download_caption", 2);
-DEFINE("indice_download_params"	, 3);
-DEFINE("indice_download_auth"	, 4);
+DEFINE("indice_download_type"		, 0);
+DEFINE("indice_download_name"		, 1);
+DEFINE("indice_download_caption"	, 2);
+DEFINE("indice_download_description"	, 3);
+DEFINE("indice_download_params"		, 4);
+DEFINE("indice_download_auth_read"	, 5);
+DEFINE("indice_download_auth_write"	, 6);
+DEFINE("indice_download_ctime"		, 7);
+DEFINE("indice_download_hits"		, 8);
 
 
 ////////////////////////////////////////////////////////////////////////////////////////
-function show_download_folder($tree,$folder_path,$folder_caption,$folder_parent,$folder_auth,$login,$level)
+function show_download_folder(&$config_download,$download_resource_info,&$fulltree,$login,$level)
 {
+
 $download_error_msg = '';
+
+$tree 			= $download_resource_info['resource_tree'];
+$folder_path 		= $download_resource_info['resource_path'];
+$folder_parent 		= $download_resource_info['resource_parent'];
+$folder_caption 	= $download_resource_info['resource_caption'];
+$folder_auth_read 	= $download_resource_info['resource_auth_read'];
 
 //
 // inizializzazione pagina
 //
 if ($level == 0)
 {
-	$item 		= $tree['data_folder'];
-	$item_type 	= $item[indice_download_type];
-	$item_name 	= $item[indice_download_name];
-	$item_caption 	= $item[indice_download_caption];
-	$item_params 	= $item[indice_download_params];
-	$item_auth 	= $item[indice_download_auth];
-	
+	$item 			= $tree['data_folder'];
+	$item_type 		= $item[indice_download_type];
+	$item_name 		= $item[indice_download_name];
+	$item_caption 		= $item[indice_download_caption];
+	$item_description 	= $item[indice_download_description];
+	$item_params 		= $item[indice_download_params];
+	$item_auth_read 	= $item[indice_download_auth_read];
+	$item_auth_write	= $item[indice_download_auth_write];
+	$item_ctime 		= $item[indice_download_ctime];
+	$item_hits 		= $item[indice_download_hits];
 	
 	show_download_header();
 	
 	// il gruppo dell'utente autenticato puo' accedere al folder?
-	if (!group_match($login['username'],$login['usergroups'],split(',',$folder_auth)))
+	if (!group_match($login['username'],$login['usergroups'],split(',',$folder_auth_read)))
 	{
 		$download_error_msg = "L'utente &quot;{$login['username']}&quot; not &egrave; abilitato ad accedere alla sezione &quot;$folder_caption&quot;.";
 	}
 	else
 	{
-		if ((is_string($folder_parent)) & ($folder_parent === 'folder_root'))
+		if (($item_type === 'folder') & ($item_name === 'folder_root'))
 		{
 			// root folder
 			$folder_parent_link = "index.php";
 			$folder_parent_caption = "Homepage";
 			$back_msg = "<a href=\"$folder_parent_link\">$folder_parent_caption</a> ->";
 			$full_path = "/";
-		}
-		elseif (!array_key_exists(indice_download_caption,$folder_parent))
-		{
-			// folder di primo livello (manca il campo folder_parent)
-			$folder_parent_link = "download.php";
-			$folder_parent_caption = "Sezione download";
-			$back_msg = "<a href=\"$folder_parent_link\">$folder_parent_caption</a> ->";
-			$full_path = "/$item_params/";
+			$back_arrow = "";
 		}
 		else
 		{
@@ -58,13 +65,15 @@ if ($level == 0)
 			$folder_parent_link = "download.php?resource_type=$folder_parent_type&amp;resource_id=$folder_parent_name";
 			$folder_parent_caption = $folder_parent[indice_download_caption];
 			$back_msg = "... -> <a href=\"$folder_parent_link\">$folder_parent_caption</a> ->";
+			$back_arrow = "<a class=\"no_underline\" href=\"$folder_parent_link\"><big>&larr;</big></a>&nbsp;&nbsp;";
 			$full_path = "$folder_path/$item_params/";
 		}
 		
 		// struttura superiore pagina download
-		echo "<h2 id=\"dm_title\">$folder_caption</h2>\n";
+		echo "<h2 id=\"dm_title\">$back_arrow $folder_caption</h2>\n";
 		echo "<div id=\"dm_cats\">\n";
-		echo "<h3>Categorie<span>$back_msg $folder_caption</span></h3>\n";
+		echo "<h3>$item_description\n";
+		echo "<span>$back_msg $folder_caption</span></h3>\n";
 	}
 }
 
@@ -88,11 +97,11 @@ else
 			$folder_item = $tree[$folder_item_name];
 			$folder_item_type = $folder_item['data_folder'][indice_download_type];
 			
-			show_download_item($folder_item['data_folder'],$level);
-			if ($folder_item_type == 'folder')
-			{
+			show_download_item($folder_item['data_folder'],$level,$fulltree);
+// 			if ($folder_item_type == 'folder')
+// 			{
 // 				show_download_folder($folder_path,$folder_item,'',Array(),'',$login,$level+1);
-			}
+// 			}
 		}
 		else
 		{
@@ -115,50 +124,64 @@ if ($level == 0)
 	}
 	
 	show_download_footer();
+	
+	// aggiorna contatore
+	if ($item_name !== 'folder_root')
+	{
+		increment_download_counter($config_download,$download_resource_info);
+	}
 }
 
-} // end show_download_folder($tree,$folder_caption,$folder_parent,$level)
+} // end show_download_folder($fulltree,$tree,$folder_caption,$folder_parent,$level)
 
 
 ////////////////////////////////////////////////////////////////////////////////////////
-function show_download_item($folder_item,$level)
+function show_download_item($folder_item,$level,&$fulltree)
 {
-$folder_item_type 	= $folder_item[indice_download_type];
-$folder_item_name 	= $folder_item[indice_download_name];
-$folder_item_caption 	= $folder_item[indice_download_caption];
-$folder_item_params 	= $folder_item[indice_download_params];
-$folder_item_auth 	= $folder_item[indice_download_auth];
+$folder_item_type 	 = $folder_item[indice_download_type];
+$folder_item_name 	 = $folder_item[indice_download_name];
+$folder_item_caption 	 = $folder_item[indice_download_caption];
+$folder_item_description = $folder_item[indice_download_description];
+$folder_item_params 	 = $folder_item[indice_download_params];
+$folder_item_auth_read 	 = $folder_item[indice_download_auth_read];
+$folder_item_auth_write	 = $folder_item[indice_download_auth_write];
+$folder_item_ctime 	 = $folder_item[indice_download_ctime];
+$folder_item_hits 	 = $folder_item[indice_download_hits];
 
 $spacing = str_repeat('&nbsp;',$level*8);
 switch ($folder_item_type)
 {
 case 'folder':
-	show_download_item_folder($folder_item);
+	show_download_item_folder($folder_item,$fulltree);
 	break;
 	
 case 'file':
-	show_download_item_file($folder_item);
+	show_download_item_file($folder_item,$fulltree);
 	break;
 	
 case 'link':
-	show_download_item_link($folder_item);
+	show_download_item_link($folder_item,$fulltree);
 	break;
 	
 default:
 	die("Tipo $folder_item_type sconosciuto per $folder_item_name!");
 }
 
-} // end function show_download_item($folder_item,$level)
+} // end function show_download_item($folder_item,$level,$tree)
 
 
 //////////////////////////////////////////////////////////////////////////////////////
-function show_download_item_folder($folder_item)
+function show_download_item_folder($folder_item,&$fulltree)
 {
-$folder_item_type 	= $folder_item[indice_download_type];
-$folder_item_name 	= $folder_item[indice_download_name];
-$folder_item_caption 	= $folder_item[indice_download_caption];
-$folder_item_params 	= $folder_item[indice_download_params];
-$folder_item_auth 	= $folder_item[indice_download_auth];
+$folder_item_type 	 = $folder_item[indice_download_type];
+$folder_item_name 	 = $folder_item[indice_download_name];
+$folder_item_caption 	 = $folder_item[indice_download_caption];
+$folder_item_description = $folder_item[indice_download_description];
+$folder_item_params 	 = $folder_item[indice_download_params];
+$folder_item_auth_read 	 = $folder_item[indice_download_auth_read];
+$folder_item_auth_write	 = $folder_item[indice_download_auth_write];
+$folder_item_ctime 	 = $folder_item[indice_download_ctime];
+$folder_item_hits 	 = $folder_item[indice_download_hits];
 
 // 	echo $spacing."- <a href=\"download.php?resource_type=folder&amp;resource_id=$folder_item_name\">$folder_item_caption</a><br>\n";
 
@@ -168,12 +191,12 @@ $folder_item_auth 	= $folder_item[indice_download_auth];
 <dl>
 <dt class="dm_row">
 	<a class="dm_icon" href="download.php?resource_type=folder&amp;resource_id=<?php echo $folder_item_name; ?>">
-	<img src="<?php echo $site_abs_path; ?>images/folder.png" alt="folder icon"/></a>
+	<img src="<?php echo $site_abs_path; ?>images/filetype_icons/folder.png" alt="folder icon"/></a>
 	<a class="dm_name" href="download.php?resource_type=folder&amp;resource_id=<?php echo $folder_item_name; ?>">
 		<?php echo $folder_item_caption; ?>
 	</a>
 </dt>
-<dd class="dm_description"><p>Categoria dedicata a "<?php echo $folder_item_caption; ?>"&nbsp;</p></dd>
+<dd class="dm_description"><p><?php echo $folder_item_description; ?></p></dd>
 </dl>
 
 <?php
@@ -182,15 +205,34 @@ $folder_item_auth 	= $folder_item[indice_download_auth];
 
 
 //////////////////////////////////////////////////////////////////////////////////////
-function show_download_item_file($folder_item)
+function show_download_item_file($folder_item,&$fulltree)
 {
-$folder_item_type 	= $folder_item[indice_download_type];
-$folder_item_name 	= $folder_item[indice_download_name];
-$folder_item_caption 	= $folder_item[indice_download_caption];
-$folder_item_params 	= $folder_item[indice_download_params];
-$folder_item_auth 	= $folder_item[indice_download_auth];
+$folder_item_type 	 = $folder_item[indice_download_type];
+$folder_item_name 	 = $folder_item[indice_download_name];
+$folder_item_caption 	 = $folder_item[indice_download_caption];
+$folder_item_description = $folder_item[indice_download_description];
+$folder_item_params 	 = $folder_item[indice_download_params];
+$folder_item_auth_read 	 = $folder_item[indice_download_auth_read];
+$folder_item_auth_write	 = $folder_item[indice_download_auth_write];
+$folder_item_ctime 	 = $folder_item[indice_download_ctime];
+$folder_item_hits 	 = $folder_item[indice_download_hits];
 
-// 	echo $spacing."- <a href=\"download.php?resource_type=file&amp;resource_id=$folder_item_name\">$folder_item_caption</a><br>\n";
+$download_item_info = get_resource_fullpath($fulltree,$folder_item_type,$folder_item_name);
+
+$resource_fullname = $download_item_info['fullname'];	// nome completo del file
+
+if (0)
+{
+	$info = stat($resource_fullname);					// info sul file
+	$last_modify_date = date("F d Y H:i:s", filemtime($resource_fullname));	// data ultima modifica del file
+}
+else
+{
+	$last_modify_date = $folder_item_ctime;
+}
+
+$resource_info = get_filename_mimetype($resource_fullname);
+$resource_icon = $resource_info['icon'];
 
 ?>
 
@@ -198,19 +240,21 @@ $folder_item_auth 	= $folder_item[indice_download_auth];
 <dl>
 <dt>
 <a class="dm_icon" href="download.php?resource_type=file&amp;resource_id=<?php echo $folder_item_name; ?>">
-	<img src="<?php echo $site_abs_path; ?>images/generic.png" alt="file icon">
+	<img src="<?php echo $site_abs_path; ?>images/filetype_icons/<?php echo $resource_icon; ?>" alt="file icon">
 </a>
 <a class="dm_name" href="download.php?resource_type=file&amp;resource_id=<?php echo $folder_item_name; ?>">
 	<?php echo $folder_item_caption; ?>
 </a>
 </dt>
 <dd class="dm_date">
-gg.mm.aaaa	</dd>
+<?php echo $last_modify_date; ?>
+</dd>
 <dd class="dm_description">
-<p>Descrizione della risorsa "<?php echo $folder_item_caption; ?>"&nbsp;</p>	</dd>
+<p><?php echo $folder_item_description; ?></p>	</dd>
 
 <dd class="dm_counter">
-Hits: x	</dd>
+Hits: <?php echo $folder_item_hits; ?>
+</dd>
 <dd class="dm_taskbar">
 <ul>
 <li><a href="download.php?resource_type=file&amp;resource_id=<?php echo $folder_item_name; ?>&amp;download_mode=attachment">Download</a></li>
@@ -234,14 +278,26 @@ Hits: x	</dd>
 
 
 
+
 //////////////////////////////////////////////////////////////////////////////////////
-function show_download_item_link($folder_item)
+function show_download_item_link($folder_item,&$fulltree)
 {
-$folder_item_type 	= $folder_item[indice_download_type];
-$folder_item_name 	= $folder_item[indice_download_name];
-$folder_item_caption 	= $folder_item[indice_download_caption];
-$folder_item_params 	= $folder_item[indice_download_params];
-$folder_item_auth 	= $folder_item[indice_download_auth];
+$folder_item_type 	 = $folder_item[indice_download_type];
+$folder_item_name 	 = $folder_item[indice_download_name];
+$folder_item_caption 	 = $folder_item[indice_download_caption];
+$folder_item_description = $folder_item[indice_download_description];
+$folder_item_params 	 = $folder_item[indice_download_params];
+$folder_item_auth_read 	 = $folder_item[indice_download_auth_read];
+$folder_item_auth_write	 = $folder_item[indice_download_auth_write];
+$folder_item_ctime 	 = $folder_item[indice_download_ctime];
+$folder_item_hits 	 = $folder_item[indice_download_hits];
+
+$download_item_info = get_resource_fullpath($fulltree,$folder_item_type,$folder_item_name);
+
+$resource_fullname = $download_item_info['fullname'];	// nome completo del file
+
+$resource_info = get_filename_mimetype($resource_fullname);
+$resource_icon = $resource_info['icon'];
 
 // 	echo $spacing."- <a href=\"download.php?resource_type=link&amp;resource_id=$folder_item_name\"> --&gt;$folder_item_caption</a><br>\n";
 
@@ -251,19 +307,20 @@ $folder_item_auth 	= $folder_item[indice_download_auth];
 <dl>
 <dt>
 <a class="dm_icon" href="download.php?resource_type=link&amp;resource_id=<?php echo $folder_item_name; ?>">
-	<img src="<?php echo $site_abs_path; ?>images/link.png" alt="file icon">
+	<img src="<?php echo $site_abs_path; ?>images/filetype_icons/<?php echo $resource_icon; ?>" alt="file icon">
 </a>
 <a class="dm_name" href="download.php?resource_type=link&amp;resource_id=<?php echo $folder_item_name; ?>">
 	<?php echo $folder_item_caption; ?>
 </a>
 </dt>
-<dd class="dm_date">
-gg.mm.aaaa	</dd>
+<!--<dd class="dm_date">
+gg.mm.aaaa	</dd>-->
 <dd class="dm_description">
 <p>Descrizione della risorsa "<?php echo $folder_item_caption; ?>"&nbsp;</p>	</dd>
 
 <dd class="dm_counter">
-Hits: x	</dd>
+Hits: <?php echo $folder_item_hits; ?>
+</dd>
 <dd class="dm_taskbar">
 <ul>
 	<li>
@@ -298,6 +355,32 @@ foreach($new_folder_item as $id_item => $folder_item)
 	}
 } // end foreach
 
+// aggiungi un item folder fittizio, corrispondente al folder_root
+if ($level == 0)
+{
+	$resource_type		= 'folder';
+	$resource_name		= 'folder_root';
+	$resource_caption	= 'Sezione download';
+	$resource_description 	= 'File disponibili per il download, organizzati in una struttura ad albero';
+	$resource_params 	= '';
+	$resource_auth_read	= '';
+	$resource_auth_write 	= 'admin';
+	$resource_ctime 	= '0';
+	$resource_hits 	 	= '0';
+	
+	$tree['data_folder'] = Array(
+		indice_download_type 		=> $resource_type,
+		indice_download_name 		=> $resource_name,
+		indice_download_caption 	=> $resource_caption,
+		indice_download_description 	=> $resource_description,
+		indice_download_params 		=> $resource_params,
+		indice_download_auth_read 	=> $resource_auth_read,
+		indice_download_auth_write 	=> $resource_auth_write,
+		indice_download_ctime 		=> $resource_ctime,
+		indice_download_hits 	 	=> $resource_hits
+		);
+}
+
 } // end function add_download_folder($tree,$config_download);
 
 
@@ -309,6 +392,15 @@ $download_item_struct = Array();
 // path dell'elemento
 if (count($level)==0)
 {
+	if ( ($resource_type == 'folder') && ($resource_id == 'folder_root') )
+	{
+		$download_item_struct = Array(
+			'resource_path' => '/',
+			'resource_data' => Array(),
+			'resource_parent' => ''
+			);
+		return $download_item_struct;
+	}
 // 	$folder_parent_name = 'folder_root';
 	$folder_parent_name = '';
 }
@@ -321,7 +413,7 @@ array_push($level,$folder_parent_name);
 // items presenti nel folder
 $folders = array_diff(array_keys($tree),Array('data_folder'));
 
-foreach($folders as $folder_item_name)
+foreach($folders as $folder_item_id => $folder_item_name)
 {
 	$folder_item = $tree[$folder_item_name];
 	$folder_item_type = $folder_item['data_folder'][indice_download_type];
@@ -349,25 +441,55 @@ foreach($folders as $folder_item_name)
 	}
 }
 
-} // end function add_download_folder($tree,$config_download);
+} // end extract_download_item($tree,$resource_type,$resource_id,$level)
 
 
 
 ////////////////////////////////////////////////////////////////////////////////////////
-function download_file($download_resource_info,$fullname,$login,$download_mode) {
+function get_resource_fullpath(&$tree,$resource_type,$resource_id) {
 
-$resource_path 		= $download_resource_info['resource_type'];
+# dichiara variabili
+extract(indici());
+
+$download_resource_info = get_download_resource_info($tree,$resource_type,$resource_id);
+
+$file_path = $download_resource_info['resource_path'];
+$file_abs_path = $root_path."custom/download".$file_path."/";
+$file_name = $download_resource_info['resource_params'];
+$fullname = $file_abs_path.$file_name;
+
+return array('file_path' => $file_path,'file_abs_path' => $file_abs_path,'file_name' => $file_name,'fullname' => $fullname);
+
+} // end function get_resource_fill_fullpath($tree,$resource_type,$resource_id)
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+function download_file(&$config_download,$download_resource_info,$login,$download_mode) {
+
+$resource_path 		= $download_resource_info['resource_path'];
+$resource_type 		= $download_resource_info['resource_type'];
 $resource_name 		= $download_resource_info['resource_name'];
 $resource_caption 	= $download_resource_info['resource_caption'];
+$resource_description 	= $download_resource_info['resource_description'];
 $resource_params 	= $download_resource_info['resource_params'];
-$resource_auth 		= $download_resource_info['resource_auth'];
+$resource_auth_read 	= $download_resource_info['resource_auth_read'];
+$resource_auth_write 	= $download_resource_info['resource_auth_write'];
+$resource_ctime 	= $download_resource_info['resource_ctime'];
+$resource_hits 	 	= $download_resource_info['resource_hits'];
 
 // il gruppo dell'utente autenticato puo' scaricare il contenuto?
 $download_error_msg = '';
-if (!group_match($login['username'],$login['usergroups'],split(',',$resource_auth)))
+if (!group_match($login['username'],$login['usergroups'],split(',',$resource_auth_read)))
 {
 	$download_error_msg = "L'utente &quot;{$login['username']}&quot; not &egrave; abilitato a scaricare la risorsa $resource_name.";
 }
+
+// individua il full path del file
+$file_name = $resource_params;
+$fullname = $root_path."custom/download".$resource_path."/".$file_name;
+
+// nel log inserisci anche la data di caricamento del file
+$_SERVER['QUERY_STRING'] .= "($resource_ctime)";
 
 // verifica che il file esista
 if (!file_exists($fullname))
@@ -402,28 +524,69 @@ else
 	//send file contents
 	$fp=fopen($fullfilename, "r");
 	fpassthru($fp);
+	
+	// aggiorna contatore
+	increment_download_counter($config_download,$download_resource_info);
 }
 
 
-} // end function download_file($folder_item)
+} // end function download_file($download_resource_info,$fullname,$login,$download_mode)
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+function increment_download_counter(&$config_download,$download_resource_info) {
+
+# dichiara variabili
+extract(indici());
+
+// incrementa contatore in $fulltree
+$download_item[indice_download_type] 		= $download_resource_info['resource_type'];
+$download_item[indice_download_name] 		= $download_resource_info['resource_name'];
+$download_item[indice_download_caption] 	= $download_resource_info['resource_caption'];
+$download_item[indice_download_description] 	= $download_resource_info['resource_description'];
+$download_item[indice_download_params] 		= $download_resource_info['resource_params'];
+$download_item[indice_download_auth_read] 	= $download_resource_info['resource_auth_read'];
+$download_item[indice_download_auth_write] 	= $download_resource_info['resource_auth_write'];
+$download_item[indice_download_ctime] 		= $download_resource_info['resource_ctime'];
+$download_item[indice_download_hits] 		= $download_resource_info['resource_hits'];
+
+$resource_parent_name = $download_resource_info['resource_parent'][indice_download_name];
+
+// modifica dei dati dell'item:
+$download_item[indice_download_hits] 		= $download_item[indice_download_hits]+1;
+
+// elenco degli indici che individuano complessivamente un item unico
+$unique_ids = Array(indice_download_type,indice_download_name);
+modify_config_file($config_download,$resource_parent_name,$download_item,$unique_ids);
+
+// save_config_file($filename_download.".bak",$config_download);
+save_config_file($filename_download,$config_download);
+
+}
 
 
 
 ////////////////////////////////////////////////////////////////////////////////////////
-function download_link($download_resource_info,$fullname,$login) {
+function download_link(&$config_download,$download_resource_info,$login) {
 
 $resource_path 		= $download_resource_info['resource_type'];
 $resource_name 		= $download_resource_info['resource_name'];
 $resource_caption 	= $download_resource_info['resource_caption'];
+$resource_description 	= $download_resource_info['resource_description'];
 $resource_params 	= $download_resource_info['resource_params'];
-$resource_auth 		= $download_resource_info['resource_auth'];
+$resource_auth_read 	= $download_resource_info['resource_auth_read'];
+$resource_auth_write 	= $download_resource_info['resource_auth_write'];
+$resource_ctime 	= $download_resource_info['resource_ctime'];
+$resource_hits 		= $download_resource_info['resource_hits'];
 
 // il gruppo dell'utente autenticato puo' scaricare il contenuto?
 $download_error_msg = '';
-if (!group_match($login['username'],$login['usergroups'],split(',',$resource_auth)))
+if (!group_match($login['username'],$login['usergroups'],split(',',$resource_auth_read)))
 {
 	$download_error_msg = "L'utente &quot;{$login['username']}&quot; not &egrave; abilitato a scaricare la risorsa $resource_name.";
 }
+
+$_SERVER['QUERY_STRING'] .= "($resource_ctime)"; // nel log inserisci anche la data di caricamento del file
 
 // se nessun filtro l'impedisce, visualizza il feed
 if (!empty($download_error_msg))
@@ -441,34 +604,38 @@ else
 	$effective = array("%20");
 	$fullname = str_replace($template, $effective, $resource_params);
 	
+	// redirect del browser al nuovo link
 	header("Location: $fullname");
-	exit();
+	
+	// aggiorna contatore
+	increment_download_counter($config_download,$download_resource_info);
 }
 
 
-} // end function download_file($folder_item)
-
+} // end function download_link($download_resource_info,$fullname,$login)
 
 
 ////////////////////////////////////////////////////////////////////////////////////////
-function send_download_headers($fullname,$download_mode) {
+function get_filename_mimetype($fullname) {
 
 $lista_mime_types = Array(
-        'HTM' 	=> 'text/html',
-        'HTML' 	=> 'text/html',
-        'TXT' 	=> 'text/plain',
-	'PDF' 	=> 'application/pdf',
-	'DOC' 	=> 'application/msword',
-	'XLS' 	=> 'application/vnd.ms-excel',
-	'SWF' 	=> 'application/x-shockwave-flash',
-	'JPG' 	=> 'image/jpeg',
-	'JPEG' 	=> 'image/jpeg',
-	'GIF' 	=> 'image/gif',
-	'WAV' 	=> 'audio/x-wav',
-	'MP3' 	=> 'audio/x-mp3',
-	'MPEG' 	=> 'audio/mpeg',
-	'QT' 	=> 'video/quicktime');
+	'HTM' 	=> Array('text/html','html.png'),
+	'HTML' 	=> Array('text/html','html.png'),
+	'TXT' 	=> Array('text/plain','txt.png'),
+	'PDF' 	=> Array('application/pdf','pdf.png'),
+	'DOC' 	=> Array('application/msword','doc.png'),
+	'XLS' 	=> Array('application/vnd.ms-excel','xls.png'),
+	'SWF' 	=> Array('application/x-shockwave-flash','flash.png'),
+	'JPG' 	=> Array('image/jpeg','image.png'),
+	'JPEG' 	=> Array('image/jpeg','image.png'),
+	'GIF' 	=> Array('image/gif','image.png'),
+	'WAV' 	=> Array('audio/x-wav','audio.png'),
+	'MP3' 	=> Array('audio/x-mp3','audio.png'),
+	'MPEG' 	=> Array('audio/mpeg','video.png'),
+	'QT' 	=> Array('video/quicktime','video.png'));
 
+$index_mimetype = 0;
+$index_icon 	= 1;
 
 $p = explode('/', $fullname);
 $pc = count($p);
@@ -480,13 +647,28 @@ $ext = strtoupper($p[$pc-1]);
 
 if (isset($lista_mime_types[$ext]))
 {
-	$mimetype = $lista_mime_types[$ext];
+	$mimetype 	= $lista_mime_types[$ext][$index_mimetype];
+	$icon 		= $lista_mime_types[$ext][$index_icon];
 }
 else
 {	
-	$mimetype = '';
+	$mimetype 	= '';
+	$icon 		= 'generic.png';
 }
 
+$result = Array('filename' => $filename, 'mimetype' => $mimetype, 'icon' => $icon);
+return $result;
+
+} // end function get_filename_mimetype($fullname)
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+function send_download_headers($fullname,$download_mode) {
+
+$result = get_filename_mimetype($fullname);
+$filename 	= $result['filename'];
+$mimetype 	= $result['mimetype'];
+$icon 		= $result['icon'];
 
 if (!empty($mimetype) && ($download_mode === 'inline') )
 {
@@ -534,6 +716,11 @@ extract(indici());
 ////////////////////////////////////////////////////////////////////////////////////////
 function show_download_footer() {
 
+# dichiara variabili
+extract(indici());
+
+echo $homepage_link;
+
 ?>
 
 </body>
@@ -546,19 +733,34 @@ function show_download_footer() {
 ////////////////////////////////////////////////////////////////////////////////////////
 function get_download_resource_info($tree,$resource_type,$resource_id) {
 
-$download_item_struct = extract_download_item($tree,$resource_type,$resource_id,Array());
-
-$folder_item = $download_item_struct['resource_data']['data_folder'];
-
-$resource_tree 		= $download_item_struct['resource_data'];
-$resource_path 		= $download_item_struct['resource_path'];
-$resource_parent	= $download_item_struct['resource_parent'];
+if ( ($resource_type == 'folder') && ($resource_id == 'folder_root') )
+{
+	$folder_item = $tree['data_folder'];
+	
+	$resource_tree		= $tree;
+	$resource_path		= '';
+	$resource_parent	= '';
+}
+else
+{
+	$download_item_struct = extract_download_item($tree,$resource_type,$resource_id,Array());
+	
+	$folder_item = $download_item_struct['resource_data']['data_folder'];
+	
+	$resource_tree 		= $download_item_struct['resource_data'];
+	$resource_path 		= $download_item_struct['resource_path'];
+	$resource_parent	= $download_item_struct['resource_parent'];
+}
 
 $resource_type 		= $folder_item[indice_download_type];
 $resource_name 		= $folder_item[indice_download_name];
 $resource_caption 	= $folder_item[indice_download_caption];
+$resource_description 	= $folder_item[indice_download_description];
 $resource_params 	= $folder_item[indice_download_params];
-$resource_auth 		= $folder_item[indice_download_auth];
+$resource_auth_read 	= $folder_item[indice_download_auth_read];
+$resource_auth_write 	= $folder_item[indice_download_auth_write];
+$resource_ctime 	= $folder_item[indice_download_ctime];
+$resource_hits 		= $folder_item[indice_download_hits];
 
 $result = array('resource_tree' => $resource_tree,
 	'resource_path' 	=> $resource_path,
@@ -566,8 +768,12 @@ $result = array('resource_tree' => $resource_tree,
 	'resource_type' 	=> $resource_type,
 	'resource_name' 	=> $resource_name,
 	'resource_caption' 	=> $resource_caption,
+	'resource_description' 	=> $resource_description,
 	'resource_params' 	=> $resource_params,
-	'resource_auth' 	=> $resource_auth);
+	'resource_auth_read' 	=> $resource_auth_read,
+	'resource_auth_write' 	=> $resource_auth_write,
+	'resource_ctime' 	=> $resource_ctime,
+	'resource_hits' 	=> $resource_hits);
 
 return $result;
 

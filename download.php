@@ -34,50 +34,47 @@ $config_download = get_config_file($filename_download);
 $tree = Array();
 add_download_folder($tree,'folder_root',$config_download,0);
 
+if (empty($resource_id))
+{
+	$resource_type		= 'folder';
+	$resource_id		= 'folder_root';
+}
 
-if (!empty($resource_id))
+$download_resource_info = get_download_resource_info($tree,$resource_type,$resource_id);
+
+$resource_tree 		= $download_resource_info['resource_tree'];
+$resource_path 		= $download_resource_info['resource_path'];
+$resource_parent 	= $download_resource_info['resource_parent'];
+$resource_type 		= $download_resource_info['resource_type'];
+$resource_name 		= $download_resource_info['resource_name'];
+$resource_caption 	= $download_resource_info['resource_caption'];
+$resource_description 	= $download_resource_info['resource_description'];
+$resource_params 	= $download_resource_info['resource_params'];
+$resource_auth_read 	= $download_resource_info['resource_auth_read'];
+$resource_auth_write 	= $download_resource_info['resource_auth_write'];
+$resource_ctime 	= $download_resource_info['resource_ctime'];
+$resource_hits 	 	= $download_resource_info['resource_hits'];
+
+switch ($resource_type)
 {
-	$download_resource_info = get_download_resource_info($tree,$resource_type,$resource_id);
-	// $download_resource_info = array(
-	// 'resource_tree' 	=> $resource_tree,
-	// 'resource_path' 	=> $resource_path,
-	// 'resource_parent' 	=> $resource_parent,
-	// 'resource_type' 	=> $resource_type,
-	// 'resource_name' 	=> $resource_name,
-	// 'resource_caption' 	=> $resource_caption,
-	// 'resource_params' 	=> $resource_params,
-	// 'resource_auth' 	=> $resource_auth);
-	
-	switch ($resource_type)
-	{
-	case 'folder':
-		// visualizza struttura parziale dell'albero dell'area download
-		$folder_sub_tree 	= $download_resource_info['resource_tree'];
-		$folder_path 		= $download_resource_info['resource_path'];
-		$folder_parent		= $download_resource_info['resource_parent'];
-		$folder_caption 	= $download_resource_info['resource_caption'];
-		$folder_auth		= $download_resource_info['resource_auth'];
-		show_download_folder($folder_sub_tree,$folder_path,$folder_caption,$folder_parent,$folder_auth,$login,0);
-		break;
-	case 'file':
-		$file_path = $download_resource_info['resource_path'];
-		$file_name = $download_resource_info['resource_params'];
-		$fullname = $root_path."custom/download".$file_path."/".$file_name;
-		download_file($download_resource_info,$fullname,$login,$download_mode);
-		break;
-	case 'link':
-		download_link($download_resource_info,$fullname,$login);
-// 		echo "<a href=\"$resource_params\">$resource_params</a>";
-		break;
-	default:
-		die("Tipo sconosciuto ($resource_type)!");
-		break;
-	}
+case 'folder':
+	// visualizza struttura parziale dell'albero dell'area download
+	show_download_folder($config_download,$download_resource_info,$tree,$login,0);
+	break;
+case 'file':
+	// scarica il file
+	download_file($config_download,$download_resource_info,$login,$download_mode);
+	break;
+case 'link':
+	download_link($config_download,$download_resource_info,$login);
+	break;
+default:
+	die("Tipo sconosciuto ($resource_type)!");
+	break;
 }
-else
-{
-	// visualizza struttura ad albero dell'area download
-	show_download_folder($tree,'','Sezione download','folder_root','',$login,0);
-}
+
+# logga il contatto
+$counter = count_page("download",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
+
 
 ?>
