@@ -1430,6 +1430,55 @@ function save_config_file($conf_file,$keys)
 }
 
 
+function modify_config_file(&$config_data,$parent_block_name,$new_item_data,$unique_ids)
+{
+
+$block_found = 0;
+$item_found = Array();
+foreach($config_data as $block_name => $block_items)
+{
+	if ($block_name == $parent_block_name)
+	{
+		$block_found = 1;
+		foreach ($block_items as $item_id => $item_data)
+		{
+			$different = 0;
+			foreach ($unique_ids as $unique_id)
+			{
+				if ($item_data[$unique_id] !== $new_item_data[$unique_id])
+				{
+					$different = 1;
+					break;
+				}
+			}
+			
+			if ($different == 0)
+			{
+				$item_found = Array('item_id' => $item_id);
+			}
+		}
+	}
+}
+
+if ($block_found == 0)
+{
+	die("&quot;$parent_block_name&quot; non trovato!");
+}
+
+if (count($item_found) == 0)
+{
+	die("item non trovato!");
+}
+else
+{
+	$config_data[$parent_block_name][$item_found['item_id']] = $new_item_data;
+}
+
+
+} // end function modify_config_file(&$config_data,$parent_block_name,$item_data)
+
+
+
 function show_template($template_path,$template_file,$sezione,$module_data)
 {
 	# dichiara variabili
@@ -2116,16 +2165,16 @@ function count_page($myself,$flags,$path_prefix = "")
 	$flags['LOG'] = [0,1]		scrivi o meno nel file di log
 */
 
-  $HTTP_USER_AGENT = $_SERVER['HTTP_USER_AGENT'];
-  $REMOTE_ADDR = $_SERVER['REMOTE_ADDR'];
-  $HTTP_REFERER = $_SERVER['HTTP_REFERER'];
-  $QUERY_STRING = $_SERVER['QUERY_STRING'];
-  $username = $_COOKIE['login']['username'];
+  $HTTP_USER_AGENT 	= $_SERVER['HTTP_USER_AGENT'];
+  $REMOTE_ADDR 		= $_SERVER['REMOTE_ADDR'];
+  $HTTP_REFERER 	= $_SERVER['HTTP_REFERER'];
+  $QUERY_STRING 	= $_SERVER['QUERY_STRING'];
+  $username 		= $_COOKIE['login']['username'];
 
-  $logfile 	= $path_prefix.'logfile.txt'; 				//every hit log file
+  $logfile 	= $path_prefix.'logfile.txt'; 		//every hit log file
   $backupfile 	= $path_prefix.'backupfile%03d.txt';   	//log backup file naming. E' importante lasciare alla fine del nome %3d (formato per sprintf)
-  $counterfile 	= $path_prefix.'counterfile.txt';		//miscellaneous pages visit counter
-  $lasthitfile 	= $path_prefix.'lasthitfile.txt'; 		//last hits ... used with trigger, allow to prevent counting 'reload' as visit
+  $counterfile 	= $path_prefix.'counterfile.txt';	//miscellaneous pages visit counter
+  $lasthitfile 	= $path_prefix.'lasthitfile.txt'; 	//last hits ... used with trigger, allow to prevent counting 'reload' as visit
   $imagepath 	= $path_prefix.'images/';           	//path to digit gif image location
   $minlength 	= 3;       	//min length of the counter (will be padded with 0)
   $trigger 	= 120;          //number of minutes while a second hit from the same ip to the same page in not counted
