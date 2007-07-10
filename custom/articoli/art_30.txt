@@ -15,7 +15,7 @@ Gli atleti che hanno portato regolarmente a termine la gara sono stati 294, tra 
 Salvatore Merola, Paolo Viscardi e Alessandro Russomanno.<br>
 <br>
 <div align="center">
-<img id="fotoAllenamentoCollettivo" src="%file_root%custom/album/Mercogliano_07/mon7.jpg" alt="" border="0" width="410">
+<img id="fotoAllenamentoCollettivo_2" src="%file_root%custom/album/Mercogliano_07/mon7.jpg" alt="" border="0" width="410">
 <br>
 <br>
 </div>
