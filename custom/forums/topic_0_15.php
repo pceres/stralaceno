@@ -80,6 +80,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 66::Pasquale C.::31/05/2007 18.28.56::visible
 67::da irpinianews.it::04/06/2007 11.05.48::visible
 68::da CorriereIrpinia.it::22/06/2007 10.32.01::visible
+69::da Corriere Irpinia::06/07/2007 10.59.24::visible
 
 [post_text_0]
 Riceviamo da CLEON.REN e pubblichiamo:
@@ -599,3 +600,14 @@ Infine, altri due progetti riguardano la costruzione del secondo lotto per il ce
 Intanto Amabile ha provveduto alla nomina dei dirigenti di settore che in questa fase avranno un ruolo determinante poichè il Commissario raggiunge Caposele solo due volte alla settimana.
 Le nomine sono le seguenti: Frannicola alla 219, urbanistica e patrimonio, Luongo ai lavori pubblici, Aiello alla vigilanza, Melillo al settore amministrativo, Malanga alla ragioneria e i tributi.
 22/06/2007
+
+[post_text_69]
+Statale 165, la Regione stanzia il finanziamento. Soddisfatto Malanga
+&nbsp;
+CAPOSELE - «I primi giorni a Caposele del dottor Amabile hanno confermato quanto da me dichiarato nell’anomala campagna elettorale tenutasi nel mese di maggio dove, anche sulla scorta di esperienze personali, ho affermato che una gestione commissariale non rappresentava nessun dramma per il paese in quanto nulla si sarebbe fermato e sicuramente il funzionario incaricato sarebbe stato il garante per il rispetto della legalità da parte di tutti i cittadini».
+&nbsp;
+Vito Malanga, ex assessore ai lavori pubblici del Comune di Caposele apprezza le prime mosse del Commissario Prefettizio alla guida del paese da poco più di trenta giorni. «Alle accuse degli avversari - dice Malanga riferendosi agli esponenti dell’Arcobaleno di Gerardo Monteverde - sul fatto che il Commissario avrebbe bloccato tutto, aumentato le tasse e tutte le altre fandonie raccontate, oggi si deve prendere atto e anche gli avversari devono prenderne coscienza che, dopo aver effettuato le nomine dei responsabili di servizio, il dottor Amabile, insieme ai funzionari incaricati, ha portato avanti tutte le opere in corso, ha completato l’iter amministrativo per la stipula del contratto dei lavori di risanamento a valle della strada provinciale 165».
+Si tratta di un impegno economico pari a 2milioni e 500mila euro che consentiranno il risanamento di una vasta area (dallo svincolo della superstrada all’autocarrozzeria “Sozio”).
+«Ha finalmente ottenuto l’apertura - aggiunge ancora l’ex assessore - la discarica dei rifiuti ingombranti in località Petrito, fruibile ai cittadini per tre giorni alla settimana, sulla quale il consorzio Av 2 ha sempre tergiversato. Personalmente e a nome del circolo “Caposele nel Cuore - conclude - devo complimentarmi per l’operato del Commissario in questo primo periodo ed augurargli buon lavoro per il futuro, facendo altresì presente che, per quanto possibile e per qualsiasi supporto anche di natura politica, il nostro gruppo è a disposizione».
+06/07/2007
+&nbsp;

@@ -106,6 +106,13 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 92::Salvatore::25/06/2007 20.46.56::visible
 93::Ale::26/06/2007 10.26.34::visible
 94::Salvatore::26/06/2007 11.36.00::visible
+95::nicola m.::06/07/2007 11.30.17::visible
+96::Gerardo D.::06/07/2007 14.24.38::visible
+97::nicola m.::07/07/2007 11.56.02::visible
+98::nicola m.::07/07/2007 12.01.45::visible
+99::Ale::07/07/2007 13.22.14::visible
+100::Salvatore::09/07/2007 09.57.35::visible
+101::Ars::09/07/2007 11.57.00::visible
 
 [post_text_0]
 Fermate Nicola Melillo con questa stralaceno: anche i muri di materdomini e caposele non ne possono più.
@@ -568,3 +575,30 @@ Aspettiamo la risposta di Paolo... Sono indeciso...
 X Alessandro
 &nbsp;
 Paolo sembra essere d'accordo...lui comunque stasera torna così possiamo tranquillamente decidere...io intantmo mi informo un pò sull'orario della gara etc...ciao
+
+[post_text_95]
+la stralaceno si avvicina vorrei tanto che qualcuno inizi a lasciare qualche prima impressione sul forum
+
+[post_text_96]
+Buona idea Nicola!
+Perchè su questo forum non si iniziano a dichiarare i tempi ottenuti, di volta in volta, in allenamento a Laceno?
+
+[post_text_97]
+io gia' faccio 2 giri il primo lento sui 35 e il secondo sui 26' 50.
+
+[post_text_98]
+come e' andata la festa in piazza bologna ieri sera io sono stato a laceno e ho corso sempre su 2 giri ci vediamo giovedi quando torni' il viaggio per caposele e' andato bene.
+&nbsp;
+                             per alex
+
+[post_text_99]
+x nic. melillo
+Festa OK!
+Ci vediamo tra qualche giorno...
+
+[post_text_100]
+Cominciate a prepararvi.....sabato si va a Roccadaspide....
+
+[post_text_101]
+sabato 14 luglio gara podistica XIV Corri Roccadaspide (Sa): km 8, percorso cittadino, partenza gara ore 18.45.
+Chi è interessato contatti i soci Ars.
