@@ -1191,9 +1191,23 @@ if (empty($temp))
 	$temp = array();
 	$temp[0] = array("email","web");
 }
+
+
 array_push($temp,array(0=>$post_email,1=>$post_web));
 $templog["logdata"] = $temp;
 save_config_file($file_templog,$templog);
+
+// timido tentativo di arginare uno spammer!
+$lista_mail_spammer = Array("@i\.ua","@uniid\.info");
+foreach($lista_mail_spammer as $mail_spammer)
+{
+	if (ereg($mail_spammer,$post_email))
+	{
+		$stesso_messaggio = true;
+		// hgjhddfh@i.ua
+	}
+}
+
 			
 		// se il messaggio e' nuovo, salvalo
 		if (!$stesso_messaggio)
