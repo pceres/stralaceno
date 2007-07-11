@@ -186,6 +186,7 @@ function VisualizzaNomi(mode) {
 				
 <?php 
 $path = $site_abs_path."custom/album/$nome_album/".$album[$id_photo][$id_nomefile_foto];
+$alt_tag = $album[$id_photo+1][$id_titolo_foto];
 $path = str_replace(' ','%20',$path);
 ?>
 				<td width="50%">
@@ -231,7 +232,7 @@ $path = str_replace(' ','%20',$path);
 						
 						<tr>
 							<td valign="top"><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_LT.gif" border="0" height="13" width="16" alt="LT"></td>
-							<td rowspan="3" valign="middle"><a href="<?php echo $path ?>"><img id="foto" src="<?php echo $path ?>" alt="" border="0" width="420"></a></td>
+							<td rowspan="3" valign="middle"><a href="<?php echo $path ?>"><img id="foto" src="<?php echo $path ?>" alt="<?php echo $alt_tag; ?>" border="0" width="420"></a></td>
 							<td><img src="<?php echo $site_abs_path ?>custom/images/cornice/Bord_RT.gif" border="0" height="13" width="16" alt="RT"></td>
 						</tr>
 						
