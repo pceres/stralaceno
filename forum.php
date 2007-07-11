@@ -1183,7 +1183,8 @@ if ($post_type === "reply_post")
 			}
 		}
 		
-$file_templog = $root_path."custom/forums/templog.php";
+
+$file_templog = $root_path."custom/forums/templog.txt";
 		$templog = get_config_file($file_templog);
 $temp = $templog["logdata"];
 if (empty($temp))
@@ -1191,7 +1192,6 @@ if (empty($temp))
 	$temp = array();
 	$temp[0] = array("email","web");
 }
-
 
 array_push($temp,array(0=>$post_email,1=>$post_web));
 $templog["logdata"] = $temp;
