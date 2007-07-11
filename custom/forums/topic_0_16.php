@@ -36,6 +36,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 22::News Ambiente::08/06/2007 17.07.47::visible
 23::da Irpinianews.it::12/06/2007 17.04.27::visible
 24::da Il Mattino::29/06/2007 14.58.55::visible
+25::Ambiente news::11/07/2007 16.02.21::visible
 
 [post_text_0]
 Qui proposte, osservazioni, critiche e tutto ciò che concerne l'ambiente e la natura dalle grosse tematiche di interesse mondiali ai piccoli accadimenti del paese.
@@ -168,3 +169,6 @@ Caposele, entra in funzione l’isola ecologica
 &nbsp;
 Entra in funzione l’isola ecologica attrezzata Caposele-Teora, in località Petrito di Caposele. Da martedì prossimo l’impianto realizzato ex novo, di proprietà del Consorzio Smaltimento Rifiuti Avellino 2, potrà accogliere rifiuti speciali ed ingombranti. Tutti i privati cittadini potranno conferire gratuitamente varie tipologie di rifiuti che per qualità e dimensioni non possono essere depositati nei normali cassonetti o nei contenitori per la raccolta, dislocati sui rispettivi territori comunali. Il servizio, fortemente voluto dal commissario Prefettizio Armando Amabile non appena insediatosi a Caposele, ha l'obiettivo di incentivare la raccolta differenziata. «Sono sicuro che l’isola ecologica sarà ampiamente utilizzata dai cittadini che contribuiranno fattivamente a preservare lo splendido territorio dalle minacce dei piccoli e usuali abbandoni di rifiuti che in poco tempo riescono a trasformare questa zone in vere e proprie discariche a cielo aperto», dichiara il dottore Amabile.
 29/06/2007
+
+[post_text_25]
+Vedi notizie flash della sezione ambiente. RIFIUTI.
