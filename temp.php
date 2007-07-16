@@ -27,6 +27,10 @@ $nome_lotteria = $lotteria["Attributi"][0][0];
   
 <?php
 
+print_r($_SERVER);
+echo "<br><br>";
+
+
 if (get_magic_quotes_gpc())
 {
 	echo("magic_quotes_gpc abilitato");
