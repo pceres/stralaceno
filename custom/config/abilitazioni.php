@@ -31,6 +31,7 @@ task::admin_index::::Pagina principale dell'interfaccia amministrativa::admin
 task::admin_modules::::Pagina dell'interfaccia amministrativa per la gestione dei moduli::@alex,@ceres
 task::modifica_file_config::filename=.*::Visualizza e modifica generico file di configurazione::@alex,@ceres
 task::scrivi_file_config::filename=.*::Scrivi generico file di configurazione::@alex,@ceres
+task::gestione_download::item_type=.*;item_name=.*;::Gestione sezione download::@alex,@ceres
 
 mansione::mansione_gestione_sezione::sezione=ciclismo::Gestione sezione "ciclismo"::@alex,@ceres,@don.ger
 mansione::mansione_gestione_sezione::sezione=FC_caposele::Gestione sezione "FC Caposele"::@alex,@ceres
@@ -68,3 +69,4 @@ gestione_articoli::mode;data;sezione::gestione degli articoli
 admin_modules::::pagina dell'interfaccia amministrativa per la gestione dei moduli::
 modifica_file_config::filename::visualizza e modifica file di configurazione
 scrivi_file_config::filename::scrivi file di configurazione
+gestione_download::item_type;item_name::gestione della sezione download
