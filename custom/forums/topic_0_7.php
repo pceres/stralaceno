@@ -117,6 +117,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 103::paolo::21/12/2006 22.03.20::visible
 104::NICOLA M.::19/04/2007 10.54.53::visible
 105::Giuseppe S.::20/04/2007 19.35.37::visible
+106::NICOLA M.::14/07/2007 11.54.36::visible
 
 [post_text_0]
 Aspettiamo le vostre dichiarazioni di sfida...
@@ -667,3 +668,5 @@ TRA 4 MESI SARA' DI NUOVO STRALACENO 2007 INIZIAMO A PROVARE IL PERCORSO VORREI 
 [post_text_105]
 Bene, organizziamoci e iniziiamo a sudare...
 
+[post_text_106]
+IERI GRANDE PROVA HO CORSO UNA GRANDE PROVA SUI 25'30 INIZIAMO A SCENDERE MA NESSUNO SI VUOLE SCOPRIRE.INIZIAMO A CONFRONTARCI.

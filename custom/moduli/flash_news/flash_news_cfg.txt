@@ -6,6 +6,8 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+15/07/2007::Il Comune di Caposele ha concesso all'ARS l'uso a pagamento dello stadio Palmenta per l'attivit&agrave; podistica per 60 giorni a partire dal 12 luglio: tutti i giorni della settimana dalle ore 18.30 alle 20.30 . L'importo che l'ARS ha versato al Comune &egrave; di 30 euro. 
+15/07/2007::Partecipanti alla XIV edizione della gara podistica "CorriRoccadaspide, trofeo S. Sinforosa di km.8 a Roccadaspide (Sa): Salvatore Merola, Paolo Viscardi, Alessandro Russomanno, Nicola D'Auria, Donatello Cirillo, Gelsomino Merola (aggragato-non socio), Saverio Perna (aggregato-non socio).
 02/07/2007::Partecipanti alla X edizione della gara podistica "marcialonga in salita Mercogliano - Montevergine" di km.16,5 a Mercogliano (Av): Francesco Ceres, Salvatore Merola, Paolo Viscardi, Alessandro Russomanno.
 18/06/2007::Partecipanti alla III edizione della gara podistica "notturna sianese" di km.10 a Siano (Sa): Francesco Ceres, Salvatore Merola, Alessandro Russomanno, Paolo Viscardi, Donatello Cirillo. Accompagnatore: Luciano Viscido.
 04/06/2007::L'edizione 2007 della Stralaceno si disputer&agrave; il 31 agosto.

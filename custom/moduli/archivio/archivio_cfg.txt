@@ -20,6 +20,7 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
+30::homepage::X edizione Mercogliano-Montevergine::
 29::homepage::III notturna sianese::
 26::homepage::Classifica 'caposelese' sondaggio Champions 2007::
 27::homepage::Risultati elezioni comunali Caposele 27-28/05/07::
