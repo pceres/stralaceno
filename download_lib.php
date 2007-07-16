@@ -12,7 +12,7 @@ DEFINE("indice_download_hits"		, 8);
 
 
 ////////////////////////////////////////////////////////////////////////////////////////
-function show_download_folder(&$config_download,$download_resource_info,&$fulltree,$login,$level)
+function show_download_folder(&$config_download,$download_resource_info,&$fulltree,$login,$level,$admin_mode)
 {
 
 $download_error_msg = '';
@@ -39,6 +39,8 @@ if ($level == 0)
 	$item_ctime 		= $item[indice_download_ctime];
 	$item_hits 		= $item[indice_download_hits];
 	
+	$script_name = $_SERVER['SCRIPT_NAME'];
+	
 	show_download_header();
 	
 	// il gruppo dell'utente autenticato puo' accedere al folder?
@@ -62,7 +64,7 @@ if ($level == 0)
 			// folder di livello maggiore
 			$folder_parent_type = $folder_parent[indice_download_type];
 			$folder_parent_name = $folder_parent[indice_download_name];
-			$folder_parent_link = "download.php?resource_type=$folder_parent_type&amp;resource_id=$folder_parent_name";
+			$folder_parent_link = $server_name."?resource_type=$folder_parent_type&amp;resource_id=$folder_parent_name";
 			$folder_parent_caption = $folder_parent[indice_download_caption];
 			$back_msg = "... -> <a href=\"$folder_parent_link\">$folder_parent_caption</a> ->";
 			$back_arrow = "<a class=\"no_underline\" href=\"$folder_parent_link\"><big>&larr;</big></a>&nbsp;&nbsp;";
@@ -97,7 +99,7 @@ else
 			$folder_item = $tree[$folder_item_name];
 			$folder_item_type = $folder_item['data_folder'][indice_download_type];
 			
-			show_download_item($folder_item['data_folder'],$level,$fulltree);
+			show_download_item($folder_item['data_folder'],$level,$fulltree,$admin_mode);
 // 			if ($folder_item_type == 'folder')
 // 			{
 // 				show_download_folder($folder_path,$folder_item,'',Array(),'',$login,$level+1);
@@ -126,7 +128,7 @@ if ($level == 0)
 	show_download_footer();
 	
 	// aggiorna contatore
-	if ($item_name !== 'folder_root')
+	if ( ($item_name !== 'folder_root') & (!$admin_mode) )
 	{
 		increment_download_counter($config_download,$download_resource_info);
 	}
@@ -136,7 +138,7 @@ if ($level == 0)
 
 
 ////////////////////////////////////////////////////////////////////////////////////////
-function show_download_item($folder_item,$level,&$fulltree)
+function show_download_item($folder_item,$level,&$fulltree,$admin_mode)
 {
 $folder_item_type 	 = $folder_item[indice_download_type];
 $folder_item_name 	 = $folder_item[indice_download_name];
@@ -152,27 +154,31 @@ $spacing = str_repeat('&nbsp;',$level*8);
 switch ($folder_item_type)
 {
 case 'folder':
-	show_download_item_folder($folder_item,$fulltree);
+	show_download_item_folder($folder_item,$fulltree,$admin_mode);
 	break;
 	
 case 'file':
-	show_download_item_file($folder_item,$fulltree);
+	show_download_item_file($folder_item,$fulltree,$admin_mode);
 	break;
 	
 case 'link':
-	show_download_item_link($folder_item,$fulltree);
+	show_download_item_link($folder_item,$fulltree,$admin_mode);
 	break;
 	
 default:
 	die("Tipo $folder_item_type sconosciuto per $folder_item_name!");
 }
 
-} // end function show_download_item($folder_item,$level,$tree)
+} // end function show_download_item($folder_item,$level,$tree,$admin_mode)
 
 
 //////////////////////////////////////////////////////////////////////////////////////
-function show_download_item_folder($folder_item,&$fulltree)
+function show_download_item_folder($folder_item,&$fulltree,$admin_mode)
 {
+
+# dichiara variabili
+extract(indici());
+
 $folder_item_type 	 = $folder_item[indice_download_type];
 $folder_item_name 	 = $folder_item[indice_download_name];
 $folder_item_caption 	 = $folder_item[indice_download_caption];
@@ -185,18 +191,28 @@ $folder_item_hits 	 = $folder_item[indice_download_hits];
 
 // 	echo $spacing."- <a href=\"download.php?resource_type=folder&amp;resource_id=$folder_item_name\">$folder_item_caption</a><br>\n";
 
-?>
+$script_name = $_SERVER['SCRIPT_NAME'];
+$resource_link = "$script_name?resource_type=$folder_item_type&amp;resource_id=$folder_item_name";
 
-<!-- folder <?php echo $folder_item_name; ?>-->
-<dl>
-<dt class="dm_row">
-	<a class="dm_icon" href="download.php?resource_type=folder&amp;resource_id=<?php echo $folder_item_name; ?>">
-	<img src="<?php echo $site_abs_path; ?>images/filetype_icons/folder.png" alt="folder icon"/></a>
-	<a class="dm_name" href="download.php?resource_type=folder&amp;resource_id=<?php echo $folder_item_name; ?>">
-		<?php echo $folder_item_caption; ?>
-	</a>
-</dt>
-<dd class="dm_description"><p><?php echo $folder_item_description; ?></p></dd>
+echo "<dl>";
+show_download_item_info($folder_item,&$fulltree,$resource_link);
+
+if ($admin_mode)
+{
+	$admin_link = "manage_download.php?resource_type=$folder_item_type&amp;resource_id=$folder_item_name";
+?>
+<dd class="dm_taskbar">
+<ul>
+<li><a href="<?php echo $admin_link; ?>&amp;admin_action=edit_data">Modifica info</a></li>
+<!-- <li><a href="<?php echo $admin_link; ?>&amp;admin_action=delete_folder">Cancella cartella</a></li> -->
+<!-- <li><a href="<?php echo $admin_link; ?>&amp;admin_action=new_folder">Nuova cartella</a></li> -->
+<!-- <li><a href="<?php echo $admin_link; ?>&amp;admin_action=new_file">Nuovo file</a></li> -->
+<!-- <li><a href="<?php echo $admin_link; ?>&amp;admin_action=new_link">Nuovo link</a></li> -->
+</ul>
+</dd>
+<?php
+} // end if ($admin_mode)
+?>
 </dl>
 
 <?php
@@ -205,8 +221,12 @@ $folder_item_hits 	 = $folder_item[indice_download_hits];
 
 
 //////////////////////////////////////////////////////////////////////////////////////
-function show_download_item_file($folder_item,&$fulltree)
+function show_download_item_file($folder_item,&$fulltree,$admin_mode)
 {
+
+# dichiara variabili
+extract(indici());
+
 $folder_item_type 	 = $folder_item[indice_download_type];
 $folder_item_name 	 = $folder_item[indice_download_name];
 $folder_item_caption 	 = $folder_item[indice_download_caption];
@@ -217,50 +237,37 @@ $folder_item_auth_write	 = $folder_item[indice_download_auth_write];
 $folder_item_ctime 	 = $folder_item[indice_download_ctime];
 $folder_item_hits 	 = $folder_item[indice_download_hits];
 
-$download_item_info = get_resource_fullpath($fulltree,$folder_item_type,$folder_item_name);
+$script_name = $_SERVER['SCRIPT_NAME'];
+$resource_link = "$script_name?resource_type=$folder_item_type&amp;resource_id=$folder_item_name";
 
-$resource_fullname = $download_item_info['fullname'];	// nome completo del file
+echo "<dl>";
+show_download_item_info($folder_item,&$fulltree,$resource_link);
 
-if (0)
+echo "<dd class=\"dm_taskbar\">";
+
+if ($admin_mode)
 {
-	$info = stat($resource_fullname);					// info sul file
-	$last_modify_date = date("F d Y H:i:s", filemtime($resource_fullname));	// data ultima modifica del file
-}
-else
-{
-	$last_modify_date = $folder_item_ctime;
-}
-
-$resource_info = get_filename_mimetype($resource_fullname);
-$resource_icon = $resource_info['icon'];
-
+	$admin_link = "manage_download.php?resource_type=$folder_item_type&amp;resource_id=$folder_item_name";
 ?>
-
-<!-- file <?php echo $folder_item_name; ?>-->
-<dl>
-<dt>
-<a class="dm_icon" href="download.php?resource_type=file&amp;resource_id=<?php echo $folder_item_name; ?>">
-	<img src="<?php echo $site_abs_path; ?>images/filetype_icons/<?php echo $resource_icon; ?>" alt="file icon">
-</a>
-<a class="dm_name" href="download.php?resource_type=file&amp;resource_id=<?php echo $folder_item_name; ?>">
-	<?php echo $folder_item_caption; ?>
-</a>
-</dt>
-<dd class="dm_date">
-<?php echo $last_modify_date; ?>
-</dd>
-<dd class="dm_description">
-<p><?php echo $folder_item_description; ?></p>	</dd>
-
-<dd class="dm_counter">
-Hits: <?php echo $folder_item_hits; ?>
-</dd>
-<dd class="dm_taskbar">
 <ul>
-<li><a href="download.php?resource_type=file&amp;resource_id=<?php echo $folder_item_name; ?>&amp;download_mode=attachment">Download</a></li>
-<li><a href="download.php?resource_type=file&amp;resource_id=<?php echo $folder_item_name; ?>">Visualizza</a></li>
+<!-- <li><a href="<?php echo $admin_link; ?>&amp;admin_action=delete_file">Cancella file</a></li> -->
+<li><a href="<?php echo $admin_link; ?>&amp;admin_action=update_file">Ricarica file</a></li>
+<!-- <li><a href="<?php echo $admin_link; ?>&amp;admin_action=edit_data">Modifica info</a></li> -->
 </ul>
 </dd>
+<?php
+} // end if ($admin_mode)
+else
+{
+?>
+<ul>
+<li><a href="<?php echo $resource_link; ?>&amp;download_mode=attachment">Download</a></li>
+<li><a href="<?php echo $resource_link; ?>">Visualizza</a></li>
+</ul>
+</dd>
+<?php
+} // end if ($admin_mode)
+?>
 </dl>
 
 <?php
@@ -280,8 +287,68 @@ Hits: <?php echo $folder_item_hits; ?>
 
 
 //////////////////////////////////////////////////////////////////////////////////////
-function show_download_item_link($folder_item,&$fulltree)
+function show_download_item_link($folder_item,&$fulltree,$admin_mode)
 {
+
+# dichiara variabili
+extract(indici());
+
+$folder_item_type 	 = $folder_item[indice_download_type];
+$folder_item_name 	 = $folder_item[indice_download_name];
+$folder_item_caption 	 = $folder_item[indice_download_caption];
+$folder_item_description = $folder_item[indice_download_description];
+$folder_item_params 	 = $folder_item[indice_download_params];
+$folder_item_auth_read 	 = $folder_item[indice_download_auth_read];
+$folder_item_auth_write	 = $folder_item[indice_download_auth_write];
+$folder_item_ctime 	 = $folder_item[indice_download_ctime];
+$folder_item_hits 	 = $folder_item[indice_download_hits];
+
+$script_name = $_SERVER['SCRIPT_NAME'];
+$resource_link = "$script_name?resource_type=$folder_item_type&amp;resource_id=$folder_item_name";
+
+echo "<dl>";
+show_download_item_info($folder_item,&$fulltree,$resource_link);
+
+echo "<dd class=\"dm_taskbar\">\n";
+
+if ($admin_mode)
+{
+	$admin_link = "manage_download.php?resource_type=$folder_item_type&amp;resource_id=$folder_item_name";
+?>
+<ul>
+<li><a href="<?php echo $admin_link; ?>&amp;admin_action=new_file">Modifica info</a></li>
+<!-- <li><a href="<?php echo $admin_link; ?>&amp;admin_action=edit_data">Cancella link</a></li> -->
+<!-- <li><a href="<?php echo $admin_link; ?>&amp;admin_action=new_folder">Ricarica link</a></li> -->
+</ul>
+<?php
+} // end if ($admin_mode)
+else
+{
+?>
+<ul>
+	<li>
+		<a href="download.php?resource_type=link&amp;resource_id=<?php echo $folder_item_name; ?>">Visualizza</a>
+	</li>
+</ul>
+<?php
+} // end if ($admin_mode)
+?>
+</dd>
+</dl>
+
+<?php
+} // end function show_download_item_link($folder_item)
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////
+function show_download_item_info($folder_item,&$fulltree,$resource_link)
+{
+
+# dichiara variabili
+extract(indici());
+
 $folder_item_type 	 = $folder_item[indice_download_type];
 $folder_item_name 	 = $folder_item[indice_download_name];
 $folder_item_caption 	 = $folder_item[indice_download_caption];
@@ -296,42 +363,43 @@ $download_item_info = get_resource_fullpath($fulltree,$folder_item_type,$folder_
 
 $resource_fullname = $download_item_info['fullname'];	// nome completo del file
 
-$resource_info = get_filename_mimetype($resource_fullname);
-$resource_icon = $resource_info['icon'];
+$last_modify_date = $folder_item_ctime;
 
-// 	echo $spacing."- <a href=\"download.php?resource_type=link&amp;resource_id=$folder_item_name\"> --&gt;$folder_item_caption</a><br>\n";
+if ($folder_item_type === 'folder')
+{
+	$resource_icon = "folder.png";
+}
+else
+{
+	$resource_info = get_filename_mimetype($resource_fullname);
+	$resource_icon = $resource_info['icon'];
+}
 
 ?>
 
-<!-- link <?php echo $folder_item_name; ?>-->
-<dl>
+<!-- <?php echo $folder_item_type; ?> <?php echo $folder_item_name; ?>-->
 <dt>
-<a class="dm_icon" href="download.php?resource_type=link&amp;resource_id=<?php echo $folder_item_name; ?>">
-	<img src="<?php echo $site_abs_path; ?>images/filetype_icons/<?php echo $resource_icon; ?>" alt="file icon">
+<a class="dm_icon" href="<?php echo $resource_link; ?>">
+	<img src="<?php echo $site_abs_path; ?>images/filetype_icons/<?php echo $resource_icon; ?>" alt="<?php echo $folder_item_type; ?> icon">
 </a>
-<a class="dm_name" href="download.php?resource_type=link&amp;resource_id=<?php echo $folder_item_name; ?>">
+<a class="dm_name" href="<?php echo $resource_link; ?>">
 	<?php echo $folder_item_caption; ?>
 </a>
 </dt>
-<!--<dd class="dm_date">
-gg.mm.aaaa	</dd>-->
+<dd class="dm_date">
+<?php echo $last_modify_date; ?>
+</dd>
 <dd class="dm_description">
-<p>Descrizione della risorsa "<?php echo $folder_item_caption; ?>"&nbsp;</p>	</dd>
+<p><?php echo $folder_item_description; ?></p>	</dd>
 
 <dd class="dm_counter">
 Hits: <?php echo $folder_item_hits; ?>
 </dd>
-<dd class="dm_taskbar">
-<ul>
-	<li>
-		<a href="download.php?resource_type=link&amp;resource_id=<?php echo $folder_item_name; ?>">Visualizza</a>
-	</li>
-</ul>
-</dd>
-</dl>
 
 <?php
-} // end function show_download_item_link($folder_item)
+
+} // function show_download_item_info($folder_item,&$fulltree)
+
 
 
 
@@ -464,7 +532,10 @@ return array('file_path' => $file_path,'file_abs_path' => $file_abs_path,'file_n
 
 
 ////////////////////////////////////////////////////////////////////////////////////////
-function download_file(&$config_download,$download_resource_info,$login,$download_mode) {
+function download_file(&$config_download,$download_resource_info,$login,$download_mode,$admin_mode) {
+
+# dichiara variabili
+extract(indici());
 
 $resource_path 		= $download_resource_info['resource_path'];
 $resource_type 		= $download_resource_info['resource_type'];
@@ -509,6 +580,7 @@ if (!empty($download_error_msg))
 }
 else
 {
+
 	// sostituisci gli spazi con "%20"
 	$template = array(" ");
 	$effective = array("%20");
@@ -525,10 +597,12 @@ else
 	$fp=fopen($fullfilename, "r");
 	fpassthru($fp);
 	
-	// aggiorna contatore
-	increment_download_counter($config_download,$download_resource_info);
+	if (!$admin_mode)
+	{
+		// aggiorna contatore
+		increment_download_counter($config_download,$download_resource_info);
+	}
 }
-
 
 } // end function download_file($download_resource_info,$fullname,$login,$download_mode)
 
@@ -567,7 +641,7 @@ save_config_file($filename_download,$config_download);
 
 
 ////////////////////////////////////////////////////////////////////////////////////////
-function download_link(&$config_download,$download_resource_info,$login) {
+function download_link(&$config_download,$download_resource_info,$login,$admin_mode) {
 
 $resource_path 		= $download_resource_info['resource_type'];
 $resource_name 		= $download_resource_info['resource_name'];
@@ -607,8 +681,11 @@ else
 	// redirect del browser al nuovo link
 	header("Location: $fullname");
 	
-	// aggiorna contatore
-	increment_download_counter($config_download,$download_resource_info);
+	if (!$admin_mode)
+	{
+		// aggiorna contatore
+		increment_download_counter($config_download,$download_resource_info);
+	}
 }
 
 
