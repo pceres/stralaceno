@@ -320,24 +320,21 @@ function check_single_auth(&$mansioni_filtrate,$found_task,$abilitazione,$tag,$p
 {
 	// verifica se la mansione $abilitazione verifica l'abilitazione di livello $level, rispetando le regole $mansioni_filtrate
 	
-// 	$debug = false;
-// 	$debug = true;
-	
 	$abilitazione_tipo    = $abilitazione[index_abilitazione_tipo];
 	$abilitazione_tag     = $abilitazione[index_abilitazione_tag];
 	$abilitazione_params  = $abilitazione[index_abilitazione_params];
 	$abilitazione_caption = $abilitazione[index_abilitazione_caption];
 	$abilitazione_allowed = $abilitazione[index_abilitazione_allowed];
 	
-if ($debug) {
-	echo "<br>Verifico la seguente mansione di livello $level:<br>\n";
-	echo "&nbsp;&nbsp;&nbsp;&nbsp;$abilitazione_tipo<br>\n";
-	echo "&nbsp;&nbsp;&nbsp;&nbsp;$abilitazione_tag<br>\n";
-	echo "&nbsp;&nbsp;&nbsp;&nbsp;$abilitazione_params<br>\n";
-	echo "&nbsp;&nbsp;&nbsp;&nbsp;$abilitazione_caption<br>\n";
-	echo "&nbsp;&nbsp;&nbsp;&nbsp;$abilitazione_allowed<br>\n";
-	echo "<br>\n";
-}
+	if ($debug) {
+		echo "<br>Verifico la seguente mansione di livello $level:<br>\n";
+		echo "&nbsp;&nbsp;&nbsp;&nbsp;$abilitazione_tipo<br>\n";
+		echo "&nbsp;&nbsp;&nbsp;&nbsp;$abilitazione_tag<br>\n";
+		echo "&nbsp;&nbsp;&nbsp;&nbsp;$abilitazione_params<br>\n";
+		echo "&nbsp;&nbsp;&nbsp;&nbsp;$abilitazione_caption<br>\n";
+		echo "&nbsp;&nbsp;&nbsp;&nbsp;$abilitazione_allowed<br>\n";
+		echo "<br>\n";
+	}
 	
 	$found_task_tag     = $found_task[index_task_tag];
 	$found_task_params  = $found_task[index_task_params];
@@ -367,12 +364,24 @@ if ($debug) {
 			// verifica se i parametri coincidono (regexp)
 			if (($ks_par == $params) | (ereg($ks_par,$params)))
 			{
-if ($debug) {				echo("Anche i parametri corrispondono ($ks_par,$params)!<br>\n");}
+				if ($debug)
+				{
+					echo("Anche i parametri corrispondono ($ks_par,$params)!<br>\n");
+				}
 				return true;
 			}
 			else
 			{
-if ($debug) {				echo("I parametri non corrispondono ($ks_par,$params)!<br>\n");}
+				if ($debug)
+				{
+					echo("I parametri non corrispondono ($ks_par,$params)!<br>\n");
+				}
+echo "&lt;$ks_par|$params&gt;<br>";
+echo "<br><br>";
+print_r($abilitazione);
+echo "<br><br>";
+print_r($found_task);
+echo "<br><br>";
 				return false;
 			}
 		}
