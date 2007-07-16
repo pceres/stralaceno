@@ -26,6 +26,8 @@ if (empty($download_mode))
 	$download_mode = 'inline';
 }
 
+// siamo in modalita' normale
+$admin_mode = false;
 
 // carica configurazione dell'area download
 $config_download = get_config_file($filename_download);
@@ -59,14 +61,14 @@ switch ($resource_type)
 {
 case 'folder':
 	// visualizza struttura parziale dell'albero dell'area download
-	show_download_folder($config_download,$download_resource_info,$tree,$login,0);
+	show_download_folder($config_download,$download_resource_info,$tree,$login,0,$admin_mode);
 	break;
 case 'file':
 	// scarica il file
-	download_file($config_download,$download_resource_info,$login,$download_mode);
+	download_file($config_download,$download_resource_info,$login,$download_mode,$admin_mode);
 	break;
 case 'link':
-	download_link($config_download,$download_resource_info,$login);
+	download_link($config_download,$download_resource_info,$login,$admin_mode);
 	break;
 default:
 	die("Tipo sconosciuto ($resource_type)!");
