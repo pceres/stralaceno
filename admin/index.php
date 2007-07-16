@@ -123,6 +123,10 @@ Gestione <a href='manage_layouts.php'>layout (colonna destra e sinistra)</a>
 
 <hr>
 
+<a href='manage_downloads.php'>Gestione sezione download</a>
+
+<hr>
+
 <form action="manage_questions.php?task=index" method="post" onSubmit="cripta_campo_del_form(this,'password')">
 Gestione lotterie e questionari: Password: <input name="password" type="password">
 <input type="submit" value="Vai">
