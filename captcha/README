@@ -1,0 +1,393 @@
+
+Easy CAPTCHA class
+------------------
+
+This PHP script provides a very user-friendly CAPTCHA solution.
+You can easily embed it into your <form> generation scripts to
+prevent spambot access.
+
+It strives to be accessible and implements an arithmetic riddle
+as alternative for visually impaired users. It does not require
+cookies, but makes use of "AJAX" to give users visual feedback
+for solving the CAPTCHA. It grants access fuzzily (when single
+letters were misguessed) instead of frustrating people. And it
+is rather customizable.
+
+
+Integration
+-----------
+
+On a page that contains a form (maybe even just a login or
+registration mask), you simply call the ::form() function to get
+a CAPTCHA image and input box generated, after you did include()
+the "captcha.php" file:
+
+ <form action="...
+   <textarea>...
+   ...
+   <?php
+
+       print captcha::form();
+
+   ?>
+   ...
+   <input type="submit"...
+ </form>
+
+Per default this just outputs the CAPTCHA <img> and an additional
+solution <input> box - wrapped in a few <div>s.
+
+In the receiving PHP script or part, you then simply invoke the
+::solved() function, which will return a boolean value of true, if
+the user correctly specified the displayed letters and numbers.
+
+   ...
+   if ($_POST && captcha::solved()) {
+
+         // ok, proceed
+
+   }
+   else {
+         
+      // error, or redisplay the CAPTCHA
+   }
+
+The static captcha:: class functions do not print an error message
+themselves. But you have to integrate the ::solved() function into
+your form processing logic anyhow.
+
+
+   You can of course also instantiate the real "easy_captcha" class
+   yourself, but typically the static "captcha" API is all you need.
+
+
+   Instead of embedding the CAPTCHA with an existing form, you
+   could of course create a pre-check page - in multi form wizards.
+   It was then for example up to you to transfer the solved-state,
+   and prevent repeated loops or circumvention methods.
+
+
+Customization
+-------------
+
+A lot of settings can be configured as constants. This however must
+occour befoure you include() the "captcha.php" file. Therefore its
+often more convenient to just adapt the settings inside the script
+itself.
+
+   CAPTCHA_PERSISTENT
+       Once the captcha was solved, it sets a time-bombed cookie
+       to spare the user from further captchas on the current site.
+
+   CAPTCHA_NEW_URLS
+       Enables complex JavaScript hooks and $_POST check, to require
+       a solution only when new URLs were submitted. This does work
+       well for comment sections or discussion boards, but not for
+       re-editing pages where URLs could already have been present.
+
+   CAPTCHA_AJAX
+       Enables visual feedback when the user enters a solution. The
+       input box will turn green if the correct letters are entered.
+
+   CAPTCHA_NOTEXT
+       If set to 1, disables the textual module for no-graphics
+       browsers.
+
+   CAPTCHA_MIN_CHARS
+   CAPTCHA_MAX_CHARS
+       How many letters to use. (Do not change this.)
+
+   CAPTCHA_MODE
+       There are two drawing modules. The new wave image is enabled
+       with a 1. The older colorful rotated letters module with a 2.
+
+   CAPTCHA_INVERSE
+       Most images have a white background per default (0). Set to
+       1 for black (inverse).
+
+   CAPTCHA_IMAGE_SIZE
+       The average size of the generated images - normally "200x60",
+       but the size is a little randomized (10%) on each call.
+
+   CAPTCHA_INPUT_STYLE
+       Default CSS style of the solution <input> text field. Give an
+       empty string here, for setting the style from a .css file.
+
+   CAPTCHA_PIXEL
+       Drawing modes:
+       1 = single pixel distortion, fastest method, default
+       2 = 2x2 greyscale pixel reading
+       3 = positional color pixel moving (2x2 source), slowest mode
+
+   CAPTCHA_ONCLICK_HIRES
+       If enabled the user can reload the image by clicking on it.
+       The reloaded will have a higher quality (which is disabled per
+       default because the image processing takes a lot of processor
+       attention).
+
+   CAPTCHA_FUZZY
+       The percentual fuzzines of the solution is 0.65% per default,
+       which allows 1 or 2 misguessed letters in a 5 to 7 letter text.
+
+   CAPTCHA_TIMEOUT
+       Validity fo captcha instance/data file/id in seconds.
+
+   CAPTCHA_LOG
+       Log hacking attempts into /tmp/captcha/log text file.
+
+   CAPTCHA_TEMP_DIR
+       Typically defaults to /tmp/, if not configured to something
+       else already. You can pre-set this constant to force a local
+       directory, but a common directory on shared hosting servers
+       will typically not hurt processing.
+       Beware to include a trailing slash/ for directories. Else it
+       would be used like a prefix (if all other temp directory parts
+       were already set up correctly.)
+
+Per default this class comes with a Freeware .ttf font file. You
+can of course add additional ones - they are typically searched
+in the same directory as "captcha.php". The now-default image class
+uses just one font per generated image.
+
+There are more things to configure, but you have to edit within the
+code then. For example you can change the graphical image, in the
+->generate() class - around line 150:
+
+      #-- mk IMAGE/GRAPHIC
+      $this->image = new easy_captcha_graphic_image_waved();
+    //$this->image = new easy_captcha_graphic_whirly();
+
+Uncomment the first line and enable the second instead.
+
+In the "easy_captcha_dxy_wave" class you could lower the real numbers
+in the constructor to make the generated image less whirly.
+
+In "easy_captcha_text_math_formula" you can enable additional more
+difficult arithmetic riddles. (Wouldn't help against targetted spam
+bots, because a real math parser and solver was easy to build.)
+
+Down in the "easy_captcha_util" class, you can adapt the AJAX code.
+In particular you might want to edit the visual feedback in the
+::js_rpc() function - which you find at the bottom of "captcha.php".
+This plain JavaScript code sets the solution <input> box border to
+green on success.
+
+
+When invoking captcha::form() you can also add a tet string for
+display above the <input> field. For example
+
+  captcha::form( "<small>&larr; enter these letters:</small><br/>" );
+
+might be useful.
+
+In your sites CSS file, you can style the elements using either
+the .captcha class or #captcha id selectors:
+
+  div.captcha input {
+     border: 1px;
+  }
+  #captcha img {
+     border: 0px;
+  }
+  .captcha small {
+     // see above
+  }
+
+
+Technical Details
+-----------------
+
+On instantiation the easy_captcha class creates an id, and a temporary
+storage file gets created (and automatically deleted once the captcha
+was solved or expired, etc).
+
+The id string itself gets injected into the ::form() output. And the
+according data file typically contains following data serialized:
+
+  easy_captcha Object (
+     [id] => ec.1111111111.001c09a8dad070576bfab73796819693
+     [created] => 1111111111
+     [created$] => Mon, 01 Jan 2008 01:02:03 +0000
+     [expires] => 1111115555
+     [passed] => 0
+     [sent] => 0
+     [tries] => 5
+     [ajax_tries] => 25
+     [maxpasses] => 1
+     [failures] => 0
+     [shortcut] => Array (
+         [0] => easy_captcha_persistent_grant Object ( )
+         [1] => easy_captcha_spamfree_no_new_urls Object ( )
+     )
+     [grant] => 0
+     [image] => easy_captcha_graphic_image_waved Object (
+         [fuzzy] => 0.65
+         [width] => 205
+         [height] => 65
+         [inverse] => 1
+         [maxsize] => 1048575
+         [quality] => 66
+         [solution] => xvESC9e
+      )
+     [text] => easy_captcha_text_math_formula Object (
+         [question] => What is 21 / 6 =
+         [solution] => 3.5
+     )
+  )
+
+Not all fields are used or updated always. Additionally fields may be
+present. And the [shortcut] and [image] and [text] objects follow the
+same interface, and are exchangeable (for other CAPTCHA solution code).
+
+
+Other notes
+-----------
+
+- Take note that the "captcha.php" script has some built-in defaults
+  which filter out certain possible letters from the CAPTCHAs. This
+  is because those don't look well with the default "COLLEGE.ttf"
+  font. You may want to tweak the ::mkpass() function, if you choose
+  a different font.
+
+- Speaking of the font. This is just Freeware - or more exactly, it
+  is Cardware ;) - not Public Domain or open source.
+  See also http://www.squaregear.net/fonts/
+
+- The comment header block with "api:php" and other info fields is in
+  preparation for a (not yet) common PHP plugin description scheme.
+  Its config: part deviates to XML format, because this is more terse
+  than YAML. The name:value pairs remain however more readable for all
+  other fields.
+
+- All stale temporary tracking files get deleted on innovocation. This
+  library however does not prevent disk fill-ups in this possible 3h
+  span (data files are typically 800 bytes each). This is an unlikely
+  DoS method, therefore not dealt with here, but still possible.
+
+- Likewise the hires image drawing methods could be exploited from
+  external sources to slow down the running web server or fastcgi
+  daemon. Unlikely, but keep this in mind.
+
+
+CAPTCHA Tightening
+------------------
+
+The default setup is pretty loose, and cannot prevent targetted
+spambot attacks. If you experience problems on your particular
+site, you could however lock it up. But please only do so as last
+resort - because this locks out a lot of people.
+
+Use following config settings:
+
+  define("CAPTCHA_PERSISTENT", 0);
+  define("CAPTCHA_NEW_URLS", 0);
+  define("CAPTCHA_AJAX", 0);
+  define("CAPTCHA_FUZZY", 1.00);
+  define("CAPTCHA_TIMEOUT", 1000);
+  define("CAPTCHA_ONCLICK_HIRES", 0);
+  define("CAPTCHA_PIXEL", 1);
+  define("CAPTCHA_IMAGE_TYPE", 2);
+
+  define("CAPTCHA_NOTEXT", 1);
+
+The last one disables the accessible textual/mathematical riddle.
+
+The old alternative image class, btw, is less safe than the new
+_wave graphics. But neither could be 100% safe from OCR attacks.
+It just happens to be far too much work for spambots currently
+when enough blogs/wikis/boards are left open or post-checked.
+
+
+Possible Problems
+-----------------
+
+ libgd isn't present
+
+    Of course, the captcha script won't work well (except the
+    math/text riddle of course), if no PHP gd extension is
+    present. Install it, recompile PHP or just load the module
+    if available by adding:
+      dl("gd.so");
+    If your provider support tells something about "gd.dll",
+    get a new one. 
+
+ $_SERVER["DOCUMENT_ROOT"] wrong
+
+     Some webservers (sourceforge.net) set the DOCUMENT_ROOT
+     incorrectly. You have to override it within the captcha.php
+     script then, like:
+        $_SERVER["DOCUMENT_ROOT"] = "/home/groups/y/yo/yourproj";
+
+ /tmp directory unwritable
+
+     You'll usually see error messages before you encounter this
+     problem. Define CAPTCHA_TEMP_DIR yourself.
+
+ Img expired. Reload page!
+
+     Can be multiple problems. The data/tracking file either
+     really expired (3 hours), or it didn't get written correctly
+     in the first place.
+
+     This is similar to a non-existing /tmp directory. Happens
+     on sourceforge.net for example, which distributes its load
+     across multiple servers & hence exposes diverging /tmp dirs
+     to running scripts.
+     Just provide and set a shared temp directory for captcha.php.
+
+ Font is not readable
+
+     Your gd extension either has no TTF support, or the font
+     file couldn't be found.
+
+ Image doesn't display
+
+     Right click the image, and copy its URL for inspection in
+     a new tab/window or wget test. Add error_reporting(E_ALL)
+     on top of captcha.php to debug what went wrong.
+
+     The problem might be Notice: messages, because your PHP has
+     left on debugging-only settings - error_reporting(E_NOTICE)
+     or E_ALL or E_STRICT for example.
+ 
+
+License
+-------
+
+This script is Public Domain. You could relicense it under ANY open
+source or Free software license you like (GNU LGPL / GPL, MPL, PHPL,
+Artistic, BSDL, or any other).
+
+
+Alternatives
+------------
+
+There is a clean CAPTCHA test implementation in the PEAR collection,
+http://pear.php.net/ - which is already used in many web apps.
+
+_This_ captcha.php class is used with ewiki+ for example (or there's
+at least a plugin for it).
+
+Other implementations are linked and documented on
+http://en.wikipedia.org/wiki/Captcha
+
+
+Changelog
+---------
+
+2.0
+ - almost completely rewritten version
+ - more object-structured, plugin-like architecture
+ - alternative graphical CAPTCHAs
+ - introduction of arithmetic riddle
+ - more configuration options
+ - self-managed data/tracking files
+ - but does still not require cookies
+
+0.9
+ - used data: URLs for embedding CAPTCHA images
+ - used time-bombed hash codes
+ - din't use any tracking files
+ - textual riddle representation of the graphic CAPTCHA
+ - didn't require cookies/sessions to operate
+
