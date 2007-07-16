@@ -73,7 +73,9 @@ define("CAPTCHA_MIN_CHARS", 5);      // how many letters to use
 define("CAPTCHA_MAX_CHARS", 7);
 
 #-- operation
-define("CAPTCHA_TEMP_DIR", (@$_SERVER['TEMP'] ? $_SERVER['TEMP'] : '/tmp') . "/captcha/");
+// define("CAPTCHA_TEMP_DIR", (@$_SERVER['TEMP'] ? $_SERVER['TEMP'] : '/tmp') . "/captcha/");
+// define("CAPTCHA_TEMP_DIR", $root_path . "captcha/tmp/");
+define("CAPTCHA_TEMP_DIR", $root_path."captcha/tmp/");
 define("CAPTCHA_PARAM_ID", "ec_i");
 define("CAPTCHA_PARAM_INPUT", "ec_s");
 define("CAPTCHA_BGCOLOR", 0xFFFFFF);   // initial background color (non-inverse, white)
@@ -86,7 +88,7 @@ define("CAPTCHA_BASE_URL", $script_abs_path."captcha/captcha.php");
 // echo __FILE__;
 // echo "<br><br>";
 // print_r($_SERVER);
-// die();
+// die(CAPTCHA_TEMP_DIR);
 
 /* simple API */
 class captcha {
@@ -313,6 +315,9 @@ class easy_captcha {
    #-- load object from saved captcha tracking data
    function load() {
       $fn = $this->data_file();
+
+         my_debug($fn);
+
       if (file_exists($fn)) {
          $saved = (array)@unserialize(fread(fopen($fn, "r"), 1<<20));
          foreach ($saved as $i=>$v) {
@@ -323,6 +328,13 @@ class easy_captcha {
         // log
       }
    }
+
+   function my_debug($ks) {
+         $f = fopen("/var/www/htdocs/work/test.txt", "w");
+         fwrite($f, "$ks\n");
+         fclose($f);
+}
+
 
    #-- save $this captcha state
    function save() {
