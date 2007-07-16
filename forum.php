@@ -13,6 +13,15 @@ questa libreria esamina i cookies o i parametri http (eventualmente) inviati, e 
 */
 require_once('login.php');
 
+/*
+Libreria per la generazione ed il check di captcha
+*/
+define("CAPTCHA_INVERSE", 0);    // black background
+define("CAPTCHA_NEW_URLS", 0);   // no auto-disabling/hiding for the demo
+require_once('captcha/captcha.php');
+
+
+
 $action	= $_REQUEST['action'];	// azione da eseguire
 $action	= sanitize_user_input($action,'plain_text',array());	// verifica di sicurezza
 
@@ -739,6 +748,18 @@ elseif ($post_status == 'censored')
 			</td>
 		</tr>
 		
+		<tr class="TSfondoChiaro">
+			<td class="Small" align="left" valign="middle">
+				<b>Captcha</b>
+			</td>
+			<td valign="top">
+				<?php
+				// output CAPTCHA img + input box
+				echo captcha::form("&rarr;&nbsp;");
+?>
+			</td>
+		</tr>
+		
 <?php
 if ($post_type === "new_topic_post")
 {
@@ -1068,6 +1089,15 @@ if ($post_type === "reply_post")
 		{
 			// una discussione con quel titolo esiste gia'
 			$write_post_error = "Gi&agrave esiste una discussione con quel titolo!";
+		}
+		
+		if (!captcha::solved())
+		{
+			// Non e' stato risulto il captcha! Possibile spambot
+			$write_post_error = "<p>Mi dispiace, per pubblicare il post devi indicare correttamente il <a href=\"http://www.wikipedia.it\">captcha</a>!<br><br>".
+			"	Questo accorgimento si &egrave; reso necessario per controbattere ai recenti attacchi di spam, ce ne scusiamo con gli utenti.<br><br>\n".
+			"Se pensi vuoi riprovare ad inserire il codice di nuovo, torna indietro con il browser e riprova.<br>\n".
+			"Se vuoi provare con un nuovo codice, torna indietro e ricarica la pagina<br></p>\n";
 		}
 		
 		// se c'e' un errore, visualizza il messaggio ed esci
