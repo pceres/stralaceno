@@ -56,7 +56,7 @@ $feed['items']		: array costituito da elementi con i campi:
 extract(indici());
 
 // filtro sui contenuti da inserire nel feed
-$allowed_content_types = Array('forum','articolo_edited','articolo_new','config_file');
+$allowed_content_types = Array('forum','articolo_edited','articolo_new','config_file','download');
 
 // individua data ultima modifica dei contenuti
 $filename_stat = stat($filename_logfile_content);
