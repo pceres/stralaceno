@@ -79,15 +79,16 @@ define("CAPTCHA_MIN_CHARS", 5);      // how many letters to use
 define("CAPTCHA_MAX_CHARS", 7);
 
 #-- operation
-define("CAPTCHA_TEMP_DIR", (@$_SERVER['TEMP'] ? ($_SERVER['TEMP']. "/captcha/") : (dirname(__FILE__)."/tmp/")) );
+// define("CAPTCHA_TEMP_DIR", (@$_SERVER['TEMP'] ? ($_SERVER['TEMP']. "/captcha/") : (dirname(__FILE__)."/tmp/")) );
+define("CAPTCHA_TEMP_DIR", (@$_SERVER['TEMP'] ? ($_SERVER['TEMP']. "/captcha/") : ($root_path."captcha/tmp/")) );
 define("CAPTCHA_PARAM_ID", "ec_i");
 define("CAPTCHA_PARAM_INPUT", "ec_s");
 define("CAPTCHA_BGCOLOR", 0xFFFFFF);   // initial background color (non-inverse, white)
 define("CAPTCHA_SALT", ",e?c:7<");
 #define("CAPTCHA_DATA_URLS", 0);     // RFC2397-URLs exclude MSIE users
-define("CAPTCHA_FONT_DIR", dirname(__FILE__));
+// define("CAPTCHA_FONT_DIR", dirname(__FILE__));
+define("CAPTCHA_FONT_DIR", $root_path."captcha/");
 define("CAPTCHA_BASE_URL", "http://$_SERVER[SERVER_NAME]:$_SERVER[SERVER_PORT]".$script_abs_path."captcha/captcha.php");
-
 
 
 /* simple API */
@@ -112,11 +113,13 @@ class captcha {
 
 
 #-- init (triggered if *this* script is called directly)
-if (realpath(strtok("$_SERVER[DOCUMENT_ROOT]/$_SERVER[REQUEST_URI]","?#"))==realpath(__FILE__)) {
+$check = (string)(strpos($_SERVER[REQUEST_URI],"captcha/captcha.php?"));
+
+/*if (realpath(strtok("$_SERVER[DOCUMENT_ROOT]/$_SERVER[REQUEST_URI]","?#"))==realpath(__FILE__)) {*/
+if (strlen($check)>0)
+{
    easy_captcha_utility::API();
 }
-
-
 
 
 
