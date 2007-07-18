@@ -118,6 +118,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 104::NICOLA M.::19/04/2007 10.54.53::visible
 105::Giuseppe S.::20/04/2007 19.35.37::visible
 106::NICOLA M.::14/07/2007 11.54.36::visible
+107::Jerry Notaro::17/07/2007 12.32.49::visible
 
 [post_text_0]
 Aspettiamo le vostre dichiarazioni di sfida...
@@ -670,3 +671,6 @@ Bene, organizziamoci e iniziiamo a sudare...
 
 [post_text_106]
 IERI GRANDE PROVA HO CORSO UNA GRANDE PROVA SUI 25'30 INIZIAMO A SCENDERE MA NESSUNO SI VUOLE SCOPRIRE.INIZIAMO A CONFRONTARCI.
+
+[post_text_107]
+Vai così Nico', quest'anno abbatti il muro dei 24...me lo sento!

@@ -21,7 +21,7 @@ Formato [elenco_topics]:
 4::Sondaggio Champions League 2006/2007::open::::::Pasquale C.::17::16
 5::Benvenuti nel forum::hidden::::::ceres::4::3
 6::Come funziona il forum::open::::::ceres::3::2
-7::le sfide della Stralaceno::open::::::foxy::107::106
+7::le sfide della Stralaceno::open::::::foxy::108::107
 8::soddisfatti della stralaceno edizione 2006???::open::::::cabo86::4::3
 9::Discussione::open::::::Antonio::115::101
 10::ci siete?????::open::::::cabo::11::10
