@@ -748,7 +748,7 @@ elseif ($post_status == 'censored')
 			</td>
 		</tr>
 		
-<!--		<tr class="TSfondoChiaro">
+		<tr class="TSfondoChiaro">
 			<td class="Small" align="left" valign="middle">
 				<b>Captcha</b>
 			</td>
@@ -758,7 +758,7 @@ elseif ($post_status == 'censored')
 				echo captcha::form("&rarr;&nbsp;");
 ?>
 			</td>
-		</tr>-->
+		</tr>
 		
 <?php
 if ($post_type === "new_topic_post")
@@ -1091,14 +1091,15 @@ if ($post_type === "reply_post")
 			$write_post_error = "Gi&agrave esiste una discussione con quel titolo!";
 		}
 		
-/*		if (!captcha::solved())
+		if (!captcha::solved())
 		{
 			// Non e' stato risulto il captcha! Possibile spambot
 			$write_post_error = "<p>Mi dispiace, per pubblicare il post devi indicare correttamente il <a href=\"http://it.wikipedia.org/wiki/Captcha\">captcha</a>!<br><br>".
 			"	Questo accorgimento si &egrave; reso necessario per controbattere ai recenti attacchi di spam, ce ne scusiamo con gli utenti.<br><br>\n".
-			"Se pensi vuoi riprovare ad inserire il codice di nuovo, torna indietro con il browser e riprova.<br>\n".
+			"Se vuoi riprovare ad inserire il codice di nuovo, torna indietro con il browser e riprova.<br>\n".
+			"Per rendere il codice piu' leggibile, clicca piu' volte sull'immagine.<br>\n".
 			"Se vuoi provare con un nuovo codice, torna indietro e ricarica la pagina<br></p>\n";
-		}*/
+		}
 		
 		// se c'e' un errore, visualizza il messaggio ed esci
 		if (!empty($write_post_error))
