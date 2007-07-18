@@ -2111,6 +2111,18 @@ else
 
 
 
+function my_debug($ks)
+{
+# dichiara variabili
+extract(indici());
+
+$f = fopen($root_path."debug.txt", "a+");
+fwrite($f, "$ks\n");
+fclose($f);
+} // end function my_debug($ks)
+
+
+
 //Page properties definitions
 error_reporting(0); // otherwise "StripDoubleColon($HTTP_REFERER);" gives error
 //error_reporting(2039); // otherwise "StripDoubleColon($HTTP_REFERER);" gives error. Show all errors but notices
