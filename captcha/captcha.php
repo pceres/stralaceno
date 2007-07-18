@@ -23,36 +23,42 @@
    This library operates CAPTCHA form submissions, to block spam bots and
    alike. It is easy to hook into existing web sites and scripts. It also
    tries to be "smart" and more user-friendly.
-   
+
    While the operation logic and identifier processing are extremley safe,
    this is a "weak" implementation. Specifically targetted and tweaked OCR
    software could overcome the visual riddle. And if enabled, the textual
    or mathematical riddles are rather simple to overcome if attacked.
    Generic spambots are however blocked already with the default settings.
-   
+
    PRINT captcha::form()
      emits the img and input fields for inclusion into your submit <form>
-   
+
    IF (captcha::solved())
      tests for a correctly entered solution on submit, returns true if ok
-   
+
    Temporary files are created for tracking, verification and basic data
    storage, but will get automatically removed once a CAPTCHA was solved
    to prevent replay attacks. Additionally this library uses "AJAX" super
    powers *lol* to enhance usability. And a short-lasting session cookie
    is also added site-wide, so users may only have to solve the captcha
    once (can be disabled, because that's also just security by obscurity).
-   
+
    Public Domain, available via http://freshmeat.net/p/captchaphp
 */
 
+
+// lo script puo' essere chiamato direttamente, nel qual caso bisogna caricare la libreria
+if (empty($root_path))
+{
+	require_once('../libreria.php');
+}
 
 
 #-- behaviour
 define("CAPTCHA_PERSISTENT", 1);     // cookie-pass after it's solved once (does not work if headers were already sent on innovocation of captcha::solved() check)
 define("CAPTCHA_NEW_URLS", 1);       // force captcha only when URLs submitted
 define("CAPTCHA_AJAX", 1);           // visual feedback while entering letters
-define("CAPTCHA_LOG", 0);            // create /tmp/captcha/log file
+define("CAPTCHA_LOG", 1);            // create /tmp/captcha/log file
 define("CAPTCHA_NOTEXT", 0);         // disables the accessible text/math riddle
 
 #-- look
@@ -73,22 +79,16 @@ define("CAPTCHA_MIN_CHARS", 5);      // how many letters to use
 define("CAPTCHA_MAX_CHARS", 7);
 
 #-- operation
-// define("CAPTCHA_TEMP_DIR", (@$_SERVER['TEMP'] ? $_SERVER['TEMP'] : '/tmp') . "/captcha/");
-// define("CAPTCHA_TEMP_DIR", $root_path . "captcha/tmp/");
-define("CAPTCHA_TEMP_DIR", $root_path."captcha/tmp/");
+define("CAPTCHA_TEMP_DIR", (@$_SERVER['TEMP'] ? ($_SERVER['TEMP']. "/captcha/") : (dirname(__FILE__)."/tmp/")) );
 define("CAPTCHA_PARAM_ID", "ec_i");
 define("CAPTCHA_PARAM_INPUT", "ec_s");
 define("CAPTCHA_BGCOLOR", 0xFFFFFF);   // initial background color (non-inverse, white)
 define("CAPTCHA_SALT", ",e?c:7<");
 #define("CAPTCHA_DATA_URLS", 0);     // RFC2397-URLs exclude MSIE users
 define("CAPTCHA_FONT_DIR", dirname(__FILE__));
-// define("CAPTCHA_BASE_URL", "http://$_SERVER[SERVER_NAME]:$_SERVER[SERVER_PORT]/" . substr(realpath(__FILE__));
-define("CAPTCHA_BASE_URL", $script_abs_path."captcha/captcha.php");
+define("CAPTCHA_BASE_URL", "http://$_SERVER[SERVER_NAME]:$_SERVER[SERVER_PORT]".$script_abs_path."captcha/captcha.php");
 
-// echo __FILE__;
-// echo "<br><br>";
-// print_r($_SERVER);
-// die(CAPTCHA_TEMP_DIR);
+
 
 /* simple API */
 class captcha {
@@ -286,14 +286,15 @@ class easy_captcha {
 
       #-- assemble
       $HTML =
-         "<div id=\"captcha\" class=\"captcha\">\n" .
-         "<input type=\"hidden\" id=\"$p_id\" name=\"$p_id\" value=\"$id\" />\n" .
-         "<img src=\"$img_url\" width=\"".$this->image->width."\" height=\"".$this->image->height."\" alt=\"$alt_text\" align=\"middle\" $onClick title=\"click on image to redraw\" />&nbsp;\n" .
+         '<div id="captcha" class="captcha">' .
+         '<input type="hidden" id="'.$p_id.'" name="'.$p_id.'" value="'.$id.'" />' .
+         '<img src="'.$img_url .'&amp;" width="'.$this->image->width.'" height="'.$this->image->height.'" alt="'.$alt_text.'" align="middle" '.$onClick.' title="click on image to redraw" />' .
+         '&nbsp;' .
          $add_text .
-         "<input title=\"please enter the letters you recognize in the CAPTCHA image to the left\" type=\"text\" ".$onKeyDown." id=\"$p_input\" name=\"$p_input\" value=\"".htmlentities($_REQUEST[$p_input]) .
-         "\" size=\"8\" style=\"CAPTCHA_INPUT_STYLE\" />\n" .
+         '<input title="please enter the letters you recognize in the CAPTCHA image to the left" type="text" '.$onKeyDown.' id="'.$p_input.'" name="'.$p_input.'" value="'.htmlentities($_REQUEST[$p_input]) .
+         '" size="8" style="'.CAPTCHA_INPUT_STYLE.'" />' .
          $javascript .
-         "</div>\n";
+         '</div>';
 
       return($HTML);
    }
@@ -315,9 +316,6 @@ class easy_captcha {
    #-- load object from saved captcha tracking data
    function load() {
       $fn = $this->data_file();
-
-         my_debug($fn);
-
       if (file_exists($fn)) {
          $saved = (array)@unserialize(fread(fopen($fn, "r"), 1<<20));
          foreach ($saved as $i=>$v) {
@@ -328,13 +326,6 @@ class easy_captcha {
         // log
       }
    }
-
-   function my_debug($ks) {
-         $f = fopen("/var/www/htdocs/work/test.txt", "w");
-         fwrite($f, "$ks\n");
-         fclose($f);
-}
-
 
    #-- save $this captcha state
    function save() {
@@ -1097,8 +1088,8 @@ function captcha_spamfree_no_new_urls() {
 
 // if a certain solution length is reached, check it remotely (JS-RPC)
 function captcha_check_solution() {
-   var cid = document.getElementById(CAPTCHA_PARAM_INPUT);
-   var inf = document.getElementById(CAPTCHA_PARAM_INPUT);
+   var cid = document.getElementById("ec_i");
+   var inf = document.getElementById("ec_s");
    var len = inf.value.length;
    // visualize processissing
    if (len >= 4) {
@@ -1145,7 +1136,7 @@ END_____BASE__BASE__BASE__BASE__BASE__BASE__BASE__BASE_____END;
 // JS-RPC response
 if (1) {
    captcha_rpc = 0;
-   var inf = document.getElementById(CAPTCHA_PARAM_INPUT);
+   var inf = document.getElementById("ec_s");
    inf.style.borderColor = $yes ? "#22AA22" : "#AA2222";
 }
 
@@ -1154,7 +1145,13 @@ END_____JSRPC__JSRPC__JSRPC__JSRPC__JSRPC__JSRPC_____END;
    }
 
 
+
 }
+
+
+
+
+
 
 
 ?>
