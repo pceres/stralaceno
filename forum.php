@@ -750,7 +750,7 @@ elseif ($post_status == 'censored')
 		
 		<tr class="TSfondoChiaro">
 			<td class="Small" align="left" valign="middle">
-				<b>Captcha</b>
+				<b title="Serve per evitare lo spam!">Captcha</b>
 			</td>
 			<td valign="top">
 				<?php
