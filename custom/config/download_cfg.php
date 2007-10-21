@@ -22,19 +22,23 @@ Formato [folder_xxx]:
 ;
 
 [folder_root]
-folder::folder_ARS::ARS Amatori Running Sele::Sezione relativa all'associazione::Amatori Running Sele::::admin::22:07 04/07/2007::11
-folder::folder_vari::Files vari::Sezione con risorse di varia natura::vari::::admin::22:07 04/07/2007::5
+folder::folder_ARS::ARS Amatori Running Sele::Sezione relativa all'associazione::Amatori Running Sele::::admin::22:07 04/07/2007::46
+folder::folder_vari::Files vari::Sezione con risorse di varia natura::vari::::admin::22:07 04/07/2007::18
 
 [folder_ARS]
-folder::folder_Atto_costitutivo_statuto_verbali::Atti costitutivi, statuti e verbali::I documenti costitutivi dell'associazione "Amatori Running Sele": atti costitutivi, statuto, verbali delle assemblee, ecc.::Atti costitutivi::::admin::22:07 04/07/2007::4
-folder::folder_Moduli::Moduli::Moduli di iscrizione ed altri documenti pubblici::Moduli::::admin::22:07 04/07/2007::7
-folder::folder_Rendiconti::Rendiconti e relazioni::Rendiconti economici ufficiali dell'associazione::Rendiconti::::admin::22:07 04/07/2007::4
-folder::folder_Sezione_soci::Sezione soci::Riservata ai membri dell'associazione "Amatori Running Sele"::Sezione soci::soci_ars::admin::22:07 04/07/2007::8
-folder::folder_Prestazioni_sportive_soci::Risultati gare podistiche dei soci ARS::Elenco con i risultati podistici dei membri dell'associazione a partire dall'estate 2005::Prestazioni_soci::::admin::22:07 04/07/2007::5
+folder::folder_Atto_costitutivo_statuto_verbali::Atti costitutivi, statuti e verbali::I documenti costitutivi dell'associazione "Amatori Running Sele": atti costitutivi, statuto, verbali delle assemblee, ecc.::Atti costitutivi::::admin::22:07 04/07/2007::6
+folder::folder_Moduli::Moduli::Moduli di iscrizione ed altri documenti pubblici::Moduli::::admin::22:07 04/07/2007::10
+folder::folder_Rendiconti::Rendiconti e relazioni::Rendiconti economici ufficiali dell'associazione::Rendiconti::::admin::22:07 04/07/2007::7
+folder::folder_Sezione_soci::Sezione soci::Riservata ai membri dell'associazione "Amatori Running Sele"::Sezione soci::soci_ars::admin::22:07 04/07/2007::13
+folder::folder_Prestazioni_sportive_soci::Risultati gare podistiche dei soci ARS::Elenco con i risultati podistici dei membri dell'associazione a partire dall'estate 2005::Prestazioni_soci::::admin::22:07 04/07/2007::47
+folder::folder_Stralaceno::Stralaceno::Gara podistica Stralaceno::Stralaceno::::admin::23:46 21/10/2007::0
 
 [folder_Atto_costitutivo_statuto_verbali]
 file::file_atto_costitutivo_con_firme::Atto Costitutivo e Statuto ARS con firme::Documento originale scannerizzato::Atto Costit. Statuto ARS con firme.pdf::::admin::22:07 04/07/2007::1
 file::file_atto::Atto Costitutivo in formato digitale::Atto costitutivo e statuto dell'associazione::Atto.pdf::::admin::22:07 04/07/2007::1
+
+[folder_Stralaceno]
+file::file_scheda_gara::Scheda partecipazione gara podistica Ars::Modulo da compilare a seguito della partecipazione dei soci Ars ad una manifestazione podistica::Scheda gara.xls::::admin::22:30 21/10/2007::1
 
 [folder_Moduli]
 file::file_domanda_associazione_ars::Modulo Domanda di Associazione all'ARS::Per richiedere l'associazione all'ARS, compilare il modulo e consegnarlo al segretario amministrativo::Modulo Domanda di Associazione.pdf::::admin::22:07 04/07/2007::3
@@ -45,8 +49,8 @@ file::file_rendiconto_e_relazione_ARS_2005::Rendiconto e Relazione ARS anno 2005
 file::file_rendiconto_e_relazione_ARS_2006::Rendiconto e Relazione ARS anno 2006::Rendiconto economico finanziario relativo all'esercizio 2006, e breve relazione::Rendiconto e Relazione anno 2006 ARS.pdf::::admin::22:07 04/07/2007::1
 
 [folder_Prestazioni_sportive_soci]
-file::file_Risultati_gare_podistiche_xls::Risultati gare podistiche (xls)::Tabella scaricabile::Risultati gare podistiche.xls::::admin::22:07 04/07/2007::2
-file::file_Risultati_gare_podistiche_pdf::Risultati gare podistiche (pdf)::Pdf scaricabile::Risultati gare podistiche.pdf::::admin::22:07 04/07/2007::2
+file::file_Risultati_gare_podistiche_xls::Risultati gare podistiche (xls)::Tabella scaricabile::Risultati gare podistiche.xls::::admin::10:45 15/10/2007::20
+file::file_Risultati_gare_podistiche_pdf::Risultati gare podistiche (pdf)::Pdf scaricabile::Risultati gare podistiche.pdf::::admin::19:59 06/09/2007::8
 
 [folder_Sezione_soci]
 folder::folder_richiesta_finanziamento_regione_2006::Richiesta di finanziamento alla regione Campania (2006)::Documentazione relativa alla richiesta di finanziamento alla regione Campania nel 2006::richiesta finanziamento regione::soci_ars::admin::22:07 04/07/2007::5
@@ -59,4 +63,4 @@ file::file_soci_meno_29_anni::Dichiarazione soci meno 29 anni (allegato 6)::Per 
 file::file_politiche_giovanili::AZIONE C Reg. Campania - politiche giovanili::Le politiche giovanili della regione Campania::AZIONE C Reg. Campania -politiche giovanili.doc::soci_ars::admin::22:07 04/07/2007::1
 
 [folder_vari]
-link::link_logo_ars::Logo ARS::Logo ufficiale dell'associazione "Amatori Running Sele"::http://localhost/work/ars/custom/album/varie/logo.jpg::::admin::22:07 04/07/2007::2
+link::link_logo_ars::Logo ARS::Logo ufficiale dell'associazione "Amatori Running Sele"::http://localhost/work/ars/custom/album/varie/logo.jpg::::admin::22:07 04/07/2007::12
