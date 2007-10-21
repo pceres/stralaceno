@@ -113,6 +113,20 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 99::Ale::07/07/2007 13.22.14::visible
 100::Salvatore::09/07/2007 09.57.35::visible
 101::Ars::09/07/2007 11.57.00::visible
+102::Salvatore::26/07/2007 13.10.32::visible
+103::Pasquale C.::31/07/2007 13.23.36::visible
+104::paolo::03/08/2007 01.22.44::visible
+105::Paolo e Salvatore::04/08/2007 15.39.26::visible
+106::NICOLA M.::04/09/2007 18.42.38::visible
+107::NIC.M::07/09/2007 17.50.47::visible
+108::Salvatore::09/09/2007 20.31.21::visible
+109::NIC M.::12/09/2007 01.45.33::visible
+110::Enzo::12/09/2007 10.59.14::visible
+111::Un socio::17/09/2007 21.52.17::visible
+112::Un altro socio::17/09/2007 23.02.33::visible
+113::Un socio::17/09/2007 23.25.23::visible
+114::paolo::19/09/2007 09.50.51::visible
+115::Un socio::19/09/2007 12.52.37::visible
 
 [post_text_0]
 Fermate Nicola Melillo con questa stralaceno: anche i muri di materdomini e caposele non ne possono più.
@@ -602,3 +616,51 @@ Cominciate a prepararvi.....sabato si va a Roccadaspide....
 [post_text_101]
 sabato 14 luglio gara podistica XIV Corri Roccadaspide (Sa): km 8, percorso cittadino, partenza gara ore 18.45.
 Chi è interessato contatti i soci Ars.
+
+[post_text_102]
+Ragazzi molto probabilmente domenica 29 si va a Torchiara (Sa), c'è una gara di 10 km circa, chi è interessato si rivolga ai soci ARS per maggiori informazioni..ciao
+
+[post_text_103]
+&gt;Ragazzi molto probabilmente domenica 29 si va a Torchiara (Sa), c'è una gara di 10 km circa, chi è interessato si rivolga ai soci ARS per maggiori informazioni..ciao<br>&gt;<br><br>Come e' andata la gara?
+
+[post_text_104]
+ciao pasquale,
+la gara è andata abbastanza bene, anche se è stato un percorso molto duro e strano, con lunghe discese e salite improvvise di alta percentualità.Cmq ce l'abbiamo fatta.
+Ci vediamo in questi giorni. ciao ciao.
+
+[post_text_105]
+Ciao a tutti....ci stiamo preparando per la gara delle 6 a Lioni, Paolo ha promesso battaglia....e battaglia sarà...speriamo di fare una buona gara, nonostante gli acciacchi (Salvatore)...e comunque ci metteremo il massimo impegno....come sempre....ciao
+
+[post_text_106]
+BENE LA STRALACENO E'STATA CORSA ADESSO IO ORGANIZZO UNA NUOVA GARA SUI 9 KM A CAPOSELE E MATERDOMINI E SPERO IN UN BUON NUMERO DI PARTECIPANTI BISOGNA DARE UNA CONTINUAZIONE AGLI ALLENAMENTI ESTIVI E' TROPPO RIDUTTIVO CORRERE UNA GARA UNA VOLTA L' ANNO MI RIFERISCO A TUTTI QUELLI CHE VENGONO SOLO A LACENO.RISCALDIAMOCI E CORRIAMO.
+
+[post_text_107]
+AD APRLE  SE AVETE A CUORE LE SORTI DEI GIOVANI DI CAPOSELE BISOGNA ELEGGERE UN PRESIDENTE CHE RISIEDE A CAPOSELE IO FACCIO IL NOME DI ALESSANDRO RUSSOMANNO SOLO COSI' SI PUO' VERAMENTE CREDERE AD UN PROGETTO SERIO DELL' ARS ALTRIMENTI SI FANNO SOLO CHIACCHIERE E NON SI REALIZZA QUASI NIENTE DI CONCRETO PER I NOSTRI RAGAZZI CHE SONO SEMPRE DI MENO IN QUESTO NOIOSO PAESE.
+
+[post_text_108]
+L'Ars continua a crescere, gara dopo gara, anno dopo anno........:) andiamo ragazzi....
+
+[post_text_109]
+MA TI RENDI CONTO DI COSA DICI SIETE SEMPRE IN 5/6 A CORRERE LE VARIE GARE NELLA ZONA IL COINVOLGIMENTO E L' AGGREGAZIONE SONO OBIETTIVI A VOI ANCORA REMOTI?
+
+[post_text_110]
+Nic Mel hai perfettamente ragione, ma dove vivono questi?
+
+[post_text_111]
+Propongo la rescissione del contratto di Paolo Viscardi per seri motivi disciplinari...voi che ne pensate?
+
+[post_text_112]
+Da 15 giorni il buon Paolo ha mostrato poca voglia, scarso impegno e tanta confusione.
+&nbsp;
+Ma abbiate fiducia... Tornerà...Più forte di prima...
+&nbsp;
+&nbsp;
+
+[post_text_113]
+Vedremo vedremo, a giorni l'Ars si riunirà in un assemblea straordinaria per decidere il futuro di una giovane promessa..
+
+[post_text_114]
+caro socio, non ti sembra di comportarti in modo troppo severo??
+
+[post_text_115]
+Assolutamente no....meriti la punizione più severa che ci sia....

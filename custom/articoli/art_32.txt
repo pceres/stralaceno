@@ -1,0 +1,9 @@
+Autore::Runner's World
+Titolo::Podismo: la tua prima gara
+--- Begin body ---
+<p>&nbsp;
+<div align="center">
+<img id="Tabella4" src="%file_root%custom/album/varie/primagara.jpg" alt="Tabella4" border="0" width="530">
+</div>
+<br>
+--- End body ---

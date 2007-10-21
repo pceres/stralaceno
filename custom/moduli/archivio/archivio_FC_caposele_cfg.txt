@@ -12,6 +12,11 @@ FC_caposele::F.C. Caposele::L'album di famiglia della F.C. Caposele
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
+3::FC_caposele::I dirigenti - stagione 2006/07::
+16::FC_caposele::Classifica finale III categoria 2006/07::
+2::FC_caposele::La squadra 2006/07::
+11::FC_caposele::La rosa degli Allievi 2006/07::
+12::FC_caposele::Campionato Provinciale Allievi 2006/07::
 15::FC_caposele::24a,25a e 26a Gior.: sintesi::
 14::FC_caposele::20a,21a,22a e 23a Gior.: sintesi::
 13::FC_caposele::Real S.Andrea di Conza - F.C. Caposele 1-1::Massimo Cetrulo

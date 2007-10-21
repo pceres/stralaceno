@@ -119,6 +119,17 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 105::Giuseppe S.::20/04/2007 19.35.37::visible
 106::NICOLA M.::14/07/2007 11.54.36::visible
 107::Jerry Notaro::17/07/2007 12.32.49::visible
+108::Gerardo::20/07/2007 12.19.09::visible
+109::Antonio::22/08/2007 11.10.31::visible
+110::Alessandro R.::24/08/2007 14.57.31::visible
+111::Gerardo C.::24/08/2007 18.45.45::visible
+112::Riccardo::28/08/2007 15.40.42::visible
+113::paolo::03/09/2007 15.13.18::visible
+114::NIC .M::04/09/2007 18.55.09::visible
+115::Angelo::01/10/2007 21.32.50::visible
+116::saggio::14/10/2007 19.35.20::visible
+117::In nome dell'Ars::15/10/2007 16.40.04::visible
+118::saggio::15/10/2007 21.04.18::visible
 
 [post_text_0]
 Aspettiamo le vostre dichiarazioni di sfida...
@@ -674,3 +685,52 @@ IERI GRANDE PROVA HO CORSO UNA GRANDE PROVA SUI 25'30 INIZIAMO A SCENDERE MA NES
 
 [post_text_107]
 Vai così Nico', quest'anno abbatti il muro dei 24...me lo sento!
+
+[post_text_108]
+io sono andato ieri e ho fatto 23 e 21
+
+[post_text_109]
+Ma io a questo Nicola M. proprio non lo capisco: per 10 mesi l'anno critica i componenti dell'ars e il loro modo di gestione poi nei restanti due mesi rimane in silenzio si allena, chiede consigli agli stessi componenti e come se non bastasse le sue discussioni vertono solo sulla stralaceno manifestazione organizzata dall'ars!!!! Questi sono i dilemmi della vita.
+
+[post_text_110]
+Caro Nicola M., non cadere nelle provocazioni di questo Antonio: cerca solo di farti entrare in polemica con i soci Ars, che sono invece felici di collaborare e allenarsi con te.
+&nbsp;
+Chi sfrutta l'Ars è invece Antonio: usufruisce del sito e del forum, degli allenamenti, della Stralaceno, del Palmenta...
+&nbsp;
+&nbsp;
+
+[post_text_111]
+La provocazione di Antonio è parzialmente da condividere perchè ai 10 mesi devono aggiungersi anche gli altri 2.
+Perchè, N.M., entra in contrasto con i soci, è in netto contrasto con l'associazione ARS cose dette e ripetute anche pochi giorni fa.
+Spero di non sentire di nuovo le stesse cose dell'anno scorso o di due anni fa subito dopo la conclusione della stralaceno quando le polemiche per strada prima e su questo forum poi divamparono innescate da chi?!Provete a ricordarlo.
+Come vorrei dargli torto a questo Antonio, ma non posso.
+
+[post_text_112]
+Gerardo C. = Antonio
+(lasciamolo polemizzare con se stesso...)
+
+[post_text_113]
+ciao salvatore,
+hai letto l'articolo di Gerardo N. sul suo sito? E' veramente bello.
+Fammi sapere come sono andati i 5000m ok?
+Io non vedo l'ora di tornare a laceno, non appena torno ci vado subito (ho un conto in sospeso con il mio fisico) :-)
+&nbsp;
+Dovrei tornare mercoledì, ti farò sapere
+Ciao ciao caro!!!
+
+[post_text_114]
+MA LO VOLETE CAPIRE CHE IO E I COMPONENTI DELL' ARS SIAMO PENALIZZATI IN UNA CORSA Di 5 KM BISOGNA FARE UNA NUOVA GARE SUI 2 GIRI NEL PERIODO PRIMAVERILE ALLORA VEDIAMO SU MOLTI ATLETI IL REALE ALLENAMENTO E PREPARAZIONE.
+
+[post_text_115]
+Si aspetta, con trepidazione, l'articolo di Paolo Viscardi sulla Stralaceno.
+
+[post_text_116]
+alu postu r jé a fui p'cché nun iati 'nguoddu?
+
+[post_text_117]
+X saggio
+&nbsp;
+Tu ne vai a fui e ne vai nguoddo...quistu si che è nu problema....!!
+
+[post_text_118]
+&gt;X saggio<br>&gt; <br>&gt;Tu ne vai a fui e ne vai nguoddo...quistu si che è nu problema....!!<br>&gt;<br><br>i vacu 'nguoddu, e tu tieni la cora r paglia

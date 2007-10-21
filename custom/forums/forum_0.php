@@ -21,14 +21,14 @@ Formato [elenco_topics]:
 4::Sondaggio Champions League 2006/2007::open::::::Pasquale C.::17::16
 5::Benvenuti nel forum::hidden::::::ceres::4::3
 6::Come funziona il forum::open::::::ceres::3::2
-7::le sfide della Stralaceno::open::::::foxy::108::107
+7::le sfide della Stralaceno::open::::::foxy::119::118
 8::soddisfatti della stralaceno edizione 2006???::open::::::cabo86::4::3
-9::Discussione::open::::::Antonio::115::101
-10::ci siete?????::open::::::cabo::11::10
+9::Discussione::open::::::Antonio::129::115
+10::ci siete?????::open::::::cabo::14::13
 11::La nuova sezione ciclismo::open::::::Donato Gervasio::12::11
 12::Allenamento Collettivo 30-12-2006::open::::::Ars::40::39
 13::per nazòn::hidden::::::antonio::4::3
 14::F.C. Caposele::open::::::Ars::33::32
-15::Elezioni comunali a Caposele::open::::::Cleon.ren::70::69
-16::La nuova sezione Ambiente e Natura::open::::::Ambiente::26::25
+15::Elezioni comunali a Caposele::open::::::Cleon.ren::74::73
+16::La nuova sezione Ambiente e Natura::open::::::Ambiente::41::40
 17::per l'inviato::hidden::::::christian meyer::6::5

@@ -6,6 +6,7 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+22/09/2007::Effettuata l'iscrizione della FC Caposele per il campionato provinciale di Terza Categoria, stagione 2007/08.
 08/06/2007::Quarti di finale campionato provinciale Allievi ritorno: FC Caposele - Eclanese 1-1
 05/06/2007::Quarti di finale campionato provinciale Allievi andata: Eclanese - FC Caposele 5-0
 04/06/2007::Quarti di finale campionato provinciale Allievi: Eclanese - FC Caposele, andata 4 giugno ore 18.00 a Mirabella Eclano, ritorno 7 giugno ore 17.00 a Teora.

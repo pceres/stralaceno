@@ -6,7 +6,20 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
-15/07/2007::Il Comune di Caposele ha concesso all'ARS l'uso a pagamento dello stadio Palmenta per l'attivit&agrave; podistica per 60 giorni a partire dal 12 luglio: tutti i giorni della settimana dalle ore 18.30 alle 20.30 . L'importo che l'ARS ha versato al Comune &egrave; di 30 euro. 
+21/10/2007::Partecipanti alla gara podistica "StraSalerno Half-Marathon" di km 21,097 a Salerno: Gerardo Martino, Paolo Viscardi.
+15/10/2007::Partecipanti alla gara podistica "Trofeo C. Pezzuto" di km 7,9 a Puglietta di Campagna (Sa): Saverio Perna, Alessandro Russomanno, Paolo Viscardi.
+24/09/2007::Partecipanti alla gara podistica "V podistica San Michele" a Sala Consilina (Sa): Francesco Ceres, Saverio Perna, Salvatore Merola, Alessandro Russomanno.
+17/09/2007::Partecipanti alla gara podistica "II maratonina di Montoro Superiore" di km 9 a Montoro Sup. (Av): Saverio Perna, Francesco Ceres, Gerardo Martino, Salvatore Merola, Alessandro Russomanno, Paolo Viscardi, Donatello Cirillo, Gianni Sozio, Gaetano Rosania (aggregato-non socio). Accompagnatore: Nicola Cirillo
+17/09/2007::Saverio Perna &egrave; il 19&deg; socio degli Amatori Running Sele.
+10/09/2007::Partecipanti alla gara podistica "II Trofeo Madonna del Piano" di km 8,6 ad Aquara (Sa): Francesco Ceres, Salvatore Merola, Gerardo Martino, Alessandro Russomanno, Donatello Cirillo, Paolo Viscardi, Saverio Perna (aggregato-non socio), Nicola Melillo (aggregato-non socio), Gaetano Rosania (aggregato-non socio).
+04/09/2007::58 partecipanti (pi&ugrave; altri 2 ragazzi fuori gara per et&agrave; inferiore a 15 anni) per la Stralaceno 2007.
+28/08/2007::Partecipanti alla gara podistica "II Contursi Terme Podistica" di km.6 a Contursi (Sa): Francesco Ceres, Gerardo Martino, Paolo Viscardi, Salvatore Merola, Alessandro Russomanno, Saverio Perna  (aggregato-non socio).
+24/08/2007::Gelsomino Merola entra a far parte degli Amatori Running Sele.
+17/08/2007::Partecipanti alla gara podistica "Maratonina della Misericordia" di 10,250 km di Nusco: Salvatore Merola, Alessandro Russomanno, Paolo Viscardi, Gerado Martino, Donatello Cirillo, Nicola D'Auria, Gelsomino Merola(aggregato-non socio), Saverio Perna(aggregato-non socio), Giuseppe Merola (aggregato-non socio). 
+10/08/2007::Partecipanti alla I edizione della gara podistica "L'Appizzicata" a Montella (SS Salvatore) di km 6: Salvatore Merola, Paolo Viscardi.
+10/08/2007::Partecipanti alla I edizione della gara podistica di Lioni (Av) di km 9,850: Francesco Ceres, Alessandro Russomanno, Salvatore Merola, Nicola D'Auria, Paolo Viscardi, Donatello Cirillo, Gelsomino Merola (aggregato-non socio).
+30/07/2007::Partecipanti alla IV edizione della gara podistica "Green Ways" di km.9 a Torchiara (Sa): Francesco Ceres, Paolo Viscardi, Salvatore Merola, Alessandro Russomanno, Gerardo Martino, Nicola D'Auria.
+15/07/2007::Il comune di Caposele ha concesso all'ARS l'uso a pagamento dello stadio Palmenta per attivit&agrave; podistica per 60 giorni a partire dal 12 luglio: tutti i giorni della settimana dalle ore 18.30 alle 20.30 . L'importo che l'ARS ha versato al Comune &egrave; di 30 euro. 
 15/07/2007::Partecipanti alla XIV edizione della gara podistica "CorriRoccadaspide, trofeo S. Sinforosa di km.8 a Roccadaspide (Sa): Salvatore Merola, Paolo Viscardi, Alessandro Russomanno, Nicola D'Auria, Donatello Cirillo, Gelsomino Merola (aggragato-non socio), Saverio Perna (aggregato-non socio).
 02/07/2007::Partecipanti alla X edizione della gara podistica "marcialonga in salita Mercogliano - Montevergine" di km.16,5 a Mercogliano (Av): Francesco Ceres, Salvatore Merola, Paolo Viscardi, Alessandro Russomanno.
 18/06/2007::Partecipanti alla III edizione della gara podistica "notturna sianese" di km.10 a Siano (Sa): Francesco Ceres, Salvatore Merola, Alessandro Russomanno, Paolo Viscardi, Donatello Cirillo. Accompagnatore: Luciano Viscido.
@@ -28,10 +41,10 @@
 07/10/2006::Tre nuovi soci per l'ARS: il numero degli associati sale cos&igrave; a 16.
 02/10/2006::Partecipanti alla gara podistica Colline Verdi di km. 8,5 a Montecorvino Pugliano (SA): Paolo Viscardi, Salvatore Merola, Alessandro Russomanno.
 25/09/2006::Partecipanti alla IV podistica San Michele di km 7,3 a Sala Consilina (SA): Salvatore Merola, Alessandro Russomanno, Paolo Viscardi, Donatello Cirillo.
-11/09/2006::Partecipanti al I trofeo regionale C. Pizzuto di km 7,6 a Puglietta di Campagna (SA): Paolo Viscardi, Salvatore Merola, Alessandro Russomanno.
+11/09/2006::Partecipanti al I trofeo regionale C. Pezzuto di km 7,6 a Puglietta di Campagna (SA): Paolo Viscardi, Salvatore Merola, Alessandro Russomanno.
 01/09/2006::Grande soddisfazione per l'organizzazione della XVIII edizione della Stralaceno: nonostante le avverse condizioni atmosferiche, si &egrave; registrato il record di partecipanti: 68 (pi&ugrave; altri 4 ragazzi fuori gara per et&agrave; inferiore a 15 anni).
 13/08/2006::Partecipanti alla XXXI Marcialoggia di Fontanarosa di km 10: Salvatore Merola, Alessandro Russomanno, Nicola D'Auria
-08/08/2006::Partecipanti alla gara podistica 10 km di Nusco: Paolo Viscardi, Alessandro Russomanno, Salvatore Merola, Nicola D'Auria, Donatello Cirillo, Francesco Ceres (aggregato-non socio), Salvatore Colatrella (aggregato-non socio), Nicola Melillo (aggregato-non socio). Accompagnatore: Luciano Viscido.
+08/08/2006::Partecipanti alla gara podistica 10,250 km di Nusco: Paolo Viscardi, Alessandro Russomanno, Salvatore Merola, Nicola D'Auria, Donatello Cirillo, Francesco Ceres (aggregato-non socio), Salvatore Colatrella (aggregato-non socio), Nicola Melillo (aggregato-non socio). Accompagnatore: Luciano Viscido.
 07/08/2006::L'edizione 2006 della Stralaceno si disputer&agrave; il 30 agosto.
 05/08/2006::Sono disponibili le magliette Stralaceno 2006.
 03/08/2006::In Agosto l'Ars parteciper&agrave;, con una propria rappresentativa podistica, il giorno 6 alla 10 km di Nusco, il giorno 12 alla XXXI edizione della Marcialoggia a Fontanarosa di km 10, il giorno 19 alla maratona alburnina di km 13 a Sicignano degli Alburni (SA).

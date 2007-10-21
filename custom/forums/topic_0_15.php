@@ -81,6 +81,10 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 67::da irpinianews.it::04/06/2007 11.05.48::visible
 68::da CorriereIrpinia.it::22/06/2007 10.32.01::visible
 69::da Corriere Irpinia::06/07/2007 10.59.24::visible
+70::Antonio::22/08/2007 11.40.24::visible
+71::da CorriereIrpinia.it::27/09/2007 10.00.41::visible
+72::da Il Mattino::03/10/2007 15.48.16::visible
+73::da Il Mattino::08/10/2007 10.31.33::visible
 
 [post_text_0]
 Riceviamo da CLEON.REN e pubblichiamo:
@@ -610,4 +614,43 @@ Vito Malanga, ex assessore ai lavori pubblici del Comune di Caposele apprezza le
 Si tratta di un impegno economico pari a 2milioni e 500mila euro che consentiranno il risanamento di una vasta area (dallo svincolo della superstrada all’autocarrozzeria “Sozio”).
 «Ha finalmente ottenuto l’apertura - aggiunge ancora l’ex assessore - la discarica dei rifiuti ingombranti in località Petrito, fruibile ai cittadini per tre giorni alla settimana, sulla quale il consorzio Av 2 ha sempre tergiversato. Personalmente e a nome del circolo “Caposele nel Cuore - conclude - devo complimentarmi per l’operato del Commissario in questo primo periodo ed augurargli buon lavoro per il futuro, facendo altresì presente che, per quanto possibile e per qualsiasi supporto anche di natura politica, il nostro gruppo è a disposizione».
 06/07/2007
+&nbsp;
+
+[post_text_70]
+Pur essendo stato sostanzialmente neutrale durante la scorsa campagna elettorale, avendo le idee chiare sull'andare o non andare a votere, io sono andato, leggendo il periodico LA SORGENTE mi devo ricredere su alcuni atteggiamenti di finta moderazione e di finta opportunità politica di alcuni componenti dell'arcobaleno. Leggo: "Pur coscienti del loro diritto al voto, molti cittadini hanno scambiato sensibilità poste al servizio del dolore e della sofferenza con obblighi a scadenza, molti altri si son fatti intimorire dalla sola assillante presenza di chi ha nelle mani le sorti della loro salute. Allora si che l'atteggiamento di chi opera nelle varie strutture pubbliche si risolve in una dittatura di fatto, un pre-potere attuariale frutto di una organizzazione politicizzata, non educata e tanto meno educativa!..."
+Di fronte a tanto, compresi gli attacchi personali come si legge più avanti nello stesso articolo, non posso che sprimere forte rammarico rispetto a questo linguaggio duro che inasprisce gli animi. Parlo di falso opportunismo politico perchè nelle due precedenti elezioni nessuno dei candidati della lista in contrapposizione all'arcobaleno ha usato questo terribile linguaggio, eppure i ruoli erano invertiti!!! Arroganza e sete di potere.
+Di una cosa sono sicuro se in fondo credevo che andando a votare avrei avvantaggiato l'arcobaleno, il prossimo anno andrò a votare con la consapevolezza di non votarli.
+Incommentabili sono altri discorsi pro-arcobaleno...
+&nbsp;
+
+[post_text_71]
+Il Cuore: ai nostri convegni invitiamo anche l’Arcobaleno
+&nbsp;
+CAPOSELE - «Ci chiedono di confrontarci sui problemi reali del paese. Beh, ai nostri convegni che andremo a promuovere di qui in avanti, sul modello di quello di domenica sulle acque, invitiamo a partecipare tutti i cittadini e quindi pure Monteverde e gli esponenti dell’Arcobaleno. Sono ben accetti i suggerimenti di tutti. Il nostro obiettivo è soo quello di analizzare al meglio le problematiche di Caposele e fornire una risposta concreta ad esse. Con l’apporto di tutti è meglio ancora».
+&nbsp;
+Vito Malanga, ex assessore ai lavori pubblici e candidato con la lista “Caposele nel Cuore” di Pasquale Farina illustra la linea programmatica che il suo schieramento terrà in vista delle prossime elezioni amministrative del 2008.
+&nbsp;
+A Caposele, di fatto, la campagna elettorale è già ben avviata e la compagine di Pasquale Farina non intende indirizzarle sulla polemiche ma incentrarla sul confronto con la più larga fetta di cittadinanza anche se di orientamento politico contrapposto.
+«Nelle prossime settimane . spiega Malanga - effettueremo altri incontri su rifiuti, Puc, situazione turistica e commerciale del paese. Siamo davvero soddisfatti - prosegue l’esponente di Caposele nel Cuore - per la riuscita dell’appuntamento di domenica. Si è tracciato un quadro molto chiaro della situazione in cui riversa il Comune di Caposele rispetto alla problematica delle acque, analizzando uno spaccato di fatti che si estende dalla Pavoncelli bis, i cui lavori sono stati sospesi con l’annullamento della gara d'appalto da parte del Tribunale Superiore delle acque, ai mancati adempimenti contrattuali dell’Acquedotto Pugliese rispetto agli accordi stabiliti nelle Convenzioni del 1970 e 1999, in particolar modo in riferimento alla sistemazione di piazza Sanità mai avvenuta e alla costituzione di una centrale elettrica a Caposele».
+&nbsp;
+Malanga sottolinea due dati. Il primo, la folta partecipazione di cittadini caposelesi che hanno affollato la sala polivalente. «Si sono meravigliati sia l’onorevole Giusto, sia il presidente del Parco Aquino che hanno evidenziato il notevole coinvolgimento della cittadinanza sulla questione». Il secondo dato si riferisce alla puntuale analisi tracciata dai giovani del “Cuore” «che hanno esposto con estrema precisione, attraverso tutta una serie di relazioni, l’evoluzione della storia tra Caposele e l’Acquedotto Pugliese, lo stato della galleria Pavoncelli e dei prelievi alle sorgenti. Un lavoro davvero eccezionale - conclude Malanga - a testimoniare che la classe dirigente che presenta l’Arcobaleno è di spessore e crede nello sviluppo sostenibile del paese».
+&nbsp;
+
+[post_text_72]
+RISORSE IDRICHE
+Venerdì a Caposele dibattito con Alemanno
+&nbsp;
+Grandi manovre anche nel centrodestra. Alleanza Nazionale ha riunito l'esecutivo provinciale, presieduto dall’onorevole Giulia Cosenza, a cui hanno preso parte Franco D'Ercole, capogruppo alla Regione e Giuseppe Ragucci, membro dell'Assemblea nazionale di An. Il direttivo ha definito i dettagli organizzativi dei due appuntamenti che attendono la federazione. Il primo è in programma il 5 ottobre a Caposele, dove si parlerà del problema delle risorse idriche dal punto di vista tecnico e giuridico. Un appuntamento organizzato con la collaborazione del presidente del circolo Pietro Cerulo, a cui parteciperà l'onorevole Gianni Alemanno. La federazione è impegnata, inoltre, nella preparazione della trasferta romana del 13 ottobre, per la manifestazione promossa da Gianfranco Fini contro le tasse e per la legalità. «Sarà una grande manifestazione popolare - afferma l'onorevole Cosenza - attraverso cui intendiamo rilanciare una nostra piattaforma di proposte per contrastare l'illegalità, la criminalità causata dall'immigrazione, e per dare un forte segnale al governo Prodi».
+&nbsp;
+&nbsp;
+&nbsp;
+
+[post_text_73]
+Caposele
+&nbsp;
+Una risorsa senza colore politico, ma che bisogna salvaguardare e per la quale tutti i governi sono chiamati a fare la loro parte in termini di programmazione ed investimenti.
+Gianni Alemanno, ex ministro dell’agricoltura è intervenuto a Caposele, al convegno sulle risorse idriche organizzato dal circolo di Alleanza Nazionale puntualizzando alcuni aspetti per la gestione dell’acqua: «Occorre cambiare la filosofia di utilizzo della risorsa e il principio degli investimenti. Non servono grandi infrastrutture, ma occorre investire proprio sull’acqua. Evitare, prima di tutto – ha spiegato Alemanno – che il contenzioso per l’acqua veda protagoniste le regioni, l’uno contro l’altro armate. Deve essere lo Stato, il Governo, a recuperare la capacità di intervento sulla gestione delle risorse idriche. Questo non avverrà certo con il Governo Prodi, che ha cancellato il capitolo Mezzogiorno, dall’agenda degli impegni». Anche l’onorevole Giulia Cosenza ha evidenziato l’impegno di An a difesa dell’acqua irpina: «Ho presentato diverse interrogazioni parlamentari, ritenendo che sia necessario attuare un ristoro economico per i comuni dove si trovano le sorgenti, occorrono maggiori investimenti per la tutela del territorio, perché quella idrica si profila come la vera emergenza dei prossimi anni. La cattiva gestione delle falde acquifere è uno dei problemi principali che bisogna contrastare». Fari puntati anche sulla galleria Pavoncelli. «Prendo atto delle parole dell’assessore Nocera – ha dichiarato il consigliere regionale Franco D’Ercole – che afferma che non porterà un litro di acqua in più alla Puglia, del resto già lo sapevamo perché il progetto è stato realizzato per risolvere le compromissioni strutturali della vecchia galleria. Ora rimangono da riformare gli Ato, che non funzionano».
+bo.am. 06/10/2007
+&nbsp;
+&nbsp;
 &nbsp;

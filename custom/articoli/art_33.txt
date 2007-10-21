@@ -1,0 +1,26 @@
+Autore::
+Titolo::Gara podistica Lioni 2007
+--- Begin body ---
+<br>
+Il 4 agosto a Lioni &egrave; stata organizzata una gara podistica di km 9,850, con partenza dal
+centro commerciale "la fornace" e arrivo in piazza San Rocco. 
+<br>
+Anche gli Amatori Running Sele hanno affrontato il percorso pianeggiante con Francesco Ceres, 
+Alessandro Russomanno, Salvatore Merola, Nicola D'Auria, Paolo Viscardi, Donatello Cirillo e 
+Gelsomino Merola (che si aggregato nell'occasione alla squadra).
+<br>
+Sessantaquattro i partecipanti che, durante lo svolgimento della gara, non hanno trovato segnalati,
+come di norma accade, i vari km e le svolte nei numerosi incroci nel centro cittadino di Lioni.<br>
+E' sembrata pi&ugrave; che una gara podistica, una gara di orientamento...
+<br>
+<p>&nbsp;
+<div align="center">
+<img id="Lioni07" src="%file_root%custom/album/ars/Lioni2.jpg" alt="Gara Podistica Lioni" border="0" width="420">
+</div>
+<br>
+<p>&nbsp;
+<div align="center">
+<img id="Lioni_2007" src="%file_root%custom/album/ars/lioni07.jpg" alt="Gara Podistica Lioni" border="0" width="420">
+</div>
+<br>
+--- End body ---

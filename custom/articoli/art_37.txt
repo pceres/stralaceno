@@ -1,0 +1,13 @@
+Autore::
+Titolo::Montoro Sup. 2007
+--- Begin body ---
+<br>
+Spedizione compatta degli Amatori Running Sele a Montoro Superiore 
+per la maratonina di km.9 disputata il 15 settembre.
+<br><br>
+<p>&nbsp;
+<div align="center">
+<img id="Logo" src="%file_root%custom/album/ars/Montoro07.jpg" alt="Logo" border="0" width="400">
+</div>
+<br><br>
+--- End body ---

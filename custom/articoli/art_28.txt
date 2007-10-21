@@ -2,15 +2,13 @@ Autore::
 Titolo::Edizione 2007 della Stralaceno
 --- Begin body ---
 <br>
-Si terr&agrave; venerd&igrave; 31 agosto la XIX edizione della Stralaceno, la corsa podistica di km 5,6 riservata ai caposelesi organizzata dall'Amatori Running Sele sull'altopiano di Laceno.<br>
-<br>
-Dato l'evolversi della manifestazione, l'organizzazione necessita di persone disposte ad offrire la propria collaborazione (servizio d'ordine, addetti alla logistica, cronometristi, giudice di gara etc.).
-<br>
-Si prega di comunicare l'eventuale propria disponibilit&agrave; all'associazione Amatori Running Sele. Grazie.
-<br><br>
 <p>&nbsp;
 <div align="center">
-<img id="fotoLagoLaceno" src="%file_root%custom/album/varie/laceno.jpg" alt="Laceno" border="0" width="390">
+<img id="Logo_Stralaceno_2007" src="%file_root%custom/album/ars/LogoStra07.jpg" alt="Logo Stralaceno 2007" border="0" width="300">
 </div>
 <br><br>
+<br>
+CLASSIFICA E FOTO DELL'EDIZIONE 2007 SU WWW.STRALACENO.CJB.NET
+<br>
+<br>
 --- End body ---

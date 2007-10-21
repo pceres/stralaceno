@@ -9,6 +9,7 @@
 Mercogliano_07::Mercogliano 2007::Corsa podistica "X marcialonga in salita Mercogliano - Montevergine" di km 16,5 del 30/06/2007
 Siano_07::Siano 2007::Corsa podistica "III notturna sianese" di km 10 del 16/06/2007
 Paestum_07::Paestum 2007::Corsa podistica "Sulle orme di Filippide" di 10 km del 05/05/2007
+Roma_07::Roma 2007::Maratona di Roma del 18 marzo 2007
 All.Coll.06::Allenamento collettivo 2006::Il 30 dicembre 2006 si &egrave; tenuto l'allenamento collettivo, con 15 partecipanti
 Fontanarosa_06::Fontanarosa 2006::Corsa estiva di Fontanarosa 2006
 Nusco_06::Nusco 2006::10 km di Nusco 2006
@@ -20,6 +21,15 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
+37::homepage::Montoro Sup. 2007::
+36::homepage::Aquara 2007 - I trofeo Madonna del Piano::
+35::homepage::II edizione Contursi Terme Corre::
+34::homepage::Siamo nati per correre::
+39::homepage::10 km di Nusco 2007::Pasquale Ceres
+33::homepage::Gara podistica Lioni 2007::
+38::homepage::Podismo: fai il salto di qualit&agrave;::Runner's World
+32::homepage::Podismo: la prima gara::Runner's World
+31::homepage::Podismo: come fare il primo passo::Runner's World
 30::homepage::X edizione Mercogliano-Montevergine::
 29::homepage::III notturna sianese::
 26::homepage::Classifica 'caposelese' sondaggio Champions 2007::

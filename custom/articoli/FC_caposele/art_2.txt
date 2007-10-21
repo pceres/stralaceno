@@ -1,5 +1,5 @@
 Autore::
-Titolo::La squadra
+Titolo::La squadra 2006/07
 --- Begin body ---
 <br>I giocatori della F.C. Caposele:<br><br>
 Ceres Donato, Cetrulo Giuseppe, Ciccone Francesco, Cibellis Luca, Cibellis Mario, Cibellis Thomas, Cibellis Tommaso, Cuozzo Giovanni, D'Elia Antonio, Di Vincenzo Gianfranco, Donatiello Claudio, Feniello Rocco, Galdi Prezioso, Grasso Armando, Grasso Ermanno, Lardieri Angelo, Lenza Vincenzo, Liloia Giuseppe, Malanga Nicola, Merola Lorenzo, Panariello Raffaele, Proietto Rocco, Sista Benito, Zarra Alessio<br><br>
@@ -9,5 +9,5 @@ Preparatore Atletico: Sista Raffaele<br>
 <div align="center">
 <img id="fotoFC_Caposele" src="%file_root%custom/album/FC_caposele/fc1.jpg" alt="" border="0" width="430">
 </div>
-<br><br>L'album fotografico &egrave; disponibile <a href="album.php?anno=FC_caposele">qui</a>. (Aggiunte nuove foto il 5 giugno)<br><br>
+<br><br>L'album fotografico &egrave; disponibile <a href="album.php?anno=FC_caposele">qui</a>. <br><br>
 --- End body ---

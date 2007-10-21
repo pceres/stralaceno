@@ -1,0 +1,21 @@
+Autore::Runner's World
+Titolo::Podismo: come fare il primo passo
+--- Begin body ---
+<br>
+I CONSIGLI DI BASE PER CHI VUOL PROVARE A DIVENTARE UN RUNNER.
+<br>
+<p>&nbsp;
+<div align="center">
+<img id="Tabella1" src="%file_root%custom/album/varie/artRunners1A.jpg" alt="Tabella1" border="0" width="370">
+</div>
+<p>&nbsp;
+<div align="center">
+<img id="Tabella2" src="%file_root%custom/album/varie/artRunners1AA.jpg" alt="Tabella2" border="0" width="370">
+</div>
+<br><br>
+<p>&nbsp;
+<div align="center">
+<img id="Tabella3" src="%file_root%custom/album/varie/artRunners1B.jpg" alt="Tabella3" border="0" width="400">
+</div>
+<br><br>
+--- End body ---

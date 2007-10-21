@@ -1,0 +1,12 @@
+Autore::Runner's World
+Titolo::Fai il salto di qualit&agrave;
+--- Begin body ---
+<br>
+Prova ad allenarti sul serio e a scoprire quanto vali veramente.
+<br>
+<p>&nbsp;
+<div align="center">
+<img id="Tabella4" src="%file_root%custom/album/varie/4.jpg" alt="Tabella4" border="0" width="350">
+</div>
+<br>
+--- End body ---

@@ -1,0 +1,12 @@
+Autore::
+Titolo::II edizione Contursi Terme Corre
+--- Begin body ---
+<br>
+26.08.2007: prime soddisfazioni
+<br>
+<p>&nbsp;
+<div align="center">
+<img id="Logo" src="%file_root%custom/album/ars/cont.jpg" alt="Logo" border="0" width="400">
+</div>
+<br><br>
+--- End body ---

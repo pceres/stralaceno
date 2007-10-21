@@ -37,6 +37,21 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 23::da Irpinianews.it::12/06/2007 17.04.27::visible
 24::da Il Mattino::29/06/2007 14.58.55::visible
 25::Ambiente news::11/07/2007 16.02.21::visible
+26::News Ambiente::21/07/2007 16.50.47::visible
+27::da Irpinianews.it::23/07/2007 12.23.26::visible
+28::da IrpiniaNews.it::02/08/2007 13.10.16::visible
+29::Ambientenews::07/08/2007 21.45.30::visible
+30::NewsAmbiente da Parks.it::19/08/2007 11.22.00::visible
+31::Ambientenews::26/08/2007 16.22.53::visible
+32::NewsAmbiente da il Mattino::02/09/2007 21.57.02::visible
+33::Ambientenews Convegno::19/09/2007 12.20.01::visible
+34::NewsAmbiente::24/09/2007 16.02.22::visible
+35::da Ipinianews.it::25/09/2007 12.45.22::visible
+36::AmbienteNews::02/10/2007 21.30.04::visible
+37::AmbienteNews::04/10/2007 13.28.39::visible
+38::NewsAmbiente::04/10/2007 21.04.46::visible
+39::AmbienteNews::06/10/2007 16.05.27::visible
+40::Comunità Montana Terminio Cervialto::16/10/2007 12.54.12::visible
 
 [post_text_0]
 Qui proposte, osservazioni, critiche e tutto ciò che concerne l'ambiente e la natura dalle grosse tematiche di interesse mondiali ai piccoli accadimenti del paese.
@@ -172,3 +187,231 @@ Entra in funzione l’isola ecologica attrezzata Caposele-Teora, in località Petri
 
 [post_text_25]
 Vedi notizie flash della sezione ambiente. RIFIUTI.
+
+[post_text_26]
+Il Tribunale superiore delle acque si è pronunciato sulla Pavoncelli bis azzerando le pratiche. Il ricorso era stato presentato dal parco Regionale dei Monti Picentini e dall'ATO. Piena soddisfazione del presidente Aquino.
+
+[post_text_27]
+Alt alla Pavoncelli, la soddisfazione della Margherita
+&nbsp;
+La Margherita esprime grande soddisfazione per il provvedimento emesso dal Tribunale delle Acque con il quale è stata bloccata la realizzazione della cosiddetta “Pavoncelli”. Risultato ottenuto grazie ad un impegno corale delle Istituzioni locali e alla determinazione del Presidente del Parco dei Monti Picentini e dell’Ato. Si tratta di un risultato estremamente importante perché in questo provvedimento viene rilevata l’illegittimità del prelievo delle risorse idriche in misura superiore alle disponibilità effettive, con l’effetto di definire un principio di formidabile salvaguardia di una delle principali ricchezze del nostro territorio.
+&nbsp;
+(giovedì 19 luglio 2007 alle 20.11)
+&nbsp;
+
+[post_text_28]
+Il fiume Sele è diventato un lago: la denuncia in un convegno
+&nbsp;
+L’acqua del Sele, tra i pochi fiumi che in Campania conservano un’alta naturalità, a causa della portata d’acqua molto ridotta e dell’insabbiamento dell’ultimo tratto non riesce più a raggiungere il mare. In un incontro tra le associazioni ambientaliste e le amministrazioni tenutosi a Contursi si è potuto constatare come l’alto Corso del fiume Sele sia diventato un ruscello e la poca acqua presente sia in gran parte dovuta ai due affluenti principali Tanagro e Calore salernitano.
+“Se non si provvederà velocemente a istituire misure di salvaguardia – affermano Enzo Armenante Vicepresidente WWF Campania e Giovanni Centola, Responsabile sezione Valle del Sele - lo stato dell’ecosistema fluviale sarà  destinato ad aggravarsi”. Le cause sono da addebitarsi certamente ai cambiamenti climatici con la mancanza di piogge ma la responsabilità maggiore ricade sulle captazioni selvagge che si hanno lungo il fiume.
+“Cosa fa la Regione per controllare il prelievo di acqua alla sorgente da parte dell’acquedotto pugliese? Chi controlla i pozzi ed i prelievi d’acqua? Perché l’Autorità di Bacino interregionale del Sele non ha ancora completato lo studio relativo al flusso minimo vitale, che deve assicurare la vita della flora e fauna del fiume? Dov’è l’Ente Riserva Foce Sele Tanagro istituito dalla Regione nel 2003 e dov’è il Presidente, cha da circa due anni, è irreperibile? Come si sono attivati la Comunità della Riserva, i comuni, le Comunità Montane, le Province di Salerno ed Avellino?
+L’Assessorato alle Aree Protette regionale sta effettivamente premendo perché la Riserva sia presente e attiva sul territorio? Abbiamo decretato la fine di questi splendidi ecosistemi?”. Tanti, troppi, interrogativi che danno luogo, secondo i due ambientalisti, a “grosse inquietudini legate anche a motivi di ordine economico, legati allo sviluppo di questo territorio. Sono stati persi circa 280mila euro per il mancato funzionamento dell’Ente, si è persa l’occasione di promuovere progetti di tutela dell’area con i fondi POR 2000/2006 e, se le cose non cambieranno, si perderanno anche quelli 2007/2013”.
+Il WWF è molto preoccupato per l’avvenire di questo fiume e chiede l’impegno di tutti per affrontare velocemente le problematiche evidenziate, “…mantenendo la convinzione che soltanto l’impegno di un Ente Riserva serio possa porre un adeguato contenimento alle minacce e gradualmente fare rinascere l’ecosistema fluviale, restituendolo alle popolazioni locali”.
+(giovedì 2 agosto 2007 alle 12.30)
+&nbsp;
+
+[post_text_29]
+Si è costituita l'"Associazione Pasquale Ilaria", comitato di difesa del territorio di Caposele del suo fiume e delle sue sorgenti. Chiunque abbia spirito collaborativo, amante del territorio e delle problematiche ambientali può aderire.
+
+[post_text_30]
+ Parco, battaglia vinta per Aquino no alla galleria per l’acquedotto
+&nbsp;
+ Parco dei Monti Picentini
+&nbsp;
+Il presidente del parco regionale dei Monti Picentini, l'idrogeologico Sabino Aquino, ha vinto la sua prima battaglia giudiziaria. Il Tribunale superiore delle acque pubbliche ha infatti annullato gli atti di approvazione ed autorizzazione del progetto per la realizzazione delle opere di integrazione dell'acquedotto Sele-Calore- Galleria di Valico Caposele-Conza della Campania, detta Pavoncelli bis. Il progetto delle opere idrauliche, per un importo di 150 milioni di euro, era stato inserito tra le opere strategiche di interesse nazionale e prevedeva la realizzazione di un acquedotto in galleria, nonché di una centrale idroelettrica, opere parzialmente localizzate nel perimetro del Parco Regionale dei Monti Picentini ed incidenti sulla zona di protezione speciale, nonché su numerosi siti di interesse comunitario come ad esempio il Lago di Conza della Campania e di altre aree del salernitano, tutte inserite nella rete Natura 2000. La realizzazione delle opere sarebbe devastante non solo per le aree protette direttamente interessate dai lavori in quanto avrebbe avuto un notevole impatto ambientale su vari bacini idrografici esterni al Parco Picentino. E fu proprio questo il motivo del presidente Sabino Aquino ad agire innanzi all'autorità giudiziaria per bloccare, almeno per il momento, la realizzazione della devastazione opera che avrebbe prosciugato il bacino idrografico aumentando il prelievo di acque dalla Campania alla Puglia. Il Tribunale Superiore delle Acque Pubbliche ha ritenuto fondati i motivi di ricorso con i quali l'Ente Parco denunciava le violazioni di legge.
+&nbsp;
+&nbsp;
+
+[post_text_31]
+Vedi BREVI NEWS nella sezione AMBIENTE
+
+[post_text_32]
+Lupacchiotta salvata
+&nbsp;
+Si chiama Giovanna Pesce, ed è la protagonista di una bella storia di amore per gli animali. La ventitreenne di Petina ha, infatti, salvato una lupa di pochi mesi dagli incendi che il 24 agosto scorso infuriavano nella zona. La lupacchiotta è stata ritrovata dalla giovane, disorientata e impaurita, ai bordi della provinciale 125, che collega Petina a Polla. La ragazza l’ha curata a casa per una settimana sotto stretto controllo degli uomini del Comando Stazione del Corpo Forestale di Petina.
+&nbsp;
+&nbsp;
+&nbsp;
+
+[post_text_33]
+&nbsp;
+LE SORGENTI DEL SELE
+LA NOSTRA IDENTITA’
+LA NOSTRA RICCHEZZA
+&nbsp;
+Assicurare il rispetto degli impegni dell’Acquedotto Pugliese
+a difesa degli interessi della comunità di Caposele
+&nbsp;
+Domenica 23 Settembre
+Aula Polifunzionale Comunale
+&nbsp;
+INCONTRO CON I CITTADINI DI CAPOSELE PER DISCUTERE DELLO STATO ATTUALE E COSTRUIRE LA PIATTAFORMA RIVENDICATIVA NEI CONFRONTI
+DELLE ISTITUZIONI PUBBLICHE E DELL’AQP spa
+Ore 10.00
+Mostra grafico-pittorica sulle acque del Sele a cura di
+Giannino CICCONE
+ore 19.00
+Apertura dei lavori
+ore 19.15
+La sentenza del Tribunale Superiore delle Acque Pubbliche sulla galleria Pavoncelli-bis
+Angelo CERES
+ore 19. 30
+Le convenzioni tra Comune di Caposele e AQP spa: inottemperanza degli impegni
+Donatello CIRILLO
+ore 19. 45
+Le procedure ordinarie per il riaffidamento dell’appalto per la realizzazione della galleria Pavoncelli-bis (Accordo di programma)
+Assunta GONNELLA
+&nbsp;
+Interverranno:
+Sabino AQUINO – Presidente Parco Regionale dei Monti Picentini
+Bruno FIERRO – Assessore Ambiente e Territorio della Provincia di Avellino
+Pasquale GIUDITTA – ex Presidente ATO Calore Irpino
+Nicola DI IORIO – Presidente Comunità Montana Terminio Cervialto
+&nbsp;
+0re 20.30
+Le proposte della lista “Caposele nel Cuore” – Conclusione dei lavori
+PASQUALE  FARINA
+Tutta la cittadinanza e’ invitata a partecipare
+&nbsp;
+
+[post_text_34]
+vedi notizie su "Brevi news ambiente"
+
+[post_text_35]
+Caposele: ieri l'incontro dedicato all'acqua
+&nbsp;
+Caposele - L’incontro tenutosi il 23 settembre a Caposele, organizzato dal Circolo Caposele nel Cuore, ha visto la partecipazione dell’On. Pasquale Giuditta, già Presidente dell’ATO 1 Calore Irpino, dell’Assessore all’Ambiente della Provincia di Avellino Bruno Fierro, del Presidente del Parco dei Monti Picentini Sabino Aquino, del Presidente della Comunità Montana Terminio Cervialto Nicola Di Iorio. Dopo un primo intervento di Angelo Ceres, che ha illustrato i contenuti della sentenza del TSAP in merito al raddoppio della Galleria Pavoncelli nel corso del quale ha evidenziato l’obbligatorietà del parere di Valutazione di Impatto Ambientale e della copertura economica, ha preso la parola Donatello Cirillo che ha invece fatto un excursus storico, dal 1905 al 1997, delle varie convenzioni intercorse tra l’Acquedotto Pugliese (prima Ente autonomo Acquedotto Pugliese) e il Comune di Caposele, sottolineando le inottemperanze che si sono verificate nel corso degli anni. Di particolare rilievo l’intervento di Assunta Gonnella che ha disquisito sull’iter procedurale per  l’eventuale nuovo appalto della Galleria Pavoncelli bis, centrando l’attenzione sulla descrizione dell’Accordo di Programma che deve essere stipulato tra la Regione Campania e Puglia ed in particolare sul concetto di bilancio idrico. Ha concluso l’incontro Pasquale Farina parlando delle prospettive e degli impegni che il circolo “Caposele nel cuore” intende portare avanti. La manifestazione ha riscontrato un notevole successo di pubblico con numerosi consensi e vivo interessamento da parte della comunità di Caposele. Gli organizzatori pertanto ringraziano vivamente quanti hanno partecipato al convegno.
+(lunedì 24 settembre 2007 alle 18.54)
+&nbsp;
+
+[post_text_36]
+Trovati morti nel Parco Nazionale d'Abruzzo, Lazio e Molise (Pnalm)
+due
+orsi. Uno e' il famoso orso Bernardo, conosciuto da anni dalla
+popolazione
+per le sue visite notturne nei pollai dei centri abitati del Parco,
+l'altro
+e' una femmina ritrovata meno di 24 ore dopo nel territorio montano
+di Gioia
+dei Marsi (L'Aquila).
+&nbsp;
+Grande il rammarico di Legambiente che commenta per bocca del suo
+responsabile aree protette e territorio, Antonio Nicoletti, "Non
+ci sono
+parole per definire l'ennesima mattanza di orsi al Parco Nazionale
+d'Abruzzo, se non delinquenza pura e brutale alla quale bisogna
+rispondere
+con la massima determinazione nell'annientare il bracconaggio".
+&nbsp;
+Il ritrovamento e' stato fatto dal personale che seguiva l'orso
+attraverso
+il radiocollare satellitare che aveva smesso di trasmettere il segnale.
+Una
+tecnologia utile a studiarne tutti i movimenti e le attivita'
+quotidiane
+per acquisire maggiori conoscenze per una piu' mirata gestione.
+&nbsp;
+Continua lo stillicidio delle uccisioni degli orsi, la piccola
+popolazione
+residua nel PNA e Centro-Appennino, stimata in circa 40-50 individui,
+vede
+con l'uccisione dei due orsi, ridursi del 4% in un colpo solo.
+&nbsp;
+"Tutto cio' - continua Nicoletti - nonostante il plantigrado
+sia tutelato da
+leggi nazionali ed internazionali (specie prioritaria in Direttiva
+europea
+43/92 - habitat). La causa della morte sembra ormai certa essere per
+avvelenamento da anticrittogamici, che, seppure potentissimi veleni, si
+possono acquistare senza nessun controllo particolare. A questo punto -
+conclude il responsabile aree protette e territorio di Legambiente -
+diventa
+fondamentale dare concreta attuazione agli accordi e alle strategie
+gia'
+messe in campo in questi anni per la tutela dell'orso bruno
+marsicano".
+&nbsp;
+&nbsp;
+
+[post_text_37]
+In merito alle notizie divulgate dai mass-media, riguardanti la morte di altri due orsi, oltre i tre orsi già accertati, la Direzione del Parco smentisce tale infondata notizia, in quanto gli animali coinvolti nel presunto avvelenamento, restano ad oggi quelli già noti, ovvero tre Orsi Bruni Marsicani e due Lupi appenninici.
+La Direzione quindi, stigmatizza i tentativi di strumentalizzazione e depistaggio delle indagini in corso, messi in atto da fonti sconosciute.
+Nell’occasione, la Direzione del Parco precisa che nell’Ente non esiste nessun addetto stampa, per cui ribadisce l’ ulteriore infondatezza della notizia riportata da un agenzia di stampa, circa il presunto “allontanamento dell’addetto stampa per fughe di notizie”, riservandosi di procedere nei confronti di eventuali delatori.
+Va precisato, in tal senso, che la gestione della comunicazione con gli organi d’informazione è, da sempre, riservata al Presidente e al Direttore dell’Ente.
+Nel frattempo sono in corso intense indagini, finalizzate a raccogliere utili elementi per accertare definitivamente le cause di morte ed i responsabili di tale efferato atto barbarico.
+&nbsp;
+
+[post_text_38]
+&nbsp;
+La vile uccisione di esemplari di Orso bruno e lupi nel Parco Nazionale d’Abruzzo è di per sé un gravissimo colpo alla coscienza della società civile.
+&nbsp;
+Non hanno colpito solo il Parco Nazionale ma l'intera Regione che nell’orso in particolare ha trovato il simbolo più espressivo della natura selvaggia della nostra terra.
+Una natura che è il patrimonio più prezioso che l'Abruzzo ha e che può essere la fonte inesauribile di una ricchezza e di uno sviluppo da garantire alle generazioni future.
+&nbsp;
+Coloro che non hanno capito ciò hanno bisogno sì di una rieducazione radicale, ma nel momento in cui alla scarsa consapevolezza aggiungono l'atto criminale, vanno colpiti in modo duro e deciso.
+&nbsp;
+Per quanto gravi siano i danni che Orsi e Lupi possano procurare, essi non giustificano in alcun modo un atto che, oltre ad avere negative ripercussioni sulla conservazione delle specie, danneggia l'immagine di un territorio le cui popolazioni hanno sempre dimostrato non solo di saper convivere con il mondo degli animali ma anche di trarre da esso i naturali vantaggi.
+&nbsp;
+Nell'esprimere al Presidente e al Consiglio del Parco Nazionale d'Abruzzo la solidarietà mia e del Consiglio direttivo del Parco Sirente Velino, mi auguro che le Forze dell'ordine conseguano il giusto successo nell'opera di repressione.
+&nbsp;
+Il Presidente del Parco Regionale Sirente Velino
+Prof. Nazzareno Fidanza
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+[post_text_39]
+Inserendo questi articoli, sull'uccisione degli orsi ,estratti da varie dichiarazioni, voglio portarte all'attenzione il gravissimo atto terroristico che è stato posto in essere sulla natura e conseguentemente sulla nostra cultura, la nostra storia ed il nostro modo di tutelare le bellezze naturali che è uno dei più avanzati del mondo nonostante le gravi manchevolezze della nostra classe dirigente.
+Atti che si ripercuotono nel tempo anche sul benessere degli esseri umani. Perciò interessimoci tutti, iniziando da Caposele, ad una maggiore cura del nostro territorio.
+&nbsp;
+LE RISPOSTE DEL DIRETTORE DEL PARCO D'ABRUZZO ALLA STEGE DEGLI ORSI E DEI LUPI
+Un atto di eco-terrorismo!
+Ho avuto subito la percezione che eravamo di fronte ad un episodio di gravità assoluta e mai accaduto prima. Non esagero a parlare che siamo di fronte ad un attacco di eco-terrorismo per cui era necessario raccogliere indizi per evitare che fossero fatti sparire dai criminali.
+Sulla comunicazione…
+Ho dovuto adottare una comunicazione di basso profilo, riservandomi di dare in seguito la più ampia informazione. Infatti abbiamo raccolto molti indizi che sono stati messi a disposizione dell’autorità competente e speriamo di essere riusciti ad impedire ai criminali di far sparire questi indizi, prima che l’informazione diventasse di pubblico dominio da far emergere il giusto sdegno dell’opinione pubblica.
+Sulla cosiddetta rimozione dell’addetta stampa
+Se non si comprende questo contesto non si comprendono alcune cose secondarie che pur hanno interessato l’opinione pubblica, tra cui il caso della cosiddetta rimozione dell’addetto stampa.
+Il problema, invece era quello di mantenere un certo profilo di comunicazione.
+Un direttore autoritario?
+In oltre cinque anni alla direzione del Parco ho ampiamente dimostrato di non essere un tagliatore di teste e molti dipendenti lo possono attestare, né un Direttore del Personale autoritario, alcuni mi rimproverano di essere fin troppo buono!
+Si parla tanto di vigilanza insufficiente….
+Ma ci rendiamo conto che negli anni precedenti, a causa del grave dissesto finanziario, le guardie del Parco non avevano nemmeno uno status giuridico che hanno acquisito grazie al mio interessamento con i Prefetti dell’area? Non avevano alcuna strumentazione, persino le divise usurate dal tempo! Oggi grazie al sostegno del Direttore Generale del Ministero i guardiaparco hanno automezzi idonei, cannocchiali professionali ed altra utile strumentazione e mezzi per poter operare con maggiore incisività
+Sul caso degli Orsetti morti
+Non c’è alcun mistero!! infatti i guardiaparco avevano capito immediatamente che in questo caso, accertato oltre un mese fa, per fortuna non eravamo di fronte ad un ennesimo attacco al Parco e alla nostra preziosa fauna.
+Sulla secretazione delle indagini
+La riservatezza si imponeva fino a quando l’Istituto Nazionale Fauna Selvatica non avrebbe avvalorato la tesi dei guardiaparco e del nostro veterinario. Oggi posso dire con certezza che siamo di fronte ad un fatto triste ma assolutamente naturale: un orso maschio che uccide i piccoli per far tornare ricettiva la femmina.
+Cosa sta succedendo al Parco?
+Il Parco è un valore immenso per tutta l’Italia e per gli abitanti di questa area che da esso traggono notevoli benefici. Non c’è dubbio però – e qualunque governo lo sa – che alcuni specifici interessi possono essere colpiti. Potrei citare le moltissime ore della nostra giornata dedicate a cercare di risolvere questi problemi.
+Ciò che non potremmo accettare è che qualcuno possa credere di rimanere impunito!!!
+&nbsp;
+
+[post_text_40]
+COMUNICATO STAMPA
+&nbsp;
+La puntata dedicata all’Irpinia andrà in onda il 4 novembre alle ore 12,30 su Rai Uno.
+Lo share della trasmissione si attesta sul 30%, ovvero tra i 5 e i 6 milioni di telespettatori
+&nbsp;
+LA TRASMISSIONE RAI “LINEA VERDE” DAL 16 ottobre  PER TRE GIORNI IN IRPINIA PER UNA PUNTATA SPECIALE SULLE ECCELLENZE DEL TERRITORIO DEL TERMINIO CERVIALTO
+&nbsp;
+I conduttori Veronica Maya e Massimiliano Ossini a bordo di una jeep per scoprire l’Altopiano del Laceno, la lavorazione dei formaggi e delle castagne, la vendemmia e il Castello di Taurasi, sede dell’Enoteca regionale dei vini d’Irpinia.
+Tavolata finale a Nusco con la tarantella di Montemarano e viaggio in elicottero sulla Piana del Dragone di Volturara con il paesologo Franco Arminio.
+Il presidente della Terminio Cervialto, Di Iorio: “Straordinaria occasione per mostrare il volto di una terra diversa, moderna e accogliente, lontana dagli stereotipi del post-terremoto”
+&nbsp;
+MONTELLA (AVELLINO) – L’Irpinia sugli schermi di Rai Uno. Da domani, 16 ottobre, e fino a giovedì 18, la troupe di “Linea Verde”, la popolare trasmissione Rai, sarà nel territorio della Comunità Montana Terminio Cervialto per registrare una puntata tutta dedicata all’Irpinia, che andrà in onda domenica 4 novembre alle ore 12,30, dopo la Santa Messa e prima del telegiornale. Lo share della trasmissione si attesta sul 30 per cento, ovvero oltre tra i cinque e i sei milioni di telespettatori.
+&nbsp;
+Una straordinaria occasione di promozione e visibilità offerta da Rai Uno – senza alcun costo per l’Ente - grazie ai contatti da tempo avviati con la Terminio Cervialto e in particolare con il suo presidente Nicola Di Iorio, recentemente ospite di “Uno Mattina” per una puntata sui formaggi tipici della provincia di Avellino.
+Ora è la volta di “Linea Verde – In diretta con la natura”, programma che da mezzo secolo racconta agli italiani il mondo dell’agricoltura in tutti i suoi aspetti più particolari, con un viaggio tra i prodotti, i sapori e le tradizioni d’Italia.
+&nbsp;
+Da martedì a giovedì, quindi, tre giorni intensi in cui i due conduttori di “Linea Verde”, Veronica Maya e Massimiliano Ossini, a bordo di una jeep, scopriranno il territorio del Terminio Cervialto partendo naturalmente dalle sue produzioni d’eccellenza.
+&nbsp;
+Il 16 ottobre, l’elicottero di “Linea Verde” sorvolerà la Piana del Dragone di Volturara Irpina. A bordo, per descrivere le particolarità della zona, ci sarà il paesologo Franco Arminio, mentre delle caratteristiche della Piana parlerà Sabino Aquino, presidente dell’Ente Parco dei Monti Picentini. Un’altra troupe sarà contemporaneamente sul Laceno, dove comincerà la descrizione del processo di lavorazione del caciocavallo podolico e del pecorino bagnolese, documentando la mungitura delle mucche allo stato brado in una cornice di rara bellezza come quella dell’Altopiano irpino. Subito dopo ci si sposterà a Montella per le fasi di lavorazione in caseificio. Dopo i formaggi sarà la volta delle castagne. La troupe di “Linea Verde” si concentrerà sulla raccolta meccanizzata nei boschi nonché sulla successiva lavorazione.
+&nbsp;
+Mercoledì 17 novembre le riprese si concentreranno in mattinata sulla vendemmia di Aglianico e Taurasi Docg a Montemarano, mentre tutta la prima parte del pomeriggio sarà dedicata alla caratteristica “tavolata” di Linea Verde, nei suggestivi angoli di Nusco, dove saranno anche presentati piatti della tradizione preparati dagli chef Antonio Pisaniello e Valentina Martone. A fare da cornice saranno tutti i prodotti tipici della zona, dai vini, all’olio, dai tartufi alla pasta, fino alle lavorazioni artigianali e all’esibizione della tarantella di Montemarano.
+&nbsp;
+L’ultima giornata di riprese, giovedì 18 ottobre, comincerà ad Altavilla Irpina con la vendemmia di Fiano, mentre alle 11,30 ci si sposterà a Taurasi per l’ultima parte delle riprese, dedicata al Castello e all’Enoteca regionale dei Vini d’Irpinia. Infine il pomeriggio tappa a Dentecane per documentare la produzione del torrone.
+&nbsp;
+“L’attenzione della Rai verso l’Irpinia – afferma il presidente della Comunità Montana Terminio Cervialto, Nicola Di Iorio – e, in particolare, l’interesse mostrato dalla trasmissione “Linea Verde”, seguita ogni domenica da milioni di telespettatori italiani, rappresenta il coronamento dell’impegno della Comunità Montana per la promozione del territorio in maniera mirata. Abbiamo sempre dato priorità a quei canali che potessero darci la giusta visibilità senza essere accorpati in maniera generica ad altri enti o territori, e questa politica perseguita negli anni ci ha premiato. Oggi l’Irpinia, e in particolare il territorio del Terminio Cervialto, rappresenta un riferimento per gli appassionati di enogastronomia di qualità, alla ricerca di luoghi salubri e tranquilli, ma allo stesso tempo ricchi di storia, tradizioni e luoghi da visitare. Si tratta di una straordinaria occasione anche per mostrare il volto di un’Irpinia diversa, moderna e accogliente, lontana dagli stereotipi che hanno caratterizzato questa terra dal terremoto in poi. La puntata di “Linea Verde” dedicata all’Irpinia rappresenterà in questo senso un ulteriore trampolino di lancio, un’occasione di eccezionale visibilità che tutto il sistema dell’accoglienza, dalle pubbliche amministrazioni alle attività ricettive e fino alle imprese, dovrà essere in grado di cogliere al volo”.
+&nbsp;
+MONTELLA (AVELLINO), 15 ottobre 2007
+&nbsp;

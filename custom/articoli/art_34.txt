@@ -1,0 +1,25 @@
+Autore::
+Titolo::Siamo nati per correre
+--- Begin body ---
+<br>
+Ricordate il film “Forrest Gump” in cui i protagonista, a un certo punto comincia a correre semplicemente perch&egrave;
+ ne ha voglia? Forse &egrave; stato spinto dal fatto che siamo nati per correre. Scherzi a parte... secondo gli scienziati 
+americani Daniel Lieberman, professore di antropologia all'Universit&agrave; di Harvard e Dennis Bramble, 
+biologo della Utah University sembrerebbe proprio cos&igrave;.<br><br>
+La ricerca &egrave; partita dalla curiosit&agrave; di sapere perché i maiali, al contrario di altri mammiferi, 
+non sanno correre, e i due studiosi hanno scoperto che il maiale non &egrave; dotato della “cresta nucale” che mantiene 
+collegati vari tessuti che a loro volta mantengono ben salda la testa durante la corsa. 
+L’uomo oltre alla “cresta nucale”, possiede ben 26 strutture adatte per la corsa, tra queste il tendine di Achille, che, 
+contrariamente a quanto si credeva, non ha alcuna funzione nell’atto del camminare.<br><br>
+I risultati della ricerca sono sorprendenti e inaspettati perché la vita dell’uomo &egrave; diventata sempre pi&ugrave; 
+sedentaria e gli spostamenti che prima effettuava a piedi, ora vengono fatti da mezzi di trasporto. L’uomo era un ottimo 
+corridore nella preistoria per necessit&agrave;, per sopravvivere doveva sfuggire ai predatori e procurarsi il cibo, 
+ma anche oggi, forse, se fosse allenato, potrebbe percorrere grandi distanze e superare, in velocit&agrave;, cani e cavalli. 
+<br><br>
+<br>
+<p>&nbsp;
+<div align="center">
+<img id="Logo" src="%file_root%custom/album/varie/Run.jpg" alt="Logo" border="0" width="300">
+</div>
+<br><br>
+--- End body ---

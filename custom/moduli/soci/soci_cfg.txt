@@ -28,10 +28,13 @@ Francesco Ceres::ceres.f@tiscali.it::07/10/2006::socio ordinario::::13::Soci_ars
 Gianni Sozio::giannisozio@yahoo.it::07/10/2006::socio ordinario::::14::Soci_ars::
 Salvatore Colatrella::::07/10/2006::socio ordinario::::15::Soci_ars::
 Giuseppe Martino::gerrymarty@msn.com::19/02/2007::socio ordinario::::16::Soci_ars::
+Gelsomino Merola::::24/08/2007::socio ordinario::::17::Soci_ars::
+Saverio Perna::saveriopmail@libero.it::16/09/2007::socio ordinario::::18::Soci_ars::
 #
 # formato elenco_news:  data::news
 #
 [elenco_news]
+17/09/2007::Nella gara podistica II maratonina di Montoro Sup. (Av), la squadra Ars ha ottenuto il 4&deg; posto, ricevendo in premio 70 euro.
 16/03/2007::Sondaggio Champions League 2006/07: offerte raccolte 3 euro.
 05/07/2006::Presentata alla Regione Campania domanda di finanziamento per la Stralaceno.
 08/06/2006::Sondaggio Mondiali di Calcio 2006: ceduti 152 biglietti; offerte raccolte 130 euro; regolarmente registrate 117 giocate.

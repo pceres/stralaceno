@@ -1,0 +1,11 @@
+Autore::
+Titolo::Divisa Podistica Ars
+--- Begin body ---
+<br>
+<br>
+<p>&nbsp;
+<div align="center">
+<img id="Logo" src="%file_root%custom/album/ars/maglia_running_ars.jpg" alt="Logo" border="0" width="150">
+</div>
+<br>
+--- End body ---

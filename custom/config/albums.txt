@@ -13,7 +13,14 @@ ars_semplificato.jpg
 Stemma_Caposele_Malanga_V.jpg  
 NDA1.jpg
 ars.jpg::
-lac_12.04.07.jpg 
+lac_12.04.07.jpg::
+LogoStra07.jpg::
+lioni07.jpg::
+Lioni2.jpg::
+cont.jpg::
+Aquara07.jpg::
+Montoro07.jpg::
+Mont07.jpg::
 
 [All.Coll.05]
 ManifestoAll.Coll.05.jpg::
@@ -38,6 +45,14 @@ lagoLaceno.jpg::Laceno::::
 logo_Champions.jpg::Logo Champions League::
 logo_ambiente.jpg::Logo della sezione "ambiente"::
 Caposele_su_televideo.jpg::Liceo allagato a Caposele::
+logo.jpg::logo Ars sul web::
+artRunners1B.jpg::Tabella articolo Runners::
+artRunners1A.jpg::Articolo Runners Primi Passi (1parte)::
+artRunners1AA.jpg::Articolo Runners Primi Passi (2parte)::
+primagara.jpg::Articolo Runners Prima Gara::
+Run.jpg::
+4.jpg::
+
 
 [Soci_ars]
 LV2.jpg::Lello Viscardi::
@@ -57,6 +72,8 @@ FC.jpg::Francesco Ceres::
 GS.jpg::Gianni Sozio::
 SC.jpg::Salvatore Colatrella::
 GiM.jpg::Giuseppe Martino::
+GelM.jpg::Gelsomino Merola::
+SP.jpg::Saverio Perna::
 
 [Roccadaspide_06]
 Roccadasp_040_1.jpg::evento::Foto di gruppo ARS, Gerardo, Paolo, Alessandro e Salvatore C.::
@@ -165,15 +182,15 @@ FC_11.jpg::::FC Caposele - Real S.Andrea Conza (13/05/2007)
 FC_12.jpg::::FC Caposele - Real S.Andrea Conza (13/05/2007)
 
 [Roma_07]
-MR1.jpg:::: Alessandro, Paolo ed alle loro spalle il colosseo::Alessandro, Paolo
-MR9.jpg:::: Una marea di gente alla maratona,oltre 15mila::Roma 2007
-MR2.jpg:::: Paolo, anche lui sembra felice::Paolo
-MR3.jpg:::: Il Km 9 &egrave; stato appena raggiunto, ma la strada &egrave; ancora molto lunga::Paolo
-MR4.jpg:::: Si intravede la piramide da lontano, siamo ancora al 9&deg; Km::Alessandro
-MR8.jpg:::: Alcuni atleti ormai con risorse allo stremo (Si intravede Alessandro sullo sfondo)::Alessandro
-MR5.jpg:::: Notiamo il volto pieno di soddisfazione::Paolo
-MR6.jpg:::: Appena giunto al traguardo, non vede l'ora di regalarsi un meritato riposo::Alessandro
-MR7.jpg:::: Eccoli, con le residue energie rimaste si concedono un ultimo scatto prima di tornare a casa::Alessandro, Paolo
+MR1.jpg:::: Alessandro, Paolo ed alle loro spalle il colosseo::Romamarathon 2007
+MR9.jpg:::: Una marea di gente alla maratona,oltre 15mila::Romamarathon 2007
+MR2.jpg:::: Paolo, anche lui sembra felice::Romamarathon 2007
+MR3.jpg:::: Il Km 9 &egrave; stato appena raggiunto, ma la strada &egrave; ancora molto lunga::Romamarathon 2007
+MR4.jpg:::: Si intravede la piramide da lontano, siamo ancora al 9&deg; Km::Romamarathon 2007
+MR8.jpg:::: Alcuni atleti ormai con risorse allo stremo (Si intravede Alessandro sullo sfondo)::Romamarathon 2007
+MR5.jpg:::: Notiamo il volto pieno di soddisfazione::Romamarathon 2007
+MR6.jpg:::: Appena giunto al traguardo, non vede l'ora di regalarsi un meritato riposo::Romamarathon 2007
+MR7.jpg:::: Eccoli, con le residue energie rimaste si concedono un ultimo scatto prima di tornare a casa::Romamarathon 2007
 
 [ambiente]
 Parco_Picentini.jpg::Parco dei Monti Picentini::Vista d'insieme::
@@ -189,42 +206,42 @@ tk2007_7.jpg::
 tk2007_8.jpg:: 
 
 [Paestum_07]
-pae0.jpg::
-pae9.jpg::
-pae1.jpg:: 
-pae2.jpg::
-pae3.jpg::
-pae5.jpg::
-pae6.jpg::
-pae7.jpg::
-pae4.jpg::::::Francesco Ceres, Alessandro Russomanno, Salvatore Merola e Paolo Viscardi
+pae0.jpg::partenza::Paestum 2007
+pae9.jpg::quanta gente ragazzi!in queste situazioni viene fuori la grinta nel correre::Paestum 2007
+pae1.jpg::in corsa circa 500 atleti::Paestum 2007 
+pae2.jpg::possiamo notare gli atleti Ars::Paolo,Salvatore,Francesco,Alessandro 
+pae3.jpg::i quattro atleti Ars in maglia bianca,dopo poche centinaia di metri dalla partenza::Paestum 2007
+pae5.jpg::cavalcata finale,con Alex in testa::Alessandro,Francesco e Salvatore  
+pae6.jpg::vediamo arrivare i componenti Ars sulla linea del traguardo,mentre visualizzano il cronometro::Alessandro,Salvatore,Francesco
+pae7.jpg::qualche metro dietro arriva Paolo::Paestum 2007
+pae4.jpg::Francesco Ceres, Alessandro Russomanno, Salvatore Merola e Paolo Viscardi::Paestum 2007
 
 [Siano_07]
-si2.jpg::
-si3.jpg::
-si4.jpg::
-siano1.jpg::
-si5.jpg::
-si6.jpg::
-si7.jpg::
-si8.jpg::
-si9.jpg::
-si10.jpg::
-si11.jpg::
+si2.jpg::fase di iscrizione::Siano2007
+si3.jpg::partenza::Siano2007
+si4.jpg::pochi istanti dopo il via::Siano 2007
+siano1.jpg::i nostri componenti Ars visti dall'alto::Siano 2007
+si5.jpg::Salvatore a pochi metri dal via, dietro Alessandro, Francesco e Paolo::Siano 2007
+si6.jpg::Paolo,Salvatore e poco dietro Alessandro::Siano 2007
+si7.jpg::sulla destra Alessandro che tenta una rimonta::Siano 2007
+si8.jpg::Donatello che tiene testa al gruppo::Siano 2007
+si9.jpg::francesco ceres::Siano 2007
+si10.jpg::Paolo in fase di sorpasso::Siano 2007
+si11.jpg::ecco i componenti Ars::Siano 2007 
 
 [Mercogliano_07]
-mon1.jpg::
-mon2.jpg::
-mon3.jpg::
-mon4.jpg::
-monA.jpg::
-mon5.jpg::
-mon6.jpg::
-mon7.jpg::
-mon8.jpg::
-mon9.jpg::
-mon10.jpg::
-mon11.jpg::
-mon12.jpg::
-monB.jpg::
-monC.jpg::
+mon1.jpg::tutti pronti per la partenza::Mercogliano 2007
+mon2.jpg::siamo appena partiti::Montevergine 2007
+mon3.jpg::Salvatore che precede Paolo,la gara &egrave; iniziata da poco::Mercogliano 2007
+mon4.jpg::Alessandro e via via tutti gli altri::Mercogliano 2007
+monA.jpg::vista dall'alto::Mercogliano 2007
+mon5.jpg::Francesco::Mercogliano 2007
+mon6.jpg::Salvatore non molla lungo la dura salita::Mercogliano 2007
+mon7.jpg::l'arrivo al traguardo di Francesco,dopo una grande gara::Mercogliano 2007
+mon8.jpg::Salvatore a pochi metri dal traguardo::Mercogliano 2007
+mon9.jpg::Francesco dopo 16Km circa arriva al traguardo::Mercogliano 2007
+mon10.jpg::Salvatore,porta a termine una grande gara::Mercogliano 2007
+mon11.jpg::l'arrivo in volata di Paolo e Alessandro::Mercogliano 2007
+mon12.jpg::con non poche difficolt&agrave;, Paolo ed Alessandro tagliano il traguardo::Mercogliano 2007
+monB.jpg::la struttura che rende famosa Montevergine::Mercogliano 2007
+monC.jpg::foto panoramica::
