@@ -376,12 +376,12 @@ function check_single_auth(&$mansioni_filtrate,$found_task,$abilitazione,$tag,$p
 				{
 					echo("I parametri non corrispondono ($ks_par,$params)!<br>\n");
 				}
-echo "&lt;$ks_par|$params&gt;<br>";
-echo "<br><br>";
-print_r($abilitazione);
-echo "<br><br>";
-print_r($found_task);
-echo "<br><br>";
+//echo "&lt;$ks_par|$params&gt;<br>";
+//echo "<br><br>";
+//print_r($abilitazione);
+//echo "<br><br>";
+//print_r($found_task);
+//echo "<br><br>";
 				return false;
 			}
 		}
