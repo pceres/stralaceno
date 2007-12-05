@@ -21,6 +21,14 @@ cont.jpg::
 Aquara07.jpg::
 Montoro07.jpg::
 Mont07.jpg::
+nu07.jpg::
+sal.jpg::
+aqu2_07.jpg::
+cont2_07.jpg::
+maglia_running_ars.jpg::
+cont3.jpg::
+cont4.jpg::
+
 
 [All.Coll.05]
 ManifestoAll.Coll.05.jpg::
@@ -51,8 +59,11 @@ artRunners1A.jpg::Articolo Runners Primi Passi (1parte)::
 artRunners1AA.jpg::Articolo Runners Primi Passi (2parte)::
 primagara.jpg::Articolo Runners Prima Gara::
 Run.jpg::
-4.jpg::
-
+4.jpg::Articolo Runners Una strategia in 15 punti::
+quasinove-2007.jpg::Locandina "Quasi nove" 2007::::
+albero_genealogico.jpg::Albero genealogico::Albero genealogico di Pasquale Ceres::
+Run_World4.jpg::Articolo Runners Sblocca i risultati::
+Non_Corro.jpg::Articolo Runners Non corro perch&egrave; soffro molto::
 
 [Soci_ars]
 LV2.jpg::Lello Viscardi::
@@ -180,6 +191,7 @@ FC_9.jpg::::FC Caposele - Real S.Andrea Conza (13/05/2007)
 FC_10.jpg::::FC Caposele - Real S.Andrea Conza (13/05/2007)
 FC_11.jpg::::FC Caposele - Real S.Andrea Conza (13/05/2007)
 FC_12.jpg::::FC Caposele - Real S.Andrea Conza (13/05/2007)
+Rend_FC_06_07.jpg::::
 
 [Roma_07]
 MR1.jpg:::: Alessandro, Paolo ed alle loro spalle il colosseo::Romamarathon 2007
