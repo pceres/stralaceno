@@ -1,0 +1,12 @@
+Autore::Ars
+Titolo::Corsa podistica "Quasi nove"
+--- Begin body ---
+<br>
+<p>
+Pubblichiamo il manifesto della gara podistica "Quasi nove", organizzata dal compaesano Nicola Melillo.<br>
+<br>
+<div align="center">
+<img id="Logo" src="%file_root%custom/album/varie/quasinove-2007.jpg" alt="Quasi_nove" border="0" width="700">
+</div>
+<br>
+--- End body ---
