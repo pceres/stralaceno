@@ -69,6 +69,7 @@ sezione_homepage::Homepage::external_link::index.php?page=homepage::
 sezione_FC_caposele::<b>F.C. Caposele</b>::external_link::index.php?page=FC_caposele::
 #sezione_ciclismo::Ciclismo::external_link::index.php?page=ciclismo::
 sezione_ambiente::Ambiente e natura::external_link::index.php?page=ambiente::
+link_genealogia::Genealogia caposelese::external_link::PhpGedView/index.php::::
 
 [Approfondimenti]
 flash_news_FC_caposele::News sez. F.C. Caposele::external_link::custom/moduli/flash_news/flash_news.php?page=FC_caposele&module_data=FC_caposele::::
