@@ -1,0 +1,9 @@
+Autore::Runner's World
+Titolo::Non corro perch&egrave; soffro troppo
+--- Begin body ---
+<p>&nbsp;
+<div align="center">
+<img id="Tabella5" src="%file_root%custom/album/varie/Non_Corro.jpg" alt="Tabella5" border="0" width="530">
+</div>
+<br>
+--- End body ---

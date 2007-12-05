@@ -85,6 +85,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 71::da CorriereIrpinia.it::27/09/2007 10.00.41::visible
 72::da Il Mattino::03/10/2007 15.48.16::visible
 73::da Il Mattino::08/10/2007 10.31.33::visible
+74::da Irpinianews.it::25/10/2007 11.54.15::visible
 
 [post_text_0]
 Riceviamo da CLEON.REN e pubblichiamo:
@@ -654,3 +655,16 @@ bo.am. 06/10/2007
 &nbsp;
 &nbsp;
 &nbsp;
+
+[post_text_74]
+Pavoncelli bis, deciderà la Corte di Cassazione
+&nbsp;
+La Regione Puglia affiancherà il commissario straordinario Roberto Sabatelli nel ricorso in Cassazione per sbloccare i lavori alla galleria Pavoncelli bis, il tratto iniziale dell’Acquedotto del Sele, lavori bloccati a fine luglio da una sentenza del Tribunale Superiore delle Acque. La notizia compare sul quotidiano pugliese “Gazzetta del Mezzogiorno”. «Il raddoppio della Pavoncelli - ribadisce l’assessore regionale ai Lavori Pubblici Onofrio Introna - è un’infrastruttura strategicamente importante per la Puglia, per cui ci auguriamo adeguata sensibilità da parte degli organi giudicanti: questi ritardi potrebbero costarci tantissimo».
+La portata della galleria Pavoncelli, a causa numerosi crolli innescati dal terremoto in Irpinia nel 1980, si è ridotta dagli originali 4600 litri/secondo a circa la metà.
+Il progetto di raddoppio della galleria (la cosidetta Pavoncelli bis) risale al 1988: la gara d’appalto è stata vinta dall’Ati composta da Condotte, Dec, Faver, ma è stata annullata dopo il ricorso dell’ente Parco dei Monti Picentini e dell’Autorità di Bacino “Calore Irpino” che sovrintende le risorse idriche del fiume Sele.
+L’altro ieri la giunta regionale ha approvato la delibera con cui, entro metà del mese prossimo, la Regione si costruirà presso le sezioni unite della Cassazione a sostegno del commissario straordinario. Che a fine settembre, in un documento inviato all’avvocatura generale dello Stato, ha confutato i contenuti della sentenza 123/2007 del Tsap ritenendola «emessa in violazione e falsa applicazione di norme di diritto, incompetenza ed eccesso di potere, nonchè insufficiente e contraddittoria motivazione».
+L’importanza della Pavoncelli per la Puglia è stata chiarita dal progettista, l’ingegner Vincenzo Cotecchia, all’indomani dello stop dei lavori: «Quando il crollo della Pavoncelli sarà completo, e prima o poi lo sarà, dal Sele non arriverà più nemmeno un goccio d’acqua. Rischieremo di trovarci nella stessa situazione del 1980, dopo il terremoto in Irpinia: allora lo Stato spese qualcosa come 1000 miliardi di lire».
+La Regione ha tentato di attivare anche contatti politici con i vicini campani, ma le sollecitazioni di Ventola e Bassolino non hanno avuto effetti. Si lavora, però, sull’accordo di Programma con la Campania che, sulla scorta di quello stipulato con la Basilicata, impegnerà la Puglia a riconoscere una cifra (si parla di 13 milioni l’anno) per l’uso dell’acqua del Sele.
+«Ci risulta - dice l’assessore Introna - che il ministero dell’Ambiente sia vicino a convocare il tavolo tecnico con le Infrastrutture e le Regioni che porterà alla stipula dell’accordo». Sarà un passo fondamentale per la distensione tra le parti
+&nbsp;
+25.10.2007

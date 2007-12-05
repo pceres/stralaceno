@@ -127,6 +127,16 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 113::Un socio::17/09/2007 23.25.23::visible
 114::paolo::19/09/2007 09.50.51::visible
 115::Un socio::19/09/2007 12.52.37::visible
+116::Salvatore Merola::29/10/2007 19.39.23::visible
+117::paolo::29/10/2007 22.23.21::visible
+118::NICOLA M.::30/10/2007 10.52.09::visible
+119::méi-mé::30/10/2007 12.46.55::visible
+120::Un socio::30/10/2007 19.21.40::visible
+121::paolo::31/10/2007 17.42.36::visible
+122::NICOLA M:::20/11/2007 11.37.45::visible
+123::Alessandro R.::20/11/2007 12.14.11::visible
+124::paolo::02/12/2007 22.16.36::visible
+125::maria grazia::03/12/2007 19.20.49::visible
 
 [post_text_0]
 Fermate Nicola Melillo con questa stralaceno: anche i muri di materdomini e caposele non ne possono più.
@@ -664,3 +674,42 @@ caro socio, non ti sembra di comportarti in modo troppo severo??
 
 [post_text_115]
 Assolutamente no....meriti la punizione più severa che ci sia....
+
+[post_text_116]
+Mi dispiace...come socio Ars sono rimasto profondamente deluso dalle parole di Donato Gervasio e dall'appoggio di Nicola Melillo...la gara di sabato 3 ve la fate voi...tanti saluti...Salvatore Merola
+
+[post_text_117]
+caro salvato, secondo ma hai perfettamente ragione, ci stanno trattando troppo male.
+Ora valuteremo seriamente se partecipare o meno alla quasi nove.
+Un saluto a tutti i soci ARS
+
+[post_text_118]
+A QUESTO PUNTO PURTROPPO A MALINCUORE DEVO INTERVENIRE SE NON CI VENITE NESSUNO SENTIRA' LA VOSTRA ASSENZA IN QUANTO RAGIONATE ANCORA COME DEI RAGAZZINI D' ALTRONDE NON SI PUO' PENSARE CHE ALLA VOSTRA GIOVANE ETA' RIUSCIVATE A SCINDERE LE DUE QUESTIONI I MALINTESI CHE SI CONO CREATI TRA ME E NICOLA D' AURIA A VOI NON VI INTERESSANO, VOI DOVETE PARTECIPARE SE LA GARA CHE HO ORGANIZZATO VI PIACE E BASTA.LE ALTRE GARE IN GIRO PER LA CAMPANIA SIETE ANDATI A CORRERLE NON VEDO PERCHE' VI DOVETE FARE CONDIZIONARE DA UNA POLEMICA CHE HA SOLLEVATO DONATO GERVASIO.COMUNQUE FATE COME VI PARE.
+
+[post_text_119]
+sono d'accordo con il grande nicola, andate sbandierando cultura sportiva, correte qua e là per tutta la regione e poi non partecipate alla quasinove per non so quali chiacchiere del fantomatico ciclista inviato? ma iativenn a fui a vattlappesca
+
+[post_text_120]
+Il problema non è ciò che ha scritto Gervasio, ma l'appoggio dato apertamente da Nicola Melillo a tale articolo.
+Comunque invito i soci   a partecipare e a Nicola di superare l'annosa e infruttuosa polemica con D'Auria.
+&nbsp;
+&nbsp;
+
+[post_text_121]
+il fatto che noi partecipiamo a diverse gare nn è solo motivo di svago, spesso noi lo facciamo per portare avanti la nostra associazione, e per quanto mi riguarda ho partecipato a diverse gare pur avendo problemi, per il solo scopo di rappresentare l'ars assieme ai miei compagni. Quindi cari critici i problemi che riguardano te e nicola d'auria visto che è il nostro presidente nn possono che toccare me e soprattutto noi dell'ars.
+&nbsp;
+
+[post_text_122]
+IERI 19 NOV. GRANDE ALLENAMENTO DI 13 KM. CIMITERO GIRO PER PASANO E RITORNO AL CIMITERO.E' STATA DURA MA COMUNQUE SIAMO RIUSCITI A COMPLETARE IL PERCORSO.ERAVAMO IO E GAETANO ROSANIA.X ALEX RUSSOMANNO.CIAO.
+
+[post_text_123]
+Bravi, continuate così cercando magari di coinvolgere anche altre persone.
+&nbsp;
+Ciao
+
+[post_text_124]
+Ragazzi, volevo solo invitarvi a visitare la nuova versione del sito www.siamonoi.it finalmente dinuovo online dopo qualche mese di assenza!! passate a fare un giro una volta tanto e magari lasciate un messaggio nel guestbook o nel forum, oppure votare nella sezione sondaggi.
+Un saluto a tutti i soci ars.
+
+[post_text_125]
+&gt;Ragazzi, volevo solo invitarvi a visitare la nuova versione del sito www.siamonoi.it finalmente dinuovo online dopo qualche mese di assenza!! passate a fare un giro una volta tanto e magari lasciate un messaggio nel guestbook o nel forum, oppure votare nella sezione sondaggi.<br>&gt;Un saluto a tutti i soci ars.<br>&gt;<br><br>ciao!!!!!!!complimenti x il rinnovamento del sito.finalmente un po' di colore!mary

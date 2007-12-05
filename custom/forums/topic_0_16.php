@@ -52,6 +52,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 38::NewsAmbiente::04/10/2007 21.04.46::visible
 39::AmbienteNews::06/10/2007 16.05.27::visible
 40::Comunità Montana Terminio Cervialto::16/10/2007 12.54.12::visible
+41::da CorriereIrpinia.it::05/11/2007 11.35.59::visible
 
 [post_text_0]
 Qui proposte, osservazioni, critiche e tutto ciò che concerne l'ambiente e la natura dalle grosse tematiche di interesse mondiali ai piccoli accadimenti del paese.
@@ -414,4 +415,18 @@ L’ultima giornata di riprese, giovedì 18 ottobre, comincerà ad Altavilla Irpina 
 “L’attenzione della Rai verso l’Irpinia – afferma il presidente della Comunità Montana Terminio Cervialto, Nicola Di Iorio – e, in particolare, l’interesse mostrato dalla trasmissione “Linea Verde”, seguita ogni domenica da milioni di telespettatori italiani, rappresenta il coronamento dell’impegno della Comunità Montana per la promozione del territorio in maniera mirata. Abbiamo sempre dato priorità a quei canali che potessero darci la giusta visibilità senza essere accorpati in maniera generica ad altri enti o territori, e questa politica perseguita negli anni ci ha premiato. Oggi l’Irpinia, e in particolare il territorio del Terminio Cervialto, rappresenta un riferimento per gli appassionati di enogastronomia di qualità, alla ricerca di luoghi salubri e tranquilli, ma allo stesso tempo ricchi di storia, tradizioni e luoghi da visitare. Si tratta di una straordinaria occasione anche per mostrare il volto di un’Irpinia diversa, moderna e accogliente, lontana dagli stereotipi che hanno caratterizzato questa terra dal terremoto in poi. La puntata di “Linea Verde” dedicata all’Irpinia rappresenterà in questo senso un ulteriore trampolino di lancio, un’occasione di eccezionale visibilità che tutto il sistema dell’accoglienza, dalle pubbliche amministrazioni alle attività ricettive e fino alle imprese, dovrà essere in grado di cogliere al volo”.
 &nbsp;
 MONTELLA (AVELLINO), 15 ottobre 2007
+&nbsp;
+
+[post_text_41]
+La suggestione dei paesaggi e dei monti irpini riproposti dalla trasmissione “Linea Verde”
+&nbsp;
+&nbsp;
+L’irpinia riscoperta e riproposta ai telespettatori italiani, in tutta la bellezza dei suoi paesaggi, dalla popolare trasmissione televisiva “Linea verde”, andata in onda ieri mattina, su RaiUno.
+Le telecamere del programma condotto quest’anno dalla coppia Massimiliano Ossini e Veronica Maya, hanno mostrato come la nostra terra, in questi anni, abbia saputo sviluppare una solida attività imprenditoriale, dando vita ad un comparto agroalimentare tra i più vivaci e produttivi del Paese.
+Alla ribalta anche i prodotti tipici e le risorse del nostro territorio, quali i vini Taurasi, il Greco di Tufo e il Fiano di Avellino, tutti e tre rigorosamente “d.o. c. g.”.
+Un primato assoluto, l’Irpinia, infatti, è l’unica area italiana ad avere tre vini blasonati in pochi chilometri quadrati. Ma anche i cereali, la frutta, l’olio, i formaggi come il famoso caciocavallo di Montella, i boschi con la raccolta di una castagna di grande qualità, con le relative industrie di trasformazione.
+Molteplici i prodotti tipici che hanno goduto della ribalta televisiva, dai torroni di Dentecane, esportati in tutto il mondo, e che rappresentano oggi l’immagine di una nuova Irpinia che vuole riprendersi dal ricordo del tragico sisma del 1980, che sconvolse, 27 anni fa, anche quella ripresa economica che si stava allora avviando. Grande risalto è stato dato, oltre che ai molteplici prodotti enogastronomici del territorio, anche a tutto l’immenso patrimonio artigianale che la nostra provincia racchiude. Incantevoli anche le riprese effettuate dall’elicottero, che hanno svelato l’anima più vera e segreta di un’Irpinia che sta rinascendo proprio in questo particolare momento storico.
+Bellissime e di grande impatto emotivo, le riprese dell’altopiano del Laceno che hanno svelato la dolcezza di una terra che sembra rievocare i paesaggi umbri o toscani. Insomma, una vetrina di prestigio, quella offerta da “Linea verde” alla nostra provincia, che rappresenta un vero e proprio trampolino di lancio per una terra che ha deciso di investire nel turismo enogastronomico, e che solo recentemente, sembra aver scoperto e compreso appieno le sue risorse paesaggistiche, culturali, enogastronomiche, ma anche quelle umane.
+«Non ricordo di aver mai trovato tanto calore come da parte della popolazione irpina - ha commentato il giovane conduttore televisivo Massimiliano Ossini - Non penso che questa terra abbia qualcosa da invidiare a regioni famose per la bellezza dei paesaggi, come la Toscana».
+&nbsp;
 &nbsp;

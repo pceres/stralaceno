@@ -44,6 +44,10 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 30::info::04/05/2007 10.06.46::visible
 31::info::10/05/2007 10.36.17::visible
 32::info::04/06/2007 10.15.16::visible
+33::info::06/11/2007 12.43.03::visible
+34::info::07/11/2007 11.53.01::visible
+35::info::04/12/2007 09.59.54::visible
+36::dal sito del Real S.Andrea::04/12/2007 12.49.22::visible
 
 [post_text_0]
 Qui aspettiamo i vostri commenti alle vicende calcistiche della F.C. Caposele.
@@ -170,3 +174,53 @@ Aggiornata la classifica con le gare del 6 maggio.
 [post_text_32]
 Inserite -nell'apposita sezione- nuove foto e la sintesi delle ultime tre giornte di campionato.
 
+[post_text_33]
+Le 15 squadre del girone F Terza Categoria Avellino 2007/08:
+&nbsp;
+CAPOSELE
+CARIFE
+CASABIANCHI TREVICO
+CASTEL BARONIA
+LA LONGOBARDA
+LIBERATORE BULZARIELLO B
+LUPI TREVICO
+MORRA DE SANCTIS
+REAL SANT’ANDREA CONZA
+S.C. NUSCO
+SAN SOSSIO
+SPORTING EVER GREEN
+VALLATESE
+VALLESACCARDA
+VIRTUS CONZA
+&nbsp;
+
+[post_text_34]
+La FIGC Avellino ha modificato oggi il Girone F (portando le squadre da 15 a 14), variando anche il calendario.
+&nbsp;
+Composizione Girone F:
+CAPOSELE
+CARIFE
+CASABIANCHI TREVICO
+CASTEL BARONIA
+LA LONGOBARDA
+LUPI TREVICO
+MORRA DE SANCTIS
+REAL SANT’ANDREA CONZA
+S.C. NUSCO
+SAN SOSSIO
+SPORTING EVER GREEN
+VALLATESE
+VALLESACCARDA
+VIRTUS CONZA
+&nbsp;
+
+[post_text_35]
+In Approfondimenti - Files vari - Sez. F.C. Caposele trovate il Regolamento Interno della società di calcio locale.
+&nbsp;
+http://ars.altervista.org/download.php?resource_type=folder&resource_id=folder_FC_caposele
+
+[post_text_36]
+Domenica 02/12/2007    Caposele - Real  6 - 0
+&nbsp;
+Partita disastrosa del Real che cade a Caposele per 6 - 0, gara che si commenta da sola, la squadra scende in campo senza mordente, senza idee e senza carattere. Si comincia con : Antonacci, Gallucci, Santorsola, Camerlingo, Iannella E. , Cignarella, Di Guglielmo F. , Capasso, Carbone, Martino G. , Perriello. La squadra comincia bene con belle giocate e va pure in gol con Carbone, ma viene annullato "giustamente" per fallo commesso da quest'ultimo. Poi comincia lo show dei padroni di casa, che vanno in gol per colpa di un errato disimpegno della nostra retroguardia. Si ripetono dopo pochi minuti, cross dal vertice della nostra area di rigore , la  difesa sbaglia a fare il fuori gioco e l'attaccante avversario con una bella scivolata  manda la sfera alle spalle di Antonacci. Al 35' palla innocua, Antonacci se la  fa passare sotto le mani ed è il 3 - 0. Si chiude il primo tempo con un pesante passivo. Negli spogliatoi il mister cerca di smuovere la squadra, ma è del tutto inutile. Nella ripresa il Real si rende pericoloso solo nei primi 10 minuti, giocando all'attacco,cercando di riaprire una partita già chiusa. Inevitabilmente la squadra si scopre e viene colpita altre tre volte in contropiede. Una sconfitta che fa male, anzi malissimo, per com'è maturata e per quanto è finita. Ora bisogna solo rimboccarsi le maniche e lavorare sodo, anche perchè domenica c'è un'altra partita molto difficile!
+&nbsp;

@@ -6,6 +6,8 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+05/11/2007::Partecipanti alla gara podistica "VII Pedibus Calcantibus" di km 10,8 a Montella (Av): Francesco Ceres, Salvatore Merola, Paolo Viscardi, Donatello Cirillo, Alessandro Russomanno.
+01/11/2007::Visite mediche per il gruppo podistico Ars
 21/10/2007::Partecipanti alla gara podistica "StraSalerno Half-Marathon" di km 21,097 a Salerno: Gerardo Martino, Paolo Viscardi.
 15/10/2007::Partecipanti alla gara podistica "Trofeo C. Pezzuto" di km 7,9 a Puglietta di Campagna (Sa): Saverio Perna, Alessandro Russomanno, Paolo Viscardi.
 24/09/2007::Partecipanti alla gara podistica "V podistica San Michele" a Sala Consilina (Sa): Francesco Ceres, Saverio Perna, Salvatore Merola, Alessandro Russomanno.

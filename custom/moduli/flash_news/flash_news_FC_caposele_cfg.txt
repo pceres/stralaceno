@@ -6,6 +6,16 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+04/12/2007::Disponibile, nella sezione Download del sito, il Regolamento Interno della FC Caposele stagione 2007/08.
+02/12/2007::Risultato: FC Caposele - Real Sant'Andrea di Conza 6-0
+29/11/2007::Prossima partita: FC Caposele - Real Sant'Andrea di Conza, domenica 2 dicembre stadio Palmenta di Caposele ore 14.30.
+25/11/2007::Risultato: Sporting Ever Green - FC Caposele 0-2
+22/11/2007::Prossima partita: Sporting Ever Green - FC Caposele, domenica 25 novembre ore 14.30 a Vallesaccarda.
+19/11/2007::Risultato: FC Caposele - Morra De Sanctis 2-0
+16/11/2007::Prossima partita: FC Caposele - Morra De Sanctis, domenica 18 novembre ore 14.30 stadio Palmenta di Caposele.
+12/11/2007::Risultato: San Sossio - FC Caposele 0-3
+06/11/2007::Prima partita Terza Categoria Avellino 2007/08 Girone F : San Sossio - FC Caposele a San Nicola Baronia, sabato 10 novembre ore 14.30
+25/10/2007::Il Campionato Provinciale di terza categoria 2007-2008 avr&agrave; inizio sabato 10 e domenica 11 novembre 2007. 
 22/09/2007::Effettuata l'iscrizione della FC Caposele per il campionato provinciale di Terza Categoria, stagione 2007/08.
 08/06/2007::Quarti di finale campionato provinciale Allievi ritorno: FC Caposele - Eclanese 1-1
 05/06/2007::Quarti di finale campionato provinciale Allievi andata: Eclanese - FC Caposele 5-0

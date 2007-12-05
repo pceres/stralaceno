@@ -12,6 +12,10 @@ FC_caposele::F.C. Caposele::L'album di famiglia della F.C. Caposele
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
+23::FC_caposele::2007/08  Sporting E. Green - FC Caposele 0-2::Tommaso Cibellis
+21::FC_caposele::2007/08  FC Caposele - Morra De Sanctis 2-0::Tommaso Cibellis
+20::FC_caposele::2007/08  San Sossio - FC Caposele 0-3::Tommaso Cibellis
+22::FC_caposele::Rendiconto 2006/07::
 3::FC_caposele::I dirigenti - stagione 2006/07::
 16::FC_caposele::Classifica finale III categoria 2006/07::
 2::FC_caposele::La squadra 2006/07::

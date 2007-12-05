@@ -25,6 +25,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 11::da Il Mattino::04/09/2007 15.12.41::visible
 12::NIC M.::12/09/2007 01.59.12::visible
 13::da Irpinianews.it::17/10/2007 10.09.46::visible
+14::da CorriereIrpinia.it::16/11/2007 17.13.40::visible
 
 [post_text_0]
 we allora, le polemiche sullo sport caposelese per ora sembra siano terminate. Abbiamo assistito ad uno bel dibattittio, coinvolgendo molte persone. Ma quello che sto cercando di dirvi e che se io posso cambiare e voi potete cambiare, tutto il mondo può cambiare. Questa era una frase tratta dal film di ROCKY, comununque con questo voglio dire che tutte le polemiche non sono mai servita a nulla, piuttosto bisogna cecare di essere quanto più uniti mettendo sul tavolo le proprie idee, ed allora a questo punto le cose potranno cambiare in modo positivo. tutto questo penso che sia la chiave di tutto.
@@ -98,4 +99,12 @@ L'uomo è stato immediatamente fermato e tratto in arresto in flagranza di reato.
 Proprio tra la moltitudine di persone presente, si erano anche smarriti alcuni minori ed il pronto intervento dell’Arma ha permesso attivare le consolidate procedure presso la Stazione Carabinieri Mobile, dove sono stati rintracciati i genitori a cui sono stati nuovamente affidati.  Inoltre, numerosi posti di controllo sono stati preordinati dal Comando della Compagnia di Montella nell’ambito del Piano Controllo del Territorio predisposto dal Comando Provinciale di Avellino.
 E’ stata creata una sorta zona di “filtraggio” dove pregiudicati provenienti dall’hinterland napoletano e casertano sono stati controllati ed allontanati, con la notifica del consueto avvio di procedimento per il successivo foglio di via obbligatorio, che non gli permetterà più di ritornare in Alta Irpinia.
 (martedì 16 ottobre 2007 alle 20.03)
+&nbsp;
+
+[post_text_14]
+Caposele, rapinata un’altra filiale della Banca di Bari
+&nbsp;
+Caposele - E’ di cinquanta mila euro il bottino di una rapina portata a termine ieri mattina ai danni della filiale della Banca Popolare di Bari a Caposele. Tre persone, a volto coperto, sono penetrate all’interno dell’istituto di credito e minacciando gli impiegati con dei taglierini si sono fatti consegnare tutto il denaro in contanti. Dopo il “colpo grosso” la fuga. Ad attenderli all’uscita, un altro complice a bordo di un’autovettura. Al momento non si ha nessuna traccia dei rapinatori ed i carabinieri continuano le loro indagini.
+A tre giorni dalla rapina a mano armata alla filiale di via Capozzi ad Avellino, un ennesimo colpo. Ma, questa volta cambia lo scenario a livello di “partecipanti” ( tre ladri, rispetto al solitario che ha agito in città), di bottino ( ventitre mila euro circa per il napoletano ignoto) e di luogo. Erano le 8 circa di ieri mattina quando tre uomini con il volto travisato da passamontagna hanno fatto irruzione nell’Istituto di credito di Caposele. Hanno prelevato cinquanta mila euro, svuotando completamente le casse della sportello di Caposele. La tecnica dei ladri, però, sembra essere la stessa. Per evitare di essere riconosciuti dalla telecamere presenti negli Ititusti, entrano di mattina presto, coperti in viso e sempre armati. Per fortuna, oltre la minaccia e lo spavento non hanno materialmente fatto del male ai presenti, tra impiegati e clienti.
+Intanto gli agenti della polizia continuano le loro indagini, effettuando posti d blocco e controllando ogni potenziale sospetto. Anche per la Banca di Via Capozzi, si attende di mettere insieme i pezzi del complicato puzzle. Sarà la polizia scientifica, grazie al rilevamento delle impronte a dare un primo imput agli agenti. L’unica cosa certa è che si tratta di un napoletano sui trent’anni.
 &nbsp;

@@ -1,6 +1,10 @@
 Autore::Pasquale Ceres
 Titolo::10 km di Nusco 2007
 --- Begin body ---
+<p>&nbsp;
+<div align="center">
+<img id="Squadra_Ars" src="%file_root%custom/album/ars/nu07.jpg" alt="Squadra Ars a Nusco" border="0" width="530">
+</div>
 <br>
 Anche quest'anno, con un po' di ritardo, ho inserito i dati dell'edizione 2007 della 10 km di Nusco, che si &egrave; tenuta all'inizio di agosto.<br>
 <br>
@@ -9,4 +13,5 @@ Per la cronaca della gara (e per i dati sui tempi in particolare) il sito di rif
 Da <a href="http://pceres.altervista.org/nusco/index.php">questa pagina</a> potete invece consultare una serie di classifiche ed analisi statistiche relative alla tradizionale manifestazione di Nusco: buon divertimento!<br>
 <br>
 Da notare la presenza costante di Nicola D'Auria, che risulta primo nella <a href="http://pceres.altervista.org/nusco/filtro11.php">"classifica partecipazioni"</a> con ben 11 presenze!<br>
+<br>
 --- End body ---

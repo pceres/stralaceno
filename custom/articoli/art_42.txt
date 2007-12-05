@@ -1,46 +1,23 @@
 Autore::Ars
-Titolo::Genealogia di Caposele
+Titolo::Corsa podistica "Quasi nove"
 --- Begin body ---
 <br>
 <p>
-   Una caratteristica delle comunita' di paese che hanno avuto
-storicamente  pochi scambi con l'esterno, come quella di Caposele,
-risiede nel reticolo di relazioni e parentele che ne collegano i membri;
-relazioni che si sono man mano formate e rinsaldate nei secoli, portando
-ad una situazione in cui, prendendo due persone a caso, non e' raro
-individuare, risalendo di poche generazioni, un antenato comune o
-comunque un qualche grado di parentela. A differenza di altri paesi
-vicini, dove l'isolamento e' stato quasi completo, vi sono stati nel
-secolo scorso, a causa delle sorgenti del Sele, risorsa di interesse
-nazionale, diverse ondate di immigrazione per partecipare ai lavori di
-costruzione dell'Acquedotto Pugliese, rendendo piu' complessa ed
-interessante la genealogia del paese. Questa rete di relazioni, non
-riscontrabile facilmente in altre realta' sociali piu' estese, come
-quelle cittadine, costituisce di fatti una ricchezza per Caposele, e va
-preservata a memoria futura.<br>
-<p><br>
-    In tale ottica, l'Ars vuole varare una 
-<a href="http://ars.altervista.org/PhpGedView/index.php"><b>nuova iniziativa</b></a>,
-volta a creare un archivio genealogico condiviso e disponibile online.<br>
-<p><br>
-    Lo strumento prescelto, PhpGedView, permette l'accesso via Internet
-e rende disponibile a tutti, da qualsiasi parte del mondo essi  si
-colleghino, di interrogare il database e di contribuire ad accrescerlo.
-Una enfasi particolare va al fatto che si tratta di software libero, e
-che il formato dell'archivio e' GEDCOM, uno standard de facto nel
-panorama dei software genealogico: il lavoro fatto sara' riutilizzabile
-da qualsiasi software sia in grado di supportare i file GEDCOM.
-<p><br>
-    Tutti i caposelesi (o anche i discendenti di caposelesi, oramai
-integrati in altre parti del mondo) sono invitati a partecipare e
-contribuire ad accrescere il database: chiunque potra' avere un account
-sul sito, ed iniziare subito ad inserire i propri antenati.
-<p><br>
-    Buone ricerche a tutti!
-<p><br>
+Pubblichiamo il manifesto della gara podistica "Quasi nove", organizzata dal compaesano Nicola Melillo.<br>
 <br>
 <div align="center">
-<img id="Logo" src="%file_root%custom/album/varie/albero_genealogico.jpg" alt="albero_genealogico" border="0" width="700">
+<img id="Logo" src="%file_root%custom/album/varie/quasinove-2007.jpg" alt="Quasi_nove" border="0" width="535">
 </div>
+<br>
+CLASSIFICA<br><br>
+1 Francesco Ceres 39'42''<br>
+2 Alessandro Russomanno 42'04''<br>
+3 Donatello Cirillo 45'45''<br>
+4 Nicola Melillo 47'36''<br>
+5 Gelsomino Merola di Don. 49'07''<br>
+6 Gerardo Notaro 49'07''<br>
+7 Gaetano Rosania 50'01''<br>
+<br>
+Segretario e Cronometrista Lello Viscardi<br>
 <br>
 --- End body ---

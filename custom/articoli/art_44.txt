@@ -1,0 +1,40 @@
+Autore::Ars
+Titolo::Stagione podistica 2007
+--- Begin body ---
+<br>
+<p>&nbsp;
+<div align="center">
+<img id="Montoro_2007" src="%file_root%custom/album/ars/Mont07.jpg" alt="Montoro2007" border="0" width="460">
+</div>
+<br><br>
+<p>&nbsp;
+<div align="center">
+<img id="Aquara_2007" src="%file_root%custom/album/ars/aqu2_07.jpg" alt="Aquara2007" border="0" width="460">
+</div>
+<br><br>
+<p>&nbsp;
+<div align="center">
+<img id="Contursi_2007" src="%file_root%custom/album/ars/cont4.jpg" alt="Contursi2007" border="0" width="460">
+</div>
+<br><br>
+<p>&nbsp;
+<div align="center">
+<img id="Lioni_2007" src="%file_root%custom/album/ars/Lioni2.jpg" alt="Lioni2007" border="0" width="460">
+</div>
+<br><br>
+<p>&nbsp;
+<div align="center">
+<img id="Nusco_2007" src="%file_root%custom/album/ars/nu07.jpg" alt="Nusco2007" border="0" width="460">
+</div>
+<br><br>
+<p>&nbsp;
+<div align="center">
+<img id="Siano_2007" src="%file_root%custom/album/Siano_07/si11.jpg" alt="Siano2007" border="0" width="460">
+</div>
+<br><br>
+<p>&nbsp;
+<div align="center">
+<img id="Paestum_2007" src="%file_root%custom/album/Paestum_07/pae4.jpg" alt="Paestum2007" border="0" width="460">
+</div>
+<br><br>
+--- End body ---

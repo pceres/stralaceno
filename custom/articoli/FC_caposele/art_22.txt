@@ -1,0 +1,9 @@
+Autore::
+Titolo::Rendiconto 2006/07
+--- Begin body ---
+<br>
+<div align="center">
+<img id="fotoFC_Caposele" src="%file_root%custom/album/FC_caposele/Rend_FC_06_07.jpg" alt="" border="0" width="550">
+</div>
+<br>
+--- End body ---

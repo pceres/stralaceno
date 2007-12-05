@@ -17,7 +17,7 @@
 1::arsweb::CaposeleWeb::http://ars.altervista.org/index.php::http://ars.altervista.org/custom/album/varie/logo.jpg::ARS Amatori Running Sele::Pasquale Ceres
 2::stralacenoweb::StralacenoWeb::http://pceres.altervista.org/stralaceno/index.php::http://pceres.altervista.org/stralaceno/custom/album/varie/logo.jpg::ARS Amatori Running Sele::Pasquale Ceres
 3::caposeleonline::Caposele Online::http://www.caposeleonline.it::http://www.caposeleonline.it/Photo_0526.jpg::Gerardo Notaro::Gerardo Notaro
-4::Informagiovani::Informagiovani::http://www.informagiovani.caposele.net::http://www.informagiovani.caposele.net/55/foto2pic.jpg::Caposele.net::Caposele.net
+4::Informagiovani::Informagiovani::http://www.informagiovanicaposele.it/::http://web.cheapnet.it/informagiovanicaposele/Immagini/logo_stop.jpg::Inormagiovani Caposele::Vitale Cetrulo
 5::pubblica_assistenza::Pubblica Assistenza Caposele::http://www.pacaposele.org/::http://www.pacaposele.org/img/pacaposele.gif::Pubblica Assistenza di Caposele::
 6::Liceo di Caposele::LiceOnline::http://liceonline.altervista.org::http://liceonline.altervista.org/images/budapest__05_thumb47.jpg::Redazione del liceo::Redazione del liceo
 7::SelaCapo::SelaCapo::http://selacapo.net::http://selacapo.net/site/themes/default/logo.gif::::Raffaele Colatrella e Vittorio Nesta

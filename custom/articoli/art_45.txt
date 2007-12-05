@@ -1,0 +1,11 @@
+Autore::Runner's World
+Titolo::Podismo: sblocca i risultati
+--- Begin body ---
+<br>
+TROVA IL CORAGGIO DI MODIFICARE GLI SCHEMI DI SEMPRE ED ENTRA IN UNA NUOVA DIMENSIONE DELLA CORSA, CAPACE DI RIDARTI CARICA ED ENTUSIASMO.
+<br>
+<p>&nbsp;
+<div align="center">
+<img id="Tabella4" src="%file_root%custom/album/varie/Run_World4.jpg" alt="Tabella4" border="0" width="500">
+</div>
+--- End body ---

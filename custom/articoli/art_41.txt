@@ -1,12 +1,14 @@
-Autore::Ars
-Titolo::Corsa podistica "Quasi nove"
+Autore::
+Titolo::StraSalerno Half-Marathon 2007
 --- Begin body ---
-<br>
-<p>
-Pubblichiamo il manifesto della gara podistica "Quasi nove", organizzata dal compaesano Nicola Melillo.<br>
-<br>
+<br>La Mezza Maratona di Salerno ha un percorso velocissimo. Se per&ograve;, come sta avvenendo da qualche anno, la pioggia ci si 
+mette di impegno…allora diventa tutto pi&ugrave; difficile per tutti. Una giornata, quella del 21 ottobre 2007, che definirla brutta sarebbe gratificarla! 
+Vento prima del via, al quale poi si &egrave; subito accompagnata la pioggia: incessante, a volte violenta.<br><br>
+Sono stati 590 gli atleti al traguardo; 590 temerari, tra i quali Gerardo Martino e Paolo Viscardi, che hanno rappresentato egregiamente gli Amatori Running Sele.
+<br><br>
+<p>&nbsp;
 <div align="center">
-<img id="Logo" src="%file_root%custom/album/varie/quasinove-2007.jpg" alt="Quasi_nove" border="0" width="700">
+<img id="StraSalerno2007" src="%file_root%custom/album/ars/sal.jpg" alt="StraSalerno" border="0" width="500">
 </div>
-<br>
+<br><br>
 --- End body ---
