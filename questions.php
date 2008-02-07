@@ -76,6 +76,7 @@ $v_start = parse_date($lotteria_inizio_giocate);
 $v_end = parse_date($lotteria_fine_giocate);
 $v_results = parse_date($lotteria_risultati);
 $v_now = parse_date(date("H:i d/m/Y"));
+// var_dump(Array($v_start[0],$v_end[0],$v_results[0],$v_now[0]));
 
 // smista l'azione di default a seconda della data attuale
 if (empty($action))
@@ -485,10 +486,10 @@ case "save":
 		$nominativo = $found_key[2][2];	// nome di chi ha ricevuto il biglietto, registrato a cura dell'amministratore
 	}
 	
-	// verifica che non si giochi piu' volte la stessa giocata	
+	// verifica che non si giochi piu' volte la stessa giocata con lo stesso auth_token	
 	$giocata_ripetuta = 0;
 	$giocate = get_giocata($id_questions,$auth_token);
-//	if ((count($giocate)>0) && ($lotteria_auth !== "no_auth"))
+// 	if ((count($giocate)>0) && ($lotteria_auth !== "no_auth"))
 	if (count($giocate)>0)
 	{
 		$giocata_ripetuta = 1;
@@ -542,7 +543,7 @@ case "save":
 	$bulk = get_config_file($file_log_questions);
 	$ultima_giocata = $bulk['default'][count($bulk['default'])-1];
 	$giocata_da_salvare = split("::",$log);
-
+	
 	if (($ultima_giocata[0]==$giocata_da_salvare[0]) && ($giocata_da_salvare[1]-$ultima_giocata[1] < 3600*2) && ($ultima_giocata[3]-$giocata_da_salvare[3] == 0))
 	{
 		$giocata_ripetuta = 1;
