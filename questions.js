@@ -247,7 +247,14 @@ if (f[tag])
 		ks = f[tag].value;
 		break;
 	case 'select-one':
-		ks = f[tag].options[f[tag].selectedIndex].text;
+		if (f[tag].selectedIndex == 0) // presuppone che la prima scelta sia indefinita
+		{
+			ks = ' ';
+		}
+		else
+		{
+			ks = f[tag].options[f[tag].selectedIndex].text;
+		}
 		break;
 	default:
 		alert('Errore: non so gestire i campi di tipo ' + f[tag].type + ' (campo "' + tag + '")');
