@@ -1615,7 +1615,7 @@ if (empty($enabled_groups[0]))
 	return true;
 }
 
-$personal_tags = array_merge("@$username",$usergroups);
+$personal_tags = array_merge(Array("@$username"),$usergroups);
 
 foreach($enabled_groups as $enabled_group)
 {
