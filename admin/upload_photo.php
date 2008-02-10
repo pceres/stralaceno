@@ -88,23 +88,24 @@ if ($ok == TRUE) // la password e' ok, procedi
 				echo "(thumbnail di ".substr($filename,0,$pos).substr($filename,-4)."):\n";
 			}
 			
+			$full_filename = $album_dir.$nome_album."/".$filename;
 			if ($is_thumbnail && !file_exists($album_dir.$nome_album."/".$photo_name))
 			{
 				print "   la foto $photo_name non esiste nell'album $nome_album! Impossibile caricare il relativo thumbnail. Caricare $photo_name prima.<br>\n";
 			}
-			elseif (file_exists($album_dir.$nome_album."/".$filename))
+			elseif (file_exists($full_filename))
 			{
 				print "   la foto $filename gi&agrave; esiste nell'album $nome_album! Cancellarla prima, se si vuole caricarla di nuovo.<br>\n";
 			}
-			elseif (move_uploaded_file($tempfile, $album_dir.$nome_album."/".$filename)) 
+			elseif (move_uploaded_file($tempfile, $full_filename)) 
 			{ 
-				log_action($album_dir,$_SERVER['REMOTE_ADDR'].",".$album_dir.$nome_album."/".$filename.", " . date("l dS of F Y h:i:s A"));
+				log_action($album_dir,$_SERVER['REMOTE_ADDR'].",".$full_filename.", " . date("l dS of F Y h:i:s A"));
 				
 				print "   la foto $filename &egrave; stata caricata con successo nell'album $nome_album.<br>\n"; 
 			}
 			else
 			{
-				log_action($album_dir,$_SERVER['REMOTE_ADDR'].",".$album_dir.$nome_album."/".$filename.", " . date("l dS of F Y h:i:s A"));
+				log_action($album_dir,$_SERVER['REMOTE_ADDR'].",".$full_filename.", " . date("l dS of F Y h:i:s A"));
 				
 				print "Errore nell'upload della foto:\n"; 
 				
