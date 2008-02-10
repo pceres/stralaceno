@@ -49,8 +49,11 @@ $userthumb01 = $_REQUEST['userthumb01'];
 $password = $_REQUEST['password'];
 
 
+$MAX_THUMB_FILE_SIZE = 10000;
+
+
 $ok = FALSE;
-if ($password_ok == $password) 
+if ($password_ok == $password)
 {
 	$ok = TRUE;
 }
@@ -71,6 +74,7 @@ if ($ok == TRUE) // la password e' ok, procedi
 		$filename = $_FILE['name'];
 		$tempfile = $_FILE['tmp_name'];
 		$errno = $_FILE['error'];
+		$filesize = $_FILE['size'];
 		
 		if (!empty($filename))
 		{
@@ -96,6 +100,10 @@ if ($ok == TRUE) // la password e' ok, procedi
 			elseif (file_exists($full_filename))
 			{
 				print "   la foto $filename gi&agrave; esiste nell'album $nome_album! Cancellarla prima, se si vuole caricarla di nuovo.<br>\n";
+			}
+			elseif ($is_thumbnail && $filesize > $MAX_THUMB_FILE_SIZE)
+			{
+				print "   il thumbnail $filename ha dimensione maggiore di $MAX_THUMB_FILE_SIZE bytes ($filesize)! Ridurne le dimensioni!<br>\n";
 			}
 			elseif (move_uploaded_file($tempfile, $full_filename)) 
 			{ 
