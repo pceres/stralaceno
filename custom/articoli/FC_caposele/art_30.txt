@@ -1,0 +1,19 @@
+Autore::
+Titolo::Logo F.C. Caposele
+--- Begin body ---
+<br><div align="center">
+<img id="fotoFC_Caposele" src="%file_root%custom/album/FC_caposele/LOGOLIT.jpg" alt="" border="0" width="250">
+</div>
+<br><br>
+L'autore del logo &egrave; Pietro Russomanno, che cos&igrave; lo illustra:<br><br>
+"...&egrave; una sintesi (grafica) che cerca di esprimere
+ il modo di essere caposelese in stretta relazione con i 
+simboli e le immagini tipiche del paese... Il drago d'acqua, 
+ripreso dalla vecchia araldica di caposele, simbolo laico di forza 
+e coraggio e il fiume, impetuoso, deciso... Che il drago contrasta 
+ma che allo stesso tempo abita.<br> L'aggiunta del pallone, sputato 
+dalle fauci del drago, simboleggia l'attaccamento della gente 
+caposelese al calcio, sport che, a torto o a ragione, 
+sente radicato nella propria cultura."
+<br><br>
+--- End body ---

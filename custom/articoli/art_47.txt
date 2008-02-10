@@ -1,0 +1,36 @@
+Autore::ARS
+Titolo::Allenamento Collettivo 30.12.2007
+--- Begin body ---
+<br>Interessante pomeriggio di sport per i sedici partecipanti all'allenamento podistico colletivo di fine anno 2007.
+<br>
+Un bel sole invernale, con temperatura media intorno ai 5 gradi, ha accompagnato gli atleti, che hanno trovato poi in 
+localit&agrave; San Vito
+una fitta nebbia, che ha reso ancora pi&ugrave; affascinante la lunga traversata.<br><br>
+<br>
+<div align="center">
+<img id="fotoAllenamentoCollettivo" src="%file_root%custom/album/All.Coll.07/ac0715.jpg" alt="" border="0" width="450">
+</div>
+<br>
+Hanno preso parte alla manifestazione i seguenti atleti:<br>
+<br>
+Nicola D’Auria,<br>
+Saverio Perna,<br>
+Giuseppe Cifrodelli,<br>
+Alessandro Russomanno,<br>
+Paolo Viscardi,<br>
+Salvatore Merola,<br>
+Marco Galdi,<br>
+Francesco Ceres,<br>
+Antonio Ceres,<br>
+Gaetano Vitale (fino al km 15,8),<br>
+Giuseppe Martino (dal km 0,4),<br>
+Gerardo Martino (dal km 0,4),<br>
+Gianni Sozio (dal km 0,6),<br>
+Gaetano Rosania (fino al km 6,7),<br>
+Angelo Ceres di Vinc. (dal km 6,7),<br>
+Gelsomino Merola (dal km 7,1).<br><br>
+Servizio di assistenza &egrave; stato prestato da Lello Viscardi, Donatello e Nicola Cirillo.<br>
+<br>
+L'album fotografico è disponibile <a href="album.php?anno=All.Coll.07">qui</a>. <br>
+<br>
+--- End body ---

@@ -2,12 +2,24 @@ Autore::
 Titolo::La squadra 2007/08
 --- Begin body ---
 <br>
+<div align="center">
+<img id="fotoFC_Caposele_07_08" src="%file_root%custom/album/FC_caposele/FcCAP_07_08.jpg" alt="FC Caposele 07/08" border="0" width="490">
+</div>
+<br><br>
 I giocatori della F.C. Caposele:
 <br><br>
-Amendola Gerardo, Ceres Francesco, Cetrulo Giuseppe, Cibellis Luca, Cibellis Mario, Cibellis Thomas,
-Cibellis Tommaso, Ciccone Francesco, D'Elia Antonio, Di Masi Angelo, Donatiello Claudio, Feniello Rocco, Galdi Prezioso, Grasso Gerardo, Grasso Raffaele,
-Grasso Armando, Malanga Giuseppe, Malanga Nicola, Merola Lorenzo, Monteverde Gerardo,
-Proietto Rocco, Russomanno Gerardo, Russomanno Luigi, Zarra Alessio.
+PORTIERI<br>
+D'Elia Antonio, Russomanno Gerardo<br>
+<br>
+DIFENSORI<br>
+Cetrulo Giuseppe, Feniello Rocco, Grasso Gerardo, Grasso Armando, Malanga Giuseppe, Malanga Nicola, Russomanno Luigi, Zarra Alessio. <br>
+<br>
+CENTROCAMPISTI<br>
+Amendola Gerardo, Ceres Francesco, Cibellis Luca, 
+Cibellis Tommaso, Ciccone Francesco, Di Masi Angelo, Merola Lorenzo, Proietto Rocco, Liloia Maurizio.<br>
+<br>
+ATTACCANTI<br>
+Monteverde Gerardo, Cibellis Mario, Cibellis Thomas, Donatiello Claudio, Galdi Prezioso, Grasso Raffaele.
 <br><br>
 Responsabile Tecnico: Sista Raffaele
 <br>

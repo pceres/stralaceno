@@ -1,0 +1,107 @@
+Autore::Ale Russomanno
+Titolo::Marcatori FC Caposele stag. 07/08
+--- Begin body ---
+<br>
+<p style="clear:right;">
+<a href="%script_root%show_photo.php?id_photo=0&amp;album=FC_caposele">
+<img src="%file_root%custom/album/FC_caposele/fc4.jpg" style="float:right;margin:1em;"  alt="Mister Raffaele Sista" border="0" width="350">
+</a>
+_____dopo 12 Giornate____<br>
+<table class="tabella" style="font-size:15.0pt;">
+<tbody><tr><td align="left"><table>
+<tbody>
+<!-- match # 1 -->
+<tr>
+	<td> &nbsp;Mario Cibellis</td>
+	<td> &nbsp;-&nbsp; </td>
+	<td></td>
+	<td>8</td>
+</tr>
+<!-- match # 2 -->
+<tr>
+	<td> &nbsp;Lorenzo Merola</td>
+	<td> &nbsp;-&nbsp; </td>
+	<td></td>
+	<td>5</td>
+</tr>
+<!-- match # 3 -->
+<tr>
+	<td> &nbsp;Thomas Cibellis</td>
+	<td> &nbsp;-&nbsp; </td>
+	<td></td>
+	<td>5</td>
+</tr>
+<!-- match # 7 -->
+<tr>
+	<td> &nbsp;Claudio Donatiello</td>
+	<td> &nbsp;-&nbsp; </td>
+	<td></td>
+	<td>4</td>
+</tr>
+<!-- match # 8 -->
+<tr>
+	<td> &nbsp;Gerardo Monteverde</td>
+	<td> &nbsp;-&nbsp; </td>
+	<td></td>
+	<td>4</td>
+</tr>
+<!-- match # 4 -->
+<tr>
+	<td> &nbsp;Rocco Feniello</td>
+	<td> &nbsp;-&nbsp; </td>
+	<td></td>
+	<td>3</td>
+</tr>
+<!-- match # 10 -->
+<tr>
+	<td> &nbsp;Prezioso Galdi</td>
+	<td> &nbsp;-&nbsp; </td>
+	<td></td>
+	<td>3</td>
+</tr>
+<!-- match # 5 -->
+<tr>
+	<td> &nbsp;Raffaele Grasso</td>
+	<td> &nbsp;-&nbsp; </td>
+	<td></td>
+	<td>2</td>
+</tr>
+<!-- match # 6 -->
+<tr>
+	<td> &nbsp;Tommaso Cibellis</td>
+	<td> &nbsp;-&nbsp; </td>
+	<td></td>
+	<td>2</td>
+</tr>
+<!-- match # 9 -->
+<tr>
+	<td> &nbsp;Luca Cibellis</td>
+	<td> &nbsp;-&nbsp; </td>
+	<td></td>
+	<td>2</td>
+</tr>
+<!-- match # 11 -->
+<tr>
+	<td> &nbsp;Alessio Zarra</td>
+	<td> &nbsp;-&nbsp; </td>
+	<td></td>
+	<td>1</td>
+</tr>
+<!-- match # 12 -->
+<tr>
+	<td> &nbsp;Armando Grasso</td>
+	<td> &nbsp;-&nbsp; </td>
+	<td></td>
+	<td>1</td>
+</tr>
+	<tr><td colspan=3>&nbsp;</td></tr>
+<!-- nota # 1 -->
+<tr>
+	<td colspan=3>Autogoal: 2</td>
+</tr>
+<tr>
+	<td colspan=3>Totale goal: 42</td>
+</tr>
+</tbody>
+</table></td></tr></tbody></table>
+--- End body ---

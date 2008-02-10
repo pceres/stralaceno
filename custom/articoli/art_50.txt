@@ -1,0 +1,28 @@
+Autore::Runners.it
+Titolo::Iniziare a correre
+--- Begin body ---
+<br>
+Iniziano ad avvicinarsi le belle giornate, quale migliore occasione per iniziare a correre o praticare un’attivit&agrave; sportiva. Un’attivit&agrave; fisica ben programmata in funzione dell’et&agrave; e della condizione fisica vi far&agrave; stare meglio sia psicologicamente che organicamente e vi far&agrave; dimagrire. <br>
+Non c’&egrave; un’et&agrave; giusta per iniziare, vanno bene tutte, l’importante &egrave; fare le cose con un giusto criterio, senza strafare. 
+Il tempo che dedicate all’attivit&agrave; sportiva non &egrave; tempo perso, impiegatelo con serenit&agrave; ascoltando ci&ograve; che vi succede a livello fisiologico, liberandovi da ogni tipo di pensiero, preoccupazione, guardando la natura, ridendo, ma soprattutto con la consapevolezza che poi starete sicuramente meglio. <br>
+<br>
+<div align="center">
+<img id="runners" src="%file_root%custom/album/ars/Lioni2.jpg" alt="" border="0" width="370">
+</div>
+<br>
+Prima di iniziare: 
+- fate una visita medica di idoneit&agrave; fisica; 
+- comperate un buon paio di scarpe;
+- scegliete un percorso pianeggiante possibilmente nel verde. <br><br>
+Quando iniziate: 
+- non andate nelle ore pi&ugrave; calde della giornata; 
+- fate in modo che l’attivit&agrave; inizi almeno 3 ore dopo l’ultimo pasto; 
+- programmate almeno 3 allenamenti alla settimana di 30-60 minuti; 
+- iniziate con un piccolo riscaldamento generale fatto di piccoli esercizi non impegnativi; 
+- per chi non ha mai corso, iniziare di passo veloce terminando gli ultimi 3-10 minuti di corsetta blanda; 
+- ogni due settimane aumentare di 3-10 minuti la corsa; 
+- regolate lo sforzo. La fatica ottimale &egrave; quella che vi permette di parlare senza avere il fiatone oppure non superare mai una certa frequenza cardiaca tra il 60-70% della propria massima (numero di pulsazioni al minuto). La formula da usare &egrave; 220 – et&agrave; (esempio: 50 anni 220-50=170, pulsazioni consigliate 102-119), per avere sempre a disposizione questi dati si pu&ograve; acquistare un cardiofrequenzimetro; 
+- terminato l’allenamento fate sempre un po’ di ginnastica a corpo libero. <br><br>
+Quando siete in grado di fare circa 50/60 minuti continui &egrave; giunto il momento di fare delle scelte se continuare per la salute, portando delle piccole varianti alla vostra metodica di allenamento, oppure provare a partecipare a delle gare non impegnative per poi in un futuro fare l’esperienza della maratona. <br>
+Per chi optasse per la seconda scelta &egrave; giunto il momento di seguire un programma di allenamento fatto da un allenatore esperto che vi possa seguire conoscendovi fisicamente e psicologicamente per colmare eventuali lacune tecnico-tattiche e per consigliarvi le gare, ma soprattutto per farvi amare sempre di pi&ugrave; questo bellissimo sport che &egrave; la corsa.<br><br>
+--- End body ---

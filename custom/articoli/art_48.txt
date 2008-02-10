@@ -1,0 +1,9 @@
+Autore::Runner's World
+Titolo::Come allenarsi con un amico
+--- Begin body ---
+<p>&nbsp;
+<div align="center">
+<img id="Tabella5" src="%file_root%custom/album/varie/CorrInDue.jpg" alt="Tabella5" border="0" width="500">
+</div>
+<br>
+--- End body ---
