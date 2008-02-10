@@ -86,6 +86,14 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 72::da Il Mattino::03/10/2007 15.48.16::visible
 73::da Il Mattino::08/10/2007 10.31.33::visible
 74::da Irpinianews.it::25/10/2007 11.54.15::visible
+75::da CorriereIrpinia.it::17/12/2007 13.04.52::visible
+76::UN CITTADINO::20/12/2007 12.30.20::visible
+77::un altro cittadino::20/12/2007 14.18.05::visible
+78::NIC M.::21/12/2007 12.47.02::visible
+79::dal sito Corriereirpinia.it::24/01/2008 11.19.36::visible
+80::da Irpinianews.it::27/01/2008 18.04.32::visible
+81::da Il Mattino::27/01/2008 18.06.32::visible
+82::NIC.M::09/02/2008 11.32.29::visible
 
 [post_text_0]
 Riceviamo da CLEON.REN e pubblichiamo:
@@ -668,3 +676,58 @@ La Regione ha tentato di attivare anche contatti politici con i vicini campani, 
 «Ci risulta - dice l’assessore Introna - che il ministero dell’Ambiente sia vicino a convocare il tavolo tecnico con le Infrastrutture e le Regioni che porterà alla stipula dell’accordo». Sarà un passo fondamentale per la distensione tra le parti
 &nbsp;
 25.10.2007
+
+[post_text_75]
+Risorsa acqua, An a Caposele: si decide con il concorso di tutti
+&nbsp;
+«Nelle decisioni assunte a livello amministrativo, la gente di Caposele continua a non essere coinvolta.
+Stiamo parlando di una risorsa troppo importante per questo paese, l'acqua, e qualsiasi decisione adottata non può essere tenuta nascosta alla cittadinanza. An procederà a campagne informative diffuse su tutto il territorio comunale per rendere palesi ai caposelesi queste situazioni. Campagne informative che presto amplieremo a numerose altre problematiche del paese».
+Così Pietro Cetrulo, presidente del circolo "Tatarella" di An rilancia la questione acque. Il partito ha provveduto ad affiggere lungo le cantonate del paese manifesti pubblici nei quali comunica alla cittadinanza ed agli organi competenti di vigilanza «che si sta attuando una grave prevaricazione della volontà popolare e della democrazia.
+Lunedì prossimo è previsto un incontro a Bari tra l'avvocato Mauriello e l'A.Q.P. legale nominato a suo tempo dall'Amministrazione Arcobaleno, in merito alla ridefinizione della convenzione tra le parti. ( Chi sapeva e sa di questo incontro così importante?)». An ritiene che in assenza di un committente legittimato dal popolo, «una trattativa di tale importanza, dovrebbe essere interrotta sino alla elezione di una nuova amministrazione che sappia interpretare le aspettative centenarie di una popolazione». Il partito, ritiene altresì, «che la strada legale intrapresa per le rivendicazioni di un ristoro economico per il prelievo della risorsa idrica sia una scelta sbagliata, in quanto il Comune di Conza della Campania senza l'ausilio di legali è riuscita a strappare un accordo con l'A.Q.P. con più vantaggi economici rispetto a quelli ottenuti da Caposele negli anni passati». Da tutto ciò An trae le seguenti considerazioni: «Le passate Amministrazioni non hanno saputo trovare la strada giusta per ottenere quello che ci spetta, forse per motivi di incompetenza politica? O perché…? Oppure il mancato supporto tecnico-politico dei partiti che avrebbe sicuramente aiutato come nel caso di Conza?». E ancora: «Come mai nel convegno promosso dalla lista Arcobaleno, nel quale si è parlato dell'ultima convenzione con l'A.Q.P. non si è ritenuto discutere delle richieste future che avrebbe avanzato l'avv. W. Mauriello, a nome della passata Amministrazione? A chi riferirà l'avv. Mauriello dell'andamento delle trattative»? Infine, An invita il Commissario Prefettizio La Montagna, a voler revocare il mandato all’avvocato in nome e nel rispetto della popolazione. «Invitiamo tutti i cittadini, i partiti e associazioni ad unirsi alla protesta, affinché le decisioni ritornino ai cittadini e non a qualche avvocato, funzionario o altri personaggi dietro le quinte». 17/12/2007
+&nbsp;
+&nbsp;
+
+[post_text_76]
+COME MAI NON AVETE ACCETTATO IL COMPROMESSO CHE VI AVEVA OFFERTO L' ING.MONTEVERDE LA POLITICA DI CAPOSELE NEL CUORE E' SOLO PROTAGONISMO,INTERESSI PERSONALI FALSITA' E BUGIE.CARI AMICI DEL CUORE A VOI DI CAPOSELE NON VE NE FREGA NIENTE VOI SIETE LA FACCIA DEL REGRESSO NON DEL PROGRESSO IN 10 ANNI DI VOSTRA AMMINISTRAZIONE AVETE INFANGATO IL NOME DI CAPOSELE E LO AVETE RESO UN PAESE CHIUSO,OBSOLETO,SENZA UN FUTURO PER I GIOVANI E TUTTI I PICCOLI COMMERCIANTI.FATEVI DA PARTE PERCHE' LA VERA POLITICA E' DISCUSSIONE,IDEE NUOVE,PROGETTI CONCRETI,NON RIUNIONI SEGRETE NELLA VOSTRA SEZ. PER DISCUTERE CHISSA' COSA!!MEDITATE!!!
+
+[post_text_77]
+caro nicola a caposele hanno fallito tutte le amministrazioni, stretta di mano, sveglia, melillo, monteverde, forse perché tutti si fanno solo i fatti loro e dei loro familiari, come mai sei così preso, hai forse degli interessi anche tu? o ti hanno promesso qualche cosa?
+
+[post_text_78]
+NON E' PROPRIO COSI' L' AMMINISTRAZIONE MELILLO E' STATA L' UNICA A REALIZZARE OPERE IMPORTANTI PER IL PAESE, VEDI IL PARCO FLUVIALE, POLO SCOLASTICO,URBANIZZAZIONI,SPOGLIATOI ALLO STADIO PALMENTA,MUSEO DELLE ACQUE IN PIAZZA SANITA'( PARCO E PNTE TREDOGGE ANCORA BLOCCATI GRAZIE ALLA VOSTRA POLITICA),IO NON HO MAI RICEVUTO ALCUN AIUTO DA NESSUNO MA SONO OBIETTIVO,COMUNQUE C'E' ANCORA DA FARE MOLTO SPERIAMO CHE CHI VINCE RIESCE FINALMENTE A PENSARE IN MODO CONCRETO.PARTECIPATIVO ALLE PERSONE DI CAPOSELE CON LA REALIZZAZIONE DI NUOVE OPERE CHE CONTRIBUISCANO A RISOLLEVARE QUESTO PAESE CHE ORMAI VIVE DUE-TRE MESI L' ANNO.
+
+[post_text_79]
+Caposele, Farina lancia la volata: puntiamo tutto sui nostri giovani
+&nbsp;
+«I giovani saranno il punto di forza della nostra squadra e del nostro programma».
+&nbsp;
+Il leader e futuro candidato sindaco di “Caposele nel Cuore” Pasquale Farina segna il percorso verso le amministrative lanciando un messaggio preciso: protagonisti nella lista saranno le nuove leve, le nuove generazioni del paese e allo sviluppo delle politiche giovanili sarà destinata una parte importante del programma elettorale.
+&nbsp;
+«Il sogno, confessa Farina, è quello di far ritornare in paese anche i tanti ragazzi che sono stati costretti a lasciare Caposele per la mancanza di lavoro. Per questo stiamo predispondendo un piano di sviluppo del paese tutto incentrato sulla valorizzazione delle risorse locali, a partire dal turismo a Materdomini e dalla sua organizzazione allo sfruttamento delle acque e delle sorgenti».
+&nbsp;
+Farina guarda al passato e rileva tutta una serie di difficoltà che il paese attraversa oggi e che invece fino a qualche decennio fa era lontane. «La piccola industria è venuta meno - spiega Farina - e lo sviluppo è andato regredendo con il trascorrere degli anni, molte attività sono scomparse». E nel programma che Farina presenterà agli elettori, priorità sarà conferita anche al confronto aperto con la cittadinanza su come concretizzare il rilancio di un percorso di crescita del territorio comunale.
+“Caposele nel Cuore”, intanto, si riunisce ogni domenica nella sede del movimento situata sul corso cittadino. «La squadra è affiatata e sarà la stessa anche alle prossime elezioni, mi va bene e non vedo esigenze si attuare modifiche - incalza Farina - con le altre forze politiche certamente c’è rispetto ma non parlo di avvicinamenti».
+&nbsp;
+Su Alleanza Nazionale è netto: «An si è allontanata dalla lista di Monteverde, noto che fa diverse iniziative per Caposele e il suo sviluppo, iniziative che condividiamo e a cui prendiamo parte con piacere».
+Insomma «lavoriamo separatamente ma tutti con un unico obiettivo: il bene del paese».
+&nbsp;
+Sul fronte del Partito Democratico, di cui Farina è uno degli esponenti più autorevoli, il candidato sindaco di “Caposele nel Cuore” spiega che l’organizzazione del partito in paese è connessa alle direttive che impartiranno da qui a breve i vertici provinciali. «A Caposele il Pd ha diversi riferimenti e siamo pronti a dare luogo una forza di spessore e protagonista nella vita politica cittadina».
+&nbsp;
+&nbsp;
+
+[post_text_80]
+Caposele -  Pronta una scheda per sensibilizzare alla differenziata
+&nbsp;
+ Il Circolo di “Caposele nel Cuore” parte domani con un’iniziativa per la promozione della raccolta differenziata. L’iniziativa ha lo scopo di rendere più semplice al cittadino la differenziazione dei rifiuti attraverso una scheda che sarà distribuita a tutte famiglie. Il formato della scheda/quadro consente di  avere sempre a portata di mano le indicazioni dettagliate su come differenziare i rifiuti a seconda della loro tipologia. Essa sarà accompagnata da una lettera nella quale il Presidente del Circolo, Pasquale Farina, invita i cittadini ad impegnarsi ancora di più nella raccolta differenziata, con lo slogan: differenzi-Amo Caposele!
+Questa iniziativa è una delle tante già messe in essere dal Circolo di Caposele nel Cuore, a cui seguiranno altre, allo scopo di affiancare i cittadini e di affrontare i problemi della comunità di Caposele. “Caposele può fare la differenza -  ha affermato Raffaella Gonnella, parte attiva del circolo – questa scheda che verrà distribuita è corredata da un calendario e spiega i materiali da conferire nei vari eco-punti, dalla carte alla plastica, dal vetro all'alluminio senza dimenticare l'umido i materiali ingombranti e i rifiuti urbani pericolosi quali farmaci e pile”.
+(sabato 26 gennaio 2008 alle 17.09)
+&nbsp;
+
+[post_text_81]
+Caposele.
+&nbsp;
+Nei piccoli comuni della provincia si fa a gara, a differenza del capoluogo irpino, per impegnarsi nel decollo della raccolta differenziata. Molto spesso, al di là delle amministrazioni, sono associazioni e circoli di varia estrazione politica a mobilitarsi. È il caso di Caposele, comune attualmente in regime commissariale, dove il Circolo «Caposele nel Cuore» fa decollare oggi un'iniziativa per la promozione della raccolta differenziata. L'iniziativa ha lo scopo di rendere più semplice al cittadino la differenziazione dei rifiuti attraverso una scheda che sarà distribuita a tutte famiglie. Il formato della scheda/quadro consente di avere sempre a portata di mano le indicazioni dettagliate su come differenziare i rifiuti a seconda della loro tipologia. Essa sarà accompagnata da una lettera nella quale il Presidente del Circolo, Pasquale Farina, invita i cittadini ad impegnarsi ancora di più nella raccolta differenziata, con lo slogan: «Differenziamo Caposele». «Possiamo fare la differenza - ha affermato l'ingegnere Raffaella Gonnella, parte attiva del circolo - questa scheda che verrà distribuita è corredata da un calendario e spiega i materiali da conferire nei vari eco-punti».
+26.01.2008
+
+[post_text_82]
+IL 14 FEBBR.SE VERRA' CONFERMATA L' IDEA DI ACCOPPIARE LE AMMINISTRATIVE CON LE POLITICHE NAZIONALI PER GLI AMICI DEL CUORE LA SONORA SCONFITTA SI AVVICINA CON IL COMMISSARIO SI E' BLOCCATO TUTTO E LA GENTE NE HA LE SCATOLE PIENE.TUTTE LE OPERE PIU' IMPORTANTI SI SONO FERMATE GRAZIE AL VOSTRO MODO DI OPERARE E INTENDERE.IL POPOLO DI CAPOSELE VI CONDANNERA'ALL' ENNESIMA SCONFITTA.

@@ -53,6 +53,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 39::AmbienteNews::06/10/2007 16.05.27::visible
 40::Comunità Montana Terminio Cervialto::16/10/2007 12.54.12::visible
 41::da CorriereIrpinia.it::05/11/2007 11.35.59::visible
+42::Ambientenews::26/12/2007 16.55.48::visible
 
 [post_text_0]
 Qui proposte, osservazioni, critiche e tutto ciò che concerne l'ambiente e la natura dalle grosse tematiche di interesse mondiali ai piccoli accadimenti del paese.
@@ -430,3 +431,6 @@ Bellissime e di grande impatto emotivo, le riprese dell’altopiano del Laceno che
 «Non ricordo di aver mai trovato tanto calore come da parte della popolazione irpina - ha commentato il giovane conduttore televisivo Massimiliano Ossini - Non penso che questa terra abbia qualcosa da invidiare a regioni famose per la bellezza dei paesaggi, come la Toscana».
 &nbsp;
 &nbsp;
+
+[post_text_42]
+E' di qualche giorno fà la decisione del Parco Regionale monti Picentini di istituire presso il nostro Comune di una delle 4 porte del parco. L'obiettivo è quello di avere un punto informazioni sulle bellezze naturali e culturali del parco verso i turisti.

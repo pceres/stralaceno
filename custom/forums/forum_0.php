@@ -23,14 +23,14 @@ Formato [elenco_topics]:
 6::Come funziona il forum::open::::::ceres::3::2
 7::le sfide della Stralaceno::open::::::foxy::119::118
 8::soddisfatti della stralaceno edizione 2006???::open::::::cabo86::4::3
-9::Discussione::open::::::Antonio::139::125
-10::ci siete?????::open::::::cabo::15::14
+9::Discussione::open::::::Antonio::153::139
+10::ci siete?????::open::::::cabo::16::15
 11::La nuova sezione ciclismo::open::::::Donato Gervasio::12::11
 12::Allenamento Collettivo 30-12-2006::open::::::Ars::40::39
 13::per nazòn::hidden::::::antonio::4::3
-14::F.C. Caposele::open::::::Ars::37::36
-15::Elezioni comunali a Caposele::open::::::Cleon.ren::75::74
-16::La nuova sezione Ambiente e Natura::open::::::Ambiente::42::41
+14::F.C. Caposele::open::::::Ars::42::41
+15::Elezioni comunali a Caposele::open::::::Cleon.ren::83::82
+16::La nuova sezione Ambiente e Natura::open::::::Ambiente::43::42
 17::per l'inviato::hidden::::::christian meyer::6::5
 18::Il 3 novembre si disputerà la Quasinove: gara podistica organizzata da Nicola Melillo::open::::::Jerry Notaro::2::1
 19::Genealogia caposelese::open::::::Pasquale C.::1::0

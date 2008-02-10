@@ -137,6 +137,20 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 123::Alessandro R.::20/11/2007 12.14.11::visible
 124::paolo::02/12/2007 22.16.36::visible
 125::maria grazia::03/12/2007 19.20.49::visible
+126::Un socio::31/12/2007 12.47.46::visible
+127::NIC.M::01/01/2008 20.00.13::visible
+128::Un socio::01/01/2008 23.26.02::visible
+129::NIC.M.::11/01/2008 12.40.42::visible
+130::un socio::11/01/2008 15.16.54::visible
+131::un socio::13/01/2008 23.31.12::visible
+132::Jerry notaro::15/01/2008 10.06.28::visible
+133::Alessandro R.::16/01/2008 10.25.38::visible
+134::Salvatore Merola::21/01/2008 18.08.26::visible
+135::Salvatore::29/01/2008 13.34.04::visible
+136::paolo::06/02/2008 14.15.57::visible
+137::Alessandro::06/02/2008 16.27.01::visible
+138::nicola::10/02/2008 10.41.38::visible
+139::Dox::10/02/2008 14.15.00::visible
 
 [post_text_0]
 Fermate Nicola Melillo con questa stralaceno: anche i muri di materdomini e caposele non ne possono più.
@@ -434,7 +448,7 @@ Fatemi sapere come la pensate; potrebbe essere una valida alternativa.
 26 maggio 2007 in Campania, XXI° NOTTURNA CITTA’ DI STABIA (I dettagli sono nascosti)
 10 Km organizzata da (). L'evento si terrà a Castellammare di stabia (Napoli).
 &nbsp;
-http://www.podistidoc.it/cal.php?regione=Campania&provincia=&citta=&percorso=&vai=Vai%21&sent=true
+http://www.podistidoc.it/cal.php?regione=Campania&amp;provincia=&amp;citta=&amp;percorso=&amp;vai=Vai%21&amp;sent=true
 
 [post_text_64]
 &nbsp;
@@ -631,7 +645,8 @@ Chi è interessato contatti i soci Ars.
 Ragazzi molto probabilmente domenica 29 si va a Torchiara (Sa), c'è una gara di 10 km circa, chi è interessato si rivolga ai soci ARS per maggiori informazioni..ciao
 
 [post_text_103]
-&gt;Ragazzi molto probabilmente domenica 29 si va a Torchiara (Sa), c'è una gara di 10 km circa, chi è interessato si rivolga ai soci ARS per maggiori informazioni..ciao<br>&gt;<br><br>Come e' andata la gara?
+&gt;Ragazzi molto probabilmente domenica 29 si va a Torchiara (Sa), c'è una gara di 10 km circa, chi è interessato si rivolga ai soci ARS per maggiori informazioni..ciao
+<br>&gt;<br><br>Come e' andata la gara?
 
 [post_text_104]
 ciao pasquale,
@@ -712,4 +727,71 @@ Ragazzi, volevo solo invitarvi a visitare la nuova versione del sito www.siamono
 Un saluto a tutti i soci ars.
 
 [post_text_125]
-&gt;Ragazzi, volevo solo invitarvi a visitare la nuova versione del sito www.siamonoi.it finalmente dinuovo online dopo qualche mese di assenza!! passate a fare un giro una volta tanto e magari lasciate un messaggio nel guestbook o nel forum, oppure votare nella sezione sondaggi.<br>&gt;Un saluto a tutti i soci ars.<br>&gt;<br><br>ciao!!!!!!!complimenti x il rinnovamento del sito.finalmente un po' di colore!mary
+&gt;Ragazzi, volevo solo invitarvi a visitare la nuova versione del sito www.siamonoi.it finalmente dinuovo online dopo qualche mese di assenza!! passate a fare un giro una volta tanto e magari lasciate un messaggio nel guestbook o nel forum, oppure votare nella sezione sondaggi.
+<br>&gt;Un saluto a tutti i soci ars.
+<br>&gt;<br><br>ciao!!!!!!!complimenti x il rinnovamento del sito.finalmente un po' di colore!mary
+
+[post_text_126]
+X Nicola Melillo
+&nbsp;
+Partecipanti allenamento collettivo: 16
+Partecipanti gara Nicola Melillo: 8
+Lascio parlare i numeri caro Nicola...a presto...kiss!
+
+[post_text_127]
+SI MA A ME ERA UNA GARA VERA IL VOSTRO SOLO UNA PASSERELLA OCCASIONALE E COMUNQUE PER MARZO-APRILE QUANDO VEDRAI ALMENO 15 ATLETI ALLA PROSSIMA GARA NON TI SPAVENTARE!!
+
+[post_text_128]
+X nicola melillo
+&nbsp;
+Uh nicola nicola, quante storie, scommetto che già da ora inizi a convincere la gente a partecipare alla tua gara; continui fare "gare" da solo, che servono a poco,ormai si è visto che sono un nulla di fatto, la terza sarà lo stesso; da 8 a 15 partecipanti non cambia molto, pensavo avessi capito quanto è difficile organizzare una gara e inveno no, Nicola Melillo non molla, vuole un'altra batosta, e batosta sarà..come si dice, NON C'E' DUE SENZA TRE! Caro Nicola, ti lascio con un invito, quello di mettere da parte gli attriti che ci sono con alcuni dei componenti dell'Ars e di unirti a noi, che davvero stiamo facendo qualcosa per lo sport caposelese e non solo. E' inutile organizzare gare qua e là, maratonine d'autunno e maratonine di primavera,ma che stiamo al circo; unisciti a noi, sarai apprezzato da tanta più gente. Sicuramente leggerai questo messaggio come un modo di prenderti in giro, come al solito, invece no, è davvero un invito.
+Arrivederci Nicola!
+
+[post_text_129]
+PER PRIMA COSA TI PUOI ANCHE FIRMARE CHE NON SUCCEDE NIENTE. IO CREDO CHE TU DI VERO AMORE PER LO SPORT NON NE SAI NIENTE,GUARDA CHE ORGANIZZARE GARE NON SIGNIFICA ANDARE AL CIRCO,SI VEDE CHE NON HAI MAI APPREZZATO LE QUALITA' CIRCENSI,MA TI RENDI CONTO CHE SU 21-22 SOCI SIETE SEMPRE IN 4-5 CHE VI ALLENATE IN MODO MOLTO DISCUTIBILE E POI RIUSCIRETE AD ESSERE CREDIBILI QUANDO CAMBIATE IL PRESIDENTE, PER ESSERE OPERATIVI E FATTIVI A CAPOSELE IL PRESIDENTE DEVE ESSERE UNA PERSONA CHE VIVE A CAPOSELE.TI SALUTO CARO SOCIO ARS, NELLA VITA CONTA IL FARE NON L' APPARIRE!!
+
+[post_text_130]
+Altissimo illustrissimo signor Nicola Melillo, asperto di allenamenti, organizzatore di gare a livello mondiale..etc etc..ti voglio fare una domanda: ma tu, che tanto ti lamenti di noi, e metti in discussione gli allenamenti della squadra, COSA STAI FACENDO DI BUONO PER CAPOSELE?ah si, forse le gare ( o la buffonate,scegli te come chiamarle) che hai organizzato in primavera o autunno..ma pensi servano a qualcosa?e nei restanti 363 giorni dell'anno cosa fai?eh?cosa?eh?
+Noi siamo un gruppo nel quale ognuno può entrare, e questo gruppo cerca di organizzare quanti più allenamenti possibili aperti a tutti, d'estate partecipiamo a 15 o più gare,alle quali tutti possono aggrecarsi..e tu invece cosa stai facendo??eh? Ormai ripetiamo sempre le stesse cose da tempo, e ormai l'hanno capito tutti che sei INVIDIOSO DELL'ARS E DI TANTA GENTE!! Se nel messaggio di qualche tempo fa ti invitai ad entrare nell'associazione, ora ti faccio un altro invito, quello di continuare a startene lì dove ti trovi..continua così, la strada è quella giusta! Continua ad organizzare la maratonine delle quattro stagioni (bel nome eh), e vediamo se con queste maratonine riesci a coinvolgere tutto Caposele. MEGLIO SEI O SETTE PERSONE CHE SI ALLENANO COSTANTEMENTE CHE NESSUNA, E QUESTO GRUPPO L'ABBIAM CREATO NOI,E CRESCERE SEMPRE DI PIU', DI CERTO NON GRAZIE A TE.! ti saluto caro Nicola. Ps: quando organizzi la maratonina d'inverno?!
+
+[post_text_131]
+ALLORA NICOLA, COSA STAI FACENDO DI BUONO PER CAPOSELE???EH???COSA???
+OGGI TI HO VISTO AL CAMPO PALMENTE A TIFARE CONTRO LA SQUADRA CAPOSELESE. USO UNA PAROLA PER ESPRIMERE IL TUO GESTO : VERGOGNATI!
+
+[post_text_132]
+E' da un po' che faccio da spettatore a questa polemica tra Nicolino e il resto del mondo podistico. Fino ad oggi mi sono fatto i fatti miei perchè in fondo non faccio parte dell'ARS ne posso ritenermi un podista. Stamani però ho deciso di trasferire la mia nota crociata contro gli imbrattatori anonimi sul sito dell'ARS. Nutro seri dubbi sul fatto che chi si diverte a stuzzicare anonimamente Nicola sia un membro dell'Amatori Running, i membri che conosco sono persone cristalline e corrette che mai si permetterebbero di rompere le scatole a qualcuno senza palesare la propria identità, dunque mi rivolgerò a questo soggetto chiamandolo "presunto socio".
+Ma andiamo nel merito della polemica.
+Caro presunto socio non vedo cosa ci sia di così malvagio nell'organizzare una corsa o più corse l'anno. Sono uno di quei buffoni (lo sono se lo corsette di Nicola sono buffonate!) che ha partecipato alle due maratonine organizzate dal Melillo e ti garantisco che sono stati bei momenti di sport, divertenti, salutari e che mi hanno fatto venire volgia di correre più spesso. L'anno scorso ci ho impiegato quasi un ora a fare il tragitto Occhiaro- Materdomini-Caposele, quest'anno ne ho impiegati 48 per fare Ponte Sele-Materdomini. Il fatto che ci fosse una corsa a novembre mi ha stimolato ad allenarmi per affrontare una distanza che normalemnte non corro. Non è un dato positivo questo? Aver stimolato anche solo poche persone non fa onore a Nicola? Quindi tanto di cappello ad Alessandro, Donatello e Francesco che, invece di parlare a vanvera e anonimamente come fai tu, si sono messi i pantaloncini e sono venuti a correre alla Quasi Nove. Ti diverti ad ironizzare sui pochi partecipanti alle gare di Nicola, ma tu quanta gente riusciresti a convincere a correre d'inverno per 9 km in salita e dico correre, non sfilare in parata! Io sono un grande estimatore della Stralaceno, da quando ho risolto i problemi fisici che mi hanno penalizzato per molti anni ho sempre cercato di partecipare e migliore e quindi mai potrei parlare contro quella lodevole manifestazione (basta andare su caposeleonline e leggere le mie "famose" cronache delle ultime edizioni). Ma è fuori di dubbio che è sicuramente centomila volte più semplice far correre 60 caposelesi in pianura per 5km a settembre che 10 per 9 km a novembre. Senza offesa per nessuno, ma più di metà dei partecipanti all'ultima Straleceno non sarebbe stata in grado di concludere la QuasiNove. Vabbuò mo mi sono sfogato, continuate pure nella vostra polemica, io quello che dovevo dire l'ho detto!
+&nbsp;
+p.s. Non voglio che questo mio sfogo sia preso come astio nei riguardi dell'ARS che stimo tantissimo e che rimarrà nella storia per essere la prima associazione sportiva non calcistica dei caposelesi (l'associazione Nuoto è più una società intercomunale). Apprezzo quello che l'ARS fa ed ho una stima infinita, nonchè una profonda simpatia, per Nick D'Auria.
+
+[post_text_133]
+Prendo spunto dalla riflessione di Jerry Notaro per invitare tutti ad utilizzare questo spazio completamente libero in maniera più costruttiva, evitando polemiche inutili e di basso livello.
+
+[post_text_134]
+Grande il nostro presidente..un esempio da seguire per tutti... Caro Presidente, anche i nostri allenamenti procedono alla grande, la passione è sempre in aumento..dovresti vedere il vicepresindente Alex, sta trainando tutto il resto della squadra con ottime performance.. Ultimo allenamento sabato pomeriggio..quasi 15 km di corsa..e che corsa! Un saluto...Sal
+
+[post_text_135]
+COMUNICAZIONE
+&nbsp;
+Ecco le prime interessanti gare per la stagione podistica 2008:
+- 16 marzo, San Martino Valle Caudina (av), 10 km
+- 30 marzo, Cava dei Tirreni (sa), 10 km
+- 6 aprile, Agropoli (sa), mezza maratona.
+&nbsp;
+Da decidere la partecipazione alla mezza maratona "Roma-Ostia" che si terrà il 24 febbraio..
+&nbsp;
+Ciao
+
+[post_text_136]
+grande occasione ragazzi , domenica 17 febbraio gara ad eboli di 4 km. ci possiamo andare tranquillamente senza costi di iscrizioni. spero possiamo andarci tutti. ok? ciao ragazzi
+Paolo
+
+[post_text_137]
+Bene Paolo! Aspettiamo maggiori informazioni sulla gara (orario di partenza, tipo di percorso, categorie, classifica a squadre etc.)
+
+[post_text_138]
+VOGLIAMO ALESSANDRO RUSSOMANNO PRESIDENTE DELL' ARS COSI' SI ISCRIVEREBBERO ALMENO ALTRE 10 PERSONE.DEI 21 SOCI CHE ATTUALMENTE CI SONO SOLO 7/8 PRATICANO SPORT E CORSA COSTANTEMENTE GLI ALTRI LO FANNO SOLO PER ALTRI MOTIVI,DOPO LE ELEZIONI DEL CONSIGLIO DELL' ARS SI VEDRA' SE CI SONO LE POSSIBILITA' DI CONCRETIZZARE QUALCOSA.IO DA SOLO SENZA GIUDICI DI GARA HO ORGANIZZATO 2 GARE NEL TERRITORIO DI CAPOSELE E MATERDOMINI A CUI PURTROPPO I GIOVANI SPORTIVI DI CAPOSELE NON SONO RIUSCITI A CAPIRE LO SCOPO PER IL QUALE SAREBBERO DOVUTI ESSERE ALLA GRIGLIA DI PARTENZA.VA BE' VADO AVANTI LO STESSO.
+
+[post_text_139]
+Alessandro Russomanno presidente del consiglio!

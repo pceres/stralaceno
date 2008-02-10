@@ -26,6 +26,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 12::NIC M.::12/09/2007 01.59.12::visible
 13::da Irpinianews.it::17/10/2007 10.09.46::visible
 14::da CorriereIrpinia.it::16/11/2007 17.13.40::visible
+15::da Ottopagine::05/02/2008 10.28.14::visible
 
 [post_text_0]
 we allora, le polemiche sullo sport caposelese per ora sembra siano terminate. Abbiamo assistito ad uno bel dibattittio, coinvolgendo molte persone. Ma quello che sto cercando di dirvi e che se io posso cambiare e voi potete cambiare, tutto il mondo può cambiare. Questa era una frase tratta dal film di ROCKY, comununque con questo voglio dire che tutte le polemiche non sono mai servita a nulla, piuttosto bisogna cecare di essere quanto più uniti mettendo sul tavolo le proprie idee, ed allora a questo punto le cose potranno cambiare in modo positivo. tutto questo penso che sia la chiave di tutto.
@@ -107,4 +108,58 @@ Caposele, rapinata un’altra filiale della Banca di Bari
 Caposele - E’ di cinquanta mila euro il bottino di una rapina portata a termine ieri mattina ai danni della filiale della Banca Popolare di Bari a Caposele. Tre persone, a volto coperto, sono penetrate all’interno dell’istituto di credito e minacciando gli impiegati con dei taglierini si sono fatti consegnare tutto il denaro in contanti. Dopo il “colpo grosso” la fuga. Ad attenderli all’uscita, un altro complice a bordo di un’autovettura. Al momento non si ha nessuna traccia dei rapinatori ed i carabinieri continuano le loro indagini.
 A tre giorni dalla rapina a mano armata alla filiale di via Capozzi ad Avellino, un ennesimo colpo. Ma, questa volta cambia lo scenario a livello di “partecipanti” ( tre ladri, rispetto al solitario che ha agito in città), di bottino ( ventitre mila euro circa per il napoletano ignoto) e di luogo. Erano le 8 circa di ieri mattina quando tre uomini con il volto travisato da passamontagna hanno fatto irruzione nell’Istituto di credito di Caposele. Hanno prelevato cinquanta mila euro, svuotando completamente le casse della sportello di Caposele. La tecnica dei ladri, però, sembra essere la stessa. Per evitare di essere riconosciuti dalla telecamere presenti negli Ititusti, entrano di mattina presto, coperti in viso e sempre armati. Per fortuna, oltre la minaccia e lo spavento non hanno materialmente fatto del male ai presenti, tra impiegati e clienti.
 Intanto gli agenti della polizia continuano le loro indagini, effettuando posti d blocco e controllando ogni potenziale sospetto. Anche per la Banca di Via Capozzi, si attende di mettere insieme i pezzi del complicato puzzle. Sarà la polizia scientifica, grazie al rilevamento delle impronte a dare un primo imput agli agenti. L’unica cosa certa è che si tratta di un napoletano sui trent’anni.
+&nbsp;
+
+[post_text_15]
+Cittadinanza attiva scrive al rappresentante della prefettura per il rispetto dello Statuto
+&nbsp;
+Caposele,lettera aperta al Commissario:
+pubblicate gli atti sul sito web del comune
+&nbsp;
+4 febbraio 2008
+Riceviamo e pubblichiamo.
+Signor Commissario, come le è ben noto, in attuazione
+delle precisioni dello Statuto comunale e su
+conforme richiesta effettuata con pubblico manifesti
+di intenti sottoscritto da tutti i gruppi e partiti politici,
+il consiglio comunale di Caposele ha voluto e
+approvato, nella seduta del tre maggio scorso, il vigente
+regolamento per l’accesso agli atti, ai documenti e
+alle informazioni. Detto regolamento, tra l’altro,
+dispone l’attuazione del diritto all’informazione
+mediante l’integrale inserimento di tutti gli atti comunali
+sul sito web comunale appositamente istituito,
+contemporaneamente alla loro pubblicazione sull’Albo Pretorio.
+&nbsp;
+Purtroppo, dopo ben sette mesi dalle entrata in vigore
+del regolamento, la pubblicazione sul sito web dell’ente,
+indispensabile per garantire la trasparenza, la partecipazione
+e la democrazia cittadina ancora non viene eseguita.
+La cosa appare tanto più grave e inescusabile
+solo che si pensi al fatto che l’attuazione di tale forma di
+pubblicità e massima conoscenza degli atti comunali è
+stata già sollecitata fin dal mese di settembre del precedente
+anno e congiuntamente da entrambi i candidasti
+sindaci dell’ultima competizione elettorale.
+&nbsp;
+E’appena il caso di sottolineare che l’attuazione del citato
+disposto regolamentare è un preciso obbligo giuridico, la
+cui persistente omissione, oltre a tradire ingiustamente
+le richieste del popolo caposelese, genera evidenti e
+gravi illegittimità che non possono essere certamente
+superate invocando - peraltro sine die . presunte difficoltà
+tecnico logistiche, comunque molto discutibili.
+La scrivente associazione (Cittadinanza attiva - assemblea
+territoriale Alto Calore - Ofanto Sele), nel ricordare
+che la funzione di supplenza territoriale che la prefettura
+è chiamata a dover svolgere nel nostro comune è
+soprattutto quella di assicurare e garantire nella gestione
+dell’ente il rispetto delle leggi e dei regolamenti
+vigenti, invita la S.V. a voler porre immediato termine al
+persistere della illegittima omissione del regolamento,
+disponendo l’integrale inserimento nel sito web comunale
+degli atti relativi contemporaneamente alla loro
+affissione all’Albo Pretorio nonché di quelli che sono
+stati assunti a far data dall’entrata
+in vigore del regolamento in epigrafe.
 &nbsp;

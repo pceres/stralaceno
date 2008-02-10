@@ -48,6 +48,11 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 34::info::07/11/2007 11.53.01::visible
 35::info::04/12/2007 09.59.54::visible
 36::dal sito del Real S.Andrea::04/12/2007 12.49.22::visible
+37::da Corriere dell'Irpinia::08/01/2008 18.21.42::visible
+38::dal sito della ASCD Vallatese::21/01/2008 11.04.01::visible
+39::VALLATESE::21/01/2008 15.48.08::visible
+40::da Ottopagine::05/02/2008 10.31.58::visible
+41::VALLATESE::08/02/2008 17.45.16::visible
 
 [post_text_0]
 Qui aspettiamo i vostri commenti alle vicende calcistiche della F.C. Caposele.
@@ -224,3 +229,93 @@ Domenica 02/12/2007    Caposele - Real  6 - 0
 &nbsp;
 Partita disastrosa del Real che cade a Caposele per 6 - 0, gara che si commenta da sola, la squadra scende in campo senza mordente, senza idee e senza carattere. Si comincia con : Antonacci, Gallucci, Santorsola, Camerlingo, Iannella E. , Cignarella, Di Guglielmo F. , Capasso, Carbone, Martino G. , Perriello. La squadra comincia bene con belle giocate e va pure in gol con Carbone, ma viene annullato "giustamente" per fallo commesso da quest'ultimo. Poi comincia lo show dei padroni di casa, che vanno in gol per colpa di un errato disimpegno della nostra retroguardia. Si ripetono dopo pochi minuti, cross dal vertice della nostra area di rigore , la  difesa sbaglia a fare il fuori gioco e l'attaccante avversario con una bella scivolata  manda la sfera alle spalle di Antonacci. Al 35' palla innocua, Antonacci se la  fa passare sotto le mani ed è il 3 - 0. Si chiude il primo tempo con un pesante passivo. Negli spogliatoi il mister cerca di smuovere la squadra, ma è del tutto inutile. Nella ripresa il Real si rende pericoloso solo nei primi 10 minuti, giocando all'attacco,cercando di riaprire una partita già chiusa. Inevitabilmente la squadra si scopre e viene colpita altre tre volte in contropiede. Una sconfitta che fa male, anzi malissimo, per com'è maturata e per quanto è finita. Ora bisogna solo rimboccarsi le maniche e lavorare sodo, anche perchè domenica c'è un'altra partita molto difficile!
 &nbsp;
+
+[post_text_37]
+07.01.2008 - Dichiarazione del Team Manager SALVATORE CORONA della FC Caposele:
+&nbsp;
+"Abbiamo con noi giovani talenti del calcio e siamo molto soddisfatti delle scelte fatte.
+I nostri ragazzi sono molto legati alla loro maglia e anche durante le feste hanno scelto di allenarsi."
+
+[post_text_38]
+VALLATESE 1-1 CAPOSELE
+(20'pt Strazzella - 30'st Cibellis T.)
+&nbsp;
+COMMENTO
+Finisce in parità lo scontro al vertice tra Vallatese e Caposele. La partita inizia immediatamente a surriscaldare gli animi dei giocatori in campo che da entrambe le parti tengono particolarmente a quest' incontro, in fondo infondo queste sono le due formazioni migliori del campionato. La prima occasione è per gli ospiti ma il pallone finisce lontano dalla porta di Del Sordi. Al 20 della prima frazione di gioco angolo per gli azzurri, si incarica della battuta Fonzo, Strazzella è il più reattivo di tutti e spedisce la palla in rete, lo stadio si infiamma al vantaggio dei locali. Il Caposele, "prima della classe", non ci sta e immediatamente si concentra in attacco, al 25' palla per Merola , ma il suo tiro a due passi dalla porta viene respinto da Del Sordi grazie ad un ottimo intervento. I locali non si lasciano intimorire più di tanto e controbattono alla pari le giocate degli avversari. Al 33' Forgione parte in progressione sulla fascia destra, salta un paio di avversari, entrato in area di rigore  viene agganciato dal difensore e va giù, l'arbitro dice che il contatto non è da rigore.  Sullo scadere del primo tempo Galdi da fuori impegna ancora l'estremo difensore locale che salva ancora una volta il risultato con l'aiuto della traversa. La ripresa vede gli ospiti più motivati, ma i loro attacchi non risultano impensierire la porta locale. al 20' ancora Del Sordi nega il gol  grazie ad una parata plastica, sul colpo di testa dell'attaccante avversario.  Le geometrie della Vallatese reggono bene, il centrocampo da una prova maiuscola, al 25' però Forgione va giù, per crampi, viene trasportato a bordo campo dove lo staff tecnico cerca di rimettere in piedi il centrale. Alla ripresa del gioco i locali sono nuovamente in 11, Forgione c'è anche se non al meglio. Il Lupo (Caposele) percepisce che la preda (Vallatese) è all' estremo delle forze e grazie ad un micidiale contropiede riesce ad agguantare il pareggio con Cibellis. I locali anche dopo aver subito il gol non si arrendono, Forgione è costretto ad uscire, al suo posto entra Ragazzo. La partita dopo 4 minuti di recupero termina. Ottima la prova che hanno dato entrambe le compagini, il pareggio era il risultato giusto.
+&nbsp;
+&nbsp;
+CAPOSELE
+D'Elia - Feniello - Malanga - Amendola - Zarra - Grasso - Grasso G. - Cibellis T. - Monteverde - Merola - Galdi.
+A DISPOSIZIONE:  Donatiello - Ceres - Cibellis L.
+ALL.:  Sista
+&nbsp;
+VALLATESE
+Del Sordi - Petralia - Giraffa - Ragazzo E. - Strazzella - Strazzella A - Forgione (35' st Ragazzo G.) - Crincoli - Nufrio - Grasso - Fonzo.
+A DISPOSIZIONE:  Nessuno
+ALL.: Strazzella
+
+[post_text_39]
+BELLISSIMA PARTITA !!!! CI VEDIAMO AL RITORNO
+
+[post_text_40]
+Caposele non si ferma più:
+colpo a Carife
+&nbsp;
+CARIFE 0
+CAPOSELE 2
+&nbsp;
+&nbsp;
+CARIFE: Pezzano, Loffa,
+Schirillo, Palmisano, Salvatore,
+Bardaro, Pelullo, Di Tuccio,
+Salicandro, Palmisano V (60’
+Lovise L.), Colicchio (46’
+Lovise)
+Allenatore: Tedeschi
+&nbsp;
+CAPOSELE: D’Elia, Feniello,
+Malanga (85’ Liloia),
+Amendola, Grasso, Zarra,
+Cibellis M., Ceres (55’ Cibellis
+L.), Monteverde (75’ Galdi),
+Merola, Donatiello
+Allenatore: Sista
+Reti: 65’ Monteverde, 85’
+Donatiello
+&nbsp;
+Note: Terreno di gioco al limite
+della praticabilità per le cattive
+condizioni atmosferiche.
+Spettatori presenti all’incontro
+una cinquantina circa, di cui
+molti ospiti.
+&nbsp;
+CARIFE - Continua inarrestabile
+la marcia del Caposele,
+che vince con un secco due a
+zero anche in casa del Carife,
+centrando l’undicesima vittoria
+su dodici gare disputate,
+un rullino di marcia che non
+ha bisogno di commenti. Nel
+primo tempo i padroni di casa
+,però, non sfigurano affatto al
+cospetto della più quotata
+compagine di mister Sista,
+mettendola sul piano della
+grinta e della fisicità. Nella
+ripresa però gli ospiti iniziano
+a spingere e passano a metà
+frazione con un autentico
+eurogol del bomber
+Monteverde che, in rovesciata,
+fa secco Pezzano. Allo scadere
+un gran destro al volo di
+Donatiello chiude i giochi.
+&nbsp;
+Ottopgine del 4.2.2008
+
+[post_text_41]
+venite a visitare il sito dell'ascd Vallatese:
+&nbsp;
+WWW.ASCDVALLATESE.SPACES.LIVE.COM
