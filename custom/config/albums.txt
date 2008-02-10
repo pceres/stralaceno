@@ -28,6 +28,13 @@ cont2_07.jpg::
 maglia_running_ars.jpg::
 cont3.jpg::
 cont4.jpg::
+nda_giuss_08.jpg::
+nda_giuss_08_2.jpg::
+nda_giuss_08_3.jpg::
+Bri_Capr_08_1.jpg::
+Bri_Capr_08_3.jpg::
+Bri_Capr_08_4.jpg::
+Bri_Cam_08_2.jpg::
 
 
 [All.Coll.05]
@@ -64,6 +71,7 @@ quasinove-2007.jpg::Locandina "Quasi nove" 2007::::
 albero_genealogico.jpg::Albero genealogico::Albero genealogico di Pasquale Ceres::
 Run_World4.jpg::Articolo Runners Sblocca i risultati::
 Non_Corro.jpg::Articolo Runners Non corro perch&egrave; soffro molto::
+CorrInDue.jpg::Articolo Runners Come allenarsi con un amico pi&ugrave; veloce (o pi&ugrave; lento)
 
 [Soci_ars]
 LV2.jpg::Lello Viscardi::
@@ -85,6 +93,9 @@ SC.jpg::Salvatore Colatrella::
 GiM.jpg::Giuseppe Martino::
 GelM.jpg::Gelsomino Merola::
 SP.jpg::Saverio Perna::
+AG.jpg::Armando Grasso::
+RF.jpg::Rocco Feniello::
+
 
 [Roccadaspide_06]
 Roccadasp_040_1.jpg::evento::Foto di gruppo ARS, Gerardo, Paolo, Alessandro e Salvatore C.::
@@ -192,6 +203,8 @@ FC_10.jpg::::FC Caposele - Real S.Andrea Conza (13/05/2007)
 FC_11.jpg::::FC Caposele - Real S.Andrea Conza (13/05/2007)
 FC_12.jpg::::FC Caposele - Real S.Andrea Conza (13/05/2007)
 Rend_FC_06_07.jpg::::
+LOGOLIT.jpg::Logo Ufficiale FC Caposele::
+FcCAP_07_08.jpg::FC Caposele stagione 2007/08::
 
 [Roma_07]
 MR1.jpg:::: Alessandro, Paolo ed alle loro spalle il colosseo::Romamarathon 2007
@@ -216,6 +229,14 @@ tk2007_5.jpg::
 tk2007_6.jpg:: 
 tk2007_7.jpg:: 
 tk2007_8.jpg:: 
+acq1.jpg::
+acq2.jpg::
+acq3.jpg::
+acq4.jpg::
+acq5.jpg::
+acq6.jpg::
+acq7.jpg::
+
 
 [Paestum_07]
 pae0.jpg::partenza::Paestum 2007
@@ -257,3 +278,29 @@ mon11.jpg::l'arrivo in volata di Paolo e Alessandro::Mercogliano 2007
 mon12.jpg::con non poche difficolt&agrave;, Paolo ed Alessandro tagliano il traguardo::Mercogliano 2007
 monB.jpg::la struttura che rende famosa Montevergine::Mercogliano 2007
 monC.jpg::foto panoramica::
+
+[All.Coll.07]
+All_Coll-07.jpg::
+ac071.jpg::
+ac072.jpg::
+ac073.jpg::
+ac074.jpg::
+ac075.jpg::
+ac076.jpg::
+ac077.jpg::
+ac078.jpg::
+ac079.jpg::
+ac0710.jpg::
+ac0711.jpg::
+ac0712.jpg::
+ac0713.jpg::
+ac0714.jpg::
+ac0715.jpg::
+ac0716.jpg::
+ac0717.jpg::
+ac0718.jpg::
+ac0719.jpg::
+ac0720.jpg::
+ac0721.jpg::
+ac0722.jpg::
+ac0723.jpg::
