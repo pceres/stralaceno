@@ -16,7 +16,7 @@
 [elenco_siti]
 1::arsweb::CaposeleWeb::http://ars.altervista.org/index.php::http://ars.altervista.org/custom/album/varie/logo.jpg::ARS Amatori Running Sele::Pasquale Ceres
 2::stralacenoweb::StralacenoWeb::http://pceres.altervista.org/stralaceno/index.php::http://pceres.altervista.org/stralaceno/custom/album/varie/logo.jpg::ARS Amatori Running Sele::Pasquale Ceres
-3::caposeleonline::Caposele Online::http://www.caposeleonline.it::http://www.caposeleonline.it/Photo_0526.jpg::Gerardo Notaro::Gerardo Notaro
+3::caposeleonline::CaposeleOnline::http://www.caposeleonline.it::::Gerardo Notaro::Gerardo Notaro
 4::Informagiovani::Informagiovani::http://www.informagiovanicaposele.it/::http://web.cheapnet.it/informagiovanicaposele/Immagini/logo_stop.jpg::Inormagiovani Caposele::Vitale Cetrulo
 5::pubblica_assistenza::Pubblica Assistenza Caposele::http://www.pacaposele.org/::http://www.pacaposele.org/img/pacaposele.gif::Pubblica Assistenza di Caposele::
 6::Liceo di Caposele::LiceOnline::http://liceonline.altervista.org::http://liceonline.altervista.org/images/budapest__05_thumb47.jpg::Redazione del liceo::Redazione del liceo
@@ -28,7 +28,7 @@
 12::lulusland::Lulusland.Blogspot::http://lulusland.blogspot.com/::http://www.blogger.com/img/navbar/1/logobar.gif::Lulo::Lulo
 13::fiume_di_vita::Fiume di Vita::http://www.fiumedivita.it/::http://www.fiumedivita.it/grafica/bannercolor_v.3.jpg::Gruppo giovanile "Fiume di Vita"::
 14::caposelelibero::Caposele Libero::http://caposelelibero.splinder.com/::http://www.splinder.com/themes/multisite/www.splinder.it/images/logo/splinder-logo.gif::Guy Fawkes::Splinder
-15::SiamoNoi::SiamoNoi::http://www.siamonoi.it::http://www.siamonoi.it/index/corsa%20dei%20tre%20campanili.jpg::Paolo Viscardi::Paolo Viscardi
+15::SiamoNoi::SiamoNoi::http://www.siamonoi.it::http://www.siamonoi.it/home%20page%20foto/mappa%20caposele.JPG::Paolo Viscardi::Paolo Viscardi
 16::Wikipedia::Caposele su Wikipedia::http://it.wikipedia.org/wiki/Caposele::http://it.wikipedia.org/images/wikimedia-button.png::Wikipedia::Wikipedia
 17::Comune_di_Caposele::Comune di Caposele::http://caposele.asmenet.it::http://www3.asmenet.it/opencms/opencms/system/galleries/pics/asmenet_caposele/logocomune_template1.gif::Asmenet::Asmenet
 18::EPT_di_Avellino::EPT di Avellino::http://www.eptavellino.it/itinerari_id.php?itinerario=37::http://www.eptavellino.it/files/itinerari_37.JPG::Ente Provinciale per il Turismo::MY ADMIN

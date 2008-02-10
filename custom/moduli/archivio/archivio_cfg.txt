@@ -21,6 +21,10 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
+50::homepage::Iniziare a correre::Runners.it
+49::homepage::Campionato Brianzolo 2008::
+47::homepage::Allenamento Collettivo 30.12.2007::
+43::homepage::Genealogia di Caposele::
 44::homepage::Stagione podistica 2007::
 42::homepage::Corsa podistica "Quasi Nove"::
 41::homepage::StraSalerno Half-Marathon 2007::
@@ -30,6 +34,7 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 34::homepage::Siamo nati per correre::
 39::homepage::10 km di Nusco 2007::Pasquale Ceres
 33::homepage::Gara podistica Lioni 2007::
+48::homepage::Come allenarsi con un amico::Runner's World
 46::homepage::Podismo: non corro perch&egrave; soffro troppo::Runner's World
 45::homepage::Podismo: sblocca i risultati::Runner's World
 38::homepage::Podismo: fai il salto di qualit&agrave;::Runner's World

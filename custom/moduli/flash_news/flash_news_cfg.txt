@@ -6,6 +6,9 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+04/01/2008::Si associano all'Amatori Running Sele Armando Grasso e Rocco Feniello. Il numero dei soci sale a 21.
+30/12/2007::Si &egrave; svolto l'allenamento podistico collettivo di km 16,750 di fine anno 2007. Sedici i partecipanti.
+11/12/2007::Fissato per il 30 dicembre alle ore 15.00 un allenamento podistico collettivo di km 16.750 (partenza e arrivo piazza Sanit&agrave;, Caposele).
 05/11/2007::Partecipanti alla gara podistica "VII Pedibus Calcantibus" di km 10,8 a Montella (Av): Francesco Ceres, Salvatore Merola, Paolo Viscardi, Donatello Cirillo, Alessandro Russomanno.
 01/11/2007::Visite mediche per il gruppo podistico Ars
 21/10/2007::Partecipanti alla gara podistica "StraSalerno Half-Marathon" di km 21,097 a Salerno: Gerardo Martino, Paolo Viscardi.
