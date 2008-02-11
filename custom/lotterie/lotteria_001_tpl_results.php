@@ -75,7 +75,7 @@ foreach ($elenco_giocate2 as $giocata)
 	array_push($elenco_giocate3,$giocata_new);
 }
 $elenco_giocate = $elenco_giocate3;
-$mask=array_merge($mask,count($giocata));
+$mask=array_merge($mask,Array(count($giocata)));
 
 
 // alias delle varie risposte
@@ -236,15 +236,15 @@ if ($_REQUEST['debug']=='full')
 // verifica che le giocate siano aperte e stampa il relativo messaggio
 if ($v_now[0] > $v_results[0])
 {
-	$mask_new = array_merge(6,0,4,3,1,range(7,7+count($soluz)-1),2); // codice, giocatore, tipo giocata, punteggio, x, data
+	$mask_new = array_merge(Array(6,0,4,3,1),range(7,7+count($soluz)-1),Array(2)); // codice, giocatore, tipo giocata, punteggio, x, data
 }
 else
 {
-	$mask_new = array_merge(6,0,4,  1,range(7,7+count($soluz)-1),2); // codice, tipo giocata, punteggio, x, data
+	$mask_new = array_merge(Array(6,0,4,1),range(7,7+count($soluz)-1),Array(2)); // codice, tipo giocata, punteggio, x, data
 }
 if ($_REQUEST['debug'] == 'full')
 {
-	$mask_new = array_merge(6,0,1,2,3,4,5,range(7,7+count($soluz)-1)); // tutti i campi
+	$mask_new = array_merge(Array(6,0,1,2,3,4,5),range(7,7+count($soluz)-1)); // tutti i campi
 }
 
 show_table($elenco_new,$mask_new,'tabella',1,12,1); # tabella in una colonna, font 12, con note

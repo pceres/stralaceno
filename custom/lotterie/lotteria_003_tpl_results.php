@@ -148,7 +148,7 @@ $elenco_giocate = $elenco_giocate3;
 
 
 // aggiungi a mask l'indice dell'ultima colonna
-$mask=array_merge($mask,count($giocata));
+$mask=array_merge($mask,Array(count($giocata)));
 
 
 // alias delle varie risposte
@@ -444,16 +444,16 @@ if ($debug_mode)
 // verifica che le giocate siano aperte e stampa il relativo messaggio
 if ($v_now[0] > $v_results[0])
 {
-	$mask_new = array_merge(6,0,3,7,1,range($last_fixed_field+1,$last_fixed_field+1+count($soluz)-1),2); // posiz., id, giocatore, provenienza, punti, x, data
+	$mask_new = array_merge(Array(6,0,3,7,1),range($last_fixed_field+1,$last_fixed_field+1+count($soluz)-1),Array(2)); // posiz., id, giocatore, provenienza, punti, x, data
 }
 else
 {
-	$mask_new = array_merge(6,0,3,7,1,range($last_fixed_field+1,$last_fixed_field+1+count($soluz)-1),2); // posiz., id, giocatore, provenienza, punti, x, data
+	$mask_new = array_merge(Array(6,0,3,7,1),range($last_fixed_field+1,$last_fixed_field+1+count($soluz)-1),Array(2)); // posiz., id, giocatore, provenienza, punti, x, data
 // 	$mask_new = array_merge(6,0,1,range($last_fixed_field+1,$last_fixed_field+1+count($soluz)-1),2); // posiz., id, punti, x, data
 }
 if ($debug_mode)
 {
-	$mask_new = array_merge(6,0,1,2,3,4,5,7,range($last_fixed_field+1,$last_fixed_field+1+count($soluz)-1)); // tutti i campi
+	$mask_new = array_merge(Array(6,0,1,2,3,4,5,7),range($last_fixed_field+1,$last_fixed_field+1+count($soluz)-1)); // tutti i campi
 }
 
 show_table($elenco_new,$mask_new,'tabella',1,12,1); # tabella in una colonna, font 12, con note
