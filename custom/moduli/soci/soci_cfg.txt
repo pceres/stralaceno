@@ -37,6 +37,7 @@ Rocco Feniello::::04/01/2008::socio ordinario::::20::Soci_ars::
 # formato elenco_news:  data::news
 #
 [elenco_news]
+11/02/2008::Affiliazione Ars allo Csen per l'anno 2008: costo 30 euro.
 17/09/2007::Nella gara podistica "II maratonina di Montoro Sup." (Av), la squadra Ars ha ottenuto il 4&deg; posto, ricevendo in premio 70 euro.
 16/03/2007::Sondaggio Champions League 2006/07: offerte raccolte 3 euro.
 05/07/2006::Presentata alla Regione Campania domanda di finanziamento per la Stralaceno.

@@ -6,6 +6,7 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+11/02/2008::La squadra podistica dell'ARS si affilia -per l'anno 2008- allo CSEN Centro Sportivo Educativo Nazionale.
 04/01/2008::Si associano all'Amatori Running Sele Armando Grasso e Rocco Feniello. Il numero dei soci sale a 21.
 30/12/2007::Si &egrave; svolto l'allenamento podistico collettivo di km 16,750 di fine anno 2007. Sedici i partecipanti.
 11/12/2007::Fissato per il 30 dicembre alle ore 15.00 un allenamento podistico collettivo di km 16.750 (partenza e arrivo piazza Sanit&agrave;, Caposele).

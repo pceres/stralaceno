@@ -21,6 +21,7 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
+51::homepage::Affiliazione ARS allo Csen -anno 2008-::
 50::homepage::Iniziare a correre::Runners.it
 49::homepage::Campionato Brianzolo 2008::
 47::homepage::Allenamento Collettivo 30.12.2007::

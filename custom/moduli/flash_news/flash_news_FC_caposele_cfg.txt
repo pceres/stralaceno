@@ -6,6 +6,7 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+11/02/2008::Risultato: FC Caposele - La Longobarda 4-1
 07/02/2008::Prossima partita: FC Caposele - La Longobarda, domenica 10 gennaio stadio Palmenta Caposele h.15.00.
 05/02/2008::Risultato: Carife - FC Caposele 0-2
 31/01/2008::Prossima partita: Carife - FC Caposele, domenica 3 febbraio ore 15.00 a Carife.

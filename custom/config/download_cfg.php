@@ -53,8 +53,8 @@ file::file_rendiconto_e_relazione_ARS_2005::Rendiconto e Relazione ARS anno 2005
 file::file_rendiconto_e_relazione_ARS_2006::Rendiconto e Relazione ARS anno 2006::Rendiconto economico finanziario relativo all'esercizio 2006, e breve relazione::Rendiconto e Relazione anno 2006 ARS.pdf::::admin::22:07 04/07/2007::6
 
 [folder_Prestazioni_sportive_soci]
-file::file_Risultati_gare_podistiche_xls::Risultati gare podistiche (xls)::Tabella scaricabile::Risultati gare podistiche.xls::::admin::15:31 05/11/2007::27
-file::file_Risultati_gare_podistiche_pdf::Risultati gare podistiche (pdf)::Pdf scaricabile::Risultati gare podistiche.pdf::::admin::19:59 06/09/2007::13
+file::file_Risultati_gare_podistiche_xls::Risultati gare podistiche (xls)::Tabella scaricabile::Risultati gare podistiche.xls::::admin::15:31 05/11/2007::28
+file::file_Risultati_gare_podistiche_pdf::Risultati gare podistiche (pdf)::Pdf scaricabile::Risultati gare podistiche.pdf::::admin::19:59 06/09/2007::14
 file::file_scheda_gara::Scheda partecipazione gara podistica Ars::Modulo da compilare a seguito della partecipazione dei soci Ars ad una manifestazione podistica::Scheda gara.xls::::admin::22:30 21/10/2007::8
 
 [folder_Sezione_soci]
