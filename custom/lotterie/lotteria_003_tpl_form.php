@@ -436,7 +436,7 @@ function check_input(f)
 		
 		for (i=0; i <= (gironi.length-1); i++)
 		{
-			msg += "\n    Scontro "+String.fromCharCode(i+65)+': '+vettore_gironi[i]; 
+			msg += "\n    Girone "+String.fromCharCode(i+65)+': '+vettore_gironi[i]; 
 			
 			errore = vettore_gironi[i]-num_per_girone;
 			if (errore > 0)
@@ -1495,6 +1495,33 @@ if (!$info_mode)
 	echo "<input type=\"submit\" value=\"Gioca\" OnClick=\"return print_warning()\"/>";
 }
 ?>
+
+
+<?php
+$file_log_questions = $root_path."custom/lotterie/".sprintf('lotteria_%03d_log.txt',$id_questions);
+if ($flag_show_results && file_exists($file_log_questions))
+{
+?>
+<table>
+ <tbody>
+ <tr style='height:12.0pt'>
+  <td colspan=10 style='height:12.0pt;'></td>
+  <td></td>
+  <td colspan=2></td>
+ </tr>
+ <tr style='height:12.0pt'>
+  <td style='height:12.0pt'></td>
+  <td class=xl49><a href="questions.php?id_questions=<?php echo $id_questions; ?>&amp;action=results">Visualizza i pronostici gi&agrave; salvati</a></td>
+  <td colspan=8></td>
+  <td></td>
+  <td colspan=2></td>
+ </tr>
+ </tbody>
+</table>
+<?php
+}
+?>
+
 
 
 
