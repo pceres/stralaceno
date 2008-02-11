@@ -1,0 +1,15 @@
+Autore::ARS
+Titolo::Affiliazione ARS allo CSEN -anno 2008-
+--- Begin body ---
+<br>Per l’anno 2008, la squadra podistica degli Amatori Running Sele si &egrave; affiliata 
+allo CSEN Centro Sportivo Educativo Nazionale, ente di promozione sportiva riconosciuto 
+dal Coni.<br><br>
+Questo consentir&agrave; all’Ars di partecipare ufficialmente, con il proprio nome, alle 
+varie manifestazioni podistiche organizzate dalla Fidal, enti di promozione sportiva ed enti 
+locali.<br>
+<br>
+<div align="center">
+<img id="CSEN" src="%file_root%custom/album/varie/ars_csen.jpg" alt="" border="0" width="280">
+</div>
+<br>
+--- End body ---
