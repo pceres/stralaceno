@@ -72,6 +72,7 @@ albero_genealogico.jpg::Albero genealogico::Albero genealogico di Pasquale Ceres
 Run_World4.jpg::Articolo Runners Sblocca i risultati::
 Non_Corro.jpg::Articolo Runners Non corro perch&egrave; soffro molto::
 CorrInDue.jpg::Articolo Runners Come allenarsi con un amico pi&ugrave; veloce (o pi&ugrave; lento)
+ars_csen.jpg::
 
 [Soci_ars]
 LV2.jpg::Lello Viscardi::
