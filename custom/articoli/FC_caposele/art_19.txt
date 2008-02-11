@@ -6,58 +6,58 @@ Titolo::Risultati e Classifica III cat. 2007/08
 <!-- 
 	inizio tabella risultati giornata x 
 -->
-	Risultati 12<sup>a</sup> giornata (02-03/02/2008)
+	Risultati 13<sup>a</sup> giornata (09-10/02/2008)
 <table class="tabella" style="font-size:13.0pt;">
 <tbody><tr><td align="left"><table>
 <tbody>
 <!-- match # 1 -->
 <tr>
-	<td> &nbsp;CARIFE</td>
+	<td> &nbsp;CAPOSELE</td>
 	<td> &nbsp;-&nbsp; </td>
-	<td>CAPOSELE</td>
-	<td>0-2</td>
+	<td>LA LONGOBARDA</td>
+	<td>4-1</td>
 </tr>
 <!-- match # 2 -->
 <tr>
-	<td> &nbsp;CASABIANCHI TREVICO</td>
+	<td> &nbsp;CASTEL BARONIA</td>
 	<td> &nbsp;-&nbsp; </td>
-	<td>VALLATESE</td>
-	<td>0-2</td>
+	<td>MORRA DE SANCTIS</td>
+	<td>3-2</td>
 </tr>
 <!-- match # 3 -->
 <tr>
-	<td> &nbsp;LA LONGOBARDA </td>
+	<td> &nbsp;LUPI TREVICO</td>
 	<td> &nbsp;-&nbsp; </td>
-	<td>VALLESACCARDA </td>
-	<td>2-2</td>
+	<td>REAL S.ANDREA CONZA</td>
+	<td>1-2</td>
 </tr>
 <!-- match # 4 -->
 <tr>
-	<td> &nbsp;MORRA DE SANCTIS</td>
+	<td> &nbsp;S.C. NUSCO</td>
 	<td> &nbsp;-&nbsp; </td>
-	<td>S.C. NUSCO</td>
-	<td>0-1</td>
+	<td>SPORTING EVER GR.</td>
+	<td>2-2</td>
 </tr>
 <!-- match # 5 -->
 <tr>
-	<td> &nbsp;REAL S.ANDREA CONZA</td>
+	<td> &nbsp;VALLATESE </td>
 	<td> &nbsp;-&nbsp; </td>
-	<td>VIRTUS CONZA</td>
-	<td>0-2</td>
+	<td>CARIFE</td>
+	<td>2-1</td>
 </tr>
 <!-- match # 6 -->
 <tr>
-	<td> &nbsp;SAN SOSSIO</td>
+	<td> &nbsp;VALLESACCARDA</td>
 	<td> &nbsp;-&nbsp; </td>
-	<td>CASTEL BARONIA</td>
-	<td>4-3</td>
+	<td>SAN SOSSIO</td>
+	<td>0-1</td>
 </tr>
 <!-- match # 7 -->
 <tr>
-	<td> &nbsp;SPORTING EVER GREEN</td>
+	<td> &nbsp;VIRTUS CONZA</td>
 	<td> &nbsp;-&nbsp; </td>
-	<td>LUPI TREVICO</td>
-	<td>1-2</td>
+	<td>CASABIANCHI TREVICO</td>
+	<td>2-0</td>
 </tr>
 </tbody>
 </table></td></tr></tbody></table>
@@ -91,167 +91,167 @@ Titolo::Risultati e Classifica III cat. 2007/08
 <tr>
 	<td>1</td>
 	<td align="left">&nbsp;CAPOSELE</td>
-	<td>34</td>
+	<td>37</td>
+	<td>13</td>
 	<td>12</td>
-	<td>11</td>
 	<td>1</td>
 	<td>0</td>
-	<td>42</td>
-	<td>6</td>
-	<td>36</td>
+	<td>46</td>
+	<td>7</td>
+	<td>39</td>
 	<td>10</td>
 </tr>
 <!-- # pos. 2 in classifica -->
 <tr>
 	<td>2</td>
-	<td align="left">&nbsp;LUPI TREVICO</td>
+	<td align="left">&nbsp;VALLATESE</td>
 	<td>26</td>
-	<td>12</td>
-	<td>8</td>
-	<td>2</td>
-	<td>2</td>
-	<td>22</td>
-	<td>16</td>
-	<td>6</td>
-	<td>2</td>
+	<td>13</td>
+	<td>7</td>
+	<td>5</td>
+	<td>1</td>
+	<td>24</td>
+	<td>11</td>
+	<td>13</td>
+	<td>-1</td>
 </tr>
 <!-- # pos. 3 in classifica -->
 <tr>
 	<td>3</td>
-	<td align="left">&nbsp;VALLATESE</td>
+	<td align="left">&nbsp;LUPI TREVICO</td>
+	<td>26</td>
+	<td>13</td>
+	<td>8</td>
+	<td>2</td>
+	<td>3</td>
 	<td>23</td>
-	<td>12</td>
-	<td>6</td>
+	<td>18</td>
 	<td>5</td>
-	<td>1</td>
-	<td>22</td>
-	<td>10</td>
-	<td>12</td>
 	<td>-1</td>
 </tr>
 <!-- # pos. 4 in classifica -->
 <tr>
 	<td>4</td>
 	<td align="left">&nbsp;VIRTUS CONZA</td>
-	<td>21</td>
-	<td>12</td>
-	<td>6</td>
+	<td>24</td>
+	<td>13</td>
+	<td>7</td>
 	<td>3</td>
 	<td>3</td>
-	<td>22</td>
+	<td>24</td>
 	<td>14</td>
-	<td>8</td>
+	<td>10</td>
 	<td>-1</td>
 </tr>
 <!-- # pos. 5 in classifica -->
 <tr>
 	<td>5</td>
 	<td align="left">&nbsp;SAN SOSSIO</td>
-	<td>20</td>
-	<td>12</td>
-	<td>6</td>
+	<td>23</td>
+	<td>13</td>
+	<td>7</td>
 	<td>2</td>
 	<td>4</td>
-	<td>18</td>
+	<td>19</td>
 	<td>17</td>
-	<td>1</td>
-	<td>-4</td>
+	<td>2</td>
+	<td>-2</td>
 </tr>
 <!-- # pos. 6 in classifica -->
 <tr>
 	<td>6</td>
-	<td align="left">&nbsp;LA LONGOBARDA</td>
-	<td>16</td>
-	<td>12</td>
-	<td>4</td>
-	<td>4</td>
-	<td>4</td>
+	<td align="left">&nbsp;REAL SANT’ANDREA CONZA</td>
 	<td>19</td>
-	<td>22</td>
-	<td>-3</td>
+	<td>13</td>
+	<td>5</td>
+	<td>4</td>
+	<td>4</td>
+	<td>18</td>
+	<td>24</td>
+	<td>-6</td>
 	<td>-8</td>
 </tr>
 <!-- # pos. 7 in classifica -->
 <tr>
 	<td>7</td>
-	<td align="left">&nbsp;REAL SANT’ANDREA CONZA</td>
+	<td align="left">&nbsp;LA LONGOBARDA</td>
 	<td>16</td>
-	<td>12</td>
+	<td>13</td>
 	<td>4</td>
 	<td>4</td>
-	<td>4</td>
-	<td>16</td>
-	<td>23</td>
-	<td>-7</td>
-	<td>-10</td>
+	<td>5</td>
+	<td>20</td>
+	<td>26</td>
+	<td>-6</td>
+	<td>-9</td>
 </tr>
 <!-- # pos. 8 in classifica -->
 <tr>
 	<td>8</td>
-	<td align="left">&nbsp;MORRA DE SANCTIS</td>
-	<td>14</td>
-	<td>12</td>
-	<td>4</td>
-	<td>2</td>
+	<td align="left">&nbsp;CASTEL BARONIA</td>
+	<td>15</td>
+	<td>13</td>
+	<td>3</td>
 	<td>6</td>
-	<td>8</td>
-	<td>14</td>
-	<td>-6</td>
-	<td>-10</td>
+	<td>4</td>
+	<td>22</td>
+	<td>25</td>
+	<td>-3</td>
+	<td>-12</td>
 </tr>
 <!-- # pos. 9 in classifica -->
 <tr>
 	<td>9</td>
 	<td align="left">&nbsp;S.C. NUSCO</td>
-	<td>14</td>
-	<td>12</td>
+	<td>15</td>
+	<td>13</td>
 	<td>4</td>
-	<td>2</td>
+	<td>3</td>
 	<td>6</td>
-	<td>22</td>
-	<td>28</td>
+	<td>24</td>
+	<td>30</td>
 	<td>-6</td>
-	<td>-10</td>
+	<td>-12</td>
 </tr>
 <!-- # pos. 10 in classifica -->
 <tr>
 	<td>10</td>
-	<td align="left">&nbsp;CARIFE</td>
-	<td>12</td>
-	<td>12</td>
-	<td>3</td>
-	<td>3</td>
-	<td>6</td>
-	<td>22</td>
-	<td>22</td>
-	<td>0</td>
-	<td>-12</td>
+	<td align="left">&nbsp;MORRA DE SANCTIS</td>
+	<td>14</td>
+	<td>13</td>
+	<td>4</td>
+	<td>2</td>
+	<td>7</td>
+	<td>10</td>
+	<td>17</td>
+	<td>-7</td>
+	<td>-11</td>
 </tr>
 <!-- # pos. 11 in classifica -->
 <tr>
 	<td>11</td>
-	<td align="left">&nbsp;CASTEL BARONIA</td>
+	<td align="left">&nbsp;CARIFE</td>
 	<td>12</td>
-	<td>12</td>
-	<td>2</td>
-	<td>6</td>
-	<td>4</td>
-	<td>19</td>
+	<td>13</td>
+	<td>3</td>
+	<td>3</td>
+	<td>7</td>
 	<td>23</td>
-	<td>-4</td>
-	<td>-12</td>
+	<td>24</td>
+	<td>-1</td>
+	<td>-13</td>
 </tr>
 <!-- # pos. 12 in classifica -->
 <tr>
 	<td>12</td>
 	<td align="left">&nbsp;SPORTING EVER GREEN</td>
-	<td>11</td>
 	<td>12</td>
+	<td>13</td>
 	<td>3</td>
-	<td>2</td>
+	<td>3</td>
 	<td>7</td>
-	<td>11</td>
-	<td>15</td>
+	<td>13</td>
+	<td>17</td>
 	<td>-4</td>
 	<td>-13</td>
 </tr>
@@ -260,28 +260,28 @@ Titolo::Risultati e Classifica III cat. 2007/08
 	<td>13</td>
 	<td align="left">&nbsp;VALLESACCARDA</td>
 	<td>7</td>
-	<td>12</td>
+	<td>13</td>
 	<td>1</td>
 	<td>4</td>
-	<td>7</td>
+	<td>8</td>
 	<td>10</td>
-	<td>23</td>
-	<td>-13</td>
-	<td>-17</td>
+	<td>24</td>
+	<td>-14</td>
+	<td>-20</td>
 </tr>
 <!-- # pos. 14 in classifica -->
 <tr>
 	<td>14</td>
 	<td align="left">&nbsp;CASABIANCHI TREVICO</td>
 	<td>5</td>
-	<td>12</td>
+	<td>13</td>
 	<td>1</td>
 	<td>2</td>
-	<td>9</td>
+	<td>10</td>
 	<td>5</td>
-	<td>25</td>
+	<td>27</td>
+	<td>-22</td>
 	<td>-20</td>
-	<td>-19</td>
 </tr>
 </tbody>
 </table></td></tr></tbody></table>
