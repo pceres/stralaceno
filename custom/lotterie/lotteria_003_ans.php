@@ -5,35 +5,35 @@
 #
 
 # Qualificato quarti 1:
-Roma
+Svizzera
 # Qualificato quarti 2:
-Liverpool
+Portogallo
 # Qualificato quarti 3:
-Chelsea
+Austria
 # Qualificato quarti 4:
-Valencia
+Germania
 # Qualificato quarti 5:
-Psv Eindhoven
+Olanda
 # Qualificato quarti 6:
-Bayern Monaco
+Italia
 # Qualificato quarti 7:
-Milan
+Russia
 # Qualificato quarti 8:
-Manchester United
+Svezia
 # Qualificato semifinale 1:
-Manchester United
+nd
 # Qualificato semifinale 2:
-Chelsea
+nd
 # Qualificato semifinale 3:
-Milan
+nd
 # Qualificato semifinale 4:
-Liverpool
+nd
 # Qualificato finale 1:
-Liverpool
+nd
 # Qualificato finale 2:
-Milan
+nd
 # Vincitore:
-Milan
+nd
 
 #
 # Le risposte sono suddivise in gruppi. Per ciascun gruppo esiste un set di risposte piu' o meno corrette
@@ -47,21 +47,21 @@ Milan
 #
 # Qui viene indicato il punteggio da associare ad ogni risposta a seconda del gruppo in cui essa viene fornita
 #
+# es: Croazia::4,0;3,4;2,0
 [punteggio_risposte]
-#
-Porto::4,0
-Chelsea::4,4;3,4;2,2
-Psv Eindhoven::4,4;3,0
-Arsenal::4,0
-Roma::4,4;3,0
-Lione::4,0
-Real Madrid::4,1
-Bayern Monaco::4,3;3,0
-Celtic Glasgow::4,0
-Milan::4,4;3,4;2,4;1,4
-Lilla::4,0
-Manchester United::4,4;3,4;2,0
-Barcellona::4,1
-Liverpool::4,3;3,4;2,2;1,0
-Inter::4,1
-Valencia::4,3;3,0
+Svizzera::4,4
+Repubblica Ceca::4,0
+Portogallo::4,4
+Turchia::4,0
+Austria::4,4
+Croazia::4,0
+Germania::4,4
+Polonia::4,0
+Romania::4,0
+Francia::4,0
+Olanda::4,4
+Italia::4,4
+Spagna::4,0
+Russia::4,4
+Grecia::4,0
+Svezia::4,4
