@@ -304,18 +304,21 @@ case "fill":
 	// verifica che le giocate siano aperte e stampa il relativo messaggio
 	if ($v_now[0] < $v_start[0])
 	{
+		// prima dell'apertura giocate
 		$messaggio_stato_sondaggio = $lotteria['msg_date'][0][0];
 		$info_mode = 1;		// il sondaggio non e' ancora aperto: inibisci la possibilita' di giocare
 		$flag_show_results = 0;	// non mostrare il link alle giocate
 	}
 	elseif ($v_now[0] > $v_end[0])
 	{
+		// dopo la chiusura delle giocate
 		$messaggio_stato_sondaggio = $lotteria['msg_date'][0][2];
 		$info_mode = 1;		// il sondaggio e' stato chiuso: inibisci la possibilita' di giocare
 		$flag_show_results = 1;	// mostra il link alle giocate
 	}
 	else
 	{
+		// durante la fare di giocata abilitata
 		$messaggio_stato_sondaggio = $lotteria['msg_date'][0][1];
 		$flag_show_results = 1;	// mostra il link alle giocate
 	}
@@ -489,7 +492,8 @@ case "save":
 	// verifica che non si giochi piu' volte la stessa giocata con lo stesso auth_token	
 	$giocata_ripetuta = 0;
 	$giocate = get_giocata($id_questions,$auth_token);
-// 	if ((count($giocate)>0) && ($lotteria_auth !== "no_auth"))
+	
+	//if ((count($giocate)>0) && ($lotteria_auth !== "no_auth"))
 	if (count($giocate)>0)
 	{
 		$giocata_ripetuta = 1;
