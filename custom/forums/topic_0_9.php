@@ -152,6 +152,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 138::nicola::10/02/2008 10.41.38::visible
 139::Dox::10/02/2008 14.15.00::visible
 140::Il socio::10/02/2008 18.32.54::visible
+141::ars::12/02/2008 12.32.52::visible
 
 [post_text_0]
 Fermate Nicola Melillo con questa stralaceno: anche i muri di materdomini e caposele non ne possono più.
@@ -799,3 +800,8 @@ Alessandro Russomanno presidente del consiglio!
 
 [post_text_140]
 Alessandro avrà un compito più difficile dalla prossima primavera,tutta la squadra punta su di lui, sarà la nostra punta di diamante. Ciao Ale, continua così e non farti influenzare da queste voci!
+
+[post_text_141]
+La gara di Eboli è prevista per domenica 17 febbraio con partenza alle ore 10.00 circa.
+&nbsp;
+Si tratta di una corsa campestre con classifica individuale per categorie.

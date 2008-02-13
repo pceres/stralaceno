@@ -27,6 +27,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 13::da Irpinianews.it::17/10/2007 10.09.46::visible
 14::da CorriereIrpinia.it::16/11/2007 17.13.40::visible
 15::da Ottopagine::05/02/2008 10.28.14::visible
+16::da IrpiniaNews.it::11/02/2008 23.12.24::visible
 
 [post_text_0]
 we allora, le polemiche sullo sport caposelese per ora sembra siano terminate. Abbiamo assistito ad uno bel dibattittio, coinvolgendo molte persone. Ma quello che sto cercando di dirvi e che se io posso cambiare e voi potete cambiare, tutto il mondo può cambiare. Questa era una frase tratta dal film di ROCKY, comununque con questo voglio dire che tutte le polemiche non sono mai servita a nulla, piuttosto bisogna cecare di essere quanto più uniti mettendo sul tavolo le proprie idee, ed allora a questo punto le cose potranno cambiare in modo positivo. tutto questo penso che sia la chiave di tutto.
@@ -162,4 +163,12 @@ degli atti relativi contemporaneamente alla loro
 affissione all’Albo Pretorio nonché di quelli che sono
 stati assunti a far data dall’entrata
 in vigore del regolamento in epigrafe.
+&nbsp;
+
+[post_text_16]
+Caposele- Anziana trovata cadavere in casa, forse colpita da infarto
+&nbsp;
+Dramma della solitudine a Caposele dove, nella mattinata di oggi i carabinieri della locale Stazione hanno rinvenuto il cadavere di L. A. di 84 anni.
+ Tutto è  iniziato stamattina, quando i familiari dell’anziana signora non avendo visto né sentito la donna e non riuscendo a contattarla telefonicamente si sono preoccupati, così uno dei nipoti si è recato presso l’abitazione dove l’anziana viveva da tempo sola ed era gravemente malata. Qui la tragica scoperta: la donna era riversa sul pavimento, deceduta probabilmente da alcuni giorni. I carabinieri, immediatamente intervenuti sul posto, non hanno potuto far altro che constatarne il decesso.  I militari di Montella hanno peraltro proceduto ad effettuare un accurato sopralluogo che ha permesso di escludere che la causa della morte potesse essere ricondotta a “morte violenta”. Infatti, non vi era alcuna presenza di segni di effrazioni, alcun segno di rovistamento: nulla risultava mancare e venivano trovati tutto gli effetti personali ed i valori del defunto, risparmi compresi, alcun oggetto o traccia tale far presupporre aggressioni o colluttazioni.  Necessario è stato anche l’intervento del medico legale, Carmen Sementa, che ha proceduto ad un esame esterno del cadavere, nel corso del quale non è stato riscontrato alcun segno di violenza sul corpo e si è constato che il decesso è avvenuto “per cause naturali”, probabilmente per arresto cardiaco.  La salma è stata trasportata presso l’obitorio dell’ospedale civile di S. Angelo dei Lombardi, dove verrà effettuato l’esame autoptico e gli accertamenti necessari a stabilire con certezza la causa del decesso.  Le indagini sono state condotte in collaborazione con la Procura della Repubblica di Sant’Angelo dei Lombardi, coordinata dal Procuratore Capo Dott. <b>Antonio Guerriero.
+(lunedì 11 febbraio 2008 alle 19.17)
 &nbsp;

@@ -6,7 +6,7 @@ Titolo::Marcatori FC Caposele stag. 07/08
 <a href="%script_root%show_photo.php?id_photo=0&amp;album=FC_caposele">
 <img src="%file_root%custom/album/FC_caposele/fc4.jpg" style="float:right;margin:1em;"  alt="Mister Raffaele Sista" border="0" width="350">
 </a>
-_____dopo 12 Giornate____<br>
+_____dopo 13 Giornate____<br>
 <table class="tabella" style="font-size:15.0pt;">
 <tbody><tr><td align="left"><table>
 <tbody>
@@ -22,11 +22,18 @@ _____dopo 12 Giornate____<br>
 	<td> &nbsp;Lorenzo Merola</td>
 	<td> &nbsp;-&nbsp; </td>
 	<td></td>
-	<td>5</td>
+	<td>6</td>
 </tr>
 <!-- match # 3 -->
 <tr>
 	<td> &nbsp;Thomas Cibellis</td>
+	<td> &nbsp;-&nbsp; </td>
+	<td></td>
+	<td>6</td>
+</tr>
+<!-- match # 8 -->
+<tr>
+	<td> &nbsp;Gerardo Monteverde</td>
 	<td> &nbsp;-&nbsp; </td>
 	<td></td>
 	<td>5</td>
@@ -34,13 +41,6 @@ _____dopo 12 Giornate____<br>
 <!-- match # 7 -->
 <tr>
 	<td> &nbsp;Claudio Donatiello</td>
-	<td> &nbsp;-&nbsp; </td>
-	<td></td>
-	<td>4</td>
-</tr>
-<!-- match # 8 -->
-<tr>
-	<td> &nbsp;Gerardo Monteverde</td>
 	<td> &nbsp;-&nbsp; </td>
 	<td></td>
 	<td>4</td>
@@ -94,13 +94,20 @@ _____dopo 12 Giornate____<br>
 	<td></td>
 	<td>1</td>
 </tr>
+<!-- match # 12 -->
+<tr>
+	<td> &nbsp;Francesco Ciccone</td>
+	<td> &nbsp;-&nbsp; </td>
+	<td></td>
+	<td>1</td>
+</tr>
 	<tr><td colspan=3>&nbsp;</td></tr>
 <!-- nota # 1 -->
 <tr>
 	<td colspan=3>Autogoal: 2</td>
 </tr>
 <tr>
-	<td colspan=3>Totale goal: 42</td>
+	<td colspan=3>Totale goal: 46</td>
 </tr>
 </tbody>
 </table></td></tr></tbody></table>
