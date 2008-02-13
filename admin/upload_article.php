@@ -126,7 +126,7 @@ $articolo_subito_online = FALSE; // TRUE --> l'articolo caricato e' subito onlin
 if ($articolo_subito_online)
 {
 	// aggiungi il nuovo articolo in cima
-	$art_list = array_merge($id_articolo,$art_list);
+	$art_list = array_merge(Array($id_articolo),$art_list);
 	
 	// salva il nuovo elenco degli articoli online
 	publish_online_articles($art_list,$sezione);

@@ -148,7 +148,7 @@ for ($i = 1; $i < count($archivio); $i++)
 	{
 		$item1 = array_slice($archivio[$i],0,$indice_nome+1);
 		$punteggio = punteggio_presenze(array($item2),$mode).'';
-		$new_item = array_merge($item1,array(array($item2)),1,$punteggio.'',$archivio[$i][$indice_anno],1);
+		$new_item = array_merge($item1,Array(Array($item2)),Array(1,$punteggio.'',$archivio[$i][$indice_anno],1));
 		array_push($list_atleti,$id);
 		$indice = count($archivio2);//-1;
 	}
@@ -157,8 +157,8 @@ for ($i = 1; $i < count($archivio); $i++)
 	$archivio[$i][$indice_presenze] = $new_item[count($new_item)-1];
 }
 
-$head = array_merge(array_slice($archivio[0],0,$indice_nome+1),'Pos.','Numero<br>presenze<br>regolari','Punteggio<br>regolarit&agrave;','Tooltip','Pos.');
-$archivio2 = array_merge(array($head),$archivio2);
+$head = array_merge(array_slice($archivio[0],0,$indice_nome+1),Array('Pos.','Numero<br>presenze<br>regolari','Punteggio<br>regolarit&agrave;','Tooltip','Pos.'));
+$archivio2 = array_merge(Array($head),$archivio2);
 
 $atleti = load_data($filename_atleti,$num_colonne_atleti);
 $archivio = merge_tempi_atleti($archivio2,$atleti); // non uso il terzo parametro opzionale, in quanto non verrebbe calcolato correttamente
