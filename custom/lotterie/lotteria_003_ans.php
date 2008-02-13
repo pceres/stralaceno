@@ -21,7 +21,7 @@ Russia
 # Qualificato quarti 8:
 Svezia
 # Qualificato semifinale 1:
-nd
+Svizzera
 # Qualificato semifinale 2:
 nd
 # Qualificato semifinale 3:
@@ -49,10 +49,10 @@ nd
 #
 # es: Croazia::4,0;3,4;2,0
 [punteggio_risposte]
-Svizzera::4,4
+Svizzera::4,4;3,4
 Repubblica Ceca::4,0
 Portogallo::4,4
-Turchia::4,0
+Turchia::4,0;3,0
 Austria::4,4
 Croazia::4,0
 Germania::4,4
