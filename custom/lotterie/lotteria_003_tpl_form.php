@@ -1227,7 +1227,7 @@ else
 			<TD HEIGHT=18 ALIGN=LEFT><I>le 2 finaliste saranno:</I></TD>
 			<TD ALIGN=LEFT><BR></TD>
 			<TD ALIGN=LEFT><BR></TD>
-			<TD COLSPAN=1 ALIGN=CENTER>Campione del Mondo:</TD>
+			<TD COLSPAN=1 ALIGN=CENTER>Campione d'Europa:</TD>
 		</TR>
 		<TR>
 			<TD HEIGHT=25 ALIGN=CENTER BGCOLOR="#C0C0C0">
@@ -1367,18 +1367,13 @@ else
 			<TD ALIGN=LEFT><BR></TD>
 		</TR>
 		<TR>
-			<TD COLSPAN=3 ALIGN=CENTER BGCOLOR="#CCFFFF"><B>Ottavi di Finale (7 - 18 giugno 2008)</B></TD>
-		</TR>
-<!--		<TR>
-			<TD ALIGN=CENTER BGCOLOR="#CCFFFF"><I>data</I></TD>
-			<TD ALIGN=CENTER BGCOLOR="#CCFFFF"><I>citt&agrave;</I></TD>
-			<TD ALIGN=CENTER BGCOLOR="#CCFFFF"><I>match</I></TD>
-		</TR>-->
-		<TR>
-			<TD COLSPAN=3 ALIGN=LEFT BGCOLOR="#CCFFFF">Le 24 partite (3 per ciascun girone) si disputeranno, due</TD>
+			<TD COLSPAN=3 ALIGN=CENTER BGCOLOR="#CCFFFF"><B>Gironi eliminatori (7 - 18 giugno 2008)</B></TD>
 		</TR>
 		<TR>
-			<TD COLSPAN=3 ALIGN=LEFT BGCOLOR="#CCFFFF">al giorno, alle 18:00 e alle 20:45</TD>
+			<TD COLSPAN=3 ALIGN=LEFT BGCOLOR="#CCFFFF">La prima fase si articolera' in 24 partite (6 per ciascun girone) in 12 giorni:</TD>
+		</TR>
+		<TR>
+			<TD COLSPAN=3 ALIGN=LEFT BGCOLOR="#CCFFFF">due al giorno, i primi due turni ore 18.00 e ore 20.45, terzo turno tutte le partite alle 20.45</TD>
 		</TR>
 		<TR>
 			<TD ALIGN=LEFT><BR></TD>
@@ -1475,9 +1470,9 @@ else
 if ($admin_mode) {
 ?>
 <br>
-Data di ricezione giocata (hh:mm gg/mm/aaaa):<input type="edit" name="data_giocata"><br>
+Data di ricezione giocata (hh:mm gg/mm/aaaa):<input type="text" name="data_giocata"><br>
 <br>
-Chiave segreta:<input type="edit" name="auth_token" value=""><br>
+Chiave segreta:<input type="text" name="auth_token" value=""><br>
 <?php
 }
 else
