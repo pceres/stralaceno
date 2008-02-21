@@ -1,0 +1,30 @@
+Autore::
+Titolo::XIX edizione
+--- Begin body ---
+<br>
+La XIX edizione della Stralaceno, con 58 partecipanti al via, si &egrave; conclusa con la vittoria di 
+<b>Francesco Ceres di Gius.</b> con il tempo di <b>21'08''</b>. Il vincitore, ha preceduto di soli 7'' <b>Gerardo Martino</b>. Terzo <b>Salvatore Merola</b> con il tempo di 21'51''.<br>
+Prima delle donne <b>Anita Ilaria</b>, che ha completato il percorso in 33'17''.
+<br>
+<br><a href="filtro4.php?anno=2007">L'ordine d'arrivo completo dell'edizione 2007 &egrave; consultabile qui</a>.<br><br>
+L'album fotografico della manifestazione lo trovate <a href="album.php?anno=2007">qui</a>.<br><br> E' disponibile il dvd della Stralaceno 2007. Per chiederne una copia rivolgersi a Nicola Ciccone (cell. 3401469458  e-mail:  nciccone@hotmail.it).
+<br><br>
+<p>&nbsp;
+<div align="center">
+<img id="Stralaceno_2007" src="%file_root%custom/album/2007/XIX1.jpg" alt="Stralaceno 2007" border="0" width="430">
+<br><br>
+</div>
+<br><br>
+<!--
+L'edizione 2007 della Stralaceno si terr&agrave; <b>venerd&igrave; 31 AGOSTO</b>.<br>
+<br>
+Dato l’evolversi della manifestazione,
+l’organizzazione necessita di
+persone disposte ad offrire la
+propria collaborazione (servizio
+d’ordine, addetti alla logistica,
+cronometristi, giudice di gara etc.).
+<br><br>
+Si prega di comunicare l'eventuale propria disponibilit&agrave; all'associazione Amatori Running Sele. Grazie.
+-->
+--- End body ---

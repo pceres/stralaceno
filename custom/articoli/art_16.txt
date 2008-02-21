@@ -1,0 +1,22 @@
+Autore::ARS
+Titolo::Misurazione circuito Laceno
+--- Begin body ---
+<br>
+L'anello stradale dell'altopiano di Laceno, dove si svolge l'annuale
+gara podistica "Stralaceno", misura <b>km 5,586</b>.<br><br>
+La misurazione del circuito (completata il 24 agosto 2007) &egrave;
+stata effettuata, seguendo la <b><i>linea ideale di corsa</b></i>, con rollina manuale di 50 metri 
+fornita dal geom. Luciano Viscido, da alcuni componenti degli Amatori Running Sele (Nicola D'Auria,
+Alessandro Russomanno, Donatello Cirillo, Nicola Cirillo, Paolo Viscardi,
+Salvatore Merola, Valentino Di Masi) e da Nicola Melillo.
+<br><br>
+<b><i>Linea ideale di corsa</b></i>: nelle gare su strada il percorso deve esser misurato lungo il tragitto pi&ugrave;
+breve possibile che un concorrente possa percorrere nella parte di strada riservata alla gara. <i>(Regolamento Tecnico Internazionale di Atletica Leggera, Regola 240, punto 3).</i>
+<br><br>
+<p>&nbsp;
+<div align="center">
+<img id="Stralaceno" src="%file_root%custom/album/varie/LacCirc.gif" alt="Anello Laceno" border="0" width="340">
+<br><br>
+</div>
+<br>
+--- End body ---
