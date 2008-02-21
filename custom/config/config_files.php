@@ -17,7 +17,7 @@ modules_config.php::%config_dir%::moduli_custom presenti nel sito::root_admin::e
 users.php::%config_dir%::account al sito::root_admin::eef358de0c01694206eafe104006f44b
 
 # admin
-albums.txt::%config_dir%::configurazione album::admin::d36923926ed59333afab0bba1a4ad5e5
+albums.txt::%config_dir%::configurazione album::admin::4d419c10c5adc73ae6c3603c747264b3
 links.txt::%config_dir%::links::admin::d36923926ed59333afab0bba1a4ad5e5
 layout_left.txt::%config_dir%::disposizione colonna sinistra::admin::d36923926ed59333afab0bba1a4ad5e5
 layout_right.txt::%config_dir%::disposizione colonna destra::admin::d36923926ed59333afab0bba1a4ad5e5
