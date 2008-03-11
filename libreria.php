@@ -1430,8 +1430,19 @@ function save_config_file($conf_file,$keys)
 }
 
 
-function modify_config_file(&$config_data,$parent_block_name,$new_item_data,$unique_ids)
+function modify_config_file(&$config_data,$parent_block_name,$new_item_data,$unique_ids,$flags)
 {
+// modifica l'array $config_data che rappresenta il file di configurazione: all'interno del blocco $parent_block_name
+// cerca la linea individuata da $new_item_data, sostituendo la riga che ha gli stessi valori per i campi indicati
+// da $unique_ids
+//
+// $flags = Array('flag1','flag2',...);
+//      'allow_add_item': se non trova la riga da sostituire, aggiungila in fondo al blocco
+//      'delete_item'   : se trova la riga indicata, eliminala
+// 
+
+$status = '';
+$old_item = Array();
 
 $block_found = 0;
 $item_found = Array();
@@ -1467,15 +1478,44 @@ if ($block_found == 0)
 
 if (count($item_found) == 0)
 {
-	die("item non trovato!");
+	if (in_array('allow_add_item',$flags))
+	{
+		$config_data[$parent_block_name][count($config_data[$parent_block_name])] = $new_item_data;
+		$status = 'item_added';
+	}
+	else
+	{
+		die("item non trovato!");
+		$status = 'item_not_found';
+	}
 }
 else
 {
-	$config_data[$parent_block_name][$item_found['item_id']] = $new_item_data;
+	$old_item = $config_data[$parent_block_name][$item_found['item_id']];
+	
+	if (in_array('delete_item',$flags))
+	{
+		unset($config_data[$parent_block_name][$item_found['item_id']]);
+		$status = 'item_deleted';
+	}
+	else
+	{
+		if ($config_data[$parent_block_name][$item_found['item_id']] == $new_item_data)
+		{
+			$status = 'item_unchanged';
+		}
+		else
+		{
+			$config_data[$parent_block_name][$item_found['item_id']] = $new_item_data;
+			$status = 'item_modified';
+		}
+	}
 }
 
+$result = Array('status' => $status,'old_item' => $old_item);
+return $result;
 
-} // end function modify_config_file(&$config_data,$parent_block_name,$item_data)
+} // end function modify_config_file(&$config_data,$parent_block_name,$item_data,$flags)
 
 
 
