@@ -44,7 +44,6 @@ if (!$res)
 
 
 
-
 // siamo in modalita' admin
 $admin_mode = true;
 
