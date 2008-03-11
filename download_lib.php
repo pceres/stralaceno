@@ -204,10 +204,10 @@ if ($admin_mode)
 <dd class="dm_taskbar">
 <ul>
 <li><a href="<?php echo $admin_link; ?>&amp;admin_action=edit_data">Modifica info</a></li>
-<!-- <li><a href="<?php echo $admin_link; ?>&amp;admin_action=delete_folder">Cancella cartella</a></li> -->
-<!-- <li><a href="<?php echo $admin_link; ?>&amp;admin_action=new_folder">Nuova cartella</a></li> -->
-<!-- <li><a href="<?php echo $admin_link; ?>&amp;admin_action=new_file">Nuovo file</a></li> -->
-<!-- <li><a href="<?php echo $admin_link; ?>&amp;admin_action=new_link">Nuovo link</a></li> -->
+<li><a href="<?php echo $admin_link; ?>&amp;admin_action=delete_item">Cancella cartella</a></li>
+<li><a href="<?php echo $admin_link; ?>&amp;admin_action=new_folder">Nuova cartella</a></li>
+<li><a href="<?php echo $admin_link; ?>&amp;admin_action=new_file">Nuovo file</a></li>
+<li><a href="<?php echo $admin_link; ?>&amp;admin_action=new_link">Nuovo link</a></li>
 </ul>
 </dd>
 <?php
@@ -250,9 +250,9 @@ if ($admin_mode)
 	$admin_link = "manage_download.php?resource_type=$folder_item_type&amp;resource_id=$folder_item_name";
 ?>
 <ul>
-<!-- <li><a href="<?php echo $admin_link; ?>&amp;admin_action=delete_file">Cancella file</a></li> -->
+<li><a href="<?php echo $admin_link; ?>&amp;admin_action=edit_data">Modifica info</a></li>
+<li><a href="<?php echo $admin_link; ?>&amp;admin_action=delete_item">Cancella file</a></li>
 <li><a href="<?php echo $admin_link; ?>&amp;admin_action=update_file">Ricarica file</a></li>
-<!-- <li><a href="<?php echo $admin_link; ?>&amp;admin_action=edit_data">Modifica info</a></li> -->
 </ul>
 </dd>
 <?php
@@ -316,9 +316,8 @@ if ($admin_mode)
 	$admin_link = "manage_download.php?resource_type=$folder_item_type&amp;resource_id=$folder_item_name";
 ?>
 <ul>
-<li><a href="<?php echo $admin_link; ?>&amp;admin_action=new_file">Modifica info</a></li>
-<!-- <li><a href="<?php echo $admin_link; ?>&amp;admin_action=edit_data">Cancella link</a></li> -->
-<!-- <li><a href="<?php echo $admin_link; ?>&amp;admin_action=new_folder">Ricarica link</a></li> -->
+<li><a href="<?php echo $admin_link; ?>&amp;admin_action=edit_data">Modifica info</a></li>
+<li><a href="<?php echo $admin_link; ?>&amp;admin_action=delete_item">Cancella link</a></li>
 </ul>
 <?php
 } // end if ($admin_mode)
@@ -552,7 +551,7 @@ $resource_hits 	 	= $download_resource_info['resource_hits'];
 $download_error_msg = '';
 if (!group_match($login['username'],$login['usergroups'],split(',',$resource_auth_read)))
 {
-	$download_error_msg = "L'utente &quot;{$login['username']}&quot; not &egrave; abilitato a scaricare la risorsa $resource_name.";
+	$download_error_msg = "L'utente &quot;{$login['username']}&quot; non &egrave; abilitato a scaricare la risorsa $resource_name.";
 }
 
 // individua il full path del file
@@ -631,7 +630,7 @@ $download_item[indice_download_hits] 		= $download_item[indice_download_hits]+1;
 
 // elenco degli indici che individuano complessivamente un item unico
 $unique_ids = Array(indice_download_type,indice_download_name);
-modify_config_file($config_download,$resource_parent_name,$download_item,$unique_ids);
+modify_config_file($config_download,$resource_parent_name,$download_item,$unique_ids,Array());
 
 // save_config_file($filename_download.".bak",$config_download);
 save_config_file($filename_download,$config_download);
