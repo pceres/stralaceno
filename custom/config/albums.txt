@@ -35,6 +35,20 @@ Bri_Capr_08_1.jpg::
 Bri_Capr_08_3.jpg::
 Bri_Capr_08_4.jpg::
 Bri_Cam_08_2.jpg::
+eb1.jpg::
+eb2.jpg::
+eb4.jpg::
+Car_08_1.jpg::
+Car_08_2.jpg::
+Car_08_3.jpg::
+nu07_1.jpg::
+nu07_2.jpg::
+nu07_3.jpg::
+nu07_4.jpg::
+nu07_5.jpg::
+Car08_1.jpg 
+Car08_2.jpg 
+Car08_3.jpg 
 
 
 [All.Coll.05]
@@ -237,7 +251,8 @@ acq4.jpg::
 acq5.jpg::
 acq6.jpg::
 acq7.jpg::
-
+pud.jpg::
+pud2.jpg::
 
 [Paestum_07]
 pae0.jpg::partenza::Paestum 2007
@@ -282,26 +297,26 @@ monC.jpg::foto panoramica::
 
 [All.Coll.07]
 All_Coll-07.jpg::
-ac071.jpg::
-ac072.jpg::
-ac073.jpg::
-ac074.jpg::
-ac075.jpg::
-ac076.jpg::
-ac077.jpg::
-ac078.jpg::
-ac079.jpg::
-ac0710.jpg::
-ac0711.jpg::
-ac0712.jpg::
-ac0713.jpg::
-ac0714.jpg::
-ac0715.jpg::
-ac0716.jpg::
-ac0717.jpg::
-ac0718.jpg::
-ac0719.jpg::
-ac0720.jpg::
-ac0721.jpg::
-ac0722.jpg::
-ac0723.jpg::
+ac071.jpg::allenamento collettivo 2007::si aspetta con ansia, come per una festa::
+ac072.jpg::allenamento collettivo 2007::lo spettacolo &egrave; iniziato da piazza sanit&agrave;::Alessandro Russomanno
+ac073.jpg::allenamento collettivo 2007::poche centinaia di metri trascorsi e siamo sul ponte di Caposele::
+ac074.jpg::allenamento collettivo 2007::nei pressi del cimitero in direzione Materdomini::
+ac075.jpg::allenamento collettivo 2007::lungo la strada statale per Materdomini si procede in totale tranquillit&agrave;::
+ac076.jpg::allenamento collettivo 2007::poche curve prima di entrare nel centro di Materdomini::Gaetano Rosania e Saverio Perna
+ac077.jpg::allenamento collettivo 2007::Materdomini in fase di attraversamento::
+ac078.jpg::allenamento collettivo 2007::si passa per Materdomini::Saverio Perna,Antonio Ceres,Francesco Ceres,Giuseppe Cifrodelli
+ac079.jpg::allenamento collettivo 2007::la nebbia era davvero fitta::
+ac0710.jpg::allenamento collettivo 2007::la nebbia rende l'impresa pi&ugrave; eroica::
+ac0711.jpg::allenamento collettivo 2007::due forze fresche, dato che si sono aggregati a Materdomini, ossia Gelsomino e Angelo::Gerardo Martino,Gelsomino Merola e Angelo Ceres
+ac0712.jpg::allenamento collettivo 2007::si prosegue uniti e felici::Galdi e Francesco Ceres
+ac0713.jpg::allenamento collettivo 2007::con tantissima voglia ci si lancia nel tratto pi&ugrave; duro del percorso::Nicola D'Auria
+ac0714.jpg::allenamento collettivo 2007::orgogliosi di averlo avuto con noi per l'intero percorso::Antonio Ceres
+ac0715.jpg::allenamento collettivo 2007::due eroi in prima fila::Giuseppe Martino e Salvatore Merola
+ac0716.jpg::allenamento collettivo 2007::avvolti nella nebbia nei pressi del bosco difesa::Angelo Ceres e Alessandro Russomanno
+ac0717.jpg::allenamento collettivo 2007::la nebbia non fa paura::Gianni Sozio, Galdi e Francesco Ceres
+ac0718.jpg::allenamento collettivo 2007::ultimo tratto in salita::Paolo Viscardi, Salvatore Merola e Gelsomino Merola
+ac0719.jpg::allenamento collettivo 2007::avvolti dalla nebbia si prende la direzione bosco difesa::
+ac0720.jpg::allenamento collettivo 2007::fase di rilassamento circondati dal bosco Difesa::
+ac0721.jpg::allenamento collettivo 2007::ormai &egrave; fatta, solo pochi km in discesa::
+ac0722.jpg::allenamento collettivo 2007::arrivo in piazza Sanit&agrave;::Francesco Ceres, Salvatore Merola e Giuseppe Martino
+ac0723.jpg::allenamento collettivo 2007::alla fine fotoricordo:purtroppo alcuni erano gi&agrave; andati via::

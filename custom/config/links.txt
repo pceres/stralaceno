@@ -10,7 +10,7 @@ http://pceres.altervista.org/stralaceno/index.php::<b>StralacenoWeb</b>
 http://www.siamonoi.it::Siamonoi.it
 http://selacapo.net::SelaCapo.net
 http://www.caposeleonline.it::Caposeleonline
-http://liceonline.altervista.org/::Liceo di Caposele
+#http://liceonline.altervista.org/::Liceo di Caposele
 #http://www.prolococaposele.it::Pro Loco Caposele
 http://www.podistidoc.it/::Podistidoc
 http://www.servizinews.it/servizi/podismo/podismo00.htm::Calendario podistico

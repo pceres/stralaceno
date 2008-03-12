@@ -1,0 +1,17 @@
+Autore::Ansa
+Titolo::Correre da' euforia
+--- Begin body ---
+<br>Se si corre abbastanza a lungo il cervello produce endorfine, la 'droga naturale' che da' una sensazione di benessere.<br>
+Lo afferma uno studio dell'universita' di Monaco e di quella di Bonn, pubblicato dalla rivista 'Cerebral Cortex'.
+<br><br>
+Che la corsa faccia bene all'umore era gia' noto agli esperti, che avevano coniato l'espressione 'Runners high' per 
+definire il particolare stato di eccitazione. I ricercatori hanno 'fotografato' il cervello di dieci atleti professionisti 
+prima e dopo due ore di corsa con la tomografia ad emissione di positroni (Pet), andando a controllare i recettori degli 
+oppioidi, quelli cioe' che vengono attivati quando il corpo produce endorfine, ma anche quando assume oppioidi dall'esterno.
+<br><br>
+''Il risultato - spiega Henning Boecker che ha coordinato lo studio - &egrave; che dopo la corsa c'&egrave; una grande
+ produzione di endorfine da parte del cervello, e questo potrebbe spiegare lo stato di euforia dovuto all'attivita' fisica''.<br><br>
+<div align="center">
+<img id="fotoAllenamentoCollettivo" src="%file_root%custom/album/Mercogliano_07/mon3.jpg" alt="" border="0" width="410">
+<br>
+--- End body ---

@@ -2,11 +2,11 @@ Autore::
 Titolo::I dirigenti - stagione 2007/08
 --- Begin body ---
 <br>
-<b>PRESIDENTE</b> <br>Cibellis Rocco Tommaso<br><br>
-<b>VICE PRESIDENTE</b> <br>Russomanno Alessandro<br><br>
-<b>SEGRETARIO</b><br>Cirillo Donatello<br><br>
-<b>CASSIERE</b><br>Cetrulo Massimo<br><br>
-<b>TEAM MANAGER</b><br>Corona Salvatore<br><br>
-<b>RESPONSABILE TECNICO</b><br>Sista Raffaele<br><br>
-<b>COORDINATORE</B><br>Ceres Donato<br><br>
+<b>PRESIDENTE</b> Cibellis Rocco Tommaso<br><br>
+<b>VICE PRESIDENTE</b> Russomanno Alessandro<br><br>
+<b>SEGRETARIO</b> Cirillo Donatello<br><br>
+<b>CASSIERE</b> Cetrulo Massimo<br><br>
+<b>TEAM MANAGER</b> Corona Salvatore<br><br>
+<b>RESPONSABILE TECNICO </b> Sista Raffaele<br><br>
+<b>COORDINATORE</b> Ceres Donato<br><br>
 --- End body ---

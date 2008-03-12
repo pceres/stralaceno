@@ -54,5 +54,20 @@ Capriano di Briosco (Mi)</b>: ancora protagonista Nicola D'Auria.
 <br>
 <div align="center">
 <img id="Campionato_Brianzolo" src="%file_root%custom/album/ars/Bri_Cam_08_2.jpg" alt="" border="0" width="280">
+</div><br><br>
+<br><b>01.03.2008<br>
+Sesta ed ultima prova del Campionato Brianzolo di Corsa Campestre 2008 a 
+Carate Brianza (Mi)</b>: Nicola D'Auria.
+<br><br>
+<div align="center">
+<img id="Campionato_Brianzolo" src="%file_root%custom/album/ars/Car08_1.jpg" alt="" border="0" width="300">
 </div>
+<br><br>
+<div align="center">
+<img id="Campionato_Brianzolo" src="%file_root%custom/album/ars/Car08_2.jpg" alt="" border="0" width="500">
+</div>
+<br><br>
+<div align="center">
+<img id="Campionato_Brianzolo" src="%file_root%custom/album/ars/Car08_3.jpg" alt="" border="0" width="500">
+</div><br><br>
 --- End body ---

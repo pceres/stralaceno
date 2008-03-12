@@ -1,17 +1,39 @@
 Autore::Pasquale Ceres
 Titolo::10 km di Nusco 2007
 --- Begin body ---
-<p>&nbsp;
-<div align="center">
-<img id="Squadra_Ars" src="%file_root%custom/album/ars/nu07.jpg" alt="Squadra Ars a Nusco" border="0" width="530">
-</div>
 <br>
-Anche quest'anno, con un po' di ritardo, ho inserito i dati dell'edizione 2007 della 10 km di Nusco, che si &egrave; tenuta all'inizio di agosto.<br>
+Anche quest'anno, ho inserito i dati dell'edizione 2007 della 10 km di Nusco, che si &egrave; tenuta all'inizio di agosto.<br>
 <br>
 Ben 8 atleti caposelesi hanno partecipato alla gara; primo tra loro si &egrave; piazzato Gelsomino Merola, che ha percorso i 10 km del percorso in 39'23''.<br>
 Per la cronaca della gara (e per i dati sui tempi in particolare) il sito di riferimento &egrave; <a href="http://web.tiscali.it/nusco58enrico/riquadro2.html">questo</a>.<br>
 Da <a href="http://pceres.altervista.org/nusco/index.php">questa pagina</a> potete invece consultare una serie di classifiche ed analisi statistiche relative alla tradizionale manifestazione di Nusco: buon divertimento!<br>
 <br>
-Da notare la presenza costante di Nicola D'Auria, che risulta primo nella <a href="http://pceres.altervista.org/nusco/filtro11.php">"classifica partecipazioni"</a> con ben 11 presenze!<br>
+Da notare la presenza costante di Nicola D'Auria, che risulta primo nella <a href="http://pceres.altervista.org/nusco/filtro11.php">"classifica partecipazioni"</a> con ben 11 presenze!<br><br>
+<div align="center">
+<img id="Squadra_Ars" src="%file_root%custom/album/ars/nu07_1.jpg" alt="tra gli altri.. Saverio Perna (divisa bianco grigia, numero 88) " border="0" width="500">
+</div>
+<p>&nbsp;
+<div align="center">
+<img id="Squadra_Ars" src="%file_root%custom/album/ars/nu07_2.jpg" alt="tra gli altri.. Gelsomino Merola" border="0" width="500">
+</div>
+<p>&nbsp;
+<div align="center">
+<img id="Squadra_Ars" src="%file_root%custom/album/ars/nu07_3.jpg" alt="Martino, Viscardi, Russomanno, Merola" border="0" width="500">
+</div>
+<p>&nbsp;
+<div align="center">
+<img id="Squadra_Ars" src="%file_root%custom/album/ars/nu07_4.jpg" alt="in secondo piano Donatello Cirillo" border="0" width="500">
+</div>
+<p>&nbsp;
+<div align="center">
+<img id="Squadra_Ars" src="%file_root%custom/album/ars/nu07_5.jpg" alt="Nicola D'Auria" border="0" width="500">
+<br></div>
+<br>
+</div>
+<p>&nbsp;
+<div align="center">
+<img id="Squadra_Ars" src="%file_root%custom/album/ars/nu07.jpg" alt="Squadra Ars a Nusco" border="0" width="530">
+</div><br>
+<p>&nbsp;
 <br>
 --- End body ---
