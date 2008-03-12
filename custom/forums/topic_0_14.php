@@ -53,6 +53,8 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 39::VALLATESE::21/01/2008 15.48.08::visible
 40::da Ottopagine::05/02/2008 10.31.58::visible
 41::VALLATESE::08/02/2008 17.45.16::visible
+42::dal sito del Morra dfe Sanctis::25/02/2008 16.12.55::visible
+43::dal sito del Real S.Andrea::11/03/2008 14.47.29::visible
 
 [post_text_0]
 Qui aspettiamo i vostri commenti alle vicende calcistiche della F.C. Caposele.
@@ -319,3 +321,28 @@ Ottopgine del 4.2.2008
 venite a visitare il sito dell'ascd Vallatese:
 &nbsp;
 WWW.ASCDVALLATESE.SPACES.LIVE.COM
+
+[post_text_42]
+Morra De Sanctis - Caposele 1-3
+&nbsp;
+Reti: Grasso Donato 40°, Caposele 53°,63°,80°
+&nbsp;
+Morra De Sanctis - Ancora un'altra sconfitta per il Morra.
+&nbsp;
+Alla vigilia sembrava scontata questa sconfitta, ma la squadra di mister Di Santo si ricorda di come si gioca a calcio e solo per un paio di episodi non regala al proprio pubblico una clamorosa vittoria e la prima sconfitta per il Caposele. Ma alla fine neanche la fortuna sembra esserci amica. Primo tempo giocato bene dal Morra. Al 10° Grasso Angelo con un tiro da fuori area sfiorava il palo. Al 19° il centrocampista avversario sfiorava la traversa con un bel tiro dalla distanza. Al 29° Iannone direttamente da calcio di punizione impegnava il portiere avversario, che riusciva a bloccare la palla. Al 40° Grasso Donato recuperava palla a centrocampo, saltava un difensore avversario e con un gran tiro da fuori area realizzava il vantaggio morrese 1 a 0. Primo tempo che terminava con il vantaggio del Morra per 1 a 0.
+&nbsp;
+Secondo tempo il ribaltamento. Al 53° azione confusa in area del Morra, nella mischia nel tentativo di anticipare il centrocampista avversario, Di Paola involontariamente infilava la palla nella propria porta 1 a 1. Al 63° l'attaccante avversario di prima intenzione, da fuori area, con un tiro angolato realizzava il 2 a 1 per il Caposele. Il Morra continuava a tenere il campo, ma al 80° il Caposele in contropiede chiudeva la partita. L'attaccante avversario si involava da solo verso Buscetto, davanti al portiere morrese con un tiro preciso realizzava il 3 a 1. Il Morra subiva il colpo e non riusciva a trovare soluzioni in attacco. La partita finiva 3 a 1 per il Caposele. Di fronte il Morra aveva la carrozzata del campionato e il Morra è riuscita a tenergli testa. Si è rivista la squadra di inizio stagione, anche con tanti assenti. Riprendiamo fiducia in noi stessi e cerchiamo di andare avanti perchè le potenzialità e i mezzi ci sono.
+25.02.2008
+
+[post_text_43]
+REAL - CAPOSELE    1 - 0
+&nbsp;
+RETI : 80' PERRIELLO (rig.)
+&nbsp;
+OGGI I NOSTRI LEONI AFFRONTANO LA CORAZZATA CAPOSELE, CHE RICORDIAMO IN QUESTO CAMPIONATO NON HA MAI PERSO, LA NOSTRA COMPAGINE E' IN CERCA DI RISCATTO DOPO LA SONORA SCONFITTA DELL'ANDATA E AI NASTRI DI PARTENZA SI PRESENTA COSI: ANTONACCI TRA I PALI, DIFESA CON  IANNELLA E. , CAPASSO, PUGLIESE A. , DI GUGLIELMO D., CENTROCAMPO CON DI GUGLIELMO F. , CAMERLINGO, DI GUGLIELMO G. , SANTORSOLA , ATTACCO CON MARTINO DIETRO L' UNICA PUNTA PUGLIESE R. INIZIO SCOPPIETTANTE CHE VEDE IL REAL ATTACCARE ED IL CAPOSELE SOLO A DIFENDERE. AL 5' PALLA D'ORO PER PUGLIESE R. CHE IN AREA DI RIGORE NON SI FIDA DEL TIRO AL VOLO E VIENE ANTICIPATO IN EXTREMIS DAL PORTIERE, DOPO QUALCHE MINUTO ANCORA PUGLIESE R. HA LA PALLA DEL VANTAGGIO MA LA SBAGLIA  AL 20' LANZA E' COSTRETTO A CAMBIARE CAMERLINGO PER INFORTUNIO CON STEFANELLI E, AL 35' IL REAL RIMANE ADDIRITTURA IN DIECI PER L'ESPULSIONE INGENUA DI SANTORSOLA, CHE COLPISCE IL PORTIERE OSPITE CON UN LEGGERO CALCETTO E VIENE ALLONTANATO DAL D. D. G. NEGLI ULTIMI MINUTI IL CAPOSELE SI SCUOTE E COMINCIA A CREDERCI E PROVA AD ATTACCARE ARRIVANO PERICOLOSAMENTE AL TIRO, MA UN SUPER ANTONACCI ABBASSA LA SARACINESCA E NON LASCIA SPAZIO A NESSUNO, COSI FINISCE IL PRIMO TEMPO. NEGLI SPOGLIATOI I NOSTRI SEMBRANO AVER RICARICATO LE PILE E ANCHE IN DIECI METTONO IN GROSSA DIFFICOLTA' GLI AVVERSARI, AL 60' ENTRA PERRIELLO AL POSTO DI UN ESAUSTO DI GUGLIELMO D. DOPO AVER SPRECATO DUE OCCASIONI  D'ORO PRIMA CON MARTINO E POI CON STEFANELLI, PUGLIESE R. E' BRAVISSIMO A PROTEGGERE LA PALLA NELL'AREA DI RIGORE AVVERSARIA E FARSI FARE FALLO, COSI IL D. D. G. DECRETA UN PENALTY GIUSTISSIMO, CON I RIGORISTA FUORI CAUSA QUESTA VOLTA MARTINO NON SE LA SENTE E LASCIA A PERRIELLO LA TRASFORMAZIONE. QUEST'ULTIMO E' FREDDO DAGL'UNDICI METRI E SPIAZZA IL PORTIERE AVVERSARIO. DOPO ALCUNI SUSSULTI, NON PERICOLOSI, DA PARTE DAL CAPOSELE IL MACTH FINISCE CON IL REAL CHE FINALMENTE VINCE E CONVINCE.
+GRANDIOSA LA PROVA DI TUTTA LA SQUADRA CHE HA SAPUTO GESTIRE LE ENERGIE E NON SI E' SMARRITA NEMMENO RIMANENDO IN DIECI UOMINI, QUESTO E' QUELLO CHE VOGLIAMO VEDERE TUTTE LE DOMENICHE , ARBITRI PERMETTENDO!!!
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;

@@ -94,6 +94,14 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 80::da Irpinianews.it::27/01/2008 18.04.32::visible
 81::da Il Mattino::27/01/2008 18.06.32::visible
 82::NIC.M::09/02/2008 11.32.29::visible
+83::nic.m.::14/02/2008 11.47.19::visible
+84::da Ottopagine.it::22/02/2008 12.01.42::visible
+85::da Ottopagine.it::26/02/2008 10.14.05::visible
+86::da Il Mattino::03/03/2008 10.46.48::visible
+87::da Ottopagine.it::04/03/2008 11.29.24::visible
+88::da Ottopagine.it::07/03/2008 10.40.39::visible
+89::da Ottopagine.it::11/03/2008 10.54.24::visible
+90::da Il Mattino::11/03/2008 14.34.55::visible
 
 [post_text_0]
 Riceviamo da CLEON.REN e pubblichiamo:
@@ -731,3 +739,81 @@ Nei piccoli comuni della provincia si fa a gara, a differenza del capoluogo irpi
 
 [post_text_82]
 IL 14 FEBBR.SE VERRA' CONFERMATA L' IDEA DI ACCOPPIARE LE AMMINISTRATIVE CON LE POLITICHE NAZIONALI PER GLI AMICI DEL CUORE LA SONORA SCONFITTA SI AVVICINA CON IL COMMISSARIO SI E' BLOCCATO TUTTO E LA GENTE NE HA LE SCATOLE PIENE.TUTTE LE OPERE PIU' IMPORTANTI SI SONO FERMATE GRAZIE AL VOSTRO MODO DI OPERARE E INTENDERE.IL POPOLO DI CAPOSELE VI CONDANNERA'ALL' ENNESIMA SCONFITTA.
+
+[post_text_83]
+DOTT. FARINA E ING. MONTEVERDE SVEGLIATEVI CAPOSELE DEVE PROVARE AD USCIRE DALLE SABBIE MOBILI IN CUI E' FINITO LE OPERE E I PROGETTI DA REALIZZARE SONO TANTI SE AVETE LA VOGLIA,IL DESIDERIO , LA PASSIONE, LA COMPETENZA COSTITUITE LA LISTA E CONFRONTATEVI PACIFICAMENTE SUI PROGRAMMI PER CAPOSELE ALTRIMENTI FATEVI DA PARTE PERCHE' NON E' PIU' POSSIBILE CONTINUARE SU QUESTA STRADA!!LA VERA POLITICA NON E' SCONTRO,ODIO,BUGIE MA IDEE NUOVE.RISPONDETE COSI' CI CONFRONTIAMO.
+
+[post_text_84]
+Elezioni/ Caposele: la sfida è tra Farina e Monteverde
+redazione - 22.02.08, 10:41 am
+&nbsp;
+La campagna elettorale nel comune di Caposele è entrata nel vivo già da tempo. In realtà da quando, alle scorse elezioni, una lista fu esclusa dalla competizione elettorale e l’altra non raggiunse il quorum.
+Anche se ufficialmente gli schieramenti non hanno ancora individuato definitivamente i componenti delle compagini che andranno a sfidarsi il 13 e 14 aprile, oltre alle due liste certe, si profila la possibilità di una terza lista; rispetto alla quale, però, c’è il massimo riserbo sui nomi.
+Le due liste quasi certe sono quella capeggiata da Pasquale Farina “Caposele nel Cuore”  che sembrerebbe già completa (qualora le presenze della vecchia compagine dovessero essere confermate) e quella dell’ex sindaco, Gerardo Monteverde “L’Arcobaleno”.
+Si cercano ancora altre alleanze per ottenere più consensi, ma non si esclude che questi possano confluire in una terza lista. La prossima settimana potrebbero delinearsi nuovi scenari anche alla luce della disponibilità annunciata da Farina a dialogare con i componenti dell’altra lista (la seconda) per discutere di larghe intese.
+Antonio Emilio Prudente
+&nbsp;
+
+[post_text_85]
+Elezioni/ Monteverde e Farina, si apre la sfida
+redazione - 26.02.08, 10:07 am
+&nbsp;
+Gerardo Monteverde contro Pasquale Farina. E’ questo lo scontro elettorale che si profila a Caposele per le prossime elezioni comunali. Salvo sorprese dell’ultimo momento, infatti, nel paesino altirpino saranno due le liste che scenderanno in campo per contendersi la gestione dell’amministrazione.
+Da una parte, dunque, il candidato a primo cittadino Monteverde, vicesindaco uscente, guida della compagine “Arcobaleno”, e dall’altra Farina, consigliere comunale nella  penultima consiliatura, e uomo di punta del Pd. Saranno loro a dover far dimenticare la lunga gestione commissariale del Comune, affidata al vice prefetto Mario La Montagna, a causa dell’invalidazione delle liste presentate alle ultime consultazioni.
+Queste le premesse di una competizione elettorale che è già entrata nel vivo. Entrambi gli schieramenti, infatti, si stanno muovendo in maniera frenetica. Cercando di compiere rapidamente tutti i passi necessari per presentarsi preparati all’inizio della campagna elettorale.
+Completa la compagine “Arcobaleno”, che di recente ha visto l’innesto di tre donne e alcuni giovani. L’obiettivo dichiarato è quello di creare una squadra nuova e competitiva. Con membri anche alla prima esperienza ma portatori di idee innovative e concretamente legate alla soluzione di problemi quotidiani.
+Ufficialmente, però, i nomi saranno resi pubblici a giorni, in occasione della presentazione dello schieramento ai cittadini. Anche il programma, poi, risulta già ben dettagliato e articolato, toccando tanti aspetti e tutti i settori della vita di una comunità: «Stiamo girando le contrade di Caposele e Materdomini - afferma Monteverde - e il centro urbano del paese. Vogliamo essere vicini ai problemi di tutti, ascoltare le esigenze della collettività per comprendere quali possono essere le soluzioni da proporre. In questo “tour” stiamo trovando grande accoglienza ed entusiasmo…».
+Un capitolo a parte merita il settore turistico, vero pilastro del progetto dell’Arcobaleno. «Portare Materdomini nei circuiti turistici nazionali - spiega Monteverde - è uno dei nostri principali traguardi.  Così come valorizzare le nostre risorse, sia a livello di commercio sia di artigianato, e tutelare il patrimonio ambientale. Aumentare la qualità della vita, poi, significa migliorare i servizi e la condizione sociale della terza età. Sistemare le strade rurali e realizzare infrastrutture e spazi ricettivi… Speriamo che questa che ci accingiamo a vivere sia una competizione elettorale serena e corretta. Da parte mia, sarò a disposizione di tutta la comunità, perché l’amministrazione comunale dovrà essere sempre trasparente e colloquiare con i cittadini».
+&nbsp;
+
+[post_text_86]
+Caposele. Una sfida annunciata.
+&nbsp;
+L'appuntamento elettorale qui vedrà di fronte due liste: «Caposele nel cuore», guidata da Pasquale Farina e «L'arcobaleno» di Gerardo Monteverde. Il medesimo scenario che si era profilato lo scorso maggio, quando l'esclusione della lista di Farina per eccesso di firme di presentazione e il mancato raggiungimento del quorum portarono al commissariamento del comune. Rispetto a dieci mesi fa sembrano destinati a cambiare solo i nomi di alcuni dei candidati delle due liste. E, nonostante i giochi sembrano ormai fatti, i due candidati alla carica di Sindaco fanno ancora pretattica. Entrambi continuano a vagliare nuove candidature per cercare di rosicchiare qualche manciata di voti agli avversari. «Cambieremo - spiega Monteverde - almeno quattro o cinque candidati rispetto allo schieramento che ha corso da solo alle elezioni dello scorso maggio». Già confermati, ne «L'arcobaleno», il figlio del compianto ex sindaco Melillo (di cui Monteverde era vice, ndr), Lorenzo, Raffaele e Gaetano Grasso, Ettore Spatola, Vincenzo Zanca, Gerardina D'Alessio e Antonietta Colatrella. Monteverde, che nel maggio scorso aveva chiesto di trovare un accordo per una gestione comune che evitasse il commissariamento, dopo dieci mesi «senza una guida politica» (il comune altirpino è stato gestito dai Prefetti Amabile prima e La Montagna poi), ritiene che il gruppo che prevarrà alla prossima consultazione debba «riprendere daccapo numerose questioni, cercando di recuperare il terreno che gioco forza una gestione commissariale fa perdere».
+29.02.2008
+&nbsp;
+&nbsp;
+
+[post_text_87]
+Elezioni/ Caposele nel cuore presenta Farina candidato a sindaco
+&nbsp;
+redazione - 04.03.08, 10:47 am
+&nbsp;
+Pasquale Farina si candida ufficialmente al ruolo di sindaco con la lista “Caposele nel Cuore”. Una compagine civica che sarà contraddistinta, appunto, dal simbolo che porta nel nome. L’annuncio è venuto domenica sera, al termino di un incontro svoltosi nell’aula polifunzionale del comune altirpino.
+Fra qualche giorno, intanto, si scioglieranno le riserve sui membri della squadra, nelle cui fila, sembra, siano stati confermati molti elementi del vecchio gruppo.
+Farina ha colto l’occasione per presentare alcune iniziative previste durante la campagna elettorale e parlare del suo programma. Tra i punti previsti il potenziamento dell’acquedotto pugliese, il nuovo puc, la valorizzazione del pip, l’ingresso in un circuito nazionale per il turismo religioso, politiche giovanili, occupazione, ambiente e anziani.
+«Da oltre un anno e mezzo - ha dichiarato l’aspirante primo cittadino - sto lavorando a questa lista, spero che la comunità colga il messaggio insito nel nostro progetto. Il mio auspicio, inoltre, è che la campagna elettorale sia serena e basata sui problemi e gli argomenti politici… Il nostro sarà un cuore che batte per l’amata comunità di Caposele».
+Prima di lasciare la parola al candidato a sindaco di “Caposele nel Cuore”, un ampio momento dedicato ad alcune importanti novità per il comune altirpino. Tra gli annunci, quello del collegamento veloce ad internet. D’altra parte il tema dell’incontro, “Un impegno concreto per lo sviluppo del nostro paese: le iniziative di Caposele nel cuore”, ben si sposava con ciò che era stato fatto per il paese negli ultimi tempi. E con la scelta, ben illustrata dal presidente della Comunità Montana Terminio Cervialto, Nicola Di Iorio, di designare Caposele come “Porta del Parco” dei Monti Picentini.
+Dopo il primo intervento di Angelo Ceres, che ha parlato di questa grande opportunità data al comune, c’è stato l’intervento di Alfonso Pallante, che ha spiegato i vantaggi del nuovo collegamento ad internet veloce, già disponibile sul territorio e l’importanza di tale tecnologia per la  realizzazione dei progetti della Porta del Parco. Poi, continuando a rimarcare l’importanza dell’informatizzazione, Donatello Cirillo ha presentato il sito web di “Caposele nel Cuore”.
+Infine, Nunzia Mattia ha illustrato l’iniziativa “DifferenziAMO CAPOSELE”, con la quale il circolo ha voluto fortemente spronare i cittadini ad impegnarsi nella raccolta differenziata dei rifiuti solidi urbani.
+&nbsp;
+
+[post_text_88]
+Elezioni Caposele. Ecco i primi 10 nomi de “L’Arcobaleno”
+&nbsp;
+redazione - 06.03.08, 4:04 pm
+&nbsp;
+«“L’Arcobaleno” è pronto a regalare colori nuovi alla comunità di Caposele». Gerardo Monteverde, il professore prestato alla politica, candidato a sindaco della lista civica che affronterà la compagine (“Caposele nel Cuore”) di Pasquale Farina, è entusiasta e carico di energie. Il suo progetto elettorale complessivo sta andando avanti senza problemi e senza ostacoli. E presto i suoi compagni di viaggio saranno presentati pubblicamente.
+«La mia lista sarà composta da 15 candidati - afferma Monteverde -. Ho scelto gli elementi di questo schieramento tra le varie componenti sociali di Caposele, inserendo molti giovani. Sarà una lista civica e si chiamerà “L’Arcobaleno”…».
+Queste le certezze del professore che anticipa anche i nomi di dieci dei suoi candidati in lista: «Mancano solo cinque elementi - continua - per completare la compagine. I loro nomi li ufficializzerò solo poco prima della presentazione delle candidature. Gli altri, di cui già si parla molto in paese, sono: Ettore Spatola, Lorenzo Melillo, Vincenzo Zanca, Rocco Merola, Donato Merola, Antonietta Colatrella, Gerardina D’Alessio, Valentino Grasso, Raffaele Grasso, Franco Cibellis».
+Monteverde, poi, illustra anche quali saranno gli obiettivi del suo programma e non nasconde il tipo di strategia e di impegno profuso in questi giorni. «Sto girando - spiega - per tutte le case di Caposele e Materdomini per illustrare il mio progetto e, contemporaneamente, ascoltare le istanze della comunità. Solo così potrò creare un certo feeling con la gente e far comprendere ciò che voglio fare, registrando anche quelle che sono le loro necessità. Molte, infatti, sono state le lamentele e i problemi che mi hanno riportato nel corso di queste prime “visite a domicilio”. Tante situazioni diverse e tutte importanti che, se dovessimo vincere, saranno affrontate e risolte… Mi sento tranquillo, sono convinto di avere un forte consenso a Caposele perché il programma elettorale che vogliamo portare avanti è basato su cose reali: priorità al turismo religioso e a quello legato all’ambiente e all’enogastronomia. E’ questa una fonte di reddito che può diventare fondamentale per Caposele. Così come sarà importante valorizzare i prodotti tipici locali, l’artigianato del posto, migliorare la qualità della vita e rispondere alle esigenze dei giovani. Un occhio di riguardo, poi, sarà rivolto all’occupazione, allo sviluppo e ai nuovi insediamenti produttivi».
+&nbsp;
+
+[post_text_89]
+Elezioni Caposele ne cuore, Farina: «Presto la presentazione»
+&nbsp;
+redazione - 11.03.08, 10:35 am
+&nbsp;
+«La mia lista è già completa. Non l’abbiamo ancora presentata solo per un fatto scaramantico. Ma, ormai, siamo pronti a scendere in campo». A parlare è Pasquale Farina, il cardiologo candidato a sindaco della compagine “Caposele nel Cuore”. «La squadra sarà composta da sedici persone, di cui diversi giovani. Una lista con l’età media molto bassa e molti volti nuovi della politica locale, tra i quali alcuni elementi delle contrade. Nei prossimi giorni presenteremo ufficialmente tutti i candidati nella piazza principale del paese. Mi auguro che sia una campagna elettorale equilibrata, basata solo ed esclusivamente sui programmi politici e senza entrare nei personalismi. Il nostro progetto sarà basato su tre punti: occupazione giovanile, per cercare di fermare l’emigrazione, valorizzazione dei prodotti tipici locali e sfruttamento delle risorse ambientali ai fini turistici. “Caposele nel Cuore” batte forte. Stiamo avendo ampi consensi e sono molto fiducioso. D’altra parte le persone che stiamo ascoltando sembrano aver capito quali sono i nostri obiettivi e quale sarà l’impegno con il quale ci muoveremo sul territorio…».
+(Antonio Emilio Prudente)
+&nbsp;
+
+[post_text_90]
+CAPOSELE
+Farina affronta Monteverde per la rivincita un anno dopo
+&nbsp;
+&nbsp;
+Gerardo Monteverde e Pasquale Farina limano i dettagli delle liste che presenteranno sabato prossimo. Ma la campagna elettorale è già entrata nel vivo. Del resto, gli schieramenti, nel nome, simbolo, programma e gran parte dei componenti, sono praticamente gli stessi di un anno fa. Monteverde ha deciso di cambiare circa un terzo dei candidati. Farina, invece, ha sostituito solo due componenti della sua lista, Gerardo Sista e Raffaele Spatola. Entrambi hanno deciso di farsi da parte per motivi personali. Una delle due caselle libere è stata colmata con la presenza di Gerardo Di Masi, cognato dell'avvocato Palmieri, ex esponente di opposizione. L'altro nome sarà ufficializzato nei prossimi giorni. Intanto, «Caposele nel cuore» ha ribadito i punti chiave del proprio programma amministrativo. «Puntiamo molto - dichiara il coordinatore, non candidato, del gruppo Salvatore Conforti - sul turismo. Uno dei nostri obiettivi è creare un circuito intorno a San Gerardo che, ogni anno, richiama molti visitatori nel nostro paese, ma anche la possibilità di aprire le sorgenti dalle quali attinge l'acquedotto Pugliese». Nel programma della lista capeggiata da Farina molto spazio è dedicato anche ai servizi per il cittadino. «Ci siamo già attivati - continua Conforti - per l'Adsl e il percorso per l'avvio della raccolta differenziata. Inoltre, abbiamo già ricevuto il parere positivo per la creazione, a Caposele, di una delle porte del parco dei Monti Picentini, che potrebbe rappresentare anche una concreta prospettiva occupazionale e spingeremo con la comunità montana per il completamento e la messa in funzione della struttura sorta alla frazione San Gerardo che, nata per diventare un polo fieristico per l'intera zona, rischia di trasformarsi in una cattedrale nel deserto».
+&nbsp;
+ MICHELE DE LEO
+&nbsp;

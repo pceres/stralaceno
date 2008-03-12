@@ -15,6 +15,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 1::foxy::02/09/2006 20.20.15::visible
 2::NICOLA M.::22/09/2006 11.32.52::visible
 3::NICOLA M.::30/10/2006 17.39.11::visible
+4::ars::21/02/2008 11.09.33::visible
 
 [post_text_0]
 salve a tutti!
@@ -30,3 +31,9 @@ IO SONO SODDISFATTO PER LA MIA PERFORMANCE MA BISOGNA DARE CONTINUITA' AGLI ALLE
 [post_text_3]
 E' INUTILE CHE PROPONETE FOTO STORICHE BISOGNA ORGANIZZARE NUOVE COSE ALTRIMENTI ALLA STRALACENO TRA QUALCHE ANNO NON CI SARA' NEANCHE UN CONCORRENTE.COSA CE NE FACCIAMO DI UNA CORSA L' ANNO.
 
+[post_text_4]
+Inseriti nel sito della Stralaceno,  i commenti che ancora mancavano alle foto dell'edizione 2007.
+&nbsp;
+http://stralaceno.cjb.net
+&nbsp;
+&nbsp;
