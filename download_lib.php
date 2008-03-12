@@ -90,6 +90,24 @@ if (!empty($download_error_msg))
 else
 {
 	
+	if ( $admin_mode && empty($folder_parent))
+	{
+		// in modalita' amministrativa, bisogna permettere di creare o cancellare folder al livello root
+		$folder_root_item = Array();
+		
+		$folder_root_item[indice_download_type] 	= 'root_folder';
+		$folder_root_item[indice_download_name] 	= '';
+		$folder_root_item[indice_download_caption] 	= '';
+		$folder_root_item[indice_download_description] 	= 'Aggiungi o rimuovi cartelle al 1° livello (folder_root)';
+		$folder_root_item[indice_download_params] 	= '';
+		$folder_root_item[indice_download_auth_read] 	= '';
+		$folder_root_item[indice_download_auth_write] 	= '';
+		$folder_root_item[indice_download_ctime] 	= '13/10/1974';
+		$folder_root_item[indice_download_hits] 	= 0;
+		
+		show_download_item_folder($folder_root_item,$fulltree,$admin_mode);
+	}
+	
 	$folders = array_diff(array_keys($tree),Array('data_folder')); // elimino il campo fittizio 'data_folder'
 	
 	foreach($folders as $folder_item_name)
@@ -189,8 +207,6 @@ $folder_item_auth_write	 = $folder_item[indice_download_auth_write];
 $folder_item_ctime 	 = $folder_item[indice_download_ctime];
 $folder_item_hits 	 = $folder_item[indice_download_hits];
 
-// 	echo $spacing."- <a href=\"download.php?resource_type=folder&amp;resource_id=$folder_item_name\">$folder_item_caption</a><br>\n";
-
 $script_name = $_SERVER['SCRIPT_NAME'];
 $resource_link = "$script_name?resource_type=$folder_item_type&amp;resource_id=$folder_item_name";
 
@@ -203,11 +219,25 @@ if ($admin_mode)
 ?>
 <dd class="dm_taskbar">
 <ul>
+<?php
+if (!empty($folder_item_name))
+{
+?>
 <li><a href="<?php echo $admin_link; ?>&amp;admin_action=edit_data">Modifica info</a></li>
+<?php
+}
+?>
 <li><a href="<?php echo $admin_link; ?>&amp;admin_action=delete_item">Cancella cartella</a></li>
 <li><a href="<?php echo $admin_link; ?>&amp;admin_action=new_folder">Nuova cartella</a></li>
+<?php
+if (!empty($folder_item_name))
+{
+?>
 <li><a href="<?php echo $admin_link; ?>&amp;admin_action=new_file">Nuovo file</a></li>
 <li><a href="<?php echo $admin_link; ?>&amp;admin_action=new_link">Nuovo link</a></li>
+<?php
+}
+?>
 </ul>
 </dd>
 <?php
