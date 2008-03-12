@@ -438,9 +438,6 @@ echo "Cancellazione $resource_type $resource_name: <br>";
 
 $result = modify_config_file($config_download,$resource_parent_name,$download_item,$unique_ids,Array('delete_item'));
 
-// var_dump(Array($resource_parent_name,$download_item,$unique_ids));
-// var_dump($fullname);
-
 if ($result['status'] == 'item_deleted')
 {
 	
