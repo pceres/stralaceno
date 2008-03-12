@@ -112,20 +112,20 @@ Classifica aggiornata al 07/01/2006
 # formato dati_giornata_NN:  titolo_tabella
 #
 [dati_giornata_visibile]
-Risultati 13<sup>a</sup> giornata (09-10/02/2008)
+Risultati 17<sup>a</sup> giornata (08-09/03/2008)
 
 #
 
 # formato giornata_NN:  posizione_partita::squadra_in_casa::squadra_fuori_casa::risultato (una riga per ciascun match)
 #
 [giornata_visibile]
-1::CAPOSELE::LA LONGOBARDA::4-1
-2::CASTEL BARONIA::MORRA DE SANCTIS::3-2
-3::LUPI TREVICO::REAL S.ANDREA CONZA::1-2
-4::S.C. NUSCO::SPORTING EVER GR.::2-2
-5::VALLATESE ::CARIFE::2-1
-6::VALLESACCARDA::SAN SOSSIO::0-1
-7::VIRTUS CONZA::CASABIANCHI TREVICO::2-0
+1::LA LONGOBARDA::VIRTUS CONZA::1-2
+2::LUPI TREVICO::VALLESACCARDA::3-1
+3::MORRA DE SANCTIS::CASABIANCHI TREVICO::2-0
+4::REAL S.ANDREA CONZA::CAPOSELE::1-0
+5::S.C. NUSCO::CASTEL BARONIA::4-1
+6::SAN SOSSIO::CARIFE::0-1
+7::SPORTING EVER GREEN::VALLATESE::1-3
 
 
 #
@@ -146,20 +146,20 @@ Classifica Girone F
 # formato classifica_NN:  posizione::squadra::punti::giocate::vinte::nulle::perse::reti_fatte::reti_subite::diff_reti::media_inglese
 #
 [classifica_visibile]
-1::CAPOSELE::37::13::12::1::0::46::7::39::10
-2::VALLATESE::26::13::7::5::1::24::11::13::-1
-3::LUPI TREVICO::26::13::8::2::3::23::18::5::-1
-4::VIRTUS CONZA::24::13::7::3::3::24::14::10::-1
-5::SAN SOSSIO::23::13::7::2::4::19::17::2::-2
-6::REAL SANT’ANDREA CONZA::19::13::5::4::4::18::24::-6::-8
-7::LA LONGOBARDA::16::13::4::4::5::20::26::-6::-9
-8::CASTEL BARONIA::15::13::3::6::4::22::25::-3::-12
-9::S.C. NUSCO::15::13::4::3::6::24::30::-6::-12
-10::MORRA DE SANCTIS::14::13::4::2::7::10::17::-7::-11
-11::CARIFE::12::13::3::3::7::23::24::-1::-13
-12::SPORTING EVER GREEN::12::13::3::3::7::13::17::-4::-13
-13::VALLESACCARDA::7::13::1::4::8::10::24::-14::-20
-14::CASABIANCHI TREVICO::5::13::1::2::10::5::27::-22::-20
+1::CAPOSELE::44::17::14::2::1::53::10::43::9
+2::VALLATESE::36::17::10::6::1::31::14::17::1
+3::LUPI TREVICO::32::17::10::2::5::32::24::8::-3
+4::VIRTUS CONZA::31::17::9::4::4::30::19::11::-2
+5::REAL SANT’ANDREA CONZA::28::17::8::4::5::25::25::0::-7
+6::S.C. NUSCO::24::17::7::3::7::33::37::-4::-11
+7::SAN SOSSIO::23::17::7::2::8::18::22::-4::-10
+8::LA LONGOBARDA::21::17::5::6::6::25::30::-5::-12
+9::CARIFE::20::17::5::5::7::31::27::4::-13
+10::CASTEL BARONIA::19::17::4::7::6::30::38::-8::-16
+11::MORRA DE SANCTIS::17::17::5::2::10::13::24::-11::-16
+12::SPORTING EVER GREEN::16::17::4::4::9::20::28::-8::-17
+13::VALLESACCARDA::11::17::2::5::10::17::31::-14::-24
+14::CASABIANCHI TREVICO::8::17::2::2::13::7::36::-29::-25
 
 
 
