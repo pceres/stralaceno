@@ -177,7 +177,7 @@ switch ($admin_action)
 		break;
 }
 
-$back_address = "http://localhost/work/ars/admin/manage_downloads.php?resource_type=folder&resource_id={$resource_parent[indice_download_name]}";
+$back_address = "manage_downloads.php?resource_type=folder&resource_id={$resource_parent[indice_download_name]}";
 
 echo "<hr><a href=\"$back_address\">Torna al livello superiore</a>";
 
