@@ -11,11 +11,11 @@
 # note               : formato libero, si puo' mettere qualsiasi cosa
 #
 [elenco_soci]
-Nicola D'Auria::nicolad_auria@libero.it::30/03/2005::socio fondatore::Presidente::7::Soci_ars::
-Alessandro Russomanno::alexruss75@yahoo.it::30/03/2005::socio fondatore::Vice Presidente::3::Soci_ars::
-Donatello Cirillo::donatellocirillo@libero.it::30/03/2005::socio fondatore::Segretario Amministrativo::12::Soci_ars::
-Pasquale Ceres::pasquale_ceres@yahoo.it::30/03/2005::socio ordinario::Consigliere::8::Soci_ars::Webmaster ArsWeb
-Paolo Viscardi::paolovisca86@hotmail.it::02/05/2005::socio ordinario::::1::Soci_ars::
+Nicola D'Auria::nicolad_auria@libero.it::30/03/2005::socio fondatore::Consigliere::7::Soci_ars::
+Alessandro Russomanno::alexruss75@yahoo.it::30/03/2005::socio fondatore::Segretario Amministrativo::3::Soci_ars::Resp. organizz. squadra podistica
+Donatello Cirillo::donatellocirillo@libero.it::30/03/2005::socio fondatore::::12::Soci_ars::
+Pasquale Ceres::pasquale_ceres@yahoo.it::30/03/2005::socio ordinario::Vice Presidente::8::Soci_ars::Webmaster ArsWeb
+Paolo Viscardi::paolovisca86@hotmail.it::02/05/2005::socio ordinario::Presidente::1::Soci_ars::
 Michele Ceres::ceresmichele@yahoo.it::02/05/2005::socio ordinario::::6::Soci_ars::
 Lello Viscardi::lello.viscardi@libero.it::24/07/2005::socio ordinario::::0::Soci_ars::
 Valentino Di Masi::valentinodimasi@tiscali.it::03/11/2005::socio ordinario::::10::Soci_ars::
@@ -32,7 +32,7 @@ Gelsomino Merola::::24/08/2007::socio ordinario::::17::Soci_ars::
 Saverio Perna::saveriopmail@libero.it::16/09/2007::socio ordinario::::18::Soci_ars::
 Armando Grasso::::04/01/2008::socio ordinario::::19::Soci_ars::
 Rocco Feniello::::04/01/2008::socio ordinario::::20::Soci_ars::
-
+Donato Ceres::ceresdo@tiscali.it::07/04/2008::socio ordinario::::21::Soci_ars::
 #
 # formato elenco_news:  data::news
 #

@@ -30,6 +30,8 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 16::da IrpiniaNews.it::11/02/2008 23.12.24::visible
 17::da CorriereIrpinia.it::23/02/2008 14.45.03::visible
 18::da CorriereIrpinia.it::06/03/2008 10.48.12::visible
+19::da Il Mattino::02/04/2008 00.12.07::visible
+20::da CorriereIrpinia.it::03/04/2008 10.11.46::visible
 
 [post_text_0]
 we allora, le polemiche sullo sport caposelese per ora sembra siano terminate. Abbiamo assistito ad uno bel dibattittio, coinvolgendo molte persone. Ma quello che sto cercando di dirvi e che se io posso cambiare e voi potete cambiare, tutto il mondo può cambiare. Questa era una frase tratta dal film di ROCKY, comununque con questo voglio dire che tutte le polemiche non sono mai servita a nulla, piuttosto bisogna cecare di essere quanto più uniti mettendo sul tavolo le proprie idee, ed allora a questo punto le cose potranno cambiare in modo positivo. tutto questo penso che sia la chiave di tutto.
@@ -190,4 +192,29 @@ CAPOSELE - Cittadinanza Attiva esulta per la vittoria sulla trasparenza amminist
 E’ da tempo che l’associazione sollecita il Commissario ad intervenire sulla questione trasparenza amministrativa. A Caposele, dopo le elezioni del 2007 che hanno sancito il mancato raggiungimento del quorum elettorale e la conseguente gestione del Comune al Commissario Prefettizio, si è avviata una battaglia serrata proprio nei con l’autorità prefettizia. Il commissario prefettizio Mario La Montagna, proprio attraverso il sito internet del Comune è tornato l’altro ieri sulla delibera consiliare del tre maggio 2007.
 Oggetto. «Regolamento per l’accesso agli atti e ai documenti e alle informazioni». L’ufficio di segreteria, assicura il commissario, curerà che la pubblicazione degli atti sul sito web comunale avvenga contestualmente alla loro affissione all’albo pretorio, come sta avvenendo per quelli adottati dallo stesso La Montagna con i poteri del Consiglio e della Giunta. Questo anche per rispondere alle richieste che erano arrivate dal comitato Cittadinanzattiva. Il commissario ricorda che il segretario comunale è incaricato di vigilare sul puntuale rispetto della delibera.
 06.03.2008
+&nbsp;
+
+[post_text_19]
+Gli studenti di Caposele a lezione di giornalismo.
+01/04/2008
+&nbsp;
+Prove di giornalismo per gli studenti della Scuola Secondaria di primo grado dell'Istituto Comprensivo «De Sanctis» di Caposele. I ragazzi della II A e della II B hanno fatto tappa, ieri mattina, alla nostra redazione. «In classe stiamo lavorando sulla stesura di articoli - spiegano Lucia Russomanno, Luigi Placanica e Giacomo Salicone, professori delle classi - anche in vista di un concorso a cui parteciperemo ed abbiamo riscontrato davvero interesse nei nostri alunni per l'argomento giornale e quanto ad esso collegato». Ed, infatti, i ragazzi del «De Sanctis» sono stati entusiasti. «Per un giorno - esclama Antonio Nesta - siamo stati giornalisti». «Avevamo già provato a costruire un giornale - chiarisce Gelsomina Fuschetto - e la prima pagina, come abbiamo fatto anche qui». «Abbiamo inoltre provato a scrivere un articolo di cronaca- va avanti Alessio Merola- ed è appassionante realizzare articoli». «Ma non solo - si accavalla Maria Teresa Testa - abbiamo fatto anche delle interviste a dei circensi venuti in paese». «Certo adesso abbiamo capito meglio - dicono Grazia Cione e Gerardo Malanga - come si realizza un giornale». C'è attenzione, poi, alla parte che riguarda la stampa per Alfonso Emanuele Ceres. C'è, ancora, chi si sofferma sui titoli come Maria Teresa Grasso, sulla cronaca nera come Michela Cuozzo, sulla politica come Valeria Donatiello e sullo sport come Giuseppe Ceres, Rocco Nesta ed Italo Rosania. «Adesso abbiamo più chiaro il lavoro del redattore - afferma Alessandra Casale - e lo ritenevo più facile, mentre ora so che non è così, anzi è più complicato». C'è, tuttavia, chi è incuriosito dalla professione. «Per me è davvero un lavoro sfizioso - dice sorridente Gerardo Aiello - perchè sia leggere che scrivere di fatti accaduti nel mondo o in Italia o pure a Caposele lo trovo piacevole. E a me piacerebbe potermene occupare da grande». Hanno partecipato con diligenza e curiosità anche Raffaella Ciccone, Paola Colatrella, Gelsomina Cuozzo, Floriana Nesta, Giovanna Nesta, Gerarda Oxley, Martina Rosania, Maria Russomanno, Francesca Spatola, Mara Tarantino, Maria Tobia, Giada Cetrulo, Adriana Ciccone, Lina Colatrella e Roberto Lenza.
+so.ac.
+&nbsp;
+&nbsp;
+&nbsp;
+
+[post_text_20]
+Adsl, Telecom ancora in silenzio. E Caposele pensa al Wireless
+&nbsp;
+ALTO SELE - Internet veloce, Caposele guarda al collegamento senza fili.
+Dalla Telecom non è sopraggiunta ancora alcuna comunicazione in merito all’aggiornamento della centralina telefonica che in questo momento blocca l’utilizzo del servizio, una volta ultimato il cablaggio.
+Oltre un mese fa la sollecitazione del commissario prefettizio Mario La Montagna, dopo la segnalazione dell’asssociazione “Cittadinaza attiva”, nella quale si denunciava all’azienda telefonica il disagio che ha dovuto fronteggiare la società Infratel detentrice dell’appalto. I lavori sarebbero dovuti durare 180 giorni, e terminare nel cuore dell’estate, ma, a causa del ritardo subito per il mancato aggiornamento della centralina, l’Adsl nel comune dell’Alta Valle del Sele potrebbe giungere solo ad autunno inoltrato.
+Così a Caposele si sta lavorando su un secondo fronte per il collegamento rapido alla rete, attraverso l’uso della tecnologia Wireless.
+Le reti locali Wireless possono utilizzare come mezzo trasmissivo le onde radio, la luce infrarossa o i sistemi laser.
+Le onde radio vengono utilizzate dalle reti tipo Wi-Fi cioè reti che devono coprire ambienti eterogenei dove le diverse postazioni da collegare non sono necessariamente visibili, infatti possono essere separate da muri o da intercapedini.
+In un recente incontro elettorale uno dei candidati ha informato che «è stato portato da Postiglione (SA) un segnale via radio fino a località Fornaci (Materdomini) che è stato ritrasmesso in due direzioni: Caposele e Serra Castagno. Tale segnale trasporta il broadband wireless, per il momento con una banda garantita di 1 Mbit/s... Lo si può ricevere grazie ad un kit che fra qualche giorno sarà disponibile nei negozi di Caposele e Materdomini e in più è necessaria l'attivazione di un abbonamento (ce ne sono di vario tipo e dipendono dalle esigenze degli utenti).
+Ad oggi è già sul 50% del territorio caposelese il segnale proveniente dalle Fornaci, fra qualche giorno sarà attivato anche quello da Serra Castagno». Quindi un primo passo è stato consegnato per lo sviluppo di unna tecnologia che comunque non riesce a preservare le prestazioni dell’Adsl, ma che comunque garantisce una velocità superiore ai tradizionali 56kb/s con cui oggi viaggia la rete nell’Alta Valle del Sele.
+A Calabritto la situazione è differente. Lungo la dorsale dei lavori, sul tragitto che collega Calabritto a Caposele, gli interventi della società Infratel hanno ormai raggiunto la località di Persano, a cavallo tra i due territori comunali e proseguiranno in direzione della centrale di località San Vito: da lì il cablaggio proseguirà in direzione Ponte Sele dove è presente una cabina per lo smistamento dati.
+&nbsp;
 &nbsp;

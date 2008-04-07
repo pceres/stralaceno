@@ -12,6 +12,8 @@ FC_caposele::F.C. Caposele::L'album di famiglia della F.C. Caposele
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
+40::FC_caposele::2007/08  FC Caposele - Lupi Trevico 9-2::Gerardo Grasso
+39::FC_caposele::2007/08  Real S.Andrea di Conza - FC Caposele 1-0::Gerardo Grasso
 38::FC_caposele::2007/08  FC Caposele - Sporting Ever Green 3-0::Gerardo Grasso
 37::FC_caposele::2007/08  Morra De Sanctis - FC Caposele 1-3::Gerardo Grasso
 36::FC_caposele::2007/08  FC Caposele - San Sossio 1-1::Gerardo Grasso

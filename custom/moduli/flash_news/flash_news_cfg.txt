@@ -6,6 +6,11 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+07/04/2008::Donato Ceres &egrave; il 22&deg; socio degli Amatori Running Sele.
+07/04/2008::Partecipanti alla gara podistica "IX Agropoli Half Marathon" di km 21,097 ad Agropoli (Sa): Paolo Viscardi, Salvatore Merola, Francesco Ceres, Alessandro Russomanno, Gianni Sozio, Donatello Cirillo, Gerardo Martino, Giuseppe Rosania. Accompagnatori: Luciano Viscido e Nicola Cirillo.
+29/03/2008::Tute ufficiali per gli Amatori Running Sele
+22/03/2008::Il 22 marzo si &egrave; tenuta l'Assemblea annuale dell'Associazione, in cui &egrave; stato approvato il rendiconto economico 2007, il regolamento elettorale ed eletto il nuovo direttivo.
+16/03/2008::Francesco Ceres, Gianni Sozio ed Alessandro Russomanno hannno preso parte alla XIV Maratona di Roma.
 18/02/2008::Partecipanti alla gara podistica "Campionato provinciale UISP di corsa campestre" di km 4 ad Eboli (Sa): Francesco Ceres, Saverio Perna, Salvatore Merola, Alessandro Russomanno, Paolo Viscardi, Donatello Cirillo, Angelo Ceres (aggregato-non socio).
 11/02/2008::La squadra podistica dell'ARS si affilia -per l'anno 2008- allo CSEN Centro Sportivo Educativo Nazionale.
 04/01/2008::Si associano all'Amatori Running Sele Armando Grasso e Rocco Feniello. Il numero dei soci sale a 21.

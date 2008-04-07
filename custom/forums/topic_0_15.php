@@ -102,6 +102,17 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 88::da Ottopagine.it::07/03/2008 10.40.39::visible
 89::da Ottopagine.it::11/03/2008 10.54.24::visible
 90::da Il Mattino::11/03/2008 14.34.55::visible
+91::info::15/03/2008 15.14.29::visible
+92::da Il Mattino::17/03/2008 11.52.48::visible
+93::da Irpinanews.it::18/03/2008 11.03.03::visible
+94::da Irpinianews.it::18/03/2008 20.00.02::visible
+95::da Ottopagine.it::19/03/2008 11.05.42::visible
+96::da Il Mattino::22/03/2008 19.54.49::visible
+97::da Il Mattino::27/03/2008 11.36.57::visible
+98::da Irpinianews.it::29/03/2008 14.24.24::visible
+99::da Ottopagine.it::01/04/2008 11.17.45::visible
+100::da Irpinianews.it::01/04/2008 14.34.14::visible
+101::da Il Mattino::07/04/2008 12.35.54::visible
 
 [post_text_0]
 Riceviamo da CLEON.REN e pubblichiamo:
@@ -816,4 +827,150 @@ Farina affronta Monteverde per la rivincita un anno dopo
 Gerardo Monteverde e Pasquale Farina limano i dettagli delle liste che presenteranno sabato prossimo. Ma la campagna elettorale è già entrata nel vivo. Del resto, gli schieramenti, nel nome, simbolo, programma e gran parte dei componenti, sono praticamente gli stessi di un anno fa. Monteverde ha deciso di cambiare circa un terzo dei candidati. Farina, invece, ha sostituito solo due componenti della sua lista, Gerardo Sista e Raffaele Spatola. Entrambi hanno deciso di farsi da parte per motivi personali. Una delle due caselle libere è stata colmata con la presenza di Gerardo Di Masi, cognato dell'avvocato Palmieri, ex esponente di opposizione. L'altro nome sarà ufficializzato nei prossimi giorni. Intanto, «Caposele nel cuore» ha ribadito i punti chiave del proprio programma amministrativo. «Puntiamo molto - dichiara il coordinatore, non candidato, del gruppo Salvatore Conforti - sul turismo. Uno dei nostri obiettivi è creare un circuito intorno a San Gerardo che, ogni anno, richiama molti visitatori nel nostro paese, ma anche la possibilità di aprire le sorgenti dalle quali attinge l'acquedotto Pugliese». Nel programma della lista capeggiata da Farina molto spazio è dedicato anche ai servizi per il cittadino. «Ci siamo già attivati - continua Conforti - per l'Adsl e il percorso per l'avvio della raccolta differenziata. Inoltre, abbiamo già ricevuto il parere positivo per la creazione, a Caposele, di una delle porte del parco dei Monti Picentini, che potrebbe rappresentare anche una concreta prospettiva occupazionale e spingeremo con la comunità montana per il completamento e la messa in funzione della struttura sorta alla frazione San Gerardo che, nata per diventare un polo fieristico per l'intera zona, rischia di trasformarsi in una cattedrale nel deserto».
 &nbsp;
  MICHELE DE LEO
+&nbsp;
+
+[post_text_91]
+Elezioni Comunali 13-14 aprile 2008
+&nbsp;
+Liste
+&nbsp;
+NUOVI ORIZZONTI -l’arcobaleno-
+&nbsp;
+Candidato a sindaco: GERARDO MONTEVERDE
+Annibale Castagno,
+Antonietta Colatrella,
+Donato Merola,
+Ettore Spatola,
+Franco Cibellis,
+Gaetano Grasso,
+Gerardina D'Alessio,
+Giulio Sozio,
+Giuseppe Russomanno,
+Lorenzo Melillo,
+Pietro Cetrulo,
+Pietro Malanga,
+Raffaele Grasso,
+Rocco Merola,
+Salvatore Marsico,
+Vincenzo Zanca.
+&nbsp;
+&nbsp;
+CAPOSELE NEL CUORE
+&nbsp;
+Candidato a sindaco: PASQUALE FARINA
+Alfonsina Rosania,
+Alfonso Pallante,
+Angelo Ceres,
+Donatello Cirillo,
+Salvatore Conforti,
+Gerardo Di Masi,
+Gerardo Freda,
+Giannino Ciccone,
+Nunzia Mattia,
+Raffaele Corona,
+Raffaella Gonnella,
+Rocco Guarino,
+Salvatore Casillo,
+Salvatore Russomanno,
+Tommaso Cibellis,
+Vito Malanga.
+&nbsp;
+&nbsp;
+&nbsp;
+
+[post_text_92]
+16/03/2008
+&nbsp;
+Caposele. Una sfida attesa da un anno. Entra nel vivo la campagna elettorale che, dopo dieci mesi di commissariamento, restituirà un’amministrazione comunale a Caposele. Stavolta, il duello tra Monteverde e Farina si giocherà sul campo, tra la gente. Pochi ancora gli indecisi per una sfida in cui le carte, a causa dell’esclusione della lista di Farina dello scorso anno, sono state scoperte in anticipo. Gerardo Monteverde, rispetto all’anno passato, ha provato l’effetto sorpresa, non solo cambiando il nome dello schieramento. «Nuovi orizzonti» è stato preferito ad un arcobaleno che in tempo di election day avrebbe potuto creare confusione e assonanze politiche che poco hanno a che vedere con la civica guidata dall’ex vice sindaco. Monteverde ha sostituito cinque candidati dello schieramento presentato un anno fa: Annibale Castagno, Pietro Malanga, Salvatore Marsico, Giuseppe Russomanno e Giulio Sozio sono entrati al posto dei due omonimi Rocco Russomanno, entrambi esclusi, di Michele Notaro, Maria Rosaria Ceres e Gianni Cetrulo. «Tutti - dichiara Monteverde - hanno fatto un passo indietro per ragioni esclusivamente personali, ma appoggiano la nostra lista e saranno con noi alla presentazione pubblica dello schieramento». «Vedo molto ottimismo intorno a noi - aggiunge il candidato di Nuovi orizzonti - c’è un crescendo di entusiasmo che lascia ben sperare per la vittoria finale». Ha buone sensazioni anche Farina che, rispetto al suo avversario, ha presentato una lista molto simile a quella di un anno fa, a cominciare dal nome «Caposele nel cuore», con la sostituzione, anche qui per motivi personali, di soli due candidati: Salvatore Conforti e Gerardo Di Masi hanno preso il posto Gerardo Sista e Raffaele Spatola. «La speranza - dichiara uno sportivo Farina - è che in quest’elezione vinca soprattutto Caposele. C'è bisogno di sfruttare le risorse per il turismo per rilanciare il paese e creare sviluppo e occupazione».
+&nbsp;
+&nbsp;
+&nbsp;
+
+[post_text_93]
+Caposele - Farina contro Monteverde per la sfida a sindaco
+&nbsp;
+Caposele – Due liste in campo per la poltrona di primo cittadino. Da una parte  “Nuovi Orizzonti” con candidato a sindaco Gerardo Monteverde , dall’altra  “Caposele nel cuore” con Pasquale Farina.
+ Dopo un anno di commissariamento si ritorna al voto: un ingegnere contro un medico. Tutto nelle previsioni: con Monteverde, sono candidati, Annibale Castagna, Pietro Cerulo, Francoantonio Cibellis, Antonietta Colatrella, Gerardina D’Alessio, Gaetano Grasso, Raffaele Grasso, Pietro Lavanga,  Salvatore Marsico, Lorenzo Melillo, Donato Merola, Giuseppe Russomanno, Giulio Sozio, Ettore Spatola e Vincenzo Zanca .
+Con Pasquale  Farina, i candidati, Salvatore Casillo, Angelo Ceres, Tommaso Cibellis, Giannino Ciccone, Donatella Cirillo, Raffaele Corona, Salvatore Conforti, Gerardo De Masi,  Gerardo Freda,  Raffaella Gonnella,  Rocco Gaurino, Vito Malanga, Nunzia Mattia, Alfonso Pallante, Alfonsina Rosalia, Salvatore Russomanno
+(domenica 16 marzo 2008 alle 11.14)
+&nbsp;
+
+[post_text_94]
+Caposele - “Nuovi Orizzonti” si presenta: domenica la prima uscita
+&nbsp;
+Caposele - La sorpresa più bella nel grande uovo della Pasqua caposelese. “Nuovi Orizzonti” toglie il velo e si presenta agli elettori. Domenica prossima  nel giorno di Pasqua, la cerimonia, prevista nell’Aula polifunzionale di piazza XXIII Novembre, a Caposele. La lista capeggiata dal candidato sindaco Gerardo Monteverde, farà dunque la sua prima uscita in una giornata speciale, quella della festività pasquale.   La presentazione è prevista per le ore 20.
+&nbsp;
+Tutto è quasi pronto tra i 16 candidati ed il capolista Monteverde. Si limano i dettagli per mettere su un’uscita spumeggiante, ma che, come d’abitudine, si fonderà sulla pacatezza e la moderazione che contraddistingue lo schieramento. Uno schieramento colmo di umiltà, di vicinanza al popolo, quel popolo da cui provengono, fieramente, tutti e 16 i candidati. Una lista che quest’anno muta ancora leggermente nel simbolo e nel nome, passando da “L’Arcobaleno” a “Nuovi Orizzonti”. Scelta dovuta, dopo l’appropriazione dello stesso nome, per le elezioni Politiche, da parte della “Sinistra Arcobaleno”. Cambia anche leggermente il simbolo rispetto all’anno scorso, con una scelta grafica un po’ più complessa. Ma resta intatto il significato, l’arcobaleno, gli orizzonti, il cielo, il mare da salpare. Resta intatto quel progetto di “Nuovi Orizzonti”, colmo di tanta voglia di navigare verso orizzonti inesplorati. Velocemente. Come resta intatto l’affetto di Caposele per una compagine che ha saputo guadagnarsi la sua simpatia dopo averlo saputo risollevare dall’inerzia e la regressione nella quale era piombato agli inizi degli anni ’90. “Nuovi Orizzonti” c’è ancora, con uno slogan preciso: “La forza delle idee per arrivare lontano”. Ancora più lontano.
+ (martedì 18 marzo 2008 alle 18.21)
+&nbsp;
+
+[post_text_95]
+Elezioni/ Caposele, domenica “Nuovi orizzonti” in piazza
+&nbsp;
+redazione - 19.03.08, 10:29 am
+&nbsp;
+“Nuovi Orizzonti” si presenta agli elettori. Domenica prossima (e non questa sera, come inizialmente pensato), nel giorno di Pasqua, la cerimonia, prevista nell’Aula polifunzionale di piazza XXIII novembre, a Caposele.
+La lista capeggiata dal candidato al ruolo di primo cittadino, Gerardo Monteverde, ingegnere ed insegnante con una ricca e degna carriera amministrativa alle spalle, farà dunque la sua prima uscita nella giornata della festività pasquale. La presentazione è prevista dunque per le 19.00.
+Chiaro lo slogan dello schieramento elettorale: “La forza delle idee per arrivare lontano”.
+&nbsp;
+
+[post_text_96]
+21/03/2008
+CAPOSELE
+Tra Farina e Monteverde confronto sul turismo
+&nbsp;
+Non c’è solo il turismo, specialmente quello religioso, tra i punti cardine dei programmi elettorali di Pasquale Farina e Gerardo Monteverde, candidati alla carica di sindaco di Caposele. Anzi, per i due aspiranti primo cittadino, quello di creare un maggiore indotto turistico, con nuove opportunità e prospettive per il comune ed i giovani, intorno alla figura di San Gerardo non pare essere l’interesse principale. O meglio, Farina e Monteverde puntano soprattutto alla valorizzazione della risorsa acqua per garantire nuovi introiti alle casse comunali da sfruttare poi per progetti inerenti il turismo. Il candidato di ”Caposele nel cuore” che, durante l’anno di commissariamento, ha organizzato un importante convegno sulla risorsa acqua, oggi punta a «rivedere l'impegno con l’acquedotto Pugliese». Farina ritiene necessaria una rivisitazione del contratto per garantire un maggior ristoro alle casse comunali. Ma non solo. Un’idea del gruppo è, infatti, quella di «aprire ai visitatori le sorgenti dalle quali attinge l'acquedotto Pugliese», per creare un nuovo indotto turistico e occupazionale. Monteverde, dal canto suo, annuncia che «rilanceremo con forza la questione relativa alla risorsa acqua, puntando a sbloccare l’accordo di programma già sottoscritto tra Regione, Provincia, Ato, Autorità di Bacino e comuni di Cassano e Caposele, per ottenere quello che la legge definisce ”ristoro della risorsa o delle mancate opportunità”, già concesso ai comuni della regione Basilicata dai quali la Puglia preleva acqua». Secondo il capolista di ”Nuovi orizzonti”, ”la regione Puglia si è sempre detta disponibile a mettersi intorno ad un tavolo per discutere la questione”.
+MICHELE DE LEO
+&nbsp;
+&nbsp;
+&nbsp;
+
+[post_text_97]
+25/03/2008
+CAPOSELE: SI PRESENTA LO SCHIERAMENTO DI MONTEVERDE
+«Risolleveremo un paese spaccato»
+Ha scelto il giorno di Pasqua, Gerardo Monteverde (nella foto) per presentare alla comunità di Caposele la sua «Nuovi orizzonti». Ad introdurre i lavori il presidente del circolo «L'arcobaleno», Rodolfo Cozzarelli, dal quale è partita una critica alla scelta degli avversari di disertare i seggi nella competizione dello scorso anno. Una scelta che non solo ha aperto le porte alla gestione commissariale, ma ha anche «spaccato il paese». Tutti i candidati hanno preso la parola e, insieme a loro, anche Michele Notaro e Rocco Russomanno, ex assessori, che hanno motivato la loro scelta di fare un passo indietro rispetto alla questione candidatura, confermando pieno sostegno alla lista di Monteverde. Presenti in sala anche altri due dei non candidati rispetto alla formazione di un anno fa: Rosaria Ceres e l’altro Rocco Russomanno, anch'egli ex assessore. Monteverde, dal canto suo, ha evidenziato la scelta di accettare la sfida della componente più giovane del gruppo: «Abbiamo raccolto l'invito a cambiare il rapporto tra i cittadini e gli amministratori. Per questo, impronteremo la nostra attività su trasparenza, condivisione, lavorando per rimanere tra la gente anche dopo le elezioni, raccogliendo umori, sensazioni ed esigenze dei cittadini». Il candidato di «Nuovi orizzonti» ha, poi, illustrato la prima parte del programma amministrativo. Monteverde, infatti, ha inteso presentare un primo mini-programma, diviso tra Caposele centro, Materdomini e le contrade rurali, riferito solo all'attività del primo anno. Molto spazio alle opere pubbliche, con la realizzazione di un locale da adibire ad attività artistico culturali per i giovani, ma anche la scelta di un ufficio relazioni con il pubblico ed avviare Puc, piano traffico e attivare il Pip.
+mi.dl.
+&nbsp;
+&nbsp;
+&nbsp;
+
+[post_text_98]
+Caposele - “Nuovi Orizzonti” prosegue la sua campagna elettorale
+&nbsp;
+La nave di “Nuovi Orizzonti” procede a gonfie vele verso la sua meta. La compagine guidata da Gerardo Monteverde sta preparando il rush finale della campagna elettorale. In fase di ultimazione le uscite pubbliche che porteranno lo schieramento verso le elezioni del 13 e 14 aprile.
+ Gli uomini capitanati dall’ingegnere Monteverde, stanno mettendo a punto le uscite pubbliche che metteranno in moto di fatto la campagna elettorale caposelese 2008. Già è stato organizzato un incontro in contrada Buoninventre per domenica 2 aprile, presso la località Temete. In fase di ultimazione il calendario completo delle uscite, che si concentreranno in ogni caso, come di consueto, maggiormente nell’ultima settimana che precede la due giorni dedicata alle votazioni.
+  Intanto “Nuovi Orizzonti” registra il grande affetto ed un immenso calore da parte di Caposele e di tantissimi caposelesi, che stanno manifestando grande entusiasmo attorno alla lista che porta i colori dell’arcobaleno. Sempre viva e colma di entusiasmo, di gente che desidera finalmente varcare il confine di orizzonti nuovi, la fresca sezione inaugurata in piazza XXIII Novembre. Massima serenità anche tra i 16 candidati, che stanno procedendo molto compatti verso il 13 e 14 aprile.
+(giovedì 27 marzo 2008 alle 16.22)
+&nbsp;
+
+[post_text_99]
+Elezioni/ Caposele, Nuovi orizzonti parte con il tour
+&nbsp;
+redazione - 01.04.08, 10:13 am
+&nbsp;
+Entra nel vivo la campagna elettorale di Caposele e “Nuovi Orizzonti”, la compagine guidata dall’aspirante sindaco, Gerardo Monte-verde, continua il ciclo degli incontri pubblici.
+Dopo la presentazione della lista, il ritmo degli appuntamenti e della propaganda, infatti, è aumentato. Domani alle 20.00, infatti, presso Contrada Buoninventre ci sarà un’importantissima riunione con gli agricoltori della zona per fare il punto della situazione. «Puntiamo molto sulle coltivazioni biologiche - spiega Monteverde - e abbiamo intenzione di predisporre un regolamento di polizia rurale per la manutenzione delle strade e la regimentazione delle acque piovane. Visto che questa è una grande area di campagna, possiamo sfruttare soprattutto i frutti dell’agricoltura biologica, quale volano e traino dell’economia locale».
+Venerdì, invece, “Nuovi Orizzonti”. incontrerà i residenti di Materdomini, per parlare di turismo e dei punti del progetto elettorale riguardanti lo sviluppo economico locale e, in particolare, il settore commercio. «E’ necessario ascoltare dai diretti interessati quali possono essere le priorità da dover affrontare - dice Monteverde -. E per questo dobbiamo lavorare».
+Domenica, infine, alle 20.00, nella piazza principale di Caposele, è previsto un discorso più analitico, nel corso del quale il candidato a sindaco spiegherà agli abitanti del paese i capisaldi della sua programmazione politica e agli indecisi che la stessa è pensata e scritta con grande amore per la comunità. Non mancheranno, però, frecciate verso la lista avversaria. «Parlerò di alcuni punti importanti del programma - conclude tra i quali l’occupazione. Stiamo avendo ampi consensi anche nel corso del “porta a porta”, spero che sarà una battaglia elettorale serena e senza attacchi personali».
+Antonio Emilio Prudente
+&nbsp;
+
+[post_text_100]
+Caposele - Voto: “Nuovi Orizzonti” incontra le frazioni
+&nbsp;
+Tre le uscite previste in questa settimana. “Nuovi Orizzonti” prepara il rush finale di questa campagna elettorale 2008. Lo schieramento guidato dal candidato sindacoGerardo Monteverde ha in programma nei prossimi cinque giorni tre uscite, due delle quali nelle frazioni di Materdomini e Buoninventre.  Si parte domani sera, in località Temete, dove gli uomini di Monteverde incontreranno gli abitanti appunto di Buoninventre, vasta frazione caposelese ai confini con la limitrofa Teora. Un incontro in cui interloquire con i presenti, ascoltare richieste e problematiche. E’ stato questo il motivo per cui si è deciso di non organizzare il solito comizio, ma un vero e proprio faccia a faccia, un filo diretto con gli elettori. L’appuntamento è per le ore 20.
+Stesso discorso per venerdì sera, presso il teatro del santuario di San Gerardo. Anche qui gli uomini di “Nuovi Orizzonti” incontreranno gli elettori della frazione di Materdomini, e anche qui per ascoltare le loro richieste e le loro esigenze. Chiusura di settimana in piazza XXIII novembre, domenica sera, con il comizio del candidato sindaco Monteverde. Uscita che lancerà di fatto l’ultima, intensa settimana di campagna elettorale che porterà al voto del 13 e 14 aprile.
+Intanto “Nuovi Orizzonti” manifesta tutto il proprio cordoglio e la propria vicinanza a Gerardo Freda, candidato della lista avversaria, al quale, in queste ore, è venuta a mancare la cara esistenza del padre. L’intera compagine, lo staff ed i sostenitori di “Nuovi Orizzonti” sono vicini alla famiglia Freda.
+(martedì 1 aprile 2008 alle 13.16)
+&nbsp;
+
+[post_text_101]
+06/04/2008
+Monteverde: «Siamo la continuità»
+&nbsp;
+PAOLA DE STASIO Caposele. Una campagna elettorale dai toni piuttosto bassi. «In effetti è proprio così - commenta Gerardo Monteverde candidato sindaco della lista civica all'insegna della continuità con le amministrazioni degli ultimi 8 anni - noi abbiamo scelto un approccio più confidenziale con gli elettori programmando una serie incontri nelle varie contrade, in questo modo abbiamo la possibilità di dialogare con la gente, illustrare i nostri progetti. Durante la prossima amministrazione dobbiamo iniziare a raccogliere i frutti dei progetti messi in cantiere. Mi pare che anche i nostri avversari hanno riconosciuto la validità del lavoro svolto finora. Siamo fieri di essere una lista civica, ed anche su questo hanno seguito il nostro esempio, prima erano orgogliosi di mostrare la loro appartenenza politica e i loro sponsor, adesso cercano di camuffarla».
+Su questo punto risponde l'avvocato Giuseppe Palmieri, esponente di punta del Pd, e sostenitore della lista di centrosinistra che ha come candidato sindaco il dottor Pasquale Farina: «Dell'ex e compianto sindaco Giuseppe Melillo, anche se continuo a contestare varie scelte - puntualizza Palmieri - ho però rivalutato il suo civismo, inteso nella capacità di candidare persone che hanno un radicamento sul territorio. La nostra lista questa volta ha un candidato sindaco come Pasquale Farina che, essendo medico, sicuramente avrà una maggiore capacità di raccogliere consensi, di entrare nelle case. Questo fattore insieme alla volontà di cambiamento che si avverte in giro dovrebbe favorirci». Perché Giuseppe Palmieri non si è candidato a sindaco? «Non è una mia velleità - c'era una certa riluttanza soprattutto da parte di qualche vecchio esponente di partito».
+&nbsp;
+&nbsp;
 &nbsp;

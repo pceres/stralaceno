@@ -6,6 +6,11 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+07/04/2008::Risultato: Sp. Club Nusco - FC Caposele 1-2
+03/04/2008::Prossima partita: Sp. Club Nusco - FC Caposele, domenica 6 aprile ore 16.00 a Rocca San Felice.
+31/03/2008::Risultato: FC Caposele - Lupi Trevico 9-2
+27/03/2008::Prossima partita: FC Caposele - Lupi Trevico, domenica 30 marzo ore 16.00 stadio Palmenta.
+13/03/2008::Come da caldendario, il Girone F del Campionato di III Categoria di Avellino riprender&agrave; il 29-30/03/2008.
 09/03/2008::Risultato: Real S.Andrea di Conza - FC Caposele 1-0
 06/03/2008::Prossima partita: Real S.Andrea di Conza - FC Caposele, domenica 9 marzo ore 15.00 a S.Andrea di Conza.
 02/03/2008::Risultato: FC Caposele - Sporting Ever Green 3-0

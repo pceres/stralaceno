@@ -1,0 +1,25 @@
+Autore::Ars
+Titolo::Maratona di Roma 2008
+--- Begin body ---
+<br>
+14.563 i partecipanti alla la XIV edizione della Maratona della Città di Roma, che si &egrave; svolta domenica 16 marzo 2008.<br>
+<br> Tra loro anche tre rappresentanti degli Amatori Running Sele: Francesco Ceres, Gianni Sozio e Alessandro Russomanno.
+<br>
+Francesco Ceres ha portato a termine la gara in 4h e 15 min.; Gianni Sozio ha percorso 35 km; Alessandro Russomanno ha concluso la Mezza Maratona (km 21,097).
+<br>
+<br>
+<div align="center">
+<img id="Roma_2008" src="%file_root%custom/album/Roma_08/rm_08_12.jpg" alt="Francesco Ceres percorre l'ultimo km" border="0" width="380">
+<br>
+</div>
+<br>
+<br>
+<div align="center">
+<img id="Roma_2008" src="%file_root%custom/album/Roma_08/rm_08_2.jpg" alt="Alessandro, Gianni, Francesco" border="0" width="380">
+<br>
+</div>
+<br>
+<br>
+<i>Le foto, scattate da Sandro Russomanno, sono disponibili <a href="album.php?anno=Roma_08">qui</a></i>
+<br><br>
+--- End body ---

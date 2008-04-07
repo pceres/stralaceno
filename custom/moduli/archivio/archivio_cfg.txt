@@ -6,6 +6,7 @@
 # formato elenco_album:  tag_album::nome_album::descrizione
 #
 [elenco_album]
+Roma_08::Roma 2008::Maratona di Roma del 16 marzo 2008
 Mercogliano_07::Mercogliano 2007::Corsa podistica "X marcialonga in salita Mercogliano - Montevergine" di km 16,5 del 30/06/2007
 Siano_07::Siano 2007::Corsa podistica "III notturna sianese" di km 10 del 16/06/2007
 Paestum_07::Paestum 2007::Corsa podistica "Sulle orme di Filippide" di 10 km del 05/05/2007
@@ -21,6 +22,9 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
+55::homepage::Correre per stare bene::Runners.it
+1::homepage::ARS: nuovo Direttivo dal 22.03.2008::
+54::homepage::Maratona di Roma 2008::
 53::homepage::Correre da' euforia::Ansa
 52::homepage::Inizia la stagione 2008::Paolo Viscardi
 51::homepage::Affiliazione ARS allo Csen -anno 2008-::
@@ -67,7 +71,7 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 4::homepage::Allenarsi alla Palmenta::
 3::homepage::Cos'&egrave; la corsa campestre::
 2::homepage::Caposele::
-1::homepage::ARS Amatori Running Sele::
+
 
 #
 # formato elenco_pagine:  tag_pagina::titolo_pagina::titolo::autore

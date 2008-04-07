@@ -11,7 +11,6 @@ L’ordine del giorno prevede:<br>
 3.	Programmazione attività anno 2008.
 <p>&nbsp;
 <div align="center">
-<img id="logo_ars" src="%file_root%custom/album/ars/ars.jpg" alt="logo_ars" border="0" width="200">
+<img id="logo_ars" src="%file_root%custom/album/ars/Stemma_Caposele_Malanga_V.jpg" alt="logo_ars" border="0" width="260">
 </div>
-<br>
 --- End body ---
