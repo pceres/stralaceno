@@ -15,5 +15,5 @@ http://www.caposeleonline.it::Caposeleonline
 http://www.podistidoc.it/::Podistidoc
 http://www.servizinews.it/servizi/podismo/podismo00.htm::Calendario podistico
 http://www.fidal.it/::Fidal
-http://digilander.libero.it/fidalcampania/::Fidal Campania
+http://www.fidalcampania.com::Fidal Campania
 http://www.fidalavellino.it:: Fidal Avellino
