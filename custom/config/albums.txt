@@ -110,7 +110,7 @@ GelM.jpg::Gelsomino Merola::
 SP.jpg::Saverio Perna::
 AG.jpg::Armando Grasso::
 RF.jpg::Rocco Feniello::
-
+DCe.jpg::Donato Ceres::
 
 [Roccadaspide_06]
 Roccadasp_040_1.jpg::evento::Foto di gruppo ARS, Gerardo, Paolo, Alessandro e Salvatore C.::
@@ -320,3 +320,19 @@ ac0720.jpg::allenamento collettivo 2007::fase di rilassamento circondati dal bos
 ac0721.jpg::allenamento collettivo 2007::ormai &egrave; fatta, solo pochi km in discesa::
 ac0722.jpg::allenamento collettivo 2007::arrivo in piazza Sanit&agrave;::Francesco Ceres, Salvatore Merola e Giuseppe Martino
 ac0723.jpg::allenamento collettivo 2007::alla fine fotoricordo:purtroppo alcuni erano gi&agrave; andati via::
+
+[Roma_08]
+rm_08_1.jpg::
+rm_08_2.jpg::
+rm_08_3.jpg::
+rm_08_5.jpg::
+rm_08_8.jpg::
+rm_08_9.jpg::
+rm_08_10.jpg::
+rm_08_11.jpg::
+rm_08_12.jpg::
+
+[Agropoli_08]
+HAgr1.jpg::
+HAgr2.jpg::
+HAgr.jpg::
