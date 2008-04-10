@@ -51,6 +51,7 @@ file::file_domanda_associazione_minorenni_ars::Modulo Domanda di Associazione Mi
 [folder_Rendiconti]
 file::file_rendiconto_e_relazione_ARS_2005::Rendiconto e Relazione ARS anno 2005::Rendiconto economico finanziario relativo all'esercizio 2005, e breve relazione::Rendiconto e Relazione anno 2005 ARS.pdf::::admin::22:07 04/07/2007::22
 file::file_rendiconto_e_relazione_ARS_2006::Rendiconto e Relazione ARS anno 2006::Rendiconto economico finanziario relativo all'esercizio 2006, e breve relazione::Rendiconto e Relazione anno 2006 ARS.pdf::::admin::22:07 04/07/2007::22
+file::file_rendiconto_e_relazione_ARS_2007::Rendiconto e Relazione ARS anno 2007::Rendiconto economico finanziario relativo all'esercizio 2007, e breve relazione::Rendiconto e Relazione anno 2007 ARS.pdf::::admin::22:07 04/07/2007::2
 
 [folder_Sezione_soci]
 folder::folder_richiesta_finanziamento_regione_2006::Richiesta di finanziamento alla regione Campania (2006)::Documentazione relativa alla richiesta di finanziamento alla regione Campania nel 2006::richiesta finanziamento regione::soci_ars::admin::22:07 04/07/2007::6
