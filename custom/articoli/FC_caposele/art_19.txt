@@ -36,7 +36,7 @@ Titolo::Risultati e Classifica III cat. 2007/08
 	<td> &nbsp;REAL S.ANDREA CONZA</td>
 	<td> &nbsp;-&nbsp; </td>
 	<td>CASABIANCHI TREVICO</td>
-	<td>3-0</td>
+	<td>1-0</td>
 </tr>
 <!-- match # 5 -->
 <tr>
@@ -138,9 +138,9 @@ Titolo::Risultati e Classifica III cat. 2007/08
 	<td>9</td>
 	<td>5</td>
 	<td>5</td>
-	<td>30</td>
+	<td>28</td>
 	<td>27</td>
-	<td>3</td>
+	<td>1</td>
 	<td>-7</td>
 </tr>
 <!-- # pos. 5 in classifica -->
@@ -279,8 +279,8 @@ Titolo::Risultati e Classifica III cat. 2007/08
 	<td>2</td>
 	<td>14</td>
 	<td>8</td>
-	<td>39</td>
-	<td>-31</td>
+	<td>37</td>
+	<td>-29</td>
 	<td>-26</td>
 </tr>
 </tbody>

@@ -1,0 +1,25 @@
+Autore::Ars
+Titolo::IX Agropoli Half Marathon
+--- Begin body ---
+<br>
+La IX edizione della Agropoli Half Marathon, con oltre 1300 iscritti, si &egrave;  stata disputata il 6 aprile 2008.
+<br>
+Gara affascinante con un percorso, d'evocazione storica greco-romano, complessivamente pianeggiante, 
+tranne l'arrivo nella piazza principale di Agropoli con gli ultimi 700 metri finali in salita, che ha messo a dura prova
+gli atleti.
+<br>
+La gara ha preso il via alle 9,30 da P.zza Vittorio Veneto, dopo una leggera discesa, si &egrave;  passati sul lungomare San Marco, successivamente si &egrave; entrati nel territorio di Capaccio-Paestum, facendo il giro delle mura della vecchia citt&agrave; passando davanti allo scenario dei templi, per poi ritornare ad Agropoli.<br>
+Una mezza maratona che ha esaltato le qualità podistiche dei partecipanti, anche se non si pu&ograve; definire gara facile 
+per un discreto vento contrario che ha ostacolato la corsa dei partecipanti in molti tratti.
+<br><br>
+1066 sono stati gli atleti che hanno completato la gara, tra loro anche 8 rappresentanti degli Amatori Running Sele: Paolo Viscardi, Salvatore Merola, Francesco Ceres, Alessandro Russomanno, Gianni Sozio, Donatello Cirillo, Gerardo Martino, Giuseppe Rosania.
+<br><br>
+La classifica la trovate <a href="download.php?resource_type=file&amp;resource_id=file_Agropoli_08">qui</a>.
+<br><br>
+<div align="center">
+<img id="Agropoli_2008" src="%file_root%custom/album/Agropoli_08/HAgr1.jpg" alt="Il maestro Giuseppe Rosania dopo circa 2 km dal via" border="0" width="500">
+</div>
+<br><br>
+Tra qualche giorno sar&agrave; disponibile l'album fotografico della corsa.
+<br>
+--- End body ---

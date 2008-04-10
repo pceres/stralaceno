@@ -22,6 +22,7 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
+56::homepage::IX Agropoli Half Marathon::Ars
 55::homepage::Correre per stare bene::Runners.it
 1::homepage::ARS: nuovo Direttivo dal 22.03.2008::
 54::homepage::Maratona di Roma 2008::

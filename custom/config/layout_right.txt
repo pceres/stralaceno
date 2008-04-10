@@ -75,8 +75,7 @@ link_genealogia::Genealogia caposelese::external_link::PhpGedView/index.php::::
 [Bacheca ARS]
 soci::I soci ARS::modulo_custom::::
 link_forum_riservato_ARS::Forum riservato ai soci ARS::external_link::forum.php?action=list_topics&data=1::::
-rendiconto_2005_ARS::Rendiconto e relazione ARS 2005::external_link::download.php?resource_type=file&resource_id=file_rendiconto_e_relazione_ARS_2005
-rendiconto_2006_ARS::Rendiconto e relazione ARS 2006::external_link::download.php?resource_type=file&resource_id=file_rendiconto_e_relazione_ARS_2006
+rendiconto_2007_ARS::Rendiconto e relazione ARS 2007::external_link::download.php?resource_type=file&resource_id=file_rendiconto_e_relazione_ARS_2007
 
 [Approfondimenti]
 flash_news::News ARS::modulo_custom::::

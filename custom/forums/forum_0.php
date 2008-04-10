@@ -24,7 +24,7 @@ Formato [elenco_topics]:
 7::le sfide della Stralaceno::open::::::foxy::119::118
 8::soddisfatti della stralaceno edizione 2006???::open::::::cabo86::5::4
 9::Discussione::open::::::Antonio::155::141
-10::ci siete?????::open::::::cabo::21::20
+10::ci siete?????::open::::::cabo::22::21
 11::La nuova sezione ciclismo::open::::::Donato Gervasio::12::11
 12::Allenamento Collettivo 30-12-2006::open::::::Ars::40::39
 13::per nazòn::hidden::::::antonio::4::3

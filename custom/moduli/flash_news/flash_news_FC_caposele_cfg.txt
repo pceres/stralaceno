@@ -6,6 +6,7 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+10/04/2008::Prossima partita: FC Caposele - Castel Baronia, sabato 12 aprile ore 16.00 stadio Palmenta.
 07/04/2008::Risultato: Sp. Club Nusco - FC Caposele 1-2
 03/04/2008::Prossima partita: Sp. Club Nusco - FC Caposele, domenica 6 aprile ore 16.00 a Rocca San Felice.
 31/03/2008::Risultato: FC Caposele - Lupi Trevico 9-2

@@ -333,6 +333,8 @@ rm_08_11.jpg::
 rm_08_12.jpg::
 
 [Agropoli_08]
+HAgr3.jpg::
+HAgr4.jpg::
 HAgr1.jpg::
 HAgr2.jpg::
 HAgr.jpg::

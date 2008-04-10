@@ -11,12 +11,14 @@ Una gara sicuramente nuova, in condizioni veramente particolari (sterrato e fort
 Due componenti della nostra squadra, Francesco Ceres (quarto assoluto) e Saverio Perna, grazie alle loro ottime prestazioni, sono riusciti ad ottenere due terzi posti nelle loro rispettive categorie. <br>
 Nulla da togliere a Salvatore Merola, Alessandro Russomanno, Paolo Viscardi, Donatello Cirillo e Angelo Ceres, che hanno comunque portato a termine una buonissima gara. <br><br>
 <div align="center">
-<img id="Eboli08" src="%file_root%custom/album/ars/eb1.jpg" alt="Saverio Perna (a sinistra nella foto)" border="0" width="320">
+<img id="Eboli08_1" src="%file_root%custom/album/ars/eb1.jpg" alt="Saverio Perna (a sinistra nella foto)" border="0" width="320">
 </div><br>
 Insomma come primo evento dell' anno ci lascia ben sperare per l'intera stagione podistica, ed ora che, nella maggior parte delle gare future, gli Amatori Running Sele gareggeranno per la classifica a squadre, ci sar&agrave; da divertirsi, avendo ognuno di noi una ancora pi&ugrave; forte motivazione di fare bene. Ora non ci resta che prendere il calendario delle gare podistiche tra le  mani e partire per questa bellissima avventura che terr&agrave; tutti col fiato sospeso.
 <br>
 <br>
 <div align="center">
-<img id="Eboli08" src="%file_root%custom/album/ars/eb4.jpg" alt="Salvatore Merola, Francesco Ceres, Paolo Viscardi, Angelo Ceres" border="0" width="360">
+<img id="Eboli08_2" src="%file_root%custom/album/ars/eb4.jpg" alt="Salvatore Merola, Francesco Ceres, Paolo Viscardi, Angelo Ceres" border="0" width="360">
 </div><br>
+La classifica la trovate <a href="download.php?resource_type=file&amp;resource_id=file_campestre_Eboli_2008">qui</a>.
+<br><br>
 --- End body ---

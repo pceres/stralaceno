@@ -32,6 +32,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 18::da CorriereIrpinia.it::06/03/2008 10.48.12::visible
 19::da Il Mattino::02/04/2008 00.12.07::visible
 20::da CorriereIrpinia.it::03/04/2008 10.11.46::visible
+21::da CorriereIrpinia.it::10/04/2008 10.22.08::visible
 
 [post_text_0]
 we allora, le polemiche sullo sport caposelese per ora sembra siano terminate. Abbiamo assistito ad uno bel dibattittio, coinvolgendo molte persone. Ma quello che sto cercando di dirvi e che se io posso cambiare e voi potete cambiare, tutto il mondo può cambiare. Questa era una frase tratta dal film di ROCKY, comununque con questo voglio dire che tutte le polemiche non sono mai servita a nulla, piuttosto bisogna cecare di essere quanto più uniti mettendo sul tavolo le proprie idee, ed allora a questo punto le cose potranno cambiare in modo positivo. tutto questo penso che sia la chiave di tutto.
@@ -218,3 +219,17 @@ Ad oggi è già sul 50% del territorio caposelese il segnale proveniente dalle For
 A Calabritto la situazione è differente. Lungo la dorsale dei lavori, sul tragitto che collega Calabritto a Caposele, gli interventi della società Infratel hanno ormai raggiunto la località di Persano, a cavallo tra i due territori comunali e proseguiranno in direzione della centrale di località San Vito: da lì il cablaggio proseguirà in direzione Ponte Sele dove è presente una cabina per lo smistamento dati.
 &nbsp;
 &nbsp;
+
+[post_text_21]
+Caso Adsl, lavori in tilt: il Comitato cittadino scrive al Commissario
+&nbsp;
+Caposele - Adsl a Caposele? E’ ancora un’enigma e Cittadinanz@ttiva si mobilita per riappropriarsi di un servizio che attende da ben due anni e, che per via del rallentamento dei lavori (estesi anche a Calabritto) è bloccato.
+Così il comitato civico, per maggiore trasparenza sul caso, chiede aiuto al Commissario Prefettizio Mario La Montagna e ai due candidati a sindaco Gerardo Monteverde e Pasquale Farina. Al primo risolvere concretamente la questione, ai secondi per sensibilizzarli all’argomento, visto che sono in corsa verso la gestione comunale.
+&nbsp;
+Nino Chiaravallo, uno degli iscritti al comitato spiega il senso ed il contenuto dell’esposto inviato alle suddette Istituzioni:«Il comitato ha chiesto per iscritto al Commissario di verificare la legittimità dei lavori di scavo. Lavori che la ditta sta effettuando nel Comune di Caposele per portare l’Adsl anche a Calabritto.
+L’autorizzazione ad effettuare i lavori, secondo quanto appreso da fonti certe, sarebbe scaduta e non sarebbe stata rinnovata. I lavori, quindi starebbero proseguendo senza le dovute autorizzazioni».
+Basterebbe sostituire la centralina telefonica, attualmente analogica con quella digitale per risolvere almeno una parte del problema.Ma fino ad oggi e da ben due anni non si è visto ancora nulla. Intanto, ci spiega Chiaravallo: «per dare a Calabritto la possibilità di avere un collegamento Adsl noi caposelesi ne paghiamo le spese. Quindi, oltre al danno anche la beffa. Il nostro Comitato si fa promotore della risoluzione, ma naturalmente chiede il sostegno degli organi superiori». L’esposto di Cittadinanz@ttiva ha, quindo, come oggetto “l’esecuzione dei lavori di scavo per la realizzazione di infrastrutture su strade comunali”. «Il responsabile del Settore Urbanistico e Governo del territorio ha autorizzato la società infrastrutture e telecomunicazioni per l’Italia spa ad eseguire i lavori di scavo per l’installazione di cavi telefonici dentro e fuori il centro urbano di Caposele e sulla via San Giovanni di Calabritto.
+L’autorizzazione è stata rilasciata con espressa previsione di validità per mesi tre a partire dal sedici agosto duemilasette ( data di emissione dei Ma, cittadinanz@ttiva - continua l’esposto - attraverso il delegato Direttivo Regionale Antonio Cione, fa presente che, però:«Come è noto oltre che rilevabile dal cartello apposto in via lungosele IV novembre, i relativi lavori sono stati consegnati solo il quindici febbraio scorso ( ed iniziati subito dopo) e per gli stessi è prevista l’ultimazione il trenta agosto prossimo con l’evidente conseguenza della loro totale e dichiarata esecuzione in difetto di autorizzazione vigente». Per questo motivo, attraverso un esposto inviato al Commissario Prefettizio e alla Procura della Repubblica di Sant’Angelo dei Lombardi si chiede di «Predisporre urgenti adempimenti atti ad assicurare il rispetto della legge, compresa la sospensione dei lavori in caso di irregolarità».
+Ma prima di avviare i lavori il progettista non ha calcolato le difficoltà e le possibili conseguenze negative allo scavo?«Questo non lo so, sinceramente non sono a conoscenza. E poi l’argomento è anche tecnico - spiega Chiaravallo - l’unica cosa che posso dire è che siamo in attesa del servizio da tempo, basterebbe cambiare centralina telefonica, sempre tutto secondo autorizzazione. Speriamo, come associazione di poter sensibilizzare anche i due candidati a sindaco al problema. Almeno per quanto sembra, non mostrano tanta attenzione al caso Adsl. Eppure al giorno d’oggi quasi tutti i Comuni usufruiscono dell’Adsl utile per gli uffici e le scuole».
+&nbsp;
+10/04/2008

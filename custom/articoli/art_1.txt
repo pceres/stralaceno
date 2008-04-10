@@ -16,7 +16,7 @@ Segretario Amministrativo: ALESSANDRO RUSSOMANNO
 <br>
 Consigliere: NICOLA D'AURIA
 <br><br>
-<b>Il Verbale della riunione del Consiglio Direttivo del 22.03.2008</b>&egrave; disponibile <a href="download.php?resource_type=file&amp;resource_id=file_">qui</a>.
+Il Verbale della riunione del Consiglio Direttivo del 22.03.2008 &egrave; disponibile <a href="download.php?resource_type=file&amp;resource_id=file_direttivo_08">qui</a>.
 <br><br>
 <div align="center">
 <img id="Roma_2008" src="%file_root%custom/album/Soci_ars/PV2.jpg" alt="Il neo presidente Paolo Viscardi" border="0" width="160">
