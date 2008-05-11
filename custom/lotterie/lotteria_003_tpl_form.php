@@ -158,23 +158,23 @@ $archivio_domande = Array(
 	Array(8,"In che mese si festeggia la Madonna della Sanità?" ,
 			Array("Luglio","Agosto","Settembre","Ottobre")  						,"0100"),
 
- 	Array(9,"Da dove posso vedere la preta r' li cuorvi?"  ,
- 			Array("dalla Castagneta","da Pasano","da Persano","da San Giovanni")  				,"1000"),
+	Array(9,"Da dove posso vedere la preta r' li cuorvi?"  ,
+			Array("dalla Castagneta","da Pasano","da Persano","da San Giovanni")  				,"1000"),
 
 	Array(10,"Dove vennero ubicate le scuole elementari e medie di Caposele dopo il terremoto del 1980?"  ,
 			Array("ai Piani","a li fuossi","alla Sanità","al ponte") 					, "0010"),
 
-// 	Array(11,"Nel rispetto della tradizione, nell'anno 1974 a Caposele non e' nato nessun bambino con il nome di:"          ,
-// 			Array("Giuseppe","Rocco","Antonio","Aniello")							,"0001"),
+	Array(11,"Nel rispetto della tradizione, nell'anno 1974 a Caposele non e' nato nessun bambino con il nome di:"          ,
+			Array("Giuseppe","Rocco","Antonio","Aniello")							,"0001"),
 
-// 	Array(12,"Dov'e' Tredogge?"	,
-// 			Array("Alla foce del fiume","Vicino a Materdomini","In montagna","Alle sorgenti del Sele")	,"0001"	),
+	Array(12,"Che sport praticava Manliuccio?"           ,
+			Array("Tennis","Corsa","Calcio","Ciclismo")      						,"0010" ),
 
-// 	Array(13,"Chi era il sindaco di Caposele nel 2005?"  ,
-// 			Array("Alfonso Merola","Giuseppe Melillo","Antonio Corona","Agostino Montanari")  		,"0100" ),
+//	Array(13,"Dov'e' Tredogge?"	,
+//			Array("Alla foce del fiume","Vicino a Materdomini","In montagna","Vicino alle sorgenti del Sele")	,"0001"	),
 
-// 	Array(14,"Che sport praticava Manliuccio?"           ,
-// 			Array("Tennis","Corsa","Calcio","Ciclismo")      						,"0010" ),
+//	Array(14,"Chi era il sindaco di Caposele nel 2005?"  ,
+//			Array("Alfonso Merola","Giuseppe Melillo","Antonio Corona","Agostino Montanari")  		,"0100" ),
 
 );
 
