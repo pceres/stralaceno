@@ -16,7 +16,7 @@
 #
 [Attributi]
 #Sondaggio Europei 2008::attiva::no_auth::00:00 01/05/2008::24:00 18/06/2008::22:00 29/06/2008
-Sondaggio Europei 2008::attiva::no_auth::00:00 01/05/2007::24:00 18/06/2007::24:00 18/06/2007
+Sondaggio Europei 2008::attiva::no_auth::00:00 05/05/2008::24:00 06/06/2008::24:00 06/06/2008
 
 #
 # msg1::msg2::msg3
@@ -25,7 +25,7 @@ Sondaggio Europei 2008::attiva::no_auth::00:00 01/05/2007::24:00 18/06/2007::24:
 #	msg3: visualizzato dopo la chiusura delle giocate
 #
 [msg_date]
-Il sondaggio non &egrave; ancora aperto. Potrai giocare dalle 00:00 del 01/05::Si pu&ograve; giocare fino alle 24:00 del 18/06::Le giocate sono chiuse, la classifica sar&agrave; aggiornata dopo la disputa di ogni turno (ottavi, quarti, semifinali e finale).
+Il sondaggio non &egrave; ancora aperto. Potrai giocare dalle 00:00 del 05/05::Si pu&ograve; giocare fino alle 24:00 del 06/06::Le giocate sono chiuse, la classifica sar&agrave; aggiornata dopo la disputa di ogni turno (ottavi, quarti, semifinali e finale).
 
 # Formato riga [keyfiles]:
 # nome::caption::num_keys
