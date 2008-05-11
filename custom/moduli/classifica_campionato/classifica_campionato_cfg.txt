@@ -5,6 +5,13 @@
 
 ######################  inizio giornata 07  ######################
 
+
+#
+# titolo classifica
+#
+[titolo_classifica]
+Campionato di III categoria
+
 #
 # formato dati_giornata_NN:  titolo_tabella
 #

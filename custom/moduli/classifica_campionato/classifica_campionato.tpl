@@ -30,7 +30,11 @@
 <div align="justify" class="txt_normal">
 
 
-<h2 align="center">Campionato di III categoria</h2>
+<h2 align="center">
+%%%% begin classifica_campionato_cfg.txt titolo_classifica 1
+	%field0%
+%%%% end
+</h2>
 <br>
 
 <div align="center">
