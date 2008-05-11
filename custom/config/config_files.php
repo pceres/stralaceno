@@ -32,7 +32,7 @@ layout_left_ciclismo.txt::%config_dir%::colonna sin. ciclismo::admin::::d3692392
 # moduli
 lettere_sito_cfg.txt::%modules_dir%lettere_sito/::lettere al sito::admin::::d36923926ed59333afab0bba1a4ad5e5::custom/moduli/lettere_sito/lettere_sito.php::%modules_dir%
 soci_cfg.txt::%modules_dir%soci/::elenco soci e news ARS::admin::soci_ars::d36923926ed59333afab0bba1a4ad5e5::custom/moduli/soci/soci.php::%modules_dir%
-flash_news_cfg.txt::%modules_dir%flash_news/::News Flash::admin::soci_ars::d36923926ed59333afab0bba1a4ad5e5::custom/moduli/flash_news/flash_news.php::%modules_dir%
+flash_news_cfg.txt::%modules_dir%flash_news/::News Flash::admin::::d36923926ed59333afab0bba1a4ad5e5::custom/moduli/flash_news/flash_news.php::%modules_dir%
 flash_news_FC_caposele_cfg.txt::%modules_dir%flash_news/::News Flash sezione F.C. Caposele::admin::::d36923926ed59333afab0bba1a4ad5e5::custom/moduli/flash_news/flash_news.php?page=FC_caposele&amp;module_data=FC_caposele::%modules_dir%
 flash_news_ambiente_cfg.txt::%modules_dir%flash_news/::News Flash sezione ambiente::admin::::0cdaa4d3a5cfbe7cda4facf4d7501021::custom/moduli/flash_news/flash_news.php?page=ambiente&amp;module_data=ambiente::%modules_dir%
 siti_amici_cfg.txt::%modules_dir%siti_amici/::siti Caposele sul Web::admin::::f2a24930901df6192297dcfddfc096ef::custom/moduli/siti_amici/siti_amici.php::%modules_dir%
