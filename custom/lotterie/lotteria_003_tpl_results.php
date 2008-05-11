@@ -3,6 +3,7 @@
 // 
 // input impliciti:
 //	$lotteria_nome	: nome del sondaggio/lotteria
+//	$lotteria_fine_giocate : data di chiusura delle giocate
 // 	$giocate	: archivio delle giocate registrate (da lotteria_XXX_log.php)
 // 	$soluz_array	: dati strutturati (da lotteria_XXX_ans.php)
 // 	$soluz		: risposte esatte (usate per l'ordinamento)
@@ -23,6 +24,7 @@ print_header($lotteria_nome);
 //
 
 $visualizza_giocate_anonime = true;	// true -> vengono visualizzate anche le giocate che non hanno una chiave corretta (giocate anonime)
+$nascondi_pronostici_a_giocate_aperte = true; 	// true -> le giocate saranno visibili solo dalla data di chiusura delle giocate
 
 $indice_regola_eliminatorie 	= $lista_criteri['eliminatorie']; 	// [0..] posizione (tra le altre regole di ordinamento) regola 'eliminatorie'
 $indice_regola_punteggi_specifici = $lista_criteri['punteggi_specifici']; // [0..] indice del criterio "punteggi_specifici"
@@ -32,6 +34,19 @@ $indice_regola_data_giocata 	= $lista_criteri['data_giocata']; 	// [0..] posizio
 //
 // calcoli
 //
+
+// se le giocate sono ancora aperte, non visualizzare le giocate, ma solo i punteggi (se la configurazione lo richiede)
+$v_end = parse_date($lotteria_fine_giocate);
+$v_now = parse_date(date("H:i d/m/Y"));
+if (($v_now[0] < $v_end[0]) and ($nascondi_pronostici_a_giocate_aperte))
+{
+	$flag_nascondi_pronostici = true;
+}
+else
+{
+	$flag_nascondi_pronostici = false;
+}
+
 // punteggio per ciascuna delle squadre qualificate (es. Array ( [Barcellona] => 4 [Bayern Monaco] => 3 [Galatasaray] => 2 [Olympiakos Pireo] => 2 [Dynamo Kiev] => 1 [Fc Copenhagen] => 1 [Amburgo] => 1 [Anderlecht] => 1 ) )
 $vettore_risposte_esatte=$bulk_punteggi[$indice_regola_eliminatorie][1];
 
@@ -169,7 +184,7 @@ $list0=array_keys($list);
 array_multisort($list,SORT_DESC,$list0);
 
 
-// crea i titoli della nuova matrice (in accorco con $record_new creato sotto)
+// crea i titoli della nuova matrice (in accordo con $record_new creato sotto)
 $header_new = array();
 array_push($header_new,'Id');
 array_push($header_new,'Punti');
@@ -273,7 +288,6 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 		break;
 	}
 	
-
 	// rielaborazione data giocata da visualizzare
 	
 	// saturazione data minima e massima di giocata
@@ -333,9 +347,9 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 	
 	// simboli quando si azzecca una risposta
 	$simbolo_ok 	= Array(
-		'4' 		=> Array('V'		,'','Vittoria diretta (4 punti)'),
-		'3' 		=> Array('G'		,'','Vittoria con regola goal fuori casa (3 punti)'),
-		'2' 		=> Array('R'		,'','Vittoria ai rigori (2 punti)'),
+		'4' 		=> Array('V'		,'','Qualificazione con piu\' punti - Vittoria diretta (4 punti)'),
+		'3' 		=> Array('S'		,'','Qualificazione per scontro diretto, d.r. o class. avulsa - Vittoria ai supplementari (3 punti)'),
+		'2' 		=> Array('R'		,'','Qualificazione per miglior attacco, ecc. - Vittoria ai rigori (2 punti)'),
 		'1' 		=> Array('+'		,'','???'),
 		'default'	=> Array('.'		,'','')
 		);
@@ -343,9 +357,9 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 	$simbolo_not_ok	= Array(
 		'4' 		=> Array('<b>O</b>'	,'','??'),
 		'3' 		=> Array('O'		,'','??'),
-		'2' 		=> Array('r'		,'','Sconfitta ai rigori (2 punti)'),
-		'1' 		=> Array('g'		,'','Sconfitta con regola goal fuori casa (1 punto)'),
-		'0'		=> Array('<small>o</small>'		,'','Sconfitta diretta (0 punti)'),
+		'2' 		=> Array('r'		,'','Eliminazione per miglior attacco, ecc. - Sconfitta ai rigori (2 punti)'),
+		'1' 		=> Array('s'		,'','Eliminazione per scontro diretto, d.r. o class. avulsa - Sconfitta ai supplementari (1 punto)'),
+		'0'		=> Array('<small>o</small>'		,'','Eliminazione con meno punti - Sconfitta diretta (0 punti)'),
 		'default'	=> Array('.'		,'','')
 		);
 	
@@ -411,6 +425,11 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 		if (!in_array($indice_simbolo,$elenco_simboli_usati))
 		{
 			array_push($elenco_simboli_usati,$indice_simbolo);
+		}
+		
+		if ($flag_nascondi_pronostici)
+		{
+			$simb="$simbolo\n";
 		}
 		
 		array_push($record_new,$simb);
@@ -549,7 +568,7 @@ if (count($elenco_simboli_usati)>1)
 ?>
 <tr>
 <td align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.</td>
-<td> : Match non ancora disputato</td>
+<td> : Match non ancora disputato - Squadra non qualificata</td>
 </tr>
 </tbody></table>
 </div>
@@ -562,6 +581,12 @@ if (count($elenco_simboli_usati)>1)
 <br>
 <div class="txt_link">
 &nbsp;&nbsp;Portando il cursore del mouse sopra i simboli nella tabella viene visualizzato il nome della squadra pronosticata e i punti corrispondenti
+<?php
+if ($flag_nascondi_pronostici)
+{
+	echo("(a partire dal $lotteria_fine_giocate)");
+}
+?>
 </div>
 
 <?php
