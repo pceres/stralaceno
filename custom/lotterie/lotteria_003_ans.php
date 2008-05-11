@@ -5,23 +5,23 @@
 #
 
 # Qualificato quarti 1:
-Svizzera
+nd
 # Qualificato quarti 2:
-Portogallo
+nd
 # Qualificato quarti 3:
-Austria
+nd
 # Qualificato quarti 4:
-Germania
+nd
 # Qualificato quarti 5:
-Olanda
+nd
 # Qualificato quarti 6:
-Italia
+nd
 # Qualificato quarti 7:
-Russia
+nd
 # Qualificato quarti 8:
-Svezia
+nd
 # Qualificato semifinale 1:
-Svizzera
+nd
 # Qualificato semifinale 2:
 nd
 # Qualificato semifinale 3:
@@ -49,19 +49,19 @@ nd
 #
 # es: Croazia::4,0;3,4;2,0
 [punteggio_risposte]
-Svizzera::4,4;3,4
-Repubblica Ceca::4,0
-Portogallo::4,4
-Turchia::4,0;3,0
-Austria::4,4
-Croazia::4,0
-Germania::4,4
-Polonia::4,0
-Romania::4,0
-Francia::4,0
-Olanda::4,4
-Italia::4,4
-Spagna::4,0
-Russia::4,4
-Grecia::4,0
-Svezia::4,4
+Svizzera::
+Repubblica Ceca::
+Portogallo::
+Turchia::
+Austria::
+Croazia::
+Germania::
+Polonia::
+Romania::
+Francia::
+Olanda::
+Italia::
+Spagna::
+Russia::
+Grecia::
+Svezia::
