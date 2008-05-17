@@ -6,6 +6,8 @@
 # formato elenco_album:  tag_album::nome_album::descrizione
 #
 [elenco_album]
+Val_S_Gius_08::Vallesaccarda S.Giuseppe 2008::Gara podistica di Vallesaccarda, fraz. S.Giuseppe, di km 8,5 del 1.5.2008
+Agropoli_08::Agropoli 2008::Half Marathon di Agropoli del 6 aprile 2008
 Roma_08::Roma 2008::Maratona di Roma del 16 marzo 2008
 Mercogliano_07::Mercogliano 2007::Corsa podistica "X marcialonga in salita Mercogliano - Montevergine" di km 16,5 del 30/06/2007
 Siano_07::Siano 2007::Corsa podistica "III notturna sianese" di km 10 del 16/06/2007
@@ -22,6 +24,9 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
+59::homepage::II Quattro passi a San Giuseppe::Ars
+58::homepage::Sondaggio Europei 2008::Ars
+57::homepage::L'ARS affronta la mezza maratona::Paolo Viscardi
 56::homepage::IX Agropoli Half Marathon::Ars
 55::homepage::Correre per stare bene::Runners.it
 1::homepage::ARS: nuovo Direttivo dal 22.03.2008::

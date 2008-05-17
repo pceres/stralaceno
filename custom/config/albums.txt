@@ -87,6 +87,7 @@ Run_World4.jpg::Articolo Runners Sblocca i risultati::
 Non_Corro.jpg::Articolo Runners Non corro perch&egrave; soffro molto::
 CorrInDue.jpg::Articolo Runners Come allenarsi con un amico pi&ugrave; veloce (o pi&ugrave; lento)
 ars_csen.jpg::
+euro08.jpg::
 
 [Soci_ars]
 LV2.jpg::Lello Viscardi::
@@ -111,6 +112,9 @@ SP.jpg::Saverio Perna::
 AG.jpg::Armando Grasso::
 RF.jpg::Rocco Feniello::
 DCe.jpg::Donato Ceres::
+AV.jpg::Antonio Viscido::
+GaRo.jpg::Gaetano Rosania::
+NiMe.jpg::Nicola Melillo::
 
 [Roccadaspide_06]
 Roccadasp_040_1.jpg::evento::Foto di gruppo ARS, Gerardo, Paolo, Alessandro e Salvatore C.::
@@ -253,6 +257,8 @@ acq6.jpg::
 acq7.jpg::
 pud.jpg::
 pud2.jpg::
+orso.jpg::
+
 
 [Paestum_07]
 pae0.jpg::partenza::Paestum 2007
@@ -333,8 +339,59 @@ rm_08_11.jpg::
 rm_08_12.jpg::
 
 [Agropoli_08]
+HAgr5.jpg::
+HAgr6.jpg::
+HAgr7.jpg::
+HAgr8.jpg::
 HAgr3.jpg::
 HAgr4.jpg::
+HAgr9.jpg::
+HAgr10.jpg::
+HAgr11.jpg::
+HAgr12.jpg::
 HAgr1.jpg::
 HAgr2.jpg::
 HAgr.jpg::
+HAgr13.jpg::
+HAgr14.jpg::
+HAgr15.jpg::
+HAgr16.jpg::
+HAgr17.jpg::
+HAgr18.jpg::
+HAgr19.jpg::
+HAgr20.jpg::
+HAgr21.jpg::
+HAgr22.jpg::
+HAgr23.jpg::
+HAgr24.jpg::
+HAgr25.jpg::
+HAgr26.jpg::
+HAgr27.jpg::
+HAgr28.jpg::
+
+[Val_S_Gius_08]
+val1.jpg::
+val2.jpg::
+val3.jpg::
+val4.jpg::
+val5.jpg::
+val6.jpg::
+val7.jpg::
+val8.jpg::
+val9.jpg::
+val10.jpg::
+val11.jpg::
+val12.jpg::
+val13.jpg::
+val14.jpg::
+val15.jpg::
+val16.jpg::
+val17.jpg::
+val18.jpg::
+val19.jpg::
+val20.jpg::
+val21.jpg::
+val22.jpg::
+val23.jpg::
+val24.jpg::
+val25.jpg::

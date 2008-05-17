@@ -54,6 +54,12 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 40::Comunità Montana Terminio Cervialto::16/10/2007 12.54.12::visible
 41::da CorriereIrpinia.it::05/11/2007 11.35.59::visible
 42::Ambientenews::26/12/2007 16.55.48::visible
+43::NewsAmbiente::03/05/2008 17.06.52::visible
+44::AmbienteNews::07/05/2008 16.56.54::visible
+45::NewsAmbiente::10/05/2008 09.23.53::visible
+46::AmbienteNews::15/05/2008 22.13.00::visible
+47::da Buongiorno Campania::16/05/2008 10.38.41::visible
+48::AmbienteNews::17/05/2008 09.44.55::visible
 
 [post_text_0]
 Qui proposte, osservazioni, critiche e tutto ciò che concerne l'ambiente e la natura dalle grosse tematiche di interesse mondiali ai piccoli accadimenti del paese.
@@ -434,3 +440,59 @@ Bellissime e di grande impatto emotivo, le riprese dell’altopiano del Laceno che
 
 [post_text_42]
 E' di qualche giorno fà la decisione del Parco Regionale monti Picentini di istituire presso il nostro Comune di una delle 4 porte del parco. L'obiettivo è quello di avere un punto informazioni sulle bellezze naturali e culturali del parco verso i turisti.
+
+[post_text_43]
+Con qualche giorno di ritardo riporto la notizia relativa alle ricerche dell'orso nel Cilento pubblicata nella Sezione Ambiente:
+&nbsp;
+Il lavoro dei cinque specialisti alla ricerca delle tracce dell'orso nel territorio di Caggiano si è concluso in quanto non è stata rilevata nessuna traccia». Ad affermarlo, nella mattinata di ieri, è stato Giovanni Polena, direttore dell'Ufficio territoriale per la biodiversità di Castel di Sangro del Corpo Forestale dello Stato, che aveva inviato la "task-force" sulle tracce del presunto plantigrado.Gli uomini sono rientrati ieri notte e hanno relazionato a Polena sull'esito delle ricerche, risultate negative in relazione alla pur vasta gamma di indizi che un orso avrebbe lasciato con la sua presenza. «Condivido pienamente il lavoro svolto dagli specialisti - continua Polena - e la metodologia adottata. Sono contento del fatto che non si sia trattato di un orso bruno marsicano, in quanto ciò avrebbe significato la perdita di un esemplare protetto dal suo nucleo centrale nel cuore del Parco nazionale d'Abruzzo, Lazio e Molise». Gli avvistamenti dell'esemplare, un cucciolo del peso di oltre un quintale, erano state molte negli ultimi giorni. L'animale era stato visto aggirarsi tra Capo La Serra, Valle dei Rumoli e Zemaddea, tra le due gallerie del tratto Caggiano- Isca Panzanelle. Così erano scattate le ricerche, con gli esperti provenienti dal Parco Nazionale di Abruzzo e Molise che avevano provveduto a posizionare speciali trappole per prelevare materiale biologico utile ad individuarne la specie di appartenenza dell'orso.
+
+[post_text_44]
+ENERGIE RINNOVABILI PRODURRANNO QUATTRO VOLTE PIU' ENERGIA DEL NUCLEARE.
+&nbsp;
+“Nel periodo 2008-12 la produzione addizionale di elettricità solare ed eolica mondiale, e quindi il contributo alla riduzione delle emissioni di gas climalteranti di queste tecnologie verdi, dovrebbe essere almeno quattro volte superiore rispetto al contributo aggiuntivo netto del nucleare, considerando anche la chiusure delle vecchie centrali”. È quanto scrive Gianni Silvestrini, direttore scientifico del Kyoto Club, nell’editoriale della newsletter mensile dell’associazione KyotoClubNews.
+&nbsp;
+(FONTE: Contoenergia)
+
+[post_text_45]
+Rinvenuto un altro orso morto
+Notizia del 09/05/2008
+&nbsp;
+Stamattina in territorio di Lecce dei Marsi è stata segnalata dal personale del Parco la presenza di una carcassa di orso adulto femmina.
+Sul posto si sono recati i Responsabili del Servizio di Sorveglianza e del Servizio Scientifico del Pnalm insieme al Coordinatore del CTA del CFS Luciano Sammarone.
+Dai primi rilievi emerge forte il sospetto di morte per avvelenamento.
+“Se tale sospetto trovasse conferma – dichiarano il presidente Giuseppe Rossi e il Direttore Vittorio Ducoli -si tratterebbe di un ulteriore inaccettabile atto di sfida al Parco in un momento in cui l’Ente sta recuperando la sua piena operatività in tutti i settori istituzionali; da quello della conservazione a quello della promozione del territorio.”
+L’Ente infatti sta lavorando molto al coinvolgimento dei cittadini e degli operatori sulle problematiche del Parco.
+Come ad esempio la costituzione delle consulte per le associazioni di categoria, la riapertura del circuito delle strutture di servizio, le iniziative nel campo del turismo, dell’agricoltura e della zootecnia con l’impianto di frutteti ed il pagamento di tutti i danni provocati dalla fauna protetta, sino al mese di marzo del corrente anno.
+Iniziative queste che sembrano bene accette dal territorio che in più sedi ha manifestato apprezzamento e disponibilità alla collaborazione.
+Il Parco chiederà comunque alle altre Istituzioni competenti un dettagliato monitoraggio del territorio anche in relazione alle frequentazioni umane per stabilire più puntuali misure preventive e repressive.
+&nbsp;
+Ufficio Stampa – Comunicato n. 31/2008
+
+[post_text_46]
+VENERDI 16 MAGGIO ALLE ORE 18 PRESSO L'AULA POLIFUNZIONALE
+CONVEGNO SULLA RACCOLTA E COMMERCIALIZZAZIONE DEI FUNGHI EPIGEI.
+&nbsp;
+INTERVERRANNO:
+ASSESSORE ALL'AMBIENTE DEL COMUNE DI CAPOSELE ANGELO CERES
+SINDACO DI CALABRITTO G. SIERCHIO
+SINDACO DI SENERCHIA A. MAZZONE
+FUNZIONARI DELLA COMUNITA' MONTANA G. BRUNO E A. D'ONOFRIO
+DIRIGENTE ASL G. MONGELLUZZO
+COMANDANTE DEI VIGILI URBANI DI CAPOSELE G. AIELLO
+CAPITANO DEI CARABINIERI DELLA COMPAGNIA DI MONTELLA L. SACCONE
+COORDINATORE DISTRETTUALE DEL C.F.S. G. CURTO
+CONCLUDERA' I LAVORI IL PROCURATORE DELLA REPUBBLICA DI S. ANGELO DEI LOMBARDI
+DOTT. ANTONIO GUERRIERO
+
+[post_text_47]
+Giornate di turismo sportivo
+Riaprono le grotte del Caliendo
+&nbsp;
+ Ancora binomio sport-territorio per la Comunità Montana Terminio Cervialto. Il 25 maggio, infatti, si terrà il quarto appuntamento con le Giornate di Turismo Sportivo Escursionistico, promosse dall’ente sovra comunale di Montella Cervialto in collaborazione con il Gruppo Speleologico del Cai (Club Alpino Italiano) di Avellino, nell’ambito del Progetto Integrato “Borgo Terminio Cervialto” e realizzato attraverso il Por Campania 2000-2006, Misura 4.7 “Promozione e marketing turistico” - intervento S001TC15 “Promozione turismo sportivo invernale ed escursionistico”. L'iniziativa è denominata "Nel cuore della terra", e prevede un vero e proprio "viaggio speleologico" all'interno delle Grotte del Caliendo dell’altopiano del Laceno, a Bagnoli Irpino, tra le più importanti e conosciute cavità di tipo carsico della Campania. I partecipanti saranno dotati di caschi con apposita luce a carburo - per evitare danni ai cristalli delle rocce - per l'attraversamento delle grotte.
+Le grotte del Caliendo si trovano sull’Altopiano del Laceno (Bagnoli Irpino) dove è situato l’omonimo lago (a 1050 metri sul livelli del mare). Il percorso all’interno delle Grotte attraversa le viscere del Laceno. Le Grotte furono visitate per la prima volta dal muratore Giovanni Rama, che proseguì le esplorazioni sino agli ultimi giorni della sua esistenza. Oggi il tratto percorribile è di circa 3,5 chilometri, ma entro l’anno sarà interamente fruibile. Il percorso si alterna tra ampi corridoi (alti fino a 50 metri), ampie sale, stretti sifoni, gole, salti, laghetti e meandri. Le volte, i pavimenti e le pareti sono ricoperti di stalattiti, stalagmiti, suggestive colate.
+15/05/2008
+
+[post_text_48]
+L'orsa di Lecce non è morta avvelenata
+&nbsp;
+L'orsa trovata morta la scorsa settimana nel comune di Lecce dei Marsi non è stata avvelenata. Lo ha dichiarato Enzo Caporale direttore dell'Istituto Zooprofilattico di Abruzzo e Molise. Tutti gli esami effettuati sul corpo sono stati negativi «tranne rare tracce di un insetticida molto usato nella zona, ma assolutamente nella norma, e non letale», ha confermato Caporale.

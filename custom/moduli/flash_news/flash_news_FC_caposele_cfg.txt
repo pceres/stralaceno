@@ -6,6 +6,18 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+15/05/2008::Prossima partita: FC Caposele - Carife, sabato 17 maggio ore 16.30 stadio Palmenta, Caposele.
+14/05/2008::Risultato FC Caposele - Castel Baronia 4-3
+13/05/2008::Recupero FC Caposele - Castel Baronia, mercoled&igrave; 14 maggio ore 16.30 stadio Palmenta, Caposele.
+11/05/2008::Risultato: Casabianchi Trevico - FC Caposele 1-3
+08/05/2008::Prossima partita Casabianchi Trevico - FC Caposele, domenica 11 maggio ore 16.30 a Trevico.
+04/05/2008::Risultato: FC Caposele - Vallatese 2-1
+01/05/2008::Prossima partita: FC Caposele - Vallatese, domenica 4 maggio ore 16.30 stadio Palmenta, Caposele.
+28/04/2008::Risultato: Virtus Conza - FC Caposele 2-1
+24/04/2008::Prossima partita Virtus Conza - FC Caposele, domenica 27 aprile ore 16.00 a Conza della Campania.
+20/04/2008::Risultato: Vallesaccarda - FC Caposele 0-0
+17/04/2008::Prossima partita: Vallesaccarda - FC Caposele, domenica 20 aprile ore 16.00 a Vallesaccarda.
+14/04/2008::FC Caposele - Castel Baronia &egrave; stata rinviata al 14 maggio 2008
 10/04/2008::Prossima partita: FC Caposele - Castel Baronia, sabato 12 aprile ore 16.00 stadio Palmenta.
 07/04/2008::Risultato: Sp. Club Nusco - FC Caposele 1-2
 03/04/2008::Prossima partita: Sp. Club Nusco - FC Caposele, domenica 6 aprile ore 16.00 a Rocca San Felice.

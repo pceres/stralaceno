@@ -113,6 +113,13 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 99::da Ottopagine.it::01/04/2008 11.17.45::visible
 100::da Irpinianews.it::01/04/2008 14.34.14::visible
 101::da Il Mattino::07/04/2008 12.35.54::visible
+102::da Il Mattino::14/04/2008 15.43.52::visible
+103::Min. Interno::16/04/2008 11.53.53::visible
+104::Comune Caposele::16/04/2008 12.33.46::visible
+105::da Il Mattino::16/04/2008 14.18.10::visible
+106::da CorriereIrpinia.it::17/04/2008 10.00.32::visible
+107::Info::18/04/2008 10.44.27::visible
+108::info::18/04/2008 11.35.32::visible
 
 [post_text_0]
 Riceviamo da CLEON.REN e pubblichiamo:
@@ -974,3 +981,152 @@ Su questo punto risponde l'avvocato Giuseppe Palmieri, esponente di punta del Pd
 &nbsp;
 &nbsp;
 &nbsp;
+
+[post_text_102]
+Ma c’è fila per scegliere i sindaci
+&nbsp;
+Sono sedici i comuni irpini in cui si vota per il rinnovo dei sindaci e dei consigli comunali (già certa, a Quadrelle, la rielezione di Lucia Napolitano. Superato, infatti, il quorum del 50%). Queste le precentuali dei votanti registrati, nella prima giornata, negli altri quindici comuni: Aquilonia 69,54%, Bagnoli Irpino 69,96%, Cairano 68,63%, Caposele 77,98% (record provinciale), Casalbore 70,24%, Conza della Campania 71,05%, Greci 64,29%, Lapio 76,82%, Marzano di Nola 66,45%, Monteforte Irpino 65,49%, Mugnano del Cardinale 73,28%, Rocca San Felice 67,86%, Sant’Angelo dei Lombardi 61,94%, Summonte 71,86% e Torre Le Nocelle 69,24%.
+&nbsp;
+
+[post_text_103]
+CAPOSELE
+&nbsp;
+percentuale votanti: 65,607%
+&nbsp;
+Lista n.1 NUOVI ORIZZONTI (Monteverde Gerardo): voti 1.310  46,987%
+&nbsp;
+Lista n.2 CAPOSELE NEL CUORE (Pasquale Farina): voti 1.478  53,012%
+&nbsp;
+&nbsp;
+
+[post_text_104]
+Lista n.1 NUOVI ORIZZONTI
+&nbsp;
+Voti di Lista:
+sez.1 383
+sez.2 480
+sez.3 368
+sez.4  79
+&nbsp;
+totale 1.310
+&nbsp;
+Candidati:
+ZANCA VINCENZO  137 voti
+MELILLO LORENZO 133
+CETRULO PIETRO 107
+SPATOLA ETTORE 94
+MEROLA ROCCO 78
+RUSSOMANNO GIUSEPPE 74
+GRASSO RAFFAELE 73
+MEROLA DONATO 68
+MALANGA PIETRO 60
+D'ALESSIO GERARDINA 58
+GRASSO GAETANO 56
+CASTAGNO ANNIBALE 56
+COLATRELLA ANTONIETTA 54
+SOZIO GIULIO 49
+MARSICO SALVATORE 40
+CIBELLIS FRANCO 37
+totale preferenze 1.174
+&nbsp;
+Lista n.2 CAPOSELE NEL CUORE
+&nbsp;
+Voti di Lista:
+sez.1 443
+sez.2 541
+sez.3 401
+sez.4 93
+&nbsp;
+totale 1.478
+&nbsp;
+Candidati:
+ROSANIA ALFONSINA 186 voti
+MALANGA VITO 170
+PALLANTE ALFONSO 119
+RUSSOMANNO SALVATORE 100
+CICCONE GIANNINO 99
+CIRILLO DONATELLO 87
+CONFORTI SALVATORE 74
+GONNELLA RAFFAELLA 72
+CERES ANGELO 67
+CIBELLIS TOMMASO 64
+FREDA GERARDO 56
+DI MASI GERARDO 55
+MATTIA NUNZIATINA 55
+GUARINO ROCCO 51
+CORONA RAFFAELE 49
+CASILLO SALVATORE 18
+totale preferenze 1.322
+&nbsp;
+schede bianche 26
+schede nulle 34
+&nbsp;
+&nbsp;
+
+[post_text_105]
+Caposele. È Pasquale Farina il nuovo sindaco. Il capolista di "Caposele nel cuore" ha superato, con 1478 voti, il suo avversario Gerardo Monteverde al termine di una sfida estenuante. Strano destino quello del neo primo cittadino. All'appuntamento amministrativo del maggio scorso, infatti, la sua lista era stata ricusata dalla commissione elettorale circondariale per un eccesso di firme di presentazione. Il mancato raggiungimento del quorum, alle urne si recarono 1313 elettori, praticamente lo stesso numero (tre in più) dei voti raccolti in questa tornata da Monteverde, aprì le porte del comune alla gestione commissariale e, dunque, a nuove elezioni. La scelta di mantenere vivo e attivo l'impegno politico e sociale, unitamente alla conferma della stessa lista (solo due gli avvicendamenti, esclusivamente per motivi personali, su 16 candidati) presentata lo scorso anno ha convinto la gente sulla bontà del progetto. Unico elemento di congiunzione con l'ultima amministrazione, guidata dal compianto sindaco Melillo, è l'ex assessore Vito Malanga, secondo eletto con 170 preferenze dietro solo ad Alfonsina Rosania (la più votata per la seconda volta consecutiva), che ha scelto di non seguire il percorso intrapreso dall'ex vice sindaco Monteverde, battuto lo scorso anno dal quorum e oggi da Farina, cui aveva invece aderito il figlio di Melillo, che ha colto un buon risultato personale con 133 voti di preferenza. Ieri, subito dopo lo spoglio, gli eletti ed i sostenitori della lista "Caposele nel cuore" si sono riversati in strada. «Era da quindici anni - spiega Farina, emozionato e soddisfatto - che aspettavamo questa vittoria. La gente aveva voglia di cambiamento, di un'affermazione della lista vicina alle posizioni di centrosinistra. Da sottolineare il comportamento di molti avversari che ci hanno fatto i complimenti per la vittoria. Un bel gesto».
+&nbsp;
+&nbsp;
+&nbsp;
+
+[post_text_106]
+Caposele, nella giunta di Farina, in pole Malanga e Rosania
+&nbsp;
+CAPOSELE - Il giorno dopo la vittoria piuttosto netta sui "Nuovi Orizzonti" (53% a 47%, oltre centocinquanta voti di scarto), "Caposele nel Cuore" si appresta a preparare la grande festa per il nuovo sindaco Pasquale Farina.
+L'altro ieri fino a tarda sera i clacson dei supporters del "Cuore" hanno imperversato a Caposele, Materdomini e nelle contrade. E da lì che è maturata l'affermazione di Farina: proprio da Buoniventre e Materdomini dove sono fuoriusciti i primi dati incoraggianti.
+Per il neo primo cittadino, adesso, è già tempo di allestire la squadra che lo affiancherà nell'esecutivo comunale. I due elementi di esperienza, vale a dire Alfonsina Rosania e Vito Malanga, che hanno letteralmente trascinato la lista (in due hanno agguantato oltre 350 preferenze) appaiono due punti pilastri per Farina. Malanga, geometra, di Materdomini, ha oltretutto un'esperienza come assessore ai lavori pubblici nel mandato di Peppino Melillo. Diverse opere in corso, allo stato attuale, si sono avviate sotto la sua gestione. Rosania, ostetrica, di Caposele, si conferma una vera e propria macchina elettorale, una garanzia per la lista antiArcobaleno. Vanno segnalati anche i 119 voti di Alfonso Pallante e i cento sfiorati da Giannino Ciccone: anche per loro si potrebbero aprire le porte dell'esecutivo.
+Ma va pure considerato che Farina, come annunciato più volte in campagna elettorale, vuol puntare con decisione sui giovani. E allora come non tener conto degli 87 consensi per Donatello Cirillo, i 74 di Salvatore Conforti, i 72 di Raffaella Gonnella, gli oltre sessanta di Angelo Ceres e Tommaso Cibellis. A loro, il neo primo cittadino vuol garantire visibilità in consiglio comunale e nell'amministrazione comunale del paese.
+&nbsp;
+&nbsp;
+
+[post_text_107]
+ELEZIONE CAMERA DEI DEPUTATI 13/14 APRILE 2008
+&nbsp;
+Comune di CAPOSELE
+&nbsp;
+Percentuale Votanti: 93,731%
+&nbsp;
+POPOLO DELLA LIBERTA' 976 voti (36,927%)
+PARTITO DEMOCRATICO 885 (33,484%)
+UNIONE DI CENTRO 303 (11,464%)
+ITALIA DEI VALORI 212 (8,021%)
+LA SINISTRA L'ARCOBALENO 69 (2,610%)
+PARTITO SOCIALISTA 62 (2,345%)
+MOVIMENTO PER LE AUTONOMIE 29 (1,097%)
+LA DESTRA 29 (1,097%)
+SINISTRA CRITICA 21 (0,794%)
+UNIONE DEMOCRATICA DEI CONSUMATORI 20 (0,756%)
+PARTITO COMUNISTA DEI LAVORATORI 20 (0,756%)
+PER IL BENE COMUNE 9 (0,340%)
+LISTA DEI GRILLI PARLANTI 6 (0,227%)
+ASS. DIFESA DELLA VITA 2 (0,075%)
+&nbsp;
+TOTALE 2.643
+
+[post_text_108]
+ELEZIONE SENATO DELLA REPUBBLICA, 13-14 APRILE 2008
+&nbsp;
+Comune di CAPOSELE
+&nbsp;
+Percentuale votanti 93,759%
+&nbsp;
+POPOLO DELLA LIBERTA' 839 voti (36,701%)
+PARTITO DEMOCRATICO 811 (35,476%)
+UNIONE DI CENTRO 280 (12,248%)
+ITALIA DEI VALORI 148 (6,474%)
+LA SINISTRA L'ARCOBALENO 51 (2,230%)
+PARTITO SOCIALISTA 31 (1,356%)
+LA DESTRA 30 (1,312)
+PARTITO COMUNISTA MARX-LEN. 21 (0,918%)
+MOVIMENTO PER L'AUTONOMIA 16 (0,699%)
+SINISTRA CRITICA 10 (0,437%)
+PARTITO LIBERALE 10 (0,437%)
+UNIONE DEMOCRATICA PER I CONSUMATORI 10 (0,437%)
+FORZA NUOVA 9 (0,393%)
+PARTITO COMUNISTA DEI LAVORATORI 8 (0,349%)
+PER IL BENE COMUNE 7 (0,306%)
+LEGA SUD 2 (0,087%)
+LISTA DEI GRILLI PARLANTI 2 (0,087%)
+M.E.D.A. 1 (0,043%)
+&nbsp;
+Totale 2.286

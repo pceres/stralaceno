@@ -1,0 +1,16 @@
+Autore::Ars
+Titolo::II Quattro passi a San Giuseppe
+--- Begin body ---
+<br>
+8,5 sono stati i km percorsi dai 61 atleti che si sono cimentati nella corsa podistica della frazione San Giuseppe di Vallesaccarda il 1 maggio 2008.<br>
+Percorso nervoso, con alternanza di salite impegnative e brusche discese.<br><br>
+Buona prova degli Amatori Running Sele, che hanno ottenuto il terzo posto nella classifica a squadre.
+ <br><br>
+<div align="center">
+<img id="Valles_2008" src="%file_root%custom/album/Val_S_Gius_08/val25.jpg" alt="premiazione" border="0" width="400">
+</div><br>
+La classifica individuale e a squadre la trovate <a href="download.php?resource_type=file&amp;resource_id=file_vallesaccarda.s.giuseppe">qui</a>.
+<br><br>
+L'album fotografico della corsa lo trovate <a href="album.php?anno=Val_S_Gius_08">qui</a>  (foto scattate da Pasquale Ceres).
+<br><br>
+--- End body ---

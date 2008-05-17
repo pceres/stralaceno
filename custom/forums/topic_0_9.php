@@ -153,6 +153,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 139::Dox::10/02/2008 14.15.00::visible
 140::Il socio::10/02/2008 18.32.54::visible
 141::ars::12/02/2008 12.32.52::visible
+142::ars::22/04/2008 11.57.29::visible
 
 [post_text_0]
 Fermate Nicola Melillo con questa stralaceno: anche i muri di materdomini e caposele non ne possono più.
@@ -805,3 +806,6 @@ Alessandro avrà un compito più difficile dalla prossima primavera,tutta la squad
 La gara di Eboli è prevista per domenica 17 febbraio con partenza alle ore 10.00 circa.
 &nbsp;
 Si tratta di una corsa campestre con classifica individuale per categorie.
+
+[post_text_142]
+Il 1° maggio si va a Vallesaccarda per una gara podistica di km 9.

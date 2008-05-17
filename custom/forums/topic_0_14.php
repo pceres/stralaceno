@@ -55,6 +55,10 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 41::VALLATESE::08/02/2008 17.45.16::visible
 42::dal sito del Morra dfe Sanctis::25/02/2008 16.12.55::visible
 43::dal sito del Real S.Andrea::11/03/2008 14.47.29::visible
+44::dal sito della Virtus Conza::30/04/2008 11.46.25::visible
+45::VALLATESE::01/05/2008 10.53.11::visible
+46::Ottopagine::14/05/2008 11.31.35::visible
+47::da Ottopagine::15/05/2008 16.52.55::visible
 
 [post_text_0]
 Qui aspettiamo i vostri commenti alle vicende calcistiche della F.C. Caposele.
@@ -345,4 +349,130 @@ GRANDIOSA LA PROVA DI TUTTA LA SQUADRA CHE HA SAPUTO GESTIRE LE ENERGIE E NON SI
 &nbsp;
 &nbsp;
 &nbsp;
+&nbsp;
+
+[post_text_44]
+Virtus Conza - FC Caposele 2-1
+&nbsp;
+E' grande il cuore della Virtus....immenso direi! Davvero i ragazzi hanno dimostrato di aver un gran cuore e consentitemelo di aver anche grandi attributi. La vittoria sulla prima in classifica ha fatto capire il reale valore dell' organico. Una formazione che se la sorte non fosse stata avversa avrebbe di sicuro vinto il campionato......Ma di certo non è tempo di piangersi addosso ma piuttosto di godersi la bellissima e stameritata vittoria contro il Caposele, in una partita che ha mostrato ancora una volta il valore di tutto lo "spogliatoio". E' il solito Nico Rosamilia ad aprire le danze con un bellissimo goal di pregievole fattura: prende palla sulla trequarti, salta un paio di uomini e depone la palla alle spalle del portiere. Strepitosa stagione per l' attaccante della Virtus Conza, che ha dimostrato di essersi inserito alla perfezione nell' organico. Il goal, tuttavia, non abbatte gli ospiti che prontamente si riorganizzano e iniziano a spingere sulle corsie laterali facendosi vedere più volte nell'area di rigore della Virtus. Il forcing porta il Caposele alla conquista del pareggio: la palla danza nell' area e uno sciagurato batti e ribatti porta il pallone sui piedi di Galdi che insacca alle spalle dell' incolpevole Di Mattia. Tutto da rifare per la Virtus a questo punto. La ripresa vede il Caposele lanciarsi all' attacco alla ricerca della vittoria, ma la Virtus si difende bene e riparte con sortite che portano gli attaccanti diverse volte alla conclusione. Su una di queste scaturisce il calcio d' angolo da cui Nico Rosamilia fa partire un tiro ad effetto che deviato da un difensore si insacca ed è il tripudio! A questo punto manca ancora mezz'ora alla fine della gara, di certo la mezz'ora più bella della partita con i ragazzi della Virtus che davvero hanno profuso impegno e sacrificio per mantenere il risultato. Una bella vittoria dedicata al Capitano Vito Rosamilia e ad Alfonso Zoppi, con l'augurio di rivederli presto sul campo di calcio!
+&nbsp;
+Vito Tufano
+&nbsp;
+&nbsp;
+
+[post_text_45]
+AMICI DI CAPOSELE TOGLIETE I TRE PUNTI A TOVOLINO CHE VI SIETE PRESI CONTRO IL CASTEL BARONIA PERCHè VE LI DOVETE GUADAGNARE IN CAMPO !!!!!!!!!!  CI VEDIAMO PRESTO !!!!! E CHE VINCA IL MIGLIORE !!!
+
+[post_text_46]
+Caposele, domani festa promozione:
+con il Castel Baronia a porte aperte
+&nbsp;
+&nbsp;
+Non ci sarebbe stato
+miglior modo per festeggiare
+il salto in Seconda
+Categoria. Mercoledì, finalmente,
+il Caposele nel recupero
+contro il Castel
+Baronia giocherà a porte
+aperte. Per la prima volta
+in questa stagione, dopo i
+problemi legati alla sicurezza
+che hanno impedito al
+pubblico di assistere alle
+gare.
+“Siamo stati primi fin dall’inizio
+- afferma Massimo
+Cetrulo, preparatore dei
+portieri del Caposele - In
+casa, in due anni, solo il San
+Sossio Baronia è riuscito a
+strappare un pareggio”.
+Cinquantasette punti,
+diciotto vittorie, tre pareggi
+e due sconfitte. Settanta
+reti realizzate e diciassette
+al passivo. Questi i numeri
+di un successo, ottenuto a
+Caposele nel girone F della
+Terza Categoria.
+La società è al secondo
+anno e già nella scorsa stagione
+sfiorò la promozione,
+arrivando seconda dopo
+l’Aquilonia.
+Il presidente Rocco Cibellis
+ha puntato su giovani che si
+sono autofinanziati, giocatori
+provenienti per lo più
+dal settore giovanile. La
+dirigenza ha l’età media di
+trent’anni. Ventitre per i calciatori,
+“che si sono impegnati,
+allenandosi per tre
+volte alla settimana” - precisa
+Cetrulo -.
+L’ allenatore Raffaele Sista
+ha avuto il tempo di
+ambientarsi, dopo essersi
+trasferito a metà campionato
+lo scorso anno.
+“Sono arrivati giocatori di
+esperienza come il regista
+Lorenzo Merola e il centrocampista
+Tommaso Cibellis.
+In attacco, Gerardo
+Monteverde è stato una piacevole
+rivelazione. Il capitano
+Tommaso Cibellis ci ha
+dato la giusta carica. Il portiere
+D’Elia, nonostante non
+sia altissimo, si è messo in
+mostra”.
+Fondamentale l’apporto del
+vice presidente Alessandro
+Russomanno, del segretario
+Donatello Cirillo e del collaboratore
+Donato Ceres.
+13.05.2008
+
+[post_text_47]
+Caposele, marcia trionfale
+&nbsp;
+CAPOSELE 4
+CASTEL BARONIA 3
+&nbsp;
+CAPOSELE: D’Elia, Cibellis M.,
+Grasso G., Ceres (19’ st
+Amendola), Feniello (32’ st
+Cibellis T.), Grasso A., Zarra,
+Cibellis Th. (24’ st Malanga),
+Monteverde, Merola, Galdi.
+Allenatore: Sista.
+&nbsp;
+CASTEL BARONIA: Ciccarella,
+Addesa, Mazzeo A., Anzalone G.,
+Molinario, Anzalone F., Pizzulo,
+Montalbetti, Strazzella, Rinaldo,
+Mazzeo M.
+A disposizione: Bruno.
+&nbsp;
+Allenatore: Mazzeo G.
+&nbsp;
+ARBITRO: Pascarella di
+Castellammare di Stabia.
+&nbsp;
+RETI: 15’ pt Monteverde (CAP), 21’ pt Rinaldo (CAS), 30’ pt
+Rinaldo (CAS), 35’ pt Monteverde (CAP), 43’ pt Cibellis
+Th. (CAP), 40’ st Pizzulo (CAS), 44’ st Zarra (CAP).
+&nbsp;
+NOTE: giornata primaverile, terreno in buone condizioni, spettatori una cinquantina circa.
+&nbsp;
+CAPOSELE - Promosso in Seconda Categoria fin da domenica scorsa il Caposele si
+aggiudica il recupero del girone F di Terza Categoria e consolida il primato. La partita si risolve negli ultimi minuti con la rete decisiva firmata al 44’ della ripresa da Zarra.
+&nbsp;
+Classifica prime posizioni:
+Caposele 60 (promosso al campionato
+regionale di Seconda Categoria); Vallatese 49; Virtus Conza 47.
+15/05/2008
 &nbsp;

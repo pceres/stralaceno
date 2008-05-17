@@ -33,6 +33,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 19::da Il Mattino::02/04/2008 00.12.07::visible
 20::da CorriereIrpinia.it::03/04/2008 10.11.46::visible
 21::da CorriereIrpinia.it::10/04/2008 10.22.08::visible
+22::da Irpinianews.it::14/04/2008 15.34.44::visible
 
 [post_text_0]
 we allora, le polemiche sullo sport caposelese per ora sembra siano terminate. Abbiamo assistito ad uno bel dibattittio, coinvolgendo molte persone. Ma quello che sto cercando di dirvi e che se io posso cambiare e voi potete cambiare, tutto il mondo può cambiare. Questa era una frase tratta dal film di ROCKY, comununque con questo voglio dire che tutte le polemiche non sono mai servita a nulla, piuttosto bisogna cecare di essere quanto più uniti mettendo sul tavolo le proprie idee, ed allora a questo punto le cose potranno cambiare in modo positivo. tutto questo penso che sia la chiave di tutto.
@@ -233,3 +234,10 @@ L’autorizzazione è stata rilasciata con espressa previsione di validità per mesi
 Ma prima di avviare i lavori il progettista non ha calcolato le difficoltà e le possibili conseguenze negative allo scavo?«Questo non lo so, sinceramente non sono a conoscenza. E poi l’argomento è anche tecnico - spiega Chiaravallo - l’unica cosa che posso dire è che siamo in attesa del servizio da tempo, basterebbe cambiare centralina telefonica, sempre tutto secondo autorizzazione. Speriamo, come associazione di poter sensibilizzare anche i due candidati a sindaco al problema. Almeno per quanto sembra, non mostrano tanta attenzione al caso Adsl. Eppure al giorno d’oggi quasi tutti i Comuni usufruiscono dell’Adsl utile per gli uffici e le scuole».
 &nbsp;
 10/04/2008
+
+[post_text_22]
+Caposele - 82enne rinvenuto cadavere sul greto fiume Sele
+&nbsp;
+Tragedia nella serata di ieri  a Caposele. quando nel tardo pomeriggio arrivava alla Centrale operativa della Compagnia dei Carabinieri di Montella la segnalazione della scomparsa di un uomo 82enne, C.C.,  che  qualche ora prima era uscito di casa per un’abituale passeggiata in campagna e non vi aveva fatto più ritorno.  I familiari, preoccupati per la lunga assenza del proprio congiunto e per le mancate risposte ai numerosi tentativi di chiamate effettuate all’utenza cellulare, hanno allertato i Carabinieri che secondo le indicazioni fornite dai familiari stessi si sono immediatamente recati presso una impervia contrada della valle del Sele, dove l’uomo era solito andare per raccogliere asparagi.   Qui, i Carabinieri, organizzati in piccole squadre, hanno pertanto proseguito le ricerche, rese peraltro difficoltose dalla scarsa visibilità delle ore notturne, nella vasta campagna circostante anche con l’ausilio dei familiari stessi, dei Vigili del Fuoco e dei volontari della Misericordia.  Alle prime luci dell’alba dopo alcune ore di angoscia, purtroppo, veniva rinvenuto il corpo senza vita dell’uomo scomparso ponendo fine alle speranze dei familiari di ritrovarlo ancora in vita; le cause della morte sarebbero da attribuirsi alle lesioni causate a seguito di una rovinosa caduta, a seguito di un probabile malore, terminata sul greto del fiume Sele.  Le indagini sono state condotte in stretta sinergia con i Magistrati della Procura di S. Angelo dei Lombardi, coordinati dal Procuratore Capo dott. Antonio Guerriero.
+(sabato 12 aprile 2008 alle 11.11)
+&nbsp;

@@ -16,10 +16,11 @@ per un discreto vento contrario che ha ostacolato la corsa dei partecipanti in m
 <br><br>
 La classifica la trovate <a href="download.php?resource_type=file&amp;resource_id=file_Agropoli_08">qui</a>.
 <br><br>
+L'album fotografico della corsa lo trovate <a href="album.php?anno=Agropoli_08">qui</a>  (foto scattate da Luciano Viscido).
+<p>
+<br>
 <div align="center">
-<img id="Agropoli_2008" src="%file_root%custom/album/Agropoli_08/HAgr1.jpg" alt="Il maestro Giuseppe Rosania dopo circa 2 km dal via" border="0" width="500">
+<img id="Agropoli_2008" src="%file_root%custom/album/Agropoli_08/HAgr22.jpg" alt="Gerardo Martino al traguardo" border="0" width="420">
 </div>
-<br><br>
-Tra qualche giorno sar&agrave; disponibile l'album fotografico della corsa.
 <br>
 --- End body ---

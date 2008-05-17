@@ -6,6 +6,10 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+14/05/2008::Entrano a far parte dell'ARS Gaetano Rosania come socio ordinario e Nicola Melillo come associato praticante. Il numero dei soci sale cos&igrave; a 25.
+05/05/2008::Antonio Viscido &egrave; il 23&deg; socio degli Amatori Running Sele.
+01/05/2008::Partecipanti alla gara podistica "II Quattro passi a San Giuseppe" di km 8,5 a Vallesaccarda (Av): Francesco Ceres, Gerardo Martino, Saverio Perna, Paolo Viscardi, Alessandro Russomanno, Merola Salvatore, Donatello Cirillo, Rosania Gaetano (aggregato-non socio), Di Trolio Mario (aggregato-non socio), Melillo Nicola (aggregato-non socio), Viscido Antonio (aggregato-non socio), Del Guercio Gelsomino (aggregato-non socio). Accompagnatori: Pasquale Ceres, Michele Ceres.
+25/04/2008::Al Meeting della Liberazione UISP di Eboli, stadio Dirceu,  Paolo Viscardi ha ottenuto il 4&deg; posto di categoria nei 1500 metri.
 07/04/2008::Donato Ceres &egrave; il 22&deg; socio degli Amatori Running Sele.
 07/04/2008::Partecipanti alla gara podistica "IX Agropoli Half Marathon" di km 21,097 ad Agropoli (Sa): Paolo Viscardi, Salvatore Merola, Francesco Ceres, Alessandro Russomanno, Gianni Sozio, Donatello Cirillo, Gerardo Martino, Giuseppe Rosania. Accompagnatori: Luciano Viscido e Nicola Cirillo.
 29/03/2008::Tute ufficiali per gli Amatori Running Sele

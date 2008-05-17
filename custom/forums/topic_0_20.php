@@ -20,6 +20,9 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 6::mary::27/03/2008 18.01.38::visible
 7::appassionato::30/03/2008 19.59.39::visible
 8::mary::31/03/2008 00.48.07::visible
+9::mary::11/05/2008 18.22.57::visible
+10::L'atleta dell'Ars::15/05/2008 00.10.21::visible
+11::appassionato::17/05/2008 12.29.03::visible
 
 [post_text_0]
 4 anni fa ci ha lasciati Marco Pantani, un grande ciclista, il più grande scalatore del ciclismo moderno. Osannato nelle vittorie, amato nelle sconfitte, ha saputo trascinare milioni di persone in uno sport che gli italiani trascuravano dai tempi di Moser e Saronni, ponendo fine al dominio dei vari passisti stranieri sia al giro che al tour. Nonostante i tanti tifosi che ancora lo amavano, se ne è andato da solo, abbandonato da uno sport omertoso e dal circo mediatico, processato senza prove per doping, unico a pagare in un ambiente in cui tutti o quasi sono colpevoli. Forse la sua colpa era quella di essere il più forte, il più amato. Se ne è andato da solo, facendo il vuoto, come nei tornanti de Le Deux Alpes. Ciao Campione
@@ -50,3 +53,14 @@ Spero profondamente che tu risolva i problemi di salute nel più breve tempo poss
 
 [post_text_8]
 ciaooooooooooo!!!!!!!!aspettavo la tua risposta........lo spero tanto anch'io,una bella corsa liberatoria,che scacci via tutto!!!!!!!baci e buona settimana,anche se non ti conosco.....kisssssss!!!!!!!!!!
+
+[post_text_9]
+CIAO APPASSIONATO DI CICLISMO,COME STAI?SPERO BENE.FINALMENTE STANNO ARRIVANDO LE BELLE GIORNATE,PER PRENDERE LA BICI E FARE UN GIRO.IO PURTROPPO NON LO POSSO FARE X I SOLITI PROBLEMI.UN BACIO FORTE.MARY!
+
+[post_text_10]
+Ciao Mary, ho letto i tuoi messaggi che hai mandato su questo forum, molto bello quello che hai scritto sul Pirata! Leggendo anche gli altri messaggi ho notato una tua passione per lo sport in generale,proprio come tutti noi dell'Ars. Volevo dirti che il 31 noi siamo Castellammare di Stabia,dalle tue parti, perchè non vieni a fare il tifo per noi?! magari ci porterai fortuna e faremo una bella gara! Comunque vorrei sapere qualcosa di più su di te,e perchè no,anche conoscerti! A presto,spero!
+&nbsp;
+baci...notte!
+
+[post_text_11]
+ciao Mary, io sto bene anche se non riesco a godermi questo periodo perché soffro di allergia. Mi dispiace che tu non sia riuscita ancora a superare i tuoi problemi, spero che si risolvano presto. Nel frattempo se puoi goditi il giro in televisione, a proposito per chi tifi? Spesso chi gode di buona salute non si rende conto di essere fortunato e magari neanche prende la bici oppure si fa una corsa. Quando si fa sport si può assaporare la natura, sentirne gli odori, i suoni, per esempio in bici si ha la sensazione di essere immersi nell'aria, e la stanchezza e la sofferenza ti fanno capire di essere vitale. Credo che tu possa capire meglio di tanti altri queste sensazioni, ma soprattutto spero tu possa provarle presto.

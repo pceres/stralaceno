@@ -1,0 +1,39 @@
+Autore::Ars
+Titolo::Sondaggio Europei 2008
+--- Begin body ---
+<br>
+Caratteristiche principali
+<br>
+<br>
+<b>Criteri di determinazione della classifica finale</b><br>
+Tutte le giocate regolarmente effettuate, verranno ordinate in forma di classifica, seguendo, nell'ordine, i seguenti criteri:
+<br><br>
+<b>Gironi di qualificazione</b>: <br>
+<b>4 punti </b>per ogni squadra pronosticata che si qualifica con pi&ugrave; punti (<i>nel tabellone indicati con</i>  V);
+<b>3 punti </b>per chi passa -a parit&agrave; di punteggio- grazie allo scontro diretto, alla differenza reti  o alla classifica avulsa e <b>1 punto</b> per l’eliminata/e (<i>nel tabellone indicati rispettivamente con </i>S, s);
+<b>2 punti</b> per chi passa -a parit&agrave; di punteggio- grazie al miglior attacco, al miglior attacco nella classifica avulsa, coefficiente Uefa, fair play o sorteggio e <b>2 punti</b> per l’eliminata/e (<i>nel tabellone indicati rispettivamente con </i>R, r).
+<br><br>
+<b>Fase finale (Quarti, Semifinali e Finale)</b>:<br>
+<b>4 punti</b> per ogni pronostico formulato esattamente (<i>nel tabellone indicati con</i>  V);<br>
+nell'eventualit&agrave; di passaggio del turno ai tempi supplementari, i  punti  assegnati saranno <b>3 punti</b> per la vincente e <b>1 punto</b> per l'eliminata (<i>nel tabellone indicati rispettivamente con </i>S, s);<br>
+nell'eventualit&agrave; di passaggio del turno ai rigori, i punti assegnati saranno <b>2 punti</b> sia per la vincente che per l'eliminata (<i>nel tabellone indicati rispettivamente con </i>R, r).  
+<br><br>
+A parit&agrave; di punteggio verranno considerati nell'ordine:<br>
+1. Il maggior numero di squadre indovinate a partire dalla squadra vincitrice;<br>
+2. La schedina che reca la data di giocata pi&ugrave; antica. 
+<br><br>
+<div align="center">
+<img id="euro_2008" src="%file_root%custom/album/varie/euro08.jpg" alt="Logo" border="0" width="240">
+</div>
+<br>
+<b>Periodo delle giocate</b><br>
+-inizio giocate: 5 maggio 2008      -fine giocate: 6 giugno 2008
+<br><br>
+<b>Modalit&agrave; della giocata</b><br>
+Il giocatore formula il pronostico nell’apposita pagina del sito, dopo aver inserito il proprio nome, cognome, data di nascita e provenienza. <br>
+Le giocate sono “per la gloria”: nessuna contribuzione e nessun premio in caso di vincita.
+<br><br>
+<b>Le Giocate saranno visibili</b> su questo sito.   Gi&agrave; durante il periodo delle giocate queste saranno visibili con nome, cognome, data di nascita e provenienza del giocatore.<br><br>
+<b>Numero delle giocate</b><br>  
+Ogni persona pu&ograve; giocare una sola volta. <br><br>
+--- End body ---
