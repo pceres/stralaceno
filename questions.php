@@ -134,6 +134,7 @@ function check_answers($lotteria,$answers,&$results,&$msg)
 }
 
 
+
 function check_key($id_questions,$auth_token,$msg_auth_failed)
 {
 	// verifica che la chiave inserita sia corretta, ed individuane il gruppo
@@ -147,20 +148,6 @@ function check_key($id_questions,$auth_token,$msg_auth_failed)
 	return $found_key;
 	
 } // end function check_key
-
-
-function parse_date($data) {
-
-$ore = substr($data,0,2);
-$minuti = substr($data,3,2);
-$giorno = substr($data,6,2);
-$mese = substr($data,9,2);
-$anno = substr($data,12,4);
-
-$mins = mktime($ore,$minuti,00,$mese,$giorno,$anno);
-
-return array($mins,$anno,$mese,$giorno,$ore,$minuti);
-} // end function parse_date
 
 
 

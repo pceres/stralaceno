@@ -2151,6 +2151,21 @@ else
 
 
 
+function parse_date($data) {
+
+$ore = substr($data,0,2);
+$minuti = substr($data,3,2);
+$giorno = substr($data,6,2);
+$mese = substr($data,9,2);
+$anno = substr($data,12,4);
+
+$mins = mktime($ore,$minuti,00,$mese,$giorno,$anno);
+
+return array($mins,$anno,$mese,$giorno,$ore,$minuti);
+} // end function parse_date
+
+
+
 function my_debug($ks)
 {
 # dichiara variabili
