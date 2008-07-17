@@ -110,7 +110,33 @@ else
 	
 	$folders = array_diff(array_keys($tree),Array('data_folder')); // elimino il campo fittizio 'data_folder'
 	
+	// ordina gli item sulla base della data ctime (e subordinatamente sul nome)
 	foreach($folders as $folder_item_name)
+	{
+		if (array_key_exists($folder_item_name,$tree))
+		{
+			$folder_item = $tree[$folder_item_name];
+			$folder_item_type = $folder_item['data_folder'][indice_download_type];
+			
+			$caption = $folder_item['data_folder'][indice_download_name];
+			$date    = $folder_item['data_folder'][indice_download_ctime];
+			$datenum = parse_date($date);
+			$valore = $datenum[0];
+		}
+		else
+		{
+			$caption = '';
+			$valore = NULL;
+			die("***");
+		}
+		$v_caption[count($v_caption)] = $caption;
+		$v_valori[count($v_valori)]   = $valore;
+	}
+	$folders_ordinati = $folders;
+	array_multisort($v_valori,SORT_DESC,$v_caption,SORT_DESC,$folders_ordinati);
+	
+	// visualizza gli item
+	foreach($folders_ordinati as $folder_item_name)
 	{
 		if (array_key_exists($folder_item_name,$tree))
 		{
