@@ -224,7 +224,7 @@ extract(indici());
 // vettore che associa al nome del modulo di tipo 'tempi' la rispettiva pagina php
 $list_tempi_page = array('albo_d_oro' => 'filtro7.php','classifica_MF' => 'filtro9.php',
 	'classifica_F' => 'filtro10.php','classifica_partecipazioni' => 'filtro11.php',
-	'grafico_tempi'=>'filtro8.php','archivio_storico'=>'filtro6.php');
+	'grafico_tempi'=>'filtro8.php','archivio_storico'=>'filtro6.php','medagliere'=>'filtro12.php');
 
 $item_name 	= $layout_item[$indice_layout_name];
 $item_caption 	= $layout_item[$indice_layout_caption];
