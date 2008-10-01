@@ -1,4 +1,4 @@
-<?
+<?php
 
 function grafico($width,$heigth,$border,$input_file,$output_file) {
 if ($width == NULL) {
@@ -309,7 +309,7 @@ ImageDestroy($img_handle);
 } # fine funzione grafico(...)
 ?> 
 
-<?
+<?php
 function myLine($id,$x1,$y1,$x2,$y2,$width,$heigth,$border,$color)
 {
 	imageLine($id,$border+$x1*($width-2*$border),$heigth-$y1*($heigth-2*$border)-$border,$border+$x2*($width-2*$border),$heigth-$y2*($heigth-2*$border)-$border,$color);
