@@ -55,11 +55,12 @@ $db_geneal[26]  = "I0000"; // Pasquale Ceres
 $db_geneal[29]  = "I18";   // Alessandro Russomanno
 $db_geneal[51]  = "I769";  // Donato Ceres
 $db_geneal[96]  = "I767";  // Giuseppe Ceres
-$db_geneal[182] = "I771"); // Francesco Ceres di Gius.
+$db_geneal[182] = "I771"; // Francesco Ceres di Gius.
 
 if (array_key_exists($atleta[$indice2_id],$db_geneal))
 {
-	$link_geneal = "http://localhost/work/PhpGedView/individual.php?pid={$db_geneal[$atleta[$indice2_id]]}";
+// 	$link_geneal = "http://localhost/work/PhpGedView/individual.php?pid={$db_geneal[$atleta[$indice2_id]]}";
+	$link_geneal = "http://ars.altervista.org/PhpGedView/individual.php?pid={$db_geneal[$atleta[$indice2_id]]}";
 }
 else
 {
