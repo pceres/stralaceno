@@ -12,7 +12,7 @@ http://www.siamonoi.it::Siamonoi.it
 http://www.caposeleonline.it::Caposeleonline
 #http://www.skilaceno.com/::Sciare a Laceno
 http://selacapo.net::SelaCapo
-http://liceonline.altervista.org/::Liceo di Caposele
+#http://liceonline.altervista.org/::Liceo di Caposele
 #http://www.prolococaposele.it::Pro Loco Caposele
 http://www.podisti.net::Podisti.net
 http://www.podistidoc.it::Podistidoc.it

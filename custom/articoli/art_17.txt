@@ -1,0 +1,74 @@
+Autore::
+Titolo::XX edizione
+--- Begin body ---
+<br>
+La XX edizione della Stralaceno, con 64 partecipanti (di cui 7 donne), disputata il 29 agosto 2008, &egrave; 
+stata vinta da Gelsomino Merola con il tempo di 20’09””. Al secondo posto, con un distacco di 30’’, 
+Francesco Ceres di Gius., che ha preceduto Gerardo Martino, terzo con 21’26’’.<br>
+Prima ragazza Annarita D’Elia con 31’46’’.<br>
+<br><a href="filtro4.php?anno=2008">L'ordine d'arrivo completo dell'edizione 2008 &egrave; consultabile qui</a>.<br>
+<br>
+L'album fotografico della manifestazione lo trovate <a href="album.php?anno=2008">qui</a>. <i>(Inserite altre 5 foto con commento il 29 settembre 2008)</i><br>
+<p>&nbsp;
+<div align="center">
+<img id="Stralaceno_2008" src="%file_root%custom/album/2008/S08_30.jpg" alt="Stralaceno 2008" border="0" width="440">
+<br><br>
+</div>
+<br>
+<i>&Egrave; disponibile il dvd della Stralaceno 2008. Per chiederne una copia rivolgersi a Nicola Ciccone (cell. 3401469458  e-mail:  nciccone@hotmail.it).</i>
+<br><br>
+<!--
+<br>
+L'edizione 2008 della Stralaceno si terr&agrave; <b>venerd&igrave; 29 AGOSTO</b>.
+</div>
+<br>Il raduno e la conferma
+dell’iscrizione sono previsti a
+partire dalle ore 17.00 nell’area
+antistante l’hotel 4 camini; il “via”
+per le 18.15, indipendentemente
+dalle condizioni meteorologiche.
+Tutti i caposelesi che vorranno
+partecipare alla manifestazione
+saranno ben accetti purché
+<b>animati da autentico spirito
+sportivo</b>.<br>
+I corridori percorreranno
+l’itinerario previsto assumendo
+personalmente la responsabilità
+per malori, infortuni ed altri eventuali 
+problemi. Per i minorenni
+si richiede il consenso scritto
+dei genitori; saranno ammessi tutti
+i nati entro il 31/12/1993.<br><br>
+Ricordiamo che <b>la Stralaceno è
+un evento di sport attivo e non
+di spettacolo</b>. In particolare chi
+è interessato a seguire gli
+sviluppi della corsa lungo il
+percorso, essendo vietato l’uso
+dell’auto (fatta eccezione per
+anziani, invalidi ed ammalati), 
+è pregato
+farlo con uno dei seguenti
+mezzi: a piedi (anche solo per
+qualche tratto, in prospettiva di
+una futura partecipazione...); in
+bicicletta; a cavallo etc.
+<br><br>
+&Egrave; disponibile, in numero limitato,
+la maglietta dell’edizione 2008, ritirabile,
+dopo aver sottoscritto l’impegno di
+partecipazione,
+contattando gli Amatori
+Running Sele.
+<br><br>
+Dato l’evolversi della manifestazione,
+l’organizzazione necessita di
+persone disposte a fornire suggerimenti 
+per migliorare la corsa e ad offrire
+propria collaborazione <i>(servizio
+d’ordine, addetti alla logistica,
+cronometristi, giudice di gara etc.)</i><br>
+<br>
+-->
+--- End body ---

@@ -1,5 +1,5 @@
 Autore::Paolo Viscardi
-Titolo::Un nuovo record battuto
+Titolo::Un nuovo record battuto (anno 2006)
 --- Begin body ---
 <br>
 La diciottesima edizione della stralaceno si &egrave; conclusa in 
