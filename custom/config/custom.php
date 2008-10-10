@@ -39,6 +39,11 @@ $nome_file_tempi = "tempi_laceno.csv";
 $nome_file_atleti = "atleti_laceno.csv";
 $nome_file_organizzatori = "organizzatori_laceno.csv";
 
+# dati custom:
+$custom_vars = Array();
+// link e caption custom1 della pagina "info"
+$custom_vars['custom1_link']    = "http://ars.altervista.org/PhpGedView/individual.php?pid=<$$>";
+$custom_vars['custom1_caption'] = "Link nella <a href=\"<$$>\">&quot;Genealogia caposelese&quot;</a>";
 
 
 #
