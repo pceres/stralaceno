@@ -33,10 +33,11 @@ $indice2_data_nascita 	= 4;
 $indice2_peso 		= 5;
 $indice2_link		= 6;
 $indice2_foto		= 7;
+$indice2_custom1	= 8;
 
-$num_colonne_atleti = 8;
+$num_colonne_atleti = 9;
 
-$indici2 = array('indice2_id' => $indice2_id,'indice2_nome' => $indice2_nome,'indice2_sesso' => $indice2_sesso,'indice2_titolo' => $indice2_titolo,'indice2_data_nascita' => $indice2_data_nascita,'indice2_peso' => $indice2_peso,'indice2_link' => $indice2_link,'indice2_foto' => $indice2_foto,'num_colonne_atleti'  => $num_colonne_atleti);
+$indici2 = array('indice2_id' => $indice2_id,'indice2_nome' => $indice2_nome,'indice2_sesso' => $indice2_sesso,'indice2_titolo' => $indice2_titolo,'indice2_data_nascita' => $indice2_data_nascita,'indice2_peso' => $indice2_peso,'indice2_link' => $indice2_link,'indice2_foto' => $indice2_foto,'indice2_custom1' => $indice2_custom1,'num_colonne_atleti'  => $num_colonne_atleti);
 
 
 # formato file di archivio 'organizzatori_laceno.csv'
@@ -273,7 +274,8 @@ $varie = array('symbol_1_partecipazione' => $symbol_1_partecipazione,'symbol_1_p
 	'symbol_record' => $symbol_record,'symbol_record_best' => $symbol_record_best,'symbol_info'=>$symbol_info);
 $custom = array('homepage_link' => $homepage_link,'tempo_max_M' => $tempo_max_M,'tempo_max_F' => $tempo_max_F,
 	'tempo_max_grafico' => $tempo_max_grafico,'race_name' => $race_name,'web_title' => $web_title,
-	'web_description' => $web_description,'web_keywords' => $web_keywords,'email_info' => $email_info);
+	'web_description' => $web_description,'web_keywords' => $web_keywords,'email_info' => $email_info,
+	'custom_vars' => $custom_vars);
 $admin = array('password_root_admin' => $password_root_admin,'password_album' => $password_album,'password_config' => $password_config,
 	'password_articoli' => $password_articoli,'password_upload_file' => $password_upload_file,
 	'max_last_editions' => $max_last_editions,'max_online_articles' => $max_online_articles,'password_lotterie' => $password_lotterie);
@@ -758,6 +760,10 @@ if (trim($atleta[$indice2_data_nascita]) != '?') {
 	}
 
 if (trim($atleta[$indice2_peso]) != '?') {	
+	$mostra = TRUE;
+	}
+
+if (trim($atleta[$indice2_custom1]) != '-') {	
 	$mostra = TRUE;
 	}
 
