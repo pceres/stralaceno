@@ -1,6 +1,7 @@
 <?php
 
 require_once('libreria.php');
+require_once('custom/config/custom.php');  // serve per $custom_vars
 
 # dichiara variabili
 extract(indici());
@@ -47,20 +48,9 @@ echo "<div align=\"center\">Prestazioni personali di <b>$nome</b></div>";
 show_table($archivio_filtrato,$mask,'tabella',3,12,1); # tabella in tre colonne, font 12, con note
 echo "<br><hr>";
 
-// gestione eventuale link genealogico
-$db_geneal = Array();
-
-$db_geneal[2]   = "I19";   // Nicola D'Auria
-$db_geneal[26]  = "I0000"; // Pasquale Ceres
-$db_geneal[29]  = "I18";   // Alessandro Russomanno
-$db_geneal[51]  = "I769";  // Donato Ceres
-$db_geneal[96]  = "I767";  // Giuseppe Ceres
-$db_geneal[182] = "I771"; // Francesco Ceres di Gius.
-
-if (array_key_exists($atleta[$indice2_id],$db_geneal))
+if ($atleta[$indice2_custom1]!=='-')
 {
-// 	$link_geneal = "http://localhost/work/PhpGedView/individual.php?pid={$db_geneal[$atleta[$indice2_id]]}";
-	$link_geneal = "http://ars.altervista.org/PhpGedView/individual.php?pid={$db_geneal[$atleta[$indice2_id]]}";
+	$link_geneal = str_replace('<$$>',$atleta[$indice2_custom1],$custom_vars['custom1_link']);
 }
 else
 {
@@ -87,7 +77,7 @@ if (($link_foto !== '-') & !empty($link_foto))
 		$nome_album = substr($temp,$ind2+1,$ind);
 		$nome_foto  = substr($link_foto,$ind+1);
 		$link_img   = "<a href=\"show_photo.php?id_photo=$nome_foto&amp;album=$nome_album\">$link_img</a>";
-		$footer     = "Dall'album &quot;<a href=\"album.php?anno=$nome_album\">$nome_album</a>&quot;";
+		$footer     = "dall'album &quot;<a href=\"album.php?anno=$nome_album\">$nome_album</a>&quot;";
 		$link_img   = $link_img."<br>".$footer;
 	}
 	
@@ -104,7 +94,8 @@ echo "Data di nascita: $atleta[$indice2_data_nascita] <br>\n";
 
 if (!empty($link_geneal))
 {
-	echo "Link nella <a href=\"$link_geneal\">&quot;Genealogia caposelese&quot;</a><br>\n";
+	$caption_custom1 = str_replace('<$$>',$link_geneal,$custom_vars['custom1_caption']);
+	echo "$caption_custom1<br>\n";
 }
 
 $link = trim($atleta[$indice2_link]);
