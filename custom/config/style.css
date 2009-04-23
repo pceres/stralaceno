@@ -100,14 +100,14 @@ table.column_group {
 	border:0px;
 	margin:0px;
 	padding:0.4em;
- 	background:#FEE5B0;	/* sfondo colonne sinistra e destra */
+ 	background:#EEEEEE;	/* sfondo colonne sinistra e destra */
 	}
 
 /* appartengono alla classe titolo_colonna tutti i titoli nelle colonne laterali */
 .titolo_colonna {
 	font-family:Arial,Verdana,Tahoma,Serif;
 	font-weight: bold;
-	color:rgb(51,102,153);
+	color:rgb(30,55,100);
 	}
 
 /* appartengono alla classe txt_link tutti i link ed il testo nelle colonne laterali */
@@ -122,9 +122,8 @@ a.txt_link:hover {
 /* link e testo nelle colonne laterali */
 .txt_link, .txt_normal {
 	font-family:Arial,Tahoma,Verdana,Serif;
-/* 	font-size:0.75em; */
 	font-size:9pt;
-	color:rgb(51,102,153);
+	color:rgb(30,55,100);
 	}
 
 /* tabella dei singoli articoli nella colonna centrale*/
@@ -133,7 +132,7 @@ table.article_group {
 	border:0px;
 	margin:0px;
 	padding:0.4em;
- 	background:#FEE5B0;	/* sfondo articoli colonna centrale */
+	background:#EEEEEE;	/* sfondo articoli colonna centrale */
 	width:100%;		/* l'articolo occupa tutta la larghezza consentita*/
 	}
 
@@ -141,14 +140,14 @@ table.article_group {
 table.article_group H3 {
 	font-family:Arial,Verdana,Tahoma,Serif;
 	font-weight: bold;
-	color:rgb(51,102,153);
+	color:rgb(30,55,100);
 	margin:0em;
 	}
 
 .txt_articolo { 
 	font-family:Arial,Tahoma,Verdana,Serif;
-    	font-size:0.75em;
-	color:rgb(41,82,133);
+	font-size:0.75em;
+	color:rgb(30,55,100);
 	}
 
 .txt_firma_articolo { 
@@ -371,6 +370,7 @@ table.graph * td.bar {
 	font-size: 8pt;
 	color: #6D6D95;
 	font-weight: normal;
+	text-align: left;
 }
 
 /* link nella lista dei forum e dei topic */
