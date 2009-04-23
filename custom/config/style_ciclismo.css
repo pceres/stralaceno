@@ -371,6 +371,7 @@ table.graph * td.bar {
 	font-size: 8pt;
 	color: #6D6D95;
 	font-weight: normal;
+	text-align: left;
 }
 
 /* link nella lista dei forum e dei topic */
