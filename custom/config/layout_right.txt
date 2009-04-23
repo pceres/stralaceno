@@ -91,6 +91,7 @@ link_sondaggio_europei_2008::<b>Sondaggio Europei 2008</b>::external_link::quest
 
 [Pagine in preparazione]
 classifica_campionato::Classifica III categoria::modulo_custom::::
+medagliere::Medagliere::tempi::::::
 
 [Utente]
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Utente] non prevede sottoelementi
