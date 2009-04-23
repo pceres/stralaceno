@@ -36,6 +36,7 @@ flash_news_cfg.txt::%modules_dir%flash_news/::News Flash::admin::::d36923926ed59
 flash_news_FC_caposele_cfg.txt::%modules_dir%flash_news/::News Flash sezione F.C. Caposele::admin::::d36923926ed59333afab0bba1a4ad5e5::custom/moduli/flash_news/flash_news.php?page=FC_caposele&amp;module_data=FC_caposele::%modules_dir%
 flash_news_ambiente_cfg.txt::%modules_dir%flash_news/::News Flash sezione ambiente::admin::::0cdaa4d3a5cfbe7cda4facf4d7501021::custom/moduli/flash_news/flash_news.php?page=ambiente&amp;module_data=ambiente::%modules_dir%
 siti_amici_cfg.txt::%modules_dir%siti_amici/::siti Caposele sul Web::admin::::f2a24930901df6192297dcfddfc096ef::custom/moduli/siti_amici/siti_amici.php::%modules_dir%
+siti_amici_podismo_cfg.txt::%modules_dir%siti_amici/::Associazioni podistiche::admin::::d36923926ed59333afab0bba1a4ad5e5::custom/moduli/siti_amici/siti_amici.php?module_data=podismo::%modules_dir%
 archivio_cfg.txt::%modules_dir%archivio/::archivio album e articoli::admin::::d36923926ed59333afab0bba1a4ad5e5::custom/moduli/archivio/archivio.php::%modules_dir%
 archivio_FC_caposele_cfg.txt::%modules_dir%archivio/::archivio sezione FC Caposele::admin::::d36923926ed59333afab0bba1a4ad5e5::custom/moduli/archivio/archivio.php?page=FC_caposele&amp;module_data=FC_caposele::%modules_dir%
 classifica_campionato_cfg.txt::%modules_dir%classifica_campionato/::classifica e risultati ultima giornata::admin::::d36923926ed59333afab0bba1a4ad5e5::custom/moduli/classifica_campionato/classifica_campionato.php?page=FC_caposele::%modules_dir%
