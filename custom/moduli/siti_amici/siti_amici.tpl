@@ -33,7 +33,7 @@
 
 %%%% begin siti_amici_cfg.txt elenco_siti 7
 	<!-- sito %field2 -->
-    <tr style="background: rgb(255, 255, 170) none repeat scroll; vertical-align: middle; text-align: center; height:70px;">
+    <tr style="background: rgb(255, 255, 255) none repeat scroll; vertical-align: middle; text-align: center; height:70px;">
 	<td nowrap="nowrap"><div align="center">%field0%</div></td>
 %%%% if %field4%!=''			<td nowrap="nowrap"><div align="center"><a href="%field3%"><img src="%field4%" width="150" height="60" border="0" alt="logo_%field2%"></a></div></td>
 %%%% if %field4%==''			<td nowrap="nowrap"><div align="center">-</div></td>
