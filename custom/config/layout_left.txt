@@ -76,5 +76,8 @@ lettere_sito::Le vostre lettere::modulo_custom::::
 4
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Last_contents] non prevede sottoelementi
 
+[Mondo podismo]
+siti_amici::Siti podistici::external_link::custom/moduli/siti_amici/siti_amici.php?module_data=podismo::::
+
 [Links]
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Links] non prevede sottoelementi
