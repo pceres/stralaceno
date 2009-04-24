@@ -84,7 +84,6 @@ link_forum_rassegna_stampa::Rassegna stampa Caposele::external_link::forum.php?a
 siti_amici::Caposele sul Web::modulo_custom::::
 archivio::Archivio album e articoli::modulo_custom::::
 link_download::Download::external_link::download.php::::
-link_sondaggio_europei_2008::<b>Sondaggio Europei 2008</b>::external_link::questions.php?id_questions=3::::
 
 [Amministrazione]
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Amministrazione] non prevede sottoelementi

@@ -49,6 +49,19 @@ nu07_5.jpg::
 Car08_1.jpg 
 Car08_2.jpg 
 Car08_3.jpg 
+Logo_Stra_08.jpg::
+Cast1.jpg::::Agropoli 13.07.2008
+Cast2.jpg::::Agropoli 13.07.2008
+3gL_1.jpg::
+3gL_2.jpg::
+3gL_3.jpg::
+3gL_4.jpg::
+lungosele.jpg::
+lungosele2.jpg::
+Bri09.jpg::
+Bri09_4.jpg::
+Bri09_3.jpg::
+SaMe_stil.jpg::
 
 
 [All.Coll.05]
@@ -88,6 +101,11 @@ Non_Corro.jpg::Articolo Runners Non corro perch&egrave; soffro molto::
 CorrInDue.jpg::Articolo Runners Come allenarsi con un amico pi&ugrave; veloce (o pi&ugrave; lento)
 ars_csen.jpg::
 euro08.jpg::
+LSele.jpg::
+logo_roma_09.jpg::
+gav.jpg::
+pista.jpg::
+
 
 [Soci_ars]
 LV2.jpg::Lello Viscardi::
@@ -109,12 +127,20 @@ SC.jpg::Salvatore Colatrella::
 GiM.jpg::Giuseppe Martino::
 GelM.jpg::Gelsomino Merola::
 SP.jpg::Saverio Perna::
-AG.jpg::Armando Grasso::
 RF.jpg::Rocco Feniello::
 DCe.jpg::Donato Ceres::
 AV.jpg::Antonio Viscido::
 GaRo.jpg::Gaetano Rosania::
 NiMe.jpg::Nicola Melillo::
+AG.jpg::Armando Grasso::
+MaDT.jpg::Mario Di Trolio::
+GeDG.jpg::Gelsomino Del Guercio::
+ToCi.jpg::Tommaso Cibellis::
+StCa.jpg::Stefano Castellano::
+NiCi.jpg::Nicola Ciccone::
+MaCe.jpg::Massimo Cetrulo::
+GiCi.jpg::Giovanni Cicerano::
+AnCe.jpg::Angelo Ceres::
 
 [Roccadaspide_06]
 Roccadasp_040_1.jpg::evento::Foto di gruppo ARS, Gerardo, Paolo, Alessandro e Salvatore C.::
@@ -224,6 +250,7 @@ FC_12.jpg::::FC Caposele - Real S.Andrea Conza (13/05/2007)
 Rend_FC_06_07.jpg::::
 LOGOLIT.jpg::Logo Ufficiale FC Caposele::
 FcCAP_07_08.jpg::FC Caposele stagione 2007/08::
+Rend07_08.jpg::::
 
 [Roma_07]
 MR1.jpg:::: Alessandro, Paolo ed alle loro spalle il colosseo::Romamarathon 2007
@@ -280,7 +307,7 @@ si5.jpg::Salvatore a pochi metri dal via, dietro Alessandro, Francesco e Paolo::
 si6.jpg::Paolo,Salvatore e poco dietro Alessandro::Siano 2007
 si7.jpg::sulla destra Alessandro che tenta una rimonta::Siano 2007
 si8.jpg::Donatello che tiene testa al gruppo::Siano 2007
-si9.jpg::francesco ceres::Siano 2007
+si9.jpg::Donatello Cirillo::Siano 2007
 si10.jpg::Paolo in fase di sorpasso::Siano 2007
 si11.jpg::ecco i componenti Ars::Siano 2007 
 
@@ -395,3 +422,291 @@ val22.jpg::
 val23.jpg::
 val24.jpg::
 val25.jpg::
+
+[Stabia_08]
+stab1.jpg::
+stab2.jpg::
+stab3.jpg::
+stab4.jpg::
+stab5.jpg::
+stab6.jpg::
+stab7.jpg::
+stab8.jpg::
+stab9.jpg::
+stab10.jpg::
+stab11.jpg::
+
+[Siano_08]
+si08_1.jpg::
+si08_2.jpg::
+si08_3.jpg::
+si08_4.jpg::
+si08_5.jpg::
+si08_6.jpg::
+si08_7.jpg::
+si08_8.jpg::
+si08_9.jpg::
+si08_10.jpg::
+si17.jpg::
+si11.jpg::
+si13.jpg::
+si12.jpg::
+si14.jpg::
+si15.jpg::
+si16.jpg::
+
+[Polla_08]
+pol1.jpg::
+pol2.jpg::
+pol3.jpg::
+pol4.jpg::::Gli amici della Free Runners di Eboli.
+pol5.jpg::
+pol6.jpg::
+pol7.jpg::
+pol8.jpg::
+pol9.jpg::
+pol10.jpg::
+pol11.jpg::
+pol12.jpg::
+pol13.jpg::
+pol14.jpg::
+pol15.jpg::
+pol16.jpg::
+pol17.jpg::
+
+[Carillia_08]
+car1.jpg::
+car2.jpg::
+car3.jpg::
+car4.jpg::
+car6.jpg::
+car7.jpg::
+car8.jpg::
+car9.jpg::
+car9A.jpg::
+car9B.jpg::
+car10.jpg::
+car11.jpg::
+car12.jpg::
+car13.jpg::
+car15.jpg::
+car16.jpg::
+car17.jpg::
+car18.jpg::
+car19.jpg::
+car20.jpg::
+
+[Stra_08]
+s08_1.jpg::
+s08_2.jpg::
+S08_63.jpg::
+s08_81.jpg::
+S08_118.jpg::
+S08_114.jpg::
+s08_82.jpg::
+s08_3.jpg::
+s08_75.jpg::
+S08_115.jpg::
+s08_79.jpg::
+s08_83.jpg::
+s08_71.jpg::
+s08_72.jpg::
+S08_112.jpg::
+s08_48.jpg::
+S08_111.jpg::
+s08_49.jpg::
+s08_50.jpg::
+s08_4.jpg::
+s08_5.jpg::
+s08_86.jpg::
+s08_76.jpg::
+s08_6.jpg::
+s08_7.jpg::
+s08_8.jpg::
+s08_73.jpg::
+s08_74.jpg::
+S08_116.jpg::
+s08_9.jpg::
+s08_84.jpg::
+s08_10.jpg::
+s08_93.jpg::
+s08_11.jpg::
+s08_12.jpg::
+s08_77.jpg::
+s08_88.jpg::
+s08_78.jpg::
+s08_13.jpg::
+s08_14.jpg::
+S08_105.jpg::
+s08_89.jpg::
+s08_90.jpg::
+s08_15.jpg::
+S08_58.jpg::
+s08_16.jpg::
+s08_17.jpg::
+S08_59.jpg::
+s08_94.jpg::
+S08_60.jpg::
+s08_18.jpg::
+S08_64.jpg::
+s08_95.jpg::
+s08_96.jpg::
+s08_97.jpg::
+s08_19.jpg::
+s08_98.jpg::
+s08_99.jpg::
+s08_20.jpg::
+s08_22.jpg::
+s08_100.jpg::
+s08_23.jpg::
+s08_24.jpg::
+s08_25.jpg::
+s08_26.jpg::
+s08_104.jpg::
+s08_27.jpg::
+S08_61.jpg::
+s08_102.jpg::
+s08_28.jpg::
+s08_101.jpg::
+s08_29.jpg::
+s08_103.jpg::
+s08_30.jpg::
+S08_62.jpg::
+s08_31.jpg::
+s08_51.jpg::
+s08_55.jpg::
+s08_57.jpg::
+s08_52.jpg::
+S08_107.jpg::
+s08_53.jpg::
+s08_32.jpg::
+s08_33.jpg::
+s08_34.jpg::
+s08_21.jpg::
+s08_35.jpg::
+s08_36.jpg::
+s08_37.jpg::
+s08_38.jpg::
+s08_39.jpg::
+S08_108.jpg::
+s08_40.jpg::
+s08_41.jpg::
+s08_42.jpg::
+s08_43.jpg::
+s08_44.jpg::
+s08_45.jpg::
+S08_109.jpg::
+s08_46.jpg::
+s08_47.jpg::
+S08_110.jpg::
+s08_54.jpg::
+S08_113.jpg::
+S08_117.jpg::
+
+
+
+
+
+
+
+
+[Melito_08]
+mel1.jpg::
+mel2.jpg::
+mel3.jpg::
+mel4.jpg::
+mel5.jpg::
+mel6.jpg::
+mel7.jpg::
+mel8.jpg::
+mel9.jpg::
+
+
+
+[Cena_ott_08]
+mart1.jpg::
+mart2.jpg::
+mart3.jpg::
+mart4.jpg::
+mart5.jpg::
+mart6.jpg::
+mart7.jpg::
+mart8.jpg::
+mart9.jpg::
+mart10.jpg::
+mart11.jpg::
+
+[All.Coll.08]
+ManAllColl08.jpg::
+ac08_1.jpg::
+ac08_2.jpg::
+ac08_3.jpg::
+ac08_4.jpg::
+ac08_5.jpg::
+ac08_6.jpg::
+ac08_7.jpg::
+ac08_8.jpg::
+ac08_9.jpg::
+ac08_10.jpg::
+ac08_11.jpg::
+ac08_12.jpg::
+ac08_13.jpg::
+ac08_14.jpg::
+ac08_15.jpg::
+ac08_16.jpg::
+ac08_17.jpg::
+ac08_18.jpg::
+ac08_19.jpg::
+ac08_20.jpg::
+ac08_21.jpg::
+ac08_22.jpg::
+ac08_23.jpg::
+ac08_24.jpg::
+ac08_25.jpg::
+ac08_26.jpg::
+ac08_27.jpg::
+ac08_28.jpg::
+ac08_29.jpg::
+ac08_30.jpg::
+ac08_31.jpg::
+ac08_32.jpg::
+ac08_33.jpg::
+ac08_34.jpg::
+ac08_35.jpg::
+ac08_36.jpg::
+ac08_37.jpg::
+ac08_38.jpg::
+ac08_39.jpg::
+ac08_40.jpg::
+ac08_41.jpg::
+ac08_42.jpg::
+ac08_43.jpg::
+ac08_44.jpg::
+
+[Vietri_09]
+vietri.jpg::
+vi5.jpg::
+vi6.jpg::
+vietri02.jpg::
+vi8.jpg::
+vi9.jpg::::Alessandro Russomanno (n.8) affronta il tratto pi&ugrave; duro della gara.
+vi10.jpg::
+vi11.jpg::::Un primo piano di Mario Di Trolio (n.6)
+vi12.jpg::::Con il n.5 Gelsomino "Mimmo" Del Guercio.
+vi7.jpg::
+vietri03.jpg::::Mario Di Trolio affronta la lunga discesa finale.
+vi4.jpg::
+
+
+[Roma_09]
+Ro09_3.jpg::
+Ro09_2.jpg::
+Ro09_4.jpg::
+Ro09_8.jpg::
+Ro09_11.jpg::
+Ro09_9.JPG::
+Ro09_5.jpg::
+Ro09_6.jpg::
+Ro09_10.jpg::
+Ro09_1.jpg::
+Ro09_7.jpg::
