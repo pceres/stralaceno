@@ -6,6 +6,9 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+25/05/2008::Risultato: La Longobarda - FC Caposele 4-1
+22/05/2008::Prossima partita: La Longobarda - FC Caposele, sabato 24 maggio ore 16.30 a Guardia dei Lombardi.
+19/05/2008::Risultato FC Caposele - Carife 4-2
 15/05/2008::Prossima partita: FC Caposele - Carife, sabato 17 maggio ore 16.30 stadio Palmenta, Caposele.
 14/05/2008::Risultato FC Caposele - Castel Baronia 4-3
 13/05/2008::Recupero FC Caposele - Castel Baronia, mercoled&igrave; 14 maggio ore 16.30 stadio Palmenta, Caposele.

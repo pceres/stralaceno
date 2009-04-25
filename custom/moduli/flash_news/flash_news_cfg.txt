@@ -6,6 +6,33 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+19/04/2009::L'associato praticante Giovanni Cicerano ha partecipato alla Mezza Maratona di Napoli 2009
+07/04/2009::Partecipanti alla gara podistica "X Agropoli Half Marathon" di km 21,097 ad Agropoli (Sa): Donatello Cirillo, Mario Di Trolio.
+22/03/2009::Partecipanti alla gara podistica "XV Maratona di Roma" di km 42,195 a Roma: Saverio Perna, Donato Ceres. Accompagnatori: Paolo Viscardi, Alessandro Russomanno.
+09/02/2009::Si sono ufficialmente iscritti alla Maratona di Roma del 22 marzo 2009, Donato Ceres che partir&agrave; con il numero 12506 e Saverio Perna con il numero 12501.
+18/01/2009::Partecipanti alla gara podistica "VIII Vietri e dintorni" di km 9,5 a Vietri sul Mare (Sa): Alessandro Russomanno, Mario Di Trolio, Gelsomino Del Guercio.
+28/12/2008::Partecipanti alla gara podistica "I Corri Insieme per la Pace, Eboli-Battipaglia-Eboli" di km 10,5 a Eboli (Sa): Francesco Ceres, Saverio Perna, Alessandro Russomanno, Mario Di Trolio, Donatello Cirillo, Nicola D'Auria.
+20/11/2008::Entra a far parte dell'ARS, come associato praticante, Angelo Ceres.
+16/11/2008::L'associato praticante Gianni Cicerano ha partecipato alla mezza maratona "Spaccanapoli 2008".
+26/10/2008::Partecipanti alla gara podistica "12&deg; Trofeo C. Pezzuto" di km 7,9 a Puglietta di Campagna (Sa): Saverio Perna, Alessandro Russomanno, Donatello Cirillo, Nicola Melilllo, Gaetano Rosania.
+21/10/2008::Mario Di Trolio ha partecipato alla mezza maratona Strasalerno 2008. 
+13/09/2008::Partecipanti allla gara "Podistica Anspi" di km 7,5 a Melito Irpino (Av): Francesco Ceres, Saverio Perna, Alessandro Russomanno, Gaetano Rosania, Donatello Cirillo.
+31/08/2008::Partecipanti alla gara podistica "III Contursi Terme Podistica" di km.7,5 a Contursi (Sa): Gelsomino Merola, Francesco Ceres, Saverio Perna, Paolo Viscardi, Alessandro Russomanno, Donatello Cirillo, Nicola Melillo, Mario Di Trolio, Antonio Di Trolio (aggregato).
+17/08/2008::Partecipanti alla gara podistica "StraCalitri 2008" di km 6 a Calitri: Alessandro Russomanno, Nicola D'Auria, Donatello Cirillo.
+10/08/2008::Partecipanti alla gara podistica "Maratonina della Misericordia" di 10,250 km di Nusco: Gelsomino Merola, Saverio Perna, Alessandro Russomanno, Nicola D'Auria, Donatello Cirillo. Accompagnatori: Lello Viscardi, Luciano Viscido. 
+28/07/2008::Partecipanti alla II edizione della gara podistica "Podistica di Carillia" di km 9 ad Altavilla Silentina (Sa): Salvatore Merola, Alessandro Russomanno, Donatello Cirillo, Gaetano Rosania, Nicola D'Auria, Nicola Melillo, Paolo VIscardi. Accompagnatori: Luciano Viscido, Nicola Cirillo, Benedetto Montanari, Pietro Russomanno.
+19/07/2008::Partecipanti alla XV edizione della gara podistica "CorriRoccadaspide, trofeo S. Sinforosa di km. 7,950 a Roccadaspide (Sa): Gelsomino Merola, Francesco Ceres, Saverio Perna, Alessandro Russomanno, Gianni Sozio, Gaetano Rosania, Donatello Cirillo, Paolo Viscardi, Mario Di Trolio, Nicola D'Auria.
+14/07/2008::Francesco Ceres ha preso parte alla gara podistica "IV Memorial P. Laureana -Corri al Castello-" di km 8 ad Agropoli (Sa)
+14/07/2008::Entrano a far parte dell'ARS, come soci ordinari, Nicola Ciccone e Massimo Cetrulo.
+06/07/2008::Partecipanti alla gara podistica "II Strapollese" di km 9,3 a Polla (Sa): Gelsomino Merola, Francesco Ceres, Saverio Perna, Alessandro Russomanno, Gianni Sozio, Paolo Viscardi, Donatello Cirillo, Mario Di Trolio, Gaetano Rosania, Antonio Viscido, Francesco Ceres '90 (aggregato). Accompagnatore: Luciano Viscido
+29/06/2008::Partecipanti alla gara podistica "II Trofeo delle 5 Porte Uisp" di km 4 ad Eboli (Sa): Francesco Ceres, Salvatore Merola, Alessandro Russomanno, Paolo Viscardi, Donatello Cirillo.
+24/06/2008::Nuovi associati praticanti per l'Ars: Giovanni Cicerano, Luigi Marino e Stefano Castellano.
+23/06/2008::Partecipanti alla gara podistica "X Notturna Sianese" di km 10 a Siano (Sa): Gelsomino Merola, Francesco Ceres, Saverio Perna, Gerardo Martino, Alessandro Russomanno, Paolo Viscardi, Gianni Sozio, Donatello Cirillo, Gaetano Rosania, Carlo Panariello (aggregato - non socio).
+11/06/2008::L'edizione 2008 della Stralaceno si terr&agrave; venerd&igrave; 29 agosto.
+31/05/2008::Partecipanti alla gara podistica "XXII Notturna citt&agrave; di Stabia" di km 10 a Castellammare di Stabia (Na): Gelsomino Merola, Saverio Perna, Alessandro Russomanno, Paolo Viscardi, Rocco Feniello, Salvatore Merola, Armando Grasso, Donatello Cirillo, Donato Ceres, Gaetano Rosania, Tommaso Cibellis. 
+29/05/2008::Entrano a far parte dell'ARS, come associati praticanti, Mario Di Trolio, Gelsomino Del Guercio e Tommaso Cibellis. Il numero dei soci sale a 28.
+26/05/2008::Paolo Viscardi ha preso parte al Campionato Regionale Junior/Promesse- "3&deg; memorial Bellotti" a Salerno (stadio Vestuti) il 24/25 maggio 2008, disputando i 1500 e i 5000 metri.
+18/05/2008::Alessandro Russomanno ha rappresentato gli Amatori Running Sele alla IX Race for the Cure, corsa podistica di km 5 tenutasi a Roma (Terme di Caracalla) il 18 maggio.
 14/05/2008::Entrano a far parte dell'ARS Gaetano Rosania come socio ordinario e Nicola Melillo come associato praticante. Il numero dei soci sale cos&igrave; a 25.
 05/05/2008::Antonio Viscido &egrave; il 23&deg; socio degli Amatori Running Sele.
 01/05/2008::Partecipanti alla gara podistica "II Quattro passi a San Giuseppe" di km 8,5 a Vallesaccarda (Av): Francesco Ceres, Gerardo Martino, Saverio Perna, Paolo Viscardi, Alessandro Russomanno, Merola Salvatore, Donatello Cirillo, Rosania Gaetano (aggregato-non socio), Di Trolio Mario (aggregato-non socio), Melillo Nicola (aggregato-non socio), Viscido Antonio (aggregato-non socio), Del Guercio Gelsomino (aggregato-non socio). Accompagnatori: Pasquale Ceres, Michele Ceres.

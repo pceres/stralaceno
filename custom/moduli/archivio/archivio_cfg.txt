@@ -6,9 +6,19 @@
 # formato elenco_album:  tag_album::nome_album::descrizione
 #
 [elenco_album]
+Roma_09::Roma 2009::Maratona di Roma del 22 marzo 2009
+Vietri_09::VIII Vietri e dintorni::Gara podistica di Vietri di km 9,5
+All.Coll.08::Allenamento collettivo 2008::Le foto dell'allenamento di fine anno.
+Cena_ott_08::Ritrovo a casa Martino::Cena sociale del 03.10.2008
+Melito_08::Melito Irpino 2008::Gara podistica Anspi di km 7,5 del 13.09.2008
+Stra_08::Stralaceno 2008::La XX edizione della Stralaceno del 29.08.2008
+Carillia_08::Carillia 2008::Gara podistica Carillia di km 9 del 27.07.2008
+Siano_08::Siano 2008::Gara podistica X Notturna Sianese di km 10 del 21.06.2008
+Stabia_08::Stabia 2008::Gara podistica XXII Notturna citt&agrave; di Stabia di km 10 del 31.05.2008
 Val_S_Gius_08::Vallesaccarda S.Giuseppe 2008::Gara podistica di Vallesaccarda, fraz. S.Giuseppe, di km 8,5 del 1.5.2008
 Agropoli_08::Agropoli 2008::Half Marathon di Agropoli del 6 aprile 2008
 Roma_08::Roma 2008::Maratona di Roma del 16 marzo 2008
+All.Coll.07::Allenamento collettivo 2007::Le foto dell'allenamento del 30 dicembre tra sole freddo e nebbia.
 Mercogliano_07::Mercogliano 2007::Corsa podistica "X marcialonga in salita Mercogliano - Montevergine" di km 16,5 del 30/06/2007
 Siano_07::Siano 2007::Corsa podistica "III notturna sianese" di km 10 del 16/06/2007
 Paestum_07::Paestum 2007::Corsa podistica "Sulle orme di Filippide" di 10 km del 05/05/2007
@@ -24,6 +34,32 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
+87::homepage::Allenamento settimanale in pista::Ars
+86::homepage::Nomina Responsabili di Settore 2009::Ars
+85::homepage::Allenamento montano di gruppo::Ars
+83::homepage::L'ARS e la XV Maratona di Roma::Paolo Viscardi
+82::homepage::Maratona di Roma 2009::Ars
+81::homepage::Roma, arriviamo!::Ars
+80::homepage::Il ritorno::Ars
+79::homepage::Brianzolo 2009::
+78::homepage::L'allenamento in altura::Runners.it
+77::homepage::VIII Vietri e dintorni::Ars
+76::homepage::Allenamento Collettivo 30.12.2008::Ars
+75::homepage::Correre perch&egrave;::Correre.it
+74::homepage::Come sfruttare al massimo la pausa invernale::Podistidoc.it
+73::homepage::3 giri a Laceno in autunno::
+71::homepage::Ritrovo a casa Martino::Paolo Viscardi
+70::homepage::Lungo Sele 2008::
+69::homepage::Podistica Anspi a Melito Irpino::Ars
+61::homepage::Stralaceno 2008::
+67::homepage::Jogging al Palmenta ad agosto::Ars
+66::homepage::II podistica di Carillia::Ars
+65::homepage::IV Memorial P. Laureana::Ars
+64::homepage::II Strapollese::Ars
+63::homepage::X Notturna Sianese::Ars
+62::homepage::Rilanciamo la Tre Campanili!::Ars
+61::homepage::Stralaceno 2008::
+60::homepage::XXII Notturna citt&agrave; di Stabia::Ars
 59::homepage::II Quattro passi a San Giuseppe::Ars
 58::homepage::Sondaggio Europei 2008::Ars
 57::homepage::L'ARS affronta la mezza maratona::Paolo Viscardi
@@ -33,7 +69,7 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 54::homepage::Maratona di Roma 2008::
 53::homepage::Correre da' euforia::Ansa
 52::homepage::Inizia la stagione 2008::Paolo Viscardi
-51::homepage::Affiliazione ARS allo Csen -anno 2008-::
+51::homepage::Affiliazione ARS allo Csen -anno 2009-::
 50::homepage::Iniziare a correre::Runners.it
 49::homepage::Campionato Brianzolo 2008::
 47::homepage::Allenamento Collettivo 30.12.2007::
@@ -63,7 +99,7 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 21::homepage::21&deg; Trofeo Brianzolo::
 18::homepage::Allenamento Collettivo 30.12.2006::
 19::homepage::Prima Strauniversit&agrave; a Fisciano (Sa)::
-16::homepage::Foto ArsWeb nov.06::Pasquale Ceres
+16::homepage::ARS Amatori Running Sele:
 14::homepage::Attivit&agrave; podistica 2006::
 13::homepage::Fontanarosa 2006::
 12::homepage::10 Km di Nusco 2006::
@@ -84,6 +120,7 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 #
 
 [elenco_pagine]
+%script_root%questions.php?id_questions=3::Sondaggio Europei 2008
 %script_root%questions.php?id_questions=2&action=results::Sondaggio Champions League 2006/07
 %script_root%statistiche.php?action=show&id_questions=2::Statistiche Sondaggio Champions League 2006/07
 %script_root%questions.php?id_questions=1::Sondaggio Mondiali 2006

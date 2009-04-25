@@ -12,7 +12,20 @@ FC_caposele::F.C. Caposele::L'album di famiglia della F.C. Caposele
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
-42::FC_caposele::2007/08  FC Caposele - Castel Baronia 3-0::Tommaso Cibellis
+59::FC_caposele::2008/09 FC Caposele-S.C.Lioni 0-0::Tommaso Cibellis
+58::FC_caposele::2008/09 FC Caposele-Bisaccese 4-1::Tommaso Cibellis
+57::FC_caposele::2008/09 FC Caposele-Teora 5-3::Gerardo Grasso
+56::FC_caposele::2008/09 Real Sturno-FC Caposele 1-0::Gerardo Grasso
+55::FC_caposele::Calendario e Risultati II Cat. Gir. I 2008/09::
+54::FC_caposele::Classifica II Cat. Gir. I 2008/09::
+52::FC_caposele::I giocatori - stagione 2008/09::
+51::FC_caposele::I dirigenti - stagione 2008/09::
+50::FC_caposele::Rendiconto 2007/08::
+49::FC_caposele::Classifica finale III Categoria 2007/08::Ale Russomanno
+29::FC_caposele::Marcatori FC Caposele stag. 07/08::Ale Russomanno
+48::FC_caposele::2007/08  La Longobarda - FC Caposele 4-1::Tommaso Cibellis
+47::FC_caposele::2007/08  FC Caposele - Carife 4-2::Tommaso Cibellis
+42::FC_caposele::2007/08  FC Caposele - Castel Baronia 4-3::Tommaso Cibellis
 46::FC_caposele::2007/08  Casabianchi Trevico - FC Caposele 1-3::Tommaso Cibellis
 45::FC_caposele::2007/08  FC Caposele - Vallatese 2-1::Gerardo Grasso
 44::FC_caposele::2007/08  Virtus Conza - FC Caposele 2-1::Gerardo Grasso
@@ -27,8 +40,6 @@ FC_caposele::F.C. Caposele::L'album di famiglia della F.C. Caposele
 34::FC_caposele::2007/08  Carife - FC Caposele 0-2::Gerardo Grasso
 33::FC_caposele::2007/08  FC Caposele - Casabianchi Trevico 6-0::Gerardo Grasso
 32::FC_caposele::2007/08  Vallatese - FC Caposele 1-1::Gerardo Grasso
-19::FC_caposele::Classifica III Categoria 2007/08::Ale Russomanno
-29::FC_caposele::Marcatori FC Caposele stag. 07/08::Ale Russomanno
 30::FC_caposele::Logo F.C. Caposele::
 31::FC_caposele::2007/08  FC Caposele - Virtus Conza 3-2::Gerardo Grasso
 28::FC_caposele::2007/08  FC Caposele - Vallesaccarda 6-0::Gerardo Grasso
