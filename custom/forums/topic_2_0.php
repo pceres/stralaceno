@@ -18,6 +18,51 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 4::Buongiorno Campania::06/05/2008 10.06.57::visible
 5::Corriere Irpinia.it::08/05/2008 11.40.42::visible
 6::Ottopagine::14/05/2008 11.29.07::visible
+7::Buongiorno Irpinia::17/06/2008 12.32.42::visible
+8::Corriere Irpinia::19/06/2008 10.05.49::visible
+9::Corriere Irpinia::23/06/2008 11.24.05::visible
+10::Corriere Irpinia::25/06/2008 10.33.50::visible
+11::Corriere Irpinia::26/06/2008 12.12.25::visible
+12::Corriere Irpinia::27/06/2008 10.36.36::visible
+13::Buongiorno Campania::07/07/2008 11.45.08::visible
+14::Il Mattino::21/07/2008 11.38.27::visible
+15::Corriere Irpinia::23/07/2008 10.13.16::visible
+16::Buongiorno Campania::23/07/2008 12.57.35::visible
+17::Buongiorno Campania::01/08/2008 12.35.47::visible
+18::IrpiniaNews.it::12/08/2008 12.22.52::visible
+19::IrpiniaNews.it::12/08/2008 12.27.27::visible
+20::Irpinianews.it::03/09/2008 15.45.05::visible
+21::Irpinianews.it::30/09/2008 11.56.24::visible
+22::Comunecaposele.it::02/10/2008 12.17.44::visible
+23::Irpinianews.it::07/10/2008 12.46.59::visible
+24::Corriereirpinia.it::09/10/2008 12.04.29::visible
+25::Buongiorno Camapnia::14/10/2008 12.40.01::visible
+26::ComuneCaposele.it::06/11/2008 12.58.49::visible
+27::ComuneCaposele.it::18/11/2008 12.26.32::visible
+28::Irpinianews.it::24/11/2008 10.34.13::visible
+29::Irpinianews.it::25/11/2008 14.26.55::visible
+30::ComuneCaposele.it::28/11/2008 13.02.26::visible
+31::Irpinianews.it::01/12/2008 12.46.40::visible
+32::ComuneCaposele.it::02/12/2008 15.34.38::visible
+33::ComuneCaposele.it::06/12/2008 12.54.47::visible
+34::ComuneCaposele.it::13/12/2008 11.48.18::visible
+35::IrpiniaNews.it::17/12/2008 12.42.20::visible
+36::Corriere Irpinia.it::09/01/2009 11.29.49::visible
+37::ComuneCaposele.it::19/01/2009 16.33.21::visible
+38::CorriereIrpinia.it::04/02/2009 11.10.36::visible
+39::Irpinianews.it::12/02/2009 09.12.35::visible
+40::Irpinianews.it::16/02/2009 10.31.17::visible
+41::ComuneCaposele.it::25/02/2009 13.49.54::visible
+42::IrpiniaNews.it::27/02/2009 12.10.50::visible
+43::IrpiniaNews.it::08/03/2009 23.03.13::visible
+44::BuongiornoCampania.it::11/03/2009 13.03.15::visible
+45::IrpiniaNews.it::12/03/2009 09.45.00::visible
+46::Il Mattino::15/03/2009 23.09.36::visible
+47::ComuneCaposele.it::19/03/2009 12.42.28::visible
+48::IrpiniaNews.it::25/03/2009 12.00.28::visible
+49::Irpinianews.it::31/03/2009 16.55.01::visible
+50::IrpiniaNews.it::16/04/2009 11.42.30::visible
+51::IrpiniaNews.it::22/04/2009 12.52.38::visible
 
 [post_text_0]
 In questo spazio saranno inseriti articoli apparsi sul web relativi ad eventi, persone, fatti avvenuti a Caposele.
@@ -114,4 +159,416 @@ Fondamentale l’apporto del vice presidente Alessandro
 Russomanno, del segretario Donatello Cirillo e del collaboratore
 Donato Ceres.
 13.05.2008
+&nbsp;
+
+[post_text_7]
+Cirillo e Russomanno alla Comunità Montana
+&nbsp;
+Saranno Donatello Cirillo e Salvatore Russomanno i delegati, in quota della maggioranza, del Comune di Caposele alla Comunità Montana Terminio Cervialto. I due consiglieri saranno designati nel corso del prossimo Consiglio comunale, convocato per il prossimo 19 giugno. All’ordine del giorno del civico consesso anche la designazione delle commissioni consiliari e i “primi paletti” da cui partire per la gestione delle linee programmatiche. «Il nostro intento – ha detto il sindaco Pasquale Farina – è quello di continuare l’opera dell’amministrazione precedente e di ottenere i migliori risultati per il bene del paese in un’ottica di sviluppo integrato ».
+&nbsp;
+17.06.2008
+
+[post_text_8]
+Adsl, esplode il caso: il servizio potrà partire a Calabritto e Materdomini, non a Caposele
+&nbsp;
+CAPOSELE - «Nonostante le ripetute richieste, questa Associazione è costretta a dover registrare ancora alla data odierna la mancata sostituzione della vecchia centralina analogica, oltretutto dannosa per la salute pubblica, con quella digitale che consentirebbe finalmente di poter fornire il servizio adsl anche ai cittadini di Caposele». Continua la protesta contro la Telecom di Cittadinanza Attiva. La centralina analogica non è stata aggiornata e il servizio Adsl, anche impiantati i cavi della fibra ottica, non potrebbe entrare in funzione.
+Una situazione «sconcertante» e che leva la protesta dell’associazione: entro poche settimane si registrerebbe il paradosso: i lavori per l’attivazione dell’Adsl sul tratto Calabritto-Caposele consentiranno la partenza del servizio solo a Calabritto. «Da qualche giorno - scrive Cittadinanza Attiva - sono ripresi i lavori di scavo per la posa dei cavi per consentire la fornitura del servizio a Calabritto, con l’evidente sperequazione di dover subire l’attraversamento del nostro territorio per dare la connessione veloce ad altri comuni senza che ne possa usufruire il nostro».
+Pertanto l’Associazione pretende chiarezza su alcuni punti: quando e se la Telecom sostituirà la vecchia centralina analogica con quella digitale, già installata a Materdomini ed a Calabritto; quando verrà attivato il servizio adsl a Caposele; quali iniziative poste in essere per garantire anche ai caposelesi l’attivazione del servizio.
+«Ove la positiva risoluzione della questione non risulti essere stata debitamente assicurata dalla Telecom entro la fine del corrente mese - si legge ancora - si chiede e sollecita la convocazione di un Consiglio comunale aperto per elaborare ed assumere le necessarie e dovute iniziative amministrative e legali per assicurare la pronta soluzione della vicenda nei confronti della Telecom».
+&nbsp;
+19.06.2008
+
+[post_text_9]
+Dopo una lunga odissea arriva la linea internet Adsl
+&nbsp;
+CAPOSELE - Svolta Adsl. Dopo le polemiche dell’ultima settimana con Cittadinanza Attiva ad incalzare il Comune per non aver sollecitato la Telecom nell’aggiornamento della centralina analogica, non consentendo l’attivazione dell’Adsl via cavo, il Comune di Caposele comunica che su tutto il territorio è perfettamente attivo il segnale di Wireless, la linea internet Adsl senza fili.
+L’attivazione non è recentissima, ma il miglioramento del segnale è stato graduale nel corso delle ultime settimane. «Dal mese di aprile scorso - si legge sul sito web del Comune - il territorio di Caposele e’ coperto dal segnale wireless per connettersi ad internet velocemente. Tale collegamento puo’ essere effettuato acquistando un kit di semplice montaggio e utilizzando l’abbonamento con le tariffe piu’ idonee alle proprie esigenze».
+Anche nella struttura comunale da qualche giorno si stanno effettuando delle prove tecniche per il collegamento ad internet veloce e questo, consentira’ di far uscire, finalmente, tutti gli uffici (amministrativi, tecnici, informa giovani, biblioteca,) e scuole ,da un isolamento durato troppi anni. Inoltre, e a seguito di cio’, si potra’ realizzare un risparmio notevole sulle bollette telefoniche del nostro comune.
+La fine dell’odissea preannunciata l’altro ieri al “Corriere” dal sindaco Pasquale Farina, prima dell’ufficializzazione comparsa sul sito web del Comune, si contrappone alla nota sollevata nel corso della settimana dall’associazione Cittadinanza Attiva che invece ha chiesto la convocazione immediata, urgente di un consiglio comunale aperto per discutere la questione della Adsl via cavo.
+La situazione è in questi termini: i lavori sul tracciato Calabritto-Caposele proseguono al meglio nel territorio comunale di Calabritto e si ultimeranno nel giro di poche settimane.
+La situazione è profondamente diversa a Caposele dove i lavori di scavo e montaggio della fibra ottica si sono prima inceppati per dei problemi di carattere burocratico relativi alle concessioni per gli scavi. E in secondo luogo, per il fatto che il servizio non potra mai partire in paese senza l’aggiornamento del segnale presso una centralina della Telecom situata lungo il fiume Sele.
+«Da qualche giorno - scriveva Cittadinanza Attiva - sono ripresi i lavori di scavo per la posa dei cavi per consentire la fornitura del servizio a Calabritto, con l’evidente sperequazione di dover subire l’attraversamento del nostro territorio per dare la connessione veloce ad altri comuni senza che ne possa usufruire il nostro. Pertanto vogliamo chiarezza su alcuni punti: quando e se la Telecom sostituirà la vecchia centralina analogica con quella digitale, già installata a Materdomini ed a Calabritto; quando verrà attivato il servizio adsl a Caposele; quali iniziative poste in essere per garantire anche ai caposelesi l’attivazione del servizio».
+Il via libera alla Wireless è stata la risposta degli amministratori.
+&nbsp;
+23.06.2008
+
+[post_text_10]
+Caposele, Cetrulo (An) vara il gruppo autonomo in Consiglio comunale
+&nbsp;
+L'affermazione alle urne del Popolo della Libertà, un'azione ancora più incisiva sul territorio e sulle sue problematiche, la volontà di levare dai banchi del consiglio comunale, di concerto con il resto della minoranza, un'opposizione ferma ma costruttiva per far avvertire ai cittadini di Caposele che il partito è accanto a loro.
+Sono queste le motivazioni che conducono la transizione in consiglio comunale di Alleanza Nazionale a consigliere autonomo della minoranza. Nessuna scissione dagli altri quattro consiglieri dei "Nuovi Orizzonti", premette Pietro Cetrulo, leader del circolo Pinuccio Tatarella, solo un input al radicamento, oggi An, domani del Popolo della Libertà, che si estende sino ai banchi dell'assise cittadina. Cetrulo, ci spieghi perchè è giunto a questa scelta.
+&nbsp;
+«Il Circolo Alleanza Nazionale “Pinuccio Tatarella” di Caposele, dopo un’attenta valutazione ed analisi del risultato elettorale della coalizione PDL molto forte e significativo ottenuto a livello Nazionale, Regionale e Provinciale, prende atto di un risultato che indica chiaramente la volontà del popolo per una politica di cambiamento, una politica forte di centrodestra, una politica volta a risolvere finalmente i problemi che affliggono i nostri cittadini, una volontà constatata anche a livello comunale con la grande affermazione del PDL divenuto primo partito, e che Pietro Cetrulo Presidente del suddetto Circolo e Coordinatore del Collegio Provinciale n° 16 (Lioni-Teora-Calabritto-Senerchia-Caposele) di Alleanza Nazionale è stato eletto Consigliere Comunale di minoranza con la lista “Nuovi Orizzonti”.
+Interpretando tutto ciò, si ritiene opportuno di dover dare vita per il momento a un rappresentante autonomo di AN in Consiglio, con la prospettiva di ulteriori aggregazioni e dare vita eventualmente a un gruppo di AN o PDL, alfine di poter esercitare una più efficace azione di minoranza e di proposta politica di centrodestra nel Consiglio Comunale di Caposele, attraverso il supporto e la vicinanza dei suoi massimi rappresentanti istituzionali».
+&nbsp;
+Quindi nessuna rottura con il gruppo di Monteverde?«Assolutamente no. Tutto questo avviene in un momento in cui, io seppur eletto in una lista civica, pur restando insieme nei banchi della minoranza e concordando ogni volta che si renda necessaria una presa di posizione unitaria, si ritiene che azioni singole o partitiche con una forte connotazione politica, possano e debbono essere prese senza mettere vincoli di ideologia a chi non si sente appartenente a nessun partito o ad AN». Come risponderanno i suoi elettori a questa nuova collocazione?«Sono certo che i cittadini che hanno dato fiducia al rappresentante di AN e al PDL, saranno ancora vicino a chi cerca con tutta la volontà e le forze a disposizione, di lavorare per il bene di Caposele e dei Caposelesi».
+&nbsp;
+25.06.2008
+
+[post_text_11]
+Per l’Adsl via cavo a Caposele parte la petizione online
+&nbsp;
+Caposele - Dopo l'organizzazione del dibattito sull'emergenza rifiuti un'altra iniziativa vede protagonisti i giovani della web community Selacapo.net. E' stata lanciata, infatti, una petizione online, in cui si chiede a Telecom Italia di attivarsi prontamente per realizzare tutti gli adempimenti tecnici al fine di garantire la copertura del servizio Adsl su tutto il territorio comunale.
+I promotori dell'iniziativa fanno notare che Infratel Italia ha completato i lavori per collegare Caposele alla fibra ottica nell'estate 2007 e che attualmente sono in corso i lavori per estendere la rete a Calabritto. Ma nonostante ciò nel paese si continuna a utilizzare la tradizionale 56K. Colpa di una vecchia centralina analogica che, nonostante ripetute segnalazioni (non da ultima l'iniziativa di Cittadinanza Attiva) non viene ammodernata.
+E' possibile sottoscrivere la petizione su internet all'indirizzo http://selacapo.net/petizioneadsl o presso lo sportello comunale Informagiovani nei normali orari di apertura.
+L'iniziativa di selacapo.net fa seguito a quella di Cittadinanza Attiva che la scorso settimana ha sollecitato il sindaco a rilanciare la questione Adsl con la Telecom. «Da qualche giorno - scriveva Cittadinanza Attiva - sono ripresi i lavori di scavo per la posa dei cavi per consentire la fornitura del servizio a Calabritto, con l’evidente sperequazione di dover subire l’attraversamento del nostro territorio per dare la connessione veloce ad altri comuni senza che ne possa usufruire il nostro. Pertanto vogliamo chiarezza su alcuni punti: quando e se la Telecom sostituirà la vecchia centralina analogica con quella digitale, già installata a Materdomini ed a Calabritto; quando verrà attivato il servizio adsl a Caposele; quali iniziative poste in essere per garantire anche ai caposelesi l’attivazione del servizio».
+Ma il Comune ha diffuso nei giorni, peraltro riportato dal Corriere, in cui si esprime soddisfazione per il funzionamento del wireless, che consente collegamento rapido ad internet senza fili. «Dal mese di aprile scorso - si legge sul sito web del Comune - il territorio di Caposele e’ coperto dal segnale wireless per connettersi ad internet velocemente. Tale collegamento puo’ essere effettuato acquistando un kit di semplice montaggio e utilizzando l’abbonamento con le tariffe piu’ idonee alle proprie esigenze».
+La querelle Adsl, dunque, è destinata a proseguire.
+&nbsp;
+26.06.2008
+
+[post_text_12]
+Acque, trattativa in corso con l’Acquedotto Pugliese
+&nbsp;
+CAPOSELE - Scippo delle acque, il Comune è in trattativa con l’Acquedotto Pugliese per riaprire il discorso su convenzioni e regolamentazioni dei trasferimenti idrici tra Puglia e Campania.
+Riaprire, in pratica, i termini di quell’accordo di programma di cui non c’è più traccia ormai da mesi. Sembrava che fosse messo nero su bianco e che le condizioni per regimentare i massicci trasferimenti di acqua in Puglia. Caposele da oltre un secolo non incassa neppure un euro di ristoro economico per lo sfruttamento delle sue sorgenti che rappresentano nel contesto regionale un capitale unico.
+&nbsp;
+Il sindaco Pasquale Farina è in contatto con i vertici dell’azienda pugliese con cui il Comune ha un raffreddato i rapporti negli ultimi anni.
+Il primo cittadino sta tentando di intavolare una strategia unitaria con gli esponenti dell’opposizione capitanati da Gerardo Monteverde. Nelle scorse sere si è tenuta, secondo alcune indiscrezioni, una riunione congiunta che ha visto la partecipazione dei consiglieri comunali di maggioranza e minoranza, proprio voluta da Farina. Ma nel corso dell’incontro si sarebbero sollevati posizioni molto divergenti e toni accesi tra i due schieramenti
+&nbsp;
+27.06.2008
+
+[post_text_13]
+Potrebbe uscire dal carcere ma non lo vuole più nessuno
+&nbsp;
+Ha 57 anni, è di Caposele, e da due mesi è detenuto all’interno del carcere di Sant’Angelo dei Lombardi e deve rispondere dell’accusa di maltrattamenti in famiglia. Una misura cautelare che, visti comunque gli eventi, è abbastanza spropositata. Per questo motivo, il suo legale difensore, l’avvocato Salvatore Rosania, ha presentato istanza di scarcerazione. Fin qui, tutto normale. Le istanze di scarcerazione vengono accolte, ma possono essere anche respinte. In questo caso, c’è un problema. Il giudice si è detto pronto ad accogliere l’istanza dell’avvocato Rosania e, quindi, a mettere subito in libertà il suo assistito. Il che potrebbe avvenire anche subito. Purtroppo però per il 57enne, ci sono delle condizioni, diverse, tutte a lui sfavorevoli. La prima è che non può tornare sotto il tetto coniugale, per ovvi motivi. Visto come ha ridotto l’ultima volta la moglie, non può più avvicinarsi a lei. Non gli possono essere nemmeno concessi più gli arresti domiciliari, visto che l’ultima volta, due mesi fa, in preda ai fumi dell’alcool, li ha evasi per andare a picchiare la poveretta. Potrebbe andare dai genitori, ma visto quel che purtroppo è diventato, nessuno dei due, né madre, né padre, lo vogliono. E quindi, ecco l’incredibile storia. L’uomo potrebbe essere rimesso in libertà, ma visto che nessuno lo vuole, rischia di rimanere dentro ancora per un po’. Resta, però, una possibilità. Ed è quella dei Servizi sociali del Comune di Caposele. Servizi sociali che sanno alla perfezione la storia del 57enne, ma a volte fanno finta di ignorarla. E così, la settimana prossima l’avvocato Rosania si recherà di persona presso i Servizi sociali del Comune di Caposele per esporre il caso e provare a trovare una soluzione. Anche nel giro di breve tempo, perché il 10 luglio comunque il giudice dovrà decidere sulle sorti dell’uomo che dovrebbe anche essere sottoposto anche una perizia psichiatrica.
+&nbsp;
+5.7.2008
+
+[post_text_14]
+NUOTO PINNATO. EXPLOIT DELLA «4 X 100» A BARI
+&nbsp;
+Caposele, staffetta tricolore.
+&nbsp;
+Importante successo per la Cnal Caposele, la società che gestisce l’impianto natatorio nel comune della Valle del Sele. La staffetta 4x100 si è classificata al 1° posto ai campionati italiani di nuoto pinnato svoltisi a Bari. I quattro staffettisti che si sono aggiudicati il prestigioso titolo di campioni italiani sono: Giuseppe Pacelli, Jacopo Brundu, Francesco Raimondo, Piero Luzi. I quattro moschettieri si erano già laureati campioni regionali. Al campionato italiano di nuoto pinnato hanno partecipato 32 società. Da segnalare anche il secondo posto della staffetta junior con Andrea Fischetti, Gelsomino Malanga, Giuseppe Pepe, Salvatore Ventre. Lusinghiero il piazzamento di Gemma Bellino, Erica Scalcione, Gerardina Finelli e Giusi Vigorito che compongono la staffetta 4x100 femminile. 4° posto per Pasquale Poto e Letizia Contino, la più piccola tra i partecipati ai campionati italiani di Bari.
+19.07.2008
+
+[post_text_15]
+Adsl, il difensore civico sollecita utili chiarimenti
+&nbsp;
+CAPOSELE - Dopo varie sollecitazioni ed, in ultimo, la lettera aperta di Antonio Cione di “Cittadinanzattiva” inerente alla questione adsl, il Difensore civico Vincenzo Lucariello, il dirigente del servizio Giovanna Donadio ed il responsabile del procedimento Claudio Vittorio hanno indirizzato una lettera al sindaco di Caposele e allo stesso Cione chidendo loro di «fornire ogni utile informazione al fine di dirimere la controversia in atto».
+Cione, delegato del direttivo regionale di “Cittadinanzattiva, Assemblea territoriale alto calore ofanto sele”, infatti, con una lettera del diciassette giugno indirizzata al sindaco, ai capigruppo consiliari del comune di caposele, alla Telecom Italia, ed al difensore civico regionale di Napoli, ritornava sulla questione inerente alla mancata sostituzione della centralina analogica. «Nonostante le ripetute richieste, questa Associazione è costretta a dover registrare ancora alla data odierna la mancata sostituzione della vecchia centralina analogica, oltretutto dannosa per la salute pubblica, con quella digitale che consentirebbe finalmente di poter fornire il servizio adsl anche ai cittadini di Caposele. Inoltre, da qualche giorno, sono ripresi i lavori di scavo per consentire la fornitura del servizio a Calabritto, con l’evidente sperequazione di dover subire l’attraversamento nel nostro territorio per dare la connessione veloce ad altri comuni senza che ne possa usufruire il nostro.
+Per quanto sopra, la scrivente associazione chiede di sapere: 1)quando e se la Telecom sostituirà la vecchia centralina analogica con quella digitale, già installata a Materdomini e a Calabritto;
+2)quando sarà attivato il servizio adsl;
+3)quali iniziative sono state poste in essere per garantire anche ai caposelesi l’attivazione del servizio.
+Ove la positiva risoluzione della questione non risulti essere stata debitamente assicurata alla Telecom entro la fine del mese in corso, si chiede e sollecita la convocazione di un consiglio comunale aperto per elaborare ed assumere le necessarie e dovute iniziative amministrative e legali per assicurare la pronta soluzione della vicenda nei confronti della Telecom. La presente richiesta viene inoltrata, oltre che alla Telecom, anche al difensore civico regionale con espressa richiesta di voler attivare i rimedi di legge per la tutela dei cittadini di Caposele».
+Dopo la risposta del Difensore civico, dunque, per la cittadinanza di Caposele la possibilità di usufruire dei servizi Adsl sembra divenire più che una semplice speranza, per la realizzazione della quale dovrebbe bastare attendere i tempi tecnici.
+23.07.2008
+
+[post_text_16]
+Cittadinanza attiva: «Vogliamo chiarezza sulla linea Adsl»
+&nbsp;
+ Il gruppo di Cittadinanza Attiva, in una lettera aperta indirizzata all’amministrazione, ha chiesto l’intervento del Comune nei confronti di Telecom Italia per chiedere la sostituzione della cabina telefonica di Via Lungo Sele, in modo da portare l'Adsl nelle case dei cittadini di Caposele. «Nonostante le ripetute richieste – scrivono i portavoce dell’associazione - siamo costretti a registrare ancora la mancata sostituzione della vecchia centralina analogica, oltretutto dannosa per la salute pubblica, con quella digitale che consentirebbe finalmente di poter fornire il servizio Adsl anche ai cittadini di Caposele. Inoltre da qualche giorno sono ripresi i lavori di scavo per la posa dei cavi che consentiranno la fornitura del servizio a Calabritto con l’evidente sperequazione di dover subire l’attraversamento del nostro territorio per dare la connessione ad altri comuni senza che ne possa usufruire il nostro». L’Associazione chiede di sapere: quando e se la Telecom sostituirà la vecchia centralina analogica con quella digitale già installata a Materdomoni ed a Calabritto. «Qualora la positiva risoluzione della questione non risulti essere stata debitamente assicurata dalla Telecom entro la fine del corrente mese si chiede convocazione di un consiglio comunale aperto per elaborare le dovute iniziative amministrative e legali per assicurare la pronta soluzione della vicenda». La lettera è stata inoltrata anche al difensore civico regionale con espressa richiesta di voler attivare i rimedi di legge per la tutela dei cittadini di Caposele.
+23.07.2008
+&nbsp;
+
+[post_text_17]
+Caposele. Prende fuoco un pullman della Sita
+&nbsp;
+Prende fuoco un pullman della Sita Tragedia sfiorata nel pomeriggio di ieri sull’Ofantina: un pullman di linea della Sita, proveniente da Calabritto e diretto a Caposele, è stato completamente distrutto dal fuoco, con molta probabilità per un guasto all’impianto elettrico ma le vere cause sono ancora in fase di accertamento. Solamente l’intervento provvidenziale dei militari della stazione dei carabinieri di Caposele, prontamente allertati dalla centrale operativa della compagnia di Montella, ha evitato ulteriori gravi conseguenze. Infatti, grazie alle dotazioni di bordo di cui sono dotate le auto di servizio, nella fattispecie gli estintori, gli uomini dell’arma hanno circoscritto le fiamme in attesa dell’arrivo dei vigili del Fuoco di Lioni provvedendo, nel contempo, a mettere in salvo gli occupati del veicolo pubblico. Il traffico sull’Ofantina è stato interrotto per circa due ore e fatto defluire a cura dei carabinieri del Nucleo Radiomobile coadiuvati degli agenti della Polizia Municipale di Caposele per le strade interne comunali agevolando così le operazioni di salvataggio di spegnimento e di pulizia della carreggiata dai residui dell’incendio ristabilendo le necessarie condizioni di sicurezza. I carabinieri procedevano alle operazioni di ripristino della viabilità sulla più importante arteria stradale dell’Alta Irpinia, che dopo circa due ore tornava ad essere regolare. Gli occupanti del pullman sono stati prontamente trasportati a mezzo di un’ambulanza della Pubblica Assistenza di Caposele presso l’Ospedale Civile “Criscuoli” di Sant’Angelo dei Lombardi dove sono stati giudicati guaribili in pochi giorni.
+01.08.2008
+
+[post_text_18]
+Caposele - 47enne sardo ritrovato cadavere in albergo
+&nbsp;
+Tragica scoperta in una camera di albergo a Caposele dove, nella mattinata di oggi, i Carabinieri della locale Stazione hanno rinvenuto il cadavere di T.L. di anni 47.
+Gli investigatori hanno accertato che l’uomo, presente a Caposele per presenziare ad una cerimonia familiare a casa di amici, dopo aver partecipato ad una sagra locale, rientrato in albergo, complici alcune patologie pregresse, si sarebbe sentito male e sarebbe deceduto per arresto cardio-circolatorio.
+I Carabinieri, immediatamente intervenuti sul posto, non hanno potuto far altro che constatarne il decesso ed avvertire i familiari che risiedono in Sardegna. Hanno inoltre proceduto ad effettuare un accurato sopralluogo che ha permesso di escludere che la causa della morte potesse essere ricondotta a “morte violenta”. Infatti, non vi era alcuna presenza di segni di effrazioni o segni di manomissione: nulla risultava mancare e sono stati trovati tutti gli effetti personali ed i valori del defunto, risparmi compresi; insomma nessuna traccia che possa far supporre un’aggressione. Necessario è stato anche l’intervento del medico legale, Dott.ssa Carmen Sementa, che ha proceduto ad un esame esterno del cadavere, nel corso del quale non è stato riscontrato alcun segno di violenza sul corpo, il che tende a confermare l’ipotesi investigativa che il decesso sia avvenuto “per cause naturali”, probabilmente per arresto cardiaco.
+La salma è stata trasportata presso l’obitorio dell’ospedale civile di S. Angelo dei Lombardi, dove verrà effettuato l’esame autoptico e gli accertamenti necessari a stabilire con certezza la causa del decesso.  Le indagini sono state condotte in collaborazione con la Procura della Repubblica di Sant’Angelo dei Lombardi, coordinata dal Procuratore Capo Dott. Antonio Guerriero.
+09/08/2008
+
+[post_text_19]
+Dopo 28 anni Caposele riavrà la sua Chiesa. Oggi la cerimonia
+&nbsp;
+Dopo 28 anni di attesa la comunità di Caposele riavrà la sua chiesa. L'edificio, distrutto dal terremoto dell'80 e ricostruito ex novo, oggi con una cerimonia solenne sarà consacrato e dedicato a San Lorenzo Martire, patrono di Caposele. La cerimonia avrà inizio alle ore 17.00 e sarà presieduta dall'Arcivescovo della diocesi di Sant'Angelo-Conza-Nusco-Bisaccia Mons. Francesco Alfano.
+Il progetto è stato realizzato dall'Ing. Vittorio Gigliotti con calcoli statici del prof. Luigi Adriani ed è ispirato dalle sorgenti delle acque del Sele che alimentano l'Acquedotto Pugliese. "Tutti i punti più importanti della chiesa sono sovrastati da un vortice. Si presentano come centri di irradiazione che partendo dalla chiesa vogliono trasmettere a tutto il popolo la parola di Dio, essa si propaga come i cerchi concentrici che nascono quando cade un sasso nell'acqua" osserva il parroco mons. Vincenzo Malgieri. Notevole è, infatti, l'interesse architettonico, per le linee che ricordano lo scorrere dell'acqua, e artistico per la presenza di opere marmoree e del crocifisso scolpiti dall'artista bergamasco Mario Toffetti.
+09/08/2008
+
+[post_text_20]
+Wireless a Caposele nell'80 per cento del territorio.
+&nbsp;
+Dal mese di Aprile attraverso un'innovativa iniziativa dell'amministrazione comunale, il territorio di Caposele è coperto all'80 per cento dal segnale wireless per connettersi ad internet velocemente. Il collegamento può essere effettuato acquistando un kit di semplice montaggio e utilizzando l'abbonamento più idoneo alle proprie esigenze. Gli esercizi commerciali predisposti al servizio sono: Millenium (San Gerardo) - Cartolibreria Susy (Caposele) e Tecno Point (Caposele).
+Attualmente sono allacciate all'adsl wireless tutte le strutture comunali come gli uffici municipali, le scuole medie di Caposele e Materdomini, il Liceo Scientifico, la porta del Parco. Caposele dunque fuoriesce dall''isolamento web e ottiene al contempo un sensibile risparmio sulle bollette telefoniche comunali, come la stessa amministrazione sottolinea. La copertura dovrebbe estendersi inoltre nei prossimi mesi alle altre zone limitrofe.
+(mercoledì 3 settembre 2008 alle 13.27)
+&nbsp;
+
+[post_text_21]
+Caposele - Lite tra fratelli: una denuncia per minacce e lesioni
+&nbsp;
+Tragedia sfiorata nel pomeriggio di oggi a Caposele, dove a seguito di richiesta di intervento per un violento litigio in atto, i Carabinieri della locale Stazione, già in servizio esterno per le attività di controllo del territorio predisposte dal Comando Provinciale di Avellino,  si sono portati sul posto dove hanno trovato quattro persone che discutevano animatamente e che erano già venute alle mani. I carabinieri della Compagnia di Montella hanno provveduto immediatamente a sedare gli animi e a favorire il soccorso delle persone coinvolte nella lite e rimaste leggermente contuse.
+Alla luce delle risultanze investigative è stato accertato che i protagonisti della vicenda sono due fratelli, uno dei quali, tra l’altro, pregiudicato e sottoposto a misure di prevenzione, nonchè i loro genitori  che, per ragioni legate a dissidi dovuti all’utilizzo di sostanze stupefacenti da parte di uno dei figli, avevano dato luogo ad un’accesa discussione ben presto sfociata in una lite violenta verbale e fisica.
+Accertata la dinamica e le responsabilità delle persone coinvolte nella violenta discussione, i Carabinieri hanno provveduto a trasportare i contusi presso l’ospedale civile di Oliveto Citra e presso la guardia medica del posto, per ricevere le cure necessarie. Tutti sono stati giudicati affetti da escoriazioni e contusioni varie al volto e agli arti, con prognosi complessive variabili tra i 3 e i 7 giorni. I Carabinieri dopo aver accertato responsabilità e ruoli di ciascuno dei partecipanti alla violenta lite, hanno denunciato in stato di libertà per minacce e lesioni uno dei fratelli coinvolti nella lite.
+(venerdì 26 settembre 2008 alle 18.34)
+&nbsp;
+
+[post_text_22]
+01/10/2008 FINALMENTE COMINCIATI I LAVORI DEL PONTE TREDOGGE.
+&nbsp;
+FINALMENTE, DOPO ANNI DI ATTESA, SONO COMINCIATI I LAVORI PER L'ALLARGAMENTO DEL PONTE TREDOGGE. LA NUOVA AMMINISTRAZIONE HA SAPUTO CON PAZIENZA E TENACIA E CON L'ESPERIENZA DEL CASO, RIMETTERE IN GIOCO UNA SERIE DI NUOVE SOLUZIONI AFFINCHE' L'IMPRESA APPALTATRICE POTESSE SUBITO INIZIARE I LAVORI. GLI STESSI ATTRAVERSO UNA ATTENTA RIFLESSIONE OPERATIVA ARRECHERANNO POCHISSIMI DISAGI ALLA POPOLAZIONE. INFATTI IL PONTE DURANTE I LAVORI POTRA' ESSERE COMUNQUE ATTRAVERSATO PER UNA CORSIA. L'AMMINISTRAZIONE COMUNALE SI SCUSA PER I PICCOLI DISAGI E RINGRAZIA, FIN D'ORA, I CITTADINI CHE DOVRANNO AVERE UN PO' DI PAZIENZA PER TUTTO IL TEMPO DELLA PARZIALE INTERRUZIONE.
+
+[post_text_23]
+Storie di disagio: studenti saltano lezioni per lavorare nei campi
+&nbsp;
+Caposele - Nell’ambito dei servizi pianificati dal Comando Provinciale di Avellino per il contrasto del fenomeno della dispersione scolastica, i Carabinieri della Compagnia di Montella hanno dato inizio all’attività di controllo e prevenzione. I controlli, a poco meno di mese dall’inizio delle lezioni, infatti, sono stati intensificati e, nell’ambito delle verifiche effettuate presso 8 scuole primarie, 5 scuole secondarie inferiori e 2 secondarie superiori sono già emersi i primi casi di dispersione scolastica.
+In particolare, i Carabinieri, dalle verifiche compiute hanno accertato due episodi di inosservanza presso alcuni istituti scolastici di Caposele, riscontrando che due alunni regolarmente iscritti, nonostante le varie e numerose sollecitazioni indirizzate alle famiglie da parte dei docenti e del dirigente scolastico, hanno registrato innumerevoli assenze dalle lezioni senza alcuna plausibile giustificazione.  I Carabinieri, pertanto, hanno denunciato in stato di libertà i genitori degli alunni per mancato adempimento sul diritto-dovere all’istruzione e alla formazione e per inosservanza dell’obbligo dell’istruzione obbligatoria dei minori.
+Gli ulteriori accertamenti finalizzati ad individuare le cause che avevano costretto i minori in questione a non frequentare la scuola, hanno permesso di verificare che i due nuclei familiari vivono purtroppo in situazioni di disagio economico con i figli che contribuiscono al bilancio familiare lavorando nei campi. I militari hanno provveduto immediatamente a far rientrare i ragazzi a scuola attivando nel contempo i servizi sociali al fine di assicurare sia ai minori che ai rispettivi nuclei familiari la necessaria assistenza.
+Anche lo scorso anno, i Carabinieri di Montella, avevano denunciato decine di genitori per non aver ottemperato al diritto-dovere dell’istruzione obbligatoria nei confronti dei propri figli, sottraendo, pertanto, i minori dall’obbligo della frequenza nelle scuole.  Le attività d’indagine sono state condotte in stretta collaborazione con i magistrati della Procura di S. Angelo dei Lombardi, coordinati dal Procuratore Capo Dott. Antonio Guerriero.
+(martedì 7 ottobre 2008 alle 12.34)
+&nbsp;
+
+[post_text_24]
+Acqua: galleria Pavoncelli bis e scippo delle acque, l’inchiesta prosegue
+&nbsp;
+Vertenza antica il braccio di ferro tra l’Irpinia e l’Acquedotto Pugliese sulla messa a regime dei trasferimenti idrici tra Campania e Puglia. Con la costruzione della Pavoncelli bis, megaopera stoppata (per ora) dal Tribunale Superiore delle Acque, i rapporti tra gli enti territoriali (Comuni, Enti d’Ambito) sono diventati sempre più tesi. Troppe ombre aleggiano sul progetto di raddoppio della Pavoncelli, confluite tutte intorno ad una inchiesta giudiziaria che sta portando avanti la Procura della Repubblica di Sant’Angelo dei Lombardi. «Stiamo lavorando intensamente - spiega il Procuratore Antonio Guerriero - ma tengo a chiarire che non c’è nessun indagato e non è previsto alcun rinvio a giudizio nei prossimi giorni».
+&nbsp;
+L’esigenza di raddoppiare la galleria Pavoncelli prendeva forma quasi trent’anni fa, quando la condotta principale riportò gravi danni a seguito del terremoto dell'80. Si decise di costruirne una nuova. Il progetto fu appaltato nel 1989, nel 1990 iniziarono i lavori tra mille difficoltà, dopo 200-300 metri s'impatanarono in un mare d'acqua, all'epoca si allertò il sindaco di Caposele, nel 1992 l'opera fu sospesa, l'allora procuratore di Sant'Angelo Maresca aprì un'inchiesta, furono indagate per abuso di potere una ventina di persone, furono sprecati circa 80 miliardi di vecchie lire. Poi Maresca andò via, il fascicolo sulla Pavoncelli fu archiviato.
+Nel 2005 fu indetta una nuova gara d'appalto, questa volta gestita direttamente dal Ministero per le Infrastrutte. Il nuovo appalto è di circa 300 milioni di euro, di questi, 5 milioni di euro già sono stati spesi per progettazione.
+Il punto che ha sollevato le maggiori perplessità riguarda la reale esigenza di procedere o meno alla realizzazione della megaopera che potrebbe causare il prosciugamento delle sorgenti di Sele e Calore con evidenti ripercussioni sui loro bacini idrografici. In tal senso si occupati delle perizie i tecnici Liliana Monaco e Costantino Severino. E le loro relazioni apparirebbero, secondo indiscrezioni, critiche nei confronti del megaprogetto su cui spingono con forza Regione Puglia e Aqp.
+&nbsp;
+
+[post_text_25]
+Ecco l’omaggio di Caposele
+&nbsp;
+Caposele, 13/10/2008. Lo aveva promesso è ha mantenuto l’impegno. Dacia Maraini, scrittrice di livello internazionale è tornata a Caposele. Ieri l'atteso incontro con il pubblico presso una stracolma sala convegni dell’Istituto Comprensivo di Caposele. Oltre 500 persone hanno assistito alla presentazione del suo ultimo libro “Il treno dell’ultima notte” edizione Rizzoli. A moderare lìincontro il giornalista Pasquale Gallicchio. La manifestazione organizzata dall’ Associazione culturale “Sorgenti di Sapere” si è aperta con un intervento del sindaco di Caposele, Pasquale Farina, che ha conferito la cittadinanza onoraria alla Maraini per l'impegno culturale e civile a difesa delle donne e ha conluso dicendo che "Caposele è grata a Dacia Maraini per l'impegno a favore della libertà della persone". E' seguita una breve lettura di tre monologhi tratti dalle opere della Maraini a cura della compagnia teatrale “Liberi commedianti”. E' poi intervenuto Salvatore Di Napoli, dirigente scolastico dell’Istituto Comprensivo di Caposele, che, parafrasando il titolo del libro, ha invitato tutti a "salire sul treno della speranza e a lavorare tutti insieme per far sì che la nostra terra faccia sempre meglio", mentre Antonio Ruglio, presidente dell’associazione “Sorgenti di Sapere”, ha annunciato che ci sono altri progetti in cantiere. Del resto, se la Maraini è tornata per la seconda volta a Caposele, vuol dire che questo paese ha vale e ha ancora tanto da dimostrare. Una analisi molto attenta e puntuale sul libro “Il treno dell’ultima notte” è stata proposta da Romualdo Marandino, punto di riferimento della cultura irpina e preside del Liceo Classico “Francesco De Sanctis” di Sant’Angelo dei Lombardi. Marandino ha paragonato il libro alla "discesa negli inferi" per il senso di dolore che pervade le sue pagine. Non è solo una narrazione storica o psicologia, alcuni episodi, ha detto il preside Marandino, "scavano" dentro. Del resto, la storia che la scrittrice racconta non è autobiografica ma il dolore sì. Mentre scriveva il libro, come lei stessa ha raccontato nel corso dell'incontro, il suo compagno si è ammalato gravemente e poi è morto. L'atmosfera di dolore di quei due anni sono in qualche modo arrivati sulle pagine. La Maraini ha raccontato che per scrivere questo libro si è ispirata a una traccia a lei molto cara, "Cuore di tenebra" di Conrad. Il protagonista, il capitano Marlow, si mette in mare spinto dalla voglia di conoscere l'Africa ma conoscerà principalmente gli orrori ddella schiavitù. Un altro viaggio che sfocia nell'orrore e nella disilussione è quello della protagonista del romanzo della Maraini, che affronta gli abissi dei totalitarismi del Novecento, collegando la tragedia della Shoah a quella della rivoluzione di Budapest del ‘56. Un viaggio nella storia che ha portato la Maraini a considerare la rivolta di Ungheria come l'inizio e la fine del comunismo sovietico. L'inizio, perchè nato come un'utopia straordinaria che mirava all'uguaglianza, alla libertà, la fine perchè sfociato poi nella violenza della repressione. La protagonista del libro, Amara Sironi, inizia un viaggio in treno che la porterà da Auschwitz a Cracovia, da Vienna a Budapest (nel bel mezzo della rivolta popolare contro l’oppressione sovietica). Ma il suo è anche un personale “viaggio della speranza” per ritrovare un amico d’infanzia: Emanuele, figlio di un ebreo austriaco trapiantato a Firenze, deportato nel campo di Lodz e poi scomparso. Tutto l'asse narrativo si sviluppa intorno a questa estenuante ricerca. Alla fine lo ritroverà, mutato non solo nell'aspetto ma, soprattutto, nello sprito. Del ragazzo gentile, sensibile, pieno d'amore non è rimasto più niente: Al suo posto un uomo disilluso e abbrutito dagli eventi che hanno caratterizzato il secolo scorso e che rivela il senso della catastrofe e dell'abisso in cui è precipitato il Novecento, e insieme la speranza incoercibile di un mondo diverso.
+
+[post_text_26]
+PARTE IL NUOVO "PIANO TRAFFICO" NEL CENTRO URBANO
+&nbsp;
+E' partito il nuovo PIANO TRAFFICO nel centro urbano di Caposele. La Polizia Municipale sarà coadiuvata per alcuni giorni da volontari della Pubblica Assistenza che sensibilizzeranno la cittadinanza al rispetto delle nuove regole. Il piano prevede la sosta a tempo (30 minuti) con disco orario, in alcune zone di Corso Europa e via Roma che servirà a garantire un posto auto certo durante le ore di ufficio a chi dovrà utilizzare i servizi collocati nel centro città (Banca, Posta, Farmacia, Comune).
+Si chiede LA MASSIMA COLLABORAZIONE DELLA CITTADINANZA affinchè anche Caposele possa essere, sempre di piu', un Paese ordinato e rispettoso delle regole. 06/11/2008
+&nbsp;
+
+[post_text_27]
+23 novembre 80/2008 COMMEMORAZIONE
+&nbsp;
+"Purtroppo accadde in un solo momento ciò che non vorremmo accadesse mai:
+ore 17,30 Santa Messa nella chiesa di San Lorenzo;
+ore 19,00: corteo fino a piazza XXIII nov.;
+ore 19,35 : deposizione di una corona di fiori al monumento per le vittime del terremoto; ore 20,00 Commemorazione nella sala Polifunzionale con poesie, letture di brani, interventi e proiezione finale del film: "Ricordi e Pensieri" del 1980.
+
+[post_text_28]
+Caposele - Incidente sul lavoro: ustionato un operaio dell’Enel
+&nbsp;
+Tragedia sfiorata questa mattina a Materdomini, frazione di Caposele, dove un operaio dell’Enel è rimasto gravemente ustionato. L’uomo, 43enne  originario del luogo, mentre lavorava all’interno di una cabina elettrica per riparare un guasto verificatosi poco prima, per cause ancora in corso di accertamento, è rimasto folgorato da un arco voltaico scaturito dalla condotta dell’alta tensione. Subito soccorso il malcapitato è stato ricoverato in prognosi riservata all’ospedale civile di Oliveto Citra per ustioni gravi su gran parte del corpo.
+I Carabinieri della Stazione di Caposele intervenuti sul posto stanno svolgendo i necessari accertamenti per verificare eventuali responsabilità in merito alla dinamica del grave infortunio sul lavoro.  Le indagini sono condotte in collaborazione con i Magistrati della Procura della Repubblica di Sant’Angelo dei Lombardi coordinati dal Procuratore Capo Antonio Guerriero
+&nbsp;
+sabato 22 novembre 2008 alle 15.37
+&nbsp;
+
+[post_text_29]
+Caposele - Esperti a confronto su "Acqua: prossima emergenza?"
+&nbsp;
+Nell’ambito dei Seminari itineranti in Irpinia dell’Associazione 360, il 30 novembre alle ore 18.00, presso il centro polifunzionale di Caposele si terrà un incontro sul tema “Acqua: prossima emergenza?”. Si è parlato tanto e si continua a parlare di emergenza rifiuti, un cancro che ha toccato la nostra Regione, ma un altro argomento spinoso, forse l’emergenza prossima, è quella relativa alla disponibilità di acqua potabile. Esperti internazionali e nazionali hanno pronosticato che tra non molto anche i territori ricchi di acqua, come l’Irpinia, avranno una profonda crisi idrica, con tutte le conseguenze che ne scaturiranno, se non verranno intraprese azioni virtuose e concrete per la tutela delle risorse acquifere. Al dibattito, che sarà introdotto da Michele Marzullo, Presidente dell’Associazione 360 della Provincia di Avellino, parteciperanno Pasquale Farina Sindaco di Caposele,  Pierangelo Piegari, Giornalista RAI, Francesco Lettera Consigliere Giuridico del Governo e Docente di Diritto dell’Acqua all’Università di Trento, Sabino Aquino Presidente del Parco dei Monti Picentini, Francesco Maselli Presidente Alto Calore Servizi, Nicola Di Iorio Presidente Comunità Montana Terminio Cervialto e Nicola Manna Direttore Qualità “ Ferrarelle SpA”.  Le conclusioni sono affidate all’On. Eugenio Mazzarella, Presidente Associazione 360 Campania e al Senatore Enzo De Luca.
+(martedì 25 novembre 2008 alle 13.29)
+&nbsp;
+
+[post_text_30]
+27/11/2008 NUOVA LINEA PER L'UNIVERSITA' DI FISCIANO
+&nbsp;
+COLLEGAMENTO DIRETTO ALL'UNIVERSITA' DI FISCIANO
+GLI ORARI:
+&nbsp;
+LUNEDI - VENERDI
+PARTENZA DA MATERDOMINI ALLE ORE 7.10 ARRIVO A FISCIANO-UNIVERSITA' ALLE 8.30
+PARTENZA DA FISCIANO-UNIVERSITA' ALLE ORE 14.00 ARRIVO A MATERDOMINI ALLE ORE 15.15
+
+[post_text_31]
+Caposele - Convegno sull’acqua. Botta e risposta Maselli - Di Iorio
+&nbsp;
+Un confronto organizzato dall’Associazione 360° per discutere di “Acqua: prossima emergenza”. Nel parterre affollato della sala polivalente della “città dell’acqua” si  sono confrontati esponenti istituzionali e tecnici sul ruolo e le prospettive future  della centralità del tema acqua e del suo “scippo” che mette a repentaglio il patrimonio idrico non solo irpino ma extra regionale. Dopo i saluti del sindaco  del comune di Caposele Pasquale Farina, ha  fatto da apripista ai diversi relatori l’assessore comunale Angelo Ceres che ha  lanciato l’allarme: “c’è un rischio che 3 miliardi di persone non avranno accesso all’acqua potabile”. Michele Marzullo, presidente dell’associazione 360° ha invece  descritto i compiti e le funzioni del movimento“ nato per valorizzare risorse umane e professionali, produrre ricerche, suggerire nuovi interventi alla politica, offrire occasioni di confronto, promuovere corsi di formazione”. Per Marzullo, “c’è sfiducia nei partiti,  il nostro obiettivo – afferma – è quello di dialogare a tutto campo con tutti. Noi chiediamo una buona leadership, maggior rispetto della politica verso i cittadini che hanno bisogno della politica”. Il consigliere comunale Gonnella, ingegnere impegnato come attività professionale nell’Ente A.T.O., ha espresso dubbi e perplessità sul management delle società di gestione dell’acqua “assenza di buoni risultati”, affermando, altresì, parere “negativo all’affidamento  delle acque all’amministrazione dei privati”. Per il giornalista Pierangelo Piegari già sindaco di San Gregorio Magno  per ben 23 anni, “l’acqua è un bene primario. La prima volta che sono stato eletto sindaco, il primo impegno che ho portato a termine nei primi nove mesi dell’amministrazione è stato quello di  portare l’acqua in una frazione. Nei paesi -  ha aggiunto Piegari -  il problema dell’acqua è stato risolto dai sindaci che sono diventati esperti sul campo”. Ampia, articolata ed applaudita è stata la relazione del dott. Sabino Aquino nella sua duplice veste di presidente del Parco Monti Picentini e di dirigente tecnico della Spa Alto Calore Servizi. Aquino, ha evidenziato le caratteristiche morfologiche del sistema montuoso della provincia di Avellino fatto di “roccia fratturata e carsificata attraverso le quali le acque affluiscono alle sorgenti” per soffermarsi analiticamente sulla resa delle stesse “6 mila litri il secondo, dal massiccio del Partenio che sono utilizzati dagli abitanti dell’area vesuviana; 40 litri il secondo per mq da quello del  Terminio che alimentano l’acquedotto del Serino che soddisfa i bisogni di Napoli; 4 mila litri il secondo dal massiccio del Cervialto che partendo dal comune di Caposele alimentano l’acquedotto pugliese; 2 mila litri di acqua, la produzione dei Monti Vicinici, che va a soddisfare i bisogni della Costiera Amalfitana”. Altro aspetto sostanziale per la formazione dell’alta quantità del prezioso elemento del bacino acquifero dell’Irpinia è quello che attiene la funzione svolta dalla vegetazione che ammortizza le acque piovane, le trattiene e le trasferisce nel substrato calcareo dei massicci montuosi e fa sì che non si disperdano nel reticolo idrografico di ruscellamento a valle. Per il presidente del Parco Monti Picentini, “da non sottovalutare la oligomineralità dei complessivi 18 mila litri di acqua il secondo che producono i bacini irpini. I rischi di tutta questa acqua: “inquinamento e sovrasfruttamento. L’inquinamento è causato dai batteri che si possono trattare e dai fitofarmaci sintetici, non trattabili, che avvelenano le acque. Il sovrasfruttamento è ancora più grave dell’inquinamento perché produce una sofferenza atroce per i fiumi”. Infine ha concluso Aquino, “ci opponiamo all’attuale prelievo, perché dobbiamo prendere l’acqua solo a gravità, non in profondità dei pozzi, come oggi avviene”.     La formula equilibrata per Aquino da tenere in considerazione è:   •P =  E + I + R  che, in sintesi, significa che il prelievo deve essere inferiore alla capacità di carica del bacino;  •Evitare perdite investendo sul rifacimento delle reti idriche;  •Impegnarsi in interventi di bonifica.   Franco Maselli,  presidente dell’Alto Calore Servizi, ha lanciato  un grido di allarme: “siamo già nell’emergenza, se è vero che c’è una richiesta d’acqua con una tendenza che fa prevedere una domanda che supera l’offerta. La vicenda è drammatica perché non c’è consapevolezza di questa condizione: consumiamo tanta acqua e non ci accorgiamo che stiamo consumando più di quello che abbiamo. C’è scarsità delle risorse a causa del sovrasfruttamento, c’è siccità ed i bacini non si ricaricano. Al riguardo ho già  chiesto alla Regione Campania il riconoscimento dello stato di calamità”.  Per il Presidente Alto Calore Servizi, “c’è disattenzione della Regione Campania che sottovaluta l’importanza della tutela idrica, non tenendo nel debito conto nemmeno dell’invito ad attenersi, al riguardo, esplicitato dalla Comunità Europea a tutti gli Stati membri. La Regione Campania – ha dichiarato  – su una disponibilità di 138 milioni di euro per progetti, per l’Alto Calore Servizi ne ha riservato solo uno. La Regione,è sorda ed omissiva”. Maselli ha pertanto lanciato “ un appello a tutte le forze politiche a che alla Regione Campania si valuti il rischio di vita degli abitanti della Campania, della Puglia e della Basilicata!
+La Regione – ha poi aggiunto - deve farsi carico di come salvaguardare queste risorse alla luce di queste emergenze, riscrivendo le regole per l’attingimento delle acque: c’è bisogno di Un Patto per l’Acqua perché, se è vero che ci sono sorgenti per milioni di persone, è pur vero che non tutti i gestori utilizzano l’acqua che possono attingere; <b>facciamo una banca dell’acqua per una distribuzione solidale.  Il direttore qualità di “Ferrarelle Spa” leader mondiale delle acque minerali, Nicola Manna ha evidenziato: “coltiviamo, non sfruttiamo l’acqua minerale. A mezzo di un processo industriale portiamo al consumatore acqua minerale inalterata, non utilizzabile per altri consumi”. Poi si è soffermato  “sulla loro formazione e composizione, sulle sorgenti di captazione, sui controlli circa l’inquinamento dei relativi  pozzi di attingimento che, se positivi, devono essere subito dimessi dalla loro funzione. Nicola Di Iorio, Presidente della Comunità Montana Terminio Cervialto: “sono d’accordo con il Presidente Maselli. La Regione Campania è assente sui problemi della provincia di Avellino.   Abbiamo una Regione che è matrigna perché abbiamo perso una capacità di rappresentanza della nostra terra. Poi la stilettata,“il sen. De Luca ha scelto di pensare a se stesso, alla sua carriera politica ed ha abbandonato l’Irpinia”. Infine, “sulla questione dei 6 milioni di debiti dell’Alto Calore, dobbiamo dire che cosa è successo in quell’Ente di servizio” e Maselli interrompendolo ha “promesso” che  “a giorni farò una conferenza stampa chiarificatrice” . Di Iorio  ha infine invitato  a porre al centro dell’attenzione un solo patto “un patto per l’Irpinia, come orizzonte della linea politica dell’Irpinia, altro che le cento Irpinie”. Ha chiuso il convegno con il suo intervento Francesco Lettera, docente di diritto dell’acqua all’università di Trento e consigliere giuridico del Governo per le acque e Bacini.  “Tutta l’Irpinia, - ha aggiunto -  è un’area da salvaguardare; non è pensabile che Napoli e la Puglia prendono acqua senza pagare chi si priva di una dotazione naturale di acqua. La solidarietà non va solo in discesa, ma anche in salita: pagando una quota che riconosca una solidarietà, sarà anche un invito a consumare con parsimonia l’acqua. Il canone di concessione non può essere più irrisorio e deve essere concordato con le comunità che perdono risorse a vantaggio di altre comunità”. Insomma un buon convegno quello di ieri sera moderato da Gelsomino Grasso, che amplia i temi e le problematiche dell'emergenza acqua: il monito lanciato dai relatori e in particolare dai tecnici non va assolutamente preso sottogamba. Anzi, è il caso di accelerare.... per non perdere e disperdere il bene prezioso dell'Irpinia.
+&nbsp;
+(lunedì 1 dicembre 2008 alle 02.04)
+&nbsp;
+
+[post_text_32]
+TASSA SMALTIMENTO RIFIUTI SOLIDI URBANI - proroga
+&nbsp;
+OGGETTO:Comunicazione dati catastali del servizio TASSA SMALTIMENTO RIFIUTI SOLIDI URBANI
+&nbsp;
+Il responsabile del settore economico/finanziario VISTO il comunicato nr. 2008/158180 del 24/10/08, emanato dal Direttore dell’Agenzia dell’Entrate, PROROGA Al 28 febbraio 2009 il termine ultimo, già fissato al 30/11/2008, per comunicare i dati di cui all’oggetto. INFORMA I contribuenti che per l’omessa denuncia dei dati è applicabile la sanzione amministrativa da euro 258,00 ad euro 2.065,00 e che per la mancata presentazione della stessa, questo Ente dovrà fare la segnalazione all’agenzia delle Entrate. Per ulteriori informazioni “lo sportello del cittadino” continua ad essere a disposizione degli utenti il martedi e il giovedi dalle ore 9,00 alle 12,00 e dalle ore 16,00 alle 18,00.
+Il responsabile del settore (Dott. Angelo Ceres)
+
+[post_text_33]
+05/12/2008 NUOVA PISCINA COMUNALE
+&nbsp;
+CON DETERMINA N. 671 DEL 4.12.2008 E' STATA AGGIUDICATA ALLA COOPERATIVA "BABY DUS" LA GARA PER LA GESTIONE DELLA NUOVA PISCINA COMUNALE DI CAPOSELE.
+LA COOPERATIVA CON SEDE IN VIA S. BERNARDINO,34 A LIONI, METTE A DISPOSIZIONE PER EVENTUALI INFORMAZIONI ED ISCRIZIONI UN NUMERO DI TELEFONO ACCESSIBILE IN ORARI DI UFFICIO DAL LUNEDI AL VENERDI: 0827 270061.
+&nbsp;
+INDICAZIONI PIU' PRECISE ANCHE PRESSO IL SITO DEL COMUNE DI CAPOSELE. LA NUOVA PISCINA COMUNALE, PIU' BELLA ED ACCOGLIENTE, HA UNA NUOVA AREA UTENTI CON SPOGLIATOI RIMODERNATI E PIU' EFFICIENTI CON L'ESPERIENZA DI TANTI ANNI DEL PERSONALE E DEGLI ISTRUTTORI.
+PER RAGGIUNGERLA BASTA SEGUIRE LE INDICAZIONI DOPO L'USCITA "SAN GERARDO" DELLA SUPERSTRADA "FONDO VALLE SELE"
+
+[post_text_34]
+11/12/2008 NUOVO P.U.C.
+&nbsp;
+Si comunica che con deliberazione di G.M. n. 65/2008 è stata approvata la proposta di PUC del nostro comune.
+PER PRENDERE VISIONE DEGLI ELABORATI, L'U.T.C. E' APERTO AL PUBBLICO IL MARTEDI E IL GIOVEDI DALLE ORE 15,00 ALLE ORE 18,30
+
+[post_text_35]
+Caposele - Sarà inaugurata domenica la nuova piscina comunale
+&nbsp;
+Sarà inaugurata domenica 21 dicembre, alle ore 18:00 in località Piani, la nuova piscina comunale. L’amministrazione di Caposele e la cooperativa sociale "Baby Dus" invitano a partecipare tutti i cittadini. L'evento sarà trasmesso in diretta su Radio e Televisioni locali. La nuova piscina comunale è stata dotata di nuove ed ampie sale di accoglienza, di uffici per il personale e salette di attesa attrezzate con Tv maxi schermo e internet point con area wireless. Il personale è a disposizione per accogliere i visitatori ed i potenziali fruitori che avranno la possibilità di utilizzare l'impianto gratuitamente fino al 31 dicembre. Le iscrizioni potranno effettuarsi presso la sede già lunedì 22 dicembre.
+&nbsp;
+(mercoledì 17 dicembre 2008 alle 09.35)
+&nbsp;
+&nbsp;
+
+[post_text_36]
+A Caposele Farina media con gli scontenti: aria di verifica
+&nbsp;
+CAPOSELE - Le acque non si sono ancora calmate nella maggioranza consiliare. Il turbine innescato con le deleghe al Piano di Zona Sociale e la Comunità Montana "Terminio-Cervialto" è in corso. Il sindaco Pasquale Farina, attraverso una serie di confronti con i suoi consiglieri, sta tentando di serrare le file e rilanciare l'attività amministrativa ricucendo lo strappo con il Partito Democratico. In maggioranza, il Pd dice di contare quattro consiglieri, tra cui Donatello Cirillo "rimosso" dalla delega alla "Terminio-Cervialto" e Alfonsina Rosania, vicesindaco e delegata in extremis al Piano di Zona Sociale "Alta Irpinia" in quota Partito Democratico. Ma accanto i democratici si accosterebbe il malumore di qualche altro esponente, anche in giunta, che chiede al sindaco l'apertura di una verifica in ottica di un rilancio dell'azione amministrativa. E si, perchè a Caposele, si stanno riducendo le possibilità di un terremoto al Comune, ma l'apertura di una verifica di maggioranza è l'ipotesi che si rincorre.
+Il sindaco Pasquale Farina non avrebbe intenzioni di "forzare" contro il muro alzato dal Pd, così come accaduto alla "Terminio-Cervialto". Questo, secondo alcuni ambienti vicini al primo cittadino. Se quest'ultimo deciderà di aprire una verifica, all'ordine del giorno non ci saranno solo le rappresentanze negli enti di servizio, ma anche alcune questioni spinose che interessano l'operato dell'amministrazione comunale, dalle opere pubbliche alle consulenze esterne. Entro il fine settimana sono attese le prime posizioni ufficiali nell'ambito dei partiti di maggioranza che in queste ore stanno convocando i rispettivi vertici.
+09.01.2009
+&nbsp;
+&nbsp;
+
+[post_text_37]
+PRESENTAZIONE DEL NUOVO P.U.C.
+&nbsp;
+PRESENTAZIONE AL PUBBLICO DEL P.U.C. DI CAPOSELE - DOMENICA 25 GENNAIO ALLE ORE 18,00 PRESSO L'AULA POLIFUNZIONALE -
+&nbsp;
+
+[post_text_38]
+ Acque, Caposele mobilitata
+&nbsp;
+CAPOSELE - Tutela e salvaguardia delle acque, la mobilitazione parte da Caposele, capitale irpina delle acque. A promuovere una "legge regionale d'iniziativa popolare" è Gerardo Monteverde, capogruppo della minoranza al Comune. Ha già informato il sindaco Pasquale Farina della volontà di sottoporre la proposta all'attenzione del consiglio comunale.
+«Non è da poco tempo che mi preme porre in chiara evidenza ed in maniera appropriata il problema dell’acqua qui a Caposele - evidenzia Monteverde - ai fini di un richiamo all’attenzione unito a quello di una correzione di certi comportamenti. Qualche anno fa, presso la sede dell’Ato 1di Avellino, veniva siglato dai Comuni di Caposele, Cassano, Montella, Conza della Campania, oltre che dalla Provincia di Avellino, dal Parco Regionale dei monti Picentini, dall’Ato e dall’Autorità di Bacino Interregionale del fiume Sele una proposta funzionale all’Accordo di Programma (ex art. 17 della legge 5 febbraio 1994, n° 36 ). Dopo tanti sforzi, il risultato finale del confronto dei vari interessi che stavano e stanno sul tavolo di questa annosa questione facevano ben sperare».
+Il Comune di Caposele tramite il suo rappresentante, ricorda l'ex sindaco, «era riuscito con la forza delle idee e la consapevolezza dei propri diritti a far inserire il ristoro della risorsa a favore dei Comuni nei quali si verifica la derivazione dell’acqua. Sono passati gli anni e di quel documento non esiste più alcuna traccia». La lotta per il ristoro, secondo Monteverde, «è tanto più efficace quanto più si fa propria la convinzione della naturalezza di tale diritto.
+E’ pur vero che a molti tutto questo suona strano in quanto si fanno imprigionare dall’idea che l’acqua è un bene demaniale e nulla fanno per approfondire anche l’aspetto del ristoro dovuto per il prelievo dell’acqua da un territorio».
+In questi ultimi decenni non si è, invece, palesata «un’attenzione su queste tematiche da parte di chi ha competenza in materia; si è solo continuato a considerare l’acqua un bene non esauribile ignorando l’azione di salvaguardia della stessa. La Regione Campania è una delle ultime ,anche in questo, a dotarsi di una legislazione organica sul ciclo dell’acqua». E a niente vale il grido rivendicativo delle piccole comunità come Caposele che chiedono ad alta voce «una regolamentazione complessiva, che tenga conto anche del ristoro dell’ambiente e della risorsa e/o delle mancate opportunità. Non si tratta di vendere le acque demaniali , come i superficiali credono o vogliono far credere, ma solo di continuare a fare quello che in passato sapientemente faceva il governo centrale.
+Il ristoro ambientale fino agli anni 50 è sempre stato fornito al territorio a spese del governo tramite il risanamento e la riforestazione del territorio stesso».
+Una tariffa minima per il pagamento dell'acqua fornita e la tutela delle sorgenti del Sele: queste le richieste dei "Nuovi Orizzonti" che nei prossimi giorni al vaglio del consiglio comunale.
+04.02.2009
+&nbsp;
+&nbsp;
+
+[post_text_39]
+Caposele - Liberato uno sparviero grazie all'amministrazione
+&nbsp;
+Con il contributo dell’amministrazione comunale di Caposele - Assessorato alle Politiche Ambientali guidato da Angelo Ceres -  e dei volontari del Wwf “L.Grasso”, in particolare di Raffaele Grasso e Daniele Nesta, è stata ridata la libertà ad un esemplare di sparviero.  Il rapace era stato trovato ferito ad un’ala da colpi di fucile in località Bosco Difesa. Appena trovato e prestato i primi soccorsi, lo sparviero è stato trasferito per le cure e la riabilitazione presso l’oasi del Wwf di Conza della Campania. Grazie all’impegno ed alla professionalità del veterinario Adriano Argento il volatile ha potuto riacquistare la libertà in 15 giorni. Sempre in località Bosco Difesa, qualche giorno dopo, è stato trovato ferito anche un esemplare di Poiana. Il rapace è stato condotto per le cure presso il centro rapaci di Montella.
+11.02.2009
+&nbsp;
+
+[post_text_40]
+Caposele - Uccise il marito violento: condannata a 15 anni
+&nbsp;
+Quindici di reclusione a C. N., una donna pregiudicata di Caposele  accusata di avere ucciso, nel dicembre del 2005, il proprio marito in una cittadina nella provincia di Bari. I carabinieri della stazione di Caposele, in ottemperanza all’ordine di esecuzione per la carcerazione emesso dalla Procura della Repubblica presso il Tribunale di Trani, hanno pertanto provveduto a trarre in arresto la donna ed a tradurla presso la Casa Circondariale di Bellizzi Irpino, dove dovrà scontare la sua pena.
+La donna, già nota ai carabinieri della compagnia di Montella, era da tempo sotto continua sorveglianza da parte dei militari in quanto sottoposta agli arresti domiciliari con l’accusa di omicidio. C. N. risiedeva con il proprio nucleo familiare in un paese della provincia di Bari. Prime le liti violente, poi i continui maltrattamenti subiti da parte del marito avevano reso la convivenza un inferno. La donna, stanca dei continui soprusi ed abusi, decise allora di mettere in atto, con l’aiuto del proprio figlio, l’omicidio del consorte violento, freddandolo con un colpo di fucile.   All’epoca dei fatti fu recluso solo il figlio, che è tutt’ora detenuto, mentre la madre richiese alla Cassazione la revisione della condanna emessa dal Giudice per l’udienza preliminare. A conclusione della vicenda giudiziaria, è stata formulata la condanna definitiva a 15 anni di reclusione anche per la consorte omicida che dovrà scontare ora la pena presso il carcere di Bellizzi Irpino.
+venerdì 13 febbraio 2009
+&nbsp;
+
+[post_text_41]
+E' già percorribile dalle automobili attraverso un canale centrale il nuovo Ponte Tredogge. I lavori continuano ininterrottamente per l'apertura completa prevista per la settimana prossima.
+23.02.2009
+
+[post_text_42]
+Caposele - Abbandonano cavallo ferito, 14enne chiama 112: denunciati
+&nbsp;
+ I Carabinieri di Montella hanno posto in essere una serie di servizi nell’ambito delle contrade dell’Alta Irpinia dove si sono verificati, in passato, casi di bracconaggio e di maltrattamento di animali.
+Tra i molteplici controlli effettuati i Carabinieri di  Caposele, hanno denunciato tre agricoltori ed allevatori del posto, che si sono resi responsabili di maltrattamento di animali, causando quasi la morte di un cavallo di razza che è stato salvato solo grazie all’intervento dei Carabinieri.
+ Nel dettaglio, due allevatori provenienti dal Salernitano avevano trasportato il cavallo di razza in un’azienda agricola a Caposele e mentre lo facevano scendere nel terreno di un conoscente, forse a causa del ghiaccio o forse per la poca luce, l’animale è caduto procurandosi gravi lesioni agli arti posteriori, tanto da non potersi rialzare autonomamente né a braccia. Gli sprovveduti allevatori, tuttavia, data l’ora tarda, non si sono preoccupati  di fare intervenire un veterinario per prestare all’animale le dovute cure  e lo hanno lasciato abbandonato tutta la notte. Un 14enne, residente a poca distanza, dopo aver assistito alla scena si è accertato che il cavallo fosse ancora sul posto ed ha chiesto aiuto al 112.
+  I Carabinieri di Caposele allertati dalla Centrale Operativa di Montella sono intervenuti sul posto, hanno fatto immediatamente intervenire il veterinario di turno che ha prestato le necessarie cure, bloccato le articolazioni per evitare ulteriori danni e, dopo aver imbracato l’animale, lo hanno portato via, affidandolo al personale di un maneggio, dove verranno effettuate manovre di fisioterapia.  Per pura casualità il 14enne che ha segnalato l’incidente e fornito indicazioni sui responsabili, proprio il giorno prima aveva partecipato ad un incontro con i Carabinieri di Montella e i Servizi Sociali, nel corso del quale, tra i vari aspetti trattati, i giovani erano stati esortati a richiedere l’intervento delle Forze di Polizia senza problemi ed a segnalare persone sospette ed eventi “strani”.  Grazie al progetto “Prevedere per non Provvedere”, organizzato da Arma dei Carabinieri, Servizi Sociali e Scuole, dunque, questa volta, un cavallo è stato tratto in salvo, visto che se l’intervento del personale del servizio veterinario dell’ASL fosse giunto solo qualche ora dopo, per l’animale non ci sarebbe stato nulla da fare.  I Carabinieri hanno individuato i responsabili che, messi alle strette,  non hanno potuto fare altro che ammettere le proprie responsabilità e sono stati denunciati in stato di libertà per maltrattamento di animali.
+(giovedì 26 febbraio 2009)
+&nbsp;
+
+[post_text_43]
+Caposele - Tenta furto al Santuario di San Gerardo: denunciato
+&nbsp;
+Permane costante e proficua l’attenzione e la vigilanza dei Carabinieri della Compagnia di Montella che, nell’ambito dei servizi predisposti dal Comando Provinciale Carabinieri di Avellino, hanno effettuato una serie di servizi finalizzati alla prevenzione e la repressione di reati contro il patrimonio. Intensa è stata l’attività dei Carabinieri della Compagnia di Montella posta in essere nel corso del fine settimana in occasione della notevole affluenza di Pellegrini giunti a Materdomini presso il santuario di San Gerardo Maiella. Più di una volta, negli anni scorsi, si erano registrati tentativi di furto con destrezza ai danni di pellegrini e troppo spesso ad opera di pregiudicati forestieri in trasferta in Alta Irpinia.  L’anno scorso, infatti, i Carabinieri della locale stazione avevano tratto in arresto in flagranza di reato un pregiudicato che aveva forzato una cassetta contenente le offerte dei devoti e si era appropriato di qualche centinaio di euro. I Carabinieri di Montella sistematicamente, anche quest’anno, hanno provveduto ad intensificare i normali servizi, con personale in divisa ed in abiti civili, pianificandoli in base a fasce orarie e luoghi “sensibili” preventivamente individuati in base al modus operandi utilizzato dai borseggiatori. L’attività, inoltre, è stata pianificata grazie ad una articolata attività info-operativa e confortata anche da alcuni spunti informativi derivanti dall’approfondita conoscenza dell’ambiente e della realtà locali. Nella giornata di ieri, infatti, proprio vicino alle urne votive, i Carabinieri, in abiti civili, hanno notato aggirarsi con fare sospetto un noto pregiudicato del posto ed hanno iniziato a “tenerlo sotto controllo”. L’uomo si aggirava con fare sospetto vicino alle cassette votive dove vi erano “ex Voto” in argento nonché monili e offerte in denaro ma poi, probabilmente a causa dei troppo pellegrini presenti, ha  desistito e si è allontanato repentinamente.  A tale punto i Carabinieri hanno deciso di bloccarlo e procedere al suo controllo con una perquisizione personale nel corso della quale sono stati rinvenuti un cacciate ed un “spessimetro a lame” in acciaio, con rasoi di diverse misure che lo sprovveduto aveva limato e dentato appositamente per forzare le serrature. Il giovane pregiudicato, già da tempo noto ai Carabinieri intervenuti, è stato condotto presso gli uffici di Piazzale Pastrengo, dove, dopo qualche reticenza è stato messo alle strette ed ha ammesso anche la sua vera intenzione, ossia quella di asportare le offerte che i devoti giornalmente fanno al Santuario. Il pregiudicato è stato denunciato sia per il possesso illegale dell’arma da taglio, sottoposta a sequestro, che per il tentato furto.
+(domenica 8 marzo 2009 alle 17.24)
+&nbsp;
+
+[post_text_44]
+Si perde un’anziana. Carabinieri la salvano
+&nbsp;
+Caposele. Un attimo di distrazione, una banale imprudenza, stava per trasformarsi in una tragedia, se non fosse stato per il tempestivo intervento dei carabinieri. E’ successo ieri mattina a Materdomini meta, ogni giorno, di tantissimi fedeli che si recano al Santuario di San Gerardo Maiella. Proprio da un gruppo di fedeli giunto dal napoletano, dopo aver partecipato alla celebrazione della Santa Messa ed alla visita del museo Gerardino, si allontana all’improvviso un’anziana donna. La signora lascia il gruppo ed il Santuario per ammirare l’incantevole e splendido panorama che è possibile godere da quei magnifici posti che dominano l’Irpinia tutta e non solo e trovare un luogo per una migliore meditazione. La donna, però, non si rende conto di essersi allontanata un po’ troppo. Quando inizia ad accorgersene, si trova in un posto di campagna abbastanza isolato, da cui non riesce a trovare più né il gruppo né la via per il ritorno al Santuario. Per l’anziana signora sono momenti di vero e proprio panico, di autentica disperazione. Però riesce a prendere il telefono e ad avvertire prontamente la centrale operativa dei carabinieri della Compagnia di Montella. L’anziana chiede aiuto, con voce concitata e disperata. Dice di essersi persa in aperta campagna e di essere rimasta bloccata nei pressi di un alto e pericoloso burrone. La centrale operativa dei carabinieri di Montella, agli ordini del capitano Saccone, allerta immediatamente i militari dell’arma della stazione di Caposele. Le forze dell’ordine organizzano delle squadre per avviare le ricerche e individuano anche il gruppo di pellegrini con il quale si trovava la donna allontanatasi dal Santuario. Da loro, acquisicono preziose informazioni per ritrovarla, quelle stesse informazioni che la donna, in evidente stato di agitazione, non era stato in grado di riferire, anche a causa di alcune seri problemi di salute che, tra l’altro, hanno richiesto un intervento ancor più rapido. I carabinieri, dopo aver raccolto tutte le informazioni utili e la descrizione della donna, hanno individuato la zona. Dopo aver percorso, anche a piedi, alcune stradine sterrate, sono arrivati al dirupo ed hanno subito rintracciato la donna che si è così unita al resto dei pellegrini. (11.03.2009)
+
+[post_text_45]
+Caposele - Rifiuti e imprese: si conclude il ciclo di seminari
+&nbsp;
+Sabato 14 marzo si concluderà a Caposele il ciclo di seminari organizzati dalle Amministrazioni Comunali di Bagnoli, Caposele e Lioni.  Il tema centrale dei seminari - “La tutela dell’ambiente: profili problematici nella gestione dei rifiuti da parte delle imprese” - verrà ulteriormente approfondito nel corso dell’ultimo incontro che si terrà alle ore 17.00 presso la Sala Polifunzionale a Caposele. L’Assessore  all’Ambiente Angelo Ceres, uno dei principali promotori di questo ciclo di seminari, chiarisce che “… la corretta gestione dei rifiuti da parte delle imprese assume un ruolo centrale all’interno del ciclo dei rifiuti e nell’ambito della tutela ambientale. Inoltre, è importante far conoscere agli imprenditori, ma anche a tutti i cittadini, che con la legge n. 210/08, le sanzioni, sia penali che amministrative, si sono ulteriormente inasprite. L’Amministrazione, consapevole dell’importanza e della delicatezza dell’argomento, con questo intervento ha voluto che tutti, cittadini ed imprese, siano informati ed aggiornati sull’argomento e sulle conseguenze nelle quali si può facilmente incorrere. L’amministrazione crede che una corretta informazione possa essere il principale strumento di prevenzione dei reati ambientali e di protezione dei nostri territori.”
+(mercoledì 11 marzo 2009 alle 14.38)
+&nbsp;
+
+[post_text_46]
+Caposele. Cinquemila volantini per farla innamorare.
+&nbsp;
+Cinquemila cuori che palpitano per le strade di Caposele, un’alba rosa e un tappeto rosso sul quale far muovere i primi passi alla sua struggente passione. Cinquemila volantini per dire «ti amo». Grafica accattivante, in primo piano un cuore che pulsa per una ragazza. L’ultimo romantico ha le sembianze d’un giovane grafico pubblicitario, S. M., 28 anni, che ieri mattina ha inondato le vie di Caposele con cinquemila manifestini. Voleva colpire al cuore una giovane volontaria e forse c’è riuscito. Ha fatto colpo sicuramente sulla polizia municipale di Caposele che, inflessibile ai richiami del cuore, l’ha multato e l’ha obbligato a ripulire le strade del paese. «Punizione» accettata di buon grado quando le vie del sentimento sono infinite. L’attrazione senza confini del giovane spasimante è finita persino nelle dichiarazioni messe a verbale dagli agenti: «Pazzo per amore, ho tante cose da dire ma a voi nulla». Anche il cuore tenero del comandante dei vigili, Giuseppe Aiello, per un attimo s’è sciolto, dopo anni di multe e di automobilisti recalcitranti. La messaggistica d’amore compie passi da giganti. La tecnologia asseconda fremiti e infatuazioni. Love story nascono e muoiono in diretta tv. Innamorati rapiti dal volto dell’amata s’abbandonano a slanci e gesti eclatanti per aiutare i cuori più duri a capitolare. Si tappezzano muri, balconi, edifici. Lo «Stranamore» di Caposele in formato fai-da-te è una poesia che corre sui binari del sentimento. Sanguigno e genuino, dichiarato all’ombra di San Gerardo, il santo caro alle partorienti e, da ieri, forse, anche a chi spasima per il suo amore in fasce. 14.03.2009
+
+[post_text_47]
+Caposele. RIAPRE IL PUNTO VACCINALE
+&nbsp;
+La sede sarà all'interno del Palazzo Municipale con ingresso da via San Gerardo.
+L'apertura per l'utenza è prevista per OGNI PRIMO E TERZO MERCOLEDI DEL MESE.
+Orari di apertura: ore 8,00 - 14,00
+&nbsp;
+18.03.2009
+
+[post_text_48]
+Sequestrata discarica abusiva: due denunce. Parte la bonifica
+&nbsp;
+Caposele – I Carabinieri di Montella hanno posto in essere, nell’ambito dei servizi predisposti dal Comando Provinciale di Avellino, una serie di controlli a tappeto su discariche, siti di stoccaggio e centri di raccolta rifiuti speciali. In particolare, i militari hanno localizzato un’area adibita a stoccaggio di rifiuti speciali nel comune di Caposele, abusivamente realizzata e gestita da due persone del luogo, che avevano avviato una vera e propria discarica, per lo smaltimento illecito di rifiuti anche pericolosi.
+L’accurata attività di indagine ha permesso di accertare che il proprietario del fondo aveva autorizzato un imprenditore a smaltire – a costo zero - nel proprio terreno gli scarti di lavorazione provenienti della sua attività imprenditoriale che si occupa di ristrutturazioni di abitazioni civili e stabilimenti industriali.
+L’area dove venivano ammucchiati rifiuti pericolosi come laterizi, materiali di risulta bituminosi ed anche tracce di amianto in alcune lastre di eternit, si trova ben nascosta nelle campagne della Valle del Sele, in un suggestivo scenario incontaminato di una zona verde ricca di flora e fauna, a ridosso dei numerosi campi coltivati dell’Alta Irpinia, che rappresentano vanto e ricchezza per gran parte degli abitanti della zona, per molti dei quali sono l’unica fonte di sostentamento: evidenti i rischi ed i pericoli di contaminazione per i prodotti agricoli, molti anche pregiati (vino, olio, formaggi), sventati dall’intervento dei Carabinieri. Sparsi per l’area e divisi in grossi cumuli materiale ferroso, lavandini in acciaio, contenitori in metallo contenenti residui di solvente e vernici, materiale in rame ricavato da cavi elettrici, materiale di risulta bituminosi e scarti di amianto.Nel terreno sono stati trovati anche mezzi d’opera non bonificati e pneumatici abbandonati.
+I Carabinieri per impedire che l’attività illecita potesse protrarsi ulteriormente hanno <b>sottoposto a sequestro l’intera area del valore complessivo di oltre 40 mila euro, e denunciato le due persone in stato di libertà, per aver realizzato una discarica e per abbandono o deposito incontrollato abusivo di rifiuti tossici in assenza della prescritte autorizzazioni da parte dell’Autorità Amministrativa ma soprattutto in totale dispregio di qualsiasi prudenza e buon senso considerata la vicinanza di campi coltivati e di aree adibite al pascolo.  Ora saranno avviate, dopo la classificazione dei rifiuti da parte del personale dell’Arpac, le necessarie opere per la bonifica dei terreni al fine di scongiurare ulteriori danni all’ ambiente.
+(21 marzo 2009 alle 13.10)
+&nbsp;
+
+[post_text_49]
+Caposele - Tassa rifiuti: le istanze di Farina al Prefetto
+&nbsp;
+Il Comune di Caposele, nella persona del primo cittadino Pasquale Farina, interviene in riferimento alla comunicazione pervenuta dalla Prefettura e dall’ANCI, in merito all’obbligo di inserire nel bilancio di previsione, in via di approvazione, la copertura del 100 per cento dei costi sostenuti dal Comune per la raccolta e lo smaltimento dei rifiuti solidi urbani. “L’Amministrazione Comunale che rappresento – sottolinea Farina - insediatasi l’anno scorso, si è impegnata da subito a bonificare l’area di stoccaggio provvisorio presente nel territorio comunale (utilizzata in passato per fronteggiare l‘emergenza e pertanto pronta per eventuali nuovi periodi di emergenza), ad attrezzare un’area adeguata per la raccolta dei rifiuti ingombranti, ad organizzare diverse campagne informative per i cittadini e per gli imprenditori sul tema della corretta gestione dei rifiuti solidi urbani, speciali e non, ed infine a fronteggiare, con investimenti propri, il forte aumento del quantitativo di rifiuto da raccogliere e smaltire a causa dell’ingente flusso turistico - religioso che richiama il Santuario di San Gerardo Maiella. Inoltre questo Comune risulta da diversi anni virtuoso nella raccolta differenziata dei rifiuti solidi urbani, garantendo percentuali ben oltre il limite minimo imposto dalla normativa vigente. Ciò nonostante, quest’anno – avverte Farina - i cittadini di Caposele si vedranno aumentare la tassa in questione, alla stregua di quei territori che si trovano in una reale situazione di emergenza che essi stessi hanno contribuito a creare a causa del loro poco impegno. Questo sicuramente non farà la gioia dei Caposelesi che non saranno incentivati a continuare e migliorare la raccolta differenziata. La cittadinanza e l’amministrazione comunale – conclude Farina - invece di essere premiate si vedono maltrattate sempre di più”.
+&nbsp;
+(martedì 31 marzo 2009 alle 14.08)
+&nbsp;
+
+[post_text_50]
+Caposele - "Omaggio a Mario Luzi": sabato il simposio
+&nbsp;
+Si terrà sabato 18 aprile, alle ore 9, presso l’Auditorium del Liceo Scientifico di Caposele la diciassettesima giornata del Festival della Poesia dei Paesi del Mediterraneo, manifestazione ideata dal professore Ruglio e da Alessandro Di Napoli del Centro di documentazione sulla poesia del Sud. L’evento è diretto da Paolo Saggese e Giuseppe Iuliano, del Centro di documentazione sulla poesia del Sud dal titolo “Omaggio a Mario Luzi”.
+La manifestazione, che completa la giornata del 6 dicembre dedicata alla poesia toscana del Novecento, patrocinata dall’Amministrazione comunale di Caposele e dall’Associazione culturale “Sorgenti di Sapere”, avrà il seguente programma:
+Saluti: Pasquale Farina, sindaco di Caposele,  Romualdo Marandino, dirigente scolastico Istituto “De Sanctis”,  Donatello Cirillo, consigliere comunale con delega al Turismo,  Antonio Ruglio, presidente dell’Associazione “Sorgenti di Sapere”,
+Introduce: Antonietta Gnerre, poetessa
+Intervengono: Michele Ceres, critico letterario,  Francesco D’Episcopo, Università di Napoli e Campobasso,  Giuseppe Panella, Scuola Normale Superiore di Pisa, Paola Di Natale, dirigente scolastico,  Giuseppe Liuccio, poeta  e scrittore,  Mario Specchio, Università di Siena,
+Modera:  Salvatore Salvatore, direttore della rivista “Vicum”
+Concludono: Paolo Saggese e Giuseppe Iuliano, CDPS
+&nbsp;
+“In tal modo, dopo un’attività iniziata ad ottobre, - si legge nella nota -  entriamo nel vivo del Festival, che ha inteso, come dichiarano i direttori artistici, studiare due aspetti differenti della poesia italiana: quello regionale, passando in rassegna la produzione letteraria di alcune regioni italiane (in questa edizione la poesia toscana, molisana, laziale, campana, pugliese, siciliana e marchigiana) nonché la produzione di alcune nazioni del Mediterraneo (Grecia, Spagna, Palestina, Portogallo), così da mostrare la varietà ma anche l’unità di questa cultura poetica, che sarà documentato nel secondo numero della rivista “Poesia meridiana” in corso di pubblicazione. Alla manifestazione parteciperanno i docenti dell’Istituto, alcune personalità del mondo culturale del comune altirpino tra cui Nancy e Cinzia Malanga, la prof. Ruglio, il prof. Alessandro Di Napoli del Centro di documentazione sulla poesia del Sud”.
+&nbsp;
+(mercoledì 15 aprile 2009 alle 15.31)
+&nbsp;
+&nbsp;
+
+[post_text_51]
+Caposele - Gli obiettivi raggiunti in un anno di amministrazione
+&nbsp;
+Con una nota, l’amministrazione comunale di Caposele traccia il bilancio del primo anno di operato:    “Dopo una prima fase di naturale adattamento a meccanismi nuovi e, in alcuni casi, anche contorti, l’azione dei primi 365 giorni di buon governo della lista del ‘Cuore’ si può riassumere nell’elenco di seguito riportato:
+1)Arricchimento arredo urbano mediante panchine, fioriere, piccoli interventi di sistemazione nel  centro urbano;
+2)Politica di contenimento degli sprechi: rinuncia all’indennità di carica del Sindaco, Assessori e Consiglieri comunali di Maggioranza; riorganizzazione dei servizi comunali di energia elettrica e telefonici su tutto il territorio; diffusione con copertura totale del segnale wireless adsl e relativa dotazione dello stesso a tutte le strutture comunali; sistemazione parco macchine; nuova organizzazione informatica degli uffici comunali;
+3)Immissione nel condotte idriche del centro urbano di Caposele delle acque della sorgente  della Sanità;
+4)Attivazione del Piano traffico (Caposele centro);
+5)Lavori di ristrutturazione e completamento ‘Nuova’ Piscina comunale;
+6)Nuovo affidamento della gestione Piscina comunale;
+7)Adozione proposta di PUC;
+8)Attivazione del punto Vaccinale;
+9)Approvazione progetto per l’energia rinnovabile eolica;
+10)Attivazione della Porta del Parco;
+11)Attività di tutela ambientale: ripristino efficienza vasca di stoccaggio zona Petrito; bonifica di diverse aree ricadenti nel territorio comunale (area adiacente allo svincolo Caposele della Fondo Valle Sele, ponte Minuto, bosco Difesa e area ex scuola Norvegese); campagna di sensibilizzazione sulla raccolta differenziata dei rifiuti solidi urbani e non;
+12)Consultazioni con l’Acquedotto Pugliese S.p.A. per aggiornamento convenzioni;
+13)Completamento lavori del Parco Fluviale;
+14)Completamento lavori del Museo delle Acque;
+15)Avvio e conclusione lavori del Ponte Tredogge;
+16)Lavori parcheggio zone Lavanghe (in fase di ultimazione);
+17)Completamento lavori Alloggi popolari località Coste e pubblicazione bando per la loro assegnazione;
+18)Avvio lavori Alloggi popolari località Piani;
+19)Realizzazione strada di collegamento Materdomini – Castelnuovo;
+20)Avvio procedura del nuovo progetto parcheggio urbano multipiano;
+21)Approvazione Piano videosorveglianza;
+22)Avvio progetti su fondi europei per: sistemazione area bosco Difesa; sistemazione località Canale e zone limitrofe; nuovo centro di comunicazione musicale e multimediale ex scuola Pianello; progetto di adeguamento e sistemazione località Chianche; progetto di adeguamento e sistemazione località Buoniventre; predisposizione progetti preliminari strade comunali rurali;
+23)Pulizia strade rurali Buoniventre;
+24)Completamento lavori di risanamento a valle SS 165”.
+&nbsp;
+In merito, il sindaco Pasquale Farina ha commentato: “In un periodo storico in cui amministrare è sempre più difficile, sia per le ristrettezze economiche con le quali siamo costretti ad operare per dare risposte alle tante richieste dei cittadini, sia per i vincoli burocratici e legislativi che spesso portano a lungaggini nella realizzazioni di progetti e programmi che ogni nuova amministrazione si prefigge e si augura di mettere in campo, l’essere riusciti a realizzare ed avviare le numerose attività sopra citate non può che essere per noi motivo di soddisfazione e di orgoglio. Quanto realizzato ci fan ben sperare per il futuro. La promessa è che questa Amministrazione continuerà a lavorare, con impegno e con il cuore, e a pensare per il bene di Caposele”.
+(martedì 21 aprile 2009 alle 19.56)
+&nbsp;
 &nbsp;

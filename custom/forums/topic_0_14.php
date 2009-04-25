@@ -59,6 +59,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 45::VALLATESE::01/05/2008 10.53.11::visible
 46::Ottopagine::14/05/2008 11.31.35::visible
 47::da Ottopagine::15/05/2008 16.52.55::visible
+48::da Irpinianews.it::27/11/2008 13.15.32::visible
 
 [post_text_0]
 Qui aspettiamo i vostri commenti alle vicende calcistiche della F.C. Caposele.
@@ -475,4 +476,13 @@ Classifica prime posizioni:
 Caposele 60 (promosso al campionato
 regionale di Seconda Categoria); Vallatese 49; Virtus Conza 47.
 15/05/2008
+&nbsp;
+
+[post_text_48]
+Seconda Categoria - Siconolfi, Saturnino: "Riprendiamo a correre”
+&nbsp;
+Siconolfi, il patron Saturnino scuote l’ambiente dopo la sconfitta interna contro Caposele. Adesso al ‘Saia’ arriva il Bisaccia fanalino di coda. “Vietato sbagliare–afferma il numero uno- Domenica seppur dominando la gara abbiamo avuto delle amnesie fatali che hanno compromesso la partita. Serve maggiore concentrazione”. La squadra sotto di una rete ha avuto una veemente reazione, andando addirittura in vantaggio, poi diverse ‘sbavature’  hanno permesso al Caposele di realizzare tre reti in poco tempo: “Siamo stati ingenui, dobbiamo fare mea culpa".
+La rosa a disposizione di Picari ha elementi di assoluto valore, che società di categorie superiori inviadiano, a partire da Sepe, Forte, Ceres, Genesio, Santoli, Del Vecchio e Di Pierro soprannominato ‘O’Professore’ per le indiscusse qualità tecniche. L’obiettivo del massimo dirigente è quello di riprendere la marcia dello scorso anno, che vide la Siconolfi ad un passo dalla Promozione.
+&nbsp;
+(mercoledì 26 novembre 2008 alle 18.18)
 &nbsp;

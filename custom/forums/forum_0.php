@@ -21,18 +21,23 @@ Formato [elenco_topics]:
 4::Sondaggio Champions League 2006/2007::open::::::Pasquale C.::17::16
 5::Benvenuti nel forum::hidden::::::ceres::4::3
 6::Come funziona il forum::open::::::ceres::3::2
-7::le sfide della Stralaceno::open::::::foxy::119::118
+7::le sfide della Stralaceno::open::::::foxy::130::129
 8::soddisfatti della stralaceno edizione 2006???::open::::::cabo86::5::4
-9::Discussione::open::::::Antonio::156::142
-10::ci siete?????::open::::::cabo::23::22
+9::Discussione::open::::::Antonio::213::199
+10::ci siete?????::open::::::cabo::25::24
 11::La nuova sezione ciclismo::open::::::Donato Gervasio::12::11
 12::Allenamento Collettivo 30-12-2006::open::::::Ars::40::39
 13::per nazòn::hidden::::::antonio::4::3
-14::F.C. Caposele::open::::::Ars::48::47
-15::Elezioni comunali a Caposele::open::::::Cleon.ren::109::108
-16::La nuova sezione Ambiente e Natura::open::::::Ambiente::49::48
+14::F.C. Caposele::open::::::Ars::49::48
+15::Elezioni comunali a Caposele::open::::::Cleon.ren::113::112
+16::La nuova sezione Ambiente e Natura::open::::::Ambiente::68::67
 17::per l'inviato::hidden::::::christian meyer::6::5
 18::Il 3 novembre si disputerà la Quasinove: gara podistica organizzata da Nicola Melillo::open::::::Jerry Notaro::2::1
-19::Genealogia caposelese::open::::::Pasquale C.::1::0
-20::un pensiero per Marco Pantani::open::::::appassionato di ciclismo::12::11
+19::Genealogia caposelese::open::::::Pasquale C.::6::5
+20::un pensiero per Marco Pantani::open::::::appassionato di ciclismo::22::21
 21::I tre Angeli custodi salvano Ale da una grande crisi::open::::::Salvatore::7::6
+22::PARCO DEI MONTI PICENTINI::open::::::AmbienteNews::1::0
+23::CIAO::hidden::::::CIAO::1::0
+24::alla direzione dell'ars::hidden::::::salve::2::1
+25::A::hidden::::::A::1::0
+26::ciao::hidden::::::ciao::2::1

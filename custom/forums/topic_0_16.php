@@ -60,6 +60,25 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 46::AmbienteNews::15/05/2008 22.13.00::visible
 47::da Buongiorno Campania::16/05/2008 10.38.41::visible
 48::AmbienteNews::17/05/2008 09.44.55::visible
+49::AmbienteNews::17/05/2008 15.53.07::visible
+50::NewsAmbiente::27/05/2008 15.50.56::visible
+51::AmbienteNews::07/06/2008 15.25.51::visible
+52:: Ambiente::07/08/2008 15.33.17::visible
+53::Ambientenews::07/09/2008 21.29.13::visible
+54::NewsAmbiente::08/09/2008 16.17.47::visible
+55::NewsAmbiente::18/09/2008 17.17.11::visible
+56::AmbienteNews::10/10/2008 16.10.00::visible
+57::NewsAmbiente::20/10/2008 23.44.04::visible
+58::AmbienteNews::27/12/2008 16.01.36::visible
+59::AmbienteNews::20/01/2009 09.47.30::visible
+60::NewsAmbiente::24/01/2009 09.57.59::visible
+61::AmbienteCaposele::26/01/2009 20.36.12::visible
+62::Ambiente Caposele::09/02/2009 17.08.27::visible
+63::AmbienteNews::16/02/2009 22.02.02::visible
+64::Ambientenews::17/03/2009 15.59.26::visible
+65::AmbienteNews::19/03/2009 21.28.47::visible
+66::NewsAmbiente::06/04/2009 15.39.49::visible
+67::paco::07/04/2009 20.51.59::visible
 
 [post_text_0]
 Qui proposte, osservazioni, critiche e tutto ciÚ che concerne l'ambiente e la natura dalle grosse tematiche di interesse mondiali ai piccoli accadimenti del paese.
@@ -496,3 +515,305 @@ Le grotte del Caliendo si trovano sullíAltopiano del Laceno (Bagnoli Irpino) dov
 L'orsa di Lecce non Ë morta avvelenata
 &nbsp;
 L'orsa trovata morta la scorsa settimana nel comune di Lecce dei Marsi non Ë stata avvelenata. Lo ha dichiarato Enzo Caporale direttore dell'Istituto Zooprofilattico di Abruzzo e Molise. Tutti gli esami effettuati sul corpo sono stati negativi ´tranne rare tracce di un insetticida molto usato nella zona, ma assolutamente nella norma, e non letaleª, ha confermato Caporale.
+
+[post_text_49]
+Dopo aver sostenuto l'esame di abilitazione per la raccolta dei funghi, alle 18,45 Ë iniziato il convegno.
+Da tale dibattito Ë emersa la difficolt‡ dell'interpretazione e dell'applicazione di tale legge. Tale momento, perÚ, Ë servito anche per fare un quadro pi˘ ampio sulle problematiche ambientali. Il Procuratore della Repubblica di S.Angelo dei Lombardi Dott. Antonio Guerriero dopo aver lodato tale iniziativa ringraziando l'assessore all'ambiente del comune di Caposele, ha rimarcato le diffocolt‡ che emergono da tale legge ma ha soprattutto spronato ed invitato, per una maggiore sensibilizzazione verso la tutela dell'ambiente, gli stessi raccoglitori di funghi e tartufi ma anche tutta la popolazione di Caposele.
+&nbsp;
+
+[post_text_50]
+IL NUCLEARE HA BRUCIATO IL 90% DELLE RISORSE DESTINATE ALLA RICERCA NEL CAMPO DELLE RINNOVABILI, PER PRODURRE SOLO IL 6,2% DELL'ENERGIA MONDIALE.
+&nbsp;
+Il Wwf contro la proposta del ministro dello Sviluppo economico Scajola di costruire in Italia centrali nucleari. Che ñ spiega líassociazione ambientalista ñ Ë motivata sulla base di argomentazioni che sembrano ignorare la realt‡ dei dati riguardanti questa fonte energetica.
+&nbsp;
+Non Ë vero ñ dice il Wwf - che il resto del mondo fa un uso massiccio di questa fonte in quanto, secondo i dati dell 'International Energy Agency (IEA), nel 2005 le 341 centrali nucleari esistenti nel mondo coprivano appena il 6,2 per cento dell'energia primaria utilizzata, dando quindi un contributo del tutto marginale al fabbisogno energetico mondiale.
+&nbsp;
+A fronte di un contributo mondiale limitato e ancora inferiore agli apporti energetici dell'idroelettrico, la ricerca per l'energia nucleare ha bruciato il 90 per cento delle spese di ricerca destinate alle fonti energetiche alternative ai combustibili fossili. La stessa cifra orientata sulle fonti rinnovabili e sull'efficienza energetica avrebbe permesso una maggiore emancipazione dalle fonti fossili.
+&nbsp;
+La stessa Iea non prevede alcuna crescita di tale contributo per i prossimi 30 anni, anche perchÈ le riserve di uranio possono consentire ancora pochi decenni di alimentazione delle centrali esistenti.
+&nbsp;
+Inoltre le centrali nucleari producono solo elettricit‡, che rappresenta solo il 15 per cento degli usi finali, mentre il restante 85 per cento Ë costituito da calore per riscaldamento e processi industriali e da carburanti per i trasporti ai quali il nucleare non puÚ dare nessun contributo.
+&nbsp;
+Non ci sono dati per affermare, come fa il ministro, che l'elettricit‡ prodotta dalle centrali nucleari sia meno costosa in quanto nessuno Ë ancora in grado di valutare compiutamente costi di smantellamento delle centrali a fine vita e la gestione finale delle scorie, che rappresentano le fasi pi˘ onerose di questo tipo di produzione energetica. ìNon si puÚ dire che una cosa costa poco ñ ironizza il Wwf - solo perchÈ il conto salato deve ancora arrivare.
+&nbsp;
+Quando un operatore sviluppa una campo eolico deve garantire il ripristino del territorio alla scadenza della concessione, lo stesso non puÚ essere fatto nel caso di realizzazione di centrali nucleari dal momento che nessuno potrebbe fornire una simile garanzia.
+&nbsp;
+Non Ë vero che questa energia ridurrebbe la nostra dipendenza energetica dall'estero in quanto non possediamo miniere di uranio ed inoltre le centrali italiane si appoggerebbero alla filiera francese per tutte le operazioni necessarie del ciclo del combustibile, a monte ed a valle della centrale, operazioni anch'esse molto onerose.
+&nbsp;
+L'energia nucleare non fornisce la soluzione agli attuali problemi di approvvigionamento energetico globale. » responsabilit‡ dei paesi economicamente avanzati proporre tecnologie esportabili nel resto del mondo. Il nucleare non lo Ë per gli evidenti legami con l'industria bellica e la terrificante proliferazione di scorie radioattive nel pianeta.
+&nbsp;
+Le scorie nucleari rimangono attive per oltre 500 generazioni. L'energia nucleare Ë in assoluto quella che negli ultimi 60 anni ha ricevuto le maggiori sovvenzioni pubbliche, ed ancor oggi riceve la maggioranza degli investimenti mondiali (ed anche italiani) per ricerca e sviluppo in campo energetico.
+&nbsp;
+Nonostante ciÚ, in 60 anni non ha saputo risolvere il problema basilare di qualsiasi produzione industriale: la gestione degli scarti e lo smantellamento degli impianti. Visto poi il contributo modesto fornito al fabbisogno energetico mondiale, possiamo ben dire che si tratta dei numeri di un fallimento che ci dovrebbero far riflettere attentamente prima di lanciarci in una ennesima avventura fallimentare.
+&nbsp;
+Il Wwf inoltre mette in evidenza che catalizzare il dibattito sul nucleare vuol dire ignorare, ancora, le grandi sfide che il nostro Paese ha davanti. Prepararsi al Mondo a Zero Carbonio oggi Ë un'esigenza economica, di innovazione e competitivit‡, oltre che ambientale. Se la tanto attesa e annunciata Conferenza su Energia e Ambiente dovesse essere solo una consultazione sul nucleare sarebbe un ulteriore, davvero enorme fallimento.
+&nbsp;
+Ripetere l'esperienza nucleare in Italia (chiusa da un referendum nel 1987) rischia di ostacolare risorse economiche e capacit‡ professionali dalle vere soluzioni ai problemi energetici ed ai problemi ambientali legati ai cambiamenti climatici. I tempi di realizzazione di una nuova filiera del nucleare sono lunghissimi a confronto con le potenzialit‡ di sviluppo di tecnologie alternative. L'apporto energetico sarebbe altrettanto irrisorio.
+&nbsp;
+(Fonte: Wwf)
+&nbsp;
+
+[post_text_51]
+La carica dei trenta a caccia di rifiuti lungo líOfanto
+Trenta giovani trenta di Teora hanno fatto un lavoro egregio che va oltre una cronaca locale. Alla fine díuna iniziativa passata sotto il titolo di ìsettimana ecologicaî, hanno pazientemente trovato sufficienti indizi per autorizzare líidea che líAlta Irpinia possa essere una sorta di ìterra di nessunoî e per questo presa di mira dalla delinquenza che ingrassa con lo smistamento di rifiuti, anche tossici.
+Diremo subito cosa Ë successo, ma intanto - e per contestualizzare i fatti di Teora- debbono risuonare forti come campane díallarme annunciate, le parole di Antonio Guerriero procuratore generale della Repubblica di S.Angelo dei Lombardi; quelle pronunciate a Caposele a proposito di ambiente ( e da noi pubblicate), dove Guerriero ammonÏ: ìAvevate splendidi boschi, terre presidiate da casali produttivi...e ora andate per funghi scoprendo lavatrici, pneumatici e rifiuti dí ogni genere...Attenti..!î. Parole di un paio di settimane fa, ma che acquistano oggi valore profetico dal momento che proprio nelle ultime ore, sia la pi˘ generale denuncia del presidente Napolitano, sia il ministro allíAmbiente Prestigiacomo, sia il rapporto Lega Ambiente 2008 divulgato, spingono a credere che non solo i reati dei rifiuti ma anche quelli contro líambiente possano finire nel mirino della magistratura penale.
+Teora dunque.
+In controtendenza con líincuria e il lassismo del Comune nei confronti degli alberi abbandonati da 7 mesi e infine ìcapitozzatiî (e rimangono ancora intrappolati i Tigli fra cemento e manto stradale sulla via Appia alta del Comune) di cui abbiamo ampiamente parlato e di cui diremo gli sviluppi compreso líintervento della Comunit‡ Montana, trenta giovani di Teora (quelli del Forum) si sono autonomamente rimboccati le maniche e in una giornata hanno scavato e scovato fra líerba alta e i boschi di Teora e nei pressi dei fiumi Fiunicello e Ofanto.
+Il racconto corredato da documenti fotografici testimoniano líammonimento del dottor Guerriero.
+ìLavatrici..frigoriferi..cucine, cucine industriali, centinaia di pneumatici, congelatori, televisori, tubi catodici....î
+&nbsp;
+Se la giornata ecologica sintetizza i fatti oggettivi, líanalisi di De Rogatis, Gervasio, Casciano & C. sul ritrovamento di tanti rifiuti ingombranti ( e tossici) rivela ineludibile, un ìvero e proprio delinquenziale progetto-meccanismo di smistamento di rifiuti operato nella zona Altirpina, soprattutto dove minori sono gli osservatoriî. Le testimonianze sul fenomeno non mancano Su eventuali controlli del Comune, i cui vertici hanno comunque e come sempre ìcelebratoî dai microfoni, il lavoro del Forum, mancano notizie.
+Si hanno notizie invece della semina compiuta dai gruppi del Forum contestualmente alla settimana ecologica, ìdedicata-se puÚ passare come chiede Gerardo Gervasio-al prof. Antonio Lardieri, recentemente scomparso, e che fu il primo a organizzare le giornate ecologiche in tempi non sospetti...î. ( Fatto. La persona fu veramente speciale e non solo su questo fronte. ndr)
+Giovani, ma gi‡ seminatori quelli del Forum, perchÈ hanno pensato di nominare ìprotagonistiî bambini e ragazzi/e delle elementari e delle medie. Per farlo si sono rivolti al prof. Aldo Porreca che ha disposto: tema ambiente e stile libero. A parte le premiazioni per Angelina Donatiello, Annalaura Zarra, Giusy Cespucci e Saverio Zarra (elementari); e Francesco Marzullo, Felice Zarra, Jawod Nazhi e Ivan Donatiello (medie), quel che serve ricordare Ë che ìTutti hanno mostrato-dice Porreca-una particolare se non speciale sensibilit‡ a fenomeni e fatti assolutamente attualissimi. Mostrato cioË riflessione e attenzione alle notizie dei mass-media sui rifiuti della Campania, la questione dellíacqua, generale attenzione al verde e alle questioni che noi pi˘ adulti definiremmo ecologicheî. Si sofferma, Porreca, sulla realizzazione dei disegni, che accanto alla scala dei grigi di alcuni lavori, sono esplosi mille colori (verde soprattutto) per definire, giudicare e indicare líambiente preferito (verde come Verde Irpinia) Sottolineato dal giudice del Foruma, il lavoro díun adolescente del Marocco, che rappresentando un particolare díuna antica fontana di Teora, ha inteso ( secondo Porreca) riassumere la grave questione dellíacqua nel suo paese díorigine e quella pi˘ grave di tanti altri paesi del mondo.
+Se sul piano della cronaca cíË da registrare una targhetta su un alberello (fra i tanti) in omaggio alla legge 1992 e relativi, soliti discorsi celebrativi degli immancabili vertici amministrativi, rimane da registrare che niente ancora Ë stato fatto dal Comune, per liberare il filare di Tigli intrappolati da cemento e manto stradale sullíalta via Appia del paese.
+Il Forum ha chiuso la sua settimana ecologica con una visita allo ìzoo safariî di Fasano. Tutti entusiasti, perchÈ niente ìgabbieî per gli animali. Un commento di gigante-presidente De Rogatis: ìCi stavamo orientando per una visita allíestero...e avremmo commesso un grave errore: anche al Sud díEuropa, a Fasano, abbiamo saputo che i naturalisti non mancano, anzi...!î.
+E ora, dopo questa iniziativa? ìVedremo di metter su un osservatorio-conclude il futuro sociologo Gervasio- per comprendere meglio come -se non addirittura chi- va seminando rifiuti tossici da queste parti. Non promettiamo nulla, ma faremo la nostra parteî. Bene: considerato che in questa parte di Teora si puÚ discutere anche di Platone, del pragmatismo di Aristotele, del secolo dellíIlluminismo e del contratto sociale di Rousseau...e di Ferrarotti, senza dover spiegare continuamente di cosa di sta parlando, questo Forum di uomini-giovani vola per i fatti suoi e in autonomia intellettuale: quindi cíË da crederci senza dubbi. Lo stesso prof. Vittorino Andreoli che ha scritto il pi˘ formidabile libro-denuncia (Giovani) su precedenti generazioni, rimarrebbe di stucco. Avanti cosÏ: comunque sia il mondo che ci circonda, domani ma gi‡ oggi, siete inevitabilmente voi con tutti i problemi che avrete davanti. Tanto Ë vero che Nizam (Aden Arabia) sostiene ìNon permetto che nessuno dica che a diciottíanni anni si Ë in uníet‡ feliceî. E par vero cosÏ !
+
+[post_text_52]
+Articolo pubblicato su la "Sorgente"
+&nbsp;
+Primi risultati in materia ambientale nel Comune di Caposele
+&nbsp;
+Anche se sono trascorsi soltanto pochi mesi dallíinsediamento della nuova Amministrazione, posso definire questa mia limitata esperienza: interessante, impegnativa ed appassionante.
+»  ancora troppo presto per fare il punto sullíattuazione del programma proposto agli elettori nel corso della campagna elettorale, ma alcuni importanti obiettivi gi‡ sono stati raggiunti per quanto riguarda le deleghe di mia competenza.
+La prima questione che ho voluto e dovuto  risolvere,  la quale si protraeva irrisolta dal 2005, ha riguardato lo smaltimento dei rifiuti speciali che erano localizzati in contrada Fornaci nei pressi dello svincolo della strada a scorrimento veloce.
+Tali rifiuti, che la legge definisce speciali, si erano prodotti a seguito dellíincendio di alcuni capannoni e dei beni in esso contenuti. La loro rimozione, il trasporto e lo smaltimento dovevano essere effettuati da apposita ditta specializzata e a tal fine autorizzata.
+La curatela fallimentare della ditta M. G., non potendo far fronte alle spese di rimozione, ha invitato pi˘ volte il Comune di Caposele, in persona del sindaco pro-tempore, a farsi carico dei costi di smaltimento, cosÏ come previsto dalla normativa di riferimento, per un importo stimato in Ä 27.385,97 per poi recuperare tali somme mediante insinuazione al passivo fallimentare.
+Non avendo il Comune di Caposele  voluto anticipare tali somme per poi recuperarle (e se recuperarle),  lo stato dei luoghi era rimasto in  condizioni tali da costituire un potenziale rischio per la salute dei cittadini.
+Questo stato di cose Ë rimasto tale (dal 2005) fino allíinsediamento della nuova Amministrazione, quando in qualit‡ di assessore in materia ho instaurato un costante e proficuo rapporto con la curatela fallimentare. Il risultato Ë stato la rimozione dei rifiuti speciali in questione  ed il costo che il Comune ha dovuto sopportare, a fronte dei 27.385,97 euro preventivati, Ë stato pari a ZERO.
+Anche líarea su cui dopo il terremoto furono allocate le scuole elementari nei pressi di piazza Sanit‡ Ë stata bonificata con costi irrisori dai rifiuti speciali derivanti dallíincendio che tempo addietro aveva interessato i ìprefabbricati norvegesiî.
+In questo breve periodo di amministrazione un altro servizio che líassessorato alle politiche ambientali ha reso ai cittadini Ë stato quello di far svolgere presso la sede del Comune di Caposele gli esami per líabilitazione al rilascio dei tesserini (esami sostenuti in due sessioni) per la raccolta e la commercializzazione dei funghi. Normalmente questi esami si sarebbero dovuti sostenere presso la sede della Comunit‡ Montana Terminio-Cervialto in Montella. Di notevole importanza, ai fini della sensibilizzazione della gente al rispetto dellíambiente, Ë stato il seminario-convegno, che Ë stato organizzato presso líaula polifunzionale in occasione della prima seduta di esami. A questo convegno hanno partecipato esperti in materia e  il Procuratore della Repubblica di S.Angelo dei Lombardi, il quale ha sottolineato che i primi difensori del territorio, della natura e dellíambiente dobbiamo essere proprio noi cittadini.
+Procedendo nellíopera di sensibilizzazione verso le problematiche ambientali, questo Assessorato ha proceduto anche allíistallazione di tabelle segnaletiche in punti critici oggetto di abbandono di rifiuti ingombranti ed inquinanti. Nonostante la presenza dellíisola ecologica in localit‡ Petrito, alcuni cittadini, poco attenti ed incurante dei danni che producono si ostinano ad abbandonare rifiuti ingombranti ed anche pericolosi in montagna, in mezzo ai boschi. CosÏ facendo questi cattivi cittadini deturpano líambiente, inquinano le falde acquifere e creano pericolo per il centro abitato.
+Il pascolo Ë uní altra questione molto spinosa che, sebbene interessi da molti anni il nostro territorio, non Ë stata finora risolta. Anche verso questo problema líAssessorato alle politiche ambientali ha rivolto la sua attenzione, cercando di far rispettare le regole esistenti. In tal senso, ad alcuni allevatori non sono state concesse le necessarie autorizzazioni allíesercizio dellíattivit‡ ed Ë stato disposto il pattugliamento del territorio montano da parte della Polizia Municipale con líausilio del Corpo Forestale dello Stato.
+Sempre in merito alle iniziative avviate in materia di rispetto dellíambiente, bisogna aggiungere anche quella che ha previsto il coinvolgimento dei ragazzi per renderli consapevoli di una maggiore sensibilizzazione verso la natura. A tal fine, nellíambito dellíeducazione ambientale, a fine maggio le locali scuole hanno visitato líOsservatorio della Biodiversit‡ in Nusco, che si occupa del monitoraggio diretto  alla conservazione della flora e della fauna presenti sul territorio. In questa struttura  i ragazzi hanno potuto visitare alcune specie di piante endogene in via díestinzione ed una notevole variet‡ di animali imbalsamati provenienti dai monti irpini.
+A tutto questo, Ë doveroso, altresÏ, che si aggiunga il costante impegno di tutta líAmministrazione per il contenimento della spesa in termini di sprechi attraverso una razionale gestione della cosa pubblica. La pesante eredit‡ lasciataci dalle amministrazioni passate inevitabilmente condiziona il nostro lavoro e rende pi˘ difficile il conseguimento degli obiettivi del nostro programma.
+Concludo questo scritto ricordando che, per migliorare le condizioni in cui versa il nostro Comune, il territorio e líambiente, occorre, necessariamente, oltre ad una buona politica amministrativa, anche e principalmente la partecipazione attiva di tutta la cittadinanza con líassunzione di comportamenti virtuosi.
+Ogni singola persona, come membro della stessa comunit‡, deve amare e far rispettare un territorio che tanto ci ha dato e tanto ci d‡ in termini di risorse naturali. Ma spesso accade che alcuni, per il loro senso civico poco sviluppato, danneggino con il loro comportamento arrogante ed egoista tutti noi attraverso lo sfruttamento irrazionale delle risorse naturali, quando sarebbe pi˘ utile per tutti  preservarle per continuare a goderne nel futuro. Occorre, per questi motivi, essere custodi gelosi del nostro patrimonio naturale.
+&nbsp;
+Assessore all'Ambiente
+    Angelo Ceres
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+[post_text_53]
+Intesa per salvare il lupo irpino in Svezia
+&nbsp;
+Salvare il lupo irpino dall'estinzione. L'obiettivo Ë alla base di un gemellaggio siglato in Svezia dal presidente del parco dei Monti Picentini, Sabino Aquino, e dalla collega Irere Sjogren del Parco di Lycksele. Nella Svezia settentrionale, infatti, il canis lupus Ë un animale in via d'estinzione a causa della selvaggia caccia scoppiata contro l'esemplare dalle origini irpine che, in paesi come la Svezia, la Lapponia o la Finlandia, Ë diventato una vera e propria disperazione per gli allevatori ed i proprietari di renne, vere vittime dei predatori. Non a caso per fronteggiare l'emergenza, nei mesi scorsi, in Finlandia il governo Ë perfino intervenuto con un programma di abbattimento che ha scatenato le ire di Bruxelles. Un contrasto inevitabile se si pensa che per le direttive comunitarie il ´canis lupus lupusª Ë una specie in pericolo sulla quale vige il pi˘ assoluto divieto di caccia. Ecco perchË, nell'ambito delle azioni del progetto "Natura e Sviluppo del Parco Regionale dei Monti Picentini", Ë stata avviata una collaborazione tra i due parchi benedetta dalla Comunit‡ Europea che prevede tra l'altro il monitoraggio delle principali componenti ambientali e zoologiche; l'elaborazione di un progetto congiunto per la realizzazione di una banca dati. ma.in.
+&nbsp;
+&nbsp;
+
+[post_text_54]
+&nbsp;
+&nbsp;
+Nusco - Il Parco regionale dei Monti Picentini per le sue peculiarit‡ orografiche ed idrogeologiche rappresenta un serbatoio di biodiversit‡ di primaria importanza nella definizione della connettivit‡ ecologica dellíintero meridione italiano. Le variet‡ di ambienti ed ecotipi presenti offre riparo e siti di riproduzione ad un elevatissimo numero di specie animali, stanziali e transienti. In uníottica di monitoraggio e gestione del bene ambientale, Ë di primaria importanza verificare e quantizzare la presenza di quelle specie che si trovano allíapice della catena alimentare, in quanto elementi altamente indicativi dello status conservazionistico del territorio. Tra le specie a tutela integrale in base a direttive (92/43/CEE ìDirettiva Habitatî e linee guida comunitarie (Red List IUCBN) presenti nel territorio del Parco vi Ë il lupo (Canis Lupus). Pertanto, nellíambito delle azioni programmate nel progetto denominato ìNatura e Sviluppo del Parco regionale dei Monti Picentiniî si Ë programmata una cooperazione per informazione, ricerca e monitoraggio finalizzata a migliorare le conoscenze sul lupo, la coabitazione dellíareale del Parco dei Picentini fra Lupo ed Uomo, la promozione del turismo in queste zone come strumento di valorizzazione territoriale. Per tale finalit‡ si Ë avviata una collaborazione scientifica attraverso un gemellaggio tra líEnte Parco dei Monti Picentini ed il Parco di Lycksele nella Svezia settentrionale. Il rapporto di collaborazione prevede tra líaltro: il monitoraggio delle principali componenti ambientali e zoolgiche; la elaborazione di un progetto congiunto per la realizzazione di una banca dati georeferenziata mediante localizzatori degli esemplari liberi in natura presenti nel Parco regionale italiano e nelle aree limitrofe al Parco e nella zona del Westerbotten; líampliamento delle attuali conoscenze sulle principali caratteristiche comportamentali dei lupi gi‡ rilevate e studiate presso il Parco di Lycksele; la definizione delle principali caratteristiche comuni delle due specie e gerarchizzazione dei rispettivi livello di rischio e vulnerabilit‡; líindividuazione delle zone da sottoporre prioritariamente a specifico monitoraggio; la definizione e il monitoraggio dellíimpatto dellíattivit‡ umana nella zona; la possibilit‡ di ricaduta economica relativa allíinteresse rilevato dal turismo nei confronti delle specie e rischio díestinzione come il lupo ed infine la definizione di un progetto turistico comune di scambio di informazioni e banche dati fra i due parchi. Il protocollo, firmato il 26 Agosto nel Parco di Lycksele dai due presidenti: Sabino Aquino per il Parco dei Monti Picentini e Irere Sjogren per il Parco di Lycksele avr‡ durata triennale. Nellíambito dei vari incontri e sopralluoghi la delegazione del Parco regionale dei Monti Picentini guidata dal presidente Aquino e composta dal consigliere della Giunta Luigi De Lisio e dal responsabile amministrativo dellíEnte Dario Dello Buono ha avuto modo di conoscere le particolarit‡ dellíarea protetta svedese. Dal pubblico dibattito svoltosi nella sede del Parco di Lycksele, il presidente Aquino ha svolto una interessante ed articolata relazione che partendo dalla esperienza fatta sulla base dei finanziamenti POR 2000-2006 ha esplicitato la programmazione messa in cantiere dallíEnte Parco per una corretta e razionale utilizzazione dei fondi comunitari che saranno messi a disposizione delle are protette per il periodo 2007-2013. Aquino ha anche riferito sui finanziamenti di progetti attraverso i canali previsti da ìIntergî (programma tra aree protette regionali europee) e dal ìDocup Obiettivo 2î (Documento unico di programmazione) e con líausilio di una cospicua documentazione fotografica ha illustrato agli svedesi le caratteristiche naturali paesaggistiche ed il patrimonio culturale presenti nel comprensorio dei monti Picentini.
+&nbsp;
+(sabato 6 settembre 2008 alle 12.22)
+&nbsp;
+
+[post_text_55]
+mercoledÏ 17 settembre 2008
+RITORNA L'ORSO IN LUCANIA, QUESTA VOLTA AVVISTATO A LAURENZANA
+Dopo il clamore suscitato alcuni mesi fa, un altro esemplare di orso Ë stato avvistato all'interno del Parco della Val D'Agri, precisamente nel territorio di Laurenzana in Val Camastra.
+&nbsp;
+"Un agricoltore di Laurenzana, Rocco DianÚ, riferisce di aver visto e riconosciuto un orso di media taglia aggirarsi in un terreno dove poi sono state ritrovate tre pecore sbranate e un montone morto.
+Il Ten. Giuseppe Di Bello della Polizia provinciale ritiene verosimile la presenza dell'orso in un area dove sono stati rilasciati i cervi tenuti in precedenza presso l'area faunistica di Fossa Cupa pur non confermando alcuna ipotesi sulla sua presenza sui monti dell'Appennino Lucano." (Tratto da Notiziedaiparchi).
+&nbsp;
+La notizia risale al 12 Settembre e per ora non Ë stata ripresa da altri organi di stampa, ma come per gli avvistamenti di Febbraio la notizia Ë assolutamente verosimile. Speriamo soltanto che questa volta il CFS si attivi velocemente per risolvere il caso. ContinuerÚ comunque a seguire la vicenda con molta attenzione...
+&nbsp;
+(FONTE: Notizie dai Parchi)
+
+[post_text_56]
+IL PARCO REGIONALE DEI MONTI PICENTINI - AMBISCE AL TURISMO ORGANIZZATO
+&nbsp;
+Ottobre 2008 ñ Il Parco Regionale dei Monti Picentini partecipa per la prima volta come espositore alla prossima edizione del TTI alla Fiera di Rimini, dal 24 al 25 ottobre.
+Il Parco, istituito nel 1993, occupa una superficie di 65.000 ettari, si trova tra la provincia di Salerno e quella di Avellino e racchiude una vasta area montuosa che comprende i picchi del Terminio, della Felascosa, della Raiamagra, del Calvello, del Cervialto, del Polveracchio, del Raia, del Nai, della Monna e del Costa calda. Il Parco ospita la pi˘ rigogliosa distesa forestale e il pi˘ grande serbatoio díacqua del Sud Italia.
+Il Parco Regionale dei Monti Picentini si sta strutturando per diventare meta di escursionisti e di turisti che desiderano visitarlo e scoprire le caratteristiche del luogo e dei comuni limitrofi.
+&nbsp;
+ìAbbiamo intenzione di presentare il Parco agli operatori turistici italiani incoming e a quelli stranieri presenti al TTI ñ ha dichiarato Deborah Repaci, esperta di marketing turistico incoming del Parco ñ in quanto il primo passo che vogliamo fare Ë quello di promuovere líinserimento del Parco nei circuiti turistici che toccano la Campania. Possiamo offrire due tipologie di itinerari, una maggiormente sportiva legata alla possibilit‡ di organizzare trekking ed escursioni a piedi ma anche in mountain bike, la seconda alla ricca e varia enogastronomia che ne caratterizza il territorio. Stiamo mettendo a punto un progetto di marketing territoriale che consenta a questíarea di sviluppare una rete di relazioni con tutti gli attori del settore turismo, pubblici e privati, al fine di valorizzarne gli aspetti ambientali, culturali, storici e naturalistici.
+Una delle iniziative che abbiamo intrapreso Ë stata quella della firma del Patto di Gemellaggio, Collaborazione e amicizia tra il Parco Regionale dei Monti Picentini e il Lycksele Djupark di Lycksele, in Svezia, grazie al quale abbiamo posto le basi per una cooperazione negli ambiti di sul Lupo. Infatti, sia il lupo italiano sia quello svedese sono a rischio di estinzione per una serie di motivi, come la vicinanza territoriale dei parchi alle aree abitate, líadattamento del lupo ai cambiamenti climatici recenti, che influisce sui cambiamenti nelle abitudini. Non solo, líesperienza maturata dal Parco svedese nellíambito della promozione del turismo come strumento di valorizzazione territoriale sar‡ fondamentale anche per la promozione del Parco Regionale dei Monti Picentini. A met‡ ottobre Ë previsto il park twinning con il Parco Etosha che si trova in Namibia: il filo conduttore del gemellaggio tra questi due parchi Ë líecoturismo e líimpatto dei cambiamenti geoclimatici sulle risorse idricheî conclude Repaci.
+&nbsp;
+Lo stand al TTI si trova al Padiglione A7 numero 123 e sar‡ caratterizzato dalla presenza di simpatici cuccioli di alaskan malamute, in rappresentanza del lupo. Inoltre, proprio al fine di presentare agli operatori partecipanti le caratteristiche del prodotto, venerdÏ 24 ottobre alle ore 13:00 presso la sala Diotellevi 1 si terr‡ una presentazione dal titolo ìDalla Svezia alla Namibia: il Parco dei Monti Picentiniî. Tra i relatori, Sabino Aquino, Presidente del Parco, Deborah Repaci, esperta di Destination Management, Johan Cavallini, Direttore Italia VisitSweden e Davide Bomben, Direttore Marketing del Diamante, operatore del Consorzio Quality Group e presidente dellíAssociazione Italiana Esperti díAfrica.
+&nbsp;
+ìTante sono le motivazioni per visitare il Parco Regionale dei Monti Picentini ñ precisa Deborah Repaci ñ. Qualche esempio? Le grotte di San Michele di Olevano sul Tusciano, raggiungibili soltanto a piedi, uniche in Europa perchÈ al loro interno ci sono 5 cappelle, due delle quali affrescate, "incorniciate" da stalattiti e stalagmiti; Giffoni, dove si svolge ogni anno il Giffoni Film Festival. La zona offre inoltre líopportunit‡ di soggiornare in alberghi diffusi nei comuni di Castalvetere, di Calabritto, di Volturara, di Sieti anche definito "Paese Albergo": si tratta di borghi antichi diventati alberghi dove le piccole case del borgo oggi sono le stanze dell'albergo, il bar del borgo Ë la sala colazione e cosÏ via.î
+&nbsp;
+PROFILO DELLíAREA
+Il parco ospita un patrimonio faunistico ricco di mammiferi, roditori, uccelli e rettili. Tra i mammiferi troviamo il lupo, animale in via di estinzione e specie protetta, la lince, la volpe e il gatto selvatico la cui presenza Ë segno evidente dellíintegrit‡ dellíambiente boschivo. Tra i rettili troviamo il biacco, il cervone e tra le vipere, líaspide, mentre i roditori sono ben rappresentati dal moscardino e dal ghiro. Líavifauna conta numerose specie di uccelli tra cui il picchio nero, il gufo, il falco pellegrino e la maestosa aquila reale che si avvista in quota. Nel parco hanno sede le oasi del WWF del Monte Polveracchio, della Valle della Caccia e dellíAccellica.
+I borghi che si trovano nellíarea sono i seguenti. In Provincia di Avellino, 17 comuni: Bagnoli Irpino, Calabritto, Caposele, Castelvetere sul Calore, Chiusano San Domenico, Lioni, Montella, Montemarano, Montoro Superiore, Nusco, Santa Lucia di Serino, Santo Stefano del Sole, Senerchia, Serino, Solofra, Sorbo Serpico, Volturara Irpina. In Provincia di Salerno sono 13 i comuni: Acerno, Calvanico, Campagna, Castiglione del Genovesi, Eboli, Fisciano, Giffoni Sei Casali, Giffoni valle Piana, Montecorvino Rovella, Olevano Sul Tusciano, Oliveto Citra, San Cipriano Picentino e San Mango Piemonte.
+&nbsp;
+Il territorio Ë definito il ìserbatoio díacquaî del sud Italia: un ambiente fatto di colline ricoperte di macchia mediterranea, flora lussureggiante ideale per il trekking, valli e grotte di straordinaria bellezza.
+&nbsp;
+Tutto, nella zona dei Picentini, invita il turista ad apprezzare i ritmi naturali, e líintenso legame tra ambiente e prodotti tipici, rispetto del territorio e tradizione.
+Luogo di vacanza ideale per chi ama il turismo enogastronomico, di cui i borghi dei Monti Picentini rappresentano uno dei maggiori esponenti di tutta la provincia di Salerno: carne pregiata, salumi, formaggi, ma soprattutto castagne, nocciole, funghi e tartufi, sono i protagonisti dei piatti tradizionali picentini, che possono essere gustati nei numerosi ristoranti della zona ma anche nel corso delle numerose sagre che vengono organizzate per promuovere le prelibatezze del territorio.
+&nbsp;
+&nbsp;
+Castagne di Montella e nocciole di Giffoni, questi due prodotti basterebbero, da soli, per definire líarea dei Picentini interessante dal punto di vista gastronomico. Ma cíË ben altro. In questíarea, storicamente poco popolata, Ë sopravvissuta una pastorizia estensiva che si concretizza, nei due versanti del parco, in produzioni casearie di assoluto pregio: sopra tutte, mozzarelle di bufala, sul lato salernitano, e caciocavallo, sia Silano che Podolico, principalmente sul lato avellinese. Da menzionare anche la tradizione del formaggio pecorino che si perpetua nella zona di Bagnoli Irpino e Montella, legata allíallevamento della popolazione autoctona di pecore Bagnolesi. Accanto alla pastorizia si segnala uníattivit‡ di frutticoltura, per ora solo a livello familiare, che ha nelle variet‡ tipiche campane il suo punto di forza. La pera Spadona estiva, dalla forma allungata e dalla buccia color verde chiaro, Ë coltivata sui terreni collinari orientali dei Monti Picentini. Consumata prevalentemente fresca Ë ottima anche per la produzione di sciroppi, gelatine e confetture. Recentemente ha ottenuto la Igp la mela Annurca, una variet‡ campana pregiata coltivata anche nel territorio del parco. Gi‡ nota agli antichi e citata quale Mela Orcula da Plinio il Vecchio, la mela Annurca dopo la raccolta viene posta su giacigli di legno per un paio di mesi: inizia cosÏ il periodo di maturazione o ìarrossamentoî al termine del quale le mele hanno raggiunto la colorazione rossa e il giusto equilibrio tra il dolce e líacidulo che le caratterizza. Durante la permanenza nei melai le Annurche vengono girate e selezionate. Se la stagione Ë calda, per evitare che possano danneggiarsi, si coprono con frasche di castagno. La sera sono innaffiate perchÈ non perdano buona parte dellíacqua contenuta nella polpa.
+Líarea dei Monti Picentini comprende zone geografiche di notevole importanza dal punto di vista vitivinicolo. Appartengono alla Doc Fiano di Avellino i comuni di Santo Stefano del Sole, Sorbo Serpico e Santa Lucia di Serino, mentre alla Docg Taurasi quelli di Castelvetere sul Calore, Montemarano, San Mango sul Calore.
+Tutti questi elementi non sarebbero perÚ valorizzati senza un adeguato sviluppo di accoglienza dei flussi turistici: piccoli alberghi, aziende agrituristiche, bed and breackfast sparsi per tutti i borghi dei Picentini, offrono tutto líanno genuina ospitalit‡, efficienza e servizi mirati a riscoprire i sapori e i profumi della vita semplice di campagna.
+&nbsp;
+
+[post_text_57]
+LA LISTA ROSSA IN ITALIA E IN EUROPA
+&nbsp;
+ORSO: criticamente in pericolo
+Mentre in tutta Europa lo stato dellíorso non desta particolare preoccupazione, in Italia Ë classificato nella categoria di rischio pi˘ critica sia per le popolazioni delle Alpi che in Appennino, dove líesiguo numero di esemplari Ë minacciato anche dalla mano diretta dellíuomo. Per questo il WWF ha avviato uníimportante azione per la sua conservazione, tramite strumenti di prevenzione (per es. i recinti elettrificati dati a pastori e agricoltori) che possono favorirne la convivenza pacifica con líuomo.
+&nbsp;
+FOCA MONACA: criticamente in pericolo
+Considerata ìcriticamente in pericoloî, con un declino continuo dovuto all'impatto con i sistemi di pesca, persecuzione diretta e disturbo umano, nellíarea europea la foca monaca conta una popolazione estremamente ridotta, pari a meno di 250 individui maturi. Nella regione c'Ë solo una popolazione riproduttiva e si ritiene che tutti gli individui appartengano alla medesima popolazione. Sono sporadici gli avvistamenti nei mari italiani.
+&nbsp;
+LINCE: in pericolo
+La popolazione alpina della lince, un totale di 120 individui, Ë considerata ìin pericoloî con una particolare criticit‡ nelle Alpi orientali (nel resto díEuropa invece la situazione Ë meno preoccupante).
+&nbsp;
+LONTRA: quasi in pericolo, ma critica in Italia
+Dopo una serie di periodi di declino negli anni passati, la lontra Ë oggi classificata con un basso fattore di rischio in Europa (molto peggiore la situazione italiana), ma se si bloccassero o riducessero le azioni di conservazione, si calcola che in circa 12 anni la specie potrebbe subire un declino del 30%.
+&nbsp;
+LUPO: vulnerabile
+Anche il lupo in Europa desta scarsa preoccupazione. In Italia, invece, la popolazione di lupi Ë stimata intorno ai 500-800 individui distribuiti lungo líAppennino. Nonostante il recente aumento del numero di esemplari e del loro areale, il lupo italiano Ë ancora minacciato dalla mano dellíuomo e sebbene non sia considerato strettamente ìin pericoloî il suo stato puÚ facilmente ritornare critico.
+&nbsp;
+CAMOSCIO DíABRUZZO: vulnerabile, grazie a programmi di riproduzione e reintroduzioni
+Data la popolazione molto ristretta e líareale localizzato, il camoscio díAbruzzo oggi Ë considerato specie ìvulnerabileî. Nel 1996 era ìin pericoloî, ma grazie a una stretta protezione e ai programmi di riproduzione in cattivit‡ e reintroduzione, Ë attualmente in via di miglioramento. Sono comunque ancora necessarie strette misure di tutela per garantirne la conservazione a lungo termine.
+&nbsp;
+GATTO SELVATICO: quasi in pericolo, meno bene la subpopolazione italiana
+In Europa, il gatto selvatico non desta eccessiva preoccupazione, ma alcune subpopolazioni isolate come quella italiana (oltre che in Francia/Germania e in alcune isole del Mediterraneo), fronteggiano un livello di minaccia maggiore della specie intesa come entit‡ unica.
+&nbsp;
+&nbsp;
+Il WWF lavora in stretta collaborazione con líIUCN in tutto il mondo, attraverso interventi sul campo e fornendo supporto tecnico ed economico a diversi gruppi di esperti della Species Survival Commission IUCN.
+&nbsp;
+    * Le categorie di minaccia della Lista Rossa IUCN sono le seguenti, in ordine decrescente di minaccia:
+      - estinto o estinto in natura
+    * - Criticamente in pericolo, In pericolo e Vulnerabile: specie minacciate da estinzione a livello globale
+    * - Quasi in pericolo: specie vicine alla soglia di ìminacciatoî o che sarebbero minacciate in assenza di specifici programmi di conservazione
+    * - Scarsa Preoccupazione: specie con basso rischio di estinzione
+    * - Dati insufficienti: nessuna categoria per insufficienza di dati
+&nbsp;
+&nbsp;
+
+[post_text_58]
+Parco Monti Picentini: temi di interesse Programmazione 2007- 2013
+&nbsp;
+Nusco - Anche in assenza di uní adeguata struttura tecnico-amministrativa, operando con la collaborazione di alcune unit‡, messe a disposizione per sole poche ore settimanali da alcuni enti territoriali, il Parco dei Monti Picentini, guidato da Presidente Sabino Aquino Ë riuscito nel corso dellíanno 2008 a raggiungere notevoli risultati.
+Questi i pi˘ importanti:
+Completati quasi tutti i progetti finanziati nellíambito dei fondi P.O.R. 2000-2006, per un importo complessivo di oltre 50 milioni di euro. Si tratta di 76 opere infrastrutturali realizzate nei trenta Comuni del Parco.
+Per quanto riguarda la difesa territoriale, finalizzata a garantire lo sviluppo sostenibile, líEnte ha impedito, senza avere garanzie, la realizzazione di grandi infrastrutture che erano state previste allíinterno dellíarea protetta: La galleria Pavoncelli Bis, destinata al trasporto delle acque Irpine in Puglia, il Metanodotto per líalimentazione della Centrale Termoelettrica di Pontecagnano e líElettrodotto da 380 KW Montecorvino-Benevento. Ha elaborato e presentato per il finanziamento il progetto per gli interventi di ìBonifica ambientale integrata del bacino endoreico del Dragoneî, che come Ë noto rappresenta il cardine di alimentazione di tutte le acque accolte nel Monte Terminio. (Oltre 5.000 l/sec che approvvigionano oltre tre milioni di persone).
+Ha finanziato e fatto elaborare, dalle Autorit‡ di Bacino, competenti per territorio, studi scientifici finalizzati alla determinazione del Deflusso Minimo Vitale dei fiumi Calore, Sele, Sabato e dei Torrenti Solofrana e Picentino, in funzione di un preventivo Bilancio Idrico complessivo tra il fabbisogno, i prelievi possibili e la risorsa idrica disponibile.
+Sempre per la protezione delle risorse idriche il Parco ha sottoscritto un Protocollo díintesa tra la Provincia di Avellino ed il Parco Regionale del Partenio denominato ìLe vie dellíAcquaî. Si tratta di una progettazione preliminare che prevede il rifacimento di tutte le reti idriche comunali che per essere vetuste ed obsolete disperdono, come Ë noto, anche il 50% dellíacqua trasportata. Inoltre il progetto prevede la realizzazione di una serie di impianti di depurazione a servizio di vasti comprensori.
+Ha assegnato nove premi di laurea, ciascuno di un importo pari a duemila Euro. Il concorso ha inteso premiare laureati con argomenti di tesi riferiti allí ambiente ed il territorio.
+Ha pubblicato la nuova Carta dei Sentieri dei Monti Picentini elaborata in collaborazione del Club Alpino Italiano in scala 1:25.000.
+Ha inaugurato líosservatorio della Biodiversit‡ di Nusco.
+Per la ricerca scientifica sulla biodiversit‡ ha sottoscritto due distinti Patti di Gemellaggio. Uno con il Parco di Lycksele, in Svezia e líaltro con La Riserva Naturale ìOngava Gameî nel nord della Namibia (Africa meridionale).
+Per promuovere líinserimento del Parco nei circuiti turistici internazionali ha partecipato come espositore allíedizione del Travel Trade Italia alla Fiera di Rimini. Nellíambito di tale edizione la giuria ha assegnato al Parco una Menzione speciale per il programma sulla comunicazione.
+Infine líente dal secondo semestre del 2008 ha cominciato da elaborare il Piano Pluriennale Socio-Economico e di Pianificazione Territoriale. ìTale fondamentale strumento di programmazione - afferma il Presidente Aquino - Ë finalizzato a perpetuare le risorse naturali, le attivit‡ tradizionali, le culture e le peculiari identit‡ di un territorio attraverso un sistema di fruizioni che ne permetta, anche e soprattutto, la valorizzazione. Il Piano del Parco Ë dunque un processo in cui ogni attivit‡ di pianificazione, conservazione e sviluppo socio-economico deve essere anzitutto attentamente studiata e basata su conoscenze reali ed approfondite del patrimonio naturale, culturale e sociale, del territorio. La definizione di tale strumento - conclude - si rende necessaria oltre che per motivi di funzionalit‡ dellíEnte anche per líaccesso alle notevoli risorse finanziarie che la Comunit‡ Europea metter‡ a disposizione del Parchi e delle Riserve Naturali nella nuova programmazione prevista per il periodo 2007-2013î.
+&nbsp;
+(sabato 27 dicembre 2008 alle 12.57)
+&nbsp;
+
+[post_text_59]
+                             -AVVISO PUBBLICO-
+Ai sensi del Regolamento Comunale sugli Usi Civici (Delibera di C.C. N.14 del 03/05/2007) si comunica che per la raccolta della legna ìmortaî o ìvivaî Ë necessaria la preventiva autorizzazione da parte dellíAmministrazione Comunale. La modulistica per la richiesta Ë disponibile presso il Comune di Caposele Ufficio Polizia Municipale o sul sito istituzionale del Comune di Caposele. I cittadini che saranno privi dellíautorizzazione o non rispetteranno il predetto Regolamento saranno soggetti alle previste sanzioni amministrative e alla confisca del prodotto. Inoltre, qualora il fatto costituisca reato, si proceder‡ a darne notizia alla Autorit‡ Giudiziaria. LíAmministrazione Comunale, per garantire ai cittadini una migliore fruizione degli usi civici ed una corretta gestione e salvaguardia della risorsa ambientale, proporr‡ líadozione di un nuovo Regolamento.
+&nbsp;
+                           LíAssessore alle Politiche Ambientali
+                                     Dott. Angelo Ceres
+
+[post_text_60]
+SABATO 24 GENNAIO ALLE ORE 17,00 PRESSO IL CARCERE BORBONICO IN AVELLINO SARA' PRESENTATA LA CARTA DEI SENTIERI DEL PARCO REGIONALE DEI MONTI PICENTINI
+
+[post_text_61]
+Continua l'attivit‡ dell'amministrazione comunale in campo ambientale.
+Dopo anni di abbandono del territorio si stanno portando a termine
+una serie di azioni di bonifica del territorio oltre ad attivit‡ di
+prevenzione e vigilanza. Ci sar‡ occasione, successivamente, di elencare
+tali interventi.
+Angelo Ceres
+
+[post_text_62]
+Oggi Ë stata posizionata, all'interno della Porta del Parco,
+la carta dei sentieri. Fra pochi giorni sar‡ completato il montaggio.
+La struttura Ë stata predisposta dall'amministrazione comunale.
+Angelo Ceres
+
+[post_text_63]
+UNA LEZIONE DA CHI E' MOLTO PIU' CIVILE DI NOI
+&nbsp;
+Assergi 13/02/09 ñ Una bella storia a lieto fine, esemplare della possibile amicizia tra líuomo e il lupo, Ë stata scritta nel territorio innevato di Assergi (AQ), in localit‡ Fosso Raiale,  prossimo alla sede amministrativa del Parco Nazionale del Gran Sasso e Monti della Laga.
+&nbsp;
+Eí qui che mercoledÏ scorso un anziano agricoltore di Paganica, salendo al suo orto, ha trovato un giovane lupo denutrito e sofferente. Senza indugio si Ë rivolto agli agenti del Corpo Forestale dello Stato, che si sono recati sul posto con la Vice- comandante del Comando Territoriale per líAmbiente, Sonia Placidi. Si Ë cosÏ messa in modo la macchina operativa dellíEnte Parco che, tramite il responsabile del proprio Servizio Scientifico,  ha avviato le procedure di primo soccorso. Il lupo, risultato essere una giovane femmina di circa due anni di et‡,  Ë stato dapprima visitato dal veterinario dellíEnte Parco e poi trasportato al Centro di Recupero Fauna Selvatica di Popoli, gestito dall'Ufficio Territoriale per la Biodiversit‡ del Corpo forestale dello Stato. Dopo aver ricevuto le cure necessarie ed avervi trascorso un periodo di riabilitazione, líanimale potr‡ presto riunirsi al suo branco, quello del Monte Stabbiata.
+&nbsp;
+Il Direttore del Parco, Marcello Maranella, ha ringraziato líagricoltore ed ha elogiato il suo comportamento, che ha definito ´un esempio non comune di sensibilit‡. Un comportamento che premia allo stesso tempo il lavoro del Parco e il suo impegno a diffondere una cultura della convivenza tra líuomo ed i grandi carnivori come il lupo, in territori caratterizzati da forte antropizzazioneª.
+&nbsp;
+Líuomo e il lupo, infatti, si fronteggiano da millenni e nel lupo líuomo ha visto figure via via differenti: dal magico simbolo di forza e intelligenza al feroce assassino, allíanimale nocivo da sopprimere.  Oggi, in un momento storico in cui líuomo Ë chiamato ad assumere il ruolo determinante di responsabile delle risorse del pianeta e di una diversit‡ biologica fortemente minacciata, Ë importante che apprenda a guardare anche al lupo con occhi nuovi, come componente essenziale di un ecosistema sano da proteggere e consegnare ancora integro alle future generazioni.
+
+[post_text_64]
+Concluso il ciclio dei seminari tra Caposele, Bagnoli e Lioni che hanno trattato la problematica dei rifiuti all'interno delle imprese.
+Lo scopo Ë stato quello di sensibilizzare i produttori dei rifiuti ad una maggiore attenzione verso l'ambiente.
+La normativa nazionale prevede pesanti sanzioni penali ed amministrative per i trasgressori.
+L'amministrazione comunale consapevole di questo resta a disposizione di tutti per chiarimenti sulla materia.
+&nbsp;
+Angelo Ceres
+
+[post_text_65]
+La Maratona di Roma aderisce a 'Parchi per Kyoto'
+Con l'edizione del 2009, la manifestazione podistica d√  il via a un
+processo pluriennale di compensazione dei gas serra emessi, che la
+render√
+la prima maratona al mondo ‚&#128;&#156;a emissioni zero‚&#128;ù
+&nbsp;
+Da quest'anno, c'Ë un traguardo in pi˘ per la Maratona di
+Roma:  la
+compensazione delle emissioni di gas serra, in coerenza con gli impegni
+del
+Protocollo di Kyoto. Il comitato organizzatore della popolare
+manifestazione podistica ha infatti deciso di aderire al progetto
+"Parchi
+per Kyoto", l'iniziativa promossa da Federparchi e Kyoto Club,
+in
+collaborazione con Legambiente e con il supporto tecnico di AzzeroCO2,
+per
+sensibilizzare sugli effetti del cambiamento climatico e promuovere gli
+obiettivi del Protocollo. Nei  prossimi anni, con il sostegno
+dell'Agenzia
+Regionale per i Parchi del Lazio e dell'Assessorato Regionale
+all'Ambiente
+e alla Cooperazione tra i Popoli, la Maratona compenser‡
+progressivamente
+le emissioni di gas climalteranti generate dall'evento, puntando a
+divenire
+la prima maratona a emissioni zero del mondo.
+&nbsp;
+Il processo prende avvio dall'edizione 2009 della gara podistica, in
+programma il prossimo 22 marzo. Saranno circa 60 le tonnellate di
+anidride
+carbonica compensate grazie a un intervento nel Parco dei Castelli
+Romani,
+area protetta regionale con un'estensione di 15mila ettari, che
+interessa
+quindici comuni e 350mila abitanti. L'intervento, che interesser‡
+un'area a
+bosco di castagno con una superficie di circa sei ettari, annuller‡ le
+emissioni di gas a effetto serra causate dalla produzione di materiale
+cartaceo (depliant, volantini, manifesti, etc) collegata alla Maratona,
+oltre ai consumi di energia elettrica degli uffici.
+&nbsp;
+&nbsp;
+Il progetto "Parchi per Kyoto", lanciato nel 2007, ha come
+obiettivo la
+promozione degli impegni del Protocollo di Kyoto, attraverso la messa a
+dimora di migliaia di alberi all'interno di parchi regionali,
+nazionali e
+internazionali, oltre a una serie di attivit‡ di sensibilizzazione e
+informazione sul tema del riscaldamento globale.
+&nbsp;
+
+[post_text_66]
+E' online il sito del Parco Regionale dei Monti Picentini: www.parcoregionalemontipicentini.it
+
+[post_text_67]
+&gt;E' online il sito del Parco Regionale dei Monti Picentini: www.parcoregionalemontipicentini.it<br>&gt;<br><br>
+E sul sito c'e' una cartografia veramente ben fatta!
+&nbsp;
+<a href="http://www.parcoregionalemontipicentini.it/PMP/">http://www.parcoregionalemontipicentini.it/PMP/</a>
+&nbsp;
+&nbsp;

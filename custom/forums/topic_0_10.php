@@ -34,6 +34,8 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 20::da CorriereIrpinia.it::03/04/2008 10.11.46::visible
 21::da CorriereIrpinia.it::10/04/2008 10.22.08::visible
 22::da Irpinianews.it::14/04/2008 15.34.44::visible
+23::da Selacapo.net::25/06/2008 10.10.35::visible
+24::da Selacapo.net::25/06/2008 10.18.58::visible
 
 [post_text_0]
 we allora, le polemiche sullo sport caposelese per ora sembra siano terminate. Abbiamo assistito ad uno bel dibattittio, coinvolgendo molte persone. Ma quello che sto cercando di dirvi e che se io posso cambiare e voi potete cambiare, tutto il mondo può cambiare. Questa era una frase tratta dal film di ROCKY, comununque con questo voglio dire che tutte le polemiche non sono mai servita a nulla, piuttosto bisogna cecare di essere quanto più uniti mettendo sul tavolo le proprie idee, ed allora a questo punto le cose potranno cambiare in modo positivo. tutto questo penso che sia la chiave di tutto.
@@ -240,4 +242,30 @@ Caposele - 82enne rinvenuto cadavere sul greto fiume Sele
 &nbsp;
 Tragedia nella serata di ieri  a Caposele. quando nel tardo pomeriggio arrivava alla Centrale operativa della Compagnia dei Carabinieri di Montella la segnalazione della scomparsa di un uomo 82enne, C.C.,  che  qualche ora prima era uscito di casa per un’abituale passeggiata in campagna e non vi aveva fatto più ritorno.  I familiari, preoccupati per la lunga assenza del proprio congiunto e per le mancate risposte ai numerosi tentativi di chiamate effettuate all’utenza cellulare, hanno allertato i Carabinieri che secondo le indicazioni fornite dai familiari stessi si sono immediatamente recati presso una impervia contrada della valle del Sele, dove l’uomo era solito andare per raccogliere asparagi.   Qui, i Carabinieri, organizzati in piccole squadre, hanno pertanto proseguito le ricerche, rese peraltro difficoltose dalla scarsa visibilità delle ore notturne, nella vasta campagna circostante anche con l’ausilio dei familiari stessi, dei Vigili del Fuoco e dei volontari della Misericordia.  Alle prime luci dell’alba dopo alcune ore di angoscia, purtroppo, veniva rinvenuto il corpo senza vita dell’uomo scomparso ponendo fine alle speranze dei familiari di ritrovarlo ancora in vita; le cause della morte sarebbero da attribuirsi alle lesioni causate a seguito di una rovinosa caduta, a seguito di un probabile malore, terminata sul greto del fiume Sele.  Le indagini sono state condotte in stretta sinergia con i Magistrati della Procura di S. Angelo dei Lombardi, coordinati dal Procuratore Capo dott. Antonio Guerriero.
 (sabato 12 aprile 2008 alle 11.11)
+&nbsp;
+
+[post_text_23]
+Su selacapo.net trovate una petizione in cui si chiede a Telecom Italia di attivarsi prontamente per realizzare tutti gli adempimenti tecnici al fine di garantire la copertura del servizio ADSL su tutto il territorio comunale.
+&nbsp;
+E' da un anno che Infratel ha completato i lavori per portare la fibra ottica a Caposele, e attualmente sono in corso i lavori per estendere la rete a Calabritto, ma a Caposele si continuna a utilizzare la tradizionale 56K. Ciò a causa di una vecchia centralina analogica che, nonostante ripetute segnalazioni, non viene sostituita.
+&nbsp;
+&nbsp;
+L'indirizzo della petizione è
+&nbsp;
+http://selacapo.net/petizioneadsl
+&nbsp;
+&nbsp;
+&nbsp;
+
+[post_text_24]
+Alla cortese attenzione di Telecom Italia
+Il testo della petizione promossa da Selacapo.net
+&nbsp;
+Considerato che da circa un anno sono stati completati da parte di Infratel Italia S.p.a. i lavori per la posa dei cavi in fibra ottica nel comune di Caposele, i sottoscritti firmatari
+&nbsp;
+chiedono
+&nbsp;
+a Telecom Italia di attivarsi prontamente per realizzare tutti gli adempimenti tecnici e provvedere, ove ce ne fosse bisogno, all'ammodernamento della centralina telefonica di via Lungo Sele, al fine di garantire nel più breve tempo possibile la copertura del servizio ADSL su tutto il territorio comunale.
+&nbsp;
+Per firmarla vai <A HREF="http://selacapo.net/petizioneadsl"> qui </A>.
 &nbsp;

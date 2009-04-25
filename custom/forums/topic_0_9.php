@@ -154,6 +154,63 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 140::Il socio::10/02/2008 18.32.54::visible
 141::ars::12/02/2008 12.32.52::visible
 142::ars::22/04/2008 11.57.29::visible
+143::Ars::26/05/2008 18.14.10::visible
+144::Ars::28/05/2008 10.57.22::visible
+145::Ars::18/06/2008 11.24.55::visible
+146::Ars::02/07/2008 10.37.02::visible
+147::NICOLA::06/07/2008 18.09.45::visible
+148::precisazione::06/07/2008 20.59.12::visible
+149::Paolo::15/07/2008 17.31.24::visible
+150::Ars::16/07/2008 11.00.03::visible
+151::Paolo::26/07/2008 11.05.45::visible
+152::UN CITTADINO ATTENTO::10/08/2008 11.38.27::visible
+153::Michele::10/08/2008 15.49.42::visible
+154::Angelo Ceres::10/08/2008 16.19.46::visible
+155::MARCO::14/08/2008 12.51.23::visible
+156::NIC.M.::15/08/2008 20.31.28::visible
+157::NICOLA MELILLO::19/10/2008 17.14.00::visible
+158::nic.m::22/10/2008 18.46.14::visible
+159::Sal::23/10/2008 18.04.07::visible
+160::nicola m.::27/10/2008 12.53.28::visible
+161::saluti::27/10/2008 21.38.03::visible
+162::nic m.::28/10/2008 10.26.03::visible
+163::saluti::28/10/2008 10.58.53::visible
+164::tatore::30/10/2008 10.42.51::visible
+165::Lupi::30/10/2008 15.17.29::visible
+166::nic m.::30/10/2008 23.36.11::visible
+167::Critica prima che il governo istituisca con decreto legge la Censura::31/10/2008 09.28.36::visible
+168::nic m.::31/10/2008 16.17.23::visible
+169::Forza lupi::03/11/2008 09.51.24::visible
+170::Giuseppe::03/11/2008 10.53.37::visible
+171::Silvio::05/11/2008 21.06.18::visible
+172::non importa::06/11/2008 10.30.29::visible
+173::importa::12/11/2008 12.45.26::visible
+174::Gerardo Notaro::17/11/2008 10.28.15::visible
+175::nic m.::05/01/2009 18.53.21::visible
+176::Io::10/01/2009 16.31.53::visible
+177::nic.m::11/01/2009 18.08.53::visible
+178::nicola m.::03/02/2009 23.35.33::visible
+179::Nick::10/02/2009 15.59.39::visible
+180::Alfonso::10/02/2009 16.05.20::visible
+181::nic.m.::15/02/2009 11.57.57::visible
+182::Giuseppe::16/02/2009 22.54.06::visible
+183::ARS: segnalazione gara::19/02/2009 12.51.09::visible
+184::Brassens::20/02/2009 13.12.52::visible
+185::alphonse donatien pirat d'amour::23/02/2009 11.07.01::visible
+186::Giovanni ::23/02/2009 19.41.46::visible
+187::nic.m.::24/02/2009 11.24.48::visible
+188::Alessandro::24/02/2009 13.03.13::visible
+189::alphonse donatien::24/02/2009 22.57.36::visible
+190::anti inter::25/02/2009 12.16.07::visible
+191::alphose donatien::25/02/2009 14.12.09::visible
+192::Salvatore::26/02/2009 16.13.40::visible
+193::Paolo Viscardi::26/02/2009 22.22.39::visible
+194::Antonio::04/03/2009 09.53.09::visible
+195::nicola m.::12/03/2009 19.11.29::visible
+196::per quelli della maratona::18/03/2009 17.46.01::visible
+197::salvatore::18/03/2009 18.10.05::visible
+198::Salvatore::28/03/2009 12.14.39::visible
+199::nic.m.::22/04/2009 11.07.10::visible
 
 [post_text_0]
 Fermate Nicola Melillo con questa stralaceno: anche i muri di materdomini e caposele non ne possono più.
@@ -809,3 +866,251 @@ Si tratta di una corsa campestre con classifica individuale per categorie.
 
 [post_text_142]
 Il 1° maggio si va a Vallesaccarda per una gara podistica di km 9.
+
+[post_text_143]
+Iscrizione squadra ARS per la XXII Notturna Stabiese confermata. Si parte sabato 31 maggio alle 16.00 da piazza Sanità. Allenatevi!
+
+[post_text_144]
+Sul sito del Marathon Club Stabia, associazione che organizza la Notturna Stabiese del 31 maggio, è stato ufficializzato l'elenco partecipanti (circa 600).
+&nbsp;
+Ecco i nostri numeri:
+&nbsp;
+543 ROSANIA  GAETANO      M   1982	TM	ZZ999	ARS AMATORI RUNNING SELE - CSEN
+544 CERES    DONATO       M   1981	TM	ZZ999	ARS AMATORI RUNNING SELE - CSEN
+545 CERES    FRANCESCO    M   1988	PM	ZZ999	ARS AMATORI RUNNING SELE - CSEN
+546 CIBELLIS TOMMASO      M   1984	TM	ZZ999	ARS AMATORI RUNNING SELE - CSEN
+547 CIRILLO  DONATELLO    M   1977	TM	ZZ999	ARS AMATORI RUNNING SELE - CSEN
+548 DEL GUERCIO GELSOMINO M   1981	TM	ZZ999	ARS AMATORI RUNNING SELE - CSEN
+549 FENIELLO ROCCO        M   1987	PM	ZZ999	ARS AMATORI RUNNING SELE - CSEN
+550 GRASSO ARMANDO        M   1985	TM	ZZ999	ARS AMATORI RUNNING SELE - CSEN
+551 MEROLA GELSOMINO      M   1971	MM35	ZZ999	ARS AMATORI RUNNING SELE - CSEN
+552 MEROLA SALVATORE      M   1988	PM	ZZ999	ARS AMATORI RUNNING SELE - CSEN
+553 PERNA SAVERIO         M   1962	MM45	ZZ999	ARS AMATORI RUNNING SELE - CSEN
+554 RUSSOMANNO ALESSANDRO M   1975	TM	ZZ999	ARS AMATORI RUNNING SELE - CSEN
+555 VISCIDO ANTONIO       M	1967	MM40	ZZ999	ARS AMATORI RUNNING SELE - CSEN
+&nbsp;
+
+[post_text_145]
+Sabato si va a SIANO per la decima edizione della NOTTURNA SIANESE.
+&nbsp;
+Partenza da piazza Sanità alle 16.30
+
+[post_text_146]
+Sabato 5 luglio gara podistica II Strapollese  a Polla (Sa) di km 9,5.
+&nbsp;
+Si parte da piazza Sanità alle ore 16.00
+
+[post_text_147]
+COME MAI  CARI AMICI ARS QUEST' ANNO CHE AVETE VINTO LE ELEZIONI AL PALMENTA SI PUO' ANDARE A CORRERE SOLO 2 VOLTE LA SETTIMANA MENTRE L' ANNO SCORSO E GLI ALTRI ANNI ADDIETRO SI CORREVA 3 VOLTE E MOLTI ANNI FA ADDIRITTURA QUALCUNO DI VOI VOLEVA IL PALMENTA SEMPRE APERTO TUTTA LA STTIMANA, LA VOSTRA A QUESTO PUNTO DEVO PENSARE CHE ERA SOLO POLITICA STRUMENTALE E FAZIOSA CONTRA L' AMMINISTRAZIONE GUIDATA DAL MIO CARO ZIO PURTROPPO SCOMPARSO.CAMBIATE DIREZIONE NEL MODO DI AGIRE E PENSARE PRIMA CHE NON SIA TROPPO TARDI!!
+
+[post_text_148]
+L'ars non è schierata politicamente.
+&nbsp;
+Anche quest'anno l'ars ha richiesto il campo Palmenta per correre per tutti i giorni, ma per ora sembra che i giorni accordati dall'amministrazione locale siano 2/3.
+&nbsp;
+&nbsp;
+
+[post_text_149]
+x Francesco
+Comlimenti per l'ottima prestazione alla gara di Agropoli; migliori giorno dopo giorno continua così. ciao ciao
+
+[post_text_150]
+Sabato si va a Roccadaspide, per la XV CorriRoccadaspide di km 7,950.
+&nbsp;
+La partenza della squadra è fissata in piazza Sanità alle ore 15.45.
+
+[post_text_151]
+carissimi soci, lunedi sera ore 21.00 tutti a casa mia per una grande cena sociale. Ci vediamo tutti li, escluso nessuno.
+ciao ciao
+
+[post_text_152]
+MENO MALE CHE IL 29 C'E' LA STRALACENO QUESTA  ESTATE SARA' RICORDATA COME QUELLA PIU' BRUTTA DELLA STORIA RECENTE E PENSARE CHE DA 4 MESI SI E' INSEDIATA UN' AMMINISTRAZIONE VOTATA AL CAMBIAMENTO!!  E' QUESTO IL FAMOSO CAMBIAMENTO!!MA IO SO SOLO CHE SE SI VUOLE ASSISTERE A UN BEL CONCERTO DI MUSICA LEGGERA SI DEVE ANDARE SEMPRE NEGLI ALTRI PAESI.MEDITATE ASSESSORI DEL COMUNE DI CAPOSELE NON SI VENDONO CHIACCHIERE IN CAMPAGNA ELETTORALE!
+
+[post_text_153]
+Cittadino attento? Non direi proprio....meglio che ti definisci POCO ATTENTO. Dopo anni di assoluta incuria, in tutti i settori amministrativi, è impossibile assistere ad un risanamento  nel giro di solo 4 mesi.
+Eppure alcuni importanti cambiamenti si sono avuti ed altri dovrebbero avverarsi; solo chi è veramente attento o meglio non parla per "partito preso" può iniziare a vedere il cambiamento.
+
+[post_text_154]
+Per CITTADINO ATTENTO: ti invito a leggere l'articolo che ho inserito nella sezione ambiente
+
+[post_text_155]
+Vorrei sapere il nominativo della nuova ragazza di Alessandro Russomanno...Segretario amm.vo dell'Ars.
+
+[post_text_156]
+FORZA L' ARS ABBIAMO RAGGIUNTO UN OTTIMO RISULTATO ALLA CORSA DEI TRE CAMPANILI ERANO IN 15 SOLO 11-12 DI CAPOSELE E SOPRATTUTTO SI E' ABBASSATO ANCHE IL LIVELLO TECNICO DELLA MANIFESTAZIONE CARI AMICI DELLA PRO LOCO CONTINUATE COSI' CHE STATE FALLENDO IN TUTTO.CHI NELLA VITA VUOLE PER FORZA INSISTERE NELLE PROPRIE CONVINZIONI DEVE AVERE QUESTE DELUSIONI!! MENO MALE CHE C' E' LA STRALACENO!!
+
+[post_text_157]
+LA MARATONINA AUTUNNALE SI CORRERA' IL GIORNO SABATO 1 NOVEMBRE ALLE ORE 15 NICOLA
+
+[post_text_158]
+oggi pomeriggio allenamento a laceno, in un clima molto bello e tipicamente autunnale con i suoi splendidi colori io e gaetano rosania abbiamo realizzato un soddisfacente 25 e 10.purtroppo siamo sempre noi due coraggio lo sport e' un vero toccasana per mente e fisico iniziate a correre e vi sentirete molto meglio.
+
+[post_text_159]
+Beato chi può correre !
+&nbsp;
+In bocca al lupo a tutti per la gara del 1 Novembre!
+
+[post_text_160]
+il 1 novembre si correra' alle 10 e non alle 15 come precedentemente comunicato.x tutti quelli che vorranno venire alla lungosele di quasi 10 km.
+
+[post_text_161]
+non si doveva correre sabato? al raduno non c'era nessuno, cosi' sabato prossimo non ci vengo. chi millanta di avere una fantomatica cultura sportiva, non antepone la partita della squadra del cuore alla manifestazione che lui stesso organizza
+
+[post_text_162]
+innanzitutto perche non ti firmi quando scrivi e poi se ho capito chi sei le tue sono solo accuse stupide in quanto se eri veramente una persona che praticava sport per uno scopo fisico e culturale una settimana in piu' di allenamento e' molto positiva ma in quanto tu non hai nessuna voglia e sacrificio di correre ti nascondi dietro queste parole,hai ragione sul fatto che la gara si doveva fare il 25 ma siccome l' organizzatore sono io la data la decido come mi pare e poi una settimana in piu' non e' un grosso problema perche' chi e' veramente intenzionato a partecipare viene anche il 1 novembre quindi smettiamola sempre di fare polemiche infantili e poco costruttive.Ti ricordo che la corsa e' uno sport duro quindi una settimana in piu'non cambia di molto il successo di partecipazioni.
+
+[post_text_163]
+caro Nic, non hai affatto capito chi sono, comunque io volevo solo spronarti ad organizzare con maggiore attenzione e coerenza la corsa, che tra l'altro ritengo un'ottima iniziativa, se poi per te è più importante una partita sono affari tuoi, la corsa è tua e la fai quando vuoi, però poi non ti lamentare che non ci sono persone che hanno cultura sportiva o passione, perchè queste non ci sono solo quando fanno comodo a te, quindi niente coda di paglia. non mi firmo perchè non ti sto accusando di niente, poi la corsa è tua, ma è aperta al pubblico e di conseguenza criticabile come tutte le cose pubbliche. detto questo le precedenti edizioni sono state veramente apprezzabili, spero lo sia anche questa
+
+[post_text_164]
+ma sabato non giocherà la serie B e quindi l'avellino in casa? è solo così per sapere...ciao Nic e buona fortuna e forza avellino
+
+[post_text_165]
+perciò si corre di mattina! Ma sabato mattina c'è la partita di ping pong
+a cui non posso assolutamente mancare, per questo non potrò partecipare alla corsa.
+
+[post_text_166]
+non hai coraggio di firmarti come mai questo e' un corportamento infantile!!!comunque adesso basta ogni qualvolta che si pensa di fare una qualsiasi iniziativa che per questo paese e' un vero toccasana c' e' sempre qualcuno che rompe le scatole si vede che siete molto limitati culturalmente!!non c' e' problema chiunque tu sia non venire alla corsa l' importante e' che la corsa si svolgera' anche in pochi tanto questo gia' si sapeva.
+
+[post_text_167]
+Limitati culturalmente?!
+Ma non si può dire questo soprattutto da parte di chi sposta una gara per assistere ad una misera partita di una squadra che adesso, per la posizione in classifica, è in serie c. prima si esce con un manifesto con la data del 25 ottobre e poi improvvisamente la si posticipa al 1° novembre.
+Oltre ad avere scarsa cultura sportiva, perchè il podismo (lo ricordo) è sport ed in quanto tale non può seguire i capricci di un "organizzatore".
+Si vanta la paternità di tale manifestazione e come un despota si decide di spostare giorno, ora ed addirittura si potrebbe pensare di voler far partecipare "Gerardo anzicchè Lorenzo" perchè uno non si allena o perchè non è simpatico ed ancor di più si sceglie una data senza pensare che quel periodo è dedicato alla commemorazione dei defunti.
+La gara era nata con un ottimo intendo ma questo è caduto anzi è "deceduto" per un capriccio dell'organizzatore che si può dire di tutto tranne che ha cultura sportiva; direi che la definizione più apppropriata sarebbe "fanatico del calcio" che nulla a che vedere con lo sport.
+
+[post_text_168]
+comunque adesso se il tempo e' clemente la gara' si fara' con chi c' e' poi domani rassegno le mie dimissioni dall' ars in quanto sinceramente queste inituli polemiche mi hanno molto infastidito e comunque nel gruppo ars non mi riconosco per molti motivi.sono sicuro che ha scritto questi messaggi e' uno dell' ars quindi vuole solo creare disturbo anziche' collaborare come si e' soliti fare in questo stupido paese.
+
+[post_text_169]
+Attendiamo con ansia e trepidazione le dimissioni di melillo dall'ars.
+
+[post_text_170]
+Caro Melillo, ti invito a riflettere prima di annunciare propositi dimissionari.
+Ormai è un classico per te prendertela con l'ars invece di chiedere semmai la loro collaborazione; preferisci attaccare l'ars solo perchè sul forum del loro sito, qualcuno (che potrebbe essere un cittadino qualsiasi) ha fatto delle (giuste) osservazioni sul tuo modo molto ma molto discutibile di organizzare...
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+[post_text_171]
+Dov'è finito Melillo? Si è dimesso dall'ars?
+Vorrebbe svernare ad Avellino? Oppure per la vergogna non esce?
+&nbsp;
+
+[post_text_172]
+basta prendersela con nicola
+
+[post_text_173]
+Melillo ma quando ti dimetti.
+Si vocifera che le dimissioni saranno formalizzate per sabato pomeriggio.
+Attenzione ma sabato gioca l'Avellino...le dimissioni possono attendere.
+&nbsp;
+
+[post_text_174]
+Ho appena letto le considerazioni di Nicola sulla LungoSele 2008 ed in particolare le considerazioni che mi riguardano
+&nbsp;
+".....non posso esimermi dallo stigmatizzare l’assenza ingiustificata di chi, nonostante avesse con me condiviso da subito la lodevole iniziativa, si è tirato indietro inspiegabilmente, sia come atleta che come collaboratore.....".
+&nbsp;
+Premetto che ho già chiarito col caro Nicola la questione ma è giusto fare pubblica ammenda del comportamento non del tutto appropriato tenuto dal sottoscritto. Co-organizzare una manifestazione e poi boicottarla non è certo una bella cosa! Il fatto è che a volte le cose cambiano in fretta ed in maniera anche inaspettata. Nell'ultimo anno mi ero convinto di amare il podismo, mi ero allenato, avevo fatto finalmente una prestazione decente alla Stralaceno. Sono stato tra quelli che hanno spronato Nicola a riorganizzare un evento podistico autunnale, con l'intento di parteciparvi ed allenarmi. Ma proprio nelle due settimane in cui mi sono allenato per la Lungosele, nei giorni in cui ho allungato la mia corsa dai soliti 4-5 km ad 8-9 km, ho capito quanto mi stesse annoiando correre da solo, quanto stesse diventendando insopportabile per me rinunciare ad una partitella a pallone per correre. Probabilmente il 25 ottobre avrei corso ma avevo già deciso che quella gara avrebbe sancito il mio distacco dal podismo. Quando poi l'evento è stato traslato di una settimana è venuta meno pure la voglia di fare quell'ultima corsa. Davanti alla scelta tra correre una gara che avevo collaborato ad instituire e fare una partita a calcetto co "LI ZULLUSI" ho scelto il calcio, ho scelto lo sport più pericoloso ma più appassionante. La mia breve carriera di podista amatoriale è finita prima di cominciare, le sirene calcistiche mi hanno convinto a rituffarmi nel mare a me più congeniale.
+&nbsp;
+
+[post_text_175]
+il giorno 30 dicembre si e' svolto il classico allenamento collettivo non posso esimermi dal fare qualche commento.Complimenti a tutti per la partecipazione.credo che queste manifestazioni resteranno per sempre impressi nella mente di noi in quanto a Caposele oltre il solito gioco del calcio non e' mai esistito un gruppo di podisti.io adesso nel mese di marzo organizzero' una nuova garetta di 9/10 km. con la speranza che questa volta ci sia un numero maggiore di partecipanti e coinvolgero' anche l' ars nell' organizzazione.dobbiamo avvicinarci gradualmente agli appuntamenti estivi con allenamenti
+e gare come la mia.il prossimo anno cerchiamo di cambiare il percorso dell' allenamento collettivo cosi' da renderlo sempre piu' interessante e atteso.
+
+[post_text_176]
+melillo ma fammi capire sei a favore o contro l'ars??? perchè non è che si capisce bene
+
+[post_text_177]
+innanzitutto perche' non dici chi sei e poi se ho capito chi sei tu non hai nessuna intenzione di correre ma solo di creare polemiche inutili,quindi ti invito a stare solo zitto e a fare piu' fatti non chiacchiere.
+
+[post_text_178]
+oggi insieme a gaetano rosania abbiamo fatto il solito allenamento di 10 km. ponte -ponte sele e ritorno io solo il ritorno ci ho messo 25 e 32 un bel tempo adesso nel mese di febbraio andremo anche a laceno.
+
+[post_text_179]
+attenti al goriiiilla...
+
+[post_text_180]
+Continui ed intensi allenamenti per Nicola Melillo sulle strade di Caposele: lo si vede quasi ogni giorno, a volte anche di notte, imperversare con la sua ampia falcata...
+In effetti la Stralaceno 2009 non è poi così lontana e lui si candida ad interpretare il ruolo di favorito. Attenti al Melillo...
+
+[post_text_181]
+nessuno scrive piu' niente forza commentiamo qualcosa organizziamoci che a marzo andiamo a fare un allenamento a laceno chiunque vuole venire e' ben accetto.
+
+[post_text_182]
+Anche oggi pomeriggio Nicola Melillo, con le sue mitiche calzamaglie, sfidando il freddo, ha percorso a gran ritmo le strade locali...
+Si annunciano tempi tristi per i suoi storici rivali e non solo... Ormai il suo obiettivo è arrivare sul podio alla prossima Stralaceno.
+Tremate... arriva il Melillo!
+&nbsp;
+
+[post_text_183]
+Mezza Maratona di POTENZA
+Trofeo A.V.I.S. "IL PROGETTO CUORE
+&nbsp;
+L’Associazione Culturale Borgo Antico Portasalza indice ed organizza a Potenza, con la collaborazione, della A.V.I.S. Regionale della Basilicata, con il Patrocinio del Rotary International Distretto 2120° Italia Club Potenza Ovest, del C.O.N.I., della Regione Basilicata, dell' A.P.T. Azienda di Promozione Turistica, della Provincia di Potenza, del Comune di Potenza, la I° Edizione della MEZZA MARATONA di POTENZA, Memorial “Gigi Chiriaco” – Trofeo A.V.I.S. “Il Progetto Cuore”. Corsa podistica su strada, di Km 21,970 - Luogo : POTENZA (PZ).
+&nbsp;
+Data di svolgimento : Domenica 08 Marzo 2009.
+&nbsp;
+Ritrovo giuria e concorrenti in Piazza Mario Pagano dalle ore 08:00 per ritiro pettorali e ultime iscrizioni. Partenza ore 09:30 da Via Pretoria, (antistante Piazza Mario Pagano), arrivo in Via Pretoria, (antistante Piazza Mario Pagano), tempo massimo 2:30
+Ore 12:30 Seguirà cerimonia di PREMIAZIONE. Ammissioni Alla gara sono ammessi tutti gli atleti/e appartenenti alle Società affiliate alla F.I.D.A.L., in regola con il tesseramento 2009, nonché gli atleti tesserati con altre Federazioni sportive o Enti di promozione sportiva, sempre in regola con il tesseramento 2009. Alla gara sono ammessi, altresì, tutti gli atleti che presenteranno al momento dell’iscrizione il certificato medico di sana e robusta costituzione.
+&nbsp;
+Il tempo massimo è di ore 2:30 per esigenze legate alla chiusura delle strade.
+Iscrizioni: La quota d’iscrizione, è di Euro 5,00 (€ cinque/00), da pagare in CONTANTI. Le adesioni, con i dati del tesserino F.I.D.A.L. o di altre Federazioni sportive o Enti di promozione sportiva, devono pervenire entro le ore 14:00 di venerdì 6 marzo 2009 c/o AVIS Basilicata - Via Ciccotti, 36 – Fax 0971-46873 basilicata@avis.it  oppure all’indirizzo di posta elettronica: leccese.domenico@tiscali.it
+&nbsp;
+&nbsp;
+
+[post_text_184]
+Attenti al MeliiiiiiiLLà...
+
+[post_text_185]
+brassens mi fai ridere...
+
+[post_text_186]
+Altro che le gare del D'Auria sullo sterrato... I veri allenamenti sono quelli di Nic Melillo a Ponte Sele, discese, salite, cambi di ritmo...
+O comuni mortali, lasciate ogni speranza quando affronterete il Melillo...
+Attenti al Meliiiiillò.
+
+[post_text_187]
+caro alex che fine hai fatto non riesco piu' a vederti ti volevo dare i soldi del certificato medico.
+
+[post_text_188]
+Non ti preoccupare, non è urgente.
+Cmq ci vediamo questo fine settimana.
+
+[post_text_189]
+la solita inter, senza personalità dalla cintola in su, passano gli anni, gli allenatori, i giocatori, ma la storia è sempre la stessa
+
+[post_text_190]
+concordo con te questo fa capire che i 9 punti in campionato sono bugiardi e comunque anche quest' anno i grandi campioni vinceranno solo lo scudetto ammesso che non si impauriscono e perdono anche il campionato.
+
+[post_text_191]
+no, i 9 punti ci stanno tutti, specie sulla juve, all'inter si sente la mancanza di vieira, di uno che fa' girare palla, un regista di centrocampo, oppure un fantasista alla trequarti
+
+[post_text_192]
+Ciao a tutti, è parecchio che non lascio un messaggio su questo forum, ne approfitto oggi, un giorno molto importante per me. Innanzitutto vorrei fare i complimenti a Nicola Melillo,per come si sta impegnando durante questo inverno, e in generale a tutta l'Ars, che continua a crescere e migliorare ogni anno. Per quanto mi riguarda, dopo 6 mesi di stop a causa di un infortunio al ginocchio, oggi ritornerò a correre, in compagnia dei miei mitici compagni di viaggio. La primavera è alle porte..si inizia a programmare le nuova stagione, e voglio approfittarne per fare un in bocca al lupo a tutti, augurando inoltre una stagione sportiva coi fiocchi a tutti gli interessati. W l' Ars.
+&nbsp;
+Saluti
+&nbsp;
+&nbsp;
+
+[post_text_193]
+Grande Salvatore, questa tua grinta aiuta anche me ad uscirne fuori  più conbattente che mai...
+
+[post_text_194]
+VIVA GIOCOSCIOLTO!
+
+[post_text_195]
+oggi grande allenamento cimitero-ponte sele solo il ritorno tempo 18 minuti ci stiamo allenando con gaetano rosania in maniera costante .
+
+[post_text_196]
+mi sa che domenica a roma farà un po'freddo
+
+[post_text_197]
+e a quanto pare io mi allenerò a caposele sotto la neve...hihihihi
+
+[post_text_198]
+Bravo Presidèèèèèèè, bell'articolo!
+
+[post_text_199]
+volevo fare una riflessione sulla gestione della piscina di caposele, quando vi era la precedente amministrazione il sign. alfonso nesta oggi direttore tecnico in piscina criticava aspramente l' operato della gestione zarra in tutto come mai adesso che e' lui ad organizzare le attivita' non e' stato neanche capace di organizzare un corso per assistenti bagnanti dove su 700 iscritti in piscina doveva riuscire semplicemente a convincere 12-15 atleti a partecipare al sopra citato corso ed invece del corso ancora nessuna traccia, io parlo cosi' in quanto ero seriamente intenzionato a conseguire il brevetto.caro nesta prima di criticare fatti un esame di coscienza non e' possibile mettere un manifesto del corso a febbraio e convocare le persone interessate ad aprile alla riunione informativa che poi si' e' rilevata un nulla di fatto in quanto non arrivevamo  nanche in 10.e poi non dimentichiamoci che quest' anno le attivita' sono partite in netto ritardo per questioni di antipatia tra l' assessore malanga vito e antonio zarra il quale ha fatto di tutto per toglierlo ed affidarla ad una persona di lioni.caro alex gira la mia e-mail al consigliere cirillo e all' assessore allo sport tommaso cibellis in quanto devono sapere la verita'.

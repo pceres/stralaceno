@@ -130,6 +130,17 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 116::saggio::14/10/2007 19.35.20::visible
 117::In nome dell'Ars::15/10/2007 16.40.04::visible
 118::saggio::15/10/2007 21.04.18::visible
+119::NIC.M::20/08/2008 16.52.46::visible
+120::nic.m::30/08/2008 02.48.27::visible
+121::Angelo::30/08/2008 08.53.04::visible
+122::nic.m::30/08/2008 12.19.14::visible
+123::Angelo::03/09/2008 16.03.37::visible
+124::Angelo::03/09/2008 16.07.20::visible
+125::nic.m::04/09/2008 19.21.16::visible
+126::Angelo::05/09/2008 15.07.50::visible
+127::lupa::07/09/2008 17.00.57::visible
+128::lupa::07/09/2008 17.02.03::visible
+129::Paolo Viscardi::28/09/2008 23.24.43::visible
 
 [post_text_0]
 Aspettiamo le vostre dichiarazioni di sfida...
@@ -734,3 +745,42 @@ Tu ne vai a fui e ne vai nguoddo...quistu si che è nu problema....!!
 
 [post_text_118]
 &gt;X saggio<br>&gt; <br>&gt;Tu ne vai a fui e ne vai nguoddo...quistu si che è nu problema....!!<br>&gt;<br><br>i vacu 'nguoddu, e tu tieni la cora r paglia
+
+[post_text_119]
+CARO EX PRES. D' AURIA  QUEST' ANNO A LACENO E' ARRIVATO IL MOMENTO DELLA SCONFITTA SARAI BATTUTO DA MOLTI NEMICI SPORTIVI FORZA RAGAZZI ALEX RUSSOMANNO PRESIDENTE DELL' ARS.
+
+[post_text_120]
+EBBENE SI DOPO MOLTI ANNI di purgatorio e' arrivato il momento del trionfo in un sol boccone battuti nicola d' auria, donatello cirillo, angelo ceres, gaetano rosania, gianni sozio, gerardo monteverde.E' STATO TUTTO FANTASTICO ADESSO TOCCA A VOI MIGLIORARE il mio GRANDE 23 e 35.PROVATECI!!COMLPIMENTI ALL' ARS E SOPRATTUTTO AD ALEX RUSSOMANNO PER LA TENACIA E CAPACITA' DI ORGANIZZAZIONE DELLA MANIFESTAZIONE.
+
+[post_text_121]
+Caro Nicola il mio personale è 23,34 per un secondo ma sei battuto!!!!!!!
+
+[post_text_122]
+non ti appigliare ai secondi tu non sai che se si corre una stralaceno su 2 giri per un totale 11 km tu da me prendi almeno 3 minuti la tua fortuna e' che per fare la stralaceno non e' necessario un grande allenamento altrimenti non so se partecipavi!!la mia e' una grande vittoria perche' voi eravate almeno in 3 a rincorrermi ma purtroppo vi ho lasciato solo le briciole e come sono belli quei 11 secondi di distacco e ti e' andata anche bene.lo sport e' sacrificio che credevi che era sempre PASQUA!!
+
+[post_text_123]
+&gt;non ti appigliare ai secondi tu non sai che se si corre una stralaceno su 2 giri per un totale 11 km tu da me prendi almeno 3 minuti la tua fortuna e' che per fare la stralaceno non e' necessario un grande allenamento altrimenti non so se partecipavi!!la mia e' una grande vittoria perche' voi eravate almeno in 3 a rincorrermi ma purtroppo vi ho lasciato solo le briciole e come sono belli quei 11 secondi di distacco e ti e' andata anche bene.lo sport e' sacrificio che credevi che era sempre PASQUA!!<br>&gt;<br><br>Giusta affermazione, probabilmente non avrei partecipato alla stralaceno se si fosse svolta su due giri. Così come non volevo partecipare all'edizione di quest'anno per le mie pessime condizioni di allenamento e pertanto il mio 23,46 è un risultato ecellente frutto di una grande sofferenza in gara. Pertanto questi pochi secondi di distacco non possono farti gioire così tanto anzi devi prenderla come una sonora sconfitta, psicologicamente ti ritengo battuto e anche di molto!
+Lo spirito sportivo e di sacrificio mi ha indotto a fare la gara e anche se si fosse disputata su due giri avrei gareggiato, probabilmente sarei arrivato per Pasqua al traguardo ma questo è il mio intendo partecipare senza particolari ambizioni e soprattutto senza essere "fanatico". Ci scontreramo l'anno prossimo basta che farò una settimana intensa di allenamento e ti batterò facilmente nonostante il tuo anno intero di preparazione!
+
+[post_text_124]
+&gt;>non ti appigliare ai secondi tu non sai che se si corre una stralaceno su 2 giri per un totale 11 km tu da me prendi almeno 3 minuti la tua fortuna e' che per fare la stralaceno non e' necessario un grande allenamento altrimenti non so se partecipavi!!la mia e' una grande vittoria perche' voi eravate almeno in 3 a rincorrermi ma purtroppo vi ho lasciato solo le briciole e come sono belli quei 11 secondi di distacco e ti e' andata anche bene.lo sport e' sacrificio che credevi che era sempre PASQUA!!<br>&gt;<br><br>Giusta affermazione, probabilmente non avrei partecipato alla stralaceno se si fosse svolta su due giri. Così come non volevo partecipare all'edizione di quest'anno per le mie pessime condizioni di allenamento e pertanto il mio 23,46 è un risultato ecellente frutto di una grande sofferenza in gara. Quindi questi pochi secondi di distacco non possono farti gioire così tanto anzi devi prenderla come una sonora sconfitta, psicologicamente ti ritengo battuto e anche di molto!
+Lo spirito sportivo e di sacrificio mi hanno indotto a fare la gara e anche se si fosse disputata su due giri avrei gareggiato, probabilmente sarei arrivato per Pasqua al traguardo ma questo è il mio intendo partecipare senza particolari ambizioni e soprattutto senza essere "fanatico". Ci scontreramo l'anno prossimo basta che farò una settimana intensa di allenamento e ti batterò facilmente nonostante il tuo anno intero di preparazione!
+&nbsp;
+
+[post_text_125]
+non si tratta di essere fanatico la vera gara non e' la stralaceno come mai non vieni mai negli altri paesi a gareggiare l' anno prossimo puoi anche battermi ma non perche' sei piu' forte ma in quanto la stralaceno non e' una gara veritiera sul reale stato di forma di ognuno sono anni che insisto su questo tasto.
+
+[post_text_126]
+Come ti ho già detto partecipo solo per spirito sportivo.
+
+[post_text_127]
+&gt;Come ti ho già detto partecipo solo per spirito sportivo.<br>&gt;<br><br>impara a saper perdere
+&nbsp;
+
+[post_text_128]
+impara a saper perdere
+
+[post_text_129]
+Ciao ragazzi, venerdi sera si terrà una cena sociale ARS a casa di Gerardo Martino in contrada buoninventre. Sono invitati tutti i soci, e tutti gli interessati all'associazione; per trascorrere una serata in compagnia e per discutere su varie questioni riguardante l'associazione ed in particolar modo l'organizzazione della squadra podistica per tesseramento 2009. Saluti
+&nbsp;
+Paolo

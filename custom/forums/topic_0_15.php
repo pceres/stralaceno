@@ -120,6 +120,10 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 106::da CorriereIrpinia.it::17/04/2008 10.00.32::visible
 107::Info::18/04/2008 10.44.27::visible
 108::info::18/04/2008 11.35.32::visible
+109::nic.m::11/11/2008 16.56.41::visible
+110::cuore::16/11/2008 16.56.17::visible
+111::nic m.::28/11/2008 00.31.48::visible
+112::attento osservatore::16/02/2009 00.22.39::visible
 
 [post_text_0]
 Riceviamo da CLEON.REN e pubblichiamo:
@@ -1130,3 +1134,15 @@ LISTA DEI GRILLI PARLANTI 2 (0,087%)
 M.E.D.A. 1 (0,043%)
 &nbsp;
 Totale 2.286
+
+[post_text_109]
+i nostri amici del cuore si sono prefissati il ritorno al passato altro che fantomatico cambiamento!!piscina chiusa e informagiovani chiuso strutture sportive abbandonate discorso sullo sviluppo del turismo ancora in alto mare progetto parco fluviale stravolto e tanto altro.a voi le dovute osservazioni.
+
+[post_text_110]
+nico il tempo della cuccagna è finito
+
+[post_text_111]
+adesso il tempo delle chiacchiere e' finito inizia l' era durissima per il cuore.ma qualche piccola idea per caposele la riuscite a partorire o vi piace solo salire le scale del municipio!!in 30 anni di politichetta locale non si e' mai vista una compagine cosi' deludente da tutti i punti di vista.le elezioni non si vincono solo per protagonismo personale !!!ma un piccolo programma dove lo si puo' consultare forse presso l' ospedale di OLIVETO CITRA e poi sembra che per visionare quelle poche delibere e atti che fate bisogna sudare le proverbiali sette camice la cosa pubblica non e' una partita di pallone.
+
+[post_text_112]
+ma quale puc stasera la gente di caposele ha capito che anche questo tanto atteso strumento urbanistico e' pieno di errori e superficialita' la politica non si fa per interessi personali con voi stiamo ritornando indietro di molti anni altro che decantato cambiamento avete solo separato un paese per il gusto di vincere senza neanche capire e sapere come si amministra democraticamente siete e resterete solo un gruppo di mediocri.
