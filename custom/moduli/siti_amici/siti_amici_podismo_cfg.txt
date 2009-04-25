@@ -14,7 +14,7 @@
 #	<webmaster>	: persona che cura il sito (o, cio' che e' lo stesso, webmaster!)
 #
 [elenco_siti]
-1::RunnersBaronia::Runners Baronia::http://www.runnersbaronia.it::http://www.runnersbaronia.it/logo.jpg::Runners Baronia::Webmaster
+1::RunnersBaronia::Runners Baronia::http://www.runnersbaronia.it::http://www.runnersbaronia.it/images/Logo.gif::Runners Baronia::Webmaster
 
 
 #
