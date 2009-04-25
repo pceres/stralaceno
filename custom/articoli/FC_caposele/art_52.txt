@@ -1,0 +1,30 @@
+Autore::
+Titolo::I giocatori - stagione 2008/09
+--- Begin body ---
+<br>
+<b>Campionato Regionale II Categoria Campania</b><br><br>
+Stagione 2008/09 - Elenco Giocatori FC Caposele -
+<br><br>
+D'Elia Antonio <br>
+Sista Benito<br>
+Malanga Valentino<br>
+Paolercia Giovanni<br>
+Malanga Giuseppe<br>
+Grasso Gerardo<br>
+Zarra Alessio<br>
+Feniello Rocco<br>
+Viscido Gerardo<br>
+Merola Lorenzo<br>
+Ciccone Francesco<br>
+Lardieri Felice<br>
+Monteverde Marco<br>
+Ceres Francesco<br>
+Nesta Gerardo<br>
+Monteverde Gerardo<br>
+Cibellis Mario<br>
+Cibellis Thomas<br>
+Galdi Prezioso<br>
+Merola Gelsomino<br>
+Cuozzo Gerardo<br>
+Grasso Ermanno<br><br>
+--- End body ---

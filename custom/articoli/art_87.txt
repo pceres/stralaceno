@@ -1,0 +1,16 @@
+Autore::ARS
+Titolo::Allenamento settimanale in pista
+--- Begin body ---
+<br>
+Gli Amatori Running Sele invitano tutti gli interessati a partecipare ogni GIOVEDI' alle ore 18.30, per il periodo MAGGIO – SETTEMBRE 2009, 
+alla seduta di allenamento presso la pista di atletica di Calabritto. <br>
+<br>
+Viene così fissato un ritrovo settimanale, dove ognuno potr&agrave; calibrare il proprio allenamento secondo le personali esigenze.
+<br><br>
+Il Responsabile della Squadra Podistica Agonistica SAVERIO PERNA<br>
+Il Responsabile Attività di Base SALVATORE MEROLA
+<p>&nbsp;
+<div align="center">
+<img id="" src="%file_root%custom/album/varie/pista.jpg" alt="" border="0" width="340">
+</div><br>
+--- End body ---

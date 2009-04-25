@@ -1,0 +1,18 @@
+Autore::Ars
+Titolo::Podistica Anspi a Melito Irpino
+--- Begin body ---
+<br>
+Melito Irpino ha ospitato il 13 settembre 2008 la gara "Podistica Anspi" di km 7,5.<br>
+Circuito cittadino da ripetere 4 volte, con leggeri saliscendi ma senza grosse variazioni altimetriche.<br><br>
+135 gli iscritti, 119 giunti al traguardo, 5 i rappresentanti degli Amatori Running Sele.<br>
+Da segnalare l'ottavo posto assoluto di Francesco Ceres e il terzo posto, nella categoria MM45, di Saverio Perna.
+<br><br>
+<div align="center">
+<img id="Melito_2008" src="%file_root%custom/album/Melito_08/mel9.jpg" alt="" border="0" width="400">
+</div>
+<br>
+La classifica la trovate <a href="download.php?resource_type=file&amp;resource_id=file_melito_08">qui</a>.
+<br><br>
+Le foto della corsa, dal sito Podistidoc.it, le trovate <a href="album.php?anno=Melito_08">qui</a>
+<br>
+--- End body ---

@@ -1,0 +1,14 @@
+Autore::ARS
+Titolo::Il ritorno
+--- Begin body ---
+<br>
+Marzo 2009. 
+Dopo una lunga assenza, dovuta ad un serio infortunio 
+al ginocchio sinistro, riprende ad allenarsi Salvatore Merola.
+<br>
+Un bentornato da tutti gli amatori running sele.
+<br><br>
+<div align="center">
+<img id="" src="%file_root%custom/album/ars/SaMe_stil.jpg" alt="" border="0" width="250">
+</div><br>
+--- End body ---

@@ -1,0 +1,31 @@
+Autore::
+Titolo::Lungo Sele 2008
+--- Begin body ---
+<br>
+<div align="center">
+<img id="Stra_2008" src="%file_root%custom/album/varie/LSele.jpg" alt="" border="0" width="535">
+</div>
+<br>
+Dichiarazione dell’’organizzatore della gara Nicola Melillo:<br>
+<i>
+Assumo le mie responsabilit&agrave; se la gara, inizialmente concordata per giorno 25 ottobre, poi disputata il 1 novembre alle ore 10.00, non ha riscosso molto successo. Infatti solo quattro sono stati i partecipanti, anche a causa dell’ora mattutina e del giorno festivo. 
+<br>
+A dire il vero molti potenziali concorrenti avevano impegni personali, ma non posso esimermi dallo stigmatizzare l’assenza ingiustificata di chi,  nonostante avesse con me condiviso da subito la lodevole iniziativa, si &egrave; tirato indietro inspiegabilmente, sia come atleta che come collaboratore.
+<br>
+Passando ad esaminare la gara, grazie alle condizioni climatiche tutto sommato favorevoli, abbiamo percorso i quasi 10 km con prestazioni cronometriche accettabili. <br>
+Il percorso della Lungo Sele si &egrave; dimostrato valido tecnicamente.<br>
+Un ringraziamento particolare all’amico Gianni Cicerano, che &egrave; venuto direttamente da Napoli, per disputare con spirito gioviale la gara.
+</i>
+<br><br>
+Per la cronaca, questi i tempi registrati: Cicerano Gianni 57’00’’, Donatello Cirillo 49’25’’, Nicola Melillo 49’25’’, Alessandro Russomanno 47’ 13’’.
+<br>
+<br>
+<div align="center">
+<img id="Laceno" src="%file_root%custom/album/ars/lungosele.jpg" alt="" border="0" width="250">
+</div>
+<br>
+<div align="center">
+<img id="Laceno" src="%file_root%custom/album/ars/lungosele2.jpg" alt="" border="0" width="250">
+</div>
+<br>
+--- End body ---

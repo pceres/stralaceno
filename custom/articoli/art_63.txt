@@ -1,0 +1,21 @@
+Autore::Ars
+Titolo::X Notturna Sianese
+--- Begin body ---
+<br>
+Per il secondo anno consecutivo gli Amatori Running Sele si sono recati a Siano 
+per partecipare alla Notturna Sianese, gara podistica di 10 km disputata quest'anno il 21 giugno.
+<br>
+La corsa, ricca di leggeri sali e scendi, che si snoda tra le vie del paese delle ciliegie,
+&egrave; risultata molto dura per tutti gli atleti, grazie anche alla serata decisamente afosa.
+<br><br>
+Buona prestazione degli atleti Ars, con significativi piazzamenti sia nella classifica individuale che a squadre.
+<br><br>
+<div align="center">
+<img id="Stabia_2008" src="%file_root%custom/album/Siano_08/si17.jpg" alt="" border="0" width="500">
+</div>
+<br><br>
+La classifica individuale e a squadre la trovate <a href="download.php?resource_type=file&amp;resource_id=file_siano_08">qui</a>.
+<br><br>
+Le foto della corsa le trovate <a href="album.php?anno=Siano_08">qui</a>  <i>(dal sito podistidoc.it).</i>
+<br><br>
+--- End body ---

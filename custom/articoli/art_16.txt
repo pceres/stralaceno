@@ -1,73 +1,13 @@
-Autore::Pasquale Ceres
-Titolo::Foto ArsWeb nov.06
+Autore::
+Titolo::ARS Amatori Running Sele
 --- Begin body ---
 <br>
-Ecco l'analisi, aggiornata al 16 novembre 2006, delle foto piu' cliccate su ArsWeb:
+L’Associazione &egrave; apolitica e non ha scopo di lucro.
 <br><br>
-<div align="center">
-<TABLE>
-<CAPTION>Classifica foto ArsWeb aggiornata al 16 Novembre 2006</CAPTION>
-<TR id="row1">
-   <TD>
-	<a href="album.php?anno=Nusco_06">Nusco_06</a> - 20 volte<br>
-	<a href="album.php?anno=Nusco_06">
-		<img id="img_1" src='custom/album/Nusco_06/DSCF0692.1-thumb.jpg' border='0' width='133' alt="(DSCF0692.1-thumb.jpg) nusco2006"/>
-	</a>
-   </TD>
-   <TD>
-	<a href="album.php?anno=Roccadaspide_06">Roccadaspide_06</a> - 18 volte<br>
-	<a href="album.php?anno=Roccadaspide_06">
-		<img id="img_2" src='custom/album/Roccadaspide_06/Roccadasp_041_1-thumb.jpg' border='0' width='133' alt="(Roccadasp_041_1-thumb.jpg) Roccadaspide_06"/>
-   	</a>
-   </TD>
-    <TD>
-	<a href="album.php?anno=Nusco_06">Nusco_06</a> - 14 volte<br>
-	<a href="album.php?anno=Nusco_06">
-		<img id="img_3" src='custom/album/Nusco_06/DSCF0704-thumb.jpg' border='0' width='133' alt="(DSCF0704-thumb.jpg) nusco2006"/>
-	</a>
-   </TD>
-</TR>
-<TR id="row2">
-   <TD>
-	<a href="album.php?anno=Nusco_06">Nusco_06</a> - 14 volte<br>
-	<a href="album.php?anno=Nusco_06">
-		<img id="img_4" src='custom/album/Nusco_06/DSCF0703-thumb.jpg' border='0' width='133' alt="(DSCF0703-thumb.jpg) nusco2006"/>
-	</a>
-   </TD>
-   <TD>
-	<a href="album.php?anno=Roccadaspide_06">Roccadaspide_06</a> - 13 volte<br>
-	<a href="album.php?anno=Roccadaspide_06">
-		<img id="img_5" src='custom/album/Roccadaspide_06/Roccadasp_049_1-thumb.jpg' border='0' height='100' alt="(Roccadasp_049_1-thumb.jpg) Roccadaspide_06"/>
-	</a>
-   </TD>
-   <TD>
-	<a href="album.php?anno=Nusco_06">Nusco_06</a> - 13 volte<br>
-	<a href="album.php?anno=Nusco_06">
-		<img id="img_6" src='custom/album/Nusco_06/DSCF0718-thumb.jpg' border='0' height='133' alt="(DSCF0718-thumb.jpg) nusco2006"/>
-	</a>
-   </TD>
-</TR>
-<TR id="row3">
-   <TD>
-	<a href="album.php?anno=Roccadaspide_06">Roccadaspide_06</a> - 12 volte<br>
-	<a href="album.php?anno=Roccadaspide_06">
-		<img id="img_7" src='custom/album/Roccadaspide_06/Roccadasp_043.1-thumb.jpg' border='0' height='100' alt="(Roccadasp_043.1-thumb.jpg) Roccadaspide_06"/>
-	</a>
-   </TD>
-   <TD>
-	<a href="album.php?anno=Roccadaspide_06">Roccadaspide_06</a> - 11 volte<br>
-	<a href="album.php?anno=Roccadaspide_06">
-		<img id="img_8" src='custom/album/Roccadaspide_06/Roccadasp.051.1-thumb.jpg' border='0' height='100' alt="(Roccadasp_051.1-thumb.jpg) Roccadaspide_06"/>
-	</a>
-   </TD>
-   <TD>
-	<a href="album.php?anno=Nusco_06">Nusco_06</a> - 11 volte<br>
-	<a href="album.php?anno=Nusco_06">
-		<img id="img_9" src='custom/album/Nusco_06/DSCF0722-thumb.jpg' border='0' width='133' alt="(DSCF0722-thumb.jpg) nusco2006"/>
-	</a>
-   </TD>
-</TR>
-</TABLE>
-<br>
-</div>
+Essa si propone di:
+<br>-promuovere e diffondere una corretta pratica dello sport. Per il raggiungimento di tale scopo l’Associazione potr&agrave; organizzare momenti di attivit&agrave; sportiva e manifestazioni di vario tipo, con particolare riguardo al risvolto sociale ed educativo;
+<br>-intraprendere iniziative di natura culturale al fine di approfondire il significato dell’attività sportiva nelle sue diverse interpretazioni;
+<br>-attuare servizi e strutture per lo svolgimento delle attività fisiche ed intellettuali;
+<br>-favorire contatti fra soci aventi specifici interessi culturali e sportivi, costituendo sezioni per le attività di maggior rilievo;
+<br>-aderire a qualsiasi attivit&agrave; che direttamente, tramite delibera del Consiglio Direttivo, sia giudicata idonea al raggiungimento degli scopi  sociali.<br><br>
 --- End body ---

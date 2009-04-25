@@ -1,0 +1,26 @@
+Autore::
+Titolo::3 giri a Laceno in autunno
+--- Begin body ---
+<br>
+19.10.2008: tre giri a Laceno in autunno...<br>
+<br>
+<div align="center">
+<img id="Laceno" src="%file_root%custom/album/ars/3gL_1.jpg" alt="" border="0" width="500">
+</div>
+<br>
+<br>
+<div align="center">
+<img id="Laceno" src="%file_root%custom/album/ars/3gL_2.jpg" alt="" border="0" width="500">
+</div>
+<br>
+<br>
+<div align="center">
+<img id="Laceno" src="%file_root%custom/album/ars/3gL_3.jpg" alt="" border="0" width="500">
+</div>
+<br>
+<br>
+<div align="center">
+<img id="Laceno" src="%file_root%custom/album/ars/3gL_4.jpg" alt="" border="0" width="500">
+</div>
+<br><br>
+--- End body ---

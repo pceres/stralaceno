@@ -1,0 +1,22 @@
+Autore::Ars
+Titolo::Maratona di Roma 2009
+--- Begin body ---
+<br>
+Roma, 22.03.2009
+<br><br>
+Prestazione soddisfacente per i due rappresentanti degli Amatori Running Sele alla XV Maratona di Roma.
+<br>
+Saverio Perna ha conculso i canonici 42,195 km in 3 ore e 28 min. e 19 sec. (posizione 1.894), Donato Ceres in 4 ore 5 min. e 34 sec. (posizione 5.896).<br>
+Si ricorda che gli iscritti risultavano pari a 14.894 con 11.062 atleti giunti regolarmente al traguardo.
+<br>
+Alessandro Russomanno ha portato a termine la mezza maratona (km 21,197).<br><br>
+Da segnalare anche la partecipazione alla Stracittadina di km 4,2195 di Sandro Russomanno di Ger.<br>
+<br>
+<b>L'album fotografico lo trovate <a href="album.php?anno=Roma_09">qui</a>.<br></b>
+<p>&nbsp;
+<div align="center">
+<img id="" src="%file_root%custom/album/Roma_09/Ro09_1.jpg" alt="" border="0" width="500">
+</div>
+<i>Nella foto, scattata dal Presidente accompagnatore Paolo Viscardi, il passaggio di Saverio Perna al 39esimo Km (Fontana di Trevi)</i>
+<br>
+--- End body ---

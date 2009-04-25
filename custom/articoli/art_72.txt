@@ -1,0 +1,12 @@
+Autore::ARS
+Titolo::Visite Mediche 
+--- Begin body ---
+<br>
+<b>Le visite mediche si svolgeranno MERCOLEDI' 10 DICEMBRE presso medico dello sport ad EBOLI nel pomeriggio.</b>
+<br><br>
+La partenza &egrave; fissata per le 16.30 in piazza Sanità. Per gli amici di Calabritto, l'appuntamento &egrave; alle 16.45 a Ponte Sele.
+<br><br>
+<div align="center">
+<img id="CSEN" src="%file_root%custom/album/ars/ars.jpg" alt="" border="0" width="150">
+</div>
+--- End body ---

@@ -1,76 +1,12 @@
 Autore::Ale Russomanno
-Titolo::Risultati e Classifica III cat. 2007/08
+Titolo::Classifica finale III Categoria 2007/08
 --- Begin body ---
-<br>
-<div align="center">
-<!-- 
-	inizio tabella risultati giornata x 
--->
-	Risultati 26<sup>a</sup> giornata (24-25/05/2008)
-<table class="tabella" style="font-size:13.0pt;">
-<tbody><tr><td align="left"><table>
-<tbody>
-<!-- match # 1 -->
-<tr>
-	<td> &nbsp;LA LONGOBARDA</td>
-	<td> &nbsp;-&nbsp; </td>
-	<td>CAPOSELE</td>
-	<td>4-1</td>
-</tr>
-<!-- match # 2 -->
-<tr>
-	<td> &nbsp;MORRA DE SANCTIS</td>
-	<td> &nbsp;-&nbsp; </td>
-	<td>CASTEL BARONIA</td>
-	<td>3-0</td>
-</tr>
-<!-- match # 3 -->
-<tr>
-	<td> &nbsp;REAL S.ANDREA CONZA</td>
-	<td> &nbsp;-&nbsp; </td>
-	<td>LUPI TREVICO</td>
-	<td>5-1</td>
-</tr>
-<!-- match # 4 -->
-<tr>
-	<td> &nbsp;SPORTING EVER GR.</td>
-	<td> &nbsp;-&nbsp; </td>
-	<td>S.C. NUSCO</td>
-	<td>2-6</td>
-</tr>
-<!-- match # 5 -->
-<tr>
-	<td> &nbsp;CARIFE</td>
-	<td> &nbsp;-&nbsp; </td>
-	<td>VALLATESE </td>
-	<td>1-1</td>
-</tr>
-<!-- match # 6 -->
-<tr>
-	<td> &nbsp;SAN SOSSIO</td>
-	<td> &nbsp;-&nbsp; </td>
-	<td>VALLESACCARDA</td>
-	<td>2-1</td>
-</tr>
-<!-- match # 7 -->
-<tr>
-	<td> &nbsp;CASABIANCHI TREVICO</td>
-	<td> &nbsp;-&nbsp; </td>
-	<td>VIRTUS CONZA</td>
-	<td>2-0</td>
-</tr>
-</tbody>
-</table></td></tr></tbody></table>
-<!-- 
-	fine tabella risultati giornata x 
--->
-</div>
 <br>
 <div align="center">
 <!-- 
 	inizio tabella classifica
 -->
-	Classifica Girone F
+	<b>Girone F</b>
 <table class="tabella" style="font-size:13.0pt;">
 <tbody><tr><td><table>
 <thead><tr>

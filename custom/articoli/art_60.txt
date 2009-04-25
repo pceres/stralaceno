@@ -1,0 +1,17 @@
+Autore::Ars
+Titolo::XXII Notturna città di Stabia
+--- Begin body ---
+<br>
+La ventiduesima edizione della "Notturna città di Stabia" di 10 km a Castellammmare di Stabia (Na) si è disputata sabato 31 maggio 2008 al calar della sera.<br>
+Percorso interamente pianeggiante, lunghi rettilinei e caldo afoso.<br><br>
+693 podisti sono giunti al traguardo. Undici sono stati gli atleti che hanno rappresentato gli Amatori Running Sele: Gelsomino Merola, Saverio Perna, Alessandro Russomanno, Paolo Viscardi, Rocco Feniello, Salvatore Merola, Armando Grasso, Donatello Cirillo, Donato Ceres, Gaetano Rosania e Tommaso Cibellis.<br>
+<br>
+La classifica individuale e a squadre la trovate <a href="download.php?resource_type=file&amp;resource_id=file_stabia_08">qui</a>.
+<br><br>
+<div align="center">
+<img id="Stabia_2008" src="%file_root%custom/album/Stabia_08/stab4.jpg" alt="" border="0" width="340">
+</div>
+<br><br>
+Le foto della corsa le trovate <a href="album.php?anno=Stabia_08">qui</a>  <i>(dal sito podistidoc.it).</i>
+<br><br>
+--- End body ---

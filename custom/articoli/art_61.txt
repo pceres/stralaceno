@@ -1,0 +1,72 @@
+Autore::
+Titolo::Stralaceno 2008
+--- Begin body ---
+<br>
+Il 29 agosto 2008 si &egrave; svolta la XX edizione della Stralaceno, con 64 caposelesi al via.
+<br><br>
+Una ristretta selezione di foto con commento &egrave; visibile sul sito www.stralaceno.cjb.net
+<br>
+<br>
+L'album con le altre foto della manifestazione lo trovate <a href="album.php?anno=Stra_08">qui</a>. <i>(Inserite nuove foto il 24 ottobre 2008)</i>
+<br>
+<br>
+<div align="center">
+<img id="Stra_2008" src="%file_root%custom/album/Stra_08/s08_94.jpg" alt="" border="0" width="500">
+</div>
+<br>
+<!--
+<br>
+La XX edizione della Stralaceno si terr&agrave; venerd&igrave; 29 agosto 2008.<br>
+<br>Il raduno e la conferma
+dell’iscrizione sono previsti a
+partire dalle ore 17.00 nell’area
+antistante l’hotel 4 camini; il “via”
+per le 18.15, indipendentemente
+dalle condizioni meteorologiche.
+Tutti i caposelesi che vorranno
+partecipare alla manifestazione
+saranno ben accetti purché
+<b>animati da autentico spirito
+sportivo</b>.<br>
+I corridori percorreranno
+l’itinerario previsto assumendo
+personalmente la responsabilità
+per malori, infortuni ed altri eventuali 
+problemi. Per i minorenni
+si richiede il consenso scritto
+dei genitori; saranno ammessi tutti
+i nati entro il 31/12/1993.<br><br>
+Ricordiamo che <b>la Stralaceno è
+un evento di sport attivo e non
+di spettacolo</b>. In particolare chi
+è interessato a seguire gli
+sviluppi della corsa lungo il
+percorso, essendo vietato l’uso
+dell’auto (fatta eccezione per
+anziani, invalidi ed ammalati), 
+è pregato
+farlo con uno dei seguenti
+mezzi: a piedi (anche solo per
+qualche tratto, in prospettiva di
+una futura partecipazione...); in
+bicicletta; a cavallo etc.
+<br><br>
+&Egrave; disponibile, in numero limitato,
+la maglietta dell’edizione 2008, ritirabile,
+dopo aver sottoscritto l’impegno di
+partecipazione,
+contattando gli Amatori
+Running Sele.
+<br><br>
+Dato l’evolversi della manifestazione,
+l’organizzazione necessita di
+persone disposte a fornire suggerimenti 
+per migliorare la corsa e ad offrire
+propria collaborazione <i>(servizio
+d’ordine, addetti alla logistica,
+cronometristi, giudice di gara etc.)</i><br>
+<br>
+Notizie, classifiche e curiosit&agrave; su <b>www.stralaceno.cjb.net</b>
+<br><br>
+-->
+--- End body ---

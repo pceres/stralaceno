@@ -1,0 +1,17 @@
+Autore::Ars
+Titolo::IV Memorial P. Laureana
+--- Begin body ---
+<br>
+Anche il nostro Francesco Ceres tra i protagonisti della gara podistica IV Memorial P. Laureana - Corri
+al Castello - di km 8 disputata ad Agropoli il 13 luglio 2008.<br><br>
+La classifica la trovate <a href="download.php?resource_type=file&amp;resource_id=file_agropoli_lau_08">qui</a>.
+<br><br>
+<div align="center">
+<img id="Agr_2008" src="%file_root%custom/album/ars/Cast1.jpg" alt="" border="0" width="500">
+</div>
+<br><br>
+<div align="center">
+<img id="Agrop_2008" src="%file_root%custom/album/ars/Cast2.jpg" alt="" border="0" width="500">
+</div>
+<br>
+--- End body ---

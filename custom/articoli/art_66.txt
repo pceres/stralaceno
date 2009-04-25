@@ -1,0 +1,16 @@
+Autore::Ars
+Titolo::II podistica di Carillia
+--- Begin body ---
+<br>
+Trasferta a Borgo Carillia -Altavilla Silentina (Sa)- per gli Amatori Running Sele il 27 luglio 2008.
+<br><br>
+Il percorso, quasi interamente pianeggiante, di 9 km, si &egrave; snodato per le vie del borgo e la campagna cirocostante.
+<br>
+<br>
+<div align="center">
+<img id="Stabia_2008" src="%file_root%custom/album/Carillia_08/car10.jpg" alt="" border="0" width="500">
+</div>
+<br>
+Le foto della corsa, scattate da Luciano Viscido, le trovate <a href="album.php?anno=Carillia_08">qui</a>
+<br>
+--- End body ---

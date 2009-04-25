@@ -1,0 +1,14 @@
+Autore::ARS
+Titolo::Allenamento montano di gruppo
+--- Begin body ---
+<br><i>
+Si avvisa che mercoledì 15 aprile 2009, si terr&agrave; un allenamento podistico montano di gruppo, che seguir&agrave; 
+il seguente percorso: Castagneta, Oppido Preta, Gavitoni, Fontana “Cirasulu”, Castagneta.<br>
+Il ritrovo per gli interessati &egrave; fissato per le ore 17.00 in piazza Sanit&agrave; a Caposele.</i>
+<br><br>
+Hanno partecipato all'allenamento di km 8,5: Saverio Perna, Salvatore Merola, Paolo Viscardi, Donato Ceres, Nicola D'Auria, Alessandro Russomanno, Mario Di Trolio, Pasquale Ceres (dal km 4,650), Pasquale Russomanno (dal km 4,650). <br><br>
+<p>&nbsp;
+<div align="center">
+<img id="" src="%file_root%custom/album/varie/gav.jpg" alt="faggeta località Gavitoni" border="0" width="500">
+</div><br>
+--- End body ---

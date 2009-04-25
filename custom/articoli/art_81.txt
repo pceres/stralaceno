@@ -1,0 +1,21 @@
+Autore::ARS
+Titolo::Roma, arriviamo!
+--- Begin body ---
+<p>&nbsp;
+<div align="center">
+<img id="" src="%file_root%custom/album/varie/logo_roma_09.jpg" alt="logo roma 09" border="0" width="220">
+</div>
+<br>Il 22 marzo 2009 alle ore 9.00 si correr&agrave;, con partenza da Via dei Fori Imperiali (colosseo),  la quindicesima edizione della maratona di Roma.<br>
+<br>
+Sono 14.894 gli iscritti provenienti da 78 nazioni, 8.901 italiani e 5.993 stranieri, dati che fanno della maratona capitolina l’evento sportivo pi&ugrave; partecipato in Italia in assoluto, e una tra le prove sulla distanza pi&ugrave; significative al mondo. La gara sar&agrave; ripresa come tradizione dalla RAI, con telecronaca diretta su RAI 3.<br>
+Abbinata alla prova competitiva di 42,195 chilometri, la Roma Fun Run di 4,2195 km, il cui successo progressivo &egrave; tale da rendere ipotizzabile la cifra di oltre 85.000 partecipanti, persone di ogni et&agrave;, al via dai Fori Imperiali alle 9.15. Ciascuno per realizzare il proprio sogno, come recita lo slogan della maratona 2009 “Start your dreams”. 
+<br><br>
+Per la prima volta in assoluto una associazione sportiva caposelese prender&agrave; parte ufficialmente alla gara: due infatti gli atleti iscritti che rappresenteranno l’ARS Amatori Running Sele: Donato Ceres, che partir&agrave; con il pettorale n.12506 e Saverio Perna con il n. 12501.<br>
+Altri atleti dell’ARS parteciperanno alla manifestazione, disputando solo una parte della maratona.
+<br><br>
+<i>Tutte le informazioni sulla gara le trovate sul sito <a href="http://www.maratonadiroma.it/">maratonadiroma.it</a>
+<br><p>&nbsp;
+<div align="center">
+<img id="" src="%file_root%custom/album/varie/Roma_percorso_09.jpg" alt="logo roma 09" border="0" width="360">
+</div><br>
+--- End body ---

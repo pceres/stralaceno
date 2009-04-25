@@ -1,0 +1,19 @@
+Autore::
+Titolo::Brianzolo 2009
+--- Begin body ---
+<br>
+Nelle foto, tra gli altri, Nicola D'Auria, che anche quest'anno ha partecipato alle 
+varie prove del 23° Campionato Brianziolo di
+corsa campestre.<br><br>
+Sesta Prova 21.02.2009 CARATE BRIANZA
+<div align="center">
+<img id="" src="%file_root%custom/album/ars/Bri09_4.jpg" alt="" border="0" width="510">
+</div><br>
+<div align="center">
+<img id="" src="%file_root%custom/album/ars/Bri09_3.jpg" alt="" border="0" width="510">
+</div><br><br>
+Quinta Prova 14.02.2009 MONZA 
+<div align="center">
+<img id="" src="%file_root%custom/album/ars/Bri09.jpg" alt="" border="0" width="510">
+</div><br>
+--- End body ---

@@ -1,0 +1,46 @@
+Autore::Ars
+Titolo::Allenamento Collettivo 30.12.2008
+--- Begin body ---
+<br>
+<div align="center">
+<img id="fotoAllenamentoCollettivo" src="%file_root%custom/album/All.Coll.08/ac08_34.jpg" alt="" border="0" width="500">
+</div>
+<br>Partecipanti all’allenamento collettivo del 30 dicembre 2008 di km 16,750, con partenza ed arrivo in piazza Sanit&agrave; a Caposele:  <br>
+Nicola D’Auria, <br>
+Saverio Perna, <br>
+Giuseppe Cifrodelli, <br>
+Alessandro Russomanno, <br>
+Paolo Viscardi, <br>
+Francesco Ceres, <br>
+Nicola Melillo, <br>
+Alessio Merola, <br>
+Gelsomino Merola (dal km 0,4), <br>
+Pasquale Ceres (fino al km 1,65), <br>
+Nicoletta Ceres (fino al km 1,65), <br>
+Lello Viscardi (fino al km 2,3), <br>
+Francesco Nisivoccia (fino al km 7,5), <br>
+Donatello Cirillo (fino al km 9,3), <br>
+Giovanni Viscardi (fino al km 10), <br>
+Gerardo Notaro (dal km 16,5). <br>
+<br>
+Assistenza e fotografie a cura di Nicola Ciccone e Gerardo Donatiello.<br>
+<i><br>
+L'album fotografico lo trovate <a href="album.php?anno=All.Coll.08">qui</a>.<br>
+<br>
+</i>
+<br><i>L’ARS Amatori Running Sele organizza per il giorno 30 dicembre ore 15.00, una seduta di allenamento di gruppo lungo il tratto stradale Caposele - Materdomini (strada statale165) - San Vito - Bosco Difesa e ritorno.<br>
+Avendo l’iniziativa il fine di promuovere un’attivit&agrave; podistica di base, la distanza sar&agrave; percorsa rigorosamente ad andatura lenta, avendo cura di mantenere soprattutto un passo regolare.
+&Egrave; un’ottima occasione per riprendere l’attivit&agrave; per chi si &egrave; lasciato andare nel periodo autunnale e per cercare di ritrovare gli stimoli giusti per affrontare con vigore il lungo inverno che ancora ci attende.<br>
+Chiunque sia interessato pu&ograve; liberamente aggregarsi alla partenza o anche durante il percorso ed &egrave; a questo scopo che viene fornita la seguente tabella:
+<br> <br>
+Partenza	Piazza Sanit&agrave;                                                  15.00	<br>
+km  0,900   	Ponte	                                                           15.05/15.06   	(15.05.37) <br>
+km  1,650   	Santa Caterina                                       	15.09/15.11    	(15.10.19) <br>
+km  2,300   	Cimitero comunale                                	15.13/15.15    	(15.14.29) <br>
+km  6,150   	Materdomini (hotel Testa)                    	15.38/15.42    	(15.40.22) <br>
+km  6,700   	Materdomini (incrocio per Caposele)   	15.42/15.46    	(15.44.00) <br>
+Km 7,500   	Svincolo fondovalle Sele                     	15.46/15.52    	(15.49.12) <br>
+Km 9,300   	Incrocio per San Vito                           	15.57/16.05    	(16.01.14) <br>
+Km12,200  	Incrocio Bosco Difesa	                        16.15/16.25    	(16.20.15) <br>
+Km16,750  	Piazza Sanit&agrave;   	                                    16.42/16.54    (16.48.41) <br></i>
+--- End body ---

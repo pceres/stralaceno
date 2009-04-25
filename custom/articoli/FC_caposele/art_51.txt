@@ -1,0 +1,12 @@
+Autore::
+Titolo::I dirigenti - stagione 2008/09
+--- Begin body ---
+<br>
+PRESIDENTE <br>Cibellis Rocco Tommaso<br><br>
+ALTRI DIRIGENTI<br>
+ Cirillo Donatello<br> Cetrulo Massimo<br>
+ Sista Raffaele <br> Cetrulo Giuseppe<br>
+<br>
+RESPONSABILE TECNICO <br>Corona Salvatore<br><br>
+<b> <br>
+--- End body ---

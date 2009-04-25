@@ -2,15 +2,16 @@ Autore::Ars
 Titolo::Assemblea Annuale Ars
 --- Begin body ---
 <br>
-Il giorno 22 marzo 2008 alle ore 14.15 in Corso Garibaldi n.53 in Caposele, si terr&agrave; l’assemblea annuale ordinaria  della nostra associazione.<br><br>
+Il giorno 11 aprile 2009 alle ore 14.15 in Corso Garibaldi n.53 in Caposele, si terr&agrave; l’assemblea annuale ordinaria  della nostra associazione.<br><br>
 Qualora a tale ora non fosse presente almeno la met&agrave; degli associati, l’assemblea si terr&agrave; in seconda convocazione il medesimo giorno alle ore 15.00, presso la stessa sede.<br><br>
 All’assemblea sono ammessi tutti gli associati in regola con il pagamento della quota sociale di iscrizione.<br><br>
 L’ordine del giorno prevede:<br>
-1.	Approvazione rendiconto economico finanziario  2007;<br>
-2.	Rinnovo Consiglio Direttivo;<br>
-3.	Programmazione attività anno 2008.
+1.	Approvazione rendiconto economico finanziario  2008;<br>
+2.      Rinnovo carica responsabile squadra podistica e nomina eventuali altri responsabili di settore;<br>
+3.	Eventuale evoluzione statutaria;<br>
+3.	Programmazione attività anno 2009.
 <p>&nbsp;
 <div align="center">
-<img id="logo_ars" src="%file_root%custom/album/ars/Stemma_Caposele_Malanga_V.jpg" alt="logo_ars" border="0" width="260">
+<img id="logo_ars" src="%file_root%custom/album/ars/ars.jpg" alt="logo_ars" border="0" width="260">
 </div>
 --- End body ---
