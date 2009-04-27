@@ -2,7 +2,9 @@
 <html>
 
 <head>
-  <title>%web_title% - Associazione ARS Amatori Running Sele - Caposele sul Web</title>
+%%%% begin siti_amici_cfg.txt titolo_pagina 1
+  <title>%web_title%  - %field0%</title>
+%%%% end
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="GENERATOR" content="Quanta Plus">
   <meta name="description" content="elenco dei siti caposelesi, a cura dell'Associazione ARS Amatori Running Sele">
@@ -12,8 +14,9 @@
 <body>
 
 
-
-<div class="titolo_tabella">Caposele sul Web</div><br>
+%%%% begin siti_amici_cfg.txt titolo_pagina 1
+	<div class="titolo_tabella">%field0%</div><br>
+%%%% end
 <div align="center">
 
 <table class="tabella">
@@ -32,7 +35,6 @@
 <tbody>
 
 %%%% begin siti_amici_cfg.txt elenco_siti 7
-	<!-- sito %field2 -->
     <tr style="background: rgb(255, 255, 255) none repeat scroll; vertical-align: middle; text-align: center; height:70px;">
 	<td nowrap="nowrap"><div align="center">%field0%</div></td>
 %%%% if %field4%!=''			<td nowrap="nowrap"><div align="center"><a href="%field3%"><img src="%field4%" width="150" height="60" border="0" alt="logo_%field2%"></a></div></td>
@@ -52,7 +54,7 @@
   </tbody>
 </table>
 
-%%%% begin siti_amici_cfg.txt testo_footer 2
+%%%% begin siti_amici_cfg.txt testo_footer 1
 	<small>%field0%</small>
 %%%% end
 
