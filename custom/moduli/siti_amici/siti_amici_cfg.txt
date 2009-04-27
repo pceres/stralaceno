@@ -16,35 +16,40 @@
 [elenco_siti]
 1::arsweb::CaposeleWeb::http://ars.altervista.org/index.php::http://ars.altervista.org/custom/album/varie/logo.jpg::ARS Amatori Running Sele::Pasquale Ceres
 2::stralacenoweb::StralacenoWeb::http://pceres.altervista.org/stralaceno/index.php::http://pceres.altervista.org/stralaceno/custom/album/varie/logo.jpg::ARS Amatori Running Sele::Pasquale Ceres
-3::caposeleonline::CaposeleOnline::http://www.caposeleonline.it::::Gerardo Notaro::Gerardo Notaro
+3::caposeleonline::CaposeleOnline::http://www.caposeleonline.it::http://www.caposeleonline.it/allievi-2009-1.jpg::Gerardo Notaro::Gerardo Notaro
 4::Informagiovani::Informagiovani::http://www.informagiovanicaposele.it/::http://web.cheapnet.it/informagiovanicaposele/Immagini/logo_stop.jpg::Inormagiovani Caposele::Vitale Cetrulo
 5::pubblica_assistenza::Pubblica Assistenza Caposele::http://www.pacaposele.org/::http://www.pacaposele.org/img/pacaposele.gif::Pubblica Assistenza di Caposele::
-6::Liceo di Caposele::LiceOnline::http://liceonline.altervista.org::http://liceonline.altervista.org/images/budapest__05_thumb47.jpg::Redazione del liceo::Redazione del liceo
+6::Liceo di Caposele::LiceOnline::http://liceonline.altervista.org::http://liceonline.altervista.org/foto%20(5)_small.jpg::Redazione del liceo::Redazione del liceo
 7::SelaCapo::SelaCapo::http://selacapo.net::http://selacapo.net/site/themes/default/logo.gif::::Raffaele Colatrella e Vittorio Nesta
 8::Sito_ufficiale_comune_Caposele::Sito ufficiale del comune di Caposele::http://www.comunecaposele.it/sindaco.html::http://www.comunecaposele.it/img/home2.jpg::Comune di Caposele::
 9::Sito_ufficiale_santuario_S_Gerardo::Sito ufficiale del Santuario di S. Gerardo Maiella::http://it.sangerardo.eu/::http://it.sangerardo.eu/INTERFACE/SANGERARDO/sangerardologo.gif::Padri redentoristi di Materdomini::http://www.targnet.com
 10::Assognam::Associazione G.N.A.M.::http://assognam.blogspot.com/::http://photos1.blogger.com/x/blogger2/1585/399029406739711/1600/z/104761/gse_multipart71240.jpg::Associazione G.N.A.M.::Associazione G.N.A.M.
-11::jobindex::JobIndex::http://www.jobindex.it::http://mikpolpetta.altervista.org/JobIndexTitolo3.gif::Michele Ceres::Michele Ceres
-12::lulusland::Lulusland.Blogspot::http://lulusland.blogspot.com/::::Lulo::Lulo
-13::fiume_di_vita::Fiume di Vita::http://www.fiumedivita.it/::http://www.fiumedivita.it/grafica/bannercolor_v.3.jpg::Gruppo giovanile "Fiume di Vita"::
-14::caposelelibero::Caposele Libero::http://caposelelibero.splinder.com/::http://www.splinder.com/themes/multisite/www.splinder.it/images/logo/splinder-logo.gif::Guy Fawkes::Splinder
-15::SiamoNoi::SiamoNoi::http://www.siamonoi.it::http://www.siamonoi.it/home%20page%20foto/mappa%20caposele.JPG::Paolo Viscardi::Paolo Viscardi
-16::Wikipedia::Caposele su Wikipedia::http://it.wikipedia.org/wiki/Caposele::http://it.wikipedia.org/images/wikimedia-button.png::Wikipedia::Wikipedia
-17::Comune_di_Caposele::Comune di Caposele::http://caposele.asmenet.it::http://www3.asmenet.it/opencms/opencms/system/galleries/pics/asmenet_caposele/logocomune_template1.gif::Asmenet::Asmenet
-18::EPT_di_Avellino::EPT di Avellino::http://www.eptavellino.it/itinerari_id.php?itinerario=37::http://www.eptavellino.it/files/itinerari_37.JPG::Ente Provinciale per il Turismo::MY ADMIN
-19::AQP::Mostra fotografica Pro Loco Ferragosto 2006::http://www.aqp.it/portal/page?_pageid=33,226287&_dad=portal&_schema=PORTAL::http://www.aqp.it/AQP/images/index/logo.gif::AQP::
-20::Polizia_Municipale_Caposele::Polizia Municipale di Caposele::http://web.tiscalinet.it/caposelepm/::http://web.tiscalinet.it/caposelepm/memo.jpg::Polizia municipale::
-21::Gruppo_WWF_Caposele::::Gruppo WWF Caposele::http://gruppoattivolg.splinder.com/::http://www.splinder.com/themes/multisite/www.splinder.it/images/logo/splinder-logo.gif::::Splinder
-22::sito_Caposele_e_Materdomini::sito su Caposele e Materdomini::http://www.caposele.net/::http://www.caposele.net/55/piazza_dimasip.jpg::::
-23::Banda_di_Caposele::Banda di Caposele::http://www.bandacaposele.it/::http://www.bandacaposele.it/images/banner.jpg::::Carmine Mangone
-24::La_storia_di_Materdomini::La storia di Materdomini::http://www.goleto.it/itinerari/materdomini.htm::http://www.goleto.it/images/home_itinerari.GIF::Accanto srl::
+11::lulusland::Lulusland.Blogspot::http://lulusland.blogspot.com/::http://3.bp.blogspot.com/_N_9JIEOYqeI/Rw9rVCLF1wI/AAAAAAAAAFQ/w2MussLCaYU/s1600/header2.jpg::Lulo::Lulo
+12::fiume_di_vita::Fiume di Vita::http://www.fiumedivita.it/::http://www.fiumedivita.it/grafica/bannercolor_v.3.jpg::Gruppo giovanile "Fiume di Vita"::
+13::caposelelibero::Caposele Libero::http://caposelelibero.splinder.com/::http://www.splinder.com/themes/multisite/www.splinder.it/images/logo/splinder-logo.gif::Guy Fawkes::Splinder
+14::SiamoNoi::SiamoNoi::http://www.siamonoi.it::http://www.siamonoi.it/home%20page%20foto/mappa%20caposele.JPG::Paolo Viscardi::Paolo Viscardi
+15::Wikipedia::Caposele su Wikipedia::http://it.wikipedia.org/wiki/Caposele::http://it.wikipedia.org/images/wikimedia-button.png::Wikipedia::Wikipedia
+16::Comune_di_Caposele::Comune di Caposele::http://caposele.asmenet.it::http://www3.asmenet.it/opencms/opencms/system/galleries/pics/asmenet_caposele/logocomune_template1.gif::Asmenet::Asmenet
+17::EPT_di_Avellino::EPT di Avellino::http://www.eptavellino.it/itinerari_id.php?itinerario=37::http://www.eptavellino.it/files/itinerari_37.JPG::Ente Provinciale per il Turismo::MY ADMIN
+18::AQP::Mostra fotografica Pro Loco Ferragosto 2006::http://www.aqp.it/portal/page?_pageid=33,226287&_dad=portal&_schema=PORTAL::http://www.aqp.it/AQP/images/index/logo.gif::AQP::
+19::Polizia_Municipale_Caposele::Polizia Municipale di Caposele::http://web.tiscalinet.it/caposelepm/::http://web.tiscalinet.it/caposelepm/memo.jpg::Polizia municipale::
+20::Gruppo_WWF_Caposele::::Gruppo WWF Caposele::http://gruppoattivolg.splinder.com/::http://www.splinder.com/themes/multisite/www.splinder.it/images/logo/splinder-logo.gif::::Splinder
+21::sito_Caposele_e_Materdomini::Cittadinanzattiva Assemblea Territoriale Alto Calore Ofanto Sele::http://www.caposele.net/::http://www.caposele.net/templates/22/images/blue/banner_out_bg.jpg::::
+22::Banda_di_Caposele::Banda di Caposele::http://www.bandacaposele.it/::http://www.bandacaposele.it/images/banner.jpg::::Carmine Mangone
+23::La_storia_di_Materdomini::La storia di Materdomini::http://www.goleto.it/itinerari/materdomini.htm::http://www.goleto.it/images/home_itinerari.GIF::Accanto srl::
 
 
 #
 # formato testo_footer:  testo
 #
 [testo_footer]
-Ultimo aggiornamento effettuato il 06/09/2007. Rubrica a cura di <a href="mailto:ceresmichele@yahoo.it?subject=Caposele%20sul%20Web"><b>Michele Ceres</b></a>
+Ultimo aggiornamento effettuato il 26/04/2009. Rubrica a cura di <a href="mailto:ceresmichele@yahoo.it?subject=Caposele%20sul%20Web"><b>Michele Ceres</b></a>
 <br>
 <br>
 Se il tuo sito &egrave; attinente a Caposele, o se noti imprecisioni, <a href="mailto:ceresmichele@yahoo.it?subject=Caposele%20sul%20Web">segnalacelo</a>, saremo felici di recepire i tuoi suggerimenti
+
+#
+# formato titolo_pagina:  testo
+#
+[titolo_pagina]
+Caposele sul Web
