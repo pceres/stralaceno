@@ -24,7 +24,7 @@
 8::Sito_ufficiale_comune_Caposele::Sito ufficiale del comune di Caposele::http://www.comunecaposele.it/sindaco.html::http://www.comunecaposele.it/img/home2.jpg::Comune di Caposele::
 9::Sito_ufficiale_santuario_S_Gerardo::Sito ufficiale del Santuario di S. Gerardo Maiella::http://it.sangerardo.eu/::http://it.sangerardo.eu/INTERFACE/SANGERARDO/sangerardologo.gif::Padri redentoristi di Materdomini::http://www.targnet.com
 10::Assognam::Associazione G.N.A.M.::http://assognam.blogspot.com/::http://photos1.blogger.com/x/blogger2/1585/399029406739711/1600/z/104761/gse_multipart71240.jpg::Associazione G.N.A.M.::Associazione G.N.A.M.
-11::lulusland::Lulusland.Blogspot::http://lulusland.blogspot.com/::http://3.bp.blogspot.com/_N_9JIEOYqeI/Rw9rVCLF1wI/AAAAAAAAAFQ/w2MussLCaYU/s1600/header2.jpg::Lulo::Lulo
+11::lulusland::Lulusland.Blogspot::http://lulusland.blogspot.com/::http://www.blogger.com/buttons/blogger-ipower-kahki.gif::Lulo::Lulo
 12::fiume_di_vita::Fiume di Vita::http://www.fiumedivita.it/::http://www.fiumedivita.it/grafica/bannercolor_v.3.jpg::Gruppo giovanile "Fiume di Vita"::
 13::caposelelibero::Caposele Libero::http://caposelelibero.splinder.com/::http://www.splinder.com/themes/multisite/www.splinder.it/images/logo/splinder-logo.gif::Guy Fawkes::Splinder
 14::SiamoNoi::SiamoNoi::http://www.siamonoi.it::http://www.siamonoi.it/home%20page%20foto/mappa%20caposele.JPG::Paolo Viscardi::Paolo Viscardi
