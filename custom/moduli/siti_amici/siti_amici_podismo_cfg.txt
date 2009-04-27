@@ -25,3 +25,9 @@ Rubrica a cura dell' <a href="mailto:caposeleweb@yahoo.it?subject=Associazioni%2
 <br>
 <br>
 Se il tuo sito &egrave; attinente al podismo, o se noti imprecisioni, <a href="mailto:caposeleweb@yahoo.it?subject=Associazioni%20Podistiche">segnalacelo</a>, saremo felici di recepire i tuoi suggerimenti
+
+#
+# formato titolo_pagina:  testo
+#
+[titolo_pagina]
+Siti podistici
