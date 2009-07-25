@@ -1,0 +1,22 @@
+Autore::Podistidoc.it
+Titolo::V edizione "Sulle Orme di Filippide"
+--- Begin body ---
+<br>
+Sempre spettacolare, sempre affascinante, sempre coinvolgente. La “Sulle Orme di Filippide” ha mantenuto le attese, 
+nonostante i problemi organizzativi che hanno caratterizzato il pre gara. 
+Una gara che fa la differenza, non a caso per lo scorso anno l’evento a firma Podisti 
+Cava Picentini Costa d'Amalfi si &egrave; visto assegnare il premio Gara dell’Anno dal sito Podistidoc.it.
+<br>
+Percorso di 9.700 metri (causa sagra contemporanea) totalmente pianeggianti, veloci. 
+Condizioni climatiche accettabili, con temperatura pi&ugrave; che buona, assenza di vento e umidit&agrave; tollerabile.
+<br><br>
+538 i partecipanti, 6 gli atleti che hanno rappresentato gli Amatori Running Sele, accompagnati dal presidente Paolo Viscardi.
+<p>&nbsp;
+<div align="center">
+<img id="Paestum 09" src="%file_root%custom/album/Paestum_09/paes4.jpg" alt="" border="0" width="400">
+</div><br>
+<a href="album.php?anno=Paestum_09">Qui</a> l'album fotografico della gara. <i>(Foto di Luciano Viscido e Cavaiola.it)</i>
+<br><br>
+La classifica la trovate <a href="download.php?resource_type=file&amp;resource_id=file_paestum_09">qui</a>.
+<br><br>
+--- End body ---

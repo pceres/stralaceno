@@ -1,0 +1,22 @@
+Autore::ARS
+Titolo::1<sup>a</sup> ediz. Corri sull'Altopiano del Laceno
+--- Begin body ---
+<br>Il 5 luglio 2009 si &egrave; disputata a Bagnoli Irpino, localit&agrave; Laceno, la prima edizione della 
+gara podistica “Corri sull’Altopiano del Laceno” di km 10.
+<br>
+<br>
+La corsa si &egrave; sviluppata sul noto circuito del Laceno, con direzione di marcia in senso orario (al 
+contrario rispetto alla Stralaceno), con partenza vicino all’area pick-nick del lago ed arrivo, dopo quasi 2 giri 
+(1 giro + altri 4/5 del secondo), nei pressi dell’hotel Cervialto, dove si sono svolte poi le premiazioni.
+<br><br>
+Ottantaquattro gli atleti giunti al traguardo; sette i rappresentanti degli Amatori Running Sele. <br>
+Da segnalare le buone prestazioni di Saverio Perna (23esimo in 41’16’’) e Donato Ceres (27esimo in 41’56’’).
+<br>
+<br>
+La classifica la trovate <a href="download.php?resource_type=file&amp;resource_id=file_corri_laceno_09">qui</a>.
+<br>
+<p>&nbsp;
+<div align="center">
+<img id="Stra 09" src="%file_root%custom/album/varie/lagoLaceno.jpg" alt="" border="0" width="500">
+</div>
+--- End body ---

@@ -2,6 +2,10 @@ Autore::
 Titolo::I giocatori - stagione 2008/09
 --- Begin body ---
 <br>
+<div align="center">
+<img id="FC_Caposele" src="%file_root%custom/album/FC_caposele/FC_Cap_08_09.jpg" alt="" border="0" width="500">
+</div>
+<br>
 <b>Campionato Regionale II Categoria Campania</b><br><br>
 Stagione 2008/09 - Elenco Giocatori FC Caposele -
 <br><br>

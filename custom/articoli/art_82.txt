@@ -18,5 +18,11 @@ Da segnalare anche la partecipazione alla Stracittadina di km 4,2195 di Sandro R
 <img id="" src="%file_root%custom/album/Roma_09/Ro09_1.jpg" alt="" border="0" width="500">
 </div>
 <i>Nella foto, scattata dal Presidente accompagnatore Paolo Viscardi, il passaggio di Saverio Perna al 39esimo Km (Fontana di Trevi)</i>
+<br><br>
+<p>&nbsp;
+<div align="center">
+<img id="" src="%file_root%custom/album/Roma_09/roma09_d1.jpg" alt="" border="0" width="500">
+</div>
+<i>Nella foto, l'arrivo di Donato Ceres in via dei Fori Imperiali.</i>
 <br>
 --- End body ---

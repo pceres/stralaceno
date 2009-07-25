@@ -105,7 +105,11 @@ LSele.jpg::
 logo_roma_09.jpg::
 gav.jpg::
 pista.jpg::
-
+logo_ISAURA.gif::
+ercosport.gif::
+leTartarughe.jpg::
+Logo_2009.jpg::
+Roccadaspide.jpg::
 
 [Soci_ars]
 LV2.jpg::Lello Viscardi::
@@ -131,7 +135,6 @@ RF.jpg::Rocco Feniello::
 DCe.jpg::Donato Ceres::
 AV.jpg::Antonio Viscido::
 GaRo.jpg::Gaetano Rosania::
-NiMe.jpg::Nicola Melillo::
 AG.jpg::Armando Grasso::
 MaDT.jpg::Mario Di Trolio::
 GeDG.jpg::Gelsomino Del Guercio::
@@ -251,6 +254,8 @@ Rend_FC_06_07.jpg::::
 LOGOLIT.jpg::Logo Ufficiale FC Caposele::
 FcCAP_07_08.jpg::FC Caposele stagione 2007/08::
 Rend07_08.jpg::::
+FC_Cap_08_09.jpg::Stagione 2008/09
+
 
 [Roma_07]
 MR1.jpg:::: Alessandro, Paolo ed alle loro spalle il colosseo::Romamarathon 2007
@@ -710,3 +715,74 @@ Ro09_6.jpg::
 Ro09_10.jpg::
 Ro09_1.jpg::
 Ro09_7.jpg::
+roma09_d2.jpg:: 
+roma09_d1.jpg::
+
+[Paestum_09]
+paes1.jpg::
+paes2.jpg::
+paes3.jpg::
+paest1.jpg::
+paest2.jpg::
+paest3.jpg::
+paest4.jpg::
+paes4.jpg::
+paest5.jpg::
+paes5.jpg::
+paest6.jpg::
+paest7.jpg::
+paes6.jpg::
+paest8.jpg::
+paes7.jpg::
+paes8.jpg::
+paest9.jpg::
+paest10.jpg::
+paes9.jpg::
+paest11.jpg::
+paest12.jpg::
+paes10.jpg::
+paest13.jpg::
+paest14.jpg::
+paes11.jpg::
+paes12.jpg::
+paest15.jpg::
+paest16.jpg::
+paes13.jpg::
+paest17.jpg::
+paest18.jpg::
+paes14.jpg::
+
+
+[Cast_S_Giorgo_09]
+sc3.JPG:: 
+sc5.jpg:: 
+sc6.jpg:: 
+sc7.jpg:: 
+sc4.JPG::
+sc8.jpg:: 
+sc9.jpg:: 
+sc10.jpg:: 
+sc11.jpg:: 
+sc12.jpg:: 
+sc13.jpg:: 
+sc14.jpg:: 
+sc15.jpg:: 
+sc19.jpg:: 
+sc16.jpg::
+sc22.jpg::
+sc17.jpg:: 
+sc23.jpg::
+sc18.jpg:: 
+sc24.jpg:: 
+sc25.jpg::
+sc20.jpg:: 
+sc26.jpg:: 
+sc21.jpg::
+sc27.jpg:: 
+sc28.jpg:: 
+sc29.jpg:: 
+sc30.jpg:: 
+sc31.jpg:: 
+sc1.JPG:: 
+sc2.JPG::
+

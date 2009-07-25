@@ -1,0 +1,12 @@
+Autore::Ars
+Titolo::Stralaceno 2009
+--- Begin body ---
+<br>
+La XXI edizione della Stralaceno si svolger&agrave; venerd&igrave; 
+28 agosto.
+<br>
+<p>&nbsp;
+<div align="center">
+<img id="Stra 09" src="%file_root%custom/album/varie/Logo_2009.jpg" alt="" border="0" width="420">
+</div><br>
+--- End body ---
