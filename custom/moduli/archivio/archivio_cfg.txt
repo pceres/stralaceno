@@ -6,6 +6,8 @@
 # formato elenco_album:  tag_album::nome_album::descrizione
 #
 [elenco_album]
+Cast_S_Giorgo_09::Castel San Giorgio 2009::IV Scalata al Castello di km 9,6 del 23.05.2009
+Paestum_09::Paestum 2009::V Sulle Orme di Filippide di km 9,7 del 02.05.2009
 Roma_09::Roma 2009::Maratona di Roma del 22 marzo 2009
 Vietri_09::VIII Vietri e dintorni::Gara podistica di Vietri di km 9,5
 All.Coll.08::Allenamento collettivo 2008::Le foto dell'allenamento di fine anno.
@@ -34,6 +36,12 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
+93::homepage::1&deg; Night Marathon::
+92::homepage::XVI CorriRoccadaspide::
+91::homepage::1&deg; ediz. Corri sull'Altopiano del Laceno::
+90::homepage::Stralaceno 2009::
+89::homepage::IV Scalata al Castello::
+88::homepage::V edizione "Sulle Orme di Filippide"::
 87::homepage::Allenamento settimanale in pista::Ars
 86::homepage::Nomina Responsabili di Settore 2009::Ars
 85::homepage::Allenamento montano di gruppo::Ars
@@ -65,7 +73,7 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 57::homepage::L'ARS affronta la mezza maratona::Paolo Viscardi
 56::homepage::IX Agropoli Half Marathon::Ars
 55::homepage::Correre per stare bene::Runners.it
-1::homepage::ARS: nuovo Direttivo dal 22.03.2008::
+1::homepage::Consiglio Direttivo e Responsabili di Settore ARS::
 54::homepage::Maratona di Roma 2008::
 53::homepage::Correre da' euforia::Ansa
 52::homepage::Inizia la stagione 2008::Paolo Viscardi
@@ -99,7 +107,7 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 21::homepage::21&deg; Trofeo Brianzolo::
 18::homepage::Allenamento Collettivo 30.12.2006::
 19::homepage::Prima Strauniversit&agrave; a Fisciano (Sa)::
-16::homepage::ARS Amatori Running Sele:
+16::homepage::ARS Amatori Running Sele::
 14::homepage::Attivit&agrave; podistica 2006::
 13::homepage::Fontanarosa 2006::
 12::homepage::10 Km di Nusco 2006::

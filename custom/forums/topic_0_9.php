@@ -211,6 +211,23 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 197::salvatore::18/03/2009 18.10.05::visible
 198::Salvatore::28/03/2009 12.14.39::visible
 199::nic.m.::22/04/2009 11.07.10::visible
+200::Antonio::26/04/2009 23.20.13::visible
+201::ARS::27/04/2009 23.41.17::visible
+202::ARS::27/04/2009 23.44.42::visible
+203::Podistidoc.it::29/04/2009 11.15.50::visible
+204::nic.m.::15/05/2009 18.56.19::visible
+205::Antonio::17/05/2009 16.27.21::visible
+206::nic.m.::17/05/2009 20.27.04::visible
+207::Manlio::17/05/2009 22.49.04::visible
+208::ARS::19/05/2009 10.10.14::visible
+209::Podistidoc.it::20/05/2009 11.50.08::visible
+210::da Podistidoc.it::25/05/2009 10.18.18::visible
+211::nicola melillo::27/06/2009 18.35.58::visible
+212::Definizione::28/06/2009 20.13.29::visible
+213::ARS::30/06/2009 14.48.17::visible
+214::ARS::08/07/2009 13.03.14::visible
+215::ARS::15/07/2009 09.48.39::visible
+216::ARS::24/07/2009 16.31.07::visible
 
 [post_text_0]
 Fermate Nicola Melillo con questa stralaceno: anche i muri di materdomini e caposele non ne possono più.
@@ -1114,3 +1131,284 @@ Bravo Presidèèèèèèè, bell'articolo!
 
 [post_text_199]
 volevo fare una riflessione sulla gestione della piscina di caposele, quando vi era la precedente amministrazione il sign. alfonso nesta oggi direttore tecnico in piscina criticava aspramente l' operato della gestione zarra in tutto come mai adesso che e' lui ad organizzare le attivita' non e' stato neanche capace di organizzare un corso per assistenti bagnanti dove su 700 iscritti in piscina doveva riuscire semplicemente a convincere 12-15 atleti a partecipare al sopra citato corso ed invece del corso ancora nessuna traccia, io parlo cosi' in quanto ero seriamente intenzionato a conseguire il brevetto.caro nesta prima di criticare fatti un esame di coscienza non e' possibile mettere un manifesto del corso a febbraio e convocare le persone interessate ad aprile alla riunione informativa che poi si' e' rilevata un nulla di fatto in quanto non arrivevamo  nanche in 10.e poi non dimentichiamoci che quest' anno le attivita' sono partite in netto ritardo per questioni di antipatia tra l' assessore malanga vito e antonio zarra il quale ha fatto di tutto per toglierlo ed affidarla ad una persona di lioni.caro alex gira la mia e-mail al consigliere cirillo e all' assessore allo sport tommaso cibellis in quanto devono sapere la verita'.
+
+[post_text_200]
+Alla consolle N.D.A., alla consolle D.A.N.
+VIVA GIOCOSCIOLTO
+
+[post_text_201]
+Prossima gara alla quale prenderà parte l'ARS:
+&nbsp;
+ASD Podisti Cava Picentini Costa d’Amalfi  in collaborazione con CSI Cava de’ Tirreni
+Presenta
+“Sulle Orme di Filippide” V Edizione
+manifestazione di podismo su strada di km. 10
+&nbsp;
+Regolamento
+&nbsp;
+1)Partecipazione
+Atleti tesserati CSI od altri Enti di Promozione sportiva - Tesserati Fidal . Gli atleti liberi possono richiedere la partecipazione contestualmente al tesseramento per il Centro Sportivo Italiano.
+Tutti gli atleti devono essere in possesso del certificato medico agonistico per Atletica leggera valido alla data del 02 maggio 2009.
+&nbsp;
+2) Iscrizioni
+Le iscrizioni si accettano entro il 29 aprile 2009. Nel caso si raggiunga il numero massimo di 600 atleti previsti le iscrizioni saranno chiuse anticipatamente. Oltre il limite dei 600 atleti saranno garantite le iscrizioni solamente ad atleti con considerevoli tempi di accredito certificati sui 10 Km (33 min per gli uomini e 40 min per le donne). Le iscrizioni vanno inviate ai seguenti recapiti: Fax: 0893115086 mail: iscrizioni@cavaiola.it
+&nbsp;
+3) Quote di iscrizioni
+Il contributo per l’iscrizione è fissato in euro 6. Tale contributo comprende pacco gara e
+può essere pagato: Contestualmente al ritiro dei pettorali oppure tramite bonifico bancario intestato a: ASD Podisti Cava Picentini Costa d’Amalfi IBANIT94G0539276173000000991597
+&nbsp;
+4) Ritiro dei pettorali
+I pettorali possono essere ritirati entro le 17 del giorno della gara presso la partenza oppure nei giorni precedenti (previo appuntamento) presso la sede della società organizzatrice.
+&nbsp;
+5) Percorso e cronometraggio
+Il percorso, completamente pianeggiante, si snoda intorno alle mura che cingono gli scavi di Paestum. Le classifiche saranno curate dai giudici del CSI in collaborazione con l’ASD Podisti Cava Picentini Costa d’Amalfi, il cronometraggio sarà effettuato mediante chip elettronico.
+&nbsp;
+6) Premiazioni
+Premiati tutti gli atleti al traguardo con maglia tecnica Legea. Premiati inoltre:
+I primi 50 uomini, le prime 20 donne, i primi tre delle categorie da M55 in poi con prodotti tipici. Premiate con rimborso spese le prime cinque società con maggior numero di atleti al traguardo. Premiate con rimborso spese le prime cinque società con la minore somma dei tempi dei primi cinque atleti al traguardo.
+&nbsp;
+7) Informazioni
+www.caviola.it info@cavaiola.it 3474607794 (Anna Senatore)
+&nbsp;
+8) Ritrovo
+Scavi archeologici di Paestum via Magna Grecia ore 16.00 – Partenza ore 19.00
+&nbsp;
+&nbsp;
+
+[post_text_202]
+SULLE ORME DI FILIPPIDE -PAESTUM-
+La gara si svolgerà il 2 MAGGIO 2009 CON PARTENZA ALLE ORE 19.00
+
+[post_text_203]
+PAESTUM -SULLE ORME DI FILIPPIDE- Sabato 2 maggio ore 19.00
+&nbsp;
+Sabato sera l’edizione numero 5 della “Sulle Orme di Filippide”. La gara organizzata dal Team Podisti Cava Picentini-Costa d’Amalfi (che è stata premiata come Gara dell’anno nel 2008) si propone in tutto il suo splendore, nella sua spettacolarità, con il suo percorso veloce e affascinante. Una gara che lo scorso anno è stata sede di Campionato Italiano Master 10 km ed è stata fiore all’occhiello delle organizzazioni Campane, tanto da ottenere praticamente una vera e propria unanimità di consensi in occasione della votazione redazionale podistidoc, finalizzata all’assegnazione del prestigioso premio annuale.
+&nbsp;
+Alle ore 19 la partenza di un evento atteso, che coinvolge e riesce ad offrirsi al meglio ogni anno.
+&nbsp;
+Premiati i primi 50 uomini e le prime 20 donne al traguardo. In più premi di categoria, a partire dagli over 55 (saranno premiati i primi 3). Per le società una duplice premiazione. Una finalizzata a favorire il team con maggiore numero di partecipanti (saranno premiate le prime 5 società) e l’altra che invece tiene conto della qualità degli atleti portati al traguardo per ciascun team. Ecco perché si prenderanno in considerazione i primi 5 atleti di ciascun team ai fini dell’assegnazione dei premi per questa speciale e qualitativa classifica.
+&nbsp;
+&nbsp;
+
+[post_text_204]
+oggi altro grande allenamento sempre da solo poi a laceno si presentano in 50 mahh comunque non fa niente la corsa e' uno sport molto duro che pazienza e costanza che ci vuole.
+
+[post_text_205]
+&gt;oggi altro grande allenamento sempre da solo poi a laceno si presentano in 50 mahh comunque non fa niente la corsa e' uno sport molto duro che pazienza e costanza che ci vuole.<br>&gt;<br><br>E chi te lo ha detto che gli altri non si allenano. Semplicemente non vogliono farlo con te.
+
+[post_text_206]
+perche' non ti firmi e' inutile fare queste battute stupide io lo sport lo intendo diversamente da voi e per questo mi sono dimesso io corro per benessere e salute non per gareggiare e competere nelle varie gare che andate facendo per la campania non aggiungo altro altrimenti potrei dirti tante altre cose,correre per me stesso non per apparire.
+
+[post_text_207]
+Infatti... basta ascoltare quello che hai detto appena hai tagliato il traguardo alla stralaceno 2008.. corri proprio per benessere...
+
+[post_text_208]
+Prossima gara alla quale prenderà parte l'ARS:
+&nbsp;
+ASD PODISTI CAVA PICENTINI COSTA D’AMALFI CLUB NAPOLI DI CASTEL S. GIORGIO
+CSI DI CAVA DE’ TIRRENI
+&nbsp;
+ORGANIZZANO
+&nbsp;
+SCALATA AL CASTELLO - IV EDIZIONE
+23 maggio 2009 ore 17
+Castel San Giorgio (SA)
+&nbsp;
+REQUISITI DI PARTECIPAZIONE
+1 - Tesserati CSI ed altri enti di promozione sportiva in regola con il tesseramento 2009
+&nbsp;
+2 - MODALITA' DI ISCRIZIONE
+Su carta intestata della società al fax 0893115086 – via mail ad iscrizioni@cavaiola.it
+&nbsp;
+3 - QUOTE DI PARTECIPAZIONE E MODALITA' DI PAGAMENTO
+Euro 5 da pagare contestualmente al ritiro dei pettorali.
+&nbsp;
+4 - CHIUSURA DELLE ISCRIZIONI
+Venerdì 22 maggio o al raggiungimento di 200 atleti
+&nbsp;
+5 - RITIRO DEI PETTORALI
+Il giorno della gara entro le ore 16.00. Ogni società è tenuta a pagare l’importo corrispondente
+al numero degli iscritti
+&nbsp;
+6 - PERCORSO
+La gara si svolgerà su di un percorso cittadino chiuso al traffico di circa 9 Km. Dopo sette Km
+completamente pianeggianti si affronta la salita di circa 2 Km che porta al castello di Trivio
+&nbsp;
+7 - CRONOMETRAGGIO E CLASSIFICHE
+L'elaborazione delle classifiche ed il conometraggio avverrà a cura del ASD Cava Picentini Costa
+D’amalfi. Le classifiche, foto ed attestato di partecipazione, saranno disponibili, nei giorni successivi la
+gara, sul sito www.cavaiola.it
+&nbsp;
+8 - TEMPI LIMITE
+Il tempo massimo di gara è stabilito in 80 minuti.
+&nbsp;
+9 - RISTORO E PACCO GARA
+Ad ogni atleta sarà consegnato un pacco gara con materiale tecnico. Previsto un generoso ristoro per gli atleti al traguardo
+&nbsp;
+10 - PREMIAZIONI
+Uomini: primi 10 giunti al traguardo premi in danaro con bonus
+Dall’11° al 20° premi in natura
+Donne : Prime 3 al traguardo con bonus. Dalla 3° alla 10° premi in natura
+Premi di categoria: ai primi 3 classificati delle seguenti fasce d’età: 18 – 24 ;
+25 – 34; 35 – 44; 45 – 54; 55 – 64; 65 ed oltre
+Le prime 5 società con almeno 10 atleti iscritti con bonus
+&nbsp;
+11 - RECLAMI
+Eventuali reclami dovranno essere presentati entro 30 minuti dall'esposizione delle classifiche ai giudici
+CSI accompagnati dalla somma di Euro 25,00 che sarà restituita in caso di accoglimento.
+&nbsp;
+12 - INFORMAZIONI
+www.cavaiola.it info@cavaiola.it
+&nbsp;
+PARCHEGGIO: Piazza Caduti di Nassyria in Castel San Giorgio
+RITROVO: Piazza Martiri d’Ungheria nel Comune di Castel San Giorgio
+ARRIVO: Piazzale antistante Castello di S.Maria a Castello
+PREMIAZIONE: Piazzale interno al Castello - E’ Previsto sevizio borse e navetta dalla partenza all’arrivo
+
+[post_text_209]
+Sabato 23 maggio ritorna la "Scalata al castello"
+IV edizione con interessanti novità
+&nbsp;
+Sabato 23 maggio ritorna la "Scalata al Castello", manifestazione podistica dal fascino particolare fortemente voluta dal Club Napoli di Castel S. Giorgio rappresentata dal suo Presidente Biagio Salvati.
+&nbsp;
+In occasione della IV edizione il percorso è stato modificato in lunghezza offrendo ai residenti di Castel S. Giorgio diversi passaggi in paese. L'organizzazione dell'evento è stato ancora una volta affidata all'ASD Podisti Cava Picentini Costa d'Amalfi che, costantemente pungolati da un amante particolare dell'evento, Angelo della Rocca, offriranno ai 150 atleti previsti la solita accoglienza. Ancora una volta il patrocinio della manifestazione è del CSI di Cava de' Tirreni. Il percorso previsto è di circa 9 Km con i primi 7 completamente pianeggianti e gli ultimi due in salita verso il piazzale di S. Maria al castello.
+&nbsp;
+Alla fine della gara ristoro e premiazioni saranno all'interno del castello dove, con la giornata soleggiata prevista, si può godere dello splendido panorama mozzafiato. premi un po per tutti come al solito: primi 20 uomini di cui i primi 10 con bonus, prime 10 donne di cui le prime tre con bonus, prime cinque società con almeno 10 atleti al traguardo, le categorie CSI da 18 anni in poi.
+&nbsp;
+Iscrizioni possibili fino a venerdì 22 (salvo il raggiungimento anticipato dei 150 atleti previsti) al fax 0893115086 oppure a iscrizioni@cavaiola.it. Per informazioni info@cavaiola.it dove Anna Senatore risponderà, al solito, a tutti i quesiti posti.
+&nbsp;
+
+[post_text_210]
+Cava Picentini Costa d'Amalfi: Arrivederci in autunno
+SCALATA AL CASTELLO E CAVA PICENTINI COSTA D’AMALFI chiude la stagione primaverile
+angelo della rocca, 24 maggio 2009
+&nbsp;
+SCALATA AL CASTELLO E CAVA PICENTINI COSTA D’AMALFI chiude la stagione primaverile Anche la terza edizione della Scalata al Castello si è conclusa. Il caldo sul piano e la frescura del Castello hanno caratterizzato questa edizione, a differenza di qualche edizione in cui l’acqua ha fatto da padrona. Preciso l’orario di partenza, veloce l’uscita delle classifiche e la consegna dei premi (a più della metà dei partecipanti), tant’è che 2 ore sono bastate dallo start alla chiusura della manifestazione. Un saluto all'amico collega Biagio Salvati Presidente del Club Napoli di Castel S. Giorgio ed un ringraziamento per l'impegno e la dedizione che ha mostrato per la riuscita di questa bella e particolare manifestazione (ci auguriamo con queste 3 edizioni che ci sia stato un input sui residenti nell'avvicinarsi al salutare Podismo).
+&nbsp;
+Ringraziamento d'obbligo anche per tutti gli amici che hanno voluto onorarci della loro presenza, in particolare l'Isaura, compatta ed invincibile, ma anche l'Ermes, la Folgore. Particolare menzione per la società di Caposele, i quali hanno dovuto affrontare un lungo viaggio per essere presenti.
+&nbsp;
+Vi rimando al nostro sito per le foto della gara www.cavaiola.it, scattate da Enzo Matonti (...guai a chi gli capita a tiro) e per le classifiche. Prossime gare targate esclusivamente "Cava Picentini Costa d'Amalfi" saranno la Corri S. Francesco ad Agerola e le Porte del Paradiso da Salerno ad Atrani, entrambe ad ottobre ed entrambe con il percorso che si affaccia sulla costiera amalfitana. Per gli amanti di paesaggi suggestivi un nodo al fazzoletto.
+&nbsp;
+&nbsp;
+
+[post_text_211]
+parlando con lello viscardi mi ha confermato che anche quest'anno la corsa campestre non subira' alcun cambiamento di tragitto nonostante gli ultimi sforzi del nuovo gruppo giovani entrato nella pro-loco caposele.alle sue parole ho pensato subito che caposele e' e per sempre restera' un paese di mediocri arretrati culturalmente in tutto.ma mi chiedo come mai e' possibile che una associazione come la pro-loco che in italia e' presente dappertutto non riesce a capire quali sono i suoi limiti e lascia il compito di organizzare una gara podistica ad un gruppo di amici che sicuramente ne hanno le capacita e le competenze per rendere la corsa piu' suggestiva,tecnicamente piu' valida cambiando il percorso e allungandola di qualche chilometro,proporre vari premi e tante altre novita.invece niente i grandi benpensanti della pro-loco non sono riusciti a cogliere nessun aspetto positivo dei cambiamenti e vogliono che la corsa sara' per sempre un fallimento annunciato.che tristezza vedere  il mio paese riddotto in questo modo e consegnato nelle mani di persone scadenti.
+
+[post_text_212]
+Pro Loco Caposele = Problematico epicentro di incompetenza caposelese
+
+[post_text_213]
+Prossima gara alla quale parteciperà l'ARS:
+&nbsp;
+Si corre al Laceno il 5 Luglio
+Corri sull’Altopiano del Laceno 2009
+&nbsp;
+&nbsp;
+Domenica 5 Luglio si corre il 1° Trofeo “Corri sull’Altopiano del Laceno 2009" gara organizzata dall'ACLI di Avellino con il supporto tecnico della FIDAL Avellino.
+Una manifestazione nuova che nasce in uno dei posti più suggestivi e rinomati dell'Irpinia. Un'occasione da non perdere per trascorrere insieme un'intera giornata all'insieme dello Sport e del divertimento.
+&nbsp;
+Il Ritrovo è fissato per le ore 8:30 presso l'HOTEL CERVIALTO in località Bagnoli Irpino (Av) per ritiro pettorali con partenza ore 9:30.
+L'iscrizione è di Euro 2,00, gratuita per tutti coloro che all'atto dell'iscrizione prenotano il pranzo ad un prezzo convenzionato di Euro 15,00 e può essere fatta via Email ad Audiag@hotmail.com o telefonando al 338-3232292.
+Sono previste premiazioni con PRODOTTI TIPICI LOCALI per i primi 10 UOMINI e le prime 5 DONNE arrivati al traguardo e per i primi/e 3 Classificati/e delle categarie 30/35/40/45/50/55/60 oltre. Inoltre sarà premiata la prima Società con il maggior numero di iscritti.
+&nbsp;
+I premi non sono cumulabili e non sono ammessi reclami.
+&nbsp;
+
+[post_text_214]
+Prossima gara alla quale partecipeà l'ARS:
+&nbsp;
+XVI Edizione della "CorriRoccadaspide"
+Trofeo Santa Sinforosa - km 8
+Sabato 11 luglio 2009 -Roccadaspide (Sa)-
+&nbsp;
+I premi
+Cestini di prodotti alimentari del Parco Nazionale del Cilento e Vallo di Diano
+ai primi trenta in assoluto
+ai primi cinque di ogni categoria
+a tutte le donne che concluderanno la prova
+&nbsp;
+ATTENZIONE: I PREMI NON SONO CUMULABILI
+&nbsp;
+Alle società
+150,00 €uro alla squadra prima classificata
+100,00 €uro alla squadra seconda classificata
+50,00 €uro alla squadra terza classificata
+&nbsp;
+Partenza gara: 18.45
+Iscrizione: euro 3
+&nbsp;
+La manifestazione è stata organizzata con la collaborazione tecnica della
+FIDAL Campania
+con il patrocinio ed il contributo del
+Comune di Roccadaspide - Assessorato allo Sport
+e con la preziosa collaborazione del
+Comando di Polizia Municipale, della Stazione Carabinieri
+e del Comitato Festa Patronale "Santa Sinforosa"
+e delle seguenti Associazioni:
+Pro Loco Roccadaspide - con Corteo Storico
+Valcalore - Servizio Ambulanze e Protezione Civile di Roccadaspide
+Vigili del Fuoco in Congedo di Castelcivita
+Associazione Dilettantistica Pesca Amici del Calore di Roccadaspide
+&nbsp;
+&nbsp;
+
+[post_text_215]
+Prossima gara alla quale parteciperà l'ARS:
+&nbsp;
+L’associazione sportiva dilettantistica Mediterraneo Eventi, codice Coni 14755, codice Fidal Na280, codice Uisp Na0124 organizza, sotto l’ergito della Uisp Unione Nazionale Sport per Tutti, la 1^ NOTTE MARATHON di km 10.
+&nbsp;
+Luogo e data di svolgimento
+La manifestazione avrà luogo a S. Maria di Castellabate (Lago), il giorno Sabato 18 Luglio 2009, con ritrovo giuria e concorrenti alle ore 18,00 in Piazza Maria Teresa di Calcutta. Partenza da Piazza Maria Teresa di Calcutta, ingresso chiesa alle ore 20,00. Arrivo e premiazioni nella stessa.
+Ammissioni
+Alla gara possono partecipare tutti gli atleti/e appartenenti alle società affiliate alla Fidal, in regola con il tesseramento 2009, per le categorie Assoluti, Amatori, Senior Master maschili e femminili, nonché atleti/e regolarmente tesserate per altre Federazioni sportive o per Ente di promozione sportiva, purché con il tesseramento 2009 e con le norme che regolano la tutela sanitaria dell’attività sportiva agonistica.
+Iscrizioni
+La quota di iscrizione è di € 6,00 comprensiva di pacco gara. Le iscrizioni cumulative o singole, redatte su carta intestata della società di appartenenza, si effettuano tutti i giorni presso la A.S.D. Mediterraneo Eventi al numero di telefax 081.8727063. Per comunicazioni si può anche telefonare al numero di cellulare 3483613820 (Andrea Fontanella). Il termine ultimo per le iscrizioni è Giovedì 16 Luglio 2009.
+Pettorali
+Il pettorale può essere ritirato Sabato 18 Luglio 2009 dalle ore 18,00 alle ore 19,30 in Piazza Maria Teresa di Calcutta.
+&nbsp;
+Percorso
+Partenza in Piazza Maria Teresa di Calcutta, Via Beato Simone, Via S. Andrea, Via Pavia, Via Pepe, Corso Matarazzo, Lungomare Cantieri Navale, Viale Cozzolino, Via Beato Simone, Arrivo in Piazza Maria Teresa di Calcutta.
+Ristoro e Assistenza
+È previsto al km 5 e all’arrivo un servizio ristoro per tutti gli atleti,  assistenza sanitaria, assistenza di Polizia Municipale, Protezione Civile ed Associazioni di Volontariato varie.
+&nbsp;
+Classifiche
+A termine della gara sarà stilata una classifica generale ed una classifica individuale per ogni singola categoria maschile e femminile. La classifica per società sarà unica e stilata sommando il punteggio ottenuto dagli atleti di singole categorie. Il punteggio sarà attribuito secondo i criteri in vigore cioè, tanti punti al primo arrivato, per quanto risultano i concorrenti, a finire un punto all’ultimo classificato.
+Premi individuali maschili: i primi 10 atleti classificati in assoluto riceveranno premi in buoni acquisto per un valore corrispondente a quello previsto.
+Specifica dei premi:
+1° classificato         € 200,00 + targa (buono acquisto)
+2° classificato         € 150,00 + targa (buono acquisto)
+3° classificato         € 100,00 + targa (buono acquisto)
+4° classificato         €  50,00 (buono acquisto)
+5° classificato         €  40,00 (buono acquisto)
+6°/10° classificato     €  30,00 (buono acquisto)
+&nbsp;
+Premi individuali femminili: le prime 3 atlete in assoluto riceveranno premi in danaro, se di categoria Amatore il premio sarà corrisposto in Buoni Acquisti per un valore corrispondente a quello previsto.
+N.B. le suindicate atlete saranno escluse dai premi di categoria.
+Specifica dei premi:
+1^ classificata         € 100,00 + targa (buono acquisto)
+2^ classificata         €   60,00 + targa (buono acquisto)
+3^ classificata         €   30,00 + targa (buono acquisto)
+&nbsp;
+Rimborso spese alle prime 5 società con un minimo di 15 atleti classificati
+1^ società classificata: rimborso spese di €  300,00 + targa
+2^ società classificata: rimborso spese di €  200,00 + targa
+3^ società classificata: rimborso spese di €  100,00 + targa
+4^ società classificata: rimborso spese di €    50,00
+5^ società classificata: rimborso spese di €    30,00
+&nbsp;
+Premi per categoria
+Categoria Amatori: 23/34 M/F - i primi 5 classificati premi di vario genere.
+Categoria Senior Master: 35/40/45/50/55/60/65/70 ed oltre M/F - i primi 3 delle categorie maschili e femminili riceveranno premi di vario genere.
+&nbsp;
+&nbsp;
+
+[post_text_216]
+Prossima gara alla quale parteciperà l'ARS:
+&nbsp;
+III gara PODISTICA DI CARILLIA
+&nbsp;
+ALTAVILLA SILENTINA (SA) IL 01/08/2009 ORE 18.30
+&nbsp;
+KM 10. ISCRIZIONI EURO 5.
+&nbsp;
+&nbsp;

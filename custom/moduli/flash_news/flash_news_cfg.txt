@@ -6,6 +6,15 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+18/07/2009::Partecipanti alla 1&deg; edizione della "Night Marathon" a S.Maria di Castellabate (Sa) di km 10: Gelsomino Merola, Donato Ceres, Saverio Perna, Salvatore Merola, Alessandro Russomanno, Donatello Cirillo, Paolo Viscardi, Mario Di Trolio.
+11/07/2009::Partecipanti alla XVI edizione della gara podistica "CorriRoccadaspide, trofeo S. Sinforosa di km. 7,950 a Roccadaspide (Sa): Gelsomino Merola, Saverio Perna, Alessandro Russomanno, Donatello Cirillo, Paolo Viscardi, Mario Di Trolio.
+05/07/2009::Partecipanti alla gara podistica "1&deg; Corri sull'Altopiano del Laceno" di km 10 a Bagnoli Irpino, localit&agrave; Laceno: Saverio Perna, Donato Ceres, Alessandro Russomanno, Donatello Cirillo, Mario Di Trolio, Salvatore Merola, Antonio Di Trolio (aggregato). 
+16/06/2009::La Stralaceno 2009 si svolger&agrave; venerd&igrave; 28 agosto.
+23/05/2009::Partecipanti alla gara podistica "IV Scalata al Castello" di km 9,6 a Castel San Giorgio (Sa): Francesco Ceres, Saverio Perna, Alessandro Russomanno, Donato Ceres, Salvatore Merola, Paolo Viscardi, Donatello Cirillo, Mario Di Trolio, Gelsomino Merola, Angelo Ceres.
+20/05/2009::Presentato logo della Stralaceno 2009 sul sito internet www.stralaceno.cjb.net
+16/05/2009::Buona partecipazione per i primi 2 ritrovi settimanali in pista  fissati dall'ARS: gioved&igrave; 7 maggio si sono allenati a Calabritto Saverio Perna, Alessandro Russomanno, Francesco Ceres, Mario Di Trolio insieme ad altri 5 ragazzi del posto; gioved&igrave; 14 maggio sono scesi in pista Donato Ceres, Gelsomino Merola, Saverio Perna, Gelsomino Del Guercio, Mario Di Trolio, Alessandro Russomanno, Salvatore Merola pi&ugrave; altri 3 ragazzi locali.
+12/05/2009::Nicola Melillo non far&agrave; pi&ugrave; parte, per sua volont&agrave;, degli associati praticanti dell'ARS.
+02/05/2009::Partecipanti alla gara podistica "V Sulle Orme di Filippide" di km 9,7 a Paestum Capaccio (Sa): Saverio Perna, Alessandro Russomanno, Donato Ceres, Salvatore Merola, Donatello Cirillo, Mario Di Trolio. Accompagnatori: Paolo Viscardi, Luciano Viscido.
 19/04/2009::L'associato praticante Giovanni Cicerano ha partecipato alla Mezza Maratona di Napoli 2009
 07/04/2009::Partecipanti alla gara podistica "X Agropoli Half Marathon" di km 21,097 ad Agropoli (Sa): Donatello Cirillo, Mario Di Trolio.
 22/03/2009::Partecipanti alla gara podistica "XV Maratona di Roma" di km 42,195 a Roma: Saverio Perna, Donato Ceres. Accompagnatori: Paolo Viscardi, Alessandro Russomanno.

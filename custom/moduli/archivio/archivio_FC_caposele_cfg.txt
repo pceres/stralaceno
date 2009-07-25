@@ -12,6 +12,7 @@ FC_caposele::F.C. Caposele::L'album di famiglia della F.C. Caposele
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
+60::FC_caposele::2008/09 FC Caposele-Aquilonia 7-1::Tommaso Cibellis
 59::FC_caposele::2008/09 FC Caposele-S.C.Lioni 0-0::Tommaso Cibellis
 58::FC_caposele::2008/09 FC Caposele-Bisaccese 4-1::Tommaso Cibellis
 57::FC_caposele::2008/09 FC Caposele-Teora 5-3::Gerardo Grasso

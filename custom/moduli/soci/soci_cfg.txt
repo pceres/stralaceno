@@ -30,25 +30,26 @@ Salvatore Colatrella::salcol@hotmail.it::07/10/2006::socio ordinario::::15::Soci
 Giuseppe Martino::gerrymarty@msn.com::19/02/2007::socio ordinario::::16::Soci_ars::
 Gelsomino Merola::::24/08/2007::socio ordinario::::17::Soci_ars::
 Saverio Perna::saveriopmail@libero.it::16/09/2007::socio ordinario::::18::Soci_ars::Resp. squadra podistica agon.
-Armando Grasso::::04/01/2008::socio ordinario::::24::Soci_ars::
+Armando Grasso::::04/01/2008::socio ordinario::::23::Soci_ars::
 Rocco Feniello::::04/01/2008::socio ordinario::::19::Soci_ars::
 Donato Ceres::ceresdo@tiscali.it::07/04/2008::socio ordinario::::20::Soci_ars::
 Antonio Viscido::antonioviscido@yahoo.it::03/05/2008::socio ordinario::::21::Soci_ars::
 Gaetano Rosania::::14/05/2008::associato praticante::::22::Soci_ars::
-Nicola Melillo::n.melillo@cheapnet.it::14/05/2008::associato praticante::::23::Soci_ars::
-Mario Di Trolio::mditrolio@tiscali.it::26/05/2008::associato praticante::::25::Soci_ars::
-Gelsomino Del Guercio::mdelguercio@gmail.com::26/05/2008::associato praticante::::26::Soci_ars::
-Tommaso Cibellis::dottomaso@yahoo.it::26/05/2008::associato praticante::::27::Soci_ars::
+Mario Di Trolio::mditrolio@tiscali.it::26/05/2008::associato praticante::::24::Soci_ars::
+Gelsomino Del Guercio::mdelguercio@gmail.com::26/05/2008::associato praticante::::25::Soci_ars::
+Tommaso Cibellis::dottomaso@yahoo.it::26/05/2008::associato praticante::::26::Soci_ars::
 Giovanni Cicerano::gcicerano@asforin.it::16/06/2008::associato praticante::::31::Soci_ars::
-Stefano Castellano::::16/06/2008::associato praticante::::28::Soci_ars::
-Nicola Ciccone::nciccone@hotmail.it::14/07/2008::socio ordinario::::29::Soci_ars::Resp. relazioni esterne
-Massimo Cetrulo::massimocetrulo@yahoo.it::14/07/2008::socio ordinario::::30::Soci_ars::
-Angelo Ceres::ceres.av@tin.it::20/11/2008::associato praticante::::32::Soci_ars::
+Stefano Castellano::::16/06/2008::associato praticante::::27::Soci_ars::
+Nicola Ciccone::nciccone@hotmail.it::14/07/2008::socio ordinario::::28::Soci_ars::Resp. relazioni esterne
+Massimo Cetrulo::massimocetrulo@yahoo.it::14/07/2008::socio ordinario::::29::Soci_ars::
+Angelo Ceres::ceres.av@tin.it::20/11/2008::associato praticante::::31::Soci_ars::
 
 #
 # formato elenco_news:  data::news
 #
 [elenco_news]
+16/06/2009::La Stralaceno 2009 si svolger&agrave; venerd&igrave; 29 agosto.
+23/05/2009::Nella gara podistica "IV Scalata al Castello" a Castel San Giorgio (Sa), la squadra Ars ha ottenuto il 4&deg; posto, ricevendo in premio 50 euro.
 01/05/2008::Nella gara podistica "II Quattro passi a San Giuseppe" a Vallesaccarda (Av), la squadra Ars ha ottenuto il 3&deg; posto, ricevendo in premio 50 euro.
 11/02/2008::Affiliazione Ars allo Csen per l'anno 2008: costo 30 euro.
 17/09/2007::Nella gara podistica "II maratonina di Montoro Sup." (Av), la squadra Ars ha ottenuto il 4&deg; posto, ricevendo in premio 70 euro.

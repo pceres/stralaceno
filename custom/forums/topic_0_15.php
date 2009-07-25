@@ -124,6 +124,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 110::cuore::16/11/2008 16.56.17::visible
 111::nic m.::28/11/2008 00.31.48::visible
 112::attento osservatore::16/02/2009 00.22.39::visible
+113::analnatrac::11/05/2009 17.54.07::visible
 
 [post_text_0]
 Riceviamo da CLEON.REN e pubblichiamo:
@@ -1146,3 +1147,6 @@ adesso il tempo delle chiacchiere e' finito inizia l' era durissima per il cuore
 
 [post_text_112]
 ma quale puc stasera la gente di caposele ha capito che anche questo tanto atteso strumento urbanistico e' pieno di errori e superficialita' la politica non si fa per interessi personali con voi stiamo ritornando indietro di molti anni altro che decantato cambiamento avete solo separato un paese per il gusto di vincere senza neanche capire e sapere come si amministra democraticamente siete e resterete solo un gruppo di mediocri.
+
+[post_text_113]
+ragazzi, ancora una volta il grande Lucio Viscido, zitto-zitto, tomo-tomo, cacchio-cacchio, ci ha stupiti candidandosi alla provincia per l'italia popolare, ormai da lui solo sorprese, anche se mi sarei aspettato una candidatura per un partito un po' più serio, tipo il partito dell'amore o quello dei separatisti sardi, oppure il partito per la antistralaceno, Lucio sei un grande.

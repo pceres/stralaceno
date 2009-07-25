@@ -63,6 +63,11 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 49::Irpinianews.it::31/03/2009 16.55.01::visible
 50::IrpiniaNews.it::16/04/2009 11.42.30::visible
 51::IrpiniaNews.it::22/04/2009 12.52.38::visible
+52::Ottopagine.it::11/05/2009 10.59.32::visible
+53::ComuneCaposele.it::14/05/2009 12.23.06::visible
+54::Ministero Interno::08/06/2009 10.26.59::visible
+55::Ministero Interno::09/06/2009 10.12.58::visible
+56::Irpinianews.it::16/07/2009 13.23.40::visible
 
 [post_text_0]
 In questo spazio saranno inseriti articoli apparsi sul web relativi ad eventi, persone, fatti avvenuti a Caposele.
@@ -572,3 +577,159 @@ In merito, il sindaco Pasquale Farina ha commentato: “In un periodo storico in c
 (martedì 21 aprile 2009 alle 19.56)
 &nbsp;
 &nbsp;
+
+[post_text_52]
+ELEZIONI PROVINCIALI  6/7 giugno 2009
+&nbsp;
+COLLEGIO 16 LIONI (Lioni – Caposele- Calabritto – Senerchia- Teora)
+&nbsp;
+Candidati:
+Mpa: Casale Giuseppe
+Pcl: Battista C. Gianpaola
+Pdl: Gonnella Domenico
+Patto Pop.: Spiotta Cesare
+Merito e Libertà: Spatola Ettore
+Pri: Clemente Luigi
+Cs. Alt: Barbone Massimo
+Prc-Pdci-Sc: Sciarappa Dante
+C.Sociali: Casillo Salvatore
+Nuova Italia: Grippo Giuseppe G.
+Pensionati per l’Irpinia: Squittieri Franca
+Costituente Unione Centro: Calabrese Gaetano
+Alleanza di Centro: Rosania Geremia
+Pd: Farina Stefano
+Democratici per l’Irpinia: Grasso Gelsomino
+ Italia dei Valori: Malanga Francesco
+La Destra: Cetrulo Pietro
+Italiani nel Mondo: Mauriello Antonio
+Nuovo Psi: Vivolo Maria
+Dc: ———
+Forza Nuova: Palatucci Francesco
+Udeur: Gialanella Antonietta
+Sinistra Democratica: Riccardi Domenico R.
+La Sinistra che Unisce: Fungaroli Vincenzo
+Patto Ecologista Rif.: Di Zenzo Donato
+Italia Popolare: Viscido Lucio
+&nbsp;
+
+[post_text_53]
+GIOSTRE GRATIS
+&nbsp;
+l'amministrazione comunale e' lieta di poter offrire a tutti i bimbi/ragazzi di Caposele le GIOSTRE GRATUITAMENTE VENERDI' 15 MAGGIO DALLE ORE 17,00 ALLE ORE 19,00
+&nbsp;
+
+[post_text_54]
+ELEZIONI EUROPEE 6-7 GIUGNO 2009 Italia
+IV CIRCOSCRIZIONE: ITALIA MERIDIONALE
+Regione: CAMPANIA
+Provincia: AVELLINO
+&nbsp;
+Comune: CAPOSELE
+&nbsp;
+Elettori 4.164
+Votanti	2.281	54,77 %
+&nbsp;
+Schede bianche	196	8,59 %
+Schede nulle	76	3,33 %
+&nbsp;
+IL POPOLO DELLA LIBERTA'   voti	705	35,09%
+PARTITO DEMOCRATICO 	        581     28,91%
+UNIONE DI CENTRO 	        238     11,84%
+DI PIETRO ITALIA DEI VALORI 	170	 8,46%
+SINISTRA E LIBERTA' 	        110 	 5,47%
+RIFOND.COM.-SIN.EUROP.-COM.IT. 	 70	 3,48%
+LA DESTRA-MPA-PENS.-ALL.CENTRO 	 70	 3,48%
+FIAMMA TRICOLORE 	         28      1,39%
+LISTA PANNELLA - BONINO          20      0,99%
+LEGA NORD 	                  8      0,39%
+FORZA NUOVA 	                  5      0,24%
+LIBERAL DEMOCRATICI - MAIE 	  4	 0,19%
+&nbsp;
+Totale voti                   2.009
+
+[post_text_55]
+Elezioni amministrative del 6 - 7 giugno 2009
+Provincia di AVELLINO
+&nbsp;
+Comune di CAPOSELE
+&nbsp;
+Elettori 4.383
+Votanti 2.279 51,99 %
+&nbsp;
+Schede bianche 100 - 4,38 %
+Schede nulle 47 - 2,06 %
+Schede contestate e non assegnate  11 - 0,48 %
+&nbsp;
+---
+SIBILIA COSIMO 1.109 - 52,28 %
+---
+MERITO E' LIBERTA' 416 - 19,82
+ALLEANZA DI CENTRO PER LA LIBERTA' 266 - 12,67 %
+LA DESTRA 136 - 6,48 %
+IL POPOLO DELLA LIBERTA' 120 - 5,71 %
+UNIONE DI CENTRO 93 - 4,43 %
+MPA MOVIMENTO PER LE AUTONOMIE 33 - 1,57 %
+PATTO POPOLARE PER L'IRPINIA  10  - 0,47 %
+U.D.EUR POPOLARI 10 - 0,47 %
+NUOVO PSI 8 - 0,38 %
+NUOVA ITALIA 6 - 0,28 %
+DE GREGORIO ITALIANI NEL MONDO 3 0,14 %
+PRI - - %
+Totale 1.101 - 52,47 %
+&nbsp;
+---
+DE SIMONE ALBERTA 932 43,94 %
+---
+PARTITO DEMOCRATICO 286 13,63 %
+DEMOCRATICI PER L'IRPINIA 279 13,29 %
+DI PIETRO ITALIA DEI VALORI 151 7,19 %
+LA SINISTRA 144 6,86 %
+ITALIA POPOLARE 26 1,23 %
+CSI CRISTIANO SOCIALI PER L'IRPINIA 23 1,09 %
+PATTO ECOLOGISTA RIFORMISTA PER L'IRPINIA 8 0,38 %
+PENSIONATI PER L'IRPINIA 2 0,09 %
+Totale 919 43,80 %
+&nbsp;
+---
+SANTORO AMALIO 75 3,53 %
+---
+SINISTRA DEMOCRATICA 45 2,14 %
+RIFOND.COM. - SIN.EUROPEA - COM.ITALIANI 22 1,04 %
+CENTROSINISTRALTERNATIVO SANTORO PRESIDENTE 8 0,38 %
+Totale 75 3,57 %
+&nbsp;
+---
+COLUCCI BENEDETTO 3 0,14 %
+---
+PARTITO COMUNISTA DEI LAVORATORI 3 0,14 %
+&nbsp;
+---
+D'AVANZO ANTONIO 2 0,09 %
+---
+LIBERTA' DEMOCRAZIA CRISTIANA - -
+&nbsp;
+---
+GALEOTALANZA SAVERIO - -
+---
+FORZA NUOVA-M.S.I.-PENS. ED INVALIDI - -
+&nbsp;
+Totale voti ai candidati presidente 2.121
+Totale voti ai gruppi 2.098
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+[post_text_56]
+Caposele - Politiche ambientali: Ceres investe in prevenzione
+&nbsp;
+Tutelare, difendere il nostro patrimonio naturale è uno dei principali obiettivi che sta perseguendo l’Amministrazione Comunale di Caposele.
+&nbsp;
+ Il territorio presenta una biodiversità (flora e fauna) di notevole importanza. Negli ultimi mesi si è vista ed udita, infatti, la presenza del lupo. Il territorio è caratterizzato, altresì, da folti boschi, da un sottobosco ricco di prodotti pregiati, da flora spontanea, da sorgenti tra le più importanti d’Europa e da un paesaggio ameno che regala sensazioni piacevoli, ideali per vincere lo stress causato dal ritmo frenetico della vita metropolitana. Purtroppo qualcuno, forse non perfettamente consapevole dell’importanza che hanno queste risorse, non perde occasione per depauperarle e danneggiarle in spregio alle leggi ed ai regolamenti esistenti.
+&nbsp;
+“Nonostante la poca disponibilità finanziaria del Comune - ha spiegato l’assessore alle politiche ambientali Angelo Ceres - abbiamo studiato e trovato una soluzione al problema capace di eliminare o quanto meno frenare la commissione di tali illeciti.  Nel mese di giugno abbiamo deliberato e stipulato una convenzione con Gerardo Colarusso presidente delle Guardie Ambientali Volontarie “Federazione Pro Vita” le quali stanno svolgendo, per il momento, una valida azione di prevenzione.
+&nbsp;
+Costante è la loro presenza sul nostro territorio accompagnata da un’elevata professionalità e da un’ottima preparazione in materia ambientale. Sicuramente questo provvedimento sarà indigesto per tutti quelli che, da sempre, hanno considerato il demanio comunale terra di nessuno da sfruttare per propri illeciti scopi.
+Speriamo di poter incrementare ancor di più la presenza di questi volontari coinvolgendo anche ragazzi di Caposele. I cittadini che si sentono responsabili e che vivono con forte motivazione il degrado qualitativo delle nostre risorse naturali possono contribuire, in tal modo, a valorizzare il nostro patrimonio ambientale”.
+&nbsp;
+(mercoledì 15 luglio 2009 alle 19.55)

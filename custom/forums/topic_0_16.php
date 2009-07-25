@@ -79,6 +79,12 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 65::AmbienteNews::19/03/2009 21.28.47::visible
 66::NewsAmbiente::06/04/2009 15.39.49::visible
 67::paco::07/04/2009 20.51.59::visible
+68::AmbienteNews::19/05/2009 15.57.10::visible
+69::Ambientenews::11/06/2009 15.28.52::visible
+70::NewsAmbiente::11/06/2009 20.16.58::visible
+71::AmbienteNews::23/06/2009 16.10.02::visible
+72::NewsAmbiente Comune::25/06/2009 15.31.06::visible
+73::Comune Ambiente::01/07/2009 14.50.43::visible
 
 [post_text_0]
 Qui proposte, osservazioni, critiche e tutto ciò che concerne l'ambiente e la natura dalle grosse tematiche di interesse mondiali ai piccoli accadimenti del paese.
@@ -817,3 +823,93 @@ E sul sito c'e' una cartografia veramente ben fatta!
 <a href="http://www.parcoregionalemontipicentini.it/PMP/">http://www.parcoregionalemontipicentini.it/PMP/</a>
 &nbsp;
 &nbsp;
+
+[post_text_68]
+Continua l'attività dell'Amministrazione Comunale nell'attività di bonifica delle aree.
+Si tratta della zona a monte della Castagneta nel vallone che scende
+dalla Mauta. Una zona impervia dove da anni si sversavano rifiuti di tutti i tipi.
+La pericolosità stava diventando preoccupante visto che una serie di rifiuti, in seguito alle forti precipitazioni, stavano ostruendo il canale eregendosi a diga con possibili conseguenze anche per il centro abitato di Caposele.
+Rinvenuti circa 15 quintali di rifiuti.
+Angelo Ceres
+
+[post_text_69]
+Lupo ferito soccorso e gestito in collaborazione tra i parchi nazionali del Gran Sasso e della Majella
+&nbsp;
+Isola del Gran Sasso 20/05/09– Ancora una storia sulla possibile amicizia tra l’uomo e il lupo si è verificata questa volta nel territorio di Amatrice, dove alla fine di aprile gli agenti del Corpo Forestale dello Stato hanno preso in custodia un esemplare gravemente ferito la cui presenza era stata segnalata sulla via Salaria. Con l’ausilio di un agricoltore e di un veterinario della zona, il lupo è stato prontamente immesso in una cassa di trasporto e preso in custodia dal personale del Parco del Gran Sasso e Monti della Laga. Si trattava di un giovane maschio di circa due anni, un individuo probabilmente in dispersione, vittima di investimento da parte di un’autovettura e successivamente aggredito da cani. Il lupo presentava numerose ferite lacero contuse da morso in tutto il corpo, uno stato generale di denutrizione con masse muscolari treno posteriore ipotrofiche e fratture dell’osso nasale e del radio e dell’ulna dell’avambraccio destro.
+&nbsp;
+Il primo soccorso, così come la terapia ed il recupero dell’esemplare sono stati condotti dal Parco Nazionale del Gran Sasso e Monti della Laga, con il fondamentale supporto del Parco Nazionale della Majella, che ha messo a disposizione i propri tecnici, strutture ed esperienza nella gestione del Lupo.
+&nbsp;
+Nei giorni scorsi sono stati osservati e valutati i progressivi miglioramenti nelle condizioni dell’animale che il 30 aprile, grazie alla collaborazione del prof. Amedeo Cuomo, ordinario di Chirurgia della Facoltà di Medicina Veterinaria dell’Università degli Studi di Teramo, presso le stesse strutture di Lama dei Peligni, era stato operato alle fratture dell’avambraccio, con apposizione di un impianto di fissazione esterna che dovrebbe consentire un rapido recupero funzionale dell’arto.
+&nbsp;
+«E’ la prima volta – sottolinea il Commissario Straordinario Arturo Diaconale – che la gestione di un lupo ferito sia condotta direttamente da professionalità interne ai Parchi e rappresenta pertanto un’esperienza significativa per la futura gestione di problematiche che, a causa della convivenza tra uomo e fauna selvatica in territori a forte antropizzazione, si presentano con sempre maggiore frequenza nell’area protetta. Come Ente siamo grati al Parco Nazionale della Majella per l’opportunità di tale fondamentale collaborazione».
+&nbsp;
+
+[post_text_70]
+Orsa di sei anni trovata morta nel Parco
+&nbsp;
+Notizia del 11/06/2009
+&nbsp;
+Pescasseroli. – Siano purtroppo costretti a dare, ancora un volta, la triste notizia della morte di un Orso bruno marsicano.
+Si tratta di una femmina di 5-8 anni, del peso di circa quaranta chilogrammi, trovata in stato di decomposizione, ai margini del bosco a quota 1945 metri in località Valle Orsara,  sulle pendici del Monte Campitello, in Comune di Scanno (AQ), all’interno della Riserva Integrale del Parco.
+&nbsp;
+Il ritrovamento è avvenuto su segnalazione di alcuni escursionisti diretti sul Monte Marsicano che lo hanno segnalato al CFS di Castel di Sangro.
+Al recupero della carcassa, oltre gli Agenti del C.T.A. e un Reparto Guardie del Parco hanno partecipato anche ricercatori del Dipartimento di Biologia Animale dell’Università “La Sapienza” di Roma, titolari della ricerca scientifica in corso.
+&nbsp;
+Dopo un preliminare esame della zona circostante, al fine di rinvenire eventuali tracce, segni, materiale biologico che potesse condurre alla individuazione  delle cause della morte dell’animale ed un primo rilievo necroscopico e antropometrico della carcassa, la stessa è stata trasportata presso la Direzione del Parco a Pescasseroli per ulteriori esami.
+&nbsp;
+Qui, dalla ricognizione esterna della carcassa non sono emersi ulteriori elementi utili per accertare definitivamente la causa della morte. Comunque, l’età adulta del soggetto, che indica una piena maturità biologica dell’animale e la località di alta montagna in cui è stata rinvenuta e l’importanza conservazionistica  rivestita da una femmina di Orso deceduta, richiedono ulteriori accertamenti, sia anatomopatologici che tossicologici al fine di escludere con certezza cause di morte riconducibili all’uomo (bracconaggio, avvelenamenti), presso l’Istituto Zooprofilattico di Teramo competente territorialmente.
+&nbsp;
+“Siamo veramente addolorati per questa ennesima morte di un prezioso esemplare di Orso bruno marsicano, dichiara il Presidente del Parco, Giuseppe Rossi.
+Si tratta di un danno incalcolabile per il Parco e per l’Italia. La morte di ogni individuo di Orso – in questo caso si tratta di una femmina! – costituisce una perdita gravissima, data la situazione a rischio di questa preziosa specie autoctona.
+Naturalmente il Parco continuerà nella sua azione di potenziamento delle attività di sorveglianza e di conservazione, pur nelle difficoltà oggettive in cui è costretto a operare”.
+&nbsp;
+Nei prossimi giorni continueranno i pattugliamenti delle Guardie del Servizio Sorveglianza del Parco e degli Agenti del CTA/CFS coordinati dal Dottor Luciano Sammarone, allo scopo di verificare l’integrità del territorio intorno al luogo di ritrovamento dell’Orso morto.
+&nbsp;
+Comunicato Stampa n. 36/2009
+
+[post_text_71]
+Fin dai primi anni dalla nascita del WWF, la lontra è stata  l’ “Oggetto Misterioso”. Le ricerche organizzate dall’Associazione fin dal 1986 davano segnali di progressivo declino. La scomparsa da tutto il Nord Italia e da zone da noi controllate come le Oasi di Burano, Bolgheri, Vulci,  il bacino del Farma-Merse e la mancanza di dati da altre aree ci preoccupavano moltissimo.
+&nbsp;
+Nel Libro Rosso degli Animali d’Italia, pubblicato nel 1998 dal WWF con il contributo del Ministero delle Ricerca Scientifica, si calcolava che di questa rarissima specie non rimanessero, in Italia, che meno di 100 (cento) esemplari. I segni di presenza, per anni, si limitavano a incerte orme nel fango, a tracce di escrementi, ma lei, la Signora dei Fiumi, nessuno riusciva a vederla. Ma da qualche anno, grazie a un’accresciuta sensibilità, alle Oasi create nel Mezzogiorno (come Policoro, Gole del Bussento, Lago di Conza) e alla sempre maggiore tranquillità nella storica Oasi di Persano, la lontra ha cominciato finalmente a farsi vedere.
+&nbsp;
+Oramai a Persano non è più eccezionale poterla ammirare anche di giorno. Ed è possibile anche fotografarla, come ha fatto il fotografo Carlo Falanga, alle 8.10 del 30 maggio scorso, affacciandosi a uno dei tanti osservatori che questa attrezzatissima Oasi mette a disposizione dei visitatori. Un’ ulteriore riprova, se ce ne fosse bisogno, di come un’attenzione pluridecennale e la pace assicurata dalle nostre Oasi contribuiscano a recuperare situazioni già date per compromesse definitivamente. Fulco Pratesi
+&nbsp;
+
+[post_text_72]
+L'amministrazione Farina, con l'assessorato all'ambiente, ancora impegnata nell'attività di tutela e protezione del nostro patrimonio naturale.
+E' stata stipulata una convenzione con la Federazione Pro Vita per la vigilanza ambientale. Diventerà, così, più difficile commettere illeciti ambientali sul territorio.
+Angelo Ceres
+
+[post_text_73]
+                                   COMUNE di CAPOSELE
+                                  provincia di Avellino
+&nbsp;
+                                       IL SINDACO
+                                        PREMESSO
+&nbsp;
+-che nel territorio montano del Comune di Caposele vi è la presenza di flora spontanea pregiata e ricercata ed in particolare dell’origano;
+-che negli ultimi anni si è assistito ad una raccolta indiscriminata dell’origano tanto da comprometterne la regolare diffusione e crescita;
+·	Atteso che è in via di organizzazione il nuovo regolamento degli usi civici;
+·	Visto lo Statuto Comunale;
+·	Vista la legge regionale n. 40 del 25/11/1994 “Tutela della flora endemica e rara”;
+·	Ritenuto pertanto necessario regolamentare la materia con specifica ordinanza al fine di preservare e tutelare la raccolta, la diffusione e crescita dell’origano;
+·	Visti i poteri conferiti al Sindaco;
+&nbsp;
+                                          ORDINA
+&nbsp;
+-che, per permettere la raccolta da parte di tutti i cittadini, è necessario rispettare il quantitativo giornaliero di 100 aste floreali previa autorizzazione rilasciata dal Sindaco e con le modalità stabilite nel regolamento sugli usi civici;
+-che la raccolta dell’origano può avvenire a partire dal 15 luglio fino al 30 settembre affinchè esso possa completare la maturazione del frutto necessaria per la naturale propagazione del seme;
+-che il taglio degli steli o fusti fiorieri (gli steli non fiorieri non vanno raccolti) deve avvenire a non meno di 5 cm dal suolo;
+&nbsp;
+-che si possono utilizzare per il taglio solo ed esclusivamente forbici da potatore o cesoie. È necessario lasciare su ogni ceppaia almeno qualche stelo in fioritura. È vietata l’asportazione manuale o il taglio con utensili diversi da quelli sopra riportati (falce, coltello, zappetta ecc.) in modo tale da evitare l’estirpazione delle piantine;
+&nbsp;
+                                         AVVERTE
+&nbsp;
+che i trasgressori saranno puniti la con sanzione amministrativa pecuniaria da un minimo di euro 50,00 ad un massimo di euro 300,00 oltre la sanzione accessoria della confisca del prodotto. Per ogni dieci assi floreali in eccedenza con la sanzione amministrativa di euro 5,00 oltre la sanzione accessoria della confisca del prodotto.
+DISPONE
+-che il Corpo di Polizia Municipale e le Guardie Ambientali Volontarie sono incaricate al controllo e alla vigilanza;
+-che la presente ordinanza avrà validità fino all’approvazione del nuovo regolamento sugli usi civici;
+-che la presente ordinanza è resa pubblica ai cittadini tramite manifesti,  affissione all’Albo pretorio del Comune e pubblicazione sul sito web del Comune (www .comunecaposele.it).
+Dalla Residenza Municipale addì ,30 Giugno 2009.-
+L’Assessore alle politiche ambientali			      Il Sindaco
+dott. Angelo CERES                                           Pasquale FARINA

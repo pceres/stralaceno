@@ -141,6 +141,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 127::lupa::07/09/2008 17.00.57::visible
 128::lupa::07/09/2008 17.02.03::visible
 129::Paolo Viscardi::28/09/2008 23.24.43::visible
+130::nic.m.::30/06/2009 00.40.04::visible
 
 [post_text_0]
 Aspettiamo le vostre dichiarazioni di sfida...
@@ -784,3 +785,6 @@ impara a saper perdere
 Ciao ragazzi, venerdi sera si terrà una cena sociale ARS a casa di Gerardo Martino in contrada buoninventre. Sono invitati tutti i soci, e tutti gli interessati all'associazione; per trascorrere una serata in compagnia e per discutere su varie questioni riguardante l'associazione ed in particolar modo l'organizzazione della squadra podistica per tesseramento 2009. Saluti
 &nbsp;
 Paolo
+
+[post_text_130]
+oggi grande allenamento con claudio donatiello a laceno sotto la pioggia io un tempo sui 25 e claudio 27 va bene cosi' non ci arrendiamo ma li' non c' e' mai nessun altro coraggioso l' importante e' che ci siamo noi.
