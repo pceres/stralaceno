@@ -120,8 +120,28 @@ Id;Collaboratore;Sesso;Incarico;Anno;Link;Nota
 11;Salvatore Russomanno;M;Medico di gara;2008;;
 31;Nicola Ciccone;M;Responsabile foto-video, Cameraman;2008;-;-
 39;Gerardo Donatiello;M;Cameraman;2008;-;-
-42;Gerardo Zarra;M;Fotografo ufficiale;2008;-;-
-41;Letizia Malanga;F;Fotografo ufficiale;2008;-;-
+42;Gerardo Zarra;M;Fotografo;2008;-;-
+41;Letizia Malanga;F;Fotografo;2008;-;-
 40;Vittorio Nesta;M;Collaboratore;2008;-;-
 38;Salvatore Colatrella;M ;Collaboratore;2008;-;-
 43;Giuseppe Cuozzo;M;Collaboratore;2008;-;-
+1;Nicola D'Auria;M;Organizzatore;2009;-;-
+2;Alessandro Russomanno;M;Organizzatore;2009;-;-
+3;Donatello Cirillo;M;Organizzatore;2009;-;-
+36;Viscardi Paolo;M;Organizzatore;2009;-;-
+27;Nicola Cirillo;M;Direttore di gara;2009;;
+4;Lello Viscardi;M;Cronometrista ufficiale;2009;-;-
+9;Alfonso Curcio;M;Cronometrista di riserva;2009;-;-
+28;Valentino Di Masi;M;Segretario di gara;2009;-;-
+5;Gerardo Ceres;M;Conduttore della manifestazione;2009;-;-
+32;Alfonso Malanga;M;Ispettore di gara;2009;-;-
+11;Salvatore Russomanno;M;Medico di gara;2009;-;-
+31;Nicola Ciccone;M;Responsabile foto-video, Cameraman;2009;-;-
+39;Gerardo Donatiello;M;Cameraman;2009;-;-
+42;Gerardo Zarra;M;Fotografo;2009;-;-
+44;Elisa Malanga;F;Fotografo;2009;-;-
+45;Saverio Perna;M;Collaboratore;2009;-;-
+30;Fuschetto Salvatore;M;Collaboratore;2009;-;-
+34;Carmela Malanga;F;Collaboratrice;2009;-;-
+47;Angelino Cetrulo;M;Collaboratore;2009;-;-
+
