@@ -16,8 +16,9 @@ Benedetto Montanari::01/09/2001::Ingiustificato inadempimento
 Angelo Ceres::01/09/2001::Ingiustificato inadempimento
 #Lello Viscardi::01/09/2001::Ingiustificato inadempimento
 Benito Sista::02/09/2005::Millantata partecipazione
-Alfonso Curcio::31/08/2007::Millantata partecipazione
+Giuseppe Curcio::31/08/2007::Millantata partecipazione
 Alfredo Grasso::31/08/2007::Millantata partecipazione
 Donato Nesta::29/08/2008::Millantata partecipazione
 Gerardo Grasso di Ton.::29/08/2008::Millantata partecipazione
 Giannattasio Giuseppe::29/08/2008::Millantata partecipazione
+Rosania Gianfranco::29/08/2008::Millantata performance
