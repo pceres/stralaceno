@@ -148,21 +148,20 @@ for ($i = 1; $i < count($archivio); $i++)
 	{
 		$item1 = array_slice($archivio[$i],0,$indice_nome+1);
 		$punteggio = punteggio_presenze(array($item2),$mode).'';
-		$new_item = array_merge($item1,array(array($item2)),1,$punteggio.'',$archivio[$i][$indice_anno],1);
+		$new_item = array_merge($item1,Array(Array($item2)),Array(1,$punteggio.'',$archivio[$i][$indice_anno],1));
 		array_push($list_atleti,$id);
 		$indice = count($archivio2);//-1;
 	}
-	$archivio2[$indice] = $new_item;	
+	$archivio2[$indice] = $new_item;
 
 	$archivio[$i][$indice_presenze] = $new_item[count($new_item)-1];
 }
 
-$head = array_merge(array_slice($archivio[0],0,$indice_nome+1),'Pos.','Numero<br>presenze<br>regolari','Punteggio<br>regolarit&agrave;','Tooltip','Pos.');
-$archivio2 = array_merge(array($head),$archivio2);
+$head = array_merge(array_slice($archivio[0],0,$indice_nome+1),Array('Pos.','Numero<br>presenze<br>regolari','Punteggio<br>regolarit&agrave;','Tooltip','Pos.'));
+$archivio2 = array_merge(Array($head),$archivio2);
 
 $atleti = load_data($filename_atleti,$num_colonne_atleti);
 $archivio = merge_tempi_atleti($archivio2,$atleti); // non uso il terzo parametro opzionale, in quanto non verrebbe calcolato correttamente
-
 
 $lista_indici = array($indice_presenze,$indice_punteggio);
 $archivio_ordinato = ordina_archivio($archivio,$lista_indici,SORT_DESC);
@@ -171,13 +170,11 @@ for ($i=1; $i<count($archivio_ordinato);$i++)
 {
 	if (($i == 1) || ($archivio_ordinato[$i][$indice_presenze]!=$archivio_ordinato[$i-1][$indice_presenze]) || ($archivio_ordinato[$i][$indice_punteggio]!=$archivio_ordinato[$i-1][$indice_punteggio]))
 	{
-		//$archivio_ordinato[$i][$indice_posizione] = $i;	
-		$archivio_ordinato[$i][$indice_posiz] = $i;	
+		$archivio_ordinato[$i][$indice_posiz] = $i;
 	}
 	else
 	{
-		//$archivio_ordinato[$i][$indice_posizione] = $archivio_ordinato[$i-1][$indice_posizione];	
-		$archivio_ordinato[$i][$indice_posiz] = $archivio_ordinato[$i-1][$indice_posiz];	
+		$archivio_ordinato[$i][$indice_posiz] = $archivio_ordinato[$i-1][$indice_posiz];
 	}
 }
 
