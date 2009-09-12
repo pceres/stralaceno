@@ -40,49 +40,6 @@ P.RE.G.FA.S. - Pubblico REgistro dei Grandi FAnfaroni della Stralaceno
 
 <br>
 
-<div align="center">
-<table class="tabella" style="font-size:1.7em;"><tbody><tr><td>
-
-<table>
-	<!--caption>Elenco dei fanfaroni:</caption-->
-	<thead><tr>
-		<th>Nominativo</th>
-		<th>Data di iscrizione</th>
-		<th>Causa di iscrizione</th>
-		<!--th>Data di cancellazione</th>
-		<th>Causa di cancellazione</th-->
-	</tr></thead>
-	<tbody>
-%%%% begin pregfas_cfg.txt elenco_fanfaroni 3
-	<tr>
-		<td nowrap style='padding:0.5em;'>
-			%field0% 
-		</td>
-		<td align=center>
-			%field1% 
-		</td>
-		<td>
-			%field2% 
-		</td>
-		<!--td align=center>
-			%field3% 
-		</td>
-		<td align=center>
-			%field3% 
-		</td-->
-	</tr>
-%%%% end
-	</tbody>
-</table>
-
-</td></tr></tbody></table>
-
-</div>
-<br>
-%%%% begin pregfas_cfg.txt data_aggiornamento 1
-	<i>Registro aggiornato al %field0%</i>
-%%%% end
-
 <hr>
 
 <p style="text-indent: 2em;">
@@ -130,6 +87,78 @@ Logicamente prima di procedere
 all'iscrizione &egrave; necessaria una fase istruttoria nella quale si verifica l'esistenza di giustificazioni o di 
 attenuanti, valutando anche caso per caso e con opportuna  indulgenza. La conseguenza &egrave; quindi che i casi ove si 
 decide di procedere ad iscrizione sono solo i casi conclamati, la cui gravit&agrave; &egrave; evidente e documentabile.
+
+<hr>
+<br>
+
+<div align="center">
+<table class="tabella" style="font-size:1.7em;"><tbody><tr><td>
+
+<table>
+	<!--caption>Elenco dei fanfaroni:</caption-->
+	<thead><tr>
+		<th>Nominativo</th>
+		<th>Data di iscrizione</th>
+		<th>Causa di iscrizione</th>
+		<!--th>Data di cancellazione</th>
+		<th>Causa di cancellazione</th-->
+	</tr></thead>
+	<tbody>
+%%%% begin pregfas_cfg.txt elenco_fanfaroni 3
+	<tr>
+		<td nowrap style='padding:0.5em;'>
+			%field0% 
+		</td>
+		<td align=center>
+			%field1% 
+		</td>
+		<td>
+			%field2% 
+		</td>
+		<!--td align=center>
+			%field3% 
+		</td>
+		<td align=center>
+			%field3% 
+		</td-->
+	</tr>
+%%%% end
+	</tbody>
+</table>
+
+</td></tr></tbody></table>
+
+</div>
+
+<br>
+%%%% begin pregfas_cfg.txt data_aggiornamento 1
+	<i>Registro aggiornato al %field0%</i>
+%%%% end
+
+
+<br>
+<hr>
+
+<b>Riesame delle posizioni e riabilitazione del fanfarone</b>
+
+<ol>
+
+<li>Chiunque può ricorrere avverso il presente Registro, richiedendo che venga riesaminata una determinata posizione. In particolare è possibile contestare:<br>
+<ul>
+<li>una iscrizione</li>
+<li>una mancata iscrizione</li>
+<li>una cancellazione</li>
+<li>una mancata cancellazione</li>
+</ul>
+</li>
+
+<li>
+La procedura di riabilitazione del fanfarone non può che basarsi sul principio del ravvedimento operoso. Le modalità devono essere definite caso per caso e avallate dalla Commissione che - verificato l'avverarsi delle condizioni necessarie - dispone la cancellazione dal Registro, del nominativo del ravveduto. Solo in presenza di fatti eccezionali è possibile procedere alla cancellazione d'ufficio.
+</li>
+
+</ol>
+
+E' tuttavia opportuno precisare che le contestazioni - soprattutto in determinati casi (se mosse da parte del ricorrente-iscritto, ad esempio) - devono essere fatte in modi e forma idonei a consentire alla Commissione di poter discernere se trattasi di una sincera richiesta di riesame o della semplice reiterata manifestazione della natura del ricorrente quale estrinsecatasi all'atto dell'iscrizione nel Registro.
 
 </div>
 
