@@ -36,7 +36,7 @@ if ( !isset($_SERVER['HTTP_REFERER']) | ("http://".$_SERVER['HTTP_HOST'].$script
 
 <?php
 
-$uploaddir = substr($filename_tempi,0,strlen($filename_tempi)-16);
+$uploaddir = dirname($filename_tempi).'/';
 $password_ok = $password_upload_file; 
 
 $old_name = $_FILES['userfile']['name'];
