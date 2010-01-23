@@ -26,16 +26,28 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 12::NIC M.::12/09/2007 01.59.12::visible
 13::da Irpinianews.it::17/10/2007 10.09.46::visible
 14::da CorriereIrpinia.it::16/11/2007 17.13.40::visible
-15::da Ottopagine::05/02/2008 10.28.14::visible
-16::da IrpiniaNews.it::11/02/2008 23.12.24::visible
-17::da CorriereIrpinia.it::23/02/2008 14.45.03::visible
-18::da CorriereIrpinia.it::06/03/2008 10.48.12::visible
-19::da Il Mattino::02/04/2008 00.12.07::visible
-20::da CorriereIrpinia.it::03/04/2008 10.11.46::visible
-21::da CorriereIrpinia.it::10/04/2008 10.22.08::visible
-22::da Irpinianews.it::14/04/2008 15.34.44::visible
-23::da Selacapo.net::25/06/2008 10.10.35::visible
-24::da Selacapo.net::25/06/2008 10.18.58::visible
+15::Jerry Notaro::22/10/2007 11.48.31::visible
+16::Gerardo D.::23/10/2007 10.14.20::visible
+17::da Ottopagine::05/02/2008 10.28.14::visible
+18::da IrpiniaNews.it::11/02/2008 23.12.24::visible
+19::da CorriereIrpinia.it::23/02/2008 14.45.03::visible
+20::da CorriereIrpinia.it::06/03/2008 10.48.12::visible
+21::da Il Mattino::02/04/2008 00.12.07::visible
+22::da CorriereIrpinia.it::03/04/2008 10.11.46::visible
+23::da CorriereIrpinia.it::10/04/2008 10.22.08::visible
+24::da Irpinianews.it::14/04/2008 15.34.44::visible
+25::da Selacapo.net::25/06/2008 10.10.35::visible
+26::da Selacapo.net::25/06/2008 10.18.58::visible
+27::Ars::19/08/2009 11.40.31::visible
+28::ARS::05/09/2009 12.07.23::visible
+29::Salvatore::04/03/2008 18.16.14::visible
+30::paolo::17/03/2008 12.14.47::visible
+31::Donato Gervasio::17/03/2008 20.51.01::visible
+32::Alessandro::18/03/2008 10.13.26::visible
+33::paolo::19/03/2008 12.35.41::visible
+34::Sal::19/03/2008 13.25.22::visible
+35::da Irpinianews.it::16/04/2008 18.18.28::visible
+36::MIMMO55::21/01/2010 19.48.19::visible
 
 [post_text_0]
 we allora, le polemiche sullo sport caposelese per ora sembra siano terminate. Abbiamo assistito ad uno bel dibattittio, coinvolgendo molte persone. Ma quello che sto cercando di dirvi e che se io posso cambiare e voi potete cambiare, tutto il mondo può cambiare. Questa era una frase tratta dal film di ROCKY, comununque con questo voglio dire che tutte le polemiche non sono mai servita a nulla, piuttosto bisogna cecare di essere quanto più uniti mettendo sul tavolo le proprie idee, ed allora a questo punto le cose potranno cambiare in modo positivo. tutto questo penso che sia la chiave di tutto.
@@ -120,6 +132,16 @@ Intanto gli agenti della polizia continuano le loro indagini, effettuando posti 
 &nbsp;
 
 [post_text_15]
+Sabato 3 novembre si disputerà la seconda edizione della QUASINOVE, gara podistica sui quasi nove chilometri organizzata da Nicola Melillo. Si partirà da Ponte Sele per giungere a Materdomini.
+Per maggiori dettagli visitate: http://www.caposeleonline.it/quasinove.htm
+&nbsp;
+&nbsp;
+
+[post_text_16]
+Allora N.Melillo,
+abbiamo letto il manifesto, ora presentaci la gara. grazie.
+
+[post_text_17]
 Cittadinanza attiva scrive al rappresentante della prefettura per il rispetto dello Statuto
 &nbsp;
 Caposele,lettera aperta al Commissario:
@@ -173,7 +195,7 @@ stati assunti a far data dall’entrata
 in vigore del regolamento in epigrafe.
 &nbsp;
 
-[post_text_16]
+[post_text_18]
 Caposele- Anziana trovata cadavere in casa, forse colpita da infarto
 &nbsp;
 Dramma della solitudine a Caposele dove, nella mattinata di oggi i carabinieri della locale Stazione hanno rinvenuto il cadavere di L. A. di 84 anni.
@@ -181,7 +203,7 @@ Dramma della solitudine a Caposele dove, nella mattinata di oggi i carabinieri d
 (lunedì 11 febbraio 2008 alle 19.17)
 &nbsp;
 
-[post_text_17]
+[post_text_19]
 Atti pubblici sul sito web: sì del commissario di Caposele
 &nbsp;
 CAPOSELE- Atti pubblici sul sito web? Il commissario accoglie la richiesta. Il delegato regionale di Cittadinanz@ttiva Antonio Cione si rivolge, attraverso una lettera aperta, proprio al commissario prefettizio di Caposele, Mario La Montagna. Parla a nome di quanti hanno partecipato all’assemblea di domenica scorsa. E tutti intendono ringraziare il commissario «per la sensibilità dimostrata nell’accogliere la proposta di pubblicare le delibere e gli atti pubblici del Comune di Caposele sul sito web». Con tanto di invito «a continuare questa pratica amministrativa di trasparenza e di condivisione della cosa pubblica». E’ l’occasione, allora, per continuare il dialogo a distanza con il commissario. Ecco gli altri punti sollevati da Cittadinanz@ttiva. «La sospensione dell’autorizzazione alla ditta incaricata di effettuare il collegamento della linea informatica Adsl per il Comune di Calabritto, che dovrebbe attraversare il territorio di Caposele, senza poter usufruire di questo indispensabile servizio da parte della Telecom, non intenzionata a sostituire la centralina analogica che serve il nostro centro urbano, fino a quanto la stessa società di servizi Telecom non assuma per iscritto l’impegno ad effettuare la sostituzione in tempi predeterminati». C’è un altro aspetto che viene sollevato. Riguarda «la verifica, presso la Provincia, della mancata utilizzazione e adeguamento della struttura destinata alla sede del Liceo Scientifico a Caposele».
@@ -189,7 +211,7 @@ Cione chiede anche di conoscere quali siano le determinazioni rispetto alla rich
 Ultima nota:«I risultati raggiunti, ad oggi, dai professionisti incaricati per convenzione, nei confronti dell’Aqp e delle spese programmate ed eventualmente elargite a questi professionisti». 23.02.2008
 &nbsp;
 
-[post_text_18]
+[post_text_20]
 Caposele, trasparenza amministrativa: esulta “Cittadinanza Attiva”
 &nbsp;
 CAPOSELE - Cittadinanza Attiva esulta per la vittoria sulla trasparenza amministrativa. Gli atti saranno pubblicati sul sito web del Comune e l’accesso sarà libero e gratuito per tutti i cittadini. «E’ una grande battaglia portata a termine da Cittadinanza Attiva - commenta Nino Chiaravallo, tra i responsabili dell’associazione coordinata da Alfonso Cione - l’abbiamo sostenuta da tempo e finalmente abbiamo ottenuo i frutti sperati».
@@ -198,7 +220,7 @@ Oggetto. «Regolamento per l’accesso agli atti e ai documenti e alle informazioni
 06.03.2008
 &nbsp;
 
-[post_text_19]
+[post_text_21]
 Gli studenti di Caposele a lezione di giornalismo.
 01/04/2008
 &nbsp;
@@ -208,7 +230,7 @@ so.ac.
 &nbsp;
 &nbsp;
 
-[post_text_20]
+[post_text_22]
 Adsl, Telecom ancora in silenzio. E Caposele pensa al Wireless
 &nbsp;
 ALTO SELE - Internet veloce, Caposele guarda al collegamento senza fili.
@@ -223,7 +245,7 @@ A Calabritto la situazione è differente. Lungo la dorsale dei lavori, sul tragit
 &nbsp;
 &nbsp;
 
-[post_text_21]
+[post_text_23]
 Caso Adsl, lavori in tilt: il Comitato cittadino scrive al Commissario
 &nbsp;
 Caposele - Adsl a Caposele? E’ ancora un’enigma e Cittadinanz@ttiva si mobilita per riappropriarsi di un servizio che attende da ben due anni e, che per via del rallentamento dei lavori (estesi anche a Calabritto) è bloccato.
@@ -237,14 +259,14 @@ Ma prima di avviare i lavori il progettista non ha calcolato le difficoltà e le 
 &nbsp;
 10/04/2008
 
-[post_text_22]
+[post_text_24]
 Caposele - 82enne rinvenuto cadavere sul greto fiume Sele
 &nbsp;
 Tragedia nella serata di ieri  a Caposele. quando nel tardo pomeriggio arrivava alla Centrale operativa della Compagnia dei Carabinieri di Montella la segnalazione della scomparsa di un uomo 82enne, C.C.,  che  qualche ora prima era uscito di casa per un’abituale passeggiata in campagna e non vi aveva fatto più ritorno.  I familiari, preoccupati per la lunga assenza del proprio congiunto e per le mancate risposte ai numerosi tentativi di chiamate effettuate all’utenza cellulare, hanno allertato i Carabinieri che secondo le indicazioni fornite dai familiari stessi si sono immediatamente recati presso una impervia contrada della valle del Sele, dove l’uomo era solito andare per raccogliere asparagi.   Qui, i Carabinieri, organizzati in piccole squadre, hanno pertanto proseguito le ricerche, rese peraltro difficoltose dalla scarsa visibilità delle ore notturne, nella vasta campagna circostante anche con l’ausilio dei familiari stessi, dei Vigili del Fuoco e dei volontari della Misericordia.  Alle prime luci dell’alba dopo alcune ore di angoscia, purtroppo, veniva rinvenuto il corpo senza vita dell’uomo scomparso ponendo fine alle speranze dei familiari di ritrovarlo ancora in vita; le cause della morte sarebbero da attribuirsi alle lesioni causate a seguito di una rovinosa caduta, a seguito di un probabile malore, terminata sul greto del fiume Sele.  Le indagini sono state condotte in stretta sinergia con i Magistrati della Procura di S. Angelo dei Lombardi, coordinati dal Procuratore Capo dott. Antonio Guerriero.
 (sabato 12 aprile 2008 alle 11.11)
 &nbsp;
 
-[post_text_23]
+[post_text_25]
 Su selacapo.net trovate una petizione in cui si chiede a Telecom Italia di attivarsi prontamente per realizzare tutti gli adempimenti tecnici al fine di garantire la copertura del servizio ADSL su tutto il territorio comunale.
 &nbsp;
 E' da un anno che Infratel ha completato i lavori per portare la fibra ottica a Caposele, e attualmente sono in corso i lavori per estendere la rete a Calabritto, ma a Caposele si continuna a utilizzare la tradizionale 56K. Ciò a causa di una vecchia centralina analogica che, nonostante ripetute segnalazioni, non viene sostituita.
@@ -257,7 +279,7 @@ http://selacapo.net/petizioneadsl
 &nbsp;
 &nbsp;
 
-[post_text_24]
+[post_text_26]
 Alla cortese attenzione di Telecom Italia
 Il testo della petizione promossa da Selacapo.net
 &nbsp;
@@ -268,4 +290,118 @@ chiedono
 a Telecom Italia di attivarsi prontamente per realizzare tutti gli adempimenti tecnici e provvedere, ove ce ne fosse bisogno, all'ammodernamento della centralina telefonica di via Lungo Sele, al fine di garantire nel più breve tempo possibile la copertura del servizio ADSL su tutto il territorio comunale.
 &nbsp;
 Per firmarla vai <A HREF="http://selacapo.net/petizioneadsl"> qui </A>.
+&nbsp;
+
+[post_text_27]
+Riceviamo e pubblichiamo:
+&nbsp;
+FORUM DEI GIOVANI GROTTAMINARDA e COMUNE di GROTTAMINARDA (assessorato allo spettacolo)
+&nbsp;
+Organizza venerdi 21 agosto 2009 alle ore 17
+&nbsp;
+La 1° edizione della MANIFESTAZIONE PODISTICA specialità cronometro denominta :
+“Con le ali ai piedi “
+&nbsp;
+Regolamento:
+1)Tale manifestazione è inserita nel programma del “FESTONE 2009
+2)Ogni concorrente percorrerà individualmente un anello di 1 km esatto, tale percorso prevede salita, discesa e pianura in modo tale da esaltare tutte le caratteristiche dell’atleta partecipante.
+3)Il percorso sarà interamente chiuso al traffico
+4)E’ obbligatorio correre sul percorso stradale, eventuali tagli di percorso compreso i marciapiedi comporteranno l’esclusione dalla classifica finale.
+5)Sono previste premiazioni sia individuali che a squadra, ogni squadra deve essere composta da 3 persone.
+6)Il costo d’iscrizione sarà di 2 euro e 50( due euro e cinquanta).
+7)I concorrenti partecipano consapevoli del proprio stato di salute e pertanto si assumono eventuali responsabilità correlate, per i minori l’assunzione di responsabilità ricade sui genitori
+8)Il comitato organizzatore farà tutto ciò che è possibile per la riuscita della manifestazione ma non è responsabile per la condotta dei partecipanti e dei terzi estranei alla manifestazione.
+9)Visto che i pettorali saranno personalizzati (invece del numero ci sarà il cognome) è gradita l’iscrizione entro il giorno 20 agosto
+Ritrovo:  Il ritrovo è fissato alle ore 17 del 21 agosto 2009 in PIAZZA GRANDE
+&nbsp;
+PREMI INDIVIDUALI: sono previsti premi in natura per i migliori  3 tempi;
+saranno premiati i primi 3 delle seguenti categorie maschili:       12-14; 15-19; 20-30; 31-40; 41-50; 51-60; 60 e oltre
+                                        è previsto un premio per l’atleta più anziano
+PREMI Donne : saranno premiate le prime 5 donne
+&nbsp;
+&nbsp;
+Le categorie e i premi potranno subire delle variazioni in base al numero dei partecipanti
+&nbsp;
+PER INFORMAZIONI CHIAMARE IL SEGUENTE NUMERO:
+3381784752 o il 3348677226
+ scrivere a caseifriccio@libero.it o forumgrottaminarda@libero.it
+&nbsp;
+
+[post_text_28]
+Prossima gara:
+&nbsp;
+12 settembre 2009 in Campania, Melito Irpino
+&nbsp;
+L'evento si terrà a Melito Irpino (Avellino).
+Raduno a: 16.00 piazza della Republica
+Si parte alle ore: 18.00
+Lunghezza del percorso: 7,5 Km
+Somma per partecipare: 5 €
+&nbsp;
+Iscrizioni: FAX.. 0825.472006
+&nbsp;
+le iscrizioni delle società e dei singoli atleti devono pervenire entro il giorno 11 sett. tramite fax oppure e-mail
+FAX..   0825.472006
+e-mail      rocco.mansueto@tin.it
+per informazioni contattare Ettore Beatrice  3388486425
+(in via strettamente eccezionale l'iscrizione può essere effettuata anche sabato 12 settembre )
+&nbsp;
+Il contributo d'iscrizione è pari a euro 5,00,
+che da diritto alla consumazione gratuita di una pizza in piazza e bevanda
+PREMIAZIONI
+cat. UOMINI - primi 5 assoluti - ceste e trofeo
+cat. DONNE -prime 5 assolute - ceste e trofeo
+cat. DONNE - dalla 6 ° alla 10° class. - prodotti tipici o altro
+cat. UOMINI - fidal  - i primi 3  di ogni categoria- pacco-con prodotti tipici o altro
+&nbsp;
+N.B.  I PREMI NON SONO CUMULABILI possono subire variazioni in aumento a discrezione dell'organizzazione
+&nbsp;
+&nbsp;
+
+[post_text_29]
+Da notare, nella terza foto della gara di Nusco, Alessandro Russomanno in un momento di grande difficolta, superato brillantemente grazie all'aiuto dei suoi tre Angeli custodi che, con grande spirito di squadra, l'hanno accompagnato sino al traguardo...ah se non ci fossimo noi..povero Ale!
+
+[post_text_30]
+Ho appena visto le foto della grande gara che avete portato a termine ieri. Vi faccio i miei complimenti,davvero, anche una volta la nostra associazione è stata presente in una grande occasione. Ci vediamo in queste piccole vacanze di pasqua, magari per raccontarmi un pò di cose.
+Un saluto da Paolo
+
+[post_text_31]
+Ancora complimenti agli Ars presenti alla Maratona di Roma. Siete immensi!!
+
+[post_text_32]
+Grazie.
+La speranza è quella di avvicinare sempre più persone allo sport e, in particolare, al podismo.
+
+[post_text_33]
+Grande Ale, sono pienamente d'accordo con te, il nostro primo obbiettivo è proprio quello, e poi perchè no anche le soddisfazioni personali. A domani per un grande allenamento, magari a Laceno.
+Ciao ciao
+Paolo
+
+[post_text_34]
+A Laceno c'è la neve...abbassiamoci di quota...a domani..!
+
+[post_text_35]
+Quattro passi a San Giuseppe”: al via la seconda edizione »
+&nbsp;
+Si terrà a Vallesaccarda la seconda edizione di "Quattro passi a San Giuseppe", gara di corsa su strada con un tracciato di 10 chilometri. L'appuntamento è previsto per il 1° maggio presso la località San Giuseppe, da cui prende il nome l'evento. Organizzata dall’Asd Team Runners Baronia, con il patrocinio della Fidal, del Coni, della provincia di Avellino, della Comunità Montana e del comune di Vallesaccarda, la II edizione dè “ Quattro passi a San Giuseppe” prenderà il via alle ore 17,00.
+&nbsp;
+(mercoledì 16 aprile 2008 alle 17.09)
+&nbsp;
+
+[post_text_36]
+Mezza Maratona Città di POTENZA TUNE-UP
+Memorial "Gigi Chiriaco"
+Trofeo A.V.I.S. "IL PROGETTO CUORE
+&nbsp;
+L’Associazione A.S.D. Borgo Antico Portasalza indice ed organizza a Potenza, con la collaborazione, della A.V.I.S. Regionale della Basilicata, con il Patrocinio del Rotary International Distretto 2120° Italia Club Potenza Ovest, del C.O.N.I., della Regione Basilicata, dell' A.P.T. Azienda di Promozione Turistica, della Provincia di Potenza, del Comune di Potenza, la II° Edizione della MEZZA MARATONA CITTA' di POTENZA TUNE-UP, Memorial “Gigi Chiriaco” – Trofeo A.V.I.S. “Il Progetto Cuore”. Corsa podistica su strada, di Km 21,970 - MARATONINA CITTAì di POTENZA TUNE-UP Corsa podistica su strada, di Km 10,00 - GIOCHI STUDENTESCHI " Il MIGLIO di POTENZA" Corsa podistica su strada, di Km 1,60 - "STRA....POTENZA di CUORE" passeggiata amatoriale di circa Km. 2,00
+- Luogo : POTENZA (PZ).
+&nbsp;
+Data di svolgimento : Domenica 07 Marzo 2010.
+&nbsp;
+Ritrovo giuria e concorrenti in Piazza Mario Pagano dalle ore 08:00 per ritiro pettorali e ultime iscrizioni. Partenza ore 09:30 da Via Pretoria, (antistante Piazza Mario Pagano), arrivo in Via Pretoria, (antistante Piazza Mario Pagano), tempo massimo 2:30
+Ore 12:30 Seguirà cerimonia di PREMIAZIONE. Ammissioni Alla gara sono ammessi tutti gli atleti/e appartenenti alle Società affiliate alla F.I.D.A.L., in regola con il tesseramento 2009, nonché gli atleti tesserati con altre Federazioni sportive o Enti di promozione sportiva, sempre in regola con il tesseramento 2009. Alla gara sono ammessi, altresì, tutti gli atleti che presenteranno al momento dell’iscrizione il certificato medico di sana e robusta costituzione.
+&nbsp;
+Il tempo massimo è di ore 2:30 per esigenze legate alla chiusura delle strade.
+Iscrizioni: La quota d’iscrizione, è di Euro 10,00 (€ dieci/00) per la MEZZA MARATONA ed Euro 5,00 (€ cinque/00) per la MARATONINA, da pagare in CONTANTI. Le adesioni, con i dati del tesserino F.I.D.A.L. o di altre Federazioni sportive o Enti di promozione sportiva, devono pervenire entro le ore 14:00 di venerdì 5 marzo 2010 c/o AVIS Basilicata – Fax 0971-46873 basilicata@avis.it oppure all’indirizzo di posta elettronica: leccese.domenico@tiscali.it
+www.borgoanticoportasalza.com
 &nbsp;
