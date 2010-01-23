@@ -16,28 +16,32 @@ Formato [elenco_topics]:
 [elenco_topics]
 0::Benvenuti nel forum::open::::::ceres::5::4
 1::Come funziona il forum::hidden::::::ceres::1::
-2::Sondaggio sui mondiali di calcio 2006::open::::::ceres::3::2
+2::Sondaggio sui mondiali di calcio::open::::::ceres::3::2
 3::Estate caposelese::hidden::::users::Pasquale Ceres::2::1
-4::Sondaggio Champions League 2006/2007::open::::::Pasquale C.::17::16
+4::Sondaggio Champions League::open::::::Pasquale C.::17::16
 5::Benvenuti nel forum::hidden::::::ceres::4::3
 6::Come funziona il forum::open::::::ceres::3::2
-7::le sfide della Stralaceno::open::::::foxy::131::130
-8::soddisfatti della stralaceno edizione 2006???::open::::::cabo86::5::4
-9::Discussione::open::::::Antonio::230::216
-10::ci siete?????::open::::::cabo::25::24
-11::La nuova sezione ciclismo::open::::::Donato Gervasio::12::11
-12::Allenamento Collettivo 30-12-2006::open::::::Ars::40::39
-13::per nazòn::hidden::::::antonio::4::3
+7::Le sfide della Stralaceno::open::::::foxy::138::137
+8::Soddisfatti della stralaceno edizione 2006???::hidden::::::cabo86::5::4
+9::Discussione::open::::::Antonio::242::228
+10::Gare::open::::::cabo::27::26
+11::Sezione ciclismo::open::::::Donato Gervasio::33::32
+12::Allenamento Collettivo::open::::::Ars::40::39
+13::Per nazòn::hidden::::::antonio::4::3
 14::F.C. Caposele::open::::::Ars::49::48
-15::Elezioni comunali a Caposele::open::::::Cleon.ren::114::113
-16::La nuova sezione Ambiente e Natura::open::::::Ambiente::74::73
-17::per l'inviato::hidden::::::christian meyer::6::5
-18::Il 3 novembre si disputerà la Quasinove: gara podistica organizzata da Nicola Melillo::open::::::Jerry Notaro::2::1
+15::Elezioni comunali a Caposele::open::::::Cleon.ren::121::120
+16::Sezione Ambiente e Natura::open::::::Ambiente::75::74
+17::Per l'inviato::hidden::::::christian meyer::6::5
+18::Il 3 novembre si disputerà la Quasinove: gara podistica organizzata da Nicola Melillo::hidden::::::Jerry Notaro::2::1
 19::Genealogia caposelese::open::::::Pasquale C.::6::5
-20::un pensiero per Marco Pantani::open::::::appassionato di ciclismo::22::21
-21::I tre Angeli custodi salvano Ale da una grande crisi::open::::::Salvatore::7::6
-22::PARCO DEI MONTI PICENTINI::open::::::AmbienteNews::1::0
+20::Un pensiero per Marco Pantani::hidden::::::appassionato di ciclismo::22::21
+21::I tre Angeli custodi salvano Ale da una grande crisi::hidden::::::Salvatore::7::6
+22::PARCO DEI MONTI PICENTINI::hidden::::::AmbienteNews::1::0
 23::CIAO::hidden::::::CIAO::1::0
-24::alla direzione dell'ars::hidden::::::salve::2::1
+24::Alla direzione dell'ars::hidden::::::salve::2::1
 25::A::hidden::::::A::1::0
 26::ciao::hidden::::::ciao::2::1
+27::perplesso::hidden::::::cittadino::1::0
+28::sentenza::hidden::::::emigrato::1::0
+29::forza caposele::hidden::::::gaetano::2::1
+30::MEZZA MARATONA CITTA' DI POTENZA TUNE-UP::hidden::::::MIMMO55::1::0
