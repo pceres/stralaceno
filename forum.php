@@ -476,12 +476,16 @@ while ($action)
 
 
 <table border="0" cellpadding="0" cellspacing="1" width="100%">
-<tbody><tr><td align="right">
+<tbody>
+<tr><td align="right">
 <a href="forum.php?action=new_post&amp;data=<?php echo $forum_id; ?>,<?php echo $topic_id; ?>">
 	<img src="<?php echo $site_abs_path ?>images/forum_rispondi.gif" border="0" alt="nuovo messaggio"></a>
-&nbsp;
+
+<!-- commento il tasto per aprire un nuovo topic: la sua posizione qui potrebbe ingannare -->
+<!--&nbsp;
 <a href="forum.php?action=new_topic&amp;data=<?php echo $forum_id; ?>">
 	<img src="<?php echo $site_abs_path ?>images/forum_nuova_discussione.gif" border="0" alt="nuova discussione"></a>
+	-->
 </td></tr>
 </tbody></table>
 
