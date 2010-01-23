@@ -43,12 +43,20 @@ Stefano Castellano::::16/06/2008::associato praticante::::27::Soci_ars::
 Nicola Ciccone::nciccone@hotmail.it::14/07/2008::socio ordinario::::28::Soci_ars::Resp. relazioni esterne
 Massimo Cetrulo::massimocetrulo@yahoo.it::14/07/2008::socio ordinario::::29::Soci_ars::
 Angelo Ceres::ceres.av@tin.it::20/11/2008::associato praticante::::31::Soci_ars::
+Giuseppe Spatola::gius05@hotmail.it::24/08/2009::associato praticante::::::Soci_ars::
+Gerardo D'Alessio::gerardo.dalessio@yahoo.com::26/08/2009::associato praticante::::::Soci_ars::
+Antonio Nigro::movida92@hotmail.it::26/08/2009::associato praticante::::::Soci_ars::
+Antonio Delle Fera::antoniodellafera@hotmail.it::01/09/2009::associato praticante::::::Soci_ars::
+
+
+
+
+
 
 #
 # formato elenco_news:  data::news
 #
 [elenco_news]
-16/06/2009::La Stralaceno 2009 si svolger&agrave; venerd&igrave; 29 agosto.
 23/05/2009::Nella gara podistica "IV Scalata al Castello" a Castel San Giorgio (Sa), la squadra Ars ha ottenuto il 4&deg; posto, ricevendo in premio 50 euro.
 01/05/2008::Nella gara podistica "II Quattro passi a San Giuseppe" a Vallesaccarda (Av), la squadra Ars ha ottenuto il 3&deg; posto, ricevendo in premio 50 euro.
 11/02/2008::Affiliazione Ars allo Csen per l'anno 2008: costo 30 euro.

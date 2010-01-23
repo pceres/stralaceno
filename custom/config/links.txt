@@ -18,4 +18,4 @@ http://www.fidal.it/::Fidal
 http://www.fidalcampania.com::Fidal Campania
 http://www.fidalavellino.it:: Fidal Avellino
 http://www.fidalsalerno.it:: Fidal Salerno
-http://www.csen.it::Csen
+http://www.polisportivacalabritto.it:: Polisportiva Calabritto

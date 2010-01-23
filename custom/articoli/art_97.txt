@@ -1,0 +1,18 @@
+Autore::Ars
+Titolo::StraSalerno 2009
+--- Begin body ---
+<br>Il 18 ottobre 2009 si &egrave; disputata la XV edizione della mezza maratona di Salerno.<br><br>
+Giornata umida, caratterizzata da un forte vento che ha condizionato non poco le prestazioni degli atleti, 
+nonostante il percorso tradizionalmente veloce della gara.<br><br>
+501 gli atleti giunti al traguardo. <br>
+Sei i rappresentanti degli Amatori Running Sele. Da segnalare la buona prestazione di Paolo Viscardi, giunto 196° con un tempo di 1 ora 36 minuti.<br>
+<br>
+La classifica generale la trovate <a href="download.php?resource_type=file&amp;resource_id=file_strasalerno_09">qui</a>.
+<br>
+<p>&nbsp;
+<div align="center">
+<img id="Stra 09" src="%file_root%custom/album/StraSalerno_09/strs12.jpg" alt="" border="0" width="460">
+</div><br>
+<br>
+Aggiunte altre foto della gara che trovate <a href="album.php?anno=StraSalerno_09">qui</a>. <br>
+--- End body ---

@@ -1,16 +1,15 @@
-Autore::ARS
-Titolo::Allenamento settimanale in pista
+Autore::Ars
+Titolo::Allenamento pista Calabritto
 --- Begin body ---
 <br>
-Gli Amatori Running Sele invitano tutti gli interessati a partecipare ogni GIOVEDI' dalle ore 18.45, per il periodo MAGGIO - SETTEMBRE 2009, 
-alla seduta di allenamento presso la pista di atletica di Calabritto. <br>
+L'ARS Amatori Running Sele, in seguito ad accordi intercorsi con i gestori del campo sportivo comunale di Calabritto, comunica ai soci, che la relativa pista di atletica sar&agrave; a disposizione per gli allenamenti, nel periodo autunnale e invernale, ogni marted&igrave; e gioved&igrave; dalle 18.30 alle 20.30 (con illuminazione artificiale).<br>
 <br>
-Viene così fissato un ritrovo settimanale, dove ognuno potr&agrave; calibrare il proprio allenamento secondo le personali esigenze.
+Vengono cos&igrave; fissati dei ritrovi settimanali, dove ognuno potr&agrave; calibrare il proprio allenamento secondo le personali esigenze.<br>
+<br>
+Le persone non associate potranno anch'esse usufruire della pista in tali orari, rivolgendosi preliminarmente ad uno dei dirigenti ARS, che provveder&agrave; a segnalare il nominativo ai custodi responsabili dello stadio.
 <br><br>
-Il Resp. Squadra Podistica Agonistica SAVERIO PERNA<br>
-Il Resp. Attività di Base SALVATORE MEROLA
 <p>&nbsp;
 <div align="center">
-<img id="titolo_da_mettere" src="%file_root%custom/album/varie/pista.jpg" alt="" border="0" width="340">
+<img id="titolo_da_mettere" src="%file_root%custom/album/Calabritto_09/tsr1.jpg" alt="" border="0" width="280">
 </div><br>
 --- End body ---

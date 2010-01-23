@@ -1,0 +1,33 @@
+Autore::Ars
+Titolo::Allenamento Collettivo 30.12.2009
+--- Begin body ---
+<p>&nbsp;
+<div align="center">
+<img id="titolo_da_mettere" src="%file_root%custom/album/All.Coll.09/301209_31.jpg" alt="" border="0" width="500">
+</div><br>
+<i><br>
+Aggiunte altre foto il 20 gennaio che trovate <a href="album.php?anno=All.Coll.09">qui</a>; altre nei prossimi giorni.<br>
+<br>
+</i>
+<br>Partecipanti all’allenamento collettivo del 30 dicembre 2009 di km 16,750, con partenza ed arrivo in piazza Sanità a Caposele: 
+<br><br>
+Nicola D’Auria,<br>
+Giuseppe Cifrodelli,<br>
+Alfonso Rosania,<br>
+Salvatore Merola,<br>
+Alessandro Russomanno,<br>
+Paolo Viscardi,<br>
+Donato Ceres,<br>
+Giuseppe Spatola,<br>
+Gelsomino Del Guercio,<br>
+Alessio Merola,<br>
+Gelsomino Merola,<br>
+Giovanni Viscardi,<br>
+Gerardo D'Alessio (dal km 1,6),<br>
+Nicola Cirillo (fino al km 6,7 e dal km 15,5),<br>
+Pasquale Ceres (fino al km 3,2),<br>
+Gaetano Rosania (fino al km 6,6),<br>
+Marco Ceres (dal km 9,8),<br>
+Lello Viscardi (dal km 9,8).<br><br>
+<i>Si ringrazia per l'assistenza e le foto Nicola Ciccone e Gerardo Donatiello</i><br><br>
+--- End body ---

@@ -1,0 +1,13 @@
+Autore::Ars
+Titolo::Allenamento Collettivo 31.10.2009
+--- Begin body ---
+<br>Bel pomeriggio di  sport, sabato 31 ottobre 2009, in localit&agrave; Pasano in Caposele. <br>Su e gi&ugrave; per le strette strade collinari a ritmo moderato e costante, dieci podisti: Saverio Perna, Donato Ceres, Paolo Viscardi, Donatello Cirillo, Mario Di Trolio, Gelsomino Del Guercio, Alessandro Russomanno, Giovanni Viscardi, Gianni Sozio, Giuseppe Spatola.
+<br>
+<br>
+Arrivederci al prossimo allenamento!
+<br>
+<p>&nbsp;
+<div align="center">
+<img id="titolo_da_mettere" src="%file_root%custom/album/varie/Ac31.10.09.jpg" alt="" border="0" width="450">
+</div><br>
+--- End body ---

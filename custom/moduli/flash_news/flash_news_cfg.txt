@@ -6,6 +6,17 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+11/01/2010::La squadra podistica dell'ARS si &egrave; affiliata -per l'anno 2010- alla UISP Unione Italiana Sport Per tutti.
+08/11/2009::Partecipanti alla gara podistica "III Memorial B.Germano di km 9 a Sicignano degli Alburni (Sa): Donato Ceres, Paolo Viscardi, Alessandro Russomanno, Giuseppe Spatola, Gelsomino Del Guercio.
+31/10/2009::Si &egrave; svolto l'allenamento podistico collettivo di km 11,5 in localit&agrave; Pasano (Caposele). Dieci i partecipanti.
+18/09/2009::Partecipanti alla gara podistica "XV StraSalerno half marathon" di km 21,097 a Salerno: Paolo Viscardi, Saverio Perna, Alessandro Russomanno, Donatello Cirillo, Mario Di Trolio, Gelsomino Del Guercio
+12/09/2009::Partecipanti allla gara "Podistica Anspi" di km 7,6 a Melito Irpino (Av): Saverio Perna, Alessandro Russomanno, Giuseppe Spatola, Donatello Cirillo, Gelsomino Del Guercio, Antonio Della Fera.
+02/09/2009::Un altro associato praticante per l'ARS: Antonio Della Fera di Calabritto.
+30/08/2009::Partecipanti alla gara podistica "IV Trofeo cento sorgenti" a Contursi Terme (Sa) di km 7,9: Alessandro Russomanno, Mario Di Trolio
+26/08/2009::Altri 2 nuovi associati praticanti per l'ARS: Antonio Nigro e Gerardo D'Alessio di Calabritto.
+24/08/2009::Entra a far parte dell'ARS, come associato praticante, Giuseppe Spatola di Calabritto.
+09/08/2009::Partecipanti alla gara podistica "Maratonina della Misericordia" di 10,250 km di Nusco:  Donatello Cirillo, Nicola D'Auria, Nicola Melillo (aggregato). 
+01/08/2009::Partecipanti alla gara "III podistica di Carillia" a Borgo Carillia di Altavilla Sil. (Sa) di km 9: Gelsomino Merola, Donato Ceres, Salvatore Merola, Saverio Perna, Alessandro Russomanno, Donatello Cirillo, Nicola D'Auria, Luigi Palumbo (aggregato).
 18/07/2009::Partecipanti alla 1&deg; edizione della "Night Marathon" a S.Maria di Castellabate (Sa) di km 10: Gelsomino Merola, Donato Ceres, Saverio Perna, Salvatore Merola, Alessandro Russomanno, Donatello Cirillo, Paolo Viscardi, Mario Di Trolio.
 11/07/2009::Partecipanti alla XVI edizione della gara podistica "CorriRoccadaspide, trofeo S. Sinforosa di km. 7,950 a Roccadaspide (Sa): Gelsomino Merola, Saverio Perna, Alessandro Russomanno, Donatello Cirillo, Paolo Viscardi, Mario Di Trolio.
 05/07/2009::Partecipanti alla gara podistica "1&deg; Corri sull'Altopiano del Laceno" di km 10 a Bagnoli Irpino, localit&agrave; Laceno: Saverio Perna, Donato Ceres, Alessandro Russomanno, Donatello Cirillo, Mario Di Trolio, Salvatore Merola, Antonio Di Trolio (aggregato). 
@@ -25,7 +36,7 @@
 16/11/2008::L'associato praticante Gianni Cicerano ha partecipato alla mezza maratona "Spaccanapoli 2008".
 26/10/2008::Partecipanti alla gara podistica "12&deg; Trofeo C. Pezzuto" di km 7,9 a Puglietta di Campagna (Sa): Saverio Perna, Alessandro Russomanno, Donatello Cirillo, Nicola Melilllo, Gaetano Rosania.
 21/10/2008::Mario Di Trolio ha partecipato alla mezza maratona Strasalerno 2008. 
-13/09/2008::Partecipanti allla gara "Podistica Anspi" di km 7,5 a Melito Irpino (Av): Francesco Ceres, Saverio Perna, Alessandro Russomanno, Gaetano Rosania, Donatello Cirillo.
+13/09/2008::Partecipanti allla gara "Podistica Anspi" di km 7,6 a Melito Irpino (Av): Francesco Ceres, Saverio Perna, Alessandro Russomanno, Gaetano Rosania, Donatello Cirillo.
 31/08/2008::Partecipanti alla gara podistica "III Contursi Terme Podistica" di km.7,5 a Contursi (Sa): Gelsomino Merola, Francesco Ceres, Saverio Perna, Paolo Viscardi, Alessandro Russomanno, Donatello Cirillo, Nicola Melillo, Mario Di Trolio, Antonio Di Trolio (aggregato).
 17/08/2008::Partecipanti alla gara podistica "StraCalitri 2008" di km 6 a Calitri: Alessandro Russomanno, Nicola D'Auria, Donatello Cirillo.
 10/08/2008::Partecipanti alla gara podistica "Maratonina della Misericordia" di 10,250 km di Nusco: Gelsomino Merola, Saverio Perna, Alessandro Russomanno, Nicola D'Auria, Donatello Cirillo. Accompagnatori: Lello Viscardi, Luciano Viscido. 

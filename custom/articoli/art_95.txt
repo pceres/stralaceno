@@ -1,0 +1,22 @@
+Autore::
+Titolo::1° Trofeo San Rocco
+--- Begin body ---
+<p>&nbsp;
+<div align="center">
+<img id="titolo_da_mettere" src="%file_root%custom/album/Calabritto_09/tsr48.jpg" alt="" border="0" width="500">
+</div><br>
+<br>
+Le foto della manifestazione, scattate da Pasquale Ceres, le trovate <a href="album.php?anno=Calabritto_09">qui</a>. <br>
+<p>&nbsp;
+<div align="center">
+<img id="Classifica" src="%file_root%custom/album/varie/Trofeo_S_Rocco.jpg" alt="Tabella" border="0" width="550">
+</div>
+<br>
+Il n. 27 CASTAGNO GIOVANNI &egrave; stato SQUALIFICATO per taglio del percorso di gara.<br>
+<p>&nbsp;
+<div align="center">
+<img id="Manifesto" src="%file_root%custom/album/varie/Trofeo_San_Rocco_09.jpg" alt="Tabella4" border="0" width="500">
+</div>
+<br>
+<br>
+--- End body ---

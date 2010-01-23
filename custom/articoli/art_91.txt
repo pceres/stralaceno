@@ -17,6 +17,18 @@ La classifica la trovate <a href="download.php?resource_type=file&amp;resource_i
 <br>
 <p>&nbsp;
 <div align="center">
-<img id="Stra 09" src="%file_root%custom/album/varie/lagoLaceno.jpg" alt="" border="0" width="500">
+<img id="Stra 09" src="%file_root%custom/album/varie/LL1.jpg" alt="" border="0" width="400">
+</div>
+<p>&nbsp;
+<div align="center">
+<img id="Stra 09" src="%file_root%custom/album/varie/LL2.jpg" alt="" border="0" width="400">
+</div>
+<p>&nbsp;
+<div align="center">
+<img id="Stra 09" src="%file_root%custom/album/varie/LL3.jpg" alt="" border="0" width="400">
+</div>
+<p>&nbsp;
+<div align="center">
+<img id="Stra 09" src="%file_root%custom/album/varie/LL4.jpg" alt="" border="0" width="400">
 </div>
 --- End body ---

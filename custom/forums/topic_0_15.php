@@ -1168,8 +1168,7 @@ nessuno scrive niente a tutti sta bene questo immobilismo totale come mai adesso
 nessuno scrive niente sta a tutti bene questo immobilismo totale che peccato che il paese sia finito cosi' male e i grandi amministratori del cuore sono indifferenti a questa agonia lenta ma inesorabile.
 
 [post_text_117]
-&gt;nessuno scrive niente sta a tutti bene questo immobilismo totale che peccato che il paese sia finito cosi' male e i grandi amministratori del cuore sono indifferenti a questa agonia lenta ma inesorabile.
-<br>&gt;<br><br>nic. mel. non fare solo chiacchiere dici "dove il paese è finito così male" fai degli esempi. Sai al male non si può mai mettere fine immagina come sarebbe stato se ad amministrare fossero stati i tuoi amici dove saremmo andati a finire. Non sanno neppure leggere le carte, non sono presenti ai consigli comunali e poi sai che fanno solo ricorsi alla procura o i comizi davanti al bar solo per voglia di protagonismo come se stessero commentando una partita di calcio.
+&gt;nessuno scrive niente sta a tutti bene questo immobilismo totale che peccato che il paese sia finito cosi' male e i grandi amministratori del cuore sono indifferenti a questa agonia lenta ma inesorabile.<br>&gt;<br><br>nic. mel. non fare solo chiacchiere dici "dove il paese è finito così male" fai degli esempi. Sai al male non si può mai mettere fine immagina come sarebbe stato se ad amministrare fossero stati i tuoi amici dove saremmo andati a finire. Non sanno neppure leggere le carte, non sono presenti ai consigli comunali e poi sai che fanno solo ricorsi alla procura o i comizi davanti al bar solo per voglia di protagonismo come se stessero commentando una partita di calcio.
 Di a chi di tua conoscenza che venisse a fare il consigliere di minoranza e non fare solo battute o ricorsi a danno dell'intera collettività.
 
 [post_text_118]

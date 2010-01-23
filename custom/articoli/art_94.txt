@@ -1,0 +1,51 @@
+Autore::
+Titolo::Corsa dei Tre Campanili 2009
+--- Begin body ---
+<p>&nbsp;
+<div align="center">
+<img id="foto" src="%file_root%custom/album/3_Campanili_09/3c09_24.jpg" alt="Partenza" border="0" width="500">
+</div><br>
+L'album fotografico della gara lo trovate <a href="album.php?anno=3_Campanili_09">qui</a>. (Inserite altre foto il 9 ottobre) -Foto scattate da Nicola Ciccone-
+<p>&nbsp;
+<div align="center">
+<img id="Classifica09" src="%file_root%custom/album/varie/3Camp_class_09.jpg" alt="Tabella" border="0" width="535">
+<p></div>
+<p>&nbsp;
+<div align="center">
+<img id="Classifica09" src="%file_root%custom/album/varie/3Camp_class_09_2.jpg" alt="Tabella" border="0" width="535">
+<p></div>
+<br><br>
+Caposele, 15 agosto 2009, ore 19.15. <br>Organizzazione a cura della Pro Loco Caposele.<br><br>
+1. REQUISITI DI PARTECIPAZIONE<br>
+Possono partecipare alla gara tutti gli atleti in regola con la vigente disciplina sanitaria, nati entro il 31-12-1993.
+<br><br>
+2. MODALIT&Agrave; DI ISCRIZIONE<br>
+Le iscrizioni, cumulative o singole, redatte su carta intestata della società di appartenenza, si effettuano entro il 14 Agosto al numero di fax 0827-53511, via e-mail all’indirizzo lello.viscardi@libero.it, oppure telefonicamente al numero328-8244324. In alternativa è possibile iscriversi fino a mezz'ora prima della partenza della gara, presso la sede della Proloco. <br>
+La quota di iscrizione, da versare al momento del ritiro del numero di gara, &egrave; pari a 2 euro.
+<br><br>
+3. PROGRAMMA<br>
+Il ritrovo dei concorrenti &egrave; previsto per le ore 18:00, in via Roma nei pressi della sede della Proloco, dove avverr&agrave; ilversamento della quota di iscrizione, e il ritiro di pettorali di gara. La partenza della gara &egrave; fissata per le ore 19:15. <br>
+Nel dopogara verr&agrave; offerto un ristoro agli atleti partecipanti. <br>
+Le premiazioni saranno effettuate nei pressi del traguardo di arrivo, alle ore 20:30.
+<br><br>
+4. PERCORSO<br>
+Lo svolgimento della gara avverr&agrave; lungo il tradizionale e suggestivo percorso cittadino “dei 3 campanili”, che inizia con uncircuito cittadino di circa 1.5 km, prevedendo quindi il raggiungimento della collina di Materdomini, attraverso una salita di media pendenza, per concludersi con il ritorno nel centro abitato di Caposele. <br>
+La lunghezza complessiva da percorrere, con segnalazione di ogni km, &egrave; pari a  7,3 km.
+<br><br>
+5. PREMI<br>
+• Uomini - primi 3 giunti al traguardo: 120 - 70 - 40 euro. <br>
+• Donne - prime 2 giunte al traguardo: 60 - 40 euro. <br>
+• Classifica a squadre: 120 - 70 - 40 euro<br>
+parteciperanno a questa graduatoria le squadre con almeno 5 concorrenti giunti regolarmente al traguardo; a ciascuna squadra verr&agrave; attribuito un tempo complessivo pari alla somma dei 5 migliori tempi fatti segnare dai rispettivi atleti; saranno premiate le prime 3 squadre con tempo totale più basso. <br>
+• Categorie speciali: <br>
+primi arrivati nelle categorie 16-18, 55-64, over 65: premi in prodotti tipici locali. <br>
+• Premi speciali per atleti Caposelesi: <br>
+- primi 3 uomini: 80 - 50 - 30 euro<br>
+- prima donna: 40 euro<br>
+- 1ma tappa intermedia al secondo passaggio per piazza Sanit&agrave;: al primo arrivato buono acquisto/consumazione<br>
+- 2nda tappa intermedia al termine della salita per Materdomini: al primo arrivato buono acquisto/consumazione<br>
+(per la vincita delle tappe intermedie &egrave; richiesta la regolare conclusione della gara).
+Tutti i premi specificati non sono cumulabili. <br><br>
+Classifiche e foto saranno disponibili, nei giorni successivi la gara, sui siti web www.selacapo.net, www.ars.altervista.org.
+<br>
+--- End body ---

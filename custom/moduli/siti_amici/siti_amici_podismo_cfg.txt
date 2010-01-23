@@ -22,6 +22,8 @@
 6::ErcoSport::Erco Sport::http://www.ercosport.it/::http://ars.altervista.org/custom/album/varie/ercosport.gif::Erco::
 7::AtleticaAgropoli::ASD Atletica Agropoli::http://www.atletica-agropoli.it/::::Atletica Agropoli::
 8::Tart::ASD Le Tartarughe::http://www.asdletartarughe.it::http://ars.altervista.org/custom/album/varie/leTartarughe.jpg::Le Tartarughe::
+9::Pozzuoli Marathon::ASD Pozzuoli Marathon Club::http://podisticapozzuoli.blogspot.com/::http://ars.altervista.org/custom/album/varie/pozzuoli.jpg::Pozzuoli Marathon::
+
 #
 # formato testo_footer:  testo
 #

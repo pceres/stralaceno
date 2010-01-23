@@ -1,0 +1,17 @@
+Autore::Ars
+Titolo::III Memorial B.Germano 2009
+--- Begin body ---
+<br>
+Gara in notturna a Sicignano degli Alburni domenica 8 novembre 2009.<br>
+Percorso cittadino da ripetere 4 volte per un totale di 9 km.<br><br>
+156 gli atleti arrivati, 5 i rappresentanti degli Amatori Running Sele.
+<br>
+<br>
+La classifica generale la trovate <a href="download.php?resource_type=file&amp;resource_id=file_sicignano_09">qui</a>.
+<br><br>
+Aggiunte altre foto della gara che trovate <a href="album.php?anno=Sicignano_09">qui</a>. <br>
+<p>&nbsp;
+<div align="center">
+<img id="Stra 09" src="%file_root%custom/album/Sicignano_09/sda09.jpg" alt="" border="0" width="460">
+</div>
+--- End body ---

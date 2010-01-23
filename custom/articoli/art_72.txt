@@ -2,10 +2,11 @@ Autore::ARS
 Titolo::Visite Mediche 
 --- Begin body ---
 <br>
-<b>Le visite mediche si svolgeranno MERCOLEDI' 10 DICEMBRE presso medico dello sport ad EBOLI nel pomeriggio.</b>
-<br><br>
-La partenza &egrave; fissata per le 16.30 in piazza Sanità. Per gli amici di Calabritto, l'appuntamento &egrave; alle 16.45 a Ponte Sele.
-<br><br>
+<b>LE VISITE MEDICHE SI TERRANNO SABATO 12 DICEMBRE ALLE ORE 18.00 PRESSO MEDICO DELLO SPORT AD EBOLI.</b>
+<br>
+<br>
+A Dicembre gli Amatori Running Sele organizzeranno le visite mediche per  l’idoneità alla pratica agonistica dell’atletica leggera.<br><br>
+Tutti gli interessati, soci e non, a far parte, per l’anno 2010, della squadra podistica agonistica dell’ARS,  possono comunicare la propria disponibilità a Paolo Viscardi (e-mail paolovisca86@hotmail.it) o ad Alessandro Russomanno (e-mail alexruss75@yahoo.it).<br><br><br>
 <div align="center">
 <img id="CSEN" src="%file_root%custom/album/ars/ars.jpg" alt="" border="0" width="150">
 </div>

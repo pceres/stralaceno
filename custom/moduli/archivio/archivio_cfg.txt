@@ -6,6 +6,12 @@
 # formato elenco_album:  tag_album::nome_album::descrizione
 #
 [elenco_album]
+All.Coll.09::Allenamento collettivo 2009::Le foto dell'allenamento di fine anno.
+Sicignano_09::Sicignano 2009::III Memorial B.Germano del 09.11.2009
+StraSalerno_09::StraSalerno 2009::Strasalerno Half Marathon del 18.10.2009
+Stra_09::Stralaceno 2009::La XXI edizione della Stralaceno del 28.08.2009
+3_Campanili_09::3 Campanili 2009::3 Campanili di km 7,33 del 15.08.2009 a Caposele
+Calabritto_09::Calabritto 2009::Trofeo San Rocco di km 5 del 12.08.2009
 Cast_S_Giorgo_09::Castel San Giorgio 2009::IV Scalata al Castello di km 9,6 del 23.05.2009
 Paestum_09::Paestum 2009::V Sulle Orme di Filippide di km 9,7 del 02.05.2009
 Roma_09::Roma 2009::Maratona di Roma del 22 marzo 2009
@@ -36,13 +42,20 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
+100::homepage::Allenamento Collettivo 30.12.2009::Ars
+99::homepage::III Memorial B.Germano 2009::Ars
+98::homepage::Allenamento Collettivo 31.10.2009::Ars
+97::homepage::Strasalerno 2009::Ars
+94::homepage::Corsa dei 3 campanili 2009::
+95::homepage::1&deg; Trofeo San Rocco::
+96::homepage::III Podistica di Carillia::
 93::homepage::1&deg; Night Marathon::
 92::homepage::XVI CorriRoccadaspide::
 91::homepage::1&deg; ediz. Corri sull'Altopiano del Laceno::
 90::homepage::Stralaceno 2009::
 89::homepage::IV Scalata al Castello::
 88::homepage::V edizione "Sulle Orme di Filippide"::
-87::homepage::Allenamento settimanale in pista::Ars
+87::homepage::Allenamento pista Calabritto::Ars
 86::homepage::Nomina Responsabili di Settore 2009::Ars
 85::homepage::Allenamento montano di gruppo::Ars
 83::homepage::L'ARS e la XV Maratona di Roma::Paolo Viscardi

@@ -2,11 +2,10 @@ Autore::Ars
 Titolo::Stralaceno 2009
 --- Begin body ---
 <br>
-La XXI edizione della Stralaceno si svolger&agrave; venerd&igrave; 
-28 agosto.
-<br>
+L'album della gara lo trovate <a href="album.php?anno=Stra_09">qui</a>. <br>
 <p>&nbsp;
 <div align="center">
-<img id="Stra 09" src="%file_root%custom/album/varie/Logo_2009.jpg" alt="" border="0" width="420">
+<img id="Stra 09" src="%file_root%custom/album/Stra_09/st09_108.jpg " alt="" border="0" width="550">
 </div><br>
+<i>È disponibile il dvd della Stralaceno 2009. Per chiederne una copia rivolgersi a Nicola Ciccone (cell. 331-4336082 e-mail: nciccone@hotmail.it). </i><br>
 --- End body ---
