@@ -68,6 +68,19 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 54::Ministero Interno::08/06/2009 10.26.59::visible
 55::Ministero Interno::09/06/2009 10.12.58::visible
 56::Irpinianews.it::16/07/2009 13.23.40::visible
+57::Irpinianews.it::23/09/2009 10.41.50::visible
+58::Irpinianews.it::28/09/2009 09.25.32::visible
+59::Irpinianews.it::28/09/2009 13.39.26::visible
+60::Irpinianews.it::30/09/2009 16.38.39::visible
+61::Irpinianews.it::30/09/2009 16.41.12::visible
+62::Irpinianews.it::26/10/2009 13.20.08::visible
+63::CorriereIrpinia.it::26/10/2009 13.20.59::visible
+64::Irpinianews.it::13/11/2009 16.36.05::visible
+65::Irpinianews.it::20/11/2009 16.54.57::visible
+66::Irpinianews.it::30/11/2009 09.32.15::visible
+67::Irpinianews.it::09/12/2009 14.44.51::visible
+68::Irpinianews.it::08/01/2010 22.09.06::visible
+69::Irpinianews.it::22/01/2010 12.25.05::visible
 
 [post_text_0]
 In questo spazio saranno inseriti articoli apparsi sul web relativi ad eventi, persone, fatti avvenuti a Caposele.
@@ -733,3 +746,165 @@ Costante è la loro presenza sul nostro territorio accompagnata da un’elevata pro
 Speriamo di poter incrementare ancor di più la presenza di questi volontari coinvolgendo anche ragazzi di Caposele. I cittadini che si sentono responsabili e che vivono con forte motivazione il degrado qualitativo delle nostre risorse naturali possono contribuire, in tal modo, a valorizzare il nostro patrimonio ambientale”.
 &nbsp;
 (mercoledì 15 luglio 2009 alle 19.55)
+
+[post_text_57]
+Regione e Provincia illustrano i risultati del progetto ‘MoRiCa’
+&nbsp;
+Caposele – Il valore crescente dell’acqua, le preoccupazioni concernenti la qualità e la quantità di approvvigionamenti, oltre che le possibilità di accesso, accordate o rifiutate, stanno avvicinando l’acqua al petrolio e a certe ricchezze minerali in quanto risorsa strategica. E’ chiaro, quindi, che la principale fonte di vita dell’umanità va tutelata da tutti i livelli istituzionali in un quadro efficace di regolamentazione politica, economica, giuridica e socioculturale.
+&nbsp;
+Di questa e di altre tematiche se ne parlerà il 29 settembre, alle ore 16,30, a Caposele presso la Sala Polifunzionale del Comune, nell’incontro promosso dall’Autorità di Bacino Interregionale del fiume Seleper la presentazione e la divulgazione dei risultati del progetto MO.RI.CA, Modello informatico di gestione della risorsa idrica nei 9 Comuni appartenenti al Parco Regionale dei Monti Picentini e ricadenti nel bacino idrografico del Sele’ (Acerno, Bagnoli Irpino, Calabritto, Campagna, Caposele, Eboli, Lioni, Oliveto Citra e Senerchia).
+&nbsp;
+Interverranno, tra gli altri, l’Assessore Regionale all’Ambiente Walter Ganapini e gli assessori all’ambiente dell’Amministrazione Provinciale di Salerno e Avellino, Giovanni Romano e Domenico Gambacorta.
+&nbsp;
+(martedì 22 settembre 2009 alle 13.32)
+&nbsp;
+
+[post_text_58]
+Usura - Vessavano imprenditori dell'Alta Irpinia con tassi del 130%
+&nbsp;
+Caposele - Dopo due anni, la Guardia di Finanza di Sant’Angelo dei Lombardi è riuscita ad identificare due soggetti dediti ad attività di prestito di denaro illecito.
+L’articolata attività investigativa era sfociata, verso la fine dell’anno 2008, nel rinvio a giudizio per usura ed esercizio abusivo dell’attività bancaria di due soggetti, appartenenti ad una nota famiglia di imprenditori di Caposele. L’attività d’indagine, confluita in quella che è stata definita “Operazione Santino”in relazione allo pseudonimo della principale vittima, ha avuto inizio nel 2007 quando un imprenditore dell’Alta Irpinia, giunto allo stremo delle forze, ha coraggiosamente deciso di denunciare la sua condizione di usurato. Sulla base di tale punto di partenza, i militari della Tenenza hanno cominciato a raccogliere altre preziose testimonianze ed ulteriori importanti elementi informativi. Sotto la costante direzione del Procuratore della Repubblica di Sant’Angelo dei Lombardi,  Antonio Guerriero (coadiuvato dal Sostituto Procuratore  Ugo Miraglia Del Giudice), nel corso dell’indagine sono state disposte diverse perquisizioni domiciliari nei confronti dei soggetti emersi quali responsabili.
+&nbsp;
+A seguito di tali operazioni di polizia giudiziaria, è stata rinvenuta e sottoposta a sequestro una copiosa documentazione attinente l’illecita attività: le transazioni illegali erano state infatti dettagliatamente annotate su agende, proprio come un libro dei corrispettivi creato ad hoc per gestire al meglio il flusso di denaro ”prestato”. Sulla scorta di tali elementi, così come ulteriormente integrati dall’esito di specifici accertamenti  bancari  e rilievi patrimoniali a carico degli indagati, è stato possibile da un lato evidenziare le responsabilità di veri e propri usurai e dall’altro far venire alla luce la triste condizione di numerose vittime di usura che ancora non avevano trovato il coraggio di denunciare i propri aguzzini.
+&nbsp;
+Il sodalizio era costituito da due soggetti appartenenti allo stesso nucleo familiare di imprenditori i quali erano dediti al commercio di materiale edile: a margine della loro attività lecita, i soggetti denunciati si adoperavano in operazioni di concessione prestiti e cambio di assegni: nella maggior parte dei casi nei confronti di clienti della loro azienda che versavano in difficoltà economiche. La concessione di dilazione nei pagamenti a 90, 120, 180 giorni si tramutavano in veri e propri prestiti “a strozzo”.
+Le condotte poste in essere, oltre a delineare il reato di usura per la constatata applicazione di un tasso d’interesse superiore al limite imposto dalla legge (anche del 130% annuo), evidenziano gli estremi di una vera e propria illecita attività finanziaria.  Gli accertamenti condotti dalla Tenenza di Sant’Angelo dei Lombardi, agli ordini del tenente Massimo Devito, sul finire del 2008 avevano consentito di delineare compiutamente alla autorità giudiziaria le responsabilità di N.D., 48enne, per il reato di usura ed esercizio abusivo di attività bancaria; e di una donna, D.G.S., 70enne, fermata per lo stesso reato.   Di particolare rilievo è risultata la collaborazione prestata da altri imprenditori: una volta individuati sul “brogliaccio” i nomi dei soggetti cui era stato “prestato” il denaro, dopo i necessari riscontri a seguito dell’analisi della documentazione bancaria, i militari sono riusciti, con una paziente ed attenta azione persuasiva, a convincere almeno qualcuno fra gli usurati dell’importanza della loro testimonianza.
+&nbsp;
+Alcune vittime hanno fornito agli investigatori delle registrazioni relative alle conversazioni avute con l’usuraio prima di essere escusse dagli investigatori durante le quali veniva indicato ai testi cosa dichiarare al momento del colloquio e a quali militari prestare particolare attenzione.   In molte circostanze proprio il coraggio di queste persone ha consentito di ricostruire l’iter che le aveva fatte trasformare da “clienti” in “vittime” dell’usura. In altri casi, peraltro, i militari hanno dovuto registrare l’atteggiamento “non collaborativo” di persone spaventate che hanno rilasciato dichiarazioni fuorvianti o non veritiere: per tre di questi soggetti non si è potuta evitare la segnalazione all’autorità giudiziaria per le opportune valutazioni in relazione al reato di favoreggiamento personale.   L’indagine ha confermato come la particolare congiuntura di crisi economica, con le criticità connesse al sempre più difficile accesso al credito da parte delle medio-piccole imprese, costituisca l’humus ideale per il proliferare di situazioni nelle quali gente senza scrupoli, con grande disponibilità di denaro liquido, approfitta delle necessità di commercianti in difficoltà. In tale contesto particolare valenza assume, per il suo tratto squisitamente “finanziario”, l’attività che il Corpo svolge per debellare il fenomeno dell’usura, una piaga che oltre ad arrecare grave danno alla società consente alla criminalità di utilizzare ingenti capitali spesso frutto di altri reati.
+(sabato 26 settembre 2009 alle 10.59)
+&nbsp;
+
+[post_text_59]
+Caposele - Si presenta lo studio sul bacino del Sele
+&nbsp;
+Presso la sala polifunzionale di Caposele alle ore 17, martedì 29 settembre, l’Ente Parco dei Monti Picentini, con la collaborazione dell’Autorità di Bacino Interregionale del Fiume Sele, ufficializzerà i risultati di un accurato studio di carattere ambientale che ha condotto per oltre due anni sul bacino imbrifero del fiume Sele.
+&nbsp;
+Lo studio finalizzato alla definizione del modello informatico di gestione della risorsa idrica dei nove comuni appartenenti al Parco Regionale dei Monti Picentini ricadenti nel bacino idrograficio del Sele verrà presentato attraverso distinte relazioni tematiche. Dopo il saluto ai convenuti del sindaco di Caposele Pasquale Farina, sarà il presidente del Parco Sabino Aquino che questa volta, nelle veste di idrogeologo, tratterà sulla “Protezione delle risorse idriche nel Parco Regionale dei Monti Picentini”. Il segretario generale dell’Autorità di Bacino Interregionale del Sele, Nunzio Di Giacomo, unitamente a tecnici della Società Hydrodata di Torino, specializzata nel settore della ingegneria delle Risorse Idriche, che ha materialmente effettuato tutti i rilievi sul vasto territorio oggetto della ricerca di carattere ambientale, presenterà i risultati emersi dalla complessa  ed articolata ricerca ambientale. Sono previsti gli interventi degli assessori all’ambiente delle  Provincia di Avellino e Salerno:  Domenico Gambacorta e Giovanni Romano. Seguiranno gli interventi dei Sindaci dei Comuni di: Acerno, Bagnoli Irpino, Campagna, Calabritto, Caposele, Eboli, Lioni, Oliveto Citra e Senerchia i cui territori sono stati interessati dalla ricerca di carattere ambientale. Le conclusioni dell’interessante convegno sono state affidate a Walter Ganapini, assessore regionale all’Ambiente. Agli amministratori verrà consegnato il testo della ricerca ambientale. I partecipanti al convegno avranno lo possibilità di poter visionare una dettagliata cartografia del bacino imbrifero oggetto di studio dove sono state segnalate le emergenze ambientali più importanti da affrontare per permettere la vita all’ecosistema presente nel reticolo idrografico del Sele che, come è noto, attraversa diversi centri urbani e rurali dell’Irpinia e del salernitano.
+sabato 26 settembre 2009 alle 12.10
+&nbsp;
+
+[post_text_60]
+Gestione acque - Ganapini: "L’Irpinia non sarà più penalizzata"
+&nbsp;
+Caposele – Si è tenuto nel pomeriggio, presso la Sala Polifunzionale del Comune di Caposele, l’incontro dibattito per la presentazione di uno studio per la realizzazione di un modello di gestione delle acque nei comuni del Parco Regionale dei Monti Picentini.
+&nbsp;
+ Ai lavori ha partecipato anche il consigliere regionale del PdL, Francesco D’Ercole, che ha chiesto all’assessore regionale all’ambiente Walter Ganapini di tutelare le risorse idriche della provincia di Avellino, di difendere l’Irpinia nell’ambito dell’accordo di programma con la regione Puglia attualmente in corso di stipula e di prevedere un ristoro per i comuni nei quali verranno effettuati i prelievi delle acque.   L’assessore Ganapini ha garantito che, in una ridefinizione della questione riguardante le risorse idriche, l’Irpinia non sarà più penalizzata.
+(martedì 29 settembre 2009 alle 20.40)
+&nbsp;
+
+[post_text_61]
+Esperti e politici a confronto con Walter Ganapini
+&nbsp;
+Caposele - L’Ente Parco dei Monti Picentini, con la collaborazione dell’Autorità di Bacino Interregionale del Fiume Sele, nell’Aula Polifunzionale di Caposele, ha presentato i risultati di un accurato studio di carattere ambientale che ha condotto per oltre due anni sul bacino imbrifero del Sele.
+&nbsp;
+Lo studio, finalizzato alla definizione delle aliquote idriche fluenti e sotterranee del fiume, è stato presentato con tre distinte relazioni tecniche. Dopo i saluti del sindaco di Caposele Pasquale Farina è intervenuto il presidente del Parco Sabino Aquino questa volta, nelle veste di idrogeologo, ha trattato della “protezione delle risorse idriche nel Parco Regionale dei Monti Picentini”. Aquino che aveva già messo in evidenza nel convegno di domenica scorsa a Chiusano con la presenza del presidente della provincia Sibilia, Maselli, l'on.Iannaccone e il sen.Pionati, la delicata situazione delle falde acquifere sul territorio provinciale, si è soffermato con la consueta professionalità sui rischi che corre l'Irpinia e la regione sul tema imbrifero del Sele e dell'acqua in generale.
+&nbsp;
+Il segretario dell’Autorità di Bacino Interregionale del fiume Sele Nunzio Di Giacomo, unitamente a tecnici della La Società Hydrodata di Torino, specializzata nel settore della ingegneria delle Risorse Idriche, ha invece relazionato su alcuni aspetti ambientali dell’ecosistema fluviale.
+&nbsp;
+Le conclusioni sono state tratte dall’assessore regionale all’ambiente Walter Ganapini che si è particolarmente soffermato sulla delicata questione del trasferimento delle acque irpine verso la regione Puglia ciò in relazione della iniziativa portata avanti con tenacia e determinazione dall'Ente Parco dei Monti Picentini che aveva avviato una battaglia legale con l'Acquedotto Pugliese vedendosi riconosciute dalla Suprema Corte di Cassazione le sue ragioni.
+Un provvedimento quello emesso dagli organi della Magistratura che di fatto ha bloccato una imponente opera idraulica, da 140 milioni di euro, destinata a trasportare in Puglia le acque dei fiumi Sele e Calore e a incidere in maniera significativa sui bacini idrografici dei fiumi Sele e Calore.
+&nbsp;
+Oltre ai nove sindaci sono stati interessati dalla ricerca: Acerno, Bagnoli Irpino, Campagna, Calabritto, Caposele, Eboli, Lioni, Oliveto Citra e Senerchia erano presenti all’interessante convegno Luigi Anzalone, Francesco D’Ercole, Roberto Castelluccio, Mario Ascierto della Ratta, Angelo Flammia, gli Assessori  provinciali Domenico Gambacorta, e Giuseppe De Mita, Romano Giovanni assessore all’Ambiente della Provincia di Salerno, il presidente dell’Ato Antonio Festa.
+&nbsp;
+(mercoledì 30 settembre 2009 alle 11.39)
+&nbsp;
+
+[post_text_62]
+Caposele - Approvato il Puc, Malanga: "Seguiamo lo sviluppo"
+&nbsp;
+Dopo un iter lungo e articolato, il consiglio comunale ha approvato il piano urbanistico comunale. Si tratta di una svolta epocale per il paese privo sino ad oggi di uno strumento urbanistico.
+&nbsp;
+Il via libera al Puc è avvenuto dopo che l'amministrazione comunale ha svolto un lavoro capillare di concertazione con tutte le forze politiche e le associazioni di Caposele e Materdomini. Inoltre la bozza prodotta nei mesi scorsi è stata fatta visionare al pubblico per sessanta giorni, a testimonianza dell'apertura nei confronti della società civile caposelese, pronta ad offrire ulteriori contributi al Puc. Grande soddisfazione per il sindaco Pasquale Farinae la sua amministrazione, che avevano messo tra le priorità del mandato, quella di portare a termine il Piano Urbanistico.
+&nbsp;
+Entusiasta l'assessore al ramo Vito Malangache commenta: “Come avevamo promesso e già annunciato nei precedenti interventi sulla stampa irpina, dopo numerosi incontri con le forze politiche, con i tecnici e con la collettività, è stato adottato il Puc di Caposele. Strumento urbanistico che rappresenta una svolta per lo sviluppo socio-economico del nostro paese. Il rilancio di Materdomini e Caposele - continua l'assessore - la riqualificazione di alcune aree come “Bosco difesa” e la rivalutazione della frazione Buoninventre. Il Puc consentirà ai cittadini di poter realizzare finalmente tutte quelle opere che erano state inserite nella variante al Piano di recupero e non approvate e il miglioramento della viabilità sul territorio comunale. Queste saranno le linee guida per dare al nostro paese la crescita che merita”. L'assessore Malanga aggiunge: “Abbiamo portato avanti e completato il   primo atto della pianificazione urbanistica. Sono state accolte quasi tutte le osservazioni presentate dai cittadini con la speranza che questo possa significare l’inizio di una ripresa socio-economica e con la convinzione che i nostri concittadini possano finalmente investire e creare occasioni di lavoro.
+&nbsp;
+L’amministrazione comunale sta facendo la propria parte mantenendo fede agli impegni assunti e In buona sostanza mi sento di poter affermare che abbiamo pensato a adottato uno strumento urbanistico che si colloca in modo appropriato nel contesto sociale e culturale della nostra collettività e che tiene conto di tutte quelle esigenze che sono emerse dalle valutazioni e dagli incontri di cui ho fatto cenno in premessa”.
+&nbsp;
+(sabato 24 ottobre 2009 alle 15.26)
+&nbsp;
+&nbsp;
+&nbsp;
+
+[post_text_63]
+Cione: riconfermiamo a Caposele il marchio di città delle acque
+&nbsp;
+CAPOSELE- «Abbiamo la sensazione di essere tornati indietro di trenta anni».
+A pensarla in tal modo il responsabile dell’assemblea "Alto Calore- Ofanto-Sele" e delegato regionale di “Cittadinanzattiva”, Antonio Cione.
+&nbsp;
+L’associazione di cittadini che Cione rappresenta è nata il 5 aprile 2006 alla presenza del segretario generale Teresa Petrangolini e dei rappresentanti comunali dell'Asl e della Regione Campania «sull'onda forte determinata dal Comitato del Cinquecento per il terzo medico a Caposele».
+«Da allora - sottolinea Cione- siamo una delle assemblee più numerose della Regione Campania. L'associazione, inoltre, è affiliata a Cittadinanzattiva nazionale con oltre 600 soci. Nonostante ciò noto che negli ultimi tempi qualcuno vuole minarne la tranquillità e la trasparenza che è alla base della nostra formazione. E' vero che abbiamo collezionato solo rifiuti da parte dell'amministrazione comunale di Caposele e a questo punto non so se per colpa o per merito di una frazione di Caposele stante gli scarsissimi risultati ottenuti dall'amministrazione Farina, Malanga».
+&nbsp;
+Ciò che sottolinea Cione è che l’intento delle considerazioni espresse non è volto ad attacchi strumentali nè tantomeno l’associazione vuole entrare «nell'agone politico di parte». «Tuttavia- prosegue- sentiamo di essere presenti nel dibattito civile, sociale e politico come scelta e amministrativo come metodo. Noi non accettiamo che a distanza di due anni dall'insediamento dell'amministrazione si facciano ancora problemi ordinari. Noi non accettiamo i metodi per far passare i diritti dei cittadini come piaceri e favori personali».
+&nbsp;
+Un argomento sottolineato in maniera evidente dal delegato regionale di “Cittadinanzattiva” è quello delle “acque delle sorgenti sanità” di Caposele che secondo Cione non vengono valorizzate.
+«Non comprendiamo- afferma a riguardo Cione- perché l'amministrazione non si apra a collaborazioni ampie per intavolare il discorso sulle acque delle sorgenti sanità di Caposele. A riguardo sarebbe necessario promuovere il turismo religioso per riconfermare al paese l'identità di "Città delle acque”. Un turismo che non deve riguardare solo San Gerardo ma allargare il raggio a 360°».
+&nbsp;
+Se la direzione che si continua a seguire al comune di Caposele è la medesima si chiede Cione «se era meglio quando il paese aveva una gestione commissariale, che pure allora è stato invocato e sollecitato».
+«Sta di fatto che è ora di cambiare musica cari amministratori», conclude.
+&nbsp;
+lunedì 26 ottobre 2009
+&nbsp;
+
+[post_text_64]
+Caposele - Incidente nei campi: un uomo cade da tre metri
+&nbsp;
+ Tragedia sfiorata questo pomeriggio a Caposele dove un anziano agricoltore è caduto da un’altezza di oltre tre metri. L’uomo era intento nella raccolta delle olive, è salito su un albero ad alto fusto ed ha perso l’equilibrio. L’anziano sventurato, soccorso dai Carabinieri della locale Stazione e dal personale del 118, è stato immediatamente trasportato presso l’Ospedale Civile di Oliveto Citra dove è stato sottoposto agli accertamenti del caso. A causa delle gravi lesioni riportate, è stato trasferito d’urgenza all’Ospedale Civile di Salerno.
+&nbsp;
+ I Carabinieri della Compagnia di Montella, giunti immediatamente sul posto, hanno subito attivato i necessari accertamenti effettuando un accurato sopralluogo ed acquisendo tutte le dichiarazioni delle persone presenti, al fine di verificare eventuali responsabilità, anche se, rimane plausibile l’ipotesi dell’accidentalità dell’evento.
+Le indagini sono condotte in collaborazione con i Magistrati della Procura della Repubblica di Sant’Angelo dei Lombardi coordinati dal Procuratore Capo Antonio Guerriero
+&nbsp;
+(martedì 10 novembre 2009 alle 18.55)
+&nbsp;
+
+[post_text_65]
+Caposele - Provinciale 130: si prospetta finanziamento di 1 mln di €
+&nbsp;
+Strada provinciale 130 interrotta dalla frana: il responsabile del collegio provinciale dell’Italia dei Valori di Lioni, Franco Malanga, ha sollecitato la Provincia ad intervenire con un sopralluogo sul tratto interessato e per questo Malanga ha interessato il Consigliere Provinciale IdV, Antonio Volpe, che aveva appreso la notizia da una interrogazione in consiglio provinciale dai consiglieri Calabrese e Farina. Circa il sopralluogo, richiesto urgentemente all’assessore alla viabilità Cusano, Volpe che parla di 'una storia infinita', informa come si sia tenuto ieri, alla presenza dello stesso e di Cusano, del dirigente tecnico della Provincia Marro, e di Calabrese e Farina.
+&nbsp;
+“L’assessore Cusano – riferisce Volpe - ha dato mandato all’ufficio tecnico, di approntare un progetto, finanziato per circa un milione di euro. L’incontro – continua - è stato costruttivo per la presenza di varie forze politiche di maggioranza e opposizione, con un unico interesse: quello di stare dalla parte della comunità di Caposele”. Poi Volpe si focalizza sull’amministrazione comunale di Caposele, che “soddisfatta e fiduciosa, si impegnerà a mettere a disposizione le competenze dell’Ufficio tecnico per una migliore collaborazione con la Provincia”. E sull’incontro è intervenuto anche il consigliere di minoranza di Caposele, Pietro Cerulo, che ha così commentato: “Un esempio da seguire”.  “Noi dell’Italia dei Valori – conclude Volpe - vigileremo in Consiglio Provinciale sull’impegno dell’assessore alla viabilità, affinché si arrivi in tempi brevi alla riapertura della Strada Provinciale 130”.
+&nbsp;
+(giovedì 19 novembre 2009 alle 19.13)
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+[post_text_66]
+Caposele - Fuori pericolo dopo aver assunto un mix di droghe
+&nbsp;
+Forse un mix di droghe ha quasi ridotto in fin di vita un 27enne di Caposele.
+I medici dell’ospedale di Sant’Angelo dei Lombardi hanno subito prestato le prime cure al giovane. Dai primi accertamenti è emerso che il giovane aveva fatto abuso di sostanze stupefacenti. Fortunatamente la forte dose di droga presa non ha comportato gravi danni. Il giovane, dopo le prime cure, è stato anche dimesso dall’ospedale.
+&nbsp;
+(sabato 28 novembre 2009 alle 12.14)
+&nbsp;
+
+[post_text_67]
+Caposele, raccolta firme per Adsl: iniziativa del circolo Arcobaleno
+&nbsp;
+Il circolo caposelese “Arcobaleno” promuove una raccolta firme per sollecitare la Telecom Italia o altri gestori del servizio Adsl affinché venga reso al più presto disponibile il servizio di connessione internet con la banda larga.  L’Adsl è una tecnologia che permette di trasformare la normale linea telefonica analogica in una linea digitale ad alta velocità per un accesso ad internet ultra veloce. Allo stato attuale il territorio di Caposele è già attraversato dalla linea Adsl. Per permettere a tutti la connessione è necessario l’adeguamento da parte del gestore Telecom della centralina situata su via Lungo Sele. La petizione serve per sensibilizzare il gestore ed accelerare i tempi per l’adeguamento della centralina.
+(lunedì 7 dicembre 2009 alle 17.32)
+&nbsp;
+
+[post_text_68]
+Caposele - Inaugurazione del Museo delle Acque
+&nbsp;
+A Caposele, il 6 gennaio, l’amministrazione comunale ha inaugurato il Museo delle Acque, la Porta del Parco e il CE.AG.G. (Centro di aggregazione giovanile) presso i locali di casa Houston ubicati in Piazza Sanità.
+&nbsp;
+Questa struttura, a servizio dei cittadini di Caposele ed a disposizione di chiunque voglia conoscere il territorio e  le sue bellezze, è stata fortemente voluta dall’Amministrazione Comunale che è entusiasta di presentare un vero centro polifunzionale al servizio di tutti pensato e realizzato per creare concrete ricadute sia sociali che turistiche a Caposele.
+&nbsp;
+  All’interno di questi locali è presente il Museo delle Acque, il luogo in cui far conoscere a tutti  l’importanza dell’acqua che a Caposele riveste una particolare rilevanza vista la presenza delle Sorgenti del Sele che, con una portata di 4000 litri al secondo, dissetano l’intera Puglia. All’interno del Museo è stato realizzato una sorta di tour virtuale che condurrà il visitatore a scoprire le meraviglie di questo elemento. Altro spazio di conoscenza e informazione è rappresentato dal Museo Etnografico con esposizione di reperti della cultura locale (in allestimento a cura delle scuole del territorio).
+&nbsp;
+  La struttura ospiterà anche la “Porta del Parco dei Monti Picentini – Porta dell’Anima”, istituita dal Parco Regionale dei Monti Picentini, che rappresenta uno dei quattro punti di accesso (i punti cardinali del Parco) alle bellezza naturali dell’intera area vincolata. La Porta dell’Anima è stata individuata a Caposele sia perché, territorialmente, la cittadina rappresenta un vero ingresso naturale al Parco, sia perché riesce a dare maggiore visibilità al Parco, vista la già notevole presenza di turisti legata al Santuario di San Gerardo Maiella. La Porta del Parco rappresenta un punto di informazione e contestualmente una  vetrina territoriale del Parco. Al suo interno sono presenti  attrezzature che potranno essere messe a disposizione di chi vorrà visitare i territori dei Picentini per illustrare i percorsi ed i luoghi di maggiore pregio da visitare.
+&nbsp;
+  Il Centro di Aggregazione Giovanile (CE.AG.G) è stato pensato dall’Amministrazione Comunale, in coerenza con il Programma proposto in campagna elettorale, come un luogo di ritrovo, di confronto e di unione dei giovani di Caposele. Il centro è costituito da più componenti, alcune delle quali sono rivolte, non esclusivamente ai giovani, ma a tutta la popolazione di Caposele. I locali di Casa Houston ospiteranno la biblioteca comunale, con la possibilità di collegarsi anche via web alle biblioteche nazionali per la lettura di e-books e testi on line; l’Informagiovani, che è un punto di ritrovo e di informazione per i giovani di Caposele che, con questo servizio, potranno acquisire anche informazioni utili sul mondo del lavoro; il Forum dei Giovani, per consentire a questa significativa realtà di incrementare maggiormente i momenti di aggregazione e confronto, anche grazie alla presenza di una sala computer e stampa; l’internet point, che offre la possibilità a tutti di collegarsi a internet, attraverso la rete wireless, gratuitamente; la sala incontri, che è un luogo che il Comune mette a disposizione di chi abbia la necessità di uno spazio per incontrarsi, per assemblee, riunioni di gruppi ed associazioni, ma anche come spazio per assistere a proiezioni e come sala lettura.
+&nbsp;
+  Una struttura, in sostanza, che offre ai giovani ed ai cittadini un momento di grande confronto e di apertura sociale che si attendeva da molti anni. Una operazione compiuta da questa Amministrazione comunale che ha impiegato forze e volontà e con poco dispendio di risorse finanziarie ha potuto realizzare un centro polivalente che si configura come in primo vero passo verso una promozione turistica efficace del territorio.
+&nbsp;
+
+[post_text_69]
+"Polvere alla luna", il terremoto dell’80 nel romanzo di Gervasio
+&nbsp;
+Caposele - E’ previsto per il 16 febbraio prossimo il lancio del primo lavoro letterario di Donato Gervasio, giovane scrittore irpino di Caposele. “Polvere alla luna”, questo il titolo, sarà edito da Giraldi Editore di Bologna con distribuzione nazionale. Il romanzo è la prima fatica del giovanissimo Donato Gervasio, professione musicista e tanta passione per la scrittura. Il libro, 190 pagine, con prefazione dell’onorevole Francesco D’Ercole, è la ricostruzione romanzata del terribile terremoto che, in quella sera di quell’indimenticabile 23 novembre 1980, così duramente colpì l’Irpinia.
+&nbsp;
+Ambientato a Caposele, città natia dell’autore, Gervasio racconta dettagliatamente quella tragedia, basandosi su storie assolutamente reali da lui raccolte nel corso degli anni. Il racconto inizia il 21 novembre, 2 giorni prima del triste evento, per concludersi nel 1985. Ampio spazio è dedicato quindi ai pre e post terremoto, con il racconto così verosimile di ciò che era lo spaccato di vita dell’epoca. Impeccabili sono, oltre a tutto il resto, anche la ricostruzione e descrizione dei paesaggi del paese, sia prima che dopo il sisma. La storia è integrata di una trama nella trama, una storia di fantasia, scelta per rende la lettura ancor più scorrevole e meno prevedibile. Di fatto, si tratta del primo romanzo che ricostruisce fedelmente quella tragedia ed il subito prima e dopo terremoto.
+&nbsp;

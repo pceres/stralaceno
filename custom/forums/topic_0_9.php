@@ -228,6 +228,20 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 214::ARS::08/07/2009 13.03.14::visible
 215::ARS::15/07/2009 09.48.39::visible
 216::ARS::24/07/2009 16.31.07::visible
+217::ARS::04/08/2009 13.00.19::visible
+218::Pasquale Ceres::20/09/2009 17.32.36::visible
+219::ARS::08/10/2009 13.41.14::visible
+220::nic.m.::15/10/2009 11.30.11::visible
+221::Alfonso::15/10/2009 12.56.10::visible
+222::ARS::05/11/2009 14.56.29::visible
+223::Angelo::16/11/2009 22.39.48::visible
+224::nicola.m.::19/11/2009 10.25.17::visible
+225::nic.m.::01/12/2009 10.08.16::visible
+226::nic.m.::16/12/2009 19.55.20::visible
+227::navigatore caposelese::06/01/2010 12.51.41::visible
+228::nic.m.::15/01/2010 18.55.42::visible
+229::gaetano::19/01/2010 21.38.40::visible
+230::nicola.m::19/01/2010 23.59.53::visible
 
 [post_text_0]
 Fermate Nicola Melillo con questa stralaceno: anche i muri di materdomini e caposele non ne possono più.
@@ -1194,7 +1208,8 @@ Premiati i primi 50 uomini e le prime 20 donne al traguardo. In più premi di cat
 oggi altro grande allenamento sempre da solo poi a laceno si presentano in 50 mahh comunque non fa niente la corsa e' uno sport molto duro che pazienza e costanza che ci vuole.
 
 [post_text_205]
-&gt;oggi altro grande allenamento sempre da solo poi a laceno si presentano in 50 mahh comunque non fa niente la corsa e' uno sport molto duro che pazienza e costanza che ci vuole.<br>&gt;<br><br>E chi te lo ha detto che gli altri non si allenano. Semplicemente non vogliono farlo con te.
+&gt;oggi altro grande allenamento sempre da solo poi a laceno si presentano in 50 mahh comunque non fa niente la corsa e' uno sport molto duro che pazienza e costanza che ci vuole.
+<br>&gt;<br><br>E chi te lo ha detto che gli altri non si allenano. Semplicemente non vogliono farlo con te.
 
 [post_text_206]
 perche' non ti firmi e' inutile fare queste battute stupide io lo sport lo intendo diversamente da voi e per questo mi sono dimesso io corro per benessere e salute non per gareggiare e competere nelle varie gare che andate facendo per la campania non aggiungo altro altrimenti potrei dirti tante altre cose,correre per me stesso non per apparire.
@@ -1412,3 +1427,82 @@ ALTAVILLA SILENTINA (SA) IL 01/08/2009 ORE 18.30
 KM 10. ISCRIZIONI EURO 5.
 &nbsp;
 &nbsp;
+
+[post_text_217]
+Prossime gare in programma:
+&nbsp;
+-Maratonina di Nusco, domenica 9 agosto ore 18.30 - km 10,250 - Iscrizione 5 euro.
+&nbsp;
+-Trofeo San Rocco, Calabritto, mercoledì 12 agosto ore 19.00 - km 5 - Iscrizione gratuita.
+&nbsp;
+-Corsa dei 3 campanili, Caposele, sabato 15 agosto ore 19.15 - km 7,5 - Iscrizione 2 euro.
+&nbsp;
+&nbsp;
+Per le gare sopraelencate, l'iscrizione si può effettuare direttamente il giorno della gara.
+&nbsp;
+
+[post_text_218]
+&gt;-Maratonina di Nusco, domenica 9 agosto ore 18.30 - km 10,250 - Iscrizione 5 euro.
+<br>&gt;<br><br>
+Ho inserito i dati dell'edizione 2008 e 2009 della 10 km di Nusco, consultabili a <a href="http://pceres.altervista.org/nusco/index.php">questa pagina</a>. Potete anche consultare una serie di classifiche ed analisi statistiche relative alla tradizionale manifestazione di Nusco: buon divertimento!
+&nbsp;
+
+[post_text_219]
+Prossima gara alla quale parteciperanno gli AMATORI RUNNING SELE
+&nbsp;
+L’A.S. Dilettantistica Atletica Vis Nova Salerno indice ed organizza con la collaborazione del Comune di Salerno,  con il patrocinio della Provincia di Salerno, Assessorato allo Sport e con l’approvazione della FIDAL, la 15ª edizione della “STRASALERNO HALF MARATHON” di Km 21,097.
+La manifestazione per le società della Campania vale quale Campionato Regionale di Società di mezza maratona.
+&nbsp;
+LA GARA
+si disputerà a Salerno - Domenica - 18 Ottobre 2009 con ritrovo alle ore 8.00 e partenza alle ore 10.00
+&nbsp;
+PER ISCRIVERSI
+compilare l'apposito modulo o su carta intestata della società con indicazione del codice di società Fidal, numero della tessera Fidal valida per l’anno in corso, cognome, nome, anno di nascita e categoria dell’atleta.
+L'iscrizione è riservata ai Tesserati FIDAL (maggiorenni) assoluti, amatori e master, in regola con il tesseramento federale 2009 e Enti di Promozione Sportiva convenzionati Fidal, in regola con le norme sanitarie e assicurative per l’anno in corso.  Non è ammessa la partecipazione dei liberi.
+&nbsp;
+
+[post_text_220]
+ma vi rendete conto che caposele sta morendo la nuova amministrazione e' assente stiamo ancora aspettando la prima idea del cuore come mai ancora non siete riusciti a reperire i fondi per il sintetico del calcetto a palmenta solo parole vergognatevi!!che tristezza tra qualche anno caposele sara' un paese fantasma e le colpe sono di tutti ma io credo che chi si candida a governare lo deve fare non per apparire ma per impegnarsi seriamente .bisogna uscire da queste sabbie mobili solo con un sindaco giovane che puo' dedicare tanto impegno e tempo alla cosa pubblica.
+
+[post_text_221]
+e chi dovrebbe essere questo sindaco giovane??
+
+[post_text_222]
+Prossima gara alla quale parteciperà l'ARS:
+&nbsp;
+3° Memorial B.Germano -Sicignano degli Alburni (Sa)-
+domenica 8 ottobre ore 17.30. km 9 su circuito cittadino (4 giri)
+&nbsp;
+Ad Organizzare la Pro-Loco di Sicignano degli Alburni, collaborazione tecnica affidata al Team Isaura.
+&nbsp;
+Premi interessantissimi sia per gli uomini (i primi 25 in denaro e premi per i per gli atleti delle varie categorie assoluti-Amatori e master). Per le donne previsti premi per le prime 15 (6 in denaro). Classifica di società che prevede premi per le prime 6.
+&nbsp;
+&nbsp;
+&nbsp;
+
+[post_text_223]
+CVEMCAVAMELL, CVEMCAVAMELL! ALLA CONSOLLE N.D.A., D.A.N. ALLA CONSOLLE!
+
+[post_text_224]
+che mondo di ladri avete visto ieri sera come la francia ha segnato per andare ai mondiali vergogna!!!!!!!!!!!!!!!!!!!!!!! non andro' mai piu' allo stadio questo mondo non mi appartiene capisco tutti i problemi della nostra malata societa' ma quando viene a mancare anche la giustizia e' proprio finito tutto.che tristezza,delusione,sconforto,rabbia,non preoccuparti caro trap la francia e i francesi faranno una brutta fine,sono solo dei ladri delinquenti
+
+[post_text_225]
+le gare si fanno con regolare certificato medico altrimenti ci si allena in maniera spontanea e personale e' importante controllarsi prima di correre gare amatoriali.
+
+[post_text_226]
+come mai nessuno dell' ars si fa piu' sentire quest'anno l' allenamento ve lo fate voi bella amicizia ognuno pensa a se caro alex ti ricordo che la disoccupazione aumenta sempre di piu' ancora ricordo le tue parole di una sera davanti al comune se era cosi' stavamo gia' lavorando .
+
+[post_text_227]
+Confermiamo connettivita' da Piazza Sanita'!
+&nbsp;
+Test effettuato con successo alle 12.50
+
+[post_text_228]
+caro marco ceres adesso basta qui nessuno e' fesso nelle feste natalizie anora una volta hai cercato di creare polemiche con alessandro non ho capito perche' ti diverti cosi' tanto fatti una volta per tutte gli affari tuoi adesso basta la pazienza ha un limite dato che tra di noi non ci sono che semplici rapporti di conoscenza.
+
+[post_text_229]
+E'giunta l'ora di dare una svolta a caposele. siamo rimasti in pochi a stare in questo paese.La maggior parte dei giovani una volta finito gli studi abbandona il nostro paese per migliorare la vita in generale cercando fortuna al di fuori di caposele.Il paese e' vuoto,abbandonato,le nascite sono quasi nulla,e man mano che passeranno gli anni diventera'un paese di solo anziani.Noi giovani che ci abitiamo ancora sembriamo dei sfigati rispetto ad un romano,un milanese ecc. e tutto cio'lo trovo inaccettabile! Caposele si riaccende solo durante le feste natalizie ed in estate con il ritorno di tutti gli emigrati. Loro trovano in quel periodo le feste nei locali e nel paese, e noi che ci abitiamo tutto l'anno facciamo finta di stare con lo stesso entusiasmo di loro quando poi non e'cosi'.Settembre, ottobre,novembre,febbraio,marzo,aprile,maggio,giugno noi abitanti di Caposele patiamo il malessere che offre questo paese a differenza degli emigrati che trovano il 'paradiso'. E'solo uno sfogo per non essere dimenticati da chi magari si e' cresciuto insieme,o magari con chi se ne andato al nord dimenticandosi delle nostre condizioni che ci troviamo.Siamo in uno stato di emergenza accentuata anche dalla disoccupazione. L'unica cosa che possiamo fare e'una: NON MOLLARE!!
+
+[post_text_230]
+bravo gaetano condivido con te pienamente il tuo messaggio queste feste natalizie saranno ricordate solo per il solito rito consumistico nei vari bar di caposele ma e' possibile che nessuno dei gestori sia stato capace di organizzare una serata con un gruppo musicale discreto che faccia divertire tutti i presenti e poi si lamentano quando nei mesi di settembre,ottobre incassano tanti soldi svegliatevi cambiate un po' la vostra mentalita' che oramai ne abbiamo veramente le scatole piene di queste festicciole mediocri.dott.farina dimettiti la gente e' stanca dei tuoi ritornelli e delle tue false promesse la tua fantomatica idea di cambiamento dove e' rimasta? come mai misteriosamente dopo la vittoria avete chiuso la sezione del cuore i giovani vanno via alla ricerca di fortuna ma io credo che comunque la vostra coscienza sara'inesorabilmente macchiata per sempre dato il vostro scarsissimo impegno nel realizzare qualche progetto di sostegno ai tanti ragazzi che sono disoccupati e sbandati non ci si candida solo per protagonismo ma se animati da idee,volonta',disponibilita',capacita'etc.altrimenti e' meglio concentrarsi sulle proprie attivita' professionali.che delusione e sconforto vedere caposele spegnersi in questo modo dobbiamo al piu' presto correre via da qui se vogliamo realizzarci dato che anche quelli che credevi fossero amici hanno pensato solo a se stessi.
+

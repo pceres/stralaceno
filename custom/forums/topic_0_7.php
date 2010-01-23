@@ -142,6 +142,18 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 128::lupa::07/09/2008 17.02.03::visible
 129::Paolo Viscardi::28/09/2008 23.24.43::visible
 130::nic.m.::30/06/2009 00.40.04::visible
+131::...::09/08/2009 11.20.56::visible
+132::...::10/08/2009 10.43.23::visible
+133::Paolo Viscardi::12/08/2009 13.05.24::visible
+134::Stralaceno::05/09/2009 12.09.14::visible
+135::Orso::26/09/2009 13.20.15::visible
+136::cabo86::01/09/2006 23.06.35::visible
+137::foxy::02/09/2006 20.20.15::visible
+138::NICOLA M.::22/09/2006 11.32.52::visible
+139::NICOLA M.::30/10/2006 17.39.11::visible
+140::ars::21/02/2008 11.09.33::visible
+141::nic.m.::01/10/2009 12.40.33::visible
+142::il n. 102::01/10/2009 14.43.56::visible
 
 [post_text_0]
 Aspettiamo le vostre dichiarazioni di sfida...
@@ -564,7 +576,8 @@ In attesa delle vostre opinioni, vi segnalo <a href="http://pceres.altervista.or
 x Alex: che tu sappia, per iscrivere una squadra alla gara di Nusco bisogna che quest'ultima sia tesserata Fidal?
 
 [post_text_78]
-&gt;x Alex: che tu sappia, per iscrivere una squadra alla gara di Nusco bisogna che quest'ultima sia tesserata Fidal?<br>&gt;<br><br>No, lo si può fare liberamente.
+&gt;x Alex: che tu sappia, per iscrivere una squadra alla gara di Nusco bisogna che quest'ultima sia tesserata Fidal?
+<br>&gt;<br><br>No, lo si può fare liberamente.
 Già nell'edizione di quest'anno della 10 km di Nusco, si può parlare di partecipazione di squadra degli amatori running sele: hanno corso ben 5 soci + 3 aggregati (2 dei quali attualmente anche loro soci.)
 
 [post_text_79]
@@ -671,7 +684,8 @@ Se vuoi continuare a provocare fallo pure tanto da ora in avanti ti ignorerò.
 Sappiamo bene che Riccardo D. on è il tuo vero nome... Addio
 
 [post_text_100]
-&gt;Sappiamo bene che Riccardo D. on è il tuo vero nome... Addio<br>&gt;<br><br>Sappiamo bene che Riccardo D. non è il tuo vero nome... Addio
+&gt;Sappiamo bene che Riccardo D. on è il tuo vero nome... Addio
+<br>&gt;<br><br>Sappiamo bene che Riccardo D. non è il tuo vero nome... Addio
 &nbsp;
 
 [post_text_101]
@@ -745,7 +759,10 @@ X saggio
 Tu ne vai a fui e ne vai nguoddo...quistu si che è nu problema....!!
 
 [post_text_118]
-&gt;X saggio<br>&gt; <br>&gt;Tu ne vai a fui e ne vai nguoddo...quistu si che è nu problema....!!<br>&gt;<br><br>i vacu 'nguoddu, e tu tieni la cora r paglia
+&gt;X saggio
+<br>&gt; 
+<br>&gt;Tu ne vai a fui e ne vai nguoddo...quistu si che è nu problema....!!
+<br>&gt;<br><br>i vacu 'nguoddu, e tu tieni la cora r paglia
 
 [post_text_119]
 CARO EX PRES. D' AURIA  QUEST' ANNO A LACENO E' ARRIVATO IL MOMENTO DELLA SCONFITTA SARAI BATTUTO DA MOLTI NEMICI SPORTIVI FORZA RAGAZZI ALEX RUSSOMANNO PRESIDENTE DELL' ARS.
@@ -760,11 +777,13 @@ Caro Nicola il mio personale è 23,34 per un secondo ma sei battuto!!!!!!!
 non ti appigliare ai secondi tu non sai che se si corre una stralaceno su 2 giri per un totale 11 km tu da me prendi almeno 3 minuti la tua fortuna e' che per fare la stralaceno non e' necessario un grande allenamento altrimenti non so se partecipavi!!la mia e' una grande vittoria perche' voi eravate almeno in 3 a rincorrermi ma purtroppo vi ho lasciato solo le briciole e come sono belli quei 11 secondi di distacco e ti e' andata anche bene.lo sport e' sacrificio che credevi che era sempre PASQUA!!
 
 [post_text_123]
-&gt;non ti appigliare ai secondi tu non sai che se si corre una stralaceno su 2 giri per un totale 11 km tu da me prendi almeno 3 minuti la tua fortuna e' che per fare la stralaceno non e' necessario un grande allenamento altrimenti non so se partecipavi!!la mia e' una grande vittoria perche' voi eravate almeno in 3 a rincorrermi ma purtroppo vi ho lasciato solo le briciole e come sono belli quei 11 secondi di distacco e ti e' andata anche bene.lo sport e' sacrificio che credevi che era sempre PASQUA!!<br>&gt;<br><br>Giusta affermazione, probabilmente non avrei partecipato alla stralaceno se si fosse svolta su due giri. Così come non volevo partecipare all'edizione di quest'anno per le mie pessime condizioni di allenamento e pertanto il mio 23,46 è un risultato ecellente frutto di una grande sofferenza in gara. Pertanto questi pochi secondi di distacco non possono farti gioire così tanto anzi devi prenderla come una sonora sconfitta, psicologicamente ti ritengo battuto e anche di molto!
+&gt;non ti appigliare ai secondi tu non sai che se si corre una stralaceno su 2 giri per un totale 11 km tu da me prendi almeno 3 minuti la tua fortuna e' che per fare la stralaceno non e' necessario un grande allenamento altrimenti non so se partecipavi!!la mia e' una grande vittoria perche' voi eravate almeno in 3 a rincorrermi ma purtroppo vi ho lasciato solo le briciole e come sono belli quei 11 secondi di distacco e ti e' andata anche bene.lo sport e' sacrificio che credevi che era sempre PASQUA!!
+<br>&gt;<br><br>Giusta affermazione, probabilmente non avrei partecipato alla stralaceno se si fosse svolta su due giri. Così come non volevo partecipare all'edizione di quest'anno per le mie pessime condizioni di allenamento e pertanto il mio 23,46 è un risultato ecellente frutto di una grande sofferenza in gara. Pertanto questi pochi secondi di distacco non possono farti gioire così tanto anzi devi prenderla come una sonora sconfitta, psicologicamente ti ritengo battuto e anche di molto!
 Lo spirito sportivo e di sacrificio mi ha indotto a fare la gara e anche se si fosse disputata su due giri avrei gareggiato, probabilmente sarei arrivato per Pasqua al traguardo ma questo è il mio intendo partecipare senza particolari ambizioni e soprattutto senza essere "fanatico". Ci scontreramo l'anno prossimo basta che farò una settimana intensa di allenamento e ti batterò facilmente nonostante il tuo anno intero di preparazione!
 
 [post_text_124]
-&gt;>non ti appigliare ai secondi tu non sai che se si corre una stralaceno su 2 giri per un totale 11 km tu da me prendi almeno 3 minuti la tua fortuna e' che per fare la stralaceno non e' necessario un grande allenamento altrimenti non so se partecipavi!!la mia e' una grande vittoria perche' voi eravate almeno in 3 a rincorrermi ma purtroppo vi ho lasciato solo le briciole e come sono belli quei 11 secondi di distacco e ti e' andata anche bene.lo sport e' sacrificio che credevi che era sempre PASQUA!!<br>&gt;<br><br>Giusta affermazione, probabilmente non avrei partecipato alla stralaceno se si fosse svolta su due giri. Così come non volevo partecipare all'edizione di quest'anno per le mie pessime condizioni di allenamento e pertanto il mio 23,46 è un risultato ecellente frutto di una grande sofferenza in gara. Quindi questi pochi secondi di distacco non possono farti gioire così tanto anzi devi prenderla come una sonora sconfitta, psicologicamente ti ritengo battuto e anche di molto!
+&gt;>non ti appigliare ai secondi tu non sai che se si corre una stralaceno su 2 giri per un totale 11 km tu da me prendi almeno 3 minuti la tua fortuna e' che per fare la stralaceno non e' necessario un grande allenamento altrimenti non so se partecipavi!!la mia e' una grande vittoria perche' voi eravate almeno in 3 a rincorrermi ma purtroppo vi ho lasciato solo le briciole e come sono belli quei 11 secondi di distacco e ti e' andata anche bene.lo sport e' sacrificio che credevi che era sempre PASQUA!!
+<br>&gt;<br><br>Giusta affermazione, probabilmente non avrei partecipato alla stralaceno se si fosse svolta su due giri. Così come non volevo partecipare all'edizione di quest'anno per le mie pessime condizioni di allenamento e pertanto il mio 23,46 è un risultato ecellente frutto di una grande sofferenza in gara. Quindi questi pochi secondi di distacco non possono farti gioire così tanto anzi devi prenderla come una sonora sconfitta, psicologicamente ti ritengo battuto e anche di molto!
 Lo spirito sportivo e di sacrificio mi hanno indotto a fare la gara e anche se si fosse disputata su due giri avrei gareggiato, probabilmente sarei arrivato per Pasqua al traguardo ma questo è il mio intendo partecipare senza particolari ambizioni e soprattutto senza essere "fanatico". Ci scontreramo l'anno prossimo basta che farò una settimana intensa di allenamento e ti batterò facilmente nonostante il tuo anno intero di preparazione!
 &nbsp;
 
@@ -775,7 +794,8 @@ non si tratta di essere fanatico la vera gara non e' la stralaceno come mai non 
 Come ti ho già detto partecipo solo per spirito sportivo.
 
 [post_text_127]
-&gt;Come ti ho già detto partecipo solo per spirito sportivo.<br>&gt;<br><br>impara a saper perdere
+&gt;Come ti ho già detto partecipo solo per spirito sportivo.
+<br>&gt;<br><br>impara a saper perdere
 &nbsp;
 
 [post_text_128]
@@ -788,3 +808,62 @@ Paolo
 
 [post_text_130]
 oggi grande allenamento con claudio donatiello a laceno sotto la pioggia io un tempo sui 25 e claudio 27 va bene cosi' non ci arrendiamo ma li' non c' e' mai nessun altro coraggioso l' importante e' che ci siamo noi.
+
+[post_text_131]
+Pronosticate i primi cinque della prossima stralaceno 2009.
+Vediamo chi si avvicina di più:
+1° ...........
+2° ...........
+3° ...........
+4° ...........
+5° ...........
+
+[post_text_132]
+1 posto Nicola Melillo
+2 posto Melillo Nicola
+3 posto Nicola Melillo
+4 posto Melillo Nicola
+5 posto Nicola Melillo
+&nbsp;
+Dopo questo grande successo potrà abbandonare lo sport e dedicarsi al lavoro!
+
+[post_text_133]
+Volevo annunciare a tutti che purtroppo quest'anno non potrò partecipare alla corsa campestre del 15 agosto a Caposele per motivi di lavoro. Pensavo di poter comunque partecipare, ma purtroppo nelle ultime ore sono cambiate un pò di cose che hanno costretto a disdire la mia partecipazione. Dispiaciuto di questo, auguro una buona corsa a tutti e soprattutto ai membri della nostra associazione ARS Amatori Running Sele una spettacolare gara.
+
+[post_text_134]
+Sul sito della STRALACENO,  nella sezione LETTERE ALLA STRALACENO, abbiamo pubblicato una e-mail ricevuta da un partecipante all'edizione 2009 della gara.
+&nbsp;
+
+[post_text_135]
+Dopo la cocente sconfitta e la deludente prestazione alla stralaceno non si hanno più notizie di Nicola Melillo.
+Penserà al ritiro dal podismo? Penserà a qualche strategia per scofiggere i suoi eterni rivali (podistici)? Penserà a quali acquisti l'Avellino dovrà fare? Penserà a come sparlare di qualcuno? Penserà, finalmente, a lavorare?
+Solo il tempo ci darà una risposta!
+
+[post_text_136]
+salve a tutti!
+allora raccontatemi i vostri pensieri di questa edizioni se siete soddisfatti o meno.
+Penso che almeno ora ognuno di noi può rispondere alla domenda "l'uomo è nato per correre?", si dopo questa gara,ognuno di noi è in grado di rispondere a questa domanda!!
+
+[post_text_137]
+Direi che 68 partecipanti più 4 under 15 sono una bella ricompensa allo sforzo profuso in questi anni da tutti noi che teniamo molto a questa manifestazione.
+
+[post_text_138]
+IO SONO SODDISFATTO PER LA MIA PERFORMANCE MA BISOGNA DARE CONTINUITA' AGLI ALLENAMENTI ALTRIMENTI LA SOLA CORSA DI LACENO NON SERVE A NIENTE, MI RIVOLGO SOPRATTUTTO  A QUELLI CHE FINORA NON SANNO NEANCHE DELL' ESISTENZA DEL FORUM O NON HANNO IL CORAGGIO DI SCRIVERE LE LORO SENSAZIONI E OPINIONI.SPERO CHE QUALCUNO PROPONE DELLE IDEE.
+
+[post_text_139]
+E' INUTILE CHE PROPONETE FOTO STORICHE BISOGNA ORGANIZZARE NUOVE COSE ALTRIMENTI ALLA STRALACENO TRA QUALCHE ANNO NON CI SARA' NEANCHE UN CONCORRENTE.COSA CE NE FACCIAMO DI UNA CORSA L' ANNO.
+
+[post_text_140]
+Inseriti nel sito della Stralaceno,  i commenti che ancora mancavano alle foto dell'edizione 2007.
+&nbsp;
+http://stralaceno.cjb.net
+&nbsp;
+&nbsp;
+
+[post_text_141]
+troppo bello il commento di nicola d' auria ad una foto dove dice il n.102 e' ormai troppo abituato a liberare sparvieri questo e' il tuo compito lo sport e' una cosa diversa non per tutti.
+
+[post_text_142]
+&gt;troppo bello il commento di nicola d' auria ad una foto dove dice il n.102 e' ormai troppo abituato a liberare sparvieri questo e' il tuo compito lo sport e' una cosa diversa non per tutti.
+<br>&gt;<br><br>E' vero bello il commento del d'Auria, meno il tuo. Non si capisce lo scopo... CALMATI!
+

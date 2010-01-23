@@ -69,22 +69,24 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 55::NewsAmbiente::18/09/2008 17.17.11::visible
 56::AmbienteNews::10/10/2008 16.10.00::visible
 57::NewsAmbiente::20/10/2008 23.44.04::visible
-58::AmbienteNews::27/12/2008 16.01.36::visible
-59::AmbienteNews::20/01/2009 09.47.30::visible
-60::NewsAmbiente::24/01/2009 09.57.59::visible
-61::AmbienteCaposele::26/01/2009 20.36.12::visible
-62::Ambiente Caposele::09/02/2009 17.08.27::visible
-63::AmbienteNews::16/02/2009 22.02.02::visible
-64::Ambientenews::17/03/2009 15.59.26::visible
-65::AmbienteNews::19/03/2009 21.28.47::visible
-66::NewsAmbiente::06/04/2009 15.39.49::visible
-67::paco::07/04/2009 20.51.59::visible
-68::AmbienteNews::19/05/2009 15.57.10::visible
-69::Ambientenews::11/06/2009 15.28.52::visible
-70::NewsAmbiente::11/06/2009 20.16.58::visible
-71::AmbienteNews::23/06/2009 16.10.02::visible
-72::NewsAmbiente Comune::25/06/2009 15.31.06::visible
-73::Comune Ambiente::01/07/2009 14.50.43::visible
+58::AmbienteNews::27/11/2008 16.02.04::visible
+59::AmbienteNews::27/12/2008 16.01.36::visible
+60::AmbienteNews::20/01/2009 09.47.30::visible
+61::NewsAmbiente::24/01/2009 09.57.59::visible
+62::AmbienteCaposele::26/01/2009 20.36.12::visible
+63::Ambiente Caposele::09/02/2009 17.08.27::visible
+64::AmbienteNews::16/02/2009 22.02.02::visible
+65::Ambientenews::17/03/2009 15.59.26::visible
+66::AmbienteNews::19/03/2009 21.28.47::visible
+67::NewsAmbiente::06/04/2009 15.39.49::visible
+68::paco::07/04/2009 20.51.59::visible
+69::AmbienteNews::19/05/2009 15.57.10::visible
+70::Ambientenews::11/06/2009 15.28.52::visible
+71::NewsAmbiente::11/06/2009 20.16.58::visible
+72::AmbienteNews::23/06/2009 16.10.02::visible
+73::NewsAmbiente Comune::25/06/2009 15.31.06::visible
+74::Comune Ambiente::01/07/2009 14.50.43::visible
+75::Angelo Ceres::11/01/2010 21.37.57::visible
 
 [post_text_0]
 Qui proposte, osservazioni, critiche e tutto ciò che concerne l'ambiente e la natura dalle grosse tematiche di interesse mondiali ai piccoli accadimenti del paese.
@@ -122,7 +124,8 @@ Per Pasquale
 Su Parks.it c'è una mappa dove si individua esattamente il Parco in Campania anche questa sarebbe utile inserire. Per individuare Caposele non lo so, però ho la carta del Parco eventualmente potremmo inserire quella.
 
 [post_text_9]
-&gt;Su Parks.it c'è una mappa dove si individua esattamente il Parco in Campania anche questa sarebbe utile inserire. Per individuare Caposele non lo so, però ho la carta del Parco eventualmente potremmo inserire quella.<br>&gt;<br><br>Potremmo inserire uno zoom della tua cartina, in modo da vedere le zone di Caposele interessate. Ne riparliamo tra una settimana, quando torno a Caposele.
+&gt;Su Parks.it c'è una mappa dove si individua esattamente il Parco in Campania anche questa sarebbe utile inserire. Per individuare Caposele non lo so, però ho la carta del Parco eventualmente potremmo inserire quella.
+<br>&gt;<br><br>Potremmo inserire uno zoom della tua cartina, in modo da vedere le zone di Caposele interessate. Ne riparliamo tra una settimana, quando torno a Caposele.
 &nbsp;
 Perché non ci scrivi un bell'articolo sull'argomento?
 &nbsp;
@@ -699,6 +702,11 @@ Il WWF lavora in stretta collaborazione con l’IUCN in tutto il mondo, attraverso
 &nbsp;
 
 [post_text_58]
+PARCO DEI MONTI PICENTINI: CHIUDE IL PROGETTO NATURA E SVILUPPO
+&nbsp;
+Dopo la firma dei gemellaggi con i parchi di Lycksele, in Svezia e con la riserva naturale di “Ongava Game” in Namibia, il progetto “Natura e sviluppo”, nato con l’intento di affermare l’importanza del Parco Regionale dei Monti Picentini come colonna portante dello sviluppo turistico del territorio, volge al termine: domani 28 novembre, presso la sala dei convegni del Comune di Campagna, Porta della Natura del Parco Regionale dei Monti Picentini, si terrà alle ore 17.30 il convegno conclusivo del progetto realizzato dall’ATS Soges – Euroform – Noi Con Loro. All’incontro interverranno: Biagio Luongo, Sindaco di Campagna; Sabino Aquino, Presidente del Parco Regionale dei Monti Picentini; Corrado Martinangelo, Assessore all’Agricoltura e alle Foreste della Provincia di Salerno e presidente della Comunità del Parco; Salvatore Biazzo, esperto di comunicazione e assessore alla Cultura e al Turismo del Comune di Avellino. Nel corso del convegno saranno presentati il “Giornale del Parco” e il “Libro degli Itinerari”, strumenti attraverso i quali promuovere le ricchezze di questa area protetta. Inoltre, sarà premiato l’Istituto scolastico risultato vincitore al concorso “Crea la Mascotte del Parco Regionale dei Monti Picentini”, bandito per sviluppare e sollecitare nei giovani delle scuole medie inferiori la fantasia, la creatività e la conoscenza del Parco nonché la crescita di un sentimento di appartenenza alla comunità del territorio. L’ambito premio alla spontaneità e alla rappresentatività del disegno è stato assegnato all’ Istituto Comprensivo di Caposele. Soddisfatto il dirigente dell’Istituto, Salvatore Di Napoli, il quale ha dichiarato: “Il Parco Regionale dei Monti Picentini con il Progetto “Natura e Sviluppo” ha promosso iniziative importanti per la sensibilizzazione nelle scuole e spero che questa collaborazione possa continuare con manifestazioni altrettanto significative”. Previsti, inoltre, premi anche per altri Istituti che hanno partecipato al concorso. Saranno premiati anche l’Istituto Comprensivo di Nusco, di Montemarano, di Giffoni Valle Piana e di Eboli.
+
+[post_text_59]
 Parco Monti Picentini: temi di interesse Programmazione 2007- 2013
 &nbsp;
 Nusco - Anche in assenza di un’ adeguata struttura tecnico-amministrativa, operando con la collaborazione di alcune unità, messe a disposizione per sole poche ore settimanali da alcuni enti territoriali, il Parco dei Monti Picentini, guidato da Presidente Sabino Aquino è riuscito nel corso dell’anno 2008 a raggiungere notevoli risultati.
@@ -717,17 +725,17 @@ Infine l’ente dal secondo semestre del 2008 ha cominciato da elaborare il Piano 
 (sabato 27 dicembre 2008 alle 12.57)
 &nbsp;
 
-[post_text_59]
+[post_text_60]
                              -AVVISO PUBBLICO-
 Ai sensi del Regolamento Comunale sugli Usi Civici (Delibera di C.C. N.14 del 03/05/2007) si comunica che per la raccolta della legna “morta” o “viva” è necessaria la preventiva autorizzazione da parte dell’Amministrazione Comunale. La modulistica per la richiesta è disponibile presso il Comune di Caposele Ufficio Polizia Municipale o sul sito istituzionale del Comune di Caposele. I cittadini che saranno privi dell’autorizzazione o non rispetteranno il predetto Regolamento saranno soggetti alle previste sanzioni amministrative e alla confisca del prodotto. Inoltre, qualora il fatto costituisca reato, si procederà a darne notizia alla Autorità Giudiziaria. L’Amministrazione Comunale, per garantire ai cittadini una migliore fruizione degli usi civici ed una corretta gestione e salvaguardia della risorsa ambientale, proporrà l’adozione di un nuovo Regolamento.
 &nbsp;
                            L’Assessore alle Politiche Ambientali
                                      Dott. Angelo Ceres
 
-[post_text_60]
+[post_text_61]
 SABATO 24 GENNAIO ALLE ORE 17,00 PRESSO IL CARCERE BORBONICO IN AVELLINO SARA' PRESENTATA LA CARTA DEI SENTIERI DEL PARCO REGIONALE DEI MONTI PICENTINI
 
-[post_text_61]
+[post_text_62]
 Continua l'attività dell'amministrazione comunale in campo ambientale.
 Dopo anni di abbandono del territorio si stanno portando a termine
 una serie di azioni di bonifica del territorio oltre ad attività di
@@ -735,13 +743,13 @@ prevenzione e vigilanza. Ci sarà occasione, successivamente, di elencare
 tali interventi.
 Angelo Ceres
 
-[post_text_62]
+[post_text_63]
 Oggi è stata posizionata, all'interno della Porta del Parco,
 la carta dei sentieri. Fra pochi giorni sarà completato il montaggio.
 La struttura è stata predisposta dall'amministrazione comunale.
 Angelo Ceres
 
-[post_text_63]
+[post_text_64]
 UNA LEZIONE DA CHI E' MOLTO PIU' CIVILE DI NOI
 &nbsp;
 Assergi 13/02/09 – Una bella storia a lieto fine, esemplare della possibile amicizia tra l’uomo e il lupo, è stata scritta nel territorio innevato di Assergi (AQ), in località Fosso Raiale,  prossimo alla sede amministrativa del Parco Nazionale del Gran Sasso e Monti della Laga.
@@ -752,7 +760,7 @@ Il Direttore del Parco, Marcello Maranella, ha ringraziato l’agricoltore ed ha e
 &nbsp;
 L’uomo e il lupo, infatti, si fronteggiano da millenni e nel lupo l’uomo ha visto figure via via differenti: dal magico simbolo di forza e intelligenza al feroce assassino, all’animale nocivo da sopprimere.  Oggi, in un momento storico in cui l’uomo è chiamato ad assumere il ruolo determinante di responsabile delle risorse del pianeta e di una diversità biologica fortemente minacciata, è importante che apprenda a guardare anche al lupo con occhi nuovi, come componente essenziale di un ecosistema sano da proteggere e consegnare ancora integro alle future generazioni.
 
-[post_text_64]
+[post_text_65]
 Concluso il ciclio dei seminari tra Caposele, Bagnoli e Lioni che hanno trattato la problematica dei rifiuti all'interno delle imprese.
 Lo scopo è stato quello di sensibilizzare i produttori dei rifiuti ad una maggiore attenzione verso l'ambiente.
 La normativa nazionale prevede pesanti sanzioni penali ed amministrative per i trasgressori.
@@ -760,7 +768,7 @@ L'amministrazione comunale consapevole di questo resta a disposizione di tutti p
 &nbsp;
 Angelo Ceres
 
-[post_text_65]
+[post_text_66]
 La Maratona di Roma aderisce a 'Parchi per Kyoto'
 Con l'edizione del 2009, la manifestazione podistica dÃ  il via a un
 processo pluriennale di compensazione dei gas serra emessi, che la
@@ -813,18 +821,19 @@ internazionali, oltre a una serie di attività di sensibilizzazione e
 informazione sul tema del riscaldamento globale.
 &nbsp;
 
-[post_text_66]
+[post_text_67]
 E' online il sito del Parco Regionale dei Monti Picentini: www.parcoregionalemontipicentini.it
 
-[post_text_67]
-&gt;E' online il sito del Parco Regionale dei Monti Picentini: www.parcoregionalemontipicentini.it<br>&gt;<br><br>
+[post_text_68]
+&gt;E' online il sito del Parco Regionale dei Monti Picentini: www.parcoregionalemontipicentini.it
+<br>&gt;<br><br>
 E sul sito c'e' una cartografia veramente ben fatta!
 &nbsp;
 <a href="http://www.parcoregionalemontipicentini.it/PMP/">http://www.parcoregionalemontipicentini.it/PMP/</a>
 &nbsp;
 &nbsp;
 
-[post_text_68]
+[post_text_69]
 Continua l'attività dell'Amministrazione Comunale nell'attività di bonifica delle aree.
 Si tratta della zona a monte della Castagneta nel vallone che scende
 dalla Mauta. Una zona impervia dove da anni si sversavano rifiuti di tutti i tipi.
@@ -832,7 +841,7 @@ La pericolosità stava diventando preoccupante visto che una serie di rifiuti, in
 Rinvenuti circa 15 quintali di rifiuti.
 Angelo Ceres
 
-[post_text_69]
+[post_text_70]
 Lupo ferito soccorso e gestito in collaborazione tra i parchi nazionali del Gran Sasso e della Majella
 &nbsp;
 Isola del Gran Sasso 20/05/09– Ancora una storia sulla possibile amicizia tra l’uomo e il lupo si è verificata questa volta nel territorio di Amatrice, dove alla fine di aprile gli agenti del Corpo Forestale dello Stato hanno preso in custodia un esemplare gravemente ferito la cui presenza era stata segnalata sulla via Salaria. Con l’ausilio di un agricoltore e di un veterinario della zona, il lupo è stato prontamente immesso in una cassa di trasporto e preso in custodia dal personale del Parco del Gran Sasso e Monti della Laga. Si trattava di un giovane maschio di circa due anni, un individuo probabilmente in dispersione, vittima di investimento da parte di un’autovettura e successivamente aggredito da cani. Il lupo presentava numerose ferite lacero contuse da morso in tutto il corpo, uno stato generale di denutrizione con masse muscolari treno posteriore ipotrofiche e fratture dell’osso nasale e del radio e dell’ulna dell’avambraccio destro.
@@ -844,7 +853,7 @@ Nei giorni scorsi sono stati osservati e valutati i progressivi miglioramenti ne
 «E’ la prima volta – sottolinea il Commissario Straordinario Arturo Diaconale – che la gestione di un lupo ferito sia condotta direttamente da professionalità interne ai Parchi e rappresenta pertanto un’esperienza significativa per la futura gestione di problematiche che, a causa della convivenza tra uomo e fauna selvatica in territori a forte antropizzazione, si presentano con sempre maggiore frequenza nell’area protetta. Come Ente siamo grati al Parco Nazionale della Majella per l’opportunità di tale fondamentale collaborazione».
 &nbsp;
 
-[post_text_70]
+[post_text_71]
 Orsa di sei anni trovata morta nel Parco
 &nbsp;
 Notizia del 11/06/2009
@@ -867,7 +876,7 @@ Nei prossimi giorni continueranno i pattugliamenti delle Guardie del Servizio So
 &nbsp;
 Comunicato Stampa n. 36/2009
 
-[post_text_71]
+[post_text_72]
 Fin dai primi anni dalla nascita del WWF, la lontra è stata  l’ “Oggetto Misterioso”. Le ricerche organizzate dall’Associazione fin dal 1986 davano segnali di progressivo declino. La scomparsa da tutto il Nord Italia e da zone da noi controllate come le Oasi di Burano, Bolgheri, Vulci,  il bacino del Farma-Merse e la mancanza di dati da altre aree ci preoccupavano moltissimo.
 &nbsp;
 Nel Libro Rosso degli Animali d’Italia, pubblicato nel 1998 dal WWF con il contributo del Ministero delle Ricerca Scientifica, si calcolava che di questa rarissima specie non rimanessero, in Italia, che meno di 100 (cento) esemplari. I segni di presenza, per anni, si limitavano a incerte orme nel fango, a tracce di escrementi, ma lei, la Signora dei Fiumi, nessuno riusciva a vederla. Ma da qualche anno, grazie a un’accresciuta sensibilità, alle Oasi create nel Mezzogiorno (come Policoro, Gole del Bussento, Lago di Conza) e alla sempre maggiore tranquillità nella storica Oasi di Persano, la lontra ha cominciato finalmente a farsi vedere.
@@ -875,12 +884,12 @@ Nel Libro Rosso degli Animali d’Italia, pubblicato nel 1998 dal WWF con il contr
 Oramai a Persano non è più eccezionale poterla ammirare anche di giorno. Ed è possibile anche fotografarla, come ha fatto il fotografo Carlo Falanga, alle 8.10 del 30 maggio scorso, affacciandosi a uno dei tanti osservatori che questa attrezzatissima Oasi mette a disposizione dei visitatori. Un’ ulteriore riprova, se ce ne fosse bisogno, di come un’attenzione pluridecennale e la pace assicurata dalle nostre Oasi contribuiscano a recuperare situazioni già date per compromesse definitivamente. Fulco Pratesi
 &nbsp;
 
-[post_text_72]
+[post_text_73]
 L'amministrazione Farina, con l'assessorato all'ambiente, ancora impegnata nell'attività di tutela e protezione del nostro patrimonio naturale.
 E' stata stipulata una convenzione con la Federazione Pro Vita per la vigilanza ambientale. Diventerà, così, più difficile commettere illeciti ambientali sul territorio.
 Angelo Ceres
 
-[post_text_73]
+[post_text_74]
                                    COMUNE di CAPOSELE
                                   provincia di Avellino
 &nbsp;
@@ -913,3 +922,41 @@ DISPONE
 Dalla Residenza Municipale addì ,30 Giugno 2009.-
 L’Assessore alle politiche ambientali			      Il Sindaco
 dott. Angelo CERES                                           Pasquale FARINA
+
+[post_text_75]
+&nbsp;
+Tra i punti programmatici di questa amministrazione si è scritto della necessità di dare maggior rilievo alla tutela dell’ambiente ed allo sviluppo ad esso collegato.
+In realtà anche nei propositi elettorali degli anni passati si è parlato di “ambiente” ma lo si è fatto  per attirare l’attenzione di chi era particolarmente sensibile alla cura ed alla difesa del  territorio; sarebbe stato da ingenui non inserirlo nei  buoni intenti pre-elettorali.
+Ci si è orientato su ciò che poteva compiacere l’elettore semplicemente per ottenere un voto, mentre sappiamo bene che per affrontare questo tema bisogna avere una certa attitudine. La tutela dell’ambiente riveste un ruolo fondamentale ed è un settore che necessita dell’attenzione di tutti anche di chi inganna con false promesse.
+E’ sotto gli occhi di tutti quello che è successo negli anni scorsi anche se qualcuno, su tali fatti, sembra avere la memoria confusa. Per l’occasione, ma lo farò fra poche righe, sarà meglio dare una rinfrescata ai ricordi  ( e farli capire anche a chi non vive più a Caposele).
+Dicevo della necessità di dare il giusto rilievo alla tutela dell’ambiente perché, ritengo, che prima di pronunciarsi su sviluppo e valorizzazione del territorio è doveroso saperlo custodire. E di questo se ne è discusso anche con chi presenzia gli enti sovra comunali.
+&nbsp;
+La continua assenza di prevenzione e sensibilizzazione verso la cura del nostro patrimonio naturale, ha determinato una serie di conseguenze che si sono trasfuse, inevitabilmente, sul modo di pensare e di agire,  attraverso l’esercizio di usi e consuetudini non conformi alle regole.
+Gli effetti che ne sono derivati, quando si è intervenuto a ristabilire l’ordine violato, sono stati quelli di generare dei  dissapori tra chi dall’illegalità ha sempre tratto benefici a danno della collettività.
+Il circolo vizioso interrotto ( seppur ancora parzialmente) da questa amministrazione è stato visto come una sorta di intromissione in fatti personali.
+Ebbene questa reazione l’avevamo messa in bilancio ( compresi alcuni improperi di carattere personale).
+Ma tali considerazioni ed affermazioni non hanno fatto altro che confermare il raggiungimento dello scopo prefissato, scritto nel programma elettorale, ripetuto oralmente e finalmente onorato: la salvaguardia del nostro patrimonio paesaggistico ed ambientale ( anche se occorre ancora lavorare).
+&nbsp;
+A tal punto è giunto il momento di  rinfrescare la memoria a chi per anni ha gestito la cosa pubblica ed oggi parla di sviluppo del territorio in particolare dell’area montana o a chi, in maniera opportunistica, utilizza associazioni che hanno nobili fini, quale la tutela dei diritti dei cittadini, per screditare l’operato dell’attuale pubblica amministrazione senza capire che l’adozione di alcuni provvedimenti va a beneficio dell’intera comunità e non dei singoli (come purtroppo spesso è accaduto).
+Lo sviluppo di cui oggi parlano, negli anni passati è consistito nell’abbandono e degrado totale dell’area Bosco Difesa, nella diffusa pratica del taglio di alberi (considerata dal nostro codice penale come reato di furto e reato di danneggiamento) con il serio rischio di causare dissesti  idro-geologici, all’ordine del giorno in Italia, nella raccolta indiscriminata della flora endemica.
+Il loro concetto di crescita economica-territorale è coincisa con la perdita di denaro che per anni i proprietari dei fondi castanicoli hanno avuto attraverso la riduzione o la scarsa raccolta delle castagne, questo grazie al pascolo abusivo (talmente radicato tanto che oggi ci sono delle serie difficoltà a debellarlo in maniera definitiva). Il progresso del territorio è continuato con l’abbandono indiscriminato dei rifiuti tale da creare delle reali situazioni di pericolo per l’inquinamento della falda acquifera e il rischio di inondazioni ( ricordo che qualche mese fa abbiamo bonificato un’area adibita a discarica che ostruiva il deflusso delle acque piovane eregendosi quasi a diga).
+Per anni l’area montana è stata devastata ed invasa soprattutto dai forestieri.
+Così hanno inteso lo sviluppo e la tutela del territorio e questa è l’eredità ricevuta.
+A tutto ciò abbiamo messo uno stop e stiamo agendo in maniera esattamente contraria rispetto alle precedenti amministrazioni attraverso un serio controllo del territorio con l’ausilio del nucleo delle guardie ambientali.
+A questa prima fase ( di vigilanza del territorio) ne seguirà una seconda progettuale in realtà già iniziata.
+Se non si preparano e consolidano bene le basi dello sviluppo, attraverso la tutela e la salvaguardia dell’ambiente che stiamo attuando, questo non potrà mai avvenire.
+&nbsp;
+Scrivevo della fase programmatica che è appena iniziata con l’approvazione fatta dalla Giunta Comunale di un progetto che è da considerarsi come l’inizio di un modo di pensare e di agire nuovo.
+Lo scopo è quello della valorizzazione del territorio con la riscoperta ed il recupero della nostra storia oltre che della sua bellezza creando una forma di turismo diverso da quello già esistente: il turismo naturalistico.
+Quello che si è previsto è la realizzazione di diversi interventi quali:
+1)Il ripristino di antichi sentieri per circa 20 km con la creazione di percorsi didattico-educativi anche per disabili (tali sentieri una volta erano molto utilizzati dai caposelesi; da essi, come una rete autostradale, numerose persone accedevano alle risorse della montagna quali le castagne, la legna, la produzione della carbonella, della calce e la neve utilizzata d’estate, l’attività della pastorizia).
+2)La realizzazione di aree picnic e piazzole di sosta, punti panoramici, punti per l’osservazione dell’avifauna con adeguata cartellonistica.
+3)Il ripristino del “Rifugio la Foresta” in località Mauta e dell’area limitrofa.
+4)La realizzazione di un’area faunistica che permetterà l’osservazione della fauna selvatica. Essa sarà costituita da una zona di ricovero interamente recintata.
+L’attuazione di detti interventi consentirebbe di offrire un motivo di permanenza aggiuntivo per i visitatori che già frequentano il territorio comunale e, rispetto allo stato attuale, si andrebbero a creare le condizioni per l’incremento del flusso turistico e della continuità dello stesso. Si creerebbe una forma nuova di turismo ossia quello naturalistico coinvolgendo anche gli istituti scolastici.
+Il costo di tale opera si aggirerà intorno ai 750.000,00 euro. Inoltre altri interventi sono stati predisposti ma ci sarà occasione per riparlarne prossimamente.
+&nbsp;
+Idee semplici che hanno fatto la fortuna di altri paesi con realtà simili alla nostra.
+Peccato che fino ad oggi nessuno mai ci abbia pensato.
+&nbsp;
+&nbsp;

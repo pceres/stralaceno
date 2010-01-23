@@ -125,6 +125,13 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 111::nic m.::28/11/2008 00.31.48::visible
 112::attento osservatore::16/02/2009 00.22.39::visible
 113::analnatrac::11/05/2009 17.54.07::visible
+114::nic.m.::04/11/2009 16.14.01::visible
+115::nic.m::04/12/2009 13.26.35::visible
+116::nic.m.::15/01/2010 18.50.50::visible
+117::Ant. Mer.::16/01/2010 16.02.54::visible
+118::solo lupi::18/01/2010 16.23.13::visible
+119::solo salernitana::19/01/2010 00.15.56::visible
+120::nic.m::19/01/2010 13.17.58::visible
 
 [post_text_0]
 Riceviamo da CLEON.REN e pubblichiamo:
@@ -1150,3 +1157,31 @@ ma quale puc stasera la gente di caposele ha capito che anche questo tanto attes
 
 [post_text_113]
 ragazzi, ancora una volta il grande Lucio Viscido, zitto-zitto, tomo-tomo, cacchio-cacchio, ci ha stupiti candidandosi alla provincia per l'italia popolare, ormai da lui solo sorprese, anche se mi sarei aspettato una candidatura per un partito un po' più serio, tipo il partito dell'amore o quello dei separatisti sardi, oppure il partito per la antistralaceno, Lucio sei un grande.
+
+[post_text_114]
+vergognatevi  solo parole avete separato un paese intero per il solo gusto di vincere e per apparire farina sei ridicolo dimettiti che fai ancora in tempo dpo due anni ancora nessuna idea ma rendiamoci conto di come questo paese sta lentamente morendo.
+
+[post_text_115]
+nessuno scrive niente a tutti sta bene questo immobilismo totale come mai adesso l' ars non prepara dossier sull' abbandono delle strutture sportive le soluzioni a questo problema sono rimaste ancora sui palchi della campagna elettorale del 2008.
+
+[post_text_116]
+nessuno scrive niente sta a tutti bene questo immobilismo totale che peccato che il paese sia finito cosi' male e i grandi amministratori del cuore sono indifferenti a questa agonia lenta ma inesorabile.
+
+[post_text_117]
+&gt;nessuno scrive niente sta a tutti bene questo immobilismo totale che peccato che il paese sia finito cosi' male e i grandi amministratori del cuore sono indifferenti a questa agonia lenta ma inesorabile.
+<br>&gt;<br><br>nic. mel. non fare solo chiacchiere dici "dove il paese è finito così male" fai degli esempi. Sai al male non si può mai mettere fine immagina come sarebbe stato se ad amministrare fossero stati i tuoi amici dove saremmo andati a finire. Non sanno neppure leggere le carte, non sono presenti ai consigli comunali e poi sai che fanno solo ricorsi alla procura o i comizi davanti al bar solo per voglia di protagonismo come se stessero commentando una partita di calcio.
+Di a chi di tua conoscenza che venisse a fare il consigliere di minoranza e non fare solo battute o ricorsi a danno dell'intera collettività.
+
+[post_text_118]
+ti ricordo che in 2 anni avete  montato 5 panchine sotto gli alberi a materdomini e installato i bagni chimici in estate questo e' tutto in quanto il museo delle acque e la porta del parco e' una cosa nostra avete solo inaugurato in maniera totalmente errata perche'non si puo' pensare di mettere tutto insieme in una struttura tra l' altro senza creare nessuna possibilita' occupazionale ai tanti giovani disoccupati che ancora sono in questo stupido paese.altri esempi:stutture sportive abbandonate,parco fluviale non valorizzato,politiche turistiche assenti,progetto parcheggio multipiano sbagliato,puc vergognoso,idea di finire il centro fieristico assente e poi per quanto riguardi i ricorsi che la minoranza ha fatto e' il minimo di fronte alla vostra completa incapacita' amministriva di governare democraticamente il nostro paese.
+
+[post_text_119]
+Hai una visione troppo miope e di parte per poter intessere una discussione seria.
+Meglio lasciare stare. Anche se si facessero le cose più belle del mondo ci sarebbe il solito esibizionista che, davanti al bar, continuerebbe a fare i suoi comizi da serie D (anzicchè farli nei consigli comunali!) o il solito tifoso, sempre di serie D, pronto a sostenere la sua squadra e, contro tutte le leggi, a ritenerla di serie A.
+Ecco il motivo per cui ci troviamo in questo stato.
+Meglio che i disfattisti (come te)lascino Caposele? O meglio che i miopi restino e contribuiscano a rendere un pò più sorridente la vita?
+A differenza tua, che invogli le persone a lasciare il paese, io preferisco che questi (sopra identificati) restino e svolgano la loro funzione sociale: far ridere le persone!
+&nbsp;
+
+[post_text_120]
+come mai non ti firmi e poi cosa vuoi dire non ho capito si vede che siete chiusi mentalmente proprio per questo non riusciamo ad uscire da queste sabbie mobili che voi siete riusciti a far sprofondare ma comunque basta con uno sconosciuto non e' possibile intavolare nessuna discussione.
