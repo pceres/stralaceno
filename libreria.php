@@ -369,7 +369,7 @@ foreach ($simboli_noti as $simbolo)
 if (count($legenda_ordinata) > 0)
 {
 	echo '<br>';
-	echo '<table class="tabella_legenda">';
+	echo '<table summary="table_legend" class="tabella_legenda">';
 	
 	echo "<tr><td colspan='2'>Legenda:</td></tr>\n";
 	foreach ($legenda_ordinata as $voce)
@@ -452,7 +452,7 @@ if (count($archivio)/$num_colonne < $minimo_righe) // almeno dieci righe per col
 
 echo '<div align="center">'; # tieni la tabella al centro
 
-echo "<table class=\"$class\">\n";
+echo "<table summary=\"table_auto_main\" class=\"$class\">\n";
 echo "  <tbody>\n";
 echo "  <tr>\n";
 echo "  <td>\n";
@@ -467,7 +467,7 @@ $head_string .= "  </tr></thead>\n";
 
 
 
-echo "<table>\n";
+echo "<table summary=\"table_auto_body\">\n";
 echo $head_string;
 echo "  <tbody>\n";
 
