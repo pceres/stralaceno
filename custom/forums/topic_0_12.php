@@ -51,6 +51,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 37::Alessandro::29/01/2007 15.56.38::visible
 38::Alessandro::06/02/2007 14.21.44::visible
 39::Salvatore::06/02/2007 17.50.39::visible
+40::ARS::16/04/2010 13.09.28::visible
 
 [post_text_0]
 Aspettiamo qui le vostre osservazioni e le vostre intenzioni di partecipazione all'allenamento podistico del 30 dicembre 2006. Ciao.
@@ -290,3 +291,9 @@ Ciao ale,proprio oggi ho ripreso ad allenarmi dopo 5 giorni di stop...sta andand
 un saluto anche a paolo,che stranamente non si fa sentire più...sarà lo studio?saranno gli allenamenti?chi lo sa....
 &nbsp;
 
+[post_text_40]
+AVVISO
+&nbsp;
+Tutti gli interessati ad iniziare una attività podistica di base sono invitati lunedì 19 aprile alle 18.30, al campo sportivo Liloia di Caposele: saranno presenti alcuni componenti dell'ARS che coordineranno l'allenamento.
+&nbsp;
+ARS

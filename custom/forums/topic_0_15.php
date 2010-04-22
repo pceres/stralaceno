@@ -132,6 +132,22 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 118::solo lupi::18/01/2010 16.23.13::visible
 119::solo salernitana::19/01/2010 00.15.56::visible
 120::nic.m::19/01/2010 13.17.58::visible
+121::nic.m::08/02/2010 13.00.24::visible
+122::Franco::08/02/2010 22.32.13::visible
+123::nic.m.::09/02/2010 23.39.12::visible
+124::Frenco::10/02/2010 00.43.38::visible
+125::nic.m.::10/02/2010 18.52.15::hidden
+126::jennifer::10/02/2010 19.46.50::hidden
+127::modena::10/02/2010 19.56.48::hidden
+128::vergognatevi!!!::10/02/2010 21.28.20::visible
+129::Frenco::11/02/2010 00.05.48::visible
+130::cittadini::12/02/2010 00.07.34::visible
+131::Frenco::12/02/2010 01.08.58::visible
+132::zappatore allegro::12/02/2010 11.33.45::visible
+133::ComuneCaposele::29/03/2010 16.16.15::visible
+134::MinisteroInterno.it::30/03/2010 09.11.17::visible
+135::amante natura::22/04/2010 13.30.20::visible
+136::Lupo appenninico::22/04/2010 15.39.07::visible
 
 [post_text_0]
 Riceviamo da CLEON.REN e pubblichiamo:
@@ -1168,7 +1184,8 @@ nessuno scrive niente a tutti sta bene questo immobilismo totale come mai adesso
 nessuno scrive niente sta a tutti bene questo immobilismo totale che peccato che il paese sia finito cosi' male e i grandi amministratori del cuore sono indifferenti a questa agonia lenta ma inesorabile.
 
 [post_text_117]
-&gt;nessuno scrive niente sta a tutti bene questo immobilismo totale che peccato che il paese sia finito cosi' male e i grandi amministratori del cuore sono indifferenti a questa agonia lenta ma inesorabile.<br>&gt;<br><br>nic. mel. non fare solo chiacchiere dici "dove il paese è finito così male" fai degli esempi. Sai al male non si può mai mettere fine immagina come sarebbe stato se ad amministrare fossero stati i tuoi amici dove saremmo andati a finire. Non sanno neppure leggere le carte, non sono presenti ai consigli comunali e poi sai che fanno solo ricorsi alla procura o i comizi davanti al bar solo per voglia di protagonismo come se stessero commentando una partita di calcio.
+&gt;nessuno scrive niente sta a tutti bene questo immobilismo totale che peccato che il paese sia finito cosi' male e i grandi amministratori del cuore sono indifferenti a questa agonia lenta ma inesorabile.
+<br>&gt;<br><br>nic. mel. non fare solo chiacchiere dici "dove il paese è finito così male" fai degli esempi. Sai al male non si può mai mettere fine immagina come sarebbe stato se ad amministrare fossero stati i tuoi amici dove saremmo andati a finire. Non sanno neppure leggere le carte, non sono presenti ai consigli comunali e poi sai che fanno solo ricorsi alla procura o i comizi davanti al bar solo per voglia di protagonismo come se stessero commentando una partita di calcio.
 Di a chi di tua conoscenza che venisse a fare il consigliere di minoranza e non fare solo battute o ricorsi a danno dell'intera collettività.
 
 [post_text_118]
@@ -1184,3 +1201,141 @@ A differenza tua, che invogli le persone a lasciare il paese, io preferisco che 
 
 [post_text_120]
 come mai non ti firmi e poi cosa vuoi dire non ho capito si vede che siete chiusi mentalmente proprio per questo non riusciamo ad uscire da queste sabbie mobili che voi siete riusciti a far sprofondare ma comunque basta con uno sconosciuto non e' possibile intavolare nessuna discussione.
+
+[post_text_121]
+ma ci rendiamo conto di chi attualmente opera politicamente a caposele:pietro cetrulo basta basta basta siamo nauseati e disgustati svegliamoci giovani di caposele dobbiamo necessariamente distruggere politacamente questa gente solo cosi' si puo' pensare di uscire da queste sabbie mobili in cui siamo sprofondati.intavoliamo una discussione.
+
+[post_text_122]
+Caro nic.m., chi pensi possa risollevare le sorti di Caposele? Chi vedi capace?
+
+[post_text_123]
+ma guarda non e' facile individuare dei nomi sicuri e credibili in questo momento ma di sicuro ci vuole un ragazzo aperto mentalmente capace di proporre continuamente idee e progetti affinche' il nostro stupido paese possa rialzarsi e incamminarsi verso il futuro.
+
+[post_text_124]
+E allora non fare solo polemiche. Anche fare dei nomi ti è difficile, figurati amministrare.
+Ti aiuto a formare la prox lista elettorale:
+N. Melilos
+G. Pop.
+D. Frap.
+A. Megrus
+G. Kafka
+S. Yoghi
+U. Bertones
+G. Mangione
+G. Zialia
+Questi riusciranno a risollevare le sorti di un paese ormai al declino...
+
+[post_text_125]
+caro frenco anche io ho pensato una prossima lista elettorale tu saresti a capolista poi
+n.1 minguccio
+2 giovanni lu paccio
+3 andrea il becchino
+4 peppe la tomasa
+5 lorenzo gonnella (la bambola)
+6 antonio ventre detto vullo
+7 gaetano grasso detto il bandito
+8 tonino memena
+9 antonio grandidio
+10 lorenzo malanga di materdomini deoo frenz
+11 raffele merola deoo la cina
+12 raffaele pasta fresca
+&nbsp;
+tanto credo che poi tra questa lista e l' attuale amministrazione non c' e' alcuna differenza.
+&nbsp;
+
+[post_text_126]
+&gt;caro frenco anche io ho pensato una prossima lista elettorale tu saresti a capolista poi
+<br>&gt;n.1 minguccio
+<br>&gt;2 giovanni lu paccio
+<br>&gt;3 andrea il becchino
+<br>&gt;4 peppe la tomasa
+<br>&gt;5 lorenzo gonnella (la bambola)
+<br>&gt;6 antonio ventre detto vullo
+<br>&gt;7 gaetano grasso detto il bandito
+<br>&gt;8 tonino memena
+<br>&gt;9 antonio grandidio
+<br>&gt;10 lorenzo malanga di materdomini deoo frenz
+<br>&gt;11 raffele merola deoo la cina
+<br>&gt;12 raffaele pasta fresca
+<br>&gt; 
+<br>&gt;tanto credo che poi tra questa lista e l' attuale amministrazione non c' e' alcuna differenza.
+<br>&gt; 
+<br>&gt;<br><br>
+
+[post_text_127]
+&gt;
+<br>&gt; 
+<br>&gt;<br><br>
+
+[post_text_128]
+Scusa FRENCO ma un nome ce l'ho avrai! le critiche che uno fa sono costruttive perche' amiamo il paese! data la tua ironia a fare la lista di nicola mel.  e dato che non ti firmi vuol dire che la verita' fa male e che uno ti ha colpito in centro sentendoti in difetto perche' evidentemente ti senti in torto col paese, la prossima volta non ti metti in mezzo quando non si ha le capacita'!!!
+
+[post_text_129]
+&gt;Scusa FRENCO ma un nome ce l'ho avrai! le critiche che uno fa sono costruttive perche' amiamo il paese! data la tua ironia a fare la lista di nicola mel.  e dato che non ti firmi vuol dire che la verita' fa male e che uno ti ha colpito in centro sentendoti in difetto perche' evidentemente ti senti in torto col paese, la prossima volta non ti metti in mezzo quando non si ha le capacita'!!!<br>&gt;<br><br>Mi chiamo Frenco!
+Critiche costruttive, amiamo il paese...
+E poi perchè vergognarsi? Di cosa? La verita fa male...quale verità? In torto con il paese, quale torto?
+Non ti metti in mezzo quando non si hanno le capacita... a fare cosa? Chi?
+Non capisco, mi sembrano frasi di frustrazione buttate li per sfogo.
+Adesso vado a sfogare facendo il turno notturno di lavoro. Stasera mi tocca...
+&nbsp;
+
+[post_text_130]
+come ti chiami non mi interessa, ma un altra volta non fare piu'nomi riguardanti la lista che potrebbe fare nic. mel.! i nomignoli che hai messo ad ognuno di noi li abbiamo capiti tutti, ma tu sicuramente non sei meglio di noi!non ti firmi nemmeno...! uno scrive per il bene di caposele, ma visto che non si puo'fare discussioni serie e meglio che si lascia perdere tutto senza perdere tempo a scrivere su questo sito!
+
+[post_text_131]
+&gt;come ti chiami non mi interessa, ma un altra volta non fare piu'nomi riguardanti la lista che potrebbe fare nic. mel.! i nomignoli che hai messo ad ognuno di noi li abbiamo capiti tutti, ma tu sicuramente non sei meglio di noi!non ti firmi nemmeno...! uno scrive per il bene di caposele, ma visto che non si puo'fare discussioni serie e meglio che si lascia perdere tutto senza perdere tempo a scrivere su questo sito!<br>&gt;<br><br>"Cittadini", come esordiva il duce!
+I nomi che ho fatto sono di fantasia. Visto che hai delle difficoltà a farli la fantasia aiuta molto. Se ti sei offeso è solo un tuo problema. Da tutti i post che hai scritto butti solo del fango sulle persone, quale bene di Caposele.
+
+[post_text_132]
+non mi sono offeso, ma che duce...la parola cittadini era per dire piu' persone che hai convolto nella presunta lista di nic. meli. A me non me ne frega un cazzo ne di politica ne di caposele!!!!! andate tutti alla piana del sele...ahaahahahhahahaah
+
+[post_text_133]
+ELEZIONI REGIONALI 2010
+&nbsp;
+AFFLUENZA ALLE URNE COMUNE CAPOSELE  45,30%   NUM.VOTANTI 1.987   (Iscritti 4.386)
+&nbsp;
+SEZ.1    57,43 %   NUMERO VOTANTI 610
+SEZ.2    54,05 %                  693
+SEZ.3    55,81 %                  552
+SEZ.4    12,53 %                  132
+&nbsp;
+&nbsp;
+
+[post_text_134]
+CAPOSELE - ELEZIONI REGIONALI 2010 -
+Elettori	4.386
+Votanti	1.987	45,30 %
+&nbsp;
+IL POPOLO DELLA LIBERTA'  441 voti    24,51 %
+UNIONE DI CENTRO          188	      10,45 %
+ALLEANZA DI CENTRO DC     161	       8,94 %
+MPA-NUOVO PSI-PRI         151	       8,39 %
+LIBERTA' AUTONOMIA SUD     22	       1,22 %
+LA DESTRA                   7	       0,38 %
+U.D.EUR POPOLARI            5	       0,27 %
+PARTITO DEMOCRATICO       560	      31,12 %
+DI PIETRO ITALIA VALORI   153	       8,50 %
+SINISTRA ECOL.LIB. PSE     32	       1,77 %
+ALLEANZA PER L'ITALIA      17	       0,94 %
+CAMPANIA LIBERA            11	       0,61 %
+FED.VERDI-L'ALTRO SUD       6	       0,33 %
+LISTA PANNELLA BONINO       1	       0,05 %
+MOV.5 STELLE BEPPEGRILLO   25	       1,38 %
+RIFOND.COM.SIN.EUR.COM.IT. 19	       1,05 %
+&nbsp;
+candidati presidenti:
+CALDORO STEFANO	 	 	968	51,24 %
+DE LUCA VINCENZO	 	873	46,21 %
+FICO ROBERTO	 	 	30	 1,58 %
+FERRERO PAOLO	 	 	18	 0,95 %
+&nbsp;
+Schede bianche	                        56      2,81 %
+Schede nulle	                         -	  -
+Schede contestate e non assegnate 	42	2,11 %
+&nbsp;
+
+[post_text_135]
+a quando i lavori di riqualificazione della montagna forse dobbiamo catapultarci in abruzzo nel parco per vedere qualcosa di caratteristico e di notevole impatto visivo.fino ad oggi la nostra montagna e' sempre la stessa nel solito stato di sempre.
+
+[post_text_136]
+&gt;a quando i lavori di riqualificazione della montagna forse dobbiamo catapultarci in abruzzo nel parco per vedere qualcosa di caratteristico e di notevole impatto visivo.fino ad oggi la nostra montagna e' sempre la stessa nel solito stato di sempre.<br>&gt;<br><br>Poco attento e poco amante della natura. Forse non ti sei accorto ma la riqualificazione della montagna già è partita.

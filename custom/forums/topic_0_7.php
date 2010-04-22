@@ -154,6 +154,8 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 140::ars::21/02/2008 11.09.33::visible
 141::nic.m.::01/10/2009 12.40.33::visible
 142::il n. 102::01/10/2009 14.43.56::visible
+143::nicola::11/02/2010 17.53.48::visible
+144::fan::11/02/2010 20.22.29::visible
 
 [post_text_0]
 Aspettiamo le vostre dichiarazioni di sfida...
@@ -867,3 +869,8 @@ troppo bello il commento di nicola d' auria ad una foto dove dice il n.102 e' or
 &gt;troppo bello il commento di nicola d' auria ad una foto dove dice il n.102 e' ormai troppo abituato a liberare sparvieri questo e' il tuo compito lo sport e' una cosa diversa non per tutti.
 <br>&gt;<br><br>E' vero bello il commento del d'Auria, meno il tuo. Non si capisce lo scopo... CALMATI!
 
+[post_text_143]
+mancano sei mesi alla prossima stralaceno e' scattato il conto alla rovescia
+
+[post_text_144]
+ciao nicola... iniziato dunque il conto alla rovescia... sbilanciati dai! Che tempo prevedi di realizzare quest'anno e quale posizione riusscirai ad ottenere alla STRALACENO?

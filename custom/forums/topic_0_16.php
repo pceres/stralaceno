@@ -87,6 +87,8 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 73::NewsAmbiente Comune::25/06/2009 15.31.06::visible
 74::Comune Ambiente::01/07/2009 14.50.43::visible
 75::Angelo Ceres::11/01/2010 21.37.57::visible
+76::AmbienteNews::05/04/2010 23.49.37::visible
+77::NewsAmbiente::20/04/2010 15.44.24::visible
 
 [post_text_0]
 Qui proposte, osservazioni, critiche e tutto ciò che concerne l'ambiente e la natura dalle grosse tematiche di interesse mondiali ai piccoli accadimenti del paese.
@@ -960,3 +962,18 @@ Idee semplici che hanno fatto la fortuna di altri paesi con realtà simili alla n
 Peccato che fino ad oggi nessuno mai ci abbia pensato.
 &nbsp;
 &nbsp;
+
+[post_text_76]
+La Giunta regionale della Campania, su proposta degli assessori all'Agricoltura, all'Ambiente e all'Urbanistica, ha nominato i nuovi direttori dei parchi regionali della Campania. I direttori sono stati selezionati all'interno di un albo degli idonei titolari di adeguati curricula.
+Dopo anni al vertice del Parco Regionale dei Monti Picentini, l’irpino Sabino Aquino passa allo scranno principale del Parco del Partenio al posto di Gianvito Bello e consegna la poltrona di Nusco alla nota ambientalista Anna Savarese.
+I nuovi direttori: Giuseppe Falco - Parco Regionale del Matese, Raffaele Aveta - Parco Regionale Roccamonfina e Foce Garigliano, Giovanni Moriello - Parco Regionale del Taburno Camposauro, Sabino Aquino - Parco Regionale del Partenio, Diego Giuliani - Parco Regionale dei Campi Flegrei
+Gino Marotta - Parco dei Monti Lattari, Anna Savarese - Parco dei Monti Picentini, Alessandro Nardi - Parco Regionale del Bacino Idrografico del Fiume Sarno, Amelia Caivano - Riserva Naturale Lago Falciano Foce Volturno Costa di Licola, Domenico Nicoletti - Riserva Naturale Foce Sele e Tanagro e Monti Eremita-Marzano, Agostino Di Lorenzo - Parco Metropolitano delle Colline di Napoli.
+&nbsp;
+
+[post_text_77]
+Pescasseroli . - Continua, purtroppo, la pratica di lasciare bocconi avvelenati nei boschi. L'ultima segnalazione riguarda il versante laziale del Parco, dove sabato scorso è stato recuperato, su segnalazione di alcuni cittadini, un lupo maschio di circa tre anni di età che presentava i classici sintomi di avvelenamento.
+Il Lupo si trovava al confine del Parco, in Comune di Settefrati e, ancora vivo, è stato trasportato dal servizio di Sorveglianza a Pescasseroli, presso i locali attrezzati dal Servizio Veterinario: qui è stato sottoposto alle cure del caso, ma è morto poche ore dopo.
+L'Ente Parco ha prontamente inviato alcuni reperti biologici all'Istituto Zooprofilattico d'Abruzzo e Molise, al fine di avere al più presto un riscontro sulle sostanze tossiche presumibilmente impiegate.
+Il Servizio di Sorveglianza del Parco ed il Corpo Forestale dello Stato stanno inoltre svolgendo indagini congiunte in zona al fine di verificare se vi siano altri animali selvatici coinvolti e di ritrovare eventuali bocconi o carcasse sospette. Le indagini, che ad oggi hanno dato esito negativo, continueranno comunque nei prossimi giorni.
+L'abbandono di carne avvelenata, che interessa molte zone del paese, è un fenomeno in genere legato a conflitti tra gruppi che utilizzano il territorio per finalità diverse, ed è una delle cause principali di mortalità dei carnivori selvatici ma anche dei cani.
+L'Ente Parco rivolge un appello ad escursionisti e frequentatori dei boschi perché segnalino ai guardiaparco o al Corpo Forestale dello stato qualsiasi reperto sospetto vedano, al fine di ridurre al minimo le possibilità che simili episodi possano ripetersi.

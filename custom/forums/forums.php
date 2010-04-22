@@ -17,6 +17,6 @@ Formato [elenco_forums]:
  <forum_last_post> : <id_topic>,<id_post> dell'ultimo messaggio postato
 
 [elenco_forums]
-0::Il forum di ArsWeb::Uno spazio di discussione libera, aperta a tutti::open::::::anonimous::765::30,0
+0::Il forum di ArsWeb::Uno spazio di discussione libera, aperta a tutti::open::::::anonimous::776::15,127
 1::Il forum privato dell'ARS Amatori Running Sele::Spazio di discussione libera riservato ai soci ARS::open::soci_ars::soci_ars::anonimous::20::0,17
-2::Rassegna stampa::News su Caposele::open::soci_ars::::anonimous::70::0,69
+2::Rassegna stampa::News su Caposele::open::soci_ars::::anonimous::71::0,70

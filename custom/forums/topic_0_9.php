@@ -242,6 +242,8 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 228::nic.m.::15/01/2010 18.55.42::visible
 229::gaetano::19/01/2010 21.38.40::visible
 230::nicola.m::19/01/2010 23.59.53::visible
+231::nic.m::25/01/2010 23.38.38::visible
+232::Angelo::26/01/2010 00.46.11::visible
 
 [post_text_0]
 Fermate Nicola Melillo con questa stralaceno: anche i muri di materdomini e caposele non ne possono più.
@@ -1506,3 +1508,12 @@ E'giunta l'ora di dare una svolta a caposele. siamo rimasti in pochi a stare in 
 [post_text_230]
 bravo gaetano condivido con te pienamente il tuo messaggio queste feste natalizie saranno ricordate solo per il solito rito consumistico nei vari bar di caposele ma e' possibile che nessuno dei gestori sia stato capace di organizzare una serata con un gruppo musicale discreto che faccia divertire tutti i presenti e poi si lamentano quando nei mesi di settembre,ottobre incassano tanti soldi svegliatevi cambiate un po' la vostra mentalita' che oramai ne abbiamo veramente le scatole piene di queste festicciole mediocri.dott.farina dimettiti la gente e' stanca dei tuoi ritornelli e delle tue false promesse la tua fantomatica idea di cambiamento dove e' rimasta? come mai misteriosamente dopo la vittoria avete chiuso la sezione del cuore i giovani vanno via alla ricerca di fortuna ma io credo che comunque la vostra coscienza sara'inesorabilmente macchiata per sempre dato il vostro scarsissimo impegno nel realizzare qualche progetto di sostegno ai tanti ragazzi che sono disoccupati e sbandati non ci si candida solo per protagonismo ma se animati da idee,volonta',disponibilita',capacita'etc.altrimenti e' meglio concentrarsi sulle proprie attivita' professionali.che delusione e sconforto vedere caposele spegnersi in questo modo dobbiamo al piu' presto correre via da qui se vogliamo realizzarci dato che anche quelli che credevi fossero amici hanno pensato solo a se stessi.
 
+[post_text_231]
+dove sono finiti i tuoi propositi per l' ambiente gia' non ne parli piu' quando iniziano i lavori della riqualificazione della montagna?? ti ricordo ass.ceres che vicino al campo sportivo i rifiuti stanno invadendo anche la strada e poi si parla di attenzione di questa amministrazione al tema ambientale.
+
+[post_text_232]
+&gt;dove sono finiti i tuoi propositi per l' ambiente gia' non ne parli piu' quando iniziano i lavori della riqualificazione della montagna?? ti ricordo ass.ceres che vicino al campo sportivo i rifiuti stanno invadendo anche la strada e poi si parla di attenzione di questa amministrazione al tema ambientale.<br>&gt;<br><br>Nicò ma proprio nn digerisci la sconfitta.
+I tempi amministrativi sono lunghi per arrivare ai finanziamenti. Prima era molto più facile ottenerli ma, nonostante questo, nessuno si muoveva per la valorizzazione di alcune aree importanti del nostro territorio.
+Vicino al campo ci sono i rifiuti, li vedo mica sono cieco!
+Ma forse ti sfugge una cosa, e prima di fare questi proclami ti invito a informarti meglio anche parlando a 4 occhi, che la situazione rifiuti sta evolvendo verso la provicializzazione. In questa fase di totale confusione tra consorzio e provincia si stanno verificando dei disservizi. Con molta probabilità i Comuni, in tema di gestione di rifiuti, non avranno voce in capitolo.
+Per altri chiarimenti meglio parlarne a voce.

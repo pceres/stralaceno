@@ -48,6 +48,8 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 34::Sal::19/03/2008 13.25.22::visible
 35::da Irpinianews.it::16/04/2008 18.18.28::visible
 36::MIMMO55::21/01/2010 19.48.19::visible
+37::paolo::24/03/2010 11.00.45::visible
+38::pasquale::24/03/2010 20.27.51::visible
 
 [post_text_0]
 we allora, le polemiche sullo sport caposelese per ora sembra siano terminate. Abbiamo assistito ad uno bel dibattittio, coinvolgendo molte persone. Ma quello che sto cercando di dirvi e che se io posso cambiare e voi potete cambiare, tutto il mondo può cambiare. Questa era una frase tratta dal film di ROCKY, comununque con questo voglio dire che tutte le polemiche non sono mai servita a nulla, piuttosto bisogna cecare di essere quanto più uniti mettendo sul tavolo le proprie idee, ed allora a questo punto le cose potranno cambiare in modo positivo. tutto questo penso che sia la chiave di tutto.
@@ -405,3 +407,9 @@ Il tempo massimo è di ore 2:30 per esigenze legate alla chiusura delle strade.
 Iscrizioni: La quota d’iscrizione, è di Euro 10,00 (€ dieci/00) per la MEZZA MARATONA ed Euro 5,00 (€ cinque/00) per la MARATONINA, da pagare in CONTANTI. Le adesioni, con i dati del tesserino F.I.D.A.L. o di altre Federazioni sportive o Enti di promozione sportiva, devono pervenire entro le ore 14:00 di venerdì 5 marzo 2010 c/o AVIS Basilicata – Fax 0971-46873 basilicata@avis.it oppure all’indirizzo di posta elettronica: leccese.domenico@tiscali.it
 www.borgoanticoportasalza.com
 &nbsp;
+
+[post_text_37]
+Tantissimi complimenti a Donato Ceres, per l'ottimaprestazione alla maratona di Roma...continua così :)
+
+[post_text_38]
+&gt;Tantissimi complimenti a Donato Ceres, per l'ottimaprestazione alla maratona di Roma...continua così :)<br>&gt;<br><br>Mi associo ai complimenti di Paolo: bravo Donato!

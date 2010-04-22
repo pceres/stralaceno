@@ -81,6 +81,14 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 67::Irpinianews.it::09/12/2009 14.44.51::visible
 68::Irpinianews.it::08/01/2010 22.09.06::visible
 69::Irpinianews.it::22/01/2010 12.25.05::visible
+70::Irpinianews.it::05/02/2010 14.59.53::visible
+71::Irpinianews.it::14/02/2010 11.54.18::visible
+72::Irpinianews.it::16/02/2010 22.42.16::visible
+73::Irpinianews.it::17/02/2010 22.49.47::visible
+74::Irpinianews.it::24/02/2010 20.11.06::visible
+75::Irpinianews.it::27/02/2010 14.25.57::visible
+76::Irpiniannews.it::20/03/2010 12.33.58::visible
+77::Il Mattino::12/04/2010 09.03.01::visible
 
 [post_text_0]
 In questo spazio saranno inseriti articoli apparsi sul web relativi ad eventi, persone, fatti avvenuti a Caposele.
@@ -907,4 +915,96 @@ Questa struttura, a servizio dei cittadini di Caposele ed a disposizione di chiu
 Caposele - E’ previsto per il 16 febbraio prossimo il lancio del primo lavoro letterario di Donato Gervasio, giovane scrittore irpino di Caposele. “Polvere alla luna”, questo il titolo, sarà edito da Giraldi Editore di Bologna con distribuzione nazionale. Il romanzo è la prima fatica del giovanissimo Donato Gervasio, professione musicista e tanta passione per la scrittura. Il libro, 190 pagine, con prefazione dell’onorevole Francesco D’Ercole, è la ricostruzione romanzata del terribile terremoto che, in quella sera di quell’indimenticabile 23 novembre 1980, così duramente colpì l’Irpinia.
 &nbsp;
 Ambientato a Caposele, città natia dell’autore, Gervasio racconta dettagliatamente quella tragedia, basandosi su storie assolutamente reali da lui raccolte nel corso degli anni. Il racconto inizia il 21 novembre, 2 giorni prima del triste evento, per concludersi nel 1985. Ampio spazio è dedicato quindi ai pre e post terremoto, con il racconto così verosimile di ciò che era lo spaccato di vita dell’epoca. Impeccabili sono, oltre a tutto il resto, anche la ricostruzione e descrizione dei paesaggi del paese, sia prima che dopo il sisma. La storia è integrata di una trama nella trama, una storia di fantasia, scelta per rende la lettura ancor più scorrevole e meno prevedibile. Di fatto, si tratta del primo romanzo che ricostruisce fedelmente quella tragedia ed il subito prima e dopo terremoto.
+&nbsp;
+
+[post_text_70]
+Commercianti improvvisati denunciati per ricettazione
+&nbsp;
+Caposele – Due pregiudicati del napoletano avevano improvvisato un chiosco lungo la strada che porta al Santuario di San Gerardo a Caposele, esponendo al pubblico delle motoseghe, piazzandole in bella mostra sul cofano della propria auto nel tentativo di venderle.   Il via vai di persone nei pressi della ‘bancarella’ ha però incuriosito i Carabinieri della Stazione di Caposele che, durante un normale controllo del territorio, insospettiti dalla vicenda, hanno fermato i due.
+I militari hanno subito identificato gli improvvisati ‘commercianti’ che stavano ‘svendendo’ la merce in loro possesso, in parte esposta sul cofano della macchina ed in parte ancora risposta all’interno dell’auto.
+Interrogati in merito, i due non sono stati in grado di fornire spiegazioni circa la provenienza del materiale che è risultato provento di furto e, dunque, sottoposto a sequestro.   I due giovani, messi alle strette presso gli Uffici della Compagnia di Piazzale Pastrengo, non hanno potuto fare altro che ammettere le proprie responsabilità, e pertanto venivano denunciati in stato di libertà per il reato di ‘ricettazione’.
+Come ulteriore sanzione per entrambi i giovani si procedeva con la proposta di l’applicazione del “Foglio di Via Obbligatorio”, per impedirne ulteriori trasferte in Alta Irpinia.  I Carabinieri, pertanto, dopo aver recuperato il materiale stanno svolgendo gli accertamenti necessari all’identificazione dei legittimi proprietari al fine di restituire il maltolto.   Le indagini sono state condotte in collaborazione con i Magistrati della Procura di Sant’Angelo dei Lombardi, coordinati dal Procuratore Capo, Antonio Guerriero.
+&nbsp;
+(giovedì 4 febbraio 2010 alle 18.19)
+&nbsp;
+
+[post_text_71]
+Presentazione di ‘Polvere alla luna’ il romanzo di Donato Gervasio
+&nbsp;
+Caposele – Si terrà domenica 21 febbraio la prima presentazione di <i>Polvere alla Luna il romanzo di Donato Gervasio. L’appuntamento con il giovane autore è per le ore 18:00 al ristorante 7Bello di Materdomini.Dopo il lancio, previsto per il 16 febbraio, il libro del giovane musicista irpino con la passione per la scrittura che racconta il sisma del 1980, toglie finalmente i veli. Alla presentazione, moderata dal giornalista Salvatore Pignataro, parteciperanno l’onorevole Francesco D’Ercole, autore della prefazione del libro, i sindaci di Conza della Campania (paese simbolo del sisma dell’80), Vito Farese, e di Aquilonia (rasa al suolo nel terremoto del 1930), Donato Cataldo, ed il giovane sociologo caposelese, Gerardo Viscardi.
+ L’incontro servirà ad approfondire, aiutati dalla presenza del sociologo e di due sindaci di due comuni che hanno vissuto una storia analoga in due terremoti diversi (entrambi rasi al suolo e ricostruiti altrove), gli aspetti psico-sociali che un terremoto, come quello del 23 novembre 1980, può avere sulle popolazioni colpite.
+Ci sarà spazio chiaramente anche per analizzare molti altri aspetti del post-terremoto, esaminando soprattutto quelli di altri comuni, come Caposele (paese in cui è ambientato il romanzo), colpiti dallo stesso sisma dell’80.Durante la presentazione sarà possibile acquistare anche le prime copie del libro, disponibili in anteprima assoluta.
+&nbsp;
+(sabato 13 febbraio 2010 alle 17.37)
+&nbsp;
+
+[post_text_72]
+CEAGG: primo bilancio ad un mese dall’inaugurazione
+&nbsp;
+Caposele - Ad un mese dell’inaugurazione, primo bilancio dell’attività del CE.AG.G. di Caposele. Il Ceagg è al completo  servizio dei cittadini di Caposele ed a disposizione di chiunque voglia conoscere il territorio e  le sue bellezze. Un  vero centro polifunzionale pensato e realizzato per creare concrete ricadute sia sociali che turistiche a Caposele.
+&nbsp;
+All’interno di questi locali è presente: il Museo delle Acque, il luogo in cui far conoscere a tutti  l’importanza dell’acqua che a Caposele riveste una particolare rilevanza vista la presenza delle Sorgenti del Sele che, con una portata di 4000 litri al secondo, dissetano l’intera Puglia. All’interno del Museo è stato realizzato una sorta di tour virtuale che conduce il visitatore a scoprire le meraviglie di questo elemento; la “Porta del Parco dei Monti Picentini – Porta dell’Anima”, istituita dal Parco Regionale dei Monti Picentini, che rappresenta uno dei quattro punti di accesso (i punti cardinali del Parco) alle bellezza naturali dell’intera area vincolata e rappresenta un punto di informazione e contestualmente una  vetrina territoriale del Parco. Al suo interno sono presenti  cartografie, percorsi ed attrezzature che potranno essere messe a disposizione di chi vorrà visitare i territori dei Picentini; il Centro di Aggregazione Giovanile (CE.AG.G) , come un luogo di ritrovo, di confronto e di unione dei giovani di Caposele con all’interno: la biblioteca comunale, con la possibilità di collegarsi anche via web alle biblioteche nazionali per la lettura di ebooks e testi on line; l’Informagiovani, che è un punto di ritrovo e di informazione per i giovani di Caposele che, con questo servizio, potranno acquisire anche informazioni utili sul mondo del lavoro; il Forum dei Giovani, per consentire a questa significativa realtà di incrementare maggiormente i momenti di aggregazione e confronto, anche grazie alla presenza di una sala computer e stampa; l’internet point, che offre la possibilità a tutti di collegarsi a internet, attraverso la rete wirless, gratuitamente; la sala incontri, che è un luogo che il Comune mette a disposizione di chi abbia la necessità di uno spazio per incontrarsi, per assemblee, riunioni di gruppi ed associazioni, ma anche come spazio per assistere a proiezioni e come sala lettura.  Tutto questo, quindi, ha rappresentato in poco tempo, e con grande efficacia, un riferimento per tantissimi visitatori e per i gli utilizzatori delle attrezzature messe a disposizione gratuitamente anche come  momento di grande confronto e di apertura sociale che si attendeva da molti anni.
+&nbsp;
+ Lo sforzo messo in atto, grazie anche alla collaborazione del Forum giovanile, vedrà, però,  il maggior impegno durante i mesi estivi nei quali il centro svolgerà in pieno la funzione di attrattore e informatore per i tanti pellegrini che scendendo a Caposele potranno essere edotti su una serie si elementi peculiari della nostra Terra ricevendo le giuste informazioni sulla visita alle sorgenti, sui luoghi di svago e di cultura presenti a Caposele e nei dintorni.  Insomma un punto di riferimento importante ed utilissimo sia per il sociale che per il turismo il quale, da sempre, ha grande necessità di essere ben studiato ed incanalato lungo direzioni meno improvvisate.  Per un giro virtuale del Ceagg ci si puo’ collegare al sito del comune di Caposele che coniuga, come il ruolo turistico del paese detta, informazioni istituzionali e turistiche dalle quali si può già avere un’idea, attraverso video, immagini e liks,  di quella che è una delle aree più belle della Regione Campania.
+&nbsp;
+
+[post_text_73]
+Localizzata discarica abusiva: denunciati 4 imprenditori
+&nbsp;
+&nbsp;
+Caposele - Sempre costante l’attenzione dei Carabinieri della Compagnia di Montella in materia di reati connessi  alla tutela dell’ambiente e della salute pubblica ed, in particolare, allo smaltimento illecito di rifiuti e sostanze inquinanti. Nell’ambito di una serie di controlli a tappeto nell’intero territorio di competenza, controllando numerose discariche, siti di stoccaggio e centri di raccolta rifiuti speciali, i militari di Montella hanno, nel corso degli ultimi due anni, conseguito notevoli risultati: almeno cento persone denunciate in stato di libertà, una arrestata, decine autocarri utilizzati per il trasporto dei rifiuti sequestrati ed una ventina di discariche abusive sequestrate.
+&nbsp;
+In particolare i Carabinieri della Stazione di Caposele, grazie alla proficua attività info-operativa e confortati anche da alcuni spunti informativi derivanti dall’approfondita conoscenza del territorio e della realtà locali, hanno localizzato un’area adibita a stoccaggio di rifiuti in una zona  interna del comune di Caposele, risultata abusivamente realizzata ed alimentata con ogni sorta di rifiuti.
+&nbsp;
+All’interno dell’area di oltre 1500 metri quadri di proprietà di due imprese, una di movimento terra ed una edile, tutte a gestione familiare, sono stati ritrovati rifiuti di ogni genere: non solo materiale di risulta (cemento, bitume, eternit, tubi in plastica e ferro derivante da demolizioni), ma anche mobili vecchi, frigoriferi ed altri elettrodomestici fuori uso.
+&nbsp;
+Sono stati ritrovati inoltre carcasse di mezzi d’opera, una roulotte, alcune decine di serbatoi, motori di autovetture e mezzi agricoli tutti fuori uso e, per concludere, una cisterna con all’interno 1000 litri di olio esausto ed alcune decine di metri cubi di pneumatici usurati. All’interno di un prefabbricato pezzi di parti meccaniche, pneumatici, forse selezioni da riutilizzare ed alcuni fusti vuoti con tracce di olio. Quattro le persone denunciate in stato di libertà, per aver realizzato e gestito una vera e propria discarica abusiva: portate presso gli Uffici della Compagnia di Piazzale Pastrengo, messe alle strette, non hanno potuto fare altro che ammettere le proprie responsabilità.
+&nbsp;
+I Carabinieri hanno sottoposto a sequestro l’intera area, per un valore complessivo di oltre 120 mila euro, adibita a discarica abusiva a cielo aperto dagli spregiudicati imprenditori. Le indagini continuano al fine di individuare altri responsabili complici di tale scempio ambientale, compreso eventuali titolari di altre imprese edili che hanno smaltito illecitamente nell’area materiali di risultano abbattendo, in questo modo i costi di gestione della ditta. L’attività di indagine è stata condotta in collaborazione con i Magistrati della Procura della Repubblica di Avellino, coordinati dal Procuratore Capo Antonio Guerriero.
+&nbsp;
+(mercoledì 17 febbraio 2010 alle 18.03)
+&nbsp;
+
+[post_text_74]
+Risanamento frana Ss130: soddisfatto Cetrulo
+&nbsp;
+Caposele – Il Consigliere comunale e coordinatore del PdL di Caposele, Pietro Cetrulo, annuncia in una nota l'approvazione in Provincia del progetto preliminare per il risanamento della frana sulla Ss 130, nel territorio di Caposele.
+ “Finalmente ha trovato il suo epilogo una situazione incresciosa e grave, che da circa dieci anni ha causato innumerevoli disagi ai cittadini del nostro paese – commenta Cerulo – Voglio ringraziare pubblicamente il consigliere provinciale Stefano Farina – prosegue Cetrulo – che attraverso una nuova interrogazione ha rilanciato il problema in Provincia, poi ripreso e seguito passo passo con tenacia dal consigliere Gaetano Calabrese, dal dirigente Marro e dal suo staff che in collaborazione con l’assessore al Comune di Caposele Conforti hanno redatto rapidamente un progetto preliminare da presentare in giunta. Un progetto che prevede un investimento di circa 650mila euro, ed infine ma non da ultimo un progetto fortemente voluto, firmato e approvato ieri dall’assessore provinciale ai lavori Pubblici Generoso Cusano, sottoscrivendo un atto che è l'emblema della politica concreta, del fare, di chi risolve veramente i problemi sul territorio, di chi venuto sul posto e resosi conto del problema ha dato il via alle pratiche affinché finissero le promesse che ci hanno rifilato gli amministratori Provinciali del passato. Un segno - prosegue Cetrulo - di buona politica che se trasportato a livello regionale ci fa ben sperare per una ripresa economica e morale della Campania”.
+“Da neo coordinatore del Pdl locale - conclude Cetrulo - non posso che augurare a tutti i candidati del Pdl Provinciale di essere eletti. Si tratta di candidati che hanno dimostrato nel passato a Caposele di essere fautori della ‘politica del fare’, dall’On. Castelluccio, per il suo interessamento del problema idrico, all'On. D’Ercole per lo stesso impegno sul problema acque e per lo status dei 40mila abitanti alle località di culto religioso come Materdomini, sino all’'assessore Cusano per la frana sul Ss 130, per il completamento della Lioni-Grottaminarda e la messa in sicurezza dell'Ofantina. Sono certo che le altre candidate dimostreranno la loro competenza, passione e voglia di fare per il nostro territorio. Rivolgo un invito a tutti gli elettori del Pdl e del centrodestra ad essere uniti in questa battaglia elettorale, una battaglia per il nostro futuro”.
+&nbsp;
+&nbsp;
+
+[post_text_75]
+Il prestigioso premio Abruzzo 2010 va alla Banda di Caposele
+&nbsp;
+Domani l’ormai storico concerto bandistico Città di Caposele ritirerà il premio Abruzzo 2010 a Trasacco provincia dell’Aquila, passerella delle migliori Bande musicali d’Italia. La banda di Caposele risulta infatti rispettare a pieno gli standard imposti da Vessella nel suo trattato sulla pianta organica dei gruppi bandistici.
+Il premio certifica l’elevato standard qualitativo raggiunto dal consolidato gruppo artistico che inizia la stagione 2010 dalla cittadina abruzzese, ma che lo vedrà protagonista indiscusso nei mesi a seguire. Ad aprile infatti sarà la banda ufficiale della Settimana Santa con presenze ad Amalfi, Sorrento e Vico Equense. A Trasacco, nella Chiesa di San Cesidio, dopo la premiazione, seguirà il concerto con l’esecuzione dei migliori brani in repertorio. Tra le altre, due marce sinfoniche del Maestro Paolo Addesso: Trasacco e San Cesidio ed i pezzi lirico-sinfonico Aida di Giuseppe Verdi, Gazza Ladra di Giocchino Rossini, Carmina  Burana di Carl Orff. Il concerto sarà diretto dai Maestri Vito Verzellino, al quale il Presidente della Banda, Luigi Nesta, ha confermato l’incarico di direttore e concertatore anche per la stagione artistica 2010, e dal Maestro Paolo Addesso del Conservatorio degli studi di Napoli San Pietro a Maiella.
+ (sabato 27 febbraio 2010 alle 14.07)
+&nbsp;
+
+[post_text_76]
+Alcool e droghe: i Carabinieri incontrano gli studenti
+&nbsp;
+Caposele - I Carabinieri della Compagnia di Montella in collaborazione con le scuole di ogni ordine e grado della Valle del Sele, hanno promosso e realizzato, nell’ambito delle varie attività svolte congiuntamente, un incontro sulla “cultura della legalità" nell’ambito delle attività pianificate dal Comando Provinciale Carabinieri di Avellino.
+&nbsp;
+All’incontro - dibattito, cui sono intervenuti i Carabinieri della Compagnia di Montella unitamente al personale del Nucleo Cinofili di Pontecagnano,  sono stati trattati argomenti delicati e sempre attuali: bullismo, devianze giovanili, con particolare attenzione all’abuso di alcool e droghe. L’obiettivo primario dell’incontro è stata la promozione della cultura della legalità che prevede come primo contesto di apprendimento la famiglia, la scuola, lo sport e la propria sfera di amicizie. Un modo per avvicinare il mondo dei giovani al mondo delle Istituzioni, in questa occasione rappresentate dai Carabinieri. Dopo una breve introduzione sull’organizzazione e i compiti specifici e particolari dell’Arma dei Carabinieri, gli studenti, specialmente quelli del Liceo Scientifico “De Sanctis”, sono intervenuti sollevando, con domande interessanti ed intelligenti, le loro curiosità, principalmente legate non solo alle problematiche giovanili con le quali ogni giorno si trovano a confrontarsi, quali il bullismo e la droga, ma anche a temi di attualità quali la criminalità organizzata, la violenza negli stadi e persino l’emergenza rifiuti.
+&nbsp;
+I Carabinieri hanno dedicato la parte conclusiva dell’incontro alla delicata problematica degli stupefacenti alla quale l’Arma di Montella dedica una particolare attenzione con numerosi servizi di prevenzione e repressione. Grande entusiasmo ha suscitato fra i ragazzi, una dimostrazione pratica delle capacità e “professionalità” del binomio cane/conduttore posta in essere dai Carabinieri Cinofili che hanno dimostrato l’abilità di Jems (cane antisommossa) e Cooper (cane antidroga) raccogliendo gli applausi ed il calore dei circa trecento alunni presenti. I Carabinieri della Compagnia di Montella hanno già in programma per le prossime settimane altri incontri con gli studenti per poter affrontare gli argomenti legati alla cultura della legalità nonché tutti quelli proposti nell’ambito dei vivaci dibattiti con gli studenti di ogni ordine e grado.
+&nbsp;
+(venerdì 19 marzo 2010 alle 12.04)
+&nbsp;
+
+[post_text_77]
+Caposele torna al futuro e diventa il paese dell’acqua
+&nbsp;
+Per alcuni giorni Caposele tornerà il paese che era agli inizi del ’900: un piccolo borgo arroccato alle pendici del monte Paflagone, letteralmente invaso dalle abbondanti acque del Sele. Da domani sera, infatti, circa 5000 litri al secondo di acqua delle sorgenti del fiume tornano nell’alveo naturale. La «Festa dell’acqua» prenderà il via in piazza Sanità. «Si tratta di un trasferimento - si legge in una nota del Comune, promotore dell’evento insieme alla Pro Loco - che ci riporta a cent’anni fa quando Caposele viveva di acqua e sull’acqua utilizzando tutti i benefici, anche industriali, di un elemento così tanto prezioso. È un trasferimento, purtroppo, temporaneo che, per questioni tecniche manutentive dell’Acquedotto Pugliese, durerà solo un paio di giorni». In occasione della «Festa dell’acqua», dunque, ci sarà la rara opportunità di ammirare l’enorme e potente massa idrica che si libererà dalle opere di captazione per tornare lungo il Sele. Il meeting comincerà domani alle 20 per un countdown accompagnato da musica, stand artigianali e gastronomici.
+&nbsp;
+Nella seconda giornata, martedì 14, intorno all’acqua ci saranno le visite delle scolaresche e dei turisti che, con accompagnatori, potranno essere informati attraverso un percorso lungo il museo dell’acqua e del fiume; previsti, inoltre, dibattiti informativi e politici sul tema. Sarà allestito in piazza Sanità uno stand divulgativo e di promozione dal quale sarà possibile attingere tutte le notizie utili dell’evento. Il Sele, che scaturisce dal bacino carbonatico all’interno del monte Cervialto, è una vera e propria montagna d’acqua alimentata dalle piogge, che filtra a valle attraverso numerose fratture della soglia di argilla esistente al piede del monte. Sono ottantasei le sorgenti della Madonna della Sanità e ciascuna di esse viene fatta confluire in una galleria più ampia, disposta ad emiciclo. Ne risulta un corso tumultuoso: 4685 litri al secondo di acqua di altissima qualità, con caratteristiche chimiche, fisiche ed organolettiche tali da poter essere immessa direttamente al consumo.
+&nbsp;
+A Caposele, dove si realizza uno dei più importanti nodi idraulici dell’Acquedotto Pugliese, c’è la confluenza delle acque di Cassano Irpino, prelevate dalle fonti del Calore, in quelle del Sele. Una quantità di risorsa idrica notevole, che viene incanalata nelle possenti condotte dell’acquedotto più grande del mondo. La sua lunghezza complessiva, includendo nel calcolo anche le diramazioni primarie e secondarie, è di oltre tremila chilometri, mentre la sua portata arriva a sei metri cubi al secondo. È costituito da cento gallerie che attraversano gli Appennini ed il Vulture e da novanta ponti-canale.
+&nbsp;
+Non tutta l’acqua del Sele viene però captata per l’acquedotto.
+Alcune sorgenti secondarie sono lasciate confluire nell’alveo naturale del fiume allo scopo di garantirne il ciclo biologico naturale. Si tratta di quantità minime, irrisorie, già oggetto di discussione di quell’accordo di Programma tra Puglia e Campania che ancora non è stato portato a termine. Da domani sera quelle acque subiranno un’impennata della portata tanto eclatante quanto spettacolare. Sarà un capitolo suggestivo, unico, di una vicenda che ha conosciuto momenti polemici. Bentornato Sele.
+&nbsp;
+11.04.2010  - Gelsomino Del Guercio
 &nbsp;
