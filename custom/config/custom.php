@@ -61,6 +61,6 @@ $password_upload_file = 'd36923926ed59333afab0bba1a4ad5e5';
 $password_config = 'd36923926ed59333afab0bba1a4ad5e5';
 
 # caricamento e gestione delle lotterie/questionari
-$password_lotterie = '60539869a90ef7e8655bd2771b44d481';
+$password_lotterie = 'ede88b33a306460d23281905e6348ca8';
 
 ?>
