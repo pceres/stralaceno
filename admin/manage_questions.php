@@ -115,28 +115,38 @@ case 'index':
 	$id = -1;
 	if ($dh = opendir($path_prefix)) 
 	{
+		// crea la lista delle lotterie disponibili
+		$list_questions = Array();
 		while (($file = readdir($dh)) !== false) 
 		{
 		   if ( (substr($file,0,9) == "lotteria_") & (substr($file,12,4) == '.txt') & (substr($file,-4) == '.txt') )
 			{
 				// lotteria trovata
 				$file_questions = $file;
+				$id_file = substr($file_questions,9,3)+0;
 				
-				// carica file di configurazione della lotteria
-				$lotteria = get_config_file($path_prefix.$file_questions);
-				
-				$lotteria_nome = $lotteria["Attributi"][0][0];
-				
-				$id_file = substr($file,9,3)+0;
 				if ($id < $id_file) // prendi il massimo id
 				{
 					$id = $id_file;
 				}
 				
-				echo "$id_file) <a href=\"manage_questions.php?task=edit&amp;data=$id\">$lotteria_nome</a> <br>\n";
+				$list_questions[$id_file] = $file_questions;
 			}
 		}
 		closedir($dh);
+		
+		// visualizza in ordine di id
+		for ($id_file = 1; $id_file <= count($list_questions); $id_file++)
+		{
+			$file_questions = $list_questions[$id_file];
+			
+			// carica file di configurazione della lotteria
+			$lotteria = get_config_file($path_prefix.$file_questions);
+			
+			$lotteria_nome = $lotteria["Attributi"][0][0];
+			
+			echo "$id_file) <a href=\"manage_questions.php?task=edit&amp;data=$id_file\">$lotteria_nome</a> <br>\n";
+		}
 	}
 	if ($id<0)
 	{
