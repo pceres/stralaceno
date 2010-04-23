@@ -127,12 +127,13 @@ case 'index':
 				
 				$lotteria_nome = $lotteria["Attributi"][0][0];
 				
-				if ($id < substr($file,9,3))
+				$id_file = substr($file,9,3)+0;
+				if ($id < $id_file) // prendi il massimo id
 				{
-					$id = substr($file,9,3)+0;
+					$id = $id_file;
 				}
 				
-				echo "$id) <a href=\"manage_questions.php?task=edit&amp;data=$id\">$lotteria_nome</a> <br>\n";
+				echo "$id_file) <a href=\"manage_questions.php?task=edit&amp;data=$id\">$lotteria_nome</a> <br>\n";
 			}
 		}
 		closedir($dh);
