@@ -369,8 +369,8 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 	// simboli quando si azzecca una risposta
 	$simbolo_ok 	= Array(
 		'4' 		=> Array('V'		,'','Qualificazione con piu\' punti - Vittoria diretta (4 punti)'),
-		'3' 		=> Array('S'		,'','Qualificazione per scontro diretto, d.r. o class. avulsa - Vittoria ai supplementari (3 punti)'),
-		'2' 		=> Array('R'		,'','Qualificazione per miglior attacco, ecc. - Vittoria ai rigori (2 punti)'),
+		'3' 		=> Array('S'		,'','Qualificazione per scontro diretto, diff. reti - Vittoria ai supplementari (3 punti)'),
+		'2' 		=> Array('R'		,'','Qualificazione per miglior attacco, class. avulsa, ecc. - Vittoria ai rigori (2 punti)'),
 		'1' 		=> Array('+'		,'','???'),
 		'default'	=> Array('.'		,'','')
 		);
@@ -378,8 +378,8 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 	$simbolo_not_ok	= Array(
 		'4' 		=> Array('<b>O</b>'	,'','??'),
 		'3' 		=> Array('O'		,'','??'),
-		'2' 		=> Array('r'		,'','Eliminazione per miglior attacco, ecc. - Sconfitta ai rigori (2 punti)'),
-		'1' 		=> Array('s'		,'','Eliminazione per scontro diretto, d.r. o class. avulsa - Sconfitta ai supplementari (1 punto)'),
+		'2' 		=> Array('r'		,'','Eliminazione per miglior attacco, class. avulsa, ecc. - Sconfitta ai rigori (2 punti)'),
+		'1' 		=> Array('s'		,'','Eliminazione per scontro diretto, diff. reti - Vittoria ai supplementari (1 punto)'),
 		'0'		=> Array('<small>o</small>'		,'','Eliminazione con meno punti - Sconfitta diretta (0 punti)'),
 		'default'	=> Array('.'		,'','')
 		);
