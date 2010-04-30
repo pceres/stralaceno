@@ -192,8 +192,8 @@ $vettore_alias_domanda = array(
 	'S','S','S','S',
 	'F','F','C');
 $vettore_alias2_domanda = array(
-	'Ammesse ottavi', 'Ammesse ottavi', 'Ammesse ottavi', 'Ammesse ottavi', 'Ammesse ottavi', 'Ammesse ottavi', 'Ammesse ottavi', 'Ammesse ottavi','Ammesse ottavi', 'Ammesse ottavi', 'Ammesse ottavi', 'Ammesse ottavi', 'Ammesse ottavi', 'Ammesse ottavi', 'Ammesse ottavi', 'Ammesse ottavi',
-	'Ammesse quarti', 'Ammesse quarti', 'Ammesse quarti', 'Ammesse quarti', 'Ammesse quarti', 'Ammesse quarti', 'Ammesse quarti', 'Ammesse quarti',
+	'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi','Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi',
+	'Ammesse ai quarti', 'Ammesse ai quarti', 'Ammesse ai quarti', 'Ammesse ai quarti', 'Ammesse ai quarti', 'Ammesse ai quarti', 'Ammesse ai quarti', 'Ammesse ai quarti',
 	'Ammesse alle semifinali', 'Ammesse alle semifinali', 'Ammesse alle semifinali', 'Ammesse alle semifinali',
 	'Ammesse in finale', 'Ammesse in finale', 'Squadra vincitrice');
 // e peso corrispondente per la visualizzazione

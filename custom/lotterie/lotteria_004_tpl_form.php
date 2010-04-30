@@ -22,6 +22,12 @@
 //
 
 //
+// configurazione
+//
+
+$enable_check_Caposele = 1; // 1 --> fai il test di caposelitudine; 0 -> nessun test
+
+//
 // parte generica
 //
 
@@ -130,7 +136,7 @@ if (document.forms['question_form']['temp_silaritudine']) {document.forms['quest
 archivio_domande = Array(
 <?php
 
-$num_domande = 3;		// numero domande da porre
+$num_domande = 3*0;		// numero domande da porre
 $num_allowed_errors = 1;	// numero massimo di errori accettabili per superare comunque la verifica
 
 $archivio_domande = Array(
@@ -609,7 +615,7 @@ function check_input(f)
 // alert('3: '+auth_provenienza.toUpperCase(auth_provenienza));
 
 	// gestione Caposelesi
-	if (!<?php echo $admin_mode; ?>)
+	if (!<?php echo $admin_mode; ?> && <?php echo $enable_check_Caposele; ?>)
 	{
 		switch (auth_provenienza.toUpperCase(auth_provenienza))
 		{
