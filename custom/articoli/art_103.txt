@@ -1,0 +1,17 @@
+Autore::Ars
+Titolo::Prague Half Marathon 2010
+--- Begin body ---
+<br>Sabato 27 marzo 2010 alle ore 12.00 si &egrave; disputata la mezza maratona di Praga (Repubblica Ceca). 
+<br><br>
+<b>Per la prima volta un atleta dell’ARS ha partecipato ufficialmente ad una competizione podistica fuori dall’Italia; 
+si tratta di Paolo Viscardi, che si &egrave; classificato 3234° su 6127 concorrenti arrivati, facendo segnare un tempo di 1 ora 51 minuti e 04 secondi.</b><br>
+<p>&nbsp;
+<div align="center">
+<img id="Praga" src="%file_root%custom/album/varie/Praga1.jpg" alt="Praga" border="0" width="420">
+</div>
+<br>
+<p>&nbsp;
+<div align="center">
+<img id="Praga" src="%file_root%custom/album/varie/Praga.jpg" alt="Praga" border="0" width="420">
+</div>
+--- End body ---

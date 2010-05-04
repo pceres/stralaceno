@@ -9,5 +9,9 @@ Essa si propone di:
 <br>-intraprendere iniziative di natura culturale al fine di approfondire il significato dell’attività sportiva nelle sue diverse interpretazioni;
 <br>-attuare servizi e strutture per lo svolgimento delle attività fisiche ed intellettuali;
 <br>-favorire contatti fra soci aventi specifici interessi culturali e sportivi, costituendo sezioni per le attività di maggior rilievo;
-<br>-aderire a qualsiasi attivit&agrave; che direttamente, tramite delibera del Consiglio Direttivo, sia giudicata idonea al raggiungimento degli scopi  sociali.<br><br>
+<br>-aderire a qualsiasi attivit&agrave; che direttamente, tramite delibera del Consiglio Direttivo, sia giudicata idonea al raggiungimento degli scopi  sociali.<br>
+<p>&nbsp;
+<div align="center">
+<img id="logo_ars" src="%file_root%custom/album/ars/ars.jpg" alt="logo_ars" border="0" width="260">
+</div>
 --- End body ---

@@ -9,7 +9,7 @@ dell'Amatori Running Sele: Francesco Ceres, Salvatore Merola, Alessandro Russoma
 Paolo Viscardi e Donatello Cirillo.<br>
 <br>
 <div align="center">
-<img id="fotoAllenamentoCollettivo" src="%file_root%custom/album/Siano_07/si6.jpg" alt="" border="0" width="410">
+<img id="f" src="%file_root%custom/album/Siano_07/si6.jpg" alt="" border="0" width="410">
 <br>
 <br>
 </div>

@@ -1,0 +1,24 @@
+Autore::Ars
+Titolo::XVI Maratona di Roma
+--- Begin body ---
+<br>
+A piedi nudi, cinquant’anni dopo. Come Abebe Bikila sul traguardo dell’Arco di Costantino alle Olimpiadi di Roma 1960. Il 25enne etiope Siraj Gena (2h08'39") ha trionfato nella edizione 2010 della Maratona di Roma, dedicata alla memoria del mitico campione passato alla storia per aver vinto un titolo olimpico senza scarpe. <br><br>
+Dopo il 30° km Gena &egrave; andato in fuga insieme al keniano Benson Barus, il grande favorito della corsa, e lo ha staccato al 37° km. Il suo tempo, che migliora di oltre 2’ il suo primato, &egrave; l’ottavo di sempre nella storia della Maratona di Roma. Terzo il keniano Nixon Machichim in 2h09’08”.
+<br><br>
+Tra gli azzurri, il 41enne Migidio Bourifa &egrave; sempre rimasto con il secondo gruppo e ha chiuso al 7° posto in 2h12’34”, miglior prestazione italiana dell’anno. L’attesissimo esordiente Daniele Meucci ha invece un po’ faticato nel finale, ma &egrave; riuscito a concludere la gara all’11° posto in 2h13’49”. 
+<br><br>
+Tra le donne l’Etiopia ha fatto addirittura tripletta, al termine di un finale entusiasmante. Sul traguardo di via dei Fori Imperiali si &egrave; imposta l’etiope Firehiwot Dado Tufa, che ha replicato il successo dello scorso anno, con il tempo di 2h25’28”. Subito dietro le connazionali Kebebush Haile (2h25’31”) e Mare Dibaba (2h25’38”), che era all’esordio sulla distanza. 
+<br><br>
+Alex Zanardi ha dominato la gara per handbike con il tempo di 1h15’53”, migliorando il primato del percorso che era di 1h18’12”.
+<br><br>
+<b>Bella prestazione del nostro Donato Ceres, arrivato 1.423° su 11.023 atleti giunti al traguardo, con un tempo di 3 ore e 26 minuti e 36 secondi (real time), migliorandosi di 40 minuti rispetto all’edizione precedente.</b>
+<br><br></b>
+Inserite le prime foto che trovate <a href="album.php?anno=Roma_10">qui</a>.<br>
+<p>&nbsp;
+<div align="center">
+<img id="" src="%file_root%custom/album/Roma_10/R_XVI_3.JPG" alt="" border="0" width="500">
+</div>
+<p ALIGN="CENTER">
+<i>Donato Ceres al passaggio al 36° km</i></centre>
+</p>
+--- End body ---

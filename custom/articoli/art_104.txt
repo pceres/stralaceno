@@ -1,0 +1,12 @@
+Autore::
+Titolo::Cinque anni di ARS
+--- Begin body ---
+<br><b><FONT SIZE="5" color="red" face="candara"><center> 31 marzo 2005 - 31 marzo 2010 <br>l'ARS compie 5 anni</center></FONT></b><br>
+<p>&nbsp;
+<div align="center">
+<img id="Praga" src="%file_root%custom/album/ars/SaMe_stil.jpg" alt="Praga" border="0" width="260">
+</div>
+<br><br>
+Visualizza il Rendiconto e la Relazione ARS anno 2009 <a href="download.php?resource_type=file&amp;resource_id=file_rendiconto_e_relazione_ARS_anno_2009 ">qui</a>.
+<br><br>
+--- End body ---

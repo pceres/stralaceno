@@ -62,6 +62,12 @@ Bri09.jpg::
 Bri09_4.jpg::
 Bri09_3.jpg::
 SaMe_stil.jpg::
+smc0.jpg::
+smc1.jpg::
+smc2.jpg::
+smc3.jpg::
+smc4.jpg::
+smc5.jpg::
 
 
 [All.Coll.05]
@@ -121,6 +127,9 @@ LL1.jpg::
 LL2.jpg::
 LL3.jpg::
 LL4.jpg::
+Praga.jpg::
+Praga1.jpg::
+SA2010.jpg::
 
 [Soci_ars]
 LV2.jpg::Lello Viscardi::
@@ -1022,6 +1031,19 @@ sda6.jpg::
 
 [All.Coll.09]
 AC301209.jpg::
+301209_50.jpg::
+301209_51.jpg:: 
+301209_52.jpg:: 
+301209_53.jpg::
+301209_55.jpg::
+301209_56.jpg::
+301209_57.jpg::
+301209_58.jpg::
+301209_60.jpg::
+301209_61.jpg::
+301209_62.jpg::
+301209_70.jpg::
+301209_71.jpg::
 301209_1.jpg::
 301209_2.jpg::
 3011209_A.jpg::
@@ -1050,4 +1072,22 @@ AC301209.jpg::
 301209_29.jpg::
 301209_30.jpg::
 301209_31.jpg::
+301209_33.jpg::
+301209_34.jpg::
+301209_35.jpg::
+301209_36.jpg::
+301209_37.jpg::
+301209_38.jpg::
+301209_39.jpg::
+301209_40.jpg::
+ 
+
+[Roma_10]
+R_XVI.JPG::
+R_XVI_2.JPG:: 
+R_XVI_3.JPG::
+RomaXVI.jpg::
+R_XVI_4.JPG:: 
+R_XVI_5.JPG:: 
+
 

@@ -10,4 +10,28 @@ Da segnalare, oltre al solito Gelsomino Merola (45° in 39’10''), le ottime prest
 La classifica la trovate <a href="download.php?resource_type=file&amp;resource_id=file_night_marathon_09">qui</a>.
 <br>
 <br>
+<br>
+<div align="center">
+<img id="" src="%file_root%custom/album/ars/smc0.jpg" alt="" border="0" width="350">
+</div><br>
+<br>
+<div align="center">
+<img id="" src="%file_root%custom/album/ars/smc1.jpg" alt="" border="0" width="350">
+</div><br>
+<br>
+<div align="center">
+<img id="" src="%file_root%custom/album/ars/smc2.jpg" alt="" border="0" width="350">
+</div><br>
+<br>
+<div align="center">
+<img id="" src="%file_root%custom/album/ars/smc3.jpg" alt="" border="0" width="350">
+</div><br>
+<br>
+<div align="center">
+<img id="" src="%file_root%custom/album/ars/smc4.jpg" alt="" border="0" width="350">
+</div><br>
+<br>
+<div align="center">
+<img id="" src="%file_root%custom/album/ars/smc5.jpg" alt="" border="0" width="350">
+</div>
 --- End body ---

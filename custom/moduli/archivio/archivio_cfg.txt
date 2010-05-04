@@ -42,6 +42,11 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
+105::homepage::Sondaggio - Studio Mondiali di Calcio 2010::Ars
+104::homepage::Cinque anni di ARS::
+103::homepage::Prague Half Marathon 2010::Ars
+102::homepage::XVI Maratona di Roma::Ars
+101::homepage::Donato Ceres alla riconquista di Roma::Ars
 100::homepage::Allenamento Collettivo 30.12.2009::Ars
 99::homepage::III Memorial B.Germano 2009::Ars
 98::homepage::Allenamento Collettivo 31.10.2009::Ars
@@ -55,7 +60,7 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 90::homepage::Stralaceno 2009::
 89::homepage::IV Scalata al Castello::
 88::homepage::V edizione "Sulle Orme di Filippide"::
-87::homepage::Allenamento pista Calabritto::Ars
+87::homepage::Attivit&agrave; Pista Calabritto::Ars
 86::homepage::Nomina Responsabili di Settore 2009::Ars
 85::homepage::Allenamento montano di gruppo::Ars
 83::homepage::L'ARS e la XV Maratona di Roma::Paolo Viscardi

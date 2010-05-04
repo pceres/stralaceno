@@ -6,6 +6,9 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+15/04/2010::Paolo Viscardi e Alessandro Russomano hanno conseguito il brevetto di Istruttore di atletica leggera FIDAL (Federazione Italiana Di Atletica Leggera).
+21/03/2010::Donato Ceres ha partecipato alla gara podistica "XVI Maratona di Roma" di km 42,195 a Roma. Accompagnatore Saverio Perna.
+20/02/2010::Assegnato il pettorale di gara a Donato Ceres per disputare la XVI Maratona di Roma del 21.03.2010: correr&agrave; con il numero 3196, partendo nel settore B.
 11/01/2010::La squadra podistica dell'ARS si &egrave; affiliata -per l'anno 2010- alla UISP Unione Italiana Sport Per tutti.
 08/11/2009::Partecipanti alla gara podistica "III Memorial B.Germano di km 9 a Sicignano degli Alburni (Sa): Donato Ceres, Paolo Viscardi, Alessandro Russomanno, Giuseppe Spatola, Gelsomino Del Guercio.
 31/10/2009::Si &egrave; svolto l'allenamento podistico collettivo di km 11,5 in localit&agrave; Pasano (Caposele). Dieci i partecipanti.

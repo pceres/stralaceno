@@ -1,9 +1,6 @@
-Autore::
+Autore::Ars
 Titolo::Consiglio Direttivo e Responsabili di Settore ARS
 --- Begin body ---
-<br><br>
-Consiglio Direttivo dell'ARS Amatori Running Sele eletto il 22.03.2008 (durata 3 anni):
-<br>
 <br>
 Presidente: PAOLO VISCARDI
 <br>
@@ -16,18 +13,14 @@ Segretario Amministrativo: ALESSANDRO RUSSOMANNO
 <br>
 Consigliere: NICOLA D'AURIA
 <br><br><br><br>
-RESPONSABILI DI SETTORE, nominati il 11.04.2009 (durata 1 anno):
+RESPONSABILI DI SETTORE, nominati il 10.04.2010 (durata 1 anno):
 <br><br>
-Responsabile Organizzativo Squadra Podistica Agonistica: SAVERIO PERNA
-<br><br>
-Responsabile Attività di Base: SALVATORE MEROLA
+Responsabile ARS Calabritto: SAVERIO PERNA
 <br><br>
 Responsabile Relazioni Esterne: NICOLA CICCONE
 <br><br><br>
 <div align="center">
 <img id="Roma_2008" src="%file_root%custom/album/Soci_ars/PV2.jpg" alt="Il presidente Paolo Viscardi" border="0" width="160">
 </div>
-<br><br>
-Il Verbale della riunione del Consiglio Direttivo del 22.03.2008 &egrave; disponibile <a href="download.php?resource_type=file&amp;resource_id=file_direttivo_08">qui</a>.
 <br><br>
 --- End body ---

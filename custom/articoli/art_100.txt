@@ -3,12 +3,10 @@ Titolo::Allenamento Collettivo 30.12.2009
 --- Begin body ---
 <p>&nbsp;
 <div align="center">
-<img id="titolo_da_mettere" src="%file_root%custom/album/All.Coll.09/301209_31.jpg" alt="" border="0" width="500">
+<img id="titolo_da_mettere" src="%file_root%custom/album/All.Coll.09/301209_40.jpg" alt="" border="0" width="500">
 </div><br>
 <i><br>
-Aggiunte altre foto il 20 gennaio che trovate <a href="album.php?anno=All.Coll.09">qui</a>; altre nei prossimi giorni.<br>
-<br>
-</i>
+L'album fotografico lo trovate <a href="album.php?anno=All.Coll.09">qui</a>.<br>
 <br>Partecipanti all’allenamento collettivo del 30 dicembre 2009 di km 16,750, con partenza ed arrivo in piazza Sanità a Caposele: 
 <br><br>
 Nicola D’Auria,<br>
