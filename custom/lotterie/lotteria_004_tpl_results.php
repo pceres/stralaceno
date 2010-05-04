@@ -24,7 +24,7 @@ print_header($lotteria_nome);
 //
 
 $visualizza_giocate_anonime = true;	// true -> vengono visualizzate anche le giocate che non hanno una chiave corretta (giocate anonime)
-$nascondi_pronostici_a_giocate_aperte = false; 	// true -> le giocate saranno visibili solo dalla data di chiusura delle giocate
+$nascondi_pronostici_a_giocate_aperte = true; 	// true -> le giocate saranno visibili solo dalla data di chiusura delle giocate
 
 $indice_regola_eliminatorie 	= $lista_criteri['eliminatorie']; 	// [0..] posizione (tra le altre regole di ordinamento) regola 'eliminatorie'
 $indice_regola_punteggi_specifici = $lista_criteri['punteggi_specifici']; // [0..] indice del criterio "punteggi_specifici"
@@ -617,6 +617,6 @@ echo "<a href=\"custom/lotterie/lotteria_".sprintf("%03d",$id_questions)."_tpl_f
 
 
 # logga il contatto
-// $counter = count_page("questions",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
+$counter = count_page("questions",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
 
 ?>
