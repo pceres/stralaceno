@@ -5,13 +5,13 @@
 #
 
 # Qualificato ottavi 1:
-Sudafrica
+nd
 # Qualificato ottavi 2:
-Paraguay
+nd
 # Qualificato ottavi 3:
-Argentina
+nd
 # Qualificato ottavi 4:
-Camerun
+nd
 # Qualificato ottavi 5:
 nd
 # Qualificato ottavi 6:
@@ -82,12 +82,12 @@ nd
 #
 # es: Sudafrica::5,0;4,0;3,0;2,0
 [punteggio_risposte]
-Sudafrica::5,2
-Messico::5,2
+Sudafrica::
+Messico::
 Uruguay::
 Francia::
-Argentina::5,3
-Nigeria::5,1
+Argentina::
+Nigeria::
 Corea del Sud::
 Grecia::
 Inghilterra::
@@ -100,10 +100,10 @@ Serbia::
 Ghana::
 Olanda::
 Danimarca::
-Camerun::5,3
-Giappone::5,1
-Italia::5,0
-Paraguay::5,4
+Camerun::
+Giappone::
+Italia::
+Paraguay::
 Nuova Zelanda::
 Slovacchia::
 Brasile::
