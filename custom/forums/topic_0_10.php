@@ -50,6 +50,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 36::MIMMO55::21/01/2010 19.48.19::visible
 37::paolo::24/03/2010 11.00.45::visible
 38::pasquale::24/03/2010 20.27.51::visible
+39::ARS::03/05/2010 10.17.53::visible
 
 [post_text_0]
 we allora, le polemiche sullo sport caposelese per ora sembra siano terminate. Abbiamo assistito ad uno bel dibattittio, coinvolgendo molte persone. Ma quello che sto cercando di dirvi e che se io posso cambiare e voi potete cambiare, tutto il mondo può cambiare. Questa era una frase tratta dal film di ROCKY, comununque con questo voglio dire che tutte le polemiche non sono mai servita a nulla, piuttosto bisogna cecare di essere quanto più uniti mettendo sul tavolo le proprie idee, ed allora a questo punto le cose potranno cambiare in modo positivo. tutto questo penso che sia la chiave di tutto.
@@ -413,3 +414,14 @@ Tantissimi complimenti a Donato Ceres, per l'ottimaprestazione alla maratona di 
 
 [post_text_38]
 &gt;Tantissimi complimenti a Donato Ceres, per l'ottimaprestazione alla maratona di Roma...continua così :)<br>&gt;<br><br>Mi associo ai complimenti di Paolo: bravo Donato!
+
+[post_text_39]
+Prossima gara alla quale parteciperà l'ARS:
+&nbsp;
+&nbsp;
+Sabato 8 maggio, al tramonto, intorno alla splendida cornice dei templi di Paestum, si svolgerà la VI Edizione della manifestazione Podistica "Sulle Orme di Filippide". La corsa, già teatro di un Campionato Italiano Master nel 2008 presenta un circuito velocissimo di 10 Km adatto per migliorare le proprie prestazioni sulla distanza.
+&nbsp;
+Ancora una volta il Comitato Organizzatore del team Podisti Cava Picentini Costa d'Amalfi, le cui idee introdotte nell'organizzazione eventi  sono sempre state innovatrici,  sperimenta, per l'occasione, nuove possibilità organizzative. La partecipazione alla manifestazione, anche per rispetto ai principi dell'ente che ne è promotore (CSI Cava de' Tirreni) è completamente gratuita. I servizi offerti ai podisti rimangono sempre gli stessi: assistenza medica durante la gara, ricco ristoro sia durante che post gara, servizio fotografico, classifiche etc.. Garantiti anche i premi per i primi 30 uomini, 10 donne e categorie (gli stessi saranno rigorasamente con prodotto tipici dato che il team organizzatore ha assunto già da tempo il principio di eliminare i premi in danaro dalle prorie manifestazioni).
+&nbsp;
+L'unica cosa che viene chiesta all'atto dell'iscrizione è una cauzione di 5 euro che verrà completamente restituita a tutti gli atleti che termineranno la gara; ciò chiaramente per evitare iscrizioni seguite da una non partecipazione che comporterebbero il blocco delle stesse per raggiunto numero e la conseguente impossibilità di iscriversi per altri. Il limite fissato per la partecipazione è di 500 atleti con i quali è possibile gestire in modo ottimale i servizi e garantire l'integrità dell'area archeologica che ospita la manifestazione.
+&nbsp;

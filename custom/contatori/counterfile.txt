@@ -11,7 +11,6 @@ admin_album:293
 admin_upload_foto:210
 modulo_presentazione:755
 modulo_lettere_sito:830
-statistiche:348
 album:2691
 foto:4172
 feed:8178
@@ -22,12 +21,13 @@ modulo_last_contents:1056
 forum:27068
 modulo_archivio:2084
 modulo_organizzatori:719
-questions:2428
-homepage:30071
-admin_index:1069
 admin_root_index:8
-admin_edit_config:591
 admin_articoli:636
 admin_layout:63
 admin_upload_text:643
 admin_modules_config:506
+admin_index:1070
+admin_edit_config:592
+homepage:30073
+questions:2432
+statistiche:349
