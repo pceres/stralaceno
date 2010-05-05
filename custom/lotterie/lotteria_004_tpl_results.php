@@ -214,7 +214,7 @@ array_push($header_new,'Giocatore');
 array_push($header_new,'Codice');
 array_push($header_new,'Tipo giocata');
 array_push($header_new,'Pos.');
-array_push($header_new,'Provenienza');
+array_push($header_new,'Comune di origine');
 
 foreach ($list0 as $id)
 {

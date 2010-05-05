@@ -24,7 +24,7 @@ Sondaggio Mondiali 2010::attiva::no_auth::00:00 01/05/2000::24:00 10/06/2010::22
 #	msg3: visualizzato dopo la chiusura delle giocate
 #
 [msg_date]
-Il sondaggio non &egrave; ancora aperto. Potrai giocare dalle 00:00 del 01/05::Si pu&ograve; giocare fino alle 24:00 dell' 11/06::Le giocate sono chiuse, la classifica sar&agrave; aggiornata dopo la disputa di ogni turno (ottavi, quarti, semifinali e finale).
+Il sondaggio non &egrave; ancora aperto. Potrai giocare dalle 00:00 del 01/05::Si pu&ograve; giocare fino alle 24:00 del 10/06::Le giocate sono chiuse, la classifica sar&agrave; aggiornata dopo la disputa di ogni turno (ottavi, quarti, semifinali e finale).
 
 # Formato riga [keyfiles]:
 # nome::caption::num_keys

@@ -837,8 +837,8 @@ if (!empty($messaggio_stato_sondaggio)) {
 <tr style='height:14.25pt'>
   <td class=xl34>nome</td>
   <td class=xl34>cognome</td>
-  <td class=xl34>nato/a il</td>
-  <td class=xl34>comune di origine</td>
+  <td class=xl34><span title="Il formato della data deve essere del tipo: gg/mm/aaaa">nato/a il</span></td>
+  <td class=xl34><span title="Si intende il comune di riferimento per la comunita' di origine, non il luogo di nascita amministrativo">comune di origine</span></td>
 </tr>
 
 <tr style='height:14.25pt' align='left'>
