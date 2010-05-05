@@ -84,6 +84,7 @@ link_forum_rassegna_stampa::Rassegna stampa Caposele::external_link::forum.php?a
 siti_amici::Caposele sul Web::modulo_custom::::
 archivio::Archivio album e articoli::modulo_custom::::
 link_download::Download::external_link::download.php::::
+link_forum_Sondaggio_Mondiali_2010::<b>Sondaggio Mondiali 2010</b>::external_link::questions.php?id_questions=4::::
 
 [Amministrazione]
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Amministrazione] non prevede sottoelementi

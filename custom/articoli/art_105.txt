@@ -5,6 +5,9 @@ Titolo::Sondaggio - Studio Mondiali di Calcio 2010
 <div align="center">
 <img id="Praga" src="%file_root%custom/album/varie/SA2010.jpg" alt="Praga" border="0" width="200">
 </div>
+<br>
+<b>PER GIOCARE <a href=" questions.php?id_questions=4 ">CLICCATE QUI</a></b>
+<br>
 <br><b>Caratteristiche principali</b>
 <br><br>
 <b>Criteri di determinazione della classifica finale</b><br>
@@ -32,6 +35,4 @@ Le giocate sono “per la gloria”: nessuna contribuzione e nessun premio in caso d
 Gi&agrave; durante il periodo delle giocate queste saranno visibili con nome, cognome, data di nascita e provenienza del giocatore. <br><br>
 <b>Numero delle giocate </b> <br>
 Ogni persona pu&ograve; giocare una sola volta. <br><br>
-<b>TRA POCHI GIORNI SARA' DISPONIBILE IL TABELLONE PER EFFETTUARE LE GIOCATE</b>
-<br>
 --- End body ---
