@@ -5,37 +5,37 @@
 #
 
 # Qualificato ottavi 1:
-nd
+Olanda
 # Qualificato ottavi 2:
-nd
+Brasile
 # Qualificato ottavi 3:
-nd
+Argentina
 # Qualificato ottavi 4:
-nd
+Corea del Sud
 # Qualificato ottavi 5:
-nd
+Uruguay
 # Qualificato ottavi 6:
-nd
+Messico
 # Qualificato ottavi 7:
-nd
+USA
 # Qualificato ottavi 8:
-nd
+Inghilterra
 # Qualificato ottavi 9:
-nd
+Germania
 # Qualificato ottavi 10:
-nd
+Ghana
 # Qualificato ottavi 11:
-nd
+Paraguay
 # Qualificato ottavi 12:
-nd
+Slovacchia
 # Qualificato ottavi 13:
-nd
+Giappone
 # Qualificato ottavi 14:
-nd
+Portogallo
 # Qualificato ottavi 15:
-nd
+Spagna
 # Qualificato ottavi 16:
-nd
+Cile
 # Qualificato quarti 1:
 nd
 # Qualificato quarti 2:
@@ -82,35 +82,36 @@ nd
 #
 # es: Sudafrica::5,0;4,0;3,0;2,0
 [punteggio_risposte]
-Sudafrica::
-Messico::
-Uruguay::
-Francia::
-Argentina::
-Nigeria::
-Corea del Sud::
-Grecia::
-Inghilterra::
-USA::
-Algeria::
-Slovenia::
-Germania::
-Australia::
-Serbia::
-Ghana::
-Olanda::
-Danimarca::
-Camerun::
-Giappone::
-Italia::
-Paraguay::
-Nuova Zelanda::
-Slovacchia::
-Brasile::
-Corea del Nord::
-Costa D'Avorio::
-Portogallo::
-Spagna::
-Svizzera::
-Honduras::
-Cile::
+Sudafrica::5,1;4,0;3,0;2,0;1,0
+Messico::5,3;
+Uruguay::5,4;
+Francia::5,0;4,0;3,0;2,0;1,0
+Argentina::5,4;
+Nigeria::5,0;4,0;3,0;2,0;1,0
+Corea del Sud::5,4;
+Grecia::5,0;4,0;3,0;2,0;1,0
+Inghilterra::5,4;
+USA::5,4;
+Algeria::5,0;4,0;3,0;2,0;1,0
+Slovenia::5,0;4,0;3,0;2,0;1,0
+Germania::5,4;
+Australia::5,1;
+Serbia::5,0;4,0;3,0;2,0;1,0
+Ghana::5,3;
+Olanda::5,4;
+Danimarca::5,0;4,0;3,0;2,0;1,0
+Camerun::5,0;4,0;3,0;2,0;1,0
+Giappone::5,4;
+Italia::5,0;4,0;3,0;2,0;1,0
+Paraguay::5,4;
+Nuova Zelanda::5,0;4,0;3,0;2,0;1,0
+Slovacchia::5,4;
+Brasile::5,4;
+Corea del Nord::5,0;4,0;3,0;2,0;1,0
+Costa D'Avorio::5,0;4,0;3,0;2,0;1,0
+Portogallo::5,4;
+Spagna::5,4;
+Svizzera::5,0;4,0;3,0;2,0;1,0
+Honduras::5,0;4,0;3,0;2,0;1,0
+Cile::5,4;
+
