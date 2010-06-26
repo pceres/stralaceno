@@ -249,4 +249,5 @@ Consulta il tabellone di aiuto alla compilazione su Caposeleonline:http://www.ca
 [stili_riga]
 ;Checked$:: Gens Silarensis::background:#FFFFAA;
 #;Unchecked$:: Gens quasi Silarensis (Pi&ugrave; di 1 errore alla verifica di silaritudine)::background:#FFDDBB;
+;GensAmbrosiana$:: Gens Ambrosiana::background:#FFDDBB;
 .*:: Gens Mundi::
