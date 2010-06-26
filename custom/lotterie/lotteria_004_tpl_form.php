@@ -620,10 +620,11 @@ function check_input(f)
 		switch (auth_provenienza.toUpperCase(auth_provenienza))
 		{
 		case 'CAPOSELE':
-/*		case 'MATERDOMINI':
+		case 'CAPUT SYLARIS':
+		case 'MATERDOMINI':
 		case 'PORTELLA':
 		case 'BUONINVENTRE':
-		case 'PASANO':*/
+		case 'PASANO':
 			num_domande = <?php echo $num_domande; ?>; // numero di domande da porre
 			num_allowed_errors = <?php echo $num_allowed_errors; ?>; // numero di errori consentiti per superare comunque la verifica
 			len_risposta = 6;// numero di caratteri per ciascuna risposta (2 per la domanda, 2 per la risposta, 2 per esito)
