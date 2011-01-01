@@ -43,6 +43,34 @@ $lista_regola_campo = array($indice_nome);
 $lista_regola_valore = array($nome);
 $archivio_filtrato = filtra_archivio($archivio,$lista_regola_campo,$lista_regola_valore);
 
+// determina numero di partecipazioni regolari
+$num_regolari = 0; // inizializzo numero di arrivi regolari
+foreach ( $archivio_filtrato as $id => $record)
+{
+	$tempo = $record[$indice_tempo];
+	if ( ($tempo[strlen($tempo)-1] == "'") || ($tempo==='F.T.M.') )
+	{
+		$num_regolari++; // incremento numero di arrivi regolari
+	}
+}
+
+// regola per il titolo
+if ($num_regolari < 5)
+{
+	$titolo = '-';
+}
+elseif ($num_regolari < 10)
+{
+	$titolo = 'alfiere';
+}
+else
+{
+	$titolo = 'decano';
+}
+
+
+// echo "$num_regolari arrivi regolari --> $titolo<br>"; !!!
+
 $mask = array($indice_posiz,$indice_tempo,$indice_anno); # escludo ID e nome
 echo "<div align=\"center\">Prestazioni personali di <b>$nome</b></div>";
 show_table($archivio_filtrato,$mask,'tabella',3,12,1); # tabella in tre colonne, font 12, con note
@@ -89,7 +117,8 @@ echo "Ulteriori informazioni su <b>$nome</b>:<br><br>\n";
 echo "Id  : $atleta[$indice2_id] <br>\n";
 echo "Nome: $atleta[$indice2_nome] <br>\n";
 echo "Sesso: $atleta[$indice2_sesso] <br>\n";
-echo "Titolo: $atleta[$indice2_titolo] <br>\n";
+// echo "Titolo: $atleta[$indice2_titolo] <br>\n";
+echo "Titolo: $titolo <br>\n";
 echo "Data di nascita: $atleta[$indice2_data_nascita] <br>\n";
 
 if (!empty($link_geneal))
