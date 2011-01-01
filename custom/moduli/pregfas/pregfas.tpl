@@ -34,8 +34,10 @@
 
 <p align=center>
 <b>
-P.RE.G.FA.S. - Pubblico REgistro dei Grandi FAnfaroni della Stralaceno
+P.RE.G.FA.S. - Pubblico REgistro dei Grandi FAnfaroni della Stralaceno<br>
 </b>
+Avvertimento preliminare: i pi&ugrave; grandi fanfaroni di Caposele non si trovano nel presente registro
+
 
 
 <br>
