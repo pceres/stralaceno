@@ -1,0 +1,18 @@
+Autore::
+Titolo::XXI edizione
+--- Begin body ---
+<p><br>L'edizione 2009 della Stralaceno si &egrave svolta venerd&igrave; 28 agosto 2009. Giornata fresca e umida, con pioggia fino a 30 minuti prima dell'inizio della gara; 54 i partecipanti con 8 donne al via. 
+<p>
+Vince la gara Francesco Ceres di Gius., che impiega 20' 36'' per coprire il circuito. Seguono Gianfranco Di Vincenzo, secondo con 21' 00'' e Donato Ceres (fratello di Francesco) con 21' 10''. Annarita D'Elia segna il nuovo record femminile, con 27' 46''.
+<br>
+<br><a href="filtro4.php?anno=2009">L'ordine d'arrivo completo dell'edizione 2009 &egrave; consultabile qui</a>.<br>
+<br>
+L'album fotografico della manifestazione lo trovate <a href="album.php?anno=2009">qui</a>.
+<br><br>
+<i>&Egrave; disponibile il dvd della Stralaceno 2009. Per chiederne una copia rivolgersi a Nicola Ciccone (cell. 331-4336082  e-mail:  nciccone@hotmail.it).</i>
+<br>
+<p>&nbsp;
+<div align="center">
+<img id="Logo_Stralaceno_2009" src="%file_root%custom/album/2009/XXI_126.jpg" alt="" border="0" width="550">
+<br>
+--- End body ---

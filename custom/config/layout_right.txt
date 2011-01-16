@@ -74,12 +74,12 @@ classifica_partecipazioni::Classifica partecipazioni::tempi::::::
 #sondaggio::<b>Sondaggio StralacenoWeb 2006</b>::external_link::questions.php?id_questions=2::
 #sondaggio::Sondaggio StralacenoWeb 2006::external_link::statistiche.php?action=show&id_questions=2::
 #personaggi::I personaggi::modulo_custom::::
-pregfas::Registro Fanfaroni (Pregfas)::modulo_custom::::
+pregfas::Pubblico Registro Fanfaroni (Pregfas)::modulo_custom::::
 
 [Delimitazione_1]
 
 [Sezione utenti registrati]
-pregfas::Registro Fanfaroni (Pregfas)::modulo_custom::::
+#pregfas::Pubblico Registro Fanfaroni (Pregfas)::modulo_custom::::
 #classifica_sondaggio_StralacenoWeb_2006::<b>Classifica sondaggio Stralaceno 2006</b>::external_link::questions.php?action=results&id_questions=2&debug=full::
 
 [Delimitazione_2]

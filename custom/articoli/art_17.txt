@@ -8,10 +8,10 @@ Francesco Ceres di Gius., che ha preceduto Gerardo Martino, terzo con 21’26’’.<b
 Prima ragazza Annarita D’Elia con 31’46’’.<br>
 <br><a href="filtro4.php?anno=2008">L'ordine d'arrivo completo dell'edizione 2008 &egrave; consultabile qui</a>.<br>
 <br>
-L'album fotografico della manifestazione lo trovate <a href="album.php?anno=2008">qui</a>. <i>(Inserite altre 3 foto con commento il 9 ottobre 2008)</i><br>
+L'album fotografico della manifestazione lo trovate <a href="album.php?anno=2008">qui</a>.<br>
 <p>&nbsp;
 <div align="center">
-<img id="Stralaceno_2008" src="%file_root%custom/album/2008/S08_39.jpg" alt="Stralaceno 2008" border="0" width="440">
+<img id="Stralaceno_2008" src="%file_root%custom/album/2008/S08_2.jpg" alt="Stralaceno 2008" border="0" width="460">
 <br><br>
 </div>
 <br>

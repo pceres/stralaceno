@@ -1,0 +1,8 @@
+Autore::ARS
+Titolo::Proiezione tempo finale Stralaceno
+--- Begin body ---
+<p>&nbsp;
+<div align="center">
+<img id="Tabella" src="%file_root%custom/album/varie/Stra_Passaggi_km.jpg" alt="Proiezione Tempo" border="0" width="550">
+<br>
+--- End body ---

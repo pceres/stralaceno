@@ -128,8 +128,8 @@ Id;Collaboratore;Sesso;Incarico;Anno;Link;Nota
 1;Nicola D'Auria;M;Organizzatore;2009;-;-
 2;Alessandro Russomanno;M;Organizzatore;2009;-;-
 3;Donatello Cirillo;M;Organizzatore;2009;-;-
-36;Viscardi Paolo;M;Organizzatore;2009;-;-
-27;Nicola Cirillo;M;Direttore di gara;2009;;
+36;Paolo Viscardi;M;Organizzatore;2009;-;-
+27;Nicola Cirillo;M;Direttore di gara;2009;-;-
 4;Lello Viscardi;M;Cronometrista ufficiale;2009;-;-
 9;Alfonso Curcio;M;Cronometrista di riserva;2009;-;-
 28;Valentino Di Masi;M;Segretario di gara;2009;-;-
@@ -141,7 +141,26 @@ Id;Collaboratore;Sesso;Incarico;Anno;Link;Nota
 42;Gerardo Zarra;M;Fotografo;2009;-;-
 44;Elisa Malanga;F;Fotografo;2009;-;-
 45;Saverio Perna;M;Collaboratore;2009;-;-
-30;Fuschetto Salvatore;M;Collaboratore;2009;-;-
+30;Salvatore Fuschetto;M;Collaboratore;2009;-;-
 34;Carmela Malanga;F;Collaboratrice;2009;-;-
 47;Angelino Cetrulo;M;Collaboratore;2009;-;-
-
+1;Nicola D'Auria;M;Organizzatore;2010;-;-
+2;Alessandro Russomanno;M;Organizzatore;2010;-;-
+3;Donatello Cirillo;M;Organizzatore;2010;-;-
+36;Paolo Viscardi;M;Organizzatore;2010;-;-
+27;Nicola Cirillo;M;Direttore di gara;2010;-;-
+4;Lello Viscardi;M;Cronometrista ufficiale;2010;-;-
+9;Alfonso Curcio;M;Cronometrista di riserva;2010;-;-
+28;Valentino Di Masi;M;Segretario di gara;2010;-;-
+5;Gerardo Ceres;M;Conduttore della manifestazione;2010;-;-
+47;Gerardo Viscardi;M;Ispettore di gara;2010;-;-
+33;Massimo Cetrulo;M;Addetto alla logistica;2010;-;-
+31;Nicola Ciccone;M;Responsabile foto-video, Cameraman;2010;-;-
+39;Gerardo Donatiello;M;Cameraman;2010;-;-
+48;Paolo Palmieri;M;Fotografo;2010;-;-
+49;Gelsomina Monteverde;F;Collaboratrice;2010;-;-
+45;Saverio Perna;M;Collaboratore;2010;-;-
+50;Patrizia Di Masi;F;Collaboratrice;2010;-;-
+34;Carmela Malanga;F;Collaboratrice;2010;-;-
+51;Angela Fuschetto;F;Collaboratrice;2010;-;-
+44;Elisa Malanga;F;Collaboratrice;2010;-;-

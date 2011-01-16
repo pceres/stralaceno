@@ -70,7 +70,7 @@ _4A_0265.jpg::::Gelsomino Merola primo in 20' 11''
 _5A_0264.jpg::::Nicola D'Auria ottiene il personale con 22' 42''
 _6A_0263.jpg::::Lello Viscardi chiude in 29' 58''
 _7A_0262.jpg::::Angelo Ceres 25&deg; in 30' 51''
-_8A_0261.jpg::::Per Benedetto Montanari 28&deg; posto in 32' 35''
+_8A_0261.jpg::::Emulo di Dorando Pietri alle olimpiadi di Londra 1908, anche Benedetto Montanari sembra accasciarsi a pochi metri dal traguardo. Sorge allora spontanea una domanda: come mai nessuno dei giudici si fa avanti per sorreggerlo e incoraggiarlo? La prosaica risposta &egrave; in una specifica rubrica..."
 0272.jpg::::Il graditissimo ritorno di Michele Ceres
 0271.jpg::::Giuseppe Ceres conclude il percorso in 39' 47'' 
 0270.jpg::Relax finale::::Donato Ceres, Cesare Nisivoccia, Gerardo Notaro, Nicola D'Auria, Angelo Ceres, Paolo Viscardi  
@@ -134,6 +134,7 @@ stralaceno2004-4.JPG::Foto di gruppo per alcune corridrici::::Gelsomina Aiello, 
 lac9.jpg::::::Gianfranco Di Vincenzo
 lac8.jpg::::::Nicola Melillo
 stralaceno2004-3.JPG::Si intravede la linea di partenza (e di arrivo)::::Gerardo Notaro, Thomas Cibellis, Rocco Nesta
+Stra04.jpg::
 Laceno.jpg::La partenza della XVI edizione::::Pasquale Colatrella, Cibellis Thomas, Proietto Rocco, Donato Malanga, Gerardo Martino, Salvatore Malanga, Roberto Notaro, Angelino Cetrulo, Gelsomino Merola, Salvatore Colatrella, Pasquale Russomanno, Alfredo Grasso, Gianfranco Di Vincenzo, Gerardo Sozio, Paolo Viscardi, Salvatore Merola, Nicola D'Auria, Donato Ceres, Donato Merola, Rocco Grasso, Rocco Nesta 
 stralaceno2004-1.JPG::1 minuto dopo la partenza::::Luca Cibellis, Juli Pucillo, Donato Malanga, Gianfranco Rosania, Gelsomino Merola di Vito, Gerardo Notaro, Armando Grasso di Pasqu., Gianni Malanga 
 stralaceno2004-5.JPG::La gara si &egrave; da poco conclusa::::Paolo Viscardi, Gerardo Notaro, Gerado Sozio 
@@ -264,6 +265,10 @@ lac01.jpg::
 lac02.jpg::
 lac03.jpg::
 lac04.jpg::
+LacLago.jpg::
+LacLago2.jpg::
+Stra_Passaggi_km.jpg::
+
 
 [prova]
 
@@ -330,7 +335,7 @@ S08_14.jpg::::La scelta delle traiettorie personali ed il ritmo considerevole de
 S08_15.jpg::::La pi&ugrave; antica delle sfide…
 S08_17.jpg::::Il 1990 fu un anno importante per la stralaceno. Dopo 2 anni di interruzione venne infatti disputata la II edizione, si afferm&ograve; cos&igrave; l’idea che questa manifestazione poteva essere annualmente riproposta, essendo finalizzata a soddisfare bisogni non effimeri. E’ per questo che va salutato con particolare entusiasmo il ritorno di Antonio Viscido che mancava proprio dal 1990.
 S08_30.jpg::::Potenziatosi muscolarmente, Donato Malanga perde qualcosa in scioltezza e non riesce a migliorarsi. Non mancher&agrave; per&ograve; di superare un sorprendente Francesco Spatola, che qui ancora lo precede.
-S08_4.jpg::::Dopo l’assenza del 2007 (per infortunio), Gelsomino Merola si presenta in buona forma in questa XX edizione. E rimette il puntino sulla “i” di vittoria::Gelsomino Merola
+S08_4.jpg::::Dopo l’assenza del 2007 (per infortunio), Gelsomino Merola si presenta in buona forma in questa XX edizione. E rimette i puntini sulle “i” di vittoria::Gelsomino Merola
 S08_38.jpg::::Con questi 10 secondi di vantaggio Gerardo Martino mette al sicuro la sua medaglia di bronzo.
 S08_25.jpg::::Gerardo Martino scambia la macchina fotografica per una rivoltella. Forse questo sarebbe l’unico mezzo in grado di impedirgli di arrivare sempre tra i primi…
 S08_26.jpg::::Dopo una stagione altalenante, Paolo Viscardi ritrova se stesso e stampa un ottimo tempo con quinto posto. Forse sperava nel personale, ma la sua stagione deve essere valutata nel complesso pi&ugrave; che positivamente considerando anche il nuovo impegno di presidente degli Amatori R.S. 
@@ -344,8 +349,87 @@ S08_20.jpg::::Partecipa per la prima volta alla corsa una nota appassionata di r
 S08_21.jpg::::Un altro “ragazzo del ’90 “ al suo rientro. Tutto sommato si conferma ai suoi livelli.
 S08_22.jpg::::Se si somma il pettorale all’et&agrave;, nessuno ha un numero pi&ugrave; basso...
 S08_23.jpg::::Questa seconda partecipazione di Elvira Cibellis ha un valore tecnico molto pi&ugrave; importante rispetto al lieve peggioramento cronometrico.
-S08_27.jpg::::Un altro vincitore morale della XX edizione. La sua partecipazione zittisce quanti erano gi&agrave; pronti a cavalcare il solito becero luogo comune del napoletano inaffidabile e truffaldino.
+S08_27.jpg::::Un altro vincitore morale della XX edizione. La sua partecipazione zittisce quanti erano gi&agrave; pronti a cavalcare il solito becero luogo comune del napoletano inaffidabile e truffaldino. Ci spiace segnalare che in seguito a un’istruttoria resasi necessaria (attivata - a dire il vero - da una leale autodenuncia dello stesso Brasiello), si &egrave; dovuto rettificare la classifica finale della stralaceno 2008, sicch&egrave; questi da 64&deg; - FTM - (quale risultava al momento della stesura del commento soprastante) &egrave; stato riposizionato a 64&deg; - Squalificato -.
 ManStra08.jpg::::Manifesto 2008
 
 
+
+
+[2009]
+Logo_2009.jpg::::Logo fotografico Stralaceno 2009
+XXI_129.jpg::::L’impianto organizzativo della Stralaceno si &egrave; quest’anno dotato di una nuova figura: il direttore di gara. Questo ruolo &egrave; stato costruttivamente interpretato da Nicola Cirillo, che ha perfezionato alcuni delicati aspetti organizzativi e anche messo in evidenza alcuni punti di debolezza che dovranno essere superati progressivamente.
+XXI_123.jpg::::In prima linea quasi tutti Amatori R.S.
+XXI_124.jpg::::Pochi istanti prima di partire, un fastidioso imprevisto annunciato dal consueto conduttore della manifestazione, Gerardo Ceres. Si tratta dei soliti biasimevoli ritardatari che generano disagio a tutti.
+XXI_125.jpg::::Gianfranco Di Vincenzo, circondato da Amatori R.S., sta meditando un colpo a sorpresa.
+XXI_126.jpg::::E’ finito il tempo delle parole… 
+XXI_127.jpg::::Appena partita la corsa, c’&egrave; gi&agrave; chi arranca. Per chi proprio non vuole partecipare in prima persona, ma vuole godersi la gara, suggeriamo di fare come questo giovane ciclista. Un modo bello e rispettoso per seguire i fatti da vicino.
+XXI_1.jpg::::Al primo chilometro un brillantissimo Gianfranco Di Vincenzo sorprende i favoriti della vigilia. La tattica non pu&ograve; considerarsi sbagliata, dato che rester&agrave; fino alla fine in lizza per la vittoria e conseguir&agrave; infine un prestigioso primato personale (21’ netti).
+XXI_3.jpg::::Nelle fasi iniziali, aitanti esordienti attempati danno battaglia senza timore reverenziale.
+XXI_6.jpg::::A guidare il gruppo non &egrave; una podista dell’est naturalizzata, ma una nostra verace concittadina, Annarita D’Elia, che in questa gara ha stabilito il nuovo record femminile della corsa (27’ 42’’), dando un importante contributo alla credibilit&agrave; dello sport femminile caposelese (che ne ha tanto bisogno…).
+XXI_12.jpg::::La partenza imprudente di questo esordiente &egrave; la causa – forse - del suo FTM. C’&egrave; tempo per rifarsi nei prossimi anni…
+XXI_14.jpg::::Agli esordienti e ai non allenati (in particolare, ma non solo) consigliamo di attenersi scrupolosamente ai passaggi intermedi che ognuno dovrebbe realisticamente prefissare (consultare la tabella che da quest’anno &egrave; disponibile sul sito). E’ facile incappare in una partenza troppo veloce. Solo uno dei presenti in questa immagine riuscir&agrave; a precedere chi sta controllando il parziale dei primi 250 metri di gara.
+XXI_19.jpg::::Francesco Ceres ha messo la freccia! La sua muscolarit&agrave; sta avendo la meglio sulla leggerezza di corsa di Gianfranco, che accusa una piccola flessione.
+XXI_21.jpg::::Dopo un anno di assenza, Luca Cibellis ritorna a dare il suo prezioso contributo di entusiasmo e combattivit&agrave;. Riflessivo, come si conviene ad un presidente, lo segue Paolo Viscardi che amministra saggiamente una corsa della quale conosce oramai tutti i risvolti tecnici.
+XXI_23.jpg::::Una tradizionale sfida che si rinnova. Anche quest’anno la spunter&agrave; Angelo Ceres ad un solo secondo dal suo primato personale.
+XXI_24.jpg::::Finalmente un antico cognome di Caposele, Caprio, entra negli elenchi della Stralaceno. E’ per merito di Daniele (lettera F), che, prima di piazzare uno spunto secco al 4&deg; chilometro per un ottimo 11&deg; posto, percorre con prudenza il tratto iniziale insieme ad Alessio Zarra, limitatosi quest’anno ad una partecipazione di routine.
+XXI_25.jpg::::In questa foto c’&egrave; di tutto: decani, quasi decani, esordienti giovani e maturi, partecipanti fuori gara, promesse mancate, amministratori e future primatiste. 
+XXI_128.jpg::::Sono le 18,41 (8 minuti dopo la partenza), Luca Russomanno ha ottenuto il consenso del direttore per rincorrere il gruppo senza numero di gara. Aveva preso un impegno di partecipare e l’ha mantenuto. Inizia quindi la sua coraggiosa impresa che gli consentir&agrave; di rimontare e rientrare nel tempo massimo. Un esempio per i tanti animi fragili dei nostri giorni.
+XXI_28.jpg::::Per chi &egrave; figlio e omonimo di vincitori della Stralaceno, un destino fulgido sembra predestinato. Il quadricipite femorale del calciatore per&ograve; non giova allo scopo.
+XXI_30.jpg::::Nicola Melillo chiude un’altra ottima stagione con il suo secondo miglior tempo a Laceno, che va a sommarsi al record personale a Nusco. Forse la partenza veloce gli ha compromesso l’esito di alcuni confronti diretti, ma la grinta, il coraggio e la sua capacit&agrave; di esporsi restano ammirevoli.
+XXI_33.jpg::::Salvatore Merola finalmente migliora ufficialmente il suo personale gi&agrave; varie volte ritoccato negli allenamenti. Qui deve fronteggiare l’inatteso exploit di Alfonso Rosania, ottimo settimo con un tempo che lo colloca tra nomi prestigiosi del running caposelese.
+XXI_39.jpg::::Dopo alcune giornate torride, un provvidenziale acquazzone ha rinfrescato il verdeggiante altopiano di Laceno. Non mancheranno i record personali (6 tra i primi 10 arrivati e 10 tra i primi 15). Anche i 4 nella foto vivranno questa gratificante esperienza. Una menzione speciale va a chi, mimetizzato tra la vegetazione, guida il quartetto. Si tratta di Donato Ceres che quest’anno ha trovato nuove motivazioni ed eccellenti risultati. Un bronzo che vale l’oro del ’99.
+XXI_40.jpg::::Al momento di scollinare, due bianche maglie degli Amatori R.S. incominciano a farsi valere.
+XXI_45.jpg::::Girarsi indietro &egrave; sempre sbagliato! L’inesperienza non impedir&agrave; per&ograve; a questo esordiente di piazzarsi inopinatamente tra i primi 5.
+XXI_49.jpg::::Aver realizzato il suo quinto personale consecutivo &egrave;, per Donatello, solo l’ultima delle tante soddisfazioni che si sta togliendo grazie ad una moderata, ma costante ed intelligente applicazione nel podismo. Ovviamente per far questo si richiede qualche rivolo di sudore…
+XXI_50.jpg::::Non &egrave; un tris, ma un poker. Sullo sfondo si profila la sagoma rapace della lettera F che sta per uccellarli tutti e 4. Neanche il n.102 riuscir&agrave; ad opporsi (forse oramai troppo abituato a liberare sparvieri…).
+XXI_51.jpg::::Gelsomino Merola ’89 va ad urtare contro uno schermo invisibile, ma il record personale non gli scapper&agrave;!
+XXI_54.jpg::::Come aveva onestamente preannunciato, Claudio Donatiello quest’anno non era nella sua forma migliore e subisce l’onta della sconfitta in famiglia. Intelligentemente non si &egrave; astenuto dal partecipare: &egrave; tutta benzina per le prossime edizioni…
+XXI_57.jpg::::Per il maratoneta Gianni Sozio una partecipazione interlocutoria. Presto dovr&agrave; lasciare il passo ad Armando Grasso.
+XXI_60.jpg::::Dovr&agrave; stabilire il suo record personale, Gaetano D’Elia, per tenere a bada il solito impeccabile Gino Amendola, anch’egli a pochi secondi dal suo primato.
+XXI_62.jpg::::Un meritato primo piano per la nuova record-woman.
+XXI_64.jpg::::Antonio D’Elia replica il tempo del 2004, ma si far&agrave; sorprendere da questo esordiente (J).
+XXI_67.jpg::::Sandro Russomanno entra tra i decani. Attendiamo tuttavia che in una delle prossime edizioni possa presentarsi con quel pizzico di preparazione in pi&ugrave; che gli garantisca riscontri cronometrici pi&ugrave; consoni alla sua storia sportiva personale.
+XXI_68.jpg::::Un gradito ritorno. Gianni Cetrulo sa che pu&ograve; ancora dire la sua e infatti si migliora rispetto all’ultima partecipazione.
+XXI_69.jpg::::Il numero 1 attraversa una fase di appannamento. Poi prontamente superata.
+XXI_70.jpg::::Partecipazione onorevole per Gaetano Rosania, dopo un’estate in cui ha dovuto sospendere ogni attivit&agrave; sportiva per motivi di lavoro.
+XXI_72.jpg::::Mariangela Sturchio (la pi&ugrave; credibile podista della sua famiglia), si aggiudica l’argento femminile.
+XXI_74.jpg::::Per contrastare l’accusa di essersi fatto troppo calabrese, Angelo Viscardi ha scelto la Stralaceno per ribadire la sua cittadinanza sportiva caposelese. Si migliora notevolmente rispetto alla sua ultima partecipazione. 
+XXI_75.jpg::::Antonio Ceres centellina le energie e cos&igrave; facendo riuscir&agrave; a precederne 13.
+XXI_77.jpg::::Donato Malanga ha ben compreso che uno sportivo completo non pu&ograve; lasciarsi scappare l’occasione della Stralaceno per temprare il fisico.
+XXI_130.jpg::::E’ da cinque anni che questo simpatico binomio vivacizza la corsa. Quando una delle due non &egrave; pi&ugrave; in forma dell’altra, corrono insieme sostenendosi moralmente. Un modo intelligente per far fronte al peso psicologico della gara che – riteniamo – atterrisce ingiustificatamente  molte altre partecipanti potenziali.
+Manifesto_Stra_09.jpg::::Manifesto Stralaceno 2009.
+
+[2010]
+StraXXII.jpg::::
+ST10_7.jpg::::Una piccola sbavatura dell’apparato logistico: lo striscione dell’arrivo &egrave; basso e un autobus ci si impiglia.
+ST10_1.jpg::::La presenza imprevista di Gelsomino Merola ha forse innervosito Gianfranco Di Vincenzo, il favorito in base ai tempi e ai partecipanti preannunciati, inducendolo a una partenza troppo veloce.
+ST10_10.jpg::::Sullo scatto di Gianfranco si proiettano immediatamente le ombre minacciose dei due inseguitori che lo precederanno.::Gianfranco Di Vincenzo
+ST10_17.jpg::::I soliti sorrisini dei primi metri: provate a confrontare le stesse facce all’arrivo.
+ST10_4.jpg::::I veri protagonisti della manifestazione: esordienti ansiosi di “saggiare” la corsa, ragazze alla ricerca di una dimensione decorosa dello sport femminile, alfieri al “tagliando” annuale o triennale. Insegue il gruppetto un decano che, serafico, quasi mani in tasca, ripassa arpeggi e intavolature in attesa di ritrovare una verve agonistica.
+ST10_20.jpg::::Abbassano lo sguardo al sole che li trafigge dal bivio di Bagnoli, ma non alle difficolt&agrave; che li attendono. Arriveranno tutti a testa alta. In particolare il 220, con un personale pi&ugrave; aderente alla sua carriera sportiva; e l’esordiente,  che zittisce chi lo pronosticava FTM, rientrando invece perfettamente tra i parametri minimi.
+ST10_27.jpg::::Conscio del suo stato di forma, sorride al fotografo il neo-alfiere Gaetano D’Elia (200). Abbatte  il suo primato personale di quasi 3 minuti, conseguendo un tempo che esprime  il possesso di buone qualit&agrave; di base.::Gaetano D'Elia
+ST10_23.jpg::::Come il  gregge sullo sfondo,  anche l’alfiere e il decano ritratti, sono rientrati nell’”ovile “ dei veri sportivi di Caposele,  dopo diversi anni di assenza. I due si sono comunque battuti come leoni. Ma in questi casi, se non ci si allena un minimo,  si perde inevitabilmente  un po’ di smalto.::da Sx: Alfredo Grasso e Luciano Rosania 
+ST10_9.jpg::::Per tenere lontana la 214 e non rischiare un disonorevole sorpasso, Cesarino prova ad improvvisare uno spogliarello. Per fortuna poi ci ripensa in tempo.::da Sx: Mariangela Sturchio e Cesare Nisivoccia
+ST10_13.jpg::::Preciso nei passaggi intermedi, Donato inizia a tessere le trame per stabilire il suo primato personale. Ora &egrave; il secondo di sempre - avendo spodestato proprio suo fratello Francesco - a 1’ e 46’’ dal record assoluto. E cio&egrave; circa 480 metri. Questo per dare un’idea, ai tanti improvvisati commentatori sportivi nostri concittadini, dell’entit&agrave; delle imprese di Gelsomino Merola negli anni ’90 e rendergli un doveroso omaggio nel giorno della sua prima (e unica) sconfitta a Laceno. Tra i due il ben ritrovato Giuseppe Cetrulo che coglie un inopinato personale a distanza di ben 9 anni. Dopo una partenza veloce eccolo al 1&deg; KM battersi con i primi. Metter&agrave;  poi  al sicuro il 4&deg; posto eguagliando il suo miglior piazzamento e conseguendo il  record personale. Sullo sfondo un velleitario esordiente che comunque riuscir&agrave; a piazzarsi nei primi venti.::da Dx: Donato Ceres, Giuseppe Cetrulo, Gelsomino Merola
+ST10_12.jpg::::Il momento clou: Gelsomino sta per cedere. Poteva ritirarsi e rimanere imbattuto, ma ha voluto rischiare e provare ancora a vincere anche se da anni non si allena. Una scelta che gli fa onore, con un secondo posto e un tempo assolutamente eccellenti, date le sue condizioni.::Gelsomino Merola, Donato Ceres
+ST10_2.jpg::::Ancora un podio per Gianfranco Di Vincenzo. Uno sportivo che eccelle grazie alle sue doti naturali e senza avvalersi di alcun supporto tecnico. Incredibile il suo  vantaggio al Km 2 su chi, ancorato a una tabella, attende sagacemente gli sviluppi della gara per poi sopravanzarlo.::Gianfranco Di Vincenzo
+ST10_14.jpg::::L’alfiere Gerardo Martino indossa ancora la vecchia maglietta del suo primato personale (la sua taglia non era disponibile, il che spiega anche il lieve peggioramento rispetto al suo standard…). Sulla scia, caparbio, Francesco Spatola, che ancora non demorde.::da Sx: Gerardo Martino, Francesco Spatola
+ST10_3.jpg::::La triade dei decani “cartolari”. Hanno indossato con eleganza - ma soprattutto con onore- la casacca prevista. Ora sono gi&agrave; decani “in pectore “ in vista della Stralaceno 2011. Quindi entreranno a far parte del Consiglio dei Decani.::Luca Cibellis, Gelsomino Merola, Donatello Cirillo
+ST10_24.jpg::::E’ giusto anche concedere agli alfieri qualche partecipazione “rilassata”. In particolare all’eclettico Donato Malanga, reduce dai fasti romani del suo primo anno di studi universitari.::Donato Malanga, Antonio D'Elia
+ST10_22.jpg::::E’ sempre lui il pi&ugrave; forte dei Notaro! Generoso, ma avveduto nella condotta di gara, rifila 31 secondi al fratello nella avvincente sfida in famiglia che ha caratterizzato questa edizione della Stralaceno, conseguendo per la sesta volta consecutiva il suo record personale.::Gerardo Notaro
+ST10_5.jpg::::Con questo passo aereo (per non lasciar orme a beneficio di eventuali lupi…) Angelo Ceres contiene gli effetti negativi di una preparazione approssimativa.::Angelo Ceres
+ST10_19.jpg::::La lettera F &egrave; un esordiente per modo di dire. Memorabili rimarranno le sue ostinate partecipazioni fuori gara come under 15. Ora &egrave; venuto il tempo di confermate le ottime attitudini manifestate precocemente. Il risultato finale sar&agrave; buono, ma perde lo sprint con l’altro esordiente nella foto.::Antonio Nesta, Giovanni Aiello
+ST10_25.jpg::::Alfonso Rosania conferma il settimo posto, anche se con un tempo pi&ugrave; alto.::Alfonso Rosania
+ST10_26.jpg::::L’ultima della famiglia che mancava all’appello. Lanciata dal pap&agrave;-decano, non si limita a una presenza protocollare, ma stampa una prestazione che la colloca al 3&deg; posto assoluto tra le sportive di Caposele.::Simona Ceres, Antonio Ceres
+ST10_8.jpg::::Nelle penombre dell’orario d’arrivo, rifulge sul loro petto la stella di due decani. Irriverente Mario Cibellis li attacca e li supera all’ultimo chilometro.::da Sx: Mario Cibellis, Gino Amendola, Donato Merola
+ST10_16.jpg::::Patto di non belligeranza nei 500 metri finali tra Gianni e Armando.  Sullo sfondo un decano e un esordiente;  non riusciranno per&ograve; ad approfittarne.::Gianni Sozio, Armando Grasso
+ST10_6.jpg::::Donato Ceres entra nella storia : rivince la Stralaceno a distanza di 11 anni ed &egrave; il primo a battere Gelsomino Merola a Laceno.::Donato Ceres 
+#ST10_11.jpg::::Applausi sentiti e meritati per Francesco, la sorpresa della Stralaceno 2010
+ST10_15.jpg::::Il decano Nicola D'Auria non riesce ad onorare al meglio la nuova prestigiosa casacca, realizzando per la prima volta un tempo superiore ai 25 minuti.::Nicola D'Auria
+ST10_29.jpg::::La galanteria non &egrave; tra i valori propri della Stralaceno. A ribadirlo &egrave; proprio il n.1. Ma anche se perde lo sprint Annarita pu&ograve; consolarsi con il primato personale, nuovo assoluto femminile. Intorno a lei e ai suoi livelli, nel panorama caposelese, per ora ancora nessuna.::Donato Merola, Annarita D'Elia
+ST10_21.jpg::::Ancora un buon tempo per il decano Gino Amendola , di cui ignoriamo i segreti per un rendimento cos&igrave; costante e apprezzabile nella sua dimensione. E’ un grande protagonista della manifestazione, terzo assoluto nella classifica delle partecipazioni.::Gino Amendola
+ST10_40.jpg::::Per la seconda volta consecutiva Carmine Feniello non riesce a terminare entro i 40 minuti. Comunque fa bene a sorridere dato che ha onorevolmente concluso la corsa: i veri sconfitti sono quelli che hanno avuto paura di partecipare. Chi ha bisogno di qualche consiglio e/o solo di qualche stimolo, non esiti a contattare gli Amatori.R.S.
+ST10_28.jpg::::E’ fortunato questo bambino ad avere una mamma sportiva! Avr&agrave; maggiori opportunit&agrave; di acquisire i concetti di competizione leale e spirito di sacrificio. Che di certo non mancano in chi riesce con successo a rientrare entro il tempo massimo dopo lo stress psico-fisico di pi&ugrave; gravidanze.::Mimma Feniello 
+ST10_18.jpg::::Il conduttore della manifestazione ha capeggiato il gruppo degli insoddisfatti della data domenicale, che avrebbe precluso la fruizione televisiva di un importante – a loro dire – avvenimento sportivo. A tal proposito gli organizzatori, gi&agrave; condizionati da molte e complesse problematiche, ritenendo plausibile anteporre lo sport da guardare allo sport da praticare, solo e eccezionalmente in caso di eventi di assoluto livello e regolarit&agrave; certificata (caratteristiche non riconducibili al campionato di calcio), ringraziano tutti  i partecipanti alla manifestazione e porgono sentite scuse ai tifosi del Bari.::Gerardo Ceres
+Man_Stra_10.jpg::
 

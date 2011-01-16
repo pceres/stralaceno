@@ -1,0 +1,45 @@
+Autore::
+Titolo::XXII edizione
+--- Begin body ---
+<br>
+La Stralaceno 2010 ha visto il ritorno alla vittoria dopo 11 anni di Donato Ceres con il tempo di 20’33’’, che lo pone al secondo posto nella classifica generale delle migliori prestazioni personali.
+<br>
+Piazza d’onore per il plurivincitore e detentore del record della manifestazione Gelsomino Merola, che ha chiuso in 21’11’’. Terzo posto per Gianfranco Di Vincenzo in 21’40’’.<br>
+Vittoria con record cronometrico femminile per Annarita D’Elia con 27’31’’.<br><br>
+Nonostante l’insolita scelta della domenica quale giorno di disputa della gara, la manifestazione ha registrato la partecipazione di 51 atleti,  accompagnati da una temperatura gradevole con vento debole.<br>
+<br><a href="filtro4.php?anno=2010">L'ordine d'arrivo completo dell'edizione 2010 &egrave; consultabile qui</a>.<br><br>
+L'album della gara lo trovate <a href="album.php?anno=2010">qui</a>.
+<br>
+<p>&nbsp;
+<div align="center">
+<img id="Stralaceno_2010" src="%file_root%custom/album/2010/ST10_6.jpg" alt="Donato Ceres, vincitore della XXII edizione della Stralaceno" border="0" width="550">
+<br>
+<div align="left">
+<br><b>Innovazioni 2010</b><br>
+<br>
+Si istituiscono ufficialmente le qualifiche di Decano e di Alfiere (rispettivamente 10 e 5 partecipazioni regolarmente portate a termine).
+<br>
+Verranno consegnate le corrispondenti magliette contraddistintive. <br>Poiché difficilmente sar&agrave; possibile procedere ogni anno alla produzione delle suddette magliette, e dato che con questa innovazione si vorrebbe anche snellire la fase di iscrizione alla corsa, le regole di attribuzione <u>non seguiranno rigorosamente</u> il diritto di appartenenza alle due categorie istituite.
+<br><br>
+In particolare saranno consegnate magliette a:
+<br><br>
+Decani effettivi <i>(10 partecipazioni gi&agrave; maturate al 28 agosto 2009)</i>; la maglia sar&agrave; loro consegnata appena disponibile, previa dichiarazione verbale di partecipazione alla stralaceno 2010.
+<br><br>
+Decani “in pectore” <i>(9 partecipazioni)</i>; la maglia sar&agrave; loro consegnata dal direttore di gara all’atto dell’iscrizione, nell’auspicio di conclusione regolare della gara, nel qual caso potr&agrave; essere da essi trattenuta.Viceversa dovr&agrave; essere riconsegnata al direttore di gara.
+<br><br>
+Decani “cartolari”<i>(8 partecipazioni gi&agrave; maturate)</i>; dopo aver sottoscritto l’impegno alla partecipazione della stralaceno 2011, dal direttore di gara all’atto dell’iscrizione e da questi ritirata al termine della gara, dal momento che &egrave; fatto divieto ai decani non effettivi di indossare la maglietta fuori dalla manifestazione.
+<br><br>
+Alfieri <i> (5 partecipazioni effettive gi&agrave; maturate al 28 agosto 2009)</i>; appena le magliette saranno disponibili, dopo aver sottoscritto l’impegno alla partecipazione della stralaceno 2010, fino ad esaurimento della scorta (limitata).
+<br> <br>
+							Il Consiglio dei Decani
+<br><br>
+<!--
+<br>
+<div align="center"><FONT SIZE="4">L'edizione 2010 della Stralaceno si terr&agrave; DOMENICA 29 AGOSTO</FONT></centre>
+<p>&nbsp;
+<div align="center">
+<img id="Logo_Stralaceno_2010" src="%file_root%custom/album/2010/StraXXII.jpg" alt="" border="0" width="550">
+<br>
+<br>
+-->
+--- End body ---
