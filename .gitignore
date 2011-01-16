@@ -1,0 +1,7 @@
+*~
+something_changed.txt
+custom/config/challenge.php
+custom/contatori/backupfile*.txt
+custom/contatori/logfile.txt
+custom/contatori/lasthitfile.txt
+custom/contatori/temp/*
