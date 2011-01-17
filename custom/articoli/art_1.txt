@@ -1,6 +1,8 @@
 Autore::Ars
 Titolo::Consiglio Direttivo e Responsabili di Settore ARS
 --- Begin body ---
+<br><br>
+CONSIGLIO DIRETTIVO (durata 3 anni, scadenza mandato aprile 2011)<br>
 <br>
 Presidente: PAOLO VISCARDI
 <br>
@@ -12,7 +14,7 @@ Segretario Amministrativo: ALESSANDRO RUSSOMANNO
 <br>
 <br>
 Consigliere: NICOLA D'AURIA
-<br><br><br><br>
+<br><br><br>
 RESPONSABILI DI SETTORE, nominati il 10.04.2010 (durata 1 anno):
 <br><br>
 Responsabile ARS Calabritto: SAVERIO PERNA

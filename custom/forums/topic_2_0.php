@@ -89,6 +89,18 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 75::Irpinianews.it::27/02/2010 14.25.57::visible
 76::Irpiniannews.it::20/03/2010 12.33.58::visible
 77::Il Mattino::12/04/2010 09.03.01::visible
+78::Irpinianews.it::19/05/2010 14.33.47::visible
+79::Irpinianews.it::31/05/2010 14.01.31::visible
+80::Irpinianews.it::05/06/2010 10.56.58::visible
+81::Irpinianews.it::08/06/2010 16.57.10::visible
+82::Irpinianews.it::03/07/2010 12.04.08::visible
+83::Irpinianews.it::29/07/2010 13.42.02::visible
+84::Corriere dell'Irpinia::08/09/2010 15.02.05::visible
+85::Irpinianews.it::13/09/2010 13.49.54::visible
+86::Irpinianews.it::17/09/2010 12.54.41::visible
+87::Irpinianews.it::27/09/2010 13.34.48::visible
+88::Irpinianews.it::01/10/2010 14.50.05::visible
+89::Irpinianews.it::13/10/2010 16.52.56::visible
 
 [post_text_0]
 In questo spazio saranno inseriti articoli apparsi sul web relativi ad eventi, persone, fatti avvenuti a Caposele.
@@ -1007,4 +1019,194 @@ Non tutta l’acqua del Sele viene però captata per l’acquedotto.
 Alcune sorgenti secondarie sono lasciate confluire nell’alveo naturale del fiume allo scopo di garantirne il ciclo biologico naturale. Si tratta di quantità minime, irrisorie, già oggetto di discussione di quell’accordo di Programma tra Puglia e Campania che ancora non è stato portato a termine. Da domani sera quelle acque subiranno un’impennata della portata tanto eclatante quanto spettacolare. Sarà un capitolo suggestivo, unico, di una vicenda che ha conosciuto momenti polemici. Bentornato Sele.
 &nbsp;
 11.04.2010  - Gelsomino Del Guercio
+&nbsp;
+
+[post_text_78]
+Caposele - Furto di legname: in arresto boscaiolo pregiudicato
+&nbsp;
+Caposele – Mesi fa B. V., boscaiolo di Caposele e pregiudicato, era stato sorpreso dai carabinieri mentre era intento a tagliare alberi di alto fusto in alta montagna, in area demaniale nella zona al confine tra i comuni di Senerchia e Caposele, accumulando quintali di legna che stava per asportare e commercializzare.
+L’episodio ha indotto i carabinieri ad approfondire gli accertamenti al fine di evitare altri scempi per il patrimonio boschivo dell’Alta Irpinia.
+Così la Procura della Repubblica di Sant’Angelo dei Lombardi ha emesso un’ordinanza di carcerazione nei confronti del boscaiolo pregiudicato, che nella serata di ieri è stato intercettato ed arrestato grazie a dei servizi congiunti tra le Stazioni di Calabritto e Senerchia.
+Le attività di indagine sono state condotte in collaborazione con i Magistrati della Procura di Sant’Angelo dei Lombardi, coordinati dal Procuratore Capo, Dott. Antonio Guerriero.
+&nbsp;
+
+[post_text_79]
+Caposele - Piazza viva: inaugurazione il 2 giugno
+&nbsp;
+Ridare una nuova anima alla piazza, ridare vita al cuore del paese, dare nuovi servizi ai cittadini: questo è ciò che l’Amministrazione Comunale aveva programmato ed ha realizzato in Piazza XXIII novembre.
+&nbsp;
+ Il luogo che raccoglie i giovani del paese, il luogo delle passeggiate dei cittadini, il punto di incontro per tante persone, deve essere accogliente, deve essere funzionale alle esigenze dei cittadini, deve essere utile a chi ha bisogno di informazioni turistiche. L’Amministrazione ha trovato il modo di dare una risposta a tutte queste esigenze, dando una nuova vita alla piazza e per questo…Piazza Viva!
+&nbsp;
+ Il 2 giugno l’Amministrazione presenterà alla cittadinanza la Piazza Viva, con un incontro pubblico, alle 19.00, presso la Sala Polifunzionale che è ubicata, appunto, in piazza. Nell’incontro pubblico sarà evidenziato ai cittadini l’operato di due anni di amministrazione e la programmazione per i prossimi, densi di progettazioni e realizzazioni che si stanno già per concretizzare. L’incontro pubblico sarà seguito da una serata per vivere insieme la nuova piazza, non in maniera sfarzosa o rumorosa, ma in armonia, per consentire a tutti di apprezzare il nuovo volto di questo spazio centrale di Caposele.
+&nbsp;
+  Il progetto - Il progetto Piazza Viva parte dalla semipedonalizzazione dell’area. Il problema dei parcheggi a Caposele è certamente rilevante: l’Amministrazione ha individuato una prima soluzione con l’apertura del parcheggio in località Lavanghe (circa 30 posti auto). Parallelamente, la piazza verrà resa più fruibile a tutti, liberando la parte interna della stessa dalle auto in sosta, abbellendola con delle aiuole che avranno la funzione di rendere la piazza più accogliente.  Infine, la piazza è stata arricchita con un ulteriore sistema di illuminazione che darà una luce più accogliente e confortevole allo spazio vivo e dinamico che si intende creare.
+&nbsp;
+  Altro elemento  del progetto Piazza Viva è la realizzazione di un luogo pubblico informativo. La piazza ospita una struttura, adiacente la Sala Polifunzionale, in passato adibita a Biblioteca Comunale (oggi trasferita al CEAGG) che oggi, con questo progetto, è stata trasformata in punto informativo multifunzionale. Questo luogo ospiterà, sulla parete esterna, un monitor gigante  sul quale passeranno informazioni utili ai cittadini ed ai turisti relative all’Amministrazione e al territorio di Caposele, mentre, all’interno, sarà allestito come punto informativo turistico, con materiale promozionale, brochure, depliant. Inoltre, in questa struttura verranno fornite le informazioni utili ai cittadini riguardanti svariati servizi del Comune, verranno messi a disposizione moduli di richiesta relativi a tali sevizi con le istruzioni per la compilazione, verranno esposte informazioni ed avvisi relativi in bacheca. L’idea che fortemente è stata voluta dall’Amministrazione comunale per incentivare i punti di aggregazione sociale, andrà presto nella direzione di una istituzione dello “Sportello del Cittadino” che sarà il giusto coronamento al servizio di trasparenza e di avvicinamento dei cittadini alle istituzioni.
+&nbsp;
+  Infine, il progetto Piazza Viva ha previsto la rete wireless su tutta la piazza. Già al CEAGG è possibile usufruire di internet comodamente, ma con Piazza Viva, sarà possibile navigare in rete stando in piazza con gli amici. Uno spazio aperto dotato di rete wireless è quello che oggi comunemente è a disposizione in grandi città, ma l’esigenza, sempre più incalzante, di poter usufruire liberamente della rete, ha portato l’Amministrazione Comunale a dotare anche Caposele di questo servizio, in un luogo centrale del paese.
+&nbsp;
+ In sintesi, il progetto “Piazza Viva” è un restyling estetico e funzionale della piazza per dare una luce nuova a questo spazio, per renderla più vivibile da tutti ed, insieme, per fornire ulteriori servizi ai cittadini ed ai turisti che, arrivando a Caposele, avranno un luogo dove poter acquisire informazioni sulle bellezze del territorio.
+ Ancora una volta, l’Amministrazione, con impegno e dedizione, mette in essere azioni concrete mirate al conseguimento di obiettivi funzionali al benessere della comunità.
+&nbsp;
+venerdì 28 maggio 2010 alle 16.19
+&nbsp;
+
+[post_text_80]
+Caposele - Verso le acque del Sele: ultima tappa di In loco
+&nbsp;
+Domenica 6 giugno si conclude il primo ciclo delle escursioni sul treno irpino del paesaggio: tappa Caposele. “Chiudiamo nel paese che ospita il più grande bacino acquifero del Meridione, da qui parte l’acqua per gran parte del Sud Italia, in quelle terre che altrimenti sarebbero deserto.
+&nbsp;
+Nell’ottica della promozione, ma più della valorizzazione e difesa del nostro territorio vogliamo legare il momento goliardico del viaggio in treno, così come è sempre stato durante quest’anno, ad una riflessione più profonda e seria che vede coinvolti tutti in prima persona: la difesa dei diritti. Difesa che si espleta nel rispetto del nostro territorio e poi nella valorizzazione dello stesso.
+&nbsp;
+La centralità del problema della gestione dell’acqua – spiega Pietro Mitrione - è di fondamentale importanza per l’umanità di conseguenza ogni forma di privatizzazione va contrastata. Per questo motivo vi aspettiamo numerosi domenica 6 giugno sul treno che ci porterà a visitare le sorgenti del Sele, in una giornata di riflessione ma anche di relax e godimento delle bellezze della terra d’Irpinia. Una giornata conviviale e di impegno civile”.
+&nbsp;
+(venerdì 4 giugno 2010 alle 10.38)
+&nbsp;
+
+[post_text_81]
+La mamma del neonato rapito: "La perdono. Ora andrò a San Gerardo"
+&nbsp;
+Nocera Inferiore – “Mi spiace molto per questa persona, perchè molto probabilmente non sta bene. Non la odio, non provo niente. Anzi, sì, la perdono”. Sono le prime parole di Annalisa Fortunato, la mamma del piccoloLuca Ciuffi rapito ieri dal nido dell'ospedale Umberto I di Nocera Inferiore. Ancora sofferente dopo il parto cesareo, la neomamma ha potuto riabbracciare il suo bambino già stanotte.   Racconta i momenti del sequestro spiegando che Annarita Buonocore, l’infermiera protagonista del rapimento, “… è entrata, era molto tranquilla. Non tremava. Era un’infermiera, aveva il camice”.
+&nbsp;
+La rapitrice era riconoscibile, perchè ha agito a viso scoperto: “Aveva gli occhiali e uno spillone nei capelli - ha raccontato mamma Annalisa – Aveva un comportamento normale. Ha parlato normalmente. Era un’infermiera dolcissima”.
+&nbsp;
+Quella donna, che Annalisa ha dichiarato di non conoscere, si è presa cura di lei: “Mi ha aggiustato il catetere, mi ha aggiustato la flebo. Mi ha detto anche che è un peccato che certe donne abbandonino i bambini”.
+&nbsp;
+IL PERDONO – La mamma del piccolo Luca è disposta a perdonare chi le ha portato via suo figlio: “Non gli ha fatto del male - ha continuato - l’ha fatto pure mangiare. Ieri quando è arrivato qui Luca dormiva. Ho pregato, pregato. Finalmente è finita - ha concluso - è andato tutto bene. Grazie a tutti”.
+ Che farà per prima cosa Annalisa, quando uscirà dall’ospedale? “Andrò al santuario di San Gerardo a Caposele”, risponde piangendo.
+&nbsp;
+(martedì 8 giugno 2010 alle 12.31)
+&nbsp;
+
+[post_text_82]
+Caposele - Truffe on line: denunciato pregiudicato del posto
+&nbsp;
+Un pregiudicato di Caposele è stato denunciato in stato di libertà per furto e frode informatica ai danni di un giovane studente, anch’egli di Caposele.
+&nbsp;
+  Le indagini sviluppate dai Carabinieri della Stazione di Caposele hanno permesso di scoprire e smascherare l’articolato meccanismo di truffa on line posto in essere ai danni dello studente, che utilizzava carte prepagate per acquisti on line.
+&nbsp;
+ In particolare, l’attività si è basata su un’approfondita attività info-operativa confortata da alcuni spunti informativi derivanti dall’approfondita conoscenza dell’ambiente e della realtà locali.
+I Carabinieri hanno sviluppato articolate e complesse indagini che hanno permesso di ricostruire la condotta truffaldina di un pregiudicato del posto, che aveva fraudolentemente sottratto denaro da una carta di credito per effettuare, prelievi, ricariche a telefoni cellulari o ricariche di carte di credito prepagate.
+&nbsp;
+Il pregiudicato, già noto ai Carabinieri, aveva nel giro di poche settimane sottratto alcune migliaia di euro dalla carta di credito di un suo giovane “amico”. Per appropriarsi del denaro, il pregiudicato aveva dapprima sottratto la carta dei credito ad un suo amico e poi lo aveva raggirato ottenendo sia i dati della sua carta di credito che le credenziali (username e password), grazie ai quali era riuscito ad accedere ai siti internet ed effettuare i prelievi, utilizzati successivamente per ricaricare i propri telefoni cellulari e le proprie carte di credito prepagate.
+&nbsp;
+   Per questo motivo, l’ingegnoso pregiudicato è stato denunciato in stato di libertà per “furto, frode informatica ed accesso abusivo a sistemi informatici-telematici”.
+  E’ importante evidenziare che l’individuazione del responsabile del furto e la conseguente denuncia da parte dei Carabinieri ha, di fatto, consentito di interrompere e smascherare i piani del pregiudicato, bloccando anche le sue carte di credito, sulle quali erano state versate somme per centinaia di euro illecitamente sottratte.
+ L’attività di indagine dei Carabinieri è ancora in corso, sia per individuare ulteriori giovani truffati con le medesime modalità sia per identificare eventuali complici che hanno aiutato il pregiudicato a mettere a segno le redditizie truffe on line.
+&nbsp;
+ Le indagini sono condotte in stretta collaborazione con i Magistrati delle Procura della Repubblica di Sant’Angelo dei Lombardi, coordinata dal Procuratore Capo Dott. Antonio Guerriero
+&nbsp;
+(venerdì 2 luglio 2010 alle 12.03)
+&nbsp;
+-------------------------------------------------------------------
+&nbsp;
+Caposele - Incidente in moto: 17enne in prognosi riservata
+&nbsp;
+Tragedia sfiorata nel tardo pomeriggio sulle strade del comune di Caposele,  in località Serra Lunga, dove un giovane centauro 17enne, mentre era intento ad affrontare una serie di curve sui tornanti della valle del Sele, per cause in corso di accertamento, ha perso il controllo del proprio ciclomotore, rovinando violentemente a terra e rimanendo coinvolto in un grave incidente.
+&nbsp;
+I Carabinieri della locale Stazione si sono portati immediatamente sul luogo dell’incidente ed unitamente al personale del 118 hanno prestato i primi soccorsi al malcapitato che è stato trasportato all’ospedale civile di Oliveto Citra, dove per i gravi traumi riportati è stato ricoverato nel  reparto di rianimazione, dove i medici gli hanno diagnosticato una prognosi riservata per politrauma al volto, al torace ed agli arti inferiori e superiori.
+ Nel contempo i Carabinieri hanno proceduto ad effettuare un accurato sopralluogo e tutti i rilievi del caso necessari a ricostruire l’esatta  dinamica dell’incidente, nonché a ad acquisire  le dichiarazioni delle persone presenti al fine di verificare eventuali responsabilità: ad ogni buon fine la moto è stata posta sotto sequestro.
+&nbsp;
+Le indagini sono condotte in collaborazione con i Magistrati della Procura della Repubblica presso il Tribunale di S. Angelo dei Lombardi, coordinati dal Procuratore Capo Dott. Antonio Guerriero
+&nbsp;
+(martedì 29 giugno 2010 alle 21.38)
+&nbsp;
+
+[post_text_83]
+Alta Irpinia - Trasporto illecito di rifiuti: denunce e sequestri
+&nbsp;
+Caposele – I militari della Compagnia carabinieri di Montella hanno intercettato nella mattinata diversi autocarri e sequestrato oltre 70 quintali di materiale ferroso, rottami inquinanti e materiale contenente tracce di eternit, per un valore complessivo di circa 95mila euro.  L’operazione si inquadra nella serie di servizi finalizzati all’accertamento di reati connessi alla tutela dell’ambiente e della salute pubblica ed, in particolare, allo smaltimento illecito di rifiuti e sostanze inquinanti.
+&nbsp;
+  Tale attività rientra nell’ambito di un vero e proprio filone di indagine portato avanti proprio dalla Compagnia di Montella che lo scorso anno nell’ambito della specifica materia legata all’emergenza rifiuti, al controllo, prevenzione e repressione dei reati connessi al trasporto, alla raccolta ed allo smaltimento illecito dei rifiuti ha proceduto a numerosi sequestri di autocarri che trasportavano rifiuti illecitamente e discariche abusive.
+&nbsp;
+Grazie alla proficua attività info-operativa e confortati anche da alcuni spunti informativi derivanti dall’approfondita conoscenza del territorio e delle realtà locali, nelle prime ore del mattino, i Carabinieri delle Stazioni di Caposele e di Montemarano, nell’ambito di specifici controlli, hanno intercettato e fermato due grossi autoarticolati che, carichi di rifiuti speciali e pericolosi, provenienti dalla vicina provincia di Salerno, stavano attraversando l’Alta Irpinia percorrendo la strade secondarie, attigue ed alternative alla Fondo Valle Sele e all’Ofantina.
+&nbsp;
+ L’attività di prevenzione e controllo costantemente effettuata dai Carabinieri sulle strade principali, elaborata dal Comando Provinciale di Avellino attraverso il piano coordinato dei posti di controllo, tir ed autocarri che trasportano in modo illecito rifiuti, cercano di evitare proprio l’Ofantina che in passato era stata considerata l’asse viario privilegiato per la raccolta ed il trasporto illecito di rifiuti da e per l’Alta Irpinia, grazie anche alla sua agevole viabilità che permette di raggiungere in breve tempo le zone di Napoli, Salerno, Caserta ed, ultimamente, anche la provincia di Foggia.  I tir intercettati avevano probabilmente deciso di ‘evitare’ i numerosi e sistematici posti di controllo predisposti lungo l’Ofantina e cercato percorsi alternativi, tra le arterie che permettono di muoversi nelle campagne dell’Alta Irpinia evitando le strade principali, scegliendo di attraversare l’Alta Irpinia durante le prime ore del mattino, pensando, in questo modo di evitare i controlli.
+&nbsp;
+ Così evidentemente non è stato, poiché i tir sono stati intercettati dai Carabinieri e controllati: le operazioni di verifica dei documenti hanno permesso di accertare che gli autotrasportatori stavano effettuando il trasporto senza essere in possesso di alcuna autorizzazione o iscrizione all’Albo Nazione Gestore Rifiuti, necessaria per effettuare la raccolta, trasporto e smaltimento di rifiuti di ogni genere, specie quelli speciali e pericolosi.
+&nbsp;
+  Per questo motivo, i Carabinieri contestavano agli autotrasportatori intercettati le violazioni penali previste per il trasporto illecito di rifiuti nonché quella per aver esercitato l’attività di raccolta, recupero, smaltimento, commercio ed intermediazione di rifiuti in assenza delle prescritte autorizzazioni.
+&nbsp;
+  Immediatamente, al fine di interrompere l’illecita attività posta in essere, i Carabinieri hanno sottoposto a sequestro, sia i mezzi utilizzati che gli oltre 70 quintali di materiale ferroso, rottami inquinanti, radiatori in alluminio, qualche batteria di automezzi esauste, materiale contenente tracce di eternit e, soprattutto, scarti di tondini in ferro, scarto di cicli produttivi, trasportati nella totale assenza delle autorizzazioni prescritte dalla normativa in materia ambientale, per un valore complessivo di circa 95mila euro.
+&nbsp;
+ Classificando i rifiuti, i Carabinieri hanno, inoltre, verificato che tra i rifiuti vi era anche grossa quantità di vecchi vestiti, scarto probabilmente di qualche raccolta porta a porta effettuata nei paesi irpini dell’alta Valle del Sele e dei paesi della vicina provincia di Salerno.  Probabilmente, dalla selezione del vestiario raccolto, la parte degli abiti non ‘utilizzabile’ è stata scartata e, per evitare ulteriori spese, stava per essere smaltita illecitamente.
+&nbsp;
+  Gli improvvisati autotrasportatori sono stati denunciati in stato di libertà per raccolta e trasporto illeciti di rifiuti speciali e pericolosi ed sono tuttora in corso accertamenti per individuare sia lo stabilimento che ha prodotto gli scarti in ferro sia il sito dove i rifiuti sarebbero stati poi smaltiti illecitamente.
+&nbsp;
+  L’attività di indagine è stata condotta in collaborazione con i Magistrati della Procura della Repubblica di Avellino, Ariano Irpino e Sant’Angelo dei Lombardi, competenti per territorio
+&nbsp;
+&nbsp;
+
+[post_text_84]
+Monta la polemica politica a Caposele.
+Uno strappo all'interno della maggioranza guidata dal Sindaco Pasquale Farina ha caratterizzato il Consiglio Comunale di ieri. Due consiglieri, Gerardo Di Masi e Tommaso Cibellis, hanno deciso di dar vita ad un gruppo autonomo, Autonomia e Trasparenza. Le motivazioni sarebbero da ricercarsi nelle difficoltà ch ormai da settimane caratterizzavano i rapporti tra i due "dissidenti" e la maggioranza. Lo stesso Cibellis nei mesi scorsi aveva rinunciato alla delega allo sport.
+Ora, dopo l'abbandono da parte di Di Masi e Cibellis all'interno del Consiglio rimangono dieci consiglieri di maggioranza, quattro consiglieri di opposizione appartenenti alla lista Arcobaleno ed un consigliere di minoranza autonomo. Le difficoltà nei rapporti con gli alleati hanno contraddistinto sin dall'inizio la maggioranza targata Farina. A pochi giorni dall'insediamento avvenuto nel 2008 infati già si consumava il primo strappo con le dimissioni dell'assessore alle Politiche Sociali Giannino Ciccone.
+&nbsp;
+E' molto chiaro Ettore Spatola componente del gruppo Arcobaleno. "Crerdo che sia arrivato il momento di una forte presa di coscienza da parte della maggioranza comunale -dice-. E' necessario ritrovare quel clima di pace che è propedeutico ad ogni azione politica. Solo smorzando i toni della polemica le difficoltà potranno essere superate".
+&nbsp;
+Corriere dell'Irpinia 08.09.10
+
+[post_text_85]
+Caposele - Pietro Cetrulo si dimette dal PdL e passa con Fli
+&nbsp;
+Nel prendere atto dell’invito, avviso o ultimatum da parte dei vertici Nazionali e locali di scegliere tra restare nel Pdl o aderire a Fli, Pietro Cetrulo, attuale coordinatore Pdl di Caposele, ha rassegnato le sue dimissioni dall'incarico e ha annunciato la sua adesione formale a "Futuro e Libertà per l’Italia" insieme agli iscritti e simpatizzanti del Circolo "Generazione Italia Caposele". Lo ha scritto in una nota cerulo stesso, diffusa a mezzo stampa: “Constatando che non ci sono più margini di manovra (o dialettica) politica all’interno dello stesso Pdl,  per chi, come nelle intenzioni di tutte le associazioni collegate al Pdl, ho deciso di cambiare. Di questi tempi, pare che chi si pone con molta chiarezza e con fermezza crede ancora nelle istituzioni, nella meritocrazia, viene considerato un traditore o come da ultime dichiarazioni ”cancro della politica o amministratore di piccole aziende politiche. Per queste ragioni rimetto, a malincuore, anche la tessera Pdl, che, nonostante le mie forti perplessità iniziali sulla fusione FI- AN per la diversità di provenienza politica storica, è stato un partito a cui avevo aderito convinto che il prosieguo del cammino comune delle nostre storie fosse all’insegna di una maggiore condivisione di ideali e valori, ma così non è stato. Spero e mi auguro che comunque non s’interrompa a livello nazionale e locale, quella collaborazione su molti punti che tanti risultati positivi ha portato, sopratutto la risoluzione di tanti problemi gravi ereditati dalle precedenti amministrazioni. Dopo lo spartiacque politico di Mirabello in cui si è sancito di essere alleati e non parte organica del Pdl, la scelta di campo è diventata più chiara, e lo sarà ancora di più quando i cittadini italiani saranno portati a conoscenza più in dettaglio e a livello periferico della politica che intende portare avanti Fli, non ci saranno più spazi per riflessioni”.
+&nbsp;
+(sabato 11 settembre 2010 alle 18.14)
+&nbsp;
+
+[post_text_86]
+Caposele - Sequestrate in un circolo 2 slotmachines illegali
+&nbsp;
+Continua l’azione del Comando Provinciale della Guardia di Finanza di Avellino a contrasto del gioco d’azzardo effettuato a mezzo apparecchiature da intrattenimento del tipo slotmachines.
+&nbsp;
+  Sulla base delle segnalazioni che cittadini esasperati hanno voluto indirizzare al servizio di pubblica utilità 117, l’attività di ricerca informativa e di accertamenti preliminari condotta dalle Fiamme Gialle della Tenenza di Sant’Angelo dei Lombardi, agli ordini del tenente Massimo De Vito, si è concretizzata in un mirato intervento nella che ha visto nella mattinata di oggi l’avvio della sua fase palese.
+&nbsp;
+  Lo scenario che ha visto all’opera i militari impegnati in quest’ultima operazione è stata la cittadina di Caposele dove, presso un esercizio commerciale esercente l’attività di bar/circolo ricreativo, sono state scovate 2 apparecchiature da intrattenimento di tipo slotmachine.
+&nbsp;
+  Le due apparecchiature da intrattenimento oltre a non essere “coperte” dalle necessarie autorizzazioni, non risultavano nemmeno munite del previsto collegamento telematico alla rete gestita all’A.A.M.S. (Amministrazione Autonoma dei Monopoli di Stato).   Entrambe le apparecchiature, in considerazione della circostanza d’esser state poste in esercizio in assenza d’autorizzazione, venivano pertanto sottoposte a sequestro amministrativo unitamente all’incasso rinvenuto all’interno delle stesse, ammontante a circa 830 euro.  Nei confronti della responsabile del circolo ricreativo, S.G., di 48 anni, nata e residente a Caposele, è scattata la segnalazione all’A.A.M.S. per la violazione dell’articolo 110, comma 7 - lettera C del Testo Unico sulle Leggi di Pubblica Sicurezza (il famoso 110 T.U.L.P.S).
+&nbsp;
+giovedì 16 settembre 2010 alle 17.51
+&nbsp;
+
+[post_text_87]
+Caposele - Fratoianni:"La privatizzazione dell'acqua non è positiva"
+&nbsp;
+Studenti, docenti e istituzioni tutti insieme schierati a difesa dell'acqua pubblica. E' quanto emerge dall'assemblea che si è svolta presso la gremitissima aula magna del liceo De Sanctis di Caposele.
+&nbsp;
+Hanno preso parte all'incontro Nicola Fratoianni, assessore alle politiche giovanili della Regione Puglia, Don Angelo Tenore, responsabile Ufficio Scuola della Curia di Sant'Angelo dei Lombardi, Angelo Ceres, assessore all'ambiente del Comune di Caposele, Giuseppe Sierchio, sindaco di Calabritto, Antonio Carbone, preside del liceo di Caposele insieme a numerosi insegnati e dirigenti scolastici degli istituti della Valle del Sele.
+&nbsp;
+Molto applaudito l'intervento di Nicola Fratoianni che ha spiegato: “Ovunque la privatizzazione dell'acqua non ha sortito gli effetti sperati e si è tornati ad un metodo di gestione pubblica. L'interesse dei privati è fare profitto”.
+&nbsp;
+Un'analisi condivisa da tutti gli altri relatori a cominciare dal preside dell’Istituto, Luigi Fungaroli e dagli altri studenti intervenuti. “L'acqua è un bene che deve essere garantito in maniera equa a tutti”, è stato il monito di Fungaroli.
+&nbsp;
+ Il sindaco Sierchio, invece, ha citato invece l'artista locale Gaudiosi che attraverso i suoi quadri dipinge l'acqua in tutte le sue forme, evidenziandone come un elemento essenziale per gli uomini e la natura. L'assessore di Caposele, Angelo Ceres ha colto l'occasione per sollevare l'attenzione sull'Accordo di Programma tra Puglia e Campania e i riflessi sul comune di Caposele, direttamente interessato. «Caposele chiede da tempo un ristoro per lo sfruttamento delle sorgenti», ha detto Ceres.
+Una considerazione appoggiata anche da Fratoianni che ha spiegato l'impegno della Regione Puglia per mettere a regime i trasferimenti idrici tra le due regioni attraverso un Accordo di Programma che deve essere condiviso anche dall'Acquedotto Pugliese.
+&nbsp;
+(venerdì 24 settembre 2010 alle 16.54)
+&nbsp;
+
+[post_text_88]
+Caposele - Padre Zanotelli presente alla giornata dell'acqua
+&nbsp;
+ “Acqua siamo noi”, una giornata per parlare di acqua come “bene  comune”, per sensibilizzare alla difesa e alla valorizzazione di  questa risorsa che è stata definita l’oro blu del terzo millennio, e  di cui l’Irpinia è così ricca.
+L’evento è  promosso dall'Arcidiocesi  di S.Angelo dei Lombardi-Conza-Nusco-Bisaccia, in collaborazione con  l'associazione "Fateci respirare" di Lioni, e si terrà domenica  prossima a Caposele. L'appuntamento è alle ore 16 in piazza Sanità per la visita alle  sorgenti del Sele  che alimentano l’Acquedotto pugliese.
+A seguire si  procederà verso la Chiesa Madre “San Lorenzo Martire” (ribattezzata  dal progettista la “chiesa sulla sorgente”), dove alle 17.30 si terrà  la tavola rotonda sul tema “acqua” con la relazione di Padre Alex  Zanotelli,  e gli interventi dell’arcivescovo Mons. Francesco Alfano e  del parroco di Caposele, Don Vincenzo Malgieri. A moderare il  dibattito sarà Antonio Pica, presidente dell’associazione “Fateci  respirare”.
+&nbsp;
+Padre Zanotelli ha svolto a lungo la sua opera in Africa, e  attualmente vive nel rione Sanità a Napoli. In questi anni si è  battuto contro la privatizzazione dell'acqua, partecipando a  conferenze, eventi e marce in tutta Italia.  Nel novembre 2009 ha scritto: “Maledetti voi!" Non posso usare altra  espressione per coloro che hanno votato per la privatizzazione  dell'acqua, che quella usata da Gesù nel Vangelo di Luca, nei  confronti dei ricchi: Maledetti voi ricchi! Maledetti coloro che hanno  votato per la mercificazione dell'acqua. Noi continueremo a gridare  che l'acqua è vita, l'acqua è sacra, l'acqua è diritto fondamentale  umano.”
+&nbsp;
+(venerdì 1 ottobre 2010 alle 10.55)
+&nbsp;
+
+[post_text_89]
+Caposele - Si insedia il nuovo Forum dei giovani
+&nbsp;
+Si è tenuta ieri 12 ottobre 2010 l’assemblea generale del nuovo Forum dei Giovani del Comune di Caposele per le nomine delle nuove cariche dell’organismo.  Il Forum, tra i primi istituiti della Provincia, è giunto al 4 mandato ed al settimo anno di attività. Dopo il coordinamento del dott. Donatiello Ernesto che si è dichiarato soddisfatto delle attività svolte e dei risultati ottenuti dal suo gruppo, è giunta la nomina della prima Coordinatrice donna Elena Nesta, approvata all’unanimità da parte di tutta l’assemblea.  Il Forum, con questa nomina ha voluto dare un forte segno a tutta la comunità giovanile e non dell’importanza della rappresentatività anche per le donne, troppo spesso non ai vertici.
+&nbsp;
+La neo Coordinatrice e tutto il gruppo hanno dichiarato che continueranno nelle attività svolte in passato, dal cineforum alle attività estive e si impegneranno a rappresentare tutte le esigenze dei giovani del Comune di Caposele.   “Sarà nostra priorità quella di farci portavoce nei confronti delle istituzioni delle necessità che i giovani caposelesi vorranno manifestarci, sosterremo le associazioni giovanili nelle loro attività e ma soprattutto lavoreremo all’attuazione del Piano Territoriale delle Politiche Giovanili del distretto n°6 di Lioni appena approvato da parte della Regione Campania”.
+&nbsp;
+Il Piano prevede, per il Forum di Caposele e per tutto il distretto, una forte campagna di sensibilizzazione sul tema ambiente attraverso la produzione e la distribuzione di un film, “La Terra dei Lupi” improntato sulla discarica del Formicoso, volto soprattutto a mantenere alta l’attenzione su un argomento sempre scottante per il futuro dei giovani altirpini. Accanto a ciò, inoltre, vi saranno una serie di attività collaterali, da laboratori a concorsi che questo Forum non vede l’ora di poter attuare.
+&nbsp;
+Al fianco della neo eletta Coordinatrice ci saranno il vice/segretario dott. Donatiello Ernesto, il Tesoriere Ciccone Nicola e i due delegati al Coordinamento Provinciale Caruso Giuseppe e Iannuzzi Vincenzo
+&nbsp;
+ (mercoledì 13 ottobre 2010 alle 11.58)
 &nbsp;

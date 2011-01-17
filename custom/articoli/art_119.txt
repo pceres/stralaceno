@@ -1,0 +1,20 @@
+Autore::Ars
+Titolo::Allenamento Collettivo 13.11.2010
+--- Begin body ---
+<br>Bel pomeriggio di  sport, sabato 13 novembre 2010, in localit&agrave; Pasano in Caposele. <br>Su e gi&ugrave; per le strette strade collinari a ritmo moderato e costante, sette podisti: Donato Ceres, Donatello Cirillo, Gelsomino Del Guercio, Alessandro Russomanno, Gianni Sozio, Salvatore Merola, Carmine Corbo. Accompagnatori Paolo Viscardi e Gerardo Cetrulo.
+<br>
+<br>
+Arrivederci al prossimo allenamento!<br><br>
+<div align="center">
+<img id="" src="%file_root%custom/album/ars/AllColl13.11.10_2.jpg" alt="" border="0" width="480">
+</div>
+<br><br>
+<div align="center">
+<img id="" src="%file_root%custom/album/ars/AllColl13.11.10.jpg" alt="" border="0" width="480">
+</div>
+<br><br>
+<div align="center">
+<img id="" src="%file_root%custom/album/ars/All.Coll.13.11.2010.jpg" alt="" border="0" width="480">
+</div>
+<br><br>
+--- End body ---

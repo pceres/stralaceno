@@ -1,0 +1,14 @@
+Autore::Ars
+Titolo::Gara Podistica Campagna 2010
+--- Begin body ---
+<br>
+Il 25 luglio 2010 nel centro storico di Campagna (Sa) si &egrave; disputata la prima gara podistica “Campagna per lo sport” organizzata dalla podistica Camaldolese. Tre giri del paese per un totale di 4,8 km. <br>
+Quaranta partecipanti tra i quali 7 atleti dell’ARS. <br><br>
+La gara ha segnato l’ottimo ritorno alle competizioni di Francesco Ceres, dopo un lungo stop per infortunio, vincitore della categoria promesse (PM) con il tempo di 18’12’’. Buona anche la prestazione di Donato Ceres, vincitore della categoria amatori (TM) con 18’31’’. <br>
+<p>&nbsp;
+<div align="center">
+<img id="Manifesto" src="%file_root%custom/album/Campagna_10/cam7.jpg" alt="I fratelli Ceres in azione a Campagna (Sa)" border="0" width="500">
+</div>
+<br>
+<a href="album.php?anno=Campagna_10">Qui</a> le foto della gara, scattate da Luciano Viscido.<br><br>
+--- End body ---

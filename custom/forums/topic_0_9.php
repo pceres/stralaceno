@@ -244,6 +244,21 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 230::nicola.m::19/01/2010 23.59.53::visible
 231::nic.m::25/01/2010 23.38.38::visible
 232::Angelo::26/01/2010 00.46.11::visible
+233::ARS::12/05/2010 13.59.21::visible
+234::ARS::18/05/2010 13.38.00::visible
+235::nicola.m.::03/06/2010 17.53.01::visible
+236::Osservatore::07/06/2010 11.32.46::visible
+237::atleta::23/06/2010 23.45.43::visible
+238::ci risiamo::24/06/2010 12.30.30::visible
+239::partecipante::25/06/2010 23.54.30::visible
+240::stanco ::16/08/2010 17.26.20::visible
+241::nicola m.::14/09/2010 13.02.51::visible
+242::disgustato::15/10/2010 16.58.35::visible
+243::lavoratore::16/10/2010 19.41.03::visible
+244::nicola m.::11/11/2010 12.35.04::visible
+245::deluso::24/11/2010 18.55.41::visible
+246::stupido::25/11/2010 18.39.33::visible
+247::nessuno::15/01/2011 12.19.11::visible
 
 [post_text_0]
 Fermate Nicola Melillo con questa stralaceno: anche i muri di materdomini e caposele non ne possono più.
@@ -1517,3 +1532,56 @@ I tempi amministrativi sono lunghi per arrivare ai finanziamenti. Prima era molt
 Vicino al campo ci sono i rifiuti, li vedo mica sono cieco!
 Ma forse ti sfugge una cosa, e prima di fare questi proclami ti invito a informarti meglio anche parlando a 4 occhi, che la situazione rifiuti sta evolvendo verso la provicializzazione. In questa fase di totale confusione tra consorzio e provincia si stanno verificando dei disservizi. Con molta probabilità i Comuni, in tema di gestione di rifiuti, non avranno voce in capitolo.
 Per altri chiarimenti meglio parlarne a voce.
+
+[post_text_233]
+Questa settimana l'appuntamento in pista a Calabritto per chi vuole intraprendere una attività podistica di base è anticipato da venerdì 14 a giovedì 13 maggio alla stessa ora
+
+[post_text_234]
+L'appuntamento in pista a Calabritto, per chi vuole intraprendere una attività podistica di base, è definitivamente spostato dal venerdì al GIOVEDI' alla stessa ora.
+
+[post_text_235]
+ma come e' possibile che colui che ha ideato e proposto questo sondaggio-gioco sui mondiali di calcio 2010 non partecipa neanche mi sembra molto strano io ho giocato ma devo sottolineare che sarebbe stato piu' appetibile ed entusiasmante se si vinceva almeno un buono pizza da spendere,ogni giocata si pagava 50 cent. ed uscivano i soldi per pagare i primi tre,la vita non e' fatta solo di gloria ma anche di soddisfazioni personali.la mia non vuple essere la solita polemica distruttiva ma ancora una volta un incentivo a far si' che anche un semplice gioco lo si strutturi con criteri diversi e piu' coinvolgenti.
+
+[post_text_236]
+Un plauso a Nicola M. per le parole pronunciate all'assemblea pubblica dei giovani pro loco di ieri sera..
+
+[post_text_237]
+ma come e' possibile che per la stralaceno non vi si allenano nuovi partecipanti? sempre gli stessi a fare gli allenamenti, forse la risposta piu' plausibile e che questo sport lo si fa per esibizionismo dalla maggior parte dei partecipanti di quel giorno data la massiccia presenza e la scarsa partecipazione agli allenamenti.
+
+[post_text_238]
+giusto atleta e' una vergogna che quel giorno a laceno si presentano tutte quelle persone che durante l' anno il pantaloncino e le scarpette di ginnastica non sanno neanche dove le hanno lasciate lo sport si pratica per divertimento e salute personale ma sempre non in poche occasioni per protagonismo.
+
+[post_text_239]
+quest'anno alla stralaceno vogliamo essere agevolati durante il percorso... le cose da fare sono:non farci seguire dalle auto perche' esce il fumo dalla marmitta. durante il percorso serve almeno una postazione dove vi si puo' fornirsi d'acqua per dissetarsi. fare una maglietta speciale per chi fa o ha superato dieci edizioni della stralaceno. disporre all'arrivo bottigliette d'acqua per sciaquarsi o bere dato che parecchi fanno lo sprint finale e arrivano stremati. bisogna allestire una tavolata dove poter assaggiare pizzette,dolci,ecc. in modo da recuperare l'energie perdute e poter proseguire la giornata insieme agli spettatori. sono tante le cose da fare o da migliorare, basta solo volerlo.
+
+[post_text_240]
+PRO LOCO CAPOSELE VRGOGNA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+VERGOGNATEVI!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+AMMINISTRAZIONE COMUNALE DEL CUORE VERGOGNATEVI!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+&nbsp;
+CAPOSELE PAESE DISTRUTTO E FINITO UNA SOLA PAROLA
+&nbsp;
+VERGOGNA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+VERGOGNATEVI!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+DIMETTETEVI!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+[post_text_241]
+e' vergognoso che dopo 2 mesi ancora non sono stati pubblicati i risultati della corsa di nusco 2010 credo proprio che non ci andro' mai piu' e' una gara ridicola e mal organizzata.
+
+[post_text_242]
+farina dimettiti sei sempre piu' ridicolo hai distrutto un paese per il solo gusto di apparire a quando il vostro primo progetto fattivo targato ex cuore siete proprio una banda.
+
+[post_text_243]
+&gt;farina dimettiti sei sempre piu' ridicolo hai distrutto un paese per il solo gusto di apparire a quando il vostro primo progetto fattivo targato ex cuore siete proprio una banda.<br>&gt;<br><br>disgustato ma vai a LAVORARE!
+
+[post_text_244]
+e' alquanto vergognoso che a tre mesi dalla gara di nusco ancora non sono stati pubblicati i risultati e poi ci lamentiamo della stupida gara di caposele e' vero che e' una corsa anomala e mal organizzata ma anche nusco mi sembra la stessa musica penso che non ci andro' mai piu' il podismo in irpinia e' ancora utopia e improvvisazione.
+
+[post_text_245]
+vergognatevi tutti nessuno scrive niente e propone nulla che paese schifoso e ridicolo che siamo diventati basta non se ne puo piu' di questo immobilismo ci tocca scappare via da questo stupido paese.
+
+[post_text_246]
+&gt;vergognatevi tutti nessuno scrive niente e propone nulla che paese schifoso e ridicolo che siamo diventati basta non se ne puo piu' di questo immobilismo ci tocca scappare via da questo stupido paese.<br>&gt;<br><br>deluso ma quando te ne vai? vergogna, immobilismo, politica, ecc...ti lamenti soltanto... troppo comodo e anche un po' stupido...
+
+[post_text_247]
+alfonso rosania il migliore sei tu

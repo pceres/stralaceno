@@ -156,6 +156,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 142::il n. 102::01/10/2009 14.43.56::visible
 143::nicola::11/02/2010 17.53.48::visible
 144::fan::11/02/2010 20.22.29::visible
+145::Fan::31/08/2010 14.16.04::visible
 
 [post_text_0]
 Aspettiamo le vostre dichiarazioni di sfida...
@@ -874,3 +875,6 @@ mancano sei mesi alla prossima stralaceno e' scattato il conto alla rovescia
 
 [post_text_144]
 ciao nicola... iniziato dunque il conto alla rovescia... sbilanciati dai! Che tempo prevedi di realizzare quest'anno e quale posizione riusscirai ad ottenere alla STRALACENO?
+
+[post_text_145]
+Come mai Nicola Melillo non ha partecipato alla stralaceno 2010? E' assente perche fuori per lavoro?

@@ -1,0 +1,14 @@
+Autore::Ars
+Titolo::2° Trofeo San Rocco
+--- Begin body ---
+<p>&nbsp;
+<div align="center">
+<img id="Manifesto" src="%file_root%custom/album/varie/Trofeo_S.Rocco_10.jpg" alt="" border="0" width="500">
+</div>
+<br><br>
+<p>&nbsp;
+<div align="center">
+<img id="Manifesto" src="%file_root%custom/album/varie/Trofeo_San_Rocco_2010.jpg" alt="" border="0" width="450">
+</div>
+<br><br>
+--- End body ---

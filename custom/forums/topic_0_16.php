@@ -89,6 +89,11 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 75::Angelo Ceres::11/01/2010 21.37.57::visible
 76::AmbienteNews::05/04/2010 23.49.37::visible
 77::NewsAmbiente::20/04/2010 15.44.24::visible
+78::Irpinianews::17/05/2010 09.38.47::visible
+79::AmbienteNews::09/06/2010 20.51.52::visible
+80::NewsAmbiente::19/06/2010 15.23.43::visible
+81::AmbienteNews::02/07/2010 15.52.49::visible
+82::NewsAmbiente::28/08/2010 09.07.17::visible
 
 [post_text_0]
 Qui proposte, osservazioni, critiche e tutto ciò che concerne l'ambiente e la natura dalle grosse tematiche di interesse mondiali ai piccoli accadimenti del paese.
@@ -977,3 +982,129 @@ L'Ente Parco ha prontamente inviato alcuni reperti biologici all'Istituto Zoopro
 Il Servizio di Sorveglianza del Parco ed il Corpo Forestale dello Stato stanno inoltre svolgendo indagini congiunte in zona al fine di verificare se vi siano altri animali selvatici coinvolti e di ritrovare eventuali bocconi o carcasse sospette. Le indagini, che ad oggi hanno dato esito negativo, continueranno comunque nei prossimi giorni.
 L'abbandono di carne avvelenata, che interessa molte zone del paese, è un fenomeno in genere legato a conflitti tra gruppi che utilizzano il territorio per finalità diverse, ed è una delle cause principali di mortalità dei carnivori selvatici ma anche dei cani.
 L'Ente Parco rivolge un appello ad escursionisti e frequentatori dei boschi perché segnalino ai guardiaparco o al Corpo Forestale dello stato qualsiasi reperto sospetto vedano, al fine di ridurre al minimo le possibilità che simili episodi possano ripetersi.
+
+[post_text_78]
+&nbsp;
+	Sulla montagna di Caposele avvistati tre lupi in pieno giorno
+&nbsp;
+Sulle montagne di Caposele spesso ci si è imbattuti in segni della sua presenza: ululati, impronte sulla neve, ma raramente questa specie è stata avvistata, cosa che è accaduta invece qualche giorno fa. Un evento raro e che fa ben sperare per lo stato di salute della fauna irpina.
+&nbsp;
+Una squadra di guardie ecologiche volontarie, con a capo Gerardo Colarusso, lo scorso giovedì a Caposele, durante una delle perlustrazioni in montagna, in pieno giorno, lungo la pista che dalla Mauta conduce verso Laceno, si è imbattuta, in tre esemplari di lupo adulto in buono stato di salute che si aggiravano indisturbati. L’orario era inconsueto per incontrare animali elusivi come il lupo. E questo è l’evento incredibile, perché c’erano e sono passati davanti a queste persone, a meno di 20 metri di distanza, creando loro certo non poco timore vista la vicinanza. Ma i lupi, alla vista dell’uomo, sono immediatamente fuggiti, anche perché che loro non sono un pericolo per noi, hanno paura dell’uomo perché sanno che è l’uomo ad essere un pericolo per loro.
+&nbsp;
+Il Comune di Caposele, particolarmente sensibile ai problemi che minacciano l’ambiente ed in particolare le bellezze naturalistiche del suo territorio, ha sottoscritto una convenzione, da circa un anno, con le guardie ecologiche volontarie, “Coordinamento Irpino per la Vigilanza Ambientale”, allo scopo di attuare azioni di monitoraggio e controllo dell’ambiente montano, di inibire/sanzionare quelle persone che ignorano il rispetto della montagna e dell’ambiente, quelle persone che ignorano la presenza di leggi dello Stato che vietano il bracconaggio, il taglio indiscriminato degli alberi, e regolamentano il prelievo dei prodotti del sottobosco.
+&nbsp;
+L’Assessore all’Ambiente Angelo Ceres spiega perché è importante questo avvistamento: “Il lupo è una specie in via di estinzione e sono stati tantissimi gli interventi mirati a tutelare questa specie: la loro presenza è indicativa che qualcosa sta funzionando. Uno dei principali aiuti alla tutela di questa specie è stato dato dall’istituzione delle aree protette, in questo caso, del Parco dei Monti Picentini. Nelle aree protette non si spara, la caccia è vietata, e questo consente ai lupi di vivere in tali zone senza necessità di fuga. La presenza delle aree protette, inoltre, consente anche di mantenere, in consistenza e dimensioni, l’ambiente adatto alla vita del lupo e della fauna selvatica, di cui questo animale è predatore. Inoltre, la presenza delle guardie ecologiche, che in alcuni casi è stata criticata, ha senza dubbio contribuito a tutelare questo ambiente, infatti con la loro azione di controllo, hanno impedito e continueranno a farlo anche quelle attività illecite che allontanano il lupo, come spari, rumori di motosega, e quant’altro.
+&nbsp;
+L’evento rarissimo che si è verificato, indica, senza possibilità di dubbio, la presenza del lupo sulle montagne di Caposele e tale presenza denota che il territorio gode di un buono stato di salute e che la natura è tutelata.
+&nbsp;
+L’Amministrazione Comunale ha realizzato un vero e proprio piano di interventi di tutela del territorio. Le azioni di controllo attuate già dall’Amministrazione attraverso la presenza delle guardie ecologiche, hanno contribuito a preservare l’ambiente montano e, in coerenza con il programma, l’Amministrazione, a breve, attuerà diversi interventi di risanamento e di sistemazione idraulico-forestale, alcuni già finanziati, che verranno posti in essere anche per consentire di aprire il territorio di Caposele ad un altro tipo di turismo, quello naturalistico.”
+&nbsp;
+(sabato 15 maggio 2010 alle 18.15)
+&nbsp;
+
+[post_text_79]
+09/06/2010 16:31 Requiem per i Parchi?
+&nbsp;
+Le associazioni di rappresentanza del mondo delle aree protette e ambientaliste denunciano il dimezzamento dei fondi previsto dalla finanziaria e fanno tre richieste
+&nbsp;
+La finanziaria colpirà anche le aree protette nonostante lo Stato spenda ad oggi per i Parchi Nazionali l'esatto equivalente di un caffè all'anno per ciascun italiano.
+&nbsp;
+Per parchi nazionali, riserve statali, è previsto un taglio del 50% degli stanziamenti per il 2011. Un grave colpo anche alla Strategia Nazionale per la Biodiversità.
+&nbsp;
+Il Popolo dei Parchi non rimane indifferente davanti alla crisi economica e ai sacrifici necessari a superarla, ma la medicina, il rimedio, non deve essere uguale per tutti altrimenti il rischio è quello di sterminare le aree protette, che pur essendo in forte sofferenza, riescono ancora a garantire un efficace presidio a tutela della natura sul territorio!
+&nbsp;
+Secondo le associazioni firmatarie, sia ambientaliste che di rappresentanza del mondo delle aree protette i  già limitatissimi finanziamenti per i parchi non possono essere ulteriormente ridotti, pena la morte certa di un paziente in molti casi agonizzante.
+&nbsp;
+&nbsp;
+Le aree marine protette sono senza certezza di finanziamento da molti anni, e ad oggi sembrano essere scomparsi i fondi ad esse destinati,  mentre i parchi nazionali hanno uno stanziamento di bilancio estremamente esiguo.
+&nbsp;
+Immaginiamo che, come già avvenuto per i beni culturali, il taglio sia avvenuto all’insaputa del Ministro. L’auspicio è che si tratti di  un errore materiale, che il  Ministro Prestigiacomo provvederà a recuperare, ma anche in questo caso resta l’ulteriore taglio del 10% lineare su tutte le spese, previsto per tutti i Ministeri, senza alcuna valutazione degli effetti e senza alcun sforzo di operare su realtà diverse con metro specifico (tutti uguali, i grandi e di piccoli, realtà molto diversificate).
+&nbsp;
+Dal punto di vista finanziario i Parchi sono già allo stremo e il taglio del 10%, che si somma agli analoghi ripetutamente fatti negli scorsi anni, porta gli Enti Parco sotto il livello della sopravvivenza e soprattutto colpisce anche gli Enti che negli anni hanno adottato misure di risparmio. L’eventuale taglio del 50% poi non consentirebbe neanche di ottemperare agli obblighi contrattuali in essere con il personale, per le sedi, per la sorveglianza, per la gestione dei mezzi. Insomma tutte le realtà economiche che ruotano intorno alle aree protette, le cooperative per l’educazione ambientale, per il turismo, per tutti gli altri servizi connessi alla conservazione della natura, nonché i posti di lavoro presso gli enti, subirebbero un gravissimo collasso. Pensiamo ad esempio alle decine di Parchi Naturali Regionali già ora con personale di sorveglianza insufficiente o addirittura completamente assente e ai riflessi sulle funzioni di tutela che il blocco delle assunzioni comporterebbe.
+&nbsp;
+Ma quello che appare più grave è che mentre da una parte si sbandiera la necessità di far meglio funzionare l’Amministrazione pubblica, dall’altra si colpisce indifferenziatamente, proibendo la realizzazione di attività strategiche per la promozione del territorio. Non si capisce, infatti, come i parchi possano aiutare territori depressi o marginali a trovare una strada autonoma per lo sviluppo sostenibile, se non si possono organizzare iniziative, convegni, fare pubblicazioni  o incontrare la gente nei paese fuori dall’orario di ufficio.
+&nbsp;
+ Noi crediamo, invece, nel ruolo propulsivo delle aree protette, della gente dei parchi, crediamo anche che nella pubblica amministrazione ci sia tantissima gente che lavora ed opera per il bene comune, per uno stipendio che spesso non è in grado di garantire la stessa sopravvivenza di una famiglia. In questi quasi 20 anni dall’entrata in vigore della legge 394/91 i parchi sono stati forti attrattori di risorse comunitarie e anche private verso territori dimenticati e sono, guarda caso, tra le poche realtà italiane dove il countdown 2010 per l'arresto della perdita di biodiversità non è fallito.
+&nbsp;
+&nbsp;
+&nbsp;
+Le richieste
+&nbsp;
+- Chiediamo che il taglio del 50% non vada a interessare i parchi e le altre aree protette altrimenti non ci saranno nemmeno i fondi per pagare gli stipendi e le attività di conservazione delle specie e degli habitat e che venga data soprattutto alla Aree Marine, maggiore certezza rispetto ai trasferimenti
+&nbsp;
+- Chiediamo con forza che i limiti imposti alle pubbliche amministrazioni, i tagli generalizzati ai Ministeri, le riduzioni dei personale, non si applichino agli Enti Parco, che già hanno contribuito negli anni con pesantissimi tagli, o che almeno si applichino solo alle risorse finanziarie trasferite dallo Stato, altrimenti verrebbe meno qualunque stimolo anche all’autofinanziamento di questi piccoli enti che gestiscono i gioielli naturali del Paese.
+&nbsp;
+- Chiediamo che nell’Anno internazionale della biodiversità, ogni attività scientifica per la tutela di fauna, flora e habitat resti esclusa dal “blocco” degli studi e delle consulenze, poiché non è possibile attivare alcuna ricerca scientifica seria senza uno studio, né attivare partnership internazionali di spessore senza missioni all’estero, oppure limitare ogni attività formativa all’esclusiva della Scuola Superiore per la Pubblica Amministrazione. Non solo, ma è fondamentale che vi siano assegnate ai Parchi risorse mirate a indagini e monitoraggio della biodiversità, per evitare che la Strategia Nazionale rimanga senza attuazione
+&nbsp;
+Del resto notiamo la differenza tra un Paese europeo e l’altro. Mentre la “ricca” Germania taglia le spese militari per far fronte alla crisi, la “non ricca” Italia taglia i soldi ai Parchi…
+&nbsp;
+&nbsp;
+&nbsp;
+Hanno aderito.
+&nbsp;
+WWF
+Legambiente
+Unione per i parchi e la natura d’Italia
+Marevivo
+CTS
+Aidap associazione italiana direttori e funzionari aree protette
+394 associazione nazionale dipendenti aree protette
+AIGAP associazione italiana guardaparco
+Istituto Pangea onlus
+LIPU
+Italia Nostra
+FAI
+
+[post_text_80]
+Associazioni: “Almeno la spesa di un caffè all'anno per la natura d'Italia”
+&nbsp;
+I parchi nazionali e le aree marine protette costano agli italiani quanto un caffè all'anno, ma la manovra finanziaria approvata dal governo e in discussione al parlamento prevede la riduzione dei costi addirittura del 50%.
+&nbsp;
+In queste ore le associazioni ambientaliste e del mondo dei parchi hanno consegnato le proposte di emendamento alla Commissione Bilancio del Senato, per chiedere di modificare il decreto, perché ci sia un futuro della conservazione della natura in Italia.
+&nbsp;
+Per i parchi infatti la riduzione stimata dei costi non è superiore a 20 milioni di euro all'anno, a fronte della paralisi, del blocco e quindi della chiusura degli enti parco nazionali e dei consorzi di gestione delle aree marine protette.
+&nbsp;
+Riducendo lo stanziamento ordinario annuale del 50%, infatti, si andrebbe molto al di sotto delle spese accertate necessarie per la quotidiana sopravvivenza.
+&nbsp;
+Risultato? Fine dei controlli ambientali, fine della prevenzione anti bracconaggio, fine del monitoraggio continuo di biodiversità e dissesto idrogeologico, fine della tutela delle principali sorgenti su Alpi ed Appennini, fine della accorta gestione di fiumi e paludi, montagne e pianure, colline e foreste, per non parlare dello straordinario patrimonio marino e di beni culturali ricompresi nei gioielli naturali del Paese.
+&nbsp;
+Il problema vero è che non si tratta di una riorganizzazione, di una ristrutturazione, di una semplificazione, ma semplicemente di una morte annunciata per anoressia.
+&nbsp;
+Qual è il progetto del governo per i parchi? Quale il loro ruolo in un auspicato quadro di riordino e riforma degli enti pubblici? Quale la ricetta per aumentare la loro efficacia, la loro già notevole capacità di attrazione di fondi comunitari e di fondazioni bancarie?  Non è dato sapere. L'unica certezza è che la manovra finanziaria prevede che entro due mesi dall'approvazione, quindi a fine luglio, il Ministro dell'ambiente debba ridurre del 50% lo stanziamento per i parchi e le riserve dal 2011 e per gli anni futuri.
+&nbsp;
+Anche nel migliore modello gestionale del mondo, quello USA, i parchi non si autofinanziano completamente, così come i migliori musei del mondo. Allora perché questo dovrebbe avvenire in Italia?
+&nbsp;
+Chiediamo che gli enti gestori delle aree naturali protette, di cui alla legge n. 394/91, siano esentati dalle misure della finanziaria e che si discuta in Parlamento per  approfondire la realtà della natura gestita in Italia (oasi, riserve, parchi, aree marine) al fine di cogliere i lati positivi ed innovativi di una gestione spesso creativa e capace, oltre che esaminare i non pochi problemi presenti ed individuarne la cura.
+&nbsp;
+Sarebbe davvero incredibile che un Paese culla di civiltà, culture e natura come l'Italia dovesse sciogliere i propri parchi nazionali e le altre aree protette alle soglie del suo 150° anniversario di fondazione e proprio nell'anno internazionale per la biodiversità.
+&nbsp;
+394 associazione nazionale dipendenti aree protette, Aidap associazine italiana direttori e funzionari aree protette, AIGAP associazione italiana guardaparco, CTS, Istituto Pangea onlus, FAI , Federparchi,  Italia Nostra, LIPU, Legambiente, Marevivo, Unione per i parchi e la natura d’Italia, WWF.
+
+[post_text_81]
+Winnie the Pooh, Baloo, Yoghi e Bubu, quattro nomi per quattro orsi memorabili. Ghiotti di miele e di panini da pic nic, il loro muso ha intenerito il cuore di grandi e piccini.
+&nbsp;
+Nella realtà, gli orsi vanno a caccia di salmoni e formiche, a meno che non si impigriscano e si accontentino di allevamenti e pollai in cerca di qualcosa di più succulento da assaggiare.
+&nbsp;
+Ultimamente, c’è stata un’inversione di tendenza e la situazione si è fatta più simile a quella dei cartoni animati. Dopo settimane di razzie,uno dei cuccioli della famosa orsa Gemma – che già l’anno scorso si aggirava a Scanno – è stato avvistato nei pressi di una pasticceria.
+&nbsp;
+Attirato dal dolce profumo di biscotti e paste, sfornate alla maniera abruzzese, il plantigrado si è spinto fino al centro del paese, provocando lo spavento di locali e turisti.
+Pochi giorni prima l’esemplare era stato avvistato vicino a una discoteca, che volesse concludere la serata con la classica brioche?
+
+[post_text_82]
+IL 29 AGOSTO A CAPOSELE: ESCURSIONE SULLE TRACCE DEL LUPO
+Dopo il raro caso di avvistamento di quattro esemplari di lupo, avvenuto a maggio sulle montagne di Caposele, l’interesse per questo territorio che, in conseguenza del buono stato di conservazione degli equilibri ecologici, può vantare la presenza del lupo, è molto cresciuto, tanto che è stata organizzata, per il prossimo 29 agosto l’escursione “Sulle tracce del lupo”. Gli organizzatori dell’evento sono tutte associazioni, attive sul territorio, consapevoli della rilevanza ecologica che ha tale presenza. Le associazioni che stanno organizzando l’escursione sono:
+-	Italia Verde – Avellino
+-	Federazione Nazionale Pro Vita Avellino
+-	Ambiente e/è vita – Sezione di Avellino
+-	WWF – Gruppo attivo di Caposele (AV)
+-	A.N.P.A.N.A. – Sezione di Avellino
+-	Legambiente – Circolo Alta Irpina – Calitri (AV)
+-	LIDA - Lega Italiana per i diritti degli animali
+-	LAC - Lega per l'abolizione della caccia
+Le suddette associazioni, con il patrocinio del Comune di Caposele, hanno ritenuto importante promuovere un’escursione che tocchi i luoghi dove lo scorso maggio sono stati avvistati i lupi a Caposele. Un momento di divertimento, ma soprattutto, di contatto diretto con la montagna, l’ambiente che ospita il lupo a cui tutti possono partecipare.
+L’escursione inizierà alle 7.00 di domenica 29 agosto, da Piazza Sanità a Caposele. Da qui, con mezzi propri, si giungerà a Vado dell’Asta, località della montagna a circa 1.300 m di quota. Si procederà a piedi lungo il percorso che, negli scorsi mesi, ha visto la presenza del mammifero, passando per la località Mauta, Arialonga, Piano di Santa Maria, per poi ritornare a Vado dell’Asta.
+Il rientro è previsto per le 13 dello stesso giorno. L’escursione, che non prevede percorsi particolarmente difficili, consentirà a chi vorrà partecipare di ammirare direttamente alcune delle bellezze naturalistiche di Caposele e, se si è fortunati, anche di avvistare il lupo.
+L’Assessore Angelo Ceres dell’Amministrazione di Caposele sottolinea la rilevanza dell’evento del 29 agosto e ricorda a tutti l’importanza di questo mammifero: “il lupo è una specie in via di estinzione e sono stati tantissimi gli interventi mirati a tutelarla: la loro presenza è indicativa che qualcosa sta funzionando! Infatti l’Amministrazione Comunale ha attivato una serie di misure volte a tutelare il patrimonio naturale, con la presenza del Coordinamento Irpino per la Vigilanza Ambientale, ed a permettere che il territorio possa essere meta del turismo naturalistico poco conosciuto nella nostra realtà.
+Inoltre l’istituzione delle aree protette (ci troviamo nel  Parco Regionale dei Monti Picentini) ha certamente contribuito in maniera rilevante alla tutela di questa specie. Nel Parco non si spara, la caccia è vietata, e questo consente ai lupi di vivere in tali zone senza necessità di fuga. La presenza delle aree protette consente anche di mantenere, in consistenza e dimensioni, l’ambiente adatto alla vita del lupo e della fauna selvatica, di cui questo animale è predatore. L’evento rarissimo che si è verificato a maggio indica, senza possibilità di dubbio, la presenza del lupo sulle montagne di Caposele e tale fatto denota che il territorio, grazie al forte impegno che stiamo dando, gode di un buono stato di salute e che la natura è tutelata!
+Questa escursione vuole essere un primo passo per far conoscere anche fuori dal territorio comunale le bellezze di Caposele e per promuovere il turismo naturalistico che, nel nostro Comune, ha grosse potenzialità di sviluppo”
+&nbsp;

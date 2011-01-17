@@ -148,6 +148,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 134::MinisteroInterno.it::30/03/2010 09.11.17::visible
 135::amante natura::22/04/2010 13.30.20::visible
 136::Lupo appenninico::22/04/2010 15.39.07::visible
+137::News::15/07/2010 15.23.20::visible
 
 [post_text_0]
 Riceviamo da CLEON.REN e pubblichiamo:
@@ -1339,3 +1340,29 @@ a quando i lavori di riqualificazione della montagna forse dobbiamo catapultarci
 
 [post_text_136]
 &gt;a quando i lavori di riqualificazione della montagna forse dobbiamo catapultarci in abruzzo nel parco per vedere qualcosa di caratteristico e di notevole impatto visivo.fino ad oggi la nostra montagna e' sempre la stessa nel solito stato di sempre.<br>&gt;<br><br>Poco attento e poco amante della natura. Forse non ti sei accorto ma la riqualificazione della montagna già è partita.
+
+[post_text_137]
+Qui di seguito viene riportata la comunicazione pervenuta all’ufficio protocollo in data 14 luglio 2010 in cui si evince la mia volontà di distaccarmi dal gruppo consiliare di maggioranza e di creare in consiglio comunale una nuova forza il cui scopo sia esclusivamente la tutela dei giovani e del territorio.
+&nbsp;
+&nbsp;
+Alla cortese attenzione del
+Sindaco di Caposele
+&nbsp;
+Il sottoscritto Tommaso Cibellis, consigliere comunale nato a Battipaglia (SA) il 29/04/1984 e residente a Caposele,
+dati i contrasti avuti negli ultimi consigli comunali,
+date le attuali incomprensioni con l’amministrazione comunale,
+date le mancanze dell’attuale amministrazione comunale in termini di problematiche sociali come sport e giovani,
+data la mancanza totale di sintonia con l’attuale gruppo dirigente
+&nbsp;
+rende noto
+&nbsp;
+alla S.V. la volontà di distaccarsi dall’operato dell’attuale amministrazione e di comportarsi nei giorni a seguire come consigliere comunale autonomo, votando in seduta di c.c. liberamente lontano da qualsiasi “gioco di squadra”.
+&nbsp;
+Nella speranza che tale atto possa portare a migliorie e a provvedimenti volti a risolvere la questione giovanile che da anni affligge la nostra comunità, l’occasione è gradita per porgere distinti saluti.
+&nbsp;
+Caposele lì 14 luglio 2010
+&nbsp;
+&nbsp;
+&nbsp;
+Tommaso Cibellis
+&nbsp;

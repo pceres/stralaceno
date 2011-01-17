@@ -1,0 +1,9 @@
+Autore::Angelo Ceres
+Titolo::Sulle tracce del lupo
+--- Begin body ---
+<br>
+<div align="center">
+<img id="orso" src="%file_root%custom/album/ambiente/Lupo2010.jpg" alt="" border="0" width="500">
+</div>
+<br>
+--- End body ---

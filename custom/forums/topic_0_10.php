@@ -51,6 +51,11 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 37::paolo::24/03/2010 11.00.45::visible
 38::pasquale::24/03/2010 20.27.51::visible
 39::ARS::03/05/2010 10.17.53::visible
+40::ARS::16/06/2010 12.46.44::visible
+41::ARS::02/07/2010 14.40.28::visible
+42::Ars::09/07/2010 10.58.05::visible
+43::ARS::30/07/2010 13.14.13::visible
+44::ARS::05/11/2010 09.51.11::visible
 
 [post_text_0]
 we allora, le polemiche sullo sport caposelese per ora sembra siano terminate. Abbiamo assistito ad uno bel dibattittio, coinvolgendo molte persone. Ma quello che sto cercando di dirvi e che se io posso cambiare e voi potete cambiare, tutto il mondo può cambiare. Questa era una frase tratta dal film di ROCKY, comununque con questo voglio dire che tutte le polemiche non sono mai servita a nulla, piuttosto bisogna cecare di essere quanto più uniti mettendo sul tavolo le proprie idee, ed allora a questo punto le cose potranno cambiare in modo positivo. tutto questo penso che sia la chiave di tutto.
@@ -424,4 +429,60 @@ Sabato 8 maggio, al tramonto, intorno alla splendida cornice dei templi di Paest
 Ancora una volta il Comitato Organizzatore del team Podisti Cava Picentini Costa d'Amalfi, le cui idee introdotte nell'organizzazione eventi  sono sempre state innovatrici,  sperimenta, per l'occasione, nuove possibilità organizzative. La partecipazione alla manifestazione, anche per rispetto ai principi dell'ente che ne è promotore (CSI Cava de' Tirreni) è completamente gratuita. I servizi offerti ai podisti rimangono sempre gli stessi: assistenza medica durante la gara, ricco ristoro sia durante che post gara, servizio fotografico, classifiche etc.. Garantiti anche i premi per i primi 30 uomini, 10 donne e categorie (gli stessi saranno rigorasamente con prodotto tipici dato che il team organizzatore ha assunto già da tempo il principio di eliminare i premi in danaro dalle prorie manifestazioni).
 &nbsp;
 L'unica cosa che viene chiesta all'atto dell'iscrizione è una cauzione di 5 euro che verrà completamente restituita a tutti gli atleti che termineranno la gara; ciò chiaramente per evitare iscrizioni seguite da una non partecipazione che comporterebbero il blocco delle stesse per raggiunto numero e la conseguente impossibilità di iscriversi per altri. Il limite fissato per la partecipazione è di 500 atleti con i quali è possibile gestire in modo ottimale i servizi e garantire l'integrità dell'area archeologica che ospita la manifestazione.
+&nbsp;
+
+[post_text_40]
+Prossima gara alla quale parteciperà l'ARS:
+&nbsp;
+Sabato sera (19/06/2010) l'11ima edizione della "Notturna Sianese"
+&nbsp;
+Quando arrivi a Siano ti rendi conto da subito che la Notturna Sianese è un evento di quelli coinvolgenti, capace di farti provare sensazioni diverse, che ti portano a farti provare il gusto del momento agonistico, con il piacere ulteriore di viverlo nella semplicità. L’organizzazione dell’Atletica Ermes non ha mai lasciato nulla al caso, e nulla al caso sarà lasciato sabato sera, in occasione dell’11ima edizione della Notturna. Partenza coordinata, come sempre accaduto, per poi la magia dei vicoli, del pubblico numeroso e presente, ovunque. Pronto a farti sentire attore protagonista, dal primo istante alla fine.
+&nbsp;
+I premi previsti, come da tradizione, saranno numerosi: primi 150 uomini, le prime 30 donne (in entrambi i casi i primi 5 otterranno un rimborso spese). Premi anche per le categorie Master (dalla 55 alla 70 e oltre): in questo caso i primi 3. Le prime 7 società otterranno un premio in denaro (da non trascurare inoltre il gustoso prosciutto riservato a tutti i team, con almeno 20 atleti al traguardo). Mai dimenticare le ciliege, vera regina della gara e di Siano.
+&nbsp;
+Sarà una serata speciale quella di sabato sera. L’organizzazione sempre attenta e premurosa. Le classiche e belle emozioni che ci regalerà la gara. Il pubblico caloroso e numeroso, praticamente ovunque. E tra il pubblico, Veronica. Festeggeremo il suo Ottavo compleanno, nella sua città. E il suo sorriso illuminerà Siano, e tutti noi.
+(Podistidoc.it)
+
+[post_text_41]
+Prossima gara alla quale parteciperà l'ARS:
+&nbsp;
+Sabato sera 03.07.2010 a Polla (Sa) la 4a edizione della "Strapollese"
+&nbsp;
+Organizzazione Comitato Sportivo della Festa della madonna delle Grazie
+&nbsp;
+Che belle le gare vissute nel cuore delle realtà locali, quelle nel cuore dei paesi. Le gare attese, praticamente quasi una festa patronale. Esempio di una gara con queste caratteristiche di certo sarà quella che vivremo sabato sera a Polla (Sa). Sarà il Comitato Sportivo della Festa della Madonna delle Grazie ad organizzare, con l’ottima collaborazione tecnica di un team che di capacità organizzative ne ha da vendere: i Podisti Cava Picentini Costa d’Amalfi, e con loro l’altra bella realtà data dalla Podistica Brienza 2000.
+&nbsp;
+Saranno 10 i km dell’edizione numero 4 della “Strapollese”. 10 km veloci, chiusi al traffico. Con iscrizioni che saranno accettate (in via eccezionale) fino a 90’ prima della partenza (ma molto meglio se effettuate nei giorni precedenti). Premi niente male per i primi 20 uomini (con rimborso spese) e per le prime 10 donne (sempre con rimborso). In più, premi di categoria maschile, a partire dagli over 45 (i primi tre). Premi a squadre, per le prime 5. Nel banner promozionale sul sito troverete le ulteriori informazioni sulla gara. e vissute nel Cuore delle realtà Locali. Sarà bella la gara di Polla.
+(da Podistidoc.it)
+
+[post_text_42]
+Prossima gara alla quale parteciperà l'ARS:
+&nbsp;
+Sabato sera la "CorriRoccadaspide": 8 km che rinnoveranno una bella tradizione
+&nbsp;
+Roccadaspide (in provincia di Salerno, per la precisione siamo nel Cilento) è da anni un comune che ama la corsa. Lo dimostra ogni qual volta una gara si organizza da quelle parti. La “CorriRoccadaspide” è vissuta nel cuore del paese, con pubblico che, anno dopo anno, è praticamente diventato intenditore. Percorso con variazioni altimetriche, per due giri di 4 km ciascuno. Premi che riguarderanno tutte le donne, e i primi 30 uomini al traguardo (con in più riconoscimenti ai primi 3 atleti delle categorie dagli over 45 agli over 65). Il trofeo S. Sinforosa, come tradizione vuole, sarà assegnato al primo uomo e alla prima donna arrivati.
+&nbsp;
+A Roccadaspide lo 'Sporting Calore' (società organizzatrice) con la sua gara, anno dopo anno (siamo alla 17a edizione), rinnova l’appuntamento con la tradizione. Tradizione che sarà rispettata sabato sera (con partenza della gara alle 18,45). Tradizione che vuole Roccadaspide quale comune di appassionati e intenditori.
+&nbsp;
+
+[post_text_43]
+Prossima gara alla quale parteciperà l'ARS:
+&nbsp;
+4^ gara regionale PODISTICA DI CARILLIA,
+BORGO CARILLIA di ALTAVILLA SILENTINA (SA) il 31/07/2010 alle ore 19.00
+&nbsp;
+gara di km 9
+
+[post_text_44]
+Prossima gara alla quale parteciperà l'ARS:
+&nbsp;
+Domenica sera (7 novembre 2010), a Sicignano degli Alburni, la 4a edizione del "Memorial Biagio Germano"
+Atmosfera Speciale a Sicignano...
+&nbsp;
+&nbsp;
+Sicignano degli Alburni (Sa),  in occasione del “Memorial Biagio Germano”, ha sempre regalato emozioni agli atleti partecipanti. C’è un’atmosfera speciale a Sicignano la sera della gara. Il ricordo di Biagio, le luci della sera, il passaggio ininterrotto di atleti impegnati sul non facile ma caratteristico circuito proposto (totale 9 km) e il profumo delle caldarroste del post gara, riescono a rendere ancor più magica la magia della corsa. La Pro-Loco di Sicignano, con la collaborazione tecnica dell’Isaura Valle dell’Irno (e l’importante supporto dell’Amministrazione comunale) saranno capaci di sicuro di farci rivivere quanto di bello vissuto nelle scorse 3 edizioni.
+&nbsp;
+Premi per le prime 15 donne (5 otterranno un rimborso spese) e per i primi 20 uomini al traguardo (tutti con corposo premio in euro). Inoltre premi per i primi 5 delle categorie Master (fino alla over 55) e primi 3 Tm e Master 60/65/70. Niente male il rimborso previsto per le prime 5 società.
+&nbsp;
+Prima della gara riservata agli adulti (per la quale la partenza è prevista alle 18) ci sarà…come da tradizione, una gara riservata ai giovanissimi.
 &nbsp;

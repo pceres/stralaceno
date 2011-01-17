@@ -1,0 +1,33 @@
+Autore::Ars
+Titolo::Stralaceno 2010
+--- Begin body ---
+<p>&nbsp;
+<div align="center">
+<img id="Stra 10" src="%file_root%custom/album/Stra_10/S10_113.jpg" alt="" border="0" width="550">
+</div><br>
+Alla XXII edizione della Stralaceno ritorna alla vittoria -dopo 11 anni- Donato Ceres. <br>Classifiche e commenti su http://stralaceno.cjb.net
+<br>
+<br>
+L'album fotografico della gara lo trovate <a href="album.php?anno=Stra_10">qui</a>. <br>
+<br>
+<font color="blue">Sul sito della Stralaceno (http://stralaceno.cjb.net) trovate le foto commentate.</font>
+<br><br>
+<i>È disponibile il dvd della Stralaceno 2010. Per chiederne una copia rivolgersi a Nicola Ciccone (cell. 331-4336082 e-mail: nciccone@hotmail.it). </i><br>
+<!--
+<i>Si ringrazia per la fornitura delle bevande:</i>
+<br><br>
+<b>Geco Hair Design di Gerardo Corona</b> <br>
+Info - Appuntamenti 349 1541017<br>
+Materdomini - Caposele<br>
+<br>
+<b>Rosamilia Raffaele</b><br>
+consulente in marketing & vendite<br>
+www.tricomarketing.com<br>
+<br>
+<b>Biscotti San Gerardo</b><br>
+vendita all'ingrosso e al dettaglio<br>
+www.biscottisangerardo.it<br>
+Materdomi - Caposele<br>
+<br>
+-->
+--- End body ---

@@ -6,6 +6,9 @@
 # formato elenco_album:  tag_album::nome_album::descrizione
 #
 [elenco_album]
+Eboli_2010::::Eboli 2010::Meeting dell'Amicizia UISP di Eboli.
+Contursi_2010::Contursi 2010::V Trofeo cento sorgenti.
+Stra_10::Stralaceno 2010::La XXII edizione della Stralaceno del 29.08.2010.
 All.Coll.09::Allenamento collettivo 2009::Le foto dell'allenamento di fine anno.
 Sicignano_09::Sicignano 2009::III Memorial B.Germano del 09.11.2009
 StraSalerno_09::StraSalerno 2009::Strasalerno Half Marathon del 18.10.2009
@@ -42,6 +45,23 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
+122::homepage::Allenamento Collettivo 30.12.2010::Ars
+121::homepage::Manifesto Allenamento Collettivo 30.12.2010::Ars
+120::homepage::L'esercizio fisico come antidepressivo::Corriere.it
+119::homepage::Allenamento Collettivo 13.11.2010::Ars
+118::homepage::Avviamento all'Atletica::Ars
+117::homepage::StraSalerno 2010::
+116::homepage::Meeting dell'Amicizia di Eboli::Ars
+115::homepage::Trofeo cento sorgenti 2010::Ars
+114::homepage::Stralaceno 2010::Ars
+113::homepage::2&deg; Trofeo San Rocco::Ars
+112::homepage::Gara podistica Campagna 2010::Ars
+111::homepage::XVII CorriRoccadaspide::Ars
+110::homepage::IV Strapollese::Ars
+109::homepage::XI Notturna Sianese::Ars
+108::homepage::V Scalata al castello::Ars
+107::homepage::Attivit&agrave; di base 2010::Ars
+106::homepage::VI edizione "Sulle Orme di Filippide"::Ars
 105::homepage::Sondaggio - Studio Mondiali di Calcio 2010::Ars
 104::homepage::Cinque anni di ARS::
 103::homepage::Prague Half Marathon 2010::Ars
@@ -146,6 +166,7 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 #
 
 [elenco_pagine]
+%script_root%questions.php?id_questions=4&action=results::Sondaggio Mondiali 2010
 %script_root%questions.php?id_questions=3::Sondaggio Europei 2008
 %script_root%questions.php?id_questions=2&action=results::Sondaggio Champions League 2006/07
 %script_root%statistiche.php?action=show&id_questions=2::Statistiche Sondaggio Champions League 2006/07

@@ -6,7 +6,7 @@ Titolo::Sondaggio - Studio Mondiali di Calcio 2010
 <img id="Praga" src="%file_root%custom/album/varie/SA2010.jpg" alt="Praga" border="0" width="200">
 </div>
 <br>
-<b>PER GIOCARE <a href=" questions.php?id_questions=4 ">CLICCATE QUI</a></b>
+<b>PER VISUALIZZARE LA <font color="red">CLASSIFICA FINALE <a href=" questions.php?id_questions=4&action=results ">CLICCATE QUI</font></a></b>
 <br>
 <br><b>Caratteristiche principali</b>
 <br><br>

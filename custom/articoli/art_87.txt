@@ -1,16 +1,18 @@
 Autore::Ars
 Titolo::Attivit&agrave; Pista Calabritto
 --- Begin body ---
-<br><br>
-<b>
-INVITO ALL'ATLETICA LEGGERA<br><br></b>
-L’ARS e la Polisportiva Calabritto invitano tutte le persone interessate alla pratica amatoriale dell’atletica leggera (avviamento per i giovani, attività di base per gli adulti), <b>ogni venerd&igrave; alle ore 19.00 </b>presso la pista dello stadio comunale di Calabritto: consigli, stimoli e compagnia a tutti gli interessati, non solo alla specialit&agrave; del mezzofondo, ma anche al settore velocit&agrave;, salti e lanci.<br><br>
-----------------------------------------------------------------------------------------
-<br><br>
+<!--
+<br>
 <b>ALLENAMENTO SQUADRA PODISTICA</b><br><br>
 L'ARS Amatori Running Sele, in seguito ad accordi intercorsi con i gestori del campo sportivo comunale di Calabritto, comunica ai soci e alle persone interessate, che la relativa pista di atletica sar&agrave; a disposizione per gli allenamenti, nel periodo primaverile ed estivo, <b>ogni MARTEDI' dalle 18.30 alle 20.30.</b><br>
 <br><br>
-<!--
+<br><br>
+<b>
+INVITO ALL'ATLETICA LEGGERA<br><br></b>
+L’ARS e la Polisportiva Calabritto invitano tutte le persone interessate alla pratica amatoriale dell’atletica leggera (avviamento per i giovani, attività di base per gli adulti), <b>ogni GIOVEDI' alle ore 19.00 </b>presso la pista dello stadio comunale di Calabritto: consigli, stimoli e compagnia a tutti gli interessati, non solo alla specialit&agrave; del mezzofondo, ma anche al settore velocit&agrave;, salti e lanci.<br><br>
+----------------------------------------------------------------------------------------
+<br> 
+-->
 <br>
 L'ARS Amatori Running Sele, in seguito ad accordi intercorsi con i gestori del campo sportivo comunale di Calabritto, comunica ai soci, che la relativa pista di atletica sar&agrave; a disposizione per gli allenamenti, nel periodo autunnale e invernale, ogni marted&igrave; e gioved&igrave; dalle 18.30 alle 20.30 (con illuminazione artificiale).<br>
 <br>
@@ -18,9 +20,8 @@ Vengono cos&igrave; fissati dei ritrovi settimanali, dove ognuno potr&agrave; ca
 <br>
 Le persone non associate potranno anch'esse usufruire della pista in tali orari, rivolgendosi preliminarmente ad uno dei dirigenti ARS, che provveder&agrave; a segnalare il nominativo ai custodi responsabili dello stadio.
 <br><br>
--->
 <p>&nbsp;
 <div align="center">
-<img id="titolo_da_mettere" src="%file_root%custom/album/Calabritto_09/tsr1.jpg" alt="" border="0" width="280">
+<img id="titolo_da_mettere" src="%file_root%custom/album/Calabritto_09/tsr00.jpg" alt="" border="0" width="350">
 </div><br>
 --- End body ---

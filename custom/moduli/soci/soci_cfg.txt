@@ -44,10 +44,10 @@ Nicola Ciccone::nciccone@hotmail.it::14/07/2008::socio ordinario::::28::Soci_ars
 Massimo Cetrulo::massimocetrulo@yahoo.it::14/07/2008::socio ordinario::::29::Soci_ars::
 Angelo Ceres::ceres.av@tin.it::20/11/2008::associato praticante::::31::Soci_ars::
 Giuseppe Spatola::gius05@hotmail.it::24/08/2009::associato praticante::::::Soci_ars::
-Gerardo D'Alessio::gerardo.dalessio@yahoo.com::26/08/2009::associato praticante::::::Soci_ars::
+Gerardo D'Alessio::dgerardo89@katamail.com::26/08/2009::associato praticante::::::Soci_ars::
 Antonio Nigro::movida92@hotmail.it::26/08/2009::associato praticante::::::Soci_ars::
 Antonio Delle Fera::antoniodellafera@hotmail.it::01/09/2009::associato praticante::::::Soci_ars::
-
+Giovanni Viscardi::giovanniviscardi@hotmail.it::14/09/2010::socio ordinario::::::Soci_ars::
 
 
 

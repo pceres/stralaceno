@@ -6,11 +6,31 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+16/01/2011::Gelsomino Del Guercio ha partecipato alla gara podistica "X Vietri e dintorni" di km 9,5 a Vietri sul Mare.
+22/12/2010::Entra a far parte dell'ARS, come associato praticante, Gerardoluigi Forte di Laviano (Sa).
+20/12/2010::La squadra podistica dell'ARS si &egrave; affiliata -per l'anno 2011- alla UISP Unione Italiana Sport Per tutti.
+07/11/2010::Partecipanti alla gara podistica "IV Memorial B.Germano di km 8,9 a Sicignano degli Alburni (Sa): Paolo Viscardi, Alessandro Russomanno, Gelsomino Del Guercio, Donatello Cirillo.
+06/11/2010::Iniziata ieri l'attivit&agrave; di avviamento all'atletica leggera a cura dell'ARS, presso la palestra comunale di Caposele.
+24/09/2010::Partecipanti alla gara podistica "XVI StraSalerno half marathon" di km 21,097 a Salerno: Paolo Viscardi, Donatello Cirillo, Mario Di Trolio.
+03/10/2010::Paolo Viscardi ha partecipato al "Meeting dell'Amicizia" di atletica leggera ad Eboli, gareggiando nel salto in lungo e nei 5000 metri. Accompagnatore Alessandro Russomanno.
+14/09/2010::Entra a far parte dell'ARS, come socio ordinario, Giovanni Viscardi.
+05/09/2010::Partecipanti alla gara podistica "V Trofeo cento sorgenti" a Contursi Terme (Sa) di km 7,67: Paolo Viscardi, Alessandro Russomanno, Saverio Perna, Mario Di Trolio.
+08/08/2010::Partecipanti alla gara podistica "Maratonina della Misericordia" di 10,250 km di Nusco:  Alessandro Russomanno, Donatello Cirillo, Nicola D'Auria, Nicola Melillo (aggregato). Accompagnatore Michele Ceres.
+06/08/2010::Partecipanti alla gara "I Marcialonga di San Donato" a Contursi Terme (Sa) di km 10,8: Alessandro Russomanno, Paolo Viscardi, Mario Di Trolio, Giovanni Viscardi (aggregato).
+31/07/2010::Partecipanti alla gara "IV podistica di Carillia" a Borgo Carillia di Altavilla Sil. (Sa) di km 9: Paolo Viscardi, Alessandro Russomanno, Nicola D'Auria, Donatello Cirillo.
+25/07/2010::Partecipanti alla I edizione "Campagna per lo Sport" di km 4,8 a Campagna (Sa): Francesco Ceres, Donato Ceres, Paolo Viscardi, Saverio Perna, Alessandro Russomanno, Donatello Cirillo, Nicola D'Auria. Accompagnatore Luciano Viscido.
+23/07/2010::L'edizione 2010 della Stralaceno si terr&agrave; domenica 29 agosto.
+10/07/2009::Partecipanti alla XVII edizione della gara podistica "CorriRoccadaspide, trofeo S. Sinforosa di km. 7,950 a Roccadaspide (Sa): Donato Ceres, Paolo Viscardi, Alessandro Russomanno, Saverio Perna,  Donatello Cirillo.
+03/07/2010::Partecipanti alla gara podistica "IV Strapollese" di km 9,3 a Polla (Sa): Paolo Viscardi, Saverio Perna, Alessandro Russomanno, Mario Di Trolio.
+19/06/2010::Partecipanti alla gara podistica "XI Notturna Sianese" di km 10 a Siano (Sa): Paolo Viscardi, Alessandro Russomanno, Donatello Cirillo. Accompagnatore Luciano Viscido.
+25/05/2010::Presentato logo della Stralaceno 2010 sul sito internet www.stralaceno.cjb.net
+22/05/2010::Paolo Viscardi ha partecipato alla gara podistica "V Scalata al Castello" di km 9,6 a Castel San Giorgio (Sa).
+08/05/2010::Partecipanti alla gara podistica "VI Sulle Orme di Filippide" di km 10 a Paestum Capaccio (Sa): Donato Ceres, Alessandro Russomanno, Donatello Cirillo, Mario Di Trolio, Paolo Viscardi.
 15/04/2010::Paolo Viscardi e Alessandro Russomano hanno conseguito il brevetto di Istruttore di atletica leggera FIDAL (Federazione Italiana Di Atletica Leggera).
 21/03/2010::Donato Ceres ha partecipato alla gara podistica "XVI Maratona di Roma" di km 42,195 a Roma. Accompagnatore Saverio Perna.
 20/02/2010::Assegnato il pettorale di gara a Donato Ceres per disputare la XVI Maratona di Roma del 21.03.2010: correr&agrave; con il numero 3196, partendo nel settore B.
 11/01/2010::La squadra podistica dell'ARS si &egrave; affiliata -per l'anno 2010- alla UISP Unione Italiana Sport Per tutti.
-08/11/2009::Partecipanti alla gara podistica "III Memorial B.Germano di km 9 a Sicignano degli Alburni (Sa): Donato Ceres, Paolo Viscardi, Alessandro Russomanno, Giuseppe Spatola, Gelsomino Del Guercio.
+08/11/2009::Partecipanti alla gara podistica "III Memorial B.Germano di km 8,9 a Sicignano degli Alburni (Sa): Donato Ceres, Paolo Viscardi, Alessandro Russomanno, Giuseppe Spatola, Gelsomino Del Guercio.
 31/10/2009::Si &egrave; svolto l'allenamento podistico collettivo di km 11,5 in localit&agrave; Pasano (Caposele). Dieci i partecipanti.
 18/09/2009::Partecipanti alla gara podistica "XV StraSalerno half marathon" di km 21,097 a Salerno: Paolo Viscardi, Saverio Perna, Alessandro Russomanno, Donatello Cirillo, Mario Di Trolio, Gelsomino Del Guercio
 12/09/2009::Partecipanti allla gara "Podistica Anspi" di km 7,6 a Melito Irpino (Av): Saverio Perna, Alessandro Russomanno, Giuseppe Spatola, Donatello Cirillo, Gelsomino Del Guercio, Antonio Della Fera.

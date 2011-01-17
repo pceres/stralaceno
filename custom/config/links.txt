@@ -13,9 +13,7 @@ http://www.caposeleonline.it::Caposeleonline
 #http://liceonline.altervista.org/::Liceo di Caposele
 #http://www.prolococaposele.it::Pro Loco Caposele
 http://www.podistidoc.it/::Podistidoc
-http://www.servizinews.it/servizi/podismo/podismo00.htm::Calendario podistico
 http://www.fidal.it/::Fidal
 http://www.fidalcampania.com::Fidal Campania
-http://www.fidalavellino.it:: Fidal Avellino
 http://www.fidalsalerno.it:: Fidal Salerno
 http://www.polisportivacalabritto.it:: Polisportiva Calabritto

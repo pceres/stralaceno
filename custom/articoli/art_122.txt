@@ -1,0 +1,29 @@
+Autore::Ars
+Titolo::Allenamento Collettivo 30.12.2010
+--- Begin body ---
+<br>
+La partenza e' avvenuta regolarmente alle ore 15.00.
+13 partecipanti per questa edizione:
+<ul>
+<li>Donato Ceres;</li>
+<li>Nicola Cirillo;</li>
+<li>Donatello Cirillo;</li>
+<li>Nicola D'Auria;</li>
+<li>Alfonsina D'Auria (fino a S. Caterina);</li>
+<li>Salvatore Merola;</li>
+<li>Alfonso Rosania;</li>
+<li>Alessandro Russomanno;</li>
+<li>Lello Viscardi;</li>
+<li>Paolo Viscardi;</li>
+<li>Giovanni Viscardi;</li>
+<li>Giuseppe Spatola (a partire da S. Caterina);</li>
+<li>Carmine Corbo (a partire da S. Caterina).</li>
+</ul>
+<div align="center">
+<img id="AllenamentoCollettivo" src="%file_root%custom/album/All.Coll.10/COL23.jpg" alt="FotoAllenamentoCollettivo" border="0" width="550">
+</div>
+<br>
+Hanno collaborato Michele (riprese) e il fratello Pasquale Ceres (foto).<br><br>
+Inserite altre foto il 15 gennaio che trovate
+<a href="album.php?anno=All.Coll.10">qui</a>. 
+--- End body ---

@@ -1,0 +1,17 @@
+Autore::Corriere.it
+Titolo::L'esercizio fisico come antidepressivo
+--- Begin body ---
+<BR>
+<b><i>Chi &egrave; pi&ugrave; sedentario nel tempo libero ha circa il doppio delle possibilit&agrave; di presentare sintomi del mal di vivere.</b></i>
+<BR><br>
+Fare movimento nel tempo libero sembrerebbe una valida strategia per tenere alla larga ansia e depressione. Lo segnala uno studio pubblicato sul British Journal of Psychiatry. Nella ricerca condotta in Norvegia sono state prese in considerazione 40mila persone alle quali sono state fatte una serie di domande sull’attivit&agrave; fisica svolta nel tempo libero e durante l’orario lavorativo.<BR>
+ I dati raccolti indicano che chi &egrave; pi&ugrave; sedentario nel tempo libero ha circa il doppio delle possibilit&agrave; di presentare sintomi di depressione rispetto a chi dedica pi&ugrave; tempo all’attivit&agrave; fisica e che questo fenomeno non &egrave; influenzato dall’intensit&agrave; dell’esercizio. Non solo, i ricercatori hanno notato che anche il contesto in cui viene svolta l’attivit&agrave; fisica ha un suo peso: se lo sport &egrave; praticato in un ambiente vitale sono pi&ugrave; evidenti le ricadute positive sull’umore, probabilmente grazie agli effetti positivi della socializzazione.
+<BR><BR>
+ENDORFINE - «Gli effetti benefici dell’attivit&agrave; fisica nei confronti dei disturbi ansioso-depressivi sono legati principalmente a due meccanismi - spiega Carlo Altamura, professore ordinario di psichiatria all’Universit&agrave; di Milano -. Da una parte l’esercizio aiuta a scaricare la tensione muscolare che d&agrave; una sensazione di malessere al soggetto (tra le attivit&agrave; pi&ugrave; utili a questo scopo rientrano, per esempio, lo yoga e il nuoto), dall’altro stimola la produzione di endorfine, sostanze che promuovono una sensazione di benessere con il risultato di finale di migliorare l’umore e ridurre lo stress». 
+<BR>Ma perché l’esercizio fatto nel tempo libero &egrave; pi&ugrave; valido, almeno sul fronte dell’umore, di quello fatto durante il lavoro? «Quando ci si esercita nell’orario lavorativo non si riesce mai a staccare la spina in modo completo e quindi viene meno l’effetto rilassante dell’attivit&agrave; fisica. Meglio ritagliarsi un po' di tempo da dedicare allo sport quando si lascia l’ufficio alla spalle - suggerisce l’esperto -. Se si &egrave; un po' pigri si pu&ograve; optare per attivit&agrave; di gruppo che spesso servono da incentivo, ma vanno bene anche tutti gli sport individuali a partire dalla corsa».
+<br><br>
+<div align="center">
+<img id="" src="%file_root%custom/album/varie/run.jpg" alt="" border="0" width="480">
+</div>
+<br>
+--- End body ---

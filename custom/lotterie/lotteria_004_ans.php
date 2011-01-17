@@ -37,35 +37,36 @@ Spagna
 # Qualificato ottavi 16:
 Cile
 # Qualificato quarti 1:
-nd
+Uruguay
 # Qualificato quarti 2:
-nd
+Ghana
 # Qualificato quarti 3:
-nd
+Germania
 # Qualificato quarti 4:
-nd
+Argentina
 # Qualificato quarti 5:
-nd
+Olanda
 # Qualificato quarti 6:
-nd
+Brasile
 # Qualificato quarti 7:
-nd
+Spagna
 # Qualificato quarti 8:
-nd
+Paraguay
+
 # Qualificato semifinale 1:
-nd
+Olanda
 # Qualificato semifinale 2:
-nd
+Uruguay
 # Qualificato semifinale 3:
-nd
+Germania
 # Qualificato semifinale 4:
-nd
+Spagna
 # Qualificato finale 1:
-nd
+Olanda
 # Qualificato finale 2:
-nd
+Spagna
 # Vincitore:
-nd
+Spagna
 
 #
 # Le risposte sono suddivise in gruppi. Per ciascun gruppo esiste un set di risposte piu' o meno corrette
@@ -83,35 +84,35 @@ nd
 # es: Sudafrica::5,0;4,0;3,0;2,0
 [punteggio_risposte]
 Sudafrica::5,1;4,0;3,0;2,0;1,0
-Messico::5,3;
-Uruguay::5,4;
+Messico::5,3;4,0;3,0;2,0;1,0
+Uruguay::5,4;4,4;3,2;2,0;1,0
 Francia::5,0;4,0;3,0;2,0;1,0
-Argentina::5,4;
+Argentina::5,4;4,4;3,0;2,0;1,0
 Nigeria::5,0;4,0;3,0;2,0;1,0
-Corea del Sud::5,4;
+Corea del Sud::5,4;4,0;3,0;2,0;1,0
 Grecia::5,0;4,0;3,0;2,0;1,0
-Inghilterra::5,4;
-USA::5,4;
+Inghilterra::5,4;4,0;3,0;2,0;1,0
+USA::5,4;4,1;3,0;2,0;1,0
 Algeria::5,0;4,0;3,0;2,0;1,0
 Slovenia::5,0;4,0;3,0;2,0;1,0
-Germania::5,4;
-Australia::5,1;
+Germania::5,4;4,4;3,4;2,0;1,0
+Australia::5,1;4,0;3,0;2,0;1,0
 Serbia::5,0;4,0;3,0;2,0;1,0
-Ghana::5,3;
-Olanda::5,4;
+Ghana::5,3;4,3;3,2;2,0;1,0
+Olanda::5,4;4,4;3,4;2,4;1,1
 Danimarca::5,0;4,0;3,0;2,0;1,0
 Camerun::5,0;4,0;3,0;2,0;1,0
-Giappone::5,4;
+Giappone::5,4;4,2;3,0;2,0;1,0
 Italia::5,0;4,0;3,0;2,0;1,0
-Paraguay::5,4;
+Paraguay::5,4;4,2;3,0;2,0;1,0
 Nuova Zelanda::5,0;4,0;3,0;2,0;1,0
-Slovacchia::5,4;
-Brasile::5,4;
+Slovacchia::5,4;4,0;3,0;2,0;1,0
+Brasile::5,4;4,4;3,0;2,0;1,0
 Corea del Nord::5,0;4,0;3,0;2,0;1,0
 Costa D'Avorio::5,0;4,0;3,0;2,0;1,0
-Portogallo::5,4;
-Spagna::5,4;
+Portogallo::5,4;4,0;3,0;2,0;1,0
+Spagna::5,4;4,4;3,4;2,4;1,3
 Svizzera::5,0;4,0;3,0;2,0;1,0
 Honduras::5,0;4,0;3,0;2,0;1,0
-Cile::5,4;
+Cile::5,4;4,0;3,0;2,0;1,0
 

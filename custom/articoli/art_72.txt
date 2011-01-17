@@ -1,13 +1,19 @@
 Autore::ARS
-Titolo::Visite Mediche 
+Titolo::Visite Mediche
 --- Begin body ---
 <br>
-<b>LE VISITE MEDICHE SI TERRANNO SABATO 12 DICEMBRE ALLE ORE 18.00 PRESSO MEDICO DELLO SPORT AD EBOLI.</b>
+<b><font size="3">Le visite mediche per l'idoneità alla pratica sportiva agonistica si svolgeranno GIOVEDI' 16 DICEMBRE 2010 presso lo studio del DR. LUIGI SIRICO ad EBOLI, via Salerno n.4 (nelle vicinanze del tribunale), alle ore 18.30.</font>
+</b>
 <br>
 <br>
-A Dicembre gli Amatori Running Sele organizzeranno le visite mediche per  l’idoneità alla pratica agonistica dell’atletica leggera.<br><br>
-Tutti gli interessati, soci e non, a far parte, per l’anno 2010, della squadra podistica agonistica dell’ARS,  possono comunicare la propria disponibilità a Paolo Viscardi (e-mail paolovisca86@hotmail.it) o ad Alessandro Russomanno (e-mail alexruss75@yahoo.it).<br><br><br>
-<div align="center">
+<!--
+<br>
+<font color="blue"><b>Si ricorda a tutti gli interessati, soci e non, al tesseramento per la squadra agonistica podistica anno 2011, che, a tal fine, sar&agrave; necessario possedere il certificato medico d’idoneit&agrave; alla pratica agonistica dell’atletica leggera.<br><br>
+Nel mese di Dicembre (il luogo, la data e l’orario verrà comunicato successivamente),  l’Associazione fisser&agrave; un appuntamento con un medico sportivo per sostenere la relativa visita sanitaria. 
+<br><br>
+La propria disponibilit&agrave; va comunicata a Paolo Viscardi (e-mail paolovisca86@hotmail.it) o ad Alessandro Russomanno (e-mail alexruss75@yahoo.it).<br><br><br>
+-->
+<div align="center"></b></font>
 <img id="CSEN" src="%file_root%custom/album/ars/ars.jpg" alt="" border="0" width="150">
 </div>
 --- End body ---

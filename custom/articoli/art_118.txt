@@ -1,0 +1,11 @@
+Autore::Ars
+Titolo::Avviamento all'Atletica
+--- Begin body ---
+<br><br>
+<div align="center">
+<b><font size="4"><font color="red">L'ATTIVITA' E' SOSPESA</font></font><br><br>
+<br>
+<img id="" src="%file_root%custom/album/ars/AvvAtl10.jpg" alt="" border="0" width="550">
+</div>
+<br><br>
+--- End body ---

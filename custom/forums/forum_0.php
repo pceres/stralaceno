@@ -21,16 +21,16 @@ Formato [elenco_topics]:
 4::Sondaggio Champions League::open::::::Pasquale C.::17::16
 5::Benvenuti nel forum::hidden::::::ceres::4::3
 6::Come funziona il forum::open::::::ceres::3::2
-7::Le sfide della Stralaceno::open::::::foxy::138::137
+7::Le sfide della Stralaceno::open::::::foxy::141::145
 8::Soddisfatti della stralaceno edizione 2006???::hidden::::::cabo86::5::4
-9::Discussione::open::::::Antonio::244::232
-10::Gare::open::::::cabo::27::26
+9::Discussione::open::::::Antonio::259::247
+10::Gare::open::::::cabo::35::44
 11::Sezione ciclismo::open::::::Donato Gervasio::33::32
-12::Allenamento Collettivo::open::::::Ars::40::39
+12::Allenamento Collettivo::open::::::Ars::42::41
 13::Per nazòn::hidden::::::antonio::4::3
 14::F.C. Caposele::open::::::Ars::49::48
-15::Elezioni comunali a Caposele::open::::::Cleon.ren::121::120
-16::Sezione Ambiente e Natura::open::::::Ambiente::75::74
+15::Elezioni comunali a Caposele::open::::::Cleon.ren::138::137
+16::Sezione Ambiente e Natura::open::::::Ambiente::82::82
 17::Per l'inviato::hidden::::::christian meyer::6::5
 18::Il 3 novembre si disputerà la Quasinove: gara podistica organizzata da Nicola Melillo::hidden::::::Jerry Notaro::2::1
 19::Genealogia caposelese::open::::::Pasquale C.::6::5
@@ -45,4 +45,9 @@ Formato [elenco_topics]:
 28::sentenza::hidden::::::emigrato::1::0
 29::forza caposele::hidden::::::gaetano::2::1
 30::MEZZA MARATONA CITTA' DI POTENZA TUNE-UP::hidden::::::MIMMO55::1::0
-31::I problemi di caposele::open::::::gaetano::2::1
+31::I problemi di caposele::open::::::gaetano::3::2
+32::vergognatevi!!!!!::hidden::::::ESASPERATI::1::0
+33::sto arrivando!!::open::::::gaetano::1::0
+34::stufato::hidden::::::hamsik::3::2
+35::turismo::hidden::::::paese???????::1::0
+36::povera italia::hidden::::::lavoro...::2::1
