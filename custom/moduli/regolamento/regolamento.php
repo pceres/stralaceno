@@ -17,7 +17,7 @@ extract(indici());
 </head>
 <body>
 
-<table width="100%" align="center" style="background-color:rgb(255, 255, 255);">
+<table summary="header" width="100%" align="center" style="background-color:rgb(255, 255, 255);">
   <tbody>
 	<tr>
 		<td align="center">
@@ -101,6 +101,68 @@ cristallizzando nel corso delle passate edizioni.
 
 </ul>
 
+
+
+<b>Ordine di arrivo e classifica ufficiale</b>
+<ul>
+
+	<li>
+	<p>L'ordine di arrivo &egrave; l'elenco della semplice sequenza dei partecipanti che hanno superato la linea 
+	d'arrivo, con l'indicazione del tempo impiegato. Viene redatto dal Segretario che vi riporta i rilievi cronometrici 
+	dettati dal Cronometrista Ufficiale al quale compete la responsabilit&agrave; della rilevazione e dell'attribuzione di 
+	essi, anche con l'eventuale ausilio del Cronometrista di emergenza.</p>
+	</li>
+
+	<li>
+	<p>In caso di mancata rilevazione di uno o pi&agrave; tempi, il Cronometrista attribuisce ai corridori interessati il 
+	massimo tempo possibile attribuibile in base alle rilevazioni certe effettuate, data la sequenza dei corridori.</p>
+	</li>
+
+	<li>
+	<p>Le rilevazioni in questione devono essere contrassegnate dalla sigla R.A. (rilevazione attribuita).</p>
+	</li>
+
+	<li>
+	<p>L'ordine di arrivo sottoscritto dal Cronometrista e dal Segretario viene consegnato al Direttore di Gara.</p>
+	</li>
+
+	<li>
+	<p>Trascorse 24 ore - termine previsto per eventuali reclami - il direttore di gara, prese le risoluzioni del caso, 
+	redige la classifica ufficiale. Quindi ne proclama l'ufficialit&agrave;.</p>
+	</li>
+
+	<li>
+	<p>La classifica ufficiale &egrave; l'elenco dei partecipanti classificati in base all'ordine di arrivo, in base alle 
+	risoluzioni del Direttore di Gara in merito a eventuali ricorsi e in base alle priorit&agrave; previste dal 
+	regolamento.</p>
+	</li>
+
+	<li>
+	<p>Le priorit&agrave; previste sono :</p>
+	<ol>
+	  <li><u>Corridori regolarmente pervenuti al traguardo entro il tempo massimo stabilito.</u> Per questi corridori 
+	  vale l'ordine di arrivo, fatta salva l'attribuzione di eventuali penalit&agrave; da computarsi in classifica ufficiale. 
+	  Per gli arrivi ex-aequo, i corridori saranno classificati con lo stesso numero d'ordine e menzionati in base al numero 
+	  identificativo.</li>
+	  
+	  <li><u>Corridori non pervenuti al traguardo entro il tempo massimo stabilito.</u> Questi corridori verranno 
+	  classificati secondo il seguente ordine:
+	  
+	  <ol>
+	    <li><u>Corridori pervenuti regolarmente al traguardo, ma fuori tempo massimo.</u> In base all'ordine d'arrivo.</li>
+	    <li><u>Corridori ritirati.</u> In base ai Km percorsi.</li>
+	    <li><u>Corridori squalificati.</u> In base alla gravit&agrave; dell'infrazione; in caso di pari gravit&agrave;, con lo 
+	    stesso numero d'ordine e menzionati in ordine alfabetico.</li>
+	  </ol>
+	  </li>
+	</ol>
+	</li>
+
+	<li>
+	<p>Avverso la classifica ufficiale sono ammessi ricorsi o rettifiche d'ufficio, solo se sussistono nuovi elementi di cui 
+	non si era a conoscenza.</p>
+	</li>
+</ul>
 
 </div>
 
