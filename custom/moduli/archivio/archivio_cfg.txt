@@ -6,8 +6,12 @@
 # formato elenco_album:  tag_album::nome_album::descrizione
 #
 [elenco_album]
-Eboli_2010::::Eboli 2010::Meeting dell'Amicizia UISP di Eboli.
-Contursi_2010::Contursi 2010::V Trofeo cento sorgenti.
+Roma_11::Roma 2011::Maratona di Roma del 20 marzo 2011
+Sorrento_11::Sorrento 2011::MariMonti 2011
+All.Coll.10::Allenamento collettivo 2010::Le foto dell'allenamento di fine anno.
+Eboli_10::Eboli 2010::Meeting dell'Amicizia UISP di Eboli.
+Contursi_10::Contursi 2010::V Trofeo cento sorgenti.
+Roma_10::Roma 2010::Maratona di Roma del 21 marzo 2010
 Stra_10::Stralaceno 2010::La XXII edizione della Stralaceno del 29.08.2010.
 All.Coll.09::Allenamento collettivo 2009::Le foto dell'allenamento di fine anno.
 Sicignano_09::Sicignano 2009::III Memorial B.Germano del 09.11.2009
@@ -45,6 +49,9 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
+125::homepage::Maratona di Roma 2011::Ars
+124::homepage::MareMonti 2011::
+123::homepage::X Vietri e dintorni::
 122::homepage::Allenamento Collettivo 30.12.2010::Ars
 121::homepage::Manifesto Allenamento Collettivo 30.12.2010::Ars
 120::homepage::L'esercizio fisico come antidepressivo::Corriere.it

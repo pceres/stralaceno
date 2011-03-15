@@ -13,7 +13,7 @@ Alex Zanardi ha dominato la gara per handbike con il tempo di 1h15’53”, migliora
 <br><br>
 <b>Bella prestazione del nostro Donato Ceres, arrivato 1.423° su 11.023 atleti giunti al traguardo, con un tempo di 3 ore e 26 minuti e 36 secondi (real time), migliorandosi di 40 minuti rispetto all’edizione precedente.</b>
 <br><br></b>
-<font color="blue">Inserite nuovo foto il 29 novembre 2010 che trovate <a href="album.php?anno=Roma_10">qui</a>.<br></font>
+<font color="blue">L'album della manifestazione lo trovate <a href="album.php?anno=Roma_10">qui</a>.<br></font>
 <p>&nbsp;
 <div align="center">
 <img id="" src="%file_root%custom/album/Roma_10/Roma10_1.jpg" alt="" border="0" width="550">

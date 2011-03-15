@@ -20,10 +20,10 @@ La partenza e' avvenuta regolarmente alle ore 15.00.
 <li>Carmine Corbo (a partire da S. Caterina).</li>
 </ul>
 <div align="center">
-<img id="AllenamentoCollettivo" src="%file_root%custom/album/All.Coll.10/COL23.jpg" alt="FotoAllenamentoCollettivo" border="0" width="550">
+<img id="AllenamentoCollettivo" src="%file_root%custom/album/All.Coll.10/COL45.jpg" alt="Foto Allenamento Collettivo del 30.12.2010" border="0" width="550">
 </div>
 <br>
 Hanno collaborato Michele (riprese) e il fratello Pasquale Ceres (foto).<br><br>
-Inserite altre foto il 15 gennaio che trovate
+L'album fotografico della gara lo trovate
 <a href="album.php?anno=All.Coll.10">qui</a>. 
 --- End body ---

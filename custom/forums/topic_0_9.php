@@ -259,6 +259,24 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 245::deluso::24/11/2010 18.55.41::visible
 246::stupido::25/11/2010 18.39.33::visible
 247::nessuno::15/01/2011 12.19.11::visible
+248::Ulisse ::19/01/2011 18.04.53::visible
+249::aristotele::19/01/2011 19.05.47::visible
+250::platone::19/01/2011 23.58.21::visible
+251::Senofane::20/01/2011 08.56.51::visible
+252::Talete::20/01/2011 08.58.43::visible
+253::platone::20/01/2011 10.14.08::visible
+254::Ulisse::20/01/2011 10.37.19::visible
+255::Talete::20/01/2011 10.54.39::visible
+256::incazzato::09/02/2011 17.36.01::visible
+257::deluso::18/02/2011 17.52.10::visible
+258::nicola m.::21/02/2011 17.00.17::visible
+259::MATERDOMINESE::23/02/2011 00.52.55::visible
+260::caposelese stanco::24/02/2011 13.45.58::visible
+261::attento osservatore::26/02/2011 19.42.14::visible
+262::mortificato::03/03/2011 19.15.32::visible
+263::ah ah::03/03/2011 22.28.42::visible
+264::scontento e stanco::09/03/2011 11.46.23::visible
+265::il punitore::09/03/2011 13.39.38::visible
 
 [post_text_0]
 Fermate Nicola Melillo con questa stralaceno: anche i muri di materdomini e caposele non ne possono più.
@@ -1585,3 +1603,57 @@ vergognatevi tutti nessuno scrive niente e propone nulla che paese schifoso e ri
 
 [post_text_247]
 alfonso rosania il migliore sei tu
+
+[post_text_248]
+Caro M.C. solo rapporti di semplice conoscenza...
+
+[post_text_249]
+a chi ti riferisci imparate a farvi capire non fate sempre i furbi.
+
+[post_text_250]
+caro ulisse ar solo rapporti di platonica conoscenza
+
+[post_text_251]
+Caro Ulisse ti sei sbagliato... trattasi di AC
+
+[post_text_252]
+&gt;caro ulisse ar solo rapporti di platonica conoscenza<br>&gt;<br><br>ulisse = AC non ar
+
+[post_text_253]
+caro senofane ti chiedo scusa, pensavo fossi ulisse, invece era il solito calesse
+
+[post_text_254]
+No, trattasi di PC Alfa-L A Alfa=...?
+
+[post_text_255]
+&gt;No, trattasi di PC Alfa-L A Alfa=...?<br>&gt;<br><br>PC Alfa-L A Alfa = NDA
+
+[post_text_256]
+finalmente ho iniziato a lavorare in tipografia e' dura ma devo resistere sono stati sconfitti tutti i gufi che in questo paese ce ne sono molti mi dispiace per voi ma e' questa la realta' io impegnato e voi a spasso.
+
+[post_text_257]
+FARINA Dimettiti A QUANTO IL VOSTRO PRIMO PROGETTO EX CUORE FORSE NON RIUSCIREMO A VEDERLO SPERIAMO BENE FAI COME DOVREBBE AGIRE IL SIGN. BERLUSCONI TOGLI IL DISTURBO E RITIRATI A VITA PRIVATA CHE LA POLITICA E' UNA COSA DIVERSA IMPEGNO DEDIZIONE CAPACITA' CONOSCENZA TEMPO IDEE QUALITA' CHE NON TI APPARTENGONO.
+
+[post_text_258]
+che tristezza questo stupido paese ogni giorno che passa si capisce sempre di piu' che in 30 anni dal terremoto non si e' costruito mai niente di concreto e di vero sono cambiate solo le amministrazioni ma il risultato e' sempre lo stesso siamo l' unico paese della zona che non ha un' area artigianale,l' unico e dico unico a non avere un campetto di calcetto in erba sintetica , l' unico ad avere uno stadio in erba mal utilizzato e difficilmente raggiungibile,l' unico ad avere una funzionante piscina comunale consegnata ad una coperativa di lioni,l' unico a non avere un grande parcheggio sia a caposele che soprattutto a materdomini,l' unico a non essere mai riusciti a sfruttare fino in fondo la risorsa acqua bene che ci invidiano in tutta l' italia,l' unico ad essere stato ricostruito nel post-terremoto cosi' com' era senza minimamente pensare ad un criterio di sviluppo commerciale,l' unico dopo 30 anni dal sisma a pensare di essere commercianti nelle bancarelle di ferro a materdomini.in sostanza a tutti gli amministratori attuali ed ex vi dico una sola cosa:VERGOGNA.
+
+[post_text_259]
+&gt;che tristezza questo stupido paese ogni giorno che passa si capisce sempre di piu' che in 30 anni dal terremoto non si e' costruito mai niente di concreto e di vero sono cambiate solo le amministrazioni ma il risultato e' sempre lo stesso siamo l' unico paese della zona che non ha un' area artigianale,l' unico e dico unico a non avere un campetto di calcetto in erba sintetica , l' unico ad avere uno stadio in erba mal utilizzato e difficilmente raggiungibile,l' unico ad avere una funzionante piscina comunale consegnata ad una coperativa di lioni,l' unico a non avere un grande parcheggio sia a caposele che soprattutto a materdomini,l' unico a non essere mai riusciti a sfruttare fino in fondo la risorsa acqua bene che ci invidiano in tutta l' italia,l' unico ad essere stato ricostruito nel post-terremoto cosi' com' era senza minimamente pensare ad un criterio di sviluppo commerciale,l' unico dopo 30 anni dal sisma a pensare di essere commercianti nelle bancarelle di ferro a materdomini.in sostanza a tutti gli amministratori attuali ed ex vi dico una sola cosa:VERGOGNA.<br>&gt;<br><br>VERGOGNATEVIIIIIIIII!!!!!!!!!!! CAPOSELE E' LA MUNNEZZA D'ITALIA!!! NON VOGLIAMO ESSERE AMMINISTRATI PIU' DA NESSUNO!!!COMMISSARIO A VITA A CAPOSELE CI VUOLE...I COMIZI CHE FANNO A CAPOSELE POSSONO ESSERE TRASMESSI A ZELIG!!!CAPOSELE COMUNE DI MERDA!!!CAPOSELE E' FINITO!!! CAPOSELE PEGGIO DEL BANGLADESCH!!!MISERIA,POVERTA',TRISTEZZA!!!PAESE DA ROTTAMARE!!!IMMIGRATI STATEVI DOVE SIETE...NON VENITE A DETTARE LEGGI A NATALE E PASQUA...NON VI VOGLIAMO!!!CAPOSELE PAESE DEGLI ANZIANI...IL TURISMO DEVE FINIRE!!!ANDATE ALLA PIANA A GUADAGNARVI LA GIORNATA!!!
+
+[post_text_260]
+ottimo messaggio io sono con te e' questa purtroppo la dura realta' di questo paese speriamo in anni migliori.
+
+[post_text_261]
+ci sono persone che non si vedono mai in giro per caposele appaiono all' improvviso e pensano di organizzare allenamenti corse mahhh mi sembra molto strano cosa ne pensate?le conquiste si ottengono con sudore visibilita' partecipazione coinvolgimento vero simpatia collaborazione convincimento non dalla mattina alla sera .
+
+[post_text_262]
+VERGOGNA nessuno propone niente poi arriva l' estate e sono tutti sportivi quanti partecipanti si prevedono al prossimo allenamento collettivo di aprile che tristezza vedere questo paese spegnersi sempre di piu' ogni giorno che passa la prossima tornata elettorale i voti andate a cercarli da altre parti se vogliamo cambiare e dare un vero segnale di sfiducia non deve andare nessuno alle urne cosi' poi vediamo che succede.
+
+[post_text_263]
+ah ah sei un mito ah ah
+
+[post_text_264]
+ma che senso ha questo forum quando nessuno scrive niente il verbo discutere a caposele non si conosce si e' bravi solo davanti ai bar       a chiacchierare sempre di pallone e stronzate che livello culturale basso e scadente che regna qui non si riesce a trovare un discreto lavoro fuori altrimenti sicuramente non ero qui solita sfortuna e poi    in italia ci sono gente che dice che la crisi non c' e'mai stata e' normale hanno qualcosa loro e non gli frega degli altri sperate sempre che resiste il dittatore berlusconi perche' quando vincera' di nuovo la sinistra vivrete giorni difficili per non parlare delle tante persone che vorrebbero un posto fisso e lo cercano per una vita intera senza riuscirci mi fermo altrimenti potrei dire tante altre cose che potrebbero intaccare la sensibilita' di molti.
+
+[post_text_265]
+visto il basso livello culturale, magari ci si potrebbe accontentare di un po' di punteggiatura

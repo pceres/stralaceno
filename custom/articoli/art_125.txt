@@ -1,0 +1,20 @@
+Autore::Ars
+Titolo::Maratona di Roma 2011
+--- Begin body ---
+<br>
+Ormai manca poco al via della XVII edizione della Maratona di Roma, in programma il 20 marzo.<br>
+Da anni &egrave; la Maratona pi&ugrave; partecipata d'Italia e quella con pi&ugrave; atleti giunti al traguardo, inserita qualche 
+mese fa nella Gold List delle 15 maratone pi&ugrave; belle e attrezzate del mondo da parte della Federazione 
+Internazionale di Atletica Leggera.<br><br>
+L’Edizione 2011 della Maratona d&igrave; Roma riveste per la buona riuscita un’importanza fondamentale, perché la citt&agrave; di Roma si &egrave; candidata a ospitare la sede dei XXXII Giochi Olimpici e dei XVI Giochi Paralimpici che si svolgeranno nel 2020.
+Al riguardo &egrave; importante (a dimostrazione dell'indiscutibile fascino esercitato dalla citt&agrave; di Roma) lo straordinario numero di atleti che parteciperanno alla Maratona sulla classica lunghezza dei 42,195 km: <b>16.188 iscritti</b> provenienti da 84 nazioni, 9.147 italiani e 7.041 dall’estero. A questi atleti si aggiungeranno le 85.000 presenze in via dei Fori Imperiali al via alla RomaFun la Stracittadina di km 4 non competitiva aperta a tutti.<br><br>
+Roma sar&agrave; una citt&agrave; in festa con bande e farfare nusucali lungo tutto il percorso, dalla partenza di via dei Fori imperiali, piazza Venezia, Teatro Marcello, via dei Cerchi, Basilica di S Paolo, lungotevere in direzione sinagoga, l’Area Pacis, San Pietro, Foro Italico, Moschea, piazza Navona, Torre Argentina, Corso, Piazza del Popolo, Piazza di Spagna, Fontana di Trevi, piazza Venezia via San Gregorio il Colosseo e arrivo in via fori Imperiali.
+<br><br>
+<b>I “nostri” Donato Ceres e Saverio Perna sono alle prese con gli ultimi allenamenti impegnativi
+per cercare di arrivare al meglio al prestigioso appuntamento.
+Moltissimi i km macinati in questi mesi dai due, un duro lavoro che si spera possa dare i suoi frutti. Forza ragazzi!</b>
+<p>&nbsp;
+<div align="center">
+<img id="" src="%file_root%custom/album/Roma_11/roma 2011.jpg" alt="" border="0" width="550">
+</div>
+--- End body ---

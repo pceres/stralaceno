@@ -84,7 +84,7 @@ AvvAtl10.jpg::
 Sa10.JPG::
 AllColl13.11.10.jpg::
 AllColl13.11.10.jpg_2::
-
+Vietri2011.jpg::
 
 [All.Coll.05]
 ManifestoAll.Coll.05.jpg::
@@ -150,6 +150,7 @@ Trofeo_San_Rocco_2010.jpg::
 Trofeo_S.Rocco_10.jpg::
 SalernoMezza.jpg::
 run.jpg::
+Sorrento.jpg::
 
 [Soci_ars]
 LV2.jpg::Lello Viscardi::
@@ -1338,3 +1339,45 @@ COL23.jpg::
 COL24.jpg::
 COL25.jpg::
 COL26.jpg::
+COL27.jpg::::Confluenza fiume Zagarone (a sinistra) - fiume Sele
+COL28.jpg::
+COL29.jpg::
+COL30.jpg::
+COL31.jpg::
+COL32.jpg::
+COL33.jpg::
+COL34.jpg::
+COL35.jpg::
+COL36.jpg::
+COL37.jpg::
+COL38.jpg::
+COL39.jpg::
+COL41.jpg::
+COL42.jpg::
+COL43.jpg::
+COL44.jpg::
+COL45.jpg::
+
+[Sorrento_11]
+Sor2.jpg::
+Sor3.jpg::
+Sor11.jpg::
+Sor_11_00.jpg::
+Sor_11_08.jpg::
+Sor8.jpg::
+Sor9.jpg::
+Sor_11_01.jpg::
+Sor10.jpg::
+Sor4.jpg::
+Sor_11_02.jpg::
+Sor_11_03.jpg::
+Sor12.jpg::
+Sor_11_09.jpg::
+Sor13.jpg::
+Sor5.jpg::
+Sor6.jpg::
+Sor7.jpg::
+Sor1.JPG::::Nella foto il gruppo ARS a Sorrento in compagnia di Stefano Baldini, medaglia d'oro nella Maratona ai giochi olimpici di Atene 2004::
+
+[Roma_11]
+roma 2011.jpg:: 

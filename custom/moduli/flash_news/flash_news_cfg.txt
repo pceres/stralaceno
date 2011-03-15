@@ -148,3 +148,12 @@
 #
 [testo_footer]
 #Ultimo aggiornamento effettuato il ../../....
+occadaspide (SA) e il giorno 22 alla III edizione della 10 km di Acerno (SA).
+08/06/2006::Alle 18.00 si sono chiuse le giocate per il sondaggio Mondiali di Calcio 2006. Sono state regolarmente registrate 117 giocate.
+15/04/2006::Il 15 aprile si &egrave; tenuta l'Assemblea annuale dell'Associazione, in cui &egrave; stato approvato il rendiconto economico 2005.
+
+#
+# formato testo_footer:  testo
+#
+[testo_footer]
+#Ultimo aggiornamento effettuato il ../../....
