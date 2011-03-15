@@ -112,18 +112,14 @@ $path = $_SERVER['SCRIPT_FILENAME'];
 $root_prefix_work = "/".$root_prefix;
 
 // determina l'ultima occorrenza di root_prefix
-$temp=strpos($path,$root_prefix_work);
-if (strlen($temp."a")==1) // verifica che root_prefix sia presente nel path
-{
-	die("Errore: il path della radice del sito ($path) sul server non contiene '$root_prefix' ");
-}
-do {
-	$path = substr($path,$temp);
-	$temp=strpos($path,$root_prefix_work,1)."a";
-} while (strlen($temp)>1);
-// taglia la parte restante del path fino al simbolo '/'
-$path = substr($path,strpos($path,$root_prefix_work));
-$root_prefix_work = substr($path,0,strpos($path,"/",1));
+$abs_path_library = (__FILE__); // absolute path to libreria.php (no symlinks), es. "/var/www/htdocs/work/stralaceno.git/libreria.php"
+$parent_path_library = dirname(__FILE__); // Parent folder containing libreria.php (no ymlinks), es. "/var/www/htdocs/work/stralaceno.git"
+$rel_path_library = str_replace($parent_path_library,"",$abs_path_library); // relative path of libreria.php, es. "/libreria.php"
+$abs_path_script_filename = realpath($path); // Absolute path to HTTP SCRIPT_FILENAME (with symlinks), es. "/var/www/htdocs/work/stralaceno.git/index.php"
+$rel_path_script_filename = str_replace($parent_path_library,"",$abs_path_script_filename); // relative path to HTTP SCRIPT_FILENAME (with symlinks), es. "/index.php"
+$abs_root_path = str_replace($rel_path_script_filename,"",$path); // Root path to HTTP SCRIPT_FILENAME (with symlinks), es. "/var/www/htdocs/work/stralaceno.git"
+$root_prefix_work = "/".basename($abs_root_path); // Root folder to HTTP SCRIPT_FILENAME (with symlinks), es "/stralaceno.git"
+
 
 // determina il path assoluto nel filesystem del server (serve quando si accede direttamente ai file per leggere o scrivere)
 $path = $_SERVER['SCRIPT_FILENAME'];
@@ -135,7 +131,7 @@ do {
 		$end = $test+strlen($root_prefix_work);
 	}
 } while ($test);
-$root_path = substr($path,0,$end+1);
+$root_path = substr($path,0,$end+1); // es. "/var/www/htdocs/work/ars.git/"
 
 // path assoluto da usare per gli script php
 $start = strpos($_SERVER['SCRIPT_NAME'],$root_prefix_work);
@@ -188,7 +184,7 @@ do {
 		$end = $test+strlen($root_prefix_work);
 	}
 } while (strlen($test."a")>1);
-$site_abs_path = substr($path,0,$end+1);
+$site_abs_path = substr($path,0,$end+1); // es. "/work/ars.git/"
 
 
 #path assoluti
