@@ -277,6 +277,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 263::ah ah::03/03/2011 22.28.42::visible
 264::scontento e stanco::09/03/2011 11.46.23::visible
 265::il punitore::09/03/2011 13.39.38::visible
+266::DELUSO::17/03/2011 12.14.40::visible
 
 [post_text_0]
 Fermate Nicola Melillo con questa stralaceno: anche i muri di materdomini e caposele non ne possono più.
@@ -1657,3 +1658,6 @@ ma che senso ha questo forum quando nessuno scrive niente il verbo discutere a c
 
 [post_text_265]
 visto il basso livello culturale, magari ci si potrebbe accontentare di un po' di punteggiatura
+
+[post_text_266]
+FARINA DIMETTITI OGNI GIORNO CHE PASSA SI CAPISCE SEMPRE DI PIU' CHE FARE IL SINDACO NON E' PER TE LASCIA STARE ORAMAI CAPOSELE E' UN PAESE DI ANZIANI BAMBINI NON E' POSSIBILE CONTINUARE COSI' SIAMO DIVENTATI UNO DEI PEGGIORI COMUNI DELL'IRPINIA GIOVANI CAPACI E VOLENTEROSI FATEVI AVANTI CI VUOLE UNA  SCOSSA VERA CON UNA LISTA CIVICA DI RAGAZZI CHE SI VOGLIONO IMPEGNARE SERIAMENTE CON IDEE E PROGETTI FACENDO I FATTI E NON LE SOLITE CHIACCHIERE DA BAR SOLO COSI' POSSIAMO GUARDARE AL FUTURO CON PIU' OTTIMISMO.
