@@ -1,6 +1,21 @@
 Autore::Ars
 Titolo::Maratona di Roma 2011
 --- Begin body ---
+<br>Lo scorso anno aveva vinto in volata e dunque non aveva avuto il tempo per farlo. Quest'anno ha trionfato per la terza volta consecutiva, togliendosi le scarpe a duecento metri dall'arrivo e tagliando il traguardo di Via dei Fori Imperiali a piedi scalzi come il mitico Abebe Bikila nelle Olimpiadi di Roma nel 1960. La 27enne etiope Firehiwot Dado Tufa ha trionfato questa mattina nella 17^ Maratona di Roma Acea, tagliando il traguardo con il tempo di 2h24'13'', nuovo primato personale.
+<br><br>
+Il 24enne keniano Dickson Chumba Kiptolo ha invece trionfato nella gara maschile, tagliando il traguardo in 2h08'45''. Chumba ha lanciato un attacco violento al 32° km, staccando il vincitore dello scorso anno, il 27enne etiope Siraj Gena Amda (2h09'21'') e il 26enne Abdullah Shami Dawit (2h09'42'').
+<br><br>
+Gli iscritti alla gara sono stati 16.188. Giunti al traguardo 11.895 atleti.
+<br><br>
+<b>Hanno completato la gara Donato Ceres e Saverio Perna. I due rappresentanti dell'ARS non sono riusciti a ritoccare le rispettive migliori prestazioni personali sulla distanza. <br>Donato ha realizzato il tempo di 3h 36' 42'' (real time) classificandosi al 2574° posto, Saverio ha ottenuto 3h 43' 54'' (real time) in 3379° posizione.</b>
+<br><br>
+<i><font color="blue">L'album della gara lo trovate <a href="album.php?anno=Roma_11">qui</a>.<br></font>
+</b></i>
+<p>&nbsp;
+<div align="center">
+<img id="" src="%file_root%custom/album/Roma_11/XVIIroma13.jpg" alt="" border="0" width="500">
+</div>
+<!--
 <br>
 Ormai manca poco al via della XVII edizione della Maratona di Roma, in programma il 20 marzo.<br>
 Da anni &egrave; la Maratona pi&ugrave; partecipata d'Italia e quella con pi&ugrave; atleti giunti al traguardo, inserita qualche 
@@ -12,9 +27,6 @@ Roma sar&agrave; una citt&agrave; in festa con bande e farfare lungo tutto il pe
 <br><br>
 <b>I “nostri” Donato Ceres e Saverio Perna hanno completato gli ultimi allenamenti impegnativi
 per cercare di arrivare al meglio al prestigioso appuntamento.
-Moltissimi i km macinati in questi mesi dai due, un duro lavoro che si spera possa dare i suoi frutti. Forza ragazzi!</b>
-<p>&nbsp;
-<div align="center">
-<img id="" src="%file_root%custom/album/Roma_11/roma 2011.jpg" alt="" border="0" width="550">
-</div>
+Moltissimi i km macinati in questi mesi dai due, un duro lavoro che si spera possa dare i suoi frutti. Forza ragazzi!
+-->
 --- End body ---

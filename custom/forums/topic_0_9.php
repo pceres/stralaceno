@@ -278,6 +278,10 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 264::scontento e stanco::09/03/2011 11.46.23::visible
 265::il punitore::09/03/2011 13.39.38::visible
 266::DELUSO::17/03/2011 12.14.40::visible
+267::..................::23/03/2011 16.54.37::visible
+268::nicola::28/03/2011 18.01.08::visible
+269::commissario::29/03/2011 22.44.29::visible
+270::UMILIATO::30/03/2011 13.30.31::visible
 
 [post_text_0]
 Fermate Nicola Melillo con questa stralaceno: anche i muri di materdomini e caposele non ne possono più.
@@ -1661,3 +1665,22 @@ visto il basso livello culturale, magari ci si potrebbe accontentare di un po' d
 
 [post_text_266]
 FARINA DIMETTITI OGNI GIORNO CHE PASSA SI CAPISCE SEMPRE DI PIU' CHE FARE IL SINDACO NON E' PER TE LASCIA STARE ORAMAI CAPOSELE E' UN PAESE DI ANZIANI BAMBINI NON E' POSSIBILE CONTINUARE COSI' SIAMO DIVENTATI UNO DEI PEGGIORI COMUNI DELL'IRPINIA GIOVANI CAPACI E VOLENTEROSI FATEVI AVANTI CI VUOLE UNA  SCOSSA VERA CON UNA LISTA CIVICA DI RAGAZZI CHE SI VOGLIONO IMPEGNARE SERIAMENTE CON IDEE E PROGETTI FACENDO I FATTI E NON LE SOLITE CHIACCHIERE DA BAR SOLO COSI' POSSIAMO GUARDARE AL FUTURO CON PIU' OTTIMISMO.
+
+[post_text_267]
+&gt;FARINA DIMETTITI OGNI GIORNO CHE PASSA SI CAPISCE SEMPRE DI PIU' CHE FARE IL SINDACO NON E' PER TE LASCIA STARE ORAMAI CAPOSELE E' UN PAESE DI ANZIANI BAMBINI NON E' POSSIBILE CONTINUARE COSI' SIAMO DIVENTATI UNO DEI PEGGIORI COMUNI DELL'IRPINIA GIOVANI CAPACI E VOLENTEROSI FATEVI AVANTI CI VUOLE UNA  SCOSSA VERA CON UNA LISTA CIVICA DI RAGAZZI CHE SI VOGLIONO IMPEGNARE SERIAMENTE CON IDEE E PROGETTI FACENDO I FATTI E NON LE SOLITE CHIACCHIERE DA BAR SOLO COSI' POSSIAMO GUARDARE AL FUTURO CON PIU' OTTIMISMO.<br>&gt;<br><br>vegognateviiiiiiiiiiiiiiiiii!!!!!!!!!!!!!!! siti na cuer r pisciaturi
+
+[post_text_268]
+VERGOGNATI ENRICO MARINO DI NUSCO DOPO 8 MESI ANCORA NON HAI PUBBLICATO NEANCHE I TEMPI DELLA GARA E LA CLASSIFICA AD AGOSTO CORRI DA SOLO NON CI VERRO' MAI PIU' E' UNA CORSA RIDICOLA E MAL ORGANIZZATA SPERO CHE ANCHE l' ARS NON ANDRA' PIU' .
+
+[post_text_269]
+&gt;VERGOGNA nessuno propone niente poi arriva l' estate e sono tutti sportivi quanti partecipanti si prevedono al prossimo allenamento collettivo di aprile che tristezza vedere questo paese spegnersi sempre di piu' ogni giorno che passa la prossima tornata elettorale i voti andate a cercarli da altre parti se vogliamo cambiare e dare un vero segnale di sfiducia non deve andare nessuno alle urne cosi' poi vediamo che succede.<br>&gt;<br><br>vista la situazione a caposele di precarieta',spero che i cittadini abbiano capito che la campagna elettorale e'solo ed esclusivamente protagonismo... si parlava addirittura di tre campetti calcetto con erbetta sintetica e spogliatoi...la realta'invece e che non solo non hanno fatto niente,ma il campo di calcetto non solo non e'stato costruito,ma e'aperto al pubblico in condizioni spregevoli col rischio che qualche porta ti cada addosso visto che non sono stabili ma incastrate semplicemente nella recinzione... Poi tutti i posti di lavoro per i giovani dove sono???!!!!!!!!quei pochi giovani che ci sono rimasti nel paese sono dimenticati...si crea qualcosa solo per chi sta nel turismo...sono costretti a vendere castagne,fagioli,nocelle ecc. per chi ha la possibilita'...per chi non ce l'ha nemmeno questa misera possibilita'di vivere alla giornata e costretto a stare davanti al bar o a rinchiudersi dentro casa...MA UNA COSA E'CERTA: arrivera'il momento che si dovra'ritornare a votare:devono andare a votare i commercianti e i preti...perche'sono loro che vivono guadagnandosi qualcosa e noi non del settore non siamo mai stati agevolati e quindi costretti ad emigrare...LE PROSSIME ELEZIONI CI ANDATE VOI A VOTARE!!! VERGOGNATEVI PAGLIACCI E NON GIUDICATE LE PERSONE COSTRETTE A STARE IN UN BAR!!! CHI LAVORA A CAPOSELE E NON HA NIENTE A CHE VEDERE COL COMMERCIO E'SOLO UN RACCOMANDATO!!!COMMISSARIO A VITA A CAPOSELE!!! VERGOGNATEVI STRONZI!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+[post_text_270]
+VERGOGNATEVIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+CAPOSELE PAESE FINITOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+POPOLO RIDICOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+AMMINISTRAZIONE ASSENTEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+SOLO CHIACCHIEREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+ULTIMO POSTO IN PROV. DI AVELLINO
+UNICO PAESE CHE NON ABBIAMO UN RAPPRESENTANTE ALLA PROVINCIA.
+&nbsp;

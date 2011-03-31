@@ -6,6 +6,9 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+20/03/2011::Partecipanti alla gara podistica "XVII Maratona di Roma" di km 42,195 a Roma:  Donato Ceres, Saverio Perna. Accompagnatori: Paolo Viscardi, Alessandro Russomanno, Luciano Viscido.
+06/02/2011::Donato Ceres e Donatello Cirillo hanno partecipato alla XII edizione della MariMonti di km 21,097 a Sorrento (Na). Accompagnatori: Luciano Viscido, Alessandro Russomanno, Paolo Viscardi, Gelsomina Monteverde.
+28/01/2011::Assegnati i numeri di gara a Donato Ceres e Saverio Perna che disputaranno la XVII Maratona di Roma del prossimo 20 marzo: a Donato &egrave; stato assegnato il numero 3231, a Saverio il numero 3232. Entrambi partiranno nel settore C.
 16/01/2011::Gelsomino Del Guercio ha partecipato alla gara podistica "X Vietri e dintorni" di km 9,5 a Vietri sul Mare.
 22/12/2010::Entra a far parte dell'ARS, come associato praticante, Gerardoluigi Forte di Laviano (Sa).
 20/12/2010::La squadra podistica dell'ARS si &egrave; affiliata -per l'anno 2011- alla UISP Unione Italiana Sport Per tutti.
@@ -140,15 +143,6 @@
 14/07/2006::Presentata, al comune di Caposele, richiesta rinnovo autorizzazione uso stadio Palmenta per attivit&agrave; podistica.
 11/07/2006::Si &egrave; concluso il Sondaggio sui Mondiali di Calcio 2006: vincitore Rocco Del Malandrino, al quale l'ARS offrir&agrave; un buono consumazione di 25 euro presso bar/pub/pizzeria.
 29/06/2006::In Luglio l'Ars parteciper&agrave;, con una propria rappresentativa podistica, il giorno 15 alla XIII edizione della Corri Roccadaspide (SA) e il giorno 22 alla III edizione della 10 km di Acerno (SA).
-08/06/2006::Alle 18.00 si sono chiuse le giocate per il sondaggio Mondiali di Calcio 2006. Sono state regolarmente registrate 117 giocate.
-15/04/2006::Il 15 aprile si &egrave; tenuta l'Assemblea annuale dell'Associazione, in cui &egrave; stato approvato il rendiconto economico 2005.
-
-#
-# formato testo_footer:  testo
-#
-[testo_footer]
-#Ultimo aggiornamento effettuato il ../../....
-occadaspide (SA) e il giorno 22 alla III edizione della 10 km di Acerno (SA).
 08/06/2006::Alle 18.00 si sono chiuse le giocate per il sondaggio Mondiali di Calcio 2006. Sono state regolarmente registrate 117 giocate.
 15/04/2006::Il 15 aprile si &egrave; tenuta l'Assemblea annuale dell'Associazione, in cui &egrave; stato approvato il rendiconto economico 2005.
 

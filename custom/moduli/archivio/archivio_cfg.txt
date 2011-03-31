@@ -49,6 +49,7 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
+126::homepage::Agropoli Half Marathon 2011::
 125::homepage::Maratona di Roma 2011::Ars
 124::homepage::MareMonti 2011::
 123::homepage::X Vietri e dintorni::
