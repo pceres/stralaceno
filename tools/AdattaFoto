@@ -9,10 +9,10 @@ backup()
 	in=$1			# file d'origine
 	root_dir=$2 	# directory che contiene il file
 	backup_subdir=$3	# sottodirectory in cui vengono copiati gli originali
-
+	
 	nomebase=`basename "${in}"`
 	backup_dir=$root_dir/$backup_subdir
-
+	
 	# crea la directory se non esiste
 	if [ ! -e "$backup_dir" ]
 	then
@@ -32,19 +32,26 @@ resize_jpg()
 	resize_subdir=$3	# sottodirectory in cui vengono copiati gli originali
 	width2=$4			# ampiezza foto da ridimensionare (-1 lascia dimensioni invariate)
 	quality=$5			# qualita' della foto jpeg in output
-
-
+	geometry=$6			# geometria della foto orig. (es. "400x600+0+0"). ("" ridetermina la geometria)
+	
 	tempbasename=abc
 	
 	nomebase=`basename "${in}"`
 	tempfile_jpg=$root_dir/$tempbasename.jpg
 	resize_dir=$root_dir/$resize_subdir
-
+	
 	#crea il file ridimensionato di nome $tempfile_jpg
-	geometria=`identify -verbose "${in}" | grep Geometry | gawk '{print $2}'`
+	if [ ! "$geometry" = "" ]
+	then
+		geometria=$geometry
+	else
+		# determina la geometria dell'immagine in input (es. "400x600+0+0")
+		geometria=`identify "${in}" | grep '[0-9]+x[0-9]+\+[0-9]+\+[0-9]+' -o -E` # --> "3072x4092+0+0"
+		echo Detected geometry: "${in}" \($geometria\)
+	fi
 	width=${geometria%x*}	# larghezza originaria
 	height=${geometria#*x}	# altezza originaria
-	#echo Old geometry:$width x $height
+	# echo Old geometry:$width x $height \($geometria\)
 	
 	if [ $width2 -gt 0 ]
 	then
@@ -53,9 +60,12 @@ resize_jpg()
 		width2=$width
 		height2=$height
 	fi
-	#echo New geometry:$width2 x $height2
-
+	# echo New geometry:$width2 x $height2
+	
+	# echo convert...
 	convert -size ${width}x${height} "${in}" -resize ${width2}x${height2} +profile "*" -quality $quality $tempfile_jpg
+	echo Conversion to size ${width}x${height}, quality $quality
+	
 	# crea la directory se non esiste
 	if [ ! -e "$resize_dir" ]
 	then
@@ -83,16 +93,26 @@ Uso:
 
 directory	: directory contenente i file jpeg da elaborare
 maxsize		: massima dimensione oltre la quale l'immagine viene ridimensionata
+                   "--only-thumbs" --> genera solo i thumbnails
 
 END
 
 	exit 1
 fi
 
-
 basedir=$1
 maxsize=$2
 
+if [ "$maxsize" = "--only-thumbs" ]
+then
+	# debug flag to generate only thumbnails, without resizing
+	flg_only_thumbs=1
+	maxsize=0
+else
+	flg_only_thumbs=0
+fi
+
+echo ecco: $flg_only_thumbs
 
 backup_subdir='backup'		# directory di backup
 resized_subdir='resized'	# directory con le immagini ridimensionate
@@ -105,7 +125,7 @@ thumbnail_width=133			# ampiezza delle thumbnails
 
 a=`ls $basedir/*.JP* $basedir/*.jp* -1 2>/dev/null | sed '{s/ /%20/g}' -`
 
-clear
+#clear
 echo "I file presenti nella directory $basedir sono:"
 
 # ciclo su tutti i file jpeg trovati
@@ -113,15 +133,15 @@ lista_resize=''
 lista_thumb=''
 for file in $a   # Verifica tutti i file jpeg presenti in $basedir
 do
-
+	
 	file_real=`echo $file | sed '{s/%20/ /g}' -`
-
+	
 	nomebase=`basename "${file_real}"`
-
+	
 	size=`ls "${file_real}" -Al | gawk '{print $5}'`
-
+	
 	#verifica la dimensione del file
-	if [ "$size" -gt $maxsize ]
+	if [ \( "$size" -gt $maxsize \) -a \( $flg_only_thumbs -lt 1 \) ]
 	then
         	stato='dimensione>'$maxsize
 		lista_resize="$lista_resize $file"
@@ -129,16 +149,20 @@ do
 		stato='ok'
 		# backup $file_real $basedir $resized_subdir
 	fi
-
+	
 	lista_thumb="$lista_thumb $file"
-
+	
 	echo "$nomebase	 $size	 $stato"
 done
 
 
 if [ -n "$lista_resize" ]
 then
-
+	
+	# valore di primo tentativo per la prima immagine. Per le immagini successive si usa il valore finale
+	# usato per l'immagine precedente
+	prova=50
+	
 	echo
 	echo "lista dei file da ridimensionare:"
 	for file in $lista_resize   # Verifica tutti i file jpeg presenti in $basedir
@@ -148,18 +172,22 @@ then
 		# fai una copia di backup
 		backup "${file_real}" $basedir $backup_subdir
 		
-		# ridimensiona il file
+		# determina la geometria dell'immagine originale (es. "400x600+0+0")
+		geometria=`identify "${file_real}" | grep '[0-9]+x[0-9]+\+[0-9]+\+[0-9]+' -o -E` # --> "3072x4092+0+0"
+		# echo Old geometry: "${file_real}" \($geometria\)
+		
+		# resetta i valori estremi per il parametro "qualita'"
 		top=100
 		bottom=0
-		prova=50
 		
+		# ridimensiona il file
 		target=$maxsize
 		ancora=1
 		while [ $ancora -eq 1 ]
 		do
 			
 			# y = f(prova)
-			resize_jpg "${file_real}" $basedir $resized_subdir $resized_width $prova
+			resize_jpg "${file_real}" $basedir $resized_subdir $resized_width $prova $geometria
 			temp=$basedir/$resized_subdir/`basename "${file_real}"`
 			y=`ls "${temp}" -Al | gawk '{print $5}'`
 			
@@ -183,6 +211,7 @@ then
 		size=`ls "${file_real}" -Al | gawk '{print $5}'`
 		
 		echo "$nomebase	$size --> $y"
+		echo " "
 
 	done
 
@@ -191,7 +220,7 @@ fi
 
 if [ -n "$lista_thumb" ]
 then
-
+	
 	echo
 	echo "lista dei file di cui creare i thumbnails:"
 	for file in $lista_thumb   # Verifica tutti i file jpeg presenti in $basedir
@@ -201,7 +230,11 @@ then
 		nomebase=`basename "${file_real}"`
 		size=`ls "${file_real}" -Al | gawk '{print $5}'`
 		
-		resize_jpg "${file_real}" $basedir $thumbnail_subdir $thumbnail_width 70
+		# determina la geometria dell'immagine originale (es. "400x600+0+0")
+		geometria=`identify "${file_real}" | grep '[0-9]+x[0-9]+\+[0-9]+\+[0-9]+' -o -E` # --> "3072x4092+0+0"
+		# echo Old geometry: "${file_real}" \($geometria\)
+		
+		resize_jpg "${file_real}" $basedir $thumbnail_subdir $thumbnail_width 70 $geometria
 		temp=$basedir/$thumbnail_subdir/`basename "${file_real}"`
 		ext=${file##*.}
 		mv "${temp}" "${temp%.*}-thumb.$ext"
@@ -209,6 +242,7 @@ then
 		nome2=`basename "${temp%.*}-thumb.$ext"`
 		size2=`ls "${temp%.*}-thumb.$ext" -Al | gawk '{print $5}'`
 		echo "$nome2	$size --> $size2"
+		echo " "
 	done
 	
 fi
