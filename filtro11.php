@@ -67,12 +67,13 @@ function punteggio_presenze($dati,$mode)
 	case 3: // prodotto incrementale
 	case 4: // radice del prodotto incrementale
 	case 5: // radice del prodotto incrementale per numero partecipazioni
+	case 6: // prodotto incrementale (senza numero partecipazioni)
 		$area = 1;
 		for ($i = 1; $i<count($anni);$i++)
 		{
 			$area *= $anni[$i]-$anni[$i-1];
 		}
-		if ($mode == 3)
+		if (($mode == 3) || ($mode == 6))
 		{
 			return $area;
 		}
@@ -101,6 +102,7 @@ function punteggio_presenze($dati,$mode)
 //  3 : prodotto cumulativo delle differenze tra i vari anni di partecipazione
 //  4 : radice del prodotto cumulativo delle differenze tra i vari anni di partecipazione
 //  5 : radice del prodotto cumulativo delle differenze tra i vari anni di partecipazionemoltiplicato per il numero di intervalli
+//  6 : esclusivamente prodotto cumulativo delle differenze tra i vari anni di partecipazione (senza numero partecipazioni)
 //
 $mode = $_REQUEST['mode'];
 if (empty($mode)) // per default usa il prodotto incrementale (mode = 3)
@@ -136,9 +138,16 @@ for ($i = 1; $i < count($archivio); $i++)
 		$old_item = $archivio2[$indice];
 		
 		// aggiorna i campi con i dati della edizione i-esima
-		$old_item[$indice_presenze]++;
 		array_push($old_item[$indice_dati],$item2); // aggiungi questa edizione all'elenco degli anni
 		$punteggio = substr(punteggio_presenze($old_item[$indice_dati],$mode),0,6);
+		if ($mode==6)
+		{
+			$old_item[$indice_presenze] = $punteggio;
+		}
+		else
+		{
+			$old_item[$indice_presenze]++;
+		}
 		$old_item[$indice_punteggio]= $punteggio;
 		$old_item[$indice_str_anni].= ", ".$archivio[$i][$indice_anno];
 		
