@@ -1,0 +1,36 @@
+
+#
+# show usage if no params in input
+#
+if [ ! $# == 5 ]; then
+  echo "Usage:"
+  echo "$0 <options> <ftpserver> <ftpusername> <ftpfolder> <localfolder>"
+  echo " "
+  echo "<options>:"
+  echo " -d : sync in download"
+  echo " -u : sync in upload"
+  echo " "
+  echo " "
+  echo "Es.:"
+  echo " "
+  echo "ftpsync -d ars.altervista.org ars /custom/ ./../custom/"
+  echo " "
+  echo "ftpsync -u ars.altervista.org ars ./../custom/dati/ /custom/dati/"
+  echo " "
+  
+  exit
+fi
+
+action=$1
+ftpserver=$2
+ftpusername=$3
+ftpfolder=$4
+localfolder=$5
+
+if [ $action == "-u" ]; then
+  # upload
+  lftp -e "open && mirror -c -e -R $localfolder $ftpfolder && exit" -u $ftpusername $ftpserver
+else
+  # download
+  lftp -e "open && mirror -c -e $ftpfolder $localfolder && exit" -u $ftpusername $ftpserver
+fi
