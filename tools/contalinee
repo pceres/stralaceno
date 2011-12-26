@@ -1,4 +1,4 @@
 #!/bin/bash
-cartella=/var/www/htdocs/work/ars/
+cartella=/var/www/htdocs/work/ars.git/
 find $cartella -name '*.php' | xargs sed -e '/^[ \t]*$/ d' -e '/^[ /t]*\(#\|\/\/\).*$/ d' | wc -l
 

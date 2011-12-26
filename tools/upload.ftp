@@ -1,3 +1,0 @@
-open -u ars ars.altervista.org
-mirror -c -e -R ./../custom/ /custom/
-exit 
