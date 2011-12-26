@@ -1,3 +1,5 @@
+% portare il path nella cartella contenente i backupfile*.txt
+
 clear
 
 abilita_stima_foto_mancante = 0; % [0,1] a partire da album, id_photo e data prova ad individuare il nome del file della foto
@@ -28,9 +30,12 @@ date_notevoli = {...
 
 % informazioni sul file di log generale
 z=dir(nomefile);
+if isempty(z)
+    z = struct('bytes',0);
+end
 
 % verifica che tutti i backupfile siano confluiti in nomefile
-if length(backupfile)
+if ~isempty(backupfile)
     z0 = dir(backupfile);
     somma=0;
     for i=1:length(z0)
@@ -70,7 +75,7 @@ if ~exist('logfile.mat','file')
 else
     load logfile.mat;
 
-    if (~exist('bulk') | ~exist('bytes_read') | ~exist('vseconds') | (z.bytes ~= bytes_read))
+    if (~exist('bulk','var') | ~exist('bytes_read') | ~exist('vseconds') | (z.bytes ~= bytes_read))
         must_read = 1;
     end
 end
@@ -84,7 +89,7 @@ if must_read
 
 
     % leggi da logfile.txt tutte le righe gia' presenti in bulk (letto da logfile.txt)
-    if exist('bulk')
+    if exist('bulk','var')
         count=0;
         while (count<length(bulk)),
             count = count+1;

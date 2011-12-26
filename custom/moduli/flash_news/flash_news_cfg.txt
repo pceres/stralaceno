@@ -151,3 +151,18 @@
 #
 [testo_footer]
 #Ultimo aggiornamento effettuato il ../../....
+lla Marcialoggia a Fontanarosa di km 10, il giorno 19 alla maratona alburnina di km 13 a Sicignano degli Alburni (SA).
+24/07/2006::Partecipanti alla gara podistica 10 km di Acerno: Salvatore Merola, Alessandro Russomanno, Paolo Viscardi, Salvatore Colatrella (aggregato-non socio). Accompagnatore: Gelsomino Merola.
+19/07/2006::Il Comune di Caposele ha concesso all'ARS l'uso a pagamento dello stadio Palmenta per l'attivit&agrave; podistica fino al termine del mese di Agosto: 3 giorni a settimana (luned&igrave;, gioved&igrave; e sabato) dalle ore 19.00 alle 20.00 . L'importo che l'ARS ha versato al Comune &egrave; di 60 euro. 
+18/07/2006::Hanno partecipato alla gara podistica XIII CorriRoccadaspide: Salvatore Merola, Alessandro Russomanno, Paolo Viscardi, Gerardo Martino, Nicola D'Auria, Salvatore Colatrella (aggregato-non socio). Accompagnatori: Donatello Cirillo, Gelsomino Merola.
+14/07/2006::Presentata, al comune di Caposele, richiesta rinnovo autorizzazione uso stadio Palmenta per attivit&agrave; podistica.
+11/07/2006::Si &egrave; concluso il Sondaggio sui Mondiali di Calcio 2006: vincitore Rocco Del Malandrino, al quale l'ARS offrir&agrave; un buono consumazione di 25 euro presso bar/pub/pizzeria.
+29/06/2006::In Luglio l'Ars parteciper&agrave;, con una propria rappresentativa podistica, il giorno 15 alla XIII edizione della Corri Roccadaspide (SA) e il giorno 22 alla III edizione della 10 km di Acerno (SA).
+08/06/2006::Alle 18.00 si sono chiuse le giocate per il sondaggio Mondiali di Calcio 2006. Sono state regolarmente registrate 117 giocate.
+15/04/2006::Il 15 aprile si &egrave; tenuta l'Assemblea annuale dell'Associazione, in cui &egrave; stato approvato il rendiconto economico 2005.
+
+#
+# formato testo_footer:  testo
+#
+[testo_footer]
+#Ultimo aggiornamento effettuato il ../../....

@@ -1684,3 +1684,153 @@ SOLO CHIACCHIEREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 ULTIMO POSTO IN PROV. DI AVELLINO
 UNICO PAESE CHE NON ABBIAMO UN RAPPRESENTANTE ALLA PROVINCIA.
 &nbsp;
+ alla giornata e costretto a stare davanti al bar o a rinchiudersi dentro casa...MA UNA COSA E'CERTA: arrivera'il momento che si dovra'ritornare a votare:devono andare a votare i commercianti e i preti...perche'sono loro che vivono guadagnandosi qualcosa e noi non del settore non siamo mai stati agevolati e quindi costretti ad emigrare...LE PROSSIME ELEZIONI CI ANDATE VOI A VOTARE!!! VERGOGNATEVI PAGLIACCI E NON GIUDICATE LE PERSONE COSTRETTE A STARE IN UN BAR!!! CHI LAVORA A CAPOSELE E NON HA NIENTE A CHE VEDERE COL COMMERCIO E'SOLO UN RACCOMANDATO!!!COMMISSARIO A VITA A CAPOSELE!!! VERGOGNATEVI STRONZI!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+[post_text_270]
+VERGOGNATEVIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+CAPOSELE PAESE FINITOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+POPOLO RIDICOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+AMMINISTRAZIONE ASSENTEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+SOLO CHIACCHIEREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+ULTIMO POSTO IN PROV. DI AVELLINO
+UNICO PAESE CHE NON ABBIAMO UN RAPPRESENTANTE ALLA PROVINCIA.
+&nbsp;
+
+[post_text_271]
+&gt;ma che senso ha questo forum quando nessuno scrive niente il verbo discutere a caposele non si conosce si e' bravi solo davanti ai bar       a chiacchierare sempre di pallone e stronzate che livello culturale basso e scadente che regna qui non si riesce a trovare un discreto lavoro fuori altrimenti sicuramente non ero qui solita sfortuna e poi    in italia ci sono gente che dice che la crisi non c' e'mai stata e' normale hanno qualcosa loro e non gli frega degli altri sperate sempre che resiste il dittatore berlusconi perche' quando vincera' di nuovo la sinistra vivrete giorni difficili per non parlare delle tante persone che vorrebbero un posto fisso e lo cercano per una vita intera senza riuscirci mi fermo altrimenti potrei dire tante altre cose che potrebbero intaccare la sensibilita' di molti.<br>&gt;<br><br>ma che cavolo state combinando!!! VOGLIAMO COERENZA!!! ai comizi sembrava che caposele poteva diventare tipo Beverly hilss... Chiuso questo capitolo... EMIGRATI: Quando tornate a caposele e'meglio che vi state alle vostre case piuttosto di venire a fare le star, gli intelligenti,e gli ambiziosi!!! VERGOGNATEVI!!!!!!! Voi sapete benissimo a che livelli scadenti siamo rimasti noi residenti...abbiate un minimo di rispetto e solidarieta'nei nostri confronti...noi soffriamo tutto l'anno per colpa di questo paese...voi siete solo stati piu'fortunati di noi SCAPPANDEVENO DA CAPOSELE per un futuro migliore...BRAVI!!!Ma almeno quando tornate non date fastidio parlando della vostra FORTUNA fuori da caposele...E' troppo semplice parlare a vanvera di caposele e delle sue iniziative quando non vi si vive per tutto l'anno...STATEVI SOLO ZITTI!!! Volete far sembrare che va tutto bene nella vita in generale e noi ci sentiamo i FESSI perche'cio'non e'cosi'x chi vive a caposele...A natale, pasqua,in estate andate dai vostri NUOVI AMICI DI CITTA'... NOI ABBIAMO LE P.... GIRATE!!! caposele: PAESE DA ROTTAMARE!!! VERGOGNATEVI!!!!!!!!!!!!!!!!!!
+
+[post_text_272]
+messaggio ottimo condivido in pieno lo sfogo avete realizzato le vostre fortune fuori caposele e quando tornate non pensate di trovare molta considerazione per voi solo indifferenza e poca importanza .
+
+[post_text_273]
+GRAZIE MILAN GRAZIE SHALKE 04 QUEST' ANNO PER GLI INTERISTI NON C' E' TRIPPA PER GATTI CONCENTRATEVI SULLA COPPA ITALIA CHE RISCHIATE ANCHE QUELLA NON SI PUO' SEMPRE VINCERE E' LA DURA LEGGE DELLA VITA.
+
+[post_text_274]
+&gt;ottimo messaggio io sono con te e' questa purtroppo la dura realta' di questo paese speriamo in anni migliori.<br>&gt;<br><br>Questo misero paese non solo e'arretrato a livello economico,sociale,sportivo ecc. ma nutre di un'altro guinness dei primati, cioe'mancanza di RAGAZZE che vivono tutto l'anno a caposele...Che schifo uscire e vedere solo anziani o qualche bambino...Caposele fai PENA!!!Qualcuna c'e',ma e come se non ci fosse perche'a caposele le passeggiate si fanno solo il mese di agosto,quando fanno quelle quattro festicciole stile anni '25...Siamo in un DESERTO,IN UN ASILO,IN UNO SPIZIO...!!!VERGOGNAAAAAA!!!!!!!!!!!!!!E poi quando tornano le universitarie credono di venire a sfilare davanti al bar,con quei pochi sfigati che gli danno retta e le fanno sentire STAR!!! Solo a caposele possono sentirsi fighe,ma superato CAPOSELE,cioe'il NULLA,non le calcolano proprio e in estate e durante le festivita'pensono di essere al centro dell'attenzione sentendosi non piu' CAPOSELESE,ma le STAR che arrivano direttamente da MISS UNIVERSO... CHE TRISTEZZA...FATE SOLO PENA... D a roma in su potete lavare solo cessi dato che ormai non si sa piu'cos'e' l'UMILTA'!!! VERGOGNATEVI CAPRE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+[post_text_275]
+come mai adesso nessuno dell' ars fa polemiche per lo stato di abbandono in cui versano le strutture sportive a caposele quando comandava la precedente amministrazione lo sappiamo tutti i continui attacchi e lettere di protesta oggi tutti zitti mah a voi le giuste considerazioni.
+
+[post_text_276]
+&gt;come mai adesso nessuno dell' ars fa polemiche per lo stato di abbandono in cui versano le strutture sportive a caposele quando comandava la precedente amministrazione lo sappiamo tutti i continui attacchi e lettere di protesta oggi tutti zitti mah a voi le giuste considerazioni.<br>&gt;<br><br>VERGOGNATEVIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII...VERGOGNATEVI!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!VERGOGNATEVIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+
+[post_text_277]
+VERGONGATEVIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+&nbsp;
+FARINA DIMETTITIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+&nbsp;
+CAPOSELE come il BANGLADESH
+&nbsp;
+SOLO ANZIANI E DISOCCUPATI
+&nbsp;
+DOVE SONO I POSTI DI LAVORO E I CAMPI DI CALCETTO PROMESSI DA FARINA
+&nbsp;
+CHE TRISTEZZA SIAMO SEMPRE PIU' MORTIFICATI E DELUSI .
+
+[post_text_278]
+siamo in un  paese e una nazione ridicoli la crisi sociale e la dilagante disoccupazione in cui siamo piombati e di cui non se ne vede l'uscita e' colpa della classe politica degli anni 60 che hanno solo rubato e creato clientelismo esasperato riducendo la politica
+solo a interessi personali e fame di potere.ma ci rendiamo conto che l'italia e' paralizzata,le fabbriche sono quasi tutte fallite e i lavoratori per strada abbiamo solo un'arma a nostra disposizione per reagire:votare al piu' presto e mandare a casa il sign. berlusconi che ci ha rovinato causando danni irreparabili e fregandosene altamente delle reali famiglie italiane che non riescono a sopravvivere e tutto cio' ha creato un clima di forte tensione sociale che spero culminera' con una forte protesta e mobilitazione del popolo perche' cosi' non sipuo' vivere e andare avanti.scusate lo sfogo ma viviamo in una repubblica delle banane.
+
+[post_text_279]
+grnde vittoria del centrosinistra a Milano,Napoli,Cagliari,Trieste,Novara E TANTI ALTRI COMUNI E PROVINCIE BERLUSCONI DIMETTITI CON LE TUE FALSITA' E I TUOI INGANNI HAI DISTRUTTO UNA NAZIONE E' ORA DI FARTI LE VALIGIE E TOGLIERE DEFINITIVAMENTE IL DISTURBO.W LA LIBERTA' E LA SINISTRA SEMPRE CONTRE LE DESTRE SIETE STATI INESORABILMENTE SCONFITTI.
+&nbsp;
+
+[post_text_280]
+VERGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGOGNATEVIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+SOLO TRISTEZZA E DELUSIONE
+PAESE FINITOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+GIUNTA COMUNALE RIDICOLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+IDEE ZEROOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+GIOVANI EMIGRATI TUTTIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+SOLO ANZIANI E FALLITIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+PROSPETTIVE NULLEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+E NESSUNO DICE NIENTE.
+
+[post_text_281]
+AUGURO A TUTTI VOI BASTARDI TUTTO IL MALE POSSIBILE!!!!!!!!!!!SIETE SOLO FIGLI DI P......,LOTAAAAA,MUNNEZZAAAAA,SCHERZO DELLA NATURA,DOVETE SOFFRIRE,PIANGERE,DISPERARVI,E UMILIARVI...STATE LONTANI DA NOI!!!!!!!!!!!!VI MERITATE SOLO DI SOFFRIRE ETERNAMENTE!!!!!!!!!!!!!!!!!!!!!!!!!!!SIAMO STUFI DI ESSERE PRESI IN GIRO!!!!!!VI SPACCHIAMO LA FACCIA SE PARLATE ANCORA..!!!!!STATE ZITTI E CAMMINATE A TESTA IN BASSO FALLITI
+
+[post_text_282]
+ma perchè non la smetti di imbrattare il forum scrivendo sempre le stesse cose?!?
+&nbsp;
+Il forum è uno spazio libero, cerca di usarlo in maniera corretta.
+ Grazie
+&nbsp;
+&nbsp;
+&nbsp;
+
+[post_text_283]
+MA VAFANGGUUUUUUUUUUUUUUUUUUULO
+
+[post_text_284]
+FARINA DIMETTITI E VORGOGNATI STAI PORTANTO AVANTI CON SUCCESSO IL TUO PROGRAMMA
+&nbsp;
+ZEROOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+IDEE NULLEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+SOLO MORTIFICAZIONI E DELUSIONI CHE TRISTEZZA L' UNICA SALVEZZA E' FUGGIRE BASTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA NON NE POSSIAMO PIU' DI QUESTO GRIGIORE.
+
+[post_text_285]
+Ma....non potreste rinviare la data del matrimonio?
+
+[post_text_286]
+FARINA PASQUALE DIMETTITIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+&nbsp;
+NON NE POSSIAMO PIU' DELLA INCAPACITA' BASTA VAI A CASA NON HAI PIU' MAGGIORANZA E CONSENSI POPOLARI HAI SOLO INGANNATO IL POPOLO DI CAPOSELE SIAMO STANCHI E UMILIATI E' ORA DI CAMBIARE E VOLTARE PAGINA.
+
+[post_text_287]
+offeso, chiunque tu sia, dei due di materdomini, sei riconoscibile...hai rotto le scatole con questa politica, candidati tu se sei in grado di fare qualcosa, ne dubito, visto il livello culturale...oppure parla di sport, oppure ancora fai sport, forse sei più capace
+
+[post_text_288]
+offeso, hai sbagliato sito, sei vuoi parlare male dell'amministrazione devi andare su caposele.net, il sito di cittadinanzacattiva, :-)
+
+[post_text_289]
+CHE MONDO SCHIFOSO LA TRAGEDIA IN NORVEGIA E' L' EMBLEMA DI UNA SOCIETA' FALSA E IPOCRITA IN CUI SI SONO PERSI I VALORI FONDAMENTALI DI UN TEMPO CHE TRISTEZZA CHISSA' LA FINE CHE FAREMO TUTTI PER NON PARLARE DEGLI STATI UNITI D' AMERICA DOVE NEL 2011 ANCORA SI GIUSTIZIA LA GENTE CON LA PENA DI MORTE CHE VERGOGNA SEMPRE CONTRO GLI AMERICANI.
+
+[post_text_290]
+Uk, 90enne corre maratona di nascosto
+&nbsp;
+La seconda vita di Wilf Cooper, che gareggiava nella mezza maratona, nonostante un infarto vent'anni fa.
+&nbsp;
+Ventun chilometri e 97 metri: questo era il tragitto che Wilf Cooper percorreva trionfante nella mezza maratona, altrimenti detta maratonina, alla quale partecipava gonfio di orgoglio da ben sette anni e a totale insaputa della signora Sylvia, sua sposa da 67 anni. Era la sua vita segreta, che proteggeva dai giudizi e dalle preoccupazioni della moglie, dei sette figli, dei quattordici nipoti e degli undici pronipoti che compongono la famiglia Cooper.
+&nbsp;
+UNA BUGIA BUONA – Raccontare una bugia ingenua, soprattutto dopo quell’infarto che aveva avuto all’età di settanta anni: forse anche questo è amore. Wilf Cooper novantenne di Bristol diceva alla moglie di andare semplicemente ad assistere alle gare dando una mano all’organizzazione, ma in realtà, infilate un paio di scarpe adatte, prendeva parte alle competizione. L'arzillo signor Cooper ha partecipato alla sua prima mezza maratona a 83 anni e da allora ne ha corse parecchie, con un record personale di 3 ore, 11 minuti e 36 secondi a fronte di quello assoluto che è di 58 minuti e 23 secondi. Ma ora la sua seconda vita è stata scoperta dalla moglie, anche lei novantenne, che lo ha visto correre in tv e, pur preoccupata, non intende intralciare la carriera sportiva del marito.
+&nbsp;
+IL VICINO DI CASA IMPICCIONE - E’ stato il solito vicino un po’ intrigante a segnalare alla signora Sylvia il dolce inganno del marito, giurando e spergiurando di averlo visto in televisione. La moglie “tradita”, dopo un primo momento di sgomento, ha saputo capire Wilf che correndo partecipava anche a una raccolta fondi per il St Peter Hospice, residenza per anziani dove vive un amico malato di tumore. Un nobile gesto, insomma, e una forza di volontà encomiabile da parte di questo anziano signore che ha continuato (e speriamo possa ancora continuare) a correre anche a dispetto di una spalla slogata e una costola rotta. Si allena facendo le scale, il signor Cooper e non ha alcuna intenzione di smettere. “Anche se mia moglie ora conosce il mio segreto, correrò ancora”, promette Wilf, forte dell’amore della sua sposa che si è dichiarata pronta a sostenerlo. E basta guardarlo mentre sfreccia felice per capire che il grintoso novantenne non si fermerà. Del resto di over ottanta che continuano a gareggiare se ne contano parecchi. Un esempio per tutti John Whittemore, incoronato come the world's oldest athlete (l’atleta più vecchio del mondo), che nell’ottobre del 2004, poco prima di compiere 105 anni, si è cimentò nel lancio del giavellotto e del disco dichiarando: “Se non me lo tiro sui piedi, ora faccio il record del mondo”.
+&nbsp;
+Emanuela Di Pasqua
+&nbsp;
+
+[post_text_291]
+volevo esprimere un mio parere sull' articolo di nicola d'auria concernente la corsa dei tre campanili non sono alquanto d'accordo con lui e vi spiego il perche':mi sembra molto sorprendente e strano che nella lettera d'auria non faccia riferimento ad una cosa fondamentale che lui stesso con noi ha fomentato per anni e cioe' il cambio del percorso,poi forse lui si e' dimenticato quando cercava di avvicinare e coinvolgere me e qualcun altro spronandolo ad avere colloqui continui con i responsabili della pro loco convincendoli a modificare il percorso di gara.e in ultimo mi lascia perplesso la sua partecipazione ad una gara che oramai non ha piu' senso e a mio avviso fallita per tanti motivi.caro d'auria nella vita ci vuole coerenza quando si decide che una cosa non piace non si partecipa e in piu' si cerca addirittura di boicottarla ,in questa critica pero' non posso esimermi di criticare anche gli altri componenti ars che hanno partecipato per di piu' correndo senza la casacca ars cari ragazzi non si corre quando uno pensa che una gara e' sbagliata e fallita.penso di non aver offeso nessuno e' solo una semplice constatazione reale della situazione podistica e sportiva attuale.
+
+[post_text_292]
+nessuno ha niente da dire mah resto sempre piu' sorpreso da questo silenzio i misteri della vita
+
+[post_text_293]
+Maratona in autobus, squalificato!
+&nbsp;
+13 ott 2011
+&nbsp;
+Un 31enne londinese salta parte del percorso e arriva terzo alla Maratona di Kielder, ma viene scoperto e squalificato di conseguenza...
+&nbsp;
+Un episodio clamoroso ha caratterizzato, seppur ex-post, la Maratona di Kielder, in Inghilterra: un 31enne londinese, Rob Sloan, è stato squalificato infatti per aver percorso parte del percorso a bordo di un autobus!
+Dopo aver corso correttamente per tre quarti della maratona, Sloan è saltato sul mezzo pubblico tornando poi sul tracciato di gara solo per gli ultimissimi chilometri, tagliando attraverso un bosco… Il tempo di 2 ore e 51 minuti in un primo momento gli era valso il terzo posto in classifica, ma alla fine Sloan è stato costretto ad ammettere l’imbroglio, dopo essere stato smascherato dagli ufficiali di gara.
+&nbsp;
+“Sapevo di essere terzo in classifica durante tutta la gara e quando sono arrivato al traguardo mi hanno detto che invece ero arrivato quarto… - ha scritto su Facebook Steven Crains, l’atleta cui era stato soffiato il podio -. Posso capire anche il fatto che si sia portato via la borsa dei gadget premio e la T-shirt omaggio, ma da qui a presentarsi in conferenza stampa dicendo di essere soddisfatto del terzo posto ce ne passa…”.
+&nbsp;
+L’imbroglio, però, è stato scoperto. Crains è tornato al "suo" terzo posto, Rob Sloan è stato squalificato e se sull’autobus fosse passato un controllore avrebbe anche potuto andargli peggio…
+Eurosport
+&nbsp;
+
+[post_text_294]
+What about the English invent football championship?
+
+[post_text_295]
+Hello, all. Which is better yahoo or bing?
+
+[url=http://viagravillage.com/]v i a g r a from canada[/url]
+
+[post_text_296]
+It is better Beng
+
+[post_text_297]
+cari emigrati e' meglio che vi state dove seiete perche' queste feste di natale vi tratteremo con la massima indifferenza e menefreghismo spero tanto che ci saranno pochissime feste non vi meritate niente siete solo degli opportunisti e fortunati nella vita cio' che avete conquistato non e' merito vostro ma del puro caso.

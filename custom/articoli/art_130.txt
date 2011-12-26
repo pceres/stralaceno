@@ -1,0 +1,12 @@
+Autore::
+Titolo::Alla "3 Campanili" 2011
+--- Begin body ---
+<br>
+<div align="center">
+<img id="" src="%file_root%custom/album/varie/PL11_1.jpg" alt="" border="0" width="680">
+</div>
+<div align="center">
+<img id="" src="%file_root%custom/album/varie/PL11_2.jpg" alt="" border="0" width="680">
+</div>
+<br>
+--- End body ---

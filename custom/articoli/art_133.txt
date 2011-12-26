@@ -1,0 +1,21 @@
+Autore::
+Titolo::Media Maraton Granada 2011
+--- Begin body ---
+<br>
+Il 6 novembre 2011 Paolo Viscardi ha rappresentato gli Amatori Running Sele nella mezza maratona della citt&agrave; di Granada in Spagna, che ha visto giungere al traguardo 2.128 atleti. <br>
+<br>
+Ci scrive Paolo Viscardi da Granada:<br><br>
+<i>
+“Partecipare alla mezza maratona di Granada &egrave; stato un ulteriore modo per conoscere la citt&agrave; sempre pi&ugrave; a fondo. Non potevo aspettarmi una grande prestazione, visto che la distanza di 21km non la percorrevo da molto tempo… Era un po’ di tempo che chiedevo in giro tra uffici sportivi dell’universit&agrave; e qui pi&ugrave; volte mi hanno detto che non c’erano eventi di atletica. Purtroppo qui a Granada l’atletica non &egrave; considerata molto, in fondo un po’ come nelle nostre parti. Mi sono poi iscritto di corsa quando mi hanno parlato di questo evento… devo ringraziare l’informaGiovani per avermi dato questa ed altre preziose informazioni sportive. <br><br>
+Qui non riesco ad andare a correre molte volte a settimana. Ci vado solitamente almeno 1 o 2 volte a settimana. 
+<br>Posso dire di aver terminato la gara in modo tranquillo, tanto da potermela godere fino in fondo e fare un grande recupero nella seconda met&agrave; di gara. Parlando del percorso, credevo fosse un poco pi&ugrave; duro, visto che la citt&agrave; &egrave; tutta in salita, per&ograve; per fortuna il tracciato di gara non ha presentato salite molto lunghe e queste speso sono state intervallate da tratti pianeggianti e discese.  <br><br>
+Non mi resta che aspettare il prossimo evento e rappresentare ancora un volta la mia associazione: ARS Amatori Running Sele!” <br>
+<br>
+<div align="center">
+<img id="" src="%file_root%custom/album/varie/gran1.jpg" alt="" border="0" width="400">
+</div><br>
+<br>
+<div align="center">
+<img id="" src="%file_root%custom/album/varie/gran2.jpg" alt="" border="0" width="400">
+</div><br>
+--- End body ---

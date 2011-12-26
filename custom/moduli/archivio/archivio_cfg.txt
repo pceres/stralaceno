@@ -6,6 +6,7 @@
 # formato elenco_album:  tag_album::nome_album::descrizione
 #
 [elenco_album]
+Foto Settimana::Foto Settimana::La Foto della Settimana
 Roma_11::Roma 2011::Maratona di Roma del 20 marzo 2011
 Sorrento_11::Sorrento 2011::MariMonti 2011
 All.Coll.10::Allenamento collettivo 2010::Le foto dell'allenamento di fine anno.
@@ -49,6 +50,18 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
+138::homepage::Granada notturna 2011::Paolo Viscardi
+137::homepage::Bere dopo una corsa? Sbagliato::Corriere.it
+136::homepage::L'attivit&agrave; fisica::Corriere.it
+135::homepage::Mezza Maratona di Livorno 2011::
+134::homepage::StraSalerno 2011::
+133::homepage::Media Maraton Granada 2011::
+132::homepage::Memorial B.Germano 2011::
+131::homepage::Trekking dei Monti di Caposele::
+130::homepage::Alla "3 Campanili" 2011::
+129::homepage::Stralaceno 2011::
+128::homepage::XVIII CorriRoccadaspide::
+127::homepage::La Foto della Settimana::
 126::homepage::Agropoli Half Marathon 2011::
 125::homepage::Maratona di Roma 2011::Ars
 124::homepage::MareMonti 2011::
@@ -68,7 +81,7 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 110::homepage::IV Strapollese::Ars
 109::homepage::XI Notturna Sianese::Ars
 108::homepage::V Scalata al castello::Ars
-107::homepage::Attivit&agrave; di base 2010::Ars
+107::homepage::Attivit&agrave; di base::Ars
 106::homepage::VI edizione "Sulle Orme di Filippide"::Ars
 105::homepage::Sondaggio - Studio Mondiali di Calcio 2010::Ars
 104::homepage::Cinque anni di ARS::

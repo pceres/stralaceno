@@ -1,0 +1,12 @@
+Autore::Ars
+Titolo::Stralaceno 2011
+--- Begin body ---
+<br>
+ L'album fotografico della manifestazione lo trovate <a href="album.php?anno=Stra_11">QUI</a>.   
+ <br><br>
+<font color="blue"> Sul sito della Stralaceno trovate risultati, classifiche, statistiche e una selezione di foto commentate della gara. </font> <br>
+<p>&nbsp;
+<div align="center">
+<img id="Stra 10" src="%file_root%custom/album/Stra_11/ST11_57.jpg" alt="" border="0" width="500">
+</div><br>
+--- End body ---

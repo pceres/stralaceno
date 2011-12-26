@@ -1,0 +1,11 @@
+Autore::Ars
+Titolo::La Foto della Settimana
+--- Begin body ---
+<br><div align="center">
+<img id="" src="%file_root%custom/album/Foto Settimana/bb2.jpg" alt="" border="" width="550">
+</div>
+<br><FONT SIZE="3"><FONT FACE="calibri"> 
+<p align="left">18/12/2011 La corsa dei Babbi Natale – Anche a Milano  le vie del centro sono state attraversate dalla marcia dei «Santa Klaus» nell'ultima domenica prima di Natale (Corriere.it)</p><br></font></font>
+<i>La raccolta dell'album "La Foto della Settimana" la trovate <a href="album.php?anno=Foto Settimana">qui</a>.<br>
+</b></i>
+--- End body ---

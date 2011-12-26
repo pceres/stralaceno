@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # prende tutti i file nella directory indicata e li ridimensiona, creandone il thumbnail
 
 

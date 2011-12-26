@@ -101,6 +101,58 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 87::Irpinianews.it::27/09/2010 13.34.48::visible
 88::Irpinianews.it::01/10/2010 14.50.05::visible
 89::Irpinianews.it::13/10/2010 16.52.56::visible
+90::CorriereIrpinia.it::28/04/2011 14.05.59::visible
+91::CorriereIrpinia.it::04/05/2011 13.48.06::visible
+92::CorriereIrpinia.it::09/05/2011 12.24.25::visible
+93::CorriereIrpinia.it::10/05/2011 13.59.35::visible
+94::CorrireIrpinia.it::11/05/2011 13.48.10::visible
+95::CorriereIrpinia.it::17/05/2011 13.42.03::visible
+96::CorriereIrpinia.it::19/05/2011 16.04.11::visible
+97::IrpiniaNews.it::21/05/2011 11.19.27::visible
+98::CorriereIrpinia.it::24/05/2011 13.56.48::visible
+99::CorriereIrpinia.it::31/05/2011 14.55.26::visible
+100::CorriereIrpinia.it::08/06/2011 13.44.09::visible
+101::CorriereIrpinia.it::09/06/2011 17.20.37::visible
+102::CorriereIrpinia.it::21/06/2011 15.48.07::visible
+103::CorriereIrpinia.it::23/06/2011 10.52.41::visible
+104::CorriereIrpinia.it::02/07/2011 12.13.39::visible
+105::CorriereIrpinia.it::07/07/2011 16.00.54::visible
+106::CorriereIrpinia.it::11/07/2011 17.00.23::visible
+107::CorriereIrpinia.it::13/07/2011 17.09.58::visible
+108::cORRIEREiRPINIA.IT::18/07/2011 13.11.13::visible
+109::CorriereIrpinia.it::19/07/2011 13.25.58::visible
+110::CorriereIrpinia.it::22/07/2011 14.26.53::visible
+111::CorriereIrpinia.it::23/07/2011 11.57.17::visible
+112::CorriereIrpinia.it::27/07/2011 17.07.36::visible
+113::CorriereIrpinia.it::27/07/2011 17.09.15::visible
+114::CorriereIrpinia.it::09/08/2011 13.41.41::visible
+115::CorriereIrpinia.it::10/08/2011 12.17.45::visible
+116::CorriereIrpinia.it::31/08/2011 13.16.27::visible
+117::CorriereIrpinia.it::07/09/2011 13.31.21::visible
+118::CorriereIrpinia.it::13/09/2011 16.09.42::visible
+119::CorriereIrpinia.it::15/09/2011 10.34.10::visible
+120::CorriereIrpinia.it::19/09/2011 14.41.44::visible
+121::Irpinianews.it::19/09/2011 14.47.04::visible
+122::CorriereIrpinia.it::22/09/2011 13.45.35::visible
+123::CorriereIrpinia.it::27/09/2011 16.20.22::visible
+124::CorriereIrpinia.it::27/09/2011 16.22.30::visible
+125::CorriereIrpinia.it::28/09/2011 15.35.25::visible
+126::CorriereIrpinia.it::11/10/2011 17.05.40::visible
+127::CorriereIrpinia.it::18/10/2011 14.16.12::visible
+128::CorriereIrpinia.ir::26/10/2011 13.04.29::visible
+129::CorriereIrpinia.it::26/10/2011 16.55.58::visible
+130::CorriereIrpinia.it::27/10/2011 16.03.59::visible
+131::CorriereIrpinia.it::28/10/2011 16.43.44::visible
+132::CorriereIrpinia.it::31/10/2011 12.30.40::visible
+133::CorriereIrpinia.it::10/11/2011 13.17.02::visible
+134::CorriereIrpinia.it::15/11/2011 17.26.27::visible
+135::CorriereIrpinia.it::25/11/2011 17.12.01::visible
+136::CorriereIrpinia.it::30/11/2011 16.42.25::visible
+137::CorriereIrpinia.it::10/12/2011 18.26.25::visible
+138::CorriereIrpinia.it::21/12/2011 09.28.18::visible
+139::CorriereIrpinia.it::22/12/2011 11.16.01::visible
+140::CorriereIrpinia.it::23/12/2011 10.11.09::visible
+141::CorriereIrpinia.it::25/12/2011 20.03.44::visible
 
 [post_text_0]
 In questo spazio saranno inseriti articoli apparsi sul web relativi ad eventi, persone, fatti avvenuti a Caposele.
@@ -1209,4 +1261,966 @@ Il Piano prevede, per il Forum di Caposele e per tutto il distretto, una forte c
 Al fianco della neo eletta Coordinatrice ci saranno il vice/segretario dott. Donatiello Ernesto, il Tesoriere Ciccone Nicola e i due delegati al Coordinamento Provinciale Caruso Giuseppe e Iannuzzi Vincenzo
 &nbsp;
  (mercoledì 13 ottobre 2010 alle 11.58)
+&nbsp;
+
+[post_text_90]
+Caposele, Farina: «Pronta la commissione per trattare l'accordo con l'Aqp»
+&nbsp;
+CAPOSELE - La commissione consiliare che dovrà studiare la convenzione tra l’Acquedotto Pugliese e il Comune di Caposele diventerà presto realtà. Il primo cittadino, Pasquale Farina, ha, infatti, rotto gli indugi.
+&nbsp;
+«Le trattative con le forze di minoranza si sono concluse positivamente - afferma - Abbiamo trovato l'accordo per la nascita della commissione».
+Il prossimo anno scadrà l’attuale convenzione con l’Aqp. Ormai da mesi è in atto una serrata trattativa tra le parti che ad oggi non ha portato ancora a nulla. La commissione era stata richiesta le scorse settimane dai gruppi di minoranza “Arcobaleno” e “Autonomia e Trasparenza”.
+&nbsp;
+A far parte del nuovo organo dovrebbero essere alcuni consiglieri comunali, scelti tra i vari schieramenti. Non è esclusa, inoltre, la partecipazione di esperti del settore. Finora nel corso delle trattative tra Comune e Acquedotto Pugliese sono state scartate già due bozze di accordo, la prima presentata dall’Aqp e la seconda presentata dall’Amministrazione Farina.
+&nbsp;
+«E’ necessario trovare la piena unità di intenti per il bene del paese - continua Farina - E’ arrivato il momento di svolgere gli adempimenti necessari per portare avanti, in nome di tutta la comunità caposelese, le trattative dalle cui conclusioni dipenderà il futuro ed il possibile rilancio di Caposele stessa».
+&nbsp;
+Nei prossimi giorni verrà convocato un Consiglio Comunale al riguardo.
+«Dobbiamo essere pronti a fare gli interessi della nostra comunità - continua il primo cittadino - Le stesse forze dell’opposizione consiliare dovranno dar prova di grande maturità. L’acqua è la risorsa più preziosa che abbiamo. Dobbiamo strappare la miglior convenzione possibile all’Acquedotto Pugliese».
+&nbsp;
+&nbsp;
+
+[post_text_91]
+Caposele, sulla commissione ad hoc si va alla stretta finale
+&nbsp;
+Proseguono serrate la trattative tra l’Amministrazione comunale guidata dal sindaco, Pasquale Farina, e i gruppi della minoranza consiliare. Nelle prossime ore è previsto un nuovo confronto tra le parti. Materia del contendere la commissione ad hoc che avrà il compito di gestire le trattative con l’Acquedotto Pugliese per l’elaborazione della nuova convenzione.
+&nbsp;
+Il primo cittadino, infatti, dopo i tentennamenti iniziali, avrebbe rotto gli indugi e si sarebbe deciso a dar vita al nuovo organo comunale. La commissione era stata richiesta a gran voce dai gruppi di minoranza “Arcobaleno” e “Autonomia e Trasparenza”.
+L’intenzione è quella di dar vita a un fronte comune per trattare con l’Acquedotto Pugliese. Dalla discussione con l’ente pugliese dipenderà il futuro ed il possibile rilancio di Caposele.
+&nbsp;
+In queste ore l’Amministrazione sta vagliando le proposte dei gruppi di minoranza. A far parte della commissione dovrebbero essere alcuni consiglieri comunali, scelti tra i vari schieramenti. Non è esclusa, inoltre, la partecipazione di esperti del settore.
+L’attuale convenzione con l’Aqp scadrà nel 2012. Le forze politiche locali sono impegnate nell’elaborazione di una proposta che sia la più equa possibile per il Comune che sorge sulle rive del Sele. La vicenda della captazione delle acque del fiume, da parte dell’Acquedotto Pugliese trova una prima regolamentazione nel 1905. Da allora si sono succedute una serie di convenzioni, fino ad arrivare a quella del 1942, ancora in vigore.
+&nbsp;
+Finora sono state realizzate due bozze di accordo, entrambe rifiutate. Una, presentata dalla Regione Puglia e l’altra dall’Amministrazione Comunale guidata dal sindaco, Pasquale Farina. Le due convenzioni si distinguono su un punto fondamentale. L’Aqp si è detto disponibile a versare 10 milioni di euro al Comune di Caposele in cambio della rinuncia da parte del comune di ogni diritto sulle acque del territorio.
+«Abbiamo una risorsa che vale 30 volte di più rispetto a quello che offre l’Aqp» fanno sapere da Cittadinanzattiva.
+&nbsp;
+Il Comune di Caposele vuole rientrare in possesso di tutti i diritti relativi ai 363 litri di acqua al secondo, come nella convenzione firmata nel 1905.
+Secondo Cittadinanzattiva, l’Amministrazione Farina non deve avere fretta di chiudere l’accordo con l’Acquedotto Pugliese. Tutt’altro.
+«E’ necessario dar vita alla commissione allargata che studi il problema e proponga una convenzione da sottoporre poi a referendum popolare. L’acqua è un bene di tutta Caposele. Abbiamo un’occasione epocale dinanzi. Potremmo far pesare il nostro potere dinnanzi ai vertici regionali, sia campani che pugliesi».
+Nei prossimi giorni Farina dovrà convocare un Consiglio Comunale. Solo allora la commissione ad hoc prenderà davvero forma e le trattative con l’Aqp potranno riprendere.
+&nbsp;
+
+[post_text_92]
+Caposele, Farina: «Raggiunto l'accordo sulla commissione»
+&nbsp;
+L’organo che tratterà la convenzione con l’Aqp sarà composto da cinque elementi
+&nbsp;
+Nascerà la prossima settimana la commissione consiliare che dovrà studiare la convenzione tra l’Acquedotto Pugliese e il Comune di Caposele. Il primo cittadino, Pasquale Farina, ha deciso di convocare un Consiglio Comunale nei prossimi giorni. La commissione sarà presieduta dallo stesso Farina e sarà composta da due consiglieri di maggioranza e due di minoranza.
+&nbsp;
+«Le trattative con l’opposizione si sono concluse positivamente. Abbiamo trovato l'accordo per la nascita della commissione» afferma il sindaco.
+Il prossimo anno scadrà l’attuale convenzione con l’Aqp. Ormai da mesi è in atto una serrata trattativa tra le parti che ad oggi non ha portato ancora a nulla. La commissione era stata richiesta le scorse settimane dai gruppi di minoranza “Arcobaleno” e “Autonomia e Trasparenza”.
+&nbsp;
+Non è escluso che in futuro possano far parte della commissione anche esperti del settore.
+&nbsp;
+«E’ necessario trovare la piena unità di intenti per il bene del paese - continua Farina - E’ arrivato il momento di svolgere gli adempimenti necessari per portare avanti, in nome di tutta la comunità caposelese, le trattative dalle cui conclusioni dipenderà il futuro ed il possibile rilancio di Caposele stessa».
+&nbsp;
+La fase di gestazione è stata complessa, ma alla fine la commissione diventerà realtà.
+«Dobbiamo essere pronti a fare gli interessi della nostra comunità - continua il primo cittadino - Le stesse forze dell’opposizione consiliare dovranno dar prova di grande maturità. L’acqua è la risorsa più preziosa che abbiamo. Dobbiamo strappare la miglior convenzione possibile all’Acquedotto Pugliese».
+&nbsp;
+Non solo la commissione, in questi giorni il sindaco non dimentica gli altri impegni.
+Domani, infatti, i componenti dell’Amministrazione incontreranno i cittadini di Buoninventre presso l'ex scuola locale dalle ore 19,30. L'incontro servirà ad illustrare l'operato dell'Amministrazione e i programmi che la stessa ha per Buoninventre.
+«Avevo deciso di fare quest’incontro da tempo - continua Farina - Al tempo della mia elezione gli abitanti di questa frazione hanno avuto un peso determinante. Domani li ringrazierò personalmente, la loro stima mi ha commosso non poco».
+L’Amministrazione ha pensato a una serie di progetti per l’area di Buoninventre.
+«Progetti riguardanti la viabilità, la pubblica illuminazione e l’approvvigionamento idrico».
+&nbsp;
+Continuano anche i lavori al centro fieristico di Materdomini.
+«I lavori proseguono a gonfie vele, la ditta sta facendo un lavoro egregio. Siamo soddisfatti. Il centro dovrebbe essere completato per la fine dell’anno».
+&nbsp;
+
+[post_text_93]
+Caposele, sabato il Consiglio Comunale sulla commissione bipartisan, l'organo che tratterà con l'Aqp.
+&nbsp;
+E’ prevista per sabato alle ore 18.00 la convocazione del Consiglio Comunale sulla commissione ad hoc che si occuperà delle trattative con l’Acquedotto Pugliese. L’organo sarà presieduto dal sindaco di Caposele, Pasquale Farina, e sarà composto da due consiglieri di maggioranza e due di minoranza. Nei prossimi giorni verranno ufficializzati i nomi dei componenti del nuovo organo consiliare.
+&nbsp;
+Ormai da mesi la commissione veniva richiesta a gran voce dai gruppi di minoranza “Arcobaleno” e “Autonomia e Trasparenza”.
+&nbsp;
+L’attuale convenzione con l’Aqp scadrà nel 2012. Le forze politiche locali sono impegnate nell’elaborazione di una proposta che sia la più equa possibile per il Comune che sorge sulle rive del Sele. La vicenda della captazione delle acque del fiume, da parte dell’Acquedotto Pugliese trova una prima regolamentazione nel 1905. Da allora si sono succedute una serie di convenzioni, fino ad arrivare a quella del 1942, ancora in vigore.
+Finora sono state realizzate due bozze di accordo, entrambe rifiutate. Una, presentata dalla Regione Puglia e l’altra dall’Amministrazione Comunale guidata dal sindaco, Pasquale Farina.
+&nbsp;
+Dopo il Consiglio Comunale, che sabato sancirà la nascita della commissione, potranno riprendere le trattative con l’ente idrico pugliese. La fase di gestazione è stata complessa, ma alla fine il nuovo organo consiliare diventerà realtà. L’acqua viene considerata la risorsa più preziosa per il Comune di Caposele. Ora l’obiettivo comune diventa quello di strappare la miglior convenzione possibile all’Acquedotto Pugliese.
+&nbsp;
+
+[post_text_94]
+Caposele, l'Aqp presenta la terza bozza di accordo
+&nbsp;
+Continuano le trattative con il Comune
+&nbsp;
+Se da un lato, l’Amministrazione Comunale di Caposele guidata dal sindaco, Pasquale Farina, e le forze di opposizione hanno ormai trovato l’accordo per la nascita della commissione bipartisan. Dall’altro, le trattative con l’Acquedotto Pugliese per il rinnovo della convenzione in scadenza nel 2012 non si fermano. In questi giorni, infatti, l’ente idrico pugliese ha presentato al primo cittadino di Caposele una nuova bozza di accordo, la terza in pochi mesi.
+&nbsp;
+«Se firmata, la convenzione durerà fino al 31 dicembre 2018, salvo diverso avviso sancito nell’Accordo di Programma previsto dal Piano di Distretto. Nella bozza non è specificato l’importo che l’Acquedotto Pugliese corrisponderà al Comune di Caposele. Dal canto suo, quest’ultimo si impegnerà a utilizzare le somme per la salvaguardia delle Sorgenti della Sanità. Nel primo triennio dalla decorrenza della convenzione una parte delle somme potrà essere utilizzata per interventi infrastrutturali connessi con la gestione del servizio idrico integrato nel Comune di Caposele, per la riqualificazione delle aree propiscienti delle Sorgenti della Sanità e delle relative opere di captazione. In via residuale e marginale il Comune potrà destinare le somme percepite dall’Acquedotto Pugliese in attività di promozione del risparmio idrico e tutela delle risorsa idrica nonchè in attività di informazione e salvaguardia del patrimonio storico relativo alle Sorgenti della Sanità e dell’acquedotto del Sele.
+&nbsp;
+L’Aqp si impegna a valorizzare le acque delle sorgenti, in particolare a rendere possibile la fruizione turistica, effettuando un’adeguata opera di promozione culturale. Inoltre l’Acquedotto Pugliese si impegna a corrispondere al Comune un ulteriore indennizzo, commisurato alle spese energetiche relative alla sede comunale, agli edifici scolastici comunali e alla pubblica illuminazione a partire dalla data di entrata in funzione della centralina idroelettrica prevista nel progetto della Pavoncelli bis.
+&nbsp;
+Dal canto suo, il Comune si impegna ad emanare apposite ordinanze volte a rimuovere tutte quelle situazioni che possano costituire pericolo per la pubblica incolumità per lo stato delle opere dell’Acquedotto presenti sul proprio territorio. Si impegna inoltre a sottoscrivere un’apposita convenzione di approvvigionamento per subdistribuzione secondo quanto stabilito dal vigente regolamento del servizio idrico integrato e a corrispondere il costo del relativo servizio determinato in base alla tariffa vigente per tempo e agli eventuali adeguamenti successivi. Tale costo verrà fatturato dall’Aqp e compensato annualmente con decorrenza 31 dicembre di ogni anno. Il foro di competenza per ogni vertenza è quello di Bari. Inoltre Aqp e Comune dichiarano di avere null’altro a pretendere dalle passate convenzioni. Con riferimento alla sistemazione della Piazza Sanità, l’Aqp cede al Comune il progetto per la riqualificazione, svolgendo tutte le attività di sorveglianza ma senza rispondere dei danni che dovessero eventualmente derivare al Comune e ai suoi abitanti dalla esecuzione del progetto. L’Aqp continuerà ad assicurare il servizio di approvvigionamento al Comune fino alla data di scadenza della convenzione». Questo il testo integrale della bozza di accordo.
+&nbsp;
+
+[post_text_95]
+Caposele, Farina: «La bozza dell’Aqp? Soddisfacente»
+&nbsp;
+Oggi prima riunione della commissione consiliare presieduta dal sindaco
+&nbsp;
+Si riunirà quest’oggi le commissione consiliare che avrà il compito di trattare il rinnovo della convenzione con l’Acquedotto Pugliese. Sarà il debutto ufficiale per l’organo consiliare nominato dal Consiglio Comunale di sabato scorso. La commissione, presieduta dal sindaco di Caposele Pasquale Farina, è composta dall’assessore comunale al Bilancio e alla Programmazione Angelo Ceres, dal consigliere comunale con Delega al Turismo Donatello Cirillo, e dai consiglieri di minoranza Gerardo Di Masi e Lorenzo Melillo.
+&nbsp;
+Il primo compito della commissione sarà quello di studiare la terza bozza di accordo presentata dall’Acquedotto Pugliese. Una proposta che, secondo i consiglieri di opposizione e Antonio Cione, esponente di Cittadinanzattiva, non sarebbe conveniente per l’Amministrazione Comunale.
+&nbsp;
+«E’ una bozza piena di vincoli e cavilli per il Comune. Sembra quasi che l’Amministrazione Comunale debba sostituirsi alla Regione per la tutela della sorgente» aveva detto Cione. Di tutt’altra opinione il primo cittadino, Pasquale Farina.
+«Chi critica non dovrebbe guardare solo la convenzione in sè - afferma - L’accordo, infatti, è integrato da altre tre documentazioni: una scrittura privata con l’ente idrico, un accordo morale con la Regione Puglia e una disciplinare per la fruizione turistica. Ci sono molte cose a nostro favore. Di fatto, abbiamo voluto rendere la convenzione più snella e, allo stesso tempo, corredarla con una serie di accordi».
+Nei gioni scorsi il sindaco Farina ha sottoposto la bozza di accordo alle associazioni e ai partiti politici.
+&nbsp;
+«E’ stato una sorta di referendum - continua - Tutti mi hanno detto che questa bozza è conveniente».
+Il primo cittadino si rivolge poi ad Antonio Cione.
+«Quando Cione afferma che la nostra è una risorsa che vale trenta volte di più rispetto a quello che ci offre l’Aqp si riferisce a tutti i quattromila litri di acqua delle Sorgenti della Sanità. Oggi noi siamo concentrati solo sui 363 litri».
+Farina predica unità.
+&nbsp;
+«E’ necessario trovare la piena unità di intenti per il bene del paese. E’ arrivato il momento di svolgere gli adempimenti necessari per portare avanti, in nome di tutta la comunità caposelese, le trattative dalle cui conclusioni dipenderà il futuro ed il possibile rilancio di Caposele stessa».
+&nbsp;
+&nbsp;
+
+[post_text_96]
+Caposele, Farina: «Chiaravallo? Le sue sono pure congetture»
+&nbsp;
+Il sindaco replica all’esponente di Cittadinanzattiva sulla convenzione con l’Aqp
+&nbsp;
+Non accenna a placarsi la polemica relativa alla convenzione tra il Comune di Caposele e l’Acquedotto Pugliese. Dopo l’attacco dell’esponente di Cittadinanzattiva, Antonio Chiaravallo, non si fa attendere la piccata replica del sindaco Pasquale Farina.
+«Se la nuova bozza dovesse divenire la convenzione Farina, per la prima volta nella storia di Caposele, sarà sancita l’integrale vendita di tutte le acque delle sue sorgenti. I caposelesi dovranno pagare l’acqua e cesserà l’obbligo di apertura al pubblico del Viale del Cantiere. Il Sindaco ha già espresso il parere favorevole alla realizzazione della Pavoncelli Bis» questa l’accusa di Chiaravallo.
+«Nulla di più falso - replica il primo cittadino di Caposele - Smentisco seccamente le dichiarazioni di Chiaravallo. Mi meraviglio del fatto che un avvocato faccia certe dichiarazioni senza conoscere i fatti».
+&nbsp;
+La commissione, presieduta dal sindaco Pasquale Farina, e composta dall’assessore comunale al Bilancio e alla Programmazione Angelo Ceres, dal consigliere comunale con Delega al Turismo Donatello Cirillo, e dai consiglieri di minoranza Gerardo Di Masi e Lorenzo Melillo, è l’unico organo competente in materia.
+&nbsp;
+«La cittadinanza non può essere destabilizzata in questo modo - continua Farina - La commissione consiliare è l’unico organo competente ad avere voce in capitolo. L’Amministrazione Comunale ha sempre agito nella più completa trasparenza. Chiaravallo non fa parte della commissione bipartisan, quindi non conosce come stanno davvero le cose».
+&nbsp;
+La prossima riunione della commissione è prevista martedì.
+«Quelle dell’esponente di Cittadinanzattiva sono strumentalizzazioni gratuite, pure congettura. La commissione sta lavorando in piena sintonia. Da questo punto di vista l’incontro di martedì scorso è stato molto proficuo».
+Farina respinge al mittente anche le accuse sulla Pavoncelli bis.
+«Sui lavori della galleria c’è sempre stato accordo tra maggioranza e opposizione - continua - Io non ho espresso nessun parere favorevole o personale».
+&nbsp;
+Il primo cittadino lancia una stoccata ai critici.
+«Chi fa certe congetture non è stato in grado di farsi eleggere in Consiglio Comunale. La popolazione è ottimamente rappresentata da noi».
+Di fatto, la convenzione con l’Aqp verrà firmata solo con l’accordo di tutti.
+«La convenzione verrà firmata solo se ci sarà il pieno accordo di tutti i componenti della commissione».
+&nbsp;
+
+[post_text_97]
+Caposele attivate postazioni wifi
+&nbsp;
+Oggi la nuova tecnologica relativa ai mass media viaggia soprattutto sulla rete web e per stare al passo con i tempi l’Amministrazione Comunale, da anni  sensibile alle nuove forme di comunicazione, ha installato all’interno del centro abitato 5 hot spot gratuiti e liberi per il collegamento ad internet.
+&nbsp;
+Infatti oggi, Caposele è coperta quasi interamente, dal segnale wifi:
+- Piazza XXIII nov. frequentatissima dai giovani e centro sociale del Paese, ha la connessione libera e gratuita;
+- Piazza Sanità dalla quale si accede alle sorgenti, al parco fluviale e al museo delle acque è coperta dal segnale wifi;
+- L’area del polo scolastico compreso tutto l’interno della scuola ha il segnale per la connessione gratuita e libera ad internet;
+- Piazza Dante dove è allocato il Municipio e piazza Di Masi antico centro di socialità  con l’area del Castello, sono coperte dal wifi libero e gratuito;
+Infine, fra pochi giorni anche piazza del Santuario a San Gerardo avrà la connessione libera e gratuita per tutti i turisti che frequentano quei luoghi.
+&nbsp;
+ Insomma, Caposele che vive purtroppo lo strano destino di non avere ancora la connessione adsl via cavo, ha dalla sua parte, invece, quasi a compensare l’ingiustizia del “digital divide” la grande intraprendenza degli amministratori locali che, in questo modo, hanno proiettato il paese molto in avanti anticipando quello che, speriamo, sarà il web del futuro in tutto il territorio: libero e gratuito.
+&nbsp;
+&nbsp;
+&nbsp;
+
+[post_text_98]
+Caposele, ora la minoranza accusa il sindaco Farina sulla pavoncelli Bis
+&nbsp;
+Continuano le polemiche nel centro dell'Alta Irpinia
+&nbsp;
+L'opposizione prende le distanze dal parere unilaterale del Sindaco.
+In ordine al presunto accordo tra maggioranza ed opposizione sui lavori della galleria Pavoncelli bis, dichiarato dal sindaco Farina nell'articolo pubblicato sul corriere lo scorso 19 maggio, i consiglieri di minoranza Zanca, Melillo e Spatola precisano che "l'autorizzazione alla realizzazione dell'opera non doveva prescindere dagli interessi del Comune.
+&nbsp;
+Gli accordi erano che il parere favorevole del Comune di Caposele doveva essere necessariamente subordinato alla garanzia che, i lavori di realizzazione della centrale idroelettrica iniziassero entro sei mesi dall'avvio della Pavoncelli bis e dovevano essere conclusi prima della sua ultimazione; alla realizzazione di una bretella di collegamento tra il cantiere della Pavoncelli e lo svincolo della SS 91, per evitare l'intenso traffico dei mezzi pesanti costituente un grave intralcio al traffico interno e che al termine dell'opera doveva restare ad uso comunale; all'istituzione di una commissione tecnica in cui fosse rappresentato anche il Comune, avente la funzione di verifica e controllo dei lavori; e in ultimo all'installazione di un misuratore all'inizio della Pavoncelli bis per verificare la quantità di acqua prelevata.
+&nbsp;
+L'accordo politico è, di fatto, venuto meno perché l'assessore ai LL.PP. ha reso il parere tecnico favorevole del 19.11.2010 recependo la previsione di realizzazione della centrale idroelettrica, priva però della tempistica concordata, e la sola costruzione della bretella di collegamento, rinunciando agli ulteriori interessi del comune di Caposele. Ma, il fatto più grave, è che il sindaco, con atto personale e a distanza di soli due giorni, ha modificato il parere già reso dal responsabile del settore tecnico dichiarando che la costruzione della bretella non rappresentava una prescrizione dell'amministrazione, ed ha così addossato inspiegabilmente i futuri disagi del traffico di mezzi pesanti alla sua cittadinanza.
+&nbsp;
+Pertanto, il gruppo consiliare di minoranza 'l'arcobaleno' esprime il suo netto dissenso in quanto dal modo di operare del sindaco si capisce che gli interessi dell'AQP ancora una volta vengono realizzati a spese del territorio e della popolazione di Caposele, le cui legittime aspettative, fondate su precedenti accordi, vengono ingiustamente sacrificate. Sul punto la minoranza si riserva di chiarire con il sindaco la propria posizione".
+&nbsp;
+
+[post_text_99]
+Caposele, si parla di tutela e recupero del territorio - Numerose le autorità invitate
+&nbsp;
+CAPOSELE - Sabato 4 giugno a Caposele, alle ore 10.00 nella Sala Teatro del Santuario di San Gerardo, andrà in scena il convegno su “La tutela dell’ambiente e del territorio: recupero dell’identità culturale e sviluppo sostenibile”. L’evento è patrocinato dal Comune di Caposele, dalla Federazione Nazionale Pro Vita e dall’Ordine degli Avvocati di Sant’Angelo dei Lombardi.
+&nbsp;
+I saluti saranno affidati a Vincenzo Beatrice, Presidente del Tribunale di S. Angelo dei Lombardi, Bruno Salzarulo, Presidente del Consiglio dell'Ordine degli Avvocati di Sant'Angelo dei Lombardi, Pasquale Farina, Sindaco di Caposele, Ennio Blasco, Prefetto di Avellino. L’introduzione, riguardante la politica di tutela del territorio provinciale, sarà affidata a  Cosimo Sibilia, Presidente della Provincia di Avellino. Anna Savarese, Presidente del Parco dei Monti Picentini affronterà il tema dell’importanza dei Parchi per lo sviluppo e l'identità del territorio; Sabino Aquino, Presidente del Parco del Partenio affronterà il tema dell’azione antropica sulle acque superficiali e sotterranee; Mario Marino, Presidente della Comunità Montana Terminio Cervialto, affronterà il tema dell’attività di forestazione a tutela dell'assetto idrogeologico del comprensorio montano; Angelo Ceres, Assessore all’Ambiente del Comune di Caposele affronterà il tema della tutela dell'ambiente come premessa per lo sviluppo del territorio.
+&nbsp;
+Previsti anche gli interventi di Giuseppe De Mita, Vice Presidente Regione Campania; Raffaele Tecce, già Senatore della Repubblica; degli studenti del Liceo Scientifico di Caposele; Pierpaolo Calabrese, Magistrato presso il Tribunale di Sant’Angelo dei Lombardi; Giulio Belmonte, Presidente ASI di Avellino; Antonio Palma, Docente presso l'Università Federico II di Napoli; Franco Roberti, Procuratore della Repubblica di Salerno.
+&nbsp;
+A moderare sarà Antonio Guerriero, Procuratore della Repubblica di Sant’Angelo dei Lombardi.
+
+[post_text_100]
+Caposele, l’opposizione attacca: «Chiarezza sugli incarichi esterni»
+&nbsp;
+I gruppi Arcobaleno e Autonomia e Trasparenza si rivolgono al sindaco
+&nbsp;
+Scoppia la polemica sugli incarichi esterni a Caposele. I gruppi di opposizione Arcobaleno e Autonomia e Trasparenza si sono infatti resi protagonisti di un’interpellanza rivolta al sindaco Pasquale Farina.
+&nbsp;
+«Con invito diffida a firma del consigliere Ettore Spatola dell’11 aprile scorso è stato richiesto l’annullamento in autotutela della delibera di G.C. n. 15/2011 per grave violazione del regolamento per gli incarichi esterni, approvato dalla Giunta comunale con delibera 102/2010. A tutt’oggi non è stato dato alcun riscontro a quanto richiesto; siffatto modo di gestire il ricorso agli incarichi esterni appare gravemente lesivo del principio di trasparenza, imparzialità e correttezza che dovrebbero, invece, improntare l’attività di un Ente pubblico. Tanto premesso, gli istanti, nel formulare piena solidarietà al consigliere Ettore Spatola, fatto oggetto, sul punto, da parte del Sindaco di un duro quanto gratuito e scriteriato attacco personale, reiterano tutti i gravi vizi già evidenziati nell’invito-diffida di cui sopra e sollecitano l’autoannullamento della delibera 15/2011; diversamente, a norma dell’art. 18 del regolamento di organizzazione del consiglio comunale approvato con delibera n. 24/2001. Nonostante le nostre richieste però la questione non è stata posta nell’ordine del giorno dell’ultimo consiglio comunale».
+&nbsp;
+Nelle scorse settimane il primo cittadino si è difeso sostenendo che gli incarichi esterni sono stati conferiti a norma dell’articolo 6 del Regolamento Comunale degli incarichi esterni approvato con delibera di G.C. n. 102/2010.
+Inoltre, ha continuato Farina, per valorizzare le professionalità esistenti sul territorio, l’Amministrazione comunale nei giorni scorsi ha incontrato tutti gli avvocati di Caposele. I consiglieri di opposizione però non ci stanno e ribattono.
+&nbsp;
+«Il sindaco ha dato un’interpretazione sbagliata all’articolo 6. La nostra intenzione non è quella di non far lavorare i professionisti del posto. Chiediamo solo il rispetto delle regole. Farina deve necessariamente dar vita a una short list».
+&nbsp;
+
+[post_text_101]
+Caposele, l’Arcobaleno attacca: «Farina fa gli interessi dell’Aqp»
+&nbsp;
+L’Amministrazione comunale altirpina sarebbe stata l’unica a dare parere favorevole alla Pavoncelli bis
+&nbsp;
+Non accenna a placarsi la polemica relativa alla convenzione tra il Comune di Caposele e l’Acquedotto Pugliese. Il gruppo di opposizione dell’Arcobaleno critica fortemente l’operato del sindaco Pasquale Farina.
+&nbsp;
+«Il comportamento del Sindaco Pasquale Farina sulla vicenda della Pavoncelli bis e dei diritti sulla titolarità delle Acque di Caposele è a dir poco discutibile. Genera preoccupazioni il fatto che il Comune di Caposele sia stato l'unico Ente della conferenza di servizi a dare parere favorevole al completamento della Pavoncelli-bis, nonostante tutti gli altri partecipanti abbiano invece espresso parere negativo. Infatti, il Sindaco, senza doverosamente passare per il Consiglio comunale anche per recepire l’imponente opera nel suo Puc, ha addirittura modificato il parere del responsabile del settore tecnico, che lo aveva reso positivo alla condizione della realizzazione di una bretella di collegamento tra il cantiere dei lavori e l’uscita della fondovalle Sele, dichiarando invece che la bretella "non rappresenta una prescrizione vincolante di questa Amministrazione".
+&nbsp;
+Ancora più allarmante è il grande impegno che profonde per propinare in giro la sua convinzione della bontà, contro ogni evidenza, ad accettare la vendita dell’acqua propostagli dall’Aqp. Tutto ciò, quando il parere chiesto da lui stesso ad un illustre avvocato gli ha confermato che "alla scadenza della concessione disposta nel 1942 a favore dell'Aqp, il comune di Caposele può vantare il diritto di utilizzare quel quantitativo dell'acqua (500 l/s) per effetto della convenzione stipulata con l'Amministrazione dello Stato nel 1905". E, ancora a distanza di oltre due mesi da quando lo ha ricevuto, il Sindaco non procede a formalizzare l'opposizione al rinnovo della concessione di derivazione richiesta dall'Aqp alla Regione Campania, opposizione invece ritenuta essenziale nel citato parere legale.
+&nbsp;
+A niente è servito istituire una commissione Consiliare per dare la massima pubblicità e trasparenza agli atti, perché il Sindaco non fornisce i documenti di cui è in possesso.
+La proposta di convenzione dell'Aqp, che il nostro primo cittadino tanto sponsorizza, prevede chiaramente che saranno i caposelesi a dover pagare l’acqua potabile all’Acquedotto Pugliese.
+Il Sindaco, invece di preoccuparsi di inoltrare l'azione risarcitoria nei confronti dell'Aqp per l'inadempimento degli obblighi assunti con le vecchie convenzioni, consigliatagli nel parere legale che ha richiesto, sostiene la proposta scritta dal gestore Pugliese, con cui il Comune Caposele dovrebbe rinunciare definitivamente ad un diritto d'uso del quantitativo dell'Acqua delle Sorgenti Sanità finora mai messa in discussione da tutti i precedenti accordi.
+Il Sindaco Farina per sostenere le ragioni dell’Aqp costringerà i Caposelesi per la prima volta al pagamento dell’acqua».
+&nbsp;
+
+[post_text_102]
+Caposele, Farina: «Il nostro Puc risponde ai requisiti di legge»
+&nbsp;
+Il sindaco contro il parere dell’Autorità di Bacino: «Il Tar ci darà ragione»
+&nbsp;
+L’Amministrazione Comunale di Caposele ha delegato la Comunità Montana Tanagro Alto Medio Sele di ricorrere al Tar contro il Piano di Stralcio di Assetto Idrogeologico. Il sindaco Pasquale Farina continua a difendere il Piano Urbanistico Comunale presentato dalla propria Amministrazione e bloccato dal Pai.
+&nbsp;
+“Il Puc va bene - afferma - Non sappiamo perchè l’Autorità di Bacino abbia cambiato idea dopo aver dato parere favorevole un anno fa. Di fatto, con la sua decisione ci ha danneggiato non poco visto che ha sospeso una serie di opere pubbliche”.
+Il primo cittadino difende a denti stretti il suo Puc.
+&nbsp;
+“Il Piano Urbanistico Comunale rimane un nostro fiore all’occhiello - continua - Siamo stati uno dei cinque paesi della provincia di Avellino ad adottare un Piano Urbanistico Comunale. Questa è la dimostrazione della qualità del nostro lavoro. Chi critica vuole solo denigrarci. Il Puc rispetta tutti i requisti di legge”.
+&nbsp;
+L’attenzione del primo cittadino è rivolta anche alle trattative per il rinnovo della convenzione con l’Acquedotto Pugliese. Quest’oggi la commissione consiliare ad hoc si incontrerà nuovamente.
+&nbsp;
+“Stiamo valutando la convenzione. Siamo aperti al dialogo. In questi anni ho sempre fatto gli interessi della cittadinanza, continuerò a farli anche stavolta. Sono stato vittima di critiche strumentali, ma non mi abbatto. Sono consapevole che, a volte, con la scusa della politica vengono giustificati gli attacchi più ignobili, ma io non mi arrendo”.
+&nbsp;
+
+[post_text_103]
+Caposele, Cirillo: «Puntiamo sul rilancio del turismo estivo»
+&nbsp;
+Interviene il consigliere comunale
+&nbsp;
+Con l’inizio della stagione estiva l’Amministrazione Comunale di Caposele guidata dal sindaco Pasquale Farina punta a rilanciare il turismo. E’ Donatello Cirillo, consigliere comunale con delega al Turismo Religioso e Ambientale, a intervenire.
+&nbsp;
+«Stiamo cercando di far arrivare a Caposele il maggior numero possibile di turisti - afferma - La visita alle sorgenti del Sele, al Museo delle acque può avvenire attraverso una richiesta da inviare al Comune di Caposele specificando il numero dei visitatori, gli accompagnatori, il giorno e l'orario della visita. La visita alle sorgenti del Sele può rientrare in un mini tour turistico che contempla un percorso di visita che riguarda il Museo delle acque, il Parco fluviale, il Tempio artistico di San Lorenzo, il Santuario di San Gerardo Maiella e il Museo Gerardino».
+&nbsp;
+L’Amministrazione Comunale sta inoltre cercando di rilanciare i percorsi turistici attraverso la Misura regionale 313.
+«Quest’ultima sostiene la realizzazione e l’implementazione di itinerari turistici ed enogastronomici riconosciuti dalla Regione - continua Cirillo - Inoltre in vista dell’estate stiamo organizzando una serie di manifestazioni con la collaborazione della Pro Loco e delle altre associazioni locali. Il turismo è da sempre il volano del nostro sviluppo».
+&nbsp;
+Per Cirillo sono soprattutto due le attrattive da cui far ripartire Caposele.
+«La nostra è una terra d’acqua e di fede, che si caratterizza per due elementi fondamentali: la presenza delle sorgenti del Sele, fiume a cui è profondamente legata la storia di tutto il territorio, e la figura di San Gerardo Maiella. E’ su questi elementi che vogliamo puntare per rilanciare il territorio».
+&nbsp;
+
+[post_text_104]
+A Caposele viene approvato il bilancio ma la minoranza diserta il Consiglio
+&nbsp;
+La delusione del sindaco Farina
+&nbsp;
+Colpo di scena nel Consiglio comunale che si è tenuto ieri a Caposele. I gruppi di minoranza dell’Arcobaleno e di Autonomia e Trasparenza infatti hanno deciso di disertare la seduta. E’ il sindaco Pasquale Farina a rivelarlo.
+&nbsp;
+«Quella di ieri è stata una sconfitta della democrazia - afferma sconsolato - Non conosco le motivazioni che hanno indotto i consiglieri di minoranza a disertare il consiglio. Abbiamo aspettato quasi un’ora ma nessuno si è fatto vedere. Un modo di fare davvero discutibile».
+&nbsp;
+L’assenza dei consiglieri di minoranza non ha avuto effetti sull’approvazione dei punti all’ordine del giorno.
+Ieri infatti erano previsti l’approvazione del programma triennale delle opere pubbliche 2011/2013 e dell’elenco annuale dei lavori per l’anno 2011; la verifica della qualità delle aree da destinarsi a residenza nonchè alle attività produttive e terziarie ai sensi della legge n. 167/1962, n. 865/1971 e 457/1978; il piano delle alienazioni e le valorizzazioni immobiliari redatto ai sensi dell’art. 58 della legge 133/2008 e, soprattutto, l’approvazione del bilancio di previsione dell’anno 2011 e del bilancio pluriennale 2011/2013.
+&nbsp;
+«Forse la minoranza pensava di minare il Consiglio ma non c’è riuscita. Abbiamo approvato tutti i punti all’ordine del giorno senza nessun problema».
+Il primo cittadino non si capacita dell’atteggiamento della minoranza consiliare.
+«Ho sempre dimostrato apertura totale ma ogni volta la minoranza non ha esitato a colpirmi impunemente. In questi anni ho sempre fatto gli interessi della cittadinanza, continuerò a farli anche stavolta. Sono stato vittima di critiche strumentali, ma non mi abbatto».
+&nbsp;
+Il nuovo strappo della minoranza potrebbe avere ripercussioni sul lavoro della commissione che sta trattando il rinnovo con l’Acquedotto Pugliese? Il sindaco non lo esclude.«Questo modo di fare rischia di rimettere tutto in discussione».
+&nbsp;
+&nbsp;
+
+[post_text_105]
+Caposele, Conforti: «La nostra realtà si attesta su livelli europei»
+&nbsp;
+Interviene l'assessore comunale
+&nbsp;
+L’assessore con delega alle politiche scolastiche, culturali e del tempo libero del comune di Caposele, Salvatore Conforti, ci illustra in maniera entusiasta come la cittadina irpina si collochi tra le realtà più importanti d’Europa in materia di tecnologia. A distanza di pochi giorni dalle affermazioni del sindaco Vincenzo De Luca, che vedeva Salerno come città conformata all’Europa grazie alla copertura di quattro zone della città con il servizio di Internet libero; tocca ora all' irpinia acquisire tale vanto.
+&nbsp;
+«Abbiamo operato una scelta estremamente coraggiosa. Già due anni fa quando una assurda legge sulla privacy complicava lo sviluppo del wi fi libero, la nostra giunta aveva preso a lavorare in direzione dell' ottenimento di un risultato, portare internet nelle nostre zone, libero e per tutti».
+&nbsp;
+L’assessore sottolinea come vi siano ad oggi, ancora grandissime difficoltà per ottenere una normale linea adsl nelle loro zone, e dunque risulta ancora più importante il lavoro svolto in questa direzione dalla giunta Farina, che permetterà in questo modo a cittadini e turisti di usufruire di un servizio oramai capitale come il surfing del web.
+&nbsp;
+«Nel giorno immediatamente successivo alla moratoria del governo che modificava la legge sulla privacy del web, noi con il nostro validissimo staff di tecnici informatici, ci siamo attivati per rendere la navigazione libera, un bene per tutta la cittadinanza».
+&nbsp;
+A breve anche tutti i turisti che arriveranno nella zona di San Gerardo, potranno usufruire del servizio in maniera assolutamente libera.
+&nbsp;
+
+[post_text_106]
+Caposele, Farina: «La maggioranza rimane compatta»
+&nbsp;
+Il sindaco replica all’opposizione consiliare
+&nbsp;
+Nessuna rottura all’interno della maggioranza a Caposele. Il sindaco, Pasquale Farina, è convinto di avere i numeri necessari per continuare a governare fino alla scadenza naturale del mandato.
+«La minoranza dice che sono uscito indebolito dal Consiglio sull’approvazione del bilancio? A me non sembra - afferma il sindaco - Tranne i due ex consiglieri di maggioranza, Tommaso Cibellis e Gerardo Di Masi che, di fatto, nelle ultime settimane sono confluiti nel gruppo dell’Arcobaleno, i componenti della maggioranza sono tutti con me».
+&nbsp;
+Nell’ultimo Consiglio comunale qualcuno ha sottolineato l’assenza dell'assessore Alfonso Pallante.
+«Un’assenza giustificata da motivi personali - continua Farina - Pallante è uno degli assessori che mi sono più vicini. Non c’è nessun caso, era tutto previsto».
+La maggioranza è salda più che mai.
+«L’atteggiamento della minoranza non sta facendo altro che rafforzare il nostro legame - continua Farina - Stiamo rinsaldando i ranghi contro il nemico comune. Se ci volevano dividere hanno fatto male i calcoli. Siamo un gruppo d’acciaio».
+&nbsp;
+Il primo cittadino parla poi della commissione che sta portando avanti le trattative con l’Acquedotto Pugliese.
+«Non è mia intenzione rimettere in discussione la commissione ad hoc - afferma - Ho semplicemente detto che a volte il comportamento della minoranza mi lascia perplesso».
+Ultimo pensiero per il Parco Fluviale della Madonnina.
+«Stiamo ultimando i lavori al Parco Fluviale, un’oasi naturale con un bellissimo colpo d’occhio. Abbiamo ripopolato il fiume con le trote. Speriamo di inaugurare il parco il 18 agosto in occasione della Festa del WWF. Ringrazio la Comunità Montana Terminio Cervialto che ci è stata vicina nell’elaborazione del progetto. Con un cifra irrisoria stiamo facendo una grande opera. Sono già tanti i turisti che sono andati a dare uno sguardo al parco».
+&nbsp;
+
+[post_text_107]
+Caposele, la provocazione di Farina: «Sono pronto a non ricandidarmi»
+&nbsp;
+Parla il primo cittadino
+&nbsp;
+Continuano gli incontri della commissione consiliare che ha il compito di trattare il rinnovo della convenzione con l’Acquedotto Pugliese.
+L’organo consiliare, presieduto dal sindaco di Caposele Pasquale Farina, è composto dall’assessore comunale al Bilancio e alla Programmazione Angelo Ceres, dal consigliere comunale con Delega al Turismo Donatello Cirillo, e dai consiglieri di minoranza Gerardo Di Masi e Lorenzo Melillo.
+&nbsp;
+Ed è proprio sulla bozza di accordo che si sta consumando da qualche giorno la polemica tra la maggioranza e la minoranza. Per quest’ultima infatti quella proposta dall’Aqp sarebbe una bozza piena di vincoli e cavilli per il Comune.
+Di tutt’altra opinione il primo cittadino, Pasquale Farina.
+«Chi critica non dovrebbe guardare solo la convenzione in sè - afferma - L’accordo, infatti, è integrato da altre tre documentazioni: una scrittura privata con l’ente idrico, un accordo morale con la Regione Puglia e una disciplinare per la fruizione turistica. Ci sono molte cose a nostro favore. Di fatto, abbiamo voluto rendere la convenzione più snella e, allo stesso tempo, corredarla con una serie di accordi».
+Di fatto, la convenzione, se firmata a detta del sindaco prevederebbe una serie di vantaggi.
+&nbsp;
+«Penso alla fruizione delle sorgenti o al progetto da un milione e duecentomila euro in Piazza Sanità. Questo finanziamento ci permetterebbe di costruire una piazza artistica il cui progetto verrebbe affidato a un architetto all’altezza. Inoltre la palazzina vicino alle sorgenti potrebbe diventare un museo dedicato alla Galleria Pavoncelli in cui potrebbero essere organizzati una serie di convegni. Senza dimenticare il Parco Fluviale e tanto altro ancora».
+&nbsp;
+Farina, da sempre impegnato a fare gli interessi di Caposele, chiude con una provocazione.
+«Se la minoranza dimostra di avere a cuore il bene del paese sono anche disposto a non ricandidarmi tra due anni. Purchè vengano fatti gli interessi di Caposele».
+&nbsp;
+&nbsp;
+
+[post_text_108]
+Caposele, Spatola: «L’accordo di programma? Era quello che chiedevamo ormai da tempo»
+&nbsp;
+Interviene il consigliere di opposizione
+&nbsp;
+Nei giorni scorsi il Ministero dell’Ambiente ha deciso di mediare tra la Regione Campania e la Regione Puglia sul rinnovo della concessione della Sorgente della Sanità a Caposele. I dirigenti del Ministero hanno proposto un accordo di programma generale tra Campania e Puglia. Una decisione accolta con soddisfazione dal consigliere comunale del gruppo Arcobaleno, Ettore Spatola.
+«Era quello che chiedevamo da tempo - afferma il consigliere comunale - L’accordo di programma è imprescindibile per affrontare la questione nel miglior modo possibile. Quello che abbiamo sempre chiesto è il rispetto del deflusso minimo vitale per il fiume Sele».
+&nbsp;
+Al tavolo prenderebbero parte tutti i soggetti interessati. Le due Regioni saranno gli attori principali, ma in questo caso la partita si giocherebbe alla pari. La minoranza, per bocca di Spatola, si dice disposta a collaborare con l’Amministrazione comunale e con il sindaco Pasquale Farina.
+&nbsp;
+«Noi vogliamo dare una mano - continua - A patto che l’Amministrazione faccia realmente gli interessi del nostro paese. Le polemiche e le provocazioni degli ultimi giorni sono fuori luogo. E’ in gioco il futuro economico di Caposele».
+Una questione, quella del rinnovo della convenzione con l’Acquedotto Pugliese, che da settimane viene affrontata dalla commissione consiliare ad hoc.
+«I componenti della commissione si stanno riunendo ormai da tempo. La questione è di fondamentale importanza».
+&nbsp;
+Per Spatola non devono ripetersi gli errori del passato. L’esempio è quello della Pavoncelli bis, la galleria di servizio della vecchia Pavoncelli, danneggiata dal terremoto del 1980.
+«Mi auguro che il nostro primo cittadino non commetta più certi errori - continua - Qualche mese fa la nostra Amministrazione comunale fu l’unica che diede parere favorevole alla costruzione della contestata galleria. Bisogna fare tesoro degli errori del passato ed evitare che gli interessi dell’Aqp vengano realizzati a spese del territorio e della popolazione di Caposele».
+&nbsp;
+
+[post_text_109]
+Caposele, continuano i lavori al Parco Fluviale della Madonnina
+&nbsp;
+L'inaugurazione prevista per il 18 agosto
+&nbsp;
+ Continua l’attività amministrativa a Caposele. Nelle ultime settimane l’attenzione dell’Amministrazione Comunale guidata dal sindaco, Pasquale Farina, è rivolta al completamento dei lavori al Parco Fluviale della Madonnina. Nelle intenzioni della giunta Farina il parco dovrà diventare un volano del turismo. Nelle ultime settimane, inoltre, il Fiume Sele è stato ripopolato con alcune trote.
+&nbsp;
+L’inaugurazione del parco è prevista per il 18 agosto, in occasione della Festa del WWF.
+Nell’elaborazione del progetto, con l’Amministrazione Comunale ha collaborato la Comunità Montana Terminio Cervialto. «Con un cifra irrisoria stiamo facendo una grande opera. Sono già tanti i turisti che sono andati a dare uno sguardo al parco» fanno sapere dall’Amministrazione comunale.
+&nbsp;
+Intanto non si ferma l’attività della commissione consiliare chiamata a trattare con l’Acquedotto Pugliese il rinnovo della convenzione in scadenza nel 2012.
+La commissione, presieduta dal sindaco di Caposele Pasquale Farina, e composta dall’assessore comunale al Bilancio e alla Programmazione Angelo Ceres, dal consigliere comunale con Delega al Turismo Donatello Cirillo, e dai consiglieri di minoranza Gerardo Di Masi e Lorenzo Melillo, si riunirà anche questa settimana per fare il punto della situazione sulle trattative.
+&nbsp;
+
+[post_text_110]
+Amaretti e matasse di Caposele nell’elenco nazionale dei prodotti alimentari tradizionali
+&nbsp;
+Pubblicato il Decreto sulla Gazzetta Ufficiale
+&nbsp;
+Lo scorso 11 luglio, sulla Gazzetta Ufficiale n. 159, è stato pubblicato il Decreto del 17 giugno 2011 del Ministero delle Politiche Agricole Alimentari e Forestali relativo alla “Undicesima revisione dell'elenco nazionale dei Prodotti Agroalimentari Tradizionali”.
+&nbsp;
+Le matasse, gli amaretti e il muffletto di Caposele, sono stati inseriti nell’elenco nazionale dei prodotti tipici locali, a seguito dell’approvazione del progetto di valorizzazione di alcuni prodotti enogastronomici tipici della tradizione caposelese presentato dal Comune di Caposele alla Regione Campania.
+&nbsp;
+L’inserimento in questo elenco di tali prodotti tipici costituisce un passo importante per la tutela delle tipicità locali. Infatti questo elenco è uno fra i più importanti strumenti per la salvaguardia di questi alimenti conservandone le metodiche tradizionali di produzione, ricchezza dell’agricoltura e della cultura italiana, assicurando nel contempo ai consumatori le necessarie condizioni di igiene e sicurezza alimentare.
+&nbsp;
+La decisione di individuare i prodotti agroalimentari tradizionali è stata voluta dal Ministero delle Politiche Agricole, Alimentari e Forestali che ha deciso di puntare nettamente su settori di nicchia, valorizzando i prodotti tradizionali in cui prodotti agricoli o dell'allevamento venivano lavorati secondo antiche ricette. Il requisito per essere riconosciuti come Prodotti Agroalimentari Tradizionali (PAT) è quello di essere «ottenuti con metodi di lavorazione, conservazione e stagionatura consolidati nel tempo, omogenei per tutto il territorio interessato, secondo regole tradizionali, per un periodo non inferiore ai venticinque anni».
+&nbsp;
+Un prodotto tradizionale è tutelato a tal punto che nella lavorazione si può andare in deroga alle normative igienico-sanitarie, pur di tutelare il loro valore gastronomico e culturale. All’atto dell’immissione al consumo, gli amaretti, le matasse ed il muffletto di Caposele possono contenere nell’etichettatura la seguente dicitura: “Prodotto inserito nell’elenco nazionale dei Prodotti Tradizionali”. In questo modo il prodotto è tutelato in tutta l’Unione Europea.
+&nbsp;
+&nbsp;
+
+[post_text_111]
+22 luglio 2011: Iniziato il ritiro dell'Avellino a Caposele
+&nbsp;
+Subito tra i monti a correre. E’ iniziato in questa maniera il ritiro dell’Avellino che di fatto è coinciso con il quarto giorno di preparazione.
+I Lupi infatti avevano già iniziato la preparazione fin dal 18 con qualcosa di più che semplici test. Quindi quello di ieri a Caposele aveva tutt’altro sapore che un primo vero giorno di lavoro.
+&nbsp;
+Mattinata dedicata alla corsa con percorsi di montagna disegnati preventivamente e con grado di difficoltà programmato in aumentò. Questo per raggiungere al più presto un’ossigenazione sufficiente.
+&nbsp;
+Nel pomeriggio invece c’è stato il primo vero contatto con la palla. Esercizi di tecnica e tattica e prime partitelle a tema.
+Per ora il lavoro è coordinato per guadagnare la sensibilità agnostica anche perchè non essendo il gruppo ancora al completo il lavoro tattico vero e proprio può essere attuato solo parzialmente.
+&nbsp;
+Accoglienza curiosa ed interessata quella di qualche decina di tifosi locali che hanno seguito il primo giorno di ritiro dell’Avellino.
+In serata c’è stata l’accoglienza ufficiale da parte dell’Amministrazione comunale e delle autorità con un brindisi di auguri nella sala consiliare del comune di Caposele.
+Una grande folla di tifosi ha partecipato all’incontro con il primo cittadino di Caposele che ha fatto i dovuti auguri.
+&nbsp;
+
+[post_text_112]
+Caposele, scritte vandaliche sui muri degli edifici
+&nbsp;
+Forse un attacco all'Amministrazione comunale
+&nbsp;
+Spiacevole episodio a Caposele. Ignoti nei giorni scorsi hanno, infatti, imbrattato i muri di alcuni edifici del paese. Alla base del gesto ci sarebbero alcune proteste relative a un concorso per vigili urbani organizzato dall’Amministrazione Comunale nelle scorse settimane.
+&nbsp;
+L’esito del concorso sarebbe stato fortemente criticato da alcuni cittadini.
+Di fatto, comunque la si voglia vedere, uno spiacevole atto vandalico compiuto da qualcuno che manca, sicuramente, di senso civico.
+&nbsp;
+Un risveglio sgradevole per i commercianti e i cittadini che nei giorni scorsi hanno trovato la parola “Non la saccio” dovunque si girasse lo sguardo.
+Molto probabilmente l’autore del gesto ha agito indisturbato durante le ore notturne.
+Di fatto il gesto sembrerebbe un attacco all’Amministrazione Comunale guidata dal sindaco Pasquale Farina.
+
+[post_text_113]
+Caposele, Farina: «Le scritte sui muri? Una ragazzata, il concorso non c’entra»
+&nbsp;
+Interviene il primo cittadino
+&nbsp;
+Ignoti nei giorni scorsi hanno imbrattato i muri di alcuni edifici di Caposele. Secondo alcuni alla base del gesto ci sarebbero alcune proteste relative a un concorso per vigili urbani organizzato dall’Amministrazione Comunale nelle scorse settimane.
+Il sindaco Pasquale Farina però ritiene che l’increscioso episodio non c’entri nulla con l’esito del concorso.
+&nbsp;
+«E’ stata solo una bravata - afferma - Il concorso è stato fatto nella massima trasparenza ed era aperto al pubblico. La commissione esterna era composta da professionisti stimati. Sono convinto che l’episodio vandalico non c’entri nulla con il concorso».
+&nbsp;
+Con il concorso l’Amministrazione comunale ha voluto fare qualcosa di concreto per i giovani del paese.
+«Si tratta di quattro posti part time, a tempo determinato. In pratica cinquanta ore da fare in sei mesi. Per i giovani di Caposele è stato un momento importante, in quanto tutti hanno ricevuto un attestato di idoneità che sarà utile in vista di altri concorsi. Di fatto, un altro risultato della nostra Amministrazione comunale da sempre vicina al mondo giovanile».
+&nbsp;
+Intanto continuano le riunioni della commissione consiliare che sta trattando con l’Acquedotto Pugliese il rinnovo della convenzione in scadenza il prossimo anno. L’organo consiliare è presieduto dal sindaco, ed è composto dall’assessore comunale al Bilancio e alla Programmazione Angelo Ceres, dal consigliere comunale con Delega al Turismo Donatello Cirillo, e dai consiglieri di minoranza Gerardo Di Masi e Lorenzo Melillo. Maggioranza e opposizione non sono ancora riusciti a trovare un punto di incontro sulla bozza presentata dall’ente pugliese. L’ultimo incontro è andato in scena questo fine settimana.
+Da un lato i consiglieri di minoranza ritengono che la bozza sia piena di vincoli e cavilli per il Comune. Di tutt’altra opinione il primo cittadino.
+«Ci stiamo confrontando - riprende Farina - Alle critiche mosse dalla minoranza rispondiamo con il supporto dei nostri tecnici. Siamo convinti che la bozza di accordo non sia così male come qualcuno vuole fare credere ai cittadini».
+&nbsp;
+Chiusura sui lavori al Parco Fluviale della Madonnina.
+«I lavori procedono spediti, sono già tante le persone che hanno visitato il cantiere. L’inaugurazione del parco è prevista per il 18 agosto, in occasione della Festa del WWF».
+&nbsp;
+&nbsp;
+
+[post_text_114]
+Caposele, consegnati i patentini per la qualifica di saldatore
+&nbsp;
+La Confimprenditori di Avellino chiude un’altra iniziativa a Caposele. Dopo il corso di “Carrellista-Mulettista” con una trentina di partecipanti, si è chiuso anche quello per l’ottenimento della “Qualifica di Saldatore”.
+La consegna è avvenuta alla presenza di Marco Pugliese, Sergio Nappi, del Consigliere Provinciale Stefano Farina, del dott. Della Sala dell’Ispettorato del Lavoro e dell’Assessore Coppola.
+&nbsp;
+Nella consegna dei diciotto patentini di qualifica di Saldatore rilasciati dall’Ente certificatore Rina, Pietro Cetrulo, responsabile zonale della Confimprenditori e promotore del corso, ha voluto sottolineare l’impegno e il sacrificio dei corsisti.
+Il Presidente Provinciale di Confimprenditori, Gerardo Santoli e tutti i presenti hanno rimarcato l’importanza della formazione in un momento di forte crisi occupazionale, per cercare di andare incontro alle esigenze del mercato del lavoro che richiede sempre più manodopera qualificata. Tutti si sono augurati una ripresa dell’economia a cominciare dai previsti lavori della Lioni-Grottaminarda, senza tralasciare la problematica della sicurezza sul lavoro.
+&nbsp;
+Dopo la consegna dei Patentini di Saldatura, la ditta Awelco ha dato in anteprima una dimostrazione di una nuova generazione di saldatrici che presto sarà immessa sul mercato mondiale, la “Goldenone”. Una saldatrice “parlante” in grado di diminuire di molto i rischi nella saldatura, una dimostrazione che ha colpito i presenti per il grado di qualità e di novità sulla prevenzione infortuni.
+&nbsp;
+A seguire, nella piazza Sanità, si è svolta una gara di abilità nell’uso dei mini escavatori e proiezioni video sulla sicurezza. Una gara molta partecipata che ha visto gareggiare non solo i caposelesi, ma anche operatori provenienti da altri Comuni. Il vincitore per Caposele è risultato Gelsomino Sista, mentre a vincere la gara dedicata agli altri Comuni è stato il signor Paolillo di Bisaccia. Ora l’obiettivo è quello di costituire un comitato di operatori per ingrandire e migliorare questo evento l’anno prossimo.
+&nbsp;
+-------------------------------------------------------------------------------------
+Caposele, Di Masi: «Le Poste riaprano quell’ufficio»
+&nbsp;
+Gerardo Di Masi e Tommaso Cibellis, consiglieri comunali aderenti al gruppo consiliare “Autonomia e Trasparenza”, si rivolgono all’Amministrazione comunale guidata dal sindaco Pasquale Farina. «Vogliamo sapere se l’amministrazione comunale ha fatto rimostranze alle Poste Italiane s.p.a. – direzione provinciale di Avellino – per la chiusura dell’ufficio postale di Materdomini di Caposele nei giorni di lunedì e giovedi, per tutto il periodo estivo.
+In caso negativo, chiediamo di sollecitare la direzione provinciale di Avellino a revocare il provvedimento di chiusura, evidenziando che, benchè con monooperatore, l’ufficio postale di Materdomini di Caposele sviluppa un numero di operazioni giornaliere ben maggiore rispetto ad altri uffici postali, anche con più operatori e, stante la vocazione turistica del Paese, serve un bacino d’utenza non limitato ai residenti».
+&nbsp;
+&nbsp;
+---------------------------------------------------------------------------------------
+Pavoncelli bis - Bando e fondi per le opere, l'Ato promette battaglia
+&nbsp;
+La notizia è di pochi giorni fa. Il Cipe ha destinato un finanziamento di 30 milioni di euro per i lavori alla Pavoncelli bis. Una notizia accolta con grande favore dall’assessore regionale pugliese Amati.
+&nbsp;
+«E’ indubitabile – ha detto Amati – la soddisfazione complessiva ma mi permetto di segnalare a maggiore appagamento per importanza e rilievo strategico, l’integrazione al finanziamento per la realizzazione della Galleria Pavoncelli bis e le somme da destinare al potenziamento del sistema di sanificazione delle acque che ancora una volta si rileva all’avanguardia per capacità di scelte strategiche».
+Una notizia che si aggiunge alla pubblicazione da parte del commissario di Governo Sabatelli del bando (che scade l’8 settembre) per la realizazzazione delle opere di completamento della galleria sulla quale da tempo è in atto una guerra tra la Regione Puglia e gli amministratori irpini.
+&nbsp;
+La Suprema Corte di Cassazione, con una sentenza del 2008, aveva ribadito che la realizzazione della galleria doveva essere proceduta ed assoggettata alla procedura di valutazione di impatto ambientale.
+&nbsp;
+Secondo l’Aato l’esecuzione della Pavoncelli bis aveva procurato ingentissimi danni alle falde acquifere esistenti e all’intera tenuta di ordine idrogeologico dei territori interessati dalle opere.
+&nbsp;
+La Procura della Repubblica di Sant’Angelo dei Lombardi ha provveduto ad acquisire una relazione tecnica, che ha individuato tutti i profili di criticità ambientale, geologica ed idrogeologica conseguenti all’esecuzione delle opere in costruzione della galleria. Secondo l’AAto Calore l’attività di realizzazione della Pavoncelli bis avrebbe violato la ineludibile attività del tavolo di concertazione in tema di trasferimento di risorse idriche tra diverse regioni. Va ricordato che il 19 novembre 2009 è stato pubblicato un decreto del Presidente del Consiglio dei Ministri con cui è stato dichiarato lo stato di emergenza nel territorio delle regioni Puglia e Campania che insidierebbe sotto il profilo della vulnerabilità sismica la esistente galleria Pavoncelli, attesa la natura dell’alto rischio sismico. Da qui la presunta necessità della costruzione della nuova Pavoncelli.
+&nbsp;
+«Il DPCM - fanno sapere dell’Aato - lungi dall’affrontare un reale stato di emergenza appare finalisticamente preordinato ad eludere l’obbligo di assoggettamento della realizzazione della Pavoncelli bis alla procedura di preventivo impatto ambientale.
+Sotto diverso aspetto è illeggittimo l’atto di intesa della Regione Campania, del quale si ignora il contenuto e di cui esiste traccia del DPCM del 2009. Ogni atto di intesa preordinato al trasferimento delle risorse idriche dal territorio della Regione Campania a quello di altre regioni deve essere preceduto da uno specifico tavolo di concertazione al quale devono partecipare oltre all’Aato, i comuni irpini interessati e gli altri enti pubblici».
+&nbsp;
+L’Aato Calore ha promosso un ricorso al Tar del Lazio e al Tribunale Superiore delle Acque per impugnare il DPCM e per consentire la partecipazione degli enti territoriali alla stesura del nuovo accordo di programma fra Campania e Puglia in merito alla determinazione del fabbisogno dell'acqua.
+&nbsp;
+
+[post_text_115]
+Caposele - La proposta di Cittadinanzattiva: l’acqua minerale di San Gerardo
+&nbsp;
+L'idea di Chiaravallo
+&nbsp;
+Una proposta per incrementare lo sviluppo di Caposele, da sempre considerata la città delle acque. Antonio Chiaravallo, esponente di Cittadinanzattiva, ha le idee chiare.
+«Alcuni Comuni - afferma - per contenere l’inquinamento provocato dalla plastica Pet, impiantano appositi chioschi che offrono acqua, naturale e gasata, opportunamente depurata da sostanze nocive».
+&nbsp;
+A Caposele non vi è necessità di installare chioschi muniti di filtri depurativi, basterebbe solo rendere possibile attingere direttamente alla sorgente l’ottima acqua che nasce, praticamente, nel paese.
+&nbsp;
+«La nostra ‘casa dell’acqua’ - riprende Chiaravallo - potrebbe essere realizzata subito e con poca spesa, basterebbe infatti alimentare le fontane esistenti nella sottostante zona degli ex lavatoi, anziché con quella clorata proveniente dal serbatoio a monte del paese, dalla soprastante sorgente Sanità, come peraltro è sempre avvenuto fino a pochi anni fa. Si potrebbe, inoltre, pensare di installare un apposito erogatore per offrire all’utenza anche la possibilità di prelevarla in forma gasata».
+&nbsp;
+Per promuovere, poi, il turismo a Caposele potrebbe essere molto utile, secondo Chiaravallo, valorizzare meglio la sua principale risorsa, esibendola, e non nascondendola, a chi vi arriva.
+&nbsp;
+«Nell’attesa della sua risistemazione, Piazza Sanità, ovvero piazza delle sorgenti del Sele, dovrebbe già poter accogliere chi vi giunge esponendo informazioni anche sulle importanti proprietà chimico-fisiche dell’acqua che ivi nasce ed offrire di poterla bere da una serie di fontane ‘Fonte del Sele’, da apporre in bella evidenza, magari sul muro di pietre a secco adiacente alla Chiesa della Sanità. E perché, date le sue eccellenti caratteristiche, non valutare anche la possibilità di imbottigliare una parte dei 363 litri di nostra pertinenza?»
+&nbsp;
+Intanto, però, a Caposele il problema della distribuzione è stato risolto solo in parte, in quanto, pur essendo stata per aprile e maggio erogata l’acqua della Sorgente Sanità, da fine giugno, in attesa della promessa modifica delle pompe di sollevamento che sarebbero inadatte a far fronte alla maggiore richiesta dei mesi estivi, viene di nuovo distribuita l’acqua di Cassano. Non va dimenticato che le sorgenti del Sele sono ritenute migliori di quelle di Cassano perchè provenienti da una falda più profonda.
+&nbsp;
+-----------------------------------------------------------------------------------------
+&nbsp;
+Caposele, Forza Nuova: «Convenzione? Farina risolva il problema»
+&nbsp;
+Interviene il coordinatore Sardo
+&nbsp;
+Ormai da mesi a Caposele tiene banco la vicenda del rinnovo della convenzione tra il Comune e l’Acquedotto Pugliese. E’ Samuele Sardo, coordinatore locale di Forza Nuova a intervenire.
+&nbsp;
+«Abbiamo riscontrato nell'arco degli ultimi due anni, l'incapacità amministrativa della Giunta Farina. Tuttavia il fatto ancora più grave è che il problema della convenzione con l'Acquedotto Pugliese rimane sul tavolo. Nell'arco degli anni e col susseguirsi delle amministrazioni di ogni colore e parte politica, convegni, assemblee partecipazioni di svariati politici, anche di rilevanza nazionale, sino ad oggi non hanno portato ad una soluzione che riconosca il giusto ristoro per la Comunità Caposelese proprietaria delle sorgenti che forniscono l'acqua all'intera Puglia.
+&nbsp;
+Rivolgiamo un richiamo al Governatore della Puglia Nichi Vendola che sino ad oggi si è arrogato il titolo di paladino del pubblico interesse ma che in realtà si occupa di tutt'altro, affinchè si adoperi alla soluzione del contenzioso.
+Si tenga conto degli interessi dei cittadini di Caposele che per tanti anni hanno visto scippata una risorsa che invece di arricchire il paese lo ha impoverito. Siamo pronti a protestare».
+&nbsp;
+Una vicenda, quella del rinnovo della convenzione con l’ente idrico pugliese, che va avanti ormai da mesi.
+&nbsp;
+-----------------------------------------------------------------------------------------
+&nbsp;
+Pavoncelli bis, Gambacorta: «Ecco perchè siamo contrari»
+&nbsp;
+L’assessore provinciale all’Ambiente critico sulla realizzazione della galleria
+&nbsp;
+&nbsp;
+CAPOSELE - Se da un lato il governo stringe i tempi per la realizzazione della Pavoncelli bis, dall’altro le istituzioni irpine continuano a non mollare la presa. Il Cipe, nei giorni scorsi, ha destinato un finanziamento di 30 milioni di euro per i lavori alla Pavoncelli bis. Una notizia accolta con grande favore dall’assessore regionale pugliese Fabiano Amati e che si aggiunge alla pubblicazione da parte del commissario di Governo Sabatelli del bando (che scade l’8 settembre) per la realizazzazione delle opere di completamento della galleria.
+&nbsp;
+Dal canto suo l’Amministrazione Provinciale di Avellino, per bocca dell’assessore all’Ambiente, Domenico Gambacorta, continua ad esprimere parere negativo.
+«Al momento della pubblicazione della valutazione di impatto ambientale abbiamo espresso un parere fortemente negativo alla realizzazione dell'opera».
+Sono due i punti che non convincono l’Amministrazione provinciale. Da un lato la garanzia del deflusso minimo vitale e, dall’altro il maggior diametro della galleria, che farebbe temere un prelievo maggiore di acqua.
+&nbsp;
+«Due punti che rimangono tutt’ora in sospeso - continua Gambacorta - La Provincia si è costituita al Tribunale Superiore delle Acque presso la Suprema Corte di Cassazione. Tra l’altro più volte in passato il commissario Sabatelli, nel corso delle riunioni che si sono susseguite, ha avuto atteggiamenti di parte, senza considerare le giuste ragioni ambientali delle popolazioni irpine».
+&nbsp;
+E’ anche vero che sarebbe già tanta l’acqua che si diperde nel suo viaggio dall’Irpinia alla Puglia.
+«Abbiamo sempre detto che l’acqua è un bene prezioso che va salvaguardato e non sprecato. La Puglia dovrebbe intervenire su quelle che sono ormai diventate condutture colabrodo e visto che l’acqua non è di sua proprietà dovrebbe essere molto più attenta. Oggi il 40% dell’acqua che viene immessa nelle conduttore si perde per strada e non arriva nelle case dei cittadini».
+Inoltre, dovrebbe esserci un maggior controllo sulla capatazione delle acque.
+«Un altro problema, come già ricordato in precedenza, è che il progetto prevede una sezione più elevata della galleria. Il timore è che questo determini una maggiore captazione delle acque. Di fatto, noi vorremmo che ci fossero momenti di controllo molto più rigoroso e che vedano interessati anche i comuni di Caposele, Cassano, Conza, Montella. La risorsa idrica va tutelata. Soprattutto oggi che i nostri fiumi sono sempre più a secco»
+&nbsp;
+C’è poi il problema dell’accordo di programma.
+«Nella valutazione di impatto ambientale si dice che la Pavoncelli bis dovrà funzionare solo quando ci sarà la certezza di un accordo di programma tra la Campania e la Puglia»
+Al momento sono tre i ricorsi presentati al Tribunale Superiore delle Acque, a cui si aggiunge il ricorso presso il Tar.
+&nbsp;
+
+[post_text_116]
+Caposele - Parco fluviale, ora si pensa alla seconda fase dei lavori
+&nbsp;
+Continua l’attività amministrativa a Caposele. Nelle ultime settimane l’attenzione dell’Amministrazione Comunale guidata dal sindaco, Pasquale Farina, è stata rivolta al completamento dei lavori al Parco Fluviale della Madonnina. L’inaugurazione è avvenuta lo scorso 18 agosto. L'oasi è stata sistemata e resa fruibile per arricchire le aree ambientali di pregio naturalistico del Comune di Caposele.
+&nbsp;
+L'oasi è detta "della madonnina" per il ritrovamento di un'effige storica che rappresenta la sagoma di una Madonna sulla faccia di una grande pietra scavata e posizionata prima della cascata.
+&nbsp;
+La prima fase della sistemazione prevedeva la pulizia, la realizzazione di un percorso pedonale che costeggia il fiume e la sistemazione dell'area di sosta a pochi metri dalla spettacolare cascata.
+&nbsp;
+La fase successiva, prevista per il 2012, completerà l'intervento con una serie di lavori che amplieranno l'Oasi fino al ponticello storico verso Palmenta che darà a tutto il parco fluviale una dimensione straordinariamente bella dei un posto incontaminato e riscoperto di Caposele.
+&nbsp;
+Nell’elaborazione del progetto con l’Amministrazione Comunale guidata dal sindaco Pasquale Farina ha collaborato la Comunità Montana Terminio Cervialto.
+&nbsp;
+
+[post_text_117]
+Caposele, la minoranza: «Chiarezza sulla convenzione con l'Aqp»
+&nbsp;
+I consiglieri di opposizione chiedono la convocazione di un Consiglio Comunale
+&nbsp;
+E’ sempre polemica a Caposele sul rinnovo della convenzione tra il Comune e l’Acquedotto Pugliese. I consiglieri di opposizione contestano al sindaco Pasquale Farina il modo con cui vengono gestite le trattative. Nel corso degli ultimi mesi si sono succedute almeno quattro bozze di accordo ritenute inaccettabili dalla minoranza.
+&nbsp;
+Da settimane, ormai si riunisce la commissione consiliare ad hoc, presieduta dal sindaco Pasquale Farina, e composta dall’assessore comunale al Bilancio e alla Programmazione Angelo Ceres, dal consigliere comunale con Delega al Turismo Donatello Cirillo, e dai consiglieri di minoranza Gerardo Di Masi e Lorenzo Melillo.
+Di accordo finora neppure a parlarne.
+&nbsp;
+I consiglieri di minoranza fanno leva su un parere proveritate datato 23 marzo 2011 chiesto proprio dal Sindaco ad un rinomato studio legale di Firenze.
+«L’Acquedotto Pugliese ha chiesto il rinnovo della concessione con istanza del 23 febbraio scorso - si legge nel parere - Onde evitare tale evenienza a mio avviso il Comune di Caposele dovrebbe formalizzare la propria opposizione al rinnovo della concessione di derivazione richiesta dall’Aqp spa. Tale opposizione dovrebbe essere inviata a tutte le Amministrazioni destinatarie della istanza di Aqp spa di rinnovo della concessione, e motivata col diritto del Comune di Caposele ad utilizzare l’acqua per effetto della convenzione del 1905. L’opposizione è essenziale».
+Un parere, che secondo i consiglieri di minoranza, lascerebbe pochi dubbi.
+&nbsp;
+L’Amministrazione comunale dovrebbe opporsi al rinnovo della convenzione.
+«A quando la convocazione del Consiglio comunale per formalizzare l’opposizione al rinnovo della concessione inoltrata dall’Aqp alla Regione?» attaccano i consiglieri di opposizione.
+&nbsp;
+«A niente è servito istituire una commissione Consiliare per dare la massima pubblicità e trasparenza agli atti, perché il Sindaco non fornisce i documenti di cui è in possesso - continuano - La proposta di convenzione dell'Aqp, che il nostro primo cittadino tanto sponsorizza, prevede chiaramente che saranno i caposelesi a dover pagare l’acqua potabile all’Acquedotto Pugliese. Il Sindaco, invece di preoccuparsi di inoltrare l'azione risarcitoria nei confronti dell'Aqp per l'inadempimento degli obblighi assunti con le vecchie convenzioni, consigliatagli nel parere legale che ha richiesto, sostiene la proposta scritta dal gestore Pugliese, con cui il Comune Caposele dovrebbe rinunciare definitivamente ad un diritto d'uso del quantitativo dell'Acqua delle Sorgenti Sanità finora mai messa in discussione da tutti i precedenti accordi.
+&nbsp;
+Il Sindaco Farina per sostenere le ragioni dell’Aqp costringerà i Caposelesi per la prima volta al pagamento dell’acqua».
+&nbsp;
+&nbsp;
+
+[post_text_118]
+Caposele, Farina: «il Consiglio comunale sull’Aqp? Previsto da tempo»
+&nbsp;
+Parla il primo cittadino
+&nbsp;
+Non si lascia attendere la risposta del sindaco di Caposele, Pasquale Farina, alla richiesta fatta giovedì dai consiglieri di opposizione di convocare un consiglio comunale sul rinnovo della convenzione con l’Acquedotto Pugliese.
+«A dire la verità la convocazione del consiglio comunale è prevista da tempo - afferma - Nei prossimi giorni sceglieremo il giorno più indicato».
+&nbsp;
+Dopo la pausa estiva le trattative con l’Acquedotto Pugliese sono destinate a subire un’accelerata. Ieri sera c’è stata una nuova riunione della commissione consiliare ad hoc. Finora maggioranza e opposizione rimangono arroccate sulle proprie posizioni.
+«Rispetto l'opinione di tutti - continua Farina - Noi siamo convinti che la bozza presentata dall’Aqp non sia così penalizzante. L’accordo, infatti, è integrato da altre tre documentazioni: una scrittura privata con l’ente idrico, un accordo morale con la Regione Puglia e una disciplinare per la fruizione turistica. Ci sono molte cose a nostro favore. Di fatto, abbiamo voluto rendere la convenzione più snella e, allo stesso tempo, corredarla con una serie di accordi».
+&nbsp;
+Anche Forza Nuova però ha duramente contestato la convenzione.
+«Ognuno è libero di esprimere la propria opinione. Io, da parte mia, continuo a fare gli interessi di Caposele e dei suoi abitanti».
+&nbsp;
+Chiusura sul Parco Fluviale della Madonnina, inaugurato lo scorso 18 agosto.
+Nell’elaborazione del progetto, con l’Amministrazione Comunale ha collaborato la Comunità Montana Terminio Cervialto. «Con un cifra irrisoria abbiamo fatto una grande opera. Ringraziamo la Comunità Montana per l’apporto. Ora pensiamo alla seconda fase dei lavori».
+&nbsp;
+
+[post_text_119]
+Caposele, salta la commissione consiliare sull’Acquedotto Pugliese
+&nbsp;
+La rottura consumatasi nell’ultima riunione
+&nbsp;
+Salta la commissione consiliare nata per studiare la bozza di accordo tra il Comune di Caposele e l’Acquedotto Pugliese. La rottura si è consumata al termine dell’ultimo incontro, andato in scena nei giorni scorsi. L’organo consiliare presieduto dal sindaco Pasquale Farina e composto dall’assessore comunale al Bilancio e alla Programmazione Angelo Ceres, dal consigliere comunale con Delega al Turismo Donatello Cirillo, e dai consiglieri di minoranza Gerardo Di Masi e Lorenzo Melillo, non esiste più. Troppo lontane le posizioni di maggioranza e opposizione.
+&nbsp;
+Lo scorso 23 febbraio l’Acquedotto Pugliese si è reso protagonista presso la Regione Campania di un’istanza di rinnovo della concessione di derivazione d’acqua per uso potabile dalle sorgenti della Sanità per una portata media di 3,63 moduli. Istanza pubblicata sul Burc lo scorso 29 agosto.
+&nbsp;
+E’ il consigliere di opposizione dell’Arcobaleno Ettore Spatola a intervenire.
+«Abbiamo chiesto la convocazione di un Consiglio Comunale straordinario - afferma - Rimaniamo esterefatti di fronte all’operato del primo cittadino che in questi mesi non ha mai preso una posizione chiara e non si è mai opposto alle pretese dell’Acquedotto Pugliese».
+Di fatto, la polemica è destinata a continuare ancora a lungo.
+«Il sindaco non può svendere ciò che non gli appartiene - continua Spatola - Il Comune di Caposele dovrebbe formalizzare la propria opposizione al rinnovo della concessione di derivazione richiesta dall’Aqp. I cittadini devono svegliarsi, dobbiamo evitare questo scippo».
+&nbsp;
+
+[post_text_120]
+Caposele - Piante danneggiate nel bosco, il Comune ottiene il risarcimento
+&nbsp;
+Il Comune di Caposele ha ottenuto il risarcimento di circa 40mila euro, per i danni subiti dal furto e danneggiamento di 650 piante di alto fusto di cerro, carpino e faggio, situate nella località bosco difesa. I fatti risalgono all’anno 2007 e dopo che il Comune di Caposele aveva proceduto ad approvare ed aggiudicare il progetto di taglio delle predette piante, resosi necessario a causa della nevicata avvenuta nel 2005 e che aveva causato notevoli danni agli alberi.
+Ad ultimazione dei lavori e da riscontri eseguiti sul posto dal Corpo Forestale dello Stato e dagli Agenti della Polizia Municipale di Caposele, emerse il furto di numerose piante non destinate al taglio e quindi, l’Amministrazione Comunale nel mese di luglio del 2008, decise di intraprendere una azione legale nei confronti della ditta aggiudicataria.
+Dopo tre anni di istruttoria e la nomina di un Consulente Tecnico di Ufficio, il Comune di Caposele, tramite il proprio legale, avv. Sabatino Cipollini, ha ottenuto il risarcimento dei danni e con la sentenza depositata lo scorso 23 agosto, si è visto riconoscere dal Giudice del Tribunale di Sant’Angelo dei Lombardi, il dovuto risarcimento per inadempimento contrattuale della ditta aggiudicataria, condannando, quest’ultima, al pagamento della somma di 40mila euro e delle spese legali.
+&nbsp;
+----------------------------------------------------------------------------------------
+&nbsp;
+Caposele, l’Arcobaleno: «Evitiamo lo scippo della nostra acqua»
+&nbsp;
+La minoranza contro Acquedotto Pugliese e sindaco Farina
+&nbsp;
+Sale la tensione tra maggioranza e opposizione a Caposele. Materia del contendere il rinnovo della convenzione tra il Comune e l’Acquedotto Pugliese. I componenti del gruppo Arcobaleno escono allo scoperto e attaccano il sindaco Pasquale Farina.
+&nbsp;
+«La convenzione del 1905 ci riconosce la titolarità di uso delle Sorgenti della Sanità per la quota di 363 litri di acqua al secondo - affermano i consiglieri di minoranza - Questo diritto dei caposelesi è sempre stato confermato da tutti gli accordi stipulati dal Comune negli anni successivi. Ai giorni nostri l’Acquedotto Pugliese con il benestare del sindaco Pasquale Farina mette in discussione tale diritto e ha inviato istanza per il rinnovo della concessione dei 363 litri al secondo alla Regione Campania lo scorso 28 febbraio, non riconoscendo, di fatto, il diritto d’uso dei caposelesi».
+&nbsp;
+I consiglieri di opposizione parlano di scippo da parte dell’Aqp.
+«I gruppi di minoranza contestano e si oppongono a questo sopruso, mentre il sindaco tace e non fa nulla per contrastare questo scippo - continuano - La convenzione che ha proposto l’Aqp, che il sindaco sostiene, verrà a sancire la definitiva perdita del nostro diritto. Il sindaco afferma di voler difendere il bene comune. E allora perchè non interviene?
+Due legali di fama, interpellati dallo stesso primo cittadino, hanno fatto presente la necessità di opporsi al rinnovo chiesto dall’Acquedotto Pugliese. Eppure il sindaco finora non ha presentato l’opposizione richiesta. Perchè? Per quale motivo?»
+&nbsp;
+Intanto la commissione consiliare ad hoc nata nei mesi scorsi non esiste più. L’organo era presieduto dal sindaco Pasquale Farina e composto dall’assessore comunale al Bilancio e alla Programmazione Angelo Ceres, dal consigliere comunale con Delega al Turismo Donatello Cirillo, e dai consiglieri di minoranza Gerardo Di Masi e Lorenzo Melillo.
+«A nulla è servito creare una commissione consiliare. A nostro parere finora il sindaco ha solo illuso la gente con vane promesse, senza rendersi conto che questa volta sta giocando con il futuro del nostro paese. Oggi i sacrifici e le lotte secolari dei nostri avi rischiano di essere gettati alle ortiche.
+&nbsp;
+I gruppi consiliari di opposizione hanno chiesto la convocazione di un apposito consiglio comunale per discutere pubblicamente della questione. Dobbiamo difendere tutti ciò che ci appartiene e impedire lo scippo delle nostre acque».
+&nbsp;
+
+[post_text_121]
+Caposele- Agibilità negozio: Tar rigetta ricorso Malanga e Di Masi
+&nbsp;
+La vicenda in questione, vale a dire il diniego del certificato di agibilità relativo ad un immobile di proprietà di Masi Loretta, da adibire ad attività commerciale, che a più riprese in questo triennio ha occupato le pagine dei quotidiani locali, oltre che le aule del TAR (dieci le camere di consiglio celebrate), aveva offerto alla collettività di lettori, e non solo, una immagine del responsabile dell’ufficio tecnico del Comune di Caposele, l’assessore Vito Malanga (autore del provvedimento di diniego), quale soggetto che ispirava il proprio agire all’arbitrio, alla illogicità, alla persecuzione, alla violazione di norme e principi, all’interesse personale.
+&nbsp;
+Solo in qualche occasione l’assessore ha replicato pubblicamente a tali accuse, precisando di aver posto a fondamento del proprio atto di diniego l’esigenza di garantire la tutela della pubblica incolumità, particolarmente avvertita in considerazione di relazioni tecniche dettagliate e sottoscritte da ben tre ingegneri, oltre che dallo stesso tecnico di parte ricorrente, che evidenziavano la necessità che l’immobile in questione fosse adeguato dal punto di vista strutturale.
+&nbsp;
+L’assessore, lungi dall’offendere e calunniare pubblicamente, ha inteso piuttosto affidare le proprie ragioni alle argomentazione spiegate dalla difesa dell’ente, rappresentata dall’avv. Pasquale Salvo, dinanzi all’autorità giudiziaria adita dalla sig.ra Di Masi, ed alla fine ha avuto ragione.
+&nbsp;
+Il Tar, infatti, con sentenza n. 01541/2011 del 13.09.2011, richiamando la consulenza tecnica di ufficio e la relazione dello stesso tecnico di parte ricorrente, ha ritenuto conclamata la carenza delle caratteristiche di sicurezza, con conseguente impossibilità di poter esercitare l’attività commerciale all’interno dell’immobile, ed ha così rigettato il ricorso.
+&nbsp;
+Altro che atto arbitrario o persecutorio; altro che difesa sconsiderata.  La sola soddisfazione, riferisce l’assessore Malanga, è che “il Tar ha rigettato il ricorso proprio in considerazione delle argomentazioni tecniche che avevano supportato il mio provvedimento di diniego, il che consentirà, a quanti hanno letto e/o ascoltato le invettive e gli insulti rivolti alla mia persona, di esprimere un giudizio sereno obiettivo”.
+&nbsp;
+&nbsp;
+
+[post_text_122]
+Caposele, Cibellis si confessa: «Ecco perchè ho lasciato Farina»
+&nbsp;
+Parla il consigliere di minoranza
+&nbsp;
+Nei mesi scorsi Tommaso Cibellis e Gerardo Di Masi hanno deciso di distaccarsi dall’Amministrazione Comunale guidata dal sindaco Pasquale Farina e di dar vita al gruppo di minoranza Autonomia e Trasparenza. Oggi, a distanza di tempo, Cibellis ha deciso di motivare quella scelta.
+«Da consigliere delegato allo sport volevo far luce su una gara d'appalto con la quale si andava a decidere il futuro della piscina comunale, portata alla ribalta nazionale dall'ex presidente Antonio Zarra. Non ci fu verso di entrare in commissione perché l'assessore competente giudicò inopportuna la mia presenza - afferma - Da consigliere comunale inoltre partecipai a tutte le giunte in cui si parlava di parco fluviale come volano del turismo caposelese. Alla fine si finì con lo scegliere una transazione che non mi trovò d’accordo».
+&nbsp;
+I problemi con l’Amministrazione hanno riguardato anche alcuni tornei estivi.
+«Da consigliere delegato allo sport organizzai alcuni tornei al fine di ricavare soldi in favore della società di calcio FC Caposele che si apprestava a disputare il campionato di Terza Categoria - continua - Con tanto di autorizzazione del sindaco mi ritrovai il giorno della finale il terreno di gioco occupato da decine di macchine parcheggiate per via di una cerimonia religiosa evangelica».
+&nbsp;
+Cibellis sin da subito si è sentito poco tutelato dall’Amministrazione comunale.
+«In qualità di giovane cercai di chiarire la posizione di alcuni amici nella disputa che si venne a creare nella ProLoco scontrandomi con due assessori che oggi scopro essere acerrimi nemici. A seguito della suddetta disputa qualcuno pensò bene di boicottare il torneo di calcetto estivo. Inoltre, nella riunione pubblica organizzata dalla Pro Loco giovani ci fu un attacco al sottoscritto (che non era presente) ma sindaco e assessori preferirono il silenzio ad una normale difesa d'ufficio di un consigliere di maggioranza. Potrei continuare ancora a lungo, ma non voglio farlo. Vorrei solo che non si dicesse in giro che non ho avuto la forza di amministrare».
+&nbsp;
+Chiusura sulla convenzione tra il Comune di Caposele e l’Acquedotto Pugliese.
+«Per quanto riguarda la convenzione da rinnovare con l'Aqp il gruppo Autonomia e Trasparenza ha indicato più volte e pubblicamente la strada da percorrere, cosa che invece non si può dire dell’attuale maggioranza alla quale chiederò un'uscita ufficiale che faccia capire realmente quali siano le intenzioni per risolvere un problema che riguarda la nostra comunità ed il futuro delle prossime generazioni».
+&nbsp;
+
+[post_text_123]
+Caposele, Malanga: «Da Cibellis soltanto critiche strumentali»
+&nbsp;
+L’assessore replica al consigliere di minoranza
+&nbsp;
+&nbsp;
+Assessore Vito Malanga,  il Consigliere Tommaso Cibellis nei giorni scorsi nel rendere pubblico il motivo del suo allontanamento dalla maggioranza ha tirato in ballo Lei e l’Amministrazione comunale. Cosa si sente di replicare sull’argomento?
+«Premetto di aver sempre sperato e considerato che l’Amministrazione comunale fosse come una famiglia all’interno della quale vive il capo famiglia, il coniuge, i figli maggiorenni e di buon senso, i minorenni e i bambini.
+&nbsp;
+Fatta questa premessa, sulle argomentazioni del consigliere Cibellis, ritengo doveroso precisare che anche quando lui risultava essere a fianco della maggioranza non ha quasi mai partecipato nè a un Consiglio comunale nè tantomeno alle varie giunte politiche che venivano convocate. Ho sempre pensato che il motivo della sua assenza, come lui stesso ha più volte fatto presente, era legato allo studio e sempre a tal proposito è stato incoraggiato e giustificato nel totale assenteismo quale consigliere comunale. Mai, però, mi sarei aspettato, proprio da chi è stato sempre assente e sempre giustificato di essere criticato e additato quale corresponsabile, insieme ad altri , delle sue scelte politiche.
+&nbsp;
+Il primo punto che viene citato nell’articolo è la piscina comunale sulla quale tanto è stato scritto e detto nonchè accertato dalle autorità competenti senza peraltro che sia emerso nulla.
+Di contro la gestione in questi due anni, quasi da tutti è stata definita soddisfacente e migliore della precedente. Stranamente, però, dopo tre anni, quasi alla scadenza della convenzione, l’argomento ritorna alla ribalta.
+Ritengo opportuno, tuttavia, precisare e far presente al consigliere Cibellis, che il consigliere comunale, il Sindaco, l’Assessore, non possono far parte di nessuna commissione di gara, essendo questa composta da funzionari.
+Viceversa invece nel Consiglio comunale che ha deliberato nel 2008, per la parte di competenza, sulla gestione della piscina e dove avrebbe potuto dire la Sua, ricordo al consigliere Cibellis, che per l’ennesima volta, egli era assente».
+&nbsp;
+
+[post_text_124]
+Caposele, il sindaco dice no al consiglio sulla convenzione con l'Aqp
+&nbsp;
+Rigettata la proposta della minoranza
+&nbsp;
+E’ prevista per il prossimo 30 settembre la convocazione del Consiglio Comunale a Caposele. Leggendo i punti all’ordine del giorno però spicca l’assenza della discussione sul rinnovo della convenzione tra il Comune e l’Acquedotto Pugliese. Lo scorso 4 settembre i consiglieri di minoranza avevano chiesto formalmente un consiglio comunale sul tema.
+&nbsp;
+Il primo cittadino, Pasquale Farina, dal canto suo ha rigettato la proposta della minoranza, motivandola con l’articolo 39 della T.U.E.L 267/2000.
+Quest’ultima stabilisce formalmente che “non sussiste l’obbligo per il Presidente del Consiglio di ottemperare alla richiesta di convocazione del consiglio allorchè la richiesta verta su un oggetto che in quanto illecito, o impossibile o per le legge manifestamente estraneo alle competenze dell’assemblea in nessun caso potrebbe essere posto all’ordine del giorno”.
+&nbsp;
+Nell’ordine del giorno, oltre alla lettura e all’approvazione dei verbali della seduta precedente, sono inseriti il riconoscimento del debito dipendente dalla sentenza emessa dal Tar di Salerno in ordine al ricorso proposto dalla Electra Sannio Srl contro il Comune di Caposele; la salvaguardia degli equilibri di bilancio e la ricognizione sullo stato di attuazione dei programmi dell’anno 2011; l’approvazione definitiva delle particelle percorse dal fuoco annualità 2010; il regolamento per la disciplina degli scarichi di acque reflue in aree non servite dalla pubblica fognatura e la protesta sulla manovra finanziaria del governo.
+&nbsp;
+I consiglieri di minoranza dell’Arcobaleno non ci stanno e attaccano il sindaco Farina.
+«Il comportamento del primo cittadino è alquanto criticabile - affermano - Il consiglio comunale si è già occupato della questione della convenzione con la creazione della commissione ad hoc. Perchè allora il sindaco non si appellò a cavilli burocratici? Caposele rischia di perdere i suoi diritti sull’acqua, dal sindaco volevamo un atto di indirizzo politico che purtroppo non è arrivato. Farina ha sbagliato, sta dimostrando un certo disinteresse verso il suo paese».
+&nbsp;
+&nbsp;
+
+[post_text_125]
+Caposele, l’Autorità di Bacino a confronto sul territorio
+&nbsp;
+Presenti i Comuni dell'Alto Sele
+&nbsp;
+L'area del Sele presenta significative e diffuse criticità idrogeologiche sia sotto l'aspetto franoso sia sotto il profilo idraulico-alluvionale. E' quanto emerge dalla nuova pianificazione dell'Autorità di Bacino che ha evidenziato e puntualizzato gli scenari di rischio e pericolosità nel corso della conferenza programmatica indetta dalla Regione Campania e tenutasi ieri a Caposele, presso Palazzo di Città.
+Si è provveduto alla verifica della coerenza tra pianificazione territoriale e pianificazione di bacino relativamente al piano stralcio per l'assetto idrogeologico (Psai) dell' Autorità di Bacino interregionale del Sele, attualmente in fase di approvazione.
+&nbsp;
+Nella conferenza, il piano stralcio, già avviato lo scorso aprile dal comitato istituzionale, è stato sottoposto alle osservazioni degli enti locali prima dell'approvazione definitiva, facendo particolare riferimento alla più aggiornata e dettagliata classificazione della pericolosità e del rischio ed alla normativa d'uso del suolo con la relativa vincolistica sovraordinata rispetto alla strumentazione urbanistica locale.
+&nbsp;
+Il prossimo appuntamento è previsto il 30 settembre per i comuni della provincia di Salerno.
+Ieri a Caposele, c’erano anche gli amministratori di Calabritto, Senerchia e Bagnoli.
+E’ il sindaco di Caposele, Pasquale Farina a intervenire.
+«I Comuni hanno fatto valere le proprie ragioni» afferma.
+&nbsp;
+
+[post_text_126]
+Caposele, sulla convenzione con l’Aqp la minoranza critica il primo cittadino
+&nbsp;
+Farina sul banco degli imputati
+&nbsp;
+E’ sempre la convenzione tra Comune e Acquedotto Pugliese a tener banco a Caposele. I gruppi di opposizione “L’Arcobaleno” e “Autonomia e Trasparenza” lo scorso fine settimana hanno organizzato una pubblica assemblea sulla questione.
+La minoranza ha deciso di invitare il sindaco, l’Amministrazione Comunale, i partiti politici e le associazioni presenti sul territorio, oltre a tutta la cittadinanza.
+&nbsp;
+Una vicenda, quella della convenzione tra Comune e Acquedotto Pugliese, che va avanti ormai da mesi. Nei giorni scorsi il rappresentante di Forza Nuova, Samuele Sardo, si è recato presso gli uffici dell'Assessorato all'Ambiente della Regione Campania Napoli per discutere della vertenza tra l'Acquedotto Pugliese e il Comune e ha presentato, nelle mani dell'Assessore Giovanni Romano, un lungo e dettagliato dossier sulla vicenda.
+Lo scorso 23 febbraio l’Acquedotto Pugliese si è reso protagonista presso Palazzo Santa Lucia di un’istanza di rinnovo della concessione di derivazione d’acqua per uso potabile dalle sorgenti della Sanità per una portata media di 3,63 moduli. Istanza pubblicata sul Burc lo scorso 29 agosto.
+&nbsp;
+Nei mesi scorsi maggioranza e opposizione diedero vita a una commissione consiliare ad hoc che avrebbe dovuto studiare la bozza di accordo con l’Aqp. L’organo consiliare, presieduto dal sindaco Pasquale Farina e composto dall’assessore comunale al Bilancio e alla Programmazione Angelo Ceres, dal consigliere comunale con Delega al Turismo Donatello Cirillo, e dai consiglieri di minoranza Gerardo Di Masi e Lorenzo Melillo, oggi non esiste più. Troppo lontane le posizioni di maggioranza e opposizione.
+La stessa richiesta presentata dai gruppi di minoranza di convocare un consiglio comunale sulla convenzione è stata rigettata dal primo cittadino Pasquale Farina. Decisione criticata fortemente dall’Arcobaleno e da Autonomia e Trasparenza che hanno deciso di confrontarsi con la cittadinanza caposelese.
+&nbsp;
+Durante l’assemblea i gruppi di opposizione hanno criticato l’operato del sindaco.
+«A niente è servito istituire una commissione consiliare per dare la massima pubblicità e trasparenza agli atti, perché il Sindaco non fornisce i documenti di cui è in possesso - hanno affermato - La proposta di convenzione dell'Aqp, che il nostro primo cittadino tanto sponsorizza, prevede chiaramente che saranno i caposelesi a dover pagare l’acqua potabile all’Acquedotto Pugliese. Il Sindaco, invece di preoccuparsi di inoltrare l'azione risarcitoria nei confronti dell'Aqp per l'inadempimento degli obblighi assunti con le vecchie convenzioni, consigliatagli nel parere legale che ha richiesto, sostiene la proposta scritta dal gestore Pugliese, con cui il Comune Caposele dovrebbe rinunciare definitivamente ad un diritto d'uso del quantitativo dell'Acqua delle Sorgenti Sanità finora mai messa in discussione da tutti i precedenti accordi. Il Sindaco Farina per sostenere le ragioni dell’Aqp costringerà i Caposelesi per la prima volta al pagamento dell’acqua».
+&nbsp;
+
+[post_text_127]
+Caposele, svaligiata l’abitazione di Tonuccio
+&nbsp;
+Svaligiata l’abitazione dell’artista Tonuccio. L’episodio è avvenuto mentre il cantante altirpino aveva raggiunto il Santuario di San Gerardo, per partecipare alle celebrazioni.
+Quando è rientrato nella sua abitazione, quella di Via Piani, nei pressi della superstrada, è arrivata la sorpresa. Oltre alla porta effratta, l’artista ha trovato la sua abitazione completamente a soqquadro. E i ladri hanno portato via un discreto bottino. Non solo economico, ma anche affettivo. Considerato che tra gli effetti trafugati nell’abitazione, oltre ad una cifra in contanti di circa 1700 euro, sono stati rubati anche due giubotti, scarpe e strumenti musicali.
+&nbsp;
+Il furto è stato immediatamente denunciato da Tonuccio ai militari della locale stazione. Gli stessi hanno effettuato anche una serie di rilievi all’interno dell’abitazione. Resta l’amaro in bocca, anche perchè tra qualche settimana Tonuccio avrebbe dovuto traslocare. I ladri però sono arrivati prima.
+&nbsp;
+Sempre a Caposele, durante i festeggiamenti per San Gerardo sarebbero stati effettuati
+alcuni borseggi.
+&nbsp;
+
+[post_text_128]
+Al via i lavori a Fondo Valle Sele
+&nbsp;
+CAPOSELE - Sono partiti i lavori di manutenzione straordinaria per il rifacimento della pavimentazione e il consolidamento del corpo stradale, in alcuni tratti, della strada statale 691 "Fondo Valle Sele", inclusi gli svincoli.  Gli interventi comprenderanno, inoltre, i lavori per il rifacimento dei giunti di dilatazione e della segnaletica orizzontale.
+&nbsp;
+Particolarmente soddisfatto il consigliere provinciale del Partito democratico, Stefano Farina.
+«Da mesi mi stavo battendo per questa strada. La presenza di un movimento franoso lungo l’arteria impedisce tuttora agli automobilisti di dirigersi dal centro di Caposele al cimitero. Mai come in questo periodo, a ridosso della commemorazione dei defunti, l’avvio dei lavori rappresenta una forma di rispetto per la comunità».
+&nbsp;
+Oggi, di fatto, comincerà l’opera di disboscamento e di pulizia. L’importo dei lavori è pari a 250mila euro circa.
+«Spero che in breve tempo venga messa fine a un’emergenza che dura da ben sette anni - continua Farina - Su spinta del Pd di Caposele sono stato protagonista di ben dieci interrogazioni al Consiglio provinciale. Più volte ho avuto un incontro con Marro e con l’assessore ai Lavori Pubblici Generoso Cusano. D’altronde ho sempre pensato che un politico eletto dal popolo debba dedicare i suoi sforzi ai cittadini».
+&nbsp;
+Questione viabilità che da sempre sta a cuore a Farina.
+«Nei mesi scorsi avevo lanciato l’allarme su alcune frane che interessavano la parte alta di Teora e anche lì si è intervenuti prontamente».
+&nbsp;
+--------------------------------------------------------------------------------------
+&nbsp;
+Le precisazioni di Cusano sui lavori alla S.S. 261 “Fondo Valle Sele”
+&nbsp;
+CAPOSELE - «Dispiace leggere ingiustificate rivendicazioni in merito all’inizio dei lavori che interesseranno la S.S. 261 Fondo Valle Sele, arteria di competenza provinciale». E’ quanto afferma in una nota l’assessore provinciale ai lavori pubblici, Generoso Cusano.
+&nbsp;
+«Bisogna precisare che gli interventi in questione fanno seguito ad un’attenta valutazione, portata avanti dell’assessorato di competenza sin dall’inizio del proprio mandato amministrativo, rispetto ai diversi casi critici riscontrati sulle strade provinciali. Quindi, un’opera già programmata che, a prescindere dalle interrogazione del Consigliere provinciale Farina, era stata da tempo sollecitata sia da Ettore Spatola quale Consigliere comunale di Caposele del Popolo della Libertà, sia dal Consigliere provinciale Gaetano Calabrese».
+&nbsp;
+«Difatti, circa un anno fa -  continua l’Assessore Cusano -  dopo un sopralluogo effettuato a Caposele insieme al Dirigente del Settore Antonio Marro, ci fu l’impegno nei confronti della popolazione, e non rispetto a singoli, affinché venisse messa in sicurezza quanto prima la strada provinciale. Promessa puntualmente mantenuta. Dispiace polemizzare, cosa tra l’atro distante dal mio costume, ma non posso consentire che un’opera pubblica realizzata attraverso gli sforzi di questa amministrazione, venga inserita nella buona politica del partito democratico».
+&nbsp;
+«Diversamente -  continua l’Assessore -  dovrei chiedere come mai nulla si era mosso durante la precedente amministrazione provinciale, politicamente vicina al Consigliere Farina, la quale per anni aveva promesso ai cittadini di Caposele di risolvere il problema insistente sulla Fondo Valle Sele. Ovviamente l’intervento di Caposele non rappresenta un caso singolo, visto che stiamo cercando di intervenire anche su altri tratti stradali presenti nell’alta irpinia. Come amministratori abbiamo una grande responsabilità nei confronti dell’intero territorio provinciale che evidentemente non può essere sminuita da strumentali rivendicazioni politiche».
+&nbsp;
+&nbsp;
+
+[post_text_129]
+Caposele, le associazioni si oppongono al rinnovo dell’accordo con l’Aqp
+&nbsp;
+Una vicenda che va avanti ormai da mesi, quella del rinnovo della convenzione tra l’Acquedotto Pugliese e il Comune di Caposele. Nelle scorse settimane non sono mancati gli attacchi rivolti al sindaco Pasquale Farina da parte dei gruppi consiliari di minoranza.
+&nbsp;
+Ora sono le associazioni Cittadinanzattiva e Acqua Bene Comune a intervenire nella vicenda attraverso una formale opposizione all’istanza di rinnovo della concessione di grande derivazione d’acqua dalle sorgenti della Sanità nel Comune di Caposele (AV) per la portata media di 3,63 moduli.
+Di fatto, le associazioni chiedono la dichiarazione di inammissibilità e oltre a conoscere il nominativo del responsabile e i presumibili tempi di conclusione del procedimento stesso, nonchè di poter accedere ad estrarre copia di tutti i relativi atti e di avere partecipata ogni comunicazione relativa.
+&nbsp;
+Di fatto, a loro parere l’eventuale accoglimento della richiesta di rinnovo avanzata dall’Aqp contrasterebbe con gli inequivocabili doveri assunti dallo Stato con la convenzione del 1905, impegnativa, per i rapporti giuridici instaurati, anche per chi è subentrato, ope legis, nella titolarità in materia di demanialità idrica; disconoscerebbe e mortificherebbe ogni possibilità di sviluppo ed ogni diritto di refusione per mancate opportunità di un territorio che storicamente, ovvero da tempo immemorabile, ha tratto vantaggio economico, civile e sociale dalle risorse idriche; lederebbe le giuste aspettative di generazioni future su cui potrebbero ricadere le conseguenze di scelte inopportune, irrispettose dell’Autonomia Locale; spoglierebbe gli abitanti di Caposele dei relativi diritti reali di godimento a favore di una società per azioni, che per sua natura gestisce un servizio idrico integrato con logica privatistica ricavando notevoli profitti che, per la sola annualità del 2010, si sono attestati su circa 37 milioni di euro.
+&nbsp;
+&nbsp;
+-------------------------------------------------------------------------------
+&nbsp;
+&nbsp;
+Caposele - 44enne agli arresti domiciliari per lesioni personali
+&nbsp;
+Gli agenti del commissariato di polizia di di Sart'Angelo dei Lombardi hanno arrestato, in esecuzione di un ordinanza di carcerazione per espiazione in regime di detenzione domiciliare, un 44enne (F.G. le sue iniziali). I fatti sono avvenuti agli inizi del 2000 a Caposele. L'uomo, a seguito di un diverbio nato per questioni economiche, si rese autore di gravi lesioni personali nei confronti di un suo coetaneo. Il provvedimento, della durata di un anno, è stato emesso dalla procura presso la Corte di Appello di Napoli.
+&nbsp;
+
+[post_text_130]
+Caposele, sabato un confronto sulla Pavoncelli bis
+&nbsp;
+Sabato sera alle 19, presso il Ceag di Caposele, andrà in scena un confronto sulla Pavoncelli bis. Sarà l’occasione per fare il punto della situazione su una vicenda che va avanti ormai da anni. Al dibattito parteciperanno, tra gli altri, il commissario delegato della Pavoncelli Roberto Sabatelli, il presidente del Parco del partenio Sabino Aquino e i componenti dell’Amministrazione Comunale di Caposele.
+&nbsp;
+La Pavoncelli bis è la galleria “di servizio” della vecchia Galleria Pavoncelli, danneggiata dal terremoto del 1980. Si decise di realizzare una nuova condotta (la Pavoncelli bis) parallela alla prima, affinché la flessibilità nell’utilizzo di entrambe le gallerie consentisse di intervenire sul versante della manutenzione senza necessariamente interrompere il servizio. I lavori della Pavoncelli bis furono avviati nel 1990 e sospesi nel 1992 a causa di difficoltà derivanti dall’elevato flusso d’acqua e da soluzioni temporanee di contenimento che all’epoca non furono sufficienti per consentire la ripresa dei lavori. Il cantiere, però, non fu mai riaperto.
+&nbsp;
+Il Consiglio dei Ministri aveva dichiarato, il 6 novembre del 2009, lo stato di emergenza in relazione alla vulnerabilità sismica della galleria. La decisione nasceva a seguito delle numerose segnalazioni che l’assessore Amati aveva presentato alle istituzioni competenti. I sindaci irpini contestano il possibile aumento di portata dell’acqua e l’impatto che l’opera potrà avere sull’ambiente circostante.
+&nbsp;
+
+[post_text_131]
+Caposele - Domani il convegno sulla Galleria Pavoncelli bis
+&nbsp;
+&nbsp;
+Il movimento locale ”Caposele e/è Futuro” con il suo rappresentante e portavoce Consigliere Comunale Pietro Cetrulo, organizza un incontro pubblico sulla 'Galleria Pavoncelli-bis. L'appuntamento e' fissato sabato 29 ottobre a partire dalle 19, presso la sala convegni del Museo delle Acque di Caposele.
+&nbsp;
+Un faccia a faccia tra il Prof. e Ing. Roberto Sabatelli, Commissario Straordinario del Governo per la costruzione della Galleria Pavoncelli-bis, il prof. e Geologo Sabino Aquino, già ex Presidente dell'Ente Parco Monti Picentini e ad oggi Presidente del Parco del Partenio, il primo illustrerà le motivazioni che hanno spinto il Governo ad emettere un Decreto di emergenza per la Pavoncelli-bis, la modalità con cui sarà costruita e il prelievo idrico che s’intende poi effettuare, il secondo esporrà i motivi del ricorso che ha visto un primo stop all’opera già appaltata con conseguente pagamento di una penale di circa 40 milioni di euro alla ditta Condotte spa, e il ricorso attuale che andrebbe a bloccare di nuovo l’inizio dei lavori.
+&nbsp;
+Coordina e modera i lavori Pietro Cetrulo. Si tratta di un evento molto importante e delicato perchè mette per la prima volta a pubblico confronto le due parti o attori principali, che con posizioni opposte tra loro, hanno sostenuto la realizzazione o l'opposizione alla Pavoncelli. Cetrulo, da anni impegnato sul fronte della vicenda Pavoncelli-bis, si e'sempre prodigato per spiegare con obiettività il pro e contro dell'opera, voluta a livello politico da tutti i governi degli ultimi 30 anni, sia di destra che di sinistra.
+&nbsp;
+«E a testimonianza di ciò  - ricorda Cetrulo -  il sottoscritto nel 2007 inoltrò un'interrogazione all'allora Ministro Di Pietro depositata dall'on. Giulia Cosenza, risposta che assicurava la costruzione della Galleria Pavoncelli-bis e della centrale elettrica che avrebbe fornito energia elettrica gratis al Comune per usi pubblici».
+&nbsp;
+Finalmente Sabatelli e Aquino spiegheranno le loro ragioni nei minimi dettagli ai presenti che si annunciano numerosi, data la tematica molto sentita a Caposele e in Irpinia, si attendono Istituzioni Enti, Partiti  locali, Provinciali e Regionali, per un confronto che si annuncia ricco di spunti. Quella di sabato e' una delle prime iniziative proposte dal movimento Caposele e/e' futuro e dal Consigliere Cetrulo, da sempre impegnato sul fronte della tutela dei cittadini del comune di Caposele, con l'obiettivo di far chiarezza e risolvere le principali vertenze che attanagliano il territorio.
+&nbsp;
+
+[post_text_132]
+Pavoncelli bis, si accende il dibattito
+&nbsp;
+Nappi e Santoli: «Opera fondamentale per il Mezzogiorno e per l’Irpinia»
+&nbsp;
+CAPOSELE  - Ancora reazioni dopo l’incontro pubblico tenutosi a Caposele, organizzato dal consigliere comunale Pietro Cetrulo, sulle vicende legate alla realizzazione della Galleria Pavoncelli-bis con Roberto Sabatelli, Commissario Straordinario del Governo per la costruzione della Galleria Pavoncelli-bis, e il geologo Sabino Aquino, già Presidente dell'Ente Parco Monti Picentini e ad oggi Presidente del Parco del Partenio.
+&nbsp;
+All’appuntamento anche il consigliere regionale irpino, Sergio Nappi. «Siamo convinti – dice quest’ultimo - che la realizzazione della galleria ‘Pavoncelli-bis’ vada realizzata recuperando innanzitutto gli enormi ritardi, atteso che il progetto iniziale risale al 1985, e anche perché sono interamente disponibili le risorse economiche necessarie in considerazione dell’ulteriore finanziamento di 30 milioni di euro deliberato dal Cipe lo scorso mese di luglio. In secondo luogo, è doveroso garantire solidarietà alla regione Puglia per l’approvvigionamento idrico, infatti, la Pavocelli consente di servire un’utenza di oltre 1.300.000 abitanti».
+&nbsp;
+Si tratta per Nappi di un’opera di «interesse strategico non solo per consentire la fornitura di acqua potabile alla Puglia, ma anche perché può rappresentare, certamente, una grande occasione per la crescita e lo sviluppo del territorio irpino. A questo, va aggiunto la realizzazione della Centrale Idroelettrica che consentirebbe sia un significativo ritorno occupazionale e sia la possibilità di distribuire gratuitamente energia elettrica al territorio».
+&nbsp;
+Dicendo questo però non tralascia dubbi e perplessità. «E’ necessario - dice il consigliere regionale - addivenire quanto prima ad un accordo di programma tra la regione Campania e la regione Puglia sulle quote dei ristori economici e ambientali per il territorio, trovando le giuste convergenze tra solidarietà e sostenibilità. A tal proposito, non va sottaciuto il rischio che in un eventuale accordo di programma allargato alle regioni dell’Appennino centro-meridionale, la Campania possa compensare le entrate e le uscite di riserve idriche vanificando le aspettative del territorio irpino. Paradossale è al momento il costo della risorsa idrica gestita ed indirizzata al territorio irpino, che ha costi superiori a quella ceduta in direzione della Puglia e del napoletano considerato l’elevato costo per la spesa di energia elettrica necessaria per pomparla dai pozzi interni a 150 metri di profondità».
+&nbsp;
+Interviene anche il presidente Provinciale di ConfImprenditori Gerardo Santoli. «Non entro nelle vicende legate alla realizzazione dell’opera - dice quest’ultimo - quello che mi preme sottolineare è che d’ora in avanti qualsiasi finanziamento, qualsiasi opera deve portare non vantaggi per pochi ma sviluppo e occupazione per l’intero territorio. Per questo è indispensabile coinvolgere nella realizzazione dell’opera le aziende e le maestranze locali; noi siamo pronti a fare la nostra parte ma speriamo che dalla Regione vengono messe a disposizione le risorse per la formazione di addetti, tecnici e operai del posto. Ciò è indispensabile affinché possono trovare occupazione nella realizzazione di un opera sicuramente unica e affascinate, ma che purtroppo ad oggi vede poca possibilità occupazionale per i nostri operai proprio per la particolarità dei lavori, almeno che se non si proceda, come detto, in tempi brevi a mettere in campo dei percorsi di formazione ad hoc».
+&nbsp;
+
+[post_text_133]
+Caposele, Farina: «Dimostrerò i vantaggi della convenzione»
+&nbsp;
+Sabato 12 novembre il sindaco di Caposele Pasquale Farina incontrerà la cittadinanza per fare il punto sulle trattative con l’Acquedotto Pugliese.
+«Sarà un incontro esplicativo - afferma - durante il quale spiegheremo ai cittadini i vantaggi della convenzione con l’Aqp».
+&nbsp;
+Non sono poche le critiche arrivate al primo cittadino negli ultimi mesi. Per molti la convenzione non sarebbe conveniente per il Comune di Caposele. Di tutt’altra opinione Farina.
+«Chi critica non dovrebbe guardare solo la convenzione in sè - afferma - L’accordo, infatti, è integrato da altre tre documentazioni: una scrittura privata con l’ente idrico, un accordo morale con la Regione Puglia e una disciplinare per la fruizione turistica. Ci sono molte clausule a nostro favore. Di fatto, abbiamo voluto rendere la convenzione più snella e, allo stesso tempo, corredarla con una serie di accordi. Tutti mi hanno detto che questa bozza è conveniente».
+&nbsp;
+Di fatto, non sarebbero pochi i vantaggi secondo l’opinione del sindaco Farina.
+«Noi vogliamo il rinnovo della concessione - continua - A differenza di quello che dice qualcuno il Comune non perde nessun diritto. L’Acquedotto Pugliese è pronto a impegnarsi in una serie di iniziative. Il rinnovo della concessione ci garantirebbe un ristoro economico, la creazione della centrale idroelettrica, una fruizione turista alle Sorgenti della Sanità, un finanziamento di un milione e duecentomila euro per i lavori a Piazza Sanità e la trasformazione della palazzina attualmente occupata dai Carabinieri in un museo dedicato alla Pavoncelli. Che dire poi del parco fluviale della Madonnina? Oggi quel terreno è di proprietà dell’Aqp e il Comune ogni anno deve fare una richiesta di comodato d’uso. Ebbene, con la convenzione la richiesta diventerebbe pluriennale».
+&nbsp;
+
+[post_text_134]
+Caposele, Farina: «Ecco perché l’accordo con l’Aqp è buono»
+&nbsp;
+Il sindaco di Caposele, Pasquale Farina, difende a spada tratta la convenzione con l’Acquedotto Pugliese. Sabato davanti alla cittadinanza è stato chiaro.
+«Ogni anno con la somma messa a disposizione per Caposele, dall’Aqp si potranno gestire servizi da distribuire gratuitamente ai cittadini e tentare di puntare ad uno sviluppo del territorio senza l’ansia dei pochissimi finanziamenti europei e dei sempre più esigui trasferimenti statali.
+&nbsp;
+Nella fattispecie si potrebbero ottenere, immediatamente, una serie di vantaggi. Penso al rifacimento della rete idrica e fognaria del nostro comune al fine di garantire il servizio idrico a tutti i cittadini tutto l'anno, riducendo le perdite della rete e consentendo, in tal modo, la sistemazione delle strade con conseguente nuovo lavoro per operai, tecnici, commercianti e imprese. Altri vantaggi saranno la mensa e i trasporti scolastici anche nelle campagne gratuiti; nuovi collegamenti stradali principali per il centro e le periferie; illuminazione pubblica anche nelle contrade, atteso che il risparmio che ne risulterà dalla centrale elettrica, avrà una doppia valenza economica a vantaggio anche delle strutture pubbliche comunali; la realizzazione di invasi per l’irrigazione; la gestione delle visite turistiche alle sorgenti con conseguente impiego di personale specializzato».
+&nbsp;
+«Che dire poi della realizzazione del Museo Pavoncelli nella sede della palazzina Aqp con impiego di personale; la sistemazione definitiva del vecchio Parco fluviale e continuazione del nuovo, con impiego di manodopera e forza lavoro giovanile; il completamento dell’allestimento architettonico del Museo per le Macchine di Leonardo;la gestione autonoma delle Sorgenti di S. Lucia; la possibilità di cofinanziamento dei progetti con i fondi europei. E’ un’occasione da non perdere anche in vista di una possibile apertura del cantiere della Nuova Pavoncelli che potrà impiegare molta forza lavoro locale».
+
+[post_text_135]
+Caposele, lo spettacolo del Fiume Sele
+&nbsp;
+Rinomatissimo è stato sempre questo fiume presso gli antichi scrittori; sulle sue rive varie pagine vi ha scritto la storia. Lievemente deformato nelle lingue dei vari popoli che si sono succeduti nella regione, il nome ha avuto pressocchè sempre il suono di quello attuale. Probabilmente glielo imposero i Siculi, in tempi protostorici, allorché furono costretti ad abbandonare il Lazio per trasferirsi nelle più sicure terre del Sud, in ricordo di altro fiume omonimo del loro paese di origine.
+&nbsp;
+La denominazione più antica sembra sia ( Seila ) come si legge in una medaglia di Paestum e come pressappoco si pronuncia ancor oggi, ma i Greci dissero ( Silaris ) e i Romani Silarus o Siler.
+Gli antichi gli attribuirono la proprietà di mutare in pietra qualunque oggetto ligneo che restasse immerso nelle sue acque per qualche tempo. Il Sele è di fatto una delle meraviglie dell'Alta Irpinia.
+&nbsp;
+
+[post_text_136]
+Caposele, il Forum dei Giovani dice la sua sulla convenzione con l'Aqp
+&nbsp;
+Il Forum dei Giovani nasce come organismo il cui obiettivo principale è favorire la partecipazione dei giovani alla vita comunitaria, l’aggregazione e la conoscenza della struttura sociale e istituzionale. Sue prerogative sono promuovere il dialogo, garantire la consultazione dei giovani ed il rispetto delle loro esigenze, impegnarsi a rappresentare i giovani del territorio e farsi portavoce delle loro richieste. Pertanto l’assemblea del Forum, in vista dell’imminente scadenza della convenzione con l’ente Aqp, consapevole dell’importanza dell’avvenimento per il futuro delle giovani generazioni e per il benessere di tutta la comunità, ritiene necessario esprimere parere a riguardo ed offrire, per quanto possibile, un contributo efficace.
+&nbsp;
+Dopo aver partecipato a tutte le assemblee che si sono succedute sull’argomento, dopo aver preso visione della nuova bozza di convenzione e dei diversi pareri a riguardo, e, soprattutto, dopo essersi confrontato con i giovani rappresentanti delle varie associazioni locali, il Forum esorta tutti coloro che si sono adoperati nell’analisi e risoluzione della questione al ripristino del dialogo.
+&nbsp;
+«L’impressione, infatti - affermano i componenti del Forum - è che il confronto democratico tra le varie rappresentanze, indispensabile nel vivere civile, sia venuto a mancare, impedendo così la realizzazione di una chiara, corretta e inequivocabile informazione sull’argomento, se non sotto forma di indicazioni parziali e talvolta contrastanti. Il Forum ritiene indispensabile ristabilire una civile comunicazione tra le parti, nel rispetto del diritto all’informazione del cittadino e per poter giungere consapevolmente ad una soluzione unanimemente approvata.
+Il nostro desiderio è di rendere tutti partecipi, cittadini e protagonisti locali, di avere risposte precise a domande precise. A tal fine il Forum organizzerà un’incontro/intervista, durante il quale i rappresentanti dei vari movimenti che si sono venuti a creare saranno invitati a dare risposta a diversi interrogativi (ci riserviamo di comunicare anzitempo i dettagli della manifestazione)».
+&nbsp;
+Di fatto, da mesi è sempre polemica a Caposele sul rinnovo della convenzione tra il Comune e l’Acquedotto Pugliese. I consiglieri di opposizione contestano al sindaco Pasquale Farina il modo con cui vengono gestite le trattative. Nel corso degli ultimi mesi si sono succedute almeno quattro bozze di accordo ritenute inaccettabili dalla minoranza.
+Non sono poche le critiche arrivate al primo cittadino negli ultimi mesi. Per molti la convenzione non sarebbe conveniente per il Comune di Caposele.
+&nbsp;
+Di tutt’altra opinione Farina.
+«Chi critica non dovrebbe guardare solo la convenzione in sè - afferma - L’accordo, infatti, è integrato da altre tre documentazioni: una scrittura privata con l’ente idrico, un accordo morale con la Regione Puglia e una disciplinare per la fruizione turistica. Ci sono molte clausole a nostro favore. Di fatto, abbiamo voluto rendere la convenzione più snella e, allo stesso tempo, corredarla con una serie di accordi. Tutti mi hanno detto che questa bozza è conveniente».
+E ora entrano in scena anche i giovani.
+&nbsp;
+
+[post_text_137]
+Caposele, Caruso: «Farina spieghi perché non ha incontrato il Forum»
+&nbsp;
+La questione acqua a Caposele non lascia indifferenteil mondo dei giovani. Ad intervenire è Giuseppe Caruso, esponente del forum dei giovani di Caposele, che parla dei motivi dell’annullamento dell’incontro con Acquedotto Pugliese.
+&nbsp;
+«Il compito principale del forum dei giovani - dice - è quello di entrare in contatto con le Istituzioni territoriali e relazionarsi con le stesse, apportando idee, proposte e suggerimenti, dialogando attraverso tutte le forme più utili. Proprio per questo avevamo deciso di dar vita ad un’assemblea informativa per dar modo all’amministrazione comunale e ai gruppi di opposizione consiliare di poter rispondere alle domande dei giovani, in merito alla convenzione AQP. Nella serata odierna (ieri ndr) - continua il giovane Caruso - doveva svolgersi un incontro per discutere della questione acqua e della convenzione con l’Aqp.  Ebbene questo non è stato possibile, cioè non è stato possibile rendere partecipi i giovani perché il sindaco non si è reso disponibile a nessun confronto, dichiarando che esso non è funzionale a nessuno scopo e che i tempi dei confronti sono finiti. Sinceramente, a mio avviso, il tempo dei confronti non è mai iniziato perché nel corso delle varie assemblee che si sono svolte, in questi turbolenti mesi, non abbiamo mai assistito ad un confronto, ma solo a prese di posizioni da una parte e dall’altra».
+&nbsp;
+«Ecco perché si era pensato di creare questo evento, proprio per cercare di fare informazione vera a tutti, soprattutto ai giovani. L’invito che faccio è quello di non pensare troppo alle prossime elezione, ma di pensare soprattutto alle prossime generazioni. Inoltre chiedo a chi è venuto meno ai suoi doveri morali di chiarire, al più presto, pubblicamente a tutta la comunità i motivi della mancata partecipazione».
+&nbsp;
+
+[post_text_138]
+Caposele - Convenzione con l’Aqp: le proposte del Partito democratico
+&nbsp;
+Nelle scorse settimane non sono mancati gli attacchi rivolti al sindaco Pasquale Farina da parte dei gruppi consiliari di minoranza. Materia del contendere il rinnovo della concessione tra il Comune e l'Acquedotto Pugliese. Da qualche giorno in paese è affisso un manifesto della locale sezione del Partito democratico, un appello alla cittadinanza e al consiglio comunale.
+&nbsp;
+«Non c’è più tempo da perdere - si legge nel manifesto - La nuova convenzione con l’Acquedotto Pugliese deve essere stipulata subito senza rinunciare a diritti e prerogative.
+Il Pd di Caposele dopo molteplici incontri, manifestazioni e discussioni con la cittadinanza, tra gli iscritti e con l’Amministrazione comunale in merito al rinnovo della convenzione con l’Acquedotto Pugliese, è giunta da tempo, a formulare alcune essenziali e imprescindibili proposte.
+&nbsp;
+I cittadini non dovranno pagare l’acqua che utilizzano. Dal 1 gennaio 2012 l’Ato Calore Irpino diventerà il gestore unico del servizio idrico provinciale ed uniformerà i pagamenti dell’acqua per tutti i comuni che avrà in gestione. La firma della nuova convenzione con l’Acquedotto Pugliese dovrà sganciare il Comune di Caposele dall’Ato Calore Irpino, evitando che ai cittadini siano addebitati i consumi sull’acqua».
+&nbsp;
+«Il Comune di Caposele non dovrà perdere i diritti sulla riserva d’acqua.
+I diritti perpetuati sui 363 litri al secondo che il Comune vanta dal 1905 devono essere fatti salvi con la stipula della nuova convenzione, prevedendo in questa un richiamo alle vecchie convenzioni e non un annullamento delle stesse».
+&nbsp;
+«L’Aqp dovrà versare un congruo corrispettivo. L’attuale convenzione, in scadenza a maggio 2012, prevede la corresponsione di una somma annua complessiva tra trasferimenti diretti e rimborsi di circa 150mila euro, importo irrisorio ed insufficiente per coprire gli ingenti tagli degli ultimi anni da parte dello Stato. La nuova convenzione dovrà prevedere un congruo corrispettivo, di gran lunga superiore al precedente, che possa servire alla crescita del nostro paese ed al benessere dei cittadini attraverso l’incremento dell’occupazione, il rifacimento della rete idrica locale, la riattivazione dei progetti ed opere pubbliche bloccati per carenza di fondi, la previsione di benefici per la popolazione.
+Il Comune di Caposele dovrà pretendere il versamento diretto ed immediato delle somme per il rifacimento di Piazza Sanità. L’Aqp dovrà versare direttamente al Comune di Caposele la somma che ammonta a circa un milione e mezzo di euro per l’arredo di Piazza Sanità, progetto il cui finanziamento viene promesso da anni ma che in concreto non si è mai proceduto a realizzare.
+Infine il Comune di Caposele dovrà gestire le visite alle Sorgenti della Sanità».
+&nbsp;
+
+[post_text_139]
+Caposele, la comunità piange la scomparsa di Gerardo Monteverde
+&nbsp;
+Caposele piange la scomparsa di Gerardo Monteverde politico ed uomo sempre al servizio del paese e della comunità. Monteverde, ex primo cittadino ed amministratore di Caposele, si è spento nella giornata di ieri dopo un lunga malattia. Forte e commosso il messaggio degli amici del Circolo dell’Arcobaleno.
+&nbsp;
+«Gli amici dell’Arcobaleno ricordano con grande affetto Gerardo per i suoi insegnamenti di vita fondati sulla sincerità, sull’onestà l’altruismo e partecipano al dolore che ha colpito la famiglia per a sua prematura dipartita».
+&nbsp;
+Sentito ed emozionato anche il pensiero dei tre consiglieri di opposizione Ettore Spatola, Lorenzo Melillo e Vincenzo Zanca: «Siamo tristi - dicono i consiglieri di minoranza - con la scomparsa di Gerardo abbiamo perso una guida politica, ma soprattutto umana. Persona sempre in prima linea per le problematiche del paese e della nostra comunità. Sempre propositivo e costruttivo per migliorare e dare qualcosa in più Caposele. Non si può dimenticare un uomo come Gerardo che credeva nella famiglia e nella politica vera. In tanti anni di vicinanza non abbiamo potuto fare altro che imparare i sentimenti della bontà, della lealtà e dell’onestà. Oggi siamo più vuoti. Ciao Gerardo».
+
+[post_text_140]
+A CAPOSELE IL DIBATTITO “PROGRAMMIAMO IL FUTURO PER LE COMUNITÀ MONTANE”
+&nbsp;
+Comunità montane, Chieffo: «Bene i fondi ma...»
+&nbsp;
+Il delegato provinciale del Pd agli enti territoriali sulle dichiarazioni di Amendolara: «Quello degli stipendi è solo uno dei problemi. Bisogna puntare sulla filiera del legno»
+&nbsp;
+Il Pd, per manifestare la propria solidarietà e il proprio impegno in Consiglio Regionale a favore dei forestali della Terminio Cervialto, chiede ai Sindaci dei Comuni della Comunità Montana una delibera consiliare di solidarietà verso gli operai e i funzionari. A difesa della categoria il Pd di Caposele ha deciso di organizzare il  22 DICEMBRE  alle 17.30 presso il Centro Polifunzionale il dibattito “Programmiamo il futuro per le Comunità Montane”.
+Interverranno Vanni Chieffo, Responsabile Provinciale Pd Enti Montani; Pasquale Farina, Sindaco del Comune di Caposele; Stefano Farina, Presidente della Commissione Bilancio della Provincia di Avellino; Caterina Lengua, Segretario Provinciale del Pd; Donato Pica, Consigliere Regionale del Pd Salerno; Rosetta D'Amelio, Consigliere Regionale del Pd Avellino; Franco Vittoria della Direzione Nazionale del Pd; Mario Marino, Presidente della Comunità Montana Terminio Cervialto; Enzo Luciano, Vicepresidente dell’Uncem Campania; le rappresentanze sindacali Flai-Cgil, Fai Cisl, Uila Uil.
+Il dibattito sarà moderato dal fondatore del Corriere Gianni Festa. I lavori saranno introdotti da Gelsomino Grasso, Segretario del Circolo locale del Pd. Le conclusioni saranno affidate al segretario regionale Enzo Amendola.
+&nbsp;
+Al dibattito parteciperanno Sindaci, Presidenti delle Comunità Montane, Presidenti dei Parchi, rappresentanze politiche e sindacali, associazioni e cittadini.
+Un tema, quello delle comunità montane e degli operai forestali, da nove mesi senza stipendio, fortemente attuale.
+A inizio settimana l’assessore regionale Vito Amendolara ha dichiarato che sono in arrivo nove milioni di euro per il settore forestale.
+&nbsp;
+«Credo che non sia la solita promessa campata in aria - afferma Vanni Chieffo - Conosco personalmente Amendolara e posso garantire sulla sua serietà. Non ho motivi per pensare il contrario».
+Quello dei dipendenti senza stipendio però non è l’unico problema. La questione è più generale e riguarda anche una rimodulazione delle comunità montane. Il futuro passa necessariamente per la riforma.
+«Ci vuole una riforma seria - continua l’esponente del Pd - Se da un lato, dopo le parole di Amendolara sembra che si stia risolvendo il problema degli arretrati, dall’altro deve essere ancora affrontato quello relativo al territorio. Le comunità montane sono un ente da rivalutare, potenziare e rilanciare. Deve tornare un discorso di filiera in un piano pluriennale. Si deve tornare al discorso della filiera del legno».
+&nbsp;
+Chieffo, parlando di filiera del legno sottolinea due aspetti importanti, produzione e protezione del territorio. «Partendo dalla piantumazione - continua - e seguendo la crescita, la potatura, l'albero comincia a produrre reddito alle zone demaniali e comunali. Altro aspetto importante riguarda la protezione del territorio. Si ritornerebbe a risagomare il modo naturalistico. Ovvero tutto ciò che sarebbe servito ad evitare il ruscellamento in alta quota. Nel momento in cui riusciremo a partire con un piano pluriennale, gli operai non avranno più bisogno di ricorrere a scioperi della fame visto che si creerà una filiera concreta. Il vero problema è quello di utilizzare al meglio i finanziamenti europei».
+Chieffo non è daccordo con la trasformazione delle comunità montane in Unione dei Comuni.
+«Si creerebbe solo una carrozzone con paesi mortificati da ruoli minori rispetto ad altri che avrebbero un ruolo di guida. Se la Regione intende fare una cosa del genere, sarebbe più giusto dar vita a un’agenzia regionale per la forestazione, qualcosa di più specifico sull’esempio dell’Arpac. Il riordino delle comunità montane deve essere legato al discorso territoriale. Il loro ruolo all’inizio riguardava la bonifica montana».
+&nbsp;
+Tornare al vero spirito delle Comunità Montane. Questo l'obiettivo che il gruppo Pd intende inseguire cominciando la propria battaglia all'interno del Consiglio regionale.
+«Intendiamo riaprire in Regione - conclude Chieffo - un discorso di programmazione e sugli enti un discorso di gestione. Potrebbe essere un momento storico per riempire di contenuti e deleghe le Comunità montane. Una delega che potrebbe essere data è quella alla Protezione Civile».
+&nbsp;
+
+[post_text_141]
+ORA BASTA - IERI PRESSO L’AULA POLIFUNZIONALE DI CAPOSELE IL CONVEGNO DEL PD
+&nbsp;
+Comunità montani tra sofferenza e proposte
+&nbsp;
+E’ andato di scena nel tardo pomeriggio del 22 dicembre, presso l’aula polifunzionale di Caposele, il convegno del Pd locale dal titolo “Ora Basta”. All’incontro, moderato dal fondatore del Corriere dell’Irpinia Gianni Festa hanno partecipato i vertici provinciali e regionali del Partito Democratico.
+Il tema centrale dell’appuntamento era quello delle comunità montane e del difficile momento che stanno vivendo questi Enti sovracomunali per le difficoltà economiche e per le problematiche legate al pagamento degli stipendi ai dipendenti amministrativi ed a quelli della forestazione. L’ultima assurda indiscrezione parlerebbe addirittura di privatizzazione del settore.
+Poche le presenze degli operai della forestazione. Il loro numero non superava la decina.
+&nbsp;
+Prima dell’inizio del convegno un commosso ricordo del segretario locale Gelsomino Grasso del compianto Donato Mazzariello. La sala ha poi dato il giusto tributo all’ex sindaco, scomparso da qualche giorno, Gerardo Monteverde. Ad aprire il dibattito il sindaco di Caposele Pasquale Farina che ha salutato i presenti dal responsabile Enti locali del Pd provinciale Vanni Chieffo al presidente della Comunità Montana Terminio Cervialto Mario Marino, dal consigliere regionale di Pd di Salerno Donato Pica al consigliere provinciale Stefano Farina, dall’esponente nazionale del Pd Franco Vittoria al consigliere regionale Rosetta D’Amelio fino al segretario regionale del Partito Democratico Enzo Amendola.
+&nbsp;
+Il sindaco di Caposele ha spiegato l’importanza degli operai forestali.
+Il segretario del circolo locale Grasso ha poi spiegato gli obiettivi del convegno e l’impegno del Partito Democratico in Regione proponendo un incontro con Caldoro per discutere della situazione.
+Ad intervenire subito dopo Mario Marino Presidente della Comunità Montana Terminio Cervialto.
+«La situazione è difficile, siamo riusciti a fare un’anticipazione di un mese di stipendio sia per gli amministrativi che per i forestali. Dei soldi di cui si parla sui giornali nemmeno l’ombra. Abbiamo fatto di tutto fino allo sciopero della fame ed all’occupazione, ma quello che ci viene detto non viene rispettato».
+&nbsp;
+Dopo Marino a parlare Vanni Chieffo.
+«Ho vissuto la questione della privatizzazione in passato e so a quale scandalo si potrebbe arrivare. Oggi però è il momento delle proposte. Come partito dobbiamo stabilire cosa vogliamo fare di questo settore. Per esempio non concordo con la proposta dell’Unione dei Comuni perché non cambia la situazione. Per me la Comunità montana deve partire dalla riforestazione delle zone interne e della filiera del legno».
+&nbsp;
+Subito dopo a parlare il consigliere provinciale Stefano Farina.
+«La difficoltà più grande è la mancanza d’interlocutori. Il limite grande è che si partoriscono decisioni senza conoscenze. Voglio ringraziare Gianni Festa e Gelsomino Grasso che sono sempre in prima linea e combattono per la salvaguardia dei nostri territori».
+&nbsp;
+Forte l’intervento di Franco Vittoria: «Il Pd è in prima linea sulla vicenda forestazione. In questo momento bisogna prima parlare di un emendamento alla finanziaria regionale per pagare gli stipendi agli operai forestali e poi discutere della fase della riorganizzazione delle stesse. Una Regione come la Basilicata nell’ambito della soppressione ha puntato sulla salvaguardia delle condizioni dei lavoratori e dei dipendenti delle Comunità Montane. Cosa a cui la Regione Campania non ha pensato».
+&nbsp;
+Dopo l’esponente nazionale del Pd hanno preso la parole i consiglieri regionali Donato Pica e Rosetta D’Amelio.
+«E’ in atto una diminuzione drastica per le Comunità montane – dice Pica- Le responsabilità politiche devono venire a galla. Se passano le innovazioni solo pochi lavoratori saranno salvati. Dobbiamo fare una battaglia di principi a difesa delle cose interne. Le comunità montane non possono essere soppresse perché previste da leggi nazionali. Ci attrezzeremo sperando si trovare solidarietà dai consiglieri del centrodestra delle aree interne».
+&nbsp;
+«Non possiamo parlare – spiega D’Amelio – di forestazione se ancora, dopo Amendolara, non è stata data la delega. Non abbiamo interlocutori. A noi interessa una legge che metta regole rispetto alla forestazione alle zone montane, ai lavoratori ed alle zone interne. Una legge a determinate condizioni: la forestazione non va privatizzata e i forestali devono essere una risorsa».
+&nbsp;
 &nbsp;

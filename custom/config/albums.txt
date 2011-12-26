@@ -85,6 +85,12 @@ Sa10.JPG::
 AllColl13.11.10.jpg::
 AllColl13.11.10.jpg_2::
 Vietri2011.jpg::
+Agr11_3.jpg::
+Agr11_2.jpg::
+Agr11_4.jpg::
+Agr11_5.jpg::
+Agr11_1.jpg::
+Agr11_6.jpg::
 
 [All.Coll.05]
 ManifestoAll.Coll.05.jpg::
@@ -151,6 +157,11 @@ Trofeo_S.Rocco_10.jpg::
 SalernoMezza.jpg::
 run.jpg::
 Sorrento.jpg::
+Agr11_1.jpg::
+PL11_1.jpg::
+PL11_2.jpg::
+Trekking_Caposele.jpg::
+
 
 [Soci_ars]
 LV2.jpg::Lello Viscardi::
@@ -1393,10 +1404,201 @@ XVIIroma1.jpg::
 XVIIroma2.jpg::
 XVIIroma.jpg::
 XVIIromaB.jpg::
+RM11_1.jpg::
+RM11_2.jpg::
 XVIIromaA.jpg::
 XVIIroma3.jpg::
 XVIIroma4.jpg::
+RM11_3.jpg::
 XVIIroma5.jpg::
 XVIIroma6.jpg::
+RM11_4.jpg::
 XVIIroma7.jpg::
 XVIIroma8.jpg::
+RM11_6.jpg::
+RM11_5.jpg::
+RM11_7.jpg::
+
+
+
+[Foto Settimana]
+bb2.jpg::::18/12/2011 La corsa dei Babbi Natale – Anche a Milano  le vie del centro sono state attraversate dalla marcia dei «Santa Klaus» nell'ultima domenica prima di Natale (Corriere.it)
+bb.jpg::::04/12/2011 La corsa dei Babbi Natale - Gara al Greenwich Park di Londra a scopo benefico (Corriere.it)::
+pal11.jpg::::24/10/2011 Di corsa per la pace - Centinaia di attivisti, pellegrini e atleti tra israeliani, italiani e residenti nei territori palestinesi hanno preso parte alla «Corsa della Pace», che per l'ottava volta si &egrave; svolta quest'anno, con un percorso di 12 chilometri da Betlemme a Gerusalemme. Dopo la cerimonia di apertura, nel piazzale antistante il checkpoint di Betlemme, si &egrave; tenuta una partita di calcetto tra atleti israeliani, palestinesi e italiani. La corsa &egrave; terminata a Gerusalemme, presso il Notre Dame Center, dove si &egrave; svolta la cerimonia di arrivo e la premiazione dei partecipanti. La «maratona della pace» &egrave; stata dedicata a Papa Giovanni Paolo II, che visit&ograve; la Terra Santa nel 2000 (Corriere.it)
+berl11.jpg::::25/09/2011 Maratona da Record - Nella maratona di Berlino il kenyano Patrick Makau ha bissato la vittoria dello scorso anno tagliando il traguardo col nuovo fantastico record mondiale di 2h 03' 38'', che migliora di 21 secondi il primato stabilito tre anni fa, sempre a Berlino, dall’etiope Gebrselassie. (Gazzetta.it)
+Parigi11.jpg::::09/07/2011 Il triathlon - Quinta edizione del Triathlon di Parigi, un evento al quale prendono parte 3300 atleti (Corriere.it)
+Kenia.jpg::::25/06/2011 Attenti ai leoni... - Un momento della maratona di Lewa, che si &egrave; corsa all'interno del Parco Nazionale poco distante da Isiolo, a 300 km da Nairobi, in Kenya. (Gazzetta.it)
+Trail1.jpg::::Il TRAIL RUNNING &eacute; una corsa di resistenza in ambiente naturale praticata su diversi tipi di terreno ed in diverse condizioni ambientali. Generalmente si svolge su percorsi normalmente utilizzati per l’escursionismo, in particolare in montagna. Questi percorsi si snodano su sentieri inaccessibili per diversi chilometri da strade asfaltate fatta eccezione, di solito, per l’inizio e la fine dell’escursione ed attraversano colline, luoghi montani, altopiani, boschi ed in generale remote zone naturali. La natura stessa del percorso rende il Trail Running particolarmente impegnativo sia per il profilo altimetrico che per la tipologia di terreno sconnesso sul quale si corre.
+Trail2.jpg::::TRAIL RUNNING: Lake Ingalls, Washington state, U.S.A.
+mason lake.jpg::::TRAIL RUNNING: Mason Lake, Washington state, U.S.A.
+BakerLake.jpg::::TRAIL RUNNING: Baker Lake, regione del Nunavut, CANADA.
+ElumRidge.jpg::::TRAIL RUNNING: Elum Ridge, Washington state, U.S.A.
+YakimaEllensburg.jpg::::TRAIL RUNNING: Yakima Ellensburg, Washington state, U.S.A.
+Dol1.jpg::::TRAIL RUNNING: Dolomiti, Trentino Alto Adige, ITALIA
+Dol2.jpg::::TRAIL RUNNING: Dolomiti, Trentino Alto Adige, ITALIA
+Dol3.jpg::::TRAIL RUNNING: Dolomiti, Trentino Alto Adige, ITALIA
+FDS2.jpg::::TRAIL RUNNING: Dolomiti, Trentino Alto Adige, ITALIA
+RFC10.jpg::::22/05/2011 In 55mila contro il tumore - Famiglie con bambini, comitive di amici, nonne con nipoti e sportivi della domenica, anche cani al guinzaglio del padrone che corre: sono alcuni esempi di chi ha partecipato oggi alla XII edizione della «Race for the Cure - Di corsa contro i tumori del seno», la celebre corsa di solidariet&agrave; che si &egrave; svolta nel centro di Roma, partenza e arrivo alle Terme di Caracalla, per raccogliere fondi e sostenere la lotta ai tumori del seno. I fondi raccolti attraverso la «Race for the Cure» saranno destinati a promuovere la diagnosi precoce, il benessere psico-fisico delle donne operate, l'aggiornamento degli operatori sanitari e l'acquisto di apparecchiature di diagnosi e cura attraverso progetti che saranno realizzati principalmente da altre associazioni, in una filosofia di condivisione e di non competizione (Gazzetta.it)
+Praga2011.jpg::::08/05/2011 Praga di corsa - I partecipanti alla Maratona di Praga attraversano il Ponte Carlo, il pi&ugrave; famoso della capitale ceca (Gazzetta.it)
+FG1.jpg::::05/05/2011 Paura e speranza - Il maratoneta palestinese Nader Masri (a sinistra) e un altro concorrente passano correndo di fronte a un poliziotto armato, sul lungomare di Gaza. Quella di oggi, organizzata dalle Nazioni Unite, &egrave; la prima corsa che si svolge interamente all'interno dell'enclave palestinese (Gazzetta.it)
+Thun2011.jpg::::27/03/2011 Thun (Svizzera) - I partecipanti alla Strongman Run corrono nel fango. La seconda edizione dell'evento ha attirato 3150 concorrenti (Corriere.it)
+single.jpg::::07/06/2010 La corsa dei single - Cinque chilometri di corsa, per le strade di Milano a caccia… di un'anima gemella. In tremila hanno risposto all'appello, partecipando alla «Strasingle», marcia non competitiva a ritmo libero per le vie del capoluogo, organizzata dall'associazione sportiva Single Events sotto il segno, appunto, dello slogan: «Rincorri la tua anima gemella» (Corriere.it)
+Newcastle09.jpg::::29/09/2009 Maratona d'autunno - I corridori della Grande corsa del Nord, passano sul ponte di Newcastle mentre gli aerei acrobatici danno il benvenuto in citt&agrave; (Corriere.it)
+
+[Stra_11]
+ST11_1.jpg::
+ST11_2.jpg::
+ST11_3.jpg::
+ST11_4.jpg::
+ST11_5.jpg::
+ST11_6.jpg::
+ST11_7.jpg::
+ST11_8.jpg::
+ST11_9.jpg::
+ST11_10.jpg::
+ST11_11.jpg::
+ST11_136.jpg::
+ST11_137.jpg::
+ST11_138.jpg::
+ST11_139.jpg::
+ST11_12.jpg::
+ST11_13.jpg::
+ST11_14.jpg::
+ST11_15.jpg::
+ST11_16.jpg::
+ST11_38.jpg::
+ST11_39.jpg::
+ST11_37.jpg::
+ST11_40.jpg::
+ST11_17.jpg::
+ST11_18.jpg::
+ST11_19.jpg::
+ST11_20.jpg::
+ST11_21.jpg::
+ST11_22.jpg::
+ST11_23.jpg::
+ST11_24.jpg::
+ST11_25.jpg::
+ST11_26.jpg::
+ST11_27.jpg::
+ST11_28.jpg::
+ST11_29.jpg::
+ST11_30.jpg::
+ST11_31.jpg::
+ST11_32.jpg::
+ST11_33.jpg::
+ST11_34.jpg::
+ST11_35.jpg::
+ST11_36.jpg::
+ST11_41.jpg::
+ST11_42.jpg::
+ST11_43.jpg::
+ST11_44.jpg::
+ST11_45.jpg::
+ST11_46.jpg::
+ST11_47.jpg::
+ST11_48.jpg::
+ST11_49.jpg::
+ST11_50.jpg::
+ST11_51.jpg::
+ST11_52.jpg::
+ST11_53.jpg::
+ST11_54.jpg::
+ST11_55.jpg::
+ST11_56.jpg::
+ST11_57.jpg::
+ST11_58.jpg::
+ST11_AA.jpg::
+ST11_AB.jpg::
+ST11_60.jpg::
+ST11_61.jpg::
+ST11_62.jpg::
+ST11_63.jpg::
+ST11_64.jpg::
+ST11_65.jpg::
+ST_11_66.jpg::
+ST_11_67.jpg::
+ST_11_68.jpg::
+ST_11_69.jpg::
+ST_11_70.jpg::
+ST_11_71.jpg::
+ST_11_72.jpg::
+ST11_73.jpg::
+ST11_74.jpg::
+ST11_75.jpg::
+ST11_76.jpg::
+ST11_77.jpg::
+ST11_78.jpg::
+ST11_79.jpg::
+ST11_80.jpg::
+ST11_81.jpg::
+ST11_82.jpg::
+ST11_83.jpg::
+ST11_84.jpg::
+ST11_85.jpg::
+ST11_86.jpg::
+ST11_87.jpg::
+ST11_88.jpg::
+ST11_89.jpg::
+ST11_90.jpg::
+ST11_91.jpg::
+ST11_92.jpg::
+ST11_93.jpg::
+ST11_94.jpg::
+ST11_95.jpg::
+ST_96.jpg::
+ST_97.jpg::
+ST_98.jpg::
+ST_99.jpg::
+ST_100.jpg::
+ST_101.jpg::
+ST_102.jpg::
+ST_103.jpg::
+ST_104.jpg::
+ST11_105.jpg::
+ST11_106.jpg::
+ST11_107.jpg::
+ST11_108.jpg::
+ST11_109.jpg::
+ST11_110.jpg::
+ST11_111.jpg::
+ST11_112.jpg::
+ST11_113.jpg::
+ST11_114.jpg::
+ST11_115.jpg::
+ST11_116.jpg::
+ST11_117.jpg::
+ST11_118.jpg::
+ST11_119.jpg::
+ST11_120.jpg::
+ST11_121.jpg::
+ST11_122.jpg::
+ST11_123.jpg::
+ST11_124.jpg::
+ST11_125.jpg::
+ST11_126.jpg::
+ST11_127.jpg::
+ST11_128.jpg::
+ST11_129.jpg::
+ST11_130.jpg::
+ST11_131.jpg::
+ST11_132.jpg::
+ST11_133.jpg::
+ST11_134.jpg::
+ST11_135.jpg::
+ManStra11.jpg::
+
+[Sicignano_11]
+sda1.jpg::
+sda2.jpg::
+sda3.jpg::
+sda4.jpg::
+sda5.jpg::
+sda6.jpg::
+sda7.jpg::
+sda8.jpg::
+sda9.jpg::
+sda10.jpg::
+sda11.jpg::
+
+
