@@ -31,3 +31,9 @@ ragazzi andiamoci piano con gli alcolici e gli stupefacenti:-)
 
 [post_text_4]
 appunto dico hahaha :-)
+
+[post_text_4]
+appunto dico hahaha :-)
+
+[post_text_5]
+In questo forum si scrivono sempre le stesse cose,ma cio' penso sia dovuto al fatto che non vi sono miglioramenti...lasciando da parte discorsi politici,economici,ambientali e sociali e concentrandoci esclusivamente sul sito ars e sulle prospettive che c'erano sia per il podismo,sia per la partecipazione a questo sport e sia alla partecipazione alle manifestazioni podistiche penso che la cosa possa ritenersi chiusa o perlomeno abbandonata,o meglio non vi e'piu' interesse a progredire a questo progetto rimasto ancora aperto per pochissimi,i quali nonostante abbiano cercato di invogliare piu'gente a questo sport,a questo gruppo,a questa associazione,ritengo che la missione sia finita...e che per ogni cosa che finisce c'e' bisogna di una svolta,e quindi propongo lo scioglimento del gruppo da parte di tutti i componenti e di chiudere questo sito,questo forum,e magari un giorno di ricominciare daccapo partendo da una piccola base ,formata da nuovi e soprattutto giovani elementi invogliati ad intraprendere la corsa come una cosa da fare con voglia,interesse e passione.Vista la situazione attuale penso che questo sito non abbia piu'senso di continuare ad esistere,e giusto rifondare la cosa, sempre e quando ci sono le vere condizioni,fino ad arrivare al punto che eravamo raggiunti circa tre anni fa. E'solo un mio pensiero..poi decidete voi...

@@ -1,0 +1,16 @@
+Autore::
+Titolo::StraSalerno 2011
+--- Begin body ---
+<br>
+A Salerno il 23 ottobre 2011, in occasione della Mezza Maratona di Salerno (StraSalerno), 
+la notizia che ha fatto pi&ugrave; notizia &egrave; che, dopo anni, finalmente non &egrave; piovuto e, persino, 
+a volte ha fatto capolino il sole. Tutto questo ha favorito la gara, in quanto momento agonistico puro. 
+Un bel numero di partecipanti alla mezza maratona (circa 800). Percorso tanto bello quanto veloce quello 
+della StraSalerno. <i>(Articolo tratto da Podistidoc.it)</i><br> <br>
+Per l'ARS ha partecipato Mario Di Trolio (in divisa nera nella foto sottostante scattata durante la gara), che, nell'occasione, ha migliorato il suo primato personale sulla distanza di 1 minuto e 41 secondi.
+<br>
+<br>
+<div align="center">
+<img id="" src="%file_root%custom/album/varie/sa11.jpg" alt="" border="0" width="540">
+</div><br>
+--- End body ---

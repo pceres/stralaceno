@@ -1,0 +1,8 @@
+Autore::Ars
+Titolo::Trekking dei Monti di Caposele
+--- Begin body ---
+<br>
+<div align="center">
+<img id="" src="%file_root%custom/album/varie/Trekking_Caposele.jpg" alt="" border="0" width="500">
+</div><br>
+--- End body ---

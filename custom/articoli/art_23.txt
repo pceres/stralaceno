@@ -1,17 +1,17 @@
 Autore::Ars
 Titolo::Assemblea Annuale Ars
 --- Begin body ---
+<FONT SIZE="4"><FONT FACE="calibri"> 
 <br>
-Il giorno 11 aprile 2009 alle ore 14.15 in Corso Garibaldi n.53 in Caposele, si terr&agrave; l’assemblea annuale ordinaria  della nostra associazione.<br><br>
-Qualora a tale ora non fosse presente almeno la met&agrave; degli associati, l’assemblea si terr&agrave; in seconda convocazione il medesimo giorno alle ore 15.00, presso la stessa sede.<br><br>
-All’assemblea sono ammessi tutti gli associati in regola con il pagamento della quota sociale di iscrizione.<br><br>
+Il giorno venerd&igrave; <b>22 aprile 2011</b> alle <b>ore 15.30</b> in Corso Garibaldi n.53 in Caposele, si terr&agrave; l’assemblea annuale ordinaria  della nostra associazione.<br><br>
 L’ordine del giorno prevede:<br>
-1.	Approvazione rendiconto economico finanziario  2008;<br>
-2.      Rinnovo carica responsabile squadra podistica e nomina eventuali altri responsabili di settore;<br>
-3.	Eventuale evoluzione statutaria;<br>
-3.	Programmazione attività anno 2009.
-<p>&nbsp;
+1. Approvazione rendiconto economico finanziario  2010;<br>
+2. <b>Rinnovo Consiglio Direttivo</b>;<br>
+3. Individuazione eventuali Responsabili di Settore;<br>
+4. Programmazione attività anno 2011.
+<br><br>
 <div align="center">
-<img id="logo_ars" src="%file_root%custom/album/ars/ars.jpg" alt="logo_ars" border="0" width="260">
+<img id="Roma_2008" src="%file_root%custom/album/Soci_ars/PV2.jpg" alt="Il presidente uscente Paolo Viscardi" border="0" width="160">
 </div>
+</FONT></FONT>
 --- End body ---

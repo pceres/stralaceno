@@ -11,3 +11,9 @@ Anche per il mese di SETTEMBRE gli interessati ad intraprendere una ATTIVIT&Agra
 <br><br>
 -->
 --- End body ---
+ter">
+<img id="Manifesto" src="%file_root%custom/album/ars/AB_Pal.jpg" alt="" border="0" width="460">
+</div>
+<br><br>
+-->
+--- End body ---

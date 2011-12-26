@@ -26,3 +26,10 @@ Responsabile Relazioni Esterne: NICOLA CICCONE
 </div>
 <br><br>
 --- End body ---
+e <a href="download.php?resource_type=file&amp;resource_id=file_rendiconto_e_relazione_ARS_2010">qui</a>.</font></font></font></i>
+<br><br>
+<div align="center">
+<img id="" src="%file_root%custom/album/Roma_10/Roma10_7.jpg" alt="Il nuovo predidente DONATO CERES in azione" border="0" width="500">
+</div>
+<br>
+--- End body ---

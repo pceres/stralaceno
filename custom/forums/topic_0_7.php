@@ -878,3 +878,19 @@ ciao nicola... iniziato dunque il conto alla rovescia... sbilanciati dai! Che te
 
 [post_text_145]
 Come mai Nicola Melillo non ha partecipato alla stralaceno 2010? E' assente perche fuori per lavoro?
+i dai! Che tempo prevedi di realizzare quest'anno e quale posizione riusscirai ad ottenere alla STRALACENO?
+
+[post_text_145]
+Come mai Nicola Melillo non ha partecipato alla stralaceno 2010? E' assente perche fuori per lavoro?
+
+[post_text_146]
+vergognateviiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!anche quest'anno non ho voluto piu' di tanto dar retta agli emigrati...i quali si fanno sentire e vedere solo in estate!!! vergognatevi!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+[post_text_147]
+forza giuseppe cetrulo e forza daniele caprio e forza donato ceres ce la potete fare a battere il super gelsomino merola che crede di essere invincibile ma chi sei non sei nessuno tranne la stralaceno non hai mai raggiunto i primi posti nelle altre gare fuori forza ragazzi quasi tutto caposele tifa per voi.
+
+[post_text_148]
+meglio un piatto di lasagna, una bottiglia di vino e una bella fighetta...    voi fatevi la stralaceno che al resto ci pensiamo noi...
+
+[post_text_149]
+&gt;non se ne puo' piu'di questo paese!!!!!!!!!ognuno pensa a se stesso,siamo come delle pecore senza pastore...CHE SCHIFO!!!!! qua c'e' la gente che soffre e nessuno fa niente per evitare questa precarieta' a livello economico e sociale!!!che ce ne importa della corsa,di fare un buon piazzamento,o di allenarci per un anno per fare la solita corsa!!!si vive tutto l'anno e si parla tutto l'anno e non solo una volta all'anno alla fine di agosto...!!!!!!!!!!dove siete????!!!!!!!!!!!!!!!!!!!!!!!!settembre,ottobre,novembre,dicembre,gennaio,febbraio,marzo,aprile,maggio,giugno,luglio... DOVE SIETE???!!!!!!!!!!! CAPOSELE PAESE DA ROTTAMARE!!!VERGOGNATEVI!!!!!!!!!!!!!<br>&gt;<br>&gt;<br><br>

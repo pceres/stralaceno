@@ -15,3 +15,7 @@ Essa si propone di:
 <img id="logo_ars" src="%file_root%custom/album/ars/ars.jpg" alt="logo_ars" border="0" width="260">
 </div>
 --- End body ---
+width="440">
+</div>
+<br>
+--- End body ---
