@@ -1,3 +1,4 @@
+#!/bin/bash
 
 #
 # show usage if no params in input
@@ -15,7 +16,7 @@ if [ ! $# == 5 ]; then
   echo " "
   echo "ftpsync -d ars.altervista.org ars /custom/ ./../custom/"
   echo " "
-  echo "ftpsync -u ars.altervista.org ars ./../custom/dati/ /custom/dati/"
+  echo "ftpsync -u ars.altervista.org ars /custom/dati/ ./../custom/dati/"
   echo " "
   
   exit
