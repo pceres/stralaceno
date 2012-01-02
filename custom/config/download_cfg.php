@@ -22,7 +22,7 @@ Formato [folder_xxx]:
 ;
 
 [folder_root]
-folder::folder_ARS::ARS Amatori Running Sele::Sezione relativa all'associazione::Amatori Running Sele::::admin::22:07 04/07/2007::742
+folder::folder_ARS::ARS Amatori Running Sele::Sezione relativa all'associazione::Amatori Running Sele::::admin::22:07 04/07/2007::743
 folder::folder_vari::Files vari::Sezione con risorse di varia natura::vari::::admin::22:07 04/07/2007::379
 
 [folder_ARS]
@@ -37,7 +37,7 @@ folder::folder_mia_cartella::Gare podistiche::I risultati della gare podistiche 
 file::file_atto_costitutivo_con_firme::Atto Costitutivo e Statuto ARS con firme::Documento originale scannerizzato::Atto Costit. Statuto ARS con firme.pdf::::admin::22:07 04/07/2007::203
 file::file_atto::Atto Costitutivo e Statuto in formato digitale::Atto costitutivo e statuto dell'associazione::Atto.pdf::::admin::14:39 18/03/2008::207
 file::file_regolamento_elettorale::Regolamento elettorale::Atto che regolamenta le elezioni per il rinnovo delle cariche di governo dell'associazione::Regolamento elettorale ARS.pdf::::admin::23:59 07/01/2008::255
-file::file_assemblea_08::Verbale Assemblea Soci del 22.04.2008::Rinnovo Consiglio Direttivo::Verbale Ass. Ord. approv. Rendiconto 2007 con firme.pdf::::admin::10:32 14/05/2008::197
+file::file_assemblea_08::Verbale Assemblea Soci del 22.04.2008::Rinnovo Consiglio Direttivo::Verbale Ass. Ord. approv. Rendiconto 2007 con firme.pdf::::admin::10:32 14/05/2008::198
 file::file_direttivo_08::Verbale Consiglio Direttivo del 22.04.2008::Cariche nuovo Consiglio Direttivo::Verbale elez. Direttivo 2008 con firme.pdf::::admin::10:33 14/05/2008::200
 file::file_ass_praticante::Verbale C. D. istituzione figura dell'Associato Praticante::Integrazione categorie di soci: Associato Praticante::Verbale Cons. Dir. istituz. associato praticante.pdf::::admin::10:38 14/05/2008::212
 
@@ -55,7 +55,7 @@ file::file_domanda_assoc_praticante::Moduldo domanda Associato Praticante::Per r
 [folder_Rendiconti]
 file::file_rendiconto_e_relazione_ARS_2005::Rendiconto e Relazione ARS anno 2005::Rendiconto economico finanziario relativo all'esercizio 2005, e breve relazione::Rendiconto e Relazione anno 2005 ARS.pdf::::admin::22:07 04/07/2007::253
 file::file_rendiconto_e_relazione_ARS_2006::Rendiconto e Relazione ARS anno 2006::Rendiconto economico finanziario relativo all'esercizio 2006, e breve relazione::Rendiconto e Relazione anno 2006 ARS.pdf::::admin::22:07 04/07/2007::525
-file::file_rendiconto_e_relazione_ARS_2007::Rendiconto e Relazione ARS anno 2007::Rendiconto economico finanziario relativo all'esercizio 2007, e breve relazione::Rendiconto e Relazione anno 2007 ARS.pdf::::admin::10:24 08/04/2008::567
+file::file_rendiconto_e_relazione_ARS_2007::Rendiconto e Relazione ARS anno 2007::Rendiconto economico finanziario relativo all'esercizio 2007, e breve relazione::Rendiconto e Relazione anno 2007 ARS.pdf::::admin::10:24 08/04/2008::568
 file::file_rendiconto_e_relazione_ARS_anno_2008::Rendiconto e Relazione ARS anno 2008::Rendiconto e Relazione ARS anno 2008 e breve relazione::Rendiconto e Relazione anno 2008 ARS.pdf::::admin::9:23 15/04/2009::232
 file::file_rendiconto_e_relazione_ARS_anno_2009::Rendiconto e Relazione ARS anno 2009::Rendiconto e Relazione ARS anno 2009 e breve relazione::Rendiconto e Relazione anno 2009 ARS.pdf::::admin::15:21 04/04/2010::279
 file::file_rendiconto_e_relazione_ARS_2010::Rendiconto e Relazione ARS anno 2010::Rendiconto e Relazione ARS anno 2010 e breve relazione::Rendiconto e Relazione ARS anno 2010.pdf::::admin::13:33 27/04/2011::132
@@ -72,10 +72,10 @@ file::file_politiche_giovanili::AZIONE C Reg. Campania - politiche giovanili::Le
 
 [folder_vari]
 link::link_logo_ars::Logo ARS::Logo ufficiale dell'associazione "Amatori Running Sele"::http://localhost/work/ars/custom/album/varie/logo.jpg::::admin::22:07 04/07/2007::121
-folder::folder_FC_caposele::Sezione F.C. Caposele::Documenti vari relativi all'F.C. Caposele::FC_caposele::::admin::23:07 03/12/2007::217
+folder::folder_FC_caposele::Sezione F.C. Caposele::Documenti vari relativi all'F.C. Caposele::FC_caposele::::admin::23:07 03/12/2007::218
 
 [folder_FC_caposele]
-file::file_regolamento_interno_FC_caposele_07_08_doc::Regolamento interno 2007/08 (doc)::Regolamento interno dell'F.C. Caposele, anno 2007/08 (in formato .doc)::Regolamento Int. FC Cap. 07.08.doc::::admin::23:07 03/12/2007::1369
+file::file_regolamento_interno_FC_caposele_07_08_doc::Regolamento interno 2007/08 (doc)::Regolamento interno dell'F.C. Caposele, anno 2007/08 (in formato .doc)::Regolamento Int. FC Cap. 07.08.doc::::admin::23:07 03/12/2007::1375
 file::file_regolamento_interno_FC_caposele_07_08_pdf::Regolamento interno 2007/08 (pdf)::Regolamento interno dell'F.C. Caposele, anno 2007/08 (in formato .pdf)::Regolamento Int. FC Cap. 07.08.pdf::::admin::23:07 03/12/2007::221
 
 [folder_mia_cartella]

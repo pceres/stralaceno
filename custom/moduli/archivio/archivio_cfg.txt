@@ -50,6 +50,7 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
+139::homepage::Sondaggio Europei di Calcio 2012::Ars
 138::homepage::Granada notturna 2011::Paolo Viscardi
 137::homepage::Bere dopo una corsa? Sbagliato::Corriere.it
 136::homepage::L'attivit&agrave; fisica::Corriere.it
