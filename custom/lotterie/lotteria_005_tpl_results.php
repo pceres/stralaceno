@@ -346,70 +346,34 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 	
 	
 	// simboli quando si azzecca una risposta
+	$simbolo_ok_shared = Array(
+			'4' 		=> Array('V'		,'','Qualificazione con piu\' punti - Vittoria diretta (4 punti)'),
+			'3' 		=> Array('S'		,'','Qualificazione per scontro diretto, d.r. o class. avulsa - Vittoria ai supplementari (3 punti)'),
+			'2' 		=> Array('R'		,'','Qualificazione per miglior attacco, ecc. - Vittoria ai rigori (2 punti)'),
+			'1' 		=> Array('+'		,'','???'),
+			'default'	=> Array('.'		,'','')
+			);
 	$simbolo_ok 	= Array(
-		4 => Array(
-			'4' 		=> Array('V'		,'','Qualificazione con piu\' punti - Vittoria diretta (4 punti)'),
-			'3' 		=> Array('S'		,'','Qualificazione per scontro diretto, d.r. o class. avulsa - Vittoria ai supplementari (3 punti)'),
-			'2' 		=> Array('R'		,'','Qualificazione per miglior attacco, ecc. - Vittoria ai rigori (2 punti)'),
-			'1' 		=> Array('+'		,'','???'),
-			'default'	=> Array('.'		,'','')
-			),
-		3 => Array(
-			'4' 		=> Array('V'		,'','Qualificazione con piu\' punti - Vittoria diretta (4 punti)'),
-			'3' 		=> Array('S'		,'','Qualificazione per scontro diretto, d.r. o class. avulsa - Vittoria ai supplementari (3 punti)'),
-			'2' 		=> Array('R'		,'','Qualificazione per miglior attacco, ecc. - Vittoria ai rigori (2 punti)'),
-			'1' 		=> Array('+'		,'','???'),
-			'default'	=> Array('.'		,'','')
-			),
-		2 => Array(
-			'8' 		=> Array('VF'		,'','Vittoria diretta in semifinale (8 punti)'),
-			'6' 		=> Array('SF'		,'','Vittoria ai supplementari in semifinale (6 punti)'),
-			'4' 		=> Array('RF'		,'','Vittoria ai rigori in semifinale (4 punti)'),
-			'2' 		=> Array('+F'		,'','???'),
-			'default'	=> Array('.'		,'','')
-			),
-		1 => Array(
-			'16' 		=> Array('VC'		,'','Vittoria diretta in finale (16 punti)'),
-			'12' 		=> Array('SC'		,'','Vittoria ai supplementari in finale (12 punti)'),
-			'8' 		=> Array('RC'		,'','Vittoria ai rigori in finale (8 punti)'),
-			'4' 		=> Array('+C'		,'','???'),
-			'default'	=> Array('.'		,'','')
-			),
+		4 => $simbolo_ok_shared,
+		3 => $simbolo_ok_shared,
+		2 => $simbolo_ok_shared,
+		1 => $simbolo_ok_shared,
 		);
-
+	
+	// simboli quando non si azzecca una risposta
+	$simbolo_not_ok_shared = Array(
+			'4' 		=> Array('<b>O</b>'	,'','??'),
+			'3' 		=> Array('O'		,'','??'),
+			'2' 		=> Array('r'		,'','Eliminazione per miglior attacco, ecc. - Sconfitta ai rigori (2 punti)'),
+			'1' 		=> Array('s'		,'','Eliminazione per scontro diretto, d.r. o class. avulsa - Sconfitta ai supplementari (1 punto)'),
+			'0'		=> Array('<small>o</small>'		,'','Eliminazione con meno punti - Sconfitta diretta (0 punti)'),
+			'default'	=> Array('.'		,'','')
+			);
 	$simbolo_not_ok	= Array(
-		4 => Array(
-			'4' 		=> Array('<b>O</b>'	,'','??'),
-			'3' 		=> Array('O'		,'','??'),
-			'2' 		=> Array('r'		,'','Eliminazione per miglior attacco, ecc. - Sconfitta ai rigori (2 punti)'),
-			'1' 		=> Array('s'		,'','Eliminazione per scontro diretto, d.r. o class. avulsa - Sconfitta ai supplementari (1 punto)'),
-			'0'		=> Array('<small>o</small>'		,'','Eliminazione con meno punti - Sconfitta diretta (0 punti)'),
-			'default'	=> Array('.'		,'','')
-			),
-		3 => Array(
-			'4' 		=> Array('<b>O</b>'	,'','??'),
-			'3' 		=> Array('O'		,'','??'),
-			'2' 		=> Array('r'		,'','Eliminazione per miglior attacco, ecc. - Sconfitta ai rigori (2 punti)'),
-			'1' 		=> Array('s'		,'','Eliminazione per scontro diretto, d.r. o class. avulsa - Sconfitta ai supplementari (1 punto)'),
-			'0'		=> Array('<small>o</small>'		,'','Eliminazione con meno punti - Sconfitta diretta (0 punti)'),
-			'default'	=> Array('.'		,'','')
-			),
-		2 => Array(
-			'4' 		=> Array('<b>Of</b>'	,'','??'),
-			'3' 		=> Array('Of'		,'','??'),
-			'2' 		=> Array('rf'		,'','Sconfitta ai rigori in semifinale (4 punti)'),
-			'1' 		=> Array('sf'		,'','Sconfitta ai supplementari in semifinale (2 punti)'),
-			'0'		=> Array('<small>o</small>'		,'','Eliminazione con meno punti - Sconfitta diretta (0 punti)'),
-			'default'	=> Array('.'		,'','')
-			),
-		1 => Array(
-			'4' 		=> Array('<b>Oc</b>'	,'','??'),
-			'3' 		=> Array('Oc'		,'','??'),
-			'2' 		=> Array('rc'		,'','Sconfitta ai rigori in finale (8 punti)'),
-			'1' 		=> Array('sc'		,'','Sconfitta ai supplementari in finale (4 punti)'),
-			'0'		=> Array('<small>o</small>'		,'','Eliminazione con meno punti - Sconfitta diretta (0 punti)'),
-			'default'	=> Array('.'		,'','')
-			),
+		4 => $simbolo_not_ok_shared,
+		3 => $simbolo_not_ok_shared,
+		2 => $simbolo_not_ok_shared,
+		1 => $simbolo_not_ok_shared,
 		);
 	
 	foreach ($list0 as $id)
