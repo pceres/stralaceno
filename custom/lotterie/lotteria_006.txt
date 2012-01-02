@@ -15,7 +15,7 @@
 #	data_presentazione_risultati	: hh:mm gg/mm/aaaa
 #
 [Attributi]
-Sondaggio Europei 2012 - punteggi sperimentali::attiva::no_auth::00:00 10/01/2011::24:00 07/06/2011::00:01 08/06/2012
+Sondaggio Europei 2012 - punteggi sperimentali::attiva::no_auth::00:00 15/01/2012::24:00 07/06/2012::00:01 08/06/2012
 
 #
 # msg1::msg2::msg3
@@ -24,7 +24,7 @@ Sondaggio Europei 2012 - punteggi sperimentali::attiva::no_auth::00:00 10/01/201
 #	msg3: visualizzato dopo la chiusura delle giocate
 #
 [msg_date]
-Il sondaggio non &egrave; ancora aperto. Potrai giocare dalle 00:00 del 10/01::Si pu&ograve; giocare fino alle 24:00 del 07/06::Le giocate sono chiuse, la classifica sar&agrave; aggiornata dopo la disputa di ogni turno (ottavi, quarti, semifinali e finale).
+Il sondaggio non &egrave; ancora aperto. Potrai giocare dalle 00:00 del 15/01::Si pu&ograve; giocare fino alle 24:00 del 07/06::Le giocate sono chiuse, la classifica sar&agrave; aggiornata dopo la disputa di ogni turno (ottavi, quarti, semifinali e finale).
 
 # Formato riga [keyfiles]:
 # nome::caption::num_keys
@@ -144,7 +144,7 @@ caposelese_doc::free_string::::ripetibile
 1::punteggi_specifici::1&deg;) Punteggi
 2::eliminatorie::2&deg;) Risposte esatte per eliminatorie::4::0,1,2,3,4,5,6,7,8,9,10,11,12,13,14
 3::esatte_per_gruppi::3&deg;) Risposte esatte per gruppi::4,4,4,4,4,4,4,4,3,3,3,3,2,2,1::posizione::4,4,4,4,4,4,4,4,3,3,3,3,2,2,1
-4::data_giocata::4&deg;) Data giocata::12:00 ??/??/????::00:00 10/01/2012::24:00 07/06/2012
+4::data_giocata::4&deg;) Data giocata::12:00 ??/??/????::00:00 15/01/2012::24:00 07/06/2012
 
 
 [Gruppo qualificati quarti]
