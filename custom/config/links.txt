@@ -7,7 +7,7 @@
 #
 
 http://pceres.altervista.org/stralaceno/index.php::<b>StralacenoWeb</b>
-http://www.siamonoi.it::Siamonoi.it
+#http://www.siamonoi.it::Siamonoi.it
 http://selacapo.net::SelaCapo.net
 http://www.caposeleonline.it::Caposeleonline
 #http://liceonline.altervista.org/::Liceo di Caposele
@@ -17,4 +17,3 @@ http://www.fidal.it/::Fidal
 http://www.fidalcampania.com::Fidal Campania
 http://www.fidalsalerno.it:: Fidal Salerno
 http://www.polisportivacalabritto.it:: Polisportiva Calabritto
-

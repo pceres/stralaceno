@@ -70,7 +70,7 @@ Links::
 organizzatori::Atto Costitutivo-Statuto ARS::modulo_custom::::
 # :: ::separatore::::
 presentazione::La Stralaceno::modulo_custom::::
-lettere_sito::Le vostre lettere::modulo_custom::::
+#lettere_sito::Le vostre lettere::modulo_custom::::
 
 [Last_contents]
 4
@@ -81,4 +81,3 @@ siti_amici::Siti podistici::external_link::custom/moduli/siti_amici/siti_amici.p
 
 [Links]
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Links] non prevede sottoelementi
-

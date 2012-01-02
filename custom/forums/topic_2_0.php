@@ -153,6 +153,8 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 139::CorriereIrpinia.it::22/12/2011 11.16.01::visible
 140::CorriereIrpinia.it::23/12/2011 10.11.09::visible
 141::CorriereIrpinia.it::25/12/2011 20.03.44::visible
+142::CorriereIrpinia.it::27/12/2011 17.17.48::visible
+143::CorriereIrpinia.it::30/12/2011 11.26.20::visible
 
 [post_text_0]
 In questo spazio saranno inseriti articoli apparsi sul web relativi ad eventi, persone, fatti avvenuti a Caposele.
@@ -2224,3 +2226,28 @@ Dopo l’esponente nazionale del Pd hanno preso la parole i consiglieri regionali 
 «Non possiamo parlare – spiega D’Amelio – di forestazione se ancora, dopo Amendolara, non è stata data la delega. Non abbiamo interlocutori. A noi interessa una legge che metta regole rispetto alla forestazione alle zone montane, ai lavoratori ed alle zone interne. Una legge a determinate condizioni: la forestazione non va privatizzata e i forestali devono essere una risorsa».
 &nbsp;
 &nbsp;
+
+[post_text_142]
+Caposele - Si presenta la ricerca sul post-sisma di Teresa Caruso
+&nbsp;
+“Un popolo da ricostruire. A trent’anni dal terremoto, fiducia e mutamenti sociali in una comunità irpina” è il titolo della ricerca che Teresa Caruso ha condotto nel 2011 per l’Osservatorio Permanente sul Doposisma e che sarà presentata a Caposele il 28 dicembre alle 18 presso la sala polifunzionale in piazza XXIII novembre.
+Da antropologa, Teresa Caruso ha cercato di interpretare i cambiamenti sociali seguiti al terremoto: come la ricostruzione abbia inciso nel tessuto sociale del paese e quanto un disastro possa cambiare la vita delle persone e il loro modo di vivere la comunità. Per farlo ha vissuto sette mesi a Caposele, raccolto circa 360 questionari, si è confrontata con le famiglie caposelesi, con le associazioni, l’amministrazione locale e con i cittadini.
+&nbsp;
+I risultati della ricerca sono stati poi inseriti nel rapporto 2011 dell’Osservatorio, intitolato “La fabbrica del terremoto. Come i soldi affamano il Sud”, che contiene anche uno studio sugli effetti macroeconomici delle catastrofi internazionali e italiane, curato da Lucia Lorenzoni e Nicola Zambli dell’Area Ricerche del Monte dei Paschi di Siena, un’intervista a Gianfranco Viesti, economista e direttore della Fiera del Levante, e un quadro della situazione delle aree industriali campane e lucane create dopo il sisma del 1980 a cura di Pietro Simonetti e Stefano Ventura. Dalla ricerca di Teresa Caruso e dagli altri contributi emergono diversi spunti di riflessione e di analisi sulla condizione economica e antropologica delle comunità irpine, e le pagine della ricerca aprono anche a possibili vie d’uscita dalla situazione di forte disagio che le zone interne del Meridione vivono.
+&nbsp;
+L’Osservatorio Permanente sul Doposisma, diretto da Antonello Caporale, è parte integrante della Fondazione MIdA, con sede a Pertosa e Auletta (Salerno), e ha come missione quella di promuovere non solo ricerca, ma anche dibattito e momenti di confronto sulla memoria e sul futuro dei luoghi e delle comunità. Il momento di confronto è nato per iniziativa del Comune di Caposele, del periodico “La Sorgente” e della locale Pro Loco. Interverranno, dopo i saluti del sindaco Pasquale Farina, Francescantonio D’Orilia (presidente della Fondazione Mida), Salvatore Conforti (La Sorgente), Raffaele Russomanno (Presidente Pro Loco), Gerardo Ceres (sindacalista), Cesara Alagia (Anpas Campania) e Stefano Ventura (Osservatorio sul Doposisma). Modererà l’incontro Manuela Cavalieri (giornalista).
+&nbsp;
+
+[post_text_143]
+Caposele, Caruso: «Bisogna ricostruire il tessuto sociale della comunità»
+&nbsp;
+"Un popolo da ricostruire. A trent’anni dal terremoto, fiducia e mutamenti sociali in una comunità irpina” è il titolo della ricerca che Teresa Caruso ha condotto nel 2011 per l’Osservatorio Permanente sul Doposisma e che è stata presentata a Caposele, nel pomeriggio di ieri, presso la sala polifunzionale in piazza XXIII novembre.
+Il tutto è nato per iniziativa del Comune di Caposele, del periodico “La Sorgente” e della locale Pro Loco. Sono intervenuti, dopo i saluti del sindaco Pasquale Farina, Francescantonio D’Orilia (presidente della Fondazione Mida), Salvatore Conforti (La Sorgente), Raffaele Russomanno (Presidente Pro Loco), Gerardo Ceres (sindacalista), Cesara Alagia (Anpas Campania) e Stefano Ventura (Osservatorio sul Doposisma). Modererà l’incontro Manuela Cavalieri (giornalista).
+&nbsp;
+Ad intervenire è Stefano Ventura.
+«E’ difficile fare analisi e ricerca anche su argomenti importanti come è quello del terremoto che dovrebbe essere sentito in modo serio ed approfondito. I Comuni sono in difficoltà, ma potrebbero avere, con un’attenzione più forte, dei dati importanti che potrebbero portare ad un miglioramento del lavoro e della vita stessa delle comunità. Secondo il mio punto di vista - continua l’esponente dell’osservatorio sul doposisma - si dovrebbe uscire dai confini territoriali dell’Alta Irpinia e guardare a tutte le zone interne del meridione per provare a dare una prospettiva migliore e trovare soluzioni serie e concrete soprattutto per il problema dello spopolamento. Proprio a questo mirano le proposte fatte nella nostra ricerca. Con l’augurio e la speranza - conclude Ventura - che la politica non sia sorda a queste problematiche come lo è stata fino ad oggi».
+&nbsp;
+A parlare anche l’autrice del libro-ricerca Teresa Caruso.
+«La mia ricerca - spiega - ha visto molti mesi di lavoro. Ho scelto Caposele per il tipo di ricostruzione che qui è stata fatta. Ho lavorato proprio su questo e sul concetto di fiducia che ha la popolazione. Il mio lavoro è stato fatto di mesi di interviste e di questionari dati e compilati dalla popolazione. E’ chiaro che abbiamo lavorato anche sul mondo dell’associazionismo e quello della politica. Purtroppo il dato emerso non è entusiasmante perchè non ho potuto fare altro che constatare una grande sfiducia della comunità nella politica, nelle istituzioni e per il futuro. Quello che necessita è una ricostruzione radicale e morale della comunità. Fino ad oggi si è pensato soltanto a quella materiale».
+&nbsp;
+Tanti sono stati, inoltre, gli interventi al convegno che ha visto la partecipazione di tanti cittadini e di tanti esponenti del mondo dell’associazionismo.
