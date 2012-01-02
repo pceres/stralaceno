@@ -362,17 +362,17 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 			'default'	=> Array('.'		,'','')
 			),
 		2 => Array(
-			'8' 		=> Array('VF'		,'','Vittoria diretta in semifinale (8 punti)'),
-			'6' 		=> Array('SF'		,'','Vittoria ai supplementari in semifinale (6 punti)'),
-			'4' 		=> Array('RF'		,'','Vittoria ai rigori in semifinale (4 punti)'),
-			'2' 		=> Array('+F'		,'','???'),
+			'8' 		=> Array('V<small>F</small>'		,'','Vittoria diretta in semifinale (8 punti)'),
+			'6' 		=> Array('S<small>F</small>'		,'','Vittoria ai supplementari in semifinale (6 punti)'),
+			'4' 		=> Array('R<small>F</small>'		,'','Vittoria ai rigori in semifinale (4 punti)'),
+			'2' 		=> Array('+<small>F</small>'		,'','???'),
 			'default'	=> Array('.'		,'','')
 			),
 		1 => Array(
-			'16' 		=> Array('VC'		,'','Vittoria diretta in finale (16 punti)'),
-			'12' 		=> Array('SC'		,'','Vittoria ai supplementari in finale (12 punti)'),
-			'8' 		=> Array('RC'		,'','Vittoria ai rigori in finale (8 punti)'),
-			'4' 		=> Array('+C'		,'','???'),
+			'16' 		=> Array('V<small>C</small>'		,'','Vittoria diretta in finale (16 punti)'),
+			'12' 		=> Array('S<small>C</small>'		,'','Vittoria ai supplementari in finale (12 punti)'),
+			'8' 		=> Array('R<small>C</small>'		,'','Vittoria ai rigori in finale (8 punti)'),
+			'4' 		=> Array('+<small>C</small>'		,'','???'),
 			'default'	=> Array('.'		,'','')
 			),
 		);
