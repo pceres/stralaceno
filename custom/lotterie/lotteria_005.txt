@@ -15,7 +15,7 @@
 #	data_presentazione_risultati	: hh:mm gg/mm/aaaa
 #
 [Attributi]
-Sondaggio Europei 2012::attiva::no_auth::00:00 15/01/2011::24:00 07/06/2012::00:01 08/06/2012
+Sondaggio Europei 2012::attiva::no_auth::00:00 15/01/2012::24:00 07/06/2012::00:01 08/06/2012
 
 #
 # msg1::msg2::msg3
