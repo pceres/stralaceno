@@ -155,6 +155,8 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 141::CorriereIrpinia.it::25/12/2011 20.03.44::visible
 142::CorriereIrpinia.it::27/12/2011 17.17.48::visible
 143::CorriereIrpinia.it::30/12/2011 11.26.20::visible
+144::CorriereIrpinia.it::03/01/2012 14.58.14::visible
+145::CorriereIrpinia.it::03/01/2012 14.59.35::visible
 
 [post_text_0]
 In questo spazio saranno inseriti articoli apparsi sul web relativi ad eventi, persone, fatti avvenuti a Caposele.
@@ -2251,3 +2253,41 @@ A parlare anche l’autrice del libro-ricerca Teresa Caruso.
 «La mia ricerca - spiega - ha visto molti mesi di lavoro. Ho scelto Caposele per il tipo di ricostruzione che qui è stata fatta. Ho lavorato proprio su questo e sul concetto di fiducia che ha la popolazione. Il mio lavoro è stato fatto di mesi di interviste e di questionari dati e compilati dalla popolazione. E’ chiaro che abbiamo lavorato anche sul mondo dell’associazionismo e quello della politica. Purtroppo il dato emerso non è entusiasmante perchè non ho potuto fare altro che constatare una grande sfiducia della comunità nella politica, nelle istituzioni e per il futuro. Quello che necessita è una ricostruzione radicale e morale della comunità. Fino ad oggi si è pensato soltanto a quella materiale».
 &nbsp;
 Tanti sono stati, inoltre, gli interventi al convegno che ha visto la partecipazione di tanti cittadini e di tanti esponenti del mondo dell’associazionismo.
+
+[post_text_144]
+Caposele, Conforti: «Soddisfazione per l’arrivo della linea Adsl in paese»
+&nbsp;
+&nbsp;
+Arriva l’Adsl a Caposele, ad annunciarlo con grande gioia e soddisfazione, è l’assessore Salvatore Conforti delegato all’urbanistica ed al patrimonio.
+&nbsp;
+«L’arrivo della linea Adsl a Caposele - dice - è per noi un grande risultato che abbiamo perseguito con forza e tenacia con il sindaco e tutta la nostra maggioranza. Siamo soddisfatti perché era un’esigenza forte della nostra popolazione e siamo riusciti a dare risposte veloci e concrete. La storia dell’Adsl parte da lontano: Caposele, come tutti i paesi limitrofi era sprovvista della rete e c’erano grosse difficoltà dei cittadini alla connessione che oggi può essere vista come una cosa essenziale. All’inizio abbiamo risolto parzialmente il problema con il montaggio di un segnale Wi-Fi che copriva tutto il territorio. La situazione, però, era precaria ed appena nei paesi limitrofi è arrivata l’Adsl nei paesi limitrofi, sempre tramite un segnale Wi Fi, abbiamo portato la linea a Caposele poichè nel nostro paese non c’era una cabina digitale necessaria proprio per l’Adsl.
+A questo punto è partita la lunga battaglia con la Telecom che non voleva assolutamente montare la cabina. La nostra amministrazione, anche per il tramite di forti sollecitazioni dei nostri legali, ha fatto delle forzature legate all’urbanistica del nostro paese ed è riuscita ad avere la cabina digitale che è stata montata e, secondo me, fra qualche settimana potrà fornire il servizio Adsl a Caposele».
+&nbsp;
+L’assessore Salvatore Conforti mette anche l’accento sulla questione della fruizione turistica delle sorgenti e sul progetto che l’amministrazione comunale sta mettendo in campo rispetto a questa situazione.
+«Uno degli argomenti più discussi, in questo momento a Caposele, - dice Conforti - è quello della fruizione turistica delle nostre sorgenti. Proprio in relazione a questo, insieme alla Pro Loco di Caposele ed all’associazione Pro San Gerardo, stiamo mettendo in piedi un progetto che porterà alla formazione di guide turistiche sul territorio cosa che darà certamente qualche possibilità, anche se piccola, di lavoro ai nostri giovani. E’ già pronto un itinerario che comprende i nostri principali attrattori turistici e i giovani, dopo questo corso da guida turistica che inizierà a febbraio, per l’inizio del mese di Maggio saranno in condizioni di essere validi supporti a tutti color che vorranno visitare tutte le più grandi bellezze di Caposele con il Santuario di San Gerardo in testa»
+&nbsp;
+L’esponente della Giunta Farina ricorda anche l’appuntamento con il Presepe Vivete di oggi.
+«Naturalmente - conclude Conforti - nell’augurare buone feste a tutti non posso fare altro che ricordare l’appuntamento con il Presepe Vivente di domani (oggi ndr) che rappresenta il fiore all’occhiello delle manifestazioni organizzate per il periodo natalizio».
+&nbsp;
+
+[post_text_145]
+Comune di Caposele e Aqp: la convenzione, primo passo
+&nbsp;
+Sembra che, da qualche mese, l’argomento di interesse pubblico, che maggiormente appassiona i Caposelesi, sia la stipula della nuova convenzione con l’Acquedotto Pugliese. Indubbiamente, la definizione della transazione intercorrente tra il Comune di Caposele e l’Acquedotto Pugliese, che, probabilmente, è prossima alla conclusione, è un fatto di capitale importanza per tutti i Caposelesi.
+&nbsp;
+Certo, la disponibilità di oltre un milione di euro l’anno potrà costituire un fatto di enorme rilevanza per la Comunità caposelese, perché una tale cifra, anche se non permette la risoluzione di tutti i problemi locali, consentirebbe, quanto meno, di ridurre notevolmente la ristrettezza economica delle casse comunali e di poter attuare, di conseguenza, interventi in settori di vitale importanza per il Paese: dalla scuola all’organizzazione dei servizi alla stessa connessi; dalla creazione di strutture pubbliche all’erogazione di servizi sociali riguardanti l’assistenza, l’igiene e la sanità pubblica; dalla sistemazione della rete stradale urbana e rurale alla creazione di un arredo urbano migliorativo dell’aspetto estetico di Caposele, paese a forte vocazione turistica.
+&nbsp;
+Ma tutto questo, assolutamente, non può costituire il massimo delle aspirazioni della locale popolazione, ovvero il massimo che la stessa può pretendere da chi fruisce della sua acqua e sulla sua acqua ha fondato il proprio sviluppo. A ben altro i Caposelesi possono ed hanno il diritto di aspirare. In questo senso, l’approvazione della nuova convenzione tra il Comune e l’Acquedotto Pugliese deve rappresentare solo e soltanto il primo passo.
+&nbsp;
+Gli obiettivi da perseguire vanno ben oltre la sua firma. In primis, l’interlocutore privilegiato del Comune non può e non deve più essere l’Acquedotto Pugliese, bensì la Regione Puglia, in quanto l’AQP, oggi, altro non è che un ente di emanazione regionale. Probabilmente i Caposelesi sono tuttora condizionati dalla rappresentazione di potenza che loro stessi hanno attribuito all’Ente Autonomo Acquedotto Pugliese (oggi AQP SpA) in circa cento anni di convivenza quasi sempre conflittuale. Oggi, non è più così. Oggi, la loro controparte si chiama Regione Puglia e non più Acquedotto Pugliese. Un breve excursus storico consente di capire meglio i termini della questione. Con Legge n. 245 del 26 giugno 1902 fu istituito l’EAAP (Ente Autonomo Acquedotto Pugliese) con il compito di provvedere alla costruzione, manutenzione ed esercizio perpetuo dell’acquedotto, cui, in seguito, furono aggiunte altre mansioni, come la sistemazione e manutenzione delle opere di rimboschimento del bacino del Sele. Passa poco meno di un secolo, durante il quale l’EAAP si è ben guardato dal programmare ed eseguire le suddette opere di rimboschimento per la protezione delle sorgenti e del territorio circostante, e cambia la sua natura giuridica.
+&nbsp;
+Il Decreto Legislativo n. 141 dell’11 maggio 1999, Presidente del Consiglio Massimo D’Alema, ha trasformato, infatti, l’EAAP in una società per azioni, che ha assunto il nome “AQP SpA”.
+Il capitale azionario è stato, in un primo tempo, assegnato al Ministero del Tesoro, del Bilancio e della Programmazione economica, che nel 2002, Presidente del Consiglio Silvio Berlusconi, l’ha trasferito per l’87% alla Regione Puglia e per il 13% alla Regione Basilicata. Il Comune di Caposele che pur poteva, com’era giusto, essere destinatario di un pacchetto di titoli azionari, è stato, viceversa, ignorato ed escluso dalla partecipazione agli utili, conseguenti al possesso delle predette quote azionarie.
+Si comprende facilmente come una tale attribuzione di capitali avrebbe, di sicuro, costituito una svolta epocale per Caposele, grazie agli introiti che il Comune avrebbe potuto realizzare. Altro che convenzione! Ma così non è stato. Il tutto è avvenuto nella totale indifferenza degli Amministratori Comunali e Provinciali del tempo e, cosa ancor più grave per le competenze che ha in materia, della Regione Campania. Tuttavia, non tutto sembra che sia perduto, perché secondo il parere di eminenti giuristi, il Comune può ancora riprendere la questione, adottando i provvedimenti che il caso richiede.
+&nbsp;
+Ed allora, ben venga la firma della convenzione con l’AQP, anzi auguriamoci che la stessa si chiuda al più presto, ma con l’impegno del Sindaco e dei Consiglieri Comunali, di guardare oltre questo traguardo, di andare oltre questa tappa, anche se di per sé importante per l’economia locale. Le probabilità di successo dipenderanno anche dalla caparbietà dei Caposelesi di saper tutelare i loro comuni interessi. In tal senso, la riforma del Titolo V della Costituzione, approvata con Legge Costituzionale n°3/2001, che ha posto il Comune, e non la Regione o la Provincia, al primo posto nell’ordine degli enti tra i quali si distribuiscono i poteri, potrebbe costituire la base di partenza per una decisa e forte rivendicazione, nei riguardi della Regione Puglia, di diritti fin qui totalmente ignorati.
+&nbsp;
+D’altro canto, la stessa Regione Puglia non può più continuare a disattendere le legittime ed ormai secolari attese di una popolazione privata di una sua insostituibile e vivificante risorsa che la natura le aveva offerto.
+&nbsp;
+Michele Ceres
+&nbsp;

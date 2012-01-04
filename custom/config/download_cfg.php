@@ -31,13 +31,13 @@ folder::folder_Moduli::Moduli::Moduli di iscrizione ed altri documenti pubblici:
 folder::folder_Rendiconti::Rendiconti e relazioni::Rendiconti economici ufficiali dell'associazione::Rendiconti::::admin::22:07 04/07/2007::384
 folder::folder_Sezione_soci::Sezione soci::Riservata ai membri dell'associazione "Amatori Running Sele"::Sezione soci::soci_ars::admin::22:07 04/07/2007::139
 folder::folder_Stralaceno::Stralaceno::Gara podistica Stralaceno::Stralaceno::::admin::23:46 21/10/2007::207
-folder::folder_mia_cartella::Gare podistiche::I risultati della gare podistiche alle quali ha preso parte l'ARS::Gare 2008::::admin::15:02 14/03/2008::635
+folder::folder_mia_cartella::Gare podistiche::I risultati della gare podistiche alle quali ha preso parte l'ARS::Gare 2008::::admin::15:02 14/03/2008::636
 
 [folder_Atto_costitutivo_statuto_verbali]
 file::file_atto_costitutivo_con_firme::Atto Costitutivo e Statuto ARS con firme::Documento originale scannerizzato::Atto Costit. Statuto ARS con firme.pdf::::admin::22:07 04/07/2007::203
 file::file_atto::Atto Costitutivo e Statuto in formato digitale::Atto costitutivo e statuto dell'associazione::Atto.pdf::::admin::14:39 18/03/2008::207
 file::file_regolamento_elettorale::Regolamento elettorale::Atto che regolamenta le elezioni per il rinnovo delle cariche di governo dell'associazione::Regolamento elettorale ARS.pdf::::admin::23:59 07/01/2008::255
-file::file_assemblea_08::Verbale Assemblea Soci del 22.04.2008::Rinnovo Consiglio Direttivo::Verbale Ass. Ord. approv. Rendiconto 2007 con firme.pdf::::admin::10:32 14/05/2008::198
+file::file_assemblea_08::Verbale Assemblea Soci del 22.04.2008::Rinnovo Consiglio Direttivo::Verbale Ass. Ord. approv. Rendiconto 2007 con firme.pdf::::admin::10:32 14/05/2008::199
 file::file_direttivo_08::Verbale Consiglio Direttivo del 22.04.2008::Cariche nuovo Consiglio Direttivo::Verbale elez. Direttivo 2008 con firme.pdf::::admin::10:33 14/05/2008::200
 file::file_ass_praticante::Verbale C. D. istituzione figura dell'Associato Praticante::Integrazione categorie di soci: Associato Praticante::Verbale Cons. Dir. istituz. associato praticante.pdf::::admin::10:38 14/05/2008::212
 
@@ -58,7 +58,7 @@ file::file_rendiconto_e_relazione_ARS_2006::Rendiconto e Relazione ARS anno 2006
 file::file_rendiconto_e_relazione_ARS_2007::Rendiconto e Relazione ARS anno 2007::Rendiconto economico finanziario relativo all'esercizio 2007, e breve relazione::Rendiconto e Relazione anno 2007 ARS.pdf::::admin::10:24 08/04/2008::568
 file::file_rendiconto_e_relazione_ARS_anno_2008::Rendiconto e Relazione ARS anno 2008::Rendiconto e Relazione ARS anno 2008 e breve relazione::Rendiconto e Relazione anno 2008 ARS.pdf::::admin::9:23 15/04/2009::232
 file::file_rendiconto_e_relazione_ARS_anno_2009::Rendiconto e Relazione ARS anno 2009::Rendiconto e Relazione ARS anno 2009 e breve relazione::Rendiconto e Relazione anno 2009 ARS.pdf::::admin::15:21 04/04/2010::279
-file::file_rendiconto_e_relazione_ARS_2010::Rendiconto e Relazione ARS anno 2010::Rendiconto e Relazione ARS anno 2010 e breve relazione::Rendiconto e Relazione ARS anno 2010.pdf::::admin::13:33 27/04/2011::132
+file::file_rendiconto_e_relazione_ARS_2010::Rendiconto e Relazione ARS anno 2010::Rendiconto e Relazione ARS anno 2010 e breve relazione::Rendiconto e Relazione ARS anno 2010.pdf::::admin::13:33 27/04/2011::133
 
 [folder_Sezione_soci]
 folder::folder_richiesta_finanziamento_regione_2006::Richiesta di finanziamento alla regione Campania (2006)::Documentazione relativa alla richiesta di finanziamento alla regione Campania nel 2006::richiesta finanziamento regione::soci_ars::admin::22:07 04/07/2007::6
@@ -75,8 +75,8 @@ link::link_logo_ars::Logo ARS::Logo ufficiale dell'associazione "Amatori Running
 folder::folder_FC_caposele::Sezione F.C. Caposele::Documenti vari relativi all'F.C. Caposele::FC_caposele::::admin::23:07 03/12/2007::218
 
 [folder_FC_caposele]
-file::file_regolamento_interno_FC_caposele_07_08_doc::Regolamento interno 2007/08 (doc)::Regolamento interno dell'F.C. Caposele, anno 2007/08 (in formato .doc)::Regolamento Int. FC Cap. 07.08.doc::::admin::23:07 03/12/2007::1375
-file::file_regolamento_interno_FC_caposele_07_08_pdf::Regolamento interno 2007/08 (pdf)::Regolamento interno dell'F.C. Caposele, anno 2007/08 (in formato .pdf)::Regolamento Int. FC Cap. 07.08.pdf::::admin::23:07 03/12/2007::221
+file::file_regolamento_interno_FC_caposele_07_08_doc::Regolamento interno 2007/08 (doc)::Regolamento interno dell'F.C. Caposele, anno 2007/08 (in formato .doc)::Regolamento Int. FC Cap. 07.08.doc::::admin::23:07 03/12/2007::1376
+file::file_regolamento_interno_FC_caposele_07_08_pdf::Regolamento interno 2007/08 (pdf)::Regolamento interno dell'F.C. Caposele, anno 2007/08 (in formato .pdf)::Regolamento Int. FC Cap. 07.08.pdf::::admin::23:07 03/12/2007::222
 
 [folder_mia_cartella]
 file::file_mio_file::Tempi atleti ARS::Tabella con tutti i tempi degli atleti ARS::Risultati gare podistiche.xls::::admin::19:04 30/10/2011::244
