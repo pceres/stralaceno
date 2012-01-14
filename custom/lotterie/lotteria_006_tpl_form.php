@@ -784,7 +784,8 @@ if (!empty($messaggio_stato_sondaggio)) {
   <td class=xl34>nome</td>
   <td class=xl34>cognome</td>
   <td class=xl34>nato/a il</td>
-  <td class=xl34>comune di origine</td>
+  <!--td class=xl34>comune di origine</td-->
+  <td class=xl34>di <small><small>(residenza o comunit&agrave; di appartenenza)</small></small></td>
 </tr>
 
 <tr style='height:14.25pt' align='left'>
