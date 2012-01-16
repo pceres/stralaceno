@@ -784,7 +784,8 @@ if (!empty($messaggio_stato_sondaggio)) {
   <td class=xl34>nome</td>
   <td class=xl34>cognome</td>
   <td class=xl34>nato/a il</td>
-  <td class=xl34>comune di origine</td>
+  <!--td class=xl34>comune di origine</td-->
+  <td class=xl34>di <small><small>(residenza o comunit&agrave; di appartenenza)</small></small></td>
 </tr>
 
 <tr style='height:14.25pt' align='left'>
@@ -1316,10 +1317,10 @@ else
 		</TR>
 		<TR>
 			<TD COLSPAN=4 HEIGHT=20 ALIGN=LEFT><FONT SIZE=1>Il presente Studio/Sondaggio &egrave; proposto dall'ARS (Amatori Running Sele) a puro scopo ricreativo e di approfondimento.</FONT></TD>
-			</TR>
-		<TR>
+		</TR>
+		<!--TR>
 			<TD COLSPAN=4 HEIGHT=20 ALIGN=LEFT><FONT SIZE=1>Esso ovviamente non &egrave; esente da costi di gestione (<I>che quindi vanno a cumularsi con gli altri costi relativi all'attivit&agrave; dell'Associazione&hellip;</I>)</FONT></TD>
-			</TR>
+		</TR-->
 	</TBODY>
 </TABLE>
 

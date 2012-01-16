@@ -1317,10 +1317,10 @@ else
 		</TR>
 		<TR>
 			<TD COLSPAN=4 HEIGHT=20 ALIGN=LEFT><FONT SIZE=1>Il presente Studio/Sondaggio &egrave; proposto dall'ARS (Amatori Running Sele) a puro scopo ricreativo e di approfondimento.</FONT></TD>
-			</TR>
-		<TR>
+		</TR>
+		<!--TR>
 			<TD COLSPAN=4 HEIGHT=20 ALIGN=LEFT><FONT SIZE=1>Esso ovviamente non &egrave; esente da costi di gestione (<I>che quindi vanno a cumularsi con gli altri costi relativi all'attivit&agrave; dell'Associazione&hellip;</I>)</FONT></TD>
-			</TR>
+		</TR-->
 	</TBODY>
 </TABLE>
 
