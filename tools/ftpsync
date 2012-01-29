@@ -1,37 +1,197 @@
 #!/bin/bash
 
+###########################################################################################
+# Upload local folder to ftp remote folder via lftp (iterate on root folder and all first level subfolders)
+# This management is required to allow local file deletion for subfolders, avoiding removal of first level
+# folders missing from remote ftp folder (eg. .git , whose removal would destroy all repository!!!)
+ftpsync_upload()
+{
+	ftpserver=$1 		# ftp server
+	ftpusername=$2		# ftp username
+	ftppassword=$3		# ftp user password
+	ftpfolder=$4		# ftp remote folder
+	localfolder=$5		# source local folder to upload
+	
+	
+	list_folder=`find $localfolder -maxdepth 1 -type d`;
+	flgrootfolder=1
+	for localsubfolder in $list_folder
+	do
+		ftpsync_upload_folder $ftpserver $ftpusername $ftppassword $ftpfolder $localfolder $localsubfolder $flgrootfolder
+		flgrootfolder=0 	# only first one is the root folder
+	done
+}
+
+
+
+###########################################################################################
+# upload ftp remote folder to local folder via lftp
+ftpsync_upload_folder()
+{
+	ftpserver=$1 		# ftp server
+	ftpusername=$2		# ftp username
+	ftppassword=$3		# ftp user password
+	ftpfolder=$4		# ftp remote folder to download
+	localfolder=$5		# destination local folder
+	localsubfolder=$6	# subfolder
+	flgrootfolder=$7	# flag indicating that $localfolder is the root folder
+	
+	# check if the subfolder has to be skipped
+	flg_blacklisted=0;
+	for blackfolder in "/\.git" "/\.otherhiddenfolder"
+	do
+		counter=`echo $localsubfolder | grep $blackfolder | wc | gawk '{print $1}'`
+		if [ \( $counter -gt 0 \) ]
+		then
+			flg_blacklisted=1;
+			echo " "
+			echo "Folder $localsubfolder is blacklisted: it will be skipped!"
+		fi
+	done
+	
+	if [ \( $flg_blacklisted -eq 0 \) ]
+	then
+		localsubfoldershortname=${localsubfolder:${#localfolder}}
+		ftpsubfolder=$ftpfolder$localsubfoldershortname
+		
+		msg="Uploading folder $localsubfolder (root folder is $localfolder)"
+		if [ \( $flgrootfolder -gt 0 \) ]
+		then
+			# root folder
+			msg="$msg (root folder: additional local files won't be removed)"
+			echo " "
+			echo $msg
+			
+			# lftp mirror parameters:
+			# -c,    --continue                continue a mirror job if possible
+			# -r,    --no-recursion            don't go to subdirectories
+			# -R,    --reverse                 reverse mirror (put files)
+			lftp -e "open && mirror -c -r -R $localfolder $ftpfolder && exit" -u $ftpusername,$ftppassword $ftpserver
+		else
+			# subfolder
+			echo " "
+			echo $msg
+			
+			# lftp mirror parameters:
+			# -c,    --continue                continue a mirror job if possible
+			# -e,    --delete                  delete files not present at remote site
+			# -R,    --reverse                 reverse mirror (put files)
+			lftp -e "open && mirror -c -e -R $localsubfolder/ $ftpsubfolder/ && exit" -u $ftpusername,$ftppassword $ftpserver
+		fi
+	fi
+}
+
+
+
+###########################################################################################
+# Download ftp remote folder to local folder via lftp (iterate on root folder and all first level subfolders)
+# This management is required to allow local file deletion for subfolders, avoiding removal of first level
+# folders missing from remote ftp folder (eg. .git , whose removal would destroy all repository!!!)
+ftpsync_download()
+{
+	ftpserver=$1 		# ftp server
+	ftpusername=$2		# ftp username
+	ftppassword=$3		# ftp user password
+	ftpfolder=$4		# ftp remote folder to download
+	localfolder=$5		# destination local folder
+	
+	list_folder=`find $localfolder -maxdepth 1 -type d`;
+	flgrootfolder=1
+	for localsubfolder in $list_folder
+	do
+		ftpsync_download_folder $ftpserver $ftpusername $ftppassword $ftpfolder $localfolder $localsubfolder $flgrootfolder
+		flgrootfolder=0 	# only first one is the root folder
+	done
+}
+
+
+
+###########################################################################################
+# download ftp remote folder to local folder via lftp
+ftpsync_download_folder()
+{
+	ftpserver=$1 		# ftp server
+	ftpusername=$2		# ftp username
+	ftppassword=$3		# ftp user password
+	ftpfolder=$4		# ftp remote folder to download
+	localfolder=$5		# destination local folder
+	localsubfolder=$6	# subfolder
+	flgrootfolder=$7	# flag indicating that $localfolder is the root folder
+	
+	
+	localsubfoldershortname=${localsubfolder:${#localfolder}}
+	ftpsubfolder=$ftpfolder$localsubfoldershortname
+	
+	msg="Downloading folder $localsubfolder (root folder is $localfolder)"
+	if [ \( $flgrootfolder -gt 0 \) ]
+	then
+		# root folder
+		msg="$msg (root folder: additional local files won't be removed)"
+		echo " "
+		echo $msg
+		
+		# lftp mirror parameters:
+		# -c,    --continue                continue a mirror job if possible
+		# -r,    --no-recursion            don't go to subdirectories
+		lftp -e "open && mirror -c -r $ftpfolder $localfolder && exit" -u $ftpusername,$ftppassword $ftpserver
+	else
+		# subfolder
+		echo " "
+		echo $msg
+		
+		# lftp mirror parameters:
+		# -c,    --continue                continue a mirror job if possible
+		# -e,    --delete                  delete files not present at remote site
+		lftp -e "open && mirror -c -e $ftpsubfolder/ $localsubfolder/ && exit" -u $ftpusername,$ftppassword $ftpserver
+	fi
+}
+
+
+
+###########################################################################################
+# main program
+
 #
 # show usage if no params in input
 #
 if [ ! $# == 5 ]; then
-  echo "Usage:"
-  echo "$0 <options> <ftpserver> <ftpusername> <ftpfolder> <localfolder>"
-  echo " "
-  echo "<options>:"
-  echo " -d : sync in download"
-  echo " -u : sync in upload"
-  echo " "
-  echo " "
-  echo "Es.:"
-  echo " "
-  echo "ftpsync -d ars.altervista.org ars /custom/ ./../custom/"
-  echo " "
-  echo "ftpsync -u ars.altervista.org ars /custom/dati/ ./../custom/dati/"
-  echo " "
-  
+
+  # show help message
+  cat <<END
+Usage:
+$0 <options> <ftpserver> <ftpusername> <ftpfolder> <localfolder>
+
+<options>:
+ -d : sync in download
+ -u : sync in upload
+
+
+Es.:
+
+ftpsync -d ars.altervista.org ars /custom/ ./../custom/
+
+ftpsync -u ars.altervista.org ars /custom/dati/ ./../custom/dati/
+
+END
   exit
 fi
 
+# read input parameters
 action=$1
 ftpserver=$2
 ftpusername=$3
 ftpfolder=$4
 localfolder=$5
 
+echo "Enter password for user $ftpusername on ftp server $ftpserver: "
+read ftppassword
+
 if [ $action == "-u" ]; then
   # upload
-  lftp -e "open && mirror -c -e -R $localfolder $ftpfolder && exit" -u $ftpusername $ftpserver
+  ftpsync_upload $ftpserver $ftpusername $ftppassword $ftpfolder $localfolder
+  # lftp -e "open && mirror -c -e -R $localfolder $ftpfolder && exit" -u $ftpusername $ftpserver
 else
   # download
-  lftp -e "open && mirror -c -e $ftpfolder $localfolder && exit" -u $ftpusername $ftpserver
+  ftpsync_download $ftpserver $ftpusername $ftppassword $ftpfolder $localfolder
+  # lftp -e "open && mirror -c -e $ftpfolder $localfolder && exit" -u $ftpusername $ftpserver
 fi
