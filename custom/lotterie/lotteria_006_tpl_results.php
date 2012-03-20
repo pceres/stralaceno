@@ -647,7 +647,10 @@ if (count($elenco_simboli_usati)>1)
 <?php
 if ($flag_nascondi_pronostici)
 {
-	echo("(a partire dal $lotteria_fine_giocate)");
+	$ind_space = strpos($lotteria_fine_giocate," ");
+	$lotteria_fine_giocate_ore = substr($lotteria_fine_giocate,0,$ind_space);
+	$lotteria_fine_giocate_data = substr($lotteria_fine_giocate,$ind_space);
+	echo("(a partire dalle ore $lotteria_fine_giocate_ore del $lotteria_fine_giocate_data)");
 }
 ?>
 </div>
