@@ -14,5 +14,5 @@ Formato [elenco_topics]:
 	<topic_last_post>	: id dell'ultimo post
 
 [elenco_topics]
-0::News su Caposele::open::::soci_ars::Ars::146::145
+0::News su Caposele::open::::soci_ars::Ars::173::172
 1::1::open::soci_ars::::1::1::0

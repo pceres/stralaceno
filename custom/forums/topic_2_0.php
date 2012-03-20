@@ -157,6 +157,33 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 143::CorriereIrpinia.it::30/12/2011 11.26.20::visible
 144::CorriereIrpinia.it::03/01/2012 14.58.14::visible
 145::CorriereIrpinia.it::03/01/2012 14.59.35::visible
+146::CorriereIrpinia.it::11/01/2012 21.21.33::visible
+147::CorriereIrpinia.it::11/01/2012 21.25.00::visible
+148::CorriereIrpinia.it::17/01/2012 10.44.38::visible
+149::CorriereIrpinia.it::23/01/2012 13.25.25::visible
+150::CorriereIrpinia.it::24/01/2012 17.16.29::visible
+151::CorriereIrpinia.it::02/02/2012 13.08.38::visible
+152::CorriereIrpinia.it::13/02/2012 13.12.13::visible
+153::CorriereIrpinia.it::17/02/2012 16.12.39::visible
+154::CorriereIrpinia.it::18/02/2012 14.23.33::visible
+155::CorriereIrpinia.it::20/02/2012 14.46.05::visible
+156::CorriereIrpinia.it::21/02/2012 10.57.14::visible
+157::CorriereIrpinia.it::21/02/2012 17.06.57::visible
+158::CorriereIrpinia.it::22/02/2012 12.26.37::visible
+159::CorriereIrpinia.it::22/02/2012 12.49.14::visible
+160::CorrireIrpinia.it::24/02/2012 16.09.01::visible
+161::CorriereIrpinia.it::27/02/2012 11.50.51::visible
+162::CorriereIrpinia.it::28/02/2012 13.23.11::visible
+163::Ottopagine.it::28/02/2012 16.04.55::visible
+164::CorriereIrpinia.it::29/02/2012 13.27.22::visible
+165::CorriereIrpinia.it::01/03/2012 16.47.52::visible
+166::CorriereIrpinia.it::05/03/2012 12.52.04::visible
+167::CorriereIrpinia.it::07/03/2012 10.46.27::visible
+168::CorriereIrpinia.it::08/03/2012 17.03.01::visible
+169::Irpinianews.it::08/03/2012 17.11.59::visible
+170::CorriereIrpinia.it::10/03/2012 11.18.50::visible
+171::CorriereIrpinia.it::18/03/2012 14.54.25::visible
+172::CorriereIrpinia.it::20/03/2012 14.20.30::visible
 
 [post_text_0]
 In questo spazio saranno inseriti articoli apparsi sul web relativi ad eventi, persone, fatti avvenuti a Caposele.
@@ -2290,4 +2317,440 @@ Ed allora, ben venga la firma della convenzione con l’AQP, anzi auguriamoci che 
 D’altro canto, la stessa Regione Puglia non può più continuare a disattendere le legittime ed ormai secolari attese di una popolazione privata di una sua insostituibile e vivificante risorsa che la natura le aveva offerto.
 &nbsp;
 Michele Ceres
+&nbsp;
+
+[post_text_146]
+Scoperti a Scampia con eroina e marijuana: arrestati tre giovani
+&nbsp;
+Trasferta per comprare droga a Scampia, conclusa a Poggioreale. L’epilogo della giornata di approvvigionamento che avevano intenzione di trascorrere tre irpini, tutti originari di Caposele, di età compresa tra i venticinque ed i trent’anni. Per loro i progetti sono sfumati nella zona delle più note case dei puffi. E’ lì che sono incappati in uno dei tanti posti di controllo disposti dal Comando Provinciale dei Carabinieri di Napoli a Scampia.
+&nbsp;
+I militari, notando che provenivano da un’altra provincia ed il loro fare sospetto, hanno deciso di procedere alla perquisizione personale e veicolare. Quella che ha dato purtroppo per i tre, esito positivo. All’interno dell’autovettura con cui i giovani erano giunti a Scampia sono state rinvenute dosi di eroina, kobrett e marijuana.
+&nbsp;
+Una quantità tale da far scattare l’accusa nei loro confronti di detenzione ai fini dello spaccio di sostanze stupefacenti e l’immediato trasferimento presso la casa circondariale di Poggioreale. Per i tre almeno 48 ore di carcere. Anche perchè ieri mattina sono comparsi per l’udienza di convalida del fermo davanti al Gip del Tribunale di Napoli, la dottoressa Paola Russo.
+&nbsp;
+Il magistrato, nonostante il pm di turno presso la Procura di Napoli abbia chiesto la convalida dell’arresto e della detenzione in carcere, ha deciso di convalidare l’arresto effettuato dai militari della Compagnia dei Carabinieri di Secondigliano e di disporre nei confronti dei tre giovani la misura dell’obbligo di dimora e della presentazione quotidiana presso la Pg.
+I tre ragazzi erano assistiti e difesi dai penalisti Alfonso Sturchio e Giuseppe Palmieri, entrambi del foro di Sant’Angelo dei Lombardi.
+&nbsp;
+Ora i giovani dovranno attendere che venga dissequestrata la vettura su cui stavano tentando di fare rientro in Irpinia ed in particolare la decisione del Gup del Tribunale di Napoli rispetto alle richieste di conclusione delle indagini preliminari nelle prossime settimane.
+&nbsp;
+
+[post_text_147]
+Caposele, Spatola: «Un’amministrazione poco attenta alle esigenze degli esercenti»
+&nbsp;
+Parla il consigliere di opposizione
+&nbsp;
+Le festività natalizie sono ormai alle spalle, ma il dibattito politico a Caposele è sempre molto acceso, pieno di contenuti e di colpi di scena. Ad intervenire, a nome del gruppo consiliare di minoranza è il consigliere Ettore Spatola.
+&nbsp;
+«Una buona amministrazione diligente dovrebbe essere sempre attenta nel trovare soluzioni e risolvere le problematiche del territorio, per l’ennesima volta questo a Caposele non accade. Il sindaco di Caposele ancora una volta stenta a capire l’esigenze dei giovani e delle persone che con coraggio hanno investito nel territorio. Nei mesi scorsi l’amministrazione chiese un incontro con tutti gli esercenti. Ovviamente - continua - dopo questo fumo negli occhi degli esercenti non avvenne nessun altro incontro, nonostante diverse sollecitazioni formalmente protocollate al comune da parte di alcuni gestori di pub-bar nel marzo 2011, il sindaco non ha preso in considerazione nessuna richiesta. Tutto è andato avanti come prima con uno scarso interesse per chi investe».
+&nbsp;
+«Il culmine - spiega Spatola - si è raggiunto in queste feste natalizie, dove non si è neanche voluto allungare l’orario di chiusura per i locali notturni unico ritrovo per i tanti giovani e meno giovani di Caposele. Ciò ha comportato da un lato che chi organizzava delle serate per allietare un pò il paese è stato oggetto di ammende pecuniarie alquanto onerose. Non solo, i locali sono stati costretti a chiudere entro la mezzanotte con il limite di far uscire le persone entro l’una solo chi era già all’interno. In questo modo, di conseguenza, si è provocata l’uscita sfrenata dei ragazzi verso altri comuni. Questo ovviamente oltre a provocare un danno economico per i coraggiosi esercenti ha portato anche persone ad assumersi un rischio».
+&nbsp;
+Il gruppo di minoranza arriva anche a formulare la sua ipotetica proposta per la situazione.
+«E’ chiaro - dice Spatola - che il buon senso sta sempre nel mezzo. E’ vero che dopo un certo orario le persone hanno bisogno di riposo ma è anche vero che un'altra parte della cittadinanza ha altre esigenze. Sarebbe bastato prolungare gli orari di un ora.
+Era chiedere tanto? Non sono richieste impossibili essendo circoscritte a periodi di festa, negli anni scorsi questo avveniva. L’amministrazione - conclude - dovrebbe riflettere su alcune scelte o dobbiamo arrivare al punto che i nostri investitori autonomi vadano ad investire in comuni più elastici. Qualcuno già ha iniziato a scappare verso lidi più assolati. Si dovrebbe essere più attenti e ponderare scelte che cerchino di tutelare tutti. In medio stat virtus».
+&nbsp;
+&nbsp;
+
+[post_text_148]
+Caposele, Conforti: «Puntiamo alla crescita del turismo»
+&nbsp;
+Parla l'assessore comunale
+&nbsp;
+L’azione dell’amministrazione comunale di Caposele è sempre più intenta alla promozione del territorio ed alla creazione di un concreto flusso turistico.
+Ad intervenire è l’assessore Salvatore Conforti.
+&nbsp;
+«Il nostro obiettivo in questo momento è quello di organizzare un vero itinerario turistico per fare in modo che tutti i pellegrini che arrivano a Materdomini, presso il Santuario di San Gerardo per una visita al Santo, possano avere a disposizione anche altre alternative per restare in zona per qualche giorno.  In queste settimane si sta allestendo il museo delle Macchine di Leonardo e quello delle Acque. Inoltre si vorrà fare un percorso che guardi anche alle bellezze naturali, culturali ed ambientali del nostro paese.
+&nbsp;
+Proprio in riferimento a questa situazione - spiega l’assessore Conforti - stiamo organizzando un corso di formazione per preparare i giovani di Caposele per farli diventare veri e propri accompagnatori turistici. L’obiettivo, oltre a quello, naturalmente, della crescita e della formazione culturale dei ragazzi, è quello di dar loro qualche piccola, ma vera e concreta possibilità di lavoro. Il tutto è stato organizzato in collaborazione con la Pro Loco di Caposele, con la Pro Turismo di Materdomini e con la preziosa sinergia di Irpiniaturismo. In altri luoghi - commenta Conforti - lavorano per accrescere il turismo e quindi il flusso di persone. Da noi questo, con quasi un milione di visitatori all’anno, già esiste. Si tratta solo di migliorare la qualità dell’offerta e dei servizi. Proprio in questa visione abbiamo anche intenzione di organizzare una navetta o trenino turistico che parta dalla Piazza del Santuario ed installare proprio qui un Gazebo permanente che sia un vero e proprio ufficio turistico per i tanti pellegrini».
+&nbsp;
+&nbsp;
+
+[post_text_149]
+Referendum a Caposele sulla nuova bozza di accordo con l’Aqp
+&nbsp;
+Una vicenda che va avanti ormai da mesi, quella del rinnovo della convenzione tra l’Acquedotto Pugliese e il Comune di Caposele. Nelle scorse settimane non sono mancati gli attacchi rivolti al sindaco Pasquale Farina da parte dei gruppi consiliari di minoranza.
+&nbsp;
+Nei giorni scorsi è stato depositato in Comune il regolamento per l’indizione del referendum che rimarrà per dieci giorni presso la segreteria. In seguito si dovrà procedere all’approvazione definitiva del regolamento. Di fatto, l’amministrazione comunale pressata dai comitati e da una parte dell’opinione pubblica ha dovuto cedere sul referendum. La maggioranza non ha potuto ignorare la richiesta. Prima vittoria quindi per il comitato Pro Sele promotore del referendum per far decidere alla cittadinanza di Caosele in merito alla nuova convenzione che dovrà essere stipulata tra l’Acquedotto Pugliese e il Comune.
+Da tempo il rinnovo della convenzione è fortemente criticato. Nonostante questo però il sindaco continua a difendere la bozza di accordo
+
+[post_text_150]
+Caposele, l’amministrazione presenta il progetto del nuovo campetto sportivo
+&nbsp;
+L’amministrazione comunale di Caposele con una nota spiega le sue prossime attività in favore dello sport e dei giovani.
+&nbsp;
+«Il Comune di Caposele - recita la nota - ha avviato una serie di iniziative volte a favorire l’aggregazione dei giovani e, in considerazione che lo sport ha sempre riscontrato tantissime adesioni da parte dei ragazzi del paese, l’Amministrazione Comunale ha ritenuto positivo e utile fornire una ulteriore possibilità di infondere passione ed impegno per lo sport, con la consapevolezza che gli impianti sportivi costituiscono un importante struttura di aggregazione e socializzazione per i giovani. L’obiettivo del progetto è la realizzazione di un impianto sportivo polivalente costituito da due campetti da gioco che sono: calcetto, tennis e basket – volley.
+&nbsp;
+Lo scopo di tale impianto è di incrementare ulteriormente le possibilità di svolgere delle attività sportive da parte dei giovani del paese, attraverso la realizzazione di più campetti in maniera da diversificare l’offerta sportiva consentendo di&#8194;&#8194;scegliere fra diverse possibilità. È importante sottolineare che l’impianto sportivo è aperto a tutti e consente anche a chi non può permettersi di praticare sport che necessitano di attrezzature o abbigliamento specifici, ovvero alle categorie più deboli della comunità, di svolgere un’attività sportiva, senza la necessità di dover pagare un abbonamento o di dover acquistare particolari equipaggiamenti. Inoltre, la localizzazione dell’impianto è stata scelta anche in funzione della vicinanza al centro urbano, in maniera che tutti, anche chi non possiede un mezzo per muoversi, possano raggiungere facilmente i campetti. Inoltre, le caratteristiche morfologiche del sito individuato lo rendono facilmente accessibile da parte dei disabili, essendo lo stesso completamente pianeggiante. È rilevante l’importanza del contesto sociale e urbano in cui verrà realizzato l’intervento.&#8194;&#8194;
+&nbsp;
+In un Comune come Caposele, di piccole dimensioni, i giovani hanno poche possibilità di confronto, di svago e di divertimento. La determina di pubblicazione del bando è pubblicata sul sito del Comune. Si presume che tra 4 mesi i giovani di Caposele avranno un'altro centro sportivo a loro disposizione e questa volta all'interno dell'abitato di Caposele. Attraverso questo progetto avverrà conseguentemente anche la riqualificazione di un area già da troppo tempo abbandonata.Un altra tessera del mosaico che si sta completando intorno alla sistemazione di aree che sono anche di accoglienza turistica».
+
+[post_text_151]
+Caposele, la maggioranza sul caso referendum: no a strumentalizzazioni
+&nbsp;
+E’ da un pò di tempo che a Caposele si parla di un referendum rispetto alla questione acqua. Ieri in Consiglio comunale, oltre alla discussione di due surroghe, uno degli argomenti è stato proprio quello del regolamento rispetto ai referendum.
+Chiara e decisa la posizione della maggioranza che spiega le sue ragioni e le sue volontà.
+&nbsp;
+«L’istituto del referendum è sicuramente uno straordinario passo in direzione della democrazia, della partecipazione popolare, verso un’ apertura logica alle decisioni importanti che coinvolgono tante persone.
+Un’occasione più unica che rara, quindi di aprire un dibattito, una serie di confronti, e di raccordare esperienze politiche ed esigenze intorno all’argomento che è l’oggetto della discussione.
+&nbsp;
+La partecipazione del popolo, in sostanza, alla vita politica decisionale di chi è stato eletto a rappresentare gli stessi cittadini. Insomma un desiderio esasperato di grande trasparenza e coinvolgimento che accende gli animi, stimola confronti, dibattiti, speranze. Tutto, esageratamente giusto e straordinariamente condivisibile come principio e filosofia della più trasparente delle democrazie, ma stiamo parlando di Bratislava o della dinastia dittatoriale di Romanov . La nostra realtà, fortunatamente, non è paragonabile nemmeno lontanamente alle vecchie e cupe dittature del vecchio comunismo dell’Est. Caposele, come tutti i Paese italiani, ha le sue regole di democrazia e trasparenza dettati da comportamenti determinati da norme costituzionali ancora oggi all’avanguardia in Europa. Poi quando si tratta di un argomento molto sentito come quello del rinnovo della convenzione con l’A.Q.P. questa Amministrazione comunale ha messo in moto, come mai era successo, una serie di infinite trattative e discussioni, contornate, e disquisite a tutti i livelli istituzionali e sociali, sfiorando, spesso, un eccesso di democrazia che in occasioni similari della nostra storia, c’è stata in piccolissime percentuali. Incontri istituzionali, con partiti, associazioni, gruppi di cittadini e giovani. Incontri con scambi di opinioni con esperti della materia e cittadini che già in passato avevano avuto a che fare con simili occasioni di sviluppo.
+Addirittura un tentativo durato un intero anno di istituzione ad hoc di una commissione consiliare per studiare a fondo il problema. E poi, l’istituzione di un Consulta cittadina che sta per venire alla luce, l’esperimento del C.I.C il centro informativo comunale per mettere al corrente i cittadini e su i canali, anche più moderni, di tutto quello che succede politicamente e socialmente intorno a noi; sono al vaglio della Giunta e della maggioranza altre forme di apertura come l’accoglimento della proposta di una sorta di question time che metterà a confronto diretto i protagonisti della politica con i cittadini. Insomma ci sembra tutt’altro che una chiusura e una mancanza di trasparenza e di democrazia”.
+&nbsp;
+“Alla luce di tutto ciò - spiegano i consiglieri di maggioranza - siamo fermamente convinti, però che il referendum, nonostante lo sforzo economico che si caricherà ulteriormente sui cittadini, possa essere uno strumento aggiunto di progresso e confronto che potrebbe trovare altro piccolo spazio nella già intasata dimensione del confronto cittadino. Certo, è un argomento molto serio e bisognerebbe studiarlo approfonditamente prima di proporlo sic et simpliciter, solo per il mero gusto della solita strumentalizzazione politica sull’argomento della convenzione.
+&nbsp;
+Rispetto alla proposta della minoranza di discussione del regolamento, infatti, molte lacune e dubbi devono essere colmati sia su questioni tecniche che su temi squisitamente politici, per esempio sulla questione finanziaria: quanto costerà ai cittadini?
+Quali argomenti trattare; oppure sulla questione del quorum, della partecipazione, di come studiarlo, chi lo studierà, chi lo approverà; a chi e come rivolgersi per trasmettere chiarezza ai cittadini; e ancora sulla legittimità di un’operazione del genere, se dovesse contenere un carattere extracomunale per alcune tipologie di argomentazioni.
+E allora si rende necessario un ragionamento serio e approfondito, ma soprattutto avulso da qualsiasi tentativo di strumentalizzare la politica a favore di idee bislacche ed inefficaci che, in alcuni momenti storici della nostra comunità possono solamente apportare danni e intorpidire l’acqua, determinando confusione e distacco dalla realtà. La Giunta e la Maggioranza consiliare stanno già lavorando su una bozza di regolamento e se il referendum sa da fare, bisogna che sia studiato, concordato e che, soprattutto, sia un momento di vera democrazia in direzione di una reale crescita della nostra comunità. La democrazia si costruisce insieme».
+&nbsp;
+
+[post_text_152]
+Emergenza neve - Caposele, Farina: «Centro storico ripulito grazie ai volontari»
+&nbsp;
+Anche se con un’altitudine più bassa rispetto agli altri paesi, anche Caposele ha dovuto subire la forza dell’ultima ondata di maltempo. Soddisfatto, però, per come sono andate le cose il sindaco Pasquale Farina.
+&nbsp;
+«Da venerdì, 3 febbraio, ad oggi  abbiamo avuto sul territorio di Caposele precipitazioni nevose che hanno raggiunto i 120 centimetri di altezza. L’emergenza, dunque, c’è stata, su questo siamo tutti d’accordo, ma non ci ha trovati impreparati.
+&nbsp;
+Avevamo già da tempo, infatti, redatto un Piano Neve che ci ha consentito di avere sin da subito sale a disposizione, nei quantitativi di 120 quintali, 100 utilizzati per il territorio di Caposele e la restante parte donata a due Comuni limitrofi, e cinque mezzi di una ditta locale che hanno iniziato a spalare la neve e a liberare le strade, su tutti i 52 chilometri presenti sul nostro territorio, già dalle 4 di mattina del 3 febbraio scorso e fino ad oggi. Non posso non ringraziare l’Anpas di Caposele, il personale della Comunità Montana Terminio Cervialto e i volontari di Caposele che hanno, invece, lavorato senza sosta nel nostro centro storico dove si è potuto procedere solo lavorando con le pale e senza l’utilizzo dei mezzi, data la particolare pavimentazione che qui abbiamo.
+Ringrazio anche i vigili urbani di Caposele per l’encomiabile servizio prestato. Devo, inoltre, segnalare la proficua collaborazione che abbiamo avuto con l’Unità di Crisi della Prefettura di Avellino e con la Protezione Civile ed il Settore Viabilità dell’amministrazione provinciale di Avellino. Con gli assessori Cusano e Petracca abbiamo dialogato costantemente in questi giorni e abbiamo sempre trovato risposte adeguate. Ad esempio, lo svincolo di accesso al nostro Comune è stato continuamente monitorato e questo ci ha consentito di non vivere una condizione di isolamento. La praticabilità delle strade, sia quelle provinciali che quelle comunali, ci ha permesso di poter aiutare le persone in difficoltà, di soccorrere coloro che avevano bisogno di cure mediche ed ospedaliere e di rifornire di viveri e medicinali le famiglie che vivono nelle aree più lontane dal centro».
+&nbsp;
+
+[post_text_153]
+Caposele, Aqp e convenzione: adesso si sta davvero esagerando
+&nbsp;
+Premesso che ogni atto è perfettibile, ovvero può essere sempre migliorato. Premesso, altresì, che la conduzione politica della trattative con l’AQP poteva essere realizzata attraverso forme di maggiore partecipazione, quanto meno con quella dei Caposelesi più informati, quali gli ex amministratori, che, viceversa, quantunque potessero offrire un valido contributo in termini di conoscenza e di competenza, sono stati esclusi per volontà sia della maggioranza sia della minoranza consiliare, non era mai successo che la stipula o il rinnovo della convenzione con l’Acquedotto Pugliese suscitasse un tale clamore e desse origine ad un simile sfoggio di gretta demagogia.
+&nbsp;
+Eppure di convenzioni con l’AQP il Comune ne ha stipulato ben due. La prima, mitica per alcuni, risale al 1970, la seconda al 1997. Entrambe, e lo vedremo di seguito, non è che abbiano prodotto chissà quali benefici per la nostra popolazione.
+&nbsp;
+Ma, sia pure per sommi capi, caliamoci nei particolari per doverose esigenze di chiarezza.
+Con la convenzione del 1970 il Comune di Caposele in cambio della cessione all’acquedotto Pugliese “di tutti i diritti sulla riserva di acqua di medi moduli 3,63”si vedeva riconosciuto dall’EAAP un corrispettivo di L. 121.500.000 sottoforma di rendita annuale di L. 12 milioni da corrispondere in rate semestrali a decorrere dal 1° gennaio 1968, al fine di “soddisfare forfettariamente ogni pretesa del Comune a completa tacitazione di ogni e qualsiasi altro diritto e ragione”. In più al Comune venivano corrisposti per gli interessi compensativi, a decorrere dal 1943, data di derivazione da parte dell’EAAP dell’acqua riservata al Comune con la transazione del 1905, la somma di L. 82 milioni. Veniva, comunque, concordato che tale rendita andava “maggiorata o ridotta in base ai prezzi di vendita dell’acqua determinati di volta in volta dal C.I.P.E.”
+Ed ecco il perché, oggi, L’AQP devolve al Comune di Caposele una somma fissa annua di € 66.832,00 più una quota variabile, che, mediamente dal 2004 al 2010, è stata di € 78.726,00 per un totale annuo, quindi, di € 145.558.
+&nbsp;
+Successivamente, con la convenzione del 1997, stipulata tenendo completamente all’oscuro la popolazione (alto che dittatura del Sindaco Farina) Sindaco e Amministratori del tempo, in cambio della manutenzione gratuita della rete fognaria e degli impianti idrici comunali e di altri benefici, previsti, comunque, anche dalla convenzione che il Consiglio Comunale si accinge ad approvare, adottavano una decisione capestro per la nostra Comunità. Infatti dalla Convezione leggiamo testualmente: “Il Comune di Caposele, al fine di assicurare una migliore erogazione del servizio, provvederà ad installare i contatori dell’acqua, conservando il rapporto diretto con gli utenti”. Ed ancora: “La fornitura idrica a titolo gratuito sull’intero territorio comunale, avverrà con le modalità previste dalla convenzione in data 10.5.1970 [……] La quantità massima di acqua da erogare a titolo gratuito sarà definita successivamente”.
+&nbsp;
+Morale della favola, per fortuna la convenzione del 97 non è stata attuata, altrimenti i Caposelesi avrebbero pagato i quantitativi di acqua che eccedevano quelli erogati a titolo gratuito.
+Ma vi è di più, nel 1999, con Decreto Legislativo n.141, l’EAAP fu trasformato in società per azioni denominata “AQP S.p.A.”. Il capitale azionario, cioè l’insieme dei beni che concorrono al patrimonio dell’acquedotto, fu assegnato al Ministero del Tesoro, del Bilancio e della Programmazione economica, che nel 2002 l’ha trasferito per l’87% alla Regione Puglia e per il 13% alla Regione Basilicata. Il Comune di Caposele che pur poteva, com’era giusto, essere destinatario di un pacchetto di titoli azionari, fu, viceversa, del tutto ignorato ed escluso dalla partecipazione agli utili, conseguenti al possesso delle predette quote azionarie. Si comprende facilmente come una tale attribuzione di capitali avrebbe, di sicuro, costituito una svolta epocale per Caposele, grazie agli introiti che il Comune avrebbe potuto realizzare. Altro che convenzione! Ma così non è stato. Il tutto è avvenuto nella totale indifferenza degli Amministratori del tempo, che, guarda caso, oggi si ergono a paladini immacolati degli interessi dei Caposelesi.
+&nbsp;
+Certo la Convenzione attuale, che solo in soldoni vale 1 milione di euro e che, per mere esigenze di spazio, non illustriamo, ma invitiamo la popolazione a leggerla con attenzione per confrontarla con le precedenti, può essere emendata in qualche punto, se non in più parti, ma presentarla come una dannazione per la popolazione di Caposele significa propinare bugie ed assumere comportamenti non retti, moralmente ed intellettualmente.
+&nbsp;
+&nbsp;
+
+[post_text_154]
+SECONDA CATEGORIA - Caposele, Sturchio: «Puntiamo ai Play Off»
+&nbsp;
+L’ Avv. Alfonso Sturchio, Presidente del Caposele oggi con noi fa il punto della situazione in casa della società altirpina.
+&nbsp;
+«Siamo a 12 punti in basso alla classifica, veniamo dalla Terza, ci è stata concessa la partecipazione alla Seconda per l’ottimo campionato giocato lo scorso anno. Paghiamo lo scotto del noviziato. All’inizio del torneo non eravamo consapevoli degli obiettivi e delle potenzialità- Volevamo fare un buon campionato facendo giocare atleti del posto, senza attrezzarci con qualche calciatore forestiero. Lo spirito è stato quello di dare molto spazio ai giovanissimi, in formazione ci sono almeno 3 under 18. Tutto questo però non sempre ripaga. Così è stato per l’inizio quando non sono arrivati i risultati. Da qualche settimana poi, sono iniziati ad arrivare anche i successi con un paio di vittorie consecutive in trasferta. Ora avevamo due gare in casa che sono slittate a causa del maltempo. Nel mercato di riparazione di dicembre abbiamo ingaggiato altri calciatori di Caposele che hanno dato una quadratura alla formazione che oggi è forte. Ora conosciamo i nostri obiettivi, stiamo decisamente puntando ai play off e vogliamo arrivare tra le squadre che si giocheranno gli scontri diretti per provare ad affrontare questa esperienza entusiasmante.
+&nbsp;
+Il nostro mister Raffaele Sista, originario del posto, ha già allenato il gruppo lo scorso anno. E’ consapevole che con questi ragazzi si può fare bene, occorre solo lavorare tanto e i risultati, continueranno a venire. Della squadra mi piace la voglia di far bene, la grinta che sta mettendo in campo ed anche fuori è un gruppo di amici che si ritrova e riesce a fare aggregazione. Puntualmente, il terzo tempo si sta insieme e c’è unione tra i calciatori. Soprattutto, non ci rendono difficile fare il ruolo di dirigente perché sono tutti ragazzi seri ed intelligenti che sanno quale è il loro compito. Abbiamo fatto un sacrificio che ci stanno ripagando i ragazzi attraverso il loro impegno. Oggi, il nostro ringraziamento va anche agli sponsor che ci accompagnano in questa avventura».
+&nbsp;
+&nbsp;
+
+[post_text_155]
+Caposele - Firmata la convenzione con l'Aqp: Farina incassa il sì tra le proteste
+&nbsp;
+Con nove consiglieri disco verde alla nuova convenzione, consiglio assediato dai manifestanti
+&nbsp;
+A Caposele sembra che le lancette della storia siano tornate indietro di settantatrè anni, come nel 1939, quando i cittadini del comune altirpino scesero in campo per difendere la loro acqua, sfilando e protestando contro l’allora prefetto Tamburrini ed il commissario prefettizio che in nome del regime fascista aveva deciso di abolire il diritto esclusivo di derivazione di acqua, quella che avrebbe messo in ginocchio l’economia dei mulini e delle tintorie del comune.
+&nbsp;
+In quello che rappresenta vichianamente un ricorso storico, ieri mattina la tensione contro quella che viene definita «la svendita dell’acqua» è tornata. Il consiglio comunale, convocato dal sindaco Pasquale Farina per approvare la bozza di convenzione che dovrà rinnovare gli accordi del 1970 con l’Acquedotto Pugliese. Un po come per il Parlamento greco, anche per il civico consesso di Caposele è scattato l’assedio, quello di cittadini ed associazioni, gruppi di opposizioni e CittadinanzaAttiva. Una contestazione che non ha dissuaso per nulla Farina, protetto da un cordone di Carabinieri, che hanno evitato che la situazione potesse degenerare.
+&nbsp;
+Alla fine la bozza, quella che per la minoranza è stata scritta a Bari ( alludendo al fatto che contrariamente a quanto asserisce il sindaco la bozza è a totale vantaggio dell’Aqp ndr) è passata. Nove consiglieri di maggioranza, (fatta esclusione per il vicesindaco Rosania, assente alla seduta) nonostante i loro concittadini protestassero al di fuori della sala polifunzionale dove si svolgeva l’assemblea e la minoranza, dopo l’ennesimo no alla richiesta di rinvio della seduta avesse abbandonato l’aula. Tensione alle stelle, ma nulla che potesse fermare la bozza di intesa che scatterà a partire dal maggio del 2012.
+&nbsp;
+Alla fine il sindaco Farina è costretto a lasciare il consiglio, tra le urla dei manifestanti, che al suo indirizzo hanno gridato: «Non si svende l'acqua» e anche « sindaco barese». Il primo cittadino «scortato» dai Carabinieri tra le proteste dei suoi concittadini, giovani ed anziani, mamme e bimbi, che hanno portato fin sotto il Palazzo la protesta per la loro acqua, una contestazione civile, che non ha fatto registrare tensioni o violenze, se ne è tornato a casa. Quasi come nel 1939, anche perchè i manifestanti sono un centinaio, anche se si fanno sentire, quando però la repressione fascista portò anche ad alcuni arresti, tra questi, quello del capitano dell’Esercito in pensione che guidava la protesta.
+&nbsp;
+Polemiche che sicuramente non si spegneranno facilmente, come chiede CittadinanzaAttiva, attraverso il medico Antonio Cione: «Avevamo raccolto 1400 firme di caposelesi, dichiaratisi contrari al fatto che l'Aqp l'autorizzazione a derivare 500 litri al minuto/secondo, mezzo metro cubo dei cittadini di Caposele, ma non si è assolutamente tenuto conto di questo fatto. E’ grave che il sindaco non abbia destinato neppure un litro d’acqua per gli usi civici. Credo che le autorità competenti debbano approfondire la vicenda».
+&nbsp;
+Intanto la bozza, quella a cui avrebbe lavorato una commissione, al termine di un lungo confronto tra legali dell’Ente e quelli dell’Aqp, ora attende solo di essere sottoscritta.
+&nbsp;
+L'ARCOBALENO. Il Gruppo Arcobaleno minaccia di adire le vie legali, laddove si ravvisassero gli estremi di danni nei confronti della popolazione di Caposele. Non ancora una vera e propria dichiarazione di guerra, quella dei rappresentanti che ieri hanno chiesto un rinvio della seduta, abbandonando l’aula. «C’è stata una protesta civile - spiegano i rappresentanti del gruppo di minoranza - La gente ha urlato contro il sindaco: non si svende l'acqua e sindaco barese». Adesso compiremo tutti gli atti, anche di legge, per bloccare questa convenzione. Il sindaco Farina, solo pochi giorni fa aveva ritenuto che un atto importantissimo come il referendum popolare non si potesse discutere in pochi giorni, come pretende ora che può essere discusso in questo modo un atto significativo come la convenzione con l'Aqp. Speriamo che il sindaco rinsavisca e non la vada a portare a Bari così come è stata concepita. Qualora dovessimo paventare che ci sia un danno, agiremo presso gli organi giudiziari competenti. Farina ha mortificato un diritto di Caposele. Un atto d'imperio, dittatoriale, che stavolta è stato consumato nei confronti di tutti i cittadini di Caposele».
+&nbsp;
+Ieri sera una nuova riunione, quella per decidere il da farsi. In attesa che il sindaco di Caposele decida se fare un passo indietro o trovare una mediazione, come fece saggiamente nel 1970 l’allora sindaco comunista, dialogando anche con la Dc, all’epoca all’opposizione.
+&nbsp;
+
+[post_text_156]
+Caposele - Il sindaco Farina difende la convenzione con l'Aqp
+&nbsp;
+Il giorno dopo l'approvazione della convenzione tra l'Acquedotto Pugliese e il Comune di Caposele, il sindaco Pasquale Farina rompe il silenzio e si difende.
+&nbsp;
+«Il 18 febbraio 2012 è una data che può essere definita eccezionale, se non storica, per Caposele. Il Consiglio Comunale ha approvato, a maggioranza, lo schema della nuova convenzione, che regola i rapporti, ormai ultracentenari, tra Comune ed Acquedotto Pugliese. La decisione consiliare costituisce il punto di arrivo di un percorso sofferto, che si è svolto attraverso incontri con la controparte, riunioni con i consiglieri comunali di maggioranza e di minoranza, riunioni tra componenti della commissione consiliare all’uopo costituita, assemblee pubbliche che hanno visto la presenza partecipativa e collaborativa della popolazione caposelese, presenza che mi ha spinto a continuare sulla strada che, come maggioranza, avevamo imboccato.
+Certo vi è stato anche dissenso da parte delle minoranze, le quali non hanno, però, mai avanzato proposte alternative. Si sono sempre limitate a svolgere un ruolo passivo di critica non costruttiva, superficiale e demagogica. Una minoranza ha certamente il diritto di esercitare la sua critica verso le politiche della maggioranza, ma ha anche il precipuo dovere di proporre proprie soluzioni. Se viceversa non propone, allora si isterilisce. E sterili politicamente sono, nel concreto, le minoranze locali. Sterile e demagogica è stata anche la contestazione che hanno organizzato. Poche decine di persone, non folle oceaniche, hanno tentato di disturbare i lavori del Consiglio Comunale. Poche decine di persone, per lo più giovani facinorosi all’uopo organizzati da personaggi che mai hanno privilegiato l’interesse generale rispetto al loro particolare, hanno dato luogo ad un breve corteo di non oltre duecento metri.
+Un corteo schiamazzante soltanto insulti ed improperi. Un corteo che, nel breve tratto di strada che va dall’aula consiliare alla Sede degli uffici municipali, ha seguito il Sindaco e i Consiglieri di maggioranza, i quali non hanno avuto certo bisogno, per la loro incolumità, della protezione di un cordone di Carabinieri. Alla stampa sono state fornite, invece, informazioni fuorvianti e non veritiere, informazione che sono, più che altro, espressione di incultura e di poco amore per la verità. Ma, forse, ciò che a loro più brucia è stata la scarsa presenza di contestatori, nonostante che per alcuni giorni abbiano martellato la popolazione con inviti alla mobilitazione. Viceversa, ancora una volta, la popolazione di Caposele ha dimostrato, nei fatti, di non essere con loro, di non dar credito alle loro farneticazioni. L’aula consiliare è rimasta sempre gremita di gente. Una minoranza che si rispetti resta in Consiglio per propone, per cercare di essere convincente e per verbalizzare le proprie decisioni. Una minoranza, degna di tale nome, resta al suo posto e non abbandona i lavori consiliari, così come ha fanno fatto le nostre minoranze.
+&nbsp;
+Ciò detto, mi sia consentito, al fine di fugare ogni equivoco, di illustrare nelle sue linee essenziali la convenzione che il Consiglio Comunale di Caposele ha approvato nella seduta di domenica 18 febbraio:
+Il Comune di Caposele, per tutto il tempo di durata della convenzione, sarà destinatario di € 1 milione all’anno, somma che verrà aggiornata adeguandola all’indice di inflazione;
+il Comune sarà, altresì, beneficiario, per tutta la durata della concessione, dalla somma di € 350 mila, adeguati di anno in anno all’indice di inflazione, che dovrà servire, attraverso una semplice partita di giro, a compensare l’Acquedotto Pugliese della fornitura d’acqua per gli usi pubblici e per quelli privati alla cittadinanza. Resta confermato, quindi, che i Caposelesi continueranno a non pagare, di tasca propria, il consumo di acqua;
+l’AQP cede al Comune gratuitamente per tutti gli usi pubblici l’energia elettrica prodotta dalla centrale idroelettrica prevista nel progetto “Pavoncelli bis”. Ciò significa un risparmio per le casse comunali di circa 300 mila euro all’anno;
+l’AQP versa al Comune la somma di € 200 mila a saldo degli inadempimenti relativi alle precedenti convenzioni.
+Per lo sviluppo turistico del Paese, l’AQP e, quindi, per favorire la crescita dell’occupazione, creando occasioni di lavoro: devolve al Comune l’importo di € 1 milione per la sistemazione di Piazza Sanità, che è antistante l’area di captazione delle sorgenti;
+cede al Comune, in comodato, d’uso, la “Palazzina Uffici” per la sistemazione del museo di materiale e reperti storici relativi alla costruzione dell’Acquedotto Pugliese, dallo stesso messi a disposizione;
+si impegna a valorizzare la visibilità delle sorgenti ai visitatori, delegando il Comune al rilascio della necessaria autorizzazione;
+cede al Comune, in comodato d’uso, il capannone nelle adiacenze della guardiola del personale per la sistemazione del museo delle macchine di Leonardo, già in allestimento;
+concede, in comodato d’uso, le aree di sua competenza destinate a parco fluviale e l’area al disopra delle sorgenti (zona Saure) per adibirlo a parco pubblico;
+consente al Comune di addurre l’acqua di S. Lucia in proprietà comunale per gli sui dei locali e dei forestieri;
+comunicherà, infine, al Comune, con anticipo di tre mesi, l’immissione nell’alveo del Sele delle di tutte le acque, affinché il Comune stesso possa organizzare l’annuale festa dell’acque.
+&nbsp;
+Non è poco quanto abbiamo ottenuto. Tuttavia la nostra battaglia non può dirsi conclusa. Non può dirsi conclusa, fino a quando al Comune di Caposele non saranno riconosciuti i titoli azionari sulle opere dell’Acquedotto, titoli ceduti nel 2002 dal Ministero del Tesoro per l’87% alla Regione Puglia e per il 13% alla Regione Basilicata nell’assoluta e colpevole apatia degli Amministratori del tempo, che oggi, da minoranza, hanno la faccia tosta di affiggere manifesti a nome di tutti i cittadini di Caposele e di presentarsi come loro paladini immacolati».
+
+[post_text_157]
+Caposele - Convenzione con l'Aqp, Malanga: «Porteremo il deliberato al Tar»
+&nbsp;
+&nbsp;
+«Pronti a ricorrere al Tar con tutti i cittadini che condividono la nostra idea». E’ questo il messaggio più importante lanciato dal Comitato Pro Sele nell’assemblea tenutasi nel tardo pomeriggio di ieri relativa all'approvazione della convenzione con l'Aqp da parte del Comune di Caposele. L’iniziativa programmata da tempo doveva vedere la partecipazione di Alberto Lucarelli che ha dovuto dare forfait per motivi lavorativi su Napoli. A fare il punto della situazione è Gino Malanga vicepresidente del Comitato ProSele che, nato nel dicembre del 2011, ha come obiettivo la tutela delle sorgenti e del Fiume di Caposele.
+&nbsp;
+«Il nostro comitato - dice Malanga - regolarmente e legalmente costituito è nato alla fine del 2011 con lo scopo di tutelare le sorgenti di Caposele ed il suo fiume. E’ quindi chiaro che siamo interessati all’attualità della questione convenzione ed a tutti i suoi risvolti. L’assemblea di questa sera ( ieri ndr), alla quale doveva partecipare anche Alberto Lucarelli che con un fax ci ha comunicato la sua assenza e la sua disponibilità ad approfondire il primo possibile questa situazione, ha visto concentrare l’attenzione su due elementi fondamentali. Il primo si rifa all’art. 15 dello Statuto Comunale di Caposele.
+Lo stesso spiega che, tramite un determinato regolamento, i cittadini e quindi tutte le associazioni possono partecipare e collaborare, in varie forme, tra cui quella del Referendum, alla vita amministrativa del paese. Rispetto a questa questione, tramite i consiglieri di minoranza, abbiamo proposto un regolamento che, puntualmente, dopo essere stato affisso dieci giorni all’albo comunale, è stato bocciato dalla maggioranza che a sua volta non ne propone uno suo».
+&nbsp;
+Gino Malanga non può che parlare anche della questione convenzione con l’Acquedotto Pugliese.
+«Il secondo argomento dell’assemblea, - commenta Malanga - dopo l’approvazione dello schema di convenzione nel Consiglio comunale di domenica, non poteva che essere proprio questo. La maggioranza ha approvato una convenzione, con soli nove voti a favore. Noi non vogliamo fare nessuna polemica di parte, ma abbiamo semplicemente chiesto ai cittadini che hanno partecipato all’assemblea di ascoltare e, se nel caso, condividere le nostre idee che faremo valere in modo serio, civili e tramite la strada legale. Infatti ci rivolgeremo al Tar per impugnare il deliberato che ha approvato questa convenzione ed abbiamo accolto, a braccia aperte, tutti coloro che hanno voluto intraprendere questa strada fatta di democrazia e di difesa dei diritti dei caposelesi».
+&nbsp;
+Ancora un appello, però, al confronto ed al dialogo, con il primo cittadino e la sua maggioranza, arriva dal vicepresidente del Comitato Pro Sele Gino Malanga.
+«Ancora una volta - conclude Malanga - devo precisare che noi cittadini di Caposele ripetutamente ed ostinatamente abbiamo chiesto al sindaco ed a tutta la sua maggioranza di ascoltarci e d confrontarci perchè non abbiamo mai perso il nostro buon senso. Invito, ancora una volta, l’amministrazione ad aprirsi e dialogare con i cittadini perchè non sono solo gli amministratori della maggioranza, ma di tutti i caposelesi. Siamo sempre disposti, in qualsiasi forma ed in qualunque momento ad incontrare il sindaco per ragionare solo ed esclusivamente per il bene di Caposele e di tutta la sua cittadinanza».
+&nbsp;
+
+[post_text_158]
+Caposele, l’acqua e S.Lucia
+&nbsp;
+L’Irpinia, tra tanti fatti (a volte record) negativi, ne ha uno positivo di notevole rilevanza: è la provincia italiana più ricca d’acqua. In Italia e in Europa. Acqua che sgorga dai monti delle zone interne e che disseta la Puglia e buona parte del Napoletano. Questa risorsa avrebbe potuto cambiare la storia della provincia, se solo una avveduta e scrupolosa classe dirigente avesse posto attenzione allo sfruttamento produttivo di questa essenziale risorsa.
+&nbsp;
+Il fatto è che la ricchezza prodotta in queste terre si riversa nelle regioni limitrofe, senza che l’Irpinia ne possa trarre il benchè minimo vantaggio.
+Anzi per ricordare immagini tanto care ai vecchi meridionalisti, i nostri concittadini si presentano ancora una volta con il cappello in mano al cospetto di lorsignori, ricevendo in cambio amare mortificazioni, o se va bene, una manciata di lenticchie.
+La storia recente, è fatta, purtroppo, di questi episodi, come recentemente racconta la presa di posizione della popolazione di Caposele, ostinata nel difendere orgogliosamente la propria risorsa.
+&nbsp;
+Questa storia dello sfruttamento dell’acqua, e della sua potenzialità, fu ben chiara a Fiorentino Sullo che, ritenendo la risorsa straordinariamente importante per lo sviluppo dell’Irpinia dette vita al Consorzio idrico Alto Calore. In futuro, avrebbe dovuto svolgere un compito ben più importante di quello che, per una politica clientelare e miope, ha svolto sino ad ieri. Da allora, in realtà, di acqua in Irpinia si è parlato solo in termini di occupazione del potere, di scranni da occupare, di favori da elargire. E così l’Acquedotto pugliese ha finito per fare la parte del leone, distribuendo qualche mancia ai veri gestori del territorio. Oggi l’Aqp è un vero colosso. Potrebbe paragonarsi ad un gestore di un importante pozzo petrolifero.
+Una volta era a partecipazione pubblica. Poi Berlusconi per fare un regalo al suo pupillo Fitto, emergente in Puglia, gli regalò il pacchetto azionario posseduto dal Ministero del Tesoro. Nella ridiscussione della società, mentre la Regione Basilicata ottenne una quota da gestire, la Regione Campania fu fatta fuori, per la latitanza della sua classe politica parlamentare nazionale e regionale. Ma anche locale. E oggi? E’ tutto come ieri.
+&nbsp;
+L’Aqp che spadroneggia, che rivendica di raddoppiare la galleria per il trasferimento della risorsa, che illude i sindaci sottoponendo una convenzione che avendo ottenuto la firma dei gestori del territorio, hanno rinunciato anche a dire una parola. La Regione di Caldoro tutto questo lo sa? O l’ente si ferma sull’arenile di Santa Lucia per gestire quel napolicentrismo che ha rubato anche la nostra acqua?
+
+[post_text_159]
+Conforti: «Basta scene di inciviltà sulla questione acqua a Caposele»
+&nbsp;
+ Non si placa la polemica rispetto all’approvazione in Consiglio comunale della convenzione tra il Comune di Caposele e l’Acquedotto Pugliese.
+&nbsp;
+A parlare, in particolar modo dell’atteggiamento della minoranza, è l’assessore Salvatore Conforti.
+«Quando mi hanno chiesto com’ era andata la seduta del consiglio comunale, il mio pensiero è andato immediatamente ai momenti successivi di tale incontro. Attimi terribili che non avrei mai immaginato in un paese civile come il nostro. Ho visto decine di caposelesi, con occhi cattivi, vendicativi, caricati come bombe ad orologeria, come chi serba, da anni, un rancore atavico contro qualcuno.
+Scagliarsi contro il Sindaco, le istituzioni, gli amici e parenti per inveire, lanciare slogan offensivi da curva sud, per attaccare, oltre ogni limite civile, i propri compaesani. Scene di guerriglia urbana - continua - costruita, programmata ad arte, già anticipata da scritte sui muri del paese e da velate minacce di interventi a tutti i livelli di disubbidienza democratica che si sono intrecciate con la capacità dei consiglieri di minoranza, a loro volta consigliati da altri esimi politici della recente storia locale, non certo avulsi da responsabilità sociali, di istigare e di trasferire la discussione della convenzione su piani che non hanno nulla a che fare con la democrazia».
+&nbsp;
+Conforti ritorna su quei momenti difficili.
+«Quelli che si aggiravano intorno ai facinorosi, quelli che farneticavano su muretti prestati per l’occasione come pulpito elettorale come tanti anni fa, quelli che ridacchiavano e che sono arrivati a fatto compiuto, quelli che erano fintamente basiti per l’accaduto e che invece hanno gioito dentro.
+E’ per tutte queste azioni dei grandi strateghi della politica locale che sono stato pervaso da un vuoto, da una tristezza, da un sentimento di rassegnata malinconia. E’ come se tutto quello che io ho fatto durante la mia lunga militanza in politica, durante il mio lungo tempo dedicato a Caposele in tutti i campi del sociale, si sia frantumato in pochi secondi, prefigurandomi scenari futuri per il mio paese. Tutto veleno, gratuita cattiveria, castelli di finto interesse per il paese, di allucinazioni e velleità politica risvegliata».
+&nbsp;
+«Ma tutto ciò seminato, con questa semplicità, cosparso e fatto crescere anche nelle nuove generazioni, come si può adesso cancellare? L’odio cerca l’odio, la vendetta ritrova la stessa reazione uguale e contraria, la cattiveria e il fare del male senza un apparente motivo, su mere questioni politiche, porta alla spaccatura di una comunità che in questo momento non se lo può permettere.
+Bravi, vi voglio fare anch’ io un applauso. La vostra strategia ha dato i frutti che speravate? La nostra acqua, il nostro sviluppo, il progresso a cui tutti insieme puntavamo, è stato leso irreparabilmente dal ritorno di questi pseudo paladini della verità. E allora se i caposelesi non reagiranno con forza e subito verso questa rinata inciviltà, verso l’imbarbarimento di un popolo che poteva finalmente ricavare una florida prospettiva di futuro, Caposele non ce a farà più».
+
+[post_text_160]
+Caposele, Spatola: «Il sindaco ha rifiutato un vero confronto»
+&nbsp;
+La minoranza non si ferma. Ed ecco che continuano le polemiche contro la maggioranza e l'approvazione della convenzione con l'Acquedotto Pugliese. Forti e piene di rabbia le parole del consigliere comunale di opposizione del gruppo Arcobaleno Ettore Spatola.
+&nbsp;
+«A Caposele domenica - dice Spatola - si è consumata l’ennesima chiusura dell’amministrazione Farina. La volontà di Farina di chiudersi a riccio ed approvare un atto del tutto autonomo si evince già da come ha impostato la preparazione allo stesso.
+Tutto parte con la commissione consiliare che nasceva con il preciso compito di trattativa e di studio della convenzione. Tutto ciò però non è mai avvenuto. In primis chissà perchè, per quale strano arcano, tutte le comunicazioni con l’AQP in quel periodo sono venute meno. Se ci fosse stata la volontà vera il sindaco avrebbe chiesto incontri all’AQP con la presenza dei consiglieri di minoranza. Inoltre il sindaco non ha mai voluto mettere in discussione un solo articolo della sua bozza. Poi l’ennesima chiusura sul referendum elettorale bocciato per una mera ripicca, ma anche perchè il sindaco sa come la pensano i cittadini di Caposele».
+&nbsp;
+Spatola torna anche sul Consiglio comunale di domenica e sull’atteggiamento assunto dal gruppo dell’Arcobaleno.
+«Noi consiglieri di minoranza avendo prodotto diverse osservazioni in merito avevamo chiesto al Sindaco di rinviare l’argomento per poterlo ridiscutere in modo serio. Purtroppo, con l’arroganza di chi ha i numeri legali in Consiglio, i consiglieri di maggioranza hanno voluto compiere un atto che non è stato accettato da nessuno. Rinviare significava ridiscutere solo dopo dieci o quindici giorni, ma non c’è stato niente da fare. Questa fretta non l’abbiamo capita. Ovviamente la popolazione libera di dissentire, poi, ha manifestato contro non solo una mortificazione dei diritti dei caposelesi ma contro un atto di prepotenza politica. Oggi noi non accettiamo lezioni di politica da chi ha mortificato i diritti di una comunità perchè a noi non interessava fare campagna elettorale, ma difendere ciò che ci appartiene, la nostra storia, la nostra cultura il nostro Dna. Perché Caposele è nato lungo le sorgenti del fiume Sele dove vi era prosperità derivante dall’acqua. La verità è che Il Sindaco ha accettato tutto ciò che è stato prodotto in senso unilaterale da Bari.
+Addirittura non sappiamo se l’acqua che arriverà ai nostri concittadini sarà quella di Caposele o di Cassano. Questa convenzione era già stata chiusa tre anni fa ed il sindaco ha saputo giocare bene con il passato, il presente ed il futuro di Caposele».
+&nbsp;
+
+[post_text_161]
+Caposele - La nostra acqua negata
+&nbsp;
+L’approvazione dello schema di convenzione con l’AQP (Acquedotto Pugliese) che il Consiglio Comunale di Caposele ha approvato nella seduta di domenica 19 febbraio, ha suscitato un vespaio di polemiche, che ha superato la dimensione strettamente locale ed ha finito con il coinvolgere amministratori di enti, politici e giornalisti della stampa provinciale. Si è detto di tutto e di più. Una costante ha, tuttavia, accumulato tutti questi interventi: la poca conoscenza dei termini della questione.
+&nbsp;
+Quale cittadino di Caposele, da sempre interessato al problema, tenterò di spiegarli nella speranza di essere comprensibile. L’Amministrazione Comunale di Caposele che, a dirla tutta, non è scevra da responsabilità con il suo comportamento poco aperto al contributo di esterni al Consiglio Comunale, è stata dipinta come un insieme di irresponsabili e di incompetenti, autori di chissà quali delitti commessi a danno dell’intera Irpinia. Nulla di vero. È questa una falsa rappresentazione della realtà. È stato detto che il Comune ha rilasciato all’Acquedotto pugliese la concessione di utilizzazione delle acque della sorgente “ Madonna della Sanità” (4500 l/s) per un ben misero piatto di lenticchie. Nulla di più lontano dalla verità. Ma procediamo con ordine e diciamo subito che il Comune di Caposele o qualsiasi altro comune d’Italia, nel cui territorio sono localizzate sorgenti acquifere, non è proprietario di queste acque. Tutte le acque con il D.R. 1775/1933 furono rese demaniali.
+Successivamente lo Stato ha trasferito al demanio delle Regioni le competenze sulle medesime. Ed infatti, l’Acquedotto Pugliese, la cui concessione di derivazione delle acque del Sele scade quest’anno, ha già chiesto alla Regione e non al Comune il rinnovo della Concessione. Regione Campania e Regione Puglia dovranno, però, sottoscrivere un accordo di programma, così come stabilito dal Piano di gestione dell’acque del Distretto Idrografico Appennino Meridionale.
+Analoga intesa la nostra Regione dovrà stipulare con le Regioni Lazio e Molise per i trasferimenti idrici che sia il Lazio sia il Molise effettuano verso la Campania. Il pericolo per Caposele, Cassano, Conza e per l’Irpinia nel suo complesso è costituito dal fatto che la Regione Campania potrebbe utilizzare i compensi in denaro provenienti dalla Puglia per pagare, a sua volta, i quantitativi d’acqua in entrata dal Lazio e dal Molise.
+&nbsp;
+È in questa fase che l’intera Irpinia e non solo i Comuni interessati potrebbero svolgere una decisa azione sinergica a difesa del nostro territorio. In siffatto contesto si inserisce la vicenda che interressa solo e soltanto il Comune di Caposele, vicenda che, così come rappresentata, tanto scalpore ha suscitato. Veniamo ai fatti. Il Comune di Caposele con convenzione stipulata con lo Stato il 2 marzo 1905 riconosceva la demanialità di tute le acque sorgenti, sgorganti e filtranti a Caposele, tanto apparenti che latenti del fiume Sele, col solo obbligo di lasciare defluire costantemente nell’alveo del fiume un volume di acqua di litri 500 al secondo, che si riduceva a 200 l/s nel caso in cui la portata delle sorgenti fosse calata al di sotto di 4 mila l/s. (Successivamente questo quantitativo d’acqua variabile fu mediato in un volume costante di 363 l/s).
+Al Comune fu corrisposta la somma di L. 700 mila. Nel 1933 intervenne il citato R.D. n. 1775, che rendeva tutte le acque del Regno di competenza dello Stato.
+&nbsp;
+L’Acquedotto Pugliese, con il colpevole sostegno delle Autorità Provinciali e Nazionali, fu autorizzato con R.D. datato 11 maggio 1942 a deviare nella galleria di adduzione dell’acqua in Puglia la riserva idrica che la convenzione del 1905 aveva destinato agli usi pubblici e privati del Comune, con la sola clausola di concordare con il Comune medesimo un indennizzo forfettario. A nulla era valsa l’imponente manifestazione dei Caposelesi del 27 maggio 1939 in difesa della loro acqua. Solo nel 1970 il Comune di Caposele, in cambio della cessione all’Acquedotto Pugliese “di tutti i diritti sulla riserva di acqua di medi moduli 3,63”si vedeva riconosciuto dall’EAAP (Ente Autonomo Acquedotto Pugliese) un corrispettivo di L. 121.500.000 sotto forma di rendita annuale di L. 12 milioni da corrispondere in rate semestrali a decorrere dal 1° gennaio 1968. In più al Comune veniva corrisposta, per gli interessi compensativi decorrenti dal 1943, la somma di L. 82 milioni.
+&nbsp;
+Veniva, comunque, concordato che tale rendita andava “maggiorata o ridotta in base ai prezzi di vendita dell’acqua determinati di volta in volta dal C.I.P.E.” Ed ecco il perché, oggi, l’AQP devolve al Comune di Caposele una somma fissa annua di € 66.832,00 più una quota variabile, che, mediamente dal 2004 al 2010, è stata di € 78.726,00 per un totale annuo, quindi, di € 145.558.
+Successivamente, con la convenzione del 1997, che lasciava invariata la rendita di cui alla convenzione del 1970, si stabilivano la manutenzione gratuita della rete fognaria, del complesso degli impianti idrici comunali ed altri benefici. In cambio, il Comune di Caposele si impegnava ad installare i contatori dell’acqua.
+&nbsp;
+La fornitura idrica avveniva a titolo gratuito sull’intero territorio comunale. Si stabiliva, però, che: “la quantità massima di acqua da erogare a titolo gratuito sarà definita successivamente”. La concessione del 1942 scade quest’anno.
+Ed ecco, allora, che è sorta la necessità di stipularne una nuova, il cui schema è stato approvato domenica 19 febbraio dal Consiglio Comunale. Certo questa Convenzione, che solo in soldoni, vale, comunque, 1 milione di euro all’anno, maggiorati in base all’indice di inflazione, può essere eventualmente emendata in qualche punto, se non in più parti. Ma, a tanto, speriamo che provvedano responsabilmente tutti i Consiglieri Comunali. Dopo questa non breve esposizione, penso che sia chiaro a tutti che la vicenda dei 363 l/s di acqua trasferiti in Puglia, di cui alle convenzioni del 1970, del 1997 e di quella in via di definizione, esula dalle competenze dell’Amministrazione Provinciale, da quelle dell’ATO e da quelle dei Comuni che si sono inseriti nella baraonda delle polemiche, in quanto interessa esclusivamente il Comune di Caposele. Ma vi è di più, nel 1999, con Decreto Legislativo n. 141, l’EAAP fu trasformato in società per azioni denominata “AQP S.p.A.”. Il capitale azionario fu assegnato al Ministero del Tesoro, del Bilancio e della Programmazione economica, che nel 2002 l’ha trasferito per l’87% alla Regione Puglia e per il 13% alla Regione Basilicata.
+I Comuni di Caposele, di Cassano Irpino e di Conza e la stessa Provincia di Avellino, che pur potevano essere beneficiari di un pacchetto di titoli azionari furono, viceversa, del tutto ignorati, nella colpevole apatia di politici ed amministratori, che oggi si presentano come tutori delle legittime aspettative di Caposele, Cassano, Conza e di tutta l’Irpinia.
+&nbsp;
+&nbsp;
+Quest'articolo è stato visualizzato 208 volte Michele Ceres
+&nbsp;
+
+[post_text_162]
+Caposele - Le minoranze, Cittadinanzattiva e Pro Sele chiedono un incontro al sindaco
+&nbsp;
+Le polemiche e le discussioni a Caposele, rispetto alla nuove convenzione del Comune con l’Acquedotto Pugliese, non si placano. Nei giorni scorsi il primo cittadino Pasquale Farina aveva spiegato di essere soddisfatto del lavoro della sua amministrazione e che la convenzione era frutto del contributo di tutti, dalla minoranza alle associazioni ai semplici cittadini.
+Continuano a non condividere questa posizione le opposizioni, il comitato civico Pro Sele e l’associazione Cittadinanzattiva. Infatti hanno chiesto, per domani, un incontro al primo cittadino per provare a trovare un accordo e rivedere la convenzione.
+&nbsp;
+A spiegare l’iniziativa è il vicepresidente del comitato civico Pro Sele Gino Malanga.
+«Il sindaco continua a portare avanti la tesi di una convenzione partecipata, ma non è assolutamente così. Da sempre ho invitato il primo cittadino e la sua amministrazione ad un confronto, ma mai nessuna risposta.
+Ora, insieme a Cittadinanzattiva ed alle minoranze, abbiamo chiesto, per mercoledì, un incontro all’ammiistrazione comunale ed al sindaco per discutere sulla convenzione, proporre un eventuale ritiro della delibera e trovare, concretamente, un accordo ed un’unione sul testo. Poichè c’è da sottolineare che la maggioranza ha approvato lo schema con un solo voto di margine, cioè quello del sindaco e che in aula oltre alle proteste dei cittadini si è notata l’assenza del vicesindaco».
+&nbsp;
+«Il nostro intento - commenta Malanga - non è polemico, ma vuole puntare a creare un vero e proprio dialogo senza nessuna strumentalizzazione. Spero che il sindaco accetti di aprirsi e d’incontrarci. Inoltre mi auguro che lo faccia senza nessun preconcetto e pregiudizio perchè non abbiamo nessuna voglia di criticare e fare politica, ma solo di fare qualcosa per Caposele in modo unitario. Non può essere, certamente, l’acqua, simbolo del nostro paese, a far litigare i caposelesi. Chiediamo solo unità e di rivedere la convenzione in modo, concretamente, univoco ed unitario».
+&nbsp;
+A fare eco alle parole di Gino Malanga di Pro Sele è l’esponente della minoranza del gruppo Arcobaleno, Ettore Spatola.
+«Abbiamo chiesto un incontro al sindaco - dice - insieme a Pro Sele, Cittadinanzattiva ed altri cittadini. L’obiettivo è quello, ancora una volta, di provare a dialogare con l’amministrazione comunale. E’ il nostro ultimo tentativo prima di adire le vie legali. Vogliamo capire se c’è l’intenzione di integrare la bozza con le nostre idee e quelle di tutti i caposelesi. Se è così bene, in caso contrario, siamo pronti a rivolgerci a chi di competenze. Ripeto, però, - conclude Spatola - l’obiettivo primario è quello di provare a dialogare per il bene di tutti».
+&nbsp;
+
+[post_text_163]
+La guerra dell'acqua. "Stop ad ogni convenzione", l'Ato gela Caposele e l'Aqp
+&nbsp;
+E’ stato reso noto ieri il testo del documento con il quale il ‘Calore Irpino’ pone alla Regione Campania e al Ministero dell’Ambiente (accantoall’Autorità di Bacino Interregionale delFiume Sele, alla Provincia di Avellino,alla Provincia di Benevento ed al Comune di Caposele) l’inderogabilenecessità di stabilire, ciascuno nella propria responsabilità istituzionale eamministrativa, regole certe e definitive a tutela dei diritti idrici per l’ambitoirpino-sannita. L’Ato richiede il blocco della contrattazione separata da partedei singoli Comuni (a partire da Caposele, ma vale anche per Conzadella Campania e Cassano in prospettiva) con gestori o altri soggetti, in materia di concessioni per l’esercizio di diritti anche parziali sulle sorgenti.
+&nbsp;
+Per il cda dell’ente d’ambito, Caposele e ogni altro Comune devono adeguarsi ai principi stabiliti dall’articolo 148, comma 1 del decreto legislativo 152/2006 (Codice dell’Ambiente). Si tratta della norma che ha “trasferito l’esercizio delle competenze spettanti ai Comuni in materia di gestione delle risorse idriche» all’Ato, si legge nella narrativa del deliberato.
+&nbsp;
+&nbsp;
+Il caso Caposele - Acq
+&nbsp;
+Nel particolare il caso di Caposele, primo degli enti localialle prese con una convenzione (a valere sui diritti per 3,63 medi moduli di acqua dalla sorgente Sanità riservati dal governo con convenzione del 2 marzo 1905), l’ente d’ambito chiarisce al sindaco, ma indirettamente anche all’Acquedotto Pugliese spa, come le prerogative in materia siano in capo alle amministrazioni locali da quasi sei anni, ormai. Ciononostante, l’Ato 1 «non è stato coinvolto» nell’accordo in via di definizione tra amministrazione locale e Aqp, «diversamente dalla Regione Campania e dalla Autorità di Bacino Interregionale del Fiume Sele», prima circostanza per la quale il cda chiede la sospensione delle procedure.
+&nbsp;
+Parlando di «grave omissione istituzionale nei confronti dell’Ato, non invitato alla conferenza dei servizi...», Giovanni Colucci e il suo Cda adoperano una formula ‘formalmente istituzionale’, che tuttavia segnala un’imperfezione procedurale che peserebbe in caso di contenzioso. L’assenza dell’Ato nella conferenza dei servizi (quindi dell’ente destinatario delle prerogative precedentemente in capo ai Comuni) nella sede deputata a raccogliere i pareri vincolanti propedeutici ad un provvedimento autorizzatorio da parte del consiglio comunale, fornisce un robusto trampolino di lancio per un eventuale ricorso davanti alla giustizia amministrativa idrica competente.
+&nbsp;
+&nbsp;
+In pericolo il fabbisogno dell'Irpinia.
+&nbsp;
+Ma l’Ato non si ferma al rilievo formale. Il problema vero segnalato nella delibera non riguarda soltanto il destino di una frazione delle acque prodotte ogni secondo dalle sorgenti di Caposele, anzi. «Accordi come quello citato devono essere necessariamente inseriti in quelli di carattere più ampio, previsti nell’Accordo di Programma per il trasferimento delle risorse idriche tra la Regione Campania e la Regione Puglia, la cui redazione ad oggi non è stata ancora predisposta», si legge ancora. In assenza di una cornice giuridica in grado di assicurare equamente i diritti territoriali a tutte le parti in causa, osserva l’Ato, non possono esserealcuni attori a decidere per tutti.
+In particolare, l’Ato ricorda le esigenze che Irpinia e Sannio hanno formalizzato nel Piano d’Ambito dell’Ato 1, che prevede il “...recupero di risorse idriche da fonti esistenti sul territorio dell’Ato attraverso la revisione degli  Accordi in essere”, con riferimento alle sorgenti di Cassano e Caposele, in linea con quanto previsto dal Piano di Gestione delle Acque del Distretto Idrografico dell’Appennino Meridionale (l’Autorità di Bacino dei fiumi Liri-Garigliano e Volturno).
+&nbsp;
+Questo piano idrico detta la linea strategica sull’acqua alle regioni Abruzzo, Basilicata, Calabria, Campania, Lazio, Molise e Puglia), disciplinando l’intero Mezzogiorno d’Italia. Il Piano, ricorda l’Ato, sottolinea la necessità di un recupero idrico a vantaggio dei territori compresi nelle province di Avellino e Benevento, attraverso la revisione degli accordi esistenti per Cassano e Caposele, ribadendo che «la stipula e l’attuazione degli accordi di programma viene ritenuta il percorso indispensabile al fine di attuare una strategia di governo delle acque in un’ottica di solidarietà e sostenibilità».
+&nbsp;
+In questo quadro, se altre regioni «hanno già provveduto alla stipula di accordi di programma per la disciplina del trasferimento delle risorse», comePuglia e Basilicata, si ritiene «improcrastinabile» avviare «le procedure necessarie » per disciplinare «la gestione di tutte le risorse idriche che dal territorio dell’Ato 1 vengono trasferite alla Puglia». In caso di inottemperanza, toccherà al ministro dell’Ambiente.
+&nbsp;
+ Christian Masiello
+&nbsp;
+
+[post_text_164]
+Caposele - Convenzione, il Comune prende tempo e la minoranza aspetta l’incontro con Farina
+&nbsp;
+L'Ato ha chiesto ufficialmente alla Regione Campania, a Caldoro ed all'assessore Romano di bloccare ogni forma di convenzione con l'Acquedotto Pugliese. Il tutto dopo la stipula con il Comune di Caposele di una convenzione che, però, riguarda solo i 363 litri al secondo di diritto d'uso. L'Ato ha sottolineato il fatto che è giunta l'ora di sospendere ogni rilascio di concessione senza un adeguato ristoro. Dopo le richieste dell'Ato nessuna replica e bocche cucite da parte dell'amministrazione comunale.
+&nbsp;
+Il primo cittadino si è detto semplicemente amareggiato di tutto il clamore che si sta facendo per una convenzione che pesa al futuro di Caposele, ma nessun commento ufficiale. Sembrerebbe che si stia preparando una risposta proprio all'Ato sulla questione. Senza dubbio resta forte la tensione in paese visti gli ultimi avvenimenti.
+&nbsp;
+Ad intervenire anche il consigliere di minoranza del gruppo Arcobaleno Ettore Spatola.
+«Siamo soddisfatti dell'intervento dell'Ato ed eventualmente della Regione Campania, ma non bisogna confondere l'accordo di programma che riguarda tutte le sorgenti del Fiume Sele con la convenzione stipulata che ha come oggetto i 363 litri al secondo che sono di uso della nostra comunità. Rispetto, poi, alla richiesta fatta al sindaco per un incontro, dovrebbe esserci domani (oggi ndr). La speranza è che il primo cittadino accetti la proposta e che voglia aprirsi anche alle nostre idee».
+
+[post_text_165]
+Bracconaggio nel parco dei Picentini: scoperto anche un taglio abusivo
+&nbsp;
+Caposele - Le montagne dell’Alta Irpinia sono ancora innevate, ma nonostante ciò, i bracconieri continuano a praticare battute di caccia al cinghiale in periodo di chiusura generale e in zone interdette alla caccia.
+&nbsp;
+L’altra mattina le Guardie Ambientali della Federazione Nazionale Pro Vita Sezione Provinciale di Avellino durante un servizio di vigilanza hanno individuato all’interno del Parco dei Monti Picentini, sul territorio del comune di Caposele (AV), una battuta di caccia illegale. In località “ Canale” dapprima sono stati uditi dei colpi d’arma da fuoco, in seguito sono stati avvistati dei cani da caccia di razza segugio. Sul posto è sopraggiunta ,su richiesta delle Guardie Ambientali per avere una collaborazione, una pattuglia del Corpo Forestale dello Stato, che unitamente alle Guardie Ambientali hanno perlustrato la zona. Non è stato possibile scovare i bracconieri, ma sono stati trovati indizi utili per la loro identificazione.
+&nbsp;
+Nel corso dell’ispezione dei luoghi, è stato possibile accertare anche un taglio abusivo di piante di quercia. Il taglio è stato effettuato di recente, si presume subito dopo le abbondanti nevicate. Dalle tracce del mezzo lasciate sul luogo dove le piante sono state abbattute illegalmente e che è stato utilizzato per il trasporto dei pezzi di legname, sono state avviate le indagini per l’identificazione dell’autore.
+&nbsp;
+
+[post_text_166]
+Caposele - Convenzione con l'Aqp, Di Masi: «Il sindaco non ha mai considerato la nostra proposta»
+&nbsp;
+Nel piccolo centro dell’Alta Irpinia la questione convenzione con l’Acquedotto Pugliese è sempre di stretta attualità. Ad intervenire è il consigliere di minoranza Gerardo Di Masi.
+«I contenuti della proposta della minoranza erano già conosciuti dal Sindaco da oltre un anno. Sono per lo più gli stessi che gli scrisse l’avvocato Palmieri, gli stessi che sono stati suggeriti e verbalizzati nella commissione, gli stessi che sono stati divulgati e discussi nelle assemblee a cui non veniva il primo cittadino, gli stessi che si erano offerti di scrivere dopo l’incontro beffa del 2 dicembre. Gli stessi che l’AQP ha cestinato, semmai li abbia letti, perché ha poi dettato le sue linee prioritarie, cioè quella soluzione finale perpetrata già dalla prima bozza. Quindi non è una invenzione dell’ultima ora, ma sarà la memoria storica della occasione mancata, della nostra disponibilità nel suggerire soluzioni vantaggiose. Lascio ad altri interpretare politicamente l’indizione di un Consiglio comunale Straordinario e lasciare tre giorni di tempo alle minoranze per studiare atti ufficiale suggerire o proporre una bozza. Noi abbiamo comunque prodotto osservazioni di cui se ne sono fregati.
+Non capiamo perchè non è stata considerata. La nostra proposta tutela il nostro diritto, non cancella le precedenti convenzioni, ci riserva una quantità d’acqua, impone doveri chiari e specifici ad AQP, stabilisce tempi e penali, lavori a breve e lungo termine. Sono stanco di demagogia, retorica, articoli e proclami, queste erano le basi per la Convenzione condivise da tutti, altro che quelle sciocchezze scritte a Bari».
+&nbsp;
+.....................................................................................
+&nbsp;
+&nbsp;
+Caposele, Spatola: «Il nostro obiettivo un confronto costruttivo con il sindaco»
+&nbsp;
+E’ ancora aperta la discussione a Caposele rispetto alla questione della Convenzione fatta dal Comune con l’Acquedotto Pugliese ed approvata in Consiglio comunale il 19 febbraio. E’ di qualche giorno fa l’invito ad un incontro da parte delle minoranze consiliari, di Cittaninanzattiva e del Comitato Pro Sele al sindaco per discutere della situazione e provare a trovare una soluzione condivisa.
+&nbsp;
+Rispetto a questa questione come all’eventuale risposta da dare all’Ato, bocche cucite dalla maggioranza, mentre, ad intervenire è l’esponente della minoranza dell'Arcobaleno Ettore Spatola che spiega la posizione del suo gruppo il quale ha un solo obiettivo, un confronto costruttivo con il sindaco per il bene della maggioranza.
+«L’unica novità delle ultime ore - dice Spatola - è che il sindaco ha pubblicato la delibera della convenzione. Rispetto alla nostra richiesta di incontro con la maggioranza per discutere della problematica e provare a trovare una soluzione comune al problema, ancora nessuna risposta. Vorrei far capire al primo cittadino - commenta Spatola - che non c’è nessuna voglia di strumentalizzazione, ma solo di provare a far qualcosa per il paese. Ora che si è mosso l’Ato e che sta entrando in campo anche la Regione Campania non penso ci sia ancora spazio per divisioni. Dobbiamo stare tutti insieme per difendere i diritti dei caposelesi. E’ solo questo il nostro intento».
+&nbsp;
+&nbsp;
+
+[post_text_167]
+Caposele, Spatola: «Inutile un Consiglio senza un vero confronto democratico»
+&nbsp;
+E’ di qualche giorno fa la richiesta di un Consiglio comunale da parte dei sei consiglieri di minoranza sulla questione Convenzione. Inoltre le opposizioni, insieme ad alcune associazioni del posto hanno anche chiesto un incontro al primo cittadino Pasquale Farina ed alla sua maggioranza per provare a trovare una soluzione condivisa rispetto alla convenzione.
+&nbsp;
+Ad intervenire è il consigliere di minoranza dell’Arcobaleno Ettore Spatola.
+«Nei giorni scorsi abbiamo chiesto, insieme ad alcune associazioni locali, al sindaco un incontro per discutere della situazione convenzione. E’ inutile andare in Consiglio comunale e veder bocciata la nostra proposta senza un minimo di dialogo e di confronto. Abbiamo chiesto un Consiglio per arrivare ad un minimo di unità d’intenti e non per continuare a portare avanti le solite spaccature su una questione così importante per il paese. Il problema è che al momento non abbiamo avuto nessuna comunicazione da parte del sindaco e non abbiamo capito se è disposto ad incontrarci o meno. Penso che sia giusto farci sapere se è dispoto ad incontrarci o se l’amministrazione vuole restare sulle sue posizioni. Se così fosse siamo pronti a continuare le nostre azioni anche e soprattutto da un punto di vista legale».
+&nbsp;
+
+[post_text_168]
+Caposele - Il sindaco convoca il consiglio comunale chiesto dalle due minoranze
+&nbsp;
+E’ stato convocato nella tarda mattinata di ieri il Consiglio comunale richiesto a gran voce dalle due minoranze consiliari rispetto alla questione della Convenzione fatta dal Comune di Caposele con l’Acquedotto Pugliese. Le due opposizioni hanno chiesto un’Assise cittadina per proporre e discutere anche una loro bozza di convenzione, visto che nessun emendamento era stato accettato durante l’ultimo consiglio comunale del 19 febbraio.
+&nbsp;
+Non sembrano essere, però, soddisfatte le minoranze poichè prima di andare in Consiglio volevano discutere e confrontarsi, insieme ad alcune associazioni locali, con l’amministrazione comunale, ma la stessa sembra non aver accettato un dialogo.
+&nbsp;
+Intanto proprio nella serata di ieri un nuovo incontro delle minoranze per decidere le prossime mosse da mettere in campo rispetto alle scelte dell’amministrazione.
+&nbsp;
+
+[post_text_169]
+Vittime dello stalking, nasce a Caposele lo sportello Antiviolenza
+&nbsp;
+Caposele, si inaugura lo Sportello Antiviolenza per donne vittime di stalking.
+L’iniziativa sarà presentata nel convegno “Il passato ed il futuro delle donne, tra libertà e discriminazione”, l’8 marzo alle 17 presso la sala polifunzionale comunale
+&nbsp;
+Giovedì 8 marzo alle ore 17 si terrà, presso la sala polifunzionale comunale, un convegno-dibattito sul tema: “Il passato ed il futuro delle donne, tra libertà e discriminazione”.
+Nel corso dell’incontro sarà presentato lo Sportello Antiviolenza dedicato alle donne, ideato e promosso dall’associazione di volontariato Pubblica Assistenza Caposele e dalle avvocatesse della Commissione Pari Opportunità Foro di Sant’Angelo dei Lombardi, che si prefigge di offrire consulenza legale gratuita e psicologica alle donne che vivono situazioni di violenza e necessitano di aiuto.
+&nbsp;
+Lo sportello avrà, come obiettivo a medio termine, anche la costituzione di un gruppo di auto-aiuto con lo scopo di dare alle donne vittime di violenza, l’opportunità di condividere le proprie esperienze e di aiutarsi reciprocamente. Saranno realizzate inoltre attività di informazione e prevenzione, con la promozione di incontri itineranti nei diversi Comuni della nostra Provincia e di momenti di confronto nelle scuole.    Nel corso dell’incontro è prevista la presentazione del libro del professor Michele Ceres “La donna nella storia”, che rappresenta un efficace spaccato di storia che vede la donna quale importante protagonista.
+&nbsp;
+Introduce e modera i lavori Cesara Maria Alagia, Presidente CSV Irpinia Solidale e Presidente Pubblica Assistenza Caposele. Dopo i saluti del sindaco di Caposele Pasquale Farina e del Presidente del Consiglio dell’Ordine degli Avvocati di S.Angelo dei Lombardi Bruno Salzarulo, intervengono Giuseppe Acone - Ordinario di Pedagogia Generale Università di Salerno e    Dora Garofalo - Preside emerita e Delegata di Zona 16 del Distretto Lions 108.
+&nbsp;
+
+[post_text_170]
+Caposele, Grasso: «La convenzione con l'Aqp? Spero in risoluzione problema»
+&nbsp;
+«Dalla convocazione del Consiglio Comunale del 10 marzo si evidenzia la volontà di voler unire e rafforzare il nostro interesse per Caposele e per i caposelesi». – dichiara Gelsomino Grasso Segretario PD Caposele.
+&nbsp;
+«Certo è il mio personale auspicio, quello di trovare una soluzione unanime per essere forti e uniti nella battaglia da affrontare sia con il colosso A.Q.P. di Bari che con gli Enti e Istituzioni che a causa del rumore sviluppato dal 19 Febbraio (giorno del Consiglio Comunale) ha suscitato interesse da più parti. Mi permetto ancora una volta di fare un appello a tutto il Consiglio Comunale, creare un’intesa unanime per raggiungere un grande obiettivo economico ed occupazionale (Convenzione Acqua Caposele-AQP). Evitiamo ricorsi al TAR, alla Procura, al Tribunale delle Acque poiché così facendo ci facciamo del male tutti, nessuno esce indenne da tale guerra. Il nostro percorso è di dialettica democratica di confronto anche forte, percorrere la strada non democratica ma legale pur di raggiungere risultati non nobili è esagerato. I concittadini caposelesi nella loro indubbia intelligenza sanno benissimo, quando sarà il momento, chi dovrà essere premiato e chi condannato; il banco di prova non è lontano manca un anno. Ora pensiamo al bene del nostro popolo ed evitiamo guerre.
+&nbsp;
+ La crisi economica Italiana e mondiale – continua - mette a dura prova le piccole comunità, il Governo centrale e regionale che non eroga più fondi per la gestione ordinaria dei comuni, come le mense scolastiche, i trasporti alunni, gli interventi socio-sanitari, l’ aumento dell’addizionale comunale, ICI, IMU, TARSU ed altre tasse imposte ai cittadini, oltretutto cittadini privi di lavoro. Mentre avviene tutto questo, a Caposele anziché pensare alla risoluzione di questi grossi problemi si gioca a farsi del male: la guerra dell’acqua. Immagino che se tutto andrà per il verso giusto sulla proposta unanime della convenzione Comune di Caposele e AQP elaborata dall’Amministrazione Comunale con la partecipazione dei gruppi di minoranza, considerando anche proposte sviluppate da forze politiche (proposta del PD nell’Assemblea del 26 Novembre 2010), sociali e sindacali deliberata dal Consiglio Comunale, si evince la possibilità di tirare un sospiro di sollievo sia sul piano economico che sul piano occupazionale. Ad esempio, sul Piano economico la bozza di convenzione prevede un corrispettivo annuale per un importo di circa €. 1.350.000,00 (che potrebbe anche essere aumentato) adeguandola all’indice dell’inflazione programmata, e detta somma per l’anno corrente (2012) avrà come primo acconto il 50% all’atto della stipula, cioè prima del 12 Maggio p.v. (giorno ultimo per il rinnovo della convenzione) il Comune avrà nelle casse comunali i primi 675.000,00 Euro. Altro aspetto economico (allegato 1) riguarda il rifacimento della Piazza Sanità. All’atto della stipula del contratto l’AQP cederà al Comune di Caposele la gestione dell’esecuzione del progetto per la sistemazione e riqualificazione della Piazza Sanità su un progetto esecutivo già realizzato, erogando all’atto della stipula la somma di €. 500.000,00 pari al 50% dell’intero importo che si aggira ad oltre un milione di Euro, creando bellezza, attrazione e lavoro delle risorse umane locali. In buona sostanza, se non ci sono altri intoppi lungo la strada, già l’estate 2012 potremo festeggiare un evento mai ottenuto fino ad oggi e le casse comunali avranno la somma di circa 1.175.000,00 euro».
+&nbsp;
+«L’altro aspetto importante è la fruizione turistica. Finalmente la possibilità di una maggiore attrazione turistica può avverarsi creando economia e lavoro per professionisti, aziende agricole con prodotti tipici locali, guide turistiche, ripristino della porta del parco dei monti Picentini, il museo delle acque già in essere, il museo di Leonardo, il museo delle attrezzature della Pavoncelli (attrezzi e macchinari di oltre un secolo fa) che hanno costruito una delle opere più importanti d’Europa e che verranno allestiti nella palazzina dell’AQP. Inoltre la bellezza della zona “saure”, un progetto di valorizzazione della zona anche in occasione del presepe vivente che ha mostrato vivo interesse, la possibilità di organizzare la festa dell’acqua in quanto dalla stipula della convenzione si evince che l’AQP comunicherà tre mesi prima l’apertura delle acque per il consueto controllo e manutenzione della vecchia galleria Pavoncelli, la questione della sorgente Santa Lucia che verrà trasferita nel territorio Comunale per far sì che possa essere utilizzata dalla popolazione di Caposele o meglio prevedere un aspetto commerciale dell’imbottigliamento» – precisa -.
+&nbsp;
+«Penso che un primo e sostanziale passo in avanti è stato compiuto: i nostri diritti d’uso non sono in discussione. Ci sono tutte le premesse per immaginare la zona Sanità non come cantiere delle vecchie attività artigianali (nobili) dei primi anni del Novecento ma altro tipo di attività più moderno: economia culturale, sport, amanti dell’ambiente e della natura. in ogni caso un nuovo cantiere socio-economico-occupazionale del XX° secolo» - conclude -.
+&nbsp;
+-----------------------------------------------------------------------------------
+&nbsp;
+Caposele - Parte la denuncia del comitato Pro Sele sulla questione referendum
+&nbsp;
+E’ l’argomento del giorno a Caposele. La questione acqua e la nuova Convenzione del Comune con l’Acquedotto Pugliese ha monopolizzato il dibattito politico-amministrativo. Il comitato promotore Pro Sele, nei giorni scorsi ha fatto partire un esposto-denuncia avverso la bocciatura del regolamento per l’indizione del referendum.
+&nbsp;
+Il documento è stato inviato al Procuratore della Repubblica Antonio Guerriero, al sindaco Pasquale Farina ed ai consiglieri di maggioranza per conoscenza. Il comitato sostiene che il referendum è previsto dallo Statuto comunale. Il tutto a ventiquattro ore dalla convocazione del Consiglio richiesto dalla minoranza che comunque non si è detta soddisfatta poichè gradiva prima dell’Assise un confronto costruttivo con la maggioranza che non ha accettato. Insomma, la querelle è destinata ad andare avanti.
+&nbsp;
+&nbsp;
+
+[post_text_171]
+Caposele, Malanga: «Vogliamo far rispettare i diritti della comunità»
+&nbsp;
+&nbsp;
+Non si placano le discussioni a Caposele rispetto alla questione convenzione tra il comune e l'Acquedotto Pugliese. L'atto è stato deliberato dall'Assise cittadina, tra le polemiche, il 19 febbraio scorso. Da quel giorno non si è fermata la battaglia delle minoranze e di alcune associazioni come Cittadinanzattiva e il comitato civico Pro Sele. Nelle prossime ore continueranno gli incontri di chi non condivide l'azione dell'amministrazione guidata dal primo cittadino Pasquale Farina. Si stanno studiando tutte le iniziative possibili dal punto di vista legale. Sono a lavoro gli avvocati delle minoranze e delle associazioni.
+&nbsp;
+Proprio nella serata odierna ci sarà una nuova riunione per fare il punto della situazione e capire il da farsi. A fare il punto della situazione è l'esponente e vicepresidente del Comitato Pro Sele Gino Malanga.
+«Al momento  non c'è nessuna novità importante. Noi siamo andati avanti con l'iter stabilito per far dichiarare la legittimità del regolamento per il referendum. Allo stesso tempo stiamo unendo tutte le forze perché notiamo, che abbiamo trovato un muro di gomma nell'amministrazione comunale che, nell'ultimo Consiglio comunale, richiesto dalle opposizioni, ha bocciato senza mezzi termini, la bozza di convenzione delle minoranze. E’ triste, ma nonostante tutti i tentativi messi in campo, non siamo riusciti a interloquire con questa maggioranza. Non siamo contro a nessuno - continua Malanga - ma vogliamo solo far rispettare i diritti dei caposelesi ed il loro patrimonio più importante e prezioso che è l'acqua. Non si può accettare di svendere questo bene così importante. Siamo stati descritti come facinorosi e rivoluzionari, ma non è questa l'indole delle nostre persone. Abbiamo tentato in passato, adesso e sempre di arrivare ad un confronto, ma non siamo mai stati ascoltati. Quindi non ci resta che seguire la strada legale senza offendere nessuno, ma solo ed esclusivamente per far conoscere la verità ai cittadini di Caposele. Ecco perché è anche nostra intenzione proporre un confronto tra le due convenzioni: quella approvata e quella della bozza delle minoranze. Il lavoro che stiamo portando a termine è solo ed esclusivamente per il bene di Capesele e per far rispettare i diritti dei suoi cittadini».
+&nbsp;
+&nbsp;
+-----------------------------------------------------
+&nbsp;
+&nbsp;
+Acque, a Caposele si studia il ricorso
+&nbsp;
+Rivolgersi alla Comunità Europea per dire no alla convenzione tra il Comune di Caposele e l'Acquedotto Pugliese. E' questa l'ultima idea di Cittadinanzattiva, una delle principali associazioni per la tutela e la promozione dei diritti dei cittadini. Dal primo aprile sarà, infatti, operativo uno sportello europeo per ricorsi di natura ittica e agricola.
+E' Antonio Cione, uno dei componenti dell'associazione, da mesi in prima fila nella battaglia dell'acqua, a intervenire.
+«Se necessario ci appelleremo alla Comunità Europea - afferma - la comunità caposelese non può accettare inerte questa convenzione. Faremo tutti i passaggi possibili e immaginabili per non perdere i diritti sui 363 litri di acqua al secondo che sono da sempre di esclusivo utilizzo dei cittadini». Cittadinanzattiva è pronta a una protesta forte in caso di mancato dietrofront dell'Amministrazione comunale guidata dal sindaco Pasquale Farina.
+«Se necessario metteremo in essere l'articolo 118 della Costituzione, quello della sussidiarietà, tale per cui se un ente che sta "più in basso" è capace di fare qualcosa, l’ente che sta "più in alto" deve lasciargli questo compito, anche sostenendone eventualmente l’azione. Questa Amministrazione comunale non rappresenta più la maggioranza dei cittadini. Raccoglieremo le tessere elettorali di tutti coloro che non si riconoscono più in questo sindaco e le porteremo in Municipio. Il primo cittadino sarà così costretto a consegnarle al Prefetto di Avellino che a sua volta informerà il Ministero degli Interni».
+&nbsp;
+Il sindaco Pasquale Farina ha sempre difeso la convenzione con l'Aqp, sostenendo come essa sia piena di privilegi per il Comune.
+«Dopo due anni di tira e molla siamo tornati alla prima bozza di accordo, anzi questa è anche peggiore della precedente. La nostra non vuole essere una guerra dei poveri, vogliamo solo difendere i nostri diritti. Ho il timore che il sindaco voglia correre di notte a Bari per sottoscrivere l'accordo con l'Aqp ma ha fatto male i suoi calcoli. Noi non molleremo».
+Cione lancia poi una stoccata al Presidente della Regione Puglia Nichi Vendola.
+«Come mai non è ancora venuto a Caposele? Non ha mai fatto visita al Municpio, e questo nonostante noi siamo uno dei suoi maggiori fornitori di acqua».
+&nbsp;
+L'esponente di Cittadinanzattiva se la prende anche con l'Acquedotto Pugliese.
+«Il sindaco di Caposele ha detto di aver sottoscritto un patto d'onore con l'ente pugliese? Bene, peccato che nel corso degli anni l'Acquedotto Pugliese non abbia mai rispettato gli impegni assunti in precedenza. L'acqua è un bene che appartiene ai 3541 abitanti di Caposele. E' in gioco il futuro dei nostri figli e dei nostri nipoti. Non ci arrenderemo a una delle peggiori amministrazione comunali della nostra storia».
+&nbsp;
+PAVONCELLI BIS. Non solo la convenzione con l'Aqp. A Caposele, infatti, tiene banco la questione relativa alla Pavoncelli bis con l'esposto denuncia a firma della minoranza consiliare sul parere urbanistico favorevole espresso con nota 7280 del 2 novembre 2010 per la realizzazione della galleria, «posto - si legge nell'esposto - che l'opera appare ricadere in z.t.o che il vigente Puc classifica con agricola».
+La lettera inviata alla Procura della Repubblica di Sant'Angelo dei Lombardi è stata firmata dai consiglieri comunali Ettore Gennaro Spatola, Gerardo Di Masi, Vincenzo Zanca, Loranza Melillo e Rocco Merola. Ora sarà la Procura a fare luce sulla vicenda.
+&nbsp;
+
+[post_text_172]
+Caposele, le minoranze studiano le prossime mosse da mettere in campo per la convenzione
+&nbsp;
+Non si parla d’altro nel piccolo centro dell’Alta Irpinia. E’ l’acqua e la convenzione tra il Comune e l’Acquedotto Pugliese al centro del dibattito cittadino. Tante sono state le proteste e le critiche da parte delle minoranze e delle associazioni, come Cittadinanzattiva e Comitato Pro Sele. Tante le assemblee e le richieste di dialogo all’amministrazione comunale.
+&nbsp;
+Dopo quello del 19 febbraio scorso, c’è stato anche un altro Consiglio comunale chiesto dalle minoranze le quali hanno anche proposto una loro bozza di Convenzione che è stata, però, bocciata dalla maggioranza. Al momento la situazione sembra essere ferma. Da un lato c’è l’amministrazione comunale, guidata dal sindaco Pasquale Farina, che attende di recarsi a Bari per firmare la convenzione che è pronta ed è certa di aver fatto la scelta giusta per tutta la comunità di Caposele e dall’altro c’è la minoranza consiliare che continua a dissentire dalla decisione presa dalla maggioranza ed attende indicazioni dai suoi legali per mettere in campo azioni atte a salvaguardare alcuni diritti storici dei caposelesi. Inoltre secondo indiscrezioni l’opposizione consiliare starebbe per incontrare alcuni vertici regionali per capire in che modo Palazzo Santa Lucia sta trattando la situazione in particolar modo per l’accordo di programma.
+&nbsp;
+Quindi possiamo dire che le battaglie della minoranza sono due da un punto di vista amministrativo-legale e da un punto di vista politico. In paese continuano le schermaglie tra i sostenitori dell’una e dell’altra linea ed il clima è sempre più acceso e più difficile da gestire. Le minoranze sono sempre in contatto con le associazioni e con i comitati per capire come intraprendere insieme questa vertenza e come provare a mettere in campo azioni importanti. Per adesso, però, non sembrano esserci in programma assemblee cittadine.
 &nbsp;

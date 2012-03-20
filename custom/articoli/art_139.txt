@@ -1,7 +1,10 @@
 Autore::Ars
 Titolo::Sondaggio Europei di calcio 2012
 --- Begin body ---
-<br>
+<br><br>
+<font color="red"> 
+<b>Il Tabellone per giocare <i>(dal 15 gennaio)</i> lo trovate <a href=" questions.php?id_questions=5 ">QUI</a></b></font>
+<br><br>
 Caratteristiche principali
 <br>
 <br>
@@ -36,4 +39,12 @@ Le giocate sono “per la gloria”: nessuna contribuzione e nessun premio in caso d
 <b>Le Giocate saranno visibili su questo sito.</b> <br>   Gi&agrave; durante il periodo delle giocate queste saranno visibili con nome, cognome, data di nascita e provenienza del giocatore.<br><br>
 <b>Numero delle giocate</b><br>  
 Ogni persona pu&ograve; giocare una sola volta. <br><br>
+<br>
+Novit&agrave;.
+Oltre alla  <b>- classifica ufficiale -</b> che stabilir&agrave; il vincitore del sondaggio, determinata con i criteri tradizionali sopra esposti, in questa edizione sar&agrave; stilata anche una seconda classifica <b>- classifica ponderata -</b> (con attribuzione di punti strettamente proporzionata alla mera probabilit&agrave; matematica).
+Il che significa attribuire:<br><br>
+ <b>8 punti</b> (in luogo di 4) per ogni pronostico pienamente centrato nelle <b>semifinali </b>
+(nell'eventualit&agrave; di passaggio del turno ai tempi supplementari, i punti assegnati saranno <b>6 punti</b> per la vincente e <b>2 punti</b> per l'eliminata; nell'eventualit&agrave; di passaggio del turno ai rigori, i punti assegnati saranno <b>4 punti</b> sia per la vincente che per l'eliminata).<br><br>
+<b>16 punti</b> (sempre in luogo dei 4 canonici) per il pronostico pienamente centrato nella <b>finale</b>
+(nell'eventualit&agrave; di conclusione della partita ai tempi supplementari, i punti assegnati saranno <b>12 punti</b> per la vincente e <b>4 punti</b> per la squadra sconfitta; nell'eventualit&agrave; di conclusione della partita ai rigori, i punti assegnati saranno <b>8 punti</b> sia per la vincente che per la squadra sconfitta).<br><br>
 --- End body ---

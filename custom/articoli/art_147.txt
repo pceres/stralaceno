@@ -1,0 +1,14 @@
+Autore::
+Titolo::Maratona di Roma 2012
+--- Begin body ---
+<br>
+Doppia vittoria keniana alla 18 Maratona di Roma del 18 marzo 2012. Il 24enne keniano Luka Lokobe Kanda ha vinto in 2h08'04", mentre la 34enne Hellen Kimutai ha tagliato il traguardo in 2h31'11". 
+<br><br>
+<b>
+L'ARS &egrave; stata rappresentata da Francesco Ceres che ha chiuso la gara con il tempo di 4 ore 32 minuti e 29 secondi, classificandosi al 8.555° posto su 12.685 arrivati. </b> Gli iscritti alla gara risultavano essere oltre 16.000.
+<br>
+<br>
+<div align="center">
+<img id="" src="%file_root%custom/album/varie/roma2012.jpg" alt="" border="0" width="240">
+</div><br>
+--- End body ---

@@ -282,6 +282,55 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 268::nicola::28/03/2011 18.01.08::visible
 269::commissario::29/03/2011 22.44.29::visible
 270::UMILIATO::30/03/2011 13.30.31::visible
+271::caposele::05/04/2011 20.16.21::visible
+272::critico::06/04/2011 17.56.12::visible
+273::sportivo::08/04/2011 17.35.57::visible
+274::ragazze::11/04/2011 23.49.24::visible
+275::attento::02/05/2011 12.46.01::visible
+276::ESAURITO::02/05/2011 14.10.04::visible
+277::umiliato::09/05/2011 16.52.27::visible
+278::nicola m.::24/05/2011 12.56.32::visible
+279::nic.m.::30/05/2011 19.10.46::visible
+280::AFFRANTO::31/05/2011 18.14.12::visible
+281::AI CAPOSELESI::31/05/2011 20.43.52::visible
+282::Gestori sito ARS::01/06/2011 09.35.34::visible
+283::OFFENSIVO::03/06/2011 14.51.35::visible
+284::stanco::27/06/2011 19.54.36::visible
+285::Ansioso::29/06/2011 16.17.32::visible
+286::OFFESO::10/07/2011 19.47.35::visible
+287::sport::11/07/2011 23.26.56::visible
+288::arcobaleno::15/07/2011 18.36.07::visible
+289::nic.m.::23/07/2011 16.06.59::visible
+290::Corriere.it::06/09/2011 14.43.55::visible
+291::nicola.m.::08/09/2011 12.58.34::visible
+292::nic.m.::30/09/2011 13.03.58::visible
+293::Eurosport::13/10/2011 16.16.27::visible
+294::irocheree::15/11/2011 10.23.25::visible
+295::Perygrapeup::25/11/2011 22.34.32::visible
+296::Boing::26/11/2011 08.42.01::visible
+297::deluso::28/11/2011 18.24.34::visible
+298::deluso ::05/01/2012 18.43.05::visible
+299::consiglio::05/01/2012 20.17.21::visible
+300::nic.m.::24/01/2012 12.18.02::visible
+301::deluso::26/01/2012 13.20.54::visible
+302::nic.m.::06/02/2012 16.37.49::visible
+303::nic.m::07/02/2012 17.31.53::visible
+304::polo sud::08/02/2012 11.57.56::visible
+305::poveri noi...::11/02/2012 12.55.09::visible
+306::nic.m.::14/02/2012 12.22.17::visible
+307::vaffanculo::16/02/2012 13.20.40::visible
+308::stronzo::16/02/2012 14.58.49::visible
+309::caposele::16/02/2012 15.20.49::visible
+310::lo stronzo di prima::16/02/2012 18.33.08::visible
+311::lo stronzo di dopo::19/02/2012 15.53.17::visible
+312::stanco e deluso::24/02/2012 11.55.53::visible
+313::arzillo e controilluso::24/02/2012 17.30.13::visible
+314::perplesso::24/02/2012 17.34.09::visible
+315::riperplesso::24/02/2012 17.37.03::visible
+316::nic.m.::05/03/2012 13.37.30::visible
+317::nic.m.::09/03/2012 11.22.00::visible
+318::nic.m.::13/03/2012 12.55.48::visible
+319::amante calcio::20/03/2012 17.42.32::visible
 
 [post_text_0]
 Fermate Nicola Melillo con questa stralaceno: anche i muri di materdomini e caposele non ne possono più.
@@ -1684,17 +1733,6 @@ SOLO CHIACCHIEREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 ULTIMO POSTO IN PROV. DI AVELLINO
 UNICO PAESE CHE NON ABBIAMO UN RAPPRESENTANTE ALLA PROVINCIA.
 &nbsp;
- alla giornata e costretto a stare davanti al bar o a rinchiudersi dentro casa...MA UNA COSA E'CERTA: arrivera'il momento che si dovra'ritornare a votare:devono andare a votare i commercianti e i preti...perche'sono loro che vivono guadagnandosi qualcosa e noi non del settore non siamo mai stati agevolati e quindi costretti ad emigrare...LE PROSSIME ELEZIONI CI ANDATE VOI A VOTARE!!! VERGOGNATEVI PAGLIACCI E NON GIUDICATE LE PERSONE COSTRETTE A STARE IN UN BAR!!! CHI LAVORA A CAPOSELE E NON HA NIENTE A CHE VEDERE COL COMMERCIO E'SOLO UN RACCOMANDATO!!!COMMISSARIO A VITA A CAPOSELE!!! VERGOGNATEVI STRONZI!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-[post_text_270]
-VERGOGNATEVIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
-CAPOSELE PAESE FINITOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-POPOLO RIDICOLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-AMMINISTRAZIONE ASSENTEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
-SOLO CHIACCHIEREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
-ULTIMO POSTO IN PROV. DI AVELLINO
-UNICO PAESE CHE NON ABBIAMO UN RAPPRESENTANTE ALLA PROVINCIA.
-&nbsp;
 
 [post_text_271]
 &gt;ma che senso ha questo forum quando nessuno scrive niente il verbo discutere a caposele non si conosce si e' bravi solo davanti ai bar       a chiacchierare sempre di pallone e stronzate che livello culturale basso e scadente che regna qui non si riesce a trovare un discreto lavoro fuori altrimenti sicuramente non ero qui solita sfortuna e poi    in italia ci sono gente che dice che la crisi non c' e'mai stata e' normale hanno qualcosa loro e non gli frega degli altri sperate sempre che resiste il dittatore berlusconi perche' quando vincera' di nuovo la sinistra vivrete giorni difficili per non parlare delle tante persone che vorrebbero un posto fisso e lo cercano per una vita intera senza riuscirci mi fermo altrimenti potrei dire tante altre cose che potrebbero intaccare la sensibilita' di molti.<br>&gt;<br><br>ma che cavolo state combinando!!! VOGLIAMO COERENZA!!! ai comizi sembrava che caposele poteva diventare tipo Beverly hilss... Chiuso questo capitolo... EMIGRATI: Quando tornate a caposele e'meglio che vi state alle vostre case piuttosto di venire a fare le star, gli intelligenti,e gli ambiziosi!!! VERGOGNATEVI!!!!!!! Voi sapete benissimo a che livelli scadenti siamo rimasti noi residenti...abbiate un minimo di rispetto e solidarieta'nei nostri confronti...noi soffriamo tutto l'anno per colpa di questo paese...voi siete solo stati piu'fortunati di noi SCAPPANDEVENO DA CAPOSELE per un futuro migliore...BRAVI!!!Ma almeno quando tornate non date fastidio parlando della vostra FORTUNA fuori da caposele...E' troppo semplice parlare a vanvera di caposele e delle sue iniziative quando non vi si vive per tutto l'anno...STATEVI SOLO ZITTI!!! Volete far sembrare che va tutto bene nella vita in generale e noi ci sentiamo i FESSI perche'cio'non e'cosi'x chi vive a caposele...A natale, pasqua,in estate andate dai vostri NUOVI AMICI DI CITTA'... NOI ABBIAMO LE P.... GIRATE!!! caposele: PAESE DA ROTTAMARE!!! VERGOGNATEVI!!!!!!!!!!!!!!!!!!
@@ -1834,3 +1872,81 @@ It is better Beng
 
 [post_text_297]
 cari emigrati e' meglio che vi state dove seiete perche' queste feste di natale vi tratteremo con la massima indifferenza e menefreghismo spero tanto che ci saranno pochissime feste non vi meritate niente siete solo degli opportunisti e fortunati nella vita cio' che avete conquistato non e' merito vostro ma del puro caso.
+
+[post_text_298]
+le feste sono finite adesso tutti ritorneranno al proprio ovile nessuno si' e' divertito con le solite feste ridicole va be che schifo caposele smpre piu' paese da rottamare vergognatevi tutti siamo il paese dei balocchi nell'altro mondo ci rivedremo e diremo tutti insieme ma non potevamo nascre da qualche altra parte.
+
+[post_text_299]
+caro deluso, chi te l'ha detto che nessuno si è divertito...tu non l'hai fatto, va be', magari lo farai la prossima volta...oppure se proprio caposele ti ha deluso e pensi che non ci siano speranze prova a trasferirti da qualche altra parte, al nord, o come hanno fatto in tanti prova all'estero, magari sarai più fortunato, oppure ancora, prova a fare qualcosa tu per il paese, qualcosa che ti piaccia e che non ti lasci troppo frustrato, ma sei vuoi un consiglio trovati una ragazza, magari non nei night della zona...vedrai che la vita inizierà a sorriderti
+
+[post_text_300]
+quello che sta succedendo in tutta Italia e' il sintomo ormai evidente che la gente comune non ce la fa piu' a vivere la colpa per me e' della vecchia classe politica degli anni 60 e 70 che hanno creato il sistema clientelare e calpestando la meritocrazia cito qualcuno che a mio avviso ci ha messi in questa crisi senza via d'uscita purtroppo:la democrazia cristiana e il partito socialista elementi come ciriaco de mita bettino craxi e tanti altri sono stati gli artefici di questa drammatica situazione nazionale.ladriiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii Vergognateviiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+[post_text_301]
+ma ci rendiamo conto che il calcio di club e' finito tra scandalo scommesse ed errori arbitrali,stadi vuoti business da sky e mediaset io mi sto sempre di piu' allontanando da quwsto mondo credo sia arrivato il momento di concentrarsi e dare molta piu' attenzione alle nazionali di calcio ci rendiamo conto che manca davvero poco alla disputa dei campionati europei di giugno-luglio in plonia e ucraina e i giornali e le televisioni non ne parlano proprio solo calciomercato e discussione stupide ci sarebbero da dire tante altre cose in merito ma mi fermo qui per ora parliamone io sono letteralmente schifato dal calcio moderno svegliatevi ragazzi bisogna seguire l'Avellino squadra della nostra citta' e portarlo in alto non questi club di giocatori superpagati e venduti.
+
+[post_text_302]
+NEVE hai rotto il cazzo non se ne puo piu' e basta adesso stai distruggendo la vita di tutti i giorni neve vaffanculo!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+[post_text_303]
+oh ma il sondaggio per gli europei non lo gioca nessuno io a fine febbraio lo inserisco forza giocate che e' una bella cosa.
+
+[post_text_304]
+Diamo almeno una volta all'anno del lavoro ai giovani!!! la neve la puliamo noi???ok!!!!!!!pero'mettete mano al portafoglio!!!!!!!!! i soldi nemmeno se (nevica) te li danno!!!siete una banda di lote!!!
+
+[post_text_305]
+ma si parla sempre di roma che nevica con mezzo cm sulle strade e qui in irpinia e tutto il resto del paese che siamo immersi con un minimo di 60cm  sono messe in secondo piano dalle televisioni!!! vergognateviiii!!!!!!!!!!!!!!!!!!!!!!!!!! italia lotaaa!!!
+
+[post_text_306]
+nella vita esistono la gente con le palle e quelli senza in questo paese ce ne sono mltissimi che non hanno le sfere ma e' possibile che esistono persone che non partecipano attivamente alle manifestazioni tipo andare assiduamente allo stadio aseguire la propria squadra di calcio e magicamente nei bar e in strada vogliono parlare di calcio,di avellino,ect. come se loro fossero aggiornati quanto i tifosi che fanno sacrifici andando allo stadio pagando il biglietto e' assurdo e vergognoso che esistono questa gente a voi vi dico solo una cosa VERGOGNATEVIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+INCOERENTIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+IGNORANTIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+scusate lo sfogo ma non se ne puo piu' di questa umiliante e mortificante situazione locale.
+
+[post_text_307]
+siamo immersi in un mare di problemi sia a livello sociale che economico!!! pero'su questo sito non si puo'esprimere la nostra sofferenza perche' subito veniamo ripresi, derisi o snobbati!!! A TUTTI VOI: VERGOGNATEVIIIIIIIIIIIIIII!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! STRONZI!!! se non vi sta bene chiudetelo questo sito del cavolo!!! la corsa ci ha stancato!!!!!! parliamo se mai di cose serie e della fine che abbiamo fatto a caposele!!!!!!!!!!!!!!!!!!!!
+
+[post_text_308]
+&gt;siamo immersi in un mare di problemi sia a livello sociale che economico!!! pero'su questo sito non si puo'esprimere la nostra sofferenza perche' subito veniamo ripresi, derisi o snobbati!!! A TUTTI VOI: VERGOGNATEVIIIIIIIIIIIIIII!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! STRONZI!!! se non vi sta bene chiudetelo questo sito del cavolo!!! la corsa ci ha stancato!!!!!! parliamo se mai di cose serie e della fine che abbiamo fatto a caposele!!!!!!!!!!!!!!!!!!!!<br>&gt;<br><br>Quando mandi a quel paese qualcuno dovresti avere il buon gusto di firmarti, altrimenti uno potrebbe pensare che a scrivere sia uno stronzo di quelli che hai citato, oppure il solito nic.mel...
+Ma poi pensandoci bene questo e' un sito di podismo...allora perche' ti lamenti? Prova a discutere di politica o attualita' su twitter, facebook o caposele.net, selacapo...
+Ma soprattutto non offendere gli altri gratuitamente...dietro un nickname...ma col solito riconoscibile modo di scrivere...
+
+[post_text_309]
+ma vedi FILOSOFO che io non ho citato nessuno ma semplicemente il nostro PAESE che fa schifo!!!
+
+[post_text_310]
+&gt;ma vedi FILOSOFO che io non ho citato nessuno ma semplicemente il nostro PAESE che fa schifo!!!<br>&gt;<br><br>non hai citato nessuno? allora usi la parola 'stronzi' come intercalare?
+e poi filosofo a chi? sei tu che vuoi parlare di politica, economia, religione,
+ospitato in un sito dedicato alla passione per la corsa
+ah...e non alzare la voce (se non lo sapessi ti spiego che scrivere in maiuscolo equivale ad alzare la voce)
+
+[post_text_311]
+...e come cantava De Andre': " attenti al Melilla !!! "
+
+[post_text_312]
+dopo l'ennesima figuraccia che ha fatto il paese di CAPOSELE non posso esimermi dal fare un mio personalissimo commento:premesso e sottolineo premesso che a CAPOSELE dal POST terremoto ad oggi hanno fallito tutte le amministrazioni comunali la questione della convenzione e' stato l'apice di questa decadenza sociale e culturale che regna in questo paese.ci sarebbero da dire moltissime cose ma mi limito con alcuni concetti a far capire a chi legge quello che penso:ma ci rendiamo conto di quanti sbagli sono stati compiuti da chi ha amministrato a caposele e vi elenco solo alcune scellerate scelte:lo stadio palmenta costruito in luogo vergognoso solo per soddisfare gli interessi privati,il centro fieristico che si e' visto la fine che ha fatto( solo chiacchiere ma ancora non ultimato,ma che credavate che siamo MILANO),il progetto del ponte tredogge completamente stravolto e reso un ponticello ridicolo e obsoleto(il progetto era diverso),politiche della montagna rimaste ancora in campagna elettorale,progetto casa popolari(ancora non consegnate ai piani dopo 4 anni vergognoso),strutture sportive zero addirittura nei prossimi mesi verranno costruti 2 campi di calcetto  polivalenti playgraund in zona saure per circa 30000 euro quando altri paese vicini tipo Teora  ne hanno realazzato uno e fatto bene(in erbetta sintetica per calcio a 5 e costato di meno di noi ),piscina comunale affidata a una cooperativa di lioni,riqualificazione di via santuario con chioschi nuovi  invece della arrugginite bancarelle(progetto accantonato),parcheggio multipiano di via s.gerardo a caposele bloccato,questione parcheggi a MATERDOMINI,pensare di  migliorare il fenomento turustico di MATERDOMINI,risvegliare il bosco difesa con lavori di riqualificazione dell'area interessata,il progetto del parco fluviale stralciato in toto e tente altre cose che poi scrivero' piu' avanti .e' da cio' che bisogna ripartire con una nuova amministrazione composta da nuove persone che non sono mai stati candidati in lista ma intelligenti,capaci,aperti mentalmente,volenterosi,disponibli con la gente,fattivi nei fatti,io credo che questa e' l'unica strada per risorgere dalle sabbie mobili in cui siamo sprofondati da molti anni.
+
+[post_text_313]
+Stanco e deluso VAI A LAVORAREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE!
+VERGOGNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+[post_text_314]
+VERGOGNATEVI VOIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII CAPOSELE PAESE DI CHIACCHIEREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE E FALSITA'
+
+[post_text_315]
+VAI A LAVORAREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+QUI NON RI SOPPORTA NESSUNOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+VERGOGNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+&nbsp;
+
+[post_text_316]
+Questo calcio malato non ci appartiene piu' vergognatevi lega e calciatori siete solo dei buffoni venduti mercenari ladri super pagati per me dovete andare tutti a lavorare e azappare la terra.oramai le partite sono tutte truccate e manipolate in chiave scommesse sportive,concentriamoci sulle nazionali che e' molto meglio.
+
+[post_text_317]
+falsi tifosi biancoverdi vergognatevi vi rendete conto che ci sono stadi in cui il biglietto costa di piu' che in curva sud ad avellino e preferite guardare partite truccate di serie a in televisione riuscite a capire che bisogna affezionarsi alla squadra della nostra citta' e seguirla non questi mercenari superpagati buffoni e venduti per voi esiste solo una parola:Sveglia prima che sia troppo tardi.
+
+[post_text_318]
+e giocate il sondaggio per gli europei dai forza che siamo ancora in pochi.
+
+[post_text_319]
+Grazie Chelsea e Grazie Olimp. Marsiglia a livello europeo purtroppo esiste solo il Milan e in futuro la Juve.
