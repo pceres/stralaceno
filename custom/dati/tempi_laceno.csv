@@ -253,7 +253,7 @@ ID;Atleta;Pos.;Tempo;Anno;Note
 98;Gerardo Grasso di Ton.;7;22'32'';2001;
 99;Pierlorenzo Pallante;12;23'52'';2001;
 100;Giovanni Paolercia;14;24'34'';2001;
-101;Michele Notaro ;16;24'52'';2001;
+101;Michele Notaro;16;24'52'';2001;
 102;Angelo Ceres di Vinc.;19;25'25'';2001;
 103;Angelo Di Masi;22;26'21'';2001;
 104;Mario Cibellis;23;26'23'';2001;
@@ -303,7 +303,7 @@ ID;Atleta;Pos.;Tempo;Anno;Note
 95;Giuseppe Viscardi;45;30'51'';2002;
 99;Pierlorenzo Pallante;10;24'18'';2002;
 100;Giovanni Paolercia;28;26'42'';2002;
-101;Michele Notaro ;9;24'12'';2002;
+101;Michele Notaro;9;24'12'';2002;
 102;Angelo Ceres di Vinc.;15;24'49'';2002;
 104;Mario Cibellis;26;26'21'';2002;
 106;Gelsomino Rosania;19;25'43'';2002;
@@ -358,7 +358,7 @@ ID;Atleta;Pos.;Tempo;Anno;Note
 95;Giuseppe Viscardi;51;35'30'';2003;
 98;Gerardo Grasso di Ton.;3;23'10'';2003;
 99;Pierlorenzo Pallante;20;25'20'';2003;
-101;Michele Notaro ;14;24'34'';2003;
+101;Michele Notaro;14;24'34'';2003;
 102;Angelo Ceres di Vinc.;22;25'42'';2003;
 103;Angelo Di Masi;25;26'06'';2003;
 106;Gelsomino Rosania;17;24'40'';2003;
@@ -520,7 +520,7 @@ ID;Atleta;Pos.;Tempo;Anno;Note
 195;Giuseppe Melillo;22;25'47'';2006;
 158;Gaetano Vitale;23;25'57'';2006;
 196;Luigi Russomanno;24;25'59'';2006;
-101;Michele Notaro ;25;26'06'';2006;
+101;Michele Notaro;25;26'06'';2006;
 39;Massimo Cetrulo;25;26'06'';2006;
 141;Vincenzo Lenza;27;26'32'';2006;
 80;Lorenzo Merola;28;26'38'';2006;
@@ -757,7 +757,7 @@ ID;Atleta;Pos.;Tempo;Anno;Note
 124;Luca Cibellis;15;24'27'';2010;
 200;Gaetano D'Elia;16;24'34'';2010;
 235;Giuseppe Caruso;17;24'36'';2010;
-101;Michele Notaro ;18;24'37'';2010;
+101;Michele Notaro;18;24'37'';2010;
 193;Ernesto Donatiello;19;24'48'';2010;
 102;Angelo Ceres di Vinc.;20;24'52'';2010;
 109;Armando Grasso di Pasqu.;21;25'09'';2010;
@@ -847,7 +847,7 @@ ID;Atleta;Pos.;Tempo;Anno;Note
 76;Sandro Russomanno di Ger.;54;30'02'';2011;
 252;Gerardo Monteverde 1983;55;30'22'';2011;
 211;Gerardo Amendola;56;30'31'';2011;
-1;Donato Merola;56;30'31'';2011;
+1;Donato Merola;56;30'31'';2011;Malgrado il parere contrario del medico curante, presenzia alla manifestazione con andatura prudente.
 91;Antonio D'Elia;58;30'46'';2011;
 53;Armando Grasso di Raff.;59;30'52'';2011;
 30;Antonio Ceres;60;31'42'';2011;
