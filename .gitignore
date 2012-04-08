@@ -1,7 +1,11 @@
 *~
 something_changed.txt
+captcha/tmp/
 custom/config/challenge.php
 custom/contatori/backupfile*.txt
 custom/contatori/logfile.txt
 custom/contatori/lasthitfile.txt
-custom/contatori/temp/*
+custom/contatori/temp/
+custom/contatori/back/
+custom/forums/templog.txt
+custom/moduli/last_contents/last_contents_cfg.txt
