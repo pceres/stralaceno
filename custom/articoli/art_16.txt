@@ -19,3 +19,16 @@ width="440">
 </div>
 <br>
 --- End body ---
+3/2012: pronti per il "tradizionale" allenamento del sabato
+<br><br>
+<div align="center">
+<img id="" src="%file_root%custom/album/ars/all.marzo2012.JPG" alt="" border="0" width="460">
+<br>
+</div>
+<br><br>
+<div align="center">
+<img id="" src="%file_root%custom/album/ars/all2.marzo2012.JPG" alt="" border="0" width="460">
+<br>
+<br>
+-->
+--- End body ---

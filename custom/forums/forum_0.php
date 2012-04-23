@@ -23,7 +23,7 @@ Formato [elenco_topics]:
 6::Come funziona il forum::open::::::ceres::3::2
 7::Le sfide della Stralaceno::open::::::foxy::145::149
 8::Soddisfatti della stralaceno edizione 2006???::hidden::::::cabo86::5::4
-9::Discussione::open::::::Antonio::331::319
+9::Discussione::open::::::Antonio::336::324
 10::Gare::open::::::cabo::35::44
 11::Sezione ciclismo::open::::::Donato Gervasio::33::32
 12::Allenamento Collettivo::open::::::Ars::45::44
@@ -45,7 +45,7 @@ Formato [elenco_topics]:
 28::sentenza::hidden::::::emigrato::1::0
 29::forza caposele::hidden::::::gaetano::2::1
 30::MEZZA MARATONA CITTA' DI POTENZA TUNE-UP::hidden::::::MIMMO55::1::0
-31::I problemi di caposele::open::::::gaetano::7::6
+31::I problemi di caposele::open::::::gaetano::11::10
 32::vergognatevi!!!!!::hidden::::::ESASPERATI::1::0
 33::sto arrivando!!::open::::::gaetano::6::5
 34::stufato::hidden::::::hamsik::3::2

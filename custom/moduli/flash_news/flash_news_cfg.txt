@@ -166,3 +166,7 @@
 #
 [testo_footer]
 #Ultimo aggiornamento effettuato il ../../....
+o testo_footer:  testo
+#
+[testo_footer]
+#Ultimo aggiornamento effettuato il ../../....

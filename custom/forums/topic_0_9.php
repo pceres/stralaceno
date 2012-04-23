@@ -331,6 +331,11 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 317::nic.m.::09/03/2012 11.22.00::visible
 318::nic.m.::13/03/2012 12.55.48::visible
 319::amante calcio::20/03/2012 17.42.32::visible
+320::nicola.m.::29/03/2012 17.20.39::visible
+321::italia B::12/04/2012 13.20.16::visible
+322::nic.m.::16/04/2012 12.01.56::visible
+323::parole,parole,parole::19/04/2012 13.14.35::visible
+324::stanco e umiliato::19/04/2012 19.45.13::visible
 
 [post_text_0]
 Fermate Nicola Melillo con questa stralaceno: anche i muri di materdomini e caposele non ne possono più.
@@ -1950,3 +1955,18 @@ e giocate il sondaggio per gli europei dai forza che siamo ancora in pochi.
 
 [post_text_319]
 Grazie Chelsea e Grazie Olimp. Marsiglia a livello europeo purtroppo esiste solo il Milan e in futuro la Juve.
+
+[post_text_320]
+cari caposelesi vi muovete a giocare questo sondaggio per euro 2012 affrettatevi che stanno giocando solo forestieri e cazzo ci svegliamo un po'!!!!
+
+[post_text_321]
+quest'anno gli europei l'italia non dovrebbe proprio partecipare.. ma che giochiamo con pazzini,balotelli,amauri...ecc. meglio allora giocare con i cosiddetti anziani:del piero,toni,inzaghi... l'italia farebbe piu' bella figura se giocasse con i ragazzi dell'under 21 dove gioca tipo insigne,gabbiadini,immobile
+
+[post_text_322]
+ma questo sondaggio per gli europei non interessa a nessuno e giocate quando si fa una cosa interessante come al solito poca partecipazione ma non so che dire sveglia che il calcio di club e' finito e corrotto.
+
+[post_text_323]
+si avvicinano le elezioni...vi aspetto con una pala se uno cerca il voto dicendo le solite stronzate:posti di lavoro,strutture per caposele ecc.   andate a lavorare la terra!!! commissario a vita!!
+
+[post_text_324]
+ottino poche parole per testimoniare il fallimento inesorabile di questo paese l' anno prossimo non vi presentate che per come avete amministrato dovete prendere zero voti.caposele mi fai sempre piu' schifo!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
