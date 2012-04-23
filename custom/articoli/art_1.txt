@@ -1,35 +1,25 @@
 Autore::Ars
-Titolo::Consiglio Direttivo e Responsabili di Settore ARS
+Titolo::Rendiconto e Relazione ARS 2011
 --- Begin body ---
-<br><br>
-CONSIGLIO DIRETTIVO (durata 3 anni, scadenza mandato aprile 2011)<br>
+<FONT SIZE="3"><FONT FACE="calibri"> <br><br>
+<FONT color="red"><i>Il Rendiconto e la Relazione anno 2011 ARS li trovate <a href="download.php?resource_type=file&amp;resource_id=file_rendiconto_e_relazione_ARS_2011">qui</a>.  </i>
+<br><br><br></font>
+<font color="black">
+Il CONSIGLIO DIRETTIVO ARS, eletto il 22 aprile 2011 (durata 3 anni), &egrave; composto da<br>
 <br>
-Presidente: PAOLO VISCARDI
+Presidente: DONATO CERES
 <br>
 <br>
-Vice Presidente: PASQUALE CERES
+Vice Presidente: PAOLO VISCARDI
 <br>
 <br>
 Segretario Amministrativo: ALESSANDRO RUSSOMANNO
 <br>
 <br>
 Consigliere: NICOLA D'AURIA
-<br><br><br>
-RESPONSABILI DI SETTORE, nominati il 10.04.2010 (durata 1 anno):
-<br><br>
-Responsabile ARS Calabritto: SAVERIO PERNA
-<br><br>
-Responsabile Relazioni Esterne: NICOLA CICCONE
-<br><br><br>
-<div align="center">
-<img id="Roma_2008" src="%file_root%custom/album/Soci_ars/PV2.jpg" alt="Il presidente Paolo Viscardi" border="0" width="160">
-</div>
-<br><br>
---- End body ---
-e <a href="download.php?resource_type=file&amp;resource_id=file_rendiconto_e_relazione_ARS_2010">qui</a>.</font></font></font></i>
 <br><br>
 <div align="center">
-<img id="" src="%file_root%custom/album/Roma_10/Roma10_7.jpg" alt="Il nuovo predidente DONATO CERES in azione" border="0" width="500">
-</div>
+<img id="Il predidente DONATO CERES in azione" src="%file_root%custom/album/Roma_10/Roma10_7.jpg" alt="Il predidente DONATO CERES in azione" border="0" width="500">
+</div></font></font></font>
 <br>
 --- End body ---

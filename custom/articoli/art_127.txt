@@ -9,3 +9,6 @@ Titolo::La Foto della Settimana
 <i>La raccolta dell'album "La Foto della Settimana" la trovate <a href="album.php?anno=Foto Settimana">qui</a>.<br>
 </b></i>
 --- End body ---
+ Settimana" la trovate <a href="album.php?anno=Foto Settimana">qui</a>.<br>
+</b></i>
+--- End body ---

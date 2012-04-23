@@ -18,6 +18,10 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 4::BUSINESS::01/02/2012 13.39.33::visible
 5::w il sud::03/02/2012 19.12.44::visible
 6::anti inter::12/02/2012 17.01.18::visible
+7::deluso::22/03/2012 12.55.58::visible
+8::attento::29/03/2012 17.25.28::visible
+9::uno::11/04/2012 15.17.06::visible
+10::nic.m.::19/04/2012 19.48.52::visible
 
 [post_text_0]
 a caposele non solo non c'e'nessuno,ma per quei pochi che siamo rimasti viviamo in uno stato di precarieta'dovuta alla mancanza di occupazione in primix, e tutto il resto fa da cornice a questo problema. il calcio in un paese come caposele e' finito, nemmeno una terza categoria si fa piu',con un campo dal valore di 2 miliardi... che vergogna! calabritto ci ha superati! loro hanno una squadra, un campo, e una pista d'atletica, noi invece dobbiamo correre in mezzo al traffico o in campagna col rischio di essere aggrediti dai cani. spero che un giorno caposele rinasca, e quei pochi che ora sono piccoli abbino un futuro piu' roseo e no costretti a scappare da caposele per mancanza di TUTTO.
@@ -40,3 +44,15 @@ Grazie Palermo e adesso daje Roma cia puoi fa siamo con te magica.
 
 [post_text_6]
 Grazie Novara vi amo siete ritornati sulla terra lo scudetto quest'anno e' chiuso concentratevi sulla champions che rischiate di non vincere niente.
+
+[post_text_7]
+Farina DIMETTITI in 4 ANNI hai SEMINATO IL NULLA non hai un progetto una tua idea di amministrazione sulla convenzione avete fatto solo chiacchiere inutili per far ripartire CAPOSELE si doveva costruire una fabbrica di imbottigliamento di acqua ed invece di voi nessuno ne ha parlato questo e' l'unico modo per combattere la disoccupazione e il disagio giovanile che regna ormai da anni in questo paese fallito e distrutto moralmente.VERGOGNATEVIIIIIIIIIIIIIIIIIIIIIIIIIIII!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+[post_text_8]
+nella vita ci sono le persone con le p e quelli senza in questo paese sono moltissimi in piu' i secondi caposele paese senza dignita' competenza coerenza e decisione solo chiacchiere  a volonta' per me tra qualche anno saremo come un villaggio in un deserto lontano dal mondo .
+
+[post_text_9]
+una parola soltanto...eremitaggio
+
+[post_text_10]
+solo in 8 di caposele hanno giocato al sondaggio per gli europei niente non c'e' da fare in questo paese non si riesce mai a capire le cose belle che stufficano la fantasia e il divertimento resteremo per sempre uno stupido e arretrato comune solo bla bla bla davanti ai bar.
