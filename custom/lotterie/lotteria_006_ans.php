@@ -52,7 +52,7 @@ nd
 Danimarca::
 Repubblica Ceca::
 Portogallo::
-Irlanda::
+Irlanda::4,0;3,0;2,0;1,0
 Inghilterra::
 Croazia::
 Germania::
