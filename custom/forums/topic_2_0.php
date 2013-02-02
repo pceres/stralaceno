@@ -196,6 +196,59 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 182::CorriereIrpinia.it::17/04/2012 16.55.20::visible
 183::CorriereIrpinia.it::19/04/2012 15.13.46::visible
 184::CorriereIrpinia.it::21/04/2012 14.20.33::visible
+185::CorriereIrpinia.it::24/04/2012 16.54.42::visible
+186::CorriereIrpinia.it::30/04/2012 11.37.05::visible
+187::CorriereIrpinia.it::02/05/2012 16.39.54::visible
+188::CorriereIrpinia.it::03/05/2012 16.52.41::visible
+189::CorriereIrpinia.it::24/05/2012 14.06.16::visible
+190::CorriereIrpinia.it::25/05/2012 15.25.22::visible
+191::CorriereIrpinia.it::30/05/2012 14.07.52::visible
+192::CorriereIrpinia.it::06/06/2012 12.53.08::visible
+193::CorriereIrpinia.it::07/06/2012 14.05.41::visible
+194::CorriereIrpinia.it::11/06/2012 16.30.49::visible
+195::CorriereIrpinia.it::13/06/2012 16.21.37::visible
+196::CorriereIrpinia.it::25/06/2012 11.25.27::visible
+197::CorriereIrpinia.it::28/06/2012 14.47.58::visible
+198::CorriereIrpinia.it::29/06/2012 16.10.27::visible
+199::CorriereIrpinia.it::02/07/2012 10.53.35::visible
+200::CorriereIrpinia.it::06/07/2012 11.00.44::visible
+201::Corriereirpinia.it::09/07/2012 11.44.26::visible
+202::CorriereIrpinia.it::09/07/2012 15.36.55::visible
+203::CorriereIrpinia.it::13/07/2012 12.45.55::visible
+204::CorriereIrpinia.it::16/07/2012 10.23.59::visible
+205::CorriereIrpinia.it::23/07/2012 11.07.06::visible
+206::Irpinianews.it::28/07/2012 12.53.16::visible
+207::CorriereIrpinia.it::02/08/2012 14.18.50::visible
+208::CorriereIrpinia.it::03/08/2012 17.18.34::visible
+209::CorriereIrpinia.it::09/08/2012 16.19.47::visible
+210::CorriereIrpinia.it::14/08/2012 14.56.05::visible
+211::CorriereIrpinia.it::19/08/2012 17.15.40::visible
+212::CorriereIrpinia.it::22/08/2012 16.54.37::visible
+213::CorriereIrpinia.it::24/08/2012 21.53.59::visible
+214::CorriereIrpinia.it::08/09/2012 19.59.26::visible
+215::Ilmattino.it::09/09/2012 19.53.25::visible
+216::CorriereIrpinia.it::10/09/2012 14.10.05::visible
+217::CorriereIrpinia.it::17/09/2012 12.18.49::visible
+218::CorriereIrpinia.it::18/09/2012 12.24.41::visible
+219::CorriereIrpinia.it::20/09/2012 10.55.10::visible
+220::CorriereIrpinia.it::01/10/2012 15.19.28::visible
+221::CorriereIrpinia.it::18/10/2012 11.53.22::visible
+222::CorriereIrpinia.it::20/10/2012 21.32.11::visible
+223::CorriereIrpinia.it::23/10/2012 16.22.02::visible
+224::CorriereIrpinia.it::24/10/2012 12.53.57::visible
+225::CorriereIrpinia.it::26/10/2012 09.05.04::visible
+226::IrpiniaNews.it::30/10/2012 09.37.15::visible
+227::Ottopagine.it::30/10/2012 13.05.11::visible
+228::CorriereIrpinia.it::31/10/2012 11.26.59::visible
+229::CorriereIrpinia.it::07/11/2012 12.34.37::visible
+230::Ottopagine.it::08/11/2012 13.27.12::visible
+231::CorriereIrpinia.it::16/11/2012 11.37.01::visible
+232::CorriereIrpinia.it::13/12/2012 16.51.39::visible
+233::CorriereIrpinia.it::07/01/2013 10.39.15::visible
+234::CorriereIrpinia.it::23/01/2013 12.53.27::visible
+235::http://iohounsogno.wordpress.com::24/01/2013 13.14.04::visible
+236::Irpinianews.it::25/01/2013 14.15.03::visible
+237::CorriereIrpinia.it::28/01/2013 12.55.40::visible
 
 [post_text_0]
 In questo spazio saranno inseriti articoli apparsi sul web relativi ad eventi, persone, fatti avvenuti a Caposele.
@@ -3019,3 +3072,899 @@ Dopo le dichiarazioni dell’assessore regionale è intervenuto il primo cittadino 
 Sono convinto che questo possa essere un momento importante per il rilancio del territorio anche perchè ho parlato con altri sindaci della zona per creare dei veri e propri tour turistici. Solo in questo modo possiamo pensare di rilanciare il territorio e di pensare al futuro ed all’occupazione dei nostri giovani.
 Se poi da Napoli hanno deciso di distruggerci e di non considerarci proprio non dandoci prospettive di crescita è un altro discorso, ma se ne dovranno assumere tutte le loro responabilità».
 &nbsp;
+
+[post_text_185]
+Convenzione con l'Aqp, Cione: «L’assessore Romano verrà a Caposele»
+&nbsp;
+&nbsp;
+Da qualche giorno l’assessore regionale all’Ambiente Giovanni Romano sta lavorando all’accordo di programma tra la Campania e la Puglia.
+Di fatto questa, agli occhi di Antonio Cione, esponente di punta di Cittadinanzattiva, è l’ennesima dimostrazione dell’errore strategico commesso dal sindaco di Caposele Pasquale Farina.
+L’accordo approvato dal Consiglio Comunale lo scorso 19 febbraio e mandato a Bari per uno studio approfondito sarebbe nullo.
+«L’Acquedotto Pugliese - afferma Cione - non è titolato a firmare nessuna convenzione. Il sindaco Farina se lo metta in testa».
+&nbsp;
+D’altronde nei giorni scorsi l’assessore Romano è stato chiaro.
+«Ho chiesto di non procedere con l’accordo con Caposele prima di aver firmato l’accordo generale. Non può valere la linea di accordi bilaterali semplicemente perché non si è stabilito ancora il prelievo massimo» disse Romano.
+&nbsp;
+«L’assessore campano è pronto a venire a Caposele nei prossimi giorni e a spiegare al sindaco e ai cittadini come stanno davvero le cose - continua Cione - Cittadinanzattiva è pronta a preparare nei minimi particolari questa manifestazione. I cittadini devono aprire gli occhi, dobbiamo evitare quello che è un vero e proprio scippo. Di fatto, le millequattrocento firme raccolte nelle scorse settimane hanno spinto l’assessore Romano a intervenire prontamente».
+&nbsp;
+«L’acqua è un bene di tutta Caposele - continua Cione - Abbiamo un’occasione epocale dinanzi. Dobbiamo far pesare il nostro potere dinnanzi ai vertici regionali, sia campani che pugliesi».
+In Italia oggi ci sono solo sei comuni possessori esclusivi di una considerevole quantità di acqua.
+«L’acqua potrebbe essere davvero il volano per il nostro sviluppo turistico. Immagino un collegamento tra il turismo religioso di Materdomini e quello legato alle Sorgenti della Sanità. Si potrebbe realizzare, ad esempio, una funivia che colleghi questi due punti cardine di Caposele».
+&nbsp;
+Poi l’ultima stoccata all’Aqp.
+«E’ inaccettabile che il 40% dell’acqua che viene prelevata si perda poi per strada a causa delle condizioni pietose di alcune infrastrutture dell’Aqp. Questo è l’ennesimo schiaffo».
+
+[post_text_186]
+Caposele, inaugurato il Museo delle Macchine di Leonardo
+&nbsp;
+Un’occasione meravigliosa per visitare, a due passi da casa, un luogo affascinante e di grande livello culturale che vi trasporterà nel mondo stupefacente del Genio di Vinci attraverso una serie di riproduzioni delle sue macchine più significative e suggestive. Il museo stabile delle macchine di Leonardo ha a Caposele una collocazione straordinariamente&#8194; coerente con lo spirito con il quale il genio di Vinci ha studiato e progettato le magnifiche opere di ingegneria meccanica.
+&nbsp;
+Il paese dell’acqua che&#8194; in un recente passato basava la sua forza economica ed industriale sul funzionamento di mulini, gualchiere, tintorie tutte mosse attraverso la potenza dell’acqua associata alla genialità dell’uomo, ospita questa mostra fantastica che si inaugura nella mattinata di oggi. Leonardo ha spesso trattato di macchine dedicate all’idraulica e qui nell’allestimento curato dal Comune di Caposele e dall’Ompsi&#8194; si possono ammirare esempi di estrema razionalità e genialità. Le macchine in esposizione sono&#8194;le riproduzioni fedelissime di alcune delle vere macchine tratte dai codici vinciani e offrono a ciascun visitatore un'esperienza unica dove la percezione sensoriale e la conoscenza in materia di Leonardo si sposano dando al visitatore la sensazione di immergersi in un passato di straordinaria attualità. Oltre alle macchine all’interno del museo ci si può immergere anche in riproduzioni di schizzi, progetti e pitture del grande genio italiano.
+&nbsp;
+Soddisfatto dell'iniziativa l'assessore Salvatore Conforti.
+«Un museo di questa portata non si vede tutti i giorni e soprattutto non si è mai visto da Roma in giù. Con grande orgoglio e piacere è stato inaugurato a Caposele nella sala esposizioni delle Sorgenti del Sele il museo stabile delle macchine di Leonardo. Ben ventidue invenzioni riprodotte fedelmente e quadri, schizzi, progetti del genio di Vinci alla portata dei visitatori e degli studenti che a centinaia già hanno prenotato la vista a Caposele per gustare delle nostre bellezze. Oltre al Museo, infatti, si possono visitare, le sorgenti del Sele , il museo Gerardino del Santuario di San Gerardo, il museo dell'acqua, il tempio artistico di San Lorenzo e il parco fluviale. Una grande emozione tra fede ambiente e cultura per un soggiorno per il quale si potranno utilizzare le organizzate strutture ricettive di Materdomini. Per le prenotazioni al Museo e al minitour con l'accompagnamento di guide turistiche locali si puo' compilare un form all'interno della home page del sito del comune dedicato al turismo: www.caposele.info».
+&nbsp;
+
+[post_text_187]
+Caposele, Cione: «Fiume Sele? Incaricato un tecnico di fiducia»
+&nbsp;
+&nbsp;
+&nbsp;
+CAPOSELE - Rientra anche se parzialmente la questione Fiume Sele a Caposele. Nel tardo pomeriggio di sabato l’esponente di Cittadinanzattiva Antonio Cione aveva lanciato l’allarme dicendo che il deflusso minimo vitale del Fiume Sele era scarsissimo.
+Ora interviene per fare il punto della situazione dopo 48 ore dal suo appello.
+«Nel tardo pomeriggio di sabato - dice - mi sono accorto, insieme ad altri amici, che il deflusso minimo vitale del Fiume Sele era scarso ed ho lanciato l’allarme. Ero pronto a recarmi presso la Procura della Repubblica per sporgere regolare denuncia, ma nella giornata di lunedì - spiega - ci siamo accorti che la situazione è migliorata ed ora ci sono circa 100 litri di acqua al secondo che scorrono. Rispetto alla questione, insieme a Lello Gaudiosi, dell’Associazione Amici del Sele stiamo lavorando e abbiamo dato incarico ad un tecnico specializzato, Gelsomino Cione, ex dipendente dell’Acquedotto Pugliese, di seguire la situazione per darci tutte le consulenze necessarie del caso. Siamo certi che il suo lavoro e quello del legale Antonio Chiaravallo potranno e saranno certamente essenziali per la tutela non solo del Fiume Sele, ma anche del Calore e dell’Ofanto. Non vogliamo polemizzare e strumentalizzare nulla, ma siamo solo per la salvaguardia del bellissimo patrimonio naturale dell’Alta Irpinia».
+&nbsp;
+&nbsp;
+----------------------------------------------------------------------------------------
+&nbsp;
+A Caposele il Comitato Pro Sele chiede lo scioglimento del Consiglio
+&nbsp;
+&nbsp;
+Il Comitato Pro Sele chiede lo scioglimento del Consiglio comunale di Caposele per l’assenza, più volte sottolineata dal gruppo, di un regolamento di attuazione per l’indizione del referendum. A scrivere al Presidente della Repubblica Giorgio Napolitano, al Ministro degli Interni Anna Maria Cancellieri, al Prefetto di Avellino, Umberto Guidato ed al Procuratore della Repubblica di Sant’Angelo dei Lombardi, Antonio Guerriero, sono Cetrulo Giovanni e Luigi Malanga nella qualità di Presidente e Vice Presidente del Comitato Promotore ProSele.
+&nbsp;
+«Il Comune di Caposele - scrivono i due per il Comitato - non si è ancora dotato dopo ben 11 anni dall’ultima modificazione dello Statuto Comunale risalente a gennaio 2001, di un regolamento di attuazione per l’indizione del referendum, il quale non può mancare come conferma l’ex Difensore Civico di Trento Donata Borgonovo docente di diritto amministrativo all’Università di Trento, rispondendo ad una domanda specifica. Il Comitato ProSele ed altre associazioni hanno dichiarato l’esigenza, ed effettuato, richiesta di indizione di referendum indirizzata al Sindaco ed ai consiglieri comunali tutti.
+&nbsp;
+Il Comitato - continuano - con nota 12 dicembre 2011 ha chiesto al sindaco di Caposele di porre in essere tutte le procedure necessarie per arrivare all’approvazione del regolamento comunale e poter successivamente indicare l’iter per l’indizione di un referendum comunale entro e non oltre il termine di 30 giorni dalla ricezione della nota ovvero ad esporre le ragioni del ritardo ai sensi dell’art. 328 comma 2 del codice penale.
+&nbsp;
+Il sindaco con nota datata 11 gennaio 2012 assicurava che l’argomento era all’esame della Giunta e che sarebbe stato posto all’ordine del giorno nella prossima seduta del consiglio comunale su richiesta di 5 consiglieri comunali di minoranza presentata il 30 dicembre 2011. La maggioranza pur avendo convocato un consiglio comunale straordinario, monotematico ha bocciato il regolamento non avendo inserito nessun emendamento nei dicei giorni di deposito dello schema tenuto depositato.
+&nbsp;
+Inoltre c’è da dire che è stata reiterata la diffida ad adempiere entro trenta giorni con un esposto-diffida inviato al Sindaco in riferimento all’approvazione del regolamento in data 8 marzo 2012. Il Sindaco ha riscontrato tale richiesta con nota datata 10 aprile 2012 e pervenuta il 17 aprile 2012, ben oltre i 30 giorni di legge. Con tale nota si certifica il persistere della fattispecie omissiva circa la dovuta adozione del regolamento di attuazione, ammette di aver pronto sin dal 30 di novembre 2011, ma che continua a non voler sottoporre all’approvazione consiliare senza esporre ragione alcuna giustificatrice dell’annoso ritardo. la mancata approvazione del regolamento di attuazione appare chiaramente tesa ad impedire ai Caposelesi di potersi pronunziare sulla importante questione in materia, di politiche di sviluppo del Comune e nella fattispecie in relazione alla tematica dell’acqua. Appare pertanto, estremamente urgente non più rinviabile procedere all’adozione del regolamento. L’art.141 del T.U.E.L. - spiegano dal Comitato - stabilisce, in via straordinaria ed eccezionale, che i consigli comunali vengono sciolti con decreto del Presidente della Repubblica, su proposta del Ministero dell’Interno, nei casi e per i motivi tassativamente previsti dalla legge.
+&nbsp;
+In via cautelare, nelle more dell’emanazione del decreto, una volta iniziata la procedura per lo scioglimento, il Prefetto, per motivi di grave ed urgente necessità, può sospendere il Consiglio, per un periodo non superiore a novanta giorni, nominando un Commissario per la provvisoria amministrazione. Nonostante i ripetuti esposti e denunce presso la Procura di Sant’Angelo dei Lombardi, appelli attraverso i giornali e le televisioni, ad oggi, il Comune di Caposele, il Sindaco e la sua maggioranza continuano a non ascoltare nessuno.
+&nbsp;
+Tutto ciò accade in maniera scientifica e non casuale applicando ed approvando a maggioranza risicatissime, atti precostituiti e calati dall’alto alla cui decisione codesto Comitato, singoli cittadini ed altre associazioni affiancati da ben sei consiglieri vorrebbero arrivare per il tramite di un referendum.
+&nbsp;
+Il mancato rispetto delle leggi in materia referendaria rientra, di fatto, nella fattispecie ricompresa nelle gravi e persistenti violazioni di legge che possono dare origine a un decreto di scioglimento di un Comune. Per tutti quest motivi - concludono dal Comitato - chiediamo alle istituzioni sovracomunali preposte d’intervenire sul grave vulnus democratico e sull’illegittimità amministrativa in cui l’amministrazione di Caposele si trova.
+&nbsp;
+Inoltre chiediamo di verificare se sussistono i presupposti di cui all’rt. 147 del T.u.e.l. e conseguentemente erogare, da parte del Prefetto i poteri sostitutivi di cui è titolare in subjacta materia ed avviare, qualora ce ne fossero i presupposti sopra descritti, un decreto di scioglimento del Comune di Caposele.
+Chiediamo che, nel nostro paese, prevalga la legge ed il senso di democrazia come prevede la Carta Costituzionale».
+&nbsp;
+In conclusione è forte la provocazione di Luigi Malanga. «In poche parole la nostra domanda ai più alti vertici istituzionali è questa: Caposele è un paese dell’Italia o no?»
+&nbsp;
+&nbsp;
+-------------------------------------------------------------------------------------
+&nbsp;
+Caposele, Cione: «Dove è finito il deflusso minimo vitale per il fiume?»
+&nbsp;
+&nbsp;
+Nel tardo pomeriggio di sabato a lanciare l’allarme a Caposele ci ha pensato Antonio Cione, esponente di punta di Cittadinanzattiva. In pratica si è notato un deflusso scarsissimo delle acque del Fiume Sele. Il minimo che l’Acquedotto Pugliese dovrebbe garantire è di 300 litri al secondo, ma sabato, il tutto, era decisamente inferiore.
+Preoccupato Antonio Cione.
+«Passando nelle vicinanze del canale di deflusso del Fiume Sele - dice - ho notato che era quasi a secco. Arrivato in Piazza Sanità ho chiesto delucidazioni sia ai carabinieri che ai Vigili Urbani i quali mi hanno spiegato che avevano notato la stessa cosa e che molti cittadini discutevano questa situazione. A Caposele nessuno ha capito cosa è accaduto. Mi sono messo, immediatamente, in contatto con Lello Gaudiosi, che da una vita sta facendo una battaglia su questo argomento e ci siamo organizzati per preparare anche un servizio fotografico da inviare alle autorità competenti. Senza nessuna malizia ho fatto una constatazione che mi fa venire qualche sospetto. Sabato c’è stata l’inaugurazione della mostra delle Macchine di Leonardo. Poichè i capannoni che la ospitano sono stati garantiti dall’Acquedotto Pugliese e poichè si sta discutendo una convenzione con il Comune non vorrei che l’Acquedotto Pugliese abbia anticipato i tempi ed iniziato una maggiore captazione delle acque. Diversamente è difficile spiegare un fenomeno del genere».
+&nbsp;
+&nbsp;
+
+[post_text_188]
+Caposele, bracconiere ad 84 anni: denunciato dalle guardie ambientali
+&nbsp;
+Ad ottantaquattro anni era ancora intento a sistemare lacci e tagliole per la caccia, ovviamente in questi tempi non autorizzata, al cinghiale. Quello che era ritenuto una volpe vecchia già sparata, per gli addetti ai lavori di bracconaggio, sta a significare per un persona molto astuta, più furba di una volpe. Sarà l'età, ma solo fino a ieri, anche perché stavolta e capitato male, si e scontrato con le guardie ambientali dell’associazione Ambiente e Vita e con quelle delle della Federazione Pro Vita entrambe della sezione di Avellino.
+&nbsp;
+N. V. bracconiere nativo e residente a Caposele, è stato preso in flagranza di reato in località Oppido Preta del comune di Lioni, mentre posizionava in un torrente lacci e tagliole per la cattura dei cinghiali. Le installava, con la collaborazione di un sua amico, sui sentieri dove abitualmente passavano i cinghiali, tagliole costruite artigianalmente pericolosissime anche per le persone, incappare in una tagliola robusta, così come era stata costruita si rischiava di rimetterci il piede.
+&nbsp;
+Sul posto sono intervenuti anche i Carabinieri della Stazione di Lioni, che unitamente alle Guardie Ambientali hanno sottoposto a sequestro un laccio d’acciaio già pronto per la caccia illecita e una tagliola di grosse dimensioni. Dai successivi controlli effettuati dai militari dell'Arma, il bracconiere aveva anche un machete affilatissimo con macchie di sangue e un fucile utilizzato per la pesca subacquea, armi trasportate senza un giustificato motivi e senza autorizzazione e per tale motivo sono stati sottoposti a sequestro.
+&nbsp;
+Il bracconiere è stato denunciato all’Autorità Giudiziaria del Tribunale di Sant’Angelo dei Lombardi. Ancora una volta l’Arma dei Carabinieri della Compagnia di Sant’angelo dei Lombardi ha manifestato l’interesse anche per la tutela dell’ambiente e per la protezione degli animali.
+&nbsp;
+
+[post_text_189]
+Caposele, Conforti: «Bisogna credere nelle risorse del nostro territorio»
+&nbsp;
+E’ ottimista l’assessore Salvatore Conforti che chiama ad avere coraggio ed a far capire al territorio che deve farcela da solo.
+&nbsp;
+«In passato - dice Conforti - abbiamo spesso partecipato a incontri nei quali si discuteva di finanziamenti europei, di possibilità da cogliere, di strumenti che la Comunità Europea ci metteva a disposizione per il nostro sviluppo, per la crescita, per il progresso, utilizzando le progettualità finanziarie pensate per il Sud. Grande entusiasmo e molte speranze, che nel corso degli anni si sono, però, sempre più affievolite, perché abbiamo inteso, con grande dispiacere, che la nostra provincia, è l’ultima di un’Italia che premia solamente chi ha ancora un Santo in paradiso. Avellino e la sua provincia, che negli anni ’80 ha saputo dimostrare il proprio valore anche proponendo grandi personaggi politici che hanno fatto valere anche gli interessi di un territorio, oggi, non ha più voce in capitolo. Poco più di un quartiere del napoletano come densità abitativa, ha pochissimo da sperare per uno sviluppo che fa i conti con le misure europee che vede soccombere speranze di interi territori che devono lottare contro tanti torti. Basta. Ora è il tempo di capire che dobbiamo farcela da soli. E Caposele, un esempio straordinario da questo punto di vista, pare lo abbia capito.
+&nbsp;
+Pensavamo di utilizzare dei finanziamenti per il turismo, per meglio organizzarsi e distribuire la risorsa che è già presente per il Santuario, di poter utilizzare la risorsa acqua che sgorga abbondante ed arricchisce territori vicini e di poter attingere a finanziamenti messi ad hoc per la salvaguardia delle nostre montagne incontaminate. Pensavamo che la richiesta di 12 milioni di euro attraverso i nostri progetti potesse avere un minimo riscontro in percentuale di finanziamenti. Niente di tutto questo! Trasparenti su tutti i fronti. Non abbiamo avuto nemmeno un briciolo di considerazione. Caposele, però, - incalza Conforti - ha capito che può farcela da sola. La grande volontà di raccogliere le potenzialità del territorio fatto di giovani, di idee, di voglia di riscatto, ha messo in moto un meccanismo virtuoso che sta cominciando a dare i frutti sperati. Il mini tour Turistico denominato “FAC” (Fede Ambiente e Cultura) si è messo in moto e grazie al museo delle Macchine di Leonardo, alla visita alle sorgenti del Sele al Parco fluviale e al Museo dell’acqua, migliaia di turisti hanno potuto godere, in un mese di promozione, delle nostre bellezze e toccare con mano le grandi potenzialità che Caposele offre. Un territorio da scoprire e, grazie all’intuito dell’Amministrazione comunale, si è potuti definire un nuovo modo di fare turismo e soprattutto di farlo senza l’aiuto di Provincia, A.P.T. Regione Campania, che hanno abbandonato i territori interni, senza chiedersi se un potenziale del genere potesse far da traino alla riscoperta e alla valorizzazione di un’intera macro-area dell’Irpinia.
+&nbsp;
+Un tentativo vincente quello caposelese che ha visto impegnarsi su questo fronte decine di ragazzi che grazie al corso per accompagnatori turistici locali, hanno potuto far risvegliare un sentimento nuovo di abnegazione e passione per la propria terra. Caposele, come tutti i piccoli Paesi dell’Irpinia, può avviare un ragionamento autonomo e a piccoli passi raggiungere, non senza sacrificio, un obiettivo speciale e di grande valenza che puo’ restituire a tutti coloro che vi partecipano grande soddisfazione mantenendo la testa alta, senza farsi imbrigliare da logori ed inefficaci ricatti politici che, nel tempo non fanno bene ad una comunità che cerca nelle potenzialità della propria terra il mezzo giusto di riscatto e di sopravvivenza. Caposele può farcela e ce la farà grazie ai giovani e alle persone che credono ed investono nella propria terra».
+&nbsp;
+&nbsp;
+
+[post_text_190]
+Violenze in famiglia, assolto a Caposele quarantacinquenne
+&nbsp;
+C.N 45 anni, originario di Caposele era stato denunciato per maltrattamenti e calunnia da parte della moglie. Motivo per cui è stato indagato e processato davanti al Tribunale monocratico di Sant'Angelo dei Lombardi, che dopo un lungo dibattimento ieri mattina ha assolto l'uomo. Una sentenza di non luogo a procedere per dichiarata prescrizione ed estinzione del reato per i maltrattamenti, assoluzione piena invece dall'accusa di calunnia, «perché il fatto non sussiste».
+
+[post_text_191]
+Caposele - La minoranza, Cittadinanzattiva e il comitato Pro Sele chiamano la Regione
+&nbsp;
+La questione acqua a Caposele è sempre di moda. Forte il documento congiunto di Cittadinanzattiva, della minoranza consiliare, del Pdl, del comitato Pro Sele e del circolo Arcobaleno rappresentati da Antonio Cione, Ettore Spatola, Giovanni Cetrulo e Vincenzo Zanca.
+&nbsp;
+«Premesso che - recita il documento - con vari ricorsi, circa 1.400 cittadini di Caposele si sono già opposti alla richiesta di rinnovo della concessione di grande derivazione d’acqua dalle Sorgenti Sanità di Caposele dei 363 moduli, della cui utenza assieme al Comune di Caposele, sono unici titolari e che nessun rinnovo o richiesta di concessione per tale derivazione può essere avanzata (da AQP od altri) e concessa dalla Regione Campania in dispregio di tale diritto d’uso e, comunque, senza il consenso legalmente espresso dagli abitanti di Caposele e dal loro Comune che, allo stato, è assolutamente mancante. Considerato che - continua il testo - la negoziazione della cessione temporanea dell’utenza dei 363 l/s degli abitanti di Caposele in quanto destinata ad altra Regione dovrà essere stipulata direttamente con la Regione Puglia e non con l’AQP spa, che è solo una società di gestione. Riscontrarto che è prossimo l’inizio della Pavoncelli-bis con una centrale idroelettrica in località Vallone delle Brecce di Caposele, finanziata con una spesa di pubblico danaro di ben 163 milioni di euro, che il Sindaco ha eliminato, dal parere favorevole reso in conferenza di servizi alla realizzazione dei lavori, la condizione della previa realizzazione della bretella di collegamento tra il cantiere e l’uscita della superstrada FondoValle Sele e che le precedenti convenzioni del 1970 e del 1997 sottoscritte dall’AQP e Comune di Caposele, in proprio ed in nome dei suoi abitanti, sono sempre restate disattese dall’Ente pugliese.
+&nbsp;
+Per tutti questi motivi chi scrive reitera l’opposizione alla richiesta di derivazione del 363 l/s in epigrafe e ne chiede l’improcedibilità e/o il rigetto e ribadisce la mancata acquisizione del previo, necessario ed imprescindibile, consenso alla cessione temporanea dell’utenza da parte degli abitanti e del Comune di Caposele, la tardività della domanda, in quanto prodotta solo in data 23 febbraio 2011 e non due anni prima del 13 maggio 2012, data di scadenza della concessione precedente, come prescritto dall’art.44 del RD n.1285/1920. Inoltre - continua il documento - si chiede il doveroso intervento della Regione Campania e del Comune di Caposele affinchè venga assicurato il pieno rispetto dei pregressi impegni assunti e non adempiuti dall’AQP spa con le precedenti convenzioni sottoscritte con il Comune di Caposele nel 1970 e, in particolare, nel 1997 e l’approvazione dell’intervento della Pavoncelli bis e della costruenda centrale idroelettrica di Vallone delle Brecce, venga ratificata dal Consiglio Comunale con il reinserimento della condizione della realizzazione di una bretella di collegamento, il cui costo può trovare agevole copertura nelle economie del ribasso d’asta di affidamento dei lavori. Inoltre si chiedeche queste opere in quanto realizzate in territorio di Caposele e con fondi pubblici, non vengano regalate ad una società per azioni , ma riconosciute di proprietà degli abitanti e del Comune di Caposele, che dovrà poi provvedere ad affidarne la gestione e sia assicurato, a cura e spese di AQP spa ed entro un termine prefissato, lo smaltimento delle vecchie attrezzature inquinanti site nell’area Cantiere e che l’imbottigliamento dell’acqua di Caposele avvenga in loco, con la riconversione dei vecchi capannoni già a servizio a servizio dell’ex by-pass».
+
+[post_text_192]
+Caposele - Ricostruzione post sisma, Spatola interroga il primo cittadino
+&nbsp;
+Non si ferma il dibattito politico a Caposele. Dopo le tante discussioni rispetto alla questione acqua ecco l’interrogazione al sindaco sulla situazione della ricostruzione del consigliere di minoranza del gruppo Arcobaleno, Ettore Spatola.
+&nbsp;
+«A seguito del terremoto del 1980,  il Comune di Caposele ha ricevuto per la ricostruzione circa 108 milioni di euro. Come è noto, per le ultime assegnazioni effettuate, anni 2008 e 2010, è stato seguito il criterio della capacità di spesa, vale a dire che i fondi sono stati attribuiti&#8194; ai Comuni&#8194; in ragione del loro effettivo utilizzo.
+Nel riparto effettuato l’anno 2008 Caposele ha avuto assegnato 500mila euro, mentre, riparto del 2010, non ha invece avuto assegnato neppure un euro.
+&nbsp;
+Il Sindaco di Caposele a fine 2011 ha inviato al Ministero delle Infrastrutture l’elenco dei residui casi di fascia A e fascia B che debbono essere ancora finanziati.
+La Legge Regionale n. 20 del 2003 ha semplificato l’iter procedurale per definire e chiudere le pratiche della 219 ancora pendenti ed ha disposto l’obbligo per i Comuni di collaudare tutte le pratiche i cui termini per l’ultimazione dei lavori sono scaduti, rendendo quindi disponibili le risorse non utilizzate dagli interessati.
+&nbsp;
+Rispetto a queste situazioni - incalza Spatola - chiedo al sindaco se è vero che la capacità di spesa del Comune di Caposele degli ultimi cinque anni è quella più volte elencata. Se è vero che allo stato, per il 2012 il nostro Comune ha prontamente disponibili ben 5.547.000 euro, oltre a 320mila euro relativi all’assegnazione Cipe del 2006 e di prossimo arrivo, nonché altri&#8194; 500 mila euro del riparto 2008, per un totale di circa 6,5 milioni di euro.
+&nbsp;
+Inoltre, chiedo perchè l’amministrazione comunale è inadempiente rispetto alla disciplina imposta dall’art. 10 della Legge Regionale n. 20/2003 che darebbe la possibilità di disporre di notevoli somme immediatamente spendibili.
+&nbsp;
+E ancora er quali ragioni da oltre un anno non viene convocata la commissione ex art. 19 del T.U. n. 76/90 e perché si consente che il settore ricostruzione resti praticamente fermo, con gravi danni per&#8194; cittadini interessati».
+&nbsp;
+
+[post_text_193]
+Caposele, Cetrulo attacca l’Ato: «Cittadini stanchi di essere presi in giro»
+&nbsp;
+&nbsp;
+Forte la lettera aperta scritta all’ATO, alla Provincia di Avellino, alla Regione Campania e Puglia, all’AQP ed a chi, a vario titolo, si interessa del problema idrico.
+A scrivere è il consigliere comunale Pietro Cetrulo.
+&nbsp;
+«In questi giorni  si parla quotidianamente, dei trasferimenti idrici e della Galleria Pavoncelli-bis, una breve considerazione di chi ne parla (a volte a sproposito e senza titolo). Per anni abbiamo assistito all’immobilismo di ATO, Provincia e Regione su un tema così importante, basta ricordare che per esempio Caposele, sede delle Sorgenti del Sele, non ha mai ricevuto finanziamenti in grado di ammodernare o riparare la rete idrica, non ha mai ricevuto fondi per la sistemazione dell’alveo del fiume Sele ridotto da 5000 l/s a 300 l/s o, al massimo quando le frane hanno minacciato la chiusura del fiume, non ha mai ricevuto fondi per una vera sistemazione del territorio, così importante per la risorsa idrica.
+Perché nel 2001- 2002 non hanno rivendicato una quota nella gestione della risorsa idrica del Sele, lasciandola in mano ai Pugliesi?
+Non hanno poi mai monitorato realmente il prelievo, il deflusso minimo, le tante perdite e soprattutto il rispetto delle Convenzioni nei confronti del Comune di Caposele, che pure si è molto attivato negli ultimi quindici anni, rivolgendosi agli stessi Enti che oggi sbraitano, vogliono e pretendono. Ieri con Bassolino, De Simone, Giuditta e Divella, oggi con Caldoro, Colucci, Sibilia e Vendola, che di tutto parlano, meno che del giusto e diretto ristoro richiesto all’AQP dai Comuni più interessati (Caposele, Cassano, Conza).
+Perché vi interessate a non voler far costruire la Pavoncelli-bis , quando tutti i Governi degli ultimi 30 anni la vogliono? Avete già fatto spendere e sprecare inutilmente 150 miliardi di vecchie lire.
+&nbsp;
+Volete continuare così? L’acqua se serve agli assetati, prendetela, che sia l’AQP o altri a volerla, a noi non ci interessa, basta che non prendete anche i ristori o fondi destinati a noi. Volevo ricordare a tutti questi politici, che oggi la gente non si fa più prendere in giro, e che specialmente i cittadini di Caposele dopo cento anni di presa per i fondelli, non ci stanno più. Comunque - conclude il consigliere comunale Pietro Cetrulo nella sia lettera - quando lo riterrete opportuno, venite a Caposele a confrontarvi, venite in mezzo alla gente, basta con le decisioni prese a Napoli o Avellino tra poche persone e tra quattro mure, lasciate fuori dai vostri errori questi Comuni, fateci sopravvivere».
+&nbsp;
+
+[post_text_194]
+Caposele, Conforti: «Abusivo è soltanto chi abbandona il nostro territorio»
+&nbsp;
+&nbsp;
+&nbsp;
+Ancora il corso per guide turistiche e la sua importanza per il territorio al centro del dibattito politico-amministratio a Caposele. Ad intervenire è l’assessore Salvatore Conforti.
+&nbsp;
+«Mi viene sempre un pò di scoraggiamento, nel momento in cui, dopo aver profuso notevoli energie intorno ad un progetto per il mio Paese, si deve trovare altro tempo a difendere queste scelte da attacchi inconcludenti, strumentali, e soprattutto che provengono da ambienti locali, i quali aggiungono alla filosofia della loro inettitudine anche questa sorta di danno temporale a spese dell’intera comunità. Ma andiamo oltre, e come siamo soliti fare, proiettiamoci diritti verso la meta che ci siamo prefissati intorno al tema del turismo.
+Già da qualche anno, infatti, pur non avendo molte risorse a disposizione, ci stiamo occupando, con molta passione , di quello che abbiamo definito una grande occasione per il territorio. E’ risaputo che San Gerardo col suo milione di turisti all’anno è una delle mete di pellegrinaggio più importanti del meridione, ma questo, però non mette in moto un’economia diffusa sul territorio dalla quale i benefici non rimangono localizzati e strozzati, ma si ampliano e si amplificano su un’area più larga ed organizzata. Questo è proprio il tentativo e la sperimentazione che stiamo attuando, pur lottando contro grandi difficoltà.
+&#8194;in Consiglio Comunale, ma mai approvata dall’A.Q.P. per le vicende ormai note a tutti, aveva questo scopo turistico costruito intorno alla libera visita alle Sorgenti. La realizzazione del Parco fluviale della Madonnina realizzato con poche migliaia di euro. L’allestimento del museo delle Macchine di Leonardo a Caposele nell’area delle Sorgenti. Tutto il progetto “F.A.C.” del MINI tour turistico relativo alla fede, all’ambiente e alla cultura che stiamo sperimentando da qualche tempo.&#8194;il 19 febbraio&#8194;La nuova convenzione per l’acqua con l’A.Q.P. votata
+Tutto questo ha necessità, però oltre che di un grande sforzo organizzativo, anche di un valido appoggio di forze e di idee che - continua Conforti - noi abbiamo pensato di far emergere attraverso la preparazione di un organismo appositamente costruito intorno al turismo.
+Un gruppo giovanile operativo che con grande volontà e passione per la propria terra, potesse meglio indirizzare e guidare tutto il progetto. Intorno al gruppo abbiamo organizzato un corso di conoscenza ed approfondimento delle bellezze del territorio attraverso l’aiuto di istituzioni ed organismi come la Pro Loco e Irpinia Turismo.
+Questo gruppo operativo preparato da professionisti locali e completamente gratuito ha scatenato una polemica che ha solamente danneggiato, ma spero poco, l’entusiasmo dei ragazzi, che si sono visti chiamare abusivi rispetto ad un ruolo che, forse è stato definito in modo sbagliato, ma che nella sostanza ha la forza e la passione per una terra, che da sempre è stata maltrattata e che oggi che ha solamente necessità di stare tranquilla e utilizzare attraverso iniziative come questa del mini tour le proprie risorse senza chiedere nulla a nessuno.
+che abbandonano la propria terra utilizzando il loro tempo e costruendo ad hoc polemiche e strumentalizzazioni che la mortificano. Scrolliamoci di dosso questa sorta di autolesionismo.&#8194;Di abusivo, non c’è proprio niente, quindi, se non forse, coloro
+Il Sud, L’irpinia, Caposele, ha nel Dna ben altro e forse solamente attraverso uno sforzo collettivo e un volersi più bene, riusciremo a stare a galla nonostante tutto. Grazie a tutti i ragazzi del gruppo operativo turistico e a chi ci sta dando una mano per emergere e creare occasioni vere».
+&nbsp;
+----------------------------------------------------------------------------------------
+&nbsp;
+&nbsp;
+Pavoncelli bis, il 13 le osservazioni
+&nbsp;
+&nbsp;
+CAPOSELE - Si apre una settimana importante per la vertenza legata alla Pavoncelli Bis, la galleria che dovrebbe essere realizzata tra Campania e Puglia per sostituire l’attuale condotta idrica vecchia e lesionata ai temi del territorio. Quello di mercoledì 13 giugno è infatti l’ultimo giorno per la presentazione delle osservazioni a Roma presso il Tribunale delle acque nell’ambito del giudizio avviato da Ato, Provincia di Avellino e Parco dei Monti Picentini per opportsi alla realizzazione dell’opera.
+&nbsp;
+In realtà la posizione dell’ente d’ambito irpino non è pregiudizialmente contraria alla galleria ma mira a ottenere dal commissariato, dalla Regione Puglia e dall’Aqp certezze sui trasferimenti idrici.
+Il rischio paventato infatti è che con la Pavoncelli Bis possano anche essere potenziati i prelievi dal territorio della provincia di Avellino con conseguente grave minaccia per la condizione di vitalità dei nostri corsi d’acqua.
+A&#8200;riguardo l’Ato ha approvato in una recente riunione del Cda un documento che fa il punto sullo stato di salute del territorio. Ne esce, come ampliamento documentato dal Corriere, un quadro preoccupante. Di tutto questo si parlerà questo pomeriggio alle 17 nella sede dell’Ato al Victor Hugo di Avellino nel corso di un incontro fissato dal presidente dell’ente Giovanni Colucci con i segretari provinciali dei sindacati.
+Al centro della discussione anche la questione dell’affidamento del servizio idrico.
+&nbsp;
+
+[post_text_195]
+Caposele, la musica per il rilancio sociale e turistico di tutto il territorio
+&nbsp;
+Caposele per un giorno capitale della musica. Sulle rive del Sele si svolgerà il 21 giugno, in contemporanea con centinaia di città europee, la Festa della Musica.
+Nata in Francia nel 1982 e diffusasi negli anni in tutta Europa, la Festa della Musica non è un festival. È una grande manifestazione popolare gratuita che si tiene il 21 giugno di ogni anno per celebrare il solstizio d’estate. E’ una festa aperta a tutti i partecipanti amatori o professionisti. Tutti i generi musicali sono coinvolti, così come tutti i pubblici, con l’obiettivo di rendere popolare la pratica musicale e di unire le persone di tutte le condizioni sociali, giovani e non, alle più diverse espressioni musicali.
+&nbsp;
+La Festa della Musica è l’occasione di creare un linguaggio musicale aperto ed inclusivo di generi, atmosfere e culture diverse. A Caposele, su iniziativa di Radio LonTra, tentativo sperimentale di far vivere sul web tutto ciò che avviene nella realtà quotidiana della cittadina delle sorgenti del Sele, si è pensato di aderire ufficialmente alla rete delle città europee in cui il primo giorno d’estate la musica sarà la sola protagonista. Si è progettato per l’occasione la realizzazione di un villaggio della musica all’interno dell’area delle sorgenti: due palchi dove si alterneranno i musicisti e i gruppi musicali, chioschi in cui i locali pubblici replicheranno le ambientazioni dei loro caffè, della pizzeria, della friggitoria, della birreria, del wine-bar e così via.
+&nbsp;
+Nell’arco della giornata, con avvio intorno alle ore 15.00, si alterneranno oltre 20 gruppi provenienti da tutte le province della Campania. Dalle baby-band, alle voci del Centro Anziani con i loro canti contadini, il jazz acustico e sincopato, la Banda musicale, la musica folk, l’heavy metal, il rock punk, la musica indie, le cover, il pop rock europeo e quello italiano, per finire fino all’alba del giorno dopo con la disco dance. Un villaggio che verrà animato da alcune migliaia di persone che giungeranno da ogni parte della provincia di Avellino e da larga parte della provincia di Salerno, per ascoltare la musica. Un tentativo coraggioso e innovativo che vedrà Caposele, per un giorno, capitale della musica delle due province. Ad accompagnare la Festa della Musica vi sarà un lunga diretta radiofonica con Radio MPA, una diretta televisiva su Justin.tv, coordinate e curate dagli animatori di Radio LonTra
+&nbsp;
+&nbsp;
+-----------------------------------------------------------------
+Pavoncelli bis, il no dei Picentini
+&nbsp;
+CAPOSELE - «Per noi nulla cambia, la Pavoncelli bis è un’opera non necessaria e potenzialmente dannosa per il territorio»: il Parco dei Monti Picentini va avanti e oggi nel corso dell’udienza al Tribunale Superiore delle acque di Roma confermerà la linea dura sull’opera.
+&nbsp;
+L’appuntamento è importante perché servirà ai giudici per recepire eventuali osservazioni dopo la consegna da parte dell’Acquedotto Pugliese di eccezioni seguite ad una sentenza del Tar.
+La vertenza è quella da tempo aperta tra Campania e Puglia che riguarda l’avvio dei lavori all’infrastruttura acquedottistica finanziata con legge obiettivo. Dopo le sentenze favorevoli al ricorso del Parco dei Monti Picentini, dell’Ato e della Provincia di Avellino, l’Acp preme per lo sblocco della situazione e per questo ha consegnato al Tribunale un ulteriore documentazione motivata da alcuni presunti elementi di novità, come il giudizio del giudice amministrativo sul ricorso dell’Ato all’ordinanza di calamita naturale del Ministero e le trattative in atto per l’intesa sul rilascio della concessione settantennale all’ente pugliese.
+&nbsp;
+L’obiettivo è quello di giungere a dicembre, data in cui è prevista la sentenza con un pronunciamento positivo dal parte del Tribunale delle Acque.
+In vista di questo appuntamento, il Cda dell’Ato si è riunito ieri per licenziare una delibera con la quale si condiziona la realizzazione dell’opera ad un’intesa sui trasferimenti verso la Puglia. In pratica, l’Ente d’Ambito pare ammorbire la propria posizione dicendosi non contrario alla Pavoncelli Bis ma chiedendo precise tutele ambientali.
+Più dura invece è la posizione del Parco dei Monti Picentini, che avviò anni fa la battaglia contro la galleria. «Non consegneremo osserazioni - spiega la presidente Anna Savarese - semplicemente perché non riteniamo che ci sia alcun elemento di novità in quello che sostiene l’Acquedotto Pugliese. Continuiamo a nutrire infatti forti perplessità nei riguardi di un’opera che finirà, se realizzata, per incidere in modo pesante sull’ambiente. Uno scavo di questa portata infatti può anche interrompere o deviare corsi d’acqua con conseguenti rischi per la vitalità stessa di questi ultimi. Inoltre nessuno ha ancora dimostrato che la vecchia Pavoncelli non possa continuare a funzionare e dunque non c’è alcun motivo per costruire un’altra galleria, soprattutto in virtù del fatto che i trasferimenti idrici dovrebbero rimanere inalterati».
+&nbsp;
+Dello stesso avviso il numero del Parco del Partenio Sabino Aquino, esperto della materia, nonché promotore della causa al Tribunale Superiore delle Acque negli anni dell’ente del Parco dei Monti Picentini.
+«Della Pavoncelli parlano oggi un po’ tutti, anche chi non sa neanche di cosa si tratti. Sostenere, come ha cercato di fare qualcuno, che la Galleria è gravemente lesionata dal terremoto è una cosa del tutto inesatta. Si induce a pensare che sia inutilizzabile nei prossimi anni quando invece non è così. Tra l’altro è sbagliato anche ritenere che quest’opera sia stata pensata dopo il terremoto perché lo stesso progetto era stato proposto per il finanziamento alla Cassa per il Mezzopgirono negli anni 70. Dunque il disegno dell’Acquedotto Pugliese era già chiaro all’epoca».
+&nbsp;
+&nbsp;
+----------------------------------------------------------------------
+I sindacati attaccano: «I Comuni boicottano il Piano, favorevoli alla Pavoncelli bis»
+&nbsp;
+CAPOSELE - Le segreterie confederali e di categoria di Celi, Cisi, Uhl ed Ugel, delle province di Avellino e Benevento, stigmatizzano il comportamento irresponsabile e omissivo di quei Sindaci che, ad oggi, risultano inadempienti nei confronti dell'Ato.
+&nbsp;
+Il Consiglio di Amministrazione, infatti, ha informato le segreterie di Celi, Cisi, Uhl ed Ugel, che solo il 30 percento dei comuni, irpini e sanniti, facenti parte dell’etnie d'Ambito “Calore Irpino”, ha provveduto ad inoltrare i dati necessari per poter procedere alla redazione del Piano d'Ambito.
+Da due anni le Organizzazioni Sindacali si stanno battendo perché si avvii il procedimento di affidamento in house del Servizio Idrico Integrato scongiurando così la privatizzazione del bene acqua.
+Alla luce di quanto è emerso nel corso dell'incontro di ieri presso l'Ato, le Organizzazioni Sindacali chiedono ai primi cittadini di porre fine al loro atteggiamento che non solo è omissivo ma è soprattutto di ostruzionismo: un comportamento che potrebbe trovare solo spiegazione nella volontà di privatizzare l'acqua.
+&nbsp;
+Il Sindacato non ci sta ed è per questo che continuerà a sollecitare l'Ato affinché proceda con il Piano d'Ambito, propedeutico per l'affidamento in house del Servizio Idrico Integrato. Inoltre, Cgil, Cisl, Uil ed Ugl richiamano la politica e le istituzioni competenti a compiere il proprio dovere ovvero di tutelare i cittadini, i lavoratori e le comunità che rappresentano e, quindi, di non ostacolare il Piano d'Ambito e, quindi, di non pregiudicare l’unicità del servizio idrico e della depurazione. Nel corso dell'incontro si è discusso anche della Pavoncelli: il Sindacato unitariamente ha ribadito di essere favorevole alla realizzazione dell'opera anche come rilancio per lo sviluppo ed un impulso all'edilizia a condizione però che ci sia un riconoscimento al territorio irpino.
+&nbsp;
+Inoltre, la galleria attuale sembra non essere idonea sotto l’aspetto strutturale perché risalente a 150 anni fa e interessata ai danni derivanti dal terremoto del 23 novembre 1980.
+Sarebbe necessario intervenire anche per evitare che la risorsa acqua sia sprecata, atteso che la galleria non è a tenuta, come ha evidenziato Mario Melchionna, segretario generale della Cisl irpina, che ha ribadito la necessità che sia l’Alto Calore S.p.A. a gestire il servizio, anche sottoforma di consorzio.
+Da verificare anche la quantità di acqua che dovrebbe essere captata, atteso che l’orientamento va nella direzione di opporsi a qualsiasi ipotesi che si riferisca all’aumento dei quantitativi.
+&nbsp;
+&nbsp;
+
+[post_text_196]
+Caposele, Cetrulo: «La Pavoncelli bis? Opera importante»
+&nbsp;
+«Finalmente ieri anche uno degli ultimi ricorsi contro la Galleria Pavoncelli- bis è stato rigettato, non è stata accolta la sospensiva dei lavori da parte della ditta Condotte spa. Il TAR Lazio non ha ritenuto validi i motivi per bloccare l’inizio dei lavori, pertanto il Commissario delegato Ing. Roberto Sabatelli, potrà nei prossimi giorni firmare il contratto con la ditta aggiudicataria dei lavori con la consegna del cantiere e, come previsto ad inizio Agosto, il taglio del nastro del cantiere».
+Così il Consigliere Comunale Caposele Pietro Cetrulo.
+&nbsp;
+«Finalmente arriva quella boccata di ossigeno per un territorio con un forte tasso di disoccupazione, opera che comunque non sarà e non deve essere invasiva o rapinatrice di un territorio che ha già dato tanto, e a tal proposito il sottoscritto organizzerà a breve un altro incontro come quello di dicembre 2011, dove, sia il Commissario, che gli addetti ai lavori daranno tutte le risposte e rassicurazioni del caso a chi avesse ancora qualche dubbio sulla realizzazione della Pavoncelli-bis. Sperando che non ci siano altri ricorsi che intralcino quest’opera, che le ricadute economiche siano tante per il territorio, e che la ditta appaltatrice favorisca al massimo l’occupazione locale. Adesso non ci resta sperare che anche il problema Convenzione Caposele AQP arrivi a una rapida e buona conclusione».
+&nbsp;
+-------------------------------------------------------------------------------
+&nbsp;
+&nbsp;
+Caposele, Farina: «Cittadinanzattiva? Critiche strumentali»
+&nbsp;
+Da tempo ormai l’Amministrazione comunale di Caposele deve fare i conti con una serie di critiche e di attacchi provenienti dalla minoranza consiliare e dall’associazione Cittadinanzattiva. Dopo il Puc e il rinnovo della convenzione con l’Acquedotto Pugliese, ora la materia del contendere è data dai lavori alla SS 130. Gli esponenti di Cittadinanzattiva attraverso il sito internet Caposele.net, lamentano il fatto che i lavori lungo la strada interessata da uno smottamento franoso siano fermi al palo. «Questo - dicono gli esponenti dell’associazione - nonostante il sindaco avesse dato ampie rassicurazioni nel febbraio 2010».
+&nbsp;
+E’ proprio il primo cittadino Pasquale Farina a intervenire e a difendersi.
+«Gli esponenti di Cittadinanzattiva sono informati male - afferma - Il progetto relativo ai lavori sulla strada in questione è in dirittura di arrivo. Da Palazzo Caracciolo mi hanno dato ampie rassicurazioni sull’inizio dei lavori. L’amministrazione comunale nel febbraio 2010 non ha promesso nulla, non conosco i motivi di questa presa di posizione da parte di Cittadinanzattiva. Siamo di fronte a polemiche strumentali».
+&nbsp;
+Il primo cittadino parla di strumentalizzazioni dell’associazione anche sulla vicenda della convenzione con l’Aqp.
+«Il Comune di Caposele, per tutto il tempo di durata della convenzione, sarà destinatario di un milione all’anno, somma che verrà aggiornata adeguandola all’indice di inflazione; il Comune sarà, altresì, beneficiario, per tutta la durata della concessione, dalla somma di 350 mila euro, adeguati di anno in anno all’indice di inflazione, che dovrà servire, attraverso una semplice partita di giro, a compensare l’Acquedotto Pugliese della fornitura d’acqua per gli usi pubblici e per quelli privati alla cittadinanza. Resta confermato, quindi, che i Caposelesi continueranno a non pagare, di tasca propria, il consumo di acqua. L’Aqp inoltre cederà al Comune gratuitamente per tutti gli usi pubblici l’energia elettrica prodotta dalla centrale idroelettrica prevista nel progetto Pavoncelli bis. Ciò significa un risparmio per le casse comunali di circa 300 mila euro all’anno; l’Aqp verserà al Comune la somma di 200 mila euro a saldo degli inadempimenti relativi alle precedenti convenzioni. Senza contare gli altri innumerevoli vantaggi. Insomma, i fatti sono questi, certe critiche si commentano da sole».
+&nbsp;
+
+[post_text_197]
+Fiume Sele, Gaudiosi: «Lavorare tutti insieme per tutelare il corso d’acqua»
+&nbsp;
+E’ andata di scena nel tardo pomeriggio di ieri a Contursi Terme una manifestazione organizzata dall’associazione Amici del Sele presieduta da Lello Gaudiosi. L’iniziativa mirava a discutere delle condizioni del Fiume Sele e delle prospettive per il futuro. Il presidente dell’associazione, nella mattinata di ieri, si è recato a Caposele per fare dei filmati e delle foto al deflusso del fiume per dimostrare a tutti in che modo si sta comportando l’Acquedotto Pugliese.
+&nbsp;
+E’ Lello Gaudiosi a intervenire.
+ «Come associazione Amici del Sele siamo molto soddisfatti dell’iniziativa che abbiamo messo in campo perchè siamo riusciti ad unire e a mettere sullo stesso tavolo sia tanti sindaci che le comunità. La discussione è stata molto proficua anche perchè abbiamo voluto far capire a tutti che prima di parlare di Pavoncelli bis, di ristoro e di altro dobbiamo tutelare il fiume Sele. Dalla sua salvaguardia possono derivare tanti aspetti positivi legati al turismo enogastronomico e termale. Non è la prima volta che, come associazione, facciamo una manifestazione del genere. Da stigmatizzare il fatto che, nonostante i miei inviti personali e la certezza di un’adesione dalla Regione Campania non è arrivato nessuno. Cosa che ci rattrista molto. Usciamo, però, rafforzati da questo convegno, infatti, abbiamo capito che stando tutti insieme e uniti possiamo riuscire a salvare il nostro fiume. E proprio rispetto a questo sono felice per la presenza di tanti sindaci della Valle del Sele».
+&nbsp;
+Soddisfatto anche l’esponente nazionale di Cittadinanzattiva Antonio Cione.
+ «Ho lanciato ancora una volta un messaggio nei confronti delle varie amministrazioni comunali per una forte collaborazione. Abbiamo capito che dobbiamo stare insieme per riuscire a raggiungere un obiettivo perchè le amministrazioni sono deboli senza comunità e le stesse hanno capito che bisogna stare uniti per valorizzare i nostri territori».
+&nbsp;
+
+[post_text_198]
+Caposele - Ci sono i sì alla convenzione e alla Pavoncelli Bis
+&nbsp;
+Il giorno 6 luglio, con ogni probabilità, a Caposele ci sarà la firma della Convenzione e alla fine dell’estate dovrebbe esserci la consegna dei lavori della Pavoncelli bis, con il contratto di appalto sottoscritto, nei giorni scorsi, a Bari. C’è soddisfazione in paese per tutti coloro erano a favore di queste situazione e ci hanno creduto fino alla fine.
+E’ sempre stato certo della realizzazione della Pavoncelli Bis il consigliere comunale Pietro Cetrulo.
+&nbsp;
+«Pare che questa volta ci siamo, prima battaglia vinta sui contro. Speriamo che qualcuno si convinca che la galleria si farà. Se qualcuno pensa che sono soldi buttati, meglio buttati a Caposele, che da un’altra parte. Passiamo alla prossima battaglia. Nei prossimi mesi partiranno i lavori e siamo certi che andranno avanti senza nessun problema e senza sosta per un’opera importante del nostro territorio». Ora si attende di capire i particolari della firma della convenzione e come si svolgerà il cerimoniale.
+
+[post_text_199]
+Caposele, Conforti: «Il turismo come economia del futuro»
+&nbsp;
+Punta sempre più sul turismo e sul rilancio delle bellezze naturali, culturali e religiose del suo territorio l’amministrazione comunale di Caposele che ha dato vita al progetto Fac. Importante anche il coinvolgimento di quasi venti giovani del posto che fungono da guida turistica dopo un corso di formazione. Soddisfatto di come stanno andando le cose l’assessore alla cultura del piccolo centro dell’Alta Irpinia Salvatore Conforti.
+&nbsp;
+«Come amministrazione stiamo utilizzando una grande fortuna che fino ad oggi non è stata utilizzata. Vogliamo coordinare e collezionare le grandi occasioni che ci sono offerte sul nostro territorio.
+A patire dalle sorgenti del Sele che vedono un percorso di visita fino al Santuario di San Gerardo per il quale si punta a creare un turismo stanziale e non mordi e fuggi come è accaduto fino ad oggi. Vicino a queste situazioni stiamo organizzando una serie di iniziative culturali come il Museo delle Macchine di Leonardo che resterà a Caposele per due anni. Lo stesso sta avendo un successo enorme, infatti, in pochi mesi già ci sono stati circa cinquemila visitatori. Ora siamo in contatto con le scuole, con le agenzie di viaggio, con il tour operator per cercare di promuovere ancora di più questa situazione. Il nostro auspicio è che da settembre le visite siano ancora più intense.
+Il progetto che abbiamo preparato si chiama Fac, Fede, Arte e cultura, e mira a organizzare un vero e proprio mini tour nelle affascinanti bellezze naturali, religiose, culturali ed artistiche del nostro paese. Per questo dobbiamo dire grazie ai giovani che hanno partecipato al corso di accompagnatore locale. I ragazzi hanno studiato il territorio e le sue peculiarità e sono pronti per guidare in un bellissimo viaggio i nostri turisti. L’obiettivo è proprio quello: vogliamo dar vita ad un turismo vero che possa essere effettivamente economia per il futuro».
+&nbsp;
+------------------------------------------------------------------------------------------
+&nbsp;
+Pavoncelli bis, Amati: «Dopo trent’anni abbiamo celebrato un atto di giustizia»
+&nbsp;
+Bari, alla presenza dell'assessore regionale alle Opere pubbliche e Protezione civile&#8194;E' stato sottoscritto a Fabiano Amati, il contratto con l'impresa aggiudicataria per i lavori di realizzazione della galleria Pavoncelli bis, alternativa alla galleria Pavoncelli dell'Acquedotto Pugliese Sele-Calore, oggi degradata. L'intervento consiste nella realizzazione di una galleria di by-pass dell'esistente galleria Pavoncelli sita tra Caposele e Conza della Campania, che trasferisce dalla Campania alla Puglia circa 4,5 metri cubi di acqua al secondo (oltre un quarto della dotazione idropotabile della Puglia) consentendo, senza alternative, l'approvvigionamento idrico di circa un milione e mezzo di abitanti pugliesi.
+&nbsp;
+Soddisfatto l’assessore Fabiano Amati.
+«Da un lato celebriamo la giustizia e la libertà per i cittadini pugliesi ma dall'altro non possiamo dimenticare che ci sono voluti oltre 30 anni per avviare un'opera pubblica necessaria come la galleria 'Pavoncelli bis».
+Alla presentazione hanno partecipato il Commissario Straordinario per l'emergenza Roberto Sabatelli e i rappresentanti dell'impresa aggiudicataria.
+&nbsp;
+&nbsp;
+-----------------------------------------------------------------------------------------
+&nbsp;
+&nbsp;
+Caposele - Ci sono i sì alla convenzione e alla Pavoncelli Bis
+&nbsp;
+Il giorno 6 luglio, con ogni probabilità, a Caposele ci sarà la firma della Convenzione e alla fine dell’estate dovrebbe esserci la consegna dei lavori della Pavoncelli bis, con il contratto di appalto sottoscritto, nei giorni scorsi, a Bari. C’è soddisfazione in paese per tutti coloro erano a favore di queste situazione e ci hanno creduto fino alla fine.
+E’ sempre stato certo della realizzazione della Pavoncelli Bis il consigliere comunale Pietro Cetrulo.
+&nbsp;
+«Pare che questa volta ci siamo, prima battaglia vinta sui contro. Speriamo che qualcuno si convinca che la galleria si farà. Se qualcuno pensa che sono soldi buttati, meglio buttati a Caposele, che da un’altra parte. Passiamo alla prossima battaglia. Nei prossimi mesi partiranno i lavori e siamo certi che andranno avanti senza nessun problema e senza sosta per un’opera importante del nostro territorio». Ora si attende di capire i particolari della firma della convenzione e come si svolgerà il cerimoniale.
+&nbsp;
+
+[post_text_200]
+Convenzione tra Caposele e l'Aqp, domani Vendola in Irpinia
+&nbsp;
+Venerdì 6 luglio alle ore 16.00, il Presidente della Regione Puglia Nichi Vendola parteciperà, insieme all’Assessore alle Opere Pubbliche e Protezione Civile Fabiano Amati e all’Amministratore Unico di Acquedotto Pugliese Ivo Monteforte, alla conferenza stampa di presentazione del Bilancio 2011 di AQP e alla inaugurazione del nuovo potabilizzatore di Conza.
+&nbsp;
+Dalle ore 18 Vendola sarà a Caposele per visitare le sorgenti del Sele e l'imbocco della Galleria Pavoncelli e parteciperà, in Piazza Santa Maria della Sanità, alla scopertura di una targa commemorativa che celebra la storica generosità del comune Caposele verso la Regione Puglia.
+Infine, alle ore 19,00, presso Piazza XXIII Novembre a Caposele, parteciperà alla sottoscrizione dell’Accordo morale tra la Regione Puglia e il Comune di Caposele, e della convenzione tra Acquedotto pugliese e il Comune di Caposele.
+&nbsp;
+----------------------------------------------------------------------------------------
+&nbsp;
+Caposele, attesa per la firma della convenzione con l’Acquedotto Pugliese
+&nbsp;
+Venerdì 6 luglio è un giorno importante, forse storico, per il piccolo paese di Caposele. Infatti è la giornata della nuova convenzione tra il Comune di Caposele e l’Acquedotto Pugliese. La firma del nuovo accordo ci sarà alle ore 20,00 in Piazza Sanità dove interverranno il primo cittadino di Caposele Pasquale Farina, l’assessore alle opere pubbliche della Regione Puglia, Fabiano Amati, l’amministratore unico ed il direttore generale dell’Acquedotto Pugliese, Ivo Monteforte e Massimiliano Bianco, il vicepresidente della Regione Campania Giuseppe De Mita ed il Presidente della Regione Puglia Nichi Vendola.
+&nbsp;
+Soddisfatto dell’iniziativa e della nuova convenzione l’assessore Salvatore Conforti.
+L’entusiasmo è tanto perchè, secondo molti, questa potrebbe essere la convenzione della svolta per Caposele, ma c’è attesa anche per capire quale sarà la reazione di tutti coloro che non concordavano con il nuovo accordo ed hanno protestato, anche in modo forte, in passato contro l’amministrazione comunale ed il sindaco Pasquale Farina.
+&nbsp;
+-----------------------------------------------------------------------------------------
+&nbsp;
+Caposele, si firma la convenzione tra Comune e Aqp
+&nbsp;
+Venerdì 6 luglio è il giorno della nuova convenzione tra il Comune di Caposele e l’Acquedotto Pugliese. La firma del nuovo accordo ci sarà alle ore 20,00 in Piazza Sanità dove interverranno il primo cittadino di Caposele Pasquale Farina, l’assessore alle opere pubbliche della Regione Puglia, Fabiano Amati, l’amministratore unico ed il direttore generale dell’Acquedotto Pugliese, Ivo Monteforte e Massimiliano Bianco, il vicepresidente della Regione Campania Giuseppe De Mita ed il Presidente della Regione Puglia Nichi Vendola.
+&nbsp;
+Soddisfatto dell’iniziativa e della nuova convenzione l’assessore Salvatore Conforti.
+«I cittadini di Caposele sono preparati ad accogliere con calore Vendola e la dirigenza dell'A.Q.P. dal momento che questa grande occasione storica per il Paese sembrava essere svanita. Fortunatamente e con la testardaggine da parte dell'Amministrazione comunale questo momento importante per l'intera comunità è finalmente arrivato. Infatti il 6 luglio tutto il Paese sarà in festa per stringersi intorno al Sindaco che in rappresentanza di tutti i Caposelesi, firmerà due accordi storici e fondamentali per il progresso e lo sviluppo che tanto è stato invocato negli ultimi anni.
+Stiamo parlando di un accordo che contempla l'utilizzo di una piccola quantità di acqua, relativa a 363 litri al secondo, già di diritto del Comune e che mai avevano fruttato qualcosa di importante come in questo momento. Infatti i benefici sempre in virtù della quantità d'acqua che sarebbe servita agli usi civici e pubblici di Caposele furono sanciti nella convenzione del 1970 e da allora e anche nelle successive integrazioni della stessa, non fu realizzato nessun miglioramento.
+Ecco perchè oggi la convenzione che il nostro Comune di Caposele si appresta a firmare può restituirci i torti e i sacrifici per un territorio che ha dato in cento anni, ma ha ricevuto solamente grossi problemi idrogeologici.
+Oltre alla convenzione la Regione Puglia sottoscriverà con il Comune un accordo morale che mette in evidenza e ratifica un rapporto di buon vicinato che nel tempo può trasformarsi in benefici per tutto il territorio di Caposele che negli anni ha fatto realizzare un grande salto di qualità a tutta la regione Puglia.
+ sorgenti di acqua che regala vita a tante persone. Terre che necessitano di un ristoro, di un beneficio anche economico come avviene in altre regioni da tempo».&#8194;a tutti coloro che hanno creduto nella grande operazione che il Comune sta realizzando tenendo ben presente, che questo è solo l'inizio di un cammino che vedrà protagonisti tutti i territori dell'Irpinia dai quali sgorgano&#8194;Un ringraziamento, infine,
+&nbsp;
+&nbsp;
+
+[post_text_201]
+Alta Irpinia – Potabilizzatore di Conza della Campania e nuova convenzione tra il Comune di Caposele e Acquedotto Pugliese al centro di una giornata fatta di tante parole, ma soprattutto di tanti proclami. A dire il vero, ad un certo punto a Conza della Campania, sembrava di essere in Puglia, con una schiera di giornalisti pugliesi presenti e con i vertici della Regione Puglia e dell’Aqp a condurre una conferenza stampa. Sarebbe stato opportuno che qualcuno avesse ricordato loro che ci trovavamo in una terra solidale, stupenda e ricca d’acqua. Eravamo in Irpinia. Tra gli altri presenti il Governatore della Regione Puglia, Nichi Vendola, l’assessore regionale Fabiano Amati, e l’amministratore unico dell’Aqp Ivo Monteforte. A Conza della Campania è stata inaugurata una struttura che porterà circa 1000 litri al secondo di acqua in Puglia e che è stata definita: “Un vero e proprio gioiello” dal presidente della Giunta regionale pugliese.
+&nbsp;
+Il gruppo si è poi spostato a Caposele dove è stata firmata una convenzione, per i 363 litri destinati al Comune, tra l’amministrazione comunale, guidata dal primo cittadino, Pasquale Farina e l’Aqp. Protagonista assoluto dei due incontri è stato proprio il Governatore Nichi Vendola anche dopo la guerra fredda che si è innescata con la Regione Campania dopo le dichiarazioni dell’assessore all’ambiente Giovanni Romano.
+ «Credo che non è possibile - ha detto Vendola - continuare con i negoziati tra chi ha l’acqua e chi ha le reti. Tutto questo fa parte di un mondo anacronistico, ma noi oggi viviamo nel mondo della globalizzazione ed andiamo incontro alle mutazioni climatiche ed alla desertificazione ed abbiamo quindi il dovere di difendere e proteggere l’acqua che implica ed integra il diritto alla vita. Esiste un grande bacino idrografico meridionale, spero che le Regioni sorelle della Puglia abbiano voglia, come noi, di costruire il grande acquedotto meridionale che ci può accompagnare, con forza e ragionevolezza, ad affrontare il nostro futuro. Per ciò che concerne il ristoro dei territori che danno solidarietà - ha commentato Vendola - penso che sia giusto che ci sia una forte attenzione per la tutela delle sorgenti, per la manutenzione dei fiumi e per la bonifica ambientale e per questo la Puglia ha sempre risposto presente. Diciamo no, però, a far diventare quello dell’acqua un mercato. Quello di oggi (ieri ndr) l’ho definito un giorno di festa perchè è stato inaugurato il potabilizzatore opera storica e per la quale si è parlato per più di quarant’anni. Oggi è una realtà ed un gioiello tecnologico messo in piedi in tre anni. Inoltre si avviano i cantieri per la Pavoncelli Bis della quale si parla dal terremoto del 1980. Possiamo dire che tutti quei discorsi riferiti agli schemi idrici che sembravano leggenda, oggi sono una bella realtà».
+ In conclusione il Governatore Nichi Vendola parla del rapporto di stima affetto tra Regione Puglia e Campania.
+ «L’Irpinia - ha spiegato Vendola - è un pezzo di noi. Quando la Campania era in crisi per i rifiuti chiamai i pugliesi ad una riflessione: se Napoli piange, Bari non ride e quindi convinsi tutti a dare concreti gesti di solidarietà alla Campania. Con lo stesso spirito viene data la solidarietà nei nostri confronti. Il regionalismo non deve essere visto come delle piccole patrie da difendere, ma dobbiamo essere tutti protagonisti, nel Sud Italia, di gesti di solidarietà che possano farci guardare al futuro con serenità e orgoglio partendo da questi gesti di solidarietà. Quello che si deve mettere in atto, tutti insieme, - ha concluso Vendola - è una politica ambientale e di custodia che veda tutelato un bene come è l’acqua. Tutto in nome della solidarietà. E come disse Don Tonino Bello: dicono che gli uomini sono angeli con una sola ala, dobbiamo stare abbracciati per poter volare».
+
+[post_text_202]
+Scippo dell'acqua, Colucci convoca il Cda dell'Ato
+&nbsp;
+&nbsp;
+Caposele L’Ato pronto a definire la strategia d’azione sulla questione dell’accordo con la Puglia. E’ convocato infatti per questa settimana (pare giovedì ma l’ufficialità la si avrà solo oggi), un consiglio d’amministrazione dedicato al cosiddetto scippo delle acque che è al centro anche dello scontro tra la Regione Campania e quella guidata da Nichi Vendola.
+&nbsp;
+La posizione dell’ente d’Ambito è nota avendo il presidente Giovanni Colucci paventato più volte il rischio di un depauperamento dei nostri corsi d’acqua alimentando anche un vivace scontro duro con l’assessore regionale Giovanni Romano. Nello stesso senso l’ente lavorerà questa settimana ribadendo la recente delibera del Cda dedicata al problema dei trasferimenti idrici. Nel documento si dice che «i trasferimenti della risorsa al momento non sono da considerare ne razionali né responsabili, data la carenza ed il fabbisogno ordinario delle popolazioni irpine e sannite».
+&nbsp;
+Intanto sulla questione interviene anche il capogruppo provinciale di Sel che attacca Regione e Provincia.
+«A scanso di equivoci - dice - in premessa dico che sono favorevole al fatto che l’acqua Irpina vada anche alla Puglia, ma è giusto che essa comporti per l’ Irpinia un ristoro per la riproducibilità di tale risorsa. Una affermazione questa che, purtroppo, non ha prodotto alcun atto rilevante e consequenziale».
+ Sul dibattito di questi giorni Moricola parla di pantomima: «Dopo la venuta in pompa magna del presidente della Puglia, si rizela e rivendica la proprietà del potabilizzatore di Conza anche minacciando le vie legali. I sindaci si dividono tra accordi “morali” sottoscritti solo per non chiamare per il proprio nome qualche tornaconto assai più materiale; e sindaci che giustamente si sentono esclusi e dimenticati tanto dalla Puglia, quanto dalla Campania pur essendo i proprietari dei territori più generosamente attraversati dalla risorsa acqua. L’ineffabile vicepresidente della regione Campania, irpino, oramai ci ha abituati a giorni alterni a smentite e silenzi, saltando su qualsiasi carro di Trespi che girovaga inutilmente per le nostre contrade. Imbriano di SEL, che qualche organo di stampa con un lapsus classicamente freudiano già appella come segretario provinciale di quel partito (aspetta e spera!), si cimenta nella solita parte del mentore di “Nicki”, tralasciando di affrontare nella sua orgia mediatica la questione dell’acqua dalla parte dell’Irpinia, come invece giustamente fa qualche amministratore irpino di sinistra».
+&nbsp;
+E poi sottolinea Moricola c’è il silenzio della Provincia. «Tace del tutto il presidente Sibilia che troppo affaccendato ad immaginare di che morte muore il suo ente, si dimentica dell’acqua e di quanto gli avevano suggerito per tempo quelli del centrosinistra Alternativo e del gruppo alla provincia di SEL per rivendicare a Napoli come a Bari una presenza decidente dell’Irpinia sulla questione dell’acqua».
+ Per Moricola «l’ennesima farsa.» «Primo: tutti richiamano il carattere di bene comune dell’acqua, scomodando solidarietà , moralità, ma ognuno aspira a privatizzarne i vantaggi. Fa eccezione la regione Campania che sulla scena fa la parte della sfinge e, nonostante i tardivi ululati di Romano, sul fantomatico accordo di programma con la Puglia non ha saputo costruire nessuna salvaguardia per la regione e soprattutto per l’Irpinia. Niente fatto, punto e a capo. Vendola, dopo aver incassato i vantaggi per la sua regione, invoca un patto sull’acqua di tutto il Mezzogiorno. Sono assolutamente e non posso che auspicarlo. Ma allo stesso tempo mi chiedo: se due regioni non sono state capaci di produrre alcun atto concordato, figurarsi che potrebbero fare quattro o cinque di esse intorno ad un tavolo. La politica, insomma, fa acqua da tutte le parti, assai di più di quella parte della preziosa risorsa che si disperde nelle nostre reti colabrodo, senza che nessuno si sia preoccupato di rinnovarle. La serietà, come si vede, scivola e affoga nell’acqua».
+
+[post_text_203]
+Pavoncelli, c’è il ricorso dell’Ato
+&nbsp;
+&nbsp;
+Caposele - L’Ato decide di ricorrere al Consiglio di Stato contro la sentenza del Tar sulla Pavoncelli Bis. La decisione arriva al termine di una giornata lunghissima nella sede avellinese del Victor Hugo. Prima l’incontro con i gestori sul piano l’emergenza idrica nel periodo estivo, poi la riunione del Cda per affrontare i nodi di tipo legale e altri punti importanti all’ordine del giorno come quello del Bilancio 2011.
+&nbsp;
+Ma andiamo con ordine. Alla prima riunione con i tecnici dell’Alto Calore Servizi e dell’Acquedotto Pugliese si è discusso prevalentemente delle problematiche legate alla distribuzione della risorsa ora che c’è un maggiore utilizzo da parte degli utenti e la rete incontra più frequentemente stop forzati. «Abbiamo avuto dai gestori - spiega il presidente dell’Ato Giovanni Colucci - la rassicurazione che sono già pronti piani di intervento per affrontare eventuali nuove emergenze idriche. I problemi riscontrati fino a oggi sono legati essenzialmente alla vetustà delle reti e per questo i gestori hanno segnalato la necessità di nuovi finanziamenti da parte della Regione. L’emergenza, insomma, non si risolve pompando più acqua ma rinnovando gli impianti. Su questo punto l’assessore regionale Romano non può essere distratto».
+&nbsp;
+Nella successiva riunione del Cda è stato poi dato mandato al presidente Colucci di procedere con la costituzione in giudizio davanti al Consiglio di Stato avverso alla sentenza del Tar che a fine maggio aveva dato torto all’ente e confermato al regolarità della nomina a commissario straordinario per la realizzazione della Pavoncelli Bis di Roberto Sabatelli. «Decidiamo di andare avanti perché pur rispettando la decisione del giudice amministrativo - dice ancora Colucci - rimaniamo convinti che i rilievi mossi siano pienamente validi e per questo ci appelliamo alla giustizia di secondo grado per far valere le nostre ragioni».
+ La questione inevitabilmente si inserisce nella più ampia vertenza aperta sull’accordo tra le Regioni Campania e Puglia sui trasferimenti idrici. Tra l’altro Colucci della questione ha parlato nel chiuso del suo Cda relazionando sulle iniziative poste in essere per salvaguardare l’integrità della risorsa idrica nelle province di Avellino e Benevento. Gli stessi amministratori hanno poi approvato il consuntivo dell’anno scorso.
+&nbsp;
+Oggi intanto, sempre sulla questione delle reti idriche il presidente dell’Alto Calore Francesco D’Ercole sarà a Napoli per incontrare l’assessore regionale Giovanni Romano. Era stato proprio il numero uno dell’ente irpino a richiedere il faccia a faccia per fare una ricognizione sui progetti relativi all’ammodernamento della rete idrica presentati dall’Acs. Si spera nello sblocco dei finanziamenti.
+
+[post_text_204]
+Caposele, Grasso (Pd): «Riavviciniamo tutti i cittadini alla vera politica»
+&nbsp;
+“Ruolo del partito sul territorio irpino”. E’ questo il convegno organizzato dalla sezione di Caposele nel tardo pomeriggio di venerdì. Soddisfatto per l’iniziativa e per l’andamento dei lavori il segretario locale Gelsomino Grasso che ha ringraziato tutti per la presenza ed ha espresso l’esigenza di far riavvicinare i cittadini alla politica.
+&nbsp;
+«Secondo me la sezione di partito è un luogo dove si elabora e si sviluppa la politica del territorio, si organizza la forma più efficiente per il proselitismo del partito nazionale regionale e provinciale. La sezione è, inoltre, la cerniera di congiunzione tra il cittadino e la classe politica a vari livelli partendo proprio dal Comune, passando per la Provincia, proseguendo per la Regione per, poi, giungere alla Nazione.
+Se la classe politica è assente, il ruolo delle sezioni svanisce, il cittadino si allontana sempre di più dalla politica, il giovane non crede più alla politica perchè non partecipa all’elaborazione della stessa. Allora bisogna invertire la rotta, essere con la gente per capire le problematiche che esistono. Sicuramente sarà premiata la forza politica che si riconoscerà in questo percorso. Il Pd, per sua natura, deve prepararsi immediatamente a questo prima che sia troppo tardi.
+Sono molto soddisfatto - spiega Grasso - per come sono andate le cose, per l’ottima partecipazione dei cittadini alla nostra manifestazione e per le conclusioni affidate a Franco Vittoria che ha recepito tutte le istanze di un territorio che continua a subire molti maltrattamenti sia dalla politica regionale che da quella nazionale. Posso dire - conclude Grasso - che la risposta complessiva è stata positiva visti anche i vari interventi fatti dai cittadini. Ora credo che, come partito, continueremo con queste iniziative perchè abbiamo l’obiettivo di far riavvicinare le persone alla politica, quella vera, quella che pensa agli interessi generali e non a quelli particolari».
+&nbsp;
+---------------------------------------------------------------------------------------
+&nbsp;
+&nbsp;
+Caposele - Il consigliere provinciale Farina: «Al via i lavori sulla S. p. 130»
+&nbsp;
+La questione della strada provinciale 130, che unisce Caposele alla zona del suo cimitero, è ormai di vecchia data, ma, ora, sembra tutto pronto per la partenza dei lavori. A fare il punto della situazione il consigliere provinciale Pd Stefano Farina.
+&nbsp;
+«Quella della strada provinciale 130 è una questione annosa. Alla fine dopo tante peripezie sembra che i lavori partiranno a breve. Sull’arteria bisognava fare una valutazione sul come intervenire. Una volta deciso che serviva la palificazione il progetto è stato portato al genio civile che ha richiesto di utilizzare pali più lunghi ad una distanza più breve. A questo punto l’ufficio tecnico della Provincia di Avellino ha dovuto rivedere il progetto e ripresentarlo al genio civile il quale lo ha ritenuto ottimale ed ha consegnato l’autorizzazione alla ditta appaltatrice per iniziare i lavori, quindi, a breve si arriverà alla risoluzione definitiva della situazione. Penso che in un momento così delicato di disaffezione alla politica sia importante spiegare che c’è anche qualche politico operaio che segue il territorio. Il mio augurio è che la mia soddisfazione sia quella di tutti coloro che hanno contribuito alla soluzione di una cosa piccola, ma importantissima per i cittadini di Caposele».
+&nbsp;
+
+[post_text_205]
+Caposele, Conforti: «Il Minitour? Ecco le prime risposte dal territorio»
+&nbsp;
+Uno dei principali obiettivi dell’amministrazione comunale di Caposele, negli ultimi mesi, è stato quello di promuovere un progetto turistico che riguardava tutte le bellezze religiose, culturali, storiche e naturali del territorio.
+&nbsp;
+A fare il punto della situazione sulla questione è l’assessore Salvatore Conforti.
+ «Minitour Caposele è un percorso tra Fede, Ambiente e Cultura. Un tentativo per incentivare oltre che per attrezzare meglio le infrastrutture turistiche locali. Un progetto work in progress che inizia a dare risultati interessanti, che fanno ben sperare per il futuro in termini di concreto sviluppo economico legato alla valorizzazione territoriale.
+&nbsp;
+Questa proposta dell’amministrazione comunale, sta prendendo corpo e definendosi sempre meglio nel tempo, ogni volta che si riesce, stante l’atavica mancanza di fondi idonei, ad aggiungere una componente utile, anche per tracciare un primo bilancio delle attività. In questo caso si prende ad esempio il sistema museale che si sta implementando. Dal giorno dell’inaugurazione del Museo delle Macchine di Leonardo ad oggi, infatti, nel nostro piccolo paese irpino sono arrivate già oltre cinquemila persone, molte delle quali non erano neppure a conoscenza della nostra realtà, ma solo di quella molto più nota, del Santuario di San Gerardo Maiella. Grazie al richiamo del museo delle macchine di Leonardo, molte persone hanno potuto apprezzare anche il resto del nostro minitour, infatti, il Museo delle Macchine di Leonardo è stato solo l’ultimo tassello del mosaico territoriale locale che stiamo costruendo e sperimentando contemporaneamente, fatto appunto, di numerose attrazioni turistiche che vanno dal Santuario di San Gerardo Maiella al Tempio Artistico di San Lorenzo, dal Museo delle Acque alle famose Sorgenti del Sele, dal Parco Fluviale all’oasi della Madonnina con la sua bella cascata; emergenze queste, che insieme ai nostri prodotti enogastronomici, ci stanno facendo entrare a pieno titolo nel panorama dell’offerta turistica di qualità in l’Irpinia.
+&nbsp;
+Un percorso - spiega Conforti - che si snoda attraverso la memoria storica locale, il sistema fluviale, quello montano-collinare. Il tour con temi differenziati ma collegati sul territorio si stanno dimostrando un’idea vincente per molti versi e anche grazie alla nuova tendenza, tutta da sfruttare, della riscoperta delle aree interne anche da parte delle grandi imprese turistiche, speriamo in nuove e concrete possibilità che speriamo saranno anche favorite dal prossimo Piano regionale del turismo in Campania.
+&nbsp;
+L’idea di questa Amministrazione è sempre stata, del resto, quella di far vivere l'occasione turistica di Caposele quale risorsa e patrimonio territoriale , non certo quella di chiudersi in se stessi. E' da tempo che abbiamo preso atto delle peculiarità produttivo-commerciali di Lioni, delle funzioni burocratiche di S.Angelo, ma anche del termalismo di Contursi. Ora si tratta di chiedere a tutto questo territorio che ci circonda di procedere uniti per un progetto integrato che ciascun comune viva come obiettivo prioritario da offrire alla riflessione delle istanze superiori.
+&nbsp;
+Quello a cui si lavorerà da ora in poi, anche per concretizzare questa nostra idea, è un calendario, corposo e disteso nell'arco annuale che precisi e diffonda, solennità religiose di antica radice, manifestazioni folkloristiche, eventi culturali, ricreativi e sportivi, da coordinare e rilanciare. Caposele: una bella esperienza da fare».
+
+[post_text_206]
+Caposele, in distribuzione carta sentieri
+&nbsp;
+E' in distribuzione la carta dei sentieri del Comune di Caposele a cura dell'assessorato alle Politiche ambientali «Può sembrare paradossale ma l'acqua, elemento principale di ricchezza del nostro paese, ha per molto tempo costituito la fonte primaria al mancato decollo del turismo ambientale - afferma l'assessore al ramo, Angelo Ceres.
+&nbsp;
+Caposele, cancellata per anni dalle cartine geografiche perché considerata un obiettivo militare, oggi lentamente si fa scoprire anche grazie alle sue bellezze naturali». Per raggiungere questi risultati, sono state messe in cantiere varie iniziative: dalla gestione delle visite presso le sorgenti del Sele (oggi di pertinenza dell’Aqp), alla realizzazione del museo delle acque, del parco fluviale, del museo di Leonardo fino alla creazione di alcuni sentieri montani, di facile percorrenza, tracciati in collaborazione con Irpinia Trekking.
+«Per consentire la conoscenza del nostro patrimonio ambientale, dei panorami, della flora e della fauna - continua - si è innanzitutto attuata una seria politica ambientale volta all'eliminazione di alcuni forti fattori di disturbo quali il contrasto al bracconaggio, allo scarico di rifiuti in aree protette, al pascolo abusivo, al taglio e furto di alberi, alla raccolta senza regole dei prodotti del sottobosco.
+&nbsp;
+Queste iniziative, finalizzate alla tutela del territorio, hanno contribuito alla realizzazione dei sentieri riportati nella mappa. Altri, più impegnativi e maggiormente selvaggi, sono in attesa di ricevere finanziamento. Grazie a questa pianta è oggi possibile scoprire dei posti incantevoli, sconosciuti al turismo di massa». L'assessorato sta lavorando, con gli enti competenti, per cercare di migliorare la biodiversità sostenendo la tutela del lupo e aiutando gli allevatori nelle loro funzioni, per far si che in un futuro non troppo lontano, mentre si passeggia tra i boschi di faggio si possa incontrare qualche esemplare di capriolo italico o di cervo.
+
+[post_text_207]
+Caposele, Cetrulo: «Rilanciamo il territorio»
+&nbsp;
+&nbsp;
+&nbsp;
+Si rinnova per il secondo anno, l’appuntamento con Confimprenditori a Caposele. Un appuntamento che comincia ad essere importante in Alta Irpinia, dove la Confimprenditori di Caposele, retta da Pietro Cetrulo, vuole dar vita ad un momento d’incontro tra i lavoratori, le imprese e gli enti che trattano la sicurezza e formazione.
+&nbsp;
+A fare il punto della situazione è proprio Pietro Cetrulo.
+«Tengo a ringraziare prima di ogni cosa il Presidente Provinciale Confimprenditori Avellino Gerardo Santoli, nonché Responsabile Regione Campania di FormaLavoro e Presidente dell’ISW, che a dimostrazione del suo impegno a favore delle imprese e dei lavoratori, non ha fatto mancare il suo sostegno alle iniziative promosse dalla sede zonale di Caposele. In un momento di forte crisi occupazionale, chi ha ruoli istituzionali o politici, deve cercare qualsiasi strada o modo di alleviarne gli effetti negativi. In questo contesto ho organizzato varie iniziative, tra cui la manifestazione di sabato 4 agosto che vedrà alla ribalta i mestieri, con uno stand dedicato alla formazione dei saldatori e alla storia della saldatura. Uno al mestiere di escavatorista attraverso una gara con miniescavatori, che si prevede accesa vista la presenza di numerosi operatori di diversi comuni, ed infine operatore di pompe per calcestruzzo di grandi dimensioni. Ci sarà uno stand dedicato ai D.P.I. (dispositivi di protezione individuale) con la presenza di aziende del settore. Un altro, ancora, dedicato alle informazioni che riguardano le nuove normative in materia di formazione, ispettorato del lavoro, ASL, incentivi per le imprese e i lavoratori, e altro. Il momento più importante della serata, sarà sicuramente la presentazione dei prodotti di saldatura della ditta AWELCO, di Conza della Campania, un’azienda all’ avanguardia e un fiore all’occhiello dell’Irpinia, la ditta presenterà in anteprima quasi mondiale la saldatrice una saldatrice bionica (parlante) che possiamo definire il meglio per quanto riguarda la prevenzione infortuni sul lavoro, e guida nella saldatura per i saldatori, una cosa che non si riesce a spiegare a parole, bisogna vederla all’opera. Non mancheranno le offerte culinarie e la musica, musica folk locale con artisti locali.
+Saranno presenti molte autorità politiche e amministrative a testimonianza della validità e importanza della manifestazione, a cominciare dal Commissario per la Pavoncelli-bis, l'onorevole Marco Pugliese, il consigliere Regionale on. Sergio Nappi, il Consiglieri Provinciali e altri. Da cittadino e da Consigliere Comunale, - conclude Cetrulo - ringrazio tutti quelli i collaboratori della manifestazione e tutti quelli che a vario titolo sono vicini alle esigenze dei lavoratori e della imprese soprattutto dell’Alta Irpinia».
+&nbsp;
+------------------------------------------------------------------------------------------
+&nbsp;
+Pavoncelli Bis, Sabatelli: «Il primo progetto dell’opera risale al 1985»
+&nbsp;
+&nbsp;
+&nbsp;
+CAPOSELE - Una delle tematiche più accese del dibattito politico-amministrativo dell’Alta Irpinia è, senza alcun dubbio, quella della Pavoncelli Bis, della sua storia e dei lavori che, a breve partiranno.
+&nbsp;
+Il tutto in attesa delle decisioni che prenderà il Tribunale Superiore delle Acque nell’udienza del prossimo 19 dicembre. Era a Caposele, nel pomeriggio di ieri il Commissario straordinario e delegato dal Governo Roberto Sabatelli il quale ha spiegato che, molto presto, l’opera sarà avviata.
+«A questo punto - dice - la situazione è molto chiara. Il 28 giugno abbiamo firmato il contratto con la ditta appaltatrice dell’opera. La stessa sta preparando un progetto sulle varianti migliorative proposte. Questo progetto sarà, poi, validato ed approvato dal sottoscritto. La mia speranza è che il tutto si sistemi, nel più breve tempo possibile, e che il progetto veda la sua luce all’inizio del mese di ottobre. Importante la riunione che abbiamo tenuto a Caposele, infatti, ci siamo incontrati con l’Acquedotto Pugliese per capire, concretamente, le portate disponibili per dimensionare ed utilizzare nel migliore modo possibile la centrale idroelettrica».
+&nbsp;
+Il Commissario Sabatelli parla anche della prossima udienza del Tribunale Superiore delle Acque, il 19 dicembre e della situazione ristoro dei territori e quindi dell’accordo di programma.
+«Il Tribunale Superiore delle Acque discuterà della questione nell’udienza del 19 dicembre, ma c’è da dire che sull’argomento si è già espresso il Tar del Lazio. Ora, nell’ipotesi in cui, il Tribunale Superiore delle Acque dovesse adottare una decisione differente da quella del Tar, si chiederà, certamente, un regolamento di Giurisdizione per capire di chi è la competenza sulla questione e quale tribunale deve pronunciarsi. Per ciò che riguarda il ristoro dei territori e la manutenzione delle infrastrutture - commenta - è chiaro che tutto sarà deciso nell’accordo di programma, infatti, bisogna specificare che nella valutazione d’impatto ambientale una delle prescrizioni è che, prima della messa in esercizio dell’intervento, debba essere sottoscritto l’accordo di programma quadro. In quella sede, seguendo le varie normative, si deciderà e capirà quale possa essere il ristoro per il territorio».
+&nbsp;
+In conclusione il commissario Roberto Sabatelli parla della data di presentazione del progetto originale della Pavoncelli Bis.
+«Una cosa a cui tengo molto è far capire che il progetto della Pavoncelli Bis è stato presentato per la prima volta nel 1985. Quindi vorrei che questo sia chiaro anche per chi, prima, alla Comunità Europea, ha detto che era un progetto del 2005 ed ora dice che era un progetto presentato alla Cassa per il Mezzogiorno già nel 1970. Prima di parlare bisogna documentarsi».
+&nbsp;
+
+[post_text_208]
+A Caposele domani si riunisce il Pd
+&nbsp;
+Il 4 agosto il Circolo locale del P.D. diretto da Gelsomino Grasso ha organizzato un incontro con gli iscritti e la cittadinanza presso il Centro polifunzionale in Piazza IIIV Novembre con la partecipazione di Vito Farese, Presidente del Consorzio Piano di Zona Alta Irpinia; Stefano Farina, Consigliere Provinciale; Toni Ricciardi, Responsabile organizzazione PD Avellino; Francesco Todisco, Vicesegretario Federazione Avellino; Caterina Lengua, Segretaria Provinciale PD Avellino; le conclusioni sono affidate al Senatore, Enzo De Luca, con la presenza dei Sindaci della zona.
+&nbsp;
+ La tavola rotonda è concentrata soprattutto sulla questione dell’emendamento sull’art. 9 del DL 95/2012 approvato al Senato il 31 Luglio sulla questione della non soppressione dei Consorzi sociali, che la Regione alcuni mesi or-sono aveva di fatto programmato la soppressione del Consorzi Sociali, creando non pochi disagi alle popolazioni interessate, disabili, terza età famiglie disagiate sul piano economico, nonché sulle incertezze per le strutture di servizio. Non ultimo la questione dei rapporti all’interno delle Assemblee tra forze di centro-sinitra e centro-destra a modifica dello Statuto onde evitare la totale eliminazione delle strutture sociali. il caso emblematico afferma Gelsomino Grasso e Lioni, il Presidente Vito Farese ha impegnato tutte le sue energie affinché potesse addivenire ad una soluzione del caso, trovando però, per motivi incomprensibili ostacoli dal PDL e UDC per cui impossibilitato alla soluzione unitaria.
+ l’emendamento all’art. 9 del DL 95/2012 approvato in Senato ha risolto momentaneamente il problema, almeno fino alla costituzione dell’Unione dei Comuni, altro caso spinoso per i rapporti tra PD e UDC in particolare.
+&nbsp;
+ Verranno discusse anche altre questioni che affliggono il Paese Altoirpino e comuni limitrofi, si discuterà della soppressione del 118 dove il PD locale si stà organizzando per scongiurare quest’altro torto, Grasso afferma che non è possibile sopprime il 118 in un Comune dove è presente un turismo che registra una presenza di oltre 100.000 persone all’anno, un Comune che è classificato, proprio a causa del presente afflusso turistico, comune di 40.000 abitanti pur avendone circa 4.000, inoltre dovrebbero partire una serie di lavori, dopo la stipula della convenzione con l’AQP per cui il ripristino delle reti idriche, il rifacimento della Piazza Sanità, ed altri lavori inerenti alla messa in atto della convenzione.
+&nbsp;
+ Il PD a Caposele è un cantiere aperto per 360 giorni all’anno, le iniziative sono molteplici sperando, conclude Gelsomino Grasso che il nostro cantiere porti ricchezza economica-sociale e culturale.
+
+[post_text_209]
+Il Gruppo Attivo L.G. ripulisce il Fiume Sele
+&nbsp;
+&nbsp;
+CAPOSELE – La tutela del Fiume Sele è sempre stata una delle priorità die cittadini di Caposele e degli abitanti di tutta la Valle. Si susseguono le iniziative ed i convegni per parlare della portata minima del fiume, della sua salute e della salvaguardia delle sue acque, ma non mancano neanche le iniziative concrete per la pulizia e gli interventi materiali proprio sul letto del Fiume. Una di queste è andata di scena il 5 e 6 agosto organizzata dal gruppo Attivo L.G.. Il gruppo è da anni impegnato sul territorio di Caposele in attività di sensibilizzazione e tutela ambientale. Con quest'idea da almeno un decennio organizza annualmente l'evento "RipuliAMO il Sele".
+&nbsp;
+Quest'anno è stato suddiviso in due giornate: domenica 5 agosto è stata organizzata la pulizia del fiume Sele. Rispetto agli anni precedenti si è riscontrata la presenza di numerosi volontari, circa una trentina, i quali, in collaborazione con i ragazzi del GruppoAttivo, si sono riuniti per l'attività di pulizia del Parco fluviale, sito in località Tredogge, ed hanno costeggiato il fiume fino al Campo sportivo "A. Liloia". Nel corso della giornata hanno partecipato: l'Anpas Caposele, le Guardie ecozoofile di Avellino e le guardie ambientali WWF di Avelino.
+&nbsp;
+“E' stato triste - dicono dal gruppo - constatare la grande quantità di rifiuti depositati lungo il fiume, tra cui soprattutto carcasse di macchine e vari utensili in ferro. Un ulteriore aspetto negativo è notare che la quantità di acqua immessa nel fiume nei giorni precedenti alla pulizia era minore rispetto a quella attuale. A tal proposito, il Gruppo Attivo L.G. invita le autorità competenti a garantire puntualmente il minimo deflusso vitale e non soltanto nei giorni di festa".
+&nbsp;
+La seconda giornata, quella dedicata al Sele Day, è stata organizzata, ancora una volta, nell'incantevole atmosfera del Parco Fluviale ed è andata di scena il 6 agosto a partire dalle ore 21.00. Nel corso della serata sarà possibile gustare piatti tipici della tradizione locale con prodotti di agricoltura biologica e piatti etnici vegetariani. Ad allietare la serata sarà il gruppo SWAN, cover band dei Led Zeppelin, che suonerà su un suggestivo palco sul fiume. Ancora un’iniziativa, quindi, per la tutela di un corso d’acqua che è sempre al centro della discussione e del dibattito in Alta Irpinia.
+&nbsp;
+&nbsp;
+
+[post_text_210]
+Caposele, Farina scrive alla Regione: «Preserviamo il nostro 118»
+&nbsp;
+Non ci stanno a Caposele a perdere la postazione Stie, ed ecco che il primo cittadino, Pasquale Farina, lancia un grido di allarme spiegando con una nota al Governo Regionale, ai parlamentari nazionali e regionali ed ai vari partiti politici spiegando le difficoltà e le esigenze del territorio che è contiguo al Santuario di San Gerardo Maiella.
+&nbsp;
+«Come sindaco di Caposele - scrive Farina - rispetto alla paventata ipotesi di soppressione della postazione Stie del nostro paese vorrei fare delle considerazioni. Vorrei ricordare - spiega Farina - che del Comune di Caposele fa parte la frazione di Materdomini, con il Santuario di San Gerardo Maiella, meta, nell’arco dell’intero anno, di circa un milione di pellegrini e che le suddette presenze saranno sempre più numerose, in vista degli eventi previsti per l’anno 2013, proclamato anno della fede da Papa Benedetto XVI. Inoltre vorrei far presente che l’art. 52 della legge regionale n. 1 del 30 gennaio 2008 pubblicata sul bollettino ufficiale della Regione Campania. 5 Bis del 4 febbraio 2008, recita che gli effetti previsti dall’art. 6, comma 6, della legge regionale del 12 novembre 2004 n. 8, sono estesi in via permanente, oltre ai Comuni già destinatari, al Comune di Mercogliano, sede del santuario di Montevergine, al Comune di Caposele, sede del Santuario di San Gerardo ed al Comune di Cava dei Tirreni, sede del’abbazia della Santissima Trinità, reputando il millenario, ricorrente nell’anno 2011, evento di straordinario interesse per la promozione del territorio. Per tutti questi motivi chiedo il mantenimento della postazione Stie nel Comune di Caposele, già attiva dall’ottobre del 2001. A sostegno di quanto detto c’è la richiesta dei padri redentoristi di San Gerardo che sono preoccupati per un’eventuale soppressione. Si rimane - conclude il primo cittadino di Caposele Farina - in attesa di un concreto riscontro, sicuri che si continuerà a garantire una risposta positiva alle esigenze sanitarie di un Comune strategicamente importante per la presenza del Santuario di San Gerardo».
+&nbsp;
+Come ha spiegato il sindaco di Caposele, la sua nota arriva dopo quella che ha ricevuto da Padre Antonio Perillo Rettore del Santuario di San Gerardo Maiella.
+&nbsp;
+«Comunico la nostra preoccupazione - dice Padre Perillo - la nostra preoccupazione per la paventata soppressione del servizio del 118 di Caposele. Tale servizio è di vitale importanza per i pellegrini che in numero elevato frequentano, non solo il per il periodo estivo, ma per tutto il periodo estivo, ma per tutto l’anno il nostro Santuario. Molte vite sono state salvate per il pronto e immediato intervento degli operatori del 118. Vorremmo caldamente far presente alle autorità competenti la preziosità di tale servizio, anche in vita delle varie iniziative che per tutto il 2013 intenderemmo porre in essere in occasione dell'anno della Fede indetto da Papa Benedetto XVI. Comprendendo le difficoltà del momento presente, diamo convinti che la praticità ed il buon senso dei nostri amministratori prevalgano per mantenere in vita un servizio così importante per la grande comunità dei devoti di San Gerardo».
+&nbsp;
+&nbsp;
+
+[post_text_211]
+Spunta un termovalorizzatore per rifiuti speciali a Oliveto Citra
+&nbsp;
+Caposele - Ad Oliveto Citra un termovalorizzatore per bruciare rifiuti speciali ed ospedalieri. Ed è già mobilitazione in tutta l’Alta Irpinia. La notizia è stata diffusa in occasione della decima festa dell’agricoltura, che si è svolta ieri sera a Caposele. Monta la rabbia soprattutto perché inizialmente l’impianto era destinato alle biomasse, e, quindi, sarebbe stato compatibile con le produzioni agricole.
+&nbsp;
+Il senatore Alfonso Andria, vice presidente della commissione agricoltura, si è subito schierato con la gente del posto ed ha assicurato il suo intervento per provare a scongiurare un’altra ingiustizia nei confronti della popolazione irpina, già duramente messa alla prova per le discariche di Difesa Grande ad Ariano Irpino, Pustarza a Savignano Irpino, a Tufino senza considerare le notizie in base alle quali il territorio irpino tra poco dovrebbe essere interessato anche dalle attività di trivellazione per la ricerca del petrolio.
+L’incontro, moderato dal professore Tony Ricciardi, ricercatore di Ginevra, ha fatto il punto della situazione sullo stato dell’agricoltura in provincia di Avellino, con un particolare riferimento alla PAC. Ma si è parlato anche di servizi sanitari tagliati o ridotti. Hanno partecipato Raffaele Spatola, presidente della CIA per la zona della Valle Sele; Gelsomino Grasso, responsabile CIA per la Valle del Sele e Rosario Concilio, responsabile provinciale della C.A.A.-CIA di Avellino. Il dibattito è stato animato da Pasquale Farina, sindaco di Caposele; Antonio Minichiello, direttore provinciale della CIA; Mario Grasso, direttore regionale della CIA; Corrado Martinangelo, responsabile Pd per le politiche agricole in Campania e nel Mezzogiorno.
+&nbsp;
+«Con la Festa dell’Agricoltura - dice Grasso - si vuole provare anche a discutere delle tante problematiche del territorio. Basti guardare alla soppressione del tribunale, del 118 in zone strategiche, alla sanità mandata a pezzi, alla forestazione ormai distrutta, ai Piani di Zona Sociali &#8194;in fase di smantellamento da parte della Regione. In buona sostanza l'Irpinia è destinata a morire in agonia. La stampa, le Associazioni di volontariato, le Organizzazioni sindacali e di categoria dobbiamo cercare, con tutte le forze, di mantenere in piedi le cose più nobili la cultura, le tradizioni la nostra storia».
+&nbsp;
+L’iniziativa è stata realizzata grazie all’associazione olivicola irpina con il patrocinio delle amministrazioni comunali di Caposele, Lioni, Teora, Calabritto e Senerchia. Dopo la tavola rotonda la festa è proseguita con canti e balli delle forte tradizione contadina, accompagnati dai prodotti tipici dell’Irpinia. Notevole la partecipazione di cittadini ed amministratori della zona, tra i quali Stefano Farina.
+&nbsp;
+
+[post_text_212]
+Caposele - Sventato furto di legname grazie alla sorveglianza delle Guardie Ambientali
+&nbsp;
+Al terzo anno di attività di vigilanza caratterizzata, in primo luogo, alla prevenzione di illeciti penali ed amministrativi all’interno dell’area del Parco Dei Monti Picentini, arrivano i primi risultati. Grazie ai controlli del territorio montano voluti fortemente prima dal Comune di Caposele e poi dagli altri Comuni irpini, è calato notevolmente l’afflusso delle persone non residenti che si recavano in montagna per la raccolta dei prodotti del sottobosco senza le previste autorizzazioni.
+&nbsp;
+In particolare in questo periodo dell’anno sulle montagne del Comune di Caposele, Bagnoli Irpino e Nusco, c’era un’affluenza di persone provenienti della provincia di Napoli e Benevento a raccogliere in maniera indiscriminata l’origano che, spesso, veniva estirpato con le radici provocando l’estinzione della pregiata piantina.
+&nbsp;
+Oltre al contrasto della raccolta illegale dei prodotti del sottobosco è stato combattuto il diffusissimo fenomeno del bracconaggio, in località Mauta, Pollaro e Avigliano del Comune di Caposele, luoghi ove erano perpetrati reati in materia venatoria perché si trovano all’interno dell’area del Parco.
+Un duro colpo è stato dato anche all’attività del furto di legname. Gli agenti, oltre alla prevenzione, hanno Individuato coloro i quali si recavano all’interno dell’area protetta per abbattere le piante di faggio per poi commercializzare illegalmente la legna.
+&nbsp;
+Il plauso dell’attività svolta dalle guardie ambientali è arrivato dagli appartenenti del mondo ambientalista e da quelli appartenenti alle associazioni venatorie rispettose delle regole che disciplinano la caccia. Ovviamente non sono mancate le critiche da parte di persone a cui gli è stato impedito di danneggiare l’ambiente o di quelli che volevano strumentalizzare le attività di controllo per farne un “cavallo di battaglia” politico sul territorio caposelese.
+Un plauso va all’amministrazione comunale di Caposele, che ha voluto proteggere l’habitat per l’interesse di tutti i suo cittadini.
+&nbsp;
+
+[post_text_213]
+Caposele, c’è il bando affidamento della piscina Ma è polemica, Melillo attacca: è “discriminatorio”
+&nbsp;
+Fa discutere la presenza nel regolamento che disciplina la gestione e l'affidamento della Piscina Comunale di Caposele, la presenza di una norma, all' articolo 11, per la concessione da parte dell'ente gestore della facoltà di dare in subappalto il bar presente nella struttura. Ma non solo. Infatti all'articolo 11, "Il Concessionario, nel caso lo ritenga, potrà gestire il servizio di bar. Le autorizzazioni amministrative e sanitarie relative a tale attività dovranno essere intestate al legale rappresentante del concessionario, il quale è tenuto ad espletare tutte le incombenze amministrative richieste, a propria cura e spese.
+Dette autorizzazioni sono operanti limitatamente al periodo di concessione e non sono trasferibili. Sono a carico del concessionario tutti gli oneri fiscali relativi al suddetto esercizio. E' data facoltà al Concessionario di subconcedere il suddetto esercizio di bar, previo formale gradimento espresso dal Comune, in ordine alle generalità dell'eventuale sub-concessionario. Il sub-concessionario ed il Concessionario rispondono solidamente del puntuale adempimento di tutti gli oneri connessi al suddetto esercizio". Quel “formale gradimento” nella subconcessione sta animando in queste ore il dibattito a Caposele. Gerardo Melillo, rappresentante legale di una cooperativa lamenta anche altre irregolarità presenti nel bando.
+«Anzitutto è permessa la partecipazione solo di alcune cooperative, quelle di tipo b appunto, con determinate caratteristiche. Dunque, sono escluse le società ad hoc, altri tipi di associazioni etc. Si tratta di un bando discriminatorio anche per altre ragioni.
+Non tutti i soggetti possono partecipare ma solo quelli invitati. E poi l’attribuzione del punteggio è troppo discrezionale. Ci dovrebbero essere dei riferimenti fissi ma non è così. E’ la seconda volta che l’amministrazione predispone un bando irregolare. Uno precedente, in seguito ad un preavviso di ricorso al Tar, era stato ritirato».
+Già nel 2008 il consiglio comunale aveva stabilito di affidare l’impianto della piscina comunale coperta in località Piani. Il periodo per la concessione era stato fissato per tre anni.
+Nel 2012 si è votato di nuovo di affidare il servizio a cooperativa sociale in possesso dei necessari requisiti. Dunque l' amministrazione ha pronto il nuovo bando di gara con procedura d’urgenza “al fine di non interrompere ulteriormente le attività per l'affidamento della Piscina Comunale ed in particolare la fruizione scolastica della stessa”.
+Con una determina l'amministrazione comunale ha deciso per una procedura negoziata per l’affidamento a cooperative sociali, regolarmente costituite per la gestione della piscina comunale e degli impianti mediante il criterio di cui all’art. 83 del T.U. 163/2006.
+Il canone mensile base sul quale effettuare il rialzo è di 1.200,00 mensili. Nell’ambito dell’offerta la ditta dovrà prevedere un utilizzo orario per le fasce scolastiche dell’obbligo, che comunque dovrà essere stabilito di concerto con le amministrazioni scolastiche.
+La ditta dovrà prevedere la promozione degli sport collegati all'uso della piscina ed assicurare manifestazioni sportive collegate al CONI e/o alla F.I.N. e ad altre società sportive. In sede di offerta dovrà essere previsto un programma promozionale generale ordinario, che il Concessionario sarà tenuto a sviluppare con programmi annuali da presentarsi al’ Amministrazione Comunale entro il 30 Agosto di ogni anno, oltre a progetti speciali per il periodo 1 luglio - 30 agosto, finalizzati alle esigenze turistiche comunali ed alle esigenze locali. Il Concessionario è tenuto all'integrale gestione del Servizio relativo all'impianto sportivo e a tutta una serie di obblighi.
+&nbsp;
+&nbsp;
+
+[post_text_214]
+Moto contro un guard-rail. Perdono la vita un uomo e una donna
+&nbsp;
+Colliano - Tragedia nel Fondo Valle Sele in località Colliano, provincia di Salerno, dove hanno perso la vita due avellinesi in seguito a un incidente stradale.
+Il fatto è successo pochi minuti fa. Sul posto si sono recati i Carabinieri della stazione locale per ricostruire gli avvenimenti.
+&nbsp;
+Stando alle prime indiscrezioni, nell'incidente sarebbero morti un uomo di Lioni e una donna di Caposele, anche se sono ancora in corso le indagini per risalire alle loro generalità.
+&nbsp;
+I due viaggiavano in sella a una moto guidata dal primo. Per motivi ancora poco chiari, la moto si sarebbe schiantata contro un guard-rail. L'impatto sarebbe stato fatale per i due che sarebbero morti sul colpo.
+&nbsp;
+&nbsp;
+
+[post_text_215]
+Colliano - Incidente stradale mortale lungo la strada statale 691 "Fondo Valle Sele": due i morti. L'Anas comunica che è provvisoriamente chiusa la strada statale per l'incidente mortale verificatosi al km 11,900, in direzione nord, tra le province di Salerno e Avellino. Il personale dell'Anas e le Forze dell'ordine sono presenti sul posto per gli accertamenti della dinamica e per ripristinare la circolazione il prima possibile.
+&nbsp;
+Viaggiavano in sella ad una motocicletta le due persone decedute questo pomeriggio nel territorio di Colliano (Salerno), sulla Fondo Valle Sele. A perdere la vita un 48enne di Lioni (Avellino) e una donna.
+&nbsp;
+Sul posto i carabinieri della compagnia di Eboli e della stazione di Colliano per i rilievi del caso.
+&nbsp;
+Da una prima ricostruzione effettuata dai carabinieri i due centauri erano intenti ad effettuare un sorpasso quando il conducente ha perso il controllo finendo sulla corsia opposta e schiantandosi nel guard-rail. Le vittime sono entrambe irpine: Fiorenzo Della Sala, 48 anni di Lioni e Teresa Ruglio, 50 anni di Caposele.
+&nbsp;
+I due erano colleghi, infatti entrambi prestavano servizio come collaboratori scolastici. Le salme sono state trasferite all'obitorio dell'ospedale di Battipaglia, dove nei prossimi giorni verrà effettuato l'esame autoptico su disposizione della procura della Repubblica di Salerno.
+&nbsp;
+Da quanto trapelato il conducente dell'autovettura che precedeva la moto, avrebbe dichiarato ai carabinieri della stazione di Colliano e ai colleghi della compagnia di Eboli, di aver sentito un urto mentre la moto era in fase di sorpasso. Ciò avrebbe provocato la perdita del controllo del mezzo a due ruote e l'invasione dell'altra corsia con il successivo schianto.
+
+[post_text_216]
+Il cordoglio a Caposele per la morte di Teresa, il sindaco: comunità scossa
+&nbsp;
+Una delle vittime dell'incidente che si è verificato sulla Fondo Valle Sele è di Caposele, Teresa Ruglio. Forte il rammarico di tutta la comunità cittadina e del primo cittadino, Pasquale Farina, che conosceva molto bene la vittima essendo un grande amico di famiglia.
+&nbsp;
+"La notizia della morte di Teresa Ruglio - spiega commosso Farina - mi ha colpito molto, infatti, ero molto legato alla sua famiglia essendo un grande amico del fratello. Conoscevo Teresa da quando ero piccolo e la sua scomparsa mi addolora. Ero in ospedale ad Oliveto Citra, quando ho appreso la notizia, e non sono rientrato pensando che i corpi, purtroppo senza vita, arrivassero al nostro nosocomio, mentre, poi, sono stati portati a Battipaglia. Teresa lascia tre figli che avevano dato grandi soddisfazioni alla famiglia. Ora per loro sarà, certamente, tutto più difficile.
+In questo momento la comunità di Caposele è molto scossa ed ancora una volta si è capito che la vita è qualcosa di futile e quindi la migliore cosa da fare nel viverla è quella di portare rispetto per gli altri. Per ciò che concerne la Fondo Valle Sele, è un'arteria a scorrimento veloce con tutti i rischi che la stessa può portare. E' chiaro che una strada del genere sia pericolosa, quindi l'attenzione deve essere massima. C'è da dire, però, che a parte un incidente appena aperta la Fondo Valle Sele non ha fatto più registrare fatti di sangue cruenti come quello che si è verificato".
+
+[post_text_217]
+Caposele, Cione: «Basta con gli ecomostri che distruggono il nostro territorio»
+&nbsp;
+La questione dell’inceneritore di Oliveto Citra fa discutere sempre di più nella Valle del Sele. A partecipare al dibattito Antonio Cione, esponente nazionale di CittadinanzAttiva.
+&nbsp;
+«L’associazione promozione sociale Vincenzo Scalzullo, nata il 14 aprile 1997, promuovendo iniziative di carattere non puramente locale ma tali da accogliere il contributo che può venire dall’esterno si è radicata sul territorio, creando una fitta rete di relazioni sociali e culturali tra aree geografiche omogenee e affini eppure non ancora raccordate in maniera equilibrata e profonda.
+&nbsp;
+ Queste - dice Cione - sono le parole del compianto amico professore Michele Mariano Iannicelli, dalla presentazione alla stampa dello statuto dell' APS "V. Scalzullo" del 6 marzo 1998, ancora attuali e condivisibili, infatti, siamo tornati a 30 anni indietro, con la perdita di servizi essenziali sociali ed abbiamo perduto anche il nostro patrimonio ambientale intatto ed invidiatoci dalle comunità cittadine che apprezzavano la nostra quiete, la nostra aria, la nostra acqua, la nostra cultura, le nostre tradizioni artigianali ed agricole, attaccati in maniera concentrica nella nostra identità culturale, paesaggistica e della salubrità ambientale e personale della salute,che viene continuamente attaccata e gravemente compromessa da Parchi Eolici, Parchi Fotovoltaici, Centrali e Sottocentrali di smistamento, Cave di materiale roccioso e non, Aree pseudo-industriali nelle quali si autorizzano Inceneritori di rifiuti pericolosi per la salute e per la vita futura di altre tre nostre generazioni.
+&nbsp;
+ Ormai la gente non si meraviglia più di nulla ed ha perso la speranza di vedere un futuro per i propri figli che abbandonano le nostre terre e non ci faranno più ritorno. Andiamo incontro alla desertificazione antropologica ed ambientale, quando potevamo essere la Toscana dell' Italia o la piccola Svizzera dell'Europa.
+&nbsp;
+Noi non siamo per il sottosviluppo che ci viene propinato senza nessuna condivisione e sulla nostra pelle, mettendo a rischio la salute dei nostri figli, per cui diciamo basta al cosiddetto progresso e diciamo che vogliamo essere protagonisti del nostro futuro e decidere da soli di quale morte vogliamo finire. Siamo per le scelte condivise e non per le Conferenze dei servizi, nelle quali non c'è mai presente e convocato al tavolo nessun rappresentante dei cittadini del territorio oggetto della trasformazione.
+&nbsp;
+Abbiamo bisogno non di generali ma di molte sentinelle del nostro territorio. Noi dell' Associazione Promozione Sociale Vincenzo Scalzullo, affiliata a Cittadinanzattiva-Tribunale dei diritti del malato Assemblea territoriale Alto Calore Ofanto Sele, che io rappresento quale presidente pro-tempore, vogliamo essere, modestamente, una delle sentinelle del nostro territorio, per cui diciamo No all' inceneritore di rifiuti pericolosi nella Valle del Sele e No all' Impianto sottostazione elettrica nel territorio di Conza-Sant'Andrea di Conza, ancora una volta ecomostri che si vanno ad aggiungere a strutture che hanno deturpato il nostro paesaggio e compromesso, come questi, il nostro stato di salute ed il nostro possibile futuro turistico- ambientale».
+
+[post_text_218]
+Caposele, Conforti: «La Valle del Sele è compatta per difendere il territorio»
+&nbsp;
+Ormai nella Valle del Sele non si parla d’altro. La questione centrale del dibattito politico ed amministrativo è la paventata ipotesi della costruzione, tra l’altro già iniziata e poi sospesa, di un inceneritore per rifiuti speciali ad Oliveto Citra.
+&nbsp;
+Deluso della decisione, ma pronto a difendere il suo territorio, in sinergia con tutti i paesi limitrofi l’assessore di Caposele Salvatore Conforti.
+&nbsp;
+«E’ sempre molto difficile, trasmettere la sensazione di rassegnazione e d’impotenza di fronte alle notizie di continui e decisi attacchi alle comunità dell’Irpinia e delle zone interne in generale. Da anni osserviamo, impassibili, ad un utilizzo indiscriminato del nostro territorio che vive una doppia beffa relativa: da una parte, una mancata considerazione per quanto concerne i finanziamenti europei, calibrati per le sole aree ad alta densità, e dall’altra si deve assistere alla continua colonizzazione delle nostre terre a beneficio delle grandi città della Campania. Gli ospedali, i tribunali, il nostro centro vaccinale, il 118 che si chiudono, sono l’esempio di una sorta di pena inflitta ai nostri territori da una stupida e sciagurata teoria del risparmio e del taglio indiscriminato sui servizi essenziali. Ma quel che è peggio si evidenzia nel fatto che, a questa condanna ad un’agonia, preludio certo di una desertificazione dei nostri paesi, si aggiunge ad una reale mortificazione di essere solamente terra di discariche e di sperimentazioni di teorie politiche che nulla hanno a che fare con la nostra storia e il nostro ambiente. E quello che non si capisce veramente e su cui potremmo ragionare e magari utilizzare l’argomento a scopi psicoterapeutici, riguarda il fatto di essere come territorio, puro, incontaminato, protetto, meta dei tanti turisti delle aree produttrici e protagonisti delle disfunzioni territoriali di cui abbiamo parlato».
+&nbsp;
+«Milioni di cittadini, delle città metropolitane della Campania utilizzano questi territori nei week end, nelle vacanze estive, nei ritrovi ambientali e rischiano di rinvenire qui la loro immondizia non smaltita e mal differenziata. Rischiano di non avere anche quei servizi essenziali come tribunali e ospedali che nelle loro città hanno prodotto buchi finanziari enormi e che difficilmente sono equiparabili in funzionalità ed efficacia ai nostri;rischiano di comprare le nostre case vuote e di avere a che fare con un territorio desertificato. Allora qualcosa non quadra: è forse un tentativo di autodistruzione della nostra Regione? E chi la mette in campo non ne è consapevole? Sarà un piano dei nostri politici di sotterrare definitivamente la Campania e dichiararne per sempre, la chiusura? Ci piace pensare, invece, che forse tutto questo è frutto di una semplice distrazione di chi ha le redini in mano e che ha ceduto, momentaneamente, solo alla piccoli interessi di poltrona e si accorgerà presto, che sta commettendo un semplice errore di calcolo. Comprenderà che una terra incontaminata, pura, piena di risorse ambientali come l’acqua e la natura, può essergli utile in un tentativo di riscatto che coinvolge l’intera Regione, già massacrata da problemi atavici e che difficilmente riuscirà a liberarsi da una morsa distruttiva se non subisce una scossa straordinaria. Capirà che la salvaguardia dell’Irpinia, della valle del Sele e di questa terra, è la soluzione realistica di riabilitazione dell’intera Regione e di chi la sta guidando in questi brutti momenti. L’amministrazione comunale di Caposele fermamente convinta di questo, lotterà insieme a tutta la popolazione della Valle e dell’Irpinia, e amplificherà e trasmetterà il grido di aiuto di disperazione di una terra che non ha voglia più di farsi mortificare in questo modo».
+
+[post_text_219]
+Caposele, Cetrulo: «Il 118, servizio essenziale per il nostro territorio»
+&nbsp;
+&nbsp;
+La situazione dei tagli sui 118 fa discutere molto anche in Alta Irpinia vista la soppressione di molte strutture. Esprime soddisfazione per le ultime notizie, che arrivano dall’Asl Avellino, il consigliere comunale di Caposele Pietro Cetrulo.
+&nbsp;
+«Dopo la riunione dell’Asl Avellino - dice - nella quale si è discusso del riordino dei punti 118, il direttore generale Sergio Florio ha preso in considerazione le esigenze e problematiche del punto 118 di Caposele. Al Comune di Caposele con la legge 3071/2008, della Giunta Bassolino, su iniziativa di Franco D’Ercole, fu accordato lo status di 40.000 abitanti, in forza della forte affluenza di pellegrini, oltre un milione annui. Va da sè che un afflusso di questa portata, maggiorato con le presenze turistiche ultimamente incentivate con le promozioni dell’Amministrazione, ha necessità di una presenza di pronto intervento immediata. Bisogna, poi, aggiungere l’imminente inizio dei lavori della Pavoncelli-bis, infatti, il commissario Sabatelli, nei giorni scorsi, ha inviato una missiva al sindaco di Caposele, sollecitando la presenza proprio del 118 vista l’apertura dei cantieri. Inoltre c’è da valutare il fatto che da sempre Caposele, con le sue Sorgenti è considerato obbiettivo sensibile. Per tutti questi motivi il direttore generale dell’Asl Avellino, Sergio Florio, ha capito la necessità del nostro punto 118 per il beneficio di un territorio e dei suoi visitatori».
+&nbsp;
+Ancora un messaggio importante rispetto alla salvezza del punto 118 di Caposele che, ormai da molti anni, è diventato, a tutti gli effetti una delle mete turistiche più ricercate, in Campania, sia per le sue bellezze religiose, con la presenza del vicino Santuario di San Gerardo Maiella, che per tutte le altre bellezze naturali, ambientali e culturali che contraddistinguono tutto il territorio e tutta la grande Valle del Sele.
+&nbsp;
+------------------------------------------------------------------------------------
+&nbsp;
+&nbsp;
+Inceneritore di Oliveto Citra, Farina: «Battaglia vinta grazie all’unità del territorio»
+&nbsp;
+CAPOSELE - E’ di qualche giorno fa la decisione della Regione Campania di revocare la Via per la costruzione dell’inceneritore di Oliveto Citra. Grande la soddisfazione dei territorio che, per il sindaco di Caposele, Pasquale Farina, hanno vinto grazie alla tenacia ed all’unità d’intenti.
+&nbsp;
+«Non posso che esprimere viva soddisfazione e compiacimento - spiega - per il raggiungimento di un obiettivo importante e decisivo per il futuro del nostro territorio. Come sempre ogni volta che c’è una vittoria si nota la corsa a dichiararsi vincitore. Personalmente credo che i veri vincitori di questa battaglia di democrazia e di civiltà sono i popoli e le istituzioni della Valle del Sele, i comitati che erano contro questa ipotesi sciagurata e tutti coloro hanno appoggiato questa battaglia. Questo è un segnale importante perchè, ancora una volta, è stato dimostrato che quando le comunità e le istituzioni sono unite e lottano all’unisono verso lo stesso obiettivo, si raggiungono risultati importanti. Da sindaco di Caposele devo ringraziare tutti i cittadini e l’intero Consiglio comunale che ha capito subito la serietà della problematica e si è schierato, compatto, per la difesa del territorio. Anche perchè a Caposele si vive un grande turismo religioso, naturalistico e culturale e quell’inceneritore avrebbe creato, con i suoi fumi e le sue sostanze nocive, grandi disagi e problemi alla nostra economia turistica. Siamo soddisfatti, inoltre, anche per la permanenza del 118 nel nostro Comune. Per questo voglio ringraziare il direttore generale dell’Asl, Sergio Florio, che ha tenuto presente tutte le motivazioni che abbiamo addotto per tutelare il nostro territorio».
+&nbsp;
+-----------------------------------------------------------------------------------------
+&nbsp;
+Inceneritore di Oliveto Citra, prima revoca della Regione
+&nbsp;
+VALLE DEL SELE - Le istituzioni e le comunità della Valle del Sele, da Caposele a Calabritto e da Senerchia a Contursi Terme sono mobilitate e pronte a difendere, con tutte le loro forze, il territorio dalla malaugurata e sciagurata ipotesi della realizzazione di un inceneritore di rifiuti speciali.
+&nbsp;
+Intanto, però, dalla Regione Campania arriva una prima buona notizia, infatti, l’Ente regionale ha avviato le procedure per la revoca della Via per l'impianto dei rifiuti di Oliveto Citra.
+In base alle osservazioni presentate dal Comune, la Regione Campania ha effettuato ulteriori verifiche dalle quali è risultato che la struttura rientrava per buona parte in un sito di interesse comunitario, circostanza non evidenziata al momento della presentazione della richiesta di valutazione che risale al 2009.
+&nbsp;
+Poche, ma decise le parole dell’assessore all’ambiente della Regione Campania, Giovanni Romano.
+«La Regione - dichiara l'assessore all'Ambiente Giovanni Romano - è intervenuta prontamente nella verifica delle istanze del territorio, adottando poi i provvedimenti consequenziali, in coerenza con le norme vigenti».
+&nbsp;
+Soddisfatti, ma in attesa della revoca dell’Aia (Autorizzazione integrata ambientale) i sindaci della Valle del Sele.
+«Quella della revoca della Via - spiega il primo cittadino di Calabritto Gelsomino Centanni - è soltanto un primo piccolo passo che è stato fatto. Ora la cosa più importante è la revoca dell’autoruzzazione integrata ambientale che può essere sospesa in autotutela solo da chi l’ha data. In caso contrario saremmo costretti a ricorrere al Tar, infatti, già è stato dato incarico, come Comune di Calabritto, ad un legale per capire come agire. Una cosa è certa non ci siamo mossi in ritardo, ma, immediatamente, dal momento in cui abbiamo avuto notizia di questa sciagurata idea».
+&nbsp;
+Soddisfazione anche nelle parole del sindaco di Senerchia, Beniamino Grillo.
+«Anche se ancora non c’è l’ufficialità - commenta Grillo - siamo contenti di questa notizia e della volontà della Regione di revocare la Via. Credo che questo sia un atto al quale seguirà la revoca dell’autorizzazione integrata ambientale. Tutto questo dimostra che le nostre parole e le nostre preoccupazioni non erano campate in aria, ma erano concrete e basate su questioni serie. Siamo soddisfatti che la Regione abbia capito queste nostri dubbi e sia intervenuta con la revoca della Via. Non possiamo che essere soddisfatti perchè questo è un buon risultato ottenuto dalle istituzioni e dalle popolazioni della Valle del Sele che hanno raggiunto un risultato fatto di giustizia e civiltà. Non c’è nessuna vittoria politica, ma solo un grande obiettivo di democrazia raggiunto».
+&nbsp;
+Esprime tanta soddisfazione per l’atto dell’assessore regionale Romano anche il sindaco di Oliveto Citra, Italo Lullo.
+«Grazie a Dio è finito un incubo. Vorrei sottolineare - dice il sindaco Lullo - la grande correttezza istituzionale che si è sviluppata tra la Regione Campania ed il Comune di Oliveto Citra grazie alla quale si arrivati alla revoca del provvedimento. C’è da dire che gli unici atti prodotti rispetto alla questione del termovalorizzatore sono stati quelli del nostro Comune. Partendo dalla sospensione dei lavori fino ad arrivare alla redazione da parte di un tecnico, coadiuvato da un legale, incaricati dal Comune di Oliveto Citra, di un parere. Lo stesso è stato mandato all’assessorato all’ambiente della Regione Campania, ma anche alla commissione ambiente, a quella agricoltura ed alla Procura della Repubblica di Salerno. Proprio grazie a quest’atto l’assessore Romano ha potuto analizzare e studiare meglio la situazione fino ad arrivare alla revoca della Via. Ringrazio per tutto questo proprio l’assessore regionale Romano e tutti coloro, cittadini ed altre istituzioni, che hanno creduto nell’azione dell’amministrazione comunale di Oliveto Citra».
+&nbsp;
+
+[post_text_220]
+Caposele, Cetrulo: «No all’inceneritore anche per salvaguardare il Fiume Sele»
+&nbsp;
+Quella di sabato scorso, ad Oliveto Citra, è stata una manifestazione importante sia perchè ha voluto dire un forte no alla possibilità di realizzazione un inceneritore, sia perchè ha messo in luce una grande unione e compattezza della Valle del Sele rispetto a questa sciagurata ipotesi.
+&nbsp;
+C’erano proprio tutti, dai sindaci alle popolazioni fino ai sindacati ed al mondo dell’associazionismo e del volontariato. Presente anche il presidente dell’associazione di Caposele Pro Sele, Gianni Cetrulo, che da sempre si è schierata a difesa del Fiume Sele in particolare, ma di tutto l’ambiente della Valle del Sele in generale.
+«Come associazione Pro Sele - dice Cetrulo - non potevamo mancare perchè difendere questo territorio dall’inceneritore significa anche difendere il Fiume Sele. Siamo felici per il successo che ha avuto la manifestazione contro l’inceneritore, ma il nostro impegno continua anche e soprattutto per la difesa del Fiume Sele perchè puntiamo ad un deflusso del corso d’acqua che non sia quello previsto dalla legge, ma un deflusso vero, giusto e giustificabile».
+&nbsp;
+Ad intervenire alla manifestazione di Oliveto Citra anche il cittadino di Caposele Gerardo Ceres.
+«Sono certo che queste zone devono guardare ad uno sviluppo che sia legato al turismo ed alle bellezze naturali. Sono stato molto soddisfatto per la manifestazione di sabato perchè alla stessa hanno partecipato anche popolazioni ed istituzioni dell’Alta Irpinia, del basso Sele e della Valle dell’Ofanto. Non si può accettare che una struttura del genere è stata imposta dall'alto senza nessuna trasparenza e senza nessun confronto. Ora, ripeto, prima dobbiamo scongiurare l’inceneritore e poi dobbiamo puntare ad un rilancio turistico che sia religioso, culturale ed ambientale».
+&nbsp;
+
+[post_text_221]
+Materdomini, in settantamila per San Gerardo
+&nbsp;
+Settantamila, forse anche di più. E’ questo il numero di fedeli che, nell’ultima settimana ed in particolar modo nella giornata di ieri, è arrivato a Materdomini per visitare e pregare per San Gerardo, il Santo dell’Alta Irpinia.
+&nbsp;
+Sono arrivati da ogni parte del Sud Italia ed anche dal Nord, infatti, nella prima mattinata ha fatto tappa a Materdomini una comitiva che arrivava in pellegrinaggio da Como. Per il resto la solita marea umana, la messa solenne, alla quale hanno partecipato le massime cariche istituzionali e militari della Provincia di Avellino, celebrata dal Segretario Generale della Conferenza Episcopale Italiana, Mons. Mariano Crociata che ha espresso parole di apprezzamento per il Santuario e di gioia per i numerosissimi fedeli presenti.
+&nbsp;
+«Per me è un onore essere qui - dice Mons. Crociata - Arrivare a Materdomini non significa venire in periferia, ma scoprire un centro di vita cristiana e di fede che, veramente, tocca il cuore e ti coinvolge. Fino a quando ci sono centri come questo, nel quale i credenti riconoscono l’esempio di un Santo semplice, ma significativo, come San Gerardo, ci sarà un futuro non soltanto per la comunità cristiana, ma per tutta la società perchè qui si coltivano i valori puri e fondamentali della nostra vita sociale. Si vive quel senso di solidarietà e fiducia che serve per affrontare la vita nel difficile momento storico che stiamo vivendo. Le persone vengono qui per attingere forze nuove e per trovare quella nuova coscienza civica e quel decisivo senso di impegno sociale necessarie per la crescita della comunità cristiana e della società in generale».
+&nbsp;
+Soddisfatto della giornata e dell’afflusso di fedeli anche il Rettore del Santuario di San Gerardo, Padre Antonio Perillo.
+«Sono tanti i pellegrini che sono arrivati in Santuario dalle prime luci dell’alba. Il messaggio che si è voluto dare, in questa giornata, nonostante le tante difficoltà ed il clima di degrado morale, dimostrato in primis dai politici, è quello di una speranza per il futuro che parte dalla fede. Grazie alla fede si può migliorare. Il nostro Santuario resta una roccaforte, un luogo nel quale si può venire a prendere un pò di forza e di coraggio per continuare il cammino della vita di tutti i giorni con i suoi drammi e le sue difficoltà».
+&nbsp;
+Soddisfazione per come sono andate le cose a Materdomini la esprime anche il primo cittadino di Caposele, Pasquale Farina, il quale spiega l’importanza della giornata di ieri per l’intera comunità e l’impegno della sua amministrazione per la buona riuscita delle varie manifestazioni.
+«Il 16 ottobre - dice il sindaco Farina - è una ricorrenza speciale per la nostra comunità perchè si festeggia il nostro amato San Gerardo. Sono in migliaia i pellegrini che dai paesi limitrofi, ma anche da tutta la Regione e da tutto il Meridione d’Italia, vengono a Materdomini per onorare il Santo. Come amministrazione comunale - spiega Farina - anche grazie alla collaborazione dei sindaci dei paesi limitrofi, abbiamo predisposto un servizio d’ordine di tutto rispetto per garantire la sicurezza a tutti gli ospiti e, in particolar modo, per dare un certo ordine ai parcheggi ed al transito in generale. Quest’anno la nostra amministrazione ha voluto inserire una novità per questa giornata, infatti, è a disposizione dei nostri ospiti, un trenino che parte da Materdomini ed arriva a Caposele. Quindi l’obiettivo è quello di far conoscere ai visitatori, non soltanto il nostro amato Santuario, ma tutte le bellezze naturali, ambientali e culturali della nostra terra. Infatti i pellegrini, una volta arrivati a Caposele, potranno visitare il Museo delle Macchine di Leonardo, le Sorgenti di Piazza Sanità, il Parco fluviale e non per ultimo d’importanza il Tempio di San Lorenzo Martire. In pratica vogliamo dare anche un’offerta turistica che abbia come pilastri portanti la fede, la cultura e l’ambiente. Sembra che stiamo riuscendo nel nostro intento visto il numero già elevato di visitatori. San Gerardo ed il Santuario di Materdomini sono un simbolo dell’unione dell’Irpinia e rappresentano una roccaforte intoccabile. Oggi (ieri ndr) eravamo in tanti ed abbiamo chiesto anche aiuto al Santo per la nostra amata Alta Irpinia che è sempre più in difficoltà. Sono certo che San Gerardo ci aiuterà dall’alto della sua santità e che il nostro territorio sarà più protetto e più sicuro».
+&nbsp;
+
+[post_text_222]
+Caposele, è Caruso il nuovo coordinatore del Forum dei Giovani
+&nbsp;
+E’ andata di scena, nella giornata di ieri, l’assemblea generale del nuovo Forum dei Giovani del Comune di Caposele per le nomine delle cariche dell’organismo. Il Forum tra i primi istituti della Provincia, è giunto al quinto mandato ed al nono anno di attività. Dopo i saluti del coordinatore uscente Elena Nesta è giunta la nomina del nuovo coordinatore Caruso Giuseppe, già membro da diversi anni, che è stato votato all’unanimità da tutta l’assemblea.
+&nbsp;
+«Sono entusiasta dell’importante ruolo che mi hanno affidato i membri del Forum. Sarà mia priorità, insieme all’assemblea neo eletta del Forum, farci portavoce nei confronti delle istituzioni delle necessità dei giovani caposelesi che vorranno manifestarci, sosteremo le associazioni giovanili nelle loro attività. Cercheremo di lavorare in un campo più ambio creando una rete di collegamenti con le associazione giovanili dell’alta Irpinia. Accanto a ciò, inoltre, ci saranno una serie di attività collaterali, da laboratori a concorsi che questo Forum non vede l’ora di poter attivare».
+&nbsp;
+Al fianco del neo eletto coordinatore ci saranno il vice coordinatoresegretario Merola Alessio, il Tesoriere Emanuele Ceres e i due delegati al coordinamento provinciale Iannuzzi Vincenzo e Viscardi Giovanni.
+&nbsp;
+---------------------------------------------------------------------------------
+&nbsp;
+&nbsp;
+Caposele, Cibellis e Di Masi: «Si faccia chiarezza sulla rete Wi-Fi»
+&nbsp;
+Clima politico amministrativo sempre caldo a Caposele. A scrivere all’assessore Salvatore Conforti per un’interrogazione sono i consiglieri di minoranza Tommaso Cibellis e Gerardo Di Masi.
+&nbsp;
+«I Consiglieri Comunali, Cibellis Tommaso e Di Masi Gerardo, - recita l’interrogazione - aderenti al gruppo Autonomia e Trasparenza, ai sensi e per gli effetti di cui all’art. 18 del regolamento di organizzazione del Consiglio Comunale, col presente atto chiedono alcune delucidazoni in relazione alla questione Wi-Fi libero. In premessa c’è da dire che - scrivono i consiglieri - l’amministrazione comunale a distanza di circa 2 anni non si è attivata per l’installazione e la predisposizione della rete WI-FI Libera e gratuita nella frazione Materdomini, mentre ciò è avvenuto, sebbene in modo parziale per il territorio di Caposele e che, in questo modo i cittadini residenti a Materdomini, risultano discriminati rispetto a quelli residenti nel territorio del Comune di Caposele.C’è da aggiungere, inoltre, che appare improcrastinabile quindi, attivare il WI-Fi libero e gratuito su tutto il territorio di Materdomini, anche e particolarmente a beneficio delle migliaia di turisti e pellegrini che vi transitano. Per tutti questi motivi chiediamo di sapere - concludono i consiglieri con la loro interrogazione - se e quando, questa amministrazione attiverà il WI-FI libero nella frazione Materdomini e quanti Hot spot pubblici si intendono attivare per coprire il territorio».
+
+[post_text_223]
+Caposele, Cetrulo: «Pavoncelli Bis? Soddisfazione per l’inizio dei lavori»
+&nbsp;
+Ormai i lavori della Pavoncello Bis sono in dirittura d’arrivo. Da ricordare che la questione, in passato, è stata oggetto di forti discussioni sia a livello locale che provinciale. A participare al dibattito è il consigliere comunale Pietro Cetrulo che si dice soddisfatto dell'inizio dei lavori.
+&nbsp;
+«Dopo l’intervento del Commissario Roberto Sabatelli, delegato per la costruzione della galleria di valico, apprendo, con soddisfazione, che l’iter per l’inizio dei lavori sia oramai vicino. Nei giorni scorsi sono stati effettuati alcuni lavori di pulizia e messa in sicurezza delle strade di accesso all’area Rosalba, per effettuare gli ultimi sondaggi di prova, insieme ad altri al di sopra della prevista galleria. Il tutto - continua Cetrulo - in previsione dell’imminente consegna dei lavori. Speriamo che questa sia la volta buona, come ho detto in altre occasioni, non sprechiamo altre risorse in ricorsi e controricorsi, che ci sia ancora qualcuno contro la costruzione, va bene, ma che il tutto sia strumentale ad altri fini o convinzioni, questo non è più accettabile, considerato che gli ultimi ricorsi sono stati rigettati. A questo punto manca solo quello del Tribunale delle Acque.
+&nbsp;
+C’è da dire che, ormai, la vecchia galleria è al collasso e l nuova opera potrebbe essere, effettivamente, anche una boccata di ossigeno occupazionale per le varie imprese del territorio. Voglio annunciare - commenta Cetrulo - che comunque organizzerò, a breve, un altro incontro pubblico con il Commissario Roberto Sabatelli, per avere ulteriori informazioni, delucidazioni e rassicurazioni in merito alla costruzione della Pavoncelli-bis e per fare, anche, il punto della situazione con i cittadini e far capire loro a che punto è la situazione e come sono messe le cose».
+
+[post_text_224]
+Caposele, Malanga presidente del circolo “Arcobaleno”: «Ed ora avanti con la forza delle nostre idee»
+&nbsp;
+Il nuovo presidente del circolo Arcobaleno Nuovi Orizzonti di Caposele è Carmela Malanga votata all’unanimità dagli iscritti al circolo. Decisa e soddisfatta per la carica la neo presidente.
+&nbsp;
+«Mi sono candidata a questa carica, dopo le dimissioni del vecchio presidente - dice Malanga - perché, essendo stata sempre presente negli ultimi anni nella vita socio-politica di questo paese, oggi vorrei impegnarmi in prima persona, assumermi la responsabilità di guidare e orientare le scelte del circolo. Mi presento oggi perché oggi ho maturato la consapevolezza piena di poter dare una mano concreta.
+Il nostro circolo attraversa un momento di sfiducia sia per le premature scomparse dei nostri ispiratori sia per il periodo storico attuale di rifiuto della politica, di disaffezione, di disillusione. Senza mettere in discussione l’operato di chi ha diretto il circolo fino ad ora, di chi ha lavorato con impegno e sacrificio, mi assumo l’impegno in piena coscienza con la volontà di aprirmi a 360 gradi cercando di avvicinare al circolo coloro che intendono abbracciare il nostro progetto politico.
+Credo di poter realizzare questo, non solo con l’appoggio di tutti voi, ma confidando nel mio approccio con le persone, nel mio modo di relazionarmi con giovani, meno giovani, senza preclusioni, senza secondi fini, senza nascondere piani o disegni che non mi appartengono. Il mio impegno è anche per ricucire, ove possibile, per riavvicinare: ciò che ci deve qualificare è il vivere civile, il sano e civile confronto democratico, la buona educazione ci deve guidare.
+Io credo - continua Malanga- che a prescindere da come ci chiamiamo Arcobaleno o Nuovi Orizzonti, sono le nostre idee che ci dovranno identificare come gruppo, non un nome. Sono e saranno le nostre idee, le nostre valutazioni e opinioni che devono convincere e guidare, non le persone. Io non intendo rinnegare niente di quello che siamo e siamo stati, ma insieme dobbiamo andare avanti, guardare oltre e quando avremo raggiunto l’unità intera o almeno in parte delle forze che si contrappongono a questa maggioranza, potremmo affrontare le problematiche amministrative con maggiore intensità, con un’opposizione unita. Ci aspetta una grande sfida davanti, le elezioni politiche del 2013.
+&nbsp;
+Dal mio e dal nostro operato scaturiranno gli uomini, le donne, coloro che si impegneranno in prima persona, coloro che formeranno una squadra che a testa alta potrà chiedere il voto ai cittadini di Caposele per la soluzione che delle tante problematiche: dal risveglio verso la politica alla questione convenzione, all’argomento Puc fino ad arrivare alla questione ricostruzione ed all’irrisolta situazione dei parcheggi a San Gerardo».
+
+[post_text_225]
+Italia dei Valori, nasce la sede a Caposele
+&nbsp;
+La revisione della spesa pubblica, la drastica riduzione delle risorse economiche imposta dal governo centrale alle amministrazioni periferiche e il conseguente programma progressivo dei tagli, stanno mettendo a dura prova la stabilità di comuni ed enti pubblici che in taluni casi non riescono più nemmeno a garantire le prestazioni minime essenziali. La ricaduta sulla qualità dei servizi,la necessità di ricorrere a sistemi alternativi di finanziamento e l’esigenza di assicurare al cittadino almeno l’indispensabile nelle strutture pubbliche, saranno argomenti trattati durante la conferenza organizzata dal coordinamento provinciale dell’Italia dei Valori, Sabato 27 ottobre alle ore 17.30 presso la sala polifunzionale del comune di Caposele. Unitamente al segretario prov.le Enzo Lippiello saranno presenti l’on.Nello Formisano,l’on.Nicola Marrazzo,l’on.Anita Sala e il dott.Emidio Silenzi,direttore regionale Inail Campania. A seguire sarà inaugurata la nuove sede del circolo territoriale di Italia dei Valori di Caposele.
+
+[post_text_226]
+Caposele: inaugurazione struttura sportiva "Playground"
+&nbsp;
+Caposele - Sabato 3 novembre si inaugura la piccola struttura sportiva del “Playground”. Due campetti multifunzionali che sono stati finanziati dalla comunità europea attraverso un bando specifico per la realizzazione di piccole strutture sportive in aree urbane da riqualificare.   In effetti, solo qualche anno fa, quella parte di Paese completamente abbandonata, aveva più una funzione di discarica abusiva e di autorimessa all’aperto di mezzi comunali che strideva con la funzione naturale e la potenziale bellezza ambientale dell’area della Sanità e delle Sorgenti del Sele.
+&nbsp;
+  Oggi, secondo un progetto complessivo che quest’ Amministrazione ha voluto fortemente, viene collocata un’altra tessera del mosaico che destina l’area in questione alla sua precipua funzione di accoglienza turistica e sociale del Paese.
+&nbsp;
+  Insieme ai playground, infatti, tutta la zona continuerà ad essere riqualificata con le immediate realizzazioni dei progetti relativi a:
+&nbsp;
+  -“Parco Saure” : un polmone di verde che diventerà una sorta di “giardino comunale” con panchine, viali, aiuole, capace di mettere in evidenza e riqualificare una zona di Caposele bellissima, ma mai rivalutata, che è la zona delle Cantine.
+&nbsp;
+  - Piazza Sanità sulla quale, a breve, cominceranno i lavori di rifacimento. La piazza principale del Paese che accoglierà i turisti ,i quali verranno a visitare le nostre bellezze naturali e culturali all’interno del Minitour “F.A.C.”: ripavimentazione, ridisegno della sagoma, installazione di fontane monumentali, nuova illuminazione e quant’altro faranno della piazza delle Sorgenti un vero e proprio luogo di ricevimento turistico;
+&nbsp;
+-    E ancora piccoli luoghi nel contorno saranno interessati ad un restauro e restyling come per esempio la chiesetta della Sanità; l’ingresso al Paese da Tredogge; il parco giochi nell’ex area di sedime del WWF ai margini della piazza; l’ingresso ai giardinetti per i Musei.
+&nbsp;
+   Insomma una nuova immagine per Caposele centro che sarà, però, è bene ribadirlo, l’inizio del capitolo dei miglioramenti urbanistici che toccheranno sensibilmente anche la frazione San Gerardo.
+ Già, infatti, dall’uscita della superstrada Fondo Valle Sele, sarà possibile, attraverso un progetto di sistemazione dell’area, poter usufruire di nuovi spazi destinati a parcheggio (ex prefabbricati), di una sorta di marciapiede fino all’inizio del centro abitato, e di un ingresso illuminato e ridisegnato, che possa indicare con chiarezza, che si varca un confine comunale importante per tutta l’Irpinia che, raccoglie all’anno centinaia di migliaia di turisti e pellegrini in viaggio verso un luogo di straordinaria FEDE, di meraviglioso AMBIENTE e di grande CULTURA.
+&nbsp;
+&nbsp;
+
+[post_text_227]
+Caposele - Il parcheggio multipiano da 124 posti per auto a disposizione di San Gerardo si farà.
+&nbsp;
+Il Comune di Caposele ha infatti approvato e reso esecutivo il piano degli espropri che entro i prossimi 60 giorni consentirà di acquisire le aree necessarie ad aprire il cantiere dell’opera.
+Prevista nell’ambito del piano di zona, il Pfep, per le località di Matedormini, Piani, Coste e San Giovanni, secondo l’accordo di programma sancito dalla Regione Campania, dalla Comunità Montana ‘Terminio Cervialto’ e dal Comune di Caposele, sarà realizzato nell’area Coste, come infrastruttura integrata al centro storico.
+&nbsp;
+L’ente ha deciso di impegnare fondi residui per lavori di urbanizzazione primaria considerati disponibili, che ammontano a circa 740mila euro, cui si aggiungono risorse regionali per poco meno di 490mila euro.
+Il progetto definitivo, così come redatto dagli uffici comunali, è disponibile dal giugno del 2010. Vista la diffida ministeriale ad impegnare le risorse ex 219/81, pena la revoca, il Comune segue la via d’urgenza per cantierare il programma.
+
+[post_text_228]
+Caposele, Conforti: «Il campetto playground diventa realtà»
+&nbsp;
+La discussione politico-amministrativa, nel paese dell’Alta Irpinia, è sempre al centro del dibattito.
+ Soddisfatto dell’azione della sua amministrazione è l’assessore Salvatore Conforti che spiega le prossime iniziative della sua maggioranza.
+&nbsp;
+«Sono tante le opere che stiamo concretizzando in questi giorni - spiega Conforti. Infatti il prossimo sabato sarà inaugurata la piccola struttura sportiva del Playground. Due campetti multifunzionali che sono stati finanziati dalla comunità europea attraverso un bando specifico per la realizzazione di piccole strutture sportive in aree urbane da riqualificare. Solo qualche anno fa, quella parte di Paese completamente abbandonata, aveva più una funzione di discarica abusiva e di autorimessa all’aperto di mezzi comunali che strideva con la funzione naturale e la potenziale bellezza ambientale dell’area della Sanità e delle Sorgenti del Sele. Oggi, secondo un progetto complessivo che quest’Amministrazione ha voluto fortemente, viene collocata un’altra tessera del mosaico che destina l’area in questione alla sua precipua funzione di accoglienza turistica e sociale del Paese. Insieme ai playground, infatti, - commenta l’assessore Conforti - tutta la zona continuerà ad essere riqualificata con le immediate realizzazioni dia altri progetti. Uno è relativo al Parco Saure che è un polmone di verde che diventerà una sorta di giardino comunale con panchine, viali, aiuole, capace di mettere in evidenza e riqualificare una zona di Caposele bellissima, ma mai rivalutata, che è la zona delle Cantine. L’altro è quello di Piazza Sanità sulla quale, a breve, cominceranno i lavori di rifacimento. La piazza principale del Paese che accoglierà i turisti ,i quali verranno a visitare le nostre bellezze naturali e culturali all’interno del Minitour FAC: ripavimentazione,ridisegno della sagoma, installazione di fontane monumentali, nuova illuminazione e quant’altro faranno della piazza delle Sorgenti un vero e proprio luogo di ricevimento turistico».
+&nbsp;
+L’assessore parla di altri piccoli lavori che verranno fatti nella stessa zona.
+«Piccoli luoghi nella zona - incalza Conforti - saranno interessati ad un restauro e restyling come per esempio la chiesetta della Sanità, l’ingresso al Paese da Tredogge, il parco giochi nell’ex area di sedime del Wwf ai margini della piazza, l’ingresso ai giardinetti per i Musei.
+Ci sarà, in pratica, una nuova immagine per Caposele centro che sarà, però, è bene ribadirlo, l’inizio del capitolo dei miglioramenti urbanistici che toccheranno sensibilmente anche la frazione San Gerardo.Già, infatti, dall’uscita della superstrada Fondo Valle Sele, sarà possibile, attraverso un progetto di sistemazione dell’area, poter usufruire di nuovi spazi destinati a parcheggio, di una sorta di marciapiede fino all’inizio del centro abitato, e di un ingresso illuminato e ridisegnato, che possa indicare con chiarezza, che si varca un confine comunale importante per tutta l’Irpinia che, raccoglie all’anno centinaia di migliaia di turisti e pellegrini in viaggio verso un luogo di straordinaria Fede, di meraviglioso Ambiente e di grande Cultura».
+
+[post_text_229]
+Pascolo abusivo nel Parco dei Monti Picentini, due denunciati
+&nbsp;
+CAPOSELE - Pascolo abusivo nell’area protetta del Parco dei Monti Picentini: due denunce. Le Guardie Ambientali dell’associazione Ambiente e /è Vita della sezione di Avellino con la collaborazione degli agenti della Federazione Nazionale Pro Vita, coordinati dal responsabile provinciale Gerardo Colarusso, hanno eseguito i controlli volti al contrasto del fenomeno del pascolo abusivo all’interno dell’area del Parco Regionale dei Monti Picentini.
+&nbsp;
+I controlli sono stati effettuati principalmente sul territorio del comune di Caposele, a seguito di una richiesta specifica dell’amministrazione comunale. I controlli hanno consentito di accertare una notevole presenza di bovini che sono tenuti al pascolo in territorio demaniale senza autorizzazione a un’altitudine maggiore de 800 mt. in violazione alla Legge Regionale. Gli animali identificati a mezzo del marchio auricolare, hanno consentito d’identificare gli allevatori, che sono stati deferiti all’Autorità Giudiziaria del Tribunale di Sant’Angelo dei Lombardi proprio per il reato specifici di pascolo abusivo.
+&nbsp;
+In località Mauta del comune di Caposele è stato rimosso uno sbarramento della strada realizzato con filo spinato e aste di legno, che oltre ad impedire la libera circolazione, costituiva anche un pericolo per la pubblica incolumità. Uno degli allevatori di originario del comune di Bagnoli Irpino è risultato recidivo per l’infrazione del pascolo abusivo. Per questo motivo oltre alla denuncia gli agenti hanno chiesto alla Procura della Repubblica di Sant'Angelo dei Lombardi. ulteriori provvedimenti per tentare di debellare definitivamente il fenomeno molto diffuso in Alta Irpinia, dovuto allo scarso interessamento che c’è stato negli anni scorsi da parte di chi era deputato a vigilare.
+&nbsp;
+Un forte interessamento a bloccare l’abusivismo del pascolo sul territorio di Caposele, viene da parte dell’Avvocato Angelo Ceres Assessore all’Ambiente del comune di Caposele. L’Assessore da anni si è battuto per tutelare l’habitat naturale della montagna, in modo particolare il contrasto del pascolo abusivo, per tutelare i boschi e le culture dei Caposelesi.
+&nbsp;
+&nbsp;
+---------------------------------------------------------------------------------------
+&nbsp;
+Pavoncelli Bis, consegnati i lavori
+&nbsp;
+CAPOSELE - Quello di ieri è stato il giorno della consegna dei lavori della Pavoncelli Bis. Ad arrivare a Caposele e sbrigare tutte le pratiche burocratiche per la consegna dei lavori è stato proprio il commissario straordinario della Pavoncelli Bis, Roberto Sabatelli che si è detto soddisfatto del nuovo obiettivo raggiunto.
+&nbsp;
+«Da oggi - dice Sabatelli - giorno della consegna, ci vorranno 1280 giorni per la conclusione degli stessi i quali, secondo i capitolati prestabiliti, dovranno iniziare entro quindici giorni. Questi serviranno per la preparazione dei cantieri e l’assunzione dei lavoratori. Proprio rispetto a questa discussione - commenta il commissario Sabatelli - ho più volte spiegato che il bacino da privilegiare per l’occupazione debba essere quello del territorio ed in particolar modo riferito ai tre paesi Caposele, Conza della Campania e Teora. E’ giusto che dopo tanti anni di sacrifici e solidarietà, anche se l’intervento non andrà ad intaccare nulla, in un momento così difficile da un punto di vista economico ed occupazionale per l’intera Nazione, questo territorio possa avere un riconoscimento con ricadute economiche ed occupazionali importanti. Per il resto la Pavoncelli Bis - spiega Sabatelli - è un unico progetto che prevede, però, vari fronti di attacco. Ecco perchè, in attesa che arrivi la macchina predisposta per gli scavi, nelle more, credo che l’impresa voglia concentrarsi sulla centrale per produrre energia il prima possibile ed in modo celere per poi concentrarsi sul resto dei lavori da completare, come detto, in 1280 giorni».
+&nbsp;
+Il commissario straordinario per la Pavoncelli Bis torna anche sulle tante polemiche degli ultimi giorni e sui forti attacchi da parte dell’Ato.
+«Personalmente - incalza Sabatelli - sono abituato a comportarmi nel rispetto delle normative. Ora l’Ato sta assumendo la posizione di ipotetico difensore del territorio e della risorsa idrica, ma questa funzione in Italia spetta alle autorità di bacino e non di ambito, quindi non è compito dell’Ato. Mi auguro per loro che la Corte dei Conti non si renda conto dello sperpero di denaro ingiustificato che si sta mettendo in essere. Per ciò che concerne, invece, la sentenza del Tribunale Superiore delle Acque riguarda un ricorso contro il decreto del Presidente del Consiglio e non certo contro il mio operato.
+Ora aspettiamo fiduciosi, ma andiamo avanti, infatti, abbiamo già perso cinque anni con aumento vertiginoso dei costi che non dipende certamente dal sottoscritto, ma da chi ha provato a fermare, più volte quest’opera. Al momento c’è soddisfazione per la consegna dei lavori risultato che anni fa non ho raggiunto perchè fermato proprio tre giorni prima. Questa volta ci sono riuscito e speriamo vada tutto bene».
+&nbsp;
+
+[post_text_230]
+‘Valle del Sele: addio Irpinia’. I sindaci: «Ora con Salerno»
+&nbsp;
+Caposele provincia di Salerno’. E’ l’obiettivo del comitato civico costituito ieri sera a Contursi. Cittadini e amministratori locali dei tre comuni altirpini della Val Sele, rifiutano la nuova provincia accorpata dell’Irpinia e Sannio e chiedono ufficialmente al Ministro Patroni Griffi l’annessione alla provincia di Salerno. La fusione della provincia di Avellino con Benevento con la perdita del capoluogo, stabilita da un decreto ancora in attesa di conversione, mette a rischio la permanenza in Irpinia di alcune strategiche sorgenti...
+&nbsp;
+“Se Avellino perderà il capoluogo di provincia, non potremmo accettare di relazionarci con Benevento, città troppo distante non solo geograficamente, ma anche sotto il profilo storico e culturale”, spiega Gelsomino Grasso, promotore del comitato civico di Caposele. Sindaci e cittadini rappresentativi di Caposele, Materdomini, Calabritto, Quaglietta e Senerchia sono stati convocati ieri a Contursi per discutere dei prossimi passi da compiere sul termovalorizzatore di Oliveto Citra, una questione non ancora definitivamente chiusa, che ha offerto lo spunto però, per la costituzione del neo movimento civico. “Noi comuni di frontiera abbiamo sempre sofferto l’eccessiva distanza dal capoluogo di provincia, così come abbiamo avuto difficoltà a integrarci nella Valle del Sele: siamo quello che si definisce né carne, né pesce, ma Benevento per noi è improponibile”.
+&nbsp;
+Grazie alla strada a scorrimento veloce e agli agevoli collegamenti della Contursi Valle Sele, i comuni altirpini predisposti sulla linea di confine che separa le due provincie di Avellino e Salerno, sottolineano un elenco sostanzioso di opportunità di cui i cittadini potrebbero beneficiare da un’annessione a Salerno. “Oltre alla distanza geografica, notevolmente ridotta grazie ai collegamenti stradali, ci siamo resi conto che la maggior parte dei ragazzi studia a Salerno, il nostro ospedale di riferimento è Oliveto Citra, e Salerno è anche meta commerciale e di snodo per le partenze” aggiunge Grasso. “La maggior parte degli scambi agricoli avvengono nella Valle del Sele, ma soprattutto non bisogna tralasciare gli aspetti salienti di questa manovra: molti di noi si stanno chiedendo quanti chilometri bisogna percorrere prima di trovare la Prefettura, e quanto potrebbe costare un allontanamento dello Stato in tutte le sue forme, dalle questure, alla guardia di finanza e ad altri servizi”.
+&nbsp;
+Al momento, a detta del promotore, l’attenzione sulla vicenda è massima in questa parte della provincia, che attende con ansia risposte dai parlamentari prima di inoltrare la mobilitazione e promuovere il distacco. “Al momento il comitato si compone di otto persone, rappresentative non solo dei tre comuni, ma anche dei borghi come Materdomini e Quaglietta. Noi non abbiamo rappresentanti politici, né sindacati alle spalle, ma stiamo semplicemente valutando la nostra convenienza”. La possibilità che l’iniziativa possa minare il progetto dell’Unione comunale presentato dal sindaco di Lioni intanto, viene scartata da subito. “E’ già stato valutato questo aspetto, ed è stato constatato che la legge non pone vincoli territoriali di provincia per le aggregazioni tra enti locali, quindi l’organizzazione rimarrebbe invariata”. Sentendosi già marginale rispetto ad Avellino, Caposele ha sempre caldeggiato la possibilità di recuperare in termini di disparità rappresentativa, e mentre i sindaci rimangono alla finestra in attesa della definizione di un quadro più chiaro, i cittadini resettano la bussola e proiettano lo sguardo a sud ovest.
+&nbsp;
+Elisa Forte
+&nbsp;
+&nbsp;
+
+[post_text_231]
+Caposele nel Cuore: il nostro paese può diventare un’isola felice
+&nbsp;
+A Caposele, forse anche in vista delle prossime elezioni amministrative, il clima politico è sempre più intenso e ricco di contenuti. Nei giorni scorsi c’è stato un documento forte e sentito del circolo Caposele nel Cuore che condivide, a pieno, l’azione intrapresa dall’amministrazione comunale guidata dal sindaco Pasquale Farina.
+&nbsp;
+«Grazie all'impegno dell'Amministrazione Comunale, e a seguito della convenzione stipulata con l'A.Q.P, - scrive il gruppo - i cittadini di Caposele, in un momento di grave crisi economica per l'Italia intera, potranno avere una boccata di ossigeno beneficiando, in controtendenza, di alcuni notevoli sgravi fiscali. I Caposelesi non pagheranno più trasporto scolastico, la mensa e soprattutto già da quest’anno, l'IMU sulla prima casa.
+&nbsp;
+ Un risultato importante sul quale l'Amministrazione del primo cittadino Pasquale Farina ha voluto puntare come immediato, vero e concreto aiuto a tutta la popolazione. Una straordinaria operazione, nonostante la minoranza in Consiglio Comunale non abbia votato a favore di tale beneficio, dimostrando con tale decisione di essere di fatto, contraria allo sviluppo, alla crescita e al progresso del Paese. Caposele, però, a dispetto dei continui e distruttivi attacchi di alcuni personaggi, riesce a migliorare e a progredire attraverso una serie di operazioni messe in campo dall'Amministrazione Comunale, rivolte al turismo, al miglioramento urbanistico, e quindi al lavoro, e all'economia.
+ E chi ancora è sfavorevole alla convenzione, alla realizzazione della Pavoncelli bis, all'attuazione del nostro programma delle opere pubbliche, è, nei fatti, contro Caposele e contro i cittadini di Caposele. Il nostro Paese ce la farà, nonostante tutto, e grazie all'impegno e alla passione di tanti uomini volenterosi e innamorati della propria terra, potrà essere ricordato come un'isola felice».
+
+[post_text_232]
+Al via il processo sull’illegittimità del Puc del Comune di Caposele
+&nbsp;
+CAPOSELE&#8200;- E’ prevista per oggi la prima udienza del processo penale contro gli amministratori del comune di Caposele per la vicenda della presunta illegittimità del PUC.
+Il processo si terrà presso il tribunale di S.Angelo dei Lombardi. E Cittadinanzattiva ha annunciato che si costituirà "parte civile" attraverso il suo segretario generale nazionale Antonio Gaudioso che ha conferito incarico all'avvocato Mauro Torcianoche presenzierà oggi la causa.
+
+[post_text_233]
+Caposele, Conforti: «Il turismo unica arma per il vero rilancio»
+&nbsp;
+Uno dei paesi a grande vocazione turistica in Alta Irpinia è senza dubbio Caposele con il suo Santuario di Materdomini e le sue bellezza naturali come le Sorgenti. Proprio in questo contesto, nei giorni scorsi, è stato presentato il Piano comunale del turismo.
+ Grande la soddisfazione nelle parole dell’assessore Salvatore Conforti.
+&nbsp;
+“In un piccolo paese come Caposele - spiega Conforti - interessarsi di turismo e proporre uno studio sulla materia, è un’operazione straordinariamente coraggiosa. Il piano comunale del turismo è , strategicamente, importante e si inserisce perfettamente nel percorso che l’amministrazione ha avviato da qualche tempo sul tema del turismo. Si sente parlare da anni di questa materia e dell’enorme sviluppo del turismo che, se collocato seriamente in condizioni ottimali, potrebbe portare al territorio intero.
+ Da anni ci si è cullati intorno alle varie definizioni di accoglienza, di servizi che possono essere piu’ o meno di contorno al fenomeno stesso, ma mai e mai come in questo caso, si è spinti lungo una traiettoria che ha solamente una finalità: far arrivare turisti e scoprire che questo porterà indotto, economia, e sviluppo. Oggi si è accesa una lampadina in un momento particolare della vita dei nostri paesi, martoriati, poveri, esauriti, inseriti in un meccanismo di svuotamento. La lampadina quindi che si è accesa e che fin’ora aveva uno strano modo di fare luce ha avuto oggi nuova linfa e nuova energia, facendoci capire che le nostre terre possono tentare uno scatto di orgoglio e provvedere a loro stesse attraverso uno sviluppo e un attento utilizzo di proprie caratteristiche e peculiarità.
+Con le esigenze che sono cambiate, e dopo aver consapevolmente capito che il nostro territorio, che ha già un grandissimo potenziale sia di presenze, che strutturale può ragionare in altri termini, può tentare di avere e ricevere dalla propria terra, un beneficio in termini di presenze turistiche.
+In questo contesto e con questo auspicio abbiamo preparato il rapporto che rappresenta il documento preliminare del piano turistico per l'assetto territoriale, per le scelte strategiche e gli obiettivi di sostenibilità turistica del comune di caposele. E’ essenziale, infatti, che il sistema turistico debba essere particolarmente analizzato e programmato con un piano specifico di settore. Per la prima volta lo studio che si mette in campo affronta con procedure non convenzionali e con approfondimenti calati nella realtà territoriale, la questione turismo/pellegrinaggio e ne analizza partendo da sistemi e monitoraggi del preesistente, le possibilità di sviluppo e di ampliamento, sul quale molte speranze future si giocano. Si è messo in evidenza che la struttura della domanda del territorio di Caposele, non è essenzialmente legata al richiamo religioso della figura di San Gerardo Majella.
+E che le presenze allacciate invece alle caratteristiche ambientali non sono affatto marginali nei suoi effetti economici e di amplificazione di flussi turistici. Diversi esperti e studiosi di marketing sembrano aver preso consapevolezza della necessità di un approccio nuovo e diverso alle problematiche dello sviluppo di un territorio e condividono l’esigenza di abbandonare la visione semplificata per la quale agli enti che si occupano di sviluppo turistico dei territori spetta sostanzialmente l’attività di promozione e di stimolo di un mercato, che viene considerato come una semplice grandezza reattiva. E allo stesso modo molti enti turistici territoriali si accorgono che il loro impegno per affrontare i problemi del turismo non può ridursi ad una semplice attività di promozione. Il nostro tentativo, quindi è di suggerire un’ottica di superamento dei limiti degli approcci tradizionali o degli schemi rigidi a studi e teorie sul turismo, che mal si adattano alle condizioni dinamiche ed imprevedibili di territori come il nostro. Valutare, naturalmente, i temi dello sviluppo turistico alla luce di un quadro normativo nel quale si trova e si colloca il sistema turistico di caposele ed offrire spunti e strumenti di lavoro a chi si vuole confrontare con casi e problematiche vicine a noi anche dal punto di vista culturale. Il tutto per raggiungere la convinzione che la situazione nella quale versa il turismo a Caposele abbia bisogno di una maggiore circolazione di idee, di nuove competenze e di un ruolo degli enti pubblici diverso dal passato. Di questo, del sistema turismo e di marketing turistico si approfondiscono nei capitoli del piano le possibilità e i collegamenti utili al fine di uno sviluppo omogeneo e sostenibile di tutto il territorio affinchè si possa parlare, con cognizione di causa, di turismo come viene definito dal Wto. A tale piano preliminare verra’ data pubblica evidenza. Oltre alla consultazione cartacea presso il municipio, sarà anche possibile, affinché tutti i cittadini che vogliono esprimere eventuali considerazioni e/o suggerimenti in merito, discuterne on-line scrivendo all'indirizzo di posta elettronica del Comune o tramite scritto tradizionale e protocollato. Il tutto sarà considerato in sede di approvazione del piano definitivo da parte del consiglio comunale.
+Caposele e il suo turismo può essere il volano dell’economia un intero territorio e tutte le azioni amministrative messe in campo negli ultimi tempi vanno questa direzione” - conclude Conforti.
+&nbsp;
+----------------------------------------------------------------------------------
+&nbsp;
+Caposele, l’allarme di Cione: «Ci tolgono la speranza di una vita tranquilla»
+&nbsp;
+Sulla situazione della sanità in Alta Irpinia interviene anche Antonio Cione coordinatore assemblea territoriale di Cittadinanzattiva “Alto Calore-Ofanto-Sele”.
+&nbsp;
+“Invitiamo - dice Cione - le cittadine ed i cittadini dell'alta irpinia a prendere coscienza della grave e perdurante smobilitazione delle già precarie piccole strutture s anitarie del nostro martoriato territorio.
+ Ci hanno tolto l'acqua, l'aria, il lavoro, i servizi, il tribunale,gli ospedali, la Ferrovia, la speranza di un futuro per i nostri figli nella loro Irpinia. Al contrario ci portano discariche, pale eoliche, pannelli solari, trivelle per il petrolio, gallerie drenanti per emungere altra Acqua al nostro territorio. Questa è una partita a perdere, dove noi siamo sempre perdenti a tavolino, ma non su un tavolo alla pari, ma su un tavolo delle tre carte truccato e con prestigiatori che ci vogliono imbrogliare su tutto e vogliono desertificare questo territorio dell'alta irpinia, già provato da tante disgrazie e tenuto in condizioni di sottosviluppo. Ci sono dei tentativi di ridimensionamento, per esempio, dei pochi servizi sanitari offerti all'utenza che potrebbero essere conservati come il servizio di gastroenterologia del presidio di Sant'Angelo dei Lombardi, l'unico peraltro gratuito nel nostro territorio. Altro grave esempio di mancata attenzione al territorio e alle persone che vivono ed arrivano in alta irpinia a Caposele-Materdomini, richiamate dalla speranza e dalla fede per il Santo taumaturgo San Gerardo Maiella, è la recente annunciata soppressione della postazione sanitaria di emergenza stie-118, per la quale chiedo una alzata di scudi da parte di tutti senza colori e/o distinzioni, per difendere una piccola conquista, ma soprattutto per assicurare una presenza socio-sanitaria costante e permanente alle persone fragili e indifese che vivono ed arrivano presso il santuario per chiedere grazia per il proprio spirito, ma anche per la propria salute. Io credo che ai pellegrini ed ai fedeli dovremmo assicurare almeno la presenza di una ambulanza presso il nostro santuario di San Gerardo, anche perchè, vi ricordo che presso altri santuari, per esempio quello di San Giovanni Rotondo, esistono fondazioni ospedaliere megagalattiche.
+&nbsp;
+Non voglio credere che per salvare una postazione di una ambulanza sotto un Santuario, oltre che scomodare politici e tecnici di turno, dobbiamo sperare in una intercessione del Santo Gerardo protettore delle mamme e dei bambini. Auspico una seria riflessione di quanti dovranno decidere delle nostre sorti, perche', oltre a non farci tirare a campare dignitosamente e civilmente, stanno facendo di tutto per toglierci la speranza di una vita tranquilla e sicura almeno dal punto di vista psico-fisico” - conclude Antonio Cione.
+&nbsp;
+----------------------------------------------------------------------------------
+&nbsp;
+Caposele, Farina: «Difendiamo il 118»
+&nbsp;
+La Giunta Comunale del piccolo centro dell’Alta Irpinia, nelle ultime ore, ha deliberato contro la chiusura del locale punto 118. Forte l’atto dell’esecutivo del sindaco Pasquale Farina che spiega: «Non vogliamo fare la lotta a nessuno, ma soltanto far capire le nostre ragioni e farle arrivare a chi ha preso queste decisioni».
+&nbsp;
+«Il Comune di Caposele - recita la delibera di Giunta - fa parte la frazione di Materdomini con il Santuario di San Gerardo Maiella, meta, nell’arco dell’intero anno di circa un milione di pellegrini. Le presenze turistiche saranno sempre più numerose, in vista sia degli eventi religiosi previsti per l’anno 2013, proclamato Anno della Fede da Papa Benedetto XVI e sia per l’iniziative per la fruizione culturale ed ambientale del nostro territorio poste in essere da questa Amministrazione comunale che già in questa fase di sperimentazione ha riscosso un notevole successo con migliaia di visitatori.
+L’art. 52 (Disposizioni a sostegno dei Santuari) della legge Regionale n. 1 del 30 Gennaio 2008 , recita che gli effetti previsti dall’articolo 6, comma 6 della legge finanziaria regionale 2004, sono estesi in via permanente, oltre che ai comuni già destinatari, al Comune di Mercogliano, sede del Santuario di Montevergine, al Comune di Caposele, sede del Santuario di San Gerardo ed al Comune di Cava dei Tirreni, sede dell’Abbazia della Santissima Trinità. A tal fine il Comune di Caposele è stato equiparato a Comuni di circa 40000 abitanti. Il Comune di Caposele - continua la delibera - da sempre è stato considerato obiettivo sensibile proprio per la presenza delle sorgenti del Sele e quindi dell’Acquedotto Pugliese e del Santuario.
+&nbsp;
+Nelle ultime settimane sono stati consegnati i lavori per la realizzazione della Galleria Pavoncelli bis che interesseranno il territorio di Caposele e che detta opera è da considerarsi la seconda opera pubblica in Italia, la cui realizzazione vedrà l’impiego di una forza lavoro considerevole che deve essere tutelata. Infine al Santuario di Materdomini, affluiscono circa un milione di pellegrini all’anno, come si rileva dalla nota del Superiore Antonio Perillo, Rettore del Santuario San Gerardo Mailella, che si allega alla presente.
+&nbsp;
+Lo spostamento del punto STIE in altro Comune, comporterebbe una notevole dilatazione dei tempi di intervento a discapito della necessaria tempestività, data la notevole frammentarietà del territorio del Comune di Caposele in zone rurali molte decentrate. Per questi motivi - conclude la delibera - si esprime il diniego convinto ed assoluto del Comune di Caposele alla spostamento del Punto STIE attualmente ubicato nel Comune di Caposele, così come contemplato da Convenzione stipulata con ASL AV/1 in data 23 settembre 2002, in altro Comune».
+
+[post_text_234]
+Spatola: «Candidato con Tremonti per difendere gli interessi del Meridione»
+&nbsp;
+CAPOSELE - La campagna elettorale per le prossime elezioni politiche del 24 e 25 febbraio 2013 sta entrando nel vivo. Ormai le liste sono state presentate e sono in tanti gli irpini presenti nelle stesse.
+&nbsp;
+Tra questi il consigliere di opposizione di Caposele Ettore Spatola che è in lista nella circoscrizione Campania 2 con il gruppo 3L Lega Nord avendo aderito al movimento dell’ex Ministro Giulio Tremonti.
+&nbsp;
+«Sostengo l’Ex Ministro Giulio Tremonti ed il suo movimento, - dice il consigliere Spatola - infatti, l’apparentamento con la Lega Nord è solo di natura tecnica. La mia storia politica nasce tra le file del vecchio partito di Forza Italia convinto sostenitore del presidente Silvio Berlusconi, sono stato iscritto al Pdl e sostenitore del movimento politico dell’Ex Ministro. Non ho nessuna velleità di alcun genere se non quella di dar forza ad un movimento nascente che presto dovrà radicarsi in modo forte sul territorio e rispondere alle immense esigenze dei cittadini. Abbiamo l’obbligo di contribuire a difendere il nostro territorio. La nascita di nuovi movimenti politici desta sempre delle perplessità. Il movimento dell’ex Ministro Giulio Tremonti denominato 3 L “Lista Lavoro Libertà” prende corpo anche al Sud con la presentazione di liste alle Politiche anche in Campania. Gli uomini che hanno dato fiducia al movimento sono uomini del Sud ed in quanto tali difenderanno gli interessi del Meridione per provare a rilanciarlo e farlo uscire da quella crisi che lo sta attanagliando in modo particolare».
+&nbsp;
+
+[post_text_235]
+Ettore Spatola e la candidatura con la Lega Nord: «Mai pensato di tradire il Sud. Io candidato di Tremonti».
+&nbsp;
+L’Irpinia scende in campo e cala gli assi per le prossime Elezioni Politiche. L’ennesima speranza (tante ne sono andate perse) di risollevarsi, di ripartire. Tanti partiti rappresentati, tanti uomini scelti, selezionati e lanciati nella competizione. Tra di loro c’è Ettore Gennaro Spatola, giovane, intraprendente, già impegnato in politica, candidato di Caposele con il Sogno di sedere tra i banchi del Parlamento. Nulla di strano, fin qui, se non fosse per il fatto che è il quarto candidato della lista “3 L Lega Nord” nella circoscrizione Campania 2. Continuerebbe a non esserci nulla di strano, se la Lega Nord non fosse un partito da sempre un po’ campanilistico, “schierato” contro il Sud Italia (certamente prima a favore del Nord) e dalle idee, spesso, deliranti e inquietanti. Questa cosa non è sfuggita a molti ed è scoppiata subito la polemica.
+Noi abbiamo incontrato Spatola (che giura di non avere e non voler avere niente a che fare con la Lega) per chiarire questo aspetto e cercare di farci spiegare meglio le ragioni di una scelta apparsa, sì, piuttosto clamorosa.
+&nbsp;
+Spatola, allora, da consigliere comunale a candidato al Parlamento italiano. Si può dire intanto che, per lei, questo rappresenta il culmine della sua carriera politica?
+&nbsp;
+Ettore Gennaro Spatola
+«In politica non credo si possa parlare di carriera, piuttosto di scelte, tutto nasce da un gruppo di amici e rappresentanti del territorio che ha voluto aderire ad un movimento politico dell’ex Ministro, Giulio Tremonti, con l’intento di poter avere un rapporto diretto con un rappresentante importante dello scenario politico nazionale. In effetti si tratta più di una scelta per creare un movimento nuovo, quindi è un percorso tutto in salita».
+&nbsp;
+Lei ha militato per molti anni in Forza Italia, poi il Pdl. Questo è un passo indietro per ripartire da un movimento nuovo?
+«Non si parla di un passo indietro in quanto non sono iscritto nel partito della Lega, e mai lo farò. Sono tutt’ora infatti iscritto nel Pdl».
+&nbsp;
+Però oggi lei risulta candidato con la Lega Nord. E’ allora solo una scelta strategica?
+«Come ho già riportato anche sul quotidiano Corriere dell’Irpinia, non c’è nessuna scelta strategica e non ho cambiato schieramento. Noi sosteniamo il movimento denominato 3 L “Lista Lavoro Libertà” dell’Ex Ministro Giulio Tremonti».
+&nbsp;
+Roberto Maroni e Giulio Tremonti, i due animatori del movimento
+Se è vero che Tremonti sta soltanto utilizzando il simbolo della Lega e che dunque lei è candidato con Tremonti, più che con la Lega, ci può spiegare allora esattamente cosa succederà, una volta che lei sarà eletto, alle prossime Politiche? Siederà tra i banchi della Lega? Sosterrà il loro programma? C’è un programma comune e condiviso, tra Tremonti e Lega Nord? E c’è un programma condiviso, tra lei, Tremonti e Lega Nord?
+«Cosa succederà? Semplicemente che non ci sarà una persona contro il Sud ma per il Sud. Se dovessi essere eletto? Nei Banchi della Lega non credo proprio, vi è la possibilità di aderire a diversi gruppi ma questo non è un problema che mi pongo, ciò che mi interessa è la rappresentanza del territorio e che si faccia il possibile per dare una mano alla difficile realtà che oggi vive l’Irpinia. Il programma Tremonti è diverso dalla Lega, non a caso parliamo di un Onorevole che ha già fatto il Ministro dell’Economia. Infatti nel quarto punto del programma, dedicato proprio al Sud, l’ex Ministro dedica spazio alla Banca del Mezzogiorno, alla detassazione e agevolazione fiscale per le imprese del Meridione. Estrapolo dalla “sezione quarta” del magro programma sulla economia, dedicata proprio al sud. Essa prevede, in ordine: Cassa del Mezzogiorno; Banca del Mezzogiorno; Potenziamento dei titoli di risparmio per l’economia meridionale; Fiscalità di vantaggio».
+&nbsp;
+Certo, va bene. Però molti, adesso, la additano comunque come una specie di “traditore del Sud”, vista l’associazione del suo nome con il simbolo della Lega, che sappiamo come non risparmi mai un razzismo gratuito, con discorsi e ideali tante volte minacciosi, nei confronti del centro ma soprattutto del meridione d’Italia. Probabilmente per questo, la sua è una candidatura che ha fatto in ogni caso scalpore, la gente non sembra voler sentire ragione. Come la fa sentire tutto questo?
+«Molti mi definiscono traditore del Sud? In tutti questi anni ho subito molti attacchi e non credo che sarà l’ultimo. Ai tanti che mi tacciano di traditore posso solo dire che sono del Sud, vivo al Sud e tengo a lavorare per esso. Il mio stato d’animo in questi giorni dato il mio carattere è quello di colui a cui le critiche scivolano dietro».
+Ma si sarà fatto certamente un’opinione delle accuse che le rivolgono.
+«In democrazia vi è il diritto di libertà di opinione e di espressione. Ogni persona, ringraziando Dio, in Italia è libera. Spero in futuro di poterle far ricredere donando alla mia terra un impegno costante, come è mia abitudine, nel poter risolvere le problematiche che ci saranno».
+&nbsp;
+Lei sarà però d’accordo riguardo al fatto che molti attivisti della Lega Nord vadano quantomeno regolati, abbiano bisogno di una bella tirata di orecchie, rispetto a tanti atteggiamenti.
+«Le rispondo semplicemente: oggi di ciò che la Lega ripetutamente proclama non mi interessa, a me interessa che ci sia un rappresentante Avellinese con cui poter dialogare di problemi del territorio, non di poltrone, e che abbia un filo diretto con il governo centrale e la figura di Giulio Tremonti».
+&nbsp;
+Secondo lei sarà possibile, se la Lega Nord riuscirà ad eleggere i suoi uomini qui al Sud, dialogare poi con i colleghi eletti nel settentrione? E sarà possibile ridurre l’astio e le idee divisorie che questi ultimi hanno, purtroppo, pericolosamente in mente?
+«La cosa certa è che noi tuteleremo i diritti e l’interesse dei nostri territori. Per ciò che concerne i rapporti politici con i rappresentanti della Lega Nord e quindi un dialogo con loro, sarà devoluto al leader del Movimento 3 L, Giulio Tremonti».
+&nbsp;
+Ha già iniziato la sua campagna elettorale? Quali sono stati i primi riscontri?
+Non ho iniziato la Campagna elettorale, stiamo organizzando l’apertura ad Avellino ovviamente con la disponibilità dell’ Ex Ministro. I primi riscontri? Attacchi e devo dire anche personali, non solo sulla scelta; ma anche affetto, rispetto e disponibilità per la mia scelta. I primi riscontri sono quelli che se avessimo corso solo con il simbolo 3 L “ Lista Lavoro Libertà” sarebbe stato più comprensibile, ma nella eventualità di un successo, ironia della sorte, sarà grazie proprio all’apparentamento tecnico con la Lega, se nel nostro territorio potrà esserci un rappresentante alla Camera dei deputati».
+&nbsp;
+Qual è il risultato che si aspetta da queste elezioni?
+«Una vittoria del Centro Destra ed un successo del nostro Movimento 3 L ad onore nostro e del Ministro Tremonti».
+&nbsp;
+&nbsp;
+
+[post_text_236]
+Podismo, Caprio secondo alla "Vietri e dintorni trial"
+&nbsp;
+La "Vietri e dintorni trial" si è disputata nella mattinata del 20 gennaio 2013 con ritrovo al Santuario di San Vincenzo della frazione Dragonea di Vietri s/m (Sa). Percorso di montagna di 10 km su “Le vie dei sentieri”, paesaggio unico, incantevole, impegnativo, per vivere una giornata all’insegna dello sport, della natura e dell’agonismo.  Per gli accompagnatori e amanti del trekking si è svolta invece la “Passeggiata Vietrese TRAIL” di circa 3km, in parte sul percorso della gara, che si è conclusa con una visita a Villa Guariglia.
+&nbsp;
+Caprio che ha rappresentato l'ARS (Amatori Running Sele) in questa gara, HA OTTENUTO IL SECONDO POSTO ASSOLUTO con il tempo di 56'16'', chiudendo a 29'' dal primo classificato. 123 i partecipanti. Hanno accompagnato il nostro Daniele, il vicepresidente ARS Paolo Viscardi e l'atleta Salvatore Merola, che per un guaio fisico, non ha potuto partecipare alla competizione.
+(venerdì 25 gennaio 2013 alle 11.58)
+&nbsp;
+
+[post_text_237]
+Caposele approva le convenzioni e associa catasto e polizia municipale
+&nbsp;
+Il Consiglio comunale di Caposele ha approvato le convenzioni con il Comune di Calabritto e Senerchia per associare le funzioni della polizia municipale e del catasto, oltre a quella dei servizi sociali che è già associata tramite il piano di zona sociale di Lioni.
+&nbsp;
+La scelta che ha compiuto Caposele, come quella che si sta realizzando in tanti Comuni dell’Irpinia, sembra essere la più razionale e semplice in un momento in cui molte funzioni sociali e presidi fondamentali per la vita ordinaria di un piccolo paese rischiano già di essere cancellate, e che l’Unione stessa avrebbe amplificato fino a svuotare di significato amministrativo i Paesi più deboli. La collaborazione con i Comuni di Senerchia e Calabritto è già, da tempo una realtà, per cui istituendo le nuove funzioni ufficialmente, si prosegue un cammino già avviato e che già negli anni aveva restituito alle nostre realtà un po’ più in difficoltà di Caposele, un discreto vantaggio in termini di risparmio.
+&nbsp;
+La Valle del Sele ed il territorio che fa riferimento al territorio di Sant’Angelo dei Lombardi erano le uniche due zone che ancora non avevano deciso in che modo associare le tre funzioni fondamentali come stabilito dalla legge sulla spending review, ma ora sembra che anche questi territori siano arrivati ad un accordo con quella che sarà l’Unione della Valle del Sele con Calabritto, Caposele e Senerchia e quella che vedrà insieme Sant’Angelo dei Lombardi, Morra De Sanctis, Rocca San Felice, Torella dei Lombardi e Guardia dei Lombardi.

@@ -336,6 +336,17 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 322::nic.m.::16/04/2012 12.01.56::visible
 323::parole,parole,parole::19/04/2012 13.14.35::visible
 324::stanco e umiliato::19/04/2012 19.45.13::visible
+325::nicola ::28/04/2012 18.51.41::visible
+326::attento osservatore::30/04/2012 12.44.23::visible
+327::umiliato::05/05/2012 18.34.27::visible
+328::caposele::07/05/2012 13.45.19::visible
+329::realtà::07/05/2012 15.58.04::visible
+330::strazzatrippa::07/05/2012 17.27.13::visible
+331::strazzatrippa::14/06/2012 21.51.16::visible
+332::terza categoria::25/06/2012 12.19.45::visible
+333::scettico::25/06/2012 18.34.34::visible
+334::strazzatrippa::27/06/2012 23.30.43::visible
+335::deflusso::02/10/2012 08.46.01::visible
 
 [post_text_0]
 Fermate Nicola Melillo con questa stralaceno: anche i muri di materdomini e caposele non ne possono più.
@@ -1970,3 +1981,45 @@ si avvicinano le elezioni...vi aspetto con una pala se uno cerca il voto dicendo
 
 [post_text_324]
 ottino poche parole per testimoniare il fallimento inesorabile di questo paese l' anno prossimo non vi presentate che per come avete amministrato dovete prendere zero voti.caposele mi fai sempre piu' schifo!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+[post_text_325]
+w BEPPE GRILLO distruggili tutti questi politici falliti e corrotti che ci hanno portato in questa crisi senza via d'uscita ma ci rendiamo conto di quante umili persone si stanno suicidando perche' non ce la fanno piu' a vivere in questa condizione che si e' creata tutta la vecchia e nuova classe politica italiana di tutti i partiti la pagherete di fronte a dio cio' che avete seminato siete solo degli ignoranti senza cuore che col nostro voto siete diventati parlamentari ma che la prossima volta il popolo italiano vi mandera' a casa l'italia e' una nazione irrecuperabile ma dobbiamo sperare in nicola vendola o tonino di pietro sono gli unici che poterebbero adottare misure storiche e ridare un filo di speranza agli italiani stanchi di essere continuamente presi in giro.
+
+[post_text_326]
+se il signor D'auria Nicola non giochera' il sondaggio giuro che lo critichero' e faro' polemica infinita ma come si spiega che ogni volta che gruppo ars lancia una iniziativa lui non partecipa mai ma anche molti altri ragazzi ars e poi vi lamentate che i giovani di caposele sono scettici nei vostri confronti mahh.
+
+[post_text_327]
+siamo e resteremo un paese di m purtroppo i nostri amministratori attuali ed ex ci hanno distrutto non si e' mai creato lavoro e benessere vero e duraturo solo chiacchiere se avete dignita' non presentatevi mai piu' avete offeso la cultura di una popolazione intera dimettetevi se avete coscienza,poi una frecciatina a coloro che hanno abbandonato questo paese quando ritornate abbiate l'umilta' di non fare troppo i professori perche' per esprimere giudizi dovete vivere tutto l'anno in questo mortorio e desolazione forse solo cosi' potete capire il disagio e la sfortuna di essere nati in questa miseria e schifezza.
+
+[post_text_328]
+come dobbiamo risolvere i problemi a caposele???!! ormai i giovani ci hanno rinunciato...ormai si vive alla giornata senza pensare al futuro... e se uno vorrebbe sposarvi??avere dei figli???il lavoro non ce ne'...come tirare avanti??!!!!!  e poi tutto ad un tratto arrivano le elezioni: e che si fa???si strilla su un palco promettendo mari e monti...!!!e di tutto cio'a finale zero, il nulla...copione in bianco!!!di conseguenza il nostro grido a cio' e': VERGOGNATEVIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII!!! RIDICOLI!!!!!!!!!!!!!!!!!!!!!!!!!
+
+[post_text_329]
+Un solo dato: quest'anno 30 matrimoni di Caposele! C'è chi si lamenta come "caposele" e c'è chi lavora e si sposa....Vai a lavorare RIDICOLOOOOOOOOOOOOOOOOOOOOOO VERGOGNATIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+
+[post_text_330]
+30 matrimoni? auafa...e quanti figli nascono a caposele?
+
+[post_text_331]
+grande giaccherini, grande thiago silva, grande chiellini...grande prandelli...
+solita italia, solito modo di giocare, ecco che significa affidarsi al blocco juve e non portare centravanti di ruolo
+voi che ne pensate?
+
+[post_text_332]
+l'italia ha vinto ma solo ai rigori!!! giocatori convocati anche non essendo veri italiani, tipo balotelli,thago motta... negli anni 90 vedere l'italia era emozionante con schillaci ecc. ora e' solo una semplice partita...prima ti emozionavi,c'era piu' entusiasmo,le bandiere c'erano quasi per ogni casa...ora vedi a balotelli e pensi al suo stipendio e magari ti viene voglia di spegnerla la tv!!! MERCENARI!!!
+
+[post_text_333]
+giusto e' proprio cosi' terza categoria anche io non mi emoziono piu' a guardare la nazionale secondo me anche a livello di nazionale ci sono le raccomandazioni altrimenti non si spiega come giocatori tipo balotelli e cassano partono dal primo minuto e di natale,giovinco,diamanti e la non convocazione di miccoli e una vera prima punta tipo matri,pazzini,gilardinoetc non sono stati neanche convocati.comunque siamo arrivati in semifinale realazzando solo 4 goal in 4 partite non e' giusto fare  disputare le partite dei gironi in sfide di sola andata ma bisognava giocare anche il ritorno sarebbe stato piu' giusto e veritiero il punteggio finale.
+
+[post_text_334]
+ancora una volta dopo il 2008 con l'Italia, la Spagna passa immeritatamente ai rigori...
+mo' stanno proprio scocciando
+
+[post_text_335]
+"Come associazione Pro Sele - dice Cetrulo - non potevamo mancare perchè difendere questo territorio dall’inceneritore significa anche difendere il Fiume Sele. Siamo felici per il successo che ha avuto la manifestazione contro l’inceneritore, ma il nostro impegno continua anche e soprattutto per la difesa del Fiume Sele perchè puntiamo ad un deflusso del corso d’acqua che non sia quello previsto dalla legge, ma un deflusso vero, giusto e giustificabile".
+&nbsp;
+-Associazione nata per fini politici, senza idee concrete ma basate solo sulla irrazionalità. Perchè alla giornata ecologica del gruppo attivo di pulizia del fiume Sele
+non c'èra nessuno di tale associazione?
+Qual è questo deflusso vero, giusto e giustificabile? quello non previsto dalla legge? Affermazione grave e pericolosa...perchè qualcuno non sporge denuncia alla procura della repubblica per questa frase? Sono talmente bravi e cattivi a farlo.
+&nbsp;
+&nbsp;

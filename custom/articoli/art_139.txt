@@ -3,11 +3,12 @@ Titolo::Sondaggio Europei di calcio 2012
 --- Begin body ---
 <br><br>
 <font color="red"> 
-<b>Il Tabellone per giocare <i>(dal 15 gennaio)</i> lo trovate <a href=" questions.php?id_questions=5 ">QUI</a></b></font>
+<b>La classifica finale la trovate <a href=" questions.php?id_questions=5 ">QUI</a></b></font> 
 <br><br>
-Caratteristiche principali
-<br>
-<br>
+Le classifica sperimentale la trovate <a href="http://ars.altervista.org/questions.php?id_questions=6&action=results">QUI</a>
+<br><br>
+Le statistiche sulle giocate effettuate le trovate <a href="http://ars.altervista.org/statistiche.php?action=show&id_questions=5">QUI</a>
+<br><br>
 <b>Criteri di determinazione della classifica finale</b><br>
 Tutte le giocate regolarmente effettuate, verranno ordinate in forma di classifica, seguendo, nell'ordine, i seguenti criteri:
 <br><br>

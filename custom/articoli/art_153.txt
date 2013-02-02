@@ -1,0 +1,12 @@
+Autore::
+Titolo::Stralaceno 2012
+--- Begin body ---
+<br>
+Pubblicato sul sito della Stralaceno l'ordine di arrivo ufficiale.
+<br><br>
+ Le foto dell'edizione 2012 le trovate <a href="album.php?anno=Stra_12">QUI</a>.   
+<br><br><div align="center">
+<img id="" src="%file_root%custom/album/Stra_12/302.jpg" alt="" border="" width="550">
+</div>
+<br>
+--- End body ---

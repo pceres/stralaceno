@@ -6,6 +6,11 @@
 # formato elenco_album:  tag_album::nome_album::descrizione
 #
 [elenco_album]
+FotoFlash::Foto notizie ARS::
+Vietri_13::Vietri e dintorni trail 2013::Foto
+Sofia_12::Breve racconto della mia prima gara in terra balcanica::Foto
+Polveracchio::Escursione sul monte Polveracchio::Foto
+Amalfi_12::Trail delle Ferriere Amalfi 2012::Foto
 Foto Settimana::Foto Settimana::La Foto della Settimana
 Roma_11::Roma 2011::Maratona di Roma del 20 marzo 2011
 Sorrento_11::Sorrento 2011::MariMonti 2011
@@ -50,6 +55,21 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
+162::homepage::Maratona e Mezza Maratona di Napoli 2013::
+161::homepage::Foto Flash ARS::
+160::homepage::Pagelle::
+159::homepage::Vietri e dintorni trail 2013::
+158::homepage::Allenamento Collettivo 30.12.2012::
+157::homepage::Coast to Coast 2012::
+156::homepage::Fiumicino Half Marathon 2012::
+155::homepage::Venice Marathon 2012::
+154::homepage::Breve racconto della mia prima gara in terra balcanica::Daniele Caprio
+153::homepage::Stralaceno 2012::
+152::homepage::Escursione sul monte Polveracchio::Gelsomino Del Guercio
+151::homepage::Trail delle Ferriere 2012::
+150::homepage::La corsa fa bene al cervello::Gazzetta.it
+149::homepage::Meno Riscaldamento, pi&ugrave; performance::Corriere.it
+148::homepage::La bibbia dello sportivo::
 147::homepage::Maratona di Roma 2012::
 146::homepage::Stanchezza? decide il cervello::Gazzetta.it
 145::homepage::Tendine d'Achille: runner a forte rischio::Gazzetta.it
@@ -141,7 +161,6 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 57::homepage::L'ARS affronta la mezza maratona::Paolo Viscardi
 56::homepage::IX Agropoli Half Marathon::Ars
 55::homepage::Correre per stare bene::Runners.it
-1::homepage::Consiglio Direttivo e Responsabili di Settore ARS::
 54::homepage::Maratona di Roma 2008::
 53::homepage::Correre da' euforia::Ansa
 52::homepage::Inizia la stagione 2008::Paolo Viscardi
@@ -189,19 +208,18 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 4::homepage::Allenarsi alla Palmenta::
 3::homepage::Cos'&egrave; la corsa campestre::
 2::homepage::Caposele::
-
+1::homepage::Rendiconto e Relazione ARS 2011::
 
 #
 # formato elenco_pagine:  tag_pagina::titolo_pagina::titolo::autore
 #
 
 [elenco_pagine]
+%script_root%questions.php?id_questions=5::Sondaggio Europei 2012
+%script_root%questions.php?id_questions=6&action=results:: Sondaggio Europei 2012 (classifica sperimentale)
 %script_root%questions.php?id_questions=4&action=results::Sondaggio Mondiali 2010
 %script_root%questions.php?id_questions=3::Sondaggio Europei 2008
 %script_root%questions.php?id_questions=2&action=results::Sondaggio Champions League 2006/07
 %script_root%statistiche.php?action=show&id_questions=2::Statistiche Sondaggio Champions League 2006/07
-%script_root%questions.php?id_questions=1::Sondaggio Mondiali 2006
-%script_root%statistiche.php?action=show&id_questions=1::Statistiche Sondaggio Mondiali 2006
-tiche.php?action=show&id_questions=2::Statistiche Sondaggio Champions League 2006/07
 %script_root%questions.php?id_questions=1::Sondaggio Mondiali 2006
 %script_root%statistiche.php?action=show&id_questions=1::Statistiche Sondaggio Mondiali 2006

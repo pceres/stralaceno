@@ -6,6 +6,20 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+27/01/2013::Giuseppe Cetrulo e Mauro Losco hanno partecipato alla XVI Neapolis half marathon a Napoli di km 21,097.
+27/01/2013::Carmine Calvanese ha partecipato alla XXXI Gennaiola a S.Maria degli Angeli (Pg) di km 15,3.
+20/01/2013::Daniele Caprio ha partecipato alla "Vietri e dintorni trail 2013" a Vietri sul Mare (Sa) di km 10. Accompagnatori Paolo Viscardi e Salvatore Merola.
+03/01/2013::Entra a far parte dell'ARS, come associato praticante, Carmine Calvanese di Calabritto.
+11/11/2012::Donatello Cirillo ha partecipato alla "10&deg; Fiumicino half marathon" di km 21,097.
+06/11/2012::Entra a far parte dell'ARS, come associato praticante, Mauro Losco di Torella dei Lombardi.
+28/10/2012::Giuseppe Cetrulo ha partecipato alla "27esima Maratona di Venezia".
+21/10/2012::Daniele Caprio ha partecipato alla "Maratonina di Sofia" in Bulgaria di km 18.
+11/08/2012::Entra a far parte dell'ARS, come socio ordinario, Giuseppe Cetrulo di Caposele.
+05/08/2012::Partecipanti alla gara podistica "Maratonina della Misericordia" di 10,250 km di Nusco:  Salvatore Merola, Alessandro Russomanno, Donatello Cirillo, Paolo Viscardi, Nicola D'Auria.
+26/06/2012::L'edizione 2012 della Stralaceno si terr&agrave; venerd&igrave; 31 agosto.
+13/06/2012::Pubblicato sul sito della Stralaceno il logo dell'edizione 2012.
+29/04/2012::Donatello Cirillo ha partecipato alla "StraSalerno half marathon 2012" di km 21,097.
+15/04/2012::Daniele Caprio ha partecipato al "I Trail delle Ferriere" di km 15 ad Amalfi.
 18/03/2012::Francesco Ceres ha partecipato alla XVIII Maratona di Roma di km 42,195.
 26/02/2012::Donatello Cirillo e Francesco Ceres hanno partecipato alla XXXVIII edizione della Roma Ostia di km 21,097.
 08/01/2012::Daniele Caprio ha partecipato alla "Cadbury half marathon" di km 21,097 ad Hobart in Tasmania (Australia).
@@ -163,10 +177,6 @@
 
 #
 # formato testo_footer:  testo
-#
-[testo_footer]
-#Ultimo aggiornamento effettuato il ../../....
-o testo_footer:  testo
 #
 [testo_footer]
 #Ultimo aggiornamento effettuato il ../../....

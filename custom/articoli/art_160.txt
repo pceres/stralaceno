@@ -1,0 +1,28 @@
+Autore::Gelsomino Del Guercio
+Titolo::Pagelle
+--- Begin body ---
+<br><b>Le pagelle ARS del 2012 <i> (a cura di Mimmo Del Guercio)</i></b>
+<br><br><br>
+<b>Saverio Perna: voto 9 (alla carriera Ars)</b>
+Saverio ha deciso che la sua carriera nel podismo agonistico &egrave; finita. A 50 anni si &egrave; tolto delle belle soddisfazioni in gare regionali e soprattutto alla maratona di Roma. Avremmo preferito vederlo ancora “in corsa” per un piazzamento. APPAGATO (?)<br><br>
+<b>Daniele Caprio: voto 8- </b>
+Turbo Caprio saltella in salita e spinge forte in discesa, vola sul piano ed &egrave; l’uomo simbolo dell’Ars nel 2012. Ora lo vogliamo in cima alla classifica nelle gare Fidal del 2013. PODEROSO <br><br>
+<b>Donatello Cirillo: voto 7</b>
+Allenamento, tabelle e sguardo fisso sul crono: Donatello &egrave; l’esempio di come l’impegno e la costanza fa migliorare i propri tempi. Il bilancio del suo 2012 &egrave; positivo. TENACE <br><br>
+<b>Donato Ceres: voto 6,5</b>
+Grande abnegazione e impegno in allenamento per risalire man mano la china del cronometro. Unica pecca la Stralaceno: ci si aspettava di più da uno come lui. In calo verso la fine dell’anno. CORIACEO <br><br>
+<b>Salvatore Merola: voto 6+</b>
+Un altro anno da eterno incompiuto. Anche lui fa passi in avanti e quando si allena con costanza tira fuori una parte del suo potenziale. Ma da lui ci si aspetta altro. INCOMPIUTO <br><br>
+<b>Alessandro Russomanno: voto 6+</b>
+Si allena con rigore tutto l’anno ma continua a non decollare mentre gli anni passano. Avanza a piccoli passi ma non sfonda neppure nel 2012. RIMANDATO <br><br>
+<b>Gelsomino Del Guercio: voto 5,5 </b>
+Vive ancora con i fantasmi del 2005. Ma quei tempi proprio non riesce ad avvicinarli. Resta da capire quanto potr&agrave; rendere con un allenamento costante e mirato. INSUFFICIENTE <br><br>
+<b>Paolo Viscardi: sv senza voto <br><br>
+Gelsomino Merola: sv senza voto <br><br>
+Carmine Calvanese: sv senza voto <br><br></b>
+<p>&nbsp;
+<div align="center">
+<img id="titolo_da_mettere" src="%file_root%custom/album/Calabritto_09/tsr27.jpg" alt="" border="0" width="360">
+</div><br>
+<br>
+--- End body ---

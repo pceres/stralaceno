@@ -157,6 +157,14 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 143::nicola::11/02/2010 17.53.48::visible
 144::fan::11/02/2010 20.22.29::visible
 145::Fan::31/08/2010 14.16.04::visible
+146::vergognatevi!!!!!!!!!!!!!!!!!::21/08/2011 13.25.17::visible
+147::incazzato::21/08/2011 17.35.33::visible
+148::strafiga...::28/08/2011 13.51.23::visible
+149::bastardi!!!!!!!!!!!!!!!!!!!!!!!!!::02/09/2011 14.35.09::visible
+150::ARS::31/07/2012 16.25.57::visible
+151::nicola melillo::06/08/2012 23.20.22::visible
+152::P::26/08/2012 12.46.31::visible
+153::strazzatrippa::30/08/2012 20.36.09::visible
 
 [post_text_0]
 Aspettiamo le vostre dichiarazioni di sfida...
@@ -878,10 +886,6 @@ ciao nicola... iniziato dunque il conto alla rovescia... sbilanciati dai! Che te
 
 [post_text_145]
 Come mai Nicola Melillo non ha partecipato alla stralaceno 2010? E' assente perche fuori per lavoro?
-i dai! Che tempo prevedi di realizzare quest'anno e quale posizione riusscirai ad ottenere alla STRALACENO?
-
-[post_text_145]
-Come mai Nicola Melillo non ha partecipato alla stralaceno 2010? E' assente perche fuori per lavoro?
 
 [post_text_146]
 vergognateviiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!anche quest'anno non ho voluto piu' di tanto dar retta agli emigrati...i quali si fanno sentire e vedere solo in estate!!! vergognatevi!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -894,3 +898,15 @@ meglio un piatto di lasagna, una bottiglia di vino e una bella fighetta...    vo
 
 [post_text_149]
 &gt;non se ne puo' piu'di questo paese!!!!!!!!!ognuno pensa a se stesso,siamo come delle pecore senza pastore...CHE SCHIFO!!!!! qua c'e' la gente che soffre e nessuno fa niente per evitare questa precarieta' a livello economico e sociale!!!che ce ne importa della corsa,di fare un buon piazzamento,o di allenarci per un anno per fare la solita corsa!!!si vive tutto l'anno e si parla tutto l'anno e non solo una volta all'anno alla fine di agosto...!!!!!!!!!!dove siete????!!!!!!!!!!!!!!!!!!!!!!!!settembre,ottobre,novembre,dicembre,gennaio,febbraio,marzo,aprile,maggio,giugno,luglio... DOVE SIETE???!!!!!!!!!!! CAPOSELE PAESE DA ROTTAMARE!!!VERGOGNATEVI!!!!!!!!!!!!!<br>&gt;<br>&gt;<br><br>
+
+[post_text_150]
+Pronosticate qui i primi 5 classificati della prossima stralaceno del 31 agosto 2012.
+
+[post_text_151]
+i primi 5 per me sono:giuseppe cetrulo,daniele caprio,gelsomino merola,donato ceres e rocco monteverde.
+
+[post_text_152]
+1°GELSOMINO MEROLA-2°DANIELE CAPRIO-3°GIUSEPPE CETRULO-4°DONATO CERES-5°SALVATORE MEROLA
+
+[post_text_153]
+domani il grande giorno....oggi tutti a dieta eh? ahahahahha...domani a pranzo vi suggerisco cannelloni oppure lasagne, in base ai gusti personali, come secondo ,invece, patate al forno e salsicce, frutta per tenersi leggeri e poi una bella fetta di torta panna e cioccolato, vabbè...anche due...ah già...c'è anche chi può optare per una bella fagiolata in modo tale da abbattere tutti i contendenti col gas asfissiante prima della partenza ovviamente, oppure ancora si possono intossicare gli avversari offrendo loro bevande opportunamente sofisticate...per chi invece volesse seguire le orme di scwhatzer consiglio di procurarsi la 'bomba', ci sarà sicuramente qualche venditore abusivo napoletano che ve la proporrà...

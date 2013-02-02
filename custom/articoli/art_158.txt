@@ -1,0 +1,37 @@
+Autore::
+Titolo::Allenamento Collettivo 30.12.2012
+--- Begin body ---
+<p><br>
+<div align="center">
+<img id="" src="%file_root%custom/album/varie/coll12.jpg" alt="" border="0" width="550">
+<div align="left">
+<br><br>Cielo terso, temperatura alla partenza 12 gradi, vento quasi assente.<br>
+<br>
+Hanno partecipato:<br>
+1.	Nicola D’Auria <br>
+2.	Saverio Perna <br>
+3.	Carmine Calvanese <br>
+4.	Giuseppe Nigro <br>
+5.	Gelsomino Del Guercio <br>
+6.	Gerardo Notaro (fino al km 6,7) <br>
+7.	Alfonsina D’Auria (fino al km 2,3) <br>
+8.	Gerardo Viscido <br>
+9.	Salvatore Merola <br>
+10.	Daniele Caprio <br>
+11.	Donatello Cirillo <br>
+12.	Alfonso Rosania (partito in ritardo e riunitosi al gruppo in località San Vito) <br>
+13.	Giuseppe Cifrodelli <br>
+14.	Alessandro Russomanno <br>
+15.	Camillo Cetrulo (dal km 6,150) <br>
+16.	Annarita D’Elia (dal km 7,1) <br>
+17.	Pasqualina Liloia (dal km 7,1) <br>
+18.	Iris Cetrulo (dal km 14,8) <br>
+19.	Gelsomino Merola <br>
+<br>
+Ha accompagnato il gruppo in bicicletta, per gran parte del percorso, Donato Gervasio.
+<p><br><br>
+<div align="center">
+<img id="" src="%file_root%custom/album/varie/AC12.jpg" alt="" border="0" width="500">
+<br>
+<br>
+--- End body ---

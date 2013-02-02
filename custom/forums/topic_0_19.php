@@ -17,6 +17,10 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 3::marilisa::03/09/2008 18.35.41::visible
 4::Pasquale C.::03/09/2008 21.46.03::visible
 5::paco::09/04/2009 08.58.00::visible
+6::Pasquale::14/05/2011 19.10.14::visible
+7::paco::30/05/2011 22.14.33::visible
+8::Eduardo Carey Russomanno::12/12/2011 21.57.14::visible
+9::salvatore::21/05/2012 16.39.03::visible
 
 [post_text_0]
 &nbsp;
@@ -95,10 +99,6 @@ Ricordo agli interessati che il sito "Genealogia di Caposele" si trova all'indir
 &nbsp;
 <a href="http://ars.altervista.org/PhpGedView/index.php">http://ars.altervista.org/PhpGedView/index.php</a>
 &nbsp;
- all'indirizzo
-&nbsp;
-<a href="http://ars.altervista.org/PhpGedView/index.php">http://ars.altervista.org/PhpGedView/index.php</a>
-&nbsp;
 
 [post_text_6]
 John Rendfrey ha inserito nell'albero genealogico Nicola Benincasa 1736-1756: http://ars.altervista.org/PhpGedView/individual.php?pid=I4765&ged=caposele
@@ -146,3 +146,6 @@ Quisie saber si en Caposele vive alguna prime de mi madre o sobrina para contact
 Los ultimos que vi son Soriano,Freda,Nisivoccia,Peccatiello.
 Gracias.
 Eduardo
+
+[post_text_9]
+&gt;Sul sito genealogico ci ha scritto Eduardo Carey Russomanno, dall'Argentina ma di origini caposelesi:<br>&gt; <br>&gt;"Mio nonno era  Vincenzo Russomanno (nato a Caposele nel 1867); mia madre, figlia di Vincenzo, ha 98 anni. Vincenzo Russomanno si sposo' in Argentina con Madalena Failace, nata a Morano Calabro.<br>&gt;Vorrei sapere se a Caposele vive (ed eventualmente contattarla) qualche cugina di mia madre. So che avevano cognome Soriano, Freda, Nisivoccia, Peccatiello.<br>&gt;Grazie.<br>&gt;Eduardo"<br>&gt; <br>&gt;--------------------------------------------------------<br>&gt; <br>&gt;Mi abuelo era Vincenzo Russomanno &#8206;(I1946 o I1947)&#8206;,sus padres y hermano &#8206;(f676)&#8206;, mi madre hija de Vincenzo aun vive y tiene 98 años. Vincenzo Russomanno se caso en Argentina con Madalena Failace, que nacio en Morano Calabro.<br>&gt;Quisie saber si en Caposele vive alguna prime de mi madre o sobrina para contactarme.<br>&gt;Los ultimos que vi son Soriano,Freda,Nisivoccia,Peccatiello.<br>&gt;Gracias.<br>&gt;Eduardo<br>&gt;<br><br>ciao io mi chiamo salvatore russomanno e sono figlio a vincenzo russomanno e suo nonno si chiamava vincenzo e siamo di caposele
