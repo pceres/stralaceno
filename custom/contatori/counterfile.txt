@@ -2,13 +2,11 @@ modulo_soci:1
 modulo_lettere_sito:9
 admin_layout:2
 modulo_classifica_campionato:5
-admin_upload_articoli:9
 admin_upload_foto:26
 admin_download_browse:5
 admin_download:5
 admin_edit_config:18
 statistiche:26
-admin_upload_text:34
 modulo_organizzatori:114
 admin_index:47
 admin_modules_config:20
@@ -21,9 +19,12 @@ download:1012
 foto:949
 modulo_presentazione:147
 modulo_siti_amici:230
-modulo_flash_news:356
 modulo_last_contents:129
 questions:187
 homepage:5145
 feed:1419
 forum:7333
+admin_upload_text:35
+modulo_flash_news:357
+admin_root_index:1
+admin_upload_articoli:10

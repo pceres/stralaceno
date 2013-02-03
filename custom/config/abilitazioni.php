@@ -36,6 +36,7 @@ task::gestione_download::item_type=.*;item_name=.*;::Gestione sezione download::
 mansione::mansione_gestione_sezione::sezione=ciclismo::Gestione sezione "ciclismo"::@alex,@ceres,@don.ger
 mansione::mansione_gestione_sezione::sezione=FC_caposele::Gestione sezione "FC Caposele"::@alex,@ceres
 mansione::mansione_gestione_sezione::sezione=ambiente::Gestione sezione "Ambiente e natura"::@alex,@ceres,@angelo.ceres
+mansione::mansione_gestione_sezione::sezione=studi_caposele::Gestione sezione "Studi ed approfondimenti dello sport"::@alex,@ceres,@nick
 mansione::mansione_gestione_sezione::sezione=.*::Gestione sezione generica::@alex,@ceres
 
 mansione::mansione_modifica_file_configurazione::filename=siti_amici_cfg.txt::gestione file di configurazione del modulo Caposele sul Web::@michele,@ceres,@alex

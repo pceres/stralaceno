@@ -26,6 +26,7 @@ layout_left.txt::%config_dir%::disposizione colonna sin. homepage::admin::::d369
 layout_right.txt::%config_dir%::disposizione colonna dx. homepage::admin::::d36923926ed59333afab0bba1a4ad5e5::index.php::%config_dir%
 layout_left_FC_caposele.txt::%config_dir%::colonna sin. FC Caposele::admin::::d36923926ed59333afab0bba1a4ad5e5::index.php?page=FC_caposele::%config_dir%
 layout_right_FC_caposele.txt::%config_dir%::colonna dx. FC Caposele::admin::::d36923926ed59333afab0bba1a4ad5e5::index.php?page=FC_caposele::%config_dir%
+layout_right_studi_sport.txt::%config_dir%::colonna dx. Studi sport::admin::::d36923926ed59333afab0bba1a4ad5e5::index.php?page=studi_sport::%config_dir%
 layout_right_ambiente.txt::%config_dir%::colonna dx. ambiente::admin::::0cdaa4d3a5cfbe7cda4facf4d7501021::index.php?page=ambiente::%config_dir%
 layout_left_ciclismo.txt::%config_dir%::colonna sin. ciclismo::admin::::d36923926ed59333afab0bba1a4ad5e5::index.php?page=ciclismo::%config_dir%
 

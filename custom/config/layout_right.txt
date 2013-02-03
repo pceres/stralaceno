@@ -92,6 +92,7 @@ link_download::Download::external_link::download.php::::
 [Pagine in preparazione]
 classifica_campionato::Classifica III categoria::modulo_custom::::
 medagliere::Medagliere::tempi::::::
+sezione_studi_sport::Studi ed approfondimenti dello sport::external_link::index.php?page=studi_sport::
 
 [Utente]
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Utente] non prevede sottoelementi
