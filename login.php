@@ -434,7 +434,7 @@ if ($debug) {		print_r($submansioni);echo "<br><br>\n";}
 			
 if ($debug) 			echo "Con la modifica: $abilitazione_params => $subabilitazione_params => $ks_par<br><br>\n";
 			
-			if (check_single_auth(&$mansioni_filtrate,$found_task,$submansione,$tag,$params,$username,$usergroups, $level+1,$debug))
+			if (check_single_auth($mansioni_filtrate,$found_task,$submansione,$tag,$params,$username,$usergroups, $level+1,$debug))
 			{
 if ($debug) 				echo("Anche i parametri corrispondono!<br>\n");
 				return true;
