@@ -5,35 +5,35 @@
 #
 
 # Qualificato quarti 1:
-nd
+Repubblica Ceca
 # Qualificato quarti 2:
-nd
+Grecia
 # Qualificato quarti 3:
-nd
+Germania
 # Qualificato quarti 4:
-nd
+Portogallo
 # Qualificato quarti 5:
-nd
+Spagna
 # Qualificato quarti 6:
-nd
+Italia
 # Qualificato quarti 7:
-nd
+Inghilterra
 # Qualificato quarti 8:
-nd
+Francia
 # Qualificato semifinale 1:
-nd
+Portogallo
 # Qualificato semifinale 2:
-nd
+Germania
 # Qualificato semifinale 3:
-nd
+Spagna
 # Qualificato semifinale 4:
-nd
+Italia
 # Qualificato finale 1:
-nd
+Spagna
 # Qualificato finale 2:
-nd
+Italia
 # Vincitore:
-nd
+Spagna
 
 #
 # Le risposte sono suddivise in gruppi. Per ciascun gruppo esiste un set di risposte piu' o meno corrette
@@ -49,19 +49,19 @@ nd
 #
 # es: Croazia::4,0;3,4;2,0
 [punteggio_risposte]
-Danimarca::
-Repubblica Ceca::
-Portogallo::
-Irlanda::
-Inghilterra::
-Croazia::
-Germania::
-Polonia::
-Ucraina::
-Francia::
-Olanda::
-Italia::
-Spagna::
-Russia::
-Grecia::
-Svezia::
+Danimarca::4,0;3,0;2,0;1,0
+Repubblica Ceca::4,4;3,0;2,0;1,0
+Portogallo::4,4;3,4;2,4;1,0;
+Irlanda::4,0;3,0;2,0;1,0
+Inghilterra::4,4;3,2;2,0;1,0
+Croazia::4,0;3,0;2,0;1,0
+Germania::4,4;3,4;2,0;1,0
+Polonia::4,0;3,0;2,0;1,0
+Ucraina::4,0;3,0;2,0;1,0
+Francia::4,4;3,0;2,0;1,0
+Olanda::4,0;3,0;2,0;1,0
+Italia::4,4;3,2;2,8;1,0
+Spagna::4,4;3,4;2,4;1,16
+Russia::4,1;3,0;2,0;1,0
+Grecia::4,3;3,0;2,0;1,0
+Svezia::4,0;3,0;2,0;1,0

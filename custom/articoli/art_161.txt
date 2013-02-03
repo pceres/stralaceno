@@ -1,0 +1,11 @@
+Autore::
+Titolo::Foto Flash ARS
+--- Begin body ---
+<br>
+<div align="center">
+<img id="" src="%file_root%custom/album/FotoFlash/AlfDAuria.jpg" alt="" border="0" width="500">
+<br><br>
+13.01.2013 - Alfonsina D'Auria (maglietta gialla) prende parte alla categoria esordienti del Campionato Brianzolo di cross, tappa di Cant&ugrave;.
+<br>
+</div>
+--- End body ---

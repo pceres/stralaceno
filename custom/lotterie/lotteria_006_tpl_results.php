@@ -377,6 +377,7 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 			),
 		);
 
+	// simboli quando non si azzecca una risposta
 	$simbolo_not_ok	= Array(
 		4 => Array(
 			'4' 		=> Array('<b>O</b>'	,'','??'),
@@ -395,18 +396,18 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 			'default'	=> Array('.'		,'','')
 			),
 		2 => Array(
-			'4' 		=> Array('<b>Of</b>'	,'','??'),
-			'3' 		=> Array('Of'		,'','??'),
-			'2' 		=> Array('rf'		,'','Sconfitta ai rigori in semifinale (4 punti)'),
-			'1' 		=> Array('sf'		,'','Sconfitta ai supplementari in semifinale (2 punti)'),
+			'8' 		=> Array('<b>Of</b>'	,'','??'),
+			'6' 		=> Array('Of'		,'','??'),
+			'4' 		=> Array('rf'		,'','Sconfitta ai rigori in semifinale (4 punti)'),
+			'2' 		=> Array('sf'		,'','Sconfitta ai supplementari in semifinale (2 punti)'),
 			'0'		=> Array('<small>o</small>'		,'','Eliminazione con meno punti - Sconfitta diretta (0 punti)'),
 			'default'	=> Array('.'		,'','')
 			),
 		1 => Array(
-			'4' 		=> Array('<b>Oc</b>'	,'','??'),
-			'3' 		=> Array('Oc'		,'','??'),
-			'2' 		=> Array('rc'		,'','Sconfitta ai rigori in finale (8 punti)'),
-			'1' 		=> Array('sc'		,'','Sconfitta ai supplementari in finale (4 punti)'),
+			'16' 		=> Array('<b>Oc</b>'	,'','??'),
+			'12' 		=> Array('Oc'		,'','??'),
+			'8' 		=> Array('rc'		,'','Sconfitta ai rigori in finale (8 punti)'),
+			'4' 		=> Array('sc'		,'','Sconfitta ai supplementari in finale (4 punti)'),
 			'0'		=> Array('<small>o</small>'		,'','Eliminazione con meno punti - Sconfitta diretta (0 punti)'),
 			'default'	=> Array('.'		,'','')
 			),

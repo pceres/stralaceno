@@ -2,6 +2,7 @@
 0::Pasquale Ceres::07/07/2006 23.09.32::visible
 1::Pasquale Ceres::10/07/2006 21.56.34::visible
 2::Foxy::14/07/2006 10.07.19::visible
+3::ARS::23/04/2012 13.11.21::visible
 
 [post_text_0]
 &nbsp;
@@ -23,3 +24,6 @@ E mandateci qualche foto!
 [post_text_2]
 Anche in piazza Sanita', nel nostro piccolo, abbiamo festeggiato alla grande!
 
+[post_text_3]
+Si comunica che la giocata del sondaggio europei di calcio 2012 “Gaetano Hamsik ’75  Capussela” è stata annullata.
+Preghiamo il giocatore di rifare eventualmente la giocata inserendo le sue reali generalità. Grazie.

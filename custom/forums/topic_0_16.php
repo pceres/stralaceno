@@ -94,6 +94,15 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 80::NewsAmbiente::19/06/2010 15.23.43::visible
 81::AmbienteNews::02/07/2010 15.52.49::visible
 82::NewsAmbiente::28/08/2010 09.07.17::visible
+83::AmbienteNews::14/05/2011 20.34.54::visible
+84::NewsAmbiente::14/05/2011 20.39.26::visible
+85::AmbienteNews::18/05/2011 16.24.11::visible
+86::Irpinianews::24/05/2011 12.20.27::visible
+87::AmbienteNews::25/08/2011 17.59.29::visible
+88::NewsAmbiente::15/12/2011 20.17.38::visible
+89::AmbienteNews::01/05/2012 18.17.57::visible
+90::NewsAmbiente::05/06/2012 20.50.10::visible
+91::AmbienteNews::25/06/2012 18.16.49::visible
 
 [post_text_0]
 Qui proposte, osservazioni, critiche e tutto ciò che concerne l'ambiente e la natura dalle grosse tematiche di interesse mondiali ai piccoli accadimenti del paese.
@@ -1108,9 +1117,6 @@ L’Assessore Angelo Ceres dell’Amministrazione di Caposele sottolinea la rilevanz
 Inoltre l’istituzione delle aree protette (ci troviamo nel  Parco Regionale dei Monti Picentini) ha certamente contribuito in maniera rilevante alla tutela di questa specie. Nel Parco non si spara, la caccia è vietata, e questo consente ai lupi di vivere in tali zone senza necessità di fuga. La presenza delle aree protette consente anche di mantenere, in consistenza e dimensioni, l’ambiente adatto alla vita del lupo e della fauna selvatica, di cui questo animale è predatore. L’evento rarissimo che si è verificato a maggio indica, senza possibilità di dubbio, la presenza del lupo sulle montagne di Caposele e tale fatto denota che il territorio, grazie al forte impegno che stiamo dando, gode di un buono stato di salute e che la natura è tutelata!
 Questa escursione vuole essere un primo passo per far conoscere anche fuori dal territorio comunale le bellezze di Caposele e per promuovere il turismo naturalistico che, nel nostro Comune, ha grosse potenzialità di sviluppo”
 &nbsp;
- buono stato di salute e che la natura è tutelata!
-Questa escursione vuole essere un primo passo per far conoscere anche fuori dal territorio comunale le bellezze di Caposele e per promuovere il turismo naturalistico che, nel nostro Comune, ha grosse potenzialità di sviluppo”
-&nbsp;
 
 [post_text_83]
 La proposta avanzata dal presidente del Consiglio di presentare un provvedimento per la sospensione fino alla fine dell’anno delle demolizioni in Campania non è nuova. L’attuale Governo aveva già presentato nel 2010 il decreto legge n. 62 per la “Temporanea sospensione di talune demolizioni disposte dall’autorità giudiziaria in Campania” poi non convertito in legge dalla stessa maggioranza. Analoghe proposte sono state successivamente avanzate da parlamentari campani mediante emendamenti al cosiddetto Milleproroghe sia del 2010 che del 2011. Emendamenti dichiarati inammissibili dalle competenti commissioni parlamentari.
@@ -1160,3 +1166,25 @@ Oggi il nostro territorio trova maggiore protezione e ciò permette alla fauna se
 [post_text_88]
 Operazione antibracconaggio in località Cirasulo denunciata una persona.
 &nbsp;
+
+[post_text_89]
+Ancora una operazione antibracconaggio compiuta sul territorio comunale in località
+Castagneta. Dopo mesi di appostamenti si è riuscito a "stanare" uno storico bracconiere!
+
+[post_text_90]
+&nbsp;
+Trovato morto un esemplare di lupo nel Parco Nazionale D'Abruzzo
+&nbsp;
+Uno splendido esemplare di lupo è stato trovato morto nella Val Canneto, nel territorio del comune di Settefrati, nel versante laziale del Parco. Si tratta di una femmina di 5 anni in lattazione: ciò vuol dire che aveva appena partorito quindi, ora ci sono cuccioli di lupo senza la protezione della madre.
+&nbsp;
+A trovare la carcassa sono state le guardie del Parco durante il quotidiano  giro di pattugliamento del territorio, che hanno provveduto a portare l’animale all’ambulatorio veterinario del Parco a Pescasseroli dove, come da prassi, sono stati effettuati i primi accertamenti.
+&nbsp;
+I veterinari hanno rilevato due fori penetranti dietro la spalla sinistra compatibili con proiettili di arma da fuoco. Si ipotizza quindi, come causa probabile di morte, un atto di brutale bracconaggio, in forte ripresa dopo le assurde discussioni in ambito nazionale, circa la riapertura della caccia al lupo.
+&nbsp;
+L’animale presenta anche una profonda ferita da trauma sulla testa di circa 3 cm. Che ha messo in evidenza la parte ossea  con la formazione di un vasto ematoma. Ciò fa supporre che possa essere stato colpito e finito con un oggetto molto pesante, con una ferocia inaudita. La carcassa della lupa è stata trasportata questa mattina, a Teramo, all’Istituto Zooprofillattico per l’esame necroscopico che consentirà di accertare in maniera sicura la causa di morte.
+&nbsp;
+
+[post_text_91]
+Con le delibere di preammissione a finanziamento dei progetti integrati rurali delle aree protette (Pirap) dei Parchi regionali dei Monti Lattari e dei Picentini si completa il quadro regionale della distribuzione dei fondi disponibili. La giunta regionale assegna 15,2 milioni di euro al Parco dei Monti Picentini.
+&nbsp;
+Il Comune di Caposele ha visto riconosciuto un progetto denominato sistemazione idraulico-forstale del demanio della montagna ed assegnato un finanziamento pari ad euro 693.000,00 Adesso bisognerà presentare la domande di pagamento insieme al progetto esecutivo.

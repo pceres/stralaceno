@@ -19,9 +19,10 @@
 3::FreeRunner::ASD Free Runner Eboli::http://www.maininformatica.it/::http://www.freerunner.it/themes/free2008/images/topmenu.png::Free Runner::
 4::Isaura::ASD Isaura Valle Irno::http://nuke.atleticaisaura.it/::http://ars.altervista.org/custom/album/varie/logo_ISAURA.gif::Isaura Valle Irno::
 5::ErcoSport::Erco Sport::http://www.ercosport.it/::http://ars.altervista.org/custom/album/varie/ercosport.gif::Erco::
-6::AtleticaAgropoli::ASD Atletica Agropoli::http://www.atletica-agropoli.net/::http://ars.altervista.org/custom/album/varie/ilceppo.jpg::Atletica Agropoli::
+6::AtleticaAgropoli::ASD Atletica Agropoli::http://www.atletica-agropoli.com/::http://ars.altervista.org/custom/album/varie/ilceppo.jpg::Atletica Agropoli::
 7::Tart::ASD Le Tartarughe::http://www.asdletartarughe.it::http://ars.altervista.org/custom/album/varie/leTartarughe.jpg::Le Tartarughe::
 8::Pozzuoli Marathon::ASD Pozzuoli Marathon Club::http://asdpozzuolimarathonclub.blogspot.com/::http://ars.altervista.org/custom/album/varie/pozzuoli.jpg::Pozzuoli Marathon::
+9::Podistica Solidariet&agrave;::Podistica Solidariet&agrave;::http://www.podisticasolidarieta.it/::http://ars.altervista.org/custom/album/varie/soli.jpg::Podistica Solidariet&agrave;::
 
 #
 # formato testo_footer:  testo
