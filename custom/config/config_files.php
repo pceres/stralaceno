@@ -24,11 +24,12 @@ albums.txt::%config_dir%::configurazione album::admin,soci_ars::::4d419c10c5adc7
 links.txt::%config_dir%::links::admin::::d36923926ed59333afab0bba1a4ad5e5::index.php::%config_dir%
 layout_left.txt::%config_dir%::disposizione colonna sin. homepage::admin::::d36923926ed59333afab0bba1a4ad5e5::index.php::%config_dir%
 layout_right.txt::%config_dir%::disposizione colonna dx. homepage::admin::::d36923926ed59333afab0bba1a4ad5e5::index.php::%config_dir%
-layout_left_FC_caposele.txt::%config_dir%::colonna sin. FC Caposele::admin::::d36923926ed59333afab0bba1a4ad5e5::index.php?page=FC_caposele::%config_dir%
+layout_left_FC_caposele.txt::%config_dir%::colonna sx. FC Caposele::admin::::d36923926ed59333afab0bba1a4ad5e5::index.php?page=FC_caposele::%config_dir%
 layout_right_FC_caposele.txt::%config_dir%::colonna dx. FC Caposele::admin::::d36923926ed59333afab0bba1a4ad5e5::index.php?page=FC_caposele::%config_dir%
 layout_right_studi_sport.txt::%config_dir%::colonna dx. Studi sport::admin::::d36923926ed59333afab0bba1a4ad5e5::index.php?page=studi_sport::%config_dir%
+layout_left_ambiente.txt::%config_dir%::colonna sx. ambiente::admin::::0cdaa4d3a5cfbe7cda4facf4d7501021::index.php?page=ambiente::%config_dir%
 layout_right_ambiente.txt::%config_dir%::colonna dx. ambiente::admin::::0cdaa4d3a5cfbe7cda4facf4d7501021::index.php?page=ambiente::%config_dir%
-layout_left_ciclismo.txt::%config_dir%::colonna sin. ciclismo::admin::::d36923926ed59333afab0bba1a4ad5e5::index.php?page=ciclismo::%config_dir%
+layout_left_ciclismo.txt::%config_dir%::colonna sx. ciclismo::admin::::d36923926ed59333afab0bba1a4ad5e5::index.php?page=ciclismo::%config_dir%
 
 # moduli
 lettere_sito_cfg.txt::%modules_dir%lettere_sito/::lettere al sito::admin::::d36923926ed59333afab0bba1a4ad5e5::custom/moduli/lettere_sito/lettere_sito.php::%modules_dir%
@@ -40,6 +41,7 @@ siti_amici_cfg.txt::%modules_dir%siti_amici/::siti Caposele sul Web::admin::::d3
 siti_amici_podismo_cfg.txt::%modules_dir%siti_amici/::Associazioni podistiche::admin::::d36923926ed59333afab0bba1a4ad5e5::custom/moduli/siti_amici/siti_amici.php?module_data=podismo::%modules_dir%
 archivio_cfg.txt::%modules_dir%archivio/::archivio album e articoli::admin::::d36923926ed59333afab0bba1a4ad5e5::custom/moduli/archivio/archivio.php::%modules_dir%
 archivio_FC_caposele_cfg.txt::%modules_dir%archivio/::archivio sezione FC Caposele::admin::::d36923926ed59333afab0bba1a4ad5e5::custom/moduli/archivio/archivio.php?page=FC_caposele&module_data=FC_caposele::%modules_dir%
+archivio_ambiente_cfg.txt::%modules_dir%archivio/::archivio sezione ambiente::admin::::0cdaa4d3a5cfbe7cda4facf4d7501021::custom/moduli/archivio/archivio.php?page=ambiente&module_data=ambiente::%modules_dir%
 classifica_campionato_cfg.txt::%modules_dir%classifica_campionato/::classifica e risultati ultima giornata::admin::::d36923926ed59333afab0bba1a4ad5e5::custom/moduli/classifica_campionato/classifica_campionato.php?page=FC_caposele::%modules_dir%
 
 # sondaggi/lotterie
