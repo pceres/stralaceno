@@ -53,7 +53,7 @@ file::file_domanda_associazione_minorenni_ars::Modulo Domanda di Associazione Mi
 file::file_domanda_assoc_praticante::Moduldo domanda Associato Praticante::Per richiedere l'iscrizione all'ARS come Associato Praticante::Modulo Domanda di Associazione Associato Praticante.pdf::::admin::10:17 08/05/2008::162
 
 [folder_Rendiconti]
-file::file_rendiconto_e_relazione_ARS_2005::Rendiconto e Relazione ARS anno 2005::Rendiconto economico finanziario relativo all'esercizio 2005, e breve relazione::Rendiconto e Relazione anno 2005 ARS.pdf::::admin::22:07 04/07/2007::375
+file::file_rendiconto_e_relazione_ARS_2005::Rendiconto e Relazione ARS anno 2005::Rendiconto economico finanziario relativo all'esercizio 2005, e breve relazione::Rendiconto e Relazione anno 2005 ARS.pdf::::admin::22:07 04/07/2007::376
 file::file_rendiconto_e_relazione_ARS_2006::Rendiconto e Relazione ARS anno 2006::Rendiconto economico finanziario relativo all'esercizio 2006, e breve relazione::Rendiconto e Relazione anno 2006 ARS.pdf::::admin::22:07 04/07/2007::595
 file::file_rendiconto_e_relazione_ARS_2007::Rendiconto e Relazione ARS anno 2007::Rendiconto economico finanziario relativo all'esercizio 2007, e breve relazione::Rendiconto e Relazione anno 2007 ARS.pdf::::admin::10:24 08/04/2008::671
 file::file_rendiconto_e_relazione_ARS_anno_2008::Rendiconto e Relazione ARS anno 2008::Rendiconto e Relazione ARS anno 2008 e breve relazione::Rendiconto e Relazione anno 2008 ARS.pdf::::admin::9:23 15/04/2009::267
