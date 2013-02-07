@@ -33,7 +33,8 @@
 //error_reporting(0); //!!!
 
 // Prefisso per gli input ottenuti mediante get, post, cookie
-import_request_variables("gpc","par__");
+// import_request_variables("gpc","par__"); // removed since PHP 5.4.0
+extract($_REQUEST, EXTR_PREFIX_ALL|EXTR_REFS, 'par_');
 
 ############################################################################################
 # COSTANTI GLOBALI

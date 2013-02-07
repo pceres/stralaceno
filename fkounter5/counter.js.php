@@ -30,7 +30,8 @@ require("cnf.inc.php");
 ############################################################################################
 
 //error_reporting(0); //!!!
-import_request_variables("gpc","par__");
+// import_request_variables("gpc","par__"); // removed since PHP 5.4.0
+extract($_REQUEST, EXTR_PREFIX_ALL|EXTR_REFS, 'par_');
 
 ############################################################################################
 # PARAMETRI IN INPUT
