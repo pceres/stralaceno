@@ -1,0 +1,75 @@
+#
+# ARS Amatori Running Sele
+#
+
+#
+# formato elenco_album:  tag_album::nome_album::descrizione
+#
+[elenco_album]
+FC_caposele::F.C. Caposele::L'album di famiglia della F.C. Caposele
+
+#
+# formato elenco_articoli:  id_articolo::sezione::titolo::autore
+#
+[elenco_articoli]
+7::ambiente::La 'Porta' del Parco dei Monti Picentini::Angelo Ceres
+59::FC_caposele::2008/09 FC Caposele-S.C.Lioni 0-0::Tommaso Cibellis
+58::FC_caposele::2008/09 FC Caposele-Bisaccese 4-1::Tommaso Cibellis
+57::FC_caposele::2008/09 FC Caposele-Teora 5-3::Gerardo Grasso
+56::FC_caposele::2008/09 Real Sturno-FC Caposele 1-0::Gerardo Grasso
+55::FC_caposele::Calendario e Risultati II Cat. Gir. I 2008/09::
+54::FC_caposele::Classifica II Cat. Gir. I 2008/09::
+52::FC_caposele::I giocatori - stagione 2008/09::
+51::FC_caposele::I dirigenti - stagione 2008/09::
+50::FC_caposele::Rendiconto 2007/08::
+49::FC_caposele::Classifica finale III Categoria 2007/08::Ale Russomanno
+29::FC_caposele::Marcatori FC Caposele stag. 07/08::Ale Russomanno
+48::FC_caposele::2007/08  La Longobarda - FC Caposele 4-1::Tommaso Cibellis
+47::FC_caposele::2007/08  FC Caposele - Carife 4-2::Tommaso Cibellis
+42::FC_caposele::2007/08  FC Caposele - Castel Baronia 4-3::Tommaso Cibellis
+46::FC_caposele::2007/08  Casabianchi Trevico - FC Caposele 1-3::Tommaso Cibellis
+45::FC_caposele::2007/08  FC Caposele - Vallatese 2-1::Gerardo Grasso
+44::FC_caposele::2007/08  Virtus Conza - FC Caposele 2-1::Gerardo Grasso
+43::FC_caposele::2007/08  Vallesaccarda - FC Caposele 0-0::Gerardo Grasso
+41::FC_caposele::2007/08  SC Nusco - FC Caposele 1-2::Gerardo Grasso
+40::FC_caposele::2007/08  FC Caposele - Lupi Trevico 9-2::Gerardo Grasso
+39::FC_caposele::2007/08  Real S.Andrea di Conza - FC Caposele 1-0::Gerardo Grasso
+38::FC_caposele::2007/08  FC Caposele - Sporting Ever Green 3-0::Gerardo Grasso
+37::FC_caposele::2007/08  Morra De Sanctis - FC Caposele 1-3::Gerardo Grasso
+36::FC_caposele::2007/08  FC Caposele - San Sossio 1-1::Gerardo Grasso
+35::FC_caposele::2007/08  FC Caposele - La Longobarda 4-1::Gerardo Grasso
+34::FC_caposele::2007/08  Carife - FC Caposele 0-2::Gerardo Grasso
+33::FC_caposele::2007/08  FC Caposele - Casabianchi Trevico 6-0::Gerardo Grasso
+32::FC_caposele::2007/08  Vallatese - FC Caposele 1-1::Gerardo Grasso
+30::FC_caposele::Logo F.C. Caposele::
+31::FC_caposele::2007/08  FC Caposele - Virtus Conza 3-2::Gerardo Grasso
+28::FC_caposele::2007/08  FC Caposele - Vallesaccarda 6-0::Gerardo Grasso
+27::FC_caposele::2007/08  Castel Baronia - FC Caposele 1-3::
+26::FC_caposele::2007/08  FC Caposele - SC Nusco 5-1::Tommaso Cibellis
+25::FC_caposele::2007/08  Lupi Trevico - FC Caposele 1-3::Tommaso Cibellis
+24::FC_caposele::2007/08  FC Caposele - Real S.Andrea di Conza 6-0::Tommaso Cibellis
+23::FC_caposele::2007/08  Sporting E. Green - FC Caposele 0-2::Tommaso Cibellis
+21::FC_caposele::2007/08  FC Caposele - Morra De Sanctis 2-0::Tommaso Cibellis
+20::FC_caposele::2007/08  San Sossio - FC Caposele 0-3::Tommaso Cibellis
+22::FC_caposele::Rendiconto 2006/07::
+3::FC_caposele::I dirigenti - stagione 2006/07::
+16::FC_caposele::Classifica finale III categoria 2006/07::
+2::FC_caposele::La squadra 2006/07::
+11::FC_caposele::La rosa degli Allievi 2006/07::
+12::FC_caposele::Campionato Provinciale Allievi 2006/07::
+15::FC_caposele::24a,25a e 26a Gior.: sintesi::
+14::FC_caposele::20a,21a,22a e 23a Gior.: sintesi::
+13::FC_caposele::Real S.Andrea di Conza - F.C. Caposele 1-1::Massimo Cetrulo
+9::FC_caposele::Aquilonia - F.C. Caposele 2-1::
+10::FC_caposele::F.C. Caposele - Trevico 10-2::Massimo Cetrulo
+8::FC_caposele::Casabianchi Trevico - F.C. Caposele 1-6::Massimo Cetrulo
+7::FC_caposele::F.C. Caposele - Vallesaccarda 5-0::Massimo Cetrulo
+6::FC_caposele::Virtus Conza - F.C. Caposele 0-4::Massimo Cetrulo
+5::FC_caposele::F.C. Caposele - Morra De Sanctis 4-0::Massimo Cetrulo
+
+#
+# formato elenco_pagine:  tag_pagina::titolo_pagina::titolo::autore
+#
+[elenco_pagine]
+#%script_root%questions.php?id_questions=1::Sondaggio Mondiali 2006
+#%script_root%statistiche.php?action=show&id_questions=1::Statistiche Sondaggio Mondiali 2006

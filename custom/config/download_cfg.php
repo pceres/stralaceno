@@ -94,7 +94,7 @@ file::file_paestum_09::V Sulle Orme di Filippide::Classifica V Sulle Orme di Fil
 file::file_san_giorgio_09::Scalata al Castello 24.05.2009::Scalata al Castello, Castel San Giorgio - Classifica a squadre - ::Scalata al Castello - Società 23.05.2009.pdf::::admin::21:36 24/05/2009::197
 file::file_corri_laceno_09::Corri sull'Altopiano del Laceno 05.07.2009::Classifica Corri sull'Altopiano del Laceno 2009::Classifica_Corri_Laceno_09.pdf::::admin::13:16 07/07/2009::187
 file::file_night_marathon_09::1° Night Marathon S.Maria di Castellabbate 18.07.2009::Classifica 1° Night Marathon S.Maria di Castellabbate 2009::night_marathon_2009.pdf::::admin::9:17 21/07/2009::185
-file::file_strasalerno_09::Strasalerno Half Marathon 18.10.2009::Classifica Strasalerno Half Marathon 18.10.2009::Strasalerno09.pdf::::admin::16:26 21/10/2009::262
+file::file_strasalerno_09::Strasalerno Half Marathon 18.10.2009::Classifica Strasalerno Half Marathon 18.10.2009::Strasalerno09.pdf::::admin::16:26 21/10/2009::263
 file::file_sicignano_09::III Memorial B.Germano 08.11.2009::Classifica III Memorial B.Germano 08.11.2009::Sicignano_09.pdf::::admin::10:27 09/11/2009::152
 file::file_Paestum10::VI Sulle Orme di Filippide::Classifica VI Sulle Orme di Filippide::Paestum10.pdf::::admin::9:48 11/05/2010::125
 file::file_Sicignano2011::V Memorial B.Germano 06.11.2011::Classifica V Memorial B.Germano 06.11.2011::Sicignano2011.pdf::::admin::11:18 07/11/2011::55
