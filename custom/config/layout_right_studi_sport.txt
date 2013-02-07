@@ -68,7 +68,7 @@ Login::guests
 sezione_homepage::Homepage::external_link::index.php?page=homepage::
 #sezione_FC_caposele::F.C. Caposele::external_link::index.php?page=FC_caposele::
 #sezione_ciclismo::Ciclismo::external_link::index.php?page=ciclismo::
-sezione_ambiente::<b>Ambiente e natura</b>::external_link::index.php?page=ambiente::
+sezione_ambiente::<b>Escursionismo</b>::external_link::index.php?page=ambiente::
 link_genealogia::Genealogia caposelese::external_link::PhpGedView/index.php::::
 
 [Approfondimenti]

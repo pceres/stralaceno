@@ -103,6 +103,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 89::AmbienteNews::01/05/2012 18.17.57::visible
 90::NewsAmbiente::05/06/2012 20.50.10::visible
 91::AmbienteNews::25/06/2012 18.16.49::visible
+92::ARS::05/02/2013 10.43.56::visible
 
 [post_text_0]
 Qui proposte, osservazioni, critiche e tutto ciò che concerne l'ambiente e la natura dalle grosse tematiche di interesse mondiali ai piccoli accadimenti del paese.
@@ -1188,3 +1189,10 @@ L’animale presenta anche una profonda ferita da trauma sulla testa di circa 3 cm
 Con le delibere di preammissione a finanziamento dei progetti integrati rurali delle aree protette (Pirap) dei Parchi regionali dei Monti Lattari e dei Picentini si completa il quadro regionale della distribuzione dei fondi disponibili. La giunta regionale assegna 15,2 milioni di euro al Parco dei Monti Picentini.
 &nbsp;
 Il Comune di Caposele ha visto riconosciuto un progetto denominato sistemazione idraulico-forstale del demanio della montagna ed assegnato un finanziamento pari ad euro 693.000,00 Adesso bisognerà presentare la domande di pagamento insieme al progetto esecutivo.
+
+[post_text_92]
+E' attiva la sezione ESCURSIONISMO.
+&nbsp;
+Chiunque voglia inviarci delle foto di interesse naturalistico e paesaggistico delle nostre zone per la pubblicazione sul sito stesso, lo può fare inviandole al nostro indirizzo: arsamatorirunningsele@yahoo.it
+&nbsp;
+Grazie

@@ -30,7 +30,7 @@ Formato [elenco_topics]:
 13::Per nazòn::hidden::::::antonio::4::3
 14::F.C. Caposele::open::::::Ars::49::48
 15::Elezioni comunali a Caposele::open::::::Cleon.ren::138::137
-16::Sezione Ambiente e Natura::open::::::Ambiente::91::91
+16::Sezione Ambiente e Natura::open::::::Ambiente::92::92
 17::Per l'inviato::hidden::::::christian meyer::6::5
 18::Il 3 novembre si disputerà la Quasinove: gara podistica organizzata da Nicola Melillo::hidden::::::Jerry Notaro::2::1
 19::Genealogia caposelese::open::::::Pasquale C.::10::9
