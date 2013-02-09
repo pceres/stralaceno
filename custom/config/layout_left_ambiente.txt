@@ -66,19 +66,18 @@ Links::
 [Articoli]
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Articoli] non prevede sottoelementi
 
-[Il progetto]
-organizzatori::Atto Costitutivo-Statuto ARS::modulo_custom::::
+#[Il progetto]
+#organizzatori::Atto Costitutivo-Statuto ARS::modulo_custom::::
 # :: ::separatore::::
-presentazione::La Stralaceno::modulo_custom::::
+#presentazione::La Stralaceno::modulo_custom::::
 #lettere_sito::Le vostre lettere::modulo_custom::::
 
-[Last_contents]
-4
+#[Last_contents]
+#4
 # qualsiasi voce aggiunga qui e' inutile: il blocco [Last_contents] non prevede sottoelementi
 
-[Mondo podismo]
-siti_amici::Siti podistici::external_link::custom/moduli/siti_amici/siti_amici.php?module_data=podismo::::
+#[Mondo podismo]
+#siti_amici::Siti podistici::external_link::custom/moduli/siti_amici/siti_amici.php?module_data=podismo::::
 
-[Links]
-# qualsiasi voce aggiunga qui e' inutile: il blocco [Links] non prevede sottoelementi
-StralacenoWeb::<b>StralacenoWeb sezione ambiente</b>::external_link::http://pceres.altervista.org/stralaceno/index.php::
+[Link_esterni]
+stralaceno::esempio link: Sito stralaceno::external_link::http://pceres.altervista.org/stralaceno/index.php::::
