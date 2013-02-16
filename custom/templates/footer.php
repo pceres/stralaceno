@@ -9,9 +9,15 @@ inizio footer
 		<tr>
 		  <td align="right"><small>Per contattarci</small></td>
 		  <td><small>:</small></td>
-		  <td align="left" style="font-style: italic;"><small><a
-			 href="mailto:<?php echo $email_info ?>?subject=Contattaci"
-			 title="Contattaci"><?php echo $email_info ?></a> </small></td>
+		  <td align="left" style="font-style: italic;">
+			 <small>
+			    <a href="mailto:arsamatorirunningsele@yahoo.it?subject=Contattaci"
+			    title="Contattaci">arsamatorirunningsele@yahoo.it</a>
+			    ,
+			    <a href="mailto:<?php echo $email_info ?>?subject=Contattaci"
+			    title="Contattaci"><?php echo $email_info ?></a>
+			 </small>
+		  </td>
 		</tr>
 		
 		<tr>
@@ -23,6 +29,19 @@ inizio footer
 		  </small></td>
 		</tr>
 		
+		<tr>
+		  <td align="right"><small>Amministratori</small></td>
+		  <td><small>:</small></td>
+		  <td align="left" style="font-style: italic;"><small><a
+			 href="mailto:alexruss75@yahoo.it?subject=Lettera%20agli%20amministratori del sito" 
+			 title="Amministratore">Alessandro Russomanno</a>
+		    ,
+		    <a
+			 href="mailto:pasquale_c@hotmail.com?subject=Lettera%20agli%20amministratori del sito" 
+			 title="Amministratore">Pasquale Ceres</a>
+		  </small></td>
+		</tr>
+
 		<!--<tr>
 		  <td align="right"><small>Supporto grafico</small></td>
 		  <td><small>:</small></td>
