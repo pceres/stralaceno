@@ -1,0 +1,6 @@
+#!/bin/bash
+ 
+# prepare file permissions for files that must be written by the apache user
+
+chmod a+w ../custom/contatori/data/data_stralaceno.php
+chmod a+w ../custom/config/challenge.php

@@ -1,4 +1,4 @@
 #!/bin/bash
-cartella=..
+cartella=/var/www/htdocs/work/stralaceno.git/
 find $cartella -name '*.php' | xargs sed -e '/^[ \t]*$/ d' -e '/^[ /t]*\(#\|\/\/\).*$/ d' | wc -l
 
