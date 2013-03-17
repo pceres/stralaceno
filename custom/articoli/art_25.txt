@@ -1,0 +1,19 @@
+Autore::
+Titolo::XXIV edizione
+--- Begin body ---
+<br>La XXIV edizione della Stralaceno &egrave; stata vinta, dopo un avvincente testa a testa, da 
+DANIELE CAPRIO con il tempo di 19'45'', che ha preceduto di soli 4'' GIUSEPPE CETRULO. Terzo classificato, il detentore
+del record della manifestazione, GELSOMINO MEROLA con il tempo di 20'26''.<br><br>
+Prima della donne ANNARITA D'ELIA con 27'17'', nuovo record femminile.<br><br>
+La gara &egrave; stata condizionata da un forte vento, che si &egrave; manifestato, in senso contrario,
+ in particolar modo, nel tratto dal km 1,5 al km 3.<br><br>
+70 sono stati i partecipanti.
+<br>
+<br><a href="filtro4.php?anno=2012">La classifica ufficiale della Stralaceno 2012 &egrave; consultabile qui</a>.<br><br>
+ <div align="center">
+<iframe width="550" height="315" 
+src="http://www.youtube.com/embed/9QBZIL0jZWg" frameborder="0" 
+allowfullscreen></iframe><br><br>
+<img id="foto" src="%file_root%custom/album/2012/all.jpg" alt="" border="0" width="550">
+</div>
+--- End body ---

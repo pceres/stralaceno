@@ -6,14 +6,12 @@ Titolo::XXIII edizione
 Il caldo particolarmente opprimente e il vento contrario in alcuni punti del tracciato hanno in parte condizionato la performance dei corridori.
 <br><br>
 Ritorna alla vittoria GELSOMINO MEROLA che ha percorso l’anello di Laceno in 20’29’’. Al secondo posto GIUSEPPE CETRULO con 20’51’’. Terzo posto per il giovane ROCCO MONTEVERDE in 21’00’’.<br>
-La gara femminile ha visto l’affermazione dell’esordiente LIA CERES con il tempo di 29’17’’. <br><br>
-Si avvisa che a seguito del normale ricontrollo dei tempi rilevati sui cronometri ufficiali, si &egrave; proceduto ad arrotondamento di alcuni di essi.<br>
+La gara femminile ha visto l’affermazione dell’esordiente LIA CERES con il tempo di 29’17’’. <br>
 <br><a href="filtro4.php?anno=2011">La classifica ufficiale della Stralaceno 2011 &egrave; consultabile qui</a>.<br><br>
-Per osservazioni, commenti, critiche, invio foto, scrivete a <b>stralaceno@freepass.it</b><br><br>
-<font color="red"> Inserite le prime foto commentate il 9 settembre che trovate <a href="album.php?anno=2011">QUI</a></font>
-<br><br>
+ <a href="album.php?anno=2011">QUI</a> le Foto commemorative ufficiali della XXIII Stralaceno  <br>
+<br>
 <div align="center">
-<img id="foto" src="%file_root%custom/album/2011/XXIII_G.jpg" alt="" border="0" width="500">
+<img id="foto" src="%file_root%custom/album/2011/XXIII_S.jpg" alt="" border="0" width="380">
 </div>
 <br>
 --- End body ---

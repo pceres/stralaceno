@@ -8,7 +8,7 @@
 
 http://ars.altervista.org/::<b>ARS Web</b>
 http://www.lagolaceno.it/::Lago Laceno
-http://www.siamonoi.it::Siamonoi.it
+#http://www.siamonoi.it::Siamonoi.it
 http://www.caposeleonline.it::Caposeleonline
 #http://www.skilaceno.com/::Sciare a Laceno
 http://selacapo.net::SelaCapo
@@ -16,6 +16,6 @@ http://selacapo.net::SelaCapo
 #http://www.prolococaposele.it::Pro Loco Caposele
 http://www.podisti.net::Podisti.net
 http://www.podistidoc.it::Podistidoc.it
-http://www.servizinews.it/servizi/podismo/podismo00.htm::Calendario podistico
+http://www.calendariopodismo.it/::Calendario podistico
 #http://web.tiscali.it/nusco58enrico/riquadro2.html::La 10 km di Nusco
 http://pceres.altervista.org/nusco/index.php::La 10 km di Nusco
