@@ -1,0 +1,121 @@
+Autore::
+Titolo::Sentiero Madonna del Fiume
+--- Begin body ---
+<br>
+<div align="center">
+<br>Passeggiata del 3 marzo 2013<br>
+<br>
+Sentiero Madonna del Fiume (Calabritto)
+<br><br><br>
+<img id="fiu1" src="%file_root%custom/album/ambiente/fiu1.JPG" alt="" border="0" width="550">
+<br> <br>
+Inizio sentiero
+<br>
+<br>
+<br>
+<div align="center">
+<img id="fiu2" src="%file_root%custom/album/ambiente/fiu2.JPG" alt="" border="0" width="550">
+<br> <br>
+Ruscello proveniente da Ponticchio
+<br>
+<br>
+<br>
+<div align="center">
+<img id="fiu3" src="%file_root%custom/album/ambiente/fiu3.JPG" alt="" border="0" width="550">
+<br> <br>
+Rudere lungo il sentiero; sullo sfondo monte Pollaro
+<br>
+<br>
+<br>
+<div align="center">
+<img id="fiu4" src="%file_root%custom/album/ambiente/fiu4.JPG" alt="" border="0" width="550">
+<br> <br>
+Vegetazione lungo il sentiero
+<br>
+<br>
+<br>
+<div align="center">
+<img id="fiu5" src="%file_root%custom/album/ambiente/fiu5.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone del Lupolo - "Bard'latore"
+<br>
+<br>
+<br>
+<div align="center">
+<img id="fiu6" src="%file_root%custom/album/ambiente/fiu6.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone del Lupolo - "Bard'latore"
+<br>
+<br>
+<br>
+<div align="center">
+<img id="fiu7" src="%file_root%custom/album/ambiente/fiu7.JPG" alt="" border="0" width="550">
+<br> <br>
+Forra di Calabritto
+<br>
+<br>
+<br>
+<div align="center">
+<img id="fiu8" src="%file_root%custom/album/ambiente/fiu8.JPG" alt="" border="0" width="550">
+<br> <br>
+Fontana dei Palummi
+<br>
+<br>
+<br>
+<div align="center">
+<img id="fiu9" src="%file_root%custom/album/ambiente/fiu9.JPG" alt="" border="0" width="550">
+<br> <br>
+Cappella Madonna del Fiume
+<br>
+<br>
+<br>
+<div align="center">
+<img id="fiu10" src="%file_root%custom/album/ambiente/fiu10.JPG" alt="" border="0" width="550">
+<br> <br>
+Cappella Madonna del Fiume - interno
+<br>
+<br>
+<br>
+<div align="center">
+<img id="fiu11" src="%file_root%custom/album/ambiente/fiu11.JPG" alt="" border="0" width="550">
+<br> <br>
+Cappella Madonna del Fiume
+<br>
+<br>
+<br>
+<div align="center">
+<img id="fiu12" src="%file_root%custom/album/ambiente/fiu12.JPG" alt="" border="0" width="550">
+<br> <br>
+Madonna del Fiume - "li cuncuni"
+<br>
+<br>
+<br>
+<div align="center">
+<img id="fiu13" src="%file_root%custom/album/ambiente/fiu13.JPG" alt="" border="0" width="550">
+<br> <br>
+Madonna del Fiume - "li cuncuni"
+<br>
+<br>
+<br>
+<div align="center">
+<img id="fiu14" src="%file_root%custom/album/ambiente/fiu14.JPG" alt="" border="0" width="550">
+<br> <br>
+Ruscello proveniente da Ponticchio a valle del sentiero
+<br>
+<br>
+<br>
+<div align="center">
+<img id="fiu15" src="%file_root%custom/album/ambiente/fiu15.JPG" alt="" border="0" width="550">
+<br> <br>
+Rudere a valle del sentiero
+<br>
+<br>
+<br>
+<div align="center">
+<img id="fiu16" src="%file_root%custom/album/ambiente/fiu16.JPG" alt="" border="0" width="550">
+<br> <br>
+Fontana di "lavaculo" lungo la strada che porta all'attacco del sentiero
+<br>
+<br>
+<br>
+--- End body ---

@@ -1,0 +1,93 @@
+Autore::
+Titolo::Per le grotte di Caposele
+--- Begin body ---
+<br>
+<div align="center">
+<br>Passeggiata del 10 marzo 2013<br>
+<br>
+Per le grotte di Caposele
+<br><br><br>
+<img id="g1" src="%file_root%custom/album/ambiente/grc1.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta Pietra dell'Orco
+<br>
+<br>
+<br>
+<div align="center">
+<img id="g2" src="%file_root%custom/album/ambiente/grc2.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta Pietra dell'Orco - interno
+<br>
+<br>
+<br>
+<div align="center">
+<img id="g3" src="%file_root%custom/album/ambiente/grc3.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta Pietra dell'Orco - interno
+<br>
+<br>
+<br>
+<div align="center">
+<img id="g4" src="%file_root%custom/album/ambiente/grc4.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta Piedigrotta 
+<br>
+<br>
+<br>
+<div align="center">
+<img id="g5" src="%file_root%custom/album/ambiente/grc5.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta Piedigrotta - interno
+<br>
+<br>
+<br>
+<div align="center">
+<img id="g6" src="%file_root%custom/album/ambiente/grc6.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta Piedigrotta - vista dall'interno verso i Piani di Caposele
+<br>
+<br>
+<br>
+<div align="center">
+<img id="g7" src="%file_root%custom/album/ambiente/grc7.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta Buco del Diavolo
+<br>
+<br>
+<br>
+<div align="center">
+<img id="g8" src="%file_root%custom/album/ambiente/grc8.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta Buco del Diavolo - interno
+<br>
+<br>
+<br>
+<div align="center">
+<img id="g9" src="%file_root%custom/album/ambiente/grc9.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta Buco del Diavolo - interno
+<br>
+<br>
+<br>
+<div align="center">
+<img id="g10" src="%file_root%custom/album/ambiente/grc10.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta Antro della Cupa 
+<br>
+<br>
+<br>
+<div align="center">
+<img id="g11" src="%file_root%custom/album/ambiente/grc11.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta Antro della Cupa - interno
+<br>
+<br>
+<br>
+<div align="center">
+<img id="g12" src="%file_root%custom/album/ambiente/grc12.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta Antro della Cupa - Buco del Tasso
+<br>
+<br>
+<br>
+--- End body ---

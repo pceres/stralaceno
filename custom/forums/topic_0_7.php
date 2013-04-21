@@ -910,3 +910,19 @@ i primi 5 per me sono:giuseppe cetrulo,daniele caprio,gelsomino merola,donato ce
 
 [post_text_153]
 domani il grande giorno....oggi tutti a dieta eh? ahahahahha...domani a pranzo vi suggerisco cannelloni oppure lasagne, in base ai gusti personali, come secondo ,invece, patate al forno e salsicce, frutta per tenersi leggeri e poi una bella fetta di torta panna e cioccolato, vabbè...anche due...ah già...c'è anche chi può optare per una bella fagiolata in modo tale da abbattere tutti i contendenti col gas asfissiante prima della partenza ovviamente, oppure ancora si possono intossicare gli avversari offrendo loro bevande opportunamente sofisticate...per chi invece volesse seguire le orme di scwhatzer consiglio di procurarsi la 'bomba', ci sarà sicuramente qualche venditore abusivo napoletano che ve la proporrà...
+rarsi la 'bomba', ci sarà sicuramente qualche venditore abusivo napoletano che ve la proporrà...
+
+[post_text_154]
+come mai cari amici dell'ars non andate piu' a fare gare come circa 4-5 anni fa??????????come mai non puntate piu' su giovani che vogliono immergersi in questo sport ma puntando facilmente su pedine gia' di lusso...!!!come mai si va a fare la maratona a roma per protagonismo mentre il collettivo ars non riesce ad entrare come squadra nemmeno nei primi dieci...lo trovo a dir poco squallido! l'ars come il gioco del calcio a caposele e' finito..
+
+[post_text_155]
+Mio caro “Amico” cap.finish mi fa piacere che sollevi alcuni problemi che purtroppo l’associazione ARS sta attraversando in questi anni. Purtroppo non andiamo a fare più gare come 4-5 anni fa per svariati motivi ;
+tipo, qualche socio si è traferito da Caposele per motivi di studio/lavoro, qualche socio  non corre più per problemi fisici, qualche socio si è "dissociato" e  preferisce fare altro…(la nostra associazione non obbliga nessuno a correre se non si ama correre) Poi alcune gare storiche che l’ARS partecipava assiduamente(vedi Paestum,ecc…)sono state cancellate dal calendario podistico regionale per la crisi che incombe anche nel mondo del runner.
+La nostra Associazione è sempre aperta alle nuove leve di qualsiasi età ,infatti nell’ultimo anno abbiamo avuto 5 nuovi
+Associati(volontari), di cui Due e vero” sono pedine di lusso “; secondo me dopo Gelsomino Merola i due corridori più forti di Caposele di tutti i tempi (per il momento, perché ne stiamo aspettando altri…);Ma degli altri tre non se ne parla vero? forse proprio perché non sono cosi’ forti?
+E’ squallido, e proprio maledettamente squallido scrivere che si va a fare le maratone per protagonismo,
+forse non riesci nemmeno ad immaginare cosa vuol dire fare una maratona, non riesci nemmeno ad immaginare quanti sacrifici e privazioni per preparala(non parlo di un paio di mesi ma quasi un anno, se non di più)
+E’ davvero squallido scrivere queste porcate, è davvero squallido scrivere queste porcate e firmarsi cap.finisch (cioè anonimo)è davvero squallido che c’è in giro tanta gente che conosce e gli piace solo il “BAR SPORT” disciplina più praticata nostro Amato Paese…
+&nbsp;
+Colgo l’occasione per invitare tutti coloro che hanno un pò di tempo e voglia a partecipare alle attività dell’ARS sia a livello podistico che organizzativo (No perditempo…vedi ” cap.finish”)
+&nbsp;

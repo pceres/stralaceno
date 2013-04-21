@@ -1,0 +1,55 @@
+Autore::
+Titolo::II Trail del monte Taccaro
+--- Begin body ---
+<FONT size="3">
+<FONT color="#FF0000">
+<br>
+<b>DANIELE CAPRIO vince la seconda edizione del Trail del Monte Taccaro ad Angri (Sa)</b>.
+<br>
+</font>
+</font>
+<br>
+<div align="center">
+<img id="caprio" src="%file_root%custom/album/varie/tac1.jpg" alt="Daniele Caprio" border="0" width="520">
+<br><br><br>
+<iframe width="550" height="315" src="http://www.youtube.com/embed/_ZYbDPoB578" frameborder="0" allowfullscreen></iframe></div>
+<br><br>
+Secondo Trail del Monte Taccaro ad Angri, lunedì 1 aprile 2013: una splendida giornata di sport e di amicizia! Una mattinata bella e ricca di emozioni quella vissuta da tanti amici nel giorno della Pasquetta, sano agonismo tra  bellezze paesaggistiche degne di essere conosciute. 
+<br>
+Dopo una vigilia meteorologicamente incerta che aveva visto giorni di pioggia, il sole e la giusta temperatura hanno baciato i circa 130 partecipanti, accolti in modo  eccezionale presso il ristorante Elisa Mascolo.
+<br>
+Alla partenza avvenuta intorno alle 9.50 si sono presentati  atleti da ogni parte d'Italia, oltre ai numerosi campani non sono mancati arrivi da Puglia, Lazio e Trentino con inattese partecipazioni anche di atleti stranieri provenienti da Olanda, Svizzera e America, uomini e donne  hanno percorso  un tracciato duro e faticoso di 12,2 km.
+<br>
+Il primo ad arrivare al traguardo, con un sostanzioso vantaggio, &egrave; stato il giovanissimo Daniele Caprio, seguito da Giuseppe Angelillo e Gaetano Dentato.
+<br>
+La gara femminile ha visto trionfare Teresa Garano, secondo posto per l'americana Ashley Cooks, terza Rosaria Ruggiero.
+<br>
+<br>
+<div align="center">
+<img id="caprio" src="%file_root%custom/album/varie/tac2.jpg" alt="Daniele Caprio" border="0" width="520">
+</div><br>
+ <br>
+La classifica la trovate <a href="download.php?resource_type=file&amp;resource_id=file_taccaro2013">qui</a>.
+<br>
+<br>
+<a href="http://www.podistidoc.it/angri-trail-del-monte-taccaro-gara-dura-ma-bella-festa-deliziosa/">Vai all'articolo sulla gara sul sito Podistidoc.it</a>
+<br>
+<br>
+<a href="http://www.cronachesalerno.it/press/caprio_s_impone_sulla_salita_del_monte_taccaro_2643">Vai all'articolo sulla gara sul sito CronacheSalerno.it</a><br><br>
+<div align="center">
+<img id="caprio" src="%file_root%custom/album/varie/tac3.jpg" alt="Daniele Caprio" border="0" width="520">
+</div><br><br>
+<!--
+<br>
+Luned&igrave; 1° Aprile 2013, con partenza alle ore 9.45 dalla Pizzeria Elisa Mascolo, in via Monte Taccaro ad Angri, si terr&agrave; la seconda edizione del Trail, una variante delle tipiche corse su strada e su pista. Il Trail si svolge in genere su percorsi normalmente destinatati all’escursionismo, in particolare in montagna. 
+<br>
+E proprio dalla pizzeria Mascolo inizier&agrave; la gara che porta al Monte Taccaro, con un percorso tracciato dagli organizzatori dell’associazione sportiva Angri Runner Club, che abbraccia una vastissima zona dei Monti Lattari e raggiunge i 1400 metri dal livello del mare.
+<br><br>
+La gara prevede la corsa lungo i sentieri montani che, da Angri, arrivano sino alla cima detta comunemente Carusone, per poi dirigersi verso Orsano di Lettere e scendere nuovamente verso Angri. Un duro percorso, sicuramente poco agevole, lungo 11 km, che mette a dura prova i quadricipiti e le ginocchia dei coraggiosi partecipanti.
+<br>
+La manifestazione &egrave; patrocinata da Comune di Angri, Confesercenti, UISP e dall’associazione onlus di Angri “Il Chianiello”. La gara &egrave; riservata agli atleti tesserati FIDAL e a tutti i tesserati presso enti di promozione sportiva, in regola con le norme in materia di tutela sanitaria per l’anno 2013 . 
+<br>
+<br>
+<b>Per l’ARS parteciper&agrave; DANIELE CAPRIO, reduce dal secondo posto ottenuto nel trail di Vietri sul Mare dello scorso gennaio.</b>
+-->
+--- End body ---

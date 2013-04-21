@@ -6,7 +6,8 @@
 # formato elenco_album:  tag_album::nome_album::descrizione
 #
 [elenco_album]
-FotoFlash::Foto notizie ARS::
+Parigi_13::Maratona di parigi 2013::Foto
+FotoFlash::Foto flash notizie ARS::Foto
 Vietri_13::Vietri e dintorni trail 2013::Foto
 Sofia_12::Breve racconto della mia prima gara in terra balcanica::Foto
 Polveracchio::Escursione sul monte Polveracchio::Foto
@@ -55,6 +56,9 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
+165::homepage::Maratona di Parigi 2013::
+164::homepage::II Trail del monte Taccaro::
+163::homepage::XXXIX Roma - Ostia::
 162::homepage::Maratona e Mezza Maratona di Napoli 2013::
 161::homepage::Foto Flash ARS::
 160::homepage::Pagelle::

@@ -1,0 +1,91 @@
+Autore::
+Titolo::Vallone delle Brecce e Monte Oppido
+--- Begin body ---
+<br>
+<div align="center">
+<br>Passeggiata del 7 aprile 2013<br>
+<br>
+Preta - Vallone delle Brecce - Monte Oppido - Preta (Lioni, Caposele)
+<br><br><br>
+<img id="opp1" src="%file_root%custom/album/ambiente/opp1.JPG" alt="" border="0" width="550">
+<br> <br>
+Preta - fontana masseria Nesta
+<br>
+<br>
+<br>
+<img id="opp2" src="%file_root%custom/album/ambiente/opp2.JPG" alt="" border="0" width="550">
+<br> <br>
+Sentiero Vallone delle Brecce
+<br>
+<br>
+<br>
+<img id="opp3" src="%file_root%custom/album/ambiente/opp3.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone delle Brecce
+<br>
+<br>
+<br>
+<img id="opp4" src="%file_root%custom/album/ambiente/opp4.JPG" alt="" border="0" width="550">
+<br> <br>
+Sentiero Vallone delle Brecce
+<br>
+<br>
+<br>
+<img id="opp5" src="%file_root%custom/album/ambiente/opp5.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone delle Brecce
+<br>
+<br>
+<br>
+<img id="opp6" src="%file_root%custom/album/ambiente/opp6.JPG" alt="" border="0" width="550">
+<br> <br>
+Captazione Sorgente Cannito 
+<br>
+<br>
+<br>
+<img id="opp7" src="%file_root%custom/album/ambiente/opp7.JPG" alt="" border="0" width="550">
+<br> <br>
+Vista del Monte Calvello dal Vallone delle Brecce 
+<br>
+<br>
+<br>
+<img id="opp8" src="%file_root%custom/album/ambiente/opp8.JPG" alt="" border="0" width="550">
+<br> <br>
+Verso la cima del Monte Oppido
+<br>
+<br>
+<br>
+<img id="opp9" src="%file_root%custom/album/ambiente/opp9.JPG" alt="" border="0" width="550">
+<br> <br>
+Verso la cima del Monte Oppido
+<br>
+<br>
+<br>
+<img id="opp10" src="%file_root%custom/album/ambiente/opp10.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Oppido
+<br>
+<br>
+<br>
+<img id="opp11" src="%file_root%custom/album/ambiente/opp11.JPG" alt="" border="0" width="550">
+<br> <br>
+Vista di Materdomini e dei Piani di Caposele dal Monte Oppido 
+<br>
+<br>
+<br>
+<img id="opp12" src="%file_root%custom/album/ambiente/opp12.JPG" alt="" border="0" width="550">
+<br> <br>
+Vista della "Preta r'li Cuorvi" e del Monte Paflagone dal Monte Oppido
+<br>
+<br>
+<br>
+<img id="opp13" src="%file_root%custom/album/ambiente/opp13.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Oppido visto dalla Preta
+<br>
+<br>
+<br>
+<a href="http://www.openstreetmap.org/?lat=40.821973&lon=15.189114&zoom=18&layers=M">Vai alla mappa del percorso su Openstreetmap.org</a>
+<br><br>
+<br>
+--- End body ---

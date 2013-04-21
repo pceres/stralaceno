@@ -347,6 +347,9 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 333::scettico::25/06/2012 18.34.34::visible
 334::strazzatrippa::27/06/2012 23.30.43::visible
 335::deflusso::02/10/2012 08.46.01::visible
+336::nic.m.::20/02/2013 18.23.41::visible
+337::nic.m.::28/02/2013 19.12.27::visible
+338::stanco::18/04/2013 13.08.03::visible
 
 [post_text_0]
 Fermate Nicola Melillo con questa stralaceno: anche i muri di materdomini e caposele non ne possono più.
@@ -2023,3 +2026,12 @@ non c'èra nessuno di tale associazione?
 Qual è questo deflusso vero, giusto e giustificabile? quello non previsto dalla legge? Affermazione grave e pericolosa...perchè qualcuno non sporge denuncia alla procura della repubblica per questa frase? Sono talmente bravi e cattivi a farlo.
 &nbsp;
 &nbsp;
+
+[post_text_336]
+che bello ripensare alle tante sfide contro il mio nemico sportivo Nicola D'auria e godere che non mi ha mai battuto nelle varie partite che abbiamo disputato infatti oramai sono 7 anni che non si gioca piu' quando organizzava prima che fosse affidato a me il compito di organizzare la 2 squadra non e' riuscito piu' a vincere non dimentichero' mai i vari tornei di calcio estivi in cui D'auria si iscriveva con la sua squadra e creava solo polemiche e litigi con i componenti della sua squadra crando un clima di tensione e confusione.nel 1998 emblematico e ridicolo il suo atteggiamento in un torneo simpatico di squadre chiamate con in momi di squadre di seria A tipo juve,napoli,inter,fiorentina voleva mettere addirittura in panchina alcuni giocatori ma che pensavi di essere in serie A .meno male che non abbaiamo continuato queste sfide in quanto per me era un modo di divertirsi invece per te era un motivo di gloria e vittoria a tutti  i costi ma purtroppo non ci sei mai riuscito continua con la corsa che il calcio e' un'altra cosa.
+
+[post_text_337]
+in questo paese ci sono tante persone che credono di essere tifosi dell'Avellino e di squadre di serie A ma allo stadio non ci sono mai andati a voi vi dico Vergognatevi tirate fuori i soldi che le chiacchiere davanti ai bar se le porta il vento.
+
+[post_text_338]
+Vergognaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Caposele e' un paese finito e pieno di persone false e stupide,ignoranti e arretrati in un altro paese chissa' qunte mazzate avevate preso la vostra fortuna e 'che siete nati in questo paesaccio ridicolo speriamo in una giustizia divina siete e resterete un popolo di incapaci e fessi.

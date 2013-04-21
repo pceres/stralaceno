@@ -1,0 +1,97 @@
+Autore::
+Titolo::Ritorno alla Madonna del Fiume
+--- Begin body ---
+<br>
+<div align="center">
+<br>Passeggiata del 1 aprile 2013<br>
+<br>
+Da Calabritto alla Madonna del Fiume (Calabritto)
+<br><br><br>
+<img id="mdf1" src="%file_root%custom/album/ambiente/mdf1.JPG" alt="" border="0" width="550">
+<br> <br>
+Vista di Calabritto dalla strada per Ponticchio
+<br>
+<br>
+<br>
+<img id="mdf2" src="%file_root%custom/album/ambiente/mdf2.JPG" alt="" border="0" width="550">
+<br> <br>
+Ruscello proveniente da Ponticchio
+<br>
+<br>
+<br>
+<img id="mdf3" src="%file_root%custom/album/ambiente/mdf3.JPG" alt="" border="0" width="550">
+<br> <br>
+Ruscello proveniente da Ponticchio
+<br>
+<br>
+<br>
+<img id="mdf4" src="%file_root%custom/album/ambiente/mdf4.JPG" alt="" border="0" width="550">
+<br> <br>
+Piccola cavità lungo il sentiero per la Madonna del Fiume
+<br>
+<br>
+<br>
+<img id="mdf5" src="%file_root%custom/album/ambiente/mdf5.JPG" alt="" border="0" width="550">
+<br> <br>
+Raia della Quercia e Monte Pollaro
+<br>
+<br>
+<br>
+<img id="mdf14" src="%file_root%custom/album/ambiente/mdf14.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone del Lupolo "Bard'latore"
+<br>
+<br>
+<br>
+<img id="mdf6" src="%file_root%custom/album/ambiente/mdf6.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone del Lupolo "Bard'latore"
+<br>
+<br>
+<br>
+<img id="mdf7" src="%file_root%custom/album/ambiente/mdf7.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone del Lupolo "Bard'latore"
+<br>
+<br>
+<br>
+<img id="mdf10" src="%file_root%custom/album/ambiente/mdf10.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone del Lupolo "Bard'latore"
+<br>
+<br>
+<br>
+<img id="mdf9" src="%file_root%custom/album/ambiente/mdf9.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone del Lupolo "Bard'latore"
+<br>
+<br>
+<br>
+<img id="mdf8" src="%file_root%custom/album/ambiente/mdf8.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone del Lupolo "Bard'latore"
+<br>
+<br>
+<br>
+<img id="mdf11" src="%file_root%custom/album/ambiente/mdf11.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone sovrastante la Fontana dei Palummi
+<br>
+<br>
+<br>
+<img id="mdf12" src="%file_root%custom/album/ambiente/mdf12.JPG" alt="" border="0" width="550">
+<br> <br>
+Cappella della Madonna del Fiume
+<br>
+<br>
+<br>
+<img id="mdf13" src="%file_root%custom/album/ambiente/mdf13.JPG" alt="" border="0" width="550">
+<br> <br>
+Cappella della Madonna del Fiume: la "menna della Madonna"
+<br>
+<br>
+<br>
+<a href="http://www.openstreetmap.org/?lat=40.78614&lon=15.19027&zoom=16&layers=M">Vai alla mappa del percorso su Openstreetmap.org</a>
+<br><br>
+<br>
+--- End body ---

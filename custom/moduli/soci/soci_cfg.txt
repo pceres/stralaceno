@@ -39,7 +39,8 @@ Mario Di Trolio::mditrolio@tiscali.it::26/05/2008::associato praticante::::24::S
 Gelsomino Del Guercio::mdelguercio@gmail.com::26/05/2008::associato praticante::::25::Soci_ars::
 Tommaso Cibellis::dottomaso@yahoo.it::26/05/2008::associato praticante::::26::Soci_ars::
 Giovanni Cicerano::gcicerano@asforin.it::16/06/2008::associato praticante::::31::Soci_ars::
-Nicola Ciccone::nciccone@hotmail.it::14/07/2008::socio ordinario::::28::Soci_ars::Massimo Cetrulo::massimocetrulo@yahoo.it::14/07/2008::socio ordinario::::29::Soci_ars::
+Nicola Ciccone::nciccone@hotmail.it::14/07/2008::socio ordinario::::28::Soci_ars::
+Massimo Cetrulo::massimocetrulo@yahoo.it::14/07/2008::socio ordinario::::29::Soci_ars::
 Angelo Ceres::ceres.av@tin.it::20/11/2008::associato praticante::::31::Soci_ars::
 Giuseppe Spatola::gius05@hotmail.it::24/08/2009::associato praticante::::::Soci_ars::
 Gerardo D'Alessio::dgerardo89@katamail.com::26/08/2009::associato praticante::::::Soci_ars::
@@ -49,7 +50,7 @@ Gerardoluigi Forte::primula.88@live.it::22/12/2012::associato praticante::::::So
 Daniele Caprio::daniele.caprio@libero.it::17/09/2011::socio ordinario::::::Soci_ars::
 Giuseppe Cetrulo::peppecet@gmail.com::11/08/2012::socio ordinario::::::Soci_ars::
 Mauro Losco::mauro.losco@alice.it::06/11/2012::associato praticante::::::Soci_ars::
-
+Carmine Calvanese::ccalvanese@libero.it::03/01/2013::associato praticante::::::Soci_ars::
 
 
 

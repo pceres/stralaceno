@@ -104,6 +104,9 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 90::NewsAmbiente::05/06/2012 20.50.10::visible
 91::AmbienteNews::25/06/2012 18.16.49::visible
 92::ARS::05/02/2013 10.43.56::visible
+93::Ambientenews::11/02/2013 09.24.25::visible
+94::NewsAmbiente::12/02/2013 09.13.46::visible
+95::AmbienteNews::05/04/2013 20.25.59::visible
 
 [post_text_0]
 Qui proposte, osservazioni, critiche e tutto ciò che concerne l'ambiente e la natura dalle grosse tematiche di interesse mondiali ai piccoli accadimenti del paese.
@@ -1196,3 +1199,28 @@ E' attiva la sezione ESCURSIONISMO.
 Chiunque voglia inviarci delle foto di interesse naturalistico e paesaggistico delle nostre zone per la pubblicazione sul sito stesso, lo può fare inviandole al nostro indirizzo: arsamatorirunningsele@yahoo.it
 &nbsp;
 Grazie
+
+[post_text_93]
+I lupi tornano in provincia di Avellino. L'avvistamento di tre esemplari è stato effettuato dalla guardie ambientali dell'associazione Ambiente e vita e della Federazione Pro Vita alla località "Lago della Canne" del comune di Calitri. Non è la prima volta che i volontari, impegnati in servizi contro il fenomeno del bracconaggio, hanno accertato la presenza dei lupi in Irpinia. Non è escluco che, in questa occasione, la fitta nevica dei giorni scorsi abbia spinto gli animali più a valle alla ricerca di cibo.
+Probabilmente sono gli stessi esemplari avvistati a Caposele. Percorrono molti chilometri
+alla ricerca di cibo per poi rintanarsi all'interno del Parco dei Monti Picentini.
+
+[post_text_94]
+Dopo numerose sollecitazioni del Comune di Caposele e di altri Comuni gli enti competenti
+iniziano a prendere i primi provvedimenti.
+&nbsp;
+&nbsp;
+E’ tutto pronto per la stipula della convenzione tra la Provincia di Avellino, il Parco Regionale del Partenio, il Parco dei Monti Picentini e l’Ambito Territoriale di Caccia della Provincia di Avellino. La convenzione prevede l’approvazione del programma di prevenzione della specie del cinghiale. La Provincia e i Parchi, in condivisione del programma, redatto dall’ambito territoriale di caccia, di censimento, controllo ed inibizione dei danni da cinghiale, si impegnano, in sinergia, ad effettuare tutte le azioni di contenimento della specie cinghiale, là dove vengano accertati danni alle produzioni agricole.
+&nbsp;
+Gli enti si impegnano a svolgere in tutta la superficie interessata, compatibilmente con le risorse disponibili, i censimenti relativi alla specie cinghiale, impiegando personale abilitato dall’ambito territoriale di caccia, e ricercando con esso, ogni possibile collaborazione. L’acquisizione dei dati e la loro interpretazione dovrà diventare patrimonio comune di tutti gli enti coinvolti. Gli enti sottoscrittori del protocollo si impegneranno ad operare al fine di ridurre l’entità dei danni da fauna alle aziende agricole presenti nel proprio territorio e a collaborare per il reperimento e la distribuzione dei materiali di prevenzione.
+&nbsp;
+Gli enti sottoscrittori condivideranno la necessità di sviluppare la ricerca di innovazioni nelle tecniche di censimento e nelle strategie di controllo e prevenzione danni da fauna, per rendere la presenza delle specie di fauna selvatica compatibile con le altre attività economiche. Si impegnano pertanto nella presentazione di progetti che contengano tale finalità, utilizzando a tale scopo le possibili risorse finanziarie assegnate da normative nazionali, regionali comunitarie. Gli enti si impegneranno inoltre a creare le condizioni per valorizzare il patrimonio faunistico della provincia in chiave turistica, ambientale e venatoria, nel rispetto delle proprie finalità.
+&nbsp;
+
+[post_text_95]
+CURIOSITA' METEO CLIMATICA
+&nbsp;
+L'anno 2012 sull'altopiano del Laceno si sono avuti circa 1600 mm di precipitazioni.
+Quantità leggermente inferiore alla media (2000-2500 mm).
+L'anno 2013 si è aperto con precipazioni tendenzialmente maggiori. Fino ad oggi, 5 aprile, si sono avuti 1070 mm di precipitazioni.
+Più in avanti ci saranno altri aggiornamenti sul trend precipitativo.

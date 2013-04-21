@@ -2,10 +2,10 @@ Autore::Ars
 Titolo::La Foto della Settimana
 --- Begin body ---
 <br><div align="center">
-<img id="" src="%file_root%custom/album/Foto Settimana/pech.jpg" alt="" border="" width="500">
+<img id="fotosett" src="%file_root%custom/album/Foto Settimana/fre.jpg" alt="" border="" width="500">
 </div>
 <br><FONT SIZE="3"><FONT FACE="calibri"> 
-<p align="left"> 25/11/2012 Trentamila di corsa - Il momento della partenza della maratona di Pechino. Trentamila in gara (Corriere.it)</p><br></font></font>
+<p align="left">14.04.2013 Dalla parte sbagliata - Sembra andare dalla parte sbagliata questo concorrente della maratona di Vienna (Corriere.it)</p><br></font></font>
 <i>La raccolta dell'album "La Foto della Settimana" la trovate <a href="album.php?anno=Foto Settimana">qui</a>.<br>
 </b></i>
 --- End body ---

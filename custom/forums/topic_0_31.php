@@ -113,3 +113,7 @@ lista mir senato al 15esimo posto Gerardo Martino originario di caposele
 [post_text_22]
 caro ettore spatola,
 tu hai sempre sbagliato...stavolta hai sbagliatissimo
+hai sempre sbagliato...stavolta hai sbagliatissimo
+
+[post_text_23]
+non se ne puo' piu' di questo paese!!! finalmente arrivano l'elezioni!!! come al solito solo chiacchiere si e' fatto!!!stavolta la gente non verra' presa piu' per i fondelli..!!!questa volta anche un misero voto bisogna sudarselo!!!!!!!!!quindi cacciate le p.... ai prossimi successori!!! vogliamo rispetto e coerenza noi cittadini!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

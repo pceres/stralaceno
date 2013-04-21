@@ -21,16 +21,16 @@ Formato [elenco_topics]:
 4::Sondaggio Champions League::open::::::Pasquale C.::17::16
 5::Benvenuti nel forum::hidden::::::ceres::4::3
 6::Come funziona il forum::open::::::ceres::3::2
-7::Le sfide della Stralaceno::open::::::foxy::149::153
+7::Le sfide della Stralaceno::open::::::foxy::151::155
 8::Soddisfatti della stralaceno edizione 2006???::hidden::::::cabo86::5::4
-9::Discussione::open::::::Antonio::347::335
+9::Discussione::open::::::Antonio::350::338
 10::Gare::open::::::cabo::35::44
 11::Sezione ciclismo::open::::::Donato Gervasio::33::32
 12::Allenamento Collettivo::open::::::Ars::45::44
 13::Per nazòn::hidden::::::antonio::4::3
 14::F.C. Caposele::open::::::Ars::49::48
 15::Elezioni comunali a Caposele::open::::::Cleon.ren::138::137
-16::Sezione Ambiente e Natura::open::::::Ambiente::92::92
+16::Sezione Ambiente e Natura::open::::::Ambiente::95::95
 17::Per l'inviato::hidden::::::christian meyer::6::5
 18::Il 3 novembre si disputerà la Quasinove: gara podistica organizzata da Nicola Melillo::hidden::::::Jerry Notaro::2::1
 19::Genealogia caposelese::open::::::Pasquale C.::10::9
@@ -45,7 +45,7 @@ Formato [elenco_topics]:
 28::sentenza::hidden::::::emigrato::1::0
 29::forza caposele::hidden::::::gaetano::2::1
 30::MEZZA MARATONA CITTA' DI POTENZA TUNE-UP::hidden::::::MIMMO55::1::0
-31::I problemi di caposele::open::::::gaetano::23::22
+31::I problemi di caposele::open::::::gaetano::24::23
 32::vergognatevi!!!!!::hidden::::::ESASPERATI::1::0
 33::sto arrivando!!::open::::::gaetano::6::5
 34::stufato::hidden::::::hamsik::3::2

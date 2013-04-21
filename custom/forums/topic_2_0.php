@@ -249,6 +249,20 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 235::http://iohounsogno.wordpress.com::24/01/2013 13.14.04::visible
 236::Irpinianews.it::25/01/2013 14.15.03::visible
 237::CorriereIrpinia.it::28/01/2013 12.55.40::visible
+238::CorriereIrpinia.it::22/02/2013 09.22.14::visible
+239::CorriereIrpinia.it::06/03/2013 15.53.01::visible
+240::CorriereIrpinia.it::12/03/2013 16.20.18::visible
+241::CorriereIrpinia.it::15/03/2013 16.35.27::visible
+242::CorriereIrpinia.it::18/03/2013 17.06.26::visible
+243::Ottopagine.it::19/03/2013 10.33.49::visible
+244::CorriereIrpinia.it::28/03/2013 10.33.12::visible
+245::CorriereIrpinia.it::29/03/2013 10.59.08::visible
+246::CorriereIrpinia.it::03/04/2013 13.51.55::visible
+247::CorriereIrpinia.it::05/04/2013 13.06.19::visible
+248::CorriereIrpinia.it::09/04/2013 11.23.55::visible
+249::CorriereIrpinia.it::11/04/2013 11.21.06::visible
+250::CorriereIrpinia.it::15/04/2013 14.10.32::visible
+251::Ottopagine.it::19/04/2013 10.23.14::visible
 
 [post_text_0]
 In questo spazio saranno inseriti articoli apparsi sul web relativi ad eventi, persone, fatti avvenuti a Caposele.
@@ -3968,3 +3982,506 @@ Il Consiglio comunale di Caposele ha approvato le convenzioni con il Comune di C
 La scelta che ha compiuto Caposele, come quella che si sta realizzando in tanti Comuni dell’Irpinia, sembra essere la più razionale e semplice in un momento in cui molte funzioni sociali e presidi fondamentali per la vita ordinaria di un piccolo paese rischiano già di essere cancellate, e che l’Unione stessa avrebbe amplificato fino a svuotare di significato amministrativo i Paesi più deboli. La collaborazione con i Comuni di Senerchia e Calabritto è già, da tempo una realtà, per cui istituendo le nuove funzioni ufficialmente, si prosegue un cammino già avviato e che già negli anni aveva restituito alle nostre realtà un po’ più in difficoltà di Caposele, un discreto vantaggio in termini di risparmio.
 &nbsp;
 La Valle del Sele ed il territorio che fa riferimento al territorio di Sant’Angelo dei Lombardi erano le uniche due zone che ancora non avevano deciso in che modo associare le tre funzioni fondamentali come stabilito dalla legge sulla spending review, ma ora sembra che anche questi territori siano arrivati ad un accordo con quella che sarà l’Unione della Valle del Sele con Calabritto, Caposele e Senerchia e quella che vedrà insieme Sant’Angelo dei Lombardi, Morra De Sanctis, Rocca San Felice, Torella dei Lombardi e Guardia dei Lombardi.
+
+[post_text_238]
+Caposele, convocato per domani il Consiglio comunale
+&nbsp;
+Consiglio comunale in sessione ordinaria domani a Caposele. A convocarlo, in prima convocazione, per le ore 20,00 il sindaco del piccolo Comune altirpino Pasquale Farina.
+L’Assise, eventualmente, in seconda convocazione, si svolgerà nella giornata di lunedì alle ore 19,00. Il tutto presso la sala polifunzionale del Comune di Caposele ed in seduta pubblica. Il Consiglio comunale tratterà tre argomenti all’ordine del giorno. Ci sarà la lettura e l’approvazione dei verbali delle sedute precedenti, l’approvazione dei regolamenti controlli interni e l’approvazione relazione conto del bilancio dell’anno 2011.
+&nbsp;
+---------------------------------------------------------------------------------------
+&nbsp;
+Puc a Caposele, abuso d’ufficio: a giudizio sindaco e giunta
+&nbsp;
+CAPOSELE - Il primo cittadino Pasquale Farina e gli assessori Malanga Vito, Pallante Alfonso, Rosania Alfonsina e Ceres Angelo dovranno comparire davanti ai magistrati del Tribunale collegiale di Sant’Angelo dei Lombardi il prossimo 28 giugno 2013 per rispondere dell’accusa di abuso d’ufficio.
+Quello compiuto all’epoca dell’approvazione in giunta del Piano Urbanistico Comunale.
+&nbsp;
+In buona sostanza, come denunciò alla Procura della Repubblica di Sant’Angelo dei Lombardi Cittadinanzattiva, nonostante all’interno del piano urbanistico ci fossero aree relative a familiari entro il quarto grado degli amministratori, questi non si astennero dal voto e quindi parteciparono, in questo, secondo le accuse della Procura, compiendo un abuso d’ufficio. Ieri mattina in aula a rappresentare le contestazioni dei pm a carico degli amministratori indagati c’era lo stesso Procuratore Antonio Guerriero. Il magistrato ha anche chiesto un’integrazione del capo di accusa nei confronti dei cinque indagati, che comunque non è stato accolto da parte del Gup Levita. Ribadita la contestazione della sussistenza del reato, quello legato quantomeno alla decisione di prendere parte al voto in giunta. A parte l’accusa di aver trasformato i terreni propri e di stretti congiunti da agricoli in terreni a vocazione edificatoria.
+&nbsp;
+Inoltre il Giudice Dott. Levita, nonostante l’opposizione degli imputati e dei loro difensori, ha accolto la richiesta di costituzione di parte civile formalizzata da alcuni cittadini elettori, alcuni dei quali anche consiglieri di minoranza. Ed è proprio da parte delle opposizioni al sindaco Pasquale Farina che si levano ora anche inviti a valutare ipotesi di incompatibilità con la sua stessa carica elettiva.
+Nella nota si parla dunque di una sopravvenuta incompatibilità tra quanto contestato e le accuse rivolte.
+&nbsp;
+----------------------------------------------------------------------------------------
+&nbsp;
+&nbsp;
+Verso il voto - Caposele, una lista civica pronta a sfidare l’asse Udc-Pd?
+&nbsp;
+CAPOSELE - A Caposele si parla tanto delle prossime elezioni politiche e saranno tanti gli incontri dei vari partiti in questa settimana, ma tutti ricordano che alla fine di maggio ci saranno le elezioni amministrative che dovranno rieleggere un nuovo sindaco ed il suo Consiglio comunale. Con molta probabilità, secondo i bene informati, saranno due le compagini che scenderanno in campo.
+&nbsp;
+Da una parte una coalizione che punta sul circolo Arcobaleno intorno al quale si starebbero organizzando varie associazione ed alcuni partiti politici oltre, naturalmente, alle minoranze dell’attuale Assise comunale. Dall’altra parte dovrebbe essere confermata la maggioranza uscente e, quindi, il gruppo politico che fa riferimento all’Udc ed al Pd con qualche esponente di Sel. Dovrebbe essere sfida a due, quindi, a Caposele, ma sembra che il dibattito all’interno dei due gruppi sia molto acceso e le varie parti, al momento, stanno mettendo sul tavolo della discussione le varie posizioni.
+&nbsp;
+&nbsp;
+-----------------------------------------------------------------------------------------
+&nbsp;
+&nbsp;
+Caposele, Conforti: «Alla Bit di Milano perchè noi crediamo nel turismo»
+&nbsp;
+Il comune di Caposele, insieme a quello di Vallesaccarda, Bagnoli Irpino, Monteverde e Castevetere sul Calore, coadiuvati e guidati da Irpinia Turismo, hanno fatto la loro parte alla Bit di Milano.
+&nbsp;
+Soddisfazione nelle parole dell’assessore alla cultura ed al turismo Salvatore Conforti.
+«Un appuntamento per chi si occupa del Turismo quasi paragonabile a San Remo per la canzone - dice Conforti. Caposele, come piccolo comune attrattore, con le sue peculiarità naturali, culturali crede in un immediato futuro proiettato verso la difficile realizzazione &#8194;del turismo stanziale che, negli ultimi anni, però, sta dando grandi soddisfazioni. I prodotti tipici dei Pat come gli amaretti, il muffuletto e le matasse e tutta la parte dedicata alla fede con il Santuario di San Gerardo e il tempio artistico di San Lorenzo,&#8194;quella naturalistica dei parchi e delle sorgenti del Sele, possono conquistare una piccola fetta di turismo che verrà a solcare le aree interne della Campania anche nell’anno della fede. Certo la sfida è improba e difficile da vincere, atteso anche la poca considerazione che gli Enti sovra-comunali come Provincia e Regione ci hanno dedicato negli ultimi anni, forse perdendo di vista che la Campania si configura come una grande regione turistica grazie anche alle aree interne. La Bit di Milano, - commenta Conforti - quindi è stata un’occasione per confrontarsi anche con realtà territoriali molto più presenti e già da molti anni in prima fila&#8194; in queste kermesse di settore, perché culturalmente spinte e favorite da una politica che ha capito l’importanza del marketing rispetto ad&#8194; un ritorno turistico che, lentamente, ma efficacemente, ha portato in quelle aree sviluppo e progresso. Il sacrificio e la dedizione che stiamo profondendo su questo tema, si spera che negli anni possa ripagare le nostre aree interne attraverso un aumento delle visite turistiche, in&#8194; modo da poter mettere in moto il meccanismo da noi spesso auspicato di un risollevamento e riqualificazione in termini di sviluppo delle nostre aree interne, che&#8194; hanno poco da invidiare rispetto a realtà forse solamente più organizzate. Caposele e l’Irpinia possono osare molto di più avendo le caratteristiche e le peculiarità tipiche per una reale offerta turistica; a patto però, che si possa, attraverso una rete più organizzata e impiegando forze giovani stimolati da un’occasione di lavoro, raggiungere l’obiettivo che ci siamo prefissati. Questo deve avvenire in sintonia e varcando tutte le limitazioni della vecchia politica di campanile e di colore che spesso, accecano e distorcono il vero obiettivo&#8194;e cioè quello di far crescere le aree interne».
+&nbsp;
+
+[post_text_239]
+Verso il voto - Caposele, Grasso: «Si riconosca al Partito Democratico il giusto peso politico»
+&nbsp;
+06/03/2013
+&nbsp;
+Siamo in pieno clima elettorale a Caposele. Dopo le elezioni politiche tutti i partiti iniziano a pensare alle prossime amministrative.
+&nbsp;
+Forte la posizione di Gelsomino Grasso segretario locale del Partito Democratico.
+«Dopo la strepitosa vittoria della locale Sezione del Pd - spiega Grasso - essendo il primo partito con 564 voti pari al 29% non posso che esaltare l’impegno di tutta la squadra locale avendo impegnato tutta la direzione locale alle manifestazioni programmate nella fase pre-elettorale con i neo eletti al parlamento gli irpini Valentina Paris e Luigi Famiglietti e con la presenza anche di coloro non eletti ma impegnati nel progetto politico del territorio come Rosanna Repole, e Roberta Santaniello”. Grasso parla anche della questione della mancata elezione del Senatore uscente Enzo De Luca.
+“Esprimo - dice Grasso - totale solidarietà riconoscendo che sulla composizione della lista al Senato bisognava garantire l’ingresso delle cinque province, come espressione del territorio.
+Questo è il tema della discussione di oggi ( ieri ndr) nel comitato direttivo. Non sono mancati gli spunti sulla questione locale, dove il partito sancisce l’impegno per governare il paese avendo appunto raggiunto l’ottimo risultato nelle politiche del 24 e 25 febbraio scorso. La Sezione di Caposele già prima delle elezioni politiche ha avuto degli incontri con forze politiche locali, compreso l’Udc che esprime l’attuale sindaco Pasquale Farina e l’assessore Angelo Ceres e con Sel, partito che conta nella giunta locale i due assessori Salvatore Conforti e Alfonso Pallante. Il Pd nell’attuale giunta Farina pur non avendo, all’atto della composizione della lista nel 2008, partecipato alla stesura dei componenti della lista del cuore oggi è presente con Salvatore Russomanno e con il vicesindaco Alfonsina Rosania. Il Pd di Caposele, pone oggi, in virtù dell’esito elettorale un nuovo percorso per il programma e l’organigramma. Chiede di riconoscere al Pd lo spazio conquistato nella competizione elettorale andando dal riconoscimento delle posizioni politiche, ed in particolare il numero due della Giunta, fino alle deleghe ad organismi sopracomunali ed altre posizioni strategiche per ottenere il massimo risultato politico-amministrativo per la risoluzione dei problemi ancora irrisolti e per dare garanzia di sviluppo.
+La Sezione locale continuerà il suo cammino politico-programmatico in attesa di un incontro chiaro e conclusivo, quanto prima con il sindaco uscente con l’auspicio di programmare insieme il futuro di Caposele».
+&nbsp;
+----------------------------------------------------------------------------------------Caposele, Conforti: «Al fianco dei giovani per rilanciare il mondo della scuola»
+&nbsp;
+04/03/2013
+“Caposele Acqua e Terra”. E’ questo il titolo delle borse di studio per gli studenti del Liceo di Caposele. Iniziativa avviata dall’amministrazione comunale per la grande soddisfazione dell’assessore Salvatore Conforti.
+&nbsp;
+“La settimana scorsa, presso I'auditorium del Liceo è stato presentato il bando di idee rivolto ai liceali del Liceo di Caposele. Insieme ad amministratori, studenti e professori, l'avvocato Scoca, che ha voluto devolvere il suo compenso, relativo alla redazione della convenzione del 6 luglio con la Regione Puglia, a favore di questo nobile scopo, si è intrattenuto con gli studenti salutando l'iniziativa come un grande gesto di civiltà e di premio alla volontà di migliorarsi. Il sindaco Pasquale Farina, ha voluto ringraziare l'avvocato Scoca per il gesto straordinario a favore della comunità caposelese ed ha rimarcato la grande volontà di questa Amministrazione di stare a fianco dei giovani e degli studenti, al fine di incrementare e migliorare il mondo della scuola in un momento molto critico e di crisi generale. Ha ricordato infine i temi sui quali gli studenti del Liceo dovranno concorrere per vincere le due borse di studio di 2.500,00 euro ciascuna e cioè: la promozione turistica del territorio di Caposele ed il risparmio della nostra più rilevante risorsa: l’acqua. Due argomenti di approfondimento di grande e strategica importanza, soprattutto in questi momenti in cui il turismo viaggia parallelamente con l'ambiente e con la cultura.&#8194; I giovani partecipanti ai quali è rivolto il bando, dovranno mettere in evidenza gli aspetti peculiari e caratteristici della nostra terra a fini turistici e saper cogliere le formule di promozione moderne ed efficaci per un messaggio rivolto alla tutela del nostro bene più prezioso. La strategia turistica che questa amministrazione sta mettendo in essere riguarda anche il coinvolgimento delle nuove generazioni in termini di idee e proposte che sicuramente daranno un valido contributo allo sviluppo di un territorio che ha necessità di essere promosso e spinto in direzione dell'amplificazione delle peculiarità specifiche che Caposele possiede. La settimana prossima il bando sarà proposto, agli studenti del liceo e saranno definiti sia i parametri di premialità che la commissione che dovrà giudicare i lavori. I due premi saranno consegnati agli studenti vincitori nella prima dècade di maggio” - conclude Salvatore Conforti.
+&nbsp;
+&nbsp;
+---------------------------------------------------------------------
+Caposele, il Circolo Cuore: il parcheggio multipiano è una necessità per il paese
+02/03/2013
+&nbsp;
+Non c’è tregua nel dibattito politico-amministrativo a Caposele, dove, alla fine di maggio ci saranno anche le elezioni per il rinnovo del Consiglio comunale e la scelta del nuovo sindaco.
+&nbsp;
+Di seguito il documento del circolo Cuore che difende le scelte dell’amministrazione targata Pasquale Farina.
+«La costruzione del parcheggio multipiano di via San Gerardo - dicono dal circolo Cuore - ha scatenato molte reazioni positive nella popolazione caposelese, altre, invece, di mera cattiveria e vendetta privata in alcuni personaggi negativi della storia locale, i quali stanno utilizzando tutti i metodi e le scappatoie legali , anche le più violente, allo scopo di non farlo costruire. Dopo ben otto ricorsi al Tar e successivamente al Consiglio di Stato, all’Autorità di Bacino, alla Procura della Repubblica e perfino alla Prefettura, questi signori continuano a propagandare, sulla stampa provinciale, le loro azioni come se fossero dirette alla soddisfazione delle esigenze generali e non ad altro. Ma dopo le sentenze, che hanno restituito legittimazione all’amministrazione comunale per la costruzione del parcheggio, ora i caposelesi hanno bisogno di verità e chiarezza su questa vicenda infinita. E pensare che il parcheggio era stato già programmato, molti anni fa, dalla prima amministrazione Melillo e che, da anni, i soliti scuri personaggi della politica continuano, ad osteggiarne la realizzazione, attraverso tutte le condotte, anche quelle più infime e subdole.
+Stiamo parlando di un’opera pubblica necessaria ed indifferibile per la viabilità nel nostro paese. Un’opera che tutti vogliono ed al più presto. Basta. I caposelesi sono stufi di questo modo di fare, di essere vittime di vendette personali e che poco hanno a che fare con il progresso e lo sviluppo del nostro paese. La politica, si fa nelle aule consiliari e non in quelle dei tribunali. Basta. E’ il momento di fermare questi protagonisti negativi della nostra storia, che con le loro azioni tentano di deviare ed intralciare la corsa verso il progresso. I caposelesi devono conoscere la verità in questa peripezia, che ha visto tutti i proprietari dei terreni favorevoli alla costruzione del parcheggio, tranne qualcuno.
+Anche a questa minoranza consiliare che prende posizione solamente quando si tratta di votare contro la nuova Convenzione, o contro lo sgravio dell’Imu. Manifestate apertamente se siete favorevoli o contrari alla realizzazione del parcheggio? Chi state tutelando questi personaggi o i cittadini?
+Il circolo del Cuore, orgoglioso di questa amministrazione Comunale continua a spronarla, al fine di proseguire dritti verso la strada del progresso intrapresa, la quale sta restituendo al nostro Paese straordinarie soddisfazioni. Se qualcuno è contrario al lavoro e allo sviluppo, lo dica con chiarezza. Caposele ha bisogno di serietà, Caposele ha necessità di completare tutte le opere previste, come Piazza Sanità, via Santuario, la Pavoncelli bis, che potranno dare anche gli stimoli economici e lavorativi, che tutti si aspettano. Il parcheggio multipiano è anche questa speranza. Realizzatelo ed avanti tutta».
+&nbsp;
+---------------------------------------------------------------------
+Caposele, accusato di aver rifiutato il test antidroga: assolto
+&nbsp;
+28/02/2013
+Il tribunale di Sant'Angelo dei Lombardi ha assolto un giovane di Caposele accusato di violazione del codice della strada per aver rifiutato di sottoporsi al test per verificare se fosse alla guida sotto l'effetto di sostanze stupefacenti. La motivazione è che il fatto non è previsto dalla legge. Soddisfatto l'avvocato difensore Alfonso Sturchio di Caposele che spiega che si tratta di una sentenza innovativa e che farà clamore.
+Il giudice infatti ha ritenuto legittime le argomentazioni del legale in base alle quali il decreto del 2008 che prevede una sanzione penale che va da sei mesi ad un anno per chi si rifiuta di sottoporsi all'alcool test, non possa essere, per un vizio di formulazione, applicabile anche a chi rifiuta le analisi per verificare l' utilizzo di sostanze stupefacenti alla guida di veicoli.
+&nbsp;
+---------------------------------------------------------------------
+Puc di Caposele, Cione scrive al Prefetto Guidato
+&nbsp;
+&nbsp;
+27/02/2013
+&nbsp;
+CAPOSELE - Il caso Puc ed il rinvio a giudizio del sindaco e di quattro assessori fa discutere nel centro altirpino. Ora, però, la discussione si sposta ad Avellino, infatti, Antonio Cione, delegato del direttivo regionale di Cittadinanzattiva scrive al Prefetto di Avellino, Umberto Guidato.
+&nbsp;
+«Come riportato anche dalla stampa provinciale, all’esito dell’udienza preliminare tenutasi martedì 19 febbraio 2013, - scrive Cione - il Gup Luigi Levita ha disposto il rinvio a giudizio avanti al Tribunale collegiale di S. Angelo dei Lombardi per l’udienza del 28 giugno 2013 del sindaco di Caposele, Farina Pasquale, e degli assessori comunali Rosania Alfonsina, Malanga Vito, Pallante Alfonso e Ceres Angelo, poiché non si sono astenuti ed hanno espresso parere favorevole all’approvazione del Puc di Caposele, in tal modo procurato a se stessi o propri congiunti un ingiusto vantaggio patrimoniale.
+Non risulta che il Comune di Caposele, quale parte offesa, sia formalmente a conoscenza del procedimento penale, non risultando l’Ente essere stato destinatario del decreto di fissazione dell’udienza preliminare o costituito parte civile nel procedimento penale in epigrafe.
+E, come è noto, l’ultimo periodo del quarto comma dell’art. 78 citato testualmente recita che nelle more dell'accertamento di tale stato di correlazione immediata e diretta tra il contenuto della deliberazione e specifici interessi dell'amministratore o di parenti o affini è sospesa la validità delle relative disposizioni del piano urbanistico. Fatte queste necessarie premesse per evidenti esigenze d’imparzialità e trasparenza, si chiede di voler invitare il Sindaco del Comune di Caposele a prendere atto, con specifica deliberazione dell’Organo competente, del ricorrere della fattispecie disciplinata dal secondo periodo del quarto comma dell’art. 78 TUEL che dispone la sospensione della validità delle disposizioni del Puc di Caposele».
+&nbsp;
+----------------------------------------------------------------
+Pavoncelli Bis, le telecamere di Report all’interno della galleria
+&nbsp;
+ 22/02/2013
+&nbsp;
+CAPOSELE - Insieme all’assessore Fabiano Amati della Regione Puglia ed al commissario straordinario Roberto Sabatelli nei pressi del cantiere della Pavoncelli Bis c’era anche Report per un documentario sulla struttura.
+&nbsp;
+Soddisfazione nelle parole dell’assessore di Caposele Salvatore Conforti.
+«Dopo anni di attesa i lavori sono ricominciati e in attesa di una sentenza che fa tremare un pò tutti il sopralluogo nella galleria ha evidenziato che il tunnel ha già una lunghezza nella pancia della montagna di centinaia di metri già realizzati e fermati da una muraglia in cemento armato che fu costruita come tampone a chiusura di quei lavori di oltre venti anni fa. Tutto è trascorso con riprese che hanno messo in luce i nuovo lavori, ma anche le bellezze di una Caposele che da cento anni ed oltre con le sue sorgenti dona questa grande e meravigliosa risorsa alla sitibonda Puglia. Certo che il giornalista di Report potrà fare un taglio ad arte di tutto ciò che gli è stato mostrato, assecondando il copione imposto all’interno di un programma televisivo che deve parlare di sprechi italiani, ma sicuramente, metterà nel servizio anche un pò della sua emozione vissuta al cospetto sia di una sorgente che restituisce migliaia di litri di acqua purissima al secondo. Anche Report potrebbe darci un aiuto nella promozione del nostro territorio, e forse questo sarà un buon ritorno di immagine di un Paese che, da oltre un secolo, è generoso con tutti e in particolar modo con la regione Puglia. E quindi grazie alla Rai, all’assessore Amati ed a Sabatelli a nome di tutto un territorio che ha necessità di crescere e svilupparsi anche attraverso i meccanismi mediatici della televisione. Con la speranza che fino a quando sarà mandato in onda il servizio, la talpa/fresa avrà già percorso un lungo ed inarrestabile cammino, e che la centrale idroelettrica avrà già fornito energia pubblica gratuita a tutto il Paese. Altro che spreco».
+&nbsp;
+
+[post_text_240]
+Caposele, c’è il progetto di risanamento per via Aldo Moro
+&nbsp;
+11/03/2013
+&nbsp;
+CAPOSELE - Non si parla soltanto di politica a Caposele, ma anche dell’attualità della vita amministrativa. C'è infatti la questione di Via Aldo Moro.
+&nbsp;
+«Anche via Aldo Moro,l’importante arteria di collegamento tra San Gerardo e Caposele Centro, - dicono dall’amministrazione - sarà oggetto di un risanamento. Dal progetto generale di cui questa amministrazione ha chiesto un finanziamento per due lotti da 180mila euro, è stato possibile stralciare un intervento parziale di sistemazione, con poche risorse, che consentirà di aggiustare, per quanto possibile, il collegamento tra i due poli, finalmente ripristinato dopo decenni di abbandono.
+I tratti interessati al progetto stralcio, già in fase di appalto i cui lavori potranno partire fra qualche settimana, fanno parte di un progetto generale di sistemazione definitiva della strada che potrà dare al nastro urbano una serie di miglioramenti che, oltre alla pavimentazione della carreggiata stessa, prevedono il rifacimento delle cunette, delle barriere laterali, regimentazione delle acque superficiali, di un marciapiede, dove possibile, e di una illuminazione più adeguata al fine di consentire che la strada possa diventare di vero collegamento turistico, anche pedonale tra i due centri. L’operazione di ripristino di Via Aldo Moro, si colloca nella strategia di sistemazione delle arterie di collegamento tra il centro e le periferie e le contrade previste nell’ambito di un piano generale, che, solamente oggi, avendo qualche disponibilità finanziaria in più, sarà possibile realizzare in modo concreto».
+&nbsp;
+&nbsp;
+--------------------------------------------------------------------
+&nbsp;
+Verso il voto - Caposele, venerdì il Pd e Farina decideranno il futuro
+&nbsp;
+&nbsp;
+11/03/2013
+&nbsp;
+CAPOSELE - Incontri, riunioni, appuntamenti, ma la data decisiva per decidere e chiudere l’accordo politico tra il sindaco uscente ed il Partito Democratico di Gelsomino Grasso è fissata per il 15 marzo quando ci sarà una riunione determinante.
+&nbsp;
+Le posizioni sono abbastanza chiare ed a dire il vero anche non molto lontane. Il Partito Democratico vuole a tutti i costi la rappresentanza in Giunta con il vicesindaco, cosa che, tra l’altro, già avviene in questa legislatura. Con molte probabilità il sindaco uscente Pasquale Farina potrebbe accettare queste proposte ed arrivare ad un accordo per le prossime elezioni che lo vedrà battersi contro una lista che farà capo, con molta probabilità al Circolo L’Arcobaleno.
+&nbsp;
+&nbsp;
+------------------------------------------------------------
+&nbsp;
+Verso il voto - Caposele, ora si profila l’accordo tra il Pd e Farina?
+&nbsp;
+&nbsp;
+&nbsp;
+09/03/2013
+&nbsp;
+CAPOSELE - Ormai nel piccolo centro dell’Alta Irpinia sono avviate le trattative per dar vita alle squadre che si daranno battaglia nella prossima campagna elettorale che vedrà i cittadini chiamati al rinnovo del Consiglio comunale ed a eleggere il nuovo sindaco.
+&nbsp;
+Al momento sembra chiaro che all’amministrazione uscente, guidata dal primo cittadino Pasquale Farina, si opporrà una compagine che fa capo al circolo l’Arcobaleno e che vede alleate varie forze politiche, come Italia dei Valori ed il Pdl, e varia associazioni territoriali che non condividono l’operato dell’amministrazione uscente. Discussione aperta anche nella maggioranza, infatti, è stato chiaro il messaggio del segretario cittadino del Pd, nei giorni scorsi. Gelsomino Grasso, senza mezzi termini ha spiegato che il Partito Democratico vuole la giusta rappresentanza nella prossima legislatura e punta tutto sulla carica di vicesindaco. Su questa si sta discutendo e, oltre alla varie riunioni che si stanno susseguendo, l’ultima c’è stata nella serata di ieri, l’appuntamento ufficiale e decisivo si terrà il prossimo 15 marzo. In quel momento si capirà se ci sarà un accordo politico tra il sindaco Pasquale Farina ed il Partito Democratico di Caposele. Secondo indiscrezioni, in molti, pensano che si possa arrivare, in tempi brevi ad un accordo.
+&nbsp;
+&nbsp;
+-------------------------------------------------------------------
+&nbsp;
+Appello a prefetto e sindaco: «Ora si rispetti la legalità a Caposele»
+&nbsp;
+&nbsp;
+08/03/2013
+&nbsp;
+CAPOSELE - Scrivono al prefetto di Avellino e al sindaco di Caposele. Sono i consiglieri comunali di Caposele Vincenzo Zanca, Lorenzo Melillo, Rocco Merola, Ettore Gennaro Spatola e Carmela Malanga, presidente del Circolo Arcobaleno, Salvatore Nesta, quale rappresentate dell’Italia dei valori, e Giovanni Cetrulo, presidente del comitato promotore Pro-Sele.
+&nbsp;
+Al centro della discussione, il rinvio a giudizio del sindaco e degli assessori del Comune di Caposele. I firmatari chiedono di “procedere alla rimozione delle funzioni gestionali e-o politiche esercitate e comunque di voler avviare ogni ulteriore attività utile ad assicurare il rispetto della legalità di Caposele”. Questo il senso della nota inviata ai destinatari.
+&nbsp;
+&nbsp;
+----------------------------------------------------------
+&nbsp;
+Verso il voto - Caposele, la battaglia sarà su acqua, turismo e caso Puc
+&nbsp;
+07/03/2013
+&nbsp;
+CAPOSELE - Quello che si sta avviando a Caposele è un percorso politico molto difficile che porterà ad una campagna elettorale a dir poco avvelenata. La formazione delle liste è alle prime fasi e c’è da scommettere che se ne vedranno delle belle fino all’ultimo minuto disponibile.
+&nbsp;
+Ma partiamo dalla maggioranza uscente. La stessa sembrerebbe voler puntare a confermare, a grandi linee, gli accordi politici che la caratterizzano attualmente con esponenti del Partito Democratico, di Sinistra Ecologia e Libertà e con il sindaco, Pasquale Farina, che è chiara espressione dell’Unione di Centro.
+Secondo i bene informati la volontà forte dell'amministrazione uscente è quella di poter continuare il percorso delle opere pubbliche avviate, delle straordinarie iniziative sul turismo e sullo sviluppo del paese, e soprattutto di poter continuare a ragionare sull' utilizzo delle risorse ambientali che Caposele possiede.
+&nbsp;
+Secondo indiscrezioni uno dei cavalli di battaglia dell'amministrativa uscente di Farina sarà l'acqua, infatti, secondo gli attuali amministratori la stessa può restituire grandi soddisfazioni in termini di ristoro considerando che la convenzione del 6 luglio 2012 può essere considerata la salvezza delle nostre zone interne e il volano dello sviluppo economico. Il quadro politico riferito alla squadra di Pasquale Farina dovrebbe chiudersi nei prossimi giorni quando dovrebbe esserci un incontro chiarificatore e decisivo tra il sindaco ed il Partito Democratico che, nei giorni scorsi, ha chiesto rispetto per il suo peso politico.
+&nbsp;
+Dall’altra parte della barricata dovrebbe esserci una coalizione che fa capo al circolo Arcobaleno e che vede alcuni partiti in campo, come l’Idv ed il Pdl, impegnati insieme ad alcune associazioni del territorio. Questi puntano il dito contro l’amministrazione comunale e mettono al centro della loro battaglia politica il caso Puc ed il rinvio a giudizio subito dal sindaco e quattro assessori nelle scorse settimane. La dialettica politica è già molto accesa e, secondo i bene informati, dopo gli ultimi manifesti affisi in paese già sarebbero a lavoro alcuni legali per le prime querele di una campagna elettorale che definire calda potrebbe essere poco.
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+-------------------------------------------------------------------
+&nbsp;
+Caposele, l’amministrazione lancia il nuovo progetto “RifiutiZero”
+&nbsp;
+07/03/2013
+&nbsp;
+Il Comune di Caposele ha aderito con delibera di giunta alla partnership per la partecipazione al Progetto “MenoéMeglio”. Il progetto predisposto dal Comitato Regionale Anpas Campania, congiuntamente ad altre Associazioni ed Enti Locali potrebbe essere utile per attuare misure ed interventi volti a ridurre la produzione dei rifiuti come prevede il bando “Ambiente 2012 – Verso Rifiuti zero” pubblicato dalla Fondazione con il Sud.
+&nbsp;
+“Per il Comune di Caposele e per il territorio - dicono dall’amministrazione del sindaco Farina - è stato molto importante aderire alla partnership costituenda nell’ambito della proposta progettuale, ed in particolare il Comune di Caposele è interessato all’azione di attivazione del centro per il Riuso dove si farà attività di recupero, riparazione e risistemazione di vari beni ed oggetti come vestiti, mobili elettrodomestici e materiale elettronico, evitando di mandarli a discarica e mettendoli a disposizione delle famiglie più bisognose, delle Associazioni e delle Comunità del territorio. Le attività progettuali, in caso di approvazione, avranno inizio nel Gennaio 2014 per concludersi nel dicembre 2015 e saranno varie come la predisposizione e attuazione di una campagna di sensibilizzazione ai temi della riduzione della raccolta indifferenziata dei rifiuti, l’attivazione di un percorso formativo per i volontari e gli operatori che saranno direttamente coinvolti nelle attività di progetto. L’impostazione, inoltre, di un sistema di monitoraggio scientifico specifico per l’andamento delle attività di progetto, strutturato per tenere traccia degli aspetti qualitativi e quantitativi dell’andamento delle azioni pilota e l’azione pilota di attivazione di un sistema premiante della differenziazione,che spinga al conferimento diretto dei rifiuti differenziati presso le isole ecologiche già esistenti, a fronte di un sistema di premi sotto forma di sconti o altre facilitazioni di diretta determinazione dei Comuni di riferimento”.
+&nbsp;
+
+[post_text_241]
+Caposele - Acqua, Farina a Romano: «Si lavori per l’accordo di programma»
+&nbsp;
+14/03/2013
+&nbsp;
+La riunione di martedì in Regione Campania, ha visto un’accesa e proficua discussione con l’assessore Giovanni Romano che, ancora una volta, ha discusso anche della questione acqua, dell’atteggiamento della Regione Puglia e della convenzione del Comune di Caposele che, secondo l’esponente della Giunta Regionale doveva confrontarsi, in modo più diretto con Palazzo Santa Lucia.
+&nbsp;
+A difendere l’operato del Comune di Caposele è il primo cittadino Pasquale Farina.
+«Prima di tutto non posso che concordare sul giudizio negativo sulle trivellazioni perchè trivellare significa mettere a rischio la portata e la purezza delle nostre sorgenti. Per quello che concerne, invece, la questione convenzione bisogna ribadire, ancora una volta, alcuni concetti. Voglio ricordare all’assessore Romano - commenta Farina - che ciò che abbiamo fatto non è una convenzione, ma il rinnovo della stessa su 363 litri al secondo del Comune di Caposele, infatti, abbiamo rinnovato una sorta di transazione che ci fu, nel lontano 1905 tra lo Stato italiano ed il Comune di Caposele.
+Abbiamo quindi, nuovamente ceduto alla Puglia i 363 litri al secondo che erano in uso al nostro Comune. Credo - incalza Farina - che in questo momento la cosa più importante non sia pensare alla nostra convenzione, ma all’accordo di programma degli ulteriori 4000 litri al secondo che vanno in Puglia. Con quell’accordo si può mettere mano al risanamento del nostro territorio, infatti siamo paesi dove, essendoci le sorgenti, troviamo un forte dissesto idrogeologico che va combattuto. Per questi motivi credo che sia più giusto che l’assessore Romano si dia da fare per portare a termine l’accordo di programma senza pensare ai 363 litri che erano di nostra pertinenza. Con un accordo serio ed importante - conclude Farina - sono convinto che ci possano essere grandi benefici per la nostra zona, il nostro paese, il nostro territorio e l’intera Irpinia».
+&nbsp;
+--------------------------------------------------------------------
+&nbsp;
+L’amministrazione di Caposele lancia la nuova mediateca on-line
+&nbsp;
+&nbsp;
+14/03/2013
+&nbsp;
+CAPOSELE - Nel piccolo Comune altirpino è in fase di allestimento il nuovo catalogo on line delle pubblicazioni che riguardano Caposele e il suo territorio.
+&nbsp;
+Soddisfazione in un comunicato dell’amministrazione comunale.
+«Il Comune di Caposele - dicono dall’amministrazione - con la collaborazione del periodico La Sorgente ha messo in essere un progetto di straordinaria efficacia culturale e di conservazione della nostra memoria storica che mantiene intatto il fascino delle pubblicazioni locali attraverso la loro catalogazione elettronica. Con un semplice clic e comodamente da casa è possibile, attraverso questo sistema, leggere e approfondire molti testi, anche di vecchia data, che si riferiscono alla storia e all’attualità di Caposele.&#8194;
+Ogni volta che si vuole, e con una semplicità estrema, sarà possibile dare una lettura ai testi e alle ricerche, anche rare, che sono state pubblicate nel tempo e che sono di difficile reperimento. Testi come: Caposele, una città di sorgente di Alfonso Merola e Nicola Conforti , Il fiume Sele e suoi dintorni di Nicola Santorelli, Il deserto e dopo di Giuseppe Ungaretti e vecchi ed introvabili numeri de La Sorgente, sono sfogliabili e consultabili on line sul nostro catalogo gratuito a disposizione di studenti, ricercatori ed appassionati. Tutto quello che parla di Caposele si ritrova e sarà all’interno di questo straordinario contenitore multimediale a disposizione di tutti. Una Biblioteca on line in continua evoluzione, che si arricchirà, se volete, anche grazie contributo di continue ed incessanti implementazioni quotidiane anche dell'archivio comunale in riferimento a delibere e regolamenti degli ultimi 20 anni. Tutti i Caposelesi, naturalmente possono contribuire all'arricchimento del catalogo che è collocato gratuitamente on line, per tutti.
+Mandateci il materiale cartaceo di pubblicazioni su Caposele che non vedete in elenco e saremo felici di poterli trasformare in forma elettronica e renderli pubblici per sempre. Il progetto, che vede la collaborazione anche di unità volontarie, prevede di raggiungere alla fine del mese di maggio circa 1000 pubblicazioni on line, tra libri e materiale istituzionale».&#8194;
+&nbsp;
+---------------------------------------------------------------------------------------------------------------------------------------------
+Attentato ad una calcestruzzi di Caposele: pizzo o vendetta?
+&nbsp;
+14/03/2013
+&nbsp;
+CAPOSELE - Una bomba carta contro il nastro trasportatore di un’azienda che produce calcestruzzo a Caposele. Quella che ha parzialmente distrutto la parte del braccio che si usa all’interno dei cantieri per trasferire il calcestruzzo è stato sicuramente un atto compiuto nella notte scorsa. Poche migliaia di euro i danni provocati dall’esplosione.
+&nbsp;
+Ad accorgersi di quanto era avvenuto all’interno del cantiere di Contrada Petazze è stato lo stesso imprenditore che gestisce l’impianto di produzione di cemento. E ha subito dato l’allarme, denunciando la vicenda ai militari della locale stazione, dipendenti dalla Compagnia dei Carabinieri di Montella. I militari agli ordini del capitano Enrico Galloro sono giunti sul posto per effettuare i rilievi del caso. Le indagini sono coordinate dalla Procura della Repubblica di Sant’Angelo dei Lombardi. E saranno proprio i magistrati guidati dal Procuratore Antonio Guerriero a dover chiarire se l’atto compiuto a Caposele sia da inquadrare in un’azione del racket o altro. L’imprenditore sarebbe già stato anche sentito nella giornata di ieri. Ovviamente la sua deposizione è al vaglio degli inquirenti e della Procura santangiolese. E non si esclude che già nelle prossime ore ci possa essere una svolta nelle indagini. L’esplosione ha comunque fatto tornare anche il timore di una escalation del racket nella zona al confine tra Irpinia e la zona salernitana. Anche se nel ventaglio delle ipotesi al vaglio di magistrati e Carabinieri non c’è solo questa pista. Anzi, stando alle indiscrezioni non sarebbe neppure quella privilegiata. E’ molto probabile che non ci sia il racket alla base dell’intimidazione. L’altra ipotesi è invece legata ad una vendetta personale. Quella che comunque non viene scartata dagli inquirenti. Non si può dunque escludere alcuna ipotesi. Questo è l’unico dato chiaro che emerge dopo il raid nell’impianto di calcestruzzi caposelese.
+&nbsp;
+Nelle prossime ore, anche a seguito dei rilievi da parte dei militari e da nuove escussioni a sommarie informazioni di persone che potrebbero essere a conoscenza di qualche particolare, se ne saprà anche di più. Quella colpita, comunque, la Merola Calcestruzzi, è una delle aziende più note nell’area altirpina. E non si può escludere che alla base del gesto di chiara natura intimidatoria, possa esserci anche la volontà solo di creare un danno all’impresa o anche di lanciare un sinistro avvertimento.
+&nbsp;
+&nbsp;
+-----------------------------------------------------------------------------------------------------------------------------------
+&nbsp;
+Caposele, Malanga: «La Pavoncelli Bis opera strategica per il nostro territorio»
+&nbsp;
+12/03/2013
+&nbsp;
+Arriverà, nel giro di qualche giorno, la sentenza del Tribunale Superiore delle Acque che deciderà sul futuro della Pavoncelli Bis, ma l’opera continua a far discutere in Alta Irpinia ed in particolar modo a Caposele.
+&nbsp;
+A partecipare al dibattito ed a sottolineare l’importanza che l’opera può avere per Caposele e tutto il territorio è l’assessore Vito Malanga.
+«La Pavoncelli Bis è un’opera di cui si parla da molti anni. Abbiamo partecipato a molte conferenze di servizi ed una delle ultime siamo riusciti a farla anche nel nostro paese per dare il giusto e minimo riconoscimento al Comune dal quale parte questa grande opera che porta tanta acqua in Puglia. Per noi la Pavoncelli Bis è un’opera importante ed abbiamo dato il nostro parere favorevole anche con la condivisione degli esponenti della minoranza consiliare perché l’opera ci permette di ripristinare la centrale idroelettrica cosa che assume un’importanza eccezionale per il nostro Comune. Infatti per Caposele significa benefici a 360 gradi rispetto all’energia elettrica, infatti, oltre ad elettrificare alcune ulteriori strutture pubbliche potremo avere 250mila euro di ristoro per i soldi che spende la nostra amministrazione di energia elettrica. Inoltre l’opera partirà immediatamente ed in attesa che la macchina perforatrice entri in azione la centrale idroelettrica potrebbe essere realizzata nel giorno di due anni. Per quanto riguarda la sentenza del Tribunale Superiore delle Acque abbiamo sentito qualche giorno fa il Commissario straordinario Roberto Sabatelli che si è detto molto fiducioso. La galleria Pavoncelli Bis rappresenta un’opera strategica per l’Italia e, viste le condizioni in cui si trova la vecchia galleria, fatiscente in molti suoi punti, credo che, prima o poi, verrà realizzata».
+&nbsp;
+
+[post_text_242]
+Caposele, avviato il restauro della Chiesa della Sanità
+&nbsp;
+Il Comune di Caposele e la Curia arcivescovile di Sant’Angelo dei Lombardi annunciano l’inizio dei lavori di consolidamento strutturale e restauro della Chiesa Maria S.s. della Sanità.
+&nbsp;
+«Il progetto - si legge in una nota  - è riferito ad un programma funzionale d'intervento che ha come oggetto il completo ed esaustivo consolidamento nonchè di restauro anche esterno della chiesetta tanto cara ai Caposelesi. Occorre evidenziare, sin da ora, che tale intervento, in considerazione del cattivo stato di conservazione dei manufatti, riveste carattere d'urgenza ai fini della loro salvaguardia e della prevenzione del rischio di perdita di parti significative e sia la Curia che il Comune di Caposele, utilizzando proprie risorse, hanno potuto coordinarsi per un intervento finalmente risolutivo sulla struttura che versa in cattive condizioni da svariati anni.
+La Chiesa della Madonna della Sanità, infatti, uscita illesa dalla furia del terremoto del 23 novembre 1980 e da scellerati tentativi di demolizione seguenti il sisma, ha subìto un lento, ma progressivo degrado in decenni di poco utilizzo e di relativo abbandono.
+&nbsp;
+ Oggi, finalmente, sarà possibile intervenire definitivamente con una operazione progettuale che potrà far riapparire ed imporre nuovamente le gradevoli forme estetiche della Cappella, la quale si inserisce perfettamente all’interno della piazza della Sanità della quale essa è il naturale coronamento e decoro. Si ringraziano, quindi, tutti coloro che hanno saputo coniugare le esigenze temporali ed economiche dei due interventi riferiti ad un’area strategica, nonché zona d’ingresso anche turistica di Caposele».
+
+[post_text_243]
+Farina si ricandida? Fumata grigia
+&nbsp;
+Il sindaco ha chiesto al direttivo del Pd un’ulteriore proroga prima di decidere
+&nbsp;
+Caposele – Pasquale Farina si ricandida per il secondo mandato, ma la cabina di regia del circolo del Partito Democratico di Caposele licenzia la notizia come “fumata grigia”. Sciolte le riserve sulla conferma del mandato, il sindaco in carica avrebbe chiesto al direttivo dei democratici un’ulteriore proroga per stabilire le intenzioni della squadra amministrativa uscente. La riunione si è svolta presso la sezione cittadina del Pd nella serata di sabato, come richiesto dal coordinatore Gelsomino Grasso, alla presenza del direttivo e del sindaco Farina, ma non degli amministratori riferimento del partito. Farina intanto, ha riconosciuto il ruolo del partito, annunciando la necessità di un consulto interno con la squadra di governo.
+&nbsp;
+Un protocollo insolito dunque per gli amministratori in quota Pd, che avrebbero anteposto la discussione interna al circolo con una consultazione del gruppo amministrativo. Al momento risultano quattro le rappresentanze in quota Pd che nella prossima settimana dovrebbero incontrare il circolo e pronunciarsi sull’ipotesi secondo mandato: il vice sindaco Alfonsina Rosania, il consigliere con delega alla sanità Salvatore Russomanno, il consigliere alla viabilità rurale Gerardo Freda, e il consigliere Cirillo Donatello, con delega al turismo religioso e ambientale e alla Comunità Montana Terminio Cervialto.
+&nbsp;
+“Al momento non sappiamo chi dei quattro componenti è intenzionato a ricandidarsi o meno, ma il circolo ha presentato espressa richiesta di almeno tre candidature” spiega il coordinatore Grasso. “Aspettiamo il responso del sindaco in settimana, ma apriremo nel contempo una riflessione interna prima di avviare la macchina elettorale e dare una risposta ai nostri concittadini”. A Pasquale Farina, sindaco uscente, il Pd formula la proposta di una seconda candidatura, senza però tralasciare il risultato elettorale incassato alle politiche, che ha consacrato il Pd come il primo partito di Caposele, registrando ben 570 voti. Determinato a sciogliere tutte le riserve sulla prossima campagna elettorale, il coordinatore del circolo Gelsomino Grasso ha chiesto infatti la definizione della prossima compagine, lasciando il dovuto margine di tempo per dare spazio alle “limature”.
+&nbsp;
+Partendo da una considerazione del risultato delle politiche inoltre, il Pd rafforza la sua posizione e si impegna in questi giorni a verificare le disponibilità dei candidati, ma anche a dare corso ai cosiddetti giri di valzer con le forze politiche della coalizione di centro sinistra. Non solo. Una componente del movimento Cinque Stelle di Caposele potrebbe strizzare l’occhio al Pd, mentre sembra che il nucleo dei grillini al momento sia schierato con la squadra Arcobaleno, ovvero gli oppositori di Pasquale Farina. “Guardiamo ai grillini con interesse” ha confermato il coordinatore, interessato anche a rinnovare l’asse con lo scudocrociato e con Sel, replicando la formazione politica del primo mandato Farina.
+&nbsp;
+Sancito un ruolo prioritario dei democratici per la prossima corsa al palazzo di città, dunque, non si esclude nemmeno che il circolo potrebbe chiedere la candidatura a sindaco di una rappresentanza espressione del Pd, sebbene Grasso confermi un pieno rispetto dei ruoli. “Il sindaco dovrà riconoscere i nostri spazi all’interno dell’amministrazione e i nostri ruoli negli enti sovracomunali, diversamente ci comporteremo di conseguenza”. Appare scontato dunque, che in queste ore di preludio della campagna elettorale il circolo sia intenzionato ad applicare dei correttivi e a mettere a fuoco le strategie politiche e amministrative percorse, per indicare nuove coordinate e fornire una piattaforma programmatica.
+&nbsp;
+Sul possibile avvicinamento dei grillini, invece, influisce un’attività di osservazione tutt’ora in corso da parte dei componenti del direttivo, che stenta a inquadrare la matrice del movimento, così come arranca nella definizione della bussola tracciata. Un punto di convergenza però, è stato individuato: le tematiche ambientali sostenute dai gruppi sembrano poter rappresentare il primo punto fermo su cui costruire un programma elettorale, da condividere anche con le altre fazioni.
+&nbsp;
+
+[post_text_244]
+Caposele, le nuove web-cam turistiche per la conoscenza del territorio
+&nbsp;
+27.03.2013
+&nbsp;
+E’ sempre più forte l’azione del Comune di Caposele sulla questione turismo, infatti, si sta lavorando, in maniera più intensa per la questione Web cam turistiche.
+&nbsp;
+«Tra le tante ancora in fase di sperimentazione evidenziamo anche il sistema delle web cam turistiche, - dicono dall’amministrazione comunale - che posizionate nei punti strategici del percorso del mini tour riusciranno a rendere un servizio visivo sulla opportunità temporale della visita. Chi ha voglia di conoscere la condizione climatica che c’è a San Gerardo, a Caposele centro o nelle località turistiche, ha la possibilità di collegarsi con la web cam di un determinato luogo di Caposele e godere della visione meteorologica del nostro territorio.
+Il sistema che è in fase di testing ha attualmente collegate quattro web cam che hanno come target visivo Il Santuario di San Gerardo, Caposele centro panorama e Caposele centro Questo sistema nella sua fase più avanzata, potrà meglio svilupparsi attraverso la rete comunale wifi e potrà essere adibito, in un vicino futuro, a rete di videosorveglianza con possibilità di controllo del territorio, al fine di assicurare ai cittadini più tranquillità e controllo dei beni comunali».
+&nbsp;
+………………………………………………………………………………………………………………..
+&nbsp;
+Verso il voto - Caposele, il Movimento 5 Stelle chiama la gente alla partecipazione
+&nbsp;
+27/03/2013
+&nbsp;
+CAPOSELE – Il Movimento 5 Stelle lancia il suo programma per Caposele. Il gruppo che fa riferimento al nuovo movimento politico, secondo indiscrezioni, vedrebbe la partecipazione di alcuni giovani come Luciano Malanga e Rocco Caruso, ma anche la vicinanza dell’avvocato Antonio Chiaravallo. Ed ecco che sul web nasce l’invito alla partecipazione a tutti coloro che vogliono dare una svolta. C’è da dire che ancora non si parla della composizione di una vera e propria lista, ma di un programma che possa essere da sprono a chi si candida a governare il paese.
+&nbsp;
+«Il MoVimento 5 Stelle di Caposele – dicono dal gruppo - vuole favorire e realizzare un efficiente ed efficace scambio di opinioni e confronto democratico anche al di fuori di legami partitici e senza la mediazione di organismi direttivi o rappresentativi, riconoscendo alla totalità dei cittadini il ruolo di governo ed indirizzo normalmente attribuito a pochi.
+E’ necessario che la cittadinanza si riavvicini alla politica per controllarla e si proponga per amministrarla direttamente con nuove forme di partecipazione rese possibili anche dalla rete, quale strumento di democrazia tanto formidabile quanto temuto dalla casta e dal potere. Va, quindi, stimolato e valorizzato il confronto dialettico e costruttivo offerto dalla campagna elettorale affinchè ogni cittadino possa determinare il futuro della nostra comunità utilizzando il voto a tale fine e non, invece, quale strumento di scambio. L’impegno che assumiamo è affinché le amministrative del 26 e 27 maggio costituiscano il momento partecipativo con cui i cittadini, da una parte, esprimono il loro giudizio sull’operato della gestione di chi ha amministrato e, dall’altra, scelgano, tra quelli proposti, quello che ritengono il programma migliore da realizzare nel prossimo quinquennio. Ognuno vale Uno.
+Grazie all’impegno di tutti – commentano - si persegue il bene della collettività.
+Tutti ci ritroviamo uniti nella convinzione che non vi sarà cambiamento se ciascuno non prenderà l’azione politica nelle sue mani, e allora partiamo dal Comune di Caposele. I Comuni decidono della vita quotidiana di ognuno di noi. Possono avvelenarci con un inceneritore o avviare la raccolta differenziata. Fare parchi per i bambini o gallerie per gli speculatori. Costruire parcheggi o asili. Privatizzare l’acqua o mantenerla sotto il loro controllo. Dai Comuni si deve ripartire a fare politica».
+&nbsp;
+………………………………………………………………………………………………………………….
+&nbsp;
+Caposele, l’amministrazione punta sulla promozione turistica del territorio
+&nbsp;
+&nbsp;
+26.03.2013
+L’amministrazione comunale di Caposele punta tutto sul Piano turistico comunale ritenendolo un vero e proprio volano di sviluppo.
+&nbsp;
+«Nell’ambito del Piano Comunale del Turismo, - si legge in una nota - si mette in grande evidenza la promozione del territorio attraverso un’ efficace quanto martellante utilizzo dei mass-media. Tra i canali scelti per l’amplificazione delle bellezze naturali e culturali che il nostro territorio offre, ci stiamo avvalendo delle nuove tecnologie comunicative come la rete internet e i nuovi canali multimediali e naturalmente tutti i percorsi comunicativi tradizionali come carta stampata, radio e televisioni. La seconda fase invece, affinché la strategia progettata possa restituire i suoi frutti, propone la diffusione di tale messaggio, attraverso i canali che sono stati scelti, per diffonderlo puntando al giusto target. In questi giorni, molte di queste operazioni informative stanno per essere lanciate su tanti canali mediatici e ci aspettiamo che possano rendere all’esterno una bella un’immagine di Caposele e soprattutto restituire una discreta visibilità in termini di attrazione turistica. Siamo sicuri che questa operazione è solamente il primo passo verso uno sviluppo sempre più professionale e scientificamente studiato nella direzione di una strategia turistica, che può solamente migliorare e che può darci delle straordinarie soddisfazioni».
+&nbsp;
+&nbsp;
+…………………………………………………………………………………………………………………………………..
+&nbsp;
+Verso il voto - Caposele, Grasso (Pd) a Farina: «Risposte celeri o avvieremo un nostro percorso»
+&nbsp;
+&nbsp;
+26/03/2013
+&nbsp;
+CAPOSELE - Se c'è un paese dove le elezioni amministrative, che portano alla nomina del nuovo sindaco e del Consiglio Comunale, sono molto accese e ricche di spunti critici è Caposele. Qui, nella prossima tornata elettorale, ci si attende una sfida molto infuocata che, con molta probabilità vedrà in campo il gruppo del sindaco uscente Pasquale Farina e quello che, fa capo ad alcune associazioni del territorio ed a i due gruppi di minoranza uscenti. Importante, come in altri paesi, la posizione del Partito Democratico che mette in campo, con chiarezza, le sue idee con il suo segretario Gelsomino Grasso il quale annuncia una nuova riunione di sezione per la serata odierna e chiede al primo cittadino uscente di avere risposte celeri perchè, in caso contrario, si potrebbe puntare ad una lista di centrosinistra.
+&nbsp;
+«Ancora non c'è nessun accordo con la squadra del sindaco uscente - spiega Grasso. Le nostre richieste sono state chiare ed attendiamo risposte celeri perchè, in caso contrario, senza nessuna polemica e discussione punteremo ad un nostro percorso di centrosinistra. Proprio nella serata oggi ci sarà un nuovo incontro del nostro gruppo in sezione. La discussione sarà, certamente, molto proficua e, nel momento in cui non dovessero esserci novità, dalla maggioranza uscente potrebbe anche accadere che ci sia una decisione di dar vita ad una nostra squadra che punti ad una lista di centrosinistra. Noi abbiamo chiesto al sindaco tre posizioni chiare: il vicesindaco ed i delegati al Piano di zona ed alla Comunità Montana. Siamo ancora in attesa di risposte con la speranza che le stesse possano arrivare al più presto o noi prenderemo le nostre decisioni».
+&nbsp;
+
+[post_text_245]
+Verso il voto - Caposele, Farina:&#8200;«L’accordo con il Pd? Si fondi su rispetto e fiducia...»
+&nbsp;
+28/03/2013
+&nbsp;
+Il primo cittadino Pasquale Farina parla della sua squadra e replica alle parole del segretario cittadino del Pd Gelsomino Grasso.
+&nbsp;
+«Prima di tutto - spiega Farina - devo ringraziare con il cuore tutti coloro che sono stati con me in questa squadra e che durante questa legislatura hanno dato tutto ed anche di più, anche a livello economico visto che abbiamo rinunciato alle nostre indennità, per il paese e per tutti i cittadini. Un forte grazie, quindi, e grande rispetto per questi consiglieri ed amministratori che stanno decidendo che cosa fare: se continuare con una candidatura o meno. Stiamo discutendo in modo pacifico per arrivare ad un ottimo risultato e per dare le migliori risposte possibili alla nostra comunità. Personalmente ho dato la mia disponibilità alla ricandidatura perchè non posso tradire tutti coloro che in questi anni mi hanno appoggiato e che continuano a sostenermi. I miei elettori vogliono una mia ricandidatura ed io ci sarò perchè non sono abituato ad abbandonare la nave».
+&nbsp;
+«Rispetto all'articolo a firma del segretario del Pd Gelsomino Grasso, non posso che esprimere viva meraviglia, infatti, è stato un vero e proprio fulmine a ciel sereno che non viene da nessuna discussione e nessuno scontro. Con il Pd abbiamo avuto qualche incontro e viaggiamo in pieno accordo anche perchè i suoi elettori sono anche quelli della mia amministrazione. Forse quell'articolo serviva per rilanciare ed avere un certo peso, ma posso garantire che il Pd nella mia amministrazione quel peso lo ha e continuerà ad averlo. La cosa importante, però, è che ci sia fiducia verso la mia persona.
+Sulla fiducia e sul rispetto reciproco si basa il nostro accordo con il Partito Democratico, per il resto non esistono altre cose ed il Pd è in piena sintonia con il sindaco Farina».
+&nbsp;
+&nbsp;
+………………………………………………………………………………………………………………………………………..
+&nbsp;
+Caposele, allevamento alimentato da sorgenti della riserva: maxisequestro di trote
+&nbsp;
+28/03/2013
+&nbsp;
+Un allevamento di cinque tonnellate di trote allevato abusando di un sistema alimentato con acque di una riserva naturale. Per questo motivo è scattato il sequestro dell'intero allevamento da parte della Guardia Costiera di Napoli. Gli agenti del Nucleo di Polizia Ambientale hanno scoperto che l'imprenditore alimentava il suo impianto di acquacoltura utilizzando risorse idriche provenienti dalla riserva naturale Foce Sele Tanagro. Per questo motivo un imprenditore di Caposele, si e' visto sequestrare ben cinque tonnellate di trote allevate nell'impianto che peraltro non e' risultato in regola con gli altri requisiti di legge. L'azienda, che commercializzava i prodotti ittici a livello locale, e' stata posta sotto sequestro a conclusione delle indagini svolte dal Nucleo di Polizia Ambientale della Capitaneria di Porto di Napoli in collaborazione con i tecnici dell'Arpac di Avellino e della Asl di Caserta.
+&nbsp;
+
+[post_text_246]
+Verso il voto - Caposele, chi ci sarà a sfidare il sindaco uscente Farina?
+&nbsp;
+L'argomento più attuale del momento sembrerebbe essere la conferma dell'accordo tra l'amministrazione uscente del sindaco Pasquale Farina ed il Partito Democratico del segretario cittadino Gelsomino Grasso.
+&nbsp;
+ Dopo un forte, ma civile e democratico scambio di battute tra i due, la situazione sembra essere positiva per i due gruppi e l'accordo dovrebbe chiudersi nei prossimi giorni. C'è da segnalare, però, che nelle ultime ore ci sono state varie riunioni all'interno del Pd locale con una dialettica molto forte, infatti, secondo i bene informati, alcuni iscritti al Pd vorrebbero già chiudere l'accordo e non avrebbero accettato alcune uscite del segretario Gelsomino Grasso. Il tutto si è risolto, chiaramente, con una proficua e semplice discussione che potrebbe aver avvicinato ancora di più il Pd all'amministrazione uscente per la prossima campagna elettorale.
+&nbsp;
+ Intanto ancora nessuna notizia dal gruppo che dovrebbe affrontare il sindaco Pasquale Farina. L'unica certezza è che il tutto dovrebbe ruotare intorno alla figura del Circolo Arcobaleno ed alle minoranze uscenti che dovrebbero allearsi ad alcuni partiti presenti sul territorio e ad alcune associazioni a difesa dei diritti dei cittadini. Questa potrebbe essere la compagine elettorale, ma ancora non si fanno nomi nè è stato espresso un nome di un candidato a sindaco. Una cosa è certa sia per un gruppo che per l'altro i giorni successivi alle vacanze di Pasqua saranno determinanti per avere i primi nomi ufficiali e le prime certezze.
+
+[post_text_247]
+Caposele, a metà maggio l’esposizione di un dipinto originale di Leonardo
+&nbsp;
+04/04/2013
+&nbsp;
+Entusiasmo tra le fila dell’amministrazione comunale di Caposele per un nuovo obiettivo raggiunto nel campo della cultura e del turismo. Infatti, un dipinto originale del grande Leonardo sarà esposto a Caposele.
+&nbsp;
+«Il turismo è composto anche da azioni promozionali intuitive e coraggiose - dicono dall’amministrazione comunale. Tra le tante scommesse vinte dalla nostra maggioranza, il tema del turismo porterà &#8194;Caposele all’attenzione nazionale per un’ operazione di straordinaria importanza.
+Infatti, dopo aver avviato una rilevante campagna promozionale sulle bellezze di fede e ambientali che il nostro territorio offre, si apre una meravigliosa opportunità che farà impennare, oltre tutte le aspettative, il flusso delle visite turistiche. La cultura sarà protagonista in assoluto ad accompagnare all’interno del “mini tour” l’evento dell’anno: Caposele ospiterà, in esclusiva un Leonardo originale all’interno del museo già allestito che ospita, ancora per un anno,le riproduzioni delle macchine del genio di Vinci. L’autoritratto di Acerenza di Leonardo da Vinci, sarà esposto, con le opportune cautele, all’interno del padiglione delle mostre a Caposele e potrà essere ammirato in tutta la sua bellezza. Una straordinaria opportunità di vedere da vicino, un Leonardo originale che è stato mostrato raramente in pubblico ed ha già, da quando è stato validato, sconvolto critica e estimatori per il suo fascino. L’autoritratto di Acerenza, o Tavola Lucana, sarà a Caposele per essere mostrato in pubblico nella prima dècade di maggio, all’interno della sala del museo delle Macchine di Leonardo e inserito, nel tour che porterà i visitatori a toccare tutte le tappe già in programma. Fra qualche giorno, daremo ulteriori informazioni e particolari, anche per ciò che concerne le prenotazioni e saranno esplicitate e rese note tutte le possibilità di utilizzare le strutture di accoglienza turistiche di Caposele e Materdomini. Ulteriori approfondimenti su: www.caposele.info».
+&nbsp;
+------------------------------------------------------------------
+Caposele, Spatola interroga Farina: «Si faccia subito chiarezza sul parcheggio multipiano»
+&nbsp;
+04/04/2013
+&nbsp;
+Il dibattito amministrativo, nel piccolo centro altirpino, nonostante l’avvicinarsi delle elezioni è sempre molto attivo. Ad interrogare la maggioranza del sindaco Pasquale Farina è il consigliere comunale di opposizione Ettore Gennaro Spatola.
+&nbsp;
+«In merito alla riapprovazione del progetto esecutivo del parcheggio multipiano di via San Gerardo, effettuata con delibera n. 42 del 26 marzo 2013, ed al relativo bando di gara - dice Spatola - chiedo alcune delucidazioni all’amministrazione comunale. In che data e per quali motivi il geometra. Nisivoccia si è dimesso dall’incarico di Rup, perchè non si è provveduto subito alla sostituzione dello stesso con altro tecnico idoneo a svolgere la funzione ai sensi di legge e se si è consapevole che la modificazione del progetto attuata in assenza di Rup è illegittima. Inoltre come sia stato possibile nominare nuovo Rup dell’opera un organo politico, l’assessore Vito Malanga, e se lo stesso sia in possesso dei requisiti professionali previsti dalla legge.
+Come mai, - chiede ancora Spatola - dopo le modifiche apportate in conseguenza del parere espresso dall’Abisele con determina 32 dell’11 febbraio 2013, non è stato riapprovato il progetto definitivo dell’opera posto che quello approvato con la delibera di Giunta comunale 66/2010 è decaduto per effetto dell’entrata in vigore dell’art. 6 delle norme di attuazione del Psai e posto che il successivo art. 7 impone tale parere preventivo, obbligatorio e vincolante su progetti definitivi e/o atti di pianificazione comunque denominati e non su quelli esecutivi. E’ stato aggiornato - continua Spatola - il piano triennale ed annuale delle opere pubbliche con il nuovo importo di spesa di euro 1.302.939,86 previsto per la realizzazione dell’opera in luogo dei 1.200.000,00 precedentemente indicati? Come mai il progetto modificato non risulta validato dal Rup e come mai, pur essendo stato approvato il progetto esecutivo dell’opera, il bando di gara per l’aggiudicazione dei lavori preveda l’affidamento sulla base di varianti migliorative sostanziali. Come mai - chiede infine Spatola - nel bando di gara è prevista una valutazione qualitativa dell’offerta attraverso la valutazione del concorrente ed esperienza invece dell’esplicitazione della valutazione oggettiva dei tre sottocriteri attributivi dei 70 punti del valore tecnico dell’offerta».
+&nbsp;
+-------------------------------------------------------------------
+Caposele, il prossimo obiettivo dell’amministrazione è Piazza Sanità
+&nbsp;
+&nbsp;
+03/04/2013
+&nbsp;
+L’azione dell’amministrazione comunale di Caposele è in piena attività. A fare il punto sui lavori pubblici in partenza e già in atto è l’assessore al ramo Vito Malanga.
+&nbsp;
+«E’ ormai imminente la sottoscrizione del contratto per i lavori di rifacimento di piazza Sanità, opera strategica per Caposele che consentirà di sistemare definitivamente l’area all’ingresso del paese. Il progetto prevede la pavimentazione della piazza e la realizzazione di una divisione centrale alle corsie con dei giochi d’acqua e con una diversa pavimentazione che, all’occorrenza, può anche ritirarsi nel pavimento. E’ prevista la sistemazione della zona circostante, della chiesa e la realizzazione di una fontana con all’interno una cascata d’acqua sulla parete est della chiesa. I lavori di pavimentazione e riparazione rete idrica di Via Santuario sono ormai in fase avanzata ed è ipotizzabile che entro il mese di aprile saranno completati e collaudati . Già oggi che è stata realizzata oltre la metà della strada è possibile rendersi conto della bellezza che la nuova pavimentazione arreca a tutta l’area interessata».
+&nbsp;
+«Altra importante opera appaltata i cui lavori inizieranno nel mese di aprile, è il completamento del risanamento idrogeologico dell’area al di sotto del polo scolastico con la realizzazione di opportuni drenaggi e di una superficie drenante. Con questo intervento, a lavori ultimati, parte della pavimentazione in materiale drenante potrà essere utilizzata a parcheggio della scuola e sarà finalmente risolto il problema di stazionamento davanti alle scuole di Caposele. L’intero paese è stato arredato e migliorato sotto l’aspetto della nuova segnaletica e arredi vari. Sono in corso inoltre, da parte dell’Ufficio progettazioni che riguardano il rifacimento della rete idrica e conseguente sistemazione delle strade interessate, nelle zone nelle quali la stessa è più danneggiata ottenendo in tal modo sia un risparmio nei consumi ma, principalmente, garantendo l’acqua a tutte le famiglie che in quelle zone, specialmente nel periodo estivo, non sempre fruiscono dell’acqua».
+&nbsp;
+&nbsp;
+
+[post_text_248]
+Verso il voto - “Caposele Futura”, si parte. Cione lancia la sfida a Farina
+&nbsp;
+Caposele - E' partita ufficialmente l’avventura di Caposele Futura, il gruppo che lancerà il suo guanto di sfida all'Amministrazione comunale targata Pasquale Farina. Il candidato sindaco di questa nuova formazione politica sarà l'esponente di Cittadinanzattiva Antonio Cione.
+&nbsp;
+ Nella squadra del medico confluiranno i quattro esponenti del Circolo Arcobaleno (Vincenzo Zanca, Lorenzo Melillo, Ettore Gennaro Spatola e Rocco Merola), i due consiglieri del gruppo Autonomia e Trasparenza (Tommaso Cibellis e Gerardo Di Masi), esponenti di Cittadinanzattiva, del Movimento Cinque Stelle, del Comitato Pro Sele di Giovanni Cetrulo e della sezione locale dell'Italia dei Valori guidata da Salvatore Nesta.
+&nbsp;
+Allora, dott. Cione, come nasce questa candidatura?
+«Nasce dall’impegno civico e sociale profuso in questi cinque anni con Cittadinanzattiva. Un impegno portato avanti con abnegazione e passione insieme ai consiglieri minoranza con i quali è stata fatta un’opposizione seria su tematiche strettamente attuali. Penso alla vicenda dell’albo pretorio on line, alle gare di appalto, al Ponte Tredogge, alla vicenda del Puc che ha avuto anche risvolti giudiziari. Senza dimenticare il parcheggio multipiano al quale noi non siamo contrari, riteniamo però che ci debbano essere tutti i requisiti progettuali necessari. Al momento quell’area è ad alto rischio franoso e necessita di risanamento».
+&nbsp;
+Battaglie che ora vuole cercare di combattere anche all’interno del Consiglio Comunale.
+«Dopo aver difeso i diritti della comunità caposelese per anni ora abbiamo deciso di metterci in gioco in prima persona».
+&nbsp;
+L'accordo sulla sua candidatura è stato ratificato nella tarda serata di giovedì. Molti sono rimasti spiazzati dalla nascita di questa lista con lei candidato sindaco.
+«In questa settimana gli incontri con gli altri componenti del gruppo si sono intensificati e hanno portato alla ratifica dell’accordo. Abbiamo deciso di lavorare lontano dai riflettori e concentrarci unicamente sulle idee che abbiamo in testa per rilanciare il nostro paese».
+&nbsp;
+Può anticiparci qualcosa?
+«Gran parte dei punti programmatici verteranno su quella che è la grande risorsa di Caposele: l’acqua. Un bene vitale che l’Amministrazione in carica ha svenduto all’Acquedotto Pugliese. Abbiamo criticato per mesi l’accordo firmato tra il sindaco Farina e l’Aqp. Se vinceremo le elezioni la prima mossa sarà quella di indire un referendum. Noi vogliamo rientrare in possesso di tutti i diritti relativi ai 500 litri di acqua al minuto secondo che spettano alla popolazione caposelese. Non ci accontentiamo nemmeno dei 363 litri previsti dalla convenzione firmata nel 1905».
+&nbsp;
+Ma l’Amministrazione Comunale e l’Aqp hanno già firmato la convenzione...
+«E noi faremo di tutto per modificarla. Organizzeremo un’assemblea pubblica alla quale inviteremo anche l’assessore regionale all’Ambiente Giovanni Romano per far chiarezza su una vicenda che ha visto il Comune di Caposele prostrasi ai piedi dell’Acquedotto Pugliese, un colosso che ha fatto utili importanti sulla nostra acqua».
+&nbsp;
+L’acqua, una sorta di petrolio blu per il vostro paese.
+«Potrebbe essere davvero il volano per il nostro sviluppo turistico. Immagino un collegamento tra il turismo religioso di Materdomini e quello legato alle Sorgenti della Sanità. Si potrebbe realizzare una funivia che colleghi questi due punti cardine di Caposele. Ecco, è proprio questo il nostro sogno, tra l’altro ben visibile nel simbolo che abbiamo scelto per la nostra lista».
+&nbsp;
+Il Pd è da settimane in trattativa con il sindaco Farina. In caso di mancato accordo tra le parti guarderete anche a un’alleanza con i democrat?
+«Siamo aperti a tutti coloro che hanno a cuore le sorti di Caposele...»
+&nbsp;
+Nella composizione della lista però si dovrà tener conto delle nuove norme in materia di voto. Oggi, il consiglio comunale è composto da sedici consiglieri, undici di maggioranza e cinque d’opposizione. Ma nel maggio prossimo, quando gli elettori saranno chiamati alle urne, troveranno liste composte da un massimo di sette candidati. Insomma, non sarà facile scegliere i componenti della squadra elettorale.
+«E’ ancora presto per i nomi dei candidati. Presenteremo la lista tra il 26 e 27 aprile, ma le posso dire che il nostro progetto è partito».
+&nbsp;
+La minoranza consiliare ha cominciato a muoversi pesantemente. Caposele Futura è pronta alla sfida.
+
+[post_text_249]
+Caposele e il mistero della tela di Leonardo...
+&nbsp;
+10/04/2013
+&nbsp;
+Fosse un libro potrebbe essere intitolato il mistero della tela di Leonardo. Un thriller enigmatico alla Dan Brown o un giallo alla Andrea Camilleri.
+Questa storia è ambientata nel bel mezzo della Valle del Sele, a Caposele per l’esattezza, e vede come protagonisti un’Amministrazione comunale, un museo e una tela.
+&nbsp;
+La storia è semplice. L’Amministrazione comunale guidata dal sindaco Pasquale Farina, dopo aver avviato una rilevante campagna promozionale sulle bellezze di fede e ambientali che il territorio altirpino offre, aveva deciso di aprirsi a quella che da parte degli stessi amministratori era stata definita come una meravigliosa opportunità che avrebbe fatto impennare il flusso delle visite turistiche.
+&nbsp;
+Caposele nelle prossime settimane avrebbe dovuto ospitare (il condizionale è d’obbligo in questa storia) in esclusiva un Leonardo originale all’interno del museo già allestito che ospita, ancora per un anno, le riproduzioni delle macchine del genio di Vinci. L’intenzione era ed è quella di esporre all’interno del padiglione delle mostre a Caposele l’autoritratto di Acerenza di Leonardo da Vinci.
+Tutto bello se non fosse che ieri tramite una comunicazione firmata, il direttore del Museo delle Antiche Genti di Lucania, Nicola Barbatelli (e qui entra in gioco il terzo protagonista dei questa storia), ha diffidato il Comune di Caposele.
+&nbsp;
+«La notizia relativa all’esposizione a Caposele della Tavola Lucana di Leonardo, in custodia presso questo museo - si legge nella nota inviata agli organi di informazione - è stata sorprendentemente appresa dai nostri uffici attraverso la stampa nazionale di questi giorni; tale attività risulta assolutamente estranea a questo Museo; questa struttura museale, non ha mai avuto alcun rapporto col Comune di Caposele o altre organizzazioni ed enti presenti in loco; nessun accordo è stato mai sottoscritto tra il Comune di Caposele, il Museo delle Antiche Genti di Lucania e gli altri Enti deputati al trasferimento del dipinto; l’esibizione di tale opera, è da ritenersi una assurda invenzione. Ciò premesso, si diffida dal comunicare ogni attività relativa alla esposizione del dipinto in questione, chiedendo altresì agli organi di stampa di voler rettificare appena possibile i comunicati pubblicati nei giorni scorsi, auspicando che i responsabili possano nel più breve tempo possibile chiarire le ragioni e le dinamiche di questo imbarazzante, quanto assurdo equivoco».
+&nbsp;
+Un equivoco? A sentire i componenti dell’Amministrazione comunale di Caposele qui l’equivoco è solo del Museo delle Antiche Genti di Lucania. I componenti della giunta Farina, infatti, si difendono sostenendo come il Leonardo in questione appartenga a una collezione privata e che siano stati presi accordi direttamente con il proprietario. E’ l’assessore Salvatore Conforti a sostenerlo.
+«Dal Museo hanno esagerato - sostiene - Abbiamo il permesso del proprietario, esporremo il Leonardo a Caposele nel prossimo mese di maggio».
+&nbsp;
+E intanto sul sito online del Comune continua la pubblicità del “grande evento”.
+«La cultura sarà protagonista in assoluto ad accompagnare all’interno del mini tour l’evento dell’anno: Caposele ospiterà, in esclusiva un Leonardo originale - si legge sul web - L’autoritratto di Acerenza di Leonardo da Vinci, sarà esposto, con le opportune cautele, all’interno del padiglione delle mostre a Caposele e potrà essere ammirato in tutta la sua bellezza. Una straordinaria opportunità di vedere da vicino, un Leonardo originale che è stato mostrato raramente in pubblico ed ha già, da quando è stato validato, sconvolto critica ed estimatori per il suo fascino. L’autoritratto di Acerenza, o Tavola Lucana, sarà a Caposele per essere mostrato in pubblico nella prima decade di maggio, all’interno della sala del museo delle Macchine di Leonardo e inserito, nel tour che porterà i visitatori a toccare tutte le tappe già in programma».
+Il mistero si infittisce. Non ci resta che attendere...
+&nbsp;
+&nbsp;
+…………………………………………………………………………………………………………………….......................................
+&nbsp;
+Siglato il Protocollo Interregionale dei Paesi Gerardini: c’è anche Caposele
+&nbsp;
+10/04/2013
+&nbsp;
+CAPOSELE - Il 6 aprile, giorno della nascita di San Gerardo Maiella, nella sala del Consiglio di Muro Lucano è stato siglato l’accordo di collaborazione tra gli undici Paesi dei “Percorsi di San Gerardo Maiella”.
+&nbsp;
+Lo scopo dell’incontro, preceduto, nei mesi scorsi, da una serie di scambi preliminari e bilaterali tra il Comune di Muro Lucano e gli altri comuni gemellati, è stato quello di poter mettere in rete i comuni gemellati, e proporre una serie di iniziative al fine di instaurare un percorso sia di scambio culturale e sociale, ma anche turistico tra i Paesi toccati dalla fede e dalle gesta miracolose di San Gerardo Maiella.
+&nbsp;
+Tra le proposte scaturite dall’incontro, si è discusso dell’opportunità di realizzare, con immediatezza, una serie di operazioni concrete di assoluta visibilità ed interscambiabilità tra i comuni interessati, unendo le forze e realizzando una sorta di portale unico non solo sulla rete virtuale, ma anche in quella reale, utilizzando una serie di possibilità.
+Innanzitutto la realizzazione di una scultura ceramicata con l’indicazione dei nominativi dei Paesi gemellati che possa contenere, anche altri spazi in modo che, dinamicamente, si possano aggiungere ulteriori paesi ancora da gemellare. Tale struttura potrà essere collocata in ogni località in prossimità dei luoghi di maggior flusso turistico e di fede; la realizzazione di una brochure multimediale che contenga le caratteristiche peculiari di ogni luogo gemellato e del percorso turistico e di fede dedicato alle Strade di San Gerardo; la realizzazione di un sito internet che sia linkato con i siti web di ogni comune e che possa essere l’esempio virtuale del tour turistico e di fede da proporre ai tour operators; una serie di eventi da organizzare in ogni Paese gemellato, e che in periodi diversi possa essere il mezzo di comunione e collegamento fisico tra i luoghi della Fede; la realizzazione di un Comitato promotore al fine dell’istituzione di un’associazione “No Profit” dedicata allo scopo della organizzazione di tali manifestazioni ed iniziative e che possa essere, tra l’altro, il motore della promozione e progettazione di nuovi percorsi che intercettino anche i finanziamenti europei.
+Ogni comune dovrà essere presente con una quota di partecipazione per mettere in moto, ed in modo concreto, le iniziative di comunicazione che saranno in grado, immediatamente proiettare i comuni gemellati verso il percorso che si sta intraprendendo.
+&nbsp;
+
+[post_text_250]
+Verso il voto - Caposele, Farina: «Cione? I caposelesi sanno chi devono votare»
+&nbsp;
+13/04/2013
+&nbsp;
+CAPOSELE- Nei giorni scorsi è stato ratificato l'accordo tra il gruppo del sindaco Pasquale Farina e il segretario locale del Pd, Gelsomino Grasso. Chiusa l'alleanza l'Amministrazione comunale in carica è pronta a gettarsi nella prossima campagna elettorale.
+&nbsp;
+Allora, sindaco Farina, dopo trattative serrate è arrivata l'attesa fumata bianca. Alle prossime elezioni vi presenterete nuovamente con il Pd. Squadra che vince non si cambia?
+«Ma quali trattative… Con il Pd siamo sempre stati d'accordo, questo era lo sbocco più naturale. Un accordo fondato sulla fiducia e sul rispetto reciproco, il Partito democratico è sempre stato in piena sintonia con il sottoscritto».
+&nbsp;
+Un'amministrazione comunale, quella di Caposele, che si fonda sull'alleanza tra Udc, Partito Democratico e Sel.
+«Prima di tutto devo ringraziare tutti coloro che sono stati con me in questa squadra e che durante questa legislatura hanno dato tutto e di più, anche a livello economico visto che abbiamo rinunciato alle nostre indennità, per il paese e per tutti i cittadini. Un forte grazie, quindi, e grande rispetto per questi consiglieri. Lo zoccolo duro del nostro elettorato è composto proprio da simpatizzanti dell'Udc, del Pd e di Sel. In questi anni ci hanno sempre spronato a fare meglio».
+&nbsp;
+Sono stati cinque anni intensi per la sua Amministrazione. All'inizio qualcuno aveva addirittura pensato che lei non si sarebbe ricandidato.
+«Ho dato la mia disponibilità alla ricandidatura perchè non posso tradire tutti coloro che in questi anni mi hanno appoggiato e che continuano a sostenermi. I miei elettori volevano una mia candidatura e io ci sarò perchè non sono abituato ad abbandonare la nave».
+&nbsp;
+La lotta sarà con Caposele Futura guidata dall'esponente di Cittadinanzattiva Antonio Cione. In questi anni non sono mancati gli scontri tra voi due…
+«Vedremo chi sceglieranno i caposelesi, se chi ha sempre lavorato per l'interesse del paese o chi in questi anni si è fatto spazio a colpi di carte bollate».
+&nbsp;
+Nel gruppo di Caposele Futura oltre ai componenti della minoranza consiliare ci sono anche due ex consiglieri eletti nelle file della maggioranza cinque anni fa: Tommaso Cibellis e Gerardo Di Masi.
+«Ognuno è libero delle proprie scelte, questi due consiglieri hanno preso la loro decisione quando si sono allontanati da noi mesi fa».
+&nbsp;
+Nella composizione della lista si dovrà tener conto delle nuove norme in materia di voto. A maggio, quando gli elettori saranno chiamati alle urne, troveranno liste composte da un massimo di sette candidati. Non sarà facile scegliere i componenti della squadra elettorale?
+«Certo ci troviamo di fronte a una vera e propria legge ghigliottina che penalizza non poco le liste delle Amministrazioni comunali in carica. Stiamo discutendo con gli altri consiglieri, sono certo che chi rimarrà fuori dalla lista non farà comunque mancare il suo prezioso apporto alla squadra. Abbiamo governato insieme per cinque anni e continueremo a farlo».
+&nbsp;
+Il sindaco Farina ha raccolto il guanto di sfida di Caposele Futura. La lunga corsa a Palazzo di Città è ufficialmente aperta.
+&nbsp;
+.......................................................................................
+&nbsp;
+&nbsp;
+Verso il voto - Caposele Futura, Cione: «Programma elettorale dal basso»
+&nbsp;
+&nbsp;
+12/04/2013
+CAPOSELE - Il Progetto Caposele Futura del candidato sindaco Antonio Cione va avanti. Domenica sera alle 19.00 presso l'aula polifunzionale è prevista un nuova assemblea pubblica del gruppo.
+&nbsp;
+Una squadra nella quale sono confluiti i quattro esponenti del Circolo Arcobaleno (Vincenzo Zanca, Lorenzo Melillo, Ettore Gennaro Spatola e Rocco Merola), i due consiglieri del gruppo Autonomia e Trasparenza (Tommaso Cibellis e Gerardo Di Masi), esponenti di Cittadinanzattiva, del Movimento Cinque Stelle, del Comitato Pro Sele di Giovanni Cetrulo e della sezione locale dell'Italia dei Valori guidata da Salvatore Nesta.
+&nbsp;
+Un progetto, quello di Caposele Futura, che partirà dal basso, dalle proposte dei cittadini.
+«Il nostro programma è già stato impostato, ma è suscettibile di modifiche e di miglioramenti derivanti dal contributo di qualsiasi cittadino voglia partecipare con le sue idee. La nostra sarà una campagna elettorale fatta sulle proposte».
+&nbsp;
+Domenica si terrà il secondo incontro con la cittadinanza.
+«Sarà l'occasione per ascoltare le proposte dei cittadini. Domenica non si assisterà a un mio monologo, l'intenzione è quella di dar vita a un'assemblea partecipata, un dibattito con i cittadini sulle proposte e sulle cose da fare. Riempiremo di contenuti il nostro programma insieme ai caposelesi che non si riconoscono in questa Amministrazione comunale».
+&nbsp;
+Ma quali sono i primi punti di questo programma che dovrà essere completato nelle prossime settimane?
+«Il nostro discorso si basa sulla trasparenza, sulla democrazia e sul diritto. Le nostre linee programmatiche sono chiare, puntiamo a ridiscutere la convenzione con l'Acquedotto Pugliese, al rilancio del turismo sia religioso che civile. L’acqua dovrà rappresentare il volano per il nostro sviluppo turistico. Immagino un collegamento tra il turismo religioso di Materdomini e quello legato alle Sorgenti della Sanità. Si potrebbe realizzare una funivia che colleghi questi due punti cardine di Caposele. Ecco, è proprio questo il nostro sogno, tra l’altro ben visibile nel simbolo che abbiamo scelto per la nostra lista».
+&nbsp;
+Una compagine, quella di Caposele Futura, in cui ci sarà grande spazio per i giovani.
+«Saranno loro il motore della nostra squadra. La nostra sarà una lista di giovani e di nuove idee per il paese e la comunità nella quale bisogna anche ricostruire un tessuto sociale su ideali che si basano sulla socialità».
+&nbsp;
+Intanto sembra che l’accordo tra il sindaco Pasquale Farina e il segretario locale del Pd Gelsomino Grasso sia stato raggiunto. Un suo parere?
+«Non lo so. A me risulta che ancora non abbiano ratificato nulla. Staremo a vedere, noi comunque andiamo avanti per la nostra strada».
+Quest'articolo è stato visualizzato 140 volte
+&nbsp;
+
+[post_text_251]
+Caposele, tutti con Cione: la lista è pronta
+&nbsp;
+In molti sono disposti a sostenere il progetto alternativo a Farina
+Caposele – Un rappresentante per ognuno dei gruppi confluiti all’interno del circolo Caposele Futura, più due nomi direttamente collegabili al candidato sindaco. E’ praticamente fatta la lista di Antonio Cione. Il problema, piuttosto, attiene alla sovrabbondanza. Da giorni si susseguono le riunioni per definire la composizione della compagine. Operazioni delicate e complesse che, se non trattate con moderazione e pacatezza, potrebbero dare adito a malumori e malcontenti, finanche a defezioni. E’ quel che si apprende dal Circolo Caposele Futura dove i bene informati, in ogni caso, narrano di scelte che saranno prese nel giro di qualche giorno attraverso una valutazione democratica fra gli esponenti politici disponibili a sostenere la sfida elettorale di Cione.
+Solo per citarne alcuni: i quattro del Circolo Arcobaleno (Vincenzo Zanca, Lorenzo Melillo, Ettore Gennaro Spatola e Rocco Merola), i due consiglieri del gruppo di minoranza “Autonomia e Trasparenza” (Tommaso Cibellis e Gerardo Di Masi), gli esponenti di Cittadinanzattiva (di cui è espressione lo stesso candidato a sindaco Cione), quelli del Comitato Pro Sele di Giovanni Cetrulo, nonché i riferimenti della sezione locale dell’Italia dei Valori guidata da Salvatore Nesta.
+Una folta pattuglia di papabili consiglieri, desiderosi di scendere in campo, ma allo stesso tempo disposti a fare un passo indietro, nel segno della ragionevolezza, ma soprattutto nell’interesse del nuovo progetto politico, alternativo alla maggioranza uscente del sindaco Pasquale Farina. D’altronde non potrebbe essere altrimenti considerato che, oltre al candidato sindaco, in lista potranno candidarsi soltanto in sei.
+&nbsp;

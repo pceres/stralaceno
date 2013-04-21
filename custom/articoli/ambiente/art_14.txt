@@ -1,0 +1,89 @@
+Autore::
+Titolo::A valle del Rio Zagarone
+--- Begin body ---
+<br>
+<div align="center">
+<br>Passeggiata del 17 febbraio 2013<br>
+<br>
+A valle del Rio Zagarone (Calabritto)
+<br><br><br>
+<div align="center">
+<img id="zag3" src="%file_root%custom/album/ambiente/zag3.JPG" alt="" border="0" width="550">
+<br> <br>
+Rio Zagarone
+</div>
+<br>
+<br>
+<div align="center">
+<img id="zag2" src="%file_root%custom/album/ambiente/zag2.JPG" alt="" border="0" width="550">
+<br> <br>
+Rio Zagarone
+</div>
+<br>
+<br>
+<div align="center">
+<img id="zag7" src="%file_root%custom/album/ambiente/zag7.JPG" alt="" border="0" width="550">
+<br> <br>
+Rio Zagarone
+</div>
+<br>
+<br>
+<div align="center">
+<img id="zag5" src="%file_root%custom/album/ambiente/zag5.JPG" alt="" border="0" width="550">
+<br> <br>
+Rio Zagarone
+</div>
+<br>
+<br>
+<div align="center">
+<img id="zag6" src="%file_root%custom/album/ambiente/zag6.JPG" alt="" border="0" width="550">
+<br> <br>
+Rio Zagarone
+</div>
+<br>
+<br>
+<img id="zag1" src="%file_root%custom/album/ambiente/zag1.JPG" alt="" border="0" width="550">
+<br> <br>
+Rio Zagarone
+</div>
+<br>
+<br>
+<div align="center">
+<img id="zag8" src="%file_root%custom/album/ambiente/zag8.JPG" alt="" border="0" width="550">
+<br> <br>
+Ruscello proveniente dalla fonte Acqua della Sauceta
+</div>
+<br>
+<br>
+<div align="center">
+<img id="zag9" src="%file_root%custom/album/ambiente/zag9.JPG" alt="" border="0" width="550">
+<br> <br>
+Immissione del ruscello proveniente dalla fonte Acqua della Sauceta nel Rio Zagarone
+</div>
+<br>
+<br>
+<div align="center">
+<img id="zag10" src="%file_root%custom/album/ambiente/zag10.JPG" alt="" border="0" width="550">
+<br> <br>
+Vista del monte Cervarulo dalla parte bassa del Rio Zagarone
+</div>
+<br>
+<br>
+<div align="center">
+<img id="zag11" src="%file_root%custom/album/ambiente/zag11.JPG" alt="" border="0" width="550">
+<br> <br>
+Rio Zagarone in prossimità della confluenza con il fiume Sele
+<br>
+<br><br>
+<div align="center">
+<img id="zag12" src="%file_root%custom/album/ambiente/zag12.JPG" alt="" border="0" width="550">
+<br> <br>
+Rio Zagarone in prossimità della confluenza con il fiume Sele<br>
+<br><br>
+<div align="center">
+<img id="zag4" src="%file_root%custom/album/ambiente/zag4.JPG" alt="" border="0" width="550">
+<br> <br>
+Confluenza Rio Zagarone - fiume Sele
+<br>
+<br>
+--- End body ---

@@ -1,0 +1,91 @@
+Autore::
+Titolo::Sentieri Pustedda - Lavanghe
+--- Begin body ---
+<br>
+<div align="center">
+<br>Passeggiata del 17 marzo 2013<br>
+<br>
+Grotta Vallone Pastena - Sentiero della "Pustedda" - Avigliano - Sentiero "Lavanghe - Vallone della Cupa" (Caposele)
+<br><br><br>
+<img id="p1" src="%file_root%custom/album/ambiente/pus1.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta Vallone Pastena
+<br>
+<br>
+<br>
+<div align="center">
+<img id="p2" src="%file_root%custom/album/ambiente/pus2.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta Vallone Pastena
+<br>
+<br>
+<br>
+<div align="center">
+<img id="p3" src="%file_root%custom/album/ambiente/pus3.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta Vallone Pastena - interno
+<br>
+<br>
+<br>
+<div align="center">
+<img id="p4" src="%file_root%custom/album/ambiente/pus4.JPG" alt="" border="0" width="550">
+<br> <br>
+Sentiero della "Pustedda"
+<br>
+<br>
+<br>
+<div align="center">
+<img id="p5" src="%file_root%custom/album/ambiente/pus5.JPG" alt="" border="0" width="550">
+<br> <br>
+Sentiero della "Pustedda"
+<br>
+<br>
+<br>
+<div align="center">
+<img id="p6" src="%file_root%custom/album/ambiente/pus6.JPG" alt="" border="0" width="550">
+<br> <br>
+Caposele visto dal sentiero della "Pustedda"
+<br>
+<br>
+<br>
+<div align="center">
+<img id="p7" src="%file_root%custom/album/ambiente/pus7.JPG" alt="" border="0" width="550">
+<br> <br>
+Sentiero della "Pustedda"
+<br>
+<br>
+<br>
+<div align="center">
+<img id="p8" src="%file_root%custom/album/ambiente/pus8.JPG" alt="" border="0" width="550">
+<br> <br>
+Avigliano
+<br>
+<br>
+<br>
+<div align="center">
+<img id="p9" src="%file_root%custom/album/ambiente/pus9.JPG" alt="" border="0" width="550">
+<br> <br>
+Attacco sentiero "Lavanghe - Vallone della Cupa"
+<br>
+<br>
+<br>
+<div align="center">
+<img id="p10" src="%file_root%custom/album/ambiente/pus10.JPG" alt="" border="0" width="550">
+<br> <br>
+Caposele e Materdomini visti dal sentiero "Lavanghe - Vallone della Cupa"
+<br>
+<br>
+<br><div align="center">
+<img id="p11" src="%file_root%custom/album/ambiente/pus11.JPG" alt="" border="0" width="550">
+<br> <br>
+Sentiero "Lavanghe - Vallone della Cupa"
+<br>
+<br>
+<br><div align="center">
+<img id="p12" src="%file_root%custom/album/ambiente/pus12.JPG" alt="" border="0" width="550">
+<br> <br>
+Sentiero "Lavanghe - Vallone della Cupa"
+<br>
+<br>
+<br>
+--- End body ---

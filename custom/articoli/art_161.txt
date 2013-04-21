@@ -3,9 +3,10 @@ Titolo::Foto Flash ARS
 --- Begin body ---
 <br>
 <div align="center">
-<img id="" src="%file_root%custom/album/FotoFlash/AlfDAuria.jpg" alt="" border="0" width="500">
+<img id="" src="%file_root%custom/album/FotoFlash/Terni2013.jpg" alt="" border="0" width="450">
 <br><br>
-13.01.2013 - Alfonsina D'Auria (maglietta gialla) prende parte alla categoria esordienti del Campionato Brianzolo di cross, tappa di Cant&ugrave;.
-<br>
+24.03.2013 - Carmine Calvanese impegnato nelle prime fasi della Maratonina di Terni.<br><br>
 </div>
+<i>Le altre foto flash le trovate <a href="album.php?anno=FotoFlash">qui</a>.<br>
+</b></i>
 --- End body ---

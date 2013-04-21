@@ -6,10 +6,16 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+07/04/2013::Carmine Calvanese ha partecipato alla 30^ mezza maratona di Firenze.
+07/04/2013::Giuseppe Cetrulo e Mauro Losco hanno partecipato alla 37^ edizione della Maratona di Parigi.
+01/04/2013::Daniele Caprio ha partecipato al "II trail del monte Taccaro" ad Angri(Sa) di km 12,2.
+24/03/2013::Carmine Calvanese ha partecipato alla Maratonina di Pasqua 2013 a Terni di km 10.
+03/03/2013::Donato Ceres ha partecipato alla XXXIX edizione della Roma Ostia di km 21,097.
 27/01/2013::Giuseppe Cetrulo e Mauro Losco hanno partecipato alla XVI Neapolis half marathon a Napoli di km 21,097.
 27/01/2013::Carmine Calvanese ha partecipato alla XXXI Gennaiola a S.Maria degli Angeli (Pg) di km 15,3.
 20/01/2013::Daniele Caprio ha partecipato alla "Vietri e dintorni trail 2013" a Vietri sul Mare (Sa) di km 10. Accompagnatori Paolo Viscardi e Salvatore Merola.
 03/01/2013::Entra a far parte dell'ARS, come associato praticante, Carmine Calvanese di Calabritto.
+16/12/2012::Giuseppe Cetrulo e Mauro Losco hanno partecipato alla "Coast to Coast" ad Amalfi, di km 31,3.
 11/11/2012::Donatello Cirillo ha partecipato alla "10&deg; Fiumicino half marathon" di km 21,097.
 06/11/2012::Entra a far parte dell'ARS, come associato praticante, Mauro Losco di Torella dei Lombardi.
 28/10/2012::Giuseppe Cetrulo ha partecipato alla "27esima Maratona di Venezia".

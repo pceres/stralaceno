@@ -1,0 +1,86 @@
+Autore::
+Titolo::Circuito del Monte Vallicelle
+--- Begin body ---
+<br>
+<div align="center">
+<br>Passeggiata del 24 marzo 2013<br>
+<br>
+Castagneta - Suoglio - Monte Vallicelle - Arialunga - Cisino - Castagneta (Caposele)
+<br><br><br>
+<img id="val1" src="%file_root%custom/album/ambiente/val1.JPG" alt="" border="0" width="550">
+<br> <br>
+Castagneta: inizio del sentiero
+<br>
+<br>
+<br>
+<img id="val2" src="%file_root%custom/album/ambiente/val2.JPG" alt="" border="0" width="550">
+<br> <br>
+"Uortu tunnu"
+<br>
+<br>
+<br>
+<img id="val3" src="%file_root%custom/album/ambiente/val3.JPG" alt="" border="0" width="550">
+<br> <br>
+"Uortu tunnu" visto dall'alto
+<br>
+<br>
+<br>
+<img id="val4" src="%file_root%custom/album/ambiente/val4.JPG" alt="" border="0" width="550">
+<br> <br>
+Verso la cima pietrosa del monte Vallicelle
+<br>
+<br>
+<br>
+<img id="val5" src="%file_root%custom/album/ambiente/val5.JPG" alt="" border="0" width="550">
+<br> <br>
+Cima del monte Vallicelle
+<br>
+<br>
+<br>
+<img id="val6" src="%file_root%custom/album/ambiente/val6.JPG" alt="" border="0" width="550">
+<br> <br>
+Vista verso Materdomini dalla cima del monte Vallicelle
+<br>
+<br>
+<br>
+<img id="val7" src="%file_root%custom/album/ambiente/val7.JPG" alt="" border="0" width="550">
+<br> <br>
+Vista verso i monti Pollaro, Cervarulo e Cervialto dalla cima del monte Vallicelle<br>
+<br>
+<br>
+<img id="val8" src="%file_root%custom/album/ambiente/val8.JPG" alt="" border="0" width="550">
+<br> <br>
+Vista verso il monte Altillo e l'alta valle del Sele dalla cima del monte Vallicelle<br>
+<br>
+<br>
+<img id="val9" src="%file_root%custom/album/ambiente/val9.JPG" alt="" border="0" width="550">
+<br> <br>
+Arialunga
+<br>
+<br>
+<br>
+<img id="val1" src="%file_root%custom/album/ambiente/val11.JPG" alt="" border="0" width="550">
+<br> <br>
+Varco degli Antichi
+<br>
+<br>
+<br>
+<img id="val12" src="%file_root%custom/album/ambiente/val12.JPG" alt="" border="0" width="550">
+<br> <br>
+Sentiero Cisino - Castagneta
+<br>
+<br>
+<br>
+<img id="val13" src="%file_root%custom/album/ambiente/val13.JPG" alt="" border="0" width="550">
+<br> <br>
+Sulla via per Caposele: sorgente Sarracino
+<br>
+<br>
+<br>
+<img id="val14" src="%file_root%custom/album/ambiente/val14.JPG" alt="" border="0" width="550">
+<br> <br>
+Sulla via per Caposele: fontana di San Biagio
+<br>
+<br>
+<br>
+--- End body ---

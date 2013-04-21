@@ -41,3 +41,59 @@ Sorgente Acqua di Sauceta
 <br>
 <br>
 --- End body ---
+
+<br> <br>
+Vista dell'entrata della Grotta dall'interno
+</div>
+<br>
+<br>
+<div align="center">
+<img id="sl6" src="%file_root%custom/album/ambiente/lor6.JPG" alt="" border="0" width="550">
+<br> <br>
+Calabritto visto dalla Grotta
+</div>
+<br>
+<br>
+<div align="center">
+<img id="sl9" src="%file_root%custom/album/ambiente/lor9.JPG" alt="" border="0" width="550">
+<br> <br>
+"Ciredda": rudere mulino
+</div>
+<br>
+<br>
+<div align="center">
+<img id="sl3" src="%file_root%custom/album/ambiente/SL3.JPG" alt="" border="0" width="550">
+<br> <br>
+"Ciredda": Rio Zagarone
+</div>
+<br>
+<br>
+<div align="center">
+<img id="sl10" src="%file_root%custom/album/ambiente/lor10.JPG" alt="" border="0" width="550">
+<br> <br>
+Ruscello generato dalla sorgente Acqua della Sauceta
+</div>
+<br>
+<br>
+<div align="center">
+<img id="sl4" src="%file_root%custom/album/ambiente/SL4.JPG" alt="" border="0" width="550">
+<br> <br>
+Sorgente Acqua della Sauceta
+</div>
+<br>
+<br>
+<div align="center">
+<div align="center">
+<img id="sl11" src="%file_root%custom/album/ambiente/lor11.JPG" alt="" border="0" width="550">
+<br> <br>
+Sentiero Sauceta - Calabritto
+</div>
+<br>
+<br>
+<img id="sl12" src="%file_root%custom/album/ambiente/lor12.JPG" alt="" border="0" width="550">
+<br> <br>
+Forra di Calabritto
+</div>
+<br>
+<br>
+--- End body ---

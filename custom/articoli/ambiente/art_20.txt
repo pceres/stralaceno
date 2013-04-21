@@ -1,0 +1,109 @@
+Autore::
+Titolo::Monte Pollaro e Madonna di Grienzi
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 14 aprile 2013<br>
+<br>
+Calabritto - Coste - Piano d'Acera - Monte Pollaro - Madonna di Grienzi - Raia della Quercia - Ponticchio (Calabritto)
+<br><br><br>
+<img id="gri1" src="%file_root%custom/album/ambiente/gri1.JPG" alt="" border="0" width="550">
+<br> <br>
+Coste - rudere
+<br>
+<br>
+<br>
+<img id="gri2" src="%file_root%custom/album/ambiente/gri2.JPG" alt="" border="0" width="550">
+<br> <br>
+Piano d'Acera - Fontana di Nunzio
+<br>
+<br>
+<br>
+<img id="gri3" src="%file_root%custom/album/ambiente/gri3.JPG" alt="" border="0" width="550">
+<br> <br>
+Piano d'Acera visto dalle coste del Monte Pollaro
+<br>
+<br>
+<br>
+<img id="gri4" src="%file_root%custom/album/ambiente/gri4.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Pollaro
+<br>
+<br>
+<br>
+<img id="gri5" src="%file_root%custom/album/ambiente/gri5.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Pollaro - La Fossa
+<br>
+<br>
+<br>
+<img id="gri6" src="%file_root%custom/album/ambiente/gri6.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Pollaro - sentiero verso "Grienzi" e vista del Monte Cervarulo
+<br>
+<br>
+<br>
+<img id="gri7" src="%file_root%custom/album/ambiente/gri7.JPG" alt="" border="0" width="550">
+<br> <br>
+Cappella Madonna di Grienzi
+<br>
+<br>
+<br>
+<img id="gri11" src="%file_root%custom/album/ambiente/gri11.JPG" alt="" border="0" width="550">
+<br> <br>
+Cappella Madonna di Grienzi - interno
+<br>
+<br>
+<br>
+<img id="gri8" src="%file_root%custom/album/ambiente/gri8.JPG" alt="" border="0" width="550">
+<br> <br>
+Madonna di Grienzi - fontane
+<br>
+<br>
+<br>
+<img id="gri9" src="%file_root%custom/album/ambiente/gri9.JPG" alt="" border="0" width="550">
+<br> <br>
+Madonna di Grienzi - Vallone Rivezzolo
+<br>
+<br>
+<br>
+<img id="gri10" src="%file_root%custom/album/ambiente/gri10.JPG" alt="" border="0" width="550">
+<br> <br>
+Madonna di Grienzi - fontana
+<br>
+<br>
+<br>
+<img id="gri12" src="%file_root%custom/album/ambiente/gri12.JPG" alt="" border="0" width="550">
+<br> <br>
+Cappella Madonna di Grienzi e Monte Pollaro
+<br>
+<br>
+<br>
+<img id="gri13" src="%file_root%custom/album/ambiente/gri13.JPG" alt="" border="0" width="550">
+<br> <br>
+Sorgente di Petrella (Patraiedda)
+<br>
+<br>
+<br>
+<img id="gri14" src="%file_root%custom/album/ambiente/gri14.JPG" alt="" border="0" width="550">
+<br> <br>
+Raia della Quercia (Cippaiuolo) - Poggio della Madonna
+<br>
+<br>
+<br>
+<img id="gri15" src="%file_root%custom/album/ambiente/gri15.JPG" alt="" border="0" width="550">
+<br> <br>
+Ponticchio (la Scatuorchiu) - Poggio della Madonna
+<br>
+<br>
+<br>
+<img id="gri16" src="%file_root%custom/album/ambiente/gri16.JPG" alt="" border="0" width="550">
+<br> <br>
+Ponticchio - Fonte Noce Forchione
+<br>
+<br>
+<br>
+<a href="http://www.openstreetmap.org/?lat=40.7894&lon=15.192&zoom=14&layers=M">Vai alla mappa del percorso su Openstreetmap.org</a>
+<br><br>
+<br>
+--- End body ---

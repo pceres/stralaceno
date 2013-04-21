@@ -1,0 +1,28 @@
+Autore::
+Titolo::Maratona di Parigi 2013
+--- Begin body ---
+<br>
+Sono stati 38690 i runner che hanno regolarmente portato a termine la maratona di Parigi del 7 aprile 2013, giunta alla sua 37^ edizione. 
+&Egrave; una delle 5 maratone pi&ugrave; partecipate del mondo, insieme a New York, Chicago, Londra e Berlino.
+<br>
+Il percorso &egrave; tra i pi&ugrave; belli al mondo, e tocca molti dei punti pi&ugrave; caratteristici della citt&agrave;, tra cui Place de la Concorde, Rue de Rivoli, Place de Bastille e poi il verde del Bois de Vincennes, con il suo meraviglioso castello, la Bastille, il Louvre, la Nation, Vincennes e Les Tuileri&egrave;s.
+Il percorso &egrave; ondulato, ma nel complesso veloce. <br>
+La gara &egrave; stata vinta da Peter Some del Kenya, con il tempo di 2h 05' 38''.<br>
+<br>
+<b>In gara per l’ARS Giuseppe Cetrulo con il numero 5008, che si &egrave; classificato 1933° con il tempo di 3 ore 9 minuti e 13 secondi (real time) e Mauro Losco con il numero 10288, che ha concluso la gara in 4472° posizione in 3 ore 23 minuti e 24 secondi (real time).</b><br><br>
+<font color="red">
+Tutte le foto della spedizione parigina di Giuseppe Cetrulo e Mauro Losco le trovate
+<a href="album.php?anno=Parigi_13">qui</a>. <i>(Foto di Margherita Spatola)</i></font>
+<div align="center"><br>
+<img id="cetrulo" src="%file_root%custom/album/Parigi_13/p21.JPG" alt="Cetrulo" border="0" width="550"><br>
+</div><br><br>
+<div align="center">
+<img id="cetrulo" src="%file_root%custom/album/Parigi_13/p15.JPG" alt="Cetrulo" border="0" width="550"><br>
+</div><br><br>
+<div align="center">
+<img id="cetrulo" src="%file_root%custom/album/Parigi_13/p2.JPG" alt="Cetrulo" border="0" width="550"><br>
+</div><br>
+<br>
+<font color="#CC3399">
+<i><b>In contemporanea si &egrave; svolta a Firenze la 30esima edizione della mezza maratona che ha visto in gara il "nostro" Carmine Calvanese che ha chiuso la prova in 1011^ posizione con il tempo di 1 ora 47 minuti e 36 secondi. I partecipanti sono stati 1857.</b></font><br><br></i>
+--- End body ---
