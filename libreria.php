@@ -1066,16 +1066,27 @@ $no_close_tags = array("p","br","?php","img"); // array di tags che non richiedo
 	$inside_comment = 0;
 	foreach ($testo_in as $id_line => $line)
 	{
+		// se c'e' una riga con tag <script>, interrompi subito
+		if (ereg("<script[^>]*>",$line))
+		{
+			break;
+		}
+		
+		// commenti su una sola riga: li elimino
+		if (ereg("<!--[^-]*-->",$line))
+		{
+			$line = ereg_replace("<!--.*-->","",$line);
+		}
 		
 		// gestione commenti su piu' righe: devono iniziare con una riga con "<!..", e devono finire con una riga con "-->"
-		if (ereg("^<!--",$line) )
+		if (ereg("^[ \t]*<!--",$line))
 		{
 			$inside_comment = 1;	// da questa riga inizia un commento HTML: scarta le righe finche' una inizia con "-->"
 			continue;
 		}
 		if ($inside_comment)
 		{
-			if (ereg("^-->",$line))
+			if (ereg("^[ \t]*-->",$line))
 			{
 				$inside_comment = 0;
 			}
