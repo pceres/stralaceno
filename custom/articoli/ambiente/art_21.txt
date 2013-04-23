@@ -1,0 +1,107 @@
+Autore::
+Titolo::Aumento deflusso Sorgenti del Sele
+--- Begin body ---
+<br>
+<div align="center">
+<br>16-17 aprile 2013<br>
+<br>
+Aumento deflusso Sorgenti del Sele (Caposele)
+<br><br><br>
+<img id="sel1" src="%file_root%custom/album/ambiente/sel1.JPG" alt="" border="0" width="550">
+<br> <br>
+Deflusso - Piazza Sanità
+<br>
+<br>
+<br>
+<img id="sel2" src="%file_root%custom/album/ambiente/sel2.JPG" alt="" border="0" width="550">
+<br> <br>
+Deflusso - Piazza Sanità
+<br>
+<br>
+<br>
+<img id="sel3" src="%file_root%custom/album/ambiente/sel3.JPG" alt="" border="0" width="550">
+<br> <br>
+Deflusso - Piazza Sanità
+<br>
+<br>
+<br>
+<img id="sel4" src="%file_root%custom/album/ambiente/sel4.JPG" alt="" border="0" width="550">
+<br> <br>
+Deflusso - Piazza Sanità
+<br>
+<br>
+<br>
+<img id="sel5" src="%file_root%custom/album/ambiente/sel5.JPG" alt="" border="0" width="550">
+<br> <br>
+Deflusso - Piazza Sanità
+<br>
+<br>
+<br>
+<img id="sel6" src="%file_root%custom/album/ambiente/sel6.JPG" alt="" border="0" width="550">
+<br> <br>
+Deflusso - Piazza Sanità
+<br>
+<br>
+<br>
+<img id="sel16" src="%file_root%custom/album/ambiente/sel16.JPG" alt="" border="0" width="550">
+<br> <br>
+Deflusso - Piazza Sanità
+<br>
+<br>
+<br>
+<img id="sel7" src="%file_root%custom/album/ambiente/sel7.JPG" alt="" border="0" width="550">
+<br> <br>
+Cantiere Eaap - Ingresso galleria Pavoncelli
+<br>
+<br>
+<br>
+<img id="sel9" src="%file_root%custom/album/ambiente/sel9.JPG" alt="" border="0" width="550">
+<br> <br>
+Cantiere Eaap - Ingresso galleria Pavoncelli
+<br>
+<br>
+<br>
+<img id="sel8" src="%file_root%custom/album/ambiente/sel8.JPG" alt="" border="0" width="550">
+<br> <br>
+Cantiere Eaap - galleria Pavoncelli
+<br>
+<br>
+<br>
+<img id="sel13" src="%file_root%custom/album/ambiente/sel13.JPG" alt="" border="0" width="550">
+<br> <br>
+Fiume Sele - via IV Novembre
+<br>
+<br>
+<br>
+<img id="sel12" src="%file_root%custom/album/ambiente/sel12.JPG" alt="" border="0" width="550">
+<br> <br>
+Fiume Sele - via IV Novembre 
+<br>
+<br>
+<br>
+<img id="sel11" src="%file_root%custom/album/ambiente/sel11.JPG" alt="" border="0" width="550">
+<br> <br>
+Fiume Sele - via IV Novembre 
+<br>
+<br>
+<br>
+<img id="sel15" src="%file_root%custom/album/ambiente/sel15.JPG" alt="" border="0" width="550">
+<br> <br>
+Fiume Sele - via IV Novembre
+<br>
+<br>
+<br>
+<img id="sel10" src="%file_root%custom/album/ambiente/sel10.JPG" alt="" border="0" width="550">
+<br> <br>
+Fiume Sele - via IV Novembre
+<br>
+<br>
+<br>
+<img id="sel14" src="%file_root%custom/album/ambiente/sel14.JPG" alt="" border="0" width="550">
+<br> <br>
+Fiume Sele - via IV Novembre
+<br>
+<br>
+<br>
+</div>
+--- End body ---

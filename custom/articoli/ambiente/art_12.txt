@@ -1,47 +1,42 @@
 Autore::
-Titolo::Escursioni 2013
+Titolo::Grotta San Lorenzo - Sauceta
 --- Begin body ---
-<br><b>Breve rassegna fotografica delle escursioni ARS per far conoscere ed apprezzare luoghi di interesse naturalistico e paesaggistico locali</b><br><br>
+<br><b>Breve rassegna fotografica di escursioni e passeggiate ARS, per far conoscere ed apprezzare luoghi di interesse naturalistico e paesaggistico locali</b><br>
 <div align="center">
---------------------------------------------------------------------------------------------------------------------------------------------
 <br>
-<br>Escursione del 20 gennaio<br>
+<br>Escursione del 20 gennaio 2013<br>
 <br>
-Avigliano - Grotta San Lorenzo - Rio Zagarone - Calabritto
+Avigliano - Grotta San Lorenzo (Grotta "Cavutata") - "Ciredda" - Acqua della Sauceta (Calabritto)
 <br><br><br>
-</div>
-<div align="center">
-<img id="" src="%file_root%custom/album/ambiente/SL.JPG" alt="" border="0" width="550">
+<img id="sl" src="%file_root%custom/album/ambiente/SL.JPG" alt="" border="0" width="550">
 <br> <br>
 Grotta San Lorenzo
 </div>
 <br>
 <br>
-<br>
 <div align="center">
-<img id="" src="%file_root%custom/album/ambiente/SL2.JPG" alt="" border="0" width="550">
+<img id="sl2" src="%file_root%custom/album/ambiente/SL2.JPG" alt="" border="0" width="550">
 <br> <br>
 Grotta San Lorenzo - interno
 </div>
 <br>
 <br>
-<br>
 <div align="center">
-<img id="" src="%file_root%custom/album/ambiente/SL3.JPG" alt="" border="0" width="550">
+<img id="sl5" src="%file_root%custom/album/ambiente/lor5.JPG" alt="" border="0" width="550">
 <br> <br>
-"Ciredda" Rio Zagarone
+Grotta San Lorenzo - interno
 </div>
 <br>
 <br>
 <div align="center">
-<img id="" src="%file_root%custom/album/ambiente/SL4.JPG" alt="" border="0" width="550">
+<img id="sl7" src="%file_root%custom/album/ambiente/lor7.JPG" alt="" border="0" width="550">
 <br> <br>
-Sorgente Acqua di Sauceta
+Grotta San Lorenzo - interno
 </div>
 <br>
 <br>
---- End body ---
-
+<div align="center">
+<img id="sl8" src="%file_root%custom/album/ambiente/lor8.JPG" alt="" border="0" width="550">
 <br> <br>
 Vista dell'entrata della Grotta dall'interno
 </div>

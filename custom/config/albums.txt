@@ -1842,33 +1842,11 @@ single.jpg::::07/06/2010 La corsa dei single - Cinque chilometri di corsa, per l
 Newcastle09.jpg::::29/09/2009 Maratona d'autunno - I corridori della Grande corsa del Nord, passano sul ponte di Newcastle mentre gli aerei acrobatici danno il benvenuto in citt&agrave; (Corriere.it)
 
 [FotoFlash]
+bravini13.jpg::::21.04.2013 - Carmine Calvanese durante il 2&deg; memorial N.Bravini a Terni.
 Terni2013.jpg::::24.03.2013 - Carmine Calvanese impegnato nelle prime fasi della Maratonina di Terni.
 cas.jpg::::15.02.2013 - Pronte le nuove casacche ARS per i due ultimi arrivati nella squadra podistica agonistica: Mauro Losco e Carmine Calvanese.
 AlfDAuria.jpg::::13.01.2013 - Alfonsina D'Auria (maglietta gialla) prende parte alla categoria esordienti del Campionato Brianzolo di cross, tappa di Cant&ugrave;.
 
-[ambiente]
-Parco_Picentini.jpg::Parco dei Monti Picentini::Vista d'insieme::
-Parco_Picentini_zoom_Caposele.jpg::Parco dei Monti Picentini::zoom comune di Caposele (centro abitato in zona C, zona adiacente in zona B)
-Parco_Picentini_zoom_Caposele_2.jpg::Parco dei Monti Picentini::zoom centro abitato Caposele
-tk2007_1.jpg::
-tk2007_2.jpg::
-tk2007_3.jpg:: 
-tk2007_4.jpg:: 
-tk2007_5.jpg:: 
-tk2007_6.jpg:: 
-tk2007_7.jpg:: 
-tk2007_8.jpg:: 
-acq1.jpg::
-acq2.jpg::
-acq3.jpg::
-acq4.jpg::
-acq5.jpg::
-acq6.jpg::
-acq7.jpg::
-pud.jpg::
-pud2.jpg::
-orso.jpg::
-Lupo2010.jpg::
 
 [Parigi_13]
 p2.JPG::
@@ -1893,3 +1871,27 @@ p21.JPG::
 p22.JPG::
 p23.JPG::
 p24.JPG::
+
+[ambiente]
+Parco_Picentini.jpg::Parco dei Monti Picentini::Vista d'insieme::
+Parco_Picentini_zoom_Caposele.jpg::Parco dei Monti Picentini::zoom comune di Caposele (centro abitato in zona C, zona adiacente in zona B)
+Parco_Picentini_zoom_Caposele_2.jpg::Parco dei Monti Picentini::zoom centro abitato Caposele
+tk2007_1.jpg::
+tk2007_2.jpg::
+tk2007_3.jpg:: 
+tk2007_4.jpg:: 
+tk2007_5.jpg:: 
+tk2007_6.jpg:: 
+tk2007_7.jpg:: 
+tk2007_8.jpg:: 
+acq1.jpg::
+acq2.jpg::
+acq3.jpg::
+acq4.jpg::
+acq5.jpg::
+acq6.jpg::
+acq7.jpg::
+pud.jpg::
+pud2.jpg::
+orso.jpg::
+Lupo2010.jpg::
