@@ -1230,7 +1230,7 @@ $str_title = "Titolo::$title\r\n";
 $str_begin_text = "--- Begin body ---\r\n";
 $str_end_text = "--- End body ---\r\n";
 
-$bulk = array_merge($str_author,$str_title,$str_begin_text,$bulk,$str_end_text);
+$bulk = array_merge(Array($str_author,$str_title,$str_begin_text),$bulk,Array($str_end_text));
 
 // scrivi il file art_x.txt
 if ($handle=fopen($art_filename,'w'))
@@ -1846,7 +1846,7 @@ foreach ($modules_cfg_data as $module_id => $module_cfg_data)
 	{
 		$cfg_filename = $cfgfile_data[0]; // primo elemento della riga: diventera' una chiave di $cfgbulk
 		
-		$cfgbulk[$cfg_filename] = array_merge($module_id,array_slice($cfgfile_data,1));
+		$cfgbulk[$cfg_filename] = array_merge(Array($module_id),array_slice($cfgfile_data,1));
 	}
 }
 return $cfgbulk;

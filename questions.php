@@ -682,7 +682,7 @@ case "results":
 		
 		// crea il record per $elenco_giocate
 		//$dati_giocata = array_merge($count, $giocata, $cedente_biglietto, $nominativo_biglietto, $data_biglietto, $id_tipo_biglietto, $tipo_biglietto, $punteggi, $punteggi_output);
-		$dati_giocata = array_merge($count, $giocata, $dati_esterni_per_giocata , $punteggi, $punteggi_output);
+		$dati_giocata = array_merge(Array($count), $giocata, $dati_esterni_per_giocata , $punteggi, $punteggi_output);
 		array_push($elenco_giocate,$dati_giocata);
 	}
 	

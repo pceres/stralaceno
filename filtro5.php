@@ -50,7 +50,7 @@ for ($i = 1; $i < count($archivio); $i++) {
 	}
 
 
-$head = array_merge("Atleta (ID)",$elenco_anni);
+$head = array_merge(Array("Atleta (ID)"),$elenco_anni);
 
 # disegna tabella
 echo "<table border=\"2\">\n";
