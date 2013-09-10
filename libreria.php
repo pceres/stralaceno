@@ -388,7 +388,7 @@ if (count($legenda_ordinata) > 0)
 			$info = "record personale";
 			break;
 		case $symbol_record_best:
-			$info = "record personale assoluto";
+			$info = "record personale non migliorato nelle successive partecipazioni";
 			break;
 		case 'info':
 			$voce = $symbol_info;
