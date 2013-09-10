@@ -1,0 +1,18 @@
+Autore::
+Titolo::XXV edizione
+--- Begin body ---
+<br>
+La XXV edizione della Stralaceno &egrave; stata vinta da DANIELE CAPRIO con il tempo di 19'14''.<br> Secondo posto per GIUSEPPE CETRULO con 21'10, terzo classificato DONATO CERES con 21'27''.
+<br>
+Tra le donne successo di ANNARITA D'ELIA con 26'03'' (nuovo record femminile della gara).
+<br><br>
+I partecipanti sono stati 62 pi&ugrave; due atleti fuori gara.<br>
+<br><a href="filtro4.php?anno=2013">La classifica ufficiale della Stralaceno 2013 &egrave; consultabile qui</a>.<br><br>
+<font color=”FF0000”><a href="album.php?anno=2012">QUI</a> inserite le prime foto commentate dell'edizione dello scorso anno - 2012, ancora non presenti sul sito </font> <br>
+<div align="center">
+<br>
+<img id="foto" src="%file_root%custom/album/2013/stra13_1.jpg " alt="" border="0" width="550">
+<br><br>
+</div>
+<br>
+--- End body ---

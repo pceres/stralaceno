@@ -1,4 +1,4 @@
-Id;Collaboratore;Sesso;Incarico;Anno;Link;Nota
+Id;Collaboratore;Sesso;Incarico;Anno;link;nota
 1;Nicola D'Auria;M;Organizzatore;1987;-;-
 22;Massimo Russomanno;M;Organizzatore;1987;-;-
 26;Donato Merola;M;Organizzatore;1987;-;-
@@ -117,7 +117,7 @@ Id;Collaboratore;Sesso;Incarico;Anno;Link;Nota
 33;Massimo Cetrulo;M;Addetto alla logistica;2008;-;-
 27;Nicola Cirillo;M;Servizio d'ordine;2008;-;-
 32;Alfonso Malanga;M;Ispettore di gara;2008;-;-
-11;Salvatore Russomanno;M;Medico di gara;2008;;
+11;Salvatore Russomanno;M;Medico di gara;2008;-;-
 31;Nicola Ciccone;M;Responsabile foto-video, Cameraman;2008;-;-
 39;Gerardo Donatiello;M;Cameraman;2008;-;-
 42;Gerardo Zarra;M;Fotografo;2008;-;-
@@ -187,8 +187,7 @@ Id;Collaboratore;Sesso;Incarico;Anno;Link;Nota
 54;Grazia Cibellis;F;Collaboratrice;2011;-;-
 55;Giovanni Viscardi;M;Collaboratore;2011;-;-
 34;Carmela Malanga;F;Collaboratrice;2011;-;-
-59;Grasso Filomena;F;Collaboratrice;2011;-;-
-
+59;Filomena Grasso;F;Collaboratrice;2011;-;-
 1;Nicola D'Auria;M;Organizzatore;2012;-;-
 2;Alessandro Russomanno;M;Organizzatore;2012;-;-
 52;Donato Ceres;M;Organizzatore;2012;-;-
@@ -210,3 +209,23 @@ Id;Collaboratore;Sesso;Incarico;Anno;Link;Nota
 63;Gerardoluigi Forte;M;Collaboratore;2012;-;-
 64;Sabrina Ciccone;F;Collaboratrice;2012;-;-
 55;Giovanni Viscardi;M;Collaboratore;2012;-;-
+1;Nicola D'Auria;M;Organizzatore;2013;-;-
+2;Alessandro Russomanno;M;Organizzatore;2013;-;-
+52;Donato Ceres;M;Organizzatore;2013;-;-
+36;Viscardi Paolo;M;Organizzatore;2013;-;-
+3;Donatello Cirillo;M;Organizzatore;2013;-;-
+27;Nicola Cirillo;M;Direttore di gara;2013;-;-
+4;Lello Viscardi;M;Segretario di gara;2013;-;-
+29;Giacomo Salicone;M;Primo Cronometrista;2013;-;-
+9;Alfonso Curcio;M;Secondo Cronometrista;2013;-;-
+5;Gerardo Ceres;M;Conduttore della manifestazione;2013;-;-
+60;Gerardo Cetrulo 'Pius';M;Ispettore di gara;2013;-;-
+56;Gerardo Corona;M;Responsabile foto;2013;-;-
+68;Natascia Curcio;F;Fotografo;2013;-;-
+66;Concetta Caruso;F;Collaboratrice di segreteria;2013;-;-
+67;Gerardo Russomanno;M;Collaboratore ispettore di gara;2013;-;-
+45;Saverio Perna;M;Collaboratore;2013;-;-
+55;Giovanni Viscardi;M;Collaboratore;2013;-;-
+69;Ilenia Aiello;F;Collaboratrice;2013;-;-
+33;Massimo Cetrulo;M;Collaboratore;2013;-;-
+70;Irene Galdi;F;Collaboratrice;2013;-;-

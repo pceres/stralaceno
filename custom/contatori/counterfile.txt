@@ -20,3 +20,12 @@ classifica_anno:78
 classifica_generale_MF:33
 tempi_atleta:148
 homepage:192
+dmin_upload_text:9
+classifica_generale_F:76
+classifica_generale_MF:256
+album:541
+classifica_anno:701
+foto:1115
+homepage:1649
+classifica_generale_tempi:140
+tempi_atleta:921
