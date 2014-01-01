@@ -1,0 +1,94 @@
+Autore::
+Titolo::Altopiano di Laceno
+--- Begin body ---
+<br>
+<div align="center">
+<br>Passeggiata del 14 luglio 2013<br>
+<br>
+Altopiano di Laceno (Bagnoli Irpino)
+<br><br><br>
+<img id="laceno1" src="%file_root%custom/album/ambiente/laceno1.JPG" alt="" border="0" width="550">
+<br> <br>
+Altopiano di Laceno
+<br>
+<br>
+<br>
+<img id="laceno2" src="%file_root%custom/album/ambiente/laceno2.JPG" alt="" border="0" width="550">
+<br> <br>
+Altopiano di Laceno: Caserma Tronola
+<br>
+<br>
+<br>
+<img id="laceno3" src="%file_root%custom/album/ambiente/laceno3.JPG" alt="" border="0" width="550">
+<br> <br>
+Altopiano di Laceno: Sorgente Tronola
+<br>
+<br>
+<br>
+<img id="laceno4" src="%file_root%custom/album/ambiente/laceno4.JPG" alt="" border="0" width="550">
+<br> <br>
+Altopiano di Laceno: Sorgente Tronola, captazione
+<br>
+<br>
+<br>
+<img id="laceno5" src="%file_root%custom/album/ambiente/laceno5.JPG" alt="" border="0" width="550">
+<br> <br>
+Altopiano di Laceno: Il Casone
+<br>
+<br>
+<br>
+<img id="laceno6" src="%file_root%custom/album/ambiente/laceno6.JPG" alt="" border="0" width="550">
+<br> <br>
+Altopiano di Laceno: fontana nelle vicinanze del Casone
+<br>
+<br>
+<br>
+<img id="laceno7" src="%file_root%custom/album/ambiente/laceno7.JPG" alt="" border="0" width="550">
+<br> <br>
+Altopiano di Laceno: canale di raccolta in direzione del Lago
+<br>
+<br>
+<br>
+<img id="laceno8" src="%file_root%custom/album/ambiente/laceno8.JPG" alt="" border="0" width="550">
+<br> <br>
+Altopiano di Laceno: pianoro e, sullo sfondo, i Monti Magnone (Belvedere) e Calciogliano
+<br>
+<br>
+<br>
+<img id="laceno9" src="%file_root%custom/album/ambiente/laceno9.JPG" alt="" border="0" width="550">
+<br> <br>
+Altopiano di Laceno: sbocco del canale di raccolta nel Lago
+<br>
+<br>
+<br>
+<img id="laceno10" src="%file_root%custom/album/ambiente/laceno10.JPG" alt="" border="0" width="550">
+<br> <br>
+Altopiano di Laceno: il Lago
+<br>
+<br>
+<br>
+<img id="laceno11" src="%file_root%custom/album/ambiente/laceno11.JPG" alt="" border="0" width="550">
+<br> <br>
+Altopiano di Laceno: il Lago
+<br>
+<br>
+<br>
+<img id="laceno12" src="%file_root%custom/album/ambiente/laceno12.JPG" alt="" border="0" width="550">
+<br> <br>
+Altopiano di Laceno: Cappella di Santa Nesta
+<br>
+<br>
+<br>
+<img id="laceno13" src="%file_root%custom/album/ambiente/laceno13.JPG" alt="" border="0" width="550">
+<br> <br>
+Altopiano di Laceno: il Lago
+<br>
+<br>
+<br>
+<img id="laceno14" src="%file_root%custom/album/ambiente/laceno14.JPG" alt="" border="0" width="550">
+<br> <br>
+Altopiano di Laceno: il Lago e, in fondo, il Monte Cervarolo e il Monte Cervialto
+<br>
+<br>
+<br>
+--- End body ---

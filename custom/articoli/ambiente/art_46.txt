@@ -1,0 +1,105 @@
+Autore::
+Titolo::Monte Panormo (Alburno)
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 22 settembre 2013<br>
+<br>Sicignano, Vuccolo dell'Arena, Monte Panormo e ritorno (Sicignano degli Alburni)
+<br><br><br>
+<img id="panormo1" src="%file_root%custom/album/ambiente/panormo1.JPG" alt="" border="0" width="550">
+<br> <br>
+Il Monte Panormo visto dall'abitato di Sicignano
+<br>
+<br>
+<br>
+<img id="panormo2" src="%file_root%custom/album/ambiente/panormo2.jpg" alt="" border="0" width="550">
+<br> <br>
+Il Castello Giusso di Sicignano, visto dalla prima parte del sentiero per il Monte Panormo
+<br>
+<br>
+<br>
+<img id="panormo3" src="%file_root%custom/album/ambiente/panormo3.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta di Zi Carluccio
+<br>
+<br>
+<br>
+<img id="panormo4" src="%file_root%custom/album/ambiente/panormo4.JPG" alt="" border="0" width="550">
+<br> <br>
+Pareti rocciose degli Alburni
+<br>
+<br>
+<br>
+<img id="panormo5" src="%file_root%custom/album/ambiente/panormo5.JPG" alt="" border="0" width="550">
+<br> <br>
+Parete nord-est del Monte Panormo
+<br>
+<br>
+<br>
+<img id="panormo6" src="%file_root%custom/album/ambiente/panormo6.JPG" alt="" border="0" width="550">
+<br> <br>
+Vuccolo dell'Arena: inghiottitoio
+<br>
+<br>
+<br>
+<img id="panormo7" src="%file_root%custom/album/ambiente/panormo7.JPG" alt="" border="0" width="550">
+<br> <br>
+Vuccolo dell'Arena: inghiottitoio
+<br>
+<br>
+<br>
+<img id="panormo8" src="%file_root%custom/album/ambiente/panormo8.JPG" alt="" border="0" width="550">
+<br> <br>
+Vuccolo dell'Arena: inghiottitoio con neve sul fondo
+<br>
+<br>
+<br>
+<img id="panormo9" src="%file_root%custom/album/ambiente/panormo9.JPG" alt="" border="0" width="550">
+<br> <br>
+Veduta della Valle del Sele dalla cresta del Monte Panormo
+<br>
+<br>
+<br>
+<img id="panormo10" src="%file_root%custom/album/ambiente/panormo10.JPG" alt="" border="0" width="550">
+<br> <br>
+Vista dell'altopiano degli Alburni dalla cresta del Monte Panormo
+<br>
+<br>
+<br>
+<img id="panormo11" src="%file_root%custom/album/ambiente/panormo11.JPG" alt="" border="0" width="550">
+<br> <br>
+Vetta del Monte Panormo
+<br>
+<br>
+<br>
+<img id="panormo12" src="%file_root%custom/album/ambiente/panormo12.JPG" alt="" border="0" width="550">
+<br> <br>
+Veduta di Petina dalla cresta del Monte Panormo
+<br>
+<br>
+<br>
+<img id="panormo13" src="%file_root%custom/album/ambiente/panormo13.JPG" alt="" border="0" width="550">
+<br> <br>
+Vista degli Alburni Occidentali dalla cresta del Monte Panormo
+<br>
+<br>
+<br>
+<img id="panormo14" src="%file_root%custom/album/ambiente/panormo14.JPG" alt="" border="0" width="550">
+<br> <br>
+Sentiero alla base delle pareti del Monte Panormo
+<br>
+<br>
+<br>
+<img id="panormo15" src="%file_root%custom/album/ambiente/panormo15.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta del Drago
+<br>
+<br>
+<br>
+<img id="panormo16" src="%file_root%custom/album/ambiente/panormo16.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta del Drago: interno
+<br>
+<br>
+<br>
+--- End body ---

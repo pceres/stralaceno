@@ -9,3 +9,7 @@ Titolo::La Foto della Settimana
 <i>La raccolta dell'album "La Foto della Settimana" la trovate <a href="album.php?anno=Foto Settimana">qui</a>.<br>
 </b></i>
 --- End body ---
+e grande importanza per l'economia locale. Assecondando una tradizione di più di 300 anni, le campane della chiesa di San Michele suonano per annunciare il momento in cui i frutti sono maturi e i cittadini possono prenderle dagli alberi, con le scale di legno (Corriere.it)</p><br></font></font>
+<i>La raccolta dell'album "La Foto della Settimana" la trovate <a href="album.php?anno=Foto Settimana">qui</a>.<br>
+</b></i>
+--- End body ---

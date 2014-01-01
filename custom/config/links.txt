@@ -16,4 +16,3 @@ http://www.podistidoc.it/::Podistidoc
 http://www.fidal.it/::Fidal
 http://www.fidalcampania.com::Fidal Campania
 http://www.fidalsalerno.it:: Fidal Salerno
-http://www.polisportivacalabritto.it:: Polisportiva Calabritto

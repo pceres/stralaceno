@@ -1,0 +1,93 @@
+Autore::
+Titolo::Monte Eremita
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 18 agosto 2013<br>
+<br>Piano di Pecore, Franzino, Monte Eremita, Piana, Piano Lungo, Piano di Pecore (Colliano, Laviano)
+<br><br><br>
+<img id="eremita1" src="%file_root%custom/album/ambiente/eremita1.JPG" alt="" border="0" width="550">
+<br> <br>
+Piano di Pecore
+<br>
+<br>
+<br>
+<img id="eremita2" src="%file_root%custom/album/ambiente/eremita2.JPG" alt="" border="0" width="550">
+<br> <br>
+Piano di Pecore
+<br>
+<br>
+<br>
+<img id="eremita3" src="%file_root%custom/album/ambiente/eremita3.JPG" alt="" border="0" width="550">
+<br> <br>
+Franzino
+<br>
+<br>
+<br>
+<img id="eremita4" src="%file_root%custom/album/ambiente/eremita4.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Eremita: vista del Monte Pennone e, sullo sfondo, i Picentini orientali
+<br>
+<br>
+<br>
+<img id="eremita5" src="%file_root%custom/album/ambiente/eremita5.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Eremita: vista della lato est del Monte Marzano
+<br>
+<br>
+<br>
+<img id="eremita6" src="%file_root%custom/album/ambiente/eremita6.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Eremita: vetta
+<br>
+<br>
+<br>
+<img id="eremita7" src="%file_root%custom/album/ambiente/eremita7.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Eremita: veduta del Monte Pennacchio
+<br>
+<br>
+<br>
+<img id="eremita8" src="%file_root%custom/album/ambiente/eremita8.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Eremita: vista dei Picentini orientali e di Caposele
+<br>
+<br>
+<br>
+<img id="eremita9" src="%file_root%custom/album/ambiente/eremita9.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Eremita: veduta del versante est dei Monti Marzano e Pennone
+<br>
+<br>
+<br>
+<img id="eremita14" src="%file_root%custom/album/ambiente/eremita14.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Eremita: pianoro in vetta
+<br>
+<br>
+<br>
+<img id="eremita10" src="%file_root%custom/album/ambiente/eremita10.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Eremita: cresta
+<br>
+<br>
+<br>
+<img id="eremita11" src="%file_root%custom/album/ambiente/eremita11.JPG" alt="" border="0" width="550">
+<br> <br>
+Piana: Caserma Forestale di Laviano
+<br>
+<br>
+<br>
+<img id="eremita12" src="%file_root%custom/album/ambiente/eremita12.JPG" alt="" border="0" width="550">
+<br> <br>
+Piana
+<br>
+<br>
+<br>
+<img id="eremita13" src="%file_root%custom/album/ambiente/eremita13.JPG" alt="" border="0" width="550">
+<br> <br>
+Piano Lungo: pozzo
+<br>
+<br>
+<br>
+--- End body ---

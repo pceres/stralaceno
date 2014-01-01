@@ -1,0 +1,87 @@
+Autore::
+Titolo::Monte Calvello
+--- Begin body ---
+<br>
+<div align="center">
+<br>Passeggiata del 11 agosto 2013<br>
+<br>Serro della Falasca, Monte Calvello e ritorno (Bagnoli Irpino)
+<br><br><br>
+<img id="calvello1" src="%file_root%custom/album/ambiente/calvello1.JPG" alt="" border="0" width="550">
+<br> <br>
+Serro della Falasca: il Canalone
+<br>
+<br>
+<br>
+<img id="calvello2" src="%file_root%custom/album/ambiente/calvello2.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Calvello: vista del versante ovest
+<br>
+<br>
+<br>
+<img id="calvello3" src="%file_root%custom/album/ambiente/calvello3.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Calvello: vista del Monte Pollaro e del Monte Altillo
+<br>
+<br>
+<br>
+<img id="calvello4" src="%file_root%custom/album/ambiente/calvello4.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Calvello: pianoro sulla cima
+<br>
+<br>
+<br>
+<img id="calvello5" src="%file_root%custom/album/ambiente/calvello5.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Calvello: vista, in lontananza, del Monte Accellica
+<br>
+<br>
+<br>
+<img id="calvello6" src="%file_root%custom/album/ambiente/calvello6.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Calvello: veduta di Piano Sazzano e, sullo sfondo, il Monte Cervialto
+<br>
+<br>
+<br>
+<img id="calvello7" src="%file_root%custom/album/ambiente/calvello7.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Calvello: vista lato sud, Lagarelli, Monte Pollaro, l'Alta Valle del Sele e il Monte Altillo
+<br>
+<br>
+<br>
+<img id="calvello8" src="%file_root%custom/album/ambiente/calvello8.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Calvello: cima
+<br>
+<br>
+<br>
+<img id="calvello11" src="%file_root%custom/album/ambiente/calvello11.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Calvello: cima
+<br>
+<br>
+<br>
+<img id="calvello12" src="%file_root%custom/album/ambiente/calvello12.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Calvello: vista della Valle dell'Ofanto
+<br>
+<br>
+<br>
+<img id="calvello13" src="%file_root%custom/album/ambiente/calvello13.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Calvello: veduta della Valle di Liero
+<br>
+<br>
+<br>
+<img id="calvello14" src="%file_root%custom/album/ambiente/calvello14.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Calvello: vista del Serrone Pizzuto e Vado dell'Asta
+<br>
+<br>
+<br>
+<img id="calvello15" src="%file_root%custom/album/ambiente/calvello15.JPG" alt="" border="0" width="550">
+<br> <br>
+Fontana Gavitoni
+<br>
+<br>
+<br>
+--- End body ---

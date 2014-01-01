@@ -1,0 +1,82 @@
+Autore::
+Titolo::Circuito del Monte Valva
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 15 dicembre 2013<br>
+<br>
+Campo Pastore - Monte Spagarrino - Monte Valva - Fago Lungo - Valva Vecchia - Elice - Campo Pastore (Valva)
+<br><br><br>
+<img id="vecchiavalva1" src="%file_root%custom/album/ambiente/vecchiavalva1.JPG" alt="" border="0" width="550">
+<br> <br>
+Sentiero per il Monte Valva: vista su Calabritto e sul Monte Vallicelle
+<br>
+<br>
+<br>
+<img id="vecchiavalva2" src="%file_root%custom/album/ambiente/vecchiavalva2.JPG" alt="" border="0" width="550">
+<br> <br>
+Sentiero per il Monte Valva
+<br>
+<br>
+<br>
+<img id="vecchiavalva3" src="%file_root%custom/album/ambiente/vecchiavalva3.JPG" alt="" border="0" width="550">
+<br> <br>
+Anticima Monte Valva: veduta sul Monte Vado del Piesco
+<br>
+<br>
+<br>
+<img id="vecchiavalva4" src="%file_root%custom/album/ambiente/vecchiavalva4.JPG" alt="" border="0" width="550">
+<br> <br>
+Anticima Monte Valva: vista della cima di Monte Valva e, sullo sfondo, la sommità innevata del Monte Cervialto
+<br>
+<br>
+<br>
+<img id="vecchiavalva5" src="%file_root%custom/album/ambiente/vecchiavalva5.JPG" alt="" border="0" width="550">
+<br> <br>
+Cima Monte Valva: veduta della Valle del Sele e dei Picentini
+<br>
+<br>
+<br>
+<img id="vecchiavalva6" src="%file_root%custom/album/ambiente/vecchiavalva6.JPG" alt="" border="0" width="550">
+<br> <br>
+Particolare della parete ovest del Monte Valva 
+<br>
+<br>
+<br>
+<img id="vecchiavalva7" src="%file_root%custom/album/ambiente/vecchiavalva7.JPG" alt="" border="0" width="550">
+<br> <br>
+Cima Monte Valva: vista sui Picentini (La Picciola, della Croce, Polveracchio, Boschetiello)
+<br>
+<br>
+<br>
+<img id="vecchiavalva8" src="%file_root%custom/album/ambiente/vecchiavalva8.JPG" alt="" border="0" width="550">
+<br> <br>
+Cima Monte Valva: vista sui Picentini (Altillo, Cervialto, Cervarulo)
+<br>
+<br>
+<br>
+<img id="vecchiavalva9" src="%file_root%custom/album/ambiente/vecchiavalva9.JPG" alt="" border="0" width="550">
+<br> <br>
+Fago Lungo: vista su Valva Vecchia
+<br>
+<br>
+<br>
+<img id="vecchiavalva10" src="%file_root%custom/album/ambiente/vecchiavalva10.JPG" alt="" border="0" width="550">
+<br> <br>
+Valva Vecchia: veduta su Valva
+<br>
+<br>
+<br>
+<img id="vecchiavalva11" src="%file_root%custom/album/ambiente/vecchiavalva11.JPG" alt="" border="0" width="550">
+<br> <br>
+Sentiero Valva - Valva Vecchia: parete rocciosa
+<br>
+<br>
+<br>
+<img id="vecchiavalva12" src="%file_root%custom/album/ambiente/vecchiavalva12.JPG" alt="" border="0" width="550">
+<br> <br>
+Sentiero Valva - Valva Vecchia
+<br>
+<br>
+<br>
+--- End body ---

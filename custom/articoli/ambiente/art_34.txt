@@ -1,0 +1,105 @@
+Autore::
+Titolo::Monti Cervarulo e Cervialto
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 27 luglio 2013<br>
+<br>Piano Migliato, Toppa dei Canti, Monte Cervarulo, Monte Cervialto, Filicecchio, Piano Migliato (Calabritto)
+<br><br><br>
+<img id="cervaru1" src="%file_root%custom/album/ambiente/cervaru1.JPG" alt="" border="0" width="550">
+<br> <br>
+Piano Migliato
+<br>
+<br>
+<br>
+<img id="cervaru2" src="%file_root%custom/album/ambiente/cervaru2.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Cervarulo: la cima e, sullo sfondo, il Monte Calvello
+<br>
+<br>
+<br>
+<img id="cervaru3" src="%file_root%custom/album/ambiente/cervaru3.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Cervarulo: vista di Raia della Quercia
+<br>
+<br>
+<br>
+<img id="cervaru4" src="%file_root%custom/album/ambiente/cervaru4.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Cervarulo: veduta del Monte Altillo e del Monte Boschetiello
+<br>
+<br>
+<br>
+<img id="cervaru5" src="%file_root%custom/album/ambiente/cervaru5.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Cervarulo: vista del lato est del Monte Cervialto
+<br>
+<br>
+<br>
+<img id="cervaru6" src="%file_root%custom/album/ambiente/cervaru6.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Cervarulo: vista del Monte Pollaro e la Piana di Grienzi
+<br>
+<br>
+<br>
+<img id="cervaru7" src="%file_root%custom/album/ambiente/cervaru7.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Cervarulo: veduta del Monte Calvello
+<br>
+<br>
+<br>
+<img id="cervaru8" src="%file_root%custom/album/ambiente/cervaru8.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Cervialto: vista della cresta versante est
+<br>
+<br>
+<br>
+<img id="cervaru9" src="%file_root%custom/album/ambiente/cervaru9.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Cervialto: vista della Valle di Gianberardino e Piano Sazzano
+<br>
+<br>
+<br>
+<img id="cervaru10" src="%file_root%custom/album/ambiente/cervaru10.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Cervialto: la vetta
+<br>
+<br>
+<br>
+<img id="cervaru11" src="%file_root%custom/album/ambiente/cervaru11.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Cervialto: la vetta
+<br>
+<br>
+<br>
+<img id="cervaru12" src="%file_root%custom/album/ambiente/cervaru12.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Cervialto: vista del monte Raiamagra e, sullo sfondo, l'Accellica
+<br>
+<br>
+<br>
+<img id="cervaru13" src="%file_root%custom/album/ambiente/cervaru13.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Cervialto: vista dell'Altopiano di Laceno
+<br>
+<br>
+<br>
+<img id="cervaru14" src="%file_root%custom/album/ambiente/cervaru14.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Cervialto: la depressione tra le due cime
+<br>
+<br>
+<br>
+<img id="cervaru15" src="%file_root%custom/album/ambiente/cervaru15.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Cervialto: veduta di Piano Migliato
+<br>
+<br>
+<br>
+<img id="cervaru16" src="%file_root%custom/album/ambiente/cervaru16.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Cervialto: vista di Calabritto e l'Alta Valle del Sele
+<br>
+<br>
+<br>
+--- End body ---

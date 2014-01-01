@@ -1,0 +1,93 @@
+Autore::
+Titolo::Tana dei Lupi - Sorgente del Savuco 
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 08 settembre 2013<br>
+<br>Piana del Gaudo, Tana dei Lupi, Sorgente del Savuco, Iumaiano, Piana del Gaudo (Acerno)
+<br><br><br>
+<img id="tanalupi1" src="%file_root%custom/album/ambiente/tanalupi1.JPG" alt="" border="0" width="550">
+<br> <br>
+Piana del Gaudo: fontana
+<br>
+<br>
+<br>
+<img id="tanalupi2" src="%file_root%custom/album/ambiente/tanalupi2.JPG" alt="" border="0" width="550">
+<br> <br>
+Tana dei Lupi
+<br>
+<br>
+<br>
+<img id="tanalupi3" src="%file_root%custom/album/ambiente/tanalupi3.JPG" alt="" border="0" width="550">
+<br> <br>
+Tana dei Lupi
+<br>
+<br>
+<br>
+<img id="tanalupi4" src="%file_root%custom/album/ambiente/tanalupi4.JPG" alt="" border="0" width="550">
+<br> <br>
+Tana dei Lupi
+<br>
+<br>
+<br>
+<img id="tanalupi5" src="%file_root%custom/album/ambiente/tanalupi5.JPG" alt="" border="0" width="550">
+<br> <br>
+Tana dei Lupi
+<br>
+<br>
+<br>
+<img id="tanalupi6" src="%file_root%custom/album/ambiente/tanalupi6.JPG" alt="" border="0" width="550">
+<br> <br>
+Tana dei Lupi: vista del Monte Cervialto
+<br>
+<br>
+<br>
+<img id="tanalupi7" src="%file_root%custom/album/ambiente/tanalupi7.JPG" alt="" border="0" width="550">
+<br> <br>
+Tana dei Lupi
+<br>
+<br>
+<br>
+<img id="tanalupi8" src="%file_root%custom/album/ambiente/tanalupi8.JPG" alt="" border="0" width="550">
+<br> <br>
+Tana dei Lupi
+<br>
+<br>
+<br>
+<img id="tanalupi9" src="%file_root%custom/album/ambiente/tanalupi9.JPG" alt="" border="0" width="550">
+<br> <br>
+Tana dei Lupi
+<br>
+<br>
+<br>
+<img id="tanalupi10" src="%file_root%custom/album/ambiente/tanalupi10.JPG" alt="" border="0" width="550">
+<br> <br>
+Coste del Polveracchio: vallone
+<br>
+<br>
+<br>
+<img id="tanalupi11" src="%file_root%custom/album/ambiente/tanalupi11.JPG" alt="" border="0" width="550">
+<br> <br>
+Sorgente del Savuco
+<br>
+<br>
+<br>
+<img id="tanalupi12" src="%file_root%custom/album/ambiente/tanalupi12.JPG" alt="" border="0" width="550">
+<br> <br>
+Iumaiano: anfratti
+<br>
+<br>
+<br>
+<img id="tanalupi13" src="%file_root%custom/album/ambiente/tanalupi13.JPG" alt="" border="0" width="550">
+<br> <br>
+Iumaiano
+<br>
+<br>
+<br>
+<img id="tanalupi14" src="%file_root%custom/album/ambiente/tanalupi14.JPG" alt="" border="0" width="550">
+<br> <br>
+Piana del Gaudo
+<br>
+<br>
+<br>
+--- End body ---

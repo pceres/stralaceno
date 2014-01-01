@@ -1,0 +1,87 @@
+Autore::
+Titolo::Monte Boschetiello
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 14 agosto 2013<br>
+<br>Gaudo, Monte Boschetiello, Bardoleia, Piano Stattea, Gaudo (Calabritto, Senerchia)
+<br><br><br>
+<img id="boschetiello1" src="%file_root%custom/album/ambiente/boschetiello1.JPG" alt="" border="0" width="550">
+<br> <br>
+Gaudo di Calabritto: caserma
+<br>
+<br>
+<br>
+<img id="boschetiello2" src="%file_root%custom/album/ambiente/boschetiello2.JPG" alt="" border="0" width="550">
+<br> <br>
+Strada Sterrata nei pressi del Monte Boschetiello
+<br>
+<br>
+<br>
+<img id="boschetiello3" src="%file_root%custom/album/ambiente/boschetiello3.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Boschetiello: lato nord-ovest
+<br>
+<br>
+<br>
+<img id="boschetiello5" src="%file_root%custom/album/ambiente/boschetiello5.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Boschetiello: vista del Monte Cervialto
+<br>
+<br>
+<br>
+<img id="boschetiello6" src="%file_root%custom/album/ambiente/boschetiello6.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Boschetiello: cresta e, sullo sfondo, Monte Calvello
+<br>
+<br>
+<br>
+<img id="boschetiello7" src="%file_root%custom/album/ambiente/boschetiello7.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Boschetiello: cima
+<br>
+<br>
+<br>
+<img id="boschetiello8" src="%file_root%custom/album/ambiente/boschetiello8.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Boschetiello: Fili del Gaudo
+<br>
+<br>
+<br>
+<img id="boschetiello9" src="%file_root%custom/album/ambiente/boschetiello9.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Boschetiello: veduta del Monte Polveracchio
+<br>
+<br>
+<br>
+<img id="boschetiello10" src="%file_root%custom/album/ambiente/boschetiello10.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Boschetiello: vista verso l'abitato di Senerchia
+<br>
+<br>
+<br>
+<img id="boschetiello11" src="%file_root%custom/album/ambiente/boschetiello11.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Boschetiello: lato sud-est
+<br>
+<br>
+<br>
+<img id="boschetiello12" src="%file_root%custom/album/ambiente/boschetiello12.JPG" alt="" border="0" width="550">
+<br> <br>
+Bardoleia: Caserma Forestale di Senerchia
+<br>
+<br>
+<br>
+<img id="boschetiello13" src="%file_root%custom/album/ambiente/boschetiello13.JPG" alt="" border="0" width="550">
+<br> <br>
+Bardoleia: Monte della Croce
+<br>
+<br>
+<br>
+<img id="boschetiello14" src="%file_root%custom/album/ambiente/boschetiello14.JPG" alt="" border="0" width="550">
+<br> <br>
+Piano Stattea
+<br>
+<br>
+<br>
+--- End body ---

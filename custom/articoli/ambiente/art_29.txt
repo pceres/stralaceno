@@ -1,0 +1,115 @@
+Autore::
+Titolo::Ritorno al Monte Valva
+--- Begin body ---
+<br>
+<div align="center">
+<br>Passeggiata del 16 giugno 2013<br>
+<br>
+Campo Pastore - Monte Spagarrino - Monte Valva - località Acquafredda - Campo Pastore (Valva)
+<br><br><br>
+<img id="moval1" src="%file_root%custom/album/ambiente/moval1.JPG" alt="" border="0" width="550">
+<br> <br>
+Aniticima Monte Valva: vista della cima del Monte Valva
+<br>
+<br>
+<br>
+<img id="moval2" src="%file_root%custom/album/ambiente/moval2.JPG" alt="" border="0" width="550">
+<br> <br>
+Anticima Monte Valva: vista del Monte Pennone
+<br>
+<br>
+<br>
+<img id="moval5" src="%file_root%custom/album/ambiente/moval5.JPG" alt="" border="0" width="550">
+<br> <br>
+Cima Monte Valva
+<br>
+<br>
+<br>
+<img id="moval3" src="%file_root%custom/album/ambiente/moval3.JPG" alt="" border="0" width="550">
+<br> <br>
+Cima Monte Valva e, in lontananza, il Monte Marzano
+<br>
+<br>
+<br>
+<img id="moval4" src="%file_root%custom/album/ambiente/moval4.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Valva: vista della Valle del Sele
+<br>
+<br>
+<br>
+<img id="moval6" src="%file_root%custom/album/ambiente/moval6.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Valva: vista di Calabritto e dell'Alta Valle del Sele
+<br>
+<br>
+<br>
+<img id="moval7" src="%file_root%custom/album/ambiente/moval7.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Valva: vista della Valle del Sele
+<br>
+<br>
+<br>
+<img id="moval8" src="%file_root%custom/album/ambiente/moval8.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Valva: vista di Caposele
+<br>
+<br>
+<br>
+<img id="moval9" src="%file_root%custom/album/ambiente/moval9.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Valva: vista della Valle del Sele
+<br>
+<br>
+<br>
+<img id="moval10" src="%file_root%custom/album/ambiente/moval10.JPG" alt="" border="0" width="550">
+<br> <br>
+Località Acquafredda - fontana
+<br>
+<br>
+<br>
+<img id="moval11" src="%file_root%custom/album/ambiente/moval11.JPG" alt="" border="0" width="550">
+<br> <br>
+Località Acquafredda
+<br>
+<br>
+<br>
+<img id="moval12" src="%file_root%custom/album/ambiente/moval12.JPG" alt="" border="0" width="550">
+<br> <br>
+Località Acquafredda
+<br>
+<br>
+<br>
+<a href="http://www.openstreetmap.org/?lat=40.76382&lon=15.27976&zoom=14&layers=M">Vai alla mappa del percorso su Openstreetmap.org</a>
+<br><br>
+    <!--
+    stili e script per OpenLayers ed OpenStreetMap
+    -->
+    <script src="../osm/OpenLayers.js" type="text/javascript"></script>
+    <script src="../osm/OpenStreetMap.js" type="text/javascript"></script>
+    <script src='http://maps.google.com/maps?file=api&amp;v=2&amp;key=AIzaSyB1LEWKYqTMHNyGnLz4Q2k2ORDFJOdLkhs' type="text/javascript"></script>
+    <script src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=6.2&amp;mkt=en-us" type="text/javascript"></script>
+    <script src="../osm/osm.js" type="text/javascript"></script>
+    <!-- define a DIV into which the map will appear. Make it take up the whole window -->
+    <script type="text/javascript">
+	  // attach onLoad event (allowing the original onLoad to be executed, as well)
+	  var div_id = "map";
+	  var filename_foto="../osm/foto.txt";
+	  
+	  // escursione Monte Valva 2
+	  var lat=40.76382;
+	  var lon=15.27976;
+	  var zoom=14;
+	  
+	  if (window.addEventListener) {
+	      window.addEventListener('load', init, false);
+	  } else if (window.attachEvent) {
+	      window.attachEvent('onload', init );
+	  }
+    </script>
+    <div style="width:90%; height:400px" id="map" class="smallmap"></div>
+    
+    
+<br>
+    </div>
+<br>
+--- End body ---

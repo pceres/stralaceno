@@ -1,0 +1,105 @@
+Autore::
+Titolo::Monte Terminio
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 24 agosto 2013<br>
+<br>Piani d'Ischia, Collelungo, Monte Terminio, Ripe della Falconara, Campolaspierto, Piani d'Ischia (Montella, Volturara)
+<br><br><br>
+<img id="termi1" src="%file_root%custom/album/ambiente/termi1.JPG" alt="" border="0" width="550">
+<br> <br>
+Rifugio degli Uccelli
+<br>
+<br>
+<br>
+<img id="termi2" src="%file_root%custom/album/ambiente/termi2.JPG" alt="" border="0" width="550">
+<br> <br>
+Collelungo
+<br>
+<br>
+<br>
+<img id="termi3" src="%file_root%custom/album/ambiente/termi3.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Terminio: vista della Valle del Fiume Sabato e i Picentini occidentali
+<br>
+<br>
+<br>
+<img id="termi4" src="%file_root%custom/album/ambiente/termi4.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Terminio: cresta
+<br>
+<br>
+<br>
+<img id="termi5" src="%file_root%custom/album/ambiente/termi5.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Terminio: vetta
+<br>
+<br>
+<br>
+<img id="termi6" src="%file_root%custom/album/ambiente/termi6.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Terminio: cresta
+<br>
+<br>
+<br>
+<img id="termi7" src="%file_root%custom/album/ambiente/termi7.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Terminio: cresta
+<br>
+<br>
+<br>
+<img id="termi8" src="%file_root%custom/album/ambiente/termi8.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Terminio: cresta
+<br>
+<br>
+<br>
+<img id="termi9" src="%file_root%custom/album/ambiente/termi9.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Terminio: cresta
+<br>
+<br>
+<br>
+<img id="termi10" src="%file_root%custom/album/ambiente/termi10.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Terminio: cresta
+<br>
+<br>
+<br>
+<img id="termi11" src="%file_root%custom/album/ambiente/termi11.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Terminio: cresta
+<br>
+<br>
+<br>
+<img id="termi12" src="%file_root%custom/album/ambiente/termi12.JPG" alt="" border="0" width="550">
+<br> <br>
+Ripe della Falconara: veduta della Valle del Fiume Sabato e i Picentini occidentali
+<br>
+<br>
+<br>
+<img id="termi13" src="%file_root%custom/album/ambiente/termi13.JPG" alt="" border="0" width="550">
+<br> <br>
+Ripe della Falconara: vista del Monte Terminio
+<br>
+<br>
+<br>
+<img id="termi14" src="%file_root%custom/album/ambiente/termi14.JPG" alt="" border="0" width="550">
+<br> <br>
+Ripe della Falconara: vista del Monte Terminio
+<br>
+<br>
+<br>
+<img id="termi15" src="%file_root%custom/album/ambiente/termi15.JPG" alt="" border="0" width="550">
+<br> <br>
+Ripe della Falconara e il Monte Forcella
+<br>
+<br>
+<br>
+<img id="termi16" src="%file_root%custom/album/ambiente/termi16.JPG" alt="" border="0" width="550">
+<br> <br>
+Campolaspierto
+<br>
+<br>
+<br>
+--- End body ---

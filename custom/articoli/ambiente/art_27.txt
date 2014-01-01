@@ -1,0 +1,139 @@
+Autore::
+Titolo::Valle della Caccia
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 26 maggio 2013<br>
+<br>
+Serra Piana - Valle della Caccia / Torrente Acquabianca (Senerchia)
+<br><br><br>
+<img id="vcacc1" src="%file_root%custom/album/ambiente/vcacc1.JPG" alt="" border="0" width="550">
+<br> <br>
+Valle della Caccia
+<br>
+<br>
+<br>
+<img id="vcacc2" src="%file_root%custom/album/ambiente/vcacc2.JPG" alt="" border="0" width="550">
+<br> <br>
+Sentiero della Valle della Caccia - laghetto
+<br>
+<br>
+<br>
+<img id="vcacc3" src="%file_root%custom/album/ambiente/vcacc3.JPG" alt="" border="0" width="550">
+<br> <br>
+Sentiero della Valle della Caccia - fontana
+<br>
+<br>
+<br>
+<img id="vcacc4" src="%file_root%custom/album/ambiente/vcacc4.JPG" alt="" border="0" width="550">
+<br> <br>
+Valle della Caccia - Torrente Acquabianca
+<br>
+<br>
+<br>
+<img id="vcacc5" src="%file_root%custom/album/ambiente/vcacc5.JPG" alt="" border="0" width="550">
+<br> <br>
+La Pizzola di Montenero vista dalla Valle della Caccia
+<br>
+<br>
+<br>
+<img id="vcacc6" src="%file_root%custom/album/ambiente/vcacc6.JPG" alt="" border="0" width="550">
+<br> <br>
+Valle della Caccia - Torrente Acquabianca
+<br>
+<br>
+<br>
+<img id="vcacc7" src="%file_root%custom/album/ambiente/vcacc7.JPG" alt="" border="0" width="550">
+<br> <br>
+Valle della Caccia - Torrente Acquabianca
+<br>
+<br>
+<br>
+<img id="vcacc8" src="%file_root%custom/album/ambiente/vcacc8.JPG" alt="" border="0" width="550">
+<br> <br>
+Valle della Caccia - Torrente Acquabianca
+<br>
+<br>
+<br>
+<img id="vcacc9" src="%file_root%custom/album/ambiente/vcacc9.JPG" alt="" border="0" width="550">
+<br> <br>
+Valle della Caccia - Torrente Acquabianca
+<br>
+<br>
+<br>
+<img id="vcacc10" src="%file_root%custom/album/ambiente/vcacc10.JPG" alt="" border="0" width="550">
+<br> <br>
+Valle della Caccia - Torrente Acquabianca
+<br>
+<br>
+<br>
+<img id="vcacc11" src="%file_root%custom/album/ambiente/vcacc11.JPG" alt="" border="0" width="550">
+<br> <br>
+Valle della Caccia - Torrente Acquabianca
+<br>
+<br>
+<br>
+<img id="vcacc12" src="%file_root%custom/album/ambiente/vcacc12.JPG" alt="" border="0" width="550">
+<br> <br>
+Valle della Caccia - Torrente Acquabianca
+<br>
+<br>
+<br>
+<img id="vcacc13" src="%file_root%custom/album/ambiente/vcacc13.JPG" alt="" border="0" width="550">
+<br> <br>
+Valle della Caccia - Torrente Acquabianca
+<br>
+<br>
+<br>
+<img id="vcacc14" src="%file_root%custom/album/ambiente/vcacc14.JPG" alt="" border="0" width="550">
+<br> <br>
+Valle della Caccia - Torrente Acquabianca
+<br>
+<br>
+<br>
+<img id="vcacc15" src="%file_root%custom/album/ambiente/vcacc15.JPG" alt="" border="0" width="550">
+<br> <br>
+Valle della Caccia - Torrente Acquabianca
+<br>
+<br>
+<br>
+<img id="vcacc16" src="%file_root%custom/album/ambiente/vcacc16.JPG" alt="" border="0" width="550">
+<br> <br>
+Cascata dell'Acquabianca vista dal sentiero della Valle della Caccia
+<br>
+<br>
+<br>
+<a href="http://www.openstreetmap.org/?lat=40.71826&lon=15.17506&zoom=16&layers=M">Vai alla mappa del percorso su Openstreetmap.org</a>
+<br><br>
+    <!--
+    stili e script per OpenLayers ed OpenStreetMap
+    -->
+    <script src="../osm/OpenLayers.js" type="text/javascript"></script>
+    <script src="../osm/OpenStreetMap.js" type="text/javascript"></script>
+    <script src='http://maps.google.com/maps?file=api&amp;v=2&amp;key=AIzaSyB1LEWKYqTMHNyGnLz4Q2k2ORDFJOdLkhs' type="text/javascript"></script>
+    <script src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=6.2&amp;mkt=en-us" type="text/javascript"></script>
+    <script src="../osm/osm.js" type="text/javascript"></script>
+    <!-- define a DIV into which the map will appear. Make it take up the whole window -->
+    <script type="text/javascript">
+	  // attach onLoad event (allowing the original onLoad to be executed, as well)
+	  var div_id = "map";
+	  var filename_foto="../osm/foto.txt";
+	  
+	  // escursione Valle della Caccia
+	  var lat=40.71826;
+	  var lon=15.17506;
+	  var zoom=16;
+	  
+	  if (window.addEventListener) {
+	      window.addEventListener('load', init, false);
+	  } else if (window.attachEvent) {
+	      window.attachEvent('onload', init );
+	  }
+    </script>
+    <div style="width:90%; height:400px" id="map" class="smallmap"></div>
+    
+    
+<br>
+    </div>
+<br>
+--- End body ---

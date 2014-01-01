@@ -1,0 +1,139 @@
+Autore::
+Titolo::Grotta dello Scalandrone
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 19 maggio 2013<br>
+<br>
+Serra Cugnolo - Piani di Giffoni - Grotta dello Scalandrone - Timpone dell'Accellica - Bosco dei Pellegrini - Serra Cugnolo (Acerno, Giffoni Valle Piana)
+<br><br><br>
+<img id="scal1" src="%file_root%custom/album/ambiente/scal1.JPG" alt="" border="0" width="550">
+<br> <br>
+Sorgente Codugno
+<br>
+<br>
+<br>
+<img id="scal2" src="%file_root%custom/album/ambiente/scal2.JPG" alt="" border="0" width="550">
+<br> <br>
+Caserma Forestale di Giffoni Valle Piana
+<br>
+<br>
+<br>
+<img id="scal3" src="%file_root%custom/album/ambiente/scal3.JPG" alt="" border="0" width="550">
+<br> <br>
+Risorgenza dello Scalandrone
+<br>
+<br>
+<br>
+<img id="scal4" src="%file_root%custom/album/ambiente/scal4.JPG" alt="" border="0" width="550">
+<br> <br>
+Ingresso Grotta dello Scalandrone
+<br>
+<br>
+<br>
+<img id="scal5" src="%file_root%custom/album/ambiente/scal5.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta dello Scalandrone - interno
+<br>
+<br>
+<br>
+<img id="scal6" src="%file_root%custom/album/ambiente/scal6.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta dello Scalandrone - interno
+<br>
+<br>
+<br>
+<img id="scal7" src="%file_root%custom/album/ambiente/scal7.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta dello Scalandrone - interno
+<br>
+<br>
+<br>
+<img id="scal8" src="%file_root%custom/album/ambiente/scal8.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta dello Scalandrone - interno
+<br>
+<br>
+<br>
+<img id="scal9" src="%file_root%custom/album/ambiente/scal9.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta dello Scalandrone - interno
+<br>
+<br>
+<br>
+<img id="scal10" src="%file_root%custom/album/ambiente/scal10.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta dello Scalandrone - interno
+<br>
+<br>
+<br>
+<img id="scal11" src="%file_root%custom/album/ambiente/scal11.JPG" alt="" border="0" width="550">
+<br> <br>
+Il Ninno dell'Accellica visto dal sentiero della Grotta dello Scalandrone
+<br>
+<br>
+<br>
+<img id="scal12" src="%file_root%custom/album/ambiente/scal12.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta di Nuccio
+<br>
+<br>
+<br>
+<img id="scal13" src="%file_root%custom/album/ambiente/scal13.JPG" alt="" border="0" width="550">
+<br> <br>
+Timpone dell'Accellica: vista verso la Piana del Sele
+<br>
+<br>
+<br>
+<img id="scal14" src="%file_root%custom/album/ambiente/scal14.JPG" alt="" border="0" width="550">
+<br> <br>
+Timpone dell'Accellica: vista verso i Monti Licinici
+<br>
+<br>
+<br>
+<img id="scal15" src="%file_root%custom/album/ambiente/scal15.JPG" alt="" border="0" width="550">
+<br> <br>
+Timpone dell'Accellica: vista dell'Accellica Nord e dell'Accellica Sud
+<br>
+<br>
+<br>
+<img id="scal16" src="%file_root%custom/album/ambiente/scal16.JPG" alt="" border="0" width="550">
+<br> <br>
+Il Timpone dell'Accellica visto dal Bosco dei Pellegrini
+<br>
+<br>
+<br>
+<a href="http://www.openstreetmap.org/?lat=40.75779&lon=14.99958&zoom=14&layers=M">Vai alla mappa del percorso su Openstreetmap.org</a>
+<br><br>
+    <!--
+    stili e script per OpenLayers ed OpenStreetMap
+    -->
+    <script src="../osm/OpenLayers.js" type="text/javascript"></script>
+    <script src="../osm/OpenStreetMap.js" type="text/javascript"></script>
+    <script src='http://maps.google.com/maps?file=api&amp;v=2&amp;key=AIzaSyB1LEWKYqTMHNyGnLz4Q2k2ORDFJOdLkhs' type="text/javascript"></script>
+    <script src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=6.2&amp;mkt=en-us" type="text/javascript"></script>
+    <script src="../osm/osm.js" type="text/javascript"></script>
+    <!-- define a DIV into which the map will appear. Make it take up the whole window -->
+    <script type="text/javascript">
+	  // attach onLoad event (allowing the original onLoad to be executed, as well)
+	  var div_id = "map";
+	  var filename_foto="../osm/foto.txt";
+	  
+	  // escursione Grotta dello Scalandrone
+	  var lat=40.75779;
+	  var lon=14.99958;
+	  var zoom=14;
+	  
+	  if (window.addEventListener) {
+	      window.addEventListener('load', init, false);
+	  } else if (window.attachEvent) {
+	      window.attachEvent('onload', init );
+	  }
+    </script>
+    <div style="width:90%; height:400px" id="map" class="smallmap"></div>
+    
+    
+<br>
+    </div>
+<br>
+--- End body ---

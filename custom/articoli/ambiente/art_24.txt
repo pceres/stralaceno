@@ -1,0 +1,116 @@
+Autore::
+Titolo::Fontana Canale - Piano Pollaro
+--- Begin body ---
+<br>
+<div align="center">
+<br>Passeggiata del 28 aprile 2013<br>
+<br>
+Fontana Canale - Piano Pollaro - Piano d'Acera - Fontana Canale (Caposele, Calabritto)
+<br><br><br>
+<img id="cnl1" src="%file_root%custom/album/ambiente/cnl1.JPG" alt="" border="0" width="550">
+<br> <br>
+Fontana Canale
+<br>
+<br>
+<br>
+<img id="cnl13" src="%file_root%custom/album/ambiente/cnl13.JPG" alt="" border="0" width="550">
+<br> <br>
+Fontana Canale
+<br>
+<br>
+<br>
+<img id="cnl2" src="%file_root%custom/album/ambiente/cnl2.JPG" alt="" border="0" width="550">
+<br> <br>
+Vista dell'Alta Valle del Sele dalla strada Canale - Varco degli Antichi
+<br>
+<br>
+<br>
+<img id="cnl3" src="%file_root%custom/album/ambiente/cnl3.JPG" alt="" border="0" width="550">
+<br> <br>
+Lungo il sentiero per la Sorgente Vallentica
+<br>
+<br>
+<br>
+<img id="cnl4" src="%file_root%custom/album/ambiente/cnl4.JPG" alt="" border="0" width="550">
+<br> <br>
+Sorgente Vallentica (fontana r'Carm'nedda)
+<br>
+<br>
+<br>
+<img id="cnl5" src="%file_root%custom/album/ambiente/cnl5.JPG" alt="" border="0" width="550">
+<br> <br>
+Sorgente Vallentica (fontana r'Carm'nedda)
+<br>
+<br>
+<br>
+<img id="cnl6" src="%file_root%custom/album/ambiente/cnl6.JPG" alt="" border="0" width="550">
+<br> <br>
+Piano Pollaro - "Casa di Sergio"
+<br>
+<br>
+<br>
+<img id="cnl7" src="%file_root%custom/album/ambiente/cnl7.JPG" alt="" border="0" width="550">
+<br> <br>
+Piano Pollaro
+<br>
+<br>
+<br>
+<img id="cnl8" src="%file_root%custom/album/ambiente/cnl8.JPG" alt="" border="0" width="550">
+<br> <br>
+Piano Pollaro
+<br>
+<br>
+<br>
+<img id="cnl9" src="%file_root%custom/album/ambiente/cnl9.JPG" alt="" border="0" width="550">
+<br> <br>
+Piano d'Acera visto dalle coste di Monte Pollaro
+<br>
+<br>
+<br>
+<img id="cnl10" src="%file_root%custom/album/ambiente/cnl10.JPG" alt="" border="0" width="550">
+<br> <br>
+Piano d'Acera
+<br>
+<br>
+<br>
+<img id="cnl11" src="%file_root%custom/album/ambiente/cnl11.JPG" alt="" border="0" width="550">
+<br> <br>
+Sentiero Piano d'Acera - Fontana Canale
+<br>
+<br>
+<br>
+<img id="cnl12" src="%file_root%custom/album/ambiente/cnl12.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone Canale
+<br>
+<br>
+<br>
+<br><br><br>
+<!--
+    stili e script per OpenLayers ed OpenStreetMap
+    -->
+    <script src="../osm/OpenLayers.js" type="text/javascript"></script>
+    <script src="../osm/OpenStreetMap.js" type="text/javascript"></script>
+    <script src='http://maps.google.com/maps?file=api&amp;v=2&amp;key=AIzaSyB1LEWKYqTMHNyGnLz4Q2k2ORDFJOdLkhs' type="text/javascript"></script>
+    <script src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=6.2&amp;mkt=en-us" type="text/javascript"></script>
+    <script src="../osm/osm.js" type="text/javascript"></script>
+    <!-- define a DIV into which the map will appear. Make it take up the whole window -->
+    <script type="text/javascript">
+	  // attach onLoad event (allowing the original onLoad to be executed, as well)
+	  var div_id = "map";
+	  
+	  // escursione a Canale
+	  var filename_foto="../osm/foto.txt";
+	  var lat=40.80508;
+	  var lon=15.19609;
+	  var zoom=14;
+	
+	  if (window.addEventListener) {
+	      window.addEventListener('load', init, false);
+	  } else if (window.attachEvent) {
+	      window.attachEvent('onload', init );
+	  }
+    </script>
+    <div style="width:90%; height:400px" id="map" class="smallmap"></div>
+</div>
+--- End body ---

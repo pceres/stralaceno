@@ -1,0 +1,82 @@
+Autore::
+Titolo::Ritorno allo Scalandrone
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 12 ottobre 2013<br>
+<br>
+Croci di Acerno - Serra Polare - Piani di Giffoni - Grotta dello Scalandrone e ritorno (Acerno, Giffoni Valle Piana)
+<br><br><br>
+<img id="crociscal1" src="%file_root%custom/album/ambiente/crociscal1.JPG" alt="" border="0" width="550">
+<br> <br>
+Sorgente Pietra con l'Acqua
+<br>
+<br>
+<br>
+<img id="crociscal2" src="%file_root%custom/album/ambiente/crociscal2.JPG" alt="" border="0" width="550">
+<br> <br>
+Vista di Acerno dalla località Serra Polare
+<br>
+<br>
+<br>
+<img id="crociscal3" src="%file_root%custom/album/ambiente/crociscal3.JPG" alt="" border="0" width="550">
+<br> <br>
+Veduta dell'Accellica dai Piani di Giffoni
+<br>
+<br>
+<br>
+<img id="crociscal4" src="%file_root%custom/album/ambiente/crociscal4.JPG" alt="" border="0" width="550">
+<br> <br>
+Cascata dello Scalandrone
+<br>
+<br>
+<br>
+<img id="crociscal5" src="%file_root%custom/album/ambiente/crociscal5.JPG" alt="" border="0" width="550">
+<br> <br>
+Cascata dello Scalandrone
+<br>
+<br>
+<br>
+<img id="crociscal11" src="%file_root%custom/album/ambiente/crociscal11.JPG" alt="" border="0" width="550">
+<br> <br>
+Ingresso Grotta dello Scalandrone
+<br>
+<br>
+<br>
+<img id="crociscal6" src="%file_root%custom/album/ambiente/crociscal6.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta dello Scalandrone - interno
+<br>
+<br>
+<br>
+<img id="crociscal7" src="%file_root%custom/album/ambiente/crociscal7.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta dello Scalandrone - interno
+<br>
+<br>
+<br>
+<img id="crociscal8" src="%file_root%custom/album/ambiente/crociscal8.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta dello Scalandrone - interno
+<br>
+<br>
+<br>
+<img id="crociscal9" src="%file_root%custom/album/ambiente/crociscal9.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta dello Scalandrone - interno
+<br>
+<br>
+<br>
+<img id="crociscal10" src="%file_root%custom/album/ambiente/crociscal10.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta dello Scalandrone - interno
+<br>
+<br>
+<br>
+<img id="crociscal12" src="%file_root%custom/album/ambiente/crociscal12.JPG" alt="" border="0" width="550">
+<br> <br>
+Vista del Timpone dell'Accellica dalla località Serra Polare
+<br>
+<br>
+<br>
+--- End body ---

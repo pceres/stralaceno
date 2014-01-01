@@ -1,0 +1,82 @@
+Autore::
+Titolo::Monte Cervarolo
+--- Begin body ---
+<br>
+<div align="center">
+<br>Passeggiata del 21 luglio 2013<br>
+<br>
+Vallepiana, Lagaretto, Monte Cervarolo, Laceno, Vallepiana (Bagnoli Irpino)
+<br><br><br>
+<img id="cervarolo1" src="%file_root%custom/album/ambiente/cervarolo1.JPG" alt="" border="0" width="550">
+<br> <br>
+Lagaretto: vista lato est del Monte Cervarolo
+<br>
+<br>
+<br>
+<img id="cervarolo2" src="%file_root%custom/album/ambiente/cervarolo2.JPG" alt="" border="0" width="550">
+<br> <br>
+Lagaretto: valico
+<br>
+<br>
+<br>
+<img id="cervarolo3" src="%file_root%custom/album/ambiente/cervarolo3.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Cervarolo: vista del Piano l'Acernese
+<br>
+<br>
+<br>
+<img id="cervarolo4" src="%file_root%custom/album/ambiente/cervarolo4.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Cervarolo: la vetta e, in secondo piano, il Monte Cervialto
+<br>
+<br>
+<br>
+<img id="cervarolo5" src="%file_root%custom/album/ambiente/cervarolo5.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Cervarolo: vista del Monte Cervialto
+<br>
+<br>
+<br>
+<img id="cervarolo6" src="%file_root%custom/album/ambiente/cervarolo6.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Cervarolo: vista dell'Altopiano di Laceno
+<br>
+<br>
+<br>
+<img id="cervarolo7" src="%file_root%custom/album/ambiente/cervarolo7.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Cervarolo: vista dell'Altopiano di Laceno
+<br>
+<br>
+<br>
+<img id="cervarolo8" src="%file_root%custom/album/ambiente/cervarolo8.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Cervarolo: vista del Monte Raiamagra
+<br>
+<br>
+<br>
+<img id="cervarolo9" src="%file_root%custom/album/ambiente/cervarolo9.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Cervarolo: la cresta nord e, sullo sfondo, il Monte Magnone (Belvedere) e il Monte Calciogliano
+<br>
+<br>
+<br>
+<img id="cervarolo10" src="%file_root%custom/album/ambiente/cervarolo10.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Cervarolo: vista del Monte Cervarulo di Calabritto e del Monte Cervialto
+<br>
+<br>
+<br>
+<img id="cervarolo11" src="%file_root%custom/album/ambiente/cervarolo11.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Cervarolo: la cresta sud
+<br>
+<br>
+<br>
+<img id="cervarolo12" src="%file_root%custom/album/ambiente/cervarolo12.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Cervarolo: Piano l'Acernese e il Monte Raiamagra e, in lontananza, il Monte Raia della Licina e il Monte Vallebona di Acerno
+<br>
+<br>
+<br>
+--- End body ---

@@ -1,0 +1,22 @@
+Autore::
+Titolo::XVI  Mercogliano - Montevergine
+--- Begin body ---
+<br>
+XVI edizione della marcialonga da Mercogliano a Montevergine. La partenza  alle ore 16 di sabato 29 giugno 2013 da viale San Modestino. 
+<br>
+Anche questa edizione  ha visto sfidarsi gli atleti lungo i tornanti che portano al Santuario di Mamma Schiavona passando lungo la salita di Capocastello e Ospedaletto. La gara &egrave; lunga 16 km e 800 m.
+<br><br>
+<b>Daniele Caprio (numero 1101), autore di una bella gara in rimonta, si &egrave; classificato 3° assoluto impiegando 1 ora 12 minuti e 35 secondi.</b><br><br>
+La gara &egrave; stata vinta da Taufik in 1h 9' 10'', seguito da Squitieri 1h 12' 13''. I concorrenti giunti regolarmente al traguardo sono stati 398.
+<br><br>
+<div align="center">
+<img id="monteverg13_1" src="%file_root%custom/album/varie/montever13_1.jpg" alt="" border="0" width="420">
+<br><br>
+<div align="center">
+<img id="monteverg13_2" src="%file_root%custom/album/varie/montever13_2.jpg" alt="" border="0" width="420">
+<br><br>
+<div align="center">
+<img id="monteverg13_3" src="%file_root%custom/album/varie/montever13_3.jpg" alt="" border="0" width="420">
+<br>
+</div>
+--- End body ---

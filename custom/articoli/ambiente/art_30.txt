@@ -1,0 +1,121 @@
+Autore::
+Titolo::Monte Accellica Nord
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 30 giugno 2013<br>
+<br>
+Valli Cinquanta - Faggio Scritto - Barrizzulo - Varco Colla Finestra - Monte Accellica Nord e ritorno (Montella)
+<br><br><br>
+<img id="accn1" src="%file_root%custom/album/ambiente/accn1.JPG" alt="" border="0" width="550">
+<br> <br>
+Barrizzulo: vista dell'Accellica Nord
+<br>
+<br>
+<br>
+<img id="accn2" src="%file_root%custom/album/ambiente/accn2.JPG" alt="" border="0" width="550">
+<br> <br>
+Salita verso la vetta dell'Accellica Nord: Valle del Fiume Sabato
+<br>
+<br>
+<br>
+<img id="accn4" src="%file_root%custom/album/ambiente/accn4.JPG" alt="" border="0" width="550">
+<br> <br>
+Salita verso la vetta dell'Accellica Nord: sentiero
+<br>
+<br>
+<br>
+<img id="accn5" src="%file_root%custom/album/ambiente/accn5.JPG" alt="" border="0" width="550">
+<br> <br>
+Salita verso la vetta dell'Accellica Nord: veduta verso la Piana di Giffoni
+<br>
+<br>
+<br>
+<img id="accn6" src="%file_root%custom/album/ambiente/accn6.JPG" alt="" border="0" width="550">
+<br> <br>
+Cima dell'Accellica Nord e l'Accellica Sud
+<br>
+<br>
+<br>
+<img id="accn7" src="%file_root%custom/album/ambiente/accn7.JPG" alt="" border="0" width="550">
+<br> <br>
+Vetta Accellica Nord
+<br>
+<br>
+<br>
+<img id="accn8" src="%file_root%custom/album/ambiente/accn8.JPG" alt="" border="0" width="550">
+<br> <br>
+Accellica Nord: vista sul Ninno e l'Accellica Sud
+<br>
+<br>
+<br>
+<img id="accn9" src="%file_root%custom/album/ambiente/accn9.JPG" alt="" border="0" width="550">
+<br> <br>
+Accellica Nord: veduta su La Savina
+<br>
+<br>
+<br>
+<img id="accn10" src="%file_root%custom/album/ambiente/accn10.JPG" alt="" border="0" width="550">
+<br> <br>
+Accellica Nord: vista del Ninno
+<br>
+<br>
+<br>
+<img id="accn11" src="%file_root%custom/album/ambiente/accn11.JPG" alt="" border="0" width="550">
+<br> <br>
+Accellica Nord: vista verso il Varco della Noce
+<br>
+<br>
+<br>
+<img id="accn12" src="%file_root%custom/album/ambiente/accn12.JPG" alt="" border="0" width="550">
+<br> <br>
+Accellica Nord: vista verso il Monte Raiamagra e il Monte Cervialto
+<br>
+<br>
+<br>
+<img id="accn13" src="%file_root%custom/album/ambiente/accn13.JPG" alt="" border="0" width="550">
+<br> <br>
+Accellica Nord: vista della cresta dell'Accellica Sud
+<br>
+<br>
+<br>
+<img id="accn14" src="%file_root%custom/album/ambiente/accn14.JPG" alt="" border="0" width="550">
+<br> <br>
+Discesa dall'Accellica Nord: vista verso il Monte Mai
+<br>
+<br>
+<br>
+<a href="http://www.openstreetmap.org/?lat=40.78484&lon=14.9992&zoom=14&layers=M">Vai alla mappa del percorso su Openstreetmap.org</a>
+<br><br>
+    <!--
+    stili e script per OpenLayers ed OpenStreetMap
+    -->
+    <script src="../osm/OpenLayers.js" type="text/javascript"></script>
+    <script src="../osm/OpenStreetMap.js" type="text/javascript"></script>
+    <script src='http://maps.google.com/maps?file=api&amp;v=2&amp;key=AIzaSyB1LEWKYqTMHNyGnLz4Q2k2ORDFJOdLkhs' type="text/javascript"></script>
+    <script src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=6.2&amp;mkt=en-us" type="text/javascript"></script>
+    <script src="../osm/osm.js" type="text/javascript"></script>
+    <!-- define a DIV into which the map will appear. Make it take up the whole window -->
+    <script type="text/javascript">
+	  // attach onLoad event (allowing the original onLoad to be executed, as well)
+	  var div_id = "map";
+	  var filename_foto="../osm/foto.txt";
+	  
+	  // escursione Monte Accellica Nord
+	  var lat=40.78484;
+	  var lon=14.9992;
+	  var zoom=14;
+	  
+	  if (window.addEventListener) {
+	      window.addEventListener('load', init, false);
+	  } else if (window.attachEvent) {
+	      window.attachEvent('onload', init );
+	  }
+    </script>
+    <div style="width:90%; height:400px" id="map" class="smallmap"></div>
+    
+    
+<br>
+    </div>
+<br>
+--- End body ---

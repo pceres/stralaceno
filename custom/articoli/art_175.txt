@@ -1,0 +1,23 @@
+Autore::
+Titolo::II Trail di Chiusano San Domenico
+--- Begin body ---
+<br>
+Domenica 14 Luglio 2013 con partenza alle 9:30 dalla Piazza Dante Alighieri si &egrave; svolta la IIa Edizione del TRAIL Città di Chiusano San Domenico gara podistica di corsa in montagna sulla distanza di 9km.
+<br><br>
+<b>Ha rappresentato l’ARS Mauro Losco (numero 78), che &egrave; giunto 36° in 1 ora 3 minuti e 43 secondi, ottenendo il quarto posto di categoria.</b>
+<br><br>
+Hanno terminato regolarmente la gara 128 atleti.
+<br><br>
+<div align="center"></b></font>
+<img id="c1" src="%file_root%custom/album/varie/chiusano1.jpg" alt="" border="0" width="550">
+<br><br>
+<img id="c2" src="%file_root%custom/album/varie/chiusano2.jpg" alt="" border="0" width="550">
+<br><br>
+<img id="c3" src="%file_root%custom/album/varie/chiusano3.jpg" alt="" border="0" width="550">
+<br><br>
+<img id="c5" src="%file_root%custom/album/varie/chiusano5.jpg" alt="" border="0" width="550">
+<br><br>
+<img id="c4" src="%file_root%custom/album/varie/chiusano4.jpg" alt="" border="0" width="400">
+<br><br>
+</div>
+--- End body ---

@@ -1,0 +1,100 @@
+Autore::
+Titolo::Monte Polveracchio
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 19 ottobre 2013<br>
+<br>
+Vallone della Cerreta, Varco Sellara, Varco delle Tavole, Monte Polveracchio, Raia Cala Porco, Valle delle Tavole, Vallone della Cerreta (Campagna)
+<br><br><br>
+<img id="polveracchio1" src="%file_root%custom/album/ambiente/polveracchio1.JPG" alt="" border="0" width="550">
+<br> <br>
+Varco Sellara: vista della bassa Valle del Sele
+<br>
+<br>
+<br>
+<img id="polveracchio2" src="%file_root%custom/album/ambiente/polveracchio2.JPG" alt="" border="0" width="550">
+<br> <br>
+Vista lato sud del Monte Polveracchio dal sentiero verso Varco delle Tavole
+<br>
+<br>
+<br>
+<img id="polveracchio3" src="%file_root%custom/album/ambiente/polveracchio3.JPG" alt="" border="0" width="550">
+<br> <br>
+Veduta della bassa Valle del Sele dal sentiero verso Varco delle Tavole
+<br>
+<br>
+<br>
+<img id="polveracchio4" src="%file_root%custom/album/ambiente/polveracchio4.JPG" alt="" border="0" width="550">
+<br> <br>
+Veduta del Vallone Trogento dalla Grotta Rondinaia
+<br>
+<br>
+<br>
+<img id="polveracchio5" src="%file_root%custom/album/ambiente/polveracchio5.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta Rondinaia
+<br>
+<br>
+<br>
+<img id="polveracchio6" src="%file_root%custom/album/ambiente/polveracchio6.JPG" alt="" border="0" width="550">
+<br> <br>
+Vista del Monte La Picciola dalle pendici del Monte Polveracchio
+<br>
+<br>
+<br>
+<img id="polveracchio7" src="%file_root%custom/album/ambiente/polveracchio7.JPG" alt="" border="0" width="550">
+<br> <br>
+Dolina nei pressi della vetta del Monte Polveracchio
+<br>
+<br>
+<br>
+<img id="polveracchio8" src="%file_root%custom/album/ambiente/polveracchio8.JPG" alt="" border="0" width="550">
+<br> <br>
+Vetta del Monte Polveracchio
+<br>
+<br>
+<br>
+<img id="polveracchio9" src="%file_root%custom/album/ambiente/polveracchio9.JPG" alt="" border="0" width="550">
+<br> <br>
+Cresta del Monte Polveracchio: vista verso il Golfo di Salerno
+<br>
+<br>
+<br>
+<img id="polveracchio10" src="%file_root%custom/album/ambiente/polveracchio10.JPG" alt="" border="0" width="550">
+<br> <br>
+Vetta del Monte Polveracchio: veduta della cresta est e, sullo sfondo, la riserva naturale Marzano-Eremita
+<br>
+<br>
+<br>
+<img id="polveracchio11" src="%file_root%custom/album/ambiente/polveracchio11.JPG" alt="" border="0" width="550">
+<br> <br>
+Vetta del Monte Polveracchio: vista del Monte La Picciola e, sullo sfondo, la riserva naturale Marzano-Eremita
+<br>
+<br>
+<br>
+<img id="polveracchio12" src="%file_root%custom/album/ambiente/polveracchio12.JPG" alt="" border="0" width="550">
+<br> <br>
+Cresta del Monte Polveracchio: veduta dei Monti Lattari e del Monte Mai; sullo sfondo Il Vesuvio
+<br>
+<br>
+<br>
+<img id="polveracchio13" src="%file_root%custom/album/ambiente/polveracchio13.JPG" alt="" border="0" width="550">
+<br> <br>
+Cresta del Monte Polveracchio: veduta della Valle delle Tavole
+<br>
+<br>
+<br>
+<img id="polveracchio14" src="%file_root%custom/album/ambiente/polveracchio14.JPG" alt="" border="0" width="550">
+<br> <br>
+Fonte Acqua Menecale
+<br>
+<br>
+<br>
+<img id="polveracchio15" src="%file_root%custom/album/ambiente/polveracchio15.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone della Cerreta
+<br>
+<br>
+<br>
+--- End body ---

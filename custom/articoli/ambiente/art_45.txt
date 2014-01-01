@@ -1,0 +1,105 @@
+Autore::
+Titolo::La Balzata - Vado di Carpino
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 14 settembre 2013<br>
+<br>Piano Migliato, Monte La Balzata, Vallone Vado di Carpino, Sorgente Petrella e ritorno (Calabritto)
+<br><br><br>
+<img id="labalz15" src="%file_root%custom/album/ambiente/labalz15.JPG" alt="" border="0" width="550">
+<br> <br>
+Piano Migliato
+<br>
+<br>
+<br>
+<img id="labalz16" src="%file_root%custom/album/ambiente/labalz16.JPG" alt="" border="0" width="550">
+<br> <br>
+Piana Migliato: vista del Monte La Balzata
+<br>
+<br>
+<br>
+<img id="labalz1" src="%file_root%custom/album/ambiente/labalz1.JPG" alt="" border="0" width="550">
+<br> <br>
+Cima del Monte La Balzata; sullo sfondo Monte Boschetiello
+<br>
+<br>
+<br>
+<img id="labalz2" src="%file_root%custom/album/ambiente/labalz2.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte La Balzata: vista del Fosso dei Palesi e della Valle Cerasa
+<br>
+<br>
+<br>
+<img id="labalz3" src="%file_root%custom/album/ambiente/labalz3.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte La Balzata: cresta
+<br>
+<br>
+<br>
+<img id="labalz4" src="%file_root%custom/album/ambiente/labalz4.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte La Balzata: veduta del Monte Altillo
+<br>
+<br>
+<br>
+<img id="labalz5" src="%file_root%custom/album/ambiente/labalz5.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte La Balzata: cresta nord est e vista del Monte Altillo
+<br>
+<br>
+<br>
+<img id="labalz6" src="%file_root%custom/album/ambiente/labalz6.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte La Balzata: vista del Monte Cervialto
+<br>
+<br>
+<br>
+<img id="labalz7" src="%file_root%custom/album/ambiente/labalz7.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte La Balzata: vista del Monte Polveracchio
+<br>
+<br>
+<br>
+<img id="labalz8" src="%file_root%custom/album/ambiente/labalz8.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone Vado di Carpino: pianoro
+<br>
+<br>
+<br>
+<img id="labalz9" src="%file_root%custom/album/ambiente/labalz9.JPG" alt="" border="0" width="550">
+<br> <br>
+Fontana del Vallone Vado di Carpino
+<br>
+<br>
+<br>
+<img id="labalz10" src="%file_root%custom/album/ambiente/labalz10.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone Vado di Carpino
+<br>
+<br>
+<br>
+<img id="labalz11" src="%file_root%custom/album/ambiente/labalz11.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone Vado di Carpino
+<br>
+<br>
+<br>
+<img id="labalz12" src="%file_root%custom/album/ambiente/labalz12.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone Vado di Carpino: ponte all'altezza della Sorgente Petrella
+<br>
+<br>
+<br>
+<img id="labalz13" src="%file_root%custom/album/ambiente/labalz13.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone Vado di Carpino
+<br>
+<br>
+<br>
+<img id="labalz14" src="%file_root%custom/album/ambiente/labalz14.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone Vado di Carpino
+<br>
+<br>
+<br>
+--- End body ---

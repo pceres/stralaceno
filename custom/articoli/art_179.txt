@@ -1,0 +1,24 @@
+Autore::
+Titolo::Corsa dei Fal&ograve; Lioni
+--- Begin body ---
+<br>
+In occasione delle festivit&agrave; del'Immacolata e dei tradizionali fal&ograve; ad essa dedicati, la Madonna del Fuoco per i Lionesi, lo Sci Club Lioni 
+con il patrocinio del Comune e la collaborazione tecnica dell' a.s.d. Irpinia Italia, ha organizzato il giorno 8 dicembre 2013 in Piazza San Rocco, la 1° edizione della gara podistica non competitiva: 
+'La Corsa dei Fal&ograve; 10 Km'.<br><br>
+<b>Per l'ARS Daniele Caprio si &egrave; classificato al 6° posto con 36'41'', Donato Ceres &egrave; giunto 14° con 39'59'', Mauro Losco 28° con 41'24'', Carmine Cuozzo 62° con 46'28'' vincendo la classifica riservata ai lionesi. Ha chiuso regolarmente la gara anche Antonio Viscido 133° con 57'55''.</b><br>
+<br>Hanno partecipato 150 atleti.<br>
+<div align="center">
+<br>
+<img id="lioni1" src="%file_root%custom/album/varie/lioni2013_1.jpg" alt="" border="0" width="550">
+<br>
+<br>
+<img id="lioni2" src="%file_root%custom/album/varie/lioni2013_2.jpg" alt="" border="0" width="550">
+<br>
+<br>
+<img id="lioni3" src="%file_root%custom/album/varie/lioni2013_3.jpg" alt="" border="0" width="550">
+<br>
+<br>
+<img id="lioni4" src="%file_root%custom/album/varie/lioni2013_4.jpg" alt="" border="0" width="550">
+<br>
+</div>
+--- End body ---

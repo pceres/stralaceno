@@ -2035,3 +2035,35 @@ in questo paese ci sono tante persone che credono di essere tifosi dell'Avellino
 
 [post_text_338]
 Vergognaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Caposele e' un paese finito e pieno di persone false e stupide,ignoranti e arretrati in un altro paese chissa' qunte mazzate avevate preso la vostra fortuna e 'che siete nati in questo paesaccio ridicolo speriamo in una giustizia divina siete e resterete un popolo di incapaci e fessi.
+aaaaa!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Caposele e' un paese finito e pieno di persone false e stupide,ignoranti e arretrati in un altro paese chissa' qunte mazzate avevate preso la vostra fortuna e 'che siete nati in questo paesaccio ridicolo speriamo in una giustizia divina siete e resterete un popolo di incapaci e fessi.
+
+[post_text_339]
+siamo stanchi di essere presi in giro da quei soliti personaggi che appaiono a Caposele come le lucciole d'estate e pensano  di essere quelli che che possono fare i professori davanti ai bar la verita' sacrosanta e' che siete stati solo piu' fortunati di noi a trovare lavoro fuori e sieti partiti apprezzo il vostro coraggio ma resterete per sempre dei paesani caposelesi basta noi che viviamo in questo maledetto e arretrato paese dobbiamo recitare il ruolo di guida e' solo uno sfogo personale in quanto veremente incazzato e stanco di continuare una vita inutile costernata solo di delusioni e mai di cose belle e positive.
+
+[post_text_340]
+Grande Paolo Viscardi, non tanto per la corsa, ma per il fatto di essere in Messico, all'avventura...
+ah...comunque Paolo vedi che cercano 36000 informatici in Svizzera pagati 5600 euro al mese...pensaci
+
+[post_text_341]
+Bravo Paolo, hai portato i colori dell'ARS fino a Città del Messico!
+
+[post_text_342]
+Viviamo in un paese dove negli ultimi 5 anni non si e' fatto niente,l'amministrazione e' stata a dir poco inesistente e la gente li ha di nuovo votati addirittura con piu' forza poi non vi lamentate che i giovani sono  costretti tutti a scappare da questo paese ma ci rendiamo conto che con la risorsa acqua e il santuario dovevamo essere tutti impiegati ed invece niente io credo e sono convinto che in un qualsiasi paese normale d' italia la lista cuore avrebbe perso regolarmente ed invece qui stravince senza fare niente cari caposelesi se avete dignita' e cosienza Verognatevi.................................................vergogna...........................................................................siamo e resteremo un pese fallito e pieno solo di ignoranti e raccomandati.
+
+[post_text_343]
+vergognateviiiiiiiiiiii!!!!!!!!!!!!!!!!! siamo stufi noi giovani di aspettare davanti ad un bar ogni 5 anni che cambi qualcosa!!!mai niente!!!lavorano sempre gli stessi!!!!!!tutti pensano alle loro sacche ma nessuno si preoccupa del collettivo in generale!!!!!tutti sbandati,finiti,senza futuro,senza prospettive...qui ci vuole un solo grido:VERGOGNATEVIIIIII!!!!!VERGOGNATEVIIIIIIIIII!!!!!!!!!!!!!!!VERGOGNATEVIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII!!!!!!!!!!!!
+
+[post_text_344]
+pure io mi unisco e per voi c'e' un solo grido:Vergognaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa Fallitiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii Ignorantiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii Ridicoliiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+e per tutti gli emigranti che ogni tanto vengona afare i buffoni in paese non siente nessuno siete stati solo dei raccomandati e fortunati.
+
+[post_text_345]
+ieri sera si e' capito che politica e pallone sono la stessa cosa cioe' solo business e interessi mediatici e commerciali ma come si fa a non fischiare un rigore sacrosanto alla Fiorentina e per di piu' ammonizione di Cuadrado che lo costringera' a saltare la sfida di sabato prossimo con il Milan chi ha visto la partita non puo' non negare che il Napoli ha vinto con 2 tiri in porta c'e' stata una sola squadra in campo la Fiorentina ma molte volte nel calcio non vincono i piu' forti e purtroppo al Franchi e' successo questo.La gente sportiva e amante di questo calcio moderno pieno di contraddizioni si e' allontanata dagli stadi e ha fatto bene perche' non si possono fare sacrifici economici per amore della propria citta' e squadra e poi puntualmente assistere  a decisioni arbitrali vergognose che compromettono i risultati finali e che pesano sulla classifica,a questo punto mi sorge una domanda spontanea ma che li  fanno a  fare i campionati specialmente in serie A quando gia'si sa quali sono le squadre che lotteranno per lo scudetto.io resto convinto che la fine del pallone sono state le scommesse sportive e una classe arbitrale ridicola e vergognosa che ogni domenica commettono errori e sviste che falsano  i campionati,sinceramente io sto maturando l'idea che coltivavo gia' da tempo di non seguire piu' la serie A ma tifare e andare allo stadio sono per l'Avellino che e' il nostro orgoglio di essere Irpini nel sangue perche' sono nauseato e schifato del calcio moderno.Al momento attuale in cui siamo arrivati si possono seguire solo le Nazionali con la speranza che almeno quelle siano partite giocate realmente e vince chi dimostra la propria forza e superiorita' in campo scusate lo sfogo ma non se ne puo' piu' di questa societa' falsa e in cui i valori si sono perduti definitivamente.Nicola melillo
+
+[post_text_346]
+E poi come al solito ci sono quelli che amano il lupo e si mettono in macchina anche da soli e vanno allo stadio a tifare Avellino e quelli che a Caposele sono la maggioranza discutono davanti ai bar o dai barbieri non siete nessuno siete solo dei chiacchieroni incoerenti e privi di mentalita' ultras che ne sapete voi l'emozione che ci regala lo stadio ogni  volta che ci mettiamo piede resterete per sempre inferiori  culturalmente Vergognateviiiiiiiiiiiiiiiiiiiiii se avete un minimo di dignita'.
+
+[post_text_347]
+ultras superiori culturalmente?
+ahahaha...:-)
+caro tifoso sei un grande

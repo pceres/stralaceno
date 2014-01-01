@@ -1,0 +1,81 @@
+Autore::
+Titolo::Monte Ramatico
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 4 agosto 2013<br>
+<br>Cesinola, Monte Ramatico, Aria Spina, Cesinola (Lioni, Nusco)
+<br><br><br>
+<img id="ramatico1" src="%file_root%custom/album/ambiente/ramatico1.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Ramatico: vista della cima
+<br>
+<br>
+<br>
+<img id="ramatico2" src="%file_root%custom/album/ambiente/ramatico2.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Ramatico: vista di Lioni e della Valle dell'Ofanto
+<br>
+<br>
+<br>
+<img id="ramatico3" src="%file_root%custom/album/ambiente/ramatico3.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Ramatico: vista di Nusco
+<br>
+<br>
+<br>
+<img id="ramatico4" src="%file_root%custom/album/ambiente/ramatico4.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Ramatico: vista della Raia Spina
+<br>
+<br>
+<br>
+<img id="ramatico5" src="%file_root%custom/album/ambiente/ramatico5.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Ramatico: vista del Montagnone di Nusco
+<br>
+<br>
+<br>
+<img id="ramatico6" src="%file_root%custom/album/ambiente/ramatico6.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Ramatico: la cresta
+<br>
+<br>
+<br>
+<img id="ramatico10" src="%file_root%custom/album/ambiente/ramatico10.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Ramatico: veduta verso l'Alta Valle del Sele
+<br>
+<br>
+<br>
+<img id="ramatico7" src="%file_root%custom/album/ambiente/ramatico7.JPG" alt="" border="0" width="550">
+<br> <br>
+Raia Spina: vista della Valle Rotonda e del Monte Calvello
+<br>
+<br>
+<br>
+<img id="ramatico8" src="%file_root%custom/album/ambiente/ramatico8.JPG" alt="" border="0" width="550">
+<br> <br>
+Raia Spina: vista del Serrone Pizzuto e, in secondo piano, la vetta del Monte Cervarulo e il Monte Cervialto
+<br>
+<br>
+<br>
+<img id="ramatico9" src="%file_root%custom/album/ambiente/ramatico9.JPG" alt="" border="0" width="550">
+<br> <br>
+Raia Spina: veduta del Monte Calvello
+<br>
+<br>
+<br>
+<img id="ramatico11" src="%file_root%custom/album/ambiente/ramatico11.JPG" alt="" border="0" width="550">
+<br> <br>
+Cesinola: veduta del Monte Calvello
+<br>
+<br>
+<br>
+<img id="ramatico12" src="%file_root%custom/album/ambiente/ramatico12.JPG" alt="" border="0" width="550">
+<br> <br>
+Cesinola: pianoro
+<br>
+<br>
+<br>
+--- End body ---

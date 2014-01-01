@@ -1,0 +1,19 @@
+Autore::
+Titolo::Allenamento Invernale 2013
+--- Begin body ---
+<br>
+Hanno partecipato: Nicola D'Auria, Paolo Viscardi, Donatello Cirillo, Gerardo Viscido, Alfonso Rosania, Alessandro Russomanno, Annarita D'Elia, Daniele Caprio, Gelsomino Merola, Carmine Cuozzo.
+<br>
+<br>
+<div align="center">
+<img id="" src="%file_root%custom/album/varie/all.inv2013_2.jpg" alt="" border="0" width="550">
+<br>
+<br>
+<div align="center">
+<img id="" src="%file_root%custom/album/varie/all.inv2013.jpg" alt="" border="0" width="550">
+<br>
+<br>
+<div align="center">
+<img id="" src="%file_root%custom/album/varie/All.Inv.2013.jpg" alt="" border="0" width="450">
+<br>
+--- End body ---

@@ -1,0 +1,106 @@
+Autore::
+Titolo::Monte Vado del Piesco
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 15 dicembre 2013<br>
+<br>
+Ponte del Mulino, Ripe di Santomenna, Castelluccio, Vado Acqua di Tondo, Monte Vado del Piesco, Piano del Pozzo, Ponte del Mulino (Santomenna, Laviano)
+<br><br><br>
+<img id="piesco1" src="%file_root%custom/album/ambiente/piesco1.JPG" alt="" border="0" width="550">
+<br> <br>
+Ripe di Santomenna: sullo sfondo i Monti Altillo, Pollaro e Vallicelle
+<br>
+<br>
+<br>
+<img id="piesco2" src="%file_root%custom/album/ambiente/piesco2.JPG" alt="" border="0" width="550">
+<br> <br>
+Ripe di Santomenna: vista su Santomenna e, sullo sfondo, Castelnuovo di Conza
+<br>
+<br>
+<br>
+<img id="piesco3" src="%file_root%custom/album/ambiente/piesco3.JPG" alt="" border="0" width="550">
+<br> <br>
+Castelluccio: veduta del Monte Pennone e dell'abitato di Laviano
+<br>
+<br>
+<br>
+<img id="piesco4" src="%file_root%custom/album/ambiente/piesco4.JPG" alt="" border="0" width="550">
+<br> <br>
+Castelluccio: rudere
+<br>
+<br>
+<br>
+<img id="piesco5" src="%file_root%custom/album/ambiente/piesco5.JPG" alt="" border="0" width="550">
+<br> <br>
+Castelluccio: vista dei Monti Eremita e Pennone
+<br>
+<br>
+<br>
+<img id="piesco6" src="%file_root%custom/album/ambiente/piesco6.JPG" alt="" border="0" width="550">
+<br> <br>
+Vado Acqua di Tondo: sullo sfondo la parete sud del Monte Vado del Piesco
+<br>
+<br>
+<br>
+<img id="piesco7" src="%file_root%custom/album/ambiente/piesco7.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Vado del Piesco
+<br>
+<br>
+<br>
+<img id="piesco8" src="%file_root%custom/album/ambiente/piesco8.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Vado del Piesco
+<br>
+<br>
+<br>
+<img id="piesco9" src="%file_root%custom/album/ambiente/piesco9.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Vado del Piesco
+<br>
+<br>
+<br>
+<img id="piesco10" src="%file_root%custom/album/ambiente/piesco10.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Vado del Piesco, la cresta est
+<br>
+<br>
+<br>
+<img id="piesco11" src="%file_root%custom/album/ambiente/piesco11.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Vado del Piesco: verticalità della parete  sud
+<br>
+<br>
+<br>
+<img id="piesco12" src="%file_root%custom/album/ambiente/piesco12.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Vado del Piesco: vista su Piano Solenne
+<br>
+<br>
+<br>
+<img id="piesco13" src="%file_root%custom/album/ambiente/piesco13.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Vado del Piesco: veduta della parete nord
+<br>
+<br>
+<br>
+<img id="piesco14" src="%file_root%custom/album/ambiente/piesco14.JPG" alt="" border="0" width="550">
+<br> <br>
+Vista della Costa Correggio e della Costa del Monte Salursi che formano il Vallone di Santomenna
+<br>
+<br>
+<br>
+<img id="piesco15" src="%file_root%custom/album/ambiente/piesco15.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone di Santomenna presso il Ponte del Mulino
+<br>
+<br>
+<br>
+<img id="piesco16" src="%file_root%custom/album/ambiente/piesco16.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone di Santomenna presso il Ponte del Mulino
+<br>
+<br>
+<br>
+--- End body ---

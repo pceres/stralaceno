@@ -1,0 +1,114 @@
+Autore::
+Titolo::Grienzi - Raia della Quercia
+--- Begin body ---
+<br>
+<div align="center">
+<br>Passeggiata del 17 agosto 2013<br>
+<br>Piana dei Grienzi, Sorgente Petrella, Raia della Quercia e ritorno (Calabritto)
+<br><br><br>
+<img id="raiaque1" src="%file_root%custom/album/ambiente/raiaque1.JPG" alt="" border="0" width="550">
+<br> <br>
+Piana dei Grienzi: fontana nei pressi della Cappella della Madonna dei Grienzi
+<br>
+<br>
+<br>
+<br>
+<img id="raiaque15" src="%file_root%custom/album/ambiente/raiaque15.JPG" alt="" border="0" width="550">
+<br> <br>
+Piana dei Grienzi: poggio della Madonna
+<br>
+<br>
+<br>
+<br>
+<img id="raiaque2" src="%file_root%custom/album/ambiente/raiaque2.JPG" alt="" border="0" width="550">
+<br> <br>
+Piana dei Grienzi: vista del Monte Pollaro
+<br>
+<br>
+<br>
+<br>
+<img id="raiaque8" src="%file_root%custom/album/ambiente/raiaque8.JPG" alt="" border="0" width="550">
+<br> <br>
+Piana dei Grienzi: parete ovest del Monte Pollaro
+<br>
+<br>
+<br>
+<br>
+<img id="raiaque3" src="%file_root%custom/album/ambiente/raiaque3.JPG" alt="" border="0" width="550">
+<br> <br>
+Sorgente di Petrella: ponte
+<br>
+<br>
+<br>
+<br>
+<img id="raiaque4" src="%file_root%custom/album/ambiente/raiaque4.JPG" alt="" border="0" width="550">
+<br> <br>
+Raia della Quercia: Piano della Cerasa
+<br>
+<br>
+<br>
+<br>
+<img id="raiaque5" src="%file_root%custom/album/ambiente/raiaque5.JPG" alt="" border="0" width="550">
+<br> <br>
+Raia della Quercia: veduta della forra di Calabritto.
+<br>
+<br>
+<br>
+<br>
+<img id="raiaque6" src="%file_root%custom/album/ambiente/raiaque6.JPG" alt="" border="0" width="550">
+<br> <br>
+Raia della Quercia e, sullo sfondo, il Monte Boschetiello
+<br>
+<br>
+<br>
+<br>
+<img id="raiaque7" src="%file_root%custom/album/ambiente/raiaque7.JPG" alt="" border="0" width="550">
+<br> <br>
+Raia della Quercia: vista del Monte Cervarulo
+<br>
+<br>
+<br>
+<br>
+<img id="raiaque9" src="%file_root%custom/album/ambiente/raiaque9.JPG" alt="" border="0" width="550">
+<br> <br>
+Raia della Quercia: vista del Monte Calvello
+<br>
+<br>
+<br>
+<br>
+<img id="raiaque10" src="%file_root%custom/album/ambiente/raiaque10.JPG" alt="" border="0" width="550">
+<br> <br>
+Raia della Quercia: veduta del Monte Pollaro
+<br>
+<br>
+<br>
+<br>
+<img id="raiaque11" src="%file_root%custom/album/ambiente/raiaque11.JPG" alt="" border="0" width="550">
+<br> <br>
+Raia della Quercia: vista di Ponticchio
+<br>
+<br>
+<br>
+<br>
+<img id="raiaque12" src="%file_root%custom/album/ambiente/raiaque12.JPG" alt="" border="0" width="550">
+<br> <br>
+Raia della Quercia: vetta e, sullo sfondo, Monte Pollaro
+<br>
+<br>
+<br>
+<br>
+<img id="raiaque13" src="%file_root%custom/album/ambiente/raiaque13.JPG" alt="" border="0" width="550">
+<br> <br>
+Raia della Quercia: vista del Piano della Cerasa
+<br>
+<br>
+<br>
+<br>
+<img id="raiaque14" src="%file_root%custom/album/ambiente/raiaque14.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone di Vado Carpino: cascatella
+<br>
+<br>
+<br>
+<br>
+--- End body ---

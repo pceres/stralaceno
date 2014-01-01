@@ -1,0 +1,82 @@
+Autore::
+Titolo::Monte della Croce
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 7 dicembre 2013<br>
+<br>
+Madonna del Tiglio, Baia dei Troni, Bardoleia, Monte della Croce, Cesina del Prete, Madonna del Tiglio (Senerchia)
+<br><br><br>
+<img id="croce1" src="%file_root%custom/album/ambiente/croce1.JPG" alt="" border="0" width="550">
+<br> <br>
+Strada località Il Tiglio
+<br>
+<br>
+<br>
+<img id="croce2" src="%file_root%custom/album/ambiente/croce2.JPG" alt="" border="0" width="550">
+<br> <br>
+Croce della Madonna del Tiglio: veduta sulla Valle del Sele
+<br>
+<br>
+<br>
+<img id="croce3" src="%file_root%custom/album/ambiente/croce3.JPG" alt="" border="0" width="550">
+<br> <br>
+Madonna del Tiglio: vista di Senerchia
+<br>
+<br>
+<br>
+<img id="croce4" src="%file_root%custom/album/ambiente/croce4.JPG" alt="" border="0" width="550">
+<br> <br>
+Cappella della Madonna del Tiglio
+<br>
+<br>
+<br>
+<img id="croce5" src="%file_root%custom/album/ambiente/croce5.JPG" alt="" border="0" width="550">
+<br> <br>
+Interno della Cappella della Madonna del Tiglio
+<br>
+<br>
+<br>
+<img id="croce6" src="%file_root%custom/album/ambiente/croce6.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte della Croce visto da Baia dei Troni
+<br>
+<br>
+<br>
+<img id="croce7" src="%file_root%custom/album/ambiente/croce7.JPG" alt="" border="0" width="550">
+<br> <br>
+Costa ovest del Monte della Croce: affaccio verso la Valle della Caccia
+<br>
+<br>
+<br>
+<img id="croce8" src="%file_root%custom/album/ambiente/croce8.JPG" alt="" border="0" width="550">
+<br> <br>
+Vetta del Monte della Croce
+<br>
+<br>
+<br>
+<img id="croce9" src="%file_root%custom/album/ambiente/croce9.JPG" alt="" border="0" width="550">
+<br> <br>
+Vetta del Monte della Croce: veduta sulla cresta ovest
+<br>
+<br>
+<br>
+<img id="croce10" src="%file_root%custom/album/ambiente/croce10.JPG" alt="" border="0" width="550">
+<br> <br>
+Vetta del Monte della Croce: veduta verso l'alta Valle del Sele
+<br>
+<br>
+<br>
+<img id="croce11" src="%file_root%custom/album/ambiente/croce11.JPG" alt="" border="0" width="550">
+<br> <br>
+Vetta del Monte della Croce: vista della Baia dei Troni
+<br>
+<br>
+<br>
+<img id="croce12" src="%file_root%custom/album/ambiente/croce12.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone Bardoleia
+<br>
+<br>
+<br>
+--- End body ---

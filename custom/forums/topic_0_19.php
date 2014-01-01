@@ -149,3 +149,23 @@ Eduardo
 
 [post_text_9]
 &gt;Sul sito genealogico ci ha scritto Eduardo Carey Russomanno, dall'Argentina ma di origini caposelesi:<br>&gt; <br>&gt;"Mio nonno era  Vincenzo Russomanno (nato a Caposele nel 1867); mia madre, figlia di Vincenzo, ha 98 anni. Vincenzo Russomanno si sposo' in Argentina con Madalena Failace, nata a Morano Calabro.<br>&gt;Vorrei sapere se a Caposele vive (ed eventualmente contattarla) qualche cugina di mia madre. So che avevano cognome Soriano, Freda, Nisivoccia, Peccatiello.<br>&gt;Grazie.<br>&gt;Eduardo"<br>&gt; <br>&gt;--------------------------------------------------------<br>&gt; <br>&gt;Mi abuelo era Vincenzo Russomanno &#8206;(I1946 o I1947)&#8206;,sus padres y hermano &#8206;(f676)&#8206;, mi madre hija de Vincenzo aun vive y tiene 98 años. Vincenzo Russomanno se caso en Argentina con Madalena Failace, que nacio en Morano Calabro.<br>&gt;Quisie saber si en Caposele vive alguna prime de mi madre o sobrina para contactarme.<br>&gt;Los ultimos que vi son Soriano,Freda,Nisivoccia,Peccatiello.<br>&gt;Gracias.<br>&gt;Eduardo<br>&gt;<br><br>ciao io mi chiamo salvatore russomanno e sono figlio a vincenzo russomanno e suo nonno si chiamava vincenzo e siamo di caposele
+suo nonno si chiamava vincenzo e siamo di caposele
+
+[post_text_10]
+&nbsp;
+Ricevo questo invito da un nostro amico di origini caposelesi, Ever Ceres, e lo pubblico volentieri:
+&nbsp;
+&nbsp;
+Hola Pascuale , queria informerte e invitarte a una reunion-cena que haremos toda la Familia Ceres , descendientes de Generoso Ceres , que viniera a la Argentina el siglo pasado...
+Nos reuniremos un un salon de fiestas en Chacabuco Provincia de Buenos Aires , el 21 de junio , y quisieramos que lo supieran nuestros parientes italianos , por si da la ocasion de alguno que este de paseo por estas tierras , con gusto sera bienvenido.
+Bueno , ya pasaremos fotos despues de la reunion , para poner en el sitio Web .
+Saludos y espero tu respuesta y comentarios.
+Ever Roque Ceres
+&nbsp;
+------------------------------------------------------------------------------------------
+&nbsp;
+Ciao Pasquale, ho voluto informarti ed invitarti ad un incontro-cena di tutta la famiglia Ceres, discendenti di Generoso Ceres, venuti in Argentina nel secolo scorso ...
+Ci incontreremo a Chacabuco, nella provincia di Buenos Aires, presso il salone delle feste,  il 21 giugno, e vorrei far sapere ai nostri parenti italiani, se ci sarà l'opportunità che alcuni si trovino da queste parti, che saranno calorosamente benvenuti.
+Beh, faremo delle foto della riunione, per poterle mettere sul sito.
+Saluti e spero in una tua risposta e commenti.
+Ever Roque Ceres

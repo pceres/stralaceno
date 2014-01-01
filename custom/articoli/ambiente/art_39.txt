@@ -1,0 +1,70 @@
+Autore::
+Titolo::Montagna Grande
+--- Begin body ---
+<br>
+<div align="center">
+<br>Passeggiata del 15 agosto 2013<br>
+<br>Colle del Leone, Piano d'Acera, Loggetta Raiamagra, Montagna Grande e ritorno (Bagnoli Irpino)
+<br><br><br>
+<img id="montgrande1" src="%file_root%custom/album/ambiente/montgrande1.JPG" alt="" border="0" width="550">
+<br> <br>
+Piano d'Acera
+<br>
+<br>
+<br>
+<br>
+<img id="montgrande2" src="%file_root%custom/album/ambiente/montgrande2.JPG" alt="" border="0" width="550">
+<br> <br>
+Piano d'Acera
+<br>
+<br>
+<br>
+<img id="montgrande3" src="%file_root%custom/album/ambiente/montgrande3.JPG" alt="" border="0" width="550">
+<br> <br>
+Montagna Grande: vista del lato nord del Monte Raiamagra
+<br>
+<br>
+<br>
+<img id="montgrande4" src="%file_root%custom/album/ambiente/montgrande4.JPG" alt="" border="0" width="550">
+<br> <br>
+Montagna Grande: vista del Monte Cervialto e del lato nord del Monte Raiamagra
+<br>
+<br>
+<br>
+<img id="montgrande5" src="%file_root%custom/album/ambiente/montgrande5.JPG" alt="" border="0" width="550">
+<br> <br>
+Montagna Grande: vetta
+<br>
+<br>
+<br>
+<img id="montgrande6" src="%file_root%custom/album/ambiente/montgrande6.JPG" alt="" border="0" width="550">
+<br> <br>
+Loggetta Raiamagra: veduta del Monte Accellica
+<br>
+<br>
+<br>
+<img id="montgrande7" src="%file_root%custom/album/ambiente/montgrande7.JPG" alt="" border="0" width="550">
+<br> <br>
+Loggetta Raiamagra: veduta della Alta Valle del Calore
+<br>
+<br>
+<br>
+<img id="montgrande8" src="%file_root%custom/album/ambiente/montgrande8.JPG" alt="" border="0" width="550">
+<br> <br>
+Loggetta Raiamagra: vista del lato nord-ovest del Monte Raiamagra
+<br>
+<br>
+<br>
+<img id="montgrande11" src="%file_root%custom/album/ambiente/montgrande11.JPG" alt="" border="0" width="550">
+<br> <br>
+Loggetta Raiamagra: vista del Monte Raia della Scannella
+<br>
+<br>
+<br>
+<img id="montgrande12" src="%file_root%custom/album/ambiente/montgrande12.JPG" alt="" border="0" width="550">
+<br> <br>
+Loggetta Raiamagra: vista della Savina e del Monte Accellica
+<br>
+<br>
+<br>
+--- End body ---
