@@ -263,6 +263,18 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 249::CorriereIrpinia.it::11/04/2013 11.21.06::visible
 250::CorriereIrpinia.it::15/04/2013 14.10.32::visible
 251::Ottopagine.it::19/04/2013 10.23.14::visible
+252::CorriereIrpinia.it::22/04/2013 12.05.40::visible
+253::CorriereIrpinia.it::23/04/2013 14.41.40::visible
+254::CorriereIrpinia.it::26/04/2013 09.52.11::visible
+255::CorriereIrpinia.it::26/04/2013 13.48.43::visible
+256::CorriereIrpinia.it::30/04/2013 14.40.07::visible
+257::CorriereIrpinia.it::02/05/2013 16.24.37::visible
+258::CorriereIrpinia.it::07/05/2013 16.37.05::visible
+259::CorriereIrpinia.it::15/05/2013 13.13.55::visible
+260::Ministero dell'Interno::27/05/2013 21.47.45::visible
+261::CorriereIrpinia.it::30/05/2013 09.35.49::visible
+262::Ottopagine.it::08/06/2013 10.34.47::visible
+263::CorriereIrpinia.it::13/01/2014 16.14.55::visible
 
 [post_text_0]
 In questo spazio saranno inseriti articoli apparsi sul web relativi ad eventi, persone, fatti avvenuti a Caposele.
@@ -4485,9 +4497,6 @@ Caposele – Un rappresentante per ognuno dei gruppi confluiti all’interno del cir
 Solo per citarne alcuni: i quattro del Circolo Arcobaleno (Vincenzo Zanca, Lorenzo Melillo, Ettore Gennaro Spatola e Rocco Merola), i due consiglieri del gruppo di minoranza “Autonomia e Trasparenza” (Tommaso Cibellis e Gerardo Di Masi), gli esponenti di Cittadinanzattiva (di cui è espressione lo stesso candidato a sindaco Cione), quelli del Comitato Pro Sele di Giovanni Cetrulo, nonché i riferimenti della sezione locale dell’Italia dei Valori guidata da Salvatore Nesta.
 Una folta pattuglia di papabili consiglieri, desiderosi di scendere in campo, ma allo stesso tempo disposti a fare un passo indietro, nel segno della ragionevolezza, ma soprattutto nell’interesse del nuovo progetto politico, alternativo alla maggioranza uscente del sindaco Pasquale Farina. D’altronde non potrebbe essere altrimenti considerato che, oltre al candidato sindaco, in lista potranno candidarsi soltanto in sei.
 &nbsp;
-andidato a sindaco Cione), quelli del Comitato Pro Sele di Giovanni Cetrulo, nonché i riferimenti della sezione locale dell’Italia dei Valori guidata da Salvatore Nesta.
-Una folta pattuglia di papabili consiglieri, desiderosi di scendere in campo, ma allo stesso tempo disposti a fare un passo indietro, nel segno della ragionevolezza, ma soprattutto nell’interesse del nuovo progetto politico, alternativo alla maggioranza uscente del sindaco Pasquale Farina. D’altronde non potrebbe essere altrimenti considerato che, oltre al candidato sindaco, in lista potranno candidarsi soltanto in sei.
-&nbsp;
 
 [post_text_252]
 Caposele, Via Santuario ora è quasi ultimata
@@ -4709,3 +4718,25 @@ Ufficializzata la giunta, il sindaco Farina si riserva di ufficializzare le dele
 &nbsp;
 Forti del risultato elettorale registrato con le elezioni amministrative, i democratici avevano espressamente richiesto maggiore peso politico in giunta, e l’assegnazione di cariche di primo piano. Oltre alla carica di vice sindaco, il circolo aveva chiesto l’assegnazione della delega all’agricoltura, come settore chiave dell’incremento del Pil. “Caposele vanta la presenza di 700 aziende agricole, ed è giunto il momento di posizionare i prodotti tipici con marchio di qualità sul mercato nazionale e internazionale; per non parlare del rifacimento dell’acquedotto rurale e della viabilità nelle contrade” conclude Grasso, auspicando in un interfaccia con l’assessorato al turismo
 &nbsp;
+
+[post_text_263]
+“Ambiente, giudizio negativo” E incalza: “E’ ancora possibile recuperare, rinsaldando i rapporti e il dialogo con le associazioni”
+&nbsp;
+Caposele 10:47 | 11/01/2014
+&nbsp;
+Angelo Ceres, avvocato, ex assessore comunale di Caposele durante il primo mandato di Pasquale Farina, alle ultime amministrative ha scelto di disimpegnarsi dalla vita politica per dedicarsi solo all'ambientalismo. Ed è su questo aspetto che risponde ad una serie di domande. Prima di tutto, l’amplificarsi delle questioni ambientali.
+&nbsp;
+Assessore, ci dica del suo impegno.
+«La mia prima preoccupazione è stata quella di evitare forme di inquinamento ed abusi sul territorio tentando di tutelare le sorgenti. Nonostante ci fossero leggi nazionali e regionali rivolte alla difesa del bacino idrico mai nessun ente ha provveduto alla sua reale salvaguardia. I principali problemi riguardavano la presenza di numerose microdiscariche, il disboscamento illegale ed il pascolo abusivo tutte direttamente impattanti sulle sorgenti e sulla qualità delle acque. Negli anni si sono bonificate varie aree da microdiscariche. Se non ricordo male sono stati rimossi circa 400 q. di rifiuti, anche in zone impervie (valloni), pericolosi anche per l’abitato di Caposele in quanto, i rifiuti, si ergevano a diga impedendo il normale deflusso delle acque piovane. Per debellare il disboscamento illegale ed il pascolo abusivo era stata affidata la vigilanza ambientale all’associazione Ambiente è/e Vita Coordinamento Irpino per la Vigilanza Ambientale ottenendo ottimi risultati con il quasi azzeramento di tali atti illeciti. Si era riusciti a coinvolgere anche ragazzi di Caposele sensibili alle tematiche ambientali organizzando dei corsi di formazione finalizzati all’acquisizione di vari decreti, rilasciati dalle autorità competenti, per la qualifica di guardie ambientali e ci si era prefissato di coinvolgere le altre organizzazioni, gruppi o comitati di Caposele. Associazione a cui va il mio profondo ringraziamento per l’impegno profuso in questi anni. Vigilanza che aveva espletato anche attività riguardanti la difesa dei prodotti del sottobosco, antibracconaggio e la raccolta indiscriminata e sconsiderata dell’origano. Inoltre si era riuscito ad ottenere il risarcimento del danno da una ditta boschiva che aveva prelevato più del dovuto il materiale legnoso».
+Entri nei particolari.
+«Devo continuare col dire che con l’attività di vigilanza e con l’impegno dell’ex assessore Alfonso Pallante si erano riusciti a microcippare oltre 200 cani avendo un maggior controllo sugli abbandoni soprattutto a Materdomini dove vengono lasciati, dai pellegrini, numerosi cani al loro destino.
+Una volta controllato il territorio, bonificato da discariche e, quindi, reso più attrattivo si era aperta la fase successiva di individuazione dei sentieri da trekking con l’arrivo dei primi escursionisti (rimasti entusiasti dei panorami e del buono stato di conservazione dell’ambiente). Inoltre si erano intercettati alcuni fondi europei per la realizzazione di vari interventi quali il ripristino di aree pic-nic e rifugi, manutenzione delle strade montane, e la realizzazione dell’area faunistica del cervo con la relativa autorizzazione alla detenzione della fauna selvatica, unico Comune in Campania ad averla, inoltre si era ottenuto un cospicuo finanziamento dal Parco dei Monti Picentini. Inaspettatamente queste iniziative sono state tutte accantonate e sostituite dal nulla.
+&nbsp;
+Cos’è successo visto che l’attuale amministrazione è la continuazione della precedente?
+«Riprendendo quanto stavo dicendo: vedere scomparire quanto fatto, gli sforzi profusi, anche economici, sacrificando la vita professionale mi sembra mortificante ed irrispettoso. Al danno, poi, si è aggiunta anche la beffa (sarebbe il contrario) in quanto, proprio per l’attività rivolta ad estirpare il marcio, secondo gli inquirenti, qualcuno ha avuto la brillante idea di “vendicarsi” squarciando le 4 ruote della mia autovettura e rompendo lo specchietto nei pressi della mia abitazione.
+Tranne la solidarietà di parenti, amici e dell’associazione Ambiente è/e Vita nessun altra istituzione, associazione, gruppo o comitato ha manifestato interesse. Eppure questi sono atti molto gravi. Ma tornando alla domanda rivoltami ho una mia idea. Sapendo benissimo le difficoltà amministrative, il carico di lavoro che ciascun assessore ha, soprattutto con la riduzione del numero degli stessi e dei consiglieri comunali, il venir meno di uno solo di questi mette in seria difficoltà la ingarbugliata vita amministrativa.
+Oggi mancando un assessorato all’ambiente, credo sia presente un consigliere delegato alla salvaguardia del patrimonio forestale e fluviale, è venuto meno un elemento essenziale per la corretta gestione del territorio. Ma questo poteva essere facilmente superato con la presenza di un consigliere delegato competente che avesse realmente a cuore la tutela del territorio. Quello che si è verificato in questi primi mesi è la diretta testimonianza delle forti lacune che si hanno in questa delicata materia. Il giudizio non può che essere negativo sia sulle politiche ambientali che sul suo consigliere delegato che con le sue particolari capacità rivolte allo sfascio, alla mancata tutela del territorio e alla proposizione del nulla potrebbe facilmente aver riattribuite le deleghe alla distruzione del patrimonio forestale, montano e fluviale. A questo si aggiunge il fatto che, più volte, è stata manifestata la volontà di considerare la vigilanza ambientale come indesiderata confermando la tesi sopra esposta e consegnando, di fatto, il territorio in mano ai portatori di interessi contrari allo sviluppo del territorio. Oltretutto vorrei ricordare a questo consigliere che nessun amministratore può imporre divieti alla vigilanza volontaria ad entrare nel territorio comunale (non siamo in uno Stato fascista per fortuna) e a svolgere i compiti che la legge prevede.
+&nbsp;
+Detto questo è ancora possibile recuperare. La prima condizione essenziale è quella di togliere le deleghe al consigliere ed attribuirle ad uno degli assessori già presenti nella precedente amministrazione (i quali godono della mia più totale stima), recuperare i rapporti ed il dialogo con le associazioni presenti sul territorio ed iniziare di nuovo ad imprimere le scelte improntate allo sviluppo e tutela del territorio».
+E l’opposizione?
+«Sono un appassionato di meteorologia e previsioni meteo e prendendo a prestito la terminologia utilizzata in queste importanti materie rispondo così: non pervenuta».

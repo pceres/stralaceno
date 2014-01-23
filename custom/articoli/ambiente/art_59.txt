@@ -1,0 +1,82 @@
+Autore::
+Titolo::Cime sud-orientali del Marzano-Eremita
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 11 gennaio 2014<br>
+<br>
+Cisterna Mauriello - Fontana Mauriello - Monte Carpineta - Monte Raistulo - Monte Neurale - Monte Saracino - Piano Neurale - Cisterna Mauriello (Colliano, San Gregorio Magno)
+<br><br><br>
+<img id="4cime1" src="%file_root%custom/album/ambiente14/4cime1.JPG" alt="" border="0" width="550">
+<br> <br>
+Fontana Mauriello
+<br>
+<br>
+<br>
+<img id="4cime2" src="%file_root%custom/album/ambiente14/4cime2.JPG" alt="" border="0" width="550">
+<br> <br>
+Pianoro sottostante la cima del Monte Carpineta
+<br>
+<br>
+<br>
+<img id="4cime3" src="%file_root%custom/album/ambiente14/4cime3.JPG" alt="" border="0" width="550">
+<br> <br>
+Cresta del Monte Carpineta: vista del Monte Marzano e, sullo sfondo, i Picentini
+<br>
+<br>
+<br>
+<img id="4cime4" src="%file_root%custom/album/ambiente14/4cime4.JPG" alt="" border="0" width="550">
+<br> <br>
+Cresta del Monte Carpineta: veduta della Serra Melara, di Buccino, del Monte Ogna e, sullo sfondo, gli Alburni
+<br>
+<br>
+<br>
+<img id="4cime5" src="%file_root%custom/album/ambiente14/4cime5.JPG" alt="" border="0" width="550">
+<br> <br>
+Cima del Monte Carpineta
+<br>
+<br>
+<br>
+<img id="4cime6" src="%file_root%custom/album/ambiente14/4cime6.JPG" alt="" border="0" width="550">
+<br> <br>
+Cima del Monte Raistulo
+<br>
+<br>
+<br>
+<img id="4cime7" src="%file_root%custom/album/ambiente14/4cime7.JPG" alt="" border="0" width="550">
+<br> <br>
+Cresta del Monte Raistulo: veduta del Monte Ogna
+<br>
+<br>
+<br>
+<img id="4cime8" src="%file_root%custom/album/ambiente14/4cime8.JPG" alt="" border="0" width="550">
+<br> <br>
+Cresta del Monte Raistulo: vista del Monte Neurale e, in secondo piano, i monti Cucuzzone, Serra Melara e Ogna
+<br>
+<br>
+<br>
+<img id="4cime9" src="%file_root%custom/album/ambiente14/4cime9.JPG" alt="" border="0" width="550">
+<br> <br>
+Cima del Monte Neurale: veduta del Monte Saracino e del Rifugio del brigante Angiolillo
+<br>
+<br>
+<br>
+<img id="4cime10" src="%file_root%custom/album/ambiente14/4cime10.JPG" alt="" border="0" width="550">
+<br> <br>
+Cresta del Monte Carpineta: vista del Monte Vado del Piesco
+<br>
+<br>
+<br>
+<img id="4cime11" src="%file_root%custom/album/ambiente14/4cime11.JPG" alt="" border="0" width="550">
+<br> <br>
+Fontana Neurale
+<br>
+<br>
+<br>
+<img id="4cime12" src="%file_root%custom/album/ambiente14/4cime12.JPG" alt="" border="0" width="550">
+<br> <br>
+Piano Neurale e, sullo sfondo, il Monte Raistulo
+<br>
+<br>
+<br>
+--- End body ---

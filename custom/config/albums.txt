@@ -1804,6 +1804,7 @@ V13_7.jpg::
 V13_8.jpg::
 
 [Foto Settimana]
+corcil.jpg::::02.07.2013 La corsa delle ciliegie - Squadre di bambini corrono con scale di legno per le vie di Zugo, in uno dei cantoni pi&ugrave; piccoli della Condeferazione Elvetica, per la tradizionale «Ciliegia-Rush», la Corsa delle ciliegie che inaugura la stagione della raccolta del frutto rosso, che riveste grande importanza per l'economia locale. Assecondando una tradizione di pi&ugrave; di 300 anni, le campane della chiesa di San Michele suonano per annunciare il momento in cui i frutti sono maturi e i cittadini possono prenderle dagli alberi, con le scale di legno (Corriere.it)
 cile.jpg::::31.05.2013 Fra acqua e cielo - Un uomo fa jogging a fine giornata lungo la costa, a Valparaiso, il secondo porto del Cile (Corriere.it)
 fre.jpg::::14.04.2013 Dalla parte sbagliata - Sembra andare dalla parte sbagliata questo concorrente della maratona di Vienna (Corriere.it)
 tokio13.jpg::::24.02.2013 Maratona di Tokyo, trionfa Kimetto - Il kenyano primo sul traguardo in 2 ore 6 minuti e 50 secondi (Corriere.it)
@@ -1843,61 +1844,13 @@ single.jpg::::07/06/2010 La corsa dei single - Cinque chilometri di corsa, per l
 Newcastle09.jpg::::29/09/2009 Maratona d'autunno - I corridori della Grande corsa del Nord, passano sul ponte di Newcastle mentre gli aerei acrobatici danno il benvenuto in citt&agrave; (Corriere.it)
 
 [FotoFlash]
-palinuro13.jpg::::19.05.2013 - Mauro Losco (numero 184) in gara nella 4^ Corsa del Mito, Palinuro - Marina di Camerota.
-piediluco.jpg::::01.05.2013 - Carmine Calvanese affronta il 31&deg; giro del lago di Piediluco (Terni).
-bravini13.jpg::::21.04.2013 - Carmine Calvanese durante il 2&deg; memorial N.Bravini a Terni.
-Terni2013.jpg::::24.03.2013 - Carmine Calvanese impegnato nelle prime fasi della Maratonina di Terni.
-cas.jpg::::15.02.2013 - Pronte le nuove casacche ARS per i due ultimi arrivati nella squadra podistica agonistica: Mauro Losco e Carmine Calvanese.
-AlfDAuria.jpg::::13.01.2013 - Alfonsina D'Auria (maglietta gialla) prende parte alla categoria esordienti del Campionato Brianzolo di cross, tappa di Cant&ugrave;.
-
-
-[Parigi_13]
-p2.JPG::
-p4.JPG::
-p5.JPG::
-p6.JPG::
-p7.JPG::
-p8.JPG::
-p9.JPG::
-p10.JPG::
-p11.JPG::
-p12.JPG::
-p13.JPG::
-p14.JPG::
-p15.JPG::
-p16.JPG::
-p17.JPG::
-p18.JPG::
-p19.JPG::
-p20.JPG::
-p21.JPG::
-p22.JPG::
-p23.JPG::
-p24.JPG::
-
-[ambiente]
-Parco_Picentini.jpg::Parco dei Monti Picentini::Vista d'insieme::
-Parco_Picentini_zoom_Caposele.jpg::Parco dei Monti Picentini::zoom comune di Caposele (centro abitato in zona C, zona adiacente in zona B)
-Parco_Picentini_zoom_Caposele_2.jpg::Parco dei Monti Picentini::zoom centro abitato Caposele
-tk2007_1.jpg::
-tk2007_2.jpg::
-tk2007_3.jpg:: 
-tk2007_4.jpg:: 
-tk2007_5.jpg:: 
-tk2007_6.jpg:: 
-tk2007_7.jpg:: 
-tk2007_8.jpg:: 
-acq1.jpg::
-acq2.jpg::
-acq3.jpg::
-acq4.jpg::
-acq5.jpg::
-acq6.jpg::
-acq7.jpg::
-pud.jpg::
-pud2.jpg::
-orso.jpg::
-Lupo2010.jpg::ara per l'ARS anche Giuseppe Cetrulo 3&deg; classificato, Donato Ceres 4&deg;, Francesco Ceres, Carmine Losco, Nicola D'Auria, Paolo Viscardi e Tommaso Cibellis.
+coast13.jpg::::15.12.2013 - Mauro Losco conclude la 5^ Coast to Coast 2013 Sorrento-Amalfi di km 31,3, ottenendo un buon 78&deg; posto assoluto su 767 arrivati.
+ecotrailascoli2013.jpg::::26.10.2013 - Daniele Caprio vince la 3^ edizione dell'Ecotrail dei 2 Parchi ad Arquata del Tronto (AP).
+pisa2013.jpg::::13.10.2013 - Carmine Calvanese prima della partenza della 27^ Pisa half marathon, dove migliorer&agrave; notevolmente il proprio personale sulla distanza.
+stabiae13.jpg::::12.10.2013 - 13&deg; posto assoluto per Daniele Caprio alla 27^ Stabiae night marathon di Castellammare di Stabia.
+sicign2013.JPG::::06.10.2013 - Daniele Caprio impegnato nel 7&deg; Memorial B.Germano a Sicignano degli Alburni. Si piazzer&agrave; 11&deg; assoluto.
+3camp2013.jpg::::15.08.2013 - Alla 3 Campanili 2013 fa il suo esordio la nuova divisa podistica ARS.
+caprio3camp2013.jpg::::15.08.2013 - Daniele Caprio vince la corsa dei Tre Campanili di Caposele con il tempo di 22'41". In gara per l'ARS anche Giuseppe Cetrulo 3&deg; classificato, Donato Ceres 4&deg;, Francesco Ceres, Carmine Losco, Nicola D'Auria, Paolo Viscardi e Tommaso Cibellis.
 trailpicentini13.jpg::::28.07.2013 - Mauro Losco (numero 171) impegnato nel II Trail dei Monti Picentini - Montoro Superiore.
 palinuro13.jpg::::19.05.2013 - Mauro Losco (numero 184) in gara nella 4^ Corsa del Mito, Palinuro - Marina di Camerota.
 piediluco.jpg::::01.05.2013 - Carmine Calvanese affronta il 31&deg; giro del lago di Piediluco (Terni).
@@ -2113,3 +2066,5 @@ stra13_3.jpg::
 13_147.jpg::::
 13_148.jpg::::
 13_149.jpg::::
+
+[ambiente14]
