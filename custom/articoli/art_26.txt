@@ -8,7 +8,6 @@ Tra le donne successo di ANNARITA D'ELIA con 26'03'' (nuovo record femminile del
 <br><br>
 I partecipanti sono stati 62 pi&ugrave; due atleti fuori gara.<br>
 <br><a href="filtro4.php?anno=2013">La classifica ufficiale della Stralaceno 2013 &egrave; consultabile qui</a>.<br><br>
-<font color=”FF0000”><a href="album.php?anno=2012">QUI</a> inserite le prime foto commentate dell'edizione dello scorso anno - 2012, ancora non presenti sul sito </font> <br>
 <div align="center">
 <br>
 <img id="foto" src="%file_root%custom/album/2013/stra13_1.jpg " alt="" border="0" width="550">
