@@ -125,6 +125,16 @@ if (!empty($link_geneal))
 {
 	$caption_custom1 = str_replace('<$$>',$link_geneal,$custom_vars['custom1_caption']);
 	echo "$caption_custom1<br>\n";
+	
+	// estrai il primo link presente in $caption_custom1
+	preg_match('/href="[^"]+"/', $caption_custom1, $matches);
+	$match = $matches[0];
+	preg_match_all('/[^"]+/', $match, $matches2);
+	$link_custom1 = $matches2[0][1];
+}
+else
+{
+	$link_custom1 = '';
 }
 
 $link = trim($atleta[$indice2_link]);
@@ -140,7 +150,21 @@ if ($link !== "-")
 	}
 }
 
-
+// immagine custom
+$custom1 = trim($atleta[$indice2_custom1]);
+if($custom1 !== "-")
+{
+	echo "<div align=\"center\">";
+	if ($link_custom1=='')
+	{
+		echo "<img src=\"custom/album/custom/$atleta[$indice2_custom1].jpg\"  alt=\"{$atleta[$indice2_nome]} (ID $custom1)\" >";
+	}
+	else
+	{
+		echo "<a href=\"$link_custom1\"><img src=\"custom/album/custom/$atleta[$indice2_custom1].jpg\"  alt=\"{$atleta[$indice2_nome]} (ID $custom1)\" ></a>";
+	}
+	echo "</div>";
+}
 echo "<hr style=\"clear:right\">\n";
 
 // richiesta informazioni
