@@ -16,3 +16,7 @@ grafico_tempi:12
 homepage:82
 tempi_atleta:53
 foto:107
+d_foto:1
+classifica_generale_MF:6
+admin_root_index:1
+admin_edit_config:1
