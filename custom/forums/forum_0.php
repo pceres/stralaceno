@@ -30,10 +30,10 @@ Formato [elenco_topics]:
 13::Per nazòn::hidden::::::antonio::4::3
 14::F.C. Caposele::open::::::Ars::49::48
 15::Elezioni comunali a Caposele::open::::::Cleon.ren::138::137
-16::Sezione Ambiente e Natura::open::::::Ambiente::96::96
+16::Sezione Ambiente e Natura::open::::::Ambiente::97::97
 17::Per l'inviato::hidden::::::christian meyer::6::5
 18::Il 3 novembre si disputerà la Quasinove: gara podistica organizzata da Nicola Melillo::hidden::::::Jerry Notaro::2::1
-19::Genealogia caposelese::open::::::Pasquale C.::11::10
+19::Genealogia caposelese::open::::::Pasquale C.::12::11
 20::Un pensiero per Marco Pantani::hidden::::::appassionato di ciclismo::22::21
 21::I tre Angeli custodi salvano Ale da una grande crisi::hidden::::::Salvatore::7::6
 22::PARCO DEI MONTI PICENTINI::hidden::::::AmbienteNews::1::0
@@ -45,7 +45,7 @@ Formato [elenco_topics]:
 28::sentenza::hidden::::::emigrato::1::0
 29::forza caposele::hidden::::::gaetano::2::1
 30::MEZZA MARATONA CITTA' DI POTENZA TUNE-UP::hidden::::::MIMMO55::1::0
-31::I problemi di caposele::open::::::gaetano::29::28
+31::I problemi di caposele::open::::::gaetano::30::29
 32::vergognatevi!!!!!::hidden::::::ESASPERATI::1::0
 33::sto arrivando!!::open::::::gaetano::6::5
 34::stufato::hidden::::::hamsik::3::2

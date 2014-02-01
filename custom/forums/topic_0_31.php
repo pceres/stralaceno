@@ -34,6 +34,13 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 20::stitico::21/01/2013 21.40.40::visible
 21::trippastrazza::22/01/2013 10.25.51::visible
 22::felice sciosciammocca::25/01/2013 22.14.51::visible
+23::AVANTI!!!!!!!!!!::15/03/2013 13.03.41::visible
+24::porco zio::10/10/2013 00.13.01::visible
+25::umiliato::11/10/2013 18.39.20::visible
+26::capofinish::07/11/2013 20.00.06::visible
+27::nicola m.::19/12/2013 18.50.15::visible
+28::Lupo::20/12/2013 11.35.54::visible
+29::imbroglioni::25/01/2014 22.00.38::visible
 
 [post_text_0]
 a caposele non solo non c'e'nessuno,ma per quei pochi che siamo rimasti viviamo in uno stato di precarieta'dovuta alla mancanza di occupazione in primix, e tutto il resto fa da cornice a questo problema. il calcio in un paese come caposele e' finito, nemmeno una terza categoria si fa piu',con un campo dal valore di 2 miliardi... che vergogna! calabritto ci ha superati! loro hanno una squadra, un campo, e una pista d'atletica, noi invece dobbiamo correre in mezzo al traffico o in campagna col rischio di essere aggrediti dai cani. spero che un giorno caposele rinasca, e quei pochi che ora sono piccoli abbino un futuro piu' roseo e no costretti a scappare da caposele per mancanza di TUTTO.
@@ -113,11 +120,9 @@ lista mir senato al 15esimo posto Gerardo Martino originario di caposele
 [post_text_22]
 caro ettore spatola,
 tu hai sempre sbagliato...stavolta hai sbagliatissimo
-hai sempre sbagliato...stavolta hai sbagliatissimo
 
 [post_text_23]
 non se ne puo' piu' di questo paese!!! finalmente arrivano l'elezioni!!! come al solito solo chiacchiere si e' fatto!!!stavolta la gente non verra' presa piu' per i fondelli..!!!questa volta anche un misero voto bisogna sudarselo!!!!!!!!!quindi cacciate le p.... ai prossimi successori!!! vogliamo rispetto e coerenza noi cittadini!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-a anche un misero voto bisogna sudarselo!!!!!!!!!quindi cacciate le p.... ai prossimi successori!!! vogliamo rispetto e coerenza noi cittadini!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 [post_text_24]
 sono nervosissimo ,stufato,nauseato,schifato da questo paese cimitero che si chiama caposele!!! il mio progetto per caposele sarebbe quello di estendere il cimitero in tutto il paese dato che c'e' sempre meno spazio al camposanto tanto in giro si respira la stessa aria    di la...cioe' deserto allo stato puro!!! vergognateviiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -134,3 +139,6 @@ Vergognatevi falsi tifosi dell'Avellino in questi giorni vi siete riempiti la bo
 
 [post_text_28]
 &gt;Vergognatevi falsi tifosi dell'Avellino in questi giorni vi siete riempiti la bocca della partita di ieri sera a Torino contro la Juventus nella vita la parola coerenza non fa parte del vostro vocabolario come mai al partenio tranne i soliti non vi abbiamo mai visti l'amore per una squadra di calcio si manifesta sempre non solo in alcune  serate speciali a  Caposele veri tifosi siamo in pochi una decina per poter parlare davanti ai bar sport  preferito a Caposele dovete seguire allo stadio almeno in casa il lupo per diversi anni altrimenti state zitti e pensate ad altro che il pallone in televisione per noi spettatori da stadio non ci appartiene.<br>&gt;<br><br>Bravo Nicola! E' vero, i veri tifosi avellinesi sono pochi, gli altri tutti esibizionisti per caso...
+
+[post_text_29]
+non e' possibile che non si trova lavoro a caposele!!!!!!!! i datori di lavoro pensano solo ai cavoli loro pagandoti molto meno del dovuto solo perche'se ne approfittano della crisi...Cosi'non si puo'continuare!!! noi lavoratori vogliamo quello che ci tocca!!! i soldi, i contributi,le ferie..ecc. non esiste piu'niente!!! RIBELLIAMOCI!!!!!!!!!!! le giornate da cameriere andatele a fare voi il weekend a materdomini brutti stronzi!!! NOI VOGLIAMO LO STIPENDIO!!! VOGLIAMO DIRITTI E DOVERI!!! Noi siamo il futuro di questo stupido paese ma vogliamo RISPETTO!!!!!!!

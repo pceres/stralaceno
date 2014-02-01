@@ -12,6 +12,7 @@
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
+61::ambiente::Valle del Tusciano::
 60::ambiente::Monti Cervarolo e Cervarulo::
 59::ambiente::Cime sud-orientali del Marzano-Eremita::
 58::ambiente::Grotta Profunnata::

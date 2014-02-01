@@ -1,0 +1,87 @@
+Autore::
+Titolo::Valle del Tusciano
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 25 gennaio 2014<br>
+<br>Ariano di Olevano - Ingresso Grotta dell'Angelo - Parco San Michele - Ponte dell'Angelo - Ariano (Olevano sul Tusciano)
+<br> <br>
+<img id="tusc1" src="%file_root%custom/album/ambiente14/tusc1.JPG" alt="" border="0" width="550">
+<br><br>
+Valle del Tusciano: vista dei bastioni rocciosi dove è ubicato il Castello di Olevano
+<br>
+<br>
+<br>
+<img id="tusc2" src="%file_root%custom/album/ambiente14/tusc2.JPG" alt="" border="0" width="550">
+<br><br>
+Valle del Tusciano: veduta parte parete ovest del Monte Raione dove è ubicata la Grotta dell'Angelo
+<br>
+<br>
+<br>
+<img id="tusc3" src="%file_root%custom/album/ambiente14/tusc3.JPG" alt="" border="0" width="550">
+<br><br>
+Grotta dell'Angelo, detta anche di San Michele
+<br>
+<br>
+<br>
+<img id="tusc4" src="%file_root%custom/album/ambiente14/tusc4.JPG" alt="" border="0" width="550">
+<br><br>
+Grotta dell'Angelo, detta anche di San Michele 
+<br>
+<br>
+<br>
+<img id="tusc5" src="%file_root%custom/album/ambiente14/tusc5.JPG" alt="" border="0" width="550">
+<br><br>
+Valle del Tusciano
+<br>
+<br>
+<br>
+<img id="tusc6" src="%file_root%custom/album/ambiente14/tusc6.JPG" alt="" border="0" width="550">
+<br><br>
+Croce votiva presso la Grotta dell'Angelo
+<br>
+<br>
+<br>
+<img id="tusc7" src="%file_root%custom/album/ambiente14/tusc7.JPG" alt="" border="0" width="550">
+<br><br>
+Valle del Tusciano: veduta parte parete ovest del Monte Raione dove vi sono le "finestre" della Grotta di Nardantuono
+<br>
+<br>
+<br>
+<img id="tusc8" src="%file_root%custom/album/ambiente14/tusc8.JPG" alt="" border="0" width="550">
+<br><br>
+Parete ovest del Monte Raione: cunicolo
+<br>
+<br>
+<br>
+<img id="tusc9" src="%file_root%custom/album/ambiente14/tusc9.JPG" alt="" border="0" width="550">
+<br><br>
+Valle del Tusciano: vista delle Ripe di Pappalondo
+<br>
+<br>
+<br>
+<img id="tusc10" src="%file_root%custom/album/ambiente14/tusc10.JPG" alt="" border="0" width="550">
+<br><br>
+Valle del Tusciano: vallone proveniente dal Monte Raione
+<br>
+<br>
+<br>
+<img id="tusc11" src="%file_root%custom/album/ambiente14/tusc11.JPG" alt="" border="0" width="550">
+<br><br>
+Valle del Tusciano: Ponte dell'Angelo
+<br>
+<br>
+<br>
+<img id="tusc12" src="%file_root%custom/album/ambiente14/tusc12.JPG" alt="" border="0" width="550">
+<br><br>
+Valle del Tusciano
+<br>
+<br>
+<br>
+<img id="tusc13" src="%file_root%custom/album/ambiente14/tusc13.JPG" alt="" border="0" width="550">
+<br><br>
+Valle del Tusciano: cascata proveniente dai bastioni rocciosi del Castello di Olevano
+<br>
+<br>
+<br>
+--- End body ---
