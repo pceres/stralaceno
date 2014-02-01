@@ -168,9 +168,9 @@ $0 <options> <ftpserver> <ftpusername> <ftpfolder> <localfolder>
 
 Es.:
 
-ftpsync -d pceres.altervista.org pceres /stralaceno/custom/ ./../custom/
+ftpsync -d ftp.pceres.altervista.org pceres /stralaceno/custom/ ./../custom/
 
-ftpsync -u pceres.altervista.org pceres /stralaceno/custom/dati/ ./../custom/dati/
+ftpsync -u ftp.pceres.altervista.org pceres /stralaceno/custom/dati/ ./../custom/dati/
 
 END
   exit
