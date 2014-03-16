@@ -42,4 +42,8 @@ $dat__entry[16576]=array("ts"=>"1390552573","ip"=>"95.74.30.92","host"=>"","age"
 $dat__entry[16577]=array("ts"=>"1390600691","ip"=>"82.57.90.51","host"=>"host51-90-dynamic.57-82-r.retail.telecomitalia.it","age"=>"Mozilla Firefox 26.x","os"=>"Windows NT","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"http%3A%2F%2Fwww.google.it%2Furl","eng"=>"","enk"=>"");
 $dat__entry[16578]=array("ts"=>"1390635361","ip"=>"79.10.209.36","host"=>"host36-209-dynamic.10-79-r.retail.telecomitalia.it","age"=>"Mozilla Firefox 24.x","os"=>"Linux","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"","eng"=>"","enk"=>"");
 
+?>a Firefox 19.x","os"=>"Linux","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"","eng"=>"","enk"=>"");
+$dat__entry[16576]=array("ts"=>"1390552573","ip"=>"95.74.30.92","host"=>"","age"=>"","os"=>"Windows NT","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno%2Ffiltro2.php","eng"=>"","enk"=>"");
+$dat__entry[16577]=array("ts"=>"1390600691","ip"=>"82.57.90.51","host"=>"host51-90-dynamic.57-82-r.retail.telecomitalia.it","age"=>"Mozilla Firefox 26.x","os"=>"Windows NT","loc"=>"http%3A%2F%2Fpceres.altervista.org%2Fstralaceno","ref"=>"http%3A%2F%2Fwww.google.it%2Furl","eng"=>"","enk"=>"");
+
 ?>
