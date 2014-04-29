@@ -23,18 +23,24 @@ inizio footer
 		<tr>
 		  <td align="right"><small>Webmaster</small></td>
 		  <td><small>:</small></td>
-		  <td align="left" style="font-style: italic;"><small><a
+		  <td align="left" style="font-style: italic;"><small>
+                     <a
 			 href="mailto:pasquale_c@hotmail.com?subject=Info%20o%20suggerimenti%20sul%20sito" 
 			 title="Info o suggerimenti sul sito">Pasquale Ceres</a>
+                     ,
+                     <a
+			 href="mailto:paolovisca86@hotmail.it?subject=Info%20o%20suggerimenti%20sul%20sito" 
+			 title="Info o suggerimenti sul sito">Paolo Viscardi</a>
 		  </small></td>
 		</tr>
 		
 		<tr>
 		  <td align="right"><small>Amministratori</small></td>
 		  <td><small>:</small></td>
-		  <td align="left" style="font-style: italic;"><small><a
-			 href="mailto:alexruss75@yahoo.it?subject=Lettera%20agli%20amministratori del sito" 
-			 title="Amministratore">Alessandro Russomanno</a>
+		  <td align="left" style="font-style: italic;"><small>
+                    <a
+			 href="mailto:paolovisca86@hotmail.it?subject=Lettera%20agli%20amministratori del sito" 
+			 title="Amministratore">Paolo Viscardi</a>
 		    ,
 		    <a
 			 href="mailto:pasquale_c@hotmail.com?subject=Lettera%20agli%20amministratori del sito" 
@@ -45,7 +51,8 @@ inizio footer
 		<!--<tr>
 		  <td align="right"><small>Supporto grafico</small></td>
 		  <td><small>:</small></td>
-		  <td align="left" style="font-style: italic;"><small><a
+		  <td align="left" style="font-style: italic;"><small>
+                    <a
 			 href="mailto:pietrorussomanno@libero.it?subject=Info%20o%20suggerimenti%20sulla%20grafica" 
 			 title="Info o suggerimenti sulla grafica">Pietro Russomanno</a>
 		  </small></td>
