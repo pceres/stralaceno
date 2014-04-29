@@ -142,3 +142,10 @@ Vergognatevi falsi tifosi dell'Avellino in questi giorni vi siete riempiti la bo
 
 [post_text_29]
 non e' possibile che non si trova lavoro a caposele!!!!!!!! i datori di lavoro pensano solo ai cavoli loro pagandoti molto meno del dovuto solo perche'se ne approfittano della crisi...Cosi'non si puo'continuare!!! noi lavoratori vogliamo quello che ci tocca!!! i soldi, i contributi,le ferie..ecc. non esiste piu'niente!!! RIBELLIAMOCI!!!!!!!!!!! le giornate da cameriere andatele a fare voi il weekend a materdomini brutti stronzi!!! NOI VOGLIAMO LO STIPENDIO!!! VOGLIAMO DIRITTI E DOVERI!!! Noi siamo il futuro di questo stupido paese ma vogliamo RISPETTO!!!!!!!
+TTI E DOVERI!!! Noi siamo il futuro di questo stupido paese ma vogliamo RISPETTO!!!!!!!
+
+[post_text_30]
+Vergognatevi emigrati la passerella e' finita per pasqua adesso ve ne siete gia' scappati da Caposele ritornerete per agosto non abbiamo bisogno di voi siete solo dei buffoni raccomandati falsi e piu' fortunati di noi ad avere un lavoro fuori ma nella vita sociale non siete nessuno resterete per sempre incompiuti e isolati,speriamo che anche per noi rimasti in questo schifo di paese arrivino giorni migliori perche' cosi' la vita non ha veramente senso,scusate lo sfogo ma siamo veramente stanchi di essere presi in giro da questa falsa societa'.
+
+[post_text_31]
+questo governo con tutta la sua nazione mi fa schifo!!! 80 euro al mese non risolvono i problemi di tutti i giorni ma va ad aggravare il fatto che questo stupido stato aiuta sempre chi sta bene e finisce di ammazzare chi e' in difficolta' pura!!! se uno non concepisce uno stipendio statale e meglio che va a rubare perche'lo stato non ti aiuta, figuriamoci quei vermi schifosi ecclesiastici che parlano solo a vanvera... Dobbiamo ribellarci da questi porci burattini che ci amministrano, non dobbiamo piu' pagare niente ed usare la violenza contro questi dittatori!!! Napoli e'l'esempio dell'italia che vuol rinascere senza farsi calpestrare da queste merde con la cravatta!!! AVANTI!!!!!!!!

@@ -67,4 +67,13 @@
 #
 [elenco_pagine]
 #%script_root%questions.php?id_questions=1::Sondaggio Mondiali 2006
+#%script_root%statistiche.php?action=show&id_questions=1::Statistiche Sondaggio Mondiali 2006sele::
+15::ambiente::Sentiero Madonna del Fiume::
+14::ambiente::A valle del Rio Zagarone::
+12::ambiente::Grotta San Lorenzo::
+#
+# formato elenco_pagine:  tag_pagina::titolo_pagina::titolo::autore
+#
+[elenco_pagine]
+#%script_root%questions.php?id_questions=1::Sondaggio Mondiali 2006
 #%script_root%statistiche.php?action=show&id_questions=1::Statistiche Sondaggio Mondiali 2006

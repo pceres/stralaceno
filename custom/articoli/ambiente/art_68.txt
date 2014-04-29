@@ -1,0 +1,93 @@
+Autore::
+Titolo::Montagnone di Nusco
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 22 marzo 2014<br>
+<br>Pezze S.Maria (Laceno) - Lo Stazzo - Vallescura - M.Magnone - M.Calciogliano - Valle dei Porci - Montagnone di Nusco - Vallone di Sauci - Pezze S.Maria (Bagnoli Irpino, Nusco)
+<br> <br>
+<img id="montagnone1" src="%file_root%custom/album/ambiente14/montagnone1.JPG" alt="" border="0" width="550">
+<br><br>
+Laceno: Pezze di Santa Maria
+<br>
+<br>
+<br>
+<img id="montagnone2" src="%file_root%custom/album/ambiente14/montagnone2.JPG" alt="" border="0" width="550">
+<br><br>
+Monte Magnone: vista di Bagnoli Irpino. Sullo sfondo l'Accellica, il Sassosano e il Terminio
+<br>
+<br>
+<br>
+<img id="montagnone3" src="%file_root%custom/album/ambiente14/montagnone3.JPG" alt="" border="0" width="550">
+<br><br>
+Monte Magnone: la croce, Montella, il Sassosano e il Terminio
+<br>
+<br>
+<br>
+<img id="montagnone4" src="%file_root%custom/album/ambiente14/montagnone4.JPG" alt="" border="0" width="550">
+<br><br>
+Monte Magnone: veduta del Monte Tuoro e la Valle del Calore
+<br>
+<br>
+<br>
+<img id="montagnone5" src="%file_root%custom/album/ambiente14/montagnone5.JPG" alt="" border="0" width="550">
+<br><br>
+Monte Magnone: vista di Laceno e, sullo sfondo, il Cervialto
+<br>
+<br>
+<br>
+<img id="montagnone6" src="%file_root%custom/album/ambiente14/montagnone6.JPG" alt="" border="0" width="550">
+<br><br>
+Monte Magnone: la croce e, in secondo piano, l'Accellica
+<br>
+<br>
+<br>
+<img id="montagnone7" src="%file_root%custom/album/ambiente14/montagnone7.JPG" alt="" border="0" width="550">
+<br><br>
+Monte Calciogliano: veduta del pianoro di Vallescura
+<br>
+<br>
+<br>
+<img id="montagnone8" src="%file_root%custom/album/ambiente14/montagnone8.JPG" alt="" border="0" width="550">
+<br><br>
+Pozzi di Bagnoli: fontana
+<br>
+<br>
+<br>
+<img id="montagnone9" src="%file_root%custom/album/ambiente14/montagnone9.JPG" alt="" border="0" width="550">
+<br><br>
+Vetta del Montagnone di Nusco
+<br>
+<br>
+<br>
+<img id="montagnone10" src="%file_root%custom/album/ambiente14/montagnone10.JPG" alt="" border="0" width="550">
+<br><br>
+Montagnone di Nusco: vista in direzione Laceno
+<br>
+<br>
+<br>
+<img id="montagnone11" src="%file_root%custom/album/ambiente14/montagnone11.JPG" alt="" border="0" width="550">
+<br><br>
+Montagnone di Nusco: veduta Valle dell'Ofanto e Lioni
+<br>
+<br>
+<br>
+<img id="montagnone12" src="%file_root%custom/album/ambiente14/montagnone12.JPG" alt="" border="0" width="550">
+<br><br>
+Montagnone di Nusco: in lontananza abitato di Nusco
+<br>
+<br>
+<br>
+<img id="montagnone13" src="%file_root%custom/album/ambiente14/montagnone13.JPG" alt="" border="0" width="550">
+<br><br>
+Vetta del Montagnone di Nusco: vista del Monte Cervialto e del Raiamagra
+<br>
+<br>
+<br>
+<img id="montagnone14" src="%file_root%custom/album/ambiente14/montagnone14.JPG" alt="" border="0" width="550">
+<br><br>
+Veduta di Laceno dalla Valle di Sauci
+<br>
+<br>
+<br>
+--- End body ---

@@ -1,0 +1,87 @@
+Autore::
+Titolo::Ruderi Castello di Olevano
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 1 febbraio 2014<br>
+<br>Sovrappasso di Cannabosto - Ruderi Castello di Olevano e ritorno (Olevano sul Tusciano)
+<br> <br>
+<img id="castole1" src="%file_root%custom/album/ambiente14/castole1.JPG" alt="" border="0" width="550">
+<br><br>
+Sovrappasso di Cannabosto: fontana
+<br>
+<br>
+<br>
+<img id="castole2" src="%file_root%custom/album/ambiente14/castole2.JPG" alt="" border="0" width="550">
+<br><br>
+Castello di Olevano: resti di una torre del muro perimetrale
+<br>
+<br>
+<br>
+<img id="castole3" src="%file_root%custom/album/ambiente14/castole3.JPG" alt="" border="0" width="550">
+<br><br>
+Castello di Olevano: vista della parete ovest del Monte Raione
+<br>
+<br>
+<br>
+<img id="castole4" src="%file_root%custom/album/ambiente14/castole4.JPG" alt="" border="0" width="550">
+<br><br>
+Castello di Olevano: ruderi
+<br>
+<br>
+<br>
+<img id="castole5" src="%file_root%custom/album/ambiente14/castole5.JPG" alt="" border="0" width="550">
+<br><br>
+Castello di Olevano: ruderi
+<br>
+<br>
+<br>
+<img id="castole6" src="%file_root%custom/album/ambiente14/castole6.JPG" alt="" border="0" width="550">
+<br><br>
+Castello di Olevano: ruderi
+<br>
+<br>
+<br>
+<img id="castole7" src="%file_root%custom/album/ambiente14/castole7.JPG" alt="" border="0" width="550">
+<br><br>
+Castello di Olevano: grotta
+<br>
+<br>
+<br>
+<img id="castole8" src="%file_root%custom/album/ambiente14/castole8.JPG" alt="" border="0" width="550">
+<br><br>
+Castello di Olevano: interno grotta
+<br>
+<br>
+<br>
+<img id="castole9" src="%file_root%custom/album/ambiente14/castole9.JPG" alt="" border="0" width="550">
+<br><br>
+Castello di Olevano: ruderi
+<br>
+<br>
+<br>
+<img id="castole10" src="%file_root%custom/album/ambiente14/castole10.JPG" alt="" border="0" width="550">
+<br><br>
+Castello di Olevano: ruderi
+<br>
+<br>
+<br>
+<img id="castole11" src="%file_root%custom/album/ambiente14/castole11.JPG" alt="" border="0" width="550">
+<br><br>
+Castello di Olevano: ruderi
+<br>
+<br>
+<br>
+<img id="castole12" src="%file_root%custom/album/ambiente14/castole12.JPG" alt="" border="0" width="550">
+<br><br>
+Castello di Olevano: ruderi
+<br>
+<br>
+<br>
+<img id="castole13" src="%file_root%custom/album/ambiente14/castole13.JPG" alt="" border="0" width="550">
+<br><br>
+Castello di Olevano: ruderi
+<br>
+<br>
+<br>
+--- End body ---

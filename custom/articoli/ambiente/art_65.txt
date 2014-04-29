@@ -1,0 +1,99 @@
+Autore::
+Titolo::Gole di Tremonti
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 1 marzo 2014<br>
+<br>Pietra con l'Acqua, Tremonti, Serra Melito, Serra, Spezzole, abitato Trentinara, Pietra con l'Acqua (Giungano, Trentinara)
+<br> <br>
+<img id="solofr1" src="%file_root%custom/album/ambiente14/solofr1.JPG" alt="" border="0" width="550">
+<br><br>
+Pietra con l'Acqua: ponte sul fiume Solofrone
+<br>
+<br>
+<br>
+<img id="solofr2" src="%file_root%custom/album/ambiente14/solofr2.JPG" alt="" border="0" width="550">
+<br><br>
+Pietra con l'Acqua: pareti sud del Monte Sottano
+<br>
+<br>
+<br>
+<img id="solofr3" src="%file_root%custom/album/ambiente14/solofr3.JPG" alt="" border="0" width="550">
+<br><br>
+Pietra con l'Acqua: particolare della parete sud del Monte Sottano
+<br>
+<br>
+<br>
+<img id="solofr4" src="%file_root%custom/album/ambiente14/solofr4.JPG" alt="" border="0" width="550">
+<br><br>
+Tremonti: cascata e gola del fiume Solofrone
+<br>
+<br>
+<br>
+<img id="solofr5" src="%file_root%custom/album/ambiente14/solofr5.JPG" alt="" border="0" width="550">
+<br><br>
+Tremonti: cascata del fiume Solofrone
+<br>
+<br>
+<br>
+<img id="solofr6" src="%file_root%custom/album/ambiente14/solofr6.JPG" alt="" border="0" width="550">
+<br><br>
+Tremonti: vista della Serra e dell'abitato di Tremonti
+<br>
+<br>
+<br>
+<img id="solofr7" src="%file_root%custom/album/ambiente14/solofr7.JPG" alt="" border="0" width="550">
+<br><br>
+Serra Melito: veduta della gola del fiume Solofrone
+<br>
+<br>
+<br>
+<img id="solofr9" src="%file_root%custom/album/ambiente14/solofr9.jpg" alt="" border="0" width="550">
+<br><br>
+Spezzole: vista aerea della parte alta della cascata del Solofrone
+<br>
+<br>
+<br>
+<img id="solofr10" src="%file_root%custom/album/ambiente14/solofr10.JPG" alt="" border="0" width="550">
+<br><br>
+Spezzole: strapiombo sulla gola del Solofrone
+<br>
+<br>
+<br>
+<img id="solofr11" src="%file_root%custom/album/ambiente14/solofr11.JPG" alt="" border="0" width="550">
+<br><br>
+Spezzole: vista sulle pareti ovest della Serra
+<br>
+<br>
+<br>
+<img id="solofr12" src="%file_root%custom/album/ambiente14/solofr12.JPG" alt="" border="0" width="550">
+<br><br>
+Serra: rudere
+<br>
+<br>
+<br>
+<img id="solofr13" src="%file_root%custom/album/ambiente14/solofr13.JPG" alt="" border="0" width="550">
+<br><br>
+Vallone San Nicola: ponte in pietra
+<br>
+<br>
+<br>
+<img id="solofr14" src="%file_root%custom/album/ambiente14/solofr14.JPG" alt="" border="0" width="550">
+<br><br>
+Serra: veduta della gola del Soloforone e delle pareti sud delle Spezzole
+<br>
+<br>
+<br>
+<img id="solofr15" src="%file_root%custom/album/ambiente14/solofr15.JPG" alt="" border="0" width="550">
+<br><br>
+Serra: veduta del Monte Sottano
+<br>
+<br>
+<br>
+<img id="solofr16" src="%file_root%custom/album/ambiente14/solofr16.JPG" alt="" border="0" width="550">
+<br><br>
+Convento benedettino di Giungano
+<br>
+<br>
+<br>
+--- End body ---

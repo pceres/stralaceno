@@ -2067,3 +2067,30 @@ E poi come al solito ci sono quelli che amano il lupo e si mettono in macchina a
 ultras superiori culturalmente?
 ahahaha...:-)
 caro tifoso sei un grande
+chieroni incoerenti e privi di mentalita' ultras che ne sapete voi l'emozione che ci regala lo stadio ogni  volta che ci mettiamo piede resterete per sempre inferiori  culturalmente Vergognateviiiiiiiiiiiiiiiiiiiiii se avete un minimo di dignita'.
+
+[post_text_347]
+ultras superiori culturalmente?
+ahahaha...:-)
+caro tifoso sei un grande
+
+[post_text_348]
+Vergognateviiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii emigrati Caposele non vive 2 settimane a Natale ma tutto l'anno siete stati solo fortunati.Mi preme lanciare una frecciatina anche a chi non si fa mai vedre in giro e crede che i giovani si mettono in macchina e vanno  a Laceno a fare un allenamento podistico le cose si conquistano non  si ottengono per caso.Farina dimettiti dove sono i campi di calcetto e il rifacimento del campo Liloia per non parlare delle tante cose dette ma mai realizzate almeno fai un po' di pulizia nelle strade di Materdomini che e' diventata una discarica a cielo aperto.Questo e' diventato un paese fantasma dove regnano solo sporcizia e incivilta' intellettuale e morale.ma perche' siamo stati cosi' sfortunati a nascere in questo degrado del sud peccato che la vita e' una altrimenti non avremmo sprecato  giornate in questo schifo e mortorio.
+
+[post_text_349]
+purtroppo siamo nel 2014 ma miglioramenti non ce ne sono...ormai non riesco piu' a far differenza fra animali ed essere umani. Siamo abbandonati in una valle triste e depressa senza ogni minima speranza di miglioramento. Dobbiamo solo pensare a come sopravvivere senza pensare a tutto il resto che fa parte della vita. I bar sono sempre piu'vuoti, la gente non ha soldi, c'e'chi non arriva a fine mese e c'e'chi inizia a chiedere l'elemosina... CHE SCHIFO!!! si sente tantissimo questo disagio e penso che andando sempre piu'avanti diventera'una situazione sempre piu'invalidante. Finche'c'e'tempo l'unico consiglio che posso dare e' di scappare da questo paese invalidante!!!Al posto di abbellire caposele che e'ormai vuota, sarebbe meglio se quei quattro soldi che ci sono a disposizione per il paese vengano distribuiti ad ogni famiglia per vivere meglio!!!
+
+[post_text_350]
+siamo nel 2014 e la mentalita'dovrebbe essere evoluta rispetto a 50 anni fa... i consigli dei cosiddetti genitori, parenti ecc. hanno stufato!!! vogliamo nuovi posti di lavoro per i giovani e no che debbano lavorare sempre la classe anni 50-60!!! loro sono anziani, dovrebbero stare con un bastone davanti ai bar e dovrebbero star zitti perche'non se ne puo'piu'della loro squallida voce!!! vogliamo gente nuova sui posti di lavoro e no part time come sempre giusto per illuderli un po'!!!
+
+[post_text_351]
+Ma  ci rendiamo conto che viviamo in una nazione che ti fa studiare e poi non ti fa lavorare e guadagnare onestamente politici che ci avete governato in tutti questi anni andatevene siete solo dei buffoni e parassiti che non avete saputo affrontare e risolvere un solo problema che interesseva gli italiani.Una nazione che non offre lavoro ai giovani e' destinata a morire e spegnersi lentamente come sta succedendo invece di usufruire dei privilegi(auto blu,pensioni d'oro,stipendi da favola)investite nel lavoro e crescita economica.purtroppo moriremo e la nostra povera  Italia sara' sempre la stessa fatta di raccomandati,disonesti,furbi.imbroglioni,ignoranti,ladri,incivili.Che  tristezza dire queste parole ma e' questa la realta' attuale.
+
+[post_text_352]
+e poi ci sono quelli che in questo paese girano di bar in bar chiedendo ma venerdi' la fai vedere la partita dell'Avellino vergogna io a differenza vostra gia' mi sono fatto il biglietto e saro' al Partenio smettetela di fare finta che siete interessati all'Avellino crescete che ancora  non si capisce per che squadra fate il tifo decidetevi una volta per tutte vi rispondo senza offendervi con un coro che facciamo in curva sud L'Avellino siamo noi,L'Avellino siamo noi noi allo stadio voi seduti per sempre davanti a una televisione a fare gli spettatori passivi ma si sa nella vita ci sono i chiacchieroni e coloro che fanno i fatti.
+
+[post_text_353]
+la gente di una certa eta'non si puo' piu' sentire parlare... io sono ateo perche'ho un cervello, ma se esistesse veramente dio farebbe morire questi poveri malati di mente che danno solo fastidio in questo cimitero di paese chiamato caposele!!! io spero solo nella buona sorte ma piu' si va avanti e piu'mi sa che fra poco non ci riconosceremo piu' come umani ma come animali disposti a tutto pur di sopravvivere!!! caposele mi fai schifoooo!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+[post_text_354]
+cosa ce ne facciamo di una vita in cui ti alzi la mattina e non vedi l'ora che arrivi la sera perche' non sai cosa fare,invece avremmo dovuto vivere in una societa' che al primo posto ci avesse dato la possibilita' di lavorare non in questa maledetta Italia che ti fa studiare e poi non ti garantisce un posto di lavoro dignitoso Politici corrotti,buffoni,ignoranti,ladri,falsi,furbi andatevene dimettetevi se avete un minimo di dignita' morale avete infangato e distrutto una delle nazioni piu' gloriose e potenti del mondo se esiste una giustizia divina dovete fare tutti una brutta fine.

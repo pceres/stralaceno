@@ -1,0 +1,93 @@
+Autore::
+Titolo::Monte Pennacchio
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 15 marzo 2014<br>
+<br>Piano Faillo - Monte Faillo -  Piano di Campo - Acqualonga - Monte Pennacchio - Costa Campanara - Piano di Campo - Piano Faillo (Colliano, Laviano)
+<br> <br>
+<img id="pennacchio1" src="%file_root%custom/album/ambiente14/pennacchio1.JPG" alt="" border="0" width="550">
+<br><br>
+Monte Faillo: bosco
+<br>
+<br>
+<br>
+<img id="pennacchio2" src="%file_root%custom/album/ambiente14/pennacchio2.JPG" alt="" border="0" width="550">
+<br><br>
+Vetta Monte Faillo
+<br>
+<br>
+<br>
+<img id="pennacchio3" src="%file_root%custom/album/ambiente14/pennacchio3.JPG" alt="" border="0" width="550">
+<br><br>
+Pozzi di Acqua Cerasa
+<br>
+<br>
+<br>
+<img id="pennacchio5" src="%file_root%custom/album/ambiente14/pennacchio5.JPG" alt="" border="0" width="550">
+<br><br>
+Piano di Campo: vista del Monte Faillo
+<br>
+<br>
+<br>
+<img id="pennacchio6" src="%file_root%custom/album/ambiente14/pennacchio6.JPG" alt="" border="0" width="550">
+<br><br>
+Uno dei pozzi di Acqua d'Abete
+<br>
+<br>
+<br>
+<img id="pennacchio7" src="%file_root%custom/album/ambiente14/pennacchio7.JPG" alt="" border="0" width="550">
+<br><br>
+Uno dei pozzi di Acqua Longa
+<br>
+<br>
+<br>
+<img id="pennacchio8" src="%file_root%custom/album/ambiente14/pennacchio8.JPG" alt="" border="0" width="550">
+<br><br>
+Pianoro di Acqualunga
+<br>
+<br>
+<br>
+<img id="pennacchio9" src="%file_root%custom/album/ambiente14/pennacchio9.JPG" alt="" border="0" width="550">
+<br><br>
+Monte Pennacchio: veduta di Monte Vado del Piesco
+<br>
+<br>
+<br>
+<img id="pennacchio10" src="%file_root%custom/album/ambiente14/pennacchio10.JPG" alt="" border="0" width="550">
+<br><br>
+Cima Monte Pennacchio e, sullo sfondo, Monte Eremita
+<br>
+<br>
+<br>
+<img id="pennacchio11" src="%file_root%custom/album/ambiente14/pennacchio11.JPG" alt="" border="0" width="550">
+<br><br>
+Sorgente Petrosella
+<br>
+<br>
+<br>
+<img id="pennacchio12" src="%file_root%custom/album/ambiente14/pennacchio12.JPG" alt="" border="0" width="550">
+<br><br>
+Sorgente Petrosella
+<br>
+<br>
+<br>
+<img id="pennacchio13" src="%file_root%custom/album/ambiente14/pennacchio13.JPG" alt="" border="0" width="550">
+<br><br>
+Sorgente Petrosella
+<br>
+<br>
+<br>
+<img id="pennacchio14" src="%file_root%custom/album/ambiente14/pennacchio14.JPG" alt="" border="0" width="550">
+<br><br>
+Piano Faillo
+<br>
+<br>
+<br>
+<img id="pennacchio15" src="%file_root%custom/album/ambiente14/pennacchio15.JPG" alt="" border="0" width="550">
+<br><br>
+Collianello: sole al tramonto tra il Monte La Picciola e le dorsali nord del Polveracchio
+<br>
+<br>
+<br>
+--- End body ---

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 //
 // input impliciti:
@@ -2525,8 +2525,8 @@ else
 			<TD COLSPAN=3 ALIGN=CENTER BGCOLOR="#C0C0C0"><B>Finale 1&deg;-2&deg;posto(13 luglio)</B></TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#C0C0C0">11/07 h. 21:00</TD>
-			<TD ALIGN=CENTER BGCOLOR="#C0C0C0">Recife</TD>
+			<TD ALIGN=LEFT BGCOLOR="#C0C0C0">13/07 h. 21:00</TD>
+			<TD ALIGN=CENTER BGCOLOR="#C0C0C0">Rio de Janeiro</TD>
 			<TD ALIGN=CENTER BGCOLOR="#C0C0C0">F1-F2 (C)</TD>
 		</TR>
 		<TR>

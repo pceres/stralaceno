@@ -1,0 +1,81 @@
+Autore::
+Titolo::Vallone Trogento
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 9 marzo 2014<br>
+<br>Pietracciara - Le Toppe - Vallone Trogento - Piano di Montenero - Lauro Piano - Costa dell'Angelo - Pietracciara (Campagna)
+<br> <br>
+<img id="trogento1" src="%file_root%custom/album/ambiente14/trogento1.JPG" alt="" border="0" width="550">
+<br><br>
+Casone delle Toppe
+<br>
+<br>
+<br>
+<img id="trogento2" src="%file_root%custom/album/ambiente14/trogento2.JPG" alt="" border="0" width="550">
+<br><br>
+Le Toppe: croce votiva
+<br>
+<br>
+<br>
+<img id="trogento3" src="%file_root%custom/album/ambiente14/trogento3.JPG" alt="" border="0" width="550">
+<br><br>
+Vallone Trogento: vista del versante sud-ovest del Monte La Picciola e della Costa dell'Angelo
+<br>
+<br>
+<br>
+<img id="trogento4" src="%file_root%custom/album/ambiente14/trogento4.JPG" alt="" border="0" width="550">
+<br><br>
+Vallone Trogento: l'Eremo di San Michele incastonato nella parete rocciosa della Costa dell'Angelo
+<br>
+<br>
+<br>
+<img id="trogento13" src="%file_root%custom/album/ambiente14/trogento13.JPG" alt="" border="0" width="550">
+<br><br>
+Vallone Trogento
+<br>
+<br>
+<br>
+<img id="trogento14" src="%file_root%custom/album/ambiente14/trogento14.JPG" alt="" border="0" width="550">
+<br><br>
+Vallone Trogento
+<br>
+<br>
+<br>
+<img id="trogento7" src="%file_root%custom/album/ambiente14/trogento7.jpg" alt="" border="0" width="550">
+<br><br>
+Vallone Trogento
+<br>
+<br>
+<br>
+<img id="trogento8" src="%file_root%custom/album/ambiente14/trogento8.JPG" alt="" border="0" width="550">
+<br><br>
+Sorgente Acqua Merlo
+<br>
+<br>
+<br>
+<img id="trogento9" src="%file_root%custom/album/ambiente14/trogento9.JPG" alt="" border="0" width="550">
+<br><br>
+Le balze rocciose del Monte Salvatore viste dalla Costa dell'Angelo
+<br>
+<br>
+<br>
+<img id="trogento10" src="%file_root%custom/album/ambiente14/trogento10.JPG" alt="" border="0" width="550">
+<br><br>
+Eremo di San Michele
+<br>
+<br>
+<br>
+<img id="trogento11" src="%file_root%custom/album/ambiente14/trogento11.JPG" alt="" border="0" width="550">
+<br><br>
+Casone di Lauro Piano
+<br>
+<br>
+<br>
+<img id="trogento12" src="%file_root%custom/album/ambiente14/trogento12.JPG" alt="" border="0" width="550">
+<br><br>
+Pozzo di Lauro Piano
+<br>
+<br>
+<br>
+--- End body ---

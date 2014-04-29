@@ -8,10 +8,11 @@ Titolo::Sondaggio-Studio Mondiali di Calcio 2014
 <br>
 <!-- <b>PER VISUALIZZARE LA <font color="red">CLASSIFICA FINALE <a href=" questions.php?id_questions=7&action=results ">CLICCATE QUI</font></a></b>	--!>
 <br>
+<!--
 <br><h3><a href="custom/lotterie/lotteria_007_tpl_form.php?info_mode=1">Visualizza tabellone</a></h3>
+--!>
 <br>
-<h3>Le giocate inizieranno dal primo febbraio.</h3>
-<!-- <br><h3><a href="questions.php?id_questions=7&action=fill">Visualizza tabellone e gioca</a></h3> --!>
+<br><h3><a href="questions.php?id_questions=7&action=fill">Visualizza tabellone e gioca</a></h3>
 <br>
 <br><b>Caratteristiche principali</b>
 <br><br>
