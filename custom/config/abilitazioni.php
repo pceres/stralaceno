@@ -28,19 +28,19 @@ Formato [elenco_task_atomici]:
 
 [abilitazioni]
 task::admin_index::::Pagina principale dell'interfaccia amministrativa::admin
-task::admin_modules::::Pagina dell'interfaccia amministrativa per la gestione dei moduli::@alex,@ceres
-task::modifica_file_config::filename=.*::Visualizza e modifica generico file di configurazione::@alex,@ceres
-task::scrivi_file_config::filename=.*::Scrivi generico file di configurazione::@alex,@ceres
-task::gestione_download::item_type=.*;item_name=.*;::Gestione sezione download::@alex,@ceres
+task::admin_modules::::Pagina dell'interfaccia amministrativa per la gestione dei moduli::admin
+task::modifica_file_config::filename=.*::Visualizza e modifica generico file di configurazione::admin
+task::scrivi_file_config::filename=.*::Scrivi generico file di configurazione::admin
+task::gestione_download::item_type=.*;item_name=.*;::Gestione sezione download::admin
 
-mansione::mansione_gestione_sezione::sezione=ciclismo::Gestione sezione "ciclismo"::@alex,@ceres,@don.ger
-mansione::mansione_gestione_sezione::sezione=FC_caposele::Gestione sezione "FC Caposele"::@alex,@ceres
-mansione::mansione_gestione_sezione::sezione=ambiente::Gestione sezione "Ambiente e natura"::@alex,@ceres,@angelo.ceres
-mansione::mansione_gestione_sezione::sezione=studi_sport::Gestione sezione "Studi ed approfondimenti dello sport"::@alex,@ceres,@nick
-mansione::mansione_gestione_sezione::sezione=.*::Gestione sezione generica::@alex,@ceres
+mansione::mansione_gestione_sezione::sezione=ciclismo::Gestione sezione "ciclismo"::admin,@don.ger
+mansione::mansione_gestione_sezione::sezione=FC_caposele::Gestione sezione "FC Caposele"::admin
+mansione::mansione_gestione_sezione::sezione=ambiente::Gestione sezione "Ambiente e natura"::admin,@angelo.ceres
+mansione::mansione_gestione_sezione::sezione=studi_sport::Gestione sezione "Studi ed approfondimenti dello sport"::admin,@nick
+mansione::mansione_gestione_sezione::sezione=.*::Gestione sezione generica::admin
 
-mansione::mansione_modifica_file_configurazione::filename=siti_amici_cfg.txt::gestione file di configurazione del modulo Caposele sul Web::@michele,@ceres,@alex
-mansione::mansione_modifica_file_configurazione::filename=albums.txt::gestione file di configurazione album::@paolo,@ceres,@alex
+mansione::mansione_modifica_file_configurazione::filename=siti_amici_cfg.txt::gestione file di configurazione del modulo Caposele sul Web::@michele,admin
+mansione::mansione_modifica_file_configurazione::filename=albums.txt::gestione file di configurazione album::@paolo,admin
 
 
 [mansione_gestione_sezione]
