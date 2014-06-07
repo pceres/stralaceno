@@ -248,12 +248,14 @@ Consulta il tabellone di aiuto alla compilazione su Caposeleonline:http://www.ca
 # stile riga
 # <tag>::<caption>::<stile_CSS>
 #
-#	<tag> 		: testo usato nell'interfaccia amm., associato a ciascun biglietto giocato
+#	<tag> 		: testo usato nell'interfaccia amm., associato a ciascun biglietto giocato. Il luogo di provenienza viene salvato, seguito un flag, eventualmente seguito dal tag in questione
+#			  ad esempio il tag ";GensAmbrosiana$" intercetterà tutte le giocate che sono state modificate MANUALMENTE aggiungendo il testo, in modo da 
+			  avere <giocate>,<località>,0;GensAmbrosiana::<time_number>::<date>::...
 #	<caption>	: descrizione usata in legenda
 #	<stile_CSS>	: stile CSS usato per la riga rispettiva
 #
 [stili_riga]
 ;Checked$:: Gens Silarensis::background:#FFFFAA;
 #;Unchecked$:: Gens quasi Silarensis (Pi&ugrave; di 1 errore alla verifica di silaritudine)::background:#FFDDBB;
-;GensAmbrosiana$:: Gens Ambrosiana::background:#FFDDBB;
-.*:: Gens Mundi::
+;GensAmbrosiana$:: Gens Ambrosiana::background:#FFEDCB;
+.*:: Gens Mundi::background:#FFF6F0;
