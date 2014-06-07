@@ -67,11 +67,11 @@ if (!$file_ok)
 // verifica che il gruppo di appartenenza sia abilitato qui
 if (!group_match($username,split(',',$usergroups),split(',',$groups_ok)))
 {
-	die("Spiacente, non sei abilitato ad accedere a questa pagina! Contatta l'amministratore.<br>\n");
+	die("Spiacente $username, non sei abilitato ad accedere a questa pagina! Contatta l'amministratore.<br>\n");
 }
 
 
-	
+
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -92,7 +92,7 @@ if (!group_match($username,split(',',$usergroups),split(',',$groups_ok)))
 $res = check_auth('modifica_file_config',"$filename",$login['username'],$login['usergroups'],false);
 if (!$res)
 {
-	die("Mi dispiace, non sei autorizzato!");
+	die("Mi dispiace $username, non sei autorizzato!");
 }
 
 ?>
