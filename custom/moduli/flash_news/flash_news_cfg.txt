@@ -6,6 +6,43 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+17/05/2014::Daniele Caprio e Carmine Cuozzo hanno partecipato alla 1^ edizione Memorial Luongo a Calabritto.
+21/04/2014::Daniele Caprio vince il tallacano trail di acquasanta terme(AP) di 15 km.
+06/04/2014::Daniele Caprio ha partecipato al Trail delle Ferriere 2014 di Amalfi 2014 di km 14.
+06/04/2014::Mauro Losco ha partecipato alla 15^ Agropoli Half Marathon di km 21,097.
+16/03/2014::Daniele Caprio ha partecipato al Beach Trail Positano 2014 di km 11.
+02/03/2014::Donato Ceres e Donatello Cirillo hanno partecipato alla XL edizione della Roma Ostia di km 21,097.
+22/02/2014::Mauro Losco e Giuseppe Cetrulo hanno partecipato alla Cargraphik Half Marathon a Barletta, di km 21,097.
+02/02/2014::Mauro Losco ha partecipato alla 1^ edizione della Mostra d’Oltremare Half Marathon a Napoli.
+15/12/2013::Mauro Losco ha partecipato alla 5^ edizione della Coast to Coast Sorrento-Amalfi, di km 31,3.
+08/12/2013::Daniele Caprio, Donato Ceres, Mauro Losco, Carmine Cuozzo e Antonio Viscido hanno partecipato alla 1^ edizione della Corsa dei Falo' a Lioni (Av).
+17/11/2013::Giuseppe Cetrulo e Mauro Losco hanno partecipato alla 33^ Maratona Divina Pastora di Valencia (Spagna) di km 42,095.
+27/10/2013::Carmine Calvanese ha partecipato alla "Sangemini-Casulae-Sangemini" di km 10,750 a Sangemini (Tr).
+26/10/2013::Daniele Caprio ha partecipato alla "3^ edizione dell'Ecotrail dei 2 Parchi" ad Arquata del Tronto (Ap) di km 13.
+20/10/2013::Entra a far parte dell'ARS, come associato praticante, Carmine Cuozzo di Lioni.
+13/10/2013::Carmine Calvanese ha partecipato alla "Mezza maratona citt&agrave; di Pisa" di km 21,097 a Pisa.
+12/10/2013::Daniele Caprio ha partecipato alla "27^ edizione della Stabiae night marathon" a Castellammare di Stabia (Na) di km 10.
+06/10/2013::Daniele Caprio ha partecipato alla "7^ edizione del Memorial B.Germano" a Sicignano degli Alburni (Sa) di km 8,9.
+29/09/2013::Carmine Calvanese ha partecipato alla " VI Tre valli ternane" di km 21,097 a Terni.
+01/09/2013::Carmine Calvanese ha partecipato al "XIV Trofeo delle 7 contrade" di km 13 ad Orte (Vt).
+01/09/2013::Daniele Caprio ha partecipato al "Faito xtrail" di km 17 a Moiano (Na)
+15/08/2013::Daniele Caprio vince la corsa dei Tre Campanili di Caposele.
+28/07/2013::Mauro Losco ha partecipato al "II Trail dei Monti Picentini" a Montoro Superiore (Av) di km 18.
+20/07/2013::Daniele Caprio, Donato Ceres, Mauro Losco, Alfonso Rosania e Nicola D'Auria hanno partecipato alla "XX CorriRoccadaspide" a Roccadaspide (Sa) di km 8,5.
+14/07/2013::Mauro Losco ha partecipato al "II Trail di Chiusano San Domenico" a Chiusano San Domenico (Av) di km 9.
+06/07/2013::Daniele Caprio e Mauro Losco hanno partecipato alla "I Pedifumo in corsa" a Perdifumo (Sa) di km 10.
+29/06/2013::Daniele Caprio ha partecipato alla "XVI edizione della Marcialonga Mercogliano - Montevergine" di 16,8 km.
+23/06/2013::Paolo Viscardi ha partecipato alla gara podistica "Gran carrera di Zumpango" a Zumpango - Messico di km 11.
+23/06/2013::Daniele Caprio, Mauro Losco e Giuseppe Cetrulo hanno partecipato al "7&deg; trofeo citt&agrave; di Telesia" a Telese Terme (Bn) di km 10.
+08/06/2013::Mauro Losco ha partecipato alla "III Corsa Podistica delle 7 Cappelle" a Sassano(Sa) di km 11,8.
+02/06/2013::Paolo Viscardi ha partecipato alla gara podistica di Citt&agrave; del Messico di 10km.
+25/05/2013::Daniele Caprio, Mauro Losco e Donatello Cirillo hanno partecipato alla "31^ Corsalonga Sangiovannese" a San Giovanni a Piro (Sa) di km 9.
+19/05/2013::Mauro Losco ha partecipato alla "Corsa del Mito" Palinuro - Marina di Camerota (Sa) di km 13,5.
+12/05/2013::Daniele Caprio, Giuseppe Cetrulo, Donato Ceres e Mauro Losco hanno partecipato alla "Corsa della sirena Leucosya" a Castellabate (Sa) di km 8,8.
+05/05/2013::Daniele Caprio ha partecipato al "III Ecotrail" a Minori(Sa) di km 14,5.
+01/05/2013::Carmine Calvanese ha partecipato al 31&deg; giro del lago di Piediluco - Terni di km 14,9.
+28/04/2013::Giuseppe Cetrulo, Mauro Losco e Donatello Cirillo hanno partecipato alla 14^ half marathon di Agropoli di km 21,097.
+21/04/2013::Carmine Calvanese ha partecipato al "2&deg; memorial N.Bravini" a Terni di km 10,2. 
 07/04/2013::Carmine Calvanese ha partecipato alla 30^ mezza maratona di Firenze.
 07/04/2013::Giuseppe Cetrulo e Mauro Losco hanno partecipato alla 37^ edizione della Maratona di Parigi.
 01/04/2013::Daniele Caprio ha partecipato al "II trail del monte Taccaro" ad Angri(Sa) di km 12,2.
@@ -177,39 +214,6 @@
 18/07/2006::Hanno partecipato alla gara podistica XIII CorriRoccadaspide: Salvatore Merola, Alessandro Russomanno, Paolo Viscardi, Gerardo Martino, Nicola D'Auria, Salvatore Colatrella (aggregato-non socio). Accompagnatori: Donatello Cirillo, Gelsomino Merola.
 14/07/2006::Presentata, al comune di Caposele, richiesta rinnovo autorizzazione uso stadio Palmenta per attivit&agrave; podistica.
 11/07/2006::Si &egrave; concluso il Sondaggio sui Mondiali di Calcio 2006: vincitore Rocco Del Malandrino, al quale l'ARS offrir&agrave; un buono consumazione di 25 euro presso bar/pub/pizzeria.
-29/06/2006::In Luglio l'Ars parteciper&agrave;, con una propria rappresentativa podistica, il giorno 15 alla XIII edizione della Corri Roccadaspide (SA) e il giorno 22 alla III edizione della 10 km di Acerno (SA).
-08/06/2006::Alle 18.00 si sono chiuse le giocate per il sondaggio Mondiali di Calcio 2006. Sono state regolarmente registrate 117 giocate.
-15/04/2006::Il 15 aprile si &egrave; tenuta l'Assemblea annuale dell'Associazione, in cui &egrave; stato approvato il rendiconto economico 2005.
-
-#
-# formato testo_footer:  testo
-#
-[testo_footer]
-#Ultimo aggiornamento effettuato il ../../....
-06::Tre nuovi soci per l'ARS: il numero degli associati sale cos&igrave; a 16.
-02/10/2006::Partecipanti alla gara podistica Colline Verdi di km. 8,5 a Montecorvino Pugliano (SA): Paolo Viscardi, Salvatore Merola, Alessandro Russomanno.
-25/09/2006::Partecipanti alla IV podistica San Michele di km 7,3 a Sala Consilina (SA): Salvatore Merola, Alessandro Russomanno, Paolo Viscardi, Donatello Cirillo.
-11/09/2006::Partecipanti al I trofeo regionale C. Pezzuto di km 7,6 a Puglietta di Campagna (SA): Paolo Viscardi, Salvatore Merola, Alessandro Russomanno.
-01/09/2006::Grande soddisfazione per l'organizzazione della XVIII edizione della Stralaceno: nonostante le avverse condizioni atmosferiche, si &egrave; registrato il record di partecipanti: 68 (pi&ugrave; altri 4 ragazzi fuori gara per et&agrave; inferiore a 15 anni).
-13/08/2006::Partecipanti alla XXXI Marcialoggia di Fontanarosa di km 10: Salvatore Merola, Alessandro Russomanno, Nicola D'Auria
-08/08/2006::Partecipanti alla gara podistica 10,250 km di Nusco: Paolo Viscardi, Alessandro Russomanno, Salvatore Merola, Nicola D'Auria, Donatello Cirillo, Francesco Ceres (aggregato-non socio), Salvatore Colatrella (aggregato-non socio), Nicola Melillo (aggregato-non socio). Accompagnatore: Luciano Viscido.
-07/08/2006::L'edizione 2006 della Stralaceno si disputer&agrave; il 30 agosto.
-05/08/2006::Sono disponibili le magliette Stralaceno 2006.
-03/08/2006::In Agosto l'Ars parteciper&agrave;, con una propria rappresentativa podistica, il giorno 6 alla 10 km di Nusco, il giorno 12 alla XXXI edizione della Marcialoggia a Fontanarosa di km 10, il giorno 19 alla maratona alburnina di km 13 a Sicignano degli Alburni (SA).
-24/07/2006::Partecipanti alla gara podistica 10 km di Acerno: Salvatore Merola, Alessandro Russomanno, Paolo Viscardi, Salvatore Colatrella (aggregato-non socio). Accompagnatore: Gelsomino Merola.
-19/07/2006::Il Comune di Caposele ha concesso all'ARS l'uso a pagamento dello stadio Palmenta per l'attivit&agrave; podistica fino al termine del mese di Agosto: 3 giorni a settimana (luned&igrave;, gioved&igrave; e sabato) dalle ore 19.00 alle 20.00 . L'importo che l'ARS ha versato al Comune &egrave; di 60 euro. 
-18/07/2006::Hanno partecipato alla gara podistica XIII CorriRoccadaspide: Salvatore Merola, Alessandro Russomanno, Paolo Viscardi, Gerardo Martino, Nicola D'Auria, Salvatore Colatrella (aggregato-non socio). Accompagnatori: Donatello Cirillo, Gelsomino Merola.
-14/07/2006::Presentata, al comune di Caposele, richiesta rinnovo autorizzazione uso stadio Palmenta per attivit&agrave; podistica.
-11/07/2006::Si &egrave; concluso il Sondaggio sui Mondiali di Calcio 2006: vincitore Rocco Del Malandrino, al quale l'ARS offrir&agrave; un buono consumazione di 25 euro presso bar/pub/pizzeria.
-29/06/2006::In Luglio l'Ars parteciper&agrave;, con una propria rappresentativa podistica, il giorno 15 alla XIII edizione della Corri Roccadaspide (SA) e il giorno 22 alla III edizione della 10 km di Acerno (SA).
-08/06/2006::Alle 18.00 si sono chiuse le giocate per il sondaggio Mondiali di Calcio 2006. Sono state regolarmente registrate 117 giocate.
-15/04/2006::Il 15 aprile si &egrave; tenuta l'Assemblea annuale dell'Associazione, in cui &egrave; stato approvato il rendiconto economico 2005.
-
-#
-# formato testo_footer:  testo
-#
-[testo_footer]
-#Ultimo aggiornamento effettuato il ../../....uale l'ARS offrir&agrave; un buono consumazione di 25 euro presso bar/pub/pizzeria.
 29/06/2006::In Luglio l'Ars parteciper&agrave;, con una propria rappresentativa podistica, il giorno 15 alla XIII edizione della Corri Roccadaspide (SA) e il giorno 22 alla III edizione della 10 km di Acerno (SA).
 08/06/2006::Alle 18.00 si sono chiuse le giocate per il sondaggio Mondiali di Calcio 2006. Sono state regolarmente registrate 117 giocate.
 15/04/2006::Il 15 aprile si &egrave; tenuta l'Assemblea annuale dell'Associazione, in cui &egrave; stato approvato il rendiconto economico 2005.

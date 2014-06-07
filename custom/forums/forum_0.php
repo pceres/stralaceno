@@ -23,7 +23,7 @@ Formato [elenco_topics]:
 6::Come funziona il forum::open::::::ceres::3::2
 7::Le sfide della Stralaceno::open::::::foxy::151::155
 8::Soddisfatti della stralaceno edizione 2006???::hidden::::::cabo86::5::4
-9::Discussione::open::::::Antonio::359::347
+9::Discussione::open::::::Antonio::367::355
 10::Gare::open::::::cabo::35::44
 11::Sezione ciclismo::open::::::Donato Gervasio::33::32
 12::Allenamento Collettivo::open::::::Ars::45::44
@@ -45,12 +45,12 @@ Formato [elenco_topics]:
 28::sentenza::hidden::::::emigrato::1::0
 29::forza caposele::hidden::::::gaetano::2::1
 30::MEZZA MARATONA CITTA' DI POTENZA TUNE-UP::hidden::::::MIMMO55::1::0
-31::I problemi di caposele::open::::::gaetano::30::29
+31::I problemi di caposele::open::::::gaetano::32::31
 32::vergognatevi!!!!!::hidden::::::ESASPERATI::1::0
 33::sto arrivando!!::open::::::gaetano::6::5
 34::stufato::hidden::::::hamsik::3::2
 35::turismo::hidden::::::paese???????::1::0
 36::povera italia::hidden::::::lavoro...::2::1
-37::Poesie::open::::::Michaelem::36::35
+37::Poesie::open::::::Michaelem::52::51
 38::paese di randagi::open::::::randagi::3::2
 39::...::open::::::COERENZA::2::1

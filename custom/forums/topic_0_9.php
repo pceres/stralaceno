@@ -350,6 +350,23 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 336::nic.m.::20/02/2013 18.23.41::visible
 337::nic.m.::28/02/2013 19.12.27::visible
 338::stanco::18/04/2013 13.08.03::visible
+339::perplesso::24/04/2013 13.22.47::visible
+340::mexico::03/06/2013 12.21.20::visible
+341::Pasquale::04/06/2013 21.49.15::visible
+342::offeso e umiliato::07/06/2013 13.36.15::visible
+343::FUTURO::14/06/2013 02.19.19::visible
+344::approvo in pieno::14/06/2013 13.03.02::visible
+345::depresso e confuso::31/10/2013 12.14.24::visible
+346::riflessione::23/12/2013 12.39.06::visible
+347::inferiore::23/12/2013 16.28.01::visible
+348::disgustato::04/02/2014 12.31.08::visible
+349::disperato::05/02/2014 19.21.34::visible
+350::critico::18/02/2014 12.47.51::visible
+351::stanco e deluso::04/03/2014 12.30.04::visible
+352::attento osservatore::19/03/2014 11.48.41::visible
+353::scocciato::27/03/2014 19.56.36::visible
+354::stanco e deluso::06/04/2014 13.04.03::visible
+355::nicola melillo::04/06/2014 18.31.07::visible
 
 [post_text_0]
 Fermate Nicola Melillo con questa stralaceno: anche i muri di materdomini e caposele non ne possono più.
@@ -2035,7 +2052,6 @@ in questo paese ci sono tante persone che credono di essere tifosi dell'Avellino
 
 [post_text_338]
 Vergognaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Caposele e' un paese finito e pieno di persone false e stupide,ignoranti e arretrati in un altro paese chissa' qunte mazzate avevate preso la vostra fortuna e 'che siete nati in questo paesaccio ridicolo speriamo in una giustizia divina siete e resterete un popolo di incapaci e fessi.
-aaaaa!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Caposele e' un paese finito e pieno di persone false e stupide,ignoranti e arretrati in un altro paese chissa' qunte mazzate avevate preso la vostra fortuna e 'che siete nati in questo paesaccio ridicolo speriamo in una giustizia divina siete e resterete un popolo di incapaci e fessi.
 
 [post_text_339]
 siamo stanchi di essere presi in giro da quei soliti personaggi che appaiono a Caposele come le lucciole d'estate e pensano  di essere quelli che che possono fare i professori davanti ai bar la verita' sacrosanta e' che siete stati solo piu' fortunati di noi a trovare lavoro fuori e sieti partiti apprezzo il vostro coraggio ma resterete per sempre dei paesani caposelesi basta noi che viviamo in questo maledetto e arretrato paese dobbiamo recitare il ruolo di guida e' solo uno sfogo personale in quanto veremente incazzato e stanco di continuare una vita inutile costernata solo di delusioni e mai di cose belle e positive.
@@ -2067,12 +2083,6 @@ E poi come al solito ci sono quelli che amano il lupo e si mettono in macchina a
 ultras superiori culturalmente?
 ahahaha...:-)
 caro tifoso sei un grande
-chieroni incoerenti e privi di mentalita' ultras che ne sapete voi l'emozione che ci regala lo stadio ogni  volta che ci mettiamo piede resterete per sempre inferiori  culturalmente Vergognateviiiiiiiiiiiiiiiiiiiiii se avete un minimo di dignita'.
-
-[post_text_347]
-ultras superiori culturalmente?
-ahahaha...:-)
-caro tifoso sei un grande
 
 [post_text_348]
 Vergognateviiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii emigrati Caposele non vive 2 settimane a Natale ma tutto l'anno siete stati solo fortunati.Mi preme lanciare una frecciatina anche a chi non si fa mai vedre in giro e crede che i giovani si mettono in macchina e vanno  a Laceno a fare un allenamento podistico le cose si conquistano non  si ottengono per caso.Farina dimettiti dove sono i campi di calcetto e il rifacimento del campo Liloia per non parlare delle tante cose dette ma mai realizzate almeno fai un po' di pulizia nelle strade di Materdomini che e' diventata una discarica a cielo aperto.Questo e' diventato un paese fantasma dove regnano solo sporcizia e incivilta' intellettuale e morale.ma perche' siamo stati cosi' sfortunati a nascere in questo degrado del sud peccato che la vita e' una altrimenti non avremmo sprecato  giornate in questo schifo e mortorio.
@@ -2094,3 +2104,6 @@ la gente di una certa eta'non si puo' piu' sentire parlare... io sono ateo perch
 
 [post_text_354]
 cosa ce ne facciamo di una vita in cui ti alzi la mattina e non vedi l'ora che arrivi la sera perche' non sai cosa fare,invece avremmo dovuto vivere in una societa' che al primo posto ci avesse dato la possibilita' di lavorare non in questa maledetta Italia che ti fa studiare e poi non ti garantisce un posto di lavoro dignitoso Politici corrotti,buffoni,ignoranti,ladri,falsi,furbi andatevene dimettetevi se avete un minimo di dignita' morale avete infangato e distrutto una delle nazioni piu' gloriose e potenti del mondo se esiste una giustizia divina dovete fare tutti una brutta fine.
+
+[post_text_355]
+Che tristezza tutti i giorni sempre uguali in questo stupido e arretrato paesello a 35 anni l'unica cosa che c'e' da fare e' una partita a carte nei soliti bar ritrovo solo  per gente vecchia e finita ma peche' siamo stati cosi' sfortunati a nascere qui.E poi ci sono quelli che ogni tanto ritornano non si  fanno ne' sentire ne' vedere siete e resterete per sempre gente falsa e a cazzi vostri. Concludo  dicendo Stanchi di questa realta' deprimente l'unica cosa da fare se vogliamo costruire un futuro diverso e' fuggire e trovare lavoro fuori con la convinzione di non ritornare piu' a Caposele.

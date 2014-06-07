@@ -1844,6 +1844,11 @@ single.jpg::::07/06/2010 La corsa dei single - Cinque chilometri di corsa, per l
 Newcastle09.jpg::::29/09/2009 Maratona d'autunno - I corridori della Grande corsa del Nord, passano sul ponte di Newcastle mentre gli aerei acrobatici danno il benvenuto in citt&agrave; (Corriere.it)
 
 [FotoFlash]
+tallacano2014.jpg::::21.04.2014 - Daniele Caprio vince il tallacano trail di acquasanta terme(AP) di 15 km
+agro14.jpg::::06.04.2014 - Mauro Losco realizza alla 15^ Agropoli Half Marathon il nuovo record ARS sulla distanza della mezza maratona (km 21,097) con il tempo di 1 ora 22 minuti e 54 secondi (migliorando di 11 secondi il recente primato di Donato Ceres). Nella stessa giornata Daniele Caprio ottiene il 9&deg; posto assoluto al Trail delle Ferriere di km 14 ad Amalfi.
+positano14.jpg::::16.03.2014 - Daniele Caprio ottiene il 10&deg; posto assoluto al Beach Trail di Positano di 11 km
+RomaOstia14.jpg::::02.03.2014 - Donato Ceres stabilisce il nuovo primato ARS sulla distanza della mezza Maratona alla Roma Ostia con 1h 23' 05'', migliorando di 2 secondi il precedente primato stabilito la settimana scorsa da Mauro Losco a Barletta. Alla gara di Ostia ha partecipato anche Donatello Cirillo che ha realizzato il tempo di 1h 35'17''.
+MLos.jpg::::22.02.2014 - Mauro Losco realizza con 1h 23' 07'' il personale e nuovo record ARS sulla distanza dei km 21,097 alla Cartgraphik half marathon di Barletta. Nella stessa gara buona la prestazione anche di Giuseppe Cetrulo con 1h 25' 12''. 
 coast13.jpg::::15.12.2013 - Mauro Losco conclude la 5^ Coast to Coast 2013 Sorrento-Amalfi di km 31,3, ottenendo un buon 78&deg; posto assoluto su 767 arrivati.
 ecotrailascoli2013.jpg::::26.10.2013 - Daniele Caprio vince la 3^ edizione dell'Ecotrail dei 2 Parchi ad Arquata del Tronto (AP).
 pisa2013.jpg::::13.10.2013 - Carmine Calvanese prima della partenza della 27^ Pisa half marathon, dove migliorer&agrave; notevolmente il proprio personale sulla distanza.
@@ -2068,81 +2073,14 @@ stra13_3.jpg::
 13_149.jpg::::
 
 [ambiente14]
-pg::::
-13_75.jpg::::
-13_76.jpg::::
-13_77.jpg::::
-13_78.jpg::::
-13_79.jpg::::
-13_80.jpg::::
-13_81.jpg::::
-13_82.jpg::::
-13_83.jpg::::
-13_84.jpg::::
-13_85.jpg::::
-13_86.jpg::::
-13_87.jpg::::
-13_88.jpg::::
-13_89.jpg::::
-13_90.jpg::::
-13_91.jpg::::
-13_92.jpg::::
-13_93.jpg::::
-13_94.jpg::::
-13_95.jpg::::
-13_96.jpg::::
-13_97.jpg::::
-13_98.jpg::::
-13_99.jpg::::
-13_100.jpg::::
-13_101.jpg::::
-13_102.jpg::::
-13_103.jpg::::
-13_104.jpg::::
-13_105.jpg::::
-13_106.jpg::::
-13_107.jpg::::
-13_108.jpg::::
-13_109.jpg::::
-13_110.jpg::::
-13_111.jpg::::
-13_112.jpg::::
-13_113.jpg::::
-13_114.jpg::::
-13_115.jpg::::
-13_116.jpg::::
-13_117.jpg::::
-13_118.jpg::::
-13_119.jpg::::
-13_120.jpg::::
-13_121.jpg::::
-13_122.jpg::::
-13_123.jpg::::
-13_124.jpg::::
-13_125.jpg::::
-13_126.jpg::::
-13_127.jpg::::
-13_128.jpg::::
-13_129.jpg::::
-13_130.jpg::::
-13_131.jpg::::
-13_132.jpg::::
-13_133.jpg::::
-13_134.jpg::::
-13_135.jpg::::
-13_136.jpg::::
-13_137.jpg::::
-13_138.jpg::::
-13_139.jpg::::
-13_140.jpg::::
-13_141.jpg::::
-13_142.jpg::::
-13_143.jpg::::
-13_144.jpg::::
-13_145.jpg::::
-13_146.jpg::::
-13_147.jpg::::
-13_148.jpg::::
-13_149.jpg::::
+[Calabritto_14]
+foto1.jpg::::
+foto2.jpg::::
+foto3.jpg::::
+foto4.jpg::::
+foto5.jpg::::
+foto6.jpg::::
+foto7.jpg::::
+foto8.jpg::::
 
-[ambiente14]
+[varie2]

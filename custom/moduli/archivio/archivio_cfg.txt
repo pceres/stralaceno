@@ -6,6 +6,7 @@
 # formato elenco_album:  tag_album::nome_album::descrizione
 #
 [elenco_album]
+Calabritto_14::I Memorial Luongo::Foto
 Parigi_13::Maratona di parigi 2013::Foto
 FotoFlash::Foto flash notizie ARS::Foto
 Vietri_13::Vietri e dintorni trail 2013::Foto

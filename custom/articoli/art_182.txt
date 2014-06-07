@@ -1,0 +1,35 @@
+Autore::
+Titolo::I Memorial Luongo Calabritto
+--- Begin body ---
+<br>
+Sabato 17 maggio si &egrave; svolto il "I Memorial Luongo" a Calabritto, sulla distanza di 5km. Alla gara erano presenti circa trenta partecipanti. Tra gli atleti due hanno rappresentato gli amatori running sele, Daniele Caprio, classificatosi nella terza posizione con il tempo di 17'34'' a soli 11 secondi dal primo classificato ed a soli 6 secondi dal secondo classificato, il secondo concorrente &egrave; stato Carmine Cuozzo, anche lui autore di una bella prestazione.
+<br>
+<p>
+<div align="center">
+<img id="z1" src="%file_root%custom/album/Calabritto_14/foto8.jpg" alt="calabritto1" border="0" width="400"></div>
+<br>
+<p>
+<div align="center">
+<img id="z2" src="%file_root%custom/album/Calabritto_14/foto7.jpg" alt="calabritto2" border="0" width="400"></div>
+<br>
+<p>
+<div align="center">
+<img id="z4" src="%file_root%custom/album/Calabritto_14/foto2.jpg" alt="calabritto4" border="0" width="400"></div>
+<br>
+<p>
+<div align="center">
+<img id="z4" src="%file_root%custom/album/Calabritto_14/foto4.jpg" alt="calabritto4" border="0" width="400"></div>
+<br>
+<p>
+<div align="center">
+<img id="z4" src="%file_root%custom/album/Calabritto_14/foto5.jpg" alt="calabritto4" border="0" width="400"></div>
+<br>
+<p>
+<div align="center">
+<img id="z4" src="%file_root%custom/album/Calabritto_14/foto1.jpg" alt="calabritto4" border="0" width="400"></div>
+<br>
+<p>
+<div align="center">
+<img id="z4" src="%file_root%custom/album/Calabritto_14/foto3.jpg" alt="calabritto4" border="0" width="400"></div>
+<br>
+--- End body ---
