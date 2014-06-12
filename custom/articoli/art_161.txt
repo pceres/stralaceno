@@ -1,19 +1,13 @@
-Autore::
+﻿Autore::
 Titolo::Foto Flash ARS
 --- Begin body ---
 <br>
 <div align="center">
-<img id="" src="%file_root%custom/album/FotoFlash/Terni2013.jpg" alt="" border="0" width="450">
+<img id="" src="%file_root%custom/album/FotoFlash/tallacano2014.jpg" alt="" border="0" width="550">
 <br><br>
-24.03.2013 - Carmine Calvanese impegnato nelle prime fasi della Maratonina di Terni.<br><br>
-</div>
-<i>Le altre foto flash le trovate <a href="album.php?anno=FotoFlash">qui</a>.<br>
-</b></i>
---- End body ---
-nno=FotoFlash">qui</a>.<br>
-</b></i>
---- End body ---
-gio-Rocchetta, su strada brecciata carreggiabile. Da Poggio-Rocchetta si percorre l'inizio del sentiero n. 432, per immettersi dopo poco, sul sentiero n. 430, quindi si prosegue sul sentiero n. 401 in direzione Grotte del Petrienno. Sul sentiero n. 401 si raggiunge l'abitato di Agore, per tornare indietro verso Poggio Rocchetta sul sentiero n. 402. Da Poggio-Rocchetta, infine, si percorre a ritroso la strada brecciata per terminare la gara nuovamente a Tallacano.
+21.04.2014 - Daniele Caprio vince il tallacano trail di acquasanta terme(AP) di 15 km.<br>
+<b>Il percorso</b><br>
+Percorso sterrato di circa 15 km con partenza da Tallacano di Acquasanta Terme (AP). Dopo aver attraversato l'interno del paese si giunge all'abitato di Poggio-Rocchetta, su strada brecciata carreggiabile. Da Poggio-Rocchetta si percorre l'inizio del sentiero n. 432, per immettersi dopo poco, sul sentiero n. 430, quindi si prosegue sul sentiero n. 401 in direzione Grotte del Petrienno. Sul sentiero n. 401 si raggiunge l'abitato di Agore, per tornare indietro verso Poggio Rocchetta sul sentiero n. 402. Da Poggio-Rocchetta, infine, si percorre a ritroso la strada brecciata per terminare la gara nuovamente a Tallacano.
 <br><br>
 </div>
 <i>Le altre foto flash le trovate <a href="album.php?anno=FotoFlash">qui</a>.<br>
