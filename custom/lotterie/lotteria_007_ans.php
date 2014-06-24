@@ -9,9 +9,9 @@ Cile
 # Qualificato ottavi 2:
 Olanda
 # Qualificato ottavi 3:
-nd
+Brasile
 # Qualificato ottavi 4:
-nd
+Messico
 # Qualificato ottavi 5:
 nd
 # Qualificato ottavi 6:
@@ -83,10 +83,10 @@ nd
 #
 # es: Brasile::5,0;4,0;3,0;2,0;1,0
 [punteggio_risposte]
-Brasile::
-Croazia::
-Messico::
-Camerun::
+Brasile::5,4
+Croazia::5,0;4,0;3,0;2,0;1,0
+Messico::5,4
+Camerun::5,0;4,0;3,0;2,0;1,0
 Spagna::5,0;4,0;3,0;2,0;1,0
 Olanda::5,4
 Cile::5,4
