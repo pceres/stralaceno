@@ -13,9 +13,9 @@ Brasile
 # Qualificato ottavi 4:
 Messico
 # Qualificato ottavi 5:
-nd
+Costa Rica
 # Qualificato ottavi 6:
-nd
+Uruguay
 # Qualificato ottavi 7:
 nd
 # Qualificato ottavi 8:
@@ -95,10 +95,10 @@ Colombia::
 Grecia::
 Costa D'Avorio::
 Giappone::
-Uruguay::
-Costa Rica::
-Inghilterra::
-Italia::
+Uruguay::5,4
+Costa Rica::5,4
+Inghilterra::5,0;4,0;3,0;2,0;1,0
+Italia::5,0;4,0;3,0;2,0;1,0
 Svizzera::
 Ecuador::
 Francia::
