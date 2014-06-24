@@ -808,7 +808,13 @@ if ($counter_squadre != $counter_ok)
 	}
 }
 
-return ($counter_squadre == $counter_ok);
+$result = ($counter_squadre == $counter_ok);
+if ($temp_debug)
+{
+	echo("$counter_squadre - $counter_ok - $result<br>");
+}
+
+return $result;
 
 } // end function get_vettore_squadre_vincenti
 
@@ -818,6 +824,8 @@ function calcoli_preliminari_criteri(&$bulk_punteggi, &$gruppi_regole, &$header_
 
 # dichiara variabili
 extract(indici());
+
+$temp_debug_calcoli_preliminari_criteri = 0;
 
 // indici campi al'interno di $criterio
 $id_regola_gruppo = 0;	// gruppo cui contribuisce la regola a determinare il punteggio
@@ -894,12 +902,12 @@ foreach($criteri as $id => $criterio)
 		$maschera_risposte = split(',',$criterio[$id_regola_data+1]);	// elenco domande che interessano questa regola, vincitore per ultimo
 		
 		$vettore_risposte_esatte = array(); // viene passato per indirizzo, bisogna inizializzarlo qui
-		$soluz_ok = get_vettore_squadre_vincenti($vettore_risposte_esatte,$soluz,$livello_eliminatorie,0);
+		$soluz_ok = get_vettore_squadre_vincenti($vettore_risposte_esatte,$soluz,$livello_eliminatorie,$temp_debug_calcoli_preliminari_criteri);
 		if (!$soluz_ok)
 		{
-			if ($temp_debug)
+			if ($temp_debug_calcoli_preliminari_criteri)
 			{
-				die("Le risposte esatte non sono congruenti con lo schema ad eliminatoria)!");
+				echo("Le risposte esatte non sono congruenti con lo schema ad eliminatoria!");
 			}
 		}
 		
@@ -1348,8 +1356,14 @@ case "eliminatorie":
 	
 	// calcolo punteggio
 	$vettore_squadre = array(); // viene passato per indirizzo, bisogna inizializzarlo qui
+	$punteggio = 0; // più è negativo, più la giocata è buona
 	$giocata_ok = get_vettore_squadre_vincenti($vettore_squadre,$giocata_utile_array,$livello_eliminatorie,$temp_debug);
-	// non gestisco $giocata_ok=0, in quanto un messaggio di errore (con $temp_debug==1) è stato già mostrato internamente alla funzione
+	if (!$giocata_ok)
+	{
+		// penalità forte, perché non si è rispettato il vincolo che una squadra accede ai gironi successivi dopo aver superato
+		// quelli di livello inferiore (ad es. si superano i quarti di finale solo se si sono superati gli ottavi, ecc.)
+		$punteggio = $punteggio+1e6;
+	}
 	array_multisort($vettore_risposte_esatte,SORT_DESC,$risposte_possibili);
 	
 	$voti = array();
@@ -1365,9 +1379,14 @@ case "eliminatorie":
 		$voti[$squadra] = $voto_finale;
 		
 		$punteggio_output .= ",$voto_finale";
+		
+		if ($temp_debug & !$giocata_ok)
+		{
+			echo("$squadra => $voto_presunto,$voto_giusto,$voto_finale,".array_sum($voti)."<br>");
+		}
 	}
-
-	$punteggio = -array_sum($voti);
+	
+	$punteggio = $punteggio-array_sum($voti);
 	break;
 
 	case "punteggi_specifici":

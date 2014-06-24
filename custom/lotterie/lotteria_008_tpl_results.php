@@ -4,14 +4,15 @@
 // input impliciti:
 //	$lotteria_nome	: nome del sondaggio/lotteria
 //	$lotteria_fine_giocate : data di chiusura delle giocate
-// 	$giocate	: archivio delle giocate registrate (da lotteria_XXX_log.php)
-// 	$soluz_array	: dati strutturati (da lotteria_XXX_ans.php)
-// 	$soluz		: risposte esatte (usate per l'ordinamento)
-// 	$numero_risposte_per_giocata : numero di risposte salvate per ciascuna giocata (primo campo)
+//	$giocate	: archivio delle giocate registrate (da lotteria_XXX_log.php)
+//	$soluz_array	: dati strutturati (da lotteria_XXX_ans.php)
+//	$soluz		: risposte esatte (usate per l'ordinamento)
+//	$numero_risposte_per_giocata : numero di risposte salvate per ciascuna giocata (primo campo)
 //	$criteri	: parte fissa (primi 3 campi delle configurazioni di ordinamento)
 //	$bulk_punteggi	: dati di configurazione necessari per l'ordinamento (campi successivi al terzo)
 //	$lista_criteri	: elenco dei nomi dei criteri di ordinamento
-// 
+//	$elenco_giocate : elenco già ordinato delle giocate (tutti i criteri di ordinamento sono stti già applicati)
+//
 
 $debug_mode = ($_REQUEST['debug']=='full');
 
@@ -92,7 +93,7 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 	$lista_risposte = Array(); // elenco delle risposte appartenenti allo stesso gruppo
 	$lista_punti = Array(); // elenco dei punti associati alle risposte appartenenti allo stesso gruppo
 	$lista_punti_per_ordinamento = Array(); // elenco dei punti ai fini dell'ordinamento delle colonne
-	$vettore_punti = Array(); // elenco dei punti associati a tutte le giocate per cui ci sono putneggi specifici
+	$vettore_punti = Array(); // elenco dei punti associati a tutte le giocate per cui ci sono punteggi specifici
 	$gruppo_old = -1; // valore fuori range in modo da capire che il ciclo non e' ancora iniziato
 	foreach($gruppo_risposta as $indice_risposta => $gruppo)
 	{
