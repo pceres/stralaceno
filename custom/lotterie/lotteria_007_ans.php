@@ -5,9 +5,9 @@
 #
 
 # Qualificato ottavi 1:
-nd
+Cile
 # Qualificato ottavi 2:
-nd
+Olanda
 # Qualificato ottavi 3:
 nd
 # Qualificato ottavi 4:
@@ -87,10 +87,10 @@ Brasile::
 Croazia::
 Messico::
 Camerun::
-Spagna::
-Olanda::
-Cile::
-Australia::
+Spagna::5,0;4,0;3,0;2,0;1,0
+Olanda::5,4
+Cile::5,4
+Australia::5,0;4,0;3,0;2,0;1,0
 Colombia::
 Grecia::
 Costa D'Avorio::
