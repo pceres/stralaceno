@@ -384,26 +384,33 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 			'default'	=> Array('.'		,'','')
 			);
 	$sub_array_ok_S = Array(
-			'8' 		=> Array('V<small>F</small>'		,'','Vittoria diretta in semifinale (8 punti)'),
-			'6' 		=> Array('S<small>F</small>'		,'','Vittoria ai supplementari in semifinale (6 punti)'),
-			'4' 		=> Array('R<small>F</small>'		,'','Vittoria ai rigori in semifinale (4 punti)'),
-			'2' 		=> Array('+<small>F</small>'		,'','???'),
+			'8' 		=> Array('V<small>S</small>'		,'','Vittoria diretta ai quarti di finale (8 punti)'),
+			'6' 		=> Array('S<small>S</small>'		,'','Vittoria ai supplementari ai quarti di finale (6 punti)'),
+			'4' 		=> Array('R<small>S</small>'		,'','Vittoria ai rigori ai quarti di finale (4 punti)'),
+			'2' 		=> Array('+<small>S</small>'		,'','???'),
 			'default'	=> Array('.'		,'','')
 			);
 	$sub_array_ok_F = Array(
-			'16' 		=> Array('V<small>C</small>'		,'','Vittoria diretta in finale (16 punti)'),
-			'12' 		=> Array('S<small>C</small>'		,'','Vittoria ai supplementari in finale (12 punti)'),
-			'8' 		=> Array('R<small>C</small>'		,'','Vittoria ai rigori in finale (8 punti)'),
-			'4' 		=> Array('+<small>C</small>'		,'','???'),
+			'16' 		=> Array('V<small>F</small>'		,'','Vittoria diretta in semifinale (8 punti)'),
+			'12' 		=> Array('S<small>F</small>'		,'','Vittoria ai supplementari in semifinale (6 punti)'),
+			'8' 		=> Array('R<small>F</small>'		,'','Vittoria ai rigori in semifinale (4 punti)'),
+			'4' 		=> Array('+<small>F</small>'		,'','???'),
+			'default'	=> Array('.'		,'','')
+			);
+	$sub_array_ok_C = Array(
+			'32' 		=> Array('V<small>C</small>'		,'','Vittoria diretta in finale (16 punti)'),
+			'24' 		=> Array('S<small>C</small>'		,'','Vittoria ai supplementari in finale (12 punti)'),
+			'16' 		=> Array('R<small>C</small>'		,'','Vittoria ai rigori in finale (8 punti)'),
+			'8' 		=> Array('+<small>C</small>'		,'','???'),
 			'default'	=> Array('.'		,'','')
 			);
 
 	$simbolo_ok 	= Array(
 		5 => $sub_array_ok,
 		4 => $sub_array_ok,
-		3 => $sub_array_ok,
-		2 => $sub_array_ok_S,
-		1 => $sub_array_ok_F,
+		3 => $sub_array_ok_S,
+		2 => $sub_array_ok_F,
+		1 => $sub_array_ok_C,
 		);
 
 	// simboli quando non si azzecca una risposta
@@ -416,27 +423,35 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 			'default'	=> Array('.'		,'','')
 			);
 	$sub_array_not_ok_S = Array(
-			'8' 		=> Array('<b>Of</b>'	,'','??'),
-			'6' 		=> Array('Of'		,'','??'),
-			'4' 		=> Array('rf'		,'','Sconfitta ai rigori in semifinale (4 punti)'),
-			'2' 		=> Array('sf'		,'','Sconfitta ai supplementari in semifinale (2 punti)'),
+			'8' 		=> Array('<b>Os</b>'	,'','??'),
+			'6' 		=> Array('Os'		,'','??'),
+			'4' 		=> Array('rs'		,'','Sconfitta ai rigori ai quarti di finale (4 punti)'),
+			'2' 		=> Array('ss'		,'','Sconfitta ai supplementari ai quarti di finale (2 punti)'),
 			'0'		=> Array('<small>o</small>'		,'','Eliminazione con meno punti - Sconfitta diretta (0 punti)'),
 			'default'	=> Array('.'		,'','')
 			);
 	$sub_array_not_ok_F = Array(
-			'16' 		=> Array('<b>Oc</b>'	,'','??'),
-			'12' 		=> Array('Oc'		,'','??'),
-			'8' 		=> Array('rc'		,'','Sconfitta ai rigori in finale (8 punti)'),
-			'4' 		=> Array('sc'		,'','Sconfitta ai supplementari in finale (4 punti)'),
+			'16' 		=> Array('<b>Of</b>'	,'','??'),
+			'12' 		=> Array('Of'		,'','??'),
+			'8' 		=> Array('rf'		,'','Sconfitta ai rigori in semifinale (4 punti)'),
+			'4' 		=> Array('sf'		,'','Sconfitta ai supplementari in semifinale (2 punti)'),
+			'0'		=> Array('<small>o</small>'		,'','Eliminazione con meno punti - Sconfitta diretta (0 punti)'),
+			'default'	=> Array('.'		,'','')
+			);
+	$sub_array_not_ok_C = Array(
+			'32' 		=> Array('<b>Oc</b>'	,'','??'),
+			'24' 		=> Array('Oc'		,'','??'),
+			'16' 		=> Array('rc'		,'','Sconfitta ai rigori in finale (8 punti)'),
+			'8' 		=> Array('sc'		,'','Sconfitta ai supplementari in finale (4 punti)'),
 			'0'		=> Array('<small>o</small>'		,'','Eliminazione con meno punti - Sconfitta diretta (0 punti)'),
 			'default'	=> Array('.'		,'','')
 			);
 	$simbolo_not_ok 	= Array(
 		5 => $sub_array_not_ok,
 		4 => $sub_array_not_ok,
-		3 => $sub_array_not_ok,
-		2 => $sub_array_not_ok_S,
-		1 => $sub_array_not_ok_F,
+		3 => $sub_array_not_ok_S,
+		2 => $sub_array_not_ok_F,
+		1 => $sub_array_not_ok_C,
 		);
 	
 	foreach ($list0 as $id)
