@@ -391,16 +391,16 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 			'default'	=> Array('.'		,'','')
 			);
 	$sub_array_ok_F = Array(
-			'16' 		=> Array('V<small>F</small>'		,'','Vittoria diretta in semifinale (8 punti)'),
-			'12' 		=> Array('S<small>F</small>'		,'','Vittoria ai supplementari in semifinale (6 punti)'),
-			'8' 		=> Array('R<small>F</small>'		,'','Vittoria ai rigori in semifinale (4 punti)'),
+			'16' 		=> Array('V<small>F</small>'		,'','Vittoria diretta in semifinale (16 punti)'),
+			'12' 		=> Array('S<small>F</small>'		,'','Vittoria ai supplementari in semifinale (12 punti)'),
+			'8' 		=> Array('R<small>F</small>'		,'','Vittoria ai rigori in semifinale (8 punti)'),
 			'4' 		=> Array('+<small>F</small>'		,'','???'),
 			'default'	=> Array('.'		,'','')
 			);
 	$sub_array_ok_C = Array(
-			'32' 		=> Array('V<small>C</small>'		,'','Vittoria diretta in finale (16 punti)'),
-			'24' 		=> Array('S<small>C</small>'		,'','Vittoria ai supplementari in finale (12 punti)'),
-			'16' 		=> Array('R<small>C</small>'		,'','Vittoria ai rigori in finale (8 punti)'),
+			'32' 		=> Array('V<small>C</small>'		,'','Vittoria diretta in finale (32 punti)'),
+			'24' 		=> Array('S<small>C</small>'		,'','Vittoria ai supplementari in finale (24 punti)'),
+			'16' 		=> Array('R<small>C</small>'		,'','Vittoria ai rigori in finale (16 punti)'),
 			'8' 		=> Array('+<small>C</small>'		,'','???'),
 			'default'	=> Array('.'		,'','')
 			);
@@ -433,16 +433,16 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 	$sub_array_not_ok_F = Array(
 			'16' 		=> Array('<b>Of</b>'	,'','??'),
 			'12' 		=> Array('Of'		,'','??'),
-			'8' 		=> Array('rf'		,'','Sconfitta ai rigori in semifinale (4 punti)'),
-			'4' 		=> Array('sf'		,'','Sconfitta ai supplementari in semifinale (2 punti)'),
+			'8' 		=> Array('rf'		,'','Sconfitta ai rigori in semifinale (8 punti)'),
+			'4' 		=> Array('sf'		,'','Sconfitta ai supplementari in semifinale (4 punti)'),
 			'0'		=> Array('<small>o</small>'		,'','Eliminazione con meno punti - Sconfitta diretta (0 punti)'),
 			'default'	=> Array('.'		,'','')
 			);
 	$sub_array_not_ok_C = Array(
 			'32' 		=> Array('<b>Oc</b>'	,'','??'),
 			'24' 		=> Array('Oc'		,'','??'),
-			'16' 		=> Array('rc'		,'','Sconfitta ai rigori in finale (8 punti)'),
-			'8' 		=> Array('sc'		,'','Sconfitta ai supplementari in finale (4 punti)'),
+			'16' 		=> Array('rc'		,'','Sconfitta ai rigori in finale (16 punti)'),
+			'8' 		=> Array('sc'		,'','Sconfitta ai supplementari in finale (8 punti)'),
 			'0'		=> Array('<small>o</small>'		,'','Eliminazione con meno punti - Sconfitta diretta (0 punti)'),
 			'default'	=> Array('.'		,'','')
 			);
