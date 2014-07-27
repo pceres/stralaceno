@@ -479,7 +479,7 @@ case 'Delimitazione':
 ?>
 	</tbody></table>
 	<br style="line-height: 5px;">
-	<table class="frame_delimiter" width="100%"><tbody>
+	<table class="frame_delimiter"><tbody>
 <?php
 	break;
 	
