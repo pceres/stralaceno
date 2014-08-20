@@ -1,0 +1,12 @@
+Autore::
+Titolo::XXVI edizione
+--- Begin body ---
+<br>
+<div align="center">
+La XXVI edizione della Stralaceno si terr&agrave; venerdi' 22 Agosto 2014.<br>
+<br>
+<img id=logo" src="%file_root%custom/album/2014/logo14.jpg" alt="" border="0" width="300">
+<br>
+</div>
+<br>
+--- End body ---
