@@ -1,3 +1,5 @@
+% logfile = '../diff.txt'; % generalo lanciando "git diff > diff.txt"
+
 
 logfile = '../diff.txt'; % generalo lanciando "git diff > diff.txt"
 

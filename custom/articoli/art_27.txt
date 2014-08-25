@@ -2,11 +2,15 @@ Autore::
 Titolo::XXVI edizione
 --- Begin body ---
 <br>
-<div align="center">
-La XXVI edizione della Stralaceno si terr&agrave; venerdi' 22 Agosto 2014.<br>
+<div align="justify">
+&Egrave; disponibile la classifica della XXVI edizione della Stralaceno.<br>
+Quest'anno la gara ha ottenuto il recordo di partecipanti, raggiungendo i 76 iscritti. Il vincitore assoluto &egrave; stato Daniele Caprio con il tempo di 19'17'', mentre la vincitrice delle donne (con riserva di accertamento dell'effettiva cittadinanza sportiva caposelese) &egrave; stata Tara Malanga col tempo di 24'36''  
+<br>A breve seguiranno commenti e foto.
 <br>
+<div align="center">
 <img id=logo" src="%file_root%custom/album/2014/logo14.jpg" alt="" border="0" width="300">
 <br>
+</div>
 </div>
 <br>
 --- End body ---
