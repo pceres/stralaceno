@@ -8,7 +8,7 @@ Quest'anno la gara ha ottenuto il recordo di partecipanti, raggiungendo i 76 isc
 <br>A breve seguiranno commenti e foto.
 <br>
 <div align="center">
-<img id=logo" src="%file_root%custom/album/2014/logo14.jpg" alt="" border="0" width="300">
+<img id=logo" src="%file_root%custom/album/2014/partenzaStra2014.jpg" alt="" border="0" width="500">
 <br>
 </div>
 </div>
