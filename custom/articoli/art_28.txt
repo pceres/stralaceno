@@ -1,0 +1,21 @@
+Autore::
+Titolo::XXVII edizione
+--- Begin body ---
+<br>
+<div align="justify">
+&Egrave; disponibile la classifica <b>ufficiale</b> della XXVII edizione della Stralaceno.<br>
+61 concorrenti hanno terminato la gara. Il vincitore assoluto &egrave; stato Daniele Caprio con il tempo di 18'19'', <b>firmando il record assoluto di tutti i tempi della stralaceno</b> avendo battuto il precedente record di Gelsomino Merola di 18'47'' durato per 20 anni.  
+<br>La vincitrice delle donne &egrave; stata Annarita D'Elia col tempo di 25'45'', firmando un nuovo record personale.
+<br>A breve seguiranno commenti e foto.
+<br>
+<br>
+<div align="center">
+<img  src="%file_root%custom/album/2015/foto28.jpg" alt="" border="0" width="600">
+<br>
+<p><a href="filtro4.php?anno=2015">L'ordine d'arrivo completo dell'edizione 2015 della Stralaceno &egrave; consultabile qui</a>.</p>
+</div>
+<br>
+</div>
+<br>
+ 
+--- End body ---

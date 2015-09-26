@@ -19,3 +19,8 @@ Titolo::I numeri della Stralaceno
    <li>Maggior numero di partecipazioni: 21 (Nicola D'Auria n.2);</li>
    </ul>
 --- End body ---
+'' (Tara Malanga n.279, anno 2014);</li>
+   <!-- <li>Atleti con record personale inferiore a 25' 00'':  96;</li> -->
+   <li>Maggior numero di partecipazioni: 26 (Nicola D'Auria n.2);</li>
+   </ul>
+--- End body ---
