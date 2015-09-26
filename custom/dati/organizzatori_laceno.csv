@@ -1,4 +1,4 @@
-Id;Collaboratore;Sesso;Incarico;Anno;link;nota
+Id;Collaboratore;Sesso;Incarico;Anno;Link;Nota
 1;Nicola D'Auria;M;Organizzatore;1987;-;-
 22;Massimo Russomanno;M;Organizzatore;1987;-;-
 26;Donato Merola;M;Organizzatore;1987;-;-
@@ -253,7 +253,7 @@ Id;Collaboratore;Sesso;Incarico;Anno;link;nota
 52;Donato Ceres;M;Organizzatore;2015;-;-
 36;Viscardi Paolo;M;Organizzatore;2015;-;-
 3;Donatello Cirillo;M;Organizzatore;2015;-;-
-28;Valentino di masi;M;Direttore di gara;2015;-;-
+28;Valentino Di Masi;M;Direttore di gara;2015;-;-
 27;Nicola Cirillo;M;Segretario di gara;2015;-;-
 ?;Nicola Cirillo;M;Primo Cronometrista;2015;-;-
 9;Alfonso Curcio;M;Secondo Cronometrista;2015;-;-
