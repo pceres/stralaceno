@@ -43,3 +43,7 @@ Gi&agrave; durante il periodo delle giocate queste saranno visibili con nome, co
 <b>Numero delle giocate </b> <br>
 Ogni persona pu&ograve; giocare una sola volta. <br><br>
 --- End body ---
+a del giocatore. <br><br>
+<b>Numero delle giocate </b> <br>
+Ogni persona pu&ograve; giocare una sola volta. <br><br>
+--- End body ---

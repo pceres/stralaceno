@@ -149,3 +149,40 @@ Vergognatevi emigrati la passerella e' finita per pasqua adesso ve ne siete gia'
 
 [post_text_31]
 questo governo con tutta la sua nazione mi fa schifo!!! 80 euro al mese non risolvono i problemi di tutti i giorni ma va ad aggravare il fatto che questo stupido stato aiuta sempre chi sta bene e finisce di ammazzare chi e' in difficolta' pura!!! se uno non concepisce uno stipendio statale e meglio che va a rubare perche'lo stato non ti aiuta, figuriamoci quei vermi schifosi ecclesiastici che parlano solo a vanvera... Dobbiamo ribellarci da questi porci burattini che ci amministrano, non dobbiamo piu' pagare niente ed usare la violenza contro questi dittatori!!! Napoli e'l'esempio dell'italia che vuol rinascere senza farsi calpestrare da queste merde con la cravatta!!! AVANTI!!!!!!!!
+gravare il fatto che questo stupido stato aiuta sempre chi sta bene e finisce di ammazzare chi e' in difficolta' pura!!! se uno non concepisce uno stipendio statale e meglio che va a rubare perche'lo stato non ti aiuta, figuriamoci quei vermi schifosi ecclesiastici che parlano solo a vanvera... Dobbiamo ribellarci da questi porci burattini che ci amministrano, non dobbiamo piu' pagare niente ed usare la violenza contro questi dittatori!!! Napoli e'l'esempio dell'italia che vuol rinascere senza farsi calpestrare da queste merde con la cravatta!!! AVANTI!!!!!!!!
+
+[post_text_32]
+ogni giorno qui a Caposele sempre la stessa vita di merda l'unica cosa che si puo' fare e' giocare a carte in un bar con persone cretine,inqualificabili,fallite,furbe,ignoranti e stupide adesso basta ma perche' siamo stati cosi' sfortunati a nascere in questa schifezza non e' giusto l'unica consolazione e' pensare a chi e' stato piu' sfortunato di me che nella vita ha problemi molto piu' seri che una misera partita a carte.Invidio tutti quei caposelesi che sono andati via di qua avete fatto benissimo qui il futuro per un giovane non esiste speriamo che anche io con un po' di fortuna riesco ad andare via perche' qui non sene puo' veramente piu' di avere a che fare con questo popolo di cafoni e ignoranti.
+
+[post_text_33]
+chicago magazine top doctors  <a href=http://modafinilachat.monfairepart.com/>acheter modafinil internet</a>  dr oz health tips
+
+[post_text_34]
+ma ci rendiamo conto la fine di questo paese neanche un caffe' sanno fare in questi bar vergognateviiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii ladri la professionalita' e' una parola che non vi appartiene qualificatevi prima di aprire un bar siamo un paese finito pieno di vecchi e falliti speriamo di scappare via e di non tornarci mai piu' in questo mortorio.
+
+[post_text_35]
+a salerno gia' hanno messo le luci d'artista per attirare l'attenzione e per guadagnare soldi mentre a caposele per una volta sono stati a dir poco geniali perche' anche in questo invalido,stupido e schifoso paese hanno trovato una nuova moda cioe' quella di mettere anche a caposele le luci d'artista e cio'sono state messe :al cimitero!!!!!!!!!!!!!!ahahahahahhhah che squallido paese!!!!!!!!!!  vergognateviiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii!!!!!!!!!!!!!!!!!!!! no agli emigrati!!!!!!!!!!!!statevene dove ve ne siete andati!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+[post_text_36]
+ogni volta che l'Avellino vince in questo paese tutti che chiedono e fanno finta di tenerci anche loro invece di fare solo chiacchiere nei bar tirate fuori i soldi e andate allo stadio Partenio altrimenti resterete per sempre un popolo di mediocri e incoerenti.
+
+[post_text_37]
+quincy medical group quincy il  <a href=http://danskfirmabors.dk/dk.html></a>  sharp rees stealy medical group
+
+[post_text_38]
+northwestern university internal medicine residency  <a href=http://diazepam.comunidades.net/>comprar diazepam sin receta</a>  aetna health insurance careers
+
+[post_text_39]
+walmart pharmacy portsmouth nh  <a href=http://duromine.aircus.com/>duromine australia</a>  target mail order pharmacy
+
+[post_text_40]
+piu' passano i giorni e piu' mi convinco di vivere in un paese di schifo e in cui non' c'e' veramente niente ma perche' abbiamo avuto questa maledetta sfortuna a nascere qui l'unica consolazione e' pensare a chi e' stato piu' sfortunato di noi.
+
+[post_text_41]
+vorrei esprimere un commento su questa estate Caposelese.Purtroppo siamo caduti veramente in basso non siamo capaci da anni di fare una serata soddisfacente sempre le solite festicciole scadenti e prive di significato.secondo me per ridare nuovo slancio agli eventi estivi si deve costituire un nuovo comitato fatto da giovani e persone nuove che hanno una mentalita' diametralmente diversa da coloro che negli ultimi 20 anni hanno organizzato il cartellone estivo e soprattutto ci vuole finalmente un'amministrazione comunale vicina e partecipe alla stesura del programma estivo cou un contributo economico rilevante.Come al solito se si vuole trascorrere una serata diversa alla ricerca di buona musica bisogna necessariamente spostarsi in altri paesi per assistere a concerti di artisti di nome non le solite tarantelle e batticulo che il nostro oramai paesello arretrato ci propone.
+
+[post_text_42]
+alliance for academic internal medicine  <a href=http://roxicodone.tribalpages.com/>Roxicodone</a>  family health center kalamazoo
+
+[post_text_43]
+Viviamo in un paese di falliti l'unica cosa che si puo' fare quando si esce a giocare a carte davanti ai bar per di piu' con gente ignorante,frustrata,vecchia,furba,cattiva.adesso basta ne abbiamo veramente le scatole piene ma percheì abbiamo avuto questa maledetta sfortuna a nascere in questo paese inesistente invidio chi ha avuto il coraggio di scappare da qui e costruirsi una nuova vita lontano avete fatto benissimo non vi siete persi nulla non ci ritornate piu' che qui si muore dentro di malinconia e depressione.infine una ultima critica la voglio come sempre rivolgere all'amministrazione comunale assente che in 8 anni di attivita' avete prodotto zero in tutto per voi esiste una sola parola Vergognateviiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiise avete un minimo di decenza dimettetevi che il popolo e' veramente stanco di sopportare questo mortorio in cui siamo sprofondati.

@@ -4,7 +4,7 @@
 % 1) download the files from the remote website via ftp
 % 2) create <website root>/diff.txt by using shell command "git diff > diff.txt"
 % 3) move Matlab bath to <website root>/tools
-% 4) run chmod.txt
+% 4) run chmod.m
 %
 
 logfile = '../diff.txt'; % generalo lanciando "git diff > diff.txt"

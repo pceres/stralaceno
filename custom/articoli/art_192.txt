@@ -1,0 +1,23 @@
+Autore::ars
+Titolo::Stralaceno 2015
+--- Begin body ---
+<br>
+<b>PER I RISULTATI DELLA STRALACENO 2015 COLLEGARSI AL SITO <a href="http://stralaceno.cjb.net">http://stralaceno.cjb.net</a>
+</b>
+<br>
+<div align="justify">
+&Egrave; disponibile la classifica <b>ufficiale</b> della XXVII edizione della Stralaceno.<br>
+61 concorrenti hanno terminato la gara. Il vincitore assoluto &egrave; stato Daniele Caprio con il tempo di 18'19'', <b>firmando il record assoluto di tutti i tempi della stralaceno</b> avendo battuto il precedente record di Gelsomino Merola di 18'47'' durato per 20 anni.  
+<br>La vincitrice delle donne &egrave; stata Annarita D'Elia col tempo di 25'45'', firmando un nuovo record personale.
+<br>A breve seguiranno commenti e foto.
+<br>
+<p>
+<div align="center" style="margin-top: 30px">
+<img src="%file_root%custom/album/Stra_15/foto17.jpg" border="0" width="600"></div>
+<div style="text-align:center; margin-top:30px;">
+<img src="%file_root%custom/album/Stra_15/foto5.jpg" alt="stralaceno 2015" border="0" width="600"></div>
+<br>
+<p style="margin-top: 30px">
+Le foto dell'edizione 2015 <a href="http://ars.altervista.org/album.php?anno=Stra_15">QUI</a>
+<br>
+--- End body ---

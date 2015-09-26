@@ -1,0 +1,18 @@
+Autore::Ars
+Titolo::Castelvetere 2015
+--- Begin body ---
+<br>
+<p>Complimenti alla rappresentativa ARS nella gara di Castelvetere con Daniele Caprio e Mauro Losco tenutasi la scorsa settimana. Daniele ha ottenuto un ottimo 3' posto col tempo sorprendente di 31'22'', ossia una media di 3'24'' a km. Complimenti anche a Mauro che si &egrave classificato nella 27' posizione, anche lui con una media sotto i 4 a km, ha chiuso in 36'22'' con media di 3'57''.
+Alla gara erano presenti 170 iscritti tra cui 20 donne.</p>
+<br>
+<p align="right"><a href="http://ars.altervista.org/album.php?anno=Castelvetere_2015">Qui</a> l'album fotografico della gara.<br><br></p>
+<br>
+<div align="center">
+<img id="z1" src="%file_root%custom/album/Castelvetere_2015/foto1.jpg" alt="castelvetere" border="0" width="400">
+<<br>
+<img id="z1" src="%file_root%custom/album/Castelvetere_2015/foto5.jpg" alt="castelvetere" border="0" width="400">
+<br>
+<img id="z1" src="%file_root%custom/album/Castelvetere_2015/foto6.jpg" alt="castelvetere" border="0" width="400">
+</div>
+<br>
+--- End body ---

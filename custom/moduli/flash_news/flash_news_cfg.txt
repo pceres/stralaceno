@@ -222,4 +222,8 @@
 # formato testo_footer:  testo
 #
 [testo_footer]
+#Ultimo aggiornamento effettuato il ../../....#
+# formato testo_footer:  testo
+#
+[testo_footer]
 #Ultimo aggiornamento effettuato il ../../....

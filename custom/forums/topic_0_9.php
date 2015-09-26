@@ -2107,3 +2107,21 @@ cosa ce ne facciamo di una vita in cui ti alzi la mattina e non vedi l'ora che a
 
 [post_text_355]
 Che tristezza tutti i giorni sempre uguali in questo stupido e arretrato paesello a 35 anni l'unica cosa che c'e' da fare e' una partita a carte nei soliti bar ritrovo solo  per gente vecchia e finita ma peche' siamo stati cosi' sfortunati a nascere qui.E poi ci sono quelli che ogni tanto ritornano non si  fanno ne' sentire ne' vedere siete e resterete per sempre gente falsa e a cazzi vostri. Concludo  dicendo Stanchi di questa realta' deprimente l'unica cosa da fare se vogliamo costruire un futuro diverso e' fuggire e trovare lavoro fuori con la convinzione di non ritornare piu' a Caposele.
+e per sempre gente falsa e a cazzi vostri. Concludo  dicendo Stanchi di questa realta' deprimente l'unica cosa da fare se vogliamo costruire un futuro diverso e' fuggire e trovare lavoro fuori con la convinzione di non ritornare piu' a Caposele.
+
+[post_text_356]
+Vergognatevi organizzatori dell'estate caposelese ancora una volta avete prodotto zero non c'e' stata una serata degna di essere trascorsa fuori con gioia,entusiasmo ed allegria sempre le solite festicciole davanti ai bar con la solita bevanda in mano.Sono andati bene solo i proprietari dei bar che hanno guadagnato dato che ai gruppi gli hanno dato 4 soldi ma sfido chiunque a dire che la gente si e' divertita.Cari organizzatori con i soldi che avete speso in tutto il mese di agosto si organizzava una sola serata tipo S.Lorenzo e si chiamava un Cantante discreto di nome che accontentava sia i giovani che gli adulti e almeno per una sera Caposele si distingueva dagli altri paesi limitrofi che non hanno fatto niente.Io sono convinto che c'e' una sola via per uscire da questo schifo estivo e cioe' rifondare un nuovo comitato feste composto pero' questa volta da persone intelligenti grintose volenterose competenti che ridiano a questo paese la voglia di sentirsi ancora vivo anche solo per l'estate in quanto sono anni che  assiastiamo a estati deprimenti e vergognose.
+
+[post_text_357]
+ma ci rendiamo conto che in tutte le sfide della coppa italia si sono visti errori arbitrali gravi che hanno compromesso i risultati come volevasi dimostrare sono state favorite le squadre piu' grandi,io mi chiedo allora cosa le fanno a fare le gare quando gia' si sa che devono andare avanti le migliori vergognatevi lega calcio e classe arbitrale
+sono anni oramai che allo stadio non ci dovrebbe andare piu' nessuno cosi' vediamo se poi si permettono i calciatori  e le societa' a falsare incontri.Il  calcio come la politica in Italia e' allo sbando perche' regna solo il business e le scommesse sportive.
+
+[post_text_358]
+VErgognateviiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+cittadini di Caposele resterete per sempre un popolo di mediocri e ignoranti nella storia di 30 anni dal terremoto non abbiamo mai costruito niente di nuovo siamo un paesello arretrato culturalmente in cui sono rimasti solo persone fallite e depresse e in cui l'unico svago per chi esce di casa e' andare nei soliti bar a bere birra e giocare a carte per di piu' non avendo neanche le regole e l'educazione del saper stare con gli altri in maniera onesta senza fare sempre i furbetti,ah povero Caposele non ti resta che piangere.
+
+[post_text_359]
+Vergognatevi in questo paese l'unica cosa da fare e' giocare a carte con i soliti ignoranti,stupidi,furbi,falliti.Che vita schifosa ma perche' siamo stati cosi' sfortunati a nascere in questo paese peccato che abbiamo solo una vita l'unica consolazione e' pensare a chi e' stato piu' sfortunato di noi.
+
+[post_text_360]
+l'unica soluzione e' andarsene in una grande citta' dove tutto cio' che ci e' sempre mancato in questo paese invalidante lo troveremo li'!!! caposele e' ormai un paese per anziani e sfigati che si accontentano di vivere la loro esistenza senza aver mai provato il vero senso della bellezza della vita. detto cio'bisogna solo agire senza vivere ormai di speranze perche' ci troveremo alla vecchiaia di una vita passata davanti ai bar a sperare che qualcosa sarebbe successo di positivo nel nostro fottutissimo paese scomparso anche sulla cartina geografica!!!

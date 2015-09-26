@@ -1,0 +1,21 @@
+Autore::Amatori running sele
+Titolo::Allenamento Collettivo 27.12.2014
+--- Begin body ---
+<br>
+<p>L'allenamento collettivo 2014 si &egrave; concluso nel migliore dei modi, con record di partecipazioni, 26 in tutto. Con un clima abbastanza freddo, tutti hanno portato a termine il percorso previsto di 9,7km.</p>
+<br>
+<p>
+Le foto dell'edizione 2014 <a href="http://ars.altervista.org/album.php?anno=All.Coll14">QUI</a>
+</p>
+<!-- Sabato 27 dicembre si svolger&agrave; l'allenamento collettivo proposto dagli Amatori running sele, su un percorso di 9,7 km circa a Laceno. Previsto ritrovo alle ore 15.00 nelle vicinanze di "Hotel 4 camini".
+--!>
+<br>
+<p>
+<div align="center">
+<img id="a1" src="%file_root%custom/album/All.Coll14/img5.jpg" alt="All.Coll14" border="0" width="500"></div>
+<br>
+<br>
+<div align="center">
+<img id="a2" src="%file_root%custom/album/All.Coll14/img2.jpg" alt="All.Coll14" border="0" width="500"></div>
+<br>
+--- End body ---

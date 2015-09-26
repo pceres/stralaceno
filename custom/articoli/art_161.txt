@@ -1,15 +1,11 @@
-﻿Autore::
+Autore::Amatori running sele
 Titolo::Foto Flash ARS
 --- Begin body ---
 <br>
+<h2 align="center">Allenamento collettivo sabato 4 aprile</h2>
+Sabato 4 aprile gli amatori running sele invitano tutti gli interessati a trascorrere una giornata all'insegna dello sport ad aggregarsi al gruppo. L' incontro &egrave previsto per le ore 16.00 al bosco difesa oppure se sprovvisti di mezzi di trasporto, l'incontro &egrave previsto per le ore 15.40. Di seguito i dettigli sull' evento:
+<p>
 <div align="center">
-<img id="" src="%file_root%custom/album/FotoFlash/tallacano2014.jpg" alt="" border="0" width="550">
-<br><br>
-21.04.2014 - Daniele Caprio vince il tallacano trail di acquasanta terme(AP) di 15 km.<br>
-<b>Il percorso</b><br>
-Percorso sterrato di circa 15 km con partenza da Tallacano di Acquasanta Terme (AP). Dopo aver attraversato l'interno del paese si giunge all'abitato di Poggio-Rocchetta, su strada brecciata carreggiabile. Da Poggio-Rocchetta si percorre l'inizio del sentiero n. 432, per immettersi dopo poco, sul sentiero n. 430, quindi si prosegue sul sentiero n. 401 in direzione Grotte del Petrienno. Sul sentiero n. 401 si raggiunge l'abitato di Agore, per tornare indietro verso Poggio Rocchetta sul sentiero n. 402. Da Poggio-Rocchetta, infine, si percorre a ritroso la strada brecciata per terminare la gara nuovamente a Tallacano.
-<br><br>
-</div>
-<i>Le altre foto flash le trovate <a href="album.php?anno=FotoFlash">qui</a>.<br>
-</b></i>
+<img id="z1" src="%file_root%custom/album/FotoFlash/allenament2015.jpg" alt="stralaceno" border="0" width="700"></div>
+<br>
 --- End body ---
