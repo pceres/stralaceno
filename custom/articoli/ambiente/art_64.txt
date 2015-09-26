@@ -1,0 +1,81 @@
+Autore::
+Titolo::Pianori di Montella
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 22 febbraio 2014<br>
+<br>Il Monte, Piano Pizzillo, Monte Sassosano, Piano La Foa, Piano di Verteglia, Piano Pizzillo, Il Monte (Montella)
+<br> <br>
+<img id="monmont1" src="%file_root%custom/album/ambiente14/monmont1.JPG" alt="" border="0" width="550">
+<br><br>
+Monastero del Monte di Montella
+<br>
+<br>
+<br>
+<img id="monmont2" src="%file_root%custom/album/ambiente14/monmont2.JPG" alt="" border="0" width="550">
+<br><br>
+Il Monte: vista del Santuario del Santissimo Salvatore
+<br>
+<br>
+<br>
+<img id="monmont3" src="%file_root%custom/album/ambiente14/monmont3.JPG" alt="" border="0" width="550">
+<br><br>
+Monastero del Monte: veduta sulla Valle del Calore
+<br>
+<br>
+<br>
+<img id="monmont4" src="%file_root%custom/album/ambiente14/monmont4.JPG" alt="" border="0" width="550">
+<br><br>
+Il Monte: vista dell'abitato di Montella
+<br>
+<br>
+<br>
+<img id="monmont5" src="%file_root%custom/album/ambiente14/monmont5.JPG" alt="" border="0" width="550">
+<br><br>
+Chiesa Santa Maria del Monte
+<br>
+<br>
+<br>
+<img id="monmont6" src="%file_root%custom/album/ambiente14/monmont6.JPG" alt="" border="0" width="550">
+<br><br>
+Il Monte: mura e torre del Castello Longobardo
+<br>
+<br>
+<br>
+<img id="monmont7" src="%file_root%custom/album/ambiente14/monmont7.JPG" alt="" border="0" width="550">
+<br><br>
+Piano Il Pizzillo
+<br>
+<br>
+<br>
+<img id="monmont8" src="%file_root%custom/album/ambiente14/monmont8.JPG" alt="" border="0" width="550">
+<br><br>
+Vetta Monte Sassosano
+<br>
+<br>
+<br>
+<img id="monmont9" src="%file_root%custom/album/ambiente14/monmont9.JPG" alt="" border="0" width="550">
+<br><br>
+Piano La Foa
+<br>
+<br>
+<br>
+<img id="monmont10" src="%file_root%custom/album/ambiente14/monmont10.JPG" alt="" border="0" width="550">
+<br><br>
+Piano di Verteglia: il Casone
+<br>
+<br>
+<br>
+<img id="monmont11" src="%file_root%custom/album/ambiente14/monmont11.JPG" alt="" border="0" width="550">
+<br><br>
+Piano di Verteglia: fontana nei pressi del Casone
+<br>
+<br>
+<br>
+<img id="monmont12" src="%file_root%custom/album/ambiente14/monmont12.JPG" alt="" border="0" width="550">
+<br><br>
+Piano di Verteglia
+<br>
+<br>
+<br>
+--- End body ---

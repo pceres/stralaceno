@@ -1,0 +1,16 @@
+Autore::
+Titolo::Stralaceno 2014
+--- Begin body ---
+<br>
+<b>PER I RISULTATI DELLA STRALACENO 2014 COLLEGARSI AL SITO <a href="http://stralaceno.cjb.net">http://stralaceno.cjb.net</a>
+</b>
+<br>
+<br>
+<p>
+Le foto dell'edizione 2014 <a href="http://ars.altervista.org/album.php?anno=Stra_14">QUI</a>
+<br>
+<p>
+<div align="center">
+<img id="z1" src="%file_root%custom/album/Stra_14/partenza2014.jpg" alt="stralaceno" border="0" width="400"></div>
+<br>
+--- End body ---

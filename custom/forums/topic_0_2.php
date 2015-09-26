@@ -27,3 +27,7 @@ Anche in piazza Sanita', nel nostro piccolo, abbiamo festeggiato alla grande!
 [post_text_3]
 Si comunica che la giocata del sondaggio europei di calcio 2012 “Gaetano Hamsik ’75  Capussela” è stata annullata.
 Preghiamo il giocatore di rifare eventualmente la giocata inserendo le sue reali generalità. Grazie.
+rendo le sue reali generalità. Grazie.
+
+[post_text_4]
+e Daniele Caprio, stavolta in volata, aggiunge un altro trofeo a quelli conquistati sul campo, vince il sondaggio sui mondiali 2014 nella classifica a ponderazione progressiva...

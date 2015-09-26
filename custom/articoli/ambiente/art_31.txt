@@ -1,0 +1,94 @@
+Autore::
+Titolo::Vallone Scorzella
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 7 luglio 2013<br>
+<br>
+Varo della Spina, Vallone Scorzella, Raio della Tufara, Sorgente Troncone, Cascata dello Scorzella e ritorno (Montella)
+<br><br><br>
+<img id="scorz1" src="%file_root%custom/album/ambiente/scorz1.JPG" alt="" border="0" width="550">
+<br> <br>
+Varo della Spina: fontana
+<br>
+<br>
+<br>
+<img id="scorz2" src="%file_root%custom/album/ambiente/scorz2.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone Scorzella: Cascata del Fascio
+<br>
+<br>
+<br>
+<img id="scorz3" src="%file_root%custom/album/ambiente/scorz3.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone Scorzella: Cascata del Fascio
+<br>
+<br>
+<br>
+<img id="scorz4" src="%file_root%custom/album/ambiente/scorz4.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone Scorzella: Cascata del Fascio
+<br>
+<br>
+<br>
+<img id="scorz5" src="%file_root%custom/album/ambiente/scorz5.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone Scorzella: Ponte delle Tre Accette
+<br>
+<br>
+<br>
+<img id="scorz6" src="%file_root%custom/album/ambiente/scorz6.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone Scorzella: Ponte delle Tre Accette
+<br>
+<br>
+<br>
+<img id="scorz7" src="%file_root%custom/album/ambiente/scorz7.JPG" alt="" border="0" width="550">
+<br> <br>
+Raio della Tufara: ponte sul vallone
+<br>
+<br>
+<br>
+<img id="scorz8" src="%file_root%custom/album/ambiente/scorz8.JPG" alt="" border="0" width="550">
+<br> <br>
+Raio della Tufara: vallone
+<br>
+<br>
+<br>
+<img id="scorz9" src="%file_root%custom/album/ambiente/scorz9.JPG" alt="" border="0" width="550">
+<br> <br>
+Raio della Tufara: vallone
+<br>
+<br>
+<br>
+<img id="scorz10" src="%file_root%custom/album/ambiente/scorz10.JPG" alt="" border="0" width="550">
+<br> <br>
+Sorgente Troncone
+<br>
+<br>
+<br>
+<img id="scorz11" src="%file_root%custom/album/ambiente/scorz11.JPG" alt="" border="0" width="550">
+<br> <br>
+Sorgente Troncone
+<br>
+<br>
+<br>
+<img id="scorz12" src="%file_root%custom/album/ambiente/scorz12.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone Scorzella
+<br>
+<br>
+<br>
+<img id="scorz13" src="%file_root%custom/album/ambiente/scorz13.JPG" alt="" border="0" width="550">
+<br> <br>
+Cascata dello Scorzella
+<br>
+<br>
+<br>
+<img id="scorz14" src="%file_root%custom/album/ambiente/scorz14.JPG" alt="" border="0" width="550">
+<br> <br>
+Cascata dello Scorzella
+<br>
+<br>
+<br>
+--- End body ---

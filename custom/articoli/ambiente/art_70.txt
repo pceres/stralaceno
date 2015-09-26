@@ -1,0 +1,87 @@
+Autore::
+Titolo::Valloni Tronconcello e Tufara
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 5 aprile 2014<br>
+<br>Varo della Spina - Vallone Scorzella - Vallone Tufara (parte bassa) - Vallone Tronconcello - Barrizzulo - Faggio Scritto - Vallone Tufara (parte alta) - Varo della Spina (Montella)
+<br> <br>
+<img id="tronconcello1" src="%file_root%custom/album/ambiente14/tronconcello1.JPG" alt="" border="0" width="550">
+<br><br>
+Cascata del Fascio
+<br>
+<br>
+<br>
+<img id="tronconcello2" src="%file_root%custom/album/ambiente14/tronconcello2.JPG" alt="" border="0" width="550">
+<br><br>
+Ponte del Fascio
+<br>
+<br>
+<br>
+<img id="tronconcello3" src="%file_root%custom/album/ambiente14/tronconcello3.JPG" alt="" border="0" width="550">
+<br><br>
+Confluenza Scorzella - Tufara
+<br>
+<br>
+<br>
+<img id="tronconcello4" src="%file_root%custom/album/ambiente14/tronconcello4.JPG" alt="" border="0" width="550">
+<br><br>
+Vallone Tufara (parte bassa)
+<br>
+<br>
+<br>
+<img id="tronconcello5" src="%file_root%custom/album/ambiente14/tronconcello5.JPG" alt="" border="0" width="550">
+<br><br>
+Vallone Tronconcello
+<br>
+<br>
+<br>
+<img id="tronconcello6" src="%file_root%custom/album/ambiente14/tronconcello6.JPG" alt="" border="0" width="550">
+<br><br>
+Sorgenti del Tronconcello
+<br>
+<br>
+<br>
+<img id="tronconcello7" src="%file_root%custom/album/ambiente14/tronconcello7.JPG" alt="" border="0" width="550">
+<br><br>
+Sorgenti del Tronconcello
+<br>
+<br>
+<br>
+<img id="tronconcello14" src="%file_root%custom/album/ambiente14/tronconcello14.JPG" alt="" border="0" width="550">
+<br><br>
+Barrizzulo: vista di Montagna Grande, Raiamagra, Raia della Scannella e Coste Monacesi
+<br>
+<br>
+<br>
+<img id="tronconcello9" src="%file_root%custom/album/ambiente14/tronconcello9.JPG" alt="" border="0" width="550">
+<br><br>
+Barrizzulo: veduta della parete nord dell'Accellica Nord
+<br>
+<br>
+<br>
+<img id="tronconcello10" src="%file_root%custom/album/ambiente14/tronconcello10.JPG" alt="" border="0" width="550">
+<br><br>
+Vallone Tufara (parte alta)
+<br>
+<br>
+<br>
+<img id="tronconcello11" src="%file_root%custom/album/ambiente14/tronconcello11.JPG" alt="" border="0" width="550">
+<br><br>
+Vallone Tufara (parte alta): cascata
+<br>
+<br>
+<br>
+<img id="tronconcello12" src="%file_root%custom/album/ambiente14/tronconcello12.JPG" alt="" border="0" width="550">
+<br><br>
+Vallone Tufara (parte alta): cascata
+<br>
+<br>
+<br>
+<img id="tronconcello13" src="%file_root%custom/album/ambiente14/tronconcello13.JPG" alt="" border="0" width="550">
+<br><br>
+Riponi, Vallone Fiumicello e Moletracchio
+<br>
+<br>
+<br>
+--- End body ---

@@ -168,9 +168,9 @@ $0 <options> <ftpserver> <ftpusername> <ftpfolder> <localfolder>
 
 Es.:
 
-ftpsync -d ars.altervista.org ars /custom/ ./../custom/
+ftpsync -d ftp.ars.altervista.org ars /custom/ ./../custom/
 
-ftpsync -u ars.altervista.org ars /custom/dati/ ./../custom/dati/
+ftpsync -u ftp.ars.altervista.org ars /custom/dati/ ./../custom/dati/
 
 END
   exit

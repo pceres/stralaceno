@@ -6,6 +6,43 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+17/05/2014::Daniele Caprio e Carmine Cuozzo hanno partecipato alla 1^ edizione Memorial Luongo a Calabritto.
+21/04/2014::Daniele Caprio vince il tallacano trail di acquasanta terme(AP) di 15 km.
+06/04/2014::Daniele Caprio ha partecipato al Trail delle Ferriere 2014 di Amalfi 2014 di km 14.
+06/04/2014::Mauro Losco ha partecipato alla 15^ Agropoli Half Marathon di km 21,097.
+16/03/2014::Daniele Caprio ha partecipato al Beach Trail Positano 2014 di km 11.
+02/03/2014::Donato Ceres e Donatello Cirillo hanno partecipato alla XL edizione della Roma Ostia di km 21,097.
+22/02/2014::Mauro Losco e Giuseppe Cetrulo hanno partecipato alla Cargraphik Half Marathon a Barletta, di km 21,097.
+02/02/2014::Mauro Losco ha partecipato alla 1^ edizione della Mostra d’Oltremare Half Marathon a Napoli.
+15/12/2013::Mauro Losco ha partecipato alla 5^ edizione della Coast to Coast Sorrento-Amalfi, di km 31,3.
+08/12/2013::Daniele Caprio, Donato Ceres, Mauro Losco, Carmine Cuozzo e Antonio Viscido hanno partecipato alla 1^ edizione della Corsa dei Falo' a Lioni (Av).
+17/11/2013::Giuseppe Cetrulo e Mauro Losco hanno partecipato alla 33^ Maratona Divina Pastora di Valencia (Spagna) di km 42,095.
+27/10/2013::Carmine Calvanese ha partecipato alla "Sangemini-Casulae-Sangemini" di km 10,750 a Sangemini (Tr).
+26/10/2013::Daniele Caprio ha partecipato alla "3^ edizione dell'Ecotrail dei 2 Parchi" ad Arquata del Tronto (Ap) di km 13.
+20/10/2013::Entra a far parte dell'ARS, come associato praticante, Carmine Cuozzo di Lioni.
+13/10/2013::Carmine Calvanese ha partecipato alla "Mezza maratona citt&agrave; di Pisa" di km 21,097 a Pisa.
+12/10/2013::Daniele Caprio ha partecipato alla "27^ edizione della Stabiae night marathon" a Castellammare di Stabia (Na) di km 10.
+06/10/2013::Daniele Caprio ha partecipato alla "7^ edizione del Memorial B.Germano" a Sicignano degli Alburni (Sa) di km 8,9.
+29/09/2013::Carmine Calvanese ha partecipato alla " VI Tre valli ternane" di km 21,097 a Terni.
+01/09/2013::Carmine Calvanese ha partecipato al "XIV Trofeo delle 7 contrade" di km 13 ad Orte (Vt).
+01/09/2013::Daniele Caprio ha partecipato al "Faito xtrail" di km 17 a Moiano (Na)
+15/08/2013::Daniele Caprio vince la corsa dei Tre Campanili di Caposele.
+28/07/2013::Mauro Losco ha partecipato al "II Trail dei Monti Picentini" a Montoro Superiore (Av) di km 18.
+20/07/2013::Daniele Caprio, Donato Ceres, Mauro Losco, Alfonso Rosania e Nicola D'Auria hanno partecipato alla "XX CorriRoccadaspide" a Roccadaspide (Sa) di km 8,5.
+14/07/2013::Mauro Losco ha partecipato al "II Trail di Chiusano San Domenico" a Chiusano San Domenico (Av) di km 9.
+06/07/2013::Daniele Caprio e Mauro Losco hanno partecipato alla "I Pedifumo in corsa" a Perdifumo (Sa) di km 10.
+29/06/2013::Daniele Caprio ha partecipato alla "XVI edizione della Marcialonga Mercogliano - Montevergine" di 16,8 km.
+23/06/2013::Paolo Viscardi ha partecipato alla gara podistica "Gran carrera di Zumpango" a Zumpango - Messico di km 11.
+23/06/2013::Daniele Caprio, Mauro Losco e Giuseppe Cetrulo hanno partecipato al "7&deg; trofeo citt&agrave; di Telesia" a Telese Terme (Bn) di km 10.
+08/06/2013::Mauro Losco ha partecipato alla "III Corsa Podistica delle 7 Cappelle" a Sassano(Sa) di km 11,8.
+02/06/2013::Paolo Viscardi ha partecipato alla gara podistica di Citt&agrave; del Messico di 10km.
+25/05/2013::Daniele Caprio, Mauro Losco e Donatello Cirillo hanno partecipato alla "31^ Corsalonga Sangiovannese" a San Giovanni a Piro (Sa) di km 9.
+19/05/2013::Mauro Losco ha partecipato alla "Corsa del Mito" Palinuro - Marina di Camerota (Sa) di km 13,5.
+12/05/2013::Daniele Caprio, Giuseppe Cetrulo, Donato Ceres e Mauro Losco hanno partecipato alla "Corsa della sirena Leucosya" a Castellabate (Sa) di km 8,8.
+05/05/2013::Daniele Caprio ha partecipato al "III Ecotrail" a Minori(Sa) di km 14,5.
+01/05/2013::Carmine Calvanese ha partecipato al 31&deg; giro del lago di Piediluco - Terni di km 14,9.
+28/04/2013::Giuseppe Cetrulo, Mauro Losco e Donatello Cirillo hanno partecipato alla 14^ half marathon di Agropoli di km 21,097.
+21/04/2013::Carmine Calvanese ha partecipato al "2&deg; memorial N.Bravini" a Terni di km 10,2. 
 07/04/2013::Carmine Calvanese ha partecipato alla 30^ mezza maratona di Firenze.
 07/04/2013::Giuseppe Cetrulo e Mauro Losco hanno partecipato alla 37^ edizione della Maratona di Parigi.
 01/04/2013::Daniele Caprio ha partecipato al "II trail del monte Taccaro" ad Angri(Sa) di km 12,2.
@@ -182,6 +219,10 @@
 15/04/2006::Il 15 aprile si &egrave; tenuta l'Assemblea annuale dell'Associazione, in cui &egrave; stato approvato il rendiconto economico 2005.
 
 #
+# formato testo_footer:  testo
+#
+[testo_footer]
+#Ultimo aggiornamento effettuato il ../../....#
 # formato testo_footer:  testo
 #
 [testo_footer]

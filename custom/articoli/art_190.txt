@@ -1,0 +1,18 @@
+Autore::Ars
+Titolo::Maratonina delle tre valli
+--- Begin body ---
+<br>
+Complimenti a Daniele Caprio che ha <b>vinto la maratonina delle tre valli ad Ascoli Piceno</b> lo scorso 28 giugno come rappresentanza degli Amatori running sele. 
+Ha chiuso il percorso di 11,5 km in 39'58'' mantenendo una media di 3'28'' a km, davvero una grande prestazione. Hanno concluso la gara 173 atleti.  
+<br>
+<p align="right"><a href="http://ars.altervista.org/album.php?anno=maratonina_tre_valli_2015">Qui</a> l'album fotografico della gara.<br><br></p>
+<br>
+<p align="left">Di seguito il link della classifica ufficiale:  
+<br>
+<a href="http://www.wedosport.net/pub/cf/vedi_classifica.cfm?gara=41067">Classifica maratonina delle tre valli</a>
+</p>
+<div align="center">
+<br>
+<p><img id="z1" src="%file_root%custom/album/maratonina_tre_valli_2015/foto1.png" alt="" border="0" ></p>
+</div>
+--- End body ---

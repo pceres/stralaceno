@@ -12,12 +12,62 @@
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
-20::ambiente::Monte Pollaro e Madonna di Grienzi
-19::ambiente::Vallone delle Brecce e Monte Oppido
+61::ambiente::Valle del Tusciano::
+60::ambiente::Monti Cervarolo e Cervarulo::
+59::ambiente::Cime sud-orientali del Marzano-Eremita::
+58::ambiente::Grotta Profunnata::
+57::ambiente::Monte La Picciola::
+56::ambiente::Circuito del Monte Valva::
+55::ambiente::Monte Vado del Piesco::
+54::ambiente::Monte della Croce::
+53::ambiente::Monte Ogna::
+52::ambiente::Acero Chiuso - Valle del Diavolo::
+51::ambiente::Monte Marzano::
+50::ambiente::Monte Polveracchio::
+49::ambiente::Tuorno e Grotta degli Angeli::
+48::ambiente::Ritorno allo Scalandrone::
+47::ambiente::Monte Cervati::
+46::ambiente::Monte Panormo (Alburno)::
+45::ambiente::La Balzata - Vado di Carpino::
+44::ambiente::Tana dei Lupi - Sorgente del Savuco::
+43::ambiente::Vallone della Neve - La Savina::
+42::ambiente::Monte Terminio::
+41::ambiente::Monte Eremita::
+40::ambiente::Grienzi - Raia della Quercia::
+39::ambiente::Montagna Grande::
+38::ambiente::Monte Boschetiello::
+37::ambiente::Grotta di San Michele di Valva::
+36::ambiente::Monte Calvello::
+35::ambiente::Monte Ramatico::
+34::ambiente::Monti Cervarulo e Cervialto::
+33::ambiente::Monte Cervarolo::
+32::ambiente::Altopiano di Laceno::
+31::ambiente::Vallone Scorzella::
+30::ambiente::Monte Accellica Nord::
+29::ambiente::Ritorno al Monte Valva::
+28::ambiente::Piano Sazzano::
+27::ambiente::Valle della Caccia::
+26::ambiente::Grotta dello Scalandrone::
+25::ambiente::Monte La Picciola - Eremo S.Michele::
+24::ambiente::Fontana Canale - Piano Pollaro::
+23::ambiente::Colle del Leone - Fiumara di Tannera::
+22::ambiente::Monte Valva e Valva Vecchia::
+21::ambiente::Aumento deflusso Sorgenti del Sele::
+20::ambiente::Monte Pollaro e Madonna di Grienzi::
+19::ambiente::Vallone delle Brecce e Monte Oppido::
 18::ambiente::Ritorno alla Madonna del Fiume::
 17::ambiente::Circuito del monte Vallicelle::
 16::ambiente::Sentieri Pustedda - Lavanghe::
 13::ambiente::Per le grotte di Caposele::
+15::ambiente::Sentiero Madonna del Fiume::
+14::ambiente::A valle del Rio Zagarone::
+12::ambiente::Grotta San Lorenzo::
+#
+# formato elenco_pagine:  tag_pagina::titolo_pagina::titolo::autore
+#
+[elenco_pagine]
+#%script_root%questions.php?id_questions=1::Sondaggio Mondiali 2006
+#%script_root%statistiche.php?action=show&id_questions=1::Statistiche Sondaggio Mondiali 2006sele::
 15::ambiente::Sentiero Madonna del Fiume::
 14::ambiente::A valle del Rio Zagarone::
 12::ambiente::Grotta San Lorenzo::

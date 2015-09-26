@@ -1,0 +1,26 @@
+Autore::Paolo Viscardi
+Titolo::Gran carrera Zumpango
+--- Begin body ---
+<br>
+Domenica 23 giugno in Zumpango (Messico) si &egrave; svolta la "Primera gran carrera Zumpango Estado de Mexico 2013". 
+<br>
+La distanza ipotizzata era di 10km ma era facile notare che era abbondantemente pi&ugrave; lunga, intorno agli 11 km. 
+<br>Alla gara erano presenti circa 300 atleti. A rappresentare gli Amatori  Running Sele c'ero io, Paolo Viscardi, assieme ai miei amici Victor e Giovanna: abbiamo terminato
+la corsa con tempi mediocri.<br><br>
+<p>
+<div align="center">
+<img id="z1" src="%file_root%custom/album/varie/zumpango1.jpg" alt="zumpango1" border="0" width="400"></div>
+<br>
+<p>
+<div align="center">
+<img id="z2" src="%file_root%custom/album/varie/zumpango2.jpg" alt="zumpango2" border="0" width="400"></div>
+<br>
+<p>
+<div align="center">
+<img id="z3" src="%file_root%custom/album/varie/zumpango3.jpg" alt="zumpango3" border="0" width="400"></div>
+<br>
+<p>
+<div align="center">
+<img id="z4" src="%file_root%custom/album/varie/zumpango4.jpg" alt="zumpango4" border="0" width="400"></div>
+<br>
+--- End body ---

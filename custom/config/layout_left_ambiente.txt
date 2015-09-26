@@ -79,6 +79,5 @@ Links::
 #[Mondo podismo]
 #siti_amici::Siti podistici::external_link::custom/moduli/siti_amici/siti_amici.php?module_data=podismo::::
 
-[Link_esterni]
-stralaceno::esempio link: Sito stralaceno::external_link::http://pceres.altervista.org/stralaceno/index.php::::
-
+#[Link_esterni]
+#stralaceno::esempio link: Sito stralaceno::external_link::http://pceres.altervista.org/stralaceno/index.php::::

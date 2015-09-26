@@ -1,0 +1,81 @@
+Autore::
+Titolo::Raia della Scannella
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 22 marzo 2014<br>
+<br>Colle del Leone - Piano d'Acera - Raia della Scannella - Manca di Barrizzulo - Sorgenti di Tannera - Prato del Leone - Colle del Leone (Bagnoli Irpino, Acerno)
+<br> <br>
+<img id="scannella1" src="%file_root%custom/album/ambiente14/scannella1.JPG" alt="" border="0" width="550">
+<br><br>
+Piano d'Acera
+<br>
+<br>
+<br>
+<img id="scannella12" src="%file_root%custom/album/ambiente14/scannella12.JPG" alt="" border="0" width="550">
+<br><br>
+Raia della Scanella: vista del versante sud del Monte Raiamagra
+<br>
+<br>
+<br>
+<img id="scannella2" src="%file_root%custom/album/ambiente14/scannella2.JPG" alt="" border="0" width="550">
+<br><br>
+Raia della Scanella: veduta delle Accelliche
+<br>
+<br>
+<br>
+<img id="scannella3" src="%file_root%custom/album/ambiente14/scannella3.JPG" alt="" border="0" width="550">
+<br><br>
+Raia della Scanella: vista di Raia della Licina
+<br>
+<br>
+<br>
+<img id="scannella4" src="%file_root%custom/album/ambiente14/scannella4.JPG" alt="" border="0" width="550">
+<br><br>
+Raia della Scanella: veduta, in secondo piano, del Polveracchio
+<br>
+<br>
+<br>
+<img id="scannella5" src="%file_root%custom/album/ambiente14/scannella5.JPG" alt="" border="0" width="550">
+<br><br>
+Raia della Scanella: vista della Savina e delle Accelliche
+<br>
+<br>
+<br>
+<img id="scannella6" src="%file_root%custom/album/ambiente14/scannella6.JPG" alt="" border="0" width="550">
+<br><br>
+Raia della Scanella: veduta del Monte Terminio
+<br>
+<br>
+<br>
+<img id="scannella7" src="%file_root%custom/album/ambiente14/scannella7.JPG" alt="" border="0" width="550">
+<br><br>
+Costa Monacesi: vista della conca di Acerno
+<br>
+<br>
+<br>
+<img id="scannella8" src="%file_root%custom/album/ambiente14/scannella8.JPG" alt="" border="0" width="550">
+<br><br>
+Costa Monacesi: veduta di Acerno
+<br>
+<br>
+<br>
+<img id="scannella9" src="%file_root%custom/album/ambiente14/scannella9.JPG" alt="" border="0" width="550">
+<br><br>
+Vista della Savina e delle Accelliche dalla Costa Monacesi
+<br>
+<br>
+<br>
+<img id="scannella10" src="%file_root%custom/album/ambiente14/scannella10.JPG" alt="" border="0" width="550">
+<br><br>
+La Costa Monacesi e Raia della Licina
+<br>
+<br>
+<br>
+<img id="scannella11" src="%file_root%custom/album/ambiente14/scannella11.JPG" alt="" border="0" width="550">
+<br><br>
+Manca di Barrizzulo: vallone
+<br>
+<br>
+<br>
+--- End body ---

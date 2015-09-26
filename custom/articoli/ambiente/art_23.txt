@@ -1,0 +1,134 @@
+Autore::
+Titolo::Colle del Leone - Fiumara di Tannera
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 25 aprile 2013<br>
+<br>
+Colle del Leone - Fiumara di Tannera - Grotta Strazzatrippa - Colle de Leone (Bagnoli Irpino, Acerno)
+<br><br><br>
+<img id="tnr1" src="%file_root%custom/album/ambiente/tnr1.JPG" alt="" border="0" width="550">
+<br> <br>
+Colle de Leone
+<br>
+<br>
+<br>
+<img id="tnr2" src="%file_root%custom/album/ambiente/tnr2.JPG" alt="" border="0" width="550">
+<br> <br>
+Sentiero lungo la Conca di Marco
+<br>
+<br>
+<br>
+<img id="tnr3" src="%file_root%custom/album/ambiente/tnr3.JPG" alt="" border="0" width="550">
+<br> <br>
+Fontana di Don Giovanni
+<br>
+<br>
+<br>
+<img id="tnr4" src="%file_root%custom/album/ambiente/tnr4.JPG" alt="" border="0" width="550">
+<br> <br>
+Sorgenti di Tannera
+<br>
+<br>
+<br>
+<img id="tnr5" src="%file_root%custom/album/ambiente/tnr5.JPG" alt="" border="0" width="550">
+<br> <br>
+Sorgenti di Tannera
+<br>
+<br>
+<br>
+<img id="tnr6" src="%file_root%custom/album/ambiente/tnr6.JPG" alt="" border="0" width="550">
+<br> <br>
+Fiumara di Tannera
+<br>
+<br>
+<br>
+<img id="tnr7" src="%file_root%custom/album/ambiente/tnr7.JPG" alt="" border="0" width="550">
+<br> <br>
+Fiumara di Tannera
+<br>
+<br>
+<br>
+<img id="tnr8" src="%file_root%custom/album/ambiente/tnr8.JPG" alt="" border="0" width="550">
+<br> <br>
+Fiumara di Tannera
+<br>
+<br>
+<br>
+<img id="tnr9" src="%file_root%custom/album/ambiente/tnr9.JPG" alt="" border="0" width="550">
+<br> <br>
+Fiumara di Tannera
+<br>
+<br>
+<br>
+<img id="tnr10" src="%file_root%custom/album/ambiente/tnr10.JPG" alt="" border="0" width="550">
+<br> <br>
+Sorgente del Cantariello
+<br>
+<br>
+<br>
+<img id="tnr16" src="%file_root%custom/album/ambiente/tnr16.JPG" alt="" border="0" width="550">
+<br> <br>
+Sorgente del Cantariello
+<br>
+<br>
+<br>
+<img id="tnr11" src="%file_root%custom/album/ambiente/tnr11.JPG" alt="" border="0" width="550">
+<br> <br>
+Sorgente del Cantariello
+<br>
+<br>
+<br>
+<img id="tnr12" src="%file_root%custom/album/ambiente/tnr12.JPG" alt="" border="0" width="550">
+<br> <br>
+Ingresso Grotta degli Angeli
+<br>
+<br>
+<br>
+<img id="tnr13" src="%file_root%custom/album/ambiente/tnr13.JPG" alt="" border="0" width="550">
+<br> <br>
+Ingresso Grotta Strazzatrippa
+<br>
+<br>
+<br>
+<img id="tnr14" src="%file_root%custom/album/ambiente/tnr14.JPG" alt="" border="0" width="550">
+<br> <br>
+Piano del Tannera (Cupone)
+<br>
+<br>
+<br>
+<img id="tnr15" src="%file_root%custom/album/ambiente/tnr15.JPG" alt="" border="0" width="550">
+<br> <br>
+Prato del Leone
+<br>
+<br>
+<br>
+<a href="http://ars.altervista.org/osm/osm.html?zoom=15&lat=40.76658&lon=15.10263&layers=B0000000TFFFFT">Vai alla mappa del percorso su Openstreetmap.org</a>
+<br><br><br>
+<!--
+    stili e script per OpenLayers ed OpenStreetMap
+    -->
+    <script src="../osm/OpenLayers.js" type="text/javascript"></script>
+    <script src="../osm/OpenStreetMap.js" type="text/javascript"></script>
+    <script src='http://maps.google.com/maps?file=api&amp;v=2&amp;key=AIzaSyB1LEWKYqTMHNyGnLz4Q2k2ORDFJOdLkhs' type="text/javascript"></script>
+    <script src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=6.2&amp;mkt=en-us" type="text/javascript"></script>
+    <script src="../osm/osm.js" type="text/javascript"></script>
+    <!-- define a DIV into which the map will appear. Make it take up the whole window -->
+    <script type="text/javascript">
+	  // attach onLoad event (allowing the original onLoad to be executed, as well)
+	  var div_id = "map";
+	  
+	  // escursione Colle del Leone – Fiumara di Tannera
+	  var filename_foto="../osm/foto.txt";
+	  var lat=40.77118;
+	  var lon=15.09868;
+	  var zoom=15;
+	
+	  if (window.addEventListener) {
+	      window.addEventListener('load', init, false);
+	  } else if (window.attachEvent) {
+	      window.attachEvent('onload', init );
+	  }
+    </script>
+    <div style="width:90%; height:400px" id="map" class="smallmap"></div>
+--- End body ---

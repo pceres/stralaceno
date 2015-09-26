@@ -1,6 +1,7 @@
 <?php
 
 require_once('libreria.php');
+require_once('custom/config/custom.php');  // serve per $custom_vars
 
 # dichiara variabili
 extract(indici());
@@ -42,12 +43,47 @@ $lista_regola_campo = array($indice_nome);
 $lista_regola_valore = array($nome);
 $archivio_filtrato = filtra_archivio($archivio,$lista_regola_campo,$lista_regola_valore);
 
+// determina numero di partecipazioni regolari
+$num_regolari = 0; // inizializzo numero di arrivi regolari
+foreach ( $archivio_filtrato as $id => $record)
+{
+	$tempo = $record[$indice_tempo];
+	if ( ($tempo[strlen($tempo)-1] == "'") || ($tempo==='F.T.M.') )
+	{
+		$num_regolari++; // incremento numero di arrivi regolari
+	}
+}
+
+// regola per il titolo
+if ($num_regolari < 5)
+{
+	$titolo = '-';
+}
+elseif ($num_regolari < 10)
+{
+	$titolo = 'alfiere';
+}
+else
+{
+	$titolo = 'decano';
+}
+
+
+// echo "$num_regolari arrivi regolari --> $titolo<br>"; !!!
+
 $mask = array($indice_posiz,$indice_tempo,$indice_anno); # escludo ID e nome
 echo "<div align=\"center\">Prestazioni personali di <b>$nome</b></div>";
 show_table($archivio_filtrato,$mask,'tabella',3,12,1); # tabella in tre colonne, font 12, con note
 echo "<br><hr>";
 
-
+if ($atleta[$indice2_custom1]!=='-')
+{
+	$link_geneal = str_replace('<$$>',$atleta[$indice2_custom1],$custom_vars['custom1_link']);
+}
+else
+{
+	$link_geneal = "";
+}
 
 // gestione eventuale foto
 $link_foto = $atleta[$indice2_foto];
@@ -60,22 +96,20 @@ if (($link_foto !== '-') & !empty($link_foto))
 		$flag_internal_photo = 1;
 		$link_foto = $site_abs_path."custom/album/".$link_foto;
 	}
-	$link = "<img src=\"$link_foto\" style=\"float:right;margin:1em;\" alt=\"foto di $nome\" border=\"0\" width=\"400\">\n";
+	$link_img = "<img src=\"$link_foto\" alt=\"foto di $nome\" border=\"0\" width=\"400\">\n";
 	if ($flag_internal_photo)
 	{
-		$ind = strrpos($link_foto,"/");
-		$temp = substr($link_foto,0,$ind);
-		$ind2=strrpos($temp,"/");
+		$ind        = strrpos($link_foto,"/");
+		$temp       = substr($link_foto,0,$ind);
+		$ind2       = strrpos($temp,"/");
 		$nome_album = substr($temp,$ind2+1,$ind);
-		$nome_foto = substr($link_foto,$ind+1);
-		$link = "<a href=\"show_photo.php?id_photo=$nome_foto&amp;album=$nome_album\">$link</a>";
+		$nome_foto  = substr($link_foto,$ind+1);
+		$link_img   = "<a href=\"show_photo.php?id_photo=$nome_foto&amp;album=$nome_album\">$link_img</a>";
+		$footer     = "dall'album &quot;<a href=\"album.php?anno=$nome_album\">$nome_album</a>&quot;";
+		$link_img   = $link_img."<br>".$footer;
 	}
-
-	echo $link;
-}
-else
-{
-	//die('nessuna foto');
+	
+	echo "<div style=\"float:right;margin:1em;\" align=\"center\">$link_img</div>";
 }
 
 echo "Ulteriori informazioni su <b>$nome</b>:<br><br>\n";
@@ -83,19 +117,54 @@ echo "Ulteriori informazioni su <b>$nome</b>:<br><br>\n";
 echo "Id  : $atleta[$indice2_id] <br>\n";
 echo "Nome: $atleta[$indice2_nome] <br>\n";
 echo "Sesso: $atleta[$indice2_sesso] <br>\n";
-echo "Titolo: $atleta[$indice2_titolo] <br>\n";
+// echo "Titolo: $atleta[$indice2_titolo] <br>\n";
+echo "Titolo: $titolo <br>\n";
 echo "Data di nascita: $atleta[$indice2_data_nascita] <br>\n";
 
+if (!empty($link_geneal))
+{
+	$caption_custom1 = str_replace('<$$>',$link_geneal,$custom_vars['custom1_caption']);
+	echo "$caption_custom1<br>\n";
+	
+	// estrai il primo link presente in $caption_custom1
+	preg_match('/href="[^"]+"/', $caption_custom1, $matches);
+	$match = $matches[0];
+	preg_match_all('/[^"]+/', $match, $matches2);
+	$link_custom1 = $matches2[0][1];
+}
+else
+{
+	$link_custom1 = '';
+}
+
 $link = trim($atleta[$indice2_link]);
-if ($link != "-") {
-	if ($link == 'ok') 
-	{  
+if ($link !== "-")
+{
+	if (empty($link))
+	{
 		$link = "personal/$id.htm"; # se non e' specificato un link particolare, usa quello di default
 	}
-	echo "Sito personale: <a href=\"$link\">$link</a><br>\n";
+	else
+	{
+		echo "Sito personale: <a href=\"$link\">$link</a><br>\n";
 	}
+}
 
-
+// immagine custom
+$custom1 = trim($atleta[$indice2_custom1]);
+if($custom1 !== "-")
+{
+	echo "<div align=\"center\">";
+	if ($link_custom1=='')
+	{
+		echo "<img src=\"custom/album/custom/$atleta[$indice2_custom1].jpg\"  alt=\"{$atleta[$indice2_nome]} (ID $custom1)\" >";
+	}
+	else
+	{
+		echo "<a href=\"$link_custom1\"><img src=\"custom/album/custom/$atleta[$indice2_custom1].jpg\"  alt=\"{$atleta[$indice2_nome]} (ID $custom1)\" ></a>";
+	}
+	echo "</div>";
+}
 echo "<hr style=\"clear:right\">\n";
 
 // richiesta informazioni

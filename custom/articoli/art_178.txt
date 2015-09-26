@@ -1,0 +1,26 @@
+Autore::
+Titolo::33^ Maratona di Valencia 
+--- Begin body ---
+<br>
+<b>Giuseppe Cetrulo</b> (numero 812) e <b>Mauro Losco </b>(numero 2874) hanno corso domenica 17 novembre 2013 la 33^ edizione della Maratona Divina Pastora di Valencia in Spagna, che si svolge a due passi dal mare, attraversando i luoghi dove si disputa il GP di Formula Uno. 
+<br><br>
+Una Maratona dal percorso interamente pianeggiante, ideale per migliorare il personale sulla distanza. 
+<br><br>
+La partenza e l’arrivo sono alla Citt&agrave; delle Arti e delle Scienze, un complesso architettonico unico nel suo genere; in particolare l’arrivo &egrave; spettacolare: gli atleti raggiungono il traguardo correndo letteralmente sulle acque situate di fronte al Museo Principe Felipe, attraverso una piattaforma di oltre 150 metri di lunghezza e 8 di larghezza trasformando il finale della maratona in uno dei pi&ugrave; affascinanti di sempre.
+<br><br>
+<b>Notevole la prestazione dei 2 atleti ARS; entrambi hanno fatto registrare il proprio personale sulla distanza. Giuseppe Cetrulo con 2 ore 55 minuti e 24 secondi (397° posto), Mauro Losco con 3 ore 6 minuti e 05 secondi (943° posto).</b>
+<br><br>
+Sono giunti al traguardo 9.646 atleti.
+<br><br>
+<div align="center"></b></font>
+<img id="c1" src="%file_root%custom/album/varie/valancia2013_1.jpg" alt="" border="0" width="550">
+<br>
+<br>
+<div align="center"></b></font>
+<img id="c1" src="%file_root%custom/album/varie/valancia2013_2.jpg" alt="" border="0" width="550">
+<br>
+<br>
+<div align="center"></b></font>
+<img id="c1" src="%file_root%custom/album/varie/valancia2013_3.jpg" alt="" border="0" width="400">
+<br><br>
+--- End body ---

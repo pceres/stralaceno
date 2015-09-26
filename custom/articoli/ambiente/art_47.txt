@@ -1,0 +1,104 @@
+Autore::
+Titolo::Monte Cervati
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 28 settembre 2013<br>
+<br>Vallescura, Chiaia Amara, Monte Cervati, La Nevera e ritorno (Monte San Giacomo, Sanza)
+<br><br><br>
+<img id="cervati1" src="%file_root%custom/album/ambiente/cervati1.JPG" alt="" border="0" width="550">
+<br> <br>
+Sorgente dell'Acqua che Suona
+<br>
+<br>
+<br>
+<img id="cervati2" src="%file_root%custom/album/ambiente/cervati2.JPG" alt="" border="0" width="550">
+<br> <br>
+Vista della parete nord-est Monte Cervati 
+<br>
+<br>
+<br>
+<img id="cervati3" src="%file_root%custom/album/ambiente/cervati3.JPG" alt="" border="0" width="550">
+<br> <br>
+Rifugio Monte Cervati
+<br>
+<br>
+<br>
+<img id="cervati4" src="%file_root%custom/album/ambiente/cervati4.JPG" alt="" border="0" width="550">
+<br> <br>
+Cresta del Monte Cervati
+<br>
+<br>
+<br>
+<img id="cervati5" src="%file_root%custom/album/ambiente/cervati5.JPG" alt="" border="0" width="550">
+<br> <br>
+Cresta del Monte Cervati: vista di una delle cosidette Pozze del Cervati
+<br>
+<br>
+<img id="cervati6" src="%file_root%custom/album/ambiente/cervati6.JPG" alt="" border="0" width="550">
+<br> <br>
+Vetta del Monte Cervati
+<br>
+<br>
+<br>
+<img id="cervati12" src="%file_root%custom/album/ambiente/cervati12.JPG" alt="" border="0" width="550">
+<br> <br>
+Vetta del Monte Cervati: veduta verso gli Alburni
+<br>
+<br>
+<br>
+<img id="cervati7" src="%file_root%custom/album/ambiente/cervati7.JPG" alt="" border="0" width="550">
+<br> <br>
+Cresta del Monte Cervati: vista del Bosco dei Temponi
+<br>
+<br>
+<br>
+<img id="cervati8" src="%file_root%custom/album/ambiente/cervati8.JPG" alt="" border="0" width="550">
+<br> <br>
+Cresta del Monte Cervati: il Santuario della Madonna della Neve 
+<br>
+<br>
+<br>
+<img id="cervati9" src="%file_root%custom/album/ambiente/cervati9.JPG" alt="" border="0" width="550">
+<br> <br>
+Il Santuario della Madonna della Neve 
+<br>
+<br>
+<br>
+<img id="cervati10" src="%file_root%custom/album/ambiente/cervati10.JPG" alt="" border="0" width="550">
+<br> <br>
+Il Santuario della Madonna della Neve: vista verso la cresta del Monte Cervati
+<br>
+<br>
+<br>
+<img id="cervati11" src="%file_root%custom/album/ambiente/cervati11.JPG" alt="" border="0" width="550">
+<br> <br>
+Ingresso della Grotta della Madonna della Neve 
+<br>
+<br>
+<br>
+<img id="cervati13" src="%file_root%custom/album/ambiente/cervati13.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Cervati: pareti rocciose
+<br>
+<br>
+<br>
+<img id="cervati14" src="%file_root%custom/album/ambiente/cervati14.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Cervati: veduta verso l'alto Vallo di Diano  
+<br>
+<br>
+<br>
+<img id="cervati15" src="%file_root%custom/album/ambiente/cervati15.JPG" alt="" border="0" width="550">
+<br> <br>
+La Nevera  
+<br>
+<br>
+<br>
+<img id="cervati16" src="%file_root%custom/album/ambiente/cervati16.JPG" alt="" border="0" width="550">
+<br> <br>
+La Nevera: ghiacciaio perenne  
+<br>
+<br>
+<br>
+--- End body ---

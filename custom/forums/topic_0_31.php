@@ -34,6 +34,13 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 20::stitico::21/01/2013 21.40.40::visible
 21::trippastrazza::22/01/2013 10.25.51::visible
 22::felice sciosciammocca::25/01/2013 22.14.51::visible
+23::AVANTI!!!!!!!!!!::15/03/2013 13.03.41::visible
+24::porco zio::10/10/2013 00.13.01::visible
+25::umiliato::11/10/2013 18.39.20::visible
+26::capofinish::07/11/2013 20.00.06::visible
+27::nicola m.::19/12/2013 18.50.15::visible
+28::Lupo::20/12/2013 11.35.54::visible
+29::imbroglioni::25/01/2014 22.00.38::visible
 
 [post_text_0]
 a caposele non solo non c'e'nessuno,ma per quei pochi che siamo rimasti viviamo in uno stato di precarieta'dovuta alla mancanza di occupazione in primix, e tutto il resto fa da cornice a questo problema. il calcio in un paese come caposele e' finito, nemmeno una terza categoria si fa piu',con un campo dal valore di 2 miliardi... che vergogna! calabritto ci ha superati! loro hanno una squadra, un campo, e una pista d'atletica, noi invece dobbiamo correre in mezzo al traffico o in campagna col rischio di essere aggrediti dai cani. spero che un giorno caposele rinasca, e quei pochi che ora sono piccoli abbino un futuro piu' roseo e no costretti a scappare da caposele per mancanza di TUTTO.
@@ -113,7 +120,69 @@ lista mir senato al 15esimo posto Gerardo Martino originario di caposele
 [post_text_22]
 caro ettore spatola,
 tu hai sempre sbagliato...stavolta hai sbagliatissimo
-hai sempre sbagliato...stavolta hai sbagliatissimo
 
 [post_text_23]
 non se ne puo' piu' di questo paese!!! finalmente arrivano l'elezioni!!! come al solito solo chiacchiere si e' fatto!!!stavolta la gente non verra' presa piu' per i fondelli..!!!questa volta anche un misero voto bisogna sudarselo!!!!!!!!!quindi cacciate le p.... ai prossimi successori!!! vogliamo rispetto e coerenza noi cittadini!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+[post_text_24]
+sono nervosissimo ,stufato,nauseato,schifato da questo paese cimitero che si chiama caposele!!! il mio progetto per caposele sarebbe quello di estendere il cimitero in tutto il paese dato che c'e' sempre meno spazio al camposanto tanto in giro si respira la stessa aria    di la...cioe' deserto allo stato puro!!! vergognateviiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+[post_text_25]
+concordo con te oramai Caposele e' un paese fantasma la sera sempre i soliti davanti ai bar a parlare sempre delle solite cose cari emigrati locali quando ritornate a natale troverete un paese incazzato nero che vi trattera' con la massima indifferenza e ostlita' non siete nessuno avete avuto solo fortuna e  raccomandazioni per trovare lavoro fuori,poi non si puo' non menzionare questa scadentissima amministrazione comunale che non e' riuscita in oltre 5 anni ad avviare un progetto autonomo di sviluppo nonche' qualche nuova oppurtunita' di lavoro duratura per i giovani rimasti in questo mortorio che oramai hanno perso ogni speranza di implusi postivi futuri.per voi esiste la solita parola Vergognaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Vergognateviiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+incompetentiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+
+[post_text_26]
+parecchie segnalazioni a caposele di cani dispersi...anche loro se ne scappano da caposele!!! passano gli anni,cambiano sindaci ma il risultato e' sempre piu' peggiore...tasso di disoccupazione specialmente giovanile in elevata crescita!!! la corsa e' sempre piu' una cosa occasionale...,giovani con prospettive calcistiche zero...,ragazze single carine zero...,sport invernali-hobby zero...,feste o divertimento zero...,prospettive per un futuro(lavoro,matrimonio,figli..)zero...,attivita'lavorative in netto calo..., ma dietro  tutto cio' ci sono i soliti raccomandati che pensano ai cavoli loro e no per il paese!!!
+
+[post_text_27]
+Vergognatevi falsi tifosi dell'Avellino in questi giorni vi siete riempiti la bocca della partita di ieri sera a Torino contro la Juventus nella vita la parola coerenza non fa parte del vostro vocabolario come mai al partenio tranne i soliti non vi abbiamo mai visti l'amore per una squadra di calcio si manifesta sempre non solo in alcune  serate speciali a  Caposele veri tifosi siamo in pochi una decina per poter parlare davanti ai bar sport  preferito a Caposele dovete seguire allo stadio almeno in casa il lupo per diversi anni altrimenti state zitti e pensate ad altro che il pallone in televisione per noi spettatori da stadio non ci appartiene.
+
+[post_text_28]
+&gt;Vergognatevi falsi tifosi dell'Avellino in questi giorni vi siete riempiti la bocca della partita di ieri sera a Torino contro la Juventus nella vita la parola coerenza non fa parte del vostro vocabolario come mai al partenio tranne i soliti non vi abbiamo mai visti l'amore per una squadra di calcio si manifesta sempre non solo in alcune  serate speciali a  Caposele veri tifosi siamo in pochi una decina per poter parlare davanti ai bar sport  preferito a Caposele dovete seguire allo stadio almeno in casa il lupo per diversi anni altrimenti state zitti e pensate ad altro che il pallone in televisione per noi spettatori da stadio non ci appartiene.<br>&gt;<br><br>Bravo Nicola! E' vero, i veri tifosi avellinesi sono pochi, gli altri tutti esibizionisti per caso...
+
+[post_text_29]
+non e' possibile che non si trova lavoro a caposele!!!!!!!! i datori di lavoro pensano solo ai cavoli loro pagandoti molto meno del dovuto solo perche'se ne approfittano della crisi...Cosi'non si puo'continuare!!! noi lavoratori vogliamo quello che ci tocca!!! i soldi, i contributi,le ferie..ecc. non esiste piu'niente!!! RIBELLIAMOCI!!!!!!!!!!! le giornate da cameriere andatele a fare voi il weekend a materdomini brutti stronzi!!! NOI VOGLIAMO LO STIPENDIO!!! VOGLIAMO DIRITTI E DOVERI!!! Noi siamo il futuro di questo stupido paese ma vogliamo RISPETTO!!!!!!!
+TTI E DOVERI!!! Noi siamo il futuro di questo stupido paese ma vogliamo RISPETTO!!!!!!!
+
+[post_text_30]
+Vergognatevi emigrati la passerella e' finita per pasqua adesso ve ne siete gia' scappati da Caposele ritornerete per agosto non abbiamo bisogno di voi siete solo dei buffoni raccomandati falsi e piu' fortunati di noi ad avere un lavoro fuori ma nella vita sociale non siete nessuno resterete per sempre incompiuti e isolati,speriamo che anche per noi rimasti in questo schifo di paese arrivino giorni migliori perche' cosi' la vita non ha veramente senso,scusate lo sfogo ma siamo veramente stanchi di essere presi in giro da questa falsa societa'.
+
+[post_text_31]
+questo governo con tutta la sua nazione mi fa schifo!!! 80 euro al mese non risolvono i problemi di tutti i giorni ma va ad aggravare il fatto che questo stupido stato aiuta sempre chi sta bene e finisce di ammazzare chi e' in difficolta' pura!!! se uno non concepisce uno stipendio statale e meglio che va a rubare perche'lo stato non ti aiuta, figuriamoci quei vermi schifosi ecclesiastici che parlano solo a vanvera... Dobbiamo ribellarci da questi porci burattini che ci amministrano, non dobbiamo piu' pagare niente ed usare la violenza contro questi dittatori!!! Napoli e'l'esempio dell'italia che vuol rinascere senza farsi calpestrare da queste merde con la cravatta!!! AVANTI!!!!!!!!
+gravare il fatto che questo stupido stato aiuta sempre chi sta bene e finisce di ammazzare chi e' in difficolta' pura!!! se uno non concepisce uno stipendio statale e meglio che va a rubare perche'lo stato non ti aiuta, figuriamoci quei vermi schifosi ecclesiastici che parlano solo a vanvera... Dobbiamo ribellarci da questi porci burattini che ci amministrano, non dobbiamo piu' pagare niente ed usare la violenza contro questi dittatori!!! Napoli e'l'esempio dell'italia che vuol rinascere senza farsi calpestrare da queste merde con la cravatta!!! AVANTI!!!!!!!!
+
+[post_text_32]
+ogni giorno qui a Caposele sempre la stessa vita di merda l'unica cosa che si puo' fare e' giocare a carte in un bar con persone cretine,inqualificabili,fallite,furbe,ignoranti e stupide adesso basta ma perche' siamo stati cosi' sfortunati a nascere in questa schifezza non e' giusto l'unica consolazione e' pensare a chi e' stato piu' sfortunato di me che nella vita ha problemi molto piu' seri che una misera partita a carte.Invidio tutti quei caposelesi che sono andati via di qua avete fatto benissimo qui il futuro per un giovane non esiste speriamo che anche io con un po' di fortuna riesco ad andare via perche' qui non sene puo' veramente piu' di avere a che fare con questo popolo di cafoni e ignoranti.
+
+[post_text_33]
+chicago magazine top doctors  <a href=http://modafinilachat.monfairepart.com/>acheter modafinil internet</a>  dr oz health tips
+
+[post_text_34]
+ma ci rendiamo conto la fine di questo paese neanche un caffe' sanno fare in questi bar vergognateviiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii ladri la professionalita' e' una parola che non vi appartiene qualificatevi prima di aprire un bar siamo un paese finito pieno di vecchi e falliti speriamo di scappare via e di non tornarci mai piu' in questo mortorio.
+
+[post_text_35]
+a salerno gia' hanno messo le luci d'artista per attirare l'attenzione e per guadagnare soldi mentre a caposele per una volta sono stati a dir poco geniali perche' anche in questo invalido,stupido e schifoso paese hanno trovato una nuova moda cioe' quella di mettere anche a caposele le luci d'artista e cio'sono state messe :al cimitero!!!!!!!!!!!!!!ahahahahahhhah che squallido paese!!!!!!!!!!  vergognateviiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii!!!!!!!!!!!!!!!!!!!! no agli emigrati!!!!!!!!!!!!statevene dove ve ne siete andati!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+[post_text_36]
+ogni volta che l'Avellino vince in questo paese tutti che chiedono e fanno finta di tenerci anche loro invece di fare solo chiacchiere nei bar tirate fuori i soldi e andate allo stadio Partenio altrimenti resterete per sempre un popolo di mediocri e incoerenti.
+
+[post_text_37]
+quincy medical group quincy il  <a href=http://danskfirmabors.dk/dk.html></a>  sharp rees stealy medical group
+
+[post_text_38]
+northwestern university internal medicine residency  <a href=http://diazepam.comunidades.net/>comprar diazepam sin receta</a>  aetna health insurance careers
+
+[post_text_39]
+walmart pharmacy portsmouth nh  <a href=http://duromine.aircus.com/>duromine australia</a>  target mail order pharmacy
+
+[post_text_40]
+piu' passano i giorni e piu' mi convinco di vivere in un paese di schifo e in cui non' c'e' veramente niente ma perche' abbiamo avuto questa maledetta sfortuna a nascere qui l'unica consolazione e' pensare a chi e' stato piu' sfortunato di noi.
+
+[post_text_41]
+vorrei esprimere un commento su questa estate Caposelese.Purtroppo siamo caduti veramente in basso non siamo capaci da anni di fare una serata soddisfacente sempre le solite festicciole scadenti e prive di significato.secondo me per ridare nuovo slancio agli eventi estivi si deve costituire un nuovo comitato fatto da giovani e persone nuove che hanno una mentalita' diametralmente diversa da coloro che negli ultimi 20 anni hanno organizzato il cartellone estivo e soprattutto ci vuole finalmente un'amministrazione comunale vicina e partecipe alla stesura del programma estivo cou un contributo economico rilevante.Come al solito se si vuole trascorrere una serata diversa alla ricerca di buona musica bisogna necessariamente spostarsi in altri paesi per assistere a concerti di artisti di nome non le solite tarantelle e batticulo che il nostro oramai paesello arretrato ci propone.
+
+[post_text_42]
+alliance for academic internal medicine  <a href=http://roxicodone.tribalpages.com/>Roxicodone</a>  family health center kalamazoo
+
+[post_text_43]
+Viviamo in un paese di falliti l'unica cosa che si puo' fare quando si esce a giocare a carte davanti ai bar per di piu' con gente ignorante,frustrata,vecchia,furba,cattiva.adesso basta ne abbiamo veramente le scatole piene ma percheì abbiamo avuto questa maledetta sfortuna a nascere in questo paese inesistente invidio chi ha avuto il coraggio di scappare da qui e costruirsi una nuova vita lontano avete fatto benissimo non vi siete persi nulla non ci ritornate piu' che qui si muore dentro di malinconia e depressione.infine una ultima critica la voglio come sempre rivolgere all'amministrazione comunale assente che in 8 anni di attivita' avete prodotto zero in tutto per voi esiste una sola parola Vergognateviiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiise avete un minimo di decenza dimettetevi che il popolo e' veramente stanco di sopportare questo mortorio in cui siamo sprofondati.

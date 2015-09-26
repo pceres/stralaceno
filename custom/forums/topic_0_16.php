@@ -1224,3 +1224,15 @@ L'anno 2012 sull'altopiano del Laceno si sono avuti circa 1600 mm di precipitazi
 Quantità leggermente inferiore alla media (2000-2500 mm).
 L'anno 2013 si è aperto con precipazioni tendenzialmente maggiori. Fino ad oggi, 5 aprile, si sono avuti 1070 mm di precipitazioni.
 Più in avanti ci saranno altri aggiornamenti sul trend precipitativo.
+mm di precipitazioni.
+Più in avanti ci saranno altri aggiornamenti sul trend precipitativo.
+
+[post_text_96]
+Si porta a conoscenza alla cittadinanza che il Comune di Caposele, per aiutare i castanicoltori al recupero della produzione di castagne e nel pieno rispetto dell’ambiente, effettuerà 10 lanci del Torymus sinensis (insetto antagonista al cinipide). Tali lanci copriranno l’intero territorio interessato dalla presenza del castagno.
+&nbsp;
+Giovedì 2 maggio alle ore 15,00 circa, presso la sede comunale, verranno fornite ulteriori spiegazioni sulla lotta al cinipide con la presenza della dott.sa Ambra Quacchia una delle maggiori esperte in Italia alla lotta al cinipide.
+&nbsp;
+&nbsp;
+L’Assessore alle Politiche Ambientali
+                                                                                                              - Angelo Ceres  -
+&nbsp;

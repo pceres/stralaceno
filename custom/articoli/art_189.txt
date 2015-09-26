@@ -1,0 +1,15 @@
+Autore::Amatori running sele
+Titolo::Allenamento collettivo aprile 2015
+--- Begin body ---
+<br>
+<p>Lo scorso 4 aprile si &egrave svolto un allenamento collettivo. Di seguito sono riportate le foto dell'evento:
+<br>
+<p>
+Le foto dell'edizione 2014 <a href="http://ars.altervista.org/album.php?anno=ALL.COLL.PASQUA15">QUI</a>
+<br>
+<p>
+<div align="center">
+<img id="z1" src="%file_root%custom/album/ALL.COLL.PASQUA15/img5.jpg" alt="" border="0" width="600">
+</div>
+<br>
+--- End body ---

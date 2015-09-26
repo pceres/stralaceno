@@ -1,0 +1,94 @@
+Autore::
+Titolo::Grotta Profunnata
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 3 gennaio 2014<br>
+<br>
+Oasi Senerchia - Vallone Trientale - Grotta Profunnata e ritorno (Senerchia)
+<br><br><br>
+<img id="profun1" src="%file_root%custom/album/ambiente14/profun1.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta Profunnata: ingresso Sud
+<br>
+<br>
+<br>
+<img id="profun2" src="%file_root%custom/album/ambiente14/profun2.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta Profunnata: vista dell'ingresso Sud dall'interno della Grotta
+<br>
+<br>
+<br>
+<img id="profun4" src="%file_root%custom/album/ambiente14/profun4.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta Profunnata: ingresso Est
+<br>
+<br>
+<br>
+<img id="profun3" src="%file_root%custom/album/ambiente14/profun3.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta Profunnata: vista dell'ingresso Est dall'interno della Grotta
+<br>
+<br>
+<br>
+<img id="profun5" src="%file_root%custom/album/ambiente14/profun5.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta Profunnata: parete esterna all'ingresso Est
+<br>
+<br>
+<br>
+<img id="profun6" src="%file_root%custom/album/ambiente14/profun6.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta Profunnata: vista della prima stanza della Grotta
+<br>
+<br>
+<br>
+<img id="profun7" src="%file_root%custom/album/ambiente14/profun7.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta Profunnata: interno
+<br>
+<br>
+<br>
+<img id="profun8" src="%file_root%custom/album/ambiente14/profun8.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta Profunnata: interno
+<br>
+<br>
+<br>
+<img id="profun9" src="%file_root%custom/album/ambiente14/profun9.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta Profunnata: interno
+<br>
+<br>
+<br>
+<img id="profun10" src="%file_root%custom/album/ambiente14/profun10.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta Profunnata: interno
+<br>
+<br>
+<br>
+<img id="profun11" src="%file_root%custom/album/ambiente14/profun11.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta Profunnata: in alto la cavità per l'accesso alla parte più interna della Grotta
+<br>
+<br>
+<br>
+<img id="profun12" src="%file_root%custom/album/ambiente14/profun12.JPG" alt="" border="0" width="550">
+<br> <br>
+Oasi Senerchia: confluenza Vallone Trientale e Torrente Acquabianca
+<br>
+<br>
+<br>
+<img id="profun13" src="%file_root%custom/album/ambiente14/profun13.JPG" alt="" border="0" width="550">
+<br> <br>
+Oasi Senerchia: fontane
+<br>
+<br>
+<br>
+<img id="profun14" src="%file_root%custom/album/ambiente14/profun14.JPG" alt="" border="0" width="550">
+<br> <br>
+Oasi Senerchia: Cascata dell'Acquabianca
+<br>
+<br>
+<br>
+--- End body ---

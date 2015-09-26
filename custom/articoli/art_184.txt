@@ -1,0 +1,18 @@
+Autore::proloco Caposele
+Titolo::Corsa dei tre campanili 2014
+--- Begin body ---
+<br>
+mercoledi 13 agosto si &egrave; svolta la "tre campanili" a Caposele. Con uno stile tutto nuovo, per la prima volta &egrave stata cambiata la data e leggermente anche il percorso, innanzitutto la partenza &egrave stata effettuata nella rimodernata piazza Sanit&agrave, rendendolo leggermente pi&ugrave lungo con un giro sul perimetro di caposele alla partenza ed uno prima dell'arrivo. Alla gara erano presenti 39 atleti, tra cui 22 caposelesi. A vincere &egrave stato Fiorillo Massimiliano con il tempo di 27'02", al secondo posto e primo caposelese si &egrave classificato Daniele Caprio con il tempo di 27'48".
+Di seguito la classifica generale di questa edizione:
+<br>
+<p>
+<p>
+<div align="center">
+<img id="z1" src="%file_root%custom/album/tre_campanili_2014/partenza.jpg" alt="caposele1" border="0" width="400"></div>
+<br>
+<p>
+<p>
+<div align="center">
+<img id="z1" src="%file_root%custom/album/tre_campanili_2014/classifica.jpg" alt="caposele" border="0" width="700"></div>
+<br>
+--- End body ---

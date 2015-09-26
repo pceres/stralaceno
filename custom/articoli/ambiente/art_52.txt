@@ -1,0 +1,82 @@
+Autore::
+Titolo::Acero Chiuso - Valle del Diavolo
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 1 novembre 2013<br>
+<br>
+Rio Zagarone, Acero Chiuso, Valle del Diavolo, Grienzi e ritorno (Calabritto)
+<br><br><br>
+<img id="vallediavolo1" src="%file_root%custom/album/ambiente/vallediavolo1.JPG" alt="" border="0" width="550">
+<br> <br>
+Acero Chiuso: vista del Vallone del Lupolo e della sommità di "Pezzacuorvu"
+<br>
+<br>
+<br>
+<img id="vallediavolo2" src="%file_root%custom/album/ambiente/vallediavolo2.JPG" alt="" border="0" width="550">
+<br> <br>
+Acero Chiuso: veduta del Piano dei "Pumi" e del Vallone del Lupolo
+<br>
+<br>
+<br>
+<img id="vallediavolo3" src="%file_root%custom/album/ambiente/vallediavolo3.JPG" alt="" border="0" width="550">
+<br> <br>
+Acero Chiuso: anfratto
+<br>
+<br>
+<br>
+<img id="vallediavolo4" src="%file_root%custom/album/ambiente/vallediavolo4.JPG" alt="" border="0" width="550">
+<br> <br>
+Acero Chiuso: vista della Grotta della Madonna del Fiume
+<br>
+<br>
+<br>
+<img id="vallediavolo5" src="%file_root%custom/album/ambiente/vallediavolo5.JPG" alt="" border="0" width="550">
+<br> <br>
+Acero Chiuso: la "tempa ru Arona"
+<br>
+<br>
+<br>
+<img id="vallediavolo6" src="%file_root%custom/album/ambiente/vallediavolo6.JPG" alt="" border="0" width="550">
+<br> <br>
+Acero Chiuso: le "tempe ru Lecco"
+<br>
+<br>
+<br>
+<img id="vallediavolo7" src="%file_root%custom/album/ambiente/vallediavolo7.JPG" alt="" border="0" width="550">
+<br> <br>
+Acero Chiuso: "li grari ru Lecco"
+<br>
+<br>
+<br>
+<img id="vallediavolo8" src="%file_root%custom/album/ambiente/vallediavolo8.JPG" alt="" border="0" width="550">
+<br> <br>
+Valle del Diavolo: cascata "Mulino ru Ializzi"
+<br>
+<br>
+<br>
+<img id="vallediavolo9" src="%file_root%custom/album/ambiente/vallediavolo9.JPG" alt="" border="0" width="550">
+<br> <br>
+Vista della Valle del Diavolo
+<br>
+<br>
+<br>
+<img id="vallediavolo10" src="%file_root%custom/album/ambiente/vallediavolo10.JPG" alt="" border="0" width="550">
+<br> <br>
+Valle del Diavolo: cascata "ru lu Furniddu"
+<br>
+<br>
+<br>
+<img id="vallediavolo11" src="%file_root%custom/album/ambiente/vallediavolo11.JPG" alt="" border="0" width="550">
+<br> <br>
+Valle del Diavolo: cascata "ru lu Furniddu"
+<br>
+<br>
+<br>
+<img id="vallediavolo12" src="%file_root%custom/album/ambiente/vallediavolo12.JPG" alt="" border="0" width="550">
+<br> <br>
+Cappella della Madonna di Grienzi
+<br>
+<br>
+<br>
+--- End body ---

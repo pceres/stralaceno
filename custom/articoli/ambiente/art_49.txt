@@ -1,0 +1,100 @@
+Autore::
+Titolo::Tuorno e Grotta degli Angeli
+--- Begin body ---
+<br>
+<div align="center">
+<br>Passeggiata del 13 ottobre 2013<br>
+<br>Rio Zagarone, Acero Chiuso, Grotta degli Angeli e rit. (Calabritto)
+<br><br><br>
+<img id="tuorno1" src="%file_root%custom/album/ambiente/tuorno1.JPG" alt="" border="0" width="550">
+<br> <br>
+Rio Zagarone nei pressi della Cascata del Tuorno
+<br>
+<br>
+<br>
+<br>
+<img id="tuorno2" src="%file_root%custom/album/ambiente/tuorno2.JPG" alt="" border="0" width="550">
+<br> <br>
+Cascata del Tuorno
+<br>
+<br>
+<br>
+<br>
+<img id="tuorno3" src="%file_root%custom/album/ambiente/tuorno3.JPG" alt="" border="0" width="550">
+<br> <br>
+Cascata del Tuorno - parte bassa
+<br>
+<br>
+<br>
+<br>
+<img id="tuorno4" src="%file_root%custom/album/ambiente/tuorno4.JPG" alt="" border="0" width="550">
+<br> <br>
+Cascata del Tuorno - parte centrale
+<br>
+<br>
+<br>
+<br>
+<img id="tuorno5" src="%file_root%custom/album/ambiente/tuorno5.JPG" alt="" border="0" width="550">
+<br> <br>
+Cascata del Tuorno - parte alta
+<br>
+<br>
+<br>
+<br>
+<img id="tuorno6" src="%file_root%custom/album/ambiente/tuorno6.JPG" alt="" border="0" width="550">
+<br> <br>
+Cascata del Tuorno - parte alta
+<br>
+<br>
+<br>
+<br>
+<img id="tuorno7" src="%file_root%custom/album/ambiente/tuorno7.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta "Bardana"
+<br>
+<br>
+<br>
+<br>
+<img id="tuorno8" src="%file_root%custom/album/ambiente/tuorno8.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta degli Angeli 
+<br>
+<br>
+<br>
+<br>
+<img id="tuorno9" src="%file_root%custom/album/ambiente/tuorno9.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta degli Angeli 
+<br>
+<br>
+<br>
+<br>
+<img id="tuorno10" src="%file_root%custom/album/ambiente/tuorno10.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta degli Angeli 
+<br>
+<br>
+<br>
+<br>
+<img id="tuorno11" src="%file_root%custom/album/ambiente/tuorno11.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta degli Angeli 
+<br>
+<br>
+<br>
+<br>
+<img id="tuorno12" src="%file_root%custom/album/ambiente/tuorno12.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta degli Angeli 
+<br>
+<br>
+<br>
+<br>
+<img id="tuorno13" src="%file_root%custom/album/ambiente/tuorno13.JPG" alt="" border="0" width="550">
+<br> <br>
+Acero Chiuso con al centro la Grotta degli Angeli 
+<br>
+<br>
+<br>
+<br>
+--- End body ---

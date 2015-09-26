@@ -1,12 +1,11 @@
-Autore::
+Autore::Amatori running sele
 Titolo::Foto Flash ARS
 --- Begin body ---
 <br>
+<h2 align="center">Allenamento collettivo sabato 4 aprile</h2>
+Sabato 4 aprile gli amatori running sele invitano tutti gli interessati a trascorrere una giornata all'insegna dello sport ad aggregarsi al gruppo. L' incontro &egrave previsto per le ore 16.00 al bosco difesa oppure se sprovvisti di mezzi di trasporto, l'incontro &egrave previsto per le ore 15.40. Di seguito i dettigli sull' evento:
+<p>
 <div align="center">
-<img id="" src="%file_root%custom/album/FotoFlash/Terni2013.jpg" alt="" border="0" width="450">
-<br><br>
-24.03.2013 - Carmine Calvanese impegnato nelle prime fasi della Maratonina di Terni.<br><br>
-</div>
-<i>Le altre foto flash le trovate <a href="album.php?anno=FotoFlash">qui</a>.<br>
-</b></i>
+<img id="z1" src="%file_root%custom/album/FotoFlash/allenament2015.jpg" alt="stralaceno" border="0" width="700"></div>
+<br>
 --- End body ---

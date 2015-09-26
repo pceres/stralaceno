@@ -1,0 +1,19 @@
+Autore::
+Titolo::XIV Agropoli Half Marathon
+--- Begin body ---
+<br>
+Domenica 28 aprile 2013 si &egrave; disputata la XIV edizione della Agropoli Half Marathon, la gara podistica di 21,097 Km su strada che si svolge nei Comuni di Agropoli e Capaccio
+ con partenza ed arrivo in Agropoli.<br><br>
+La mezza maratona di Agropoli &egrave; diventata un punto di riferimento per i tantissimi atleti, soprattutto professionisti, che vi prendono parte.<br>
+Lo scenario in cui si svolge &egrave; altamente suggestivo: dall’acropoli arroccata ai templi di Paestum e all’antica Poseidonia.<br><br>
+<b>L'ARS &egrave; stata rappresentata da 3 atleti: <br>
+GIUSEPPE CETRULO (numero 734) che ha chiuso la gara in 90° posizione con il tempo di 1h 24' 33'' (real time 1h 24' 09'')<br>
+MAURO LOSCO (numero 1076) giunto 277° in 1h 31' 41'' (real time 1h 31' 03'')<br>
+DONATELLO CIRILLO (numero 1127) classificatosi 698° in 1h 42' 06'' (real time 1h 41' 29'')<br><br></b>
+1736 gli arrivati regolarmente al traguardo.<br>
+<br>
+<p>
+<div align="center">
+<img id="cetrulo" src="%file_root%custom/album/varie/agr13_1.jpg" alt="Cetrulo Giuseppe" border="0" width="550"></div>
+<br>
+--- End body ---

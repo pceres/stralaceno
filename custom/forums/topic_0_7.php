@@ -926,3 +926,8 @@ E’ davvero squallido scrivere queste porcate, è davvero squallido scrivere quest
 &nbsp;
 Colgo l’occasione per invitare tutti coloro che hanno un pò di tempo e voglia a partecipare alle attività dell’ARS sia a livello podistico che organizzativo (No perditempo…vedi ” cap.finish”)
 &nbsp;
+(No perditempo…vedi ” cap.finish”)
+&nbsp;
+
+[post_text_156]
+ma quando le mettete le fote della stralaceno 2014 tra poco si fa la prossima edizione e ancora niente ah cara ars stai andando sempre indietro qualche anno fa  dopo qualche settimana gia' erano presenti commenti e foto dell'edizione.

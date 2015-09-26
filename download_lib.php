@@ -237,7 +237,7 @@ $script_name = $_SERVER['SCRIPT_NAME'];
 $resource_link = "$script_name?resource_type=$folder_item_type&amp;resource_id=$folder_item_name";
 
 echo "<dl>";
-show_download_item_info($folder_item,&$fulltree,$resource_link);
+show_download_item_info($folder_item,$fulltree,$resource_link);
 
 if ($admin_mode)
 {
@@ -297,7 +297,7 @@ $script_name = $_SERVER['SCRIPT_NAME'];
 $resource_link = "$script_name?resource_type=$folder_item_type&amp;resource_id=$folder_item_name";
 
 echo "<dl>";
-show_download_item_info($folder_item,&$fulltree,$resource_link);
+show_download_item_info($folder_item,$fulltree,$resource_link);
 
 echo "<dd class=\"dm_taskbar\">";
 
@@ -363,7 +363,7 @@ $script_name = $_SERVER['SCRIPT_NAME'];
 $resource_link = "$script_name?resource_type=$folder_item_type&amp;resource_id=$folder_item_name";
 
 echo "<dl>";
-show_download_item_info($folder_item,&$fulltree,$resource_link);
+show_download_item_info($folder_item,$fulltree,$resource_link);
 
 echo "<dd class=\"dm_taskbar\">\n";
 

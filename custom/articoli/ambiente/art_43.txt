@@ -1,0 +1,87 @@
+Autore::
+Titolo::Vallone della Neve - La Savina
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 01 settembre 2013<br>
+<br>Vado d'o Cierro, Raio della Ferriera, Vallone della Neve  - Croci di Acerno, La Savina (Montella, Acerno)
+<br><br><br>
+<img id="savina1" src="%file_root%custom/album/ambiente/savina1.JPG" alt="" border="0" width="550">
+<br> <br>
+Raio della Ferriera: vista dell'Accelica Nord e, sulla destra, del Vallone della Neve
+<br>
+<br>
+<br>
+<img id="savina2" src="%file_root%custom/album/ambiente/savina2.JPG" alt="" border="0" width="550">
+<br> <br>
+Masseria Marinari
+<br>
+<br>
+<br>
+<img id="savina3" src="%file_root%custom/album/ambiente/savina3.JPG" alt="" border="0" width="550">
+<br> <br>
+Porcino Gatta
+<br>
+<br>
+<br>
+<img id="savina4" src="%file_root%custom/album/ambiente/savina4.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone della Neve
+<br>
+<br>
+<br>
+<img id="savina5" src="%file_root%custom/album/ambiente/savina5.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone della Neve
+<br>
+<br>
+<br>
+<img id="savina6" src="%file_root%custom/album/ambiente/savina6.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone della Neve
+<br>
+<br>
+<br>
+<img id="savina10" src="%file_root%custom/album/ambiente/savina10.JPG" alt="" border="0" width="550">
+<br><br> 
+Croci di Acerno: vista dell'Accellica Sud
+<br>
+<br>
+<br>
+<img id="savina11" src="%file_root%custom/album/ambiente/savina11.JPG" alt="" border="0" width="550">
+<br> <br>
+Croci di Acerno: veduta della Savina e, in fondo, l'Accellica Sud
+<br>
+<br>
+<br>
+<img id="savina12" src="%file_root%custom/album/ambiente/savina12.JPG" alt="" border="0" width="550">
+<br> <br>
+La Savina: vista della conca di Acerno
+<br>
+<br>
+<br>
+<img id="savina13" src="%file_root%custom/album/ambiente/savina13.JPG" alt="" border="0" width="550">
+<br> <br>
+La Savina: vista dell'Accellica
+<br>
+<br>
+<br>
+<img id="savina14" src="%file_root%custom/album/ambiente/savina14.JPG" alt="" border="0" width="550">
+<br> <br>
+La cresta sud-est della Savina e l'Accellica
+<br>
+<br>
+<br>
+<img id="savina15" src="%file_root%custom/album/ambiente/savina15.JPG" alt="" border="0" width="550">
+<br> <br>
+La Savina vista dalla sua cresta sud-est
+<br>
+<br>
+<br>
+<img id="savina16" src="%file_root%custom/album/ambiente/savina16.JPG" alt="" border="0" width="550">
+<br><br>
+Veduta dell'Accellica dalla cresta sud-est della Savina
+<br>
+<br>
+<br>
+--- End body ---

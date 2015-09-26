@@ -350,6 +350,23 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 336::nic.m.::20/02/2013 18.23.41::visible
 337::nic.m.::28/02/2013 19.12.27::visible
 338::stanco::18/04/2013 13.08.03::visible
+339::perplesso::24/04/2013 13.22.47::visible
+340::mexico::03/06/2013 12.21.20::visible
+341::Pasquale::04/06/2013 21.49.15::visible
+342::offeso e umiliato::07/06/2013 13.36.15::visible
+343::FUTURO::14/06/2013 02.19.19::visible
+344::approvo in pieno::14/06/2013 13.03.02::visible
+345::depresso e confuso::31/10/2013 12.14.24::visible
+346::riflessione::23/12/2013 12.39.06::visible
+347::inferiore::23/12/2013 16.28.01::visible
+348::disgustato::04/02/2014 12.31.08::visible
+349::disperato::05/02/2014 19.21.34::visible
+350::critico::18/02/2014 12.47.51::visible
+351::stanco e deluso::04/03/2014 12.30.04::visible
+352::attento osservatore::19/03/2014 11.48.41::visible
+353::scocciato::27/03/2014 19.56.36::visible
+354::stanco e deluso::06/04/2014 13.04.03::visible
+355::nicola melillo::04/06/2014 18.31.07::visible
 
 [post_text_0]
 Fermate Nicola Melillo con questa stralaceno: anche i muri di materdomini e caposele non ne possono più.
@@ -2035,3 +2052,76 @@ in questo paese ci sono tante persone che credono di essere tifosi dell'Avellino
 
 [post_text_338]
 Vergognaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Caposele e' un paese finito e pieno di persone false e stupide,ignoranti e arretrati in un altro paese chissa' qunte mazzate avevate preso la vostra fortuna e 'che siete nati in questo paesaccio ridicolo speriamo in una giustizia divina siete e resterete un popolo di incapaci e fessi.
+
+[post_text_339]
+siamo stanchi di essere presi in giro da quei soliti personaggi che appaiono a Caposele come le lucciole d'estate e pensano  di essere quelli che che possono fare i professori davanti ai bar la verita' sacrosanta e' che siete stati solo piu' fortunati di noi a trovare lavoro fuori e sieti partiti apprezzo il vostro coraggio ma resterete per sempre dei paesani caposelesi basta noi che viviamo in questo maledetto e arretrato paese dobbiamo recitare il ruolo di guida e' solo uno sfogo personale in quanto veremente incazzato e stanco di continuare una vita inutile costernata solo di delusioni e mai di cose belle e positive.
+
+[post_text_340]
+Grande Paolo Viscardi, non tanto per la corsa, ma per il fatto di essere in Messico, all'avventura...
+ah...comunque Paolo vedi che cercano 36000 informatici in Svizzera pagati 5600 euro al mese...pensaci
+
+[post_text_341]
+Bravo Paolo, hai portato i colori dell'ARS fino a Città del Messico!
+
+[post_text_342]
+Viviamo in un paese dove negli ultimi 5 anni non si e' fatto niente,l'amministrazione e' stata a dir poco inesistente e la gente li ha di nuovo votati addirittura con piu' forza poi non vi lamentate che i giovani sono  costretti tutti a scappare da questo paese ma ci rendiamo conto che con la risorsa acqua e il santuario dovevamo essere tutti impiegati ed invece niente io credo e sono convinto che in un qualsiasi paese normale d' italia la lista cuore avrebbe perso regolarmente ed invece qui stravince senza fare niente cari caposelesi se avete dignita' e cosienza Verognatevi.................................................vergogna...........................................................................siamo e resteremo un pese fallito e pieno solo di ignoranti e raccomandati.
+
+[post_text_343]
+vergognateviiiiiiiiiiii!!!!!!!!!!!!!!!!! siamo stufi noi giovani di aspettare davanti ad un bar ogni 5 anni che cambi qualcosa!!!mai niente!!!lavorano sempre gli stessi!!!!!!tutti pensano alle loro sacche ma nessuno si preoccupa del collettivo in generale!!!!!tutti sbandati,finiti,senza futuro,senza prospettive...qui ci vuole un solo grido:VERGOGNATEVIIIIII!!!!!VERGOGNATEVIIIIIIIIII!!!!!!!!!!!!!!!VERGOGNATEVIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII!!!!!!!!!!!!
+
+[post_text_344]
+pure io mi unisco e per voi c'e' un solo grido:Vergognaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa Fallitiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii Ignorantiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii Ridicoliiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+e per tutti gli emigranti che ogni tanto vengona afare i buffoni in paese non siente nessuno siete stati solo dei raccomandati e fortunati.
+
+[post_text_345]
+ieri sera si e' capito che politica e pallone sono la stessa cosa cioe' solo business e interessi mediatici e commerciali ma come si fa a non fischiare un rigore sacrosanto alla Fiorentina e per di piu' ammonizione di Cuadrado che lo costringera' a saltare la sfida di sabato prossimo con il Milan chi ha visto la partita non puo' non negare che il Napoli ha vinto con 2 tiri in porta c'e' stata una sola squadra in campo la Fiorentina ma molte volte nel calcio non vincono i piu' forti e purtroppo al Franchi e' successo questo.La gente sportiva e amante di questo calcio moderno pieno di contraddizioni si e' allontanata dagli stadi e ha fatto bene perche' non si possono fare sacrifici economici per amore della propria citta' e squadra e poi puntualmente assistere  a decisioni arbitrali vergognose che compromettono i risultati finali e che pesano sulla classifica,a questo punto mi sorge una domanda spontanea ma che li  fanno a  fare i campionati specialmente in serie A quando gia'si sa quali sono le squadre che lotteranno per lo scudetto.io resto convinto che la fine del pallone sono state le scommesse sportive e una classe arbitrale ridicola e vergognosa che ogni domenica commettono errori e sviste che falsano  i campionati,sinceramente io sto maturando l'idea che coltivavo gia' da tempo di non seguire piu' la serie A ma tifare e andare allo stadio sono per l'Avellino che e' il nostro orgoglio di essere Irpini nel sangue perche' sono nauseato e schifato del calcio moderno.Al momento attuale in cui siamo arrivati si possono seguire solo le Nazionali con la speranza che almeno quelle siano partite giocate realmente e vince chi dimostra la propria forza e superiorita' in campo scusate lo sfogo ma non se ne puo' piu' di questa societa' falsa e in cui i valori si sono perduti definitivamente.Nicola melillo
+
+[post_text_346]
+E poi come al solito ci sono quelli che amano il lupo e si mettono in macchina anche da soli e vanno allo stadio a tifare Avellino e quelli che a Caposele sono la maggioranza discutono davanti ai bar o dai barbieri non siete nessuno siete solo dei chiacchieroni incoerenti e privi di mentalita' ultras che ne sapete voi l'emozione che ci regala lo stadio ogni  volta che ci mettiamo piede resterete per sempre inferiori  culturalmente Vergognateviiiiiiiiiiiiiiiiiiiiii se avete un minimo di dignita'.
+
+[post_text_347]
+ultras superiori culturalmente?
+ahahaha...:-)
+caro tifoso sei un grande
+
+[post_text_348]
+Vergognateviiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii emigrati Caposele non vive 2 settimane a Natale ma tutto l'anno siete stati solo fortunati.Mi preme lanciare una frecciatina anche a chi non si fa mai vedre in giro e crede che i giovani si mettono in macchina e vanno  a Laceno a fare un allenamento podistico le cose si conquistano non  si ottengono per caso.Farina dimettiti dove sono i campi di calcetto e il rifacimento del campo Liloia per non parlare delle tante cose dette ma mai realizzate almeno fai un po' di pulizia nelle strade di Materdomini che e' diventata una discarica a cielo aperto.Questo e' diventato un paese fantasma dove regnano solo sporcizia e incivilta' intellettuale e morale.ma perche' siamo stati cosi' sfortunati a nascere in questo degrado del sud peccato che la vita e' una altrimenti non avremmo sprecato  giornate in questo schifo e mortorio.
+
+[post_text_349]
+purtroppo siamo nel 2014 ma miglioramenti non ce ne sono...ormai non riesco piu' a far differenza fra animali ed essere umani. Siamo abbandonati in una valle triste e depressa senza ogni minima speranza di miglioramento. Dobbiamo solo pensare a come sopravvivere senza pensare a tutto il resto che fa parte della vita. I bar sono sempre piu'vuoti, la gente non ha soldi, c'e'chi non arriva a fine mese e c'e'chi inizia a chiedere l'elemosina... CHE SCHIFO!!! si sente tantissimo questo disagio e penso che andando sempre piu'avanti diventera'una situazione sempre piu'invalidante. Finche'c'e'tempo l'unico consiglio che posso dare e' di scappare da questo paese invalidante!!!Al posto di abbellire caposele che e'ormai vuota, sarebbe meglio se quei quattro soldi che ci sono a disposizione per il paese vengano distribuiti ad ogni famiglia per vivere meglio!!!
+
+[post_text_350]
+siamo nel 2014 e la mentalita'dovrebbe essere evoluta rispetto a 50 anni fa... i consigli dei cosiddetti genitori, parenti ecc. hanno stufato!!! vogliamo nuovi posti di lavoro per i giovani e no che debbano lavorare sempre la classe anni 50-60!!! loro sono anziani, dovrebbero stare con un bastone davanti ai bar e dovrebbero star zitti perche'non se ne puo'piu'della loro squallida voce!!! vogliamo gente nuova sui posti di lavoro e no part time come sempre giusto per illuderli un po'!!!
+
+[post_text_351]
+Ma  ci rendiamo conto che viviamo in una nazione che ti fa studiare e poi non ti fa lavorare e guadagnare onestamente politici che ci avete governato in tutti questi anni andatevene siete solo dei buffoni e parassiti che non avete saputo affrontare e risolvere un solo problema che interesseva gli italiani.Una nazione che non offre lavoro ai giovani e' destinata a morire e spegnersi lentamente come sta succedendo invece di usufruire dei privilegi(auto blu,pensioni d'oro,stipendi da favola)investite nel lavoro e crescita economica.purtroppo moriremo e la nostra povera  Italia sara' sempre la stessa fatta di raccomandati,disonesti,furbi.imbroglioni,ignoranti,ladri,incivili.Che  tristezza dire queste parole ma e' questa la realta' attuale.
+
+[post_text_352]
+e poi ci sono quelli che in questo paese girano di bar in bar chiedendo ma venerdi' la fai vedere la partita dell'Avellino vergogna io a differenza vostra gia' mi sono fatto il biglietto e saro' al Partenio smettetela di fare finta che siete interessati all'Avellino crescete che ancora  non si capisce per che squadra fate il tifo decidetevi una volta per tutte vi rispondo senza offendervi con un coro che facciamo in curva sud L'Avellino siamo noi,L'Avellino siamo noi noi allo stadio voi seduti per sempre davanti a una televisione a fare gli spettatori passivi ma si sa nella vita ci sono i chiacchieroni e coloro che fanno i fatti.
+
+[post_text_353]
+la gente di una certa eta'non si puo' piu' sentire parlare... io sono ateo perche'ho un cervello, ma se esistesse veramente dio farebbe morire questi poveri malati di mente che danno solo fastidio in questo cimitero di paese chiamato caposele!!! io spero solo nella buona sorte ma piu' si va avanti e piu'mi sa che fra poco non ci riconosceremo piu' come umani ma come animali disposti a tutto pur di sopravvivere!!! caposele mi fai schifoooo!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+[post_text_354]
+cosa ce ne facciamo di una vita in cui ti alzi la mattina e non vedi l'ora che arrivi la sera perche' non sai cosa fare,invece avremmo dovuto vivere in una societa' che al primo posto ci avesse dato la possibilita' di lavorare non in questa maledetta Italia che ti fa studiare e poi non ti garantisce un posto di lavoro dignitoso Politici corrotti,buffoni,ignoranti,ladri,falsi,furbi andatevene dimettetevi se avete un minimo di dignita' morale avete infangato e distrutto una delle nazioni piu' gloriose e potenti del mondo se esiste una giustizia divina dovete fare tutti una brutta fine.
+
+[post_text_355]
+Che tristezza tutti i giorni sempre uguali in questo stupido e arretrato paesello a 35 anni l'unica cosa che c'e' da fare e' una partita a carte nei soliti bar ritrovo solo  per gente vecchia e finita ma peche' siamo stati cosi' sfortunati a nascere qui.E poi ci sono quelli che ogni tanto ritornano non si  fanno ne' sentire ne' vedere siete e resterete per sempre gente falsa e a cazzi vostri. Concludo  dicendo Stanchi di questa realta' deprimente l'unica cosa da fare se vogliamo costruire un futuro diverso e' fuggire e trovare lavoro fuori con la convinzione di non ritornare piu' a Caposele.
+e per sempre gente falsa e a cazzi vostri. Concludo  dicendo Stanchi di questa realta' deprimente l'unica cosa da fare se vogliamo costruire un futuro diverso e' fuggire e trovare lavoro fuori con la convinzione di non ritornare piu' a Caposele.
+
+[post_text_356]
+Vergognatevi organizzatori dell'estate caposelese ancora una volta avete prodotto zero non c'e' stata una serata degna di essere trascorsa fuori con gioia,entusiasmo ed allegria sempre le solite festicciole davanti ai bar con la solita bevanda in mano.Sono andati bene solo i proprietari dei bar che hanno guadagnato dato che ai gruppi gli hanno dato 4 soldi ma sfido chiunque a dire che la gente si e' divertita.Cari organizzatori con i soldi che avete speso in tutto il mese di agosto si organizzava una sola serata tipo S.Lorenzo e si chiamava un Cantante discreto di nome che accontentava sia i giovani che gli adulti e almeno per una sera Caposele si distingueva dagli altri paesi limitrofi che non hanno fatto niente.Io sono convinto che c'e' una sola via per uscire da questo schifo estivo e cioe' rifondare un nuovo comitato feste composto pero' questa volta da persone intelligenti grintose volenterose competenti che ridiano a questo paese la voglia di sentirsi ancora vivo anche solo per l'estate in quanto sono anni che  assiastiamo a estati deprimenti e vergognose.
+
+[post_text_357]
+ma ci rendiamo conto che in tutte le sfide della coppa italia si sono visti errori arbitrali gravi che hanno compromesso i risultati come volevasi dimostrare sono state favorite le squadre piu' grandi,io mi chiedo allora cosa le fanno a fare le gare quando gia' si sa che devono andare avanti le migliori vergognatevi lega calcio e classe arbitrale
+sono anni oramai che allo stadio non ci dovrebbe andare piu' nessuno cosi' vediamo se poi si permettono i calciatori  e le societa' a falsare incontri.Il  calcio come la politica in Italia e' allo sbando perche' regna solo il business e le scommesse sportive.
+
+[post_text_358]
+VErgognateviiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+cittadini di Caposele resterete per sempre un popolo di mediocri e ignoranti nella storia di 30 anni dal terremoto non abbiamo mai costruito niente di nuovo siamo un paesello arretrato culturalmente in cui sono rimasti solo persone fallite e depresse e in cui l'unico svago per chi esce di casa e' andare nei soliti bar a bere birra e giocare a carte per di piu' non avendo neanche le regole e l'educazione del saper stare con gli altri in maniera onesta senza fare sempre i furbetti,ah povero Caposele non ti resta che piangere.
+
+[post_text_359]
+Vergognatevi in questo paese l'unica cosa da fare e' giocare a carte con i soliti ignoranti,stupidi,furbi,falliti.Che vita schifosa ma perche' siamo stati cosi' sfortunati a nascere in questo paese peccato che abbiamo solo una vita l'unica consolazione e' pensare a chi e' stato piu' sfortunato di noi.
+
+[post_text_360]
+l'unica soluzione e' andarsene in una grande citta' dove tutto cio' che ci e' sempre mancato in questo paese invalidante lo troveremo li'!!! caposele e' ormai un paese per anziani e sfigati che si accontentano di vivere la loro esistenza senza aver mai provato il vero senso della bellezza della vita. detto cio'bisogna solo agire senza vivere ormai di speranze perche' ci troveremo alla vecchiaia di una vita passata davanti ai bar a sperare che qualcosa sarebbe successo di positivo nel nostro fottutissimo paese scomparso anche sulla cartina geografica!!!

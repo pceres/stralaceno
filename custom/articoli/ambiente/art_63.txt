@@ -1,0 +1,81 @@
+Autore::
+Titolo::Toppa del Castello
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 15 febbraio 2014<br>
+<br>Piano Bardiglia, Pizzo Ferrella, Toppa del Castello, Vallone Puzunito, Bosco di San Lorenzo, Piano Bardiglia (Acerno)
+<br> <br>
+<img id="toppa1" src="%file_root%custom/album/ambiente14/toppa1.JPG" alt="" border="0" width="550">
+<br><br>
+Piano Bardiglia
+<br>
+<br>
+<br>
+<img id="toppa2" src="%file_root%custom/album/ambiente14/toppa2.JPG" alt="" border="0" width="550">
+<br><br>
+Sorgenti di Bardiglia
+<br>
+<br>
+<br>
+<img id="toppa3" src="%file_root%custom/album/ambiente14/toppa3.JPG" alt="" border="0" width="550">
+<br><br>
+Sorgenti di Bardiglia
+<br>
+<br>
+<br>
+<img id="toppa4" src="%file_root%custom/album/ambiente14/toppa4.JPG" alt="" border="0" width="550">
+<br><br>
+Toppa al Castello: grotta alla base della parete di roccia
+<br>
+<br>
+<br>
+<img id="toppa5" src="%file_root%custom/album/ambiente14/toppa5.JPG" alt="" border="0" width="550">
+<br><br>
+Toppa al Castello: parete di roccia
+<br>
+<br>
+<br>
+<img id="toppa6" src="%file_root%custom/album/ambiente14/toppa6.JPG" alt="" border="0" width="550">
+<br><br>
+Toppa al Castello: vista di Pizzo Ferrella e, sullo sfondo, il Monte Cervialto
+<br>
+<br>
+<br>
+<img id="toppa7" src="%file_root%custom/album/ambiente14/toppa7.JPG" alt="" border="0" width="550">
+<br><br>
+Toppa al Castello: veduta del Vallone Puzunito
+<br>
+<br>
+<br>
+<img id="toppa8" src="%file_root%custom/album/ambiente14/toppa8.JPG" alt="" border="0" width="550">
+<br><br>
+Toppa al Castello: vista di Acerno e dell'Accellica Sud
+<br>
+<br>
+<br>
+<img id="toppa9" src="%file_root%custom/album/ambiente14/toppa9.JPG" alt="" border="0" width="550">
+<br><br>
+Toppa al Castello: veduta del Monte Raione e del Monte Castello di Olevano
+<br>
+<br>
+<br>
+<img id="toppa10" src="%file_root%custom/album/ambiente14/toppa10.JPG" alt="" border="0" width="550">
+<br><br>
+Toppa al Castello: resti di mura
+<br>
+<br>
+<br>
+<img id="toppa11" src="%file_root%custom/album/ambiente14/toppa11.JPG" alt="" border="0" width="550">
+<br><br>
+Vista dei torrioni rocciosi di Toppa del Castello
+<br>
+<br>
+<br>
+<img id="toppa12" src="%file_root%custom/album/ambiente14/toppa12.JPG" alt="" border="0" width="550">
+<br><br>
+Vallone Puzunito
+<br>
+<br>
+<br>
+--- End body ---

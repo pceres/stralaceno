@@ -1,0 +1,262 @@
+#
+# Formato riga [Attributi]:
+# nome::stato::autenticazione::data_inizio_giocate::data_fine_giocate::data_presentazione_risultati
+#	nome
+#	stato				: attiva
+#					: sospesa
+#					: invisibile
+#
+#	autenticazione			: no_auth
+#					: user
+#					: key
+#
+#	data_inizio_giocate		: hh:mm gg/mm/aaaa
+#	data_fine_giocate		: hh:mm gg/mm/aaaa
+#	data_presentazione_risultati	: hh:mm gg/mm/aaaa
+#
+[Attributi]
+Sondaggio Mondiali 2014 - ponderazione semplice::attiva::no_auth::12:00 01/02/2014::24:00 11/06/2014::00:05 12/06/2014
+
+#
+# msg1::msg2::msg3
+#	msg1: visualizzato prima dell'apertura delle giocate
+#	msg2: visualizzato durante la fase di giocata
+#	msg3: visualizzato dopo la chiusura delle giocate
+#
+[msg_date]
+Il sondaggio non &egrave; ancora aperto. Potrai giocare dalle 12:00 del 01/02::Si pu&ograve; giocare fino alle 24:00 del 11/06::Le giocate sono chiuse, la classifica sar&agrave; aggiornata dopo la disputa di ogni turno (ottavi, quarti, semifinali e finale).
+
+# Formato riga [keyfiles]:
+# nome::caption::num_keys
+#	nome		: nome del gruppo di appartenenza
+#	caption		: testo visualizzato sui biglietti
+#	num_keys	: numero di chiavi costituenti il file
+#	num_chars	: numero di caratteri per ogni chiave
+#
+[keyfiles]
+a pagamento::a pagamento::500::12
+gratuito::per la gloria::300::12
+
+#
+# Messaggio visualizzato quando fallisce l'autenticazione (valida tranne che per l'autenticazione no_auth)
+#
+[msg_auth_failed]
+La chiave inserita non &egrave; corretta. Per ottenerne una valida rivolgersi ai soci ARS.
+
+#
+# Messaggio visualizzato sui biglietti stampati
+#
+[msg_ticked_info]
+Gioca sul sito: http://ars.altervista.org
+
+#
+# Formato riga [Domande]:
+# testo_domanda::tipo::gruppo_risposte::ripetibile
+#	testo_domanda
+#	tipo				: fixed
+#					: free_number
+#					: free_string
+#
+#	gruppo_risposte			: ci deve essere una proprieta' del tipo [gruppo_risposte]
+#	ripetibile			: ripetibile
+#					: non_ripetibile
+#
+[Domande]
+Qualificato ottavi di finale::fixed::Gruppo qualificati ottavi::ripetibile
+Qualificato ottavi di finale::fixed::Gruppo qualificati ottavi::ripetibile
+Qualificato ottavi di finale::fixed::Gruppo qualificati ottavi::ripetibile
+Qualificato ottavi di finale::fixed::Gruppo qualificati ottavi::ripetibile
+Qualificato ottavi di finale::fixed::Gruppo qualificati ottavi::ripetibile
+Qualificato ottavi di finale::fixed::Gruppo qualificati ottavi::ripetibile
+Qualificato ottavi di finale::fixed::Gruppo qualificati ottavi::ripetibile
+Qualificato ottavi di finale::fixed::Gruppo qualificati ottavi::ripetibile
+Qualificato ottavi di finale::fixed::Gruppo qualificati ottavi::ripetibile
+Qualificato ottavi di finale::fixed::Gruppo qualificati ottavi::ripetibile
+Qualificato ottavi di finale::fixed::Gruppo qualificati ottavi::ripetibile
+Qualificato ottavi di finale::fixed::Gruppo qualificati ottavi::ripetibile
+Qualificato ottavi di finale::fixed::Gruppo qualificati ottavi::ripetibile
+Qualificato ottavi di finale::fixed::Gruppo qualificati ottavi::ripetibile
+Qualificato ottavi di finale::fixed::Gruppo qualificati ottavi::ripetibile
+Qualificato ottavi di finale::fixed::Gruppo qualificati ottavi::ripetibile
+Qualificato quarti di finale::fixed::Gruppo qualificati ottavi::ripetibile
+Qualificato quarti di finale::fixed::Gruppo qualificati ottavi::ripetibile
+Qualificato quarti di finale::fixed::Gruppo qualificati ottavi::ripetibile
+Qualificato quarti di finale::fixed::Gruppo qualificati ottavi::ripetibile
+Qualificato quarti di finale::fixed::Gruppo qualificati ottavi::ripetibile
+Qualificato quarti di finale::fixed::Gruppo qualificati ottavi::ripetibile
+Qualificato quarti di finale::fixed::Gruppo qualificati ottavi::ripetibile
+Qualificato quarti di finale::fixed::Gruppo qualificati ottavi::ripetibile
+Qualificato in semifinale::fixed::Gruppo qualificati ottavi::ripetibile
+Qualificato in semifinale::fixed::Gruppo qualificati ottavi::ripetibile
+Qualificato in semifinale::fixed::Gruppo qualificati ottavi::ripetibile
+Qualificato in semifinale::fixed::Gruppo qualificati ottavi::ripetibile
+Qualificato in finale::fixed::Gruppo qualificati ottavi::ripetibile
+Qualificato in finale::fixed::Gruppo qualificati ottavi::ripetibile
+Campione del mondo::fixed::Gruppo qualificati ottavi::ripetibile
+#
+Nome::free_string::::ripetibile
+Cognome::free_string::::ripetibile
+Nato_a::free_string::::ripetibile
+Provenienza::free_string::::ripetibile
+caposelese_doc::free_string::::ripetibile
+
+#
+# Formato riga [classifica]:
+# gruppo_regola::tipo_regola::caption::dati1::dati2::...::datin
+#	gruppo_regola: 			: gruppo cui fa capo la regola (piu' regole possono concorrere allo stesso gruppo)
+#	tipo_regola			: distanza (pesa il punteggio in base alla distanza dalla posizione in cui la risposta sarebbe stata esatta)
+#					: posizione_esatta (pesa la posizione delle risposte esatte)
+#					: data_giocata (premia chi ha giocato per primo)
+#					: esatte_per_gruppi (la risposta e' corretta se e' corretta in un gruppo di risposte)
+#					: eliminatorie (girone eliminatorio, partendo dalle 8 dei quarti, poi le 4 delle semifinali, ecc.)
+#	caption				: testo visualizzato nella colonna corrispondente
+#
+#	significato di dati1::dati2::...::datin
+#		distanza:
+#			<preordinamento>::<distanza dalla risposta esatta>::<punteggio per distanza>::<peso per la risposta>
+#			preordinamento::[0,1]{n_domande} vengono ordinate le risposte in corrispondenza delle quali c'e' 1
+#			distanza::[0,1,2,..]+ distanza della risposta dalla posizione in cui essa risultava esatta
+#			punteggio per distanza::[a,b,c,..]+ punteggio in corrispondenza della distanza
+#			peso per la risposta::[0,1]{n_domande} peso assegnato alla singola risposta
+#
+#		posizione_esatte:
+#			<preordinamento>::<gerarchia dalle risposte>
+#			preordinamento::[0,1]{n_domande} vengono ordinate le risposte in corrispondenza delle quali c'e' 1
+#			gerarchia risposte::[0,1,2,..]{n_domande} importanza delle risposte (numero minore -> risposta piu' importante)
+#
+#		data_giocata:
+#			<maschera_ore_minuti>::<data_minima>::<data_massima>
+#			maschera_ore_minuti	: deve essere nel formato "hh:mm gg/mm/aaaa"; ogni carattere diverso da "?" sovrascrive 
+#						  l'effettivo valore corrispondente; ad es., per ignorare i minuti, indicare "00:?? ??/??/????"
+#			data_minima		: [hh:mm gg/mm/aaaa] data minima ai fini dell'ordinamento (satura inferiormente il valore effettivo)
+#			data_massima		: [hh:mm gg/mm/aaaa] data massima ai fini dell'ordinamento (satura inferiormente il valore effettivo)
+#
+#		esatte_per_gruppi:
+#			<gruppo della risposta>::<modalita'>::<peso per la risposta>
+#			gruppo della risposta::[1,2,..]{n_domande} gruppo cui appartiene ciascuna domanda
+#			modalita:
+#				numero: una risposta esatta -> un punto
+#				posizione: prevale chi indovina la squadra 1, poi la 2, ecc. (peso per la risposta=1 ==> peso maggiore)
+#				numero_pesato: una risposta esatta -> peso della relativa risposta
+#			peso per la risposta::[0,1]{n_domande} peso assegnato alla singola risposta
+#			
+#		eliminatorie:
+#			<profondita'>::<maschera_risposte>
+#			profondita'		: 4 -> si parte dalle squadre dei quarti, 3 -> si parte dalle semifinali, ecc.
+#			maschera_risposte	: [0,1,2,..]{2^(profondita')-1} risposte interessate dalla regola, vincitore per ultimo
+#
+# Sondaggio Mondiali 2006:
+# 1::esatte_per_gruppi::1&deg;) Risposte esatte::1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,17,17,17,17,17,17,17,17,25,25,25,25,29,29,31::numero_pesato::1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+# 2::esatte_per_gruppi::2&deg;) Posizione risposte esatte::1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,17,17,17,17,17,17,17,17,25,25,25,25,29,29,31::posizione::5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,4,4,4,4,4,4,4,3,3,3,3,2,2,1
+# 3::data_giocata::3&deg;) Data giocata
+#
+# Sondaggio Champions League 2006/2007
+# 1::punteggi_specifici::1&deg;) Punteggi
+# 2::eliminatorie::2&deg;) Risposte esatte per eliminatorie::4::0,1,2,3,4,5,6,7,8,9,10,11,12,13,14
+# 3::esatte_per_gruppi::3&deg;) Risposte esatte per gruppi::4,4,4,4,4,4,4,4,3,3,3,3,2,2,1::posizione::4,4,4,4,4,4,4,4,3,3,3,3,2,2,1
+# 4::data_giocata::4&deg;) Data giocata::12:00 ??/??/????::24:00 01/01/2007::24:00 18/02/2007
+#
+# Sondaggio Europei 2008
+#[classifica]
+#1::punteggi_specifici::1&deg;) Punteggi
+#2::eliminatorie::2&deg;) Risposte esatte per eliminatorie::4::0,1,2,3,4,5,6,7,8,9,10,11,12,13,14
+#3::esatte_per_gruppi::3&deg;) Risposte esatte per gruppi::4,4,4,4,4,4,4,4,3,3,3,3,2,2,1::posizione::4,4,4,4,4,4,4,4,3,3,3,3,2,2,1
+#4::data_giocata::4&deg;) Data giocata::12:00 ??/??/????::00:00 01/05/2007::24:00 18/06/2008
+#
+# Sondaggio Mondiali 2010
+[classifica]
+1::punteggi_specifici::1&deg;) Punteggi
+2::eliminatorie::2&deg;) Risposte esatte per eliminatorie::5::0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30
+3::esatte_per_gruppi::3&deg;) Risposte esatte per gruppi::5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,4,4,4,4,4,4,4,3,3,3,3,2,2,1::posizione::5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,4,4,4,4,4,4,4,3,3,3,3,2,2,1
+4::data_giocata::4&deg;) Data giocata::12:00 ??/??/????::00:00 20/04/2010::24:00 11/06/2010
+#
+# Sondaggio Mondiali 2014
+[classifica]
+1::punteggi_specifici::1&deg;) Punteggi
+2::eliminatorie::2&deg;) Risposte esatte per eliminatorie::5::0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30
+3::esatte_per_gruppi::3&deg;) Risposte esatte per gruppi::5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,4,4,4,4,4,4,4,3,3,3,3,2,2,1::posizione::5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,4,4,4,4,4,4,4,3,3,3,3,2,2,1
+4::data_giocata::4&deg;) Data giocata::12:00 ??/??/????::00:00 17/01/2014::24:00 11/06/2014
+
+[Gruppo qualificati ottavi]
+Brasile
+Croazia
+Messico
+Camerun
+Spagna
+Olanda
+Cile
+Australia
+Colombia
+Grecia
+Costa D'Avorio
+Giappone
+Uruguay
+Costa Rica
+Inghilterra
+Italia
+Svizzera
+Ecuador
+Francia
+Honduras
+Argentina
+Bosnia-Herzegovina
+Iran
+Nigeria
+Germania
+Portogallo
+Ghana
+USA
+Belgio
+Algeria
+Russia
+Corea del Sud
+
+
+#
+# Formato riga [statistiche_list]:
+# tag_statistica::tipo_statistica::caption::dati1::dati2::...::datin
+#	tag_statistica: 		: identificativo unico per la singola statistica
+#	tipo_statistica			: stat_domanda (analizza la ripartizione delle risposte ad una o piu' domande)
+#					: stat_risposta ()
+#	caption				: testo visualizzato relativamente alla statistica
+#
+#	significato di dati1::dati2::...::datin
+#		stat_domanda:
+#			<elenco_domande_equiv>
+#			elenco_domande_equiv:[1,2,3,..,num_domande]+ domande da considerare equivalenti, e da analizzare congiuntamente
+#
+#		stat_risposta:
+#			<elenco_squadre_equiv>
+#			elenco_squadre_equiv:[rispostaA,rispostaB,...]+ risposte da considerare equivalenti, e da analizzare congiuntamente
+#
+[statistiche_list]
+question_tag_C::stat_domanda::Squadra <span class="hi">vincitrice</span>::squadra::numero preferenze::31
+question_tag_F::stat_domanda::Squadra qualificata in <span class="hi">finale</span>::squadra::numero preferenze::29,30
+question_tag_S::stat_domanda::Squadra qualificata in <span class="hi">semifinale</span>::squadra::numero preferenze::25,26,27,28
+question_tag_Q::stat_domanda::Squadra qualificata ai <span class="hi">quarti di finale</span>::squadra::numero preferenze::17,18,19,20,21,22,23,24
+question_tag_W::stat_domanda::Squadra qualificata agli <span class="hi">ottavi di finale</span>::squadra::numero preferenze::1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+Italia::stat_risposta::Posizionamento <span class="hi">Italia</span>::posizione in classifica::numero preferenze::Italia::31;29,30;25,26,27,28;17,18,19,20,21,22,23,24;1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16::Squadra vincitrice;Qualificata in finale;Qualificata in semifinale;Qualificata ai quarti di finale;Qualificata agli ottavi di finale
+Brasile::stat_risposta::Posizionamento <span class="hi">Brasile</span>::posizione in classifica::numero preferenze::Brasile::31;29,30;25,26,27,28;17,18,19,20,21,22,23,24;1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16::Squadra vincitrice;Qualificata in finale;Qualificata in semifinale;Qualificata ai quarti di finale;Qualificata agli ottavi di finale
+
+
+#
+# Messaggi custom: possono essere in qualsiasi forma, vi si accede come $lotteria['msg_custom'][<numero_riga>][<numero_colonna>]
+#
+[msg_custom]
+Consulta il tabellone di aiuto alla compilazione su Caposeleonline:http://www.caposeleonline.it/tab-mond-06.htm::Consulta il tabellone di aiuto alla compilazione su Caposeleonline:http://www.caposeleonline.it/tab-mond-06.htm::http://www.caposeleonline.it/tab-mond-06.htm
+
+#
+# stile riga
+# <tag>::<caption>::<stile_CSS>
+#
+#	<tag> 		: testo usato nell'interfaccia amm., associato a ciascun biglietto giocato. Il luogo di provenienza viene salvato, seguito un flag, eventualmente seguito dal tag in questione
+#			  ad esempio il tag ";GensAmbrosiana$" intercetter&agrave; tutte le giocate che sono state modificate MANUALMENTE aggiungendo il testo, in modo da 
+			  avere <giocate>,<localit&agrave;>,0;GensAmbrosiana::<time_number>::<date>::...
+#	<caption>	: descrizione usata in legenda
+#	<stile_CSS>	: stile CSS usato per la riga rispettiva
+#
+[stili_riga]
+;Checked$:: Gens Silarensis::background:#FFFFAA;
+#;Unchecked$:: Gens quasi Silarensis (Pi&ugrave; di 1 errore alla verifica di silaritudine)::background:#FFDDBB;
+;GensAmbrosiana$:: Gens Ambrosiana::background:#FFEDCB;
+.*:: Gens Mundi::background:#FFF6F0;

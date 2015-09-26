@@ -1,0 +1,106 @@
+Autore::
+Titolo::Monte La Picciola
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 28 dicembre 2013<br>
+<br>
+Piano Canale - Monte La Picciola - Eremo di San Michele - Piano di Montenero - Piano Canale (Oliveto Citra, Campagna)
+<br><br><br>
+<img id="pizzpicc1" src="%file_root%custom/album/ambiente/pizzpicc1.JPG" alt="" border="0" width="550">
+<br> <br>
+Vista del Monte della Croce dal sentiero Piano Canale - Piano di Montenero
+<br>
+<br>
+<br>
+<img id="pizzpicc2" src="%file_root%custom/album/ambiente/pizzpicc2.JPG" alt="" border="0" width="550">
+<br> <br>
+Veduta di Piano Canale dal sentiero per il Monte La Picciola
+<br>
+<br>
+<br>
+<img id="pizzpicc3" src="%file_root%custom/album/ambiente/pizzpicc3.JPG" alt="" border="0" width="550">
+<br> <br>
+In lontananza gli Alburni visti dal sentiero per il Monte La Picciola
+<br>
+<br>
+<br>
+<img id="pizzpicc4" src="%file_root%custom/album/ambiente/pizzpicc4.JPG" alt="" border="0" width="550">
+<br> <br>
+La Pizzola di Montenero
+<br>
+<br>
+<br>
+<img id="pizzpicc5" src="%file_root%custom/album/ambiente/pizzpicc5.JPG" alt="" border="0" width="550">
+<br> <br>
+La Riserva Marzano-Eremita e la Valle del Sele dal sentiero per il Monte La Picciola
+<br>
+<br>
+<br>
+<img id="pizzpicc6" src="%file_root%custom/album/ambiente/pizzpicc6.JPG" alt="" border="0" width="550">
+<br> <br>
+La Valle della Caccia dal sentiero per il Monte La Picciola
+<br>
+<br>
+<br>
+<img id="pizzpicc7" src="%file_root%custom/album/ambiente/pizzpicc7.JPG" alt="" border="0" width="550">
+<br> <br>
+La Pizzola di Montenero e le dorsali est del Polveracchio
+<br>
+<br>
+<br>
+<img id="pizzpicc8" src="%file_root%custom/album/ambiente/pizzpicc8.JPG" alt="" border="0" width="550">
+<br> <br>
+Il polveracchio visto dalla cima del monte La Picciola
+<br>
+<br>
+<br>
+<img id="pizzpicc9" src="%file_root%custom/album/ambiente/pizzpicc9.JPG" alt="" border="0" width="550">
+<br> <br>
+La Picciola: le dorsali ovest del Polveracchio e, sullo sfondo, il Golfo di Salerno e i Monti Lattari
+<br>
+<br>
+<br>
+<img id="pizzpicc10" src="%file_root%custom/album/ambiente/pizzpicc10.JPG" alt="" border="0" width="550">
+<br> <br>
+La Picciola: le dorsali est del Polveracchio e il Monte della Croce
+<br>
+<br>
+<br>
+<img id="pizzpicc11" src="%file_root%custom/album/ambiente/pizzpicc11.JPG" alt="" border="0" width="550">
+<br> <br>
+La Picciola: vetta
+<br>
+<br>
+<br>
+<img id="pizzpicc12" src="%file_root%custom/album/ambiente/pizzpicc12.JPG" alt="" border="0" width="550">
+<br> <br>
+La Picciola: Monte della Croce e la Pizzola di Montenero
+<br>
+<br>
+<br>
+<img id="pizzpicc13" src="%file_root%custom/album/ambiente/pizzpicc13.JPG" alt="" border="0" width="550">
+<br> <br>
+La Picciola: la bassa Valle del Sele
+<br>
+<br>
+<br>
+<img id="pizzpicc14" src="%file_root%custom/album/ambiente/pizzpicc14.JPG" alt="" border="0" width="550">
+<br> <br>
+L'Eremo di San Michele
+<br>
+<br>
+<br>
+<img id="pizzpicc15" src="%file_root%custom/album/ambiente/pizzpicc15.JPG" alt="" border="0" width="550">
+<br> <br>
+Piano di Montenero: veduta sul Vallone Il Trogento e Varco Sellara
+<br>
+<br>
+<br>
+<img id="pizzpicc16" src="%file_root%custom/album/ambiente/pizzpicc16.JPG" alt="" border="0" width="550">
+<br> <br>
+Piano di Montenero: sullo sfondo La Picciola e la Pizzola di Montenero
+<br>
+<br>
+<br>
+--- End body ---

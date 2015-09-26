@@ -1,0 +1,33 @@
+Autore::
+Titolo::Corsa della sirena Leucosya
+--- Begin body ---
+<br>Correre immersi nella natura, sospesi a met&agrave; tra il mare blu e la pineta verdeggiante, sotto lo sguardo vigile della sirena Leucosya. Cos&igrave;, come tent&ograve; di ammaliare Ulisse ed i suoi uomini, senza per&ograve; riuscirvi, questa volta ha cercato di affascinare gli atleti provenienti da tutt’Italia che si sono immersi nell’area naturalistica riconosciuta patrimonio UNESCO. 
+<br><br>
+Proprio nel luogo pi&ugrave; incantato e romantico di Castellabate, a Punta Licosa, si &egrave; svolta il 12 maggio alle ore 18:00 la prima edizione de “La corsa della Sirena Leucosya”. La gara podistica, organizzata dall’associazione sportiva dilettantistica “La Marcialonga di Castellabate-Newcastle” presieduta da Nicola Paolillo,  ha goduto dei patrocini del comune di Castellabate, della provincia di Salerno, del Parco Nazionale del Cilento, Vallo di Diano e Alburni, dell’Associazioni Sportive Sociali Italiane (ASI) e del Coni. Molto suggestivo il percorso di 8,8 km che si &egrave; snodato dal porto greco-romano di San Marco di Castellabate all’arrivo posizionato in piazza Giovanni Paolo II, nel cuore della baia di Ogliastro Marina. La gara podistica ha costeggiato il mare ed il verde di Vallone Alto, ha attraversato la pineta dell’area di Punta Licosa per poi confluire, in un crescendo di bellezze e profumi, sul sentiero Antica Olearola che precede di 420 metri l’arrivo nella centralissima piazza affacciata sul mare.
+<i>(dal sito podistidoc.it)</i><br><br>
+<b>Bella prova dei rappresentanti dell'ARS:<br><br>
+Daniele Caprio si &egrave; classificato 7° in 30'51''<br>
+Giuseppe Cetrulo &egrave; giunto 18° in 33'27''<br>
+Donato Ceres 25° in 34'32'' <i></b>(real time 34'29'')</i><br>
+<b>Mauro Losco 40° in 36'15''</b><i>(real time 36'12'')</i>
+<br>Arrivati 228.
+<br><br>
+La classifica la trovate <a href="download.php?resource_type=file&amp;resource_id=file_Leucosya2013">qui</a>.
+<br><br>
+<p>
+<div align="center">
+<img id="leu1" src="%file_root%custom/album/varie/leu1.jpg" alt="leu1" border="0" width="550"></div>
+<br>
+<p>
+<div align="center">
+<img id="leu2" src="%file_root%custom/album/varie/leu2.jpg" alt="leu2" border="0" width="550"></div>
+<br>
+<p>
+<div align="center">
+<img id="leu3" src="%file_root%custom/album/varie/leu3.jpg" alt="leu3" border="0" width="550"></div>
+<br>
+<p>
+<div align="center">
+<img id="leu4" src="%file_root%custom/album/varie/leu4.jpg" alt="leu4" border="0" width="550"></div>
+<br>
+--- End body ---

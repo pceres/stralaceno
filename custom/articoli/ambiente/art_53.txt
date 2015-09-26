@@ -1,0 +1,82 @@
+Autore::
+Titolo::Monte Ogna
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 30 novembre 2013<br>
+<br>
+Teglia, Valle di Matrura, Monte Ogna, Costa Sant'Erta, Teglia (Buccino)
+<br><br><br>
+<img id="ogna1" src="%file_root%custom/album/ambiente/ogna1.JPG" alt="" border="0" width="550">
+<br> <br>
+Vista del Monte Ogna dalla Valle di Matrura
+<br>
+<br>
+<br>
+<img id="ogna2" src="%file_root%custom/album/ambiente/ogna2.JPG" alt="" border="0" width="550">
+<br> <br>
+Valle di Matrura
+<br>
+<br>
+<br>
+<img id="ogna3" src="%file_root%custom/album/ambiente/ogna3.JPG" alt="" border="0" width="550">
+<br> <br>
+Vista di Serra Melara dal versante est del Monte Ogna
+<br>
+<br>
+<br>
+<img id="ogna4" src="%file_root%custom/album/ambiente/ogna4.JPG" alt="" border="0" width="550">
+<br> <br>
+Veduta di Piano il Parco dal versante est del Monte Ogna
+<br>
+<br>
+<br>
+<img id="ogna5" src="%file_root%custom/album/ambiente/ogna5.JPG" alt="" border="0" width="550">
+<br> <br>
+Cima del Monte Ogna; sullo sfondo i Monti Picentini
+<br>
+<br>
+<br>
+<img id="ogna6" src="%file_root%custom/album/ambiente/ogna6.JPG" alt="" border="0" width="550">
+<br> <br>
+Cima del Monte Ogna: vista verso il Monte Marzano e il Monte Carpineta
+<br>
+<br>
+<br>
+<img id="ogna7" src="%file_root%custom/album/ambiente/ogna7.JPG" alt="" border="0" width="550">
+<br> <br>
+Cima del Monte Ogna; sullo sfondo gli Alburni
+<br>
+<br>
+<br>
+<img id="ogna8" src="%file_root%custom/album/ambiente/ogna8.JPG" alt="" border="0" width="550">
+<br> <br>
+Cima del Monte Ogna: veduta della Serra Melara
+<br>
+<br>
+<br>
+<img id="ogna9" src="%file_root%custom/album/ambiente/ogna9.JPG" alt="" border="0" width="550">
+<br> <br>
+Cima del Monte Ogna: vista del Monte Marzano
+<br>
+<br>
+<br>
+<img id="ogna10" src="%file_root%custom/album/ambiente/ogna10.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Ogna: veduta di Palomonte
+<br>
+<br>
+<br>
+<img id="ogna11" src="%file_root%custom/album/ambiente/ogna11.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Ogna: vista della bassa Valle del Sele
+<br>
+<br>
+<br>
+<img id="ogna12" src="%file_root%custom/album/ambiente/ogna12.JPG" alt="" border="0" width="550">
+<br> <br>
+Costa Sant'Erta: veduta dei Piani di Buccino
+<br>
+<br>
+<br>
+--- End body ---

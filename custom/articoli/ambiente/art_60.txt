@@ -1,0 +1,81 @@
+Autore::
+Titolo::Monti Cervarolo e Cervarulo
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 18 gennaio 2014<br>
+<br>Piano Sazzano - Lagaretto - Monte Cervarolo - Valle di Gianberardino - Monte Cervarulo - Piano Sazzano (Bagnoli Irpino, Calabritto)
+<br> <br>
+<img id="2cerv1" src="%file_root%custom/album/ambiente14/2cerv1.JPG" alt="" border="0" width="550">
+<br><br>
+Fontana di Lagaretto
+<br>
+<br>
+<br>
+<img id="2cerv2" src="%file_root%custom/album/ambiente14/2cerv2.JPG" alt="" border="0" width="550">
+<br> <br>
+Lagaretto: seconda fontana
+<br>
+<br>
+<br>
+<img id="2cerv5" src="%file_root%custom/album/ambiente14/2cerv5.JPG" alt="" border="0" width="550">
+<br> <br>
+Cresta sud del Monte Cervarolo: vista lato nord del Monte Cervialto
+<br>
+<br>
+<br>
+<img id="2cerv4" src="%file_root%custom/album/ambiente14/2cerv4.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Cervarolo: veduta della cima del Monte Cervarulo
+<br>
+<br>
+<br>
+<img id="2cerv6" src="%file_root%custom/album/ambiente14/2cerv6.JPG" alt="" border="0" width="550">
+<br> <br>
+Cresta sud del Monte Cervarolo: vista di Piano l'Acernese e il Monte Raiamagra
+<br>
+<br>
+<br>
+<img id="2cerv7" src="%file_root%custom/album/ambiente14/2cerv7.JPG" alt="" border="0" width="550">
+<br> <br>
+Cresta sud del Monte Cervarolo: vista dell'Altopiano di Laceno
+<br>
+<br>
+<br>
+<img id="2cerv9" src="%file_root%custom/album/ambiente14/2cerv9.JPG" alt="" border="0" width="550">
+<br> <br>
+Valle di Gianberardino: veduta del Monte Calvello
+<br>
+<br>
+<br>
+<img id="2cerv10" src="%file_root%custom/album/ambiente14/2cerv10.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Cervarulo: veduta del versante est del Monte Cervarolo
+<br>
+<br>
+<br>
+<img id="2cerv11" src="%file_root%custom/album/ambiente14/2cerv11.JPG" alt="" border="0" width="550">
+<br> <br>
+Cresta Monte Cervarulo: veduta del Monte Altillo
+<br>
+<br>
+<br>
+<img id="2cerv12" src="%file_root%custom/album/ambiente14/2cerv12.JPG" alt="" border="0" width="550">
+<br> <br>
+Cresta Monte Cervarulo: vista del Monte Calvello
+<br>
+<br>
+<br>
+<img id="2cerv13" src="%file_root%custom/album/ambiente14/2cerv13.JPG" alt="" border="0" width="550">
+<br> <br>
+Costa Nord del Monte Cervarulo: vista su Piano Sazzano ed Aria della Preda
+<br>
+<br>
+<br>
+<img id="2cerv14" src="%file_root%custom/album/ambiente14/2cerv14.JPG" alt="" border="0" width="550">
+<br> <br>
+Piano Sazzano e, sullo sfondo, Monte Calvello
+<br>
+<br>
+<br>
+--- End body ---

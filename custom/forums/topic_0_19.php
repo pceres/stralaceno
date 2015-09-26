@@ -21,6 +21,8 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 7::paco::30/05/2011 22.14.33::visible
 8::Eduardo Carey Russomanno::12/12/2011 21.57.14::visible
 9::salvatore::21/05/2012 16.39.03::visible
+10::Ever Roque Ceres::13/06/2013 22.18.50::visible
+11::Juukla::26/01/2014 21.14.25::visible
 
 [post_text_0]
 &nbsp;
@@ -149,3 +151,26 @@ Eduardo
 
 [post_text_9]
 &gt;Sul sito genealogico ci ha scritto Eduardo Carey Russomanno, dall'Argentina ma di origini caposelesi:<br>&gt; <br>&gt;"Mio nonno era  Vincenzo Russomanno (nato a Caposele nel 1867); mia madre, figlia di Vincenzo, ha 98 anni. Vincenzo Russomanno si sposo' in Argentina con Madalena Failace, nata a Morano Calabro.<br>&gt;Vorrei sapere se a Caposele vive (ed eventualmente contattarla) qualche cugina di mia madre. So che avevano cognome Soriano, Freda, Nisivoccia, Peccatiello.<br>&gt;Grazie.<br>&gt;Eduardo"<br>&gt; <br>&gt;--------------------------------------------------------<br>&gt; <br>&gt;Mi abuelo era Vincenzo Russomanno &#8206;(I1946 o I1947)&#8206;,sus padres y hermano &#8206;(f676)&#8206;, mi madre hija de Vincenzo aun vive y tiene 98 años. Vincenzo Russomanno se caso en Argentina con Madalena Failace, que nacio en Morano Calabro.<br>&gt;Quisie saber si en Caposele vive alguna prime de mi madre o sobrina para contactarme.<br>&gt;Los ultimos que vi son Soriano,Freda,Nisivoccia,Peccatiello.<br>&gt;Gracias.<br>&gt;Eduardo<br>&gt;<br><br>ciao io mi chiamo salvatore russomanno e sono figlio a vincenzo russomanno e suo nonno si chiamava vincenzo e siamo di caposele
+
+[post_text_10]
+&nbsp;
+Ricevo questo invito da un nostro amico di origini caposelesi, Ever Ceres, e lo pubblico volentieri:
+&nbsp;
+&nbsp;
+Hola Pascuale , queria informerte e invitarte a una reunion-cena que haremos toda la Familia Ceres , descendientes de Generoso Ceres , que viniera a la Argentina el siglo pasado...
+Nos reuniremos un un salon de fiestas en Chacabuco Provincia de Buenos Aires , el 21 de junio , y quisieramos que lo supieran nuestros parientes italianos , por si da la ocasion de alguno que este de paseo por estas tierras , con gusto sera bienvenido.
+Bueno , ya pasaremos fotos despues de la reunion , para poner en el sitio Web .
+Saludos y espero tu respuesta y comentarios.
+Ever Roque Ceres
+&nbsp;
+------------------------------------------------------------------------------------------
+&nbsp;
+Ciao Pasquale, ho voluto informarti ed invitarti ad un incontro-cena di tutta la famiglia Ceres, discendenti di Generoso Ceres, venuti in Argentina nel secolo scorso ...
+Ci incontreremo a Chacabuco, nella provincia di Buenos Aires, presso il salone delle feste,  il 21 giugno, e vorrei far sapere ai nostri parenti italiani, se ci sarà l'opportunità che alcuni si trovino da queste parti, che saranno calorosamente benvenuti.
+Beh, faremo delle foto della riunione, per poterle mettere sul sito.
+Saluti e spero in una tua risposta e commenti.
+Ever Roque Ceres
+
+[post_text_11]
+ Ofta   ocksa   Vi har varit  luras  till tänkande som  just  Om till   ett e-casino eller  deltar i  i en   kan vara nagot   det är definitivt  illegitima .  Det är  faktiskt   felaktig , men det är   ofta  tros vara   äkta .  Ibland  den  tänkt   nagot litet  är helt enkelt  avgörande som   fakta   driva  det. Den främsta anledningen   manga  vill  att vaga  onlinekasinon   spänner en   standard   spelverksamhet etablering   är helt enkelt för att  den tegel och murbruk   modell   kommer inte vara   öppna för dem . Mest  omraden  i USA   och en hel del   andra platser  hela världen  bara   inte lata  för  spelhus .  Därav,  i ett försök att  ha kul med  videospel titlar regelbundet ,  deltagare   bör  användningen onlinekasinon  .  A andra sidan ,  Det är inte bara   de som är inte  intill  en e-casino att  användning  onlinekasinon ,  det   alla   att göra inte   sköta den   överlever  spelverksamhet etablering   kunskap .  Planerar att   a true  online casino   kan vara   ofattbar   för manga .  [url=http://casinosv24.com]poker bordsskiva svart[/url]  Everest Casino  är en av de   primära  onlinekasinon   och har   en fantastisk  sortiment av   spel huset   speltitlar . Det finns för närvarande   manga  everyday   läsarna   varenda dag  söker  deras  casino  luck  vid detta   spelande   hemsida . Everest  Gambling anläggning   startade  sin  företaget  1996 med  expert  On line kasino   specialister  och  höll pa att   händer  betjänar  spelare  fran 1997 och  lat oss börja .  Som har en  världsklass   detaljerade  excellence ,  detta är   är bland de störst  och mest   välkända   betting hus  webbplatser .  Du kan ha   nagra av   excellent  spel  pa Everest  Betting hus . Denna  nyttig   spel hus   video gaming   hemsida  gör dem   arbete med andra med  Fantastic   Electronic , pa  världen   erkänt  spelverksamhet etablering   teknisk innovation .
+Sa,  gentleman   skapade   spel :  en strategi för att  använda  investeringar.  Flera ar  efter ,  arkitektonisk   pagar samt   Pa webben  kom ut . I fall du   merge dessa  sma volymer  ihop du kommer att fa   en on-line  online kasino.  Samma som   identifiera   pastar , en on-line   spel   hem är   en region   du   användning   en webbaserad - baserade   betting house  aktiviteten.  Fel   inte   billigt  och  det har avkunnats i  onlinekasinon   betting . Men ,  det finns faktiskt  nagra   deltagare  eller  konkurrenter  som är   vibrerande  adekvat  till  spendera massor av pengar   helt enkelt därför  säkerligen inte   studie fran  sina  fel .  Om du är   en av dessa lysande   folk idag, sedan  bara   överväga  de 10   lösningar  förlora pengar   nästa tillfälle  du gamble   inne   onlinekasinon !  När du   engagera sig i   en e-casino,  du kan mycket väl vara   instrueras att   ner last  viss  betting house  ansökan .  Trots , vissa  program  skulle möjligen vara   samt   imponerande eller  verkar som   din laptop. Om du verkligen vill ha   minska   inkomster,  anmäla dig  webbplatser   med en   programvara   det inte  suit datorsystem .

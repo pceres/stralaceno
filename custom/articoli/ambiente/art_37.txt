@@ -1,0 +1,93 @@
+Autore::
+Titolo::Grotta di San Michele di Valva
+--- Begin body ---
+<br>
+<div align="center">
+<br>Passeggiata del 13 agosto 2013<br>
+<br>Vallone della Noce, Grotta San Michele (Valva)
+<br><br><br>
+<img id="grottasm1" src="%file_root%custom/album/ambiente/grottasm1.JPG" alt="" border="0" width="550">
+<br> <br>
+Vallone della Noce: fontana
+<br>
+<br>
+<br>
+<img id="grottasm2" src="%file_root%custom/album/ambiente/grottasm2.JPG" alt="" border="0" width="550">
+<br> <br>
+Monta Valva: veduta dell'abitato di Valva
+<br>
+<br>
+<br>
+<img id="grottasm3" src="%file_root%custom/album/ambiente/grottasm3.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Valva: veduta dell'Alta Valle del Sele
+<br>
+<br>
+<br>
+<img id="grottasm4" src="%file_root%custom/album/ambiente/grottasm4.JPG" alt="" border="0" width="550">
+<br> <br>
+Sito della Grotta di San Michele visto dal basso
+<br>
+<br>
+<br>
+<img id="grottasm5" src="%file_root%custom/album/ambiente/grottasm5.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta di San Michele: vista di Quaglietta e Senerchia
+<br>
+<br>
+<br>
+<img id="grottasm6" src="%file_root%custom/album/ambiente/grottasm6.JPG" alt="" border="0" width="550">
+<br> <br>
+Scala di accesso alla Grotta di San Michele
+<br>
+<br>
+<br>
+<img id="grottasm7" src="%file_root%custom/album/ambiente/grottasm7.JPG" alt="" border="0" width="550">
+<br> <br>
+Porta di accesso alla Grotta di San Michele
+<br>
+<br>
+<br>
+<img id="grottasm8" src="%file_root%custom/album/ambiente/grottasm8.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta di San Michele: vista dell'Alta Valle del Sele
+<br>
+<br>
+<br>
+<img id="grottasm9" src="%file_root%custom/album/ambiente/grottasm9.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta di San Michele
+<br>
+<br>
+<br>
+<img id="grottasm10" src="%file_root%custom/album/ambiente/grottasm10.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta di San Michele
+<br>
+<br>
+<br>
+<img id="grottasm11" src="%file_root%custom/album/ambiente/grottasm11.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta di San Michele: interno
+<br>
+<br>
+<br>
+<img id="grottasm13" src="%file_root%custom/album/ambiente/grottasm13.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta di San Michele: interno
+<br>
+<br>
+<br>
+<img id="grottasm14" src="%file_root%custom/album/ambiente/grottasm14.JPG" alt="" border="0" width="550">
+<br> <br>
+Grotta di San Michele: interno
+<br>
+<br>
+<br>
+<img id="grottasm15" src="%file_root%custom/album/ambiente/grottasm15.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte Valva: parete rocciosa
+<br>
+<br>
+<br>
+--- End body ---

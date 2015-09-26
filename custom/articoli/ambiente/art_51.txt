@@ -1,0 +1,88 @@
+Autore::
+Titolo::Monte Marzano
+--- Begin body ---
+<br>
+<div align="center">
+<br>Escursione del 27 ottobre 2013<br>
+<br>
+Piano di Pecore, Monte Marzano, Monte delle Rose, Acquariello, Piano di Pecore (Colliano, Valva)
+<br><br><br>
+<img id="marzano1" src="%file_root%custom/album/ambiente/marzano1.JPG" alt="" border="0" width="550">
+<br> <br>
+Cresta est del Monte Marzano e, sullo sfondo, Piano di Pecore
+<br>
+<br>
+<br>
+<img id="marzano2" src="%file_root%custom/album/ambiente/marzano2.JPG" alt="" border="0" width="550">
+<br> <br>
+Cresta est del Monte Marzano: vista della Valle del Sele e dei Monti La Picciola e Polveracchio
+<br>
+<br>
+<br>
+<img id="marzano3" src="%file_root%custom/album/ambiente/marzano3.JPG" alt="" border="0" width="550">
+<br> <br>
+Veduta della cima del Monte Marzano
+<br>
+<br>
+<br>
+<img id="marzano4" src="%file_root%custom/album/ambiente/marzano4.JPG" alt="" border="0" width="550">
+<br> <br>
+Veduta della cresta est del Monte Marzano
+<br>
+<br>
+<br>
+<img id="marzano5" src="%file_root%custom/album/ambiente/marzano5.JPG" alt="" border="0" width="550">
+<br> <br>
+Vetta del Monte Marzano: vista sulla Valle del Sele e dei Monti La Picciola, Polveracchio. Sullo sfondo il Cervialto.
+<br>
+<br>
+<br>
+<img id="marzano6" src="%file_root%custom/album/ambiente/marzano6.JPG" alt="" border="0" width="550">
+<br> <br>
+Vetta del Monte Marzano: sullo sfondo i Monti Alburni
+<br>
+<br>
+<br>
+<img id="marzano7" src="%file_root%custom/album/ambiente/marzano7.JPG" alt="" border="0" width="550">
+<br> <br>
+Vetta del Monte Marzano
+<br>
+<br>
+<br>
+<img id="marzano8" src="%file_root%custom/album/ambiente/marzano8.JPG" alt="" border="0" width="550">
+<br> <br>
+Pozzo dei Sette Cuponi
+<br>
+<br>
+<br>
+<img id="marzano9" src="%file_root%custom/album/ambiente/marzano9.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte delle Rose: veduta del Monte Pennone
+<br>
+<br>
+<br>
+<img id="marzano10" src="%file_root%custom/album/ambiente/marzano10.JPG" alt="" border="0" width="550">
+<br> <br>
+Cresta del Monte delle Rose
+<br>
+<br>
+<br>
+<img id="marzano11" src="%file_root%custom/album/ambiente/marzano11.JPG" alt="" border="0" width="550">
+<br> <br>
+Monte delle Rose: la nicchia della Madonna delle Rose
+<br>
+<br>
+<br>
+<img id="marzano12" src="%file_root%custom/album/ambiente/marzano12.JPG" alt="" border="0" width="550">
+<br> <br>
+Località Acquariello
+<br>
+<br>
+<br>
+<img id="marzano13" src="%file_root%custom/album/ambiente/marzano13.JPG" alt="" border="0" width="550">
+<br> <br>
+Piano di Pecore
+<br>
+<br>
+<br>
+--- End body ---

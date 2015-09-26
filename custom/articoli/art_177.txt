@@ -1,0 +1,13 @@
+Autore::
+Titolo::Stralaceno 2013
+--- Begin body ---
+<br>
+<b>PER I RISULTATI DELLA STRALACENO 2013 COLLEGARSI AL SITO http://stralaceno.cjb.net</b>
+<br><br>
+Le foto dell'edizione 2013 <a href="album.php?anno=Stra_13">QUI</a>.  <i>Inserite altre foto il 7 novembre</i>   
+<br><br><div align="center">
+<div align="center">
+<img id="" src="%file_root%custom/album/Stra_13/13_138.jpg" alt="" border="" width="550">
+<br><br>
+</div>
+--- End body ---

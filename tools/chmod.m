@@ -1,3 +1,11 @@
+%
+% To remove all git differences only due to permission changes (chmod):
+%
+% 1) download the files from the remote website via ftp
+% 2) create <website root>/diff.txt by using shell command "git diff > diff.txt"
+% 3) move Matlab bath to <website root>/tools
+% 4) run chmod.m
+%
 
 logfile = '../diff.txt'; % generalo lanciando "git diff > diff.txt"
 

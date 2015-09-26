@@ -579,7 +579,7 @@ case "save":
 	
 	break;
 case "results":
-	$temp_debug = 0;
+	$temp_debug = 0; // enable this for verbose output that enables debugging
 	
 	$id_regola_gruppo = 0;	// gruppo cui contribuisce la regola a determinare il punteggio
 	$id_regola_tipo = 1;	// tipo di regola
@@ -774,7 +774,7 @@ $counter = count_page("questions",array("COUNT"=>1,"LOG"=>1),$filedir_counter); 
 
 
 
-function get_vettore_squadre_vincenti(&$vettore_risposte_esatte,$soluz,$livello_eliminatorie) {
+function get_vettore_squadre_vincenti(&$vettore_risposte_esatte,$soluz,$livello_eliminatorie,$temp_debug) {
 
 $counter_squadre=0;
 $vettore_risposte_esatte = array();
@@ -785,6 +785,10 @@ foreach ($soluz as $id_soluz => $soluz_item)
 	//echo "$soluz_item<br>";
 	if (!array_key_exists($soluz_item,$vettore_risposte_esatte))
 	{
+		if ($temp_debug)
+		{
+			echo "-> $soluz_item<br>";
+		}
 		$vettore_risposte_esatte[$soluz_item] = 1;
 		$counter_squadre++;
 	}
@@ -800,11 +804,17 @@ if ($counter_squadre != $counter_ok)
 {
 	if ($temp_debug)
 	{
-		echo("Le risposte esatte non sono congruenti con lo schema ad eliminatoria ($counter_squadre individuate invece di $counter_ok)!");
+		echo("<br><br><div class=\"titolo_tabella\">Le risposte esatte non sono congruenti con lo schema ad eliminatoria ($counter_squadre individuate invece di $counter_ok)!</div><br><br>");
 	}
 }
 
-return ($counter_squadre == $counter_ok);
+$result = ($counter_squadre == $counter_ok);
+if ($temp_debug)
+{
+	echo("$counter_squadre - $counter_ok - $result<br>");
+}
+
+return $result;
 
 } // end function get_vettore_squadre_vincenti
 
@@ -814,6 +824,8 @@ function calcoli_preliminari_criteri(&$bulk_punteggi, &$gruppi_regole, &$header_
 
 # dichiara variabili
 extract(indici());
+
+$temp_debug_calcoli_preliminari_criteri = 0;
 
 // indici campi al'interno di $criterio
 $id_regola_gruppo = 0;	// gruppo cui contribuisce la regola a determinare il punteggio
@@ -890,12 +902,12 @@ foreach($criteri as $id => $criterio)
 		$maschera_risposte = split(',',$criterio[$id_regola_data+1]);	// elenco domande che interessano questa regola, vincitore per ultimo
 		
 		$vettore_risposte_esatte = array(); // viene passato per indirizzo, bisogna inizializzarlo qui
-		$soluz_ok = get_vettore_squadre_vincenti($vettore_risposte_esatte,$soluz,$livello_eliminatorie);
+		$soluz_ok = get_vettore_squadre_vincenti($vettore_risposte_esatte,$soluz,$livello_eliminatorie,$temp_debug_calcoli_preliminari_criteri);
 		if (!$soluz_ok)
 		{
-			if ($temp_debug)
+			if ($temp_debug_calcoli_preliminari_criteri)
 			{
-				die("Le risposte esatte non sono congruenti con lo schema ad eliminatoria)!");
+				echo("Le risposte esatte non sono congruenti con lo schema ad eliminatoria!");
 			}
 		}
 		
@@ -1344,37 +1356,37 @@ case "eliminatorie":
 	
 	// calcolo punteggio
 	$vettore_squadre = array(); // viene passato per indirizzo, bisogna inizializzarlo qui
-	$giocata_ok = get_vettore_squadre_vincenti($vettore_squadre,$giocata_utile_array,$livello_eliminatorie);
+	$punteggio = 0; // più è negativo, più la giocata è buona
+	$giocata_ok = get_vettore_squadre_vincenti($vettore_squadre,$giocata_utile_array,$livello_eliminatorie,$temp_debug);
 	if (!$giocata_ok)
 	{
-		if ($temp_debug)
-		{
-			die("Le risposte esatte non sono congruenti con lo schema ad eliminatoria!");
-		}
-		$punteggio = 10000;
-		$punteggio_output = 'giocata errata';
+		// penalità forte, perché non si è rispettato il vincolo che una squadra accede ai gironi successivi dopo aver superato
+		// quelli di livello inferiore (ad es. si superano i quarti di finale solo se si sono superati gli ottavi, ecc.)
+		$punteggio = $punteggio+1e6;
 	}
-	else
+	array_multisort($vettore_risposte_esatte,SORT_DESC,$risposte_possibili);
+	
+	$voti = array();
+	$punteggio_output = '';
+	foreach ($giocata_array as $squadra)
 	{
-		array_multisort($vettore_risposte_esatte,SORT_DESC,$risposte_possibili);
+		$voto_presunto = $vettore_squadre[$squadra];
 		
-		$voti = array();
-		$punteggio_output = '';
-		foreach ($giocata_array as $squadra)
+		$voto_giusto = $vettore_risposte_esatte[$squadra]+0;
+		
+		
+		$voto_finale = min($voto_presunto,$voto_giusto)+0;
+		$voti[$squadra] = $voto_finale;
+		
+		$punteggio_output .= ",$voto_finale";
+		
+		if ($temp_debug & !$giocata_ok)
 		{
-			$voto_presunto = $vettore_squadre[$squadra];
-			
-			$voto_giusto = $vettore_risposte_esatte[$squadra]+0;
-			
-			
-			$voto_finale = min($voto_presunto,$voto_giusto)+0;
-			$voti[$squadra] = $voto_finale;
-			
-			$punteggio_output .= ",$voto_finale";
+			echo("$squadra => $voto_presunto,$voto_giusto,$voto_finale,".array_sum($voti)."<br>");
 		}
-
-		$punteggio = -array_sum($voti);
 	}
+	
+	$punteggio = $punteggio-array_sum($voti);
 	break;
 
 	case "punteggi_specifici":

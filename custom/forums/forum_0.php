@@ -23,17 +23,17 @@ Formato [elenco_topics]:
 6::Come funziona il forum::open::::::ceres::3::2
 7::Le sfide della Stralaceno::open::::::foxy::151::155
 8::Soddisfatti della stralaceno edizione 2006???::hidden::::::cabo86::5::4
-9::Discussione::open::::::Antonio::350::338
+9::Discussione::open::::::Antonio::367::355
 10::Gare::open::::::cabo::35::44
 11::Sezione ciclismo::open::::::Donato Gervasio::33::32
 12::Allenamento Collettivo::open::::::Ars::45::44
 13::Per nazòn::hidden::::::antonio::4::3
 14::F.C. Caposele::open::::::Ars::49::48
 15::Elezioni comunali a Caposele::open::::::Cleon.ren::138::137
-16::Sezione Ambiente e Natura::open::::::Ambiente::95::95
+16::Sezione Ambiente e Natura::open::::::Ambiente::97::97
 17::Per l'inviato::hidden::::::christian meyer::6::5
 18::Il 3 novembre si disputerà la Quasinove: gara podistica organizzata da Nicola Melillo::hidden::::::Jerry Notaro::2::1
-19::Genealogia caposelese::open::::::Pasquale C.::10::9
+19::Genealogia caposelese::open::::::Pasquale C.::12::11
 20::Un pensiero per Marco Pantani::hidden::::::appassionato di ciclismo::22::21
 21::I tre Angeli custodi salvano Ale da una grande crisi::hidden::::::Salvatore::7::6
 22::PARCO DEI MONTI PICENTINI::hidden::::::AmbienteNews::1::0
@@ -45,9 +45,12 @@ Formato [elenco_topics]:
 28::sentenza::hidden::::::emigrato::1::0
 29::forza caposele::hidden::::::gaetano::2::1
 30::MEZZA MARATONA CITTA' DI POTENZA TUNE-UP::hidden::::::MIMMO55::1::0
-31::I problemi di caposele::open::::::gaetano::24::23
+31::I problemi di caposele::open::::::gaetano::32::31
 32::vergognatevi!!!!!::hidden::::::ESASPERATI::1::0
 33::sto arrivando!!::open::::::gaetano::6::5
 34::stufato::hidden::::::hamsik::3::2
 35::turismo::hidden::::::paese???????::1::0
 36::povera italia::hidden::::::lavoro...::2::1
+37::Poesie::open::::::Michaelem::52::51
+38::paese di randagi::open::::::randagi::3::2
+39::...::open::::::COERENZA::2::1
