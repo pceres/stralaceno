@@ -12,6 +12,16 @@
 # formato elenco_articoli:  id_articolo::sezione::titolo::autore
 #
 [elenco_articoli]
+71::ambiente::Ruderi Miniere di Ittiolo::
+70::ambiente::Valloni Tronconcello e Tufara::
+69::ambiente::Raia della Scannella::
+68::ambiente::Montagnone di Nusco::
+67::ambiente::Monte Pennacchio::
+66::ambiente::Vallone Trogento::
+65::ambiente::Gole di Tremonti::
+64::ambiente::Pianori di Montella::
+63::ambiente::Toppa del Castello::
+62::ambiente::Ruderi Castello di Olevano::
 61::ambiente::Valle del Tusciano::
 60::ambiente::Monti Cervarolo e Cervarulo::
 59::ambiente::Cime sud-orientali del Marzano-Eremita::
@@ -59,15 +69,6 @@
 17::ambiente::Circuito del monte Vallicelle::
 16::ambiente::Sentieri Pustedda - Lavanghe::
 13::ambiente::Per le grotte di Caposele::
-15::ambiente::Sentiero Madonna del Fiume::
-14::ambiente::A valle del Rio Zagarone::
-12::ambiente::Grotta San Lorenzo::
-#
-# formato elenco_pagine:  tag_pagina::titolo_pagina::titolo::autore
-#
-[elenco_pagine]
-#%script_root%questions.php?id_questions=1::Sondaggio Mondiali 2006
-#%script_root%statistiche.php?action=show&id_questions=1::Statistiche Sondaggio Mondiali 2006sele::
 15::ambiente::Sentiero Madonna del Fiume::
 14::ambiente::A valle del Rio Zagarone::
 12::ambiente::Grotta San Lorenzo::
