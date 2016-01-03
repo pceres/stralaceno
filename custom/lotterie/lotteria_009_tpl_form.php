@@ -1989,7 +1989,7 @@ else
 			<TD HEIGHT=18 ALIGN=LEFT><I>le 2 finaliste saranno:</I></TD>
 			<TD ALIGN=LEFT><BR></TD>
 			<TD ALIGN=LEFT><BR></TD>
-			<TD COLSPAN=1 ALIGN=CENTER>Campione del mondo:</TD>
+			<TD COLSPAN=1 ALIGN=CENTER>Campione:</TD>
 		</TR>
 		<TR>
 			<TD HEIGHT=25 ALIGN=CENTER BGCOLOR="#C0C0C0">
