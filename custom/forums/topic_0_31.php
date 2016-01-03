@@ -186,3 +186,16 @@ alliance for academic internal medicine  <a href=http://roxicodone.tribalpages.c
 
 [post_text_43]
 Viviamo in un paese di falliti l'unica cosa che si puo' fare quando si esce a giocare a carte davanti ai bar per di piu' con gente ignorante,frustrata,vecchia,furba,cattiva.adesso basta ne abbiamo veramente le scatole piene ma percheì abbiamo avuto questa maledetta sfortuna a nascere in questo paese inesistente invidio chi ha avuto il coraggio di scappare da qui e costruirsi una nuova vita lontano avete fatto benissimo non vi siete persi nulla non ci ritornate piu' che qui si muore dentro di malinconia e depressione.infine una ultima critica la voglio come sempre rivolgere all'amministrazione comunale assente che in 8 anni di attivita' avete prodotto zero in tutto per voi esiste una sola parola Vergognateviiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiise avete un minimo di decenza dimettetevi che il popolo e' veramente stanco di sopportare questo mortorio in cui siamo sprofondati.
+ Vergognateviiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiise avete un minimo di decenza dimettetevi che il popolo e' veramente stanco di sopportare questo mortorio in cui siamo sprofondati.
+
+[post_text_44]
+anche io sono molto deluso dall'amministrazione che ci ritroviamo attualmente, pero' devo fargli i complimenti perche' almeno in estate sono stati coerenti con gli abitanti residenti, non facendo fare molte feste cosi' che chi ha abbandonato il nostro paese per emigrare si ricorda lo stato precario di cui attualmente siamo costretti a subire
+
+[post_text_45]
+Vergognateviiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii viviamo in un paese di pagliacci e ignorantiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii per voi ci vogliono  solo calci e pugni siete e resterete per sempre un popolo di merdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa che il destino via sia crudele meritate solo sofferenza bastardiiiiiiiiiiiiiiiiiiiiiiiiiiiii caposelesiiiiiiiiiiiiiiiiiiiiiiiiiiiiii.vergognateviiiiiiiiiiiiiiiiiiiiiiiiiiiiiii!!!!!!!!
+
+[post_text_46]
+siamo arrivati al punto che nemmeno piu' al bar si puo' bere un caffe' tranquillamente!!! gente che non ha soldi e s'inventa la scusa di farsi una partita a carte per poi potersi bere una consumazione gratis..., poi troviamo pazzi che girano da un bar all'altro fermando chiunque in cerca di un euro per potersi bere un caffe'..., poi troviamo gente con i figli di 50 anni che sta a fare sempre passaggi fermando sempre il cosiddetto "pollo" pensato da loro per ricavare qualche euro durante il tragitto..., poi troviamo gente instabile mentalmente che si avvicina a parlare senza staccarsi piu' da vicino come una zecca..., ed altri casi di malessere sociale che si ritrova nel nostro paese e nessuno fa niente per risolvere tutto cio'!!!Sempre piu' soli e abbandonati da tutto e da tutti e nessuno fa niente per cacciare via per sempre questa gentaglia!!! VERGOGNATEVIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII MISERABILI
+
+[post_text_47]
+allied health professional liability insurance  <a href= http://didrex.webnode.com/ >didrex</a>  medical jobs in demand
