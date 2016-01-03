@@ -236,14 +236,13 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 #
 
 [elenco_pagine]
+%script_root%questions.php?id_questions=8&action=results::Sondaggio Mondiali 2014 (classifica a ponderazione progressiva)
+%script_root%questions.php?id_questions=7&action=results::Sondaggio Mondiali 2014 (classifica a ponderazione semplice)
 %script_root%questions.php?id_questions=5::Sondaggio Europei 2012
 %script_root%questions.php?id_questions=6&action=results:: Sondaggio Europei 2012 (classifica sperimentale)
 %script_root%questions.php?id_questions=4&action=results::Sondaggio Mondiali 2010
 %script_root%questions.php?id_questions=3::Sondaggio Europei 2008
 %script_root%questions.php?id_questions=2&action=results::Sondaggio Champions League 2006/07
 %script_root%statistiche.php?action=show&id_questions=2::Statistiche Sondaggio Champions League 2006/07
-%script_root%questions.php?id_questions=1::Sondaggio Mondiali 2006
-%script_root%statistiche.php?action=show&id_questions=1::Statistiche Sondaggio Mondiali 2006
-.php?action=show&id_questions=2::Statistiche Sondaggio Champions League 2006/07
 %script_root%questions.php?id_questions=1::Sondaggio Mondiali 2006
 %script_root%statistiche.php?action=show&id_questions=1::Statistiche Sondaggio Mondiali 2006
