@@ -160,7 +160,7 @@ cell_R.height=x-13*2;
 //]]>
 </script>
 
-<?php 
+<?php
 if ($admin_mode) 
 {
 ?>
@@ -221,13 +221,16 @@ function do_action(action,data)
 			<!-- riga descrizione album -->
 <?php
 # se il titolo dell'album $anno e' presente nell'archivio tempi, allora metti il link ai tempi di quell'edizione
-$archivio = load_data($filename_tempi,$num_colonne_prestazioni);
 $descrizione_album = "album <b>$anno</b>";
-foreach ($archivio as $prestazione)
+if (file_exists($filename_tempi))
 {
-	if ($prestazione[$indice_anno] == $anno)
+	$archivio = load_data($filename_tempi,$num_colonne_prestazioni);
+	foreach ($archivio as $prestazione)
 	{
-		$descrizione_album = "<a href=\"filtro4.php?anno=$anno\">edizione $anno</a>";
+		if ($prestazione[$indice_anno] == $anno)
+		{
+			$descrizione_album = "<a href=\"filtro4.php?anno=$anno\">edizione $anno</a>";
+		}
 	}
 }
 ?>
