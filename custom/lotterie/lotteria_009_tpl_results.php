@@ -380,13 +380,13 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 			'20' 		=> Array('V<small>G</small>'		,'','Qualificazione per effetto di un maggior numero di  punti in classifica (20 punti)'),
 			'14' 		=> Array('S<small>G</small>'		,'','Qualificazione per effetto della vittoria nello scontro diretto, per effetto della migliore differenza reti o classifica avulsa (14 punti)'),
 			'10' 		=> Array('R<small>G</small>'		,'','Qualificazione per effetto di un maggior numero di reti segnate o di altri criteri (10 punti)'),
-			'default'	=> Array('???'		,'','Errore nell\'inserimento del punteggio')
+			'default'	=> Array('.'		,'','')
 			);
 	$sub_array_ok = Array(
 			'20' 		=> Array('V'		,'','Vittoria nei tempi regolamentari (20 punti)'),
 			'16' 		=> Array('S'		,'','Vittoria ai supplementari (16 punti)'),
 			'11' 		=> Array('R'		,'','Vittoria ai rigori (11 punti)'),
-			'default'	=> Array('???'		,'','Errore nell\'inserimento del punteggio')
+			'default'	=> Array('.'		,'','')
 			);
 
 
@@ -404,13 +404,13 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 			'10' 		=> Array('rg'		,'','Eliminazione per effetto di un minor numero di reti segnate o di altri criteri (10 punti)'),
 			'6' 		=> Array('sg'		,'','Eliminazione per effetto della sconfitta nello scontro diretto o per effetto della peggiore differenza reti o classifica avulsa (6 punti)'),
 			'0'		=> Array('<small>o</small>'		,'','Eliminazione per effetto di un minor numero di  punti in classifica (0 punti)'),
-			'default'	=> Array('.'		,'','Errore nell\'inserimento del punteggio')
+			'default'	=> Array('.'		,'','')
 			);
 	$sub_array_not_ok = Array(
 			'9' 		=> Array('r'		,'','Sconfitta ai rigori (9 punti)'),
 			'4' 		=> Array('s'		,'','Sconfitta ai supplementari (4 punti)'),
 			'0'		=> Array('<small>o</small>'		,'','Sconfitta nei tempi regolamentari (0 punti)'),
-			'default'	=> Array('.'		,'','Errore nell\'inserimento del punteggio')
+			'default'	=> Array('.'		,'','')
 			);
 
 

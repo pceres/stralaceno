@@ -11,11 +11,11 @@ Svizzera
 # Qualificato ottavi 3:
 Galles
 # Qualificato ottavi 4:
-nd
+Polonia
 # Qualificato ottavi 5:
-nd
+Spagna
 # Qualificato ottavi 6:
-nd
+Turchia
 # Qualificato ottavi 7:
 nd
 # Qualificato ottavi 8:
@@ -37,11 +37,11 @@ nd
 # Qualificato ottavi 16:
 nd
 # Qualificato quarti 1:
-nd
+Francia
 # Qualificato quarti 2:
-nd
+Galles
 # Qualificato quarti 3:
-nd
+Spagna
 # Qualificato quarti 4:
 nd
 # Qualificato quarti 5:
@@ -53,9 +53,9 @@ nd
 # Qualificato quarti 8:
 nd
 # Qualificato semifinale 1:
-nd
+Francia
 # Qualificato semifinale 2:
-nd
+Spagna
 # Qualificato semifinale 3:
 nd
 # Qualificato semifinale 4:
@@ -86,22 +86,22 @@ nd
 # Brasile::5,20;4,0             # se il Brasile passa il primo turno ma esce al secondo, e non sono state giocate altre partite
 # Brasile::5,20;4,0;3,0;2,0;1,0 # se il Brasile passa il primo turno ma esce al secondo, e sono state giocate tutte le partite
 [punteggio_risposte]
-Francia::5,20
-Romania::5,0
-Albania::5,0
-Svizzera::5,14
-Inghilterra::5,6
-Russia::5,0
-Galles::5,10
-Slovacchia::5,0
-Germania::5,0
-Ucraina::5,10
-Polonia::
-Irlanda del Nord::
-Spagna::
-Repubblica Ceca::
-Turchia::
-Croazia::
+Francia::5,20;4,16;3,20
+Romania::5,0;4,0;3,0
+Albania::5,0;4,0;3,0
+Svizzera::5,14;4,4;3,0
+Inghilterra::5,6;4,0;3,0
+Russia::5,0;4,0;3,0
+Galles::5,10;4,11;3,0
+Slovacchia::5,0;4,0;3,0
+Germania::5,0;4.0;3,0
+Ucraina::5,10;4,0;3,0
+Polonia::5,20;4,9;3,0
+Irlanda del Nord::5,0;4,0;3,0
+Spagna::5,20;4,20;3,16
+Repubblica Ceca::5,0;4,0;3,0
+Turchia::5,20;4,0;3,0
+Croazia::5,0;4,0;3,0
 Belgio::
 Italia::
 Repubblica d'Irlanda::
