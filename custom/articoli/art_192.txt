@@ -18,6 +18,6 @@ Titolo::Stralaceno 2015
 <img src="%file_root%custom/album/Stra_15/foto5.jpg" alt="stralaceno 2015" border="0" width="600"></div>
 <br>
 <p style="margin-top: 30px">
-Le foto dell'edizione 2015 <a href="http://ars.altervista.org/album.php?anno=Stra_15">QUI</a>
+Le foto dell'edizione 2015 <a href="album.php?anno=Stra_15">QUI</a>
 <br>
 --- End body ---
