@@ -1,17 +1,15 @@
 Autore::Ars
-Titolo::Attivit&agrave; di base 2010
+Titolo::Attivit&agrave; di base
 --- Begin body ---
-<br>
-Anche per il mese di SETTEMBRE gli interessati ad intraprendere una ATTIVIT&Agrave; PODISTICA DI BASE, sono invitati <b>ogni luned&igrave; dalle ore 18.30</b> presso il campo sportivo "Palmenta" di Caposele.
-<!--
 <p>&nbsp;
 <div align="center">
-<img id="Manifesto" src="%file_root%custom/album/ars/AB_Pal.jpg" alt="" border="0" width="460">
+<img id="Manifesto" src="%file_root%custom/album/ars/Attiv.Palmenta2011.jpg" alt="" border="0" width="550">
 </div>
-<br><br>
--->
---- End body ---
-ter">
+<br>
+<!--
+Anche per il mese di SETTEMBRE gli interessati ad intraprendere una ATTIVIT&Agrave; PODISTICA DI BASE, sono invitati <b>ogni luned&igrave; dalle ore 18.30</b> presso il campo sportivo "Palmenta" di Caposele.
+<p>&nbsp;
+<div align="center">
 <img id="Manifesto" src="%file_root%custom/album/ars/AB_Pal.jpg" alt="" border="0" width="460">
 </div>
 <br><br>

@@ -165,6 +165,9 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 151::nicola melillo::06/08/2012 23.20.22::visible
 152::P::26/08/2012 12.46.31::visible
 153::strazzatrippa::30/08/2012 20.36.09::visible
+154::cap.finish::12/02/2013 14.38.06::visible
+155::presidente ARS::13/02/2013 19.51.23::visible
+156::attento::27/10/2014 12.57.12::visible
 
 [post_text_0]
 Aspettiamo le vostre dichiarazioni di sfida...
@@ -910,7 +913,6 @@ i primi 5 per me sono:giuseppe cetrulo,daniele caprio,gelsomino merola,donato ce
 
 [post_text_153]
 domani il grande giorno....oggi tutti a dieta eh? ahahahahha...domani a pranzo vi suggerisco cannelloni oppure lasagne, in base ai gusti personali, come secondo ,invece, patate al forno e salsicce, frutta per tenersi leggeri e poi una bella fetta di torta panna e cioccolato, vabbè...anche due...ah già...c'è anche chi può optare per una bella fagiolata in modo tale da abbattere tutti i contendenti col gas asfissiante prima della partenza ovviamente, oppure ancora si possono intossicare gli avversari offrendo loro bevande opportunamente sofisticate...per chi invece volesse seguire le orme di scwhatzer consiglio di procurarsi la 'bomba', ci sarà sicuramente qualche venditore abusivo napoletano che ve la proporrà...
-rarsi la 'bomba', ci sarà sicuramente qualche venditore abusivo napoletano che ve la proporrà...
 
 [post_text_154]
 come mai cari amici dell'ars non andate piu' a fare gare come circa 4-5 anni fa??????????come mai non puntate piu' su giovani che vogliono immergersi in questo sport ma puntando facilmente su pedine gia' di lusso...!!!come mai si va a fare la maratona a roma per protagonismo mentre il collettivo ars non riesce ad entrare come squadra nemmeno nei primi dieci...lo trovo a dir poco squallido! l'ars come il gioco del calcio a caposele e' finito..
@@ -925,8 +927,6 @@ forse non riesci nemmeno ad immaginare cosa vuol dire fare una maratona, non rie
 E’ davvero squallido scrivere queste porcate, è davvero squallido scrivere queste porcate e firmarsi cap.finisch (cioè anonimo)è davvero squallido che c’è in giro tanta gente che conosce e gli piace solo il “BAR SPORT” disciplina più praticata nostro Amato Paese…
 &nbsp;
 Colgo l’occasione per invitare tutti coloro che hanno un pò di tempo e voglia a partecipare alle attività dell’ARS sia a livello podistico che organizzativo (No perditempo…vedi ” cap.finish”)
-&nbsp;
-(No perditempo…vedi ” cap.finish”)
 &nbsp;
 
 [post_text_156]

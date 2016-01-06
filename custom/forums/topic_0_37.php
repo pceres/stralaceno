@@ -47,6 +47,22 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 33::Michaelem::15/09/2013 11.46.27::visible
 34::Michaelem::15/09/2013 11.49.15::visible
 35::Michaelem::15/09/2013 11.51.48::visible
+36::Michaelem::08/02/2014 23.47.38::visible
+37::Michaelem::08/02/2014 23.49.19::visible
+38::Michaelem::08/02/2014 23.50.47::visible
+39::Michaelem::08/02/2014 23.52.52::visible
+40::Michaelem::08/02/2014 23.54.32::visible
+41::Michaelem::08/02/2014 23.55.45::visible
+42::Michaelem::08/02/2014 23.57.59::visible
+43::Michaelem::08/02/2014 23.59.41::visible
+44::Michaelem::09/02/2014 00.01.06::visible
+45::Michaelem::09/02/2014 00.02.51::visible
+46::Michaelem::09/02/2014 00.04.36::visible
+47::Michaelem::09/02/2014 00.05.49::visible
+48::Michaelem::09/02/2014 00.07.33::visible
+49::Michaelem::09/02/2014 00.08.55::visible
+50::Michaelem::09/02/2014 00.12.03::visible
+51::nic.m.::12/02/2014 18.42.51::visible
 
 [post_text_0]
 Dalla necropoli di Cerveteri si sollevò un trambusto di "già morti" quando Quasimodo il giardiniere fracasso il vaso di Pindaro...
@@ -180,26 +196,6 @@ Abbandonò tutto dopo aver conosciuto Costantina la Truculenta...
 [post_text_31]
 Un antico detto ungherese narra:
 a litigare tra lupo e agnello il riccio ci perde la mela e pure la pelliccia...
-
-[post_text_32]
-Un vecchio detto di Ceylon dice:
-se la tartaruga nuota a pancia in su c'è qualcosa che non va!
-
-[post_text_33]
-Era da poco passata la mezzanotte quando dal bosco di cerze di Don Frisondolo si levò un rumore cupo e tremebondo...
-Suor Cataldina avea posto il plantare destro su di un riccio di campagna...
-Ma che facea in loco a quell'ora?
-
-[post_text_34]
-Pappone primo, re del potente stato dei Papusci, decretò che tutte le ragazze ancora nubili dovessero innamorarsi di lui...
-Tutte tranne Rachele la racchia...
-Ella gli si rifiutò...
-
-[post_text_35]
-Parlare poco delle cose che si fanno...
-Tanto delle cose che si vorrebbero fare...
-Niente delle cose già fatte...
-a pelliccia...
 
 [post_text_32]
 Un vecchio detto di Ceylon dice:

@@ -16,6 +16,7 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 2::barrista::29/01/2011 17.05.03::visible
 3::cliente::29/01/2011 20.40.22::visible
 4::barrista::30/01/2011 10.30.45::visible
+5::gaetano::21/06/2011 23.32.37::visible
 
 [post_text_0]
 sono circa due anni che non mi alleno,ho tralasciato anche il mio caro sport che sarebbe il calcio, ho perso la forma di circa tre anni fa che avevo per svariati motivi... Ma una cosa e' certa, la mentalita' e'rimasta sempre quella vincente!!! se verro' alla stralaceno daro' filo da torcere a tutti... la mia grinta non ha bisogno di tanti allenamenti... io sono un vincente!!!
@@ -28,9 +29,6 @@ ragazzi andiamoci piano con gli alcolici e gli stupefacenti:-)
 
 [post_text_3]
 &gt;ragazzi andiamoci piano con gli alcolici e gli stupefacenti:-)<br>&gt;<br><br>ma che dici!!! guardati tu dato che sei barista...ahhahahhaahhaah
-
-[post_text_4]
-appunto dico hahaha :-)
 
 [post_text_4]
 appunto dico hahaha :-)

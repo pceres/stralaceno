@@ -367,6 +367,11 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 353::scocciato::27/03/2014 19.56.36::visible
 354::stanco e deluso::06/04/2014 13.04.03::visible
 355::nicola melillo::04/06/2014 18.31.07::visible
+356::stanco e deluso::30/08/2014 17.47.06::visible
+357::deluso e arrabbiato::29/01/2015 13.34.29::visible
+358::veramente stanco ::14/04/2015 18.56.31::visible
+359::stanco::30/05/2015 19.19.41::visible
+360::ppppp::01/06/2015 15.43.50::visible
 
 [post_text_0]
 Fermate Nicola Melillo con questa stralaceno: anche i muri di materdomini e caposele non ne possono più.
@@ -2107,7 +2112,6 @@ cosa ce ne facciamo di una vita in cui ti alzi la mattina e non vedi l'ora che a
 
 [post_text_355]
 Che tristezza tutti i giorni sempre uguali in questo stupido e arretrato paesello a 35 anni l'unica cosa che c'e' da fare e' una partita a carte nei soliti bar ritrovo solo  per gente vecchia e finita ma peche' siamo stati cosi' sfortunati a nascere qui.E poi ci sono quelli che ogni tanto ritornano non si  fanno ne' sentire ne' vedere siete e resterete per sempre gente falsa e a cazzi vostri. Concludo  dicendo Stanchi di questa realta' deprimente l'unica cosa da fare se vogliamo costruire un futuro diverso e' fuggire e trovare lavoro fuori con la convinzione di non ritornare piu' a Caposele.
-e per sempre gente falsa e a cazzi vostri. Concludo  dicendo Stanchi di questa realta' deprimente l'unica cosa da fare se vogliamo costruire un futuro diverso e' fuggire e trovare lavoro fuori con la convinzione di non ritornare piu' a Caposele.
 
 [post_text_356]
 Vergognatevi organizzatori dell'estate caposelese ancora una volta avete prodotto zero non c'e' stata una serata degna di essere trascorsa fuori con gioia,entusiasmo ed allegria sempre le solite festicciole davanti ai bar con la solita bevanda in mano.Sono andati bene solo i proprietari dei bar che hanno guadagnato dato che ai gruppi gli hanno dato 4 soldi ma sfido chiunque a dire che la gente si e' divertita.Cari organizzatori con i soldi che avete speso in tutto il mese di agosto si organizzava una sola serata tipo S.Lorenzo e si chiamava un Cantante discreto di nome che accontentava sia i giovani che gli adulti e almeno per una sera Caposele si distingueva dagli altri paesi limitrofi che non hanno fatto niente.Io sono convinto che c'e' una sola via per uscire da questo schifo estivo e cioe' rifondare un nuovo comitato feste composto pero' questa volta da persone intelligenti grintose volenterose competenti che ridiano a questo paese la voglia di sentirsi ancora vivo anche solo per l'estate in quanto sono anni che  assiastiamo a estati deprimenti e vergognose.

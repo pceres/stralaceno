@@ -2,14 +2,10 @@ Autore::Ars
 Titolo::La Foto della Settimana
 --- Begin body ---
 <br><div align="center">
-<img id="fotosett" src="%file_root%custom/album/Foto Settimana/fre.jpg" alt="" border="" width="500">
+<img id="fotosett" src="%file_root%custom/album/Foto Settimana/corcil.jpg" alt="" border="" width="550">
 </div>
 <br><FONT SIZE="3"><FONT FACE="calibri"> 
-<p align="left">14.04.2013 Dalla parte sbagliata - Sembra andare dalla parte sbagliata questo concorrente della maratona di Vienna (Corriere.it)</p><br></font></font>
-<i>La raccolta dell'album "La Foto della Settimana" la trovate <a href="album.php?anno=Foto Settimana">qui</a>.<br>
-</b></i>
---- End body ---
-e grande importanza per l'economia locale. Assecondando una tradizione di più di 300 anni, le campane della chiesa di San Michele suonano per annunciare il momento in cui i frutti sono maturi e i cittadini possono prenderle dagli alberi, con le scale di legno (Corriere.it)</p><br></font></font>
+<p align="left">02.07.2013 La corsa delle ciliegie - Squadre di bambini corrono con scale di legno per le vie di Zugo, in uno dei cantoni più piccoli della Condeferazione Elvetica, per la tradizionale «Ciliegia-Rush», la Corsa delle ciliegie che inaugura la stagione della raccolta del frutto rosso, che riveste grande importanza per l'economia locale. Assecondando una tradizione di più di 300 anni, le campane della chiesa di San Michele suonano per annunciare il momento in cui i frutti sono maturi e i cittadini possono prenderle dagli alberi, con le scale di legno (Corriere.it)</p><br></font></font>
 <i>La raccolta dell'album "La Foto della Settimana" la trovate <a href="album.php?anno=Foto Settimana">qui</a>.<br>
 </b></i>
 --- End body ---

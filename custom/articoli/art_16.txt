@@ -2,24 +2,23 @@ Autore::
 Titolo::ARS Amatori Running Sele
 --- Begin body ---
 <br>
+<FONT SIZE="3"><FONT FACE="calibri"> 
+<br>
 L’Associazione &egrave; apolitica e non ha scopo di lucro.
 <br><br>
 Essa si propone di:
-<br>-promuovere e diffondere una corretta pratica dello sport. Per il raggiungimento di tale scopo l’Associazione potr&agrave; organizzare momenti di attivit&agrave; sportiva e manifestazioni di vario tipo, con particolare riguardo al risvolto sociale ed educativo;
+<br>-promuovere e diffondere una corretta pratica dello sport. Per il raggiungimento di tale scopo l’Associazione potr&agrave; organizzare momenti di attivit&agrave; sportiva e manifestazioni di vario tipo, con particolare riguardo al risvolto sociale ed educativo; 
 <br>-intraprendere iniziative di natura culturale al fine di approfondire il significato dell’attività sportiva nelle sue diverse interpretazioni;
 <br>-attuare servizi e strutture per lo svolgimento delle attività fisiche ed intellettuali;
 <br>-favorire contatti fra soci aventi specifici interessi culturali e sportivi, costituendo sezioni per le attività di maggior rilievo;
-<br>-aderire a qualsiasi attivit&agrave; che direttamente, tramite delibera del Consiglio Direttivo, sia giudicata idonea al raggiungimento degli scopi  sociali.<br>
+<br>-aderire a qualsiasi attivit&agrave; che direttamente, tramite delibera del Consiglio Direttivo, sia giudicata idonea al raggiungimento degli scopi  sociali.<br></font></font>
 <p>&nbsp;
 <div align="center">
-<img id="logo_ars" src="%file_root%custom/album/ars/ars.jpg" alt="logo_ars" border="0" width="260">
+<img id="" src="%file_root%custom/album/varie/run.jpg" alt="" border="0" width="440">
 </div>
---- End body ---
-width="440">
-</div>
-<br>
---- End body ---
-3/2012: pronti per il "tradizionale" allenamento del sabato
+<!--
+<br><br>
+<br>24/03/2012: pronti per il "tradizionale" allenamento del sabato
 <br><br>
 <div align="center">
 <img id="" src="%file_root%custom/album/ars/all.marzo2012.JPG" alt="" border="0" width="460">
@@ -32,4 +31,3 @@ width="440">
 <br>
 -->
 --- End body ---
- ---

@@ -53,6 +53,9 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 39::Salvatore::06/02/2007 17.50.39::visible
 40::ARS::16/04/2010 13.09.28::visible
 41::ARS::30/04/2010 09.18.55::visible
+42::STRACAPOSELE::22/04/2011 00.27.31::visible
+43::VERGOGNATEVI!!!!!!!!::19/05/2011 00.54.21::visible
+44::SCONSOLATO::20/05/2011 18.18.35::visible
 
 [post_text_0]
 Aspettiamo qui le vostre osservazioni e le vostre intenzioni di partecipazione all'allenamento podistico del 30 dicembre 2006. Ciao.
@@ -304,10 +307,6 @@ AVVISO
 &nbsp;
 Tutti gli interessati ad iniziare una attività podistica di base sono invitati
 LUNEDI' 3 MAGGIO alle 18.15,
-al campo sportivo Liloia di Caposele: saranno presenti alcuni componenti dell'ARS che coordineranno l'allenamento.
-&nbsp;
-ARS
- MAGGIO alle 18.15,
 al campo sportivo Liloia di Caposele: saranno presenti alcuni componenti dell'ARS che coordineranno l'allenamento.
 &nbsp;
 ARS

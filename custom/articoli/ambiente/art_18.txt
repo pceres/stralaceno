@@ -91,11 +91,11 @@ Cappella della Madonna del Fiume: la "menna della Madonna"
 <br>
 <br>
 <br>
-<a href="http://www.openstreetmap.org/?lat=40.78614&lon=15.19027&zoom=16&layers=M">Vai alla mappa del percorso su Openstreetmap.org</a>
+<a href="http://www.openstreetmap.org/?lat=40.78645&lon=15.18898&zoom=15&layers=M">Vai alla mappa del percorso su Openstreetmap.org</a>
 <br><br>
 <br>
---- End body ---
-i e script per OpenLayers ed OpenStreetMap
+    <!--
+    stili e script per OpenLayers ed OpenStreetMap
     -->
     <!-- bring in the OpenLayers javascript library -->
     <script src="../osm/OpenLayers.js" type="text/javascript"></script>

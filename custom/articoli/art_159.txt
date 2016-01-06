@@ -16,9 +16,15 @@ La classifica la trovate <a href="download.php?resource_type=file&amp;resource_i
 <br>
 <br>
 Le foto sono <a href="album.php?anno=Vietri_13">qui</a>.   
-<br><div align="center">
+<br>
 <div align="center">
-<img id="" src="%file_root%custom/album/Vietri_13/V13_7.jpg" alt="" border="0" width="500">
+<br><b><font color="#FF0000">
+Inserito il video della gara<br><br></font>
+<iframe width="550" height="315" 
+src="http://www.youtube.com/embed/14XWNjdLjew" frameborder="0" 
+allowfullscreen></iframe><br><br>
+<img id="a" src="%file_root%custom/album/Vietri_13/V13_7.jpg" alt="" border="0" width="500">
+<br><br>
 <br><br>
 <u>Percorso e altimetria</u>: <br>
 Dragonea – partenza <br>
@@ -29,13 +35,6 @@ Capodacqua - km 6,3 <br>
 Dev. Alta Via - km 7,8 <br>
 S. Cristofaro - km 9,0 <br>
 Fine discesa - km 9,5 <br>
-San Vincenzo - km 10 arrivo <br>
-<br>
-<img id="" src="%file_root%custom/album/Vietri_13/V13_8.jpg" alt="" border="0" width="500">
-<div align="left">
-<br>
---- End body ---
-e discesa - km 9,5 <br>
 San Vincenzo - km 10 arrivo <br>
 <br>
 <img id="v" src="%file_root%custom/album/Vietri_13/V13_8.jpg" alt="" border="0" width="500">

@@ -1844,6 +1844,7 @@ single.jpg::::07/06/2010 La corsa dei single - Cinque chilometri di corsa, per l
 Newcastle09.jpg::::29/09/2009 Maratona d'autunno - I corridori della Grande corsa del Nord, passano sul ponte di Newcastle mentre gli aerei acrobatici danno il benvenuto in citt&agrave; (Corriere.it)
 
 [FotoFlash]
+nusco2014::::03.08.2014 - Alla Maratonina della Misericordia di Nusco fa il suo esordio con la divisa dell'ARS il nuovo socio GERARDO VISCIDO, che ottiene un brillante /&deg; posto con il tempo di 45'20''. Alla gara, di km 10,25 ha partecipato anche Nicola D'Auria che ha realizzato il tempo di 57'30''. 
 tallacano2014.jpg::::21.04.2014 - Daniele Caprio vince il tallacano trail di acquasanta terme(AP) di 15 km
 agro14.jpg::::06.04.2014 - Mauro Losco realizza alla 15^ Agropoli Half Marathon il nuovo record ARS sulla distanza della mezza maratona (km 21,097) con il tempo di 1 ora 22 minuti e 54 secondi (migliorando di 11 secondi il recente primato di Donato Ceres). Nella stessa giornata Daniele Caprio ottiene il 9&deg; posto assoluto al Trail delle Ferriere di km 14 ad Amalfi.
 positano14.jpg::::16.03.2014 - Daniele Caprio ottiene il 10&deg; posto assoluto al Beach Trail di Positano di 11 km
@@ -1863,8 +1864,8 @@ bravini13.jpg::::21.04.2013 - Carmine Calvanese durante il 2&deg; memorial N.Bra
 Terni2013.jpg::::24.03.2013 - Carmine Calvanese impegnato nelle prime fasi della Maratonina di Terni.
 cas.jpg::::15.02.2013 - Pronte le nuove casacche ARS per i due ultimi arrivati nella squadra podistica agonistica: Mauro Losco e Carmine Calvanese.
 AlfDAuria.jpg::::13.01.2013 - Alfonsina D'Auria (maglietta gialla) prende parte alla categoria esordienti del Campionato Brianzolo di cross, tappa di Cant&ugrave;.
-
-
+castelvetere.jpg::::14.07.2014 Donato e Mauro corrono alla 9km di castelvetere.
+allenament2015.jpg::::4.04.2015 Allenamento collettivo.
 [Parigi_13]
 p2.JPG::
 p4.JPG::
@@ -1888,7 +1889,7 @@ p21.JPG::
 p22.JPG::
 p23.JPG::
 p24.JPG::
-
+foto1.jpg::::Donatello nella mezza maratona di Ferrara
 [ambiente]
 Parco_Picentini.jpg::Parco dei Monti Picentini::Vista d'insieme::
 Parco_Picentini_zoom_Caposele.jpg::Parco dei Monti Picentini::zoom comune di Caposele (centro abitato in zona C, zona adiacente in zona B)
@@ -2051,40 +2052,6 @@ stra13_3.jpg::
 13_127.jpg::::
 13_128.jpg::::
 13_129.jpg::::
-13_130.jpg::::
-13_131.jpg::::
-13_132.jpg::::
-13_133.jpg::::
-13_134.jpg::::
-13_135.jpg::::
-13_136.jpg::::
-13_137.jpg::::
-13_138.jpg::::
-13_139.jpg::::
-13_140.jpg::::
-13_141.jpg::::
-13_142.jpg::::
-13_143.jpg::::
-13_144.jpg::::
-13_145.jpg::::
-13_146.jpg::::
-13_147.jpg::::
-13_148.jpg::::
-13_149.jpg::::
-
-[ambiente14]
-[Calabritto_14]
-foto1.jpg::::
-foto2.jpg::::
-foto3.jpg::::
-foto4.jpg::::
-foto5.jpg::::
-foto6.jpg::::
-foto7.jpg::::
-foto8.jpg::::
-
-[varie2]
-jpg::::
 13_130.jpg::::
 13_131.jpg::::
 13_132.jpg::::

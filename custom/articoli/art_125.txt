@@ -9,11 +9,15 @@ Gli iscritti alla gara sono stati 16.188. Giunti al traguardo 11.895 atleti.
 <br><br>
 <b>Hanno completato la gara Donato Ceres e Saverio Perna. I due rappresentanti dell'ARS non sono riusciti a ritoccare le rispettive migliori prestazioni personali sulla distanza. <br>Donato ha realizzato il tempo di 3h 36' 42'' (real time) classificandosi al 2574° posto, Saverio ha ottenuto 3h 43' 54'' (real time) in 3379° posizione.</b>
 <br><br>
-<i><font color="blue">L'album della gara lo trovate <a href="album.php?anno=Roma_11">qui</a>.<br></font>
+<i><font color="red">L'album della gara lo trovate <a href="album.php?anno=Roma_11">qui</a>.<br></font>
 </b></i>
 <p>&nbsp;
 <div align="center">
-<img id="" src="%file_root%custom/album/Roma_11/XVIIroma13.jpg" alt="" border="0" width="500">
+<img id="" src="%file_root%custom/album/Roma_11/RM11_2.jpg" alt="" border="0" width="500">
+</div><br>
+<p>&nbsp;
+<div align="center">
+<img id="" src="%file_root%custom/album/Roma_11/RM11_4.jpg" alt="" border="0" width="500">
 </div>
 <!--
 <br>
@@ -28,8 +32,5 @@ Roma sar&agrave; una citt&agrave; in festa con bande e farfare lungo tutto il pe
 <b>I “nostri” Donato Ceres e Saverio Perna hanno completato gli ultimi allenamenti impegnativi
 per cercare di arrivare al meglio al prestigioso appuntamento.
 Moltissimi i km macinati in questi mesi dai due, un duro lavoro che si spera possa dare i suoi frutti. Forza ragazzi!
--->
---- End body ---
- i km macinati in questi mesi dai due, un duro lavoro che si spera possa dare i suoi frutti. Forza ragazzi!
 -->
 --- End body ---

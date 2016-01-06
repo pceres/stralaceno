@@ -1,21 +1,42 @@
-Autore::
+Autore::Ars
 Titolo::Agropoli Half Marathon 2011
 --- Begin body ---
 <br>
+La gara, conclusa da 1068 atleti, &egrave; stata vinta dal H. KIPRONO del Kenia in 1 h 03 min. e 59 sec.<br>
+<br>
+<b>Ottima prestazione dei rappresentanti dell'ARS.<br>
+Salvatore Merola ha chiuso in 1h 31' 49'' piazzandosi al 253° posto, record personale sulla distanza migliorato di oltre 5 minuti. <br>Donatello Cirillo 502° in 1h 39' 47'', primato personale abbassato di oltre 6 minuti.</b>
+<br><br>
+Sotto alcuni scatti fotografici della manifestazione.
+<br><br>
+<div align="center">
+<img id="" src="%file_root%custom/album/ars/Agr11_3.jpg" alt="" border="0" width="500">
+</div>
+<br>
+<div align="center">
+<img id="" src="%file_root%custom/album/ars/Agr11_6.jpg" alt="" border="0" width="500">
+</div>
+<br>
+<div align="center">
+<img id="" src="%file_root%custom/album/ars/Agr11_2.jpg" alt="" border="0" width="550">
+</div>
+<br>
+<div align="center">
+<img id="" src="%file_root%custom/album/ars/Agr11_4.jpg" alt="" border="0" width="500">
+</div>
+<br>
+<div align="center">
+<img id="" src="%file_root%custom/album/ars/Agr11_5.jpg" alt="" border="0" width="500">
+</div>
+<br>
+<div align="center">
+<img id="" src="%file_root%custom/album/ars/Agr11_1.jpg" alt="" border="0" width="400">
+</div>
+<!--
 Domenica 3 aprile l’edizione 2011 dell’Half Marathon di Agropoli. 
 <br><br>
 La splendida 21.097 metri del rinomato comune salernitano, torna alla sua data classica e ripropone il suo percorso vincente: tracciato velocissimo, cura dei particolari e spettacolarit&agrave; dei luoghi attraversati (Paestum in testa). 
 <br>Intorno alle 1000 unit&agrave; gli atleti al via, e grandi nomi che si propongono o ripropongono per l’evento. Prima tra tutte il ritorno in Campania della Marocchina Lamachi. Meriyem punter&agrave; nuovamente a migliorare il suo best sulla distanza, registrato proprio ad Agropoli lo scorso anno: poco pi&ugrave; di 1h13’ che lasciarono il segno, portandola alla vittoria. <br><br>
-Appena rientrato dal Marocco, dopo un periodo di preparazione in altura toccher&agrave; al fratello di Meriyem, Abdelkebir Lamachi, confrontarsi con un duo Keniani di assoluto valore: il vincitore della scorsa edizione, Hillary Kiprono, atleta da poco pi&ugrave; di 1h01’ sulla distanza e  Abraham Kipkeme Talam, segnalato in ottima forma. Record da battere, in questo caso, quello del grande Campano Gianluca Ricci, registrato nell’edizione 2009. <br><br>
-La sera del Sabato 2 Aprile la presentazione ufficiale degli atleti, dei Pace Maker (previsti per chi correr&agrave; per l’1h24’/30’/35’/40’/45’/50’/55’/2h) e, ancor prima, il convegno con a tema la dieta mediterranea.  <i>(Articolo tratto da Podistidoc.it) </i><br><br>
-<b> Per l’ARS saranno presenti al via Salvatore Merola, al rientro agonistico dopo oltre un anno, e Donatello Cirillo, alla sua seconda mezza maratona in questi primi mesi del 2011. </b>
-<br><br>
-<div align="center">
-<img id="Agropoli" src="%file_root%custom/album/Agropoli_08/HAgr11.jpg" alt="Agropoli" border="0" width="550">
-</div>
-<br>
---- End body ---
-egistrato proprio ad Agropoli lo scorso anno: poco pi&ugrave; di 1h13’ che lasciarono il segno, portandola alla vittoria. <br><br>
 Appena rientrato dal Marocco, dopo un periodo di preparazione in altura toccher&agrave; al fratello di Meriyem, Abdelkebir Lamachi, confrontarsi con un duo Keniani di assoluto valore: il vincitore della scorsa edizione, Hillary Kiprono, atleta da poco pi&ugrave; di 1h01’ sulla distanza e  Abraham Kipkeme Talam, segnalato in ottima forma. Record da battere, in questo caso, quello del grande Campano Gianluca Ricci, registrato nell’edizione 2009. <br><br>
 La sera del Sabato 2 Aprile la presentazione ufficiale degli atleti, dei Pace Maker (previsti per chi correr&agrave; per l’1h24’/30’/35’/40’/45’/50’/55’/2h) e, ancor prima, il convegno con a tema la dieta mediterranea.  <i>(Articolo tratto da Podistidoc.it) </i><br><br>
 <b> Per l’ARS saranno presenti al via Salvatore Merola, al rientro agonistico dopo oltre un anno, e Donatello Cirillo, alla sua seconda mezza maratona in questi primi mesi del 2011. </b>

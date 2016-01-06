@@ -6,6 +6,7 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+14/07/2014::Donato Ceres e Mauro Losco hanno partecipato alla gara di Castelvetere sul calore(AV).
 17/05/2014::Daniele Caprio e Carmine Cuozzo hanno partecipato alla 1^ edizione Memorial Luongo a Calabritto.
 21/04/2014::Daniele Caprio vince il tallacano trail di acquasanta terme(AP) di 15 km.
 06/04/2014::Daniele Caprio ha partecipato al Trail delle Ferriere 2014 di Amalfi 2014 di km 14.
@@ -219,10 +220,6 @@
 15/04/2006::Il 15 aprile si &egrave; tenuta l'Assemblea annuale dell'Associazione, in cui &egrave; stato approvato il rendiconto economico 2005.
 
 #
-# formato testo_footer:  testo
-#
-[testo_footer]
-#Ultimo aggiornamento effettuato il ../../....#
 # formato testo_footer:  testo
 #
 [testo_footer]

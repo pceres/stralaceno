@@ -6,7 +6,9 @@ Titolo::Sondaggio-Studio Mondiali di Calcio 2014
 <img id="Praga" src="%file_root%custom/album/varie/brasil-2014.jpg" alt="Praga" border="0" width="200">
 </div>
 <br>
-<h3><a href=" questions.php?id_questions=7&action=results ">Visualizza la classifica</a><h3>
+<h3><a href=" questions.php?id_questions=7&action=results ">CLASSIFICA TRADIZIONALE (A PONDERAZIONE SEMPLICE)</a><h3>
+<br>
+<h3><a href=" questions.php?id_questions=8&action=results ">CLASSIFICA A PONDERAZIONE PROGRESSIVA</a><h3>
 <br>
 <br>
 <a href="statistiche.php?action=show&id_questions=7">Visualizza le statistiche sulle giocate effettuate</a>
@@ -40,10 +42,6 @@ Le giocate sono `per la gloria`: nessuna contribuzione e nessun premio in caso d
 <br>
 <b>Le Giocate saranno Visibili </b> sul sito http://ars.altervista.org  <br>
 Gi&agrave; durante il periodo delle giocate queste saranno visibili con nome, cognome, data di nascita e provenienza del giocatore. <br><br>
-<b>Numero delle giocate </b> <br>
-Ogni persona pu&ograve; giocare una sola volta. <br><br>
---- End body ---
-a del giocatore. <br><br>
 <b>Numero delle giocate </b> <br>
 Ogni persona pu&ograve; giocare una sola volta. <br><br>
 --- End body ---

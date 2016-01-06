@@ -16,14 +16,14 @@ Formato [elenco_topics]:
 [elenco_topics]
 0::Benvenuti nel forum::open::::::ceres::5::4
 1::Come funziona il forum::hidden::::::ceres::1::
-2::Sondaggio sui mondiali di calcio::open::::::ceres::4::3
+2::Sondaggio sui mondiali di calcio::open::::::ceres::5::4
 3::Estate caposelese::hidden::::users::Pasquale Ceres::2::1
 4::Sondaggio Champions League::open::::::Pasquale C.::17::16
 5::Benvenuti nel forum::hidden::::::ceres::4::3
 6::Come funziona il forum::open::::::ceres::3::2
-7::Le sfide della Stralaceno::open::::::foxy::151::155
+7::Le sfide della Stralaceno::open::::::foxy::152::156
 8::Soddisfatti della stralaceno edizione 2006???::hidden::::::cabo86::5::4
-9::Discussione::open::::::Antonio::367::355
+9::Discussione::open::::::Antonio::372::360
 10::Gare::open::::::cabo::35::44
 11::Sezione ciclismo::open::::::Donato Gervasio::33::32
 12::Allenamento Collettivo::open::::::Ars::45::44
@@ -45,7 +45,7 @@ Formato [elenco_topics]:
 28::sentenza::hidden::::::emigrato::1::0
 29::forza caposele::hidden::::::gaetano::2::1
 30::MEZZA MARATONA CITTA' DI POTENZA TUNE-UP::hidden::::::MIMMO55::1::0
-31::I problemi di caposele::open::::::gaetano::32::31
+31::I problemi di caposele::open::::::gaetano::48::47
 32::vergognatevi!!!!!::hidden::::::ESASPERATI::1::0
 33::sto arrivando!!::open::::::gaetano::6::5
 34::stufato::hidden::::::hamsik::3::2

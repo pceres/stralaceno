@@ -41,6 +41,24 @@ E' il testo del post, puo' essere su piu' righe, nessuna delle quali vuote
 27::nicola m.::19/12/2013 18.50.15::visible
 28::Lupo::20/12/2013 11.35.54::visible
 29::imbroglioni::25/01/2014 22.00.38::visible
+30::perplesso::25/04/2014 18.53.59::visible
+31::forza!!!::27/04/2014 18.29.49::visible
+32::stanco::17/09/2014 19.27.55::visible
+33::Brandonvacy::18/09/2014 02.16.21::visible
+34::deluso e stanco::06/11/2014 12.05.39::visible
+35::vergognateviiiiiiiiiiii::12/11/2014 00.10.46::visible
+36::attento::21/12/2014 11.34.07::visible
+37::DanielJab::16/01/2015 18.26.57::visible
+38::Josephot::20/01/2015 11.50.34::visible
+39::Charlespr::04/03/2015 01.56.38::visible
+40::stufato::17/06/2015 13.44.44::visible
+41::veramente deluso::14/08/2015 18.42.39::visible
+42::SamuelCoca::23/08/2015 05.58.41::visible
+43::stanco e deluso::19/09/2015 12.52.08::visible
+44::tevez::28/09/2015 05.22.58::visible
+45::stanco e deluso::01/10/2015 19.30.40::visible
+46::tevez::04/10/2015 02.16.24::visible
+47::Richardrig::16/12/2015 02.56.51::visible
 
 [post_text_0]
 a caposele non solo non c'e'nessuno,ma per quei pochi che siamo rimasti viviamo in uno stato di precarieta'dovuta alla mancanza di occupazione in primix, e tutto il resto fa da cornice a questo problema. il calcio in un paese come caposele e' finito, nemmeno una terza categoria si fa piu',con un campo dal valore di 2 miliardi... che vergogna! calabritto ci ha superati! loro hanno una squadra, un campo, e una pista d'atletica, noi invece dobbiamo correre in mezzo al traffico o in campagna col rischio di essere aggrediti dai cani. spero che un giorno caposele rinasca, e quei pochi che ora sono piccoli abbino un futuro piu' roseo e no costretti a scappare da caposele per mancanza di TUTTO.
@@ -142,14 +160,12 @@ Vergognatevi falsi tifosi dell'Avellino in questi giorni vi siete riempiti la bo
 
 [post_text_29]
 non e' possibile che non si trova lavoro a caposele!!!!!!!! i datori di lavoro pensano solo ai cavoli loro pagandoti molto meno del dovuto solo perche'se ne approfittano della crisi...Cosi'non si puo'continuare!!! noi lavoratori vogliamo quello che ci tocca!!! i soldi, i contributi,le ferie..ecc. non esiste piu'niente!!! RIBELLIAMOCI!!!!!!!!!!! le giornate da cameriere andatele a fare voi il weekend a materdomini brutti stronzi!!! NOI VOGLIAMO LO STIPENDIO!!! VOGLIAMO DIRITTI E DOVERI!!! Noi siamo il futuro di questo stupido paese ma vogliamo RISPETTO!!!!!!!
-TTI E DOVERI!!! Noi siamo il futuro di questo stupido paese ma vogliamo RISPETTO!!!!!!!
 
 [post_text_30]
 Vergognatevi emigrati la passerella e' finita per pasqua adesso ve ne siete gia' scappati da Caposele ritornerete per agosto non abbiamo bisogno di voi siete solo dei buffoni raccomandati falsi e piu' fortunati di noi ad avere un lavoro fuori ma nella vita sociale non siete nessuno resterete per sempre incompiuti e isolati,speriamo che anche per noi rimasti in questo schifo di paese arrivino giorni migliori perche' cosi' la vita non ha veramente senso,scusate lo sfogo ma siamo veramente stanchi di essere presi in giro da questa falsa societa'.
 
 [post_text_31]
 questo governo con tutta la sua nazione mi fa schifo!!! 80 euro al mese non risolvono i problemi di tutti i giorni ma va ad aggravare il fatto che questo stupido stato aiuta sempre chi sta bene e finisce di ammazzare chi e' in difficolta' pura!!! se uno non concepisce uno stipendio statale e meglio che va a rubare perche'lo stato non ti aiuta, figuriamoci quei vermi schifosi ecclesiastici che parlano solo a vanvera... Dobbiamo ribellarci da questi porci burattini che ci amministrano, non dobbiamo piu' pagare niente ed usare la violenza contro questi dittatori!!! Napoli e'l'esempio dell'italia che vuol rinascere senza farsi calpestrare da queste merde con la cravatta!!! AVANTI!!!!!!!!
-gravare il fatto che questo stupido stato aiuta sempre chi sta bene e finisce di ammazzare chi e' in difficolta' pura!!! se uno non concepisce uno stipendio statale e meglio che va a rubare perche'lo stato non ti aiuta, figuriamoci quei vermi schifosi ecclesiastici che parlano solo a vanvera... Dobbiamo ribellarci da questi porci burattini che ci amministrano, non dobbiamo piu' pagare niente ed usare la violenza contro questi dittatori!!! Napoli e'l'esempio dell'italia che vuol rinascere senza farsi calpestrare da queste merde con la cravatta!!! AVANTI!!!!!!!!
 
 [post_text_32]
 ogni giorno qui a Caposele sempre la stessa vita di merda l'unica cosa che si puo' fare e' giocare a carte in un bar con persone cretine,inqualificabili,fallite,furbe,ignoranti e stupide adesso basta ma perche' siamo stati cosi' sfortunati a nascere in questa schifezza non e' giusto l'unica consolazione e' pensare a chi e' stato piu' sfortunato di me che nella vita ha problemi molto piu' seri che una misera partita a carte.Invidio tutti quei caposelesi che sono andati via di qua avete fatto benissimo qui il futuro per un giovane non esiste speriamo che anche io con un po' di fortuna riesco ad andare via perche' qui non sene puo' veramente piu' di avere a che fare con questo popolo di cafoni e ignoranti.
@@ -186,7 +202,6 @@ alliance for academic internal medicine  <a href=http://roxicodone.tribalpages.c
 
 [post_text_43]
 Viviamo in un paese di falliti l'unica cosa che si puo' fare quando si esce a giocare a carte davanti ai bar per di piu' con gente ignorante,frustrata,vecchia,furba,cattiva.adesso basta ne abbiamo veramente le scatole piene ma percheì abbiamo avuto questa maledetta sfortuna a nascere in questo paese inesistente invidio chi ha avuto il coraggio di scappare da qui e costruirsi una nuova vita lontano avete fatto benissimo non vi siete persi nulla non ci ritornate piu' che qui si muore dentro di malinconia e depressione.infine una ultima critica la voglio come sempre rivolgere all'amministrazione comunale assente che in 8 anni di attivita' avete prodotto zero in tutto per voi esiste una sola parola Vergognateviiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiise avete un minimo di decenza dimettetevi che il popolo e' veramente stanco di sopportare questo mortorio in cui siamo sprofondati.
- Vergognateviiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiise avete un minimo di decenza dimettetevi che il popolo e' veramente stanco di sopportare questo mortorio in cui siamo sprofondati.
 
 [post_text_44]
 anche io sono molto deluso dall'amministrazione che ci ritroviamo attualmente, pero' devo fargli i complimenti perche' almeno in estate sono stati coerenti con gli abitanti residenti, non facendo fare molte feste cosi' che chi ha abbandonato il nostro paese per emigrare si ricorda lo stato precario di cui attualmente siamo costretti a subire

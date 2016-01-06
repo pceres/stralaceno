@@ -72,18 +72,18 @@ Vista del monte Cervarulo dalla parte bassa del Rio Zagarone
 <div align="center">
 <img id="zag11" src="%file_root%custom/album/ambiente/zag11.JPG" alt="" border="0" width="550">
 <br> <br>
-Rio Zagarone in prossimità della confluenza con il fiume Sele
+Rio Zagarone in prossimità della confluenza con il Fiume Sele
 <br>
 <br><br>
 <div align="center">
 <img id="zag12" src="%file_root%custom/album/ambiente/zag12.JPG" alt="" border="0" width="550">
 <br> <br>
-Rio Zagarone in prossimità della confluenza con il fiume Sele<br>
+Rio Zagarone in prossimità della confluenza con il Fiume Sele<br>
 <br><br>
 <div align="center">
 <img id="zag4" src="%file_root%custom/album/ambiente/zag4.JPG" alt="" border="0" width="550">
 <br> <br>
-Confluenza Rio Zagarone - fiume Sele
+Confluenza Rio Zagarone - Fiume Sele
 <br>
 <br>
 --- End body ---

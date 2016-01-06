@@ -2,20 +2,20 @@ Autore::Ars
 Titolo::Assemblea Annuale Ars
 --- Begin body ---
 <FONT SIZE="4"><FONT FACE="calibri"> 
+<!--
 <br>
-Il giorno venerd&igrave; <b>22 aprile 2011</b> alle <b>ore 15.30</b> in Corso Garibaldi n.53 in Caposele, si terr&agrave; l’assemblea annuale ordinaria  della nostra associazione.<br><br>
+Il giorno sabato <b>19 aprile 2014</b> alle <b>ore 18.30</b> in Corso Garibaldi n.53 in Caposele, si terr&agrave; l’assemblea annuale ordinaria  della nostra associazione.<br><br>
 L’ordine del giorno prevede:<br>
-1. Approvazione rendiconto economico finanziario  2010;<br>
+1. Approvazione rendiconto economico finanziario  2013;<br>
 2. <b>Rinnovo Consiglio Direttivo</b>;<br>
-3. Individuazione eventuali Responsabili di Settore;<br>
-4. Programmazione attività anno 2011.
+3. Programmazione attività anno 2014.
 <br><br>
-<div align="center">
-<img id="Roma_2008" src="%file_root%custom/album/Soci_ars/PV2.jpg" alt="Il presidente uscente Paolo Viscardi" border="0" width="160">
-</div>
-</FONT></FONT>
---- End body ---
-nte: PAOLO VISCARDI<br><br>
+-->
+<br>
+Si comunica la composizione del nuovo DIRETTIVO ARS per il triennio 2014 - 2017, sulla base delle determinazioni dell'Assemblea dei Soci e del Consiglio Direttivo ARS del 19 aprile 2014.
+<br><br>
+<b> Presidente: DONATO CERES<br><br>
+Vice Presidente: PAOLO VISCARDI<br><br>
 Segretario Amministrativo: DONATELLO CIRILLO<br><br>
 Consigliere: NICOLA D'AURIA<br><br>
 </b>
