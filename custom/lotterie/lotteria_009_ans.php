@@ -5,11 +5,11 @@
 #
 
 # Qualificato ottavi 1:
-nd
+Francia
 # Qualificato ottavi 2:
-nd
+Svizzera
 # Qualificato ottavi 3:
-nd
+Galles
 # Qualificato ottavi 4:
 nd
 # Qualificato ottavi 5:
@@ -81,21 +81,21 @@ nd
 # Qui viene indicato il punteggio da associare ad ogni risposta a seconda del gruppo in cui essa viene fornita
 #
 # es:
-# Brasile::                    # prima dell'inizio del torneo
-# Brasile::5,0;4,0;3,0;2,0;1,0 # se il Brasile viene escluso già al primo turno
-# Brasile::5,4;4,0             # se il Brasile passa il primo turno ma esce al secondo, e non sono state giocate altre partite
-# Brasile::5,4;4,0;3,0;2,0;1,0 # se il Brasile passa il primo turno ma esce al secondo, e sono state giocate tutte le partite
+# Brasile::                     # prima dell'inizio del torneo
+# Brasile::5,0;4,0;3,0;2,0;1,0  # se il Brasile viene escluso già al primo turno
+# Brasile::5,20;4,0             # se il Brasile passa il primo turno ma esce al secondo, e non sono state giocate altre partite
+# Brasile::5,20;4,0;3,0;2,0;1,0 # se il Brasile passa il primo turno ma esce al secondo, e sono state giocate tutte le partite
 [punteggio_risposte]
-Francia::5,4
+Francia::5,20
 Romania::5,0
 Albania::5,0
-Svizzera::5,4
-Inghilterra::5,0
+Svizzera::5,14
+Inghilterra::5,6
 Russia::5,0
-Galles::5,4
+Galles::5,10
 Slovacchia::5,0
 Germania::5,0
-Ucraina::
+Ucraina::5,10
 Polonia::
 Irlanda del Nord::
 Spagna::
