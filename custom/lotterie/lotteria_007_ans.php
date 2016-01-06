@@ -65,7 +65,7 @@ Germania
 # Qualificato finale 2:
 Argentina
 # Vincitore:
-nd
+Germania
 
 #
 # Le risposte sono suddivise in gruppi. Per ciascun gruppo esiste un set di risposte piu' o meno corrette
@@ -102,11 +102,11 @@ Svizzera::5,4;4,1;3,0;2,0;1,0
 Ecuador::5,0;4,0;3,0;2,0;1,0
 Francia::5,4;4,4;3,0;2,0;1,0
 Honduras::5,0;4,0;3,0;2,0;1,0
-Argentina::5,4;4,3;3,4;2,2
+Argentina::5,4;4,3;3,4;2,2;1,1
 Bosnia-Herzegovina::5,0;4,0;3,0;2,0;1,0
 Iran::5,0;4,0;3,0;2,0;1,0
 Nigeria::5,4;4,0;3,0;2,0;1,0
-Germania::5,4;4,3;3,4;2,4
+Germania::5,4;4,3;3,4;2,4;1,3
 Portogallo::5,1;4,0;3,0;2,0;1,0
 Ghana::5,0;4,0;3,0;2,0;1,0
 USA::5,3;4,1;3,0;2,0;1,0
@@ -114,4 +114,3 @@ Belgio::5,4;4,3;3,0;2,0;1,0
 Algeria::5,4;4,1;3,0;2,0;1,0
 Russia::5,0;4,0;3,0;2,0;1,0
 Corea Del Sud::5,0;4,0;3,0;2,0;1,0
-;3,0;2,0;1,0
