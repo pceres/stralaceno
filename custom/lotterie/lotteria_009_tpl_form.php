@@ -973,7 +973,7 @@ else
 
 
 		<TR>
-			<TD COLSPAN=4 HEIGHT=16 ALIGN=LEFT><I>tra queste 24 squadre saranno ammesse agli Ottavi le seguenti sedici (in ordine libero):</I></TD>
+			<TD COLSPAN=4 HEIGHT=16 ALIGN=LEFT><I>saranno ammesse agli Ottavi (in ordine libero):</I></TD>
 		</TR>
 		<TR>
 			<TD HEIGHT=21 ALIGN=LEFT BGCOLOR="#CCFFCC">
@@ -1544,7 +1544,7 @@ else
 
 
 		<TR>
-			<TD COLSPAN=4 HEIGHT=16 ALIGN=LEFT><I>tra queste 16 squadre saranno ammesse ai Quarti le seguenti otto (in ordine libero):</I></TD>
+			<TD COLSPAN=4 HEIGHT=16 ALIGN=LEFT><I>saranno ammesse ai Quarti (in ordine libero):</I></TD>
 		</TR>
 		<TR>
 			<TD HEIGHT=21 ALIGN=LEFT BGCOLOR="#CCFFCC">
