@@ -1,0 +1,6 @@
+Autore::Ars
+Titolo::Sondaggio Europei 2016
+--- Begin body ---
+Dalle 12 del 18/01/2016 si aprono le giocate per il Sondaggio Europei 2016.<br>
+Il tabellone per le giocate è <a href="questions.php?id_questions=9&action=fill">qui</a>.
+--- End body ---
