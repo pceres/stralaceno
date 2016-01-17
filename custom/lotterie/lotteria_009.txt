@@ -15,7 +15,7 @@
 #	data_presentazione_risultati	: hh:mm gg/mm/aaaa
 #
 [Attributi]
-Sondaggio Europei 2016::attiva::no_auth::12:00 18/01/2016::24:00 09/06/2016::00:05 10/06/2016
+Sondaggio Europei 2016::attiva::no_auth::12:00 01/02/2016::24:00 09/06/2016::00:05 10/06/2016
 
 #
 # msg1::msg2::msg3
@@ -24,7 +24,7 @@ Sondaggio Europei 2016::attiva::no_auth::12:00 18/01/2016::24:00 09/06/2016::00:
 #	msg3: visualizzato dopo la chiusura delle giocate
 #
 [msg_date]
-Il sondaggio non &egrave; ancora aperto. Potrai giocare dalle 12:00 del 18/01::Si pu&ograve; giocare fino alle 24:00 del 09/06::Le giocate sono chiuse, la classifica sar&agrave; aggiornata dopo la disputa di ogni turno (ottavi, quarti, semifinali e finale).
+Il sondaggio non &egrave; ancora aperto. Potrai giocare dalle 12:00 dell' 01/02::Si pu&ograve; giocare fino alle 24:00 del 09/06::Le giocate sono chiuse, la classifica sar&agrave; aggiornata dopo la disputa di ogni turno (ottavi, quarti, semifinali e finale).
 
 # Formato riga [keyfiles]:
 # nome::caption::num_keys
@@ -184,7 +184,7 @@ caposelese_doc::free_string::::ripetibile
 1::punteggi_specifici::1&deg;) Punteggi
 2::eliminatorie::2&deg;) Risposte esatte per eliminatorie::5::0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30
 3::esatte_per_gruppi::3&deg;) Risposte esatte per gruppi::5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,4,4,4,4,4,4,4,3,3,3,3,2,2,1::posizione::5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,4,4,4,4,4,4,4,3,3,3,3,2,2,1
-4::data_giocata::4&deg;) Data giocata::12:00 ??/??/????::00:00 18/01/2016::24:00 09/06/2016
+4::data_giocata::4&deg;) Data giocata::12:00 ??/??/????::00:00 01/02/2016::24:00 09/06/2016
 
 [Gruppo qualificati ottavi]
 Francia
