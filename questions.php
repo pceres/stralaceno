@@ -480,8 +480,8 @@ case "save":
 	$giocata_ripetuta = 0;
 	$giocate = get_giocata($id_questions,$auth_token);
 	
-	//if ((count($giocate)>0) && ($lotteria_auth !== "no_auth"))
-	if (count($giocate)>0)
+	if (($lotteria_auth !== "no_auth") && (count($giocate)>0))
+	//if (count($giocate)>0)
 	{
 		$giocata_ripetuta = 1;
 	}

@@ -1,21 +1,26 @@
 Autore::Ars
 Titolo::Sondaggio Europei 2016
 --- Begin body ---
-<div align="left">
+<div align="center" style="margin-top:20px">
 <img id="logoeuro2016" src="https://upload.wikimedia.org/wikipedia/it/thumb/a/a1/UEFA_Euro_2016_logo.png/170px-UEFA_Euro_2016_logo.png" alt="Logo Europei 2016" border="0"></img>
 </div>
-Dalle 12 dell'01/02/2016 si aprono le giocate per il Sondaggio Europei 2016.<br>
+<p style="margin-top:20px">Dalle 12 dell'01/02/2016 si aprono le giocate per il Sondaggio Europei 2016.<br>
 Il tabellone per le giocate è <a href="questions.php?id_questions=9&action=fill">qui</a>.<br><br>
-Il punteggio assegnato per la qualificazione agli ottavi di finale è il seguente:
+Il punteggio assegnato per la qualificazione delle 12 squadre prime e seconde classificate nei gironi sarà il seguente:</p>
 <ul>
   <li>20 punti in caso di qualificazione per effetto di un maggior numero di  punti in classifica (e 0 alle squadre che non accedono);</li>
-  <li>14 punti in caso di qualificazione per effetto della vittoria nello scontro diretto, per effetto della migliore differenza reti o classifica avulsa (e 6 alla squadra non qualificata);</li>
-  <li>10 punti in caso di qualificazione per effetto di un maggior numero di reti segnate o di altri criteri (e 10 alla squadra non qualificata);</li>
+  <li>14 punti in caso di qualificazione per effetto della vittoria nello scontro diretto, per effetto della migliore differenza reti o classifica avulsa (e 6 alla squadra non qualificata, eventualmente ripartiti tra più squadre *);</li>
+  <li>10 punti in caso di qualificazione per effetto di un maggior numero di reti segnate o di altri criteri (e 10 alla squadra non qualificata, eventualmente ripartiti tra più squadre *);</li>
 </ul>
-Per ciascuna partita della fase eliminatoria saranno assegnati 20 punti come segue:
+Nella  fase  a scontri diretti saranno assegnati 20 punti (raddoppiati progressivamente a partire dai quarti: 20 agli ottavi, 40 ai quarti, 80 in semifinale, e così via) distribuiti come segue:
 <ul>
   <li>20 punti in caso di vittoria nei tempi regolamentari (e 0 alla squadra sconfitta);</li>
   <li>16 punti in caso di vittoria ai supplementari (e 4 alla squadra sconfitta);</li>
-  <li>11 punti in caso di vittoria ai rigori (e 9 alla squadra sconfitta);</li>
+  <li>11 punti in caso di vittoria ai rigori (e 9 alla squadra non qualificata);</li>
 </ul>
+<br>
+Per guidare le giocate suggeriamo di usare uno schema come quello allegato <a href="/custom/download/vari/Tabella europei 2016.xls">qui</a> (<a href="/custom/download/vari/Tabella europei 2016.pdf">qui</a> c'è la versione stampabile).
+<br>
+<br>
+*Nel caso limite di un girone con tutte le squadre a pari punti e differenza reti, incapperemmo nei numeri periodici …  Ma per ora correremo il rischio !
 --- End body ---
