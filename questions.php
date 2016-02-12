@@ -716,8 +716,8 @@ case "results":
 		array_push($lista_indici_punteggi,array_search($header_punteggio,$header));
 	}
 	
-	if ($temp_debug) {print_r($header);echo "<br>"; // !!!
-	print_r($lista_indici_punteggi);echo "<br>";}
+	if ($temp_debug) {print_r($header);echo "<br>Lista indici punteggi:<br>"; // !!!
+	print_r($lista_indici_punteggi);echo "<br><br>";}
 	
 	// indici dei punteggi
 	$lista_indici_punteggi_output = array();
@@ -731,7 +731,13 @@ case "results":
 	if ($temp_debug) {print_r($lista_indici_punteggi_output);echo "<br>";} // !!!
 	
 	// ordina su tutte le regole di classificazione
+	if ($temp_debug)
+	{
+		echo("elenco_giocate pre ordinamento:<br>");var_dump($elenco_giocate);echo("<br><br>");
+		echo("lista_indici_punteggi colonne con i punti su cui ordinare:<br>");var_dump($lista_indici_punteggi);echo("<br><br>");
+	}
 	$elenco_giocate = ordina_archivio($elenco_giocate,$lista_indici_punteggi);
+	if ($temp_debug) {echo("elenco_giocate post ordinamento:<br>");var_dump($elenco_giocate);echo("<br><br>");}
 	
 	if ($_REQUEST['debug'] === "full")
 	{
@@ -1388,46 +1394,45 @@ case "eliminatorie":
 	
 	$punteggio = $punteggio-array_sum($voti);
 	break;
-
-	case "punteggi_specifici":
-		$matrice_punteggi		= $bulk[0]; // matrice dei punti da associare al valore risposta per ciascun campo di giocata
-		$matrice_punteggi_gruppo	= $bulk[1]; // punti associati al valore di risposta per ciascun gruppo delle risposte
-		$lista_risposte_da_pesare	= $bulk[2]; // gruppo cui appartengono le risposte di interesse per il criterio
+case "punteggi_specifici":
+	$matrice_punteggi		= $bulk[0]; // matrice dei punti da associare al valore risposta per ciascun campo di giocata
+	$matrice_punteggi_gruppo	= $bulk[1]; // punti associati al valore di risposta per ciascun gruppo delle risposte
+	$lista_risposte_da_pesare	= $bulk[2]; // gruppo cui appartengono le risposte di interesse per il criterio
+	
+	if ($temp_debug)
+	{
+		echo "<br><br>matrice_punteggi:<br>";
+		print_r($matrice_punteggi);
 		
-		if ($temp_debug)
-		{
-			echo "<br><br>matrice_punteggi:<br>";
-			print_r($matrice_punteggi);
-			
-			echo "<br><br>matrice_punteggi_gruppo:<br>";
-			print_r($matrice_punteggi_gruppo);
-			
-			echo "<br><br>lista_risposte_da_pesare:<br>";
-			print_r($lista_risposte_da_pesare);
-			
-			echo "<br><br>giocata_array:<br>";
-			print_r($giocata_array);
-			
-			echo "<br><br>";
-		}
+		echo "<br><br>matrice_punteggi_gruppo:<br>";
+		print_r($matrice_punteggi_gruppo);
 		
-		$voti = array();
-		$punteggio_output = '';
-		foreach ($lista_risposte_da_pesare as $indice_risposta => $gruppo_risposta)
-		{
-			$risposte_valide = $matrice_punteggi_gruppo[$gruppo_risposta];
-			$risposta = $giocata_array[$indice_risposta];
-			$voto_finale = $risposte_valide[$risposta];
-			$voti[$indice_risposta] = $voto_finale;
-			$punteggio_output .= ",$voto_finale";
-			
-			if ($temp_debug) {
-			echo "$indice_risposta) $gruppo_risposta: $risposta -> $voto_finale<br>";
-			print_r($risposte_valide);
-			echo "<br><br>";}
-		}
+		echo "<br><br>lista_risposte_da_pesare:<br>";
+		print_r($lista_risposte_da_pesare);
 		
-		$punteggio = -array_sum($voti);
+		echo "<br><br>giocata_array:<br>";
+		print_r($giocata_array);
+		
+		echo "<br><br>";
+	}
+	
+	$voti = array();
+	$punteggio_output = '';
+	foreach ($lista_risposte_da_pesare as $indice_risposta => $gruppo_risposta)
+	{
+		$risposte_valide = $matrice_punteggi_gruppo[$gruppo_risposta];
+		$risposta = $giocata_array[$indice_risposta];
+		$voto_finale = $risposte_valide[$risposta];
+		$voti[$indice_risposta] = $voto_finale;
+		$punteggio_output .= ",$voto_finale";
+		
+		if ($temp_debug) {
+		echo "$indice_risposta) $gruppo_risposta: $risposta -> $voto_finale<br>";
+		print_r($risposte_valide);
+		echo "<br><br>";}
+	}
+	
+	$punteggio = -array_sum($voti);
 // 		$punteggio_output = 'giocata errata';
 	break;
 default:

@@ -663,9 +663,13 @@ return $archivio_filtrato;
 function ordina_archivio($archivio,$lista_indici,$flag = SORT_ASC) {
 # per ordinare su piu' campi di $archivio,  basta passare un array, ad esempio per ordinare sui campi 
 # $indice_anno, $indice_posiz, si passi $lista_indici=array($indice_anno, $indice_posiz);
+# l'archivio viene analizzato a partire dall'elemento 1 in poi, per cui l'eventuale header in posizione
+# 0 non è oggetto di ordinamento.
 
 # dichiara variabili
 extract(indici());
+
+$temp_debug = 0;
 
 // inizializza le liste
 foreach($lista_indici as $id => $indice)
@@ -695,6 +699,14 @@ for ($i = 1; $i < count($archivio); $i++)
 		array_push($lista[$id],$item);
 	}
 }
+if ($temp_debug)
+{
+	foreach($lista_indici as $id => $indice)
+	{
+		echo("Punteggio per criterio $id per tutte le giocate:<br>");
+		var_dump($lista[$id]);echo("<br><br>");
+	}
+}
 
 //crea il comando array_multisort($lista[0],$flag,$lista[1],$flag,...,$subarchivio);
 $ks = 'array_multisort(';
@@ -709,9 +721,15 @@ foreach($lista_indici as $id => $indice)
 $ks .= ',$subarchivio);';
 
 // ordina l'archivio usando le liste create in precedenza
-$subarchivio = array_slice($archivio,1);
+$subarchivio = array_slice($archivio,1); # rimuovi l'header in posizione 0
+if ($temp_debug)
+{
+	echo("comando ks da valutare sul subarchivio (l'archivio senza l'elemento 0):<br>");
+	echo("$ks<br><br>");
+	echo("<br><br>");	
+}
 eval($ks);
-$archivio_ordinato = array_merge(array($archivio[0]),$subarchivio); # aggiungi l'header
+$archivio_ordinato = array_merge(array($archivio[0]),$subarchivio); # aggiungi l'header in posizione 0
 
 return $archivio_ordinato;
 }

@@ -11,7 +11,7 @@
 //	$criteri	: parte fissa (primi 3 campi delle configurazioni di ordinamento)
 //	$bulk_punteggi	: dati di configurazione necessari per l'ordinamento (campi successivi al terzo)
 //	$lista_criteri	: elenco dei nomi dei criteri di ordinamento
-//	$elenco_giocate : elenco già ordinato delle giocate (tutti i criteri di ordinamento sono stti già applicati)
+//	$elenco_giocate : elenco già ordinato delle giocate (tutti i criteri di ordinamento sono stati già applicati)
 //
 
 $debug_mode = ($_REQUEST['debug']=='full');
