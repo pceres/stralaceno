@@ -25,7 +25,7 @@
 // configurazione
 //
 
-$enable_check_Caposele = 1; // 1 --> fai il test di caposelitudine; 0 -> nessun test
+$enable_check_Caposele = 0; // 1 --> fai il test di caposelitudine; 0 -> nessun test
 
 //
 // parte generica
@@ -344,6 +344,7 @@ function check_input(f)
 // alert('1: '+f['question_35'].value);
 // Questa funzione verifica la correttezza della giocata prima di inviare i dati per il salvataggio
 	
+
 	// configurazione errori ammissibili
 	index_check_gironi_ok = 0;
 	allow_errors = new Array; // 0 -> l'errore non permette il salvataggio; 1 -> viene visualizzato soltanto un warning
@@ -356,7 +357,7 @@ function check_input(f)
 	{
 		return false;
 	}
-	
+
 // alert('2: '+list.length);
 	// verifica congruenza delle risposte
 	risposte_ok = true;
@@ -611,6 +612,21 @@ function check_input(f)
 		alert("Il formato della data di nascita deve essere gg/mm/aaaa (es. 31/12/1974)!");
 		return false;
 	}
+	else
+	{
+		temp = auth_nato.match(formato_data);
+		auth_nato_giorno = temp[0].substr(0,2);
+		auth_nato_mese   = temp[0].substr(3,2);
+		auth_nato_anno   = temp[0].substr(6,4);
+		
+		// verifica che giorno, mese ed anno portino ad una data corretta
+		flg_bad_date = check_day_month_year(auth_nato_giorno,auth_nato_mese,auth_nato_anno);
+		if (flg_bad_date)
+		{
+			alert("La data indicata non e\' corretta! (giorno:"+auth_nato_giorno+",mese:"+auth_nato_mese+",anno:"+auth_nato_anno+")");
+			return false;
+		}
+	}
 	
 // alert('3: '+auth_provenienza.toUpperCase(auth_provenienza));
 
@@ -645,7 +661,7 @@ function check_input(f)
 					}
 					else
 					{
-						msg_allowed_errors = 'Il numero max. di errori consentito e'': '+num_allowed_errors+'\r\n';
+						msg_allowed_errors = 'Il numero max. di errori consentito e\': '+num_allowed_errors+'\r\n';
 					}
 					
 					msg = 'Ti faccio qualche domanda aggiuntiva per verificare che tu sia di '+ks_provenienza+'!\r\n'+msg_allowed_errors+'Premi OK per cominciare...';
@@ -751,6 +767,51 @@ function check_input(f)
 	return risposte_ok;
 }
 
+
+function check_day_month_year(auth_nato_giorno,auth_nato_mese,auth_nato_anno)
+{
+	// verifica mese
+	if ( (auth_nato_mese<1) || (auth_nato_mese>12) ) {
+		flg_bad_date = 1;
+	}
+	else {
+		// verifica giorno
+		switch(parseInt(auth_nato_mese)) {
+		case 2: // febbraio
+			flg_leap_year = ((auth_nato_anno % 4 == 0) && (auth_nato_anno % 100 != 0)) || (auth_nato_anno % 400 == 0);
+			if (flg_leap_year) {
+				// anno bisestile
+				num_giorni = 29;
+			}
+			else {
+				num_giorni = 28;
+			}
+			break;
+		case 4:  // aprile
+		case 6:  // giugno
+		case 9:  // settembre
+		case 11: // novembre
+			num_giorni = 30;
+			break;
+		default:
+			num_giorni = 31;
+		}
+		if ( (auth_nato_giorno<1) || (auth_nato_giorno>num_giorni) ) {
+			flg_bad_date = 1;
+		}
+		else {
+			// verifica anno
+			currentTime = new Date();
+			if ( (auth_nato_anno<1900) || (auth_nato_anno>currentTime.getFullYear()) ) {
+				flg_bad_date = 1;
+			}
+			else {
+				flg_bad_date = 0;
+			}
+		}
+	}
+	return flg_bad_date;
+}
 
 
 function toggle_caposelese(f,question_caposelese)
