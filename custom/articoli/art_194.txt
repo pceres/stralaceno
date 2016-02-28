@@ -1,0 +1,14 @@
+Autore::Ars
+Titolo::Allenamento collettivo 27.12.2015
+--- Begin body ---
+<br>
+Domenica 27 dicembre 2015 si &egrave; svolto l'allenamento collettivo proposto dagli Amatori running sele. &Egrave; stata una bella giornata, condividendo tutti assieme la passione per questo sport.
+<br>
+<p>
+<div align="center" style="margin-top:10px">
+<img id="a1" src="%file_root%custom/album/All.Coll15/foto8.jpg" alt="All.Coll14" border="0" width="400"></div>
+<br>
+<b style="margin-top: 30px">
+Le foto <a href="album.php?anno=All.Coll15">QUI</a></b>
+<br>
+--- End body ---
