@@ -1,13 +1,13 @@
-function make_custom_images
+function [list_SID fitness_crop_v data] = make_custom_images
 % automatically download missing images from PhpGedView website
 %
 % % es:
-% clc,make_custom_images;
+% clc,[list_SID fitness_crop_v data] = make_custom_images;
 
 atleti_laceno = '../custom/dati/atleti_laceno.csv';
 folder_images = '../custom/album/custom/';
 pgvroot  = 'http://ars.altervista.org/PhpGedView/';
-pgvroot  = 'http://localhost/work/PhpGedView/'
+%pgvroot  = 'http://localhost/work/PhpGedView/'
 gedcom = 'caposele';
 flg_download_all = 1; % flag to download all images, not only the missing ones
 
@@ -25,7 +25,15 @@ disp(['- you logged into the pgv website ' pgvroot])
 input('Press ENTER to start downloading...')
 
 % launch the downloader
-download_pgv_images(pgvroot,gedcom,list_SID,folder_images)
+fitness_crop_v = download_pgv_images(pgvroot,gedcom,list_SID,folder_images);
+[temp ind] = sort(-fitness_crop_v);
+fitness_crop_v = fitness_crop_v(ind);
+list_SID = list_SID(ind);
+disp(' ')
+disp('Synoptic:')
+for i_img = 1:length(list_SID)
+    fprintf(1,'%3d) %6s: %.2f\n',i_img,list_SID{i_img},fitness_crop_v(i_img))
+end
 
 
 
