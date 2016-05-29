@@ -176,7 +176,8 @@ if (!empty($email_info))
 Le schede personali dei partecipanti sono in fase di realizzazione.<br>
 Gli interessati, per fornire o rettificare le informazioni disponibili, possono mettersi in contatto tramite 
 l'indirizzo e-mail: 
-<a href="mailto:<?php echo $email_info?>?subject=Info%20sui%20partecipanti%20alla%20<?php echo rawurlencode($race_name) ?>"><?php echo $email_info?></a>.  <br>
+<a href="mailto:<?php echo $email_info?>?subject=Info%20sui%20partecipanti%20alla%20<?php echo rawurlencode($race_name) ?>"><?php echo $email_info?></a> o 
+<a href="mailto:<?php echo $email_info?>?subject=Info%20sui%20partecipanti%20alla%20<?php echo rawurlencode($race_name) ?>">pasquale_c@hotmail.com</a>, oppure agire direttamente iscrivendosi al sito <a href="<?php echo $link_geneal?>">Genealogia di Caposele</a>.  <br>
 </div>
 
 <?php
