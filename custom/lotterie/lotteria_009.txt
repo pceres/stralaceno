@@ -259,4 +259,5 @@ Consulta il tabellone di aiuto alla compilazione su Caposeleonline:http://www.ca
 ;Checked$:: Gens Silarensis::background:#FFFFAA;
 #;Unchecked$:: Gens quasi Silarensis (Pi&ugrave; di 1 errore alla verifica di silaritudine)::background:#FFDDBB;
 ;GensAmbrosiana$:: Gens Ambrosiana::background:#FFEDCB;
+;GensBrutia$:: Gens Brutia::background:#E8F3FF;
 .*:: Gens Mundi::background:#FFF6F0;
