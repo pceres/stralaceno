@@ -80,7 +80,7 @@ $elenco_giocate2 = array_slice($elenco_giocate,1);	// giocate effettive (dal sec
 
 $elenco_giocate3 = array_slice($elenco_giocate,0,1);	// inizia con gli headers soltanto, poi aggiungi tutte le giocate rielaborate
 array_push($elenco_giocate3[0],'Numero risposte esatte');	// aggiungi il titolo per l'ultima colonna da aggiungere (punteggio visibile)
-$archivio_punti = Array();	// archivio dei punteggi ordinati (uno per ogni 'x' o '-'
+$archivio_punti = Array();	// archivio dei punteggi ordinati (uno per ogni 'x' o '-')
 foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 {
 	$giocata_new = $giocata;
@@ -98,6 +98,7 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 	foreach($gruppo_risposta as $indice_risposta => $gruppo)
 	{
 		$risposta = $vettore_giocata[$indice_risposta];
+		$flg_risposta_esatta = in_array($risposta,$risposte_equivalenti[$gruppo]);
 		if (strlen((string)$punteggio_specifico[$indice_risposta][$risposta])==0) // non e' indicato il punteggio...
 		{
 			$punti = '-';
@@ -107,6 +108,10 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 		{
 			$punti = (integer)($punteggio_specifico[$indice_risposta][$risposta]);
 			$punti_per_ordinamento = $punti;
+			if ($flg_risposta_esatta)
+			{
+				$punti_per_ordinamento = $punti_per_ordinamento+0.1; // le squadre qualificate, anche se a 0 punti, vanno a sinistra
+			}
 		}
 		
 		$vettore_punti[$indice_risposta] = $punti;
@@ -380,6 +385,7 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 			'20' 		=> Array('V<small>G</small>'		,'','Qualificazione per effetto di un maggior numero di  punti in classifica (20 punti)'),
 			'14' 		=> Array('S<small>G</small>'		,'','Qualificazione per effetto della vittoria nello scontro diretto, per effetto della migliore differenza reti o classifica avulsa (14 punti)'),
 			'10' 		=> Array('R<small>G</small>'		,'','Qualificazione per effetto di un maggior numero di reti segnate o di altri criteri (10 punti)'),
+			'0' 		=> Array('<small>oG</small>'		,'','Qualificazione tra le migliori terze classificate (0 punti)'),
 			'default'	=> Array('.'		,'','')
 			);
 	$sub_array_ok_Q = Array(
@@ -469,7 +475,7 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 			
 			$tipo_simbolo = 'ok';
 			$simbolo_item = $simbolo_ok[$gruppo];
-			if ($punti > 0)
+ 			if ($punti !== '-') // se e' stato definito un punteggio (anche nullo)...
 			{
 				$item_simbolo = $simbolo_item[$punti];
 			}

@@ -214,3 +214,16 @@ siamo arrivati al punto che nemmeno piu' al bar si puo' bere un caffe' tranquill
 
 [post_text_47]
 allied health professional liability insurance  <a href= http://didrex.webnode.com/ >didrex</a>  medical jobs in demand
+ILI
+
+[post_text_47]
+allied health professional liability insurance  <a href= http://didrex.webnode.com/ >didrex</a>  medical jobs in demand
+
+[post_text_48]
+viviamo in un paese di falliti e stupidi,basta uscire di casa per imbattersi sempre nei soliti ignoranti e cretini che stazionano nei bar di caposele e materdomini .Il  problema di questo paese e' che la gente buona che si ' e' voluta creare un futuro e' fuggita da qui e hanno fatto benissimo altrimenti avrebbero fatto una brutta fine come questi pochi ragazzi di una certa' eta' che sono rimasti in questo schifo e desolante mortorio,la verita' crudele e' che viviamo in un posto senza speranza di futuro in cui regnano solo degrado,cattiveria,ignoranza,arroganza.Se si vuole salvarsi bisogna scappare al piu' presto e non ritornare mai piu' solo cosi' si puo' sperare in qualcosa di diverso da questo squallore caposelese .
+
+[post_text_49]
+Vergognateviiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii caposelesi siete e resterete per sempre un popolo di falliti,stupidi,ignoranti siete solo dei cialtroni che state davanti ai bar a dire stronzate e giocare a carte .
+
+[post_text_50]
+&gt;Vergognateviiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii caposelesi siete e resterete per sempre un popolo di falliti,stupidi,ignoranti siete solo dei cialtroni che state davanti ai bar a dire stronzate e giocare a carte .<br>&gt;<br><br>GRANDE!

@@ -5,7 +5,8 @@ Titolo::Sondaggio Europei 2016
 <img id="logoeuro2016" src="https://upload.wikimedia.org/wikipedia/it/thumb/a/a1/UEFA_Euro_2016_logo.png/170px-UEFA_Euro_2016_logo.png" alt="Logo Europei 2016" border="0"></img>
 </div>
 <p style="margin-top:20px">Le giocate per il Sondaggio Europei 2016 sono chiuse.<br>
-<b>Le giocate sono visibili <a href="questions.php?id_questions=9&action=results">qui</a>.</b><br>La classifica sarà aggiornata mano che il torneo proseguirà.<br>
+<b>Le giocate sono visibili <a href="questions.php?id_questions=9&action=results">qui</a>.</b> La classifica sarà aggiornata mano che il torneo proseguirà.<br>
+<a href="statistiche.php?id_questions=9&action=show">Qui</a> invece trovate una analisi statistica sui pronostici effettuati.<br>
 <br>
 Il punteggio assegnato per la qualificazione delle 12 squadre prime e seconde classificate nei gironi sarà il seguente:</p>
 <ul>
