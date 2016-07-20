@@ -37,35 +37,35 @@ Belgio
 # Qualificato ottavi 16:
 Repubblica d'Irlanda
 # Qualificato quarti 1:
-nd
+Polonia
 # Qualificato quarti 2:
-nd
+Galles
 # Qualificato quarti 3:
-nd
+Portogallo
 # Qualificato quarti 4:
-nd
+Francia
 # Qualificato quarti 5:
-nd
+Germania
 # Qualificato quarti 6:
-nd
+Belgio
 # Qualificato quarti 7:
-nd
+Italia
 # Qualificato quarti 8:
-nd
+Islanda
 # Qualificato semifinale 1:
-nd
+Portogallo
 # Qualificato semifinale 2:
-nd
+Galles
 # Qualificato semifinale 3:
-nd
+Germania
 # Qualificato semifinale 4:
-nd
+Francia
 # Qualificato finale 1:
-nd
+Portogallo
 # Qualificato finale 2:
-nd
+Francia
 # Vincitore:
-nd
+Portogallo
 
 #
 # Le risposte sono suddivise in gruppi. Per ciascun gruppo esiste un set di risposte piu' o meno corrette
@@ -82,31 +82,31 @@ nd
 #
 # es:
 # Brasile::                     # prima dell'inizio del torneo
-# Brasile::5,0;4,0;3,0;2,0;1,0  # se il Brasile viene escluso già al primo turno
+# Brasile::5,0;4,0;3,0;2,0;1,0  # se il Brasile viene escluso gi&agrave; al primo turno
 # Brasile::5,20;4,0             # se il Brasile passa il primo turno ma esce al secondo, e non sono state giocate altre partite
 # Brasile::5,20;4,0;3,0;2,0;1,0 # se il Brasile passa il primo turno ma esce al secondo, e sono state giocate tutte le partite
 [punteggio_risposte]
-Francia::5,20;
+Francia::5,20;4,20;3,40;2,80;1,32
 Romania::5,0;4,0;3,0;2,0;1,0
 Albania::5,0;4,0;3,0;2,0;1,0
-Svizzera::5,20;
-Inghilterra::5,20;
+Svizzera::5,20;4,9;3,0;2,0;1,0
+Inghilterra::5,20;4,0;3,0;2,0;1,0
 Russia::5,0;4,0;3,0;2,0;1,0
-Galles::5,20;
-Slovacchia::5,0
-Germania::5,20;
+Galles::5,20;4,20;3,40;2,0;1,0
+Slovacchia::5,0;4,0;3,0;2,0;1,0
+Germania::5,20;4,20;3,22;2,0;1,0
 Ucraina::5,0;4,0;3,0;2,0;1,0
-Polonia::5,20;
-Irlanda del Nord::5,0;
-Spagna::5,20;
+Polonia::5,20;4,11;3,18;2,0;1,0
+Irlanda del Nord::5,0;4,0;3,0;2,0;1,0
+Spagna::5,20;4,0;3,0;2,0;1,0
 Repubblica Ceca::5,0;4,0;3,0;2,0;1,0
 Turchia::5,0;4,0;3,0;2,0;1,0
-Croazia::5,20;
-Belgio::5,20;
-Italia::5,20;
-Repubblica d'Irlanda::5,0
+Croazia::5,20;4,4;3,0;2,0;1,0
+Belgio::5,20;4,20;3,0;2,0;1,0
+Italia::5,20;4,20;3,18;2,0;1,0
+Repubblica d'Irlanda::5,0;4,0;3,0;2,0;1,0
 Svezia::5,0;4,0;3,0;2,0;1,0
-Portogallo::5,0;
-Islanda::5,20;
+Portogallo::5,0;4,16;3,22;2,80;1,128
+Islanda::5,20;4,20;3,0;2,0;1,0
 Austria::5,0;4,0;3,0;2,0;1,0
-Ungheria::5,20;
+Ungheria::5,20;4,0;3,0;2,0;1,0

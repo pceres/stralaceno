@@ -22,36 +22,36 @@ Formato [folder_xxx]:
 ;
 
 [folder_root]
-folder::folder_ARS::ARS Amatori Running Sele::Sezione relativa all'associazione::Amatori Running Sele::::admin::22:07 04/07/2007::1153
-folder::folder_vari::Files vari::Sezione con risorse di varia natura::vari::::admin::22:07 04/07/2007::670
+folder::folder_ARS::ARS Amatori Running Sele::Sezione relativa all'associazione::Amatori Running Sele::::admin::22:07 04/07/2007::1155
+folder::folder_vari::Files vari::Sezione con risorse di varia natura::vari::::admin::22:07 04/07/2007::672
 
 [folder_ARS]
-folder::folder_Atto_costitutivo_statuto_verbali::Atti costitutivi, statuti, regolamenti e verbali::I documenti costitutivi dell'"Amatori Running Sele": atti costitutivi, statuto, regolamento, verbali delle assemblee, ecc.::Atti costitutivi::::admin::22:07 04/07/2007::950
+folder::folder_Atto_costitutivo_statuto_verbali::Atti costitutivi, statuti, regolamenti e verbali::I documenti costitutivi dell'"Amatori Running Sele": atti costitutivi, statuto, regolamento, verbali delle assemblee, ecc.::Atti costitutivi::::admin::22:07 04/07/2007::964
 folder::folder_Moduli::Moduli::Moduli di iscrizione ed altri documenti pubblici::Moduli::::admin::22:07 04/07/2007::295
-folder::folder_Rendiconti::Rendiconti e relazioni::Rendiconti economici ufficiali dell'associazione::Rendiconti::::admin::22:07 04/07/2007::945
-folder::folder_Sezione_soci::Sezione soci::Riservata ai membri dell'associazione "Amatori Running Sele"::Sezione soci::soci_ars::admin::22:07 04/07/2007::272
-folder::folder_Stralaceno::Stralaceno::Gara podistica Stralaceno::Stralaceno::::admin::23:46 21/10/2007::363
-folder::folder_mia_cartella::Gare podistiche::I risultati della gare podistiche alle quali ha preso parte l'ARS::Gare 2008::::admin::15:02 14/03/2008::1051
+folder::folder_Rendiconti::Rendiconti e relazioni::Rendiconti economici ufficiali dell'associazione::Rendiconti::::admin::22:07 04/07/2007::961
+folder::folder_Sezione_soci::Sezione soci::Riservata ai membri dell'associazione "Amatori Running Sele"::Sezione soci::soci_ars::admin::22:07 04/07/2007::273
+folder::folder_Stralaceno::Stralaceno::Gara podistica Stralaceno::Stralaceno::::admin::23:46 21/10/2007::364
+folder::folder_mia_cartella::Gare podistiche::I risultati della gare podistiche alle quali ha preso parte l'ARS::Gare 2008::::admin::15:02 14/03/2008::1052
 
 [folder_Atto_costitutivo_statuto_verbali]
-file::file_atto_costitutivo_con_firme::Atto Costitutivo e Statuto ARS con firme::Documento originale scannerizzato::Atto Costit. Statuto ARS con firme.pdf::::admin::22:07 04/07/2007::441
-file::file_atto::Atto Costitutivo e Statuto in formato digitale::Atto costitutivo e statuto dell'associazione::Atto.pdf::::admin::14:39 18/03/2008::457
+file::file_atto_costitutivo_con_firme::Atto Costitutivo e Statuto ARS con firme::Documento originale scannerizzato::Atto Costit. Statuto ARS con firme.pdf::::admin::22:07 04/07/2007::446
+file::file_atto::Atto Costitutivo e Statuto in formato digitale::Atto costitutivo e statuto dell'associazione::Atto.pdf::::admin::14:39 18/03/2008::460
 file::file_regolamento_elettorale::Regolamento elettorale::Atto che regolamenta le elezioni per il rinnovo delle cariche di governo dell'associazione::Regolamento elettorale ARS.pdf::::admin::23:59 07/01/2008::481
 file::file_assemblea_08::Verbale Assemblea Soci del 22.04.2008::Rinnovo Consiglio Direttivo::Verbale Ass. Ord. approv. Rendiconto 2007 con firme.pdf::::admin::10:32 14/05/2008::537
-file::file_direttivo_08::Verbale Consiglio Direttivo del 22.04.2008::Cariche nuovo Consiglio Direttivo::Verbale elez. Direttivo 2008 con firme.pdf::::admin::10:33 14/05/2008::462
+file::file_direttivo_08::Verbale Consiglio Direttivo del 22.04.2008::Cariche nuovo Consiglio Direttivo::Verbale elez. Direttivo 2008 con firme.pdf::::admin::10:33 14/05/2008::463
 file::file_ass_praticante::Verbale C. D. istituzione figura dell'Associato Praticante::Integrazione categorie di soci: Associato Praticante::Verbale Cons. Dir. istituz. associato praticante.pdf::::::::195
 
 [folder_Stralaceno]
-file::file_tuttotempi_87_94::Tuttotempi 87-94::Storico tempi relativo alle edizioni 1987-94::Stralaceno -Tuttotempi- 87-94.xls::::admin::20:49 22/10/2007::333
-file::file_tuttotempi_95_99::Tuttotempi 95-99::Storico tempi relativo alle edizioni 1995-99::Stralaceno -Tuttotempi- 95-99.xls::::admin::20:49 22/10/2007::315
+file::file_tuttotempi_87_94::Tuttotempi 87-94::Storico tempi relativo alle edizioni 1987-94::Stralaceno -Tuttotempi- 87-94.xls::::admin::20:49 22/10/2007::334
+file::file_tuttotempi_95_99::Tuttotempi 95-99::Storico tempi relativo alle edizioni 1995-99::Stralaceno -Tuttotempi- 95-99.xls::::admin::20:49 22/10/2007::317
 file::file_tuttotempi_00_04::Tuttotempi 00-04::Storico tempi relativo alle edizioni 2000-04::Stralaceno -Tuttotempi- 00-04.xls::::admin::20:49 22/10/2007::322
 file::file_tuttotempi_05_XX::Tuttotempi 05-XX::Storico tempi relativo alle edizioni a partire dal 2005::Stralaceno -Tuttotempi- 05-XX.xls::::admin::20:49 22/10/2007::310
 
 [folder_Moduli]
-file::file_domanda_associazione_ars::Modulo Domanda di Associazione all'ARS::Per richiedere l'associazione all'ARS, compilare il modulo e consegnarlo al segretario amministrativo::Modulo Domanda di Associazione.pdf::::admin::22:07 04/07/2007::252
+file::file_domanda_associazione_ars::Modulo Domanda di Associazione all'ARS::Per richiedere l'associazione all'ARS, compilare il modulo e consegnarlo al segretario amministrativo::Modulo Domanda di Associazione.pdf::::admin::22:07 04/07/2007::253
 file::file_domanda_associazione_minorenni_ars::Modulo Domanda di Associazione Minorenni all'ARS::Come sopra, ma &egrave; richiesto l'assenso di un genitore::Modulo Domanda di Associazione minorenni.pdf::::admin::22:31 12/07/2007::240
-file::file_domanda_assoc_praticante::Moduldo domanda Associato Praticante::Per richiedere l'iscrizione all'ARS come Associato Praticante::Modulo Domanda di Associazione Associato Praticante.pdf::::admin::10:17 08/05/2008::248
+file::file_domanda_assoc_praticante::Moduldo domanda Associato Praticante::Per richiedere l'iscrizione all'ARS come Associato Praticante::Modulo Domanda di Associazione Associato Praticante.pdf::::admin::10:17 08/05/2008::250
 
 [folder_Rendiconti]
-file::file_rendiconto_e_relazione_ARS_2005::Rendiconto e Relazione ARS anno 2005::Rendiconto economico finanziario relativo all'esercizio 2005, e breve relazione::Rendiconto e Relazione anno 2005 ARS.pdf::::admin::22:07 04/07/2007::537
-file::file_rendiconto_e_relazione_ARS_2006::Rendiconto e Relazione ARS anno 2006::Rendiconto economico finanziario relativo all'esercizio 2006, e breve relazione::::::::::119
+file::file_rendiconto_e_relazione_ARS_2005::Rendiconto e Relazione ARS anno 2005::Rendiconto economico finanziario relativo all'esercizio 2005, e breve relazione::Rendiconto e Relazione anno 2005 ARS.pdf::::admin::22:07 04/07/2007::542
+file::file_rendiconto_e_relazione_ARS_2006::Rendiconto e Relazione ARS anno 2006::Rendiconto economico finanziario relativo all'esercizio 2006, e breve relazione::::::::::120
