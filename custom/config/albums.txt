@@ -540,3 +540,6 @@ foto25.jpg::::
 foto26.jpg::::
 foto27.jpg::::
 foto28.jpg::::
+
+[2016]
+LogoStralaceno2016.jpg::::
