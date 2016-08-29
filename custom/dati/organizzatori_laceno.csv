@@ -1,44 +1,44 @@
-Id;Collaboratore;Sesso;Incarico;Anno;link;nota
-1;'Nicola D''Auria';M;Organizzatore;1987;-;-
+Id;Collaboratore;Sesso;Incarico;Anno;Link;Nota
+1;Nicola D'Auria;M;Organizzatore;1987;-;-
 22;Massimo Russomanno;M;Organizzatore;1987;-;-
 26;Donato Merola;M;Organizzatore;1987;-;-
 21;Pasquale Cozzarelli;M;Giudice, Segretario e Cronometrista ufficiale;1987;-;-
-1;'Nicola D''Auria';M;Organizzatore;1990;-;-
+1;Nicola D'Auria;M;Organizzatore;1990;-;-
 22;Massimo Russomanno;M;Organizzatore;1990;-;-
 26;Donato Merola;M;Organizzatore;1990;-;-
 21;Pasquale Cozzarelli;M;Giudice, Segretario e Cronometrista ufficiale;1990;-;-
-1;'Nicola D''Auria';M;Organizzatore;1991;-;-
+1;Nicola D'Auria;M;Organizzatore;1991;-;-
 26;Donato Merola;M;Organizzatore;1991;-;-
 21;Pasquale Cozzarelli;M;Giudice, Segretario e Cronometrista ufficiale;1991;-;-
-1;'Nicola D''Auria';M;Organizzatore;1992;-;-
+1;Nicola D'Auria;M;Organizzatore;1992;-;-
 26;Donato Merola;M;Organizzatore;1992;-;-
 21;Pasquale Cozzarelli;M;Giudice, Segretario e Cronometrista ufficiale;1992;-;-
-1;'Nicola D''Auria';M;Organizzatore;1993;-;-
+1;Nicola D'Auria;M;Organizzatore;1993;-;-
 21;Pasquale Cozzarelli;M;Giudice, Segretario e Cronometrista ufficiale;1993;-;-
-1;'Nicola D''Auria';M;Organizzatore;1994;-;-
+1;Nicola D'Auria;M;Organizzatore;1994;-;-
 21;Pasquale Cozzarelli;M;Giudice, Segretario e Cronometrista ufficiale;1994;-;-
-1;'Nicola D''Auria';M;Organizzatore;1995;-;-
+1;Nicola D'Auria;M;Organizzatore;1995;-;-
 21;Pasquale Cozzarelli;M;Giudice, Segretario e Cronometrista ufficiale;1995;-;-
-1;'Nicola D''Auria';M;Organizzatore;1996;-;-
+1;Nicola D'Auria;M;Organizzatore;1996;-;-
 21;Pasquale Cozzarelli;M;Giudice e Cronometrista ufficiale;1996;-;-
 22;Massimo Russomanno;M;Segretario di gara;1996;-;-
-1;'Nicola D''Auria';M;Organizzatore;1997;-;-
+1;Nicola D'Auria;M;Organizzatore;1997;-;-
 21;Pasquale Cozzarelli;M;Giudice e Cronometrista ufficiale;1997;-;-
 20;Angelo Ceres di Vinc.;M;Segretario di gara;1997;-;-
 7;Michele Ceres;M;Collaboratore;1997;-;-
-1;'Nicola D''Auria';M;Organizzatore;1998;-;-
+1;Nicola D'Auria;M;Organizzatore;1998;-;-
 21;Pasquale Cozzarelli;M;Giudice, Segretario e Cronometrista ufficiale;1998;-;-
-1;'Nicola D''Auria';M;Organizzatore;1999;-;-
+1;Nicola D'Auria;M;Organizzatore;1999;-;-
 21;Pasquale Cozzarelli;M;Giudice, Segretario e Cronometrista ufficiale;1999;-;-
-1;'Nicola D''Auria';M;Organizzatore;2000;-;-
+1;Nicola D'Auria;M;Organizzatore;2000;-;-
 18;Gualfardo Montanari di Agost.;M;Giudice e Cronometrista ufficiale;2000;-;-
 20;Angelo Ceres di Vinc.;M;Segretario di gara;2000;-;-
-1;'Nicola D''Auria';M;Organizzatore;2001;-;-
+1;Nicola D'Auria;M;Organizzatore;2001;-;-
 2;Alessandro Russomanno;M;Organizzatore;2001;-;-
 15;Marco Ceres;M;Cronometrista ufficiale;2001;-;-
 16;Angelo Ceres di Michele;M;Segretario di gara;2001;-;-
 13;Nicola Melillo;M;Collaboratore;2001;-;-
-1;'Nicola D''Auria';M;Organizzatore;2002;-;-
+1;Nicola D'Auria;M;Organizzatore;2002;-;-
 2;Alessandro Russomanno;M;Organizzatore e Cronometrista ufficiale;2002;-;-
 14;Franco Maroso;M;Segretario di gara;2002;-;-
 4;Lello Viscardi;M;Cronometrista di riserva;2002;-;-
@@ -47,7 +47,7 @@ Id;Collaboratore;Sesso;Incarico;Anno;link;nota
 7;Michele Ceres;M;Collaboratore;2002;-;-
 6;Pietro Russomanno;M;Collaboratore;2002;-;-
 25;Angela Vaglio;F;Collaboratrice;2002;-;-
-1;'Nicola D''Auria';M;Organizzatore;2003;-;-
+1;Nicola D'Auria;M;Organizzatore;2003;-;-
 2;Alessandro Russomanno;M;Organizzatore;2003;-;-
 3;Donatello Cirillo;M;Segretario di gara;2003;-;-
 4;Lello Viscardi;M;Cronometrista ufficiale;2003;-;-
@@ -56,7 +56,7 @@ Id;Collaboratore;Sesso;Incarico;Anno;link;nota
 6;Pietro Russomanno;M;Collaboratore;2003;-;-
 19;Dario Cifrodelli;M;Cronometrista di riserva;2003;-;-
 12;Armando Sturchio;M;Medico di gara;2003;-;-
-1;'Nicola D''Auria';M;Organizzatore;2004;-;-
+1;Nicola D'Auria;M;Organizzatore;2004;-;-
 2;Alessandro Russomanno;M;Organizzatore;2004;-;-
 3;Donatello Cirillo;M;Giudice e Segretario di gara;2004;-;-
 4;Lello Viscardi;M;Cronometrista ufficiale;2004;-;-
@@ -67,7 +67,7 @@ Id;Collaboratore;Sesso;Incarico;Anno;link;nota
 9;Alfonso Curcio;M;Cronometrista di riserva;2004;-;-
 10;Maria Cuozzo;F;Collaboratrice;2004;-;-
 11;Salvatore Russomanno;M;Medico di gara;2004;-;-
-1;'Nicola D''Auria';M;Organizzatore;2005;-;-
+1;Nicola D'Auria;M;Organizzatore;2005;-;-
 2;Alessandro Russomanno;M;Organizzatore;2005;-;-
 3;Donatello Cirillo;M;Organizzatore;2005;-;-
 4;Lello Viscardi;M;Giudice e Cronometrista ufficiale;2005;-;-
@@ -78,7 +78,7 @@ Id;Collaboratore;Sesso;Incarico;Anno;link;nota
 11;Salvatore Russomanno;M;Medico di gara;2005;-;-
 24;Stefania Curcio;F;Collaboratrice;2005;-;-
 9;Alfonso Curcio;M;Cronometrista di riserva;2005;-;-
-1;'Nicola D''Auria';M;Organizzatore;2006;-;-
+1;Nicola D'Auria;M;Organizzatore;2006;-;-
 2;Alessandro Russomanno;M;Organizzatore;2006;-;-
 3;Donatello Cirillo;M;Organizzatore;2006;-;-
 4;Lello Viscardi;M;Giudice e Cronometrista ufficiale;2006;-;-
@@ -90,7 +90,7 @@ Id;Collaboratore;Sesso;Incarico;Anno;link;nota
 36;Paolo Viscardi;M;Collaboratore;2006;-;-
 37;Gerardo Martino;M;Collaboratore;2006;-;-
 7;Michele Ceres;M;Fotografo ufficiale;2006;-;-
-1;'Nicola D''Auria';M;Organizzatore;2007;-;-
+1;Nicola D'Auria;M;Organizzatore;2007;-;-
 2;Alessandro Russomanno;M;Organizzatore;2007;-;-
 3;Donatello Cirillo;M;Organizzatore;2007;-;-
 4;Lello Viscardi;M;Giudice e Cronometrista ufficiale;2007;-;-
@@ -103,10 +103,10 @@ Id;Collaboratore;Sesso;Incarico;Anno;link;nota
 7;Michele Ceres;M;Fotografo ufficiale;2007;-;-
 31;Nicola Ciccone;M;Cameraman;2007;-;-
 11;Salvatore Russomanno;M;Medico di gara;2007;-;-
-27;Nicola Cirillo;M;'Servizio d''ordine';2007;-;-
+27;Nicola Cirillo;M;Servizio d'ordine;2007;-;-
 34;Carmela Malanga;F;Collaboratrice;2007;-;-
 35;Giuseppe Meo;M;Collaboratore;2007;-;-
-1;'Nicola D''Auria';M;Organizzatore;2008;-;-
+1;Nicola D'Auria;M;Organizzatore;2008;-;-
 2;Alessandro Russomanno;M;Organizzatore;2008;-;-
 3;Donatello Cirillo;M;Organizzatore;2008;-;-
 36;Paolo Viscardi;M;Organizzatore;2008;-;-
@@ -115,7 +115,7 @@ Id;Collaboratore;Sesso;Incarico;Anno;link;nota
 5;Gerardo Ceres;M;Direttore di gara;2008;-;-
 9;Alfonso Curcio;M;Cronometrista di riserva;2008;-;-
 33;Massimo Cetrulo;M;Addetto alla logistica;2008;-;-
-27;Nicola Cirillo;M;'Servizio d''ordine';2008;-;-
+27;Nicola Cirillo;M;Servizio d'ordine;2008;-;-
 32;Alfonso Malanga;M;Ispettore di gara;2008;-;-
 11;Salvatore Russomanno;M;Medico di gara;2008;-;-
 31;Nicola Ciccone;M;Responsabile foto-video, Cameraman;2008;-;-
@@ -125,7 +125,7 @@ Id;Collaboratore;Sesso;Incarico;Anno;link;nota
 40;Vittorio Nesta;M;Collaboratore;2008;-;-
 38;Salvatore Colatrella;M ;Collaboratore;2008;-;-
 43;Giuseppe Cuozzo;M;Collaboratore;2008;-;-
-1;'Nicola D''Auria';M;Organizzatore;2009;-;-
+1;Nicola D'Auria;M;Organizzatore;2009;-;-
 2;Alessandro Russomanno;M;Organizzatore;2009;-;-
 3;Donatello Cirillo;M;Organizzatore;2009;-;-
 36;Viscardi Paolo;M;Organizzatore;2009;-;-
@@ -144,7 +144,7 @@ Id;Collaboratore;Sesso;Incarico;Anno;link;nota
 30;Salvatore Fuschetto;M;Collaboratore;2009;-;-
 34;Carmela Malanga;F;Collaboratrice;2009;-;-
 47;Angelino Cetrulo;M;Collaboratore;2009;-;-
-1;'Nicola D''Auria';M;Organizzatore;2010;-;-
+1;Nicola D'Auria;M;Organizzatore;2010;-;-
 2;Alessandro Russomanno;M;Organizzatore;2010;-;-
 3;Donatello Cirillo;M;Organizzatore;2010;-;-
 36;Viscardi Paolo;M;Organizzatore;2010;-;-
@@ -164,7 +164,7 @@ Id;Collaboratore;Sesso;Incarico;Anno;link;nota
 34;Carmela Malanga;F;Collaboratrice;2010;-;-
 51;Angela Fuschetto;F;Collaboratrice;2010;-;-
 44;Elisa Malanga;F;Collaboratrice;2010;-;-
-1;'Nicola D''Auria';M;Organizzatore;2011;-;-
+1;Nicola D'Auria;M;Organizzatore;2011;-;-
 2;Alessandro Russomanno;M;Organizzatore;2011;-;-
 52;Donato Ceres;M;Organizzatore;2011;-;-
 3;Donatello Cirillo;M;Organizzatore;2011;-;-
@@ -188,7 +188,7 @@ Id;Collaboratore;Sesso;Incarico;Anno;link;nota
 55;Giovanni Viscardi;M;Collaboratore;2011;-;-
 34;Carmela Malanga;F;Collaboratrice;2011;-;-
 59;Filomena Grasso;F;Collaboratrice;2011;-;-
-1;'Nicola D''Auria';M;Organizzatore;2012;-;-
+1;Nicola D'Auria;M;Organizzatore;2012;-;-
 2;Alessandro Russomanno;M;Organizzatore;2012;-;-
 52;Donato Ceres;M;Organizzatore;2012;-;-
 36;Viscardi Paolo;M;Organizzatore;2012;-;-
@@ -202,14 +202,14 @@ Id;Collaboratore;Sesso;Incarico;Anno;link;nota
 33;Massimo Cetrulo;M;Addetto alla Logistica;2012;-;-
 62;Toni Biondi;M;Collaboratore Tecnico;2012;-;-
 30;Salvatore Fuschetto;M;Collaboratore di segreteria;2012;-;-
-60;'Gerardo Cetrulo ''Pius''';M;Collaboratore ispettore di gara;2012;-;-
+60;Gerardo Cetrulo 'Pius';M;Collaboratore ispettore di gara;2012;-;-
 43;Giuseppe Cuozzo;M;Collaboratore;2012;-;-
-61;'Gerardo Cetrulo ''96';M;Collaboratore;2012;-;-
+61;Gerardo Cetrulo '96;M;Collaboratore;2012;-;-
 45;Saverio Perna;M;Collaboratore;2012;-;-
 63;Gerardoluigi Forte;M;Collaboratore;2012;-;-
 64;Sabrina Ciccone;F;Collaboratrice;2012;-;-
 55;Giovanni Viscardi;M;Collaboratore;2012;-;-
-1;'Nicola D''Auria';M;Organizzatore;2013;-;-
+1;Nicola D'Auria;M;Organizzatore;2013;-;-
 2;Alessandro Russomanno;M;Organizzatore;2013;-;-
 52;Donato Ceres;M;Organizzatore;2013;-;-
 36;Viscardi Paolo;M;Organizzatore;2013;-;-
@@ -219,7 +219,7 @@ Id;Collaboratore;Sesso;Incarico;Anno;link;nota
 29;Giacomo Salicone;M;Primo Cronometrista;2013;-;-
 9;Alfonso Curcio;M;Secondo Cronometrista;2013;-;-
 5;Gerardo Ceres;M;Conduttore della manifestazione;2013;-;-
-60;'Gerardo Cetrulo ''Pius''';M;Ispettore di gara;2013;-;-
+60;Gerardo Cetrulo 'Pius';M;Ispettore di gara;2013;-;-
 56;Gerardo Corona;M;Responsabile foto;2013;-;-
 68;Natascia Curcio;F;Fotografo;2013;-;-
 66;Concetta Caruso;F;Collaboratrice di segreteria;2013;-;-
@@ -229,7 +229,7 @@ Id;Collaboratore;Sesso;Incarico;Anno;link;nota
 69;Ilenia Aiello;F;Collaboratrice;2013;-;-
 33;Massimo Cetrulo;M;Collaboratore;2013;-;-
 70;Irene Galdi;F;Collaboratrice;2013;-;-
-1;'Nicola D''Auria';M;Organizzatore;2014;-;-
+1;Nicola D'Auria;M;Organizzatore;2014;-;-
 2;Alessandro Russomanno;M;Organizzatore;2014;-;-
 52;Donato Ceres;M;Organizzatore;2014;-;-
 36;Viscardi Paolo;M;Organizzatore;2014;-;-
@@ -239,7 +239,7 @@ Id;Collaboratore;Sesso;Incarico;Anno;link;nota
 4;Lello Viscardi;M;Primo Cronometrista;2014;-;-
 9;Alfonso Curcio;M;Secondo Cronometrista;2014;-;-
 12;Armando Sturchio;M;Conduttore della manifestazione;2014;-;-
-60;'Gerardo Cetrulo ''Pius''';M;Ispettore di gara;2014;-;-
+60;Gerardo Cetrulo 'Pius';M;Ispettore di gara;2014;-;-
 56;Gerardo Corona;M;Responsabile foto;2014;-;-
 72;Salvatore Merola;F;Collaboratore di segreteria;2014;-;-
 67;Gerardo Russomanno;M;Collaboratore ispettore di gara;2014;-;-
@@ -248,23 +248,23 @@ Id;Collaboratore;Sesso;Incarico;Anno;link;nota
 74;Gerardo Forte;M;Collaboratore;2014;-;-
 33;Massimo Cetrulo;M;Addetto alla logistica;2014;-;-
 39;Gerardo Donatiello;M;Collaboratore;2014;-;-
-1;'Nicola D''Auria';M;Organizzatore;2015;-;-
+1;Nicola D'Auria;M;Organizzatore;2015;-;-
 2;Alessandro Russomanno;M;Collaboratore;2015;-;-
 52;Donato Ceres;M;Organizzatore;2015;-;-
 36;Viscardi Paolo;M;Organizzatore;2015;-;-
 3;Donatello Cirillo;M;Organizzatore;2015;-;-
-28;Valentino di Masi;M;Direttore di gara;2015;-;-
+28;Valentino Di Masi;M;Direttore di gara;2015;-;-
 27;Nicola Cirillo;M;Segretario di gara;2015;-;-
-?;Nicola Cirillo;M;Primo Cronometrista;2015;-;-
+27;Nicola Cirillo;M;Primo Cronometrista;2015;-;-
 9;Alfonso Curcio;M;Secondo Cronometrista;2015;-;-
 5;Gerardo Ceres;M;Conduttore della manifestazione;2015;-;-
-60;'Gerardo Cetrulo ''Pius''';M;Ispettore di gara;2015;-;-
+60;Gerardo Cetrulo 'Pius';M;Ispettore di gara;2015;-;-
 56;Gerardo Corona;M;Responsabile foto;2015;-;-
 72;Salvatore Merola;M;Collaboratore di segreteria;2015;-;-
 55;Giovanni Viscardi;M;Collaboratore;2015;-;-
 33;Massimo Cetrulo;M;Addetto alla logistica;2015;-;-
 75;Ciro Cervone;M;Collaboratore;2015;-;-
-1;'Nicola D''Auria';M;Organizzatore;2016;-;-
+1;Nicola D'Auria;M;Organizzatore;2016;-;-
 2;Alessandro Russomanno;M;Collaboratore;2016;-;-
 52;Donato Ceres;M;Organizzatore;2016;-;-
 3;Donatello Cirillo;M;Organizzatore;2016;-;-
