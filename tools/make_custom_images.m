@@ -1,15 +1,20 @@
-function [list_SID fitness_crop_v data] = make_custom_images
+function [list_SID fitness_crop_v data] = make_custom_images(atleti_laceno,folder_images,pgvroot,gedcom,flg_download_all)
 % automatically download missing images from PhpGedView website
 %
+% before starting, ensure that:
+% 1) the website is updated and aligned to the online content
+% 2) the download_pgv_images requirements are satisfied
+%
 % % es:
-% clc,[list_SID fitness_crop_v data] = make_custom_images;
+% atleti_laceno = '../custom/dati/atleti_laceno.csv';
+% folder_images = '../custom/album/custom/';
+% pgvroot  = 'http://localhost/work/PhpGedView/' % the actual url is not
+%             % important, as CRC is calculated on the graph data (eg localhost/work/PhpGedView
+%             % is equal to ars.altervista.org/PhpGedView)
+% gedcom = 'caposele';
+% flg_download_all = 1; % flag to download all images (the changed ones), not only the missing ones
+% clc,tic,[list_SID fitness_crop_v data] = make_custom_images(atleti_laceno,folder_images,pgvroot,gedcom,flg_download_all);toc,
 
-atleti_laceno = '../custom/dati/atleti_laceno.csv';
-folder_images = '../custom/album/custom/';
-pgvroot  = 'http://ars.altervista.org/PhpGedView/';
-%pgvroot  = 'http://localhost/work/PhpGedView/'
-gedcom = 'caposele';
-flg_download_all = 1; % flag to download all images, not only the missing ones
 
 [data str] = read_csv(atleti_laceno);
 
@@ -72,7 +77,7 @@ if flg_download_all
 else
     msg = 'only new';
 end
-fprintf(1,'\nThere are %d images to download (%s)...\n\n',length(list_images),msg)
+fprintf(1,'\nThere are %d images (on a total of %d: %.0f%%) to be downloaded (%s)...\n\n',length(list_images),size(data,1),length(list_images)/size(data,1)*100,msg)
 
 
 
