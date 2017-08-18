@@ -1,0 +1,13 @@
+Autore::Comitato Stralaceno
+Titolo::XXIX edizione
+--- Begin body ---
+<br>La XXIX edizione della Stralaceno si terr&agrave venerd&igrave 25 agosto 2017.
+Tale data &egrave stata la prescelta a valle di una votazione che ha coinvolto 33 persone, tra corridori (decani ed alfieri) e collaboratori storici.<br><br>
+<div align="center">
+<img  src="%file_root%custom/album/2017/stra2017.jpg" alt="logo_stralaceno_2017" border="0" width="200">
+<br>
+</div>
+<br>
+</div>
+<br>
+--- End body ---

@@ -1,16 +1,13 @@
 Autore::Comitato Stralaceno
 Titolo::XXVIII edizione (2016)
 --- Begin body ---
-
 <br>
 <br>
 <div align="center">
 <img  src="%file_root%custom/album/2016/LogoStralaceno2016.jpg" alt="logo_stralaceno_2016" border="0" width="600">
 </div>
-
 <br>
 <h3> VENERDI 26/08/2016   Passeggiata ecologica "STRALACENO 2016" </h3>
-
 <br><br>
 <h3>REGOLAMENTO NUOVA STRALACENO 2016</h3>
 <p>
@@ -19,7 +16,6 @@ Il Comitato Stralaceno - appositamente costituitosi quest'anno - organizza una <
 La passeggiata &egrave; destinata a tutti i caposelesi e prevede il completamento dell'intero circuito del Laceno, con l'andatura che ognuno &egrave; in grado di tenere (anche camminando) in base alla sua et&agrave; ed alle sue condizioni fisiche; ed &egrave; riservata ai nati nel 2001 e anni successivi . La volontaria partecipazione alla manifestazione &egrave; considerata anche tacita dichiarazione di idoneit&agrave; fisica per questa manifestazione, <b><u>rientrante nelle attivit&agrave; sportive amatoriali non competitive</u></b>.
 <p>
 L'organizzazione pertanto,  in base alla vigente normativa ( D.M. 28/02/1983 sulla tutela sanitaria per l'attivit&agrave; non competitiva),  non &egrave; tenuta a richiedere certificato medico di buona salute del partecipante, considerata sussistente con la richiesta di iscrizione.
-
 <br><br>
 <h3>PROGRAMMA</h3>
 <ul>
@@ -28,12 +24,10 @@ L'organizzazione pertanto,  in base alla vigente normativa ( D.M. 28/02/1983 sul
   <li>ore 19:30 :  Ringraziamenti e chiusura manifestazione</li>
 </ul>
 La manifestazione si svolger&agrave; con qualsiasi condizione di tempo (salvo preclusioni delle forze dell'ordine e degli organi competenti). Non sono previsti premi.
-
 <br><br>
 <h3>CLASSIFICHE - CRONOMETRAGGIO</h3>
 Il comitato organizzatore ha deciso che da quest'anno, allo scopo di non alterare la natura di passeggiata non competitiva, non proceder&agrave; direttamente ad alcuna rilevazione cronometrica n&eacute; stiler&agrave; classifiche ufficiali e ordini di arrivo; fatto salvo il diritto di chiunque di rilevare il proprio tempo. In particolare per i partecipanti in possesso delle idonee certificazioni per lo sport a livello agonistico, sar&agrave; possibile eventualmente avvalersi della collaborazione delle societ&agrave; sportive o associazioni di appartenenza - se disponibili -  per avere un supporto tecnico con cronometraggio.
 Al momento dell'iscrizione verr&agrave; richiesto se si intende partecipare alla passeggiata non-competitiva oppure (ma solo per chi ha il certificato per la pratica agonistica) se si intende percorrere il tracciato realizzando una performance agonistica cronometrata.
-
 <br><br>
 <h3>ASSUNZIONI  DI RESPONSABILITA'</h3>
 Lungo il percorso i partecipanti sono tenuti al rispetto del codice della strada. Con la firma del modulo d'iscrizione il concorrente (o chi ne fa le veci), consapevole che le dichiarazioni mendaci, la falsit&agrave; negli atti e l'uso di atti falsi sono puniti con le sanzioni previste in materia, dopo attenta lettura del regolamento della manifestazione e, a perfetta conoscenza delle difficolt&agrave;, consapevole altres&igrave; dei rischi per l'incolumit&agrave; personale dichiara:
@@ -42,17 +36,10 @@ Lungo il percorso i partecipanti sono tenuti al rispetto del codice della strada
   <li>di essere cosciente della lunghezza della prova (5,586km) che si sviluppa su strada extraurbane, in possibili condizioni climatiche difficili e/o mutevoli(caldo/freddo, fenomeni temporaleschi ecc.), e che &egrave; necessaria una discreta preparazione fisica.</li>
   <li>di concedere la propria  autorizzazione al comitato Organizzatore ad utilizzare fotografie, nastri, video e qualsiasi cosa relativa alla propria partecipazione all'evento, per qualsiasi legittimo utilizzo, senza remunerazione.</li>
 </ul>
-
 <br><br>
 <h3>INFORMATIVA SULLA PRIVACY</h3>
 Con la compilazione delle schede d'iscrizione si sottoscrive quanto stabilito dal DLGS 30/06/2003, N&deg;196/03(privacy). La partecipazione alla STRALACENO 2016 comporta da parte del Comitato Organizzatore e dei terzi operatori per suo conto, l'autorizzazione al trattamento con mezzi informatici o meno, dei dati personali ed alla loro utilizzazione da parte dell'organizzazione e dei terzi operatori per suo conto, per lo svolgimento degli adempimenti inerenti alla manifestazione.
-
 <br><br>
 <h3>DISPOSIZIONI FINALI</h3>
 Il comitato organizzatore si riserva di modificare il presente regolamento, in qualsiasi momento, per motivi che riterr&agrave; opportuni per una migliore organizzazione della gara. Eventuali modifiche a servizi, luoghi ed orari saranno comunicati attraverso i canali dedicati (facebook, e-mail, ecc.). 
-
-
-
-
-
 --- End body ---

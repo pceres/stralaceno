@@ -6,11 +6,11 @@ Titolo::XXVIII edizione
 &Egrave; disponibile la classifica <b>ufficiale</b> della XXVIII edizione della Stralaceno.<br>
 47 concorrenti hanno terminato la gara. Il vincitore assoluto &egrave; stato ancora una volta Daniele Caprio con il tempo di 18'51'', rimanendo in tempi incredibili, pur non riuscendo ad abbattere il suo stesso record dello scorso anno.   
 <br>La vincitrice delle donne &egrave; stata Annarita D'Elia col tempo di 26'03'', confermando il primato anche quest'anno.
-<br>A breve seguiranno commenti e foto.
+<br>
 <br>
 <br>
 <div align="center">
-<img  src="%file_root%custom/album/2016/LogoStralaceno2016.jpg" alt="logo_stralaceno_2016" border="0" width="600">
+<img  src="%file_root%custom/album/2016/foto25.jpg" alt="logo_stralaceno_2016" border="0" width="600">
 <br>
 <p><a href="filtro4.php?anno=2016">L'ordine d'arrivo completo dell'edizione 2016 della Stralaceno &egrave; consultabile qui</a>.</p>
 </div>
