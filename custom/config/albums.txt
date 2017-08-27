@@ -542,7 +542,7 @@ foto27.jpg::::
 foto28.jpg::::
 
 [2016]
-LogoStralaceno2016.jpg::::
+LogoStralaceno2016.jpg::Logo Stralaceno 2016::
 foto1.jpg::::
 foto2.jpg::::
 foto3.jpg::::
@@ -571,3 +571,60 @@ foto25.jpg::::
 foto26.jpg::::
 [2017]
 stra2017.jpg::::
+
+[2017]
+stra2017.jpg::Logo Stralaceno 2017::
+DanieleCaprio.jpg::::::Daniele Caprio
+AntonioNesta.jpg::::Antonio Nesta
+DonatoCeres.jpg::::::Donato Ceres
+SimoneDAlessio.jpg::::::Simone D'Alessio
+DonatelloCirillo.jpg::::::Donatello Cirillo
+AngeloCeres.jpg::::::Angelo Ceres
+LorenzoPanariello.jpg::::::Lorenzo Panariello
+GianniSozio.jpg::::::Gianni Sozio
+AntonioViscido.jpg::::::Antonio Viscido
+DarioNisivoccia.jpg::::::Dario Nisivoccia
+GerardoNotaro.jpg::::::Gerardo Notaro
+AlessioMerola.jpg::::::Alessio Merola
+GerardoViscido.jpg::::::Gerardo Viscido
+MarcoCeres.jpg::::::Marco Ceres
+LuigiRussomanno.jpg::::::Luigi Russomanno
+AlfonsoRosania.jpg::::::Alfonso Rosania
+GerardoRussomanno1994.jpg::::::Gerardo Russomanno 1994
+GaetanoDElia.jpg::::::Gaetano D'Elia
+GerardoDelMalandrino.jpg::::::Gerardo Del Malandrino
+RoccoGrasso.jpg::::::Rocco Grasso
+GiovanniViscardi.jpg::::::Giovanni Viscardi
+BenedettoMontanari.jpg::::::Benedetto Montanari
+MarcoGaldi.jpg::::::Marco Galdi
+CarmineCuozzo.jpg::::::Carmine Cuozzo
+ThomasCibellis.jpg::::::Thomas Cibellis
+RoccoNesta.jpg::::::Rocco Nesta
+NicolaDAuria.jpg::::::Nicola D'Auria
+GiuseppeMalanga.jpg::::::Giuseppe Malanga
+ArmandoGrassoDiPasquale.jpg::::::Armando Grasso di Pasquale
+PaoloPalmieri.jpg::::::Paolo Palmieri
+GinoAmendola.jpg::::::Gino Amendola
+AlessandroRussomanno.jpg::::::Alessandro Russomanno
+AnnaritaDElia.jpg::::::Annarita D'Elia
+FelicinoCaruso.jpg::::::Felicino Caruso
+SandroRussomanno.jpg::::::Sandro Russomanno
+GianfrancoRosania.jpg::::::Gianfranco Rosania
+VincenzoCurcio.jpg::::::Vincenzo Curcio
+GaetanaCasale.jpg::::::Gaetana Casale
+VincenzoRussomanno.jpg::::::Vincenzo Russomanno
+AngelinoCetrulo.jpg::::::Angelino Cetrulo
+LucianoViscido.jpg::::::Luciano Viscido
+AntonioDElia.jpg::::::Antonio D'Elia
+LucaRussomanno.jpg::::::Luca Russomanno
+NicolaTesta.jpg::::::Nicola Testa
+AlfonsoSturchio.jpg::::::Alfonso Sturchio
+LiaCeres.jpg::::::Lia Ceres
+GiovanniRosania.jpg::::::Giovanni Rosania
+GerardoSozio.jpg::::::Gerardo Sozio
+GraziaCione.jpg::::::Grazia Cione
+GianniCetrulo.jpg::::::Gianni Cetrulo
+JasmineNesta.jpg::::::Jasmine Nesta
+FlorianaNesta.jpg::::::Floriana Nesta
+MinaGaldi.jpg::::::Mina Galdi
+ElisaNittoli.jpg::::::Elisa Nittoli

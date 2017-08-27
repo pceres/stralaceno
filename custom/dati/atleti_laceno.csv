@@ -3,7 +3,7 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 2;Nicola D'Auria;M;-;?;?;-;2007/XIX13.jpg;I19
 3;Balduino Farina;M;-;?;?;-;-;I312
 4;Massimo Russomanno;M;-;?;?;-;2007/XIX17.jpg;I189
-5;Felicino Caruso;M;-;?;?;-;-;I10276
+5;Felicino Caruso;M;-;?;?;-;2017/FelicinoCaruso.jpg;I10276
 6;Tonuccio Corona;M;-;?;?;-;-;I5742
 7;Gualfardo Montanari di Pasq.;M;-;?;?;-;-;I1251
 8;Armando Sturchio;M;-;?;?;-;-;I40
@@ -16,12 +16,12 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 15;Antonio Viscido;M;-;?;?;-;-;I1473
 16;Vito D'Alessio;M;-;?;?;-;-;I9533
 17;Franco Malanga;M;-;?;?;-;-;I2574
-18;Alfonso Sturchio;M;-;?;?;-;-;I41
+18;Alfonso Sturchio;M;-;?;?;-;2017/AlfonsoSturchio.jpg;I41
 19;Salvatore Russomanno;M;-;?;?;-;-;I577
 20;Franco Maroso;M;-;?;?;-;-;I929
 21;Gualfardo Montanari di Agost.;M;-;?;?;-;-;I1259
 22;Salvatore Casillo;M;-;?;?;-;-;I8587
-23;Angelino Cetrulo;M;-;?;?;-;2007/XIX31.jpg;I7079
+23;Angelino Cetrulo;M;-;?;?;-;2017/AngelinoCetrulo.jpg;I7079
 24;Sandro Russomanno;M;-;?;?;-;-;I309
 25;Lorenzo Castagno;M;-;?;?;-;-;I10249
 26;Pasquale Ceres;M;-;1974;?;http://irlug.altervista.org;varie/dscn5313.jpg;I0000
@@ -43,13 +43,13 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 42;Giuseppe Rosania;M;-;?;?;-;2005/dscn3897.jpg;I6309
 43;Gerardo Gervasio;M;-;?;?;-;-;-
 44;Armando Grasso di Gels.;M;-;?;?;-;-;I2675
-45;Gerardo Notaro;M;-;?;?;http://www.caposeleonline.it;2007/XIX30.jpg;I5704
+45;Gerardo Notaro;M;-;?;?;http://www.caposeleonline.it;2017/GerardoNotaro.jpg;I5704
 46;Pasquale Ciccone;M;-;?;?;-;-;I986
 47;Mario Nesta;M;-;?;?;-;-;I8599
 48;Gerardo Ceres di Lor.;M;-;?;?;-;-;I431
-49;Luciano Viscido;M;-;?;?;-;-;I1515
-50;Gianni Cetrulo;M;-;?;?;-;2005/dscn5343.jpg;I7076
-51;Donato Ceres;M;-;?;?;-;2010/ST10_6.jpg;I769
+49;Luciano Viscido;M;-;?;?;-;2017/LucianoViscido.jpg;I1515
+50;Gianni Cetrulo;M;-;?;?;-;2017/GianniCetrulo.jpg;I7076
+51;Donato Ceres;M;-;?;?;-;2017/DonatoCeres.jpg;I769
 52;Alfonso Guarino;M;-;?;?;-;-;I6424
 53;Armando Grasso di Raff.;M;-;?;?;-;-;I2678
 54;Maurizio Sturchio;M;-;?;?;-;-;I2732
@@ -62,8 +62,8 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 61;Gerardo Nisivoccia;M;-;?;?;-;-;I969
 62;Pietro D'Alessio;M;-;?;?;-;-;I11586
 63;Alfonso Nesta Pzpz;M;-;?;?;-;-;I8598
-64;Rocco Grasso;M;-;?;?;-;-;I3180
-65;Benedetto Montanari;M;-;?;?;-;-;I1261
+64;Rocco Grasso;M;-;?;?;-;2017/RoccoGrasso.jpg;I3180
+65;Benedetto Montanari;M;-;?;?;-;2017/BenedettoMontanari.jpg;I1261
 66;Rocco Rosania;M;-;?;?;-;-;-
 67;Angelo Ciccone;M;-;?;?;-;-;I6476
 68;Angelo Ceres;M;-;?;?;-;-;I54
@@ -84,23 +84,23 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 83;Paolo Viscardi;M;-;?;?;http://www.siamonoi.it;2005/dscn5348.jpg;I1094
 84;Antonio Megaro;M;-;?;?;-;-;I6578
 85;Marco Ceres;M;-;?;?;-;-;I53
-86;Donatello Cirillo;M;-;?;?;-;2006/f43.jpg;I1340
+86;Donatello Cirillo;M;-;?;?;-;2017/DonatelloCirillo.jpg;I1340
 87;Giuseppe Sessa;M;-;?;?;-;-;-
 88;Francesco Ceres;M;-;?;?;-;2006/f35.jpg;I805
 89;Giuseppe Cetrulo;M;-;?;?;-;-;I6438
 90;Gelsomino Merola di Vito;M;-;?;?;-;-;-
-91;Antonio D'Elia;M;-;?;?;-;-;-
+91;Antonio D'Elia;M;-;?;?;-;2017/AntonioDElia.jpg;-
 92;Toni Auriemma;M;-;?;?;-;-;I1958
 93;Gaetano Rosania;M;-;?;?;-;2007/XIX32.jpg;-
 94;Raffaele Colatrella;M;-;?;?;-;-;-
 95;Giuseppe Viscardi;M;-;?;?;-;-;I2385
 96;Giuseppe Ceres;M;-;?;?;-;-;I767
-97;Dario Nisivoccia;M;-;?;?;-;-;I242
+97;Dario Nisivoccia;M;-;?;?;-;2017/DarioNisivoccia.jpg;I242
 98;Gerardo Grasso di Ton.;M;-;?;?;-;-;I3181
 99;Pierlorenzo Pallante;M;-;?;?;-;-;I2563
 100;Giovanni Paolercia;M;-;?;?;-;-;-
 101;Michele Notaro;M;-;?;?;-;2006/f32.jpg;-
-102;Angelo Ceres di Vinc.;M;-;?;?;-;2005/dscn5362.jpg;I590
+102;Angelo Ceres di Vinc.;M;-;?;?;-;2017/AngeloCeres.jpg;I590
 103;Angelo Di Masi;M;-;?;?;-;-;-
 104;Mario Cibellis;M;-;?;?;-;-;-
 105;Gerardo Grasso di Raff.;M;-;?;?;-;-;-
@@ -127,7 +127,7 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 126;Maria Di Masi;F;-;?;?;-;-;I2778
 127;Maria Monteverde;F;-;?;?;-;-;-
 128;Raffaele Merola;M;-;?;?;-;-;I4523
-129;Rocco Nesta;M;-;?;?;-;-;I6509
+129;Rocco Nesta;M;-;?;?;-;2017/RoccoNesta.jpg;I6509
 130;Enrico Porreca;M;-;?;?;-;-;-
 131;Alfredo Grasso;M;-;?;?;-;2005/dscn5371.jpg;I1151
 132;Giuseppe Cifrodelli;M;-;?;?;-;-;I3229
@@ -165,7 +165,7 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 164;Thomas Cibellis;M;-;?;?;-;2007/XIX7.jpg;I3471
 165;Gerardo Martino;M;-;?;?;-;2007/XIX9.jpg;-
 166;Salvatore Malanga;M;-;?;?;-;-;I1277
-167;Gianfranco Rosania;M;-;?;?;-;2007/XIX33.jpg;-
+167;Gianfranco Rosania;M;-;?;?;-;2017/GianfrancoRosania.jpg;-
 168;Juli Pucillo;M;-;?;?;-;-;I7686
 169;Gerardo Sozio;M;-;?;?;-;2006/d6.jpg;I9998
 170;Alessandro Ruglio;M;-;?;?;-;-;I3704
@@ -194,13 +194,13 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 193;Ernesto Donatiello;M;-;1983;?;-;2007/XIX16.jpg;I6490
 194;Gerardo Monteverde;M;-;?;?;-;2007/XIX52.jpg;-
 195;Giuseppe Melillo;M;-;?;?;-;-;-
-196;Luigi Russomanno;M;-;?;?;-;2007/XIX12.jpg;-
-197;Gianni Sozio;M;-;?;?;-;2007/XIX15.jpg;I9999
+196;Luigi Russomanno;M;-;?;?;-;2017/LuigiRussomanno.jpg;-
+197;Gianni Sozio;M;-;?;?;-;2017/GianniSozio.jpg;I9999
 198;Gerardo Donatiello;M;-;?;?;-;2007/XIX33.jpg;I6492
 199;Pasquale Restaino;M;-;?;?;-;-;-
-200;Gaetano D'Elia;M;-;?;?;-;-;-
+200;Gaetano D'Elia;M;-;?;?;-;2017/GaetanoDElia.jpg;-
 201;Donato Nesta;M;-;?;?;-;2007/XIX24.jpg;-
-202;Luca Russomanno;M;-;?;?;-;-;I5626
+202;Luca Russomanno;M;-;?;?;-;2017/LucaRussomanno.jpg;I5626
 203;Giuseppe Freda;M;-;?;?;-;-;-
 204;Armando Ciccone;M;-;?;?;-;-;-
 205;Delia Fabio;F;-;?;?;-;-;I6566
@@ -215,41 +215,41 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 214;Mariangela Sturchio;F;-;?;?;-;2007/XIX35.jpg;I42
 215;Maria Malanga;F;-;?;?;-;2007/XIX35.jpg;-
 216;Elisa Pallante;F;-;?;?;-;-;I4976
-217;Lorenzo Panariello;M;-;?;?;-;-;-
-218;Alfonso Rosania;M;-;?;?;-;-;I8828
+217;Lorenzo Panariello;M;-;?;?;-;2017/LorenzoPanariello.jpg;-
+218;Alfonso Rosania;M;-;?;?;-;2017/AlfonsoRosania.jpg;I8828
 219;Alen Nisivoccia;M;-;?;?;-;-;-
-220;Gerardo Del Malandrino;M;-;?;?;-;-;I6789
-221;Annarita D'Elia;F;-;?;?;-;-;-
+220;Gerardo Del Malandrino;M;-;?;?;-;2017/GerardoDelMalandrino.jpg;I6789
+221;Annarita D'Elia;F;-;?;?;-;2017/AnnaritaDElia.jpg;-
 222;Maurizio Zarra;M;-;?;?;-;-;I545
 223;Agostino Merino;M;-;?;?;-;-;I7879
-224;Daniele Caprio;M;-;?;?;-;-;I5865
+224;Daniele Caprio;M;-;?;?;-;2017/DanieleCaprio.jpg;I5865
 225;Raffaele Rosania;M;-;?;?;-;-;-
-226;Giovanni Viscardi;M;-;?;?;-;-;I1098
-227;Vincenzo Curcio;M;-;?;?;-;-;-
+226;Giovanni Viscardi;M;-;?;?;-;2017/GiovanniViscardi.jpg;I1098
+227;Vincenzo Curcio;M;-;?;?;-;2017/VincenzoCurcio.jpg;-
 228;Gerardo Rosamilia;M;-;?;?;-;-;I7817
 229;Carmine Feniello;M;-;?;?;-;-;I6977
 230;Lucia Sozio;F;-;?;?;-;-;I10000
 231;Rossella D'Elia;F;-;?;?;-;-;-
 232;Mimma Feniello;F;-;?;?;-;-;I5665
-233;Antonio Nesta;M;-;?;?;-;-;I6523
+233;Antonio Nesta;M;-;?;?;-;2017/AntonioNesta.jpg;I6523
 234;Gerardo Aiello;M;-;?;?;-;-;I266
 235;Giuseppe Caruso;M;-;?;?;-;-;I10016
 236;Mauro Malanga;M;-;?;?;-;-;-
-237;Marco Galdi;M;-;?;?;-;-;-
+237;Marco Galdi;M;-;?;?;-;2017/MarcoGaldi.jpg;-
 238;Francesco Rosania;M;-;?;?;-;-;I6775
-239;Alessio Merola;M;-;?;?;-;-;-
+239;Alessio Merola;M;-;?;?;-;2017/AlessioMerola.jpg;-
 240;Simona Ceres;F;-;?;?;-;-;I804
 241;Giuseppina Russo;F;-;?;?;-;-;-
 242;Pasquale Pallante;M;-;?;?;-;-;I1377
 243;Rocco Monteverde;M;-;?;?;-;-;-
-244;Gerardo Viscido;M;-;?;?;-;-;I11510
+244;Gerardo Viscido;M;-;?;?;-;2017/GerardoViscido.jpg;I11510
 245;Donato Liloia;M;-;?;?;-;-;-
 246;Carlo Cibellis;M;-;?;?;-;-;-
 247;David Di Masi;M;-;?;?;-;-;I77
-248;Gerardo Russomanno 1994;M;-;1994;?;-;-;-
-249;Paolo Palmieri;M;-;?;?;-;-;I1481
+248;Gerardo Russomanno 1994;M;-;1994;?;-;2017/GerardoRussomanno1994.jpg;-
+249;Paolo Palmieri;M;-;?;?;-;2017/PaoloPalmieri.jpg;I1481
 250;Marco Proietto;M;-;?;?;-;-;-
-251;Lia Ceres;F;-;?;?;-;-;I4516
+251;Lia Ceres;F;-;?;?;-;2017/LiaCeres.jpg;I4516
 252;Gerardo Monteverde 1983;M;-;1983;?;-;-;-
 253;Arturo Scavella;M;-;?;?;-;-;-
 254;Giovanni Aiello;M;-;?;?;-;-;I6909
@@ -259,20 +259,20 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 258;Alfonsorocco Rosania;M;-;?;?;-;-;-
 259;Giuseppe Palmieri;M;-;?;?;-;-;I673
 260;Raffaele Chiaravallo;M;-;?;?;-;-;I2797
-261;Giovanni Rosania;M;-;?;?;-;-;I3215
+261;Giovanni Rosania;M;-;?;?;-;2017/GiovanniRosania.jpg;I3215
 262;Concetta Liloia;F;-;?;?;-;-;-
 263;Gerarda Grasso;F;-;?;?;-;-;I1153
 264;Concetta Caruso;F;-;?;?;-;-;I6450
 265;Nino Chiaravallo;M;-;?;?;-;-;I1416
 266;Giuseppe Colatrella;M;-;?;?;-;-;-
 267;Enrico Russomanno;M;-;?;?;-;-;-
-268;Carmine Cuozzo;M;-;?;?;-;-;I9076
+268;Carmine Cuozzo;M;-;?;?;-;2017/CarmineCuozzo.jpg;I9076
 269;Roberto Lenza;M;-;?;?;-;-;-
 270;Alfredo Malanga;M;-;?;?;-;-;-
 271;Italo Rosania;M;-;?;?;-;-;I11243
 272;Serafina D'Alessio;F;-;?;?;-;-;I6425
 273;Gerardo Cibellis;M;-;?;?;-;-;I5775
-274;Mina Galdi;F;-;?;?;-;-;I1878
+274;Mina Galdi;F;-;?;?;-;2017/MinaGaldi.jpg;I1878
 275;Gelsomina Palmieri;F;-;?;?;-;-;I1484
 276;Vincenzo Cibellis;M;-;?;?;-;-;-
 277;Giuseppe Sozio;M;-;?;?;-;-;I11614
@@ -281,27 +281,27 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 280;Giuseppe Paolercia;M;-;?;?;-;-;-
 281;Federico Paolercia;M;-;?;?;-;-;-
 282;Angelo Lardieri;M;-;?;?;-;-;-
-283;Simone D'Alessio;M;-;?;?;-;-;I11609
+283;Simone D'Alessio;M;-;?;?;-;2017/SimoneDAlessio.jpg;I11609
 284;Filomena Iannuzzi;F;-;?;?;-;-;I11606
 285;Emanuele Ceres;M;-;?;?;-;-;I2548
 286;Giuseppe Giannattasio;M;-;?;?;-;-;-
 287;Antonio Nesta 1952;M;-;1952;?;-;-;-
-288;Jasmine Nesta;F;-;?;?;-;-;I6522
-289;Elisa Nittoli;F;-;?;?;-;-;I6521
+288;Jasmine Nesta;F;-;?;?;-;2017/JasmineNesta.jpg;I6522
+289;Elisa Nittoli;F;-;?;?;-;2017/ElisaNittoli.jpg;I6521
 290;Giuseppe Colatrella 2000;M;-;?;?;-;-;-
 291;Alessandro Monteverde;M;-;?;?;-;-;-
 292;Enrico Piroddi;M;-;?;?;-;-;-
 293;Giorgio Sturchio;M;-;?;?;-;-;I8580
 294;Gabriella Testa;F;-;?;?;-;-;I4948
-295;Giuseppe Malanga 1981;M;-;1981;?;-;-;I5693
+295;Giuseppe Malanga 1981;M;-;1981;?;-;2017/GiuseppeMalanga.jpg;I5693
 296;Giulio Farina;M;-;?;?;-;-;I315
 297;Lorenzo D'Elia;M;-;?;?;-;-;-
 298;Raffaella Palmieri;F;-;?;?;-;-;I1483
 299;Martina Melillo;F;-;?;?;-;-;I3098
-300;Antonio Viscido 1975;M;-;1975;?;-;-;-
-301;Gaetana Casale;F;-;?;?;-;-;-
-302;Vincenzo Russomanno;M;-;?;?;-;-;-
-303;Nicola Testa;M;-;?;?;-;-;-
-304;Grazia Cione;F;-;?;?;-;-;-
+300;Antonio Viscido 1975;M;-;1975;?;-;2017/AntonioViscido.jpg;-
+301;Gaetana Casale;F;-;?;?;-;2017/GaetanaCasale.jpg;-
+302;Vincenzo Russomanno;M;-;?;?;-;2017/VincenzoRussomanno.jpg;-
+303;Nicola Testa;M;-;?;?;-;2017/NicolaTesta.jpg;-
+304;Grazia Cione;F;-;?;?;-;2017/GraziaCione.jpg;-
 305;Danila Nesta;F;-;?;?;-;-;-
-306;Floriana Nesta;F;-;?;?;-;-;-
+306;Floriana Nesta;F;-;?;?;-;2017/FlorianaNesta.jpg;-
