@@ -128,7 +128,7 @@ Id;Collaboratore;Sesso;Incarico;Anno;Link;Nota
 1;Nicola D'Auria;M;Organizzatore;2009;-;-
 2;Alessandro Russomanno;M;Organizzatore;2009;-;-
 3;Donatello Cirillo;M;Organizzatore;2009;-;-
-36;Viscardi Paolo;M;Organizzatore;2009;-;-
+36;Paolo Viscardi;M;Organizzatore;2009;-;-
 27;Nicola Cirillo;M;Direttore di gara;2009;-;-
 4;Lello Viscardi;M;Cronometrista ufficiale;2009;-;-
 9;Alfonso Curcio;M;Cronometrista di riserva;2009;-;-
@@ -143,11 +143,11 @@ Id;Collaboratore;Sesso;Incarico;Anno;Link;Nota
 45;Saverio Perna;M;Collaboratore;2009;-;-
 30;Salvatore Fuschetto;M;Collaboratore;2009;-;-
 34;Carmela Malanga;F;Collaboratrice;2009;-;-
-47;Angelino Cetrulo;M;Collaboratore;2009;-;-
+46;Angelino Cetrulo;M;Collaboratore;2009;-;-
 1;Nicola D'Auria;M;Organizzatore;2010;-;-
 2;Alessandro Russomanno;M;Organizzatore;2010;-;-
 3;Donatello Cirillo;M;Organizzatore;2010;-;-
-36;Viscardi Paolo;M;Organizzatore;2010;-;-
+36;Paolo Viscardi;M;Organizzatore;2010;-;-
 27;Nicola Cirillo;M;Direttore di gara;2010;-;-
 4;Lello Viscardi;M;Cronometrista ufficiale;2010;-;-
 9;Alfonso Curcio;M;Cronometrista di riserva;2010;-;-
@@ -168,7 +168,7 @@ Id;Collaboratore;Sesso;Incarico;Anno;Link;Nota
 2;Alessandro Russomanno;M;Organizzatore;2011;-;-
 52;Donato Ceres;M;Organizzatore;2011;-;-
 3;Donatello Cirillo;M;Organizzatore;2011;-;-
-36;Viscardi Paolo;M;Organizzatore;2011;-;-
+36;Paolo Viscardi;M;Organizzatore;2011;-;-
 27;Nicola Cirillo;M;Direttore di gara;2011;-;-
 9;Alfonso Curcio;M;Cronometrista ufficiale;2011;-;-
 53;Giuseppe Meo;M;Cronometrista di riserva;2011;-;-
@@ -191,7 +191,7 @@ Id;Collaboratore;Sesso;Incarico;Anno;Link;Nota
 1;Nicola D'Auria;M;Organizzatore;2012;-;-
 2;Alessandro Russomanno;M;Organizzatore;2012;-;-
 52;Donato Ceres;M;Organizzatore;2012;-;-
-36;Viscardi Paolo;M;Organizzatore;2012;-;-
+36;Paolo Viscardi;M;Organizzatore;2012;-;-
 28;Valentino Di Masi;M;Direttore e Segretario di gara;2012;-;-
 4;Lello Viscardi;M;Primo Cronometrista;2012;-;-
 9;Alfonso Curcio;M;Secondo Cronometrista;2012;-;-
@@ -212,7 +212,7 @@ Id;Collaboratore;Sesso;Incarico;Anno;Link;Nota
 1;Nicola D'Auria;M;Organizzatore;2013;-;-
 2;Alessandro Russomanno;M;Organizzatore;2013;-;-
 52;Donato Ceres;M;Organizzatore;2013;-;-
-36;Viscardi Paolo;M;Organizzatore;2013;-;-
+36;Paolo Viscardi;M;Organizzatore;2013;-;-
 3;Donatello Cirillo;M;Organizzatore;2013;-;-
 27;Nicola Cirillo;M;Direttore di gara;2013;-;-
 4;Lello Viscardi;M;Segretario di gara;2013;-;-
@@ -232,7 +232,7 @@ Id;Collaboratore;Sesso;Incarico;Anno;Link;Nota
 1;Nicola D'Auria;M;Organizzatore;2014;-;-
 2;Alessandro Russomanno;M;Organizzatore;2014;-;-
 52;Donato Ceres;M;Organizzatore;2014;-;-
-36;Viscardi Paolo;M;Organizzatore;2014;-;-
+36;Paolo Viscardi;M;Organizzatore;2014;-;-
 3;Donatello Cirillo;M;Organizzatore;2014;-;-
 45;Saverio Perna;M;Direttore di gara;2014;-;-
 71;Ernesto Donatiello;M;Segretario di gara;2014;-;-
@@ -251,7 +251,7 @@ Id;Collaboratore;Sesso;Incarico;Anno;Link;Nota
 1;Nicola D'Auria;M;Organizzatore;2015;-;-
 2;Alessandro Russomanno;M;Collaboratore;2015;-;-
 52;Donato Ceres;M;Organizzatore;2015;-;-
-36;Viscardi Paolo;M;Organizzatore;2015;-;-
+36;Paolo Viscardi;M;Organizzatore;2015;-;-
 3;Donatello Cirillo;M;Organizzatore;2015;-;-
 28;Valentino Di Masi;M;Direttore di gara;2015;-;-
 27;Nicola Cirillo;M;Segretario di gara;2015;-;-
@@ -274,3 +274,21 @@ Id;Collaboratore;Sesso;Incarico;Anno;Link;Nota
 77;Angelo Caruso;M;Ispettore di gara;2016;-;-
 22;Massimo Russomanno;M;Medico di gara;2016;-;-
 33;Massimo Cetrulo;M;Addetto alla logistica;2016;-;-
+1;Nicola D'Auria e il Comitato Stralaceno 2017;M;Organizzatore;2017;-;-
+4;Lello Viscardi;M;Direttore di gara;2017;-;-
+29;Giacomo Salicone;M;Primo Cronometrista;2017;-;-
+9;Alfonso Curcio;M;Secondo Cronometrista;2017;-;-
+33;Massimo Cetrulo;M;Addetto alla logistica;2017;-;-
+78;Lorenzo Gervasio;M;Assistente addetto alla logistica;2017;-;-
+2;Alessandro Russomanno;M;Segretario di gara;2017;-;-
+60;Gerardo Cetrulo 'Pius';M;Ispettore di gara;2017;-;-
+81;Francesco Ceres di Gerardo;M;Conduttore della manifestazione;2017;-;-
+56;Gerardo Corona;M;Responsabile foto;2017;-;-
+52;Donato Ceres;M;Collaboratore;2017;-;-
+3;Donatello Cirillo;M;Collaboratore;2017;-;-
+55;Giovanni Viscardi e i ragazzi del forum dei giovani Caposele;M;Collaboratore;2017;-;-
+79;Alfonsina D'Auria;F;Collaboratrice;2017;-;-
+80;Aurora Cetrulo;F;Collaboratrice;2017;-;-
+17;Pasquale Ceres;M;Collaboratore;2017;-;-
+36;Paolo Viscardi;M;Collaboratore;2017;-;-
+82;Rocco Nesta 'investigatore';M;Collaboratore;2017;-;-

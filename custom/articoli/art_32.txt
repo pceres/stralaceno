@@ -1,0 +1,27 @@
+Autore::Comitato Stralaceno
+Titolo::XXIX edizione
+--- Begin body ---
+<br>
+La XXIX edizione si &egrave; della Stralaceno si &egrave; tenuta oggi venerd&igrave 25 agosto 2017, alle ore 18:00.
+Vi hanno preso parte 55 atleti.
+<br>
+<br>
+La classifica parziale ufficiosa &egrave; la seguente:
+<ol>
+  <li>Daniele Caprio: 18' 16'' (migliora il record assoluto, già suo, di 3 secondi)</li>
+  <li>Antonio Nesta: 19' 46''</li>
+  <li>Donato Ceres: 20' 00''</li>
+</ol>
+<p><a href="filtro4.php?anno=2017">L'ordine d'arrivo completo ufficioso dell'edizione 2017 della Stralaceno &egrave; consultabile qui</a>.</p>
+</div>
+<br>
+</div>
+<br>
+<div align="center">
+<img  src="%file_root%custom/album/2017/stra2017.jpg" alt="logo_stralaceno_2017" border="0" width="200">
+<br>
+</div>
+<br>
+</div>
+<br>
+--- End body ---

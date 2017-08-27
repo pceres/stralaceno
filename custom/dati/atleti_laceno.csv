@@ -5,7 +5,7 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 4;Massimo Russomanno;M;-;?;?;-;2007/XIX17.jpg;I189
 5;Felicino Caruso;M;-;?;?;-;-;I10276
 6;Tonuccio Corona;M;-;?;?;-;-;I5742
-7;Gualfardo Montanari di Pasqu.;M;-;?;?;-;-;I1251
+7;Gualfardo Montanari di Pasq.;M;-;?;?;-;-;I1251
 8;Armando Sturchio;M;-;?;?;-;-;I40
 9;Nicola Majorana;M;-;?;?;-;-;I1511
 10;Gerardo Ceres;M;-;?;?;-;-;I798
@@ -106,8 +106,8 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 105;Gerardo Grasso di Raff.;M;-;?;?;-;-;-
 106;Gelsomino Rosania;M;-;?;?;-;-;I10322
 107;Tommaso Cibellis;M;-;?;?;-;2007/XIX47.jpg;-
-108;Giuseppe Ceres di Pasqu.;M;-;?;?;-;-;-
-109;Armando Grasso di Pasqu.;M;-;?;?;-;2007/XIX8.jpg;-
+108;Giuseppe Ceres di Pasq.;M;-;?;?;-;-;-
+109;Armando Grasso di Pasq.;M;-;?;?;-;2007/XIX8.jpg;-
 110;Antonio Ruglio di Ang.;M;-;?;?;-;-;-
 111;Pasquale Colatrella;M;-;?;?;-;-;-
 112;Valentino Di Masi;M;-;?;?;-;2005/dscn5352.jpg;-
@@ -211,7 +211,7 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 210;Giuseppe Martino;M;-;?;?;-;-;-
 211;Gerardo Amendola;M;-;?;?;-;2007/XIX47.jpg;-
 212;Leo Nisivoccia;M;-;?;?;-;-;-
-213;Franco Cibellis di Pasqu.;M;-;?;?;-;2007/XIX34.jpg;-
+213;Franco Cibellis di Pasq.;M;-;?;?;-;2007/XIX34.jpg;-
 214;Mariangela Sturchio;F;-;?;?;-;2007/XIX35.jpg;I42
 215;Maria Malanga;F;-;?;?;-;2007/XIX35.jpg;-
 216;Elisa Pallante;F;-;?;?;-;-;I4976
@@ -273,22 +273,22 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 272;Serafina D'Alessio;F;-;?;?;-;-;I6425
 273;Gerardo Cibellis;M;-;?;?;-;-;I5775
 274;Mina Galdi;F;-;?;?;-;-;I1878
-275;Gelsomina Palmieri;F;-;?;?;-;-;-
+275;Gelsomina Palmieri;F;-;?;?;-;-;I1484
 276;Vincenzo Cibellis;M;-;?;?;-;-;-
-277;Giuseppe Sozio;M;-;?;?;-;-;-
+277;Giuseppe Sozio;M;-;?;?;-;-;I11614
 278;Valentino Malanga;M;-;?;?;-;-;I7882
 279;Tara Malanga;F;-;?;?;-;-;I8881
 280;Giuseppe Paolercia;M;-;?;?;-;-;-
 281;Federico Paolercia;M;-;?;?;-;-;-
 282;Angelo Lardieri;M;-;?;?;-;-;-
-283;Simone D'Alessio;M;-;?;?;-;-;-
-284;Filomena Iannuzzi;F;-;?;?;-;-;-
+283;Simone D'Alessio;M;-;?;?;-;-;I11609
+284;Filomena Iannuzzi;F;-;?;?;-;-;I11606
 285;Emanuele Ceres;M;-;?;?;-;-;I2548
 286;Giuseppe Giannattasio;M;-;?;?;-;-;-
 287;Antonio Nesta 1952;M;-;1952;?;-;-;-
 288;Jasmine Nesta;F;-;?;?;-;-;I6522
 289;Elisa Nittoli;F;-;?;?;-;-;I6521
-290;Giuseppe Colatrella;M;-;?;?;-;-;-
+290;Giuseppe Colatrella 2000;M;-;?;?;-;-;-
 291;Alessandro Monteverde;M;-;?;?;-;-;-
 292;Enrico Piroddi;M;-;?;?;-;-;-
 293;Giorgio Sturchio;M;-;?;?;-;-;I8580
@@ -297,4 +297,11 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 296;Giulio Farina;M;-;?;?;-;-;I315
 297;Lorenzo D'Elia;M;-;?;?;-;-;-
 298;Raffaella Palmieri;F;-;?;?;-;-;I1483
-299;Martina Melillo;F;-;?;?;-;-;-
+299;Martina Melillo;F;-;?;?;-;-;I3098
+300;Antonio Viscido 1975;M;-;1975;?;-;-;-
+301;Gaetana Casale;F;-;?;?;-;-;-
+302;Vincenzo Russomanno;M;-;?;?;-;-;-
+303;Nicola Testa;M;-;?;?;-;-;-
+304;Grazia Cione;F;-;?;?;-;-;-
+305;Danila Nesta;F;-;?;?;-;-;-
+306;Floriana Nesta;F;-;?;?;-;-;-
