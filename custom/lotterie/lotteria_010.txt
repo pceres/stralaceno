@@ -15,7 +15,7 @@
 #	data_presentazione_risultati	: hh:mm gg/mm/aaaa
 #
 [Attributi]
-Sondaggio Mondiali 2018::attiva::no_auth::12:00 01/02/2018::24:00 11/06/2018::00:05 12/06/2018
+Sondaggio Mondiali 2018::attiva::no_auth::24:00 03/05/2018::24:00 11/06/2018::00:05 12/06/2018
 
 #
 # msg1::msg2::msg3
@@ -194,7 +194,7 @@ Francia
 Peru'
 Danimarca
 Australia
-Agentina
+Argentina
 Croazia
 Islanda
 Nigeria
@@ -247,7 +247,7 @@ Brasile::stat_risposta::Posizionamento <span class="hi">Brasile</span>::posizion
 # Messaggi custom: possono essere in qualsiasi forma, vi si accede come $lotteria['msg_custom'][<numero_riga>][<numero_colonna>]
 #
 [msg_custom]
-Consulta il tabellone di aiuto alla compilazione su Caposeleonline:http://www.caposeleonline.it/tab-mond-06.htm::Consulta il tabellone di aiuto alla compilazione su Caposeleonline:http://www.caposeleonline.it/tab-mond-06.htm::http://www.caposeleonline.it/tab-mond-06.htm
+Consulta il <a href="download.php?resource_type=file&resource_id=file_Tabella_mondiali_2018_xls">tabellone di aiuto alla compilazione::download.php?resource_type=file&resource_id=file_Tabella_mondiali_2018_xls
 
 #
 # stile riga

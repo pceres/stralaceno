@@ -23,7 +23,17 @@ Formato [folder_xxx]:
 
 [folder_root]
 folder::folder_ARS::ARS Amatori Running Sele::Sezione relativa all'associazione::Amatori Running Sele::::admin::22:07 04/07/2007::1155
-folder::folder_vari::Files vari::Sezione con risorse di varia natura::vari::::admin::22:07 04/07/2007::672
+folder::folder_vari::Files vari::Sezione con risorse di varia natura::vari::::admin::22:07 04/07/2007::675
+
+[folder_vari]
+folder::folder_FC_caposele::Documenti relatici a FC Caposele::I documenti costitutivi dell'"FC Caposele": regolamento interno, ecc.::FC_caposele::::admin::22:07 06/07/2018::1
+file::file_Tabella_europei_2016_xls::Tabella Europei 2016::Tabella Europei 2016 in formato Excel::Tabella europei 2016.xls::::admin::22:07 06/07/2018::1
+file::file_Tabella_europei_2016_pdf::Tabella Europei 2016::Tabella Europei 2016 in formato pdf::Tabella europei 2016.pdf::::admin::22:07 06/07/2018::1
+file::file_Tabella_mondiali_2018_xls::Tabella Mondiali 2018::Tabella Mondiali 2018 in formato Excel::Tabella mondiali 2018.xls::::admin::22:07 06/07/2018::5
+
+[folder_FC_caposele]
+file::file_Regolamento_Int_FC_Cap_07_08_pdf::Regolamento interno FC Caposele::Regolamento interno FC Caposele 2007/08 in formato pdf::Regolamento Int. FC Cap. 07.08.pdf::::admin::22:07 06/07/2018::0
+file::file_Regolamento_Int_FC_Cap_07_08_doc::Regolamento interno FC Caposele::Regolamento interno FC Caposele 2007/08 in formato doc::Regolamento Int. FC Cap. 07.08.doc::::admin::22:07 06/07/2018::0
 
 [folder_ARS]
 folder::folder_Atto_costitutivo_statuto_verbali::Atti costitutivi, statuti, regolamenti e verbali::I documenti costitutivi dell'"Amatori Running Sele": atti costitutivi, statuto, regolamento, verbali delle assemblee, ecc.::Atti costitutivi::::admin::22:07 04/07/2007::964

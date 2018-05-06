@@ -23,7 +23,7 @@ Russia
 # Qualificato ottavi 9:
 Portogallo
 # Qualificato ottavi 10:
-Agentina
+Argentina
 # Qualificato ottavi 11:
 Germania
 # Qualificato ottavi 12:
@@ -98,7 +98,7 @@ Francia::5,20;4,4;3,0;2,0;1,0
 Peru'::5,20;4,0;3,0;2,0;1,0
 Danimarca::5,0;4,0;3,0;2,0;1,0
 Australia::5,0;4,0;3,0;2,0;1,0
-Agentina::5,20;4,9;3,0;2,0;1,0
+Argentina::5,20;4,9;3,0;2,0;1,0
 Croazia::5,0;4,0;3,0;2,0;1,0
 Islanda::5,20;4,20;3,40;2,80;1,160
 Nigeria::5,0;4,0;3,0;2,0;1,0

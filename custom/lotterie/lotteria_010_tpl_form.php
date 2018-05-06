@@ -408,7 +408,7 @@ function check_input(f)
 	gironeA = new Array("Arabia Saudita","Egitto","Russia","Uruguay");
 	gironeB = new Array("Iran","Marocco","Portogallo","Spagna");
 	gironeC = new Array("Australia","Danimarca","Francia","Perù");
-	gironeD = new Array("Agentina","Croazia","Islanda","Nigeria");
+	gironeD = new Array("Argentina","Croazia","Islanda","Nigeria");
 	gironeE = new Array("Brasile","Costa Rica","Serbia","Svizzera");
 	gironeF = new Array("Corea del Sud","Germania","Messico","Svezia");
 	gironeG = new Array("Belgio","Inghilterra","Panama","Tunisia");
@@ -1066,7 +1066,7 @@ else
 <option>Peru'</option>
 <option>Danimarca</option>
 <option>Australia</option>
-<option>Agentina</option>
+<option>Argentina</option>
 <option>Croazia</option>
 <option>Islanda</option>
 <option>Nigeria</option>
@@ -1106,7 +1106,7 @@ else
 <option>Peru'</option>
 <option>Danimarca</option>
 <option>Australia</option>
-<option>Agentina</option>
+<option>Argentina</option>
 <option>Croazia</option>
 <option>Islanda</option>
 <option>Nigeria</option>
@@ -1147,7 +1147,7 @@ else
 <option>Peru'</option>
 <option>Danimarca</option>
 <option>Australia</option>
-<option>Agentina</option>
+<option>Argentina</option>
 <option>Croazia</option>
 <option>Islanda</option>
 <option>Nigeria</option>
@@ -1189,7 +1189,7 @@ else
 <option>Peru'</option>
 <option>Danimarca</option>
 <option>Australia</option>
-<option>Agentina</option>
+<option>Argentina</option>
 <option>Croazia</option>
 <option>Islanda</option>
 <option>Nigeria</option>
@@ -1232,7 +1232,7 @@ else
 <option>Peru'</option>
 <option>Danimarca</option>
 <option>Australia</option>
-<option>Agentina</option>
+<option>Argentina</option>
 <option>Croazia</option>
 <option>Islanda</option>
 <option>Nigeria</option>
@@ -1273,7 +1273,7 @@ else
 <option>Peru'</option>
 <option>Danimarca</option>
 <option>Australia</option>
-<option>Agentina</option>
+<option>Argentina</option>
 <option>Croazia</option>
 <option>Islanda</option>
 <option>Nigeria</option>
@@ -1315,7 +1315,7 @@ else
 <option>Peru'</option>
 <option>Danimarca</option>
 <option>Australia</option>
-<option>Agentina</option>
+<option>Argentina</option>
 <option>Croazia</option>
 <option>Islanda</option>
 <option>Nigeria</option>
@@ -1359,7 +1359,7 @@ else
 <option>Peru'</option>
 <option>Danimarca</option>
 <option>Australia</option>
-<option>Agentina</option>
+<option>Argentina</option>
 <option>Croazia</option>
 <option>Islanda</option>
 <option>Nigeria</option>
@@ -1405,7 +1405,7 @@ else
 <option>Peru'</option>
 <option>Danimarca</option>
 <option>Australia</option>
-<option>Agentina</option>
+<option>Argentina</option>
 <option>Croazia</option>
 <option>Islanda</option>
 <option>Nigeria</option>
@@ -1447,7 +1447,7 @@ else
 <option>Peru'</option>
 <option>Danimarca</option>
 <option>Australia</option>
-<option>Agentina</option>
+<option>Argentina</option>
 <option>Croazia</option>
 <option>Islanda</option>
 <option>Nigeria</option>
@@ -1488,7 +1488,7 @@ else
 <option>Peru'</option>
 <option>Danimarca</option>
 <option>Australia</option>
-<option>Agentina</option>
+<option>Argentina</option>
 <option>Croazia</option>
 <option>Islanda</option>
 <option>Nigeria</option>
@@ -1530,7 +1530,7 @@ else
 <option>Peru'</option>
 <option>Danimarca</option>
 <option>Australia</option>
-<option>Agentina</option>
+<option>Argentina</option>
 <option>Croazia</option>
 <option>Islanda</option>
 <option>Nigeria</option>
@@ -1573,7 +1573,7 @@ else
 <option>Peru'</option>
 <option>Danimarca</option>
 <option>Australia</option>
-<option>Agentina</option>
+<option>Argentina</option>
 <option>Croazia</option>
 <option>Islanda</option>
 <option>Nigeria</option>
@@ -1614,7 +1614,7 @@ else
 <option>Peru'</option>
 <option>Danimarca</option>
 <option>Australia</option>
-<option>Agentina</option>
+<option>Argentina</option>
 <option>Croazia</option>
 <option>Islanda</option>
 <option>Nigeria</option>
@@ -1656,7 +1656,7 @@ else
 <option>Peru'</option>
 <option>Danimarca</option>
 <option>Australia</option>
-<option>Agentina</option>
+<option>Argentina</option>
 <option>Croazia</option>
 <option>Islanda</option>
 <option>Nigeria</option>
@@ -1700,7 +1700,7 @@ else
 <option>Peru'</option>
 <option>Danimarca</option>
 <option>Australia</option>
-<option>Agentina</option>
+<option>Argentina</option>
 <option>Croazia</option>
 <option>Islanda</option>
 <option>Nigeria</option>
@@ -1765,7 +1765,7 @@ else
 <option>Peru'</option>
 <option>Danimarca</option>
 <option>Australia</option>
-<option>Agentina</option>
+<option>Argentina</option>
 <option>Croazia</option>
 <option>Islanda</option>
 <option>Nigeria</option>
@@ -1807,7 +1807,7 @@ else
 <option>Peru'</option>
 <option>Danimarca</option>
 <option>Australia</option>
-<option>Agentina</option>
+<option>Argentina</option>
 <option>Croazia</option>
 <option>Islanda</option>
 <option>Nigeria</option>
@@ -1848,7 +1848,7 @@ else
 <option>Peru'</option>
 <option>Danimarca</option>
 <option>Australia</option>
-<option>Agentina</option>
+<option>Argentina</option>
 <option>Croazia</option>
 <option>Islanda</option>
 <option>Nigeria</option>
@@ -1890,7 +1890,7 @@ else
 <option>Peru'</option>
 <option>Danimarca</option>
 <option>Australia</option>
-<option>Agentina</option>
+<option>Argentina</option>
 <option>Croazia</option>
 <option>Islanda</option>
 <option>Nigeria</option>
@@ -1933,7 +1933,7 @@ else
 <option>Peru'</option>
 <option>Danimarca</option>
 <option>Australia</option>
-<option>Agentina</option>
+<option>Argentina</option>
 <option>Croazia</option>
 <option>Islanda</option>
 <option>Nigeria</option>
@@ -1974,7 +1974,7 @@ else
 <option>Peru'</option>
 <option>Danimarca</option>
 <option>Australia</option>
-<option>Agentina</option>
+<option>Argentina</option>
 <option>Croazia</option>
 <option>Islanda</option>
 <option>Nigeria</option>
@@ -2016,7 +2016,7 @@ else
 <option>Peru'</option>
 <option>Danimarca</option>
 <option>Australia</option>
-<option>Agentina</option>
+<option>Argentina</option>
 <option>Croazia</option>
 <option>Islanda</option>
 <option>Nigeria</option>
@@ -2060,7 +2060,7 @@ else
 <option>Peru'</option>
 <option>Danimarca</option>
 <option>Australia</option>
-<option>Agentina</option>
+<option>Argentina</option>
 <option>Croazia</option>
 <option>Islanda</option>
 <option>Nigeria</option>
@@ -2126,7 +2126,7 @@ else
 <option>Peru'</option>
 <option>Danimarca</option>
 <option>Australia</option>
-<option>Agentina</option>
+<option>Argentina</option>
 <option>Croazia</option>
 <option>Islanda</option>
 <option>Nigeria</option>
@@ -2168,7 +2168,7 @@ else
 <option>Peru'</option>
 <option>Danimarca</option>
 <option>Australia</option>
-<option>Agentina</option>
+<option>Argentina</option>
 <option>Croazia</option>
 <option>Islanda</option>
 <option>Nigeria</option>
@@ -2209,7 +2209,7 @@ else
 <option>Peru'</option>
 <option>Danimarca</option>
 <option>Australia</option>
-<option>Agentina</option>
+<option>Argentina</option>
 <option>Croazia</option>
 <option>Islanda</option>
 <option>Nigeria</option>
@@ -2250,7 +2250,7 @@ else
 <option>Peru'</option>
 <option>Danimarca</option>
 <option>Australia</option>
-<option>Agentina</option>
+<option>Argentina</option>
 <option>Croazia</option>
 <option>Islanda</option>
 <option>Nigeria</option>
@@ -2306,7 +2306,7 @@ else
 <option>Peru'</option>
 <option>Danimarca</option>
 <option>Australia</option>
-<option>Agentina</option>
+<option>Argentina</option>
 <option>Croazia</option>
 <option>Islanda</option>
 <option>Nigeria</option>
@@ -2347,7 +2347,7 @@ else
 <option>Peru'</option>
 <option>Danimarca</option>
 <option>Australia</option>
-<option>Agentina</option>
+<option>Argentina</option>
 <option>Croazia</option>
 <option>Islanda</option>
 <option>Nigeria</option>
@@ -2390,7 +2390,7 @@ else
 <option>Peru'</option>
 <option>Danimarca</option>
 <option>Australia</option>
-<option>Agentina</option>
+<option>Argentina</option>
 <option>Croazia</option>
 <option>Islanda</option>
 <option>Nigeria</option>
@@ -2422,6 +2422,9 @@ else
 			<TD ALIGN=LEFT><BR></TD>
 		</TR>
 		<TR>
+			<TD COLSPAN=4 HEIGHT=20 ALIGN=LEFT><FONT SIZE=1><?php echo($lotteria['msg_custom'][0][0]); ?></FONT></TD>
+			</TR>
+			<TR>
 			<TD COLSPAN=4 HEIGHT=20 ALIGN=LEFT><FONT SIZE=1>Il presente Studio/Sondaggio &egrave; proposto dall'ARS (Amatori Running Sele) a puro scopo ricreativo e di approfondimento del dibattito permanente sullo sport, presente nell'associazione Amatori R.S..</FONT></TD>
 			</TR>
 		<TR>
@@ -2497,7 +2500,7 @@ else
 		</TR>
 		<TR>
 			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">30/06 h. 17:00</TD>
-			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">Mosca Kazan Arena</TD>
+			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">Kazan</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">C1-D2 (Q2)</TD>
 		</TR>
 		<TR>
@@ -2527,7 +2530,7 @@ else
 		</TR>
 		<TR>
 			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">03/07 h. 21:00</TD>
-			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">Mosca Spartak Stadium</TD>
+			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">Mosca Otkrytie Arena</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">H1-G2 (Q8)</TD>
 		</TR>
 		<TR>
