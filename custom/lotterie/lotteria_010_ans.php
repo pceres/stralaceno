@@ -5,67 +5,67 @@
 #
 
 # Qualificato ottavi 1:
-Arabia Saudita
+nd
 # Qualificato ottavi 2:
-Francia
+nd
 # Qualificato ottavi 3:
-Brasile
+nd
 # Qualificato ottavi 4:
-Inghilterra
+nd
 # Qualificato ottavi 5:
-Peru'
+nd
 # Qualificato ottavi 6:
-Serbia
+nd
 # Qualificato ottavi 7:
-Belgio
+nd
 # Qualificato ottavi 8:
-Russia
+nd
 # Qualificato ottavi 9:
-Portogallo
+nd
 # Qualificato ottavi 10:
-Argentina
+nd
 # Qualificato ottavi 11:
-Germania
+nd
 # Qualificato ottavi 12:
-Polonia
+nd
 # Qualificato ottavi 13:
-Spagna
+nd
 # Qualificato ottavi 14:
-Islanda
+nd
 # Qualificato ottavi 15:
-Svezia
+nd
 # Qualificato ottavi 16:
-Senegal
+nd
 # Qualificato quarti 1:
-Arabia Saudita
+nd
 # Qualificato quarti 2:
-Islanda
+nd
 # Qualificato quarti 3:
-Svezia
+nd
 # Qualificato quarti 4:
-Senegal
+nd
 # Qualificato quarti 5:
-Russia
+nd
 # Qualificato quarti 6:
-Portogallo
+nd
 # Qualificato quarti 7:
-Germania
+nd
 # Qualificato quarti 8:
-Spagna
+nd
 # Qualificato semifinale 1:
-Arabia Saudita
+nd
 # Qualificato semifinale 2:
-Russia
+nd
 # Qualificato semifinale 3:
-Islanda
+nd
 # Qualificato semifinale 4:
-Spagna
+nd
 # Qualificato finale 1:
-Islanda
+nd
 # Qualificato finale 2:
-Arabia Saudita
+nd
 # Vincitore:
-Islanda
+nd
 
 #
 # Le risposte sono suddivise in gruppi. Per ciascun gruppo esiste un set di risposte piu' o meno corrette
@@ -86,35 +86,35 @@ Islanda
 # Brasile::5,20;4,0             # se il Brasile passa il primo turno ma esce al secondo, e non sono state giocate altre partite
 # Brasile::5,20;4,0;3,0;2,0;1,0 # se il Brasile passa il primo turno ma esce al secondo, e sono state giocate tutte le partite
 [punteggio_risposte]
-Russia::5,14;4,16;3,32;2,0;1,0
-Uruguay::5,6;4,0;3,0;2,0;1,0
-Egitto::5,0;4,0;3,0;2,0;1,0
-Arabia Saudita::5,20;4,20;3,22;2,80;1,0
-Portogallo::5,20;4,11;3,0;2,0;1,0
-Spagna::5,10;4,20;3,40;2,0;1,0
-Iran::5,10;4,0;3,0;2,0;1,0
-Marocco::5,0;4,0;3,0;2,0;1,0
-Francia::5,20;4,4;3,0;2,0;1,0
-Peru'::5,20;4,0;3,0;2,0;1,0
-Danimarca::5,0;4,0;3,0;2,0;1,0
-Australia::5,0;4,0;3,0;2,0;1,0
-Argentina::5,20;4,9;3,0;2,0;1,0
-Croazia::5,0;4,0;3,0;2,0;1,0
-Islanda::5,20;4,20;3,40;2,80;1,160
-Nigeria::5,0;4,0;3,0;2,0;1,0
-Brasile::5,20;4,0;3,0;2,0;1,0
-Svizzera::5,0;4,0;3,0;2,0;1,0
-Costa Rica::5,0;4,0;3,0;2,0;1,0
-Serbia::5,20;4,0;3,0;2,0;1,0
-Germania::5,20;4,20;3,8;2,0;1,0
-Messico::5,0;4,0;3,0;2,0;1,0
-Svezia::5,20;4,20;3,0;2,0;1,0
-Corea del Sud::5,0;4,0;3,0;2,0;1,0
-Belgio::5,20;4,0;3,0;2,0;1,0
-Inghilterra::5,20;4,0;3,0;2,0;1,0
-Tunisia::5,0;4,0;3,0;2,0;1,0
-Panama::5,0;4,0;3,0;2,0;1,0
-Polonia::5,20;4,0;3,0;2,0;1,0
-Colombia::5,0;4,0;3,0;2,0;1,0
-Senegal::5,20;4,20;3,18;2,0;1,0
-Giappone::5,0;4,0;3,0;2,0;1,0
+Russia::
+Uruguay::
+Egitto::
+Arabia Saudita::
+Portogallo::
+Spagna::
+Iran::
+Marocco::
+Francia::
+Peru'::
+Danimarca::
+Australia::
+Argentina::
+Croazia::
+Islanda::
+Nigeria::
+Brasile::
+Svizzera::
+Costa Rica::
+Serbia::
+Germania::
+Messico::
+Svezia::
+Corea del Sud::
+Belgio::
+Inghilterra::
+Tunisia::
+Panama::
+Polonia::
+Colombia::
+Senegal::
+Giappone::

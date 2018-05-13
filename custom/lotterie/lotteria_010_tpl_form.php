@@ -43,7 +43,7 @@ else
 }
 
 // preparazione nomi di file relativi (con correzione al path per la modalita' amministrativa)
-$action = $admin_path_correction."questions.php";		// da non modificare
+$action = $admin_path_correction."questions.php";	// da non modificare
 $javascript_library = $admin_path_correction."questions.js";	// da non modificare
 
 // caricamento, se necessario, della libreria
@@ -2494,42 +2494,42 @@ else
 			<TD COLSPAN=3 ALIGN=CENTER BGCOLOR="#FFDDDD"><B>Ottavi di Finale (30 giugno - 3 luglio 2018)</B></TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">30/06 h. 21:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">30/06 h. 20:00</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">Sochi</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">A1-B2 (Q1)</TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">30/06 h. 17:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">30/06 h. 16:00</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">Kazan</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">C1-D2 (Q2)</TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">01/07 h. 21:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">01/07 h. 20:00</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">Novgorod</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">D1-C2 (Q3)</TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">01/07 h. 17:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">01/07 h. 16:00</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">Mosca Luzhniki</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">B1-A2 (Q4)</TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">02/07 h. 18:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">02/07 h. 17:00</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">Samara</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">E1-F2 (Q5)</TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">02/07 h. 21:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">02/07 h. 20:00</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">Rostov</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">G1-H2 (Q6)</TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">03/07 h. 17:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">03/07 h. 16:00</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">San Pietroburgo</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">F1-E2 (Q7)</TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">03/07 h. 21:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">03/07 h. 20:00</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">Mosca Otkrytie Arena</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">H1-G2 (Q8)</TD>
 		</TR>
@@ -2542,22 +2542,22 @@ else
 			<TD COLSPAN=3 ALIGN=CENTER BGCOLOR="#CCFFCC"><B>Quarti di Finale (6 - 7 luglio 2018)</B></TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">06/07 h. 21:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">06/07 h. 20:00</TD>
 			<TD ALIGN=CENTER BGCOLOR="#CCFFCC">Kazan</TD>
 			<TD ALIGN=CENTER BGCOLOR="#CCFFCC">Q5-Q6 (S1)</TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">06/07 h. 17:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">06/07 h. 16:00</TD>
 			<TD ALIGN=CENTER BGCOLOR="#CCFFCC">Novgorod</TD>
 			<TD ALIGN=CENTER BGCOLOR="#CCFFCC">Q1-Q2 (S2)</TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">07/07 h. 21:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">07/07 h. 20:00</TD>
 			<TD ALIGN=CENTER BGCOLOR="#CCFFCC">Sochi</TD>
 			<TD ALIGN=CENTER BGCOLOR="#CCFFCC">Q3-Q4 (S3)</TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">03/07 h. 18:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">03/07 h. 17:00</TD>
 			<TD ALIGN=CENTER BGCOLOR="#CCFFCC">Samara</TD>
 			<TD ALIGN=CENTER BGCOLOR="#CCFFCC">Q7-Q8 (S4)</TD>
 		</TR>
@@ -2570,12 +2570,12 @@ else
 			<TD COLSPAN=3 ALIGN=CENTER BGCOLOR="#FFFF99"><B>Semifinali (10 - 11 luglio 2018)</B></TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#FFFF99">10/07 h. 21:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#FFFF99">10/07 h. 20:00</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFFF99">San Pietroburgo</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFFF99">S1-S2 (F1)</TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#FFFF99">11/07 h. 21:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#FFFF99">11/07 h. 20:00</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFFF99">Mosca Luzhniki</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFFF99">S3-S4 (F2)</TD>
 		</TR>
@@ -2589,7 +2589,7 @@ else
 			<TD COLSPAN=3 ALIGN=CENTER BGCOLOR="#C0C0C0"><B>Finale 1&deg;-2&deg;posto (15 luglio 2018)</B></TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#C0C0C0">15/07 h. 18:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#C0C0C0">15/07 h. 17:00</TD>
 			<TD ALIGN=CENTER BGCOLOR="#C0C0C0">Mosca Luzhniki</TD>
 			<TD ALIGN=CENTER BGCOLOR="#C0C0C0">F1-F2 (C)</TD>
 		</TR>

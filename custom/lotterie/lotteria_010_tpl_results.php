@@ -382,7 +382,7 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 	// simboli quando si azzecca una risposta
 	$sub_array_ok_G = Array(
 			'20' 		=> Array('V<small>G</small>'		,'','Qualificazione per effetto di un maggior numero di punti in classifica (20 punti)'),
-			'14' 		=> Array('S<small>G</small>'		,'','Qualificazione per effetto della vittoria nello scontro diretto, per effetto della migliore differenza reti o classifica avulsa (14 punti)'),
+			'14' 		=> Array('S<small>G</small>'		,'','Qualificazione per effetto della migliore differenza reti, della vittoria nello scontro diretto, o della classifica avulsa (14 punti)'),
 			'10' 		=> Array('R<small>G</small>'		,'','Qualificazione per effetto di un maggior numero di reti segnate o di altri criteri (10 punti)'),
 			'0' 		=> Array('<small>oG</small>'		,'','Qualificazione tra le migliori terze classificate (0 punti)'),
 			'default'	=> Array('.'		,'','')
@@ -424,7 +424,7 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 	// simboli quando non si azzecca una risposta
 	$sub_array_not_ok_G = Array(
 			'10' 		=> Array('rg'		,'','Eliminazione per effetto di un minor numero di reti segnate o di altri criteri (10 punti)'),
-			'6' 		=> Array('sg'		,'','Eliminazione per effetto della sconfitta nello scontro diretto o per effetto della peggiore differenza reti o classifica avulsa (6 punti)'),
+			'6' 		=> Array('sg'		,'','Eliminazione per effetto della migliore differenza reti, della vittoria nello scontro diretto, o della classifica avulsa (14 punti)'),
 			'0'		=> Array('<small>o</small>'		,'','Eliminazione per effetto di un minor numero di  punti in classifica - sconfitta diretta (0 punti)'),
 			'default'	=> Array('.'		,'','')
 			);

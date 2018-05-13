@@ -5,8 +5,8 @@ Titolo::Sondaggio Europei 2016
 <img id="logoeuro2016" src="https://upload.wikimedia.org/wikipedia/it/thumb/a/a1/UEFA_Euro_2016_logo.png/170px-UEFA_Euro_2016_logo.png" alt="Logo Europei 2016" border="0"></img>
 </div>
 <br>
-Il sondaggio si è concluso con la seguente <a href="questions.php?id_questions=9&action=results">classifica finale</a>.<br>
-Il primo classificato con 567 punti è Mattia Azzinnari; secondo classificato con 563 punti Nicola Melillo '79. Entrambi hanno correttamente pronosticato in finale Francia e Portogallo. Terzo classificato con 528 punti Gerardo Luigi Forte, unico a pronosticare la vittoria del Portogallo.<br>
+Il sondaggio si &egrave; concluso con la seguente <a href="questions.php?id_questions=9&action=results">classifica finale</a>.<br>
+Il primo classificato con 567 punti &egrave; Mattia Azzinnari; secondo classificato con 563 punti Nicola Melillo '79. Entrambi hanno correttamente pronosticato in finale Francia e Portogallo. Terzo classificato con 528 punti Gerardo Luigi Forte, unico a pronosticare la vittoria del Portogallo.<br>
 <a href="statistiche.php?id_questions=9&action=show">Qui</a> invece trovate una analisi statistica sui pronostici effettuati.<br>
 <!--
 <p style="margin-top:20px">Le giocate per il Sondaggio Europei 2016 sono chiuse.<br>
@@ -15,14 +15,14 @@ Il primo classificato con 567 punti è Mattia Azzinnari; secondo classificato con
 <br>
 -->
 <br>
-Il punteggio assegnato per la qualificazione delle 12 squadre prime e seconde classificate nei gironi è il seguente:</p>
+Il punteggio assegnato per la qualificazione delle 12 squadre prime e seconde classificate nei gironi &egrave; il seguente:</p>
 <ul>
   <li>20 punti in caso di qualificazione per effetto di un maggior numero di  punti in classifica (e 0 alle squadre che non accedono);</li>
-  <li>14 punti in caso di qualificazione per effetto della vittoria nello scontro diretto, per effetto della migliore differenza reti o classifica avulsa (e 6 alla squadra non qualificata, eventualmente ripartiti tra più squadre *);</li>
-  <li>10 punti in caso di qualificazione per effetto di un maggior numero di reti segnate o di altri criteri (e 10 alla squadra non qualificata, eventualmente ripartiti tra più squadre *);</li>
+  <li>14 punti in caso di qualificazione per effetto della vittoria nello scontro diretto, per effetto della migliore differenza reti o classifica avulsa (e 6 alla squadra non qualificata, eventualmente ripartiti tra pi&ugrave; squadre *);</li>
+  <li>10 punti in caso di qualificazione per effetto di un maggior numero di reti segnate o di altri criteri (e 10 alla squadra non qualificata, eventualmente ripartiti tra pi&ugrave; squadre *);</li>
 </ul>
 Alle 4 squadre qualificate tra le migliori terze classificate nei gironi non viene assegnato alcun punteggio.<br>
-Nella  fase  a scontri diretti sono assegnati 20 punti (raddoppiati progressivamente a partire dai quarti: 20 agli ottavi, 40 ai quarti, 80 in semifinale, e così via) distribuiti come segue:
+Nella  fase  a scontri diretti sono assegnati 20 punti (raddoppiati progressivamente a partire dai quarti: 20 agli ottavi, 40 ai quarti, 80 in semifinale, e cos&igrave; via) distribuiti come segue:
 <ul>
   <li>20 punti in caso di vittoria nei tempi regolamentari (e 0 alla squadra sconfitta);</li>
   <li>16 punti in caso di vittoria ai supplementari (e 4 alla squadra sconfitta);</li>
