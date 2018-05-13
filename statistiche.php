@@ -239,7 +239,7 @@ case "show":
 			5 => "maggio",6 => "giugno",7 => "luglio",8 => "agosto",
 			9 => "settembre",10 => "ottobre",11 => "novembre",12 => "dicembre");
 
-	$titolo_statistica="Statistiche per «<span class=\"count\">$lotteria_nome</span>» in data ";
+	$titolo_statistica="Statistiche per \"<span class=\"count\">$lotteria_nome</span>\" in data ";
 	$titolo_statistica.="<span title=\"martedì\" class=\"hi\" style=\"cursor: help;\">".date("d")." ".$mesi[date("m")+0]." ".date("Y")."</span>";
 	$titolo_statistica.=" ore <span class=\"hi\">".date("H:i")."</span>";
 	
