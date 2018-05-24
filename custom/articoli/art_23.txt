@@ -1,29 +1,30 @@
 Autore::Ars
-Titolo::Assemblea Annuale Ars
+Titolo::Nuovo Consiglio Direttivo 
 --- Begin body ---
 <FONT SIZE="4"><FONT FACE="calibri"> 
 <!--
 <br>
-Il giorno sabato <b>19 aprile 2014</b> alle <b>ore 18.30</b> in Corso Garibaldi n.53 in Caposele, si terr&agrave; l’assemblea annuale ordinaria  della nostra associazione.<br><br>
-L’ordine del giorno prevede:<br>
 1. Approvazione rendiconto economico finanziario  2013;<br>
 2. <b>Rinnovo Consiglio Direttivo</b>;<br>
-3. Programmazione attività anno 2014.
 <br><br>
 -->
 <br>
-Si comunica la composizione del nuovo DIRETTIVO ARS per il triennio 2014 - 2017, sulla base delle determinazioni dell'Assemblea dei Soci e del Consiglio Direttivo ARS del 19 aprile 2014.
+<FONT SIZE="3">
+Si comunica la composizione del nuovo CONSIGLIO DIRETTIVO ARS in carica fino al 2020, sulla base delle determinazioni dell'Assemblea dei Soci e dello stesso neoeletto Consiglio Direttivo ARS del 28 dicembre 2017.
+<FONT SIZE="4">
 <br><br>
-<b> Presidente: DONATO CERES<br><br>
-Vice Presidente: PAOLO VISCARDI<br><br>
-Segretario Amministrativo: DONATELLO CIRILLO<br><br>
-Consigliere: NICOLA D'AURIA<br><br>
+<b> Presidente: DANIELE CAPRIO<br>
+Vice Presidente: GIANNI SOZIO<br>
+Segretario Amministrativo: ANTONIO VISCIDO '75<br>
+Consigliere: NICOLA D'AURIA<br>
 </b>
-Al Vice Presidente PAOLO VISCARDI viene attribuito l'incarico di amministrare i siti internet ARS web e STRALACENO web
+<FONT SIZE="3">
+<br>Il Nuovo Direttivo e i Soci desiderano ringraziare il presidente e il segretario amm. uscenti DONATO CERES e DONATELLO CIRILLO per il notevole impegno profuso nel lavoro svolto.<br>
+Si ringrazia inoltre PAOLO VISCARDI per aver guidato l'Associazione nel periodo settembre - dicembre 2017.
 <br><br>
-<div align="center">
-<img id="ARS" src="%file_root%custom/album/Soci_ars/DCe.jpg" alt="Il presidente Donato Ceres" border="0" width="160">
-<br>Donato Ceres confermato presidente ARS<br>
+<div align="center"></b></font>
+<img id="CSEN" src="%file_root%custom/album/ars/ars.jpg" alt="" border="0" width="150">
+</div>
 </div>
 </FONT></FONT>
 --- End body ---

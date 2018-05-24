@@ -82,7 +82,7 @@ nd
 #
 # es:
 # Brasile::                     # prima dell'inizio del torneo
-# Brasile::5,0;4,0;3,0;2,0;1,0  # se il Brasile viene escluso gi&agrave; al primo turno
+# Brasile::5,0;4,0;3,0;2,0;1,0  # se il Brasile viene escluso già al primo turno
 # Brasile::5,20;4,0             # se il Brasile passa il primo turno ma esce al secondo, e non sono state giocate altre partite
 # Brasile::5,20;4,0;3,0;2,0;1,0 # se il Brasile passa il primo turno ma esce al secondo, e sono state giocate tutte le partite
 [punteggio_risposte]

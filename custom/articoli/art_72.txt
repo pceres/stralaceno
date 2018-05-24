@@ -1,18 +1,18 @@
 Autore::ARS
-Titolo::Visite Mediche
+Titolo::Comunicazione Ufficiale
 --- Begin body ---
 <br>
-<b><font size="3">Le visite mediche per l'idoneità alla pratica sportiva agonistica si svolgeranno GIOVEDI' 16 DICEMBRE 2010 presso lo studio del DR. LUIGI SIRICO ad EBOLI, via Salerno n.4 (nelle vicinanze del tribunale), alle ore 18.30.</font>
-</b>
-<br>
-<br>
-<!--
-<br>
-<font color="blue"><b>Si ricorda a tutti gli interessati, soci e non, al tesseramento per la squadra agonistica podistica anno 2011, che, a tal fine, sar&agrave; necessario possedere il certificato medico d’idoneit&agrave; alla pratica agonistica dell’atletica leggera.<br><br>
-Nel mese di Dicembre (il luogo, la data e l’orario verrà comunicato successivamente),  l’Associazione fisser&agrave; un appuntamento con un medico sportivo per sostenere la relativa visita sanitaria. 
+Si comunica che il giorno 27/08/2017 il Consiglio Direttivo dell'ARS ha preso atto delle <b>dimissioni dalla carica di Presidente di DONATO CERES </b>per motivi personali, presentate in data 20/08/2017.<br><br>
+I Consiglieri, fermo restando la necessit&agrave; di eleggere un nuovo presidente dell'Associazione entro la fine dell'anno corrente, conferiscono all'unanimit&agrave; la <b>reggenza al Vice Presidente PAOLO VISCARDI</b>.
 <br><br>
-La propria disponibilit&agrave; va comunicata a Paolo Viscardi (e-mail paolovisca86@hotmail.it) o ad Alessandro Russomanno (e-mail alexruss75@yahoo.it).<br><br><br>
--->
+Viene, inoltre, attribuito mandato esplorativo al Consigliere NICOLA D'AURIA al fine di verificare e sollecitare nuove disponibilit&agrave; per l'assunzione di cariche direttive all'interno dell'Associazione.<br><br>
+Caposele, lÃ¬ 27/08/2017<br><br>
+Il Consiglio Direttivo<br>
+Donato Ceres<br>
+Paolo Viscardi<br>
+Donatello Cirillo<br>
+Nicola D'Auria<br>
+<br>
 <div align="center"></b></font>
 <img id="CSEN" src="%file_root%custom/album/ars/ars.jpg" alt="" border="0" width="150">
 </div>
