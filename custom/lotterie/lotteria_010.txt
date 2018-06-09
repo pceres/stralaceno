@@ -262,6 +262,7 @@ Consulta il <a href="download.php?resource_type=file&resource_id=file_Tabella_mo
 [stili_riga]
 ;Checked$:: Gens Silarensis::background:#FFFFAA;
 #;Unchecked$:: Gens quasi Silarensis (Pi&ugrave; di 1 errore alla verifica di silaritudine)::background:#FFDDBB;
-;GensAmbrosiana$:: Gens Ambrosiana::background:#FFEDCB;
 ;GensBrutia$:: Gens Brutia::background:#E8F3FF;
+;GensTaurinensis$:: Gens Taurinensis::background:#FFDDBB;
+;GensAmbrosiana$:: Gens Ambrosiana::background:#FFEDCB;
 .*:: Gens Mundi::background:#FFF6F0;
