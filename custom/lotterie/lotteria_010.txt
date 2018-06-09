@@ -239,8 +239,8 @@ question_tag_F::stat_domanda::Squadra qualificata in <span class="hi">finale</sp
 question_tag_S::stat_domanda::Squadra qualificata in <span class="hi">semifinale</span>::squadra::numero preferenze::25,26,27,28
 question_tag_Q::stat_domanda::Squadra qualificata ai <span class="hi">quarti di finale</span>::squadra::numero preferenze::17,18,19,20,21,22,23,24
 question_tag_W::stat_domanda::Squadra qualificata agli <span class="hi">ottavi di finale</span>::squadra::numero preferenze::1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
-Germania::stat_risposta::Posizionamento <span class="hi">Germania</span>::posizione in classifica::numero preferenze::Italia::31;29,30;25,26,27,28;17,18,19,20,21,22,23,24;1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16::Squadra vincitrice;Qualificata in finale;Qualificata in semifinale;Qualificata ai quarti di finale;Qualificata agli ottavi di finale
 Brasile::stat_risposta::Posizionamento <span class="hi">Brasile</span>::posizione in classifica::numero preferenze::Brasile::31;29,30;25,26,27,28;17,18,19,20,21,22,23,24;1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16::Squadra vincitrice;Qualificata in finale;Qualificata in semifinale;Qualificata ai quarti di finale;Qualificata agli ottavi di finale
+Germania::stat_risposta::Posizionamento <span class="hi">Germania</span>::posizione in classifica::numero preferenze::Germania::31;29,30;25,26,27,28;17,18,19,20,21,22,23,24;1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16::Squadra vincitrice;Qualificata in finale;Qualificata in semifinale;Qualificata ai quarti di finale;Qualificata agli ottavi di finale
 
 
 #
