@@ -5,22 +5,25 @@ Titolo::Sondaggio Mondiali 2018
 <img id="logomondiali2018" src="https://upload.wikimedia.org/wikipedia/commons/0/03/Fifa_World_Cup_Russia_2018_logo.png" alt="Logo Mondiali 2018" border="0" width=500pt></img>
 </div>
 <br>
-<!-- all'apertura del sondaggio -->
+<!-- all'apertura del sondaggio --><!--
 Il <a href="questions.php?id_questions=10">sondaggio</a> &egrave; aperto;
 le giocate precedenti il 20/05 alle ore 24 saranno considerate come inserite in tale ora;
 si potr&agrave; giocare fino alle ore 24 del 13 giugno.<br>
 E' consentita una sola giocata a testa.<br>
 <a href="statistiche.php?id_questions=10&action=show">Qui</a> trovate una analisi statistica sui pronostici effettuati.<br>
-
-<!-- a giocate chiuse, e torneo in corso --><!--
-<p style="margin-top:20px">Le <a href="questions.php?id_questions=10">giocate</a>per il Sondaggio Mondiali 2018 sono chiuse.<br>
-<a href="statistiche.php?id_questions=9&action=show">Qui</a> invece trovate una analisi statistica sui pronostici effettuati.<br>
-<br>
 -->
+
+<!-- a giocate chiuse, e torneo in corso -->
+<p style="margin-top:20px">Le <a href="questions.php?id_questions=10">giocate</a>per il Sondaggio Mondiali 2018 sono chiuse.<br>
+<a href="statistiche.php?id_questions=10&action=show">Qui</a> invece trovate una analisi statistica sui pronostici effettuati.<br>
+<br>
+
+
 <!-- a torneo e sondaggio conclusi --><!--
-Il sondaggio si &egrave; concluso con la seguente <a href="questions.php?id_questions=9&action=results">classifica finale</a>.<br>
+Il sondaggio si &egrave; concluso con la seguente <a href="questions.php?id_questions=10&action=results">classifica finale</a>.<br>
 Il primo classificato con 567 punti &egrave; Mattia Azzinnari; secondo classificato con 563 punti Nicola Melillo '79. Entrambi hanno correttamente pronosticato in finale Francia e Portogallo. Terzo classificato con 528 punti Gerardo Luigi Forte, unico a pronosticare la vittoria del Portogallo.<br>
 -->
+
 <br>
 Il punteggio assegnato per la qualificazione delle 16 squadre prime e seconde classificate nei gironi &egrave; il seguente:</p>
 <ul>
