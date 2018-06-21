@@ -5,13 +5,13 @@
 #
 
 # Qualificato ottavi 1:
-nd
+Russia
 # Qualificato ottavi 2:
-nd
+Uruguay
 # Qualificato ottavi 3:
-nd
+Francia
 # Qualificato ottavi 4:
-nd
+Croazia
 # Qualificato ottavi 5:
 nd
 # Qualificato ottavi 6:
@@ -86,20 +86,20 @@ nd
 # Brasile::5,20;4,0             # se il Brasile passa il primo turno ma esce al secondo, e non sono state giocate altre partite
 # Brasile::5,20;4,0;3,0;2,0;1,0 # se il Brasile passa il primo turno ma esce al secondo, e sono state giocate tutte le partite
 [punteggio_risposte]
-Russia::
-Uruguay::
-Egitto::
-Arabia Saudita::
+Russia::5,20
+Uruguay::5,20
+Egitto::5,0;4,0;3,0;2,0;1,0
+Arabia Saudita::5,0;4,0;3,0;2,0;1,0
 Portogallo::
 Spagna::
 Iran::
-Marocco::
-Francia::
-Peru'::
+Marocco::5,0;4,0;3,0;2,0;1,0
+Francia::5,20
+Peru'::5,0;4,0;3,0;2,0;1,0
 Danimarca::
 Australia::
 Argentina::
-Croazia::
+Croazia::5,20
 Islanda::
 Nigeria::
 Brasile::
