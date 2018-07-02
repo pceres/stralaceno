@@ -13,41 +13,41 @@ Francia
 # Qualificato ottavi 4:
 Croazia
 # Qualificato ottavi 5:
-nd
+Belgio
 # Qualificato ottavi 6:
-nd
+Inghilterra
 # Qualificato ottavi 7:
-nd
+Portogallo
 # Qualificato ottavi 8:
-nd
+Spagna
 # Qualificato ottavi 9:
-nd
+Danimarca
 # Qualificato ottavi 10:
-nd
+Argentina
 # Qualificato ottavi 11:
-nd
+Brasile
 # Qualificato ottavi 12:
-nd
+Svizzera
 # Qualificato ottavi 13:
-nd
+Svezia
 # Qualificato ottavi 14:
-nd
+Messico
 # Qualificato ottavi 15:
-nd
+Colombia
 # Qualificato ottavi 16:
-nd
+Giappone
 # Qualificato quarti 1:
-nd
+Francia
 # Qualificato quarti 2:
-nd
+Uruguay
 # Qualificato quarti 3:
-nd
+Brasile
 # Qualificato quarti 4:
-nd
+Belgio
 # Qualificato quarti 5:
-nd
+Russia
 # Qualificato quarti 6:
-nd
+Croazia
 # Qualificato quarti 7:
 nd
 # Qualificato quarti 8:
@@ -86,35 +86,35 @@ nd
 # Brasile::5,20;4,0             # se il Brasile passa il primo turno ma esce al secondo, e non sono state giocate altre partite
 # Brasile::5,20;4,0;3,0;2,0;1,0 # se il Brasile passa il primo turno ma esce al secondo, e sono state giocate tutte le partite
 [punteggio_risposte]
-Russia::5,20
-Uruguay::5,20
+Russia::5,20;4,11;3,0;2,0;1,0
+Uruguay::5,20;4,20
 Egitto::5,0;4,0;3,0;2,0;1,0
 Arabia Saudita::5,0;4,0;3,0;2,0;1,0
-Portogallo::
-Spagna::
-Iran::
+Portogallo::5,20;4,0;3,0;2,0;1,0
+Spagna::5,20;4,9;3,0;2,0;1,0
+Iran::5,0;4,0;3,0;2,0;1,0
 Marocco::5,0;4,0;3,0;2,0;1,0
-Francia::5,20
+Francia::5,20;4,20
 Peru'::5,0;4,0;3,0;2,0;1,0
-Danimarca::
-Australia::
-Argentina::
-Croazia::5,20
-Islanda::
-Nigeria::
-Brasile::
-Svizzera::
-Costa Rica::
-Serbia::
-Germania::
-Messico::
-Svezia::
-Corea del Sud::
-Belgio::
-Inghilterra::
-Tunisia::
-Panama::
-Polonia::
-Colombia::
-Senegal::
-Giappone::
+Danimarca::5,20;4,9;3,0;2,0;1,0
+Australia::5,0;4,0;3,0;2,0;1,0
+Argentina::5,20;4,0;3,0;2,0;1,0
+Croazia::5,20;4,11;3,0;2,0;1,0
+Islanda::5,0;4,0;3,0;2,0;1,0
+Nigeria::5,0;4,0;3,0;2,0;1,0
+Brasile::5,20;4,20
+Svizzera::5,20
+Costa Rica::5,0;4,0;3,0;2,0;1,0
+Serbia::5,0;4,0;3,0;2,0;1,0
+Germania::5,0;4,0;3,0;2,0;1,0
+Messico::5,20;4,0;3,0;2,0;1,0
+Svezia::5,20
+Corea del Sud::5,0;4,0;3,0;2,0;1,0
+Belgio::5,20;4,20
+Inghilterra::5,20
+Tunisia::5,0;4,0;3,0;2,0;1,0
+Panama::5,0;4,0;3,0;2,0;1,0
+Polonia::5,0;4,0;3,0;2,0;1,0
+Colombia::5,20
+Senegal::5,10;4,0;3,0;2,0;1,0
+Giappone::5,10;4,0;3,0;2,0;1,0
