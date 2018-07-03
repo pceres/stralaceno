@@ -78,6 +78,12 @@ $v_results = parse_date($lotteria_risultati);
 $v_now = parse_date(date("H:i d/m/Y"));
 // var_dump(Array($v_start[0],$v_end[0],$v_results[0],$v_now[0]));
 
+// impedisci giocate dopo che queste sono chiuse (es. se si fa il reload dal browser di una pagina con action=save)
+if ($v_now[0] > $v_results[0])
+{
+	$action = "results";
+}
+
 // smista l'azione di default a seconda della data attuale
 if (empty($action))
 {
