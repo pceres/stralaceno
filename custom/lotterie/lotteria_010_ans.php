@@ -49,7 +49,7 @@ Russia
 # Qualificato quarti 6:
 Croazia
 # Qualificato quarti 7:
-nd
+Svezia
 # Qualificato quarti 8:
 nd
 # Qualificato semifinale 1:
@@ -86,7 +86,7 @@ nd
 # Brasile::5,20;4,0             # se il Brasile passa il primo turno ma esce al secondo, e non sono state giocate altre partite
 # Brasile::5,20;4,0;3,0;2,0;1,0 # se il Brasile passa il primo turno ma esce al secondo, e sono state giocate tutte le partite
 [punteggio_risposte]
-Russia::5,20;4,11;3,0;2,0;1,0
+Russia::5,20;4,11
 Uruguay::5,20;4,20
 Egitto::5,0;4,0;3,0;2,0;1,0
 Arabia Saudita::5,0;4,0;3,0;2,0;1,0
@@ -103,12 +103,12 @@ Croazia::5,20;4,11;3,0;2,0;1,0
 Islanda::5,0;4,0;3,0;2,0;1,0
 Nigeria::5,0;4,0;3,0;2,0;1,0
 Brasile::5,20;4,20
-Svizzera::5,20
+Svizzera::5,20;4,0;3,0;2,0;1,0
 Costa Rica::5,0;4,0;3,0;2,0;1,0
 Serbia::5,0;4,0;3,0;2,0;1,0
 Germania::5,0;4,0;3,0;2,0;1,0
 Messico::5,20;4,0;3,0;2,0;1,0
-Svezia::5,20
+Svezia::5,20;4,20
 Corea del Sud::5,0;4,0;3,0;2,0;1,0
 Belgio::5,20;4,20
 Inghilterra::5,20
