@@ -39,10 +39,10 @@ if (!file_exists($file_questions))
 		{
 			while (($available_question_id = readdir($dh)) !== false) 
 			{
-				if ( (filetype($questions_dir . $available_question_id) == "file") and (ereg('lotteria_([0-9])+.txt',$available_question_id)) )
+				if ( (filetype($questions_dir . $available_question_id) == "file") and (ereg('lotteria_([0-9]+)\.txt',$available_question_id)) )
 				{
 					// lotteria trovato:
-					$available_question_id = ereg_replace('lotteria_([0-9])+.txt',"\\1",$available_question_id);
+					$available_question_id = ereg_replace('lotteria_([0-9]+)\.txt',"\\1",$available_question_id);
 					array_push($file_questions_list,$available_question_id+0);
 				}
 			}
@@ -79,7 +79,7 @@ $v_now = parse_date(date("H:i d/m/Y"));
 // var_dump(Array($v_start[0],$v_end[0],$v_results[0],$v_now[0]));
 
 // impedisci giocate dopo che queste sono chiuse (es. se si fa il reload dal browser di una pagina con action=save)
-if ($v_now[0] > $v_results[0])
+if ( ($action == "save") and ($v_now[0] > $v_results[0]) )
 {
 	$action = "results";
 }
