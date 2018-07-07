@@ -111,7 +111,7 @@ Messico::5,20;4,0;3,0;2,0;1,0
 Svezia::5,20;4,20
 Corea del Sud::5,0;4,0;3,0;2,0;1,0
 Belgio::5,20;4,20
-Inghilterra::5,20
+Inghilterra::5,20;
 Tunisia::5,0;4,0;3,0;2,0;1,0
 Panama::5,0;4,0;3,0;2,0;1,0
 Polonia::5,0;4,0;3,0;2,0;1,0
