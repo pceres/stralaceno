@@ -52,5 +52,3 @@ Formato [elenco_topics]:
 35::turismo::hidden::::::paese???????::1::0
 36::povera italia::hidden::::::lavoro...::2::1
 37::Poesie::open::::::Michaelem::52::51
-38::paese di randagi::open::::::randagi::3::2
-39::...::open::::::COERENZA::2::1

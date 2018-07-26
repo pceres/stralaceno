@@ -18,13 +18,13 @@ E' consentita una sola giocata a testa.<br>
 <br>
 -->
 <!-- a torneo in corso con punteggi diversi da 0 -->
-<p style="margin-top:20px">Il <a href="questions.php?id_questions=10">sondaggio</a> &egrave; in corso, e la classifica sta evolvendo di giorno in giorno.<br>
+<!--p style="margin-top:20px">Il <a href="questions.php?id_questions=10">sondaggio</a> &egrave; in corso, e la classifica sta evolvendo di giorno in giorno.<br>
 <a href="statistiche.php?id_questions=10&action=show">Qui</a> invece trovate una analisi statistica sui pronostici effettuati.<br>
 <br>
-<!-- a torneo e sondaggio conclusi --><!--
-Il sondaggio si &egrave; concluso con la seguente <a href="questions.php?id_questions=10&action=results">classifica finale</a>.<br>
-Il primo classificato con 567 punti &egrave; Mattia Azzinnari; secondo classificato con 563 punti Nicola Melillo '79. Entrambi hanno correttamente pronosticato in finale Francia e Portogallo. Terzo classificato con 528 punti Gerardo Luigi Forte, unico a pronosticare la vittoria del Portogallo.<br>
 -->
+<!-- a torneo e sondaggio conclusi -->
+Il sondaggio si &egrave; concluso con la seguente <a href="questions.php?id_questions=10&action=results">classifica finale</a>.<br>
+Il primo classificato con 651 punti &egrave; Fabio Melia; secondo classificato con 650 punti Simone D'Alessio. Entrambi hanno correttamente pronosticato la vittoria della Francia.<br>
 <br>
 Il punteggio assegnato per la qualificazione delle 16 squadre prime e seconde classificate nei gironi &egrave; il seguente:</p>
 <ul>

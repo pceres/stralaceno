@@ -80,7 +80,8 @@ E'  disponibile la prima classifica dopo la disputa dei primi 4 ottavi di finale
 Dopo la disputa degli ottavi di finale, in testa alla classifica Christian Meyer di Milano, seguito dal nostro Michele Ceres, quindi Raffaele Fiorentino di Castellammare di Stabia e il webmaster Pasquale Ceres, tutti con 25 punti.
 
 [post_text_11]
-&gt;Dopo la disputa degli ottavi di finale, in testa alla classifica Christian Meyer di Milano, seguito dal nostro Michele Ceres, quindi Raffaele Fiorentino di Castellammare di Stabia e il webmaster Pasquale Ceres, tutti con 25 punti.<br>&gt;<br><br>Cari amici,
+&gt;Dopo la disputa degli ottavi di finale, in testa alla classifica Christian Meyer di Milano, seguito dal nostro Michele Ceres, quindi Raffaele Fiorentino di Castellammare di Stabia e il webmaster Pasquale Ceres, tutti con 25 punti.
+<br>&gt;<br><br>Cari amici,
 devo confessarvi (come ho già fatto con Alessandro) che Christian Meyer sono io. Ho usato un falso nome (che è quello del grandissimo batterista di Elio e le storie tese) per giocare una seconda schedina dopo quella che porta il mio vero nome. Non me ne vogliate.
 
 [post_text_12]
@@ -96,7 +97,9 @@ vergogna, questo gioco si è dimostrato inutile e stupido secondo me. Come fà a v
 Antonio non te la prendere con chi ha avuto l'idea e il fastidio di organizzare questo gioco. I responsabili sono chi non ha onestà intellettuale, chi agisce in mala fede ed in questo caso, come anche in altri, ti assicuro il loro numero è esagerato.
 
 [post_text_15]
-&gt;vergogna, questo gioco si è dimostrato inutile e stupido secondo me. Come fà a vincere proprio uno che ha giocato con 2 nomi e forse anche più?? Si è dimostrato che queste cose è meglio non farle. <br>&gt;E poi se fossi in te caro Donato mi vergognerei ma evidentemente tu hai una faccia tosta impressionante. Mi sento preso in giro e non giocherò mai più una schedina delle vostre. Ciao<br>&gt;<br><br>Caro Antonio, questo gioco non e' niente piu' di quello che dici: un gioco! Per di piu' mi sembra anche ben fatto: non ho trovato sul web qualcosa di simile che fosse ad accesso libero!
+&gt;vergogna, questo gioco si è dimostrato inutile e stupido secondo me. Come fà a vincere proprio uno che ha giocato con 2 nomi e forse anche più?? Si è dimostrato che queste cose è meglio non farle. 
+<br>&gt;E poi se fossi in te caro Donato mi vergognerei ma evidentemente tu hai una faccia tosta impressionante. Mi sento preso in giro e non giocherò mai più una schedina delle vostre. Ciao
+<br>&gt;<br><br>Caro Antonio, questo gioco non e' niente piu' di quello che dici: un gioco! Per di piu' mi sembra anche ben fatto: non ho trovato sul web qualcosa di simile che fosse ad accesso libero!
 &nbsp;
 Perche' dovremmo  addirittura vergognarci??? Hai idea di quanto tempo (e soldi per la connessione ad Internet!) ci sono voluti per scrivere il codice PHP sottostante? Il sondaggio non e' basato su script scopiazzati da qualche parte su Internet, e' scritto completamente da zero! E poi abbiamo dovuto impostare la pagina dell'inserimento delle giocate, e quella della classifica. E per tenere aggiornata quest'ultima? Dopo ogni match bisogna collegarsi ad Internet, ed inserire i risultati, in modo da consentire ai visitatori di leggere la classifica aggiornata. Come vedi c'e' voluta (e ci vuole) molta buona volonta' per portare avanti il gioco (da parte mia e degli altri soci ARS). Per di piu', questa volta, il gioco ha avuto accesso completamente libero e gratuito: mi sembra una iniziativa veramente altruistica, portata avanti per creare una occasione di divertimento e di dibattito.
 &nbsp;
@@ -109,3 +112,5 @@ Ciao, e goditi il gioco
 Pasquale hai ragione al 107 percento, i caposelesi si riescono a lamentare pure dei regali! In riferimento al sondaggio ho realizzato sul mio sito www.caposeleonline.it un piccolo tabellone per prevedere gli esiti del concorso in base alle diverse ipotesi di vittoria finale.
 Ciao
 
+e diverse ipotesi di vittoria finale.
+Ciao

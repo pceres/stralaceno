@@ -51,21 +51,21 @@ Croazia
 # Qualificato quarti 7:
 Svezia
 # Qualificato quarti 8:
-nd
+Inghilterra
 # Qualificato semifinale 1:
-nd
+Francia
 # Qualificato semifinale 2:
-nd
+Belgio
 # Qualificato semifinale 3:
-nd
+Inghilterra
 # Qualificato semifinale 4:
-nd
+Croazia
 # Qualificato finale 1:
-nd
+Francia
 # Qualificato finale 2:
-nd
+Croazia
 # Vincitore:
-nd
+Francia
 
 #
 # Le risposte sono suddivise in gruppi. Per ciascun gruppo esiste un set di risposte piu' o meno corrette
@@ -86,35 +86,35 @@ nd
 # Brasile::5,20;4,0             # se il Brasile passa il primo turno ma esce al secondo, e non sono state giocate altre partite
 # Brasile::5,20;4,0;3,0;2,0;1,0 # se il Brasile passa il primo turno ma esce al secondo, e sono state giocate tutte le partite
 [punteggio_risposte]
-Russia::5,20;4,11
-Uruguay::5,20;4,20
+Russia::5,20;4,11;3,18;2,0;1,0
+Uruguay::5,20;4,20;3,0;2,0;1,0
 Egitto::5,0;4,0;3,0;2,0;1,0
 Arabia Saudita::5,0;4,0;3,0;2,0;1,0
 Portogallo::5,20;4,0;3,0;2,0;1,0
 Spagna::5,20;4,9;3,0;2,0;1,0
 Iran::5,0;4,0;3,0;2,0;1,0
 Marocco::5,0;4,0;3,0;2,0;1,0
-Francia::5,20;4,20
+Francia::5,20;4,20;3,40;2,80;1,160
 Peru'::5,0;4,0;3,0;2,0;1,0
 Danimarca::5,20;4,9;3,0;2,0;1,0
 Australia::5,0;4,0;3,0;2,0;1,0
 Argentina::5,20;4,0;3,0;2,0;1,0
-Croazia::5,20;4,11;3,0;2,0;1,0
+Croazia::5,20;4,11;3,22;2,64;1,0
 Islanda::5,0;4,0;3,0;2,0;1,0
 Nigeria::5,0;4,0;3,0;2,0;1,0
-Brasile::5,20;4,20
+Brasile::5,20;4,20;3,0;2,0;1,0
 Svizzera::5,20;4,0;3,0;2,0;1,0
 Costa Rica::5,0;4,0;3,0;2,0;1,0
 Serbia::5,0;4,0;3,0;2,0;1,0
 Germania::5,0;4,0;3,0;2,0;1,0
 Messico::5,20;4,0;3,0;2,0;1,0
-Svezia::5,20;4,20
+Svezia::5,20;4,20;3,0;2,0;1,0
 Corea del Sud::5,0;4,0;3,0;2,0;1,0
-Belgio::5,20;4,20
-Inghilterra::5,20;
+Belgio::5,20;4,20;3,40;2,0;1,0
+Inghilterra::5,20;4,11;3,40;2,16;1,0
 Tunisia::5,0;4,0;3,0;2,0;1,0
 Panama::5,0;4,0;3,0;2,0;1,0
 Polonia::5,0;4,0;3,0;2,0;1,0
-Colombia::5,20
+Colombia::5,20;4,9;3,0;2,0;1,0
 Senegal::5,10;4,0;3,0;2,0;1,0
 Giappone::5,10;4,0;3,0;2,0;1,0
