@@ -257,7 +257,7 @@ while ($action)
 	<td colspan="4" class="titoloBlu" valign="middle">
 	
 	<a href="forum.php?action=list_forums" class="sfondoscuro">
-		<?php echo $web_title; ?></a> »
+		<?php echo $web_title; ?></a> &#187;
 		<?php echo $forum_caption; ?>
 	</td>
 </tr>
@@ -499,9 +499,9 @@ while ($action)
 	<td colspan="2" class="titoloBlu" valign="middle">
 	
 	<a href="forum.php?action=list_forums" class="sfondoscuro">
-		<?php echo $web_title; ?></a> »
+		<?php echo $web_title; ?></a> &#187;
 	<a href="forum.php?action=list_topics&amp;data=<?php echo $forum_id; ?>" class="sfondoscuro">
-		<?php echo $forum_caption; ?></a> » 
+		<?php echo $forum_caption; ?></a> &#187; 
 		<?php echo $topic_caption; ?>
 	
 	</td>
@@ -716,10 +716,10 @@ elseif ($post_status == 'censored')
 		<tr>
 			<td colspan="2" class="titoloBlu" valign="middle">
 				<a href="forum.php?action=list_forums" class="sfondoscuro">
-					<?php echo $web_title; ?></a> »
+					<?php echo $web_title; ?></a> &#187;
 				<a href="forum.php?action=list_topics&amp;data=<?php echo $forum_id; ?>" class="sfondoscuro">
-					<?php echo $forum_caption; ?></a> »
-					<?php if (!empty($topic_caption)) {echo "$topic_caption »"; } ?>
+					<?php echo $forum_caption; ?></a> &#187;
+					<?php if (!empty($topic_caption)) {echo "$topic_caption &#187;"; } ?>
 				<?php echo $new_post_msg; ?>
 			</td>
 		</tr>
