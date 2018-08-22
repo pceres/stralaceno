@@ -1,13 +1,25 @@
 Autore::Comitato Stralaceno
-Titolo::Data della XXIX edizione
+Titolo::Data Stralaceno
 --- Begin body ---
-<br>La XXIX edizione della Stralaceno si terr&agrave oggi venerd&igrave 25 agosto 2017, alle ore 18:00.
-Tale data &egrave stata la prescelta a valle di una votazione che ha coinvolto 33 persone, tra corridori (decani ed alfieri) e collaboratori storici.<br><br>
 <div align="center">
-<img  src="%file_root%custom/album/2017/stra2017.jpg" alt="logo_stralaceno_2017" border="0" width="200">
+<img  src="%file_root%custom/album/2018/stra_18.jpg" alt="logo_stralaceno_2018" border="0" width="380">
 <br>
 </div>
 <br>
 </div>
 <br>
+<b>REGOLAMENTO STRALACENO</b>
+<br> 
+Tutti i caposelesi sono invitati il giorno 24/08/2018 alla passeggiata ecologica denominata STRALACENO 2018 , di km 5,586 su percorso stradale extraurbano, con partenza e arrivo in prossimit&agrave; dell'albergo &quot;4 CAMINI&quot; a Laceno .
+La passeggiata prevede il completamento dell'intero circuito del Laceno, con l'andatura che ognuno &egrave; in grado normalmente di tenere (anche camminando) in base alle sue condizioni fisiche; ed &egrave; riservata ai nati nel 2003 e anni precedenti. La volontaria partecipazione &egrave; considerata anche tacita dichiarazione di idoneit&agrave; fisica per questa manifestazione, rientrante nelle attivit&agrave; sportive amatoriali non competitive.
+I partecipanti/organizzatori pertanto,  in base alla vigente normativa (D.M. 28/02/1983 sulla tutela sanitaria per l'attivit&agrave; non competitiva),  non sono tenuti a produrre certificato medico di buona salute, che implicitamente dichiarano sussistente al momento dell'iscrizione.
+<br><br>
+<b>PROGRAMMA</b><br>
+dalle ore 17:00 e fino alle 18,15 :  Ritrovo e iscrizione dei partecipanti, con consegna del pettorale (non cedibile a terzi).
+ ore 18:30 : Partenza.
+La manifestazione si svolger&agrave; con qualsiasi condizione meteorologica (salvo preclusioni delle forze dell'ordine e degli organi competenti). Non sono previsti premi.<br><br>
+<b>CLASSIFICHE - CRONOMETRAGGIO</b><br>
+Il Comitato anche quest'anno, allo scopo di non alterare la natura di passeggiata non competitiva, non proceder&agrave; direttamente ad alcuna rilevazione cronometrica n&egrave; stiler&agrave; classifiche ufficiali e ordini di arrivo.
+Eventuali rilevazioni e classifiche potranno tuttavia essere gestite da soggetti esterni a beneficio di quei partecipanti che, essendo in possesso delle idonee certificazioni per lo sport a livello agonistico, possono  della collaborazione delle societ&agrave; sportive o associazioni di appartenenza per avere un supporto tecnico con cronometraggio.
+Al momento dell'iscrizione verr&agrave; richiesto se si intende partecipare alla passeggiata non-competitiva oppure (ma solo per chi ha il certificato per la pratica agonistica) percorrere il tracciato realizzando una performance agonistica cronometrata da un tecnico designato dall'ARS.
 --- End body ---
