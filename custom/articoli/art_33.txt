@@ -1,0 +1,21 @@
+Autore::Comitato Stralaceno
+Titolo::XXX edizione
+--- Begin body ---
+<br>
+La XXX edizione della Stralaceno si &egrave; tenuta oggi venerd&igrave 24 agosto 2018, alle ore 18:40.
+Vi hanno preso parte 43 atleti.
+<br>
+<br>
+</div>
+<p><a href="filtro4.php?anno=2018">L'ordine d'arrivo completo ufficioso dell'edizione 2018 della Stralaceno &egrave; consultabile qui</a>.</p>
+</div>
+<br>
+<br>
+<div align="center">
+<img  src="%file_root%custom/album/2018/stra18_1.jpg" alt="logo_stralaceno_2018" border="0" width="500">
+<br>
+</div>
+<br>
+</div>
+<br>
+--- End body ---
