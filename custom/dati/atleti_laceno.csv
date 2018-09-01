@@ -14,7 +14,7 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 13;Lorenzo Sozio;M;-;?;?;-;-;I411
 14;Rocco Caruso;M;-;?;?;-;-;I10303
 15;Antonio Viscido;M;-;?;?;-;-;I1473
-16;Vito D'Alessio;M;-;?;?;-;-;I9533
+16;Vito D'Alessio;M;-;?;?;-;2018/Stra18_38.jpg;I9533
 17;Franco Malanga;M;-;?;?;-;-;I2574
 18;Alfonso Sturchio;M;-;?;?;-;2017/AlfonsoSturchio.jpg;I41
 19;Salvatore Russomanno;M;-;?;?;-;-;I577
@@ -77,13 +77,13 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 76;Sandro Russomanno di Ger.;M;-;?;?;-;2007/XIX14.jpg;I560
 77;Angelo Viscardi;M;-;?;?;-;2005/dscn3902.jpg;I1095
 78;Angelo Russomanno;M;-;?;?;-;-;-
-79;Gerardo Brasiello;M;-;?;?;-;-;I3668
+79;Gerardo Brasiello;M;-;?;?;-;2018/Stra18_45.jpg;I3668
 80;Lorenzo Merola;M;-;?;?;-;-;I11595
 81;Francesco Spatola;M;-;?;?;-;-;I1309
 82;Gerardo Viscardi;M;-;?;?;-;-;I2384
 83;Paolo Viscardi;M;-;?;?;http://www.siamonoi.it;2005/dscn5348.jpg;I1094
 84;Antonio Megaro;M;-;?;?;-;-;I6578
-85;Marco Ceres;M;-;?;?;-;-;I53
+85;Marco Ceres;M;-;?;?;-;2018/Stra18_12.jpg;I53
 86;Donatello Cirillo;M;-;?;?;-;2017/DonatelloCirillo.jpg;I1340
 87;Giuseppe Sessa;M;-;?;?;-;-;-
 88;Francesco Ceres;M;-;?;?;-;2006/f35.jpg;I805
@@ -256,8 +256,8 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 255;Ilenia Chiaravallo;F;-;?;?;-;-;I2798
 256;Raffaele Panariello;M;-;?;?;-;-;-
 257;Luigi Cione;M;-;?;?;-;-;-
-258;Alfonsorocco Rosania;M;-;?;?;-;-;-
-259;Giuseppe Palmieri;M;-;?;?;-;-;I673
+258;Alfonsorocco Rosania;M;-;?;?;-;2018/Stra18_15.jpg;-
+259;Giuseppe Palmieri;M;-;?;?;-;2018/Stra18_43.jpg;I673
 260;Raffaele Chiaravallo;M;-;?;?;-;-;I2797
 261;Giovanni Rosania;M;-;?;?;-;2017/GiovanniRosania.jpg;I3215
 262;Concetta Liloia;F;-;?;?;-;-;-
@@ -283,7 +283,7 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 282;Angelo Lardieri;M;-;?;?;-;-;-
 283;Simone D'Alessio;M;-;?;?;-;2017/SimoneDAlessio.jpg;I11609
 284;Filomena Iannuzzi;F;-;?;?;-;-;I11606
-285;Emanuele Ceres;M;-;?;?;-;-;I2548
+285;Emanuele Ceres;M;-;?;?;-;2018/Stra18_35.jpg;I2548
 286;Giuseppe Giannattasio;M;-;?;?;-;-;-
 287;Antonio Nesta 1952;M;-;1952;?;-;-;-
 288;Jasmine Nesta;F;-;?;?;-;2017/JasmineNesta.jpg;I6522
@@ -296,7 +296,7 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 295;Giuseppe Malanga 1981;M;-;1981;?;-;2017/GiuseppeMalanga.jpg;I5693
 296;Giulio Farina;M;-;?;?;-;-;I315
 297;Lorenzo D'Elia;M;-;?;?;-;-;-
-298;Raffaella Palmieri;F;-;?;?;-;-;I1483
+298;Raffaella Palmieri;F;-;?;?;-;2018/Stra18_43.jpg;I1483
 299;Martina Melillo;F;-;?;?;-;-;I3098
 300;Antonio Viscido 1975;M;-;1975;?;-;2017/AntonioViscido.jpg;-
 301;Gaetana Casale;F;-;?;?;-;2017/GaetanaCasale.jpg;-
@@ -305,8 +305,8 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 304;Grazia Cione;F;-;?;?;-;2017/GraziaCione.jpg;I1225
 305;Danila Nesta;F;-;?;?;-;-;-
 306;Floriana Nesta;F;-;?;?;-;2017/FlorianaNesta.jpg;I6644
-307;Michele Gerardo Zanca;M;-;2001;?;-;-;-
-308;Giovanni Chiaravallo;M;-;?;?;-;-;-
-309;Gelsomino Monteverde;M;-;1987;?;-;-;-
-310;Alfonsina D'Auria;F;-;?;?;-;-;-
-311;Gianluca Cione;M;-;2001;?;-;-;-
+307;Michele Gerardo Zanca;M;-;2001;?;-;2018/Stra18_23.jpg;-
+308;Giovanni Chiaravallo;M;-;?;?;-;2018/Stra18_27.jpg;-
+309;Gelsomino Monteverde;M;-;1987;?;-;2018/Stra18_30.jpg;-
+310;Alfonsina D'Auria;F;-;?;?;-;2018/Stra18_36.jpg;-
+311;Gianluca Cione;M;-;2001;?;-;2018/Stra18_42.jpg;-
