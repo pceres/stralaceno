@@ -755,6 +755,10 @@ if (trim($atleta[$indice2_link]) != '-') {
 	$mostra = TRUE;
 	}
 
+if (trim($atleta[$indice2_foto]) != '-') {
+	$mostra = TRUE;
+	}
+
 if (trim($atleta[$indice2_data_nascita]) != '?') {
 	$mostra = TRUE;
 	}
