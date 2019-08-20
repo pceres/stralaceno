@@ -11,11 +11,4 @@ Vi hanno preso parte 43 atleti.
 </div>
 <br>
 <br>
-<div align="center">
-<img  src="%file_root%custom/album/2018/stra18_1.jpg" alt="logo_stralaceno_2018" border="0" width="500">
-<br>
-</div>
-<br>
-</div>
-<br>
 --- End body ---
