@@ -26,3 +26,5 @@ modulo_presentazione:181
 album:1707
 homepage:7416
 foto:15487
+750
+foto:15734
