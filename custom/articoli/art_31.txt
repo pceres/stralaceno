@@ -1,16 +1,19 @@
 Autore::Comitato Stralaceno
 Titolo::Stralaceno 2019
 --- Begin body ---
+<div align="center">
+<img  src="%file_root%custom/album/2019/stra19_2.jpg" alt="2019" border="0" width="400">
 <br>
+</div>
+<br>
+DANIELE CAPRIO vince, ottenendo il nuovo primato assoluto della manifestazione, la STRALACENO 2019, con il tempo di 18' 07''.<br>
+Affermazione ex aequo in ambito femminile di ANNARITA D'ELIA ed ELENIA AIELLO con 28'51''. <br> 
+<br> 
 <div align="center">
 <img  src="%file_root%custom/album/2019/stra19_1.jpg" alt="2019" border="0" width="400">
 <br>
 </div>
-<br>
-</div>
-<br>
-<b>DANIELE CAPRIO vince, ottenendo il nuovo primato assoluto della manifestazione, la STRALACENO 2019</b><br>
-<br> 
+<!--
 <br>
 Tutti i caposelesi sono invitati il giorno venerd&igrave; 23 AGOSTO 2019 alla passeggiata ecologica denominata STRALACENO 2019 , di km 5,586 su percorso stradale extraurbano, con partenza e arrivo in prossimit&aacute; dell'albergo "4 CAMINI" a Laceno .
 La passeggiata prevede il completamento dell'intero circuito del Laceno, con l'andatura che ognuno &egrave; in grado normalmente di tenere (anche camminando) in base alle sue condizioni fisiche; ed &egrave; riservata ai nati nel 2004 e anni precedenti. La volontaria partecipazione &egrave; considerata anche tacita dichiarazione di idoneit&agrave; fisica per questa manifestazione, rientrante nelle attivit&agrave; sportive amatoriali non competitive.
@@ -24,4 +27,5 @@ La manifestazione si svolger&aacute; con qualsiasi condizione meteorologica (sal
 Il Comitato anche quest'anno, allo scopo di non alterare la natura di passeggiata non competitiva, non proceder&agrave; direttamente ad alcuna rilevazione cronometrica n&egrave; stiler&agrave; classifiche ufficiali e ordini di arrivo.
 Eventuali rilevazioni e classifiche potranno tuttavia essere gestite da soggetti esterni a beneficio di quei partecipanti che, essendo in possesso delle idonee certificazioni per lo sport a livello agonistico, possono  della collaborazione delle societ&aacute; sportive o associazioni di appartenenza per avere un supporto tecnico con cronometraggio.
 Al momento dell'iscrizione verr&aacute; richiesto se si intende partecipare alla passeggiata non-competitiva oppure (ma solo per chi ha il certificato per la pratica agonistica) percorrere il tracciato realizzando una performance agonistica cronometrata da un tecnico designato dall'ARS.
+-->
 --- End body ---
