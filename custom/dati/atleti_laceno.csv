@@ -68,7 +68,7 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 67;Angelo Ciccone;M;-;?;?;-;-;I6476
 68;Angelo Ceres;M;-;?;?;-;-;I54
 69;Lello Viscardi;M;-;?;?;-;-;I2383
-70;Nicola Melillo;M;-;?;?;-;2007/XIX21.jpg;I11547
+70;Nicola Melillo;M;-;?;?;-;2019/stra19_14.jpg;I11547
 71;Balduino Del Guercio;M;-;?;?;-;-;I1357
 72;Antonio Ruglio;M;-;?;?;-;-;I684
 73;Dario Cifrodelli;M;-;?;?;-;-;I3221
@@ -107,7 +107,7 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 106;Gelsomino Rosania;M;-;?;?;-;-;I10322
 107;Tommaso Cibellis;M;-;?;?;-;2007/XIX47.jpg;-
 108;Giuseppe Ceres di Pasq.;M;-;?;?;-;-;-
-109;Armando Grasso di Pasq.;M;-;?;?;-;2007/XIX8.jpg;-
+109;Armando Grasso di Pasq.;M;-;?;?;-;2007/XIX8.jpg;I8767
 110;Antonio Ruglio di Ang.;M;-;?;?;-;-;-
 111;Pasquale Colatrella;M;-;?;?;-;-;-
 112;Valentino Di Masi;M;-;?;?;-;2005/dscn5352.jpg;-
@@ -175,7 +175,7 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 174;Gerarda Russomanno;F;-;?;?;-;-;I902
 175;Franco Cibellis;M;-;?;?;-;2007/XIX22.jpg;I3469
 176;Rocco Merola;M;-;?;?;-;-;I3819
-177;Rosalba Palumbo;F;-;?;?;-;-;-
+177;Rosalba Palumbo;F;-;?;?;-;2019/stra19_04.jpg;I11464
 178;Gelsomina Aiello;F;-;?;?;-;-;I267
 179;Micaela Bucci;F;-;?;?;-;-;-
 180;Rocchina Cibellis;F;-;?;?;-;-;I3446
@@ -232,13 +232,13 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 231;Rossella D'Elia;F;-;?;?;-;-;-
 232;Mimma Feniello;F;-;?;?;-;-;I5665
 233;Antonio Nesta;M;-;?;?;-;2017/AntonioNesta.jpg;I6523
-234;Gerardo Aiello;M;-;?;?;-;-;I266
-235;Giuseppe Caruso;M;-;?;?;-;-;I10016
+234;Gerardo Aiello;M;-;?;?;-;2019/stra19_13.jpg;I266
+235;Giuseppe Caruso;M;-;?;?;-;2019/stra19_12.jpg;I10016
 236;Mauro Malanga;M;-;?;?;-;-;-
 237;Marco Galdi;M;-;?;?;-;2017/MarcoGaldi.jpg;-
 238;Francesco Rosania;M;-;?;?;-;-;I6775
 239;Alessio Merola;M;-;?;?;-;2017/AlessioMerola.jpg;I13051
-240;Simona Ceres;F;-;?;?;-;-;I804
+240;Simona Ceres;F;-;?;?;-;2019/stra19_06.jpg;I804
 241;Giuseppina Russo;F;-;?;?;-;-;-
 242;Pasquale Pallante;M;-;?;?;-;-;I1377
 243;Rocco Monteverde;M;-;?;?;-;-;-
@@ -271,7 +271,7 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 270;Alfredo Malanga;M;-;?;?;-;-;-
 271;Italo Rosania;M;-;?;?;-;-;I11243
 272;Serafina D'Alessio;F;-;?;?;-;-;I6425
-273;Gerardo Cibellis;M;-;?;?;-;-;I5775
+273;Gerardo Cibellis;M;-;?;?;-;2019/stra19_11.jpg;I5775
 274;Mina Galdi;F;-;?;?;-;2017/MinaGaldi.jpg;I1878
 275;Gelsomina Palmieri;F;-;?;?;-;-;I1484
 276;Vincenzo Cibellis;M;-;?;?;-;-;-
@@ -288,7 +288,7 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 287;Antonio Nesta 1952;M;-;1952;?;-;-;-
 288;Jasmine Nesta;F;-;?;?;-;2017/JasmineNesta.jpg;I6522
 289;Elisa Nittoli;F;-;?;?;-;2017/ElisaNittoli.jpg;I6521
-290;Giuseppe Colatrella 2000;M;-;?;?;-;-;-
+290;Giuseppe Colatrella 2000;M;-;?;?;-;2019/stra19_15.jpg;-
 291;Alessandro Monteverde;M;-;?;?;-;-;-
 292;Enrico Piroddi;M;-;?;?;-;-;-
 293;Giorgio Sturchio;M;-;?;?;-;-;I8580
@@ -308,12 +308,12 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 307;Michele Gerardo Zanca;M;-;2001;?;-;2018/Stra18_23.jpg;I899
 308;Giovanni Chiaravallo;M;-;?;?;-;2018/Stra18_27.jpg;-
 309;Gelsomino Monteverde;M;-;1987;?;-;2018/Stra18_30.jpg;-
-310;Alfonsina D'Auria;F;-;?;?;-;2018/Stra18_36.jpg;I14262
+310;Alfonsina D'Auria;F;-;?;?;-;2018/Stra18_61.jpg;I14262
 311;Gianluca Cione;M;-;2001;?;-;2018/Stra18_42.jpg;-
-312;Angelo Nesta;M;-;?;?;-;-;-
-313;Michael Luongo;M;-;?;?;-;-;-
-314;Elenia Aiello;F;-;?;?;-;-;I6908
-315;Erika Rosania;F;-;?;?;-;-;-
-316;Gerardo Cione;M;-;?;?;-;-;-
-317;Azzurra Cetrulo;F;-;?;?;-;-;I11467
-318;Caterina Rosania;F;-;?;?;-;-;I12676
+312;Angelo Nesta;M;-;?;?;-;2019/stra19_17.jpg;-
+313;Michael Luongo;M;-;?;?;-;2019/stra19_16.jpg;-
+314;Elenia Aiello;F;-;?;?;-;2019/stra19_10.jpg;I6908
+315;Erika Rosania;F;-;?;?;-;2019/stra19_08.jpg;I3216
+316;Gerardo Cione;M;-;?;?;-;2019/stra19_07.jpg;-
+317;Azzurra Cetrulo;F;-;?;?;-;2019/stra19_05.jpg;I11467
+318;Caterina Rosania;F;-;?;?;-;2019/stra19_05.jpg;I12676
