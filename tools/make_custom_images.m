@@ -26,6 +26,7 @@ list_SID = data(list_images,9);
 % show preliminary message
 disp('Be sure that:')
 disp('- Firefox is open and there are no additional message bars (eg. sync or find)')
+disp(['- pgv website ' pgvroot ' is aligned to the best-in-class online content'])
 disp(['- you logged into the pgv website ' pgvroot])
 input('Press ENTER to start downloading...')
 
