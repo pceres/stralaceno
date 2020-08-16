@@ -2008,16 +2008,16 @@ function count_page($myself,$flags,$path_prefix = "")
 	$flags['LOG'] = [0,1]		scrivi o meno nel file di log
 */
 
-  $HTTP_USER_AGENT = $_SERVER['HTTP_USER_AGENT'];
-  $REMOTE_ADDR = $_SERVER['REMOTE_ADDR'];
-  $HTTP_REFERER = $_SERVER['HTTP_REFERER'];
-  $QUERY_STRING = $_SERVER['QUERY_STRING'];
-  $username = $_COOKIE['login']['username'];
+  $HTTP_USER_AGENT 	= $_SERVER['HTTP_USER_AGENT'];
+  $REMOTE_ADDR 		= $_SERVER['REMOTE_ADDR'];
+  $HTTP_REFERER 	= $_SERVER['HTTP_REFERER'];
+  $QUERY_STRING 	= $_SERVER['QUERY_STRING'];
+  $username 		= $_COOKIE['login']['username'];
 
-  $logfile 	= $path_prefix.'logfile.txt'; 				//every hit log file
-  $backupfile 	= $path_prefix.'backupfile%03d.txt';   	//log backup file naming. E' importante lasciare alla fine del nome %3d (formato per sprintf)
-  $counterfile 	= $path_prefix.'counterfile.txt';		//miscellaneous pages visit counter
-  $lasthitfile 	= $path_prefix.'lasthitfile.txt'; 		//last hits ... used with trigger, allow to prevent counting 'reload' as visit
+  $logfile 	= $path_prefix.'logfile.txt'; 		//every hit log file
+  $backupfile 	= $path_prefix.'backupfile%04d.txt';   	//log backup file naming. E' importante lasciare alla fine del nome %3d (formato per sprintf)
+  $counterfile 	= $path_prefix.'counterfile.txt';	//miscellaneous pages visit counter
+  $lasthitfile 	= $path_prefix.'lasthitfile.txt'; 	//last hits ... used with trigger, allow to prevent counting 'reload' as visit
   $imagepath 	= $path_prefix.'images/';           	//path to digit gif image location
   $minlength 	= 3;       	//min length of the counter (will be padded with 0)
   $trigger 	= 120;          //number of minutes while a second hit from the same ip to the same page in not counted
@@ -2120,7 +2120,6 @@ $contatore_out = $counter;
     }
   }
 
-
   // ************* LOG section ****************
   if ($flags['LOG'] == 1)
   {
@@ -2131,13 +2130,12 @@ $contatore_out = $counter;
     $log.='::'.StripDoubleColon($HTTP_REFERER);
     $log.='::'.StripDoubleColon($HTTP_USER_AGENT);
     $log.='::'.StripDoubleColon($date);
-	$log.="::$username\r\n";
+    $log.="::$username\r\n";
 
     //append current visit to log file
     $cf = fopen($logfile, 'a');
     fwrite($cf, $log);
     fclose($cf);
-
     //while we are playing with log file, why not checking if the log file isn't too big?
     if (filesize($logfile)>MAXLOGFILESIZE)
     {
@@ -2152,9 +2150,9 @@ $contatore_out = $counter;
 		{
 		   if (substr($file,0,10)=="backupfile")
 			{
-				if ($id < substr($file,10,3))
+				if ($id < substr($file,10))
 				{
-					$id = substr($file,10,3)+0;
+					$id = substr($file,10)+0;
 				}
 			}
 		}
@@ -2162,7 +2160,7 @@ $contatore_out = $counter;
 	}
 	$backupfilename = sprintf($backupfile, $id+1);      //build the file name
 	 
-	if ($id<999)                                                    //Just in case all the back log file names are used
+	if ($id<9999)                                                    //Just in case all the back log file names are used
     {
       $report.="A backup has been done to $backupfilename on ".date("l dS of F Y h:i:s A").".\r\n";
       $logs = file($logfile);                            //read all long entries in a array
