@@ -2164,3 +2164,9 @@ foto8.jpg::::
 [Stra_17]
 stra2017.jpg::::
 [Stra_18]
+ra18_12.jpg::::::
+Stra18_13.jpg::::::
+Stra18_14.jpg::::::
+Stra18_15.jpg::::::
+Stra18_16.jpg::::::
+Stra18_17.jpg::::::

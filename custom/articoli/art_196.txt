@@ -10,16 +10,27 @@ Titolo::Stralaceno 2018
 <br>
 <b>REGOLAMENTO STRALACENO</b>
 <br> 
-Tutti i caposelesi sono invitati il giorno 24/08/2018 alla passeggiata ecologica denominata STRALACENO 2018 , di km 5,586 su percorso stradale extraurbano, con partenza e arrivo in prossimità dell’albergo “4 CAMINI” a Laceno .
-La passeggiata prevede il completamento dell’intero circuito del Laceno, con l’andatura che ognuno &egrave; in grado normalmente di tenere (anche camminando) in base alle sue condizioni fisiche; ed è riservata ai nati nel 2003 e anni precedenti. La volontaria partecipazione &egrave; considerata anche tacita dichiarazione di idoneit&agrave; fisica per questa manifestazione, rientrante nelle attivit&agrave; sportive amatoriali non competitive.
-I partecipanti/organizzatori pertanto,  in base alla vigente normativa (D.M. 28/02/1983 sulla tutela sanitaria per l’attività non competitiva),  non sono tenuti a produrre certificato medico di buona salute, che implicitamente dichiarano sussistente al momento dell’iscrizione.
+Tutti i caposelesi sono invitati il giorno 24/08/2018 alla passeggiata ecologica denominata STRALACENO 2018 , di km 5,586 su percorso stradale extraurbano, con partenza e arrivo in prossimita' dell'albergo "4 CAMINI" a Laceno .
+La passeggiata prevede il completamento dell'intero circuito del Laceno, con l'andatura che ognuno &egrave; in grado normalmente di tenere (anche camminando) in base alle sue condizioni fisiche; ed e' riservata ai nati nel 2003 e anni precedenti. La volontaria partecipazione &egrave; considerata anche tacita dichiarazione di idoneit&agrave; fisica per questa manifestazione, rientrante nelle attivit&agrave; sportive amatoriali non competitive.
+I partecipanti/organizzatori pertanto,  in base alla vigente normativa (D.M. 28/02/1983 sulla tutela sanitaria per l'attivita' non competitiva),  non sono tenuti a produrre certificato medico di buona salute, che implicitamente dichiarano sussistente al momento dell'iscrizione.
 <br><br>
 <b>PROGRAMMA</b><br>
 dalle ore 17:00 e fino alle 18,15 :  Ritrovo e iscrizione dei partecipanti, con consegna del pettorale (non cedibile a terzi).
  ore 18:30 : Partenza.
-La manifestazione si svolgerà con qualsiasi condizione meteorologica (salvo preclusioni delle forze dell’ordine e degli organi competenti). Non sono previsti premi.<br><br>
-<b>CLASSIFICHE – CRONOMETRAGGIO</b><br>
-Il Comitato anche quest’anno, allo scopo di non alterare la natura di passeggiata non competitiva, non proceder&agrave; direttamente ad alcuna rilevazione cronometrica n&egrave; stiler&agrave; classifiche ufficiali e ordini di arrivo.
-Eventuali rilevazioni e classifiche potranno tuttavia essere gestite da soggetti esterni a beneficio di quei partecipanti che, essendo in possesso delle idonee certificazioni per lo sport a livello agonistico, possono  della collaborazione delle società sportive o associazioni di appartenenza per avere un supporto tecnico con cronometraggio.
-Al momento dell’iscrizione verrà richiesto se si intende partecipare alla passeggiata non-competitiva oppure (ma solo per chi ha il certificato per la pratica agonistica) percorrere il tracciato realizzando una performance agonistica cronometrata da un tecnico designato dall’ARS.
+La manifestazione si svolgera' con qualsiasi condizione meteorologica (salvo preclusioni delle forze dell'ordine e degli organi competenti). Non sono previsti premi.<br><br>
+<b>CLASSIFICHE & CRONOMETRAGGIO</b><br>
+Il Comitato anche quest'anno, allo scopo di non alterare la natura di passeggiata non competitiva, non proceder&agrave; direttamente ad alcuna rilevazione cronometrica n&egrave; stiler&agrave; classifiche ufficiali e ordini di arrivo.
+Eventuali rilevazioni e classifiche potranno tuttavia essere gestite da soggetti esterni a beneficio di quei partecipanti che, essendo in possesso delle idonee certificazioni per lo sport a livello agonistico, possono  della collaborazione delle societa' sportive o associazioni di appartenenza per avere un supporto tecnico con cronometraggio.
+Al momento dell'iscrizione verra' richiesto se si intende partecipare alla passeggiata non-competitiva oppure (ma solo per chi ha il certificato per la pratica agonistica) percorrere il tracciato realizzando una performance agonistica cronometrata da un tecnico designato dall'ARS.
+--- End body ---
+re (ma solo per chi ha il certificato per la pratica agonistica) percorrere il tracciato realizzando una performance agonistica cronometrata da un tecnico designato dall'ARS.<br>
+<br>
+-->
+<div align="center">
+<img src="%file_root%custom/album/varie/laceno.jpg" alt="logo_stralaceno_2018" border="0" width="380">
+<br>
+</div>
+<br>
+</div>
+<br>
 --- End body ---
