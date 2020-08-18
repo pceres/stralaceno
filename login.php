@@ -185,7 +185,13 @@ function get_challenge(&$challenge_id,&$challenge)
 
 function get_IP()
 {
-	$IP = $_SERVER['REMOTE_ADDR']; // informazioni sulla connessione remota
+	if (isset($_SERVER['HTTP_X_FORWARDED_FOR']) && $_SERVER['HTTP_X_FORWARDED_FOR'] != '')
+	{
+		// this is needed in case of proxy: we want the name of the user, not the one of the proxy in between
+		$IP = $_SERVER['HTTP_X_FORWARDED_FOR'];
+	} else {
+		$IP = $_SERVER['REMOTE_ADDR']; // informazioni sulla connessione remota
+	}
 	return $IP;
 }
 
