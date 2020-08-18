@@ -1,0 +1,28 @@
+Autore::Ars
+Titolo::Nuovo Consiglio Direttivo 2020
+--- Begin body ---
+<FONT SIZE="4" FACE="calibri">
+<br>
+<FONT SIZE="3">
+Si comunica la composizione del nuovo CONSIGLIO DIRETTIVO ARS in carica fino al 2023, sulla base delle determinazioni dell'Assemblea dei Soci e dello stesso neoeletto Consiglio Direttivo ARS del 13 agosto 2020.
+</FONT>
+<FONT SIZE="4">
+<br><br>
+<b>
+Presidente: DANIELE CAPRIO<br>
+Vice Presidente: GERARDO ROSANIA<br>
+Segretario Amministrativo: ANTONIO VISCIDO '75<br>
+Consigliere: NICOLA D'AURIA<br>
+</b>
+</FONT>
+<!--
+<FONT SIZE="3">
+<br>Il Nuovo Direttivo e i Soci desiderano ringraziare il presidente e il segretario amm. uscenti DONATO CERES e DONATELLO CIRILLO per il notevole impegno profuso nel lavoro svolto.<br>
+Si ringrazia inoltre PAOLO VISCARDI per aver guidato l'Associazione nel periodo settembre - dicembre 2017.
+<br><br>
+-->
+<div align="center"></b>
+<img id="CSEN" src="%file_root%custom/album/ars/ars.jpg" alt="" border="0" width="150">
+</div>
+</FONT>
+--- End body ---
