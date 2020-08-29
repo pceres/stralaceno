@@ -348,7 +348,7 @@ extract(indici());
 $legenda=array_unique($legenda);
 
 # ordina la legenda, e lascia solo i simboli noti
-$simboli_noti = array('F.T.M.','Rit.','Squ.',$symbol_1_partecipazione,$symbol_1_partecipazione_best,
+$simboli_noti = array('F.T.M.','Rit.','Squ.','N.P.P.',$symbol_1_partecipazione,$symbol_1_partecipazione_best,
 					$symbol_record,$symbol_record_best,'info');
 $legenda_ordinata=array();
 foreach ($simboli_noti as $simbolo)
@@ -377,6 +377,9 @@ if (count($legenda_ordinata) > 0)
 			break;
 		case 'Squ.':
 			$info = "squalificato";
+			break;
+		case 'N.P.P.':
+			$info = "non si presenta alla partenza";
 			break;
 		case $symbol_1_partecipazione:
 			$info = "1<sup>a</sup> partecipazione";
@@ -545,7 +548,7 @@ for ($i = 1; $i < count($archivio); $i++) {
 		{
 			array_push($legenda,'info');
 		}
-		if ($mask[$temp] == $indice_tempo) // note di gara (F.T.M.,Rit.,Squ.)
+		if ($mask[$temp] == $indice_tempo) // note di gara (F.T.M.,Rit.,Squ.,N.P.P)
 		{
 			if ((tempo_numerico($campo)) > 500)
 			{
