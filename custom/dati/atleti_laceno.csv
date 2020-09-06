@@ -68,7 +68,7 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 67;Angelo Ciccone;M;-;?;?;-;-;I6476
 68;Angelo Ceres;M;-;?;?;-;-;I54
 69;Lello Viscardi;M;-;?;?;-;-;I2383
-70;Nicola Melillo;M;-;?;?;-;2019/stra19_14.jpg;I11547
+70;Nicola Melillo;M;-;1979;?;-;2019/stra19_14.jpg;I11547
 71;Balduino Del Guercio;M;-;?;?;-;-;I1357
 72;Antonio Ruglio;M;-;?;?;-;-;I684
 73;Dario Cifrodelli;M;-;?;?;-;-;I3221
@@ -303,7 +303,7 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 302;Vincenzo Russomanno;M;-;1997;?;-;2017/VincenzoRussomanno.jpg;I13048
 303;Nicola Testa;M;-;?;?;-;2017/NicolaTesta.jpg;I1282
 304;Grazia Cione;F;-;?;?;-;2017/GraziaCione.jpg;I1225
-305;Danila Nesta;F;-;?;?;-;-;I6524
+305;Danila Nesta;F;-;?;?;-;2020/DanilaNesta2020.jpg;I6524
 306;Floriana Nesta;F;-;?;?;-;2017/FlorianaNesta.jpg;I6644
 307;Michele Gerardo Zanca;M;-;2001;?;-;2018/Stra18_23.jpg;I899
 308;Giovanni Chiaravallo;M;-;1999;?;-;2018/Stra18_27.jpg;I8048
@@ -317,8 +317,8 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 316;Gerardo Cione;M;-;?;?;-;2019/stra19_07.jpg;I1253
 317;Azzurra Cetrulo;F;-;?;?;-;2019/stra19_05.jpg;I11467
 318;Caterina Rosania;F;-;?;?;-;2019/stra19_05.jpg;I12676
-319;Gerardo Zarra;M;-;?;?;-;-;I3447
-320;Gerardo Esposito;M;-;?;?;-;-;I14837
-321;Ivan Melillo;M;-;?;?;-;-;I11548
+319;Gerardo Zarra;M;-;?;?;-;2020/GH010317_1598946250401.jpg;I3447
+320;Gerardo Esposito;M;-;2005;?;-;2020/GH010317_1598946155010.jpg;I14837
+321;Ivan Melillo;M;-;1982;?;-;2020/GH010317_1598946068398.jpg;I11548
 322;Gerardo Rosania;M;-;2002;?;-;-;I11245
 323;Alfonso Rosania 1993;M;-;1993;?;-;-;I15923
