@@ -5,12 +5,12 @@ inizio header
 	  <tbody>
 	  
 		<tr>
- 		  <!--td> <img src="<?php echo $site_abs_path?>custom/album/varie/logo.jpg" alt="logo %web_title%"> </td-->
-		  <td>
+ 		  <td> <img src="<?php echo $site_abs_path?>custom/album/varie/logo.jpg" alt="logo %web_title%"> </td>
+		  <!--td>
 			<object	type="application/x-shockwave-flash" data="<?php echo $site_abs_path ?>/custom/images/barrasuperiore.swf" width="456" height="105">
 				<param name="movie" value="<?php echo $site_abs_path ?>/custom/images/barrasuperiore.swf" />
 			</object>
-		  </td>
+		  </td-->
 		</tr>
 		
 	  </tbody>

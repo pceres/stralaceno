@@ -740,4 +740,19 @@ DanieleCaprio2020.jpg::::L'arrivo di Daniele Caprio::Daniele Caprio
 #GH040317_1599045003152.jpg::::L'arrivo di Daniele Caprio::Daniele Caprio
 GiovanniRosania2020.jpg::::L'arrivo di Giovanni Rosania con alle spalle Gerardo Notaro::Giovanni Rosania, Gerardo Notaro
 #GH050317_1599046394447.jpg::::L'arrivo di Giovanni Rosania con alle spalle Gerardo Notaro::Giovanni Rosania, Gerardo Notaro
+GH050317_1599046414237.jpg::::L'arrivo di Gerardo Notaro::Gerardo Notaroio
+GiovanniRosania2020.jpg::::L'arrivo di Giovanni Rosania con alle spalle Gerardo Notaro::Giovanni Rosania, Gerardo Notaro
+#GH050317_1599046394447.jpg::::L'arrivo di Giovanni Rosania con alle spalle Gerardo Notaro::Giovanni Rosania, Gerardo Notaro
 GH050317_1599046414237.jpg::::L'arrivo di Gerardo Notaro::Gerardo Notaro
+
+[2021]
+Partenza2021.jpg::::Partenza della Stralaceno 2021::
+#GianpieroLuongo2021.jpg::::::Gianpiero Luongo
+#GerardoRosania.jpg::::::Gerardo Rosania
+#GiovanniCuozzo2021.jpg::::::Giovanni Cuozzo
+#LorenzoSozio2021.jpg::::::Lorenzo Sozio
+#PasqualePallante2021.jpg::::::Pasquale Pallante
+#StefaniaDAuria2021.jpg::::::Stefania D'Auria
+#StelvioCelano2021.jpg::::::Stelvio Celano
+#IreneGaldi2021.jpg::::::Irene Galdi
+#IMG_20210831_221341.jp ::::Taglio di carreggiata: prontamente segnalato e richiamato dall'ispettore di gara. Il direttore di gara decide di non comminare alcuna penalità, anche perché in seguito a procedura velocizzata non si era fatta lettura del regolamento di gara::Marco Galdi
