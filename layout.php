@@ -22,13 +22,13 @@ $elenco_layout_right = get_config_file($filename_layout_right,6);
 $layout_data = array(); // dati da passare ai moduli;
 
 // proprieta' dei moduli da visualizzare:
-$layout_data['moduli_left'] = '';		// proprieta' dei moduli da visualizzare nella colonna sinistra
+$layout_data['moduli_left'] = Array();		// proprieta' dei moduli da visualizzare nella colonna sinistra
 foreach ($elenco_layout_left['elenco_moduli'] as $proprieta_modulo)
 {
 	$layout_data['moduli_left'][$proprieta_modulo[0]] = array_slice($proprieta_modulo,1);
 }
 unset($elenco_layout_left['elenco_moduli']);
-$layout_data['moduli_right'] = '';		// proprieta' dei moduli da visualizzare nella colonna sinistra
+$layout_data['moduli_right'] = Array();		// proprieta' dei moduli da visualizzare nella colonna sinistra
 foreach ($elenco_layout_right['elenco_moduli'] as $proprieta_modulo)
 {
 	$layout_data['moduli_right'][$proprieta_modulo[0]] = array_slice($proprieta_modulo,1);
@@ -163,7 +163,7 @@ for ($i = 1; $i < count($archivio); $i++)
 	if (!in_array($nome,$elenco_nomi))
 	{
 		# estrai il cognome (escludi il nome all'inizio)
-		$lista = split(" ",$nome);
+		$lista = explode(" ",$nome);
 		$cognome = "";
 		for ($ii = 1; $ii < count($lista); $ii++)
 		{
@@ -182,7 +182,7 @@ function is_visible_layout_block($layout_block,&$layout_data,$nome_layout)
 {
 	$block_property = $layout_data[$nome_layout][$layout_block];
 	
-	$enabled_groups = split(',',$block_property[0]);
+	$enabled_groups = explode(',',$block_property[0]);
 	$username = $layout_data['user']['username'];
 	$usergroups = $layout_data['user']['usergroups'];
 	
@@ -231,7 +231,7 @@ $item_caption 	= $layout_item[$indice_layout_caption];
 $item_type 	= $layout_item[$indice_layout_type];
 $item_data 	= $layout_item[$indice_layout_data];
 $item_disabled 	= $layout_item[$indice_layout_msg_disabled];
-$item_enabled_groups = split(',',$layout_item[$indice_layout_enabled_groups]);
+$item_enabled_groups = explode(',',$layout_item[$indice_layout_enabled_groups]);
 
 $username 	= $layout_data['user']['username'];
 $usergroups 	= $layout_data['user']['usergroups'];

@@ -51,7 +51,7 @@ if (!$res)
 
 <?php 
 // solo il root admin ha accesso qui
-if (group_match($username,split(',',$usergroups),array("root_admin")))
+if (group_match(explode(',',$usergroups),array("root_admin")))
 {
 ?>
 <form action="manage_root_admin.php" method="post" onSubmit="cripta_campo_del_form(this,'password')">

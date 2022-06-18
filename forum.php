@@ -101,7 +101,7 @@ while ($action)
 			$forum_write_groups = $forum_item[$indice_forums_write_groups];
 			$forum_auth_mode = $forum_item[$indice_forums_auth_mode];
 			$forum_topics = $forum_item[$indice_forums_topics];
-			$forum_last_post = split(',',$forum_item[$indice_forums_last_post]);
+			$forum_last_post = explode(',',$forum_item[$indice_forums_last_post]);
 			
 			if (count($forum_last_post)==2)
 			{
@@ -212,12 +212,12 @@ while ($action)
 		$forum_write_groups = $forum_item[$indice_forums_write_groups];
 		$forum_auth_mode = $forum_item[$indice_forums_auth_mode];
 		$forum_topics = $forum_item[$indice_forums_topics];
-		$forum_last_post = split(',',$forum_item[$indice_forums_last_post]);
+		$forum_last_post = explode(',',$forum_item[$indice_forums_last_post]);
 		
 		// verifica autorizzazioni in lettura
 		$username = $login['username'];
 		$usergroups = $login['usergroups'];
-		if (!group_match($username,$usergroups,split(',',$forum_read_groups)))
+		if (!group_match($usergroups,explode(',',$forum_read_groups)))
 		{
 			error_message("Mi dispiace, non sei abilitato ad accedere a questo forum.");
 			
@@ -412,7 +412,7 @@ while ($action)
 		
 		
 	case "list_posts":
-		$coord_topic = split(',',$data);	// I,Y -> forum I, topic Y -> topic_I_Y.php
+		$coord_topic = explode(',',$data);	// I,Y -> forum I, topic Y -> topic_I_Y.php
 		
 		$forum_id = $coord_topic[0];
 		$topic_id = $coord_topic[1];
@@ -429,7 +429,7 @@ while ($action)
 		$forum_write_groups = $forum_item[$indice_forums_write_groups];
 		$forum_auth_mode = $forum_item[$indice_forums_auth_mode];
 		$forum_topics = $forum_item[$indice_forums_topics];
-		$forum_last_post = split(',',$forum_item[$indice_forums_last_post]);
+		$forum_last_post = explode(',',$forum_item[$indice_forums_last_post]);
 		
 		// read topic info
 		$file_forum = sprintf($file_forum_format,$forum_id);
@@ -452,7 +452,7 @@ while ($action)
 		// verifica autorizzazioni in lettura
 		$username = $login['username'];
 		$usergroups = $login['usergroups'];
-		if (!group_match($username,$usergroups,split(',',$topic_read_groups)))
+		if (!group_match($usergroups,explode(',',$topic_read_groups)))
 		{
 			error_message("Mi dispiace, non sei abilitato ad accedere a questa discussione.");
 			
@@ -631,7 +631,7 @@ elseif ($post_status == 'censored')
 		}
 		
 		
-		$coord_topic = split(',',$data);	// I,Y -> forum I, topic Y -> topic_I_Y.php
+		$coord_topic = explode(',',$data);	// I,Y -> forum I, topic Y -> topic_I_Y.php
 		
 		$forum_id = $coord_topic[0];
 		$topic_id = $coord_topic[1];
@@ -648,7 +648,7 @@ elseif ($post_status == 'censored')
 		$forum_write_groups = $forum_item[$indice_forums_write_groups];
 		$forum_auth_mode = $forum_item[$indice_forums_auth_mode];
 		$forum_topics = $forum_item[$indice_forums_topics];
-		$forum_last_post = split(',',$forum_item[$indice_forums_last_post]);
+		$forum_last_post = explode(',',$forum_item[$indice_forums_last_post]);
 		
 		// read topic info
 		$file_forum = sprintf($file_forum_format,$forum_id);
@@ -671,7 +671,7 @@ elseif ($post_status == 'censored')
 		// verifica autorizzazioni in lettura
 		$username = $login['username'];
 		$usergroups = $login['usergroups'];
-		if (!group_match($username,$usergroups,split(',',$topic_write_groups)))
+		if (!group_match($usergroups,explode(',',$topic_write_groups)))
 		{
 			error_message("Mi dispiace, non sei abilitato a scrivere messaggi in questa discussione.");
 			
@@ -1001,7 +1001,7 @@ if ($post_type === "reply_post")
 		// integra la citazione nel messaggio del testo:
 		if ($post_type === 'reply_post')
 		{
-			$list_post_citazione = split("\n",$post_citazione);
+			$list_post_citazione = preg_split("~\n~",$post_citazione);
 			$ks_citazione = '';
 			foreach ($list_post_citazione as $linea_citazione)
 			{
@@ -1025,7 +1025,7 @@ if ($post_type === "reply_post")
 		$forum_write_groups = $forum_item[$indice_forums_write_groups];
 		$forum_auth_mode = $forum_item[$indice_forums_auth_mode];
 		$forum_topics = $forum_item[$indice_forums_topics];
-		$forum_last_post = split(',',$forum_item[$indice_forums_last_post]);
+		$forum_last_post = explode(',',$forum_item[$indice_forums_last_post]);
 		
 		// read topic info
 		$file_forum = sprintf($file_forum_format,$forum_id);
@@ -1062,7 +1062,7 @@ if ($post_type === "reply_post")
 		// verifica autorizzazioni in scrittura
 		$username = $login['username'];
 		$usergroups = $login['usergroups'];
-		if (!group_match($username,$usergroups,split(',',$write_groups)))
+		if (!group_match($usergroups,explode(',',$write_groups)))
 		{
 			$write_post_error = "Mi dispiace, non sei abilitato a $write_error_msg.";
 		}
@@ -1189,7 +1189,7 @@ if ($post_type === "reply_post")
 		$posts['elenco_posts'][$post_id][$indice_post_status] = $post_status;
 		
 		$posts['post_text_'.$post_id] = array();
-		foreach (split("\n",$post_testo) as $id_riga => $riga)
+		foreach (preg_split("~\n~",$post_testo) as $id_riga => $riga)
 		{
 			$ks = rtrim($riga);
 			if ($ks == "\r")
@@ -1304,7 +1304,7 @@ foreach($lista_mail_spammer as $mail_spammer)
 		
 	case "reply_post":
 		
-		$reply_data = split(',',$data);
+		$reply_data = explode(',',$data);
 		$action_data["reply_post_flag"] = true;
 		
 		$action = 'new_post';

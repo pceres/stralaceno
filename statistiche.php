@@ -106,7 +106,7 @@ case "show":
 			
 			if ($id_col == $id_answers)
 			{
-				$list = split(',',$field);
+				$list = explode(',',$field);
 			}
 			else
 			{
@@ -155,7 +155,7 @@ case "show":
 		case 'stat_domanda':
 			$stat_equivalenza = $stat_bulk[0];	// elenco separato da "," di id delle domande da accorpare su cui effettuare la stat.
 			
-			$domande_equiv = split(',',$stat_equivalenza);
+			$domande_equiv = explode(',',$stat_equivalenza);
 			
 			$vett_dati = array();
 			foreach ($domande_equiv as $id_col)
@@ -175,15 +175,15 @@ case "show":
 			$stat_filtro_domande = $stat_bulk[1];	// elenco sep. da ";" di gruppi di dom. in cui cercare (a loro volta separ. da  ',')
 			$stat_filtro_caption = $stat_bulk[2];	// elenco sep. da ";" del testo associato al gruppo di domande
 			
-			$risposte_equiv = split(',',$stat_equivalenza);
-			$stat_filtro_domande = split(';',$stat_filtro_domande);
-			$stat_filtro_caption = split(';',$stat_filtro_caption);
+			$risposte_equiv = explode(',',$stat_equivalenza);
+			$stat_filtro_domande = explode(';',$stat_filtro_domande);
+			$stat_filtro_caption = explode(';',$stat_filtro_caption);
 
 			$lista_domande_utili = array();
 			$filtro_domande	= array();
 			foreach ($stat_filtro_domande as $str_gruppo_domande)
 			{
-				$gruppo_domande = split(',',$str_gruppo_domande);
+				$gruppo_domande = explode(',',$str_gruppo_domande);
 				array_push($filtro_domande,$gruppo_domande);
 				$lista_domande_utili = array_merge($lista_domande_utili,$gruppo_domande);
 			}

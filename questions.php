@@ -448,7 +448,7 @@ case "last_check":
 			echo(" $answer $messaggio\n");
 			
 			// determina le varie risposte possibili
-			$gruppi_domande = split(",",$domanda[$indice_question_gruppo]);
+			$gruppi_domande = explode(",",$domanda[$indice_question_gruppo]);
 			$voci = array();
 			foreach($gruppi_domande as $gruppo_domande)
 			{
@@ -527,7 +527,7 @@ case "save":
 	else
 	{
 		// verifica formato data
-		if (!ereg('^[0-9]{2}:[0-9]{2} [0-9]{2}/[0-9]{2}/[0-9]{4}$',$data_giocata))
+		if (!preg_match('~^[0-9]{2}:[0-9]{2} [0-9]{2}/[0-9]{2}/[0-9]{4}$~',$data_giocata))
 		{
 			echo("Formato data errata: $data_giocata!<br>\n");
 			die("Il formato giusto e': &quot;12:34 12/10/2006&quot; per indicare le 12:34 del 12 ottobre 2006.");
@@ -539,8 +539,8 @@ case "save":
 	
 	$bulk = get_config_file($file_log_questions);
 	$ultima_giocata = $bulk['default'][count($bulk['default'])-1];
-	$giocata_da_salvare = split("::",$log);
-	
+	$giocata_da_salvare = explode("::",$log);
+
 	if (($ultima_giocata[0]==$giocata_da_salvare[0]) && ($giocata_da_salvare[1]-$ultima_giocata[1] < 3600*2) && ($ultima_giocata[3]-$giocata_da_salvare[3] == 0))
 	{
 		$giocata_ripetuta = 1;
@@ -607,7 +607,7 @@ case "results":
 	// carica giocate
 	$giocate = get_config_file($file_log_questions);
 	$giocate = $giocate['default'];
-	$numero_risposte_per_giocata = count(split(',',$giocate[0][0])); // numero di risposte salvate per giocata (primo campo)
+	$numero_risposte_per_giocata = count(explode(',',$giocate[0][0])); // numero di risposte salvate per giocata (primo campo)
 	
 	// carica risposte corrette
 	$soluz_array = get_config_file($file_questions_ans);
@@ -659,7 +659,7 @@ case "results":
 		
 		// giocata
 		$giocata_risposte = $giocata[0];
-		$giocata_array = split(',',$giocata_risposte);
+		$giocata_array = explode(',',$giocata_risposte);
 		
 		if ($temp_debug) { // !!!
 		echo "<hr>Giocata ".($indice_giocata+1).":<br>";
@@ -864,10 +864,10 @@ foreach($criteri as $id => $criterio)
 	switch ($criterio[$id_regola_tipo])
 	{
 	case "distanza":
-		$sort_mask = split(',',$criterio[$id_regola_data+0]);
-		$dist_bkp = split(',',$criterio[$id_regola_data+1]);
-		$dist_weight = split(',',$criterio[$id_regola_data+2]);
-		$question_weight = split(',',$criterio[$id_regola_data+3]);
+		$sort_mask = explode(',',$criterio[$id_regola_data+0]);
+		$dist_bkp = explode(',',$criterio[$id_regola_data+1]);
+		$dist_weight = explode(',',$criterio[$id_regola_data+2]);
+		$question_weight = explode(',',$criterio[$id_regola_data+3]);
 		
 		$sort_needed = (strlen(array_search(1,$sort_mask).'a') > 1);
 		
@@ -881,17 +881,17 @@ foreach($criteri as $id => $criterio)
 		$bulk_punteggi[$id] = array($date_mask,$date_min,$date_max);
 		break;
 	case "posizione_esatte":
-		$sort_mask = split(',',$criterio[$id_regola_data+0]);
-		$pos_weight = split(',',$criterio[$id_regola_data+1]);
+		$sort_mask = explode(',',$criterio[$id_regola_data+0]);
+		$pos_weight = explode(',',$criterio[$id_regola_data+1]);
 		
 		$sort_needed = (strlen(array_search(1,$sort_mask).'a') > 1);
 		
 		$bulk_punteggi[$id] = array($sort_mask,$pos_weight,$sort_needed);
 		break;
 	case "esatte_per_gruppi":
-		$pos_groups = split(',',$criterio[$id_regola_data+0]);
+		$pos_groups = explode(',',$criterio[$id_regola_data+0]);
 		$modalita = $criterio[$id_regola_data+1];
-		$question_weight = split(',',$criterio[$id_regola_data+2]);
+		$question_weight = explode(',',$criterio[$id_regola_data+2]);
 		
 		$gruppi_risposte_esatte = array();
 		foreach ($soluz as $id_soluz => $soluz_item)
@@ -911,7 +911,7 @@ foreach($criteri as $id => $criterio)
 		break;
 	case "eliminatorie":
 		$livello_eliminatorie = $criterio[$id_regola_data+0];
-		$maschera_risposte = split(',',$criterio[$id_regola_data+1]);	// elenco domande che interessano questa regola, vincitore per ultimo
+		$maschera_risposte = explode(',',$criterio[$id_regola_data+1]);	// elenco domande che interessano questa regola, vincitore per ultimo
 		
 		$vettore_risposte_esatte = array(); // viene passato per indirizzo, bisogna inizializzarlo qui
 		$soluz_ok = get_vettore_squadre_vincenti($vettore_risposte_esatte,$soluz,$livello_eliminatorie,$temp_debug_calcoli_preliminari_criteri);
@@ -926,7 +926,7 @@ foreach($criteri as $id => $criterio)
 		$gruppi_risposte_possibili = array();
 		foreach ($lotteria['Domande'] as $domanda_item)
 		{
-			$gruppi = split(',',$domanda_item[$indice_question_gruppo]);
+			$gruppi = explode(',',$domanda_item[$indice_question_gruppo]);
 			$gruppi_risposte_possibili = array_merge($gruppi_risposte_possibili,$gruppi);
 		}
 		$gruppi_risposte_possibili = array_unique($gruppi_risposte_possibili);
@@ -987,7 +987,7 @@ foreach($criteri as $id => $criterio)
 		{
 			$item_gruppo 	= $item[0]; // valore numerico associato al gruppo di risposte
 			$item_caption 	= $item[1]; // descrizione associata al gruppo di risposte
-			$item_answers 	= split(',',$item[2]); // elenco risposte associate al gruppo
+			$item_answers 	= explode(',',$item[2]); // elenco risposte associate al gruppo
 			
 			$equivalenza_risposte[$item_gruppo] = $item_answers;
 			
@@ -1002,11 +1002,11 @@ foreach($criteri as $id => $criterio)
 		foreach($punteggio_risposte as $item)
 		{
 			$item_risposta 	= $item[0]; 		// testo della risposta
-			$item_punti 	= split(';',$item[1]); 	// punti associati alla risposta per ciascun gruppo di risposte (indicato in equivalenza_risposte)
+			$item_punti 	= explode(';',$item[1]); 	// punti associati alla risposta per ciascun gruppo di risposte (indicato in equivalenza_risposte)
 			
 			foreach($item_punti as $punteggio_0)
 			{
-				$punteggio = split(',',$punteggio_0);
+				$punteggio = explode(',',$punteggio_0);
 				$item_punti_gruppo = $punteggio[0];
 				$item_punti_punti  = $punteggio[1];
 				

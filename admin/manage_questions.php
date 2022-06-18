@@ -381,7 +381,7 @@ case 'set_nominativi':
 			if (!empty($chiave_data))
 			{
 				// verifica formato data
-				/*if (!ereg('^[0-9]{2}:[0-9]{2} [0-9]{2}/[0-9]{2}/[0-9]{4}$',$chiave_data))
+				/*if (!preg_match('~^[0-9]{2}:[0-9]{2} [0-9]{2}/[0-9]{2}/[0-9]{4}$~',$chiave_data))
 				{
 					echo("Formato data errata: $chiave_data!<br>\n");
 					die("Il formato giusto e': &quot;12:34 12/10/2006&quot; per indicare le 12:34 del 12 ottobre 2006.");
