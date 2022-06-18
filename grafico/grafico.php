@@ -187,7 +187,7 @@ else {
 		while ($ok)
 		{
 			//print ":$newline ($newline[0])";
-			$arr=split("\t",$newline);
+			$arr=preg_split("~\t~",$newline);
 			$x=$arr[0];
 			$y=$arr[1];
 

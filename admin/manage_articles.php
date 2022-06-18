@@ -89,7 +89,7 @@ switch ($mode)
 {
 
 case 'set_online_articles':
-	$article_list = split('::',$data); // elenco dei titoli da pubblicare
+	$article_list = explode('::',$data); // elenco dei titoli da pubblicare
 	
 	$published_list = publish_online_articles($article_list,$sezione);
 	
@@ -187,7 +187,7 @@ case 'edited':
 	$art_data['autore'] 	= stripslashes($_REQUEST['autore']);
 	$testo 			= stripslashes($_REQUEST['testo']);
 	
-	$zz = split("\n",$testo);
+	$zz = preg_split("~\n~",$testo);
 	
 	for ($i = 0; $i<count($zz); $i++)
 	{

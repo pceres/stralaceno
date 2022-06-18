@@ -56,7 +56,7 @@ for ($i = 1; $i < count($archivio2); $i++) {
 	if (!in_array($nome,$elenco_nomi)) {
 		
 		# estrai il cognome (escludi il nome all'inizio)
-		$lista = split(" ",$nome);
+		$lista = explode(" ",$nome);
 		$cognome = "";
 		for ($ii = 1; $ii < count($lista); $ii++) {
 			$cognome .= " ".$lista[$ii];

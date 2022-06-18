@@ -307,7 +307,7 @@ return $result;
 }
 
 
-function merge_tempi_atleti($archivio,$atleti,&$edizioni) {
+function merge_tempi_atleti($archivio,$atleti,&$edizioni = null) {
 
 # dichiara variabili
 extract(indici());
@@ -418,7 +418,7 @@ if (count($legenda_ordinata) > 0)
 }
 
 
-function show_table($archivio,$mask,$class,$num_colonne = 1,$font_size = -1,$show_note = 1,$tooltip_data) {
+function show_table($archivio,$mask,$class,$num_colonne = 1,$font_size = -1,$show_note = 1,$tooltip_data = '') {
 // $prestazione = $archivio[1];
 // $prestazione['info'] -> legenda
 // $prestazione['stile_riga'] -> <tr style="$prestazione['stile_riga']">
@@ -1041,8 +1041,8 @@ function load_article($art_id, $sezione)
 		
 		$art_data = array();
 		
-		$art_autore = split("::",$bulk[0]);
-		$art_titolo = split("::",$bulk[1]);
+		$art_autore = explode("::",$bulk[0]);
+		$art_titolo = explode("::",$bulk[1]);
 		
 		$art_data["autore"] = trim($art_autore[1],"\r\n");
 		$art_data["titolo"] = trim($art_titolo[1],"\r\n");
@@ -1074,26 +1074,26 @@ $no_close_tags = array("p","br","?php","img"); // array di tags che non richiedo
 	foreach ($testo_in as $id_line => $line)
 	{
 		// se c'e' una riga con tag <script>, interrompi subito
-		if (ereg("<script[^>]*>",$line))
+		if (preg_match("~<script[^>]*>~",$line))
 		{
 			break;
 		}
 		
 		// commenti su una sola riga: li elimino
-		if (ereg("<!--[^-]*-->",$line))
+		if (preg_match("~<!--[^-]*-->~",$line))
 		{
-			$line = ereg_replace("<!--.*-->","",$line);
+			$line = preg_replace("~<!--.*-->~","",$line);
 		}
 		
 		// gestione commenti su piu' righe: devono iniziare con una riga con "<!..", e devono finire con una riga con "-->"
-		if (ereg("^[ \t]*<!--",$line))
+		if (preg_match("~^[ \t]*<!--~",$line))
 		{
 			$inside_comment = 1;	// da questa riga inizia un commento HTML: scarta le righe finche' una inizia con "-->"
 			continue;
 		}
 		if ($inside_comment)
 		{
-			if (ereg("^[ \t]*-->",$line))
+			if (preg_match("~^[ \t]*-->~",$line))
 			{
 				$inside_comment = 0;
 			}
@@ -1168,7 +1168,7 @@ $no_close_tags = array("p","br","?php","img"); // array di tags che non richiedo
 }
 
 
-function template_to_effective($line_in,$sezione)
+function template_to_effective($line_in,$sezione = "homepage")
 {
 	# dichiara variabili
 	extract(indici($sezione));
@@ -1345,7 +1345,7 @@ function get_link_list($link_file)
 		$ks = trim($bulk[$i]); // elimina i caratteri di fine linea
 		if (!empty($ks) & (substr($ks,0,1) != "#") )
 		{
-			$item = split("::",$ks);
+			$item = explode("::",$ks);
 			
 			if (count($item) == 2)
 			{
@@ -1377,7 +1377,7 @@ function get_config_file($conf_file,$expected_items = 1000)
 			}
 			else
 			{
-				$item = split("::",$ks);
+				$item = explode("::",$ks);
 				if (count($item) <= $expected_items)
 				{
 					if (empty($settings))
@@ -1435,7 +1435,7 @@ function save_config_file($conf_file,$keys)
 }
 
 
-function show_template($template_path,$template_file,$sezione)
+function show_template($template_path,$template_file,$sezione = "")
 {
 	# dichiara variabili
 	extract(indici($sezione));
@@ -1498,7 +1498,7 @@ function show_template($template_path,$template_file,$sezione)
 					{
 						if (strlen(strstr($line,"%%%% if"))>0)
 						{
-							ereg('if (%field([0-9]+)%)(.{2})\'([^\']*)\'(.*)$',$line,$output);
+							preg_match('~if (%field([0-9]+)%)(.{2})\'([^\']*)\'(.*)$~',$line,$output);
 							$field_alias=$output[1];
 							$right_member = $output[4];
 							$line_output = $output[5];
@@ -1597,7 +1597,7 @@ foreach ($lotteria["Domande"] as $domanda)
 		break;
 	case "fixed":
 		// determina le varie risposte possibili
-		$gruppi_domande = split(",",$domanda[$indice_question_gruppo]);
+		$gruppi_domande = explode(",",$domanda[$indice_question_gruppo]);
 		$voci = array();
 		foreach($gruppi_domande as $gruppo_domande)
 		{
@@ -1935,12 +1935,12 @@ function prime_lettere_maiuscole($stringa) {
 # imposta le prima lettera maiuscola
 #
 
-$lista_separatore = Array(' ','	',"\(","\'");
-$lista_sostituto  = Array(' ','	',"(","'");
+$lista_separatore = Array(' ','	','(',"'");
+$lista_sostituto  = Array(' ','	','(',"'");
 
 foreach ($lista_separatore as $id => $separatore)
 {
-	$parole = split($separatore,$stringa);
+	$parole = explode($separatore,$stringa);
 	if (count($parole)>0)
 	{
 		$tmp_array = Array();
@@ -1997,9 +1997,9 @@ define('MAILTO','pasquale_ceres@yahoo.it'); //who to send email reports
 
 function StripDoubleColon($chunk='')
 {
-  $chunk=ereg_replace(':+',':',$chunk);
-  $chunk=ereg_replace('^:','.:',$chunk);
-  $chunk=ereg_replace(':$',':.',$chunk);
+  $chunk=preg_replace('~:+~',':',$chunk);
+  $chunk=preg_replace('~^:~','.:',$chunk);
+  $chunk=preg_replace('~:$~',':.',$chunk);
   return($chunk);
 }
 
@@ -2035,7 +2035,7 @@ if (file_exists($counterfile))
   while (!feof($cf))    //Loop for each line in the file
   {
     $line=fgets($cf, 4096);            //get a line;
-    if (ereg("^$myself:(.*)\r\n", $line, $reg_array)) //is this the line corresponding to the actual page
+    if (preg_match("~^$myself:(.*)\r\n~", $line, $reg_array)) //is this the line corresponding to the actual page
     {
       $counter = $reg_array[1];          //Yes, We save the current counter value
     } else $output.=$line;              //No, just keep it for later rewrite
