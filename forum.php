@@ -217,7 +217,7 @@ while ($action)
 		// verifica autorizzazioni in lettura
 		$username = $login['username'];
 		$usergroups = $login['usergroups'];
-		if (!group_match($usergroups,explode(',',$forum_read_groups)))
+		if (!group_match($username,$usergroups,explode(',',$forum_read_groups)))
 		{
 			error_message("Mi dispiace, non sei abilitato ad accedere a questo forum.");
 			
@@ -452,7 +452,7 @@ while ($action)
 		// verifica autorizzazioni in lettura
 		$username = $login['username'];
 		$usergroups = $login['usergroups'];
-		if (!group_match($usergroups,explode(',',$topic_read_groups)))
+		if (!group_match($username,$usergroups,explode(',',$topic_read_groups)))
 		{
 			error_message("Mi dispiace, non sei abilitato ad accedere a questa discussione.");
 			
@@ -671,7 +671,7 @@ elseif ($post_status == 'censored')
 		// verifica autorizzazioni in lettura
 		$username = $login['username'];
 		$usergroups = $login['usergroups'];
-		if (!group_match($usergroups,explode(',',$topic_write_groups)))
+		if (!group_match($username,$usergroups,explode(',',$topic_write_groups)))
 		{
 			error_message("Mi dispiace, non sei abilitato a scrivere messaggi in questa discussione.");
 			
@@ -1062,7 +1062,7 @@ if ($post_type === "reply_post")
 		// verifica autorizzazioni in scrittura
 		$username = $login['username'];
 		$usergroups = $login['usergroups'];
-		if (!group_match($usergroups,explode(',',$write_groups)))
+		if (!group_match($username,$usergroups,explode(',',$write_groups)))
 		{
 			$write_post_error = "Mi dispiace, non sei abilitato a $write_error_msg.";
 		}

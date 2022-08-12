@@ -1666,7 +1666,7 @@ function show_template($template_path,$template_file,$sezione = "",$module_data 
 }
 
 
-function group_match($username,$usergroups,$enabled_groups = null)
+function group_match($username,$usergroups,$enabled_groups)
 {
 // $enabled_groups: array di gruppi (o di username, precedui da @) abilitati
 // enabled_group vuoto -> abilitato

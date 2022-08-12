@@ -38,7 +38,6 @@ if ( !isset($_SERVER['HTTP_REFERER']) |
 
 <?php
 
-
 // verifica che l'utente sia autorizzato per l'operazione richiesta
 $res = check_auth('admin_index','',$login['username'],$login['usergroups']);
 if (!$res)
@@ -46,14 +45,13 @@ if (!$res)
 	die("Mi dispiace, non sei autorizzato!");
 }
 
-
 ?>
 
 <script type="text/javaScript" src="<?php echo $site_abs_path ?>admin/md5.js"></script>
 
 <?php 
 // solo il root admin ha accesso qui
-if (group_match(explode(',',$usergroups),array("root_admin")))
+if (group_match($username,explode(',',$usergroups),array("root_admin")))
 {
 ?>
 <form action="manage_root_admin.php" method="post" onSubmit="cripta_campo_del_form(this,'password')">

@@ -52,7 +52,7 @@ if ($password !== $password_ok)
 
 
 // solo il root admin ha accesso qui
-if (!group_match(explode(',',$usergroups),array("root_admin")))
+if (!group_match($username,explode(',',$usergroups),array("root_admin")))
 {
 	die("Solo il root_admin e' abilitato ad accedere a questa pagina!<br>\n");
 }

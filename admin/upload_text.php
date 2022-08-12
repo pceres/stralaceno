@@ -71,7 +71,7 @@ if (!$file_ok)
 }
 
 // verifica che il gruppo di appartenenza sia abilitato qui
-if (!group_match(explode(',',$usergroups),explode(',',$groups_ok)))
+if (!group_match($username,explode(',',$usergroups),explode(',',$groups_ok)))
 {
 	die("Spiacente, non sei abilitato ad accedere a questa pagina! Contatta l'amministratore.<br>\n");
 }
