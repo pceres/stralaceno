@@ -1184,7 +1184,7 @@ function template_to_effective($line_in,$sezione = "homepage")
 }
 	
 	
-function show_article($art_data,$mode,$link) 
+function show_article($art_data,$mode = "full",$link = null)
 {
 	// $mode=('full','abstract')
 	// $link : usato in modo 'abstract', e' il link cui devono puntare i puntini alla fine dell'articolo

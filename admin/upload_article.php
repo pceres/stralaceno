@@ -81,7 +81,7 @@ print "<pre>";
 if (file_exists($path_articles . $new_name))
 {
 	echo "L'articolo $id_articolo &egrave; gi&agrave; stato pubblicato (".$path_articles.$new_name." gia' esiste!)";
-	break;
+	return;
 }
 
 if ($ok == TRUE)
