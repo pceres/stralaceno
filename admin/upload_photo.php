@@ -64,7 +64,7 @@ print "<pre>";
 if (!file_exists($album_dir.$nome_album))
 {
 	echo "L'album $nome_album non esiste!";
-	break;
+	return;
 }
 
 if ($ok == TRUE) // la password e' ok, procedi
