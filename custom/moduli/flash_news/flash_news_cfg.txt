@@ -6,6 +6,7 @@
 # formato elenco_news:  data::news
 #
 [elenco_news]
+13/07/2020::si è tenuta l'Assemblea annuale dell'Associazione, in cui è stato eletto il nuovo direttivo (Daniele Caprio, presidente; Gerardo Rosania, vice presidente; Antonio Viscido, segretario).
 14/07/2014::Donato Ceres e Mauro Losco hanno partecipato alla gara di Castelvetere sul calore(AV).
 17/05/2014::Daniele Caprio e Carmine Cuozzo hanno partecipato alla 1^ edizione Memorial Luongo a Calabritto.
 21/04/2014::Daniele Caprio vince il tallacano trail di acquasanta terme(AP) di 15 km.
@@ -14,14 +15,14 @@
 16/03/2014::Daniele Caprio ha partecipato al Beach Trail Positano 2014 di km 11.
 02/03/2014::Donato Ceres e Donatello Cirillo hanno partecipato alla XL edizione della Roma Ostia di km 21,097.
 22/02/2014::Mauro Losco e Giuseppe Cetrulo hanno partecipato alla Cargraphik Half Marathon a Barletta, di km 21,097.
-02/02/2014::Mauro Losco ha partecipato alla 1^ edizione della Mostra d�Oltremare Half Marathon a Napoli.
+02/02/2014::Mauro Losco ha partecipato alla 1^ edizione della Mostra d�Oltremare Half Marathon a Napoli.
 15/12/2013::Mauro Losco ha partecipato alla 5^ edizione della Coast to Coast Sorrento-Amalfi, di km 31,3.
 08/12/2013::Daniele Caprio, Donato Ceres, Mauro Losco, Carmine Cuozzo e Antonio Viscido hanno partecipato alla 1^ edizione della Corsa dei Falo' a Lioni (Av).
 17/11/2013::Giuseppe Cetrulo e Mauro Losco hanno partecipato alla 33^ Maratona Divina Pastora di Valencia (Spagna) di km 42,095.
 27/10/2013::Carmine Calvanese ha partecipato alla "Sangemini-Casulae-Sangemini" di km 10,750 a Sangemini (Tr).
 26/10/2013::Daniele Caprio ha partecipato alla "3^ edizione dell'Ecotrail dei 2 Parchi" ad Arquata del Tronto (Ap) di km 13.
 20/10/2013::Entra a far parte dell'ARS, come associato praticante, Carmine Cuozzo di Lioni.
-13/10/2013::Carmine Calvanese ha partecipato alla "Mezza maratona citt&agrave; di Pisa" di km 21,097 a Pisa.
+13/10/2013::Carmine Calvanese ha partecipato alla "Mezza maratona città di Pisa" di km 21,097 a Pisa.
 12/10/2013::Daniele Caprio ha partecipato alla "27^ edizione della Stabiae night marathon" a Castellammare di Stabia (Na) di km 10.
 06/10/2013::Daniele Caprio ha partecipato alla "7^ edizione del Memorial B.Germano" a Sicignano degli Alburni (Sa) di km 8,9.
 29/09/2013::Carmine Calvanese ha partecipato alla " VI Tre valli ternane" di km 21,097 a Terni.
@@ -34,16 +35,16 @@
 06/07/2013::Daniele Caprio e Mauro Losco hanno partecipato alla "I Pedifumo in corsa" a Perdifumo (Sa) di km 10.
 29/06/2013::Daniele Caprio ha partecipato alla "XVI edizione della Marcialonga Mercogliano - Montevergine" di 16,8 km.
 23/06/2013::Paolo Viscardi ha partecipato alla gara podistica "Gran carrera di Zumpango" a Zumpango - Messico di km 11.
-23/06/2013::Daniele Caprio, Mauro Losco e Giuseppe Cetrulo hanno partecipato al "7&deg; trofeo citt&agrave; di Telesia" a Telese Terme (Bn) di km 10.
+23/06/2013::Daniele Caprio, Mauro Losco e Giuseppe Cetrulo hanno partecipato al "7���&deg; trofeo città di Telesia" a Telese Terme (Bn) di km 10.
 08/06/2013::Mauro Losco ha partecipato alla "III Corsa Podistica delle 7 Cappelle" a Sassano(Sa) di km 11,8.
-02/06/2013::Paolo Viscardi ha partecipato alla gara podistica di Citt&agrave; del Messico di 10km.
+02/06/2013::Paolo Viscardi ha partecipato alla gara podistica di Città del Messico di 10km.
 25/05/2013::Daniele Caprio, Mauro Losco e Donatello Cirillo hanno partecipato alla "31^ Corsalonga Sangiovannese" a San Giovanni a Piro (Sa) di km 9.
 19/05/2013::Mauro Losco ha partecipato alla "Corsa del Mito" Palinuro - Marina di Camerota (Sa) di km 13,5.
 12/05/2013::Daniele Caprio, Giuseppe Cetrulo, Donato Ceres e Mauro Losco hanno partecipato alla "Corsa della sirena Leucosya" a Castellabate (Sa) di km 8,8.
 05/05/2013::Daniele Caprio ha partecipato al "III Ecotrail" a Minori(Sa) di km 14,5.
-01/05/2013::Carmine Calvanese ha partecipato al 31&deg; giro del lago di Piediluco - Terni di km 14,9.
+01/05/2013::Carmine Calvanese ha partecipato al 31���&deg; giro del lago di Piediluco - Terni di km 14,9.
 28/04/2013::Giuseppe Cetrulo, Mauro Losco e Donatello Cirillo hanno partecipato alla 14^ half marathon di Agropoli di km 21,097.
-21/04/2013::Carmine Calvanese ha partecipato al "2&deg; memorial N.Bravini" a Terni di km 10,2. 
+21/04/2013::Carmine Calvanese ha partecipato al "2���&deg; memorial N.Bravini" a Terni di km 10,2. 
 07/04/2013::Carmine Calvanese ha partecipato alla 30^ mezza maratona di Firenze.
 07/04/2013::Giuseppe Cetrulo e Mauro Losco hanno partecipato alla 37^ edizione della Maratona di Parigi.
 01/04/2013::Daniele Caprio ha partecipato al "II trail del monte Taccaro" ad Angri(Sa) di km 12,2.
@@ -54,21 +55,21 @@
 20/01/2013::Daniele Caprio ha partecipato alla "Vietri e dintorni trail 2013" a Vietri sul Mare (Sa) di km 10. Accompagnatori Paolo Viscardi e Salvatore Merola.
 03/01/2013::Entra a far parte dell'ARS, come associato praticante, Carmine Calvanese di Calabritto.
 16/12/2012::Giuseppe Cetrulo e Mauro Losco hanno partecipato alla "Coast to Coast" ad Amalfi, di km 31,3.
-11/11/2012::Donatello Cirillo ha partecipato alla "10&deg; Fiumicino half marathon" di km 21,097.
+11/11/2012::Donatello Cirillo ha partecipato alla "10���&deg; Fiumicino half marathon" di km 21,097.
 06/11/2012::Entra a far parte dell'ARS, come associato praticante, Mauro Losco di Torella dei Lombardi.
 28/10/2012::Giuseppe Cetrulo ha partecipato alla "27esima Maratona di Venezia".
 21/10/2012::Daniele Caprio ha partecipato alla "Maratonina di Sofia" in Bulgaria di km 18.
 11/08/2012::Entra a far parte dell'ARS, come socio ordinario, Giuseppe Cetrulo di Caposele.
 05/08/2012::Partecipanti alla gara podistica "Maratonina della Misericordia" di 10,250 km di Nusco:  Salvatore Merola, Alessandro Russomanno, Donatello Cirillo, Paolo Viscardi, Nicola D'Auria.
-26/06/2012::L'edizione 2012 della Stralaceno si terr&agrave; venerd&igrave; 31 agosto.
+26/06/2012::L'edizione 2012 della Stralaceno si terrà venerdì 31 agosto.
 13/06/2012::Pubblicato sul sito della Stralaceno il logo dell'edizione 2012.
 29/04/2012::Donatello Cirillo ha partecipato alla "StraSalerno half marathon 2012" di km 21,097.
 15/04/2012::Daniele Caprio ha partecipato al "I Trail delle Ferriere" di km 15 ad Amalfi.
 18/03/2012::Francesco Ceres ha partecipato alla XVIII Maratona di Roma di km 42,195.
 26/02/2012::Donatello Cirillo e Francesco Ceres hanno partecipato alla XXXVIII edizione della Roma Ostia di km 21,097.
 08/01/2012::Daniele Caprio ha partecipato alla "Cadbury half marathon" di km 21,097 ad Hobart in Tasmania (Australia).
-13/11/2011::Donatello Cirillo ha partecipato alla 31&deg; edizione della "Mezza Maratona citt&agrave; di Livorno" di km 21,097.
-06/11/2011::Paolo Viscardi ha partecipato alla gara podistica "29&deg; Media Maraton ciudad de Granada" di km 21,097 a Granada in Spagna.
+13/11/2011::Donatello Cirillo ha partecipato alla 31���&deg; edizione della "Mezza Maratona città di Livorno" di km 21,097.
+06/11/2011::Paolo Viscardi ha partecipato alla gara podistica "29���&deg; Media Maraton ciudad de Granada" di km 21,097 a Granada in Spagna.
 06/11/2011::Partecipanti alla gara podistica "V Memorial B.Germano" di km 8,9 a Sicignano degli Alburni (Sa): Daniele Caprio, Donato Ceres, Alessandro Russomanno, Gelsomino Del Guercio. Accompagnatore Luciano Viscido.
 23/10/2011::Mario Di Trolio ha partecipato alla gara podistica "XV StraSalerno half marathon" di km 21,097 a Salerno.
 25/09/2011::Partecipanti alla gara "V podistica di Carillia" a Borgo Carillia di Altavilla Sil. (Sa) di km 8,4: Salvatore Merola, Alessandro Russomanno.
@@ -76,17 +77,17 @@
 07/08/2011::Partecipante alla gara podistica "Maratonina della Misericordia" di 10,250 km di Nusco:  Nicola D'Auria. Accompagnatrice Gelsomina Monteverde.
 16/07/2011::Partecipanti alla XVIII edizione della gara podistica "CorriRoccadaspide, trofeo S. Sinforosa" di km. 7,950 a Roccadaspide (Sa): Saverio Perna, Alessandro Russomanno, Donatello Cirillo, Mario Di Trolio, Nicola D'Auria, Gelsomino Del Guercio. Accompagnatrice Gelsomina Monteverde.
 30/06/2011::Pubblicato sul sito della Stralaceno il logo dell'edizione 2011.
-08/06/2011::L'edizione 2011 della Stralaceno si terr&agrave; venerd&igrave; 26 agosto. 
-10/04/2011::Partecipante alla gara podistica "La maratona dell'unit&agrave; d'Italia" di km 10 ad Eboli (Sa): Salvatore Merola.
+08/06/2011::L'edizione 2011 della Stralaceno si terrà venerdì 26 agosto. 
+10/04/2011::Partecipante alla gara podistica "La maratona dell'unità d'Italia" di km 10 ad Eboli (Sa): Salvatore Merola.
 03/04/2011::Partecipanti alla gara podistica "XII Agropoli half marathon" di km 21,097 ad Agropoli (Sa): Salvatore Merola, Donatello Cirillo. Accompagnatori: Paolo Viscardi, Gelsomina Monteverde, Luciano Viscido, Gerardoluigi Forte.
 20/03/2011::Partecipanti alla gara podistica "XVII Maratona di Roma" di km 42,195 a Roma:  Donato Ceres, Saverio Perna. Accompagnatori: Paolo Viscardi, Alessandro Russomanno, Luciano Viscido.
 06/02/2011::Donato Ceres e Donatello Cirillo hanno partecipato alla XII edizione della MariMonti di km 21,097 a Sorrento (Na). Accompagnatori: Luciano Viscido, Alessandro Russomanno, Paolo Viscardi, Gelsomina Monteverde.
-28/01/2011::Assegnati i numeri di gara a Donato Ceres e Saverio Perna che disputaranno la XVII Maratona di Roma del prossimo 20 marzo: a Donato &egrave; stato assegnato il numero 3231, a Saverio il numero 3232. Entrambi partiranno nel settore C.
+28/01/2011::Assegnati i numeri di gara a Donato Ceres e Saverio Perna che disputaranno la XVII Maratona di Roma del prossimo 20 marzo: a Donato è stato assegnato il numero 3231, a Saverio il numero 3232. Entrambi partiranno nel settore C.
 16/01/2011::Gelsomino Del Guercio ha partecipato alla gara podistica "X Vietri e dintorni" di km 9,5 a Vietri sul Mare.
 22/12/2010::Entra a far parte dell'ARS, come associato praticante, Gerardoluigi Forte di Laviano (Sa).
-20/12/2010::La squadra podistica dell'ARS si &egrave; affiliata -per l'anno 2011- alla UISP Unione Italiana Sport Per tutti.
+20/12/2010::La squadra podistica dell'ARS si è affiliata -per l'anno 2011- alla UISP Unione Italiana Sport Per tutti.
 07/11/2010::Partecipanti alla gara podistica "IV Memorial B.Germano di km 8,9 a Sicignano degli Alburni (Sa): Paolo Viscardi, Alessandro Russomanno, Gelsomino Del Guercio, Donatello Cirillo.
-06/11/2010::Iniziata ieri l'attivit&agrave; di avviamento all'atletica leggera a cura dell'ARS, presso la palestra comunale di Caposele.
+06/11/2010::Iniziata ieri l'attività di avviamento all'atletica leggera a cura dell'ARS, presso la palestra comunale di Caposele.
 24/09/2010::Partecipanti alla gara podistica "XVI StraSalerno half marathon" di km 21,097 a Salerno: Paolo Viscardi, Donatello Cirillo, Mario Di Trolio.
 03/10/2010::Paolo Viscardi ha partecipato al "Meeting dell'Amicizia" di atletica leggera ad Eboli, gareggiando nel salto in lungo e nei 5000 metri. Accompagnatore Alessandro Russomanno.
 14/09/2010::Entra a far parte dell'ARS, come socio ordinario, Giovanni Viscardi.
@@ -95,7 +96,7 @@
 06/08/2010::Partecipanti alla gara "I Marcialonga di San Donato" a Contursi Terme (Sa) di km 10,8: Alessandro Russomanno, Paolo Viscardi, Mario Di Trolio, Giovanni Viscardi (aggregato).
 31/07/2010::Partecipanti alla gara "IV podistica di Carillia" a Borgo Carillia di Altavilla Sil. (Sa) di km 9: Paolo Viscardi, Alessandro Russomanno, Nicola D'Auria, Donatello Cirillo.
 25/07/2010::Partecipanti alla I edizione "Campagna per lo Sport" di km 4,8 a Campagna (Sa): Francesco Ceres, Donato Ceres, Paolo Viscardi, Saverio Perna, Alessandro Russomanno, Donatello Cirillo, Nicola D'Auria. Accompagnatore Luciano Viscido.
-23/07/2010::L'edizione 2010 della Stralaceno si terr&agrave; domenica 29 agosto.
+23/07/2010::L'edizione 2010 della Stralaceno si terrà domenica 29 agosto.
 10/07/2009::Partecipanti alla XVII edizione della gara podistica "CorriRoccadaspide, trofeo S. Sinforosa di km. 7,950 a Roccadaspide (Sa): Donato Ceres, Paolo Viscardi, Alessandro Russomanno, Saverio Perna,  Donatello Cirillo.
 03/07/2010::Partecipanti alla gara podistica "IV Strapollese" di km 9,3 a Polla (Sa): Paolo Viscardi, Saverio Perna, Alessandro Russomanno, Mario Di Trolio.
 19/06/2010::Partecipanti alla gara podistica "XI Notturna Sianese" di km 10 a Siano (Sa): Paolo Viscardi, Alessandro Russomanno, Donatello Cirillo. Accompagnatore Luciano Viscido.
@@ -104,10 +105,10 @@
 08/05/2010::Partecipanti alla gara podistica "VI Sulle Orme di Filippide" di km 10 a Paestum Capaccio (Sa): Donato Ceres, Alessandro Russomanno, Donatello Cirillo, Mario Di Trolio, Paolo Viscardi.
 15/04/2010::Paolo Viscardi e Alessandro Russomano hanno conseguito il brevetto di Istruttore di atletica leggera FIDAL (Federazione Italiana Di Atletica Leggera).
 21/03/2010::Donato Ceres ha partecipato alla gara podistica "XVI Maratona di Roma" di km 42,195 a Roma. Accompagnatore Saverio Perna.
-20/02/2010::Assegnato il pettorale di gara a Donato Ceres per disputare la XVI Maratona di Roma del 21.03.2010: correr&agrave; con il numero 3196, partendo nel settore B.
-11/01/2010::La squadra podistica dell'ARS si &egrave; affiliata -per l'anno 2010- alla UISP Unione Italiana Sport Per tutti.
+20/02/2010::Assegnato il pettorale di gara a Donato Ceres per disputare la XVI Maratona di Roma del 21.03.2010: correrà con il numero 3196, partendo nel settore B.
+11/01/2010::La squadra podistica dell'ARS si è affiliata -per l'anno 2010- alla UISP Unione Italiana Sport Per tutti.
 08/11/2009::Partecipanti alla gara podistica "III Memorial B.Germano di km 8,9 a Sicignano degli Alburni (Sa): Donato Ceres, Paolo Viscardi, Alessandro Russomanno, Giuseppe Spatola, Gelsomino Del Guercio.
-31/10/2009::Si &egrave; svolto l'allenamento podistico collettivo di km 11,5 in localit&agrave; Pasano (Caposele). Dieci i partecipanti.
+31/10/2009::Si è svolto l'allenamento podistico collettivo di km 11,5 in località Pasano (Caposele). Dieci i partecipanti.
 18/09/2009::Partecipanti alla gara podistica "XV StraSalerno half marathon" di km 21,097 a Salerno: Paolo Viscardi, Saverio Perna, Alessandro Russomanno, Donatello Cirillo, Mario Di Trolio, Gelsomino Del Guercio
 12/09/2009::Partecipanti allla gara "Podistica Anspi" di km 7,6 a Melito Irpino (Av): Saverio Perna, Alessandro Russomanno, Giuseppe Spatola, Donatello Cirillo, Gelsomino Del Guercio, Antonio Della Fera.
 02/09/2009::Un altro associato praticante per l'ARS: Antonio Della Fera di Calabritto.
@@ -116,24 +117,24 @@
 24/08/2009::Entra a far parte dell'ARS, come associato praticante, Giuseppe Spatola di Calabritto.
 09/08/2009::Partecipanti alla gara podistica "Maratonina della Misericordia" di 10,250 km di Nusco:  Donatello Cirillo, Nicola D'Auria, Nicola Melillo (aggregato). 
 01/08/2009::Partecipanti alla gara "III podistica di Carillia" a Borgo Carillia di Altavilla Sil. (Sa) di km 9: Gelsomino Merola, Donato Ceres, Salvatore Merola, Saverio Perna, Alessandro Russomanno, Donatello Cirillo, Nicola D'Auria, Luigi Palumbo (aggregato).
-18/07/2009::Partecipanti alla 1&deg; edizione della "Night Marathon" a S.Maria di Castellabate (Sa) di km 10: Gelsomino Merola, Donato Ceres, Saverio Perna, Salvatore Merola, Alessandro Russomanno, Donatello Cirillo, Paolo Viscardi, Mario Di Trolio.
+18/07/2009::Partecipanti alla 1���&deg; edizione della "Night Marathon" a S.Maria di Castellabate (Sa) di km 10: Gelsomino Merola, Donato Ceres, Saverio Perna, Salvatore Merola, Alessandro Russomanno, Donatello Cirillo, Paolo Viscardi, Mario Di Trolio.
 11/07/2009::Partecipanti alla XVI edizione della gara podistica "CorriRoccadaspide, trofeo S. Sinforosa di km. 7,950 a Roccadaspide (Sa): Gelsomino Merola, Saverio Perna, Alessandro Russomanno, Donatello Cirillo, Paolo Viscardi, Mario Di Trolio.
-05/07/2009::Partecipanti alla gara podistica "1&deg; Corri sull'Altopiano del Laceno" di km 10 a Bagnoli Irpino, localit&agrave; Laceno: Saverio Perna, Donato Ceres, Alessandro Russomanno, Donatello Cirillo, Mario Di Trolio, Salvatore Merola, Antonio Di Trolio (aggregato). 
-16/06/2009::La Stralaceno 2009 si svolger&agrave; venerd&igrave; 28 agosto.
+05/07/2009::Partecipanti alla gara podistica "1���&deg; Corri sull'Altopiano del Laceno" di km 10 a Bagnoli Irpino, località Laceno: Saverio Perna, Donato Ceres, Alessandro Russomanno, Donatello Cirillo, Mario Di Trolio, Salvatore Merola, Antonio Di Trolio (aggregato). 
+16/06/2009::La Stralaceno 2009 si svolgerà venerdì 28 agosto.
 23/05/2009::Partecipanti alla gara podistica "IV Scalata al Castello" di km 9,6 a Castel San Giorgio (Sa): Francesco Ceres, Saverio Perna, Alessandro Russomanno, Donato Ceres, Salvatore Merola, Paolo Viscardi, Donatello Cirillo, Mario Di Trolio, Gelsomino Merola, Angelo Ceres.
 20/05/2009::Presentato logo della Stralaceno 2009 sul sito internet www.stralaceno.cjb.net
-16/05/2009::Buona partecipazione per i primi 2 ritrovi settimanali in pista  fissati dall'ARS: gioved&igrave; 7 maggio si sono allenati a Calabritto Saverio Perna, Alessandro Russomanno, Francesco Ceres, Mario Di Trolio insieme ad altri 5 ragazzi del posto; gioved&igrave; 14 maggio sono scesi in pista Donato Ceres, Gelsomino Merola, Saverio Perna, Gelsomino Del Guercio, Mario Di Trolio, Alessandro Russomanno, Salvatore Merola pi&ugrave; altri 3 ragazzi locali.
-12/05/2009::Nicola Melillo non far&agrave; pi&ugrave; parte, per sua volont&agrave;, degli associati praticanti dell'ARS.
+16/05/2009::Buona partecipazione per i primi 2 ritrovi settimanali in pista  fissati dall'ARS: giovedì 7 maggio si sono allenati a Calabritto Saverio Perna, Alessandro Russomanno, Francesco Ceres, Mario Di Trolio insieme ad altri 5 ragazzi del posto; giovedì 14 maggio sono scesi in pista Donato Ceres, Gelsomino Merola, Saverio Perna, Gelsomino Del Guercio, Mario Di Trolio, Alessandro Russomanno, Salvatore Merola più altri 3 ragazzi locali.
+12/05/2009::Nicola Melillo non farà più parte, per sua volontà, degli associati praticanti dell'ARS.
 02/05/2009::Partecipanti alla gara podistica "V Sulle Orme di Filippide" di km 9,7 a Paestum Capaccio (Sa): Saverio Perna, Alessandro Russomanno, Donato Ceres, Salvatore Merola, Donatello Cirillo, Mario Di Trolio. Accompagnatori: Paolo Viscardi, Luciano Viscido.
 19/04/2009::L'associato praticante Giovanni Cicerano ha partecipato alla Mezza Maratona di Napoli 2009
 07/04/2009::Partecipanti alla gara podistica "X Agropoli Half Marathon" di km 21,097 ad Agropoli (Sa): Donatello Cirillo, Mario Di Trolio.
 22/03/2009::Partecipanti alla gara podistica "XV Maratona di Roma" di km 42,195 a Roma: Saverio Perna, Donato Ceres. Accompagnatori: Paolo Viscardi, Alessandro Russomanno.
-09/02/2009::Si sono ufficialmente iscritti alla Maratona di Roma del 22 marzo 2009, Donato Ceres che partir&agrave; con il numero 12506 e Saverio Perna con il numero 12501.
+09/02/2009::Si sono ufficialmente iscritti alla Maratona di Roma del 22 marzo 2009, Donato Ceres che partirà con il numero 12506 e Saverio Perna con il numero 12501.
 18/01/2009::Partecipanti alla gara podistica "VIII Vietri e dintorni" di km 9,5 a Vietri sul Mare (Sa): Alessandro Russomanno, Mario Di Trolio, Gelsomino Del Guercio.
 28/12/2008::Partecipanti alla gara podistica "I Corri Insieme per la Pace, Eboli-Battipaglia-Eboli" di km 10,5 a Eboli (Sa): Francesco Ceres, Saverio Perna, Alessandro Russomanno, Mario Di Trolio, Donatello Cirillo, Nicola D'Auria.
 20/11/2008::Entra a far parte dell'ARS, come associato praticante, Angelo Ceres.
 16/11/2008::L'associato praticante Gianni Cicerano ha partecipato alla mezza maratona "Spaccanapoli 2008".
-26/10/2008::Partecipanti alla gara podistica "12&deg; Trofeo C. Pezzuto" di km 7,9 a Puglietta di Campagna (Sa): Saverio Perna, Alessandro Russomanno, Donatello Cirillo, Nicola Melilllo, Gaetano Rosania.
+26/10/2008::Partecipanti alla gara podistica "12���&deg; Trofeo C. Pezzuto" di km 7,9 a Puglietta di Campagna (Sa): Saverio Perna, Alessandro Russomanno, Donatello Cirillo, Nicola Melilllo, Gaetano Rosania.
 21/10/2008::Mario Di Trolio ha partecipato alla mezza maratona Strasalerno 2008. 
 13/09/2008::Partecipanti allla gara "Podistica Anspi" di km 7,6 a Melito Irpino (Av): Francesco Ceres, Saverio Perna, Alessandro Russomanno, Gaetano Rosania, Donatello Cirillo.
 31/08/2008::Partecipanti alla gara podistica "III Contursi Terme Podistica" di km.7,5 a Contursi (Sa): Gelsomino Merola, Francesco Ceres, Saverio Perna, Paolo Viscardi, Alessandro Russomanno, Donatello Cirillo, Nicola Melillo, Mario Di Trolio, Antonio Di Trolio (aggregato).
@@ -147,77 +148,77 @@
 29/06/2008::Partecipanti alla gara podistica "II Trofeo delle 5 Porte Uisp" di km 4 ad Eboli (Sa): Francesco Ceres, Salvatore Merola, Alessandro Russomanno, Paolo Viscardi, Donatello Cirillo.
 24/06/2008::Nuovi associati praticanti per l'Ars: Giovanni Cicerano, Luigi Marino e Stefano Castellano.
 23/06/2008::Partecipanti alla gara podistica "X Notturna Sianese" di km 10 a Siano (Sa): Gelsomino Merola, Francesco Ceres, Saverio Perna, Gerardo Martino, Alessandro Russomanno, Paolo Viscardi, Gianni Sozio, Donatello Cirillo, Gaetano Rosania, Carlo Panariello (aggregato - non socio).
-11/06/2008::L'edizione 2008 della Stralaceno si terr&agrave; venerd&igrave; 29 agosto.
-31/05/2008::Partecipanti alla gara podistica "XXII Notturna citt&agrave; di Stabia" di km 10 a Castellammare di Stabia (Na): Gelsomino Merola, Saverio Perna, Alessandro Russomanno, Paolo Viscardi, Rocco Feniello, Salvatore Merola, Armando Grasso, Donatello Cirillo, Donato Ceres, Gaetano Rosania, Tommaso Cibellis. 
+11/06/2008::L'edizione 2008 della Stralaceno si terrà venerdì 29 agosto.
+31/05/2008::Partecipanti alla gara podistica "XXII Notturna città di Stabia" di km 10 a Castellammare di Stabia (Na): Gelsomino Merola, Saverio Perna, Alessandro Russomanno, Paolo Viscardi, Rocco Feniello, Salvatore Merola, Armando Grasso, Donatello Cirillo, Donato Ceres, Gaetano Rosania, Tommaso Cibellis. 
 29/05/2008::Entrano a far parte dell'ARS, come associati praticanti, Mario Di Trolio, Gelsomino Del Guercio e Tommaso Cibellis. Il numero dei soci sale a 28.
-26/05/2008::Paolo Viscardi ha preso parte al Campionato Regionale Junior/Promesse- "3&deg; memorial Bellotti" a Salerno (stadio Vestuti) il 24/25 maggio 2008, disputando i 1500 e i 5000 metri.
+26/05/2008::Paolo Viscardi ha preso parte al Campionato Regionale Junior/Promesse- "3���&deg; memorial Bellotti" a Salerno (stadio Vestuti) il 24/25 maggio 2008, disputando i 1500 e i 5000 metri.
 18/05/2008::Alessandro Russomanno ha rappresentato gli Amatori Running Sele alla IX Race for the Cure, corsa podistica di km 5 tenutasi a Roma (Terme di Caracalla) il 18 maggio.
-14/05/2008::Entrano a far parte dell'ARS Gaetano Rosania come socio ordinario e Nicola Melillo come associato praticante. Il numero dei soci sale cos&igrave; a 25.
-05/05/2008::Antonio Viscido &egrave; il 23&deg; socio degli Amatori Running Sele.
+14/05/2008::Entrano a far parte dell'ARS Gaetano Rosania come socio ordinario e Nicola Melillo come associato praticante. Il numero dei soci sale così a 25.
+05/05/2008::Antonio Viscido è il 23���&deg; socio degli Amatori Running Sele.
 01/05/2008::Partecipanti alla gara podistica "II Quattro passi a San Giuseppe" di km 8,5 a Vallesaccarda (Av): Francesco Ceres, Gerardo Martino, Saverio Perna, Paolo Viscardi, Alessandro Russomanno, Merola Salvatore, Donatello Cirillo, Rosania Gaetano (aggregato-non socio), Di Trolio Mario (aggregato-non socio), Melillo Nicola (aggregato-non socio), Viscido Antonio (aggregato-non socio), Del Guercio Gelsomino (aggregato-non socio). Accompagnatori: Pasquale Ceres, Michele Ceres.
-25/04/2008::Al Meeting della Liberazione UISP di Eboli, stadio Dirceu,  Paolo Viscardi ha ottenuto il 4&deg; posto di categoria nei 1500 metri.
-07/04/2008::Donato Ceres &egrave; il 22&deg; socio degli Amatori Running Sele.
+25/04/2008::Al Meeting della Liberazione UISP di Eboli, stadio Dirceu,  Paolo Viscardi ha ottenuto il 4���&deg; posto di categoria nei 1500 metri.
+07/04/2008::Donato Ceres è il 22���&deg; socio degli Amatori Running Sele.
 07/04/2008::Partecipanti alla gara podistica "IX Agropoli Half Marathon" di km 21,097 ad Agropoli (Sa): Paolo Viscardi, Salvatore Merola, Francesco Ceres, Alessandro Russomanno, Gianni Sozio, Donatello Cirillo, Gerardo Martino, Giuseppe Rosania. Accompagnatori: Luciano Viscido e Nicola Cirillo.
 29/03/2008::Tute ufficiali per gli Amatori Running Sele
-22/03/2008::Il 22 marzo si &egrave; tenuta l'Assemblea annuale dell'Associazione, in cui &egrave; stato approvato il rendiconto economico 2007, il regolamento elettorale ed eletto il nuovo direttivo.
+22/03/2008::Il 22 marzo si è tenuta l'Assemblea annuale dell'Associazione, in cui è stato approvato il rendiconto economico 2007, il regolamento elettorale ed eletto il nuovo direttivo.
 16/03/2008::Francesco Ceres, Gianni Sozio ed Alessandro Russomanno hannno preso parte alla XIV Maratona di Roma.
 18/02/2008::Partecipanti alla gara podistica "Campionato provinciale UISP di corsa campestre" di km 4 ad Eboli (Sa): Francesco Ceres, Saverio Perna, Salvatore Merola, Alessandro Russomanno, Paolo Viscardi, Donatello Cirillo, Angelo Ceres (aggregato-non socio).
 11/02/2008::La squadra podistica dell'ARS si affilia -per l'anno 2008- allo CSEN Centro Sportivo Educativo Nazionale.
 04/01/2008::Si associano all'Amatori Running Sele Armando Grasso e Rocco Feniello. Il numero dei soci sale a 21.
-30/12/2007::Si &egrave; svolto l'allenamento podistico collettivo di km 16,750 di fine anno 2007. Sedici i partecipanti.
-11/12/2007::Fissato per il 30 dicembre alle ore 15.00 un allenamento podistico collettivo di km 16.750 (partenza e arrivo piazza Sanit&agrave;, Caposele).
+30/12/2007::Si è svolto l'allenamento podistico collettivo di km 16,750 di fine anno 2007. Sedici i partecipanti.
+11/12/2007::Fissato per il 30 dicembre alle ore 15.00 un allenamento podistico collettivo di km 16.750 (partenza e arrivo piazza Sanità, Caposele).
 05/11/2007::Partecipanti alla gara podistica "VII Pedibus Calcantibus" di km 10,8 a Montella (Av): Francesco Ceres, Salvatore Merola, Paolo Viscardi, Donatello Cirillo, Alessandro Russomanno.
 01/11/2007::Visite mediche per il gruppo podistico Ars
 21/10/2007::Partecipanti alla gara podistica "StraSalerno Half-Marathon" di km 21,097 a Salerno: Gerardo Martino, Paolo Viscardi.
 15/10/2007::Partecipanti alla gara podistica "Trofeo C. Pezzuto" di km 7,9 a Puglietta di Campagna (Sa): Saverio Perna, Alessandro Russomanno, Paolo Viscardi.
 24/09/2007::Partecipanti alla gara podistica "V podistica San Michele" a Sala Consilina (Sa): Francesco Ceres, Saverio Perna, Salvatore Merola, Alessandro Russomanno.
 17/09/2007::Partecipanti alla gara podistica "II maratonina di Montoro Superiore" di km 9 a Montoro Sup. (Av): Saverio Perna, Francesco Ceres, Gerardo Martino, Salvatore Merola, Alessandro Russomanno, Paolo Viscardi, Donatello Cirillo, Gianni Sozio, Gaetano Rosania (aggregato-non socio). Accompagnatore: Nicola Cirillo
-17/09/2007::Saverio Perna &egrave; il 19&deg; socio degli Amatori Running Sele.
+17/09/2007::Saverio Perna è il 19���&deg; socio degli Amatori Running Sele.
 10/09/2007::Partecipanti alla gara podistica "II Trofeo Madonna del Piano" di km 8,6 ad Aquara (Sa): Francesco Ceres, Salvatore Merola, Gerardo Martino, Alessandro Russomanno, Donatello Cirillo, Paolo Viscardi, Saverio Perna (aggregato-non socio), Nicola Melillo (aggregato-non socio), Gaetano Rosania (aggregato-non socio).
-04/09/2007::58 partecipanti (pi&ugrave; altri 2 ragazzi fuori gara per et&agrave; inferiore a 15 anni) per la Stralaceno 2007.
+04/09/2007::58 partecipanti (più altri 2 ragazzi fuori gara per età inferiore a 15 anni) per la Stralaceno 2007.
 28/08/2007::Partecipanti alla gara podistica "II Contursi Terme Podistica" di km.6 a Contursi (Sa): Francesco Ceres, Gerardo Martino, Paolo Viscardi, Salvatore Merola, Alessandro Russomanno, Saverio Perna  (aggregato-non socio).
 24/08/2007::Gelsomino Merola entra a far parte degli Amatori Running Sele.
 17/08/2007::Partecipanti alla gara podistica "Maratonina della Misericordia" di 10,250 km di Nusco: Salvatore Merola, Alessandro Russomanno, Paolo Viscardi, Gerado Martino, Donatello Cirillo, Nicola D'Auria, Gelsomino Merola(aggregato-non socio), Saverio Perna(aggregato-non socio), Giuseppe Merola (aggregato-non socio). 
 10/08/2007::Partecipanti alla I edizione della gara podistica "L'Appizzicata" a Montella (SS Salvatore) di km 6: Salvatore Merola, Paolo Viscardi.
 10/08/2007::Partecipanti alla I edizione della gara podistica di Lioni (Av) di km 9,850: Francesco Ceres, Alessandro Russomanno, Salvatore Merola, Nicola D'Auria, Paolo Viscardi, Donatello Cirillo, Gelsomino Merola (aggregato-non socio).
 30/07/2007::Partecipanti alla IV edizione della gara podistica "Green Ways" di km.9 a Torchiara (Sa): Francesco Ceres, Paolo Viscardi, Salvatore Merola, Alessandro Russomanno, Gerardo Martino, Nicola D'Auria.
-15/07/2007::Il comune di Caposele ha concesso all'ARS l'uso a pagamento dello stadio Palmenta per attivit&agrave; podistica per 60 giorni a partire dal 12 luglio: tutti i giorni della settimana dalle ore 18.30 alle 20.30 . L'importo che l'ARS ha versato al Comune &egrave; di 30 euro. 
+15/07/2007::Il comune di Caposele ha concesso all'ARS l'uso a pagamento dello stadio Palmenta per attività podistica per 60 giorni a partire dal 12 luglio: tutti i giorni della settimana dalle ore 18.30 alle 20.30 . L'importo che l'ARS ha versato al Comune è di 30 euro. 
 15/07/2007::Partecipanti alla XIV edizione della gara podistica "CorriRoccadaspide, trofeo S. Sinforosa di km.8 a Roccadaspide (Sa): Salvatore Merola, Paolo Viscardi, Alessandro Russomanno, Nicola D'Auria, Donatello Cirillo, Gelsomino Merola (aggragato-non socio), Saverio Perna (aggregato-non socio).
 02/07/2007::Partecipanti alla X edizione della gara podistica "marcialonga in salita Mercogliano - Montevergine" di km.16,5 a Mercogliano (Av): Francesco Ceres, Salvatore Merola, Paolo Viscardi, Alessandro Russomanno.
 18/06/2007::Partecipanti alla III edizione della gara podistica "notturna sianese" di km.10 a Siano (Sa): Francesco Ceres, Salvatore Merola, Alessandro Russomanno, Paolo Viscardi, Donatello Cirillo. Accompagnatore: Luciano Viscido.
-04/06/2007::L'edizione 2007 della Stralaceno si disputer&agrave; il 31 agosto.
+04/06/2007::L'edizione 2007 della Stralaceno si disputerà il 31 agosto.
 01/06/2007::Il nostro socio Paolo Viscardi entra a far parte del Cus Salerno. In bocca al lupo!
 08/05/2007::Partecipanti alla III edizione della gara podistica "Sulle orme di Filippide" di km.10 a Paestum: Alessandro Russomanno, Salvatore Merola, Francesco Ceres, Paolo Viscardi. Accompagnatore: Gelsomino Merola.
-17/04/2007::Il 7 aprile si &egrave; tenuta l'Assemblea annuale dell'Associazione, in cui &egrave; stato approvato il rendiconto economico 2006.
+17/04/2007::Il 7 aprile si è tenuta l'Assemblea annuale dell'Associazione, in cui è stato approvato il rendiconto economico 2006.
 18/03/2007::Paolo Viscardi e Alessandro Russomanno hanno partecipato alla Maratona di Roma, portandola regolarmente a termine 
-16/03/2007::Nicola D'Auria ha partecipato alle varie prove podistiche del 21&deg; Campionato Brianzolo nel periodo gennaio-marzo.
+16/03/2007::Nicola D'Auria ha partecipato alle varie prove podistiche del 21���&deg; Campionato Brianzolo nel periodo gennaio-marzo.
 13/03/2007::Apre sul sito Ars la sezione Ambiente e Natura.
-19/02/2007::Giuseppe Martino &egrave; il 17&deg; socio degli Amatori Running Sele.
+19/02/2007::Giuseppe Martino è il 17���&deg; socio degli Amatori Running Sele.
 01/02/2007::Una sezione del sito Ars Web ospita l'associazione F.C. Caposele.
 10/01/2007::Il nostro socio Salvatore Merola entra a far parte dell'Atletica Camaldolese, associazione podistica iscritta alla FIDAL. In bocca al lupo!
 30/12/2006::Partecipanti all'allenamento podistico collettivo di km 16,750: Nicola D'Auria, Johnny Carrione, Donatello Cirillo, Paolo Viscardi, Gerardo Martino, Giuseppe Martino, Salvatore Merola, Alessandro Russomanno, Nicola Melillo, Gaetano Rosania (per alcuni tratti), Gelsomino Merola (dal km 0,9), Valentino Di Masi (dal km 4,3 per alcuni tratti), Pasquale Ceres (dal km 6,7), Angelo Ceres (dal km 7,5), Gerardo Aiello (dal km 7,5).
 28/12/2006::Divisa podistica ufficiale per gli Amatori Running Sele
-05/12/2006::Fissato per il 30 dicembre alle ore 15.00 un allenamento podistico collettivo di km 16.750 (partenza e arrivo piazza Sanit&agrave;).
-14/11/2006::Durante il periodo natalizio partir&agrave; il sondaggio Ars sulla Champions League 2006/07.
+05/12/2006::Fissato per il 30 dicembre alle ore 15.00 un allenamento podistico collettivo di km 16.750 (partenza e arrivo piazza Sanità).
+14/11/2006::Durante il periodo natalizio partirà il sondaggio Ars sulla Champions League 2006/07.
 07/11/2006::Attivate due nuove sezioni del sito Ars: Caposele sul web e Ciclismo.
-07/10/2006::Tre nuovi soci per l'ARS: il numero degli associati sale cos&igrave; a 16.
+07/10/2006::Tre nuovi soci per l'ARS: il numero degli associati sale così a 16.
 02/10/2006::Partecipanti alla gara podistica Colline Verdi di km. 8,5 a Montecorvino Pugliano (SA): Paolo Viscardi, Salvatore Merola, Alessandro Russomanno.
 25/09/2006::Partecipanti alla IV podistica San Michele di km 7,3 a Sala Consilina (SA): Salvatore Merola, Alessandro Russomanno, Paolo Viscardi, Donatello Cirillo.
 11/09/2006::Partecipanti al I trofeo regionale C. Pezzuto di km 7,6 a Puglietta di Campagna (SA): Paolo Viscardi, Salvatore Merola, Alessandro Russomanno.
-01/09/2006::Grande soddisfazione per l'organizzazione della XVIII edizione della Stralaceno: nonostante le avverse condizioni atmosferiche, si &egrave; registrato il record di partecipanti: 68 (pi&ugrave; altri 4 ragazzi fuori gara per et&agrave; inferiore a 15 anni).
+01/09/2006::Grande soddisfazione per l'organizzazione della XVIII edizione della Stralaceno: nonostante le avverse condizioni atmosferiche, si è registrato il record di partecipanti: 68 (più altri 4 ragazzi fuori gara per età inferiore a 15 anni).
 13/08/2006::Partecipanti alla XXXI Marcialoggia di Fontanarosa di km 10: Salvatore Merola, Alessandro Russomanno, Nicola D'Auria
 08/08/2006::Partecipanti alla gara podistica 10,250 km di Nusco: Paolo Viscardi, Alessandro Russomanno, Salvatore Merola, Nicola D'Auria, Donatello Cirillo, Francesco Ceres (aggregato-non socio), Salvatore Colatrella (aggregato-non socio), Nicola Melillo (aggregato-non socio). Accompagnatore: Luciano Viscido.
-07/08/2006::L'edizione 2006 della Stralaceno si disputer&agrave; il 30 agosto.
+07/08/2006::L'edizione 2006 della Stralaceno si disputerà il 30 agosto.
 05/08/2006::Sono disponibili le magliette Stralaceno 2006.
-03/08/2006::In Agosto l'Ars parteciper&agrave;, con una propria rappresentativa podistica, il giorno 6 alla 10 km di Nusco, il giorno 12 alla XXXI edizione della Marcialoggia a Fontanarosa di km 10, il giorno 19 alla maratona alburnina di km 13 a Sicignano degli Alburni (SA).
+03/08/2006::In Agosto l'Ars parteciperà, con una propria rappresentativa podistica, il giorno 6 alla 10 km di Nusco, il giorno 12 alla XXXI edizione della Marcialoggia a Fontanarosa di km 10, il giorno 19 alla maratona alburnina di km 13 a Sicignano degli Alburni (SA).
 24/07/2006::Partecipanti alla gara podistica 10 km di Acerno: Salvatore Merola, Alessandro Russomanno, Paolo Viscardi, Salvatore Colatrella (aggregato-non socio). Accompagnatore: Gelsomino Merola.
-19/07/2006::Il Comune di Caposele ha concesso all'ARS l'uso a pagamento dello stadio Palmenta per l'attivit&agrave; podistica fino al termine del mese di Agosto: 3 giorni a settimana (luned&igrave;, gioved&igrave; e sabato) dalle ore 19.00 alle 20.00 . L'importo che l'ARS ha versato al Comune &egrave; di 60 euro. 
+19/07/2006::Il Comune di Caposele ha concesso all'ARS l'uso a pagamento dello stadio Palmenta per l'attività podistica fino al termine del mese di Agosto: 3 giorni a settimana (lunedì, giovedì e sabato) dalle ore 19.00 alle 20.00 . L'importo che l'ARS ha versato al Comune è di 60 euro. 
 18/07/2006::Hanno partecipato alla gara podistica XIII CorriRoccadaspide: Salvatore Merola, Alessandro Russomanno, Paolo Viscardi, Gerardo Martino, Nicola D'Auria, Salvatore Colatrella (aggregato-non socio). Accompagnatori: Donatello Cirillo, Gelsomino Merola.
-14/07/2006::Presentata, al comune di Caposele, richiesta rinnovo autorizzazione uso stadio Palmenta per attivit&agrave; podistica.
-11/07/2006::Si &egrave; concluso il Sondaggio sui Mondiali di Calcio 2006: vincitore Rocco Del Malandrino, al quale l'ARS offrir&agrave; un buono consumazione di 25 euro presso bar/pub/pizzeria.
-29/06/2006::In Luglio l'Ars parteciper&agrave;, con una propria rappresentativa podistica, il giorno 15 alla XIII edizione della Corri Roccadaspide (SA) e il giorno 22 alla III edizione della 10 km di Acerno (SA).
+14/07/2006::Presentata, al comune di Caposele, richiesta rinnovo autorizzazione uso stadio Palmenta per attività podistica.
+11/07/2006::Si è concluso il Sondaggio sui Mondiali di Calcio 2006: vincitore Rocco Del Malandrino, al quale l'ARS offrirà un buono consumazione di 25 euro presso bar/pub/pizzeria.
+29/06/2006::In Luglio l'Ars parteciperà, con una propria rappresentativa podistica, il giorno 15 alla XIII edizione della Corri Roccadaspide (SA) e il giorno 22 alla III edizione della 10 km di Acerno (SA).
 08/06/2006::Alle 18.00 si sono chiuse le giocate per il sondaggio Mondiali di Calcio 2006. Sono state regolarmente registrate 117 giocate.
-15/04/2006::Il 15 aprile si &egrave; tenuta l'Assemblea annuale dell'Associazione, in cui &egrave; stato approvato il rendiconto economico 2005.
+15/04/2006::Il 15 aprile si è tenuta l'Assemblea annuale dell'Associazione, in cui è stato approvato il rendiconto economico 2005.
 
 #
 # formato testo_footer:  testo

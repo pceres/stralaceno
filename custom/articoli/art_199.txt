@@ -1,0 +1,37 @@
+Autore::Ars
+Titolo::Sondaggio Europei 2021
+--- Begin body ---
+<div align="center" style="margin-top:20px">
+<img id="logoeuro2020" src="https://upload.wikimedia.org/wikipedia/en/thumb/9/96/UEFA_Euro_2020_Logo.svg/1200px-UEFA_Euro_2020_Logo.svg.png" alt="Logo Europei 2020" border="0" width=200></img>
+</div>
+<!--
+<br>
+Il sondaggio si &egrave; concluso con la seguente <a href="questions.php?id_questions=11&action=results">classifica finale</a>.<br>
+Il primo classificato con 567 punti &egrave; Mattia Azzinnari; secondo classificato con 563 punti Nicola Melillo '79. Entrambi hanno correttamente pronosticato in finale Francia e Portogallo. Terzo classificato con 528 punti Gerardo Luigi Forte, unico a pronosticare la vittoria del Portogallo.<br>
+<a href="statistiche.php?id_questions=9&action=show">Qui</a> invece trovate una analisi statistica sui pronostici effettuati.<br>
+-->
+<p style="margin-top:20px">Le giocate per il Sondaggio Euro 2020 sono chiuse, e la classifica &egrave; aggiornata sulla base dei risultati.<br>
+<br>
+<!--a href="questions.php?id_questions=11">Qui</a> è disponibile il tabellone con le giocate.<br-->
+<a href="questions.php?id_questions=11">Qui</a> è disponibile il tabellone con la classifica attuale.<br>
+<a href="statistiche.php?id_questions=11&action=show">Qui</a> invece trovate una analisi statistica sui pronostici effettuati.<br>
+<!--
+<p style="margin-top:20px">Le giocate per il Sondaggio Euro 2020 sono aperte.<br>
+<a href="questions.php?id_questions=11">Qui</a> è disponibile la pagina per inserire la giocata<br>
+-->
+<br>
+Il punteggio assegnato per la qualificazione delle 12 squadre prime e seconde classificate nei gironi &egrave; il seguente:</p>
+<ul>
+  <li>20 punti in caso di qualificazione per effetto di un maggior numero di  punti in classifica (e 0 alle squadre che non accedono);</li>
+  <li>14 punti in caso di qualificazione per effetto della vittoria nello scontro diretto, per effetto della migliore differenza reti o classifica avulsa (e 6 alla squadra non qualificata, eventualmente ripartiti tra pi&ugrave; squadre);</li>
+  <li>10 punti in caso di qualificazione per effetto di un maggior numero di reti segnate o di altri criteri (e 10 alla squadra non qualificata, eventualmente ripartiti tra pi&ugrave; squadre);</li>
+</ul>
+Alle 4 squadre qualificate tra le migliori terze classificate nei gironi non viene assegnato alcun punteggio per effetto del passaggio di turno, fatto salvo quanto eventualmente spettante nei casi di parit&agrave di punteggio con altre squadre, in base ai punti precedenti del presente regolamento.<br>
+<br>
+Nella  fase  a scontri diretti sono assegnati 20 punti (raddoppiati progressivamente a partire dai quarti: 20 agli ottavi, 40 ai quarti, 80 in semifinale, e cos&igrave; via) distribuiti come segue:
+<ul>
+  <li>20 punti in caso di vittoria nei tempi regolamentari (e 0 alla squadra sconfitta);</li>
+  <li>16 punti in caso di vittoria ai supplementari (e 4 alla squadra sconfitta);</li>
+  <li>11 punti in caso di vittoria ai rigori (e 9 alla squadra non qualificata);</li>
+</ul>
+--- End body ---
