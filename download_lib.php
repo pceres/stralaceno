@@ -44,7 +44,7 @@ if ($level == 0)
 	show_download_header();
 	
 	// il gruppo dell'utente autenticato puo' accedere al folder?
-	if (!group_match($login['username'],$login['usergroups'],split(',',$folder_auth_read)))
+	if (!group_match($login['username'],$login['usergroups'],explode(',',$folder_auth_read)))
 	{
 		$download_error_msg = "L'utente &quot;{$login['username']}&quot; not &egrave; abilitato ad accedere alla sezione &quot;$folder_caption&quot;.";
 	}
@@ -605,7 +605,7 @@ $resource_hits 	 	= $download_resource_info['resource_hits'];
 
 // il gruppo dell'utente autenticato puo' scaricare il contenuto?
 $download_error_msg = '';
-if (!group_match($login['username'],$login['usergroups'],split(',',$resource_auth_read)))
+if (!group_match($login['username'],$login['usergroups'],explode(',',$resource_auth_read)))
 {
 	$download_error_msg = "L'utente &quot;{$login['username']}&quot; non &egrave; abilitato a scaricare la risorsa $resource_name.";
 }
@@ -710,7 +710,7 @@ $resource_hits 		= $download_resource_info['resource_hits'];
 
 // il gruppo dell'utente autenticato puo' scaricare il contenuto?
 $download_error_msg = '';
-if (!group_match($login['username'],$login['usergroups'],split(',',$resource_auth_read)))
+if (!group_match($login['username'],$login['usergroups'],explode(',',$resource_auth_read)))
 {
 	$download_error_msg = "L'utente &quot;{$login['username']}&quot; not &egrave; abilitato a scaricare la risorsa $resource_name.";
 }

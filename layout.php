@@ -241,7 +241,7 @@ if (!group_match($username,$usergroups,$item_enabled_groups))
 {
 	return false;
 }
-	
+
 // determina l'eventuale link
 if ($item_type != 'modulo')
 {
@@ -334,7 +334,7 @@ if ($item_type != 'modulo')
 	{
 		$tooltip = '';
 	}
-	
+
 	// inizio codice html:
 	echo "\t\t\t<!-- inizio sottoblocco $item_name -->\n";
 	
@@ -345,7 +345,7 @@ if ($item_type != 'modulo')
 			<tr style="vertical-align: baseline">
 				<td>&#8250;&nbsp;</td>
 				<td align="left" width="100%" <?php echo $wrap_mode; ?> <?php echo $stile_cella; ?>>
-					<a href="<?php echo $item_link ?>" name="<?php echo ereg_replace("[^a-zA-Z0-9]","_",$item_name)."_".rand(); ?>"
+					<a href="<?php echo $item_link ?>" name="<?php echo preg_replace("~[^a-zA-Z0-9]~","_",$item_name)."_".rand(); ?>"
 						class="txt_link" <?php echo $tooltip; ?>><?php echo $item_caption ?>
 					</a>
 				</td>
@@ -360,7 +360,7 @@ if ($item_type != 'modulo')
 			<tr style="vertical-align: baseline">
 				<td>&#8250;&nbsp;</td>
 				<td<?php echo $wrap_mode; ?>>
-					<a class="disabled" onClick="alert('<?php echo $item_disabled; ?>')" name="<?php echo ereg_replace("[^a-zA-Z0-9]","_",$item_name)."_".rand(); ?>"><?php echo $item_caption ?></a>
+					<a class="disabled" onClick="alert('<?php echo $item_disabled; ?>')" name="<?php echo preg_replace("~[^a-zA-Z0-9]~","_",$item_name)."_".rand(); ?>"><?php echo $item_caption ?></a>
 				</td>
 			</tr>
 			

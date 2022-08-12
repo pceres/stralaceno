@@ -127,9 +127,8 @@ case 'cancel':
 	
 case 'edit':
 	echo("Modifica dell'articolo con ID ".$data.":<br>\n");
-	
+
 	$art_data = load_article($data,$sezione); // carica l'articolo
-	
 	if (!empty($art_data)) // se l'articolo esiste...
 	{
 		echo "<table class=\"frame_delimiter\"><tbody>";
@@ -201,7 +200,7 @@ case 'edited':
 	$riassunto = '';
 	foreach ($bulk as $id => $linea)
 	{
-		$linea = ereg_replace(Array("\n","\r"),Array("",""),rtrim($linea));
+		$linea = preg_replace(Array("~\n~","\r"),Array("",""),rtrim($linea));
 		$riassunto .= $linea;
 	}
 	

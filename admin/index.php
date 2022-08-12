@@ -38,12 +38,14 @@ if ( !isset($_SERVER['HTTP_REFERER']) |
 
 <?php
 
+
 // verifica che l'utente sia autorizzato per l'operazione richiesta
 $res = check_auth('admin_index','',$login['username'],$login['usergroups']);
 if (!$res)
 {
 	die("Mi dispiace, non sei autorizzato!");
 }
+
 
 ?>
 

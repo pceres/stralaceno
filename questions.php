@@ -39,10 +39,10 @@ if (!file_exists($file_questions))
 		{
 			while (($available_question_id = readdir($dh)) !== false) 
 			{
-				if ( (filetype($questions_dir . $available_question_id) == "file") and (ereg('lotteria_([0-9]+)\.txt',$available_question_id)) )
+				if ( (filetype($questions_dir . $available_question_id) == "file") and (preg_match('lotteria_([0-9]+)\.txt',$available_question_id)) )
 				{
 					// lotteria trovato:
-					$available_question_id = ereg_replace('lotteria_([0-9]+)\.txt',"\\1",$available_question_id);
+					$available_question_id = preg_replace('~lotteria_([0-9]+)\.txt~',"\\1",$available_question_id);
 					array_push($file_questions_list,$available_question_id+0);
 				}
 			}

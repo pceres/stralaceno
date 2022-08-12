@@ -322,10 +322,9 @@ DEFINE("index_abilitazione_caption",3);
 DEFINE("index_abilitazione_allowed",4);
 
 
-function check_single_auth(&$mansioni_filtrate,$found_task,$abilitazione,$tag,$params,$username,$usergroups,$level = 1,$debug)
+function check_single_auth($mansioni_filtrate,$found_task,$abilitazione,$tag,$params,$username,$usergroups,$level = 1,$debug)
 {
 	// verifica se la mansione $abilitazione verifica l'abilitazione di livello $level, rispetando le regole $mansioni_filtrate
-	
 	$abilitazione_tipo    = $abilitazione[index_abilitazione_tipo];
 	$abilitazione_tag     = $abilitazione[index_abilitazione_tag];
 	$abilitazione_params  = $abilitazione[index_abilitazione_params];
@@ -345,18 +344,18 @@ function check_single_auth(&$mansioni_filtrate,$found_task,$abilitazione,$tag,$p
 	$found_task_tag     = $found_task[index_task_tag];
 	$found_task_params  = $found_task[index_task_params];
 	$found_task_caption = $found_task[index_task_caption];
-	
+
 	switch ($abilitazione_tipo)
 	{
 	case "task":
 		if ($abilitazione_tag == $tag)
 		{
 			// trasforma la stringa dei parametri in array
-			$params_assignment = split(';',$abilitazione_params);
+			$params_assignment = explode(';',$abilitazione_params);
 			$params_rep = Array();
 			foreach ($params_assignment as $param_assignment)
 			{
-				$temp = split('=',$param_assignment);
+				$temp = explode('=',$param_assignment);
 				$params_rep[$temp[0]] = $temp[1];
 			}
 			
@@ -364,11 +363,11 @@ function check_single_auth(&$mansioni_filtrate,$found_task,$abilitazione,$tag,$p
 			$ks_par = $found_task_params;
 			foreach($params_rep as $key => $value)
 			{
-				$ks_par = ereg_replace($key,$value,$ks_par);
+				$ks_par = preg_replace("~$key~",$value,$ks_par);
 			}
 			
 			// verifica se i parametri coincidono (regexp)
-			if (($ks_par == $params) | (ereg($ks_par,$params)))
+			if (($ks_par == $params) | (preg_match("~$ks_par~",$params)))
 			{
 				if ($debug)
 				{
@@ -401,7 +400,6 @@ function check_single_auth(&$mansioni_filtrate,$found_task,$abilitazione,$tag,$p
 		$submansioni = $mansioni_filtrate[$abilitazione_tag];
 		if (empty($submansioni))
 		{
-echo "$abilitazione_tag<br>";
 			die("Non dovevo arrivare qui (codice 2)!");
 		}
 if ($debug) {		print_r($submansioni);echo "<br><br>\n";}
@@ -415,24 +413,24 @@ if ($debug) {		print_r($submansioni);echo "<br><br>\n";}
 			$subabilitazione_allowed = $submansione[index_abilitazione_allowed];
 			
 			// trasforma la stringa dei parametri in array
-			$params_assignment = split(';',$abilitazione_params);
+			$params_assignment = explode(';',$abilitazione_params);
 			
 			$params_rep = Array();
 			foreach ($params_assignment as $param_assignment)
 			{
-				$temp = split('=',$param_assignment);
+				$temp = explode('=',$param_assignment);
 				$params_rep[$temp[0]] = $temp[1];
 			}
 			
 			// applica le trasformazioni ai parametri
-			$lista_params = split(';',$subabilitazione_params);
+			$lista_params = explode(';',$subabilitazione_params);
 			foreach($lista_params as $id_par => $ks_par)
 			{
 				foreach($params_rep as $key => $value)
 				{
 					// sostituisci a destra dell'uguale la stringa $key con $value
 					$left_right = explode('=',$ks_par);
-					$ks_par = $left_right[0].'='.ereg_replace($key,$value,$left_right[1]);
+					$ks_par = $left_right[0].'='.preg_replace("~$key~",$value,$left_right[1]);
 				}
 				$lista_params[$id_par] = $ks_par;
 			}
@@ -459,7 +457,7 @@ if ($debug) 				echo("i parametri non corrispondono!<br>\n");
 } // end function check_single_auth(&$mansioni_filtrate,$found_task,$abilitazione,$tag,$params,$level = 1)
 
 
-function check_auth($tag,$params,$username,$usergroups,$debug)
+function check_auth($tag,$params,$username,$usergroups,$debug = false)
 {
 	// verifica se l'utente $username, appartenente al gruppo $usergroups (array), e' abilitato alla pagina con tag $tag e parametri $params
 
@@ -576,14 +574,13 @@ if ($debug) {
 		$abilitazione_params	= $abilitazione[index_abilitazione_params];
 		$abilitazione_caption	= $abilitazione[index_abilitazione_caption];
 		$abilitazione_allowed	= $abilitazione[index_abilitazione_allowed];
-		
 if ($debug)	echo "$id_abilitazione) $abilitazione_tipo,$abilitazione_tag,$abilitazione_params,$abilitazione_caption,$abilitazione_allowed<br>\n";
 		
 		$level = 1;
 		if (check_single_auth($abilitazioni_filtrate,$found_task,$abilitazione,$tag,$params,$username,$usergroups,$level,$debug))
 		{
 			// verifica autorizzazioni in lettura
-			if (group_match($username,$usergroups,split(',',$abilitazione_allowed)))
+			if (group_match($username,$usergroups,explode(',',$abilitazione_allowed)))
 			{
 				$enabled = 1;
 if ($debug) 			echo("L'utente $username e' abilitato ($abilitazione_allowed)<br>");
@@ -595,7 +592,6 @@ if ($debug) 			echo("L'utente $username e' abilitato ($abilitazione_allowed)<br>
 					$delta=($time1-$time0)*1e3; // in millisecondi
 					echo("ok) tempo di calcolo: $delta ms ($time0,$time1)<br>");
 				}
-				
 				return $enabled;
 			}
 			else

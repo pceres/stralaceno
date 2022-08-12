@@ -75,7 +75,7 @@ echo "<hr>";
 
 
 // il gruppo dell'utente autenticato puo' modificare il contenuto?
-if (!group_match($login['username'],$login['usergroups'],split(',',$resource_auth_write)))
+if (!group_match($login['username'],$login['usergroups'],explode(',',$resource_auth_write)))
 {
 	die("L'utente &quot;{$login['username']}&quot; non &egrave; abilitato a modificare la risorsa $resource_name.");
 }

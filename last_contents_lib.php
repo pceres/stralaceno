@@ -98,7 +98,7 @@ foreach ($log_contents as $id => $item_data)
 		$visualizza_feed = "content not allowed";
 	}
 	// il gruppo dell'utente autenticato puo' vedere il contenuto?
-	if (!group_match($login['username'],$login['usergroups'],split(',',$content_read_allowed)))
+	if (!group_match($login['username'],$login['usergroups'],explode(',',$content_read_allowed)))
 	{
 		$visualizza_feed = "usergroup not allowed ($content_read_allowed)";
 	}

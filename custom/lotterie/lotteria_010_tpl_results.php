@@ -84,7 +84,7 @@ $archivio_punti = Array();	// archivio dei punteggi ordinati (uno per ogni 'x' o
 foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 {
 	$giocata_new = $giocata;
-	$vettore_giocata = split(',',$giocata[1]);	// crea un array con le singole giocate
+	$vettore_giocata = explode(',',$giocata[1]);	// crea un array con le singole giocate
 	$vettore_giocata_new = $vettore_giocata;	// andra' riordinato per avvicinare le x
 
 	$punteggio = 0;
@@ -265,7 +265,7 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 {
 	// i campi qui devono essere gli stessi e nello stesso ordine di quelli indicati sopra per $header_new
 	$id_della_giocata = $giocata[0];
-	$vettore_giocata = split(',',$giocata[1]);
+	$vettore_giocata = explode(',',$giocata[1]);
 	$data_giocata = $giocata[3];
 	$auth_token_ks = $giocata[4];
 
@@ -357,7 +357,7 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 			$stile_caption 	= $stile_data[0];
 			$stile_style 	= $stile_data[1];
 			
-			if (empty($stile_tag) || ereg($stile_tag, $stile_testo))
+			if (empty($stile_tag) || preg_match("~$stile_tag~", $stile_testo))
 			{
 				$stile_riga = $stile_style;
 				$stile_riga = $stile_tag;

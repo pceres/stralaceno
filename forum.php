@@ -1236,7 +1236,7 @@ save_config_file($file_templog,$templog);
 $lista_mail_spammer = Array("@i\.ua","@uniid\.info","@fmaks\.info","@idlyn\.info");
 foreach($lista_mail_spammer as $mail_spammer)
 {
-	if (ereg($mail_spammer,$post_email))
+	if (preg_match("~$mail_spammer~",$post_email))
 	{
 		$stesso_messaggio = true;
 		// hgjhddfh@i.ua
