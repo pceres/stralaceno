@@ -96,38 +96,45 @@ if ($ok == TRUE) // la password e' ok, procedi
 			{
 				print "   la foto $filename gi&agrave; esiste nell'album $nome_album! Cancellarla prima, se si vuole caricarla di nuovo.<br>\n";
 			}
-			elseif (move_uploaded_file($tempfile, $album_dir.$nome_album."/".$filename)) 
-			{ 
-				log_action($album_dir,$_SERVER['REMOTE_ADDR'].",".$album_dir.$nome_album."/".$filename.", " . date("l dS of F Y h:i:s A"));
-				
-				print "   la foto $filename &egrave; stata caricata con successo nell'album $nome_album.<br>\n"; 
-			}
 			else
-			{
-				log_action($album_dir,$_SERVER['REMOTE_ADDR'].",".$album_dir.$nome_album."/".$filename.", " . date("l dS of F Y h:i:s A"));
-				
-				print "Errore nell'upload della foto:\n"; 
-				
-				switch ($errno) 
-				{
-					case UPLOAD_ERR_INI_SIZE :
-					case UPLOAD_ERR_FORM_SIZE :
-						echo("File troppo grande! La dimensione massima e' di $MAX_FILE_SIZE kBytes\n");
-						break;
-					case UPLOAD_ERR_PARTIAL :
-						echo("Upload eseguito parzialmente!\n"); 
-						break;
-					case UPLOAD_ERR_NO_FILE :
-						echo("Nessun file &egrave; stato inviato!\n"); 
-						break;
-					default:
-						echo("Unknown error type: [$errno]<br>\n");
-				}
-				
-				print "\nAlcune informazioni:\n\n";
-				print_r($_FILE);
-				//die();
-			}
+            {
+                $upload_code = move_uploaded_file($tempfile, $album_dir.$nome_album."/".$filename);
+                if ($upload_code)
+                {
+                    log_action($album_dir,$_SERVER['REMOTE_ADDR'].",".$album_dir.$nome_album."/".$filename.", " . date("l dS of F Y h:i:s A"));
+
+                    print "   la foto $filename &egrave; stata caricata con successo nell'album $nome_album.<br>\n";
+                }
+                else
+                {
+                    log_action($album_dir,$_SERVER['REMOTE_ADDR'].",".$album_dir.$nome_album."/".$filename.", " . date("l dS of F Y h:i:s A"));
+
+                    print "Errore nell'upload della foto:\n";
+
+                    switch ($errno)
+                    {
+                        case UPLOAD_ERR_OK:
+                            echo("File copied to temporary file $tempfile, but error in moving it to the destination folder $album_dir$nome_album. Please check permissions (i.e. \"apache\" user has to have write access)!\n");
+                            break;
+                        case UPLOAD_ERR_INI_SIZE :
+                        case UPLOAD_ERR_FORM_SIZE :
+                            echo("File troppo grande! La dimensione massima e' di $MAX_FILE_SIZE kBytes\n");
+                            break;
+                        case UPLOAD_ERR_PARTIAL :
+                            echo("Upload eseguito parzialmente!\n");
+                            break;
+                        case UPLOAD_ERR_NO_FILE :
+                            echo("Nessun file &egrave; stato inviato!\n");
+                            break;
+                        default:
+                            echo("Unknown error type: [$errno]<br>\n");
+                    }
+
+                    print "\nAlcune informazioni:\n\n";
+                    print_r($_FILE);
+                    //die();
+                }
+            }
 			
 			print "\n<hr>\n";
 		}
