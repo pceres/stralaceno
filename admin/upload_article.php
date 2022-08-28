@@ -83,10 +83,14 @@ if ($ok == TRUE)
 	{
 		print "Possibile attacco tramite file upload! Alcune informazioni:\n"; 
 		print_r($_FILES);
+        echo("<br>");
 		
 		$errno = $_FILES['userfile']['error'];
 		switch ($errno) 
 		{
+            case UPLOAD_ERR_OK:
+                echo("File copied to temporary file $tempfile, but error in moving it to the destination folder $path_articles$new_name. Please check permissions (i.e. \"apache\" user has to have write access)!\n");
+                        break;
 	  		case UPLOAD_ERR_INI_SIZE :
 		  	case UPLOAD_ERR_FORM_SIZE :
 				die("File troppo grande!\n"); 

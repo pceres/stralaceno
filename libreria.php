@@ -317,7 +317,11 @@ extract(indici());
 
 for ($i = 0; $i < count($archivio); $i++) {
 	$info = $atleti[$archivio[$i][$indice_id]];
-	
+    if ( ($i > 0) && ($archivio[$i][$indice_id] !== $info[0]) ) {
+        echo("*** WARNING!!! id in info struct (".$info[0].") is not matching the main id (".$archivio[$i][$indice_id]." for {$archivio[$i][$indice_nome]})<br>");
+        echo($i."<br>");
+    }
+
 	
 	#  gestisci l'header
 	if (count($info)==0) 
