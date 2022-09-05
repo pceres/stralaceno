@@ -752,6 +752,6 @@ Partenza2021.jpg::::Partenza della Stralaceno 2021::
 #StefaniaDAuria2021.jpg::::::Stefania D'Auria
 #StelvioCelano2021.jpg::::::Stelvio Celano
 #IreneGaldi2021.jpg::::::Irene Galdi
-#IMG_20210831_221341.jp ::::Taglio di carreggiata: prontamente segnalato e richiamato dall'ispettore di gara. Il direttore di gara decide di non comminare alcuna penalità, anche perché in seguito a procedura velocizzata non si era fatta lettura del regolamento di gara::Marco Galdi
+#IMG_20210831_221341.jpg::::Taglio di carreggiata: prontamente segnalato e richiamato dall'ispettore di gara. Il direttore di gara decide di non comminare alcuna penalità, anche perché in seguito a procedura velocizzata non si era fatta lettura del regolamento di gara::Marco Galdi
 [2022]
-Logo2022::::::
+Logo2022.jpg::Logo Stralaceno 2022::::
