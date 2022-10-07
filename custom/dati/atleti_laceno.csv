@@ -1,6 +1,6 @@
 ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 1;Donato Merola;M;-;?;?;-;2005/dscn5398.jpg;I3880
-2;Nicola D'Auria;M;-;?;?;-;2007/XIX13.jpg;I19
+2;Nicola D'Auria;M;-;1958;?;-;2007/XIX13.jpg;I19
 3;Balduino Farina;M;-;?;?;-;-;I312
 4;Massimo Russomanno;M;-;?;?;-;2007/XIX17.jpg;I189
 5;Felicino Caruso;M;-;?;?;-;2017/FelicinoCaruso.jpg;I10276
@@ -47,7 +47,7 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 46;Pasquale Ciccone;M;-;?;?;-;-;I986
 47;Mario Nesta;M;-;?;?;-;-;I8599
 48;Gerardo Ceres di Lor.;M;-;?;?;-;-;I431
-49;Luciano Viscido;M;-;?;?;-;2017/LucianoViscido.jpg;I1515
+49;Luciano Viscido;M;-;1971;?;-;2017/LucianoViscido.jpg;I1515
 50;Gianni Cetrulo;M;-;1967;?;-;2017/GianniCetrulo.jpg;I7076
 51;Donato Ceres;M;-;?;?;-;2017/DonatoCeres.jpg;I769
 52;Alfonso Guarino;M;-;?;?;-;-;I6424
@@ -74,7 +74,7 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 73;Dario Cifrodelli;M;-;?;?;-;-;I3221
 74;Cesare Nisivoccia;M;-;?;?;-;2007/XIX53.jpg;I970
 75;Pasquale Russomanno;M;-;?;?;-;-;I559
-76;Sandro Russomanno di Ger.;M;-;?;?;-;2007/XIX14.jpg;I560
+76;Sandro Russomanno di Ger.;M;-;1984;?;-;2007/XIX14.jpg;I560
 77;Angelo Viscardi;M;-;?;?;-;2005/dscn3902.jpg;I1095
 78;Angelo Russomanno;M;-;?;?;-;-;-
 79;Gerardo Brasiello;M;-;?;?;-;2018/Stra18_45.jpg;I3668
@@ -116,16 +116,16 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 115;Carmelo Ruglio;M;-;?;?;-;-;-
 116;Lorenzo Russomanno;M;-;?;?;-;-;-
 117;Alfonso Pallante;M;-;?;?;-;2006/f47.jpg;I6540
-118;Vincenzo Ficetola;M;-;?;?;-;-;-
+118;Vincenzo Ficetola;M;-;?;?;-;-;I19606
 119;Daniele Castagno;M;-;?;?;-;-;I3749
-120;Gelsomina D'Alessio;F;-;?;?;-;-;-
+120;Gelsomina D'Alessio;F;-;?;?;-;-;I11584
 121;Katia Corona;F;-;?;?;-;-;I2693
 122;Angela Melillo;F;-;?;?;-;-;I670
 123;Rocco Feniello;M;-;?;?;-;2007/XIX51.jpg;I5666
 124;Luca Cibellis;M;-;?;?;-;2007/XIX6.jpg;I5773
 125;Annibale Castagno;M;-;?;?;-;-;I3748
 126;Maria Di Masi;F;-;?;?;-;-;I2778
-127;Maria Monteverde;F;-;?;?;-;-;-
+127;Maria Monteverde;F;-;?;?;-;-;I19613
 128;Raffaele Merola;M;-;?;?;-;-;I4523
 129;Rocco Nesta;M;-;?;?;-;2017/RoccoNesta.jpg;I6509
 130;Enrico Porreca;M;-;?;?;-;-;-
@@ -194,11 +194,11 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 193;Ernesto Donatiello;M;-;1983;?;-;2007/XIX16.jpg;I6490
 194;Gerardo Monteverde;M;-;?;?;-;2007/XIX52.jpg;-
 195;Giuseppe Melillo;M;-;?;?;-;-;-
-196;Luigi Russomanno;M;-;?;?;-;2017/LuigiRussomanno.jpg;I18090
-197;Gianni Sozio;M;-;?;?;-;2017/GianniSozio.jpg;I9999
+196;Luigi Russomanno;M;-;1990;?;-;2017/LuigiRussomanno.jpg;I18090
+197;Gianni Sozio;M;-;1982;?;-;2017/GianniSozio.jpg;I9999
 198;Gerardo Donatiello;M;-;?;?;-;2007/XIX33.jpg;I6492
-199;Pasquale Restaino;M;-;?;?;-;-;-
-200;Gaetano D'Elia;M;-;?;?;-;2017/GaetanoDElia.jpg;I15328
+199;Pasquale Restaino;M;-;?;?;-;-;I19616
+200;Gaetano D'Elia;M;-;1989;?;-;2017/GaetanoDElia.jpg;I15328
 201;Donato Nesta;M;-;?;?;-;2007/XIX24.jpg;-
 202;Luca Russomanno;M;-;?;?;-;2017/LucaRussomanno.jpg;I5626
 203;Giuseppe Freda;M;-;?;?;-;-;-
@@ -237,7 +237,7 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 236;Mauro Malanga;M;-;?;?;-;-;-
 237;Marco Galdi;M;-;?;?;-;2017/MarcoGaldi.jpg;-
 238;Francesco Rosania;M;-;?;?;-;-;I6775
-239;Alessio Merola;M;-;?;?;-;2017/AlessioMerola.jpg;I13051
+239;Alessio Merola;M;-;1995;?;-;2017/AlessioMerola.jpg;I13051
 240;Simona Ceres;F;-;?;?;-;2019/stra19_06.jpg;I804
 241;Giuseppina Russo;F;-;?;?;-;-;-
 242;Pasquale Pallante;M;-;1983;?;-;-;I1377
