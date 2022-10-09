@@ -236,6 +236,8 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 #
 
 [elenco_pagine]
+%script_root%questions.php?id_questions=11::Sondaggio Europei 2021
+%script_root%questions.php?id_questions=10::Sondaggio Mondiali 2018
 %script_root%questions.php?id_questions=9::Sondaggio Europei 2016
 %script_root%statistiche.php?action=show&id_questions=9::Statistiche Sondaggio Europei 2016
 %script_root%questions.php?id_questions=8&action=results::Sondaggio Mondiali 2014 (classifica a ponderazione progressiva)
