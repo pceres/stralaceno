@@ -993,8 +993,8 @@ if (!empty($messaggio_stato_sondaggio)) {
 		<TR>
 			<TD HEIGHT=18 ALIGN=LEFT BGCOLOR="#FFFF99"><FONT FACE="Arial Narrow">Gruppo E</FONT></TD>
 			<TD ALIGN=LEFT BGCOLOR="#FFFF99"><FONT FACE="Arial Narrow">Gruppo F</FONT></TD>
-			<TD ALIGN=LEFT BGCOLOR="#FFFF99"><FONT FACE="Arial Narrow">-</FONT></TD>
-			<TD ALIGN=LEFT BGCOLOR="#FFFF99"><FONT FACE="Arial Narrow">-</FONT></TD>
+			<TD ALIGN=LEFT BGCOLOR="#FFFF99"><FONT FACE="Arial Narrow">Gruppo G</FONT></TD>
+			<TD ALIGN=LEFT BGCOLOR="#FFFF99"><FONT FACE="Arial Narrow">Gruppo H</FONT></TD>
 			</TR>
 		<TR>
 			<TD HEIGHT=18 ALIGN=LEFT BGCOLOR="#E6E6FF">Spagna</TD>

@@ -11,11 +11,11 @@
 #					: key
 #
 #	data_inizio_giocate             : hh:mm gg/mm/aaaa
-#	data_fine_giocate	                : hh:mm gg/mm/aaaa
-#	data_presentazione_risultati     : hh:mm gg/mm/aaaa
+#	data_fine_giocate	            : hh:mm gg/mm/aaaa
+#	data_presentazione_risultati    : hh:mm gg/mm/aaaa
 #
 [Attributi]
-Sondaggio Mondiali 2022::attiva::no_auth::24:00 08/10/2022::24:00 19/11/2022::00:05 20/11/2022
+Sondaggio Mondiali 2022::attiva::no_auth::24:00 14/10/2022::24:00 19/11/2022::00:05 20/11/2022
 
 #
 # msg1::msg2::msg3
