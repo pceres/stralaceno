@@ -1578,7 +1578,7 @@ function show_template($template_path,$template_file,$sezione = "",$module_data 
 				$temp_config_file = $info[0];
 				$array_name = $info[1];
 				$num_fields = $info[2];
-				
+
 				// aggiungi suffisso al file di configurazione
 				$lista_subfile = (explode('_cfg.',$temp_config_file));
 				if (count($lista_subfile) != 2)
@@ -2108,6 +2108,7 @@ if (file_exists($logfile))
 	// carica il file di log dei nuovi contenuti
 	$log_contents = get_config_file($logfile);
 	$log_contents = $log_contents['default'];
+    $log_contents0 = $log_contents;
 	
 	// nuovo log
 	$new_log = Array(
@@ -2125,8 +2126,13 @@ if (file_exists($logfile))
 	$index_item_pubDate = 6; // indice di pubDate in $item;
 	
 	// aggiungi ultimo contenuto
-	array_push($log_contents,$new_log);
-	
+    if (empty($log_contents)) {
+        // archivio ancora vuoto
+        $log_contents = Array($new_log);
+    } else {
+        array_push($log_contents,$new_log);
+    }
+
 	// analizza i dati del logfile
 	$last_pubDate = strtotime($item['pubDate']);	// data ultimo contenuto pubblicato
 	$ks_last_pubDate = date('D, j M Y G:i:s',$last_pubDate);
@@ -2138,10 +2144,10 @@ if (file_exists($logfile))
 	 
 	$num_contents = count($log_contents);		// numero di contenuti nel log
 	
-	if ( ($oldest_deltaTime > $max_deltaTime+$hyst_deltaTime) | ($num_contents > $max_num_contents+$hyst_num_contents) )
+	if ( !empty($log_contents0) && (($oldest_deltaTime > $max_deltaTime+$hyst_deltaTime) | ($num_contents > $max_num_contents+$hyst_num_contents)) )
 	{
 		// E' necessario filtrare!
-		
+
 		// individua i contenuti da eliminare
 		$log_contents_filtered = Array();
 		foreach($log_contents as $id => $content)
@@ -2158,7 +2164,7 @@ if (file_exists($logfile))
 	}
 	else
 	{
-		// Non e' necessario filtrare.
+	// Non e' necessario filtrare.
 		$log_contents_filtered = $log_contents;
 	}
 	
@@ -2168,7 +2174,14 @@ if (file_exists($logfile))
 }
 else
 {
-	echo "<br>Problema di scrittura al file di log. Contattare l'amministratore.<br>";
+    $cf = fopen($logfile, 'w');
+    if (!$cf) {
+        echo "<br>Problema di scrittura al file di log. Contattare l'amministratore.<br>";
+    } else {
+        fclose($cf);
+        echo "<br>Il file di log &egrave; stato creato.<br>";
+    }
+
 }
 
 } // end function log_new_content($content_type,$item)

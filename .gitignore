@@ -4,6 +4,8 @@ captcha/tmp/
 custom/config/challenge.php
 custom/contatori/backupfile*.txt
 custom/contatori/logfile.txt
+custom/contatori/log_contents.php
+custom/contatori/last_contents_cfg.txt
 custom/contatori/lasthitfile.txt
 custom/contatori/temp/
 custom/contatori/back/

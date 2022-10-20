@@ -307,8 +307,17 @@ $feed['items']		: array costituito da elementi con i campi:
 				$item['author']		: autore della notizia
 */
 
+# dichiara variabili
+extract(indici());
+
+// determina il nome del modulo, ed il path assoluto
+$filename = $_SERVER[SCRIPT_FILENAME];						// path assoluto e nome dello script in esecuzione
+$module_endpath = substr($filename,strpos($filename,'custom/moduli/')+14);	// path della cartella contenente i moduli (custom/moduli/)
+$module_name = substr($module_endpath,0,strrpos($module_endpath,'/'));		// nome del modulo in esecuzione
+$module_abs_path = $modules_dir."$module_name/";				// path completo allo script in esecuzione
+
 //create config file
-$filename = $module_name."_cfg.txt";
+$filename = $module_abs_path.$module_name."_cfg.txt";
 $cf = fopen($filename, 'w');
 if ($cf)
 {
@@ -316,7 +325,7 @@ if ($cf)
 	$log .= date('j M Y G:i:s',strtotime($feed['pubDate']))."\n";
 	$log .= "\n";
 	fwrite($cf, $log);
-	
+
 	$log = "[items]\n";
 	fwrite($cf, $log);
 
@@ -340,7 +349,13 @@ if ($cf)
 }
 else
 {
-	die("Errore nella scrittura di $filename. Contattare l'amministratore.");
+    $cf = fopen($filename, 'w');
+    if (!$cf) {
+        die("$filedir_counter: Errore nella scrittura di $filename. Contattare l'amministratore.");
+    } else {
+        fclose($cf);
+        echo "<br>Il file $filename &egrave; stato creato.<br>";
+    }
 }
 
 } // end function publish_config($feed,$module_name)
