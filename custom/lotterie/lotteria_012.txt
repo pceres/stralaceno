@@ -15,7 +15,7 @@
 #	data_presentazione_risultati    : hh:mm gg/mm/aaaa
 #
 [Attributi]
-Sondaggio Mondiali 2022::attiva::no_auth::24:00 14/10/2022::24:00 19/11/2022::00:05 20/11/2022
+Sondaggio Mondiali 2022::attiva::no_auth::24:00 15/10/2022::24:00 19/11/2022::00:05 20/11/2022
 
 #
 # msg1::msg2::msg3
@@ -24,7 +24,7 @@ Sondaggio Mondiali 2022::attiva::no_auth::24:00 14/10/2022::24:00 19/11/2022::00
 #	msg3: visualizzato dopo la chiusura delle giocate
 #
 [msg_date]
-Il sondaggio non e' ancora aperto. Potrai giocare dalle 24:00 del 10/10::Si puo' giocare fino alle 24:00 del 19/11::Le giocate sono chiuse, la classifica sara' aggiornata dopo la disputa di ogni turno (ottavi, quarti, semifinali e finale).
+Il sondaggio non e' ancora aperto. Potrai giocare dalle 24:00 del 15/10::Si puo' giocare fino alle 24:00 del 19/11::Le giocate sono chiuse, la classifica sara' aggiornata dopo la disputa di ogni turno (ottavi, quarti, semifinali e finale).
 
 # Formato riga [keyfiles]:
 # nome::caption::num_keys

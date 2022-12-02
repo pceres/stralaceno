@@ -867,7 +867,7 @@ Andranno anche gestiti, con codice php, le variabili:
 	<COLGROUP><COL WIDTH=80><COL WIDTH=80><COL WIDTH=80><COL WIDTH=80></COLGROUP>
 	<TBODY>
 		<TR>
-			<TD COLSPAN=4 WIDTH=801 HEIGHT=23 ALIGN=CENTER><FONT SIZE=4>Europei 2021 - Scheda per il sondaggio -</FONT></TD>
+			<TD COLSPAN=4 WIDTH=801 HEIGHT=23 ALIGN=CENTER><FONT SIZE=4>Mondiali 2022 - Scheda per il sondaggio -</FONT></TD>
 			</TR>
 <?php
 if (!empty($nominativo)) { ?>

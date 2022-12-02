@@ -5,37 +5,37 @@
 #
 
 # Qualificato ottavi 1:
-nd
+Francia
 # Qualificato ottavi 2:
-nd
+Australia
 # Qualificato ottavi 3:
-nd
+Paesi Bassi
 # Qualificato ottavi 4:
-nd
+Senegal
 # Qualificato ottavi 5:
-nd
+Inghilterra
 # Qualificato ottavi 6:
-nd
+Stati Uniti
 # Qualificato ottavi 7:
-nd
+Brasile
 # Qualificato ottavi 8:
-nd
+Portogallo
 # Qualificato ottavi 9:
-nd
+Argentina
 # Qualificato ottavi 10:
-nd
+Polonia
 # Qualificato ottavi 11:
-nd
+Giappone
 # Qualificato ottavi 12:
-nd
+Spagna
 # Qualificato ottavi 13:
-nd
+Marocco
 # Qualificato ottavi 14:
-nd
+Croazia
 # Qualificato ottavi 15:
-nd
+Svizzera
 # Qualificato ottavi 16:
-nd
+Corea del Sud
 # Qualificato quarti 1:
 nd
 # Qualificato quarti 2:
@@ -86,35 +86,35 @@ nd
 # Brasile::5,20;4,0             # se il Brasile passa il primo turno ma esce al secondo, e non sono state giocate altre partite
 # Brasile::5,20;4,0;3,0;2,0;1,0 # se il Brasile passa il primo turno ma esce al secondo, e sono state giocate tutte le partite
 [punteggio_risposte]
-Qatar::
-Ecuador::
-Senegal::
-Paesi Bassi::
-Inghilterra::
-Iran::
-Stati Uniti::
-Galles::
-Argentina::
-Arabia Saudita::
-Messico::
-Polonia::
-Francia::
-Australia::
-Danimarca::
-Tunisia::
-Spagna::
-Costa Rica::
-Germania::
-Giappone::
-Belgio::
-Canada::
-Marocco::
-Croazia::
-Brasile::
-Serbia::
-Svizzera::
-Camerun::
-Portogallo::
-Ghana::
-Uruguay::
-Corea del Sud::
+Qatar::5,0;4,0;3,0;2,0;1,0
+Ecuador::5,0;4,0;3,0;2,0;1,0
+Senegal::5,20
+Paesi Bassi::5,20
+Inghilterra::5,20
+Iran::5,0;4,0;3,0;2,0;1,0
+Stati Uniti::5,20
+Galles::5,0;4,0;3,0;2,0;1,0
+Argentina::5,20
+Arabia Saudita::5,0;4,0;3,0;2,0;1,0
+Messico::5,6;4,0;3,0;2,0;1,0
+Polonia::5,14;
+Francia::5,20
+Australia::5,20
+Danimarca::5,0;4,0;3,0;2,0;1,0
+Tunisia::5,0;4,0;3,0;2,0;1,0
+Spagna::5,14
+Costa Rica::5,0;4,0;3,0;2,0;1,0
+Germania::5,6;4,0;3,0;2,0;1,0
+Giappone::5,20;
+Belgio::5,0;4,0;3,0;2,0;1,0
+Canada::5,0;4,0;3,0;2,0;1,0
+Marocco::5,20
+Croazia::5,20
+Brasile::5,20
+Serbia::5,0;4,0;3,0;2,0;1,0
+Svizzera::5,20
+Camerun::5,0;4,0;3,0;2,0;1,0
+Portogallo::5,20
+Ghana::5,0;4,0;3,0;2,0;1,0
+Uruguay::5,10
+Corea del Sud::5,10
