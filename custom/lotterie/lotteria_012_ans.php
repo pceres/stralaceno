@@ -37,9 +37,9 @@ Svizzera
 # Qualificato ottavi 16:
 Corea del Sud
 # Qualificato quarti 1:
-nd
+Paesi Bassi
 # Qualificato quarti 2:
-nd
+Argentina
 # Qualificato quarti 3:
 nd
 # Qualificato quarti 4:
@@ -89,17 +89,17 @@ nd
 Qatar::5,0;4,0;3,0;2,0;1,0
 Ecuador::5,0;4,0;3,0;2,0;1,0
 Senegal::5,20
-Paesi Bassi::5,20
+Paesi Bassi::5,20;4,20
 Inghilterra::5,20
 Iran::5,0;4,0;3,0;2,0;1,0
-Stati Uniti::5,20
+Stati Uniti::5,20;4,0;3,0;2,0;1,0
 Galles::5,0;4,0;3,0;2,0;1,0
-Argentina::5,20
+Argentina::5,20;4,20
 Arabia Saudita::5,0;4,0;3,0;2,0;1,0
 Messico::5,6;4,0;3,0;2,0;1,0
 Polonia::5,14;
 Francia::5,20
-Australia::5,20
+Australia::5,20;4,0;3,0;2,0;1,0
 Danimarca::5,0;4,0;3,0;2,0;1,0
 Tunisia::5,0;4,0;3,0;2,0;1,0
 Spagna::5,14
