@@ -15,14 +15,44 @@ require_once('../login.php');
 
 
 // verifica che si stia arrivando a questa pagina da ../index.php (unico punto di accesso al sottodominio admin/), oppure da altre pagine in admin/
-$referer = $_SERVER['HTTP_REFERER'];
-if ( !isset($_SERVER['HTTP_REFERER']) |
-( (strlen(strpos($referer,"http://".$_SERVER['HTTP_HOST'].$script_abs_path."index.php").' ') == 1) &
-("http://".$_SERVER['HTTP_HOST'].$script_abs_path."admin/" != substr($referer ,0,strrpos($referer ,'/')+1) ) ) |
-(!in_array($login['status'],array('ok_form','ok_cookie'))) )
+$referer = $_SERVER['HTTP_REFERER']; // eg. 'https://localhost/work/ars.git/index.php' or 'https://localhost/work/ars.git/admin/manage_config_file.php?config_file=lotteria_012_ans.php'
+$debug_login = 1;
+if (
+    !isset($_SERVER['HTTP_REFERER']) // referer not set ...
+    | ( (strlen(strpos($referer,"://".$_SERVER['HTTP_HOST'].$script_abs_path."index.php").' ') == 1) &
+    (strlen(strpos(substr($referer ,0,strrpos($referer ,'/')+1),"://".$_SERVER['HTTP_HOST'].$script_abs_path."admin/").' ') == 1) ) // ...or (referer ~= exact_link_from_homepage) & (referer ~= link_from_admin_pages) )
+    | (!in_array($login['status'],array('ok_form','ok_cookie'))) // ...or login_was_not_successful
+   )
 {
-	header("Location: ".$script_abs_path."index.php");
-	exit();
+    // bad login
+    if ($debug_login) {
+        // if debug, show info and die...
+        echo("(referer not set) | ( (referer ~= exact_link_from_homepage) & (referer ~= link_from_admin_pages) ) | (login_was_not_successful): ");
+        echo("  (".!isset($_SERVER['HTTP_REFERER']).") | ( (".
+        (strlen(strpos($referer,"://".$_SERVER['HTTP_HOST'].$script_abs_path."index.php").' ') == 1) .") & (".
+        (strlen(strpos(substr($referer ,0,strrpos($referer ,'/')+1),"://".$_SERVER['HTTP_HOST'].$script_abs_path."admin/").' ') == 1)   .") ) | (".
+        (!in_array($login['status'],array('ok_form','ok_cookie'))).")<br>");
+        echo("<br>");
+        echo("Input:<br>");
+        echo("_SERVER_HTTP_REFERER:(".($_SERVER['HTTP_REFERER']).")<br>");
+        echo("referer:(".$referer.")<br>");
+        echo("_SERVER_HTTP_HOST:(".$_SERVER['HTTP_HOST'].")<br>");
+        echo("login_status:(".$login['status'].")<br>");
+        echo("<br>");
+        echo("exact_link_from_homepage:<br>");
+        echo("($referer)<br>");
+        echo("(http://".$_SERVER['HTTP_HOST'].$script_abs_path."index.php)<br>");
+        echo("<br>");
+        echo("link_from_admin_pages:<br>");
+        echo("(". "http://".$_SERVER['HTTP_HOST'].$script_abs_path."admin/" .")<br>");
+        echo("(". substr($referer ,0,strrpos($referer ,'/')+1) .")<br>");
+        echo("<br>");
+        die("error in session mgm: please report to administrator");
+    } else {
+        // ...else redirect to homepage
+        header("Location: ".$script_abs_path."index.php");
+        exit();
+    }
 }
 
 ?>
