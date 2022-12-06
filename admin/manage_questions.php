@@ -15,8 +15,11 @@ require_once('../login.php');
 
 
 // verifica che si stia arrivando a questa pagina da quella amministrativa principale
-if ( !isset($_SERVER['HTTP_REFERER']) | ("http://".$_SERVER['HTTP_HOST'].$script_abs_path."admin/" != substr($_SERVER['HTTP_REFERER'],0,strrpos($_SERVER['HTTP_REFERER'],'/')+1) ) |
-(!in_array($login['status'],array('ok_form','ok_cookie')))  )
+if (
+    !isset($_SERVER['HTTP_REFERER']) // referer not set ...
+    | (strlen(strpos(substr($_SERVER['HTTP_REFERER'] ,0,strrpos($_SERVER['HTTP_REFERER'] ,'/')+1),"://".$_SERVER['HTTP_HOST'].$script_abs_path."admin/").' ') == 1) // ...or (referer ~= link_from_admin_pages)
+    | (!in_array($login['status'],array('ok_form','ok_cookie'))) // ...or login_was_not_successful
+   )
 {
 	header("Location: ".$script_abs_path."index.php");
 	exit();
