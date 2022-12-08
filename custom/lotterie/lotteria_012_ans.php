@@ -41,17 +41,17 @@ Paesi Bassi
 # Qualificato quarti 2:
 Argentina
 # Qualificato quarti 3:
-nd
+Francia
 # Qualificato quarti 4:
-nd
+Inghilterra
 # Qualificato quarti 5:
-nd
+Croazia
 # Qualificato quarti 6:
-nd
+Brasile
 # Qualificato quarti 7:
-nd
+Marocco
 # Qualificato quarti 8:
-nd
+Portogallo 
 # Qualificato semifinale 1:
 nd
 # Qualificato semifinale 2:
@@ -88,33 +88,33 @@ nd
 [punteggio_risposte]
 Qatar::5,0;4,0;3,0;2,0;1,0
 Ecuador::5,0;4,0;3,0;2,0;1,0
-Senegal::5,20
+Senegal::5,20;4,0;3,0;2,0;1,0
 Paesi Bassi::5,20;4,20
-Inghilterra::5,20
+Inghilterra::5,20;4,20
 Iran::5,0;4,0;3,0;2,0;1,0
 Stati Uniti::5,20;4,0;3,0;2,0;1,0
 Galles::5,0;4,0;3,0;2,0;1,0
 Argentina::5,20;4,20
 Arabia Saudita::5,0;4,0;3,0;2,0;1,0
 Messico::5,6;4,0;3,0;2,0;1,0
-Polonia::5,14;
-Francia::5,20
+Polonia::5,14;4,0;3,0;2,0;1,0
+Francia::5,20;4,20
 Australia::5,20;4,0;3,0;2,0;1,0
 Danimarca::5,0;4,0;3,0;2,0;1,0
 Tunisia::5,0;4,0;3,0;2,0;1,0
-Spagna::5,14
+Spagna::5,14;4,9;3,0;2,0;1,0
 Costa Rica::5,0;4,0;3,0;2,0;1,0
 Germania::5,6;4,0;3,0;2,0;1,0
-Giappone::5,20;
+Giappone::5,20;4,9;3,0;2,0;1,0
 Belgio::5,0;4,0;3,0;2,0;1,0
 Canada::5,0;4,0;3,0;2,0;1,0
-Marocco::5,20
-Croazia::5,20
-Brasile::5,20
+Marocco::5,20;4,11
+Croazia::5,20;4,11
+Brasile::5,20;4,20
 Serbia::5,0;4,0;3,0;2,0;1,0
-Svizzera::5,20
+Svizzera::5,20;4,0;3,0;2,0;1,0
 Camerun::5,0;4,0;3,0;2,0;1,0
-Portogallo::5,20
+Portogallo::5,20;4,20
 Ghana::5,0;4,0;3,0;2,0;1,0
-Uruguay::5,10
-Corea del Sud::5,10
+Uruguay::5,10;4,0;3,0;2,0;1,0
+Corea del Sud::5,10;4,0;3,0;2,0;1,0
