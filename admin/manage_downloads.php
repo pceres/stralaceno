@@ -35,7 +35,7 @@ if (empty($resource_id))
 
 
 // verifica che l'utente sia autorizzato per l'operazione richiesta
-$res = check_auth('gestione_download',"",$login['username'],$login['usergroups'],true);
+$res = check_auth('gestione_download',"",$login['username'],$login['usergroups'],false);
 if (!$res)
 {
 	die("Mi dispiace, non sei autorizzato!");
