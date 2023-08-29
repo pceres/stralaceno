@@ -83,8 +83,8 @@ qualsiasi iniziativa futura (<i>semel fanfaron, semper fanfaron</i>).
 <p style="text-indent: 2em;">
 Ci&ograve; premesso l' A.R.S. istituisce ufficialmente il P.Re.G.Fa.S. ovvero il Pubblico Registro di Grandi Fanfaroni 
 della Stralaceno. Esso viene tenuto a cura di un'apposita commissione composta da 
-tre esponenti dell'ARS, i decani della corsa (atleti che hanno partecipato minimo 10 volte) e il più anziano, con minimo 
-tre partecipazioni, più un "membro non togato" scelto dall'ARS. 
+tre esponenti dell'ARS, i decani della corsa (atleti che hanno partecipato minimo 10 volte) e il pi&ugrave; anziano, con minimo
+tre partecipazioni, pi&ugrave; un "membro non togato" scelto dall'ARS.
 Logicamente prima di procedere 
 all'iscrizione &egrave; necessaria una fase istruttoria nella quale si verifica l'esistenza di giustificazioni o di 
 attenuanti, valutando anche caso per caso e con opportuna  indulgenza. La conseguenza &egrave; quindi che i casi ove si 
@@ -145,7 +145,7 @@ decide di procedere ad iscrizione sono solo i casi conclamati, la cui gravit&agr
 
 <ol>
 
-<li>Chiunque può ricorrere avverso il presente Registro, richiedendo che venga riesaminata una determinata posizione. In particolare è possibile contestare:<br>
+<li>Chiunque pu&ograve; ricorrere avverso il presente Registro, richiedendo che venga riesaminata una determinata posizione. In particolare &egrave; possibile contestare:<br>
 <ul>
 <li>una iscrizione</li>
 <li>una mancata iscrizione</li>
@@ -155,7 +155,7 @@ decide di procedere ad iscrizione sono solo i casi conclamati, la cui gravit&agr
 </li>
 
 <li>
-La procedura di riabilitazione del fanfarone non può che basarsi sul principio del ravvedimento operoso. Le modalità devono essere definite caso per caso e avallate dalla Commissione che - verificato l'avverarsi delle condizioni necessarie - dispone la cancellazione dal Registro, del nominativo del ravveduto. Solo in presenza di fatti eccezionali è possibile procedere alla cancellazione d'ufficio.
+La procedura di riabilitazione del fanfarone non pu&ograve; che basarsi sul principio del ravvedimento operoso. Le modalit&agrave; devono essere definite caso per caso e avallate dalla Commissione che - verificato l'avverarsi delle condizioni necessarie - dispone la cancellazione dal Registro, del nominativo del ravveduto. Solo in presenza di fatti eccezionali &egrave; possibile procedere alla cancellazione d'ufficio.
 </li>
 
 </ol>
