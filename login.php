@@ -48,7 +48,9 @@ case '':
 case 'login':
 
 	//verifica se l'autenticazione da cookie esiste ed e' valida
-	if ( (count($cookie_username)>0) & (count($cookie_usergroups)>0) & (count($cookie_challenge_id)>0) )
+	if ( (strlen($cookie_username)>0) &
+		 (strlen($cookie_usergroups)>0) &
+		 (strlen($cookie_challenge_id)>0) )
 	{
 		// check corrispondenza challenge_id <--> IP
 		if (check_IP_challenge_id($cookie_challenge_id,$IP))
@@ -70,9 +72,12 @@ case 'login':
 		}
 		break;
 	}
-	elseif ( (count($username)>0) & (count($userpass)>0) & (count($challenge)>0) & (count($challenge_id)>0) ) // login in corso
+	elseif ( (strlen($username)>0) &
+			 (strlen($userpass)>0) &
+			 (strlen($challenge)>0) &
+			 (strlen ($challenge_id)>0) ) // login in corso
 	{ // altrimenti tenta il login con i parametri passati dal form:
-		
+
 		// verifica che il challenge non sia gia' stato usato. In tal caso marcalo come usato (registrando l'IP)!
 		if (check_challenge($challenge_id,$challenge,$IP))
 		{
@@ -124,7 +129,7 @@ case 'login':
 		}
 	}
 	break;
-	
+
 case 'logout':
 	$username = 'guest';	// utente di default
 	$usergroups = 'guests'; // gruppo dell'utente di default

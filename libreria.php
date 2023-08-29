@@ -251,11 +251,11 @@ if (!empty($sezione) && ($sezione!=="homepage") )
 
 #varie
 $tempo_max_grafico = max(array($tempo_max_F,$tempo_max_M));
-$symbol_empty= '<img style="display:inline;" align="middle" height="13" width="13" alt="empty" border="0">';
-$symbol_1_partecipazione= '<img src="'.$site_abs_path.'images/0x2606(star).bmp" style="display:inline;" align="middle" height="13" alt="1a partecipazione" border="0">';
-$symbol_1_partecipazione_best	= '<img src="'.$site_abs_path.'images/0x2606(star_best).bmp" style="display:inline;" align="middle" height="13" alt="1a partecipazione" border="0">';
-$symbol_record  		= '<img src="'.$site_abs_path.'images/0x263A(smiling_face).bmp" style="display:inline;" align="middle" height="13" alt="record personale" border="0">';
-$symbol_record_best		= '<img src="'.$site_abs_path.'images/0x263A(smiling_face_best).bmp" style="display:inline;" align="middle" height="13" alt="record personale assoluto" border="0">';
+$symbol_empty= '<img style="display:inline;" height="12"width="13" alt="empty" border="0">';
+$symbol_1_partecipazione= '<img src="'.$site_abs_path.'images/0x2606(star).bmp" style="display:inline;" height="12"alt="1a partecipazione" border="0">';
+$symbol_1_partecipazione_best	= '<img src="'.$site_abs_path.'images/0x2606(star_best).bmp" style="display:inline;" height="12"alt="1a partecipazione" border="0">';
+$symbol_record  		= '<img src="'.$site_abs_path.'images/0x263A(smiling_face).bmp" style="display:inline;" height="12"alt="record personale" border="0">';
+$symbol_record_best		= '<img src="'.$site_abs_path.'images/0x263A(smiling_face_best).bmp" style="display:inline;" height="12"alt="record personale assoluto" border="0">';
 $symbol_info			= '<img src="'.$site_abs_path.'images/info.jpg" border="0" width="12" alt="more info">';
 $homepage_link 			= '<hr><div align="right"><a class="txt_link" href="'.$script_abs_path.'index.php">Torna alla homepage</a></div>';
 
@@ -310,7 +310,7 @@ return $result;
 }
 
 
-function merge_tempi_atleti($archivio,$atleti,&$edizioni = null) {
+function merge_tempi_atleti($archivio,$atleti,&$edizioni = Array()) {
 
 # dichiara variabili
 extract(indici());
@@ -322,9 +322,8 @@ for ($i = 0; $i < count($archivio); $i++) {
         echo($i."<br>");
     }
 
-	
 	#  gestisci l'header
-	if (count($info)==0) 
+	if (is_array($info) && count($info)==0)
 	{
 		$info = $atleti[0];
 	}
@@ -338,7 +337,7 @@ for ($i = 0; $i < count($archivio); $i++) {
 	}
 	
 	$archivio[$i][$indice_info] = $info;
-	
+
 }
 
 return $archivio;
@@ -422,7 +421,7 @@ if (count($legenda_ordinata) > 0)
 }
 
 
-function show_table($archivio,$mask,$class,$num_colonne = 1,$font_size = -1,$show_note = 1,$tooltip_data = '') {
+function show_table($archivio,$mask,$class,$num_colonne = 1,$font_size = -1,$show_note = 1,$tooltip_data = Array()) {
 // $prestazione = $archivio[1];
 // $prestazione['info'] -> legenda
 // $prestazione['stile_riga'] -> <tr style="$prestazione['stile_riga']">
@@ -457,9 +456,11 @@ echo "  <tbody>\n";
 echo "  <tr>\n";
 echo "  <td>\n";
 
+$num_col = is_array($mask) ?  count($mask) : 0;
+
 $head = $archivio[0];
 $head_string = " <thead><tr>\n";
-for ($temp = 0; $temp < count($mask); $temp++) {
+for ($temp = 0; $temp < $num_col; $temp++) {
 	$head_string .= "<th valign=\"middle\">".$head[$mask[$temp]]."</th>\n";
 	}
 $head_string .= "  </tr></thead>\n";
@@ -510,7 +511,6 @@ for ($i = 1; $i < count($archivio); $i++) {
 		$campo = $prestazione[$mask[$temp]];
 		
 		$allineamento = "center";
-		
 		# gestisci le note (se viene visualizzato il tempo)
 		if (array_key_exists("info",$prestazione) & ($mask[$temp] == $indice_tempo) ) {
 			$nota = trim($prestazione[$indice_nota]);
@@ -568,7 +568,7 @@ for ($i = 1; $i < count($archivio); $i++) {
 		}
 		
 		// tooltip
-		if (array_key_exists($mask[$temp],$tooltip_data)) // se per la cella attuale e' previsto il tooltip...
+		if (is_array($tooltip_data) && array_key_exists($mask[$temp],$tooltip_data)) // se per la cella attuale e' previsto il tooltip...
 		{
 			$tip = 'title="'.$prestazione[$tooltip_data[$mask[$temp]]].'"';
 		}
@@ -610,7 +610,7 @@ echo "</table>\n";
 echo "</div>";
 
 # mostra note
-if (count($note) > 0)
+if (is_array($note) && count($note) > 0)
 {
 	echo "<br>\n";
 	echo "<div class=\"nota\">\n";
@@ -635,17 +635,17 @@ function filtra_archivio($archivio,$lista_campi,$lista_valori) {
 $archivio_filtrato = array($archivio[0]); # aggiungi l'header
 for ($i = 1; $i < count($archivio); $i++) {
 	$prestazione = $archivio[$i];
-	
+
 	$ok = TRUE;
 	
 	for ($ii = 0; $ii < count($lista_campi); $ii++) {
 		$campo = $lista_campi[$ii];
-		if (count($campo) == 1) {
+		if (!is_array($campo)) { // scalar index
 			if (trim($prestazione[$campo]) != trim($lista_valori[$ii])) {
 				$ok = FALSE;
 				}
 			}
-		elseif (count($campo) == 2) {
+		elseif (is_array($campo) && count($campo) == 2) { // vectorial index with depth 2
 			if (trim($prestazione[$campo[0]][$campo[1]]) != trim($lista_valori[$ii])) {
 				$ok = FALSE;
 				}
@@ -1079,7 +1079,7 @@ function get_abstract($testo_in,$puntini)
 $no_close_tags = array("p","br","?php","img"); // array di tags che non richiedono il tag di chiusura
 	
 	$n_max_stop = 2; // numero massimo di righe contenenti un carattere ".","?","!"
-		
+
 	$bulk = array();
 	$bulk_tag = array();
 	$bulk_tag_trim = array();
@@ -1159,7 +1159,6 @@ $no_close_tags = array("p","br","?php","img"); // array di tags che non richiedo
 			}
 			$p1 = strpos($templine,"<",$p2);
 		}
-		
 		if ($n_stop >= $n_max_stop)
 		{
 			break;
@@ -1167,7 +1166,7 @@ $no_close_tags = array("p","br","?php","img"); // array di tags che non richiedo
 	}
 	
 	// aggiungi il link all'articolo completo
-	if (count($puntini) > 0)
+	if (strlen($puntini) > 0)
 	{
 		array_push($bulk,$puntini);
 	}
@@ -1988,29 +1987,17 @@ return $cfgbulk;
 } // end function get_cfg_file_data($module_cfg_data,$module,$filename) {
 
 
-function sanitize_user_input($usertext,$type,$flags) {
-# verifica che l'input dall'utente $usertext sia sicuro e del tipo specificato
+function sanitize_user_input($testo,$type,$flags) {
+# verifica che l'input dall'utente ($testo) sia sicuro e del tipo specificato
 # $type = 'plain_text'			: no tags allowed, except for text chunks inside $flags['allowed_tags']
 # $type = 'simple_formatted_html'	: no tags allowed, except for simple formatting html tags (<b>,<i>,<a>)
 # $type = 'number'			: simple number (allowed number types in $flags['number_type'] are 'int' and 'float')
 #
 
-if (empty($usertext))
+if (empty($testo))
 {
-	return $usertext;
+	return $testo;
 }
-
-if (get_magic_quotes_gpc())
-{
-	// magic_quotes_gpc abilitato
-	$testo = stripslashes($usertext);
-}
-else
-{
-	// magic_quotes_gpc disabilitato
-	$testo = $usertext;
-}
-
 
 // determina i tag (o blocchi di testo) consentiti
 switch ($type)

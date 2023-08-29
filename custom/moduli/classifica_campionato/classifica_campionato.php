@@ -18,7 +18,7 @@ extract(indici($sezione));
 
 <?php
 // determina il nome del modulo, ed il path assoluto
-$filename = $_SERVER[SCRIPT_FILENAME];						// path assoluto e nome dello script in esecuzione
+$filename = $_SERVER['SCRIPT_FILENAME'];						// path assoluto e nome dello script in esecuzione
 $module_endpath = substr($filename,strpos($filename,'custom/moduli/')+14);	// path della cartella contenente i moduli (custom/moduli/)
 $module_name = substr($module_endpath,0,strrpos($module_endpath,'/'));		// nome del modulo in esecuzione
 $module_abs_path = $modules_dir."$module_name/";				// path completo allo script in esecuzione

@@ -118,7 +118,7 @@ $indice_posizione = $indice_nome+5;
 
 $archivio2 = array();
 $list_atleti = array();
-for ($i = 1; $i < count($archivio); $i++) 
+for ($i = 1; $i < count($archivio); $i++)
 {
 	$id = $archivio[$i][$indice_id];
 	
