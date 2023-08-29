@@ -371,7 +371,7 @@ else
 		for ($i = 0; $i < $numero_anni; $i++) {
 			echo "\t\t\t\t&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"filtro4.php?anno=$elenco_anni[$i]\" class=\"txt_link\">Edizione $elenco_anni[$i]</a>\n";
 			
-			if (count($elenco_foto[$elenco_anni[$i]]) > 0)
+			if (is_array($elenco_foto[$elenco_anni[$i]]) && count($elenco_foto[$elenco_anni[$i]]) > 0)
 			{
 				echo "\t\t\t\t<span style=\"white-space: nowrap;\"><a class=\"txt_link\" href=\"album.php?anno=".$elenco_anni[$i]."\"> \n";
 				echo "\t\t\t\t   <img src=\"".$site_abs_path."images/fotocamera-small.gif\" width=\"15\" border=\"0\" alt=\"foto_".$elenco_anni[$i]."\">\n";
@@ -600,7 +600,7 @@ if (($username === 'guest') | (!in_array($login_status,array('none','ok_form','o
 							<br>
 							password:<br><input name="userpass" type="password" />
 							<br>
-							<input name="action" type="hidden" value="login" />
+							<input name="login_action" type="hidden" value="login" />
 							<input name="challenge" type="hidden" value="<?php echo $challenge ?>" />
 							<input name="challenge_id" type="hidden" value="<?php echo $challenge_id ?>" />
 							<input type="submit" value="Login" />

@@ -41,7 +41,7 @@ else {
         $passo_griglia_y=0.1;
         $has_axes=1;
         $has_legend=1;
-		
+
         $img_handle = ImageCreate ($width, $heigth) or die ("Cannot Create image");
 		
         $back_color = ImageColorAllocate ($img_handle, 255, 255, 255);
@@ -55,8 +55,8 @@ else {
         $line_color = ImageColorAllocate ($img_handle, 0, 0, 0);
         $dotted_style = array ($line_color,$line_color,$line_color,$back_color,$back_color,$back_color,$back_color,$back_color);
         $continuous_style = array ($line_color,$line_color);
-        $axis_style = array ($line_color,$line_color);
-        $grid_style = array ($line_color,$line_color,$line_color,$back_color,$back_color,$back_color,$back_color,$back_color);
+        $axis_style = array ($line_color,$line_color); // solid line (2 pixels)
+        $grid_style = array ($line_color,$line_color,$line_color,$back_color,$back_color,$back_color,$back_color,$back_color); // dashed line (3 black pixels, 5 background ones)
         $bulk=get_lines($filename_input);
         $count=0;
         $lines=array();
@@ -203,7 +203,7 @@ else {
 		$count--;
 		$line=array("x"=>$vx,"y"=>$vy,"color"=>$line_color,"line_style"=>$line_style,"line_thickness"=>$line_thickness,"label"=>$label );
 		array_push($lines,$line);
-		
+
 		# default per prossima eventuale linea
 		unset($line_thickness); 
 		unset($line_style); 
@@ -239,14 +239,14 @@ ImageString ($img_handle, 31, $border-strlen($max_y_label)*9,$heigth- $border-1.
 
 //asse ascisse
         imagesetstyle ($img_handle, $axis_style); // linea continua
-        ImageLine($img_handle,$width- $border,$heigth- $border, $border,$heigth- $border,$axis_style);
-        ImageLine($img_handle,$width- $border*1.2,$heigth- $border*0.8, $width- $border,$heigth- $border,$axis_style);
-        ImageLine($img_handle,$width- $border*1.2,$heigth- $border*1.2, $width- $border,$heigth- $border,$axis_style);
+        ImageLine($img_handle,$width- $border,$heigth- $border, $border,$heigth- $border,$color_black); // lower x-axis
+        ImageLine($img_handle,$width- $border*1.2,$heigth- $border*0.8, $width- $border,$heigth- $border,$color_black);
+        ImageLine($img_handle,$width- $border*1.2,$heigth- $border*1.2, $width- $border,$heigth- $border,$color_black);
         ImageString ($img_handle, 31, $width- $border+9-9*strlen($x_label),$heigth- $border+9,  $x_label, $txt_color);
 //asse ordinate
-        ImageLine($img_handle, $border,$heigth- $border, $border, $border,$axis_style);
-        ImageLine($img_handle, $border,$border, $border*0.8, $border*1.2,$axis_style);
-        ImageLine($img_handle, $border, $border, $border*1.2, $border*1.2,$axis_style);
+        ImageLine($img_handle, $border,$heigth- $border, $border, $border,$color_black);
+        ImageLine($img_handle, $border,$border, $border*0.8, $border*1.2,$color_black);
+        ImageLine($img_handle, $border, $border, $border*1.2, $border*1.2,$color_black);
         ImageString ($img_handle, 31, $border-(strlen($y_label)*0+2)*9,$border-2*9,  $y_label, $txt_color);
 // titolo
         ImageString ($img_handle, 31, ($width-strlen($title)*9)/2, $border*0.1,  $title, $txt_color);
@@ -275,6 +275,7 @@ if ($has_legend==1) //disegna legenda?
 			}
 	}
 }
+
         // plotta linee in $linee
         foreach ($lines as $line)
 	{

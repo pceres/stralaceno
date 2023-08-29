@@ -7,7 +7,6 @@ $art_id		: argomento di index che specifica l'id dell'articolo da visualizzare
 
 -->
 <?php
-	
 	// se non specificato diversamente, la pagina richiesta e' la homepage
 	if (empty($sezione))
 	{
@@ -46,7 +45,7 @@ $art_id		: argomento di index che specifica l'id dell'articolo da visualizzare
 		for ($i = 0; $i < count($art_list); $i++)
 		{
 			$art_data = load_article($art_list[$i],$sezione); // carica l'articolo
-			
+
 			if (!empty($art_data)) // se l'articolo esiste...
 			{
 				// il primo articolo completo, gli altri riassunti
@@ -60,7 +59,6 @@ $art_id		: argomento di index che specifica l'id dell'articolo da visualizzare
 					$mode = 'full';
 					$link = ''; // inutile in modalita' full
 				}
-				
 				show_article($art_data,$mode,$link);	// visualizza l'articolo
 			}
 		}	

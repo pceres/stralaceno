@@ -81,7 +81,7 @@ $lista_regola_campo = array($indice_anno);
 $lista_regola_valore = array($anno);
 $archivio_filtrato = filtra_archivio($archivio,$lista_regola_campo,$lista_regola_valore);
 
-if (count($archivio_filtrato) == 1)
+if (is_array($archivio_filtrato) && count($archivio_filtrato) == 1)
 {
 	echo "<br><br>Non ci sono dati disponibili per l'edizione: $anno!";
 	die();
@@ -110,7 +110,7 @@ $altri_collaboratori = "";
 $numero_collaboratori_semplici = 0;
 $indice_collaboratore = 0;
 $archivio_rielaborato = array($archivio_ordinato[0]);
-for ($i = 1; $i < count($archivio_ordinato); $i++) 
+for ($i = 1; $i < count($archivio_ordinato); $i++)
 {
 	$organizzatore = $archivio_ordinato[$i];
 	if (in_array(strtoupper($organizzatore[$indice3_incarico]),array("COLLABORATORE","COLLABORATRICE")))
