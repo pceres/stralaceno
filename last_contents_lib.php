@@ -54,7 +54,6 @@ $feed['items']		: array costituito da elementi con i campi:
 
 # dichiara variabili
 extract(indici());
-
 // filtro sui contenuti da inserire nel feed
 $allowed_content_types = Array('forum','articolo_edited','articolo_new','config_file','download');
 

@@ -131,7 +131,8 @@ $layout_data['Links'] = $link_list;
 // ultime_edizioni::
 // edizioni disponibili
 $elenco_anni = array();
-for ($ii = 1; $ii < count($archivio); $ii++) {
+$num_archivio = is_array($archivio) ? count($archivio) : 0;
+for ($ii = 1; $ii < $num_archivio; $ii++) {
 	array_push($elenco_anni,$archivio[$ii][$indice_anno]);
 }
 $elenco_anni = array_unique($elenco_anni); # elimina gli anni duplicati
@@ -155,7 +156,7 @@ $layout_data['droplist_edizioni'] = $elenco_anni; // edizioni disponibili (gia' 
 $elenco_nomi = array();
 $elenco_cognomi = array();
 $elenco_id = array();
-for ($i = 1; $i < count($archivio); $i++)
+for ($i = 1; $i < $num_archivio; $i++)
 {
 	$prestazione = $archivio[$i];
 	$nome = $prestazione[$indice_nome];
@@ -225,7 +226,6 @@ extract(indici());
 $list_tempi_page = array('albo_d_oro' => 'filtro7.php','classifica_MF' => 'filtro9.php',
 	'classifica_F' => 'filtro10.php','classifica_partecipazioni' => 'filtro11.php',
 	'grafico_tempi'=>'filtro8.php','archivio_storico'=>'filtro6.php','medagliere'=>'filtro12.php');
-
 $item_name 	= $layout_item[$indice_layout_name];
 $item_caption 	= $layout_item[$indice_layout_caption];
 $item_type 	= $layout_item[$indice_layout_type];
@@ -350,7 +350,7 @@ if ($item_type != 'modulo')
 					</a>
 				</td>
 			</tr>
-			
+
 <?php
 	}
 	else
@@ -669,6 +669,7 @@ default:
 		  <tbody>
 		  
 <?php 
+
 		switch ($layout_block)
 		{
 		case "Articoli":
