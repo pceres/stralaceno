@@ -1364,7 +1364,8 @@ function get_config_file($conf_file,$expected_items = 1000)
 
 	$bulk = file($conf_file);
 	
-	for ($i = 0; $i < count($bulk); $i++)
+	$num_count = is_array($bulk) ? count($bulk) : 0;
+	for ($i = 0; $i < $num_count; $i++)
 	{
 // 		$ks = trim($bulk[$i]); // elimina i caratteri di fine linea
 		$ks = rtrim($bulk[$i]); // elimina i caratteri di fine linea
