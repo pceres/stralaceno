@@ -117,7 +117,6 @@ _flock_();
 ############################################################################################
 # ALLINEAMENTO DEI DATI STATISTICI
 ############################################################################################
-
 if(file_exists(BACKUP_FOLDER._filename_(DATA_FILES,$par__id))){
  _fcopy_(BACKUP_FOLDER._filename_(DATA_FILES,$par__id),DATA_FOLDER._filename_(DATA_FILES,$par__id));
  _fdel_(BACKUP_FOLDER._filename_(DATA_FILES,$par__id));
@@ -169,7 +168,8 @@ if(_licit_ip_())
     if($aux__referrer->_is_engine_()){
      $dat__entry[$dat__counter]["ref"]=FALSE;
      $dat__entry[$dat__counter]["eng"]=$aux__referrer->_get_engine_name_();
-     $dat__entry[$dat__counter]["enk"]=implode(" ",$aux__referrer->_get_engine_keys_());
+     $key_list = $aux__referrer->_get_engine_keys_();
+     $dat__entry[$dat__counter]["enk"]= empty($key_list)?"":implode(" ",$key_list);
     }
     else{
      $dat__entry[$dat__counter]["ref"]=$aux__referrer->_normalize_();
