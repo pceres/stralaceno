@@ -285,11 +285,14 @@ while ($action)
 			$minuti = substr($topic_last_post_date,14,2);
 			$secondi = substr($topic_last_post_date,17,2);
 			
-			$datenum = mktime($ore,$minuti,$secondi,$mese,$giorno,$anno);
+			if (!empty($ore))
+				$datenum = mktime($ore,$minuti,$secondi,$mese,$giorno,$anno);
+			else
+				$datenum = null;
 			
 			array_push($v_data,$datenum);
 		}
-		
+
 		$topics_ordinati = $topics['elenco_topics'];
 		array_multisort($v_data,SORT_DESC,$topics_ordinati);
 		
