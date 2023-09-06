@@ -52,9 +52,18 @@ elseif(array_key_exists("HTTP_HOST",$_SERVER)&&array_key_exists("SERVER_PORT",$_
 else
  $aux__script_path=FALSE;
 
+$fn = TEMP_FOLDER.preg_replace("/\\x2A/",$par__id,ACCESS_FILES);
+if ($fh = fopen($fn,"w")) {
+  fclose($fh);
+  $alt_txt = "fanKounter";
+} else {
+  $alt_txt = "Error! Please check permissions for file $fn, and write permission in subfolders of custom/contatori/: temp, back, data";
+}
+
+
 $aux__counter_href=$aux__script_path."counter.php"."?id=".$par__id."&mode=".$par__mode."&referrer='+escape(_referrer)+'";
 $aux__stats_href=$aux__script_path."stats.php"."?id=".$par__id;
-$aux__jscode=($par__mode==="graphic")?("<a href=\'".$aux__stats_href."\'><img src=\'".$aux__counter_href."\' width=\'98\' height=\'38\' alt=\'fanKounter\' style=\'border:0px;\' /></a>"):("<script type=\'text/javascript\' language=\'javascript\' src=\'".$aux__counter_href."\'></script>");
+$aux__jscode=($par__mode==="graphic")?("<a href=\'".$aux__stats_href."\'><img src=\'".$aux__counter_href."\' width=\'98\' height=\'38\' alt=\'$alt_txt\' style=\'border:0px;\' /></a>"):("<script type=\'text/javascript\' language=\'javascript\' src=\'".$aux__counter_href."\'></script>");
 
 ############################################################################################
 # GENERAZIONE DI CODICE JAVASCRIPT
