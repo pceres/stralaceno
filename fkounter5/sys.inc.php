@@ -110,11 +110,15 @@ function _flock_(){
  global $__lock_fid;
 
  if(FLOCK){
-  if(($__lock_fid=fopen(TEMP_FOLDER._filename_(FLOCK_FILES,$par__id),"ab"))!==FALSE)
-   if(flock($__lock_fid,LOCK_EX))
+  if(($__lock_fid=fopen($fn = TEMP_FOLDER._filename_(FLOCK_FILES,$par__id),"ab"))!==FALSE) {
+   if(flock($__lock_fid,LOCK_EX)) {
     return;
+   }
 
-  @fclose($__lock_fid);
+   @fclose($__lock_fid);
+  } else {
+    die("Error! Could not open file $fn");
+  }
   exit("System Error: _flock_().");
  }
 

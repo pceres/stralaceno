@@ -2083,8 +2083,12 @@ $contatore_out = $counter;
 
     //rewrite updated last hit file
     $cf = fopen($lasthitfile, 'w');
-    fwrite($cf, $hits);
-    fclose($cf);
+	if ($cf) {
+		fwrite($cf, $hits);
+		fclose($cf);
+	} else  {
+		die("Error! Could not open file $lasthitfile, check permissions");
+	}
 
     if ($count_it == 1)           // We need to count this hit as a 'visit'?
     {
@@ -2127,8 +2131,13 @@ $contatore_out = $counter;
 
     //append current visit to log file
     $cf = fopen($logfile, 'a');
-    fwrite($cf, $log);
-    fclose($cf);
+	if ($cf) {
+		fwrite($cf, $log);
+		fclose($cf);
+	} else  {
+		die("Error! Could not open file $logfile, check permissions");
+	}
+
     //while we are playing with log file, why not checking if the log file isn't too big?
     if (filesize($logfile)>MAXLOGFILESIZE)
     {
