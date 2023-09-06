@@ -1,0 +1,23 @@
+Autore::Ars
+Titolo::Sondaggio Mondiali 2022
+--- Begin body ---
+<br>
+<div align="center">
+<img id="Laceno" src="%file_root%custom/album/varie/logo2022.jpg" alt="" border="0" width="500">
+</div>
+<br><br>
+<b>IL SONDAGGIO E' APERTO, L'INDIRIZZO E' <a href="%file_root%questions.php?id_questions=12">QUESTO</a>.</b>
+<br><br>
+<br>Il PUNTEGGIO assegnato per la qualificazione delle 16 squadre prime e seconde classificate nei gironi &egrave; il seguente:</p>
+<ul>
+  <li>20 punti in caso di qualificazione per effetto di un maggior numero di  punti in classifica (e 0 alle squadre che non accedono);</li>
+  <li>14 punti in caso di qualificazione per effetto della migliore differenza reti, della vittoria nello scontro diretto, o della classifica avulsa (e 6 alla squadra non qualificata, eventualmente ripartiti tra pi&ugrave; squadre);</li>
+  <li>10 punti in caso di qualificazione per effetto di un maggior numero di reti segnate o di altri criteri (e 10 alla squadra non qualificata, eventualmente ripartiti tra pi&ugrave; squadre);</li>
+</ul>
+Nella  fase  a scontri diretti sono assegnati 20 punti (raddoppiati progressivamente a partire dai quarti: 20 agli ottavi, 40 ai quarti, 80 in semifinale, e 160 in finale) distribuiti come segue:
+<ul>
+  <li>20 punti in caso di vittoria nei tempi regolamentari (e 0 alla squadra sconfitta);</li>
+  <li>16 punti in caso di vittoria ai supplementari (e 4 alla squadra sconfitta);</li>
+  <li>11 punti alla squadra che passa il turno mediante calci di rigore (e 9 alla squadra non qualificata);</li>
+</ul>
+--- End body ---

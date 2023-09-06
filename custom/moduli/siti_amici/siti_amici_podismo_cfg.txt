@@ -16,13 +16,13 @@
 [elenco_siti]
 1::Cavaiola::ASD Cava Picentini Costa d'Amalfi::http://www.cavaiola.it/::http://ars.altervista.org/custom/album/varie/cavaiola.jpg::Cavaiola::
 2::GPMontellese::ASD Gruppo Podistico Montellese::http://www.gpmontellese.it/_wp/::http://www.gpmontellese.it/_wp/wp-content/themes/firebug/images/logo.gif::GP Montellese::
-3::FreeRunner::ASD Free Runner Eboli::http://www.maininformatica.it/::http://www.freerunner.it/themes/free2008/images/topmenu.png::Free Runner::
+#3::FreeRunner::ASD Free Runner Eboli::http://www.maininformatica.it/::http://www.freerunner.it/themes/free2008/images/topmenu.png::Free Runner::
 4::Isaura::ASD Isaura Valle Irno::http://nuke.atleticaisaura.it/::http://ars.altervista.org/custom/album/varie/logo_ISAURA.gif::Isaura Valle Irno::
 5::ErcoSport::Erco Sport::http://www.ercosport.it/::http://ars.altervista.org/custom/album/varie/ercosport.gif::Erco::
 6::AtleticaAgropoli::ASD Atletica Agropoli::http://www.atletica-agropoli.com/::http://ars.altervista.org/custom/album/varie/ilceppo.jpg::Atletica Agropoli::
 7::Tart::ASD Le Tartarughe::http://www.asdletartarughe.it::http://ars.altervista.org/custom/album/varie/leTartarughe.jpg::Le Tartarughe::
 8::Pozzuoli Marathon::ASD Pozzuoli Marathon Club::http://asdpozzuolimarathonclub.blogspot.com/::http://ars.altervista.org/custom/album/varie/pozzuoli.jpg::Pozzuoli Marathon::
-9::Podistica Solidariet&agrave;::Podistica Solidariet&agrave;::http://www.podisticasolidarieta.it/::http://ars.altervista.org/custom/album/varie/soli.jpg::Podistica Solidariet&agrave;::
+9::Podistica Solidarietà::Podistica Solidarietà::http://www.podisticasolidarieta.it/::http://ars.altervista.org/custom/album/varie/soli.jpg::Podistica Solidarietà::
 
 #
 # formato testo_footer:  testo
@@ -31,7 +31,7 @@
 Rubrica a cura dell' <a href="mailto:caposeleweb@yahoo.it?subject=Associazioni%20Podistiche"><b>ARS</b></a>
 <br>
 <br>
-Se il tuo sito &egrave; attinente al podismo, o se noti imprecisioni, <a href="mailto:caposeleweb@yahoo.it?subject=Associazioni%20Podistiche">segnalacelo</a>, saremo felici di recepire i tuoi suggerimenti
+Se il tuo sito è attinente al podismo, o se noti imprecisioni, <a href="mailto:caposeleweb@yahoo.it?subject=Associazioni%20Podistiche">segnalacelo</a>, saremo felici di recepire i tuoi suggerimenti
 
 #
 # formato titolo_pagina:  testo

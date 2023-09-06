@@ -71,3 +71,4 @@ admin_modules::::pagina dell'interfaccia amministrativa per la gestione dei modu
 modifica_file_config::filename::visualizza e modifica file di configurazione
 scrivi_file_config::filename::scrivi file di configurazione
 gestione_download::::gestione della sezione download
+;item_name::gestione della sezione download
