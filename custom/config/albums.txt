@@ -759,65 +759,65 @@ Logo2022.jpg::Logo Stralaceno 2022::::
 
 [2023]
 image00111.jpg::::::
-image00107.jpg::::::
-image00100.jpg::::::
+image00107.jpg::::Partenza della Stralaceno 2021::
+image00100.jpg::::::Daniele Caprio
 image00098.jpg::::::
 image00096.jpg::::::
 image00094.jpg::::::
-image00092.jpg::::::
-image00090.jpg::::::
-image00089.jpg::::::
-image00087.jpg::::::
-image00084.jpg::::::
-image00083.jpg::::::
-image00080.jpg::::::
-image00078.jpg::::::
-image00077.jpg::::::
-image00075.jpg::::::
-image00074.jpg::::::
-image00073.jpg::::::
-image00072.jpg::::::
-image00071.jpg::::::
-image00070.jpg::::::
-image00069.jpg::::::
-image00068.jpg::::::
-image00067.jpg::::::
-image00066.jpg::::::
-image00065.jpg::::::
-image00064.jpg::::::
-image00062.jpg::::::
-image00060.jpg::::::
-image00059.jpg::::::
-image00058.jpg::::::
-image00057.jpg::::::
-image00055.jpg::::::
-image00053.jpg::::::
-image00052.jpg::::::
-image00051.jpg::::::
-image00050.jpg::::::
-image00049.jpg::::::
-image00047.jpg::::::
-image00044.jpg::::::
-image00043.jpg::::::
-image00042.jpg::::::
-image00041.jpg::::::
-image00040.jpg::::::
-image00039.jpg::::::
-image00038.jpg::::::
-image00037.jpg::::::
-image00036.jpg::::::
-image00035.jpg::::::
-image00033.jpg::::::
-image00031.jpg::::::
-image00019.jpg::::::
-image00017.jpg::::::
-image00014.jpg::::::
-image00012.jpg::::::
-image00011.jpg::::::
-image00010.jpg::::::
-image00008.jpg::::::
-image00005.jpg::::::
-image00004.jpg::::::
-image00003.jpg::::::
-image00002.jpg::::::
-image00001.jpg::::::
+image00092.jpg::::::Antonio Viscido, Gianni Cetrulo, Alfonsorocco Rosania
+image00090.jpg::::::Gerardo Del Malandrino, Antonio D'Elia, Nicola Melillo, Rocco Grasso
+image00089.jpg::::::Nicola Melillo, Rocco Grasso, Simone Galdi, Stelvio Celano, Gerardo Notaro, Michele Gerardo Zanca
+image00087.jpg::::::Vanessa Iacenda, Benedetto Montanari, Gino Amendola, Sandro Russomanno di Ger., Stefania D'Auria, Alfonso Sturchio, Nicola D'Auria, Jacopo Ceres
+image00084.jpg::::::Daniele Caprio
+image00083.jpg::::::Tiziana Monteverde, Vanessa Iacenda, Elisa Nittoli
+image00080.jpg::::::Michael Luongo
+image00078.jpg::::::Donato Ceres
+image00077.jpg::::::Gelsomino Monteverde
+image00075.jpg::::::Antonio Viscido, Giuseppe Malanga, Alfonsorocco Rosania, Michele Zanca 2005, Alessandro Eletto, Pasquale Pallante
+image00074.jpg::::::Michele Zanca 2005
+image00073.jpg::::::Salvatore Cuozzo, Paolo Viscardi
+image00072.jpg::::::Alessandro Russomanno
+image00071.jpg::::::Pasquale Ceres
+image00070.jpg::::::Antonio Viscido, Giuseppe Malanga, Alfonsorocco Rosania
+image00069.jpg::::::Vincenzo Russomanno, Giovanni Viscardi, Gerardo Zarra, Alessio Merola
+image00068.jpg::::Alessio Merola, Gerardo Zarra, Giulio Farina::Alessio Merola, Gerardo Zarra, Giulio Farina
+image00067.jpg::::::Simone Galdi
+image00066.jpg::::::Vincenzo Russomanno, Giovanni Viscardi
+image00065.jpg::::::Gerardo Notaro
+image00064.jpg::::::Gerardo Del Malandrino, Gianni Cetrulo, Rocco Grasso
+image00062.jpg::::::Gianni Cetrulo, Rocco Grasso, Michele Zanca 2005
+image00060.jpg::::::Michele Gerardo Zanca
+image00059.jpg::::::Stelvio Celano
+image00058.jpg::::::Rocco Grasso
+image00057.jpg::::::Rocco Nesta, Nicola D'Auria
+image00055.jpg::::::Sandro Russomanno di Ger.
+image00053.jpg::::::Antonio D'Elia
+image00052.jpg::::::Antonio D'Elia, Rocco Nesta
+image00051.jpg::::::Alfonsina D'Auria
+image00050.jpg::::::Benedetto Montanari, Gino Amendola
+image00049.jpg::::::Lorenzo Sozio
+image00047.jpg::::::Stefania D'Auria
+image00044.jpg::::::Alfonso Sturchio, Jacopo Ceres
+image00043.jpg::::::Vanessa Iacenda
+image00042.jpg::::::Elisa Nittoli
+image00041.jpg::::::Vanessa Iacenda, Elisa Nittoli, Tiziana Monteverde
+image00040.jpg::::::Donato Ceres
+image00039.jpg::::::Daniele Caprio
+image00038.jpg::::::Daniele Caprio
+image00037.jpg::::::Salvatore Cuozzo
+image00036.jpg::::::Daniele Caprio, Paolo Viscardi
+image00035.jpg::::::Gelsomino Monteverde
+image00033.jpg::::::Pasquale Ceres
+image00031.jpg::::Alessandro Eletto, Pasquale Pallante::Alessandro Eletto, Pasquale Pallante
+image00019.jpg::::::Nicola Melillo
+image00017.jpg::::::Michele Zanca 2005
+image00014.jpg::::::Stefania D'Auria
+image00012.jpg::::::Gino Amendola
+image00011.jpg::::::Nicola D'Auria, Rocco Nesta
+image00010.jpg::::::Alfonsina D'Auria
+image00008.jpg::::::Tiziana Monteverde
+image00005.jpg::::::Jacopo Ceres
+image00004.jpg::::::Vanessa Jacenda
+image00003.jpg::::::Elisa Nittoli
+image00002.jpg::::::Daniele Caprio
+image00001.jpg::::::Daniele Caprio, Alfonsina D'Auria

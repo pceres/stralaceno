@@ -27,3 +27,7 @@ admin_album:75
 album:4736
 foto:52685
 classifica_anno:6784
+MF:1420
+homepage:15470
+album:5538
+foto:59671
