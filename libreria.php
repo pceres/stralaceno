@@ -2264,7 +2264,7 @@ function count_page($myself,$flags,$path_prefix = "")
   $username 		= $_COOKIE['login']['username'];
 
   $logfile 	= $path_prefix.'logfile.txt'; 		//every hit log file
-  $backupfile 	= $path_prefix.'backupfile%04d.txt';   	//log backup file naming. E' importante lasciare alla fine del nome %3d (formato per sprintf)
+  $backupfile 	= $path_prefix.'backupfile%05d.txt';   	//log backup file naming. E' importante lasciare alla fine del nome %5d (formato per sprintf)
   $counterfile 	= $path_prefix.'counterfile.txt';	//miscellaneous pages visit counter
   $lasthitfile 	= $path_prefix.'lasthitfile.txt'; 	//last hits ... used with trigger, allow to prevent counting 'reload' as visit
   $imagepath 	= $path_prefix.'images/';           	//path to digit gif image location
@@ -2418,13 +2418,14 @@ $contatore_out = $counter;
 	}
 	$backupfilename = sprintf($backupfile, $id+1);      //build the file name
 	 
-	if ($id<9999)                                                    //Just in case all the back log file names are used
+	if ($id<99999)                                                    // save current logfile in a backupfile
     {
       $report.="A backup has been done to $backupfilename on ".date("l dS of F Y h:i:s A").".\r\n";
       $logs = file($logfile);                            //read all long entries in a array
       $nb_entry = count($logs);                          //how many entries do we have ?
       reset($logs);
       $bf=fopen($backupfilename,'w');                    //open backup file to write
+	  if (!$bf) die("Error! Cannot write to backup file $backupfilename");
       $lf=fopen($logfile,'w');                           //open original log file for rewriting
       for ($i=0;$i<$nb_entry; $i++) fwrite($bf, $logs[$i]); //Store 100% of the logs in the back up
       $report.="$i entries have been backed up. ".($nb_entry-$i)." are left in the logfile $logfile.\n";
@@ -2434,13 +2435,13 @@ $contatore_out = $counter;
 
       log_action($path_prefix,$report);
     }
-    else $report.="warning !!!! Cannot find an unique backup file name !!!";
-	
-    #if (defined('MAILTO')) 
-	#{
-	  #echo $report;
-	  #mail(MAILTO,"phplab admin report", $report);
-	#}
+    else
+	{
+		//Just in case all the back log file names are used
+		$report.="warning !!!! Cannot find an unique backup file name !!!";
+		echo $report;
+	}
+
     }
   }
   

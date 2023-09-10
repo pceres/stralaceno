@@ -173,10 +173,14 @@ function get_challenge(&$challenge_id,&$challenge)
 	{
 		$bulk = file($filename_challenge);
 	}
-	$challenge_id = md5(time());	
+	else
+	{
+		$bulk = Array();
+	}
+	$challenge_id = md5(time());
 	$challenge = md5($challenge_id.time());
 	$bulk[count($bulk)] = "$challenge_id::$challenge::\r\n";
-	
+
 	// elimina i challenge oltre gli ultimi 20
 	$max_challenges = 20;
 	if (count($bulk)>20)
