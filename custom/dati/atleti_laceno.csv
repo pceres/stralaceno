@@ -99,7 +99,7 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 98;Gerardo Grasso di Ton.;M;-;?;?;-;-;I3181
 99;Pierlorenzo Pallante;M;-;?;?;-;-;I2563
 100;Giovanni Paolercia;M;-;?;?;-;-;-
-101;Michele Notaro;M;-;?;?;-;2006/f32.jpg;-
+101;Michele Notaro;M;-;?;?;-;2006/f32.jpg;I5703
 102;Angelo Ceres di Vinc.;M;-;?;?;-;2017/AngeloCeres.jpg;I590
 103;Angelo Di Masi;M;-;?;?;-;-;-
 104;Mario Cibellis;M;-;?;?;-;-;-
@@ -134,7 +134,7 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 133;Giovanni Cuozzo;M;-;?;?;-;-;I3321
 134;Amato Merola;M;-;?;?;-;-;I1507
 135;Claudio Donatiello;M;-;?;?;-;2005/dscn5337.jpg;I6494
-136;Rocco Proietto;M;-;?;?;-;-;-
+136;Rocco Proietto;M;-;?;?;-;-;I11911
 137;Donato Gervasio;M;-;?;?;-;-;I2981
 138;Rocco Cibellis;M;-;?;?;-;-;I3468
 139;Benito Sista;M;-;?;?;-;-;-
@@ -193,7 +193,7 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 192;Anita Ilaria;F;-;?;?;-;2007/XIX45.jpg;-
 193;Ernesto Donatiello;M;-;1983;?;-;2007/XIX16.jpg;I6490
 194;Gerardo Monteverde;M;-;?;?;-;2007/XIX52.jpg;-
-195;Giuseppe Melillo;M;-;?;?;-;-;-
+195;Giuseppe Melillo;M;-;?;?;-;-;I21054
 196;Luigi Russomanno;M;-;1990;?;-;2017/LuigiRussomanno.jpg;I18090
 197;Gianni Sozio;M;-;1982;?;-;2017/GianniSozio.jpg;I9999
 198;Gerardo Donatiello;M;-;?;?;-;2007/XIX33.jpg;I6492
@@ -210,14 +210,14 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 209;Giuseppe Malanga;M;-;?;?;-;2007/XIX19.jpg;I3971
 210;Giuseppe Martino;M;-;?;?;-;-;-
 211;Gerardo Amendola;M;-;?;?;-;2007/XIX47.jpg;-
-212;Leo Nisivoccia;M;-;?;?;-;-;-
+212;Leo Nisivoccia;M;-;?;?;-;-;I244
 213;Franco Cibellis di Pasq.;M;-;?;?;-;2007/XIX34.jpg;-
 214;Mariangela Sturchio;F;-;?;?;-;2007/XIX35.jpg;I42
 215;Maria Malanga;F;-;?;?;-;2007/XIX35.jpg;-
 216;Elisa Pallante;F;-;?;?;-;-;I4976
 217;Lorenzo Panariello;M;-;1993;?;-;2017/LorenzoPanariello.jpg;I13063
 218;Alfonso Rosania;M;-;1988;?;-;2017/AlfonsoRosania.jpg;I8828
-219;Alen Nisivoccia;M;-;?;?;-;-;-
+219;Alen Nisivoccia;M;-;?;?;-;-;I243
 220;Gerardo Del Malandrino;M;-;1964;?;-;2017/GerardoDelMalandrino.jpg;I6789
 221;Annarita D'Elia;F;-;?;?;-;2017/AnnaritaDElia.jpg;I11638
 222;Maurizio Zarra;M;-;?;?;-;-;I545
@@ -225,37 +225,37 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 224;Daniele Caprio;M;-;1985;?;-;2017/DanieleCaprio.jpg;I5865
 225;Raffaele Rosania;M;-;?;?;-;-;-
 226;Giovanni Viscardi;M;-;1994;?;-;2017/GiovanniViscardi.jpg;I1098
-227;Vincenzo Curcio;M;-;?;?;-;2017/VincenzoCurcio.jpg;-
+227;Vincenzo Curcio;M;-;?;?;-;2017/VincenzoCurcio.jpg;I6419
 228;Gerardo Rosamilia;M;-;?;?;-;-;I7817
 229;Carmine Feniello;M;-;?;?;-;-;I6977
 230;Lucia Sozio;F;-;?;?;-;-;I10000
-231;Rossella D'Elia;F;-;?;?;-;-;-
+231;Rossella D'Elia;F;-;?;?;-;-;I16149
 232;Mimma Feniello;F;-;?;?;-;-;I5665
 233;Antonio Nesta;M;-;1995;?;-;2017/AntonioNesta.jpg;I6523
 234;Gerardo Aiello;M;-;?;?;-;2019/stra19_13.jpg;I266
 235;Giuseppe Caruso;M;-;?;?;-;2019/stra19_12.jpg;I10016
-236;Mauro Malanga;M;-;?;?;-;-;-
+236;Mauro Malanga;M;-;?;?;-;-;I1141
 237;Marco Galdi;M;-;?;?;-;2017/MarcoGaldi.jpg;I13625
 238;Francesco Rosania;M;-;?;?;-;-;I6775
 239;Alessio Merola;M;-;1995;?;-;2017/AlessioMerola.jpg;I13051
 240;Simona Ceres;F;-;?;?;-;2019/stra19_06.jpg;I804
-241;Giuseppina Russo;F;-;?;?;-;-;-
+241;Giuseppina Russo;F;-;?;?;-;-;I16637
 242;Pasquale Pallante;M;-;1983;?;-;2023/image00031.jpg;I1377
 243;Rocco Monteverde;M;-;?;?;-;-;-
 244;Gerardo Viscido;M;-;?;?;-;2017/GerardoViscido.jpg;I11510
-245;Donato Liloia;M;-;?;?;-;-;-
-246;Carlo Cibellis;M;-;?;?;-;-;-
+245;Donato Liloia;M;-;?;?;-;-;I18654
+246;Carlo Cibellis;M;-;?;?;-;-;I11671
 247;David Di Masi;M;-;?;?;-;-;I77
 248;Gerardo Russomanno 1994;M;-;1994;?;-;2017/GerardoRussomanno1994.jpg;I11663
 249;Paolo Palmieri;M;-;?;?;-;2017/PaoloPalmieri.jpg;I1481
-250;Marco Proietto;M;-;?;?;-;-;-
+250;Marco Proietto;M;-;?;?;-;-;I11912
 251;Lia Ceres;F;-;1993;?;-;2017/LiaCeres.jpg;I4516
 252;Gerardo Monteverde 1983;M;-;1983;?;-;-;-
 253;Arturo Scavella;M;-;?;?;-;-;-
 254;Giovanni Aiello;M;-;?;?;-;-;I6909
 255;Ilenia Chiaravallo;F;-;?;?;-;-;I2798
-256;Raffaele Panariello;M;-;?;?;-;-;-
-257;Luigi Cione;M;-;?;?;-;-;-
+256;Raffaele Panariello;M;-;?;?;-;-;I18112
+257;Luigi Cione;M;-;?;?;-;-;I1361
 258;Alfonsorocco Rosania;M;-;1997;?;-;2018/Stra18_15.jpg;I12675
 259;Giuseppe Palmieri;M;-;?;?;-;2018/Stra18_43.jpg;I673
 260;Raffaele Chiaravallo;M;-;?;?;-;-;I2797
@@ -267,7 +267,7 @@ ID;Atleta;Sesso;Titoli;Data di nascita;Peso;Link;Foto;ID genealogico
 266;Giuseppe Colatrella;M;-;?;?;-;-;I11683
 267;Enrico Russomanno;M;-;?;?;-;-;-
 268;Carmine Cuozzo;M;-;?;?;-;2017/CarmineCuozzo.jpg;I9076
-269;Roberto Lenza;M;-;?;?;-;-;-
+269;Roberto Lenza;M;-;?;?;-;-;I18114
 270;Alfredo Malanga;M;-;?;?;-;-;-
 271;Italo Rosania;M;-;?;?;-;-;I11243
 272;Serafina D'Alessio;F;-;?;?;-;-;I6425
