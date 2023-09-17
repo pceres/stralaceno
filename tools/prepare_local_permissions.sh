@@ -3,6 +3,7 @@
 # fix file permissions
 chmod a+w custom/articoli/*.txt
 chmod a+w custom/config/download_cfg.php
+chmod a+r custom/config/*.css
 chmod a+w custom/contatori/log_contents.php
 chmod a+w custom/contatori/lasthitfile.txt
 chmod a+w custom/contatori/logfile.txt
