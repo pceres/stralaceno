@@ -2070,7 +2070,7 @@ foreach ($lista_separatore as $id => $separatore)
 			$tmp_result = strtoupper($parola[0]).substr($parola,1);
 			array_push($tmp_array,$tmp_result);
 		}
-		$stringa = implode($tmp_array,$lista_sostituto[$id]);
+		$stringa = implode($lista_sostituto[$id],$tmp_array);
 	}
 }
 

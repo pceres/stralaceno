@@ -276,7 +276,7 @@ $list1 = array();
 for ($i = 0; $i<count($art_id); $i++)
 {
 	$item1 = $art_online_pos[$art_id[$i]];
-	if (count($item1) == 0)
+	if (!isset($item1))
 	{
 		$item1 = 10000+$art_id[$i];
 	}

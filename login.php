@@ -291,21 +291,25 @@ function check_IP_challenge_id($challenge_id,$IP)
 	{
 		$bulk = file($filename_challenge);
 	}
-	
+	else
+	{
+		$bulk = Array();
+	}
+
 	$result = false;
 	$indice = '';
 	for ($key = count($bulk)-1; $key >= 0; $key--)
 	{
 		$line_data = substr($bulk[$key],0,-2); // elimina "/r/n" dalla fine della stringa
 		$line_data = explode('::',$line_data);
-		
+
 		if (($line_data[0] == $challenge_id) & ($line_data[2] == $IP)) // challenge_id trovato
 		{
 			$result = true; // challenge ok
 			break;
 		}
 	}
-	
+
 	return $result;
 	
 } // end function check_IP_challenge_id
