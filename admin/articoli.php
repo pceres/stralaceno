@@ -15,7 +15,10 @@ require_once('../login.php');
 
 
 // verifica che si stia arrivando a questa pagina da quella amministrativa principale
-if ( !isset($_SERVER['HTTP_REFERER']) | ("http://".$_SERVER['HTTP_HOST'].$script_abs_path."admin/" !== substr($_SERVER['HTTP_REFERER'],0,strrpos($_SERVER['HTTP_REFERER'],'/')+1) ) |
+$pat = "|http[s]?://".$_SERVER['HTTP_HOST'].str_replace(".","\.",$script_abs_path)."admin/|"; // pattern corretto
+$obj = substr($_SERVER['HTTP_REFERER'],0,strrpos($_SERVER['HTTP_REFERER'],'/')+1); // server e path di provenienza
+$res = preg_match_all($pat, $obj);
+if ( !isset($_SERVER['HTTP_REFERER']) | ($res!=1) |
 (!in_array($login['status'],array('ok_form','ok_cookie'))) )
 {
 	header("Location: ".$script_abs_path."index.php");
