@@ -494,15 +494,18 @@ for ($i = 1; $i < count($archivio); $i++) {
 		$classe = "primo ";
 		}
 
-	if ($prestazione[$indice_info][$indice2_sesso] == "F") {
-		# atleti donna
-		$classe .= "atleta_femmina";
+	if (array_key_exists($indice_info,$prestazione)) {
+		// if info field is present...
+		if ($prestazione[$indice_info][$indice2_sesso] == "F") {
+			# atleti donna
+			$classe .= "atleta_femmina";
+		}
+		elseif ($prestazione[$indice_info][$indice2_sesso] == "M") {
+			# atleti maschi
+			$classe .= "atleta_maschio";
+		}
 	}
-	elseif ($prestazione[$indice_info][$indice2_sesso] == "M") {
-		# atleti maschi
-		$classe .= "atleta_maschio";
-	}
-	
+
 	$style_row .= " class=\"$classe\"";
 
 	echo "<tr ".$style_row.">";
@@ -1824,7 +1827,7 @@ $key_filename_format = sprintf($questions_dir."lotteria_%03d",$id_questions)."_k
 
 $ancora = 1;
 $count = 0;
-$result = '';
+$result = Array();
 while ($ancora)
 {
 	$key_filename = sprintf($key_filename_format,$count);
@@ -1846,27 +1849,29 @@ return $result;
 
 function check_question_keys($id_questions,$auth_token) {
 
-$allowed_keys = get_question_keys($id_questions);
-
 $found_key = array();
-foreach ($allowed_keys as $bunch_id => $key_bunch)
-{
-	$count = 0;
-	foreach ($key_bunch as $key_line)
+
+$allowed_keys = get_question_keys($id_questions);
+if (empty($allowed_keys)) {
+	foreach ($allowed_keys as $bunch_id => $key_bunch)
 	{
-		$key = $key_line[0];
-		if ($key == $auth_token)
+		$count = 0;
+		foreach ($key_bunch as $key_line)
 		{
-			if (empty($found_key))
+			$key = $key_line[0];
+			if ($key == $auth_token)
 			{
-				$found_key = array($bunch_id,$count,$key_line);
+				if (empty($found_key))
+				{
+					$found_key = array($bunch_id,$count,$key_line);
+				}
+				else
+				{
+					die("Chiave duplicata! ($key)"); // non si dovrebbe mai verificare!
+				}
 			}
-			else
-			{
-				die("Chiave duplicata! ($key)"); // non si dovrebbe mai verificare!
-			}
+			$count++;
 		}
-		$count++;
 	}
 }
 return $found_key;
@@ -2061,12 +2066,15 @@ $lista_sostituto  = Array(' ','	','(',"'");
 
 foreach ($lista_separatore as $id => $separatore)
 {
-	$parole = explode($separatore,$stringa);
+	$parole = explode($separatore,trim($stringa));
 	if (count($parole)>0)
 	{
 		$tmp_array = Array();
 		foreach ($parole as $parola)
 		{
+			if (empty($parola)) {
+				continue;
+			}
 			$tmp_result = strtoupper($parola[0]).substr($parola,1);
 			array_push($tmp_array,$tmp_result);
 		}
@@ -2259,9 +2267,9 @@ function count_page($myself,$flags,$path_prefix = "")
 
   $HTTP_USER_AGENT 	= $_SERVER['HTTP_USER_AGENT'];
   $REMOTE_ADDR 		= $_SERVER['REMOTE_ADDR'];
-  $HTTP_REFERER 	= $_SERVER['HTTP_REFERER'];
+  $HTTP_REFERER     = empty($_SERVER['HTTP_REFERER']) ? "" : $_SERVER['HTTP_REFERER'];
   $QUERY_STRING 	= $_SERVER['QUERY_STRING'];
-  $username 		= $_COOKIE['login']['username'];
+  $username 		= empty($_COOKIE['login']) ? "" : $_COOKIE['login']['username'];
 
   $logfile 	= $path_prefix.'logfile.txt'; 		//every hit log file
   $backupfile 	= $path_prefix.'backupfile%05d.txt';   	//log backup file naming. E' importante lasciare alla fine del nome %5d (formato per sprintf)

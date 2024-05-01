@@ -9,13 +9,13 @@ questa libreria esamina i cookies o i parametri http (eventualmente) inviati, e 
 $IP = get_IP(); // informazioni sulla connessione remota
 
 // analisi dei cookie (eventuali)
-$cookie_username = $_COOKIE['login']['username'];
+$cookie_username = is_null($_COOKIE['login']['username']) ? "" : $_COOKIE['login']['username'];
 $cookie_username = sanitize_user_input($cookie_username,'plain_text',array());		// (eventuale) username (cookie)
 
-$cookie_usergroups = $_COOKIE['login']['usergroups'];
+$cookie_usergroups = is_null($_COOKIE['login']['usergroups']) ? "" : $_COOKIE['login']['usergroups'];
 $cookie_usergroups = sanitize_user_input($cookie_usergroups,'plain_text',array()); 	// (eventuale) usergroups (cookie)
 
-$cookie_challenge_id = $_COOKIE['login']['challenge_id'];
+$cookie_challenge_id = is_null($_COOKIE['login']['challenge_id']) ? "" : $_COOKIE['login']['challenge_id'];
 $cookie_challenge_id = sanitize_user_input($cookie_challenge_id,'plain_text',array()); 	// (eventuale) challenge id (cookie)
 
 // analisi dell'input inserito dall'utente
@@ -46,7 +46,6 @@ switch ($login_action)
 {
 case '':
 case 'login':
-
 	//verifica se l'autenticazione da cookie esiste ed e' valida
 	if ( (strlen($cookie_username)>0) &
 		 (strlen($cookie_usergroups)>0) &
@@ -72,10 +71,10 @@ case 'login':
 		}
 		break;
 	}
-	elseif ( (strlen($username)>0) &
-			 (strlen($userpass)>0) &
-			 (strlen($challenge)>0) &
-			 (strlen ($challenge_id)>0) ) // login in corso
+	elseif ( (strlen((string)$username)>0) &
+			 (strlen((string)$userpass)>0) &
+			 (strlen((string)$challenge)>0) &
+			 (strlen ((string)$challenge_id)>0) ) // login in corso
 	{ // altrimenti tenta il login con i parametri passati dal form:
 
 		// verifica che il challenge non sia gia' stato usato. In tal caso marcalo come usato (registrando l'IP)!
