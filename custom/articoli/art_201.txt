@@ -1,0 +1,22 @@
+Autore::Ars
+Titolo::Nuovo Consiglio Direttivo 2023 
+--- Begin body ---
+<FONT SIZE="4" FACE="calibri">
+<br>
+<FONT SIZE="3">
+Si comunica la composizione del CONSIGLIO DIRETTIVO ARS in carica fino alla primavera 2026, sulla base delle determinazioni dell'Assemblea dei Soci e dello stesso neoeletto Consiglio Direttivo ARS del 30 dicembre 2023.
+</FONT>
+<FONT SIZE="4">
+<br><br>
+<b>
+Presidente: DANIELE CAPRIO<br>
+Vice Presidente: GERARDO ROSANIA<br>
+Segretario Amministrativo: ANTONIO VISCIDO '75<br>
+Consigliere: NICOLA D'AURIA<br>
+</b>
+</FONT>
+<div align="center"></b>
+<img id="CSEN" src="%file_root%custom/album/ars/ars.jpg" alt="" border="0" width="150">
+</div>
+</FONT>
+--- End body ---

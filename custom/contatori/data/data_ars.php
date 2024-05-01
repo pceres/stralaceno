@@ -51,4 +51,12 @@ $dat__entry[74394]=array("ts"=>"1693949842","ip"=>"162.158.129.191","host"=>"","
 $dat__entry[74395]=array("ts"=>"1693949897","ip"=>"162.158.129.152","host"=>"","age"=>"Mozilla Firefox 115.x","os"=>"Linux","loc"=>"https%3A%2F%2Fars.altervista.org","ref"=>"","eng"=>"","enk"=>"");
 $dat__entry[74396]=array("ts"=>"1693970455","ip"=>"172.71.146.22","host"=>"","age"=>"","os"=>"MacOS PPC","loc"=>"http%3A%2F%2Fars.altervista.org","ref"=>"","eng"=>"","enk"=>"");
 
+?>0]=array("ts"=>"1714578175","ip"=>"172.71.114.83","host"=>"","age"=>"Mozilla Firefox 115.x","os"=>"Linux","loc"=>"http%3A%2F%2Fars.altervista.org","ref"=>"","eng"=>"","enk"=>"");
+$dat__entry[75381]=array("ts"=>"1714578181","ip"=>"172.71.114.82","host"=>"","age"=>"Mozilla Firefox 115.x","os"=>"Linux","loc"=>"http%3A%2F%2Fars.altervista.org","ref"=>"http%3A%2F%2Fars.altervista.org","eng"=>"","enk"=>"");
+$dat__entry[75382]=array("ts"=>"1714578193","ip"=>"172.71.114.82","host"=>"","age"=>"Mozilla Firefox 115.x","os"=>"Linux","loc"=>"http%3A%2F%2Fars.altervista.org","ref"=>"http%3A%2F%2Fars.altervista.org","eng"=>"","enk"=>"");
+$dat__entry[75383]=array("ts"=>"1714578225","ip"=>"172.71.114.96","host"=>"","age"=>"Mozilla Firefox 115.x","os"=>"Linux","loc"=>"https%3A%2F%2Fars.altervista.org","ref"=>"","eng"=>"","enk"=>"");
+$dat__entry[75384]=array("ts"=>"1714578239","ip"=>"172.71.114.97","host"=>"","age"=>"Mozilla Firefox 115.x","os"=>"Linux","loc"=>"https%3A%2F%2Fars.altervista.org","ref"=>"","eng"=>"","enk"=>"");
+$dat__entry[75385]=array("ts"=>"1714578257","ip"=>"172.71.114.97","host"=>"","age"=>"Mozilla Firefox 115.x","os"=>"Linux","loc"=>"https%3A%2F%2Fars.altervista.org","ref"=>"https%3A%2F%2Fars.altervista.org%2Fdownload.php","eng"=>"","enk"=>"");
+$dat__entry[75386]=array("ts"=>"1714584081","ip"=>"162.158.87.162","host"=>"","age"=>"Mozilla Firefox 115.x","os"=>"Linux","loc"=>"http%3A%2F%2Fars.altervista.org","ref"=>"http%3A%2F%2Fars.altervista.org%2Fquestions.php","eng"=>"","enk"=>"");
+
 ?>

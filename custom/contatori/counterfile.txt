@@ -13,3 +13,7 @@ modulo_archivio:177
 foto:8711
 forum:10782
 homepage:9357
+foto:11809
+forum:12430
+homepage:10506
+questions:200
