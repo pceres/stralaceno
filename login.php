@@ -334,7 +334,7 @@ DEFINE("index_abilitazione_caption",3);
 DEFINE("index_abilitazione_allowed",4);
 
 
-function check_single_auth($mansioni_filtrate,$found_task,$abilitazione,$tag,$params,$username,$usergroups,$level = 1,$debug)
+function check_single_auth($mansioni_filtrate,$found_task,$abilitazione,$tag,$params,$username,$usergroups,$level = 1,$debug = 0)
 {
 	// verifica se la mansione $abilitazione verifica l'abilitazione di livello $level, rispetando le regole $mansioni_filtrate
 	$abilitazione_tipo    = $abilitazione[index_abilitazione_tipo];
