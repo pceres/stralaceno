@@ -174,7 +174,12 @@ $elenco_giocate = $elenco_giocate3;
 
 
 // aggiungi a mask l'indice dell'ultima colonna
-$mask=array_merge($mask,Array(count($giocata)));
+if (!empty($giocata)) {
+	$ind_last_col = count($giocata);
+} else {
+	$ind_last_col = 0;
+}
+$mask=array_merge($mask,Array($ind_last_col));
 
 // // se si parte dai quarti:
 // $id_field_cognome       = 15;

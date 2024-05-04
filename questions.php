@@ -618,7 +618,11 @@ case "results":
 	// carica giocate
 	$giocate = get_config_file($file_log_questions);
 	$giocate = $giocate['default'];
-	$numero_risposte_per_giocata = count(explode(',',$giocate[0][0])); // numero di risposte salvate per giocata (primo campo)
+	if (!empty($giocate)) {
+		$numero_risposte_per_giocata = count(explode(',',$giocate[0][0])); // numero di risposte salvate per giocata (primo campo)
+	} else {
+		$numero_risposte_per_giocata = 0;
+	}
 
 	// carica risposte corrette
 	$soluz_array = get_config_file($file_questions_ans);
