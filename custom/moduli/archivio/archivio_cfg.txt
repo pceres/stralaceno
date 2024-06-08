@@ -37,7 +37,7 @@ Melito_08::Melito Irpino 2008::Gara podistica Anspi di km 7,5 del 13.09.2008
 Stra_08::Stralaceno 2008::La XX edizione della Stralaceno del 29.08.2008
 Carillia_08::Carillia 2008::Gara podistica Carillia di km 9 del 27.07.2008
 Siano_08::Siano 2008::Gara podistica X Notturna Sianese di km 10 del 21.06.2008
-Stabia_08::Stabia 2008::Gara podistica XXII Notturna citt&agrave; di Stabia di km 10 del 31.05.2008
+Stabia_08::Stabia 2008::Gara podistica XXII Notturna città di Stabia di km 10 del 31.05.2008
 Val_S_Gius_08::Vallesaccarda S.Giuseppe 2008::Gara podistica di Vallesaccarda, fraz. S.Giuseppe, di km 8,5 del 1.5.2008
 Agropoli_08::Agropoli 2008::Half Marathon di Agropoli del 6 aprile 2008
 Roma_08::Roma 2008::Maratona di Roma del 16 marzo 2008
@@ -46,7 +46,7 @@ Mercogliano_07::Mercogliano 2007::Corsa podistica "X marcialonga in salita Merco
 Siano_07::Siano 2007::Corsa podistica "III notturna sianese" di km 10 del 16/06/2007
 Paestum_07::Paestum 2007::Corsa podistica "Sulle orme di Filippide" di 10 km del 05/05/2007
 Roma_07::Roma 2007::Maratona di Roma del 18 marzo 2007
-All.Coll.06::Allenamento collettivo 2006::Il 30 dicembre 2006 si &egrave; tenuto l'allenamento collettivo, con 15 partecipanti
+All.Coll.06::Allenamento collettivo 2006::Il 30 dicembre 2006 si è tenuto l'allenamento collettivo, con 15 partecipanti
 Fontanarosa_06::Fontanarosa 2006::Corsa estiva di Fontanarosa 2006
 Nusco_06::Nusco 2006::10 km di Nusco 2006
 Roccadaspide_06::Roccadaspide 2006::Corsa estiva di Roccadaspide 2006
@@ -59,7 +59,7 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 [elenco_articoli]
 181::homepage::Sondaggio-Studio Mondiali di Calcio 2014::Ars
 180::homepage::Allenamento Invernale 2013::
-179::homepage::Corsa dei Fal&ograve; Lioni::
+179::homepage::Corsa dei Falò Lioni::
 178::homepage::33^ Maratona di Valencia::
 177::homepage::Stralaceno 2013::
 176::homepage::XX CorriRoccadaspide::
@@ -67,7 +67,7 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 174::homepage::Perdifumo in corsa::
 173::homepage::XVI Mercogliano - Montevergine::
 172::homepage::Gran carrera Zumpango::Paolo Viscardi
-171::homepage::7&deg; trofeo citt&agrave; di Telesia::
+171::homepage::7�&deg; trofeo città di Telesia::
 170::homepage::4^ Carrera Cinemex - Ciudad de Mexico::Paolo Viscardi
 169::homepage::31^ Corsalonga Sangiovannese::
 168::homepage::Corsa della sirena Leucosya::
@@ -89,7 +89,7 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 152::homepage::Escursione sul monte Polveracchio::Gelsomino Del Guercio
 151::homepage::Trail delle Ferriere 2012::
 150::homepage::La corsa fa bene al cervello::Gazzetta.it
-149::homepage::Meno Riscaldamento, pi&ugrave; performance::Corriere.it
+149::homepage::Meno Riscaldamento, più performance::Corriere.it
 148::homepage::La bibbia dello sportivo::
 147::homepage::Maratona di Roma 2012::
 146::homepage::Stanchezza? decide il cervello::Gazzetta.it
@@ -102,7 +102,7 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 139::homepage::Sondaggio Europei di Calcio 2012::Ars
 138::homepage::Granada notturna 2011::Paolo Viscardi
 137::homepage::Bere dopo una corsa? Sbagliato::Corriere.it
-136::homepage::L'attivit&agrave; fisica::Corriere.it
+136::homepage::L'attività fisica::Corriere.it
 135::homepage::Mezza Maratona di Livorno 2011::
 134::homepage::StraSalerno 2011::
 133::homepage::Media Maraton Granada 2011::
@@ -125,13 +125,13 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 116::homepage::Meeting dell'Amicizia di Eboli::Ars
 115::homepage::Trofeo cento sorgenti 2010::Ars
 114::homepage::Stralaceno 2010::Ars
-113::homepage::2&deg; Trofeo San Rocco::Ars
+113::homepage::2�&deg; Trofeo San Rocco::Ars
 112::homepage::Gara podistica Campagna 2010::Ars
 111::homepage::XVII CorriRoccadaspide::Ars
 110::homepage::IV Strapollese::Ars
 109::homepage::XI Notturna Sianese::Ars
 108::homepage::V Scalata al castello::Ars
-107::homepage::Attivit&agrave; di base::Ars
+107::homepage::Attività di base::Ars
 106::homepage::VI edizione "Sulle Orme di Filippide"::Ars
 105::homepage::Sondaggio - Studio Mondiali di Calcio 2010::Ars
 104::homepage::Cinque anni di ARS::
@@ -143,15 +143,15 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 98::homepage::Allenamento Collettivo 31.10.2009::Ars
 97::homepage::Strasalerno 2009::Ars
 94::homepage::Corsa dei 3 campanili 2009::
-95::homepage::1&deg; Trofeo San Rocco::
+95::homepage::1�&deg; Trofeo San Rocco::
 96::homepage::III Podistica di Carillia::
-93::homepage::1&deg; Night Marathon::
+93::homepage::1�&deg; Night Marathon::
 92::homepage::XVI CorriRoccadaspide::
-91::homepage::1&deg; ediz. Corri sull'Altopiano del Laceno::
+91::homepage::1�&deg; ediz. Corri sull'Altopiano del Laceno::
 90::homepage::Stralaceno 2009::
 89::homepage::IV Scalata al Castello::
 88::homepage::V edizione "Sulle Orme di Filippide"::
-87::homepage::Attivit&agrave; Pista Calabritto::Ars
+87::homepage::Attività Pista Calabritto::Ars
 86::homepage::Nomina Responsabili di Settore 2009::Ars
 85::homepage::Allenamento montano di gruppo::Ars
 83::homepage::L'ARS e la XV Maratona di Roma::Paolo Viscardi
@@ -162,7 +162,7 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 78::homepage::L'allenamento in altura::Runners.it
 77::homepage::VIII Vietri e dintorni::Ars
 76::homepage::Allenamento Collettivo 30.12.2008::Ars
-75::homepage::Correre perch&egrave;::Correre.it
+75::homepage::Correre perchè::Correre.it
 74::homepage::Come sfruttare al massimo la pausa invernale::Podistidoc.it
 73::homepage::3 giri a Laceno in autunno::
 71::homepage::Ritrovo a casa Martino::Paolo Viscardi
@@ -176,7 +176,7 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 63::homepage::X Notturna Sianese::Ars
 62::homepage::Rilanciamo la Tre Campanili!::Ars
 61::homepage::Stralaceno 2008::
-60::homepage::XXII Notturna citt&agrave; di Stabia::Ars
+60::homepage::XXII Notturna città di Stabia::Ars
 59::homepage::II Quattro passi a San Giuseppe::Ars
 58::homepage::Sondaggio Europei 2008::Ars
 57::homepage::L'ARS affronta la mezza maratona::Paolo Viscardi
@@ -200,9 +200,9 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 39::homepage::10 km di Nusco 2007::Pasquale Ceres
 33::homepage::Gara podistica Lioni 2007::
 48::homepage::Come allenarsi con un amico::Runner's World
-46::homepage::Podismo: non corro perch&egrave; soffro troppo::Runner's World
+46::homepage::Podismo: non corro perchè soffro troppo::Runner's World
 45::homepage::Podismo: sblocca i risultati::Runner's World
-38::homepage::Podismo: fai il salto di qualit&agrave;::Runner's World
+38::homepage::Podismo: fai il salto di qualità::Runner's World
 32::homepage::Podismo: la prima gara::Runner's World
 31::homepage::Podismo: come fare il primo passo::Runner's World
 30::homepage::X edizione Mercogliano-Montevergine::
@@ -212,11 +212,11 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 25::homepage::III edizione "Sulle orme di Filippide"::
 24::homepage::Tre giri a Laceno::
 22::homepage::Maratona di Roma 2007::
-21::homepage::21&deg; Trofeo Brianzolo::
+21::homepage::21�&deg; Trofeo Brianzolo::
 18::homepage::Allenamento Collettivo 30.12.2006::
-19::homepage::Prima Strauniversit&agrave; a Fisciano (Sa)::
+19::homepage::Prima Strauniversità a Fisciano (Sa)::
 16::homepage::ARS Amatori Running Sele::
-14::homepage::Attivit&agrave; podistica 2006::
+14::homepage::Attività podistica 2006::
 13::homepage::Fontanarosa 2006::
 12::homepage::10 Km di Nusco 2006::
 11::homepage::Stralaceno 2006::Salvatore Merola
@@ -227,7 +227,7 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 6::homepage::Sondaggio Mondiali di Calcio 2006::
 5::homepage::Allenamento collettivo 30.12.2005::
 4::homepage::Allenarsi alla Palmenta::
-3::homepage::Cos'&egrave; la corsa campestre::
+3::homepage::Cos'è la corsa campestre::
 2::homepage::Caposele::
 1::homepage::Rendiconto e Relazione ARS 2011::
 
@@ -236,6 +236,8 @@ Soci_ars::Foto dei soci ARS::Una foto per ciascun socio!
 #
 
 [elenco_pagine]
+%script_root%questions.php?id_questions=13::Sondaggio Europei 2024
+%script_root%questions.php?id_questions=12::Sondaggio Mondiali 2022
 %script_root%questions.php?id_questions=11::Sondaggio Europei 2021
 %script_root%questions.php?id_questions=10::Sondaggio Mondiali 2018
 %script_root%questions.php?id_questions=9::Sondaggio Europei 2016
