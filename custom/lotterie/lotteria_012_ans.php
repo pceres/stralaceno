@@ -53,19 +53,19 @@ Marocco
 # Qualificato quarti 8:
 Portogallo 
 # Qualificato semifinale 1:
-nd
+Argentina
 # Qualificato semifinale 2:
-nd
+Croazia
 # Qualificato semifinale 3:
-nd
+Francia
 # Qualificato semifinale 4:
-nd
+Marocco
 # Qualificato finale 1:
-nd
+Argentina
 # Qualificato finale 2:
-nd
+Francia
 # Vincitore:
-nd
+Argentina
 
 #
 # Le risposte sono suddivise in gruppi. Per ciascun gruppo esiste un set di risposte piu' o meno corrette
@@ -89,16 +89,16 @@ nd
 Qatar::5,0;4,0;3,0;2,0;1,0
 Ecuador::5,0;4,0;3,0;2,0;1,0
 Senegal::5,20;4,0;3,0;2,0;1,0
-Paesi Bassi::5,20;4,20
-Inghilterra::5,20;4,20
+Paesi Bassi::5,20;4,20;3,18;2,0;1,0
+Inghilterra::5,20;4,20;3,0;2,0;1,0
 Iran::5,0;4,0;3,0;2,0;1,0
 Stati Uniti::5,20;4,0;3,0;2,0;1,0
 Galles::5,0;4,0;3,0;2,0;1,0
-Argentina::5,20;4,20
+Argentina::5,20;4,20;3,22;2,80;1,88
 Arabia Saudita::5,0;4,0;3,0;2,0;1,0
 Messico::5,6;4,0;3,0;2,0;1,0
 Polonia::5,14;4,0;3,0;2,0;1,0
-Francia::5,20;4,20
+Francia::5,20;4,20;3,40;2,80;1,72
 Australia::5,20;4,0;3,0;2,0;1,0
 Danimarca::5,0;4,0;3,0;2,0;1,0
 Tunisia::5,0;4,0;3,0;2,0;1,0
@@ -108,13 +108,13 @@ Germania::5,6;4,0;3,0;2,0;1,0
 Giappone::5,20;4,9;3,0;2,0;1,0
 Belgio::5,0;4,0;3,0;2,0;1,0
 Canada::5,0;4,0;3,0;2,0;1,0
-Marocco::5,20;4,11
-Croazia::5,20;4,11
-Brasile::5,20;4,20
+Marocco::5,20;4,11;3,40;2,0;1,0
+Croazia::5,20;4,11;3,22;2,0;1,0
+Brasile::5,20;4,20;3,18;2,0;1,0
 Serbia::5,0;4,0;3,0;2,0;1,0
 Svizzera::5,20;4,0;3,0;2,0;1,0
 Camerun::5,0;4,0;3,0;2,0;1,0
-Portogallo::5,20;4,20
+Portogallo::5,20;4,20;3,0;2,0;1,0
 Ghana::5,0;4,0;3,0;2,0;1,0
 Uruguay::5,10;4,0;3,0;2,0;1,0
 Corea del Sud::5,10;4,0;3,0;2,0;1,0

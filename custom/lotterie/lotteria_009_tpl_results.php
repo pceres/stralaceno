@@ -133,7 +133,10 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 			array_push($lista_punti_per_ordinamento,$punti_per_ordinamento);
 		}
 		
-		$punteggio += $punti;
+		if (is_numeric($punti)) {
+			// only increment $punteggio if $punti is a number (for example '-' is discarded)
+			$punteggio += $punti;
+		}
 		
 		$gruppo_old = $gruppo;
 	}

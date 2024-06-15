@@ -14,7 +14,8 @@ Il primo classificato con 567 punti &egrave; Mattia Azzinnari; secondo classific
 <br>
 <!--a href="questions.php?id_questions=13">Qui</a> è disponibile il tabellone con la classifica attuale.<br>
 <a href="statistiche.php?id_questions=13&action=show">Qui</a> invece trovate una analisi statistica sui pronostici effettuati.<br-->
-<p style="margin-top:20px">Le giocate per il Sondaggio Euro 2024 si apriranno alla mezzanotte del 10 maggio.<br>
+<!--p style="margin-top:20px">Le giocate per il Sondaggio Euro 2024 si apriranno alla mezzanotte del 10 maggio.<br-->
+<p style="margin-top:20px">Le giocate per il Sondaggio Euro 2024 sono aperte fino a mezzogiorno del 14 giugno.<br>
 <a href="questions.php?id_questions=13">Qui</a> è disponibile la pagina per inserire la giocata<br>
 <br>
 Il punteggio assegnato per la qualificazione delle 12 squadre prime e seconde classificate nei gironi &egrave; il seguente:</p>
