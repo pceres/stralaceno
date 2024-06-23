@@ -269,15 +269,15 @@ Consulta il <a href="download.php?resource_type=file&resource_id=file_Tabella_eu
 # <tag>::<caption>::<stile_CSS>
 #
 #	<tag> 		: testo usato nell'interfaccia amm., associato a ciascun biglietto giocato. Il luogo di provenienza viene salvato, seguito un flag, eventualmente seguito dal tag in questione
-#			  		ad esempio il tag ";GensAmbrosiana$" intercetterà tutte le giocate che sono state modificate MANUALMENTE aggiungendo il testo, in modo da
+#			  		ad esempio il tag ";GensAmbrosiana$" intercettera tutte le giocate che sono state modificate MANUALMENTE aggiungendo il testo, in modo da
 					avere <giocate>,<localita'>,0;GensAmbrosiana::<time_number>::<date>::...
 #	<caption>	: descrizione usata in legenda
 #	<stile_CSS>	: stile CSS usato per la riga rispettiva
 #
 [stili_riga]
 ;Checked$:: Gens Silarensis::background:#FFFFAA;
-#;Unchecked$:: Gens quasi Silarensis (Più di 1 errore alla verifica di silaritudine)::background:#FFDDBB;
-#;GensBrutia$:: Gens Brutia::background:#E8F3FF;
-#;GensTaurinensis$:: Gens Taurinensis::background:#FFDDBB;
-#;GensAmbrosiana$:: Gens Ambrosiana::background:#FFEDCB;
+#;Unchecked$:: Gens quasi Silarensis (Pi� di 1 errore alla verifica di silaritudine)::background:#FFDDBB;
+;GensBrutia$:: Gens Brutia::background:#E8F3FF;
+;GensTaurinensis$:: Gens Taurinensis::background:#FFDDBB;
+;GensAmbrosiana$:: Gens Ambrosiana::background:#FFEDCB;
 .*:: Gens Mundi::background:#FFF6F0;

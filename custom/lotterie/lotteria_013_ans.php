@@ -5,9 +5,9 @@
 #
 
 # Qualificato ottavi 1:
-nd
+Germania
 # Qualificato ottavi 2:
-nd
+Spagna
 # Qualificato ottavi 3:
 nd
 # Qualificato ottavi 4:
@@ -86,11 +86,11 @@ nd
 # Brasile::5,20;4,0             # se il Brasile passa il primo turno ma esce al secondo, e non sono state giocate altre partite
 # Brasile::5,20;4,0;3,0;2,0;1,0 # se il Brasile passa il primo turno ma esce al secondo, e sono state giocate tutte le partite
 [punteggio_risposte]
-Germania::
+Germania::5,20
 Ungheria::
 Scozia::
 Svizzera::
-Spagna::
+Spagna::5,20
 Albania::
 Croazia::
 Italia::
