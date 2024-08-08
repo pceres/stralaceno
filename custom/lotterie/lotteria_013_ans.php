@@ -9,63 +9,63 @@ Germania
 # Qualificato ottavi 2:
 Spagna
 # Qualificato ottavi 3:
-nd
+Portogallo
 # Qualificato ottavi 4:
-nd
+Svizzera
 # Qualificato ottavi 5:
-nd
+Italia
 # Qualificato ottavi 6:
-nd
+Inghilterra
 # Qualificato ottavi 7:
-nd
+Austria
 # Qualificato ottavi 8:
-nd
+Francia
 # Qualificato ottavi 9:
-nd
+Danimarca
 # Qualificato ottavi 10:
-nd
+Romania
 # Qualificato ottavi 11:
-nd
+Belgio
 # Qualificato ottavi 12:
-nd
+Turchia
 # Qualificato ottavi 13:
-nd
+Slovacchia
 # Qualificato ottavi 14:
-nd
+Slovenia
 # Qualificato ottavi 15:
-nd
+Olanda
 # Qualificato ottavi 16:
-nd
+Georgia
 # Qualificato quarti 1:
-nd
+Svizzera
 # Qualificato quarti 2:
-nd
+Germania
 # Qualificato quarti 3:
-nd
+Inghilterra
 # Qualificato quarti 4:
-nd
+Spagna
 # Qualificato quarti 5:
-nd
+Francia
 # Qualificato quarti 6:
-nd
+Portogallo
 # Qualificato quarti 7:
-nd
+Olanda
 # Qualificato quarti 8:
-nd
+Turchia
 # Qualificato semifinale 1:
-nd
+Spagna
 # Qualificato semifinale 2:
-nd
+Francia
 # Qualificato semifinale 3:
-nd
+Inghilterra
 # Qualificato semifinale 4:
-nd
+Olanda
 # Qualificato finale 1:
-nd
+Spagna
 # Qualificato finale 2:
-nd
+Inghilterra
 # Vincitore:
-nd
+Spagna
 
 #
 # Le risposte sono suddivise in gruppi. Per ciascun gruppo esiste un set di risposte piu' o meno corrette
@@ -86,27 +86,27 @@ nd
 # Brasile::5,20;4,0             # se il Brasile passa il primo turno ma esce al secondo, e non sono state giocate altre partite
 # Brasile::5,20;4,0;3,0;2,0;1,0 # se il Brasile passa il primo turno ma esce al secondo, e sono state giocate tutte le partite
 [punteggio_risposte]
-Germania::5,20
-Ungheria::
-Scozia::
-Svizzera::
-Spagna::5,20
-Albania::
-Croazia::
-Italia::
-Inghilterra::
-Danimarca::
-Slovenia::
-Serbia::
-Francia::
-Austria::
-Olanda::
-Polonia::
-Belgio::
-Romania::
-Slovacchia::
-Ucraina::
-Portogallo::
-Turchia::
-Repubblica Ceca::
-Georgia::
+Germania::5,20;4,20;3,8;2,0;1,0
+Ungheria::5,0;4,0;3,0;2,0;1,0
+Scozia::5,0;4,0;3,0;2,0;1,0
+Svizzera::5,20;4,20;3,18;2,0;1,0
+Spagna::5,20;4,20;3,32;2,80;1,160
+Albania::5,0;4,0;3,0;2,0;1,0
+Croazia::5,0;4,0;3,0;2,0;1,0
+Italia::5,20;4,0;3,0;2,0;1,0
+Inghilterra::5,20;4,16;3,22;2,80;1,0
+Danimarca::5,10;4,0;3,0;2,0;1,0
+Slovenia::5,10;4,9;3,0;2,0;1,0
+Serbia::5,0;4,0;3,0;2,0;1,0
+Francia::5,20;4,20;3,22;2,0;1,0
+Austria::5,20;4,0;3,0;2,0;1,0
+Olanda::5,0;4,20;3,40;2,0;1,0
+Polonia::5,0;4,0;3,0;2,0;1,0
+Belgio::5,14;4,0;3,0;2,0;1,0
+Romania::5,14;4,0;3,0;2,0;1,0
+Slovacchia::5,6;4,4;3,0;2,0;1,0
+Ucraina::5,6;4,0;3,0;2,0;1,0
+Portogallo::5,20;4,11;3,18;2,0;1,0
+Turchia::5,20;4,20;3,0;2,0;1,0
+Repubblica Ceca::5,0;4,0;3,0;2,0;1,0
+Georgia::5,0;4,0;3,0;2,0;1,0
