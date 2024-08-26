@@ -26,7 +26,7 @@ $web_keywords = "Stralaceno, Caposele, Caposelesi, Corsa podistica, Atletica, La
 
 
 # indirizzo e-mail per contatti (stringa vuota se non e' disponibile)
-$email_info	= "stralaceno@freepass.it";
+$email_info	= "pasquale_c@hotmail.com";
 
 
 # durata massimo della gara [min]
