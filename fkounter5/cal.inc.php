@@ -84,7 +84,7 @@ class Calendar{
   settype($__month,"integer");
   settype($__date,"integer");
 
-  if(array_key_exists($__year,$this->__year))
+  if ( (isset($this->__year)) && (array_key_exists($__year,$this->__year)) )
    switch(strtolower($__type[0])){
     case "d":
      if(array_key_exists($__month-1,$this->__year[$__year]))

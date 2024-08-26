@@ -8,15 +8,32 @@ questa libreria esamina i cookies o i parametri http (eventualmente) inviati, e 
 
 $IP = get_IP(); // informazioni sulla connessione remota
 
-$cookie_username = $_COOKIE['login']['username'];
-$cookie_usergroups = $_COOKIE['login']['usergroups'];
-$cookie_challenge_id = $_COOKIE['login']['challenge_id'];
+// analisi dei cookie (eventuali)
+$cookie_username = is_null($_COOKIE['login']['username']) ? "" : $_COOKIE['login']['username'];
+$cookie_username = sanitize_user_input($cookie_username,'plain_text',array());		// (eventuale) username (cookie)
 
+$cookie_usergroups = is_null($_COOKIE['login']['usergroups']) ? "" : $_COOKIE['login']['usergroups'];
+$cookie_usergroups = sanitize_user_input($cookie_usergroups,'plain_text',array()); 	// (eventuale) usergroups (cookie)
+
+$cookie_challenge_id = is_null($_COOKIE['login']['challenge_id']) ? "" : $_COOKIE['login']['challenge_id'];
+$cookie_challenge_id = sanitize_user_input($cookie_challenge_id,'plain_text',array()); 	// (eventuale) challenge id (cookie)
+
+// analisi dell'input inserito dall'utente
 $login_action = $_REQUEST['login_action'];
+$login_action = sanitize_user_input($login_action,'plain_text',array()); // azione da effettuare
+
 $username = $_REQUEST['username'];
+$username = sanitize_user_input($username,'plain_text',array()); // username inserito dall'utente
+
 $userpass = $_REQUEST['userpass'];
+$userpass = sanitize_user_input($userpass,'plain_text',array()); // password inserita dall'utente
+
 $challenge = $_REQUEST['challenge'];
+$challenge = sanitize_user_input($challenge,'plain_text',array()); // challenge del login
+
 $challenge_id = $_REQUEST['challenge_id'];
+$challenge_id = sanitize_user_input($challenge_id,'plain_text',array()); // challenge_id del login
+
 
 $EXPIRE_COOKIE = 60*60; // [s] durata dei cookies (un'ora)
 $strict = false; // true -> qualsiasi errore blocca l'esecuzione; false -> viene restituito il msg di errore
@@ -55,10 +72,10 @@ case 'login':
 		}
 		break;
 	}
-	elseif ( (strlen($username)>0) &
-			 (strlen($userpass)>0) &
-			 (strlen($challenge)>0) &
-			 (strlen ($challenge_id)>0) ) // login in corso
+	elseif ( (strlen((string)$username)>0) &
+			 (strlen((string)$userpass)>0) &
+			 (strlen((string)$challenge)>0) &
+			 (strlen ((string)$challenge_id)>0) ) // login in corso
 	{ // altrimenti tenta il login con i parametri passati dal form:
 
 		// verifica che il challenge non sia gia' stato usato. In tal caso marcalo come usato (registrando l'IP)!
@@ -155,6 +172,10 @@ function get_challenge(&$challenge_id,&$challenge)
 	if (file_exists($filename_challenge))
 	{
 		$bulk = file($filename_challenge);
+	}
+	else
+	{
+		$bulk = Array();
 	}
 	$challenge_id = md5(time());	
 	$challenge = md5($challenge_id.time());
@@ -270,7 +291,11 @@ function check_IP_challenge_id($challenge_id,$IP)
 	{
 		$bulk = file($filename_challenge);
 	}
-	
+	else
+	{
+		$bulk = Array();
+	}
+
 	$result = false;
 	$indice = '';
 	for ($key = count($bulk)-1; $key >= 0; $key--)
