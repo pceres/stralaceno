@@ -41,3 +41,49 @@
 #
 [elenco_pagine]
 %script_root%statistiche.php?action=show&amp;id_questions=2::Statistiche Sondaggio StralacenoWeb 2006
+aceno 2021::
+2022::Edizione Stralaceno 2022::
+2023::Edizione Stralaceno 2023::
+#2024::Edizione Stralaceno 2024::
+
+
+#
+# formato elenco_articoli:  id_articolo::sezione::titolo::autore
+#
+[elenco_articoli]
+2::homepage::Presentazione::
+16::homepage::Misurazione circuito Laceno::
+20::homepage::Proiezione tempo finale Stralaceno::
+14::homepage::VI edizione (1994)::
+1::homepage::Edizione 2004::
+6::homepage::Presentazione XVII edizione::
+9::homepage::XVII edizione::
+7::homepage::Il racconto della gara 2005 di P. Viscardi::Paolo Viscardi
+11::homepage::XVIII edizione (2006)::
+13::homepage::Risultati sondaggio StralacenoWeb 2006::
+15::homepage::XIX edizione (2007)::
+17::homepage::XX edizione (2008)::
+19::homepage::XXI edizione (2009)::
+22::homepage::XXII edizione (2010)::
+24::homepage::XXIII edizione (2011)::
+25::homepage::XXIV edizione (2012)::
+26::homepage::XXV edizione (2013)::
+27::homepage::XXVI edizione (2014)::
+28::homepage::XXVII edizione (2015)::
+29::homepage::Presentazione XXVIII edizione (2016)::
+30::homepage::XXVIII edizione (2016)::
+32::homepage::XXIX edizione (2017)::
+33::homepage::XXX edizione (2018)::
+31::homepage::XXXI edizione (2019)::
+34::homepage::XXXII edizione (2020)::
+35::homepage::XXXIII edizione (2021)::
+36::homepage::XXXIV edizione (2022)::
+37::homepage::XXXV edizione (2023)::
+#38::homepage::XXXVI edizione (2024)::
+
+
+#
+# formato elenco_pagine:  tag_pagina::titolo_pagina::titolo::autore
+#
+[elenco_pagine]
+%script_root%statistiche.php?action=show&id_questions=2::Statistiche Sondaggio StralacenoWeb 2006

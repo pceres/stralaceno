@@ -821,3 +821,7 @@ image00004.jpg::::::Vanessa Jacenda
 image00003.jpg::::::Elisa Nittoli
 image00002.jpg::::::Daniele Caprio
 image00001.jpg::::::Daniele Caprio, Alfonsina D'Auria
+aprio, Alfonsina D'Auria
+
+[2024]
+stra24_1.jpg::::::

@@ -1,0 +1,42 @@
+Autore::Comitato Stralaceno
+Titolo::XXXVI edizione
+--- Begin body ---
+<br>La Stralaceno 2024, XXXVI edizione, si &egrave; disputata venerd&igrave; 23 agosto.<br><br>
+I partecipanti sono stati 43. <br><br>
+Nei prossimi giorni verranno pubblicati su questo sito i risultati ufficiali. <br>
+<!--
+I <a href="filtro4.php?anno=2024">risultati Ufficiali</a> sono disponibili.<br><br><br>
+-->
+<div align="center">
+<br><br>
+<img id="Stralaceno_2024" src="%file_root%custom/album/2024/stra24_1.jpg" alt="" border="0" width="500">
+</div>
+<br><br>
+L'edizione 2024 della Stralaceno si svolger&agrave; il pomeriggio di venerd&igrave; 23 agosto.<br>
+<br><br>
+<br>
+Comunicato n.3 - INDICAZIONI PER I PARTECIPANTI DELLA STRALACENO 2024 - 
+<br><br>
+Le preiscrizioni verranno chiuse alle ore 14 di venerdì 23 agosto. 
+<br><br>
+La manifestazione si svolgerà con ogni condizione meteo.
+<br><br>
+Chi si è regolarmente preiscritto potrà presentarsi anche direttamente alla partenza, con il numero applicato sul petto in maniera ben visibile, per il velocissimo riconoscimento che precede il via.
+<br><br>
+Chi non fosse riuscito a preiscriversi potrà farlo comunque direttamente a Laceno ma tenendo presente i tempi tecnici necessari.
+<br><br>
+Si ricorda che i risultati ufficiosi saranno diffusi sul canale whatsapp e sulla pagina Facebook. I risultati ufficiali saranno pubblicati sul sito Stralaceno.
+<br><br><br>
+COMUNICATO N.2 – PREISCRIZIONI e NUMERI DI GARA. <br><br>
+Per dare un aiuto concreto agli organizzatori i partecipanti alla edizione 2024 (23 agosto) sono invitati a preiscriversi attraverso
+<a href="https://forms.gle/gMsYCbe1tLCZMc3VA">questo link</a>.
+<br><br>
+Si ricorda che &egrave; comunque possibile iscriversi direttamente a Laceno il giorno della manifestazione (23 agosto), anche se ci&ograve; comporta maggiori oneri per gli organizzatori.
+<br><br>
+Chi non ha ancora il numero (già da alcune edizioni si sta procedendo con le assegnazioni definitive) può ritirarlo rivolgendosi agli Organizzatori o agli Amministratori dei gruppi Whatsapp o Facebook della Stralaceno.
+<br>
+<br>
+<br>
+COMUNICATO N 1 - ADESIONE AL COMITATO STRALACENO 2024.<br><br>
+Si entra a far parte del Comitato Stralaceno 2024 semplicemente sostenendo la manifestazione (prevista per venerd&igrave; 23 agosto 2024) con la propria partecipazione. <br>Chiunque fosse interessato ad entrare nell'organizzazione o a collaborare per l'edizione 2024, &egrave; pregato di mettersi in contatto privatamente. <br>
+--- End body ---
