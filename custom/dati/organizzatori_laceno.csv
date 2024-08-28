@@ -379,8 +379,8 @@ Id;Collaboratore;Sesso;Incarico;Anno;Link;Nota
 1;Nicola D'Auria;M;Organizzatore;2023;-;-
 2;Alessandro Russomanno;M;Organizzatore;2023;-;-
 76;Antonio Mattia;M;Direttore di gara;2023;-;-
-94;Angelo Farina;M;Secondo Cronometrista;2023;-;-
 9;Alfonso Curcio;M;Primo Cronometrista;2023;-;-
+94;Angelo Farina;M;Secondo Cronometrista;2023;-;-
 81;Francesco Ceres di Gerardo;M;Conduttore della manifestazione;2023;-;-
 91;Vitale Cetrulo;M;Segretario di gara;2023;-;-
 17;Pasquale Ceres;M;Responsabile archivio web e stesura classifica;2023;-;-
@@ -389,8 +389,12 @@ Id;Collaboratore;Sesso;Incarico;Anno;Link;Nota
 103;Comitato Stralaceno 2024;M;Organizzatore;2024;-;-
 1;Nicola D'Auria;M;Organizzatore;2024;-;-
 2;Alessandro Russomanno;M;Organizzatore;2024;-;-
-92;Emanuele Ceres;M;Direttore di gara;2024;-;-
+35;Giuseppe Meo;M;Direttore di gara;2024;-;-
+9;Alfonso Curcio;M;Primo Cronometrista;2024;-;-
+94;Angelo Farina;M;Secondo Cronometrista;2024;-;-
+81;Francesco Ceres di Gerardo;M;Conduttore della manifestazione;2024;-;-
 91;Vitale Cetrulo;M;Segretario di gara;2024;-;-
 60;Gerardo Cetrulo 'Pius';M;Ispettore di gara;2024;-;-
 17;Pasquale Ceres;M;Responsabile archivio web e stesura classifica;2024;-;-
 79;Alfonsina D'Auria;F;Collaboratrice;2024;-;-
+92;Emanuele Ceres;M;Collaboratore;2024;-;-
