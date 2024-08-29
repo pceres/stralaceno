@@ -2,7 +2,7 @@
 #
 # ogni album inizia con una riga vuota, ed un'altra del tipo [nome_album]. Seguono poi una o piu' righe, una per
 # ciascuna foto, nel formato:
-# foto::titolo::descrizione::nome e cognome
+# foto::titolo::descrizione::nome e cognome (lista con nomi separati da virgola)
 # Ogni riga che inizia con # viene ignorata.
 #
 
@@ -824,4 +824,34 @@ image00001.jpg::::::Daniele Caprio, Alfonsina D'Auria
 aprio, Alfonsina D'Auria
 
 [2024]
-stra24_1.jpg::::::
+ImageStra2024_01.jpg::::::Donato Ceres, Salvatore Merola
+ImageStra2024_02.jpg::::::Antonio Viscido
+ImageStra2024_03.jpg::::::Paolo Viscardi
+ImageStra2024_04.jpg::::::Gerardo Zarra
+ImageStra2024_05.jpg::::::Alfredo Malanga, Antonio Nesta, Alessio Merola
+ImageStra2024_06.jpg::::::Gianni Sozio
+ImageStra2024_07.jpg::::::Stefania D'Auria
+ImageStra2024_08.jpg::::::Vanessa Iacenda
+ImageStra2024_09.jpg::::::Antonio D'Elia, Donatella Malanga, Alfonso Sturchio
+ImageStra2024_10.jpg::::::Elisa Nittoli
+ImageStra2024_11.jpg::::::Carmine Cuozzo
+ImageStra2024_12.jpg::::::Alfonsina D'Auria
+ImageStra2024_13.jpg::::::Gino Amendola
+ImageStra2024_14.jpg::::::Alfonso Sturchio
+ImageStra2024_15.jpg::::::Rocco Grasso
+ImageStra2024_16.jpg::::::Nicola D'Auria
+ImageStra2024_17.jpg::::::Stelvio Celano
+ImageStra2024_18.jpg::::::Rocco Nesta
+ImageStra2024_19.jpg::::::Giovanni Viscardi, Gaetano D'Elia
+ImageStra2024_20.jpg::::::Alfonso Rosania
+ImageStra2024_21.jpg::::::Vincenzo Russomanno
+ImageStra2024_22.jpg::::::Alessio Merola, Alfonso Rosania
+ImageStra2024_23.jpg::::::Nicola Melillo
+ImageStra2024_24.jpg::::::Salvatore Cuozzo, Pasquale Ceres
+ImageStra2024_25.jpg::::::Pasquale Ceres
+ImageStra2024_26.jpg::::::Gianni Cetrulo
+ImageStra2024_27.jpg::::::Donato Merola 2006, Sandro Russomanno
+AngSturchEAltri.jpg::::::Salvatore Cuozzo, Gelsomino Grasso, Gerardo Zarra, Angelo Sturchio
+Partenza2024.jpg::Partenza Stralaceno 2024::XXXVI edizione::
+stra24_1.jpg::Premiazione Stralaceno 2024::Primi classificati maschile e femminile::Daniele Caprio, Donatella Malanga
+Premiazione2024.jpg::Premiazione Stralaceno 2024::I vincitori nella classifica maschile e femminile sollevano soddisfatti il campanaccio della Stralaceno::Daniele Caprio, Donatella Malanga

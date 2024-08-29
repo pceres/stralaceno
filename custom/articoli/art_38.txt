@@ -3,17 +3,19 @@ Titolo::XXXVI edizione
 --- Begin body ---
 <br>La Stralaceno 2024, XXXVI edizione, si &egrave; disputata venerd&igrave; 23 agosto.<br><br>
 I partecipanti sono stati 43. <br><br>
-Nei prossimi giorni verranno pubblicati su questo sito i risultati ufficiali. <br>
 <!--
-I <a href="filtro4.php?anno=2024">risultati Ufficiali</a> sono disponibili.<br><br><br>
+Nei prossimi giorni verranno pubblicati su questo sito i risultati ufficiali. <br>
 -->
+I <a href="filtro4.php?anno=2024">risultati Ufficiali</a> sono disponibili.<br><br><br>
 <div align="center">
 <br><br>
 <img id="Stralaceno_2024" src="%file_root%custom/album/2024/stra24_1.jpg" alt="" border="0" width="500">
 </div>
 <br><br>
+<!--
 L'edizione 2024 della Stralaceno si svolger&agrave; il pomeriggio di venerd&igrave; 23 agosto.<br>
 <br><br>
+-->
 <br>
 Comunicato n.3 - INDICAZIONI PER I PARTECIPANTI DELLA STRALACENO 2024 - 
 <br><br>
