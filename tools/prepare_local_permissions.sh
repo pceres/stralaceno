@@ -7,9 +7,11 @@ chmod a+r custom/config/style.css
 #chmod a+w custom/contatori/log_contents.php
 chmod a+w custom/contatori/lasthitfile.txt
 chmod a+w custom/contatori/logfile.txt
-#chmod a+w custom/contatori/data/data_ars.php
-#chmod a+w custom/contatori/temp/accs_ars.dat
+chmod a+w custom/contatori/data/data_*.php
+chmod a+w custom/contatori/temp/accs_*.dat
+chmod a+w custom/contatori/temp/lock_*.tmp
 chmod a+w custom/lotterie/lotteria_*_ans.php
+
 #chmod a+w custom/moduli/last_contents/last_contents_cfg.txt
 
 # remove temporary files
