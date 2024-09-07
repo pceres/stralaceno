@@ -7,7 +7,7 @@ inizio footer
 	  <tbody>
 	  
 		<tr>
-		  <td align="right"><small>Informazioni sulla Stralaceno</small></td>
+		  <td align="right"><small>Informazioni sulla <?php echo $race_name?></small></td>
 		  <td><small>:</small></td>
 		  <td align="left" style="font-style: italic;"><small><a
 			 href="mailto:<?php echo $email_info ?>?subject=Contattaci"
