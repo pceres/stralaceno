@@ -6,7 +6,7 @@
 #
 
 [data_aggiornamento]
-29/08/2008
+30/08/2013
 
 [elenco_fanfaroni]
 #xx::??::Millantata performance

@@ -21,27 +21,21 @@
 2004::Edizione Stralaceno 2004::
 2005::Edizione Stralaceno 2005::
 2006::Edizione Stralaceno 2006::
-
-
-
-#
-# formato elenco_articoli:  id_articolo::sezione::titolo::autore
-#
-[elenco_articoli]
-9::homepage::Risultati XVII edizione::
-7::homepage::Il racconto della gara di P. Viscardi::Paolo Viscardi
-6::homepage::XVII edizione::
-2::homepage::Presentazione::
-1::homepage::Edizione 2004::
-
-
-
-#
-# formato elenco_pagine:  tag_pagina::titolo_pagina::titolo::autore
-#
-[elenco_pagine]
-%script_root%statistiche.php?action=show&amp;id_questions=2::Statistiche Sondaggio StralacenoWeb 2006
-aceno 2021::
+2007::Edizione Stralaceno 2007::
+2008::Edizione Stralaceno 2008::
+2009::Edizione Stralaceno 2009::
+2010::Edizione Stralaceno 2010::
+2011::Edizione Stralaceno 2011::
+2012::Edizione Stralaceno 2012::
+2013::Edizione Stralaceno 2013::
+2014::Edizione Stralaceno 2014::
+2015::Edizione Stralaceno 2015::
+2016::Edizione Stralaceno 2016::
+2017::Edizione Stralaceno 2017::
+2018::Edizione Stralaceno 2018::
+2019::Edizione Stralaceno 2019::
+2020::Edizione Stralaceno 2020::
+2021::Edizione Stralaceno 2021::
 2022::Edizione Stralaceno 2022::
 2023::Edizione Stralaceno 2023::
 #2024::Edizione Stralaceno 2024::

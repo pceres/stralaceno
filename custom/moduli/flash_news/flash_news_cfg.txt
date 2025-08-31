@@ -10,7 +10,7 @@
 07/08/2006::L'edizione 2006 della Stralaceno si disputer&agrave; il 30 agosto.
 05/08/2006::Sono disponibili le magliette Stralaceno 2006.
 02/09/2005::XVII edizione della Stralaceno.
-03/09/2005::XVI edizione della Stralaceno.
+03/09/2004::XVI edizione della Stralaceno.
 
 #
 # formato testo_footer:  testo
