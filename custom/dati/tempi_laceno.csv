@@ -874,7 +874,7 @@ ID;Atleta;Pos.;Tempo;Anno;Note
 86;Donatello Cirillo;9;23'10'';2012;
 194;Gerardo Monteverde;10;23'31'';2012;
 218;Alfonso Rosania;11;23'41'';2012;
-256;Raffaele Panariello;12;23'44'';2012;Inflitti dal direttore di gara 15 secondi di penalizzazione, con istruttoria conclusasi il 03-01-2013, in cui e’ stata accertata la fuoriscita dal tracciato di gara. Contro il provvedimento e’ ammesso ricorso al Consiglio dei Decani.
+256;Raffaele Panariello;12;23'44'';2012;Inflitti dal direttore di gara 15 secondi di penalizzazione, con istruttoria conclusasi il 03-01-2013, in cui e' stata accertata la fuoriscita dal tracciato di gara. Contro il provvedimento e' ammesso ricorso al Consiglio dei Decani.
 123;Rocco Feniello;13;23'54'';2012;
 244;Gerardo Viscido;14;23'56'';2012;
 45;Gerardo Notaro;15;24'17'';2012;
@@ -1447,7 +1447,7 @@ ID;Atleta;Pos.;Tempo;Anno;Note
 330;Carmelo Cannatà;32;32'31'';2022;
 49;Luciano Viscido;33;32'36'';2022;
 326;Stefania D'Auria;34;33'55'';2022;
-331;Gerarda Russomanno 1999;35;34'39'';2022;E’ in corso un accertamento sull'attendibilità di questa rilevazione
+331;Gerarda Russomanno 1999;35;34'39'';2022;E' in corso un accertamento sull'attendibilità di questa rilevazione
 16;Vito D'Alessio;36;34'41'';2022;
 224;Daniele Caprio;1;19'12'';2023;
 313;Michael Luongo;2;20'26'';2023;
@@ -1534,3 +1534,51 @@ ID;Atleta;Pos.;Tempo;Anno;Note
 326;Stefania D'Auria;41;36'29'';2024;
 335;Vanessa Iacenda;42;36'37'';2024;
 289;Elisa Nittoli;43;36'46'';2024;
+224;Daniele Caprio;1;18'14'';2025;
+313;Michael Luongo;2;18'37'';2025;
+51;Donato Ceres;3;21'33'';2025;
+309;Gelsomino Monteverde;4;22'10'';2025;
+83;Paolo Viscardi;5;22'16'';2025;
+233;Antonio Nesta;6;22'55'';2025;
+197;Gianni Sozio;7;23'28'';2025;
+26;Pasquale Ceres;8;24'08'';2025;
+300;Antonio Viscido 1975;9;24'12'';2025;
+295;Giuseppe Malanga 1981;10;24'32'';2025;
+135;Claudio Donatiello;11;24'46'';2025;
+145;Gelsomino Merola di Don.;12;25'58'';2025;
+242;Pasquale Pallante;13;26'45'';2025;
+249;Paolo Palmieri;14;26'46'';2025;
+239;Alessio Merola;15;26'50'';2025;
+196;Luigi Russomanno;16;26'53'';2025;
+29;Alessandro Russomanno;17;27'00'';2025;
+50;Gianni Cetrulo;18;27'13'';2025;
+342;Luca Chiaravallo;19;27'27'';2025;
+343;Giuseppe Cetrulo 2010;20;27'30'';2025;
+344;Marco Guarino;21;27'32'';2025;
+69;Lello Viscardi;22;27'35'';2025;
+70;Nicola Melillo;23;27'37'';2025;
+218;Alfonso Rosania;24;27'43'';2025;
+345;Alfonso Colatrella;25;27'50'';2025;
+200;Gaetano D'Elia;26;28'07'';2025;
+109;Armando Grasso di Pasq.;26;28'07'';2025;
+325;Stelvio Celano;28;28'26'';2025;
+220;Gerardo Del Malandrino;29;28'53'';2025;
+346;Nicola Ambrosino;30;29'09'';2025;
+86;Donatello Cirillo;30;29'09'';2025;
+32;Gino Amendola;32;29'21'';2025;
+268;Carmine Cuozzo;33;29'37'';2025;
+129;Rocco Nesta;34;30'06'';2025;
+226;Giovanni Viscardi;35;30'11'';2025;
+2;Nicola D'Auria;36;30'21'';2025;
+316;Gerardo Cione;37;31'43'';2025;
+338;Alessandro Eletto;38;31'56'';2025;
+227;Vincenzo Curcio;39;32'00'';2025;
+310;Alfonsina D'Auria;40;32'09'';2025;
+326;Stefania D'Auria;41;32'24'';2025;
+311;Gianluca Cione;42;32'38'';2025;
+13;Lorenzo Sozio;43;32'41'';2025;
+18;Alfonso Sturchio;44;33'21'';2025;
+298;Raffaella Palmieri;45;34'40'';2025;
+91;Antonio D'Elia;45;34'40'';2025;
+334;Tiziana Monteverde;47;35'15'';2025;
+289;Elisa Nittoli;48;36'34'';2025;
