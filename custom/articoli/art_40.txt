@@ -1,0 +1,8 @@
+Autore::Consiglio dei Decani
+Titolo::Statuto della Stralaceno
+--- Begin body ---
+<br>
+E' stato ultimato e protocollato presso il comune di Caposele in data 09/06/2026 lo Statuto della Stralaceno.<br>
+<br>
+Il documento è consultabile a <a href="custom/moduli/regolamento/Statuto della STRALACENO firmato e protocollato 9-6-2025.pdf">questo indirizzo</a>.
+--- End body ---
