@@ -1283,9 +1283,16 @@ return $id_articolo;
 
 function log_action($workdir,$string)
 {
-$file = fopen($workdir . 'something_changed.txt', "a");
-fputs($file, $string."\r\n");
-fclose($file);
+	$file = fopen($workdir . 'something_changed.txt', "a");
+	if ($file===false)
+	{
+		die("File something_changed.txt in $workdir cannot be opened in append mode!");
+	}
+	else
+	{
+		fputs($file, $string."\r\n");
+		fclose($file);
+	}
 }
 
 
