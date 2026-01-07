@@ -52,4 +52,9 @@ $dat__entry[76951]=array("ts"=>"1723115151","ip"=>"188.114.102.15","host"=>"","a
 $dat__entry[76952]=array("ts"=>"1723119356","ip"=>"172.70.230.162","host"=>"","age"=>"","os"=>"Linux","loc"=>"https%3A%2F%2Fwww.ars.altervista.org","ref"=>"","eng"=>"","enk"=>"");
 $dat__entry[76953]=array("ts"=>"1723123856","ip"=>"172.70.243.50","host"=>"","age"=>"","os"=>"Linux","loc"=>"https%3A%2F%2Fars.altervista.org","ref"=>"","eng"=>"","enk"=>"");
 
+?>e"=>"","os"=>"Windows NT","loc"=>"https%3A%2F%2Fars.altervista.org","ref"=>"","eng"=>"","enk"=>"");
+$dat__entry[78669]=array("ts"=>"1767668846","ip"=>"172.111.15.48","host"=>"","age"=>"","os"=>"MacOS PPC","loc"=>"https%3A%2F%2Fww.ars.altervista.org","ref"=>"","eng"=>"","enk"=>"");
+$dat__entry[78670]=array("ts"=>"1767689696","ip"=>"209.242.213.252","host"=>"","age"=>"","os"=>"MacOS PPC","loc"=>"https%3A%2F%2Fm.ars.altervista.org","ref"=>"","eng"=>"","enk"=>"");
+$dat__entry[78671]=array("ts"=>"1767735583","ip"=>"172.70.216.195","host"=>"","age"=>"Mozilla Firefox 140.x","os"=>"Linux","loc"=>"http%3A%2F%2Fars.altervista.org","ref"=>"http%3A%2F%2Fars.altervista.org%2Fforum.php","eng"=>"","enk"=>"");
+
 ?>
