@@ -1,5 +1,3 @@
-% portare il path nella cartella contenente i backupfile*.txt
-
 clear
 
 abilita_stima_foto_mancante = 0; % [0,1] a partire da album, id_photo e data prova ad individuare il nome del file della foto
@@ -8,35 +6,38 @@ nomefile = 'logfile.txt';
 backupfile = 'backupfile*.txt';
 
 % path della radice del sito
-% root_path='/var/www/htdocs/work/stralaceno2/';
-root_path='/var/www/htdocs/work/ars/';
+% root_path='/var/www/htdocs/work/ars/';
+root_path='/var/www/htdocs/w+ork/stralaceno2/';
 
 % archivio foto cancellate
-% deleted_photos_path = '/mnt/win_d/stralaceno/statistiche/archivio_foto_cancellate/';
-deleted_photos_path = '/mnt/win_d/stralaceno/statistiche_ars/archivio_foto_cancellate/';
+% deleted_photos_path = '/mnt/win_d/stralaceno/statistiche_ars/archivio_foto_cancellate/';
+deleted_photos_path = '/mnt/win_d/stralaceno/statistiche/archivio_foto_cancellate/';
 
 % elenco date notevoli
 % date_notevoli = {...
-% 'Stralaceno 2005',	'2 september 2005'	;...
-% 'Stralaceno 2006',	'30 august 2006'	;...
+% 'fine giocate sondaggio mondiali 2006'		,'8 june 2006'		;...
+% 'fine sondaggio mondiali 2006'			,'11 july 2006'		;...
+% 'apertura giocate sondaggio champions 06/07'	,'20 december 2006'	;...
 % };
 date_notevoli = {...
-'fine giocate sondaggio mondiali 2006'		,'8 june 2006'		;...
-'fine sondaggio mondiali 2006'			,'11 july 2006'		;...
-'apertura giocate sondaggio champions 06/07'	,'20 december 2006'	;...
+'Stralaceno 2005',	'2 september 2005'	;...
+'Stralaceno 2006',	'30 august 2006'	;...
 };
 
 
 
 % informazioni sul file di log generale
 z=dir(nomefile);
-if isempty(z)
-    z = struct('bytes',0);
-end
 
 % verifica che tutti i backupfile siano confluiti in nomefile
 if ~isempty(backupfile)
     z0 = dir(backupfile);
+    % sort files by their number (dir is not smart enough)
+    z0_names = {z0.name};tmp=regexp(z0_names,'[0-9]+','match');tmp=[tmp{:}]; 
+    tmp2=[tmp;repmat({' '},1,length(tmp))];tmp3=[tmp2{:}];ind=strread(tmp3,'%d');
+    [tmp ind_sort] = sort(ind);
+    z0 = z0(ind_sort);
+    
     somma=0;
     for i=1:length(z0)
         disp(sprintf('%15s) %d',z0(i).name,z0(i).bytes));
@@ -46,18 +47,15 @@ if ~isempty(backupfile)
     if (somma ~= z.bytes)
         disp(sprintf('Il file di log %s non e'' aggiornato (%d bytes invece di %d). Lo ricostruisco...',nomefile,z.bytes,somma))
 
-        bulk='';ancora=1;i=0;
-        while ancora,name=sprintf('backupfile%03d.txt',i);
-                if exist(name,'file')
-                        fid=fopen(name);
-                        a=char(fread(fid,'char')');
-                        bulk=[bulk a];
-                        fclose(fid);i=i+1;
-                else
-                        ancora=0;
-                end
+        bulk='';
+        for i=1:length(z0)
+            name = z0(i).name;
+            fid=fopen(name);
+            a=char(fread(fid,'char')');
+            fclose(fid);
+            bulk=[bulk a]; 
         end
-        fid=fopen('logfile.txt','w');
+        fid=fopen(nomefile,'w');
         fwrite(fid,bulk);
         fclose(fid);
 
@@ -73,10 +71,14 @@ must_read = 0;
 if ~exist('logfile.mat','file')
     must_read = 1;
 else
+    fprintf(1,'Carico logfile.mat...\n')
     load logfile.mat;
 
-    if (~exist('bulk','var') | ~exist('bytes_read') | ~exist('vseconds') | (z.bytes ~= bytes_read))
+    if (~exist('bulk','var') || ~exist('bytes_read','var') || ~exist('vseconds','var') || (z.bytes ~= bytes_read))
+        fprintf(1,'\tNon è aggiornato, devo rileggere %s...\n',nomefile)
         must_read = 1;
+        % as logfile is not updated, clear all vars, as it will be rewritten
+        clear bulk label arguments ip referrer agent seconds username vseconds bytes_read
     end
 end
 
@@ -89,9 +91,9 @@ if must_read
 
 
     % leggi da logfile.txt tutte le righe gia' presenti in bulk (letto da logfile.txt)
-    if exist('bulk','var')
-        count=0;
-        while (count<length(bulk)),
+    count = 0;
+    if 0 % !!!exist('bulk','var')
+        while (count<length(bulk))%1e4)% !!! length(bulk)),
             count = count+1;
             fgetl(fid);
         end
@@ -111,34 +113,16 @@ if must_read
         tline = fgetl(fid);
         if ~ischar(tline),
             break,
+        end        
+        count = count+1;
+        if mod(count,100000)==0
+            % mostra la riga elaborata, ogni tanto
+            fprintf(1,'\t%d\n',count)
         end
 
-        ind = findstr(tline,'::');
-        ind2=ind([1 find(([ind(2:end-1)-ind(1:end-2)]~=1)|([ind(3:end)-ind(2:end-1)]~=1))+1 length(ind)]);
+        % suddivido la riga (i campi sono delimitati da ::)
+        vks = regexp(tline, '::', 'split');
 
-        % parse di ogni singola linea; il formato della linea e' 
-        % <label>::<arguments>::<ip>::<referer>::<agent>::<date>::<username>
-        vks = {};
-        p=1;
-        for i =1:length(ind2)
-            vks{i} = tline(p:(ind2(i)-1));
-            p=(ind2(i)+2);
-
-            if isempty(vmax)
-                vmax=zeros(1,length(ind2)+1);
-            end
-            if (vmax(i) < length(vks{i}))
-                vmax(i) = length(vks{i});
-            end
-
-        end
-        if (p <=length(tline))
-            vks{i+1} = tline(p:end);
-
-            if (vmax(i+1) < length(vks{i+1}))
-                vmax(i+1) = length(vks{i+1});
-            end
-        end
 
         %
         % correzioni per riempire eventuali campi assenti
@@ -148,6 +132,17 @@ if must_read
         if (length(vks)==6) % la linea e' stata scritta quando non veniva ancora loggato lo username
             vks{7} = '-';
         end
+        
+        % calcola massima dimensione per ciascun campo
+        if (length(vks)>length(vmax))
+            error('Error in line: %s\n\tPlease check the file.',tline)
+        else
+            for i=1:length(vks)
+                if (vmax(i) < length(vks{i}))
+                    vmax(i) = length(vks{i});
+                end
+            end
+        end        
 
         % nome foto mancante
         if (abilita_stima_foto_mancante & strcmp(vks{1},'foto') & all(vks{2}~='(')) % manca il nome della foto, prova ad aggiungerlo
@@ -175,15 +170,21 @@ if must_read
 
         end
 
-        bulk{end+1} = vks;
+        if count > length(bulk)
+            % alloca altra memoria
+            bulk{length(bulk)+100000} = ''; % incrementa la dimensione di molti elementi
+        end
+        bulk{count} = vks;
+        %bulk{end+1} = vks;
 
     end
-
+    bulk = bulk(1:count); % elimina gli elementi inutili
+    
     fclose(fid);
 
 
 
-    disp(['Ho letto il file ' nomefile '. Ora lo elaboro:'])
+    disp(['Ho letto il file ' nomefile ' (' num2str(count) ' righe). Ora lo elaboro:'])
 
     if exist('ip')
         start = size(ip,1);
@@ -236,15 +237,23 @@ if must_read
             ip(i,1:length(vks{3})) = vks{3};
 
             % referrer
-            referrer(i,1:length(vks{4})) = vks{4};
+            if (~isempty(vks{4}))
+                referrer(i,1:length(vks{4})) = vks{4};
+            end
 
             % agent
-            agent(i,1:length(vks{5})) = vks{5};
+            if (~isempty(vks{5}))            
+                agent(i,1:length(vks{5})) = vks{5};
+            end
 
             % vseconds (vettore numerico)
             if isempty(str2num(vks{6}))
                 a2 = vks{6};
-                tempo = datenum(regexprep(a2,'[A-Za-z]+ ([0-9]{2})[a-z]{2} of ([A-Za-z]+) ([0-9]{4})','$1 $2 $3'));
+                if regexp(a2,' [0-9]{4}f')
+                    tempo = datenum(regexprep(a2,'[A-Za-z]+ ([0-9]{2})[a-z]{2} [0-9]{4}f ([A-Za-z]+) ([0-9]{4})','$1 $2 $3'));
+                else
+                    tempo = datenum(regexprep(a2,'[A-Za-z]+ ([0-9]{2})[a-z]{2} of ([A-Za-z]+) ([0-9]{4})','$1 $2 $3'));
+                end
             else
                 tempo = str2num(vks{6})/(60*60*24)+datenum('1 January 1970 12:00:00 AM');
             end
@@ -254,7 +263,9 @@ if must_read
             seconds(i,1:length(vks{6})) = vks{6};
 
             % username
-            username(i,1:length(vks{7})) = vks{7};
+            if (~isempty(vks{7}))            
+                username(i,1:length(vks{7})) = vks{7};
+            end
 
         else
             disp(['riga ' num2str(i) ' : '])
@@ -264,11 +275,12 @@ if must_read
 
 
         if (mod(i,500)==0)
-            disp(['   ' vks{6}]) % ogni tanto visualizza il tempo della linea sotto elaborazione
+            disp([num2str(i,'%07d') ')   ' vks{6}]) % ogni tanto visualizza il tempo della linea sotto elaborazione
         end
 
     end
 
+    fprintf(1,'Salvo logfile.mat...\n')
     bytes_read = z.bytes;
     must_read = 0;
     save logfile bulk label arguments ip referrer agent seconds username vseconds bytes_read
@@ -303,34 +315,45 @@ for data_i = 1:length(data_list)
         otherwise
             error(['Data_list sconosciuto: ' data_list{data_i}])
     end
+    fprintf(1,'Analizzo: %s\n',data_list{data_i})
 
-    v=[];
-    list_data='';
-    while (size(data,1)>0)
-        if (prod(size(data))>3e6)
-            v_=[];
-            for temp_i=1:size(data,1)
-                v_(temp_i)=strcmp(data(temp_i,:),data(1,:));
-            end
-        else
+%     v=[];
+%     list_data='';
+%     while (size(data,1)>0)
+%        % tic;v_=all(data==repmat(data(1,:),size(data,1),1),2);toc;
+%         
+% % Verifica che tutti i caratteri della riga siano uguali
+% v_ = all(bsxfun(@eq, data, data(1,:)),2);
+% 
+%     disp(data(1,:)),disp([size(data,1) sum(v_)]),disp(' ') % !!!
+%         v(end+1)=sum(v_);
+%         list_data=strvcat(list_data,data(1,:));
+%         data=data(find(~v_),:);
+%     end
+%     [temp j]=sort(-v);
+    
+    
+    % 1. Trova le righe uniche e l'indice di mappatura j
+    [list_data, temp, j] = unique(data, 'rows');
+    
+    % 2. Conta quante volte appare ogni riga
+    occorrenze = accumarray(j, 1);
+    
+    % 3. Ordina le occorrenze in modo discendente
+    % 'indici_ordine' conterrà la nuova posizione delle righe
+    [occorrenze_ordinate, ind_sort] = sort(-occorrenze);
+    
+    % 4. Applica l'ordine sia alla lista che al vettore conteggi
+    lista_ordinata = list_data(ind_sort, :);
+    v = occorrenze(ind_sort);
 
-            zz=((data==repmat(data(1,:),size(data,1),1))');
-            if (size(zz,1) == 1)
-                zz=[zz;zeros(1,size(zz,2))];
-            end
-            v_ = sum(zz)==size(data,2);
-        end
-        v(end+1)=sum(v_);
-        list_data=strvcat(list_data,data(1,:));
-        data=data(find(~v_),:);
-    end
-    [temp j]=sort(-v);
 
     disp(' ')
     disp(' ')
     disp([data_list{data_i} ' :'])
     disp(' ')
-    disp([num2str(v(j)','%5d : '),list_data(j,:)])
+    disp([num2str(v,'%5d : '),list_data(ind_sort,:)])
+%    disp([num2str(v(j)','%5d : '),list_data(j,:)])
 
 
 
@@ -348,9 +371,11 @@ for data_i = 1:length(data_list)
         disp('Classifica foto piu'' viste: ')
         classifica_foto={};
         for i = 1:length(v)
-            num=v(j(i));
-            dato=list_data(j(i),:);
-            if (strfind(dato,'(') & strfind(dato,'id_photo'))
+            num=v(i);
+            dato=list_data(i,:);
+            %num=v(j(i));
+            %dato=list_data(j(i),:);
+            if (~isempty(strfind(dato,'(')) && ~isempty(strfind(dato,'id_photo')))
                 ind1=find(dato=='(');
                 ind2=find(dato==')');
                 ind3=find(dato=='&');
@@ -358,14 +383,14 @@ for data_i = 1:length(data_list)
                 foto=dato((ind1+1):(ind2-1));
                 disp([num2str(num) ': album ' album ', foto ' foto])
 
-                if (isempty(filtro_album) | strcmp(album,filtro_album))
+                if (isempty(filtro_album) || strcmp(album,filtro_album))
                     classifica_foto{end+1} = {num,album,foto};
                 end
             end
         end
 
         % crea la figura con tutte le foto (se root_path punta alla radice del sito)
-        if (~isempty(root_path) & ~isempty(classifica_foto))
+        if (~isempty(root_path) && ~isempty(classifica_foto))
             h=figure;
             set(h,'numbertitle','off','name',['Classifica foto piu'' viste aggiornata al ' datestr(max(vseconds))]);
             m=3;n=3;
@@ -412,7 +437,7 @@ for data_i = 1:length(data_list)
     % classifica sistemi operativi
     case 'agent'
 
-        zz=[num2str(v',3) ones(length(v),1)*' ' list_data];
+        zz=[num2str(v,7) ones(length(v),1)*' ' list_data];
 
         ago = 'Linux'
         for i = 1:size(zz,1),if ~isempty(findstr(ago,zz(i,:))),disp(zz(i,:)),end,end
