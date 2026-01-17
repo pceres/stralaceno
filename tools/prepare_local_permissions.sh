@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# Controlla se index.php esiste nella cartella corrente
+if [ ! -f "index.php" ]; then
+	echo "Errore: non sei nella root (index.php mancante)."
+   	exit 1
+fi
+
+
 # fix file permissions
 chmod a+w custom/articoli/*.txt
 #chmod a+w custom/config/download_cfg.php
@@ -15,7 +22,9 @@ chmod a+w custom/lotterie/lotteria_*_ans.php
 #chmod a+w custom/moduli/last_contents/last_contents_cfg.txt
 
 # remove temporary files
-rm custom/config/challenge.php
+if [ -f "custom/config/challenge.php" ]; then
+	rm custom/config/challenge.php
+fi
 
 # fix folder permission
 chmod a+w custom/config
