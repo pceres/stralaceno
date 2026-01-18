@@ -19,7 +19,12 @@
 #						classifica_MF	: classifica dei personali (maschi e femmine);
 #						classifica_F	: classifica dei personali (solo femmine);
 #						ultime_edizioni : elenco delle ultime edizioni, con eventuale link 
-#								  al relativo album fotografico
+#								          al relativo album fotografico
+#						classifica_partecipazioni : atleti con piu' partecipazioni
+#						grafico_tempi   : grafico dei tempi
+#						archivio_storico: 
+#						medagliere      : vincitori delle edizioni precedenti
+#						data_canonica   : data prevista per la gara
 #				  il campo dati e' il numero di voci che devono costituire il sottoblocco;
 #	modulo			: sottoblocco, sempre basato sui tempi, costituito da piu' righe. 
 #					  I valori consentiti per nome_modulo sono:

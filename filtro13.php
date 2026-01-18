@@ -43,7 +43,7 @@ if (isset($anno) & !empty($anno)) {
 }
 
 // Header
-echo "<b>Giorno della Stralaceno nell'anno $y</b><br>\n";
+echo "<b>Data canonica della Stralaceno nell'anno $y</b><br>\n";
 
 // Initial date setup (MATLAB: day=16)
 $day = 16;
@@ -67,8 +67,14 @@ $ks = "$day/8/$y";
 $date = DateTime::createFromFormat('d/m/Y', $ks);
 $i = (int)$date->format('w');
 echo "$ks ({$list_day[$i]}) --> Stralaceno<br>\n";
-?>
 
+
+echo $homepage_link;
+  
+# logga il contatto
+$counter = count_page("data_canonica",array("COUNT"=>1,"LOG"=>1),$filedir_counter); # abilita il contatore, senza visualizzare le cifre, e fai il log
+
+?>
 
 </body>
 </html>
