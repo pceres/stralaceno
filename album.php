@@ -7,7 +7,10 @@ require_once('libreria.php');
 # dichiara variabili
 extract(indici());
 
-$anno = $_REQUEST['anno'];
+$anno = sanitize_user_input($_REQUEST['anno'], 'plain_text', []); # album da visualizzare
+
+$password = sanitize_user_input($_REQUEST['password'], 'plain_text', []); # aggiungi foto invisibili (presenti nella directory, ma non nel file di configurazione album.txt
+
 ?>
 <head>
   <title><?php echo $web_title ?> - Album fotografico</title>
@@ -28,9 +31,6 @@ $id_descrizione_foto = 2;
 $id_descrizione_persone = 3;
 
 $album = $elenco_foto[$anno];
-
-# aggiungi foto invisibili (quelle presenti nella relativa directory, ma non nel file di configurazione album.txt
-$password = $_REQUEST['password'];
 
 # eventuale password temporanea (stringa vuota "" per disabilitarla)
 $temp_password = "caposeleonline";

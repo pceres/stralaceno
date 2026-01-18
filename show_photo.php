@@ -7,8 +7,8 @@ require_once('libreria.php');
 # dichiara variabili
 extract(indici());
 
-$nome_album = $_REQUEST['album'];
-$id_photo = $_REQUEST['id_photo'];
+$nome_album = sanitize_user_input($_REQUEST['album']   , 'plain_text', []);
+$id_photo   = sanitize_user_input($_REQUEST['id_photo'], 'number', ['number_type'=>'int']);
 
 ?>
 <head>

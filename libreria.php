@@ -995,14 +995,16 @@ function get_article_list($articles_dir)
 function get_online_articles($article_online_file)
 {
 	$bulk = file($article_online_file);
-	
 	$art_id = array();
-	for ($i = 0; $i < count($bulk); $i++)
-	{
-		$ks = trim($bulk[$i]); // elimina i caratteri di fine linea
-		if (!empty($ks))
+	if ($bulk!==false) {
+		// if the file was found
+		for ($i = 0; $i < count($bulk); $i++)
 		{
-			array_push($art_id,$ks+0);
+			$ks = trim($bulk[$i]); // elimina i caratteri di fine linea
+			if (!empty($ks))
+			{
+				array_push($art_id,$ks+0);
+			}
 		}
 	}
 	
@@ -1615,7 +1617,7 @@ foreach ($lotteria["Domande"] as $domanda)
 		echo "<select name=\"$question_tag\" >\n";
 		foreach($voci as $voce)
 		{
-		if ($_REQUEST[$question_tag] === $voce[0])
+		if (sanitize_user_input($_REQUEST[$question_tag], 'plain_text', []) === $voce[0])
 			{
 				$default_tag = " selected";
 			}

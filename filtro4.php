@@ -7,7 +7,7 @@ require_once('libreria.php');
 # dichiara variabili
 extract(indici());
 
-$anno = $_REQUEST['anno']; 				# anno richiesto
+$anno = sanitize_user_input($_REQUEST['anno'], 'number', ['number_type'=>'int']); 				# anno richiesto
 
 ?>
 <head>

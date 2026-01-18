@@ -6,6 +6,24 @@ require_once('libreria.php');
 
 # dichiara variabili
 extract(indici());
+
+//
+// criteri di ordinamento:
+//
+//  0 : primo anno di partecipazione;
+//  1 : media degli anni;
+//  2 : deviazione standard (migliore distribuzione)
+//  3 : prodotto cumulativo delle differenze tra i vari anni di partecipazione
+//  4 : radice del prodotto cumulativo delle differenze tra i vari anni di partecipazione
+//  5 : radice del prodotto cumulativo delle differenze tra i vari anni di partecipazionemoltiplicato per il numero di intervalli
+//  6 : esclusivamente prodotto cumulativo delle differenze tra i vari anni di partecipazione (senza numero partecipazioni)
+//
+$mode = sanitize_user_input($_REQUEST['mode'], 'plain_text', []);
+if (empty($mode)) // per default usa il prodotto incrementale (mode = 3)
+{
+	$mode = 3;
+}
+
 ?>
 <head>
   <title><?php echo $web_title ?> - Classifica partecipazioni</title>
@@ -93,22 +111,6 @@ function punteggio_presenze($dati,$mode)
 
 } // end of function punteggio_presenze($dati,$mode)
 
-//
-// criteri di ordinamento:
-//
-//  0 : primo anno di partecipazione;
-//  1 : media degli anni;
-//  2 : deviazione standard (migliore distribuzione)
-//  3 : prodotto cumulativo delle differenze tra i vari anni di partecipazione
-//  4 : radice del prodotto cumulativo delle differenze tra i vari anni di partecipazione
-//  5 : radice del prodotto cumulativo delle differenze tra i vari anni di partecipazionemoltiplicato per il numero di intervalli
-//  6 : esclusivamente prodotto cumulativo delle differenze tra i vari anni di partecipazione (senza numero partecipazioni)
-//
-$mode = $_REQUEST['mode'];
-if (empty($mode)) // per default usa il prodotto incrementale (mode = 3)
-{
-	$mode = 3;
-}
 
 $archivio = load_data($filename_tempi,$num_colonne_prestazioni);
 
