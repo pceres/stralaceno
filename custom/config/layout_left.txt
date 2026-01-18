@@ -66,6 +66,7 @@ Links::
 [La corsa]
 presentazione::Cos'&egrave; la Stralaceno::modulo_custom::::
 regolamento::Statuto della Stralaceno::modulo_custom::::
+data_canonica::Data della Stralaceno::tempi::::
 # :: ::separatore::::
 albo_d_oro::Albo d'oro::tempi::::
 #organizzatori::Gli organizzatori::modulo_custom::::
