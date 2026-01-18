@@ -22,11 +22,9 @@ require_once('captcha/captcha.php');
 
 
 
-$action	= $_REQUEST['action'];	// azione da eseguire
-$action	= sanitize_user_input($action,'plain_text',array());	// verifica di sicurezza
+$action	= sanitize_user_input($_REQUEST['action'],'plain_text',array());	// azione da eseguire
 
-$data 	= $_REQUEST['data'];		// dati associati all'azione
-$data 	= sanitize_user_input($data,'plain_text',array());	// verifica di sicurezza
+$data 	= sanitize_user_input($_REQUEST['data'],'plain_text',array());		// dati associati all'azione
 
 // azione di default
 if (empty($action))

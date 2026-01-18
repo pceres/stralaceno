@@ -31,7 +31,7 @@ $lista_edizioni=array();
 $archivio = merge_tempi_atleti($archivio,$atleti,$lista_edizioni);
 
 
-$id = $_REQUEST['id'];
+$id = sanitize_user_input($_REQUEST['id'], 'number', ['number_type'=>'int']);
 
 $nome = $atleti[$id][$indice_nome];
 

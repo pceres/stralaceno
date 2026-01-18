@@ -18,11 +18,9 @@ require_once('login.php');
 # pagina da visualizzare; per ora puo' valere:
 # 	'' 		: pagina di default, con tutti gli articoli in colonna centrale
 #	'<sezione>'	: viene visualizzato un solo articolo, indicato dal suo id attraverso la variabile aggiuntiva 'art_id'
-$sezione = $_REQUEST['page']; // contenuto da visualizzare in colonna centrale
-$sezione = sanitize_user_input($sezione,'plain_text',Array());
+$sezione = sanitize_user_input($_REQUEST['page'],'plain_text',Array()); // contenuto da visualizzare in colonna centrale
 
-$art_id = $_REQUEST['art_id']; // id dell'articolo da visualizzare
-$art_id = sanitize_user_input($art_id,'number',Array("number_type"=>"int"));
+$art_id = sanitize_user_input($_REQUEST['art_id'],'number',Array("number_type"=>"int")); // id dell'articolo da visualizzare
 
 
 # dichiara variabili

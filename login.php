@@ -19,20 +19,15 @@ $cookie_challenge_id = is_null($_COOKIE['login']['challenge_id']) ? "" : $_COOKI
 $cookie_challenge_id = sanitize_user_input($cookie_challenge_id,'plain_text',array()); 	// (eventuale) challenge id (cookie)
 
 // analisi dell'input inserito dall'utente
-$login_action = $_REQUEST['login_action'];
-$login_action = sanitize_user_input($login_action,'plain_text',array()); // azione da effettuare
+$login_action = sanitize_user_input($_REQUEST['login_action'],'plain_text',array()); // azione da effettuare
 
-$username = $_REQUEST['username'];
-$username = sanitize_user_input($username,'plain_text',array()); // username inserito dall'utente
+$username = sanitize_user_input($_REQUEST['username'],'plain_text',array()); // username inserito dall'utente
 
-$userpass = $_REQUEST['userpass'];
-$userpass = sanitize_user_input($userpass,'plain_text',array()); // password inserita dall'utente
+$userpass = sanitize_user_input($_REQUEST['userpass'],'plain_text',array()); // password inserita dall'utente
 
-$challenge = $_REQUEST['challenge'];
-$challenge = sanitize_user_input($challenge,'plain_text',array()); // challenge del login
+$challenge = sanitize_user_input($_REQUEST['challenge'],'plain_text',array()); // challenge del login
 
-$challenge_id = $_REQUEST['challenge_id'];
-$challenge_id = sanitize_user_input($challenge_id,'plain_text',array()); // challenge_id del login
+$challenge_id = sanitize_user_input($_REQUEST['challenge_id'],'plain_text',array()); // challenge_id del login
 
 
 $EXPIRE_COOKIE = 60*60; // [s] durata dei cookies (un'ora)

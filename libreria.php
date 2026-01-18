@@ -1010,14 +1010,16 @@ function get_article_list($articles_dir)
 function get_online_articles($article_online_file)
 {
 	$bulk = file($article_online_file);
-	
 	$art_id = array();
-	for ($i = 0; $i < count($bulk); $i++)
-	{
-		$ks = trim($bulk[$i]); // elimina i caratteri di fine linea
-		if (!empty($ks))
+	if ($bulk!==false) {
+		// if the file was found
+		for ($i = 0; $i < count($bulk); $i++)
 		{
-			array_push($art_id,$ks+0);
+			$ks = trim($bulk[$i]); // elimina i caratteri di fine linea
+			if (!empty($ks))
+			{
+				array_push($art_id,$ks+0);
+			}
 		}
 	}
 	
@@ -1745,7 +1747,7 @@ foreach ($lotteria["Domande"] as $domanda)
 		echo "<select name=\"$question_tag\" >\n";
 		foreach($voci as $voce)
 		{
-		if ($_REQUEST[$question_tag] === $voce[0])
+		if (sanitize_user_input($_REQUEST[$question_tag], 'plain_text', []) === $voce[0])
 			{
 				$default_tag = " selected";
 			}
@@ -2192,12 +2194,20 @@ else
 
 
 function parse_date($data) {
-
-$ore = substr($data,0,2);
-$minuti = substr($data,3,2);
-$giorno = substr($data,6,2);
-$mese = substr($data,9,2);
-$anno = substr($data,12,4);
+// funziona con date nel formato hh:mm gg/mm/aaaa
+if (empty($data)) {
+	$ore 	= null;
+	$minuti = null;
+	$giorno = null;
+	$mese 	= null;
+	$anno 	= null;
+} else {
+	$ore 	= substr($data,0,2);
+	$minuti = substr($data,3,2);
+	$giorno = substr($data,6,2);
+	$mese 	= substr($data,9,2);
+	$anno 	= substr($data,12,4);
+}
 
 $mins = mktime($ore,$minuti,00,$mese,$giorno,$anno);
 

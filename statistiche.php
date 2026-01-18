@@ -13,13 +13,11 @@ questa libreria esamina i cookies o i parametri http (eventualmente) inviati, e 
 */
 //require_once('login.php');
 
-$action = $_REQUEST['action'];			// azione da eseguire
+$action = sanitize_user_input($_REQUEST['action'], 'plain_text', []);			// azione da eseguire
 
-$auth_token = $_REQUEST['auth_token'];		// chiave o nome da associare alla giocata
+$auth_token = sanitize_user_input($_REQUEST['auth_token'], 'plain_text', []);		// chiave o nome da associare alla giocata
 
-$id_questions = $_REQUEST['id_questions'];	// id della lotteria in oggetto
-
-$data_giocata = $_REQUEST['data_giocata'];	// data che fa fede per la giocata
+$id_questions = sanitize_user_input($_REQUEST['id_questions'], 'number', ['number_type'=>'int']);	// id (numero intero) della lotteria in oggetto (es. 001, 002, ecc.)
 
 
 $file_questions = $root_path."custom/lotterie/lotteria_".sprintf("%03d",$id_questions).".txt";	// nome del file di configurazione relativo a id_questions

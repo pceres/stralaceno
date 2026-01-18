@@ -20,19 +20,15 @@ questa libreria esamina i cookies o i parametri http (eventualmente) inviati, e 
 */
 require_once('login.php');
 
-$action = $_REQUEST['action'];					// azione da eseguire (auth, check_auth, fill, last_check, save, results)
-$action	= sanitize_user_input($action,'plain_text',array());	// verifica di sicurezza
+$action	= sanitize_user_input($_REQUEST['action'],'plain_text',array());				// verifica di sicurezza su azione da eseguire
 
-$auth_token = $_REQUEST['auth_token'];					// chiave o nome da associare alla giocata
-$auth_token = sanitize_user_input($auth_token,'plain_text',array());	// verifica di sicurezza
+$auth_token = sanitize_user_input($_REQUEST['auth_token'],'plain_text',array());		// verifica di sicurezza su chiave o nome da associare alla giocata
 
-$id_questions = $_REQUEST['id_questions'];					// id della lotteria in oggetto
-$id_questions = sanitize_user_input($id_questions,'plain_text',array());	// verifica di sicurezza
+$id_questions = sanitize_user_input($_REQUEST['id_questions'],'plain_text',array());	// verifica di sicurezza su id della lotteria in oggetto
 
-$data_giocata = $_REQUEST['data_giocata'];					// data che fa fede per la giocata
-$data_giocata = sanitize_user_input($data_giocata,'plain_text',array());	// verifica di sicurezza
+$data_giocata = sanitize_user_input($_REQUEST['data_giocata'],'plain_text',array());	// verifica di sicurezza su data che fa fede per la giocata
 
-$debug_mode = (array_key_exists("debug",$_REQUEST) && ($_REQUEST['debug'] === "full"));
+$debug_mode = ( isset($_REQUEST['debug']) && sanitize_user_input($_REQUEST['debug'], 'plain_text', array()) === "full" );
 
 
 // verifica che $id_questions sia un id relativo ad una lotteria o questionario valida, altrimenti prendi l'ultimo
@@ -96,7 +92,7 @@ if ( ($action == "save") and ($v_now[0] > $v_results[0]) )
 // smista l'azione di default a seconda della data attuale
 if (empty($action))
 {
-	if (($v_now[0] > $v_results[0]) | (!empty($_REQUEST['debug'])) | (!empty($_REQUEST['filtro'])))
+	if (($v_now[0] > $v_results[0]) | (!empty(sanitize_user_input($_REQUEST['debug'], 'plain_text', []))) | (!empty(sanitize_user_input($_REQUEST['filtro'], 'plain_text', []))))
 	{
 		$action = "results"; 			// azione di default dopo la data di presentazione risultati (v_results)
 	}
@@ -274,7 +270,7 @@ case "auth":
 case "check_auth":
 	if ($action == "check_auth")
 	{
-		$secret_key = $_REQUEST['secret_key'];
+		$secret_key = sanitize_user_input($_REQUEST['secret_key'], 'plain_text', []);
 		$auth_token = $secret_key;
 
 		$giocate = get_giocata($id_questions,$auth_token);
@@ -528,7 +524,7 @@ case "save":
 	}
 
 	// gestione data della giocata: per la giocata online si usa l'istante della giocata, per la giocata cartacea inserita dall'amministratore
-	// si usa $_REQUEST["data_giocata"] passata dall'interfaccia amministrativa
+	// si usa il campo "data_giocata" di $_REQUEST passato dall'interfaccia amministrativa
 	if (!$admin_mode)
 	{
 		$data_giocata = date("H:i d/m/Y");
@@ -693,7 +689,7 @@ case "results":
 		echo "<br>\n";}
 
 		$dati_esterni_per_giocata = array($cedente_biglietto, $nominativo_biglietto, $data_biglietto, $id_tipo_biglietto, $tipo_biglietto);
-
+		
 		// calcola i campi dei punteggi per la singola giocata
 		$punteggi = $init_punteggi;			// valori di default
 		$punteggi_output = $init_punteggi_output;	// valori di default
@@ -730,11 +726,11 @@ case "results":
 		array_push($elenco_giocate,$dati_giocata);
 	}
 
-	if (!empty($_REQUEST['filtro']))
+	if (!empty(sanitize_user_input($_REQUEST['filtro'], 'plain_text', [])))
 	{
 		$lista_regola_campo = array(8); // id_tipo_giocata
 		//$lista_regola_valore = array(0);// a pagamento
-		$lista_regola_valore = array($_REQUEST['filtro']-1);
+		$lista_regola_valore = array(sanitize_user_input($_REQUEST['filtro'], 'plain_text', [])-1);
 		$elenco_giocate = filtra_archivio($elenco_giocate,$lista_regola_campo,$lista_regola_valore);
 	}
 
