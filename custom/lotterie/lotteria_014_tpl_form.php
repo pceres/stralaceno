@@ -352,12 +352,11 @@ function check_input(f)
 	
 
 	// configurazione errori ammissibili
-	index_check_gironi_ok = 0;
 	warn_on_errors = new Array; // 0 -> nessun warning (viene saltata la verifica)
 	allow_errors = new Array;   // 0 -> l'errore non permette il salvataggio; 1 -> viene visualizzato soltanto un warning
 	
-	warn_on_errors[index_check_gironi_ok] = 1; // mettere a 0 per saltare del tutto la verifica sui gironi
-	allow_errors[index_check_gironi_ok]   = 0; // mettere a 0 per impedire di giocare con un errore alla regola "due squadre per ciascun girone"
+	warn_on_errors = 1; // mettere a 0 per saltare del tutto la verifica sui gironi
+	allow_errors   = 0; // mettere a 0 per impedire di giocare con un errore alla regola "N_min..N_max squadre per ciascun girone"
 	
 	// leggi tutti i campi del tipo question_xx
 	list = read_form_fields(f);
@@ -366,8 +365,8 @@ function check_input(f)
 		return false;
 	}
 
-// alert('2: '+list.length);
 	// verifica congruenza delle risposte
+	//alert('check 1 - numero campi totali: '+list.length);
 	risposte_ok = true;
 	messaggio_errore = 'Messaggio di errore!';
 	
@@ -413,8 +412,8 @@ function check_input(f)
 		}
 	}
 	
- alert('2b: M ('+list_M.length+') - W ('+list_W.length+') - Q ('+list_Q.length+') - S ('+list_S.length+') - F ('+list_F.length+') - C ('+list_C.length+')');
 	// verifica correttezza squadre ammesse
+	//alert('check 2 - numero campi per gironi: M ('+list_M.length+') - W ('+list_W.length+') - Q ('+list_Q.length+') - S ('+list_S.length+') - F ('+list_F.length+') - C ('+list_C.length+')');
 	gironeA = new Array("Messico", "Corea del Sud", "Sudafrica", "Vincitore_D");
 	gironeB = new Array("Canada", "Svizzera", "Qatar", "Vincitore_A");
 	gironeC = new Array("Brasile", "Marocco", "Scozia", "Haiti");
@@ -434,188 +433,27 @@ function check_input(f)
 // 	gironi = new Array(gironeA, gironeB, gironeC, gironeD);
 	
 	
-	num_per_girone = 3;
+	num_per_girone_min = 2;
+	num_per_girone_max = 3;
 	
-	vettore_gironi = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0); // stesso numero dei qualificati alle eliminatorie
-	gironi_errati = false;
-	for (i = 0; i < list_M.length; i++)
+	const fasi = [
+		{ nome_fase:"sedicesimi", lista_corrente:list_M, lista_precedente:null,   num_min:2, num_max:3, check_gironi:true,  warn_on_errors_flag:warn_on_errors, allow_errors_flag:allow_errors },
+		{ nome_fase:"ottavi",     lista_corrente:list_W, lista_precedente:list_M, num_min:0, num_max:0, check_gironi:false, warn_on_errors_flag:false,          allow_errors_flag:true },
+		{ nome_fase:"quarti",     lista_corrente:list_Q, lista_precedente:list_W, num_min:0, num_max:0, check_gironi:false, warn_on_errors_flag:false,          allow_errors_flag:true },
+		{ nome_fase:"semifinali", lista_corrente:list_S, lista_precedente:list_Q, num_min:0, num_max:0, check_gironi:false, warn_on_errors_flag:false,          allow_errors_flag:true },
+		{ nome_fase:"finale",     lista_corrente:list_F, lista_precedente:list_S, num_min:0, num_max:0, check_gironi:false, warn_on_errors_flag:false,          allow_errors_flag:true },
+		{ nome_fase:"vincitrice", lista_corrente:list_C, lista_precedente:list_F, num_min:0, num_max:0, check_gironi:false, warn_on_errors_flag:false,          allow_errors_flag:true }
+	];
+	
+	for (fase of fasi)
 	{
-		squadra = list_M[i];
-// continue; // !!!
-		// alert('Qualificati ('+(i+1)+'): '+squadra);
-		
-		girone = get_girone(squadra,gironi);
-		if ((++vettore_gironi[girone]) > num_per_girone)
+		//alert('check:'+fase.nome_fase);
+		if (!check_fase(gironi,fase))
 		{
-			gironi_errati = true;
-		}
-		
-		// verifica ripetizioni all'interno dello stesso gruppo
-		ripetizioni = occurrencies(squadra,list_W);
-		if (ripetizioni > 1)
-		{
-			alert('Nei qualificati ai sedicesimi di finale la squadra '+squadra+' compare '+ripetizioni+' volte!');
-			return false;
-		}
-		
-	}
-	
-	
-alert('2c: '+warn_on_errors[index_check_gironi_ok]);
-	// visualizza messaggio d'errore nel caso non siano indicate num_per_girone squadre per girone
-	if ((gironi_errati) & (warn_on_errors[index_check_gironi_ok]))
-	{
-		if (num_per_girone == 1)
-		{
-			msg = "Nei qualificati ai sedicesimi di finale non viene indicata 1 squadra per ciascuno girone:";
-		}
-		else
-		{
-			msg = "Nei qualificati ai sedicesimi di finale non vengono indicate "+num_per_girone+" squadre per ciascuno girone:";
-		}
-		
-		for (i=0; i <= (gironi.length-1); i++)
-		{ 
-			msg += "\n	Girone "+String.fromCharCode(i+65)+': '+vettore_gironi[i]; 
-			
-			errore = vettore_gironi[i]-num_per_girone;
-			if (errore > 0)
-			{
-				msg += " (eliminare "+errore+" squadra/e)";
-			}
-			if (errore < 0)
-			{
-				msg += " (aggiungere "+(-errore)+" squadra/e)";
-			}
-		}
-		alert(msg);
-		// se non sei in admin_mode, e non e' consentito violare la regola "2 squadre per girone", esci senza salvare
-		if ((!0) & (!allow_errors[index_check_gironi_ok]))
-		{
+			//alert('Check '+fase.nome_fase+': false');
 			return false;
 		}
 	}
-	
-	// verifica correttezza 16 squadre ammesse ottavi di finale
-	for (i = 0; i < list_W.length; i++)
-	{
-		squadra = list_W[i];
-// continue; // !!!
-		//alert('Qualificati ('+(i+1)+'): '+squadra);
-		
-		girone = get_girone(squadra,gironi);
-		if ((++vettore_gironi[girone]) > num_per_girone)
-		{
-			gironi_errati = true;
-		}
-		
-		// verifica ripetizioni all'interno dello stesso gruppo
-		ripetizioni = occurrencies(squadra,list_W);
-		if (ripetizioni > 1)
-		{
-			alert('Nei qualificati agli ottavi di finale la squadra '+squadra+' compare '+ripetizioni+' volte!');
-			return false;
-		}
-		
-		// verifica la presenza all'interno del gruppo precedente
-		ripetizioni = occurrencies(squadra,list_M);
-		if (ripetizioni != 1)
-		{
-			alert('La squadra '+squadra+" compare nei qualificati agli ottavi, ma non e' presente tra quelle qualificate ai sedicesimi!");
-			return false;
-		}
-		
-	}
-	
-	// verifica correttezza 8 squadre ammesse quarti di finale
-	for (i = 0; i < list_Q.length; i++)
-	{
-		squadra = list_Q[i];
-// continue; // !!!
-		//alert('Qualificati ('+(i+1)+'): '+squadra);
-		
-		girone = get_girone(squadra,gironi);
-		if ((++vettore_gironi[girone]) > num_per_girone)
-		{
-			gironi_errati = true;
-		}
-		
-		// verifica ripetizioni all'interno dello stesso gruppo
-		ripetizioni = occurrencies(squadra,list_Q);
-		if (ripetizioni > 1)
-		{
-			alert('Nei qualificati ai quarti di finale la squadra '+squadra+' compare '+ripetizioni+' volte!');
-			return false;
-		}
-		
-		// verifica la presenza all'interno del gruppo precedente
-		ripetizioni = occurrencies(squadra,list_W);
-		if (ripetizioni != 1)
-		{
-			// alert('Nei qualificati ai quarti di finale la squadra '+squadra+' compare '+ripetizioni+' volte!');
-			alert('La squadra '+squadra+" compare nei qualificati ai quarti, ma non e' presente tra quelle qualificate agli ottavi!");
-			return false;
-		}
-		
-	}
-	
-	// verifica correttezza 4 squadre ammesse semifinale
-	for (i = 0; i < list_S.length; i++)
-	{
-		squadra = list_S[i];
-		//alert('Qualificati ('+(i+1)+'): '+squadra);
-		
-		// verifica ripetizioni all'interno dello stesso gruppo
-		ripetizioni = occurrencies(squadra,list_S);
-		if (ripetizioni > 1)
-		{
-			alert('Nei qualificati alle semifinali la squadra '+squadra+' compare '+ripetizioni+' volte!');
-			return false;
-		}
-		
-		// verifica la presenza all'interno del gruppo precedente
-		ripetizioni = occurrencies(squadra,list_Q);
-		if (ripetizioni != 1)
-		{
-			alert('La squadra '+squadra+" compare nei qualificati alle semifinali, ma non e' presente tra quelle qualificate ai quarti!");
-			return false;
-		}
-	}
-	
-	// verifica correttezza 2 squadre ammesse finale
-	for (i = 0; i < list_F.length; i++)
-	{
-		squadra = list_F[i];
-// continue; // !!!
-		//alert('Qualificati ('+(i+1)+'): '+squadra);
-		
-		// verifica ripetizioni all'interno dello stesso gruppo
-		ripetizioni = occurrencies(squadra,list_F);
-		if (ripetizioni > 1)
-		{
-			alert('Nei qualificati alla finale la squadra '+squadra+' compare '+ripetizioni+' volte!');
-			return false;
-		}
-		
-		// verifica la presenza all'interno del gruppo precedente
-		ripetizioni = occurrencies(squadra,list_S);
-		if (ripetizioni != 1)
-		{
-			alert('La squadra '+squadra+" compare nei qualificati alla finale, ma non e' presente tra quelle qualificate in semifinale!");
-			return false;
-		}
-	}
-	
-	// verifica correttezza squadra vincitrice
-	squadra = list_C[0];
-	ripetizioni = occurrencies(squadra,list_F);
-	if (ripetizioni != 1)
-// 	if (0) // !!!
-	{
-		alert('La squadra '+squadra+" e' indicata come vincitrice, ma non e' presente tra quelle qualificate in finale!");
-		return false;
-	}
-// 	alert('Qualificati ('+(ripetizioni)+'): '+squadra);
 	
 	
 	// gestisci dati anagrafici
@@ -812,6 +650,92 @@ alert('2c: '+warn_on_errors[index_check_gironi_ok]);
 	}
 	
 	return risposte_ok;
+}
+
+function check_fase(
+    gironi,   // array dei gironi (invariato per tutte le fasi)
+
+    {
+        lista_corrente,        // es: list_M (sedicesimi), list_W (ottavi), list_Q (quarti), ecc.
+        lista_precedente,      // null per sedicesimi; per le altre fasi: lista della fase precedente
+        num_min,               // minimo squadre per girone (solo per sedicesimi)
+        num_max,               // massimo squadre per girone (solo per sedicesimi)
+        check_gironi,          // true per sedicesimi (controllo squadre per girone), false per le altre fasi
+        nome_fase,             // nome della fase: "sedicesimi", "ottavi", "quarti", "semifinali", "finale", "vincitrice"
+        warn_on_errors_flag,   // flag per mostrare messaggi di warning (dipende dalla fase)
+        allow_errors_flag      // flag per consentire o meno il salvataggio in presenza di errori
+    }
+)
+{
+	let vettore_gironi = new Array(gironi.length).fill(0);
+
+	// --- 1. Controllo duplicati nella lista corrente ---
+	for (let i = 0; i < lista_corrente.length; i++) {
+		let squadra = lista_corrente[i];
+
+		// duplicati nella stessa fase
+		if (occurrencies(squadra, lista_corrente) > 1) {
+			alert(`Nei qualificati alla fase ${nome_fase} la squadra ${squadra} compare più volte!`);
+			return false;
+		}
+
+		// --- 2. Se richiesto, verifica presenza nella fase precedente ---
+		if (lista_precedente !== null) {
+			if (occurrencies(squadra, lista_precedente) !== 1) {
+				alert(`La squadra ${squadra} compare nella fase ${nome_fase}, ma non era presente nella fase precedente!`);
+				return false;
+			}
+		}
+
+		// --- 3. Se richiesto, conteggio squadre per girone ---
+		if (check_gironi) {
+			let g = get_girone(squadra, gironi);
+			vettore_gironi[g]++;
+		}
+	}
+	
+	// --- 4. Se non serve controllare i gironi (es. ottavi), finito ---
+	if (!check_gironi) return true;
+	
+	// --- 5. Controllo squadre per girone (solo sedicesimi) ---
+	if (warn_on_errors_flag) {
+		let msg = "";
+		
+		gironi_errati = false;
+		for (let i = 0; i < gironi.length; i++) {
+			let count = vettore_gironi[i];
+			let errore = 0;
+			
+			if (count > num_max) errore = count - num_max;
+			else if (count < num_min) errore = count - num_min;
+			
+			msg += `\n  Girone ${String.fromCharCode(65 + i)}: ${count}`;
+			
+			if (errore > 0) 
+			{
+				msg += ` (eliminare ${errore} squadra/e)`;
+				gironi_errati = true;
+			}
+			if (errore < 0) 
+			{
+				msg += ` (aggiungere ${-errore} squadra/e)`;
+				gironi_errati = true;
+			}
+		}
+		
+		if (num_max === 1)
+			msg = `Nella fase ${nome_fase} va indicata 1 squadra per ciascun girone:` + msg;
+		else
+			msg = `Nella fase ${nome_fase} vanno indicate da ${num_min} a ${num_max} squadre per girone:` + msg;
+		
+		if (gironi_errati && !allow_errors_flag)
+		{
+			alert(msg);
+			return false;
+		}
+	}
+	
+	return true;
 }
 
 
@@ -3984,31 +3908,55 @@ else
 
 <!-- Q1 -->
 <select name="question_48" >
-<option selected>&nbsp;</option>
-<option>Germania</option>
-<option>Ungheria</option>
-<option>Scozia</option>
-<option>Svizzera</option>
-<option>Spagna</option>
-<option>Albania</option>
-<option>Croazia</option>
-<option>Italia</option>
-<option>Inghilterra</option>
-<option>Danimarca</option>
-<option>Slovenia</option>
-<option>Serbia</option>
-<option>Francia</option>
-<option>Austria</option>
-<option>Olanda</option>
-<option>Polonia</option>
-<option>Belgio</option>
-<option>Romania</option>
-<option>Slovacchia</option>
-<option>Ucraina</option>
-<option>Portogallo</option>
-<option>Turchia</option>
-<option>Repubblica Ceca</option>
-<option>Georgia</option>
+	<option selected>&nbsp;</option>
+	<option>Messico</option>
+	<option>Corea del Sud</option>
+	<option>Sudafrica</option>
+	<option>Vincitore_D</option>
+	<option>Canada</option>
+	<option>Svizzera</option>
+	<option>Qatar</option>
+	<option>Vincitore_A</option>
+	<option>Brasile</option>
+	<option>Marocco</option>
+	<option>Scozia</option>
+	<option>Haiti</option>
+	<option>USA</option>
+	<option>Australia</option>
+	<option>Paraguay</option>
+	<option>Vincitore_C</option>
+	<option>Germania</option>
+	<option>Ecuador</option>
+	<option>Costa d'Avorio</option>
+	<option>Curaçao</option>
+	<option>Olanda</option>
+	<option>Giappone</option>
+	<option>Tunisia</option>
+	<option>Vincitore_B</option>
+	<option>Belgio</option>
+	<option>Iran</option>
+	<option>Egitto</option>
+	<option>Nuova Zelanda</option>
+	<option>Spagna</option>
+	<option>Uruguay</option>
+	<option>Arabia Saudita</option>
+	<option>Capo Verde</option>
+	<option>Francia</option>
+	<option>Senegal</option>
+	<option>Norvegia</option>
+	<option>Vincitore_2</option>
+	<option>Argentina</option>
+	<option>Austria</option>
+	<option>Algeria</option>
+	<option>Giordania</option>
+	<option>Portogallo</option>
+	<option>Colombia</option>
+	<option>Uzbekistan</option>
+	<option>Vincitore_1</option>
+	<option>Inghilterra</option>
+	<option>Croazia</option>
+	<option>Panama</option>
+	<option>Ghana</option>
 </select>
 
 
@@ -4018,31 +3966,55 @@ else
 
 <!-- Q2 -->
 <select name="question_49" >
-<option selected>&nbsp;</option>
-<option>Germania</option>
-<option>Ungheria</option>
-<option>Scozia</option>
-<option>Svizzera</option>
-<option>Spagna</option>
-<option>Albania</option>
-<option>Croazia</option>
-<option>Italia</option>
-<option>Inghilterra</option>
-<option>Danimarca</option>
-<option>Slovenia</option>
-<option>Serbia</option>
-<option>Francia</option>
-<option>Austria</option>
-<option>Olanda</option>
-<option>Polonia</option>
-<option>Belgio</option>
-<option>Romania</option>
-<option>Slovacchia</option>
-<option>Ucraina</option>
-<option>Portogallo</option>
-<option>Turchia</option>
-<option>Repubblica Ceca</option>
-<option>Georgia</option>
+	<option selected>&nbsp;</option>
+	<option>Messico</option>
+	<option>Corea del Sud</option>
+	<option>Sudafrica</option>
+	<option>Vincitore_D</option>
+	<option>Canada</option>
+	<option>Svizzera</option>
+	<option>Qatar</option>
+	<option>Vincitore_A</option>
+	<option>Brasile</option>
+	<option>Marocco</option>
+	<option>Scozia</option>
+	<option>Haiti</option>
+	<option>USA</option>
+	<option>Australia</option>
+	<option>Paraguay</option>
+	<option>Vincitore_C</option>
+	<option>Germania</option>
+	<option>Ecuador</option>
+	<option>Costa d'Avorio</option>
+	<option>Curaçao</option>
+	<option>Olanda</option>
+	<option>Giappone</option>
+	<option>Tunisia</option>
+	<option>Vincitore_B</option>
+	<option>Belgio</option>
+	<option>Iran</option>
+	<option>Egitto</option>
+	<option>Nuova Zelanda</option>
+	<option>Spagna</option>
+	<option>Uruguay</option>
+	<option>Arabia Saudita</option>
+	<option>Capo Verde</option>
+	<option>Francia</option>
+	<option>Senegal</option>
+	<option>Norvegia</option>
+	<option>Vincitore_2</option>
+	<option>Argentina</option>
+	<option>Austria</option>
+	<option>Algeria</option>
+	<option>Giordania</option>
+	<option>Portogallo</option>
+	<option>Colombia</option>
+	<option>Uzbekistan</option>
+	<option>Vincitore_1</option>
+	<option>Inghilterra</option>
+	<option>Croazia</option>
+	<option>Panama</option>
+	<option>Ghana</option>
 </select>
 
 
@@ -4051,31 +4023,55 @@ else
 
 <!-- Q3 -->
 <select name="question_50" >
-<option selected>&nbsp;</option>
-<option>Germania</option>
-<option>Ungheria</option>
-<option>Scozia</option>
-<option>Svizzera</option>
-<option>Spagna</option>
-<option>Albania</option>
-<option>Croazia</option>
-<option>Italia</option>
-<option>Inghilterra</option>
-<option>Danimarca</option>
-<option>Slovenia</option>
-<option>Serbia</option>
-<option>Francia</option>
-<option>Austria</option>
-<option>Olanda</option>
-<option>Polonia</option>
-<option>Belgio</option>
-<option>Romania</option>
-<option>Slovacchia</option>
-<option>Ucraina</option>
-<option>Portogallo</option>
-<option>Turchia</option>
-<option>Repubblica Ceca</option>
-<option>Georgia</option>
+	<option selected>&nbsp;</option>
+	<option>Messico</option>
+	<option>Corea del Sud</option>
+	<option>Sudafrica</option>
+	<option>Vincitore_D</option>
+	<option>Canada</option>
+	<option>Svizzera</option>
+	<option>Qatar</option>
+	<option>Vincitore_A</option>
+	<option>Brasile</option>
+	<option>Marocco</option>
+	<option>Scozia</option>
+	<option>Haiti</option>
+	<option>USA</option>
+	<option>Australia</option>
+	<option>Paraguay</option>
+	<option>Vincitore_C</option>
+	<option>Germania</option>
+	<option>Ecuador</option>
+	<option>Costa d'Avorio</option>
+	<option>Curaçao</option>
+	<option>Olanda</option>
+	<option>Giappone</option>
+	<option>Tunisia</option>
+	<option>Vincitore_B</option>
+	<option>Belgio</option>
+	<option>Iran</option>
+	<option>Egitto</option>
+	<option>Nuova Zelanda</option>
+	<option>Spagna</option>
+	<option>Uruguay</option>
+	<option>Arabia Saudita</option>
+	<option>Capo Verde</option>
+	<option>Francia</option>
+	<option>Senegal</option>
+	<option>Norvegia</option>
+	<option>Vincitore_2</option>
+	<option>Argentina</option>
+	<option>Austria</option>
+	<option>Algeria</option>
+	<option>Giordania</option>
+	<option>Portogallo</option>
+	<option>Colombia</option>
+	<option>Uzbekistan</option>
+	<option>Vincitore_1</option>
+	<option>Inghilterra</option>
+	<option>Croazia</option>
+	<option>Panama</option>
+	<option>Ghana</option>
 </select>
 
 
@@ -4085,31 +4081,55 @@ else
 
 <!-- Q4 -->
 <select name="question_51" >
-<option selected>&nbsp;</option>
-<option>Germania</option>
-<option>Ungheria</option>
-<option>Scozia</option>
-<option>Svizzera</option>
-<option>Spagna</option>
-<option>Albania</option>
-<option>Croazia</option>
-<option>Italia</option>
-<option>Inghilterra</option>
-<option>Danimarca</option>
-<option>Slovenia</option>
-<option>Serbia</option>
-<option>Francia</option>
-<option>Austria</option>
-<option>Olanda</option>
-<option>Polonia</option>
-<option>Belgio</option>
-<option>Romania</option>
-<option>Slovacchia</option>
-<option>Ucraina</option>
-<option>Portogallo</option>
-<option>Turchia</option>
-<option>Repubblica Ceca</option>
-<option>Georgia</option>
+	<option selected>&nbsp;</option>
+	<option>Messico</option>
+	<option>Corea del Sud</option>
+	<option>Sudafrica</option>
+	<option>Vincitore_D</option>
+	<option>Canada</option>
+	<option>Svizzera</option>
+	<option>Qatar</option>
+	<option>Vincitore_A</option>
+	<option>Brasile</option>
+	<option>Marocco</option>
+	<option>Scozia</option>
+	<option>Haiti</option>
+	<option>USA</option>
+	<option>Australia</option>
+	<option>Paraguay</option>
+	<option>Vincitore_C</option>
+	<option>Germania</option>
+	<option>Ecuador</option>
+	<option>Costa d'Avorio</option>
+	<option>Curaçao</option>
+	<option>Olanda</option>
+	<option>Giappone</option>
+	<option>Tunisia</option>
+	<option>Vincitore_B</option>
+	<option>Belgio</option>
+	<option>Iran</option>
+	<option>Egitto</option>
+	<option>Nuova Zelanda</option>
+	<option>Spagna</option>
+	<option>Uruguay</option>
+	<option>Arabia Saudita</option>
+	<option>Capo Verde</option>
+	<option>Francia</option>
+	<option>Senegal</option>
+	<option>Norvegia</option>
+	<option>Vincitore_2</option>
+	<option>Argentina</option>
+	<option>Austria</option>
+	<option>Algeria</option>
+	<option>Giordania</option>
+	<option>Portogallo</option>
+	<option>Colombia</option>
+	<option>Uzbekistan</option>
+	<option>Vincitore_1</option>
+	<option>Inghilterra</option>
+	<option>Croazia</option>
+	<option>Panama</option>
+	<option>Ghana</option>
 </select>
 
 
@@ -4120,31 +4140,55 @@ else
 
 <!-- Q5 -->
 <select name="question_52" >
-<option selected>&nbsp;</option>
-<option>Germania</option>
-<option>Ungheria</option>
-<option>Scozia</option>
-<option>Svizzera</option>
-<option>Spagna</option>
-<option>Albania</option>
-<option>Croazia</option>
-<option>Italia</option>
-<option>Inghilterra</option>
-<option>Danimarca</option>
-<option>Slovenia</option>
-<option>Serbia</option>
-<option>Francia</option>
-<option>Austria</option>
-<option>Olanda</option>
-<option>Polonia</option>
-<option>Belgio</option>
-<option>Romania</option>
-<option>Slovacchia</option>
-<option>Ucraina</option>
-<option>Portogallo</option>
-<option>Turchia</option>
-<option>Repubblica Ceca</option>
-<option>Georgia</option>
+	<option selected>&nbsp;</option>
+	<option>Messico</option>
+	<option>Corea del Sud</option>
+	<option>Sudafrica</option>
+	<option>Vincitore_D</option>
+	<option>Canada</option>
+	<option>Svizzera</option>
+	<option>Qatar</option>
+	<option>Vincitore_A</option>
+	<option>Brasile</option>
+	<option>Marocco</option>
+	<option>Scozia</option>
+	<option>Haiti</option>
+	<option>USA</option>
+	<option>Australia</option>
+	<option>Paraguay</option>
+	<option>Vincitore_C</option>
+	<option>Germania</option>
+	<option>Ecuador</option>
+	<option>Costa d'Avorio</option>
+	<option>Curaçao</option>
+	<option>Olanda</option>
+	<option>Giappone</option>
+	<option>Tunisia</option>
+	<option>Vincitore_B</option>
+	<option>Belgio</option>
+	<option>Iran</option>
+	<option>Egitto</option>
+	<option>Nuova Zelanda</option>
+	<option>Spagna</option>
+	<option>Uruguay</option>
+	<option>Arabia Saudita</option>
+	<option>Capo Verde</option>
+	<option>Francia</option>
+	<option>Senegal</option>
+	<option>Norvegia</option>
+	<option>Vincitore_2</option>
+	<option>Argentina</option>
+	<option>Austria</option>
+	<option>Algeria</option>
+	<option>Giordania</option>
+	<option>Portogallo</option>
+	<option>Colombia</option>
+	<option>Uzbekistan</option>
+	<option>Vincitore_1</option>
+	<option>Inghilterra</option>
+	<option>Croazia</option>
+	<option>Panama</option>
+	<option>Ghana</option>
 </select>
 
 
@@ -4153,31 +4197,55 @@ else
 
 <!-- Q6 -->
 <select name="question_53" >
-<option selected>&nbsp;</option>
-<option>Germania</option>
-<option>Ungheria</option>
-<option>Scozia</option>
-<option>Svizzera</option>
-<option>Spagna</option>
-<option>Albania</option>
-<option>Croazia</option>
-<option>Italia</option>
-<option>Inghilterra</option>
-<option>Danimarca</option>
-<option>Slovenia</option>
-<option>Serbia</option>
-<option>Francia</option>
-<option>Austria</option>
-<option>Olanda</option>
-<option>Polonia</option>
-<option>Belgio</option>
-<option>Romania</option>
-<option>Slovacchia</option>
-<option>Ucraina</option>
-<option>Portogallo</option>
-<option>Turchia</option>
-<option>Repubblica Ceca</option>
-<option>Georgia</option>
+	<option selected>&nbsp;</option>
+	<option>Messico</option>
+	<option>Corea del Sud</option>
+	<option>Sudafrica</option>
+	<option>Vincitore_D</option>
+	<option>Canada</option>
+	<option>Svizzera</option>
+	<option>Qatar</option>
+	<option>Vincitore_A</option>
+	<option>Brasile</option>
+	<option>Marocco</option>
+	<option>Scozia</option>
+	<option>Haiti</option>
+	<option>USA</option>
+	<option>Australia</option>
+	<option>Paraguay</option>
+	<option>Vincitore_C</option>
+	<option>Germania</option>
+	<option>Ecuador</option>
+	<option>Costa d'Avorio</option>
+	<option>Curaçao</option>
+	<option>Olanda</option>
+	<option>Giappone</option>
+	<option>Tunisia</option>
+	<option>Vincitore_B</option>
+	<option>Belgio</option>
+	<option>Iran</option>
+	<option>Egitto</option>
+	<option>Nuova Zelanda</option>
+	<option>Spagna</option>
+	<option>Uruguay</option>
+	<option>Arabia Saudita</option>
+	<option>Capo Verde</option>
+	<option>Francia</option>
+	<option>Senegal</option>
+	<option>Norvegia</option>
+	<option>Vincitore_2</option>
+	<option>Argentina</option>
+	<option>Austria</option>
+	<option>Algeria</option>
+	<option>Giordania</option>
+	<option>Portogallo</option>
+	<option>Colombia</option>
+	<option>Uzbekistan</option>
+	<option>Vincitore_1</option>
+	<option>Inghilterra</option>
+	<option>Croazia</option>
+	<option>Panama</option>
+	<option>Ghana</option>
 </select>
 
 
@@ -4187,31 +4255,55 @@ else
 
 <!-- Q7 -->
 <select name="question_54" >
-<option selected>&nbsp;</option>
-<option>Germania</option>
-<option>Ungheria</option>
-<option>Scozia</option>
-<option>Svizzera</option>
-<option>Spagna</option>
-<option>Albania</option>
-<option>Croazia</option>
-<option>Italia</option>
-<option>Inghilterra</option>
-<option>Danimarca</option>
-<option>Slovenia</option>
-<option>Serbia</option>
-<option>Francia</option>
-<option>Austria</option>
-<option>Olanda</option>
-<option>Polonia</option>
-<option>Belgio</option>
-<option>Romania</option>
-<option>Slovacchia</option>
-<option>Ucraina</option>
-<option>Portogallo</option>
-<option>Turchia</option>
-<option>Repubblica Ceca</option>
-<option>Georgia</option>
+	<option selected>&nbsp;</option>
+	<option>Messico</option>
+	<option>Corea del Sud</option>
+	<option>Sudafrica</option>
+	<option>Vincitore_D</option>
+	<option>Canada</option>
+	<option>Svizzera</option>
+	<option>Qatar</option>
+	<option>Vincitore_A</option>
+	<option>Brasile</option>
+	<option>Marocco</option>
+	<option>Scozia</option>
+	<option>Haiti</option>
+	<option>USA</option>
+	<option>Australia</option>
+	<option>Paraguay</option>
+	<option>Vincitore_C</option>
+	<option>Germania</option>
+	<option>Ecuador</option>
+	<option>Costa d'Avorio</option>
+	<option>Curaçao</option>
+	<option>Olanda</option>
+	<option>Giappone</option>
+	<option>Tunisia</option>
+	<option>Vincitore_B</option>
+	<option>Belgio</option>
+	<option>Iran</option>
+	<option>Egitto</option>
+	<option>Nuova Zelanda</option>
+	<option>Spagna</option>
+	<option>Uruguay</option>
+	<option>Arabia Saudita</option>
+	<option>Capo Verde</option>
+	<option>Francia</option>
+	<option>Senegal</option>
+	<option>Norvegia</option>
+	<option>Vincitore_2</option>
+	<option>Argentina</option>
+	<option>Austria</option>
+	<option>Algeria</option>
+	<option>Giordania</option>
+	<option>Portogallo</option>
+	<option>Colombia</option>
+	<option>Uzbekistan</option>
+	<option>Vincitore_1</option>
+	<option>Inghilterra</option>
+	<option>Croazia</option>
+	<option>Panama</option>
+	<option>Ghana</option>
 </select>
 
 
@@ -4223,31 +4315,55 @@ else
 
 <!-- Q8 -->
 <select name="question_55" >
-<option selected>&nbsp;</option>
-<option>Germania</option>
-<option>Ungheria</option>
-<option>Scozia</option>
-<option>Svizzera</option>
-<option>Spagna</option>
-<option>Albania</option>
-<option>Croazia</option>
-<option>Italia</option>
-<option>Inghilterra</option>
-<option>Danimarca</option>
-<option>Slovenia</option>
-<option>Serbia</option>
-<option>Francia</option>
-<option>Austria</option>
-<option>Olanda</option>
-<option>Polonia</option>
-<option>Belgio</option>
-<option>Romania</option>
-<option>Slovacchia</option>
-<option>Ucraina</option>
-<option>Portogallo</option>
-<option>Turchia</option>
-<option>Repubblica Ceca</option>
-<option>Georgia</option>
+	<option selected>&nbsp;</option>
+	<option>Messico</option>
+	<option>Corea del Sud</option>
+	<option>Sudafrica</option>
+	<option>Vincitore_D</option>
+	<option>Canada</option>
+	<option>Svizzera</option>
+	<option>Qatar</option>
+	<option>Vincitore_A</option>
+	<option>Brasile</option>
+	<option>Marocco</option>
+	<option>Scozia</option>
+	<option>Haiti</option>
+	<option>USA</option>
+	<option>Australia</option>
+	<option>Paraguay</option>
+	<option>Vincitore_C</option>
+	<option>Germania</option>
+	<option>Ecuador</option>
+	<option>Costa d'Avorio</option>
+	<option>Curaçao</option>
+	<option>Olanda</option>
+	<option>Giappone</option>
+	<option>Tunisia</option>
+	<option>Vincitore_B</option>
+	<option>Belgio</option>
+	<option>Iran</option>
+	<option>Egitto</option>
+	<option>Nuova Zelanda</option>
+	<option>Spagna</option>
+	<option>Uruguay</option>
+	<option>Arabia Saudita</option>
+	<option>Capo Verde</option>
+	<option>Francia</option>
+	<option>Senegal</option>
+	<option>Norvegia</option>
+	<option>Vincitore_2</option>
+	<option>Argentina</option>
+	<option>Austria</option>
+	<option>Algeria</option>
+	<option>Giordania</option>
+	<option>Portogallo</option>
+	<option>Colombia</option>
+	<option>Uzbekistan</option>
+	<option>Vincitore_1</option>
+	<option>Inghilterra</option>
+	<option>Croazia</option>
+	<option>Panama</option>
+	<option>Ghana</option>
 </select>
 
 
@@ -4281,31 +4397,55 @@ else
 
 <!-- S1 -->
 <select name="question_56" >
-<option selected>&nbsp;</option>
-<option>Germania</option>
-<option>Ungheria</option>
-<option>Scozia</option>
-<option>Svizzera</option>
-<option>Spagna</option>
-<option>Albania</option>
-<option>Croazia</option>
-<option>Italia</option>
-<option>Inghilterra</option>
-<option>Danimarca</option>
-<option>Slovenia</option>
-<option>Serbia</option>
-<option>Francia</option>
-<option>Austria</option>
-<option>Olanda</option>
-<option>Polonia</option>
-<option>Belgio</option>
-<option>Romania</option>
-<option>Slovacchia</option>
-<option>Ucraina</option>
-<option>Portogallo</option>
-<option>Turchia</option>
-<option>Repubblica Ceca</option>
-<option>Georgia</option>
+	<option selected>&nbsp;</option>
+	<option>Messico</option>
+	<option>Corea del Sud</option>
+	<option>Sudafrica</option>
+	<option>Vincitore_D</option>
+	<option>Canada</option>
+	<option>Svizzera</option>
+	<option>Qatar</option>
+	<option>Vincitore_A</option>
+	<option>Brasile</option>
+	<option>Marocco</option>
+	<option>Scozia</option>
+	<option>Haiti</option>
+	<option>USA</option>
+	<option>Australia</option>
+	<option>Paraguay</option>
+	<option>Vincitore_C</option>
+	<option>Germania</option>
+	<option>Ecuador</option>
+	<option>Costa d'Avorio</option>
+	<option>Curaçao</option>
+	<option>Olanda</option>
+	<option>Giappone</option>
+	<option>Tunisia</option>
+	<option>Vincitore_B</option>
+	<option>Belgio</option>
+	<option>Iran</option>
+	<option>Egitto</option>
+	<option>Nuova Zelanda</option>
+	<option>Spagna</option>
+	<option>Uruguay</option>
+	<option>Arabia Saudita</option>
+	<option>Capo Verde</option>
+	<option>Francia</option>
+	<option>Senegal</option>
+	<option>Norvegia</option>
+	<option>Vincitore_2</option>
+	<option>Argentina</option>
+	<option>Austria</option>
+	<option>Algeria</option>
+	<option>Giordania</option>
+	<option>Portogallo</option>
+	<option>Colombia</option>
+	<option>Uzbekistan</option>
+	<option>Vincitore_1</option>
+	<option>Inghilterra</option>
+	<option>Croazia</option>
+	<option>Panama</option>
+	<option>Ghana</option>
 </select>
 
 
@@ -4315,31 +4455,55 @@ else
 
 <!-- S2 -->
 <select name="question_57" >
-<option selected>&nbsp;</option>
-<option>Germania</option>
-<option>Ungheria</option>
-<option>Scozia</option>
-<option>Svizzera</option>
-<option>Spagna</option>
-<option>Albania</option>
-<option>Croazia</option>
-<option>Italia</option>
-<option>Inghilterra</option>
-<option>Danimarca</option>
-<option>Slovenia</option>
-<option>Serbia</option>
-<option>Francia</option>
-<option>Austria</option>
-<option>Olanda</option>
-<option>Polonia</option>
-<option>Belgio</option>
-<option>Romania</option>
-<option>Slovacchia</option>
-<option>Ucraina</option>
-<option>Portogallo</option>
-<option>Turchia</option>
-<option>Repubblica Ceca</option>
-<option>Georgia</option>
+	<option selected>&nbsp;</option>
+	<option>Messico</option>
+	<option>Corea del Sud</option>
+	<option>Sudafrica</option>
+	<option>Vincitore_D</option>
+	<option>Canada</option>
+	<option>Svizzera</option>
+	<option>Qatar</option>
+	<option>Vincitore_A</option>
+	<option>Brasile</option>
+	<option>Marocco</option>
+	<option>Scozia</option>
+	<option>Haiti</option>
+	<option>USA</option>
+	<option>Australia</option>
+	<option>Paraguay</option>
+	<option>Vincitore_C</option>
+	<option>Germania</option>
+	<option>Ecuador</option>
+	<option>Costa d'Avorio</option>
+	<option>Curaçao</option>
+	<option>Olanda</option>
+	<option>Giappone</option>
+	<option>Tunisia</option>
+	<option>Vincitore_B</option>
+	<option>Belgio</option>
+	<option>Iran</option>
+	<option>Egitto</option>
+	<option>Nuova Zelanda</option>
+	<option>Spagna</option>
+	<option>Uruguay</option>
+	<option>Arabia Saudita</option>
+	<option>Capo Verde</option>
+	<option>Francia</option>
+	<option>Senegal</option>
+	<option>Norvegia</option>
+	<option>Vincitore_2</option>
+	<option>Argentina</option>
+	<option>Austria</option>
+	<option>Algeria</option>
+	<option>Giordania</option>
+	<option>Portogallo</option>
+	<option>Colombia</option>
+	<option>Uzbekistan</option>
+	<option>Vincitore_1</option>
+	<option>Inghilterra</option>
+	<option>Croazia</option>
+	<option>Panama</option>
+	<option>Ghana</option>
 </select>
 
 
@@ -4348,31 +4512,55 @@ else
 
 <!-- S3 -->
 <select name="question_58" >
-<option selected>&nbsp;</option>
-<option>Germania</option>
-<option>Ungheria</option>
-<option>Scozia</option>
-<option>Svizzera</option>
-<option>Spagna</option>
-<option>Albania</option>
-<option>Croazia</option>
-<option>Italia</option>
-<option>Inghilterra</option>
-<option>Danimarca</option>
-<option>Slovenia</option>
-<option>Serbia</option>
-<option>Francia</option>
-<option>Austria</option>
-<option>Olanda</option>
-<option>Polonia</option>
-<option>Belgio</option>
-<option>Romania</option>
-<option>Slovacchia</option>
-<option>Ucraina</option>
-<option>Portogallo</option>
-<option>Turchia</option>
-<option>Repubblica Ceca</option>
-<option>Georgia</option>
+	<option selected>&nbsp;</option>
+	<option>Messico</option>
+	<option>Corea del Sud</option>
+	<option>Sudafrica</option>
+	<option>Vincitore_D</option>
+	<option>Canada</option>
+	<option>Svizzera</option>
+	<option>Qatar</option>
+	<option>Vincitore_A</option>
+	<option>Brasile</option>
+	<option>Marocco</option>
+	<option>Scozia</option>
+	<option>Haiti</option>
+	<option>USA</option>
+	<option>Australia</option>
+	<option>Paraguay</option>
+	<option>Vincitore_C</option>
+	<option>Germania</option>
+	<option>Ecuador</option>
+	<option>Costa d'Avorio</option>
+	<option>Curaçao</option>
+	<option>Olanda</option>
+	<option>Giappone</option>
+	<option>Tunisia</option>
+	<option>Vincitore_B</option>
+	<option>Belgio</option>
+	<option>Iran</option>
+	<option>Egitto</option>
+	<option>Nuova Zelanda</option>
+	<option>Spagna</option>
+	<option>Uruguay</option>
+	<option>Arabia Saudita</option>
+	<option>Capo Verde</option>
+	<option>Francia</option>
+	<option>Senegal</option>
+	<option>Norvegia</option>
+	<option>Vincitore_2</option>
+	<option>Argentina</option>
+	<option>Austria</option>
+	<option>Algeria</option>
+	<option>Giordania</option>
+	<option>Portogallo</option>
+	<option>Colombia</option>
+	<option>Uzbekistan</option>
+	<option>Vincitore_1</option>
+	<option>Inghilterra</option>
+	<option>Croazia</option>
+	<option>Panama</option>
+	<option>Ghana</option>
 </select>
 
 
@@ -4381,31 +4569,55 @@ else
 
 <!-- S4 -->
 <select name="question_59" >
-<option selected>&nbsp;</option>
-<option>Germania</option>
-<option>Ungheria</option>
-<option>Scozia</option>
-<option>Svizzera</option>
-<option>Spagna</option>
-<option>Albania</option>
-<option>Croazia</option>
-<option>Italia</option>
-<option>Inghilterra</option>
-<option>Danimarca</option>
-<option>Slovenia</option>
-<option>Serbia</option>
-<option>Francia</option>
-<option>Austria</option>
-<option>Olanda</option>
-<option>Polonia</option>
-<option>Belgio</option>
-<option>Romania</option>
-<option>Slovacchia</option>
-<option>Ucraina</option>
-<option>Portogallo</option>
-<option>Turchia</option>
-<option>Repubblica Ceca</option>
-<option>Georgia</option>
+	<option selected>&nbsp;</option>
+	<option>Messico</option>
+	<option>Corea del Sud</option>
+	<option>Sudafrica</option>
+	<option>Vincitore_D</option>
+	<option>Canada</option>
+	<option>Svizzera</option>
+	<option>Qatar</option>
+	<option>Vincitore_A</option>
+	<option>Brasile</option>
+	<option>Marocco</option>
+	<option>Scozia</option>
+	<option>Haiti</option>
+	<option>USA</option>
+	<option>Australia</option>
+	<option>Paraguay</option>
+	<option>Vincitore_C</option>
+	<option>Germania</option>
+	<option>Ecuador</option>
+	<option>Costa d'Avorio</option>
+	<option>Curaçao</option>
+	<option>Olanda</option>
+	<option>Giappone</option>
+	<option>Tunisia</option>
+	<option>Vincitore_B</option>
+	<option>Belgio</option>
+	<option>Iran</option>
+	<option>Egitto</option>
+	<option>Nuova Zelanda</option>
+	<option>Spagna</option>
+	<option>Uruguay</option>
+	<option>Arabia Saudita</option>
+	<option>Capo Verde</option>
+	<option>Francia</option>
+	<option>Senegal</option>
+	<option>Norvegia</option>
+	<option>Vincitore_2</option>
+	<option>Argentina</option>
+	<option>Austria</option>
+	<option>Algeria</option>
+	<option>Giordania</option>
+	<option>Portogallo</option>
+	<option>Colombia</option>
+	<option>Uzbekistan</option>
+	<option>Vincitore_1</option>
+	<option>Inghilterra</option>
+	<option>Croazia</option>
+	<option>Panama</option>
+	<option>Ghana</option>
 </select>
 
 
@@ -4429,31 +4641,55 @@ else
 
 <!-- F1 -->
 <select name="question_60" >
-<option selected>&nbsp;</option>
-<option>Germania</option>
-<option>Ungheria</option>
-<option>Scozia</option>
-<option>Svizzera</option>
-<option>Spagna</option>
-<option>Albania</option>
-<option>Croazia</option>
-<option>Italia</option>
-<option>Inghilterra</option>
-<option>Danimarca</option>
-<option>Slovenia</option>
-<option>Serbia</option>
-<option>Francia</option>
-<option>Austria</option>
-<option>Olanda</option>
-<option>Polonia</option>
-<option>Belgio</option>
-<option>Romania</option>
-<option>Slovacchia</option>
-<option>Ucraina</option>
-<option>Portogallo</option>
-<option>Turchia</option>
-<option>Repubblica Ceca</option>
-<option>Georgia</option>
+	<option selected>&nbsp;</option>
+	<option>Messico</option>
+	<option>Corea del Sud</option>
+	<option>Sudafrica</option>
+	<option>Vincitore_D</option>
+	<option>Canada</option>
+	<option>Svizzera</option>
+	<option>Qatar</option>
+	<option>Vincitore_A</option>
+	<option>Brasile</option>
+	<option>Marocco</option>
+	<option>Scozia</option>
+	<option>Haiti</option>
+	<option>USA</option>
+	<option>Australia</option>
+	<option>Paraguay</option>
+	<option>Vincitore_C</option>
+	<option>Germania</option>
+	<option>Ecuador</option>
+	<option>Costa d'Avorio</option>
+	<option>Curaçao</option>
+	<option>Olanda</option>
+	<option>Giappone</option>
+	<option>Tunisia</option>
+	<option>Vincitore_B</option>
+	<option>Belgio</option>
+	<option>Iran</option>
+	<option>Egitto</option>
+	<option>Nuova Zelanda</option>
+	<option>Spagna</option>
+	<option>Uruguay</option>
+	<option>Arabia Saudita</option>
+	<option>Capo Verde</option>
+	<option>Francia</option>
+	<option>Senegal</option>
+	<option>Norvegia</option>
+	<option>Vincitore_2</option>
+	<option>Argentina</option>
+	<option>Austria</option>
+	<option>Algeria</option>
+	<option>Giordania</option>
+	<option>Portogallo</option>
+	<option>Colombia</option>
+	<option>Uzbekistan</option>
+	<option>Vincitore_1</option>
+	<option>Inghilterra</option>
+	<option>Croazia</option>
+	<option>Panama</option>
+	<option>Ghana</option>
 </select>
 
 
@@ -4462,31 +4698,55 @@ else
 
 <!-- F2 -->
 <select name="question_61" >
-<option selected>&nbsp;</option>
-<option>Germania</option>
-<option>Ungheria</option>
-<option>Scozia</option>
-<option>Svizzera</option>
-<option>Spagna</option>
-<option>Albania</option>
-<option>Croazia</option>
-<option>Italia</option>
-<option>Inghilterra</option>
-<option>Danimarca</option>
-<option>Slovenia</option>
-<option>Serbia</option>
-<option>Francia</option>
-<option>Austria</option>
-<option>Olanda</option>
-<option>Polonia</option>
-<option>Belgio</option>
-<option>Romania</option>
-<option>Slovacchia</option>
-<option>Ucraina</option>
-<option>Portogallo</option>
-<option>Turchia</option>
-<option>Repubblica Ceca</option>
-<option>Georgia</option>
+	<option selected>&nbsp;</option>
+	<option>Messico</option>
+	<option>Corea del Sud</option>
+	<option>Sudafrica</option>
+	<option>Vincitore_D</option>
+	<option>Canada</option>
+	<option>Svizzera</option>
+	<option>Qatar</option>
+	<option>Vincitore_A</option>
+	<option>Brasile</option>
+	<option>Marocco</option>
+	<option>Scozia</option>
+	<option>Haiti</option>
+	<option>USA</option>
+	<option>Australia</option>
+	<option>Paraguay</option>
+	<option>Vincitore_C</option>
+	<option>Germania</option>
+	<option>Ecuador</option>
+	<option>Costa d'Avorio</option>
+	<option>Curaçao</option>
+	<option>Olanda</option>
+	<option>Giappone</option>
+	<option>Tunisia</option>
+	<option>Vincitore_B</option>
+	<option>Belgio</option>
+	<option>Iran</option>
+	<option>Egitto</option>
+	<option>Nuova Zelanda</option>
+	<option>Spagna</option>
+	<option>Uruguay</option>
+	<option>Arabia Saudita</option>
+	<option>Capo Verde</option>
+	<option>Francia</option>
+	<option>Senegal</option>
+	<option>Norvegia</option>
+	<option>Vincitore_2</option>
+	<option>Argentina</option>
+	<option>Austria</option>
+	<option>Algeria</option>
+	<option>Giordania</option>
+	<option>Portogallo</option>
+	<option>Colombia</option>
+	<option>Uzbekistan</option>
+	<option>Vincitore_1</option>
+	<option>Inghilterra</option>
+	<option>Croazia</option>
+	<option>Panama</option>
+	<option>Ghana</option>
 </select>
 
 
@@ -4497,31 +4757,55 @@ else
 
 <!-- C -->
 <select name="question_62" >
-<option selected>&nbsp;</option>
-<option>Germania</option>
-<option>Ungheria</option>
-<option>Scozia</option>
-<option>Svizzera</option>
-<option>Spagna</option>
-<option>Albania</option>
-<option>Croazia</option>
-<option>Italia</option>
-<option>Inghilterra</option>
-<option>Danimarca</option>
-<option>Slovenia</option>
-<option>Serbia</option>
-<option>Francia</option>
-<option>Austria</option>
-<option>Olanda</option>
-<option>Polonia</option>
-<option>Belgio</option>
-<option>Romania</option>
-<option>Slovacchia</option>
-<option>Ucraina</option>
-<option>Portogallo</option>
-<option>Turchia</option>
-<option>Repubblica Ceca</option>
-<option>Georgia</option>
+	<option selected>&nbsp;</option>
+	<option>Messico</option>
+	<option>Corea del Sud</option>
+	<option>Sudafrica</option>
+	<option>Vincitore_D</option>
+	<option>Canada</option>
+	<option>Svizzera</option>
+	<option>Qatar</option>
+	<option>Vincitore_A</option>
+	<option>Brasile</option>
+	<option>Marocco</option>
+	<option>Scozia</option>
+	<option>Haiti</option>
+	<option>USA</option>
+	<option>Australia</option>
+	<option>Paraguay</option>
+	<option>Vincitore_C</option>
+	<option>Germania</option>
+	<option>Ecuador</option>
+	<option>Costa d'Avorio</option>
+	<option>Curaçao</option>
+	<option>Olanda</option>
+	<option>Giappone</option>
+	<option>Tunisia</option>
+	<option>Vincitore_B</option>
+	<option>Belgio</option>
+	<option>Iran</option>
+	<option>Egitto</option>
+	<option>Nuova Zelanda</option>
+	<option>Spagna</option>
+	<option>Uruguay</option>
+	<option>Arabia Saudita</option>
+	<option>Capo Verde</option>
+	<option>Francia</option>
+	<option>Senegal</option>
+	<option>Norvegia</option>
+	<option>Vincitore_2</option>
+	<option>Argentina</option>
+	<option>Austria</option>
+	<option>Algeria</option>
+	<option>Giordania</option>
+	<option>Portogallo</option>
+	<option>Colombia</option>
+	<option>Uzbekistan</option>
+	<option>Vincitore_1</option>
+	<option>Inghilterra</option>
+	<option>Croazia</option>
+	<option>Panama</option>
+	<option>Ghana</option>
 </select>
 
 
@@ -4609,84 +4893,84 @@ else
 			<TD COLSPAN=3 ALIGN=CENTER BGCOLOR="#DDFFAA"><B>Sedicesimi di Finale (28 giugno - 3 luglio 2026)</B></TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">28/06 h. 21:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">28/06 h. 12:00 (21:00)</TD>
 			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">Los Angeles</TD>
-			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">2A-2B (O1)</TD>
+			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">2A-2B (O1 73)</TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">29/06 h. 02:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">29/06 h. 16:30 (22:30)</TD>
 			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">Boston</TD>
-			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">1A-3C/D/F/G/H (O2)</TD>
+			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">1E-3A/B/C/D/F (O2 74)</TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">29/06 h. 21:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">29/06 h. 19:00 (03:00 30/06)</TD>
 			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">Monterrey</TD>
-			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">1C-2F (O3)</TD>
+			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">1F-2C (O3 75)</TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">30/06 h. 02:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">29/06 h. 12:00 (19:00)</TD>
 			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">Houston</TD>
-			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">2D-2E (O4)</TD>
+			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">1C-2F (O4 76)</TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">30/06 h. 18:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">30/06 h. 17:00 (23:00)</TD>
 			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">New York/NJ</TD>
-			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">1E-3A/B/C/D/F (O5)</TD>
+			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">1I-3C/D/F/G/H (O5 77)</TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">30/06 h. 21:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">30/06 h. 12:00 (19:00)</TD>
 			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">Dallas</TD>
-			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">1F-3A/B/C/D/G (O6)</TD>
+			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">2E-2I (O6 78)</TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">01/07 h. 18:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">30/06 h. 19:00 (03:00 01/07)</TD>
+			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">Mexico City</TD>
+			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">1A-3C/E/F/H/I (O7 79)</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">01/07 h. 12:00 (18:00)</TD>
 			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">Atlanta</TD>
-			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">2C-2G (O7)</TD>
+			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">1L-3E/H/I/J/K (O8 80)</TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">01/07 h. 21:00</TD>
-			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">Città del Messico</TD>
-			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">1D-3B/E/F/G/H (O8)</TD>
-		</TR>
-		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">01/07 h. 03:00</TD>
-			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">Seattle</TD>
-			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">1G-3A/B/C/E/F (O9)</TD>
-		</TR>
-		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">02/07 h. 18:00</TD>
-			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">Toronto</TD>
-			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">1I-2C (O10)</TD>
-		</TR>
-		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">02/07 h. 21:00</TD>
-			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">Los Angeles</TD>
-			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">2F-2K (O11)</TD>
-		</TR>
-		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">03/07 h. 02:30</TD>
+			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">01/07 h. 17:00 (02:00 02/07)</TD>
 			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">San Francisco</TD>
-			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">1H-2J (O12)</TD>
+			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">1D-3B/E/F/I/J (O9 81)</TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">03/07 h. 18:00</TD>
-			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">Miami</TD>
-			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">1J-2H (O13)</TD>
+			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">01/07 h. 13:00 (22:00)</TD>
+			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">Seattle</TD>
+			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">1G-3A/E/H/I/J (O10 82)</TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">03/07 h. 21:00</TD>
-			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">Kansas City</TD>
-			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">1L-3E/F/G/I/J (O14)</TD>
+			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">02/07 h. 19:00 (01:00 03/07)</TD>
+			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">Toronto</TD>
+			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">2K-2L (O11 83)</TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">04/07 h. 00:00</TD>
-			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">Dallas</TD>
-			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">1K-3D/E/G/I/J (O15)</TD>
+			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">02/07 h. 12:00 (21:00)</TD>
+			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">Los Angeles</TD>
+			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">1H-2J (O12 84)</TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">04/07 h. 03:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">02/07 h. 20:00 (05:00 03/07)</TD>
 			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">Vancouver</TD>
-			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">2B-2F (O16)</TD>
+			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">1B-3E/F/G/I/J (O13 85)</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">03/07 h. 18:00 (00:00 04/07)</TD>
+			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">Miami</TD>
+			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">1J-2H (O14 86)</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">03/07 h. 20:30 (03:30 04/07)</TD>
+			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">Kansas City</TD>
+			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">1K-3D/E/I/J/L (O15 87)</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT BGCOLOR="#DDFFAA">03/07 h. 13:00 (20:00)</TD>
+			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">Dallas</TD>
+			<TD ALIGN=CENTER BGCOLOR="#DDFFAA">2D-2G (O16 88)</TD>
 		</TR>
 		
 		
@@ -4703,46 +4987,45 @@ else
 			<TD COLSPAN=3 ALIGN=CENTER BGCOLOR="#FFDDDD"><B>Ottavi di Finale (4 - 7 luglio 2026)</B></TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">04/07 h. 22:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">04/07 h. 17:00 (23:00)</TD>
+			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">Philadelphia</TD>
+			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">O2-O5 74-77 (Q1 89)</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">04/07 h. 12:00 (19:00)</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">Houston</TD>
-			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">O1-O2 (Q1)</TD>
+			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">O1-O4 73-76 (Q2 90)</TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">05/07 h. 03:00</TD>
-			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">Messico (C. Messico)</TD>
-			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">O3-O4 (Q2)</TD>
-		</TR>
-		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">05/07 h. 22:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">05/07 h. 16:00 (22:00)</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">New York/NJ</TD>
-			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">O5-O6 (Q3)</TD>
+			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">O3-O6 75-78 (Q3 91)</TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">06/07 h. 03:00</TD>
-			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">Los Angeles</TD>
-			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">O7-O8 (Q4)</TD>
+			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">05/07 h. 18:00 (02:00 06/07)</TD>
+			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">Mexico City</TD>
+			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">O7-O8 79-80 (Q4 92)</TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">06/07 h. 18:00</TD>
-			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">Miami</TD>
-			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">O9-O10 (Q5)</TD>
-		</TR>
-		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">06/07 h. 21:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">06/07 h. 14:00 (21:00)</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">Dallas</TD>
-			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">O11-O12 (Q6)</TD>
+			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">O12-O15 84-87 (Q5 93)</TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">07/07 h. 18:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">06/07 h. 17:00 (02:00 07/07)</TD>
+			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">Seattle</TD>
+			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">O11-O14 83-86 (Q6 94)</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">07/07 h. 12:00 (18:00)</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">Atlanta</TD>
-			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">O13-O14 (Q7)</TD>
+			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">O9-O10 81-82 (Q7 95)</TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">07/07 h. 21:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#FFDDDD">07/07 h. 13:00 (22:00)</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">Vancouver</TD>
-			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">O15-O16 (Q8)</TD>
+			<TD ALIGN=CENTER BGCOLOR="#FFDDDD">O13-O16 85-88 (Q8 96)</TD>
 		</TR>		
-		
 		
 		
 		<TR>
@@ -4757,24 +5040,24 @@ else
 			<TD COLSPAN=3 ALIGN=CENTER BGCOLOR="#CCFFCC"><B>Quarti di Finale (9 - 11 luglio 2026)</B></TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">09/07 h. 21:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">09/07 h. 16:00 (22:00)</TD>
 			<TD ALIGN=CENTER BGCOLOR="#CCFFCC">Boston</TD>
-			<TD ALIGN=CENTER BGCOLOR="#CCFFCC">Q1-Q2 (S1)</TD>
+			<TD ALIGN=CENTER BGCOLOR="#CCFFCC">Q1-Q2 89-90 (S1 97)</TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">10/07 h. 03:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">10/07 h. 12:00 (21:00)</TD>
 			<TD ALIGN=CENTER BGCOLOR="#CCFFCC">Los Angeles</TD>
-			<TD ALIGN=CENTER BGCOLOR="#CCFFCC">Q3-Q4 (S2)</TD>
+			<TD ALIGN=CENTER BGCOLOR="#CCFFCC">Q5-Q6 93-94 (S2 98)</TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">11/07 h. 18:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">11/07 h. 17:00 (23:00)</TD>
 			<TD ALIGN=CENTER BGCOLOR="#CCFFCC">Miami</TD>
-			<TD ALIGN=CENTER BGCOLOR="#CCFFCC">Q5-Q6 (S3)</TD>
+			<TD ALIGN=CENTER BGCOLOR="#CCFFCC">Q3-Q4 91-92 (S3 99)</TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">11/07 h. 21:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">11/07 h. 20:00 (03:00 12/07)</TD>
 			<TD ALIGN=CENTER BGCOLOR="#CCFFCC">Kansas City</TD>
-			<TD ALIGN=CENTER BGCOLOR="#CCFFCC">Q7-Q8 (S4)</TD>
+			<TD ALIGN=CENTER BGCOLOR="#CCFFCC">Q7-Q8 95-96 (S4 100)</TD>
 		</TR>
 		
 		
@@ -4791,14 +5074,14 @@ else
 			<TD COLSPAN=3 ALIGN=CENTER BGCOLOR="#FFFF99"><B>Semifinali (14 - 15 luglio 2026)</B></TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#FFFF99">15/07 h. 02:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#FFFF99">14/07 h. 14:00 (21:00)</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFFF99">Dallas</TD>
-			<TD ALIGN=CENTER BGCOLOR="#FFFF99">S1-S2 (F1)</TD>
+			<TD ALIGN=CENTER BGCOLOR="#FFFF99">S1-S2 97-98 (F1 101)</TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#FFFF99">16/07 h. 02:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#FFFF99">15/07 h. 15:00 (21:00)</TD>
 			<TD ALIGN=CENTER BGCOLOR="#FFFF99">Atlanta</TD>
-			<TD ALIGN=CENTER BGCOLOR="#FFFF99">S3-S4 (F2)</TD>
+			<TD ALIGN=CENTER BGCOLOR="#FFFF99">S3-S4 99-100 (F2 102)</TD>
 		</TR>
 		
 		
@@ -4815,9 +5098,9 @@ else
 			<TD COLSPAN=3 ALIGN=CENTER BGCOLOR="#C0C0C0"><B>Finale 1°-2° posto (19 luglio 2026)</B></TD>
 		</TR>
 		<TR>
-			<TD ALIGN=LEFT BGCOLOR="#C0C0C0">19/07 h. 21:00</TD>
+			<TD ALIGN=LEFT BGCOLOR="#C0C0C0">19/07 h. 15:00 (21:00)</TD>
 			<TD ALIGN=CENTER BGCOLOR="#C0C0C0">New York/NJ</TD>
-			<TD ALIGN=CENTER BGCOLOR="#C0C0C0">F1-F2 (C)</TD>
+			<TD ALIGN=CENTER BGCOLOR="#C0C0C0">F1-F2 101-102 (C 104)</TD>
 		</TR>
 		
 		
