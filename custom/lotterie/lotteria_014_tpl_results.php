@@ -161,7 +161,7 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 	$giocata_riordinata = implode(',',$vettore_giocata_new);
 	
 	// aggiorna giocata new
-	$giocata_new[1]=$giocata_riordinata; 		// 1) sostituisci la vecchia giocata con quella riordinata
+	$giocata_new[1]=$giocata_riordinata; 			// 1) sostituisci la vecchia giocata con quella riordinata
 	$giocata_new[count($giocata)] = $punteggio; 	// 2) nell'ultima colonna aggiungo il punteggio esatto da visualizzare nella classifica
 	
 	// ed inseriscila in archivio
@@ -192,6 +192,12 @@ $mask=array_merge($mask,Array($ind_last_col));
 // $id_field_nome          = 32;
 // $id_field_data_nascita  = 33;
 // $id_field_provenienza   = 34;
+// 
+// // se si parte dai sedicesimi:
+// $id_field_cognome       = 63;
+// $id_field_nome          = 64;
+// $id_field_data_nascita  = 65;
+// $id_field_provenienza   = 66;
 
 $id_field_cognome       = $num_risposte_squadre+0;
 $id_field_nome          = $num_risposte_squadre+1;
@@ -200,12 +206,16 @@ $id_field_provenienza   = $num_risposte_squadre+3;
 
 // alias delle varie risposte
 $vettore_alias_domanda = array(
+	'M','M','M','M','M','M','M','M','M','M','M','M','M','M','M','M','M','M','M','M','M','M','M','M','M','M','M','M','M','M','M','M',
 	'W','W','W','W','W','W','W','W','W','W','W','W','W','W','W','W',
 	'Q','Q','Q','Q','Q','Q','Q','Q',
 	'S','S','S','S',
-	'F','F','C');
+	'F','F',
+	'C');
 $vettore_alias2_domanda = array(
-	'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi','Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi',
+		'Ammesse ai sedicesimi', 'Ammesse ai sedicesimi', 'Ammesse ai sedicesimi', 'Ammesse ai sedicesimi', 'Ammesse ai sedicesimi', 'Ammesse ai sedicesimi', 'Ammesse ai sedicesimi', 'Ammesse ai sedicesimi','Ammesse ai sedicesimi', 'Ammesse ai sedicesimi', 'Ammesse ai sedicesimi', 'Ammesse ai sedicesimi', 'Ammesse ai sedicesimi', 'Ammesse ai sedicesimi', 'Ammesse ai sedicesimi', 'Ammesse ai sedicesimi',
+		'Ammesse ai sedicesimi', 'Ammesse ai sedicesimi', 'Ammesse ai sedicesimi', 'Ammesse ai sedicesimi', 'Ammesse ai sedicesimi', 'Ammesse ai sedicesimi', 'Ammesse ai sedicesimi', 'Ammesse ai sedicesimi','Ammesse ai sedicesimi', 'Ammesse ai sedicesimi', 'Ammesse ai sedicesimi', 'Ammesse ai sedicesimi', 'Ammesse ai sedicesimi', 'Ammesse ai sedicesimi', 'Ammesse ai sedicesimi', 'Ammesse ai sedicesimi',
+		'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi','Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi', 'Ammesse agli ottavi',
 	'Ammesse ai quarti', 'Ammesse ai quarti', 'Ammesse ai quarti', 'Ammesse ai quarti', 'Ammesse ai quarti', 'Ammesse ai quarti', 'Ammesse ai quarti', 'Ammesse ai quarti',
 	'Ammesse alle semifinali', 'Ammesse alle semifinali', 'Ammesse alle semifinali', 'Ammesse alle semifinali',
 	'Ammesse in finale', 'Ammesse in finale', 'Squadra vincitrice');
@@ -340,12 +350,12 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 	// crea giocata
 	$record_new = array();
 	array_push($record_new,$id_della_giocata);	// field 0
-	array_push($record_new,$punteggio);		// field 1
+	array_push($record_new,$punteggio);			// field 1
 	array_push($record_new,$data_giocata);		// field 2
 	array_push($record_new,$giocatore_ks);		// field 3
 	array_push($record_new,$auth_token_ks);		// field 4
 	array_push($record_new,$tipo_giocata_ks);	// field 5
-	array_push($record_new,$count);			// field 6
+	array_push($record_new,$count);				// field 6
 	array_push($record_new,$provenienza);		// field 7
 	$last_fixed_field = 7;	// pari all'ultimo indice qui sopra (numero elementi meno 1), bisogna aggiornare anche $header_new
 	
@@ -400,34 +410,41 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 			'0' 		=> Array('<small>0G</small>'		,'','Qualificazione tra le migliori terze classificate (0 punti)'),
 			'default'	=> Array('.'		,'','')
 			);
+	$sub_array_ok_W = Array(
+			'20' 		=> Array('V<small>W</small>'		,'','Vittoria nei tempi regolamentari nei sedicesimi (20 punti)'),
+			'16' 		=> Array('S<small>W</small>'		,'','Vittoria ai supplementari nei sedicesimi (16 punti)'),
+			'11' 		=> Array('R<small>W</small>'		,'','Vittoria ai rigori nei sedicesimi (11 punti)'),
+			'default'	=> Array('.'		,'','')
+			);
 	$sub_array_ok_Q = Array(
-			'20' 		=> Array('V<small>Q</small>'		,'','Vittoria nei tempi regolamentari negli ottavi (20 punti)'),
-			'16' 		=> Array('S<small>Q</small>'		,'','Vittoria ai supplementari negli ottavi (16 punti)'),
-			'11' 		=> Array('R<small>Q</small>'		,'','Vittoria ai rigori negli ottavi (11 punti)'),
+			'40' 		=> Array('V<small>Q</small>'		,'','Vittoria nei tempi regolamentari negli ottavi (40 punti)'),
+			'32' 		=> Array('S<small>Q</small>'		,'','Vittoria ai supplementari negli ottavi (32 punti)'),
+			'22' 		=> Array('R<small>Q</small>'		,'','Vittoria ai rigori negli ottavi (22 punti)'),
 			'default'	=> Array('.'		,'','')
 			);
 	$sub_array_ok_S = Array(
-			'40' 		=> Array('V<small>S</small>'		,'','Vittoria nei tempi regolamentari nei quarti (40 punti)'),
-			'32' 		=> Array('S<small>S</small>'		,'','Vittoria ai supplementari nei quarti (32 punti)'),
-			'22' 		=> Array('R<small>S</small>'		,'','Vittoria ai rigori nei quarti (22 punti)'),
+			'80' 		=> Array('V<small>S</small>'		,'','Vittoria nei tempi regolamentari nei quarti (80 punti)'),
+			'64' 		=> Array('S<small>S</small>'		,'','Vittoria ai supplementari nei quarti (64 punti)'),
+			'44' 		=> Array('R<small>S</small>'		,'','Vittoria ai rigori nei quarti (44 punti)'),
 			'default'	=> Array('.'		,'','')
 			);
 	$sub_array_ok_F = Array(
-			'80' 		=> Array('V<small>F</small>'		,'','Vittoria nei tempi regolamentari in semifinale (80 punti)'),
-			'64' 		=> Array('S<small>F</small>'		,'','Vittoria ai supplementari in semifinale (64 punti)'),
-			'44' 		=> Array('R<small>F</small>'		,'','Vittoria ai rigori in semifinale (44 punti)'),
+			'160' 		=> Array('V<small>F</small>'		,'','Vittoria nei tempi regolamentari in semifinale (160 punti)'),
+			'128' 		=> Array('S<small>F</small>'		,'','Vittoria ai supplementari in semifinale (128 punti)'),
+			'88' 		=> Array('R<small>F</small>'		,'','Vittoria ai rigori in semifinale (88 punti)'),
 			'default'	=> Array('.'		,'','')
 			);
 	$sub_array_ok_C = Array(
-			'160' 		=> Array('V<small>C</small>'		,'','Vittoria nei tempi regolamentari in finale (160 punti)'),
-			'128' 		=> Array('S<small>C</small>'		,'','Vittoria ai supplementari in finale (128 punti)'),
-			'88' 		=> Array('R<small>C</small>'		,'','Vittoria ai rigori in finale (88 punti)'),
+			'320' 		=> Array('V<small>C</small>'		,'','Vittoria nei tempi regolamentari in finale (320 punti)'),
+			'256' 		=> Array('S<small>C</small>'		,'','Vittoria ai supplementari in finale (256 punti)'),
+			'176' 		=> Array('R<small>C</small>'		,'','Vittoria ai rigori in finale (176 punti)'),
 			'default'	=> Array('.'		,'','')
 			);
 
 
 	$simbolo_ok 	= Array(
-		5 => $sub_array_ok_G,
+		6 => $sub_array_ok_G,
+		5 => $sub_array_ok_W,
 		4 => $sub_array_ok_Q,
 		3 => $sub_array_ok_S,
 		2 => $sub_array_ok_F,
@@ -442,33 +459,40 @@ foreach ($elenco_giocate2 as $indice_giocata => $giocata)
 			'0'		=> Array('<small>o</small>'		,'','Eliminazione per effetto di un minor numero di  punti in classifica - sconfitta diretta (0 punti)'),
 			'default'	=> Array('.'		,'','')
 			);
+	$sub_array_not_ok_W = Array(
+			'9' 		=> Array('rw'		,'','Sconfitta ai rigori nei sedicesimi (9 punti)'),
+			'4' 		=> Array('sw'		,'','Sconfitta ai supplementari nei sedicesimi (4 punti)'),
+			'0'		=> Array('<small>o</small>'		,'','Eliminazione per effetto di un minor numero di  punti in classifica - sconfitta diretta (0 punti)'),
+			'default'	=> Array('.'		,'','')
+			);
 	$sub_array_not_ok_Q = Array(
-			'9' 		=> Array('rq'		,'','Sconfitta ai rigori negli ottavi (9 punti)'),
-			'4' 		=> Array('sq'		,'','Sconfitta ai supplementari negli ottavi (4 punti)'),
+			'18' 		=> Array('rq'		,'','Sconfitta ai rigori negli ottavi (18 punti)'),
+			'8' 		=> Array('sq'		,'','Sconfitta ai supplementari negli ottavi (8 punti)'),
 			'0'		=> Array('<small>o</small>'		,'','Eliminazione per effetto di un minor numero di  punti in classifica - sconfitta diretta (0 punti)'),
 			'default'	=> Array('.'		,'','')
 			);
 	$sub_array_not_ok_S = Array(
-			'18' 		=> Array('rs'		,'','Sconfitta ai rigori nei quarti (18 punti)'),
-			'8' 		=> Array('ss'		,'','Sconfitta ai supplementari nei quarti (8 punti)'),
+			'36' 		=> Array('rs'		,'','Sconfitta ai rigori nei quarti (36 punti)'),
+			'16' 		=> Array('ss'		,'','Sconfitta ai supplementari nei quarti (16 punti)'),
 			'0'		=> Array('<small>o</small>'		,'','Eliminazione per effetto di un minor numero di  punti in classifica - sconfitta diretta (0 punti)'),
 			'default'	=> Array('.'		,'','')
 			);
 	$sub_array_not_ok_F = Array(
-			'36' 		=> Array('rf'		,'','Sconfitta ai rigori in semifinale (36 punti)'),
-			'16' 		=> Array('sf'		,'','Sconfitta ai supplementari in semifinale (16 punti)'),
+			'72' 		=> Array('rf'		,'','Sconfitta ai rigori in semifinale (72 punti)'),
+			'32' 		=> Array('sf'		,'','Sconfitta ai supplementari in semifinale (32 punti)'),
 			'0'		=> Array('<small>o</small>'		,'','Eliminazione per effetto di un minor numero di  punti in classifica - sconfitta diretta (0 punti)'),
 			'default'	=> Array('.'		,'','')
 			);
 	$sub_array_not_ok_C = Array(
-			'72' 		=> Array('rc'		,'','Sconfitta ai rigori in finale (72 punti)'),
-			'32' 		=> Array('sc'		,'','Sconfitta ai supplementari in finale (32 punti)'),
+			'144' 		=> Array('rc'		,'','Sconfitta ai rigori in finale (144 punti)'),
+			'64' 		=> Array('sc'		,'','Sconfitta ai supplementari in finale (64 punti)'),
 			'0'		=> Array('<small>o</small>'		,'','Eliminazione per effetto di un minor numero di  punti in classifica - sconfitta diretta (0 punti)'),
 			'default'	=> Array('.'		,'','')
 			);
 
 	$simbolo_not_ok 	= Array(
-		5 => $sub_array_not_ok_G,
+		6 => $sub_array_not_ok_G,
+		5 => $sub_array_not_ok_W,
 		4 => $sub_array_not_ok_Q,
 		3 => $sub_array_not_ok_S,
 		2 => $sub_array_not_ok_F,
