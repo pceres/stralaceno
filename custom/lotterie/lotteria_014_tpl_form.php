@@ -438,11 +438,11 @@ function check_input(f)
 	
 	const fasi = [
 		{ nome_fase:"sedicesimi", lista_corrente:list_M, lista_precedente:null,   num_min:2, num_max:3, check_gironi:true,  warn_on_errors_flag:warn_on_errors, allow_errors_flag:allow_errors },
-		{ nome_fase:"ottavi",     lista_corrente:list_W, lista_precedente:list_M, num_min:0, num_max:0, check_gironi:false, warn_on_errors_flag:false,          allow_errors_flag:true },
-		{ nome_fase:"quarti",     lista_corrente:list_Q, lista_precedente:list_W, num_min:0, num_max:0, check_gironi:false, warn_on_errors_flag:false,          allow_errors_flag:true },
-		{ nome_fase:"semifinali", lista_corrente:list_S, lista_precedente:list_Q, num_min:0, num_max:0, check_gironi:false, warn_on_errors_flag:false,          allow_errors_flag:true },
-		{ nome_fase:"finale",     lista_corrente:list_F, lista_precedente:list_S, num_min:0, num_max:0, check_gironi:false, warn_on_errors_flag:false,          allow_errors_flag:true },
-		{ nome_fase:"vincitrice", lista_corrente:list_C, lista_precedente:list_F, num_min:0, num_max:0, check_gironi:false, warn_on_errors_flag:false,          allow_errors_flag:true }
+		{ nome_fase:"ottavi",	  lista_corrente:list_W, lista_precedente:list_M, num_min:0, num_max:0, check_gironi:false, warn_on_errors_flag:false, allow_errors_flag:true },
+		{ nome_fase:"quarti",	  lista_corrente:list_Q, lista_precedente:list_W, num_min:0, num_max:0, check_gironi:false, warn_on_errors_flag:false, allow_errors_flag:true },
+		{ nome_fase:"semifinali", lista_corrente:list_S, lista_precedente:list_Q, num_min:0, num_max:0, check_gironi:false, warn_on_errors_flag:false, allow_errors_flag:true },
+		{ nome_fase:"finale",	  lista_corrente:list_F, lista_precedente:list_S, num_min:0, num_max:0, check_gironi:false, warn_on_errors_flag:false, allow_errors_flag:true },
+		{ nome_fase:"vincitrice", lista_corrente:list_C, lista_precedente:list_F, num_min:0, num_max:0, check_gironi:false, warn_on_errors_flag:false, allow_errors_flag:true }
 	];
 	
 	for (fase of fasi)
@@ -653,18 +653,18 @@ function check_input(f)
 }
 
 function check_fase(
-    gironi,   // array dei gironi (invariato per tutte le fasi)
+	gironi,   // array dei gironi (invariato per tutte le fasi)
 
-    {
-        lista_corrente,        // es: list_M (sedicesimi), list_W (ottavi), list_Q (quarti), ecc.
-        lista_precedente,      // null per sedicesimi; per le altre fasi: lista della fase precedente
-        num_min,               // minimo squadre per girone (solo per sedicesimi)
-        num_max,               // massimo squadre per girone (solo per sedicesimi)
-        check_gironi,          // true per sedicesimi (controllo squadre per girone), false per le altre fasi
-        nome_fase,             // nome della fase: "sedicesimi", "ottavi", "quarti", "semifinali", "finale", "vincitrice"
-        warn_on_errors_flag,   // flag per mostrare messaggi di warning (dipende dalla fase)
-        allow_errors_flag      // flag per consentire o meno il salvataggio in presenza di errori
-    }
+	{
+		lista_corrente,		// es: list_M (sedicesimi), list_W (ottavi), list_Q (quarti), ecc.
+		lista_precedente,	// null per sedicesimi; per le altre fasi: lista della fase precedente
+		num_min,			// minimo squadre per girone (solo per sedicesimi)
+		num_max,			// massimo squadre per girone (solo per sedicesimi)
+		check_gironi,		// true per sedicesimi (controllo squadre per girone), false per le altre fasi
+		nome_fase,			// nome della fase: "sedicesimi", "ottavi", "quarti", "semifinali", "finale", "vincitrice"
+		warn_on_errors_flag,// flag per mostrare messaggi di warning (dipende dalla fase)
+		allow_errors_flag	// flag per consentire o meno il salvataggio in presenza di errori
+	}
 )
 {
 	let vettore_gironi = new Array(gironi.length).fill(0);
@@ -802,6 +802,182 @@ else
 }
 //alert(f[question_caposelese].value);
 }
+
+
+function aggiornaPronostici(livelloModificato, checkGironi) {
+
+	// ============================
+	// PARAMETRI CONFIGURABILI
+	// ============================
+	const SQUADRE_PER_GIRONE = 4;   // es. 4 squadre per girone
+	const MAX_PER_GIRONE	 = 3;   // es. max 3 squadre qualificate per girone
+	// ============================
+
+	const selects = document.querySelectorAll("select.pronostico");
+
+	// ============================
+	// FUNZIONE DI SUPPORTO
+	// Estrae i parametri da onchange="aggiornaPronostici(6,1)"
+	// ============================
+	function estraiParametri(sel) {
+		const onchange = sel.getAttribute("onchange");
+		const match = onchange.match(/aggiornaPronostici\s*\(\s*(\d+)\s*,\s*(\d+)\s*\)/);
+		if (!match) return { livello: null, check: null };
+		return {
+			livello: parseInt(match[1]),
+			check:   parseInt(match[2])
+		};
+	}
+
+	// ============================
+	// 1. Raggruppa le scelte per livello
+	// ============================
+	const sceltePerLivello = {};
+
+	selects.forEach(sel => {
+		const p = estraiParametri(sel);
+		const livello = p.livello;
+		if (livello == null) return;
+
+		if (!sceltePerLivello[livello]) {
+			sceltePerLivello[livello] = new Set();
+		}
+
+		const val = sel.value.trim();
+		if (val !== "" && val !== "&nbsp;") {
+			sceltePerLivello[livello].add(val);
+		}
+	});
+
+	// ============================
+	// 2. Calcola squadre ammesse per ogni livello
+	// ============================
+	const livelli = Object.keys(sceltePerLivello).map(n => parseInt(n));
+	if (livelli.length === 0) return;
+
+	const livelloMax = Math.max(...livelli);
+	const squadreAmmesse = {};
+
+	squadreAmmesse[livelloMax] = null; // livello più alto → tutte ammesse
+
+	for (let livello = livelloMax - 1; livello >= 1; livello--) {
+		squadreAmmesse[livello] = sceltePerLivello[livello + 1] || new Set();
+	}
+
+	// ============================
+	// 3. Regola opzionale: max X squadre per girone
+	// ============================
+	const gironi = {};
+
+	if (checkGironi === 1) {
+
+		// ogni select ha 1 option "vuota" + N squadre
+		const totaleOpzioni   = selects[0].options.length;
+		const opzioniSquadre  = totaleOpzioni - 1; // esclude la prima "&nbsp;"
+		const numeroGironi	= Math.floor(opzioniSquadre / SQUADRE_PER_GIRONE);
+
+		for (let g = 0; g < numeroGironi; g++) {
+			gironi[g] = 0;
+		}
+
+		selects.forEach(sel => {
+			const p = estraiParametri(sel);
+			if (p.livello !== livelloModificato) return;
+
+			const squadra = sel.value.trim();
+			if (!squadra) return;
+
+			const optIndex = [...sel.options].findIndex(o => o.textContent.trim() === squadra);
+			if (optIndex <= 0) return; // evita casi anomali
+
+			const indexReale = optIndex - 1;
+			const girone	 = Math.floor(indexReale / SQUADRE_PER_GIRONE);
+
+			gironi[girone]++;
+		});
+	}
+
+	// ============================
+	// 4. Applica tutte le regole
+	// ============================
+	selects.forEach(sel => {
+		const p = estraiParametri(sel);
+		const livello = p.livello;
+		if (livello == null) return;
+
+		const scelteStessoLivello = sceltePerLivello[livello] || new Set();
+		const ammesse			 = squadreAmmesse[livello];
+
+		sel.querySelectorAll("option").forEach((opt, idx) => {
+			const squadra = opt.textContent.trim();
+			if (squadra === "" || squadra === "&nbsp;") return;
+
+			let disabilita = false;
+
+			// Regola 1: no duplicati nello stesso livello
+			if (scelteStessoLivello.has(squadra) && sel.value !== squadra) {
+				disabilita = true;
+			}
+
+			// Regola 2: solo squadre ammesse dal livello precedente
+			if (!disabilita && ammesse !== null && !ammesse.has(squadra)) {
+				disabilita = true;
+			}
+
+			// Regola 3: max X squadre per girone
+			if (!disabilita && p.check === 1 && livello === livelloModificato) {
+				if (idx === 0) return; // la &nbsp; non appartiene a nessun girone
+
+				const indexReale = idx - 1;
+				const girone	 = Math.floor(indexReale / SQUADRE_PER_GIRONE);
+
+				if (gironi[girone] >= MAX_PER_GIRONE && !scelteStessoLivello.has(squadra)) {
+					disabilita = true;
+				}
+			}
+
+			// Applica disabilitazione
+			opt.disabled = disabilita;
+
+			// Reset automatico se la scelta diventa illegale
+			if (disabilita && sel.value === squadra) {
+				sel.value = ""; // torna alla prima opzione (&nbsp;)
+			}
+		});
+	});
+}
+
+
+// per eseguire il check ad ogni reload, cos' da rendere coerenti i valori selezionati per i vari select,
+// con 'abilitazione dei campi option dei select
+window.addEventListener("DOMContentLoaded", () => {
+
+	// Trova tutti i select con classe "pronostico"
+	const selects = document.querySelectorAll("select.pronostico");
+
+	// Estrae tutte le coppie livello/check presenti negli onchange
+	const livelliDaInizializzare = new Set();
+
+	selects.forEach(sel => {
+		const onchange = sel.getAttribute("onchange");
+		if (!onchange) return;
+
+		const match = onchange.match(/aggiornaPronostici\s*\(\s*(\d+)\s*,\s*(\d+)\s*\)/);
+		if (!match) return;
+
+		const livello = parseInt(match[1]);
+		const check   = parseInt(match[2]);
+
+		livelliDaInizializzare.add(`${livello},${check}`);
+	});
+
+	// Richiama aggiornaPronostici per ogni coppia trovata
+	livelliDaInizializzare.forEach(pair => {
+		const [livello, check] = pair.split(",").map(Number);
+		aggiornaPronostici(livello, check);
+	});
+
+});
 
 
 //-->
@@ -1060,112 +1236,160 @@ else
 			<TD HEIGHT=21 ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- M1 -->
-<select name="question_00">
+<select name="question_00" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 </TD>
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- M2 -->
-<select name="question_01" >
+<select name="question_01" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -1173,56 +1397,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- M3 -->
-<select name="question_02" >
+<select name="question_02" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -1231,56 +1479,80 @@ else
 
 
 <!-- M4 -->
-<select name="question_03" >
+<select name="question_03" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -1290,56 +1562,80 @@ else
 			<TD HEIGHT=21 ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- M5 -->
-<select name="question_04" >
+<select name="question_04" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -1347,56 +1643,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- M6 -->
-<select name="question_05" >
+<select name="question_05" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -1405,56 +1725,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- M7 -->
-<select name="question_06" >
+<select name="question_06" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -1465,56 +1809,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- M8 -->
-<select name="question_07" >
+<select name="question_07" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -1527,56 +1895,80 @@ else
 			<TD HEIGHT=21 ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- M9 -->
-<select name="question_08" >
+<select name="question_08" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -1585,56 +1977,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- M10 -->
-<select name="question_09" >
+<select name="question_09" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -1642,56 +2058,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- M11 -->
-<select name="question_10" >
+<select name="question_10" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -1700,57 +2140,80 @@ else
 
 
 <!-- M12 -->
-<select name="question_11" >
-<option selected>&nbsp;</option>
+<select name="question_11" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -1760,56 +2223,80 @@ else
 			<TD HEIGHT=21 ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- M13 -->
-<select name="question_12" >
+<select name="question_12" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -1817,56 +2304,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- M14 -->
-<select name="question_13" >
+<select name="question_13" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -1875,56 +2386,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- M15 -->
-<select name="question_14" >
+<select name="question_14" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -1935,56 +2470,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- M16 -->
-<select name="question_15" >
+<select name="question_15" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -1995,112 +2554,160 @@ else
 			<TD HEIGHT=21 ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- M17 -->
-<select name="question_16">
+<select name="question_16" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 </TD>
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- M18 -->
-<select name="question_17" >
+<select name="question_17" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -2108,56 +2715,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- M19 -->
-<select name="question_18" >
+<select name="question_18" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -2166,56 +2797,80 @@ else
 
 
 <!-- M20 -->
-<select name="question_19" >
+<select name="question_19" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -2225,56 +2880,80 @@ else
 			<TD HEIGHT=21 ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- M21 -->
-<select name="question_20" >
+<select name="question_20" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -2282,56 +2961,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- M22 -->
-<select name="question_21" >
+<select name="question_21" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -2340,56 +3043,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- M23 -->
-<select name="question_22" >
+<select name="question_22" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -2400,56 +3127,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- M24 -->
-<select name="question_23" >
+<select name="question_23" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -2462,56 +3213,80 @@ else
 			<TD HEIGHT=21 ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- M25 -->
-<select name="question_24" >
+<select name="question_24" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -2520,56 +3295,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- M26 -->
-<select name="question_25" >
+<select name="question_25" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -2577,56 +3376,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- M27 -->
-<select name="question_26" >
+<select name="question_26" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -2635,57 +3458,80 @@ else
 
 
 <!-- M28 -->
-<select name="question_27" >
-<option selected>&nbsp;</option>
+<select name="question_27" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -2695,56 +3541,80 @@ else
 			<TD HEIGHT=21 ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- M29 -->
-<select name="question_28" >
+<select name="question_28" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -2752,56 +3622,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- M30 -->
-<select name="question_29" >
+<select name="question_29" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -2810,56 +3704,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- M31 -->
-<select name="question_30" >
+<select name="question_30" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -2870,56 +3788,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- M32 -->
-<select name="question_31" >
+<select name="question_31" class="pronostico" onchange="aggiornaPronostici(6,1)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -2951,112 +3893,160 @@ else
 			<TD HEIGHT=21 ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- W1 -->
-<select name="question_32">
+<select name="question_32" class="pronostico" onchange="aggiornaPronostici(5,0)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 </TD>
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- W2 -->
-<select name="question_33" >
+<select name="question_33" class="pronostico" onchange="aggiornaPronostici(5,0)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -3064,56 +4054,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- W3 -->
-<select name="question_34" >
+<select name="question_34" class="pronostico" onchange="aggiornaPronostici(5,0)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -3122,56 +4136,80 @@ else
 
 
 <!-- W4 -->
-<select name="question_35" >
+<select name="question_35" class="pronostico" onchange="aggiornaPronostici(5,0)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -3181,56 +4219,80 @@ else
 			<TD HEIGHT=21 ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- W5 -->
-<select name="question_36" >
+<select name="question_36" class="pronostico" onchange="aggiornaPronostici(5,0)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -3238,56 +4300,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- W6 -->
-<select name="question_37" >
+<select name="question_37" class="pronostico" onchange="aggiornaPronostici(5,0)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -3296,56 +4382,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- W7 -->
-<select name="question_38" >
+<select name="question_38" class="pronostico" onchange="aggiornaPronostici(5,0)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -3356,56 +4466,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- W8 -->
-<select name="question_39" >
+<select name="question_39" class="pronostico" onchange="aggiornaPronostici(5,0)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -3418,56 +4552,80 @@ else
 			<TD HEIGHT=21 ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- W9 -->
-<select name="question_40" >
+<select name="question_40" class="pronostico" onchange="aggiornaPronostici(5,0)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -3476,56 +4634,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- W10 -->
-<select name="question_41" >
+<select name="question_41" class="pronostico" onchange="aggiornaPronostici(5,0)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -3533,56 +4715,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- W11 -->
-<select name="question_42" >
+<select name="question_42" class="pronostico" onchange="aggiornaPronostici(5,0)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -3591,57 +4797,80 @@ else
 
 
 <!-- W12 -->
-<select name="question_43" >
-<option selected>&nbsp;</option>
+<select name="question_43" class="pronostico" onchange="aggiornaPronostici(5,0)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -3651,56 +4880,80 @@ else
 			<TD HEIGHT=21 ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- W13 -->
-<select name="question_44" >
+<select name="question_44" class="pronostico" onchange="aggiornaPronostici(5,0)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -3708,56 +4961,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- W14 -->
-<select name="question_45" >
+<select name="question_45" class="pronostico" onchange="aggiornaPronostici(5,0)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -3766,56 +5043,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- W15 -->
-<select name="question_46" >
+<select name="question_46" class="pronostico" onchange="aggiornaPronostici(5,0)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -3826,56 +5127,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- W16 -->
-<select name="question_47" >
+<select name="question_47" class="pronostico" onchange="aggiornaPronostici(5,0)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -3907,56 +5232,80 @@ else
 			<TD HEIGHT=21 ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- Q1 -->
-<select name="question_48" >
+<select name="question_48" class="pronostico" onchange="aggiornaPronostici(4,0)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -3965,56 +5314,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- Q2 -->
-<select name="question_49" >
+<select name="question_49" class="pronostico" onchange="aggiornaPronostici(4,0)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -4022,56 +5395,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- Q3 -->
-<select name="question_50" >
+<select name="question_50" class="pronostico" onchange="aggiornaPronostici(4,0)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -4080,56 +5477,80 @@ else
 
 
 <!-- Q4 -->
-<select name="question_51" >
+<select name="question_51" class="pronostico" onchange="aggiornaPronostici(4,0)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -4139,56 +5560,80 @@ else
 			<TD HEIGHT=21 ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- Q5 -->
-<select name="question_52" >
+<select name="question_52" class="pronostico" onchange="aggiornaPronostici(4,0)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -4196,56 +5641,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- Q6 -->
-<select name="question_53" >
+<select name="question_53" class="pronostico" onchange="aggiornaPronostici(4,0)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -4254,56 +5723,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- Q7 -->
-<select name="question_54" >
+<select name="question_54" class="pronostico" onchange="aggiornaPronostici(4,0)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -4314,56 +5807,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#CCFFCC">
 
 <!-- Q8 -->
-<select name="question_55" >
+<select name="question_55" class="pronostico" onchange="aggiornaPronostici(4,0)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -4396,56 +5913,80 @@ else
 			<TD HEIGHT=21 ALIGN=LEFT BGCOLOR="#FFFF99">
 
 <!-- S1 -->
-<select name="question_56" >
+<select name="question_56" class="pronostico" onchange="aggiornaPronostici(3,0)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -4454,56 +5995,80 @@ else
 
 
 <!-- S2 -->
-<select name="question_57" >
+<select name="question_57" class="pronostico" onchange="aggiornaPronostici(3,0)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -4511,56 +6076,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#FFFF99">
 
 <!-- S3 -->
-<select name="question_58" >
+<select name="question_58" class="pronostico" onchange="aggiornaPronostici(3,0)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -4568,56 +6157,80 @@ else
 			<TD ALIGN=LEFT BGCOLOR="#FFFF99">
 
 <!-- S4 -->
-<select name="question_59" >
+<select name="question_59" class="pronostico" onchange="aggiornaPronostici(3,0)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -4640,56 +6253,80 @@ else
 			<TD HEIGHT=25 ALIGN=CENTER BGCOLOR="#C0C0C0">
 
 <!-- F1 -->
-<select name="question_60" >
+<select name="question_60" class="pronostico" onchange="aggiornaPronostici(2,0)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -4697,56 +6334,80 @@ else
 			<TD ALIGN=CENTER BGCOLOR="#C0C0C0">
 
 <!-- F2 -->
-<select name="question_61" >
+<select name="question_61" class="pronostico" onchange="aggiornaPronostici(2,0)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
@@ -4756,56 +6417,80 @@ else
 			<TD COLSPAN=1 ALIGN=LEFT BGCOLOR="#FFFF00">
 
 <!-- C -->
-<select name="question_62" >
+<select name="question_62" class="pronostico" onchange="aggiornaPronostici(1,0)">
 	<option selected>&nbsp;</option>
-	<option>Messico</option>
-	<option>Corea del Sud</option>
-	<option>Sudafrica</option>
-	<option>Vincitore_D</option>
-	<option>Canada</option>
-	<option>Svizzera</option>
-	<option>Qatar</option>
-	<option>Vincitore_A</option>
-	<option>Brasile</option>
-	<option>Marocco</option>
-	<option>Scozia</option>
-	<option>Haiti</option>
-	<option>USA</option>
-	<option>Australia</option>
-	<option>Paraguay</option>
-	<option>Vincitore_C</option>
-	<option>Germania</option>
-	<option>Ecuador</option>
-	<option>Costa d'Avorio</option>
-	<option>Curaçao</option>
-	<option>Olanda</option>
-	<option>Giappone</option>
-	<option>Tunisia</option>
-	<option>Vincitore_B</option>
-	<option>Belgio</option>
-	<option>Iran</option>
-	<option>Egitto</option>
-	<option>Nuova Zelanda</option>
-	<option>Spagna</option>
-	<option>Uruguay</option>
-	<option>Arabia Saudita</option>
-	<option>Capo Verde</option>
-	<option>Francia</option>
-	<option>Senegal</option>
-	<option>Norvegia</option>
-	<option>Vincitore_2</option>
-	<option>Argentina</option>
-	<option>Austria</option>
-	<option>Algeria</option>
-	<option>Giordania</option>
-	<option>Portogallo</option>
-	<option>Colombia</option>
-	<option>Uzbekistan</option>
-	<option>Vincitore_1</option>
-	<option>Inghilterra</option>
-	<option>Croazia</option>
-	<option>Panama</option>
-	<option>Ghana</option>
+	<optgroup label="Girone A">
+		<option>Messico</option>
+		<option>Corea del Sud</option>
+		<option>Sudafrica</option>
+		<option>Vincitore_D</option>
+	</optgroup>
+	<optgroup label="Girone B">
+		<option>Canada</option>
+		<option>Svizzera</option>
+		<option>Qatar</option>
+		<option>Vincitore_A</option>
+	</optgroup>
+	<optgroup label="Girone C">
+		<option>Brasile</option>
+		<option>Marocco</option>
+		<option>Scozia</option>
+		<option>Haiti</option>
+	</optgroup>
+	<optgroup label="Girone D">
+		<option>USA</option>
+		<option>Australia</option>
+		<option>Paraguay</option>
+		<option>Vincitore_C</option>
+	</optgroup>
+	<optgroup label="Girone E">
+		<option>Germania</option>
+		<option>Ecuador</option>
+		<option>Costa d'Avorio</option>
+		<option>Curaçao</option>
+	</optgroup>
+	<optgroup label="Girone F">
+		<option>Olanda</option>
+		<option>Giappone</option>
+		<option>Tunisia</option>
+		<option>Vincitore_B</option>
+	</optgroup>
+	<optgroup label="Girone G">
+		<option>Belgio</option>
+		<option>Iran</option>
+		<option>Egitto</option>
+		<option>Nuova Zelanda</option>
+	</optgroup>
+	<optgroup label="Girone H">
+		<option>Spagna</option>
+		<option>Uruguay</option>
+		<option>Arabia Saudita</option>
+		<option>Capo Verde</option>
+	</optgroup>
+	<optgroup label="Girone I">
+		<option>Francia</option>
+		<option>Senegal</option>
+		<option>Norvegia</option>
+		<option>Vincitore_2</option>
+	</optgroup>
+	<optgroup label="Girone J">
+		<option>Argentina</option>
+		<option>Austria</option>
+		<option>Algeria</option>
+		<option>Giordania</option>
+	</optgroup>
+	<optgroup label="Girone K">
+		<option>Portogallo</option>
+		<option>Colombia</option>
+		<option>Uzbekistan</option>
+		<option>Vincitore_1</option>
+	</optgroup>
+	<optgroup label="Girone L">
+		<option>Inghilterra</option>
+		<option>Croazia</option>
+		<option>Panama</option>
+		<option>Ghana</option>
+	</optgroup>
 </select>
 
 
