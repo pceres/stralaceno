@@ -341,7 +341,7 @@ Germania::stat_risposta::Posizionamento <span class="hi">Germania</span>::posizi
 # Messaggi custom: possono essere in qualsiasi forma, vi si accede come $lotteria['msg_custom'][<numero_riga>][<numero_colonna>]
 #
 [msg_custom]
-Consulta il <a href="download.php?resource_type=file&resource_id=file_Tabella_mondiali_2026_odf">tabellone di aiuto alla compilazione</a> per visualizzare gli incroci::download.php?resource_type=file&resource_id=file_Tabella_mondiali_2026_odf
+Consulta il <a href="#" id="openCompiler">tabellone di aiuto alla compilazione</a> per visualizzare gli incroci::download.php?resource_type=file&resource_id=file_Tabella_mondiali_2026_htm
 
 
 #

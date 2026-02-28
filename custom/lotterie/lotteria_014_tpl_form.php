@@ -93,6 +93,28 @@ BODY,DIV,TABLE,THEAD,TBODY,TFOOT,TR,TH,TD,P,INPUT
 	font-size:x-small;
 }
 
+#compilerModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.6); /* sfondo scuro */
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+#compilerModal iframe {
+    width: 90vw;
+    height: 100vh;
+    background: white;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+
+
 </style>
 <!-- 
 // 
@@ -948,7 +970,7 @@ function aggiornaPronostici(livelloModificato, checkGironi) {
 }
 
 
-// per eseguire il check ad ogni reload, cos' da rendere coerenti i valori selezionati per i vari select,
+// per eseguire il check ad ogni reload, cosi' da rendere coerenti i valori selezionati per i vari select,
 // con 'abilitazione dei campi option dei select
 window.addEventListener("DOMContentLoaded", () => {
 
@@ -980,11 +1002,38 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 
+
+// script per il tabellone per la compilazione
+window.addEventListener("DOMContentLoaded", function() {
+    const link = document.getElementById("openCompiler");
+    const modal = document.getElementById("compilerModal");
+    const frame = document.getElementById("compilerFrame");
+
+    link.addEventListener("click", function(e) {
+        e.preventDefault();
+        frame.src = "custom/download/vari/Tabella_mondiali_2026.html";
+        modal.style.display = "block";
+    });
+
+    // Chiudi con ESC
+    document.addEventListener("keydown", function(e) {
+        if (e.key === "Escape") {
+            window.parent.document.getElementById("compilerModal").style.display = "none";
+        }
+    });
+
+});
+
+
 //-->
 </SCRIPT>
 
 
 
+
+<div id="compilerModal" style="display:none;">
+    <iframe id="compilerFrame" style="width:100%; height:90vh; border:none;"></iframe>
+</div>
 
 
 <form name="question_form" action="<?php echo $action; ?>" method="get" OnSubmit="return check_input(this)">

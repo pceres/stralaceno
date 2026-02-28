@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>Tabellone Mondiali 2026</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+h1 { margin-bottom: 20px; }
+
+h2 {
+    margin: 0;
+    padding: 0;
+    transform: translateY(-40px);
+}
+
+#tabellone-wrapper {
+    margin-top: 160px;
+}
+
+.tabellone {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    position: relative;
+}
+
+.colonna {
+    position: relative;
+    min-width: 140px;
+}
+
+/* MATCH BOX */
+.match {
+    padding: 8px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+    width: 140px;
+    position: absolute;
+    left: 0;
+}
+
+.match label {
+    display: block;
+    font-size: 0.85rem;
+    margin-bottom: 4px;
+}
+
+select {
+    width: 100%;
+    padding: 4px;
+}
+
+/* SOLO LINEA VERTICALE */
+.line-vertical {
+    position: absolute;
+    width: 2px;
+    background: #aaa;
+    left: -20px;
+}
+</style>
+
+<script>
+// --- GRUPPI ---
+
+const groups = {
+    A: ["Messico", "Corea del Sud", "Sudafrica", "Vincitore_D"],
+    B: ["Canada", "Svizzera", "Qatar", "Vincitore_A"],
+    C: ["Brasile", "Marocco", "Scozia", "Haiti"],
+    D: ["USA", "Australia", "Paraguay", "Vincitore_C"],
+    E: ["Germania", "Ecuador", "Costa d'Avorio", "Curaçao"],
+    F: ["Olanda", "Giappone", "Tunisia", "Vincitore_B"],
+    G: ["Belgio", "Iran", "Egitto", "Nuova Zelanda"],
+    H: ["Spagna", "Uruguay", "Arabia Saudita", "Capo Verde"],
+    I: ["Francia", "Senegal", "Norvegia", "Vincitore_2"],
+    J: ["Argentina", "Austria", "Algeria", "Giordania"],
+    K: ["Portogallo", "Colombia", "Uzbekistan", "Vincitore_1"],
+    L: ["Inghilterra", "Croazia", "Panama", "Ghana"]
+};
+
+// --- FORMULE SEDICESIMI ---
+
+const r16Formulas = [
+    "1E", "3A/B/C/D/F",
+    "1I", "3C/D/F/G/H",
+    "2A", "2B",
+    "1F", "2C",
+    "2K", "2L",
+    "1H", "2J",
+    "1D", "3B/E/F/J",
+    "1G", "3A/E/H/I/J",
+    "1C", "2F",
+    "2E", "2I",
+    "1A", "3C/E/F/H/I",
+    "1L", "3E/H/I/J/K",
+    "1J", "2H",
+    "2D", "2G",
+    "1B", "3E/F/G/I/J",
+    "1K", "3D/E/I/J/L"
+];
+
+// --- MAPPING TURNI ---
+
+function buildMapping(start, count, nextStart) {
+    const arr = [];
+    for (let i = 0; i < count; i += 2) {
+        arr.push({ from: start + i, to: nextStart + (i / 2), slot: 1 });
+        arr.push({ from: start + i + 1, to: nextStart + (i / 2), slot: 2 });
+    }
+    return arr;
+}
+
+const r16ToR8 = buildMapping(0, 32, 32);
+const r8ToQF  = buildMapping(32, 16, 48);
+const qfToSF  = buildMapping(48, 8, 56);
+const sfToF   = buildMapping(56, 4, 60);
+const fToW    = buildMapping(60, 2, 62); // Finale → Vincitore
+
+// --- COSTRUZIONE SELECT ---
+
+function buildOptionsForFormula(formula) {
+    const letters = new Set();
+    for (const ch of formula) {
+        if (ch >= 'A' && ch <= 'L') letters.add(ch);
+    }
+    let html = '<option selected>&nbsp;</option>';
+    [...letters].sort().forEach(g => {
+        html += `<optgroup label="Girone ${g}">`;
+        groups[g].forEach(team => html += `<option>${team}</option>`);
+        html += `</optgroup>`;
+    });
+    return html;
+}
+
+function createR16Select(i) {
+    const formula = r16Formulas[i];
+    return `
+        <div class="match" id="m${i}" title="${formula}">
+            <label>Match ${i+1} (${formula})</label>
+            <select name="question_${String(i).padStart(2, '0')}" onchange="onChange(${i})">
+                ${buildOptionsForFormula(formula)}
+            </select>
+        </div>
+    `;
+}
+
+function createKOSelect(i, label) {
+    return `
+        <div class="match" id="m${i}">
+            <label>${label}</label>
+            <select name="question_${String(i).padStart(2, '0')}" onchange="onChange(${i})">
+                <option selected>&nbsp;</option>
+                <option></option>
+                <option></option>
+            </select>
+        </div>
+    `;
+}
+
+// --- PROPAGAZIONE ---
+function setNext(from, to, slot) {
+    const val = document.querySelector(`#m${from} select`).value;
+    const sel = document.querySelector(`#m${to} select`);
+    sel.options[slot].text = val;
+    sel.options[slot].value = val;
+    //sel.selectedIndex = slot; // <<< fondamentale
+}
+
+function onChange(i) {
+    [...r16ToR8, ...r8ToQF, ...qfToSF, ...sfToF, ...fToW].forEach(link => {
+        if (link.from === i) setNext(link.from, link.to, link.slot);
+    });
+    setTimeout(() => {
+        alignMatches();
+        updateDisabledOptions();
+    }, 20);
+}
+
+function updateDisabledOptions() {
+    const selects = [...document.querySelectorAll('#col-sedicesimi select')];
+
+    // tutte le squadre già scelte
+    const chosen = new Set(
+        selects.map(s => s.value).filter(v => v && v.trim() !== "")
+    );
+
+    // per ogni select dei sedicesimi
+    selects.forEach(sel => {
+        const current = sel.value;
+
+        [...sel.options].forEach(opt => {
+            if (!opt.value) return;
+
+            // disabilita se è stata scelta altrove
+            if (chosen.has(opt.value) && opt.value !== current) {
+                opt.disabled = true;
+            } else {
+                opt.disabled = false;
+            }
+        });
+    });
+}
+
+// --- ALLINEAMENTO GRAFICO ---
+
+function alignMatches() {
+    const cols = [
+        [...document.querySelectorAll('#col-sedicesimi .match')],
+        [...document.querySelectorAll('#col-ottavi .match')],
+        [...document.querySelectorAll('#col-quarti .match')],
+        [...document.querySelectorAll('#col-semifinali .match')],
+        [...document.querySelectorAll('#col-finale .match')],
+        [...document.querySelectorAll('#col-vincitore .match')]
+    ];
+
+    cols[0].forEach((m, i) => m.style.top = (i * 70) + "px");
+
+    for (let r = 1; r < cols.length; r++) {
+        const prev = cols[r - 1];
+        const curr = cols[r];
+
+        curr.forEach((m, i) => {
+            const p1 = prev[i * 2];
+            const p2 = prev[i * 2 + 1];
+            if (!p1 || !p2) return;
+
+            const y1 = p1.offsetTop + p1.offsetHeight / 2;
+            const y2 = p2.offsetTop + p2.offsetHeight / 2;
+            const center = (y1 + y2) / 2;
+
+            m.style.top = (center - m.offsetHeight / 2) + "px";
+
+            const lineV = document.createElement("div");
+            lineV.className = "line-vertical";
+            lineV.style.top = y1 + "px";
+            lineV.style.height = (y2 - y1) + "px";
+            m.parentNode.appendChild(lineV);
+        });
+    }
+}
+
+window.onload = function() {
+    const sed = document.getElementById("col-sedicesimi");
+    const ott = document.getElementById("col-ottavi");
+    const qua = document.getElementById("col-quarti");
+    const sem = document.getElementById("col-semifinali");
+    const fin = document.getElementById("col-finale");
+    const win = document.getElementById("col-vincitore");
+
+    for (let i = 0; i < 32; i++) sed.insertAdjacentHTML("beforeend", createR16Select(i));
+    for (let i = 32; i < 48; i++) ott.insertAdjacentHTML("beforeend", createKOSelect(i, "Ottavo " + (i - 31)));
+    for (let i = 48; i < 56; i++) qua.insertAdjacentHTML("beforeend", createKOSelect(i, "Quarto " + (i - 47)));
+    for (let i = 56; i < 60; i++) sem.insertAdjacentHTML("beforeend", createKOSelect(i, "Semifinale " + (i - 55)));
+
+    fin.insertAdjacentHTML("beforeend", createKOSelect(60, "Finale 1"));
+    fin.insertAdjacentHTML("beforeend", createKOSelect(61, "Finale 2"));
+
+    win.insertAdjacentHTML("beforeend", createKOSelect(62, "Vincitore"));
+
+    setTimeout(alignMatches, 50);
+    
+    document.getElementById("closeCompiler").onclick = function() {
+        window.parent.document.getElementById("compilerModal").style.display = "none";
+    };
+};
+
+
+
+</script>
+
+</head>
+<body>
+
+<h1>Tabellone Pronostici Mondiali 2026</h1>
+
+<div id="tabellone-wrapper">
+    <div class="tabellone">
+        <div class="colonna" id="col-sedicesimi"><h2>Sedicesimi</h2></div>
+        <div class="colonna" id="col-ottavi"><h2>Ottavi</h2></div>
+        <div class="colonna" id="col-quarti"><h2>Quarti</h2></div>
+        <div class="colonna" id="col-semifinali"><h2>Semifinali</h2></div>
+        <div class="colonna" id="col-finale"><h2>Finali</h2></div>
+        <div class="colonna" id="col-vincitore"><h2>Vincitore</h2></div>
+    </div>
+</div>
+
+<button id="closeCompiler">Chiudi senza salvare</button>
+<button id="sendToMain" disabled>Trasferisci nel tabellone principale</button> 
+
+
+
+
+<script>
+// abilita il pulsante solo quando tutti i select sono compilati
+function checkAllFilled() {
+    let empty = []; // deve essere dichiarato PRIMA di usarlo
+
+    const selects = document.querySelectorAll("select");
+
+    selects.forEach((sel, idx) => {
+        const v = sel.value.trim();
+        if (v === "" || v === "&nbsp;" || v === " ") {
+            empty.push({ index: idx, name: sel.name });
+        }
+    });
+
+    console.log("Select vuoti:", empty);
+
+    document.getElementById("sendToMain").disabled = empty.length > 0;
+}
+
+
+document.addEventListener("change", function(e) {
+    if (e.target.tagName === "SELECT") {
+        checkAllFilled();
+    }
+});
+
+
+// trasferisce i valori nella pagina principale
+document.getElementById("sendToMain").onclick = function() {
+    const selects = document.querySelectorAll("select");
+    const mainDoc = window.parent.document;
+
+    selects.forEach(sel => {
+        const name = sel.getAttribute("name");
+        const value = sel.value;
+
+        console.log("Trasferisco:", name, "=", value);
+
+        const mainSelect = mainDoc.querySelector(`select[name="${name}"]`);
+        console.log("Trovato nel principale:", mainSelect);
+
+        if (mainSelect) {
+            mainSelect.value = value;
+        }
+    });
+
+    mainDoc.getElementById("compilerModal").style.display = "none";
+};
+
+
+
+function adjustWrapperHeight() {
+    const wrapper = document.getElementById("tabellone-wrapper");
+    const matches = document.querySelectorAll(".match");
+
+    let maxBottom = 0;
+
+    matches.forEach(m => {
+        const bottom = m.offsetTop + m.offsetHeight;
+        if (bottom > maxBottom) maxBottom = bottom;
+    });
+
+    // aggiungiamo un margine di sicurezza
+    wrapper.style.height = (maxBottom + 80) + "px";
+}
+
+// ricalcola dopo l’allineamento
+setTimeout(adjustWrapperHeight, 200);
+</script>
+
+
+
+</body>
+</html>

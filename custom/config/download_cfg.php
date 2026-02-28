@@ -33,6 +33,8 @@ file::file_Tabella_mondiali_2018_xls::Tabella Mondiali 2018::Tabella Mondiali 20
 file::file_Tabella_mondialieuropei_2021_odf::Tabella Europei 2021::Tabella Europei 2021 in formato ODF::Scheda_per_Europei_2021.ods::::admin::22:28 15/05/2021::204
 file::file_Tabella_mondiali_2022_odf::Tabella Mondiali 2022::Tabella Mondiali 2022 in formato ODF::Scheda_per_Mondiali_2022.ods::::admin::22:28 08/10/2022::0
 file::file_Tabella_europei_2024_odf::Tabella Europei 2024::Tabella Europei 2024 in formato ODF::Scheda_per_Europei_2024.ods::::admin::22:28 15/05/2021::2
+file::file_Tabella_mondiali_2026_htm::Tabella Mondiali 2026::Tabella Mondiali 2026 in formato HTML::Scheda_per_Mondiali_2026.html::::admin::00:45 01/03/2026::0
+
 
 [folder_FC_caposele]
 file::file_Regolamento_Int_FC_Cap_07_08_pdf::Regolamento interno FC Caposele::Regolamento interno FC Caposele 2007/08 in formato pdf::Regolamento Int. FC Cap. 07.08.pdf::::admin::22:07 06/07/2018::264
