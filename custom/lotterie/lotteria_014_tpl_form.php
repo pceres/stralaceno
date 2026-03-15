@@ -1275,8 +1275,19 @@ else
 			<TD ALIGN=LEFT><BR></TD>
 			<TD ALIGN=LEFT><BR></TD>
 			<TD ALIGN=LEFT><BR></TD>
-			</TR>
+		</TR>
 
+
+		<TR>
+			<TD COLSPAN=4 HEIGHT=20 ALIGN=LEFT><FONT SIZE=4><?php echo($lotteria['msg_custom'][0][0]); ?></FONT></TD>
+		</TR>
+
+		<TR>
+			<TD HEIGHT=16 ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
 
 		<TR>
 			<TD COLSPAN=4 HEIGHT=16 ALIGN=LEFT><I>saranno ammesse ai Sedicesimi (in ordine libero):</I></TD>
@@ -6551,12 +6562,12 @@ else
 			<TD ALIGN=LEFT><BR></TD>
 			<TD ALIGN=LEFT><BR></TD>
 		</TR>
+		<!--TR>
+			<TD COLSPAN=4 HEIGHT=20 ALIGN=LEFT><FONT SIZE=4><?php echo($lotteria['msg_custom'][0][0]); ?></FONT></TD>
+		</TR-->
 		<TR>
-			<TD COLSPAN=4 HEIGHT=20 ALIGN=LEFT><FONT SIZE=1><?php echo($lotteria['msg_custom'][0][0]); ?></FONT></TD>
-			</TR>
-			<TR>
 			<TD COLSPAN=4 HEIGHT=20 ALIGN=LEFT><FONT SIZE=1>Il presente Studio/Sondaggio &egrave; proposto dall'ARS (Amatori Running Sele) a puro scopo ricreativo e di approfondimento del dibattito permanente sullo sport, presente nell'associazione Amatori R.S..</FONT></TD>
-			</TR>
+		</TR>
 		<TR>
 			<TD COLSPAN=4 HEIGHT=20 ALIGN=LEFT><FONT SIZE=1>Esso ovviamente non &egrave; esente da oneri di gestione (<I>che quindi vanno a cumularsi con gli altri costi relativi all'attivit&agrave; dell'Associazione&hellip;</I>). Saranno ben accette le collaborazioni (anche minime: 1 ora settimanale, 1 ora mensile, annuale o una tantum) e i contributi di idee.</FONT></TD>
 			</TR>
