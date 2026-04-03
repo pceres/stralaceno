@@ -24,6 +24,9 @@ chmod a+w custom/lotterie/lotteria_*_ans.php
 if [ -f "custom/config/challenge.php" ]; then
 	rm custom/config/challenge.php
 fi
+if [ -f "custom/contatori/lasthitfile.txt" ]; then
+	rm custom/contatori/lasthitfile.txt
+fi
 
 # fix folder permission
 chmod a+w custom/config

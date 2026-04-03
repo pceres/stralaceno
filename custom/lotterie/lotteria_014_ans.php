@@ -159,14 +159,14 @@ nd
 Messico::
 Corea del Sud::
 Sudafrica::
-Vincitore_D::
+Repubblica Ceca::
 #
 # Girone B
 #
 Canada::
 Svizzera::
 Qatar::
-Vincitore_A::
+Bosnia ed Erzegovina::
 #
 # Girone C
 #
@@ -180,7 +180,7 @@ Haiti::
 USA::
 Australia::
 Paraguay::
-Vincitore_C::
+Turchia::
 #
 # Girone E
 #
@@ -194,7 +194,7 @@ Curaçao::
 Olanda::
 Giappone::
 Tunisia::
-Vincitore_B::
+Svezia::
 #
 # Girone G
 #
@@ -215,7 +215,7 @@ Capo Verde::
 Francia::
 Senegal::
 Norvegia::
-Vincitore_2::
+Iraq::
 #
 # Girone J
 #
@@ -229,7 +229,7 @@ Giordania::
 Portogallo::
 Colombia::
 Uzbekistan::
-Vincitore_1::
+Repubblica Democratica del Congo::
 #
 # Girone L
 #

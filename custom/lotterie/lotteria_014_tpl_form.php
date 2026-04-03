@@ -436,17 +436,17 @@ function check_input(f)
 	
 	// verifica correttezza squadre ammesse
 	//alert('check 2 - numero campi per gironi: M ('+list_M.length+') - W ('+list_W.length+') - Q ('+list_Q.length+') - S ('+list_S.length+') - F ('+list_F.length+') - C ('+list_C.length+')');
-	gironeA = new Array("Messico", "Corea del Sud", "Sudafrica", "Vincitore_D");
-	gironeB = new Array("Canada", "Svizzera", "Qatar", "Vincitore_A");
+	gironeA = new Array("Messico", "Corea del Sud", "Sudafrica", "Repubblica Ceca");
+	gironeB = new Array("Canada", "Svizzera", "Qatar", "Bosnia ed Erzegovina");
 	gironeC = new Array("Brasile", "Marocco", "Scozia", "Haiti");
-	gironeD = new Array("USA", "Australia", "Paraguay", "Vincitore_C");
+	gironeD = new Array("USA", "Australia", "Paraguay", "Turchia");
 	gironeE = new Array("Germania", "Ecuador", "Costa d'Avorio", "Curaçao");
-	gironeF = new Array("Olanda", "Giappone", "Tunisia", "Vincitore_B");
+	gironeF = new Array("Olanda", "Giappone", "Tunisia", "Svezia");
 	gironeG = new Array("Belgio", "Iran", "Egitto", "Nuova Zelanda");
 	gironeH = new Array("Spagna", "Uruguay", "Arabia Saudita", "Capo Verde");
-	gironeI = new Array("Francia", "Senegal", "Norvegia", "Vincitore_2");
+	gironeI = new Array("Francia", "Senegal", "Norvegia", "Iraq");
 	gironeJ = new Array("Argentina", "Austria", "Algeria", "Giordania");
-	gironeK = new Array("Portogallo", "Colombia", "Uzbekistan", "Vincitore_1");
+	gironeK = new Array("Portogallo", "Colombia", "Uzbekistan", "Repubblica Democratica del Congo");
 	gironeL = new Array("Inghilterra", "Croazia", "Panama", "Ghana");
 	
 	
@@ -1170,10 +1170,10 @@ if (!empty($messaggio_stato_sondaggio)) {
 			<TD ALIGN=LEFT BGCOLOR="#E6E6FF">Paraguay</TD>
 		</TR>
 		<TR>
-			<TD HEIGHT=18 ALIGN=LEFT BGCOLOR="#E6E6FF">Vincitore_D</TD>
-			<TD ALIGN=LEFT BGCOLOR="#E6E6FF">Vincitore_A</TD>
+			<TD HEIGHT=18 ALIGN=LEFT BGCOLOR="#E6E6FF">Repubblica Ceca</TD>
+			<TD ALIGN=LEFT BGCOLOR="#E6E6FF">Bosnia ed Erzegovina</TD>
 			<TD ALIGN=LEFT BGCOLOR="#E6E6FF">Haiti</TD>
-			<TD ALIGN=LEFT BGCOLOR="#E6E6FF">Vincitore_C</TD>
+			<TD ALIGN=LEFT BGCOLOR="#E6E6FF">Turchia</TD>
 		</TR>
 		
 		
@@ -1210,7 +1210,7 @@ if (!empty($messaggio_stato_sondaggio)) {
 		</TR>
 		<TR>
 			<TD HEIGHT=18 ALIGN=LEFT BGCOLOR="#E6E6FF">Curaçao</TD>
-			<TD ALIGN=LEFT BGCOLOR="#E6E6FF">Vincitore_B</TD>
+			<TD ALIGN=LEFT BGCOLOR="#E6E6FF">Svezia</TD>
 			<TD ALIGN=LEFT BGCOLOR="#E6E6FF">Nuova Zelanda</TD>
 			<TD ALIGN=LEFT BGCOLOR="#E6E6FF">Capo Verde</TD>
 		</TR>		
@@ -1247,9 +1247,9 @@ if (!empty($messaggio_stato_sondaggio)) {
 			<TD ALIGN=LEFT BGCOLOR="#E6E6FF">Panama</TD>
 		</TR>
 		<TR>
-			<TD HEIGHT=18 ALIGN=LEFT BGCOLOR="#E6E6FF">Vincitore_2</TD>
+			<TD HEIGHT=18 ALIGN=LEFT BGCOLOR="#E6E6FF">Iraq</TD>
 			<TD ALIGN=LEFT BGCOLOR="#E6E6FF">Giordania</TD>
-			<TD ALIGN=LEFT BGCOLOR="#E6E6FF">Vincitore_1</TD>
+			<TD ALIGN=LEFT BGCOLOR="#E6E6FF">Repubblica Democratica del Congo</TD>
 			<TD ALIGN=LEFT BGCOLOR="#E6E6FF">Ghana</TD>
 		</TR>
 		
@@ -1302,13 +1302,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -1320,7 +1320,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -1332,7 +1332,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -1350,7 +1350,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -1362,7 +1362,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -1382,13 +1382,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -1400,7 +1400,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -1412,7 +1412,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -1430,7 +1430,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -1442,7 +1442,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -1463,13 +1463,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -1481,7 +1481,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -1493,7 +1493,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -1511,7 +1511,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -1523,7 +1523,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -1545,13 +1545,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -1563,7 +1563,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -1575,7 +1575,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -1593,7 +1593,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -1605,7 +1605,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -1628,13 +1628,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -1646,7 +1646,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -1658,7 +1658,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -1676,7 +1676,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -1688,7 +1688,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -1709,13 +1709,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -1727,7 +1727,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -1739,7 +1739,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -1757,7 +1757,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -1769,7 +1769,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -1791,13 +1791,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -1809,7 +1809,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -1821,7 +1821,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -1839,7 +1839,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -1851,7 +1851,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -1875,13 +1875,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -1893,7 +1893,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -1905,7 +1905,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -1923,7 +1923,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -1935,7 +1935,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -1961,13 +1961,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -1979,7 +1979,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -1991,7 +1991,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -2009,7 +2009,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -2021,7 +2021,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -2043,13 +2043,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -2061,7 +2061,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -2073,7 +2073,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -2091,7 +2091,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -2103,7 +2103,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -2124,13 +2124,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -2142,7 +2142,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -2154,7 +2154,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -2172,7 +2172,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -2184,7 +2184,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -2206,13 +2206,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -2224,7 +2224,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -2236,7 +2236,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -2254,7 +2254,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -2266,7 +2266,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -2289,13 +2289,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -2307,7 +2307,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -2319,7 +2319,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -2337,7 +2337,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -2349,7 +2349,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -2370,13 +2370,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -2388,7 +2388,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -2400,7 +2400,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -2418,7 +2418,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -2430,7 +2430,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -2452,13 +2452,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -2470,7 +2470,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -2482,7 +2482,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -2500,7 +2500,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -2512,7 +2512,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -2536,13 +2536,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -2554,7 +2554,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -2566,7 +2566,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -2584,7 +2584,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -2596,7 +2596,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -2620,13 +2620,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -2638,7 +2638,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -2650,7 +2650,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -2668,7 +2668,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -2680,7 +2680,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -2700,13 +2700,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -2718,7 +2718,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -2730,7 +2730,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -2748,7 +2748,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -2760,7 +2760,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -2781,13 +2781,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -2799,7 +2799,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -2811,7 +2811,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -2829,7 +2829,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -2841,7 +2841,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -2863,13 +2863,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -2881,7 +2881,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -2893,7 +2893,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -2911,7 +2911,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -2923,7 +2923,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -2946,13 +2946,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -2964,7 +2964,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -2976,7 +2976,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -2994,7 +2994,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -3006,7 +3006,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -3027,13 +3027,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -3045,7 +3045,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -3057,7 +3057,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -3075,7 +3075,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -3087,7 +3087,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -3109,13 +3109,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -3127,7 +3127,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -3139,7 +3139,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -3157,7 +3157,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -3169,7 +3169,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -3193,13 +3193,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -3211,7 +3211,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -3223,7 +3223,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -3241,7 +3241,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -3253,7 +3253,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -3279,13 +3279,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -3297,7 +3297,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -3309,7 +3309,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -3327,7 +3327,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -3339,7 +3339,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -3361,13 +3361,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -3379,7 +3379,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -3391,7 +3391,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -3409,7 +3409,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -3421,7 +3421,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -3442,13 +3442,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -3460,7 +3460,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -3472,7 +3472,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -3490,7 +3490,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -3502,7 +3502,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -3524,13 +3524,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -3542,7 +3542,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -3554,7 +3554,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -3572,7 +3572,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -3584,7 +3584,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -3607,13 +3607,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -3625,7 +3625,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -3637,7 +3637,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -3655,7 +3655,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -3667,7 +3667,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -3688,13 +3688,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -3706,7 +3706,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -3718,7 +3718,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -3736,7 +3736,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -3748,7 +3748,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -3770,13 +3770,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -3788,7 +3788,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -3800,7 +3800,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -3818,7 +3818,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -3830,7 +3830,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -3854,13 +3854,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -3872,7 +3872,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -3884,7 +3884,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -3902,7 +3902,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -3914,7 +3914,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -3959,13 +3959,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -3977,7 +3977,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -3989,7 +3989,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -4007,7 +4007,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -4019,7 +4019,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -4039,13 +4039,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -4057,7 +4057,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -4069,7 +4069,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -4087,7 +4087,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -4099,7 +4099,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -4120,13 +4120,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -4138,7 +4138,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -4150,7 +4150,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -4168,7 +4168,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -4180,7 +4180,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -4202,13 +4202,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -4220,7 +4220,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -4232,7 +4232,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -4250,7 +4250,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -4262,7 +4262,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -4285,13 +4285,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -4303,7 +4303,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -4315,7 +4315,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -4333,7 +4333,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -4345,7 +4345,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -4366,13 +4366,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -4384,7 +4384,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -4396,7 +4396,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -4414,7 +4414,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -4426,7 +4426,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -4448,13 +4448,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -4466,7 +4466,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -4478,7 +4478,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -4496,7 +4496,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -4508,7 +4508,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -4532,13 +4532,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -4550,7 +4550,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -4562,7 +4562,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -4580,7 +4580,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -4592,7 +4592,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -4618,13 +4618,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -4636,7 +4636,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -4648,7 +4648,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -4666,7 +4666,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -4678,7 +4678,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -4700,13 +4700,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -4718,7 +4718,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -4730,7 +4730,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -4748,7 +4748,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -4760,7 +4760,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -4781,13 +4781,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -4799,7 +4799,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -4811,7 +4811,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -4829,7 +4829,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -4841,7 +4841,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -4863,13 +4863,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -4881,7 +4881,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -4893,7 +4893,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -4911,7 +4911,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -4923,7 +4923,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -4946,13 +4946,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -4964,7 +4964,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -4976,7 +4976,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -4994,7 +4994,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -5006,7 +5006,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -5027,13 +5027,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -5045,7 +5045,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -5057,7 +5057,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -5075,7 +5075,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -5087,7 +5087,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -5109,13 +5109,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -5127,7 +5127,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -5139,7 +5139,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -5157,7 +5157,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -5169,7 +5169,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -5193,13 +5193,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -5211,7 +5211,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -5223,7 +5223,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -5241,7 +5241,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -5253,7 +5253,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -5298,13 +5298,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -5316,7 +5316,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -5328,7 +5328,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -5346,7 +5346,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -5358,7 +5358,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -5380,13 +5380,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -5398,7 +5398,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -5410,7 +5410,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -5428,7 +5428,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -5440,7 +5440,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -5461,13 +5461,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -5479,7 +5479,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -5491,7 +5491,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -5509,7 +5509,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -5521,7 +5521,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -5543,13 +5543,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -5561,7 +5561,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -5573,7 +5573,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -5591,7 +5591,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -5603,7 +5603,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -5626,13 +5626,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -5644,7 +5644,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -5656,7 +5656,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -5674,7 +5674,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -5686,7 +5686,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -5707,13 +5707,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -5725,7 +5725,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -5737,7 +5737,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -5755,7 +5755,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -5767,7 +5767,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -5789,13 +5789,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -5807,7 +5807,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -5819,7 +5819,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -5837,7 +5837,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -5849,7 +5849,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -5873,13 +5873,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -5891,7 +5891,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -5903,7 +5903,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -5921,7 +5921,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -5933,7 +5933,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -5979,13 +5979,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -5997,7 +5997,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -6009,7 +6009,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -6027,7 +6027,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -6039,7 +6039,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -6061,13 +6061,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -6079,7 +6079,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -6091,7 +6091,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -6109,7 +6109,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -6121,7 +6121,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -6142,13 +6142,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -6160,7 +6160,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -6172,7 +6172,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -6190,7 +6190,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -6202,7 +6202,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -6223,13 +6223,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -6241,7 +6241,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -6253,7 +6253,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -6271,7 +6271,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -6283,7 +6283,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -6319,13 +6319,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -6337,7 +6337,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -6349,7 +6349,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -6367,7 +6367,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -6379,7 +6379,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -6400,13 +6400,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -6418,7 +6418,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -6430,7 +6430,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -6448,7 +6448,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -6460,7 +6460,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
@@ -6483,13 +6483,13 @@ else
 		<option>Messico</option>
 		<option>Corea del Sud</option>
 		<option>Sudafrica</option>
-		<option>Vincitore_D</option>
+		<option>Repubblica Ceca</option>
 	</optgroup>
 	<optgroup label="Girone B">
 		<option>Canada</option>
 		<option>Svizzera</option>
 		<option>Qatar</option>
-		<option>Vincitore_A</option>
+		<option>Bosnia ed Erzegovina</option>
 	</optgroup>
 	<optgroup label="Girone C">
 		<option>Brasile</option>
@@ -6501,7 +6501,7 @@ else
 		<option>USA</option>
 		<option>Australia</option>
 		<option>Paraguay</option>
-		<option>Vincitore_C</option>
+		<option>Turchia</option>
 	</optgroup>
 	<optgroup label="Girone E">
 		<option>Germania</option>
@@ -6513,7 +6513,7 @@ else
 		<option>Olanda</option>
 		<option>Giappone</option>
 		<option>Tunisia</option>
-		<option>Vincitore_B</option>
+		<option>Svezia</option>
 	</optgroup>
 	<optgroup label="Girone G">
 		<option>Belgio</option>
@@ -6531,7 +6531,7 @@ else
 		<option>Francia</option>
 		<option>Senegal</option>
 		<option>Norvegia</option>
-		<option>Vincitore_2</option>
+		<option>Iraq</option>
 	</optgroup>
 	<optgroup label="Girone J">
 		<option>Argentina</option>
@@ -6543,7 +6543,7 @@ else
 		<option>Portogallo</option>
 		<option>Colombia</option>
 		<option>Uzbekistan</option>
-		<option>Vincitore_1</option>
+		<option>Repubblica Democratica del Congo</option>
 	</optgroup>
 	<optgroup label="Girone L">
 		<option>Inghilterra</option>
