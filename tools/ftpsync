@@ -63,20 +63,22 @@ ftpsync_upload_folder()
 			echo $msg
 			
 			# lftp mirror parameters:
+			# set ssl:verify-certificate false skip verification because of wrong certificates
 			# -c,    --continue                continue a mirror job if possible
 			# -r,    --no-recursion            don't go to subdirectories
 			# -R,    --reverse                 reverse mirror (put files)
-			lftp -e "open && mirror -c -r -R $localfolder $ftpfolder && exit" -u $ftpusername,$ftppassword $ftpserver
+			lftp -e "set ssl:verify-certificate false; open && mirror -c -r -R $localfolder $ftpfolder && exit" -u $ftpusername,$ftppassword $ftpserver
 		else
 			# subfolder
 			echo " "
 			echo $msg
 			
 			# lftp mirror parameters:
+			# set ssl:verify-certificate false skip verification because of wrong certificates
 			# -c,    --continue                continue a mirror job if possible
 			# -e,    --delete                  delete files not present at remote site
 			# -R,    --reverse                 reverse mirror (put files)
-			lftp -e "open && mirror -c -e -R $localsubfolder/ $ftpsubfolder/ && exit" -u $ftpusername,$ftppassword $ftpserver
+			lftp -e "set ssl:verify-certificate false; open && mirror -c -e -R $localsubfolder/ $ftpsubfolder/ && exit" -u $ftpusername,$ftppassword $ftpserver
 		fi
 	fi
 }
@@ -131,18 +133,20 @@ ftpsync_download_folder()
 		echo $msg
 		
 		# lftp mirror parameters:
+		# set ssl:verify-certificate false skip verification because of wrong certificates
 		# -c,    --continue                continue a mirror job if possible
 		# -r,    --no-recursion            don't go to subdirectories
-		lftp -e "open && mirror -c -r $ftpfolder $localfolder && exit" -u $ftpusername,$ftppassword $ftpserver
+		lftp -e "set ssl:verify-certificate false; open && mirror -c -r $ftpfolder $localfolder && exit" -u $ftpusername,$ftppassword $ftpserver
 	else
 		# subfolder
 		echo " "
 		echo $msg
 		
 		# lftp mirror parameters:
+		# set ssl:verify-certificate false skip verification because of wrong certificates
 		# -c,    --continue                continue a mirror job if possible
 		# -e,    --delete                  delete files not present at remote site
-		lftp -e "open && mirror -c -e $ftpsubfolder/ $localsubfolder/ && exit" -u $ftpusername,$ftppassword $ftpserver
+		lftp -e "set ssl:verify-certificate false; open && mirror -c -e $ftpsubfolder/ $localsubfolder/ && exit" -u $ftpusername,$ftppassword $ftpserver
 	fi
 }
 

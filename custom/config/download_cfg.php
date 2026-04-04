@@ -22,8 +22,8 @@ Formato [folder_xxx]:
 ;
 
 [folder_root]
-folder::folder_ARS::ARS Amatori Running Sele::Sezione relativa all'associazione::Amatori Running Sele::::admin::22:07 04/07/2007::1555
-folder::folder_vari::Files vari::Sezione con risorse di varia natura::vari::::admin::22:07 04/07/2007::1072
+folder::folder_ARS::ARS Amatori Running Sele::Sezione relativa all'associazione::Amatori Running Sele::::admin::22:07 04/07/2007::1574
+folder::folder_vari::Files vari::Sezione con risorse di varia natura::vari::::admin::22:07 04/07/2007::1098
 
 [folder_vari]
 folder::folder_FC_caposele::Documenti relativi a FC Caposele::I documenti costitutivi dell'"FC Caposele": regolamento interno, ecc.::FC_caposele::::admin::22:07 06/07/2018::256
