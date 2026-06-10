@@ -15,7 +15,7 @@
 #	data_presentazione_risultati  : hh:mm gg/mm/aaaa
 #
 [Attributi]
-Mondiali 2026::attiva::no_auth::24:00 05/04/2026::24:00 10/06/2026::00:05 11/06/2026
+Mondiali 2026::attiva::no_auth::24:00 05/04/2026::21:00 11/06/2026::21:05 11/06/2026
 
 #
 # msg1::msg2::msg3
@@ -24,7 +24,7 @@ Mondiali 2026::attiva::no_auth::24:00 05/04/2026::24:00 10/06/2026::00:05 11/06/
 #	msg3: visualizzato dopo la chiusura delle giocate
 #
 [msg_date]
-Il sondaggio non e' ancora aperto. Potrai giocare dalle 24:00 del 05/04::Si puo' giocare fino alle 24:00 del 10/06::Le giocate sono chiuse, la classifica sara' aggiornata dopo la disputa di ogni turno (sedicesimi, ottavi, quarti, semifinali e finale).
+Il sondaggio non e' ancora aperto. Potrai giocare dalle 24:00 del 05/04::Si puo' giocare fino alle 21:00 dell'11/06::Le giocate sono chiuse, la classifica sara' aggiornata dopo la disputa di ogni turno (sedicesimi, ottavi, quarti, semifinali e finale).
 
 # Formato riga [keyfiles]:
 # nome::caption::num_keys
@@ -341,7 +341,7 @@ Germania::stat_risposta::Posizionamento <span class="hi">Germania</span>::posizi
 # Messaggi custom: possono essere in qualsiasi forma, vi si accede come $lotteria['msg_custom'][<numero_riga>][<numero_colonna>]
 #
 [msg_custom]
-Usa il <a href="#" id="openCompiler">tabellone di aiuto alla compilazione</a> per compilare i campi::download.php?resource_type=file&resource_id=file_Tabella_mondiali_2026_htm
+Usa il <a href="#" id="openCompiler">tabellone di aiuto alla compilazione</a> per compilare i campi <br> <b><span style="background-color: yellow; font-size: 1.3em;">Attenzione! A causa di un guasto, dopo aver compilato il tabellone con la nuova procedura automatica, bisogna fare una foto o uno screenshot della pagina e inviarlo al seguente indirizzo: <a href="mailto:pasquale_c@hotmail.com">pasquale_c@hotmail.com</a>, in quanto c'&egrave; il rischio che il sistema non registri correttamente i pronostici indicati. Per questo motivo, il termine &egrave; stato prorogato di un giorno.</b></span>::download.php?resource_type=file&resource_id=file_Tabella_mondiali_2026_htm
 
 
 #
