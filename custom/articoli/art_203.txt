@@ -10,14 +10,16 @@ Il sondaggio si &egrave; concluso con la seguente <a href="questions.php?id_ques
 Il primo classificato con 567 punti &egrave; Mattia Azzinnari; secondo classificato con 563 punti Nicola Melillo '79. Entrambi hanno correttamente pronosticato in finale Francia e Portogallo. Terzo classificato con 528 punti Gerardo Luigi Forte, unico a pronosticare la vittoria del Portogallo.<br>
 <a href="statistiche.php?id_questions=9&action=show">Qui</a> invece trovate una analisi statistica sui pronostici effettuati.<br>
 -->
-<!--
-<p style="margin-top:20px">Le giocate per il Sondaggio Mondiali 2026 sono chiuse, e la classifica &egrave; aggiornata sulla base dei risultati.<br>
+<p style="margin-top:20px">Le giocate per il Sondaggio Mondiali 2026 sono chiuse, e la <a href="questions.php?id_questions=14">classifica</a> verr&agrave; aggiornata sulla base dei risultati.<br>
 <br>
+<!--
 <a href="questions.php?id_questions=14">Qui</a> è disponibile il tabellone con la classifica attuale.<br>
 <a href="statistiche.php?id_questions=14&action=show">Qui</a> invece trovate una analisi statistica sui pronostici effettuati.<br>
 -->
-<p style="margin-top:20px">Le giocate per il Sondaggio Mondiali 2026 si apriranno alla mezzanotte del 5 aprile.<br>
-<a href="questions.php?id_questions=14">Qui</a> è disponibile la pagina predisposta per le giocate<br>
+<!--p style="margin-top:20px">Le giocate per il Sondaggio Mondiali 2026 si apriranno alla mezzanotte del 5 aprile.<br-->
+<!--p style="margin-top:20px">Le giocate per il Sondaggio Mondiali 2026 sono aperte. Si potrà giocare <b>fino alle ore 21 dell'11 giugno.</b><br-->
+<!--b><span style="background-color: yellow; font-size: 1.3em;">Attenzione! A causa di un guasto, dopo aver compilato il tabellone con la nuova procedura automatica, bisogna fare una foto o uno screenshot della pagina e inviarlo al seguente indirizzo: <a href="mailto:pasquale_c@hotmail.com">pasquale_c@hotmail.com</a>, in quanto c'è il rischio che il sistema non registri correttamente i pronostici indicati. Per questo motivo, il termine è stato prorogato di un giorno.</b></span><br>
+<a href="questions.php?id_questions=14">Qui</a> è disponibile la pagina predisposta per le giocate<br-->
 <!--p style="margin-top:20px">Le giocate per il Sondaggio Mondiali 2026 sono aperte fino a mezzogiorno del 14 giugno.<br-->
 <!--a href="questions.php?id_questions=14">Qui</a> è disponibile la pagina per inserire la giocata<br-->
 <br>
@@ -29,7 +31,7 @@ Il punteggio assegnato per la qualificazione delle 24 squadre prime e seconde cl
 </ul>
 Alle 8 squadre qualificate tra le migliori terze classificate nei gironi non viene assegnato alcun punteggio per effetto del passaggio di turno, fatto salvo quanto eventualmente spettante nei casi di parit&agrave di punteggio con altre squadre, in base ai punti precedenti del presente regolamento.<br>
 <br>
-Nella  fase  a scontri diretti sono assegnati 20 punti (raddoppiati progressivamente a partire dagli ottavi: 20 ai sedicesimi, 40 agli ottavi, 80 ai quarti, 160 in semifinale, e cos&igrave; via) distribuiti come segue:
+Nella  fase  a scontri diretti sono assegnati 20 punti (raddoppiati progressivamente a partire dagli ottavi: 20 ai sedicesimi, 40 agli ottavi, 80 ai quarti, 160 in semifinale, 320 in finale) distribuiti come segue:
 <ul>
   <li>20 punti in caso di vittoria nei tempi regolamentari (e 0 alla squadra sconfitta);</li>
   <li>16 punti in caso di vittoria ai supplementari, ove previsti (e 4 alla squadra sconfitta);</li>
