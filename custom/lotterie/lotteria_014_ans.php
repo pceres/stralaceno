@@ -5,95 +5,95 @@
 #
 
 # Qualificato sedicesimi 1:
-nd
+Messico
 # Qualificato sedicesimi 2:
-nd
+USA
 # Qualificato sedicesimi 3:
-nd
+Germania
 # Qualificato sedicesimi 4:
-nd
+Francia
 # Qualificato sedicesimi 5:
-nd
+Norvegia
 # Qualificato sedicesimi 6:
-nd
+Argentina
 # Qualificato sedicesimi 7:
-nd
+Svizzera
 # Qualificato sedicesimi 8:
-nd
+Canada
 # Qualificato sedicesimi 9:
-nd
+Colombia
 # Qualificato sedicesimi 10:
-nd
+Bosnia ed Erzegovina
 # Qualificato sedicesimi 11:
-nd
+Brasile
 # Qualificato sedicesimi 12:
-nd
+Marocco
 # Qualificato sedicesimi 13:
-nd
+Australia
 # Qualificato sedicesimi 14:
-nd
+Sudafrica
 # Qualificato sedicesimi 15:
-nd
+Costa d'Avorio
 # Qualificato sedicesimi 16:
-nd
+Ecuador
 # Qualificato sedicesimi 17:
-nd
+Olanda
 # Qualificato sedicesimi 18:
-nd
+Giappone
 # Qualificato sedicesimi 19:
-nd
+Svezia
 # Qualificato sedicesimi 20:
-nd
+Paraguay
 # Qualificato sedicesimi 21:
-nd
+Belgio
 # Qualificato sedicesimi 22:
-nd
+Egitto
 # Qualificato sedicesimi 23:
-nd
+Capo Verde
 # Qualificato sedicesimi 24:
-nd
+Senegal
 # Qualificato sedicesimi 25:
-nd
+Spagna
 # Qualificato sedicesimi 26:
-nd
+Austria
 # Qualificato sedicesimi 27:
-nd
+Algeria
 # Qualificato sedicesimi 28:
-nd
+Portogallo
 # Qualificato sedicesimi 29:
-nd
+Repubblica Democratica del Congo
 # Qualificato sedicesimi 30:
-nd
+Inghilterra
 # Qualificato sedicesimi 31:
-nd
+Croazia
 # Qualificato sedicesimi 32:
-nd
+Ghana
 # Qualificato ottavi 1:
-nd
+Canada
 # Qualificato ottavi 2:
-nd
+Brasile
 # Qualificato ottavi 3:
-nd
+Paraguay
 # Qualificato ottavi 4:
-nd
+Marocco
 # Qualificato ottavi 5:
-nd
+Norvegia
 # Qualificato ottavi 6:
-nd
+Francia
 # Qualificato ottavi 7:
-nd
+Messico
 # Qualificato ottavi 8:
-nd
+Inghilterra
 # Qualificato ottavi 9:
-nd
+Belgio
 # Qualificato ottavi 10:
-nd
+USA
 # Qualificato ottavi 11:
-nd
+Spagna
 # Qualificato ottavi 12:
-nd
+Portogallo
 # Qualificato ottavi 13:
-nd
+Svizzera
 # Qualificato ottavi 14:
 nd
 # Qualificato ottavi 15:
@@ -156,84 +156,84 @@ nd
 #
 # Girone A
 #
-Messico::
-Corea del Sud::
-Sudafrica::
-Repubblica Ceca::
+Messico::6,20;5,20;
+Corea del Sud::6,0;5,0;4,0;3,0;2,0;1,0
+Sudafrica::6,20;5,0;4,0;3,0;2,0;1,0
+Repubblica Ceca::6,0;5,0;4,0;3,0;2,0;1,0
 #
 # Girone B
 #
-Canada::
-Svizzera::
-Qatar::
-Bosnia ed Erzegovina::
+Canada::6,14;5,20;
+Svizzera::6,20;5,20;
+Qatar::6,0;5,0;4,0;3,0;2,0;1,0
+Bosnia ed Erzegovina::6,6;5,0;4,0;3,0;2,0;1,0
 #
 # Girone C
 #
-Brasile::
-Marocco::
-Scozia::
-Haiti::
+Brasile::6,20;5,20;
+Marocco::6,20;5,11;
+Scozia::6,0;5,0;4,0;3,0;2,0;1,0
+Haiti::6,0;5,0;4,0;3,0;2,0;1,0
 #
 # Girone D
 #
-USA::
-Australia::
-Paraguay::
-Turchia::
+USA::6,20;5,20;
+Australia::6,14;
+Paraguay::6,6;5,11;
+Turchia::6,0;5,0;4,0;3,0;2,0;1,0
 #
 # Girone E
 #
-Germania::
-Ecuador::
-Costa d'Avorio::
-Curaçao::
+Germania::6,20;5,9;4,0;3,0;2,0;1,0
+Ecuador::6,0;5,0;4,0;3,0;2,0;1,0
+Costa d'Avorio::6,20;5,0;4,0;3,0;2,0;1,0
+Curaçao::6,0;5,0;4,0;3,0;2,0;1,0
 #
 # Girone F
 #
-Olanda::
-Giappone::
-Tunisia::
-Svezia::
+Olanda::6,20;5,9;4,0;3,0;2,0;1,0
+Giappone::6,20;5,0;4,0;3,0;2,0;1,0
+Tunisia::6,0;5,0;4,0;3,0;2,0;1,0
+Svezia::6,0;5,0;4,0;3,0;2,0;1,0
 #
 # Girone G
 #
-Belgio::
-Iran::
-Egitto::
-Nuova Zelanda::
+Belgio::6,20;5,16;
+Iran::6,0;5,0;4,0;3,0;2,0;1,0
+Egitto::6,20;
+Nuova Zelanda::6,0;5,0;4,0;3,0;2,0;1,0
 #
 # Girone H
 #
-Spagna::
-Uruguay::
-Arabia Saudita::
-Capo Verde::
+Spagna::6,20;5,20;
+Uruguay::6,0;5,0;4,0;3,0;2,0;1,0
+Arabia Saudita::6,0;5,0;4,0;3,0;2,0;1,0
+Capo Verde::6,20;
 #
 # Girone I
 #
-Francia::
-Senegal::
-Norvegia::
-Iraq::
+Francia::6,20;5,20;
+Senegal::6,0;5,4;4,0;3,0;2,0;1,0
+Norvegia::6,20;5,20;
+Iraq::6,0;5,0;4,0;3,0;2,0;1,0
 #
 # Girone J
 #
-Argentina::
-Austria::
-Algeria::
-Giordania::
+Argentina::6,20;
+Austria::6,14;5,0;4,0;3,0;2,0;1,0
+Algeria::6,6;5,0;4,0;3,0;2,0;1,0
+Giordania::6,0;5,0;4,0;3,0;2,0;1,0
 #
 # Girone K
 #
-Portogallo::
-Colombia::
-Uzbekistan::
-Repubblica Democratica del Congo::
+Portogallo::6,20;5,20;
+Colombia::6,20;
+Uzbekistan::6,0;5,0;4,0;3,0;2,0;1,0
+Repubblica Democratica del Congo::6,0;5,0;4,0;3,0;2,0;1,0
 #
 # Girone L
 #
-Inghilterra::
-Croazia::
-Panama::
-Ghana::
+Inghilterra::6,20;5,20;
+Croazia::6,20;5,0;4,0;3,0;2,0;1,0
+Panama::6,0;5,0;4,0;3,0;2,0;1,0
+Ghana::6,0;5,0;4,0;3,0;2,0;1,0

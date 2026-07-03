@@ -10,12 +10,15 @@ Il sondaggio si &egrave; concluso con la seguente <a href="questions.php?id_ques
 Il primo classificato con 567 punti &egrave; Mattia Azzinnari; secondo classificato con 563 punti Nicola Melillo '79. Entrambi hanno correttamente pronosticato in finale Francia e Portogallo. Terzo classificato con 528 punti Gerardo Luigi Forte, unico a pronosticare la vittoria del Portogallo.<br>
 <a href="statistiche.php?id_questions=9&action=show">Qui</a> invece trovate una analisi statistica sui pronostici effettuati.<br>
 -->
-<p style="margin-top:20px">Le giocate per il Sondaggio Mondiali 2026 sono chiuse, e la <a href="questions.php?id_questions=14">classifica</a> verr&agrave; aggiornata sulla base dei risultati.<br>
+<p style="margin-top:20px">Le giocate per il Sondaggio Mondiali 2026 sono chiuse, e la classifica verr&agrave; aggiornata sulla base dei risultati.<br>
 <br>
-<!--
+
+Si ricorda che quest'anno - a causa di un problema tecnico che ha influito sulla cronologia delle giocate - coloro che avranno conseguito un medesimo punteggio saranno classificati ex-aequo e riportati nella classifica ufficiale in ordine alfabetico.<br>
+<br>
+
 <a href="questions.php?id_questions=14">Qui</a> è disponibile il tabellone con la classifica attuale.<br>
 <a href="statistiche.php?id_questions=14&action=show">Qui</a> invece trovate una analisi statistica sui pronostici effettuati.<br>
--->
+
 <!--p style="margin-top:20px">Le giocate per il Sondaggio Mondiali 2026 si apriranno alla mezzanotte del 5 aprile.<br-->
 <!--p style="margin-top:20px">Le giocate per il Sondaggio Mondiali 2026 sono aperte. Si potrà giocare <b>fino alle ore 21 dell'11 giugno.</b><br-->
 <!--b><span style="background-color: yellow; font-size: 1.3em;">Attenzione! A causa di un guasto, dopo aver compilato il tabellone con la nuova procedura automatica, bisogna fare una foto o uno screenshot della pagina e inviarlo al seguente indirizzo: <a href="mailto:pasquale_c@hotmail.com">pasquale_c@hotmail.com</a>, in quanto c'è il rischio che il sistema non registri correttamente i pronostici indicati. Per questo motivo, il termine è stato prorogato di un giorno.</b></span><br>
