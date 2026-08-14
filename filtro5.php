@@ -95,7 +95,7 @@ foreach ($tabella as $atleta) {
 			$valore = $atleta['info'][$indice2_nome];
 			
 			if (mostro_link($atleta['info']) == TRUE) {
-				$valore = "<div align=\"left\"><a href=\"info.php?id=".$atleta['info'][$indice2_id]."\">".$valore."</a></div>";
+				$valore = "<div align=\"left\"><a href=\"show_athlete.php?id=".$atleta['info'][$indice2_id]."\">".$valore."</a></div>";
 				}
 			else {
 				$valore = "<div align=\"left\">".$valore."</div>";

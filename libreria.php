@@ -538,7 +538,7 @@ for ($i = 1; $i < count($archivio); $i++) {
 			$allineamento = "left";
 			if (mostro_link($prestazione['info']))
 			{
-				$campo = "<a href=\"info.php?id=".$prestazione['info'][$indice2_id]."\">$campo&nbsp;&nbsp;$symbol_info</a>";
+				$campo = "<a href=\"show_athlete.php?id=".$prestazione['info'][$indice2_id]."\">$campo&nbsp;&nbsp;$symbol_info</a>";
 				$flag_has_info = 1;
 			}
 		}
