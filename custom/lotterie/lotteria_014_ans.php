@@ -95,41 +95,41 @@ Portogallo
 # Qualificato ottavi 13:
 Svizzera
 # Qualificato ottavi 14:
-nd
+Egitto
 # Qualificato ottavi 15:
-nd
+Argentina
 # Qualificato ottavi 16:
-nd
+Colombia
 # Qualificato quarti 1:
-nd
+Marocco
 # Qualificato quarti 2:
-nd
+Francia
 # Qualificato quarti 3:
-nd
+Norvegia
 # Qualificato quarti 4:
-nd
+Inghilterra
 # Qualificato quarti 5:
-nd
+Spagna
 # Qualificato quarti 6:
-nd
+Belgio
 # Qualificato quarti 7:
-nd
+Argentina
 # Qualificato quarti 8:
-nd
+Svizzera
 # Qualificato semifinale 1:
-nd
+Francia
 # Qualificato semifinale 2:
-nd
+Spagna
 # Qualificato semifinale 3:
-nd
+Inghilterra
 # Qualificato semifinale 4:
-nd
+Argentina
 # Qualificato finale 1:
-nd
+Spagna
 # Qualificato finale 2:
-nd
+Argentina
 # Vincitore:
-nd
+Spagna
 
 #
 # Le risposte sono suddivise in gruppi. Per ciascun gruppo esiste un set di risposte piu' o meno corrette
@@ -156,30 +156,30 @@ nd
 #
 # Girone A
 #
-Messico::6,20;5,20;
+Messico::6,20;5,20;4,0;3,0;2,0;1,0
 Corea del Sud::6,0;5,0;4,0;3,0;2,0;1,0
 Sudafrica::6,20;5,0;4,0;3,0;2,0;1,0
 Repubblica Ceca::6,0;5,0;4,0;3,0;2,0;1,0
 #
 # Girone B
 #
-Canada::6,14;5,20;
-Svizzera::6,20;5,20;
+Canada::6,14;5,20;4,0;3,0;2,0;1,0
+Svizzera::6,20;5,20;4,22;3,16;2,0;1,0
 Qatar::6,0;5,0;4,0;3,0;2,0;1,0
 Bosnia ed Erzegovina::6,6;5,0;4,0;3,0;2,0;1,0
 #
 # Girone C
 #
-Brasile::6,20;5,20;
-Marocco::6,20;5,11;
+Brasile::6,20;5,20;4,0;3,0;2,0;1,0
+Marocco::6,20;5,11;4,40;3,0;2,0;1,0
 Scozia::6,0;5,0;4,0;3,0;2,0;1,0
 Haiti::6,0;5,0;4,0;3,0;2,0;1,0
 #
 # Girone D
 #
-USA::6,20;5,20;
-Australia::6,14;
-Paraguay::6,6;5,11;
+USA::6,20;5,20;4,0;3,0;2,0;1,0
+Australia::6,14;5,9;4,0;3,0;2,0;1,0
+Paraguay::6,6;5,11;4,0;3,0;2,0;1,0
 Turchia::6,0;5,0;4,0;3,0;2,0;1,0
 #
 # Girone E
@@ -198,42 +198,42 @@ Svezia::6,0;5,0;4,0;3,0;2,0;1,0
 #
 # Girone G
 #
-Belgio::6,20;5,16;
+Belgio::6,20;5,16;4,40;3,0;2,0;1,0
 Iran::6,0;5,0;4,0;3,0;2,0;1,0
-Egitto::6,20;
+Egitto::6,20;5,11;4,0;3,0;2,0;1,0
 Nuova Zelanda::6,0;5,0;4,0;3,0;2,0;1,0
 #
 # Girone H
 #
-Spagna::6,20;5,20;
+Spagna::6,20;5,20;4,40;3,80;2,160;1,256
 Uruguay::6,0;5,0;4,0;3,0;2,0;1,0
 Arabia Saudita::6,0;5,0;4,0;3,0;2,0;1,0
-Capo Verde::6,20;
+Capo Verde::6,20;5,4;4,0;3,0;2,0;1,0
 #
 # Girone I
 #
-Francia::6,20;5,20;
+Francia::6,20;5,20;4,40;3,80;2,0;1,0
 Senegal::6,0;5,4;4,0;3,0;2,0;1,0
-Norvegia::6,20;5,20;
+Norvegia::6,20;5,20;4,40;3,16;2,0;1,0
 Iraq::6,0;5,0;4,0;3,0;2,0;1,0
 #
 # Girone J
 #
-Argentina::6,20;
+Argentina::6,20;5,16;4,40;3,64;2,160;1,64
 Austria::6,14;5,0;4,0;3,0;2,0;1,0
 Algeria::6,6;5,0;4,0;3,0;2,0;1,0
 Giordania::6,0;5,0;4,0;3,0;2,0;1,0
 #
 # Girone K
 #
-Portogallo::6,20;5,20;
-Colombia::6,20;
+Portogallo::6,20;5,20;4,0;3,0;2,0;1,0
+Colombia::6,20;5,20;4,18;3,0;2,0;1,0
 Uzbekistan::6,0;5,0;4,0;3,0;2,0;1,0
 Repubblica Democratica del Congo::6,0;5,0;4,0;3,0;2,0;1,0
 #
 # Girone L
 #
-Inghilterra::6,20;5,20;
+Inghilterra::6,20;5,20;4,40;3,64;2,0;1,0
 Croazia::6,20;5,0;4,0;3,0;2,0;1,0
 Panama::6,0;5,0;4,0;3,0;2,0;1,0
 Ghana::6,0;5,0;4,0;3,0;2,0;1,0
