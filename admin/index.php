@@ -18,17 +18,19 @@ $referer = $_SERVER['HTTP_REFERER']; // eg. 'https://localhost/work/ars.git/inde
 $debug_login = 1;
 if (
     !isset($_SERVER['HTTP_REFERER']) // referer not set ...
-    | ( (strlen(strpos($referer,"://".$_SERVER['HTTP_HOST'].$script_abs_path."index.php").' ') == 1) &
-    (strlen(strpos(substr($referer ,0,strrpos($referer ,'/')+1),"://".$_SERVER['HTTP_HOST'].$script_abs_path."admin/").' ') == 1) ) // ...or (referer ~= exact_link_from_homepage) & (referer ~= link_from_admin_pages) )
+    | ( (strlen(strpos($referer,"://".$_SERVER['HTTP_HOST'].$script_abs_path."index.php").' ') == 1) & // ...or (referer ~= exact_link_from_homepage) & ...
+        (strlen(strpos($referer,"://".$_SERVER['HTTP_HOST'].$script_abs_path."album.php").' ') == 1) & // ...(referer ~= exact_link_from_album) & ...
+        (strlen(strpos(substr($referer ,0,strrpos($referer ,'/')+1),"://".$_SERVER['HTTP_HOST'].$script_abs_path."admin/").' ') == 1) ) // ...(referer ~= link_from_admin_pages) )
     | (!in_array($login['status'],array('ok_form','ok_cookie'))) // ...or login_was_not_successful
    )
 {
     // bad login
     if ($debug_login) {
         // if debug, show info and die...
-        echo("(referer not set) | ( (referer ~= exact_link_from_homepage) & (referer ~= link_from_admin_pages) ) | (login_was_not_successful): ");
+        echo("(referer not set) | ( (referer ~= exact_link_from_homepage) & (referer ~= exact_link_from_album) & (referer ~= link_from_admin_pages) ) | (login_was_not_successful): ");
         echo("  (".!isset($_SERVER['HTTP_REFERER']).") | ( (".
         (strlen(strpos($referer,"://".$_SERVER['HTTP_HOST'].$script_abs_path."index.php").' ') == 1) .") & (".
+        (strlen(strpos($referer,"://".$_SERVER['HTTP_HOST'].$script_abs_path."album.php").' ') == 1) .") & (".
         (strlen(strpos(substr($referer ,0,strrpos($referer ,'/')+1),"://".$_SERVER['HTTP_HOST'].$script_abs_path."admin/").' ') == 1)   .") ) | (".
         (!in_array($login['status'],array('ok_form','ok_cookie'))).")<br>");
         echo("<br>");
